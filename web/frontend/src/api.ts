@@ -116,6 +116,22 @@ export const api = {
 
 export const downloadUrl = (url: string) => url + (url.includes("?") ? "&" : "?") + "download=1";
 
+/** Convert a model to .glb on the server (mpd2glb) and save it. Can take a minute. */
+export async function downloadGlb(modelUrl: string, fileName: string): Promise<void> {
+  const res = await fetch(`/api/glb?url=${encodeURIComponent(modelUrl)}`);
+  if (!res.ok) {
+    const body = await res.json().catch(() => ({}));
+    throw new Error(typeof body.detail === "string" ? body.detail : res.statusText);
+  }
+  const link = document.createElement("a");
+  link.href = URL.createObjectURL(await res.blob());
+  link.download = fileName.replace(/\.[^.]+$/, "") + ".glb";
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  setTimeout(() => URL.revokeObjectURL(link.href), 30000);
+}
+
 export const viewerUrl = (modelUrl: string, parts?: number | null) =>
   `/viewer/viewer.html?model=${encodeURIComponent(modelUrl)}` + (parts != null ? `&parts=${parts}` : "");
 

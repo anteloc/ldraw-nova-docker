@@ -12,7 +12,7 @@ import zipfile
 from contextlib import asynccontextmanager
 from pathlib import Path
 from typing import Any, Optional
-from urllib.parse import quote
+from urllib.parse import quote, unquote, urlsplit
 
 import litellm
 import yaml
@@ -24,10 +24,11 @@ from starlette.background import BackgroundTask
 
 import agent
 import gallery
+import glb
 import llm_config
 import sandbox
 import settings
-from leocad_render import bom_path_for, snapshot_path_for
+from leocad_render import MODEL_SUFFIXES, bom_path_for, snapshot_path_for
 from paths import rel_to, safe_join
 from store import ChatStore, get_store
 
@@ -309,6 +310,32 @@ async def models_list():
     index = model_chat_index(get_store())
     items = [{**model_info(path), "chats": index.get(path, [])} for path in models]
     return {"models": items, "pending": sum(1 for i in items if _pending(i))}
+
+
+def model_from_url(url: str) -> Optional[Path]:
+    """The model file behind a viewer URL: /files/generated/<name> or /ref/<name>."""
+    path = unquote(urlsplit(url).path)
+    for prefix, root, case_insensitive in (("/files/generated/", settings.GENERATED_DIR, False),
+                                           ("/ref/", settings.REF_MODELS_DIR, True)):
+        if path.startswith(prefix):
+            model = safe_join(root, path[len(prefix):], case_insensitive=case_insensitive)
+            if (model is not None and model.is_file() and model.parent == root.resolve()
+                    and model.suffix.lower() in MODEL_SUFFIXES):
+                return model
+    return None
+
+
+@app.get("/api/glb")
+async def model_glb(url: str):
+    """The model at `url` (as the viewer loads it) as an uncompressed .glb, made
+    with mpd2glb. Can take a minute for big models; cached per model version."""
+    model = model_from_url(url) or _not_found("not a model in data/generated or the reference models")
+    try:
+        out = await glb.export_glb(model)
+    except glb.GlbError as exc:
+        raise HTTPException(500, str(exc)) from None
+    return FileResponse(out, media_type="model/gltf-binary", filename=model.stem + ".glb",
+                        headers={"Cache-Control": "no-cache"})
 
 
 @app.get("/api/models/zip")

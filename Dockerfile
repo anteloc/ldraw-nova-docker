@@ -102,6 +102,37 @@ COPY models-annotated/ /opt/models-annotated/
 COPY web/backend/build_index.py /opt/index/build_index.py
 RUN python3 /opt/index/build_index.py /opt/ldraw/ldraw /opt/models-annotated /opt/index
 
+# --- Bun runtime (for mpd2glb) -------------------------------------------------
+# mpd2glb supports Node.js and Bun; measured on this image, Bun converts up to
+# ~3.7x faster than Node (Deno: no faster) with byte-identical .glb output.
+# The *baseline* build: the default one needs AVX2, which the emulated x86 CPU
+# on Apple Silicon doesn't have. Pinned and checksum-verified.
+ARG BUN_VERSION=1.4.2
+ARG BUN_SHA256=c678040f14fe0440eb839d37cbd0ce4c051a32da72806ac97de6a6aab6bf728f
+RUN set -eux; \
+    curl -fsSL "https://github.com/oven-sh/bun/releases/download/bun-v${BUN_VERSION}/bun-linux-x64-baseline.zip" -o /tmp/bun.zip; \
+    echo "${BUN_SHA256}  /tmp/bun.zip" | sha256sum -c -; \
+    unzip -q /tmp/bun.zip -d /tmp/bun; \
+    install -m 0755 /tmp/bun/bun-linux-x64-baseline/bun /usr/local/bin/bun; \
+    rm -rf /tmp/bun /tmp/bun.zip; \
+    bun --version
+
+# --- mpd2glb: LDraw -> glTF binary (.glb), keeping LDraw metadata per node ----
+# https://github.com/anteloc/mpd2glb — pinned release, checksum-verified.
+# Run: bun /opt/mpd2glb/mpd2glb.mjs -c none -l /opt/ldraw/ldraw -o out.glb model.mpd
+ARG MPD2GLB_VERSION=0.9.0
+ARG MPD2GLB_SHA256=c215485927c8e629e00c7e8d0af9251b9f668e1fe39c22ab39025b786df18a3b
+RUN set -eux; \
+    curl -fsSL "https://github.com/anteloc/mpd2glb/releases/download/v${MPD2GLB_VERSION}/mpd2glb-${MPD2GLB_VERSION}.zip" -o /tmp/mpd2glb.zip; \
+    echo "${MPD2GLB_SHA256}  /tmp/mpd2glb.zip" | sha256sum -c -; \
+    unzip -q /tmp/mpd2glb.zip -d /tmp/mpd2glb; \
+    mv "/tmp/mpd2glb/mpd2glb-${MPD2GLB_VERSION}" /opt/mpd2glb; \
+    rm -rf /tmp/mpd2glb /tmp/mpd2glb.zip; \
+    cd /opt/mpd2glb && bun install --production; \
+    rm -rf /root/.bun/install/cache; \
+    bun /opt/mpd2glb/mpd2glb.mjs --help > /dev/null
+ENV MPD2GLB=/opt/mpd2glb/mpd2glb.mjs
+
 # Software (llvmpipe) OpenGL rendering — works on any host, GPU or not.
 ENV LIBGL_ALWAYS_SOFTWARE=1
 

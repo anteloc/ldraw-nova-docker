@@ -1,5 +1,6 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
-import { downloadUrl, partsLabel, timeAgo, type ModelFile } from "../api";
+import { downloadGlb, downloadUrl, partsLabel, timeAgo, type ModelFile } from "../api";
 import { useApp } from "../context";
 
 type Props = {
@@ -14,6 +15,18 @@ export default function ModelCard({ model, showChats = false }: Props) {
   const warnings = model.warnings ?? [];
   const extension = "." + (model.file.split(".").pop() ?? "mpd").toLowerCase();
   const bomBusy = model.bom_status === "queued" || model.bom_status === "rendering";
+  const [glb, setGlb] = useState<{ busy: boolean; error?: string }>({ busy: false });
+
+  async function saveGlb() {
+    if (!model.model_url) return;
+    setGlb({ busy: true });
+    try {
+      await downloadGlb(model.model_url, model.file);
+      setGlb({ busy: false });
+    } catch (e) {
+      setGlb({ busy: false, error: (e as Error).message });
+    }
+  }
 
   let thumb;
   if (model.image_url) {
@@ -75,6 +88,24 @@ export default function ModelCard({ model, showChats = false }: Props) {
             <a className="button" href={downloadUrl(model.model_url)} title={`Download ${model.file}`}>
               {extension}
             </a>
+          )}
+          {model.model_url && (
+            <button
+              onClick={saveGlb}
+              disabled={glb.busy}
+              title={
+                glb.busy
+                  ? "Converting with mpd2glb… big models can take a minute"
+                  : glb.error
+                    ? `Conversion failed: ${glb.error}`
+                    : "Download as glTF binary (.glb), converted with mpd2glb"
+              }
+              aria-label={glb.busy ? "Converting to .glb" : undefined}
+              className={glb.error ? "danger-text" : undefined}
+            >
+              {glb.busy && <span className="spinner" aria-hidden />}
+              .glb
+            </button>
           )}
           {model.bom_url ? (
             <a className="button" href={downloadUrl(model.bom_url)} title="Download the bill of materials (CSV)">

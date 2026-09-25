@@ -120,3 +120,37 @@ def test_chat_api_resolves_model_references(client, data_dir: Path):
     assert client.delete(f"/api/chats/{chat['id']}").status_code == 200
     assert model.exists()                                                       # models outlive their chat
     assert client.get("/api/chats/..%2F..%2Fetc").status_code == 404
+
+
+def test_glb_export_with_mpd2glb(client, data_dir: Path):
+    import glb
+    generated = data_dir / "generated"
+    generated.mkdir(parents=True, exist_ok=True)
+    model = generated / "glb-test.mpd"
+    model.write_text("0 FILE glb-test.ldr\n0 A tiny model for the glb test\n"
+                     "1 4 0 0 0 1 0 0 0 1 0 0 0 1 3001.dat\n1 15 0 -24 0 1 0 0 0 1 0 0 0 1 3003.dat\n")
+    url = "/files/generated/glb-test.mpd"
+
+    r = client.get("/api/glb", params={"url": url})
+    assert r.status_code == 200, r.text
+    assert r.headers["content-type"] == "model/gltf-binary"
+    assert 'filename="glb-test.glb"' in r.headers["content-disposition"]
+    assert r.content[:4] == b"glTF"
+    header = json.loads(r.content[20:20 + int.from_bytes(r.content[12:16], "little")])
+    assert not header.get("extensionsUsed")                                    # uncompressed: no draco/meshopt
+    assert any(n.get("extras", {}).get("description") == "Brick  2 x  4" for n in header["nodes"])
+    cached = list(glb.CACHE_DIR.glob("*.glb"))
+    assert len(cached) == 1
+
+    t0 = time.time()
+    assert client.get("/api/glb", params={"url": url}).content == r.content     # served from the cache
+    assert time.time() - t0 < 2
+
+    model.write_text(model.read_text() + "1 1 0 -48 0 1 0 0 0 1 0 0 0 1 3001.dat\n")   # new version
+    r2 = client.get("/api/glb", params={"url": url})
+    assert r2.status_code == 200 and r2.content != r.content
+    assert len(list(glb.CACHE_DIR.glob("*.glb"))) == 1                          # the old version was dropped
+
+    for bad in ("/files/generated/..%2F..%2Fetc%2Fpasswd", "/files/generated/nope.mpd", "/files/chats/a/b.mpd",
+                "/files/output/x/y.mpd", "/files/generated/glb-test.png", "https://example.com/x.mpd"):
+        assert client.get("/api/glb", params={"url": bad}).status_code == 404, bad

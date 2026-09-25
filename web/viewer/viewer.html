@@ -58,6 +58,7 @@
     <button data-mode="high" aria-pressed="false" title="Realistic materials, lighting and shadows">High</button>
   </span>
   <a class="btn" id="download" href="#" download>.mpd</a>
+  <button id="glb" title="Download as glTF binary (.glb), converted with mpd2glb">.glb</button>
 </div>
 <div id="stage"><canvas id="ldbi-canvas"></canvas></div>
 <div id="status">Loading…</div>
@@ -98,6 +99,7 @@ var scene = null;
   if (theme === 'light' || theme === 'dark') document.documentElement.dataset.theme = theme;
 
   const status = document.getElementById('status');
+  let restingStatus = { text: 'Loading…', isError: false };     // what to show again after a .glb download
   const setStatus = (text, isError) => { status.textContent = text; status.classList.toggle('error', !!isError); };
   const HINT = 'Drag to rotate · Shift+drag to pan · Scroll to zoom';
 
@@ -365,7 +367,8 @@ var scene = null;
     const problems = [];
     if (missing.size) problems.push(`${missing.size} part(s) not found, shown as boxes: ${[...missing].slice(0, 5).join(', ')}`);
     if (unknownColours.size) problems.push(`unknown colour code(s) shown black: ${[...unknownColours].join(', ')}`);
-    setStatus(problems.length ? problems.join(' · ') : HINT, problems.length > 0);
+    restingStatus = { text: problems.length ? problems.join(' · ') : HINT, isError: problems.length > 0 };
+    setStatus(restingStatus.text, restingStatus.isError);
   }
 
   function setMode(next) {
@@ -379,6 +382,32 @@ var scene = null;
     setTimeout(() => scene.setPhysicalRenderingAge(mode === 'high' ? 1 : 0), 30);
   }
   modeButtons.forEach(b => b.addEventListener('click', () => setMode(b.dataset.mode)));
+
+  // .glb: converted on the server with mpd2glb (uncompressed, LDraw metadata kept
+  // per node). Fetched rather than linked so the button can show progress.
+  const glbButton = document.getElementById('glb');
+  glbButton.addEventListener('click', async () => {
+    glbButton.disabled = true;
+    glbButton.textContent = 'Converting…';
+    setStatus('Converting to .glb with mpd2glb… big models can take a minute.');
+    try {
+      const res = await fetch('/api/glb?url=' + encodeURIComponent(modelUrl));
+      if (!res.ok) throw new Error((await res.json().catch(() => ({}))).detail || res.statusText);
+      const link = document.createElement('a');
+      link.href = URL.createObjectURL(await res.blob());
+      link.download = fileName.replace(/\.[^.]+$/, '') + '.glb';
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      setTimeout(() => URL.revokeObjectURL(link.href), 30000);
+      setStatus(restingStatus.text, restingStatus.isError);
+    } catch (e) {
+      setStatus('Could not convert to .glb: ' + e.message, true);
+    } finally {
+      glbButton.disabled = false;
+      glbButton.textContent = '.glb';
+    }
+  });
   modeButtons.forEach(b => { b.disabled = true; });
 
   LDR.Colors.load(() => {

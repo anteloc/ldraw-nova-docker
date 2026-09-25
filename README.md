@@ -14,6 +14,10 @@ A single image containing:
   `leocad` as a subprocess (see `leocad_render.py`)
 - **The annotated models** from `models-annotated/`, baked into the image at
   `/opt/models-annotated/`
+- **[mpd2glb](https://github.com/anteloc/mpd2glb)** (pinned release, run with
+  a pinned [Bun](https://bun.com/)), which converts LDraw models to glTF `.glb` while keeping
+  the LDraw metadata (descriptions, part files, colours, building steps) on
+  every node
 - **A persistent virtual display** (Xvfb), started once by the entrypoint for
   the life of the container, since LeoCAD's render mode needs a real
   (virtual, here) display even from the CLI
@@ -165,14 +169,19 @@ open http://localhost:8765                # port: LEOCAD_WEB_PORT in .env
    also run Python or shell in its work folder (e.g. to generate a model with
    a script); anything it writes into `data/generated` is published too.
 3. **Snapshots** appear in the chat. Click one for the 3D viewer, or download
-   the model (`.mpd`) or its bill of materials (**BOM**). The sidebar keeps the
-   chat history with thumbnails.
+   the model (`.mpd`), a glTF version of it (`.glb`) or its bill of materials
+   (**BOM**). The sidebar keeps the chat history with thumbnails.
 4. **Models** shows everything in `data/generated` — from chats or copied in by
    hand — as "`name.mpd`, N parts", with the description from each file's
    title line (line 2 of an `.mpd`). When you open the page, models without a
    snapshot (`.png`, rendered from LeoCAD's home view) or BOM (`.csv`, LeoCAD's
    parts list, which also gives the part count) get them; delete either to
    have it regenerated. **Download all** zips the folder.
+5. **`.glb`** (on each card and in the 3D viewer) converts the model with
+   mpd2glb — uncompressed (`-c none`), real-world size in centimetres, LDraw
+   metadata kept as custom properties on each node (readable in Blender,
+   three.js editor, …) — and downloads it. Big models can take a minute; the
+   result is cached until the model file changes.
 
 Where things live:
 
@@ -202,6 +211,19 @@ edges are one merged draw call, so it needs fewer draw calls than Normal. It is 
 on [buildinginstructions.js](https://github.com/LasseD/buildinginstructions.js),
 Unlicense), vendored into the image at a pinned commit (`LDRAWORG_REF`), with
 parts served from the baked-in library instead of ldraw.org.
+
+**mpd2glb by hand**, from a `docker compose exec leocad-app bash` shell:
+
+```bash
+bun $MPD2GLB -c none -l /opt/ldraw/ldraw -o /data/output/cathedral.glb /data/generated/cathedral.mpd
+bun $MPD2GLB --help             # draco/meshopt compression, colour remapping, ...
+```
+
+Versions are pinned as build args (`BUN_VERSION`, `MPD2GLB_VERSION`, each
+with its SHA-256); bump them and rebuild to upgrade. Bun rather than Node.js:
+measured on this image it converts 2.7–3.7× faster on larger models, with
+byte-identical output (Deno was no faster than Node). It's Bun's *baseline*
+x64 build, since the emulated CPU on Apple Silicon has no AVX2.
 
 **Security.** This is a local, single-user tool:
 

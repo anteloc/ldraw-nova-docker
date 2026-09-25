@@ -14,6 +14,7 @@ from pathlib import Path
 _tmp = Path(tempfile.mkdtemp(prefix="leocad-web-tests-"))
 os.environ["LEOCAD_DATA_DIR"] = str(_tmp / "data")
 os.environ["LEOCAD_WEB_CONFIG_DIR"] = str(_tmp / "config")
+os.environ["LEOCAD_GLB_CACHE_DIR"] = str(_tmp / "glb-cache")
 (_tmp / "data" / "output").mkdir(parents=True)
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))          # web/backend
