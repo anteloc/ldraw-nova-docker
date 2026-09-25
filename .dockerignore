@@ -1,0 +1,8 @@
+# Keep the build context to what the image actually needs.
+# (data/ is bind-mounted at runtime, never baked in.)
+data
+.DS_Store
+**/.DS_Store
+.git
+README.md
+docker-compose.yml

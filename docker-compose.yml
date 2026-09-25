@@ -1,0 +1,19 @@
+services:
+  leocad-app:
+    build: .
+    image: leocad-app
+    platform: linux/amd64  # LeoCAD ships x86_64-only AppImages (emulated on Apple Silicon)
+    container_name: leocad-app
+    init: true            # proper signal handling / zombie reaping (Xvfb + your process)
+    volumes:
+      - ./data:/data       # host ./data <-> container /data (input: everything under it, output: output/)
+    # Keep the container alive so you can log in and work by hand:
+    #   docker compose up -d --build
+    #   docker compose exec leocad-app bash
+    # Then, inside:
+    #   python3 /app/leocad_render.py /opt/models-annotated/8303-1.mpd
+    # and look at ./data/output on the host.
+    #
+    # To run the batch job over everything in ./data instead:
+    #   docker compose exec leocad-app python3 /app/example.py
+    command: ["sleep", "infinity"]

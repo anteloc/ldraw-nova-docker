@@ -1,0 +1,5 @@
+# Add whatever your scripts need. Nothing here is required by leocad_render.py
+# itself (it only uses the standard library).
+#
+# Pillow
+# numpy
