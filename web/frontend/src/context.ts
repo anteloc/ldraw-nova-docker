@@ -1,10 +1,11 @@
 import { createContext, useContext } from "react";
 import type { Chat, LlmEntry } from "./api";
 
-export type ViewerTarget = { modelUrl: string; title: string };
+export type ViewerTarget = { modelUrl: string; title: string; parts?: number | null };
 
 export type AppState = {
   chats: Chat[];
+  chatsLoaded: boolean;
   refreshChats: () => void;
   llms: LlmEntry[];
   defaultLlmId: string | null;

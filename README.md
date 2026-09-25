@@ -17,8 +17,9 @@ A single image containing:
 - **A persistent virtual display** (Xvfb), started once by the entrypoint for
   the life of the container, since LeoCAD's render mode needs a real
   (virtual, here) display even from the CLI
-- **A shared folder**, `/data`, bind-mounted from the host's `./data`:
-  everything under it is input, and rendered images go to `data/output/`
+- **A shared folder**, `/data`, bind-mounted from the host's `./data`: the
+  model collection (`data/generated`), chat history (`data/chats`) and the
+  agents' work folders (`data/output`)
 
 ## Layout
 
@@ -30,23 +31,25 @@ A single image containing:
 ├── docker-compose.dev.yml # development overlay: live backend code + auto-reload
 ├── requirements.txt
 ├── leocad_render.py       # render_image() + a CLI — wrapper around leocad
-├── example.py             # batch worker: renders everything under data/ -> data/output/
+├── example.py             # batch worker: makes missing snapshots + BOMs in data/generated/
 ├── models-annotated/      # baked into the image at /opt/models-annotated/
 ├── web/
 │   ├── backend/           # FastAPI: chat API, agent loop (LiteLLM), tools, file routes
 │   ├── frontend/          # React + Vite UI (built in a Docker build stage)
 │   └── viewer/            # viewer.html: the three.js LDraw viewer page
 └── data/                  # mounted at /data (not baked in)
-    ├── generated/<chat>/  # models the agents made (also each chat's working folder)
-    └── output/            # rendered images land here (output/generated/<chat>/ for chats)
+    ├── generated/         # the model collection, flat: car.mpd + car.png (snapshot) + car.csv (BOM), ...
+    ├── chats/<chat>/      # one folder per chat: history, model references, renders
+    └── output/<chat>/     # one work folder per chat, for the agents (not shown in the UI)
 ```
 
 | Host | Container | |
 |---|---|---|
-| `./data/` | `/data/` | input: any `.ldr`/`.mpd` anywhere under it |
-| `./data/output/` | `/data/output/` | output: rendered PNGs |
+| `./data/generated/` | `/data/generated/` | models (`.mpd`/`.ldr`/`.dat`) + same-named `.png` snapshots and `.csv` BOMs; drop your own models here |
+| `./data/chats/` | `/data/chats/` | chat history, one folder per chat |
+| `./data/output/` | `/data/output/` | agents' work folders (one per chat); also the CLI's default render folder |
 | `./models-annotated/` | `/opt/models-annotated/` | baked in at build time (rebuild to update) |
-| named volume `config` | `/config/` | LLM settings, API keys, chat history (not on the host, on purpose) |
+| named volume `config` | `/config/` | LLM settings and API keys (not on the host, on purpose) |
 
 ## Why an AppImage, not Snap/Flatpak, and not a source build
 
@@ -107,10 +110,10 @@ python3 /app/leocad_render.py /opt/models-annotated/316-1.mpd /opt/models-annota
 python3 /app/leocad_render.py /data/my-model.ldr -o /data/output/tests
 python3 /app/leocad_render.py --help
 
-python3 /app/example.py                   # render everything under /data
+python3 /app/example.py                   # make missing snapshots + BOMs in /data/generated
 ```
 
-Open `./data/output/` on the host to look at the results. When you're done:
+Open `./data/output/` on the host to look at the CLI's renders. When you're done:
 
 ```bash
 docker compose down
@@ -124,9 +127,10 @@ docker run --rm --init -v "$PWD/data:/data" leocad-app python3 /app/example.py
 docker compose run --rm leocad-app python3 /app/example.py
 ```
 
-`example.py` finds every `.ldr`/`.mpd` anywhere under `/data` (skipping
-`/data/output` itself) and mirrors the folder layout into the output:
-`data/sets/car.mpd` → `data/output/sets/car.png`.
+`example.py` makes, for every model in `data/generated`, whatever is missing
+of its snapshot (`car.mpd` → `car.png`, from LeoCAD's home view) and its bill
+of materials (`car.csv`, LeoCAD's CSV parts list) — the same thing the web
+app's Models page does when you open it.
 
 `--init` matters: the entrypoint runs Xvfb in the background *and* your main
 process in the foreground, so you want Docker's built-in init to reap
@@ -156,28 +160,44 @@ open http://localhost:8765                # port: LEOCAD_WEB_PORT in .env
    Existing LiteLLM proxy `model_list` YAML can be imported.
 2. **Chat.** Ask for a model. The agent searches the parts library and the
    ~1800 annotated reference models, writes an `.mpd`, validates it (unknown
-   parts, bad colours), renders it with LeoCAD and — if the model accepts
-   images — looks at its own render to fix problems. It can also run Python or
-   shell in its chat folder (e.g. to generate a model with a script); any
-   `.ldr`/`.mpd` it writes there is rendered automatically.
-3. **Screenshots** appear in the chat. Click one for the 3D viewer, or
-   download the `.mpd`/`.png`. **Models** lists every generated model,
-   **Outputs** browses `data/output` (single files or a folder as `.zip`),
-   and the sidebar keeps the chat history with thumbnails.
+   parts, bad colours), publishes it to `data/generated` with a snapshot and —
+   if the model accepts images — looks at the snapshot to fix problems. It can
+   also run Python or shell in its work folder (e.g. to generate a model with
+   a script); anything it writes into `data/generated` is published too.
+3. **Snapshots** appear in the chat. Click one for the 3D viewer, or download
+   the model (`.mpd`) or its bill of materials (**BOM**). The sidebar keeps the
+   chat history with thumbnails.
+4. **Models** shows everything in `data/generated` — from chats or copied in by
+   hand — as "`name.mpd`, N parts", with the description from each file's
+   title line (line 2 of an `.mpd`). When you open the page, models without a
+   snapshot (`.png`, rendered from LeoCAD's home view) or BOM (`.csv`, LeoCAD's
+   parts list, which also gives the part count) get them; delete either to
+   have it regenerated. **Download all** zips the folder.
 
 Where things live:
 
 | What | Where |
 |---|---|
-| Generated models | `data/generated/<chat>/<name>-v<N>.mpd` — never overwritten, so old chats keep their versions |
-| Their screenshots | `data/output/generated/<chat>/<name>-v<N>.png` (same mapping as `example.py`) |
-| Other renders by the agent | `data/output/generated/<chat>/renders/` |
-| Scripts the agent ran | `data/generated/<chat>/.scripts/` |
-| LLM settings, keys, chat history | `/config` volume (`docker compose down -v` deletes it) |
+| Models | `data/generated/<name>.mpd` (chat models: `<name>-v<N>.mpd`, never overwritten) |
+| Their snapshots and BOMs | `data/generated/<name>.png`, `data/generated/<name>.csv` — same base name, same folder |
+| A chat | `data/chats/<chat>/`: `chat.json` (title, model), `messages.jsonl` (history), `models.jsonl` (references to its models, e.g. `../../generated/red-car-v1.mpd`), `renders/` (extra renders shown in the chat) |
+| A chat's work folder | `data/output/<chat>/`: the agents' notes (`NOTES.md`), plans, drafts, scripts (`.scripts/`) — never served by the web app |
+| LLM settings, API keys | `/config` volume (`docker compose down -v` deletes it) |
+
+**Switching models mid-chat.** Pick another model in the composer at any
+time. The whole history is in the chat folder, and the agent keeps its plan
+and progress in `NOTES.md` in the chat's work folder; every turn's system
+prompt lists that folder, so the next model picks up where the last one left
+off. Deleting a chat removes its chat and work folders; its models stay in
+`data/generated`.
 
 **The 3D viewer** is `/viewer/viewer.html?model=<url>` — e.g.
 http://localhost:8765/viewer/viewer.html?model=/ref/8303-1.mpd for a
-reference model. It is library.ldraw.org's viewer
+reference model. Drag to rotate, Shift+drag to pan, scroll to zoom. **Normal**
+is the fast outlined LDraw look; **High** uses realistic plastic/metal/rubber/
+transparent materials, soft studio lighting, faint edge lines and a ground
+shadow — its shadow is computed once per model rather than per frame, and its
+edges are one merged draw call, so it needs fewer draw calls than Normal. It is library.ldraw.org's viewer
 ([ldraworg-library](https://github.com/ldraw-org/ldraworg-library), MIT, built
 on [buildinginstructions.js](https://github.com/LasseD/buildinginstructions.js),
 Unlicense), vendored into the image at a pinned commit (`LDRAWORG_REF`), with
@@ -188,8 +208,10 @@ parts served from the baked-in library instead of ldraw.org.
 * The port is bound to `127.0.0.1` only. There is no login, and anyone who
   can reach it can spend your API keys and run code in the container.
 * Agent code runs as the unprivileged `agent` user with a scrubbed environment
-  and CPU/file-size limits. It can't read `/config` (keys, history) but can
-  read and write everything in `/data`, and it has network access.
+  and CPU/file-size limits. It can't read `/config` (API keys) and its tools
+  only reach `data/generated` and its own work folder, but code it runs can
+  write anywhere in `/data` on Docker Desktop (Mac/Windows bind mounts don't
+  enforce ownership) — including `data/chats` — and it has network access.
 * For stronger isolation, move `web/backend/sandbox.py`'s execution into a
   separate container with only `data/generated` mounted and no network.
 

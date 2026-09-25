@@ -1,150 +1,168 @@
-"""Chat history in SQLite (/config/chats.sqlite, next to the LLM settings).
+"""Chat history as plain files, one folder per chat:
 
-Messages are stored in OpenAI chat format — LiteLLM's canonical format — so a
-chat can be continued with any configured model. Keys starting with "_" are
-our own metadata (artifacts, images, UI-only notes) and are stripped before a
-message is sent to an LLM (see agent.llm_history).
+    data/chats/<chat-id>/
+        chat.json        {"id", "title", "llm_model_id", "created_at", "updated_at"}
+        messages.jsonl   one message per line: OpenAI chat format (LiteLLM's canonical
+                         format, so any model can continue the chat) plus our own
+                         "_"-prefixed metadata, stripped before sending (agent.llm_history)
+        models.jsonl     models the chat produced, as references into data/generated:
+                         {"id", "name", "model": "../../generated/red-car-v1.mpd", ...}
+        renders/         extra renders the agent showed in the chat
+    data/output/<chat-id>/   the chat's agent work folder, created alongside
+
+Paths stored inside a chat folder are relative to that folder, so data/ can be
+moved or copied as a whole.
 """
 from __future__ import annotations
 
 import json
-import sqlite3
+import os
+import re
+import secrets
+import shutil
 import threading
 import time
-import uuid
 from pathlib import Path
 from typing import Any, Optional
 
 import settings
 
-SCHEMA = """
-CREATE TABLE IF NOT EXISTS chats (
-    id           TEXT PRIMARY KEY,
-    title        TEXT NOT NULL,
-    llm_model_id TEXT,
-    created_at   REAL NOT NULL,
-    updated_at   REAL NOT NULL
-);
-CREATE TABLE IF NOT EXISTS messages (
-    id         INTEGER PRIMARY KEY AUTOINCREMENT,
-    chat_id    TEXT NOT NULL REFERENCES chats(id) ON DELETE CASCADE,
-    data       TEXT NOT NULL,
-    created_at REAL NOT NULL
-);
-CREATE INDEX IF NOT EXISTS messages_chat ON messages(chat_id, id);
-CREATE TABLE IF NOT EXISTS artifacts (
-    id          TEXT PRIMARY KEY,
-    chat_id     TEXT NOT NULL REFERENCES chats(id) ON DELETE CASCADE,
-    name        TEXT NOT NULL,
-    model_path  TEXT NOT NULL,   -- relative to DATA_DIR
-    image_path  TEXT,            -- relative to DATA_DIR; NULL if the render failed
-    warnings    TEXT NOT NULL,   -- JSON list
-    created_at  REAL NOT NULL
-);
-CREATE INDEX IF NOT EXISTS artifacts_chat ON artifacts(chat_id, created_at);
-"""
+CHAT_ID_RE = re.compile(r"^[A-Za-z0-9][A-Za-z0-9_-]{0,63}$")
 
 
-class Store:
-    def __init__(self, path: Path):
-        path.parent.mkdir(parents=True, exist_ok=True)
-        self._db = sqlite3.connect(path, check_same_thread=False, isolation_level=None)
-        self._db.row_factory = sqlite3.Row
-        self._db.execute("PRAGMA foreign_keys = ON")
-        # Default rollback journal, not WAL: WAL's shared-memory file is
-        # unreliable on Docker Desktop bind mounts, and there's one writer anyway.
-        self._db.executescript(SCHEMA)
-        self._lock = threading.Lock()
+class ChatStore:
+    def __init__(self, chats_dir: Path, output_dir: Path):
+        self.chats_dir = chats_dir
+        self.output_dir = output_dir
+        self._lock = threading.RLock()
+        self._next_id: dict[str, int] = {}
 
-    def _q(self, sql: str, params: tuple = ()) -> list[sqlite3.Row]:
-        with self._lock:
-            return self._db.execute(sql, params).fetchall()
+    # --- paths -------------------------------------------------------------
 
-    def _x(self, sql: str, params: tuple = ()) -> int:
-        with self._lock:
-            return self._db.execute(sql, params).lastrowid
+    @staticmethod
+    def valid_id(chat_id: str) -> bool:
+        return bool(CHAT_ID_RE.match(chat_id or ""))
+
+    def chat_dir(self, chat_id: str) -> Path:
+        if not self.valid_id(chat_id):
+            raise ValueError(f"invalid chat id {chat_id!r}")
+        return self.chats_dir / chat_id
+
+    def work_dir(self, chat_id: str) -> Path:
+        """The chat's agent work folder: data/output/<chat-id>/."""
+        if not self.valid_id(chat_id):
+            raise ValueError(f"invalid chat id {chat_id!r}")
+        return self.output_dir / chat_id
+
+    def resolve(self, chat_id: str, ref: str) -> Path:
+        """A path stored in a chat's files (relative to its folder) -> absolute path."""
+        return Path(os.path.normpath(self.chat_dir(chat_id) / ref))
+
+    def ref(self, chat_id: str, path: Path) -> str:
+        """An absolute path -> a reference relative to the chat's folder."""
+        return Path(os.path.relpath(path, self.chat_dir(chat_id))).as_posix()
 
     # --- chats -------------------------------------------------------------
 
     def create_chat(self, title: str = "New chat", llm_model_id: Optional[str] = None) -> dict:
-        now = time.time()
-        chat_id = uuid.uuid4().hex[:12]
-        self._x("INSERT INTO chats VALUES (?, ?, ?, ?, ?)", (chat_id, title, llm_model_id, now, now))
-        return self.get_chat(chat_id)
+        with self._lock:
+            chat_id = f"{time.strftime('%Y%m%d-%H%M%S')}-{secrets.token_hex(3)}"
+            now = time.time()
+            self.chat_dir(chat_id).mkdir(parents=True)
+            self.work_dir(chat_id).mkdir(parents=True, exist_ok=True)
+            chat = {"id": chat_id, "title": title, "llm_model_id": llm_model_id,
+                    "created_at": now, "updated_at": now}
+            self._write_chat(chat)
+            return chat
 
     def get_chat(self, chat_id: str) -> Optional[dict]:
-        rows = self._q("SELECT * FROM chats WHERE id = ?", (chat_id,))
-        return dict(rows[0]) if rows else None
+        if not self.valid_id(chat_id):
+            return None
+        try:
+            return json.loads((self.chat_dir(chat_id) / "chat.json").read_text())
+        except (FileNotFoundError, json.JSONDecodeError):
+            return None
 
     def list_chats(self) -> list[dict]:
-        chats = [dict(r) for r in self._q("SELECT * FROM chats ORDER BY updated_at DESC")]
-        by_chat: dict[str, list[dict]] = {}
-        for a in self.list_artifacts():
-            by_chat.setdefault(a["chat_id"], []).append(a)
-        for chat in chats:
-            chat["artifacts"] = by_chat.get(chat["id"], [])
-        return chats
+        if not self.chats_dir.is_dir():
+            return []
+        chats = [c for c in (self.get_chat(p.name) for p in self.chats_dir.iterdir() if p.is_dir()) if c]
+        return sorted(chats, key=lambda c: c["updated_at"], reverse=True)
 
     def update_chat(self, chat_id: str, **fields: Any) -> None:
-        allowed = {k: v for k, v in fields.items() if k in ("title", "llm_model_id")}
-        allowed["updated_at"] = time.time()
-        cols = ", ".join(f"{k} = ?" for k in allowed)
-        self._x(f"UPDATE chats SET {cols} WHERE id = ?", (*allowed.values(), chat_id))
+        with self._lock:
+            chat = self.get_chat(chat_id)
+            if chat is None:
+                return
+            chat.update({k: v for k, v in fields.items() if k in ("title", "llm_model_id")})
+            chat["updated_at"] = time.time()
+            self._write_chat(chat)
 
     def delete_chat(self, chat_id: str) -> None:
-        self._x("DELETE FROM chats WHERE id = ?", (chat_id,))
+        """Removes the chat folder and its work folder. Its models stay in data/generated."""
+        with self._lock:
+            shutil.rmtree(self.chat_dir(chat_id), ignore_errors=True)
+            shutil.rmtree(self.work_dir(chat_id), ignore_errors=True)
+            self._next_id.pop(chat_id, None)
+
+    def _write_chat(self, chat: dict) -> None:
+        path = self.chat_dir(chat["id"]) / "chat.json"
+        tmp = path.with_suffix(".tmp")
+        tmp.write_text(json.dumps(chat, indent=2))
+        os.replace(tmp, path)
 
     # --- messages ----------------------------------------------------------
 
     def add_message(self, chat_id: str, message: dict) -> int:
-        now = time.time()
-        msg_id = self._x(
-            "INSERT INTO messages (chat_id, data, created_at) VALUES (?, ?, ?)",
-            (chat_id, json.dumps(message), now),
-        )
-        self._x("UPDATE chats SET updated_at = ? WHERE id = ?", (now, chat_id))
-        return msg_id
+        with self._lock:
+            if chat_id not in self._next_id:
+                self._next_id[chat_id] = max((m["id"] for m in self.messages(chat_id)), default=0) + 1
+            msg_id = self._next_id[chat_id]
+            self._next_id[chat_id] += 1
+            record = {"id": msg_id, "created_at": time.time(), **message}
+            self._append(chat_id, "messages.jsonl", record)
+            self.update_chat(chat_id)
+            return msg_id
 
     def messages(self, chat_id: str) -> list[dict]:
-        rows = self._q("SELECT id, data, created_at FROM messages WHERE chat_id = ? ORDER BY id", (chat_id,))
-        return [{"id": r["id"], "created_at": r["created_at"], **json.loads(r["data"])} for r in rows]
+        return self._read(chat_id, "messages.jsonl")
 
-    # --- artifacts (generated models) --------------------------------------
+    # --- models the chat produced (references into data/generated) ---------
 
-    def add_artifact(self, chat_id: str, name: str, model_path: str,
-                     image_path: Optional[str], warnings: list[str]) -> dict:
-        art_id = uuid.uuid4().hex[:12]
-        self._x(
-            "INSERT INTO artifacts VALUES (?, ?, ?, ?, ?, ?, ?)",
-            (art_id, chat_id, name, model_path, image_path, json.dumps(warnings), time.time()),
-        )
-        return self.get_artifact(art_id)
+    def add_model(self, chat_id: str, name: str, model_path: Path, warnings: list[str]) -> dict:
+        record = {"id": secrets.token_hex(6), "name": name, "model": self.ref(chat_id, model_path),
+                  "warnings": warnings, "created_at": time.time()}
+        with self._lock:
+            self._append(chat_id, "models.jsonl", record)
+        return record
 
-    def get_artifact(self, art_id: str) -> Optional[dict]:
-        rows = self._q("SELECT * FROM artifacts WHERE id = ?", (art_id,))
-        return _artifact(rows[0]) if rows else None
+    def models(self, chat_id: str) -> list[dict]:
+        return self._read(chat_id, "models.jsonl")
 
-    def list_artifacts(self, chat_id: Optional[str] = None, limit: int = 1000) -> list[dict]:
-        if chat_id:
-            rows = self._q("SELECT * FROM artifacts WHERE chat_id = ? ORDER BY created_at LIMIT ?", (chat_id, limit))
-        else:
-            rows = self._q(
-                "SELECT a.*, c.title AS chat_title FROM artifacts a JOIN chats c ON c.id = a.chat_id "
-                "ORDER BY a.created_at DESC LIMIT ?", (limit,))
-        return [_artifact(r) for r in rows]
+    # --- jsonl helpers -----------------------------------------------------
 
+    def _append(self, chat_id: str, name: str, record: dict) -> None:
+        with (self.chat_dir(chat_id) / name).open("a", encoding="utf-8") as fh:
+            fh.write(json.dumps(record, ensure_ascii=False) + "\n")
 
-def _artifact(row: sqlite3.Row) -> dict:
-    a = dict(row)
-    a["warnings"] = json.loads(a["warnings"])
-    return a
-
-
-_store: Optional[Store] = None
+    def _read(self, chat_id: str, name: str) -> list[dict]:
+        path = self.chat_dir(chat_id) / name
+        if not path.exists():
+            return []
+        records = []
+        for line in path.read_text(encoding="utf-8").splitlines():
+            try:
+                records.append(json.loads(line))
+            except json.JSONDecodeError:
+                continue                     # e.g. a line cut short by a crash
+        return records
 
 
-def get_store() -> Store:
+_store: Optional[ChatStore] = None
+
+
+def get_store() -> ChatStore:
     global _store
     if _store is None:
-        _store = Store(settings.DB_PATH)
+        _store = ChatStore(settings.CHATS_DIR, settings.OUTPUT_DIR)
     return _store

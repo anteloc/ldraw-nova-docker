@@ -1,40 +1,39 @@
 """
-Example worker: render every .ldr/.mpd file found anywhere under /data into
-/data/output, mirroring the input's sub-folder layout.
+Example worker: make sure every model in /data/generated has a snapshot and a BOM.
 
-/data is where you bind-mount a host folder (see README.md / docker-compose.yml),
-so anything written to /data/output here is immediately visible on the host,
-and any other process in this container (or another container sharing the
-same mount) can read it too.
+/data/generated is the model collection (flat: no subfolders). Each model
+(.mpd/.ldr/.dat) gets two siblings with the same base name:
+  <name>.png  snapshot, rendered from LeoCAD's home view
+  <name>.csv  bill of materials, from LeoCAD's CSV export
+Models that already have them are skipped, so it's cheap to re-run; delete a
+.png or .csv to have it regenerated. The web app's Models page does the same
+thing automatically when you open it.
 
 Run:
-    docker run --rm --init -v "$PWD/data:/data" leocad-app python3 /app/example.py
+    docker compose exec leocad-app python3 /app/example.py
 """
-from leocad_render import DATA_DIR, OUTPUT_DIR, output_path_for, render_image
-
-MODEL_SUFFIXES = {".ldr", ".mpd"}
+from leocad_render import (GENERATED_DIR, bom_part_count, bom_path_for, export_bom, list_models,
+                           render_snapshot, snapshot_path_for)
 
 
 def main() -> None:
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-
-    # Everything under /data is input, except our own output.
-    models = sorted(
-        p for p in DATA_DIR.rglob("*")
-        if p.is_file() and p.suffix.lower() in MODEL_SUFFIXES and OUTPUT_DIR not in p.parents
-    )
+    models = list_models(GENERATED_DIR)
     if not models:
-        print(f"No .ldr/.mpd files found under {DATA_DIR} — add some and re-run.")
+        print(f"No .mpd/.ldr/.dat files in {GENERATED_DIR} — add some and re-run.")
         return
 
     for model in models:
-        # data/a/b/car.ldr -> data/output/a/b/car.png (keeps same-named models apart)
-        out_path = output_path_for(model)
-        print(f"Rendering {model.relative_to(DATA_DIR)} -> {out_path.relative_to(DATA_DIR)}")
-        try:
-            render_image(model, out_path)
-        except Exception as exc:  # noqa: BLE001 - example script, keep it simple
-            print(f"  FAILED: {exc}")
+        for kind, path, make in (("snapshot", snapshot_path_for(model), render_snapshot),
+                                 ("BOM", bom_path_for(model), export_bom)):
+            if path.exists():
+                continue
+            print(f"{model.name}: writing {kind} {path.name}", flush=True)
+            try:
+                make(model)
+            except Exception as exc:  # noqa: BLE001 - example script, keep it simple
+                print(f"  FAILED: {exc}")
+        parts = bom_part_count(bom_path_for(model))
+        print(f"{model.name}: {parts if parts is not None else '?'} parts")
 
 
 if __name__ == "__main__":

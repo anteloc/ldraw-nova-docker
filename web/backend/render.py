@@ -1,18 +1,37 @@
-"""Async front for leocad_render.render_image(): one render at a time, since
-the container has a single Xvfb display (see README "Concurrency")."""
+"""Async front for leocad_render: one render at a time, since the container has
+a single Xvfb display (see README "Concurrency")."""
 from __future__ import annotations
 
 import asyncio
 from pathlib import Path
 
-from leocad_render import render_image
+import leocad_render
 
 _lock = asyncio.Lock()
 
 
 async def render(model_path: Path, output_path: Path, **kwargs) -> Path:
     async with _lock:
-        return await asyncio.to_thread(render_image, model_path, output_path, **kwargs)
+        return await asyncio.to_thread(leocad_render.render_image, model_path, output_path, **kwargs)
+
+
+async def render_snapshot(model_path: Path, only_if_missing: bool = False) -> Path:
+    """The model's sibling .png, from LeoCAD's home view. With `only_if_missing`,
+    skip it if the snapshot appeared while waiting for the display."""
+    async with _lock:
+        png = leocad_render.snapshot_path_for(model_path)
+        if only_if_missing and png.exists():
+            return png
+        return await asyncio.to_thread(leocad_render.render_snapshot, model_path)
+
+
+async def export_bom(model_path: Path, only_if_missing: bool = False) -> Path:
+    """The model's sibling .csv bill of materials, from LeoCAD's CSV export."""
+    async with _lock:
+        bom = leocad_render.bom_path_for(model_path)
+        if only_if_missing and bom.exists():
+            return bom
+        return await asyncio.to_thread(leocad_render.export_bom, model_path)
 
 
 def describe_error(exc: Exception) -> str:

@@ -1,5 +1,11 @@
 """Tools the agents can call. Schemas are OpenAI function-calling format,
-which LiteLLM translates for every provider."""
+which LiteLLM translates for every provider.
+
+Where things go:
+  /data/generated/        finished models (flat) + their .png snapshots: the Models page
+  /data/output/<chat>/    the chat's work folder: scripts' cwd, notes, plans, scratch files
+  /data/chats/<chat>/renders/   extra renders shown in the chat
+"""
 from __future__ import annotations
 
 import inspect
@@ -14,11 +20,11 @@ import ldraw
 import render
 import sandbox
 import settings
-from leocad_render import output_path_for
-from paths import rel_to, safe_join
-from store import Store
+from leocad_render import bom_part_count, bom_path_for, list_models, snapshot_path_for
+from paths import safe_join
+from store import ChatStore
 
-MODEL_SUFFIXES = (".ldr", ".mpd")
+MAX_WRITE_BYTES = 2 * 1024 * 1024
 
 
 class ToolError(Exception):
@@ -28,19 +34,23 @@ class ToolError(Exception):
 @dataclass
 class ToolContext:
     chat_id: str
-    store: Store
+    store: ChatStore
     emit: Callable[[str, dict], None]
 
     @property
-    def workspace(self) -> Path:
-        return settings.GENERATED_DIR / self.chat_id
+    def work_dir(self) -> Path:
+        return self.store.work_dir(self.chat_id)
+
+    @property
+    def chat_dir(self) -> Path:
+        return self.store.chat_dir(self.chat_id)
 
 
 @dataclass
 class ToolResult:
-    content: str                                             # what the LLM sees
-    artifacts: list[dict] = field(default_factory=list)      # generated models (store rows)
-    images: list[str] = field(default_factory=list)          # PNGs, relative to DATA_DIR
+    content: str                                          # what the LLM sees
+    models: list[dict] = field(default_factory=list)      # model references added to the chat
+    images: list[Path] = field(default_factory=list)      # PNGs to show (and send to vision models)
 
 
 # --- helpers ---------------------------------------------------------------
@@ -49,50 +59,50 @@ def _slug(name: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")[:60] or "model"
 
 
-def _data_rel(path: Path) -> str:
-    return rel_to(path, settings.DATA_DIR)
+def _next_version(slug: str) -> int:
+    pattern = re.compile(rf"{re.escape(slug)}-v(\d+)\.(mpd|ldr|dat)", re.IGNORECASE)
+    versions = [int(m.group(1)) for p in list_models(settings.GENERATED_DIR) if (m := pattern.fullmatch(p.name))]
+    return max(versions, default=0) + 1
 
 
-def resolve_path(ctx: ToolContext, path: str) -> Path:
-    """Paths the agent may read: /data/..., the reference models, or anything
-    relative to its own workspace."""
+def resolve_path(ctx: ToolContext, path: str, *, write: bool = False) -> Path:
+    """Paths the agent may use. Reading: the model collection, its own work
+    folder and the reference models. Writing (write_file): only its work folder.
+    Relative paths are relative to the work folder."""
     path = (path or "").strip()
-    roots = [settings.DATA_DIR, settings.REF_MODELS_DIR]
+    roots = [ctx.work_dir] if write else [ctx.work_dir, settings.GENERATED_DIR, settings.REF_MODELS_DIR]
     if path.startswith("/"):
         for root in roots:
             if path == str(root) or path.startswith(str(root) + "/"):
                 resolved = safe_join(root, path[len(str(root)):])
                 break
         else:
-            raise ToolError(f"{path} is outside {settings.DATA_DIR} and {settings.REF_MODELS_DIR}")
+            raise ToolError(f"{path} is outside the allowed folders: {', '.join(map(str, roots))}")
     else:
-        resolved = safe_join(ctx.workspace, path)
+        resolved = safe_join(ctx.work_dir, path)
     if resolved is None:
         raise ToolError(f"{path} escapes the allowed folders")
     return resolved
 
 
-async def register_model(ctx: ToolContext, model_path: Path, name: str, warnings: list[str]) -> tuple[dict, str | None]:
-    """Render a model file in the workspace and record it as a chat artifact."""
-    png = output_path_for(model_path)
+async def publish(ctx: ToolContext, model_path: Path, name: str, warnings: list[str]) -> tuple[dict, str | None]:
+    """A model in /data/generated: (re)make its snapshot and BOM, and link it to the chat."""
     render_error = None
     try:
-        await render.render(model_path, png, width=1024, height=768)
+        await render.render_snapshot(model_path)
     except Exception as exc:  # noqa: BLE001 - reported to the agent and the UI
         render_error = render.describe_error(exc)
-    artifact = ctx.store.add_artifact(
-        ctx.chat_id, name, _data_rel(model_path),
-        None if render_error else _data_rel(png), warnings,
-    )
-    ctx.emit("model", artifact)
-    return artifact, render_error
+    try:
+        await render.export_bom(model_path)
+    except Exception as exc:  # noqa: BLE001 - the Models page retries once the model changes
+        warnings = [*warnings, f"BOM export failed: {render.describe_error(exc)}"]
+    ref = ctx.store.add_model(ctx.chat_id, name, model_path, warnings)
+    ctx.emit("model", {"id": ref["id"], "name": name})
+    return ref, render_error
 
 
-def _model_files(workspace: Path) -> dict[Path, float]:
-    if not workspace.exists():
-        return {}
-    return {p: p.stat().st_mtime for p in workspace.rglob("*")
-            if p.is_file() and p.suffix.lower() in MODEL_SUFFIXES}
+def _collection_state() -> dict[Path, float]:
+    return {p: p.stat().st_mtime for p in list_models(settings.GENERATED_DIR)}
 
 
 # --- tools -----------------------------------------------------------------
@@ -120,33 +130,33 @@ async def t_read_reference_model(ctx: ToolContext, file: str, submodel: str | No
     return ToolResult(text)
 
 
-async def t_save_model(ctx: ToolContext, name: str, content: str) -> ToolResult:
+async def t_save_model(ctx: ToolContext, name: str, content: str, description: str | None = None) -> ToolResult:
     slug = _slug(name)
-    ctx.workspace.mkdir(parents=True, exist_ok=True)
-    sandbox.give_to_agent(ctx.workspace)
-    versions = [int(m.group(1)) for p in ctx.workspace.glob(f"{slug}-v*.mpd")
-                if (m := re.fullmatch(rf"{re.escape(slug)}-v(\d+)\.mpd", p.name))]
-    version = max(versions, default=0) + 1
-    path = ctx.workspace / f"{slug}-v{version}.mpd"
+    settings.GENERATED_DIR.mkdir(parents=True, exist_ok=True)
+    version = _next_version(slug)
+    path = settings.GENERATED_DIR / f"{slug}-v{version}.mpd"
 
-    checked = ldraw.validate_model(content, main_name=f"{slug}.ldr")
+    checked = ldraw.validate_model(content, main_name=f"{slug}.ldr", description=description or name)
     path.write_text(checked.content)
     sandbox.give_to_agent(path)
-    artifact, render_error = await register_model(ctx, path, name, checked.warnings)
+    ref, render_error = await publish(ctx, path, name, checked.warnings)
 
     report: dict[str, Any] = {
         "saved": str(path),
         "version": version,
-        "parts": checked.part_count,
+        "description": checked.title,
+        "part_lines": checked.part_count,
+        "parts": bom_part_count(bom_path_for(path)) if bom_path_for(path).exists() else "unknown (no BOM)",
+        "bom": str(bom_path_for(path)),
         "submodels": checked.submodels,
-        "warnings": checked.warnings or "none",
+        "warnings": ref["warnings"] or "none",
     }
+    png = snapshot_path_for(path)
     if render_error:
         report["render_error"] = render_error
     else:
-        report["render"] = str(settings.DATA_DIR / artifact["image_path"])
-    images = [artifact["image_path"]] if artifact["image_path"] else []
-    return ToolResult(json.dumps(report, indent=1), artifacts=[artifact], images=images)
+        report["snapshot"] = str(png)
+    return ToolResult(json.dumps(report, indent=1), models=[ref], images=[png] if png.exists() else [])
 
 
 async def t_render_model(ctx: ToolContext, path: str, latitude: float = 30, longitude: float = 40,
@@ -156,37 +166,38 @@ async def t_render_model(ctx: ToolContext, path: str, latitude: float = 30, long
     if not model.is_file():
         raise ToolError(f"{path} does not exist")
     suffix = f"{int(latitude)}_{int(longitude)}" + (f"-step{step}" if step else "") + (f"-{_slug(submodel)}" if submodel else "")
-    png = settings.OUTPUT_DIR / "generated" / ctx.chat_id / "renders" / f"{model.stem}-{suffix}.png"
+    png = ctx.chat_dir / "renders" / f"{model.stem}-{suffix}.png"
     try:
         await render.render(model, png, width=max(64, min(width, 2048)), height=max(64, min(height, 2048)),
                             camera_angles=(latitude, longitude), submodel=submodel, step=step)
     except Exception as exc:  # noqa: BLE001
         raise ToolError(f"render failed: {render.describe_error(exc)}") from None
-    return ToolResult(f"Rendered {model} -> {png}", images=[_data_rel(png)])
+    return ToolResult(f"Rendered {model} -> {png} (shown to the user)", images=[png])
 
 
 async def _run_and_collect(ctx: ToolContext, argv: list[str], timeout: int) -> ToolResult:
-    before = _model_files(ctx.workspace)
-    result = await sandbox.run(argv, ctx.workspace, timeout=max(1, min(timeout, 300)))
+    before = _collection_state()
+    result = await sandbox.run(argv, ctx.work_dir, timeout=max(1, min(timeout, 300)))
     text = result.as_text()
-    artifacts, images = [], []
-    for path, mtime in sorted(_model_files(ctx.workspace).items()):
+    models, images = [], []
+    for path, mtime in sorted(_collection_state().items()):
         if before.get(path) == mtime:
             continue
         checked = ldraw.validate_model(path.read_text(errors="replace"), main_name=path.name)
-        artifact, render_error = await register_model(ctx, path, path.stem, checked.warnings)
-        artifacts.append(artifact)
-        if artifact["image_path"]:
-            images.append(artifact["image_path"])
-        text += f"\n[new/changed model {path}: {checked.part_count} parts"
-        text += f", render failed: {render_error}]" if render_error else f", rendered to {settings.DATA_DIR / artifact['image_path']}]"
+        ref, render_error = await publish(ctx, path, path.stem, checked.warnings)
+        models.append(ref)
+        png = snapshot_path_for(path)
+        if png.exists() and not render_error:
+            images.append(png)
+        text += f"\n[published {path}: {checked.part_count} parts"
+        text += f", snapshot failed: {render_error}]" if render_error else f", snapshot {png}]"
         if checked.warnings:
             text += "\n  warnings: " + "; ".join(checked.warnings[:10])
-    return ToolResult(text, artifacts=artifacts, images=images)
+    return ToolResult(text, models=models, images=images)
 
 
 async def t_run_python(ctx: ToolContext, code: str, timeout: int = 60) -> ToolResult:
-    scripts = ctx.workspace / ".scripts"
+    scripts = ctx.work_dir / ".scripts"
     scripts.mkdir(parents=True, exist_ok=True)
     script = scripts / f"run-{time.strftime('%Y%m%d-%H%M%S')}-{int(time.time() * 1000) % 1000:03d}.py"
     script.write_text(code)
@@ -198,7 +209,7 @@ async def t_run_shell(ctx: ToolContext, command: str, timeout: int = 60) -> Tool
 
 
 async def t_list_files(ctx: ToolContext, path: str = "") -> ToolResult:
-    folder = resolve_path(ctx, path) if path else ctx.workspace
+    folder = resolve_path(ctx, path) if path else ctx.work_dir
     if not folder.is_dir():
         raise ToolError(f"{path or folder} is not a folder")
     entries = sorted(folder.iterdir(), key=lambda p: (not p.is_dir(), p.name.lower()))
@@ -220,6 +231,20 @@ async def t_read_file(ctx: ToolContext, path: str, max_chars: int = 40_000) -> T
     if len(text) > limit:
         text = text[:limit] + f"\n... [truncated: {len(text)} characters total]"
     return ToolResult(text)
+
+
+async def t_write_file(ctx: ToolContext, path: str, content: str, append: bool = False) -> ToolResult:
+    file = resolve_path(ctx, path, write=True)
+    if len(content.encode()) > MAX_WRITE_BYTES:
+        raise ToolError(f"content is larger than {MAX_WRITE_BYTES} bytes")
+    file.parent.mkdir(parents=True, exist_ok=True)
+    with file.open("a" if append else "w", encoding="utf-8") as fh:
+        fh.write(content)
+    for owned in [file, *file.parents]:            # the agent's own scripts must be able to edit them
+        if owned == ctx.work_dir or ctx.work_dir not in owned.parents:
+            break
+        sandbox.give_to_agent(owned)
+    return ToolResult(f"{'Appended to' if append else 'Wrote'} {file} ({file.stat().st_size} bytes)")
 
 
 # --- registry --------------------------------------------------------------
@@ -255,16 +280,19 @@ TOOLS: dict[str, tuple[dict, Callable[..., Awaitable[ToolResult]]]] = {
         ["file"]), t_read_reference_model),
     "save_model": (_fn(
         "save_model",
-        "Save an LDraw model (.mpd/.ldr text) to the chat's workspace, validate it and render a screenshot. "
-        "Each call creates a new version (name-v1.mpd, name-v2.mpd, ...). Returns validation warnings "
-        "(unknown parts, bad colours) and the render path. The user sees the screenshot and can open it in 3D.",
+        "Publish a finished LDraw model (.mpd/.ldr text) to the model collection (/data/generated), validate it "
+        "and render its snapshot. Each call creates a new version (name-v1.mpd, name-v2.mpd, ...). Returns "
+        "validation warnings (unknown parts, bad colours) and the snapshot path. The user sees the snapshot in "
+        "the chat and on the Models page, and can open it in 3D.",
         {"name": {"type": "string", "description": "short model name, e.g. 'red car'"},
-         "content": {"type": "string", "description": "full LDraw file content"}},
+         "content": {"type": "string", "description": "full LDraw file content"},
+         "description": {"type": "string", "description": "one-line description, written as the model's title "
+                         "line (line 2 of the .mpd) if the content doesn't have one; shown on the Models page"}},
         ["name", "content"]), t_save_model),
     "render_model": (_fn(
         "render_model",
-        "Render any model file (in /data, /opt/models-annotated or the workspace) from a chosen camera angle, "
-        "e.g. to check the back or underside of a build.",
+        "Render any model file (in /data/generated, your work folder or /opt/models-annotated) from a chosen "
+        "camera angle, e.g. to check the back or underside of a build. The image is shown in the chat.",
         {"path": {"type": "string"},
          "latitude": {"type": "number", "description": "degrees above the horizon (default 30)"},
          "longitude": {"type": "number", "description": "degrees around the model (default 40)"},
@@ -273,25 +301,34 @@ TOOLS: dict[str, tuple[dict, Callable[..., Awaitable[ToolResult]]]] = {
         ["path"]), t_render_model),
     "run_python": (_fn(
         "run_python",
-        "Run a Python 3 script in the chat's workspace (current directory). Useful for generating models "
-        "programmatically. `from leocad_render import render_image` is available. Any .ldr/.mpd file the script "
-        "creates or changes in the workspace is rendered and shown to the user automatically.",
+        "Run a Python 3 script with your work folder as the current directory. Useful for generating models "
+        "programmatically. `from leocad_render import render_image` is available. Keep drafts in the work folder; "
+        "a .mpd/.ldr/.dat the script writes (or changes) in /data/generated is published: snapshotted and shown "
+        "to the user.",
         {"code": {"type": "string"}, "timeout": {"type": "integer", "description": "seconds, default 60, max 300"}},
         ["code"]), t_run_python),
     "run_shell": (_fn(
         "run_shell",
-        "Run a bash command in the chat's workspace. `leocad` is on PATH. New/changed .ldr/.mpd files are rendered automatically.",
+        "Run a bash command in your work folder. `leocad` is on PATH. Models written to /data/generated are "
+        "published like with run_python.",
         {"command": {"type": "string"}, "timeout": {"type": "integer"}},
         ["command"]), t_run_shell),
     "list_files": (_fn(
         "list_files",
-        "List a folder: the workspace (default), anything under /data, or /opt/models-annotated.",
+        "List a folder: your work folder (default), /data/generated, or /opt/models-annotated.",
         {"path": {"type": "string"}}, []), t_list_files),
     "read_file": (_fn(
         "read_file",
-        "Read a text file from the workspace, /data or /opt/models-annotated.",
+        "Read a text file from your work folder, /data/generated or /opt/models-annotated.",
         {"path": {"type": "string"}, "max_chars": {"type": "integer"}},
         ["path"]), t_read_file),
+    "write_file": (_fn(
+        "write_file",
+        "Write (or append to) a text file in your work folder, e.g. NOTES.md with the plan and progress, or a "
+        "draft model. Relative paths are relative to the work folder.",
+        {"path": {"type": "string"}, "content": {"type": "string"},
+         "append": {"type": "boolean", "description": "append instead of overwrite (default false)"}},
+        ["path", "content"]), t_write_file),
 }
 
 TOOL_SCHEMAS = [schema for schema, _fn_ in TOOLS.values()]

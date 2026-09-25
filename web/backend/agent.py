@@ -1,9 +1,9 @@
 """Provider-agnostic agent loop on top of LiteLLM.
 
 A turn runs as a background asyncio task per chat (so reloading the page
-doesn't kill it). The database is the source of truth; live events only carry
-what's in flight (streaming text, running tools) plus "saved" pings telling
-the UI to refetch.
+doesn't kill it). The chat's files (store.py) are the source of truth; live
+events only carry what's in flight (streaming text, running tools) plus
+"saved" pings telling the UI to refetch.
 """
 from __future__ import annotations
 
@@ -12,13 +12,14 @@ import base64
 import json
 import logging
 from dataclasses import dataclass, field
-from typing import AsyncIterator, Optional
+from pathlib import Path
+from typing import AsyncIterator, Callable, Optional
 
 import litellm
 
 import llm_config
 import settings
-from store import Store
+from store import ChatStore
 from tools import TOOL_SCHEMAS, ToolContext, dispatch
 
 log = logging.getLogger("agent")
@@ -28,6 +29,7 @@ litellm.suppress_debug_info = True
 
 MAX_STEPS = 30
 KEEP_IMAGE_MESSAGES = 2               # only the newest renders are re-sent to vision models
+WORK_LISTING_LIMIT = 60               # files of the work folder listed in the system prompt
 
 
 @dataclass
@@ -51,25 +53,43 @@ def is_running(chat_id: str) -> bool:
     return bool(run and run.task and not run.task.done())
 
 
-def system_prompt(chat_id: str) -> str:
+def work_listing(work_dir: Path) -> str:
+    """What's in the work folder right now, for the system prompt: whoever
+    continues the chat (possibly another model) sees what earlier turns left."""
+    if not work_dir.is_dir():
+        return "(empty)"
+    files = sorted(p for p in work_dir.rglob("*") if p.is_file() and ".scripts" not in p.relative_to(work_dir).parts)
+    scripts = sum(1 for _ in (work_dir / ".scripts").glob("*")) if (work_dir / ".scripts").is_dir() else 0
+    lines = [f"- {p.relative_to(work_dir)} ({p.stat().st_size} bytes)" for p in files[:WORK_LISTING_LIMIT]]
+    if len(files) > WORK_LISTING_LIMIT:
+        lines.append(f"- ... and {len(files) - WORK_LISTING_LIMIT} more")
+    if scripts:
+        lines.append(f"- .scripts/ ({scripts} scripts run in earlier turns)")
+    return "\n".join(lines) or "(empty)"
+
+
+def system_prompt(store: ChatStore, chat_id: str) -> str:
+    work_dir = store.work_dir(chat_id)
     text = (settings.PROMPTS_DIR / "system.md").read_text()
-    return (text.replace("{workspace}", str(settings.GENERATED_DIR / chat_id))
+    return (text.replace("{work_dir}", str(work_dir))
+                .replace("{work_listing}", work_listing(work_dir))
+                .replace("{generated_dir}", str(settings.GENERATED_DIR))
                 .replace("{ldraw_dir}", str(settings.LDRAW_DIR)))
 
 
-def _image_data_url(rel_path: str) -> Optional[str]:
-    path = settings.DATA_DIR / rel_path
+def _image_data_url(path: Path) -> Optional[str]:
     if not path.is_file():
         return None
     return "data:image/png;base64," + base64.b64encode(path.read_bytes()).decode()
 
 
-def llm_history(messages: list[dict], vision: bool) -> list[dict]:
+def llm_history(messages: list[dict], vision: bool, resolve: Callable[[str], Path]) -> list[dict]:
     """Stored messages -> what we send to the LLM.
 
     Drops UI-only notes and our "_" metadata, re-attaches only the newest
     renders for vision models, and repairs tool calls left without results
-    (a stopped or crashed turn) so providers accept the history.
+    (a stopped or crashed turn) so providers accept the history. `resolve`
+    turns the image references stored in the chat into file paths.
     """
     image_msgs = [m for m in messages if m.get("_images_for_llm")]
     keep_images = {m["id"] for m in image_msgs[-KEEP_IMAGE_MESSAGES:]} if vision else set()
@@ -94,7 +114,7 @@ def llm_history(messages: list[dict], vision: bool) -> list[dict]:
         if m.get("_images_for_llm"):
             if m["id"] not in keep_images:
                 continue
-            urls = [u for u in map(_image_data_url, m["_images_for_llm"]) if u]
+            urls = [u for u in (_image_data_url(resolve(ref)) for ref in m["_images_for_llm"]) if u]
             content = [{"type": "text", "text": m["content"]}]
             content += [{"type": "image_url", "image_url": {"url": u}} for u in urls]
             out.append({"role": "user", "content": content})
@@ -106,7 +126,7 @@ def llm_history(messages: list[dict], vision: bool) -> list[dict]:
     return out
 
 
-async def start_turn(store: Store, chat_id: str, text: str, llm_model_id: Optional[str]) -> None:
+async def start_turn(store: ChatStore, chat_id: str, text: str, llm_model_id: Optional[str]) -> None:
     if is_running(chat_id):
         raise RuntimeError("this chat is already running a turn")
     entry = llm_config.get(llm_model_id) if llm_model_id else None
@@ -163,7 +183,7 @@ async def subscribe(chat_id: str) -> AsyncIterator[tuple[str, dict]]:
         run.subscribers.discard(queue)
 
 
-async def _run_turn(store: Store, run: Run, entry: dict) -> None:
+async def _run_turn(store: ChatStore, run: Run, entry: dict) -> None:
     chat_id = run.chat_id
     caps = llm_config.capabilities(entry)
     vision = caps["vision"] is True
@@ -178,8 +198,8 @@ async def _run_turn(store: Store, run: Run, entry: dict) -> None:
     try:
         params = llm_config.resolve_params(entry)
         for _step in range(MAX_STEPS):
-            messages = [{"role": "system", "content": system_prompt(chat_id)},
-                        *llm_history(store.messages(chat_id), vision)]
+            messages = [{"role": "system", "content": system_prompt(store, chat_id)},
+                        *llm_history(store.messages(chat_id), vision, lambda ref: store.resolve(chat_id, ref))]
             kwargs = {"tools": TOOL_SCHEMAS} if use_tools else {}
             stream = await litellm.acompletion(**params, messages=messages, stream=True, num_retries=2, **kwargs)
 
@@ -214,7 +234,7 @@ async def _run_turn(store: Store, run: Run, entry: dict) -> None:
             if not tool_calls:
                 break
 
-            images: list[str] = []
+            images: list[str] = []                             # relative to the chat folder
             for call in tool_calls:
                 name = call["function"]["name"]
                 run.tools_running[call["id"]] = {"id": call["id"], "name": name,
@@ -222,10 +242,11 @@ async def _run_turn(store: Store, run: Run, entry: dict) -> None:
                 run.emit("tool_start", run.tools_running[call["id"]])
                 result = await dispatch(ctx, name, call["function"]["arguments"])
                 run.tools_running.pop(call["id"], None)
+                refs = [store.ref(chat_id, png) for png in result.images]
                 save({"role": "tool", "tool_call_id": call["id"], "name": name, "content": result.content,
-                      "_artifacts": [a["id"] for a in result.artifacts], "_images": result.images})
+                      "_models": [m["id"] for m in result.models], "_images": refs})
                 run.emit("tool_end", {"id": call["id"], "name": name})
-                images += result.images
+                images += refs
             if images and vision:
                 save({"role": "user", "content": "Renders produced by the tool calls above:",
                       "_images_for_llm": images, "_hidden": True})

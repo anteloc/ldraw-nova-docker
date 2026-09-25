@@ -1,4 +1,4 @@
-import { fileUrl, type Artifact, type Message, type ToolCall } from "../api";
+import { type ChatModel, type Message, type ToolCall } from "../api";
 import ModelCard from "./ModelCard";
 
 type Status = "running" | "queued" | "done" | "interrupted";
@@ -8,6 +8,7 @@ const LABELS: Record<string, string> = {
   search_reference_models: "Searched reference models",
   read_reference_model: "Read reference model",
   save_model: "Saved model",
+  write_file: "Wrote file",
   render_model: "Rendered",
   run_python: "Ran Python",
   run_shell: "Ran shell",
@@ -36,6 +37,7 @@ function summary(name: string, args: Record<string, unknown>): string {
       return [pick("file"), pick("submodel")].filter(Boolean).join(" › ");
     case "render_model":
     case "read_file":
+    case "write_file":
     case "list_files":
       return pick("path");
     default:
@@ -56,19 +58,19 @@ export default function ToolCard({
   call,
   result,
   status,
-  artifacts,
+  models,
 }: {
   call: ToolCall;
   result?: Message;
   status: Status;
-  artifacts: Artifact[];
+  models: ChatModel[];
 }) {
   const name = call.function.name;
   const args = parseArgs(call.function.arguments);
   const output = typeof result?.content === "string" ? result.content : "";
   const failed = output.startsWith("Error:");
-  const artifactImages = new Set(artifacts.map((a) => a.image_path));
-  const extraImages = (result?._images ?? []).filter((img) => !artifactImages.has(img));
+  const modelImages = new Set(models.map((m) => m.image_url));
+  const extraImages = (result?._image_urls ?? []).filter((url) => !modelImages.has(url));
 
   return (
     <div className="tool">
@@ -91,12 +93,12 @@ export default function ToolCard({
           )}
         </div>
       </details>
-      {artifacts.map((a) => (
-        <ModelCard key={a.id} artifact={a} />
+      {models.map((m) => (
+        <ModelCard key={m.id} model={m} />
       ))}
-      {extraImages.map((img) => (
-        <a key={img} className="tool-image" href={fileUrl(img)} target="_blank" rel="noreferrer">
-          <img src={fileUrl(img)} alt="render" loading="lazy" />
+      {extraImages.map((url) => (
+        <a key={url} className="tool-image" href={url} target="_blank" rel="noreferrer">
+          <img src={url} alt="render" loading="lazy" />
         </a>
       ))}
     </div>

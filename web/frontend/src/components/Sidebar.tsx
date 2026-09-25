@@ -1,14 +1,14 @@
 import { NavLink, useMatch, useNavigate } from "react-router-dom";
-import { api, fileUrl, timeAgo, type Chat } from "../api";
+import { api, timeAgo, type Chat } from "../api";
 import { useApp } from "../context";
 
 export default function Sidebar() {
-  const { chats, refreshChats, openViewer } = useApp();
+  const { chats, chatsLoaded, refreshChats, openViewer } = useApp();
   const navigate = useNavigate();
   const current = useMatch("/chat/:id")?.params.id;
 
   async function remove(chat: Chat) {
-    if (!confirm(`Delete "${chat.title}"?\n\nThe chat history is removed. Its models stay in data/generated/${chat.id}/.`)) return;
+    if (!confirm(`Delete "${chat.title}"?\n\nThis removes data/chats/${chat.id}/ and the agent's work folder data/output/${chat.id}/. Its models stay in data/generated.`)) return;
     await api.deleteChat(chat.id);
     refreshChats();
     if (current === chat.id) navigate("/");
@@ -24,16 +24,15 @@ export default function Sidebar() {
         + New chat
       </button>
       <nav className="nav">
-        <NavLink to="/gallery">Models</NavLink>
-        <NavLink to="/outputs">Outputs</NavLink>
+        <NavLink to="/models">Models</NavLink>
         <NavLink to="/settings">Settings</NavLink>
       </nav>
 
       <div className="section-label">History</div>
       <div className="chat-list">
-        {chats.length === 0 && <p className="muted small pad">No chats yet.</p>}
+        {chatsLoaded && chats.length === 0 && <p className="muted small pad">No chats yet.</p>}
         {chats.map((chat) => {
-          const shots = (chat.artifacts ?? []).filter((a) => a.image_path).slice(-4).reverse();
+          const shots = (chat.models ?? []).filter((m) => m.image_url && m.model_url).slice(-4).reverse();
           return (
             <div key={chat.id} className={`chat-item ${current === chat.id ? "active" : ""}`}>
               <NavLink to={`/chat/${chat.id}`} className="chat-link">
@@ -45,14 +44,14 @@ export default function Sidebar() {
               </NavLink>
               {shots.length > 0 && (
                 <div className="chat-thumbs">
-                  {shots.map((a) => (
+                  {shots.map((m) => (
                     <button
-                      key={a.id}
+                      key={m.id}
                       className="chat-thumb"
-                      title={`${a.name} — open in 3D`}
-                      onClick={() => openViewer({ modelUrl: fileUrl(a.model_path), title: a.name })}
+                      title={`${m.name} — open in 3D`}
+                      onClick={() => openViewer({ modelUrl: m.model_url!, title: m.description || m.name, parts: m.parts })}
                     >
-                      <img src={fileUrl(a.image_path!)} alt={a.name} loading="lazy" />
+                      <img src={m.image_url!} alt={m.name} loading="lazy" />
                     </button>
                   ))}
                 </div>

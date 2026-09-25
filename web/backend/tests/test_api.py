@@ -1,4 +1,5 @@
 import json
+import time
 from pathlib import Path
 
 import pytest
@@ -52,15 +53,70 @@ def test_llm_keys_are_masked_and_kept(client):
     assert "sk-ant-secret" not in client.get("/api/llm-models/export").text
 
 
-def test_outputs_listing_links_renders_to_sources(client, data_dir: Path):
-    (data_dir / "sets").mkdir(parents=True, exist_ok=True)
-    (data_dir / "sets" / "my car.mpd").write_text("0 FILE x\n")
-    (data_dir / "output" / "sets").mkdir(parents=True, exist_ok=True)
-    (data_dir / "output" / "sets" / "my car.png").write_bytes(b"png")
-    listing = client.get("/api/outputs", params={"dir": "sets"}).json()
-    [f] = listing["files"]
-    assert f["source"] == {"url": "/files/sets/my%20car.mpd", "name": "my car.mpd"}
-    assert client.get(f["url"]).status_code == 200
-    z = client.get("/api/outputs/zip", params={"dir": "sets"})
+def test_output_folder_is_never_served(client, data_dir: Path):
+    (data_dir / "output" / "some-chat").mkdir(parents=True, exist_ok=True)
+    (data_dir / "output" / "some-chat" / "NOTES.md").write_text("private")
+    (data_dir / "generated").mkdir(parents=True, exist_ok=True)
+    for url in ("/files/output/some-chat/NOTES.md", "/files/generated/..%2Foutput%2Fsome-chat%2FNOTES.md",
+                "/files/chats/..%2Foutput%2Fsome-chat%2FNOTES.md", "/api/outputs"):
+        assert client.get(url).status_code == 404, url
+
+
+def test_models_page_lists_generated_and_renders_missing_snapshots(client, data_dir: Path):
+    generated = data_dir / "generated"
+    generated.mkdir(parents=True, exist_ok=True)
+    (generated / "hand-made.mpd").write_text(
+        "0 FILE hand-made.ldr\n0 A hand-made test wall\n0 Name: hand-made.ldr\n"
+        "1 4 0 0 0 1 0 0 0 1 0 0 0 1 3001.dat\n1 1 20 -24 0 1 0 0 0 1 0 0 0 1 3001.dat\n")
+    (generated / "single.ldr").write_text("0 Single-file model\n1 14 0 0 0 1 0 0 0 1 0 0 0 1 3003.dat\n")
+    (generated / "broken.dat").write_bytes(b"\x00\x01 not ldraw")
+    (generated / "nested").mkdir(exist_ok=True)
+    (generated / "nested" / "ignored.mpd").write_text("0 FILE x\n")
+
+    deadline = time.time() + 180
+    while True:
+        listing = client.get("/api/models").json()
+        by_file = {m["file"]: m for m in listing["models"]}
+        if listing["pending"] == 0 or time.time() > deadline:
+            break
+        time.sleep(0.5)
+
+    assert "ignored.mpd" not in by_file                                         # flat: subfolders don't count
+    wall = by_file["hand-made.mpd"]
+    assert wall["description"] == "A hand-made test wall"                      # line 2 of the .mpd
+    assert wall["status"] == "ready" and wall["image_url"].startswith("/files/generated/hand-made.png?v=")
+    assert (generated / "hand-made.png").stat().st_size > 1000                  # rendered, home view
+    assert wall["bom_status"] == "ready" and wall["parts"] == 2                 # from LeoCAD's CSV BOM
+    assert wall["bom_url"].startswith("/files/generated/hand-made.csv?v=")
+    bom = client.get(wall["bom_url"].split("?")[0], params={"download": 1})
+    assert bom.status_code == 200 and bom.headers["content-type"].startswith("text/csv")
+    assert "attachment" in bom.headers["content-disposition"] and "3001.dat" in bom.text
+    assert by_file["single.ldr"]["parts"] == 1
+    assert by_file["single.ldr"]["description"] == "Single-file model"
+    assert by_file["single.ldr"]["status"] == "ready"
+    assert by_file["broken.dat"]["status"] in ("failed", "ready")               # LeoCAD may render it empty
+    assert by_file["broken.dat"]["bom_status"] == "ready" and by_file["broken.dat"]["parts"] == 0
+    assert client.get(wall["model_url"]).status_code == 200
+    z = client.get("/api/models/zip")
     assert z.status_code == 200 and z.headers["content-type"] == "application/zip"
-    assert client.get("/api/outputs", params={"dir": "../.."}).status_code == 404
+
+
+def test_chat_api_resolves_model_references(client, data_dir: Path):
+    import settings as s
+    from store import ChatStore
+    store = ChatStore(s.CHATS_DIR, s.OUTPUT_DIR)
+    chat = store.create_chat()
+    model = s.GENERATED_DIR / "referenced.mpd"
+    model.write_text("0 FILE referenced.ldr\n0 Referenced from a chat\n1 4 0 0 0 1 0 0 0 1 0 0 0 1 3001.dat\n")
+    ref = store.add_model(chat["id"], "Referenced", model, warnings=["w"])
+    store.add_message(chat["id"], {"role": "tool", "tool_call_id": "x", "content": "ok",
+                                   "_models": [ref["id"]], "_images": ["../../generated/referenced.png"]})
+    detail = client.get(f"/api/chats/{chat['id']}").json()
+    m = detail["models"][ref["id"]]
+    assert m["model_url"] == "/files/generated/referenced.mpd" and m["description"] == "Referenced from a chat"
+    assert m["warnings"] == ["w"]
+    listing = client.get("/api/models").json()
+    assert {"id": chat["id"], "title": "New chat"} in next(x for x in listing["models"] if x["file"] == "referenced.mpd")["chats"]
+    assert client.delete(f"/api/chats/{chat['id']}").status_code == 200
+    assert model.exists()                                                       # models outlive their chat
+    assert client.get("/api/chats/..%2F..%2Fetc").status_code == 404

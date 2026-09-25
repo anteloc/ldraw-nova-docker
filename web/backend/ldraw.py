@@ -7,7 +7,7 @@ import re
 from dataclasses import dataclass, field
 from functools import lru_cache
 from pathlib import Path
-from typing import Optional
+from typing import Iterable, Optional
 
 import settings
 from build_index import index_parts, index_ref_models
@@ -160,9 +160,29 @@ def read_reference_model(name: str, submodel: Optional[str] = None, max_lines: i
 
 # --- validation ------------------------------------------------------------
 
+TITLE_SKIP = ("Name:", "Author:", "!", "FILE", "NOFILE", "//", "BFC", "STEP")
+
+
+def title_of(lines: Iterable[str]) -> str:
+    """A model's title (description), per the LDraw file format: the first line
+    of a single-file model, or the line right after `0 FILE ...` in an MPD —
+    i.e. line 2 of an .mpd. Blank lines are skipped."""
+    lines = [line.strip() for line in lines if line.strip()]
+    if not lines:
+        return ""
+    index = 1 if lines[0].split()[:2] == ["0", "FILE"] else 0
+    if index >= len(lines):
+        return ""
+    words = lines[index].split(None, 1)
+    if len(words) < 2 or words[0] != "0" or words[1].startswith(TITLE_SKIP):
+        return ""
+    return words[1].strip()
+
+
 @dataclass
 class Validation:
     content: str
+    title: str = ""
     warnings: list[str] = field(default_factory=list)
     part_count: int = 0
     submodels: list[str] = field(default_factory=list)
@@ -177,19 +197,25 @@ def _ref_id(name: str) -> str:
     return name.strip().lower().replace("\\", "/")
 
 
-def validate_model(content: str, main_name: str) -> Validation:
+def validate_model(content: str, main_name: str, description: Optional[str] = None) -> Validation:
     """Normalise and sanity-check an LDraw model. Problems become warnings for
-    the agent to act on, not hard errors: LeoCAD will still try to render it."""
+    the agent to act on, not hard errors: LeoCAD will still try to render it.
+
+    The result always starts with `0 FILE <name>`; with `description`, a title
+    line is added right after it (line 2) unless the model already has one."""
     content = content.lstrip("﻿").replace("\r\n", "\n").replace("\r", "\n")
     lines = content.split("\n")
-    first = next((l for l in lines if l.strip()), "")
-    if not first.startswith("0 FILE"):
+    while lines and not lines[0].strip():
+        lines.pop(0)
+    if not lines or not lines[0].startswith("0 FILE"):
         lines.insert(0, f"0 FILE {main_name}")
-        content = "\n".join(lines)
+    if description and not title_of(lines[:3]):
+        lines.insert(1, "0 " + " ".join(description.split()))
+    content = "\n".join(lines)
     if not content.endswith("\n"):
         content += "\n"
 
-    result = Validation(content=content)
+    result = Validation(content=content, title=title_of(lines[:3]))
     local_files = {_ref_id(_file_name(l)) for l in lines if l.startswith("0 FILE")}
     result.submodels = [_file_name(l) for l in lines if l.startswith("0 FILE")]
     known_ids, known_colours = library_ids(), colours()

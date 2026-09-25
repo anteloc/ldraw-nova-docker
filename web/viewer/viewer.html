@@ -5,7 +5,8 @@
   vendored into the image under /viewer/vendor/ at a pinned commit (see Dockerfile).
   Parts are loaded from the LDraw library baked into the image (/ldraw/...), not from ldraw.org.
 
-  Usage: /viewer/viewer.html?model=<url of an .ldr/.mpd>   e.g. ?model=/ref/8303-1.mpd
+  Usage: /viewer/viewer.html?model=<url of an .ldr/.mpd>[&parts=<count>]   e.g. ?model=/ref/8303-1.mpd
+  (`parts` shows a known part count, e.g. from the model's BOM; otherwise the viewer counts them.)
 -->
 <html lang="en">
 <head>
@@ -15,45 +16,48 @@
 <style>
   :root {
     --bg: #f2f2f2; --bar: rgba(255,255,255,.92); --fg: #1d1d1f; --muted: #6b6b70;
-    --btn: #fff; --btn-border: #d4d4d8; --btn-active: #e4e4e7; --danger: #b42318;
+    --btn: #fff; --btn-border: #d4d4d8; --btn-active: #1d1d1f; --btn-active-fg: #fff; --danger: #b42318;
   }
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
       --bar: rgba(28,28,30,.92); --fg: #f4f4f5; --muted: #a1a1aa;
-      --btn: #2c2c2e; --btn-border: #3f3f46; --btn-active: #3f3f46; --danger: #f97066;
+      --btn: #2c2c2e; --btn-border: #3f3f46; --btn-active: #f4f4f5; --btn-active-fg: #18181b; --danger: #f97066;
     }
   }
   :root[data-theme="dark"] {
     --bar: rgba(28,28,30,.92); --fg: #f4f4f5; --muted: #a1a1aa;
-    --btn: #2c2c2e; --btn-border: #3f3f46; --btn-active: #3f3f46; --danger: #f97066;
+    --btn: #2c2c2e; --btn-border: #3f3f46; --btn-active: #f4f4f5; --btn-active-fg: #18181b; --danger: #f97066;
   }
   html, body { margin: 0; height: 100%; background: var(--bg); color: var(--fg);
                font: 13px/1.4 system-ui, -apple-system, "Segoe UI", sans-serif; }
   #stage { position: fixed; inset: 0; }
   #ldbi-canvas { display: block; width: 100%; height: 100%; touch-action: none; }
-  #bar { position: fixed; top: 0; left: 0; right: 0; display: flex; flex-wrap: wrap; gap: 6px;
+  #bar { position: fixed; top: 0; left: 0; right: 0; display: flex; flex-wrap: wrap; gap: 8px;
          align-items: center; padding: 8px 12px; background: var(--bar); backdrop-filter: blur(6px);
          border-bottom: 1px solid var(--btn-border); z-index: 2; }
-  #title { font-weight: 600; margin-right: auto; overflow: hidden; text-overflow: ellipsis;
-           white-space: nowrap; max-width: 40ch; }
+  #title { margin-right: auto; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+  #title strong { font-weight: 600; }
+  #parts { color: var(--muted); }
   button, a.btn { font: inherit; color: var(--fg); background: var(--btn); border: 1px solid var(--btn-border);
                   border-radius: 6px; padding: 4px 10px; cursor: pointer; text-decoration: none; }
-  button.active { background: var(--btn-active); }
   button:disabled { opacity: .5; cursor: default; }
+  .segmented { display: inline-flex; }
+  .segmented button { border-radius: 0; }
+  .segmented button:first-child { border-radius: 6px 0 0 6px; }
+  .segmented button:last-child { border-radius: 0 6px 6px 0; border-left: 0; }
+  .segmented button[aria-pressed="true"] { background: var(--btn-active); color: var(--btn-active-fg); border-color: var(--btn-active); }
   #status { position: fixed; left: 12px; bottom: 10px; color: var(--muted); z-index: 2; }
   #status.error { color: var(--danger); }
 </style>
 </head>
 <body>
 <div id="bar">
-  <span id="title">LDraw Viewer</span>
-  <button data-action="default" title="Reset colours and view">Default</button>
-  <button data-action="harlequin" title="Random colour per part">Harlequin</button>
-  <button data-action="bfc" title="Show back-face culling (BFC) status">BFC</button>
-  <button data-action="physical" data-toggle title="Physically-based materials">Physical</button>
-  <button data-action="logos" data-toggle title="LEGO logo on studs">Stud logos</button>
-  <button data-action="origin" data-toggle title="Show the model's origin axes">Origin</button>
-  <a class="btn" id="download" href="#" download>Download</a>
+  <span id="title"><strong id="file">LDraw Viewer</strong><span id="parts"></span></span>
+  <span class="segmented" role="group" aria-label="Rendering quality">
+    <button data-mode="normal" aria-pressed="true" title="Fast outlined rendering">Normal</button>
+    <button data-mode="high" aria-pressed="false" title="Realistic materials, lighting and shadows">High</button>
+  </span>
+  <a class="btn" id="download" href="#" download>.mpd</a>
 </div>
 <div id="stage"><canvas id="ldbi-canvas"></canvas></div>
 <div id="status">Loading…</div>
@@ -89,22 +93,26 @@ var scene = null;
   const LIB = '/ldraw';
   const params = new URLSearchParams(location.search);
   const modelUrl = params.get('model');
+  const knownParts = params.has('parts') ? parseInt(params.get('parts'), 10) : NaN;
   const theme = params.get('theme');
   if (theme === 'light' || theme === 'dark') document.documentElement.dataset.theme = theme;
 
   const status = document.getElementById('status');
   const setStatus = (text, isError) => { status.textContent = text; status.classList.toggle('error', !!isError); };
+  const HINT = 'Drag to rotate · Shift+drag to pan · Scroll to zoom';
 
   if (!modelUrl) { setStatus('No model given: add ?model=<url of an .ldr/.mpd file>', true); return; }
   if (!WEBGL.isWebGLAvailable()) { setStatus('WebGL is not available in this browser.', true); return; }
 
-  const fileName = decodeURIComponent(modelUrl.split('/').pop());
+  const fileName = decodeURIComponent(modelUrl.split('/').pop().split('?')[0]);
   const modelDir = modelUrl.slice(0, modelUrl.lastIndexOf('/') + 1);
-  document.getElementById('title').textContent = fileName;
+  document.getElementById('file').textContent = fileName;
   document.title = fileName + ' · LDraw Viewer';
   const download = document.getElementById('download');
   download.href = modelUrl + (modelUrl.includes('?') ? '&' : '?') + 'download=1';
   download.setAttribute('download', fileName);
+  download.textContent = '.' + (fileName.split('.').pop() || 'mpd').toLowerCase();
+  download.title = 'Download ' + fileName;
 
   // Where LDRLoader looks for each referenced file. The model itself is loaded by
   // its URL; everything else comes from the baked-in library: /ldraw-id/<id>
@@ -135,23 +143,254 @@ var scene = null;
   LDR.Colors.envMapPrefix = 'vendor/ldbi/textures/cube/';
   LDR.Colors.textureMaterialPrefix = 'vendor/ldbi/textures/materials/';
 
+  // ---------------------------------------------------------------------------
+  // "High" quality. ldbi's own physical mode (Phong materials, an old cube-map
+  // reflection, lights tuned for the flat default mode) looks dull. High uses
+  // the same per-colour meshes, but with:
+  //   * PBR materials per LDraw material type (ABS, transparent, chrome/metal,
+  //     rubber, pearl, glitter/speckle), colours converted to linear space;
+  //   * image-based lighting from a small procedural studio (three.js's
+  //     RoomEnvironment), prefiltered once with PMREM, plus a key light; sRGB
+  //     output with linear tone mapping (filmic/ACES washes out LEGO colours);
+  //   * LDraw's edge lines, faint, merged into a single draw call, so separate
+  //     bricks stay readable (conditional lines are left out: they'd need the
+  //     per-frame silhouette test of ldbi's own line shader);
+  //   * one soft key-light shadow on an invisible ground plane. The shadow map
+  //     is rendered once per build, not per frame: the model and the light
+  //     never move, only the camera does, so orbiting costs no extra passes.
+  // ---------------------------------------------------------------------------
+  const HQ = { env: null, ground: null, edges: null, materials: {}, saved: null };
+  const HQ_LOOK = { exposure: 0.9, key: 1.5, hemisphere: 0.05, environment: 0.6, edgeOpacity: 0.22 };
+
+  // Physical geometries normally come without edge lines; High wants them.
+  const buildPhysicalGeometries = LDR.LDRGeometry.prototype.buildPhysicalGeometries;
+  LDR.LDRGeometry.prototype.buildPhysicalGeometries = function () {
+    return buildPhysicalGeometries.call(this, true);
+  };
+
+  // Port of three.js examples/jsm/environments/RoomEnvironment.js (MIT, three.js authors), for r139 globals.
+  function roomEnvironment() {
+    const room = new THREE.Scene();
+    const box = new THREE.BoxGeometry();
+    box.deleteAttribute('uv');
+    const wall = new THREE.MeshStandardMaterial({ side: THREE.BackSide });
+    const prop = new THREE.MeshStandardMaterial();
+    const light = new THREE.PointLight(0xffffff, 5.0, 28, 2);
+    light.position.set(0.418, 16.199, 0.300);
+    room.add(light);
+    const add = (material, p, s, ry = 0) => {
+      const m = new THREE.Mesh(box, material);
+      m.position.set(...p); m.scale.set(...s); m.rotation.set(0, ry, 0);
+      room.add(m);
+    };
+    const emitter = intensity => { const m = new THREE.MeshBasicMaterial(); m.color.setScalar(intensity); return m; };
+    add(wall, [-0.757, 13.219, 0.717], [31.713, 28.305, 28.591]);
+    add(prop, [-10.906, 2.009, 1.846], [2.328, 7.905, 4.651], -0.195);
+    add(prop, [-5.607, -0.754, -0.758], [1.970, 1.534, 3.955], 0.994);
+    add(prop, [6.167, 0.857, 7.803], [3.927, 6.285, 3.687], 0.561);
+    add(prop, [-2.017, 0.018, 6.124], [2.002, 4.566, 2.064], 0.333);
+    add(prop, [2.291, -0.756, -2.621], [1.546, 1.552, 1.496], -0.286);
+    add(prop, [-2.193, -0.369, -5.547], [3.875, 3.487, 2.986], 0.516);
+    add(emitter(50), [-16.116, 14.37, 8.208], [0.1, 2.428, 2.739]);
+    add(emitter(50), [-16.109, 18.021, -8.207], [0.1, 2.425, 2.751]);
+    add(emitter(17), [14.904, 12.198, -1.832], [0.15, 4.265, 6.331]);
+    add(emitter(43), [-0.462, 8.89, 14.520], [4.38, 5.441, 0.088]);
+    add(emitter(20), [3.235, 11.486, -12.541], [2.5, 2.0, 0.1]);
+    add(emitter(100), [0.0, 20.0, 0.0], [1.0, 0.1, 1.0]);
+    return room;
+  }
+
+  // ldbi calls this for every colour in physical mode; we only use physical mode for High.
+  LDR.Colors.buildStandardMaterial = function (colorID, texmap) {
+    const key = String(colorID);
+    if (!texmap && HQ.materials[key]) return HQ.materials[key];
+    const color = LDR.Colors[colorID < 0 ? (-colorID - 1) : colorID] || LDR.Colors[0];
+    const hex = colorID < 0 ? (color.edge !== undefined ? color.edge : 0x333333) : color.value;
+    const p = {
+      color: new THREE.Color(hex).convertSRGBToLinear(), roughness: 0.28, metalness: 0.0,
+      envMapIntensity: HQ_LOOK.environment,
+      polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 1,   // keeps edge lines on top
+    };
+    const kind = String(color.material || '').toUpperCase();
+    if (kind === 'CHROME') { p.metalness = 1.0; p.roughness = 0.12; }
+    else if (kind === 'METAL') { p.metalness = 1.0; p.roughness = 0.35; }
+    else if (kind === 'RUBBER') { p.roughness = 0.85; }
+    else if (kind === 'PEARLESCENT') { p.metalness = 0.45; p.roughness = 0.3; }
+    else if (kind.startsWith('MATERIAL ')) { p.metalness = 0.25; p.roughness = 0.35; }   // glitter, speckle
+    if (texmap) {
+      p.color = new THREE.Color(0xffffff);
+      if (texmap !== true) { texmap.encoding = THREE.sRGBEncoding; p.map = texmap; }
+    }
+    const m = new THREE.MeshStandardMaterial(p);
+    if (color.alpha > 0) {                                   // transparent colours
+      m.transparent = true;
+      m.opacity = Math.max(0.4, color.alpha / 255);
+      m.roughness = 0.05;
+      m.depthWrite = false;
+    }
+    if (color.luminance > 0) { m.emissive = p.color.clone(); m.emissiveIntensity = 0.4; }   // glow in the dark
+    if (texmap) { m.transparent = true; m.depthWrite = false; }
+    else HQ.materials[key] = m;
+    return m;
+  };
+
+  function enableHigh() {
+    const r = scene.renderer;
+    const [key, ...otherLights] = scene.directionalLights;
+    if (!HQ.saved) {
+      HQ.saved = {
+        amb: scene.amblight.intensity, hemi: scene.hemisphereLight.intensity,
+        lights: scene.directionalLights.map(l => ({ l, intensity: l.intensity, position: l.position.clone(), castShadow: l.castShadow })),
+      };
+    }
+    r.outputEncoding = THREE.sRGBEncoding;
+    r.toneMapping = THREE.LinearToneMapping;
+    r.toneMappingExposure = HQ_LOOK.exposure;
+    if (!HQ.env) {
+      const pmrem = new THREE.PMREMGenerator(r);
+      HQ.env = pmrem.fromScene(roomEnvironment(), 0.04).texture;
+      pmrem.dispose();
+    }
+    scene.scene.environment = HQ.env;
+    scene.amblight.intensity = 0;
+    scene.hemisphereLight.intensity = HQ_LOOK.hemisphere;
+
+    // Key light: above, front-left of the model, casting the only shadow.
+    const box = new THREE.Box3().setFromObject(scene.baseObject);
+    const center = box.getCenter(new THREE.Vector3());
+    const size = box.getSize(new THREE.Vector3());
+    const diam = Math.max(size.x, size.y, size.z, 10);
+    key.intensity = HQ_LOOK.key;
+    key.position.set(center.x - 0.5 * diam, center.y + 1.5 * diam, center.z + 0.7 * diam);
+    key.target.position.copy(center);
+    key.target.updateMatrixWorld();
+    key.castShadow = true;
+    const cam = key.shadow.camera;
+    cam.left = cam.bottom = -diam; cam.right = cam.top = diam;
+    cam.near = 0.1 * diam; cam.far = 4 * diam;
+    cam.updateProjectionMatrix();
+    key.shadow.mapSize.set(2048, 2048);
+    key.shadow.bias = -0.0004;
+    key.shadow.normalBias = 0.02 * diam / 100;
+    if (key.shadow.map) { key.shadow.map.dispose(); key.shadow.map = null; }    // re-allocate at 2048
+    otherLights.forEach(l => { l.intensity = 0; l.castShadow = false; });
+    scene.pointLights.forEach(l => { l.castShadow = false; });
+
+    // Invisible ground that only shows the shadow.
+    if (!HQ.ground) {
+      HQ.ground = new THREE.Mesh(new THREE.PlaneGeometry(1, 1), new THREE.ShadowMaterial({ opacity: 0.2 }));
+      HQ.ground.rotation.x = -Math.PI / 2;
+      HQ.ground.receiveShadow = true;
+    }
+    HQ.ground.scale.set(diam * 4, diam * 4, 1);
+    HQ.ground.position.set(center.x, box.min.y - 0.05, center.z);
+    scene.scene.add(HQ.ground);
+    mergeEdges();
+
+    r.shadowMap.enabled = true;
+    r.shadowMap.type = THREE.PCFSoftShadowMap;
+    r.shadowMap.autoUpdate = false;      // static scene: render the shadow map once...
+    r.shadowMap.needsUpdate = true;      // ...on the next frame
+  }
+
+  // ldbi adds one LineSegments per part; merge the plain edge lines into one
+  // faint object (world space: the model never moves) and drop the rest.
+  function mergeEdges() {
+    if (HQ.edges) { scene.scene.remove(HQ.edges); HQ.edges.geometry.dispose(); HQ.edges = null; }
+    scene.baseObject.updateMatrixWorld(true);
+    const chunks = [];
+    let total = 0;
+    for (const { mesh, conditional } of scene.mc.lineMeshes) {
+      if (!conditional) {
+        const g = mesh.geometry.index ? mesh.geometry.toNonIndexed() : mesh.geometry;
+        const pos = g.getAttribute('position');
+        if (pos && pos.itemSize === 3) {
+          const copy = new THREE.BufferAttribute(new Float32Array(pos.array.subarray(0, pos.count * 3)), 3);
+          copy.applyMatrix4(mesh.matrixWorld);
+          chunks.push(copy.array);
+          total += copy.array.length;
+        }
+      }
+      if (mesh.parent) mesh.parent.remove(mesh);
+    }
+    const merged = new Float32Array(total);
+    let offset = 0;
+    for (const a of chunks) { merged.set(a, offset); offset += a.length; }
+    const geometry = new THREE.BufferGeometry();
+    geometry.setAttribute('position', new THREE.BufferAttribute(merged, 3));
+    HQ.edges = new THREE.LineSegments(geometry, new THREE.LineBasicMaterial({
+      color: 0x000000, transparent: true, opacity: HQ_LOOK.edgeOpacity, depthWrite: false,
+    }));
+    scene.scene.add(HQ.edges);
+  }
+
+  function enableNormal() {
+    const r = scene.renderer;
+    r.outputEncoding = THREE.LinearEncoding;
+    r.toneMapping = THREE.NoToneMapping;
+    r.shadowMap.enabled = false;         // nothing casts shadows in Normal mode
+    scene.scene.environment = null;
+    if (HQ.ground) scene.scene.remove(HQ.ground);
+    if (HQ.edges) { scene.scene.remove(HQ.edges); HQ.edges.geometry.dispose(); HQ.edges = null; }
+    if (HQ.saved) {
+      scene.amblight.intensity = HQ.saved.amb;
+      scene.hemisphereLight.intensity = HQ.saved.hemi;
+      HQ.saved.lights.forEach(({ l, intensity, position, castShadow }) => {
+        l.intensity = intensity; l.position.copy(position); l.castShadow = castShadow;
+      });
+    }
+  }
+
+  // ---------------------------------------------------------------------------
+
+  let mode = 'normal';
   let loaded = 0;
   const missing = new Set();
   const canvas = document.getElementById('ldbi-canvas');
+  const modeButtons = document.querySelectorAll('button[data-mode]');
+
+  function showPartCount() {
+    let n = knownParts;
+    if (!(n >= 0)) {
+      try { n = scene.loader.getMainModel().countParts(scene.loader); } catch (e) { return; }
+    }
+    document.getElementById('parts').textContent = `, ${n.toLocaleString()} part${n === 1 ? '' : 's'}`;
+  }
+
+  function onBuilt() {
+    if (mode === 'high') enableHigh(); else enableNormal();
+    scene.render();
+    showPartCount();
+    modeButtons.forEach(b => { b.disabled = false; });
+    const problems = [];
+    if (missing.size) problems.push(`${missing.size} part(s) not found, shown as boxes: ${[...missing].slice(0, 5).join(', ')}`);
+    if (unknownColours.size) problems.push(`unknown colour code(s) shown black: ${[...unknownColours].join(', ')}`);
+    setStatus(problems.length ? problems.join(' · ') : HINT, problems.length > 0);
+  }
+
+  function setMode(next) {
+    if (next === mode || !scene) return;
+    mode = next;
+    modeButtons.forEach(b => b.setAttribute('aria-pressed', String(b.dataset.mode === mode)));
+    modeButtons.forEach(b => { b.disabled = true; });
+    setStatus(mode === 'high' ? 'Building high-quality view…' : 'Building normal view…');
+    // Let the status paint before the (synchronous) rebuild; physical rendering
+    // age 1 = physical materials without ldbi's "aged plastic" yellowing.
+    setTimeout(() => scene.setPhysicalRenderingAge(mode === 'high' ? 1 : 0), 30);
+  }
+  modeButtons.forEach(b => b.addEventListener('click', () => setMode(b.dataset.mode)));
+  modeButtons.forEach(b => { b.disabled = true; });
 
   LDR.Colors.load(() => {
     scene = new LDrawOrg.Model(canvas, modelUrl, {
       idToUrl, idToTextureUrl,
       onProgress: () => { loaded++; if (loaded % 25 === 0) setStatus(`Loading parts… ${loaded}`); },
-      onLoaded: () => {
-        const problems = [];
-        if (missing.size) problems.push(`${missing.size} part(s) not found, shown as boxes: ${[...missing].slice(0, 5).join(', ')}`);
-        if (unknownColours.size) problems.push(`unknown colour code(s) shown black: ${[...unknownColours].join(', ')}`);
-        setStatus(problems.length
-          ? `Loaded ${loaded} files · ${problems.join(' · ')}`
-          : `Loaded ${loaded} files · drag to rotate, scroll to zoom, right-drag to pan`, problems.length > 0);
-      },
+      onLoaded: onBuilt,
     });
+    scene.renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+    scene.renderer.shadowMap.enabled = false;
+    // Shift+drag pans (built into OrbitControls, as do Ctrl/Cmd+drag); right-drag does nothing.
+    scene.orbitControls.mouseButtons.RIGHT = -1;
     scene.loader.onError = e => {
       if (e && e.subModel) missing.add(e.subModel);
       if (e && e.subModel === modelUrl) setStatus(`Could not load ${fileName}`, true);
@@ -159,30 +398,6 @@ var scene = null;
     scene.loader.onWarning = () => {};
     addEventListener('resize', () => scene.onChange());
   }, () => setStatus('Could not load LDConfig.ldr (colour definitions).', true), `${LIB}/LDConfig.ldr`);
-
-  // Toolbar: the same scene controls as library.ldraw.org's viewer.
-  document.getElementById('bar').addEventListener('click', ev => {
-    const btn = ev.target.closest('button[data-action]');
-    if (!btn || !scene) return;
-    const action = btn.dataset.action;
-    if (action === 'default') {
-      scene.default_mode();
-      document.querySelectorAll('button[data-action="logos"]').forEach(b => b.classList.remove('active'));
-    } else if (action === 'harlequin') {
-      scene.harlequin_mode();
-    } else if (action === 'bfc') {
-      scene.bfc_mode();
-    } else if (action === 'physical') {
-      scene.setPhysicalRenderingAge(scene.loader.physicalRenderingAge > 0 ? 0 : 20);
-    } else if (action === 'logos') {
-      LDR.Options.studLogo = LDR.Options.studLogo == 1 ? 0 : 1;
-      scene.reload();
-    } else if (action === 'origin') {
-      scene.axesHelper.visible = !scene.axesHelper.visible;
-      scene.reload();
-    }
-    if (btn.hasAttribute('data-toggle')) btn.classList.toggle('active');
-  });
 })();
 </script>
 </body>

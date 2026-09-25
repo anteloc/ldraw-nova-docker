@@ -11,7 +11,7 @@ export default function ViewerModal({ target, onClose }: { target: ViewerTarget;
     return () => removeEventListener("keydown", onKey);
   }, [onClose]);
 
-  const url = viewerUrl(target.modelUrl);
+  const url = viewerUrl(target.modelUrl, target.parts);
   return (
     <div className="modal-backdrop" onClick={onClose}>
       <div className="modal" role="dialog" aria-label={`3D view of ${target.title}`} onClick={(e) => e.stopPropagation()}>

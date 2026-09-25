@@ -2,7 +2,7 @@ import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { useParams } from "react-router-dom";
-import { api, type Artifact, type ChatDetail, type Message } from "../api";
+import { api, isPending, type ChatDetail, type ChatModel, type Message } from "../api";
 import Composer from "../components/Composer";
 import ToolCard from "../components/ToolCard";
 import { useApp } from "../context";
@@ -109,6 +109,14 @@ export default function ChatPage() {
     return () => sourceRef.current?.close();
   }, [id, reload, subscribe]);
 
+  // Snapshots/BOMs of this chat's models still being made (e.g. a deleted .png): refetch until done.
+  const snapshotsPending = !running && !!detail && Object.values(detail.models).some(isPending);
+  useEffect(() => {
+    if (!snapshotsPending) return;
+    const timer = setTimeout(() => reload().then(() => refreshChats()), 1500);
+    return () => clearTimeout(timer);
+  }, [snapshotsPending, detail, reload, refreshChats]);
+
   // Fall back to the default model when the chat's model was deleted.
   useEffect(() => {
     if (llms.length && (!llmId || !llms.some((m) => m.id === llmId))) setLlmId(defaultLlmId ?? llms[0].id);
@@ -143,8 +151,7 @@ export default function ChatPage() {
   const messages = detail.messages;
   const results = new Map(messages.filter((m) => m.role === "tool").map((m) => [m.tool_call_id, m]));
   const runningIds = new Set(tools.map((t) => t.id));
-  const artifactsFor = (m?: Message): Artifact[] =>
-    (m?._artifacts ?? []).map((a) => detail.artifacts[a]).filter(Boolean);
+  const modelsFor = (m?: Message): ChatModel[] => (m?._models ?? []).map((id) => detail.models[id]).filter(Boolean);
   const idle = running && !draft && !persisting && tools.length === 0;
 
   return (
@@ -182,7 +189,7 @@ export default function ChatPage() {
                       ? "queued"
                       : "interrupted";
                 return (
-                  <ToolCard key={call.id} call={call} result={result} status={status} artifacts={artifactsFor(result)} />
+                  <ToolCard key={call.id} call={call} result={result} status={status} models={modelsFor(result)} />
                 );
               })}
             </div>

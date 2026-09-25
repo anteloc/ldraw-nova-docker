@@ -1,17 +1,17 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { Route, Routes, useLocation } from "react-router-dom";
+import { Navigate, Route, Routes, useLocation } from "react-router-dom";
 import { api, type Chat, type LlmEntry } from "./api";
 import { AppContext, type ViewerTarget } from "./context";
 import Sidebar from "./components/Sidebar";
 import ViewerModal from "./components/ViewerModal";
 import ChatPage from "./pages/ChatPage";
-import Gallery from "./pages/Gallery";
 import Home from "./pages/Home";
-import Outputs from "./pages/Outputs";
+import Models from "./pages/Models";
 import Settings from "./pages/Settings";
 
 export default function App() {
   const [chats, setChats] = useState<Chat[]>([]);
+  const [chatsLoaded, setChatsLoaded] = useState(false);
   const [llms, setLlms] = useState<LlmEntry[]>([]);
   const [defaultLlmId, setDefaultLlmId] = useState<string | null>(null);
   const [viewer, setViewer] = useState<ViewerTarget | null>(null);
@@ -19,7 +19,13 @@ export default function App() {
   const location = useLocation();
 
   const refreshChats = useCallback(() => {
-    api.chats().then((r) => setChats(r.chats)).catch(() => {});
+    api
+      .chats()
+      .then((r) => {
+        setChats(r.chats);
+        setChatsLoaded(true);
+      })
+      .catch(() => {});
   }, []);
   const refreshLlms = useCallback(() => {
     api
@@ -39,8 +45,8 @@ export default function App() {
   useEffect(() => setMenuOpen(false), [location.pathname]);
 
   const state = useMemo(
-    () => ({ chats, refreshChats, llms, defaultLlmId, refreshLlms, openViewer: setViewer }),
-    [chats, refreshChats, llms, defaultLlmId, refreshLlms],
+    () => ({ chats, chatsLoaded, refreshChats, llms, defaultLlmId, refreshLlms, openViewer: setViewer }),
+    [chats, chatsLoaded, refreshChats, llms, defaultLlmId, refreshLlms],
   );
 
   return (
@@ -55,8 +61,8 @@ export default function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/chat/:id" element={<ChatPage />} />
-            <Route path="/gallery" element={<Gallery />} />
-            <Route path="/outputs/*" element={<Outputs />} />
+            <Route path="/models" element={<Models />} />
+            <Route path="/gallery" element={<Navigate to="/models" replace />} />
             <Route path="/settings" element={<Settings />} />
             <Route path="*" element={<Home />} />
           </Routes>

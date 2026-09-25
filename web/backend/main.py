@@ -7,7 +7,6 @@ from __future__ import annotations
 
 import json
 import logging
-import shutil
 import tempfile
 import zipfile
 from contextlib import asynccontextmanager
@@ -24,21 +23,22 @@ from pydantic import BaseModel
 from starlette.background import BackgroundTask
 
 import agent
+import gallery
 import llm_config
+import sandbox
 import settings
+from leocad_render import bom_path_for, snapshot_path_for
 from paths import rel_to, safe_join
-from store import get_store
+from store import ChatStore, get_store
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
-
-MODEL_SUFFIXES = (".mpd", ".ldr")
-IMAGE_SUFFIXES = (".png", ".jpg", ".jpeg", ".gif", ".bmp")
 
 
 @asynccontextmanager
 async def lifespan(_app: FastAPI):
-    for folder in (settings.GENERATED_DIR, settings.OUTPUT_DIR):
+    for folder in (settings.GENERATED_DIR, settings.CHATS_DIR, settings.OUTPUT_DIR):
         folder.mkdir(parents=True, exist_ok=True)
+    sandbox.give_to_agent(settings.GENERATED_DIR)      # agent scripts may publish models there
     get_store()
     yield
 
@@ -159,11 +159,74 @@ class NewMessage(BaseModel):
     llm_model_id: Optional[str] = None
 
 
+# --- model helpers -------------------------------------------------------------
+
+def file_url(path: Path, versioned: bool = False) -> Optional[str]:
+    """/files/... URL of an existing file in a web-visible folder of /data
+    (generated/, chats/), else None. data/output is agent-only: never served.
+
+    `versioned` adds the file's mtime, for images that can be re-rendered under
+    the same name: browsers reuse an image already on the page by URL alone."""
+    try:
+        rel = rel_to(path, settings.DATA_DIR)
+    except ValueError:
+        return None
+    if rel.split("/", 1)[0] not in settings.WEB_DIRS or not path.is_file():
+        return None
+    url = "/files/" + quote(rel)
+    return f"{url}?v={path.stat().st_mtime_ns}" if versioned else url
+
+
+def model_info(path: Path) -> dict:
+    """A model file in the collection, as the UI sees it: its snapshot (status,
+    image_url), BOM (bom_status, bom_url) and part count (from the BOM)."""
+    exists = path.is_file()
+    status, error = gallery.status_of(path, "snapshot") if exists else ("missing", None)
+    bom_status, bom_error = gallery.status_of(path, "bom") if exists else ("missing", None)
+    stat = path.stat() if exists else None
+    return {
+        "file": path.name, "name": path.stem, "description": gallery.description_of(path) if exists else "",
+        "model_url": file_url(path), "image_url": file_url(snapshot_path_for(path), versioned=True),
+        "bom_url": file_url(bom_path_for(path), versioned=True), "parts": gallery.part_count(path) if exists else None,
+        "size": stat.st_size if stat else 0, "mtime": stat.st_mtime if stat else 0,
+        "status": status, "error": error, "bom_status": bom_status, "bom_error": bom_error,
+    }
+
+
+def _pending(info: dict) -> bool:
+    return info["status"] in ("queued", "rendering") or info["bom_status"] in ("queued", "rendering")
+
+
+def chat_models(store: ChatStore, chat_id: str) -> dict[str, dict]:
+    """The models a chat produced (references into data/generated), keyed by id."""
+    result = {}
+    for ref in store.models(chat_id):
+        path = store.resolve(chat_id, ref["model"])
+        result[ref["id"]] = {**model_info(path), "id": ref["id"], "name": ref["name"],
+                             "warnings": ref.get("warnings", []), "created_at": ref["created_at"]}
+    return result
+
+
+def model_chat_index(store: ChatStore) -> dict[Path, list[dict]]:
+    """model path -> the chats that produced it."""
+    index: dict[Path, list[dict]] = {}
+    for chat in store.list_chats():
+        for ref in store.models(chat["id"]):
+            chats = index.setdefault(store.resolve(chat["id"], ref["model"]), [])
+            if not any(c["id"] == chat["id"] for c in chats):
+                chats.append({"id": chat["id"], "title": chat["title"]})
+    return index
+
+
+# --- chats ---------------------------------------------------------------------
+
 @app.get("/api/chats")
 def chats_list():
-    chats = get_store().list_chats()
+    store = get_store()
+    chats = store.list_chats()
     for chat in chats:
         chat["running"] = agent.is_running(chat["id"])
+        chat["models"] = list(chat_models(store, chat["id"]).values())
     return {"chats": chats}
 
 
@@ -173,14 +236,17 @@ def chats_create(body: NewChat):
 
 
 @app.get("/api/chats/{chat_id}")
-def chats_get(chat_id: str):
+async def chats_get(chat_id: str):
     store = get_store()
     chat = store.get_chat(chat_id) or _not_found("no such chat")
-    return {
-        "chat": {**chat, "running": agent.is_running(chat_id)},
-        "messages": store.messages(chat_id),
-        "artifacts": {a["id"]: a for a in store.list_artifacts(chat_id)},
-    }
+    messages = store.messages(chat_id)
+    for m in messages:
+        if m.get("_images"):
+            m["_image_urls"] = [u for u in (file_url(store.resolve(chat_id, r), versioned=True) for r in m["_images"]) if u]
+    models = chat_models(store, chat_id)
+    gallery.ensure_artifacts(store.resolve(chat_id, ref["model"]) for ref in store.models(chat_id)
+                             if store.resolve(chat_id, ref["model"]).is_file())
+    return {"chat": {**chat, "running": agent.is_running(chat_id)}, "messages": messages, "models": models}
 
 
 @app.patch("/api/chats/{chat_id}")
@@ -192,12 +258,13 @@ def chats_patch(chat_id: str, body: ChatPatch):
 
 
 @app.delete("/api/chats/{chat_id}")
-async def chats_delete(chat_id: str, delete_files: bool = False):
+async def chats_delete(chat_id: str):
+    """Deletes data/chats/<id> and its work folder data/output/<id>. The models
+    it produced stay in data/generated (they're part of the collection)."""
+    store = get_store()
+    store.get_chat(chat_id) or _not_found("no such chat")
     await agent.cancel(chat_id)
-    get_store().delete_chat(chat_id)
-    if delete_files:
-        shutil.rmtree(settings.GENERATED_DIR / chat_id, ignore_errors=True)
-        shutil.rmtree(settings.OUTPUT_DIR / "generated" / chat_id, ignore_errors=True)
+    store.delete_chat(chat_id)
     return {"deleted": True}
 
 
@@ -231,65 +298,29 @@ async def chats_stream(chat_id: str):
                              headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"})
 
 
-@app.get("/api/artifacts")
-def artifacts_list(limit: int = 500):
-    return {"artifacts": get_store().list_artifacts(limit=limit)}
+# --- the model collection (data/generated) ---------------------------------------
+
+@app.get("/api/models")
+async def models_list():
+    """Every model in data/generated, newest first. Models without a snapshot
+    or BOM get them made in the background; poll until `pending` is 0."""
+    models = gallery.collection(settings.GENERATED_DIR)
+    gallery.ensure_artifacts(models)
+    index = model_chat_index(get_store())
+    items = [{**model_info(path), "chats": index.get(path, [])} for path in models]
+    return {"models": items, "pending": sum(1 for i in items if _pending(i))}
 
 
-# --- data/output browser -----------------------------------------------------
-
-def _source_for(output_file: Path) -> Optional[dict]:
-    """The model a render came from: data/X/y.png <- data/X/y.{mpd,ldr}, else a
-    reference model with the same stem (renders made from /opt/models-annotated)."""
-    rel = output_file.relative_to(settings.OUTPUT_DIR)
-    for suffix in (".mpd", ".ldr", ".MPD", ".LDR"):
-        candidate = settings.DATA_DIR / rel.with_suffix(suffix)
-        if candidate.is_file():
-            return {"url": "/files/" + quote(rel_to(candidate, settings.DATA_DIR)), "name": candidate.name}
-    for suffix in MODEL_SUFFIXES:
-        ref = settings.REF_MODELS_DIR / (output_file.stem + suffix)
-        if ref.is_file():
-            return {"url": "/ref/" + quote(ref.name), "name": ref.name}
-    return None
-
-
-@app.get("/api/outputs")
-def outputs_list(dir: str = ""):
-    folder = safe_join(settings.OUTPUT_DIR, dir)
-    if folder is None or not folder.is_dir():
-        _not_found("no such folder")
-    dirs, files = [], []
-    for entry in sorted(folder.iterdir(), key=lambda p: p.name.lower()):
-        if entry.name.startswith("."):
-            continue
-        rel = rel_to(entry, settings.OUTPUT_DIR)
-        if entry.is_dir():
-            dirs.append({"name": entry.name, "path": rel})
-        else:
-            stat = entry.stat()
-            files.append({
-                "name": entry.name, "path": rel, "size": stat.st_size, "mtime": stat.st_mtime,
-                "url": "/files/" + quote(rel_to(entry, settings.DATA_DIR)),
-                "is_image": entry.suffix.lower() in IMAGE_SUFFIXES,
-                "source": _source_for(entry) if entry.suffix.lower() in IMAGE_SUFFIXES else None,
-            })
-    return {"dir": rel_to(folder, settings.OUTPUT_DIR) if folder != settings.OUTPUT_DIR.resolve() else "",
-            "dirs": dirs, "files": files}
-
-
-@app.get("/api/outputs/zip")
-def outputs_zip(dir: str = ""):
-    folder = safe_join(settings.OUTPUT_DIR, dir)
-    if folder is None or not folder.is_dir():
-        _not_found("no such folder")
+@app.get("/api/models/zip")
+def models_zip():
+    """data/generated as a zip: every model with its snapshot and BOM."""
     tmp = tempfile.NamedTemporaryFile(suffix=".zip", delete=False)
     with zipfile.ZipFile(tmp, "w", zipfile.ZIP_DEFLATED) as zf:
-        for path in sorted(folder.rglob("*")):
-            if path.is_file():
-                zf.write(path, rel_to(path, folder))
+        for path in sorted(settings.GENERATED_DIR.iterdir()):
+            if path.is_file() and not path.name.startswith("."):
+                zf.write(path, path.name)
     tmp.close()
-    name = (folder.name if dir else "output") + ".zip"
-    return FileResponse(tmp.name, filename=name, media_type="application/zip",
+    return FileResponse(tmp.name, filename="generated.zip", media_type="application/zip",
                         background=BackgroundTask(Path(tmp.name).unlink, missing_ok=True))
 
 
@@ -308,6 +339,11 @@ def _serve(root: Path, path: str, *, download: bool = False, case_insensitive: b
 
 @app.get("/files/{path:path}")
 def files(path: str, download: bool = False):
+    """Files in data/generated and data/chats. Checked on the resolved path, so
+    generated/../output/... can't reach the agents' work folders."""
+    file = safe_join(settings.DATA_DIR, path)
+    if file is None or file_url(file) is None:
+        _not_found()
     return _serve(settings.DATA_DIR, path, download=download)
 
 

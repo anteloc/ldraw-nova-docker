@@ -1,15 +1,27 @@
 // Typed client for the FastAPI backend (web/backend/main.py).
 
-export type Artifact = {
-  id: string;
-  chat_id: string;
+export type SnapshotStatus = "ready" | "queued" | "rendering" | "failed" | "missing";
+
+/** A model file in data/generated. */
+export type ModelFile = {
+  file: string;
   name: string;
-  model_path: string; // relative to /data
-  image_path: string | null; // relative to /data; null if the render failed
-  warnings: string[];
-  created_at: number;
-  chat_title?: string;
+  description: string; // the model's title line (line 2 of an .mpd)
+  model_url: string | null; // null if the file is gone
+  image_url: string | null; // the sibling .png, once it exists
+  bom_url: string | null; // the sibling .csv bill of materials, once it exists
+  parts: number | null; // total parts, from the BOM
+  size: number;
+  mtime: number;
+  status: SnapshotStatus; // of the snapshot
+  error: string | null;
+  bom_status: SnapshotStatus;
+  bom_error: string | null;
+  chats?: { id: string; title: string }[]; // chats that produced it (Models page)
 };
+
+/** A model a chat produced: a reference into data/generated. */
+export type ChatModel = ModelFile & { id: string; warnings: string[]; created_at: number };
 
 export type Chat = {
   id: string;
@@ -18,7 +30,7 @@ export type Chat = {
   created_at: number;
   updated_at: number;
   running?: boolean;
-  artifacts?: Artifact[];
+  models?: ChatModel[];
 };
 
 export type ToolCall = { id: string; type: "function"; function: { name: string; arguments: string } };
@@ -31,8 +43,8 @@ export type Message = {
   tool_calls?: ToolCall[];
   tool_call_id?: string;
   name?: string;
-  _artifacts?: string[];
-  _images?: string[];
+  _models?: string[];
+  _image_urls?: string[];
   _hidden?: boolean;
   _ui_only?: boolean;
   _error?: boolean;
@@ -40,7 +52,7 @@ export type Message = {
   _reasoning?: string;
 };
 
-export type ChatDetail = { chat: Chat; messages: Message[]; artifacts: Record<string, Artifact> };
+export type ChatDetail = { chat: Chat; messages: Message[]; models: Record<string, ChatModel> };
 
 export type Capability = boolean | "auto";
 export type LlmEntry = {
@@ -49,20 +61,6 @@ export type LlmEntry = {
   litellm_params: Record<string, unknown>;
   capabilities: { tools: Capability; vision: Capability };
   resolved_capabilities: { tools: boolean | null; vision: boolean | null };
-};
-
-export type OutputListing = {
-  dir: string;
-  dirs: { name: string; path: string }[];
-  files: {
-    name: string;
-    path: string;
-    size: number;
-    mtime: number;
-    url: string;
-    is_image: boolean;
-    source: { url: string; name: string } | null;
-  }[];
 };
 
 async function request<T>(url: string, init?: RequestInit): Promise<T> {
@@ -93,13 +91,11 @@ export const api = {
   chat: (id: string) => request<ChatDetail>(`/api/chats/${id}`),
   renameChat: (id: string, title: string) =>
     request<Chat>(`/api/chats/${id}`, { method: "PATCH", body: json({ title }) }),
-  deleteChat: (id: string, deleteFiles = false) =>
-    request(`/api/chats/${id}?delete_files=${deleteFiles}`, { method: "DELETE" }),
+  deleteChat: (id: string) => request(`/api/chats/${id}`, { method: "DELETE" }),
   send: (id: string, text: string, llm_model_id?: string | null) =>
     request(`/api/chats/${id}/messages`, { method: "POST", body: json({ text, llm_model_id }) }),
   cancel: (id: string) => request(`/api/chats/${id}/cancel`, { method: "POST" }),
-  artifacts: () => request<{ artifacts: Artifact[] }>("/api/artifacts"),
-  outputs: (dir: string) => request<OutputListing>(`/api/outputs?dir=${encodeURIComponent(dir)}`),
+  models: () => request<{ models: ModelFile[]; pending: number }>("/api/models"),
 
   llmModels: () => request<{ models: LlmEntry[]; default_id: string | null }>("/api/llm-models"),
   createLlm: (entry: Partial<LlmEntry>) => request<LlmEntry>("/api/llm-models", { method: "POST", body: json(entry) }),
@@ -118,11 +114,15 @@ export const api = {
   providerModels: (p: string) => request<{ models: string[] }>(`/api/llm-providers/${encodeURIComponent(p)}/models`),
 };
 
-/** URL of a file under /data (paths from the API are relative to /data). */
-export const fileUrl = (rel: string, download = false) =>
-  "/files/" + rel.split("/").map(encodeURIComponent).join("/") + (download ? "?download=1" : "");
+export const downloadUrl = (url: string) => url + (url.includes("?") ? "&" : "?") + "download=1";
 
-export const viewerUrl = (modelUrl: string) => `/viewer/viewer.html?model=${encodeURIComponent(modelUrl)}`;
+export const viewerUrl = (modelUrl: string, parts?: number | null) =>
+  `/viewer/viewer.html?model=${encodeURIComponent(modelUrl)}` + (parts != null ? `&parts=${parts}` : "");
+
+export const partsLabel = (parts: number) => `${parts.toLocaleString()} part${parts === 1 ? "" : "s"}`;
+
+export const isPending = (m: { status: SnapshotStatus; bom_status: SnapshotStatus }) =>
+  m.status === "queued" || m.status === "rendering" || m.bom_status === "queued" || m.bom_status === "rendering";
 
 export function timeAgo(seconds: number): string {
   const diff = Date.now() / 1000 - seconds;

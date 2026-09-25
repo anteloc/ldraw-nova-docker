@@ -12,7 +12,7 @@ services:
       - "127.0.0.1:${LEOCAD_WEB_PORT:-8765}:8000"
     volumes:
       - ./data:/data       # host ./data <-> container /data (input: everything under it, output: output/)
-      - config:/config     # LLM settings, API keys, chat history; kept out of ./data on purpose
+      - config:/config     # LLM settings + API keys; kept out of ./data on purpose
     # Optional: keys referenced from the UI as "os.environ/NAME" (e.g. ANTHROPIC_API_KEY=...)
     env_file:
       - path: .env

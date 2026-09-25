@@ -131,8 +131,9 @@ COPY web/viewer/ /opt/web/viewer/
 COPY --from=frontend /src/dist/ /opt/web/static/
 
 # --- Shared folder with the host --------------------------------------------
-# Everything under /data is input; rendered images go to /data/output.
-RUN mkdir -p /data/output
+# /data/generated: the model collection; /data/chats: chat history;
+# /data/output: agents' work folders (one per chat) and the CLI's default output.
+RUN mkdir -p /data/generated /data/chats /data/output
 VOLUME ["/data", "/config"]
 
 COPY entrypoint.sh /usr/local/bin/entrypoint.sh
