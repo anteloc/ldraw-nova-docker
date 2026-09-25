@@ -16,15 +16,22 @@ Also runnable by hand, e.g. from a `docker exec` shell:
 from __future__ import annotations
 
 import argparse
+import os
 import subprocess
 import sys
 from pathlib import Path
 from typing import Optional, Sequence, Tuple
 
 # Host ./data is mounted here. Everything under DATA_DIR is input; rendered
-# images go to OUTPUT_DIR.
-DATA_DIR = Path("/data")
+# images go to OUTPUT_DIR. (LEOCAD_DATA_DIR only exists to point tests elsewhere.)
+DATA_DIR = Path(os.environ.get("LEOCAD_DATA_DIR", "/data"))
 OUTPUT_DIR = DATA_DIR / "output"
+
+
+def output_path_for(model_path: str | Path) -> Path:
+    """Where the render of a model under DATA_DIR goes: the same relative path
+    under OUTPUT_DIR, as a .png (data/a/b/car.ldr -> data/output/a/b/car.png)."""
+    return OUTPUT_DIR / Path(model_path).relative_to(DATA_DIR).with_suffix(".png")
 
 
 def render_image(

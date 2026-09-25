@@ -10,7 +10,7 @@ same mount) can read it too.
 Run:
     docker run --rm --init -v "$PWD/data:/data" leocad-app python3 /app/example.py
 """
-from leocad_render import DATA_DIR, OUTPUT_DIR, render_image
+from leocad_render import DATA_DIR, OUTPUT_DIR, output_path_for, render_image
 
 MODEL_SUFFIXES = {".ldr", ".mpd"}
 
@@ -29,7 +29,7 @@ def main() -> None:
 
     for model in models:
         # data/a/b/car.ldr -> data/output/a/b/car.png (keeps same-named models apart)
-        out_path = OUTPUT_DIR / model.relative_to(DATA_DIR).with_suffix(".png")
+        out_path = output_path_for(model)
         print(f"Rendering {model.relative_to(DATA_DIR)} -> {out_path.relative_to(DATA_DIR)}")
         try:
             render_image(model, out_path)

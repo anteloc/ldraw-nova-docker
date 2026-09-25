@@ -1,6 +1,10 @@
 # LeoCAD + Python in one container (headless LDraw rendering)
 
 A single image containing:
+- **A web app** on http://localhost:8765: chat with LLM agents (Claude,
+  GPT, Gemini, local Ollama models — anything LiteLLM supports) that design
+  LDraw models, render them with LeoCAD and show you screenshots you can open
+  in a three.js 3D viewer. See [Web app](#web-app).
 - **LeoCAD**, installed from an official, pinned, *released* AppImage (not
   built from source, not the rolling "continuous" build) — no compiler, no
   build failures from work-in-progress code
@@ -22,13 +26,19 @@ A single image containing:
 .
 ├── Dockerfile
 ├── entrypoint.sh          # starts Xvfb once, then execs the main process
-├── docker-compose.yml     # keeps a container running for you to log into
+├── docker-compose.yml     # runs the web app; you can log into the container any time
+├── docker-compose.dev.yml # development overlay: live backend code + auto-reload
 ├── requirements.txt
 ├── leocad_render.py       # render_image() + a CLI — wrapper around leocad
 ├── example.py             # batch worker: renders everything under data/ -> data/output/
 ├── models-annotated/      # baked into the image at /opt/models-annotated/
+├── web/
+│   ├── backend/           # FastAPI: chat API, agent loop (LiteLLM), tools, file routes
+│   ├── frontend/          # React + Vite UI (built in a Docker build stage)
+│   └── viewer/            # viewer.html: the three.js LDraw viewer page
 └── data/                  # mounted at /data (not baked in)
-    └── output/            # rendered images land here
+    ├── generated/<chat>/  # models the agents made (also each chat's working folder)
+    └── output/            # rendered images land here (output/generated/<chat>/ for chats)
 ```
 
 | Host | Container | |
@@ -36,6 +46,7 @@ A single image containing:
 | `./data/` | `/data/` | input: any `.ldr`/`.mpd` anywhere under it |
 | `./data/output/` | `/data/output/` | output: rendered PNGs |
 | `./models-annotated/` | `/opt/models-annotated/` | baked in at build time (rebuild to update) |
+| named volume `config` | `/config/` | LLM settings, API keys, chat history (not on the host, on purpose) |
 
 ## Why an AppImage, not Snap/Flatpak, and not a source build
 
@@ -81,7 +92,7 @@ emulation. It works, but renders are slower than on a native x86_64 host.
 ### Log into a running container and render by hand
 
 ```bash
-docker compose up -d --build              # start it (stays up: `sleep infinity`)
+docker compose up -d --build              # start it (the web server keeps it up)
 docker compose exec leocad-app bash       # log in — repeat as often as you like
 ```
 
@@ -127,6 +138,74 @@ Raw `leocad` calls still work directly (no `--libpath` needed — see below):
 docker run --rm --init -v "$PWD/data:/data" leocad-app \
     leocad /data/car.ldr -i /data/output/car.png -w 1280 -h 720 --camera-angles 30 40
 ```
+
+## Web app
+
+```bash
+docker compose up -d --build
+open http://localhost:8765                # port: LEOCAD_WEB_PORT in .env
+```
+
+1. **Settings → Add model.** Pick a preset or type any LiteLLM model string
+   (`anthropic/claude-sonnet-5`, `openai/<model>`, `gemini/<model>`,
+   `ollama_chat/<model>` with API base `http://host.docker.internal:11434`,
+   any OpenAI-compatible server, …), an API key, and optionally extra LiteLLM
+   parameters. **Test** sends a one-word request. Keys can also stay out of
+   the UI: put `ANTHROPIC_API_KEY=...` in a `.env` file next to
+   `docker-compose.yml` and enter `os.environ/ANTHROPIC_API_KEY` as the key.
+   Existing LiteLLM proxy `model_list` YAML can be imported.
+2. **Chat.** Ask for a model. The agent searches the parts library and the
+   ~1800 annotated reference models, writes an `.mpd`, validates it (unknown
+   parts, bad colours), renders it with LeoCAD and — if the model accepts
+   images — looks at its own render to fix problems. It can also run Python or
+   shell in its chat folder (e.g. to generate a model with a script); any
+   `.ldr`/`.mpd` it writes there is rendered automatically.
+3. **Screenshots** appear in the chat. Click one for the 3D viewer, or
+   download the `.mpd`/`.png`. **Models** lists every generated model,
+   **Outputs** browses `data/output` (single files or a folder as `.zip`),
+   and the sidebar keeps the chat history with thumbnails.
+
+Where things live:
+
+| What | Where |
+|---|---|
+| Generated models | `data/generated/<chat>/<name>-v<N>.mpd` — never overwritten, so old chats keep their versions |
+| Their screenshots | `data/output/generated/<chat>/<name>-v<N>.png` (same mapping as `example.py`) |
+| Other renders by the agent | `data/output/generated/<chat>/renders/` |
+| Scripts the agent ran | `data/generated/<chat>/.scripts/` |
+| LLM settings, keys, chat history | `/config` volume (`docker compose down -v` deletes it) |
+
+**The 3D viewer** is `/viewer/viewer.html?model=<url>` — e.g.
+http://localhost:8765/viewer/viewer.html?model=/ref/8303-1.mpd for a
+reference model. It is library.ldraw.org's viewer
+([ldraworg-library](https://github.com/ldraw-org/ldraworg-library), MIT, built
+on [buildinginstructions.js](https://github.com/LasseD/buildinginstructions.js),
+Unlicense), vendored into the image at a pinned commit (`LDRAWORG_REF`), with
+parts served from the baked-in library instead of ldraw.org.
+
+**Security.** This is a local, single-user tool:
+
+* The port is bound to `127.0.0.1` only. There is no login, and anyone who
+  can reach it can spend your API keys and run code in the container.
+* Agent code runs as the unprivileged `agent` user with a scrubbed environment
+  and CPU/file-size limits. It can't read `/config` (keys, history) but can
+  read and write everything in `/data`, and it has network access.
+* For stronger isolation, move `web/backend/sandbox.py`'s execution into a
+  separate container with only `data/generated` mounted and no network.
+
+### Developing the web app
+
+```bash
+docker compose -f docker-compose.yml -f docker-compose.dev.yml up -d   # backend from your checkout, auto-reload
+cd web/frontend && npm install && npm run dev                          # UI with hot reload: http://localhost:5173
+
+# backend tests (inside the container: they use LeoCAD and the real library)
+docker compose exec leocad-app bash -c \
+  "pip install -q --break-system-packages -r /app/web/backend/requirements-dev.txt && cd /app/web/backend && pytest -q"
+```
+
+The agent's instructions are in `web/backend/prompts/system.md` and its tools
+in `web/backend/tools.py`.
 
 ## The parts library
 
@@ -187,8 +266,9 @@ https://www.leocad.org/docs/cli.html
 ## Notes
 
 * **Concurrency**: one Xvfb per container, so one `leocad` process at a time
-  per container. For parallel renders, run multiple containers rather than
-  parallelizing `leocad` calls inside a single one.
+  per container (the web app queues its renders). For parallel renders, run
+  multiple containers rather than parallelizing `leocad` calls inside a
+  single one.
 * **Shared `/data`**: if other processes/containers also read/write it
   concurrently, handle that as you would any shared filesystem (temp name +
   rename, or per-job subfolders) — nothing here adds locking on top of it.

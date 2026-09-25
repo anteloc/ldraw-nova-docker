@@ -1,5 +1,7 @@
-# Add whatever your scripts need. Nothing here is required by leocad_render.py
-# itself (it only uses the standard library).
-#
-# Pillow
-# numpy
+# Python dependencies baked into the image. leocad_render.py itself only uses
+# the standard library; these are for the web app (web/backend/).
+# Pinned on purpose: bump deliberately and rebuild.
+fastapi==0.141.1
+uvicorn[standard]==0.53.0
+litellm==1.102.1
+pyyaml==6.0.3

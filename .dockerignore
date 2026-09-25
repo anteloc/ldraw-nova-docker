@@ -1,8 +1,14 @@
 # Keep the build context to what the image actually needs.
 # (data/ is bind-mounted at runtime, never baked in.)
 data
+.env
 .DS_Store
 **/.DS_Store
 .git
 README.md
 docker-compose.yml
+docker-compose.override.yml
+web/frontend/node_modules
+web/frontend/dist
+**/__pycache__
+**/.pytest_cache

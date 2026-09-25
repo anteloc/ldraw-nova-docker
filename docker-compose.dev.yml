@@ -1,0 +1,18 @@
+# Development: run the backend from your checkout with auto-reload, so Python
+# and viewer edits apply without rebuilding the image.
+#
+#   docker compose -f docker-compose.yml -f docker-compose.dev.yml up -d
+#   cd web/frontend && npm install && npm run dev    # UI with hot reload on http://localhost:5173
+#
+# (The image still needs to be built once; rebuild after changing requirements.txt.)
+# Only directories are mounted: Docker Desktop keeps serving a stale copy of a
+# single-file mount once an editor replaces that file.
+services:
+  leocad-app:
+    volumes:
+      - .:/app                          # leocad_render.py, example.py, web/backend
+      - ./web/viewer:/opt/web/viewer    # viewer.html
+    environment:
+      PYTHONDONTWRITEBYTECODE: "1"      # no __pycache__ written into your checkout
+    command: ["uvicorn", "main:app", "--app-dir", "/app/web/backend", "--host", "0.0.0.0", "--port", "8000",
+              "--reload", "--reload-dir", "/app/web/backend"]

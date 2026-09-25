@@ -1,0 +1,2 @@
+# Test-only dependencies (not baked into the image). See tests/conftest.py.
+pytest==9.1.1

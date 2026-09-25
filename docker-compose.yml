@@ -5,15 +5,30 @@ services:
     platform: linux/amd64  # LeoCAD ships x86_64-only AppImages (emulated on Apple Silicon)
     container_name: leocad-app
     init: true            # proper signal handling / zombie reaping (Xvfb + your process)
+    # The web app: http://localhost:8765 (change with LEOCAD_WEB_PORT in .env).
+    # Bound to localhost only on purpose — it has no login, and agents can run
+    # code and spend your API keys.
+    ports:
+      - "127.0.0.1:${LEOCAD_WEB_PORT:-8765}:8000"
     volumes:
       - ./data:/data       # host ./data <-> container /data (input: everything under it, output: output/)
-    # Keep the container alive so you can log in and work by hand:
+      - config:/config     # LLM settings, API keys, chat history; kept out of ./data on purpose
+    # Optional: keys referenced from the UI as "os.environ/NAME" (e.g. ANTHROPIC_API_KEY=...)
+    env_file:
+      - path: .env
+        required: false
+    # Lets entries like api_base: http://host.docker.internal:11434 reach Ollama /
+    # LM Studio on the host (Docker Desktop has this built in; Linux needs it).
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    # The container's main process is the web server, so it stays up and you can
+    # log in any time:
     #   docker compose up -d --build
     #   docker compose exec leocad-app bash
     # Then, inside:
     #   python3 /app/leocad_render.py /opt/models-annotated/8303-1.mpd
+    #   python3 /app/example.py
     # and look at ./data/output on the host.
-    #
-    # To run the batch job over everything in ./data instead:
-    #   docker compose exec leocad-app python3 /app/example.py
-    command: ["sleep", "infinity"]
+
+volumes:
+  config:
