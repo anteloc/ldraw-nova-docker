@@ -303,7 +303,7 @@ Two ways:
 * Point at a table or the floor and press: the model is put there (a ring
   shows the spot). At first it stands in front of you at tabletop size.
 * Point at the model and hold: move and turn it; hold it with **both hands**
-  and pull apart or together: scale it.
+  and pull apart or together: scale it (evenly, around where you hold it).
 * The menu follows your view. It's open when you enter, closes once you've
   put the model somewhere or picked a size, and **B** or **Y** (the upper
   buttons) show or hide it: **Real size** (actual LEGO size), **Tabletop**
@@ -319,11 +319,14 @@ part geometry stored once and made indexed (e.g. the cathedral: 5,394 parts,
 37 unique geometries, 2 draw calls; its vertices shrink from 80,646 to 27,247).
 It runs on Meta's [Immersive Web SDK](https://iwsdk.dev) (three.js with
 multiview: both eyes in one draw), with fixed foveation and a 72 Hz target.
-Left out on purpose: edge lines (1 px lines alias in a headset and cost up to
-a third of the vertices), PBR materials, environment maps and shadows (plain
-diffuse lighting instead). Page options: `&stats=1`, `&fps=90`,
-`&scale=0.8` (render resolution), `&emulate=quest3` (an emulated headset, to
-try it on a computer).
+Parts out of view aren't drawn (per-part culling, which pays off once you
+walk into a model). Left out on purpose: edge lines (1 px lines alias in a
+headset and cost up to a third of the vertices), PBR materials, environment
+maps and shadows (instead: glossy Blinn-Phong plastic, lit by the sky, a key
+light and a headlight that follows your view). Page options: `&stats=1`,
+`&fps=90`, `&scale=0.8` (render resolution), `&light=1.3` (brighter, or
+`0.8` darker), `&emulate=quest3` (an emulated headset, to try it on a
+computer).
 
 Studs are about 80% of the triangles (the cathedral: 2.39M, 0.47M without);
 if a large model doesn't hold its frame rate, the next step is to draw studs

@@ -12,24 +12,25 @@
 // BackSide material would light them from the wrong side.
 //
 // Edge lines are left out: 1 px lines alias badly in a headset and cost as
-// much as a third of the vertices. Materials are plain Lambert: no PBR, no
-// environment map, no shadows.
+// much as a third of the vertices. Materials are Blinn-Phong, for the glossy
+// highlights of ABS plastic: no PBR, no environment map, no shadows.
 //
 // Imports `three` directly (not via @iwsdk/core) so the tests run in Node;
 // both resolve to the same super-three package (see vite.config.ts).
 import {
-  type ArrayCamera,
   BatchedMesh,
   Box3,
   BufferGeometry,
   type Camera,
   Color,
+  Frustum,
   Group,
   Matrix4,
   type Material,
   type Mesh,
-  MeshLambertMaterial,
+  MeshPhongMaterial,
   type Object3D,
+  Sphere,
 } from "three";
 import { deinterleaveGeometry, mergeVertices } from "three/examples/jsm/utils/BufferGeometryUtils.js";
 
@@ -176,8 +177,10 @@ export function batchModel(scene: Object3D, options: BatchOptions = {}): Batched
     const unique = [...new Set(prepared)];
     const vertexCount = unique.reduce((n, g) => n + g.getAttribute("position").count, 0);
     const indexCount = unique.reduce((n, g) => n + g.index!.count, 0);
-    const material = new MeshLambertMaterial({
-      color: 0xffffff,
+    const material = new MeshPhongMaterial({
+      color: 0xffffff, // times each part's colour
+      specular: 0x333333,
+      shininess: 60,
       transparent,
       opacity: transparent ? opacity : 1,
       depthWrite: !transparent,
@@ -194,9 +197,7 @@ export function batchModel(scene: Object3D, options: BatchOptions = {}): Batched
       partsOfBatch[id] = placement.part;
       triangles += geometry.index!.count / 3;
     });
-    batch.perObjectFrustumCulled = true; // pays off once you walk into a model
-    cullWithBothEyes(batch);
-    batch.sortObjects = transparent; // back to front, for blending
+    cullInstances(batch); // pays off once you walk into a model
     batch.matrixAutoUpdate = false;
     // Pointers ray-test the model every frame; thousands of instances must not
     // be part of that. A plain bounds box stands in for them (see interaction.ts).
@@ -238,30 +239,74 @@ export function batchModel(scene: Object3D, options: BatchOptions = {}): Batched
   };
 }
 
-// With multiview (Quest), one draw renders both eyes, and BatchedMesh gets the
-// XR ArrayCamera. super-three 0.181 then tests each instance's bounding sphere,
-// which is in the batch's own space, against the eyes' world-space frustums, so
-// a placed or scaled model is culled away entirely. Hand it the XR camera as a
-// plain camera instead: WebXRManager sets that camera's projection to the union
-// of both eyes (for culling), and the plain-camera path moves the frustum into
-// the batch's space correctly. Per-eye rendering (no multiview) is unaffected.
-const plainCameras = new WeakMap<Camera, Camera>();
-
-function asPlainCamera(camera: Camera): Camera {
-  if (!(camera as ArrayCamera).isArrayCamera) return camera;
-  let plain = plainCameras.get(camera);
-  if (!plain) {
-    // reads through to the live camera: its matrices, coordinate system, depth
-    plain = Object.create(camera, { isArrayCamera: { value: false } }) as Camera;
-    plainCameras.set(camera, plain);
-  }
-  return plain;
+/** BatchedMesh internals that cullInstances drives (three.js r181). */
+interface BatchedInternals {
+  _instanceInfo: { geometryIndex: number }[];
+  _geometryInfo: { start: number; count: number }[];
+  _multiDrawStarts: Int32Array;
+  _multiDrawCounts: Int32Array;
+  _multiDrawCount: number;
+  _indirectTexture: { image: { data: Uint32Array }; needsUpdate: boolean };
+  _visibilityChanged: boolean;
 }
 
-export function cullWithBothEyes(batch: BatchedMesh) {
-  const onBeforeRender = batch.onBeforeRender;
-  batch.onBeforeRender = function (renderer, scene, camera, geometry, material, group) {
-    onBeforeRender.call(this, renderer, scene, asPlainCamera(camera), geometry, material, group);
+const _frustum = new Frustum();
+const _sphere = new Sphere();
+const _matrix = new Matrix4();
+
+// Per-part frustum culling with a draw list that never changes.
+//
+// BatchedMesh's own culling (and sorting) rebuilds its draw list whenever the
+// view changes. Which part each draw slot is lives in a texture, and with
+// multiview (the Quest) super-three uploads textures only after the frame,
+// while the slots' geometry ranges take effect at once: for a frame after every
+// head turn, slots drew other parts' shapes at their places, in their colours
+// (pieces swapping). Here slot i is always part i, so that texture is written
+// once; a part out of view keeps its slot with nothing to draw (count 0), and
+// counts take effect in the same frame. Transparent parts aren't re-sorted by
+// distance either (a sort is a changing list): overlapping glass may blend in
+// the wrong order, which is hardly visible.
+//
+// The frustum is the camera's: for the XR two-eye camera (multiview), that's
+// the union of both eyes, as WebXRManager sets it up for culling; per-eye
+// rendering calls this once per eye.
+export function cullInstances(batch: BatchedMesh) {
+  const internals = batch as unknown as BatchedInternals;
+  const count = batch.instanceCount;
+  const index = batch.geometry.getIndex();
+  const bytesPerIndex = index ? index.array.BYTES_PER_ELEMENT : 1;
+  const starts = new Int32Array(count); // in bytes, as multiDrawElements takes them
+  const counts = new Int32Array(count);
+  const spheres = new Float32Array(count * 4); // parts never move within the batch
+  const slots = internals._indirectTexture.image.data;
+  for (let i = 0; i < count; i++) {
+    const geometryId = internals._instanceInfo[i].geometryIndex;
+    const range = internals._geometryInfo[geometryId];
+    starts[i] = range.start * bytesPerIndex;
+    counts[i] = range.count;
+    batch.getBoundingSphereAt(geometryId, _sphere)!.applyMatrix4(batch.getMatrixAt(i, _matrix));
+    _sphere.center.toArray(spheres, i * 4);
+    spheres[i * 4 + 3] = _sphere.radius;
+    slots[i] = i;
+  }
+  internals._indirectTexture.needsUpdate = true;
+  batch.perObjectFrustumCulled = false; // three's culling and sorting are replaced
+  batch.sortObjects = false;
+
+  batch.onBeforeRender = function (_renderer, _scene, camera: Camera) {
+    // the frustum in the batch's own space, where the spheres are
+    _matrix.multiplyMatrices(camera.projectionMatrix, camera.matrixWorldInverse).multiply(this.matrixWorld);
+    _frustum.setFromProjectionMatrix(_matrix, camera.coordinateSystem, camera.reversedDepth);
+    const drawStarts = internals._multiDrawStarts;
+    const drawCounts = internals._multiDrawCounts;
+    for (let i = 0; i < count; i++) {
+      _sphere.center.fromArray(spheres, i * 4);
+      _sphere.radius = spheres[i * 4 + 3];
+      drawStarts[i] = starts[i];
+      drawCounts[i] = _frustum.intersectsSphere(_sphere) ? counts[i] : 0;
+    }
+    internals._multiDrawCount = count;
+    internals._visibilityChanged = false;
   };
 }
 

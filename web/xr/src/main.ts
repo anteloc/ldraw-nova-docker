@@ -1,4 +1,4 @@
-// LDraw mixed-reality viewer: /xr/?model=<url>[&parts=N][&stats=1][&fps=72|90][&scale=1][&emulate=quest3]
+// LDraw mixed-reality viewer: /xr/?model=<url>[&parts=N][&stats=1][&fps=72|90][&scale=1][&light=1][&emulate=quest3]
 //
 // Loads the model as GLB (converted by the backend with mpd2glb), batches it
 // into a few draw calls (batching.ts) and shows it with Meta's Immersive Web
@@ -11,6 +11,7 @@ import {
   Follower,
   HemisphereLight,
   InputComponent,
+  NeutralToneMapping,
   PanelDocument,
   PanelUI,
   RayInteractable,
@@ -161,10 +162,19 @@ async function main() {
   createFloor(world);
   world.renderer.xr.setFramebufferScaleFactor(Number(params.get("scale")) || 1);
   world.scene.background = BACKGROUND;
-  world.scene.add(new HemisphereLight(0xffffff, 0x6b6b70, 1.6));
-  const sun = new DirectionalLight(0xffffff, 1.4);
-  sun.position.set(1, 3, 2);
-  world.scene.add(sun);
+  // Light: sky and ground, a key light from above, and a headlight (on the
+  // camera) so whatever side you look at is lit and the plastic's highlights
+  // follow you. Neutral tone mapping keeps pale bricks from clipping to flat
+  // white (the menu opts out). ?light= scales it all, to tune in the headset.
+  const light = Number(params.get("light")) || 1;
+  world.renderer.toneMapping = NeutralToneMapping;
+  world.scene.add(new HemisphereLight(0xffffff, 0x8a8074, 2.2 * light));
+  const key = new DirectionalLight(0xffffff, 2.2 * light);
+  key.position.set(1, 3, 2);
+  world.scene.add(key);
+  const headlight = new DirectionalLight(0xffffff, 1.0 * light);
+  headlight.target.position.set(0, -0.3, -1); // ahead, a little down
+  world.camera.add(headlight, headlight.target);
   const meter = new PerfMeter(world);
 
   let loaded;
@@ -177,7 +187,6 @@ async function main() {
   const { model, times } = loaded;
   const { stats } = model;
   if (!(knownParts > 0)) $("parts").textContent = `, ${plural(stats.parts, "part")}`;
-  if (params.get("sort")) model.batches.forEach((b) => (b.sortObjects = true)); // opaque front to back too
 
   const placed = new PlacedModel(world, model);
   const preview = () => {

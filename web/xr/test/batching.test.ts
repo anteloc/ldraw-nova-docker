@@ -121,8 +121,8 @@ describe("batchModel with mirrored and transparent parts", () => {
   });
 });
 
-describe("culling with the XR camera (multiview draws both eyes at once)", () => {
-  it("keeps the parts of a placed model that the eyes can see", () => {
+describe("culling (multiview draws both eyes at once, with the XR two-eye camera)", () => {
+  it("draws the parts in view of a placed model, from a draw list that never changes", () => {
     const scene = new Group();
     const material = new MeshStandardMaterial({ color: 0xff0000 });
     for (let i = 0; i < 3; i++) {
@@ -146,16 +146,35 @@ describe("culling with the XR camera (multiview draws both eyes at once)", () =>
     };
     const xr = camera(new ArrayCamera([camera(new PerspectiveCamera(), -0.03), camera(new PerspectiveCamera(), 0.03)]), 0);
     const [batch] = model.batches;
+    const internals = batch as unknown as {
+      _multiDrawCount: number;
+      _multiDrawCounts: Int32Array;
+      _indirectTexture: { image: { data: Uint32Array }; version: number };
+    };
+    const slots = internals._indirectTexture;
+    const version = slots.version;
+    /** Per draw slot: triangles drawn. */
     const drawn = (c: Camera) => {
       batch.onBeforeRender(null as never, null as never, c, batch.geometry, batch.material as never, null as never);
-      return (batch as unknown as { _multiDrawCount: number })._multiDrawCount;
+      expect(internals._multiDrawCount).toBe(3); // every part keeps its slot...
+      return Array.from(internals._multiDrawCounts.slice(0, 3), (n) => n / 3); // ...and draws or not
     };
 
-    expect(drawn(xr)).toBe(3);
-    expect(drawn(xr.cameras[0])).toBe(3); // per-eye rendering, as without multiview
+    expect(drawn(xr)).toEqual([1, 1, 1]);
+    expect(drawn(xr.cameras[0])).toEqual([1, 1, 1]); // per-eye rendering, as without multiview
+    // narrow view on the left triangle (x = 20, 5 m ahead) only
+    xr.fov = 5;
+    xr.updateProjectionMatrix();
+    xr.position.set(20.3, 0.3, 0);
+    xr.updateMatrixWorld();
+    expect(drawn(xr)).toEqual([1, 0, 0]);
     xr.rotation.y = Math.PI; // looking away
     xr.updateMatrixWorld();
-    expect(drawn(xr)).toBe(0);
+    expect(drawn(xr)).toEqual([0, 0, 0]);
+
+    // slot i is part i, written once: nothing to upload between frames
+    expect(Array.from(slots.image.data.slice(0, 3))).toEqual([0, 1, 2]);
+    expect(slots.version).toBe(version);
   });
 });
 

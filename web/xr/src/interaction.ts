@@ -48,11 +48,17 @@ const _head = new Vector3();
 const _forward = new Vector3();
 const _euler = new Euler(0, 0, 0, "YXZ");
 
+/** The part of @pmndrs/handle's HandleStore that uniformScale() changes. */
+interface GrabHandle {
+  getOptions: () => { scale?: boolean | Record<string, unknown> };
+}
+
 /** The model in the world: a holder whose origin is the centre of the model's base. */
 export class PlacedModel {
   readonly holder = new Group();
   readonly entity: Entity;
   private readonly size: Vector3;
+  private uniformHandle: GrabHandle | null = null;
 
   constructor(world: World, model: BatchedModel) {
     const { bounds } = model;
@@ -145,6 +151,28 @@ export class PlacedModel {
 
   get grabbed() {
     return this.entity.hasComponent(Grabbed);
+  }
+
+  /** Every frame (cheap): keeps two-hand scaling in proportion. */
+  update() {
+    this.uniformScale();
+  }
+
+  // IWSDK gives the grab handle per-axis scale limits but no `uniform` flag, and
+  // @pmndrs/handle then scales along the line between the two hands (pull apart
+  // sideways: only wider). With `uniform`, it scales by how much the distance
+  // between the hands changed, on all axes. IWSDK doesn't export its Handle
+  // component: find it by id, once the grab system has made it.
+  private uniformScale() {
+    const component = this.entity.getComponents().find((c) => c.id === "Handle");
+    const handle = component && (this.entity.getValue(component, "instance" as never) as GrabHandle | null);
+    if (!handle || handle === this.uniformHandle) return;
+    const options = handle.getOptions;
+    handle.getOptions = () => {
+      const o = options();
+      return typeof o.scale === "object" ? { ...o, scale: { ...o.scale, uniform: true } } : o;
+    };
+    this.uniformHandle = handle;
   }
 
   /** A pointer is on it, or it's held. */
@@ -282,6 +310,7 @@ export class PlacementSystem extends createSystem({}) {
 
   update() {
     const model = PlacementSystem.model;
+    model?.update();
     const session = this.world.session;
     if (session !== this.session) {
       // Session select events: the same for controllers (trigger) and hands (pinch).
