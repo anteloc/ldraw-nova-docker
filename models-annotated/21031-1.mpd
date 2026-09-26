@@ -308,6 +308,7 @@
 1 72 0.006 -620 -81.76 -0.326 -0.946 0 0 0 1 -0.946 0.326 0 21031 - 11.ldr
 
 
+0 STEP
 0 FILE 21031 - 1.ldr
 0 Technic axle subassembly using a 5.5 stop axle, bushes, and open-sided technic bricks with stud blockers to form a rotatable central core element.
 0 Name: 21031 - 1.ldr
@@ -352,6 +353,7 @@
 1 0 -20.874 36 -36.157 -0.5 -0.866 0 0 0 1 -0.866 0.5 0 21031 - 1 - 1.ldr
 
 
+0 STEP
 0 FILE 21031 - 1 - 1.ldr
 0 Small detailed cap element combining curved slopes, brackets, and a round tile to form a tapered decorative top piece.
 0 Name: 21031 - 1 - 1.ldr
@@ -377,6 +379,7 @@
 1 71 10 0 -30 1 0 0 0 0 -1 0 1 0 14769.dat
 
 
+0 STEP
 0 FILE 21031 - 2.ldr
 0 Compact curved-slope section using double curved 4x1 slopes and a side-stud brick to form a rounded edge detail.
 0 Name: 21031 - 2.ldr
@@ -396,6 +399,7 @@
 1 71 0 -8 0 0 0 1 0 1 0 -1 0 0 3069b.dat
 
 
+0 STEP
 0 FILE 21031 - 3.ldr
 0 Simple two-plate-plus-brick stack forming a short vertical structural block.
 0 Name: 21031 - 3.ldr
@@ -413,6 +417,7 @@
 1 71 0 -32 0 0 0 1 0 1 0 -1 0 0 3004.dat
 
 
+0 STEP
 0 FILE 21031 - 4.ldr
 0 Small angled connection block built from a side-stud brick, plate, and standard brick for attaching perpendicular sections.
 0 Name: 21031 - 4.ldr
@@ -430,6 +435,7 @@
 1 71 0 -32 0 0 0 -1 0 1 0 1 0 0 3004.dat
 
 
+0 STEP
 0 FILE 21031 - 5.ldr
 0 Repeating connection module of side-stud bricks and plates for joining offset wall sections.
 0 Name: 21031 - 5.ldr
@@ -449,6 +455,7 @@
 1 71 0 -40 0 0 0 -1 0 1 0 1 0 0 11211.dat
 
 
+0 STEP
 0 FILE 21031 - 6.ldr
 0 Short connection module of plates and a side-stud brick for aligning adjacent wall segments.
 0 Name: 21031 - 6.ldr
@@ -468,6 +475,7 @@
 1 71 0 -40 0 0 0 -1 0 1 0 1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 21031 - 7.ldr
 0 Technic joint subassembly using an axle with perpendicular pin hole, friction pins, and a pin joiner to create an articulated linkage.
 0 Name: 21031 - 7.ldr
@@ -489,6 +497,7 @@
 1 0 20 -20 0 0 -1 0 1 0 0 0 0 1 62462.dat
 
 
+0 STEP
 0 FILE 21031 - 8.ldr
 0 Tapered tower tier built on a 2x8 plate core with 1x2 and 1x1 sloped bricks forming the setback silhouette.
 0 Name: 21031 - 8.ldr
@@ -542,6 +551,7 @@
 1 72 10 0 -180 0 0 -1 0 1 0 1 0 0 54200.dat
 
 
+0 STEP
 0 FILE 21031 - 9.ldr
 0 Larger tapered tower tier with extended 2x8 and 2x4 plates supporting dense rows of sloped bricks for a wider setback level.
 0 Name: 21031 - 9.ldr
@@ -605,6 +615,7 @@
 1 71 10 0 -250 0 0 -1 0 1 0 1 0 0 85984.dat
 
 
+0 STEP
 0 FILE 21031 - 10.ldr
 0 Widest tower tier using three 2x8 plates and numerous sloped bricks to form the broad lower setback of the building.
 0 Name: 21031 - 10.ldr
@@ -674,6 +685,7 @@
 1 71 10 0 -310 0 0 -1 0 1 0 1 0 0 85984.dat
 
 
+0 STEP
 0 FILE 21031 - 11.ldr
 0 Crowned top section of the tower combining inverted tiles, corner tiles, grooved tiles, technic brick, and side-stud bricks to form the detailed pinnacle with a rounded stud cap.
 0 Name: 21031 - 11.ldr

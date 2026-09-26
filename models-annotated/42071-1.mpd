@@ -310,6 +310,7 @@
 
 
 
+0 STEP
 0 FILE 42071 - side.ldr
 0 Blue Technic liftarms, bent beams, cross blocks, axle pins, and a grille tile forming a detailed side panel or rocker-arm module.
 0 Name: 42071 - side.ldr
@@ -351,6 +352,7 @@
 1 71 40 -20 0 0 0 -1 0 1 0 1 0 0 32123b.dat
 
 
+0 STEP
 0 FILE 42071 - frontside.ldr
 0 Blue and black Technic beams, bent liftarms, a triangular liftarm, axles, and cross blocks forming the front structural and steering-linkage section.
 0 Name: 42071 - frontside.ldr
@@ -386,6 +388,7 @@
 1 71 55 0 -40 0 0 -1 1 0 0 0 -1 0 32123b.dat
 
 
+0 STEP
 0 FILE 42071 - 16091.dat
 0 A steering wheel assembly composed of a 2L car steering wheel and three rectangle-with-edges parts.
 0 Name: 42071 - 16091.dat

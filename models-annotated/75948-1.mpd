@@ -11,6 +11,7 @@
 1 297 160 -8 -120 1 0 0 0 1 0 0 0 1 75948 - Tree.ldr
 
 
+0 STEP
 0 FILE 75948 - Table Base.ldr
 0 Round white table base built on a light bluish grey plate with spiraled horn legs and clip-mounted feet.
 0 Name: 75948 - Table Base.ldr
@@ -53,6 +54,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 75948 - Table Top 1.ldr
 0 Transparent round tabletop with a white center plate supported by clear slope and stud elements.
 0 Name: 75948 - Table Top 1.ldr
@@ -96,6 +98,7 @@
 1 47 0 -48 0 1 0 0 0 1 0 0 0 1 22388.dat
 
 
+0 STEP
 0 FILE 75948 - Table 1.ldr
 0 Complete table assembly combining a round base and a transparent decorative tabletop.
 0 Name: 75948 - Table 1.ldr
@@ -107,6 +110,7 @@
 1 47 0 -24 0 1 0 0 0 1 0 0 0 1 75948 - Table Top 1.ldr
 
 
+0 STEP
 0 FILE 75948 - Table 2.ldr
 0 Complete table assembly combining a round base and a small transparent tabletop with goblets.
 0 Name: 75948 - Table 2.ldr
@@ -118,6 +122,7 @@
 1 47 0 -24 0 1 0 0 0 1 0 0 0 1 75948 - Table Top 2.ldr
 
 
+0 STEP
 0 FILE 75948 - Table Top 2.ldr
 0 Small transparent tabletop on a white round plate featuring a goblet and slope element.
 0 Name: 75948 - Table Top 2.ldr
@@ -138,6 +143,7 @@
 1 47 10 -40 30 1 0 0 0 1 0 0 0 1 2343.dat
 
 
+0 STEP
 0 FILE 75948 - Dance Hall.ldr
 0 Tan and medium nougat hall structure with corner bricks, embossed walls, windows, hinged panels, and a golden flame-topped cone.
 0 Name: 75948 - Dance Hall.ldr
@@ -402,6 +408,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 75948 - Side Tower.ldr
 0 White and azure rounded side tower with hinged sections, technic connectors, sloped details, and a dark bluish grey base plate.
 0 Name: 75948 - Side Tower.ldr
@@ -728,6 +735,7 @@
 1 378 0 -544 -30 0 0 -1 0 -1 0 -1 0 0 90540.dat
 
 
+0 STEP
 0 FILE 75948 - Clock Tower.ldr
 0 Clock tower assembly integrating a tall tower structure with an attached clock mechanism.
 0 Name: 75948 - Clock Tower.ldr
@@ -740,6 +748,7 @@
 1 19 -589.707 0 241.42 0 0 1 0 1 0 -1 0 0 75948 - Dance Hall.ldr
 
 
+0 STEP
 0 FILE 75948 - Main Tower.ldr
 0 Large tan and medium nougat castle tower with technic framing, reinforced panels, sloped cornicing, and leafy accents built on dark bluish grey plates.
 0 Name: 75948 - Main Tower.ldr
@@ -1764,6 +1773,7 @@
 1 378 -100 -832 50 -1 0 0 0 -1 0 0 0 1 90540.dat
 
 
+0 STEP
 0 FILE 75948 - Clock.ldr
 0 Functional clock mechanism built from technic plates, axles, and wrenches mounted on tan tiles.
 0 Name: 75948 - Clock.ldr
@@ -1797,6 +1807,7 @@
 1 0 0 -30 -47 1 0 0 0 -1 0 0 0 -1 604615.dat
 
 
+0 STEP
 0 FILE 75948 - Bed.ldr
 0 Sand green and white bed with a slotted headboard slope and rotor-based frame detailing.
 0 Name: 75948 - Bed.ldr
@@ -1839,6 +1850,7 @@
 1 15 0 -8 -10 -1 0 0 0 1 0 0 0 -1 85984.dat
 
 
+0 STEP
 0 FILE 75948 - Bedside Table.ldr
 0 Small white bedside table topped with a pearl gold tap and a fez, decorated with a yellow round plate.
 0 Name: 75948 - Bedside Table.ldr
@@ -1871,6 +1883,7 @@
 1 297 0 -56 0 1 0 0 0 1 0 0 0 1 85975.dat
 
 
+0 STEP
 0 FILE 75948 - Roof Left.ldr
 0 Left dark bluish grey angled roof section with a wing plate, nougat handle plates, and tan double slopes.
 0 Name: 75948 - Roof Left.ldr
@@ -1899,6 +1912,7 @@
 1 19 -60 -10 -10 0 0 1 0 1 0 -1 0 0 35464.dat
 
 
+0 STEP
 0 FILE 75948 - Roof Right.ldr
 0 Right dark bluish grey angled roof section with a wing plate, nougat handle plates, and tan double slopes.
 0 Name: 75948 - Roof Right.ldr
@@ -1927,6 +1941,7 @@
 1 19 -60 -10 10 0 0 1 0 1 0 -1 0 0 35464.dat
 
 
+0 STEP
 0 FILE 75948 - Roof Top.ldr
 0 Flat dark bluish grey rooftop with black brackets, handle plates, and sloped edge tiles.
 0 Name: 75948 - Roof Top.ldr
@@ -1959,6 +1974,7 @@
 1 72 0 -16 0 1 0 0 0 1 0 0 0 1 3795.dat
 
 
+0 STEP
 0 FILE 75948 - Roof Top Right.ldr
 0 Curved right rooftop corner with a sand green accent plate and dark bluish grey cutout slope.
 0 Name: 75948 - Roof Top Right.ldr
@@ -1981,6 +1997,7 @@
 1 72 -50 -2 -30 0 0 -1 0 1 0 1 0 0 63868.dat
 
 
+0 STEP
 0 FILE 75948 - Roof Top Left.ldr
 0 Curved left rooftop corner with a sand green accent plate and dark bluish grey cutout slope.
 0 Name: 75948 - Roof Top Left.ldr
@@ -2003,6 +2020,7 @@
 1 72 -50 -2 -30 0 0 -1 0 1 0 1 0 0 63868.dat
 
 
+0 STEP
 0 FILE 75948 - Tree.ldr
 0 Decorative golden-trimmed tree on a white round base with brown trunk bricks, foliage, and a star-topped cone.
 0 Name: 75948 - Tree.ldr
@@ -2054,6 +2072,7 @@
 1 297 2 -232 0 0 -1 0 0 0 -1 1 0 0 11609.dat
 
 
+0 STEP
 0 FILE 75948 - Tree Side.ldr
 0 Green and white angled foliage section built from wing plates and sloped leaves on a clear-studded base.
 0 Name: 75948 - Tree Side.ldr
@@ -2083,6 +2102,7 @@
 1 15 20 -16 50 1 0 0 0 1 0 0 0 1 54200.dat
 
 
+0 STEP
 0 FILE 75948 - 20310.dat
 0 Primitive geometric part composed of boxes, rings, discs, and cylinders forming a circular component.
 0 Name: 75948 - 20310.dat
@@ -2195,6 +2215,7 @@
 5 24 -1.25 11.537232 -17 1.25 11.537232 -17 2.75 8.3 -17 0.5 13.98762 -17.73238
 
 
+0 STEP
 0 FILE 75948 - 2454b.dat
 0 Primitive part definition with no direct pieces.
 0 Name: 75948 - 2454b.dat
@@ -2210,6 +2231,7 @@
 4 16 20 0 -10 -20 0 -10 -20 120 -10 20 120 -10
 
 
+0 STEP
 0 FILE 75948 - 33299a.dat
 0 Primitive technic connector part formed from axle holes, peg holes, rings, and negative discs.
 0 Name: 75948 - 33299a.dat
@@ -2244,6 +2266,7 @@
 4 16 -9 10 35.661999 -8 10 36.661999 -8 10 32 -9 10 32
 
 
+0 STEP
 0 FILE 75948 - 44375bp04.dat
 0 Primitive part consisting solely of conditional edge lines for a printed element.
 0 Name: 75948 - 44375bp04.dat
@@ -3276,6 +3299,7 @@
 5 24 49.57 6 -6.525 50 6 0 40 3 0 60 11 0
 
 
+0 STEP
 0 FILE 75948 - 28802.dat
 0 Primitive part built from boxes, cylinders, and chords forming a notched mechanical component.
 0 Name: 75948 - 28802.dat
@@ -3332,6 +3356,7 @@
 2 24 -20 8 -10 -16 8 -10
 2 24 16 8 -10 20 8 -10
 
+0 STEP
 0 FILE 75948 - s\75948 - 20310s01.dat
 0 s\20310s01
 0 Name: 75948 - s\75948 - 20310s01.dat
@@ -3751,6 +3776,7 @@
 
 
 
+0 STEP
 0 FILE 75948 - s\75948 - 2454bs01.dat
 0 s\2454bs01
 0 Name: 75948 - s\75948 - 2454bs01.dat
@@ -3793,6 +3819,7 @@
 1 16 -10 0 0 6 0 0 0 1 0 0 0 6 4-4disc.dat
 
 
+0 STEP
 0 FILE 75948 - s\75948 - 2454s02.dat
 0 s\2454s02
 0 Name: 75948 - s\75948 - 2454s02.dat
@@ -3843,6 +3870,7 @@
 1 16 -10 0 0 1 0 0 0 1 0 0 0 1 stud2a.dat
 
 
+0 STEP
 0 FILE 75948 - s\75948 - 44375p04s01.dat
 0 s\44375p04s01
 0 Name: 75948 - s\75948 - 44375p04s01.dat
@@ -4025,6 +4053,7 @@
 4 15 2.6688 6.648887 51.121899 2.4156 6.767194 51.375198 1.062 6.722593 51.375198 0.3813 6.359764 50.694401
 
 
+0 STEP
 0 FILE 75948 - s\75948 - 33299s01.dat
 0 s\33299s01
 0 Name: 75948 - s\75948 - 33299s01.dat

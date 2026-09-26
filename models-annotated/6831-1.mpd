@@ -10,6 +10,7 @@
 1 0 0 2.1145 -2.1035 1 0 0 0 0.995 -0.1002 0 0.1002 0.995 6831 - Vehicle + Minifig.ldr
 
 
+0 STEP
 0 FILE 6831 - Vehicle.ldr
 0 Vehicle
 0 Name: 6831 - Vehicle.ldr
@@ -66,6 +67,7 @@
 1 36 30 -48 68 -1 0 0 0 0 -1 0 -1 0 6141.dat
 
 
+0 STEP
 0 FILE 6831 - Vehicle - Bars.ldr
 0 Vehicle - Bars
 0 Name: 6831 - Vehicle - Bars.ldr
@@ -90,6 +92,7 @@
 
 
 
+0 STEP
 0 FILE 6831 - Vehicle + Minifig.ldr
 0 Vehicle + Minifig
 0 Name: 6831 - Vehicle + Minifig.ldr
@@ -103,6 +106,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 6831 - Vehicle.ldr
 
 
+0 STEP
 0 FILE 6831 - Minifig.ldr
 0 Minifig
 0 Name: 6831 - Minifig.ldr
@@ -135,6 +139,7 @@
 1 15 0 44 0 1 0 0 0 0 1 0 -1 0 3817.dat
 
 
+0 STEP
 0 FILE 6831 - Minifig - Helmet.ldr
 0 Minifig - Helmet
 0 Name: 6831 - Minifig - Helmet.ldr

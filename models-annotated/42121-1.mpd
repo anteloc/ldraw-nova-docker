@@ -52,6 +52,7 @@
 1 72 -120 -8 -500 1 0 0 0 1 0 0 0 1 42121 - cone.ldr
 
 
+0 STEP
 0 FILE 42121 - armjoint.ldr
 0 Articulated joint assembly using triangular liftarms and axles to connect arm segments with pivot points.
 0 Name: 42121 - armjoint.ldr
@@ -88,6 +89,7 @@
 1 71 -25 -40 40 1 0 0 0 0 -1 0 1 0 4519.dat
 
 
+0 STEP
 0 FILE 42121 - arm3.ldr
 0 Small articulated arm segment with gears, toggle joint connectors, and an axle joiner for pivoting motion.
 0 Name: 42121 - arm3.ldr
@@ -116,6 +118,7 @@
 1 71 0 20 -160 0 0 1 0 -1 0 1 0 0 98138.dat
 
 
+0 STEP
 0 FILE 42121 - arm.ldr
 0 Excavator arm section featuring a linear actuator, multiple gears, bent liftarms, and long friction pins for extension and articulation.
 0 Name: 42121 - arm.ldr
@@ -294,6 +297,7 @@
 1 0 20 253.264 -301.13 0 1 0 -0.261 0 0.966 0.966 0 0.261 32271.dat
 
 
+0 STEP
 0 FILE 42121 - armbase.ldr
 0 Arm base mounting assembly with universal joints, bent liftarms, and angle connectors supporting the rotating arm mechanism.
 0 Name: 42121 - armbase.ldr
@@ -381,6 +385,7 @@
 1 71 0 -40 90 -1 0 0 0 -0.097 -0.995 0 -0.995 0.097 92693c01-f2.dat
 
 
+0 STEP
 0 FILE 42121 - armbase2.ldr
 0 Secondary arm base bracket using yellow bent liftarms and axle pins to reinforce the arm mounting structure.
 0 Name: 42121 - armbase2.ldr
@@ -411,6 +416,7 @@
 1 1 -50 0 0 1 0 0 0 0 -1 0 1 0 43093.dat
 
 
+0 STEP
 0 FILE 42121 - arm2.ldr
 0 Extended arm segment built from a bent liftarm and thin liftarms with axle holes for reach and articulation.
 0 Name: 42121 - arm2.ldr
@@ -437,6 +443,7 @@
 1 71 0 0 0 -1 0 0 0 1 0 0 0 -1 4519.dat
 
 
+0 STEP
 0 FILE 42121 - rear.ldr
 0 Rear chassis section with connector blocks, cross blocks, yellow panels, and beams forming the back bodywork structure.
 0 Name: 42121 - rear.ldr
@@ -495,6 +502,7 @@
 1 14 -20 -60 20 0 0 1 1 0 0 0 1 0 42121 - 65487.dat
 
 
+0 STEP
 0 FILE 42121 - rear2.ldr
 0 Rear gear assembly with double bevel gears and axle stops for drive transmission at the rear.
 0 Name: 42121 - rear2.ldr
@@ -519,6 +527,7 @@
 1 0 0 20 -20 0 1 0 1 0 0 0 0 -1 32270.dat
 
 
+0 STEP
 0 FILE 42121 - rear3.ldr
 0 Additional rear connector framework using cross blocks and pins mirroring the rear structural mounting layout.
 0 Name: 42121 - rear3.ldr
@@ -556,6 +565,7 @@
 1 1 -41 -60 0 0 1 0 0 0 1 1 0 0 42121 - 42924.dat
 
 
+0 STEP
 0 FILE 42121 - side2top.ldr
 0 Upper side bodywork panel with curved yellow fairing and quarter-ellipse bent liftarms for a smooth exterior.
 0 Name: 42121 - side2top.ldr
@@ -583,6 +593,7 @@
 1 14 0 -20 -50 0 -1 0 -1 0 0 0 0 -1 64683.dat
 
 
+0 STEP
 0 FILE 42121 - tracks.ldr
 0 Track assembly with turntable, sprocket beams, cross blocks, and pins forming the rotating track undercarriage.
 0 Name: 42121 - tracks.ldr
@@ -662,6 +673,7 @@
 1 16 120 40 0 1 0 0 0 1 0 0 0 1 42121 - track.ldr
 
 
+0 STEP
 0 FILE 42121 - track.ldr
 0 Track drive mechanism with long beams, reinforced gears, and cross blocks forming the tracked wheel base.
 0 Name: 42121 - track.ldr
@@ -734,6 +746,7 @@
 1 0 -10 0 140 0 0 -1 0 -1 0 -1 0 0 42121 - technicChainTread17Closed-1.ldr
 
 
+0 STEP
 0 FILE 42121 - technicChainTread17Closed-1.ldr
 0 Closed loop of chain tread links forming a continuous track band.
 0 Name: 42121 - technicChainTread17Closed-1.ldr
@@ -851,6 +864,7 @@
 1 16 -20.800646 0.128486 0 0 0.922655 0.385626 0 -0.385626 0.922655 1 0 0 3873.dat
 
 
+0 STEP
 0 FILE 42121 - side1.ldr
 0 Side bodywork panel with yellow beams, grille tile, angle connectors, and bent liftarms forming one flank.
 0 Name: 42121 - side1.ldr
@@ -895,6 +909,7 @@
 1 0 40 25 -40 -1 0 0 0 1 0 0 0 -1 32250.dat
 
 
+0 STEP
 0 FILE 42121 - grid.ldr
 0 Grille detail assembly using plates and slope grille bricks to form a vented decorative panel.
 0 Name: 42121 - grid.ldr
@@ -926,6 +941,7 @@
 1 0 -10 -8 -30 0 0 -1 0 1 0 1 0 0 61409.dat
 
 
+0 STEP
 0 FILE 42121 - cabin.ldr
 0 Operator cabin structure with angle connectors, connector blocks, red detail pieces, and nozzle elements forming the cab.
 0 Name: 42121 - cabin.ldr
@@ -996,6 +1012,7 @@
 1 47 -20 -20 80 1 0 0 0 0 1 0 -1 0 24116.dat
 
 
+0 STEP
 0 FILE 42121 - dashboard.ldr
 0 Dashboard assembly with cross block, hinge arm, and locking hinge plate for a control panel mounting point.
 0 Name: 42121 - dashboard.ldr
@@ -1020,6 +1037,7 @@
 1 71 0 -62.304 18.415 1 0 0 0 0.383 -0.924 0 0.924 0.383 3069b.dat
 
 
+0 STEP
 0 FILE 42121 - side2.ldr
 0 Second side bodywork panel with yellow beams, fairing panel, and angle connectors forming the opposite flank.
 0 Name: 42121 - side2.ldr
@@ -1081,6 +1099,7 @@
 1 0 25 -40 160 0 -1 0 1 0 0 0 0 1 32250.dat
 
 
+0 STEP
 0 FILE 42121 - top.ldr
 0 Top bodywork surface with yellow plates, curved slopes, and grille tiles forming the roof and hood.
 0 Name: 42121 - top.ldr
@@ -1113,6 +1132,7 @@
 1 0 30 -8 -20 -1 0 0 0 1 0 0 0 -1 54200.dat
 
 
+0 STEP
 0 FILE 42121 - cone.ldr
 0 Small decorative exhaust or warning light piece using a red cone and round plates.
 0 Name: 42121 - cone.ldr
@@ -1129,6 +1149,7 @@
 1 4 0 -32 0 1 0 0 0 1 0 0 0 1 59900.dat
 
 
+0 STEP
 0 FILE 42121 - excavator.ldr
 0 Excavator attachment assembly with bent liftarms, connector blocks, round clear tiles, and pins forming the digging boom and bucket linkage.
 0 Name: 42121 - excavator.ldr
@@ -1316,6 +1337,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42121 - 60483.dat
 0 60483
 0 Name: 42121 - 60483.dat
@@ -1333,6 +1355,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\42121 - 60483s01.dat
 4 16 9 10 0 9 10 20 9 -10 20 9 -10 0
 
+0 STEP
 0 FILE 42121 - 42924.dat
 0 42924
 0 Name: 42121 - 42924.dat
@@ -1460,6 +1483,7 @@
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 4 60] [center=true] [slide=true]
 0 !LDCAD MIRROR_INFO [baseFlip=Z] [counterPart=self]
 
+0 STEP
 0 FILE 42121 - 32526.dat
 0 32526
 0 Name: 42121 - 32526.dat
@@ -1488,6 +1512,7 @@
 0 !LDCAD SNAP_INCL [ref=connhole.dat]
 0 !LDCAD MIRROR_INFO [baseFlip=Y]
 
+0 STEP
 0 FILE 42121 - 71708.dat
 0 Technic connector block with peg holes, axle hole, and cylindrical features forming a multi-connection hub.
 0 Name: 42121 - 71708.dat
@@ -1625,6 +1650,7 @@
 5 24 16.646999 10 31.788 16.646999 2 31.788 12 10 37 21.121 10 24.096001
 5 24 12 10 37 12 2 37 9 10 40 16.646999 10 31.788
 
+0 STEP
 0 FILE 42121 - 32523.dat
 0 Empty placeholder submodel with no direct geometry pieces.
 0 Name: 42121 - 32523.dat
@@ -1645,6 +1671,7 @@
 
 0 !LDCAD SNAP_INCL [ref=connhole.dat]
 
+0 STEP
 0 FILE 42121 - 44874.dat
 0 Technic friction pin assembly with base collar and circular cross-section features.
 0 Name: 42121 - 44874.dat
@@ -1672,6 +1699,7 @@
 2 24 -10 2.4 3 -10 2.4 -3
 2 24 -10 -2.4 3 -10 -2.4 -3
 
+0 STEP
 0 FILE 42121 - 65487.dat
 0 Small Technic friction pin component with base collar and circular elements.
 0 Name: 42121 - 65487.dat
@@ -1691,6 +1719,7 @@
 2 24 10 2.4 3 10 2.4 -3
 2 24 10 -2.4 3 10 -2.4 -3
 
+0 STEP
 0 FILE 42121 - 18575.dat
 0 Technic axle connector with open hole on two sides, surrounded by rectangular edges.
 0 Name: 42121 - 18575.dat
@@ -1813,6 +1842,7 @@
 0 // Rectangle with 3 Edges (main_colour)
 1 16 1.5 5.7018 0 0 0 0.5 0 1 -0.0998 -10 0 0 rect3.dat
 
+0 STEP
 0 FILE 42121 - 62462.dat
 0 Cylindrical Technic bush or collar component with rings, peg holes, and disc features.
 0 Name: 42121 - 62462.dat
@@ -1901,6 +1931,7 @@
 0 !LDCAD SNAP_CLEAR 
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 8 2   R 6 16   R 8 4   R 6 16   R 8 2] [center=true] [slide=true]
 
+0 STEP
 0 FILE 42121 - 3023.dat
 0 Empty placeholder submodel with no direct geometry pieces.
 0 Name: 42121 - 3023.dat
@@ -1925,6 +1956,7 @@
 
 0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=S 6 4] [grid=C 2 1 20 0]
 
+0 STEP
 0 FILE 42121 - 44567b.dat
 0 Click-lock hinge finger component with box-shaped body for plate connections.
 0 Name: 42121 - 44567b.dat
@@ -1954,6 +1986,7 @@
 4 16 -20 8 -10 -9 5.444 -10 -9 0 -10 -20 0 -10
 4 16 9 0 -10 9 5.444 -10 20 8 -10 20 0 -10
 
+0 STEP
 0 FILE 42121 - 65304.dat
 0 Technic friction pin with bush, axle end surface, and tapered cone detailing along its length.
 0 Name: 42121 - 65304.dat
@@ -2082,6 +2115,7 @@
 5 24 -13 -8.3151 -3.4443 -14.125 -6.2363 -2.5832 -14 -7 0 -13 -6.3639 -6.3639
 5 24 -13 -8.3151 -3.4443 -14 -7 0 -13 -8.3151 3.4443 -14.125 -6.2363 -2.5832
 
+0 STEP
 0 FILE 42121 - 65489.dat
 0 Technic friction pin assembly with multiple pins and circular cross-section rings.
 0 Name: 42121 - 65489.dat
@@ -2133,6 +2167,7 @@
 1 16 0 -20 -10 -2.82843 0 -2.82843 -2.82843 0 2.82843 0 1 0 1-4edge.dat
 2 24 2.8284 -17.1716 -10 -2.8284 -17.1716 -10
 
+0 STEP
 0 FILE 42121 - confric11.dat
 0 Detailed Technic friction pin connector with cylindrical body, ribs, rings, and chord detailing.
 0 Name: 42121 - confric11.dat
@@ -2497,6 +2532,7 @@
 5 24 -3.558 -5.7 5.1627 -3.558 -2 5.1627 -3.6153 -5.7 4.6618 -2.692 -2 5.6627
 5 24 -2.692 -5.7 5.6627 -2.5337 -6 5.3847 -3.558 -5.7 5.1627 -2.2962 -5.7 5.5434
 
+0 STEP
 0 FILE s\42121 - 87082s01.dat
 0 Cylindrical Technic pin component with four sloped sections forming a tapered end.
 0 Name: s\42121 - 87082s01.dat
@@ -2543,6 +2579,7 @@
 2 24 -4.827 -3.062 -7.391 -3.916 0 -8
 4 16 -10 3 4 -10 3 -4 -10 -3 -4 -10 -3 4
 
+0 STEP
 0 FILE s\42121 - 15100s01.dat
 0 Technic connector with long hole, cylindrical body, and sloped end sections.
 0 Name: s\42121 - 15100s01.dat
@@ -2597,6 +2634,7 @@
 2 24 4.827 -3.062 7.391 3.916 0 8
 4 16 10 -3 -4 10 3 -4 10 3 4 10 -3 4
 
+0 STEP
 0 FILE 42121 - connectcollar3.dat
 0 Technic connector collar with cylindrical rings, chords, and rectangular edge details.
 0 Name: 42121 - connectcollar3.dat
@@ -2678,6 +2716,7 @@
 0 // Rectangle with 3 Edges (main_colour)
 1 16 -4.3146 4.5 1 1.4865 0 0 0 0 -4.5 0 1 0 rect3.dat
 
+0 STEP
 0 FILE 42121 - confricrib1.dat
 0 Empty placeholder submodel with no direct geometry pieces.
 0 Name: 42121 - confricrib1.dat
@@ -2714,6 +2753,7 @@
 5 24 4.698 -3.7 3.5666 4.773 -3.7 4.0659 4.5259 -4 3.8188 4.698 0 3.5666
 5 24 4.773 -3.7 4.0659 4.773 0 4.0659 4.698 -3.7 3.5666 4.0659 0 4.773
 
+0 STEP
 0 FILE 42121 - confricrib2.dat
 0 Empty placeholder submodel with no direct geometry pieces.
 0 Name: 42121 - confricrib2.dat
@@ -2796,6 +2836,7 @@
 5 24 5.844 -3.7 0.8 6.25 -3.7 0.5 5.9006 -4 0.5 5.844 0 0.8
 5 24 6.25 -3.7 0.5 6.25 0 0.5 5.844 -3.7 0.8 6.25 0 -0.5
 
+0 STEP
 0 FILE 42121 - connectslit1.dat
 0 Slender Technic connector slit piece with small cylinders and a rectangular edge plate.
 0 Name: 42121 - connectslit1.dat
@@ -2824,6 +2865,7 @@
 1 16 4.801 0 1 0 0 1 8 0 0 0 1 0 rect2p.dat
 5 24 5.5433 9 2.2961 5.5434 -9 2.2962 4.2426 -9 4.2426 5.801 -9 1
 
+0 STEP
 0 FILE 42121 - confricrib3.dat
 0 Empty placeholder submodel with no direct geometry pieces.
 0 Name: 42121 - confricrib3.dat
@@ -2873,6 +2915,7 @@
 5 24 4.773 5.7 4.0659 4.0659 5.7 4.773 4.2426 6 4.2426 4.773 -5.7 4.0659
 5 24 4.0659 5.7 4.773 3.5666 5.7 4.698 3.8188 6 4.5259 4.0659 -5.7 4.773
 
+0 STEP
 0 FILE 42121 - confricrib4.dat
 0 Friction pin rib component consisting of two small circular segments.
 0 Name: 42121 - confricrib4.dat
@@ -2935,6 +2978,7 @@
 2 24 6.0748 -1.1 0.6294 5.844 -1.9863 0.8
 2 24 6.0748 1.1 0.6294 6.1475 0 0.5757
 
+0 STEP
 0 FILE s\42121 - 32526s01.dat
 0 Technic beam with multiple peg holes, connector holes, and open cylindrical sections along its length.
 0 Name: s\42121 - 32526s01.dat
@@ -3015,6 +3059,7 @@
 2 24 40 -10 89 0 -10 89
 2 24 0 10 89 40 10 89
 
+0 STEP
 0 FILE 42121 - confric3.dat
 0 Detailed Technic friction pin with collar halves, ribs, stop rings, and cylindrical body sections.
 0 Name: 42121 - confric3.dat
@@ -3094,6 +3139,7 @@
 0 // Cylinder 1.0 (main_colour)
 1 16 0 -2 0 8 0 0 0 2 0 0 0 -8 4-4cyli.dat
 
+0 STEP
 0 FILE 42121 - connectcollar4.dat
 0 Technic connector collar with cylinders, rings, chords, and rectangular edge detailing.
 0 Name: 42121 - connectcollar4.dat
@@ -3179,6 +3225,7 @@
 0 // Rectangle with 2 Adjacent Edges (main_colour)
 1 16 -2.4 5 2 0 -1 0 0 0 -5 1 0 0 rect2a.dat
 
+0 STEP
 0 FILE 42121 - connectslit2.dat
 0 Small Technic connector slit piece with two narrow cylinders and a rectangular edge plate.
 0 Name: 42121 - connectslit2.dat
@@ -3207,6 +3254,7 @@
 1 16 6 5 0 0 -2 -0.199 1 0 0 0 0 1 8\1-4cylo.dat
 1 16 3.9941 5 0 0 1 -0.199 1 0 0 0 0 1 8\1-4ndis.dat
 
+0 STEP
 0 FILE 42121 - npeghol3.dat
 0 Technic peg hole negative component with open cylinders, rings, and box sections.
 0 Name: 42121 - npeghol3.dat
@@ -3252,6 +3300,7 @@
 0 // Box with  2 Faces without  7 Edges (main_colour)
 1 16 2.7222 0.5 -3.041 0 -0.72215 0 0.5 0 0 0 0.14395 1.5 box2-7.dat
 
+0 STEP
 0 FILE s\42121 - 32523s01.dat
 0 Technic beam section with connector holes, beam holes, and cylindrical end features.
 0 Name: s\42121 - 32523s01.dat
@@ -3287,6 +3336,7 @@
 0 // Rectangle with 2 Parallel Edges (main_colour)
 1 16 -9 0 0 0 1 0 0 0 10 20 0 0 rect2p.dat
 
+0 STEP
 0 FILE s\42121 - 32269s01.dat
 0 A flat rectangular panel submodel composed entirely of rectangles and rectangle edge variants.
 0 Name: s\42121 - 32269s01.dat
@@ -3376,6 +3426,7 @@
 3 16 18.258699 2.4034 -10 17.789101 4.7663 -10 19.3403 4.9066 -10
 3 16 15.3375 12.7626 -10 14.6121 11.2123 -10 13.0227 13.0227 -10
 
+0 STEP
 0 FILE s\42121 - 32269s02.dat
 0 A cylindrical hub submodel built from rectangles and partial cylinders forming a quarter-disc structure.
 0 Name: s\42121 - 32269s02.dat
@@ -3447,6 +3498,7 @@
 4 16 11.998 -1 -10 11.998 1 -10 16.934099 1 -10 16.934099 -1 -10
 3 16 17 0 -10 16.934099 -1 -10 16.934099 1 -10
 
+0 STEP
 0 FILE s\42121 - 48989s01.dat
 0 A detailed multi-segment cylindrical connector submodel with stepped cylinders, half-circles, and technic connector holes.
 0 Name: s\42121 - 48989s01.dat
@@ -3646,6 +3698,7 @@
 1 16 -6.6856 0 0 0 -1.5 0 0 0 5 6.3639 0 0 box3u4a.dat
 2 24 -6.6856 5 6.3639 -6.6856 5 -6.3639
 
+0 STEP
 0 FILE 42121 - connect7.dat
 0 A ribbed cylindrical connector submodel with concentric rings, partial cylinders, and supporting rectangles.
 0 Name: 42121 - connect7.dat
@@ -3916,6 +3969,7 @@
 
 0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=R 8 2   R 6 16   _L 6.25 2]
 
+0 STEP
 0 FILE s\42121 - 3023s01.dat
 0 A simple box-based submodel composed of rectangular faces with all edges.
 0 Name: s\42121 - 3023s01.dat
@@ -3939,6 +3993,7 @@
 4 16 -20 8 -10 -16 8 -6 16 8 -6 20 8 -10
 4 16 20 8 -10 16 8 -6 16 8 6 20 8 10
 
+0 STEP
 0 FILE 42121 - clh6.dat
 0 A contoured cylindrical element submodel featuring sloped cylinders, cones, spheres, and disc negatives forming a rounded connector.
 0 Name: 42121 - clh6.dat
@@ -4236,6 +4291,7 @@
 
 0 !LDCAD SNAP_FGR [group=lckHng] [genderOfs=M] [seq=8]
 
+0 STEP
 0 FILE s\42121 - 60483s01.dat
 0 A technic connector submodel with axle holes, peg holes, and half-cylinder sections.
 0 Name: s\42121 - 60483s01.dat

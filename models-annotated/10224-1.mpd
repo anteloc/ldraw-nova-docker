@@ -10,6 +10,7 @@
 1 71 0 -736 0 1 0 0 0 1 0 0 0 1 10224 - Level 3.ldr
 
 
+0 STEP
 0 FILE 10224 - Level 0.ldr
 0 Ground floor with baseplate, tiled entrance, large windows, doors, cupboard furniture, arches, plants, lampposts and six minifigs
 0 Name: 10224 - Level 0.ldr
@@ -1750,6 +1751,7 @@
 1 72 -290 -64 -260 0.707 0 -0.707 0 1 0 0.707 0 0.707 10224 - M Boy.ldr
 
 
+0 STEP
 0 FILE 10224 - L0 S08.ldr
 0 Small white plate detail topped with a dark bluish grey grooved tile
 0 Name: 10224 - L0 S08.ldr
@@ -1767,6 +1769,7 @@
 1 72 -10 -16 0 0 0 1 0 1 0 -1 0 0 3069b.dat
 
 
+0 STEP
 0 FILE 10224 - L0 S15a.ldr
 0 White brick and plate assembly with a triangular shield tile
 0 Name: 10224 - L0 S15a.ldr
@@ -1797,6 +1800,7 @@
 1 71 0 -30 -38 1 0 0 0 1 0 0 0 1 3846.dat
 
 
+0 STEP
 0 FILE 10224 - L0 S15b.ldr
 0 Dark bluish grey round knob with a bright green tab
 0 Name: 10224 - L0 S15b.ldr
@@ -1814,6 +1818,7 @@
 1 10 0 -24 0 1 0 0 0 1 0 0 0 1 33291.dat
 
 
+0 STEP
 0 FILE 10224 - L0 S16a.ldr
 0 White plate pedestal topped with a round grille brick and a minifig head (statue bust)
 0 Name: 10224 - L0 S16a.ldr
@@ -1840,6 +1845,7 @@
 1 15 0 -96 0 0 0 1 0 1 0 -1 0 0 3626c.dat
 
 
+0 STEP
 0 FILE 10224 - L0 S16b.ldr
 0 Tan tile and plate detail topped with a black cone
 0 Name: 10224 - L0 S16b.ldr
@@ -1866,6 +1872,7 @@
 1 0 -50 16 -10 0 0 1 0 1 0 -1 0 0 59900.dat
 
 
+0 STEP
 0 FILE 10224 - L0 S17.ldr
 0 Tan sloped awning on white door-rail plates
 0 Name: 10224 - L0 S17.ldr
@@ -1888,6 +1895,7 @@
 1 15 0 -16 -10 1 0 0 0 1 0 0 0 1 3710.dat
 
 
+0 STEP
 0 FILE 10224 - L0 S18.ldr
 0 Tan sloped awning on white door-rail plates
 0 Name: 10224 - L0 S18.ldr
@@ -1905,6 +1913,7 @@
 1 19 20 0 -10 1 0 0 0 1 0 0 0 1 85984.dat
 
 
+0 STEP
 0 FILE 10224 - L0 S21.ldr
 0 Display stand with a '100' money tile and a fez (banker detail)
 0 Name: 10224 - L0 S21.ldr
@@ -1934,6 +1943,7 @@
 1 320 -10 -56 20 0 0 1 0 1 0 -1 0 0 85975.dat
 
 
+0 STEP
 0 FILE 10224 - L0 S22.ldr
 0 Blue plate and tile detail with a black cone
 0 Name: 10224 - L0 S22.ldr
@@ -1951,6 +1961,7 @@
 1 1 -10 -8 0 0 0 1 0 1 0 -1 0 0 3069b.dat
 
 
+0 STEP
 0 FILE 10224 - L0 S23.ldr
 0 Desk with a hinged keyboard tile and a green monitor screen tile (computer workstation)
 0 Name: 10224 - L0 S23.ldr
@@ -1971,6 +1982,7 @@
 1 15 0.588 -31.66 0 0 -0.866 -0.5 0 0.5 -0.866 1 0 0 3068bp73.dat
 
 
+0 STEP
 0 FILE 10224 - L0 S25.ldr
 0 Green four-pane door in a white frame
 0 Name: 10224 - L0 S25.ldr
@@ -1988,6 +2000,7 @@
 1 0 26 68 -16 1 0 0 0 0 -1 0 1 0 6141.dat
 
 
+0 STEP
 0 FILE 10224 - L0 S28.ldr
 0 Black lamp fixture with a trans-clear bulb and inverted dish
 0 Name: 10224 - L0 S28.ldr
@@ -2008,6 +2021,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 87087.dat
 
 
+0 STEP
 0 FILE 10224 - L0 S30.ldr
 0 Hinged technic door frame with a grille tile and technic pins
 0 Name: 10224 - L0 S30.ldr
@@ -2057,6 +2071,7 @@
 1 71 -50 -14 50 1 0 0 0 1 0 0 0 1 10224 - L0 S30 s7.ldr
 
 
+0 STEP
 0 FILE 10224 - L0 S30 s7.ldr
 0 Technic hinge linkage of beams, axles, pins and a towball connector
 0 Name: 10224 - L0 S30 s7.ldr
@@ -2079,6 +2094,7 @@
 1 71 0 -20 50 0 1 0 0 0 -1 -1 0 0 2736.dat
 
 
+0 STEP
 0 FILE 10224 - Door Green.ldr
 0 Green four-pane door in a black frame
 0 Name: 10224 - Door Green.ldr
@@ -2094,6 +2110,7 @@
 1 0 26 68 -16 1 0 0 0 0 -1 0 1 0 6141.dat
 
 
+0 STEP
 0 FILE 10224 - Door Black.ldr
 0 Black four-pane door in a black frame
 0 Name: 10224 - Door Black.ldr
@@ -2109,6 +2126,7 @@
 1 0 26 68 -16 1 0 0 0 0 -1 0 1 0 6141.dat
 
 
+0 STEP
 0 FILE 10224 - L0 S36.ldr
 0 White car-mudguard fender detail on plates
 0 Name: 10224 - L0 S36.ldr
@@ -2145,6 +2163,7 @@
 1 15 0 -40 -10 1 0 0 0 1 0 0 0 1 32028.dat
 
 
+0 STEP
 0 FILE 10224 - L0 S37.ldr
 0 Dark green window assembly with a handle brick
 0 Name: 10224 - L0 S37.ldr
@@ -2191,6 +2210,7 @@
 1 47 -10 -48 0 1 0 0 0 1 0 0 0 1 60601.dat
 
 
+0 STEP
 0 FILE 10224 - L0 S38.ldr
 0 Dark green window assembly with a handle brick
 0 Name: 10224 - L0 S38.ldr
@@ -2237,6 +2257,7 @@
 1 47 10 -48 0 1 0 0 0 1 0 0 0 1 60601.dat
 
 
+0 STEP
 0 FILE 10224 - L0 S40.ldr
 0 Window/shutter detail of round and stud-sided bricks on a door-rail plate
 0 Name: 10224 - L0 S40.ldr
@@ -2288,6 +2309,7 @@
 1 15 0 -64 -26 0 0 1 1 0 0 0 1 0 4162.dat
 
 
+0 STEP
 0 FILE 10224 - L0 S41 R.ldr
 0 Right white rounded-corner detail with clip-light plates
 0 Name: 10224 - L0 S41 R.ldr
@@ -2314,6 +2336,7 @@
 1 15 -40 -24 20 0 0 1 0 1 0 -1 0 0 3005.dat
 
 
+0 STEP
 0 FILE 10224 - L0 S41 L.ldr
 0 Left white rounded-corner detail with clip-light plates
 0 Name: 10224 - L0 S41 L.ldr
@@ -2340,6 +2363,7 @@
 1 15 40 -24 20 0 0 1 0 1 0 -1 0 0 3005.dat
 
 
+0 STEP
 0 FILE 10224 - L0 S43.ldr
 0 White bench/seat assembly with clip-light plates
 0 Name: 10224 - L0 S43.ldr
@@ -2371,6 +2395,7 @@
 1 15 10 -32 30 0 0 1 0 1 0 -1 0 0 3002.dat
 
 
+0 STEP
 0 FILE 10224 - L0 S45.ldr
 0 Sensor/lamppost detail with a lightsaber-hilt shaft and a trans-clear brick
 0 Name: 10224 - L0 S45.ldr
@@ -2388,6 +2413,7 @@
 1 0 0 24 0 -1 0 0 0 -1 0 0 0 1 59900.dat
 
 
+0 STEP
 0 FILE 10224 - L0 S49 R.ldr
 0 Right technic hinge bracket of reddish brown and tan bricks
 0 Name: 10224 - L0 S49 R.ldr
@@ -2403,6 +2429,7 @@
 1 19 -6.355 -2.634 -20 0.95 -0.314 0 0.314 0.95 0 0 0 1 32000.dat
 
 
+0 STEP
 0 FILE 10224 - L0 S49 L.ldr
 0 Left technic hinge bracket of reddish brown and tan bricks
 0 Name: 10224 - L0 S49 L.ldr
@@ -2418,6 +2445,7 @@
 1 19 6.354 -2.634 -20 0.949 0.314 0 -0.314 0.949 0 0 0 1 32000.dat
 
 
+0 STEP
 0 FILE 10224 - L0 S50.ldr
 0 Tan plate detail with a four-stud brick and a white tile
 0 Name: 10224 - L0 S50.ldr
@@ -2442,6 +2470,7 @@
 1 15 0 -40 0 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 10224 - L0 S52.ldr
 0 White brickwork with a 4-wide sloped top
 0 Name: 10224 - L0 S52.ldr
@@ -2464,6 +2493,7 @@
 1 15 10 -32 0 0 0 1 0 1 0 -1 0 0 3070b.dat
 
 
+0 STEP
 0 FILE 10224 - L0 S55.ldr
 0 Black tiled window/door-frame section on white door-rail plates
 0 Name: 10224 - L0 S55.ldr
@@ -2507,6 +2537,7 @@
 1 15 40 0 20 1 0 0 0 1 0 0 0 1 3710.dat
 
 
+0 STEP
 0 FILE 10224 - L0 S56.ldr
 0 Black tiled window/door-frame section on white door-rail plates
 0 Name: 10224 - L0 S56.ldr
@@ -2550,6 +2581,7 @@
 1 15 -40 0 20 1 0 0 0 1 0 0 0 1 3710.dat
 
 
+0 STEP
 0 FILE 10224 - L0 S61a.ldr
 0 White lamppost with a trans-clear head and an inverted-dish lamp
 0 Name: 10224 - L0 S61a.ldr
@@ -2565,6 +2597,7 @@
 1 15 0 -32 0 1 0 0 0 1 0 0 0 1 4740.dat
 
 
+0 STEP
 0 FILE 10224 - L0 S61b.ldr
 0 Flower pot of a four-stud brick holding a red three-flower stem
 0 Name: 10224 - L0 S61b.ldr
@@ -2586,6 +2619,7 @@
 1 70 0 10 18 0 0 1 -1 0 0 0 -1 0 3070b.dat
 
 
+0 STEP
 0 FILE 10224 - L0 S62.ldr
 0 Camera detail with a mechanical arm, hose nozzle and inverted dish
 0 Name: 10224 - L0 S62.ldr
@@ -2615,6 +2649,7 @@
 1 47 3.5 0 -24.4 1 0 0 0 0 -1 0 1 0 6141.dat
 
 
+0 STEP
 0 FILE 10224 - Level 1.ldr
 0 First floor with plates, bricks, large windows, paneled doors, cupboards, arches and the Mayor and Secretary minifigs
 0 Name: 10224 - Level 1.ldr
@@ -3509,6 +3544,7 @@
 1 1 -190 -72 -80 0 0 1 0 1 0 -1 0 0 10224 - M Secretary.ldr
 
 
+0 STEP
 0 FILE 10224 - Lx S05.ldr
 0 Light bluish grey and white plate substructure
 0 Name: 10224 - Lx S05.ldr
@@ -3526,6 +3562,7 @@
 1 71 0 0 -70 0 0 1 0 1 0 -1 0 0 3024.dat
 
 
+0 STEP
 0 FILE 10224 - Lx S06.ldr
 0 Long plate substructure of white and light bluish grey plates
 0 Name: 10224 - Lx S06.ldr
@@ -3553,6 +3590,7 @@
 1 71 150 8 0 1 0 0 0 1 0 0 0 1 3024.dat
 
 
+0 STEP
 0 FILE 10224 - L1 S15a.ldr
 0 Black plate assembly with blue handle and clip plates
 0 Name: 10224 - L1 S15a.ldr
@@ -3575,6 +3613,7 @@
 1 0 0 8 0 -1 0 0 0 1 0 0 0 -1 6141.dat
 
 
+0 STEP
 0 FILE 10224 - L1 S15b.ldr
 0 Black and tan plate detail with a grooved tile
 0 Name: 10224 - L1 S15b.ldr
@@ -3592,6 +3631,7 @@
 1 19 0 -8 -10 1 0 0 0 1 0 0 0 1 3069b.dat
 
 
+0 STEP
 0 FILE 10224 - L1 S16a.ldr
 0 Dark blue tile and cone detail on a light bluish grey plate
 0 Name: 10224 - L1 S16a.ldr
@@ -3628,6 +3668,7 @@
 1 0 10 16 -20 0 0 1 0 1 0 -1 0 0 59900.dat
 
 
+0 STEP
 0 FILE 10224 - L1 S16b.ldr
 0 Reddish brown grille-brick and tile window detail
 0 Name: 10224 - L1 S16b.ldr
@@ -3660,6 +3701,7 @@
 1 70 50 32 0 0 0 -1 0 1 0 1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 10224 - L1 S17.ldr
 0 Blue handle and clip plate assembly with a hose nozzle
 0 Name: 10224 - L1 S17.ldr
@@ -3686,6 +3728,7 @@
 1 1 0 -36.995 23.731 -1 0 0 0 0.122 0.993 0 0.993 -0.122 3176.dat
 
 
+0 STEP
 0 FILE 10224 - L1 S18.ldr
 0 Tan tiled surface with a white door-rail plate
 0 Name: 10224 - L1 S18.ldr
@@ -3703,6 +3746,7 @@
 1 15 20 -8 -10 1 0 0 0 1 0 0 0 1 32028.dat
 
 
+0 STEP
 0 FILE 10224 - L1 S21.ldr
 0 Tan curved-slope detail on a plate
 0 Name: 10224 - L1 S21.ldr
@@ -3715,6 +3759,7 @@
 1 19 0 0 8 0 0 -1 -1 0 0 0 1 0 93273.dat
 
 
+0 STEP
 0 FILE 10224 - L1 S22a.ldr
 0 Black stud-sided brick with a pearl-gold round tile
 0 Name: 10224 - L1 S22a.ldr
@@ -3732,6 +3777,7 @@
 1 297 0 10 -18 1 0 0 0 0 -1 0 1 0 98138.dat
 
 
+0 STEP
 0 FILE 10224 - L1 S22b.ldr
 0 Single dark orange log brick
 0 Name: 10224 - L1 S22b.ldr
@@ -3748,6 +3794,7 @@
 1 484 0 -72 0 1 0 0 0 1 0 0 0 1 30136.dat
 
 
+0 STEP
 0 FILE 10224 - L1 S24.ldr
 0 White window with trans-clear glass
 0 Name: 10224 - L1 S24.ldr
@@ -3765,6 +3812,7 @@
 1 47 0 -48 0 1 0 0 0 1 0 0 0 1 60601.dat
 
 
+0 STEP
 0 FILE 10224 - L1 S27.ldr
 0 White door frame with a trans-clear smooth door
 0 Name: 10224 - L1 S27.ldr
@@ -3780,6 +3828,7 @@
 1 0 25 70 -16.75 1 0 0 0 0 -1 0 1 0 6141.dat
 
 
+0 STEP
 0 FILE 10224 - L1 S31.ldr
 0 White car-mudguard fender detail on a plate
 0 Name: 10224 - L1 S31.ldr
@@ -3797,6 +3846,7 @@
 1 15 10 0 10 0 0 -1 0 1 0 1 0 0 54200.dat
 
 
+0 STEP
 0 FILE 10224 - Level 2.ldr
 0 Second floor with plates, bricks, windows, arches, slopes, a turntable, display tiles, a goblet, a frog and patterned surfaces
 0 Name: 10224 - Level 2.ldr
@@ -4578,6 +4628,7 @@
 1 71 80 -160 -170 1 0 0 0 1 0 0 0 1 3069b.dat
 
 
+0 STEP
 0 FILE 10224 - Level 3.ldr
 0 Top level (clock tower/belfry) with trap door, arches, slopes, panels, the Town Hall clock face and the Janitor minifig
 0 Name: 10224 - Level 3.ldr
@@ -5154,6 +5205,7 @@
 1 1 180 -72 -50 1 0 0 0 1 0 0 0 1 10224 - M Janitor.ldr
 
 
+0 STEP
 0 FILE 10224 - L2 S12.ldr
 0 Dark green tiled bench/planter detail with a black cone
 0 Name: 10224 - L2 S12.ldr
@@ -5209,6 +5261,7 @@
 1 0 70 16 10 0 0 1 0 1 0 -1 0 0 59900.dat
 
 
+0 STEP
 0 FILE 10224 - L2 S13a.ldr
 0 Tan plate and tile detail with a black round plate
 0 Name: 10224 - L2 S13a.ldr
@@ -5226,6 +5279,7 @@
 1 0 0 8 0 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 10224 - L2 S13b.ldr
 0 Tan curved-slope detail on a plate
 0 Name: 10224 - L2 S13b.ldr
@@ -5241,6 +5295,7 @@
 1 19 -30 -16 0 0 0 1 0 1 0 -1 0 0 50950.dat
 
 
+0 STEP
 0 FILE 10224 - L2 S14.ldr
 0 Plant detail with a tan round grille pot and bamboo leaves
 0 Name: 10224 - L2 S14.ldr
@@ -5258,6 +5313,7 @@
 1 2 -10 -24 -10 0.707 0 -0.707 0 1 0 0.707 0 0.707 30176.dat
 
 
+0 STEP
 0 FILE 10224 - L2 S15.ldr
 0 Tan tiled surface with a white door-rail plate
 0 Name: 10224 - L2 S15.ldr
@@ -5275,6 +5331,7 @@
 1 15 20 -8 -10 1 0 0 0 1 0 0 0 1 32028.dat
 
 
+0 STEP
 0 FILE 10224 - L2 S17.ldr
 0 Lamp fixture with a cone, dish, hemisphere and pneumatic T-piece
 0 Name: 10224 - L2 S17.ldr
@@ -5299,6 +5356,7 @@
 1 28 0 -46 0 -1 0 0 0 1 0 0 0 -1 61287.dat
 
 
+0 STEP
 0 FILE 10224 - L2 S18.ldr
 0 Dark green brick and pearl-gold slope on a black car-mudguard base
 0 Name: 10224 - L2 S18.ldr
@@ -5327,6 +5385,7 @@
 1 297 0 -72 20 1 0 0 0 1 0 0 0 1 3048b.dat
 
 
+0 STEP
 0 FILE 10224 - L2 S19.ldr
 0 Black stud-sided brick with a pearl-gold round tile
 0 Name: 10224 - L2 S19.ldr
@@ -5344,6 +5403,7 @@
 1 297 0 10 -18 1 0 0 0 0 -1 0 1 0 98138.dat
 
 
+0 STEP
 0 FILE 10224 - L2 S22.ldr
 0 White window with trans-clear glass
 0 Name: 10224 - L2 S22.ldr
@@ -5361,6 +5421,7 @@
 1 47 0 -48 0 1 0 0 0 1 0 0 0 1 60601.dat
 
 
+0 STEP
 0 FILE 10224 - L2 S23.ldr
 0 Single dark orange log brick
 0 Name: 10224 - L2 S23.ldr
@@ -5377,6 +5438,7 @@
 1 484 0 -72 0 1 0 0 0 1 0 0 0 1 30136.dat
 
 
+0 STEP
 0 FILE 10224 - L2 S25.ldr
 0 Dark orange plate with a handle and a double-clip bar
 0 Name: 10224 - L2 S25.ldr
@@ -5394,6 +5456,7 @@
 1 0 0 -14 -20 1 0 0 0 0 1 0 -1 0 6020.dat
 
 
+0 STEP
 0 FILE 10224 - L2 S29.ldr
 0 White car-mudguard fender detail on plates
 0 Name: 10224 - L2 S29.ldr
@@ -5415,6 +5478,7 @@
 1 15 -30 -8 -10 1 0 0 0 1 0 0 0 1 3070b.dat
 
 
+0 STEP
 0 FILE 10224 - L3 S06.ldr
 0 Dark bluish grey and light bluish grey plate substructure
 0 Name: 10224 - L3 S06.ldr
@@ -5434,6 +5498,7 @@
 1 71 60 -8 0 1 0 0 0 1 0 0 0 1 3022.dat
 
 
+0 STEP
 0 FILE 10224 - L3 S14.ldr
 0 Curved-top brick and black arched detail on a plate
 0 Name: 10224 - L3 S14.ldr
@@ -5456,6 +5521,7 @@
 1 0 0 -40 0 1 0 0 0 1 0 0 0 1 6183.dat
 
 
+0 STEP
 0 FILE 10224 - L3 S15.ldr
 0 Curved-top brick detail on a light bluish grey plate
 0 Name: 10224 - L3 S15.ldr
@@ -5471,6 +5537,7 @@
 1 71 0 -24 0 -1 0 0 0 1 0 0 0 -1 6091.dat
 
 
+0 STEP
 0 FILE 10224 - L3 S17.ldr
 0 Curved-top brick and curved slope on a holed plate
 0 Name: 10224 - L3 S17.ldr
@@ -5486,6 +5553,7 @@
 1 72 0 -16 10 1 0 0 0 1 0 0 0 1 47457.dat
 
 
+0 STEP
 0 FILE 10224 - L3 S18.ldr
 0 Inverted slope on a light bluish grey plate
 0 Name: 10224 - L3 S18.ldr
@@ -5500,6 +5568,7 @@
 1 71 0 -16 -10 1 0 0 0 1 0 0 0 1 3022.dat
 
 
+0 STEP
 0 FILE 10224 - L3 S19.ldr
 0 Bracket-mounted tiled detail with a clip sub-assembly
 0 Name: 10224 - L3 S19.ldr
@@ -5523,6 +5592,7 @@
 1 0 -140 0 0 1 0 0 0 1 0 0 0 1 10224 - L3 S19 s3.ldr
 
 
+0 STEP
 0 FILE 10224 - L3 S19 s3.ldr
 0 Bracket-mounted antenna detail with a round brick and tile
 0 Name: 10224 - L3 S19 s3.ldr
@@ -5545,6 +5615,7 @@
 1 0 102 10 10 0 1 0 -1 0 0 0 0 1 3957a.dat
 
 
+0 STEP
 0 FILE 10224 - L3 S20a.ldr
 0 Vertical clip-plate detail with a white grooved tile
 0 Name: 10224 - L3 S20a.ldr
@@ -5562,6 +5633,7 @@
 1 15 10 -16 0 -1 0 0 0 1 0 0 0 -1 3069b.dat
 
 
+0 STEP
 0 FILE 10224 - L3 S20b.ldr
 0 Horizontal clip-plate detail with a white grooved tile
 0 Name: 10224 - L3 S20b.ldr
@@ -5580,6 +5652,7 @@
 1 15 0 -32 0 -1 0 0 0 1 0 0 0 -1 3070b.dat
 
 
+0 STEP
 0 FILE 10224 - L3 S23.ldr
 0 Dark orange plate section on a dark bluish grey base plate
 0 Name: 10224 - L3 S23.ldr
@@ -5601,6 +5674,7 @@
 1 484 -60 -8 0 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 10224 - L3 S26.ldr
 0 Dark bluish grey sloped plate detail with a round plate and tile
 0 Name: 10224 - L3 S26.ldr
@@ -5616,6 +5690,7 @@
 1 72 0 -16 10 1 0 0 0 1 0 0 0 1 3070b.dat
 
 
+0 STEP
 0 FILE 10224 - L3 S27.ldr
 0 Light bluish grey technic pin joint on a holed brick
 0 Name: 10224 - L3 S27.ldr
@@ -5636,6 +5711,7 @@
 1 71 0 -40 0 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 10224 - L3 S28.ldr
 0 Dark bluish grey curved-slope detail on plates and a brick
 0 Name: 10224 - L3 S28.ldr
@@ -5658,6 +5734,7 @@
 1 72 10 -40 0 0 0 1 0 1 0 -1 0 0 50950.dat
 
 
+0 STEP
 0 FILE 10224 - L3 S29.ldr
 0 Black spindled fence section on a plate with grooved tiles
 0 Name: 10224 - L3 S29.ldr
@@ -5687,6 +5764,7 @@
 1 0 0 -64 0 1 0 0 0 1 0 0 0 1 4162.dat
 
 
+0 STEP
 0 FILE 10224 - L3 S35.ldr
 0 Turret/bell top of black slopes and convex bricks on plates, with sub-assemblies
 0 Name: 10224 - L3 S35.ldr
@@ -5760,6 +5838,7 @@
 1 0 0 -248 0 -1 0 0 0 1 0 0 0 -1 3688.dat
 
 
+0 STEP
 0 FILE 10224 - L3 S35 s3.ldr
 0 Bell detail with an inverted dish, dome cylinder and round brick
 0 Name: 10224 - L3 S35 s3.ldr
@@ -5777,6 +5856,7 @@
 1 72 0 -56 0 1 0 0 0 1 0 0 0 1 3062b.dat
 
 
+0 STEP
 0 FILE 10224 - L3 S35 s4.ldr
 0 White arched opening with a door-rail plate and round brick
 0 Name: 10224 - L3 S35 s4.ldr
@@ -5801,6 +5881,7 @@
 1 15 30 48 0 1 0 0 0 1 0 0 0 1 3062b.dat
 
 
+0 STEP
 0 FILE 10224 - L3 S12.ldr
 0 Roller door with trans-clear roller and black handle
 0 Name: 10224 - L3 S12.ldr
@@ -5829,6 +5910,7 @@
 1 0 0 35.469 63.165 -1 0 0 0 0.987 -0.158 0 -0.158 -0.987 4219b.dat
 
 
+0 STEP
 0 FILE 10224 - M Janitor.ldr
 0 Janitor minifig with a blue cap, dungaree torso, white beard and a pushbroom
 0 Name: 10224 - M Janitor.ldr
@@ -5861,6 +5943,7 @@
 1 70 -28.233 51.916 14.856 0.996 0.086 0 0.043 -0.5 0.865 0.075 -0.862 -0.502 3836.dat
 
 
+0 STEP
 0 FILE 10224 - M Bride.ldr
 0 Bride minifig with a braided ponytail, white wedding-gown skirt and a flower
 0 Name: 10224 - M Bride.ldr
@@ -5887,6 +5970,7 @@
 1 4 -23.797 26.213 -29.445 -0.996 -0.086 0 -0.043 0.5 0.865 -0.075 0.862 -0.502 3741ac02.dat
 
 
+0 STEP
 0 FILE 10224 - M Groom.ldr
 0 Groom minifig with a top hat and a black vested torso
 0 Name: 10224 - M Groom.ldr
@@ -5911,6 +5995,7 @@
 1 14 23.863 26.596 -10.321 0.985 0.12 -0.12 -0.17 0.696 -0.696 0 0.707 0.707 3820.dat
 
 
+0 STEP
 0 FILE 10224 - M Press Woman.ldr
 0 Press woman minifig with a reddish brown ponytail and a red torso
 0 Name: 10224 - M Press Woman.ldr
@@ -5939,6 +6024,7 @@
 1 288 0 44 0 1 0 0 0 1 0 0 0 1 3817b.dat
 
 
+0 STEP
 0 FILE 10224 - M Boy.ldr
 0 Boy minifig with tousled hair, green arms, short blue legs and a popsicle
 0 Name: 10224 - M Boy.ldr
@@ -5965,6 +6051,7 @@
 1 42 -24.695 31.414 -20.484 0.996 -0.086 -0.011 0.034 0.5 -0.865 0.08 0.861 0.501 30222.dat
 
 
+0 STEP
 0 FILE 10224 - M Girl.ldr
 0 Girl minifig with long hair, orange flowered torso, short red legs and a magnifying glass
 0 Name: 10224 - M Girl.ldr
@@ -5991,6 +6078,7 @@
 1 0 -24.95 32.903 -17.91 0.996 -0.086 0 0.043 0.5 -0.865 0.074 0.862 0.502 10224 - 10830p01.dat
 
 
+0 STEP
 0 FILE 10224 - M Mayor.ldr
 0 Mayor minifig with grey hair and a dark blue pinstriped-suit torso
 0 Name: 10224 - M Mayor.ldr
@@ -6019,6 +6107,7 @@
 1 14 21.93 15.393 -20.098 0.985 0.17 -0.012 -0.17 0.982 -0.069 0 0.07 0.997 3820.dat
 
 
+0 STEP
 0 FILE 10224 - M Secretary.ldr
 0 Secretary minifig with a dark bluish grey torso and lilac hips
 0 Name: 10224 - M Secretary.ldr
@@ -6045,6 +6134,7 @@
 1 85 0 44 0 1 0 0 0 1 0 0 0 1 3817b.dat
 
 
+0 STEP
 0 FILE 10224 - 87990.dat
 0 Minifig Hair with Ponytail and Swept Sideways Fringe
 0 Name: 10224 - 87990.dat
@@ -6064,6 +6154,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\10224 - 87990s03.dat
 
 
+0 STEP
 0 FILE 10224 - 10830p01.dat
 0 Minifig Tool Magnifying Glass with Thick Frame and TransClear Lens
 0 Name: 10224 - 10830p01.dat
@@ -6079,6 +6170,7 @@
 1 47 0 -29.5 0 1 0 0 0 1 0 0 0 1 s\10224 - 10830s01.dat
 
 
+0 STEP
 0 FILE s\10224 - 87990s01.dat
 0 ~Minifig Hair with Ponytail and Swept Sideways Fringe - Fringe
 0 Name: s\10224 - 87990s01.dat
@@ -6159,6 +6251,7 @@
 5 24 4.289 -3.302 -13.334 -0.832 -3.465 -13.157 0.046 -1.765 -15.462 3.701 -4.311 -11.458
 
 
+0 STEP
 0 FILE s\10224 - 87990s02.dat
 0 ~Minifig Hair with Ponytail and Swept Sideways Fringe - Stripe Area
 0 Name: s\10224 - 87990s02.dat
@@ -6610,6 +6703,7 @@
 5 24 -9.202 9.701 14.562 -9.726 12.739 13.381 -9.522 9.332 13.993 -8.104 9.719 15.46
 
 
+0 STEP
 0 FILE s\10224 - 87990s03.dat
 0 ~Minifig Hair with Ponytail and Swept Sideways Fringe without Patternable Areas
 0 Name: s\10224 - 87990s03.dat
@@ -8605,6 +8699,7 @@
 5 24 -11.36 14.741 9.622 -10.642 15.164 9.585 -12.39 14.281 8.68 -10.084 11.914 12.517
 
 
+0 STEP
 0 FILE s\10224 - 10830s02.dat
 0 ~Minifig Tool Magnifying Glass Holder with Thick Frame
 0 Name: s\10224 - 10830s02.dat
@@ -8730,6 +8825,7 @@
 2 24 -4.5 -47.605202 -4 -4.5 -42.605202 -4
 
 
+0 STEP
 0 FILE s\10224 - 10830s01.dat
 0 ~Lens for Minifig Tool Magnifying Glass with Thick Frame
 0 Name: s\10224 - 10830s01.dat
@@ -8744,6 +8840,7 @@
 1 16 0 0 -1.5 13.5 0 0 0 0 13.5 0 2 0 bump5000.dat
 
 
+0 STEP
 0 FILE s\10224 - 10830s03.dat
 0 ~Lens for Minifig Tool Magnifying Glass with Thick Frame without Front Face
 0 Name: s\10224 - 10830s03.dat

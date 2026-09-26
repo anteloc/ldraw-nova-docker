@@ -12,6 +12,7 @@
 1 14 -97.4847 -64 -169.694 0.5 0 -0.866025 0 1 0 0.866025 0 0.5 7817 - cargo.ldr
 
 
+0 STEP
 0 FILE 7817 - wagon.ldr
 0 A small wagon assembly built from grey cones and Technic plates with holes.
 0 Name: 7817 - wagon.ldr
@@ -40,6 +41,7 @@
 1 16 3.5617 -97 53.3842 0.5 0 -0.866025 0 1 0 0.866025 0 0.5 7817 - crane.ldr
 
 
+0 STEP
 0 FILE 7817 - wahon - base.ldr
 0 A long train car base with a 6x28 train base, turntable, fences, sloped details, and Technic pin connections.
 0 Name: 7817 - wahon - base.ldr
@@ -118,6 +120,7 @@
 1 16 200 -64 -0.465 -1 0 0 0 1 0 0 0 -1 7817 - wahon - wheels.ldr
 
 
+0 STEP
 0 FILE 7817 - wahon - wheels.ldr
 0 A train bogie and wheel assembly with train wheels, buffers, a coupling, and magnet connectors.
 0 Name: 7817 - wahon - wheels.ldr
@@ -152,6 +155,7 @@
 1 0 -104 28 0.21 0 0 -1 0 1 0 1 0 0 2959.dat
 
 
+0 STEP
 0 FILE 7817 - crane.ldr
 0 A rotating crane cabin with a winch drum, hinged roof, sloped bodywork, windscreen, and a minifig seat.
 0 Name: 7817 - crane.ldr
@@ -648,6 +652,7 @@
 1 7 0 -8 0 1 0 0 0 1 0 0 0 1 3679.dat
 
 
+0 STEP
 0 FILE 7817 - crane - arm.ldr
 0 A long crane jib arm constructed from connected plates, clips, hinges, and a Technic axle.
 0 Name: 7817 - crane - arm.ldr
@@ -1286,6 +1291,7 @@
 1 0 9.8802 4.0666 -24.7224 -0.947123 0.083507 0.309813 0.320708 0.277056 0.905752 0.010199 -0.957218 0.289188 7817 - LS60.dat
 
 
+0 STEP
 0 FILE 7817 - crane - lock.ldr
 0 A small hinged locking mechanism using plates, hinge fingers, and grooved tiles.
 0 Name: 7817 - crane - lock.ldr
@@ -1308,6 +1314,7 @@
 1 7 14.5977 -27.2278 0.0169 -0.6 0.799975 -0.0064 0.8 0.59998 -0.0048 0 -0.008 -0.999968 3022.dat
 
 
+0 STEP
 0 FILE 7817 - cargo.ldr
 0 A cargo load of round bricks stacked on plates, representing freight or barrels.
 0 Name: 7817 - cargo.ldr
@@ -1348,6 +1355,7 @@
 1 7 -0.0052 -16 0.015 -1 0 0 0 1 0 0 0 -1 3032.dat
 
 
+0 STEP
 0 FILE 7817 - minifig.ldr
 0 A construction worker minifig wearing a red helmet, blue torso with patch pocket, and yellow head and hands.
 0 Name: 7817 - minifig.ldr
@@ -1378,6 +1386,7 @@
 1 1 8.7246 -53.0002 11.4416 0.866025 0 0.5 0 1 0 -0.5 0 0.866025 973p26.dat
 
 
+0 STEP
 0 FILE 7817 - LS60.dat
 0 A short LSynth string segment with no visible pieces.
 0 Name: 7817 - LS60.dat

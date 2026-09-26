@@ -8,6 +8,7 @@
 1 16 0 -63 0 0 0 1 0.021 1 0 -1 0.021 0 42109 - car.ldr
 
 
+0 STEP
 0 FILE 42109 - controlPlusMotorXL-LQ-1.ldr
 0 Control+ XL motor unit with routed cable routing stub and plug.
 0 Name: 42109 - controlPlusMotorXL-LQ-1.ldr
@@ -60,6 +61,7 @@
 
 
 
+0 STEP
 0 FILE 42109 - controlPlusMotorXL-LQ-1_subPart1.ldr
 0 Cable path geometry subpart defining the flex routing segments for the XL motor cable.
 0 Name: 42109 - controlPlusMotorXL-LQ-1_subPart1.ldr
@@ -332,6 +334,7 @@
 1 16 -202.923409 0.011529 120.038342 0.011106 -3.996076 0.036393 -0.999876 -0.042752 0.011599 -0.011201 -0.14603 -0.99927 u9218.dat
 
 
+0 STEP
 0 FILE 42109 - xlmotor.ldr
 0 Mounting assembly securing a Control+ XL motor using beams, cross blocks, and friction pins.
 0 Name: 42109 - xlmotor.ldr
@@ -379,6 +382,7 @@
 1 0 -20 0 150 0 0 -1 0 -1 0 -1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 42109 - controlPlusMotorL-LQ-1.ldr
 0 Control+ L motor unit with routed cable and plug connector.
 0 Name: 42109 - controlPlusMotorL-LQ-1.ldr
@@ -429,6 +433,7 @@
 
 
 
+0 STEP
 0 FILE 42109 - controlPlusMotorL-LQ-1_subPart1.ldr
 0 Cable path geometry subpart defining the flex routing segments for the L motor cable.
 0 Name: 42109 - controlPlusMotorL-LQ-1_subPart1.ldr
@@ -707,6 +712,7 @@
 1 16 -19.989643 -39.986345 197.171767 -0.003368 -0.031955 0.999962 -0.999926 -0.046644 -0.003461 0.011682 -4.001644 -0.007945 u9218.dat
 
 
+0 STEP
 0 FILE 42109 - side1.ldr
 0 Left side bodywork panel assembly built from bent liftarms, pins, and a connecting brick.
 0 Name: 42109 - side1.ldr
@@ -742,6 +748,7 @@
 1 4 0 -10 30 0 0 1 0 1 0 -1 0 0 32000.dat
 
 
+0 STEP
 0 FILE 42109 - side2.ldr
 0 Right side bodywork panel assembly built from bent liftarms, pins, and a connecting brick.
 0 Name: 42109 - side2.ldr
@@ -777,6 +784,7 @@
 1 4 0 -10 30 0 0 -1 0 1 0 1 0 0 32000.dat
 
 
+0 STEP
 0 FILE 42109 - roof.ldr
 0 Roof section composed of white and dark blue body panels, beams, and fairing panels mounted with pins.
 0 Name: 42109 - roof.ldr
@@ -840,6 +848,7 @@
 1 1 120 80 40 1 0 0 0 -1 0 0 0 -1 6558.dat
 
 
+0 STEP
 0 FILE 42109 - door1.ldr
 0 Left door assembly formed from smooth black panels, a white side panel, and mounting pins.
 0 Name: 42109 - door1.ldr
@@ -864,6 +873,7 @@
 1 0 0 -40 -120 -1 0 0 0 0 1 0 1 0 42109 - 33299b.dat
 
 
+0 STEP
 0 FILE 42109 - door2.ldr
 0 Right door assembly formed from smooth black panels, a white side panel, and mounting pins.
 0 Name: 42109 - door2.ldr
@@ -888,6 +898,7 @@
 1 0 0 -40 -120 -1 0 0 0 0 1 0 1 0 42109 - 33299b.dat
 
 
+0 STEP
 0 FILE 42109 - bonnet.ldr
 0 Front bonnet section built from a 7-long beam and paired black fairing panels.
 0 Name: 42109 - bonnet.ldr
@@ -912,6 +923,7 @@
 1 71 -60 20 80 0 1 0 0 0 -1 -1 0 0 15100.dat
 
 
+0 STEP
 0 FILE 42109 - front.ldr
 0 Front end assembly featuring dark blue fairings, round plates, cross blocks, and a steering axle.
 0 Name: 42109 - front.ldr
@@ -993,6 +1005,7 @@
 1 15 120 -40 -34 0 0 1 1 0 0 0 1 0 14769.dat
 
 
+0 STEP
 0 FILE 42109 - car.ldr
 0 Core chassis submodel integrating the drivetrain, differential, open-center liftarms, and extensive pin/axle connections.
 0 Name: 42109 - car.ldr
@@ -1736,6 +1749,7 @@
 1 256 0 0 147 0 -1 0 -1 0 0 0 0 -1 42109 - 15413.dat
 
 
+0 STEP
 0 FILE 42109 - 49283.dat
 0 Primitive geometry defining a bushing-shaped part using rings, cylinders, and circles.
 0 Name: 42109 - 49283.dat
@@ -1834,6 +1848,7 @@
 5 24 0 -29 -5 0 -29 -9 5 -28.5 -9 -5 -28.5 -9
 5 24 0 -29 5 0 -29 9 5 -28.5 9 -5 -28.5 9
 
+0 STEP
 0 FILE 42109 - 33299b.dat
 0 Primitive geometry defining a connector part with axle and peg holes using rings and discs.
 0 Name: 42109 - 33299b.dat
@@ -1871,6 +1886,7 @@
 4 16 6.36 10 33.637001 3.444 10 31.684999 3.062 10 32.609001 5.657 10 34.342999
 4 16 3.444 10 31.684999 0 10 31 0 10 32 3.062 10 32.609001
 
+0 STEP
 0 FILE 42109 - 39794.dat
 0 Primitive geometry defining a connector with peg hole ends and cylinders.
 0 Name: 42109 - 39794.dat
@@ -1927,6 +1943,7 @@
 1 16 -60 0 100 -1 0 0 0 1 0 0 0 1 s\42109 - 39790s02.dat
 1 16 -60 0 -100 -1 0 0 0 1 0 0 0 -1 s\42109 - 39790s02.dat
 
+0 STEP
 0 FILE 42109 - 65414c01.dat
 0 Differential assembly with casing, a 28-tooth bevel gear, and five 12-tooth bevel gears.
 0 Name: 42109 - 65414c01.dat
@@ -1951,6 +1968,7 @@
 0 // Technic Gear 12 Tooth Bevel (tan)
 1 19 -14.7224 8.5 0 0.48296 0.12941 0.86603 0.83652 0.22414 -0.5 -0.25882 0.96593 0 6589.dat
 
+0 STEP
 0 FILE 42109 - 13971.dat
 0 Primitive geometry defining a wheel rim using cones, cylinders, circles, and rings.
 0 Name: 42109 - 13971.dat
@@ -2050,6 +2068,7 @@
 1 16 0 0 0 1 0 0 0 -1 0 0 0 1 s\42109 - 13971s01.dat
 1 16 0 0 0 -1 0 0 0 -1 0 0 0 1 s\42109 - 13971s01.dat
 
+0 STEP
 0 FILE 42109 - 42531.dat
 0 Reference part with no direct primitive geometry.
 0 Name: 42109 - 42531.dat
@@ -2066,6 +2085,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\42109 - 42531s02.dat
 1 16 0 0 0 1 0 0 0 1 0 0 0 -1 s\42109 - 42531s02.dat
 
+0 STEP
 0 FILE 42109 - 15413.dat
 0 Tyre part consisting of 3D text label and tyre geometry.
 0 Name: 42109 - 15413.dat
@@ -2112,6 +2132,7 @@
 1 16 0 0 21 42.75 0 0 0 0 42.75 0 -4 0 48\4-4cylo.dat
 1 16 0 0 21 14.25 0 0 0 0 14.25 0 1 0 48\4-4ring3.dat
 
+0 STEP
 0 FILE s\42109 - 39790s01.dat
 0 Primitive subpart defining peg holes, connector holes, and disc cutouts.
 0 Name: s\42109 - 39790s01.dat
@@ -2152,6 +2173,7 @@
 0 // Rectangle with 1 Edge (main_colour)
 1 16 -10 1 0 0 1 0 9 0 0 0 0 -12 rect1.dat
 
+0 STEP
 0 FILE s\42109 - 39790s02.dat
 0 Primitive subpart defining detailed connector geometry with cylinders, discs, and rings.
 0 Name: s\42109 - 39790s02.dat
@@ -2333,6 +2355,7 @@
 5 24 -3.827 10 -9.239 -3.827 3.444 -9.239 0 10 -10 -5.7995 10 -7.9208
 2 24 -11.685 3.444 -3.827 -11.685 10 -3.827
 
+0 STEP
 0 FILE s\42109 - 33299s01.dat
 0 Primitive subpart defining a connector body with cylinders, rings, and pin collar geometry.
 0 Name: s\42109 - 33299s01.dat
@@ -2603,6 +2626,7 @@
 5 24 -4.9498 0 35.050098 -4.9498 10 35.050098 -6 0 36.661999 -2.6788 0 33.5327
 5 24 4.9497 10 35.050301 4.9498 0 35.050201 6 0 36.661999 2.6788 10 33.5327
 
+0 STEP
 0 FILE 42109 - npeghol3.dat
 0 Primitive subpart defining a peg hole using cylinders, rectangles, and rings.
 0 Name: 42109 - npeghol3.dat
@@ -2648,6 +2672,7 @@
 0 // Box with  2 Faces without  7 Edges (main_colour)
 1 16 2.7222 0.5 -3.041 0 -0.72215 0 0.5 0 0 0 0.14395 1.5 box2-7.dat
 
+0 STEP
 0 FILE 42109 - 65414.dat
 0 65414
 0 Name: 42109 - 65414.dat
@@ -2737,6 +2762,7 @@
 5 24 1.5 16.4904 10 -1.5 16.4904 10 -1.5 16.4904 3 -1.5 15.3253 10.5
 5 24 1.5 15.3253 10.5 -1.5 15.3253 10.5 -1.5 16.4904 10 -1.5 8.3971 10.5
 
+0 STEP
 0 FILE s\42109 - 65414s02.dat
 0 65414s02
 0 Name: s\42109 - 65414s02.dat
@@ -3093,6 +3119,7 @@
 5 24 17.340799 -19.773399 37 16.934799 -20.083401 10.5071 17.340799 -19.773399 1 15.7406 -21 37
 5 24 15.6962 -10.7943 9.8878 15.0311 -6.9462 10.5 15.6807 -7.3212 9.8878 13.5311 -9.5442 10.5
 
+0 STEP
 0 FILE s\42109 - 65414s01.dat
 0 65414s01
 0 Name: s\42109 - 65414s01.dat
@@ -3129,6 +3156,7 @@
 2 24 1.5 14.6183 -8.9601 1.5 14.6183 -2
 2 24 -0.5 13.718 -9.4 0.5 13.718 -9.4
 
+0 STEP
 0 FILE 42109 - 65413.dat
 0 65413
 0 Name: 42109 - 65413.dat
@@ -3394,6 +3422,7 @@
 2 24 -0.4377 -8.913 4 -0.4377 -8.913 7.6
 2 24 -0.4377 -8.913 7.6 -1.2459 -8.7523 8.6
 
+0 STEP
 0 FILE s\42109 - 65413s01.dat
 0 65413s01
 0 Name: s\42109 - 65413s01.dat
@@ -3518,6 +3547,7 @@
 2 24 -6 25.766899 9 -6.8582 25.596399 8.6412
 2 24 -6.9568 25.562901 8.6 -6.8582 25.596399 8.6412
 
+0 STEP
 0 FILE s\42109 - 46372s02.dat
 0 46372s02
 0 Name: s\42109 - 46372s02.dat
@@ -3627,6 +3657,7 @@
 5 24 -2.056 -4 33.203999 -2.0562 -4 31.353901 -1.0282 -10 29.950001 -2.056 4 33.203999
 5 24 1.028 -6 36.287998 2.056 -4 33.203999 1.028 -4 36.287998 1.028 -10 29.950001
 
+0 STEP
 0 FILE s\42109 - 49283s01.dat
 0 49283s01
 0 Name: s\42109 - 49283s01.dat
@@ -3675,6 +3706,7 @@
 2 24 8.6226 -5 -6 4.9497 -4.9497 -6
 4 16 0 -10.5 -3 0 -27 -3 5 -26.5 -3 6.2076 -10.5 -3
 
+0 STEP
 0 FILE 8\42109 - t04i4000.dat
 0 t04i4000
 0 Name: 8\42109 - t04i4000.dat
@@ -3708,6 +3740,7 @@
 5 24 0 0.2828 0.7172 0 0.4 1 -0.7172 0.2828 0.7172 0.5071 0.2828 0.5071
 0 // Build by LDPartEditor (PrimGen 2.X)
 
+0 STEP
 0 FILE s\42109 - 13971s01.dat
 0 13971s01
 0 Name: s\42109 - 13971s01.dat
@@ -3798,6 +3831,7 @@
 5 24 3.9065 9.8096 10 0 10.2202 10 1.3049 10.8874 9.888 3.4443 8.3151 10
 5 24 8.851 5.1101 10 6.5421 8.288 10 8.7763 6.5738 9.888 8.3151 3.4443 10
 
+0 STEP
 0 FILE s\42109 - 98138s01.dat
 0 98138s01
 0 Name: s\42109 - 98138s01.dat
@@ -3817,6 +3851,7 @@
 0 // Ring  9 x 1.0 (main_colour)
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 4-4ring9.dat
 
+0 STEP
 0 FILE s\42109 - 98138s02.dat
 0 98138s02
 0 Name: s\42109 - 98138s02.dat
@@ -3836,6 +3871,7 @@
 0 // Cylinder Open 1.0 (main_colour)
 1 16 0 0 0 10 0 0 0 7 0 0 0 10 4-4cylo.dat
 
+0 STEP
 0 FILE s\42109 - 42531s01.dat
 0 42531s01
 0 Name: s\42109 - 42531s01.dat
@@ -4147,6 +4183,7 @@
 1 16 -29 -40 60 0 -1 0 -9 0 0 0 0 -9 1-8edge.dat
 2 24 4.2484 5.4184 70 0 5.4184 70
 
+0 STEP
 0 FILE s\42109 - 42531s02.dat
 0 42531s02
 0 Name: s\42109 - 42531s02.dat
@@ -4222,6 +4259,7 @@
 5 24 8.3356 -8.5578 81 8.3356 -8.5578 89 7.4781 -16.490499 75 9 0 89
 5 24 9 -32.9184 0 -13.6361 -46.363899 0 -12.1655 -44.957199 -14.6336 -12.1655 -44.957199 14.6336
 
+0 STEP
 0 FILE s\42109 - 15413s02.dat
 0 15413s02
 0 Name: s\42109 - 15413s02.dat

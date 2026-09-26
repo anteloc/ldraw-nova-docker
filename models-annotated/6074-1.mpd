@@ -16,6 +16,7 @@
 1 7 437.5 -34 -199 0 0 -1 0 1 0 1 0 0 6074 - MiniFig6.ldr
 
 
+0 STEP
 0 FILE 6074 - Castle.ldr
 0 Large fortified grey castle structure built from light grey and green plates, brick walls, hinge assemblies, corner panels, and wall panels forming the main fortress body on a green baseplate foundation.
 0 Name: 6074 - Castle.ldr
@@ -786,6 +787,7 @@
 1 0 290 -280 -80 1 0 0 0 1 0 0 0 1 6074 - Rope.ldr
 
 
+0 STEP
 0 FILE 6074 - MiniFig2.ldr
 0 Black Falcon knight minifigure wearing a blue torso with falcon pattern, black helmet with neck protector, and armed with a brown spear.
 0 Name: 6074 - MiniFig2.ldr
@@ -817,6 +819,7 @@
 1 6 -27.477 -92.08 -41.176 -0.934 0.332 0.083 0.342 0.899 0.244 0.006 0.256 -0.962 4497.dat
 
 
+0 STEP
 0 FILE 6074 - MiniFig3.ldr
 0 Black Falcon archer minifigure wearing a blue torso with falcon pattern, black helmet with chin-guard, carrying a brown bow with arrow and arrow quiver.
 0 Name: 6074 - MiniFig3.ldr
@@ -850,6 +853,7 @@
 1 6 32.202 -47.175 -28.374 0.082 0.265 -0.961 -0.248 0.939 0.238 0.966 0.219 0.142 4499.dat
 
 
+0 STEP
 0 FILE 6074 - MiniFig1.ldr
 0 Black Falcon knight minifigure wearing a blue torso with falcon pattern, black helmet with neck protector, and armed with a brown spear.
 0 Name: 6074 - MiniFig1.ldr
@@ -881,6 +885,7 @@
 1 6 -3.879 -94.246 -41.241 -0.98 -0.163 -0.045 -0.171 0.944 0.255 0.001 0.258 -0.961 4497.dat
 
 
+0 STEP
 0 FILE 6074 - MiniFig4.ldr
 0 Black Falcon archer minifigure wearing a blue torso with falcon pattern, black helmet with chin-guard, carrying a brown bow with arrow and arrow quiver.
 0 Name: 6074 - MiniFig4.ldr
@@ -914,6 +919,7 @@
 1 6 32.202 -47.175 -28.374 0.082 0.265 -0.961 -0.248 0.939 0.238 0.966 0.219 0.142 4499.dat
 
 
+0 STEP
 0 FILE 6074 - Horse1.ldr
 0 White warhorse with red saddle and tack pattern, equipped with a dark grey shortsword.
 0 Name: 6074 - Horse1.ldr
@@ -929,6 +935,7 @@
 1 8 -31 -10 17.5 -1 0 0 0 -1 0 0 0 1 3847.dat
 
 
+0 STEP
 0 FILE 6074 - Horse2.ldr
 0 Black warhorse with blue saddle and tack pattern, equipped with a dark grey shortsword.
 0 Name: 6074 - Horse2.ldr
@@ -944,6 +951,7 @@
 1 8 -31 -10 17.5 -1 0 0 0 -1 0 0 0 1 3847.dat
 
 
+0 STEP
 0 FILE 6074 - MiniFig5.ldr
 0 Caped Black Falcon knight in black breastplate torso with a blue plumed grille helmet, triangular falcon shield, brown lance, and blue flag.
 0 Name: 6074 - MiniFig5.ldr
@@ -983,6 +991,7 @@
 1 1 -24.898 -122.399 -139.754 0.995 0.068 0.073 0.018 0.594 -0.803 -0.098 0.802 0.59 4495a.dat
 
 
+0 STEP
 0 FILE 6074 - MiniFig6.ldr
 0 Caped Black Falcon knight in blue breastplate torso with a red plumed grille helmet, triangular falcon shield, brown lance, and blue flag.
 0 Name: 6074 - MiniFig6.ldr
@@ -1022,6 +1031,7 @@
 1 1 13.369 -194.253 -67.533 0.986 -0.164 0.021 0.164 0.953 -0.254 0.021 0.254 0.967 4495a.dat
 
 
+0 STEP
 0 FILE 6074 - Door.ldr
 0 Black drawbridge door assembly constructed from plates and technic bricks with pins, forming a hinged gateway structure.
 0 Name: 6074 - Door.ldr
@@ -1076,6 +1086,7 @@
 1 0 -50 -32 70 0 0 -1 0 1 0 1 0 0 3040b.dat
 
 
+0 STEP
 0 FILE 6074 - Rope.ldr
 0 Flexible rope assembly composed of 108 connected cylindrical segments forming an approximately 358 mm long chain.
 0 Name: 6074 - Rope.ldr
@@ -1329,6 +1340,7 @@
 1 16 29.298013 17.006188 140 0.013223 9.99357 0 1.499942 -0.088097 0 0 0 -1.5 4-4cyli.dat
 
 
+0 STEP
 0 FILE 6074 - ldcLQRopeSeg.dat
 0 Single cylindrical rope segment unit used to build the larger rope assembly.
 0 Name: 6074 - ldcLQRopeSeg.dat

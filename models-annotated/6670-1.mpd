@@ -14,6 +14,7 @@
 1 4 -14.019 0 -95 0.866 0 0.5 0 1 0 -0.5 0 0.866 6670 - minifig.ldr
 
 0 NOFILE
+0 STEP
 0 FILE 6670 - car.ldr
 0 A six-wheeled vehicle built on a 4x5 car base with tyres, wheel rims, plates, and structural brackets.
 0 car
@@ -244,6 +245,7 @@
 1 7 -70 -144 -30 -1 0 0 0 1 0 0 0 -1 2343.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6670 - minifig.ldr
 0 A minifig driver wearing blue pants, a green vest with pocket patches, a blue cap, and blue sunglasses.
 0 minifig
@@ -276,6 +278,7 @@
 1 1 -0.008 -96 1.997 1 0 0.002 0 1 0 -0.002 0 1 4485.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6670 - road sign 1.ldr
 0 A road sign consisting of a warning triangle tile on a small post.
 0 road sign 1
@@ -292,6 +295,7 @@
 1 15 0 -10 -1 1 0 0 0 0 -1 0 1 0 3023.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6670 - road sign 2.ldr
 0 A road sign consisting of a blue disc with a diagonal arrow tile on a small post.
 0 road sign 2

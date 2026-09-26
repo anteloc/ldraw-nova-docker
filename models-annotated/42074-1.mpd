@@ -358,6 +358,7 @@
 
 
 
+0 STEP
 0 FILE 42074 - steer.ldr
 0 A small steering mechanism using a beam, steering wheel, and 16-tooth gears on an axle.
 0 Name: 42074 - steer.ldr
@@ -385,6 +386,7 @@
 
 
 
+0 STEP
 0 FILE 42074 - steer2.ldr
 0 A secondary steering assembly with bevel gears, angle connectors, and a toggle joint for directional linkage.
 0 Name: 42074 - steer2.ldr
@@ -422,6 +424,7 @@
 
 
 
+0 STEP
 0 FILE 42074 - sailbase.ldr
 0 A sail base framework of white bent and straight beams with reels, gears, and towball pins forming the sail control structure.
 0 Name: 42074 - sailbase.ldr
@@ -551,6 +554,7 @@
 
 
 
+0 STEP
 0 FILE 42074 - rubberBandRound-1.ldr
 0 A procedurally generated rubber band composed of 24 cylindrical path segments forming a rounded loop.
 0 Name: 42074 - rubberBandRound-1.ldr
@@ -1220,6 +1224,7 @@
 
 
 
+0 STEP
 0 FILE 42074 - sailgear.ldr
 0 A sail control gear train using a 24-tooth gear, triangle liftarm, axles with stops, and bushes for rotational adjustment.
 0 Name: 42074 - sailgear.ldr
@@ -1257,6 +1262,7 @@
 
 
 
+0 STEP
 0 FILE 42074 - nose.ldr
 0 The yacht's bow section built from beams, cross blocks, panels, and angle connectors with blue and yellow fairing panels.
 0 Name: 42074 - nose.ldr
@@ -1349,6 +1355,7 @@
 
 
 
+0 STEP
 0 FILE 42074 - boom.ldr
 0 A horizontal boom built from a long beam, axle, angle connectors, and towball pins for sail attachment.
 0 Name: 42074 - boom.ldr
@@ -1403,6 +1410,7 @@
 
 
 
+0 STEP
 0 FILE 42074 - mast.ldr
 0 A vertical mast assembly of long beams, cross blocks, towball pins, and a ball joint for sail and rigging mounting.
 0 Name: 42074 - mast.ldr
@@ -1454,6 +1462,7 @@
 
 
 
+0 STEP
 0 FILE 42074 - 13971.dat
 0 A cylindrical wheel rim part built from cones, cylinders, and rings forming a hollow wheel profile.
 0 Name: 42074 - 13971.dat
@@ -1554,6 +1563,7 @@
 1 16 0 0 0 -1 0 0 0 -1 0 0 0 1 s\42074 - 13971s01.dat
 
 
+0 STEP
 0 FILE 42074 - 61254.dat
 0 A small cylindrical hub part made of cones, open cylinders, and rings.
 0 Name: 42074 - 61254.dat
@@ -1669,6 +1679,7 @@
 1 16 0 0 0 -0.14231 0.98982 0 -0.98982 -0.14231 0 0 0 1 s\42074 - 61254s01.dat
 
 
+0 STEP
 0 FILE 42074 - 6209851ap01.dat
 0 A decorative patterned part subcomponent with no directly listed pieces.
 0 Name: 42074 - 6209851ap01.dat
@@ -1690,6 +1701,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\42074 - 6209851as02.dat
 
 
+0 STEP
 0 FILE 42074 - 6209851bp01.dat
 0 A decorative patterned part subcomponent with no directly listed pieces.
 0 Name: 42074 - 6209851bp01.dat
@@ -1711,6 +1723,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\42074 - 6209851bs02.dat
 
 
+0 STEP
 0 FILE 42074 - 32198.dat
 0 A detailed Technic rim part composed of cylinders, discs, rings, rectangles, and a cone forming a spoked wheel.
 0 Name: 42074 - 32198.dat
@@ -1961,6 +1974,7 @@
 
 
 
+0 STEP
 0 FILE 42074 - ldcRubberBandRndSeg.dat
 0 A single rubber band path-deform segment used for segment overlap control and edge cleanup.
 0 Name: 42074 - ldcRubberBandRndSeg.dat
@@ -1982,6 +1996,7 @@
 1 16 0 1 0 2 0 0 0 1 0 0 0 2 42074 - ldcConRing8.dat
 
 
+0 STEP
 0 FILE s\42074 - 13971s01.dat
 0 A small subpart of the wheel rim defined by rectangles with adjacent and three edges.
 0 Name: s\42074 - 13971s01.dat
@@ -2073,6 +2088,7 @@
 5 24 8.851 5.1101 10 6.5421 8.288 10 8.7763 6.5738 9.888 8.3151 3.4443 10
 
 
+0 STEP
 0 FILE s\42074 - 61254s01.dat
 0 A small subpart of the cylindrical hub defined by rectangles with adjacent and three edges.
 0 Name: s\42074 - 61254s01.dat
@@ -2126,6 +2142,7 @@
 5 24 1.779 -29.631001 -1.25 2.456 -29.583 1.25 -2.456 -29.583 1.25 6.64106 -28.9319 -1.25
 
 
+0 STEP
 0 FILE 42074 - toothb20.dat
 0 A 20-tooth bevel gear primitive with no directly listed pieces.
 0 Name: 42074 - toothb20.dat
@@ -2172,6 +2189,7 @@
 5 24 0 -6.13 2 -1.582 0 0 0 -3.13 0 -2.07 -6.13 6.5
 
 
+0 STEP
 0 FILE 42074 - ldcCyli8.dat
 0 An 8-segment cylinder primitive used by the rubber band path generator.
 0 Name: 42074 - ldcCyli8.dat
@@ -2202,6 +2220,7 @@
 5 24 -0.707107 0 0.707107 -0.707107 1 0.707107 -1 0 0 0 0 1
 
 
+0 STEP
 0 FILE 42074 - ldcConRing8.dat
 0 An 8-segment cone ring primitive for path-deform segment edge control.
 0 Name: 42074 - ldcConRing8.dat
@@ -2226,6 +2245,7 @@
 5 24 -0.707107 0 0.707107 0 0 1 -0.707107 -1 0.707107 -0.707107 1 0.707107
 
 
+0 STEP
 0 FILE s\42074 - 6209851as01.dat
 0 A sail surface subpart composed of negative discs forming the sail shape.
 0 Name: s\42074 - 6209851as01.dat
@@ -2324,6 +2344,7 @@
 4 16 0 504 249 0 500 249 0 500 248 0 505 248
 
 
+0 STEP
 0 FILE s\42074 - 6209851ap01s01.dat
 0 A patterned sail surface subpart with a foldback texture and negative discs.
 0 Name: s\42074 - 6209851ap01s01.dat
@@ -2518,6 +2539,7 @@
 3 0 0 38.200001 118.800003 0 41.900002 100.800003 0 41.6591 120.483902
 
 
+0 STEP
 0 FILE s\42074 - 6209851as02.dat
 0 A sail surface subpart formed by open cylinders.
 0 Name: s\42074 - 6209851as02.dat
@@ -2679,6 +2701,7 @@
 2 24 0.25 500 248 0.25 500 249
 
 
+0 STEP
 0 FILE s\42074 - 6209851bs01.dat
 0 A sail surface subpart composed of negative discs.
 0 Name: s\42074 - 6209851bs01.dat
@@ -2759,6 +2782,7 @@
 1 16 0 483.6176 -224.3009 0 -1 0 1.69047 0 -3.62523 3.62523 0 1.69047 4-4ndis.dat
 
 
+0 STEP
 0 FILE s\42074 - 6209851bp01s01.dat
 0 A patterned sail surface subpart with a foldback texture and negative discs.
 0 Name: s\42074 - 6209851bp01s01.dat
@@ -2880,6 +2904,7 @@
 3 321 0 409.295685 18.278 0 417.100006 -6.4 0 426.903198 18.0446
 
 
+0 STEP
 0 FILE s\42074 - 6209851bs02.dat
 0 A stack of nine open cylinders forming a tubular column.
 0 Name: s\42074 - 6209851bs02.dat
@@ -3052,6 +3077,7 @@
 
 
 
+0 STEP
 0 FILE 8\42074 - 2-4ndis.dat
 0 A primitive-generated disc negative half shape.
 0 Name: 8\42074 - 2-4ndis.dat

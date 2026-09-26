@@ -7,6 +7,7 @@
 1 38 0 -3.486 -120.099 1 0 0 0 1 -0.021 0 0.021 1 4404 - Bike.ldr
 
 
+0 STEP
 0 FILE 4404 - Bike.ldr
 0 Main bike chassis frame built with Technic bricks, bent beams, shock absorbers, axles, and yellow plates
 0 Name: 4404 - Bike.ldr
@@ -173,6 +174,7 @@
 1 8 0 -138.36 -95.853 0 -0.588 0.809 0.963 0.217 0.158 -0.268 0.779 0.566 32054.dat
 
 
+0 STEP
 0 FILE 4404 - Rear.ldr
 0 Rear section with hinged plates, clips, and trans-neon-orange round plates forming the taillight and rear bodywork
 0 Name: 4404 - Rear.ldr
@@ -212,6 +214,7 @@
 1 38 30 -6 -30 0 0 1 -1 0 0 0 -1 0 6141.dat
 
 
+0 STEP
 0 FILE 4404 - Engine RH.ldr
 0 Right-hand engine cover with clip plates, Technic axle, tooth gear, and half-pins mounting the drivetrain
 0 Name: 4404 - Engine RH.ldr
@@ -248,6 +251,7 @@
 1 179 0 -70 -20 0 0 -1 -1 0 0 0 1 0 41669.dat
 
 
+0 STEP
 0 FILE 4404 - Engine LH.ldr
 0 Left-hand engine cover with clip plates, Technic brick, tile with holes, and half-pins mirroring the engine assembly
 0 Name: 4404 - Engine LH.ldr
@@ -279,6 +283,7 @@
 1 1 0 -30 -10 0 0 1 0 1 0 -1 0 0 4274.dat
 
 
+0 STEP
 0 FILE 4404 - Light Rear.ldr
 0 Rear light cluster with two trans-red round plates and a clip tile on a jumper plate
 0 Name: 4404 - Light Rear.ldr
@@ -296,6 +301,7 @@
 1 0 0 -16 0 0 0 1 0 1 0 -1 0 0 2555.dat
 
 
+0 STEP
 0 FILE 4404 - Engine side.ldr
 0 Curved engine side panel with grille tile, curved slope, and rounded-top brick
 0 Name: 4404 - Engine side.ldr
@@ -314,6 +320,7 @@
 1 7 -10 -32 0 1 0 0 0 1 0 0 0 1 2412b.dat
 
 
+0 STEP
 0 FILE 4404 - Side RH.ldr
 0 Right side fairing panel of yellow plates and grooved tiles with a dark-grey accent tile
 0 Name: 4404 - Side RH.ldr
@@ -335,6 +342,7 @@
 1 14 50 -8 -10 -1 0 0 0 1 0 0 0 -1 3070b.dat
 
 
+0 STEP
 0 FILE 4404 - Side LH.ldr
 0 Left side fairing panel of yellow plates and grooved tiles mirroring the right side
 0 Name: 4404 - Side LH.ldr
@@ -356,6 +364,7 @@
 1 8 20 -8 10 -1 0 0 0 1 0 0 0 -1 3069b.dat
 
 
+0 STEP
 0 FILE 4404 - Arm.ldr
 0 Technic liftarm assembly with axles and axle pin forming a linkage arm
 0 Name: 4404 - Arm.ldr
@@ -373,6 +382,7 @@
 1 0 40 0 -15 0 0 -1 1 0 0 0 -1 0 6632.dat
 
 
+0 STEP
 0 FILE 4404 - Stand.ldr
 0 Kickstand assembly with angle connector, locking hinge, and axle supporting the bike upright
 0 Name: 4404 - Stand.ldr
@@ -390,6 +400,7 @@
 1 8 70 6 0 -1 0 0 0 1 0 0 0 -1 30383.dat
 
 
+0 STEP
 0 FILE 4404 - Tube.ldr
 0 Flexible hose tube of 50 linked segments with end fittings
 0 Name: 4404 - Tube.ldr
@@ -537,6 +548,7 @@
 1 16 3.70741 -143.43506 0 0 -0.368857 -0.929486 0 -0.929486 0.368857 -1 0 0 754.dat
 
 
+0 STEP
 0 FILE 4404 - Front Wheel.ldr
 0 Front wheel with rim, tyre, liftarms, connectors, ribbed hose, and axles for steering and mounting
 0 Name: 4404 - Front Wheel.ldr
@@ -597,6 +609,7 @@
 1 7 55 0 -70 0 0 -1 0 1 0 1 0 0 32123a.dat
 
 
+0 STEP
 0 FILE 4404 - Light.ldr
 0 Front headlight assembly with clear dish lens, yellow dome cylinder, and liftarm frame
 0 Name: 4404 - Light.ldr
@@ -623,6 +636,7 @@
 1 47 0 10 44 0 0 1 1 0 0 0 1 0 2654.dat
 
 
+0 STEP
 0 FILE 4404 - Handbar RH.ldr
 0 Right handlebar with angled connector, axle, and friction towball for steering articulation
 0 Name: 4404 - Handbar RH.ldr
@@ -640,6 +654,7 @@
 1 0 -60 -10 0 0 -1 0 1 0 0 0 0 1 6628.dat
 
 
+0 STEP
 0 FILE 4404 - Handbar LH.ldr
 0 Left handlebar with angled connector, axle, and friction towball mirroring the right side
 0 Name: 4404 - Handbar LH.ldr
@@ -655,6 +670,7 @@
 1 0 0 -10 0 0 0 -1 1 0 0 0 -1 0 6628.dat
 
 
+0 STEP
 0 FILE 4404 - Mudguard.ldr
 0 Front mudguard with hinged and grooved yellow plates and tiles
 0 Name: 4404 - Mudguard.ldr
@@ -670,6 +686,7 @@
 1 14 0 -8 0 -1 0 0 0 1 0 0 0 -1 3068b.dat
 
 
+0 STEP
 0 FILE 4404 - Front center.ldr
 0 Front center linkage with axlehole brick, hinge plate, and liftarm connecting the front assembly
 0 Name: 4404 - Front center.ldr
@@ -688,6 +705,7 @@
 1 0 -15 -20 0 0 -1 0 0 0 1 -1 0 0 32449.dat
 
 
+0 STEP
 0 FILE 4404 - Front Arm.ldr
 0 Front fork arm assembly with axle, connectors, ribbed hose, and angle connector supporting the front wheel
 0 Name: 4404 - Front Arm.ldr

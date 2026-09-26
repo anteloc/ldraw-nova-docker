@@ -36,6 +36,7 @@
 1 8 -60.434 -62.105 -747.698 0.921 0 -0.391 0 1 0 0.391 0 0.921 6769 - Bandit3.ldr
 
 
+0 STEP
 0 FILE 6769 - South.ldr
 0 A large brown log cabin wall section on a tan baseplate with arched black doors, grey shutter windows, and a gabled roof.
 0 Name: 6769 - South.ldr
@@ -351,6 +352,7 @@
 1 7 -263 -39 -165 0.961 -0.259 0.098 0.079 -0.084 -0.993 0.265 0.962 -0.061 3062b.dat
 
 
+0 STEP
 0 FILE 6769 - South - Ladder.ldr
 0 A small black ladder assembly made from a handled plate and a double-clipped bar.
 0 Name: 6769 - South - Ladder.ldr
@@ -366,6 +368,7 @@
 1 0 0 2 20 1 0 0 0 0.438 0.899 0 -0.899 0.438 6020.dat
 
 
+0 STEP
 0 FILE 6769 - South - Legoredo Sign.ldr
 0 A brown Fort Legoredo sign mounted between two blue bricks.
 0 Name: 6769 - South - Legoredo Sign.ldr
@@ -383,6 +386,7 @@
 1 6 0 0 -10 1 0 0 0 0 -1 0 1 0 4106332b.dat
 
 
+0 STEP
 0 FILE 6769 - South - Roof.ldr
 0 A red and black hinged roof piece decorated with a pair of white cattle horns.
 0 Name: 6769 - South - Roof.ldr
@@ -406,6 +410,7 @@
 1 15 0 -47.709 2.773 1 0 0 0 0.906 -0.423 0 0.423 0.906 87695.dat
 
 
+0 STEP
 0 FILE 6769 - South - Roof Support.ldr
 0 A simple black roof support built from a plate and an angled slope brick.
 0 Name: 6769 - South - Roof Support.ldr
@@ -421,6 +426,7 @@
 1 0 0 -24 30 1 0 0 0 1 0 0 0 1 4286.dat
 
 
+0 STEP
 0 FILE 6769 - West.ldr
 0 A brown log wall section on a tan baseplate with grey shutter windows, arched doors, and a rocky rock texture panel.
 0 Name: 6769 - West.ldr
@@ -631,6 +637,7 @@
 1 16 -100 -304 40 1 0 0 0 1 0 0 0 1 6769 - West - Tower.ldr
 
 
+0 STEP
 0 FILE 6769 - West - Torch.ldr
 0 A wall-mounted grey torch with a trans-orange flame on a clip tile.
 0 Name: 6769 - West - Torch.ldr
@@ -650,6 +657,7 @@
 1 57 0 -22 20 1 0 0 0 0 -1 0 1 0 6126a.dat
 
 
+0 STEP
 0 FILE 6769 - West - Tower.ldr
 0 A brown log watchtower with black mounted flames and clip tiles on a base plate.
 0 Name: 6769 - West - Tower.ldr
@@ -707,6 +715,7 @@
 1 6 0 -72 -50 -1 0 0 0 1 0 0 0 -1 30136.dat
 
 
+0 STEP
 0 FILE 6769 - North.ldr
 0 An elaborate brown log wall section with an open staircase, black spindled fence, grey shutter windows, and sloped corner details on a tan baseplate.
 0 Name: 6769 - North.ldr
@@ -1047,6 +1056,7 @@
 
 1 0 -20 -40 134 1 0 0 0 0 1 0 -1 0 6769 - North - Bar.ldr
 
+0 STEP
 0 FILE 6769 - North - Treasure.ldr
 0 A blue-panelled treasure vault structure with black corner panels on a base plate.
 0 Name: 6769 - North - Treasure.ldr
@@ -1080,6 +1090,7 @@
 1 0 0 -32 0 1 0 0 0 1 0 0 0 1 3795.dat
 
 
+0 STEP
 0 FILE 6769 - North - Bar.ldr
 0 A black hinged bar assembly built from plates with a vertical bar arm.
 0 Name: 6769 - North - Bar.ldr
@@ -1099,6 +1110,7 @@
 1 0 0 -8 0 1 0 0 0 1 0 0 0 1 3460.dat
 
 
+0 STEP
 0 FILE 6769 - North - Trapdoor Mecanism.ldr
 0 A red trapdoor mechanism using a turntable, plates, and a round brick with grooved tiles.
 0 Name: 6769 - North - Trapdoor Mecanism.ldr
@@ -1126,6 +1138,7 @@
 1 7 -10 -16 -40 0 0 1 0 1 0 -1 0 0 3069b.dat
 
 
+0 STEP
 0 FILE 6769 - North - Trapdoor Left.ldr
 0 A black and red trapdoor frame and door panel on the left side of the floor.
 0 Name: 6769 - North - Trapdoor Left.ldr
@@ -1149,6 +1162,7 @@
 1 4 -10 -24 -10 0 0 1 0 1 0 -1 0 0 3622.dat
 
 
+0 STEP
 0 FILE 6769 - North - Trapdoor Right.ldr
 0 A black and red trapdoor frame and door panel on the right side of the floor.
 0 Name: 6769 - North - Trapdoor Right.ldr
@@ -1173,6 +1187,7 @@
 1 4 10 -24 -10 0 0 -1 0 1 0 1 0 0 3622.dat
 
 
+0 STEP
 0 FILE 6769 - North - Fireplace.ldr
 0 A black and grey fireplace with mounted flames and two chrome-gold coins decorating the mantel.
 0 Name: 6769 - North - Fireplace.ldr
@@ -1217,6 +1232,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 6769 - North - Window.ldr
 0 A brown framed window with two grey shutters and two blue panes.
 0 Name: 6769 - North - Window.ldr
@@ -1238,6 +1254,7 @@
 1 7 41 0 14 -0.309 0 -0.951 0 1 0 0.951 0 -0.309 3856.dat
 
 
+0 STEP
 0 FILE 6769 - North - Roof Support.ldr
 0 A black roof support assembly built from a brick, a slope, and a long plate.
 0 Name: 6769 - North - Roof Support.ldr
@@ -1255,6 +1272,7 @@
 1 0 0 24 60 0 0 1 0 1 0 -1 0 0 3460.dat
 
 
+0 STEP
 0 FILE 6769 - North - Roof.ldr
 0 A large red plate roof with black hinged sections for a gabled structure.
 0 Name: 6769 - North - Roof.ldr
@@ -1290,6 +1308,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 6769 - Est.ldr
 0 A brown log wall section on a tan baseplate with log panels, a ladder, bushes, and large black plate floors.
 0 Name: 6769 - Est.ldr
@@ -1457,6 +1476,7 @@
 
 
 
+0 STEP
 0 FILE 6769 - Bar.ldr
 0 A black hinged bar assembly made from plates with a vertical bar arm.
 0 Name: 6769 - Bar.ldr
@@ -1478,6 +1498,7 @@
 
 
 
+0 STEP
 0 FILE 6769 - Flag.ldr
 0 A white flag on a flagpole bearing two cavalry logo stickers.
 0 Name: 6769 - Flag.ldr
@@ -1497,6 +1518,7 @@
 
 
 
+0 STEP
 0 FILE 6769 - Cannon.ldr
 0 A brown wheeled cannon mounted on a black base with a grey cannon barrel and rifle.
 0 Name: 6769 - Cannon.ldr
@@ -1531,6 +1553,7 @@
 
 
 
+0 STEP
 0 FILE 6769 - Cart.ldr
 0 A black horse-drawn cart with large spoked wheels, pulled by a black horse with brown and white tack.
 0 Name: 6769 - Cart.ldr
@@ -1569,6 +1592,7 @@
 1 0 0 -48 -130 1 0 0 0 1 0 0 0 1 3004.dat
 
 
+0 STEP
 0 FILE 6769 - Bandit1.ldr
 0 A cowboy bandit minifigure with a brown hat, black bandana, revolver pistols, and a jacket over a blue undershirt.
 0 Name: 6769 - Bandit1.ldr
@@ -1605,6 +1629,7 @@
 0 // ~Minifig Leg Left (Obsolete) (black)
 1 0 0 42.392 -6 1 0 0 0 -0.139 0.99 0 -0.99 -0.139 3817.dat
 
+0 STEP
 0 FILE 6769 - Bandit2.ldr
 0 Cowboy minifigure wearing a brown cowboy hat, black bandana, and red torso with cartridge belt, featuring an angry face with moustache.
 0 Name: 6769 - Bandit2.ldr
@@ -1637,6 +1662,7 @@
 0 // ~Minifig Leg Left (Obsolete) (light_grey)
 1 7 0 44 0 1 0 0 0 0.966 -0.259 0 0.259 0.966 3817.dat
 
+0 STEP
 0 FILE 6769 - Bandit3.ldr
 0 Dapper outlaw minifigure in a green suit with top hat, wielding a revolver and a dynamite tile, featuring an angry face with gold tooth.
 0 Name: 6769 - Bandit3.ldr
@@ -1671,6 +1697,7 @@
 0 // ~Minifig Leg Left (Obsolete) (dark_grey)
 1 8 0 44 0 1 0 0 0 0.407 -0.914 0 0.914 0.407 3817.dat
 
+0 STEP
 0 FILE 6769 - Cavalry Colonel.ldr
 0 Blue-clad cavalry colonel minifigure with a decorated cowboy hat, bearded face, and armed with a cutlass sword.
 0 Name: 6769 - Cavalry Colonel.ldr
@@ -1703,6 +1730,7 @@
 0 // Minifig Sword Cutlass (light_grey)
 1 7 -16.273 1.384 -30.5 0.985 -0.173 0 0.171 0.978 0.117 -0.021 -0.115 0.993 2530.dat
 
+0 STEP
 0 FILE 6769 - Cavalry Lieutenant with Bandana.ldr
 0 Cavalry lieutenant minifigure in blue with white bandana, carrying a bugle and cutlass sword.
 0 Name: 6769 - Cavalry Lieutenant with Bandana.ldr
@@ -1742,6 +1770,7 @@
 
 
 
+0 STEP
 0 FILE 6769 - Cavalry Lieutenant.ldr
 0 Cavalry lieutenant minifigure in blue officer uniform armed with a rifle.
 0 Name: 6769 - Cavalry Lieutenant.ldr
@@ -1777,6 +1806,7 @@
 
 
 
+0 STEP
 0 FILE 6769 - Cavalry Soldier with Bandana1.ldr
 0 Cavalry soldier minifigure in blue with kepi hat and white bandana, armed with both a cutlass and a rifle.
 0 Name: 6769 - Cavalry Soldier with Bandana1.ldr
@@ -1816,6 +1846,7 @@
 
 
 
+0 STEP
 0 FILE 6769 - Cavalry Soldier with Bandana2.ldr
 0 Cavalry soldier minifigure in blue with kepi hat and white bandana, carrying a whip.
 0 Name: 6769 - Cavalry Soldier with Bandana2.ldr
@@ -1853,6 +1884,7 @@
 
 
 
+0 STEP
 0 FILE 6769 - Cavalry Soldier.ldr
 0 Cavalry soldier minifigure in blue uniform with kepi hat, armed with a rifle.
 0 Name: 6769 - Cavalry Soldier.ldr
@@ -1888,6 +1920,7 @@
 
 
 
+0 STEP
 0 FILE 6769 - Cowboy.ldr
 0 Cowboy minifigure wearing a white hat, brown fringed shirt with red undershirt, and armed with a revolver.
 0 Name: 6769 - Cowboy.ldr
@@ -1923,6 +1956,7 @@
 
 
 
+0 STEP
 0 FILE 6769 - Horse1.ldr
 0 White cavalry horse with brown saddle, carrying a rifle and a flag bearing the cavalry logo.
 0 Name: 6769 - Horse1.ldr
@@ -1946,6 +1980,7 @@
 
 
 
+0 STEP
 0 FILE 6769 - Horse2.ldr
 0 Brown horse with red tack and black saddle, carrying a rifle.
 0 Name: 6769 - Horse2.ldr
@@ -1962,6 +1997,7 @@
 0 // Minifig Gun Rifle (light_grey)
 1 7 31 -42 27.5 1 0 0 0 0 -1 0 1 0 30141.dat
 
+0 STEP
 0 FILE 6769 - 3626bpw1.dat
 0 Patterned minifig head with thick angry moustache, stubble, and long hair.
 0 Name: 6769 - 3626bpw1.dat
@@ -3295,6 +3331,7 @@
 5 24 4.414 19.828 -10.658 3.794 20.695 -9.159 7.01 20.695 -7.01 0 20.695 -9.914
 5 24 3.062 21 -7.391 3.794 20.695 -9.159 5.657 21 -5.657 0 21 -8
 
+0 STEP
 0 FILE 6769 - 3626bpw2.dat
 0 Patterned minifig head with angry moustache, white teeth, and furrowed brow.
 0 Name: 6769 - 3626bpw2.dat
@@ -4168,6 +4205,7 @@
 5 24 4.414 19.828 -10.658 3.794 20.695 -9.159 7.01 20.695 -7.01 0 20.695 -9.914
 5 24 3.062 21 -7.391 3.794 20.695 -9.159 5.657 21 -5.657 0 21 -8
 
+0 STEP
 0 FILE 6769 - 3626bpw0.dat
 0 Patterned minifig head with angry moustache, white teeth, gold tooth, and a scar.
 0 Name: 6769 - 3626bpw0.dat
@@ -4529,6 +4567,7 @@
 5 24 0 19.828 -11.535 4.414 19.828 -10.658 0 18.531 -12.619 0 20.695 -9.913
 5 24 0 20.695 -9.913 3.794 20.695 -9.159 0 19.828 -11.535 0 21 -8
 
+0 STEP
 0 FILE 6769 - 3626bp45.dat
 0 Patterned minifig head with curly moustache and spiky beard under the mouth.
 0 Name: 6769 - 3626bp45.dat

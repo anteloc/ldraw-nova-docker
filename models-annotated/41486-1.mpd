@@ -20,6 +20,7 @@
 1 0 0 -48 20 1 0 0 0 1 0 0 0 1 41486 - Captain Phasma - 1.ldr
 
 
+0 STEP
 0 FILE 41486 - Captain Phasma - 1.ldr
 0 Large structural body submodel built from light bluish grey plates and side-stud bricks, accented with red, magenta, and pink decorative elements including a Stormtrooper utility belt pattern tile.
 0 Name: 41486 - Captain Phasma - 1.ldr
@@ -210,6 +211,7 @@
 1 0 -54 -21 -30 1 0 0 0 1 0 0 0 1 41486 - Captain Phasma - 12.ldr
 
 
+0 STEP
 0 FILE 41486 - Captain Phasma - 2.ldr
 0 Small clip attachment subassembly using a black plate, grooved tile, and a thick C-clip plate for mounting a detail.
 0 Name: 41486 - Captain Phasma - 2.ldr
@@ -228,6 +230,7 @@
 
 
 
+0 STEP
 0 FILE 41486 - Captain Phasma - 3.ldr
 0 Compact brick assembly combining a side-stud plate, red plate, and standard brick for a connecting structural element.
 0 Name: 41486 - Captain Phasma - 3.ldr
@@ -246,6 +249,7 @@
 
 
 
+0 STEP
 0 FILE 41486 - Captain Phasma - 4.ldr
 0 Tiny detail submodel consisting of an inverted curved slope and a single stud plate.
 0 Name: 41486 - Captain Phasma - 4.ldr
@@ -262,6 +266,7 @@
 
 
 
+0 STEP
 0 FILE 41486 - Captain Phasma - 5.ldr
 0 Small detail submodel combining an inverted curved slope, a stud plate, and a black 1x1 brick.
 0 Name: 41486 - Captain Phasma - 5.ldr
@@ -280,6 +285,7 @@
 
 
 
+0 STEP
 0 FILE 41486 - Captain Phasma - 6.ldr
 0 Compact grille detail subassembly using a side-stud plate topped with an obsolete grille slope brick.
 0 Name: 41486 - Captain Phasma - 6.ldr
@@ -296,6 +302,7 @@
 
 
 
+0 STEP
 0 FILE 41486 - Captain Phasma - 7.ldr
 0 Compact grille detail subassembly using a side-stud plate topped with an obsolete grille slope brick.
 0 Name: 41486 - Captain Phasma - 7.ldr
@@ -312,6 +319,7 @@
 
 
 
+0 STEP
 0 FILE 41486 - Captain Phasma - 8.ldr
 0 Small detail element combining a headlight brick with a grooved tile for surface detailing.
 0 Name: 41486 - Captain Phasma - 8.ldr
@@ -328,6 +336,7 @@
 
 
 
+0 STEP
 0 FILE 41486 - Captain Phasma - 9.ldr
 0 Cape or armor panel submodel featuring curved black slopes, a wing element, and a corner-less plate base.
 0 Name: 41486 - Captain Phasma - 9.ldr
@@ -352,6 +361,7 @@
 
 
 
+0 STEP
 0 FILE 41486 - Captain Phasma - 10.ldr
 0 Sloped armor detail made from a curved slope, black plate, and grooved black tile.
 0 Name: 41486 - Captain Phasma - 10.ldr
@@ -370,6 +380,7 @@
 
 
 
+0 STEP
 0 FILE 41486 - Captain Phasma - 11.ldr
 0 Angular armor or shoulder detail built from red and black plates with a corner tile.
 0 Name: 41486 - Captain Phasma - 11.ldr
@@ -390,6 +401,7 @@
 
 
 
+0 STEP
 0 FILE 41486 - Captain Phasma - 12.ldr
 0 Weapon or nozzle accessory built from a hose nozzle, silver cone, round plates, and a clip tile.
 0 Name: 41486 - Captain Phasma - 12.ldr
@@ -412,6 +424,7 @@
 
 
 
+0 STEP
 0 FILE 41486 - 87079pzd.dat
 0 Decorative pattern primitive composed of white discs and chords forming the Brickheadz Exclusive Series logo.
 0 Name: 41486 - 87079pzd.dat
@@ -929,6 +942,7 @@
 4 15 33.5 0 13.5 5 0 13.5 20.184 0 10.618 34 0 13
 
 
+0 STEP
 0 FILE 41486 - 2431pzc.dat
 0 Patterned tile component representing the Metallic Silver Stormtrooper utility belt decoration.
 0 Name: 41486 - 2431pzc.dat
@@ -945,6 +959,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\41486 - 2431pzbs02.dat
 
 
+0 STEP
 0 FILE 41486 - 11477pz2.dat
 0 Patterned curved slope component featuring two metallic silver lines as decorative detail.
 0 Name: 41486 - 11477pz2.dat
@@ -1002,6 +1017,7 @@
 4 80 2.85 -4.635 -19 4.15 -4.635 -19 4.15 -7.532 -14.436 2.85 -7.532 -14.436
 
 
+0 STEP
 0 FILE s\41486 - 2431pzbs01.dat
 0 Primitive pattern subpart rendering the black Stormtrooper utility belt lines using disc and chord segments.
 0 Name: s\41486 - 2431pzbs01.dat
@@ -1190,6 +1206,7 @@
 3 16 36.75 0 8.75 37.25 0 7.25 38.75 0 6.75
 
 
+0 STEP
 0 FILE s\41486 - 2431pzbs02.dat
 0 Primitive background subpart filling the Stormtrooper utility belt pattern area using disc and chord segments.
 0 Name: s\41486 - 2431pzbs02.dat

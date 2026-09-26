@@ -8,6 +8,7 @@
 
 
 
+0 STEP
 0 FILE 8419 - Dozer.ldr
 0 Core chassis built from bent liftarms, beams, worm gears, and axles forming the dozer's main structural frame.
 0 Name: 8419 - Dozer.ldr
@@ -164,6 +165,7 @@
 
 
 
+0 STEP
 0 FILE 8419 - Sub04.ldr
 0 Small axle-based linkage assembly using a cross block and two short liftarms.
 0 Name: 8419 - Sub04.ldr
@@ -185,6 +187,7 @@
 
 
 
+0 STEP
 0 FILE 8419 - Sub06.ldr
 0 Compact connector block assembly joining axles with cross blocks and an offset axle joiner.
 0 Name: 8419 - Sub06.ldr
@@ -215,6 +218,7 @@
 
 
 
+0 STEP
 0 FILE 8419 - Sub07.ldr
 0 A cam mechanism assembly mounted on a notched axle with a cross block and offset joiner.
 0 Name: 8419 - Sub07.ldr
@@ -243,6 +247,7 @@
 
 
 
+0 STEP
 0 FILE 8419 - Sub08.ldr
 0 A tread sprocket wheel mounted on a stopped axle with a bushing flange.
 0 Name: 8419 - Sub08.ldr
@@ -259,6 +264,7 @@
 
 
 
+0 STEP
 0 FILE 8419 - Sub16.ldr
 0 Small liftarm linkage with a boss beam, friction pin, and notched axle pivot.
 0 Name: 8419 - Sub16.ldr
@@ -280,6 +286,7 @@
 
 
 
+0 STEP
 0 FILE 8419 - Sub17.ldr
 0 A geared axle assembly with bevel and double bevel gears for power transmission.
 0 Name: 8419 - Sub17.ldr
@@ -304,6 +311,7 @@
 
 
 
+0 STEP
 0 FILE 8419 - Sub18.ldr
 0 A structural frame built from bent liftarms and long beams joined by cross blocks and pins.
 0 Name: 8419 - Sub18.ldr
@@ -350,6 +358,7 @@
 
 
 
+0 STEP
 0 FILE 8419 - Sub19.ldr
 0 A paired offset axle joiner linkage assembly for connecting parallel components.
 0 Name: 8419 - Sub19.ldr
@@ -378,6 +387,7 @@
 
 
 
+0 STEP
 0 FILE 8419 - Sub20.ldr
 0 A simple offset axle joiner connector joining two axles of different lengths.
 0 Name: 8419 - Sub20.ldr
@@ -396,6 +406,7 @@
 
 
 
+0 STEP
 0 FILE 8419 - Sub22.ldr
 0 A geared bent liftarm assembly with bevel and double bevel gears for redirection of drive.
 0 Name: 8419 - Sub22.ldr
@@ -423,6 +434,7 @@
 
 
 
+0 STEP
 0 FILE 8419 - Sub24.ldr
 0 An excavator bucket assembly mounted on liftarms with a 24-tooth gear for tilting.
 0 Name: 8419 - Sub24.ldr
@@ -461,6 +473,7 @@
 
 
 
+0 STEP
 0 FILE 8419 - Sub27.ldr
 0 A tread sprocket wheel mounted on a long stopped pin with a bushing flange.
 0 Name: 8419 - Sub27.ldr
@@ -479,6 +492,7 @@
 
 
 
+0 STEP
 0 FILE 8419 - Sub28.ldr
 0 A bent liftarm connector frame using a cross block and quarter-ellipse bent beams.
 0 Name: 8419 - Sub28.ldr
@@ -505,6 +519,7 @@
 
 
 
+0 STEP
 0 FILE 8419 - Sub29.ldr
 0 A multi-beam linkage assembly combining long beams and bent double liftarms with cross blocks.
 0 Name: 8419 - Sub29.ldr
@@ -549,6 +564,7 @@
 
 
 
+0 STEP
 0 FILE 8419 - Sub31.ldr
 0 A complex geared drive assembly with an 8-tooth gear, angle connector, and multiple beams.
 0 Name: 8419 - Sub31.ldr
@@ -603,6 +619,7 @@
 
 
 
+0 STEP
 0 FILE 8419 - Sub32.ldr
 0 A small bent double liftarm joint held by friction pins.
 0 Name: 8419 - Sub32.ldr
@@ -619,6 +636,7 @@
 
 
 
+0 STEP
 0 FILE 8419 - Arm.ldr
 0 A long yellow liftarm beam forming the dozer's lifting arm with a boss connector.
 0 Name: 8419 - Arm.ldr
@@ -635,6 +653,7 @@
 
 
 
+0 STEP
 0 FILE 8419 - Blade.ldr
 0 The dozer blade assembly built from long black beams and pins forming a wide push surface.
 0 Name: 8419 - Blade.ldr
@@ -706,6 +725,7 @@
 
 
 
+0 STEP
 0 FILE 8419 - Blade corner RH.ldr
 0 A right-side blade corner built from bent liftarms joined with long friction pins.
 0 Name: 8419 - Blade corner RH.ldr
@@ -729,6 +749,7 @@
 
 
 
+0 STEP
 0 FILE 8419 - Blade side LH.ldr
 0 A left-side blade corner built from bent liftarms joined with long friction pins.
 0 Name: 8419 - Blade side LH.ldr
@@ -751,6 +772,7 @@
 
 
 
+0 STEP
 0 FILE 8419 - Blade side.ldr
 0 A blade side connector assembly using cross blocks and an axle pin for articulation.
 0 Name: 8419 - Blade side.ldr
@@ -770,6 +792,7 @@
 
 
 
+0 STEP
 0 FILE 8419 - Caterpillar.ldr
 0 A continuous rubber track made of curved, straight, and transition tread segments.
 0 Name: 8419 - Caterpillar.ldr

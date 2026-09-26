@@ -15,6 +15,7 @@
 1 484 -269 -202 353 0.683013 -0.258819 -0.683013 0.183013 0.965926 -0.183013 0.707107 0 0.707107 30478.dat
 
 
+0 STEP
 0 FILE 5935 - Plane.ldr
 0 A large seaplane built with twin light grey wings, red structural plates and technic elements, brown grille tiles, locking hinges, trans yellow lights, and angled slope bricks forming the fuselage.
 0 Name: 5935 - Plane.ldr
@@ -342,6 +343,7 @@
 1 0 140 -24 -10 1 0 0 0 1 0 0 0 1 5935 - Skie.ldr
 
 
+0 STEP
 0 FILE 5935 - Jet.ldr
 0 A three-blade brown propeller assembly mounted on round black and light grey bricks with a technic pin.
 0 Name: 5935 - Jet.ldr
@@ -373,6 +375,7 @@
 1 7 0 0 24 0 0 -1 1 0 0 0 -1 0 4733.dat
 
 
+0 STEP
 0 FILE 5935 - Skie.ldr
 0 A small red and green cargo sled or platform with white inverted slope bricks and black side panels.
 0 Name: 5935 - Skie.ldr
@@ -396,6 +399,7 @@
 1 15 0 0 0 0 0 1 0 1 0 -1 0 0 3003.dat
 
 
+0 STEP
 0 FILE 5935 - Minifig - Miss Gail Storm.ldr
 0 A female aviator minifigure with brown aviator cap and goggles, green jacket torso, yellow head with brown hair, and red sitting legs.
 0 Name: 5935 - Minifig - Miss Gail Storm.ldr

@@ -7,6 +7,7 @@
 1 80 0 10.085 4.888 1 0 0 0 0.993 0.122 0 -0.122 0.993 6745 - Jet.ldr
 
 
+0 STEP
 0 FILE 6745 - Jet.ldr
 0 Main jet airframe core built from long plates and inverted slopes forming a streamlined fuselage with structural reinforcement and Technic pin connections.
 0 Name: 6745 - Jet.ldr
@@ -209,6 +210,7 @@
 1 14 0 -112 220 0 0 -1 0 1 0 1 0 0 6745 - Vertical Tail.ldr
 
 
+0 STEP
 0 FILE 6745 - Exhaust LH.ldr
 0 Left-side exhaust nozzle assembly made of a cone, hollow round brick, and tap spout clipped to a mounting plate for jet thrust detailing.
 0 Name: 6745 - Exhaust LH.ldr
@@ -231,6 +233,7 @@
 1 71 -36 2 -20 0 1 0 -1 0 0 0 0 1 4599a.dat
 
 
+0 STEP
 0 FILE 6745 - Exhaust RH.ldr
 0 Right-side exhaust nozzle assembly made of a cone, hollow round brick, and tap spout clipped to a mounting plate mirroring the left exhaust.
 0 Name: 6745 - Exhaust RH.ldr
@@ -253,6 +256,7 @@
 1 71 -36 2 20 0 1 0 1 0 0 0 0 -1 4599a.dat
 
 
+0 STEP
 0 FILE 6745 - Cockpit.ldr
 0 Enclosed cockpit section featuring a trans-brown curved windscreen, grille side panels, and a yellow slope canopy over a black-and-white plated floor.
 0 Name: 6745 - Cockpit.ldr
@@ -284,6 +288,7 @@
 1 40 0 -40 0 1 0 0 0 1 0 0 0 1 30602.dat
 
 
+0 STEP
 0 FILE 6745 - Wing box.ldr
 0 Central wing mounting box built from light bluish grey and black plates with horizontal clips to attach wing and fuselage components.
 0 Name: 6745 - Wing box.ldr
@@ -312,6 +317,7 @@
 1 0 10 -16 -30 0 0 -1 0 1 0 1 0 0 6019.dat
 
 
+0 STEP
 0 FILE 6745 - Fuselage.ldr
 0 Forward fuselage section constructed from a long black plate with yellow slope shoulders and light bluish grey brick detailing.
 0 Name: 6745 - Fuselage.ldr
@@ -334,6 +340,7 @@
 1 14 -30 -24 10 0 0 1 0 1 0 -1 0 0 3298.dat
 
 
+0 STEP
 0 FILE 6745 - Tail.ldr
 0 Horizontal tail assembly built from yellow plates and wing elements with a light bluish grey grille trim across the stabilizers.
 0 Name: 6745 - Tail.ldr
@@ -371,6 +378,7 @@
 1 71 10 -32 30 -1 0 0 0 1 0 0 0 -1 2412b.dat
 
 
+0 STEP
 0 FILE 6745 - Wing LH.ldr
 0 Left wing assembly combining large yellow pentagonal and rectangular wing plates with black mounting plates, grille surface detail, and trans-orange and dark bluish grey grille vents.
 0 Name: 6745 - Wing LH.ldr
@@ -416,6 +424,7 @@
 1 72 110 -8 20 -1 0 0 0 1 0 0 0 -1 61409.dat
 
 
+0 STEP
 0 FILE 6745 - Wing RH.ldr
 0 Right wing assembly mirroring the left, combining large yellow pentagonal and rectangular wing plates with black mounting plates, grille surface detail, and trans-orange and dark bluish grey grille vents.
 0 Name: 6745 - Wing RH.ldr
@@ -461,6 +470,7 @@
 1 72 -110 -8 20 -1 0 0 0 1 0 0 0 -1 61409.dat
 
 
+0 STEP
 0 FILE 6745 - Landing Gear.ldr
 0 Retractable main landing gear strut using Technic angle connectors, an axle, and pins to mount a rubber tyred wheel.
 0 Name: 6745 - Landing Gear.ldr
@@ -485,6 +495,7 @@
 1 256 -20 0 30 0 0 -1 0 1 0 1 0 0 51011.dat
 
 
+0 STEP
 0 FILE 6745 - Nose Wheel.ldr
 0 Nose landing gear unit built around a round light bluish grey wheel hub with angled wheel clips and a smooth rubber tyre.
 0 Name: 6745 - Nose Wheel.ldr
@@ -505,6 +516,7 @@
 1 256 0 21 20 0 0 1 0 1 0 -1 0 0 59895.dat
 
 
+0 STEP
 0 FILE 6745 - Vertical Tail.ldr
 0 Vertical tail fin built from a yellow plate and black 45-degree slopes with side-stud brick and a trans-red slope navigation light on top.
 0 Name: 6745 - Vertical Tail.ldr

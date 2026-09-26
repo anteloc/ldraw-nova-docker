@@ -10,6 +10,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 1887 - Spaceship.ldr
 1 0 30 -61 28 1 0 0 0 1 0 0 0 1 1887 - Minifig.ldr
 
+0 STEP
 0 FILE 1887 - Spaceship.ldr
 0 A compact spacecraft fuselage built from black and white plates, a hinge plate, a wedge, round finned brick, and neon-green cone and dish accents, with a printed control panel tile.
 0 Name: 1887 - Spaceship.ldr
@@ -56,6 +57,7 @@
 1 0 -66.186 -19.176 -10 0.92388 -0.382683 0 0.382683 0.92388 0 0 0 1 1887 - Spaceship - Wing 1.ldr
 1 0 126.186 -19.176 -10 0.92388 0.382683 0 -0.382683 0.92388 0 0 0 1 1887 - Spaceship - Wing 2.ldr
 
+0 STEP
 0 FILE 1887 - Spaceship - Wing 1.ldr
 0 A small hinged wing section using a black plate without corner and a trans-neon-green round stud.
 0 Name: 1887 - Spaceship - Wing 1.ldr
@@ -73,6 +75,7 @@
 1 42 -30 -16 20 0 0 1 0 1 0 -1 0 0 6141.dat
 
 
+0 STEP
 0 FILE 1887 - Spaceship - Wing 2.ldr
 0 A small hinged wing section using a black plate without corner and a trans-neon-green round stud.
 0 Name: 1887 - Spaceship - Wing 2.ldr
@@ -90,6 +93,7 @@
 1 42 30 -16 20 0 0 -1 0 1 0 1 0 0 6141.dat
 
 
+0 STEP
 0 FILE 1887 - Minifig.ldr
 0 A Blacktron II space pilot minifigure in a white patterned torso, black arms and airtanks, equipped with a short-handle radio.
 0 Name: 1887 - Minifig.ldr
@@ -123,6 +127,7 @@
 0 // Minifig Hand (black)
 1 0 21.5042 12.9263 -20.8482 0.985 0.169741 0.00889577 -0.17 0.983502 0.0515431 0 -0.0523281 0.998479 3820.dat
 
+0 STEP
 0 FILE 1887 - Minifig - Helmet.ldr
 0 A standard black space helmet fitted with a trans-neon-green visor.
 0 Name: 1887 - Minifig - Helmet.ldr

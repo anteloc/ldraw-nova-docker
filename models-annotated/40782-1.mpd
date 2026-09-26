@@ -431,6 +431,7 @@
 1 16 90 -16 -50 1 0 0 0 1 0 0 0 1 40782 - TreeMedium
 0 STEP
 0 NOFILE
+0 STEP
 0 FILE 40782 - WaterfallTop
 0 The upper source of the waterfall, built from light bluish grey and dark tan bricks topped with translucent blue water elements.
 0 Name: 40782 - WaterfallTop
@@ -453,6 +454,7 @@
 1 43 0 -72 -10 1 0 0 0 1 0 0 0 1 3065.dat
 0 STEP
 0 NOFILE
+0 STEP
 0 FILE 40782 - WaterfallBase
 0 The pooling base of the waterfall, featuring turquoise and azure plates with translucent blue slopes and plates representing flowing water.
 0 Name: 40782 - WaterfallBase
@@ -497,6 +499,7 @@
 1 43 10 -26 -0 -1 0 0 0 0 1 0 1 0 54200.dat
 0 STEP
 0 NOFILE
+0 STEP
 0 FILE 40782 - WaterfallEnd
 0 The lower edge of the waterfall with turquoise and translucent blue plates and small slopes simulating the trailing water.
 0 Name: 40782 - WaterfallEnd
@@ -521,6 +524,7 @@
 1 43 10 -10 -20 -1 0 0 0 0 1 0 1 0 54200.dat
 0 STEP
 0 NOFILE
+0 STEP
 0 FILE 40782 - TreeTop
 0 A leafy treetop made of dark green serrated leaves mounted on a small cone and bar structure.
 0 Name: 40782 - TreeTop
@@ -548,6 +552,7 @@
 1 288 0 32 0 0 0 1 0 1 0 -1 0 0 2682a.dat
 0 STEP
 0 NOFILE
+0 STEP
 0 FILE 40782 - BlueAndYellowAra
 0 A small blue and yellow parrot built from curved slope pieces and round plates in bright light orange, blue, and dark azure.
 0 Name: 40782 - BlueAndYellowAra
@@ -581,6 +586,7 @@
 1 47 0 22.6295 7.5124 1 0 0 0 -0.7071 -0.7071 0 0.7071 -0.7071 85861.dat
 0 STEP
 0 NOFILE
+0 STEP
 0 FILE 40782 - FlowerPlant
 0 A small flowering plant with green leaves and red accents topped with a yellow horn element.
 0 Name: 40782 - FlowerPlant
@@ -605,6 +611,7 @@
 1 14 0 -61.4266 -35.2848 1 0 0 0 -0.7071 -0.7071 0 0.7071 -0.7071 53451.dat
 0 STEP
 0 NOFILE
+0 STEP
 0 FILE 40782 - TreeSmall
 0 A small tree with a reddish brown trunk, green serrated leaves, and a white bar support.
 0 Name: 40782 - TreeSmall
@@ -636,6 +643,7 @@
 1 2 0 -92 0 1 0 0 0 1 0 0 0 1 59900.dat
 0 STEP
 0 NOFILE
+0 STEP
 0 FILE 40782 - TreeBig
 0 A large tree with a tall reddish brown antenna trunk, multiple cones, and clusters of green serrated leaves.
 0 Name: 40782 - TreeBig
@@ -679,6 +687,7 @@
 1 288 0 -4 0 1 0 0 0 -1 0 0 0 -1 85861.dat
 0 STEP
 0 NOFILE
+0 STEP
 0 FILE 40782 - TreeMedium
 0 A medium-sized tree with a reddish brown and dark bluish grey trunk supporting green leaf clusters.
 0 Name: 40782 - TreeMedium
@@ -709,6 +718,7 @@
 1 2 0 -108 0 1 0 0 0 1 0 0 0 1 59900.dat
 0 STEP
 0 NOFILE
+0 STEP
 0 FILE 40782 - 80674p02.dat
 0 80674p02
 0 Name: 40782 - 80674p02.dat
@@ -723,6 +733,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\80674s01.dat
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\40782 - 80674p02s01.dat
 1 16 0 0 0 -1 0 0 0 1 0 0 0 1 s\40782 - 80674p02s01.dat
+0 STEP
 0 FILE s\40782 - 80674p02s01.dat
 0 A sub-referenced external part with no direct pieces.
 0 Name: s\40782 - 80674p02s01.dat

@@ -18,6 +18,7 @@
 1 4 -119.999 -224 -190 0 0 1 0 1 0 -1 0 0 6398 - policeman 4.ldr
 1 4 -505.983 0 -192.32 -0.866 0 0.5 0 1 0 -0.5 0 -0.866 6398 - prisoner.ldr
 
+0 STEP
 0 FILE 6398 - PD building.ldr
 0 A two-story police department headquarters built on a green road baseplate with white brick walls, corner detailing, and bright yellow accents.
 0 Name: 6398 - PD building.ldr
@@ -854,6 +855,7 @@
 0 // Hinge  6 x  3 Radar/Blade/Spoiler/Panel with Radar Pattern (black)
 1 0 45.92 -610.67 -510.77 -0.5 0.75 0.43 0 0.5 -0.87 -0.87 -0.43 -0.25 2440p69.dat
 
+0 STEP
 0 FILE 6398 - police car 1.ldr
 0 A white police patrol car assembled from plates and mudguards with red trans lights and red steering wheel.
 0 Name: 6398 - police car 1.ldr
@@ -987,6 +989,7 @@
 0 // Sticker  1.0 x  3.8 with Black "POLICE" and Red Line (white)
 1 15 0 -40 70 -1 0 0 0 1 0 0 0 -1 821410d.dat
 
+0 STEP
 0 FILE 6398 - police car 2.ldr
 0 A white police car built on a black chassis base with doors, mudguards, and yellow trans lights.
 0 Name: 6398 - police car 2.ldr
@@ -1087,6 +1090,7 @@
 0 // Sticker  1.0 x  3.8 with Black "POLICE" and Red Line (white)
 1 15 -10 -22.232 -59.065 1 0 0 0 0.895 -0.446 0 0.446 0.895 821410d.dat
 
+0 STEP
 0 FILE 6398 - police helicopter.ldr
 0 A black and white police helicopter with long plate fuselage, inverted slopes, wings, and a flight control pattern.
 0 Name: 6398 - police helicopter.ldr
@@ -1265,6 +1269,7 @@
 0 // Sticker  1.0 x  3.8 with Black "POLICE" and Red Line (white)
 1 15 -70.001 -51.002 -49.999 1 0 0 0 0 -1 0 1 0 821410d.dat
 
+0 STEP
 0 FILE 6398 - police motorbike.ldr
 0 A white police motorcycle with POLICE-labeled tiles, trans-colored lights, and two black tyres.
 0 Name: 6398 - police motorbike.ldr
@@ -1299,6 +1304,7 @@
 0 // Wheel Centre with Stub Axles (trans_clear)
 1 47 20.002 16 0 1 0 0 0 1 0 0 0 1 3464.dat
 
+0 STEP
 0 FILE 6398 - policeman 1.ldr
 0 A police officer minifigure wearing a white helmet with visor, black zippered jacket torso, and black legs.
 0 Name: 6398 - policeman 1.ldr
@@ -1331,6 +1337,7 @@
 0 // ~Minifig Leg Right (Obsolete) (black)
 1 0 0 -28.022 1.818 1 0 0 0 1 0 0 0 1 3816.dat
 
+0 STEP
 0 FILE 6398 - policeman 2.ldr
 0 A police officer minifigure wearing a black cap, black vest torso with badge, white arms, and light grey legs.
 0 Name: 6398 - policeman 2.ldr
@@ -1361,6 +1368,7 @@
 0 // ~Minifig Leg Right (Obsolete) (light_grey)
 1 7 0 -28.022 1.818 1 0 0 0 1 0 0 0 1 3816.dat
 
+0 STEP
 0 FILE 6398 - policeman 3.ldr
 0 A police officer minifigure wearing a white cap, black zippered jacket torso, and black legs.
 0 Name: 6398 - policeman 3.ldr
@@ -1391,6 +1399,7 @@
 0 // ~Minifig Cap with Long Flat Peak (Obsolete) (white)
 1 15 0 -96.022 1.818 1 0 0 0 1 0 0 0 1 4485.dat
 
+0 STEP
 0 FILE 6398 - policeman 4.ldr
 0 A police officer minifigure wearing a white police hat, moustache, black jacket torso with tie and badge, and black legs.
 0 Name: 6398 - policeman 4.ldr
@@ -1421,6 +1430,7 @@
 0 // ~Minifig Leg Right (Obsolete) (black)
 1 0 0 -28.022 1.818 1 0 0 0 1 0 0 0 1 3816.dat
 
+0 STEP
 0 FILE 6398 - prisoner.ldr
 0 A prisoner minifigure with black hair, pointed moustache, white-and-black striped jail torso, and light grey legs.
 0 Name: 6398 - prisoner.ldr
@@ -1451,6 +1461,7 @@
 0 // ~Minifig Leg Right (Obsolete) (light_grey)
 1 7 0 -28 0 1 0 0 0 1 0 0 0 1 3816.dat
 
+0 STEP
 0 FILE 6398 - 4480c01.dat
 0 A complete motorcycle frame sub-assembly consisting of the left and right side frames and front forks.
 0 Bike 2 Wheel Motorcycle Frame  3 x  6 x  3 (Complete)
@@ -1468,6 +1479,7 @@
 0 // ~Bike  2 Wheel Motorcycle Forks  3 x  6 x  3 (main_colour)
 1 16 0 30 -90 1 0 0 0 0.924 0.383 0 -0.383 0.924 4482.dat
 
+0 STEP
 0 FILE 6398 - 4481.dat
 0 A LEGO stud logo part sub-model composed of primitive geometric shapes including cylinders, circles, rectangles, and a pinholes element.
 0 ~Bike 2 Wheel Motorcycle Frame  3 x  6 x  3 - Left Side
@@ -1538,6 +1550,7 @@
 0 // LEGO Logo for Studs - 3D Flattened (main_colour)
 1 16 11 0 -62 0 -1 0 1 0 0 0 0 1 6398 - logo5.dat
 
+0 STEP
 0 FILE 6398 - 4480.dat
 0 A motorcycle frame primitive mesh sub-model built from geometric primitives defining the rear frame, cylinders, boxes, and middle cover components.
 0 ~Bike 2 Wheel Motorcycle Frame  3 x  6 x  3 - Right Side
@@ -1709,6 +1722,7 @@
 0 // LEGO Logo for Studs - 3D Flattened (main_colour)
 1 16 -11 0 -62 0 1 0 1 0 0 0 0 -1 6398 - logo5.dat
 
+0 STEP
 0 FILE 6398 - 4481s01.dat
 0 A detailed primitive-based sub-model of a LEGO stud logo constructed from numerous circles, cylinders, discs, and rings.
 0 ~Bike 2 Wheel Motorcycle Frame  3 x  6 x  3 - Left/Right
@@ -2690,6 +2704,7 @@
 5 24 10.531 19.745 -66.111 9 19.862 -66.392 12.017 35.049 -58.398 9 18.331 -66.697
 5 24 7.4 19.862 -63.392 0 19.862 -63.392 0 6.432 -70.213 7.4 34.01 -55.85
 
+0 STEP
 0 FILE 6398 - logo5.dat
 0 An empty placeholder sub-model for a LEGO logo with no direct pieces.
 0 LEGO Logo for Studs - 3D Flattened

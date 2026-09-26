@@ -7,6 +7,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 4993 - Truck.ldr
 
 
+0 STEP
 0 FILE 4993 - Truck.ldr
 0 Structural truck frame built from long Technic bricks, plates, and axles forming the chassis with white body panels and curved slopes.
 0 Name: 4993 - Truck.ldr
@@ -614,6 +615,7 @@
 1 71 -50 10 -320 0 0 1 0 1 0 -1 0 0 41896.dat
 
 
+0 STEP
 0 FILE 4993 - Sub08.ldr
 0 Black curved-top brick and inverted slope assembly forming a contoured bodywork detail section.
 0 Name: 4993 - Sub08.ldr
@@ -644,6 +646,7 @@
 1 0 20 -8 0 0 0 -1 0 1 0 1 0 0 2431.dat
 
 
+0 STEP
 0 FILE 4993 - Sub13.ldr
 0 Small Technic bent liftarm linkage with pins and an inverted dish forming a pivot joint or wheel hub connector.
 0 Name: 4993 - Sub13.ldr
@@ -664,6 +667,7 @@
 1 1 -80 -40 0 0 0 -1 0 1 0 1 0 0 6558.dat
 
 
+0 STEP
 0 FILE 4993 - Sub16.ldr
 0 Compact Technic linkage subassembly using bent liftarms, axles, towball, and joiners forming an articulated steering or suspension arm.
 0 Author: Marc Giraudet [Mad_Marc]
@@ -696,6 +700,7 @@
 1 1 0 60 -40 -1 0 0 0 0 1 0 1 0 4274.dat
 
 
+0 STEP
 0 FILE 4993 - Engine.ldr
 0 Detailed engine assembly with Technic beams, exhaust-port plates, grilles, arches, and a three-blade propeller forming a radiator or fan component.
 0 Name: 4993 - Engine.ldr
@@ -782,6 +787,7 @@
 1 0 0 -46 -92 1 0 0 0 -1 0 0 0 -1 6041.dat
 
 
+0 STEP
 0 FILE 4993 - Sub18.ldr
 0 Compact Technic linkage assembly of bent liftarm, axles, towball, and joiners mirroring Sub16 as a mirrored suspension or steering arm.
 0 Name: 4993 - Sub18.ldr
@@ -812,6 +818,7 @@
 1 71 70 -70 0 0 0 -1 1 0 0 0 -1 0 2736.dat
 
 
+0 STEP
 0 FILE 4993 - Left side.ldr
 0 Left side bodywork of the truck built from long Technic bricks, white plates and curved slopes with a yellow accent tile.
 0 Name: 4993 - Left side.ldr
@@ -903,6 +910,7 @@
 1 73 0 -16 -200 0 0 -1 0 1 0 1 0 0 3069b.dat
 
 
+0 STEP
 0 FILE 4993 - Sub13 LH.ldr
 0 Left-side Technic bent liftarm linkage with pins and inverted dish forming a mirrored pivot joint.
 0 Name: 4993 - Sub13 LH.ldr
@@ -921,6 +929,7 @@
 1 1 -80 -40 0 0 0 -1 0 -1 0 -1 0 0 6558.dat
 
 
+0 STEP
 0 FILE 4993 - Sub21.ldr
 0 Hinge-mounted light assembly using a trans-red tile and inverted slope on a long plate, forming a taillight or signal module.
 0 Name: 4993 - Sub21.ldr
@@ -942,6 +951,7 @@
 1 0 0 -32 10 1 0 0 0 1 0 0 0 1 3660.dat
 
 
+0 STEP
 0 FILE 4993 - Cabin frame.ldr
 0 Structural cabin frame built from long Technic bricks, split cross blocks, and pins providing the mounting rails for the cab.
 0 Name: 4993 - Cabin frame.ldr
@@ -983,6 +993,7 @@
 1 14 0 -8 -90 0 0 -1 0 1 0 1 0 0 3623.dat
 
 
+0 STEP
 0 FILE 4993 - Floor.ldr
 0 Cab floor and lower body section assembled from plates, large arches, dark-red accent bricks, and curved-top bricks forming the footwell and lower cabin.
 0 Name: 4993 - Floor.ldr
@@ -1105,6 +1116,7 @@
 1 0 -80 -128 -180 -1 0 0 0 1 0 0 0 -1 3023.dat
 
 
+0 STEP
 0 FILE 4993 - Sub07.ldr
 0 Cab floor and windshield arch subassembly of dark-red plates, white and black arches, and a trans-orange slope forming the front lower cabin.
 0 Name: 4993 - Sub07.ldr
@@ -1139,6 +1151,7 @@
 1 15 -24 -62 -180 0 1 0 -1 0 0 0 0 1 3070b.dat
 
 
+0 STEP
 0 FILE 4993 - Sub09.ldr
 0 Chassis support beam section using a long Technic brick, pin-and-axlehole bricks, and inverted slopes forming a structural mounting plate.
 0 Name: 4993 - Sub09.ldr
@@ -1168,6 +1181,7 @@
 1 0 80 -48 30 1 0 0 0 1 0 0 0 1 3660.dat
 
 
+0 STEP
 0 FILE 4993 - Seat.ldr
 0 Truck driver seat built from black and white plates with groove tiles and clip plates forming the seat cushion and backrest.
 0 Name: 4993 - Seat.ldr
@@ -1195,6 +1209,7 @@
 1 73 0 -16 30 1 0 0 0 1 0 0 0 1 3068b.dat
 
 
+0 STEP
 0 FILE 4993 - Board.ldr
 0 Dashboard or control board assembly using a plate, groove tiles, a printed controls tile, and a hinge forming an angled instrument panel.
 0 Name: 4993 - Board.ldr
@@ -1220,6 +1235,7 @@
 1 1 0 8 -10 1 0 0 0 1 0 0 0 1 3937.dat
 
 
+0 STEP
 0 FILE 4993 - Steering.ldr
 0 Steering column assembly with a notched axle, hinge arm, steering wheel, and a printed gauge tile forming the steering mechanism.
 0 Name: 4993 - Steering.ldr
@@ -1243,6 +1259,7 @@
 1 71 0 -47.889 -9.335 1 0 0 0 0.924 0.383 0 -0.383 0.924 2819.dat
 
 
+0 STEP
 0 FILE 4993 - Sub51 LH.ldr
 0 Left-side small bracket assembly with clips, a handle plate, and a groove tile forming a side trim or detail panel.
 0 Name: 4993 - Sub51 LH.ldr
@@ -1261,6 +1278,7 @@
 1 71 0 20 -30 0 0 1 1 0 0 0 1 0 3068b.dat
 
 
+0 STEP
 0 FILE 4993 - Sub51 RH.ldr
 0 Right-side small bracket assembly with clips, a handle plate, and a groove tile mirroring the left-side trim panel.
 0 Name: 4993 - Sub51 RH.ldr
@@ -1279,6 +1297,7 @@
 1 71 0 20 -30 0 0 -1 -1 0 0 0 1 0 3068b.dat
 
 
+0 STEP
 0 FILE 4993 - Door LH.ldr
 0 Left truck door built from a large dark-bluish-grey plate detailed with white and dark-red tiles, a dish, and curved slopes.
 0 Name: 4993 - Door LH.ldr
@@ -1324,6 +1343,7 @@
 1 0 50 -16 10 0 0 1 0 1 0 -1 0 0 6141.dat
 
 
+0 STEP
 0 FILE 4993 - Door RH.ldr
 0 Right truck door built from a large dark-bluish-grey plate detailed with white and dark-red tiles, a dish, and curved slopes.
 0 Name: 4993 - Door RH.ldr
@@ -1369,6 +1389,7 @@
 1 15 -30 -24 -30 0 0 -1 0 1 0 1 0 0 50950.dat
 
 
+0 STEP
 0 FILE 4993 - Cabin rear.ldr
 0 Rear cabin wall built from long white and black bricks with small slopes and axle-holder bricks forming the back of the cab.
 0 Name: 4993 - Cabin rear.ldr
@@ -1402,6 +1423,7 @@
 1 15 120 -96 0 1 0 0 0 1 0 0 0 1 3245b.dat
 
 
+0 STEP
 0 FILE 4993 - Mirror RH.ldr
 0 Right side mirror assembly using a plate, clip, corner plate, and rimmed dish forming the side wing mirror.
 0 Name: 4993 - Mirror RH.ldr
@@ -1420,6 +1442,7 @@
 1 15 10 -16 0 1 0 0 0 -1 0 0 0 -1 2654.dat
 
 
+0 STEP
 0 FILE 4993 - Mirror LH.ldr
 0 Left side mirror assembly using a plate, clip, corner plate, and rimmed dish forming the side wing mirror.
 0 Name: 4993 - Mirror LH.ldr
@@ -1438,6 +1461,7 @@
 1 15 10 -16 0 0 0 1 0 -1 0 1 0 0 2654.dat
 
 
+0 STEP
 0 FILE 4993 - Roof.ldr
 0 Cab roof assembled from large white plates and a double-curved slope with groove tiles forming the smooth top of the cabin.
 0 Name: 4993 - Roof.ldr
@@ -1527,6 +1551,7 @@
 1 15 110 -24 -20 1 0 0 0 1 0 0 0 1 61678.dat
 
 
+0 STEP
 0 FILE 4993 - Bumper.ldr
 0 A dark red front bumper assembly with grille tiles, curved arches, and a white center plate mounted on a reinforced plate base.
 0 Name: 4993 - Bumper.ldr
@@ -1567,6 +1592,7 @@
 1 71 30 16 -30 -1 0 0 0 1 0 0 0 -1 3623.dat
 
 
+0 STEP
 0 FILE 4993 - Front.ldr
 0 A dark red and black front panel section built around a large plate, featuring numerous grille tiles and tile detailing.
 0 Name: 4993 - Front.ldr
@@ -1607,6 +1633,7 @@
 1 0 0 -16 10 0 0 -1 0 1 0 1 0 0 3070b.dat
 
 
+0 STEP
 0 FILE 4993 - Spoiler.ldr
 0 A white rear spoiler with curved slope bricks and mounting plates, accented with dark red and black details.
 0 Name: 4993 - Spoiler.ldr
@@ -1638,6 +1665,7 @@
 1 320 30 -24 0 1 0 0 0 1 0 0 0 1 3024.dat
 
 
+0 STEP
 0 FILE 4993 - Connector.ldr
 0 A white structural connector built from arches, a curved slope, and technic-brick mounting points on a dark bluish grey plate base.
 0 Name: 4993 - Connector.ldr

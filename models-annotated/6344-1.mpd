@@ -7,6 +7,7 @@
 0 15 -20 -256 50 0.867 -0.396 -0.304 0.411 0.911 0 0.282 -0.113 1 6344 - airplane.ldr
 1 15 -40 -20 0 1 0 0 0 1 0 0 0 1 6344 - boat.ldr
 
+0 STEP
 0 FILE 6344 - boat.ldr
 0 A light grey and white police speedboat with a bow plate, grille detailing, hinges, and a red steering wheel stand.
 0 Name: 6344 - boat.ldr
@@ -148,6 +149,7 @@
 
 
 
+0 STEP
 0 FILE 6344 - policeman_1.ldr
 0 A police officer minifigure wearing a black uniform with badge pattern, a yellow life vest, a white cap, and a moustached head.
 0 Name: 6344 - policeman_1.ldr
@@ -177,6 +179,7 @@
 
 
 
+0 STEP
 0 FILE 6344 - airplane.ldr
 0 A black and white police jet airplane with large wings, inverted slopes, and red accent plates.
 0 Name: 6344 - airplane.ldr
@@ -387,6 +390,7 @@
 
 
 
+0 STEP
 0 FILE 6344 - policeman_2.ldr
 0 A police pilot minifigure wearing a black jacket with police logo, a white helmet with translucent visor, and a sunglassed head.
 0 Name: 6344 - policeman_2.ldr
@@ -420,6 +424,7 @@
 
 
 
+0 STEP
 0 FILE 6344 - 3626bp0c.dat
 0 A minifig head subassembly composed of printed facial features including eyes, a thick moustache, eyebrows, and a mouth.
 0 Name: 6344 - 3626bp0c.dat

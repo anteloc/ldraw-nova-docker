@@ -13,6 +13,7 @@
 1 8 80 0 -210 0.5 0 -0.866 0 1 0 0.866 0 0.5 6349 - minifig 1.ldr
 1 8 180 0 -100 1 0 0 0 1 0 0 0 1 6349 - minifig 2.ldr
 0 NOFILE
+0 STEP
 0 FILE 6349 - building.ldr
 0 A roadside garage structure built on a 32x32 road baseplate, with a brick-built building, cupboard containers, yellow seats, and a decorative button pattern slope.
 0 !LEOCAD MODEL CURRENT_STEP27
@@ -367,6 +368,7 @@
 0 STEP
 0 STEP
 0 NOFILE
+0 STEP
 0 FILE 6349 - car.ldr
 0 A small white and black vehicle with mudguards, windscreen, doors, grille detail, and red taillight elements.
 
@@ -453,6 +455,7 @@
 0 // Glass for Hinge Car Roof  4 x  4 Sunroof with Ridges (trans_clear)
 1 47 -0.002 -76 -3 -1 0 0 0 1 0 0 0 -1 2348b.dat
 0 NOFILE
+0 STEP
 0 FILE 6349 - minifig 1.ldr
 0 A female minifigure wearing a white shirt with red necklace, blue legs, shoulder-length brown hair, holding a transparent goblet.
 
@@ -488,6 +491,7 @@
 0 // Minifig Goblet (trans_clear)
 1 47 -21.809 -55.648 -31.955 0.985 -0.12 0.122 0.171 0.694 -0.699 -0.001 0.709 0.705 2343.dat
 0 NOFILE
+0 STEP
 0 FILE 6349 - minifig 2.ldr
 0 A male worker minifigure in a white cap, red dungarees outfit, holding a dark grey shovel.
 

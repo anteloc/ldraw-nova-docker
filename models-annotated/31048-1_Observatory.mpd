@@ -9,6 +9,7 @@
 1 70 0 0 0 -1 0 0 0 1 0 0 0 -1 31048 - Building.ldr
 
 
+0 STEP
 0 FILE 31048 - MiniFig.ldr
 0 An astronomer mini-figure wearing a blue plaid shirt, dark tan legs, and tousled black hair with a cheerful expression.
 0 Name: 31048 - MiniFig.ldr
@@ -35,6 +36,7 @@
 
 
 
+0 STEP
 0 FILE 31048 - Building.ldr
 0 A rustic log cabin observatory structure built from log bricks, plates, and arches in brown, green, and grey tones with hinged sections.
 0 Name: 31048 - Building.ldr
@@ -523,6 +525,7 @@
 1 14 130 -126 176 1 0 0 0 0 1 0 -1 0 2335.dat
 
 
+0 STEP
 0 FILE 31048 - Window.ldr
 0 A window assembly consisting of a tan frame holding two green translucent glass panes.
 0 Name: 31048 - Window.ldr
@@ -538,6 +541,7 @@
 1 2 -32 -68 3 0 0 -1 0 1 0 1 0 0 60608.dat
 
 
+0 STEP
 0 FILE 31048 - Telescope.ldr
 0 A compact telescope model made from inverted dish, cone, and clip elements with a trans-yellow lens detail.
 0 Name: 31048 - Telescope.ldr

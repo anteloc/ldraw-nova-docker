@@ -8,6 +8,7 @@
 0 // Fabuland Fishing Rod (yellow)
 1 14 30 -48.087 -17.298 1 0 0 0 0.906 0.423 0 -0.423 0.906 3701 - 4327.dat
 1 4 -36 -40.011 -75.196 0.866 -0.5 0 0.492 0.853 0.174 -0.086 -0.151 0.985 u9212.dat
+0 STEP
 0 FILE 3701 - corneliuscat.ldr
 0 Empty reference submodel for the Cornelius Cat Fabuland figure.
 0 Name: 3701 - corneliuscat.ldr
@@ -21,6 +22,7 @@
 1 14 -10 -37 4 1 0 0 0 1 0 0 0 1 u9100.dat
 1 14 10 -37 4 1 0 0 0 1 0 0 0 1 u9100.dat
 1 4 0 -37 4 1 0 0 0 1 0 0 0 1 u9103.dat
+0 STEP
 0 FILE 3701 - 4327.dat
 0 Detailed molded part composed of cylinders, spheres, circles, and rectangular panels.
 0 Name: 3701 - 4327.dat
@@ -186,6 +188,7 @@
 5 24 0 47.1152 -155.763 0 47.810001 -156.654007 2.5669 48.588299 -156.044006 -2.5669 48.588299 -156.044006
 5 24 0 45.662498 -150.397995 0 46.933201 -151.509995 1.9071 46.340401 -150.595001 -1.9071 46.340401 -150.595001
 5 24 -0.00015 -29.312401 -123.400002 0.00045 -28.7076 -95.254501 0.91915 -28.889799 -95.265503 -0.91855 -29.4946 -123.411003
+0 STEP
 0 FILE s\3701 - 4327s01.dat
 0 Sub-part with small cylinders and chords forming a textured or detailed surface element.
 0 Name: s\3701 - 4327s01.dat

@@ -1186,6 +1186,7 @@
 
 
 
+0 STEP
 0 FILE 8464 - 1.ldr
 0 Three-cylinder engine assembly with piston heads and connecting pins.
 0 Name: 8464 - 1.ldr
@@ -1225,6 +1226,7 @@
 
 
 
+0 STEP
 0 FILE 8464 - 2.ldr
 0 Three-cylinder engine assembly with piston heads and connecting pins.
 0 Name: 8464 - 2.ldr
@@ -1265,6 +1267,7 @@
 
 
 
+0 STEP
 0 FILE 8464 - engine.ldr
 0 Engine crankshaft subassembly with connecting rods, crankshaft centers, and mounting bricks.
 0 Name: 8464 - engine.ldr
@@ -1327,6 +1330,7 @@
 
 
 
+0 STEP
 0 FILE 8464 - 6577.dat
 0 Primitive cylindrical bushing part defined with axles, cylinders, rings, and teeth geometry.
 0 Name: 8464 - 6577.dat

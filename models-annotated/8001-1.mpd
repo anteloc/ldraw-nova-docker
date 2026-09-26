@@ -19,6 +19,7 @@
 1 0 -141 -474 -102 1 0 0 0 1 0 0 0 1 8001 - blaster.ldr
 
 
+0 STEP
 0 FILE 8001 - hips.ldr
 0 Pelvis assembly built from bent liftarms, triangular beams, a 24-tooth gear, and towball joints connecting the legs.
 0 Name: 8001 - hips.ldr
@@ -91,6 +92,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 8001 - buttons.ldr
 0 Small decorative control panel made of angle connectors, round plates, and rimmed dishes.
 0 Name: 8001 - buttons.ldr
@@ -121,6 +123,7 @@
 1 19 -40 46 0 0 0 1 0 1 0 -1 0 0 2654.dat
 
 
+0 STEP
 0 FILE 8001 - rubberBandSquare-1.ldr
 0 Square-loop rubber band (approx 57 mm path) rendered as a segmented box flex part.
 0 Name: 8001 - rubberBandSquare-1.ldr
@@ -715,6 +718,7 @@
 1 16 -9.507914 -0.298361 0 0.999648 0.026516 0 -0.026516 0.999648 0 0 0 1 box4o8a.dat
 
 
+0 STEP
 0 FILE 8001 - rubberBandSquare-2.ldr
 0 Large square-loop rubber band (approx 116 mm path) rendered as a segmented box flex part.
 0 Name: 8001 - rubberBandSquare-2.ldr
@@ -1901,6 +1905,7 @@
 1 16 -8.507763 -0.299046 0 0.999663 0.025949 0 -0.025949 0.999663 0 0 0 1 box4o8a.dat
 
 
+0 STEP
 0 FILE 8001 - leftleg.ldr
 0 Articulated left leg constructed from a connector block, bent liftarms, angle connectors, a ribbed hose, and a ribbed fan liftarm.
 0 Name: 8001 - leftleg.ldr
@@ -1974,6 +1979,7 @@
 1 256 15 -260 20 0 0 -1 1 0 0 0 -1 0 8001 - rubberBandSquare-3.ldr
 
 
+0 STEP
 0 FILE 8001 - rubberBandSquare-3.ldr
 0 Square-loop rubber band (approx 77 mm path) rendered as a segmented box flex part.
 0 Name: 8001 - rubberBandSquare-3.ldr
@@ -2770,6 +2776,7 @@
 1 16 -9.998101 -0.407466 0 0.999989 -0.004657 0 0.00466 0.999506 0 0 0 1 box4o8a.dat
 
 
+0 STEP
 0 FILE 8001 - rightleg.ldr
 0 Articulated right leg mirroring the left, built from a connector block, bent liftarms, angle connectors, and a ribbed fan liftarm.
 0 Name: 8001 - rightleg.ldr
@@ -2843,6 +2850,7 @@
 1 256 15 -260 20 0 0 -1 1 0 0 0 -1 0 8001 - rubberBandSquare-3.ldr
 
 
+0 STEP
 0 FILE 8001 - torso.ldr
 0 Central body framework of beams, cross blocks, and bevel gears that links the hips, arms, and head.
 0 Name: 8001 - torso.ldr
@@ -2944,6 +2952,7 @@
 1 19 0 -40 -90 0 -1 0 -1 0 0 0 0 -1 2994.dat
 
 
+0 STEP
 0 FILE 8001 - head.ldr
 0 Droid head unit with beams, round plates, rimmed dishes, angle connectors, and short ribbed hoses.
 0 Name: 8001 - head.ldr
@@ -3038,6 +3047,7 @@
 1 19 -25 41.355 144.623 1 -0.022 0 0.008 0.383 -0.924 0.02 0.924 0.382 8001 - rigid3mmHose-2.ldr
 
 
+0 STEP
 0 FILE 8001 - rubberBandSquare-4.ldr
 0 Small square-loop rubber band (approx 48 mm path) rendered as a segmented box flex part.
 0 Name: 8001 - rubberBandSquare-4.ldr
@@ -3548,6 +3558,7 @@
 1 16 -5.905157 7.455846 0 0.577309 0.816526 0 -0.816526 0.577309 0 0 0 1 box4o8a.dat
 
 
+0 STEP
 0 FILE 8001 - head2.ldr
 0 Secondary head detail made of a bent liftarm, thin liftarms, and a cross block joined by axles and pins.
 0 Name: 8001 - head2.ldr
@@ -3593,6 +3604,7 @@
 1 7 -20 48 156 1 0 0 0 -0.6 -0.8 0 0.8 -0.6 3749.dat
 
 
+0 STEP
 0 FILE 8001 - rigid3mmHose-1.ldr
 0 3 mm rigid flex hose (approx 88 mm path) rendered as a chain of flex-system hose segments.
 0 Name: 8001 - rigid3mmHose-1.ldr
@@ -4247,6 +4259,7 @@
 1 16 -15.938727 -184.018057 25.125908 0.999601 -0.021721 -0.018061 0.018061 0.983015 -0.182635 0.021721 0.182236 0.983015 u9053.dat
 
 
+0 STEP
 0 FILE 8001 - rigid3mmHose-2.ldr
 0 3 mm rigid flex hose (approx 88 mm path) rendered as a chain of flex-system hose segments.
 0 Name: 8001 - rigid3mmHose-2.ldr
@@ -4901,6 +4914,7 @@
 1 16 15.938735 -184.016816 25.126138 0.999597 0.021858 0.018119 -0.018185 0.983012 -0.182639 -0.021803 0.182236 0.983013 u9053.dat
 
 
+0 STEP
 0 FILE 8001 - leftarm.ldr
 0 Articulated left arm built from angle connectors, thin liftarms, ribbed fan liftarms, and a towball joint.
 0 Name: 8001 - leftarm.ldr
@@ -4955,6 +4969,7 @@
 1 256 -5 0 -120 0 0 1 0 -1 0 1 0 0 8001 - rubberBandSquare-5.ldr
 
 
+0 STEP
 0 FILE 8001 - rubberBandSquare-5.ldr
 0 Square-loop rubber band (approx 50 mm path) rendered as a segmented box flex part.
 0 Name: 8001 - rubberBandSquare-5.ldr
@@ -5488,6 +5503,7 @@
 1 16 -5.247633 7.934206 0 0.502521 0.864565 0 -0.864565 0.502521 0 0 0 1 box4o8a.dat
 
 
+0 STEP
 0 FILE 8001 - rightarm.ldr
 0 Articulated right arm with angle connectors, fan liftarms, a changeover catch, and a magnet holder attachment.
 0 Name: 8001 - rightarm.ldr
@@ -5548,6 +5564,7 @@
 1 0 50 46.59 -19 -1 0 0 0 0.829 0.559 0 0.559 -0.829 2959c01.dat
 
 
+0 STEP
 0 FILE 8001 - backpack.ldr
 0 Back-mounted equipment rack of long axles, bent liftarms, connector blocks, and a towball joint.
 0 Name: 8001 - backpack.ldr
@@ -5672,6 +5689,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 8001 - rubberBandSquare-6.ldr
 0 Square-loop rubber band (approx 52 mm path) rendered as a segmented box flex part.
 0 Name: 8001 - rubberBandSquare-6.ldr
@@ -6222,6 +6240,7 @@
 1 16 -0.386212 -8.999998 -1.999738 0.000675 1.001052 0 0 0 1 1 -0.000676 0 box4o8a.dat
 
 
+0 STEP
 0 FILE 8001 - blaster.ldr
 0 Handheld blaster weapon built from dark-grey liftarms, cross blocks, and a cylindrical magnet in a holder.
 0 Name: 8001 - blaster.ldr
@@ -6273,6 +6292,7 @@
 1 0 10 -20 -110 1 0 0 0 -1 0 0 0 -1 6538b.dat
 
 
+0 STEP
 0 FILE 8001 - 4185a.dat
 0 Primitive subpart defining the cylindrical axle-hole geometry of a Technic connector part.
 0 Name: 8001 - 4185a.dat
@@ -6348,6 +6368,7 @@
 0 // Cylinder Open 0.5 (main_colour)
 1 16 -11 0 -3 0 0 -1 1 0 0 0 6 0 2-4cylo.dat
 
+0 STEP
 0 FILE 8001 - 33299a.dat
 0 Primitive subpart defining the peg-hole and disc geometry of a Technic connector part.
 0 Name: 8001 - 33299a.dat
@@ -6381,6 +6402,7 @@
 4 16 8 10 36.661999 9 10 35.661999 9 10 32 8 10 32
 4 16 -9 10 35.661999 -8 10 36.661999 -8 10 32 -9 10 32
 
+0 STEP
 0 FILE s\8001 - 4185as01.dat
 0 Patterned cylinder-and-ring subpart building the ribbed profile of a Technic connector sleeve.
 0 Name: s\8001 - 4185as01.dat
@@ -6529,6 +6551,7 @@
 3 16 26.024 -3.426 -4.375 26.25 0 -4.375 30 0 -4.375
 3 16 25.048 -7.929 -4.375 25.355 -6.794 -4.375 28.249001 -7.072 -4.375
 
+0 STEP
 0 FILE s\8001 - 33299s01.dat
 0 Detailed cylinder-and-ring subpart forming the body shape of a Technic connector element.
 0 Name: s\8001 - 33299s01.dat
@@ -6799,6 +6822,7 @@
 5 24 -4.9498 0 35.050098 -4.9498 10 35.050098 -6 0 36.661999 -2.6788 0 33.5327
 5 24 4.9497 10 35.050301 4.9498 0 35.050201 6 0 36.661999 2.6788 10 33.5327
 
+0 STEP
 0 FILE s\8001 - 32269s01.dat
 0 Flat rectangular-panel subpart forming the faces of a Technic liftarm beam.
 0 Name: s\8001 - 32269s01.dat
@@ -6888,6 +6912,7 @@
 3 16 18.258699 2.4034 -10 17.789101 4.7663 -10 19.3403 4.9066 -10
 3 16 15.3375 12.7626 -10 14.6121 11.2123 -10 13.0227 13.0227 -10
 
+0 STEP
 0 FILE s\8001 - 32269s02.dat
 0 A cylindrical base assembly with a quarter-open cylinder framed by decorative ring and rectangular edge panels.
 0 Name: s\8001 - 32269s02.dat

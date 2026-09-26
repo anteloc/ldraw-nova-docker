@@ -15,6 +15,7 @@
 
 
 
+0 STEP
 0 FILE 367 - Moon Landing - Ascent Stage.ldr
 0 Large blue brick-built upper module with jet engine plates, forming the crew cabin and propulsion section of the lunar lander.
 0 Name: 367 - Moon Landing - Ascent Stage.ldr
@@ -193,6 +194,7 @@
 
 
 
+0 STEP
 0 FILE 367 - Moon Landing - Descent Stage.ldr
 0 Blue and red descent platform built from bricks, 45-degree slopes, and hinge plates forming the lower landing stage with articulated legs.
 0 Name: 367 - Moon Landing - Descent Stage.ldr
@@ -325,6 +327,7 @@
 
 
 
+0 STEP
 0 FILE 367 - Moon Landing - Rover & Astronaut3.ldr
 0 Blue wheeled moon vehicle with a 6x16 plate chassis, arches, and a grille brick, accompanied by a small figure element.
 0 Name: 367 - Moon Landing - Rover & Astronaut3.ldr
@@ -523,6 +526,7 @@
 
 
 
+0 STEP
 0 FILE 367 - Moon Landing - Astronaut1.ldr
 0 White spacesuit figure with arm holders, a clear visor brick, round studs, and a United States flag sticker.
 0 Name: 367 - Moon Landing - Astronaut1.ldr
@@ -571,6 +575,7 @@
 
 
 
+0 STEP
 0 FILE 367 - Moon Landing - Ascent Stage - Radar Dish.ldr
 0 Small yellow radar array made from a round stud, plate, and a blue tile mounted on the ascent stage.
 0 Name: 367 - Moon Landing - Ascent Stage - Radar Dish.ldr
@@ -586,6 +591,7 @@
 
 
 
+0 STEP
 0 FILE 367 - Moon Landing - Descent Stage - Leg.ldr
 0 Blue landing leg assembly combining a large 4x6 plate, bricks, and 45-degree slopes for a sturdy footed strut.
 0 Name: 367 - Moon Landing - Descent Stage - Leg.ldr
@@ -627,6 +633,7 @@
 
 
 
+0 STEP
 0 FILE 367 - Moon Landing - Decent Stage - Ladder.ldr
 0 Yellow descent ladder built from a hinge plate top and a long 2x12 bottom ladder section for astronaut egress.
 0 Name: 367 - Moon Landing - Decent Stage - Ladder.ldr
@@ -640,6 +647,7 @@
 
 
 
+0 STEP
 0 FILE 367 - Moon Landing - Astronaut2.ldr
 0 White spacesuit figure with arm holders, a clear visor brick, round studs, and a United States flag sticker.
 0 Name: 367 - Moon Landing - Astronaut2.ldr
@@ -688,6 +696,7 @@
 
 
 
+0 STEP
 0 FILE 367 - Moon Landing - Solar Wind Composition Experiment.ldr
 0 Flat white panel instrument made from connected plates, representing the solar wind composition foil experiment.
 0 Name: 367 - Moon Landing - Solar Wind Composition Experiment.ldr
@@ -722,6 +731,7 @@
 
 
 
+0 STEP
 0 FILE 367 - Moon Landing - Flag.ldr
 0 White base plate supporting a flagpole with a United States flag sticker.
 0 Name: 367 - Moon Landing - Flag.ldr
@@ -735,6 +745,7 @@
 
 
 
+0 STEP
 0 FILE 367 - Moon Landing - Lunar Surface Magnetometer.ldr
 0 Single white rotor-holder plate forming the base mount for the surface magnetometer instrument.
 0 Name: 367 - Moon Landing - Lunar Surface Magnetometer.ldr
@@ -747,6 +758,7 @@
 
 
 
+0 STEP
 0 FILE 367 - Moon Landing - Lunar Surface Magnetometer - Detector.ldr
 0 White propeller-based detector assembly with four clear round studs serving as sensor elements.
 0 Name: 367 - Moon Landing - Lunar Surface Magnetometer - Detector.ldr
@@ -766,6 +778,7 @@
 
 
 
+0 STEP
 0 FILE 367 - Moon Landing - Astronaut1 - Right Arm1.ldr
 0 Yellow towball plate forming the shoulder joint of the astronaut's right arm.
 0 Name: 367 - Moon Landing - Astronaut1 - Right Arm1.ldr
@@ -777,6 +790,7 @@
 
 
 
+0 STEP
 0 FILE 367 - Moon Landing - Astronaut1 - Right Arm2.ldr
 0 White towball socket arm segment connecting the astronaut's right shoulder to the upper arm.
 0 Name: 367 - Moon Landing - Astronaut1 - Right Arm2.ldr
@@ -789,6 +803,7 @@
 
 
 
+0 STEP
 0 FILE 367 - Moon Landing - Astronaut1 - Right Arm3.ldr
 0 White articulated arm piece with two and three aligned fingers forming the astronaut's right forearm.
 0 Name: 367 - Moon Landing - Astronaut1 - Right Arm3.ldr
@@ -801,6 +816,7 @@
 
 
 
+0 STEP
 0 FILE 367 - Moon Landing - Astronaut1 - Right Arm4.ldr
 0 White hand piece with a disc and two fingers completing the astronaut's right arm.
 0 Name: 367 - Moon Landing - Astronaut1 - Right Arm4.ldr
@@ -813,6 +829,7 @@
 
 
 
+0 STEP
 0 FILE 367 - Moon Landing - Astronaut1 - Left Arm1.ldr
 0 Yellow towball plate forming the shoulder joint of the astronaut's left arm.
 0 Name: 367 - Moon Landing - Astronaut1 - Left Arm1.ldr
@@ -824,6 +841,7 @@
 
 
 
+0 STEP
 0 FILE 367 - Moon Landing - Astronaut1 - Left Arm2.ldr
 0 White towball socket arm segment connecting the astronaut's left shoulder to the upper arm.
 0 Name: 367 - Moon Landing - Astronaut1 - Left Arm2.ldr
@@ -836,6 +854,7 @@
 
 
 
+0 STEP
 0 FILE 367 - Moon Landing - Astronaut1 - Left Arm3.ldr
 0 White articulated arm piece with two and three aligned fingers forming the astronaut's left forearm.
 0 Name: 367 - Moon Landing - Astronaut1 - Left Arm3.ldr
@@ -848,6 +867,7 @@
 
 
 
+0 STEP
 0 FILE 367 - Moon Landing - Astronaut1 - Left Arm4.ldr
 0 White hand piece with a disc and two fingers completing the astronaut's left arm.
 0 Name: 367 - Moon Landing - Astronaut1 - Left Arm4.ldr
@@ -860,6 +880,7 @@
 
 
 
+0 STEP
 0 FILE 367 - Moon Landing - Astronaut2 - Right Arm1.ldr
 0 Yellow towball shoulder joint with an attached light grey jet engine plate, forming the astronaut's raised right arm.
 0 Name: 367 - Moon Landing - Astronaut2 - Right Arm1.ldr
@@ -873,6 +894,7 @@
 
 
 
+0 STEP
 0 FILE 367 - Moon Landing - Astronaut2 - Right Arm2.ldr
 0 White towball socket arm segment connecting the astronaut's right shoulder to the upper arm.
 0 Name: 367 - Moon Landing - Astronaut2 - Right Arm2.ldr
@@ -885,6 +907,7 @@
 
 
 
+0 STEP
 0 FILE 367 - Moon Landing - Astronaut2 - Right Arm3.ldr
 0 White articulated arm piece with two and three aligned fingers forming the astronaut's right forearm.
 0 Name: 367 - Moon Landing - Astronaut2 - Right Arm3.ldr
@@ -897,6 +920,7 @@
 
 
 
+0 STEP
 0 FILE 367 - Moon Landing - Astronaut2 - Right Arm4.ldr
 0 White hand piece with a disc and two fingers completing the astronaut's right arm.
 0 Name: 367 - Moon Landing - Astronaut2 - Right Arm4.ldr
@@ -909,6 +933,7 @@
 
 
 
+0 STEP
 0 FILE 367 - Moon Landing - Astronaut2 - Left Arm1.ldr
 0 Yellow round towball plate forming the shoulder joint of astronaut 2's left arm.
 0 Name: 367 - Moon Landing - Astronaut2 - Left Arm1.ldr
@@ -920,6 +945,7 @@
 
 
 
+0 STEP
 0 FILE 367 - Moon Landing - Astronaut2 - Left Arm2.ldr
 0 White arm piece with towball socket serving as the upper arm segment of astronaut 2's left arm.
 0 Name: 367 - Moon Landing - Astronaut2 - Left Arm2.ldr
@@ -932,6 +958,7 @@
 
 
 
+0 STEP
 0 FILE 367 - Moon Landing - Astronaut2 - Left Arm3.ldr
 0 White arm piece with aligned fingers forming the forearm of astronaut 2's left arm.
 0 Name: 367 - Moon Landing - Astronaut2 - Left Arm3.ldr
@@ -944,6 +971,7 @@
 
 
 
+0 STEP
 0 FILE 367 - Moon Landing - Astronaut2 - Left Arm4.ldr
 0 White arm piece with disc and two fingers forming the hand of astronaut 2's left arm.
 0 Name: 367 - Moon Landing - Astronaut2 - Left Arm4.ldr
@@ -956,6 +984,7 @@
 
 
 
+0 STEP
 0 FILE 367 - Moon Landing - Astronaut3 - Left Arm1.ldr
 0 Yellow round towball plate forming the shoulder joint of astronaut 3's left arm.
 0 Name: 367 - Moon Landing - Astronaut3 - Left Arm1.ldr
@@ -967,6 +996,7 @@
 
 
 
+0 STEP
 0 FILE 367 - Moon Landing - Astronaut3 - Left Arm2.ldr
 0 White arm piece with towball socket serving as the upper arm segment of astronaut 3's left arm.
 0 Name: 367 - Moon Landing - Astronaut3 - Left Arm2.ldr
@@ -979,6 +1009,7 @@
 
 
 
+0 STEP
 0 FILE 367 - Moon Landing - Astronaut3 - Left Arm3.ldr
 0 White arm piece with aligned fingers forming the forearm of astronaut 3's left arm.
 0 Name: 367 - Moon Landing - Astronaut3 - Left Arm3.ldr
@@ -991,6 +1022,7 @@
 
 
 
+0 STEP
 0 FILE 367 - Moon Landing - Astronaut3 - Left Arm4.ldr
 0 White arm piece with disc and two fingers forming the hand of astronaut 3's left arm.
 0 Name: 367 - Moon Landing - Astronaut3 - Left Arm4.ldr
@@ -1003,6 +1035,7 @@
 
 
 
+0 STEP
 0 FILE 367 - Moon Landing - Astronaut3 - Right Arm1.ldr
 0 Yellow round towball plate forming the shoulder joint of astronaut 3's right arm.
 0 Name: 367 - Moon Landing - Astronaut3 - Right Arm1.ldr
@@ -1014,6 +1047,7 @@
 
 
 
+0 STEP
 0 FILE 367 - Moon Landing - Astronaut3 - Right Arm2.ldr
 0 White arm piece with towball socket serving as the upper arm segment of astronaut 3's right arm.
 0 Name: 367 - Moon Landing - Astronaut3 - Right Arm2.ldr
@@ -1026,6 +1060,7 @@
 
 
 
+0 STEP
 0 FILE 367 - Moon Landing - Astronaut3 - Right Arm3.ldr
 0 White arm piece with aligned fingers forming the forearm of astronaut 3's right arm.
 0 Name: 367 - Moon Landing - Astronaut3 - Right Arm3.ldr
@@ -1038,6 +1073,7 @@
 
 
 
+0 STEP
 0 FILE 367 - Moon Landing - Astronaut3 - Right Arm4.ldr
 0 White arm piece with disc and two fingers forming the hand of astronaut 3's right arm.
 0 Name: 367 - Moon Landing - Astronaut3 - Right Arm4.ldr
@@ -1052,6 +1088,7 @@
 
 
 
+0 STEP
 0 FILE 367 - 004486a.dat
 0 Decorative sticker printed with a United States flag pattern, composed of red, white, and blue segments arranged as stars and stripes.
 0 Name: 367 - 004486a.dat

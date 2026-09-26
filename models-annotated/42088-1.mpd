@@ -163,6 +163,7 @@
 
 
 
+0 STEP
 0 FILE 42088 - Chassis.ldr
 0 Orange and blue Technic chassis frame built from 13-stud beams, cross blocks, plates, and curved slope body panels.
 0 Name: 42088 - Chassis.ldr
@@ -260,6 +261,7 @@
 
 
 
+0 STEP
 0 FILE 42088 - Rear Bumper.ldr
 0 Compact rear bumper assembly using an axle, angle connectors, bushes, and trans-red round lights.
 0 Name: 42088 - Rear Bumper.ldr
@@ -293,6 +295,7 @@
 
 
 
+0 STEP
 0 FILE 42088 - Hood.ldr
 0 Hood structure built from a bent orange liftarm, cross blocks, pins, and short notched axles.
 0 Name: 42088 - Hood.ldr
@@ -328,6 +331,7 @@
 
 
 
+0 STEP
 0 FILE 42088 - Cab.ldr
 0 Orange and black Technic cab frame using angle connectors, cross blocks, an axle, and a short liftarm.
 0 Name: 42088 - Cab.ldr
@@ -374,6 +378,7 @@
 
 
 
+0 STEP
 0 FILE 42088 - Boom Pivot.ldr
 0 Boom pivot mechanism using bent liftarms, gears, a worm gear, bushes, and cross blocks for rotational articulation.
 0 Name: 42088 - Boom Pivot.ldr
@@ -462,6 +467,7 @@
 
 
 
+0 STEP
 0 FILE 42088 - Boom.ldr
 0 Extendable white Technic boom arm made of 5- and 7-stud liftarms, a 24-tooth gear, and notched axles.
 0 Name: 42088 - Boom.ldr
@@ -511,6 +517,7 @@
 
 
 
+0 STEP
 0 FILE 42088 - Platform.ldr
 0 Work platform built from bent liftarms, cross blocks, axles, bushes, and a pin joiner.
 0 Name: 42088 - Platform.ldr
@@ -559,6 +566,7 @@
 1 1 25 -70 0 0 -1 0 -1 0 0 0 0 -1 43093.dat
 
 
+0 STEP
 0 FILE 42088 - 32905.dat
 0 Detailed model of a Technic worm gear with reduced axlehole, composed of cylindrical and sliding axle-hole primitives.
 0 Name: 42088 - 32905.dat
@@ -581,6 +589,7 @@
 1 16 0 0 20 6 0 0 0 0 6 0 -1.5 0 4-4cyli.dat
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\42088 - 4716s02.dat
 
+0 STEP
 0 FILE 42088 - axl4hol2.dat
 0 Primitive subpart representing the side edges of a sliding Technic axle hole using quarter-circle segments.
 0 Name: 42088 - axl4hol2.dat
@@ -599,6 +608,7 @@
 0 // Circle 0.25 (main_colour)
 1 16 0 0 0 -6 0 0 0 1 0 0 0 -6 1-4edge.dat
 
+0 STEP
 0 FILE 42088 - axl4hole.dat
 0 Primitive subpart modeling a sliding Technic axle hole using cylinders and axle-hole teeth.
 0 Name: 42088 - axl4hole.dat
@@ -627,6 +637,7 @@
 1 16 0 0 0 -1 0 0 0 1 0 0 0 1 axlehol6.dat
 4 16 -2 1 5.602 0 1 6 0 0 6 -2 0 5.602
 
+0 STEP
 0 FILE 42088 - axl4hol3.dat
 0 Primitive subpart defining the outer edges of the sliding axle hole teeth.
 0 Name: 42088 - axl4hol3.dat
@@ -645,6 +656,7 @@
 2 24 4.243 0 -4.243 2.296 0 -5.543
 2 24 2.296 0 -5.543 2 0 -5.602
 
+0 STEP
 0 FILE s\42088 - 4716s02.dat
 0 Subpart forming the main body of a Technic worm gear.
 0 Name: s\42088 - 4716s02.dat
@@ -742,6 +754,7 @@
 1 16 0 0 16 0 0 7 -7 0 0 0 2 0 42088 - 1-4cyloh.dat
 1 16 0 0 18 7 0 0 0 0 7 0 2 0 42088 - 1-4cyloh.dat
 
+0 STEP
 0 FILE s\42088 - 4716s03.dat
 0 Subpart modeling the end surface of a Technic worm gear using rings, discs, chords, and helical cylinders.
 0 Name: s\42088 - 4716s03.dat
@@ -819,6 +832,7 @@
 0 // Cylinder Helical Edge 0.25 (main_colour)
 1 16 0 0 0 0 0 12.7 -12.7 0 0 0 2 0 1-4edgh.dat
 
+0 STEP
 0 FILE s\42088 - 4716s01.dat
 0 Subpart representing a single helical thread segment of a Technic worm gear.
 0 Name: s\42088 - 4716s01.dat
@@ -878,6 +892,7 @@
 5 24 -12.7 0 0 -6.4672 2.6788 -2.5 -11.7333 4.8601 -0.5 -7 0 -2
 0 // 5 24 0 12.7 -2 0 7 -4 2.6788 6.4672 -4.5 -4.8601 11.7333 -1.5
 
+0 STEP
 0 FILE 42088 - 1-4cyloh.dat
 0 Primitive subpart defining a quarter helical cylinder with edges for worm-gear geometry.
 0 Name: 42088 - 1-4cyloh.dat
@@ -893,6 +908,7 @@
 0 // Cylinder Helical Edge 0.25 (main_colour)
 1 16 0 -1 0 1 0 0 0 1 0 0 0 1 1-4edgh.dat
 
+0 STEP
 0 FILE 42088 - 1-4cylih.dat
 0 Primitive subpart defining a quarter helical cylinder without edges for worm-gear geometry.
 0 Name: 42088 - 1-4cylih.dat

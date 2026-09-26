@@ -13,6 +13,7 @@
 
 
 0 NOFILE
+0 STEP
 0 FILE 6674 - car.ldr
 0 A compact car model built with plates, mudguards, wheel pins, and yellow detailing accents.
 0 car
@@ -215,6 +216,7 @@
 
 
 0 NOFILE
+0 STEP
 0 FILE 6674 - minifig.ldr
 0 A blue-torsoed minifig with a red cap, standard grin head, and yellow hands.
 0 minifig

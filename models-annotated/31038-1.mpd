@@ -7,6 +7,7 @@
 1 15 0 0 0 1 0 0 0 1 0 0 0 1 31038 - Changing Seasons.ldr
 
 
+0 STEP
 0 FILE 31038 - Changing Seasons.ldr
 0 The main house structure built on a large green baseplate with white 45-degree roof slopes, hinged corners, and window/door openings.
 0 Name: 31038 - Changing Seasons.ldr
@@ -751,6 +752,7 @@
 1 72 -120 -7 -190 1 0 0 0 1 0 0 0 1 31038 - Car.ldr
 
 
+0 STEP
 0 FILE 31038 - Young.ldr
 0 A young female minifigure wearing a white hooded sweatshirt with dark brown braided ponytail hair.
 0 Name: 31038 - Young.ldr
@@ -775,6 +777,7 @@
 1 14 23.8634 26.5956 -10.321 0.985 0.12019 -0.12019 -0.17 0.696395 -0.696395 0 0.707 0.707 3820.dat
 
 
+0 STEP
 0 FILE 31038 - Adult.ldr
 0 An adult male minifigure wearing a dark blue plaid shirt, red cap, and dark tan legs.
 0 Name: 31038 - Adult.ldr
@@ -803,6 +806,7 @@
 1 28 0 44 0 1 0 0 0 1 0 0 0 1 3817b.dat
 
 
+0 STEP
 0 FILE 31038 - Corner.ldr
 0 A hinged corner wall section of light bluish grey bricks with green base plates allowing the house to fold open.
 0 Name: 31038 - Corner.ldr
@@ -855,6 +859,7 @@
 1 15 20 -32 -20 1 0 0 0 1 0 0 0 1 3020.dat
 
 
+0 STEP
 0 FILE 31038 - Seat.ldr
 0 A small white garden chair built from plates, clips, and a curved slope.
 0 Name: 31038 - Seat.ldr
@@ -880,6 +885,7 @@
 1 15 -36 -36 0 0 -1 0 0 0 1 -1 0 0 15068.dat
 
 
+0 STEP
 0 FILE 31038 - Lamp.ldr
 0 A white outdoor lamp post made from a domed cylinder, cone top, and a trans-orange light element.
 0 Name: 31038 - Lamp.ldr
@@ -895,6 +901,7 @@
 1 15 0 -32 0 1 0 0 0 1 0 0 0 1 30367c.dat
 
 
+0 STEP
 0 FILE 31038 - Window bottom.ldr
 0 A reddish brown window sill decorated with colorful round plates as flowers.
 0 Name: 31038 - Window bottom.ldr
@@ -919,6 +926,7 @@
 1 15 0 0 10 1 0 0 0 1 0 0 0 1 3710.dat
 
 
+0 STEP
 0 FILE 31038 - Window bottom RH.ldr
 0 A right-side window sill with reddish brown plate and round flower plates in yellow and orange.
 0 Name: 31038 - Window bottom RH.ldr
@@ -939,6 +947,7 @@
 1 15 0 -16 10 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 31038 - Window bottom LH.ldr
 0 A left-side window sill with reddish brown plate and round flower plates in yellow and bright green.
 0 Name: 31038 - Window bottom LH.ldr
@@ -959,6 +968,7 @@
 1 14 10 -16 -10 0 0 1 0 1 0 -1 0 0 6141.dat
 
 
+0 STEP
 0 FILE 31038 - Ladder.ldr
 0 A white ladder made of a long plate with reddish brown sloped rungs.
 0 Name: 31038 - Ladder.ldr
@@ -976,6 +986,7 @@
 1 70 30 0 0 0 0 1 0 1 0 -1 0 0 85984.dat
 
 
+0 STEP
 0 FILE 31038 - Door.ldr
 0 A white door frame with a green paneled door and a light bluish grey knob tile.
 0 Name: 31038 - Door.ldr
@@ -991,6 +1002,7 @@
 1 71 -26 68 -16 -1 0 0 0 0 1 0 1 0 98138.dat
 
 
+0 STEP
 0 FILE 31038 - Window RW.ldr
 0 A tall window assembly with white frame, green panes, and red and white decorative slopes above.
 0 Name: 31038 - Window RW.ldr
@@ -1014,6 +1026,7 @@
 1 15 30 -24 0 1 0 0 0 1 0 0 0 1 3040b.dat
 
 
+0 STEP
 0 FILE 31038 - Window WR.ldr
 0 A tall window assembly with white frame, green panes, and red and white decorative slopes above.
 0 Name: 31038 - Window WR.ldr
@@ -1037,6 +1050,7 @@
 1 15 10 -24 0 1 0 0 0 1 0 0 0 1 3040b.dat
 
 
+0 STEP
 0 FILE 31038 - Window LH.ldr
 0 A small window with clear glass set in a reddish brown sill with flower decorations.
 0 Name: 31038 - Window LH.ldr
@@ -1058,6 +1072,7 @@
 1 14 -10 32 -20 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 31038 - Window RH.ldr
 0 A small window with clear glass set in a reddish brown sill with flower decorations.
 0 Name: 31038 - Window RH.ldr
@@ -1078,6 +1093,7 @@
 1 25 -10 40 -20 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 31038 - Outpost.ldr
 0 A small antenna or weather station with a trans-yellow light, inverted dish, and a tap handle.
 0 Name: 31038 - Outpost.ldr
@@ -1093,6 +1109,7 @@
 1 71 -4 -18 0 0 1 0 0 0 1 1 0 0 4599b.dat
 
 
+0 STEP
 0 FILE 31038 - Top.ldr
 0 A black rooftop finial or cap detail made from a cone and two inverted dishes.
 0 Name: 31038 - Top.ldr
@@ -1108,6 +1125,7 @@
 1 0 0 -16 0 1 0 0 0 1 0 0 0 1 4740.dat
 
 
+0 STEP
 0 FILE 31038 - Basket.ldr
 0 A green life ring mounted on a white post with a black bar.
 0 Name: 31038 - Basket.ldr
@@ -1123,6 +1141,7 @@
 1 15 0 -12 0 -1 0 0 0 -1 0 0 0 1 15210.dat
 
 
+0 STEP
 0 FILE 31038 - Table.ldr
 0 A small round table with a black pedestal and a clear cup on top.
 0 Name: 31038 - Table.ldr
@@ -1138,6 +1157,7 @@
 1 47 0 -32 0 1 0 0 0 1 0 0 0 1 3899.dat
 
 
+0 STEP
 0 FILE 31038 - Light.ldr
 0 A white light fixture with a trans-yellow bulb and inverted dish reflector.
 0 Name: 31038 - Light.ldr
@@ -1153,6 +1173,7 @@
 1 15 0 -32 0 1 0 0 0 1 0 0 0 1 4740.dat
 
 
+0 STEP
 0 FILE 31038 - Mailbox.ldr
 0 A red mailbox with a letter-patterned tile, mounted on a reddish brown post with a curved top.
 0 Name: 31038 - Mailbox.ldr
@@ -1184,6 +1205,7 @@
 1 15 -24 -24 0 -1 0 0 0 1 0 0 0 -1 3069bp01.dat
 
 
+0 STEP
 0 FILE 31038 - Tree.ldr
 0 An apple tree with a reddish brown trunk, dark green and brown foliage slopes, red round fruit plates, and pointed arch branches.
 0 Name: 31038 - Tree.ldr
@@ -1267,6 +1289,7 @@
 1 15 -30 -176 50 0.866 0 -0.5 0 1 0 0.5 0 0.866 31038 - Bird.ldr
 
 
+0 STEP
 0 FILE 31038 - Bird.ldr
 0 A small bird model with white and black sloped body, a red clip wing, and a yellow beak.
 0 Author: Marc Giraudet [Mad_Marc]
@@ -1293,6 +1316,7 @@
 1 15 0 -32 0 0 0 -1 0 1 0 1 0 0 54200.dat
 
 
+0 STEP
 0 FILE 31038 - Lawnmower.ldr
 0 A yellow lawnmower with black mechanical arm handle, grey handlebars, and two rubber tyres.
 0 Name: 31038 - Lawnmower.ldr
@@ -1339,6 +1363,7 @@
 1 256 -30 -3 10 0 0 1 0 1 0 -1 0 0 87414.dat
 
 
+0 STEP
 0 FILE 31038 - Car.ldr
 0 A small blue and white car built with plates and brackets, featuring a yellow steering wheel, headlights, and a handle on the roof.
 0 Author: Marc Giraudet [Mad_Marc]
@@ -1445,6 +1470,7 @@
 1 256 -30 -3 40 0 0 1 0 1 0 -1 0 0 87414.dat
 
 
+0 STEP
 0 FILE 31038 - Car front.ldr
 0 The front section of a car with a blue base, a black grille tile, and two clear round headlights.
 0 Name: 31038 - Car front.ldr

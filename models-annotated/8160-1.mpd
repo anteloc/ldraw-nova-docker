@@ -19,6 +19,7 @@
 
 0
 
+0 STEP
 0 FILE 8160 - 8160-1.ldr
 0 Yellow and black chassis and body structure with steering stand, technic bricks, plates, and curved slopes forming a vehicle frame.
 0 Name: 8160 - 8160-1.ldr
@@ -283,6 +284,7 @@
 
 
 
+0 STEP
 0 FILE 8160 - 8160-2.ldr
 0 Single competition arrow with a hollow rubber black tip used as a projectile.
 0 Name: 8160 - 8160-2.ldr
@@ -308,6 +310,7 @@
 
 0
 
+0 STEP
 0 FILE 8160 - 8160-2-a.ldr
 0 Red launcher vehicle with technic axles, competition cannon, wings, and pin-based construction forming the firing mechanism base.
 0 Name: 8160 - 8160-2-a.ldr
@@ -608,6 +611,7 @@
 
 0
 
+0 STEP
 0 FILE 8160 - 8160-2-b.ldr
 0 Red base plate assembly with curved double slope and clipped attachments forming a mounting platform.
 0 Name: 8160 - 8160-2-b.ldr
@@ -637,6 +641,7 @@
 
 0
 
+0 STEP
 0 FILE 8160 - 8160-2-c.ldr
 0 Red launcher section with wings, corner plates, and curved double slope forming a guided projectile ramp.
 0 Name: 8160 - 8160-2-c.ldr
@@ -679,6 +684,7 @@
 
 0
 
+0 STEP
 0 FILE 8160 - 8160-2-d.ldr
 0 Red and black launcher structure with bent technic beams, long technic bricks, tiles, and trans-red round plates forming the body and rails.
 0 Name: 8160 - 8160-2-d.ldr
@@ -894,6 +900,7 @@
 
 0
 
+0 STEP
 0 FILE 8160 - 8160-2-e.ldr
 0 Small technic axle connector assembly with bushings for joining rotating components.
 0 Name: 8160 - 8160-2-e.ldr
@@ -921,6 +928,7 @@
 
 0
 
+0 STEP
 0 FILE 8160 - 8160-2-f.ldr
 0 Technic axle and pin connector subassembly for linking shafts in the launcher mechanism.
 0 Name: 8160 - 8160-2-f.ldr
@@ -958,6 +966,7 @@
 
 
 
+0 STEP
 0 FILE 8160 - 62359.dat
 0 Multi-piece wheel component with axle holes, spokes, hub, and rim rings forming a complete wheel.
 0 Name: 8160 - 62359.dat
@@ -1031,6 +1040,7 @@
 5 24 0 -8.749 -13.75 0 -8.749 -17.188 1.201 -8.667 -13.75 -1.201 -8.667 -13.75
 
 
+0 STEP
 0 FILE s\8160 - 62359s01.dat
 0 Wheel cover subpart defining the spoke and line geometry for a 7-spoke wheel cover.
 0 Name: s\8160 - 62359s01.dat

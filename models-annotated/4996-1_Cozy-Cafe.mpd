@@ -7,6 +7,7 @@
 1 72 0 0 0 1 0 0 0 1 0 0 0 1 4996 - Restaurant.ldr
 
 
+0 STEP
 0 FILE 4996 - Restaurant.ldr
 0 A large café building on a green baseplate with dark bluish-grey and yellow brick walls, tiled floors, and grille details.
 0 Name: 4996 - Restaurant.ldr
@@ -768,6 +769,7 @@
 1 15 180 -24 20 1 0 0 0 1 0 0 0 1 4996 - Table.ldr
 
 
+0 STEP
 0 FILE 4996 - Plant1.ldr
 0 A small decorative plant with a reddish-brown soil plate and colorful round flower buds.
 0 Name: 4996 - Plant1.ldr
@@ -794,6 +796,7 @@
 1 25 0 -24 10 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 4996 - Plant2.ldr
 0 A decorative plant on a longer reddish-brown base with multiple colorful round flower buds.
 0 Name: 4996 - Plant2.ldr
@@ -826,6 +829,7 @@
 1 25 30 -16 0 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 4996 - Tap.ldr
 0 A small bar tap fixture with a black spout and dark bluish-grey mounting elements.
 0 Name: 4996 - Tap.ldr
@@ -843,6 +847,7 @@
 1 72 0 -24 -10 -1 0 0 0 1 0 0 0 -1 54200.dat
 
 
+0 STEP
 0 FILE 4996 - Bar.ldr
 0 A yellow-topped counter bar built from plates and long tiles on a dark bluish-grey base.
 0 Name: 4996 - Bar.ldr
@@ -866,6 +871,7 @@
 1 14 200 -8 0 1 0 0 0 1 0 0 0 1 6636.dat
 
 
+0 STEP
 0 FILE 4996 - Wall Right.ldr
 0 A yellow brick wall section with an inverted slope corner detail.
 0 Name: 4996 - Wall Right.ldr
@@ -891,6 +897,7 @@
 1 14 -10 -104 0 1 0 0 0 1 0 0 0 1 3024.dat
 
 
+0 STEP
 0 FILE 4996 - Wall Left.ldr
 0 A yellow brick wall section with an inverted slope corner detail.
 0 Name: 4996 - Wall Left.ldr
@@ -913,6 +920,7 @@
 1 14 0 -72 0 1 0 0 0 1 0 0 0 1 3004.dat
 
 
+0 STEP
 0 FILE 4996 - Door.ldr
 0 A white framed glass door with surrounding trim and accent plates.
 0 Name: 4996 - Door.ldr
@@ -936,6 +944,7 @@
 1 0 -25 70 -16.75 -1 0 0 0 0 1 0 1 0 6141.dat
 
 
+0 STEP
 0 FILE 4996 - Windows.ldr
 0 A set of two white multi-pane windows with glass inserts and a black frame surround.
 0 Name: 4996 - Windows.ldr
@@ -979,6 +988,7 @@
 1 0 0 -176 0 1 0 0 0 1 0 0 0 1 6636.dat
 
 
+0 STEP
 0 FILE 4996 - Seat.ldr
 0 A small seat or stool built from reddish-brown and dark bluish-grey plates with clip and handle connections.
 0 Name: 4996 - Seat.ldr
@@ -1012,6 +1022,7 @@
 1 70 -30 0 0 1 0 0 0 1 0 0 0 1 3062b.dat
 
 
+0 STEP
 0 FILE 4996 - Table.ldr
 0 A round white café table with a central post base, topped with a red cup and inverted dish umbrella.
 0 Name: 4996 - Table.ldr

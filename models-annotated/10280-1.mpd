@@ -22,6 +22,7 @@
 1 0 -200 0 -260 1 0 0 0 1 0 0 0 1 10280 - daisy.ldr
 
 
+0 STEP
 0 FILE 10280 - daisy.ldr
 0 A daisy flower on a long sand green technic axle stem with a black connector hub, four black bar tube petals, and a brown carrot top center.
 0 Name: 10280 - daisy.ldr
@@ -53,6 +54,7 @@
 1 378 0 -320 0 0 1 0 -1 0 0 0 0 1 50450.dat
 
 
+0 STEP
 0 FILE 10280 - daisy-flower.ldr
 0 A white-petaled daisy flower head built from eight round-ended plates radiating around a yellow round tile center atop a tan palm tree top base.
 0 Name: 10280 - daisy-flower.ldr
@@ -85,6 +87,7 @@
 1 14 0 -24 0 1 0 0 0 1 0 0 0 1 14769.dat
 
 
+0 STEP
 0 FILE 10280 - rose-flower.ldr
 0 A rose flower head with dark green steering-wheel leaf petals, a green round base and brick, a tan grooved center plate, and a reddish brown lightsaber bar stem.
 0 Name: 10280 - rose-flower.ldr
@@ -128,6 +131,7 @@
 1 70 0 -48 0 1 0 0 0 1 0 0 0 1 30374.dat
 
 
+0 STEP
 0 FILE 10280 - rose-flower-step4.ldr
 0 A small tan rose flower detail assembly using a bracket and a curved fin slope to form part of the rose petal structure.
 0 Name: 10280 - rose-flower-step4.ldr
@@ -141,6 +145,7 @@
 1 19 0 -22 -30 -1 0 0 0 0 1 0 1 0 47458.dat
 
 
+0 STEP
 0 FILE 10280 - rose-flower-step7.ldr
 0 A white rose flower detail using a four-sided stud brick and four toothed plates to create a small textured blossom.
 0 Name: 10280 - rose-flower-step7.ldr
@@ -160,6 +165,7 @@
 1 15 18 10 0 0 -1 0 0 0 1 -1 0 0 49668.dat
 
 
+0 STEP
 0 FILE 10280 - rose-flower-step8.ldr
 0 A light nougat rose flower component built from a curved slope, grooved tile, and horizontal clip plate to shape the petal layer.
 0 Name: 10280 - rose-flower-step8.ldr
@@ -175,6 +181,7 @@
 1 78 0 -2 -20 -1 0 0 0 1 0 0 0 -1 11476.dat
 
 
+0 STEP
 0 FILE 10280 - rose-flower-step9.ldr
 0 A light nougat rose flower component using a horizontal clip plate and a curved mudguard element to form an outer petal.
 0 Name: 10280 - rose-flower-step9.ldr
@@ -188,6 +195,7 @@
 1 78 0 6 -20 1 0 0 0 1 0 0 0 1 98835.dat
 
 
+0 STEP
 0 FILE 10280 - rose-stem-1.ldr
 0 A dark green rose stem with technic axle joiners and angle connectors, reddish brown cow horn thorns, a pteranodon wing leaf, and round green plates.
 0 Name: 10280 - rose-stem-1.ldr
@@ -234,6 +242,7 @@
 1 288 -10 -40 -20 0 0 1 0 1 0 -1 0 0 10280 - 98088p04.dat
 
 
+0 STEP
 0 FILE 10280 - rose-stem-1-step7.ldr
 0 A rose stem connection segment using a red notched axle and a dark green technic axle joiner.
 0 Name: 10280 - rose-stem-1-step7.ldr
@@ -247,6 +256,7 @@
 1 288 0 30 0 1 0 0 0 0 -1 0 1 0 26287.dat
 
 
+0 STEP
 0 FILE 10280 - rose-stem-2.ldr
 0 A dark green rose stem variant with multiple technic axle joiners and angle connectors, a black pin connector, and a pteranodon wing leaf.
 0 Name: 10280 - rose-stem-2.ldr
@@ -283,6 +293,7 @@
 1 288 -10 -40 -20 0 0 1 0 1 0 -1 0 0 10280 - 98088p04.dat
 
 
+0 STEP
 0 FILE 10280 - rose-1.ldr
 0 A complete rose assembly combining stem and flower head submodels into a single rose flower unit.
 0 Name: 10280 - rose-1.ldr
@@ -294,6 +305,7 @@
 1 288 0 -677.96 -55.488 1 0 0 0 0.707 -0.707 0 0.707 0.707 10280 - rose-flower.ldr
 
 
+0 STEP
 0 FILE 10280 - rose-2.ldr
 0 An alternative complete rose assembly combining stem and flower head submodels into a second rose flower variant.
 0 Name: 10280 - rose-2.ldr
@@ -305,6 +317,7 @@
 1 288 0 -696 0 1 0 0 0 1 0 0 0 1 10280 - rose-flower.ldr
 
 
+0 STEP
 0 FILE 10280 - california-poppy.ldr
 0 A California poppy flower on a sand green technic axle stem with green connectors, yellow petal tubes and bricks, and pearl gold round pin tiles.
 0 Name: 10280 - california-poppy.ldr
@@ -362,6 +375,7 @@
 1 288 0 -30 0 1 0 0 0 0 1 0 -1 0 26287.dat
 
 
+0 STEP
 0 FILE 10280 - california-poppy-step4.ldr
 0 A yellow and orange California poppy petal component using a horizontal clip plate and two curved orange slopes.
 0 Name: 10280 - california-poppy-step4.ldr
@@ -377,6 +391,7 @@
 1 25 -10 20 16 -1 0 0 0 0 -1 0 -1 0 50950.dat
 
 
+0 STEP
 0 FILE 10280 - california-poppy-step5.ldr
 0 A California poppy petal component using a yellow clip plate and an orange triple-curved wedge element to form a large petal.
 0 Name: 10280 - california-poppy-step5.ldr
@@ -390,6 +405,7 @@
 1 25 0 20 16 -1 0 0 0 0 -1 0 -1 0 64225.dat
 
 
+0 STEP
 0 FILE 10280 - california-poppy-step7.ldr
 0 An orange California poppy petal component using a handled plate and a large rounded curved slope.
 0 Name: 10280 - california-poppy-step7.ldr
@@ -403,6 +419,7 @@
 1 25 0 6 20 -1 0 0 0 1 0 0 0 -1 93604.dat
 
 
+0 STEP
 0 FILE 10280 - greenery.ldr
 0 A greenery foliage cluster with dark green bushes on a round axlehole plate, a reddish brown stop bar, and black round bricks for grounding.
 0 Name: 10280 - greenery.ldr
@@ -429,6 +446,7 @@
 1 288 0 -210 0 1 0 0 0 1 0 0 0 1 10280 - greenery-stem.ldr
 
 
+0 STEP
 0 FILE 10280 - greenery-stem.ldr
 0 A simple greenery stem made of a dark green technic axle joiner and a long sand green technic axle.
 0 Name: 10280 - greenery-stem.ldr
@@ -446,6 +464,7 @@
 1 378 0 -330 0 0 -1 0 1 0 0 0 0 1 50450.dat
 
 
+0 STEP
 0 FILE 10280 - snapdragon-flower.ldr
 0 A snapdragon flower with sand green octagonal frame plates, lime round bricks, reddish brown stop bars, and a lime inline axle joiner on a green round base.
 0 Name: 10280 - snapdragon-flower.ldr
@@ -504,6 +523,7 @@
 1 70 0 -6 30 0 0 -1 -0.866 0.5 0 0.5 0.866 0 10280 - snapdragon-flower-step12.ldr
 
 
+0 STEP
 0 FILE 10280 - snapdragon-flower-step7.ldr
 0 A snapdragon flower detail using a sand green barred round plate, a lime round brick, and four bright pink stop cones for petal accents.
 0 Name: 10280 - snapdragon-flower-step7.ldr
@@ -526,6 +546,7 @@
 1 29 -30 -4 0 1 0 0 0 -1 0 0 0 -1 59900.dat
 
 
+0 STEP
 0 FILE 10280 - snapdragon-flower-step9.ldr
 0 A snapdragon flower detail using a lime four-sided stud brick, a sand green stop cone, and four yellowish green toothed plates.
 0 Name: 10280 - snapdragon-flower-step9.ldr
@@ -548,6 +569,7 @@
 1 326 0 10 -18 -1 0 0 0 0 1 0 1 0 49668.dat
 
 
+0 STEP
 0 FILE 10280 - snapdragon-flower-step10.ldr
 0 A snapdragon flower top component using a sand green clip tile and a dark pink truncated cone to form a layered blossom.
 0 Name: 10280 - snapdragon-flower-step10.ldr
@@ -561,6 +583,7 @@
 1 5 0 14 0 1 0 0 0 1 0 0 0 1 98100.dat
 
 
+0 STEP
 0 FILE 10280 - snapdragon-flower-step12.ldr
 0 A snapdragon flower top component using a magenta dome, a magenta four-petal base brick, and a sand green clip tile.
 0 Name: 10280 - snapdragon-flower-step12.ldr
@@ -577,6 +600,7 @@
 1 378 0 6 0 1 0 0 0 1 0 0 0 1 15712.dat
 
 
+0 STEP
 0 FILE 10280 - snapdragon-stem1.ldr
 0 A dark green snapdragon stem with technic axle joiners, angle connectors, a 90-degree connector hub, a red notched axle, and green five-petal leaf plates.
 0 Name: 10280 - snapdragon-stem1.ldr
@@ -618,6 +642,7 @@
 1 2 0 270 0 0 0 1 0 1 0 -1 0 0 10280 - rose-stem-1-step7.ldr
 
 
+0 STEP
 0 FILE 10280 - snapdragon-stem1-step4.ldr
 0 A snapdragon flower stem segment using a sand green claw on a dark grey connector.
 0 Name: 10280 - snapdragon-stem1-step4.ldr
@@ -631,6 +656,7 @@
 1 378 0 10 0 1 0 0 0 1 0 0 0 1 10280 - 15362.dat
 
 
+0 STEP
 0 FILE 10280 - snapdragon-stem2.ldr
 0 A green snapdragon stem built from axle joiners and connectors on a light bluish grey axle.
 0 Name: 10280 - snapdragon-stem2.ldr
@@ -667,6 +693,7 @@
 1 2 0 270 0 0 0 1 0 1 0 -1 0 0 10280 - rose-stem-1-step7.ldr
 
 
+0 STEP
 0 FILE 10280 - snapdragon1.ldr
 0 An empty snapdragon flower assembly submodel with no direct pieces.
 0 Name: 10280 - snapdragon1.ldr
@@ -678,6 +705,7 @@
 1 2 51.952 -674.424 0 0.707 -0.707 0 0.707 0.707 0 0 0 1 10280 - snapdragon-flower.ldr
 
 
+0 STEP
 0 FILE 10280 - snapdragon2.ldr
 0 An empty snapdragon flower assembly submodel with no direct pieces.
 0 Name: 10280 - snapdragon2.ldr
@@ -689,6 +717,7 @@
 1 2 0 -691 0 1 0 0 0 1 0 0 0 1 10280 - snapdragon-flower.ldr
 
 
+0 STEP
 0 FILE 10280 - lavender.ldr
 0 A small lavender flower base made of a long pin and a four-clip round connector.
 0 Name: 10280 - lavender.ldr
@@ -719,6 +748,7 @@
 1 70 0 -210 0 1 0 0 0 1 0 0 0 1 10280 - lavender-step4.ldr
 
 
+0 STEP
 0 FILE 10280 - lavender-step2.ldr
 0 A lavender flower step adding a handled plate and a clipped brown tile.
 0 Name: 10280 - lavender-step2.ldr
@@ -732,6 +762,7 @@
 1 70 -20 -10 0 0 0 1 0 1 0 -1 0 0 15712.dat
 
 
+0 STEP
 0 FILE 10280 - lavender-step3.ldr
 0 A lavender flower bloom with five-petal plates, stems, a pearl gold crown, and a reddish brown blade bar.
 0 Name: 10280 - lavender-step3.ldr
@@ -766,6 +797,7 @@
 1 70 0 -4 0 1 0 0 0 1 0 0 0 1 30374.dat
 
 
+0 STEP
 0 FILE 10280 - lavender-step4.ldr
 0 A lavender flower stem step using a green axle joiner on a long sand green axle.
 0 Name: 10280 - lavender-step4.ldr
@@ -784,6 +816,7 @@
 1 378 0 -330 0 0 -1 0 1 0 0 0 0 1 50450.dat
 
 
+0 STEP
 0 FILE 10280 - leaf.ldr
 0 A large curved plant leaf assembled from green and sand green plates, wedges, and a surf board element.
 0 Name: 10280 - leaf.ldr
@@ -830,6 +863,7 @@
 1 378 0 -320 0 0 0 1 1 0 0 0 1 0 50450.dat
 
 
+0 STEP
 0 FILE 10280 - leaf-step3.ldr
 0 A leaf-building step adding a long green base plate and lime square plates.
 0 Name: 10280 - leaf-step3.ldr
@@ -845,6 +879,7 @@
 1 27 0 -8 40 0 0 1 0 1 0 -1 0 0 3022.dat
 
 
+0 STEP
 0 FILE 10280 - leaf-step7.ldr
 0 A leaf-building step with a curved sand green slope, handled green plate, and pin-mounted base.
 0 Name: 10280 - leaf-step7.ldr
@@ -864,6 +899,7 @@
 1 378 0 -10 10 1 0 0 0 1 0 0 0 1 15068.dat
 
 
+0 STEP
 0 FILE 10280 - aster.ldr
 0 An aster flower assembly with a steering-wheel centre, octagonal frame, and clusters of lavender petals and leaves.
 0 Name: 10280 - aster.ldr
@@ -925,6 +961,7 @@
 1 0 0 -150 0 0 0 1 0 1 0 -1 0 0 10280 - aster-step10.ldr
 
 
+0 STEP
 0 FILE 10280 - aster-step6.ldr
 0 An aster flower step adding two lavender leaf plates on a lilac clip.
 0 Name: 10280 - aster-step6.ldr
@@ -940,6 +977,7 @@
 1 30 20 -10 0 0.707 0 -0.707 0 1 0 0.707 0 0.707 32607.dat
 
 
+0 STEP
 0 FILE 10280 - aster-step7.ldr
 0 An aster flower step adding a single lavender leaf plate on a lilac clip.
 0 Name: 10280 - aster-step7.ldr
@@ -953,6 +991,7 @@
 1 85 20 -2 0 0 0 1 0 1 0 -1 0 0 61252.dat
 
 
+0 STEP
 0 FILE 10280 - subModel-1.ldr
 0 An empty assembly submodel with no direct pieces.
 0 Name: 10280 - subModel-1.ldr
@@ -962,6 +1001,7 @@
 
 
 
+0 STEP
 0 FILE 10280 - aster-step10.ldr
 0 An aster flower stem step using a green axle joiner on a long sand green axle.
 0 Name: 10280 - aster-step10.ldr
@@ -979,6 +1019,7 @@
 1 378 0 -330 0 0 -1 0 1 0 0 0 0 1 50450.dat
 
 
+0 STEP
 0 FILE 10280 - 67811.dat
 0 A primitive part definition composed of axle-hole tooth, cylinder, circle, and ring geometric elements.
 0 Name: 10280 - 67811.dat
@@ -1034,6 +1075,7 @@
 0 // Ring  4 x 0.125 (main_colour)
 1 16 0 16 0 -3.69552 0 -1.53073 0 -1 0 1.53073 0 -3.69552 1-8ring4.dat
 
+0 STEP
 0 FILE 10280 - 98088p04.dat
 0 An empty primitive part definition with no direct pieces.
 0 Name: 10280 - 98088p04.dat
@@ -1056,6 +1098,7 @@
 1 378 0 0 0 0.98902 0.14781 0 -0.14781 0.98902 0 0 0 1 s\10280 - 98088s02.dat
 0 !TEXMAP END
 
+0 STEP
 0 FILE 10280 - 15362.dat
 0 A primitive part definition made of cone, cylinder, circle, axle, and disc geometric elements.
 0 Name: 10280 - 15362.dat
@@ -1126,6 +1169,7 @@
 5 24 0 -22 -10.781 0 -23.587 -10.781 -1.532 -22 -10.658 1.532 -22 -10.658
 5 24 0 -22.705 15.488 0 -22.292 10.8 -3.406 -22.916 15.488 3.406 -22.916 15.488
 
+0 STEP
 0 FILE 10280 - 39262.dat
 0 A simple primitive part definition built from circle, cylinder, and ring geometric elements.
 0 Name: 10280 - 39262.dat
@@ -1160,6 +1204,7 @@
 0 // Ring  2 x 1.0 (main_colour)
 1 16 0 3 0 2 0 0 0 -1 0 0 0 2 4-4ring2.dat
 
+0 STEP
 0 FILE s\10280 - 67811s01.dat
 0 A detailed sub-part definition with rectangles, circles, cylinders, rings, and stud extension geometry.
 0 Name: s\10280 - 67811s01.dat
@@ -1348,6 +1393,7 @@
 1 16 0 -6 0 40 0 0 0 -40 0 0 0 40 48\10280 - tm04i1000.dat
 1 16 0 -6 0 40 0 0 0 -40 0 0 0 40 48\10280 - tm04o1000.dat
 
+0 STEP
 0 FILE 48\10280 - tm04i1000.dat
 0 A torus inner-edge primitive with major radius 40 and minor radius 4 swept over a quarter.
 0 Name: 48\10280 - tm04i1000.dat
@@ -1528,6 +1574,7 @@
 5 24 0 0.0707 0.9293 0 0.0383 0.9076 0.1213 0.0707 0.9213 -0.1223 0.0707 0.9293
 5 24 0 0.0383 0.9076 0 0 0.9 0.1185 0.0383 0.8998 -0.1195 0.0383 0.9076
 
+0 STEP
 0 FILE 48\10280 - tm04o1000.dat
 0 A torus outer-edge primitive with major radius 40 and minor radius 4 swept over a quarter.
 0 Name: 48\10280 - tm04o1000.dat
@@ -1708,6 +1755,7 @@
 5 24 0 0.0707 1.0707 0 0.0924 1.0383 0.1398 0.0707 1.0616 -0.141 0.0707 1.0707
 5 24 0 0.0924 1.0383 0 0.1 1 0.1355 0.0924 1.0294 -0.1367 0.0924 1.0383
 
+0 STEP
 0 FILE s\10280 - 39262s01.dat
 0 An empty sub-part definition with no direct pieces.
 0 Name: s\10280 - 39262s01.dat
@@ -1831,6 +1879,7 @@
 5 24 8.5816 -1.3 -11.8116 8.9053 -3.9089 -12.885 9.1964 -3.7684 -12.6578 8.3325 -4.5452 -13.4942
 5 24 8.0918 -5 -13.8349 8.5816 -1.3 -11.8116 8.3325 -4.5452 -13.4942 5.0058 -5 -15.4078
 
+0 STEP
 0 FILE s\10280 - 15362s01.dat
 0 A sub-part definition composed of circles, sloped cylinders, rings, and chord geometric elements.
 0 Name: s\10280 - 15362s01.dat
@@ -2421,6 +2470,7 @@
 5 24 -1.1098 -27.9144 -2.6793 0 -26.535 -18.459 0 -28.1 -2.9 -2.0506 -27.757099 -2.0506
 5 24 -4.54 -27.313 4.048 -2.0506 -27.8332 2.0506 -1.1098 -28.0749 2.6793 -2.6793 -27.6717 1.1098
 
+0 STEP
 0 FILE s\10280 - 98088s01.dat
 0 A cylindrical geometric submodel composed of rectangles and open cylinders forming a hollow tubular structure.
 0 Name: s\10280 - 98088s01.dat
@@ -3484,6 +3534,7 @@
 5 24 146.166107 28.627199 -32.330002 146.333298 27.7927 -32.458 133.474792 24.492901 -33.819 164.175598 33.629101 -29.304001
 5 24 75.012398 6.7483 6.6459 92.250397 11.5817 -0.375 73.635597 6.6571 10.2329 78.001503 6.0771 -14.812
 
+0 STEP
 0 FILE s\10280 - 98088s02.dat
 0 An empty submodel containing no direct pieces.
 0 Name: s\10280 - 98088s02.dat

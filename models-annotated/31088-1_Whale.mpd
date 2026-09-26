@@ -194,6 +194,7 @@
 
 
 
+0 STEP
 0 FILE 31088 - Squid.ldr
 0 Small red squid creature with ball joints, curved slopes, clip-on bar tentacles, and six Viking horn appendages.
 0 Name: 31088 - Squid.ldr
@@ -271,6 +272,7 @@
 
 
 
+0 STEP
 0 FILE 31088 - Middle Section.ldr
 0 Large central body segment with inverted curved slopes, towball joints, long bricks, and trapezoid fins forming the whale's midsection.
 0 Name: 31088 - Middle Section.ldr
@@ -412,6 +414,7 @@
 
 
 
+0 STEP
 0 FILE 31088 - Tail.ldr
 0 Curved tail assembly with socket joint connection and rounded cutout plate forming the whale's flukes.
 0 Name: 31088 - Tail.ldr
@@ -441,6 +444,7 @@
 
 
 
+0 STEP
 0 FILE 31088 - 15456.dat
 0 Primitive geometric model of a plate with towball, composed of cylinders, cones, a sphere, and disc elements.
 0 Name: 31088 - 15456.dat
@@ -499,6 +503,7 @@
 
 
 
+0 STEP
 0 FILE 31088 - 4-4cyl19sph40.dat
 0 Primitive geometric part combining a sphere section with a cylinder, used as a sub-part for towball construction.
 0 Name: 31088 - 4-4cyl19sph40.dat

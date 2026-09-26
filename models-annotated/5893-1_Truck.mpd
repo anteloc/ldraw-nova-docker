@@ -9,6 +9,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Truck.ldr
 0 Main truck assembly built on a large Technic open-center frame with wheels, wings, grille slopes, and blue corner plates forming the bodywork.
 0 Name: 5893 - Truck.ldr
@@ -990,6 +991,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Loader.ldr
 0 Front loader attachment with Technic bricks, inverted slopes, round bricks, and corner plates forming its boxy structure.
 0 Name: 5893 - Loader.ldr
@@ -1316,6 +1318,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Loader engine.ldr
 0 Small engine module featuring an air scoop on a round plate base.
 0 Name: 5893 - Loader engine.ldr
@@ -1335,6 +1338,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Loader seat.ldr
 0 Simple operator seat built from tan and black plates with a handle.
 0 Name: 5893 - Loader seat.ldr
@@ -1353,6 +1357,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Loader roof.ldr
 0 Roll-bar style roof using a lattice fence mounted on brackets.
 0 Name: 5893 - Loader roof.ldr
@@ -1372,6 +1377,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Loader bucket.ldr
 0 Scoop bucket with sloped black panels, grille tiles, and a bent liftarm for articulation.
 0 Name: 5893 - Loader bucket.ldr
@@ -1420,6 +1426,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Truck frame.ldr
 0 Central chassis frame using a large Technic open-center brick held together with friction pins.
 0 Name: 5893 - Truck frame.ldr
@@ -1455,6 +1462,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Truck rear.ldr
 0 Rear bed section with a long plate, yellow Technic brick, and inverted slopes.
 0 Name: 5893 - Truck rear.ldr
@@ -1484,6 +1492,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Truck bumper.ldr
 0 Front bumper with a black plate, silver grille, and curved slope accents.
 0 Name: 5893 - Truck bumper.ldr
@@ -1507,6 +1516,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Truck brake.ldr
 0 Brake and hub assembly with a steering arm, cross block, axle, and yellow belt wheels.
 0 Name: 5893 - Truck brake.ldr
@@ -1531,6 +1541,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Truck steering.ldr
 0 Steering gear assembly with an axle, 8-tooth gears, a knob gear, and bushings.
 0 Name: 5893 - Truck steering.ldr
@@ -1569,6 +1580,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Truck side.ldr
 0 Wheel and axle assembly with a spoked rim mounted on a pin-axle brick.
 0 Name: 5893 - Truck side.ldr
@@ -1593,6 +1605,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Truck side RH.ldr
 0 Right-side body detail with a gauge dial pattern tile and grille slope on a bracket.
 0 Name: 5893 - Truck side RH.ldr
@@ -1614,6 +1627,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Truck side LH.ldr
 0 Left-side body detail with round accent plates and a grille slope on a bracket.
 0 Name: 5893 - Truck side LH.ldr
@@ -1633,6 +1647,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Truck front.ldr
 0 Front fascia with blue plates, black grille and grooved tiles, and clip-mounted details.
 0 Name: 5893 - Truck front.ldr
@@ -1674,6 +1689,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Truck light LH.ldr
 0 Left headlight cluster using clear and blue transparent slope bricks.
 0 Name: 5893 - Truck light LH.ldr
@@ -1690,6 +1706,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Truck light RH.ldr
 0 Right headlight cluster using clear and blue transparent slope bricks.
 0 Name: 5893 - Truck light RH.ldr
@@ -1706,6 +1723,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Truck steering V.ldr
 0 Steering linkage variant with a knob gear, axles, joiner, and a blue Technic plate.
 0 Name: 5893 - Truck steering V.ldr
@@ -1728,6 +1746,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Truck front middle.ldr
 0 Central front grille panel with metallic silver grille tiles framed by clear and blue tiles.
 0 Name: 5893 - Truck front middle.ldr
@@ -1767,6 +1786,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Truck winch.ldr
 0 Motorized winch with a windup motor, reel, towball, and hook assembly on a base plate.
 0 Name: 5893 - Truck winch.ldr
@@ -1808,6 +1828,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Truck light top LH.ldr
 0 Top-mounted left roof light with orange and clear transparent slope bricks.
 0 Name: 5893 - Truck light top LH.ldr
@@ -1824,6 +1845,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Truck light top RH.ldr
 0 Top-mounted right roof light with orange and clear transparent slope bricks.
 0 Name: 5893 - Truck light top RH.ldr
@@ -1840,6 +1862,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Truck seat.ldr
 0 Cab seat with tan and black plates, grooved tiles, and clip handles.
 0 Name: 5893 - Truck seat.ldr
@@ -1871,6 +1894,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Truck door LH.ldr
 0 Left hinged cab door with blue plates, corner plates, a grille tile, and a handle.
 0 Name: 5893 - Truck door LH.ldr
@@ -1907,6 +1931,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Truck door RH.ldr
 0 Right-hand blue truck door panel built with plates, a handle, corner pieces, a grille tile, and a hinge plate for mounting.
 0 Name: 5893 - Truck door RH.ldr
@@ -1943,6 +1968,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Truck mirror.ldr
 0 Compact blue side mirror assembly using two slope bricks mounted on a handled plate.
 0 Name: 5893 - Truck mirror.ldr
@@ -1959,6 +1985,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Truck roof.ldr
 0 Large blue truck roof section constructed from a variety of plates, tiles, and slope bricks forming a flat structural canopy.
 0 Name: 5893 - Truck roof.ldr
@@ -2114,6 +2141,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Truck ramp.ldr
 0 Dark and black loading ramp with grille tiles, transparent red accent plates, and handled end plates for a folding surface.
 0 Name: 5893 - Truck ramp.ldr

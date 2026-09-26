@@ -121,6 +121,7 @@
 1 15 -72 24 20 0 1 0 0 0 -1 -1 0 0 4918 - Mini Flyers - Right Pontoon.ldr
 0 STEP
 
+0 STEP
 0 FILE 4918 - Mini Flyers - Bracket.ldr
 0 Simple white mounting bracket built from a 1x4 plate reinforced with two 1x1 plates.
 0 Name: 4918 - Mini Flyers - Bracket.ldr
@@ -138,6 +139,7 @@
 1 15 60 0 0 1 0 0 0 1 0 0 0 1 3024.dat
 0 STEP
 
+0 STEP
 0 FILE 4918 - Mini Flyers - Top Wing.ldr
 0 Long black top wing formed from four 1x8 plates accented with dark grey grille tiles.
 0 Name: 4918 - Mini Flyers - Top Wing.ldr
@@ -167,6 +169,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 4918 - Mini Flyers - Left Pontoon.ldr
 0 Left float made from a curved white slope and grooved tiles with a light grey clip plate.
 0 Name: 4918 - Mini Flyers - Left Pontoon.ldr
@@ -189,6 +192,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 4918 - Mini Flyers - Right Pontoon.ldr
 0 Right float made from a curved white slope and grooved tiles with a light grey clip plate.
 0 Name: 4918 - Mini Flyers - Right Pontoon.ldr

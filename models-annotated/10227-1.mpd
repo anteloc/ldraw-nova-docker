@@ -60,6 +60,7 @@
 1 0 -50 -200 175 1 0 0 0 0.819 0.574 0 -0.574 0.819 10227 - subModel-81.ldr
 0 STEP
 
+0 STEP
 0 FILE 10227 - subModel-81.ldr
 0 Upper left wing panel assembly with wing plates, curved slopes, hinge plates, and grille tiles
 0 Name: 10227 - subModel-81.ldr
@@ -218,6 +219,7 @@
 0 STEP
 1 0 59.979 416 0.081 1 0 0 0 -1 0 0 0 -1 10227 - subModel-74.ldr
 
+0 STEP
 0 FILE 10227 - subModel-1.ldr
 0 Central structural assembly with technic bricks, gear racks, tail fins, ball joint, and axles
 0 Author: Roland Dahl [RolandD]
@@ -374,6 +376,7 @@
 1 0 0 16 0 -1 0 0 0 -1 0 0 0 1 10227 - subModel-12.ldr
 
 
+0 STEP
 0 FILE 10227 - subModel-2.ldr
 0 Technic open-centre crossbeam joined with pins
 0 Author: Roland Dahl [RolandD]
@@ -394,6 +397,7 @@
 1 0 -60 10 -20 1 0 0 0 1 0 0 0 1 2780.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-3.ldr
 0 Pinned 2x2 mounting plate sub-assembly
 0 Author: Roland Dahl [RolandD]
@@ -407,6 +411,7 @@
 1 0 20 10 0 1 0 0 0 1 0 0 0 1 2780.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-4.ldr
 0 Twin jet-engine pods on friction pins
 0 Author: Roland Dahl [RolandD]
@@ -425,6 +430,7 @@
 1 0 80 0 0 1 0 0 0 1 0 0 0 1 43121.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-5.ldr
 0 Pair of round-brick nozzles with inverted dishes
 0 Author: Roland Dahl [RolandD]
@@ -443,6 +449,7 @@
 1 19 0 -56 0 1 0 0 0 1 0 0 0 1 6143.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-6.ldr
 0 Clip-mount strip with 1x8 plate and twin clip plates
 0 Author: Roland Dahl [RolandD]
@@ -458,6 +465,7 @@
 1 0 60 8 0 1 0 0 0 1 0 0 0 1 60470a.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-7.ldr
 0 Left wing surface built from plates, tiles, and a 2x3 left wing
 0 Author: Roland Dahl [RolandD]
@@ -488,6 +496,7 @@
 1 71 20 -8 220 0 0 1 0 1 0 -1 0 0 87079.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-8.ldr
 0 Right wing surface built from plates, tiles, and a 2x3 right wing
 0 Author: Roland Dahl [RolandD]
@@ -518,6 +527,7 @@
 1 71 -20 -8 220 0 0 -1 0 1 0 1 0 0 87079.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-9.ldr
 0 Panelled strip with 2x4 and 1x10 plates and tiles
 0 Author: Roland Dahl [RolandD]
@@ -545,6 +555,7 @@
 1 72 30 -8 60 0 0 -1 0 1 0 1 0 0 6636.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-10.ldr
 0 Angled surface detail with stud-edge plates and a curved slope
 0 Author: Roland Dahl [RolandD]
@@ -563,6 +574,7 @@
 1 72 0 -24 50 1 0 0 0 1 0 0 0 1 47457.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-11.ldr
 0 Grille-vent panel carrying four grille tiles
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -582,6 +594,7 @@
 1 0 10 -8 -20 0 0 1 0 1 0 -1 0 0 2412b.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-12.ldr
 0 Central structural assembly with technic bricks, gear racks, tail fins, ball joint, and axles
 0 Author: Roland Dahl [RolandD]
@@ -737,6 +750,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10227 - subModel-13.ldr
 0 Left wing panel with plates, wings, exhaust pipes, and slope detailing
 0 Author: Roland Dahl [RolandD]
@@ -858,6 +872,7 @@
 1 71 -90 -40 -50 0 0 1 0 1 0 -1 0 0 2431.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-14.ldr
 0 Technic 1x8 beam with a stopped axle
 0 Author: Roland Dahl [RolandD]
@@ -871,6 +886,7 @@
 1 72 -30 10 40 1 0 0 0 1 0 0 0 1 87083.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-15.ldr
 0 Technic cam-and-axle mechanism on a 12-stud axle
 0 Author: Roland Dahl [RolandD]
@@ -905,6 +921,7 @@
 1 0 54 -36.16 18.124 0 -1 0 -0.616 0 -0.788 0.788 0 -0.616 10227 - subModel-18.ldr
 
 
+0 STEP
 0 FILE 10227 - subModel-16.ldr
 0 Round turret base of two reinforced round bricks and a round plate
 0 Author: Roland Dahl [RolandD]
@@ -920,6 +937,7 @@
 1 71 0 -32 0 1 0 0 0 1 0 0 0 1 4032b.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-17.ldr
 0 Technic cam pivot on an axle pin and bush
 0 Author: Roland Dahl [RolandD]
@@ -936,6 +954,7 @@
 1 72 25 -20 0 0 0 1 0 1 0 -1 0 0 6575.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-18.ldr
 0 Tapered barrel tip of round bricks capped with a cone
 0 Author: Roland Dahl [RolandD]
@@ -956,6 +975,7 @@
 1 71 7 -104 0 1 0 0 0 1 0 0 0 1 98138.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-19.ldr
 0 Pair of locking hinge tiles (1x4 and 2x4)
 0 Author: Roland Dahl [RolandD]
@@ -969,6 +989,7 @@
 1 72 -18.385 -21.556 0 0 -0.707 0.707 0 0.707 0.707 -1 0 0 44569.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-20.ldr
 0 Right wing panel with plates, wings, exhaust pipes, and slope detailing
 0 Author: Roland Dahl [RolandD]
@@ -1104,6 +1125,7 @@
 1 72 -240 24 -10 1 0 0 0 -1 0 0 0 -1 10227 - subModel-1.ldr
 
 
+0 STEP
 0 FILE 10227 - subModel-21.ldr
 0 Technic 1x8 beam with a stopped axle
 0 Author: Roland Dahl [RolandD]
@@ -1117,6 +1139,7 @@
 1 72 -30 10 -40 1 0 0 0 1 0 0 0 1 87083.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-22.ldr
 0 Technic cam-and-axle mechanism on a 12-stud axle
 0 Author: Roland Dahl [RolandD]
@@ -1151,6 +1174,7 @@
 1 0 54 -36.466 -17.881 0 -1 0 -0.629 0 0.777 -0.777 0 -0.629 10227 - subModel-18.ldr
 
 
+0 STEP
 0 FILE 10227 - subModel-23.ldr
 0 Grille-vent detail plate with two grille slopes
 0 Author: Roland Dahl [RolandD]
@@ -1167,6 +1191,7 @@
 1 72 10 0 0 1 0 0 0 1 0 0 0 1 61409.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-24.ldr
 0 Bracketed hinge mount with technic bricks and a curved-top brick
 0 Author: Roland Dahl [RolandD]
@@ -1203,6 +1228,7 @@
 1 72 0 -48 0 0 0 1 0 1 0 -1 0 0 3044b.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-25.ldr
 0 Bracketed wing mount with technic bricks and 2x4 wings
 0 Author: Roland Dahl [RolandD]
@@ -1244,6 +1270,7 @@
 1 71 -28 -40 -30 0 1 0 -1 0 0 0 0 1 41770.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-26.ldr
 0 Sloped surface panel of plates and 45-degree slopes
 0 Author: Roland Dahl [RolandD]
@@ -1273,6 +1300,7 @@
 1 72 -20 -48 -50 -1 0 0 0 1 0 0 0 -1 93606.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-27.ldr
 0 Right main fuselage half with plates, wings, slope bricks, and hinge plates
 0 Author: Roland Dahl [RolandD]
@@ -1605,6 +1633,7 @@
 1 25 40 -16 -710 1 0 0 0 1 0 0 0 1 10227 - 10227_B_Wing_RedDot.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-28.ldr
 0 Translucent-yellow light/canopy detail on a stud axle
 0 Author: Roland Dahl [RolandD]
@@ -1621,6 +1650,7 @@
 1 28 0 38 0 0 1 0 -1 0 0 0 0 1 6587.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-29.ldr
 0 Right wing section with a 3x12 wing and slope detailing
 0 Author: Roland Dahl [RolandD]
@@ -1638,6 +1668,7 @@
 1 71 -20 0 20 0 0 -1 0 1 0 1 0 0 85984.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-30.ldr
 0 Left main fuselage half with plates, wings, slope bricks, and hinge plates
 0 Author: Roland Dahl [RolandD]
@@ -2004,6 +2035,7 @@
 1 72 30 -8 340 0 0 -1 0 1 0 1 0 0 10227 - subModel-20.ldr
 
 
+0 STEP
 0 FILE 10227 - subModel-31.ldr
 0 Curved-top brick panel sub-assembly
 0 Author: Roland Dahl [RolandD]
@@ -2017,6 +2049,7 @@
 1 71 0 -24 0 1 0 0 0 1 0 0 0 1 6192.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-32.ldr
 0 Bracket-mounted grille-slope detail
 0 Author: Roland Dahl [RolandD]
@@ -2033,6 +2066,7 @@
 1 72 -10 -28 -28 1 0 0 0 0 -1 0 1 0 61409.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-33.ldr
 0 Bracket-mounted curved-top brick detail
 0 Author: Roland Dahl [RolandD]
@@ -2046,6 +2080,7 @@
 1 72 0 -20 -52 0 0 -1 -1 0 0 0 1 0 30165.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-34.ldr
 0 Grille-vented plate detail
 0 Author: Roland Dahl [RolandD]
@@ -2062,6 +2097,7 @@
 1 72 10 0 0 1 0 0 0 1 0 0 0 1 61409.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-35.ldr
 0 Articulated barrel/weapon assembly with hinges, plane panels, brackets, and slopes
 0 Author: Roland Dahl [RolandD]
@@ -2231,6 +2267,7 @@
 1 71 80 -1000 -8 1 0 0 0 0 -1 0 1 0 10227 - subModel-30.ldr
 
 
+0 STEP
 0 FILE 10227 - subModel-36.ldr
 0 Small left wing section with plates and a 2x3 wing
 0 Author: Roland Dahl [RolandD]
@@ -2251,6 +2288,7 @@
 1 72 -30 -8 -20 0 0 1 0 1 0 -1 0 0 43723.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-37.ldr
 0 Technic beam linkage with axle, pins, and a holed brick
 0 Author: Roland Dahl [RolandD]
@@ -2277,6 +2315,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10227 - subModel-38.ldr
 0 Technic axle-and-gear drivetrain with pin joiners and an 8-tooth gear
 0 Author: Roland Dahl [RolandD]
@@ -2302,6 +2341,7 @@
 1 72 0 0 -84 -1 0 0 0 -1 0 0 0 1 3647.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-39.ldr
 0 Bar-and-pin connector sub-assembly
 0 Author: Roland Dahl [RolandD]
@@ -2320,6 +2360,7 @@
 1 72 0 0 -132 0 1 0 0 0 1 1 0 0 32002.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-40.ldr
 0 Tapered nozzle/cannon tip of a round brick and cone
 0 Author: Roland Dahl [RolandD]
@@ -2333,6 +2374,7 @@
 1 71 0 -48 0 1 0 0 0 1 0 0 0 1 3942b.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-41.ldr
 0 Wheel-rim hub built from pin joiners and pins
 0 Author: Roland Dahl [RolandD]
@@ -2371,6 +2413,7 @@
 1 71 0 0 -230 -1 0 0 0 -1 0 0 0 1 42610.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-42.ldr
 0 Round axle-mount plate with a cross underside tile
 0 Author: Roland Dahl [RolandD]
@@ -2384,6 +2427,7 @@
 1 0 0 -8 0 1 0 0 0 1 0 0 0 1 4150.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-43.ldr
 0 Pinned 6L bar sub-assembly
 0 Author: Roland Dahl [RolandD]
@@ -2397,6 +2441,7 @@
 1 71 0 0 -4 0 1 0 0 0 1 1 0 0 4274.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-44.ldr
 0 Hinged canopy/cover with curved slope on a 2x4 plate
 0 Author: Roland Dahl [RolandD]
@@ -2424,6 +2469,7 @@
 1 72 10 -40 -40 1 0 0 0 1 0 0 0 1 10227 - subModel-46.ldr
 
 
+0 STEP
 0 FILE 10227 - subModel-45.ldr
 0 Corner-paneled surface detail with slope bricks
 0 Author: Roland Dahl [RolandD]
@@ -2455,6 +2501,7 @@
 1 72 30 -8 0 -1 0 0 0 1 0 0 0 -1 50746.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-46.ldr
 0 Slope-brick surface detail strip
 0 Author: Roland Dahl [RolandD]
@@ -2473,6 +2520,7 @@
 1 72 0 0 -40 0 0 -1 0 1 0 1 0 0 85984.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-48.ldr
 0 Corner-paneled surface detail with slope bricks
 0 Author: Roland Dahl [RolandD]
@@ -2504,6 +2552,7 @@
 1 72 30 -8 0 1 0 0 0 1 0 0 0 1 50746.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-47.ldr
 0 Hinged canopy/cover with curved slope on a 2x4 plate
 0 Author: Roland Dahl [RolandD]
@@ -2531,6 +2580,7 @@
 1 72 10 -32 -40 0 0 -1 0 1 0 1 0 0 10227 - subModel-48.ldr
 
 
+0 STEP
 0 FILE 10227 - subModel-49.ldr
 0 Curved wedge surface panel on a 2x8 plate
 0 Author: Roland Dahl [RolandD]
@@ -2544,6 +2594,7 @@
 1 72 30 -8 0 0 0 -1 0 1 0 1 0 0 45677.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-50.ldr
 0 Pair of 2x2 mounting plates
 0 Author: Roland Dahl [RolandD]
@@ -2557,6 +2608,7 @@
 1 72 0 -8 0 1 0 0 0 1 0 0 0 1 3022.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-51.ldr
 0 Right wing on a locking hinge plate
 0 Author: Roland Dahl [RolandD]
@@ -2570,6 +2622,7 @@
 1 72 -30 -8 0 0 0 1 0 1 0 -1 0 0 41769.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-52.ldr
 0 Left wing on a locking hinge plate
 0 Author: Roland Dahl [RolandD]
@@ -2583,6 +2636,7 @@
 1 72 0 -8 30 -1 0 0 0 1 0 0 0 -1 41770.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-53.ldr
 0 Cockpit/nose assembly with ovoid windscreen, brackets, dishes, and curved slopes
 0 Author: Roland Dahl [RolandD]
@@ -2756,6 +2810,7 @@
 1 71 1480 -62.033 14.979 0 1 0 0 0 1.006 1 0 0 10227 - subModel-35.ldr
 
 
+0 STEP
 0 FILE 10227 - subModel-54.ldr
 0 Technic T-beam mount with stopped axle, bush, and pins
 0 Author: Roland Dahl [RolandD]
@@ -2789,6 +2844,7 @@
 1 71 0 0 -40 1 0 0 0 1 0 0 0 1 3701.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-55.ldr
 0 Small curved-slope detail on a 1x2 plate
 0 Author: Roland Dahl [RolandD]
@@ -2802,6 +2858,7 @@
 1 71 0 -24 20 1 0 0 0 1 0 0 0 1 61678.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-56.ldr
 0 Offset-stud plate detail sub-assembly
 0 Author: Roland Dahl [RolandD]
@@ -2815,6 +2872,7 @@
 1 72 0 8 -8 -1 0 0 0 0 1 0 1 0 4590.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-57.ldr
 0 Bracket connector sub-assembly
 0 Author: Roland Dahl [RolandD]
@@ -2828,6 +2886,7 @@
 1 72 0 -8 0 1 0 0 0 1 0 0 0 1 99780.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-58.ldr
 0 Control-panel detail with yellow-button pattern tile and handle
 0 Author: Roland Dahl [RolandD]
@@ -2843,6 +2902,7 @@
 1 72 -42 10 0 0 1 0 0 0 1 1 0 0 2432.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-59.ldr
 0 Targeting detail with round plate and gold telescopes
 0 Author: Roland Dahl [RolandD]
@@ -2866,6 +2926,7 @@
 1 71 10 0 0 0 0 -1 0 1 0 1 0 0 85984.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-60.ldr
 0 Clip-and-slope surface detail sub-assembly
 0 Author: Roland Dahl [RolandD]
@@ -2891,6 +2952,7 @@
 1 71 -20 -16 10 0 0 -1 0 1 0 1 0 0 63864.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-61.ldr
 0 Clip-and-slope surface detail sub-assembly
 0 Author: Roland Dahl [RolandD]
@@ -2916,6 +2978,7 @@
 1 71 20 -16 10 0 0 1 0 1 0 -1 0 0 63864.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-62.ldr
 0 Hinge-plate trim sub-assembly with tiles
 0 Author: Roland Dahl [RolandD]
@@ -2944,6 +3007,7 @@
 1 19 20 -16 0 0 0 1 0 1 0 -1 0 0 3069b.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-63.ldr
 0 Handle-and-tile grip strip sub-assembly
 0 Author: Roland Dahl [RolandD]
@@ -2957,6 +3021,7 @@
 1 71 -20 0 10 0 0 -1 0 1 0 1 0 0 6636.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-64.ldr
 0 Wing-and-dish detail with handles, clips, and 2x3 wings
 0 Author: Roland Dahl [RolandD]
@@ -3002,6 +3067,7 @@
 1 71 20 28 -52 -1 0 0 0 0.6 0.8 0 0.8 -0.6 43722.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-65.ldr
 0 Motorcycle-wheel landing strut with cross block and axle
 0 Author: Roland Dahl [RolandD]
@@ -3023,6 +3089,7 @@
 1 71 0 -20 105 0 0 1 1 0 0 0 1 0 88517.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-66.ldr
 0 Round brick-and-plate hub sub-assembly
 0 Author: Roland Dahl [RolandD]
@@ -3038,6 +3105,7 @@
 1 71 0 -32 0 1 0 0 0 1 0 0 0 1 4032b.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-67.ldr
 0 Motorcycle-wheel landing strut with cross block and axle
 0 Author: Roland Dahl [RolandD]
@@ -3059,6 +3127,7 @@
 1 71 110 -20 0 0 -1 0 -1 0 0 0 0 -1 88517.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-68.ldr
 0 Chain-tread track segment of 36 tread links
 0 Author: Roland Dahl [RolandD]
@@ -3140,6 +3209,7 @@
 1 71 0 2.778 -15.757 1 0 0 0 0.985 -0.174 0 0.174 0.985 3873.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-69.ldr
 0 Spiked landing wheel with cone hub, corner bricks, and octagonal frame
 0 Author: Roland Dahl [RolandD]
@@ -3241,6 +3311,7 @@
 1 19 34.973 -87.287 -4.973 0.123 -0.697 0.707 0.985 0.174 0 -0.123 0.697 0.707 10227 - subModel-73.ldr
 
 
+0 STEP
 0 FILE 10227 - subModel-70.ldr
 0 Dish-and-slope surface detail sub-assembly
 0 Author: Roland Dahl [RolandD]
@@ -3262,6 +3333,7 @@
 1 71 10 0 0 -1 0 0 0 1 0 0 0 -1 93273.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-71.ldr
 0 Clip-plate connector with a 1x2 tan plate
 0 Author: Roland Dahl [RolandD]
@@ -3275,6 +3347,7 @@
 1 19 0 -8 0 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-72.ldr
 0 Bar-and-clip detail with plates, round plate, and slope
 0 Author: Roland Dahl [RolandD]
@@ -3299,6 +3372,7 @@
 1 71 35 -6 -20 0 -1 0 0 0 -1 1 0 0 30374.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-73.ldr
 0 Bar-and-clip detail with plates, round plate, and slope
 0 Author: Roland Dahl [RolandD]
@@ -3323,6 +3397,7 @@
 1 71 35 -6 -20 0 -1 0 0 0 -1 1 0 0 30374.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-74.ldr
 0 Upper right wing panel assembly with wing plates, curved slopes, hinge plates, and grille tiles
 0 Author: Roland Dahl [RolandD]
@@ -3484,6 +3559,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10227 - subModel-75.ldr
 0 Surface detail with a 2x3 plate and two side-stud bricks
 0 Author: Roland Dahl [RolandD]
@@ -3500,6 +3576,7 @@
 1 0 20 -24 -10 0 0 -1 0 1 0 1 0 0 87087.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-76.ldr
 0 Surface detail with clips, groove tiles, and a slope
 0 Author: Roland Dahl [RolandD]
@@ -3522,6 +3599,7 @@
 1 72 10 6 -30 0 -1 0 1 0 0 0 0 1 50746.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-77.ldr
 0 Technic liftarm with pin and holed brick
 0 Author: Roland Dahl [RolandD]
@@ -3538,6 +3616,7 @@
 1 71 20 -10 10 0 0 1 0 1 0 -1 0 0 32000.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-78.ldr
 0 Bracket-mounted grille and groove tile detail
 0 Author: Roland Dahl [RolandD]
@@ -3554,6 +3633,7 @@
 1 71 22 -2 0 0 -1 0 0 0 -1 1 0 0 3069b.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-79.ldr
 0 Technic landing-wheel hub with axle joiner, 8-tooth gear, and wheel rims
 0 Author: Roland Dahl [RolandD]
@@ -3608,6 +3688,7 @@
 1 71 0 14 30 1 0 0 0 1 0 0 0 1 47755.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-80.ldr
 0 Pinned 6L bar sub-assembly
 0 Author: Roland Dahl [RolandD]
@@ -3621,6 +3702,7 @@
 1 72 0 0 -10 0 -1 0 0 0 -1 1 0 0 32002.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-82.ldr
 0 Surface detail with clips, groove tiles, and a slope
 0 Author: Roland Dahl [RolandD]
@@ -3639,6 +3721,7 @@
 1 72 10 6 20 0 -1 0 0 0 1 -1 0 0 85984.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-83.ldr
 0 Technic liftarm with pin and holed brick
 0 Author: Roland Dahl [RolandD]
@@ -3655,6 +3738,7 @@
 1 71 30 -10 -10 0 0 -1 0 1 0 1 0 0 32000.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-84.ldr
 0 Technic landing-wheel hub with axle joiner, 8-tooth gear, and wheel rims
 0 Author: Roland Dahl [RolandD]
@@ -3709,6 +3793,7 @@
 1 71 0 14 30 1 0 0 0 1 0 0 0 1 47755.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-85.ldr
 0 Panelled stand/mount with tiles, groove plates, and pin bricks
 0 Author: Roland Dahl [RolandD]
@@ -3781,6 +3866,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10227 - subModel-86.ldr
 0 Two-tone 2x4 plate pair (white and dark bluish grey)
 0 Author: Roland Dahl [RolandD]
@@ -3794,6 +3880,7 @@
 1 72 0 -8 0 1 0 0 0 1 0 0 0 1 3020.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-87.ldr
 0 Plane-top canopy cover with a 2x2 plate
 0 Author: Roland Dahl [RolandD]
@@ -3807,6 +3894,7 @@
 1 72 0 24 -120 1 0 0 0 1 0 0 0 1 3022.dat
 
 
+0 STEP
 0 FILE 10227 - subModel-88.ldr
 0 Cannon barrel frame with technic panel, mast beam, and liftarms
 0 Author: Roland Dahl [RolandD]
@@ -3853,6 +3941,7 @@
 1 0 -80 -350 -10 0 1 0 1 0 0 0 0 -1 43857.dat
 0 STEP
 
+0 STEP
 0 FILE 10227 - subModel-90.ldr
 0 Cannon barrel with mast beam and bent liftarms
 0 Author: Roland Dahl [RolandD]
@@ -3876,6 +3965,7 @@
 0 // Technic Beam  3 x  5 Bent 90 (black)
 1 0 -2 28 -20 1 0 0 0 0 -1 0 1 0 32526.dat
 
+0 STEP
 0 FILE 10227 - subModel-91.ldr
 0 Locking hinge-arm pair with axle pin
 0 Author: Roland Dahl [RolandD]
@@ -3891,6 +3981,7 @@
 0 // Hinge Arm Locking with Single Finger and Friction Pin (black)
 1 0 -28.66 5 0 0 0 -1 0 1 0 1 0 0 41532.dat
 
+0 STEP
 0 FILE 10227 - subModel-92.ldr
 0 Single 8x16 display/base tile
 0 Author: Roland Dahl [RolandD]
@@ -3904,6 +3995,7 @@
 1 0 0 8 0 1 0 0 0 1 0 0 0 1 10227 - subModel-93.ldr
 
 
+0 STEP
 0 FILE 10227 - subModel-93.ldr
 0 Inverted 45-degree slope mount on a 2x4 technic plate
 0 Author: Roland Dahl [RolandD]
@@ -3917,6 +4009,7 @@
 1 71 0 8 0 1 0 0 0 1 0 0 0 1 3709b.dat
 
 
+0 STEP
 0 FILE 10227 - 10227_B_Wing_RedDot.dat
 0 Sticker 10227 B-Wing Red Dot
 0 Name: 10227 - 10227_B_Wing_RedDot.dat
@@ -3927,6 +4020,7 @@
 1 25 0 -0.25 0 40 0 0 0 1 0 0 0 40 48\4-4disc.dat
 
 
+0 STEP
 0 FILE 10227 - 92582.dat
 0 Hinge Plate  2 x  2 Locking with Single Finger On Top
 0 Name: 10227 - 92582.dat
@@ -3956,6 +4050,7 @@
 1 16 -10 0 -10 -1 0 0 0 1 0 0 0 -1 stud.dat
 
 
+0 STEP
 0 FILE s\10227 - 92582s01.dat
 0 ~Click Lock Hinge Single Finger for Plate Top w. Wide Groove 2L
 0 Name: s\10227 - 92582s01.dat

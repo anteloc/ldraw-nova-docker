@@ -7,6 +7,7 @@
 0 !HISTORY 2018-01-08 [bercik] OMR version by Robert Paciorek [bercik] with perrmision of juraj3579
 1 14 0 0 0 1 0 0 0 1 0 0 0 1 625 - tractor.ldr
 1 16 89.282 0 -94.639 0.5 0 0.866 0 1 0 -0.866 0 0.5 625 - minifig.ldr
+0 STEP
 0 FILE 625 - tractor.ldr
 0 A small wheeled tractor built from plates and bricks with a steering wheel, axle brackets, and four offset-tread tyres.
 0 Name: 625 - tractor.ldr
@@ -69,6 +70,7 @@
 1 16 -130 -53 0.2 -1 0 0 0 1 0 0 0 -1 784.dat
 0 // Brick  1 x  1 Round with Solid Stud (light_grey)
 1 7 -50 -56 10 -1 0 0 0 1 0 0 0 -1 3062a.dat
+0 STEP
 0 FILE 625 - minifig.ldr
 0 A red-torso construction worker minifigure wearing a red helmet, with blue legs and a dark grey shovel.
 0 Name: 625 - minifig.ldr

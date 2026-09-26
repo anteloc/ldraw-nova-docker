@@ -11,6 +11,7 @@
 
 
 
+0 STEP
 0 FILE 31313 - spike3r.ldr
 0 Mechanical linkage assembly using cams, liftarms, and steering links that converts rotary motion into a striking or snapping movement.
 0 Name: 31313 - spike3r.ldr
@@ -53,6 +54,7 @@
 1 47 0 -98 -240 -1 0 0 0 1 0 0 0 -1 31313 - distsensor.ldr
 
 
+0 STEP
 0 FILE 31313 - shooterclip.ldr
 0 Ball shooter assembly built from a Bionicle shooter magazine, white panel fairings with EV3 stickers, and angle connectors mounted on a pin-and-axle frame.
 0 Name: 31313 - shooterclip.ldr
@@ -85,6 +87,7 @@
 1 0 0 40 100 1 0 0 0 0 1 0 -1 0 53550.dat
 
 
+0 STEP
 0 FILE 31313 - ev3Cable-studio-1.ldr
 0 Flexible EV3 cable assembly routing an RJ12-style connection over an approximately 154.6 mm path, with its geometry delegated to a subpart.
 0 Name: 31313 - ev3Cable-studio-1.ldr
@@ -130,6 +133,7 @@
 
 
 
+0 STEP
 0 FILE 31313 - ev3Cable-studio-1_subPart1.ldr
 0 Geometric subpart containing 773 cable segments that form the physical path of EV3 cable 1.
 0 Name: 31313 - ev3Cable-studio-1_subPart1.ldr
@@ -1695,6 +1699,7 @@
 1 16 -26.999747 -100.245556 -109.004927 -0.002146 -0.001032 -0.999997 -0.020064 0.999798 -0.000988 0.999796 0.020062 -0.002166 932.dat
 
 
+0 STEP
 0 FILE 31313 - tail.ldr
 0 Articulated robotic tail mounted on an EV3 Large Motor, using bent liftarms, cross blocks, and toothed elements to form a stinger appendage.
 0 Name: 31313 - tail.ldr
@@ -1853,6 +1858,7 @@
 1 4 -19.512 -354.423 0 0 -0.309 0.951 0 0.951 0.309 -1 0 0 54821.dat
 
 
+0 STEP
 0 FILE 31313 - body.ldr
 0 Main structural chassis built from long liftarms, cross blocks, and pins housing an EV3 Large Motor that anchors the rest of the model.
 0 Name: 31313 - body.ldr
@@ -2156,6 +2162,7 @@
 1 47 0 -58 228 1 0 0 0 1 0 0 0 1 31313 - ev3Cable-studio-3.ldr
 
 
+0 STEP
 0 FILE 31313 - frontmotor.ldr
 0 Front drive unit mounting an EV3 Medium Motor using T-shaped beams and pin cross blocks for attachment to the body.
 0 Name: 31313 - frontmotor.ldr
@@ -2189,6 +2196,7 @@
 1 47 0 1 170 -1 0 0 0 -1 0 0 0 1 31313 - ev3Cable-studio-2.ldr
 
 
+0 STEP
 0 FILE 31313 - ev3Cable-studio-2.ldr
 0 Flexible EV3 cable assembly routing an RJ12-style connection over an approximately 148.9 mm path, with its geometry delegated to a subpart.
 0 Name: 31313 - ev3Cable-studio-2.ldr
@@ -2235,6 +2243,7 @@
 
 
 
+0 STEP
 0 FILE 31313 - ev3Cable-studio-2_subPart1.ldr
 0 Geometric subpart containing 744 cable segments that form the physical path of EV3 cable 2.
 0 Name: 31313 - ev3Cable-studio-2_subPart1.ldr
@@ -3742,6 +3751,7 @@
 1 16 57.002434 214.975514 142.917935 0 -0.006492 -0.999979 -0.937823 0.347222 -0.002253 0.347113 0.938119 -0.006086 932.dat
 
 
+0 STEP
 0 FILE 31313 - midleg.ldr
 0 Mid-leg segment constructed from bent liftarms, an angle connector, and a serrated constraction blade forming part of the walking mechanism.
 0 Name: 31313 - midleg.ldr
@@ -3787,6 +3797,7 @@
 1 0 -168 -164 -20 -0.8 0 -0.6 0.6 0 -0.8 0 -1 0 32009.dat
 
 
+0 STEP
 0 FILE 31313 - leg.ldr
 0 Lower leg segment built from bent liftarms, an angle connector, and a serrated constraction blade forming a walking limb.
 0 Name: 31313 - leg.ldr
@@ -3814,6 +3825,7 @@
 1 0 0 0 -40 0 0 -1 1 0 0 0 -1 0 32271.dat
 
 
+0 STEP
 0 FILE 31313 - ev3Cable-studio-3.ldr
 0 Flexible EV3 cable assembly routing an RJ12-style connection over an approximately 117.3 mm path, with its geometry delegated to a subpart.
 0 Name: 31313 - ev3Cable-studio-3.ldr
@@ -3858,6 +3870,7 @@
 
 
 
+0 STEP
 0 FILE 31313 - ev3Cable-studio-3_subPart1.ldr
 0 Geometric subpart containing 587 cable segments that form the physical path of EV3 cable 3.
 0 Name: 31313 - ev3Cable-studio-3_subPart1.ldr
@@ -5051,6 +5064,7 @@
 1 16 -29.001699 -155.962888 -145.096522 -0.00004 0.004321 0.999991 0.931657 -0.363204 0.001608 0.36334 0.931308 -0.004013 932.dat
 
 
+0 STEP
 0 FILE 31313 - claws.ldr
 0 Pincer claw assembly using bent liftarms, towball joints, toothed elements, and wheel rims to form a gripping appendage.
 0 Name: 31313 - claws.ldr
@@ -5086,6 +5100,7 @@
 1 4 -96 0 -232 -0.8 0 -0.6 0 -1 0 -0.6 0 0.8 41669.dat
 
 
+0 STEP
 0 FILE 31313 - distsensor.ldr
 0 Mounting bracket for the EV3 Infrared Sensor using cross blocks, bushes, and white toothed elements to form a protective sensor housing.
 0 Name: 31313 - distsensor.ldr
@@ -5138,6 +5153,7 @@
 1 47 0 -45 -18 -1 0 0 0 1 0 0 0 -1 31313 - ev3Cable-studio-4.ldr
 
 
+0 STEP
 0 FILE 31313 - ev3Cable-studio-4.ldr
 0 Flexible EV3 cable assembly routing an RJ12-style connection over an approximately 175.3 mm path, with its geometry delegated to a subpart.
 0 Name: 31313 - ev3Cable-studio-4.ldr
@@ -5183,6 +5199,7 @@
 
 
 
+0 STEP
 0 FILE 31313 - ev3Cable-studio-4_subPart1.ldr
 0 Geometric subpart containing 876 cable segments that form the physical path of EV3 cable 4.
 0 Name: 31313 - ev3Cable-studio-4_subPart1.ldr
@@ -6954,6 +6971,7 @@
 1 16 56.97004 -0.721808 43.17436 0.000542 0.08701 -0.996209 0.933725 0.356666 0.031647 0.35799 -0.930403 -0.081033 932.dat
 
 
+0 STEP
 0 FILE 31313 - beaconbug.ldr
 0 Standalone remote-controlled beacon bug built around the EV3 IR Beacon handset with curved blades, beams, and axles forming legs.
 0 Name: 31313 - beaconbug.ldr
@@ -7020,6 +7038,7 @@
 1 15 40 35 -100 0 -0.866 -0.5 1 0 0 0 -0.5 0.866 98347.dat
 
 
+0 STEP
 0 FILE 31313 - 64391d01.dat
 0 Pre-decorated medium panel fairing (#4) with an applied Mindstorms EV3 sticker #2.
 0 Name: 31313 - 64391d01.dat
@@ -7034,6 +7053,7 @@
 0 // Sticker Mindstorms EV3 #2 for Panel Smooth Medium (Formed) (Needs Work) (white)
 1 15 0 0 0 0 1 0 -1 0 0 0 0 1 31313 - 13710bc01.dat
 
+0 STEP
 0 FILE 31313 - 64683d01.dat
 0 Pre-decorated medium panel fairing (#3) with an applied Mindstorms EV3 sticker #1.
 0 Name: 31313 - 64683d01.dat
@@ -7048,6 +7068,7 @@
 0 // Sticker Mindstorms EV3 #1 for Panel Smooth Medium (Formed) (Needs Work) (white)
 1 15 0 0 0 0 -1 0 1 0 0 0 0 1 31313 - 13710ac01.dat
 
+0 STEP
 0 FILE 31313 - 13710bc01.dat
 0 Printed EV3 sticker texture image file attributed to the LEGO MINDSTORMS Team.
 0 Name: 31313 - 13710bc01.dat
@@ -7067,6 +7088,7 @@
 1 15 0 0 0 0 -1 0 -1 0 0 0 0 1 s\31313 - 64683s05.dat
 0 !TEXMAP END
 
+0 STEP
 0 FILE s\31313 - 64683s04.dat
 0 Surface geometry subpart defining the bottom and edge surfaces of a panel fairing.
 0 Name: s\31313 - 64683s04.dat
@@ -7171,6 +7193,7 @@
 5 24 8.567 -8.654 115 8.336 -8.558 115 6.596 -17.066999 109.099998 9.231 -0.096 120.699997
 5 24 9.231 -0.096 120.699997 9 0 120.699997 8.567 -8.654 115 9.231 0.622 121.093002
 
+0 STEP
 0 FILE s\31313 - 64683s05.dat
 0 Surface geometry subpart defining the top surface of a panel fairing.
 0 Name: s\31313 - 64683s05.dat
@@ -7226,6 +7249,7 @@
 5 24 8.567 -8.654 44.599998 8.567 -8.654 -6.3 9.147 -1.188 -3.658 6.597 -17.068001 -6.3
 5 24 6.596 -17.066999 36.799999 6.597 -17.068001 -6.3 8.567 -8.654 -6.3 3.537 -24.729 -3.874
 
+0 STEP
 0 FILE 31313 - 13710ac01.dat
 0 Printed EV3 sticker texture image file attributed to the LEGO MINDSTORMS Team.
 0 Name: 31313 - 13710ac01.dat

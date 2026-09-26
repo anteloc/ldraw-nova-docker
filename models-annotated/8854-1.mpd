@@ -8,6 +8,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 8854 - Power Crane.ldr
 
 
+0 STEP
 0 FILE 8854 - Power Crane.ldr
 0 The main chassis structure built from Technic plates and bricks with friction pins, steering arms, multiple axles, and bushings forming the crane's load-bearing frame.
 0 Name: 8854 - Power Crane.ldr
@@ -640,6 +641,7 @@
 1 14 137 -14 330 0 0 1 0 1 0 -1 0 0 8854 - Wheel.ldr
 
 
+0 STEP
 0 FILE 8854 - Back Arm Bottom.ldr
 0 A short liftarm assembly of two Technic beams joined by an axle and bushing, forming the lower section of the back support arm.
 0 Name: 8854 - Back Arm Bottom.ldr
@@ -657,6 +659,7 @@
 1 7 -30 0 0 0 0 1 0 1 0 -1 0 0 3713.dat
 
 
+0 STEP
 0 FILE 8854 - Back Arm Top Left.ldr
 0 A left-side back arm segment using two liftarms braced by an axle with a 14-tooth bevel gear for power transfer.
 0 Name: 8854 - Back Arm Top Left.ldr
@@ -674,6 +677,7 @@
 1 7 -23 0 0 0 0 1 0 1 0 -1 0 0 4143.dat
 
 
+0 STEP
 0 FILE 8854 - Back Arm Top Right.ldr
 0 A right-side back arm segment using two liftarms braced by a longer axle with a 14-tooth bevel gear for power transfer.
 0 Name: 8854 - Back Arm Top Right.ldr
@@ -691,6 +695,7 @@
 1 7 -23 0 0 0 0 1 0 1 0 -1 0 0 4143.dat
 
 
+0 STEP
 0 FILE 8854 - Back Arm Axle Mid.ldr
 0 A center axle fitted with two 14-tooth bevel gears to redirect drive within the back arm mechanism.
 0 Name: 8854 - Back Arm Axle Mid.ldr
@@ -706,6 +711,7 @@
 1 7 23 0 0 0 0 -1 0 1 0 1 0 0 4143.dat
 
 
+0 STEP
 0 FILE 8854 - Steering Axle Horizontal.ldr
 0 A horizontal steering shaft with an 8-tooth gear and 14-tooth bevel gear to transmit steering input.
 0 Name: 8854 - Steering Axle Horizontal.ldr
@@ -725,6 +731,7 @@
 1 7 0 0 -50 1 0 0 0 1 0 0 0 1 3647.dat
 
 
+0 STEP
 0 FILE 8854 - Steering Axle Vertical Bottom.ldr
 0 A short vertical steering axle with a bevel gear and bushing for the bottom steering linkage.
 0 Name: 8854 - Steering Axle Vertical Bottom.ldr
@@ -740,6 +747,7 @@
 1 0 0 -31 0 0 1 0 -1 0 0 0 0 1 3705.dat
 
 
+0 STEP
 0 FILE 8854 - Turning Axle 1.ldr
 0 A turning shaft with a pulley wheel, pin, bushing, and 8-tooth gear for the first stage of the turning mechanism.
 0 Name: 8854 - Turning Axle 1.ldr
@@ -759,6 +767,7 @@
 1 7 -30 0 0 0 0 -1 0 1 0 1 0 0 3647.dat
 
 
+0 STEP
 0 FILE 8854 - Turning Axle 2.ldr
 0 A turning shaft pairing a 24-tooth crown gear with an 8-tooth pinion for the second reduction stage.
 0 Name: 8854 - Turning Axle 2.ldr
@@ -774,6 +783,7 @@
 1 0 0 0 28 0 0 -1 0 1 0 1 0 0 3705.dat
 
 
+0 STEP
 0 FILE 8854 - Turning Axle 3.ldr
 0 A turning shaft pairing a 24-tooth gear with an 8-tooth pinion for the third turning stage.
 0 Name: 8854 - Turning Axle 3.ldr
@@ -789,6 +799,7 @@
 1 7 0 0 30 -1 0 0 0 1 0 0 0 -1 3647.dat
 
 
+0 STEP
 0 FILE 8854 - Back Arm Axle 2.ldr
 0 A back arm drive shaft with a 24-tooth gear, bushing, and universal joint to transfer torque at an angle.
 0 Name: 8854 - Back Arm Axle 2.ldr
@@ -806,6 +817,7 @@
 1 7 0 0 80 1 0 0 0 1 0 0 0 1 3712c01.dat
 
 
+0 STEP
 0 FILE 8854 - Back Arm Foot.ldr
 0 A stabilizing outrigger foot with wedge belt wheels, toggle connectors, and an axle pin assembly for ground contact.
 0 Name: 8854 - Back Arm Foot.ldr
@@ -836,6 +848,7 @@
 1 7 0 0 -24 1 0 0 0 1 0 0 0 1 4265a.dat
 
 
+0 STEP
 0 FILE 8854 - Back Arm Axle 1.ldr
 0 A long back arm axle driven by a worm gear with bushings for the outrigger extension mechanism.
 0 Name: 8854 - Back Arm Axle 1.ldr
@@ -857,6 +870,7 @@
 1 7 -70 0 0 0 0 -1 0 -1 0 -1 0 0 4265a.dat
 
 
+0 STEP
 0 FILE 8854 - Lift Arm Base.ldr
 0 The lift arm rotating base with a turntable, corner bricks, threaded axle, and crown gear for elevation adjustment.
 0 Name: 8854 - Lift Arm Base.ldr
@@ -894,6 +908,7 @@
 1 7 0 32 0 1 0 0 0 0 -1 0 1 0 4698.dat
 
 
+0 STEP
 0 FILE 8854 - Liftarm.ldr
 0 A long red liftarm boom built from Technic plates, bricks, and pins with a worm gear for the main lifting extension.
 0 Name: 8854 - Liftarm.ldr
@@ -1065,6 +1080,7 @@
 1 4 -50 -42 250 0 0 -1 1 0 0 0 -1 0 3701.dat
 
 
+0 STEP
 0 FILE 8854 - Liftarm Gearbox.ldr
 0 A red gearbox housing of Technic bricks and plates with friction pins providing the drive connection to the liftarm.
 0 Name: 8854 - Liftarm Gearbox.ldr
@@ -1110,6 +1126,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 8854 - Liftarm Gearbox Axle 1.ldr
 0 A short gearbox shaft with bushings and an 8-tooth gear for the first liftarm drive stage.
 0 Name: 8854 - Liftarm Gearbox Axle 1.ldr
@@ -1127,6 +1144,7 @@
 1 7 0 0 15 -1 0 0 0 1 0 0 0 -1 4265a.dat
 
 
+0 STEP
 0 FILE 8854 - Liftarm Gearbox Axle 2.ldr
 0 A longer gearbox shaft with two 8-tooth gears and bushings for the second liftarm drive stage.
 0 Name: 8854 - Liftarm Gearbox Axle 2.ldr
@@ -1148,6 +1166,7 @@
 1 7 0 0 70 -1 0 0 0 1 0 0 0 -1 3713.dat
 
 
+0 STEP
 0 FILE 8854 - Liftarm Extension.ldr
 0 A telescoping liftarm extension using Technic bricks, a rack, rotor blades, and a wheel rim for the extension drive.
 0 Name: 8854 - Liftarm Extension.ldr
@@ -1213,6 +1232,7 @@
 1 0 180 -14 -20 1 0 0 0 1 0 0 0 1 2428.dat
 
 
+0 STEP
 0 FILE 8854 - Wheel.ldr
 0 A yellow wheel rim with a black rubber tire for the crane's road wheels.
 0 Name: 8854 - Wheel.ldr
@@ -1226,6 +1246,7 @@
 1 14 0 0 0 1 0 0 0 1 0 0 0 1 4266.dat
 
 
+0 STEP
 0 FILE 8854 - Liftarm Axle 3.ldr
 0 A liftarm drive shaft with 8-tooth and bevel gears plus a universal joint for angled power transfer.
 0 Name: 8854 - Liftarm Axle 3.ldr
@@ -1245,6 +1266,7 @@
 1 7 0 0 303 -1 0 0 0 1 0 0 0 -1 4143.dat
 
 
+0 STEP
 0 FILE 8854 - Liftarm Axle 4.ldr
 0 A liftarm shaft with two 14-tooth bevel gears and a bushing for drive redirection.
 0 Name: 8854 - Liftarm Axle 4.ldr
@@ -1262,6 +1284,7 @@
 1 7 -37 0 0 0 0 -1 0 1 0 1 0 0 4143.dat
 
 
+0 STEP
 0 FILE 8854 - Pressure Supply.ldr
 0 A long pneumatic tube routing pressure from the supply source through 239 tube segments to the pneumatic cylinders.
 0 Name: 8854 - Pressure Supply.ldr
@@ -1783,6 +1806,7 @@
 1 16 -254.105015 72.10037 78.548062 -0.961287 0.284526 0.266209 0.261593 -0.271917 0.962781 0.086581 3.980591 0.04674 166.dat
 
 
+0 STEP
 0 FILE 8854 - Pressure Bottom Up Supply.ldr
 0 A shorter pneumatic tube routing pressure upward through 64 tube segments to the bottom portion of the system.
 0 Name: 8854 - Pressure Bottom Up Supply.ldr
@@ -1950,6 +1974,7 @@
 1 16 -0.025241 140.308532 -21.222206 0.001603 0.086727 -0.999895 -0.681979 -4.395014 -0.011647 -0.73137 4.098395 0.008669 166.dat
 
 
+0 STEP
 0 FILE 8854 - Pressure Top Down Supply.ldr
 0 A long pneumatic pressure tube assembly with 55 segments routed top-down for supply.
 0 Name: 8854 - Pressure Top Down Supply.ldr
@@ -2099,6 +2124,7 @@
 1 16 -0.014594 136.461713 22.694088 0.001335 0.040944 -0.999947 0.486856 -3.493772 -0.008291 -0.873481 -1.947274 -0.006149 166.dat
 
 
+0 STEP
 0 FILE 8854 - Pressure Bottom Up Right.ldr
 0 A pneumatic pressure tube assembly with 21 segments routed bottom-up on the right side.
 0 Name: 8854 - Pressure Bottom Up Right.ldr
@@ -2180,6 +2206,7 @@
 1 16 36.019699 8.007985 46.64936 0.99954 -0.12325 -0.000453 0.00008 -0.049958 0.999924 -0.030323 -4.062772 -0.012282 166.dat
 
 
+0 STEP
 0 FILE 8854 - Pressure Bottom Up Left.ldr
 0 A pneumatic pressure tube assembly with 22 segments routed bottom-up on the left side.
 0 Name: 8854 - Pressure Bottom Up Left.ldr
@@ -2263,6 +2290,7 @@
 1 16 36.017374 8.007834 -46.69351 -0.999686 -0.098843 -0.000368 -0.000085 -0.04457 0.999936 -0.025045 3.945523 0.011286 166.dat
 
 
+0 STEP
 0 FILE 8854 - Pressure Top Down Left.ldr
 0 A pneumatic pressure tube assembly with 22 segments routed top-down on the left side.
 0 Name: 8854 - Pressure Top Down Left.ldr
@@ -2346,6 +2374,7 @@
 1 16 36.014576 11.009559 -46.560053 -0.999661 -0.103585 -0.000566 -0.000123 -0.067927 0.999854 -0.02602 3.979991 0.01705 166.dat
 
 
+0 STEP
 0 FILE 8854 - Pressure Top Down Right.ldr
 0 A pneumatic pressure tube assembly with 22 segments routed top-down on the right side.
 0 Name: 8854 - Pressure Top Down Right.ldr
@@ -2429,6 +2458,7 @@
 1 16 36.017145 11.010338 46.636743 0.999638 -0.10672 -0.000549 0.000112 -0.064351 0.999868 -0.026918 -3.963462 -0.016219 166.dat
 
 
+0 STEP
 0 FILE 8854 - Rope.ldr
 0 A long flexible rope element spanning 274 segments across the model.
 0 Name: 8854 - Rope.ldr

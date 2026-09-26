@@ -1249,6 +1249,7 @@
 1 72 -1.658 -131.356 62.823 0.378 -0.918 0.119 0.717 0.372 0.59 -0.586 -0.138 0.798 18654.dat
 
 
+0 STEP
 0 FILE 42112 - chassis.ldr
 0 Central chassis frame built from long Technic beams joined by axles, pin connectors, and an angle connector.
 0 Name: 42112 - chassis.ldr
@@ -1292,6 +1293,7 @@
 1 1 30 0 80 -1 0 0 0 -1 0 0 0 1 43093.dat
 
 
+0 STEP
 0 FILE 42112 - steerrack.ldr
 0 Steering rack assembly using a gear rack, cross blocks, and beams to translate motion to the front wheels.
 0 Name: 42112 - steerrack.ldr
@@ -1322,6 +1324,7 @@
 1 0 0 0 -40 1 0 0 0 1 0 0 0 1 87761.dat
 
 
+0 STEP
 0 FILE 42112 - camshaft.ldr
 0 Camshaft mechanism built from a connector block, orange liftarms, and a stopped axle for rotational motion.
 0 Name: 42112 - camshaft.ldr
@@ -1349,6 +1352,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42112 - chassis3.ldr
 0 Gear train subassembly with multiple bevel and clutch gears on beams and axles for power transmission.
 0 Name: 42112 - chassis3.ldr
@@ -1384,6 +1388,7 @@
 1 71 0 40 170 1 0 0 0 1 0 0 0 1 42112 - steergear.ldr
 
 
+0 STEP
 0 FILE 42112 - steergear.ldr
 0 Steering gear assembly using bevel gears, a toggle joint connector, and liftarms to drive the steering linkage.
 0 Name: 42112 - steergear.ldr
@@ -1412,6 +1417,7 @@
 1 4 0 -70 -10 0 1 0 0 0 -1 -1 0 0 59443.dat
 
 
+0 STEP
 0 FILE 42112 - chassis4.ldr
 0 Rear chassis segment with bent liftarms, angle connectors, and bushed pins for structural support.
 0 Name: 42112 - chassis4.ldr
@@ -1442,6 +1448,7 @@
 1 0 60 0 -40 0 0 1 -1 0 0 0 -1 0 32013.dat
 
 
+0 STEP
 0 FILE 42112 - rearaxles.ldr
 0 Rear axle assembly with open-center beams, differentials, bevel gears, and multiple cross blocks for the driven wheels.
 0 Name: 42112 - rearaxles.ldr
@@ -1597,6 +1604,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42112 - wheelsupport.ldr
 0 Wheel mounting support using cross blocks, an axle, and long pins to secure the wheel hub.
 0 Name: 42112 - wheelsupport.ldr
@@ -1621,6 +1629,7 @@
 1 1 20 -20 20 0 0 1 -1 0 0 0 -1 0 6558.dat
 
 
+0 STEP
 0 FILE 42112 - gearshift.ldr
 0 Gearbox shifter assembly with a transmission driving ring, clutch gears, and bevel gears on a beam framework.
 0 Name: 42112 - gearshift.ldr
@@ -1668,6 +1677,7 @@
 1 1 20 0 -100 1 0 0 0 1 0 0 0 1 42112 - 35185.dat
 
 
+0 STEP
 0 FILE 42112 - gearshiftlever.ldr
 0 Gear shift lever mechanism using a changeover catch, cross blocks, and an angle connector to select gears.
 0 Name: 42112 - gearshiftlever.ldr
@@ -1701,6 +1711,7 @@
 1 15 20 -80 0 1 0 0 0 0 -1 0 1 0 32013.dat
 
 
+0 STEP
 0 FILE 42112 - chassis5.ldr
 0 Chassis substructure with T-beams, long liftarms, a 24-tooth gear, and clutch connectors for drivetrain routing.
 0 Name: 42112 - chassis5.ldr
@@ -1764,6 +1775,7 @@
 1 1 -60 0 240 -1 0 0 0 1 0 0 0 -1 6558.dat
 
 
+0 STEP
 0 FILE 42112 - mixersupport.ldr
 0 Mixer drum support assembly featuring a turntable, large 36-tooth gear, and long beams to mount and rotate the drum.
 0 Name: 42112 - mixersupport.ldr
@@ -1857,6 +1869,7 @@
 1 71 -20 65 80 1 0 0 0 0 1 0 -1 0 62519.dat
 
 
+0 STEP
 0 FILE 42112 - chassisback.ldr
 0 Rear chassis cross-member using a connector block, T-beams, and angle connectors with reinforcement pins.
 0 Name: 42112 - chassisback.ldr
@@ -1912,6 +1925,7 @@
 1 15 0 -20 -20 1 0 0 0 -1 0 0 0 -1 18654.dat
 
 
+0 STEP
 0 FILE 42112 - chute.ldr
 0 Concrete discharge chute built from bent liftarms, panel fairings, angle connectors, and long beams.
 0 Name: 42112 - chute.ldr
@@ -1977,6 +1991,7 @@
 1 0 5.981 -35 -40 -0.866 -0.5 0 0.5 -0.866 0 0 0 1 2780.dat
 
 
+0 STEP
 0 FILE 42112 - mixerrollsupport.ldr
 0 Mixer drum roller support with small wheels and tyres on cross blocks and axles to guide the rotating drum.
 0 Name: 42112 - mixerrollsupport.ldr
@@ -2044,6 +2059,7 @@
 1 15 90 0 0 0 1 0 0 0 1 1 0 0 18654.dat
 
 
+0 STEP
 0 FILE 42112 - loader.ldr
 0 Front loader bucket assembly with bent liftarms, arched mudguard panels, and a smooth white panel forming the scoop.
 0 Name: 42112 - loader.ldr
@@ -2122,6 +2138,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42112 - loaderside1.ldr
 0 Left loader side panel built from thin beams, cross blocks, and a dark blue liftarm for structural framing.
 0 Name: 42112 - loaderside1.ldr
@@ -2172,6 +2189,7 @@
 1 0 -10.283 17.678 -10 0 -0.766 -0.643 0 -0.643 0.766 -1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 42112 - loaderside2.ldr
 0 Right loader side panel built from thin beams, cross blocks, and a dark blue liftarm for structural framing.
 0 Name: 42112 - loaderside2.ldr
@@ -2222,6 +2240,7 @@
 1 0 10.283 17.678 -10 0 0.766 0.643 0 -0.643 0.766 1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 42112 - mudg1.ldr
 0 Left mudguard assembly using bent blue liftarms, panel fairings, and a trans-orange round tile as a light.
 0 Name: 42112 - mudg1.ldr
@@ -2257,6 +2276,7 @@
 1 57 40 18 154 1 0 0 0 0 1 0 -1 0 98138.dat
 
 
+0 STEP
 0 FILE 42112 - mudg2.ldr
 0 Right mudguard assembly using bent blue liftarms, panel fairings, and a trans-orange round tile as a light.
 0 Name: 42112 - mudg2.ldr
@@ -2292,6 +2312,7 @@
 1 57 -40 18 154 1 0 0 0 0 1 0 -1 0 98138.dat
 
 
+0 STEP
 0 FILE 42112 - front.ldr
 0 Front grille and bumper assembly with blue beams, elbow cylinders, panel fairings, and cross blocks.
 0 Name: 42112 - front.ldr
@@ -2352,6 +2373,7 @@
 1 0 -60 -60 10 0 0 1 0 1 0 -1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 42112 - roof.ldr
 0 Cab roof section built from a large dark blue panel, fairing panels, and a liftarm with trans-orange light tiles.
 0 Name: 42112 - roof.ldr
@@ -2392,6 +2414,7 @@
 1 57 -80 -18 20 1 0 0 0 1 0 0 0 1 98138.dat
 
 
+0 STEP
 0 FILE 42112 - cabinside1.ldr
 0 Left cab interior detail with thin beams, toggle joint connector, and angle connector for dashboard framing.
 0 Name: 42112 - cabinside1.ldr
@@ -2425,6 +2448,7 @@
 1 71 10 0 -40 -1 0 0 0 1 0 0 0 -1 3713.dat
 
 
+0 STEP
 0 FILE 42112 - cabinside2.ldr
 0 Right cab interior detail with thin beams, toggle joint connector, and angle connector for dashboard framing.
 0 Name: 42112 - cabinside2.ldr
@@ -2458,6 +2482,7 @@
 1 71 -10 0 -40 -1 0 0 0 1 0 0 0 -1 3713.dat
 
 
+0 STEP
 0 FILE 42112 - door1.ldr
 0 Right-side body door panel assembly with dark blue Technic beams, a bent liftarm, and a smooth fairing panel.
 0 Name: 42112 - door1.ldr
@@ -2484,6 +2509,7 @@
 1 272 0 -40 40 -1 0 0 0 1 0 0 0 -1 11946.dat
 
 
+0 STEP
 0 FILE 42112 - door2.ldr
 0 Left-side body door panel assembly with dark blue Technic beams, a bent liftarm, and a smooth fairing panel (mirror of door1).
 0 Name: 42112 - door2.ldr
@@ -2510,6 +2536,7 @@
 1 272 0 -40 40 -1 0 0 0 1 0 0 0 -1 11947.dat
 
 
+0 STEP
 0 FILE 42112 - technicFlexAxle-studio-1.ldr
 0 Long flexible axle/hose submodel composed of hundreds of segmented flex-system hose and axle perimeter pieces.
 0 Name: 42112 - technicFlexAxle-studio-1.ldr
@@ -3230,6 +3257,7 @@
 1 16 -59.20833 -197.549913 0 -0.829038 0.560715 0 0.559193 0.831294 0 0 0 -1 stud3a.dat
 
 
+0 STEP
 0 FILE 42112 - tank.ldr
 0 Fuel/oil tank assembly built from white connector blocks, beams, a smooth panel, and friction pins.
 0 Name: 42112 - tank.ldr
@@ -3267,6 +3295,7 @@
 1 15 0 -40 -50 0 -1 0 1 0 0 0 0 1 32524.dat
 
 
+0 STEP
 0 FILE 42112 - chassisside1.ldr
 0 Side chassis substructure using a large open-center liftarm beam, connector blocks, cross blocks, and pins.
 0 Name: 42112 - chassisside1.ldr
@@ -3297,6 +3326,7 @@
 1 71 -20 40 0 0 1 0 1 0 0 0 0 -1 32524.dat
 
 
+0 STEP
 0 FILE 42112 - mudg3.ldr
 0 Blue mudguard/bumper bracket subassembly made of bent liftarms, short beams, and friction pins with a yellow axle.
 0 Name: 42112 - mudg3.ldr
@@ -3345,6 +3375,7 @@
 1 1 -20 0 60 1 0 0 0 1 0 0 0 1 6558.dat
 
 
+0 STEP
 0 FILE 42112 - mudg4.ldr
 0 Blue mudguard/bumper bracket subassembly with long bent liftarms, a beam 13, cross blocks, and pins.
 0 Name: 42112 - mudg4.ldr
@@ -3393,6 +3424,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42112 - mudg5.ldr
 0 Blue mudguard/bumper bracket subassembly (mirror of mudg3) made of bent liftarms, short beams, and friction pins.
 0 Name: 42112 - mudg5.ldr
@@ -3441,6 +3473,7 @@
 1 1 20 0 60 -1 0 0 0 1 0 0 0 -1 6558.dat
 
 
+0 STEP
 0 FILE 42112 - mudg6.ldr
 0 Blue mudguard/bumper bracket subassembly (mirror of mudg4) with long bent liftarms, a beam 13, and pins.
 0 Name: 42112 - mudg6.ldr
@@ -3489,6 +3522,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42112 - 33299b.dat
 0 Primitive subpart defining axle and peg hole geometry with rings and a disc.
 0 Name: 42112 - 33299b.dat
@@ -3527,6 +3561,7 @@
 4 16 3.444 10 31.684999 0 10 31 0 10 32 3.062 10 32.609001
 
 
+0 STEP
 0 FILE 42112 - 65421p01.dat
 0 Empty wrapper submodel referencing subparts for a printed Technic connector piece.
 0 Name: 42112 - 65421p01.dat
@@ -3543,6 +3578,7 @@
 1 14 0 0 0 -1 0 0 0 1 0 0 0 1 s\42112 - 65421p01s02.dat
 5 24 0 -129 -90 0 -129 90 -16.8379 -127.8964 90 16.8379 -127.8964 -90
 
+0 STEP
 0 FILE 42112 - 35185.dat
 0 Primitive subpart defining a Technic connector hole with rings and open cylinders.
 0 Name: 42112 - 35185.dat
@@ -3581,6 +3617,7 @@
 1 16 0 0 0 -1 0 0 0 1 0 0 0 1 s\42112 - 35185s01.dat
 1 16 0 0 0 0 -1 0 -1 0 0 0 0 1 s\42112 - 35185s01.dat
 
+0 STEP
 0 FILE 42112 - 51149.dat
 0 Primitive subpart defining an axle connector with open cylinders, axle holes, and adapter rings.
 0 Name: 42112 - 51149.dat
@@ -3643,6 +3680,7 @@
 1 16 -10 0 -20 0 1 0 6 0 0 0 0 -6 1-4ering.dat
 
 
+0 STEP
 0 FILE 42112 - 46835.dat
 0 Primitive subpart defining a complex Technic axle/pin hole part with closed axle holes, cylinders, and boxes.
 0 Name: 42112 - 46835.dat
@@ -3872,6 +3910,7 @@
 2 24 6.0411 7.7593 1 6.0411 7.7593 6
 2 24 -1.3547 9.7306 1 -1.3547 9.7306 6
 
+0 STEP
 0 FILE 42112 - 46834.dat
 0 Primitive subpart defining a Technic axle hole connector with closed holes and box faces.
 0 Name: 42112 - 46834.dat
@@ -3954,6 +3993,7 @@
 2 24 2 -5.602 -10 0 -6 -10
 3 16 2 -5.602 -10 0 -6 -10 -2 -5.602 -10
 
+0 STEP
 0 FILE s\42112 - 32269s01.dat
 0 Geometric subpart composed entirely of rectangles forming a flat or box-like Technic beam profile.
 0 Name: s\42112 - 32269s01.dat
@@ -4043,6 +4083,7 @@
 3 16 18.258699 2.4034 -10 17.789101 4.7663 -10 19.3403 4.9066 -10
 3 16 15.3375 12.7626 -10 14.6121 11.2123 -10 13.0227 13.0227 -10
 
+0 STEP
 0 FILE s\42112 - 35185s01.dat
 0 Empty geometric subpart wrapper referenced by the 35185 connector primitive.
 0 Name: s\42112 - 35185s01.dat
@@ -4086,6 +4127,7 @@
 2 24 0.457 12.3917 -2 1.7915 16.881901 -2
 4 16 0 17 -9.8 1.0915 16.928101 -9.8 0 13.222 -9.8 -1.0915 16.928101 -9.8
 
+0 STEP
 0 FILE s\42112 - 6641s01.dat
 0 Geometric subpart defining a cylindrical Technic bushing/pin profile with rings and chords.
 0 Name: s\42112 - 6641s01.dat
@@ -4209,6 +4251,7 @@
 5 24 7.124 -3.444 -11.69 7.124 -3.444 3 7.937 -1 3 5.057 -6 3
 5 24 6 0 6 6 0 3 5.602 2 6 5.602 -2 6
 
+0 STEP
 0 FILE s\42112 - 46835s01.dat
 0 Geometric subpart defining circular and conical surfaces for the 46835 axle connector primitive.
 0 Name: s\42112 - 46835s01.dat
@@ -4326,6 +4369,7 @@
 
 3 16 3.8822 -14.4887 6 4.1675 -15.6 6 0 -15.6 6
 
+0 STEP
 0 FILE s\42112 - 46834s01.dat
 0 Minimal geometric subpart consisting of a single rectangle with two adjacent edges.
 0 Name: s\42112 - 46834s01.dat
@@ -4380,6 +4424,7 @@
 3 16 0.7178 -22.1054 6 1.6965 -25.888201 6 2.1085 -21.5142 6
 4 16 -2.1085 -21.5142 -7 -0.7178 -22.1054 -7 0.7178 -22.1054 -7 2.1085 -21.5142 -7
 
+0 STEP
 0 FILE s\42112 - 46834s02.dat
 0 Geometric subpart defining cylindrical surfaces and rings for the 46834 axle hole primitive.
 0 Name: s\42112 - 46834s02.dat
@@ -4449,6 +4494,7 @@
 4 16 10 0 -10 8 0 -10 1.1544 8.7244 -10 3.827 9.239 -10
 2 24 3.4434 8.4995 -30 3.4434 8.4995 -10
 
+0 STEP
 0 FILE s\42112 - 65421s00.dat
 0 Geometric subpart defining connector hole and rectangle profiles for the 65421 part.
 0 Name: s\42112 - 65421s00.dat
@@ -4775,6 +4821,7 @@
 0 // Rectangle with 1 Edge (main_colour)
 1 16 0 -14 218.152 0 0 -25 0 1 0 2.84805 0 0 rect1.dat
 
+0 STEP
 0 FILE s\42112 - 65421s01.dat
 0 Detailed geometric subpart building the cylinder, ring, and connector-hole surfaces of a Technic pin/axle connector.
 0 Name: s\42112 - 65421s01.dat
@@ -5749,6 +5796,7 @@
 5 24 42.150002 -73.005898 201.800003 51.3186 -66.8797 201.800003 43.799999 -75.8638 199.699997 28.700001 -49.7099 210.800003
 5 24 114.833603 -1 -102.472702 114.833603 -33.514 -102.472702 111.133698 -44.529499 -100 119.489899 -1 -103.398598
 
+0 STEP
 0 FILE 48\42112 - 1-4ring49.dat
 0 Primitive-generated quarter ring (1-4 ring at radius 49) used as a geometric building block.
 0 Name: 48\42112 - 1-4ring49.dat
@@ -5772,6 +5820,7 @@
 4 16 6.525 0 49.57 0 0 50 0 0 49 6.3945 0 48.578602
 0 // Build by Primitive Generator 2
 
+0 STEP
 0 FILE s\42112 - 65421p01s01.dat
 0 Empty geometric subpart wrapper referenced by the printed 65421p01 connector.
 0 Name: s\42112 - 65421p01s01.dat
@@ -5883,6 +5932,7 @@
 5 24 -78.530197 -102.342598 90 -78.530197 -102.342598 -90 -64.5 -111.7173 -90 -91.216797 -91.216797 90
 5 24 -16.8379 -127.8964 90 -16.8379 -127.8964 -90 0 -129 -90 -33.387699 -124.604401 90
 
+0 STEP
 0 FILE s\42112 - 65421p01s02.dat
 0 65421p01s02
 0 Name: s\42112 - 65421p01s02.dat

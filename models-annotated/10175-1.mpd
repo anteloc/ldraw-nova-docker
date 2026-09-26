@@ -237,6 +237,7 @@
 1 0 -518 -237.516 320.406 0 0 -1 0.819 0.574 0 0.574 -0.819 0 10175-1 - subModel-044.ldr
 1 0 -518 17.516 -320.406 0 0 -1 -0.819 -0.574 0 -0.574 0.819 0 10175-1 - subModel-044.ldr
 
+0 STEP
 0 FILE 10175-1 - subModel-001.ldr
 0 Hinged engine-nacelle pod built from a 2x4 plate, locking hinge plates and bricks, mirrored 2x3 wings and a grooved 2x2 tile
 0 Author: Roland Dahl [RolandD]
@@ -268,6 +269,7 @@
 0 // Tile  2 x  2 with Groove (black)
 1 0 47.693 -76.673 0 -0.174 -0.985 0 -0.985 0.174 0 0 0 -1 3068b.dat
 
+0 STEP
 0 FILE 10175-1 - subModel-002.ldr
 0 Small mounting bracket of plates with a horizontal clip for attaching hoses or bars
 0 Author: Roland Dahl [RolandD]
@@ -288,6 +290,7 @@
 0 // Plate  1 x  4 (light_bluish_grey)
 1 71 0 -16 0 1 0 0 0 1 0 0 0 1 3710.dat
 
+0 STEP
 0 FILE 10175-1 - subModel-003.ldr
 0 Tiny indicator detail combining a vertical clip plate with a trans-red round plate
 0 Author: Roland Dahl [RolandD]
@@ -302,6 +305,7 @@
 0 // Plate  1 x  1 Round (trans_red)
 1 36 0 -8 0 1 0 0 0 1 0 0 0 1 6141.dat
 
+0 STEP
 0 FILE 10175-1 - subModel-004.ldr
 0 Technic mounting beam of a 2x8 plate joined to holed technic bricks and a friction pin
 0 Author: Roland Dahl [RolandD]
@@ -324,6 +328,7 @@
 0 // Technic Pin with Friction and Slots (black)
 1 0 0 -14 -80 0 0 -1 0 1 0 1 0 0 2780.dat
 
+0 STEP
 0 FILE 10175-1 - subModel-005.ldr
 0 Sensor/antenna detail of plates, a 1x3 bar and a pair of minifig binoculars
 0 Author: Roland Dahl [RolandD]
@@ -338,6 +343,7 @@
 0 // Minifig Binoculars with Round Eyepiece (dark_bluish_grey)
 1 72 0 -4 -30 1 0 0 0 1 0 0 0 1 30162.dat
 
+0 STEP
 0 FILE 10175-1 - subModel-006.ldr
 0 Minimal pin connector of a holed 1x1 technic brick and a half-pinhub pin
 0 Author: Roland Dahl [RolandD]
@@ -350,6 +356,7 @@
 0 // Technic Pin  1/2 (light_bluish_grey)
 1 71 10 10 0 1 0 0 0 1 0 0 0 1 4274.dat
 
+0 STEP
 0 FILE 10175-1 - subModel-007.ldr
 0 Vented grille panel from corner-less plates, a raised-grille 2x2 plate and a 1x3 bar
 0 Author: Roland Dahl [RolandD]
@@ -372,6 +379,7 @@
 0 // ~Bar  1 x  3 (Obsolete) (dark_bluish_grey)
 1 72 20 -16 50 0 0 -1 0 1 0 1 0 0 6190.dat
 
+0 STEP
 0 FILE 10175-1 - subModel-008.ldr
 0 Curved side detail built from a swept mudguard, clip and grille tiles, a jumper plate and a handle tile
 0 Author: Roland Dahl [RolandD]
@@ -394,6 +402,7 @@
 0 // Tile  1 x  2 with Handle (light_bluish_grey)
 1 71 -26 -12 0 0 -1 0 0 0 1 -1 0 0 2432.dat
 
+0 STEP
 0 FILE 10175-1 - subModel-009.ldr
 0 Laser-cannon barrel made of a holed 2x2 plate, a lightsaber hilt and a trans-red round plate
 0 Author: Roland Dahl [RolandD]
@@ -409,6 +418,7 @@
 0 // Plate  1 x  1 Round (trans_red)
 1 36 57 -10 0 0 -1 0 1 0 0 0 0 1 6141.dat
 
+0 STEP
 0 FILE 10175-1 - subModel-010.ldr
 0 Cockpit canopy of the octagonal 10x10x4 TIE-Advanced-pattern windscreen on a hinge base
 0 Author: Roland Dahl [RolandD]
@@ -423,6 +433,7 @@
 0 // Hinge  1 x  2 Base (dark_bluish_grey)
 1 72 20 40 40 1 0 0 0 1 0 0 0 1 3937.dat
 
+0 STEP
 0 FILE 10175-1 - subModel-011.ldr
 0 Engine exhaust nozzle tip of a stop cone capped with a trans-red round plate
 0 Author: Roland Dahl [RolandD]
@@ -435,6 +446,7 @@
 0 // Plate  1 x  1 Round (trans_red)
 1 36 0 -8 0 1 0 0 0 1 0 0 0 1 6141.dat
 
+0 STEP
 0 FILE 10175-1 - subModel-012.ldr
 0 Cockpit interior base of the octagonal 10x10x4 base with inverted slopes, holding the seat, console bar and rear-hatch submodels
 0 Author: Roland Dahl [RolandD]
@@ -458,6 +470,7 @@
 0 STEP
 1 0 -10 -14 90 1 0 0 0 1 0 0 0 1 10175-1 - subModel-015.ldr
 
+0 STEP
 0 FILE 10175-1 - subModel-013.ldr
 0 Antenna/flag detail of plates, a handled plate, a 2x2 flag and a round bar-and-clip brick
 0 Author: Roland Dahl [RolandD]
@@ -482,6 +495,7 @@
 0 // Brick  1 x  1 x  0.667 Round with Bar and Clip Vertical (light_bluish_grey)
 1 71 -64.641 -26 6 0.5 0 -0.866 -0.866 0 -0.5 0 1 0 4735.dat
 
+0 STEP
 0 FILE 10175-1 - subModel-014.ldr
 0 Sensor bar assembly of plates, a grooved 1x4 tile, a clip plate and a 4L lightsaber bar
 0 Author: Roland Dahl [RolandD]
@@ -504,6 +518,7 @@
 0 // Bar  4L Lightsaber Blade (light_bluish_grey)
 1 71 -40 -6 -20 0 1 0 -1 0 0 0 0 1 30374.dat
 
+0 STEP
 0 FILE 10175-1 - subModel-015.ldr
 0 Rear engine hatch assembly of a liftarm, axles and an angle connector holding the inverted 6x6 dish printed with the SW TIE Advanced hatch pattern
 0 Author: Roland Dahl [RolandD]
@@ -548,6 +563,7 @@
 0 // Dish  6 x  6 Inverted Hollow Studs with SW TIE Advanced Hatch Pattern (dark_bluish_grey)
 1 72 10 -58.898 34.551 1 0 0 0 0 1 0 -1 0 44375p02.dat
 
+0 STEP
 0 FILE 10175-1 - subModel-016.ldr
 0 Main central fuselage frame of large open-centre technic bricks, long pin/beam bricks, plates, wedges, wings, a boat-bow plate, dome cylinder, bars, taps and tiles, with the rigid hoses and the inner technic spine
 0 Author: Roland Dahl [RolandD]
@@ -961,6 +977,7 @@
 1 0 -320 10 20 1 0 0 0 0.99 0.139 0 -0.139 0.99 2780.dat
 0 STEP
 
+0 STEP
 0 FILE 10175-1 - subModel-017.ldr
 0 Inner technic spine joining an open-centre 4x4 brick and a holed 1x8 brick with a friction pin
 0 Author: Roland Dahl [RolandD]
@@ -984,6 +1001,7 @@
 0 // Technic Brick  1 x  8 with Holes (light_bluish_grey)
 1 71 -50 0 40 0 0 -1 0 1 0 1 0 0 3702.dat
 
+0 STEP
 0 FILE 10175-1 - rigid3mmHose-1.ldr
 0 Rigid 3mm hose (approx 128 mm, ten segments) routed as engine piping between nacelle and fuselage
 0 !CATEGORY Technic
@@ -1658,6 +1676,7 @@
 5 24 1.4142 -1.4142 320 1.4142 -1.4142 318 1.8478 -0.7654 320 0.7654 -1.8478 320
 5 24 1.8478 -0.7654 320 1.8478 -0.7654 318 2 0 320 1.4142 -1.4142 320
 
+0 STEP
 0 FILE 10175-1 - rigid3mmHose-2.ldr
 0 Rigid 3mm hose (approx 128 mm, ten segments) routed as engine piping between nacelle and fuselage
 0 !CATEGORY Technic
@@ -2332,6 +2351,7 @@
 5 24 1.4142 -1.4142 320 1.4142 -1.4142 318 1.8478 -0.7654 320 0.7654 -1.8478 320
 5 24 1.8478 -0.7654 320 1.8478 -0.7654 318 2 0 320 1.4142 -1.4142 320
 
+0 STEP
 0 FILE 10175-1 - subModel-018.ldr
 0 Hinged landing-gear/access trap door of a trap-door plate, plates, a door rail, locking hinge and a 1x6 tile, with its inner door and right wing panel
 0 Author: Roland Dahl [RolandD]
@@ -2381,6 +2401,7 @@
 0 STEP
 1 72 90 -0.776 -55.711 1 0 0 0 0.743 -0.669 0 0.669 0.743 10175-1 - subModel-020.ldr
 
+0 STEP
 0 FILE 10175-1 - subModel-019.ldr
 0 Inner hinged door panel of plates, a locking hinge plate and grooved tiles
 0 Author: Roland Dahl [RolandD]
@@ -2410,6 +2431,7 @@
 0 // Plate  1 x 10 (light_bluish_grey)
 1 71 0 -16 -20 1 0 0 0 1 0 0 0 1 4477.dat
 
+0 STEP
 0 FILE 10175-1 - subModel-020.ldr
 0 Right-side hinged wing panel of plates, a locking hinge, right wings and a corner-less plate
 0 Author: Roland Dahl [RolandD]
@@ -2445,6 +2467,7 @@
 0 // Plate  3 x  3 without Corner (light_bluish_grey)
 1 71 -110 -24 0 0 0 1 0 1 0 -1 0 0 2450.dat
 
+0 STEP
 0 FILE 10175-1 - subModel-021.ldr
 0 Hinged landing-gear/access trap door of a trap-door plate, plates, a door rail, locking hinge and a 1x6 tile, with its inner door and left wing panel
 0 Author: Roland Dahl [RolandD]
@@ -2494,6 +2517,7 @@
 0 STEP
 1 71 55.711 -0.776 -90 0 -0.669 -0.743 0 0.743 -0.669 1 0 0 10175-1 - subModel-022.ldr
 
+0 STEP
 0 FILE 10175-1 - subModel-022.ldr
 0 Left-side hinged wing panel of plates, a locking hinge, left wings and a corner-less plate
 0 Author: Roland Dahl [RolandD]
@@ -2529,6 +2553,7 @@
 0 // Plate  3 x  3 without Corner (light_bluish_grey)
 1 71 110 -24 0 1 0 0 0 1 0 0 0 1 2450.dat
 
+0 STEP
 0 FILE 10175-1 - subModel-023.ldr
 0 Lower structural frame of bricks, slopes and technic bricks holding axles, beams, bushes and the gear/strut submodels
 0 Author: Roland Dahl [RolandD]
@@ -2650,6 +2675,7 @@
 0 STEP
 1 0 -105.117 -96.75 -10 0 0.991 0.133 0 0.133 -0.991 -1 0 0 10175-1 - subModel-030.ldr
 
+0 STEP
 0 FILE 10175-1 - subModel-024.ldr
 0 Technic beam mount of a holed 1x12 brick on a 2x10 plate with a friction pin
 0 Author: Roland Dahl [RolandD]
@@ -2679,6 +2705,7 @@
 0 // Technic Brick  1 x 12 with Holes (black)
 1 0 -180 0 20 1 0 0 0 1 0 0 0 1 3895.dat
 
+0 STEP
 0 FILE 10175-1 - subModel-025.ldr
 0 Bent liftarm strut (53.13 deg) on an axle 4 with a 90-deg bent liftarm submodel
 0 Author: Roland Dahl [RolandD]
@@ -2696,6 +2723,7 @@
 0 // Technic Beam  4 x  6 Liftarm Bent 53.13 (black)
 1 0 60 8 0 0 1 0 0.602 0 -0.799 -0.799 0 -0.602 6629.dat
 
+0 STEP
 0 FILE 10175-1 - subModel-026.ldr
 0 Bent liftarm strut (90 deg) joined on an axle 4
 0 Author: Roland Dahl [RolandD]
@@ -2711,6 +2739,7 @@
 0 // Technic Beam  2 x  4 Liftarm Bent 90 (black)
 1 0 20 0 0 0 1 0 0 0 1 1 0 0 32140.dat
 
+0 STEP
 0 FILE 10175-1 - subModel-027.ldr
 0 Axle-6 shaft with a double-flange technic bush
 0 Author: Roland Dahl [RolandD]
@@ -2723,6 +2752,7 @@
 0 // Technic Bush with Two Flanges (light_bluish_grey)
 1 71 -50 0 0 0 0 1 0 1 0 -1 0 0 3713.dat
 
+0 STEP
 0 FILE 10175-1 - subModel-028.ldr
 0 Boxed structural mount of a holed 1x4 technic brick, a 2x2x3 brick, plates, a grooved tile and a friction pin
 0 Author: Roland Dahl [RolandD]
@@ -2749,6 +2779,7 @@
 0 // Plate  2 x  2 (light_bluish_grey)
 1 71 20 104 -10 0 0 1 0 1 0 -1 0 0 3022.dat
 
+0 STEP
 0 FILE 10175-1 - subModel-029.ldr
 0 Structural rail of a holed 1x8 technic brick with plates, a grille tile, a friction pin and a 1x1 brick
 0 Author: Roland Dahl [RolandD]
@@ -2782,6 +2813,7 @@
 0 // Tile  1 x  2 Grille with Groove (light_bluish_grey)
 1 71 70 -8 -10 0 0 -1 0 1 0 1 0 0 2412b.dat
 
+0 STEP
 0 FILE 10175-1 - subModel-030.ldr
 0 Large flat base panel of a 4x12 plate surfaced with a 1x8 tile
 0 Author: Roland Dahl [RolandD]
@@ -2820,6 +2852,7 @@
 1 0 110 -8 40 0 0 -1 0 1 0 1 0 0 4162.dat
 0 STEP
 
+0 STEP
 0 FILE 10175-1 - subModel-031.ldr
 0 Hinged landing-gear/access trap door of a trap-door plate, plates, a door rail, locking hinge, grooved tiles and a clip-light plate, with its inner door and right wing panel
 0 Author: Roland Dahl [RolandD]
@@ -2875,6 +2908,7 @@
 0 STEP
 1 72 90 0.527 -54.042 1 0 0 0 0.707 -0.707 0 0.707 0.707 10175-1 - subModel-020.ldr
 
+0 STEP
 0 FILE 10175-1 - subModel-032.ldr
 0 Hinged landing-gear/access trap door of a trap-door plate, plates, a door rail, locking hinge, grooved tiles and a clip-light plate, with its inner door and left wing panel
 0 Author: Roland Dahl [RolandD]
@@ -2930,6 +2964,7 @@
 0 STEP
 1 72 54.042 0.527 -90 0 -0.707 -0.707 0 0.707 -0.707 1 0 0 10175-1 - subModel-022.ldr
 
+0 STEP
 0 FILE 10175-1 - subModel-033.ldr
 0 Large rear-wing skin assembly of plates, hinge plates, grille and grooved tiles, a rounded panel and a tap, holding the technic struts, wing pivots and thruster details
 0 Author: Roland Dahl [RolandD]
@@ -3087,6 +3122,7 @@
 0 STEP
 1 72 0 -48 -520 0 0 -1 0 1 0 1 0 0 10175-1 - subModel-042.ldr
 
+0 STEP
 0 FILE 10175-1 - subModel-034.ldr
 0 Technic mechanism of an axle 10, cross blocks, bushes, beams, a holed brick, a plate, a brick and a slope, with two pin-bar connectors
 0 Author: Roland Dahl [RolandD]
@@ -3150,6 +3186,7 @@
 0 // Slope Brick 45  2 x  1 (light_bluish_grey)
 1 71 -100 -10 50 -1 0 0 0 1 0 0 0 -1 3040b.dat
 
+0 STEP
 0 FILE 10175-1 - subModel-035.ldr
 0 Small pin-and-bar connector of a half-pin and a 6.6L bar with stop
 0 Author: Roland Dahl [RolandD]
@@ -3162,6 +3199,7 @@
 0 // Bar  6.6L with Stop (light_bluish_grey)
 1 71 4 0 0 0 -1 0 0 0 -1 1 0 0 4095.dat
 
+0 STEP
 0 FILE 10175-1 - subModel-036.ldr
 0 Wing-pivot mount of an axle, a cross block, a bush, a holed technic brick, left/right wings, a brick and a pin, with two liftarm details and a thruster
 0 Author: Roland Dahl [RolandD]
@@ -3216,6 +3254,7 @@
 0 STEP
 1 71 100 0 -20 0 -1 0 0 0 -1 1 0 0 10175-1 - subModel-038.ldr
 
+0 STEP
 0 FILE 10175-1 - subModel-037.ldr
 0 Liftarm detail of a 7-long beam, a half-pin, a plate and a 2x1 slope
 0 Author: Roland Dahl [RolandD]
@@ -3237,6 +3276,7 @@
 0 // Slope Brick 45  2 x  1 (light_bluish_grey)
 1 71 0 -42 10 -1 0 0 0 1 0 0 0 -1 3040b.dat
 
+0 STEP
 0 FILE 10175-1 - subModel-038.ldr
 0 Thruster nozzle detail of a jumper plate, a stop cone and a 4L lightsaber bar
 0 Author: Roland Dahl [RolandD]
@@ -3252,6 +3292,7 @@
 0 // Bar  4L Lightsaber Blade (light_bluish_grey)
 1 71 0 -12 0 -1 0 0 0 -1 0 0 0 1 30374.dat
 
+0 STEP
 0 FILE 10175-1 - subModel-039.ldr
 0 Small plate bracket of a 2x3 plate and a 1x2 plate
 0 Author: Roland Dahl [RolandD]
@@ -3264,6 +3305,7 @@
 0 // Plate  1 x  2 (black)
 1 0 0 8 0 1 0 0 0 1 0 0 0 1 3023.dat
 
+0 STEP
 0 FILE 10175-1 - subModel-040.ldr
 0 Hose fitting of a round bar-and-clip brick with a tap
 0 Author: Roland Dahl [RolandD]
@@ -3276,6 +3318,7 @@
 0 // Tap  1 x  1 with Hole in Spout (light_bluish_grey)
 1 71 0 -8 -40 0 0 -1 0 1 0 1 0 0 4599a.dat
 
+0 STEP
 0 FILE 10175-1 - subModel-041.ldr
 0 Hose fitting of a round bar-and-clip brick with a tap
 0 Author: Roland Dahl [RolandD]
@@ -3288,6 +3331,7 @@
 0 // Tap  1 x  1 with Hole in Spout (light_bluish_grey)
 1 71 0 -8 -40 0 0 1 0 1 0 -1 0 0 4599a.dat
 
+0 STEP
 0 FILE 10175-1 - subModel-042.ldr
 0 Engine nozzle of an inverted webbed 6x6 dish on a round axle-hole plate
 0 Author: Roland Dahl [RolandD]
@@ -3303,6 +3347,7 @@
 0 // Dish  6 x  6 Inverted Webbed Type 2 (dark_bluish_grey)
 1 72 0 -16 0 1 0 0 0 1 0 0 0 1 4285b.dat
 
+0 STEP
 0 FILE 10175-1 - subModel-043.ldr
 0 Full wing-panel assembly of plates, mirrored wings, locking hinges, grooved and clipped tiles, bars, a rounded panel and two flex hoses
 0 Author: Roland Dahl [RolandD]
@@ -3462,6 +3507,7 @@
 1 0 90 -16 -690 0.316 0 0.949 0 1 0 -0.949 0 0.316 2555.dat
 1 71 143.24 -22 -7.714 0.316 0.949 0 0 0 1 0.949 -0.316 0 10175-1 - technicflexSysHose-1.ldr
 
+0 STEP
 0 FILE 10175-1 - subModel-044.ldr
 0 Full wing-panel assembly of plates, mirrored wings, locking hinges, grooved and clipped tiles, bars, a rounded panel and two flex hoses
 0 Author: Roland Dahl [RolandD]
@@ -3610,6 +3656,7 @@
 1 71 23.359 -22 -727.786 0.317 0.949 0 0 0 1 0.949 -0.317 0 10175-1 - technicflexSysHose-1.ldr
 1 71 22.727 -22 47.604 -0.316 0.949 0 0 0 1 0.949 0.316 0 10175-1 - technicflexSysHose-1.ldr
 
+0 STEP
 0 FILE 10175-1 - technicflexSysHose-1.ldr
 0 Flexible system hose (approx 79 mm, seven segments) routed as engine piping along the wing
 0 !CATEGORY technic

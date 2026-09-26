@@ -8,6 +8,7 @@
 1 71 0 0 0 1 0 0 0 1 0 0 0 1 5866 - Helicopter.ldr
 
 
+0 STEP
 0 FILE 5866 - Helicopter.ldr
 0 The main body of a red and yellow helicopter built from large plates, sloped bricks, and curved slopes forming the fuselage and structural frame.
 0 Name: 5866 - Helicopter.ldr
@@ -228,6 +229,7 @@
 1 0 0 -160 0 1 0 0 0 1 0 0 0 1 5866 - Helicopter S29.ldr
 
 
+0 STEP
 0 FILE 5866 - Helicopter S10.ldr
 0 A small grey and dark bluish grey panel assembly with clips and a grooved grille tile, likely a cockpit or instrument detail section.
 0 Name: 5866 - Helicopter S10.ldr
@@ -251,6 +253,7 @@
 1 71 0 -16 70 1 0 0 0 1 0 0 0 1 2412b.dat
 
 
+0 STEP
 0 FILE 5866 - Helicopter S13.ldr
 0 A compact red and black subassembly using curved slopes, forming a small tail or fuselage contour element.
 0 Name: 5866 - Helicopter S13.ldr
@@ -269,6 +272,7 @@
 1 4 10 -16 -20 1 0 0 0 1 0 0 0 1 61678.dat
 
 
+0 STEP
 0 FILE 5866 - Helicopter S16.ldr
 0 A minimal light bluish grey assembly with a side-stud brick and clip tile connected to a dark bluish grey zip-line handle.
 0 Name: 5866 - Helicopter S16.ldr
@@ -285,6 +289,7 @@
 1 72 10 10 -24 0 -1 0 0 0 -1 1 0 0 30229.dat
 
 
+0 STEP
 0 FILE 5866 - Helicopter S19.ldr
 0 A tiny assembly pairing a black loudhailer with a transparent round plate, likely representing a sensor or light fixture.
 0 Name: 5866 - Helicopter S19.ldr
@@ -298,6 +303,7 @@
 1 47 0 0 -22 0 0 -1 1 0 0 0 -1 0 6141.dat
 
 
+0 STEP
 0 FILE 5866 - Helicopter S26.ldr
 0 A red wing and tail rotor assembly built from wing plates, long plates, and slopes with a technic pin for attachment.
 0 Name: 5866 - Helicopter S26.ldr
@@ -350,6 +356,7 @@
 1 15 64 -54 120 0 -1 0 -1 0 0 0 0 -1 5866 - Helicopter S26 s9.ldr
 
 
+0 STEP
 0 FILE 5866 - Helicopter S26 s9.ldr
 0 A four-blade black propeller with white groove tiles, forming a main rotor head detail.
 0 Name: 5866 - Helicopter S26 s9.ldr
@@ -370,6 +377,7 @@
 1 15 40 -8 0 1 0 0 0 1 0 0 0 1 3070b.dat
 
 
+0 STEP
 0 FILE 5866 - Helicopter S28.ldr
 0 A small dark bluish grey robot-body cylinder and cone assembly joined by a technic pin, forming a spherical joint or sensor pod.
 0 Name: 5866 - Helicopter S28.ldr
@@ -388,6 +396,7 @@
 1 71 0 0 -38 1 0 0 0 0 1 0 -1 0 6141.dat
 
 
+0 STEP
 0 FILE 5866 - Helicopter S29.ldr
 0 A long four-blade rotor assembly made from black plates and white groove tiles mounted on a central propeller.
 0 Name: 5866 - Helicopter S29.ldr

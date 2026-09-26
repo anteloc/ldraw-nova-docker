@@ -8,6 +8,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Buggy.ldr
 0 Large chassis substructure built from numerous plates and Technic bricks forming the main body of the vehicle.
 0 Name: 5893 - Buggy.ldr
@@ -892,6 +893,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Sub18.ldr
 0 Small Technic linkage assembly using a beam, pins, and a tile to connect moving parts.
 0 Name: 5893 - Sub18.ldr
@@ -911,6 +913,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Winch.ldr
 0 Functional winch unit built around a windup motor with a reel and towball axle for pulling.
 0 Name: 5893 - Winch.ldr
@@ -927,6 +930,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Arm LH.ldr
 0 Left-side suspension or lift arm using a bent liftarm, axles, and bushings for articulation.
 0 Name: 5893 - Arm LH.ldr
@@ -948,6 +952,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Arm RH.ldr
 0 Right-side suspension or lift arm using a bent liftarm, axles, and bushings for articulation.
 0 Name: 5893 - Arm RH.ldr
@@ -969,6 +974,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Brake.ldr
 0 Brake assembly using a steering arm, cross block, axle, and belt wheels as brake discs.
 0 Name: 5893 - Brake.ldr
@@ -990,6 +996,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Axle.ldr
 0 Axle and drivetrain assembly with joiners, bushes, gears, and Technic bricks for power transmission.
 0 Name: 5893 - Axle.ldr
@@ -1052,6 +1059,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Side RH.ldr
 0 Right-side body panel built from Technic brick, plates, tiles, and bent liftarms for structural detail.
 0 Name: 5893 - Side RH.ldr
@@ -1080,6 +1088,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Side LH.ldr
 0 Left-side body panel built from Technic brick, plates, tiles, and bent liftarms for structural detail.
 0 Name: 5893 - Side LH.ldr
@@ -1108,6 +1117,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Light.ldr
 0 Headlight assembly using a translucent yellow dish mounted on a round plate with pin connectors.
 0 Name: 5893 - Light.ldr
@@ -1127,6 +1137,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Steering.ldr
 0 Steering mechanism built from Technic plates with holes, an axle, and a knob gear for directional control.
 0 Name: 5893 - Steering.ldr
@@ -1146,6 +1157,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Wheel.ldr
 0 Wheel assembly combining a rim, rubber tyre, pin, and clip tile for a complete rolling wheel.
 0 Name: 5893 - Wheel.ldr
@@ -1165,6 +1177,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Engine side.ldr
 0 Engine detail element using plates, handle, and round bricks to represent cylindrical engine components.
 0 Name: 5893 - Engine side.ldr
@@ -1196,6 +1209,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Bar.ldr
 0 Linkage bar assembly using angle connectors, axles, and a joiner to form an adjustable rod.
 0 Name: 5893 - Bar.ldr
@@ -1218,6 +1232,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Aileron.ldr
 0 Wing or spoiler surface built from plates, wing elements, curved slopes, and translucent accents.
 0 Name: 5893 - Aileron.ldr
@@ -1283,6 +1298,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Lower box.ldr
 0 Lower housing box built from plates, inverted slopes, bricks, and corner plates forming an enclosed base.
 0 Name: 5893 - Lower box.ldr

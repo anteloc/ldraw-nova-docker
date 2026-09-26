@@ -107,6 +107,7 @@
 
 
 
+0 STEP
 0 FILE 42032 - Liftctrl.ldr
 0 Lift control mechanism built from liftarms, gears, a worm gear, and axles forming a geared winch assembly.
 0 Name: 42032 - Liftctrl.ldr
@@ -184,6 +185,7 @@
 1 0 25 60 -32 0 -1 0 0 0 -1 1 0 0 11478.dat
 
 
+0 STEP
 0 FILE 42032 - Side2.ldr
 0 Orange side frame section using a bent liftarm, beams, pins, and a cross block.
 0 Name: 42032 - Side2.ldr
@@ -211,6 +213,7 @@
 
 
 
+0 STEP
 0 FILE 42032 - seat.ldr
 0 Operator seat assembly constructed from bent 90-degree liftarms, pins, and a connecting beam.
 0 Name: 42032 - seat.ldr
@@ -240,6 +243,7 @@
 
 
 
+0 STEP
 0 FILE 42032 - windscreen.ldr
 0 Cab windscreen frame with angle connectors, clear transparent slopes, and a trans-orange warning light.
 0 Name: 42032 - windscreen.ldr
@@ -300,6 +304,7 @@
 
 
 
+0 STEP
 0 FILE 42032 - arm1.ldr
 0 Long lifting arm built from a 15-stud beam, bent liftarm, cross blocks, and a trans-red light element.
 0 Name: 42032 - arm1.ldr
@@ -340,6 +345,7 @@
 1 71 20 47.2407 83.9581 0 -1 0 -0.7771 0 -0.6293 0.6293 0 -0.7771 32523.dat
 0 STEP
 
+0 STEP
 0 FILE 42032 - bucket.ldr
 0 Excavator bucket attached via liftarms and axle pins to a mounting axle.
 0 Name: 42032 - bucket.ldr
@@ -362,6 +368,7 @@
 1 1 110.0019 -8.7686 17.9773 -1 0 0 0 -0.8988 -0.4385 0 -0.4384 0.8988 43093.dat
 
 
+0 STEP
 0 FILE 42032 - arm2.ldr
 0 Second lifting arm mirroring arm1, using a 15-stud beam, bent liftarm, cross blocks, and a trans-red light.
 0 Name: 42032 - arm2.ldr
@@ -400,6 +407,7 @@
 0 // Technic Pin with Friction and Slots (black)
 1 0 10 12.7561 35.6315 1 0 0 0 -0.9962 -0.0871 0 0.0871 -0.9962 2780.dat
 
+0 STEP
 0 FILE 42032 - fork.ldr
 0 Fork attachment made from a long beam, bent liftarms, axles, and axle connectors.
 0 Name: 42032 - fork.ldr
@@ -443,6 +451,7 @@
 
 
 
+0 STEP
 0 FILE 42032 - track.ldr
 0 Left track assembly with a 9-stud beam, bevel gears, cross blocks, and support pins.
 0 Name: 42032 - track.ldr
@@ -491,6 +500,7 @@
 
 
 
+0 STEP
 0 FILE 42032 - track2.ldr
 0 Right track assembly mirroring the left track, with a 9-stud beam, bevel gears, and cross blocks.
 0 Name: 42032 - track2.ldr
@@ -539,6 +549,7 @@
 
 
 
+0 STEP
 0 FILE 42032 - technicChainTread17Closed-2.ldr
 0 Closed chain tread loop composed of 32 linked tread segments.
 0 Name: 42032 - technicChainTread17Closed-2.ldr
@@ -632,6 +643,7 @@
 0 // Technic Chain Tread 2.5 Wide (main_colour)
 1 16 -24.0612 2.0429 0 0 0.9135 0.4068 0 -0.4068 0.9135 1 0 0 3873.dat
 
+0 STEP
 0 FILE 42032 - 33299b.dat
 0 Part definition for a semi-reduced liftarm boss pin beam with axle and peg holes.
 0 Name: 42032 - 33299b.dat
@@ -670,6 +682,7 @@
 4 16 3.444 10 31.685 0 10 31 0 10 32 3.062 10 32.609
 
 
+0 STEP
 0 FILE s\42032 - 33299s01.dat
 0 Common subpart definition for the liftarm boss pin beam, composed of geometric primitives.
 0 Name: s\42032 - 33299s01.dat

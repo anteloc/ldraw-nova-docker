@@ -1839,6 +1839,7 @@
 1 14 130 -459 120 1 0 0 0 0.736 0.678 0 -0.678 0.736 44294.dat
 
 
+0 STEP
 0 FILE 42082 - gearbox.ldr
 0 Primary gearbox unit with 16-tooth clutch gears, transmission driving rings, and axle joiners forming a multi-speed gear selector mechanism.
 0 Name: 42082 - gearbox.ldr
@@ -1915,6 +1916,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42082 - gearbox2.ldr
 0 Compact auxiliary gearbox with bevel gears and 16-tooth reinforced gears mounted on axles for power transfer.
 0 Name: 42082 - gearbox2.ldr
@@ -1947,6 +1949,7 @@
 1 71 40 20 0 0 0 -1 0 -1 0 -1 0 0 94925.dat
 
 
+0 STEP
 0 FILE 42082 - gearbox3.ldr
 0 Red liftarm-based gearbox subassembly with bent beams and cross blocks routing drive through pin connections.
 0 Name: 42082 - gearbox3.ldr
@@ -2002,6 +2005,7 @@
 1 25 -180 -60 0 0 0 1 1 0 0 0 1 0 32054.dat
 
 
+0 STEP
 0 FILE 42082 - gearbox4.ldr
 0 Complex gearbox module built on an open-center 7x5 beam, featuring 24-tooth gears, split cross blocks, and multiple axles for gear shifting.
 0 Name: 42082 - gearbox4.ldr
@@ -2100,6 +2104,7 @@
 1 4 -20 -100 0 -1 0 0 0 -1 0 0 0 1 32316.dat
 
 
+0 STEP
 0 FILE 42082 - gearbox5.ldr
 0 Small gearbox section with a 24-tooth clutch gear, double bevel gears, and angle connectors forming a geared power takeoff.
 0 Name: 42082 - gearbox5.ldr
@@ -2139,6 +2144,7 @@
 1 25 0 80 -80 0 -1 0 0 0 1 -1 0 0 32054.dat
 
 
+0 STEP
 0 FILE 42082 - transmission.ldr
 0 Long drivetrain assembly using a 13-stud beam, axle joiners, triangle liftarms, and axles to transmit rotational power between sections.
 0 Name: 42082 - transmission.ldr
@@ -2212,6 +2218,7 @@
 1 71 40 0 -240 0 -1 0 0 0 -1 1 0 0 4519.dat
 
 
+0 STEP
 0 FILE 42082 - gearboxbeam.ldr
 0 Structural support beam (13-stud) with pins and a bent liftarm that frames and mounts the gearbox assembly.
 0 Name: 42082 - gearboxbeam.ldr
@@ -2245,6 +2252,7 @@
 1 0 0 -40 0 1 0 0 0 1 0 0 0 1 42082 - gearboxbeam2.ldr
 
 
+0 STEP
 0 FILE 42082 - gearboxbeam2.ldr
 0 Secondary gearbox support beam built from a 9-stud beam, thin liftarms, and cross blocks to brace the gearing.
 0 Name: 42082 - gearboxbeam2.ldr
@@ -2279,6 +2287,7 @@
 1 0 -45 -20 0 0 -1 0 -1 0 0 0 0 -1 41677.dat
 
 
+0 STEP
 0 FILE 42082 - axle1.ldr
 0 Front portal axle assembly with a differential, open-center beams, bevel gears, and bent liftarms providing driven steering and gear reduction.
 0 Name: 42082 - axle1.ldr
@@ -2499,6 +2508,7 @@
 1 71 0 -40 120 0 1 0 1 0 0 0 0 -1 94925.dat
 
 
+0 STEP
 0 FILE 42082 - axle1a.ldr
 0 Steerable portal axle hub unit with a portal axle frame, wheel hub, 8-tooth and 24-tooth gears for reduction, and a universal joint for drive articulation.
 0 Name: 42082 - axle1a.ldr
@@ -2555,6 +2565,7 @@
 1 70 20 0 20 0 0 -1 0 -1 0 -1 0 0 24316.dat
 
 
+0 STEP
 0 FILE 42082 - axle1b.ldr
 0 Steerable portal axle hub unit mirroring axle1a with portal frame, wheel hub, reduction gears, and universal joint.
 0 Name: 42082 - axle1b.ldr
@@ -2611,6 +2622,7 @@
 1 70 20 0 -20 0 0 1 0 -1 0 1 0 0 24316.dat
 
 
+0 STEP
 0 FILE 42082 - axle1c.ldr
 0 Axle steering linkage subassembly using an open-center beam, angle connectors, axle-pin cross blocks, and a 7-stud axle connecting the wheel hubs to steering.
 0 Name: 42082 - axle1c.ldr
@@ -2673,6 +2685,7 @@
 1 71 -20 -20 40 1 0 0 0 0 -1 0 1 0 94925.dat
 
 
+0 STEP
 0 FILE 42082 - axle2.ldr
 0 Rear portal axle assembly with a differential, open-center beams, bevel gears, and orange bent liftarms providing driven gear reduction.
 0 Name: 42082 - axle2.ldr
@@ -2895,6 +2908,7 @@
 1 4 0 -40 140 1 0 0 0 1 0 0 0 1 3713.dat
 
 
+0 STEP
 0 FILE 42082 - axle2c.ldr
 0 Rear axle steering linkage mirroring axle1c with open-center beam, angle connectors, and cross blocks connecting hubs.
 0 Name: 42082 - axle2c.ldr
@@ -2957,6 +2971,7 @@
 1 71 -20 -20 -40 -1 0 0 0 0 -1 0 -1 0 94925.dat
 
 
+0 STEP
 0 FILE 42082 - outrigger.ldr
 0 Stabilizer outrigger assembly with four long beams, linear actuators, bevel gears, and cross blocks that extend and support the crane.
 0 Name: 42082 - outrigger.ldr
@@ -3160,6 +3175,7 @@
 1 0 -80 180 20 0 -1 0 0 0 -1 1 0 0 32526.dat
 
 
+0 STEP
 0 FILE 42082 - outriggerarm1.ldr
 0 Outrigger extension arm built from bent liftarms, thin beams, and axles forming the deployable support leg.
 0 Name: 42082 - outriggerarm1.ldr
@@ -3217,6 +3233,7 @@
 1 0 -71.685 -50 -90.362 -0.506 0 0.861 0 -1 0 0.861 0 0.506 32316.dat
 
 
+0 STEP
 0 FILE 42082 - outriggerarm2.ldr
 0 Outrigger extension arm mirroring outriggerarm1 with bent liftarms, thin beams, and axles for the deployable support leg.
 0 Name: 42082 - outriggerarm2.ldr
@@ -3274,6 +3291,7 @@
 1 0 71.735 -49.983 -90.472 -0.508 0 -0.863 0 -0.999 0 -0.857 0 0.508 32316.dat
 
 
+0 STEP
 0 FILE 42082 - outriggergears.ldr
 0 Outrigger drive gear train using bent liftarms, cross blocks, and orange stop-bush pins to synchronize the outrigger deployment.
 0 Name: 42082 - outriggergears.ldr
@@ -3316,6 +3334,7 @@
 1 4 -60 0 0 0 -1 0 -1 0 0 0 0 -1 32140.dat
 
 
+0 STEP
 0 FILE 42082 - rear.ldr
 0 Rear chassis section with a cross block, bent 45-degree liftarms, axles, and a grooved tile forming the back frame and detailing.
 0 Name: 42082 - rear.ldr
@@ -3371,6 +3390,7 @@
 1 71 0 -20 -18 1 0 0 0 0 -1 0 1 0 2431.dat
 
 
+0 STEP
 0 FILE 42082 - rear2.ldr
 0 Rear drivetrain module with triangle liftarms, a 13-stud beam, 20-tooth and 12-tooth bevel gears, and cross blocks for gear transfer at the rear.
 0 Name: 42082 - rear2.ldr
@@ -3443,6 +3463,7 @@
 1 0 -50 0 -30 1 0 0 0 -1 0 0 0 -1 15461.dat
 
 
+0 STEP
 0 FILE 42082 - engine.ldr
 0 Inline V8 engine assembly with eight pistons, cylinder heads, connecting rods, crankshaft sections, and engine block bricks.
 0 Name: 42082 - engine.ldr
@@ -3651,6 +3672,7 @@
 1 15 -90 30 200 0 -1 0 0 0 -1 1 0 0 2654.dat
 
 
+0 STEP
 0 FILE 42082 - calandar.ldr
 0 Rotating counterweight/calender assembly using bent 45-degree liftarms, cross blocks, axle joiners, and a 9-stud beam to form a turntable base.
 0 Name: 42082 - calandar.ldr
@@ -3752,6 +3774,7 @@
 1 0 70 80 -80 -1 0 0 0 1 0 0 0 -1 2780.dat
 
 
+0 STEP
 0 FILE 42082 - fence.ldr
 0 Rail/fence framework of linked 2-stud liftarms, angle connectors, and axle joiners forming an extended structural guard rail.
 0 Name: 42082 - fence.ldr
@@ -3843,6 +3866,7 @@
 1 0 70 20 -240 0 0 1 -1 0 0 0 -1 0 18654.dat
 
 
+0 STEP
 0 FILE 42082 - rollerringeihth.ldr
 0 Small roller ring component with an angle connector, half-bushings, and thin liftarms forming part of the crane's rotating ring mechanism.
 0 Name: 42082 - rollerringeihth.ldr
@@ -3869,6 +3893,7 @@
 1 14 25 0 0 0 0 -1 -1 0 0 0 1 0 32123b.dat
 
 
+0 STEP
 0 FILE 42082 - rollerring.ldr
 0 A rolling ring assembly built from train wheels, ball joints, and half-pins forming a rotating wheel cluster.
 0 Name: 42082 - rollerring.ldr
@@ -3935,6 +3960,7 @@
 1 72 131.418 0 -131.418 0 -0.707 -0.707 1 0 0 0 -0.707 0.707 22484.dat
 
 
+0 STEP
 0 FILE 42082 - ringtop.ldr
 0 A structural ring frame using long beams and quarter gear rings connected by pins and cross blocks.
 0 Name: 42082 - ringtop.ldr
@@ -4080,6 +4106,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42082 - sidepanel1.ldr
 0 A black side panel frame constructed from beams, bent liftarms, triangle plates, and connector blocks.
 0 Name: 42082 - sidepanel1.ldr
@@ -4258,6 +4285,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42082 - sidepanel2.ldr
 0 A mirrored black side panel frame built from beams, bent liftarms, triangle plates, and connector blocks.
 0 Name: 42082 - sidepanel2.ldr
@@ -4436,6 +4464,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42082 - mudguard1.ldr
 0 An angled mudguard assembly using long beams, angle connectors, and axle joiners to form a curved fender shape.
 0 Name: 42082 - mudguard1.ldr
@@ -4521,6 +4550,7 @@
 1 0 70 28.284 -198.284 0 0 -1 -0.707 0.707 0 0.707 0.707 0 59443.dat
 
 
+0 STEP
 0 FILE 42082 - mudguard2.ldr
 0 A mirrored angled mudguard assembly using long beams, angle connectors, and axle joiners for a curved fender.
 0 Name: 42082 - mudguard2.ldr
@@ -4606,6 +4636,7 @@
 1 0 -70 28.284 -198.284 0 0 1 0.707 0.707 0 -0.707 0.707 0 59443.dat
 
 
+0 STEP
 0 FILE 42082 - headlight1.ldr
 0 A headlight housing built from bent liftarms and axles, featuring a transparent orange slope lens.
 0 Name: 42082 - headlight1.ldr
@@ -4663,6 +4694,7 @@
 1 47 -70 -20 -54 -1 0 0 0 0 1 0 1 0 3069b.dat
 
 
+0 STEP
 0 FILE 42082 - headlight2.ldr
 0 A mirrored headlight housing built from bent liftarms and axles with a transparent orange slope lens.
 0 Name: 42082 - headlight2.ldr
@@ -4720,6 +4752,7 @@
 1 47 70 -20 -54 -1 0 0 0 0 1 0 1 0 3069b.dat
 
 
+0 STEP
 0 FILE 42082 - taillight1.ldr
 0 A taillight unit made of bent liftarms and axles with a transparent orange slope lens element.
 0 Name: 42082 - taillight1.ldr
@@ -4781,6 +4814,7 @@
 1 47 -100 -20 -54 -1 0 0 0 0 1 0 1 0 3070b.dat
 
 
+0 STEP
 0 FILE 42082 - taillight2.ldr
 0 A mirrored taillight unit built from bent liftarms and axles with a transparent orange slope lens.
 0 Name: 42082 - taillight2.ldr
@@ -4842,6 +4876,7 @@
 1 47 100 -20 -54 -1 0 0 0 0 1 0 1 0 3070b.dat
 
 
+0 STEP
 0 FILE 42082 - wheeldisc.ldr
 0 A wheel hub disc assembly combining an inverted dish, round plate, disc, and decorative round tiles on an axle.
 0 Name: 42082 - wheeldisc.ldr
@@ -4875,6 +4910,7 @@
 1 0 0 -23 0 1 0 0 0 1 0 0 0 1 52901.dat
 
 
+0 STEP
 0 FILE 42082 - slewingtop.ldr
 0 A large upper turntable structure with beams, gears, and cross blocks forming the crane's rotating base platform.
 0 Name: 42082 - slewingtop.ldr
@@ -5486,6 +5522,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42082 - slewingtop2.ldr
 0 A compact slewing base section with bevel gears, bent beams, and toggle connectors for rotation drive.
 0 Name: 42082 - slewingtop2.ldr
@@ -5578,6 +5615,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42082 - slewingtop3.ldr
 0 A geared slewing section featuring reinforced gears, long beams, and triangle liftarms for structural support.
 0 Name: 42082 - slewingtop3.ldr
@@ -5812,6 +5850,7 @@
 1 25 100 -40 -140 -1 0 0 0 -1 0 0 0 1 32054.dat
 
 
+0 STEP
 0 FILE 42082 - slewingtop4.ldr
 0 A slewing platform segment built from open-center beams, bent liftarms, and cross blocks with axle connectors.
 0 Name: 42082 - slewingtop4.ldr
@@ -5983,6 +6022,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42082 - slewingtop5.ldr
 0 A gear-driven slewing section using clutch gears, axles, and driving ring joiners for transmission.
 0 Name: 42082 - slewingtop5.ldr
@@ -6061,6 +6101,7 @@
 1 4 10 -20 -100 0 -1 0 -1 0 0 0 0 -1 18946.dat
 
 
+0 STEP
 0 FILE 42082 - slewingtop6.ldr
 0 A small slewing linkage made from a triangle liftarm, bent beam, axle, and cross block connector.
 0 Name: 42082 - slewingtop6.ldr
@@ -6097,6 +6138,7 @@
 1 71 15 -40 -20 0 0 1 1 0 0 0 1 0 32123b.dat
 
 
+0 STEP
 0 FILE 42082 - rubberBandRound-1.ldr
 0 A flexible rubber band modeled as a continuous loop of cylindrical segments generated for tension routing.
 0 Name: 42082 - rubberBandRound-1.ldr
@@ -6608,6 +6650,7 @@
 5 24 -10.414214 0 1.414214 -9 0 2 -10.610768 -0.980493 1.414214 -9.583567 4.113735 1.414214
 
 
+0 STEP
 0 FILE 42082 - powerFuncMotorL-1.ldr
 0 A Power Functions large motor unit with its attached wire connector assembly.
 0 Name: 42082 - powerFuncMotorL-1.ldr
@@ -6656,6 +6699,7 @@
 
 
 
+0 STEP
 0 FILE 42082 - powerFuncMotorL-1_subPart1.ldr
 0 The flexible wire segment of the Power Functions motor, composed of many generated cylinder primitives.
 0 Name: 42082 - powerFuncMotorL-1_subPart1.ldr
@@ -21254,6 +21298,7 @@
 5 24 94.95768 100.616783 130 95.525597 100.237396 130 95.06839 101.009071 129.086838 94.688858 99.324867 133.887268
 
 
+0 STEP
 0 FILE 42082 - slewingtop7.ldr
 0 A short slewing base link made from bent liftarms and long beams joined by pins.
 0 Name: 42082 - slewingtop7.ldr
@@ -21292,6 +21337,7 @@
 1 0 -40 -20 0 0 0 -1 0 1 0 1 0 0 32140.dat
 
 
+0 STEP
 0 FILE 42082 - ropeLQ-1.ldr
 0 A long flexible rope modeled as hundreds of connected cylinder segments for the crane's hoist line.
 0 Name: 42082 - ropeLQ-1.ldr
@@ -23145,6 +23191,7 @@
 1 16 -1507.657496 -36.00097 646.575832 -1.442812 -1.083424 0.401227 -0.402036 0.035951 -1.445116 0.081621 -18.974648 -0.025647 4-4cyli.dat
 
 
+0 STEP
 0 FILE 42082 - slewingtoptrans.ldr
 0 A slewing transmission module using bevel gears, cross blocks, and axle joiners to transfer rotation.
 0 Name: 42082 - slewingtoptrans.ldr
@@ -23201,6 +23248,7 @@
 1 0 0 0 40 0 -1 0 0 0 1 -1 0 0 15461.dat
 
 
+0 STEP
 0 FILE 42082 - boom.ldr
 0 The main crane boom built from long beams and bricks, fitted with wheels, tires, and indicator lights.
 0 Name: 42082 - boom.ldr
@@ -23481,6 +23529,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42082 - boom2.ldr
 0 A secondary boom section using H-shaped and straight beams with small gears for extension drive.
 0 Name: 42082 - boom2.ldr
@@ -23585,6 +23634,7 @@
 1 4 20 -40 -60 1 0 0 0 0 -1 0 1 0 3713.dat
 
 
+0 STEP
 0 FILE 42082 - boom3.ldr
 0 Mid boom section built from long technic beams and plates with reinforcement pins forming a structural lattice segment.
 0 Name: 42082 - boom3.ldr
@@ -23766,6 +23816,7 @@
 1 72 40 0 0 0 -1 0 1 0 0 0 0 1 41239.dat
 
 
+0 STEP
 0 FILE 42082 - boom4.ldr
 0 Red boom segment with H-shaped beams and smooth panels forming a reinforced articulated section.
 0 Name: 42082 - boom4.ldr
@@ -23834,6 +23885,7 @@
 1 71 -40 40 -960 1 0 0 0 -1 0 0 0 -1 32073.dat
 
 
+0 STEP
 0 FILE 42082 - boom5.ldr
 0 Extended red boom section with multiple long beams, CV joints, and axle joiners forming a telescoping articulated arm.
 0 Name: 42082 - boom5.ldr
@@ -23988,6 +24040,7 @@
 1 71 0 -20 -840 -1 0 0 0 0.981 0.196 0 0.196 -0.981 32494.dat
 
 
+0 STEP
 0 FILE 42082 - boomextend.ldr
 0 Small gear assembly with bevel gears and toggle joint connector for the boom extension mechanism.
 0 Name: 42082 - boomextend.ldr
@@ -24011,6 +24064,7 @@
 1 19 0 0 27 -1 0 0 0 1 0 0 0 -1 6589.dat
 
 
+0 STEP
 0 FILE 42082 - boom6.ldr
 0 Red boom section mirroring boom4 with H-shaped beams and smooth panels forming a reinforced segment.
 0 Name: 42082 - boom6.ldr
@@ -24077,6 +24131,7 @@
 1 4 0 20 -960 1 0 0 0 -1 0 0 0 -1 42003.dat
 
 
+0 STEP
 0 FILE 42082 - boomtip.ldr
 0 Boom tip end piece with cross blocks, a fairing panel, and axles for attachment to the main boom.
 0 Name: 42082 - boomtip.ldr
@@ -24111,6 +24166,7 @@
 1 4 40 -5 -40 1 0 0 0 1 0 0 0 1 42082 - boomtip2.ldr
 
 
+0 STEP
 0 FILE 42082 - boomtip2.ldr
 0 Boom tip mechanism with a crankshaft, bent connector, and liftarms forming a small articulated end assembly.
 0 Name: 42082 - boomtip2.ldr
@@ -24145,6 +24201,7 @@
 1 0 -179 5 26 -1 0 0 0 0 -1 0 -1 0 2780.dat
 
 
+0 STEP
 0 FILE 42082 - hook.ldr
 0 Hook assembly with triangular liftarms, angle connectors, towball axles, and a wheel rim forming a swivel lifting hook.
 0 Name: 42082 - hook.ldr
@@ -24207,6 +24264,7 @@
 1 71 0 -20 -25 1 0 0 0 -1 0 0 0 -1 42082 - 13971.dat
 
 
+0 STEP
 0 FILE 42082 - sidepanel3.ldr
 0 Red side panel with smooth panels, a beam 9, and a fairing forming a curved bodywork section.
 0 Name: 42082 - sidepanel3.ldr
@@ -24292,6 +24350,7 @@
 1 4 40 -20 -120 -1 0 0 0 0 -1 0 -1 0 42003.dat
 
 
+0 STEP
 0 FILE 42082 - sidepanel4.ldr
 0 Large red side panel with long smooth panels, multiple angle connectors, and fairings forming an extended bodywork section.
 0 Name: 42082 - sidepanel4.ldr
@@ -24397,6 +24456,7 @@
 1 4 80 -50 -70 0 1 0 0 0 -1 -1 0 0 6536.dat
 
 
+0 STEP
 0 FILE 42082 - sidepanel5.ldr
 0 Red side panel with smooth panels and a beam 7 forming a curved bodywork section similar to sidepanel3.
 0 Name: 42082 - sidepanel5.ldr
@@ -24455,6 +24515,7 @@
 1 0 -54.032 0 -44.342 0 0.324 0.946 1 0 0 0 0.946 -0.324 15100.dat
 
 
+0 STEP
 0 FILE 42082 - sidepanel6.ldr
 0 Large red side panel with long smooth panels and fairings forming an extended bodywork section.
 0 Name: 42082 - sidepanel6.ldr
@@ -24523,6 +24584,7 @@
 1 0 0 0 50 0 1 0 1 0 0 0 0 -1 2780.dat
 
 
+0 STEP
 0 FILE 42082 - backpanel.ldr
 0 Black rear panel with smooth panels and fairings forming the back bodywork of the crane superstructure.
 0 Name: 42082 - backpanel.ldr
@@ -24613,6 +24675,7 @@
 1 0 -80 80 20 0 -1 0 0 0 -1 1 0 0 32054.dat
 
 
+0 STEP
 0 FILE 42082 - backpanel2.ldr
 0 Black rear panel section with fairings, bent beams, and a split cross block forming detailed back bodywork.
 0 Name: 42082 - backpanel2.ldr
@@ -24687,6 +24750,7 @@
 1 0 -40 -60 0 -1 0 0 0 1 0 0 0 -1 32523.dat
 
 
+0 STEP
 0 FILE 42082 - backpanel3.ldr
 0 Black rear panel section with fairings, bent beams, and a split cross block forming detailed back bodywork.
 0 Name: 42082 - backpanel3.ldr
@@ -24757,6 +24821,7 @@
 1 1 20 20 -80 1 0 0 0 0 1 0 -1 0 6558.dat
 
 
+0 STEP
 0 FILE 42082 - cabin.ldr
 0 Operator's cabin with bent liftarms, cross blocks, and beams forming the red cab frame structure.
 0 Name: 42082 - cabin.ldr
@@ -24963,6 +25028,7 @@
 1 0 0 172.284 -191.481 0 0 -1 -0.383 0.924 0 0.924 0.383 0 42082 - technicFlexAxle-1.ldr
 
 
+0 STEP
 0 FILE 42082 - seat.ldr
 0 Operator's seat with bent liftarms and fairing panels forming a contoured seat assembly.
 0 Name: 42082 - seat.ldr
@@ -25009,6 +25075,7 @@
 1 1 50 -20 60 1 0 0 0 -1 0 0 0 -1 43093.dat
 
 
+0 STEP
 0 FILE 42082 - steerwheel.ldr
 0 Steering wheel assembly with a small steering wheel, liftarms, axles, and towball connectors forming the steering column.
 0 Name: 42082 - steerwheel.ldr
@@ -25098,6 +25165,7 @@
 1 71 -40 -69.459 18.262 0 0 -1 0.105 -0.995 0 -0.995 -0.105 0 2736.dat
 
 
+0 STEP
 0 FILE 42082 - door.ldr
 0 Cabin door with a beam 7 frame, fairing panel, and towball pin forming a hinged red door.
 0 Name: 42082 - door.ldr
@@ -25141,6 +25209,7 @@
 1 0 0 -30 -40 0 0 -1 1 0 0 0 -1 0 6628.dat
 
 
+0 STEP
 0 FILE 42082 - technicFlexAxle-1.ldr
 0 Flexible technic axle component generated via LDCad forming a curved cable/hose element.
 0 Name: 42082 - technicFlexAxle-1.ldr
@@ -28080,6 +28149,7 @@
 5 24 156.671677 -113.764862 -1.5308 152.925903 -114.059662 -1.5308 156.647797 -113.461403 0 156.739716 -114.629395 -2.8284
 
 
+0 STEP
 0 FILE 42082 - chaincrate.ldr
 0 Small crate base with plates and rounded corner panels forming a storage container.
 0 Name: 42082 - chaincrate.ldr
@@ -28114,6 +28184,7 @@
 1 72 -28 -26 8 0 0 1 0 1 0 -1 0 0 42082 - 208a.dat
 
 
+0 STEP
 0 FILE 42082 - cratehammer.ldr
 0 Tool crate with plates, rounded panels, a mallet, and a spanner forming an accessory storage container.
 0 Name: 42082 - cratehammer.ldr
@@ -28138,6 +28209,7 @@
 1 0 -6.504 -17 -3.485 0.137 0.978 0.156 0.99 -0.139 0 0.022 0.155 -0.988 4006.dat
 
 
+0 STEP
 0 FILE 42082 - outriggerplate.ldr
 0 Outrigger base plate with a large tile and round red studs forming a stable foot pad.
 0 Name: 42082 - outriggerplate.ldr
@@ -28159,6 +28231,7 @@
 1 4 -40 0 20 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 42082 - house.ldr
 0 Housing structure with large light bluish grey panels and long beams forming an enclosure section.
 0 Name: 42082 - house.ldr
@@ -28285,6 +28358,7 @@
 1 71 60 0 40 -1 0 0 0 1 0 0 0 -1 42082 - wall2.ldr
 
 
+0 STEP
 0 FILE 42082 - wall1.ldr
 0 Wall section with light bluish grey panels, beam 15s, and pins forming a structural side wall.
 0 Name: 42082 - wall1.ldr
@@ -28363,6 +28437,7 @@
 1 71 0 -120 -160 1 0 0 0 1 0 0 0 1 32524.dat
 
 
+0 STEP
 0 FILE 42082 - wall2.ldr
 0 A small Technic wall panel assembly built from liftarms, bent beams, and panels joined with friction pins.
 0 Name: 42082 - wall2.ldr
@@ -28441,6 +28516,7 @@
 1 71 0 -120 -160 1 0 0 0 1 0 0 0 1 32524.dat
 
 
+0 STEP
 0 FILE 42082 - wall3.ldr
 0 A larger Technic wall panel structure using multiple panels, liftarms of various lengths, and friction pins for a robust framework.
 0 Name: 42082 - wall3.ldr
@@ -28571,6 +28647,7 @@
 1 71 0 -220 0 0 1 0 1 0 0 0 0 -1 42082 - hookchain.ldr
 
 
+0 STEP
 0 FILE 42082 - hookchain.ldr
 0 A small hook linkage made from a perpendicular pin connector, half-pin, and a 3L bar.
 0 Name: 42082 - hookchain.ldr
@@ -28587,6 +28664,7 @@
 1 16 0 -18 0 0.423 0 -0.906 0 1 0 0.906 0 0.423 42082 - hookchain2.ldr
 
 
+0 STEP
 0 FILE 42082 - hookchain2.ldr
 0 A 16-link chain assembly composed of chain links and end connectors for a hook or hoist mechanism.
 0 Name: 42082 - hookchain2.ldr
@@ -28642,6 +28720,7 @@
 1 71 0 0 0 0.996 0 0.087 0 1 0 -0.087 0 0.996 42082 - 60169k01.dat
 
 
+0 STEP
 0 FILE 42082 - 27940.dat
 0 A Technic connector part with perpendicular axle joints and connector holes.
 0 Name: 42082 - 27940.dat
@@ -28677,6 +28756,7 @@
 0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=A 6 20]
 0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=A 6 20]
 
+0 STEP
 0 FILE 42082 - 18575.dat
 0 A Technic part with an open axle hole and rectangular structural edges.
 0 Name: 42082 - 18575.dat
@@ -28799,6 +28879,7 @@
 0 // Rectangle with 3 Edges (main_colour)
 1 16 1.5 5.7018 0 0 0 0.5 0 1 -0.0998 -10 0 0 rect3.dat
 
+0 STEP
 0 FILE 42082 - 24121.dat
 0 A cylindrical Technic gear or wheel primitive with connector holes, chords, and rings.
 0 Name: 42082 - 24121.dat
@@ -29880,6 +29961,7 @@
 5 24 -193.410004 10 11.3136 -193.483002 0 9.1329 -193.483002 -10 9.133 -193.565994 0 6.8344
 2 24 -161.272995 0 128.910004 -161.272995 -10 128.910004
 
+0 STEP
 0 FILE 42082 - 10197.dat
 0 A small Technic connector or hub primitive with cylinders, circles, and perpendicular axle joints.
 0 Name: 42082 - 10197.dat
@@ -29954,6 +30036,7 @@
 0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=A 6 20] [slide=true]
 0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=A 6 20] [slide=true]
 
+0 STEP
 0 FILE 42082 - 13971.dat
 0 A Technic wheel rim primitive with conical surfaces, rings, and a connector hole.
 0 Name: 42082 - 13971.dat
@@ -30053,6 +30136,7 @@
 1 16 0 0 0 1 0 0 0 -1 0 0 0 1 s\42082 - 13971s01.dat
 1 16 0 0 0 -1 0 0 0 -1 0 0 0 1 s\42082 - 13971s01.dat
 
+0 STEP
 0 FILE 42082 - 32249.dat
 0 A Technic liftarm or connector primitive with peg holes, axle holes, and cylindrical sections.
 0 Name: 42082 - 32249.dat
@@ -30699,6 +30783,7 @@
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 8 2   R 6 6   R 8 2] [center=true] [slide=true]
 0 !LDCAD MIRROR_INFO [baseFlip=Y]
 
+0 STEP
 0 FILE 42082 - 6143.dat
 0 A simple cylindrical primitive element.
 0 Name: 42082 - 6143.dat
@@ -30723,6 +30808,7 @@
 
 0 !LDCAD SNAP_INCL [ref=3941.dat]
 
+0 STEP
 0 FILE 42082 - 4185a.dat
 0 A Technic bush or collar primitive with an open axle hole and cylindrical surfaces.
 0 Name: 42082 - 4185a.dat
@@ -30798,6 +30884,7 @@
 0 // Cylinder Open 0.5 (main_colour)
 1 16 -11 0 -3 0 0 -1 1 0 0 0 6 0 2-4cylo.dat
 
+0 STEP
 0 FILE 42082 - 32198.dat
 0 A Technic pulley or wheel primitive with cylindrical sections, rings, and conical surfaces around an axle hole.
 0 Name: 42082 - 32198.dat
@@ -31042,6 +31129,7 @@
 0 !LDCAD SNAP_CLEAR 
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 6 3   A 6 7] [center=true] [slide=true]
 
+0 STEP
 0 FILE 42082 - ldcRubberBandRndSeg.dat
 0 A flexible rubber band segment used in LDCad path-based deformations.
 0 Name: 42082 - ldcRubberBandRndSeg.dat
@@ -31062,6 +31150,7 @@
 1 16 0 0 0 2 0 0 0 1 0 0 0 2 42082 - ldcConRing8.dat
 1 16 0 1 0 2 0 0 0 1 0 0 0 2 42082 - ldcConRing8.dat
 
+0 STEP
 0 FILE 42082 - ldcPwrFuncWire4Seg.dat
 0 A Power Functions wire cable segment with cylindrical sections for both sides of the wire path.
 0 Name: 42082 - ldcPwrFuncWire4Seg.dat
@@ -31110,6 +31199,7 @@
 1 16 0 1 -3.712 -1.2374 0 -1.2374 0 1 0 1.2374 0 -1.2374 42082 - ldcConRing-3-4.dat
 
 
+0 STEP
 0 FILE 42082 - ldcLQRopeSeg.dat
 0 A rope segment primitive rendered as a simple cylinder for flexible rope paths.
 0 Name: 42082 - ldcLQRopeSeg.dat
@@ -31124,6 +31214,7 @@
 0 // Cylinder 1.0 (main_colour)
 1 16 0 0 0 1.5 0 0 0 1 0 0 0 1.5 4-4cyli.dat
 
+0 STEP
 0 FILE 42082 - 33299a.dat
 0 A Technic connector primitive with axle holes, peg holes, and disc negatives.
 0 Name: 42082 - 33299a.dat
@@ -31157,6 +31248,7 @@
 4 16 8 10 36.661999 9 10 35.661999 9 10 32 8 10 32
 4 16 -9 10 35.661999 -8 10 36.661999 -8 10 32 -9 10 32
 
+0 STEP
 0 FILE 42082 - ldcFlexAxleEndA.dat
 0 A flexible axle end cap placeholder segment for LDCad path deformations.
 0 Name: 42082 - ldcFlexAxleEndA.dat
@@ -31174,6 +31266,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 42082 - ldcFlexAxleEndB.dat
 0 A flexible axle end cap with a cylindrical body for LDCad path deformations.
 0 Name: 42082 - ldcFlexAxleEndB.dat
@@ -31192,6 +31285,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 42082 - ldcFlexAxleEndC.dat
 0 A flexible axle end cap placeholder segment for LDCad path deformations.
 0 Name: 42082 - ldcFlexAxleEndC.dat
@@ -31209,6 +31303,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 42082 - ldcFlexAxleEndD.dat
 0 A flexible axle end cap placeholder segment for LDCad path deformations.
 0 Name: 42082 - ldcFlexAxleEndD.dat
@@ -31226,6 +31321,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 42082 - ldcFlexAxleEndE.dat
 0 A flexible axle end cap placeholder segment for LDCad path deformations.
 0 Name: 42082 - ldcFlexAxleEndE.dat
@@ -31243,6 +31339,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 42082 - ldcFlexAxleEndF.dat
 0 A flexible axle end cap placeholder segment for LDCad path deformations.
 0 Name: 42082 - ldcFlexAxleEndF.dat
@@ -31260,6 +31357,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 42082 - ldcFlexAxleEndG.dat
 0 A flexible axle end cap placeholder segment for LDCad path deformations.
 0 Name: 42082 - ldcFlexAxleEndG.dat
@@ -31277,6 +31375,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 42082 - ldcFlexAxleMid.dat
 0 A flexible axle middle segment using a Technic axle perimeter for LDCad path deformations.
 0 Name: 42082 - ldcFlexAxleMid.dat
@@ -31295,6 +31394,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 42082 - 208a.dat
 0 A cylindrical wheel hub composed of rings, cylinders, and sloped segments forming a rounded rim profile.
 0 Name: 42082 - 208a.dat
@@ -31397,6 +31497,7 @@
 2 24 -3.0616 0.3577 7.3913 -3.426 0.1141 7.1478
 2 24 -3.426 0.1141 7.1478 -4 0 6.7641
 
+0 STEP
 0 FILE 42082 - 209a.dat
 0 A simple pair of cylinders forming a small cylindrical bushing or spacer.
 0 Name: 42082 - 209a.dat
@@ -31432,6 +31533,7 @@
 1 16 0 -9 0 4 0 0 0 0 -4 0 4 0 t04q3750.dat
 1 16 0 -9 0 -4 0 0 0 0 -4 0 -4 0 t04q3750.dat
 
+0 STEP
 0 FILE 42082 - 60169k01.dat
 0 A cylindrical wheel hub with rings, cylinders, and sloped segments forming a rounded rim profile.
 0 Name: 42082 - 60169k01.dat
@@ -31525,6 +31627,7 @@
 2 24 -3.0616 0.3577 7.3913 -3.426 0.1141 7.1478
 2 24 -3.426 0.1141 7.1478 -4 0 6.7641
 
+0 STEP
 0 FILE 42082 - 60169k02.dat
 0 A simple pair of cylinders forming a small cylindrical bushing or spacer.
 0 Name: 42082 - 60169k02.dat
@@ -31551,6 +31654,7 @@
 1 16 0 -8 0 4 0 0 0 0 -4 0 4 0 t04q3750.dat
 1 16 0 -8 0 -4 0 0 0 0 -4 0 -4 0 t04q3750.dat
 
+0 STEP
 0 FILE s\42082 - 32269s01.dat
 0 A rectangular panel subpart made of multiple rectangles and edge rectangles forming a flat structural surface.
 0 Name: s\42082 - 32269s01.dat
@@ -31640,6 +31744,7 @@
 3 16 18.258699 2.4034 -10 17.789101 4.7663 -10 19.3403 4.9066 -10
 3 16 15.3375 12.7626 -10 14.6121 11.2123 -10 13.0227 13.0227 -10
 
+0 STEP
 0 FILE s\42082 - 32269s02.dat
 0 A curved subpart combining an open cylinder, rings, and rectangles forming a rounded segment with edges.
 0 Name: s\42082 - 32269s02.dat
@@ -31711,6 +31816,7 @@
 4 16 11.998 -1 -10 11.998 1 -10 16.934099 1 -10 16.934099 -1 -10
 3 16 17 0 -10 16.934099 -1 -10 16.934099 1 -10
 
+0 STEP
 0 FILE 42082 - 32052.dat
 0 A large cylindrical drum or roller formed from an open cylinder and many edge rectangles around its circumference.
 0 Name: 42082 - 32052.dat
@@ -31904,6 +32010,7 @@
 4 16 0 -12.7279 -8 12.7279 0 -8 22.5 0 -8 0 -22.5 -8
 4 16 0 -12.7279 -10 0 -25 -10 25 0 -10 12.7279 0 -10
 
+0 STEP
 0 FILE 42082 - npeghol3.dat
 0 A Technic pin hole connector subpart with open cylinders, rings, and boxes forming a peg mount.
 0 Name: 42082 - npeghol3.dat
@@ -31949,6 +32056,7 @@
 0 // Box with  2 Faces without  7 Edges (main_colour)
 1 16 2.7222 0.5 -3.041 0 -0.72215 0 0.5 0 0 0 0.14395 1.5 box2-7.dat
 
+0 STEP
 0 FILE 42082 - axleconnect.dat
 0 A small axle connector made of open cylinders, sloped cylinders, and circular caps.
 0 Name: 42082 - axleconnect.dat
@@ -31980,6 +32088,7 @@
 0 // Circle 0.25 (main_colour)
 1 16 0 0 0 0 0 9 -9 -1 0 -9 0 0 1-4edge.dat
 
+0 STEP
 0 FILE 42082 - npeghol5.dat
 0 A Technic pin hole connector subpart with rings, disc negatives, and boxes forming a peg mount.
 0 Name: 42082 - npeghol5.dat
@@ -32034,6 +32143,7 @@
 5 24 3.4443 1 -1.6849 3.4443 0 -1.6849 6.3639 1 -3.6361 2 1 -1.397
 5 24 -3.4443 1 -1.6849 -3.4443 0 -1.6849 -6.3639 1 -3.6361 -2 1 -1.397
 
+0 STEP
 0 FILE s\42082 - 6143s01.dat
 0 A semi-reduced Technic axle hole subpart composed of tooth edges, surfaces, and perimeter pieces.
 0 Name: s\42082 - 6143s01.dat
@@ -32069,6 +32179,7 @@
 
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 42082 - stug15-2x2.dat
 
+0 STEP
 0 FILE s\42082 - 6143s02.dat
 0 A detailed cylindrical subpart with small circles, rings, and rectangles forming a fine-profiled ring assembly.
 0 Name: s\42082 - 6143s02.dat
@@ -32158,6 +32269,7 @@
 5 24 18.4778 20 -7.6539 18.4778 24 -7.6539 16.870001 24 -10.07 20.0005 24 0.0002
 5 24 18.477699 20 7.6538 18.476999 24 7.654 16.870001 24 10.07 20.0005 24 0.0002
 
+0 STEP
 0 FILE 42082 - stug15-2x2.dat
 0 A 2x2 hollow stud base with four logo-decorated studs positioned at the corners.
 0 Name: 42082 - stug15-2x2.dat
@@ -32177,6 +32289,7 @@
 1 16 10 0 -10 0 0 1 0 1 0 -1 0 0 stud15.dat
 1 16 -10 0 -10 -1 0 0 0 1 0 0 0 -1 stud15.dat
 
+0 STEP
 0 FILE s\42082 - 24121s01.dat
 0 A simple subpart consisting of parallel-edge rectangles forming a flat structural strip.
 0 Name: s\42082 - 24121s01.dat
@@ -32196,6 +32309,7 @@
 0 // Rectangle with 2 Parallel Edges (main_colour)
 1 16 -176.4115 0 23.8965 -0.1335 -1 0 0 0 10 -0.9855 0 0 rect2p.dat
 
+0 STEP
 0 FILE 42082 - toothb20.dat
 0 An empty placeholder subpart for a 20-tooth gear element.
 0 Name: 42082 - toothb20.dat
@@ -32241,6 +32355,7 @@
 5 24 1.582 0 0 0 -6.13 2 0 -3.13 0 2.07 -6.13 6.5
 5 24 0 -6.13 2 -1.582 0 0 0 -3.13 0 -2.07 -6.13 6.5
 
+0 STEP
 0 FILE 42082 - ldcCyli8.dat
 0 An empty LDCad cylinder generator placeholder subpart.
 0 Name: 42082 - ldcCyli8.dat
@@ -32270,6 +32385,7 @@
 5 24 -1 0 0 -1 1 0 -0.707107 0 -0.707107 -0.707107 0 0.707107
 5 24 -0.707107 0 0.707107 -0.707107 1 0.707107 -1 0 0 0 0 1
 
+0 STEP
 0 FILE 42082 - ldcConRing8.dat
 0 An LDCad path deform cone ring generator subpart with control-point scaling notes.
 0 Name: 42082 - ldcConRing8.dat
@@ -32293,6 +32409,7 @@
 5 24 -1 0 0 -0.707107 0 0.707107 -1 -1 0 -1 1 0
 5 24 -0.707107 0 0.707107 0 0 1 -0.707107 -1 0.707107 -0.707107 1 0.707107
 
+0 STEP
 0 FILE 42082 - ldcConRing-3-4.dat
 0 An LDCad path deform 3/4 cone ring generator subpart with control-point scaling notes.
 0 Name: 42082 - ldcConRing-3-4.dat
@@ -32320,6 +32437,7 @@
 5 24 -0.7071 0 -0.7071 -0.3827 0 -0.9239 -0.7071 -1 -0.7071 -0.7071 1 -0.7071
 5 24 -0.3827 0 -0.9239 0 0 -1 -0.3827 -1 -0.9239 -0.3827 1 -0.9239
 
+0 STEP
 0 FILE 42082 - ldcConRing-1-4.dat
 0 An LDCad path deform 1/4 cone ring generator subpart with control-point scaling notes.
 0 Name: 42082 - ldcConRing-1-4.dat
@@ -32340,6 +32458,7 @@
 5 24 0.3827 0 0.9239 0 0 1 0.3827 -1 0.9239 0.3827 1 0.9239
 
 
+0 STEP
 0 FILE s\42082 - 4185as01.dat
 0 A stepped cylindrical subpart built from open cylinders, rings, and disc negatives forming a tiered ring profile.
 0 Name: s\42082 - 4185as01.dat
@@ -32488,6 +32607,7 @@
 3 16 26.024 -3.426 -4.375 26.25 0 -4.375 30 0 -4.375
 3 16 25.048 -7.929 -4.375 25.355 -6.794 -4.375 28.249001 -7.072 -4.375
 
+0 STEP
 0 FILE s\42082 - 33299s01.dat
 0 A complex Technic wheel or pulley subpart with cylinders, rings, circles, and a pin base forming a detailed hub.
 0 Name: s\42082 - 33299s01.dat
@@ -32758,6 +32878,7 @@
 5 24 -4.9498 0 35.050098 -4.9498 10 35.050098 -6 0 36.661999 -2.6788 0 33.5327
 5 24 4.9497 10 35.050301 4.9498 0 35.050201 6 0 36.661999 2.6788 10 33.5327
 
+0 STEP
 0 FILE s\42082 - 13971s01.dat
 0 A simple rectangular plate subpart made of two edge-defined rectangles forming a flat surface.
 0 Name: s\42082 - 13971s01.dat
@@ -32848,6 +32969,7 @@
 5 24 3.9065 9.8096 10 0 10.2202 10 1.3049 10.8874 9.888 3.4443 8.3151 10
 5 24 8.851 5.1101 10 6.5421 8.288 10 8.7763 6.5738 9.888 8.3151 3.4443 10
 
+0 STEP
 0 FILE 42082 - stud10.dat
 0 A hollow stud made of a partial cylinder with circle and disc caps.
 0 Name: 42082 - stud10.dat
@@ -32900,6 +33022,7 @@
 
 0 !LDCAD SNAP_INCL [ref=stud.dat]
 
+0 STEP
 0 FILE s\42082 - faxle1.dat
 0 A flexible Technic axle subpart with an axle hole, perimeter, base surface, and cylindrical body.
 0 Name: s\42082 - faxle1.dat
@@ -32934,6 +33057,7 @@
 0 // Technic Axle Perimeter (main_colour)
 1 16 0.4 0 0 0 -0.4 0 -1 0 0 0 0 1 axlehol8.dat
 
+0 STEP
 0 FILE s\42082 - faxle2.dat
 0 A flexible Technic axle core subpart with axle hole tooth edges, inner edges, perimeter, and base surface.
 0 Name: s\42082 - faxle2.dat
@@ -32962,6 +33086,7 @@
 0 // Cylinder 1.0 (main_colour)
 1 16 0 0 0 0 0.8 0 6 0 0 0 0 6 4-4cyli.dat
 
+0 STEP
 0 FILE s\42082 - faxle3.dat
 0 Technic axle primitive with axle hole, perimeter, and base surface geometry.
 0 Name: s\42082 - faxle3.dat
@@ -32990,6 +33115,7 @@
 0 // Technic Axle Perimeter (main_colour)
 1 16 1.2 0 0 0 -1.2 0 -1 0 0 0 0 1 axlehol8.dat
 
+0 STEP
 0 FILE s\42082 - faxle4.dat
 0 Technic axle primitive with axle hole, perimeter, and base surface geometry.
 0 Name: s\42082 - faxle4.dat
@@ -33018,6 +33144,7 @@
 0 // Cylinder 1.0 (main_colour)
 1 16 0 0 0 0 1.6 0 6 0 0 0 0 6 4-4cyli.dat
 
+0 STEP
 0 FILE s\42082 - faxle5.dat
 0 Technic axle primitive with axle hole, perimeter, and base surface geometry.
 0 Name: s\42082 - faxle5.dat

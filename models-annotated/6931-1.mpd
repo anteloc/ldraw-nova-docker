@@ -11,6 +11,7 @@
 1 7 199 -64 72 0 0 -1 0 1 0 1 0 0 6931 - minifig.ldr
 
 
+0 STEP
 0 FILE 6931 - flexhose1.ldr
 0 A flexible hose assembly made of end caps, link segments, and a center section forming a curved tube approximately 54 mm long.
 0 Name: 6931 - flexhose1.ldr
@@ -160,6 +161,7 @@
 1 16 -0.967729 42.382295 -99.939297 0.999801 -0.01993 -0.000736 0.019944 0.999098 0.037483 -0.000012 -0.03749 0.999297 754.dat
 
 
+0 STEP
 0 FILE 6931 - flexhose3.ldr
 0 A flexible hose assembly made of end caps, link segments, and a center section forming a curved tube approximately 54 mm long.
 0 Name: 6931 - flexhose3.ldr
@@ -309,6 +311,7 @@
 1 16 0.967729 42.382295 -99.939297 0.999801 0.01993 0.000736 -0.019944 0.999098 0.037483 0.000012 -0.03749 0.999297 754.dat
 
 
+0 STEP
 0 FILE 6931 - flexhose2.ldr
 0 A flexible hose assembly of end caps, link segments, and a center section, with a slight gap due to configuration constraints.
 0 Name: 6931 - flexhose2.ldr
@@ -459,6 +462,7 @@
 1 16 -29.994395 -3.014421 -39.064366 -0.999996 -0.002896 0.000043 -0.000064 0.00745 -0.999972 0.002895 -0.999968 -0.00745 754.dat
 
 
+0 STEP
 0 FILE 6931 - flexhose4.ldr
 0 A flexible hose assembly of end caps, link segments, and a center section, with a slight gap due to configuration constraints.
 0 Name: 6931 - flexhose4.ldr
@@ -609,6 +613,7 @@
 1 16 29.994395 -3.014421 -39.064366 -0.999996 0.002896 -0.000043 0.000064 0.00745 -0.999972 -0.002895 -0.999968 -0.00745 754.dat
 
 
+0 STEP
 0 FILE 6931 - body.ldr
 0 The blue main fuselage of the spacecraft, built from sloped bricks, plates, hinges, and trans-red and trans-yellow cone engine details.
 0 Name: 6931 - body.ldr
@@ -846,6 +851,7 @@
 1 7 -50 82 -310 0 0 -1 0 1 0 1 0 0 3673.dat
 
 
+0 STEP
 0 FILE 6931 - front.ldr
 0 The grey forward section featuring a translucent canopy, twin finned engine pods, control sticks, and arrow-patterned tiles.
 0 Name: 6931 - front.ldr
@@ -993,6 +999,7 @@
 1 0 152.5 28 9.5 1 0 0 0 1 0 0 0 1 6931 - flexhose1.ldr
 
 
+0 STEP
 0 FILE 6931 - minifig.ldr
 0 A classic yellow space minifigure equipped with airtanks, a helmet with visor, and a smiling head.
 0 Name: 6931 - minifig.ldr
@@ -1024,6 +1031,7 @@
 1 14 0 -28 0 1 0 0 0 1 0 0 0 1 3842b.dat
 
 
+0 STEP
 0 FILE 6931 - robot.ldr
 0 A small black robotic drone built from hinge plates, control sticks, and round light pieces.
 0 Name: 6931 - robot.ldr
@@ -1061,6 +1069,7 @@
 1 46 0 -46 18 1 0 0 0 0 1 0 -1 0 6141.dat
 
 
+0 STEP
 0 FILE 6931 - rover.ldr
 0 A light-grey wheeled surface rover with six tyres, a control panel slope, a jet-pack, and steering controls.
 0 Name: 6931 - rover.ldr

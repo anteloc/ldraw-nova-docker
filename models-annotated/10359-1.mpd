@@ -698,6 +698,7 @@
 1 288 -120 -55 120 1 0 0 0 1 0 0 0 1 10359 - 218-229.ldr
 0 STEP
 1 27 -260 -55 -80 0 0 -1 0 1 0 1 0 0 10359 - 231-247.ldr
+0 STEP
 0 FILE 10359 - 12.ldr
 0 Small grey brick and black plate subassembly.
 0 Name: 10359 - 12.ldr
@@ -708,6 +709,7 @@
 1 71 0 0 0 0 0 1 0 1 0 -1 0 0 3003.dat
 0 // Plate  1 x  2 (black)
 1 0 -10 -8 0 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 STEP
 0 FILE 10359 - 14.ldr
 0 Small yellow brick and black plate subassembly.
 0 Name: 10359 - 14.ldr
@@ -718,6 +720,7 @@
 1 14 0 0 0 -1 0 0 0 1 0 0 0 -1 3004.dat
 0 // Plate  1 x  2 (black)
 1 0 0 -8 0 -1 0 0 0 1 0 0 0 -1 3023b.dat
+0 STEP
 0 FILE 10359 - 16.ldr
 0 White brick wall section on a grey base plate.
 0 Name: 10359 - 16.ldr
@@ -731,6 +734,7 @@
 0 STEP
 0 // Brick  1 x  6 (white)
 1 15 0 -24 -60 0 0 -1 0 1 0 1 0 0 3009.dat
+0 STEP
 0 FILE 10359 - 19.ldr
 0 Yellow and red detail element with a tiled accent piece.
 0 Name: 10359 - 19.ldr
@@ -744,6 +748,7 @@
 0 STEP
 0 // Tile  1 x  2 with Groove (red)
 1 4 0 -20 0 1 0 0 0 1 0 0 0 1 3069b.dat
+0 STEP
 0 FILE 10359 - 36-57.ldr
 0 Large reddish-brown log-built structure with corner bricks, technic connections, and grey and tan plating forming a building section.
 0 Name: 10359 - 36-57.ldr
@@ -924,6 +929,7 @@
 1 84 90 -32 -40 0 0 1 0 1 0 -1 0 0 2431.dat
 0 // Tile  2 x  4 (medium_nougat)
 1 84 108 -4 -40 0 -1 0 0 0 1 -1 0 0 87079.dat
+0 STEP
 0 FILE 10359 - 37.ldr
 0 White bracket brick holding two red bar-with-pin elements.
 0 Name: 10359 - 37.ldr
@@ -936,6 +942,7 @@
 1 4 18 10 10 0 -1 0 0 0 -1 1 0 0 78258.dat
 0 // Bar  2L with Thick Stop and Pin Holes (red)
 1 4 18 10 -10 0 -1 0 0 0 -1 1 0 0 78258.dat
+0 STEP
 0 FILE 10359 - 52.ldr
 0 Black detail element with grille tile, headlight bricks, and side-studded bricks.
 0 Name: 10359 - 52.ldr
@@ -955,6 +962,7 @@
 1 0 -30 -24 -10 1 0 0 0 1 0 0 0 1 4070.dat
 0 // Brick  1 x  1 with Headlight (black)
 1 0 30 -24 -10 1 0 0 0 1 0 0 0 1 4070.dat
+0 STEP
 0 FILE 10359 - 55.ldr
 0 Dark green curved detail element with slope bricks and corner tiles on a black plate.
 0 Name: 10359 - 55.ldr
@@ -981,6 +989,7 @@
 1 288 20 -32 0 0 0 -1 0 1 0 1 0 0 25269.dat
 0 // Tile  1 x  1 Corner Round (dark_green)
 1 288 0 -32 0 0 0 1 0 1 0 -1 0 0 25269.dat
+0 STEP
 0 FILE 10359 - 56.ldr
 0 Dark green wall section with headlight bricks, slope details, and corner tiles on black plates.
 0 Name: 10359 - 56.ldr
@@ -1017,6 +1026,7 @@
 1 288 40 -32 0 0 0 -1 0 1 0 1 0 0 25269.dat
 0 // Tile  1 x  1 Corner Round (dark_green)
 1 288 0 -32 0 0 0 -1 0 1 0 1 0 0 25269.dat
+0 STEP
 0 FILE 10359 - 59-80.ldr
 0 Large reddish-brown log-built structure with corner bricks, technic connections, and grey and tan plating forming a mirrored building section.
 0 Name: 10359 - 59-80.ldr
@@ -1197,6 +1207,7 @@
 1 84 -90 -32 -40 0 0 -1 0 1 0 1 0 0 2431.dat
 0 // Tile  2 x  4 (medium_nougat)
 1 84 -108 -4 -40 0 1 0 0 0 1 1 0 0 87079.dat
+0 STEP
 0 FILE 10359 - 78.ldr
 0 Dark green curved detail element with slope bricks and corner tiles on a black plate.
 0 Name: 10359 - 78.ldr
@@ -1223,6 +1234,7 @@
 1 288 20 -32 0 0 0 1 0 1 0 -1 0 0 25269.dat
 0 // Tile  1 x  1 Corner Round (dark_green)
 1 288 0 -32 0 0 0 -1 0 1 0 1 0 0 25269.dat
+0 STEP
 0 FILE 10359 - 82-126.ldr
 0 Large building section with reddish-brown log and white brick walls, grey and green plating, and technic connections.
 0 Name: 10359 - 82-126.ldr
@@ -1346,6 +1358,7 @@
 1 84 0 -32 -70 -1 0 0 0 1 0 0 0 -1 2431.dat
 0 // Tile  2 x  4 (medium_nougat)
 1 84 0 -4 -88 -1 0 0 0 0 1 0 1 0 87079.dat
+0 STEP
 0 FILE 10359 - 88.ldr
 0 Reddish-brown log brick wall with a grey edge-studded plate on a white base plate.
 0 Name: 10359 - 88.ldr
@@ -1361,6 +1374,7 @@
 1 72 0 0 50 -1 0 0 0 1 0 0 0 -1 6179.dat
 0 // Brick  1 x  2 Log (reddish_brown)
 1 70 -10 -24 10 0 0 -1 0 1 0 1 0 0 30136.dat
+0 STEP
 0 FILE 10359 - 94.ldr
 0 Tan and dark tan tiled floor section with corner and triangular plates.
 0 Name: 10359 - 94.ldr
@@ -1386,6 +1400,7 @@
 1 28 -20 -24 20 1 0 0 0 1 0 0 0 1 3070b.dat
 0 // Tile  2 x  2 Corner without Corner (tan)
 1 19 0 -24 0 0 0 -1 0 1 0 1 0 0 27263.dat
+0 STEP
 0 FILE 10359 - 97-116.ldr
 0 Dark orange tiled floor and wall section with curved-top bricks, arch elements, and door-rail plates.
 0 Name: 10359 - 97-116.ldr
@@ -1521,6 +1536,7 @@
 1 15 -100 56 -80 0 0 1 0 1 0 -1 0 0 38583.dat
 0 // Brick  1 x  1 with Half Arch on Two Adjacent Sides (white)
 1 15 -100 56 0 1 0 0 0 1 0 0 0 1 38585.dat
+0 STEP
 0 FILE 10359 - 104-114.ldr
 0 White arched structure with technic bricks, arches, and half-arch elements forming a window or doorway frame.
 0 Name: 10359 - 104-114.ldr
@@ -1580,6 +1596,7 @@
 1 15 70 -40 0 1 0 0 0 1 0 0 0 1 3710.dat
 0 // Plate  1 x  8 (white)
 1 15 0 -40 110 0 0 1 0 1 0 -1 0 0 3460.dat
+0 STEP
 0 FILE 10359 - 118-124.ldr
 0 Garden detail with green leaves, bright green plant stems, and red flowers on a technic pin.
 0 Name: 10359 - 118-124.ldr
@@ -1633,6 +1650,7 @@
 0 STEP
 0 // Technic Pin  1/2 (white)
 1 15 0 0 0 0 -1 0 -1 0 0 0 0 -1 4274.dat
+0 STEP
 0 FILE 10359 - 128-171.ldr
 0 Large building section with reddish-brown log and white brick walls, grey and green plating, and technic connections.
 0 Name: 10359 - 128-171.ldr
@@ -1755,6 +1773,7 @@
 1 84 0 -32 70 1 0 0 0 1 0 0 0 1 2431.dat
 0 // Tile  2 x  4 (medium_nougat)
 1 84 0 -4 88 1 0 0 0 0 1 0 -1 0 87079.dat
+0 STEP
 0 FILE 10359 - 134.ldr
 0 Reddish-brown log brick wall with a grey edge-studded plate on a white base plate.
 0 Name: 10359 - 134.ldr
@@ -1770,6 +1789,7 @@
 1 72 0 0 50 -1 0 0 0 1 0 0 0 -1 6179.dat
 0 // Brick  1 x  2 Log (reddish_brown)
 1 70 10 -24 10 0 0 1 0 1 0 -1 0 0 30136.dat
+0 STEP
 0 FILE 10359 - 144-163.ldr
 0 Dark orange tiled floor and wall section with curved-top bricks, arch elements, and door-rail plates.
 0 Name: 10359 - 144-163.ldr
@@ -1905,6 +1925,7 @@
 1 15 100 56 -80 0 0 -1 0 1 0 1 0 0 38583.dat
 0 // Brick  1 x  1 with Half Arch on Two Adjacent Sides (white)
 1 15 100 56 0 0 0 1 0 1 0 -1 0 0 38585.dat
+0 STEP
 0 FILE 10359 - 151-161.ldr
 0 White arched structure with technic bricks, arches, and half-arch elements forming a window or doorway frame.
 0 Name: 10359 - 151-161.ldr
@@ -1965,6 +1986,7 @@
 1 15 -70 -40 0 1 0 0 0 1 0 0 0 1 3710.dat
 0 // Plate  1 x  8 (white)
 1 15 0 -40 110 0 0 -1 0 1 0 1 0 0 3460.dat
+0 STEP
 0 FILE 10359 - 165-169.ldr
 0 Small garden detail with green leaves and bright green plant stems on a technic pin.
 0 Name: 10359 - 165-169.ldr
@@ -1995,6 +2017,7 @@
 0 STEP
 0 // Technic Pin  1/2 (white)
 1 15 0 0 0 0 1 0 -1 0 0 0 0 1 4274.dat
+0 STEP
 0 FILE 10359 - 168.ldr
 0 Small dark green leaf with a bright pink flower on a pin.
 0 Name: 10359 - 168.ldr
@@ -2006,6 +2029,7 @@
 1 29 0 4 0 1 0 0 0 1 0 0 0 1 10359 - 5903.dat
 0 // Plant Flower with  5 Pointed Petals with Pin (bright_pink)
 1 29 0 -19 0 0.707107 0 -0.707107 0 1 0 0.707107 0 0.707107 18853.dat
+0 STEP
 0 FILE 10359 - 173-190.ldr
 0 Structure section with white log and slope bricks, trans-light-blue window elements, and green leaf details.
 0 Name: 10359 - 173-190.ldr
@@ -2080,6 +2104,7 @@
 0 STEP
 1 4 -48 -100 -30 -0.906308 0 0.422618 0 1 0 -0.422618 0 -0.906308 10359 - 190.ldr
 1 4 -48 -164 30 -1 0 0 0 1 0 0 0 -1 10359 - 190.ldr
+0 STEP
 0 FILE 10359 - 177.ldr
 0 Small curved slope accent with a trans-light-blue plate, likely a decorative finial or light element.
 0 Name: 10359 - 177.ldr
@@ -2090,6 +2115,7 @@
 1 15 0 0 0 -1 0 0 0 1 0 0 0 -1 93273.dat
 0 // Plate  1 x  2 (trans_light_blue)
 1 43 0 -8 0 0 0 -1 0 1 0 1 0 0 3023b.dat
+0 STEP
 0 FILE 10359 - 180.ldr
 0 Compact white brick assembly with side studs, forming a small structural connector block.
 0 Name: 10359 - 180.ldr
@@ -2105,6 +2131,7 @@
 1 15 0 -24 30 0 0 1 0 1 0 -1 0 0 87087.dat
 0 // Brick  1 x  1 with Stud on 1 Side (white)
 1 15 0 -24 -30 0 0 1 0 1 0 -1 0 0 87087.dat
+0 STEP
 0 FILE 10359 - 181.ldr
 0 White log-textured brick assembly with plates and side-stud bricks, resembling a small wooden post or pillar.
 0 Name: 10359 - 181.ldr
@@ -2123,6 +2150,7 @@
 0 STEP
 0 // Plate  1 x  4 (white)
 1 15 0 -32 0 0 0 -1 0 1 0 1 0 0 3710.dat
+0 STEP
 0 FILE 10359 - 182.ldr
 0 Pair of white telescopes mounted on round plates, likely an observation or viewing detail.
 0 Name: 10359 - 182.ldr
@@ -2137,6 +2165,7 @@
 1 15 0 -80 0 1 0 0 0 1 0 0 0 1 64644.dat
 0 // Plate  1 x  1 Round with Open Stud (white)
 1 15 0 -88 0 1 0 0 0 1 0 0 0 1 85861.dat
+0 STEP
 0 FILE 10359 - 183.ldr
 0 Triple trans-light-blue plume mounted on a round plate with an angled bar, forming a small flame or energy effect.
 0 Name: 10359 - 183.ldr
@@ -2147,6 +2176,7 @@
 1 71 0 0 0 1 0 0 0 1 0 0 0 1 65578.dat
 0 // Minifig Plume/Flame Triple (trans_light_blue)
 1 43 0 2 0 0 0 -1 0 1 0 1 0 0 64647.dat
+0 STEP
 0 FILE 10359 - 184.ldr
 0 Small white cylindrical assembly with pin-and-bar-hole connectors, acting as a pivot or hinge mechanism.
 0 Name: 10359 - 184.ldr
@@ -2159,6 +2189,7 @@
 1 15 0 -32 0 -1 0 0 0 -1 0 0 0 1 37762.dat
 0 // Cylinder  1 x  1.333 with  0.5L Bar and Bar Hole (white)
 1 15 0 -64 0 -1 0 0 0 -1 0 0 0 1 37762.dat
+0 STEP
 0 FILE 10359 - 185.ldr
 0 White arch element supported by two round plates, forming a small decorative archway detail.
 0 Name: 10359 - 185.ldr
@@ -2171,6 +2202,7 @@
 1 15 0 0 60 1 0 0 0 1 0 0 0 1 85861.dat
 0 // Arch  1 x  4 (white)
 1 15 0 -24 30 0 0 -1 0 1 0 1 0 0 3659.dat
+0 STEP
 0 FILE 10359 - 186.ldr
 0 Dark-orange and tan tiled plate assembly with door rails and curved-top bricks, forming a detailed horizontal panel or shelf.
 0 Name: 10359 - 186.ldr
@@ -2218,6 +2250,7 @@
 1 484 30 -16 10 0 0 1 0 1 0 -1 0 0 49307.dat
 0 // Tile  1 x  1 with Groove (dark_orange)
 1 484 50 -24 10 1 0 0 0 1 0 0 0 1 3070b.dat
+0 STEP
 0 FILE 10359 - 189.ldr
 0 Decorative plant arrangement with green leaves, heart tiles, white flowers, and a bright-green three-pronged bar stem.
 0 Name: 10359 - 189.ldr
@@ -2242,6 +2275,7 @@
 1 10 0 3 0 -0.707107 0 0.707107 0 1 0 -0.707107 0 -0.707107 68211.dat
 0 // Plant Flower with  7 Alternate Petals with Centre Ring with Bar and Pin Hole (white)
 1 15 -6.786669 -19.0298 1.818467 -0.594115 0.620886 0.511398 0.321393 0.766044 -0.556672 -0.737383 -0.166367 -0.654666 10359 - 4367.dat
+0 STEP
 0 FILE 10359 - 190.ldr
 0 Small floral display with a fez-topped brown stem bearing red five-petal flowers, resembling a potted flowering plant.
 0 Name: 10359 - 190.ldr
@@ -2265,6 +2299,7 @@
 1 4 9.750002 -48.579049 16.887028 0.314743 -0.250001 -0.915662 0.495615 0.866024 -0.06609 0.809508 -0.433014 0.396479 24866.dat
 0 // Plate  1 x  1 with  5 Petals (red)
 1 4 -15.504693 -30.287038 26.854596 0.36376 0.469847 -0.804315 0.764966 0.342019 0.545757 0.531513 -0.813798 -0.235004 24866.dat
+0 STEP
 0 FILE 10359 - 192-196.ldr
 0 Mixed-texture display base combining brown brick, green tiled surface, and tan edge-studded plates, possibly a small landscaped vignette.
 0 Name: 10359 - 192-196.ldr
@@ -2293,6 +2328,7 @@
 1 84 0 64 20 0 0 -1 0 1 0 1 0 0 11203.dat
 0 // Tile  2 x  2 Inverted (medium_nougat)
 1 84 0 64 -20 0 0 -1 0 1 0 1 0 0 11203.dat
+0 STEP
 0 FILE 10359 - 198a.ldr
 0 Small nature diorama base with a brown brick, tan grooved plate, and an olive-green frog atop a dark-grey plate.
 0 Name: 10359 - 198a.ldr
@@ -2308,6 +2344,7 @@
 1 19 0 -32 0 1 0 0 0 1 0 0 0 1 87580.dat
 0 // Animal Frog (olive_green)
 1 330 0 -32 0 0.707107 0 -0.707107 0 1 0 0.707107 0 0.707107 33320.dat
+0 STEP
 0 FILE 10359 - 198b.ldr
 0 Small nature diorama base with a brown brick, tan grooved plate, and a bright-light-yellow songbird atop a dark-grey plate.
 0 Name: 10359 - 198b.ldr
@@ -2323,6 +2360,7 @@
 1 19 0 -32 0 1 0 0 0 1 0 0 0 1 87580.dat
 0 // Animal Bird Songbird with Black Eyes and Orange Beak Pattern (bright_light_yellow)
 1 226 0 -32 0 0.707107 0 0.707107 0 1 0 -0.707107 0 0.707107 41835p02.dat
+0 STEP
 0 FILE 10359 - 199-205.ldr
 0 White 6x6 base with trans-light-blue grooved tiles and corner-stud bricks, forming a light-emitting structural platform.
 0 Name: 10359 - 199-205.ldr
@@ -2363,6 +2401,7 @@
 1 15 0 -32 0 1 0 0 0 1 0 0 0 1 10359 - 27507p02.dat
 0 STEP
 1 15 0 -48 0 0 0 -1 0 1 0 1 0 0 10359 - 205.ldr
+0 STEP
 0 FILE 10359 - 202.ldr
 0 Open-centre white plate ringed with trans-light-blue grooved tiles, forming a glowing window or portal frame.
 0 Name: 10359 - 202.ldr
@@ -2384,6 +2423,7 @@
 1 43 30 -8 20 0 0 1 0 1 0 -1 0 0 3069b.dat
 0 // Tile  1 x  2 with Groove (trans_light_blue)
 1 43 30 -8 -20 0 0 1 0 1 0 -1 0 0 3069b.dat
+0 STEP
 0 FILE 10359 - 203.ldr
 0 White curved-slope assembly forming a smooth dome or rounded architectural element.
 0 Name: 10359 - 203.ldr
@@ -2409,6 +2449,7 @@
 1 15 -10 8 10 0 0 -1 0 1 0 1 0 0 24201.dat
 0 // Slope Brick Curved  2 x  1 Inverted (white)
 1 15 10 8 10 0 0 1 0 1 0 -1 0 0 24201.dat
+0 STEP
 0 FILE 10359 - 205.ldr
 0 Decorative white statuette sculpture on a bar with inverted dishes and trans-light-blue energy bursts, resembling an enchanted or magical artifact.
 0 Name: 10359 - 205.ldr
@@ -2447,6 +2488,7 @@
 1 15 0 -90 0 1 0 0 0 1 0 0 0 1 59900.dat
 0 // Minifig Statuette (white)
 1 15 0 -90 0 1 0 0 0 1 0 0 0 1 90398.dat
+0 STEP
 0 FILE 10359 - 207-216.ldr
 0 Green plant cluster base with technic axle bricks, bright-green bar, and grey inverted-dish detail, forming a small mechanical botanical element.
 0 Name: 10359 - 207-216.ldr
@@ -2486,6 +2528,7 @@
 0 STEP
 1 402 0 -136 0 1 0 0 0 1 0 0 0 1 10359 - 216.ldr
 1 27 -40.39943 -151.981253 -40.39943 0.707107 0.683161 0.18246 0 0.258038 -0.966135 -0.707107 0.683161 0.18246 10359 - 80674p01.dat
+0 STEP
 0 FILE 10359 - 214.ldr
 0 Small green foliage cluster with leaves and bright-green sausage pieces on a brown round axle plate, resembling a whimsical plant growth.
 0 Name: 10359 - 214.ldr
@@ -2521,6 +2564,7 @@
 1 10 -14.975193 -39.09561 14.975193 0.430686 0.707107 0.560811 0.793107 0 -0.609082 -0.430686 0.707107 -0.560811 33078.dat
 0 // Minifig Food Sausage (bright_green)
 1 10 14.975193 -39.09561 -14.975193 -0.430686 -0.707107 -0.560811 0.793107 0 -0.609082 0.430686 -0.707107 0.560811 33078.dat
+0 STEP
 0 FILE 10359 - 215a.ldr
 0 Tiny multi-color flower detail combining green leaves, orange petals, and bright-light-orange blossoms.
 0 Name: 10359 - 215a.ldr
@@ -2533,6 +2577,7 @@
 1 25 0 -8 0 1 0 0 0 1 0 0 0 1 5904.dat
 0 // Plate  1 x  1 with  5 Petals (bright_light_orange)
 1 191 0 -16 0 1 0 0 0 1 0 0 0 1 24866.dat
+0 STEP
 0 FILE 10359 - 216.ldr
 0 Small green-stemmed flower sprout with orange and reddish-orange petal blooms.
 0 Name: 10359 - 216.ldr
@@ -2548,6 +2593,7 @@
 1 25 0 -16 0 1 0 0 0 1 0 0 0 1 5904.dat
 0 // Plate  1 x  1 with  5 Petals (reddish_orange)
 1 402 0 -24 0 1 0 0 0 1 0 0 0 1 24866.dat
+0 STEP
 0 FILE 10359 - 215b.ldr
 0 Tiny multi-color flower detail combining green leaves, orange petals, and reddish-orange blossoms.
 0 Name: 10359 - 215b.ldr
@@ -2560,6 +2606,7 @@
 1 25 0 -8 0 1 0 0 0 1 0 0 0 1 5904.dat
 0 // Plate  1 x  1 with  5 Petals (reddish_orange)
 1 402 0 -16 0 1 0 0 0 1 0 0 0 1 24866.dat
+0 STEP
 0 FILE 10359 - 218-229.ldr
 0 Detailed dark-green and brown botanical-crystal element with technic axle bricks, bars, leaves, and a five-point crystal.
 0 Name: 10359 - 218-229.ldr
@@ -2607,6 +2654,7 @@
 0 STEP
 0 // Rock  1 x  1 Crystal 5 Point (dark_green)
 1 288 0 -260 -2 -0.707107 0 0.707107 0 1 0 -0.707107 0 -0.707107 30385.dat
+0 STEP
 0 FILE 10359 - 224.ldr
 0 Dark-green four-stud brick with four bladed claws spread outward, forming a spiky plant or creature feature.
 0 Name: 10359 - 224.ldr
@@ -2623,6 +2671,7 @@
 1 288 14 10 0 0 -1 0 0 0 1 -1 0 0 10187.dat
 0 // Minifig Bladed Claw Spread (dark_green)
 1 288 -14 10 0 0 1 0 0 0 1 1 0 0 10187.dat
+0 STEP
 0 FILE 10359 - 231-247.ldr
 0 Articulated brown and green creature-tail assembly with technic pins, bars, leaves, and animal tail sections.
 0 Name: 10359 - 231-247.ldr
@@ -2665,6 +2714,7 @@
 1 70 -88.188267 -146.913519 -2 0.965483 0.258819 -0.029244 -0.2587 0.965926 0.007836 0.030276 0 0.999542 10359 - 239.ldr
 0 STEP
 1 27 0 -160 -2 1 0 0 0 1 0 0 0 1 10359 - 240-246.ldr
+0 STEP
 0 FILE 10359 - 234.ldr
 0 A small reddish brown tree trunk assembly made from a bar and a hollow cone top.
 0 Name: 10359 - 234.ldr
@@ -2677,6 +2727,7 @@
 1 70 0 -12 0 1 0 0 0 -1 0 0 0 -1 3942c.dat
 0 STEP
 1 70 0 -60 0 1 0 0 0 -1 0 0 0 -1 10359 - 5256.dat
+0 STEP
 0 FILE 10359 - 235.ldr
 0 A reddish brown holder ring joined with a Technic pin, forming a small connector or branch joint.
 0 Name: 10359 - 235.ldr
@@ -2690,6 +2741,7 @@
 0 STEP
 0 // Holder Ring with  3 Bars and  3 Bar Tubes (reddish_brown)
 1 70 0 -25 0 1 0 0 0 1 0 0 0 1 20612.dat
+0 STEP
 0 FILE 10359 - 239.ldr
 0 A small green leafy bush with bright green stems decorated with lime cherries.
 0 Name: 10359 - 239.ldr
@@ -2711,6 +2763,7 @@
 0 STEP
 0 // Minifig Food Cherry (lime)
 1 27 -26.867725 22.835558 -8.104659 -0.74501 0.353552 -0.56565 0.183015 -0.707106 -0.683013 -0.641456 -0.612374 0.462096 22667.dat
+0 STEP
 0 FILE 10359 - 240-246.ldr
 0 A larger lush green foliage cluster with alternating bright green flowers, white antlers, and lime cherries.
 0 Name: 10359 - 240-246.ldr
@@ -2759,6 +2812,7 @@
 1 27 8.104705 20.835558 46.867805 0.513447 0.612372 0.601142 0.015667 -0.707106 0.706934 0.857978 -0.353555 -0.372656 22667.dat
 0 // Minifig Food Cherry (lime)
 1 27 19.999999 25.690237 26.546042 0.999754 -0.000001 -0.022159 -0.014245 -0.766044 -0.642631 -0.016974 0.642788 -0.765856 22667.dat
+0 STEP
 0 FILE 10359 - 242.ldr
 0 A green leafy plant built on a bright green three-leaf stem.
 0 Name: 10359 - 242.ldr
@@ -2774,6 +2828,7 @@
 1 2 0 -8 60 -0.707107 0 -0.707107 0 1 0 0.707107 0 -0.707107 32607.dat
 0 // Plant Stem with  3 Leaves with Bar and Pin Holes (bright_green)
 1 10 0 10 0 -0.707107 0 0.707107 0 1 0 -0.707107 0 -0.707107 37695.dat
+0 STEP
 0 FILE 10359 - 5091.dat
 0 An empty primitive-based part submodel with no direct pieces.
 0 Name: 10359 - 5091.dat
@@ -2787,6 +2842,7 @@
 
 4 16 0 0 10 -20 0 10 -20 0 -10 17 0 -10
 3 16 17 0 -10 17 0 -7 0 0 10
+0 STEP
 0 FILE 10359 - 5092.dat
 0 An empty primitive-based part submodel with no direct pieces.
 0 Name: 10359 - 5092.dat
@@ -2800,6 +2856,7 @@
 
 4 16 -20 0 10 -20 0 -10 0 0 -10 17 0 10
 3 16 17 0 7 17 0 10 0 0 -10
+0 STEP
 0 FILE 10359 - 76959.dat
 0 An empty primitive-based part submodel with no direct pieces.
 0 Name: 10359 - 76959.dat
@@ -2815,6 +2872,7 @@
 
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\10359 - 76959s01.dat
 4 16 20 24 -10 20 4 -30 -20 4 -30 -20 24 -10
+0 STEP
 0 FILE 10359 - 4367.dat
 0 A hollow cylindrical ring geometry submodel built from cylinders and a disc.
 0 Name: 10359 - 4367.dat
@@ -4807,6 +4865,7 @@
 
 0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=R 4 8] [slide=true]
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 2 14] [slide=true]
+0 STEP
 0 FILE 10359 - 5903.dat
 0 A small hollow cylindrical ring formed from open cylinders and a ring.
 0 Name: 10359 - 5903.dat
@@ -4851,6 +4910,7 @@
 5 24 0 -17.26000023 -5.33010006 0 -14.03299999 -6.17420006 -0.36000001 -17.20100021 -5.34859991 0.36000001 -17.20100021 -5.34859991
 5 24 0 -22.60000038 -2 0 -23.73699951 -2.21819997 -0.76539999 -22.60000038 -1.84780002 0.76539999 -22.60000038 -1.84780002
 5 24 0 -12.47000027 -6.16120005 0 -10.8920002 -6.09749985 -1.97549999 -12.71100044 -5.94640017 1.97549999 -12.71100044 -5.94640017
+0 STEP
 0 FILE 10359 - 5174.dat
 0 An empty primitive-based part submodel with no direct pieces.
 0 Name: 10359 - 5174.dat
@@ -4866,6 +4926,7 @@
 1 16 -20 4 -20 -20 0 0 0 0 20 0 1 0 48\1-4chrd.dat
 4 16 -40 4 -20 -20 24 -20 20 24 -20 40 4 -20
 4 16 -40 4 -20 40 4 -20 40 0 -20 -40 0 -20
+0 STEP
 0 FILE 10359 - 27507p02.dat
 0 An empty primitive-based part submodel with no direct pieces.
 0 Name: 10359 - 27507p02.dat
@@ -4880,6 +4941,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\27507s01.dat
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\10359 - 27507p02s01.dat
 1 16 0 0 0 0 0 -1 0 1 0 -1 0 0 s\10359 - 27507p02s01.dat
+0 STEP
 0 FILE 10359 - 32643.dat
 0 A handle with chords and rectangular panels forming a flexible or corded element.
 0 Name: 10359 - 32643.dat
@@ -6951,6 +7013,7 @@
 5 24 -4.46099997 6.046 -12.00500011 -0.118 8.13399982 -12.17500019 -4.92000008 7.38399982 -11.57499981 -0.013 6.74100018 -12.49100018
 5 24 20.90600014 5.3130002 21.35199928 20.60700035 5.07999992 18.46800041 22.1779995 4.09800005 20.88299942 18.57299995 5.35699987 18.64599991
 5 24 -5.77600002 -0.73799998 -10.21700001 -7.66900015 -1.47099996 -9.33899975 -7.79300022 0.215 -9.35000038 -5.71999979 -3.4849999 -10.13199997
+0 STEP
 0 FILE 10359 - 80674p01.dat
 0 An empty primitive-based part submodel with no direct pieces.
 0 Name: 10359 - 80674p01.dat
@@ -6965,6 +7028,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\80674s01.dat
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\10359 - 80674p01s01.dat
 1 16 0 0 0 -1 0 0 0 1 0 0 0 1 s\10359 - 80674p01s01.dat
+0 STEP
 0 FILE 10359 - 5256.dat
 0 A Technic axle-hole tooth geometry built from semi-reduced teeth and small chords.
 0 Name: 10359 - 5256.dat
@@ -7063,6 +7127,7 @@
 
 
 0 !LDCAD SNAP_INCL [ref=3941.dat]
+0 STEP
 0 FILE s\10359 - 5092s01.dat
 0 A geometric submodel forming a box-based housing with lip and rectangular panels.
 0 Name: s\10359 - 5092s01.dat
@@ -7135,6 +7200,7 @@
 2 24 17 0 7 17 7 7
 0 // Box with  2 Faces without  7 Edges (main_colour)
 1 16 -1.5 3.5 8.5 0 0 18.5 -3.5 0 0 0 1.5 0 box2-7.dat
+0 STEP
 0 FILE s\10359 - 76959s01.dat
 0 A geometric submodel assembled from boxes and rectangles forming a structural shell.
 0 Name: s\10359 - 76959s01.dat
@@ -7224,6 +7290,7 @@
 
 
 0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=S 6 20] [grid=C 2 1 20 0]
+0 STEP
 0 FILE s\10359 - 5903s02.dat
 0 A cylindrical ring section built from open cylinders and a ring.
 0 Name: s\10359 - 5903s02.dat
@@ -7329,6 +7396,7 @@
 5 24 4.61600018 -17.26000023 2.6651001 5.34700012 -14.03299999 3.08710003 4.8119998 -17.20100021 2.36260009 4.45200014 -17.20100021 2.98600006
 5 24 0 -8.31200027 -5.03081942 1.53079998 -8 -3.69560003 1.89499998 -8.31200027 -4.65980005 0 -8 -4
 5 24 3.08800006 -8.31200027 3.97099996 0 -8.31200027 5.17600012 0 -9.31799984 6.45200014 0 -8 4
+0 STEP
 0 FILE s\10359 - 5903s01.dat
 0 An empty primitive-based submodel with no direct pieces.
 0 Name: s\10359 - 5903s01.dat
@@ -7451,6 +7519,7 @@
 5 24 0 -22.70499992 2.19499993 1.44000006 -22.7840004 2.97399998 0 -23.3409996 3.67799997 0.68599999 -22.67499924 2.1400001
 2 24 0 -22.70499992 2.19499993 0.68599999 -22.67499924 2.1400001
 5 24 0.861 -23.65099907 4.78200006 0 -23.3409996 3.67799997 1.37199998 -23.21500015 4.63500023 0 -23.85000038 4.96799994
+0 STEP
 0 FILE s\10359 - 5174s01.dat
 0 A box-based hollow submodel with inside and outside faces and small cylindrical holes.
 0 Name: s\10359 - 5174s01.dat
@@ -7542,6 +7611,7 @@
 1 16 20 4 20 20 0 0 0 0 20 0 -1 0 48\1-4chrd.dat
 4 16 40 4 20 20 24 20 -20 24 20 -40 4 20
 4 16 40 4 20 -40 4 20 -40 0 20 40 0 20
+0 STEP
 0 FILE s\10359 - 5174s02.dat
 0 A detailed geometric submodel with cylinders, discs, and sloped sections forming a stud-like shape.
 0 Name: s\10359 - 5174s02.dat
@@ -7796,6 +7866,7 @@
 5 24 -27.7038002 19 -4.45660019 -27.7038002 22.45339966 -4.45660019 -30 19 -4 -27.65399933 22.47800064 -4.48990011
 5 24 -24.45660019 19 -12.2961998 -24.45660019 23.46100044 -12.2961998 -24 19 -10 -25.1760006 23.31800079 -13.3725996
 5 24 -30 19 -16 -30 21.31999969 -16 -27.7038002 19 -15.54339981 -32.17599869 19.86800003 -15.56729984
+0 STEP
 0 FILE s\10359 - 27507p02s01.dat
 0 An empty primitive-based submodel with no direct pieces.
 0 Name: s\10359 - 27507p02s01.dat
@@ -8022,6 +8093,7 @@
 3 16 56.56689835 0 -56.56689835 48.70000076 0 -61.79999924 47.68000031 0 -62.59000015
 4 16 48.70000076 0 -61.79999924 56.56689835 0 -56.56689835 50.5 0 -60.29999924 49.40000153 0 -61.20000076
 3 16 50.5 0 -60.29999924 56.56689835 0 -56.56689835 55.70000076 0 -55.70000076
+0 STEP
 0 FILE s\10359 - 80674p01s01.dat
 0 An empty primitive-based submodel with no direct pieces.
 0 Name: s\10359 - 80674p01s01.dat
@@ -9065,6 +9137,7 @@
 5 24 12.4829998 -12.89500046 11.14700031 10.50399971 -12.60400009 13.59300041 10.34700012 -12.48799992 9.58100033 14.02499962 -13.38000011 14.64700031
 5 24 4.22200012 -12.19499969 -2.34699988 1.67499995 -12.38099957 -1.60899997 1.28100002 -12.38899994 -3.76900005 4.65799999 -12.17700005 -0.094
 5 24 12.11999989 -12.81400013 -9.92099953 10.22200012 -12.5010004 -13.82999992 10.39900017 -12.49800014 -9.67599964 13.77999973 -13.25899982 -12.78499985
+0 STEP
 0 FILE s\10359 - 5256s01.dat
 0 A detailed small-scale cylindrical and disc geometry forming a pin or axle-hole profile.
 0 Name: s\10359 - 5256s01.dat

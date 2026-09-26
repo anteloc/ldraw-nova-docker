@@ -30,6 +30,7 @@
 0 16 0 -71 130 1 0 0 0 1 0 0 0 1 6043 - Trigger.ldr
 0 16 145.937 -24 157.472 -.342 0 -.9397 0 1 0 .9397 0 -.342 6043 - Boulders Launched.ldr
 
+0 STEP
 0 FILE 6043 - Trebuchet Base.ldr
 0 A sturdy blue and black wheeled base built from plates, bricks, and slopes forming the supporting platform of the trebuchet siege engine.
 0 Name: 6043 - Trebuchet Base.ldr
@@ -151,6 +152,7 @@
 0 // Wheel  2.8 x 34 with  8 Spokes with Round Hole for Wheel Holding Pin (brown)
 1 6 110 -42 -80 0 0 -1 0 1 0 1 0 0 4489a.dat
 
+0 STEP
 0 FILE 6043 - Dragon Head.ldr
 0 A sculpted black dragon head built from plates, bricks, and slopes with red accents, white round studs for eyes, and yellow headlight bricks for decorative detail.
 0 Name: 6043 - Dragon Head.ldr
@@ -278,6 +280,7 @@
 0 // Plate  1 x  2 (black)
 1 0 52 -145.071 22.929 0 -1 0 .7071 0 -.7071 .7071 0 .7071 3023b.dat
 
+0 STEP
 0 FILE 6043 - Liftarm Large.ldr
 0 A red firing arm assembly composed of plates, bricks with pins, hinges, dragon wings, and black excavator buckets serving as counterweights for the trebuchet.
 0 Name: 6043 - Liftarm Large.ldr
@@ -336,6 +339,7 @@
 0 // Animal Dragon Wing (red)
 1 4 50 -14 -150 .7071 .7071 0 -.7071 .7071 0 0 0 1 6133.dat
 
+0 STEP
 0 FILE 6043 - Liftarm Small.ldr
 0 A small red liftarm made of a plate and two bricks with pins extending the trebuchet's throwing arm.
 0 Name: 6043 - Liftarm Small.ldr
@@ -350,6 +354,7 @@
 0 // Brick  1 x  2 with Pin (red)
 1 4 40 -24 0 1 0 0 0 1 0 0 0 1 2458.dat
 
+0 STEP
 0 FILE 6043 - Trigger.ldr
 0 A simple blue release mechanism made of a clip plate and a round brick for triggering the trebuchet's launch.
 0 Name: 6043 - Trigger.ldr
@@ -362,6 +367,7 @@
 0 // Brick  1 x  1 Round with Hollow Stud (blue)
 1 1 0 8 0 1 0 0 0 1 0 0 0 1 3062b.dat
 
+0 STEP
 0 FILE 6043 - Flagpole.ldr
 0 A decorative banner setup consisting of a lance mounted with a dragon-patterned shield and two fluttering flags in yellow and red.
 0 Name: 6043 - Flagpole.ldr
@@ -378,6 +384,7 @@
 0 // Flag  4 x  1 with First Wave Left (red)
 1 4 0 0 -142 .5 0 -.866025 -.866025 0 -.5 0 1 0 4495a.dat
 
+0 STEP
 0 FILE 6043 - Spear.ldr
 0 A single brown minifigure spear used as a handheld weapon.
 0 Name: 6043 - Spear.ldr
@@ -388,6 +395,7 @@
 0 // Minifig Spear with Round End (brown)
 1 6 0 0 0 1 0 0 0 1 0 0 0 1 4497.dat
 
+0 STEP
 0 FILE 6043 - Swordsman.ldr
 0 An armored castle minifigure swordsman wearing black legs, a red dragon-patterned torso, a dragon crown helmet with yellow wing plumes, and holding a sword.
 0 Name: 6043 - Swordsman.ldr
@@ -431,6 +439,7 @@
 0 // Minifig Sword Shortsword (dark_grey)
 1 8 -26.783 -9.994 -19.607 .99229 .11745 .03968 .00438 .28669 -.95801 -.12389 .9508 .28397 3847.dat
 
+0 STEP
 0 FILE 6043 - Halberdier.ldr
 0 A castle minifigure halberdier wearing grey legs, a red dragon head-patterned torso, a neck-protector helmet, and armed with a halberd polearm.
 0 Name: 6043 - Halberdier.ldr
@@ -466,6 +475,7 @@
 0 // Minifig Polearm Halberd (dark_grey)
 1 8 -21.437 -39.885 -34.086 .86111 -.04642 .50629 .20564 .94253 -.26334 -.46497 .33088 .82117 6123.dat
 
+0 STEP
 0 FILE 6043 - Boulders Ready.ldr
 0 A set of four light grey 1x1 bricks representing ammunition loaded and ready for the trebuchet.
 0 Name: 6043 - Boulders Ready.ldr
@@ -482,6 +492,7 @@
 0 // Brick  1 x  1 (light_grey)
 1 7 -30 14 20 0 1 0 -1 0 0 0 0 1 3005.dat
 
+0 STEP
 0 FILE 6043 - Boulders Launched.ldr
 0 A set of four light grey 1x1 bricks representing boulders in their launched position after firing.
 0 Name: 6043 - Boulders Launched.ldr

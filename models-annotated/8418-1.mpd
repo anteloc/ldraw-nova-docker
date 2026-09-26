@@ -7,6 +7,7 @@
 1 0 -20 0 120 1 0 0 0 1 0 0 0 1 8418 - Mini Loader.ldr
 
 
+0 STEP
 0 FILE 8418 - Mini Loader.ldr
 0 The main body of a mini loader featuring bent liftarms, worm and bevel gearing, and an excavator bucket with click hinge attachment.
 0 Name: 8418 - Mini Loader.ldr
@@ -101,6 +102,7 @@
 1 14 -30 0 -160 0 0 1 0 1 0 -1 0 0 30285.dat
 
 
+0 STEP
 0 FILE 8418 - Sub02.ldr
 0 A bent liftarm connector subassembly joined by pins and an axle.
 0 Name: 8418 - Sub02.ldr
@@ -118,6 +120,7 @@
 1 0 0 0 -40 1 0 0 0 -1 0 0 0 -1 6558.dat
 
 
+0 STEP
 0 FILE 8418 - Sub03.ldr
 0 A short liftarm linkage subassembly built with pins and notched axles.
 0 Name: 8418 - Sub03.ldr
@@ -137,6 +140,7 @@
 1 71 0 0 40 -1 0 0 0 -1 0 0 0 1 4519.dat
 
 
+0 STEP
 0 FILE 8418 - Sub05.ldr
 0 A liftarm and cam subassembly mounted on axles for rotational movement.
 0 Name: 8418 - Sub05.ldr
@@ -157,6 +161,7 @@
 1 0 20 0 -30 0 1 0 0 0 1 1 0 0 6632.dat
 
 
+0 STEP
 0 FILE 8418 - Sub12.ldr
 0 A pair of Technic beams joined by friction pins forming a structural strut.
 0 Name: 8418 - Sub12.ldr
@@ -178,6 +183,7 @@
 1 72 -10 0 -20 -1 0 0 0 1 0 0 0 -1 32002.dat
 
 
+0 STEP
 0 FILE 8418 - Sub14.ldr
 0 An axle with an 8-tooth gear secured by flanged bushes forming a simple gear shaft.
 0 Name: 8418 - Sub14.ldr
@@ -195,6 +201,7 @@
 1 14 -20 0 0 0 0 1 0 1 0 -1 0 0 3713.dat
 
 
+0 STEP
 0 FILE 8418 - Arm.ldr
 0 A long axle fitted with two connector bushes forming a simple arm shaft.
 0 Name: 8418 - Arm.ldr
@@ -209,6 +216,7 @@
 1 71 0 0 120 -1 0 0 0 1 0 0 0 -1 32039.dat
 
 
+0 STEP
 0 FILE 8418 - Sub17.ldr
 0 An axle subassembly with cross blocks and half-bushes forming a pivoting joint mechanism.
 0 Name: 8418 - Sub17.ldr

@@ -273,6 +273,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - Pattern.ldr
 0 Container submodel organizing the complete Iron Man mosaic pattern across multiple build-step panels.
 0 Name: 31199 - Pattern.ldr
@@ -287,6 +288,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - Pattern - Steps 1 to 6.ldr
 0 Container submodel grouping the first six mosaic pattern panels (steps 1 through 6).
 0 Name: 31199 - Pattern - Steps 1 to 6.ldr
@@ -301,6 +303,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - Pattern - Steps 1 to 3.ldr
 0 Container submodel grouping the first three mosaic pattern panels (steps 1 through 3).
 0 Name: 31199 - Pattern - Steps 1 to 3.ldr
@@ -317,6 +320,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - Pattern - Step 1.ldr
 0 A 16x16 black technic base panel covered with round 1x1 studs in dark blue and black forming the first section of Iron Man artwork.
 0 Name: 31199 - Pattern - Step 1.ldr
@@ -848,6 +852,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - Pattern - Step 2.ldr
 0 A 16x16 technic base panel filled with multicolored round 1x1 studs including pearl gold, medium nougat, dark tan and red tones forming a warm-toned section of the mosaic.
 0 Name: 31199 - Pattern - Step 2.ldr
@@ -1385,6 +1390,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - Pattern - Step 3.ldr
 0 A 16x16 technic base panel of round 1x1 studs in red, dark orange, tan and pearl gold forming a warm metallic section of the Iron Man mosaic.
 0 Name: 31199 - Pattern - Step 3.ldr
@@ -1922,6 +1928,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - Pattern - Steps 4 to 6.ldr
 0 Container submodel grouping mosaic pattern panels for steps 4 through 6.
 0 Name: 31199 - Pattern - Steps 4 to 6.ldr
@@ -1938,6 +1945,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - Pattern - Step 4.ldr
 0 A 16x16 technic base panel dominated by dark blue and black round 1x1 studs with two red accent studs forming a dark section of the mosaic.
 0 Name: 31199 - Pattern - Step 4.ldr
@@ -2469,6 +2477,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - Pattern - Step 5.ldr
 0 A 16x16 technic base panel heavily featuring pearl gold round 1x1 studs with tan, medium nougat and white tones forming a golden metallic section of the mosaic.
 0 Name: 31199 - Pattern - Step 5.ldr
@@ -3006,6 +3015,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - Pattern - Step 6.ldr
 0 A 16x16 technic base panel of round 1x1 studs in dark orange, pearl gold, medium nougat and dark blue forming a mixed warm and metallic section of the mosaic.
 0 Name: 31199 - Pattern - Step 6.ldr
@@ -3543,6 +3553,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - Pattern - Steps 7 to 9.ldr
 0 Container submodel grouping the final three mosaic pattern panels (steps 7 through 9).
 0 Name: 31199 - Pattern - Steps 7 to 9.ldr
@@ -3559,6 +3570,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - Pattern - Step 7.ldr
 0 A 16x16 technic base panel of round 1x1 studs in dark brown, black, dark red and reddish brown forming a dark shadowed section of the Iron Man mosaic.
 0 Name: 31199 - Pattern - Step 7.ldr
@@ -4084,6 +4096,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - Pattern - Step 8.ldr
 0 A 16x16 technic base panel dominated by dark brown, black, dark red and reddish brown round 1x1 studs forming a deep-toned section of the mosaic.
 0 Name: 31199 - Pattern - Step 8.ldr
@@ -4615,6 +4628,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - Pattern - Step 9.ldr
 0 A 16x16 technic base panel of round 1x1 studs in dark red, reddish brown, black and dark orange forming a warm dark section of the Iron Man mosaic.
 0 Name: 31199 - Pattern - Step 9.ldr
@@ -5146,6 +5160,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - Frame - Step 4.ldr
 0 A small black structural corner reinforcement assembly using a 3x3 plate, a 2x2 corner brick and two 1x1 bricks.
 0 Name: 31199 - Frame - Step 4.ldr
@@ -5173,6 +5188,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - 65803s03.dat
 0 A geometric subpart built from primitive cylinders, discs, rings and peg-hole shapes defining curved and jointed surfaces of a custom part.
 0 Name: 31199 - 65803s03.dat
@@ -5245,6 +5261,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - 65803s02.dat
 0 A geometric subpart composed of various box-with-faces primitives and small ring and cylinder segments defining the angular body of a custom part.
 0 Name: 31199 - 65803s02.dat
@@ -5354,6 +5371,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - 65803s01.dat
 0 A small geometric subpart made of rectangles and box-with-faces primitives defining a portion of a custom part's shell.
 0 Name: 31199 - 65803s01.dat
@@ -5406,6 +5424,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - 65803.dat
 0 A minimal geometric subpart consisting of two full boxes and one rectangle forming the core solid body of a custom part.
 0 Name: 31199 - 65803.dat
@@ -5459,6 +5478,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - 67139s01.dat
 0 A geometric subpart built from discs, circles, cylinders, sloped cylinders and technic connector holes defining the rounded and peg-hole features of a custom technic part.
 0 Name: 31199 - 67139s01.dat
@@ -5578,6 +5598,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - 67139.dat
 0 A geometric custom part definition assembled from circles, cylinders, rings, sloped cylinders and technic connector holes forming a rounded technic connector element.
 0 Name: 31199 - 67139.dat

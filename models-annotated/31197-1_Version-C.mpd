@@ -7,6 +7,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 31197 - Marilyn.ldr
 
 
+0 STEP
 0 FILE 31197 - A1.ldr
 0 A 16x16-stud mosaic panel depicting a colorful pixel-art section of round groove tiles in azure, bright pink, black, and dark pink on a Technic brick base.
 0 Name: 31197 - A1.ldr
@@ -536,6 +537,7 @@
 1 72 150 -8 30 1 0 0 0 1 0 0 0 1 98138.dat
 
 
+0 STEP
 0 FILE 31197 - B1.ldr
 0 A 16x16-stud mosaic panel dominated by bright pink and dark pink round tiles forming a pixel-art section on a Technic brick base.
 0 Name: 31197 - B1.ldr
@@ -1071,6 +1073,7 @@
 1 0 150 -8 30 1 0 0 0 1 0 0 0 1 98138.dat
 
 
+0 STEP
 0 FILE 31197 - C1.ldr
 0 A 16x16-stud mosaic panel of bright pink, azure, and black round tiles forming a pixel-art section on a Technic brick base.
 0 Name: 31197 - C1.ldr
@@ -1606,6 +1609,7 @@
 1 322 150 -8 30 1 0 0 0 1 0 0 0 1 98138.dat
 
 
+0 STEP
 0 FILE 31197 - Row 1.ldr
 0 The top row of the mosaic, joining panels A1, B1, and C1 side by side.
 0 Name: 31197 - Row 1.ldr
@@ -1618,6 +1622,7 @@
 1 0 320 0 0 1 0 0 0 1 0 0 0 1 31197 - C1.ldr
 
 
+0 STEP
 0 FILE 31197 - A2.ldr
 0 A 16x16-stud mosaic panel of black, dark pink, azure, and bright pink round tiles forming a pixel-art section on a Technic brick base.
 0 Name: 31197 - A2.ldr
@@ -2147,6 +2152,7 @@
 1 72 150 -8 30 1 0 0 0 1 0 0 0 1 98138.dat
 
 
+0 STEP
 0 FILE 31197 - B2.ldr
 0 A 16x16-stud mosaic panel predominantly of dark pink round tiles forming a pixel-art section on a Technic brick base.
 0 Name: 31197 - B2.ldr
@@ -2682,6 +2688,7 @@
 1 0 150 -8 30 1 0 0 0 1 0 0 0 1 98138.dat
 
 
+0 STEP
 0 FILE 31197 - C2.ldr
 0 A 16x16-stud mosaic panel of black and bright pink round tiles forming a pixel-art section on a Technic brick base.
 0 Name: 31197 - C2.ldr
@@ -3217,6 +3224,7 @@
 1 72 150 -8 30 1 0 0 0 1 0 0 0 1 98138.dat
 
 
+0 STEP
 0 FILE 31197 - Marilyn.ldr
 0 A black-brick frame structure built from long beams, plates, and corner pieces with red and white accents designed to hold the mosaic panels.
 0 Name: 31197 - Marilyn.ldr
@@ -3483,6 +3491,7 @@
 1 0 -320 18 430 -1 0 0 0 -1 0 0 0 1 31197 - Bracket.ldr
 
 
+0 STEP
 0 FILE 31197 - Row 2.ldr
 0 The middle row of the mosaic, joining panels A2, B2, and C2 side by side.
 0 Name: 31197 - Row 2.ldr
@@ -3494,6 +3503,7 @@
 1 0 320 0 0 1 0 0 0 1 0 0 0 1 31197 - C2.ldr
 
 
+0 STEP
 0 FILE 31197 - A3.ldr
 0 A 16x16-stud mosaic panel of azure, black, and dark pink round tiles with yellow accents forming a pixel-art section on a Technic brick base.
 0 Name: 31197 - A3.ldr
@@ -4017,6 +4027,7 @@
 1 0 150 -8 30 1 0 0 0 1 0 0 0 1 98138.dat
 
 
+0 STEP
 0 FILE 31197 - B3.ldr
 0 A 16x16-stud mosaic panel of dark pink and black round tiles with yellow accents forming a pixel-art section on a Technic brick base.
 0 Name: 31197 - B3.ldr
@@ -4546,6 +4557,7 @@
 1 0 150 -8 30 1 0 0 0 1 0 0 0 1 98138.dat
 
 
+0 STEP
 0 FILE 31197 - C3.ldr
 0 A 16x16-stud mosaic panel of black, azure, and yellow round tiles forming a pixel-art section on a Technic brick base.
 0 Name: 31197 - C3.ldr
@@ -5060,6 +5072,7 @@
 1 0 110 -8 -120 1 0 0 0 1 0 0 0 1 31197 - C3 Signature.ldr
 
 
+0 STEP
 0 FILE 31197 - C3 Signature.ldr
 0 A signature plate assembly featuring an Andy Warhol signature-printed 2x4 tile mounted on a black base plate.
 0 Name: 31197 - C3 Signature.ldr
@@ -5072,6 +5085,7 @@
 1 0 -10 -8 0 1 0 0 0 1 0 0 0 1 87079pt4.dat
 
 
+0 STEP
 0 FILE 31197 - Row 3.ldr
 0 The bottom row of the mosaic, joining panels A3, B3, and C3 side by side.
 0 Name: 31197 - Row 3.ldr
@@ -5083,6 +5097,7 @@
 1 5 320 0 0 1 0 0 0 1 0 0 0 1 31197 - C3.ldr
 
 
+0 STEP
 0 FILE 31197 - Corner.ldr
 0 A black corner connector built from a 2x2 corner brick, a 3x3 plate, and two 1x1 bricks for structural reinforcement.
 0 Name: 31197 - Corner.ldr
@@ -5100,6 +5115,7 @@
 1 0 -20 -24 -20 0 0 1 0 1 0 -1 0 0 3005.dat
 
 
+0 STEP
 0 FILE 31197 - Bracket.ldr
 0 A mounting bracket made of a 3x5 Technic connector block with two friction pins for attaching the mosaic to a surface.
 0 Name: 31197 - Bracket.ldr
@@ -5114,6 +5130,7 @@
 1 0 -40 0 30 0 0 1 0 -1 0 1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 31197 - 65803.dat
 0 Primitive bounding geometry of boxes and rectangles defining the solid body of the 16x16 Technic mosaic base brick.
 0 Name: 31197 - 65803.dat
@@ -5161,6 +5178,7 @@
 1 16 -130 0 -150 1 0 0 0 1 0 0 0 1 stud.dat
 
 
+0 STEP
 0 FILE 31197 - 67139.dat
 0 Primitive geometry assembly defining the body, pinholes, and cutout of the 3x5 Technic connector block.
 0 Name: 31197 - 67139.dat
@@ -5298,6 +5316,7 @@
 1 16 0 0 12 9 0 0 0 0 -6.36 0 1 0 rect2p.dat
 
 
+0 STEP
 0 FILE s\31197 - 65803s01.dat
 0 Quarter-section subpart of the 16x16 Technic brick composed of box and cylinder primitives with pinhole edge details.
 0 Name: s\31197 - 65803s01.dat
@@ -5365,6 +5384,7 @@
 1 16 50 8 50 0 0 -1 0 -1 0 -1 0 0 1-4rin10.dat
 
 
+0 STEP
 0 FILE s\31197 - 65803s03.dat
 0 Pinhole detail subpart of the 16x16 Technic brick built from cylinder, peg hole, and disc primitives.
 0 Name: s\31197 - 65803s03.dat
@@ -5427,6 +5447,7 @@
 1 16 0 16 -8 6 0 0 0 0 -2 0 1 0 rect3.dat
 
 
+0 STEP
 0 FILE s\31197 - 65803s02.dat
 0 Eighth-section corner subpart of the 16x16 Technic brick composed entirely of box primitives.
 0 Name: s\31197 - 65803s02.dat
@@ -5517,6 +5538,7 @@
 1 16 95 4 40 -45 0 0 0 4 0 0 0 1 box3u5p.dat
 
 
+0 STEP
 0 FILE s\31197 - 67139s01.dat
 0 Outer pin-hole quarter subpart of the Technic connector block built from disc, circle, and cylinder primitives.
 0 Name: s\31197 - 67139s01.dat
@@ -5631,6 +5653,7 @@
 3 16 -31 9 0 -9 9 9 -9 9 0
 
 
+0 STEP
 0 FILE s\31197 - 67139s02.dat
 0 Centre cutout quarter subpart of the Technic connector block composed of disc, ring, and rectangle primitives.
 0 Name: s\31197 - 67139s02.dat

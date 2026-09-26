@@ -18,6 +18,7 @@
 1 16 -150 16 -300 -0.70711 0 -0.70711 0 1 0 0.70711 0 -0.70711 9470 - Sam.ldr
 
 
+0 STEP
 0 FILE 9470 - lair.ldr
 0 A dark grey rocky cliffside structure built from slopes, plates, and panels with dark green Bionicle spines forming a cave-like creature lair.
 0 Name: 9470 - lair.ldr
@@ -85,6 +86,7 @@
 1  288 -27 -112 -23 -1 0 0 0 -1 0 0 0 1 55236.dat
 
 
+0 STEP
 0 FILE 9470 - Shelob.ldr
 0 A large articulated giant spider figure with segmented hinged body, reddish-brown and dark-tan plates, and poseable legs and fangs.
 0 Name: 9470 - Shelob.ldr
@@ -467,6 +469,7 @@
 0 // Hook with Towball (dark_red)
 1 320 1 -192.1549 244.6565 0 0 1 0.8660251 -0.4999998 0 0.4999999 0.8660249 0 30395.dat
 
+0 STEP
 0 FILE 9470 - Gollum.ldr
 0 A wiry Gollum minifigure with wide-eyed open-mouthed head and bent clip-armed limbs.
 0 Name: 9470 - Gollum.ldr
@@ -481,6 +484,7 @@
 0 // Minifig Arm Wiry Bent with Clip (main_colour)
 1 16 -14 -38.5 -6.75 1 0 0 0 1 0 0 0 1 10058.dat
 
+0 STEP
 0 FILE 9470 - Frodo.ldr
 0 A Frodo Baggins minifigure in a dark brown jacket and dark red vest, wielding Sting and wearing the One Ring and a short cape.
 0 Name: 9470 - Frodo.ldr
@@ -512,6 +516,7 @@
 1 72 0 -73.27 0 1 0 0 0 1 0 0 0 1 99464c01.dat
 
 
+0 STEP
 0 FILE 9470 - Sam.ldr
 0 A Samwise Gamgee minifigure in a tan shirt with belt and bag, holding Sting and a faceted gem, wearing a short cape.
 0 Name: 9470 - Sam.ldr

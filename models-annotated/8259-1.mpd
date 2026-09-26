@@ -194,6 +194,7 @@
 1 14 40 10 -198 -1 0 0 0 0 1 0 1 0 8259 - Blade-2.ldr
 
 
+0 STEP
 0 FILE 8259 - subModel-1.ldr
 0 Yellow liftarm assembly with a long blue pin and half-bushes built around a short axle.
 0 Name: 8259 - subModel-1.ldr
@@ -219,6 +220,7 @@
 1 14 35 -20 20 0 0 -1 -1 0 0 0 1 0 32123b.dat
 
 
+0 STEP
 0 FILE 8259 - technicChainTread17Closed-1.ldr
 0 Closed Technic chain tread assembly defined by a path of 26 segments with static skin coloring.
 0 Name: 8259 - technicChainTread17Closed-1.ldr
@@ -253,6 +255,7 @@
 
 
 
+0 STEP
 0 FILE 8259 - technicChainTread17Closed-1_subPart1.ldr
 0 Subpart containing 26 Technic chain tread links forming the continuous track surface.
 0 Name: 8259 - technicChainTread17Closed-1_subPart1.ldr
@@ -324,6 +327,7 @@
 1 16 -146.669475 0.07651 0 0 0.928806 0.370567 0 -0.370567 0.928806 1 0 0 3873.dat
 
 
+0 STEP
 0 FILE 8259 - Blade-1.ldr
 0 Angled yellow Technic blade arm built from a half-beam, angle connectors, cross blocks, and a long black axle.
 0 Name: 8259 - Blade-1.ldr
@@ -384,6 +388,7 @@
 1 1 85 -40 -70 0 0 1 0 1 0 -1 0 0 4274.dat
 
 
+0 STEP
 0 FILE 8259 - Blade-2.ldr
 0 Yellow-paneled bulldozer blade made from dark bluish grey plates joined with rounded and square corner panels.
 0 Name: 8259 - Blade-2.ldr

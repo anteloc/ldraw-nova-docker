@@ -20,6 +20,7 @@
 1 7 560 -64 -370 0 0 1 0 1 0 -1 0 0 6541 - minifig 2.ldr
 1 7 -110 -40 -139.997 0 0 1 0 1 0 -1 0 0 6541 - minifig 3.ldr
 0 NOFILE
+0 STEP
 0 FILE 6541 - wharf.ldr
 0 A grey wharf structure built from large platform plates and ramp sections, supported by black brick pillars with red hazard-striped warning tiles.
 
@@ -156,6 +157,7 @@
 0 // ~Tile  2 x  2 Round with Lifepreserver Sticker (Shortcut) (Obsolete) (white)
 1 15 -282 -138 -310 0 -1 0 0 0 -1 1 0 0 4150c07.dat
 0 NOFILE
+0 STEP
 0 FILE 6541 - lamp.ldr
 0 A striped red-and-white lamppost topped with a yellow light fixture.
 
@@ -193,6 +195,7 @@
 0 // Dish  2 x  2 Inverted (white)
 1 15 0 -224 0 0 0 -1 0 1 0 1 0 0 4740.dat
 0 NOFILE
+0 STEP
 0 FILE 6541 - barrier.ldr
 0 A red-and-white railway-style signal mast barrier with transparent red warning lights.
 
@@ -228,6 +231,7 @@
 0 // Plate  1 x  1 Round (trans_red)
 1 36 624 -86 -98 0 -1 0 0 0 -1 1 0 0 6141.dat
 0 NOFILE
+0 STEP
 0 FILE 6541 - bumper.ldr
 0 A black bumper guard made from headlight bricks and dark grey tiles.
 
@@ -264,6 +268,7 @@
 0 // Tile  1 x  8 (dark_grey)
 1 8 0 -37 -14 1 0 0 0 0 -1 0 1 0 4162.dat
 0 NOFILE
+0 STEP
 0 FILE 6541 - crane.ldr
 0 A turntable-mounted crane base assembly on curved support stands.
 
@@ -296,6 +301,7 @@
 0 STEP
 1 16 0 -56 0 1 0 0 0 1 0 0 0 1 6541 - crane - top.ldr
 0 NOFILE
+0 STEP
 0 FILE 6541 - crane - top.ldr
 0 The red crane superstructure featuring a driver's seat, hose reel, hook, technic axles, and lifting mechanism.
 
@@ -502,6 +508,7 @@
 0 // Crane Harbour Derrick 10 (Top Part) (light_grey)
 1 7 -293.22 -651.294 0 0 0 1 0 1 0 -1 0 0 2638.dat
 0 NOFILE
+0 STEP
 0 FILE 6541 - ship.ldr
 0 A large red cargo boat with bow plate, hull bricks, white deckhouse structure, and a lifting-ring cargo hatch.
 
@@ -912,6 +919,7 @@
 0 // Plate  1 x  2 without Groove with 1 Centre Stud (light_grey)
 1 7 -100 -324 342 -1 0 0 0 0 -1 0 -1 0 3794a.dat
 0 NOFILE
+0 STEP
 0 FILE 6541 - truck.ldr
 0 A red cab truck with steering wheel, wheels, headlights, and a chassis base.
 
@@ -1010,6 +1018,7 @@
 0 // Plate  1 x  2 with Handles Type 1 (light_grey)
 1 7 -50 8 0 0 0 -1 0 1 0 1 0 0 3839a.dat
 0 NOFILE
+0 STEP
 0 FILE 6541 - trailer.ldr
 0 A wheeled trailer platform with towball hitch, flat loading tiles, and red tail lights.
 
@@ -1097,6 +1106,7 @@
 0 // Tyre  8/ 75 x  8 Offset Tread (black)
 1 0 232 -3 31 -1 0 0 0 1 0 0 0 -1 4084.dat
 0 NOFILE
+0 STEP
 0 FILE 6541 - container 1.ldr
 0 A blue rolling container trolley with white wheel rims and yellow reflector lights.
 
@@ -1155,6 +1165,7 @@
 0 // Minifig Seat  2 x  2 (white)
 1 15 20.002 -64.002 -0.001 0 0 1 0 -1 0 1 0 0 4079.dat
 0 NOFILE
+0 STEP
 0 FILE 6541 - container 2.ldr
 0 A red motorcycle with clear wheels and red taillight.
 
@@ -1183,6 +1194,7 @@
 0 // Wheel Centre with Stub Axles (trans_clear)
 1 47 25.001 -32 0 0 0 1 0 1 0 -1 0 0 3464.dat
 0 NOFILE
+0 STEP
 0 FILE 6541 - frame container 1.ldr
 0 A framed shipping container with corner plates, side panels, and a lifting ring.
 
@@ -1224,6 +1236,7 @@
 0 // Tile  2 x  2 Round with Lifting Ring (red)
 1 4 -0.001 -112 0 0 0 1 0 1 0 -1 0 0 2376.dat
 0 NOFILE
+0 STEP
 0 FILE 6541 - frame container 2.ldr
 0 A grey framed shipping container with side panels, handles, and groove details.
 
@@ -1273,6 +1286,7 @@
 0 // Tile  1 x  4 with Groove (light_grey)
 1 7 0 -16 -10 1 0 0 0 1 0 0 0 1 2431.dat
 0 NOFILE
+0 STEP
 0 FILE 6541 - minifig 1.ldr
 0 A harbor officer minifigure wearing a police hat and a black suit torso with anchor pattern.
 
@@ -1306,6 +1320,7 @@
 0 // ~Minifig Leg Right (Obsolete) (black)
 1 0 0 -28 0 1 0 0 0 1 0 0 0 1 3816.dat
 0 NOFILE
+0 STEP
 0 FILE 6541 - minifig 2.ldr
 0 A dockworker minifigure wearing a white construction helmet and a yellow lifevest.
 
@@ -1341,6 +1356,7 @@
 0 // Minifig Lifevest (yellow)
 1 14 0 -72 0 1 0 0 0 1 0 0 0 1 2610.dat
 0 NOFILE
+0 STEP
 0 FILE 6541 - minifig 3.ldr
 0 A construction worker minifigure wearing a red helmet and black dungarees.
 
@@ -1374,6 +1390,7 @@
 0 // ~Minifig Leg Right (Obsolete) (black)
 1 0 0 -28 0 1 0 0 0 1 0 0 0 1 3816.dat
 0 NOFILE
+0 STEP
 0 FILE 6541 - minifig 4.ldr
 0 A worker minifigure wearing a red cap and blue dungarees.
 
@@ -1407,6 +1424,7 @@
 0 // ~Minifig Leg Right (Obsolete) (blue)
 1 1 0 -28 0 1 0 0 0 1 0 0 0 1 3816.dat
 0 NOFILE
+0 STEP
 0 FILE 6541 - minifig 5.ldr
 0 A worker minifigure with black hair wearing red dungarees.
 
@@ -1440,6 +1458,7 @@
 0 // ~Minifig Leg Right (Obsolete) (red)
 1 4 0 -28 0 1 0 0 0 1 0 0 0 1 3816.dat
 0 NOFILE
+0 STEP
 0 FILE 6541 - 4480c01.dat
 0 A complete two-wheel motorcycle frame subassembly combining left, right, and fork parts.
 
@@ -1459,6 +1478,7 @@
 0 // ~Bike  2 Wheel Motorcycle Forks  3 x  6 x  3 (main_colour)
 1 16 0 30 -90 1 0 0 0 0.924 0.383 0 -0.383 0.924 4482.dat
 0 NOFILE
+0 STEP
 0 FILE 6541 - 4481.dat
 0 A 3D stud logo component composed of primitive geometric shapes and a LEGO logo patch.
 
@@ -1531,6 +1551,7 @@
 0 // LEGO Logo for Studs - 3D Flattened (main_colour)
 1 16 11 0 -62 0 -1 0 1 0 0 0 0 1 6541 - logo5.dat
 0 NOFILE
+0 STEP
 0 FILE 6541 - 4480.dat
 0 A motorcycle frame primitive mesh made of geometric shapes forming the body, rear, and connecting sections.
 
@@ -1704,6 +1725,7 @@
 0 // LEGO Logo for Studs - 3D Flattened (main_colour)
 1 16 -11 0 -62 0 1 0 1 0 0 0 0 -1 6541 - logo5.dat
 0 NOFILE
+0 STEP
 0 FILE 6541 - 4481s01.dat
 0 A geometric sub-part of a stud logo built from rectangles, circles, cylinders, and discs.
 
@@ -2687,6 +2709,7 @@
 5 24 10.531 19.745 -66.111 9 19.862 -66.392 12.017 35.049 -58.398 9 18.331 -66.697
 5 24 7.4 19.862 -63.392 0 19.862 -63.392 0 6.432 -70.213 7.4 34.01 -55.85
 0 NOFILE
+0 STEP
 0 FILE 6541 - logo5.dat
 0 A logo placeholder reference with no direct pieces.
 

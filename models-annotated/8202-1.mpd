@@ -149,6 +149,7 @@
 1 14 -80 4.431 19.503 0 0 1 -0.222 0.975 0 -0.975 -0.222 0 2994.dat
 1 511 3 -31 67 1 0 0 0 0.975 0.222 0 -0.222 0.975 8202 - rubber_string.ldr
 
+0 STEP
 0 FILE 8202 - clutch.ldr
 0 A Technic clutch mechanism built from angle connectors, axles, and a 16-tooth gear.
 0 Name: 8202 - clutch.ldr
@@ -175,6 +176,7 @@
 0 // Technic Gear 16 Tooth (light_grey)
 1 7 20 -40 60 0 0 -1 -0.195 0.981 0 0.981 0.195 0 4019.dat
 
+0 STEP
 0 FILE 8202 - rubber_string.ldr
 0 A flexible segmented bungee cord rope composed of 265 connected cylinder segments.
 0 Name: 8202 - rubber_string.ldr
@@ -744,6 +746,7 @@
 0 // Cylinder 1.0 (main_colour)
 1 16 -5.971698 -0.995044 2.502591 1.498998 -0.146222 0.001331 -0.049753 -3.668112 -0.597233 0.023045 1.591977 -1.375976 4-4cyli.dat
 
+0 STEP
 0 FILE 8202 - 57719.dat
 0 A 7-stud-long Technic ribbed hose with end caps.
 0 Name: 8202 - 57719.dat

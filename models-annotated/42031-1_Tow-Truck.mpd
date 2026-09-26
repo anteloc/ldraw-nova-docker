@@ -138,6 +138,7 @@
 0 // Tyre 14/ 25 x 17 Shallow Staggered Treads (black)
 1 0 -50 20 100 0 0 -1 0 1 0 1 0 0 30648.dat
 
+0 STEP
 0 FILE 42031 - Crane.ldr
 0 Yellow and grey lifting boom assembly made from long liftarms connected by pins and an axle.
 0 Name: 42031 - Crane.ldr
@@ -163,6 +164,7 @@
 1 71 25 0 20 0 1 0 -1 0 0 0 0 1 11478.dat
 1 14 0 -16.961 -109.402 1 0 0 0 -0.53 0.848 0 -0.848 -0.53 42031 - Hook.ldr
 
+0 STEP
 0 FILE 42031 - Front Bumper.ldr
 0 Angled front bumper constructed from cross blocks, angle connectors, bent liftarm, and clear round plates for lights.
 0 Name: 42031 - Front Bumper.ldr
@@ -199,6 +201,7 @@
 0 // Plate  1 x  1 Round (trans_clear)
 1 47 20 -40 -30 -1 0 0 0 0 -1 0 -1 0 6141.dat
 
+0 STEP
 0 FILE 42031 - Lifting Mechanism.ldr
 0 Worm gear-driven winch mechanism with 24-tooth and 12-tooth gears mounted on bent liftarms and axles for raising and lowering loads.
 0 Name: 42031 - Lifting Mechanism.ldr
@@ -257,6 +260,7 @@
 0 // Technic Gear 12 Tooth Double Bevel (black)
 1 0 0 -110 -20 -1 0 0 0 0 -1 0 -1 0 32270.dat
 
+0 STEP
 0 FILE 42031 - Rear Bumper.ldr
 0 Rear bumper with split cross blocks, bushes, pins, and red and orange translucent round plates as taillights.
 0 Name: 42031 - Rear Bumper.ldr
@@ -291,6 +295,7 @@
 0 // Plate  1 x  1 Round (trans_orange)
 1 57 50 -20 -18 -1 0 0 0 0 1 0 1 0 6141.dat
 
+0 STEP
 0 FILE 42031 - Hook.ldr
 0 Small towing hook made from a connector, cross block, and short axle with a 90-degree hub joint.
 0 Name: 42031 - Hook.ldr

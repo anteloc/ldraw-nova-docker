@@ -9,6 +9,7 @@
 1 71 80 -20 -19 1 0 0 0 1 0 0 0 1 30313 - Garbage Collector.ldr
 
 
+0 STEP
 0 FILE 30313 - Truck.ldr
 0 A white and lime truck cab built on a black car base with slope panels, a minifig seat, grille tile, and round yellow accent tiles.
 0 Name: 30313 - Truck.ldr
@@ -94,6 +95,7 @@
 1 71 -30 5 50 -1 0 0 0 1 0 0 0 -1 30313 - Wheel.ldr
 
 
+0 STEP
 0 FILE 30313 - Garbage Collector.ldr
 0 A blue-capped minifigure with a blue torso, yellow head, and yellow hands representing a garbage collector worker.
 0 Name: 30313 - Garbage Collector.ldr
@@ -123,6 +125,7 @@
 1 1 0 -56 0 1 0 0 0 1 0 0 0 1 11303.dat
 
 
+0 STEP
 0 FILE 30313 - Wheel.ldr
 0 A single black rubber tyre mounted on a light bluish grey wheel rim.
 0 Name: 30313 - Wheel.ldr
@@ -136,6 +139,7 @@
 1 0 0 0 0 0 0 -1 0 1 0 1 0 0 87414.dat
 
 
+0 STEP
 0 FILE 15672.dat
 0 A 45-degree slope plate part composed of primitive boxes and rectangles forming an angled top surface.
 0 Name: 15672.dat

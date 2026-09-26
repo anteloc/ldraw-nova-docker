@@ -12,6 +12,7 @@
 1 0 122.062 -24 208.072 -0.382683 0 -0.92388 0 1 0 0.92388 0 -0.382683 6893 - Minifig 2.ldr
 
 
+0 STEP
 0 FILE 6893 - Vehicle.ldr
 0 Small wheeled ground vehicle built from plates, bricks with headlights, and white wheel rims.
 0 Name: 6893 - Vehicle.ldr
@@ -93,6 +94,7 @@
 1 256 -30 5 0 0 0 1 0 1 0 -1 0 0 3641.dat
 
 
+0 STEP
 0 FILE 6893 - Spaceship.ldr
 0 Modular spaceship assembly composed of front, middle, and rear hull sections plus a windscreen, doors, and minifigures.
 0 Name: 6893 - Spaceship.ldr
@@ -107,6 +109,7 @@
 1 0 0 0 260 1 0 0 0 1 0 0 0 1 6893 - Spaceship - Back.ldr
 
 
+0 STEP
 0 FILE 6893 - Spaceship - Front.ldr
 0 Forward hull section built from plates, sloped panels, and jet engines with a grille-patterned nose and cockpit framing.
 0 Name: 6893 - Spaceship - Front.ldr
@@ -189,6 +192,7 @@
 1 0 40 -22 -30 1 0 0 0 0.866025 0.5 0 -0.5 0.866025 6893 - Spaceship - Front - Windscreen.ldr
 1 0 -40 -22 -30 1 0 0 0 0.866025 0.5 0 -0.5 0.866025 6893 - Spaceship - Front - Windscreen.ldr
 
+0 STEP
 0 FILE 6893 - Spaceship - Front - Windscreen.ldr
 0 Hinged trans-dark-blue canopy windscreen for the cockpit front.
 0 Name: 6893 - Spaceship - Front - Windscreen.ldr
@@ -204,6 +208,7 @@
 1 33 0 -58 0 -1 0 0 0 1 0 0 0 -1 4864a.dat
 
 
+0 STEP
 0 FILE 6893 - Spaceship - Front + Minifig.ldr
 0 Front hull section combined with a seated minifigure pilot assembly.
 0 Name: 6893 - Spaceship - Front + Minifig.ldr
@@ -217,6 +222,7 @@
 1 0 -40 -77 48 1 0 0 0 1 0 0 0 1 6893 - Minifig 1.ldr
 
 
+0 STEP
 0 FILE 6893 - Spaceship - Middle.ldr
 0 Central fuselage section featuring plates, jet engines, brackets, hinged control sticks, and trans-dark-blue dishes.
 0 Name: 6893 - Spaceship - Middle.ldr
@@ -288,6 +294,7 @@
 1 36 -30 -58 -30 -1 0 0 0 0 1 0 1 0 3070b.dat
 
 
+0 STEP
 0 FILE 6893 - Spaceship - Back.ldr
 0 Rear hull section with a large base plate, positioning rockets, jet engines, hinged window frames, and trans-light elements.
 0 Name: 6893 - Spaceship - Back.ldr
@@ -385,6 +392,7 @@
 0 // Plate  2 x  6 (white)
 1 15 0 -112 0 1 0 0 0 1 0 0 0 1 3795.dat
 
+0 STEP
 0 FILE 6893 - Spaceship - Back - Door.ldr
 0 Hinged rear access door panel with arrow-patterned detailing and a handle.
 0 Name: 6893 - Spaceship - Back - Door.ldr
@@ -408,6 +416,7 @@
 1 15 -40 -20 60 1 0 0 0 1 0 0 0 1 3069bp06.dat
 
 
+0 STEP
 0 FILE 6893 - Minifig 1.ldr
 0 Blue Futuron minifigure with airtanks, a smile head, and a screwdriver tool.
 0 Name: 6893 - Minifig 1.ldr
@@ -440,6 +449,7 @@
 1 1 0 44 0 1 0 0 0 0 1 0 -1 0 3817.dat
 
 
+0 STEP
 0 FILE 6893 - Minifig 1 - Helmet.ldr
 0 Blue space helmet with a trans-dark-blue visor.
 0 Name: 6893 - Minifig 1 - Helmet.ldr
@@ -455,6 +465,7 @@
 1 33 0 1.904 4.596 1 0 0 0 0.707107 0.707107 0 -0.707107 0.707107 2447.dat
 
 
+0 STEP
 0 FILE 6893 - Minifig 2.ldr
 0 Yellow Futuron minifigure with airtanks, a smile head, and a spanner/screwdriver tool.
 0 Name: 6893 - Minifig 2.ldr
@@ -489,6 +500,7 @@
 1 14 0 44 0 1 0 0 0 1 0 0 0 1 3817.dat
 
 
+0 STEP
 0 FILE 6893 - Minifig 2 - Helmet.ldr
 0 Yellow space helmet with a trans-dark-blue visor.
 0 Name: 6893 - Minifig 2 - Helmet.ldr

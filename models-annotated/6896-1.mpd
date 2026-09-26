@@ -10,6 +10,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 6896 - Vehicle.ldr
 
 
+0 STEP
 0 FILE 6896 - Vehicle.ldr
 0 A complete red and black MTron vehicle assembled from front and back sections with a turntable and crane.
 0 Name: 6896 - Vehicle.ldr
@@ -24,6 +25,7 @@
 1 0 18.433 -80 35.5 0.887494 0 0.460819 0 1 0 -0.460819 0 0.887494 6896 - Vehicle - Turn Table 1.ldr
 1 0 27.649 -72 53.25 0.923879 0 -0.382684 0 1 0 0.382684 0 0.923879 6896 - Vehicle - Turn Table 2.ldr
 
+0 STEP
 0 FILE 6896 - Vehicle - Front.ldr
 0 The front cab of the vehicle, built with black plates and red slopes featuring the MTron logo, a computer display tile, and an articulated female hinge joint for connection.
 0 Name: 6896 - Vehicle - Front.ldr
@@ -86,6 +88,7 @@
 
 
 
+0 STEP
 0 FILE 6896 - Vehicle - Front + Minifig.ldr
 0 The front cab assembly combined with the driver minifig.
 0 Name: 6896 - Vehicle - Front + Minifig.ldr
@@ -100,6 +103,7 @@
 
 
 
+0 STEP
 0 FILE 6896 - Vehicle - Back.ldr
 0 The rear section of the vehicle featuring two black treaded wheels, red plates, a male articulated hinge joint, an antenna, and a Technic brick with pins for attachment.
 0 Name: 6896 - Vehicle - Back.ldr
@@ -183,6 +187,7 @@
 0 // Dish  2 x  2 Inverted (trans_neon_green)
 1 42 72 -100 60 0 0 1 0 -1 0 1 0 0 4740.dat
 
+0 STEP
 0 FILE 6896 - Vehicle - Back - Axle.ldr
 0 A Technic axle with a half bushing used to mount the rear wheels.
 0 Name: 6896 - Vehicle - Back - Axle.ldr
@@ -198,6 +203,7 @@
 1 7 -35 0 0 0 0 1 0 1 0 -1 0 0 4265a.dat
 
 
+0 STEP
 0 FILE 6896 - Vehicle - Back + Crane.ldr
 0 The rear vehicle section combined with the turntable and crane assembly.
 0 Name: 6896 - Vehicle - Back + Crane.ldr
@@ -212,6 +218,7 @@
 
 
 
+0 STEP
 0 FILE 6896 - Vehicle - Turn Table 1.ldr
 0 A rotating turntable assembly built from a red 2x6 plate with two grey turntable tops, a round brick, and a large inverted webbed dish.
 0 Name: 6896 - Vehicle - Turn Table 1.ldr
@@ -234,6 +241,7 @@
 0 // Brick  2 x  2 Round without Reinforcement (light_grey)
 1 7 0 -40 -20 0 0 1 0 1 0 -1 0 0 3941.dat
 
+0 STEP
 0 FILE 6896 - Vehicle - Turn Table 2.ldr
 0 A turntable base plate with a holed 2x2 plate used as a mounting interface.
 0 Name: 6896 - Vehicle - Turn Table 2.ldr
@@ -248,6 +256,7 @@
 0 // Plate  2 x  2 with Holes (black)
 1 0 0 8 0 0 0 1 0 1 0 -1 0 0 2817.dat
 
+0 STEP
 0 FILE 6896 - Vehicle - Crane.ldr
 0 A magnet-equipped crane assembly featuring an inclined stanchion, a digger bucket hinge, and two magnet holders with cylindrical magnets for grabbing cargo.
 0 Name: 6896 - Vehicle - Crane.ldr
@@ -277,6 +286,7 @@
 
 
 
+0 STEP
 0 FILE 6896 - Vehicle - Box.ldr
 0 A red MTron cargo container box with a door slot, transparent neon green accents, and a magnet for crane attachment.
 0 Name: 6896 - Vehicle - Box.ldr
@@ -301,6 +311,7 @@
 
 
 
+0 STEP
 0 FILE 6896 - Minifig.ldr
 0 An MTron astronaut minifig wearing a red torso with logo, black airtanks with radio, and white arms and legs.
 0 Name: 6896 - Minifig.ldr
@@ -335,6 +346,7 @@
 1 0 -22.0484 16.0795 -19.8276 0.992497 -0.117261 0.0177672 0.118506 0.987011 -0.102945 -0.00546977 0.104369 0.994372 3820.dat
 
 
+0 STEP
 0 FILE 6896 - Minifig - Helmet.ldr
 0 A black space helmet with a transparent neon green visor.
 0 Name: 6896 - Minifig - Helmet.ldr

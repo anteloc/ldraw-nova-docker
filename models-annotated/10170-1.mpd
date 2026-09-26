@@ -18,6 +18,7 @@
 
 
 
+0 STEP
 0 FILE 10170 - train car.ldr
 0 Flatbed rail car assembly: deck body with two wheel bogies and magnetic couplings
 0 Name: 10170 - train car.ldr
@@ -34,6 +35,7 @@
 
 
 
+0 STEP
 0 FILE 10170 - train car - subpart.ldr
 0 Train car chassis: long deck plate with side panels, handle tiles, ladders, grille tiles, hollow-stud panels and brackets
 0 Name: 10170 - train car - subpart.ldr
@@ -209,6 +211,7 @@
 
 
 
+0 STEP
 0 FILE 10170 - train car - wheels 1.ldr
 0 Front wheel bogie: magnet, train coupling, buffer beam, bogie plate and single-axle wheelsets
 0 Name: 10170 - train car - wheels 1.ldr
@@ -236,6 +239,7 @@
 
 
 
+0 STEP
 0 FILE 10170 - train car - wheels 2.ldr
 0 Rear wheel bogie: technic axles, single-axle wheelsets, grille bricks and round studs
 0 Name: 10170 - train car - wheels 2.ldr
@@ -291,6 +295,7 @@
 
 
 
+0 STEP
 0 FILE 10170 - container 1.ldr
 0 Long cargo container: corrugated grille walls, brick frame, corner plates and tiled roof/floor
 0 Name: 10170 - container 1.ldr
@@ -418,6 +423,7 @@
 
 
 
+0 STEP
 0 FILE 10170 - container 2.ldr
 0 Cargo container: grille-detailed walls with handles, brick frame and tiled base
 0 Name: 10170 - container 2.ldr
@@ -499,6 +505,7 @@
 
 
 
+0 STEP
 0 FILE 10170 - container 3.ldr
 0 Cargo container: dark grille-detailed walls with handles, brick frame and tiled base
 0 Name: 10170 - container 3.ldr

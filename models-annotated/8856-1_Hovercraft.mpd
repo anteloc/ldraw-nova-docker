@@ -13,6 +13,7 @@
 
 
 
+0 STEP
 0 FILE 8856 - Hovercraft.ldr
 0 Core hovercraft chassis built from long red Technic beams, pins, universal joints, and plates forming the structural frame.
 0 Name: 8856 - Hovercraft.ldr
@@ -354,6 +355,7 @@
 
 
 
+0 STEP
 0 FILE 8856 - PlateWithTechnicBrick.ldr
 0 A small red connector stack joining a 1x2 Technic brick to a 1x4 plate.
 0 Name: 8856 - PlateWithTechnicBrick.ldr
@@ -369,6 +371,7 @@
 
 
 
+0 STEP
 0 FILE 8856 - Front-Axle-Segment.ldr
 0 Front axle assembly with wheels, tyres, bevel gears, a universal joint, and supporting Technic bricks.
 0 Name: 8856 - Front-Axle-Segment.ldr
@@ -428,6 +431,7 @@
 
 
 
+0 STEP
 0 FILE 8856 - 6Land3LPlateStack.ldr
 0 A simple red plate stack combining a 1x6 plate with a 1x3 plate.
 0 Name: 8856 - 6Land3LPlateStack.ldr
@@ -443,6 +447,7 @@
 
 
 
+0 STEP
 0 FILE 8856 - 6Land6LPlateStack.ldr
 0 A stacked pair of red 1x6 plates used as a reinforced plate element.
 0 Name: 8856 - 6Land6LPlateStack.ldr
@@ -458,6 +463,7 @@
 
 
 
+0 STEP
 0 FILE 8856 - 2LTechnicBrickWith2LPlates.ldr
 0 A red 1x4 Technic brick reinforced with two stacked 1x2 plates.
 0 Name: 8856 - 2LTechnicBrickWith2LPlates.ldr
@@ -475,6 +481,7 @@
 
 
 
+0 STEP
 0 FILE 8856 - Front-Drivetrain.ldr
 0 Front drivetrain segment featuring a 24-tooth crown gear on an axle housed in Technic bricks.
 0 Name: 8856 - Front-Drivetrain.ldr
@@ -499,6 +506,7 @@
 
 
 
+0 STEP
 0 FILE 8856 - Seat-Base.ldr
 0 Seat support base built from red Technic bricks and plates joined with pins.
 0 Name: 8856 - Seat-Base.ldr
@@ -536,6 +544,7 @@
 
 
 
+0 STEP
 0 FILE 8856 - Seats.ldr
 0 A pair of blue Technic seats connected by a friction pin.
 0 Name: 8856 - Seats.ldr
@@ -553,6 +562,7 @@
 
 
 
+0 STEP
 0 FILE 8856 - PlateAndBrickConnector.ldr
 0 A light grey connector grouping a 1x2 plate, 2x2 plate, and 1x2 Technic brick.
 0 Name: 8856 - PlateAndBrickConnector.ldr
@@ -570,6 +580,7 @@
 
 
 
+0 STEP
 0 FILE 8856 - LeftSide.ldr
 0 Left side frame of the chassis composed of long red Technic beams linked with pins.
 0 Name: 8856 - LeftSide.ldr
@@ -601,6 +612,7 @@
 
 
 
+0 STEP
 0 FILE 8856 - RightSide.ldr
 0 Right side frame of the chassis mirroring the left with long red Technic beams and pins.
 0 Name: 8856 - RightSide.ldr
@@ -632,6 +644,7 @@
 
 
 
+0 STEP
 0 FILE 8856 - Drivetrain-Module.ldr
 0 Drivetrain support module built from Technic plates with a 24-tooth gear and bushings.
 0 Name: 8856 - Drivetrain-Module.ldr
@@ -675,6 +688,7 @@
 
 
 
+0 STEP
 0 FILE 8856 - Drivetrain-Axle.ldr
 0 A drivetrain axle shaft carrying a 24-tooth gear and a half bush.
 0 Name: 8856 - Drivetrain-Axle.ldr
@@ -692,6 +706,7 @@
 
 
 
+0 STEP
 0 FILE 8856 - Rear-Wheel.ldr
 0 Rear wheel assembly with tyres, rims, a bevel gear, and axle-mounted connectors.
 0 Name: 8856 - Rear-Wheel.ldr
@@ -724,6 +739,7 @@
 
 
 
+0 STEP
 0 FILE 8856 - Inner-Left-Frame.ldr
 0 Inner left frame section combining black plates and red Technic bricks with an axle and bush.
 0 Name: 8856 - Inner-Left-Frame.ldr
@@ -753,6 +769,7 @@
 
 
 
+0 STEP
 0 FILE 8856 - Inner-Right-Frame.ldr
 0 Inner right frame section mirroring the left with black plates, red Technic bricks, an axle, and bush.
 0 Name: 8856 - Inner-Right-Frame.ldr
@@ -782,6 +799,7 @@
 
 
 
+0 STEP
 0 FILE 8856 - 2Stacked-1x2Plates.ldr
 0 A pair of stacked light grey 1x2 plates forming a thin double-thickness plate.
 0 Name: 8856 - 2Stacked-1x2Plates.ldr
@@ -797,6 +815,7 @@
 
 
 
+0 STEP
 0 FILE 8856 - Steering-Mechanism.ldr
 0 Steering mechanism using rotors, an axle, bevel gear, and bushings to transmit steering motion.
 0 Name: 8856 - Steering-Mechanism.ldr
@@ -836,6 +855,7 @@
 
 
 
+0 STEP
 0 FILE 8856 - Steering-Flex-Link.ldr
 0 An empty reference submodel acting as a placeholder for the steering flex cable link.
 0 Name: 8856 - Steering-Flex-Link.ldr
@@ -848,6 +868,7 @@
 
 
 
+0 STEP
 0 FILE 8856 - technicflexSysCable-1.ldr
 0 A short flex-system cable assembly with pin hole connectors and cable ends.
 0 !CATEGORY technic
@@ -899,6 +920,7 @@
 
 
 
+0 STEP
 0 FILE 8856 - technicflexSysCable-1_subPart1.ldr
 0 Generated flex cable segment subpart containing cylinder geometry used to render the cable.
 0 Author: Max Martin Richter [MMR1988]
@@ -1099,6 +1121,7 @@
 5 24 1.8488 -90.499001 -0.7654 2.001 -90.499001 0 1.8488 -91.499001 -0.7654 1.8488 -70.331665 -0.7654
 
 
+0 STEP
 0 FILE 8856 - Rotor-Steering-and-Drivetrain.ldr
 0 Combined module linking the rotor, steering, and drivetrain via gears, axles, a flex hose, and Technic bricks.
 0 Name: 8856 - Rotor-Steering-and-Drivetrain.ldr
@@ -1134,6 +1157,7 @@
 
 
 
+0 STEP
 0 FILE 8856 - technicflexSysCable-2.ldr
 0 A longer flex-system cable with pin hole, ball connectors, and cable ends for steering linkage.
 0 !CATEGORY technic
@@ -1187,6 +1211,7 @@
 
 
 
+0 STEP
 0 FILE 8856 - technicflexSysCable-2_subPart1.ldr
 0 A flexible system cable made of 16 segmented sections forming an approx 104mm flexible hose assembly.
 0 Author: Max Martin Richter [MMR1988]
@@ -2357,6 +2382,7 @@
 5 24 3.1158 -270.487 -0.7654 3.268 -270.487 0 3.150891 -271.486389 -0.7654 2.83412 -262.433197 -0.7654
 
 
+0 STEP
 0 FILE 8856 - Rotor.ldr
 0 A 4-blade helicopter rotor assembly with holder, grooved ball joint, and yellow grooved tiles for counterweight decoration.
 0 Name: 8856 - Rotor.ldr
@@ -2391,6 +2417,7 @@
 
 
 
+0 STEP
 0 FILE 8856 - TechnicPlateWithBricks.ldr
 0 A small structural assembly combining a Technic plate with holes and Technic bricks joined with standard plates.
 0 Name: 8856 - TechnicPlateWithBricks.ldr
@@ -2412,6 +2439,7 @@
 
 
 
+0 STEP
 0 FILE 8856 - Top-Frame-Right.ldr
 0 The right side of the top frame, built from red Technic bricks with holes, plates, wing bricks, and friction pins.
 0 Name: 8856 - Top-Frame-Right.ldr
@@ -2448,6 +2476,7 @@
 
 
 
+0 STEP
 0 FILE 8856 - Top-Frame-Left.ldr
 0 The left side of the top frame, mirroring the right with red Technic bricks, plates, wing bricks, and friction pins.
 0 Name: 8856 - Top-Frame-Left.ldr
@@ -2484,6 +2513,7 @@
 
 
 
+0 STEP
 0 FILE 8856 - Front-Frame.ldr
 0 The front frame section consisting of two long Technic bricks with holes joined by an axle, plate, and bushings.
 0 Name: 8856 - Front-Frame.ldr
@@ -2507,6 +2537,7 @@
 
 
 
+0 STEP
 0 FILE 8856 - TwoTechnicPlates.ldr
 0 A simple pairing of two red Technic plates of different lengths, both with stud holes.
 0 Name: 8856 - TwoTechnicPlates.ldr
@@ -2522,6 +2553,7 @@
 
 
 
+0 STEP
 0 FILE 8856 - Steering-Top.ldr
 0 A steering mechanism top section featuring a 16-tooth gear on an axle mounted between Technic plates and bushings.
 0 Name: 8856 - Steering-Top.ldr
@@ -2549,6 +2581,7 @@
 
 
 
+0 STEP
 0 FILE 8856 - DashboardAndFront.ldr
 0 The dashboard and front bodywork built with red plates, corner brackets, wing element, and Technic bricks with holes.
 0 Name: 8856 - DashboardAndFront.ldr
@@ -2582,6 +2615,7 @@
 
 
 
+0 STEP
 0 FILE 8856 - Dashboard.ldr
 0 A dashboard panel made of a red plate topped with a black plate and grooved tiles for an instrument surface.
 0 Name: 8856 - Dashboard.ldr
@@ -2603,6 +2637,7 @@
 
 
 
+0 STEP
 0 FILE 8856 - LowerFrontPlates.ldr
 0 Lower front bodywork consisting of long red plates forming a smooth lower deck.
 0 Name: 8856 - LowerFrontPlates.ldr
@@ -2620,6 +2655,7 @@
 
 
 
+0 STEP
 0 FILE 8856 - Back-Top.ldr
 0 The rear top section featuring a large sloped cutout brick with angled wing bricks and a supporting Technic plate.
 0 Name: 8856 - Back-Top.ldr
@@ -2642,6 +2678,7 @@
 
 
 
+0 STEP
 0 FILE 8856 - 2900.dat
 0 A Technic Flex-System Pin Hole Connector built from primitive geometric shapes forming a cylindrical peg-hole end fitting.
 0 Name: 8856 - 2900.dat
@@ -2964,6 +3001,7 @@
 
 
 
+0 STEP
 0 FILE 8856 - 2901.dat
 0 A Technic Flex-System Ball Connector constructed from primitive geometric shapes forming a spherical ball socket fitting.
 0 Name: 8856 - 2901.dat

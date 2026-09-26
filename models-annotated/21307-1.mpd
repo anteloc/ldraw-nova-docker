@@ -17,6 +17,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - Car.ldr
 0 Main chassis and body structure of the Caterham F1 car built from Technic beams, bricks, plates, and axles in tan, black, and yellow.
 0 Author: Orion Pobursky [OrionP]
@@ -667,6 +668,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307-Floor Jack.ldr
 0 Small red floor jack tool built from a round brick, grooved tile, and a lightsaber hilt serving as a handle.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -685,6 +687,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307-Floor Jacks.ldr
 0 Assembly grouping multiple floor jack submodels used as workshop accessories.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -700,6 +703,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307 Step 9 Submodel.ldr
 0 A Technic subassembly of connected beams and friction pins forming a structural linkage.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -726,6 +730,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307 Step 13 Submodel.ldr
 0 A compact Technic pivot assembly using an open-center brick, a long pin, and a blue beam.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -744,6 +749,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307 Step 16 Submodel.ldr
 0 A flat plate assembly of black and yellow pieces forming a body panel or undertray section.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -765,6 +771,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307 Step 17 Submodel.ldr
 0 A flat plate assembly mirroring Step 16, forming the opposite side body panel or undertray section.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -786,6 +793,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307 Step 34 Submodel.ldr
 0 Yellow aerodynamic bodywork section with curved arches, inverted slopes, and grooved tiles forming a sidepod or wing element.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -826,6 +834,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307 Step 35 Submodel.ldr
 0 Yellow aerodynamic bodywork section mirroring Step 34, forming the opposite sidepod or wing element.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -866,6 +875,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307 Step 39-45 Submodel.ldr
 0 Yellow aerodynamic detail panel with curved arches, transparent and red light tiles forming an airbox or engine cover section.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -907,6 +917,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307 Step 46-52 Submodel.ldr
 0 Yellow aerodynamic detail panel mirroring Step 39-45, with curved arches and light tiles for the opposite side.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -948,6 +959,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307 Step 53-57 Submodel.ldr
 0 A hinged rear-wing support assembly using ball joints, hinges, and a Technic plate for adjustable mounting.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -988,6 +1000,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307 Step 62-67 Submodel.ldr
 0 A detailed rear wing or engine cover section using grille tiles, clips, and flags in black and grey.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -1021,6 +1034,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307 Step 71-82 Submodel.ldr
 0 A detailed front wing and nose section with grille tiles, brackets, slopes, hinges, and revolver barrels used as exhaust tips.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -1116,6 +1130,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307 Step 83 Hose.ldr
 0 A flexible pneumatic hose assembly made of 32 tube segments with bulged end fittings, approximately 75mm long.
 0 !CATEGORY technic
@@ -1222,6 +1237,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307 Step 90-98 Submodel.ldr
 0 A black and grey bodywork section with brackets, curved slopes, and tiles forming a front wing or splitter detail.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -1271,6 +1287,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307 Step 99-107 Submodel.ldr
 0 A black and grey bodywork section mirroring Step 90-98, forming the opposite side front wing or splitter detail.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -1320,6 +1337,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307 Step 108-113 Submodel.ldr
 0 A yellow side panel with hinge plates and a printed CATERHAM brick forming the left side bodywork with racing stripes.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -1363,6 +1381,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307 Step 119-124 Submodel.ldr
 0 A yellow side panel with hinge plates and printed CATERHAM brick forming the right side bodywork with racing stripes.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -1413,6 +1432,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307 Step 126-136 Submodel.ldr
 0 A small engine detail assembly using a lightsaber blade, inverted dish, and elbow cylinder forming a throttle or intake part.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -1436,6 +1456,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307 Step 127-132 Submodel.ldr
 0 A detailed engine component with round bricks, beams, axles, an inverted dome, and pink lipstick pieces used as detail elements.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -1482,6 +1503,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307 Step 133 Submodel.ldr
 0 An engine linkage assembly of Technic liftarms, axles, and elbow cylinders forming a mechanical connection or exhaust manifold.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -1526,6 +1548,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307 Step 146 Submodel.ldr
 0 A small grey and yellow detail panel with a grille tile forming part of the rear deck or bodywork.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -1551,6 +1574,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307 Step 147 Submodel.ldr
 0 A hinged assembly with headlight bricks and a red hinge top forming a small bodywork or cockpit detail.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -1572,6 +1596,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307 Step 150-154 Submodel.ldr
 0 Small black mechanical linkage assembly with clips, handles, and connecting bars.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -1605,6 +1630,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307 Step 153 Submodel.ldr
 0 Black bodywork section featuring curved arches, a bracket, and C-clip plates.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -1632,6 +1658,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307 Step 155-159 Submodel.ldr
 0 Small black mechanical linkage assembly with clips, handles, and connecting bars.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -1665,6 +1692,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307 Step 158 Submodel.ldr
 0 Black bodywork section featuring curved arches, a bracket, and C-clip plates.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -1692,6 +1720,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307 Step 160 Submodel.ldr
 0 Tiny detail piece with a black cone, orange round plate, and dark grey clip bar resembling a lamp or lens.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -1709,6 +1738,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307 Step 163 Submodel.ldr
 0 Clear-domed light housing consisting of a black dome cylinder, clip tile, and transparent dish.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -1726,6 +1756,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307 Step 164-177 Submodel.ldr
 0 Yellow nose cone section with patterned '7' tiles, grille tiles, brackets, and curved slope bodywork.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -1802,6 +1833,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307 Step 172-175 Submodel.ldr
 0 Yellow engine cover panel featuring a 'CATERHAM' printed tile and curved yellow bricks.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -1836,6 +1868,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307 Step 178-196 Submodel.ldr
 0 Small tri-color detail plate assembly of black, tan, and red elements.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -1860,6 +1893,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307 Step 178-191 Submodel 1.ldr
 0 Articulated yellow body panel with hinge plates, grille tiles, and curved bricks forming one side of the rear bodywork.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -1940,6 +1974,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307 Step 178-191 Submodel 2.ldr
 0 Articulated yellow body panel with hinge plates, grille tiles, and curved bricks forming the opposite side of the rear bodywork.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -2020,6 +2055,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307 Step 195 Submodel.ldr
 0 Rear engine vent panel with round axle-hole plates and striped yellow vent grille tiles.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -2045,6 +2081,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307 Step 197-209 Submodel.ldr
 0 Complex engine intake assembly with Technic rotors, curved slopes, dishes, and numerous clip plates.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -2138,6 +2175,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307 Step 206 Submodel.ldr
 0 Small exhaust pipe detail built from a black blaster barrel mounted on a clip tile.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -2155,6 +2193,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307 Step 210-213 Submodel.ldr
 0 Front suspension linkage assembly using Technic pins, elbow cylinders, axles, and locking hinge arms.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -2195,6 +2234,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307 Step 215 Submodel.ldr
 0 Complete road wheel assembly consisting of a six-spoke rim, rubber tyre, and bush.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -2212,6 +2252,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307 Step 216-226 Submodel.ldr
 0 Large yellow bodywork and chassis sub-assembly with Technic plates, corner plates, and curved bricks forming the main body shell.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -2314,6 +2355,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 21307 Step 227-233 Submodel.ldr
 0 Rear chassis section built from Technic plates, black tiles, clip plates, and connecting bars.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -2379,6 +2421,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 2723p01.dat
 0 Steering wheel assembly built from concentric rings and a central disc.
 0 Name: 21307 - 2723p01.dat
@@ -2429,6 +2472,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 2431pt5.dat
 0 Decorative printed tile with red and metallic silver pattern.
 0 Name: 21307 - 2431pt5.dat
@@ -2768,6 +2812,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 3004p09.dat
 0 Decorative printed brick with pattern detail.
 0 Name: 21307 - 3004p09.dat
@@ -2786,6 +2831,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 3009ptf.dat
 0 Decorative printed tile featuring yellow and black pattern.
 0 Name: 21307 - 3009ptf.dat
@@ -2821,6 +2867,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 3004p08.dat
 0 Decorative printed brick with pattern detail.
 0 Name: 21307 - 3004p08.dat
@@ -2839,6 +2886,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 87079pt0.dat
 0 Decorative printed tile with metallic silver pattern.
 0 Name: 21307 - 87079pt0.dat
@@ -3033,6 +3081,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 3069bp20.dat
 0 Decorative printed tile with black pattern.
 0 Name: 21307 - 3069bp20.dat
@@ -3063,6 +3112,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 15068pt0.dat
 0 A printed part featuring metallic silver and black detailing.
 0 Name: 21307 - 15068pt0.dat
@@ -3515,6 +3565,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 2431pt4.dat
 0 A tile decorated with a black printed pattern.
 0 Name: 21307 - 2431pt4.dat
@@ -3549,6 +3600,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 87079p0d.dat
 0 A disc-shaped part with eight black chord segments arranged around its surface.
 0 Name: 21307 - 87079p0d.dat
@@ -3662,6 +3714,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 4162p0f.dat
 0 A tile or plate bearing a black printed pattern.
 0 Name: 21307 - 4162p0f.dat
@@ -3686,6 +3739,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 62885.dat
 0 A minifig weapon accessory built from cylinders, discs, a grip, and rectangular elements forming a blaster shape.
 0 Name: 21307 - 62885.dat
@@ -3807,6 +3861,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 3068bpt6.dat
 0 A tile decorated with a metallic silver pattern.
 0 Name: 21307 - 3068bpt6.dat
@@ -3840,6 +3895,7 @@
 
 
 
+0 STEP
 0 FILE 21307 - 87079p0c.dat
 0 A disc or wheel part bearing a black printed pattern.
 0 Name: 21307 - 87079p0c.dat
@@ -3870,6 +3926,7 @@
 
 
 
+0 STEP
 0 FILE s\21307 - 2723s01.dat
 0 A Technic disc with an axle hole, constructed from rings, cylinders, and axle-hole edge geometry.
 0 Name: s\21307 - 2723s01.dat
@@ -3905,6 +3962,7 @@
 
 
 
+0 STEP
 0 FILE s\21307 - 2723p01s01.dat
 0 A metallic silver disc brake pattern segment with black and silver disc faces.
 0 Name: s\21307 - 2723p01s01.dat
@@ -3952,6 +4010,7 @@
 
 
 
+0 STEP
 0 FILE s\21307 - 3004p08s01.dat
 0 A brick surface pattern combining a black triangle with four stripes.
 0 Name: s\21307 - 3004p08s01.dat
@@ -3996,6 +4055,7 @@
 
 
 
+0 STEP
 0 FILE s\21307 - 2431pt4s02.dat
 0 A text-box surface segment for the CATERHAM tile pattern.
 0 Name: s\21307 - 2431pt4s02.dat
@@ -4123,6 +4183,7 @@
 
 
 
+0 STEP
 0 FILE s\21307 - 2431pt4s01.dat
 0 A text surface segment for the CATERHAM tile pattern.
 0 Name: s\21307 - 2431pt4s01.dat
@@ -4212,6 +4273,7 @@
 
 
 
+0 STEP
 0 FILE s\21307 - 62885s01.dat
 0 The geometric core of a minifig short blaster, composed of cylinders, chords, and box primitives.
 0 Name: s\21307 - 62885s01.dat

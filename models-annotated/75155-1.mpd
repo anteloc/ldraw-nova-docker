@@ -442,6 +442,7 @@
 1 36 30 10 -310 1 0 0 0 1 0 0 0 1 15303.dat
 
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - subModel-1.ldr
 0 Rebel U-Wing Fighter - subModel-1
 0 Name: 75155 - Rebel U-Wing Fighter - subModel-1.ldr
@@ -460,6 +461,7 @@
 1 72 -20 -10 -120 0 0 1 0 1 0 -1 0 0 3703.dat
 
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - subModel-2.ldr
 0 Rebel U-Wing Fighter - subModel-2
 0 Name: 75155 - Rebel U-Wing Fighter - subModel-2.ldr
@@ -478,6 +480,7 @@
 1 72 20 -10 -120 0 0 -1 0 1 0 1 0 0 3703.dat
 
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - subModel-3.ldr
 0 Rebel U-Wing Fighter - subModel-3
 0 Name: 75155 - Rebel U-Wing Fighter - subModel-3.ldr
@@ -507,6 +510,7 @@
 1 71 70 -24 -20 0 0 -1 0 1 0 1 0 0 2653.dat
 
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - subModel-4.ldr
 0 Rebel U-Wing Fighter - subModel-4
 0 Name: 75155 - Rebel U-Wing Fighter - subModel-4.ldr
@@ -524,6 +528,7 @@
 1 72 10 -24 0 0 0 -1 0 1 0 1 0 0 87620.dat
 
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - subModel-5.ldr
 0 Rebel U-Wing Fighter - subModel-5
 0 Name: 75155 - Rebel U-Wing Fighter - subModel-5.ldr
@@ -541,6 +546,7 @@
 1 72 -10 -24 0 -1 0 0 0 1 0 0 0 -1 87620.dat
 
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - subModel-6.ldr
 0 Rebel U-Wing Fighter - subModel-6
 0 Name: 75155 - Rebel U-Wing Fighter - subModel-6.ldr
@@ -563,6 +569,7 @@
 1 0 10 0 -60 0 0 1 0 1 0 -1 0 0 3710.dat
 
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - subModel-7.ldr
 0 Rebel U-Wing Fighter - subModel-7
 0 Name: 75155 - Rebel U-Wing Fighter - subModel-7.ldr
@@ -585,6 +592,7 @@
 1 0 -10 0 -60 0 0 1 0 1 0 -1 0 0 3710.dat
 
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - subModel-8.ldr
 0 Rebel U-Wing Fighter - subModel-8
 0 Name: 75155 - Rebel U-Wing Fighter - subModel-8.ldr
@@ -604,6 +612,7 @@
 1 1 10 -8 0 0 0 1 0 1 0 -1 0 0 3069b.dat
 
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - subModel-9.ldr
 0 Rebel U-Wing Fighter - subModel-9
 0 Name: 75155 - Rebel U-Wing Fighter - subModel-9.ldr
@@ -695,6 +704,7 @@
 1 14 10 -24 -510 0 0 -1 0 1 0 1 0 0 3070b.dat
 
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - subModel-10.ldr
 0 Rebel U-Wing Fighter - subModel-10
 0 Name: 75155 - Rebel U-Wing Fighter - subModel-10.ldr
@@ -717,6 +727,7 @@
 1 72 0 -16 0 -1 0 0 0 1 0 0 0 -1 2639.dat
 
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - subModel-11.ldr
 0 Rebel U-Wing Fighter - subModel-11
 0 Name: 75155 - Rebel U-Wing Fighter - subModel-11.ldr
@@ -810,6 +821,7 @@
 1 14 -20 -24 -70 1 0 0 0 1 0 0 0 1 2412b.dat
 
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - subModel-12.ldr
 0 Rebel U-Wing Fighter - subModel-12
 0 Name: 75155 - Rebel U-Wing Fighter - subModel-12.ldr
@@ -832,6 +844,7 @@
 1 72 0 -16 0 0 0 1 0 1 0 -1 0 0 2639.dat
 
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - subModel-13.ldr
 0 Rebel U-Wing Fighter - subModel-13
 0 Name: 75155 - Rebel U-Wing Fighter - subModel-13.ldr
@@ -850,6 +863,7 @@
 1 19 -60 0 -30 0 0 1 0 -1 0 1 0 0 3749.dat
 
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - subModel-14.ldr
 0 Rebel U-Wing Fighter - subModel-14
 0 Name: 75155 - Rebel U-Wing Fighter - subModel-14.ldr
@@ -868,6 +882,7 @@
 1 1 -60 0 -30 0 0 1 0 -1 0 1 0 0 43093.dat
 
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - subModel-15.ldr
 0 Rebel U-Wing Fighter - subModel-15
 0 Name: 75155 - Rebel U-Wing Fighter - subModel-15.ldr
@@ -1082,6 +1097,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - subModel-16.ldr
 0 Rebel U-Wing Fighter - subModel-16
 0 Name: 75155 - Rebel U-Wing Fighter - subModel-16.ldr
@@ -1104,6 +1120,7 @@
 1 72 0 -8 -20 0 0 1 0 1 0 -1 0 0 3021.dat
 
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - subModel-17.ldr
 0 Rebel U-Wing Fighter - subModel-17
 0 Name: 75155 - Rebel U-Wing Fighter - subModel-17.ldr
@@ -1164,6 +1181,7 @@
 1 70 0 -40 0 1 0 0 0 1 0 0 0 1 2432.dat
 
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - subModel-18.ldr
 0 Rebel U-Wing Fighter - subModel-18
 0 Name: 75155 - Rebel U-Wing Fighter - subModel-18.ldr
@@ -1185,6 +1203,7 @@
 1 72 0 -24 10 1 0 0 0 1 0 0 0 1 30363.dat
 
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - subModel-19.ldr
 0 Rebel U-Wing Fighter - subModel-19
 0 Name: 75155 - Rebel U-Wing Fighter - subModel-19.ldr
@@ -1215,6 +1234,7 @@
 1 72 -70 -8 0 1 0 0 0 1 0 0 0 1 93273.dat
 
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - subModel-20.ldr
 0 Rebel U-Wing Fighter - subModel-20
 0 Name: 75155 - Rebel U-Wing Fighter - subModel-20.ldr
@@ -1246,6 +1266,7 @@
 1 72 -70 -8 0 1 0 0 0 1 0 0 0 1 93273.dat
 
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - subModel-21.ldr
 0 Rebel U-Wing Fighter - subModel-21
 0 Name: 75155 - Rebel U-Wing Fighter - subModel-21.ldr
@@ -1275,6 +1296,7 @@
 1 72 10 -8 -40 0 0 1 0 1 0 -1 0 0 2412b.dat
 
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - subModel-22.ldr
 0 Rebel U-Wing Fighter - subModel-22
 0 Name: 75155 - Rebel U-Wing Fighter - subModel-22.ldr
@@ -1318,6 +1340,7 @@
 1 72 -78.992 45.582 -30 0 0.906 0.423 0 0.423 -0.906 -1 0 0 30503.dat
 
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - subModel-23.ldr
 0 Rebel U-Wing Fighter - subModel-23
 0 Name: 75155 - Rebel U-Wing Fighter - subModel-23.ldr
@@ -1343,6 +1366,7 @@
 1 0 -10 0 0 -1 0 0 0 -1 0 0 0 1 2780.dat
 
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - subModel-24.ldr
 0 Rebel U-Wing Fighter - subModel-24
 0 Name: 75155 - Rebel U-Wing Fighter - subModel-24.ldr
@@ -1369,6 +1393,7 @@
 1 0 -30 12 -22 0 0 1 1 0 0 0 1 0 2412b.dat
 
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - subModel-25.ldr
 0 Rebel U-Wing Fighter - subModel-25
 0 Name: 75155 - Rebel U-Wing Fighter - subModel-25.ldr
@@ -1407,6 +1432,7 @@
 1 179 0 -16 -20 1 0 0 0 1 0 0 0 1 88811.dat
 
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - subModel-26.ldr
 0 Rebel U-Wing Fighter - subModel-26
 0 Name: 75155 - Rebel U-Wing Fighter - subModel-26.ldr
@@ -1469,6 +1495,7 @@
 1 72 0 -48 10 -1 0 0 0 1 0 0 0 -1 32028.dat
 
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - subModel-27.ldr
 0 Rebel U-Wing Fighter - subModel-27
 0 Name: 75155 - Rebel U-Wing Fighter - subModel-27.ldr
@@ -1524,6 +1551,7 @@
 1 57 0 -164 0 -1 0 0 0 1 0 0 0 -1 59900.dat
 
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - subModel-28.ldr
 0 Rebel U-Wing Fighter - subModel-28
 0 Name: 75155 - Rebel U-Wing Fighter - subModel-28.ldr
@@ -1552,6 +1580,7 @@
 1 0 40 10 -30 0 0 1 0 1 0 -1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - subModel-29.ldr
 0 Rebel U-Wing Fighter - subModel-29
 0 Name: 75155 - Rebel U-Wing Fighter - subModel-29.ldr
@@ -1609,6 +1638,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - subModel-30.ldr
 0 Rebel U-Wing Fighter - subModel-30
 0 Name: 75155 - Rebel U-Wing Fighter - subModel-30.ldr
@@ -1637,6 +1667,7 @@
 1 0 -40 10 -30 0 0 1 0 1 0 -1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - 6164315e.dat
 0 Rebel U-Wing Fighter - 6164315e
 0 Name: 75155 - Rebel U-Wing Fighter - 6164315e.dat
@@ -1864,6 +1895,7 @@
 4 16 -37.5 -0.25 -27.5 -37.5 -0.25 27.5 -37.5 0 27.5 -37.5 0 -27.5
 4 16 37.5 -0.25 -27.5 -37.5 -0.25 -27.5 -37.5 0 -27.5 37.5 0 -27.5
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - 6164315f.dat
 0 Rebel U-Wing Fighter - 6164315f
 0 Name: 75155 - Rebel U-Wing Fighter - 6164315f.dat
@@ -2079,6 +2111,7 @@
 4 16 37.5 0 -27.5 37.5 0 27.5 37.5 -0.25 27.5 37.5 -0.25 -27.5
 4 16 -37.5 0 -27.5 37.5 0 -27.5 37.5 -0.25 -27.5 -37.5 -0.25 -27.5
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - 13252d02.dat
 0 Rebel U-Wing Fighter - 13252d02
 0 Name: 75155 - Rebel U-Wing Fighter - 13252d02.dat
@@ -2094,6 +2127,7 @@
 1 72 -40 1.524 -157.857 -0.110432 0 -0.993884 0.215604 0.976187 -0.023956 -0.970217 0.21693 0.107802 75155 - Rebel U-Wing Fighter - 6164315g.dat
 0 
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - 21849p02.dat
 0 Rebel U-Wing Fighter - 21849p02
 0 Name: 75155 - Rebel U-Wing Fighter - 21849p02.dat
@@ -2114,6 +2148,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\75155 - Rebel U-Wing Fighter - 21849p02s01.dat
 1 16 0 0 0 -1 0 0 0 1 0 0 0 1 s\75155 - Rebel U-Wing Fighter - 21849p02s01.dat
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - 2654.dat
 0 Rebel U-Wing Fighter - 2654
 0 Name: 75155 - Rebel U-Wing Fighter - 2654.dat
@@ -2396,6 +2431,7 @@
 
 0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=R 6 4] [grid=C 2 C 2 20 20]
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - 63082.dat
 0 Rebel U-Wing Fighter - 63082
 0 Name: 75155 - Rebel U-Wing Fighter - 63082.dat
@@ -2436,6 +2472,7 @@
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 4 4]
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 4 4]
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - 6179d07.dat
 0 Rebel U-Wing Fighter - 6179d07
 0 Name: 75155 - Rebel U-Wing Fighter - 6179d07.dat
@@ -2449,6 +2486,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 6179.dat
 1 72 0 0 -10 -1 0 0 0 1 0 0 0 1 75155 - Rebel U-Wing Fighter - 6164315a.dat
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - 6179d09.dat
 0 Rebel U-Wing Fighter - 6179d09
 0 Name: 75155 - Rebel U-Wing Fighter - 6179d09.dat
@@ -2462,6 +2500,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 6179.dat
 1 72 0 0 -10 1 0 0 0 1 0 0 0 1 75155 - Rebel U-Wing Fighter - 6164315d.dat
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - 6179d08.dat
 0 Rebel U-Wing Fighter - 6179d08
 0 Name: 75155 - Rebel U-Wing Fighter - 6179d08.dat
@@ -2475,6 +2514,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 6179.dat
 1 72 0 0 -10 1 0 0 0 1 0 0 0 1 75155 - Rebel U-Wing Fighter - 6164315c.dat
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - 6179d06.dat
 0 Rebel U-Wing Fighter - 6179d06
 0 Name: 75155 - Rebel U-Wing Fighter - 6179d06.dat
@@ -2488,6 +2528,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 6179.dat
 1 72 0 0 -10 1 0 0 0 1 0 0 0 1 75155 - Rebel U-Wing Fighter - 6164315a.dat
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - 6164315ic01.dat
 0 Rebel U-Wing Fighter - 6164315ic01
 0 Name: 75155 - Rebel U-Wing Fighter - 6164315ic01.dat
@@ -2502,6 +2543,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\75155 - Rebel U-Wing Fighter - 6164315ic01s01.dat
 1 16 0 0 0 -1 0 0 0 1 0 0 0 1 s\75155 - Rebel U-Wing Fighter - 6164315ic01s01.dat
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - joint-8-socket-freeb.dat
 0 Rebel U-Wing Fighter - joint-8-socket-freeb
 0 Name: 75155 - Rebel U-Wing Fighter - joint-8-socket-freeb.dat
@@ -2920,6 +2962,7 @@
 
 0 // End inside ball bit
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - 6164315a.dat
 0 Rebel U-Wing Fighter - 6164315a
 0 Name: 75155 - Rebel U-Wing Fighter - 6164315a.dat
@@ -3084,6 +3127,7 @@
 4 72 0 -0.25 -27.5 37.5 -0.25 -27.5 28.6 -0.25 -25.01 8.1 -0.25 -25.01
 3 72 7.59715 -0.25 -24.91398 0 -0.25 -27.5 8.1 -0.25 -25.01
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - 6164315d.dat
 0 Rebel U-Wing Fighter - 6164315d
 0 Name: 75155 - Rebel U-Wing Fighter - 6164315d.dat
@@ -3160,6 +3204,7 @@
 4 72 3.8 -0.25 3.3 4.5 -0.25 3.25 30.700001 -0.25 27.5 -37.5 -0.25 27.5
 3 72 -37.5 -0.25 3.3 3.8 -0.25 3.3 -37.5 -0.25 27.5
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - 6164315c.dat
 0 Rebel U-Wing Fighter - 6164315c
 0 Name: 75155 - Rebel U-Wing Fighter - 6164315c.dat
@@ -3257,6 +3302,7 @@
 3 72 -7.1 -0.25 1.7 -30.700001 -0.25 -11.35 -30.700001 -0.25 -24.700001
 3 72 37.5 -0.25 27.5 -3.8 -0.25 3.3 37.5 -0.25 3.3
 
+0 STEP
 0 FILE 75155 - Rebel U-Wing Fighter - 6164315g.dat
 0 Rebel U-Wing Fighter - 6164315g
 0 Name: 75155 - Rebel U-Wing Fighter - 6164315g.dat
@@ -3375,6 +3421,7 @@
 4 16 -85 0 -6.25 -85 -0.25 -6.25 -83.5 -0.25 6.25 -83.5 0 6.25
 4 16 86.5 0 6.25 -83.5 0 6.25 -83.5 -0.25 6.25 86.5 -0.25 6.25
 
+0 STEP
 0 FILE s\75155 - Rebel U-Wing Fighter - 21849s01.dat
 0 Rebel U-Wing Fighter - 21849s01
 0 Name: s\75155 - Rebel U-Wing Fighter - 21849s01.dat
@@ -3617,6 +3664,7 @@
 2 24 14 6 -10 -14 6 -10
 2 24 -20 6 -10 -27.2309 6 -10
 
+0 STEP
 0 FILE s\75155 - Rebel U-Wing Fighter - 21849p02s01.dat
 0 Rebel U-Wing Fighter - 21849p02s01
 0 Name: s\75155 - Rebel U-Wing Fighter - 21849p02s01.dat
@@ -3822,6 +3870,7 @@
 3 15 -21.706381 -14.322 -43.869999 -20.69591 -16.5 -47.5 -20.696091 -16.5 -41.799999
 3 15 -22.282591 -13.08 -41.799999 -21.758989 -14.2086 -43.681 -20.696091 -16.5 -41.799999
 
+0 STEP
 0 FILE s\75155 - Rebel U-Wing Fighter - 6164315ic01s01.dat
 0 Rebel U-Wing Fighter - 6164315ic01s01
 0 Name: s\75155 - Rebel U-Wing Fighter - 6164315ic01s01.dat

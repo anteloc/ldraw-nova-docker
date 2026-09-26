@@ -13,6 +13,7 @@
 1 4 -150 -32 -390 0 0 -1 0 1 0 1 0 0 7180 - Rebel Pilot B-Wing.ldr
 
 
+0 STEP
 0 FILE 7180 - B-Wing.ldr
 0 The main fuselage of the B-Wing fighter built from dark grey and black plates, hinges, and inverted slopes.
 0 Name: 7180 - B-Wing.ldr
@@ -135,6 +136,7 @@
 1 7 180 -72 70 -1 0 0 0 1 0 0 0 -1 7180 - Cockpit Back.ldr
 1 7 180 -72 10 1 0 0 0 1 0 0 0 1 7180 - Cockpit Front.ldr
 
+0 STEP
 0 FILE 7180 - Wing 1.ldr
 0 A fighter wing assembly using a left wing element, hinges, grille tiles, and a neon orange thruster nozzle.
 0 Name: 7180 - Wing 1.ldr
@@ -177,6 +179,7 @@
 0 // Plate  1 x  1 Round (trans_neon_orange)
 1 38 -160 0 -240 0 -1 0 0 0 1 -1 0 0 6141.dat
 
+0 STEP
 0 FILE 7180 - Door.ldr
 0 A hinged access door with light grey bricks and translucent neon orange dishes acting as panels.
 0 Name: 7180 - Door.ldr
@@ -223,6 +226,7 @@
 0 // Dish  2 x  2 Inverted (trans_neon_orange)
 1 38 20 0 60 1 0 0 0 0 -1 0 1 0 4740.dat
 
+0 STEP
 0 FILE 7180 - Wing 2.ldr
 0 A fighter wing assembly using a right wing element, plates, grille tiles, and a neon orange thruster nozzle.
 0 Name: 7180 - Wing 2.ldr
@@ -277,6 +281,7 @@
 0 // Hinge Plate  1 x  2 Locking with Single Finger On Top (tan)
 1 19 30 -24 100 0 0 1 0 1 0 -1 0 0 30383.dat
 
+0 STEP
 0 FILE 7180 - Wing 3.ldr
 0 A fighter wing assembly using a right wing element, hinges, grille tiles, and a neon orange thruster nozzle.
 0 Name: 7180 - Wing 3.ldr
@@ -319,6 +324,7 @@
 0 // Plate  1 x  1 Round (trans_neon_orange)
 1 38 160 0 -240 0 1 0 0 0 1 1 0 0 6141.dat
 
+0 STEP
 0 FILE 7180 - Cockpit Back.ldr
 0 The rear section of a cockpit built with wedges, inverted slopes, and a technic axle detail.
 0 Name: 7180 - Cockpit Back.ldr
@@ -357,6 +363,7 @@
 0 // Wedge  4 x  4 Triple (dark_grey)
 1 8 0 -24 0 1 0 0 0 1 0 0 0 1 6069.dat
 
+0 STEP
 0 FILE 7180 - Cockpit Front.ldr
 0 The front nose of a cockpit built with wedges, inverted slopes, grille tiles, and a Star Wars computer screen.
 0 Name: 7180 - Cockpit Front.ldr
@@ -415,6 +422,7 @@
 0 // Windscreen  4 x  7 x  2 Round Pointed (trans_brown)
 1 40 0 24 -100 1 0 0 0 1 0 0 0 1 30384.dat
 
+0 STEP
 0 FILE 7180 - Rebel Control Center.ldr
 0 The rebel control station composed of control consoles, a tools rack, sliding doors, and mechanic carts.
 0 Name: 7180 - Rebel Control Center.ldr
@@ -426,6 +434,7 @@
 1 15 -120 -24 -60 1 0 0 0 1 0 0 0 1 7180 - Control Center Part 2.ldr
 1 15 120 -24 60 -1 0 0 0 1 0 0 0 -1 7180 - Control Center Part 3.ldr
 
+0 STEP
 0 FILE 7180 - Control Center Part 1.ldr
 0 A control station module with a minifig seat, turntable, computer screens, and a transparent panel.
 0 Name: 7180 - Control Center Part 1.ldr
@@ -472,6 +481,7 @@
 0 // Panel  1 x  4 x  3 with Hollow Studs (trans_clear)
 1 47 90 -128 0 0 0 -1 0 1 0 1 0 0 4215b.dat
 
+0 STEP
 0 FILE 7180 - Control Center Part 2.ldr
 0 A control station module with computer consoles, neon green indicator panels, and binoculars and radio accessories.
 0 Name: 7180 - Control Center Part 2.ldr
@@ -528,6 +538,7 @@
 0 // Minifig Radio with Long Handle (black)
 1 0 210 -12 -50 0 0 -1 0 1 0 1 0 0 3962b.dat
 
+0 STEP
 0 FILE 7180 - Control Center Part 3.ldr
 0 A large control station module with multiple computer screens, neon green panels, arches, and reinforced bricks.
 0 Name: 7180 - Control Center Part 3.ldr
@@ -638,6 +649,7 @@
 0 // Tile  1 x  6 (dark_grey)
 1 8 180 -160 -10 1 0 0 0 1 0 0 0 1 6636.dat
 
+0 STEP
 0 FILE 7180 - Sliding Door 1.ldr
 0 A tall sliding door panel built from black bricks mounted on a door rail.
 0 Name: 7180 - Sliding Door 1.ldr
@@ -658,6 +670,7 @@
 0 // Plate  1 x  2 with Door Rail (black)
 1 0 20 -152 0 -1 0 0 0 1 0 0 0 -1 32028.dat
 
+0 STEP
 0 FILE 7180 - Sliding Door 2.ldr
 0 A tall sliding door panel built from black bricks mounted on a door rail.
 0 Name: 7180 - Sliding Door 2.ldr
@@ -678,6 +691,7 @@
 0 // Plate  1 x  2 with Door Rail (black)
 1 0 -20 -152 0 -1 0 0 0 1 0 0 0 -1 32028.dat
 
+0 STEP
 0 FILE 7180 - Tools Rack.ldr
 0 A wall-mounted rack holding mechanic tools including a drill, wrenches, hammer, screwdriver, and oilcan.
 0 Name: 7180 - Tools Rack.ldr
@@ -718,6 +732,7 @@
 0 // Minifig Tool Hammer (dark_grey)
 1 8 -10 -20 -10 1 0 0 0 1 0 0 0 1 55295.dat
 
+0 STEP
 0 FILE 7180 - Mechanic Car.ldr
 0 A small wheeled mechanic cart assembly made of two linked carts with a crane end.
 0 Name: 7180 - Mechanic Car.ldr
@@ -728,6 +743,7 @@
 1 7 0 0 0 1 0 0 0 1 0 0 0 1 7180 - Cart 1.ldr
 1 7 0 0 150 1 0 0 0 1 0 0 0 1 7180 - Cart 2.ldr
 
+0 STEP
 0 FILE 7180 - Cart 1.ldr
 0 A wheeled cart with a control stick, dials, hinge controls, and neon orange round indicators.
 0 Name: 7180 - Cart 1.ldr
@@ -779,6 +795,7 @@
 0 // Hinge Control Stick (black)
 1 0 10 -32 -10 -1 0 0 0 0.866 -0.5 0 -0.5 -0.866 4593.dat
 
+0 STEP
 0 FILE 7180 - Cart 2.ldr
 0 A wheeled cart with towball couplings, grille tiles, neon green panels, and grab bars.
 0 Name: 7180 - Cart 2.ldr
@@ -820,6 +837,7 @@
 1 7 -30 -48 0 0 0 -1 0 1 0 1 0 0 4083.dat
 1 7 0 -32 0 0 0 -1 0 1 0 1 0 0 7180 - Tools Rack.ldr
 
+0 STEP
 0 FILE 7180 - Crane End.ldr
 0 A crane attachment with a circular saw blade, tap, and orange cone detail.
 0 Name: 7180 - Crane End.ldr
@@ -844,6 +862,7 @@
 0 // Dish  2 x  2 Inverted (dark_grey)
 1 8 20 -25 -60 0 0 -1 1 0 0 0 -1 0 4740.dat
 
+0 STEP
 0 FILE 7180 - R5-D4.ldr
 0 The R5-D4 astromech droid with a white dome head, patterned body, and robot legs.
 0 Name: 7180 - R5-D4.ldr
@@ -860,6 +879,7 @@
 0 // Cylinder  2 x  2 with Dome Top with SW Red/Silver R5 Pattern (white)
 1 15 0 -34 0 1 0 0 0 1 0 0 0 1 30367bps2.dat
 
+0 STEP
 0 FILE 7180 - Rebel Pilot B-Wing.ldr
 0 A Rebel pilot minifigure in a red flight suit with a helmet and visor.
 0 Name: 7180 - Rebel Pilot B-Wing.ldr
@@ -890,6 +910,7 @@
 0 // ~Minifig Helmet Visor Standard (Obsolete) (trans_yellow)
 1 46 0 -56 0 0.997 0 -0.071 0 1 0 0.071 0 0.997 2447.dat
 
+0 STEP
 0 FILE 7180 - Rebel Technician.ldr
 0 A Rebel mechanic minifigure in a tan outfit with a cap and stubbled face.
 0 Name: 7180 - Rebel Technician.ldr

@@ -8,6 +8,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 40192 - Ferrari 250 GTO.ldr
 
 
+0 STEP
 0 FILE 40192 - Ferrari 250 GTO.ldr
 0 A blue pull-back sports car chassis featuring a motor mechanism, mudguards, smooth tiled bodywork, and headlights.
 0 Name: 40192 - Ferrari 250 GTO.ldr
@@ -109,6 +110,7 @@
 1 0 -40 5 60 -1 0 0 0 1 0 0 0 -1 40192 - Wheel.ldr
 
 
+0 STEP
 0 FILE 40192 - Wheel.ldr
 0 A black spoked wheel rim paired with a rubber tyre assembly.
 0 Name: 40192 - Wheel.ldr

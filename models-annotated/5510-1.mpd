@@ -518,6 +518,7 @@
 1 0 76 -115 230 -1 0 0 0 0 -1 0 -1 0 197905b.dat
 
 
+0 STEP
 0 FILE 5510 - 003-1bumper.ldr
 0 A grey bumper assembly made of long plates joined by a small clip plate.
 0 Name: 5510 - 003-1bumper.ldr
@@ -543,6 +544,7 @@
 1 7 0 -24 -70 1 0 0 0 1 0 0 0 1 3460.dat
 
 
+0 STEP
 0 FILE 5510 - 003-2steerR.ldr
 0 A right-side steering linkage built from a Technic steering arm and pins.
 0 Name: 5510 - 003-2steerR.ldr
@@ -559,6 +561,7 @@
 1 7 0 -10 -30 0 0 1 1 0 0 0 1 0 3749.dat
 
 
+0 STEP
 0 FILE 5510 - 003-3steerL.ldr
 0 A left-side steering linkage built from a Technic steering arm and pins.
 0 Name: 5510 - 003-3steerL.ldr
@@ -575,6 +578,7 @@
 1 7 0 -10 -30 0 0 1 1 0 0 0 1 0 3749.dat
 
 
+0 STEP
 0 FILE 5510 - 006rack.ldr
 0 A steering rack subassembly combining a gear rack mounted on a Technic plate with holes.
 0 Name: 5510 - 006rack.ldr
@@ -592,6 +596,7 @@
 1 7 0 -24 0 1 0 0 0 1 0 0 0 1 3743.dat
 
 
+0 STEP
 0 FILE 5510 - stringLSynth75cm.ldr
 0 A 75 cm synthesized flexible string wound around a spool for a pull-along mechanism.
 0 Name: 5510 - stringLSynth75cm.ldr
@@ -2041,6 +2046,7 @@
 1 16 -26.043773 -21.26287 -53.889212 0.090716 0.98422 0.151939 -0.976699 0.058133 0.206606 0.194499 -0.167128 0.966634 5510 - LS60a.dat
 
 
+0 STEP
 0 FILE 5510 - 012seat.ldr
 0 A red seat assembly with hinged backrest and cushion plates that can recline.
 0 Name: 5510 - 012seat.ldr
@@ -2078,6 +2084,7 @@
 0 // The seat back is rotated 79.61114°
 
 
+0 STEP
 0 FILE 5510 - 013steer.ldr
 0 A steering column assembly using Technic gears, an axle, bush, and wedge belt wheel for drive transmission.
 0 Name: 5510 - 013steer.ldr
@@ -2114,6 +2121,7 @@
 
 
 
+0 STEP
 0 FILE 5510 - 014lights.ldr
 0 A front light assembly of black and yellow plates topped with white round tiles for headlamps.
 0 Name: 5510 - 014lights.ldr
@@ -2157,6 +2165,7 @@
 1 15 40 -30 -26 0.707 0 0.707 0.707 0 -0.707 0 1 0 4150.dat
 
 
+0 STEP
 0 FILE 5510 - 015cage.ldr
 0 A protective roll cage built from long black plates, hinges, and diagonal supports with transparent yellow accents.
 0 Name: 5510 - 015cage.ldr
@@ -2207,6 +2216,7 @@
 1 46 110 -2 -30 1 0 0 0 0 1 0 -1 0 6141.dat
 
 
+0 STEP
 0 FILE 5510 - 4209a.dat
 0 A custom part definition referenced by the model with no direct pieces.
 0 Name: 5510 - 4209a.dat
@@ -2230,6 +2240,7 @@
 
 0 
 
+0 STEP
 0 FILE 5510 - u4208.dat
 0 A primitive cylinder element used as a custom part component.
 0 Name: 5510 - u4208.dat
@@ -2254,6 +2265,7 @@
 0 !LDCAD SNAP_GEN [group=hoseReel2x4] [gender=M] [bounding=box 40 17.5 17.5]
 
 
+0 STEP
 0 FILE 5510 - u4330.dat
 0 A custom Fabuland wheel or tyre part made from cylinders, discs, and a Fabuland logo.
 0 Name: 5510 - u4330.dat
@@ -2295,6 +2307,7 @@
 0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=R 4 11] [slide=true]
 
 
+0 STEP
 0 FILE 5510 - LS60a.dat
 0 A custom part definition referenced by the model with no direct pieces.
 0 Name: 5510 - LS60a.dat
@@ -2337,6 +2350,7 @@
 
 0 
 
+0 STEP
 0 FILE s\5510 - 4209as02.dat
 0 4209as02
 0 Name: s\5510 - 4209as02.dat
@@ -2786,6 +2800,7 @@
 0 !LDCAD SNAP_GEN [group=hoseReel2x4] [gender=F] [bounding=box 40 17.5 17.5]
 
 
+0 STEP
 0 FILE s\5510 - 4208s01.dat
 0 4208s01
 0 Name: s\5510 - 4208s01.dat
@@ -2834,6 +2849,7 @@
 1 16 -30 0 0 1 0 0 0 0 -1 0 1 0 s\5510 - 4208s02.dat
 
 
+0 STEP
 0 FILE s\5510 - 4208s03.dat
 0 4208s03
 0 Name: s\5510 - 4208s03.dat
@@ -2955,6 +2971,7 @@
 5 24 4.5 -2.296 5.543 -4.5 -2.296 5.543 4.5 -4.243 4.243 4.5 0 6
 
 
+0 STEP
 0 FILE s\5510 - 4208s02.dat
 0 4208s02
 0 Name: s\5510 - 4208s02.dat

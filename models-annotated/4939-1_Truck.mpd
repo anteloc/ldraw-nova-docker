@@ -7,6 +7,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 4939 - Truck.ldr
 
 
+0 STEP
 0 FILE 4939 - Truck.ldr
 0 Main truck chassis built from dark bluish grey plates and yellow bricks with headlights, side-stud bricks, grilles, and sloped trim details.
 0 Name: 4939 - Truck.ldr
@@ -211,6 +212,7 @@
 1 256 -60 -14 -80 0 0 1 0 1 0 -1 0 0 30648.dat
 
 
+0 STEP
 0 FILE 4939 - Truck S06.ldr
 0 Small detail assembly of a dark bluish grey plate with a black handle, silver round plate, grille tile, and black slope.
 0 Name: 4939 - Truck S06.ldr
@@ -231,6 +233,7 @@
 1 0 0 -8 20 1 0 0 0 1 0 0 0 1 54200.dat
 
 
+0 STEP
 0 FILE 4939 - Truck S07.ldr
 0 Small detail assembly of a dark bluish grey plate with a black handle, silver round plate, grille tile, and black slope.
 0 Name: 4939 - Truck S07.ldr
@@ -251,6 +254,7 @@
 1 0 0 -8 20 1 0 0 0 1 0 0 0 1 54200.dat
 
 
+0 STEP
 0 FILE 4939 - Truck S09.ldr
 0 Dark red and dark bluish grey plate assembly with grille tile, yellow grooved tiles, and trans-red round plates forming a light or window element.
 0 Name: 4939 - Truck S09.ldr
@@ -281,6 +285,7 @@
 1 36 70 -16 0 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 4939 - Truck S13.ldr
 0 Tiny yellow detail piece combining a headlight brick with a small slope.
 0 Name: 4939 - Truck S13.ldr
@@ -293,6 +298,7 @@
 1 14 0 10 -6 -1 0 0 0 0 1 0 1 0 54200.dat
 
 
+0 STEP
 0 FILE 4939 - Truck S20.ldr
 0 Yellow body panel subassembly with plates, clips, slopes, curved slopes, and grooved tiles forming a contoured section of the truck body.
 0 Name: 4939 - Truck S20.ldr
@@ -372,6 +378,7 @@
 1 14 0 6 -60 1 0 0 0 0 1 0 -1 0 2436a.dat
 
 
+0 STEP
 0 FILE 4939 - Truck S20 s8.ldr
 0 Small yellow grooved tile attached to a light bluish grey handle plate.
 0 Name: 4939 - Truck S20 s8.ldr
@@ -384,6 +391,7 @@
 1 14 0 -8 0 1 0 0 0 1 0 0 0 1 2431.dat
 
 
+0 STEP
 0 FILE 4939 - Truck S21.ldr
 0 Large yellow body section with plates, multiple yellow and trans-brown slopes, black grilles, and handle plates forming a windowed or paneled structure.
 0 Name: 4939 - Truck S21.ldr
@@ -456,6 +464,7 @@
 1 0 -50 24 40 0 0 1 0 1 0 -1 0 0 48336.dat
 
 
+0 STEP
 0 FILE 4939 - Truck S21 s7.ldr
 0 Yellow plate framework holding a large trans-brown sloped windshield or window element.
 0 Name: 4939 - Truck S21 s7.ldr
@@ -478,6 +487,7 @@
 1 14 -50 -8 -60 0 0 -1 0 1 0 1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 4939 - Truck S21 s8.ldr
 0 Small yellow clip and grooved tile detail with a black slope.
 0 Name: 4939 - Truck S21 s8.ldr
@@ -492,6 +502,7 @@
 1 14 20 2 -12 0 0 -1 -1 0 0 0 1 0 3070b.dat
 
 
+0 STEP
 0 FILE 4939 - Truck S21 s9.ldr
 0 Small yellow clip and grooved tile detail with a black slope.
 0 Name: 4939 - Truck S21 s9.ldr
@@ -506,6 +517,7 @@
 1 14 20 2 12 0 0 1 -1 0 0 0 -1 0 3070b.dat
 
 
+0 STEP
 0 FILE 4939 - Truck S22.ldr
 0 Right-side yellow wing assembly with plates, door rail, and clip elements.
 0 Name: 4939 - Truck S22.ldr
@@ -528,6 +540,7 @@
 1 14 0 -8 -20 1 0 0 0 1 0 0 0 1 6019.dat
 
 
+0 STEP
 0 FILE 4939 - Truck S23.ldr
 0 Left-side yellow wing assembly with plates, door rail, and clip elements.
 0 Name: 4939 - Truck S23.ldr

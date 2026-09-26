@@ -7,6 +7,7 @@
 1 2 0 -6.59 8.765 1 0 0 0 0.991 -0.132 0 0.132 0.991 6743 - HotRod.ldr
 
 
+0 STEP
 0 FILE 6743 - HotRod.ldr
 0 Green and red hot rod body built on a large light bluish grey base plate with side-stud bricks, slopes, and plates forming the low-slung chassis and frame.
 0 Name: 6743 - HotRod.ldr
@@ -286,6 +287,7 @@
 1 256 -80 -14 -170 0 0 -1 0 1 0 1 0 0 30648.dat
 
 
+0 STEP
 0 FILE 6743 - Rear.ldr
 0 Green rear deck with black grille, white support plates, and transparent red and clear tail light elements.
 0 Name: 6743 - Rear.ldr
@@ -314,6 +316,7 @@
 1 47 70 0 -10 0 0 -1 0 1 0 1 0 0 54200.dat
 
 
+0 STEP
 0 FILE 6743 - Exhaust.ldr
 0 Small dark bluish grey exhaust tip assembly using round plate and black U-clip pieces.
 0 Name: 6743 - Exhaust.ldr
@@ -329,6 +332,7 @@
 1 0 0 -16 0 1 0 0 0 1 0 0 0 1 4085c.dat
 
 
+0 STEP
 0 FILE 6743 - Front.ldr
 0 Light bluish grey front section with black grille tiles, a white plate, and green detail plates.
 0 Name: 6743 - Front.ldr
@@ -351,6 +355,7 @@
 1 15 0 -16 -20 -1 0 0 0 1 0 0 0 -1 3069b.dat
 
 
+0 STEP
 0 FILE 6743 - Front LH.ldr
 0 Left-hand front fender piece with reddish brown plate, white curved slope, and a transparent clear light element.
 0 Name: 6743 - Front LH.ldr
@@ -366,6 +371,7 @@
 1 47 10 0 0 0 0 -1 0 1 0 1 0 0 54200.dat
 
 
+0 STEP
 0 FILE 6743 - Front RH.ldr
 0 Right-hand front fender piece with reddish brown plate, white curved slope, and a transparent clear light element.
 0 Name: 6743 - Front RH.ldr
@@ -381,6 +387,7 @@
 1 15 10 -16 20 -1 0 0 0 1 0 0 0 -1 50950.dat
 
 
+0 STEP
 0 FILE 6743 - Rear Axle.ldr
 0 Rear axle subassembly using a dark bluish grey plate with light bluish grey pin bricks for wheel mounting.
 0 Name: 6743 - Rear Axle.ldr
@@ -398,6 +405,7 @@
 1 71 0 -24 10 -1 0 0 0 1 0 0 0 -1 3010.dat
 
 
+0 STEP
 0 FILE 6743 - Windscreen.ldr
 0 Transparent clear windscreen slope mounted on a reddish brown frame with two headlight bricks.
 0 Name: 6743 - Windscreen.ldr

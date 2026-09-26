@@ -98,6 +98,7 @@
 1 71 80 -24 -160 0 0 -1 0 1 0 1 0 0 87079.dat
 
 
+0 STEP
 0 FILE 21015 - 2.ldr
 0 Small white hinge plate assembly connecting a top and base with filler plates.
 0 Name: 21015 - 2.ldr
@@ -121,6 +122,7 @@
 1 0 -60 -8 0 0.309 0 0.9511 0 1 0 -0.9511 0 0.309 21015 - 2 - 4.ldr
 
 
+0 STEP
 0 FILE 21015 - 2 - 1.ldr
 0 A white cylindrical tower tier with arched gallery, round bricks, and hinged plate framework.
 0 Name: 21015 - 2 - 1.ldr
@@ -215,6 +217,7 @@
 1 15 50 -456 -10 0 0 -1 0 1 0 1 0 0 6141.dat
 
 
+0 STEP
 0 FILE 21015 - 2 - 2.ldr
 0 A white cylindrical tower tier with arched gallery, round bricks, and hinged plate framework.
 0 Name: 21015 - 2 - 2.ldr
@@ -309,6 +312,7 @@
 1 15 50 -448 -10 0 0 -1 0 1 0 1 0 0 6141.dat
 
 
+0 STEP
 0 FILE 21015 - 2 - 3.ldr
 0 A white cylindrical tower tier with arched gallery, round bricks, and hinged plate framework.
 0 Name: 21015 - 2 - 3.ldr
@@ -403,6 +407,7 @@
 1 15 50 -456 -10 0 0 -1 0 1 0 1 0 0 6141.dat
 
 
+0 STEP
 0 FILE 21015 - 2 - 4.ldr
 0 A white cylindrical tower tier with arched gallery, round bricks, and hinged plate framework.
 0 Name: 21015 - 2 - 4.ldr
@@ -495,6 +500,7 @@
 1 15 -10 -448 -10 0 0 -1 0 1 0 1 0 0 6141.dat
 
 
+0 STEP
 0 FILE 21015 - 1.ldr
 0 Foundational tower core built on an 8x8 dark bluish grey base, with white round plates, arches, hinges, and structural connectors forming the lower cylindrical body.
 0 Name: 21015 - 1.ldr
@@ -681,6 +687,7 @@
 1 0 0 6 40 1 0 0 0 1 0 0 0 1 21015 - 1 - 1.ldr
 
 
+0 STEP
 0 FILE 21015 - 2 - 5.ldr
 0 Small white decorative cap built from bricks and round filler plates.
 0 Name: 21015 - 2 - 5.ldr
@@ -702,6 +709,7 @@
 1 15 0 -64 0 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 21015 - 2 - 6.ldr
 0 A tiny white connector sub-assembly using a technic pin joiner and blue half-pin.
 0 Name: 21015 - 2 - 6.ldr
@@ -719,6 +727,7 @@
 1 1 0 -40 0 0 1 0 -1 0 0 0 0 1 4274.dat
 
 
+0 STEP
 0 FILE 21015 - 2 - 7.ldr
 0 A pair of white hollow-stud round bricks forming a small decorative element.
 0 Name: 21015 - 2 - 7.ldr
@@ -734,6 +743,7 @@
 1 15 0 -24 0 1 0 0 0 1 0 0 0 1 3062b.dat
 
 
+0 STEP
 0 FILE 21015 - 2 - 8.ldr
 0 A small white clip-and-tile detail element.
 0 Name: 21015 - 2 - 8.ldr
@@ -749,6 +759,7 @@
 1 15 -30 -10 0 1 0 0 0 1 0 0 0 1 3069b.dat
 
 
+0 STEP
 0 FILE 21015 - 1 - 1.ldr
 0 A dark bluish grey and black plate strip with white clip plates, forming a base support or mounting element.
 0 Name: 21015 - 1 - 1.ldr

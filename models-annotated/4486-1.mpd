@@ -7,6 +7,7 @@
 1 8 0 0 0 1 0 0 0 1 0 0 0 1 4486 - AT-ST.ldr
 1 8 120 -16 30 1 0 0 0 1 0 0 0 1 4486 - Snowspeeder.ldr
 
+0 STEP
 0 FILE 4486 - Snowspeeder.ldr
 0 Compact Rebel snowspeeder microfighter with angled wings, forward harpoon bars, and a printed cockpit windscreen.
 0 Name: 4486 - Snowspeeder.ldr
@@ -52,6 +53,7 @@
 0 // Wing  2 x  3 Right (light_grey)
 1 7 -31.959 -12.907 -30 0.875 0.485 0 -0.485 0.875 0 0 0 1 43722.dat
 
+0 STEP
 0 FILE 4486 - AT-ST.ldr
 0 Mini Imperial scout walker built from Technic axles and hinges for articulated legs, topped with a head featuring dish eyes and a binocular viewport.
 0 Name: 4486 - AT-ST.ldr

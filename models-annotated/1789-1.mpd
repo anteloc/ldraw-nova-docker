@@ -10,6 +10,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 1789 - Cockpit + Spaceship.ldr
 1 0 42.164 -17.4 -503.963 0.92388 0 -0.382683 0 1 0 0.382683 0 0.92388 1789 - Minifig 2.ldr
 
+0 STEP
 0 FILE 1789 - Cockpit.ldr
 0 Cockpit
 0 Name: 1789 - Cockpit.ldr
@@ -126,6 +127,7 @@
 0 // Wing  3 x  4 with  1 x  2 Cutout without Stud Notches (black)
 1 0 0 -104 60 1 0 0 0 1 0 0 0 1 4859.dat
 
+0 STEP
 0 FILE 1789 - Cockpit + Minifig.ldr
 0 Cockpit + Minifig
 0 Name: 1789 - Cockpit + Minifig.ldr
@@ -138,6 +140,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 1789 - Cockpit.ldr
 1 0 0 -53 -32 1 0 0 0 1 0 0 0 1 1789 - Minifig 1.ldr
 
+0 STEP
 0 FILE 1789 - Cockpit + Spaceship.ldr
 0 Cockpit + Spaceship
 0 Name: 1789 - Cockpit + Spaceship.ldr
@@ -150,6 +153,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 1789 - Spaceship.ldr
 1 0 0 -32 -180 1 0 0 0 1 0 0 0 1 1789 - Cockpit + Minifig.ldr
 
+0 STEP
 0 FILE 1789 - Spaceship.ldr
 0 Spaceship
 0 Name: 1789 - Spaceship.ldr
@@ -473,6 +477,7 @@
 0 // Cone  1 x  1 (trans_neon_green)
 1 42 40 28 8 1 0 0 0 0 -1 0 1 0 4589.dat
 
+0 STEP
 0 FILE 1789 - Spaceship - Door.ldr
 0 Spaceship - Door
 0 Name: 1789 - Spaceship - Door.ldr
@@ -533,6 +538,7 @@
 0 // Plate  1 x  1 Round (trans_neon_green)
 1 42 10 -12 160 -1 0 0 0 1 0 0 0 -1 6141.dat
 
+0 STEP
 0 FILE 1789 - Spaceship - Antenna 1 - 1.ldr
 0 Spaceship - Antenna 1 - 1
 0 Name: 1789 - Spaceship - Antenna 1 - 1.ldr
@@ -546,6 +552,7 @@
 1 0 0 0 -30 1 0 0 0 -1 0 0 0 -1 2923.dat
 1 0 0 8 -60 1 0 0 0 -0.1736 -0.9848 0 0.9848 -0.1736 1789 - Spaceship - Antenna 1 - 2.ldr
 
+0 STEP
 0 FILE 1789 - Spaceship - Antenna 1 - 2.ldr
 0 Spaceship - Antenna 1 - 2
 0 Name: 1789 - Spaceship - Antenna 1 - 2.ldr
@@ -572,6 +579,7 @@
 0 // Plate  1 x  1 Round (trans_clear)
 1 47 0 -18 -98 0 0 -1 1 0 0 0 -1 0 6141.dat
 
+0 STEP
 0 FILE 1789 - Spaceship - Antenna 2 - 1.ldr
 0 Spaceship - Antenna 2 - 1
 0 Name: 1789 - Spaceship - Antenna 2 - 1.ldr
@@ -585,6 +593,7 @@
 1 0 0 0 -30 1 0 0 0 -1 0 0 0 -1 2923.dat
 1 0 0 8 -60 1 0 0 0 0.342 -0.9397 0 0.9397 0.342 1789 - Spaceship - Antenna 2 - 2.ldr
 
+0 STEP
 0 FILE 1789 - Spaceship - Antenna 2 - 2.ldr
 0 Spaceship - Antenna 2 - 2
 0 Name: 1789 - Spaceship - Antenna 2 - 2.ldr
@@ -615,6 +624,7 @@
 0 // Dish  2 x  2 Inverted (trans_dark_blue)
 1 33 -42 -28 -20 0 1 0 -1 0 0 0 0 1 4740.dat
 
+0 STEP
 0 FILE 1789 - Spaceship - Panel.ldr
 0 Spaceship - Panel
 0 Name: 1789 - Spaceship - Panel.ldr
@@ -647,6 +657,7 @@
 0 // Slope Brick 33  3 x  4 (black)
 1 0 0 -100 66 1 0 0 0 1 0 0 0 1 3297.dat
 
+0 STEP
 0 FILE 1789 - Minifig 1.ldr
 0 Minifig 1
 0 Name: 1789 - Minifig 1.ldr
@@ -678,6 +689,7 @@
 0 // ~Minifig Leg Left (Obsolete) (light_grey)
 1 7 0 44 0 1 0 0 0 0 1 0 -1 0 3817.dat
 
+0 STEP
 0 FILE 1789 - Minifig 1 - Helmet.ldr
 0 Minifig 1 - Helmet
 0 Name: 1789 - Minifig 1 - Helmet.ldr
@@ -692,6 +704,7 @@
 0 // ~Minifig Helmet Visor Standard (Obsolete) (trans_dark_blue)
 1 33 0 2.889 5.404 1 0 0 0 0.55557 0.83147 0 -0.83147 0.55557 2447.dat
 
+0 STEP
 0 FILE 1789 - Minifig 2.ldr
 0 Minifig 2
 0 Name: 1789 - Minifig 2.ldr
@@ -885,6 +898,7 @@
 1 256 18.0071 37.4864 39.9188 -0.9659 0.2055 0.1523 0.1613 0.0269 0.9861 -0.1986 -0.9778 0.0592 756.dat
 0 GROUP 53 Hose
 
+0 STEP
 0 FILE 1789 - Minifig 2 - Helmet.ldr
 0 Minifig 2 - Helmet
 0 Name: 1789 - Minifig 2 - Helmet.ldr
@@ -899,6 +913,7 @@
 0 // ~Minifig Helmet Visor Standard (Obsolete) (trans_dark_blue)
 1 33 0 0 0 1 0 0 0 1 0 0 0 1 2447.dat
 
+0 STEP
 0 FILE 1789 - Minifig 2 - Camera.ldr
 0 Minifig 2 - Camera
 0 Name: 1789 - Minifig 2 - Camera.ldr
@@ -919,6 +934,7 @@
 0 // Hose Flexible End  1 x  1 x  0.667 without Tabs (black)
 1 0 -66 8 0 0 1 0 0 0 -1 -1 0 0 752.dat
 
+0 STEP
 0 FILE 1789 - Minifig 2 - Handle.ldr
 0 Minifig 2 - Handle
 0 Name: 1789 - Minifig 2 - Handle.ldr

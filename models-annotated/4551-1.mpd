@@ -10,6 +10,7 @@
 1 16 161.0239 -30.9998 -19.98 1 0 0 0 1 0 0 0 1 4551 - minifig.ldr
 
 
+0 STEP
 0 FILE 4551 - locomotive.ldr
 0 A streamlined train locomotive body with pantographs, sloped aerodynamic panels, and angled roof detailing built mainly from plates and slope bricks.
 0 Name: 4551 - locomotive.ldr
@@ -386,6 +387,7 @@
 1 16 -260 0 0.05 -1 0 0 0 1 0 0 0 -1 4551 - locomotive - part A.ldr
 
 
+0 STEP
 0 FILE 4551 - locomotive - part A.ldr
 0 A train locomotive chassis section featuring a single-axle bogie, buffer beam, magnetic coupling, and brick-built base frame with grille details.
 0 Name: 4551 - locomotive - part A.ldr
@@ -512,6 +514,7 @@
 1 16 60 -143 0.01 1 0 0 0 1 0 0 0 1 3036.DAT
 
 
+0 STEP
 0 FILE 4551 - minifig.ldr
 0 A train engineer minifigure wearing a blue uniform with train logo and a red hat.
 0 Name: 4551 - minifig.ldr

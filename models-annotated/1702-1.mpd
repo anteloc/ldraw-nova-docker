@@ -12,6 +12,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 1702 - car.ldr 
 0 A small wheeled vehicle built from plates, mudguards, wheel pins, and clips.
 0 Name: 1702 - car.ldr 
@@ -147,6 +148,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 1702 - minifig.ldr 
 0 A firefighter minifigure with white fire helmet, black torso with firefighter pattern, and standard limbs.
 0 Name: 1702 - minifig.ldr 

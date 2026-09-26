@@ -7,6 +7,7 @@
 1 47 0 0 0 1 0 0 0 1 0 0 0 1 4485 - Anakin's Podracer.ldr
 1 47 190 0 0 1 0 0 0 1 0 0 0 1 4485 - Sebulba's Podracer.ldr
 
+0 STEP
 0 FILE 4485 - Anakin's Podracer.ldr
 0 A compact podracer built with clear inverted dishes for cockpits, yellow palm-top cones for engines, and blue control sticks for the pilot's controls.
 0 Name: 4485 - Anakin's Podracer.ldr
@@ -62,6 +63,7 @@
 0 // ~Plant Tree Palm Top (Obsolete) (yellow)
 1 14 44 -38 38 0 0 -1 1 0 0 0 -1 0 2566.dat
 
+0 STEP
 0 FILE 4485 - Sebulba's Podracer.ldr
 0 A larger podracer featuring orange engine cones and taps, light-grey and orange inverted dishes as turbines, and black multi-sided bricks forming the structural frame.
 0 Name: 4485 - Sebulba's Podracer.ldr

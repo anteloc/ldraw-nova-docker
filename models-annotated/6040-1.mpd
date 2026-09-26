@@ -11,6 +11,7 @@
 1 0 -9 -56 40 0 0 1 0 1 0 -1 0 0 6040 - MiniFig1.ldr
 
 
+0 STEP
 0 FILE 6040 - building.ldr
 0 A grey stone building structure built on a green baseplate with large wall panels featuring dark grey stone patterns, blue decorative plates and tiles, and inverted slope detailing.
 0 Name: 6040 - building.ldr
@@ -144,6 +145,7 @@
 1 6 -90 -64 40 0 -1 0 0 0 1 -1 0 0 4489a.dat
 
 
+0 STEP
 0 FILE 6040 - Chimney.ldr
 0 A red brick chimney assembly with arch and sloped convex elements topped with a wheel pin and clip plates.
 0 Name: 6040 - Chimney.ldr
@@ -195,6 +197,7 @@
 1 4 0 -112 0 0 0 -1 0 1 0 1 0 0 3021.dat
 
 
+0 STEP
 0 FILE 6040 - MiniFig1.ldr
 0 A hooded medieval worker minifigure wearing a brown cape over a yellow torso, wielding a black mallet.
 0 Name: 6040 - MiniFig1.ldr
@@ -224,6 +227,7 @@
 1 0 -18.132 -37.429 -43.055 -0.989 -0.148 0.013 -0.122 0.857 0.5 -0.085 0.493 -0.866 4522.dat
 
 
+0 STEP
 0 FILE 6040 - Horse.ldr
 0 A black horse with brown and white tack, mounted on a small black brick and plate base.
 0 Name: 6040 - Horse.ldr
@@ -239,6 +243,7 @@
 1 0 0 -80 0 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 6040 - MiniFig2.ldr
 0 A castle soldier minifigure in a red pikes-pattern torso with blue arms and legs, wearing a dark grey helmet with neck protector and armed with a battleaxe.
 0 Name: 6040 - MiniFig2.ldr

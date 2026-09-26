@@ -17,6 +17,7 @@
 1 0 0 -8 30 1 0 0 0 1 0 0 0 1 2431.dat
 1 0 0 -48 20 1 0 0 0 1 0 0 0 1 41589 - 1.ldr
 
+0 STEP
 0 FILE 41589 - 1.ldr
 0 Main torso and body assembly built from dark blue plates and bricks with reddish brown accents, star and stripe patterned bricks, and grey side-stud bricks forming the armored figure.
 0 Name: 41589 - 1.ldr
@@ -154,6 +155,7 @@
 0 // Plate  1 x  2 (black)
 1 0 30 32 0 0 0 -1 0 1 0 1 0 0 3023.dat
 
+0 STEP
 0 FILE 41589 - 2.ldr
 0 Small reddish brown and dark blue plate assembly with a clip, likely part of a limb or weapon attachment.
 0 Name: 41589 - 2.ldr
@@ -181,6 +183,7 @@
 
 
 
+0 STEP
 0 FILE 41589 - 3.ldr
 0 Compact dark blue and reddish brown plate segment with a horizontal clip for attachment.
 0 Name: 41589 - 3.ldr
@@ -200,6 +203,7 @@
 
 
 
+0 STEP
 0 FILE 41589 - 4.ldr
 0 Compact dark blue and reddish brown plate segment with an end clip for attachment.
 0 Name: 41589 - 4.ldr
@@ -216,6 +220,7 @@
 0 // Plate  1 x  2 with Clip Horizontal on End (Thick C-Clip) (reddish_brown)
 1 70 -10 -8 0 0 0 1 0 1 0 -1 0 0 63868.dat
 
+0 STEP
 0 FILE 41589 - 87079pz0.dat
 0 Printed black tile bearing the BrickHeadz series number one pattern.
 0 Name: 41589 - 87079pz0.dat
@@ -231,6 +236,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\41589 - 87079pz0s01.dat
 1 15 0 0 0 1 0 0 0 1 0 0 0 1 s\41589 - 87079pz0s02.dat
 
+0 STEP
 0 FILE 41589 - 3010pz4.dat
 0 Printed white brick decorated with three dark red vertical stripes.
 0 Name: 41589 - 3010pz4.dat
@@ -279,6 +285,7 @@
 4 320 27.82 24 -10 26.99 16.76 -10 15.68 16.76 -10 14.85 24 -10
 4 320 40 24 -10 40 13.55 -10 36.25 16.99 -10 35.41 24 -10
 
+0 STEP
 0 FILE 41589 - 3010pz5.dat
 0 Printed dark blue brick featuring a silver star and two belt buckles pattern.
 0 Name: 41589 - 3010pz5.dat
@@ -294,6 +301,7 @@
 1 16 0 0 -10 1 0 0 0 1 0 0 0 1 s\41589 - 3010pz5s01.dat
 1 16 0 0 -10 -1 0 0 0 1 0 0 0 1 s\41589 - 3010pz5s01.dat
 
+0 STEP
 0 FILE 41589 - 87079pz1.dat
 0 Printed tile displaying a white letter A with four black lines.
 0 Name: 41589 - 87079pz1.dat
@@ -402,6 +410,7 @@
 4 16 40 0 20 35.826 0 10.248 35.059 0 5.299 34.35 0 0.307
 4 16 40 0 -20 40 0 20 34.35 0 0.307 33.697 0 -4.726
 
+0 STEP
 0 FILE 41589 - 98138pz0.dat
 0 Round printed tile decorated with two white squares, using an adapter ring.
 0 Name: 41589 - 98138pz0.dat
@@ -434,6 +443,7 @@
 4 16 1.81 0 4.601 8.3151 0 3.4443 6.3639 0 6.3639 3.4443 0 8.3151
 3 16 0 0 9 1.81 0 4.601 3.4443 0 8.3151
 
+0 STEP
 0 FILE s\41589 - 87079pz0s01.dat
 0 Subpattern geometry for the series number tile base, composed of black rings and white chord and disc primitives.
 0 Name: s\41589 - 87079pz0s01.dat
@@ -619,6 +629,7 @@
 3 16 40 0 20 35 0 14.5 35 0 13
 3 16 40 0 20 33.5 0 14.5 35 0 14.5
 
+0 STEP
 0 FILE s\41589 - 87079pz0s02.dat
 0 Subpattern forming the numeral one on the series number tile using chord and disc primitives.
 0 Name: s\41589 - 87079pz0s02.dat
@@ -660,6 +671,7 @@
 4 16 34 0 -13 34 0 13 22.824 0 -7.1 33.5 0 -13.5
 4 16 34 0 13 33.5 0 13.5 22.824 0 7.138 22.824 0 -7.1
 
+0 STEP
 0 FILE s\41589 - 3010pz5s01.dat
 0 Half of the silver star and belt buckles brick pattern subpart.
 0 Name: s\41589 - 3010pz5s01.dat

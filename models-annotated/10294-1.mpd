@@ -19,6 +19,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10294 - Titanic - Box 1.ldr
 0 Small structural frame subassembly using white technic bricks, panels, and dark red curved slopes.
 0 Name: 10294 - Titanic - Box 1.ldr
@@ -80,6 +81,7 @@
 1 70 0 8 300 1 0 0 0 1 0 0 0 1 10294 - Titanic - 2.12.4.ldr
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.0 Bow & Well Deck.ldr
 0 Bow section foundation built from large dark red plates, wing slopes, and technic bracing with axle and pin connections.
 0 Name: 10294 - Titanic - 1.0 Bow & Well Deck.ldr
@@ -870,6 +872,7 @@
 
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.1.1.1.ldr
 0 Hinged hull plating segment using long tan and white plates with rounded corners and clip connectors.
 0 Name: 10294 - Titanic - 1.1.1.1.ldr
@@ -916,6 +919,7 @@
 1 1 10 -8 -20 0 0 -1 0 1 0 1 0 0 15573.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.1.1.2.ldr
 0 Hinged hull plating segment mirroring 1.1.1.1 with long tan and white plates and clip connectors.
 0 Name: 10294 - Titanic - 1.1.1.2.ldr
@@ -962,6 +966,7 @@
 1 1 -10 -8 -20 0 0 1 0 1 0 -1 0 0 15573.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.1.2.ldr
 0 Curved hull fairing assembly using dark red brackets and curved slope bricks on a grey base brick.
 0 Name: 10294 - Titanic - 1.1.2.ldr
@@ -1002,6 +1007,7 @@
 1 320 24 54 -20 0 -1 0 1 0 0 0 0 1 61678.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.1.3.1.ldr
 0 Hinged deck segment with tan plating, clip connectors, and small red and blue accent tiles.
 0 Name: 10294 - Titanic - 1.1.3.1.ldr
@@ -1038,6 +1044,7 @@
 1 15 0 0 0 0 0 1 0 1 0 -1 0 0 2430.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.1.3.2.ldr
 0 Hinged deck segment mirroring 1.1.3.1 with tan plating, clip connectors, and accent tiles.
 0 Name: 10294 - Titanic - 1.1.3.2.ldr
@@ -1074,6 +1081,7 @@
 1 15 0 0 0 0 0 -1 0 1 0 1 0 0 2429.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.1.4.1.ldr
 0 Curved bow hull section using dark red and black large curved slope bricks on blue and yellow base plates.
 0 Name: 10294 - Titanic - 1.1.4.1.ldr
@@ -1106,6 +1114,7 @@
 1 320 60 0 -130 1 0 0 0 1 0 0 0 1 3298.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.1.4.2.ldr
 0 Curved bow hull section mirroring 1.1.4.1 with dark red and black curved slopes on base plates.
 0 Name: 10294 - Titanic - 1.1.4.2.ldr
@@ -1138,6 +1147,7 @@
 1 320 -60 0 -130 1 0 0 0 1 0 0 0 1 3298.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.2.1.ldr
 0 Deck plate segment built from a large grey plate with red side-studded bricks and tan supports.
 0 Name: 10294 - Titanic - 1.2.1.ldr
@@ -1168,6 +1178,7 @@
 1 320 -130 -48 0 0 0 1 0 1 0 -1 0 0 99206.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.2.2.0.ldr
 0 Detailed superstructure wall section with hinged plates, side-studded bricks, and accent detailing in multiple colors.
 0 Name: 10294 - Titanic - 1.2.2.0.ldr
@@ -1304,6 +1315,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.2.2.1.ldr
 0 Detailed superstructure wall section mirroring 1.2.2.0 with hinge plates, wing element, and side-studded bricks.
 0 Name: 10294 - Titanic - 1.2.2.1.ldr
@@ -1368,6 +1380,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.2.3.ldr
 0 Technic pivot joint using round brick, pins, and notched axles for an articulating connection.
 0 Name: 10294 - Titanic - 1.2.3.ldr
@@ -1406,6 +1419,7 @@
 1 70 -30 16 10 0 0 -1 0 1 0 1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.2.4.1.ldr
 0 Small hinged mounting bracket with locking hinge, clip plate, and accent tiles.
 0 Name: 10294 - Titanic - 1.2.4.1.ldr
@@ -1436,6 +1450,7 @@
 1 0 0 -24 -30 0 0 1 0 1 0 -1 0 0 98138.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.2.4.2.ldr
 0 Small corner mounting block using red corner bricks with blue plate and round studs.
 0 Name: 10294 - Titanic - 1.2.4.2.ldr
@@ -1457,6 +1472,7 @@
 1 15 30 -8 -10 -1 0 0 0 1 0 0 0 -1 6141.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.2.5.1.ldr
 0 Compact hinged detail assembly with headlight brick and side-studded brick for attachment.
 0 Name: 10294 - Titanic - 1.2.5.1.ldr
@@ -1481,6 +1497,7 @@
 1 71 2.308 8 -31.538 0.246 0 -0.969 0 1 0 0.969 0 0.246 32952.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.2.5.2.ldr
 0 Compact hinged detail assembly mirroring 1.2.5.1 with headlight brick and side-studded brick.
 0 Name: 10294 - Titanic - 1.2.5.2.ldr
@@ -1505,6 +1522,7 @@
 1 71 -2.308 8 -31.538 0.246 0 0.969 0 1 0 -0.969 0 0.246 32952.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.2.6.ldr
 0 Technic structural module using tan technic bricks with pins and grille slopes for a vented wall section.
 0 Name: 10294 - Titanic - 1.2.6.ldr
@@ -1562,6 +1580,7 @@
 1 19 -72 -30 20 0 1 0 -1 0 0 0 0 1 61409.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.2.7.ldr
 0 Small detail fitting with clips, handle, and bracket for mounting deck hardware.
 0 Name: 10294 - Titanic - 1.2.7.ldr
@@ -1592,6 +1611,7 @@
 1 84 0 38 -2 1 0 0 0 0 1 0 -1 0 36840.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.3.1.1.ldr
 0 Curved deck edge assembly using black curved slopes with plates and tiles for a rounded fairing.
 0 Name: 10294 - Titanic - 1.3.1.1.ldr
@@ -1635,6 +1655,7 @@
 1 0 13 -16 20 0 1 0 -1 0 0 0 0 1 10294 - Titanic - 1.3.1.3.ldr
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.3.1.3.ldr
 0 Tiny mounting bracket detail using bar plate and thick bracket stud for attaching small fittings.
 0 Name: 10294 - Titanic - 1.3.1.3.ldr
@@ -1651,6 +1672,7 @@
 1 0 0 0 0 0 -1 0 0 0 1 -1 0 0 10294 - Titanic - 28974a.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.3.2.1.ldr
 0 Nameplate deck section featuring a 'TITANIC' printed tile with surrounding plating and groove tiles.
 0 Name: 10294 - Titanic - 1.3.2.1.ldr
@@ -1747,6 +1769,7 @@
 1 0 -10 -8 -80 0 1 0 -1 0 0 0 0 1 10294 - Titanic - 1.3.2.5.ldr
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.3.2.3.ldr
 0 Small mounting strip using grooved tile and thick brackets for attaching deck details.
 0 Name: 10294 - Titanic - 1.3.2.3.ldr
@@ -1765,6 +1788,7 @@
 1 0 0 0 10 0 -1 0 0 0 1 -1 0 0 10294 - Titanic - 28974a.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.3.2.4.ldr
 0 Simple mounting strip of plates and thick brackets for securing deck fittings.
 0 Name: 10294 - Titanic - 1.3.2.4.ldr
@@ -1783,6 +1807,7 @@
 1 0 0 0 10 0 -1 0 0 0 1 -1 0 0 10294 - Titanic - 28974a.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.3.2.5.ldr
 0 Small mounting bracket assembly using thick brackets and plates to form a structural connector.
 0 Name: 10294 - Titanic - 1.3.2.5.ldr
@@ -1805,6 +1830,7 @@
 1 0 0 0 30 0 -1 0 0 0 1 -1 0 0 10294 - Titanic - 28974a.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.3.1.2.ldr
 0 Compact deck section built from assorted plates and curved slope bricks forming a contoured platform.
 0 Name: 10294 - Titanic - 1.3.1.2.ldr
@@ -1848,6 +1874,7 @@
 1 0 -13 -16 20 0 -1 0 -1 0 0 0 0 -1 10294 - Titanic - 1.3.1.3.ldr
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.3.2.2.ldr
 0 Deck flooring section with nameplate detail, featuring a tiled 'TITANIC' pattern tile surrounded by plates and grooved tiles.
 0 Name: 10294 - Titanic - 1.3.2.2.ldr
@@ -1944,6 +1971,7 @@
 1 0 10 -8 -80 0 -1 0 -1 0 0 0 0 -1 10294 - Titanic - 1.3.2.5.ldr
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.3.3.1.ldr
 0 Hinged panel mechanism using hinge bases with side-stud bricks and supporting plates.
 0 Name: 10294 - Titanic - 1.3.3.1.ldr
@@ -1969,6 +1997,7 @@
 1 0 0 -56 20 0 0 -1 0 1 0 1 0 0 3937.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.3.3.2.ldr
 0 Hinged panel mechanism using hinge bases with side-stud bricks and supporting plates.
 0 Name: 10294 - Titanic - 1.3.3.2.ldr
@@ -1994,6 +2023,7 @@
 1 0 0 -56 20 0 0 1 0 1 0 -1 0 0 3937.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.4.1.1.ldr
 0 Small base platform composed of corner tan plates topped with a grooved white tile.
 0 Name: 10294 - Titanic - 1.4.1.1.ldr
@@ -2009,6 +2039,7 @@
 1 15 0 -16 0 1 0 0 0 1 0 0 0 1 3068b.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.4.1.2.ldr
 0 Articulating mount built from a technic brick, friction pin, and downward bracket.
 0 Name: 10294 - Titanic - 1.4.1.2.ldr
@@ -2025,6 +2056,7 @@
 1 19 0 -20 28 1 0 0 0 1 0 0 0 1 99781.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.4.2.0.ldr
 0 Decorative railing detail with plates, clips, bar tubes, and sausage elements forming small cylindrical fittings.
 0 Name: 10294 - Titanic - 1.4.2.0.ldr
@@ -2069,6 +2101,7 @@
 1 0 -58.279 -152.928 54.559 0.242 0.937 -0.251 -0.97 0.234 -0.063 0 0.259 0.966 33078.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.4.2.1.ldr
 0 Chain assembly made of 19 chain links capped with two chain ends.
 0 Name: 10294 - Titanic - 1.4.2.1.ldr
@@ -2151,6 +2184,7 @@
 1 16 -25.380214 -123.19132 57.832894 0.704422 -0.673032 -0.225429 0.161337 -0.157461 0.974257 -0.691202 -0.722658 -0.002334 30104k02.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.4.2.2.ldr
 0 Chain assembly made of 19 chain links capped with two chain ends.
 0 Name: 10294 - Titanic - 1.4.2.2.ldr
@@ -2233,6 +2267,7 @@
 1 16 25.380214 -123.19132 57.832894 -0.704422 0.673032 -0.225429 0.161337 -0.157461 -0.974257 -0.691202 -0.722658 0.002334 30104k02.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.4.3.ldr
 0 Deckhouse wall section with orange and white plates, inverted arch, and clip tiles forming a windowed structure.
 0 Name: 10294 - Titanic - 1.4.3.ldr
@@ -2297,6 +2332,7 @@
 1 15 0 -32 -490 0 0 -1 0 1 0 1 0 0 63864.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.4.4.ldr
 0 Flexible hose/pipe assembly with rigid hose caps forming a curved run of tubing.
 0 Name: 10294 - Titanic - 1.4.4.ldr
@@ -3576,6 +3612,7 @@
 5 24 439.919739 -0.764196 -13.548046 438.40213 -0.7654 -13.12662 439.878601 0.000792 -13.693666 440.03717 -1.412767 -13.131664
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.4.5.ldr
 0 Small mechanical fitting using bars, clips, skeleton arms, and a zip line handle to form an articulated joint.
 0 Name: 10294 - Titanic - 1.4.5.ldr
@@ -3617,6 +3654,7 @@
 1 72 12 -67.724 105.017 0 -1 0 0 0 -1 1 0 0 30229.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.4.6.ldr
 0 Compact rotating mounting assembly using a round reinforced brick, clips, bars, and a panel for a swiveling fitting.
 0 Name: 10294 - Titanic - 1.4.6.ldr
@@ -3652,6 +3690,7 @@
 1 15 0 8 -20 1 0 0 0 1 0 0 0 1 15535.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.4.7.0.ldr
 0 Long rotating shaft assembly of joined technic axles with inline joiners and an angle connector.
 0 Name: 10294 - Titanic - 1.4.7.0.ldr
@@ -3711,6 +3750,7 @@
 1 16 0 -320 0 1 0 0 0 1 0 0 0 1 10294 - Titanic - 1.4.7.1.ldr
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.4.7.1.ldr
 0 Articulated joint combining a technic beam, towball pin, and angle connector for a pivoting mechanism.
 0 Name: 10294 - Titanic - 1.4.7.1.ldr
@@ -3739,6 +3779,7 @@
 1 71 0 -51.131 27.743 1 0 0 0 0.191 0.982 0 -0.982 0.191 14704.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.4.8.0.ldr
 0 Flagpole-like assembly with a locking hinge plate, clip, handle bar, and a rapier used as a mast or pole detail.
 0 Name: 10294 - Titanic - 1.4.8.0.ldr
@@ -3764,6 +3805,7 @@
 1 179 0 -39 -30 0 0 -1 0 1 0 1 0 0 93550.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.4.8.1.ldr
 0 Rope rigging assembly with rope ends and string segments forming a tensioned line.
 0 Name: 10294 - Titanic - 1.4.8.1.ldr
@@ -3817,6 +3859,7 @@
 
 
 
+0 STEP
 0 FILE 10294 - Titanic - 1.4.8.1_subPart1.ldr
 0 Rope segment subpart consisting of cylindrical segments forming a continuous length of rope.
 0 Name: 10294 - Titanic - 1.4.8.1_subPart1.ldr
@@ -3882,6 +3925,7 @@
 1 16 594.993141 488.602495 0 0 0.045498 -1.499903 0 -3.996648 -0.017075 -1.5 0 0 4-4cyli.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.0 Bridge & Funnel.ldr
 0 Major superstructure containing the bridge and funnel, built from large dark red plates, wings, and light bluish grey bricks forming the upper deckhouse.
 0 Name: 10294 - Titanic - 2.0 Bridge & Funnel.ldr
@@ -5316,6 +5360,7 @@
 
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.5.1.ldr
 0 Engine detail with a technic belt wheel on an axle inside a round brick, accented by trans-orange slope lights.
 0 Name: 10294 - Titanic - 2.5.1.ldr
@@ -5337,6 +5382,7 @@
 1 71 0 0 -48 -1 0 0 0 0 1 0 1 0 10294 - Titanic - 73111.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.5.2.ldr
 0 Ventilator or grille detail unit built from a bracket, slopes, a grille tile, and light-clip plates.
 0 Name: 10294 - Titanic - 2.5.2.ldr
@@ -5366,6 +5412,7 @@
 1 0 -20 0 0 -1 0 0 0 1 0 0 0 -1 4081b.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.5.3.ldr
 0 Ventilator or grille detail unit built from a bracket, slopes, a grille tile, and light-clip plates.
 0 Name: 10294 - Titanic - 2.5.3.ldr
@@ -5395,6 +5442,7 @@
 1 0 20 0 0 -1 0 0 0 1 0 0 0 -1 4081b.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.5.4.ldr
 0 Ventilator or grille detail unit built from a bracket, slope, grille tile, and light-clip plates with an offset plate.
 0 Name: 10294 - Titanic - 2.5.4.ldr
@@ -5426,6 +5474,7 @@
 1 0 20 0 0 -1 0 0 0 1 0 0 0 -1 4081b.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.5.5.ldr
 0 Windowed deckhouse section with trans-light-blue glazed panels, windows, and edge-stud plate framing a small cabin.
 0 Name: 10294 - Titanic - 2.5.5.ldr
@@ -5452,6 +5501,7 @@
 1 72 20 -8 0 0 0 1 0 1 0 -1 0 0 3020.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.5.6.ldr
 0 Titanic - 2.5.6
 0 Name: 10294 - Titanic - 2.5.6.ldr
@@ -5475,6 +5525,7 @@
 1 70 0 -8 200 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.5.7.ldr
 0 Titanic - 2.5.7
 0 Name: 10294 - Titanic - 2.5.7.ldr
@@ -5538,6 +5589,7 @@
 1 297 -70 -16 140 0.166 0 0.986 0 1 0 -0.986 0 0.166 6141.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.7.1.1.ldr
 0 Titanic - 2.7.1.1
 0 Name: 10294 - Titanic - 2.7.1.1.ldr
@@ -5605,6 +5657,7 @@
 1 0 -60 -32 -30 0 0 -1 0 1 0 1 0 0 3068b.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.7.2.1.ldr
 0 Titanic - 2.7.2.1
 0 Name: 10294 - Titanic - 2.7.2.1.ldr
@@ -5644,6 +5697,7 @@
 1 71 -50 26 -20 0 -1 0 0 0 1 -1 0 0 10294 - Titanic - 30166.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.7.1.2.ldr
 0 Titanic - 2.7.1.2
 0 Name: 10294 - Titanic - 2.7.1.2.ldr
@@ -5711,6 +5765,7 @@
 1 0 60 -32 -30 0 0 1 0 1 0 -1 0 0 3068b.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.7.2.2.ldr
 0 Titanic - 2.7.2.2
 0 Name: 10294 - Titanic - 2.7.2.2.ldr
@@ -5750,6 +5805,7 @@
 1 71 50 26 -20 0 1 0 0 0 1 1 0 0 10294 - Titanic - 30166.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.7.3.0.ldr
 0 Titanic - 2.7.3.0
 0 Name: 10294 - Titanic - 2.7.3.0.ldr
@@ -5844,6 +5900,7 @@
 1 0 -10 -32 160 0 1 0 -1 0 0 0 0 1 10294 - Titanic - 1.3.2.4.ldr
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.7.3.1.ldr
 0 Titanic - 2.7.3.1
 0 Name: 10294 - Titanic - 2.7.3.1.ldr
@@ -5860,6 +5917,7 @@
 1 0 0 0 10 0 -1 0 0 0 1 -1 0 0 10294 - Titanic - 28974a.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.8.1.ldr
 0 Titanic - 2.8.1
 0 Name: 10294 - Titanic - 2.8.1.ldr
@@ -5876,6 +5934,7 @@
 1 16 -10 -10 -10 1 0 0 0 1 0 0 0 1 4070.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.8.2.1.ldr
 0 Titanic - 2.8.2.1
 0 Name: 10294 - Titanic - 2.8.2.1.ldr
@@ -5912,6 +5971,7 @@
 1 14 0 0 0 0 0 1 1 0 0 0 1 0 3666.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.9.2.2.ldr
 0 Titanic - 2.9.2.2
 0 Name: 10294 - Titanic - 2.9.2.2.ldr
@@ -5942,6 +6002,7 @@
 1 0 0 0 0 0 0 1 1 0 0 0 1 0 3710.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.9.1.1.ldr
 0 Titanic - 2.9.1.1
 0 Name: 10294 - Titanic - 2.9.1.1.ldr
@@ -5963,6 +6024,7 @@
 1 15 0 -12 -34 -1 0 0 0 0 1 0 1 0 61409.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.9.1.2.ldr
 0 Titanic - 2.9.1.2
 0 Name: 10294 - Titanic - 2.9.1.2.ldr
@@ -5976,6 +6038,7 @@
 1 19 0 -12 22 0 0 1 -1 0 0 0 -1 0 3069b.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.9.2.0.ldr
 0 Titanic - 2.9.2.0
 0 Name: 10294 - Titanic - 2.9.2.0.ldr
@@ -6022,6 +6085,7 @@
 1 15 0 -40 -60 0 0 -1 0 1 0 1 0 0 6636.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.9.2.1.ldr
 0 Titanic - 2.9.2.1
 0 Name: 10294 - Titanic - 2.9.2.1.ldr
@@ -6049,6 +6113,7 @@
 1 15 0 -32 20 0 0 1 0 1 0 -1 0 0 3710.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.9.3.ldr
 0 Titanic - 2.9.3
 0 Name: 10294 - Titanic - 2.9.3.ldr
@@ -6189,6 +6254,7 @@
 1 15 120 -80 0 1 0 0 0 1 0 0 0 1 6636.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.9.4.0.ldr
 0 Titanic - 2.9.4.0
 0 Name: 10294 - Titanic - 2.9.4.0.ldr
@@ -6258,6 +6324,7 @@
 1 15 40 8 10 -1 0 0 0 1 0 0 0 -1 64644.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.9.4.1.ldr
 0 Titanic - 2.9.4.1
 0 Name: 10294 - Titanic - 2.9.4.1.ldr
@@ -6323,6 +6390,7 @@
 1 15 0 -112 0 1 0 0 0 1 0 0 0 1 63864.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.9.5.1.ldr
 0 Titanic - 2.9.5.1
 0 Name: 10294 - Titanic - 2.9.5.1.ldr
@@ -6345,6 +6413,7 @@
 1 15 -30 -28 48 -1 0 0 0 0 -1 0 -1 0 15207.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.9.5.2.ldr
 0 Titanic - 2.9.5.2
 0 Name: 10294 - Titanic - 2.9.5.2.ldr
@@ -6367,6 +6436,7 @@
 1 15 30 -28 48 -1 0 0 0 0 -1 0 -1 0 15207.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.9.6.ldr
 0 Titanic - 2.9.6
 0 Name: 10294 - Titanic - 2.9.6.ldr
@@ -6380,6 +6450,7 @@
 1 15 0 8 10 1 0 0 0 1 0 0 0 1 3004.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.9.7.1.ldr
 0 Titanic - 2.9.7.1
 0 Name: 10294 - Titanic - 2.9.7.1.ldr
@@ -6403,6 +6474,7 @@
 1 15 0 -40 -10 0 0 1 0 1 0 -1 0 0 15573.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.9.7.2.ldr
 0 Titanic - 2.9.7.2
 0 Name: 10294 - Titanic - 2.9.7.2.ldr
@@ -6426,6 +6498,7 @@
 1 15 0 -40 -10 0 0 -1 0 1 0 1 0 0 15573.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.10.1.0.ldr
 0 Titanic - 2.10.1.0
 0 Name: 10294 - Titanic - 2.10.1.0.ldr
@@ -6665,6 +6738,7 @@
 1 4 0 -22 -50 1 0 0 0 0.98 0.198 0 -0.198 0.98 10294 - Titanic - 2.10.2.0.ldr
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.10.1.1.ldr
 0 Titanic - 2.10.1.1
 0 Name: 10294 - Titanic - 2.10.1.1.ldr
@@ -6683,6 +6757,7 @@
 1 70 0 -8 0 -1 0 0 0 1 0 0 0 -1 3023.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.10.1.2.ldr
 0 Small white brick assembly with a tan grooved tile forming a window or detail insert.
 0 Name: 10294 - Titanic - 2.10.1.2.ldr
@@ -6699,6 +6774,7 @@
 1 19 0 -32 0 0 0 1 0 1 0 -1 0 0 3069b.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.10.1.3.ldr
 0 Compact white decorative panel with round tiles and a curved-top element forming a small porthole or vent detail.
 0 Name: 10294 - Titanic - 2.10.1.3.ldr
@@ -6722,6 +6798,7 @@
 1 15 -10 0 -16 -1 0 0 0 0 1 0 1 0 49307.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.10.1.4.ldr
 0 Small assembly with a white technic rotor and tan tiles forming a vent or fan detail.
 0 Name: 10294 - Titanic - 2.10.1.4.ldr
@@ -6740,6 +6817,7 @@
 1 19 0 -8 0 0 0 -1 0 1 0 1 0 0 63864.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.10.1.5.ldr
 0 Tiny tan-and-white fitting with a side-stud brick and clip holding a short bar, forming a small mount or handle.
 0 Name: 10294 - Titanic - 2.10.1.5.ldr
@@ -6756,6 +6834,7 @@
 1 15 0 -10 -16 0 0 -1 -1 0 0 0 1 0 10294 - Titanic - 6190a.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.10.2.0.ldr
 0 Mechanical assembly of round cylinders, technic pins, and hinge plates forming a rotating engine or funnel mechanism.
 0 Name: 10294 - Titanic - 2.10.2.0.ldr
@@ -6832,6 +6911,7 @@
 1 4 0 -10 0 1 0 0 0 1 0 0 0 1 2817.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.10.2.1.ldr
 0 Bright-light-orange bar-and-saber assembly mounted on a round pin tile, forming a small mast or antenna detail.
 0 Name: 10294 - Titanic - 2.10.2.1.ldr
@@ -6853,6 +6933,7 @@
 1 0 0 -139 0 -1 0 0 0 -1 0 0 0 1 87994.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.10.2.2.ldr
 0 Small black plate assembly with round studs, likely a base mount for rigging or fittings.
 0 Name: 10294 - Titanic - 2.10.2.2.ldr
@@ -6871,6 +6952,7 @@
 1 0 0 -8 -10 0 0 1 0 1 0 -1 0 0 6141.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.10.2.3.ldr
 0 LDCad-generated rope or line assembly approximately 225 mm long with end studs and black cylinders.
 0 Name: 10294 - Titanic - 2.10.2.3.ldr
@@ -6925,6 +7007,7 @@
 
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.10.2.3_subPart1.ldr
 0 LDCad rope segment subpart composed of 45 cylinder segments forming a flexible line.
 0 Name: 10294 - Titanic - 2.10.2.3_subPart1.ldr
@@ -7038,6 +7121,7 @@
 1 16 -80.515914 208.955748 -114.00763 -0.183867 3.241665 0.85758 0.342275 -2.148195 1.217612 1.448807 0.918901 -0.178821 4-4cyli.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.10.2.4.ldr
 0 Small black plate assembly with round studs, likely a base mount for rigging or fittings.
 0 Name: 10294 - Titanic - 2.10.2.4.ldr
@@ -7056,6 +7140,7 @@
 1 0 0 -8 -10 0 0 1 0 1 0 -1 0 0 6141.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.10.2.5.ldr
 0 LDCad-generated rope or line assembly approximately 225 mm long with end studs and black cylinders.
 0 Name: 10294 - Titanic - 2.10.2.5.ldr
@@ -7110,6 +7195,7 @@
 
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.10.2.5_subPart1.ldr
 0 LDCad rope segment subpart composed of 45 cylinder segments forming a flexible line.
 0 Name: 10294 - Titanic - 2.10.2.5_subPart1.ldr
@@ -7223,6 +7309,7 @@
 1 16 80.515914 208.955748 -114.00763 -0.183867 -3.241665 -0.85758 -0.342275 -2.148195 1.217612 -1.448807 0.918901 -0.178821 4-4cyli.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.10.3.ldr
 0 Curved white and tan deck structure with clip plates and a red accent forming a roof or railing section.
 0 Name: 10294 - Titanic - 2.10.3.ldr
@@ -7250,6 +7337,7 @@
 1 19 40 6 -30 0 0 -1 0 1 0 1 0 0 33909.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.11.1.ldr
 0 Large structural deck section built from multicolored plates and dark-red tiles forming a section of the ship's hull or deck plating.
 0 Name: 10294 - Titanic - 2.11.1.ldr
@@ -7459,6 +7547,7 @@
 1 0 -160 -58 180 0 0 -1 0 1 0 1 0 0 85984.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.11.2.ldr
 0 Large structural deck section built from multicolored plates and dark-red tiles forming a section of the ship's hull or deck plating.
 0 Name: 10294 - Titanic - 2.11.2.ldr
@@ -7668,6 +7757,7 @@
 1 0 160 -58 180 0 0 1 0 1 0 -1 0 0 85984.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.12.1.1.ldr
 0 Curved black deck slope assembly on a tan plate base, forming a hull or bow contour piece.
 0 Name: 10294 - Titanic - 2.12.1.1.ldr
@@ -7694,6 +7784,7 @@
 1 0 -20 -32 60 1 0 0 0 1 0 0 0 1 42918.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.12.1.2.ldr
 0 LDCad-generated rope or line assembly approximately 227 mm long with end studs and black cylinders.
 0 Name: 10294 - Titanic - 2.12.1.2.ldr
@@ -7746,6 +7837,7 @@
 
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.12.1.2_subPart1.ldr
 0 LDCad rope segment subpart composed of 26 cylinder segments forming a flexible line.
 0 Name: 10294 - Titanic - 2.12.1.2_subPart1.ldr
@@ -7821,6 +7913,7 @@
 1 16 552.98864 146.054504 -88.255467 0.150475 -3.977656 -0.093831 -1.49238 -0.403168 0.003231 -0.012652 0.248437 -1.497059 4-4cyli.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.12.2.1.ldr
 0 Small bright-light-orange and white bracket assembly with an inverted arch, forming a decorative support.
 0 Name: 10294 - Titanic - 2.12.2.1.ldr
@@ -7837,6 +7930,7 @@
 1 15 0 -24 10 0 0 -1 0 1 0 1 0 0 10294 - Titanic - 78666.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.12.1.3.ldr
 0 Curved black deck slope assembly on a tan plate base, forming a hull or bow contour piece.
 0 Name: 10294 - Titanic - 2.12.1.3.ldr
@@ -7863,6 +7957,7 @@
 1 0 20 -32 60 1 0 0 0 1 0 0 0 1 42918.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.12.1.4.ldr
 0 LDCad-generated rope or line assembly approximately 227 mm long with end studs and black cylinders.
 0 Name: 10294 - Titanic - 2.12.1.4.ldr
@@ -7915,6 +8010,7 @@
 
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.12.1.4_subPart1.ldr
 0 LDCad rope segment subpart composed of 26 cylinder segments forming a flexible line.
 0 Name: 10294 - Titanic - 2.12.1.4_subPart1.ldr
@@ -7990,6 +8086,7 @@
 1 16 -552.98864 146.054504 -88.255467 0.150475 3.977656 0.093831 1.49238 -0.403168 0.003231 0.012652 0.248437 -1.497059 4-4cyli.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.12.2.2.ldr
 0 Small bright-light-orange and white bracket assembly with an inverted arch, forming a decorative support.
 0 Name: 10294 - Titanic - 2.12.2.2.ldr
@@ -8006,6 +8103,7 @@
 1 15 0 -24 10 0 0 -1 0 1 0 1 0 0 10294 - Titanic - 78666.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.12.3.1.ldr
 0 Tiny white assembly of a mechanical arm on a round pin tile, forming an adjustable arm or clamp detail.
 0 Name: 10294 - Titanic - 2.12.3.1.ldr
@@ -8019,6 +8117,7 @@
 1 15 17.5 -38 0 0 -1 0 1 0 0 0 0 1 98313.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.12.3.2.ldr
 0 Curved white panel with grooved tiles and toothed plates, forming a small rounded vent or architectural detail.
 0 Name: 10294 - Titanic - 2.12.3.2.ldr
@@ -8053,6 +8152,7 @@
 1 19 0 -8 30 -1 0 0 0 1 0 0 0 -1 49668.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 2.12.4.ldr
 0 Titanic - 2.12.4
 0 Name: 10294 - Titanic - 2.12.4.ldr
@@ -8116,6 +8216,7 @@
 1 70 40 0 0 0 0 -1 0 1 0 1 0 0 33909.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - Box 2.ldr
 0 Titanic - Box 2
 0 Name: 10294 - Titanic - Box 2.ldr
@@ -8158,6 +8259,7 @@
 1 0 0 8 260 1 0 0 0 1 0 0 0 1 10294 - Titanic - 2.12.4.ldr
 
 
+0 STEP
 0 FILE 10294 - Titanic - 3.0 Funnel & Main Cabins.ldr
 0 Titanic - 3.0 Funnel & Main Cabins
 0 Name: 10294 - Titanic - 3.0 Funnel & Main Cabins.ldr
@@ -9578,6 +9680,7 @@
 
 
 
+0 STEP
 0 FILE 10294 - Titanic - 3.13.1.ldr
 0 Titanic - 3.13.1
 0 Name: 10294 - Titanic - 3.13.1.ldr
@@ -9596,6 +9699,7 @@
 1 320 0 0 50 0 0 -1 0 1 0 1 0 0 3021.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 3.13.2.0.ldr
 0 Titanic - 3.13.2.0
 0 Name: 10294 - Titanic - 3.13.2.0.ldr
@@ -9649,6 +9753,7 @@
 1 71 40 -88 0 1 0 0 0 1 0 0 0 1 30136.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 3.13.2.1.ldr
 0 Titanic - 3.13.2.1
 0 Name: 10294 - Titanic - 3.13.2.1.ldr
@@ -9677,6 +9782,7 @@
 1 71 0 -40 0 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 3.13.3.ldr
 0 Titanic - 3.13.3
 0 Name: 10294 - Titanic - 3.13.3.ldr
@@ -9707,6 +9813,7 @@
 1 0 0 -72 80 0 0 1 0 1 0 -1 0 0 2445.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 3.13.2.2.ldr
 0 Titanic - 3.13.2.2
 0 Name: 10294 - Titanic - 3.13.2.2.ldr
@@ -9771,6 +9878,7 @@
 1 71 -20 -88 0 1 0 0 0 1 0 0 0 1 3010.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 3.13.2.3.ldr
 0 Titanic - 3.13.2.3
 0 Name: 10294 - Titanic - 3.13.2.3.ldr
@@ -9799,6 +9907,7 @@
 1 71 0 -40 0 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 3.13.4.ldr
 0 Titanic - 3.13.4
 0 Name: 10294 - Titanic - 3.13.4.ldr
@@ -9820,6 +9929,7 @@
 1 71 -40 0 30 -1 0 0 0 1 0 0 0 -1 3023.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 3.14.1.ldr
 0 Titanic - 3.14.1
 0 Name: 10294 - Titanic - 3.14.1.ldr
@@ -9841,6 +9951,7 @@
 1 19 -130 16 0 0 0 -1 0 1 0 1 0 0 60593.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 3.15.1.ldr
 0 Titanic - 3.15.1
 0 Name: 10294 - Titanic - 3.15.1.ldr
@@ -10108,6 +10219,7 @@
 1 320 -60 -32 -210 0 0 1 0 1 0 -1 0 0 26603.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 3.15.2.ldr
 0 Titanic - 3.15.2
 0 Name: 10294 - Titanic - 3.15.2.ldr
@@ -10121,6 +10233,7 @@
 1 0 -10 -14 0 0 0 1 0 1 0 -1 0 0 54200.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 3.16.1.ldr
 0 Titanic - 3.16.1
 0 Name: 10294 - Titanic - 3.16.1.ldr
@@ -10388,6 +10501,7 @@
 1 320 60 -32 -210 0 0 -1 0 1 0 1 0 0 26603.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 3.18.1.ldr
 0 Titanic - 3.18.1
 0 Name: 10294 - Titanic - 3.18.1.ldr
@@ -10417,6 +10531,7 @@
 1 19 80 -16 0 1 0 0 0 1 0 0 0 1 41740.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 3.18.4.ldr
 0 Titanic - 3.18.4
 0 Name: 10294 - Titanic - 3.18.4.ldr
@@ -10456,6 +10571,7 @@
 1 15 0 -32 0 0 0 1 0 1 0 -1 0 0 60479.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 3.19.1.ldr
 0 Titanic - 3.19.1
 0 Name: 10294 - Titanic - 3.19.1.ldr
@@ -10474,6 +10590,7 @@
 1 297 -110 0 30 0 0 1 0 1 0 -1 0 0 6141.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 3.19.2.ldr
 0 Titanic - 3.19.2
 0 Name: 10294 - Titanic - 3.19.2.ldr
@@ -10487,6 +10604,7 @@
 1 15 0 0 0 1 0 0 0 1 0 0 0 1 38320.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 3.19.3.ldr
 0 Titanic - 3.19.3
 0 Name: 10294 - Titanic - 3.19.3.ldr
@@ -10510,6 +10628,7 @@
 1 15 0 -4 -100 -1 0 0 0 0 1 0 1 0 87079.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 3.20.1.0.ldr
 0 Titanic - 3.20.1.0
 0 Name: 10294 - Titanic - 3.20.1.0.ldr
@@ -10644,6 +10763,7 @@
 1 4 0 -22 -50 1 0 0 0 0.98 0.198 0 -0.198 0.98 10294 - Titanic - 2.10.2.0.ldr
 
 
+0 STEP
 0 FILE 10294 - Titanic - 3.20.1.1.ldr
 0 Titanic - 3.20.1.1
 0 Name: 10294 - Titanic - 3.20.1.1.ldr
@@ -10669,6 +10789,7 @@
 1 15 -40 -12 10 -1 0 0 0 1 0 0 0 -1 3004.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 3.20.2.ldr
 0 Titanic - 3.20.2
 0 Name: 10294 - Titanic - 3.20.2.ldr
@@ -10711,6 +10832,7 @@
 1 19 40 -32 0 1 0 0 0 1 0 0 0 1 3068b.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 3.20.3.ldr
 0 Titanic - 3.20.3
 0 Name: 10294 - Titanic - 3.20.3.ldr
@@ -10743,6 +10865,7 @@
 1 19 20 -32 0 1 0 0 0 1 0 0 0 1 3068b.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 4.0 Funnel & Compass.ldr
 0 Titanic - 4.0 Funnel & Compass
 0 Name: 10294 - Titanic - 4.0 Funnel & Compass.ldr
@@ -11990,6 +12113,7 @@
 
 
 
+0 STEP
 0 FILE 10294 - Titanic - 4.21.1.ldr
 0 Titanic - 4.21.1
 0 Name: 10294 - Titanic - 4.21.1.ldr
@@ -12008,6 +12132,7 @@
 1 320 -10 0 80 0 0 -1 0 1 0 1 0 0 3666.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 4.21.2.ldr
 0 Titanic - 4.21.2
 0 Name: 10294 - Titanic - 4.21.2.ldr
@@ -12026,6 +12151,7 @@
 1 0 0 -8 -40 -1 0 0 0 1 0 0 0 -1 2445.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 4.21.4.ldr
 0 Titanic - 4.21.4
 0 Name: 10294 - Titanic - 4.21.4.ldr
@@ -12056,6 +12182,7 @@
 1 72 0 -72 20 0 0 1 0 1 0 -1 0 0 3795.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 4.22.1.ldr
 0 Titanic - 4.22.1
 0 Name: 10294 - Titanic - 4.22.1.ldr
@@ -12320,6 +12447,7 @@
 1 320 60 -32 -210 0 0 -1 0 1 0 1 0 0 26603.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 4.23.1.ldr
 0 Titanic - 4.23.1
 0 Name: 10294 - Titanic - 4.23.1.ldr
@@ -12584,6 +12712,7 @@
 1 320 -60 -32 -210 0 0 1 0 1 0 -1 0 0 26603.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 4.25.1.ldr
 0 Titanic - 4.25.1
 0 Name: 10294 - Titanic - 4.25.1.ldr
@@ -12605,6 +12734,7 @@
 1 19 0 -16 0 1 0 0 0 1 0 0 0 1 41740.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 4.25.2.ldr
 0 Titanic - 4.25.2
 0 Name: 10294 - Titanic - 4.25.2.ldr
@@ -12630,6 +12760,7 @@
 1 14 0 -16 0 1 0 0 0 1 0 0 0 1 60479.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 4.26.1.ldr
 0 Titanic - 4.26.1
 0 Name: 10294 - Titanic - 4.26.1.ldr
@@ -12666,6 +12797,7 @@
 1 15 0 -32 -110 0 0 1 0 1 0 -1 0 0 3024.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 4.26.2.ldr
 0 Titanic - 4.26.2
 0 Name: 10294 - Titanic - 4.26.2.ldr
@@ -12702,6 +12834,7 @@
 1 15 0 -8 -90 0 0 1 0 1 0 -1 0 0 3070b.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 4.26.3.ldr
 0 Titanic - 4.26.3
 0 Name: 10294 - Titanic - 4.26.3.ldr
@@ -12726,6 +12859,7 @@
 1 71 0 8 -110 1 0 0 0 1 0 0 0 1 30136.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 4.26.4.ldr
 0 Titanic - 4.26.4
 0 Name: 10294 - Titanic - 4.26.4.ldr
@@ -12747,6 +12881,7 @@
 1 15 0 -20 -14 -1 0 0 0 0 1 0 1 0 61409.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 4.26.5.1.ldr
 0 Titanic - 4.26.5.1
 0 Name: 10294 - Titanic - 4.26.5.1.ldr
@@ -12765,6 +12900,7 @@
 1 19 0 -16 10 1 0 0 0 1 0 0 0 1 3068b.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 4.26.5.2.ldr
 0 Titanic - 4.26.5.2
 0 Name: 10294 - Titanic - 4.26.5.2.ldr
@@ -12783,6 +12919,7 @@
 1 19 0 -16 0 0 0 1 0 1 0 -1 0 0 87079.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 4.26.6.ldr
 0 Titanic - 4.26.6
 0 Name: 10294 - Titanic - 4.26.6.ldr
@@ -12802,6 +12939,7 @@
 1 19 10 0 0 0 0 1 0 1 0 -1 0 0 34103.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 4.27.1.ldr
 0 Titanic - 4.27.1
 0 Name: 10294 - Titanic - 4.27.1.ldr
@@ -12932,6 +13070,7 @@
 1 4 0 -22 -50 1 0 0 0 0.98 0.198 0 -0.198 0.98 10294 - Titanic - 2.10.2.0.ldr
 
 
+0 STEP
 0 FILE 10294 - Titanic - 4.27.1.1.ldr
 0 Titanic - 4.27.1.1
 0 Name: 10294 - Titanic - 4.27.1.1.ldr
@@ -12952,6 +13091,7 @@
 1 15 0 -12 10 -1 0 0 0 1 0 0 0 -1 3023.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 4.27.2.1.ldr
 0 Titanic - 4.27.2.1
 0 Name: 10294 - Titanic - 4.27.2.1.ldr
@@ -12976,6 +13116,7 @@
 1 19 -10 -32 10 0 0 1 0 1 0 -1 0 0 14719.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 4.27.2.2.ldr
 0 Titanic - 4.27.2.2
 0 Name: 10294 - Titanic - 4.27.2.2.ldr
@@ -13000,6 +13141,7 @@
 1 19 10 -32 10 -1 0 0 0 1 0 0 0 -1 14719.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 4.27.3.ldr
 0 Titanic - 4.27.3
 0 Name: 10294 - Titanic - 4.27.3.ldr
@@ -13097,6 +13239,7 @@
 1 15 -90 -46 44 0 0 -1 -1 0 0 0 1 0 63965a.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 4.28.1.1.ldr
 0 Titanic - 4.28.1.1
 0 Name: 10294 - Titanic - 4.28.1.1.ldr
@@ -13120,6 +13263,7 @@
 1 19 0 -32 10 -1 0 0 0 1 0 0 0 -1 3069b.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 4.28.1.2.ldr
 0 Titanic - 4.28.1.2
 0 Name: 10294 - Titanic - 4.28.1.2.ldr
@@ -13143,6 +13287,7 @@
 1 19 0 -32 10 -1 0 0 0 1 0 0 0 -1 3069b.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 4.28.2.1.ldr
 0 Titanic - 4.28.2.1
 0 Name: 10294 - Titanic - 4.28.2.1.ldr
@@ -13177,6 +13322,7 @@
 1 15 0 -60 18 1 0 0 0 1 0 0 0 1 3070b.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 4.28.2.0.ldr
 0 Titanic - 4.28.2.0
 0 Name: 10294 - Titanic - 4.28.2.0.ldr
@@ -13190,6 +13336,7 @@
 1 40 0 -60 0 1 0 0 0 1 0 0 0 1 10294 - Titanic - 4.28.2.1.ldr
 
 
+0 STEP
 0 FILE 10294 - Titanic - 4.28.3.ldr
 0 Titanic - 4.28.3
 0 Name: 10294 - Titanic - 4.28.3.ldr
@@ -13250,6 +13397,7 @@
 1 0 0 144 0 0 0 1 1 0 0 0 1 0 50451.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - Box 3.ldr
 0 Titanic - Box 3
 0 Name: 10294 - Titanic - Box 3.ldr
@@ -13320,6 +13468,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10294 - Titanic - 5.0 Funnel & Engine Room.ldr
 0 Titanic - 5.0 Funnel & Engine Room
 0 Name: 10294 - Titanic - 5.0 Funnel & Engine Room.ldr
@@ -14558,6 +14707,7 @@
 
 
 
+0 STEP
 0 FILE 10294 - Titanic - 5.29.1.ldr
 0 Dark red and grey plate assembly forming a reinforced structural base with round connector plates.
 0 Name: 10294 - Titanic - 5.29.1.ldr
@@ -14584,6 +14734,7 @@
 1 320 0 0 60 1 0 0 0 1 0 0 0 1 3034.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 5.29.2.ldr
 0 Small grey and blue plate sub-assembly forming a layered support section.
 0 Name: 10294 - Titanic - 5.29.2.ldr
@@ -14602,6 +14753,7 @@
 1 71 0 -8 -80 0 0 1 0 1 0 -1 0 0 3021.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 5.29.3.ldr
 0 Technic mechanism with gears, axles, and cylinders forming a rotating mechanical module.
 0 Name: 10294 - Titanic - 5.29.3.ldr
@@ -14652,6 +14804,7 @@
 1 0 0 -10 70 -1 0 0 0 1 0 0 0 -1 3701.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 5.29.4.ldr
 0 Compact Technic axle and joiner assembly connecting structural elements.
 0 Name: 10294 - Titanic - 5.29.4.ldr
@@ -14670,6 +14823,7 @@
 1 70 0 0 -100 -1 0 0 0 1 0 0 0 -1 59443.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 5.29.5.1.ldr
 0 Small decorative panel section with log bricks and colored plates.
 0 Name: 10294 - Titanic - 5.29.5.1.ldr
@@ -14686,6 +14840,7 @@
 1 71 -20 -32 0 1 0 0 0 1 0 0 0 1 30136.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 5.29.5.2.ldr
 0 Small decorative panel section with log bricks and contrasting colored plates.
 0 Name: 10294 - Titanic - 5.29.5.2.ldr
@@ -14702,6 +14857,7 @@
 1 71 0 -32 0 1 0 0 0 1 0 0 0 1 30136.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 5.29.6.ldr
 0 Reinforced wall section of long grey bricks and black plates with mounting holes.
 0 Name: 10294 - Titanic - 5.29.6.ldr
@@ -14725,6 +14881,7 @@
 1 0 0 -40 20 0 0 1 0 1 0 -1 0 0 3795.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 5.29.7.ldr
 0 Long structural plate section with white tiling and a supporting brick.
 0 Name: 10294 - Titanic - 5.29.7.ldr
@@ -14745,6 +14902,7 @@
 1 71 0 -24 -100 0 0 1 0 1 0 -1 0 0 3001.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 5.29.8.ldr
 0 Window assembly with frame clips and a reddish brown sill plate.
 0 Name: 10294 - Titanic - 5.29.8.ldr
@@ -14763,6 +14921,7 @@
 1 0 0 -88 0 1 0 0 0 1 0 0 0 1 11476.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 5.29.9.ldr
 0 Detailed panel section with ball joints, clips, gold accents, and white tiling.
 0 Name: 10294 - Titanic - 5.29.9.ldr
@@ -14826,6 +14985,7 @@
 1 297 70 -16 -140 -0.166 0 -0.986 0 1 0 0.986 0 -0.166 6141.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 5.30.1.1.ldr
 0 Long vertical wall section with a yellow plate, side-stud brick, and white bricks.
 0 Name: 10294 - Titanic - 5.30.1.1.ldr
@@ -14842,6 +15002,7 @@
 1 15 0 -24 -80 0 0 1 0 1 0 -1 0 0 6112.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 5.30.1.2.ldr
 0 Long vertical wall section with a yellow plate, side-stud brick, and white bricks.
 0 Name: 10294 - Titanic - 5.30.1.2.ldr
@@ -14858,6 +15019,7 @@
 1 15 0 -24 -80 0 0 -1 0 1 0 1 0 0 6112.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 5.30.2.ldr
 0 Large wall section with log bricks, tiles, and round-stud plates forming a detailed facade.
 0 Name: 10294 - Titanic - 5.30.2.ldr
@@ -14952,6 +15114,7 @@
 1 0 -10 -32 160 0 1 0 -1 0 0 0 0 1 10294 - Titanic - 1.3.2.4.ldr
 
 
+0 STEP
 0 FILE 10294 - Titanic - 5.31.1.1.ldr
 0 Ornate hull section with curved slopes, gold accents, and technic mounting elements.
 0 Name: 10294 - Titanic - 5.31.1.1.ldr
@@ -15024,6 +15187,7 @@
 1 0 60 -32 -30 0 0 1 0 1 0 -1 0 0 3068b.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 5.31.2.1.ldr
 0 Curved hull panel section with red and black slopes and decorative shield plates.
 0 Name: 10294 - Titanic - 5.31.2.1.ldr
@@ -15063,6 +15227,7 @@
 1 71 50 26 -20 0 1 0 0 0 1 1 0 0 10294 - Titanic - 30166.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 5.31.3.1.ldr
 0 Large detailed hull section with curved red bricks, gold studs, and decorative plating.
 0 Name: 10294 - Titanic - 5.31.3.1.ldr
@@ -15143,6 +15308,7 @@
 1 72 -50 -2 0 -1 0 0 0 1 0 0 0 -1 92099.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 5.31.1.2.ldr
 0 Ornate hull section with curved slopes, gold accents, and technic mounting elements.
 0 Name: 10294 - Titanic - 5.31.1.2.ldr
@@ -15215,6 +15381,7 @@
 1 0 -60 -32 -30 0 0 -1 0 1 0 1 0 0 3068b.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 5.31.2.2.ldr
 0 Curved hull panel section with red and black slopes and decorative shield plates.
 0 Name: 10294 - Titanic - 5.31.2.2.ldr
@@ -15254,6 +15421,7 @@
 1 71 -50 26 -20 0 -1 0 0 0 1 -1 0 0 10294 - Titanic - 30166.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 5.31.3.2.ldr
 0 Large detailed hull section with curved red bricks, gold studs, and decorative plating.
 0 Name: 10294 - Titanic - 5.31.3.2.ldr
@@ -15334,6 +15502,7 @@
 1 72 50 -2 0 1 0 0 0 1 0 0 0 1 92099.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 5.32.1.1.ldr
 0 Small mountable handle assembly with orange and white technic elements.
 0 Name: 10294 - Titanic - 5.32.1.1.ldr
@@ -15350,6 +15519,7 @@
 1 15 10 0 0 0 0 1 0 1 0 -1 0 0 3700.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 5.32.1.2.ldr
 0 Small mountable handle assembly with orange and white technic elements.
 0 Name: 10294 - Titanic - 5.32.1.2.ldr
@@ -15366,6 +15536,7 @@
 1 15 -10 0 0 0 0 -1 0 1 0 1 0 0 3700.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 5.32.2.ldr
 0 Windowed wall section with translucent brown panes and white stud detailing.
 0 Name: 10294 - Titanic - 5.32.2.ldr
@@ -15410,6 +15581,7 @@
 1 1 0 -20 0 0 0 1 1 0 0 0 1 0 3460.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 5.33.1.ldr
 0 Deck section with axle-hole plates and brown handle plates for railing or detailing.
 0 Name: 10294 - Titanic - 5.33.1.ldr
@@ -15443,6 +15615,7 @@
 1 19 -80 -16 10 -1 0 0 0 1 0 0 0 -1 41740.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 5.33.2.ldr
 0 Angled deck section with yellow corner plates and brown handle accents.
 0 Name: 10294 - Titanic - 5.33.2.ldr
@@ -15481,6 +15654,7 @@
 1 14 -110 -16 0 1 0 0 0 1 0 0 0 1 2420.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 5.33.3.1.ldr
 0 Long white plated section with grooved tiles forming a smooth detailed surface.
 0 Name: 10294 - Titanic - 5.33.3.1.ldr
@@ -15509,6 +15683,7 @@
 1 15 0 -8 50 0 0 1 0 1 0 -1 0 0 3024.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 5.33.3.2.ldr
 0 Titanic - 5.33.3.2
 0 Name: 10294 - Titanic - 5.33.3.2.ldr
@@ -15529,6 +15704,7 @@
 1 15 0 -8 10 0 0 1 0 1 0 -1 0 0 3024.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 5.34.1.ldr
 0 Titanic - 5.34.1
 0 Name: 10294 - Titanic - 5.34.1.ldr
@@ -15554,6 +15730,7 @@
 1 1 0 -16 -40 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 5.34.2.ldr
 0 Titanic - 5.34.2
 0 Name: 10294 - Titanic - 5.34.2.ldr
@@ -15587,6 +15764,7 @@
 1 15 0 -24 -90 -1 0 0 0 0 1 0 1 0 87079.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 5.35.1.0.ldr
 0 Titanic - 5.35.1.0
 0 Name: 10294 - Titanic - 5.35.1.0.ldr
@@ -15746,6 +15924,7 @@
 1 4 0 -22 -50 1 0 0 0 0.98 0.198 0 -0.198 0.98 10294 - Titanic - 2.10.2.0.ldr
 
 
+0 STEP
 0 FILE 10294 - Titanic - 5.35.1.1.ldr
 0 Titanic - 5.35.1.1
 0 Name: 10294 - Titanic - 5.35.1.1.ldr
@@ -15771,6 +15950,7 @@
 1 0 0 -12 10 -1 0 0 0 1 0 0 0 -1 35480.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.0 Stern & Well Deck.ldr
 0 Titanic - 6.0 Stern & Well Deck
 0 Name: 10294 - Titanic - 6.0 Stern & Well Deck.ldr
@@ -16964,6 +17144,7 @@
 1 15 -100 -352 300 -1 0 0 0 1 0 0 0 -1 10294 - Titanic - 1.4.6.ldr
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.36.1.1.ldr
 0 Titanic - 6.36.1.1
 0 Name: 10294 - Titanic - 6.36.1.1.ldr
@@ -17004,6 +17185,7 @@
 1 15 19.728 -32 240.023 0.164 0 -0.986 0 1 0 0.986 0 0.164 18674.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.36.1.2.ldr
 0 Titanic - 6.36.1.2
 0 Name: 10294 - Titanic - 6.36.1.2.ldr
@@ -17044,6 +17226,7 @@
 1 15 -19.728 -32 240.023 0.164 0 0.986 0 1 0 -0.986 0 0.164 18674.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.36.2.ldr
 0 Titanic - 6.36.2
 0 Name: 10294 - Titanic - 6.36.2.ldr
@@ -17064,6 +17247,7 @@
 1 320 -10 -8 10 0 0 1 0 1 0 -1 0 0 44728.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.36.3.ldr
 0 Titanic - 6.36.3
 0 Name: 10294 - Titanic - 6.36.3.ldr
@@ -17098,6 +17282,7 @@
 1 71 -10 8 -60 0 0 1 0 1 0 -1 0 0 99207.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.36.4.1.ldr
 0 Titanic - 6.36.4.1
 0 Name: 10294 - Titanic - 6.36.4.1.ldr
@@ -17114,6 +17299,7 @@
 1 320 -20 -8 20 -1 0 0 0 1 0 0 0 -1 61678.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.36.4.2.ldr
 0 Titanic - 6.36.4.2
 0 Name: 10294 - Titanic - 6.36.4.2.ldr
@@ -17130,6 +17316,7 @@
 1 320 20 -8 20 -1 0 0 0 1 0 0 0 -1 61678.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.36.5.ldr
 0 Titanic - 6.36.5
 0 Name: 10294 - Titanic - 6.36.5.ldr
@@ -17146,6 +17333,7 @@
 1 320 0 8 130 -1 0 0 0 1 0 0 0 -1 4286.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.36.6.1.ldr
 0 Titanic - 6.36.6.1
 0 Name: 10294 - Titanic - 6.36.6.1.ldr
@@ -17167,6 +17355,7 @@
 1 320 0 0 20 0 0 1 0 1 0 -1 0 0 85984.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.36.6.2.ldr
 0 Titanic - 6.36.6.2
 0 Name: 10294 - Titanic - 6.36.6.2.ldr
@@ -17188,6 +17377,7 @@
 1 320 0 0 20 0 0 -1 0 1 0 1 0 0 85984.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.36.6.3.ldr
 0 Titanic - 6.36.6.3
 0 Name: 10294 - Titanic - 6.36.6.3.ldr
@@ -17212,6 +17402,7 @@
 1 320 0 0 60 0 0 -1 0 1 0 1 0 0 85984.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.36.7.ldr
 0 Titanic - 6.36.7
 0 Name: 10294 - Titanic - 6.36.7.ldr
@@ -17230,6 +17421,7 @@
 1 15 0 10 -40 0 1 0 1 0 0 0 0 -1 59443.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.36.8.0.ldr
 0 Titanic - 6.36.8.0
 0 Name: 10294 - Titanic - 6.36.8.0.ldr
@@ -17312,6 +17504,7 @@
 1 4 -80 10 334 1 0 0 0 1 0 0 0 1 10294 - Titanic - 6.36.8.2.ldr
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.36.8.1.ldr
 0 Titanic - 6.36.8.1
 0 Name: 10294 - Titanic - 6.36.8.1.ldr
@@ -17330,6 +17523,7 @@
 1 297 0 0 50 1 0 0 0 -1 0 0 0 -1 10294 - Titanic - 65768.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.36.8.2.ldr
 0 Titanic - 6.36.8.2
 0 Name: 10294 - Titanic - 6.36.8.2.ldr
@@ -17343,6 +17537,7 @@
 1 297 0 0 22 0 0 1 -1 0 0 0 -1 0 59900.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.37.1.0.ldr
 0 Titanic - 6.37.1.0
 0 Name: 10294 - Titanic - 6.37.1.0.ldr
@@ -17400,6 +17595,7 @@
 1 320 -32 -22 40 0 1 0 -1 0 0 0 0 1 10294 - Titanic - 6.37.1.2.ldr
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.37.1.1.ldr
 0 Titanic - 6.37.1.1
 0 Name: 10294 - Titanic - 6.37.1.1.ldr
@@ -17421,6 +17617,7 @@
 1 320 0 8 130 -1 0 0 0 1 0 0 0 -1 4161.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.37.1.2.ldr
 0 Titanic - 6.37.1.2
 0 Name: 10294 - Titanic - 6.37.1.2.ldr
@@ -17442,6 +17639,7 @@
 1 320 0 8 130 -1 0 0 0 1 0 0 0 -1 4161.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.37.2.1.ldr
 0 Titanic - 6.37.2.1
 0 Name: 10294 - Titanic - 6.37.2.1.ldr
@@ -17490,6 +17688,7 @@
 1 15 19.728 -32 240.023 0.164 0 -0.986 0 1 0 0.986 0 0.164 18674.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.37.2.2.ldr
 0 Titanic - 6.37.2.2
 0 Name: 10294 - Titanic - 6.37.2.2.ldr
@@ -17538,6 +17737,7 @@
 1 15 -19.728 -32 240.023 0.164 0 0.986 0 1 0 -0.986 0 0.164 18674.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.37.3.ldr
 0 Titanic - 6.37.3
 0 Name: 10294 - Titanic - 6.37.3.ldr
@@ -17559,6 +17759,7 @@
 1 19 0 -24 0 0 0 -1 0 1 0 1 0 0 3022.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.37.4.0.ldr
 0 Titanic - 6.37.4.0
 0 Name: 10294 - Titanic - 6.37.4.0.ldr
@@ -17622,6 +17823,7 @@
 1 0 0 -196 40 0 1 0 0 0 1 1 0 0 59443.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.37.4.1.ldr
 0 Titanic - 6.37.4.1
 0 Name: 10294 - Titanic - 6.37.4.1.ldr
@@ -17650,6 +17852,7 @@
 1 320 0 -22 -30 0 -1 0 -1 0 0 0 0 -1 59443.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.37.4.2.ldr
 0 Titanic - 6.37.4.2
 0 Name: 10294 - Titanic - 6.37.4.2.ldr
@@ -17699,6 +17902,7 @@
 1 320 0 -90 34 1 0 0 0 0 1 0 -1 0 50950.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.37.5.1.ldr
 0 Titanic - 6.37.5.1
 0 Name: 10294 - Titanic - 6.37.5.1.ldr
@@ -17717,6 +17921,7 @@
 1 19 0 -8 -90 -1 0 0 0 1 0 0 0 -1 50340.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.37.5.2.ldr
 0 Titanic - 6.37.5.2
 0 Name: 10294 - Titanic - 6.37.5.2.ldr
@@ -17742,6 +17947,7 @@
 1 14 0 -8 -110 -1 0 0 0 1 0 0 0 -1 3023.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.37.6.ldr
 0 Titanic - 6.37.6
 0 Name: 10294 - Titanic - 6.37.6.ldr
@@ -17760,6 +17966,7 @@
 1 0 0 0 0 0 0 1 0 1 0 -1 0 0 10294 - Titanic - 32532b.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.38.1.0.ldr
 0 Titanic - 6.38.1.0
 0 Name: 10294 - Titanic - 6.38.1.0.ldr
@@ -17957,6 +18164,7 @@
 1 72 20 24 140 1 0 0 0 1 0 0 0 1 92099.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.38.1.1.ldr
 0 Titanic - 6.38.1.1
 0 Name: 10294 - Titanic - 6.38.1.1.ldr
@@ -17978,6 +18186,7 @@
 1 320 10 -16 40 0 0 -1 0 1 0 1 0 0 6081.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.38.1.2.ldr
 0 Titanic - 6.38.1.2
 0 Name: 10294 - Titanic - 6.38.1.2.ldr
@@ -18007,6 +18216,7 @@
 1 0 -10 -24 -50 0 0 -1 0 1 0 1 0 0 54200.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.38.1.3.ldr
 0 Titanic - 6.38.1.3
 0 Name: 10294 - Titanic - 6.38.1.3.ldr
@@ -18108,6 +18318,7 @@
 1 0 -40 -120 60 0 0 -1 0 1 0 1 0 0 3298.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.38.1.4.ldr
 0 Titanic - 6.38.1.4
 0 Name: 10294 - Titanic - 6.38.1.4.ldr
@@ -18142,6 +18353,7 @@
 1 320 0 -16 120 0 0 -1 0 1 0 1 0 0 69729.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.38.1.5.ldr
 0 Titanic - 6.38.1.5
 0 Name: 10294 - Titanic - 6.38.1.5.ldr
@@ -18157,6 +18369,7 @@
 1 14 0 0 0 0 0 -1 0 1 0 1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.39.1.0.ldr
 0 Titanic - 6.39.1.0
 0 Name: 10294 - Titanic - 6.39.1.0.ldr
@@ -18354,6 +18567,7 @@
 1 72 -20 24 140 -1 0 0 0 1 0 0 0 -1 92099.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.39.1.1.ldr
 0 Titanic - 6.39.1.1
 0 Name: 10294 - Titanic - 6.39.1.1.ldr
@@ -18375,6 +18589,7 @@
 1 320 -10 -16 40 0 0 1 0 1 0 -1 0 0 6081.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.39.1.2.ldr
 0 Titanic - 6.39.1.2
 0 Name: 10294 - Titanic - 6.39.1.2.ldr
@@ -18404,6 +18619,7 @@
 1 0 10 -24 -50 0 0 1 0 1 0 -1 0 0 54200.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.39.1.3.ldr
 0 Titanic - 6.39.1.3
 0 Name: 10294 - Titanic - 6.39.1.3.ldr
@@ -18505,6 +18721,7 @@
 1 0 40 -120 60 0 0 1 0 1 0 -1 0 0 3298.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.39.1.4.ldr
 0 Titanic - 6.39.1.4
 0 Name: 10294 - Titanic - 6.39.1.4.ldr
@@ -18539,6 +18756,7 @@
 1 320 0 -16 120 0 0 1 0 1 0 -1 0 0 69729.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.40.1.ldr
 0 Titanic - 6.40.1
 0 Name: 10294 - Titanic - 6.40.1.ldr
@@ -18555,6 +18773,7 @@
 1 70 0 0 0 -1 0 0 0 1 0 0 0 -1 39789.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.40.2.ldr
 0 Titanic - 6.40.2
 0 Name: 10294 - Titanic - 6.40.2.ldr
@@ -18638,6 +18857,7 @@
 1 19 0 -32 150 1 0 0 0 1 0 0 0 1 3460.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.40.3.ldr
 0 Titanic - 6.40.3
 0 Name: 10294 - Titanic - 6.40.3.ldr
@@ -18718,6 +18938,7 @@
 1 0 -50 -24 0 1 0 0 0 1 0 0 0 1 29119.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.40.4.1.ldr
 0 Titanic - 6.40.4.1
 0 Name: 10294 - Titanic - 6.40.4.1.ldr
@@ -18756,6 +18977,7 @@
 1 19 -27.948 -8 167.687 -0.164 0 -0.986 0 1 0 0.986 0 -0.164 26603.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.40.5.1.ldr
 0 Titanic - 6.40.5.1
 0 Name: 10294 - Titanic - 6.40.5.1.ldr
@@ -18797,6 +19019,7 @@
 1 0 20 -8 20 0 0 -1 0 1 0 1 0 0 28192.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.40.4.2.ldr
 0 Titanic - 6.40.4.2
 0 Name: 10294 - Titanic - 6.40.4.2.ldr
@@ -18835,6 +19058,7 @@
 1 19 27.948 -8 167.687 -0.164 0 0.986 0 1 0 -0.986 0 -0.164 26603.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.40.5.2.ldr
 0 Titanic - 6.40.5.2
 0 Name: 10294 - Titanic - 6.40.5.2.ldr
@@ -18876,6 +19100,7 @@
 1 0 -20 -8 20 0 0 1 0 1 0 -1 0 0 28192.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.41.1.1.ldr
 0 Detailed wall segment with log bricks, grooved tiles, and grille slopes forming a decorated cabin or hull section with ventilation detail.
 0 Name: 10294 - Titanic - 6.41.1.1.ldr
@@ -18953,6 +19178,7 @@
 1 0 0 -32 -50 0 1 0 -1 0 0 0 0 1 10294 - Titanic - 1.3.2.4.ldr
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.41.1.2.ldr
 0 Detailed wall segment with log bricks, grooved tiles, and grille slopes forming a decorated cabin or hull section with ventilation detail.
 0 Name: 10294 - Titanic - 6.41.1.2.ldr
@@ -19030,6 +19256,7 @@
 1 0 0 -32 -210 0 -1 0 -1 0 0 0 0 -1 10294 - Titanic - 1.3.2.4.ldr
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.41.2.ldr
 0 Small tan and black plate assembly forming a tiled mounting platform.
 0 Name: 10294 - Titanic - 6.41.2.ldr
@@ -19046,6 +19273,7 @@
 1 19 -20 -8 0 0 0 1 0 1 0 -1 0 0 3068b.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.41.3.1.ldr
 0 White bracket-mounted grille slope detail with a long brick, forming a ventilated wall section.
 0 Name: 10294 - Titanic - 6.41.3.1.ldr
@@ -19064,6 +19292,7 @@
 1 19 -10 0 0 1 0 0 0 1 0 0 0 1 3024.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.41.3.2.ldr
 0 White bracket-mounted grille slope detail with a long brick, forming a ventilated wall section.
 0 Name: 10294 - Titanic - 6.41.3.2.ldr
@@ -19082,6 +19311,7 @@
 1 19 10 0 0 1 0 0 0 1 0 0 0 1 3024.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.42.1.ldr
 0 Flat deck panel made of tan plates and white grooved tiles.
 0 Name: 10294 - Titanic - 6.42.1.ldr
@@ -19102,6 +19332,7 @@
 1 15 0 -8 -20 -1 0 0 0 1 0 0 0 -1 2431.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.42.2.ldr
 0 Small white wall detail with a bracket, brick, and tan grooved tile.
 0 Name: 10294 - Titanic - 6.42.2.ldr
@@ -19118,6 +19349,7 @@
 1 19 0 -12 -22 0 0 -1 -1 0 0 0 1 0 3069b.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.42.3.ldr
 0 Technic linkage assembly with angle connector, pins, axles, and pearl gold studs forming a pivoting mechanism.
 0 Name: 10294 - Titanic - 6.42.3.ldr
@@ -19146,6 +19378,7 @@
 1 297 20 -18 0 0 0 1 0 1 0 -1 0 0 6141.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.42.4.1.ldr
 0 Light grey log-brick wall with blue plates on a large brick base, forming a deckhouse wall section.
 0 Name: 10294 - Titanic - 6.42.4.1.ldr
@@ -19171,6 +19404,7 @@
 1 71 0 24 70 -1 0 0 0 1 0 0 0 -1 30136.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.42.4.2.ldr
 0 Small log brick segment with yellow plates forming a partition or step detail.
 0 Name: 10294 - Titanic - 6.42.4.2.ldr
@@ -19186,6 +19420,7 @@
 1 14 0 -32 0 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.42.5.ldr
 0 White rail section using vertical-bar plates and plain plates to form a railing detail.
 0 Name: 10294 - Titanic - 6.42.5.ldr
@@ -19207,6 +19442,7 @@
 1 15 40 0 0 1 0 0 0 1 0 0 0 1 88072.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.42.6.ldr
 0 White grooved tile panel forming a smooth deck or wall trim strip.
 0 Name: 10294 - Titanic - 6.42.6.ldr
@@ -19229,6 +19465,7 @@
 1 15 0 -8 40 0 0 1 0 1 0 -1 0 0 2431.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.42.7.1.ldr
 0 White and tan deck fixture with clip tiles and offset plates forming a mounted detail.
 0 Name: 10294 - Titanic - 6.42.7.1.ldr
@@ -19252,6 +19489,7 @@
 1 19 -10 -8 -10 -1 0 0 0 1 0 0 0 -1 34103.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.42.7.2.ldr
 0 White and tan deck fixture with clip tiles and offset plates forming a mounted detail.
 0 Name: 10294 - Titanic - 6.42.7.2.ldr
@@ -19275,6 +19513,7 @@
 1 19 10 -8 -10 -1 0 0 0 1 0 0 0 -1 34103.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.42.8.1.ldr
 0 Small corner assembly with clip tile and yellow plate forming a deck mounting detail.
 0 Name: 10294 - Titanic - 6.42.8.1.ldr
@@ -19294,6 +19533,7 @@
 1 14 10 0 -20 -1 0 0 0 1 0 0 0 -1 3023.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.42.8.2.ldr
 0 Small corner assembly with clip tile and yellow plate forming a deck mounting detail.
 0 Name: 10294 - Titanic - 6.42.8.2.ldr
@@ -19313,6 +19553,7 @@
 1 14 -10 0 -20 -1 0 0 0 1 0 0 0 -1 3023.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.43.1.ldr
 0 Long orange and white trim strip forming a hull or deck band detail.
 0 Name: 10294 - Titanic - 6.43.1.ldr
@@ -19327,6 +19568,7 @@
 1 15 0 -8 -40 0 0 -1 0 1 0 1 0 0 4162.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.43.2.1.ldr
 0 Blue plate assembly with a tan plate and side clip, forming a mounting fixture.
 0 Name: 10294 - Titanic - 6.43.2.1.ldr
@@ -19345,6 +19587,7 @@
 1 1 0 -16 0 1 0 0 0 1 0 0 0 1 3022.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.43.2.2.ldr
 0 Bracket-mounted rotor assembly with plates forming a pivot or rotating mechanism base.
 0 Name: 10294 - Titanic - 6.43.2.2.ldr
@@ -19369,6 +19612,7 @@
 1 1 30 -8 -40 0 0 1 0 1 0 -1 0 0 32124.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.43.3.1.ldr
 0 Red brick block with a tan plate, forming a structural hull section.
 0 Name: 10294 - Titanic - 6.43.3.1.ldr
@@ -19382,6 +19626,7 @@
 1 19 30 24 0 0 0 1 0 1 0 -1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.43.3.2.ldr
 0 Red brick block on a tan bracket, forming an angled mounting section.
 0 Name: 10294 - Titanic - 6.43.3.2.ldr
@@ -19395,6 +19640,7 @@
 1 19 30 24 0 0 0 -1 0 1 0 1 0 0 99207.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.43.4.1.ldr
 0 White brick and bracket assembly forming an angled wall detail.
 0 Name: 10294 - Titanic - 6.43.4.1.ldr
@@ -19408,6 +19654,7 @@
 1 15 0 24 -10 1 0 0 0 1 0 0 0 1 73825.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.43.4.2.ldr
 0 Technic axle-and-brick assembly forming a keyed mounting connection.
 0 Name: 10294 - Titanic - 6.43.4.2.ldr
@@ -19424,6 +19671,7 @@
 1 15 0 0 -20 -1 0 0 0 1 0 0 0 -1 10294 - Titanic - 73230.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.43.5.1.ldr
 0 Tan curved-and-sloped detail on a bracket, forming a contoured hull or cabin edge.
 0 Name: 10294 - Titanic - 6.43.5.1.ldr
@@ -19445,6 +19693,7 @@
 1 19 14 10 30 0 -1 0 -1 0 0 0 0 -1 54200.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.43.5.2.ldr
 0 Tan curved-and-sloped detail on a bracket, forming a contoured hull or cabin edge.
 0 Name: 10294 - Titanic - 6.43.5.2.ldr
@@ -19466,6 +19715,7 @@
 1 19 -14 10 30 0 1 0 1 0 0 0 0 -1 54200.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.43.6.1.ldr
 0 Titanic - 6.43.6.1
 0 Name: 10294 - Titanic - 6.43.6.1.ldr
@@ -19482,6 +19732,7 @@
 1 19 0 -8 -10 0 0 -1 0 1 0 1 0 0 54200.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.43.6.2.ldr
 0 Titanic - 6.43.6.2
 0 Name: 10294 - Titanic - 6.43.6.2.ldr
@@ -19498,6 +19749,7 @@
 1 19 0 -8 -10 0 0 1 0 1 0 -1 0 0 54200.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.43.6.3.ldr
 0 Titanic - 6.43.6.3
 0 Name: 10294 - Titanic - 6.43.6.3.ldr
@@ -19520,6 +19772,7 @@
 1 19 0 -16 -10 0 0 -1 0 1 0 1 0 0 54200.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.43.6.4.ldr
 0 Titanic - 6.43.6.4
 0 Name: 10294 - Titanic - 6.43.6.4.ldr
@@ -19542,6 +19795,7 @@
 1 19 0 -16 -10 0 0 1 0 1 0 -1 0 0 54200.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.43.7.ldr
 0 Titanic - 6.43.7
 0 Name: 10294 - Titanic - 6.43.7.ldr
@@ -19555,6 +19809,7 @@
 1 19 0 -8 0 1 0 0 0 1 0 0 0 1 87079.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.43.8.ldr
 0 Titanic - 6.43.8
 0 Name: 10294 - Titanic - 6.43.8.ldr
@@ -19589,6 +19844,7 @@
 1 19 40 -32 0 0 0 -1 0 1 0 1 0 0 3070b.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.44.1.0.ldr
 0 Titanic - 6.44.1.0
 0 Name: 10294 - Titanic - 6.44.1.0.ldr
@@ -19748,6 +20004,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.44.1.1.ldr
 0 Titanic - 6.44.1.1
 0 Name: 10294 - Titanic - 6.44.1.1.ldr
@@ -19769,6 +20026,7 @@
 1 191 0 8 40 0 0 1 0 1 0 -1 0 0 3710.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.44.1.2.ldr
 0 Titanic - 6.44.1.2
 0 Name: 10294 - Titanic - 6.44.1.2.ldr
@@ -19801,6 +20059,7 @@
 1 15 0 -40 -50 -1 0 0 0 1 0 0 0 -1 15712.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.44.1.3.ldr
 0 Titanic - 6.44.1.3
 0 Name: 10294 - Titanic - 6.44.1.3.ldr
@@ -19819,6 +20078,7 @@
 1 15 0 -8 40 0 0 -1 0 1 0 1 0 0 63864.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.44.2.ldr
 0 Titanic - 6.44.2
 0 Name: 10294 - Titanic - 6.44.2.ldr
@@ -26056,6 +26316,7 @@
 5 24 221.847794 -0.7654 396 221.842255 -0.7654 394.295319 222 0 396 221.4142 -1.4142 396
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.45.1.1.ldr
 0 Titanic - 6.45.1.1
 0 Name: 10294 - Titanic - 6.45.1.1.ldr
@@ -26072,6 +26333,7 @@
 1 0 0 0 30 0 0 -1 0 1 0 1 0 0 85984.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.45.1.2.ldr
 0 Titanic - 6.45.1.2
 0 Name: 10294 - Titanic - 6.45.1.2.ldr
@@ -26088,6 +26350,7 @@
 1 0 0 0 30 0 0 1 0 1 0 -1 0 0 85984.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.45.2.0.ldr
 0 Titanic - 6.45.2.0
 0 Name: 10294 - Titanic - 6.45.2.0.ldr
@@ -26207,6 +26470,7 @@
 1 72 -60 -64 70 1 0 0 0 1 0 0 0 1 10294 - Titanic - 6.45.3.ldr
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.45.2.1.ldr
 0 Titanic - 6.45.2.1
 0 Name: 10294 - Titanic - 6.45.2.1.ldr
@@ -26238,6 +26502,7 @@
 1 15 44 -14 30 0 1 0 1 0 0 0 0 -1 63965a.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.45.2.2.ldr
 0 Titanic - 6.45.2.2
 0 Name: 10294 - Titanic - 6.45.2.2.ldr
@@ -26251,6 +26516,7 @@
 1 15 0 10 -10 0 0 -1 -1 0 0 0 1 0 30374.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.45.3.ldr
 0 Titanic - 6.45.3
 0 Name: 10294 - Titanic - 6.45.3.ldr
@@ -26272,6 +26538,7 @@
 1 72 0 -22 22 1 0 0 0 0 1 0 -1 0 2412b.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.45.4.ldr
 0 Titanic - 6.45.4
 0 Name: 10294 - Titanic - 6.45.4.ldr
@@ -26298,6 +26565,7 @@
 1 19 0 -32 0 -1 0 0 0 1 0 0 0 -1 3068b.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.45.5.ldr
 0 Titanic - 6.45.5
 0 Name: 10294 - Titanic - 6.45.5.ldr
@@ -26367,6 +26635,7 @@
 1 71 0 -371.124 27.748 1 0 0 0 0.191 0.982 0 -0.982 0.191 14704.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.45.6.1.ldr
 0 Titanic - 6.45.6.1
 0 Name: 10294 - Titanic - 6.45.6.1.ldr
@@ -26419,6 +26688,7 @@
 
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.45.6.1_subPart1.ldr
 0 Titanic - 6.45.6.1_subPart1
 0 Name: 10294 - Titanic - 6.45.6.1_subPart1.ldr
@@ -26472,6 +26742,7 @@
 1 16 541.928785 -164.040744 130.090699 0.184224 -3.27297 0.841227 -0.20186 2.183116 1.240224 -1.474895 -0.707606 -0.064667 4-4cyli.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.45.6.2.ldr
 0 Titanic - 6.45.6.2
 0 Name: 10294 - Titanic - 6.45.6.2.ldr
@@ -26524,6 +26795,7 @@
 
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.45.6.2_subPart1.ldr
 0 Titanic - 6.45.6.2_subPart1
 0 Name: 10294 - Titanic - 6.45.6.2_subPart1.ldr
@@ -26577,6 +26849,7 @@
 1 16 541.925865 -164.045764 -130.090632 -0.184274 -3.273198 0.841089 0.20188 2.182726 1.240316 -1.474886 0.707727 0.064686 4-4cyli.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.45.7.1.ldr
 0 Titanic - 6.45.7.1
 0 Name: 10294 - Titanic - 6.45.7.1.ldr
@@ -26593,6 +26866,7 @@
 1 15 0 -12 -14 -1 0 0 0 0 1 0 1 0 61409.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.45.7.2.ldr
 0 Titanic - 6.45.7.2
 0 Name: 10294 - Titanic - 6.45.7.2.ldr
@@ -26611,6 +26885,7 @@
 1 4 0 -30 0 0 1 0 -1 0 0 0 0 1 32062.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.45.7.3.ldr
 0 A flexible rope/string assembly made of segmented cylinders with black end caps.
 0 Name: 10294 - Titanic - 6.45.7.3.ldr
@@ -26665,6 +26940,7 @@
 
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.45.7.3_subPart1.ldr
 0 A rope segment subpart consisting of 39 main-coloured cylinders forming a flexible path.
 0 Name: 10294 - Titanic - 6.45.7.3_subPart1.ldr
@@ -26766,6 +27042,7 @@
 1 16 -251.017036 28 436.786054 -0.006203 1.931034 -1.31424 1.499983 0 -0.00708 -0.003412 -3.510179 -0.722995 4-4cyli.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.45.8.ldr
 0 A white deck section with lattice fences, panels, tiles, and zip line handles forming a railing or platform detail.
 0 Name: 10294 - Titanic - 6.45.8.ldr
@@ -26835,6 +27112,7 @@
 1 72 40 -14 -50 0 1 0 1 0 0 0 0 -1 30229.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.46.1.0.ldr
 0 A Technic engine assembly with crankshafts, pistons, gears, axles, and lattice fencing mounted on a base plate.
 0 Name: 10294 - Titanic - 6.46.1.0.ldr
@@ -26940,6 +27218,7 @@
 1 72 0 -72 60 1 0 0 0 -1 0 0 0 -1 10294 - Titanic - 6.46.1.4.ldr
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.46.1.1.ldr
 0 A small structural detail using a dark bluish grey plate with two 45-degree slope plates.
 0 Name: 10294 - Titanic - 6.46.1.1.ldr
@@ -26956,6 +27235,7 @@
 1 71 20 -8 0 0 0 -1 0 1 0 1 0 0 15672.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.46.1.2.ldr
 0 A piston mechanism combining an axle joiner, towball, and round engine piston.
 0 Name: 10294 - Titanic - 6.46.1.2.ldr
@@ -26972,6 +27252,7 @@
 1 14 0 -32 0 1 0 0 0 1 0 0 0 1 2851.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.46.1.3.ldr
 0 A small window assembly with a light bluish grey window frame and two round pin tiles.
 0 Name: 10294 - Titanic - 6.46.1.3.ldr
@@ -26988,6 +27269,7 @@
 1 71 -10 -8 0 1 0 0 0 1 0 0 0 1 20482.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.46.1.4.ldr
 0 An engine component built from an inverted slope brick with barrels and dishes representing machinery detail.
 0 Name: 10294 - Titanic - 6.46.1.4.ldr
@@ -27008,6 +27290,7 @@
 1 72 0 -24 20 1 0 0 0 1 0 0 0 1 2489.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.46.2.ldr
 0 A flexible rope/string assembly with black end caps and main-coloured string ends.
 0 Name: 10294 - Titanic - 6.46.2.ldr
@@ -27061,6 +27344,7 @@
 
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.46.2_subPart1.ldr
 0 A rope segment subpart of 14 main-coloured cylinders forming a curved path.
 0 Name: 10294 - Titanic - 6.46.2_subPart1.ldr
@@ -27112,6 +27396,7 @@
 1 16 635.626384 7.00317 0 0 -590.908842 -0.007591 0 -2.990619 1.499981 -1.5 0 0 4-4cyli.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.46.3.ldr
 0 A long flexible rope/string assembly with black end caps and string end studs.
 0 Name: 10294 - Titanic - 6.46.3.ldr
@@ -27164,6 +27449,7 @@
 
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.46.3_subPart1.ldr
 0 A single-segment rope subpart consisting of one main-coloured cylinder.
 0 Name: 10294 - Titanic - 6.46.3_subPart1.ldr
@@ -27189,6 +27475,7 @@
 1 16 810.50007 -5.005001 0 0 -801.000141 0.014999 0 8.010001 1.499925 -1.5 0 0 4-4cyli.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6.46.4.ldr
 0 A wooden-toned deck section with door rails and round tiles spelling 'TITANIC' in metallic silver letters.
 0 Name: 10294 - Titanic - 6.46.4.ldr
@@ -27235,6 +27522,7 @@
 
 
 
+0 STEP
 0 FILE 10294 - Titanic - 77180.dat
 0 A custom part file with no directly listed pieces, likely a specialized decorative element.
 0 Name: 10294 - Titanic - 77180.dat
@@ -27251,6 +27539,7 @@
 1 16 0 0 0 -1 0 0 0 1 0 0 0 1 s\10294 - Titanic - 77182s01.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 77182.dat
 0 A custom part file with no directly listed pieces, likely a specialized decorative element.
 0 Name: 10294 - Titanic - 77182.dat
@@ -27267,6 +27556,7 @@
 1 16 0 0 0 0 0 1 0 1 0 -1 0 0 stud.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 93606p04.dat
 0 A printed surface part featuring a top surface pattern.
 0 Name: 10294 - Titanic - 93606p04.dat
@@ -27284,6 +27574,7 @@
 1 191 20 149.253 40 0 -8 0 -149.253 0 0 0 0 -160 48\1-12cyli.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 93606p03.dat
 0 A printed surface part featuring a top surface pattern.
 0 Name: 10294 - Titanic - 93606p03.dat
@@ -27301,6 +27592,7 @@
 1 191 -20 149.253 40 0 8 0 -149.253 0 0 0 0 -160 48\1-12cyli.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 28974a.dat
 0 A geometric primitive part composed of cylinders, discs, chords, and rectangles forming a hollow ring shape.
 0 Name: 10294 - Titanic - 28974a.dat
@@ -27383,6 +27675,7 @@
 4 16 6 -3 -6 -6 -3 -6 -10 -3 -14 10 -3 -14
 
 
+0 STEP
 0 FILE 10294 - Titanic - 26603pt0.dat
 0 A printed round tile surface displaying the letters 'TITANIC'.
 0 Name: 10294 - Titanic - 26603pt0.dat
@@ -27503,6 +27796,7 @@
 4 16 21.879 0 10.879 22.851999 0 10.228 24 0 10 25.148001 0 10.228
 
 
+0 STEP
 0 FILE 10294 - Titanic - 78666.dat
 0 A geometric box-based primitive part with rectangular faces defining a hollow structure.
 0 Name: 10294 - Titanic - 78666.dat
@@ -27601,6 +27895,7 @@
 3 16 10 4 -10 10 0 -10 -10 0 -10
 
 
+0 STEP
 0 FILE 10294 - Titanic - ldcRigid3mmHoseCap.dat
 0 A rigid hose end cap primitive made of cylinders, rings, and a circle.
 0 Name: 10294 - Titanic - ldcRigid3mmHoseCap.dat
@@ -27633,6 +27928,7 @@
 1 16 0 1 0 4 0 0 0 1 0 0 0 4 10294 - Titanic - ldcConRing-4-4.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - ldcRigid3mmHoseSeg.dat
 0 A rigid hose segment primitive consisting of a single main-coloured cylinder.
 0 Name: 10294 - Titanic - ldcRigid3mmHoseSeg.dat
@@ -27656,6 +27952,7 @@
 1 16 0 1 0 4 0 0 0 1 0 0 0 4 10294 - Titanic - ldcConRing-4-4.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - ldcLQRopeSeg.dat
 0 A rope segment primitive consisting of a single main-coloured cylinder.
 0 Name: 10294 - Titanic - ldcLQRopeSeg.dat
@@ -27672,6 +27969,7 @@
 1 16 0 0 0 1.5 0 0 0 1 0 0 0 1.5 4-4cyli.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - ldcRopeEnd.dat
 0 A rope end primitive consisting of a single main-coloured cylinder.
 0 Name: 10294 - Titanic - ldcRopeEnd.dat
@@ -27688,6 +27986,7 @@
 1 16 0 0 0 1.5 0 0 0 4 0 0 0 1.5 4-4cyli.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 73111.dat
 0 A Technic primitive part with an axle hole, composed of rectangles, cylinders, rings, and discs forming a circular connector.
 0 Name: 10294 - Titanic - 73111.dat
@@ -27916,6 +28215,7 @@
 1 16 0 24 0 1 0 0 0 1 0 0 0 1 stug2-2x2.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 30166.dat
 0 A simple front surface panel piece.
 0 Name: 10294 - Titanic - 30166.dat
@@ -27937,6 +28237,7 @@
 3 16 0 30 -18 -14.136 0 -18 -14.136 30 -18
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6190a.dat
 0 A rounded mechanical component built from cylinders, spheres, and joint connectors.
 0 Name: 10294 - Titanic - 6190a.dat
@@ -27979,6 +28280,7 @@
 1 16 20 0 0 -6 0 0 0 -1 0 0 0 6 4-4edge.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 6259.dat
 0 An empty submodel acting as a placeholder with no direct pieces.
 0 Name: 10294 - Titanic - 6259.dat
@@ -28001,6 +28303,7 @@
 
 
 
+0 STEP
 0 FILE 10294 - Titanic - 43045.dat
 0 A single closed cylindrical element.
 0 Name: 10294 - Titanic - 43045.dat
@@ -28019,6 +28322,7 @@
 1 16 0 4 20 6 0 0 0 4 0 0 0 6 4-4cylc.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 64567a.dat
 0 A detailed rotating component with rings, cylinders, and directional degree markers.
 0 Name: 10294 - Titanic - 64567a.dat
@@ -28079,6 +28383,7 @@
 1 16 1.75 30.75 5.5519 0 -1 0 0.25 0 0 0 0 -0.1 rect3.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 65249.dat
 0 A small technic assembly combining a pin, disc, circle, and axle.
 0 Name: 10294 - Titanic - 65249.dat
@@ -28098,6 +28403,7 @@
 1 16 -10 0 0 0 40 0 -1 0 0 0 0 1 axle.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 65768.dat
 0 A cylindrical connector piece with multiple open cylinders, rings, and chord details.
 0 Name: 10294 - Titanic - 65768.dat
@@ -28263,6 +28569,7 @@
 3 16 0 -10 -2 3.827 -9.239 -3.7395 11 -27 -7
 
 
+0 STEP
 0 FILE 10294 - Titanic - 22385px1.dat
 0 An empty decorative printed part submodel.
 0 Name: 10294 - Titanic - 22385px1.dat
@@ -28840,6 +29147,7 @@
 3 16 5.8 0 -18.15 5.6 0 -17.549999 0 0 -24.353001
 
 
+0 STEP
 0 FILE 10294 - Titanic - 44301b.dat
 0 A single box-shaped structural element with three faces.
 0 Name: 10294 - Titanic - 44301b.dat
@@ -28860,6 +29168,7 @@
 4 16 -20 8 -10 -16 8 -6 16 8 -6 20 8 -10
 
 
+0 STEP
 0 FILE 10294 - Titanic - 32532b.dat
 0 A technic beam-like part with box frames and numerous cylinder joints.
 0 Name: 10294 - Titanic - 32532b.dat
@@ -28947,6 +29256,7 @@
 1 16 60 18 -50 1 0 0 0 1 0 0 0 1 cylj4x8.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 78444.dat
 0 An empty submodel with no direct pieces.
 0 Name: 10294 - Titanic - 78444.dat
@@ -28961,6 +29271,7 @@
 1 16 -10 0 50 0 0 -1 0 1 0 1 0 0 stud.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 78443.dat
 0 An empty submodel with no direct pieces.
 0 Name: 10294 - Titanic - 78443.dat
@@ -28975,6 +29286,7 @@
 1 16 10 0 50 0 0 -1 0 1 0 1 0 0 stud.dat
 
 
+0 STEP
 0 FILE 10294 - Titanic - 93273pt0.dat
 0 A printed letter tile spelling out a word using individual letter glyphs.
 0 Name: 10294 - Titanic - 93273pt0.dat
@@ -29344,6 +29656,7 @@
 5 24 -10 -7.532 34.436001 10 -7.532 34.436001 -10 -10.51 28.284 -10 -4 40
 
 
+0 STEP
 0 FILE 10294 - Titanic - 73230.dat
 0 A technic connector block with axle holes, discs, and rectangular edge details.
 0 Name: 10294 - Titanic - 73230.dat
@@ -29425,6 +29738,7 @@
 2 24 -2 15.602 10 -2 15.602 6
 
 
+0 STEP
 0 FILE 10294 - Titanic - 14769ptt.dat
 0 A small metallic silver ring with a black adapter ring.
 0 Name: 10294 - Titanic - 14769ptt.dat
@@ -29461,6 +29775,7 @@
 4 0 -6.889 0 16.629999 -12.728 0 12.728 -8 0 10 0 0 18
 
 
+0 STEP
 0 FILE 10294 - Titanic - 14769pti.dat
 0 A small metallic silver ring with a black adapter ring.
 0 Name: 10294 - Titanic - 14769pti.dat
@@ -29492,6 +29807,7 @@
 4 0 -16.629999 0 6.889 -18 0 0 -1.5 0 10 -12.728 0 12.728
 
 
+0 STEP
 0 FILE 10294 - Titanic - 14769pta.dat
 0 A small metallic silver ring with a black adapter ring.
 0 Name: 10294 - Titanic - 14769pta.dat
@@ -29532,6 +29848,7 @@
 4 0 -6.889 0 16.629999 -12.728 0 12.728 -1.5 0 10 0 0 18
 
 
+0 STEP
 0 FILE 10294 - Titanic - 14769ptn.dat
 0 A small metallic silver ring with a black adapter ring.
 0 Name: 10294 - Titanic - 14769ptn.dat
@@ -29571,6 +29888,7 @@
 4 0 -12.728 0 12.728 -16.629999 0 6.889 -8 0 10 -6.889 0 16.629999
 
 
+0 STEP
 0 FILE 10294 - Titanic - 14769ptc.dat
 0 A small metallic silver ring with a black adapter ring.
 0 Name: 10294 - Titanic - 14769ptc.dat
@@ -29623,6 +29941,7 @@
 3 0 18 0 0 16.629999 0 6.889 16.629999 0 -6.889
 
 
+0 STEP
 0 FILE s\10294 - Titanic - 77182s02.dat
 0 Titanic - 77182s02
 0 Name: s\10294 - Titanic - 77182s02.dat
@@ -30138,6 +30457,7 @@
 5 24 -29.573 19.5746 -111.326698 -30 21.184999 -104.192001 -29.573 16.547001 -100.0149 -30 23.58 -113.665001
 
 
+0 STEP
 0 FILE s\10294 - Titanic - 77182s01.dat
 0 Titanic - 77182s01
 0 Name: s\10294 - Titanic - 77182s01.dat
@@ -31131,6 +31451,7 @@
 5 24 -10.8395 3.2925 -88.031502 -10.8395 5.773 -100.5905 6 3.207 -90.183998 -15.391 6.5755 -98.619003
 
 
+0 STEP
 0 FILE 10294 - Titanic - ldcConRing-4-4.dat
 0 An LDCad flexible connector ring with path deform scaling notes.
 0 Name: 10294 - Titanic - ldcConRing-4-4.dat
@@ -31164,6 +31485,7 @@
 5 24 0.9239 0 -0.3827 1 0 0 0.9239 -1 -0.3827 0.9239 1 -0.3827
 
 
+0 STEP
 0 FILE s\10294 - Titanic - 30166s01.dat
 0 Titanic - 30166s01
 0 Name: s\10294 - Titanic - 30166s01.dat
@@ -31181,6 +31503,7 @@
 1 16 -14 0 0 0 28 0 -4 0 0 0 0 4 4-4cylo.dat
 
 
+0 STEP
 0 FILE s\10294 - Titanic - 30166s02.dat
 0 Titanic - 30166s02
 0 Name: s\10294 - Titanic - 30166s02.dat
@@ -31246,6 +31569,7 @@
 2 24 -14.136 -30 -18 14.136 -30 -18
 
 
+0 STEP
 0 FILE s\10294 - Titanic - 30166s03.dat
 0 Titanic - 30166s03
 0 Name: s\10294 - Titanic - 30166s03.dat
@@ -31324,6 +31648,7 @@
 1 16 10 -20 -18 0 0 4 4 0 0 0 1 0 4-4edge.dat
 
 
+0 STEP
 0 FILE s\10294 - Titanic - 6259s02.dat
 0 A half-cylinder subpart with rings and discs forming a rounded, tiered circular structure.
 0 Name: s\10294 - Titanic - 6259s02.dat
@@ -31412,6 +31737,7 @@
 1 16 -10 0 -30 1 0 0 0 1 0 0 0 1 stud2.dat
 
 
+0 STEP
 0 FILE s\10294 - Titanic - 6259s01.dat
 0 A small open cylindrical stud subpart with a hollow tube opening.
 0 Name: s\10294 - Titanic - 6259s01.dat
@@ -31507,6 +31833,7 @@
 5 24 -20 96 -34.639999 -20 92 -34.639999 -23.691999 92 -32.175999 -15.308 96 -36.900002
 
 
+0 STEP
 0 FILE s\10294 - Titanic - 64567s01.dat
 0 A large cylindrical wheel subpart with multiple concentric rings and open cylinders forming a detailed circular rim.
 0 Name: s\10294 - Titanic - 64567s01.dat
@@ -31570,6 +31897,7 @@
 1 16 0 0 0 0 0 -1 0 1 0 1 0 0 s\10294 - Titanic - 64567s02.dat
 
 
+0 STEP
 0 FILE s\10294 - Titanic - 64567s02.dat
 0 A minimal flat subpart consisting of a single rectangle and small circle element.
 0 Name: s\10294 - Titanic - 64567s02.dat
@@ -31617,6 +31945,7 @@
 4 16 4.5 26 -1.75 3.549 26 -1.75 3.549 28 -1.75 5.6519 28 -1.75
 
 
+0 STEP
 0 FILE s\10294 - Titanic - 98286s01.dat
 0 A complex multi-section subpart with rectangles, connector holes, studs, and various cylindrical details suggesting a technic-compatible mechanical fitting.
 0 Name: s\10294 - Titanic - 98286s01.dat
@@ -31767,6 +32096,7 @@
 5 24 0 13.8268 30.7612 16 13.8268 30.7612 0 17.070999 32.929001 0 9.9999 29.999701
 
 
+0 STEP
 0 FILE s\10294 - Titanic - 44301s01.dat
 0 A hinged plate subpart with a click-lock finger and box-shaped mounting element.
 0 Name: s\10294 - Titanic - 44301s01.dat
@@ -31801,6 +32131,7 @@
 1 16 20 2 0 0 0 -1 0 1 0 1 0 0 clh6.dat
 
 
+0 STEP
 0 FILE s\10294 - Titanic - 32532s01.dat
 0 A detailed technic connector subpart with numerous box faces, peg holes, stud tubes, and structured zones forming a complex bracket.
 0 Name: s\10294 - Titanic - 32532s01.dat
@@ -32311,6 +32642,7 @@
 2 24 59.5 17.9006 56 59.5 17.9006 57
 
 
+0 STEP
 0 FILE s\10294 - Titanic - 32532s02.dat
 0 A compact technic subpart with a peg hole end, connector hole, and negative disc cutouts defining an attachment point.
 0 Name: s\10294 - Titanic - 32532s02.dat
@@ -32367,6 +32699,7 @@
 2 24 0.5 17.9006 6 0.5 17.9006 7
 
 
+0 STEP
 0 FILE s\10294 - Titanic - 78444s01.dat
 0 A large bottom-facing subpart with many rectangles, studs, and tubes forming a detailed underside plate with mounting features.
 0 Name: s\10294 - Titanic - 78444s01.dat
@@ -32577,6 +32910,7 @@
 
 
 
+0 STEP
 0 FILE s\10294 - Titanic - 93273s01.dat
 0 A structured subpart with sloped cylinders, stud holes, and rectangular panels forming a curved bracket or connector element.
 0 Name: s\10294 - Titanic - 93273s01.dat

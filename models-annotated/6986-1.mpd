@@ -14,6 +14,7 @@
 
 
 
+0 STEP
 0 FILE 6986 - Pod.ldr
 0 Small compact escape pod built from a bracket base, slopes, and inverted dishes forming a rounded capsule with control sticks.
 0 Name: 6986 - Pod.ldr
@@ -50,6 +51,7 @@
 
 
 
+0 STEP
 0 FILE 6986 - Pod + Minifig.ldr
 0 Assembly combining the escape pod with an accompanying minifigure.
 0 Name: 6986 - Pod + Minifig.ldr
@@ -64,6 +66,7 @@
 
 
 
+0 STEP
 0 FILE 6986 - Vehicle.ldr
 0 Compact wheeled rover with mudguard, wheel-pin plates, and hinged control elements on a blue and black chassis.
 0 Name: 6986 - Vehicle.ldr
@@ -136,6 +139,7 @@
 
 
 
+0 STEP
 0 FILE 6986 - Vehicle + Minifig.ldr
 0 Assembly combining the rover vehicle with an accompanying minifigure.
 0 Name: 6986 - Vehicle + Minifig.ldr
@@ -150,6 +154,7 @@
 
 
 
+0 STEP
 0 FILE 6986 - Jail.ldr
 0 Detention cell module with window panels, patterned Space Police side panels, and an inverted slope roof.
 0 Name: 6986 - Jail.ldr
@@ -203,6 +208,7 @@
 
 
 
+0 STEP
 0 FILE 6986 - Jail - Door.ldr
 0 Hinged barred door for the jail module, built from a 45-degree slope with vertical bar and antenna rods.
 0 Name: 6986 - Jail - Door.ldr
@@ -241,6 +247,7 @@
 
 
 
+0 STEP
 0 FILE 6986 - Spaceship.ldr
 0 Main hull of a large spaceship with long plates, large wings, and sloped surfaces forming the central fuselage.
 0 Name: 6986 - Spaceship.ldr
@@ -519,6 +526,7 @@
 
 
 
+0 STEP
 0 FILE 6986 - Spaceship - 1.ldr
 0 Base platform subassembly using large plates and hinges forming the structural foundation of the spaceship.
 0 Name: 6986 - Spaceship - 1.ldr
@@ -557,6 +565,7 @@
 
 
 
+0 STEP
 0 FILE 6986 - Spaceship - 2.ldr
 0 Internal support module with large plates and round support bricks reinforcing the spaceship body.
 0 Name: 6986 - Spaceship - 2.ldr
@@ -601,6 +610,7 @@
 
 
 
+0 STEP
 0 FILE 6986 - Spaceship - Wing 1.ldr
 0 Left wing assembly with large wing elements, hinge plates, and a round reinforced mounting point.
 0 Name: 6986 - Spaceship - Wing 1.ldr
@@ -633,6 +643,7 @@
 1 0 30 -14 0 0 1 0 -1 0 0 0 0 1 6986 - Spaceship - Wing 1 - Laser.ldr
 
 
+0 STEP
 0 FILE 6986 - Spaceship - Wing 1 - Laser.ldr
 0 Left wing-mounted laser cannon with jet engine plate, trans-red dish, and antenna barrel.
 0 Name: 6986 - Spaceship - Wing 1 - Laser.ldr
@@ -665,6 +676,7 @@
 
 
 
+0 STEP
 0 FILE 6986 - Spaceship - Wing 2.ldr
 0 Right wing assembly mirroring the left, with wing elements, hinge plates, and a round mounting point.
 0 Name: 6986 - Spaceship - Wing 2.ldr
@@ -698,6 +710,7 @@
 
 
 
+0 STEP
 0 FILE 6986 - Spaceship - Wing 2 - Laser.ldr
 0 Right wing-mounted laser cannon with jet engine plate, trans-red dish, and antenna barrel.
 0 Name: 6986 - Spaceship - Wing 2 - Laser.ldr
@@ -730,6 +743,7 @@
 
 
 
+0 STEP
 0 FILE 6986 - Spaceship - Cockpit.ldr
 0 Cockpit assembly for the spaceship, composed of several layered hinge and slope substructures.
 0 Name: 6986 - Spaceship - Cockpit.ldr
@@ -746,6 +760,7 @@
 1 0 26 26 -280 1 0 0 0 1 0 0 0 1 6986 - Spaceship - Cockpit - 4.ldr
 
 
+0 STEP
 0 FILE 6986 - Spaceship - Cockpit - 1.ldr
 0 Forward cockpit frame with hinge plates and a long rack forming the nose structure.
 0 Name: 6986 - Spaceship - Cockpit - 1.ldr
@@ -770,6 +785,7 @@
 
 
 
+0 STEP
 0 FILE 6986 - Spaceship - Cockpit - 2.ldr
 0 Cockpit hinge substructure with finger hinge plates and an inverted slope forming angled panels.
 0 Name: 6986 - Spaceship - Cockpit - 2.ldr
@@ -796,6 +812,7 @@
 
 
 
+0 STEP
 0 FILE 6986 - Spaceship - Cockpit - 3.ldr
 0 Large cockpit superstructure with cutout wing, wedge, brackets, and long bricks forming the command section.
 0 Name: 6986 - Spaceship - Cockpit - 3.ldr
@@ -869,6 +886,7 @@
 1 36 0 -56 -54 1 0 0 0 1 0 0 0 1 2507.dat
 
 
+0 STEP
 0 FILE 6986 - Spaceship - Glass 1.ldr
 0 Left canopy section of transparent trans-red panels and corner convex glass with hinged mounting.
 0 Name: 6986 - Spaceship - Glass 1.ldr
@@ -896,6 +914,7 @@
 
 
 
+0 STEP
 0 FILE 6986 - Spaceship - Glass 2.ldr
 0 Right canopy section of transparent trans-red panels and corner convex glass with hinged mounting.
 0 Name: 6986 - Spaceship - Glass 2.ldr
@@ -922,6 +941,7 @@
 
 
 
+0 STEP
 0 FILE 6986 - Spaceship - Cockpit - 3 - 1.ldr
 0 Left flexible hose assembly with a long segmented rubber hose, tail piece, and antenna detail.
 0 Name: 6986 - Spaceship - Cockpit - 3 - 1.ldr
@@ -1108,6 +1128,7 @@
 
 
 
+0 STEP
 0 FILE 6986 - Spaceship - Cockpit - 3 - 2.ldr
 0 Right flexible hose assembly with a long segmented rubber hose, tail piece, and antenna detail.
 0 Name: 6986 - Spaceship - Cockpit - 3 - 2.ldr
@@ -1294,6 +1315,7 @@
 
 
 
+0 STEP
 0 FILE 6986 - Spaceship - Cockpit - 4.ldr
 0 Small sensor or antenna detail with inverted dish, cone, and antenna elements.
 0 !CATEGORY Spaceship
@@ -1315,6 +1337,7 @@
 
 
 
+0 STEP
 0 FILE 6986 - Spaceship - Container.ldr
 0 Cargo container module with large plates and concave/convex corner panels forming a boxy storage bay.
 0 Name: 6986 - Spaceship - Container.ldr
@@ -1406,6 +1429,7 @@
 1 0 0 -140 -76 1 0 0 0 1 0 0 0 1 6986 - Spaceship - Container - 2.ldr
 
 
+0 STEP
 0 FILE 6986 - Spaceship - Container - 1.ldr
 0 Internal frame of the cargo container with bricks, panels, technic beam, and round support mounts.
 0 Name: 6986 - Spaceship - Container - 1.ldr
@@ -1456,6 +1480,7 @@
 
 
 
+0 STEP
 0 FILE 6986 - Spaceship - Container - 2.ldr
 0 Blue cargo container module built from panels and plates with hinged panels for opening access.
 0 Name: 6986 - Spaceship - Container - 2.ldr
@@ -1491,6 +1516,7 @@
 
 
 
+0 STEP
 0 FILE 6986 - Spaceship - Container - 2 - Radar.ldr
 0 Hinged radar assembly mount with a swiveling top piece.
 0 Name: 6986 - Spaceship - Container - 2 - Radar.ldr
@@ -1508,6 +1534,7 @@
 
 
 
+0 STEP
 0 FILE 6986 - Spaceship - Container - 2 - Radar - Radar.ldr
 0 Single large black radar blade panel mounted on a hinge.
 0 Name: 6986 - Spaceship - Container - 2 - Radar - Radar.ldr
@@ -1522,6 +1549,7 @@
 
 
 
+0 STEP
 0 FILE 6986 - Spaceship - Container + Jails.ldr
 0 Assembly grouping the cargo container and jail pod substructures of the spaceship.
 0 Name: 6986 - Spaceship - Container + Jails.ldr
@@ -1537,6 +1565,7 @@
 
 
 
+0 STEP
 0 FILE 6986 - Spaceship + Pod.ldr
 0 Assembly combining the main spaceship body with its detachable pod module.
 0 Name: 6986 - Spaceship + Pod.ldr
@@ -1551,6 +1580,7 @@
 
 
 
+0 STEP
 0 FILE 6986 - Minifig 1.ldr
 0 White-suited Futuron minifigure with air tanks, standard grin head, and white legs.
 0 Name: 6986 - Minifig 1.ldr
@@ -1584,6 +1614,7 @@
 
 
 
+0 STEP
 0 FILE 6986 - Minifig 1 - Helmet.ldr
 0 White standard helmet with a translucent red visor for Minifig 1.
 0 Name: 6986 - Minifig 1 - Helmet.ldr
@@ -1600,6 +1631,7 @@
 
 
 
+0 STEP
 0 FILE 6986 - Minifig 2.ldr
 0 White-suited Futuron minifigure with air tanks, standard grin head, and white legs.
 0 Name: 6986 - Minifig 2.ldr
@@ -1633,6 +1665,7 @@
 
 
 
+0 STEP
 0 FILE 6986 - Minifig 2 - Helmet.ldr
 0 White standard helmet with a translucent red visor for Minifig 2.
 0 Name: 6986 - Minifig 2 - Helmet.ldr
@@ -1649,6 +1682,7 @@
 
 
 
+0 STEP
 0 FILE 6986 - Minifig 3.ldr
 0 Black-suited Blacktron minifigure with air tanks, standard grin head, and black legs.
 0 Name: 6986 - Minifig 3.ldr
@@ -1682,6 +1716,7 @@
 
 
 
+0 STEP
 0 FILE 6986 - Minifig 3 - Helmet.ldr
 0 Black standard helmet with a black visor for Minifig 3.
 0 Name: 6986 - Minifig 3 - Helmet.ldr

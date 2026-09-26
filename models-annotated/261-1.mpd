@@ -192,6 +192,7 @@
 1 15 75 -12 5 1 0 0 0 1 0 0 0 1 261 - mother.ldr
 
 
+0 STEP
 0 FILE 261 - baby.ldr
 0 A baby minifigure assembled from white limbs and torso, a yellow grinning head, and red pigtailed hair.
 0 Name: 261 - baby.ldr
@@ -222,6 +223,7 @@
 1 15 8.196 -18.531 -42.352 -0.429 0.127 0.894 -0.255 0.933 -0.254 -0.866 -0.337 -0.368 261 - handmirror.ldr
 
 
+0 STEP
 0 FILE 261 - changingmat.ldr
 0 A red changing mat built from bricks, a large plate, and lattice fences.
 0 Name: 261 - changingmat.ldr
@@ -242,6 +244,7 @@
 1 4 30 -32 30 0 0 -1 0 1 0 1 0 0 3633.dat
 
 
+0 STEP
 0 FILE 261 - mother.ldr
 0 A maxifig-style mother figure with colorful bricks forming a body, blue arm assemblies, a yellow head, and accessories including a cup and hairbrush.
 0 Name: 261 - mother.ldr
@@ -299,6 +302,7 @@
 1 1 20 -142 10 0 0 1 0 1 0 -1 0 0 795.dat
 
 
+0 STEP
 0 FILE 261 - toilets.ldr
 0 A white toilet structure with sloped back, bricks, and tiled detailing in blue and white.
 0 Name: 261 - toilets.ldr
@@ -338,6 +342,7 @@
 1 15 -20 -104 10 -1 0 0 0 1 0 0 0 -1 3068b.dat
 
 
+0 STEP
 0 FILE 261 - bathtub.ldr
 0 A large white bathtub with tiled interior, long brick walls, and a chrome tap.
 0 Name: 261 - bathtub.ldr
@@ -436,6 +441,7 @@
 1 15 0 -56 130 1 0 0 0 1 0 0 0 1 3496c02.dat
 
 
+0 STEP
 0 FILE 261 - handmirror.ldr
 0 A small handheld mirror made from a signal holder and a round mirror sticker.
 0 Name: 261 - handmirror.ldr
@@ -449,6 +455,7 @@
 1 15 0 -4 0 1 0 0 0 1 0 0 0 1 261 - 190085c.dat
 
 
+0 STEP
 0 FILE 261 - 3001.dat
 0 A reference to a standard 2x4 LEGO brick part.
 0 Name: 261 - 3001.dat
@@ -471,6 +478,7 @@
 4 16 40 0 20 40 24 20 -40 24 20 -40 0 20
 0 
 
+0 STEP
 0 FILE 261 - 190085a.dat
 0 A decorative sticker or pattern part component.
 0 Name: 261 - 190085a.dat
@@ -487,6 +495,7 @@
 1 383 0 -0.25 0 35 0 0 0 1 0 0 0 30 48\4-4disc.dat
 1 4 0 -0.25 0 7 0 0 0 1 0 0 0 6 48\4-4ring5.dat
 
+0 STEP
 0 FILE 261 - 190085b.dat
 0 A decorative sticker or pattern part component.
 0 Name: 261 - 190085b.dat
@@ -1389,6 +1398,7 @@
 5 24 -19 0 -39.150002 -19 -0.25 -39.150002 -19.83 -0.25 -38.549999 -15.14 0 -41.669998
 5 24 18.889999 -0.25 6.7 18.889999 0 6.7 18.889999 -0.25 6.46 18.290001 0 8.99
 
+0 STEP
 0 FILE 261 - 3820.dat
 0 A detailed geometric submodel of a minifig hand, built from cylinders, cuffs, and finger shapes.
 0 Name: 261 - 3820.dat
@@ -1679,6 +1689,7 @@
 0 //hand stud
 0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=R 6 7.35]
 
+0 STEP
 0 FILE 261 - 3626ap01.dat
 0 A minifig head part submodel with cylindrical geometry and conditional surface lines.
 0 Name: 261 - 3626ap01.dat
@@ -1715,6 +1726,7 @@
 5 24 4.9751 4 -12.0107 4.9751 17 -12.0107 0 4 -13 9.1923 4 -9.1923
 5 24 -4.9751 4 -12.0107 -4.9751 17 -12.0107 0 4 -13 -9.1923 4 -9.1923
 
+0 STEP
 0 FILE 261 - u406.dat
 0 A geometric primitive submodel composed of open cylinders, chords, and rectangles.
 0 Name: 261 - u406.dat
@@ -4633,6 +4645,7 @@
 5 24 -20.957199 7.366 9.5996 -19.467899 13.4538 4.629 -17.5977 15.0869 6.5763 -20.374001 12.6414 2.8416
 5 24 -20.957199 7.366 9.5996 -20.374001 12.6414 2.8416 -19.467899 13.4538 4.629 -21.9142 10.1483 0.0888
 
+0 STEP
 0 FILE 261 - 190085c.dat
 0 A chrome silver disc or mirrored decorative element.
 0 Name: 261 - 190085c.dat
@@ -4651,6 +4664,7 @@
 0 // Disc 1.0 (chrome_silver)
 1 383 0 -0.25 0 13 0 0 0 1 0 0 0 13 4-4disc.dat
 
+0 STEP
 0 FILE s\261 - 3660s01.dat
 0 A geometric submodel of a slope brick, built from boxes and rectangles.
 0 Name: s\261 - 3660s01.dat
@@ -4719,6 +4733,7 @@
 0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=S 6 20] [grid=C 2 1 20 0]
 0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=R 6 4] [grid=C 2 1 20 0]
 
+0 STEP
 0 FILE s\261 - 3815s01.dat
 0 A geometric submodel of minifig hips, composed of boxes, studs, cylinders, and discs.
 0 Name: s\261 - 3815s01.dat
@@ -4813,6 +4828,7 @@
 0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=R 3 8]
 0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=R 3 8]
 
+0 STEP
 0 FILE s\261 - 3626ap01s01.dat
 0 A minifig head face pattern submodel with neutral and black colored areas.
 0 Name: s\261 - 3626ap01s01.dat

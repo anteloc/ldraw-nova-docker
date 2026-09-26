@@ -12,6 +12,7 @@
 1 15 -304.738 0 -115.716 0.866 0 -0.5 0 1 0 0.5 0 0.866 6684 - policemen 2.ldr
 1 4 -265.724 -32 54.737 -0.866 0 -0.5 0 1 0 0.5 0 -0.866 6684 - police car.ldr
 
+0 STEP
 0 FILE 6684 - police car.ldr
 0 A white and black police car built on a 4x5 car base with doors, steering stand, seats, and headlight bricks.
 0 Name: 6684 - police car.ldr
@@ -153,6 +154,7 @@
 0 // Tyre  6/ 50 x  8 Offset Tread (black)
 1 0 10 14 -90 0 0 -1 0 1 0 1 0 0 3641.dat
 
+0 STEP
 0 FILE 6684 - police motorbike.ldr
 0 A light grey police motorcycle with 'POLICE'-patterned windshield and tiles, red wheels, and signal light plates.
 0 Name: 6684 - police motorbike.ldr
@@ -187,6 +189,7 @@
 0 // Plate  1 x  2 with Groove with 1 Centre Stud (white)
 1 15 20 -22.2 0 0 0 -1 0 1 0 1 0 0 3794b.dat
 
+0 STEP
 0 FILE 6684 - policemen 1.ldr
 0 A police officer minifigure in black torso with badge, white helmet with visor, and yellow head with grin.
 0 Name: 6684 - policemen 1.ldr
@@ -217,6 +220,7 @@
 0 // ~Minifig Leg Right (Obsolete) (black)
 1 0 0 -28 0 1 0 0 0 1 0 0 0 1 3816.dat
 
+0 STEP
 0 FILE 6684 - policemen 2.ldr
 0 A police officer minifigure in black torso with badge, white police hat, and yellow head with grin.
 0 Name: 6684 - policemen 2.ldr
@@ -247,6 +251,7 @@
 0 // ~Minifig Leg Right (Obsolete) (black)
 1 0 0 -28 0 1 0 0 0 1 0 0 0 1 3816.dat
 
+0 STEP
 0 FILE 6684 - 4480c01.dat
 0 A two-wheel motorcycle frame assembly consisting of the left side, right side, and forks sub-parts.
 0 Bike 2 Wheel Motorcycle Frame  3 x  6 x  3 (Complete)
@@ -264,6 +269,7 @@
 0 // ~Bike  2 Wheel Motorcycle Forks  3 x  6 x  3 (main_colour)
 1 16 0 30 -90 1 0 0 0 0.924 0.383 0 -0.383 0.924 4482.dat
 
+0 STEP
 0 FILE 6684 - 4481.dat
 0 A motorcycle wheel part composed of primitive geometric shapes (cylinders, circles, rectangles) with a LEGO logo stud.
 0 ~Bike 2 Wheel Motorcycle Frame  3 x  6 x  3 - Left Side
@@ -334,6 +340,7 @@
 0 // LEGO Logo for Studs - 3D Flattened (main_colour)
 1 16 11 0 -62 0 -1 0 1 0 0 0 0 1 6684 - logo5.dat
 
+0 STEP
 0 FILE 6684 - 4480.dat
 0 A detailed motorcycle frame part built from primitive shapes forming the rear, middle cover, and between-legs sections.
 0 ~Bike 2 Wheel Motorcycle Frame  3 x  6 x  3 - Right Side
@@ -505,6 +512,7 @@
 0 // LEGO Logo for Studs - 3D Flattened (main_colour)
 1 16 -11 0 -62 0 1 0 1 0 0 0 0 -1 6684 - logo5.dat
 
+0 STEP
 0 FILE 6684 - 4481s01.dat
 0 A motorcycle wheel sub-part constructed from numerous geometric primitives including rectangles, circles, cylinders, and rings.
 0 ~Bike 2 Wheel Motorcycle Frame  3 x  6 x  3 - Left/Right
@@ -1486,6 +1494,7 @@
 5 24 10.531 19.745 -66.111 9 19.862 -66.392 12.017 35.049 -58.398 9 18.331 -66.697
 5 24 7.4 19.862 -63.392 0 19.862 -63.392 0 6.432 -70.213 7.4 34.01 -55.85
 
+0 STEP
 0 FILE 6684 - logo5.dat
 0 A LEGO logo sub-part with no direct pieces, used as a decorative element.
 0 LEGO Logo for Studs - 3D Flattened

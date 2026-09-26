@@ -687,6 +687,7 @@
 1 71 -140 -70 190 0 0 -1 0 -1 0 -1 0 0 3713.dat
 
 
+0 STEP
 0 FILE 42122 - chassis2.ldr
 0 Small chassis sub-assembly using bent liftarms, beams, and pin connectors forming a structural link or support bracket.
 0 Name: 42122 - chassis2.ldr
@@ -722,6 +723,7 @@
 1 72 -60 40 0 0 -1 0 0 0 -1 1 0 0 32316.dat
 
 
+0 STEP
 0 FILE 42122 - chassis3.ldr
 0 Chassis sub-assembly featuring a turntable, universal joints, and axle joiners forming a rotating or articulated drivetrain connection.
 0 Name: 42122 - chassis3.ldr
@@ -767,6 +769,7 @@
 1 72 -20 133.254 -242.091 0 0 -1 0.514 -0.857 0 -0.857 -0.514 0 59426.dat
 
 
+0 STEP
 0 FILE 42122 - frontaxle.ldr
 0 Front axle module with a long beam, cross blocks, and axles with stops forming the steering and wheel-mounting assembly.
 0 Name: 42122 - frontaxle.ldr
@@ -806,6 +809,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42122 - steer.ldr
 0 Steering linkage built from a long beam, short liftarms, and angle connectors forming the steering arm mechanism.
 0 Name: 42122 - steer.ldr
@@ -831,6 +835,7 @@
 1 0 0 20 0 0 0 1 0 -1 0 1 0 0 60483.dat
 
 
+0 STEP
 0 FILE 42122 - rearaxle.ldr
 0 Rear axle module with a long beam, cross blocks, axles with stops, and short liftarms forming the wheel-mounting and suspension assembly.
 0 Name: 42122 - rearaxle.ldr
@@ -880,6 +885,7 @@
 1 1 60 -20 0 0 0 1 1 0 0 0 1 0 6558.dat
 
 
+0 STEP
 0 FILE 42122 - dashboard.ldr
 0 Dashboard assembly using H-shaped beams, bent liftarms, and cross blocks forming the interior dashboard frame and mount points.
 0 Name: 42122 - dashboard.ldr
@@ -934,6 +940,7 @@
 1 72 -120 60 -20 0 0 1 0 -1 0 1 0 0 32526.dat
 
 
+0 STEP
 0 FILE 42122 - winch.ldr
 0 Winch mechanism with a reel, gear, hook with towball, and a long beam forming a functional cable-winding and towing device.
 0 Name: 42122 - winch.ldr
@@ -996,6 +1003,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42122 - ropeLQ-1.ldr
 0 Flexible rope element composed of 177 cylinder segments forming a long curved winch cable.
 0 Name: 42122 - ropeLQ-1.ldr
@@ -1395,6 +1403,7 @@
 1 16 -20.046126 -11.434768 5 -1.49503 0.325398 0 -0.122002 -3.987489 0 0 0 1.5 4-4cyli.dat
 
 
+0 STEP
 0 FILE 42122 - front.ldr
 0 Front body section with grille-pattern beams, curved panels, and bent liftarms forming the front fascia, grille, and headlights area.
 0 Name: 42122 - front.ldr
@@ -1511,6 +1520,7 @@
 1 25 80 -20 40 1 0 0 0 0 1 0 -1 0 32054.dat
 
 
+0 STEP
 0 FILE 42122 - reartop.ldr
 0 Rear upper body section using panels, bent liftarms, and cross blocks forming the rear bodywork and tail panel.
 0 Name: 42122 - reartop.ldr
@@ -1583,6 +1593,7 @@
 1 71 -90 -20 -60 1 0 0 0 0 1 0 -1 0 4274.dat
 
 
+0 STEP
 0 FILE 42122 - door1.ldr
 0 Left door assembly built from a long beam, bent liftarms, angle connectors, and a smooth joiner forming the vehicle's side door frame.
 0 Name: 42122 - door1.ldr
@@ -1628,6 +1639,7 @@
 1 14 20 -70 70 -1 0 0 0 1 0 0 0 -1 59443.dat
 
 
+0 STEP
 0 FILE 42122 - reatbackseat.ldr
 0 Rear seat assembly using long beams, connector hubs, and pins forming a bench-style interior seat frame.
 0 Name: 42122 - reatbackseat.ldr
@@ -1676,6 +1688,7 @@
 1 4 0 0 0 -1 0 0 0 -1 0 0 0 1 32062.dat
 
 
+0 STEP
 0 FILE 42122 - door2.ldr
 0 Right door assembly built from a long beam, bent liftarms, angle connectors, and a smooth joiner forming the vehicle's side door frame.
 0 Name: 42122 - door2.ldr
@@ -1721,6 +1734,7 @@
 1 14 -20 -70 70 -1 0 0 0 1 0 0 0 -1 59443.dat
 
 
+0 STEP
 0 FILE 42122 - bonnet.ldr
 0 Bonnet (hood) assembly featuring a large panel, curved panels, long beams, and a tile strip forming the sculpted engine cover.
 0 Name: 42122 - bonnet.ldr
@@ -1783,6 +1797,7 @@
 1 14 98 0 10 0 -1 0 0 0 1 -1 0 0 6636.dat
 
 
+0 STEP
 0 FILE 42122 - rearbump.ldr
 0 Rear bumper built from bent cross blocks, angle connectors, and axle joiners forming a compact angled bumper bar.
 0 Name: 42122 - rearbump.ldr
@@ -1815,6 +1830,7 @@
 1 72 -110 0 20 0 0 -1 -1 0 0 0 1 0 32016.dat
 
 
+0 STEP
 0 FILE 42122 - roof.ldr
 0 Roof assembly with large panels and beams forming the vehicle's top canopy structure.
 0 Name: 42122 - roof.ldr
@@ -1859,6 +1875,7 @@
 1 1 80 0 -100 -1 0 0 0 1 0 0 0 -1 6558.dat
 
 
+0 STEP
 0 FILE 42122 - mudguard1.ldr
 0 Left rear mudguard built from angle connectors, liftarms, and axles forming an arched wheel-arch protector.
 0 Name: 42122 - mudguard1.ldr
@@ -1904,6 +1921,7 @@
 1 0 0 28.284 108.284 0 0 -1 -0.707 0.707 0 0.707 0.707 0 60483.dat
 
 
+0 STEP
 0 FILE 42122 - frontmudguard1.ldr
 0 Left front mudguard using angle connectors, a liftarm, and a thin fairing panel forming a curved front wheel-arch trim.
 0 Name: 42122 - frontmudguard1.ldr
@@ -1935,6 +1953,7 @@
 1 0 10 -10.001 -50 1 0 0 0 -1 0 0 0 -1 2780.dat
 
 
+0 STEP
 0 FILE 42122 - frontmudguard2.ldr
 0 Right front mudguard using angle connectors, a liftarm, and a thin fairing panel forming a curved front wheel-arch trim.
 0 Name: 42122 - frontmudguard2.ldr
@@ -1966,6 +1985,7 @@
 1 0 -10 -0.001 -80 1 0 0 0 -1 0 0 0 -1 2780.dat
 
 
+0 STEP
 0 FILE 42122 - mudguard2.ldr
 0 Right rear mudguard built from angle connectors, liftarms, and axles forming an arched wheel-arch protector.
 0 Name: 42122 - mudguard2.ldr
@@ -2011,6 +2031,7 @@
 1 0 0 28.284 108.284 0 0 1 0.707 0.707 0 -0.707 0.707 0 60483.dat
 
 
+0 STEP
 0 FILE 42122 - roofbars.ldr
 0 Roof rack bars assembly using liftarms, angle connectors, axles, and round plates forming a cross-bar cargo support frame.
 0 Name: 42122 - roofbars.ldr
@@ -2075,6 +2096,7 @@
 1 47 80 0 -18 0 0 1 1 0 0 0 1 0 6141.dat
 
 
+0 STEP
 0 FILE 42122 - 42135.dat
 0 Primitive geometry part composed of two rectangle edge elements used as a sub-part in a larger component.
 0 Name: 42122 - 42135.dat
@@ -2111,6 +2133,7 @@
 2 24 6.2884 2.8996 -12.9998 -6.2884 2.8996 -12.9998
 2 24 -6.2884 2.8996 -12.9998 -6.0001 0 -12.9998
 
+0 STEP
 0 FILE 42122 - 65489.dat
 0 Primitive geometry part composed of pins and circular segments forming a base collar pin sub-part.
 0 Name: 42122 - 65489.dat
@@ -2163,6 +2186,7 @@
 2 24 2.8284 -17.1716 -10 -2.8284 -17.1716 -10
 
 
+0 STEP
 0 FILE 42122 - 65487.dat
 0 Primitive geometry part composed of a friction pin collar and quarter-circle segments forming a small pin sub-part.
 0 Name: 42122 - 65487.dat
@@ -2182,6 +2206,7 @@
 2 24 10 2.4 3 10 2.4 -3
 2 24 10 -2.4 3 10 -2.4 -3
 
+0 STEP
 0 FILE 42122 - 70695.dat
 0 Empty or reference-only submodel acting as a placeholder for a Technic liftarm or connector part.
 0 Name: 42122 - 70695.dat
@@ -2255,6 +2280,7 @@
 1 16 0 0 0 0.92388 0.38268 0 -0.38268 0.92388 0 0 0 1 s\42122 - 70695s01.dat
 
 
+0 STEP
 0 FILE 42122 - 44874.dat
 0 Small Technic connector submodel built from friction pins and circular geometry primitives.
 0 Name: 42122 - 44874.dat
@@ -2282,6 +2308,7 @@
 2 24 -10 2.4 3 -10 2.4 -3
 2 24 -10 -2.4 3 -10 -2.4 -3
 
+0 STEP
 0 FILE 42122 - ldcLQRopeSeg.dat
 0 Single cylindrical segment representing a rope or flexible cable element.
 0 Name: 42122 - ldcLQRopeSeg.dat
@@ -2298,6 +2325,7 @@
 
 
 
+0 STEP
 0 FILE 42122 - 32526p01.dat
 0 Empty or reference-only submodel for a printed Technic liftarm element.
 0 Name: 42122 - 32526p01.dat
@@ -2313,6 +2341,7 @@
 1 16 20 0 89 0 1 0 1 0 0 0 0 -1 s\42122 - 32523p02s01.dat
 1 16 20 0 89 0 -1 0 1 0 0 0 0 -1 s\42122 - 32523p02s01.dat
 
+0 STEP
 0 FILE 42122 - 32523p02.dat
 0 Empty or reference-only submodel for a printed Technic beam element.
 0 Name: 42122 - 32523p02.dat
@@ -2328,6 +2357,7 @@
 1 16 9 0 0 0 0 -1 1 0 0 0 -1 0 s\42122 - 32523p02s01.dat
 1 16 9 0 0 0 0 -1 1 0 0 0 1 0 s\42122 - 32523p02s01.dat
 
+0 STEP
 0 FILE 42122 - 71709.dat
 0 Detailed Technic liftarm construction with connector holes, peg holes, and multiple structural primitives.
 0 Name: 42122 - 71709.dat
@@ -2435,6 +2465,7 @@
 0 // Rectangle with 2 Parallel Edges (main_colour)
 1 16 0 9 -21 -20 0 0 0 -1 0 0 0 -9 rect2p.dat
 
+0 STEP
 0 FILE 42122 - 71682.dat
 0 Complex Technic beam or connector with axle holes, rings, discs, and cylindrical geometry primitives.
 0 Name: 42122 - 71682.dat
@@ -2646,6 +2677,7 @@
 1 16 -0.9835 -29.69 0 0 0 -1.4325 0 1 0 28.022 0 0 rect2p.dat
 4 16 -2.416 -29.690001 -28.021999 -2.416 -29.690001 28.021999 -1.637 -28.351 30 -1.637 -28.351 -30
 
+0 STEP
 0 FILE s\42122 - 32526s01.dat
 0 Structural geometry submodel for a Technic liftarm with beam holes, peg holes, and connector holes.
 0 Name: s\42122 - 32526s01.dat
@@ -2726,6 +2758,7 @@
 2 24 40 -10 89 0 -10 89
 2 24 0 10 89 40 10 89
 
+0 STEP
 0 FILE s\42122 - 32523s01.dat
 0 Geometry submodel for a Technic beam with beam holes, connector holes, and cylindrical features.
 0 Name: s\42122 - 32523s01.dat
@@ -2761,6 +2794,7 @@
 0 // Rectangle with 2 Parallel Edges (main_colour)
 1 16 -9 0 0 0 1 0 0 0 10 20 0 0 rect2p.dat
 
+0 STEP
 0 FILE s\42122 - 32039s01.dat
 0 Technic bush submodel with collars, cones, rings, and axle end surface geometry.
 0 Name: s\42122 - 32039s01.dat
@@ -2857,6 +2891,7 @@
 4 16 -9 7 -6 -9 7 -14.59 -9 0 -11 -9 -7 -6
 3 16 -9 -7 -6 -9 0 -11 -9 -7 -14.59
 
+0 STEP
 0 FILE 42122 - confric11.dat
 0 Friction connector submodel with cylindrical ribs, rings, and disc geometry representing a pin connector.
 0 Name: 42122 - confric11.dat
@@ -3221,6 +3256,7 @@
 5 24 -3.558 -5.7 5.1627 -3.558 -2 5.1627 -3.6153 -5.7 4.6618 -2.692 -2 5.6627
 5 24 -2.692 -5.7 5.6627 -2.5337 -6 5.3847 -3.558 -5.7 5.1627 -2.2962 -5.7 5.5434
 
+0 STEP
 0 FILE s\42122 - 87082s01.dat
 0 Simple cylindrical submodel with sloped cylinder ends, likely part of a pin or axle connector.
 0 Name: s\42122 - 87082s01.dat
@@ -3267,6 +3303,7 @@
 2 24 -4.827 -3.062 -7.391 -3.916 0 -8
 4 16 -10 3 4 -10 3 -4 -10 -3 -4 -10 -3 4
 
+0 STEP
 0 FILE s\42122 - 15100s01.dat
 0 Technic connector submodel with connector hole and sloped cylindrical surfaces.
 0 Name: s\42122 - 15100s01.dat
@@ -3321,6 +3358,7 @@
 2 24 4.827 -3.062 7.391 3.916 0 8
 4 16 10 -3 -4 10 3 -4 10 3 4 10 -3 4
 
+0 STEP
 0 FILE s\42122 - 48989s01.dat
 0 Detailed Technic connector or pin submodel with multiple connector holes, cylinders, discs, and chord geometry.
 0 Name: s\42122 - 48989s01.dat
@@ -3520,6 +3558,7 @@
 1 16 -6.6856 0 0 0 -1.5 0 0 0 5 6.3639 0 0 box3u4a.dat
 2 24 -6.6856 5 6.3639 -6.6856 5 -6.3639
 
+0 STEP
 0 FILE s\42122 - 32523p02s01.dat
 0 Printed detail submodel for a Technic beam with rings, chords, and disc negatives in grey and black.
 0 Name: s\42122 - 32523p02s01.dat
@@ -3606,6 +3645,7 @@
 4 7 5.1094 -17.6 0 4.875 -17.6 0 4.25 0 0 5.1094 0 0
 4 7 -4.875 -17.6 0 -5.1094 -17.6 0 -5.1094 0 0 -4.25 0 0
 
+0 STEP
 0 FILE s\42122 - 32523p02s02.dat
 0 Empty or reference-only submodel component for a printed Technic beam.
 0 Name: s\42122 - 32523p02s02.dat
@@ -3634,6 +3674,7 @@
 4 71 0.85 -0.3 0 -0.85 -0.3 0 -1.3 0 0 1.3 0 0
 4 71 -0.85 -1.3 0 0.85 -1.3 0 1.3 -1.6 0 -1.3 -1.6 0
 
+0 STEP
 0 FILE s\42122 - 64782s01.dat
 0 Complex Technic connector submodel with connector holes, peg holes, and varied cylindrical and disc geometry.
 0 Name: s\42122 - 64782s01.dat
@@ -3770,6 +3811,7 @@
 0 // Rectangle with 3 Edges (main_colour)
 1 16 -28.305 7 20 0 0 2.895 0 -1 0 1 0 0 rect3.dat
 
+0 STEP
 0 FILE s\42122 - 70695s01.dat
 0 Empty or reference-only geometry submodel for a Technic part component.
 0 Name: s\42122 - 70695s01.dat

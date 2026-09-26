@@ -20,6 +20,7 @@
 
 
 
+0 STEP
 0 FILE 7819 - train car.ldr
 0 A black railway mail car body with a long perforated train base, sloped sides, door rails, internal seating, and lattice fences.
 0 Name: 7819 - train car.ldr
@@ -338,6 +339,7 @@
 
 
 
+0 STEP
 0 FILE 7819 - wheels.ldr
 0 A powered train bogie assembly with small black train wheels, a buffer beam with magnetic coupling, and a bogie plate with long pin.
 0 Name: 7819 - wheels.ldr
@@ -374,6 +376,7 @@
 
 
 
+0 STEP
 0 FILE 7819 - pallete.ldr
 0 A simple cargo pallet made of plates, formed from a large 4x6 base plate with two smaller 1x4 plates on top.
 0 Name: 7819 - pallete.ldr
@@ -395,6 +398,7 @@
 
 
 
+0 STEP
 0 FILE 7819 - postal parcel.ldr
 0 A small postal parcel built from a 1x2 brick topped with a letter-patterned tile.
 0 Name: 7819 - postal parcel.ldr
@@ -413,6 +417,7 @@
 
 
 
+0 STEP
 0 FILE 7819 - minifig 2.ldr
 0 A mail-worker minifig wearing a police hat, red torso with mail horn pattern, and black legs.
 0 Name: 7819 - minifig 2.ldr
@@ -447,6 +452,7 @@
 
 
 
+0 STEP
 0 FILE 7819 - postal parcel big.ldr
 0 A larger postal parcel built from a 2x2 brick topped with letter-patterned and grooved tiles.
 0 Name: 7819 - postal parcel big.ldr

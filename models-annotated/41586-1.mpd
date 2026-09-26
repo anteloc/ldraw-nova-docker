@@ -20,6 +20,7 @@
 
 
 
+0 STEP
 0 FILE 41586-1 - 1.ldr
 0 Main body of the Batgirl Brickheadz built from lilac and grey plates and bricks with the yellow bat logo on the chest.
 0 Name: 41586-1 - 1.ldr
@@ -174,6 +175,7 @@
 
 
 
+0 STEP
 0 FILE 41586-1 - 2.ldr
 0 Small lilac and yellow assembly with a clip used as a connecting detail.
 0 Name: 41586-1 - 2.ldr
@@ -192,6 +194,7 @@
 
 
 
+0 STEP
 0 FILE 41586-1 - 3.ldr
 0 Yellow wing and plate assembly forming a cape or utility detail.
 0 Name: 41586-1 - 3.ldr
@@ -217,6 +220,7 @@
 
 
 
+0 STEP
 0 FILE 41586-1 - 31
 0 Yellow bracket with two small slopes used as an angled detail.
 0 Name: 41586-1 - 31
@@ -234,6 +238,7 @@
 1 14 10 10 -14 0 0 1 1 0 0 0 1 0 50746.dat
 
 
+0 STEP
 0 FILE 41586-1 - 4.ldr
 0 Dark red sloped assembly forming a curved shoulder or boot element.
 0 Name: 41586-1 - 4.ldr
@@ -258,6 +263,7 @@
 
 
 
+0 STEP
 0 FILE 41586-1 - 87079pz0.dat
 0 Patterned nameplate tile displaying the Brickheadz Series Number 1.
 0 Name: 41586-1 - 87079pz0.dat
@@ -272,6 +278,7 @@
 1 15 0 0 0 1 0 0 0 1 0 0 0 1 41586-1 - 87079pz0s02.dat
 
 
+0 STEP
 0 FILE 41586-1 - 3010pz1.dat
 0 Patterned brick printed with the yellow Batgirl bat logo.
 0 Name: 41586-1 - 3010pz1.dat
@@ -288,6 +295,7 @@
 1 16 0 0 -10 -1 0 0 0 1 0 0 0 1 41586-1 - 3010pz1s01.dat
 
 
+0 STEP
 0 FILE 41586-1 - 98138pz0.dat
 0 Round printed tile decorated with two white squares.
 0 Name: 41586-1 - 98138pz0.dat
@@ -321,6 +329,7 @@
 3 16 0 0 9 1.81 0 4.601 3.4443 0 8.3151
 
 
+0 STEP
 0 FILE 41586-1 - 24299.dat
 0 Left angled wing element.
 0 Name: 41586-1 - 24299.dat
@@ -334,6 +343,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 41586-1 - 24299s01.dat
 
 
+0 STEP
 0 FILE 41586-1 - 24307.dat
 0 Right angled wing element.
 0 Name: 41586-1 - 24307.dat
@@ -347,6 +357,7 @@
 1 16 0 0 0 -1 0 0 0 1 0 0 0 1 41586-1 - 24299s01.dat
 
 
+0 STEP
 0 FILE 41586-1 - 87079pz0s01.dat
 0 Geometric ring and disc primitives forming the decorative border of the series number tile.
 0 Name: 41586-1 - 87079pz0s01.dat
@@ -533,6 +544,7 @@
 3 16 40 0 20 33.5 0 14.5 35 0 14.5
 
 
+0 STEP
 0 FILE 41586-1 - 87079pz0s02.dat
 0 Chord and disc primitives forming the numeral 1 on the series number tile.
 0 Name: 41586-1 - 87079pz0s02.dat
@@ -575,6 +587,7 @@
 4 16 34 0 13 33.5 0 13.5 22.824 0 7.138 22.824 0 -7.1
 
 
+0 STEP
 0 FILE 41586-1 - 3010pz1s01.dat
 0 Half of the patterned Batgirl logo brick used for symmetry.
 0 Name: 41586-1 - 3010pz1s01.dat
@@ -853,6 +866,7 @@
 3 16 -0.36 22.796 0 0 24 0 -0.176 22.831 0
 
 
+0 STEP
 0 FILE 41586-1 - 24299s01.dat
 0 Geometric box primitives defining the left wing shape without studs.
 0 Name: 41586-1 - 24299s01.dat
@@ -877,6 +891,7 @@
 4 16 -20 0 -20 0 0 -20 18.5 0 20 -20 0 20
 
 
+0 STEP
 0 FILE 41586-1 - 51739s01.dat
 0 Rectangle and box primitives forming the bottom half of a larger wing element.
 0 Name: 41586-1 - 51739s01.dat

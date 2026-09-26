@@ -10,6 +10,7 @@
 1 16 30 -48 -230 0 0 -1 0 1 0 1 0 0 60101 - plane.ldr
 
 
+0 STEP
 0 FILE 60101 - trolley.ldr
 0 A small yellow airport trolley cart built on a black car base with wheels, grille tiles, and a steering stand.
 0 Name: 60101 - trolley.ldr
@@ -103,6 +104,7 @@
 
 
 
+0 STEP
 0 FILE 60101 - plane.ldr
 0 A large dark bluish-grey passenger airplane built on black and light bluish-grey plates with inverted slopes, curved slopes, a plane bottom shell, green body bricks, and landing wheels.
 0 Name: 60101 - plane.ldr
@@ -335,6 +337,7 @@
 1 15 330 -128 0 0 0 1 0 1 0 -1 0 0 6239.dat
 1 43 -92 -37 0 0 0 1 0 1 0 -1 0 0 60101 - pilot.ldr
 
+0 STEP
 0 FILE 60101 - pilot.ldr
 0 A pilot minifigure wearing a white shirt with dark blue tie, airline pin, and a black police-style hat.
 0 Name: 60101 - pilot.ldr
@@ -364,6 +367,7 @@
 0 // Minifig Police Hat (black)
 1 0 0 -56 0 0.986 0 -0.169 0 1 0 0.169 0 0.986 3624.dat
 
+0 STEP
 0 FILE 60101 - worker.ldr
 0 A ground worker minifigure wearing an orange reflective safety vest over a medium blue shirt with a red construction helmet.
 0 Name: 60101 - worker.ldr
@@ -393,6 +397,7 @@
 0 // Minifig Construction Helmet (red)
 1 4 0 -56 0 0.769 0 -0.639 0 1 0 0.639 0 0.769 3833.dat
 
+0 STEP
 0 FILE 60101 - 74967.dat
 0 A wheel/tire assembly composed of concentric rings defining the rim and frontside ring.
 0 Name: 60101 - 74967.dat
@@ -415,6 +420,7 @@
 0 // Ring  9 x 1.0 (main_colour)
 1 16 0 0 -10 1 0 0 0 0 1 0 1 0 4-4ring9.dat
 
+0 STEP
 0 FILE 60101 - 52501.dat
 0 A 45-degree double inverted slope brick with an open centre, modeled from cylinders, circles, and box faces.
 0 Name: 60101 - 52501.dat
@@ -569,6 +575,7 @@
 
 0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=S 6 4] [grid=1 C 4 0 20]
 
+0 STEP
 0 FILE 60101 - 60219.dat
 0 A 45-degree double inverted slope brick with centre holes, composed of subparts, boxes, and circular primitives.
 0 Name: 60101 - 60219.dat
@@ -621,6 +628,7 @@
 0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=R 6 4] [grid=C 4 C 4 20 20]
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 6 8   R 8 4] [slide=true] [grid=C 2 1 40 0]
 
+0 STEP
 0 FILE 60101 - 3665a.dat
 0 A 45-degree 2 x 1 inverted slope brick without an inner stopper ring.
 0 Name: 60101 - 3665a.dat
@@ -642,6 +650,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\60101 - 3665as01.dat
 4 16 10 24 -10 10 4 -30 -10 4 -30 -10 24 -10
 
+0 STEP
 0 FILE 60101 - 11293.dat
 0 A plane front nose section with 8 windows, modeled as a single boxed face shell.
 0 Name: 60101 - 11293.dat
@@ -675,6 +684,7 @@
 5 24 0 70.57 -129.701004 0 84.512001 -138.181 28.848999 70.545998 -123.555 -28.848999 70.545998 -123.555
 5 24 0 96 -140 0 84.512001 -138.181 7.83 96 -139.483994 -7.83 96 -139.483994
 
+0 STEP
 0 FILE 60101 - 11297.dat
 0 A transparent glass windshield panel for the plane front nose section with 8 windows.
 0 Name: 60101 - 11297.dat
@@ -691,6 +701,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\60101 - 11297s01.dat
 1 16 0 0 0 -1 0 0 0 1 0 0 0 1 s\60101 - 11297s01.dat
 
+0 STEP
 0 FILE 60101 - 973p8w.dat
 0 A minifig torso patterned with a white shirt featuring a dark blue tie, gold airline pin, belt, and ID badge.
 0 Name: 60101 - 973p8w.dat
@@ -1304,6 +1315,7 @@
 3 16 11.4082 4.2737 10 11.4 27.700001 10 8.2 20.700001 10
 4 16 7.5 20.700001 10 8.2 20.700001 10 11.4 27.700001 10 -11.4 27.700001 10
 
+0 STEP
 0 FILE 60101 - 3626cp8h.dat
 0 A minifig head patterned with silver sunglasses, wavy eyebrows, and a thin grin.
 0 Name: 60101 - 3626cp8h.dat
@@ -1593,6 +1605,7 @@
 1 16 0 17 0 0 0 8 0 6.4 0 -8 0 0 t04o6250.dat
 1 16 0 17 0 -8 0 0 0 6.4 0 0 0 -8 t04o6250.dat
 
+0 STEP
 0 FILE 60101 - 973p8r.dat
 0 A minifig torso patterned with an orange reflective safety vest over a medium blue shirt with an ID badge and red pen.
 0 Name: 60101 - 973p8r.dat
@@ -2017,6 +2030,7 @@
 3 16 -16.75 19.25 10 -17 20.700001 10 -19 29 10
 3 16 14.754 17.158199 -10 16.059999 19.1 -10 15.0065 9.9132 -10
 
+0 STEP
 0 FILE s\60101 - 98138s01.dat
 0 The underlying geometry of a 1 x 1 round tile with groove, modeled as rings and cylinders without the top face.
 0 Name: s\60101 - 98138s01.dat
@@ -2045,6 +2059,7 @@
 1 16 0 0.5 0 -9.5 0 0 0 -9.5 0 0 0 9.5 60101 - t02o0526.dat
 1 16 0 0.5 0 9.5 0 0 0 -9.5 0 0 0 -9.5 60101 - t02o0526.dat
 
+0 STEP
 0 FILE 60101 - t02o0526.dat
 0 A half-sweep outside torus primitive with a 0.0526 tube-to-major-radius ratio.
 0 Name: 60101 - t02o0526.dat
@@ -2172,6 +2187,7 @@
 5 24 -1.0486 0.0201 0 -1.0526 0 0 -1.0486 0.0201 -0.4343 -0.9688 0.0201 0.4013
 0 // Build by Primitive Generator 2
 
+0 STEP
 0 FILE s\60101 - 74967s01.dat
 0 The main body of a reinforced 8 x 8 notched wheel rim, composed of open cylinders and rectangles.
 0 Name: s\60101 - 74967s01.dat
@@ -2208,6 +2224,7 @@
 
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\60101 - 30027s01.dat
 
+0 STEP
 0 FILE s\60101 - 30027s02.dat
 0 The slot detail of an 8 x 8 wheel rim for a wheel holding pin, modeled as rectangles and a small circle.
 0 Name: s\60101 - 30027s02.dat
@@ -2248,6 +2265,7 @@
 3 16 0.666 -7.867 -2 0 -6 -2 -1.5 -5.701 -2
 3 16 5.701 1.5 -2 6 0 -2 7.867 -0.666 -2
 
+0 STEP
 0 FILE s\60101 - 30027s01.dat
 0 The main body of an 8 x 8 wheel rim for a wheel holding pin, built from cylinders, discs, rings, and rectangles.
 0 Name: s\60101 - 30027s01.dat
@@ -2436,6 +2454,7 @@
 0 // Cylinder Open 1.0 (main_colour)
 1 16 0 0 -4 0 0 10 10 0 0 0 -6 0 4-4cylo.dat
 
+0 STEP
 0 FILE s\60101 - 973p8qs02.dat
 0 The ID badge pattern detail composed of four small black discs.
 0 Name: s\60101 - 973p8qs02.dat
@@ -2526,6 +2545,7 @@
 4 4 0 3.62 0 -3.6 3.62 0 -3.6 4.52 0 3.6 4.52 0
 3 4 3.6 3.62 0 0 3.62 0 3.6 4.52 0
 
+0 STEP
 0 FILE s\60101 - 60219s01.dat
 0 The core geometry of a 45-degree 6 x 4 double inverted slope with centre holes, built from circles, boxes, and rectangles.
 0 Name: s\60101 - 60219s01.dat
@@ -2651,6 +2671,7 @@
 3 16 -40 16 40 -26 16 6 -14 16 6
 4 16 -40 16 40 -40 16 0 -26 16 0 -26 16 6
 
+0 STEP
 0 FILE 60101 - stud2s2.dat
 0 A sliced open stud tube with an inner stopper ring, modeled from sloped cylinders and circles.
 0 Name: 60101 - stud2s2.dat
@@ -2673,6 +2694,7 @@
 0 // Cylinder Sloped 1.0 (main_colour)
 1 16 0 0 0 6 0 0 0 1 0 0 0 6 4-4cyls.dat
 
+0 STEP
 0 FILE 60101 - stud2s2e.dat
 0 An open stud extension featuring a 0.5 LDU inner stopper ring, composed of cylinders and a ring.
 0 Name: 60101 - stud2s2e.dat
@@ -2694,6 +2716,7 @@
 0 // Cylinder 1.0 (main_colour)
 1 16 0 0 0 6 0 0 0 1 0 0 0 6 4-4cyli.dat
 
+0 STEP
 0 FILE s\60101 - 3665as01.dat
 0 The body of a 45-degree 2 x 1 inverted slope without an inner stopper ring or front face, modeled from boxes and rectangles.
 0 Name: s\60101 - 3665as01.dat
@@ -2747,6 +2770,7 @@
 1 16 0 4 -20 1 0 0 0 2 0 0 0 1 stud2a.dat
 1 16 0 4 -20 0 0 1 0 6 0 -1 0 0 stud2s.dat
 
+0 STEP
 0 FILE s\60101 - 11293s01.dat
 0 The detailed geometry of a plane front nose section with 8 windows, constructed from rectangles, boxes, and a sloped cylinder.
 0 Name: s\60101 - 11293s01.dat
@@ -4167,6 +4191,7 @@
 5 24 47.005001 86.341003 -114.664001 57.050999 86.821999 -96.150002 46.122002 70.710999 -107.596001 51.959999 96 -110
 5 24 29.367001 84.538002 -130.287003 47.005001 86.341003 -114.664001 46.122002 70.710999 -107.596001 42.425999 96 -122.426003
 
+0 STEP
 0 FILE s\60101 - 11297s01.dat
 0 A glass plane front window assembly built from a half-cylinder piece and a top window surface.
 0 Name: s\60101 - 11297s01.dat

@@ -23,6 +23,7 @@
 1 256 30 -3 -20 0 0 -1 0 1 0 1 0 0 3641.dat
 
 
+0 STEP
 0 FILE 4096 - QB Truck.ldr
 0 A compact truck body consisting of black and grey plates with wheel-pin mounts, a yellow sloped front, and a grille tile.
 0 Name: 4096 - QB Truck.ldr
@@ -54,6 +55,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 4096 - QB Truck S06.ldr
 0 A small grey and clear transparent plate assembly.
 0 Name: 4096 - QB Truck S06.ldr

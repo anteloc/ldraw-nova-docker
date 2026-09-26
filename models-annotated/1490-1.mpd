@@ -15,6 +15,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 1490 - buildning.ldr 
 0 A multi-story building constructed on a 16x32 baseplate with tall brick walls, windows, a computer screen slope, and interior container boxes and doors.
 0 Name: 1490 - buildning.ldr 
@@ -260,6 +261,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 1490 - buildning - barrier.ldr 
 0 A hinged yellow barrier made from a tile mounted on a hinge plate with a vertical bar arm.
 0 Name: 1490 - buildning - barrier.ldr 
@@ -278,6 +280,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 1490 - car.ldr 
 0 A small car built from plates and mudguards with wheels, a steering stand, turntable, and hinge assemblies.
 0 Name: 1490 - car.ldr 
@@ -409,6 +412,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 1490 - minifig 1.ldr 
 0 A female civilian minifigure wearing a white top with red necklace, blue hips and legs, and shoulder-length black hair.
 0 Name: 1490 - minifig 1.ldr 
@@ -441,6 +445,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 1490 - minifig 2.ldr 
 0 A police officer minifigure in a white police hat, black uniform with badge, carrying two grey suitcases.
 0 Name: 1490 - minifig 2.ldr 
@@ -477,6 +482,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 1490 - minifig 3.ldr 
 0 A male civilian minifigure wearing a black torso with red V-neck, black hips and legs, blue arms, and brown hair.
 0 Name: 1490 - minifig 3.ldr 
@@ -509,6 +515,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 1490 - 4343c02.dat 
 0 A door subassembly consisting of a 1x4x5 door frame and its clear glass pane.
 0 Door  1 x  4 x  5 Right with TransClear Glass

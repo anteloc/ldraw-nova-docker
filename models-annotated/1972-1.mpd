@@ -9,6 +9,7 @@
 
 
 
+0 STEP
 0 FILE 1972 - Go Kart.ldr
 0 The blue Technic chassis frame built from plates, Technic bricks, and axles with bushings to support the wheels and drivetrain.
 0 Name: 1972 - Go Kart.ldr
@@ -149,6 +150,7 @@
 1 7 0 -96.776 -53.126 1 0 0 0 0.896 -0.444 0 0.444 0.896 4185a.dat
 
 
+0 STEP
 0 FILE 1972 - Side Skirt.ldr
 0 A small axle-and-connector assembly forming a decorative side skirt accent.
 0 Name: 1972 - Side Skirt.ldr
@@ -168,6 +170,7 @@
 1 7 30 0 20 1 0 0 0 1 0 0 0 1 3651.dat
 
 
+0 STEP
 0 FILE 1972 - Motorblock.ldr
 0 A stack of light grey plates representing the engine motorblock.
 0 Name: 1972 - Motorblock.ldr
@@ -191,6 +194,7 @@
 1 7 -10 -32 0 -1 0 0 0 1 0 0 0 -1 3021.dat
 
 
+0 STEP
 0 FILE 1972 - Seat.ldr
 0 A red seat built from hinge plates and stacked plates with a reclined backrest.
 0 Name: 1972 - Seat.ldr
@@ -223,6 +227,7 @@
 1 4 36.533 -66.724 0 0 0.966 0.259 0 0.259 -0.966 -1 0 0 3021.dat
 
 
+0 STEP
 0 FILE 1972 - Wheel.ldr
 0 A grey wheel rim with a rubber tyre mounted on an axle.
 0 Name: 1972 - Wheel.ldr
@@ -240,6 +245,7 @@
 1 256 0 0 10 1 0 0 0 1 0 0 0 1 3483.dat
 
 
+0 STEP
 0 FILE 1972 - Hose Left.ldr
 0 A curved pneumatic tube assembly made of 64 segments with bulged end fittings forming the left hose.
 0 Name: 1972 - Hose Left.ldr
@@ -408,6 +414,7 @@
 1 16 -73.996501 82.093549 -49.301689 0.999987 -0.019819 0.001395 -0.002042 -0.529856 0.991144 -0.004737 -3.955179 -0.132786 71533k03.dat
 
 
+0 STEP
 0 FILE 1972 - Hose Right.ldr
 0 A curved pneumatic tube assembly made of 64 segments with bulged end fittings forming the right hose.
 0 Name: 1972 - Hose Right.ldr

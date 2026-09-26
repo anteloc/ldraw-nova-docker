@@ -10,6 +10,7 @@
 1 0 0 2.799 -2.701 1 0 0 0 0.991445 -0.130526 0 0.130526 0.991445 6812 - Vehicule + Minifig.ldr
 
 
+0 STEP
 0 FILE 6812 - Vehicle.ldr
 0 A compact black-and-white wheeled rover with four solid rubber wheels, a control tile, an antenna, and a neon green dish.
 0 Name: 6812 - Vehicle.ldr
@@ -55,6 +56,7 @@
 1 256 -38 22 20 0 0 1 0 1 0 -1 0 0 4288.dat
 
 
+0 STEP
 0 FILE 6812 - Minifig.ldr
 0 A white-torsoed Blacktron II minifig with black arms and hips and a smiling head.
 0 Name: 6812 - Minifig.ldr
@@ -85,6 +87,7 @@
 0 // ~Minifig Hips (Obsolete) (black)
 1 0 0 32.523 3.508 1 0 0 0 0.956305 0.292372 0 -0.292372 0.956305 3815.dat
 
+0 STEP
 0 FILE 6812 - Minifig - Helmet.ldr
 0 A standard black minifig helmet with a trans-neon green visor.
 0 Name: 6812 - Minifig - Helmet.ldr
@@ -100,6 +103,7 @@
 1 42 0 0 0 1 0 0 0 1 0 0 0 1 2447.dat
 
 
+0 STEP
 0 FILE 6812 - Minifig - Jet-Pack.ldr
 0 A white jet-pack with two nozzles accented by trans-neon green round plates.
 0 Name: 6812 - Minifig - Jet-Pack.ldr
@@ -118,6 +122,7 @@
 
 
 
+0 STEP
 0 FILE 6812 - Vehicule + Minifig.ldr
 0 An assembly combining the vehicle with the fully equipped minifig.
 0 Name: 6812 - Vehicule + Minifig.ldr

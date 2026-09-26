@@ -10,6 +10,7 @@
 1 4 152.679 -169 614.449 0.866 -0.004 0.5 0 1 0.009 -0.5 -0.008 0.866 42106 - bike.ldr
 
 
+0 STEP
 0 FILE 42106 - bike.ldr
 0 bike
 0 Name: 42106 - bike.ldr
@@ -157,6 +158,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42106 - bikerearfork.ldr
 0 bikerearfork
 0 Name: 42106 - bikerearfork.ldr
@@ -196,6 +198,7 @@
 1 14 -80 -48 76 -1 0 0 0 -0.8 0.6 0 0.6 0.8 32073.dat
 
 
+0 STEP
 0 FILE 42106 - technicRibHose-LQ-1.ldr
 0 technicRibHose-LQ-1
 0 Name: 42106 - technicRibHose-LQ-1.ldr
@@ -248,6 +251,7 @@
 1 16 37.233757 0 -21.61538 0 0.573578 -0.819151 1 0 0 0 -0.819151 -0.573578 42106 - 79.dat
 
 
+0 STEP
 0 FILE 42106 - trailer.ldr
 0 trailer
 0 Name: 42106 - trailer.ldr
@@ -498,6 +502,7 @@
 1 71 -20 -75 160 1 0 0 0 0 1 0 -1 0 32123b.dat
 
 
+0 STEP
 0 FILE 42106 - pickup.ldr
 0 pickup
 0 Name: 42106 - pickup.ldr
@@ -1064,6 +1069,7 @@
 1 4 0 -60 320 1 0 0 0 1 0 0 0 1 42106 - firecircle.ldr
 
 
+0 STEP
 0 FILE 42106 - seats.ldr
 0 seats
 0 Name: 42106 - seats.ldr
@@ -1118,6 +1124,7 @@
 1 1 40 90 -60 0 -1 0 -1 0 0 0 0 -1 43093.dat
 
 
+0 STEP
 0 FILE 42106 - cabinside.ldr
 0 cabinside
 0 Name: 42106 - cabinside.ldr
@@ -1144,6 +1151,7 @@
 1 0 -25 60 0 0 -1 0 0 0 1 -1 0 0 11478.dat
 
 
+0 STEP
 0 FILE 42106 - cabinside2.ldr
 0 cabinside2
 0 Name: 42106 - cabinside2.ldr
@@ -1170,6 +1178,7 @@
 1 0 -25 60 0 0 -1 0 0 0 1 -1 0 0 11478.dat
 
 
+0 STEP
 0 FILE 42106 - truckfrontside1.ldr
 0 truckfrontside1
 0 Name: 42106 - truckfrontside1.ldr
@@ -1207,6 +1216,7 @@
 1 71 -60 0 -40 0 0 1 0 1 0 -1 0 0 26287.dat
 
 
+0 STEP
 0 FILE 42106 - truckfront.ldr
 0 truckfront
 0 Name: 42106 - truckfront.ldr
@@ -1244,6 +1254,7 @@
 1 4 0 -60 20 0 0 -1 0 1 0 1 0 0 40490.dat
 
 
+0 STEP
 0 FILE 42106 - bonnet.ldr
 0 bonnet
 0 Name: 42106 - bonnet.ldr
@@ -1300,6 +1311,7 @@
 1 0 0 0 -60 0 0 -1 -1 0 0 0 1 0 24119.dat
 
 
+0 STEP
 0 FILE 42106 - truckback.ldr
 0 truckback
 0 Name: 42106 - truckback.ldr
@@ -1358,6 +1370,7 @@
 1 0 0 -20 -20 0 0 1 -1 0 0 0 -1 0 18651.dat
 
 
+0 STEP
 0 FILE 42106 - door1.ldr
 0 door1
 0 Name: 42106 - door1.ldr
@@ -1415,6 +1428,7 @@
 1 71 -20 15 -60 0 -1 0 0 0 1 -1 0 0 32123b.dat
 
 
+0 STEP
 0 FILE 42106 - door2.ldr
 0 door2
 0 Name: 42106 - door2.ldr
@@ -1472,6 +1486,7 @@
 1 71 20 15 -60 0 1 0 0 0 1 1 0 0 32123b.dat
 
 
+0 STEP
 0 FILE 42106 - firecircle.ldr
 0 firecircle
 0 Name: 42106 - firecircle.ldr
@@ -1513,6 +1528,7 @@
 1 36 0 -410 23 0 0 -1 0 1 0 1 0 0 85959p02.dat
 
 
+0 STEP
 0 FILE 42106 - rigid3mmHose-studio-1.ldr
 0 rigid3mmHose-studio-1
 0 Name: 42106 - rigid3mmHose-studio-1.ldr
@@ -2359,6 +2375,7 @@
 1 16 0 148.234695 221.486838 1 0 0 0 -0.92388 0.382683 0 -0.382683 -0.92388 u9053.dat
 
 
+0 STEP
 0 FILE 42106 - 79.dat
 0 79
 0 Name: 42106 - 79.dat
@@ -2401,6 +2418,7 @@
 0 // Cylinder 1.0 (main_colour)
 1 16 0 1.5 0 6.5 0 0 0 1 0 0 0 6.5 4-4cyli.dat
 
+0 STEP
 0 FILE 42106 - 80.dat
 0 80
 0 Name: 42106 - 80.dat
@@ -2437,6 +2455,7 @@
 0 // Cylinder 1.0 (main_colour)
 1 16 0 1.5 0 6.5 0 0 0 1.8 0 0 0 6.5 4-4cyli.dat
 
+0 STEP
 0 FILE 42106 - 42531.dat
 0 42531
 0 Name: 42106 - 42531.dat
@@ -2453,6 +2472,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\42106 - 42531s02.dat
 1 16 0 0 0 1 0 0 0 1 0 0 0 -1 s\42106 - 42531s02.dat
 
+0 STEP
 0 FILE 42106 - npeghol3.dat
 0 npeghol3
 0 Name: 42106 - npeghol3.dat
@@ -2498,6 +2518,7 @@
 0 // Box with  2 Faces without  7 Edges (main_colour)
 1 16 2.7222 0.5 -3.041 0 -0.72215 0 0.5 0 0 0 0.14395 1.5 box2-7.dat
 
+0 STEP
 0 FILE s\42106 - 98138s01.dat
 0 98138s01
 0 Name: s\42106 - 98138s01.dat
@@ -2517,6 +2538,7 @@
 0 // Ring  9 x 1.0 (main_colour)
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 4-4ring9.dat
 
+0 STEP
 0 FILE s\42106 - 98138s02.dat
 0 98138s02
 0 Name: s\42106 - 98138s02.dat
@@ -2536,6 +2558,7 @@
 0 // Cylinder Open 1.0 (main_colour)
 1 16 0 0 0 10 0 0 0 7 0 0 0 10 4-4cylo.dat
 
+0 STEP
 0 FILE s\42106 - 42531s01.dat
 0 42531s01
 0 Name: s\42106 - 42531s01.dat
@@ -2847,6 +2870,7 @@
 1 16 -29 -40 60 0 -1 0 -9 0 0 0 0 -9 1-8edge.dat
 2 24 4.2484 5.4184 70 0 5.4184 70
 
+0 STEP
 0 FILE s\42106 - 42531s02.dat
 0 42531s02
 0 Name: s\42106 - 42531s02.dat
@@ -2922,6 +2946,7 @@
 5 24 8.3356 -8.5578 81 8.3356 -8.5578 89 7.4781 -16.490499 75 9 0 89
 5 24 9 -32.9184 0 -13.6361 -46.363899 0 -12.1655 -44.957199 -14.6336 -12.1655 -44.957199 14.6336
 
+0 STEP
 0 FILE s\42106 - 6578s01.dat
 0 A box submodel formed by two box pieces with open faces.
 0 Name: s\42106 - 6578s01.dat
@@ -2971,6 +2996,7 @@
 4 16 0 -37 7 -9.577 -35.738998 7 -9.83 -36.700001 7 0 -38 7
 2 24 -9.577 -35.738998 7 0 -37 7
 
+0 STEP
 0 FILE s\42106 - 78s01.dat
 0 A cylindrical wheel or tire submodel built from cylinders, rings, and circles.
 0 Name: s\42106 - 78s01.dat

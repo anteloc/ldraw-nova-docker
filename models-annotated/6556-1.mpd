@@ -16,6 +16,7 @@
 1 15 73.302 0 -84.998 -0.5 0 0.866 0 1 0 -0.866 0 -0.5 6556 - minifig 2.ldr
 
 0 NOFILE
+0 STEP
 0 FILE 6556 - car.ldr
 0 A red wheeled vehicle built on car bases with a steering wheel, doors, slope panels, and light bars with colored lenses.
 0 !LEOCAD MODEL CURRENT_STEP11
@@ -123,6 +124,7 @@
 0 STEP
 
 0 NOFILE
+0 STEP
 0 FILE 6556 - trailer.ldr
 0 A small red wheeled trailer with a large wing-shaped bed and a towball hitch for hauling cargo.
 0 trailer
@@ -159,6 +161,7 @@
 1 15 50 -20 -210 0 0 -1 0 1 0 1 0 0 4624.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6556 - boat.ldr
 0 A small inflatable boat featuring a control stick steering assembly and a clip-mounted outboard hinge.
 0 boat
@@ -187,6 +190,7 @@
 1 7 0 -56 70 -1 0 0 0 0.866 0.5 0 0.5 -0.866 4593.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6556 - minifig 1.ldr
 0 A diver minifigure wearing a black helmet with a dark blue visor mask, blue scuba tank, and blue swim flippers.
 0 minifig 1
@@ -227,6 +231,7 @@
 1 15 0 -72.022 1.818 1 0 0 0 1 0 0 0 1 30091.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6556 - minifig 2.ldr
 0 A civilian minifigure wearing a blue cap with a flat peak, a white torso, and blue legs with yellow arms.
 0 minifig 2
@@ -259,6 +264,7 @@
 1 1 2.26 -28 3.37 1 0 0 0 1 0 0 0 1 3816.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6556 - flag.ldr
 0 A white diver-patterned flag mounted on a pole with a round red base plate.
 0 flag

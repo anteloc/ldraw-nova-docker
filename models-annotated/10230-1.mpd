@@ -12,6 +12,7 @@
 1 272 -320 -8 0 0 0 1 0 1 0 -1 0 0 10230 - grandemporium.ldr
 
 
+0 STEP
 0 FILE 10230 - cornercafe.ldr
 0 Mini Cafe Corner building on a green baseplate, with tan, dark red and reddish brown brickwork, grooved tiled facades, arched windows, lattice fence railings, a HOTEL sign tile, street lamps and rooftop detail
 0 Name: 10230 - cornercafe.ldr
@@ -600,6 +601,7 @@
 1 72 37.071 -218 -37.071 0.707 0 -0.707 0 1 0 0.707 0 0.707 10230 - tower.ldr
 
 
+0 STEP
 0 FILE 10230 - tower.ldr
 0 Small rooftop tower with arched window panels, a rounded corner roof and railing details
 0 Name: 10230 - tower.ldr
@@ -636,6 +638,7 @@
 1 70 10 64 -10 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 10230 - marketstreet.ldr
 0 Mini Market Street building with tan, dark blue and white brickwork, grooved tiled facade, window grilles and decorative trim
 0 Name: 10230 - marketstreet.ldr
@@ -830,6 +833,7 @@
 1 73 30 -152 20 1 0 0 0 1 0 0 0 1 10230 - marketroof.ldr
 
 
+0 STEP
 0 FILE 10230 - market1stfloor.ldr
 0 Upper floor of the Market Street building with medium blue tiled walls and clip-light detailing
 0 Name: 10230 - market1stfloor.ldr
@@ -931,6 +935,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10230 - marketroof.ldr
 0 Roof section of the Market Street building with medium blue and tan plates, slope detailing, clip lights and a flagpole tap
 0 Name: 10230 - marketroof.ldr
@@ -1086,6 +1091,7 @@
 1 15 -20 -32 -70 0 0 1 0 1 0 -1 0 0 4599b.dat
 
 
+0 STEP
 0 FILE 10230 - greengrocer.ldr
 0 Mini Green Grocer building with a sand green facade, black window and door detail, clear trans windows and tiled cornices
 0 Name: 10230 - greengrocer.ldr
@@ -1615,6 +1621,7 @@
 1 71 -70 -272 -10 0 0 1 0 1 0 -1 0 0 3070b.dat
 
 
+0 STEP
 0 FILE 10230 - firebrigade.ldr
 0 Mini Fire Brigade building with dark red and dark tan brickwork, headlight-brick detailing, tiled facade and window trims
 0 Name: 10230 - firebrigade.ldr
@@ -2272,6 +2279,7 @@
 1 0 0 -352 -20 0 0 -1 0 1 0 1 0 0 59900.dat
 
 
+0 STEP
 0 FILE 10230 - grandemporium.ldr
 0 Mini Grand Emporium building with a tan facade, trans green display windows, tiled cornices and curved detailing
 0 Name: 10230 - grandemporium.ldr
@@ -2898,6 +2906,7 @@
 1 272 36 -276 40 0 -1 0 -0.707 0 0.707 -0.707 0 -0.707 3070b.dat
 
 
+0 STEP
 0 FILE 10230 - stringStudsLQ-1.ldr
 0 Flexible rope assembly of cylinder segments with end studs (LDCad generated)
 0 Name: 10230 - stringStudsLQ-1.ldr
@@ -2953,6 +2962,7 @@
 
 
 
+0 STEP
 0 FILE 10230 - stringStudsLQ-1_subPart1.ldr
 0 Rope segment chain subpart of 57 cylinder links (LDCad generated)
 0 Name: 10230 - stringStudsLQ-1_subPart1.ldr
@@ -3090,6 +3100,7 @@
 1 16 1.643298 59.022181 9.330647 1.476281 0.708324 -0.006389 0.00489 -0.168604 -1.498659 -0.265653 3.933173 -0.063093 4-4cyli.dat
 
 
+0 STEP
 0 FILE 10230 - ldcLQRopeSeg.dat
 0 Single rope-link cylinder segment primitive (LDCad generated)
 0 Name: 10230 - ldcLQRopeSeg.dat
@@ -3104,6 +3115,7 @@
 0 // Cylinder 1.0 (main_colour)
 1 16 0 0 0 1.5 0 0 0 1 0 0 0 1.5 4-4cyli.dat
 
+0 STEP
 0 FILE 10230 - ldcRopeEnd.dat
 0 Rope end cylinder primitive (LDCad generated)
 0 Name: 10230 - ldcRopeEnd.dat
@@ -3118,6 +3130,7 @@
 0 // Cylinder 1.0 (main_colour)
 1 16 0 0 0 1.5 0 0 0 4 0 0 0 1.5 4-4cyli.dat
 
+0 STEP
 0 FILE 10230 - clip14.dat
 0 Clip geometry primitive built from rectangles, discs and open cylinders
 0 Name: 10230 - clip14.dat
@@ -3234,6 +3247,7 @@
 5 24 5.005 -4 -2.779 5.005 4 -2.779 5.393 4 -4.365 5.375 4 -0.998
 5 24 5.375 -4 -0.998 5.375 4 -0.998 5.005 4 -2.779 6.54 4 0
 
+0 STEP
 0 FILE s\10230 - 60601s01.dat
 0 Stud geometry subpart built from chords, boxes and open cylinders
 0 Name: s\10230 - 60601s01.dat

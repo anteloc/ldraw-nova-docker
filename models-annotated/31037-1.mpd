@@ -468,6 +468,7 @@
 1 71 -90 26 -100 0 0 -1 0 1 0 1 0 0 3713.dat
 
 
+0 STEP
 0 FILE 31037 - Rear Bumper.ldr
 0 Rear Bumper
 0 Name: 31037 - Rear Bumper.ldr
@@ -497,6 +498,7 @@
 0 // ~Bar  6L with Thick Stop (Obsolete) (dark_bluish_grey)
 1 72 -42 -14 20 0 -1 0 1 0 0 0 0 1 63965.dat
 
+0 STEP
 0 FILE 31037 - Front Bumper.ldr
 0 Front Bumper
 0 Name: 31037 - Front Bumper.ldr
@@ -530,6 +532,7 @@
 0 // ~Bar  6L with Thick Stop (Obsolete) (dark_bluish_grey)
 1 72 42 -14 0 0 1 0 -1 0 0 0 0 1 63965.dat
 
+0 STEP
 0 FILE 31037 - ropeLQ-1.ldr
 0 ropeLQ-1
 0 Name: 31037 - ropeLQ-1.ldr
@@ -676,6 +679,7 @@
 0 // Cylinder 1.0 (main_colour)
 1 16 -70.016909 -286.683909 -7 1.499753 0.072555 0 -0.027216 3.998195 0 0 0 1.5 4-4cyli.dat
 
+0 STEP
 0 FILE 31037 - Door.ldr
 0 Door
 0 Name: 31037 - Door.ldr
@@ -691,6 +695,7 @@
 0 // Tile  2 x  2 with Groove (white)
 1 15 0 -16 0 1 0 0 0 1 0 0 0 1 3068b.dat
 
+0 STEP
 0 FILE 31037 - Seat.ldr
 0 Seat
 0 Name: 31037 - Seat.ldr
@@ -704,6 +709,7 @@
 0 // Slope Brick Curved  2 x  1 (red)
 1 4 10 8 10 -1 0 0 0 1 0 0 0 -1 11477.dat
 
+0 STEP
 0 FILE 31037 - Support.ldr
 0 Support
 0 Name: 31037 - Support.ldr
@@ -717,6 +723,7 @@
 0 // Plate  1 x  2 with Handle on End (black)
 1 0 0 0 40 0 0 -1 0 1 0 1 0 0 60478.dat
 
+0 STEP
 0 FILE 31037 - Mirror Left.ldr
 0 Mirror Left
 0 Name: 31037 - Mirror Left.ldr
@@ -730,6 +737,7 @@
 0 // Slope Brick Curved  2 x  1 (green)
 1 2 0 0 0 -1 0 0 0 1 0 0 0 -1 11477.dat
 
+0 STEP
 0 FILE 31037 - Mirror Right.ldr
 0 Mirror Right
 0 Name: 31037 - Mirror Right.ldr
@@ -743,6 +751,7 @@
 0 // Slope Brick Curved  2 x  1 (green)
 1 2 0 0 0 -1 0 0 0 1 0 0 0 -1 11477.dat
 
+0 STEP
 0 FILE 31037 - Wheel.ldr
 0 Wheel
 0 Name: 31037 - Wheel.ldr

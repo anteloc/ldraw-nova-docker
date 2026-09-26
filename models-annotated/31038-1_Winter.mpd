@@ -7,6 +7,7 @@
 1 72 0 0 0 1 0 0 0 1 0 0 0 1 31038 - Winter.ldr
 
 
+0 STEP
 0 FILE 31038 - Winter.ldr
 0 Snow-covered cabin structure built from white and tan bricks with a large green baseplate, sloped roofs, and detailed walls.
 0 Name: 31038 - Winter.ldr
@@ -557,6 +558,7 @@
 1 15 40 -48 250 0.707 0 -0.707 0 1 0 0.707 0 0.707 31038 - Tree.ldr
 
 
+0 STEP
 0 FILE 31038 - Wall.ldr
 0 Building wall section with a hinged frame, tan bricks, a white window with green panes, and grille detailing.
 0 Name: 31038 - Wall.ldr
@@ -615,6 +617,7 @@
 1 71 0 -128 20 0 0 1 0 1 0 -1 0 0 2431.dat
 
 
+0 STEP
 0 FILE 31038 - Table.ldr
 0 Small brown outdoor table topped with an orange dish, clear cup, and a round orange plate.
 0 Name: 31038 - Table.ldr
@@ -644,6 +647,7 @@
 1 47 -10 -32 -10 0 0 -1 0 1 0 1 0 0 3899.dat
 
 
+0 STEP
 0 FILE 31038 - Seat.ldr
 0 Red and brown curved lounge chair with a handle, clips, and an axle-mounted swivel base.
 0 Name: 31038 - Seat.ldr
@@ -673,6 +677,7 @@
 1 70 30 -8 -10 0 0 1 0 1 0 -1 0 0 85984.dat
 
 
+0 STEP
 0 FILE 31038 - Plant.ldr
 0 Small potted plant with green foliage, red accents, and a brown stem on a round base.
 0 Name: 31038 - Plant.ldr
@@ -698,6 +703,7 @@
 1 4 0 -24 -10 -1 0 0 0 1 0 0 0 -1 6141.dat
 
 
+0 STEP
 0 FILE 31038 - Chimney.ldr
 0 Roof chimney built from brown plates and grey bricks with black grille vent details.
 0 Name: 31038 - Chimney.ldr
@@ -723,6 +729,7 @@
 1 0 10 -40 0 0 0 1 0 1 0 -1 0 0 2412b.dat
 
 
+0 STEP
 0 FILE 31038 - Mistletoe.ldr
 0 Hanging mistletoe decoration made of green and red round plates on a black axle base.
 0 Name: 31038 - Mistletoe.ldr
@@ -747,6 +754,7 @@
 1 4 -10 -16 -10 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 31038 - Lamp.ldr
 0 Outdoor street lamp with a black pole, inverted dish shade, and a glowing yellow light element.
 0 Name: 31038 - Lamp.ldr
@@ -772,6 +780,7 @@
 1 0 0 12 -6 -1 0 0 0 0 -1 0 -1 0 15712.dat
 
 
+0 STEP
 0 FILE 31038 - Snowman.ldr
 0 Snowman figure with a white domed body, black eyes, red hat, and a brown broom.
 0 Name: 31038 - Snowman.ldr
@@ -805,6 +814,7 @@
 1 70 30 24 0 0 0 1 0 -1 0 1 0 0 3836.dat
 
 
+0 STEP
 0 FILE 31038 - Snowblower.ldr
 0 Orange and grey wheeled snowblower vehicle with a curved scoop, control gauges, and blower chute.
 0 Name: 31038 - Snowblower.ldr
@@ -866,6 +876,7 @@
 1 256 30 5 0 0 0 -1 0 1 0 1 0 0 87414.dat
 
 
+0 STEP
 0 FILE 31038 - Young.ldr
 0 Female child minifigure wearing a white hooded sweatshirt, dark blue shorts, with a ponytail hairstyle.
 0 Name: 31038 - Young.ldr
@@ -892,6 +903,7 @@
 1 15 -24.738 31.663 -20.052 0.996 -0.086 0 0.043 0.5 -0.865 0.075 0.862 0.502 54200.dat
 
 
+0 STEP
 0 FILE 31038 - Adult.ldr
 0 Adult male minifigure wearing a blue plaid shirt, dark tan legs, and a red cap.
 0 Name: 31038 - Adult.ldr
@@ -920,6 +932,7 @@
 1 28 0 44 0 1 0 0 0 1 0 0 0 1 3817b.dat
 
 
+0 STEP
 0 FILE 31038 - Tree.ldr
 0 Decorative evergreen tree with green sloped branches, bright yellow and red round ornaments, and a yellow star topper.
 0 Name: 31038 - Tree.ldr
@@ -981,6 +994,7 @@
 1 0 20 48 -20 1 0 0 0 1 0 0 0 1 31038 - Tree base.ldr
 
 
+0 STEP
 0 FILE 31038 - Tree base.ldr
 0 Ground base for a tree built from green and white plates with a brown trunk stud.
 0 Name: 31038 - Tree base.ldr

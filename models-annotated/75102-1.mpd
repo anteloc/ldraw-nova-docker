@@ -653,6 +653,7 @@
 1 36 320 24 -340 0.966 0 0.259 0 1 0 -0.259 0 0.966 75102 - Poe's X-Wing Fighter - subModel-1.ldr
 
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - subModel-1.ldr
 0 Cockpit interior console with yellow panels, control sticks, transparent red/orange indicator lights, and clear dishes representing instruments.
 0 Name: 75102 - Poe's X-Wing Fighter - subModel-1.ldr
@@ -738,6 +739,7 @@
 1 36 -30 -18 50 0 1 0 0 0 1 1 0 0 15303.dat
 
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - subModel-2.ldr
 0 Small cargo/toolbox with a hinged container door, trans-red lights, yellow clips, and a spanner/screwdriver tool.
 0 Name: 75102 - Poe's X-Wing Fighter - subModel-2.ldr
@@ -775,6 +777,7 @@
 1 0 30 20 0 0 -1 0 0 0 -1 1 0 0 75102 - Poe's X-Wing Fighter - 6116847a.dat
 
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - subModel-3.ldr
 0 Yellow wing panel section with handles and a double-clip bar for mounting a decorative wing cutout.
 0 Name: 75102 - Poe's X-Wing Fighter - subModel-3.ldr
@@ -797,6 +800,7 @@
 1 14 0 -6 -30 1 0 0 0 0.423 -0.906 0 0.906 0.423 6020.dat
 
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - subModel-4.ldr
 0 Technic landing strut assembly with an axle, connector, bush, and liftarms forming a retractable support.
 0 Name: 75102 - Poe's X-Wing Fighter - subModel-4.ldr
@@ -820,6 +824,7 @@
 1 72 15 0 -100 0 -1 0 -1 0 0 0 0 -1 41677.dat
 
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - subModel-5.ldr
 0 Long black wing spar built from stacked plates and a notched wing element forming the wing core structure.
 0 Name: 75102 - Poe's X-Wing Fighter - subModel-5.ldr
@@ -838,6 +843,7 @@
 1 0 20 8 -10 1 0 0 0 1 0 0 0 1 75102 - Poe's X-Wing Fighter - 14181.dat
 
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - subModel-6.ldr
 0 Small mounting bracket subassembly with orange and grey plates plus a white tile for wing surface detailing.
 0 Name: 75102 - Poe's X-Wing Fighter - subModel-6.ldr
@@ -857,6 +863,7 @@
 1 15 0 -16 -10 1 0 0 0 1 0 0 0 1 3022.dat
 
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - subModel-7.ldr
 0 Technic linkage assembly of angle connectors and axles forming part of the wing-folding mechanism.
 0 Name: 75102 - Poe's X-Wing Fighter - subModel-7.ldr
@@ -890,6 +897,7 @@
 1 0 0 10 0 0 1 0 -1 0 0 0 0 1 2780.dat
 
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - subModel-8.ldr
 0 Elongated engine nacelle or wing spine built from hinged plates, orange bricks, and dark tiles with grille detailing.
 0 Name: 75102 - Poe's X-Wing Fighter - subModel-8.ldr
@@ -1006,6 +1014,7 @@
 1 0 -25.998 16 140.349 0.05 0 0.999 0 1 0 -0.999 0 0.05 3460.dat
 
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - subModel-9.ldr
 0 Aerodynamic nose or body section using curved wedge elements and black wing cutouts with technic axlehole bricks.
 0 Name: 75102 - Poe's X-Wing Fighter - subModel-9.ldr
@@ -1038,6 +1047,7 @@
 1 0 0 -32 0 1 0 0 0 1 0 0 0 1 43712.dat
 
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - subModel-10.ldr
 0 Technic gear mechanism with bevel gear, liftarms, stop axles, and a cross block forming the wing-deployment drivetrain.
 0 Name: 75102 - Poe's X-Wing Fighter - subModel-10.ldr
@@ -1077,6 +1087,7 @@
 1 71 0 35 -30 0 -1 0 0 0 1 -1 0 0 32123a.dat
 
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - subModel-11.ldr
 0 Left-side wing trim detail with a cutout wedge, orange and black tiles, and a door-rail plate.
 0 Name: 75102 - Poe's X-Wing Fighter - subModel-11.ldr
@@ -1098,6 +1109,7 @@
 1 0 0 0 -40 1 0 0 0 1 0 0 0 1 32028.dat
 
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - subModel-12.ldr
 0 Right-side wing trim detail with a cutout wedge, orange and black tiles, and a door-rail plate.
 0 Name: 75102 - Poe's X-Wing Fighter - subModel-12.ldr
@@ -1119,6 +1131,7 @@
 1 0 40 0 0 0 0 -1 0 1 0 1 0 0 32028.dat
 
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - subModel-13.ldr
 0 Locking hinge joint assembly using fingered hinge arms and an axle to connect articulating wing sections.
 0 Name: 75102 - Poe's X-Wing Fighter - subModel-13.ldr
@@ -1141,6 +1154,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - subModel-14.ldr
 0 Left S-foil wing section with orange and dark-grey plates, corner brackets, slope detailing, and an articulated hinge joint.
 0 Name: 75102 - Poe's X-Wing Fighter - subModel-14.ldr
@@ -1264,6 +1278,7 @@
 1 71 -49 -14 -250 0 0 -1 1 0 0 0 -1 0 3713.dat
 
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - subModel-15.ldr
 0 Left lower wing panel assembly using orange and black long plates with pentagonal and angled wing elements.
 0 Name: 75102 - Poe's X-Wing Fighter - subModel-15.ldr
@@ -1291,6 +1306,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - subModel-16.ldr
 0 Left upper S-foil wing section with corner plates, orange accent strips, stud-sided bricks, and technic mounting points.
 0 Name: 75102 - Poe's X-Wing Fighter - subModel-16.ldr
@@ -1405,6 +1421,7 @@
 1 71 -50 -14 250 0 0 -1 -1 0 0 0 1 0 3713.dat
 
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - subModel-17.ldr
 0 Left wingtip cannon and surface detail with large wing element, orange tiles, spring shooter, grille, and trans-clear light.
 0 Name: 75102 - Poe's X-Wing Fighter - subModel-17.ldr
@@ -1457,6 +1474,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - rubberBandRound-1.ldr
 0 LDCad-generated flexible rubber band loop wrapping the wing-folding technic mechanism.
 0 Name: 75102 - Poe's X-Wing Fighter - rubberBandRound-1.ldr
@@ -1994,6 +2012,7 @@
 5 24 -8.414214 24 1.414214 -7 24 2 -8.694291 23.040022 1.414214 -7.095974 28.517855 1.414214
 
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - subModel-18.ldr
 0 Right S-foil wing section with orange and dark-grey plates, corner brackets, slope detailing, and an articulated hinge joint.
 0 Name: 75102 - Poe's X-Wing Fighter - subModel-18.ldr
@@ -2119,6 +2138,7 @@
 1 71 170 -14 -250 0 0 1 -1 0 0 0 -1 0 3713.dat
 
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - subModel-19.ldr
 0 Right lower wing panel assembly using orange and black long plates with pentagonal and angled wing elements.
 0 Name: 75102 - Poe's X-Wing Fighter - subModel-19.ldr
@@ -2144,6 +2164,7 @@
 1 0 -120 8 -40 0 0 -1 0 1 0 1 0 0 3031.dat
 
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - subModel-20.ldr
 0 Right upper S-foil wing section with corner plates, orange accent strips, stud-sided bricks, and technic mounting points.
 0 Name: 75102 - Poe's X-Wing Fighter - subModel-20.ldr
@@ -2255,6 +2276,7 @@
 1 71 -50 -14 -250 0 0 -1 1 0 0 0 -1 0 3713.dat
 
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - subModel-21.ldr
 0 Right wingtip cannon and surface detail with large wing element, orange tiles, spring shooter, grille, and trans-clear light.
 0 Name: 75102 - Poe's X-Wing Fighter - subModel-21.ldr
@@ -2307,6 +2329,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - subModel-22.ldr
 0 Engine intake/fan assembly with a black wheel rim, round bricks, axle, and a trans-pink center cone.
 0 Name: 75102 - Poe's X-Wing Fighter - subModel-22.ldr
@@ -2340,6 +2363,7 @@
 1 37 88 0 0 0 -1 0 1 0 0 0 0 1 59900.dat
 
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - subModel-23.ldr
 0 Small technic connector linkage of a bar, pin joiner, and friction pins for attaching an engine or strut.
 0 Name: 75102 - Poe's X-Wing Fighter - subModel-23.ldr
@@ -2358,6 +2382,7 @@
 1 71 46 0 0 -1 0 0 0 1 0 0 0 -1 4274.dat
 
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - 3958.dat
 0 Poe's X-Wing Fighter - 3958
 0 Name: 75102 - Poe's X-Wing Fighter - 3958.dat
@@ -2390,6 +2415,7 @@
 
 0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=R 6 4] [grid=C 6 C 6 20 20]
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - 14181.dat
 0 Poe's X-Wing Fighter - 14181
 0 Name: 75102 - Poe's X-Wing Fighter - 14181.dat
@@ -2438,6 +2464,7 @@
 4 16 33.0383 2.75 -5.331 32.290901 2.75 -14.2999 -32.290901 2.75 -14.2999 -33.0383 2.75 -5.331
 4 16 33.0383 2.75 -5.331 -33.0383 2.75 -5.331 -34.118999 2.75 5.105 34.118999 2.75 5.105
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - 6116847b.dat
 0 Poe's X-Wing Fighter - 6116847b
 0 Name: 75102 - Poe's X-Wing Fighter - 6116847b.dat
@@ -2974,6 +3001,7 @@
 3 0 -5.18335 -0.25 -1.68762 -5.97936 -0.25 -1.72936 -5.64915 -0.25 -1.95
 3 0 -5.18335 -0.25 -1.68762 -5.64915 -0.25 -1.95 -5.36944 -0.25 -2.13689
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - 92946.dat
 0 Poe's X-Wing Fighter - 92946
 0 Name: 75102 - Poe's X-Wing Fighter - 92946.dat
@@ -2994,6 +3022,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\92946s01.dat
 4 16 -10 4 -20 10 4 -20 10 -16 0 -10 -16 0
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - 15403c01.dat
 0 Poe's X-Wing Fighter - 15403c01
 0 Name: 75102 - Poe's X-Wing Fighter - 15403c01.dat
@@ -3008,6 +3037,7 @@
 0 // Minifig Gun Shooting Blaster Trigger (dark_bluish_grey)
 1 72 0 -15 -27 1 0 0 0 0.980785 -0.19509 0 0.19509 0.980785 15392.dat
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - 11291.dat
 0 Poe's X-Wing Fighter - 11291
 0 Name: 75102 - Poe's X-Wing Fighter - 11291.dat
@@ -3037,6 +3067,7 @@
 4 16 20 8 6 -20 8 6 -20 8 10 20 8 10
 4 16 20 8 -10 -20 8 -10 -20 8 -6 20 8 -6
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - 6116847c.dat
 0 Poe's X-Wing Fighter - 6116847c
 0 Name: 75102 - Poe's X-Wing Fighter - 6116847c.dat
@@ -3058,6 +3089,7 @@
 1 16 0 -0.25 0 0 0 -1 0 1 0 1 0 0 s\75102 - Poe's X-Wing Fighter - 6116847cs01.dat
 1 16 0 -0.25 0 0.707107 0 -0.707107 0 1 0 0.707107 0 0.707107 s\75102 - Poe's X-Wing Fighter - 6116847cs01.dat
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - 6116847f.dat
 0 Poe's X-Wing Fighter - 6116847f
 0 Name: 75102 - Poe's X-Wing Fighter - 6116847f.dat
@@ -3075,6 +3107,7 @@
 1 16 0 -0.25 0 -1 0 0 0 1 0 0 0 -1 s\75102 - Poe's X-Wing Fighter - 6116847fs01.dat
 1 16 0 -0.25 0 1 0 0 0 1 0 0 0 -1 s\75102 - Poe's X-Wing Fighter - 6116847fs01.dat
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - 21849p01.dat
 0 Poe's X-Wing Fighter - 21849p01
 0 Name: 75102 - Poe's X-Wing Fighter - 21849p01.dat
@@ -3101,6 +3134,7 @@
 4 16 11.8274 -16.065001 -55.400002 -11.8274 -16.065001 -55.400002 -14.1938 -15.1232 -58.028198 14.1938 -15.1232 -58.028198
 3 16 14.1938 -15.1232 -58.028198 -14.1938 -15.1232 -58.028198 0 22.4916 -163
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - 2654.dat
 0 Poe's X-Wing Fighter - 2654
 0 Name: 75102 - Poe's X-Wing Fighter - 2654.dat
@@ -3383,6 +3417,7 @@
 
 0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=R 6 4] [grid=C 2 C 2 20 20]
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - 6116847a.dat
 0 Poe's X-Wing Fighter - 6116847a
 0 Name: 75102 - Poe's X-Wing Fighter - 6116847a.dat
@@ -3498,6 +3533,7 @@
 4 71 2.6 -0.25 -1.1 3.15 -0.25 -0.85 0.7 -0.25 -0.15 1 -0.25 -0.65
 4 71 2.6 -0.25 -1.1 1 -0.25 -0.65 1.5 -0.25 -1.05 2 -0.25 -1.2
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - 93273d01.dat
 0 Poe's X-Wing Fighter - 93273d01
 0 Name: 75102 - Poe's X-Wing Fighter - 93273d01.dat
@@ -3511,6 +3547,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 93273.dat
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 75102 - Poe's X-Wing Fighter - 6116847hc01.dat
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - 15068d10.dat
 0 Poe's X-Wing Fighter - 15068d10
 0 Name: 75102 - Poe's X-Wing Fighter - 15068d10.dat
@@ -3524,6 +3561,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 15068.dat
 1 0 0 0 0 -1 0 0 0 1 0 0 0 1 75102 - Poe's X-Wing Fighter - 6116847ic01.dat
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - 15068d09.dat
 0 Poe's X-Wing Fighter - 15068d09
 0 Name: 75102 - Poe's X-Wing Fighter - 15068d09.dat
@@ -3537,6 +3575,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 15068.dat
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 75102 - Poe's X-Wing Fighter - 6116847ic01.dat
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - 3297d01.dat
 0 Poe's X-Wing Fighter - 3297d01
 0 Name: 75102 - Poe's X-Wing Fighter - 3297d01.dat
@@ -3550,6 +3589,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 3297.dat
 1 0 0 10.286 -30.572 1 0 0 0 0.894427 -0.447214 0 0.447214 0.894427 75102 - Poe's X-Wing Fighter - 6116847d.dat
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - 6116847g.dat
 0 Poe's X-Wing Fighter - 6116847g
 0 Name: 75102 - Poe's X-Wing Fighter - 6116847g.dat
@@ -3574,6 +3614,7 @@
 4 71 15 -0.25 7.5 6.8 -0.25 7.5 6.8 -0.25 -7.5 15 -0.25 -7.5
 4 71 29.200001 -0.25 7.5 21 -0.25 7.5 21 -0.25 -7.5 29.200001 -0.25 -7.5
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - ldcRubberBandRndSeg.dat
 0 Poe's X-Wing Fighter - ldcRubberBandRndSeg
 0 Name: 75102 - Poe's X-Wing Fighter - ldcRubberBandRndSeg.dat
@@ -3594,6 +3635,7 @@
 1 16 0 0 0 2 0 0 0 1 0 0 0 2 75102 - Poe's X-Wing Fighter - ldcConRing8.dat
 1 16 0 1 0 2 0 0 0 1 0 0 0 2 75102 - Poe's X-Wing Fighter - ldcConRing8.dat
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - 3297d02.dat
 0 Poe's X-Wing Fighter - 3297d02
 0 Name: 75102 - Poe's X-Wing Fighter - 3297d02.dat
@@ -3607,6 +3649,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 3297.dat
 1 0 0 10.286 -30.572 -1 0 0 0 0.894427 -0.447214 0 0.447214 0.894427 75102 - Poe's X-Wing Fighter - 6116847d.dat
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - 2714b.dat
 0 Poe's X-Wing Fighter - 2714b
 0 Name: 75102 - Poe's X-Wing Fighter - 2714b.dat
@@ -3674,6 +3717,7 @@
 0 // Circle 1.0 (main_colour)
 1 16 38 0 0 0 1 0 0 0 -4 -4 0 0 4-4edge.dat
 
+0 STEP
 0 FILE s\75102 - Poe's X-Wing Fighter - 14181s01.dat
 0 Poe's X-Wing Fighter - 14181s01
 0 Name: s\75102 - Poe's X-Wing Fighter - 14181s01.dat
@@ -3848,6 +3892,7 @@
 1 16 20 2.75 10 0 0 -6 0 1 0 6 0 0 4-4edge.dat
 5 24 36.229 2.75 19.52 36.229 8 19.52 35.596001 8 22.823999 35.057999 8 16.365999
 
+0 STEP
 0 FILE s\75102 - Poe's X-Wing Fighter - 11291s01.dat
 0 Poe's X-Wing Fighter - 11291s01
 0 Name: s\75102 - Poe's X-Wing Fighter - 11291s01.dat
@@ -4053,6 +4098,7 @@
 2 24 -28.7698 2.75 -33.755699 -28.7686 2.75682 -33.755501
 2 24 -30.8372 2.75 -33.833801 -30.876801 3.07902 -33.825901
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - 15403.dat
 0 Poe's X-Wing Fighter - 15403
 0 Name: 75102 - Poe's X-Wing Fighter - 15403.dat
@@ -4112,6 +4158,7 @@
 5 24 0 -4.064 -26.268 0 1.344 -27.716999 1.679 1.204 -27.804001 -1.679 1.204 -27.804001
 5 24 0 -20.016001 -7 0 -20.016001 -7.53 2 -19.813 -7.531 -2 -19.813 -6.7
 
+0 STEP
 0 FILE s\75102 - Poe's X-Wing Fighter - 15403s01.dat
 0 Poe's X-Wing Fighter - 15403s01
 0 Name: s\75102 - Poe's X-Wing Fighter - 15403s01.dat
@@ -4517,6 +4564,7 @@
 5 24 3.109 -19.52 -21.768 2 -19.813 -7.531 2 -19.813 -23.374001 5.088 -18.622 -4.588
 5 24 2 -19.813 -6.7 2 -19.813 -7.531 5.088 -18.622 -4.588 0 -20.016001 -7.53
 
+0 STEP
 0 FILE s\75102 - Poe's X-Wing Fighter - 6116847cs01.dat
 0 Poe's X-Wing Fighter - 6116847cs01
 0 Name: s\75102 - Poe's X-Wing Fighter - 6116847cs01.dat
@@ -4591,6 +4639,7 @@
 4 71 -11.6913 0 6.75 -10.4398 0 4.3243 -9.7861 0 5.65 -10.7103 0 8.2183
 3 71 -10.7103 0 8.2183 -9.7861 0 5.65 -8.9649 0 6.879
 
+0 STEP
 0 FILE s\75102 - Poe's X-Wing Fighter - 6116847fs01.dat
 0 Poe's X-Wing Fighter - 6116847fs01
 0 Name: s\75102 - Poe's X-Wing Fighter - 6116847fs01.dat
@@ -4769,6 +4818,7 @@
 4 72 0 0 7.4 -0.9659 0 7.3367 -0.8745 0 6.6427 0 0 6.7
 4 71 0 0 6.7 -0.8745 0 6.6427 -0.4829 0 3.6683 0 0 3.7
 
+0 STEP
 0 FILE s\75102 - Poe's X-Wing Fighter - 21849s01.dat
 0 Poe's X-Wing Fighter - 21849s01
 0 Name: s\75102 - Poe's X-Wing Fighter - 21849s01.dat
@@ -5011,6 +5061,7 @@
 2 24 14 6 -10 -14 6 -10
 2 24 -20 6 -10 -27.2309 6 -10
 
+0 STEP
 0 FILE s\75102 - Poe's X-Wing Fighter - 21849p01s01.dat
 0 Poe's X-Wing Fighter - 21849p01s01
 0 Name: s\75102 - Poe's X-Wing Fighter - 21849p01s01.dat
@@ -5630,6 +5681,7 @@
 3 80 -14.7605 -15.219 -57.760899 -12.0945 -16.280001 -54.799999 -17.6469 -17.426701 -51.599998
 3 16 0 22.4916 -162.999802 -14.1938 -15.1232 -58.028198 -21.950399 3.4743 -109.928398
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - 6116847hc01.dat
 0 Poe's X-Wing Fighter - 6116847hc01
 0 Name: 75102 - Poe's X-Wing Fighter - 6116847hc01.dat
@@ -5718,6 +5770,7 @@
 4 16 7.5 -10.6742 -28.284 7.5 -7.64935 -34.436001 7.5 -7.53167 -34.436001 7.5 -10.51 -28.284
 4 16 7.5 -7.64935 -34.436001 7.5 -4.86832 -38.75 7.5 -4.79342 -38.75 7.5 -7.53167 -34.436001
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - 6116847ic01.dat
 0 Poe's X-Wing Fighter - 6116847ic01
 0 Name: 75102 - Poe's X-Wing Fighter - 6116847ic01.dat
@@ -5769,6 +5822,7 @@
 4 16 17.5 -15.94124 18.75 17.5 -16.1912 18.75 -17.5 -16.1912 18.75 -17.5 -15.94124 18.75
 4 16 17.5 -5.04332 -18.75 -17.5 -5.04332 -18.75 -17.5 -4.79332 -18.75 17.5 -4.79332 -18.75
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - 6116847d.dat
 0 Poe's X-Wing Fighter - 6116847d
 0 Name: 75102 - Poe's X-Wing Fighter - 6116847d.dat
@@ -5993,6 +6047,7 @@
 4 0 34.806221 -0.25 -4.75 35 -0.25 -9.3 35.150002 -0.25 -9.5 34.900002 -0.25 -4.4
 3 0 34.900002 -0.25 -4.4 35.150002 -0.25 -9.5 37.5 -0.25 -16.5
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - ldcCyli8.dat
 0 Poe's X-Wing Fighter - ldcCyli8
 0 Name: 75102 - Poe's X-Wing Fighter - ldcCyli8.dat
@@ -6022,6 +6077,7 @@
 5 24 -1 0 0 -1 1 0 -0.707107 0 -0.707107 -0.707107 0 0.707107
 5 24 -0.707107 0 0.707107 -0.707107 1 0.707107 -1 0 0 0 0 1
 
+0 STEP
 0 FILE 75102 - Poe's X-Wing Fighter - ldcConRing8.dat
 0 Poe's X-Wing Fighter - ldcConRing8
 0 Name: 75102 - Poe's X-Wing Fighter - ldcConRing8.dat

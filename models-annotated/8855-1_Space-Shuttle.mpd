@@ -615,6 +615,7 @@
 
 
 
+0 STEP
 0 FILE 8855 - Flap.ldr
 0 Flap
 0 Name: 8855 - Flap.ldr
@@ -649,6 +650,7 @@
 
 
 
+0 STEP
 0 FILE 8855 - Arm.ldr
 0 Arm
 0 Name: 8855 - Arm.ldr
@@ -692,6 +694,7 @@
 
 
 
+0 STEP
 0 FILE 8855 - Arm claw.ldr
 0 Arm claw
 0 Name: 8855 - Arm claw.ldr
@@ -726,6 +729,7 @@
 
 
 
+0 STEP
 0 FILE 8855 - Front block.ldr
 0 Front block
 0 Name: 8855 - Front block.ldr
@@ -796,6 +800,7 @@
 
 
 
+0 STEP
 0 FILE 8855 - Control block.ldr
 0 Control block
 0 Name: 8855 - Control block.ldr
@@ -859,6 +864,7 @@
 
 
 
+0 STEP
 0 FILE 8855 - Inner control block.ldr
 0 Inner control block
 0 Name: 8855 - Inner control block.ldr
@@ -891,6 +897,7 @@
 
 
 
+0 STEP
 0 FILE 8855 - Cover.ldr
 0 Cover
 0 Name: 8855 - Cover.ldr
@@ -994,6 +1001,7 @@
 
 
 
+0 STEP
 0 FILE 8855 - Front wheel.ldr
 0 Front wheel
 0 Name: 8855 - Front wheel.ldr
@@ -1025,6 +1033,7 @@
 
 
 
+0 STEP
 0 FILE 8855 - Cover gear.ldr
 0 Cover gear
 0 Name: 8855 - Cover gear.ldr
@@ -1057,6 +1066,7 @@
 
 
 
+0 STEP
 0 FILE 8855 - Left wheel.ldr
 0 Left wheel
 0 Name: 8855 - Left wheel.ldr
@@ -1090,6 +1100,7 @@
 
 
 
+0 STEP
 0 FILE 8855 - Right wheel.ldr
 0 Right wheel
 0 Name: 8855 - Right wheel.ldr
@@ -1122,6 +1133,7 @@
 
 
 
+0 STEP
 0 FILE 8855 - Tail.ldr
 0 Tail
 0 Name: 8855 - Tail.ldr
@@ -1185,6 +1197,7 @@
 
 
 
+0 STEP
 0 FILE 8855 - Pilot.ldr
 0 Pilot
 0 Name: 8855 - Pilot.ldr
@@ -1257,6 +1270,7 @@
 
 
 
+0 STEP
 0 FILE 8855 - 2715.dat
 0 2715
 0 Name: 8855 - 2715.dat
@@ -1409,6 +1423,7 @@
 5 24 -8.8 -27.13 0 0 -27.13 10 -8.8 -25.17 10 0 -28.88 0
 
 
+0 STEP
 0 FILE s\8855 - 2715s01.dat
 0 ~Technic Action Figure Helmet Half without Top
 0 Name: s\8855 - 2715s01.dat

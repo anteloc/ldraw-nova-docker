@@ -16,6 +16,7 @@
 1 4 10 24 -180 1 0 0 0 1 0 0 0 1 30115.dat
 
 
+0 STEP
 0 FILE 60066 - Police 1.ldr
 0 A tan-torso police officer minifigure with dark blue legs and a yellow head.
 0 Name: 60066 - Police 1.ldr
@@ -43,6 +44,7 @@
 1 14 0 -56 0 1 0 0 0 1 0 0 0 1 3626c.dat
 
 
+0 STEP
 0 FILE 60066 - Police 2.ldr
 0 A tan-torso police officer minifigure with dark blue legs, handcuffs, and a flashlight.
 0 Name: 60066 - Police 2.ldr
@@ -76,6 +78,7 @@
 1 46 22.451 -12.426 -40.726 0.985 0.086 -0.146 -0.17 0.5 -0.849 0 0.862 0.507 6141.dat
 
 
+0 STEP
 0 FILE 60066 - Thief 1.ldr
 0 A white-torso thief minifigure with a knit cap, a money tile, a sack, and two oars.
 0 Name: 60066 - Thief 1.ldr
@@ -113,6 +116,7 @@
 1 70 28.69 23.815 21.765 0.146 -0.086 -0.986 0.849 -0.5 0.17 -0.507 -0.862 0 87585.dat
 
 
+0 STEP
 0 FILE 60066 - Thief 2.ldr
 0 A white-torso thief minifigure with a beard, a black knit cap, and a shovel.
 0 Name: 60066 - Thief 2.ldr
@@ -146,6 +150,7 @@
 1 72 -23.873 -4.168 -26.505 0.985 -0.086 0.146 0.17 0.5 -0.849 0 0.862 0.507 3837.dat
 
 
+0 STEP
 0 FILE 60066 - Airboat.ldr
 0 A white and dark blue airboat with a seat, binoculars, a radio, and curved hull pieces.
 0 Name: 60066 - Airboat.ldr
@@ -209,6 +214,7 @@
 1 0 0 -44 94 1 0 0 0 -1 0 0 0 -1 92842.dat
 
 
+0 STEP
 0 FILE 60066 - Raft.ldr
 0 A simple wooden log raft built from reddish brown log bricks and plates.
 0 Name: 60066 - Raft.ldr
@@ -240,6 +246,7 @@
 1 70 0 0 -56 -1 0 0 0 0 1 0 1 0 3710.dat
 
 
+0 STEP
 0 FILE 60066 - Bush.ldr
 0 A swampy bush scene with bamboo leaves, foliage, a spider, and a tree-stump base.
 0 Name: 60066 - Bush.ldr

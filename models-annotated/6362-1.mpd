@@ -11,6 +11,7 @@
 1 15 284.286 -32 -119.379 -0.5 0 -0.866 0 1 0 0.866 0 -0.5 6362 - car.ldr
 1 15 0 0 -80 1 0 0 0 1 0 0 0 1 6362 - minifig.ldr
 
+0 STEP
 0 FILE 6362 - building.ldr
 0 A post office building on a large baseplate, constructed from red and blue bricks with gates, mailbox units, and a service counter.
 0 Name: 6362 - building.ldr
@@ -223,6 +224,7 @@
 0 // Sticker  3.3 x  3.5 with Mail Logo (yellow)
 1 14 -20.002 -189 -70.001 1 0 0 0 0 -1 0 1 0 194215a.dat
 
+0 STEP
 0 FILE 6362 - car.ldr
 0 A small red and yellow mail delivery vehicle with doors, windscreen, mudguards, and a hinged roof.
 0 Name: 6362 - car.ldr
@@ -305,6 +307,7 @@
 0 // Tyre  6/ 50 x  8 Offset Tread (black)
 1 0 -15 14 -50 1 0 0 0 1 0 0 0 1 3641.dat
 
+0 STEP
 0 FILE 6362 - minifig.ldr
 0 A postal worker minifig wearing a police-style hat and a red torso with a mail horn pattern.
 0 Name: 6362 - minifig.ldr

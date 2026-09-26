@@ -617,6 +617,7 @@
 
 0
 
+0 STEP
 0 FILE 21303 - Porte AV.ldr
 0 Front door panel with a large light bluish grey plate base, orange and grey tiles, and printed WALL-E and E pattern tiles.
 0 Name: 21303 - Porte AV.ldr
@@ -700,6 +701,7 @@
 
 0
 
+0 STEP
 0 FILE 21303 - Appendice AR.ldr
 0 Small rear appendage built from technic connectors, a pin joiner, and axle pins.
 0 Name: 21303 - Appendice AR.ldr
@@ -727,6 +729,7 @@
 
 0
 
+0 STEP
 0 FILE 21303 - Cou.ldr
 0 Neck segment using locking hinge bricks, a dish, and a tile for a pivoting connection.
 0 Name: 21303 - Cou.ldr
@@ -755,6 +758,7 @@
 
 0
 
+0 STEP
 0 FILE 21303 - Epaule Droite.ldr
 0 Right shoulder joint assembly using a ball joint liftarm, flexible axle joiner, and notched axle.
 0 Name: 21303 - Epaule Droite.ldr
@@ -781,6 +785,7 @@
 
 0
 
+0 STEP
 0 FILE 21303 - Epaule Gauche.ldr
 0 Left shoulder joint assembly using a ball joint liftarm, flexible axle joiner, and notched axle.
 0 Name: 21303 - Epaule Gauche.ldr
@@ -807,6 +812,7 @@
 
 0
 
+0 STEP
 0 FILE 21303 - Panneau AR.ldr
 0 Rear panel made of orange plates and tiles with handle plates for mounting.
 0 Name: 21303 - Panneau AR.ldr
@@ -844,6 +850,7 @@
 
 0
 
+0 STEP
 0 FILE 21303 - Panneau AV droit.ldr
 0 Right front panel with a grey base, grille tiles, and a transparent red round indicator.
 0 Name: 21303 - Panneau AV droit.ldr
@@ -873,6 +880,7 @@
 
 0
 
+0 STEP
 0 FILE 21303 - Panneau AV Gauche.ldr
 0 Left front panel with a printed black tile showing solar charge level stripes and a groove tile.
 0 Name: 21303 - Panneau AV Gauche.ldr
@@ -898,6 +906,7 @@
 
 0
 
+0 STEP
 0 FILE 21303 - Assemblage Chenille right.ldr
 0 Right track assembly using bent quarter-ellipse liftarms, an axle, bush, and a long liftarm beam for the tread frame.
 0 Name: 21303 - Assemblage Chenille right.ldr
@@ -942,6 +951,7 @@
 
 0
 
+0 STEP
 0 FILE 21303 - Assemblage Chenille left.ldr
 0 Left track assembly using bent quarter-ellipse liftarms, an axle, bush, and a long liftarm beam for the tread frame.
 0 Name: 21303 - Assemblage Chenille left.ldr
@@ -977,6 +987,7 @@
 1 0 70 0 0 1 0 0 0 1 0 0 0 1 21303 - Chenille.ldr
 0
 
+0 STEP
 0 FILE 21303 - Chenille articulation.ldr
 0 Track articulation joint using a 5-stud liftarm beam and half-pins for pivoting movement.
 0 Name: 21303 - Chenille articulation.ldr
@@ -1004,6 +1015,7 @@
 
 0
 
+0 STEP
 0 FILE 21303 - Chenille Axe A.ldr
 0 Track axle A assembly with a studded axle, sprocket wheel, inverted dish, and smooth bush.
 0 Name: 21303 - Chenille Axe A.ldr
@@ -1031,6 +1043,7 @@
 
 0
 
+0 STEP
 0 FILE 21303 - Chenille Axe B.ldr
 0 Track axle B assembly with a studded axle, sprocket wheel, smooth bush, and wedge belt wheel.
 0 Name: 21303 - Chenille Axe B.ldr
@@ -1059,6 +1072,7 @@
 
 0
 
+0 STEP
 0 FILE 21303 - Chenille Axe C.ldr
 0 Track axle C assembly with a studded axle, sprocket wheel, and two-flanged bush.
 0 Name: 21303 - Chenille Axe C.ldr
@@ -1084,6 +1098,7 @@
 
 0
 
+0 STEP
 0 FILE 21303 - Chenille.ldr
 0 Tank tread made of twenty linked technic chain tread links.
 0 Name: 21303 - Chenille.ldr
@@ -1151,6 +1166,7 @@
 
 0
 
+0 STEP
 0 FILE 21303 - Cafard.ldr
 0 Small cockroach bug detail made from a hinge control stick, base, and a 1x2 plate.
 0 Name: 21303 - Cafard.ldr
@@ -1176,6 +1192,7 @@
 
 0
 
+0 STEP
 0 FILE 21303 - Cou B.ldr
 0 Neck segment B built from plates, locking hinge bricks, a rotation joint ball brick, brackets, and round tiles.
 0 Name: 21303 - Cou B.ldr
@@ -1226,6 +1243,7 @@
 
 0
 
+0 STEP
 0 FILE 21303 - Cou C.ldr
 0 Neck segment C using a click rotation pin, short liftarm, and friction pin for articulation.
 0 Name: 21303 - Cou C.ldr
@@ -1253,6 +1271,7 @@
 
 0
 
+0 STEP
 0 FILE 21303 - Cou D.ldr
 0 Neck segment D combining a bracket, axlehole technic brick, axle pin, and a groove tile for the joint structure.
 0 Name: 21303 - Cou D.ldr
@@ -1282,6 +1301,7 @@
 
 0
 
+0 STEP
 0 FILE 21303 - Tete A.ldr
 0 Head base assembly with technic bricks, long pins, cross blocks, axles, liftarms, and clip plates for attaching eyes.
 0 Name: 21303 - Tete A.ldr
@@ -1346,6 +1366,7 @@
 
 0
 
+0 STEP
 0 FILE 21303 - Oeil gauche.ldr
 0 Left eye assembly with bricks, plates, clips, a headlight brick, and reddish brown slope elements forming the eye housing.
 0 Name: 21303 - Oeil gauche.ldr
@@ -1459,6 +1480,7 @@
 
 0
 
+0 STEP
 0 FILE 21303 - Oeil Gauche detail.ldr
 0 Left eye detail submodel with SNOT bricks, curved slopes, a wedge cutout, and a bracket for shaping the eye contour.
 0 Name: 21303 - Oeil Gauche detail.ldr
@@ -1514,6 +1536,7 @@
 
 0
 
+0 STEP
 0 FILE 21303 - Oeil detail b.ldr
 0 Eye detail section B with double curved slopes, plates, and a mudguard element forming the eyelid shape.
 0 Name: 21303 - Oeil detail b.ldr
@@ -1551,6 +1574,7 @@
 
 0
 
+0 STEP
 0 FILE 21303 - Oeil Iris.ldr
 0 Eye iris assembly made of nested inverted dishes and a round plate to create the pupil and iris detail.
 0 Name: 21303 - Oeil Iris.ldr
@@ -1576,6 +1600,7 @@
 
 0
 
+0 STEP
 0 FILE 21303 - Oeil Droit.ldr
 0 The right eye assembly built from light bluish grey bricks, plates, and brackets with bright light orange and reddish brown accents forming the eye housing.
 0 Name: 21303 - Oeil Droit.ldr
@@ -1691,6 +1716,7 @@
 
 0
 
+0 STEP
 0 FILE 21303 - Oeil Droit detail.ldr
 0 A detailed sub-assembly for the right eye using curved slopes, a wedge cutout, and light bluish grey technic and plate elements to refine the eye shape.
 0 Name: 21303 - Oeil Droit detail.ldr
@@ -1744,6 +1770,7 @@
 
 0
 
+0 STEP
 0 FILE 21303 - Cable.ldr
 0 A flexible cable made of 48 hose center segments with end caps forming a long bendable tube.
 0 Name: 21303 - Cable.ldr
@@ -1899,6 +1926,7 @@
 
 0
 
+0 STEP
 0 FILE 21303 - Cable 1.ldr
 0 A second flexible cable identical in construction, made of 48 hose center segments with end caps.
 0 Name: 21303 - Cable 1.ldr
@@ -2020,6 +2048,7 @@
 1 16 58.743 3.405 -88 0.9832 0.0052 -0.1822 0.1822 -0.0012 0.9833 0.0049 -1 -0.0021 755.dat
 0
 
+0 STEP
 0 FILE 21303 - Bras gauche.ldr
 0 The left arm built from bright light orange plates, bricks, and tiles with a dark bluish grey ball socket joint for articulation.
 0 Name: 21303 - Bras gauche.ldr
@@ -2061,6 +2090,7 @@
 
 0
 
+0 STEP
 0 FILE 21303 - Main gauche.ldr
 0 The left hand mechanism using technic liftarms, axles, and a pneumatic connector to form a hinged grabbing appendage.
 0 Name: 21303 - Main gauche.ldr
@@ -2104,6 +2134,7 @@
 
 0
 
+0 STEP
 0 FILE 21303 - Pouce Gauche.ldr
 0 The left thumb made of a single dark bluish grey bar with clip.
 0 Name: 21303 - Pouce Gauche.ldr
@@ -2126,6 +2157,7 @@
 
 0
 
+0 STEP
 0 FILE 21303 - Doigt Pouce.ldr
 0 The thumb digit sub-assembly using handled plates and a flag piece to form a claw-like finger tip.
 0 Name: 21303 - Doigt Pouce.ldr
@@ -2151,6 +2183,7 @@
 
 0
 
+0 STEP
 0 FILE 21303 - Doigt Gauche exterieur.ldr
 0 The left outer finger built from a handled plate, dish, flag, and small tiles to form a rounded articulated finger.
 0 Name: 21303 - Doigt Gauche exterieur.ldr
@@ -2185,6 +2218,7 @@
 
 0
 
+0 STEP
 0 FILE 21303 - Doit Gauche interieur.ldr
 0 The left inner finger using the same dish, flag, and handled plate construction as the outer finger for a mirrored articulated digit.
 0 Name: 21303 - Doit Gauche interieur.ldr
@@ -2219,6 +2253,7 @@
 
 0
 
+0 STEP
 0 FILE 21303 - Bras droit.ldr
 0 The right arm built from bright light orange plates, bricks, and tiles with a dark bluish grey ball socket joint, mirroring the left arm.
 0 Name: 21303 - Bras droit.ldr
@@ -2260,6 +2295,7 @@
 
 0
 
+0 STEP
 0 FILE 21303 - Main droite.ldr
 0 The right hand mechanism using technic liftarms, an axle, and a pneumatic connector forming a mirrored grabbing appendage.
 0 Name: 21303 - Main droite.ldr
@@ -2298,6 +2334,7 @@
 
 0
 
+0 STEP
 0 FILE 21303 - Pouce droit.ldr
 0 The right thumb made of a single dark bluish grey bar with clip.
 0 Name: 21303 - Pouce droit.ldr
@@ -2320,6 +2357,7 @@
 
 0
 
+0 STEP
 0 FILE 21303 - Pouce doigt droit.ldr
 0 The right thumb digit sub-assembly using handled plates and a flag piece to form a claw-like finger tip.
 0 Name: 21303 - Pouce doigt droit.ldr
@@ -2345,6 +2383,7 @@
 
 0
 
+0 STEP
 0 FILE 21303 - Doigt droit interieur.ldr
 0 The right inner finger built from a handled plate, dish, flag, and small tiles forming a rounded articulated finger.
 0 Name: 21303 - Doigt droit interieur.ldr
@@ -2379,6 +2418,7 @@
 
 0
 
+0 STEP
 0 FILE 21303 - Doigt Droit Exterieur.ldr
 0 The right outer finger using the same dish, flag, and handled plate construction for a mirrored articulated digit.
 0 Name: 21303 - Doigt Droit Exterieur.ldr
@@ -2413,6 +2453,7 @@
 
 0
 
+0 STEP
 0 FILE 21303 - Plante.ldr
 0 A small plant made of a round brown base with a green three-leaf top and technic pin for attachment.
 0 Name: 21303 - Plante.ldr
@@ -2436,6 +2477,7 @@
 
 0
 
+0 STEP
 0 FILE 21303 - 92013.dat
 0 A custom part representing a 2x2 brick with ball socket and axlehole used as an articulation joint.
 0 Name: 21303 - 92013.dat

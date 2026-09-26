@@ -12,6 +12,7 @@
 1 1 -130 0 110 1 0 0 0 1 0 0 0 1 6521 - minifig.ldr
 
 0 NOFILE
+0 STEP
 0 FILE 6521 - car.ldr
 0 A compact vehicle built on a 4x10 car base with mudguards, doors, headlight bricks, a grille, a windscreen, and red taillight plates, displaying an autoroute pattern.
 0 car
@@ -143,6 +144,7 @@
 1 15 70 22 31 -1 0 0 0 1 0 0 0 -1 4624.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6521 - minifig.ldr
 0 A minifig figure wearing a red cap, blue torso with autoroute pattern, and grey hips and legs, with a smiling yellow head.
 0 minifig

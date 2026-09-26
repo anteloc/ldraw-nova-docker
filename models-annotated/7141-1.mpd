@@ -29,6 +29,7 @@
 
 
 
+0 STEP
 0 FILE 7141 - Minifig - Anakin Skywalker.ldr
 0 Anakin Skywalker minifigure with tan torso and legs, aviator cap with goggles, and a patterned head.
 0 Name: 7141 - Minifig - Anakin Skywalker.ldr
@@ -63,6 +64,7 @@
 0 // ~Minifig Cap Aviator Goggles (Obsolete) (black)
 1 0 0 -83.437 21.484 0.707107 0 -0.707107 0.159064 0.97437 0.159064 0.688984 -0.224951 0.688984 30170.dat
 
+0 STEP
 0 FILE 7141 - Minifig - R2-D2.ldr
 0 R2-D2 astromech droid minifigure with white domed cylindrical body and two robot legs.
 0 Name: 7141 - Minifig - R2-D2.ldr
@@ -81,6 +83,7 @@
 0 // Cylinder  2 x  2 with Dome Top with SW Blue/Silver R2 Pattern (white)
 1 15 0 -34 0 1 0 0 0 1 0 0 0 1 30367aps1.dat
 
+0 STEP
 0 FILE 7141 - Minifig - Battle Droid.ldr
 0 Tan Battle Droid minifigure with mechanical torso, legs, clip arms, and droid head.
 0 Name: 7141 - Minifig - Battle Droid.ldr
@@ -105,6 +108,7 @@
 
 
 
+0 STEP
 0 FILE 7141 - Support Vehicle.ldr
 0 Compact tan and dark grey support vehicle with wheels, slopes, hinged panels, and circuit-patterned tiles.
 0 Name: 7141 - Support Vehicle.ldr
@@ -180,6 +184,7 @@
 0 // Tyre  6/ 50 x  8 Offset Tread (black)
 1 0 -30 -3 -40 0 0 1 0 1 0 -1 0 0 3641.dat
 
+0 STEP
 0 FILE 7141 - N-1 Starfighter.ldr
 0 Main N-1 Starfighter fuselage built from light grey plates, large wings, boat bases, and tan accent details.
 0 Name: 7141 - N-1 Starfighter.ldr
@@ -360,6 +365,7 @@
 0 ROTSTEP 0 0 180 REL
 1 47 0 40 0 1 0 0 0 1 0 0 0 1 7141 - Torpedo Launcher.ldr
 
+0 STEP
 0 FILE 7141 - Wing Right.ldr
 0 Right wing assembly combining a large light grey wing panel with yellow plate and tile accents.
 0 Name: 7141 - Wing Right.ldr
@@ -377,6 +383,7 @@
 
 
 
+0 STEP
 0 FILE 7141 - Wing Left.ldr
 0 Left wing assembly combining a large light grey wing panel with yellow plate and tile accents.
 0 Name: 7141 - Wing Left.ldr
@@ -394,6 +401,7 @@
 
 
 
+0 STEP
 0 FILE 7141 - Engine Base.ldr
 0 Small structural engine base using technic bricks and pins with an inverted slope.
 0 Name: 7141 - Engine Base.ldr
@@ -414,6 +422,7 @@
 0 // Slope Brick 33  3 x  2 Inverted without Ribs between Studs (dark_grey)
 1 8 10 -24 0 0 0 -1 0 1 0 1 0 0 3747a.dat
 
+0 STEP
 0 FILE 7141 - Greeble 1.ldr
 0 Small dark grey surface detail using a plate and a tan grille tile.
 0 Name: 7141 - Greeble 1.ldr
@@ -429,6 +438,7 @@
 
 
 
+0 STEP
 0 FILE 7141 - Greeble 2.ldr
 0 Small dark grey surface detail using a plate and a tan panel.
 0 Name: 7141 - Greeble 2.ldr
@@ -444,6 +454,7 @@
 
 
 
+0 STEP
 0 FILE 7141 - Greeble 3.ldr
 0 Yellow winglet detail combining a plate with two 45-degree slopes, one bearing a Star Wars pattern.
 0 Name: 7141 - Greeble 3.ldr
@@ -459,6 +470,7 @@
 0 // Slope Brick 45  2 x  2 (yellow)
 1 14 10 -24 0 0 0 -1 0 1 0 1 0 0 3039.dat
 
+0 STEP
 0 FILE 7141 - Engine Right.ldr
 0 Right engine nacelle of yellow plates, cylinders, round bricks, and a cone nozzle.
 0 Name: 7141 - Engine Right.ldr
@@ -490,6 +502,7 @@
 
 
 
+0 STEP
 0 FILE 7141 - Engine Back.ldr
 0 Rear engine assembly with a yellow cone, round brick, axle, and flat-top antenna detail.
 0 Name: 7141 - Engine Back.ldr
@@ -510,6 +523,7 @@
 
 
 
+0 STEP
 0 FILE 7141 - Engine Left.ldr
 0 Left engine nacelle of yellow plates, cylinders, round bricks, and a cone nozzle.
 0 Name: 7141 - Engine Left.ldr
@@ -541,6 +555,7 @@
 
 
 
+0 STEP
 0 FILE 7141 - Torpedo Launcher.ldr
 0 Dark grey torpedo launcher built from bricks and technic pins with blue round bricks and a translucent blue cone tip.
 0 Name: 7141 - Torpedo Launcher.ldr

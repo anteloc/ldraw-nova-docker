@@ -108,6 +108,7 @@
 1 71 34.641 -48 20 0 0.5 0.866 -1 0 0 0 -0.866 0.5 21003 - rigid3mmHose17L.ldr
 1 71 0 -48 -40 0 -1 0 -1 0 0 0 0 -1 21003 - rigid3mmHose17L.ldr
 
+0 STEP
 0 FILE 21003 - Bush.ldr
 0 A small light bluish grey Technic connector assembly combining a three-axle bush with three angle connectors to form a multi-way joint.
 0 Name: 21003 - Bush.ldr
@@ -126,6 +127,7 @@
 0 // Technic Angle Connector #1 (light_bluish_grey)
 1 71 34.641 0 -20 0 -0.5 0.866025 -1 0 0 0 -0.866025 -0.5 32013.dat
 
+0 STEP
 0 FILE 21003 - rigid3mmHose17L.ldr
 0 A long flexible 3mm rigid hose curve generated from hundreds of small cylindrical segments, forming an approximately 133mm curved path used for the Space Needle's support legs.
 0 Name: 21003 - rigid3mmHose17L.ldr

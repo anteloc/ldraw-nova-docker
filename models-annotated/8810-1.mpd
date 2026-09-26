@@ -11,6 +11,7 @@
 
 
 
+0 STEP
 0 FILE 8810 - Cafe_Racer.ldr
 0 A white and black Technic motorcycle chassis frame built with steering head, plates, axles, and pins.
 0 Name: 8810 - Cafe_Racer.ldr
@@ -134,6 +135,7 @@
 
 
 
+0 STEP
 0 FILE 8810 - shock-06_5L-soft-1.ldr
 0 A 6.5L soft Technic shock absorber assembly with cylinder, piston rod, and coiled spring.
 0 !CATEGORY Technic
@@ -181,6 +183,7 @@
 
 
 
+0 STEP
 0 FILE 8810 - shock-06_5L-soft-1_springMesh.ldr
 0 A generated coiled spring mesh for the shock absorber with specified coil and wire dimensions.
 0 Author: Max Martin Richter [MMR1988]
@@ -4475,6 +4478,7 @@
 
 
 
+0 STEP
 0 FILE 8810 - Stand.ldr
 0 A small black hinge plate stand used to support or display the model.
 0 Name: 8810 - Stand.ldr
@@ -4489,6 +4493,7 @@
 
 
 
+0 STEP
 0 FILE 8810 - Front-Fork.ldr
 0 A white and black Technic front fork assembly using plates with holes, bushes, and a 45-degree slope brick.
 0 Name: 8810 - Front-Fork.ldr
@@ -4527,6 +4532,7 @@
 
 
 
+0 STEP
 0 FILE 8810 - Front-Light.ldr
 0 A front headlight assembly with a bracket, a round grille-patterned tile, and two yellow round plates.
 0 Name: 8810 - Front-Light.ldr
@@ -4546,6 +4552,7 @@
 
 
 
+0 STEP
 0 FILE 8810 - Basic-Front-Fork-with-Tyre-and-Wheel.ldr
 0 A front wheel assembly combining a white rim, black tyre, axle, and bush.
 0 Name: 8810 - Basic-Front-Fork-with-Tyre-and-Wheel.ldr
@@ -4567,6 +4574,7 @@
 
 
 
+0 STEP
 0 FILE 8810 - Basic-Front-Fork.ldr
 0 A basic front fork axle assembly using an 8-stud axle, bush, and pin/bush connector.
 0 Name: 8810 - Basic-Front-Fork.ldr

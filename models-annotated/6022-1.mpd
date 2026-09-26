@@ -10,6 +10,7 @@
 1 8 200 0 0 1 0 0 0 1 0 0 0 1 6022 - MiniFig2.ldr
 
 
+0 STEP
 0 FILE 6022 - Horse Cart.ldr
 0 A black horse-drawn cart with spoked wheels, a turntable-based hitch, and a harnessed horse.
 0 Name: 6022 - Horse Cart.ldr
@@ -90,6 +91,7 @@
 1 8 -60 -100 273 -0.643 0 0.766 0 1 0 -0.766 0 -0.643 3876.dat
 
 
+0 STEP
 0 FILE 6022 - MiniFig1.ldr
 0 A red-torso Castle knight minifigure with blue arms, a chin-guard helmet, and a bow with arrow quiver.
 0 Name: 6022 - MiniFig1.ldr
@@ -123,6 +125,7 @@
 1 6 35.265 -47.365 -27.556 -0.062 0.192 -0.98 -0.22 0.955 0.201 0.974 0.227 -0.017 4499.dat
 
 
+0 STEP
 0 FILE 6022 - MiniFig2.ldr
 0 A red-torso Castle knight minifigure with blue arms and a neck-protector helmet.
 0 Name: 6022 - MiniFig2.ldr

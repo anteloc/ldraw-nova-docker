@@ -6,6 +6,7 @@
 1 0 -90 0 0 1 0 0 0 1 0 0 0 1 41498 - Boba Fett.ldr
 1 0 150 0 0 1 0 0 0 1 0 0 0 1 41498 - Han Solo In Carbonite.ldr
 
+0 STEP
 0 FILE 41498 - Boba Fett.ldr
 0 Black plate base topped with a decorative Star Wars NYCC 2017 branded tile display.
 0 Name: 41498 - Boba Fett.ldr
@@ -23,6 +24,7 @@
 1 0 0 -8 40 1 0 0 0 1 0 0 0 1 87079.dat
 1 0 0 -48 20 1 0 0 0 1 0 0 0 1 41498 - Boba Fett - 1.ldr
 
+0 STEP
 0 FILE 41498 - Boba Fett - 1.ldr
 0 Large multi-color armored body assembly with dark green, dark red, and reddish brown detailing using SNOT bricks.
 0 Name: 41498 - Boba Fett - 1.ldr
@@ -240,6 +242,7 @@
 1 0 -54 -72.25 -10 0 0 -1 0 -1 0 -1 0 0 41498 - Boba Fett - 9.ldr
 1 0 -54 -17.5 -30 0 0 1 0 1 0 -1 0 0 41498 - Boba Fett - 10.ldr
 
+0 STEP
 0 FILE 41498 - Boba Fett - 2.ldr
 0 Small armor shoulder detail with a clip plate and bright light orange slope.
 0 Name: 41498 - Boba Fett - 2.ldr
@@ -252,6 +255,7 @@
 0 // Slope Brick 31  1 x  2 x  0.667 (bright_light_orange)
 1 191 0 0 10 -1 0 0 0 1 0 0 0 -1 85984.dat
 
+0 STEP
 0 FILE 41498 - Boba Fett - 3.ldr
 0 Shoulder armor plate with a Mythosaur skull-patterned bright light orange slope.
 0 Name: 41498 - Boba Fett - 3.ldr
@@ -264,6 +268,7 @@
 0 // Slope Brick 31  1 x  2 x  0.667 with Dark Red Mythosaur Skull and White Background Pattern (bright_light_orange)
 1 191 0 0 10 -1 0 0 0 1 0 0 0 -1 41498 - 85984pz0.dat
 
+0 STEP
 0 FILE 41498 - Boba Fett - 4.ldr
 0 Hinged left dark green wing with dark red corner accent.
 0 Name: 41498 - Boba Fett - 4.ldr
@@ -276,6 +281,7 @@
 0 // Wing  2 x  2 Left (dark_green)
 1 288 0 -26 -10 1 0 0 0 1 0 0 0 1 24299.dat
 
+0 STEP
 0 FILE 41498 - Boba Fett - 5.ldr
 0 Hinged right dark green wing with dark red corner accent.
 0 Name: 41498 - Boba Fett - 5.ldr
@@ -288,6 +294,7 @@
 0 // Wing  2 x  2 Right (dark_green)
 1 288 0 -26 -10 1 0 0 0 1 0 0 0 1 24307.dat
 
+0 STEP
 0 FILE 41498 - Boba Fett - 6.ldr
 0 Small mirrored armor detail with brackets and bright light orange accent tile.
 0 Name: 41498 - Boba Fett - 6.ldr
@@ -306,6 +313,7 @@
 0 // Tile  1 x  2 with Groove (light_bluish_grey)
 1 71 0 -14 -22 1 0 0 0 0 -1 0 1 0 3069b.dat
 
+0 STEP
 0 FILE 41498 - Boba Fett - 7.ldr
 0 Small mirrored armor detail with brackets and bright light orange accent tile.
 0 Name: 41498 - Boba Fett - 7.ldr
@@ -324,6 +332,7 @@
 0 // Tile  1 x  2 with Groove (light_bluish_grey)
 1 71 0 -14 -22 1 0 0 0 0 -1 0 1 0 3069b.dat
 
+0 STEP
 0 FILE 41498 - Boba Fett - 8.ldr
 0 Sand green lower leg section with SNOT brick and grooved tile.
 0 Name: 41498 - Boba Fett - 8.ldr
@@ -341,6 +350,7 @@
 1 0 10 -6 42 1 0 0 0 0 1 0 -1 0 41498 - Boba Fett - 8 - 2.ldr
 1 0 -31.5 -6 0 1 0 0 0 0 1 0 -1 0 41498 - Boba Fett - 8 - 3.ldr
 
+0 STEP
 0 FILE 41498 - Boba Fett - 8 - 1.ldr
 0 Sand green leg segment with door rail plates.
 0 Name: 41498 - Boba Fett - 8 - 1.ldr
@@ -353,6 +363,7 @@
 0 // Plate  1 x  2 with Door Rail (sand_green)
 1 378 0 -16 0 1 0 0 0 1 0 0 0 1 32028.dat
 
+0 STEP
 0 FILE 41498 - Boba Fett - 8 - 2.ldr
 0 Sand green ankle detail with a pearl silver round plate and bar element.
 0 Name: 41498 - Boba Fett - 8 - 2.ldr
@@ -365,6 +376,7 @@
 0 // Cone  1 x  1 with Stop (sand_green)
 1 378 20 2 0 0 1 0 -1 0 0 0 0 1 59900.dat
 
+0 STEP
 0 FILE 41498 - Boba Fett - 8 - 3.ldr
 0 Sand green knee rocket dart with pearl silver harpoon bar.
 0 Name: 41498 - Boba Fett - 8 - 3.ldr
@@ -377,6 +389,7 @@
 0 // Cone  1 x  1 with Stop (sand_green)
 1 378 -12.5 0 0 0 1 0 1 0 0 0 0 -1 59900.dat
 
+0 STEP
 0 FILE 41498 - Boba Fett - 9.ldr
 0 Small antenna detail with a light bluish grey bar and clear trans tile.
 0 Name: 41498 - Boba Fett - 9.ldr
@@ -389,6 +402,7 @@
 0 // Tile  1 x  1 with Groove (trans_clear)
 1 47 0 86 -20 1 0 0 0 1 0 0 0 1 3070b.dat
 
+0 STEP
 0 FILE 41498 - Boba Fett - 10.ldr
 0 Wrist-mounted flame thrower nozzle assembly with black cones and pearl silver plates.
 0 Name: 41498 - Boba Fett - 10.ldr
@@ -407,6 +421,7 @@
 0 // Bar Tube with Clip (black)
 1 0 8 -34.25 0 0 1 0 0 0 1 1 0 0 11090.dat
 
+0 STEP
 0 FILE 41498 - Han Solo In Carbonite.ldr
 0 Black carbonite slab base with rounded panels and a Star Wars NYCC 2017 branded tile.
 0 Name: 41498 - Han Solo In Carbonite.ldr
@@ -446,6 +461,7 @@
 1 0 70 -8 -40 1 0 0 0 1 0 0 0 1 26603.dat
 1 0 0 -24 20 1 0 0 0 1 0 0 0 1 41498 - Han Solo In Carbonite - 1.ldr
 
+0 STEP
 0 FILE 41498 - Han Solo In Carbonite - 1.ldr
 0 Large detailed carbonite block structure with panels, brackets, and SNOT detailing in light bluish grey.
 0 Name: 41498 - Han Solo In Carbonite - 1.ldr
@@ -673,6 +689,7 @@
 0 // Panel  1 x  2 x  1 with Rounded Corners (trans_clear)
 1 47 10 -60 48 0 0 1 -1 0 0 0 -1 0 4865b.dat
 
+0 STEP
 0 FILE 41498 - Han Solo In Carbonite - 2.ldr
 0 Small smooth-tiled carbonite surface detail with center stud plate.
 0 Name: 41498 - Han Solo In Carbonite - 2.ldr
@@ -689,6 +706,7 @@
 0 // Tile  1 x  1 with Groove (light_bluish_grey)
 1 71 -30 24 0 1 0 0 0 1 0 0 0 1 3070b.dat
 
+0 STEP
 0 FILE 41498 - Han Solo In Carbonite - 3.ldr
 0 Flat carbonite surface panel with a grooved tile and supporting bricks.
 0 Name: 41498 - Han Solo In Carbonite - 3.ldr
@@ -701,6 +719,7 @@
 0 // Brick  1 x  2 (light_bluish_grey)
 1 71 30 8 0 0 0 -1 0 1 0 1 0 0 3004.dat
 
+0 STEP
 0 FILE 41498 - Han Solo In Carbonite - 4.ldr
 0 Small clip-on mounting plate detail for the carbonite block.
 0 Name: 41498 - Han Solo In Carbonite - 4.ldr
@@ -711,6 +730,7 @@
 0 // Plate  1 x  2 with Clip Horizontal on Side (Thick C-Clip) (light_bluish_grey)
 1 71 0 -8 0 1 0 0 0 1 0 0 0 1 11476.dat
 
+0 STEP
 0 FILE 41498 - Han Solo In Carbonite - 5.ldr
 0 Dark bluish grey base plate with grooved tiles forming the lower carbonite section.
 0 Name: 41498 - Han Solo In Carbonite - 5.ldr
@@ -731,6 +751,7 @@
 0 // Plate  1 x  2 (dark_bluish_grey)
 1 72 70 8 0 0 0 1 0 1 0 -1 0 0 3023.dat
 
+0 STEP
 0 FILE 41498 - Han Solo In Carbonite - 6.ldr
 0 Dark bluish grey carbonite side panel with brackets and grooved center-stud tiles.
 0 Name: 41498 - Han Solo In Carbonite - 6.ldr
@@ -767,6 +788,7 @@
 0 // Plate  1 x  4 with Two Studs (dark_bluish_grey)
 1 72 -60 -8 0 -1 0 0 0 1 0 0 0 -1 92593.dat
 
+0 STEP
 0 FILE 41498 - 87079pzb.dat
 0 Decorative printed tile with Star Wars logo and New York Comic Con 2017 metallic silver pattern.
 0 Name: 41498 - 87079pzb.dat
@@ -1792,6 +1814,7 @@
 4 80 36.128 0 -11.721 36.128 0 -10.78 35.082 0 -11.806 34.807 0 -12.247
 4 80 33.137 0 -10.78 33.137 0 -11.806 35.082 0 -11.806 36.128 0 -10.78
 
+0 STEP
 0 FILE 41498 - 93273pz1.dat
 0 Printed double curved slope element featuring a black belt with pockets pattern.
 0 Name: 41498 - 93273pz1.dat
@@ -1973,6 +1996,7 @@
 5 24 10 -10.51 -28.284 -10 -10.51 -28.284 10 -12.8828 -21.648 10 -7.5317 -34.436
 5 24 10 -7.5317 -34.436 -10 -7.5317 -34.436 10 -10.51 -28.284 10 -4 -40
 
+0 STEP
 0 FILE 41498 - 2431pza.dat
 0 Printed tile with dark red rectangle and trapezoid pattern detail.
 0 Name: 41498 - 2431pza.dat
@@ -2002,6 +2026,7 @@
 4 320 39.5 0 -9.5 39.5 0 -1.8 6.9 0 -6 6.9 0 -9.5
 4 320 39.5 0 9.5 -39.5 0 9.5 -39.5 0 6.3 39.5 0 6.3
 
+0 STEP
 0 FILE 41498 - 15068pz1.dat
 0 Curved slope brick with a metallic silver and white hole pattern detail.
 0 Name: 41498 - 15068pz1.dat
@@ -2074,6 +2099,7 @@
 5 24 20 -7.531575 -14.436 -20 -7.531575 -14.436 20 -10.509886 -8.284 20 -3.9999 -20
 5 24 20 -10.509886 -8.284 -20 -10.509886 -8.284 20 -12.882685 -1.648 20 -7.531575 -14.436
 
+0 STEP
 0 FILE 41498 - 87079pza.dat
 0 Flat 2x4 tile decorated with ten yellow rectangular marks.
 0 Name: 41498 - 87079pza.dat
@@ -2146,6 +2172,7 @@
 3 16 40 0 20 20.95 0 -3.5 24.76 0 -3.5
 3 16 40 0 20 24.76 0 -3.5 28.57 0 -3.5
 
+0 STEP
 0 FILE 41498 - 85984pz0.dat
 0 Small slope brick featuring a dark red Mythosaur skull on a white background.
 0 Name: 41498 - 85984pz0.dat
@@ -2253,6 +2280,7 @@
 4 320 5.394 -10.735 1.225 5.394 -9.8284 -0.286 6.095 -9.6964 -0.506 6.095 -10.7764 1.294
 3 320 4.477 -11.3206 2.201 5.394 -10.735 1.225 6.095 -10.7764 1.294
 
+0 STEP
 0 FILE 41498 - 28192.dat
 0 Angled 45-degree slope brick with a cutout and smooth studless top, formed from boxed and rectangular faces.
 0 Name: 41498 - 28192.dat
@@ -2345,6 +2373,7 @@
 4 16 -10 20 -30 10 20 -30 10 0 -10 -10 0 -10
 4 16 -10 0 -10 10 0 -10 10 0 10 -10 0 10
 
+0 STEP
 0 FILE 41498 - 25269.dat
 0 Small single-stud rounded corner tile built from a quarter disc.
 0 Name: 41498 - 25269.dat
@@ -2358,6 +2387,7 @@
 0 // Disc 0.25 (main_colour)
 1 16 -10 0 10 0 0 20 0 1 0 -20 0 0 1-4disc.dat
 
+0 STEP
 0 FILE 41498 - 3069bpzb.dat
 0 1x2 tile with light bluish grey ring and disc buttons set on a metallic silver background.
 0 Name: 41498 - 3069bpzb.dat
@@ -2467,6 +2497,7 @@
 3 80 11.87 0 6.87 18.5 0 8.5 10.44 0 6.87
 3 80 10.44 0 6.87 18.5 0 8.5 5.44 0 6.87
 
+0 STEP
 0 FILE 41498 - 3069bpza.dat
 0 1x2 tile patterned with green, red, and light bluish grey buttons over a metallic silver background.
 0 Name: 41498 - 3069bpza.dat
@@ -2589,6 +2620,7 @@
 3 80 18.5 0 8.5 5.44 0 6.87 10.44 0 6.87
 3 80 18.5 0 8.5 4 0 6.87 5.44 0 6.87
 
+0 STEP
 0 FILE s\41498 - logolego01.dat
 0 Subpart representing the LEGO logo emblem.
 0 Name: s\41498 - logolego01.dat
@@ -3356,6 +3388,7 @@
 4 15 16.561 -4.876 0 13.262 -4.154 0 13.389 -4.108 0 16.681 -4.048 0
 4 15 16.681 -4.048 0 13.389 -4.108 0 13.485 -4.039 0 16.66 -3.215 0
 
+0 STEP
 0 FILE s\41498 - 25269s01.dat
 0 Geometry subpart for the rounded corner tile without its top surface, composed of boxed faces, circles, cylinders, and rectangles.
 0 Name: s\41498 - 25269s01.dat

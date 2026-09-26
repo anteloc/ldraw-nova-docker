@@ -7,6 +7,7 @@
 1 1 0 0 0 1 0 0 0 1 0 0 0 1 4536 - Wagon.ldr
 1 0 160 55 0 -1 0 0 0 1 0 0 0 -1 4536 - Station.ldr
 
+0 STEP
 0 FILE 4536 - Wagon.ldr
 0 Black train wagon body with a 6x16 train base, magnetic couplings, hinged roof, blue side plates, and grey accent pieces.
 0 Name: 4536 - Wagon.ldr
@@ -251,6 +252,7 @@
 
 
 
+0 STEP
 0 FILE 4536 - Wagon Wheels.ldr
 0 Single-axle train wheel bogie assembly with plates for mounting to the wagon undercarriage.
 0 Name: 4536 - Wagon Wheels.ldr
@@ -266,6 +268,7 @@
 0 // Plate  1 x  4 (black)
 1 0 0 -8 20 1 0 0 0 1 0 0 0 1 3710.dat
 
+0 STEP
 0 FILE 4536 - Station.ldr
 0 A small station platform on a 6x16 base featuring white fences and gates with yellow and black round pillar studs.
 0 Name: 4536 - Station.ldr

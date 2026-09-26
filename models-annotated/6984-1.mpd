@@ -13,6 +13,7 @@
 
 
 
+0 STEP
 0 FILE 6984 - Vehicle.ldr
 0 A small wheeled rover built from plates, four sets of wheels with tyres, black slopes, a computer-pattern tile, and a transparent green inverted dish.
 0 Name: 6984 - Vehicle.ldr
@@ -87,6 +88,7 @@
 
 
 
+0 STEP
 0 FILE 6984 - Vehicle + Minifig.ldr
 0 The wheeled rover assembly combined with a minifigure occupant.
 0 Name: 6984 - Vehicle + Minifig.ldr
@@ -101,6 +103,7 @@
 
 
 
+0 STEP
 0 FILE 6984 - Vehicle + Container.ldr
 0 The wheeled rover paired with the attached container module.
 0 Name: 6984 - Vehicle + Container.ldr
@@ -115,6 +118,7 @@
 
 
 
+0 STEP
 0 FILE 6984 - Container.ldr
 0 A red and grey cargo container with corner bricks, arches, grille tiles, a hinge plate, and a helicopter windscreen printed with Space Police II detailing.
 0 Name: 6984 - Container.ldr
@@ -175,6 +179,7 @@
 
 
 
+0 STEP
 0 FILE 6984 - Container + Minifig.ldr
 0 The cargo container module paired with a minifigure.
 0 Name: 6984 - Container + Minifig.ldr
@@ -189,6 +194,7 @@
 
 
 
+0 STEP
 0 FILE 6984 - Spaceship.ldr
 0 The complete spaceship assembly integrating the front, middle, and rear fuselage sections along with their wings, doors, and hinges.
 0 Name: 6984 - Spaceship.ldr
@@ -204,6 +210,7 @@
 
 
 
+0 STEP
 0 FILE 6984 - Spaceship - Front.ldr
 0 The forward fuselage of the ship featuring a cockpit, large left and right wings, jet engine plates with fins, and red accent bricks.
 0 Name: 6984 - Spaceship - Front.ldr
@@ -342,6 +349,7 @@
 
 
 
+0 STEP
 0 FILE 6984 - Spaceship - Front + Minifig.ldr
 0 The forward fuselage section of the ship combined with a minifigure pilot.
 0 Name: 6984 - Spaceship - Front + Minifig.ldr
@@ -356,6 +364,7 @@
 
 
 
+0 STEP
 0 FILE 6984 - Scapeship - Middle.ldr
 0 The mid-fuselage section with a long base plate, technic and pin bricks, small wings, and a slope printed with a horizon indicator screen.
 0 Name: 6984 - Scapeship - Middle.ldr
@@ -494,6 +503,7 @@
 1 0 0 -160 90 1 0 0 0 1 0 0 0 1 3298p69.dat
 
 
+0 STEP
 0 FILE 6984 - Spaceship - Middle - Door.ldr
 0 A hinged car-roof panel assembly that forms an access door for the middle fuselage.
 0 Name: 6984 - Spaceship - Middle - Door.ldr
@@ -511,6 +521,7 @@
 1 0 0 -12 -96 0 0 -1 0 1 0 1 0 0 3032.dat
 
 
+0 STEP
 0 FILE 6984 - Spaceship - Back.ldr
 0 The rear fuselage section built from large grille plates, technic bricks, slopes, headlight bricks, and hinges for mounting the wings and doors.
 0 Name: 6984 - Spaceship - Back.ldr
@@ -737,6 +748,7 @@
 1 0 0 -252 276 -1 0 0 0 0 1 0 1 0 4591.dat
 
 
+0 STEP
 0 FILE 6984 - Spaceship - Back - Wing 1.ldr
 0 A left-side rear wing with a large corner plate, a swept wing element, red panel accents, hinges, and headlight bricks.
 0 Name: 6984 - Spaceship - Back - Wing 1.ldr
@@ -802,6 +814,7 @@
 
 
 
+0 STEP
 0 FILE 6984 - Spaceship - Back - Wing 2.ldr
 0 A right-side rear wing mirroring Wing 1, with a large corner plate, swept wing element, red panel accents, hinges, and headlight bricks.
 0 Name: 6984 - Spaceship - Back - Wing 2.ldr
@@ -867,6 +880,7 @@
 
 
 
+0 STEP
 0 FILE 6984 - Spaceship - Back - Door.ldr
 0 A rear hinged door assembly made of a base plate, a car-roof hinge piece, and inverted slope bricks.
 0 Name: 6984 - Spaceship - Back - Door.ldr
@@ -887,6 +901,7 @@
 
 
 
+0 STEP
 0 FILE 6984 - Spaceship - Back - Hinge 1.ldr
 0 A small hinge mechanism with a finger plate and a red handled tile used for the rear section.
 0 Name: 6984 - Spaceship - Back - Hinge 1.ldr
@@ -903,6 +918,7 @@
 
 
 
+0 STEP
 0 FILE 6984 - Spaceship - Back - Hinge 2.ldr
 0 A small hinge mechanism with a finger plate and a red handled tile mirroring Hinge 1 for the rear section.
 0 Name: 6984 - Spaceship - Back - Hinge 2.ldr
@@ -919,6 +935,7 @@
 
 
 
+0 STEP
 0 FILE 6984 - Spaceship - Back - Hook.ldr
 0 A single hinge plate with fingers serving as a connection hook for the rear assembly.
 0 Name: 6984 - Spaceship - Back - Hook.ldr
@@ -933,6 +950,7 @@
 
 
 
+0 STEP
 0 FILE 6984 - Spaceship - Back - Roof.ldr
 0 A rear roof panel built from a large base plate, supporting plates, a car-roof hinge, and a slope printed with Space Police II detailing.
 0 Name: 6984 - Spaceship - Back - Roof.ldr
@@ -967,6 +985,7 @@
 
 
 
+0 STEP
 0 FILE 6984 - Spaceship - Back - Wing - Antenna.ldr
 0 A small antenna assembly made of a hinged bar with a top stud and a red whip antenna.
 0 Name: 6984 - Spaceship - Back - Wing - Antenna.ldr
@@ -983,6 +1002,7 @@
 
 
 
+0 STEP
 0 FILE 6984 - Minifig 1.ldr
 0 A Space Police II officer minifigure with a printed torso, airtanks, green arms and legs, and a headset-pattern head.
 0 Name: 6984 - Minifig 1.ldr
@@ -1016,6 +1036,7 @@
 
 
 
+0 STEP
 0 FILE 6984 - Minifig 1 - Helmet.ldr
 0 A black space helmet paired with a transparent green visor for Minifig 1.
 0 Name: 6984 - Minifig 1 - Helmet.ldr
@@ -1032,6 +1053,7 @@
 
 
 
+0 STEP
 0 FILE 6984 - Minifig 2.ldr
 0 A Space Police II chief minifigure with a printed chief torso, red epaulettes, airtanks, a torch, and a headset-pattern head.
 0 Name: 6984 - Minifig 2.ldr
@@ -1069,6 +1091,7 @@
 
 
 
+0 STEP
 0 FILE 6984 - Minifig 2 - Helmet.ldr
 0 A black space helmet paired with a transparent green visor for Minifig 2.
 0 Name: 6984 - Minifig 2 - Helmet.ldr
@@ -1085,6 +1108,7 @@
 
 
 
+0 STEP
 0 FILE 6984 - Minifig 3.ldr
 0 A Blacktron II minifigure with a printed torso, airtanks, black arms and hips, white legs, and a standard grin head.
 0 Name: 6984 - Minifig 3.ldr
@@ -1118,6 +1142,7 @@
 
 
 
+0 STEP
 0 FILE 6984 - Minifig 3 - Helmet.ldr
 0 A black minifig helmet with a trans-neon green visor.
 0 Name: 6984 - Minifig 3 - Helmet.ldr

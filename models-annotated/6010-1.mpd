@@ -10,6 +10,7 @@
 1 15 22.863 -52.404 -43.321 0.985 0.12 -0.12 -0.166 0.52 -0.838 -0.038 0.846 0.532 6010 - Peasant Sword.ldr
 
 
+0 STEP
 0 FILE 6010 - Wagon.ldr
 0 A red horse-drawn wagon with spoked wheels, a hitching assembly, and sloped body panels.
 0 Name: 6010 - Wagon.ldr
@@ -90,6 +91,7 @@
 
 
 
+0 STEP
 0 FILE 6010 - Peasant.ldr
 0 A medieval peasant minifigure with a forestman torso, hooded cowl, and blue arms.
 0 Name: 6010 - Peasant.ldr
@@ -121,6 +123,7 @@
 
 
 
+0 STEP
 0 FILE 6010 - Peasant Sword.ldr
 0 A single light bluish grey shortsword for a minifigure.
 0 Name: 6010 - Peasant Sword.ldr

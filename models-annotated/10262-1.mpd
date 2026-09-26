@@ -1115,6 +1115,7 @@
 1 256 106 -10 -370 0 0 -1 0 1 0 1 0 0 10262 - step263.ldr
 
 
+0 STEP
 0 FILE 10262 - step3.ldr
 0 Small rotational pivot assembly using a technic cross block, pin, axle, and round plates to form a swivel joint.
 0 Name: 10262 - step3.ldr
@@ -1136,6 +1137,7 @@
 1 71 38 0 0 0 1 0 0 0 -1 -1 0 0 4032a.dat
 
 
+0 STEP
 0 FILE 10262 - step7.ldr
 0 Linkage mechanism built from axle pins, bushes, a 3L perpendicular axle, liftarm, and a 16L link rod for a connecting element.
 0 Name: 10262 - step7.ldr
@@ -1161,6 +1163,7 @@
 1 71 0 -10 0 1 0 0 0 -1 0 0 0 -1 30374.dat
 
 
+0 STEP
 0 FILE 10262 - step11-17.ldr
 0 Structural side panel subassembly of light bluish grey plates, brackets, and a curved-top brick forming a support section.
 0 Name: 10262 - step11-17.ldr
@@ -1209,6 +1212,7 @@
 1 14 130 -24 60 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 10262 - step18-24.ldr
 0 Mirror structural side panel subassembly, identical to step11-17, forming the opposite support section.
 0 Name: 10262 - step18-24.ldr
@@ -1257,6 +1261,7 @@
 1 14 130 -24 -60 -1 0 0 0 1 0 0 0 -1 6141.dat
 
 
+0 STEP
 0 FILE 10262 - step27.ldr
 0 Pivot joint subassembly using a technic brick, blue long pins, cross blocks, and white round bricks to create a rotating mount.
 0 Name: 10262 - step27.ldr
@@ -1290,6 +1295,7 @@
 1 0 -60 -30 -20 1 0 0 0 1 0 0 0 1 2780.dat
 
 
+0 STEP
 0 FILE 10262 - step28-34.ldr
 0 Gearbox/axle subassembly with two technic bricks, a stop axle, bushes, axle joiners, and a bent liftarm for a drive linkage.
 0 Name: 10262 - step28-34.ldr
@@ -1333,6 +1339,7 @@
 1 71 -80 10 -150 -1 0 0 0 1 0 0 0 -1 59443.dat
 
 
+0 STEP
 0 FILE 10262 - step32.ldr
 0 Compact lever connector of a liftarm, beam, axle pin, and stop axle forming a small mechanical linkage.
 0 Name: 10262 - step32.ldr
@@ -1350,6 +1357,7 @@
 1 72 -20 0 -30 0 0 1 0 -1 0 1 0 0 87083.dat
 
 
+0 STEP
 0 FILE 10262 - step42.ldr
 0 Simple parallel beam assembly of two white technic beams joined by a long pin with stop bush.
 0 Name: 10262 - step42.ldr
@@ -1365,6 +1373,7 @@
 1 71 -100 0 0 0 0 -1 0 -1 0 -1 0 0 32054.dat
 
 
+0 STEP
 0 FILE 10262 - step44.ldr
 0 Joint mechanism using a red technic brick, cross block, pins, and a stop bush pin for a rotational connector.
 0 Name: 10262 - step44.ldr
@@ -1382,6 +1391,7 @@
 1 71 0 10 -20 0 0 -1 0 1 0 1 0 0 32054.dat
 
 
+0 STEP
 0 FILE 10262 - step45-53.ldr
 0 Landing gear strut subassembly with orange and blue liftarms, towball joints, axles, and beams forming an articulated leg mechanism.
 0 Name: 10262 - step45-53.ldr
@@ -1445,6 +1455,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10262 - step54.ldr
 0 LDCad-generated flexible rubber band element composed of 30 curved segments forming a tension loop.
 0 Name: 10262 - step54.ldr
@@ -2270,6 +2281,7 @@
 5 24 -17.414213 0 1.414214 -16 0 2 -17.712246 -0.954556 1.414214 -16.077654 4.258494 1.414214
 
 
+0 STEP
 0 FILE 10262 - step58.ldr
 0 Lever arm subassembly of red beams and a bent 90-degree liftarm connected by pins to a white brick, forming an articulated mechanism.
 0 Name: 10262 - step58.ldr
@@ -2303,6 +2315,7 @@
 1 15 60 0 -60 1 0 0 0 1 0 0 0 1 10262 - step58-6.ldr
 
 
+0 STEP
 0 FILE 10262 - step58-6.ldr
 0 Small bent liftarm joint subassembly with an axle pin and short beam for a compact connector.
 0 Name: 10262 - step58-6.ldr
@@ -2318,6 +2331,7 @@
 1 15 20 -20 -60 0 1 0 -1 0 0 0 0 1 18654.dat
 
 
+0 STEP
 0 FILE 10262 - step61.ldr
 0 Rotational joint subassembly using a cross block, perpendicular pin, connector with pins, and a technic brick for a pivoting mount.
 0 Name: 10262 - step61.ldr
@@ -2344,6 +2358,7 @@
 1 0 30 -34 0 -1 0 0 0 0 -1 0 -1 0 15461.dat
 
 
+0 STEP
 0 FILE 10262 - step66.ldr
 0 Axle-mounted mechanism with peghole plates, a bent liftarm, bushes, and notched axle forming a positioning/locking element.
 0 Name: 10262 - step66.ldr
@@ -2373,6 +2388,7 @@
 1 0 50 0 0 0 0 -1 0 1 0 1 0 0 11458.dat
 
 
+0 STEP
 0 FILE 10262 - step69.ldr
 0 Structural beam subassembly of four black liftarms on a cross block joined by red axles and a bush for a rigid frame.
 0 Name: 10262 - step69.ldr
@@ -2398,6 +2414,7 @@
 1 0 -25 30 0 0 1 0 0 0 1 1 0 0 32449.dat
 
 
+0 STEP
 0 FILE 10262 - step70.ldr
 0 Thruster/nozzle subassembly using metallic silver beams, cones, an elbow cylinder, and a brown stop axle forming an exhaust/engine detail.
 0 Name: 10262 - step70.ldr
@@ -2444,6 +2461,7 @@
 1 80 -90 10 34 0 0 1 -1 0 0 0 -1 0 59900.dat
 
 
+0 STEP
 0 FILE 10262 - step71.ldr
 0 Mirror thruster/nozzle subassembly, identical to step70, forming the opposite exhaust/engine detail.
 0 Name: 10262 - step71.ldr
@@ -2490,6 +2508,7 @@
 1 80 90 10 34 0 0 -1 1 0 0 0 -1 0 59900.dat
 
 
+0 STEP
 0 FILE 10262 - step72-87.ldr
 0 Curved side body panel subassembly with plates, bricks, a pointed arch, grille slope, and a left inverted wedge forming a sculpted hull section.
 0 Name: 10262 - step72-87.ldr
@@ -2577,6 +2596,7 @@
 1 71 -20 16 0 -1 0 0 0 1 0 0 0 -1 41765.dat
 
 
+0 STEP
 0 FILE 10262 - step88-103.ldr
 0 Mirror curved side body panel subassembly with a right inverted wedge, forming the opposite sculpted hull section.
 0 Name: 10262 - step88-103.ldr
@@ -2664,6 +2684,7 @@
 1 71 20 16 0 -1 0 0 0 1 0 0 0 -1 41764.dat
 
 
+0 STEP
 0 FILE 10262 - step105.ldr
 0 Small handle subassembly of plates with handles and a grooved tile forming a detachable grip/detail element.
 0 Name: 10262 - step105.ldr
@@ -2683,6 +2704,7 @@
 1 71 0 -32 0 -1 0 0 0 1 0 0 0 -1 3069b.dat
 
 
+0 STEP
 0 FILE 10262 - step106.ldr
 0 Indicator/light subassembly with a beam, trans-orange round plate, and trans-clear and trans-red lenses forming a signal detail.
 0 Name: 10262 - step106.ldr
@@ -2708,6 +2730,7 @@
 1 36 0 0 -18 -1 0 0 0 0 1 0 1 0 98138.dat
 
 
+0 STEP
 0 FILE 10262 - step108.ldr
 0 Gear housing subassembly using technic bricks, grille tiles, a 12-tooth bevel gear, stop axle, and slopes forming a mechanical gearbox.
 0 Name: 10262 - step108.ldr
@@ -2742,6 +2765,7 @@
 1 0 -50 0 0 0 0 -1 0.866 -0.5 0 -0.5 -0.866 0 32270.dat
 
 
+0 STEP
 0 FILE 10262 - step109.ldr
 0 Steering control subassembly with pins, a joiner, a steering wheel, and a grooved round tile forming a control stick/dial.
 0 Name: 10262 - step109.ldr
@@ -2763,6 +2787,7 @@
 1 71 10 0 -102 -1 0 0 0 0 1 0 1 0 98138.dat
 
 
+0 STEP
 0 FILE 10262 - step110.ldr
 0 Textured front panel subassembly of black plates, log bricks, curved slopes, and corner tiles forming a detailed fascia section.
 0 Name: 10262 - step110.ldr
@@ -2817,6 +2842,7 @@
 1 0 -48 0 10 0 1 0 0 0 -1 -1 0 0 14719.dat
 
 
+0 STEP
 0 FILE 10262 - step111-128.ldr
 0 Hinged body panel subassembly with plates, locking hinges, brackets, curved-top bricks, panels, and a bar forming an articulated side wall.
 0 Name: 10262 - step111-128.ldr
@@ -2953,6 +2979,7 @@
 1 71 10 -86 -96 0 0 -1 -1 0 0 0 1 0 25269.dat
 
 
+0 STEP
 0 FILE 10262 - step129-140.ldr
 0 Extended hinged body panel subassembly, similar to step111-128, with additional log and curved bricks forming a longer side wall section.
 0 Name: 10262 - step129-140.ldr
@@ -3063,6 +3090,7 @@
 1 71 -10 -86 -96 -1 0 0 0 0 1 0 1 0 25269.dat
 
 
+0 STEP
 0 FILE 10262 - step144.ldr
 0 Clip attachment subassembly of plates, a red handle plate, and two white clip tiles forming a mounting/connector detail.
 0 Name: 10262 - step144.ldr
@@ -3084,6 +3112,7 @@
 1 15 20 -16 -10 -1 0 0 0 1 0 0 0 -1 30350b.dat
 
 
+0 STEP
 0 FILE 10262 - step147.ldr
 0 Textured rear detail subassembly with log bricks, plates with handles, and yellow round studs forming a panel with grip elements.
 0 Name: 10262 - step147.ldr
@@ -3123,6 +3152,7 @@
 1 0 40 -2 20 1 0 0 0 1 0 0 0 1 48336.dat
 
 
+0 STEP
 0 FILE 10262 - step149.ldr
 0 Structural joint subassembly of yellow technic bricks, bent liftarms, pins, a red beam, and a bush forming a braced connector.
 0 Name: 10262 - step149.ldr
@@ -3155,6 +3185,7 @@
 1 14 30 -10 0 0 0 -1 0 1 0 1 0 0 6541.dat
 
 
+0 STEP
 0 FILE 10262 - step150-164.ldr
 0 Crew/interior compartment subassembly with seats, brackets, inverted slopes, metallic silver cones and beams, and a fence forming a detailed internal section.
 0 Name: 10262 - step150-164.ldr
@@ -3267,6 +3298,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10262 - step162.ldr
 0 Small nozzle subassembly using a yellow axle, metallic silver elbow cylinder, round plate, and beam forming a compact exhaust detail.
 0 Name: 10262 - step162.ldr
@@ -3284,6 +3316,7 @@
 1 80 0 0 0 0 1 0 0 0 1 1 0 0 18654.dat
 
 
+0 STEP
 0 FILE 10262 - step163.ldr
 0 Locking hinge mechanism subassembly of axles with stops, dual-finger hinge arms, bushes, a split cross block, and a perpendicular pin forming a rotatable joint.
 0 Name: 10262 - step163.ldr
@@ -3317,6 +3350,7 @@
 1 15 120 0 0 0 0 -1 0 -1 0 -1 0 0 30553.dat
 
 
+0 STEP
 0 FILE 10262 - step173.ldr
 0 Hinged panel with armaments subassembly of hinge plates, dark bluish grey panels, handle plates, and six dark bluish grey revolvers forming a swiveling rack.
 0 Name: 10262 - step173.ldr
@@ -3399,6 +3433,7 @@
 1 72 -50 -34.91 -36.117 0.559 0 -0.829 -0.808 -0.225 -0.545 -0.186 0.974 -0.126 30132.dat
 
 
+0 STEP
 0 FILE 10262 - step174-hose.ldr
 0 LDCad-generated flexible ribbed hose element composed of 21 segments following a curved path, based on the classic ribbed hose geometry.
 0 Name: 10262 - step174-hose.ldr
@@ -20876,6 +20911,7 @@
 5 24 49.291813 7.604846 88.604591 46.804264 8.099482 88.600342 49.371109 7.795948 88.60482 49.218254 7.428059 88.639717
 
 
+0 STEP
 0 FILE 10262 - step179.ldr
 0 Radiator/grille panel subassembly using a blue rotor and seven metallic silver grille-patterned tiles on plates forming a vented detail surface.
 0 Name: 10262 - step179.ldr
@@ -20905,6 +20941,7 @@
 1 80 60 -8 -10 0 0 1 0 1 0 -1 0 0 3069bp0h.dat
 
 
+0 STEP
 0 FILE 10262 - step186.ldr
 0 Antenna/sensor detail subassembly of a white mechanical arm, a pearl silver round shield, and a trans-clear inverted dish forming a decorative dish element.
 0 Name: 10262 - step186.ldr
@@ -20920,6 +20957,7 @@
 1 47 0 -3.66 -53.311 1 0 0 0 0.707 -0.707 0 0.707 0.707 4740.dat
 
 
+0 STEP
 0 FILE 10262 - step191-197.ldr
 0 Curved exterior body panel subassembly of plates, long curved slopes, panels, corner pieces, and tiles forming a smooth hull section.
 0 Name: 10262 - step191-197.ldr
@@ -20990,6 +21028,7 @@
 1 71 0 6 -130 1 0 0 0 0 -1 0 1 0 4865b.dat
 
 
+0 STEP
 0 FILE 10262 - step198.ldr
 0 Small detail/component subassembly of a cone, studs-on-sides brick, slope, bar plate, and round plates forming a compact fitting.
 0 Name: 10262 - step198.ldr
@@ -21015,6 +21054,7 @@
 1 80 0 4 -30 0 0 1 0 -1 0 1 0 0 59900.dat
 
 
+0 STEP
 0 FILE 10262 - step199-204.ldr
 0 Upper canopy/window subassembly with a trans-brown windscreen, log bricks, inverted slopes, and C-clip plates forming a cockpit viewport frame.
 0 Name: 10262 - step199-204.ldr
@@ -21072,6 +21112,7 @@
 1 71 90 -52 -30 0 0 1 0 1 0 -1 0 0 3069b.dat
 
 
+0 STEP
 0 FILE 10262 - step205-212.ldr
 0 Viewport assembly subassembly with a trans-brown reinforced panel, trans-brown slopes, bars, clips, and a blue pin forming a window detail.
 0 Name: 10262 - step205-212.ldr
@@ -21116,6 +21157,7 @@
 1 40 0 -90 -40 -1 0 0 0 1 0 0 0 -1 54200.dat
 
 
+0 STEP
 0 FILE 10262 - step213-220.ldr
 0 Mirror viewport assembly subassembly, identical to step205-212, forming the opposite window detail.
 0 Name: 10262 - step213-220.ldr
@@ -21160,6 +21202,7 @@
 1 40 0 -90 -40 -1 0 0 0 1 0 0 0 -1 54200.dat
 
 
+0 STEP
 0 FILE 10262 - step221.ldr
 0 Front fascia subassembly with log bricks, hollow-stud panels, door rail, slopes, and a technic brick forming a detailed front wall section.
 0 Name: 10262 - step221.ldr
@@ -21206,6 +21249,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10262 - step222-237.ldr
 0 Hinged panel subassembly with long plates, curved-top bricks, locking hinge plates, door rail, and a black axle-tile forming an articulated wall.
 0 Name: 10262 - step222-237.ldr
@@ -21271,6 +21315,7 @@
 1 15 0 -46 20 1 0 0 0 0.924 -0.383 0 0.383 0.924 10262 - step230-236.ldr
 
 
+0 STEP
 0 FILE 10262 - step230-236.ldr
 0 Decorative body panel subassembly with plates, inverted slopes, brackets, locking hinges, and curved-top bricks forming a contoured hull section.
 0 Name: 10262 - step230-236.ldr
@@ -21331,6 +21376,7 @@
 1 71 40 -24 66 -1 0 0 0 0 -1 0 -1 0 10314.dat
 
 
+0 STEP
 0 FILE 10262 - step238.ldr
 0 Instrument panel subassembly with headlight bricks, curved slopes, and five pearl silver gauge-dial patterned tiles forming a dashboard/control array.
 0 Name: 10262 - step238.ldr
@@ -21392,6 +21438,7 @@
 1 179 32 -2 170 0 -1 0 0 0 -1 1 0 0 98138pc1.dat
 
 
+0 STEP
 0 FILE 10262 - step239.ldr
 0 Upper windscreen subassembly with a large trans-brown windscreen, grooved tiles, C-clip tiles, and a white plate forming a cockpit canopy.
 0 Name: 10262 - step239.ldr
@@ -21417,6 +21464,7 @@
 1 71 0 -104 -20 1 0 0 0 1 0 0 0 1 3069b.dat
 
 
+0 STEP
 0 FILE 10262 - step240.ldr
 0 Smooth body panel subassembly of plates, a curved slope, handle plate, and a long tile forming a contoured surface section.
 0 Name: 10262 - step240.ldr
@@ -21442,6 +21490,7 @@
 1 71 0 -16 -20 0 0 -1 0 1 0 1 0 0 6636.dat
 
 
+0 STEP
 0 FILE 10262 - step241-250.ldr
 0 Hinged access panel subassembly with plates, yellow hinge plates, door rails, curved slopes, tiles, and hinge tops forming a multi-part folding section.
 0 Name: 10262 - step241-250.ldr
@@ -21517,6 +21566,7 @@
 1 71 190 -16 -110 1 0 0 0 1 0 0 0 1 3070b.dat
 
 
+0 STEP
 0 FILE 10262 - step252.ldr
 0 Base/top panel subassembly with a large 6x6 grooved tile, plate, curved slopes, corner plates, brackets, and technic bricks forming a structural deck.
 0 Name: 10262 - step252.ldr
@@ -21554,6 +21604,7 @@
 1 0 -10 0 -10 0 0 -1 -1 0 0 0 1 0 6541.dat
 
 
+0 STEP
 0 FILE 10262 - step254-262.ldr
 0 Textured panel subassembly of log bricks, curved slopes, corner tiles, technic bricks, and black plates forming a detailed fascia section.
 0 Name: 10262 - step254-262.ldr
@@ -21610,6 +21661,7 @@
 1 0 48 0 10 0 -1 0 -1 0 0 0 0 -1 14719.dat
 
 
+0 STEP
 0 FILE 10262 - step263.ldr
 0 Rotor/wheel assembly subassembly of a pearl silver spoked wheel rim, rubber tyre, wheel cover, a pearl silver shuriken, and an axle-tile forming a rotating decorative element.
 0 Name: 10262 - step263.ldr
@@ -21629,6 +21681,7 @@
 1 0 0 0 -22 0 0 1 1 0 0 0 1 0 20482.dat
 
 
+0 STEP
 0 FILE 10262 - ldcRubberBandRndSeg.dat
 0 LDCad path-deform primitive generating a single curved rubber band segment with automatic condline removal between adjacent segments.
 0 Name: 10262 - ldcRubberBandRndSeg.dat
@@ -21650,6 +21703,7 @@
 1 16 0 1 0 2 0 0 0 1 0 0 0 2 10262 - ldcConRing8.dat
 
 
+0 STEP
 0 FILE 10262 - 33299b.dat
 0 Technic connector part subfile defining axle holes, peg holes, and rings forming the geometry of a pin connector element.
 0 Name: 10262 - 33299b.dat
@@ -21687,6 +21741,7 @@
 4 16 6.36 10 33.637001 3.444 10 31.684999 3.062 10 32.609001 5.657 10 34.342999
 4 16 3.444 10 31.684999 0 10 31 0 10 32 3.062 10 32.609001
 
+0 STEP
 0 FILE 10262 - ldcRibHoseSeg.dat
 0 LDCad ribbed hose segment primitive based on classic ribbed hose geometry, defining cylinders, rings, and circles for one hose rib.
 0 Name: 10262 - ldcRibHoseSeg.dat
@@ -21737,6 +21792,7 @@
 0 //  these don't seem to be worth the trouble (and extra weight), might add them in the future though.
 
 
+0 STEP
 0 FILE 10262 - 92582.dat
 0 Part subfile composed of box primitives defining the solid geometry faces and edges of a brick element.
 0 Name: 10262 - 92582.dat
@@ -21765,6 +21821,7 @@
 1 16 -10 0 -10 -1 0 0 0 1 0 0 0 -1 stud.dat
 
 
+0 STEP
 0 FILE 10262 - 37195.dat
 0 Part subfile defining circular geometry using circles, rings, and open cylinders forming a cylindrical/tubular element.
 0 Name: 10262 - 37195.dat
@@ -22048,6 +22105,7 @@
 5 24 -29.8617 0 4.6 -29.7376 -2.2967 0.8 -29.6049 -3.8969 4.6 -29.7376 2.2967 0.8
 5 24 -29.8617 0 4.6 -29.7376 2.2967 0.8 -29.7376 -2.2967 0.8 -29.6049 3.8969 4.6
 
+0 STEP
 0 FILE 10262 - 93058.dat
 0 Part subfile defining edge lines, condlines, and grip adapter sections forming a handled/grip element.
 0 Name: 10262 - 93058.dat
@@ -22315,6 +22373,7 @@
 5 24 1.7774 0 -9.5308 -1.7774 0 -9.5308 -3.1433 1.5308 -9.2264 -3.1433 -1.5308 -9.2264
 5 24 3.1433 -1.5308 -9.2264 -3.1433 -1.5308 -9.2264 -1.7774 0 -9.5308 -3.6045 -2.8284 -8.3592
 
+0 STEP
 0 FILE 10262 - ldcCyli8.dat
 0 LDCad cylinder primitive for path-deform generation with no direct pieces.
 0 Name: 10262 - ldcCyli8.dat
@@ -22346,6 +22405,7 @@
 
 
 
+0 STEP
 0 FILE 10262 - ldcConRing8.dat
 0 LDCad cone ring primitive for path-deform generation, handling scaling/rotation of control points for flexible elements.
 0 Name: 10262 - ldcConRing8.dat
@@ -22370,6 +22430,7 @@
 5 24 -0.707107 0 0.707107 0 0 1 -0.707107 -1 0.707107 -0.707107 1 0.707107
 
 
+0 STEP
 0 FILE s\10262 - 33299s01.dat
 0 Geometry subpart for a technic pin connector defining cylinders, circles, rings, rectangles, and a pin with base collar forming its detailed shape.
 0 Name: s\10262 - 33299s01.dat
@@ -22640,6 +22701,7 @@
 5 24 -4.9498 0 35.050098 -4.9498 10 35.050098 -6 0 36.661999 -2.6788 0 33.5327
 5 24 4.9497 10 35.050301 4.9498 0 35.050201 6 0 36.661999 2.6788 10 33.5327
 
+0 STEP
 0 FILE s\10262 - 92582s01.dat
 0 Geometry subpart defining discs, cylinders, cones, and rectangles forming the detailed shape of a molded element.
 0 Name: s\10262 - 92582s01.dat
@@ -22954,6 +23016,7 @@
 5 24 3 -10 0 3 -9.772 -1.148 2.25 -9.078775 -0.861075 3.67 -10.66 0
 5 24 3 -9.772 -1.148 3 -9.1213 -2.1213 2.25 -8.590975 -1.590975 3.752 -10.45 -1.446
 
+0 STEP
 0 FILE s\10262 - 37195s01.dat
 0 Empty geometry subpart placeholder with no direct pieces.
 0 Name: s\10262 - 37195s01.dat
@@ -23250,6 +23313,7 @@
 5 24 -2.2696 -20.2304 -6 -1.8986 -20.0809 -6.9 -4.3413 -15.0895 -5.6 0.1732 -25.2218 -6.8
 2 24 5.7914 -12.0261 0.8 4.5268 -15.1642 0.8
 
+0 STEP
 0 FILE s\10262 - 93058s01.dat
 0 Geometry subpart defining the top, bottom, handle, and open cylinder sections of a grip element.
 0 Name: s\10262 - 93058s01.dat

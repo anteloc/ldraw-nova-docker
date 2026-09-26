@@ -22,6 +22,7 @@
 1 15 158 40 -13 -0.276 0 -0.961 0 1 0 0.961 0 -0.276 3069bp03.dat
 
 
+0 STEP
 0 FILE 6716 - Wagon.ldr
 0 Large black wagon build with plates, panels, wheels, turntable, and a cutlass accessory.
 0 Name: 6716 - Wagon.ldr
@@ -119,6 +120,7 @@
 0 // Sheet Fabric Wagon Cover with Crossed Cutlasses Pattern (Formed) (white)
 1 15 0 -178 100 1 0 0 0 1 0 0 0 1 71396p01c01.dat
 
+0 STEP
 0 FILE 6716 - Drawbar.ldr
 0 Small wheeled drawbar assembly with a turntable hinge and two spoked wheels.
 0 Name: 6716 - Drawbar.ldr
@@ -142,6 +144,7 @@
 0 // Wheel  2.8 x 27 with  8 Spokes (black)
 1 0 40 13 0 0 0 -1 0 1 0 1 0 0 2470.dat
 
+0 STEP
 0 FILE 6716 - Horse.ldr
 0 Horse figure with red tack pattern mounted on a brown brick base.
 0 Name: 6716 - Horse.ldr
@@ -161,6 +164,7 @@
 1 6 0 -7 -138 1 0 0 0 1 0 0 0 1 74323.dat
 
 
+0 STEP
 0 FILE 6716 - Cannon.ldr
 0 Wheeled cannon build with a shooting cannon mechanism, base, and two large spoked wheels.
 0 Name: 6716 - Cannon.ldr
@@ -193,6 +197,7 @@
 1 0 -40 -11 20 0 0 1 0 1 0 -1 0 0 4489b.dat
 
 
+0 STEP
 0 FILE 6716 - Cavalry Soldier.ldr
 0 Blue-uniformed US Cavalry soldier minifigure with kepi hat, revolver, whip, and bandana.
 0 Name: 6716 - Cavalry Soldier.ldr

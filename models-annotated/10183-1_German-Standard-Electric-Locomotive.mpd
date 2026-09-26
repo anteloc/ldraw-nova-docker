@@ -452,6 +452,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 11 - side window.ldr
 0 Side window submodel: a clear trans-glass pane set in a black door-rail frame with a grille tile, used for the locomotive's side glazing
 0 Name: 10183 - 11 - side window.ldr
@@ -469,6 +470,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 11 - roof middle.ldr
 0 Roof-middle submodel: central roof section built from a 2x8 base plate with dark-bluish-grey 33-degree slope bricks, red grille tiles for ventilation and a studded bar
 0 Name: 10183 - 11 - roof middle.ldr
@@ -506,6 +508,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 11 - nose front.ldr
 0 Nose-front submodel: front cab end with red slope and curved-top bricks, a white buffer plate, trans-yellow headlamp rounds and red grille/vent tiles
 0 Name: 10183 - 11 - nose front.ldr
@@ -574,6 +577,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 11 - nose back.ldr
 0 Nose-back submodel: rear cab end mirroring the front, with red slope and curved-top bricks, a white buffer plate, trans-red tail-lamp rounds and red grille/vent tiles
 0 Name: 10183 - 11 - nose back.ldr
@@ -642,6 +646,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 11 - underside detail.ldr
 0 Underside-detail submodel: chassis underside detail made of round 2x2 bricks, a 2x4x2 studs-on-sides brick, a studs-on-sides 1x2 brick and a black grille tile
 0 Name: 10183 - 11 - underside detail.ldr
@@ -666,6 +671,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 11 - wheels.ldr
 0 Wheels submodel: powered wheel bogie/truck with train wheels, a single-axle bogie with wheelset, buffer beam, bogie plate with short pin, train coupling and a cylindrical magnet casing
 0 Name: 10183 - 11 - wheels.ldr

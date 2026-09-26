@@ -10,6 +10,7 @@
 1 1 0 -81 -700 0 0 1 0 1 0 -1 0 0 42083 - bag.ldr
 
 
+0 STEP
 0 FILE 42083 - chassisrear.ldr
 0 Rear chassis frame built from long liftarms, open-center beams, and T-beams with extensive pin connectors forming the structural backbone.
 0 Name: 42083 - chassisrear.ldr
@@ -394,6 +395,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42083 - rearaxle.ldr
 0 Rear axle assembly featuring a differential gear, cross blocks, and beams that transfer drive to the rear wheels.
 0 Name: 42083 - rearaxle.ldr
@@ -677,6 +679,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42083 - rearwheelsupport.ldr
 0 Rear wheel support structure using bent liftarms, cross blocks, and axles to mount and position the rear wheels.
 0 Name: 42083 - rearwheelsupport.ldr
@@ -787,6 +790,7 @@
 1 14 -32 -144 15 0.8 -0.6 0 0.6 0.8 0 0 0 1 32123b.dat
 
 
+0 STEP
 0 FILE 42083 - shock-06_5L-hard-1.ldr
 0 Hard 6.5L shock absorber unit with a cylinder and piston rod providing rear suspension damping.
 0 Name: 42083 - shock-06_5L-hard-1.ldr
@@ -835,6 +839,7 @@
 
 
 
+0 STEP
 0 FILE 42083 - shock-06_5L-hard-1_springMesh.ldr
 0 Procedurally generated spring mesh for the hard 6.5L shock absorber with 15 windings across 5 sections.
 0 Name: 42083 - shock-06_5L-hard-1_springMesh.ldr
@@ -6667,6 +6672,7 @@
 5 24 -7.75 30.00281 0.18741 -7.21967 29.466925 0.016434 -7.75 29.24736 0.023241 -7 29.997 0
 
 
+0 STEP
 0 FILE 42083 - gearbox.ldr
 0 Main gearbox containing multiple 16-tooth and 20-tooth bevel gears, bent liftarms, and axles forming the gear-shifting mechanism.
 0 Name: 42083 - gearbox.ldr
@@ -7019,6 +7025,7 @@
 1 15 190 -30 190.029 1 -0.001 0 0.001 1 0 0 0 1 18948.dat
 
 
+0 STEP
 0 FILE 42083 - gearbox2.ldr
 0 Secondary gearbox section with 8-tooth and 16-tooth gears, a clutch gear, and axles providing additional gear ratios.
 0 Name: 42083 - gearbox2.ldr
@@ -7087,6 +7094,7 @@
 1 15 40 40 -40 1 0 0 0 1 0 0 0 1 18948.dat
 
 
+0 STEP
 0 FILE 42083 - rubberBandRound-1.ldr
 0 Round rubber band assembly modeled as 20 connected segments forming a loop for tension-based mechanisms.
 0 Name: 42083 - rubberBandRound-1.ldr
@@ -7650,6 +7658,7 @@
 5 24 -8.414214 0 0.413964 -7 0 0.99975 -8.669195 -0.966946 0.413964 -7.297277 4.210243 0.413964
 
 
+0 STEP
 0 FILE 42083 - engine.ldr
 0 V8 engine assembly with 8 cylinder heads, pistons, connecting rods, and two crankshafts mounted on a stud-and-peghole brick base.
 0 Name: 42083 - engine.ldr
@@ -7892,6 +7901,7 @@
 1 0 0 90 -150 0 -1 0 -1 0 0 0 0 -1 59443.dat
 
 
+0 STEP
 0 FILE 42083 - enginelower.ldr
 0 Lower half of the engine with 4 cylinder heads, a crankshaft assembly, connecting rods, and pistons driving off a 24-tooth gear.
 0 Name: 42083 - enginelower.ldr
@@ -7972,6 +7982,7 @@
 1 14 0 16 0 1 0 0 0 1 0 0 0 1 2851.dat
 
 
+0 STEP
 0 FILE 42083 - enginebeam.ldr
 0 Engine support beam framework using long liftarms, bent beams, and angle connectors to mount and brace the engine block.
 0 Name: 42083 - enginebeam.ldr
@@ -8077,6 +8088,7 @@
 1 0 100 -80 80 0 0 -1 1 0 0 0 -1 0 32316.dat
 
 
+0 STEP
 0 FILE 42083 - chassisfront.ldr
 0 Front chassis frame constructed from many long liftarms, H-beams, bent beams, and driving ring joiners forming the main forward structure.
 0 Name: 42083 - chassisfront.ldr
@@ -8952,6 +8964,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42083 - chassisfront2.ldr
 0 Supplementary front chassis section with open-center beams, bent liftarms, and a 24-tooth gear providing additional structural support.
 0 Name: 42083 - chassisfront2.ldr
@@ -9036,6 +9049,7 @@
 1 14 -40 0 80 0 -1 0 0 0 1 -1 0 0 4519.dat
 
 
+0 STEP
 0 FILE 42083 - chassisfront3.ldr
 0 Compact front chassis reinforcement using a long open-center beam, a beam 11, and perpendicular pin connectors for rigidity.
 0 Name: 42083 - chassisfront3.ldr
@@ -9070,6 +9084,7 @@
 1 1 40 0 -200 -1 0 0 0 0 1 0 1 0 6558.dat
 
 
+0 STEP
 0 FILE 42083 - frontaxle.ldr
 0 Front axle assembly with universal joints, angle connectors, bent liftarms, and steering linkages for driven front wheels.
 0 Name: 42083 - frontaxle.ldr
@@ -9356,6 +9371,7 @@
 1 71 -60 -60 60 1 0 0 0 -1 0 0 0 -1 32054.dat
 
 
+0 STEP
 0 FILE 42083 - frontaxlediff.ldr
 0 Front axle differential unit with a 28-tooth bevel differential, 12-tooth bevel gears, and a 20-tooth bevel gear for drive distribution.
 0 Name: 42083 - frontaxlediff.ldr
@@ -9426,6 +9442,7 @@
 1 71 0 0 -80 0 1 0 1 0 0 0 0 -1 94925.dat
 
 
+0 STEP
 0 FILE 42083 - frontwheelsupport.ldr
 0 Front wheel hub assembly with a steering bearing, towball pins, brake disc hub, and suspension arm mounting the front wheel.
 0 Name: 42083 - frontwheelsupport.ldr
@@ -9450,6 +9467,7 @@
 1 1 0 40 -80 1 0 0 0 -1 0 0 0 -1 6558.dat
 
 
+0 STEP
 0 FILE 42083 - shock-06_5L-hard-2.ldr
 0 Second hard 6.5L shock absorber unit with cylinder and piston rod providing front suspension damping.
 0 Name: 42083 - shock-06_5L-hard-2.ldr
@@ -9498,6 +9516,7 @@
 
 
 
+0 STEP
 0 FILE 42083 - shock-06_5L-hard-2_springMesh.ldr
 0 Procedurally generated spring mesh for the second hard 6.5L shock absorber with 15 windings across 5 sections.
 0 Name: 42083 - shock-06_5L-hard-2_springMesh.ldr
@@ -15330,6 +15349,7 @@
 5 24 -7.75 35.235809 0.18741 -7.21967 34.699924 0.016434 -7.75 34.480362 0.023241 -7 35.23 0
 
 
+0 STEP
 0 FILE 42083 - chassisfront4.ldr
 0 Front chassis sub-frame using bent liftarms, cross blocks, and beams to reinforce and connect the front axle area.
 0 Name: 42083 - chassisfront4.ldr
@@ -15389,6 +15409,7 @@
 1 71 30 -70 -120 0 1 0 -1 0 0 0 0 1 4274.dat
 
 
+0 STEP
 0 FILE 42083 - frontchassis5.ldr
 0 Small front chassis linkage with bent beams, a long axle, and pin connectors providing structural connection points.
 0 Name: 42083 - frontchassis5.ldr
@@ -15419,6 +15440,7 @@
 1 0 50 60 20 -1 0 0 0 1 0 0 0 -1 2780.dat
 
 
+0 STEP
 0 FILE 42083 - chassisfront5.ldr
 0 Front chassis section with long axles, driving ring joiners, a 20-tooth bevel gear, and bent beams contributing to steering and drive routing.
 0 Name: 42083 - chassisfront5.ldr
@@ -15559,6 +15581,7 @@
 1 4 -60 100 180 0 0 1 -1 0 0 0 -1 0 11214.dat
 
 
+0 STEP
 0 FILE 42083 - stepper.ldr
 0 Stepper mechanism with a 24-tooth gear, 4-knob gear, wheel rim, triangle liftarms, and bushes forming a sequential gear selector.
 0 Name: 42083 - stepper.ldr
@@ -15699,6 +15722,7 @@
 1 4 0 -68 60 0 1 0 -1 0 0 0 0 1 32062.dat
 
 
+0 STEP
 0 FILE 42083 - rubberBandRound-2.ldr
 0 Second round rubber band assembly modeled as 31 connected segments forming a shorter tension loop.
 0 Name: 42083 - rubberBandRound-2.ldr
@@ -16550,6 +16574,7 @@
 5 24 -4.18639 9.535722 1.414214 -3.617893 8.240804 2 -5.162078 9.316555 1.414214 -0.165069 10.432677 1.414214
 
 
+0 STEP
 0 FILE 42083 - rubberBandRound-3.ldr
 0 A flexible rubber band component modeled as a loop of 26 interconnected segments forming a closed round path.
 0 Name: 42083 - rubberBandRound-3.ldr
@@ -17270,6 +17295,7 @@
 5 24 8.243495 1.686353 1.414214 6.857975 1.40292 2 8.284085 2.685529 1.414214 8.060688 -2.526901 1.414214
 
 
+0 STEP
 0 FILE 42083 - chassisfront6.ldr
 0 A front chassis section built from an open-center Technic beam frame with gears, axles, and angled connectors for steering/drive linkages.
 0 Name: 42083 - chassisfront6.ldr
@@ -17333,6 +17359,7 @@
 1 0 140 0 50 1 0 0 0 -1 0 0 0 -1 59443.dat
 
 
+0 STEP
 0 FILE 42083 - chassisfront7.ldr
 0 A front chassis subassembly combining bent liftarms, a cross block, and a reinforced 8-tooth gear for angled drivetrain connections.
 0 Name: 42083 - chassisfront7.ldr
@@ -17393,6 +17420,7 @@
 1 1 40 -80 -40 0 -1 0 0 0 -1 1 0 0 15100.dat
 
 
+0 STEP
 0 FILE 42083 - chassisfront8.ldr
 0 A robust front chassis structure using paired long liftarms, cross blocks, and open-center beams joined by numerous friction pins.
 0 Name: 42083 - chassisfront8.ldr
@@ -17467,6 +17495,7 @@
 1 0 20 10 -20 0 1 0 -1 0 0 0 0 1 2780.dat
 
 
+0 STEP
 0 FILE 42083 - bottom1.ldr
 0 A lower body section consisting of long beams, side panels, and an H-shaped beam linked with friction pins to form the underfloor frame.
 0 Name: 42083 - bottom1.ldr
@@ -17530,6 +17559,7 @@
 1 1 100 0 -80 -1 0 0 0 0 -1 0 -1 0 15100.dat
 
 
+0 STEP
 0 FILE 42083 - bottomside1.ldr
 0 A lower side panel assembly combining a trapezium panel, a thin short fairing, and a cross block mounted on a beam 5.
 0 Name: 42083 - bottomside1.ldr
@@ -17560,6 +17590,7 @@
 1 1 -20 0 200 0 0 -1 0 1 0 1 0 0 6558.dat
 
 
+0 STEP
 0 FILE 42083 - bottom2.ldr
 0 A lower body section mirroring bottom1, built from long beams, side panels, and an H-shaped beam pinned together to form the underfloor frame.
 0 Name: 42083 - bottom2.ldr
@@ -17623,6 +17654,7 @@
 1 1 -100 0 -80 1 0 0 0 0 1 0 -1 0 15100.dat
 
 
+0 STEP
 0 FILE 42083 - bottomside2.ldr
 0 A lower side panel assembly mirroring bottomside1, with a trapezium panel, thin short fairing, and cross block mounted on a beam 5.
 0 Name: 42083 - bottomside2.ldr
@@ -17653,6 +17685,7 @@
 1 1 20 0 200 0 0 -1 0 1 0 1 0 0 6558.dat
 
 
+0 STEP
 0 FILE 42083 - technicflexSysHose-1.ldr
 0 A long flexible Technic hose modeled as 66 segments forming an approx 119 mm routed path using ribbed hose subparts.
 0 Name: 42083 - technicflexSysHose-1.ldr
@@ -21154,6 +21187,7 @@
 5 24 3.6956 -46.163948 -122.613159 3.6956 -47.017246 -122.890419 4 -45.690907 -124.069038 2.8284 -46.56493 -121.379074
 
 
+0 STEP
 0 FILE 42083 - chiron.ldr
 0 The main model: a large-scale Bugatti Chiron supercar combining extensive pin-connected Technic beams, bent liftarms, axles, and body panels forming the full chassis and body.
 0 Name: 42083 - chiron.ldr
@@ -22339,6 +22373,7 @@
 1 272 303.6 -40 320 0 -1 0 0 0 1 -1 0 0 42083 - 98138pt1.dat
 
 
+0 STEP
 0 FILE 42083 - fairingmotortop.ldr
 0 An upper motor/engine fairing assembly using dark blue panels and multiple smooth fairings attached via cross blocks and beams.
 0 Name: 42083 - fairingmotortop.ldr
@@ -22448,6 +22483,7 @@
 1 71 -140 0 20 0 -1 0 -1 0 0 0 0 -1 60484.dat
 
 
+0 STEP
 0 FILE 42083 - spoiler.ldr
 0 A rear wing spoiler assembly built from H-shaped and bent beams, axle joiners, and a dark blue panel forming an adjustable airfoil.
 0 Name: 42083 - spoiler.ldr
@@ -22549,6 +22585,7 @@
 1 272 0 -109.695 165.558 -1 0 0 0 0 -1 0 -1 0 15458.dat
 
 
+0 STEP
 0 FILE 42083 - fairingmotortop2.ldr
 0 A secondary upper engine fairing section with dark blue panels, long and short fairings, and liftarms joined by friction pins.
 0 Name: 42083 - fairingmotortop2.ldr
@@ -22647,6 +22684,7 @@
 1 0 -140 60 360 0 -1 0 0 0 1 -1 0 0 18654.dat
 
 
+0 STEP
 0 FILE 42083 - fairingmotortop3.ldr
 0 A compact upper engine fairing section using a dark blue panel, bent beams, and clip bars to form a smaller cover piece.
 0 Name: 42083 - fairingmotortop3.ldr
@@ -22696,6 +22734,7 @@
 1 0 0 -14 -44 -1 0 0 0 1 0 0 0 -1 48729b.dat
 
 
+0 STEP
 0 FILE 42083 - wheelarch1.ldr
 0 A left wheel arch assembly combining a mudguard arch panel, curved and short fairings, and dark blue liftarms to shape the fender.
 0 Name: 42083 - wheelarch1.ldr
@@ -22759,6 +22798,7 @@
 1 272 0 0 0 1 0 0 0 -1 0 0 0 -1 18944.dat
 
 
+0 STEP
 0 FILE 42083 - wheelarch2.ldr
 0 A right wheel arch assembly mirroring wheelarch1, with a mudguard arch panel, curved and short fairings, and dark blue liftarms.
 0 Name: 42083 - wheelarch2.ldr
@@ -22822,6 +22862,7 @@
 1 272 0 0 0 1 0 0 0 -1 0 0 0 -1 18944.dat
 
 
+0 STEP
 0 FILE 42083 - rearbottom.ldr
 0 A rear underbody section built from panels, smooth fairings, bent beams, and cross blocks pinned together to form the rear floor and diffuser area.
 0 Name: 42083 - rearbottom.ldr
@@ -22931,6 +22972,7 @@
 1 272 -160 20 20 -1 0 0 0 0 -1 0 -1 0 74695.dat
 
 
+0 STEP
 0 FILE 42083 - back1.ldr
 0 A rear body section featuring a large wing element, grille tiles, plates, and Technic beams forming the decklid and taillight area.
 0 Name: 42083 - back1.ldr
@@ -23025,6 +23067,7 @@
 1 71 10 -12 0 0 -1 0 1 0 0 0 0 1 4274.dat
 
 
+0 STEP
 0 FILE 42083 - back2.ldr
 0 A rear detail assembly combining a bent panel, a tooth element, short fairing, and cross block to form an exhaust or vent detail.
 0 Name: 42083 - back2.ldr
@@ -23068,6 +23111,7 @@
 1 1 40 20 -20 0 1 0 0 0 1 1 0 0 6558.dat
 
 
+0 STEP
 0 FILE 42083 - back3.ldr
 0 A rear body section mirroring back1, featuring a large wing element, grille tiles, plates, and Technic beams for the decklid and taillights.
 0 Name: 42083 - back3.ldr
@@ -23162,6 +23206,7 @@
 1 71 10 -12 0 0 -1 0 1 0 0 0 0 1 4274.dat
 
 
+0 STEP
 0 FILE 42083 - back4.ldr
 0 A rear detail assembly mirroring back2, with a bent panel, tooth element, short fairing, and cross block forming an exhaust or vent detail.
 0 Name: 42083 - back4.ldr
@@ -23205,6 +23250,7 @@
 1 1 40 20 20 0 1 0 0 0 -1 -1 0 0 6558.dat
 
 
+0 STEP
 0 FILE 42083 - back5.ldr
 0 A rear trim assembly using a long Technic brick with holes, a smooth panel, and paired short fairings to form the rear bumper fascia.
 0 Name: 42083 - back5.ldr
@@ -23235,6 +23281,7 @@
 1 0 -80 -40 50 0 0 -1 -1 0 0 0 1 0 87080.dat
 
 
+0 STEP
 0 FILE 42083 - back6.ldr
 0 A small rear detail assembly of curved slope bricks, tiles with clips, and grooved tiles forming a vent or light cluster trim.
 0 Name: 42083 - back6.ldr
@@ -23261,6 +23308,7 @@
 1 71 -150 0 16 0 0 -1 -1 0 0 0 1 0 4287a.dat
 
 
+0 STEP
 0 FILE 42083 - rigid3mmHose-1.ldr
 0 A rigid 3mm Technic hose modeled as 40 segments forming an approx 194 mm straight routed path with capped ends.
 0 Name: 42083 - rigid3mmHose-1.ldr
@@ -25441,6 +25489,7 @@
 5 24 1.8478 -183.616226 441.445129 1.846498 -182.311081 440.118591 2 -183.074997 441.986359 1.4142 -184.074997 440.986359
 
 
+0 STEP
 0 FILE 42083 - side1.ldr
 0 A side body panel assembly using wide medium fairings, long dark blue liftarms, and beams pinned together to form the door sill and side skirt.
 0 Name: 42083 - side1.ldr
@@ -25494,6 +25543,7 @@
 1 71 0 0 0 0 -0.244 -0.97 0 0.97 -0.244 1 0 0 32054.dat
 
 
+0 STEP
 0 FILE 42083 - side2.ldr
 0 Dark blue side panel assembly built with long liftarms and a smooth fairing panel.
 0 Name: 42083 - side2.ldr
@@ -25552,6 +25602,7 @@
 1 71 0 0 0 0 0.244 -0.97 0 0.97 0.244 1 0 0 32054.dat
 
 
+0 STEP
 0 FILE 42083 - seat1.ldr
 0 Driver seat structure using dark tan bent liftarms, cross blocks, and axle pins.
 0 Name: 42083 - seat1.ldr
@@ -25708,6 +25759,7 @@
 1 28 150 -250 2 0 0 -1 -1 0 0 0 1 0 3020.dat
 
 
+0 STEP
 0 FILE 42083 - seat2.ldr
 0 Passenger seat structure mirroring seat1 with dark tan bent liftarms and axle pins.
 0 Name: 42083 - seat2.ldr
@@ -25864,6 +25916,7 @@
 1 28 -150 -250 2 0 0 -1 -1 0 0 0 1 0 3020.dat
 
 
+0 STEP
 0 FILE 42083 - side3.ldr
 0 Dark azure side panel with a smooth fairing, angle connector, and beam framework.
 0 Name: 42083 - side3.ldr
@@ -25895,6 +25948,7 @@
 1 71 41.936 -20.971 60.051 0 -0.995 -0.104 -0.971 0.025 -0.237 0.239 0.101 -0.966 48729b.dat
 
 
+0 STEP
 0 FILE 42083 - side4.ldr
 0 Dark azure side panel assembly mirroring side3 with fairing panel and angle connector.
 0 Name: 42083 - side4.ldr
@@ -25926,6 +25980,7 @@
 1 71 -41 -20 60 0.012 0.995 0.102 0.971 0.012 -0.238 -0.238 0.102 -0.966 48729b.dat
 
 
+0 STEP
 0 FILE 42083 - technicFlexAxle-1.ldr
 0 Flexible Technic axle assembly with curved end fittings (LDCad generated).
 0 Name: 42083 - technicFlexAxle-1.ldr
@@ -27981,6 +28036,7 @@
 5 24 56.695316 -91.86274 -21.5308 53.048923 -91.86274 -21.5308 56.695316 -91.558334 -20 56.695316 -92.729935 -22.8284
 
 
+0 STEP
 0 FILE 42083 - technicFlexAxle-2.ldr
 0 Flexible Technic axle assembly mirroring technicFlexAxle-1 with curved end fittings.
 0 Name: 42083 - technicFlexAxle-2.ldr
@@ -30036,6 +30092,7 @@
 5 24 56.695316 99.253937 -21.5308 53.048923 99.253937 -21.5308 56.695316 99.558334 -20 56.695316 98.386734 -22.8284
 
 
+0 STEP
 0 FILE 42083 - chassisfront9.ldr
 0 Front chassis section using a large smooth panel with beam 15 and beam 11 support.
 0 Name: 42083 - chassisfront9.ldr
@@ -30068,6 +30125,7 @@
 1 72 52 -20 40 1 0 0 0 1 0 0 0 1 87083.dat
 
 
+0 STEP
 0 FILE 42083 - chassisfront10.ldr
 0 Front chassis bracket built from bent 90 liftarms and beam 9 connected by pins.
 0 Name: 42083 - chassisfront10.ldr
@@ -30100,6 +30158,7 @@
 1 1 -140 -140 -40 0 0 1 0 1 0 -1 0 0 6558.dat
 
 
+0 STEP
 0 FILE 42083 - chassisfront11.ldr
 0 Front chassis bracket mirroring chassisfront10 with bent liftarms and beam 9.
 0 Name: 42083 - chassisfront11.ldr
@@ -30133,6 +30192,7 @@
 1 0 100 -140 -30 0 1 0 0 0 -1 -1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 42083 - dashboard1.ldr
 0 Dashboard mounting frame using bent liftarms at 90 and 53.13 degree angles.
 0 Name: 42083 - dashboard1.ldr
@@ -30159,6 +30219,7 @@
 1 0 50 0 60 1 0 0 0 0 -1 0 1 0 2780.dat
 
 
+0 STEP
 0 FILE 42083 - dashboard2.ldr
 0 Dashboard cross-support of beam 5 segments joined with long pins.
 0 Name: 42083 - dashboard2.ldr
@@ -30189,6 +30250,7 @@
 1 0 20 32 -64 0 -1 0 -0.6 0 0.8 -0.8 0 -0.6 32316.dat
 
 
+0 STEP
 0 FILE 42083 - dashboard3.ldr
 0 Dashboard corner assembly combining bent liftarms joined by axle pins.
 0 Name: 42083 - dashboard3.ldr
@@ -30209,6 +30271,7 @@
 1 0 -50 0 60 1 0 0 0 0 -1 0 1 0 2780.dat
 
 
+0 STEP
 0 FILE 42083 - steeringsupport.ldr
 0 Steering column support using triangular liftarms and a cross block brace.
 0 Name: 42083 - steeringsupport.ldr
@@ -30245,6 +30308,7 @@
 1 71 40 -35 0 0 0 -1 0 -1 0 -1 0 0 32523.dat
 
 
+0 STEP
 0 FILE 42083 - steertop.ldr
 0 Top steering hub with rotor, brackets, curved slopes, and round tiles.
 0 Name: 42083 - steertop.ldr
@@ -30301,6 +30365,7 @@
 1 1 40 6 -20 0 1 0 1 0 0 0 0 -1 6558.dat
 
 
+0 STEP
 0 FILE 42083 - side5.ldr
 0 Black side strut with bent 45 liftarm and cross blocks for structural connection.
 0 Name: 42083 - side5.ldr
@@ -30333,6 +30398,7 @@
 1 0 -30 -100 -30 1 0 0 0 0 -1 0 1 0 2780.dat
 
 
+0 STEP
 0 FILE 42083 - side6.ldr
 0 Dark azure side panel assembly using a bent 90 beam and beam 7 frame.
 0 Name: 42083 - side6.ldr
@@ -30367,6 +30433,7 @@
 1 0 10 -40 -80 1 0 0 0 0 1 0 -1 0 2780.dat
 
 
+0 STEP
 0 FILE 42083 - side7.ldr
 0 Black side strut mirroring side5 with bent 45 liftarm and cross blocks.
 0 Name: 42083 - side7.ldr
@@ -30399,6 +30466,7 @@
 1 0 30 -100 -30 1 0 0 0 0 -1 0 1 0 2780.dat
 
 
+0 STEP
 0 FILE 42083 - side8.ldr
 0 Dark azure side panel mirroring side6 with bent 90 beam and beam 7 frame.
 0 Name: 42083 - side8.ldr
@@ -30433,6 +30501,7 @@
 1 0 -10 -40 -80 1 0 0 0 0 1 0 -1 0 2780.dat
 
 
+0 STEP
 0 FILE 42083 - door1.ldr
 0 Left door assembly with dark azure body panels, fairings, and bent liftarm hinges.
 0 Name: 42083 - door1.ldr
@@ -30532,6 +30601,7 @@
 1 0 0 0 0 0 -1 0 1 0 0 0 0 1 18651.dat
 
 
+0 STEP
 0 FILE 42083 - door2.ldr
 0 Right door assembly mirroring door1 with dark azure panels and fairing pieces.
 0 Name: 42083 - door2.ldr
@@ -30631,6 +30701,7 @@
 1 0 0 0 0 0 1 0 1 0 0 0 0 -1 18651.dat
 
 
+0 STEP
 0 FILE 42083 - front1.ldr
 0 Front end structure using beam 13 supports, bent liftarms, and T-joints.
 0 Name: 42083 - front1.ldr
@@ -30721,6 +30792,7 @@
 1 4 180 80 -20 0 0.8 0.6 0 -0.6 0.8 1 0 0 11214.dat
 
 
+0 STEP
 0 FILE 42083 - frontside1.ldr
 0 Front left side panel with a short fairing and dark blue liftarm connectors.
 0 Name: 42083 - frontside1.ldr
@@ -30764,6 +30836,7 @@
 1 71 80 40 0 0 1 0 0 0 -1 -1 0 0 32054.dat
 
 
+0 STEP
 0 FILE 42083 - frontside2.ldr
 0 Front right side panel mirroring frontside1 with short fairing and liftarms.
 0 Name: 42083 - frontside2.ldr
@@ -30807,6 +30880,7 @@
 1 71 -80 40 0 0 -1 0 0 0 1 -1 0 0 32054.dat
 
 
+0 STEP
 0 FILE 42083 - frontside3.ldr
 0 Front side structural bracket with bent 90 beam and long fairing panel.
 0 Name: 42083 - frontside3.ldr
@@ -30852,6 +30926,7 @@
 1 321 60 -100 20 0 1 0 -1 0 0 0 0 1 64681.dat
 
 
+0 STEP
 0 FILE 42083 - frontside4.ldr
 0 Dark azure technic beam and panel fairing front-side structural assembly with angled connectors.
 0 Name: 42083 - frontside4.ldr
@@ -30897,6 +30972,7 @@
 1 321 -60 -100 20 0 -1 0 1 0 0 0 0 1 64393.dat
 
 
+0 STEP
 0 FILE 42083 - front2.ldr
 0 Front fascia panel assembly with long black panels, beam frame, and angle connectors.
 0 Name: 42083 - front2.ldr
@@ -30971,6 +31047,7 @@
 1 71 40 0 250 0 0 1 -1 0 0 0 -1 0 76260.dat
 
 
+0 STEP
 0 FILE 42083 - front3.ldr
 0 Front fascia panel assembly with long black panels, beam frame, and angle connectors.
 0 Name: 42083 - front3.ldr
@@ -31045,6 +31122,7 @@
 1 71 -40 0 250 0 0 -1 1 0 0 0 -1 0 76260.dat
 
 
+0 STEP
 0 FILE 42083 - technicFlexAxle-3.ldr
 0 Flex axle routing approximately 142mm with 55 curved segments.
 0 Name: 42083 - technicFlexAxle-3.ldr
@@ -33984,6 +34062,7 @@
 5 24 112.70076 -317.683197 -1.5308 110.380524 -314.939819 -1.5308 112.933182 -317.486633 0 112.03862 -318.243195 -2.8284
 
 
+0 STEP
 0 FILE 42083 - grille.ldr
 0 Black grille assembly with technic brick rails and ten grille tiles.
 0 Name: 42083 - grille.ldr
@@ -34022,6 +34101,7 @@
 1 0 10 -8 70 -1 0 0 0 1 0 0 0 -1 2412b.dat
 
 
+0 STEP
 0 FILE 42083 - front4.ldr
 0 Front bodywork section with dark azure curved slopes, wings, and beam support structure.
 0 Name: 42083 - front4.ldr
@@ -34093,6 +34173,7 @@
 1 1 -40 20 0 1 0 0 0 0 -1 0 1 0 43093.dat
 
 
+0 STEP
 0 FILE 42083 - front5.ldr
 0 Front bodywork section with dark azure curved slopes, wings, and beam support structure.
 0 Name: 42083 - front5.ldr
@@ -34164,6 +34245,7 @@
 1 1 -40 -20 0 1 0 0 0 0 -1 0 1 0 43093.dat
 
 
+0 STEP
 0 FILE 42083 - headlight.ldr
 0 White headlight housing assembly with clear transparent lens plates.
 0 Name: 42083 - headlight.ldr
@@ -34194,6 +34276,7 @@
 1 47 -50 0 -40 1 0 0 0 0 1 0 -1 0 3024.dat
 
 
+0 STEP
 0 FILE 42083 - front6.ldr
 0 Dark azure front corner panel with tooth, beam frame, and angle connector supports.
 0 Name: 42083 - front6.ldr
@@ -34236,6 +34319,7 @@
 1 321 -7.232 -113.91 74.802 -0.747 0.146 -0.648 -0.131 0.924 0.36 0.652 0.354 -0.671 41669.dat
 
 
+0 STEP
 0 FILE 42083 - front7.ldr
 0 Dark azure front corner panel with tooth, beam frame, and angle connector supports.
 0 Name: 42083 - front7.ldr
@@ -34278,6 +34362,7 @@
 1 321 -7.232 113.91 74.802 0.747 0.146 -0.648 -0.131 -0.924 -0.36 -0.652 0.354 -0.671 41669.dat
 
 
+0 STEP
 0 FILE 42083 - grillemid.ldr
 0 Center grille assembly with open-center plate, grille tiles, and curved slope detail.
 0 Name: 42083 - grillemid.ldr
@@ -34332,6 +34417,7 @@
 1 0 0 -2 40 0 0 -1 1 0 0 0 -1 0 93273.dat
 
 
+0 STEP
 0 FILE 42083 - grillemidback.ldr
 0 Rear grille framework of dark azure angle connectors joined by axle joiner and pins.
 0 Name: 42083 - grillemidback.ldr
@@ -34365,6 +34451,7 @@
 1 4 0 -42.426 -42.426 1 0 0 0 0.707 0.707 0 -0.707 0.707 32062.dat
 
 
+0 STEP
 0 FILE 42083 - grillemidfront.ldr
 0 Front grille framework of angled light bluish grey connectors on a center beam.
 0 Name: 42083 - grillemidfront.ldr
@@ -34399,6 +34486,7 @@
 1 0 0 0 40 0 0 -1 1 0 0 0 -1 0 32316.dat
 
 
+0 STEP
 0 FILE 42083 - technicFlexAxle-4.ldr
 0 Flex axle routing approximately 124mm with 71 curved segments.
 0 Name: 42083 - technicFlexAxle-4.ldr
@@ -37883,6 +37971,7 @@
 5 24 3.6956 34.626045 82.063873 3.6956 31.8344 84.855515 4 33.543606 80.98143 2.8284 35.543587 82.981415
 
 
+0 STEP
 0 FILE 42083 - technicflexSysHose-2.ldr
 0 Flexible pneumatic system hose approximately 125mm with 71 segments.
 0 Name: 42083 - technicflexSysHose-2.ldr
@@ -41635,6 +41724,7 @@
 5 24 3.6956 34.626045 82.063873 3.6956 34.259357 82.430557 4 33.543606 80.98143 2.8284 35.543587 82.981415
 
 
+0 STEP
 0 FILE 42083 - technicFlexAxle-5.ldr
 0 Flex axle routing approximately 155mm with 47 curved segments.
 0 Name: 42083 - technicFlexAxle-5.ldr
@@ -44302,6 +44392,7 @@
 5 24 183.726242 -315.619934 -79.369942 180.897812 -313.619934 -77.369949 184.721344 -315.393555 -78.189034 182.624283 -316.339172 -80.209106
 
 
+0 STEP
 0 FILE 42083 - bonnet.ldr
 0 Dark azure bonnet assembly with wide panel fairings, beams, and towball mounts.
 0 Name: 42083 - bonnet.ldr
@@ -44396,6 +44487,7 @@
 1 0 160 0 0 1 0 0 0 -0.225 0.974 0 -0.974 -0.225 15100.dat
 
 
+0 STEP
 0 FILE 42083 - technicFlexAxle-6.ldr
 0 Flex axle routing approximately 155mm with 47 curved segments.
 0 Name: 42083 - technicFlexAxle-6.ldr
@@ -47063,6 +47155,7 @@
 5 24 180.590424 -322.018402 77.406212 177.761993 -320.018402 75.406212 181.327225 -322.319061 76.063553 180.224304 -321.236176 78.706177
 
 
+0 STEP
 0 FILE 42083 - windscreen1.ldr
 0 Dark blue windscreen frame with curved slope cutouts mounted on an axle and toggle joints.
 0 Name: 42083 - windscreen1.ldr
@@ -47101,6 +47194,7 @@
 1 272 20 10 102 -1 0 0 0 1 0 0 0 -1 29120.dat
 
 
+0 STEP
 0 FILE 42083 - windscreen2.ldr
 0 Dark blue windscreen frame with curved slope cutouts mounted on an axle and toggle joints.
 0 Name: 42083 - windscreen2.ldr
@@ -47139,6 +47233,7 @@
 1 272 -20 10 102 -1 0 0 0 1 0 0 0 -1 29119.dat
 
 
+0 STEP
 0 FILE 42083 - technicFlexAxle-7.ldr
 0 Flex axle routing approximately 99mm with 49 curved segments.
 0 Name: 42083 - technicFlexAxle-7.ldr
@@ -49874,6 +49969,7 @@
 5 24 125.083359 -180.701355 34.134224 121.583511 -180.057892 32.870998 124.623123 -180.356247 35.585117 125.369675 -181.593872 32.886333
 
 
+0 STEP
 0 FILE 42083 - technicFlexAxle-8.ldr
 0 Flex axle routing approximately 99mm with 49 curved segments.
 0 Name: 42083 - technicFlexAxle-8.ldr
@@ -52609,6 +52705,7 @@
 5 24 -123.823875 -187.981155 33.915554 -120.324028 -187.337708 32.652332 -123.259895 -188.235687 35.348438 -124.405739 -187.165421 32.718975
 
 
+0 STEP
 0 FILE 42083 - technicflexSysHose-3.ldr
 0 Long flexible pneumatic system hose approximately 312mm with 128 segments.
 0 Name: 42083 - technicflexSysHose-3.ldr
@@ -59533,6 +59630,7 @@
 5 24 154.190292 312.647614 -19.203922 154.704071 311.824463 -19.083261 152.990692 311.827057 -19.788063 155.075287 313.343475 -18.112875
 
 
+0 STEP
 0 FILE 42083 - technicflexSysHose-4.ldr
 0 Long flexible pneumatic system hose approximately 312mm with 127 segments.
 0 Name: 42083 - technicflexSysHose-4.ldr
@@ -66439,6 +66537,7 @@
 5 24 142.424728 261.514343 184.376373 142.697571 260.575043 184.516754 141.450485 261.066803 183.233444 142.887375 261.858948 185.833694
 
 
+0 STEP
 0 FILE 42083 - brake.ldr
 0 Dark bluish grey brake detail piece with curved slope and clip arm.
 0 Name: 42083 - brake.ldr
@@ -66454,6 +66553,7 @@
 1 72 -95 31 20 0 -1 0 0 0 -1 1 0 0 93273.dat
 
 
+0 STEP
 0 FILE 42083 - enginecover.ldr
 0 Engine cover assembly built from plates, slopes, and grille tiles in dark and light bluish grey with dark blue curved accents.
 0 Name: 42083 - enginecover.ldr
@@ -66561,6 +66661,7 @@
 1 72 70 -8 20 -1 0 0 0 1 0 0 0 -1 29119.dat
 
 
+0 STEP
 0 FILE 42083 - technicflexSysHose-5.ldr
 0 Flexible Technic system hose submodel generated by LDCad from multiple cylindrical segments forming a long routed hose.
 0 Name: 42083 - technicflexSysHose-5.ldr
@@ -68511,6 +68612,7 @@
 5 24 3.6956 -588.618958 55.585281 3.6956 -588.011353 55.464447 4 -588.322021 57.087002 2.8284 -588.870728 54.312336
 
 
+0 STEP
 0 FILE 42083 - startkey.ldr
 0 Starter key mechanism using Technic beams, pins, axles, plates, and curved slope tiles in light bluish grey.
 0 Name: 42083 - startkey.ldr
@@ -68564,6 +68666,7 @@
 1 71 -26 0 -10 0 1 0 0 0 -1 -1 0 0 6636.dat
 
 
+0 STEP
 0 FILE 42083 - bag.ldr
 0 Boxed bag-like structure of dark tan bricks, plates, and curved slopes forming a small container shape.
 0 Name: 42083 - bag.ldr
@@ -68611,6 +68714,7 @@
 1 28 -10 -32 -20 0 1 0 0 0 1 1 0 0 15068.dat
 
 
+0 STEP
 0 FILE 42083 - stringStudsLQ-1.ldr
 0 Studded string rope assembly generated by LDCad with a rope end and string segments forming a flexible cord.
 0 Name: 42083 - stringStudsLQ-1.ldr
@@ -68664,6 +68768,7 @@
 
 
 
+0 STEP
 0 FILE 42083 - stringStudsLQ-1_subPart1.ldr
 0 Subpart consisting of repeated cylindrical segments that compose the body of the studded string rope.
 0 Name: 42083 - stringStudsLQ-1_subPart1.ldr
@@ -68805,6 +68910,7 @@
 1 16 0.003014 -4.956806 -69.341937 1.499984 -0.018224 -0.00045 0 -0.261214 1.496779 -0.006869 -3.979635 -0.098243 4-4cyli.dat
 
 
+0 STEP
 0 FILE 42083 - 55615.dat
 0 Custom Technic part defined by cylinders, discs, rings, and connector holes forming a complex molded connector element.
 0 Name: 42083 - 55615.dat
@@ -69163,6 +69269,7 @@
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 8 2   R 6 16   S 8 2] [center=true] [slide=true]
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 8 2   R 6 16   S 8 2] [center=true] [slide=true]
 
+0 STEP
 0 FILE 42083 - 35185.dat
 0 Small Technic connector part built from a long connector hole, rings, and open cylinders.
 0 Name: 42083 - 35185.dat
@@ -69201,6 +69308,7 @@
 1 16 0 0 0 -1 0 0 0 1 0 0 0 1 s\42083 - 35185s01.dat
 1 16 0 0 0 0 -1 0 -1 0 0 0 0 1 s\42083 - 35185s01.dat
 
+0 STEP
 0 FILE 42083 - 35189.dat
 0 Complex Technic molded part composed of cones, cylinders, rings, and connector holes forming a contoured joint.
 0 Name: 42083 - 35189.dat
@@ -69648,6 +69756,7 @@
 5 24 5.3578 12.9346 8 4.5924 11.0868 11 8.4852 8.4852 11 -0.0001 14.0004 8
 5 24 8.4852 8.4852 11 9.4192 9.4192 9.0188 9.4695 10.1867 8 9.3887 8.9558 9.4512
 
+0 STEP
 0 FILE 42083 - 35186.dat
 0 Technic connector piece made of a long connector hole with rings, open cylinders, and a negative disc.
 0 Name: 42083 - 35186.dat
@@ -69693,6 +69802,7 @@
 1 16 0 0 0 0 1 0 -1 0 0 0 0 1 s\42083 - 35186s01.dat
 1 16 0 0 0 0.70711 0.70711 0 -0.70711 0.70711 0 0 0 1 s\42083 - 35186s01.dat
 
+0 STEP
 0 FILE 42083 - 35188.dat
 0 Minimal Technic part consisting of a single open axle hole on two opposite sides.
 0 Name: 42083 - 35188.dat
@@ -69729,6 +69839,7 @@
 5 24 0 24.6 10 0 24.6 4.996 -5.7405 23.4585 4.996 5.7405 23.4585 4.996
 5 24 -27.6 0 -1.5 -19.8333 0 -1.5 -14.0241 14.0241 3.5643 -18.6 -15.588 -5.397
 
+0 STEP
 0 FILE 42083 - ldcRubberBandRndSeg.dat
 0 LDCad rubber band segment placeholder used by the path deform generator for rubber band geometry.
 0 Name: 42083 - ldcRubberBandRndSeg.dat
@@ -69749,6 +69860,7 @@
 1 16 0 0 0 2 0 0 0 1 0 0 0 2 42083 - ldcConRing8.dat
 1 16 0 1 0 2 0 0 0 1 0 0 0 2 42083 - ldcConRing8.dat
 
+0 STEP
 0 FILE 42083 - 23801.dat
 0 Technic part composed of cylinders, rings, and connector holes forming a round connector or bushing element.
 0 Name: 42083 - 23801.dat
@@ -69847,6 +69959,7 @@
 0 // Technic Connector Hole One-Sided (main_colour)
 1 16 0 -20 0 -1 0 0 0 1 0 0 0 1 connhol3.dat
 
+0 STEP
 0 FILE 42083 - ldcTechFlexSysHoseSeg.dat
 0 LDCad flexible Technic system hose segment using a cylinder primitive for the hose path deform generator.
 0 Name: 42083 - ldcTechFlexSysHoseSeg.dat
@@ -69868,6 +69981,7 @@
 1 16 0 0 0 4 0 0 0 1 0 0 0 4 42083 - ldcConRing-4-4.dat
 1 16 0 1 0 4 0 0 0 1 0 0 0 4 42083 - ldcConRing-4-4.dat
 
+0 STEP
 0 FILE 42083 - 10197.dat
 0 Technic part combining axle-to-connector perpendicular joints, cylinders, and a long connector hole forming a linkage element.
 0 Name: 42083 - 10197.dat
@@ -69942,6 +70056,7 @@
 0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=A 6 20] [slide=true]
 0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=A 6 20] [slide=true]
 
+0 STEP
 0 FILE 42083 - 37383p01.dat
 0 Printed or patterned Technic part with no directly listed primitive pieces.
 0 Name: 42083 - 37383p01.dat
@@ -69961,6 +70076,7 @@
 1 80 0 0 0 1 0 0 0 1 0 0 0 1 s\42083 - 37383s01.dat
 1 80 0 0 0 -1 0 0 0 1 0 0 0 1 s\42083 - 37383s01.dat
 
+0 STEP
 0 FILE 42083 - 98138pt1.dat
 0 Small printed tile part defined by a single triangle-to-normal adapter ring for the printed surface.
 0 Name: 42083 - 98138pt1.dat
@@ -70047,6 +70163,7 @@
 4 80 -0.7 0 1.1 -2.2 0 1.1 -0.7 0 -1.1 1.8 0 -1.1
 3 80 1.8 0 1.1 -0.7 0 1.1 1.8 0 -1.1
 
+0 STEP
 0 FILE 42083 - 33299a.dat
 0 Technic connector element with reduced closed axle holes, peg holes, and rings forming a joint housing.
 0 Name: 42083 - 33299a.dat
@@ -70080,6 +70197,7 @@
 4 16 8 10 36.661999 9 10 35.661999 9 10 32 8 10 32
 4 16 -9 10 35.661999 -8 10 36.661999 -8 10 32 -9 10 32
 
+0 STEP
 0 FILE 42083 - ldcRigid3mmHoseCap.dat
 0 LDCad rigid 3mm hose end cap composed of cylinders, a ring, and a circle for the hose terminator.
 0 Name: 42083 - ldcRigid3mmHoseCap.dat
@@ -70110,6 +70228,7 @@
 0 //  It will also take care of segment overlapping control points
 1 16 0 1 0 4 0 0 0 1 0 0 0 4 42083 - ldcConRing-4-4.dat
 
+0 STEP
 0 FILE 42083 - ldcRigid3mmHoseSeg.dat
 0 LDCad rigid 3mm hose segment using a cylinder primitive as a single straight hose section.
 0 Name: 42083 - ldcRigid3mmHoseSeg.dat
@@ -70131,6 +70250,7 @@
 1 16 0 0 0 4 0 0 0 1 0 0 0 4 42083 - ldcConRing-4-4.dat
 1 16 0 1 0 4 0 0 0 1 0 0 0 4 42083 - ldcConRing-4-4.dat
 
+0 STEP
 0 FILE 42083 - ldcFlexAxleEndA.dat
 0 Flexible axle end variant A, currently a placeholder note with no modeled geometry.
 0 Name: 42083 - ldcFlexAxleEndA.dat
@@ -70148,6 +70268,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 42083 - ldcFlexAxleEndB.dat
 0 Flexible axle end variant B with a single cylinder primitive forming a minimal axle terminator.
 0 Name: 42083 - ldcFlexAxleEndB.dat
@@ -70166,6 +70287,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 42083 - ldcFlexAxleEndC.dat
 0 Flexible axle end variant C, currently a placeholder note with no modeled geometry.
 0 Name: 42083 - ldcFlexAxleEndC.dat
@@ -70183,6 +70305,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 42083 - ldcFlexAxleEndD.dat
 0 Flexible axle end variant D, currently a placeholder note with no modeled geometry.
 0 Name: 42083 - ldcFlexAxleEndD.dat
@@ -70200,6 +70323,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 42083 - ldcFlexAxleEndE.dat
 0 Flexible axle end variant E, currently a placeholder note with no modeled geometry.
 0 Name: 42083 - ldcFlexAxleEndE.dat
@@ -70217,6 +70341,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 42083 - ldcFlexAxleEndF.dat
 0 ldcFlexAxleEndF
 0 Name: 42083 - ldcFlexAxleEndF.dat
@@ -70234,6 +70359,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 42083 - ldcFlexAxleEndG.dat
 0 ldcFlexAxleEndG
 0 Name: 42083 - ldcFlexAxleEndG.dat
@@ -70251,6 +70377,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 42083 - ldcFlexAxleMid.dat
 0 ldcFlexAxleMid
 0 Name: 42083 - ldcFlexAxleMid.dat
@@ -70269,6 +70396,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 42083 - ldcLQRopeSeg.dat
 0 ldcLQRopeSeg
 0 Name: 42083 - ldcLQRopeSeg.dat
@@ -70283,6 +70411,7 @@
 0 // Cylinder 1.0 (main_colour)
 1 16 0 0 0 1.5 0 0 0 1 0 0 0 1.5 4-4cyli.dat
 
+0 STEP
 0 FILE 42083 - ldcRopeEnd.dat
 0 ldcRopeEnd
 0 Name: 42083 - ldcRopeEnd.dat
@@ -70297,6 +70426,7 @@
 0 // Cylinder 1.0 (main_colour)
 1 16 0 0 0 1.5 0 0 0 4 0 0 0 1.5 4-4cyli.dat
 
+0 STEP
 0 FILE s\42083 - 32269s01.dat
 0 32269s01
 0 Name: s\42083 - 32269s01.dat
@@ -70386,6 +70516,7 @@
 3 16 18.258699 2.4034 -10 17.789101 4.7663 -10 19.3403 4.9066 -10
 3 16 15.3375 12.7626 -10 14.6121 11.2123 -10 13.0227 13.0227 -10
 
+0 STEP
 0 FILE s\42083 - 35185s01.dat
 0 35185s01
 0 Name: s\42083 - 35185s01.dat
@@ -70429,6 +70560,7 @@
 2 24 0.457 12.3917 -2 1.7915 16.881901 -2
 4 16 0 17 -9.8 1.0915 16.928101 -9.8 0 13.222 -9.8 -1.0915 16.928101 -9.8
 
+0 STEP
 0 FILE s\42083 - 35189s01.dat
 0 35189s01
 0 Name: s\42083 - 35189s01.dat
@@ -70617,6 +70749,7 @@
 3 16 18.7201 -25.7575 -2 32.187302 -18.5833 -2 6 -14 -2
 5 24 5.6568 -25.656799 -2 5.6568 -25.656799 0 6.5461 -24.4305 0 3.0616 -27.391199 0
 
+0 STEP
 0 FILE 42083 - 2-4con3.dat
 0 2-4con3
 0 Name: 42083 - 2-4con3.dat
@@ -70649,6 +70782,7 @@
 5 24 -3 1 0 -4 0 0 -2.7717 1 1.1481 -3 1 -1.2426
 0 // Build by LDPartEditor (PrimGen 2.X)
 
+0 STEP
 0 FILE 48\42083 - 1-8ring12.dat
 0 1-8ring12
 0 Name: 48\42083 - 1-8ring12.dat
@@ -70666,6 +70800,7 @@
 4 16 10.3142 0 7.9144 9.1923 0 9.1923 8.4852 0 8.4852 9.5208 0 7.3056
 0 // Build by LDPartEditor (PrimGen 2.X)
 
+0 STEP
 0 FILE 42083 - 1-8con6.dat
 0 1-8con6
 0 Name: 42083 - 1-8con6.dat
@@ -70683,6 +70818,7 @@
 5 24 4.2426 1 4.2426 4.9497 0 4.9497 5.5434 1 2.2962 2.4852 1 6
 0 // Build by LDPartEditor (PrimGen 2.X)
 
+0 STEP
 0 FILE 42083 - 3-16con6.dat
 0 3-16con6
 0 Name: 42083 - 3-16con6.dat
@@ -70702,6 +70838,7 @@
 5 24 2.2962 1 5.5434 2.6789 0 6.4673 4.2426 1 4.2426 0 1 6.4944
 0 // Build by LDPartEditor (PrimGen 2.X)
 
+0 STEP
 0 FILE s\42083 - 35186s01.dat
 0 35186s01
 0 Name: s\42083 - 35186s01.dat
@@ -70750,6 +70887,7 @@
 5 24 -1.5 -13.5 -16 -1.5 -11.5767 -16 -1.5 -11.5767 -10 0 -11.875 -18
 5 24 1.5 -13.5 -16 -1.5 -13.5 -16 0 -11.875 -18 -1.5 -13.4998 -10
 
+0 STEP
 0 FILE s\42083 - 35188s01.dat
 0 35188s01
 0 Name: s\42083 - 35188s01.dat
@@ -71102,6 +71240,7 @@
 5 24 1.9604 27.4708 11.5653 2.5085 26.872 13.009 0 27.6 11.9669 4.6161 26.583099 11.5385
 5 24 7.6501 25.8295 7.6333 8.7059 24.5541 7.8644 5.9463 26.337 9.5499 9 25.188 6.7072
 
+0 STEP
 0 FILE 48\42083 - 1-16ring6.dat
 0 1-16ring6
 0 Name: 48\42083 - 1-16ring6.dat
@@ -71118,6 +71257,7 @@
 4 16 5.9484 0 0.783 6.9398 0 0.9135 6.7613 0 1.8116 5.7954 0 1.5528
 4 16 5.7954 0 1.5528 6.7613 0 1.8116 6.4673 0 2.6789 5.5434 0 2.2962
 
+0 STEP
 0 FILE 48\42083 - 1-6ring6.dat
 0 1-6ring6
 0 Name: 48\42083 - 1-6ring6.dat
@@ -71137,6 +71277,7 @@
 4 16 4.2616 0 5.5538 3.5 0 6.062 3 0 5.196 3.6528 0 4.7604
 0 // Build by Primitive Generator 2
 
+0 STEP
 0 FILE 42083 - ldcCyli8.dat
 0 ldcCyli8
 0 Name: 42083 - ldcCyli8.dat
@@ -71166,6 +71307,7 @@
 5 24 -1 0 0 -1 1 0 -0.707107 0 -0.707107 -0.707107 0 0.707107
 5 24 -0.707107 0 0.707107 -0.707107 1 0.707107 -1 0 0 0 0 1
 
+0 STEP
 0 FILE 42083 - ldcConRing8.dat
 0 ldcConRing8
 0 Name: 42083 - ldcConRing8.dat
@@ -71189,6 +71331,7 @@
 5 24 -1 0 0 -0.707107 0 0.707107 -1 -1 0 -1 1 0
 5 24 -0.707107 0 0.707107 0 0 1 -0.707107 -1 0.707107 -0.707107 1 0.707107
 
+0 STEP
 0 FILE 42083 - npeghol3.dat
 0 npeghol3
 0 Name: 42083 - npeghol3.dat
@@ -71234,6 +71377,7 @@
 0 // Box with  2 Faces without  7 Edges (main_colour)
 1 16 2.7222 0.5 -3.041 0 -0.72215 0 0.5 0 0 0 0.14395 1.5 box2-7.dat
 
+0 STEP
 0 FILE s\42083 - 23801s01.dat
 0 23801s01
 0 Name: s\42083 - 23801s01.dat
@@ -71720,6 +71864,7 @@
 3 16 9.6 -13.4026 -3.4442 8.3149 -14.2614 -3.4442 6.42908 -15.5212 -6.3
 5 24 6.42908 -15.5212 -15 6.42908 -15.5212 -6.3 9.5671 -13.4246 -15 -0.000136 -16.800446 -15
 
+0 STEP
 0 FILE s\42083 - 57515s01.dat
 0 57515s01
 0 Name: s\42083 - 57515s01.dat
@@ -71946,6 +72091,7 @@
 
 0 !LDCAD SNAP_GEN [gender=F] [bounding=sph 8] [match=size] [placement=free]
 
+0 STEP
 0 FILE 42083 - ldcConRing-4-4.dat
 0 ldcConRing-4-4
 0 Name: 42083 - ldcConRing-4-4.dat
@@ -71977,6 +72123,7 @@
 5 24 0.7071 0 -0.7071 0.9239 0 -0.3827 0.7071 -1 -0.7071 0.7071 1 -0.7071
 5 24 0.9239 0 -0.3827 1 0 0 0.9239 -1 -0.3827 0.9239 1 -0.3827
 
+0 STEP
 0 FILE s\42083 - 33299s01.dat
 0 33299s01
 0 Name: s\42083 - 33299s01.dat
@@ -72247,6 +72394,7 @@
 5 24 -4.9498 0 35.050098 -4.9498 10 35.050098 -6 0 36.661999 -2.6788 0 33.5327
 5 24 4.9497 10 35.050301 4.9498 0 35.050201 6 0 36.661999 2.6788 10 33.5327
 
+0 STEP
 0 FILE s\42083 - faxle1.dat
 0 faxle1
 0 Name: s\42083 - faxle1.dat
@@ -72281,6 +72429,7 @@
 0 // Technic Axle Perimeter (main_colour)
 1 16 0.4 0 0 0 -0.4 0 -1 0 0 0 0 1 axlehol8.dat
 
+0 STEP
 0 FILE s\42083 - faxle2.dat
 0 faxle2
 0 Name: s\42083 - faxle2.dat
@@ -72309,6 +72458,7 @@
 0 // Cylinder 1.0 (main_colour)
 1 16 0 0 0 0 0.8 0 6 0 0 0 0 6 4-4cyli.dat
 
+0 STEP
 0 FILE s\42083 - faxle3.dat
 0 A 3-stud Technic axle primitive built from cylinder and axle perimeter surfaces.
 0 Name: s\42083 - faxle3.dat
@@ -72337,6 +72487,7 @@
 0 // Technic Axle Perimeter (main_colour)
 1 16 1.2 0 0 0 -1.2 0 -1 0 0 0 0 1 axlehol8.dat
 
+0 STEP
 0 FILE s\42083 - faxle4.dat
 0 A 4-stud Technic axle primitive built from cylinder and axle perimeter surfaces.
 0 Name: s\42083 - faxle4.dat
@@ -72365,6 +72516,7 @@
 0 // Cylinder 1.0 (main_colour)
 1 16 0 0 0 0 1.6 0 6 0 0 0 0 6 4-4cyli.dat
 
+0 STEP
 0 FILE s\42083 - faxle5.dat
 0 A 5-stud Technic axle primitive built from cylinder and axle perimeter surfaces.
 0 Name: s\42083 - faxle5.dat
@@ -72393,6 +72545,7 @@
 0 // Technic Axle Perimeter (main_colour)
 1 16 2 0 0 0 -2 0 -1 0 0 0 0 1 axlehol8.dat
 
+0 STEP
 0 FILE 42083 - axleconnect.dat
 0 An axle connector assembly formed from sloped cylinders, chords, and circular caps.
 0 Name: 42083 - axleconnect.dat
@@ -72424,6 +72577,7 @@
 0 // Circle 0.25 (main_colour)
 1 16 0 0 0 0 0 9 -9 -1 0 -9 0 0 1-4edge.dat
 
+0 STEP
 0 FILE s\42083 - 37383s00.dat
 0 A disc base with three Technic pin collars and boxed mounting faces.
 0 Name: s\42083 - 37383s00.dat
@@ -72492,6 +72646,7 @@
 0 // Box with 3 Faces without 2 Parallel Edges (main_colour)
 1 16 74.0011 0 26.4 0 3.6989 0 0 0 -1.5 39 0 0 box3u2p.dat
 
+0 STEP
 0 FILE s\42083 - 37383s02.dat
 0 A tapered conical element made of stacked cones and circles with rectangular support ribs.
 0 Name: s\42083 - 37383s02.dat
@@ -72701,6 +72856,7 @@
 5 24 0 30 -4 0 32 -27 -2.2599 31.851101 -27 3.915 29.742001 -4
 5 24 0 10.2 -5.9 0 10.2 -5.6 3.1518 9.7012 -5.9 -3.1518 9.7012 -5.6
 
+0 STEP
 0 FILE 42083 - 5-16con2.dat
 0 A primitive-generated partial cone with conditional lines.
 0 Name: 42083 - 5-16con2.dat
@@ -72724,6 +72880,7 @@
 5 24 -0.7654 1 1.8478 -1.1481 0 2.7717 0 1 2 -1.5308 1 1.5308
 0 // Build by Primitive Generator 2
 
+0 STEP
 0 FILE s\42083 - 37383s01.dat
 0 A set of nested negative disc cutouts at three radii used to hollow out a conical section.
 0 Name: s\42083 - 37383s01.dat

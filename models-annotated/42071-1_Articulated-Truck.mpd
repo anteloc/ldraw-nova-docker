@@ -14,6 +14,7 @@
 
 
 
+0 STEP
 0 FILE 42071 - Articulated_Truck.ldr
 0 Core chassis assembly with four spiked wheels, sprockets, beams, gears, and axle joiners forming the articulated truck's main frame.
 0 Name: 42071 - Articulated_Truck.ldr
@@ -112,6 +113,7 @@
 
 
 
+0 STEP
 0 FILE 42071 - Axle_Pin_With_1-2Bush_Right.ldr
 0 Axle pin fitted with a half bushing for the right-side connection.
 0 Name: 42071 - Axle_Pin_With_1-2Bush_Right.ldr
@@ -128,6 +130,7 @@
 
 
 
+0 STEP
 0 FILE 42071 - Rear_Axle-Right.ldr
 0 Right rear axle assembly using a cross block with pins, an orange beam, and a stopped axle.
 0 Name: 42071 - Rear_Axle-Right.ldr
@@ -147,6 +150,7 @@
 
 
 
+0 STEP
 0 FILE 42071 - Beam_4x4_Liftarm_Bent_with_Axle.ldr
 0 Bent 4x4 liftarm paired with a 5-stud axle for angular structural support.
 0 Name: 42071 - Beam_4x4_Liftarm_Bent_with_Axle.ldr
@@ -163,6 +167,7 @@
 
 
 
+0 STEP
 0 FILE 42071 - Turntable.ldr
 0 28-tooth turntable consisting of a top and bottom ring enabling rotational articulation.
 0 Name: 42071 - Turntable.ldr
@@ -179,6 +184,7 @@
 
 
 
+0 STEP
 0 FILE 42071 - Articulated_steering_front_connector.ldr
 0 Front steering connector using a blue beam, long pins, and a perpendicular pin for linking the articulation joint.
 0 Name: 42071 - Articulated_steering_front_connector.ldr
@@ -204,6 +210,7 @@
 
 
 
+0 STEP
 0 FILE 42071 - Connector_with_Axle_Pin_and-Axle.ldr
 0 Cross block connector combining an axle pin and short axle for drivetrain linkage.
 0 Name: 42071 - Connector_with_Axle_Pin_and-Axle.ldr
@@ -222,6 +229,7 @@
 
 
 
+0 STEP
 0 FILE 42071 - Articulated_steering_Gear_Connector.ldr
 0 Steering gear connector using an angle connector, stopped axles, and a 20-tooth bevel gear for the articulation mechanism.
 0 Name: 42071 - Articulated_steering_Gear_Connector.ldr
@@ -245,6 +253,7 @@
 
 
 
+0 STEP
 0 FILE 42071 - Axle5L-with-Gear12T.ldr
 0 5-stud axle fitted with a 12-tooth double bevel gear for power transmission.
 0 Name: 42071 - Axle5L-with-Gear12T.ldr
@@ -261,6 +270,7 @@
 
 
 
+0 STEP
 0 FILE 42071 - Tipping-actuation.ldr
 0 Tipping mechanism using a worm gear, bevel gear, cross blocks, axle joiners, and bushes to drive the tipper bed.
 0 Name: 42071 - Tipping-actuation.ldr
@@ -306,6 +316,7 @@
 
 
 
+0 STEP
 0 FILE 42071 - Rear_Axle-Left.ldr
 0 Left rear axle assembly using a cross block with pins, an orange beam, and a stopped axle.
 0 Name: 42071 - Rear_Axle-Left.ldr
@@ -325,6 +336,7 @@
 
 
 
+0 STEP
 0 FILE 42071 - Beam5L_With_2Pins.ldr
 0 5-stud beam fitted with two friction pins for structural connection.
 0 Name: 42071 - Beam5L_With_2Pins.ldr
@@ -343,6 +355,7 @@
 
 
 
+0 STEP
 0 FILE 42071 - LongAxlePin-With-Bushes.ldr
 0 Long axle pin assembly with a flanged bush and two half bushes for spacing and retention.
 0 Name: 42071 - LongAxlePin-With-Bushes.ldr
@@ -363,6 +376,7 @@
 
 
 
+0 STEP
 0 FILE 42071 - Axle_Pin_With_1-2Bush_Left.ldr
 0 Axle pin fitted with a half bushing for the left-side connection.
 0 Name: 42071 - Axle_Pin_With_1-2Bush_Left.ldr
@@ -379,6 +393,7 @@
 
 
 
+0 STEP
 0 FILE 42071 - Tipper-Platform.ldr
 0 Tipping platform built from a 5x11 panel, bent liftarms, and friction pins forming the cargo bed.
 0 Name: 42071 - Tipper-Platform.ldr
@@ -410,6 +425,7 @@
 
 
 
+0 STEP
 0 FILE 42071 - Tipping-Platform-Front-Connetor.ldr
 0 Front connector for the tipping platform using an orange beam, axle pins, and a cross block for pivot mounting.
 0 Name: 42071 - Tipping-Platform-Front-Connetor.ldr
@@ -434,6 +450,7 @@
 
 
 
+0 STEP
 0 FILE 42071 - Tipping-Platform-Front-Connector2.ldr
 0 Secondary front tipping connector using a 7-stud axle, half bushes, and an orange beam for the pivot axle.
 0 Name: 42071 - Tipping-Platform-Front-Connector2.ldr
@@ -459,6 +476,7 @@
 
 
 
+0 STEP
 0 FILE 42071 - Connector-WithAxleLongPin.ldr
 0 Cross block connector with a long axle friction pin for extended linkage.
 0 Name: 42071 - Connector-WithAxleLongPin.ldr
@@ -475,6 +493,7 @@
 
 
 
+0 STEP
 0 FILE 42071 - Beam_4x4_Liftarm_Bent_with_Sticker.ldr
 0 Decorated bent 4x4 liftarm carrying an applied sticker detail.
 0 Name: 42071 - Beam_4x4_Liftarm_Bent_with_Sticker.ldr
@@ -489,6 +508,7 @@
 
 
 
+0 STEP
 0 FILE 42071 - FrontConnector.ldr
 0 Front connector assembly combining a split cross block, beams, clips, and axle connectors for the cab linkage.
 0 Name: 42071 - FrontConnector.ldr
@@ -529,6 +549,7 @@
 
 
 
+0 STEP
 0 FILE 42071 - Axle7L-with-Beams.ldr
 0 7-stud axle fitted with small liftarms and a pin for structural support.
 0 Name: 42071 - Axle7L-with-Beams.ldr
@@ -551,6 +572,7 @@
 
 
 
+0 STEP
 0 FILE 42071 - Triangle-Connection-Left.ldr
 0 Left triangle connection using two triangular liftarms joined by an axle pin and friction pin.
 0 Name: 42071 - Triangle-Connection-Left.ldr
@@ -573,6 +595,7 @@
 
 
 
+0 STEP
 0 FILE 42071 - Seat-Module.ldr
 0 Driver seat module built from a bent panel, beams, cross block, and axle forming the cab seating.
 0 Name: 42071 - Seat-Module.ldr
@@ -623,6 +646,7 @@
 
 
 
+0 STEP
 0 FILE 42071 - Seat-Module-Left-Beam.ldr
 0 Left seat beam assembly using a bent liftarm, grille tile, half pins, and a cross block for mounting the seat side.
 0 Name: 42071 - Seat-Module-Left-Beam.ldr
@@ -650,6 +674,7 @@
 
 
 
+0 STEP
 0 FILE 42071 - Seat-Module-Right-Beam.ldr
 0 Right-side seat support beam built from a bent blue liftarm secured with pins and a cross block connector.
 0 Name: 42071 - Seat-Module-Right-Beam.ldr
@@ -677,6 +702,7 @@
 
 
 
+0 STEP
 0 FILE 42071 - Seat-Module-Steering-Wheel.ldr
 0 Steering wheel assembly mounted on an axle using cross blocks, half-pins, and blue clip tiles for attachment.
 0 Name: 42071 - Seat-Module-Steering-Wheel.ldr
@@ -711,6 +737,7 @@
 
 
 
+0 STEP
 0 FILE 42071 - Front-Light-Left.ldr
 0 Left front light unit consisting of a clear round plate lens held in a triple-pin cross block mounted with friction pins.
 0 Name: 42071 - Front-Light-Left.ldr
@@ -732,6 +759,7 @@
 
 
 
+0 STEP
 0 FILE 42071 - Panel-Front-Right.ldr
 0 Right front body panel formed by a smooth blue fairing panel attached to a notched red axle.
 0 Name: 42071 - Panel-Front-Right.ldr
@@ -750,6 +778,7 @@
 
 
 
+0 STEP
 0 FILE 42071 - Panel-Front-Left.ldr
 0 Left front body panel formed by a smooth blue fairing panel attached to a notched red axle.
 0 Name: 42071 - Panel-Front-Left.ldr
@@ -768,6 +797,7 @@
 
 
 
+0 STEP
 0 FILE 42071 - Cabin.ldr
 0 Cabin structure featuring a black roll-cage windscreen with a trans-orange round plate detail.
 0 Name: 42071 - Cabin.ldr
@@ -789,6 +819,7 @@
 
 
 
+0 STEP
 0 FILE 42071 - 16091.dat
 0 Large reinforced steering wheel formed from a main body and three rectangular spoke inserts.
 0 Name: 42071 - 16091.dat

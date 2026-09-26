@@ -609,6 +609,7 @@
 1 0 410 -16 -130 0 0 1 0 1 0 -1 0 0 21018 - 24.ldr
 
 
+0 STEP
 0 FILE 21018 - 1.ldr
 0 A small white architectural detail composed of a plate, headlight bricks, and trans-light-blue window tiles.
 0 Name: 21018 - 1.ldr
@@ -632,6 +633,7 @@
 1 15 20 -18 22 1 0 0 0 1 0 0 0 1 4070.dat
 
 
+0 STEP
 0 FILE 21018 - 2.ldr
 0 A tiny stack of trans-light-blue and white 1x1 plates forming a small window or accent piece.
 0 Name: 21018 - 2.ldr
@@ -651,6 +653,7 @@
 1 43 0 -24 0 1 0 0 0 1 0 0 0 1 3024.dat
 
 
+0 STEP
 0 FILE 21018 - 3.ldr
 0 A small white wall section built from headlight bricks and a connecting plate.
 0 Name: 21018 - 3.ldr
@@ -668,6 +671,7 @@
 1 15 10 10 -24 1 0 0 0 0 -1 0 1 0 3023.dat
 
 
+0 STEP
 0 FILE 21018 - 4.ldr
 0 A small wall corner using white headlight bricks mounted on a black plate.
 0 Name: 21018 - 4.ldr
@@ -685,6 +689,7 @@
 1 0 10 10 -14 1 0 0 0 0 -1 0 1 0 3023.dat
 
 
+0 STEP
 0 FILE 21018 - 5.ldr
 0 A white corner or ledge assembly using a downward bracket, a 2x2 plate, and a smooth tiled top.
 0 Name: 21018 - 5.ldr
@@ -702,6 +707,7 @@
 1 15 20 28 -50 0 -1 0 0 0 -1 1 0 0 3068b.dat
 
 
+0 STEP
 0 FILE 21018 - 6.ldr
 0 A white ledge assembly with a downward bracket, grooved centre-stud plates, and smooth tiles.
 0 Name: 21018 - 6.ldr
@@ -723,6 +729,7 @@
 1 15 30 20 -20 0 -1 0 1 0 0 0 0 1 3069b.dat
 
 
+0 STEP
 0 FILE 21018 - 7.ldr
 0 A small white facade section with side-stud plates, a rounded panel, and trans-light-blue window glazing.
 0 Name: 21018 - 7.ldr
@@ -752,6 +759,7 @@
 1 15 -10 -48 10 0 0 1 0 1 0 -1 0 0 30413.dat
 
 
+0 STEP
 0 FILE 21018 - 8.ldr
 0 A white wall section with side-stud plates, smooth tiled surfaces, and trans-light-blue window tiles.
 0 Name: 21018 - 8.ldr
@@ -779,6 +787,7 @@
 1 43 50 -24 10 1 0 0 0 1 0 0 0 1 3069b.dat
 
 
+0 STEP
 0 FILE 21018 - 9.ldr
 0 A compact white wall corner featuring a rounded panel and a trans-light-blue window tile.
 0 Name: 21018 - 9.ldr
@@ -796,6 +805,7 @@
 1 15 0 -24 10 -1 0 0 0 1 0 0 0 -1 4865b.dat
 
 
+0 STEP
 0 FILE 21018 - 10.ldr
 0 A single white 2x2 plate used as a small base or spacer.
 0 Name: 21018 - 10.ldr
@@ -810,6 +820,7 @@
 1 0 0 -8 0 1 0 0 0 1 0 0 0 1 21018 - 9.ldr
 
 
+0 STEP
 0 FILE 21018 - 11.ldr
 0 A single white 2x2 plate used as a small base or spacer.
 0 Name: 21018 - 11.ldr
@@ -824,6 +835,7 @@
 1 0 0 -8 0 1 0 0 0 1 0 0 0 1 21018 - 10.ldr
 
 
+0 STEP
 0 FILE 21018 - 12.ldr
 0 A white-and-medium-blue window unit with trans-light-blue glazing and smooth tiles.
 0 Name: 21018 - 12.ldr
@@ -845,6 +857,7 @@
 1 43 10 -16 0 0 0 1 0 1 0 -1 0 0 3069b.dat
 
 
+0 STEP
 0 FILE 21018 - 13.ldr
 0 A small white window assembly framed with trans-light-blue plates and a grooved tile.
 0 Name: 21018 - 13.ldr
@@ -868,6 +881,7 @@
 1 15 50 0 0 1 0 0 0 1 0 0 0 1 3024.dat
 
 
+0 STEP
 0 FILE 21018 - 14.ldr
 0 A strip of five trans-light-blue 1x2 plates forming a transparent window or glass element.
 0 Name: 21018 - 14.ldr
@@ -889,6 +903,7 @@
 1 43 0 -32 0 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 21018 - 15.ldr
 0 A pair of 1x1 plates in black and white forming a small color detail.
 0 Name: 21018 - 15.ldr
@@ -904,6 +919,7 @@
 1 15 0 -8 0 1 0 0 0 1 0 0 0 1 3024.dat
 
 
+0 STEP
 0 FILE 21018 - 16.ldr
 0 A white wall section with a row of grille bricks between smooth tiles, forming a window or vent detail.
 0 Name: 21018 - 16.ldr
@@ -931,6 +947,7 @@
 1 15 0 -56 0 -1 0 0 0 1 0 0 0 -1 6636.dat
 
 
+0 STEP
 0 FILE 21018 - 17.ldr
 0 A white window assembly combining six trans-light-blue plates with a smooth 2x2 tile.
 0 Name: 21018 - 17.ldr
@@ -956,6 +973,7 @@
 1 15 0 -24 -10 1 0 0 0 1 0 0 0 1 3068b.dat
 
 
+0 STEP
 0 FILE 21018 - 18.ldr
 0 A small white-and-black wall corner built from a 1x2 brick and matching plates.
 0 Name: 21018 - 18.ldr
@@ -973,6 +991,7 @@
 1 15 0 -32 0 1 0 0 0 1 0 0 0 1 3004.dat
 
 
+0 STEP
 0 FILE 21018 - 19.ldr
 0 A strip of three trans-light-blue 1x2 plates forming a short transparent window element.
 0 Name: 21018 - 19.ldr
@@ -990,6 +1009,7 @@
 1 43 0 -16 0 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 21018 - 20.ldr
 0 A white corner assembly with corner plates, a rounded panel, a grooved tile, and trans-light-blue accents.
 0 Name: 21018 - 20.ldr
@@ -1013,6 +1033,7 @@
 1 43 20 0 -20 1 0 0 0 1 0 0 0 1 3024.dat
 
 
+0 STEP
 0 FILE 21018 - 21.ldr
 0 A larger light-bluish-grey structural frame with brackets, medium-blue plates, white tiles, and trans-light-blue window elements forming a building section.
 0 Name: 21018 - 21.ldr
@@ -1066,6 +1087,7 @@
 1 15 0 -32 92 0 0 -1 1 0 0 0 -1 0 87079.dat
 
 
+0 STEP
 0 FILE 21018 - 21 - 1.ldr
 0 A medium-blue plate base fitted with four trans-light-blue window plates.
 0 Name: 21018 - 21 - 1.ldr
@@ -1087,6 +1109,7 @@
 1 43 10 -8 -20 0 0 -1 0 1 0 1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 21018 - 22.ldr
 0 A substantial light-bluish-grey structural frame with brackets and many trans-light-blue and medium-blue plates forming a tall building facade section.
 0 Name: 21018 - 22.ldr
@@ -1162,6 +1185,7 @@
 1 0 0 -64 70 1 0 0 0 -1 0 0 0 -1 21018 - 22 - 1.ldr
 
 
+0 STEP
 0 FILE 21018 - 22 - 1.ldr
 0 A small light-bluish-grey corner detail with an upward bracket, a medium-blue grooved tile, and a white 2x4 tile.
 0 Name: 21018 - 22 - 1.ldr
@@ -1179,6 +1203,7 @@
 1 15 0 -32 -22 0 0 -1 -1 0 0 0 1 0 87079.dat
 
 
+0 STEP
 0 FILE 21018 - 23.ldr
 0 23
 0 Name: 21018 - 23.ldr
@@ -1200,6 +1225,7 @@
 1 15 0 16 -30 0 0 -1 0 1 0 1 0 0 3024.dat
 
 
+0 STEP
 0 FILE 21018 - 24.ldr
 0 24
 0 Name: 21018 - 24.ldr

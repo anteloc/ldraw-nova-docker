@@ -5,6 +5,7 @@
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
 1 15 0 8.6475 3.18389 1 0 0 0 0.99851 -0.05455 0 0.05455 0.99851 5533 - Tractor.ldr
 1 7 0 39.4 486 1 0 0 0 1 0 0 0 1 5533 - Trailer.ldr
+0 STEP
 0 FILE 5533 - Tractor.ldr
 0 The main tractor assembly built from plates, Technic bricks, wing pieces, pins, and grille tiles forming the chassis, body, and structural frame.
 0 Name: Tractor.ldr
@@ -375,6 +376,7 @@
 1 7 136 -54 160 0 0 -1 0 -1 0 -1 0 0 3713.dat
 0 // Technic Bush with Two Flanges (light_grey)
 1 7 -136 -54 160 0 0 1 0 1 0 -1 0 0 3713.dat
+0 STEP
 0 FILE 5533 - Tractor 01.ldr
 0 A small bodywork section using plates, a Technic brick with hole, and curved-top bricks forming a contoured panel.
 0 Name: Tractor 01.ldr
@@ -395,6 +397,7 @@
 1 4 -10 -32 -10 1 0 0 0 1 0 0 0 1 6091.dat
 0 // Brick  2 x  1 x  1.333 with Curved Top (red)
 1 4 10 -32 -10 1 0 0 0 1 0 0 0 1 6091.dat
+0 STEP
 0 FILE 5533 - Tractor 02.ldr
 0 A compact Technic linkage made of a cross block and axle pin for connecting moving parts.
 0 Name: Tractor 02.ldr
@@ -404,6 +407,7 @@
 1 7 0 0 0 -1 0 0 0 1 0 0 0 -1 32068.dat
 0 // Technic Axle Pin (light_grey)
 1 7 0 0 20 0 1 0 1 0 0 0 0 -1 3749.dat
+0 STEP
 0 FILE 5533 - Tractor 03.ldr
 0 A drivetrain sub-assembly combining axles, axle joiner, Technic bricks with holes, and 8- and 12-tooth gears.
 0 Name: Tractor 03.ldr
@@ -427,6 +431,7 @@
 1 7 0 10 -200 1 0 0 0 1 0 0 0 1 3647.dat
 0 // Technic Gear 12 Tooth Bevel (light_grey)
 1 7 0 10 213 1 0 0 0 1 0 0 0 1 6589.dat
+0 STEP
 0 FILE 5533 - Tractor 04.ldr
 0 A short axle and bushing mounted in a Technic brick with hole, serving as a support shaft.
 0 Name: Tractor 04.ldr
@@ -439,6 +444,7 @@
 0 STEP
 0 // Technic Brick  1 x  2 with Hole (light_grey)
 1 7 0 0 0 0 0 1 0 1 0 -1 0 0 3700.dat
+0 STEP
 0 FILE 5533 - Tractor 05.ldr
 0 A small panel detail built from a plate and a square-cornered panel piece.
 0 Name: Tractor 05.ldr
@@ -448,6 +454,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 3022.dat
 0 // Panel  1 x  2 x  1 with Square Corners (black)
 1 0 0 -24 10 1 0 0 0 1 0 0 0 1 4865a.dat
+0 STEP
 0 FILE 5533 - Tractor 06.ldr
 0 A Technic plate with holes, an inverted slope, an axle, and a bevel gear forming a geared mounting assembly.
 0 Name: Tractor 06.ldr
@@ -462,6 +469,7 @@
 1 0 0 -62 0 0 -1 0 -1 0 0 0 0 -1 3707.dat
 0 // Technic Gear 12 Tooth Bevel (light_grey)
 1 7 0 11 0 0 -1 0 0 0 1 -1 0 0 6589.dat
+0 STEP
 0 FILE 5533 - Tractor 07.ldr
 0 A simple decorative plate base topped with a grooved tile.
 0 Name: Tractor 07.ldr
@@ -471,6 +479,7 @@
 1 1 0 0 0 1 0 0 0 1 0 0 0 1 3020.dat
 0 // Tile  2 x  2 with Groove (red)
 1 4 0 -8 0 1 0 0 0 1 0 0 0 1 3068b.dat
+0 STEP
 0 FILE 5533 - Tractor 08.ldr
 0 Two angle connectors joined by an axle to form a bent linkage arm.
 0 Name: Tractor 08.ldr
@@ -482,6 +491,7 @@
 1 0 0 0 50 0 0 -1 0 -1 0 -1 0 0 3705.dat
 0 // Technic Angle Connector #1 (light_grey)
 1 7 0 0 100 -1 0 0 0 -1 0 0 0 1 32013.dat
+0 STEP
 0 FILE 5533 - Tractor 09.ldr
 0 Two angle connectors joined by a longer axle forming an extended bent linkage.
 0 Name: Tractor 09.ldr
@@ -493,6 +503,7 @@
 1 0 0 0 90 0 0 -1 0 -1 0 -1 0 0 3707.dat
 0 // Technic Angle Connector #1 (light_grey)
 1 7 0 0 180 0 1 0 -1 0 0 0 0 1 32013.dat
+0 STEP
 0 FILE 5533 - Tractor 10.ldr
 0 A decorative rear detail with plates, grille tiles, clip tiles, round plates, an antenna, and goblets forming exhaust or weight accents.
 0 Name: Tractor 10.ldr
@@ -527,6 +538,7 @@
 1 7 10 -40 -10 1 0 0 0 1 0 0 0 1 2343.dat
 0 // Minifig Goblet (light_grey)
 1 7 30 -40 -10 1 0 0 0 1 0 0 0 1 2343.dat
+0 STEP
 0 FILE 5533 - Tractor 11.ldr
 0 A small pivot assembly using a Technic brick with hole, an axle pin, and a half bush.
 0 Name: Tractor 11.ldr
@@ -538,6 +550,7 @@
 1 7 0 10 -10 0 0 1 0 1 0 -1 0 0 3749.dat
 0 // Technic Bush  1/2 Smooth with Axle Hole Reduced (light_grey)
 1 7 0 10 -15 -1 0 0 0 1 0 0 0 -1 32123a.dat
+0 STEP
 0 FILE 5533 - Tractor 12.ldr
 0 A decorative rear detail with plates, grille tiles, clip tiles, round plates, an antenna, and goblets mirroring the opposite-side accents.
 0 Name: Tractor 12.ldr
@@ -572,6 +585,7 @@
 1 7 -10 -40 10 -1 0 0 0 1 0 0 0 -1 2343.dat
 0 // Minifig Goblet (light_grey)
 1 7 -30 -40 10 -1 0 0 0 1 0 0 0 -1 2343.dat
+0 STEP
 0 FILE 5533 - Tractor 13.ldr
 0 A drivetrain mounting built from plates, a slope, a Technic brick, a wedge belt wheel, and a bevel gear.
 0 Name: Tractor 13.ldr
@@ -599,6 +613,7 @@
 1 7 0 -30 -45 -1 0 0 0 1 0 0 0 -1 4185a.dat
 0 // Technic Gear 12 Tooth Bevel (light_grey)
 1 7 0 -30 -53 -1 0 0 0 1 0 0 0 -1 6589.dat
+0 STEP
 0 FILE 5533 - Tractor 14R.ldr
 0 A right-side bodywork fairing using plates, an inverted slope, and a curved arch.
 0 Name: Tractor 14R.ldr
@@ -616,6 +631,7 @@
 1 4 0 -48 20 1 0 0 0 1 0 0 0 1 6005.dat
 0 // Plate  1 x  1 Round (red)
 1 4 -20 -40 20 1 0 0 0 1 0 0 0 1 6141.dat
+0 STEP
 0 FILE 5533 - Tractor 14L.ldr
 0 A left-side bodywork fairing using plates, an inverted slope, and a curved arch.
 0 Name: Tractor 14L.ldr
@@ -633,6 +649,7 @@
 1 4 0 -48 20 1 0 0 0 1 0 0 0 1 6005.dat
 0 // Plate  1 x  1 Round (red)
 1 4 20 -40 20 1 0 0 0 1 0 0 0 1 6141.dat
+0 STEP
 0 FILE 5533 - RubberBandSquare.ldr
 0 A flexible square rubber band assembly generated from multiple connected segments to simulate an elastic band.
 0 Name: RubberBandSquare.ldr
@@ -1220,6 +1237,7 @@
 5 24 -28 0 -2 -28 0 2 -27.812849 3.306237 -2 -28.05681 -0.998385 -2
 5 24 -28 0 2 -32 0 2 -27.812849 3.306237 2 -28.05681 -0.998385 2
 5 24 -32 0 2 -32 0 -2 -31.783247 3.791974 2 -32.056812 -0.998385 2
+0 STEP
 0 FILE 5533 - Tractor 15.ldr
 0 A rear bodywork section built from plates, curved-top bricks, corner panels, and a grooved tile.
 0 Name: Tractor 15.ldr
@@ -1244,6 +1262,7 @@
 0 STEP
 0 // Tile  2 x  2 with Groove (red)
 1 4 0 -32 -10 0 0 1 0 1 0 -1 0 0 3068b.dat
+0 STEP
 0 FILE 5533 - Tractor 16.ldr
 0 An engine or body panel assembly using plates, a brick, grooved tiles, curved-top bricks, and a wing-back Technic brick.
 0 Name: Tractor 16.ldr
@@ -1269,6 +1288,7 @@
 1 4 -20 -56 10 1 0 0 0 1 0 0 0 1 2744.dat
 0 // Tile  1 x  2 with Groove (red)
 1 4 -40 -64 10 1 0 0 0 1 0 0 0 1 3069b.dat
+0 STEP
 0 FILE 5533 - Tractor 17.ldr
 0 A round wheel hub assembly consisting of a round brick topped with a cross-pattern round tile.
 0 Name: Tractor 17.ldr
@@ -1278,6 +1298,7 @@
 1 7 0 0 0 1 0 0 0 1 0 0 0 1 3941.dat
 0 // Tile  2 x  2 Round with Cross Underside Stud (black)
 1 0 0 -8 0 1 0 0 0 1 0 0 0 1 4150.dat
+0 STEP
 0 FILE 5533 - Tractor 18.ldr
 0 An engine or body panel assembly using plates, a brick, grooved tiles, curved-top bricks, and a wing-back Technic brick.
 0 Name: Tractor 18.ldr
@@ -1303,6 +1324,7 @@
 1 4 -20 -56 -10 1 0 0 0 1 0 0 0 1 2744.dat
 0 // Tile  1 x  2 with Groove (red)
 1 4 -40 -64 -10 1 0 0 0 1 0 0 0 1 3069b.dat
+0 STEP
 0 FILE 5533 - Tractor 19.ldr
 0 A yellow hinge-based assembly using plates, grooved tiles, and hinged plates forming an articulating panel or hood.
 0 Name: Tractor 19.ldr
@@ -1334,6 +1356,7 @@
 0 STEP
 0 // Plate  2 x  2 (yellow)
 1 14 0 -8 -60 1 0 0 0 1 0 0 0 1 3022.dat
+0 STEP
 0 FILE 5533 - Tractor 20.ldr
 0 A hinge mechanism combining a hinge base and top with Technic bricks and a half bush.
 0 Name: Tractor 20.ldr
@@ -1351,6 +1374,7 @@
 1 7 0 -14 -28 1 0 0 0 1 0 0 0 1 5533 - Tractor 21.ldr
 0 // Technic Bush  1/2 Smooth with Axle Hole Reduced (light_grey)
 1 7 0 -14 -35 1 0 0 0 1 0 0 0 1 32123a.dat
+0 STEP
 0 FILE 5533 - Tractor 21.ldr
 0 A steering assembly consisting of an axle, a bush, and a small steering wheel.
 0 Name: Tractor 21.ldr
@@ -1362,6 +1386,7 @@
 1 7 0 0 48 -1 0 0 0 1 0 0 0 -1 3713.dat
 0 // Technic Steering Wheel Small (light_grey)
 1 7 0 0 84 -1 0 0 0 0 -1 0 -1 0 2819.dat
+0 STEP
 0 FILE 5533 - Tractor 22.ldr
 0 Tractor 22
 0 Name: Tractor 22.ldr
@@ -1373,6 +1398,7 @@
 1 0 -10 0 0 0 0 1 0 1 0 -1 0 0 6005.dat
 0 // Tile  1 x  2 Grille with Groove (black)
 1 0 0 0 0 -1 0 0 0 1 0 0 0 -1 2412b.dat
+0 STEP
 0 FILE 5533 - Tractor 23.ldr
 0 Tractor 23
 0 Name: Tractor 23.ldr
@@ -1382,6 +1408,7 @@
 1 15 0 0 0 1 0 0 0 1 0 0 0 1 2998.dat
 0 // Tyre 34/ 38 x 56 ZR (rubber_black)
 1 256 0 0 0 1 0 0 0 1 0 0 0 1 2997.dat
+0 STEP
 0 FILE 5533 - Tractor 24.ldr
 0 Tractor 24
 0 Name: Tractor 24.ldr
@@ -1391,6 +1418,7 @@
 1 15 0 0 0 1 0 0 0 1 0 0 0 1 2994.dat
 0 // Tyre 14/ 36 x 20 VR (rubber_black)
 1 256 0 0 0 1 0 0 0 1 0 0 0 1 6578.dat
+0 STEP
 0 FILE 5533 - Trailer.ldr
 0 Trailer
 0 Name: Trailer.ldr
@@ -1489,6 +1517,7 @@
 1 7 50 -141 -90 0 -1 0 0 0 1 -1 0 0 6538a.dat
 0 // Technic Axle Joiner (light_grey)
 1 7 -50 -141 -90 0 -1 0 0 0 1 -1 0 0 6538a.dat
+0 STEP
 0 FILE 5533 - Trailer 01.ldr
 0 Trailer 01
 0 Name: Trailer 01.ldr
@@ -1503,6 +1532,7 @@
 0 STEP
 0 // Plate  1 x  4 (black)
 1 0 0 -8 0 1 0 0 0 1 0 0 0 1 3710.dat
+0 STEP
 0 FILE 5533 - Trailer 02.ldr
 0 Trailer 02
 0 Name: Trailer 02.ldr

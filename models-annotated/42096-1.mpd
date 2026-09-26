@@ -8,6 +8,7 @@
 1 16 0 -117 0 1 0 0 0 1 -0.03 0 0.03 1 42096 - porsche.ldr
 
 
+0 STEP
 0 FILE 42096 - shock-06_5L-hard-1.ldr
 0 Assembled 6.5L hard Technic shock absorber with cylinder, piston rod, and internal spring.
 0 Name: 42096 - shock-06_5L-hard-1.ldr
@@ -56,6 +57,7 @@
 
 
 
+0 STEP
 0 FILE 42096 - shock-06_5L-hard-1_springMesh.ldr
 0 Detailed coil spring mesh with 5 sections and 15 windings for the hard shock absorber.
 0 Name: 42096 - shock-06_5L-hard-1_springMesh.ldr
@@ -5888,6 +5890,7 @@
 5 24 -7.75 39.107811 0.18741 -7.21967 38.571926 0.016434 -7.75 38.35236 0.023241 -7 39.102001 0
 
 
+0 STEP
 0 FILE 42096 - chassisbottom.ldr
 0 Bottom chassis frame built from open-center liftarms, long beams, and friction pins.
 0 Name: 42096 - chassisbottom.ldr
@@ -5939,6 +5942,7 @@
 1 15 -40 0 -100 -1 0 0 0 1 0 0 0 -1 15100.dat
 
 
+0 STEP
 0 FILE 42096 - frontaxle.ldr
 0 Front axle assembly with suspension arms, steering hubs, portal axle hubs, towball joints, and half-bushes.
 0 Name: 42096 - frontaxle.ldr
@@ -6099,6 +6103,7 @@
 1 494 -109.599 -15.28 0 -0.834 -0.552 0 -0.552 0.834 0 0 0 -1 22977.dat
 
 
+0 STEP
 0 FILE 42096 - steering.ldr
 0 Steering linkage with gear rack, bevel gear, cross blocks, towball pins, and connecting liftarms.
 0 Name: 42096 - steering.ldr
@@ -6162,6 +6167,7 @@
 1 0 0 -20 20 -1 0 0 0 1 0 0 0 -1 32270.dat
 
 
+0 STEP
 0 FILE 42096 - shock-06_5L-hard-2.ldr
 0 Second shock absorber cylinder with a misconfigured spring that does not fit the available space.
 0 Name: 42096 - shock-06_5L-hard-2.ldr
@@ -6200,6 +6206,7 @@
 1 16 0 10 0 1 0 0 0 1 0 0 0 1 4255.dat
 
 
+0 STEP
 0 FILE 42096 - chassisbottomside.ldr
 0 Side chassis rails made from long black liftarms connected with friction pins.
 0 Name: 42096 - chassisbottomside.ldr
@@ -6234,6 +6241,7 @@
 1 0 40 0 0 0 -1 0 1 0 0 0 0 1 41239.dat
 
 
+0 STEP
 0 FILE 42096 - shocksupport.ldr
 0 Shock absorber support bracket using bent liftarms, beams, and a stop-axle for mounting.
 0 Name: 42096 - shocksupport.ldr
@@ -6270,6 +6278,7 @@
 1 15 0 0 20 -1 0 0 0 0 1 0 1 0 60483.dat
 
 
+0 STEP
 0 FILE 42096 - engine.ldr
 0 Inline engine assembly with six cylinders, pistons, connecting rods, crankshaft, and cross blocks.
 0 Name: 42096 - engine.ldr
@@ -6426,6 +6435,7 @@
 1 1 100 -20 -180 -1 0 0 0 1 0 0 0 -1 6558.dat
 
 
+0 STEP
 0 FILE 42096 - chassis2.ldr
 0 Chassis cross-brace section with bent liftarms, angle connectors, and axle joiners.
 0 Name: 42096 - chassis2.ldr
@@ -6473,6 +6483,7 @@
 1 0 0 -90 120 0 1 0 -1 0 0 0 0 1 2780.dat
 
 
+0 STEP
 0 FILE 42096 - seat1.ldr
 0 Driver seat assembly built from bent liftarms and cross blocks forming the backrest and base.
 0 Name: 42096 - seat1.ldr
@@ -6536,6 +6547,7 @@
 1 0 60 -80 0 0 -1 0 -0.292 0 0.956 -0.956 0 -0.292 32348.dat
 
 
+0 STEP
 0 FILE 42096 - chassis3.ldr
 0 Chassis section with H-shaped beam, liftarms, and cross block providing structural mounting points.
 0 Name: 42096 - chassis3.ldr
@@ -6578,6 +6590,7 @@
 1 1 20 -40 -40 0 1 0 -1 0 0 0 0 1 6558.dat
 
 
+0 STEP
 0 FILE 42096 - chassis4.ldr
 0 Chassis frame section using long black liftarms, cross blocks, and pins for structural support.
 0 Name: 42096 - chassis4.ldr
@@ -6631,6 +6644,7 @@
 1 71 2 0 -40 -1 0 0 0 0 1 0 1 0 4519.dat
 
 
+0 STEP
 0 FILE 42096 - rear1.ldr
 0 Rear structural assembly with bent liftarms, angle connectors, axles, and a body panel.
 0 Name: 42096 - rear1.ldr
@@ -6695,6 +6709,7 @@
 1 0 0 -60 -60 1 0 0 0 1 0 0 0 1 15458.dat
 
 
+0 STEP
 0 FILE 42096 - rear2.ldr
 0 Rear wing or spoiler assembly with liftarms, connector hubs, a plate, and a rounded thin-wall panel.
 0 Name: 42096 - rear2.ldr
@@ -6745,6 +6760,7 @@
 1 0 0 -37 10 0 0 -1 0 1 0 1 0 0 42096 - 15207.dat
 
 
+0 STEP
 0 FILE 42096 - rear3.ldr
 0 Mirror rear wing or spoiler assembly with liftarms, connector hubs, a plate, and a rounded thin-wall panel.
 0 Name: 42096 - rear3.ldr
@@ -6796,6 +6812,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42096 - chassis5.ldr
 0 Small chassis bracket with T-shaped beam, bent liftarm, cross block, and joiner for linkage.
 0 Name: 42096 - chassis5.ldr
@@ -6837,6 +6854,7 @@
 1 0 -70 -40 -40 -1 0 0 0 0.944 0.331 0 0.331 -0.944 2780.dat
 
 
+0 STEP
 0 FILE 42096 - chassis6.ldr
 0 Chassis reinforcement rail with bent liftarms, T-beam, long beams, and pin joiners.
 0 Name: 42096 - chassis6.ldr
@@ -6877,6 +6895,7 @@
 1 0 90 80 100 1 0 0 0 0 1 0 -1 0 2780.dat
 
 
+0 STEP
 0 FILE 42096 - door1.ldr
 0 Driver side door assembly with panel fairings, smooth panels, liftarms, and hinge pins.
 0 Name: 42096 - door1.ldr
@@ -6954,6 +6973,7 @@
 1 4 0 -10 80 0 -1 0 -1 0 0 0 0 -1 32062.dat
 
 
+0 STEP
 0 FILE 42096 - headlight1.ldr
 0 Front headlight assembly with white liftarms, beams, angle connector, and mounting pins.
 0 Name: 42096 - headlight1.ldr
@@ -7033,6 +7053,7 @@
 1 47 40 -84 -220 1 0 0 0 0.966 -0.259 0 0.259 0.966 87752.dat
 
 
+0 STEP
 0 FILE 42096 - chassis7.ldr
 0 Chassis side section with bent liftarms, beam, pins, and a short fairing panel.
 0 Name: 42096 - chassis7.ldr
@@ -7067,6 +7088,7 @@
 1 0 100 -20 -30 0 -1 0 0 0 -1 1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 42096 - chassis8.ldr
 0 Small chassis bracket mirroring chassis5 with T-beam, bent liftarm, cross block, and joiner.
 0 Name: 42096 - chassis8.ldr
@@ -7108,6 +7130,7 @@
 1 0 70 -40 -40 -1 0 0 0 0.944 0.331 0 0.331 -0.944 2780.dat
 
 
+0 STEP
 0 FILE 42096 - chassis9.ldr
 0 Chassis reinforcement rail mirroring chassis6 with bent liftarms, T-beam, and pin joiners.
 0 Name: 42096 - chassis9.ldr
@@ -7148,6 +7171,7 @@
 1 0 -90 80 100 1 0 0 0 0 1 0 -1 0 2780.dat
 
 
+0 STEP
 0 FILE 42096 - chassis10.ldr
 0 Chassis side section mirroring chassis7 with bent liftarms, beam, pins, and a short fairing panel.
 0 Name: 42096 - chassis10.ldr
@@ -7182,6 +7206,7 @@
 1 0 -100 -20 -30 0 1 0 0 0 -1 -1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 42096 - headlight2.ldr
 0 A headlight assembly built from white liftarms, axles, and angle connectors with cross blocks for mounting.
 0 Name: 42096 - headlight2.ldr
@@ -7261,6 +7286,7 @@
 1 47 -40 -84 -220 1 0 0 0 0.966 -0.259 0 0.259 0.966 87752.dat
 
 
+0 STEP
 0 FILE 42096 - door2.ldr
 0 A car door section with white fairing panels, smooth liftarms, and axle-pin connectors.
 0 Name: 42096 - door2.ldr
@@ -7338,6 +7364,7 @@
 1 4 0 -10 80 0 1 0 1 0 0 0 0 -1 32062.dat
 
 
+0 STEP
 0 FILE 42096 - front.ldr
 0 A front-end structure featuring angle connectors, cross blocks, a black front panel, and red round indicator tiles.
 0 Name: 42096 - front.ldr
@@ -7431,6 +7458,7 @@
 1 4 100.715 -43.098 48.383 -0.383 0 0.924 0 -1 0 0.924 0 0.383 59443.dat
 
 
+0 STEP
 0 FILE 42096 - technicRibHose-1.ldr
 0 A long ribbed flexible hose composed of many segmented parts spanning approximately 46 mm.
 0 Name: 42096 - technicRibHose-1.ldr
@@ -23331,6 +23359,7 @@
 5 24 6.00535 -114.547409 -2.48755 6.5 -114.547409 0 6.19645 -114.547554 -2.56685 5.82855 -114.584061 -2.4141
 
 
+0 STEP
 0 FILE 42096 - technicRibHoseLQ-1.ldr
 0 A short low-quality ribbed hose with end and mid segments spanning approximately 16 mm.
 0 Name: 42096 - technicRibHoseLQ-1.ldr
@@ -23378,6 +23407,7 @@
 1 16 0 -37.050335 -10.832937 1 0 0 0 -0.834562 0.550914 0 -0.550914 -0.834562 79.dat
 
 
+0 STEP
 0 FILE 42096 - dashboard.ldr
 0 A dashboard module using bent liftarms, fairing panels, an angled elbow cylinder, and a technic brick.
 0 Name: 42096 - dashboard.ldr
@@ -23478,6 +23508,7 @@
 1 0 40 -66.947 28.295 0 0 -1 0.469 -0.883 0 -0.883 -0.469 0 3707.dat
 
 
+0 STEP
 0 FILE 42096 - hood.ldr
 0 A hood panel assembly with a large white curved fairing panel mounted on long liftarms and pins.
 0 Name: 42096 - hood.ldr
@@ -23520,6 +23551,7 @@
 1 4 60 0 -130 -1 0 0 0 1 0 0 0 -1 11214.dat
 
 
+0 STEP
 0 FILE 42096 - technicFlexAxle-1.ldr
 0 A flexible technic axle spanning approximately 59 mm made of 31 curve segments.
 0 Name: 42096 - technicFlexAxle-1.ldr
@@ -25643,6 +25675,7 @@
 5 24 -7.905005 -118.674286 -61.732758 -7.905005 -116.926758 -58.705952 -7.600605 -120 -60.967358 -8.772205 -117.550537 -62.381557
 
 
+0 STEP
 0 FILE 42096 - technicFlexAxle-2.ldr
 0 A flexible technic axle spanning approximately 59 mm made of 31 curve segments.
 0 Name: 42096 - technicFlexAxle-2.ldr
@@ -27766,6 +27799,7 @@
 5 24 15.296205 -118.674286 -61.732758 15.296205 -116.926758 -58.705952 15.600605 -120 -60.967358 14.429005 -117.550537 -62.381557
 
 
+0 STEP
 0 FILE 42096 - technicFlexAxle-3.ldr
 0 A longer flexible technic axle spanning approximately 93 mm made of 39 curve segments.
 0 Name: 42096 - technicFlexAxle-3.ldr
@@ -30161,6 +30195,7 @@
 5 24 -70.231567 -209.854614 -38.566387 -67.68531 -207.363998 -38.036991 -70.111206 -210.294922 -37.073853 -70.762711 -209.050644 -39.794117
 
 
+0 STEP
 0 FILE 42096 - technicFlexAxle-4.ldr
 0 A longer flexible technic axle spanning approximately 93 mm made of 39 curve segments.
 0 Name: 42096 - technicFlexAxle-4.ldr
@@ -32556,6 +32591,7 @@
 5 24 75.438156 -204.62825 -38.112183 72.891891 -202.137634 -37.582783 75.746658 -204.638062 -36.582233 74.747536 -205.05069 -39.446495
 
 
+0 STEP
 0 FILE 42096 - front2.ldr
 0 A red front splitter or lip detail made of thin liftarms, red angle connectors, and two short fairing panels.
 0 Name: 42096 - front2.ldr
@@ -32596,6 +32632,7 @@
 1 4 78.463 0 15.607 0 -0.195 0.981 1 0 0 0 0.981 0.195 11946.dat
 
 
+0 STEP
 0 FILE 42096 - rearbump.ldr
 0 A rear bumper assembly with axle joiners, bushes, angle connectors, and four translucent red tooth elements.
 0 Name: 42096 - rearbump.ldr
@@ -32705,6 +32742,7 @@
 1 0 54 20 -40 0 -1 0 -1 0 0 0 0 -1 42096 - technicRibHoseLQ-3.ldr
 
 
+0 STEP
 0 FILE 42096 - rearbump2.ldr
 0 A rear bumper extension with black panels, angle connectors, and red beams mounted via axle pins.
 0 Name: 42096 - rearbump2.ldr
@@ -32756,6 +32794,7 @@
 1 0 -72 0 -0.475 0 1 0 0 0 -1 -1 0 0 42096 - technicRibHoseLQ-2.ldr
 
 
+0 STEP
 0 FILE 42096 - technicRibHoseLQ-2.ldr
 0 A short low-quality ribbed hose with end and mid segments spanning approximately 16 mm.
 0 Name: 42096 - technicRibHoseLQ-2.ldr
@@ -32804,6 +32843,7 @@
 1 16 -6.250037 -35.132428 0 0 -0.382683 0.92388 0 -0.92388 -0.382683 1 0 0 79.dat
 
 
+0 STEP
 0 FILE 42096 - rearbump3.ldr
 0 A rear bumper sub-assembly using an H-shaped liftarm, short beams, and a large black panel.
 0 Name: 42096 - rearbump3.ldr
@@ -32834,6 +32874,7 @@
 1 0 0 -40 0 0 0 -1 1 0 0 0 -1 0 62531.dat
 
 
+0 STEP
 0 FILE 42096 - technicRibHoseLQ-3.ldr
 0 A long low-quality ribbed hose with end and mid segments spanning approximately 96 mm.
 0 Name: 42096 - technicRibHoseLQ-3.ldr
@@ -32958,6 +32999,7 @@
 1 16 0.155912 -187.089519 -105.331092 0.999898 -0.014251 -0.000222 0.000037 -0.012973 0.999916 -0.014253 -0.999814 -0.012971 79.dat
 
 
+0 STEP
 0 FILE 42096 - spoiler.ldr
 0 A rear spoiler made from two large black 3x11 panels supported by beams and pins.
 0 Name: 42096 - spoiler.ldr
@@ -32998,6 +33040,7 @@
 1 0 -180 0 -20 0 0 1 -1 0 0 0 -1 0 32316.dat
 
 
+0 STEP
 0 FILE 42096 - roof.ldr
 0 A roof structure with long white liftarms, curved roof panels, and toggle joint connectors.
 0 Name: 42096 - roof.ldr
@@ -33174,6 +33217,7 @@
 1 0 130 -73.618 -348.43 -1 0 0 0 0.952 -0.307 0 -0.307 -0.952 2780.dat
 
 
+0 STEP
 0 FILE 42096 - roof2.ldr
 0 A roof panel section using a long liftarm, white panel, and a thin short fairing panel.
 0 Name: 42096 - roof2.ldr
@@ -33225,6 +33269,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42096 - roof3.ldr
 0 A roof sub-assembly with a large black engine-panel, towball pins, and pin joiners.
 0 Name: 42096 - roof3.ldr
@@ -33284,6 +33329,7 @@
 1 0 80 -10 180 0 -1 0 1 0 0 0 0 1 6628.dat
 
 
+0 STEP
 0 FILE 42096 - technicFlexAxle-5.ldr
 0 A flexible technic axle spanning approximately 58 mm made of 28 curve segments.
 0 Name: 42096 - technicFlexAxle-5.ldr
@@ -35305,6 +35351,7 @@
 5 24 -28.219374 -138.297653 3.970787 -26.133165 -135.188141 3.792061 -28.299009 -138.154999 5.522984 -28.641279 -138.100204 2.481218
 
 
+0 STEP
 0 FILE 42096 - technicFlexAxle-6.ldr
 0 A flexible technic axle spanning approximately 58 mm made of 28 curve segments.
 0 Name: 42096 - technicFlexAxle-6.ldr
@@ -37326,6 +37373,7 @@
 5 24 34.157471 -134.434952 1.86167 32.071255 -131.325439 1.682941 34.726215 -133.974136 3.240144 33.185955 -135.143921 0.867022
 
 
+0 STEP
 0 FILE 42096 - technicFlexAxle-7.ldr
 0 A flexible technic axle spanning approximately 100 mm made of 25 curve segments.
 0 Name: 42096 - technicFlexAxle-7.ldr
@@ -39246,6 +39294,7 @@
 5 24 -0.628066 -251.278336 3.242754 -0.262185 -247.55629 2.76049 -0.577186 -251.082809 4.790394 -1.269405 -251.398987 1.825034
 
 
+0 STEP
 0 FILE 42096 - technicFlexAxle-8.ldr
 0 A very long flexible technic axle spanning approximately 149 mm made of 58 curve segments.
 0 Name: 42096 - technicFlexAxle-8.ldr
@@ -42289,6 +42338,7 @@
 5 24 43.789482 -320.220184 -148.870346 43.127415 -317.982513 -145.775574 43.720512 -321.490662 -147.966415 43.265095 -319.084564 -149.80368
 
 
+0 STEP
 0 FILE 42096 - technicFlexAxle-10.ldr
 0 A flexible Technic axle assembly approximately 149mm long composed of 58 segmented sections with LDCad-generated end caps.
 0 Name: 42096 - technicFlexAxle-10.ldr
@@ -45332,6 +45382,7 @@
 5 24 -36.717644 -319.508087 -150.898102 -36.055588 -317.270386 -147.803375 -36.066177 -320.71994 -150.161209 -37.852715 -318.539551 -151.355606
 
 
+0 STEP
 0 FILE 42096 - technicFlexAxle-9.ldr
 0 A flexible Technic axle assembly approximately 100mm long composed of 25 segmented sections with LDCad-generated end caps.
 0 Name: 42096 - technicFlexAxle-9.ldr
@@ -47252,6 +47303,7 @@
 5 24 7.886251 -250.731247 1.958509 7.52037 -247.009201 1.476245 8.433214 -250.490662 3.400368 6.824403 -250.98027 0.842147
 
 
+0 STEP
 0 FILE 42096 - porsche.ldr
 0 The main Porsche chassis submodel featuring beams, gears, a differential, CV joints, steering bearings, and heavy use of pins and cross blocks for structural assembly.
 0 Name: 42096 - porsche.ldr
@@ -48742,6 +48794,7 @@
 1 71 -213.112 30.881 0 0 1 0 0 0 -1 -1 0 0 58176.dat
 
 
+0 STEP
 0 FILE 42096 - 23801.dat
 0 A primitive-based geometric part composed of cylinders, rings, circles, and discs forming a rounded Technic element.
 0 Name: 42096 - 23801.dat
@@ -48840,6 +48893,7 @@
 0 // Technic Connector Hole One-Sided (main_colour)
 1 16 0 -20 0 -1 0 0 0 1 0 0 0 1 connhol3.dat
 
+0 STEP
 0 FILE 42096 - 15207.dat
 0 A small geometric primitive part built from boxes, discs, and open cylinders.
 0 Name: 42096 - 15207.dat
@@ -48898,6 +48952,7 @@
 0 // Box with 2 Faces without 5 Edges (main_colour)
 1 16 0 20 -1.5 -40 0 0 0 -4 0 0 0 -8.5 box2-5.dat
 
+0 STEP
 0 FILE 42096 - ldcRibHoseSeg.dat
 0 A single ribbed hose segment primitive made of cylinders and rings based on the 78s01 element.
 0 Name: 42096 - ldcRibHoseSeg.dat
@@ -48947,6 +49002,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble (and extra weight), might add them in the future though.
 
+0 STEP
 0 FILE 42096 - ldcFlexAxleEndA.dat
 0 A placeholder flexible axle end cap component generated by LDCad.
 0 Name: 42096 - ldcFlexAxleEndA.dat
@@ -48964,6 +49020,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 42096 - ldcFlexAxleEndB.dat
 0 A flexible axle end cap primitive containing a single cylinder.
 0 Name: 42096 - ldcFlexAxleEndB.dat
@@ -48982,6 +49039,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 42096 - ldcFlexAxleEndC.dat
 0 A placeholder flexible axle end cap component generated by LDCad.
 0 Name: 42096 - ldcFlexAxleEndC.dat
@@ -49000,6 +49058,7 @@
 0 // these don't seem to be worth the trouble, might add them in the future though.
 
 
+0 STEP
 0 FILE 42096 - ldcFlexAxleEndD.dat
 0 A placeholder flexible axle end cap component generated by LDCad.
 0 Name: 42096 - ldcFlexAxleEndD.dat
@@ -49018,6 +49077,7 @@
 0 // these don't seem to be worth the trouble, might add them in the future though.
 
 
+0 STEP
 0 FILE 42096 - ldcFlexAxleEndE.dat
 0 A placeholder flexible axle end cap component generated by LDCad.
 0 Name: 42096 - ldcFlexAxleEndE.dat
@@ -49036,6 +49096,7 @@
 0 // these don't seem to be worth the trouble, might add them in the future though.
 
 
+0 STEP
 0 FILE 42096 - ldcFlexAxleEndF.dat
 0 A placeholder flexible axle end cap component generated by LDCad.
 0 Name: 42096 - ldcFlexAxleEndF.dat
@@ -49054,6 +49115,7 @@
 0 // these don't seem to be worth the trouble, might add them in the future though.
 
 
+0 STEP
 0 FILE 42096 - ldcFlexAxleEndG.dat
 0 A placeholder flexible axle end cap component generated by LDCad.
 0 Name: 42096 - ldcFlexAxleEndG.dat
@@ -49072,6 +49134,7 @@
 0 // these don't seem to be worth the trouble, might add them in the future though.
 
 
+0 STEP
 0 FILE 42096 - ldcFlexAxleMid.dat
 0 A flexible axle middle section primitive containing a Technic axle perimeter.
 0 Name: 42096 - ldcFlexAxleMid.dat
@@ -49090,6 +49153,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 42096 - 42545p03.dat
 0 A patterned Technic mudguard panel submodel with no direct pieces (pattern-only reference).
 0 Name: 42096 - 42545p03.dat
@@ -49217,6 +49281,7 @@
 5 24 -0.1737 -70.761002 83.827003 3.5206 -65.096298 79.477501 -1.3527 -72.788498 96.814201 0.2689 -70 80
 5 24 -1.3527 -72.788498 72.827003 -1.3527 -72.788498 63.819901 3.5206 -65.096298 79.477501 -3.7988 -75.900002 70.599998
 
+0 STEP
 0 FILE 42096 - 42545p01.dat
 0 A patterned Technic mudguard panel submodel with no direct pieces (pattern-only reference).
 0 Name: 42096 - 42545p01.dat
@@ -49417,6 +49482,7 @@
 5 24 -1.3527 -72.788498 -72.827003 -1.3527 -72.788498 -63.819901 3.5206 -65.096298 -79.477501 -3.7988 -75.900002 -70.599998
 5 24 -13.6361 -86.363899 0 9 -62.206902 0 -12.1268 -84.917 -20.5909 -12.1268 -84.917 20.5909
 
+0 STEP
 0 FILE 42096 - 42545p04.dat
 0 A Technic arched mudguard panel with black, red, and grey diagonal stripes left pattern.
 0 Name: 42096 - 42545p04.dat
@@ -49431,6 +49497,7 @@
 0 // Technic Panel 13 x  2 x  5 Mudguard Arched #31 with Black/Red/Grey Diagonal Stripes Left Pattern (main_colour)
 1 16 0 0 0 1 0 0 0 1 0 0 0 -1 42096 - 42545p03.dat
 
+0 STEP
 0 FILE 42096 - 42545p02.dat
 0 A Technic arched mudguard panel with black, red, and grey horizontal stripes left pattern.
 0 Name: 42096 - 42545p02.dat
@@ -49445,6 +49512,7 @@
 0 // Technic Panel 13 x  2 x  5 Mudguard Arched #31 with Black/Red/Grey Horizontal Stripes Left Pattern (main_colour)
 1 16 0 0 0 1 0 0 0 1 0 0 0 -1 42096 - 42545p01.dat
 
+0 STEP
 0 FILE 42096 - 24121.dat
 0 A Technic element primitive composed of connector holes, cylinders, rectangles, and chords forming a multi-connection beam.
 0 Name: 42096 - 24121.dat
@@ -50524,6 +50592,7 @@
 3 16 -2 0 194.397995 -2.2961 0 194.456802 0 0 191
 3 16 0 -2 191 -9.1985 -2 190.917007 0 -2 182
 
+0 STEP
 0 FILE s\42096 - 32269s01.dat
 0 A subpart consisting entirely of rectangles and edged rectangles forming a flat structural surface.
 0 Name: s\42096 - 32269s01.dat
@@ -50613,6 +50682,7 @@
 3 16 18.258699 2.4034 -10 17.789101 4.7663 -10 19.3403 4.9066 -10
 3 16 15.3375 12.7626 -10 14.6121 11.2123 -10 13.0227 13.0227 -10
 
+0 STEP
 0 FILE s\42096 - 32269s02.dat
 0 A subpart composed of cylinders, rings, and rectangles forming a curved geometric detail.
 0 Name: s\42096 - 32269s02.dat
@@ -50684,6 +50754,7 @@
 4 16 11.998 -1 -10 11.998 1 -10 16.934099 1 -10 16.934099 -1 -10
 3 16 17 0 -10 16.934099 -1 -10 16.934099 1 -10
 
+0 STEP
 0 FILE s\42096 - 23801s01.dat
 0 A detailed subpart composed of cylinders, cones, rings, and circles forming a rounded Technic wheel or hub element.
 0 Name: s\42096 - 23801s01.dat
@@ -51170,6 +51241,7 @@
 3 16 9.6 -13.4026 -3.4442 8.3149 -14.2614 -3.4442 6.42908 -15.5212 -6.3
 5 24 6.42908 -15.5212 -15 6.42908 -15.5212 -6.3 9.5671 -13.4246 -15 -0.000136 -16.800446 -15
 
+0 STEP
 0 FILE s\42096 - 42545s01.dat
 0 A subpart for a Technic mudguard panel composed of connector holes, cylinders, rings, discs, and boxes forming the panel body with mounting points.
 0 Name: s\42096 - 42545s01.dat
@@ -51506,6 +51578,7 @@
 2 24 -10 -75 88.988998 -10 -80 89
 2 24 0 7 112 0 9 112
 
+0 STEP
 0 FILE 48\42096 - 1-16ring39.dat
 0 A generated 1-16 ring primitive at radius 39 created with LDPartEditor.
 0 Name: 48\42096 - 1-16ring39.dat
@@ -51520,6 +51593,7 @@
 4 16 38.636002 0 10.352 36.956001 0 15.308 36.032101 0 14.9253 37.670101 0 10.0932
 0 // Build by LDPartEditor (PrimGen 2.X)
 
+0 STEP
 0 FILE s\42096 - 42545s02.dat
 0 A mudguard panel subpart with no direct pieces (reference-only geometry).
 0 Name: s\42096 - 42545s02.dat
@@ -51598,6 +51672,7 @@
 5 24 -1.3527 -72.788498 72.827003 -1.3527 -72.788498 63.819901 3.5206 -65.096298 79.477501 -3.7988 -75.900002 70.599998
 5 24 -13.6361 -86.363899 0 9 -62.206902 0 -12.1268 -84.917 20.5909 -12.1268 -84.917 -20.5909
 
+0 STEP
 0 FILE s\42096 - 24121s01.dat
 0 A small assembly of three rectangular panels with parallel edges, likely used as structural support or decorative side elements.
 0 Name: s\42096 - 24121s01.dat

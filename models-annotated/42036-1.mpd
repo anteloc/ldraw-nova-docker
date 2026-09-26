@@ -300,6 +300,7 @@
 1 73 79.9874 -322.0341 33.8248 0.9998 0 0 0 0.9869 -0.1608 0 0.1608 0.9867 64683.dat
 1 14 20 -298.4941 233.7093 0 0 1 0.2976 0.9547 0 -0.9547 0.2976 0 42036 - shock-06_5L-hard-1.ldr
 
+0 STEP
 0 FILE 42036 - seat.ldr
 0 Motorcycle seat assembly using smooth medium blue fairing panels mounted on pin joiners and cross blocks with trans-red round accents.
 0 Name: 42036 - seat.ldr
@@ -352,6 +353,7 @@
 0 // Technic Cross Block 2 x 2 Split (Axle/Twin Pin) (black)
 1 0 10 40 20 1 0 0 0 0 1 0 -1 0 41678.dat
 
+0 STEP
 0 FILE 42036 - rearfork.ldr
 0 Rear swingarm fork built from two long dark bluish grey beams joined by cross blocks and a 16-tooth gear for the rear drivetrain.
 0 Name: 42036 - rearfork.ldr
@@ -395,6 +397,7 @@
 1 0 -10 0 -40 -1 0 0 0 0 1 0 1 0 2780.dat
 
 
+0 STEP
 0 FILE 42036 - transmission.ldr
 0 Gear transmission unit featuring a 24-tooth gear, three 16-tooth gears, and multiple axles with stops and bushes for the drivetrain.
 0 Name: 42036 - transmission.ldr
@@ -437,6 +440,7 @@
 1 71 80 0 -60 0 0 1 0.1564 0.9877 0 -0.9877 0.1564 0 94925.dat
 
 
+0 STEP
 0 FILE 42036 - fork2.ldr
 0 Simple fork subassembly of two long beams connected by cross blocks and perpendicular pin connectors.
 0 Name: 42036 - fork2.ldr
@@ -462,6 +466,7 @@
 1 0 -10 0 -80 -1 0 0 0 0 1 0 1 0 2780.dat
 
 
+0 STEP
 0 FILE 42036 - motor.ldr
 0 Inline four-cylinder Technic engine with cylinder heads, pistons, connecting rods, crankshafts, and an 8-tooth drive gear.
 0 Name: 42036 - motor.ldr
@@ -544,6 +549,7 @@
 1 1 20 10 40 0 0 1 0 1 0 -1 0 0 6558.dat
 
 
+0 STEP
 0 FILE 42036 - motorfix.ldr
 0 Engine mounting bracket of cross blocks and short axles that secures the motor within the frame.
 0 Name: 42036 - motorfix.ldr
@@ -567,6 +573,7 @@
 1 0 -20 -20 0 1 0 0 0 -1 0 0 0 -1 6536.dat
 
 
+0 STEP
 0 FILE 42036 - technicChainClosed-1.ldr
 0 Closed Technic drive chain of thirty reinforced links wrapping the transmission and rear sprocket.
 0 Name: 42036 - technicChainClosed-1.ldr
@@ -655,6 +662,7 @@
 1 16 -26.1595 15.9853 0 0 0.6868 0.7268 0 -0.7268 0.6868 1 0 0 14696.dat
 0 // Technic Chain Link Reinforced (main_colour)
 1 16 -30.6673 0.6334 0 0 0.9595 0.2817 0 -0.2817 0.9595 1 0 0 14696.dat
+0 STEP
 0 FILE 42036 - subModel-1.ldr
 0 Rear wheel subassembly with a motorcycle tyre and rim mounted on axles, bushes, and liftarms.
 0 Name: 42036 - subModel-1.ldr
@@ -716,6 +724,7 @@
 0 // =Technic Bush with Two Flanges (red)
 1 4 0 -110 0 1 0 0 0 0 -1 0 1 0 6590.dat
 
+0 STEP
 0 FILE 42036 - shock-09_5L-soft-1.ldr
 0 Soft 9L shock absorber unit with cylinder and piston rod for rear suspension.
 0 Name: 42036 - shock-09_5L-soft-1.ldr
@@ -759,6 +768,7 @@
 
 0 //Spring mesh reference
 1 494 0 40 0 1 0 0 0 1 0 0 0 1 42036 - shock-09_5L-soft-1_springMesh.ldr
+0 STEP
 0 FILE 42036 - shock-09_5L-soft-1_springMesh.ldr
 0 Generated coil spring mesh for the soft 9L shock absorber with sixteen windings.
 0 Name: 42036 - shock-09_5L-soft-1_springMesh.ldr
@@ -6970,6 +6980,7 @@
 2 24 -10.9375 98.1254 0.0257 -10.2746 98.3998 0.0182
 5 24 -10.9375 99.0689 0.2343 -10.2746 98.3998 0.0182 -10.9375 98.1254 0.0257 -10 99.0625 0
 
+0 STEP
 0 FILE 42036 - frontforksupport.ldr
 0 Front fork support structure of triangle liftarms, cross blocks, and an axle with stop that braces the steering assembly.
 0 Name: 42036 - frontforksupport.ldr
@@ -7028,6 +7039,7 @@
 0 // Technic Cross Block  2 x  2 x  2 Bent 90 Split (Pin/Twin Axle) (black)
 1 0 25 -60 40 -1 0 0 0 -1 0 0 0 1 92907.dat
 
+0 STEP
 0 FILE 42036 - handlebar.ldr
 0 Handlebar assembly of axles, angle connectors, a T-shaped beam, and silver round grips.
 0 Name: 42036 - handlebar.ldr
@@ -7072,6 +7084,7 @@
 1 80 20 -30 0 1 0 0 0 -1 0 0 0 -1 6141.dat
 
 
+0 STEP
 0 FILE 42036 - frontstreamlining.ldr
 0 Front fairing and streamlining assembly of angle connectors, bent liftarms, panels, and toothed aerodynamic elements.
 0 Name: 42036 - frontstreamlining.ldr
@@ -7133,6 +7146,7 @@
 1 4 80 32 24 -0.9984 -0.0289 -0.0492 0.032 0.4305 -0.902 0.0472 -0.9022 -0.4289 32013.dat
 
 
+0 STEP
 0 FILE 42036 - frontstreamlining2.ldr
 0 Secondary front streamlining unit of red bent liftarms, medium blue fairing panels, and angle connectors.
 0 Name: 42036 - frontstreamlining2.ldr
@@ -7181,6 +7195,7 @@
 1 4 60 -34 20 1 0 0 0 1 0 0 0 1 42036 - technicFlexAxle-1.ldr
 
 
+0 STEP
 0 FILE 42036 - technicFlexAxle-1.ldr
 0 Flexible Technic axle spanning approximately 106 mm with sixty segments.
 0 Name: 42036 - technicFlexAxle-1.ldr
@@ -10346,6 +10361,7 @@
 5 24 -121.5308 0 -3.6956 -121.5308 -3.8815 -3.6909 -122.8284 0 -2.8284 -120 0 -4
 5 24 -122.8284 0 -2.8284 -122.8284 -3.8771 -2.8237 -123.6956 0 -1.5308 -121.5308 0 -3.6956
 5 24 -123.6956 0 -1.5308 -123.6956 -3.8705 -1.5261 -124 0 0 -122.8284 0 -2.8284
+0 STEP
 0 FILE 42036 - technicFlexAxle-2.ldr
 0 Flexible Technic axle spanning approximately 92 mm with fifty-seven segments.
 0 Name: 42036 - technicFlexAxle-2.ldr
@@ -13349,6 +13365,7 @@
 5 24 -90.6958 -185.9534 50.5269 -87.348 -184.0705 49.3363 -89.8273 -187.0854 51.159 -91.479 -184.6055 50.4579
 5 24 -89.8273 -187.0854 51.159 -86.4881 -185.2074 49.9719 -89.0058 -187.8294 52.2577 -90.6958 -185.9534 50.5269
 5 24 -89.0058 -187.8294 52.2577 -85.6837 -185.9609 51.0769 -88.3564 -188.0719 53.656 -89.8273 -187.0854 51.159
+0 STEP
 0 FILE 42036 - technicFlexAxle-3.ldr
 0 Flexible Technic axle spanning approximately 92 mm with fifty-six segments.
 0 Name: 42036 - technicFlexAxle-3.ldr
@@ -16319,6 +16336,7 @@
 5 24 -90.6958 -185.9534 50.5269 -87.3251 -184.0576 49.3283 -89.8273 -187.0854 51.159 -91.479 -184.6055 50.4579
 5 24 -89.8273 -187.0854 51.159 -86.4652 -185.1945 49.9639 -89.0058 -187.8294 52.2577 -90.6958 -185.9534 50.5269
 5 24 -89.0058 -187.8294 52.2577 -85.661 -185.948 51.069 -88.3564 -188.0719 53.656 -89.8273 -187.0854 51.159
+0 STEP
 0 FILE 42036 - technicRibHoseLQ-1.ldr
 0 Ribbed flexible hose of forty mid segments and two end segments spanning approximately 88 mm.
 0 Name: 42036 - technicRibHoseLQ-1.ldr
@@ -16434,6 +16452,7 @@
 1 16 0 -109.0935 0.0004 1 0 0 0 1 0 0 0 1 80.dat
 0 // ~Technic Ribbed Hose End Segment (main_colour)
 1 16 0 -114.3198 0 1 0 0 0 -1 0.0001 0 -0.0001 -1 79.dat
+0 STEP
 0 FILE 42036 - technicRibHoseLQ-2.ldr
 0 Ribbed flexible hose of forty mid segments and two end segments spanning approximately 87 mm.
 0 Name: 42036 - technicRibHoseLQ-2.ldr
@@ -16549,6 +16568,7 @@
 1 16 0 -108.9518 0.0004 1 0 0 0 1 0 0 0 1 80.dat
 0 // ~Technic Ribbed Hose End Segment (main_colour)
 1 16 0 -114.2406 0 1 0 0 0 -1 0.0001 0 -0.0001 -1 79.dat
+0 STEP
 0 FILE 42036 - shock-06_5L-hard-1.ldr
 0 Hard 6.5L shock absorber unit with cylinder and piston rod for front suspension.
 0 Name: 42036 - shock-06_5L-hard-1.ldr
@@ -16594,6 +16614,7 @@
 
 0 //Spring mesh reference
 1 494 0 56 0 1 0 0 0 1 0 0 0 1 42036 - shock-06_5L-hard-1_springMesh.ldr
+0 STEP
 0 FILE 42036 - shock-06_5L-hard-1_springMesh.ldr
 0 Generated coil spring mesh for the hard 6.5L shock absorber with fifteen windings across five sections.
 0 Name: 42036 - shock-06_5L-hard-1_springMesh.ldr

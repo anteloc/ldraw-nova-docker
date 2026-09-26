@@ -51,6 +51,7 @@
 0 // =Plate  1 x  1 with Tooth (tan)
 1 19 30 24 -30 1 0 0 0 1 0 0 0 1 49673.dat
 
+0 STEP
 0 FILE 7210 - Neck & Tail.ldr
 0 A short dark bluish grey articulated segment made of hinge plates connected by a long plate, forming a flexible neck or tail extension.
 0 Name: 7210 - Neck & Tail.ldr
@@ -65,6 +66,7 @@
 0 // Plate  1 x  4 (dark_bluish_grey)
 1 72 0 -8 -20 0 0 1 0 1 0 -1 0 0 3710.dat
 
+0 STEP
 0 FILE 7210 - Head.ldr
 0 A small dark bluish grey dinosaur head with hinge attachment, featuring a trans red eye and a light bluish grey round detail.
 0 Name: 7210 - Head.ldr

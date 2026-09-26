@@ -11,6 +11,7 @@
 1 6 76 11 2 0 -1 0 1 0 0 0 0 1 2489.dat
 0 // Tile  1 x  2 with Dynamite Pattern (light_grey)
 1 7 96 17 2 0.934 -0.358 0 0.358 0.934 0 0 0 1 3069bp03.dat
+0 STEP
 0 FILE 6790 - Wheelgun.ldr
 0 A wheeled gun cart with mounted rifles, brackets, plates, and a 'Keep Out' warning sign.
 0 Name: 6790 - Wheelgun.ldr
@@ -49,6 +50,7 @@
 1 0 40 -3 -50 0 0 -1 0 1 0 1 0 0 2470.dat
 0 // Wheel  2.8 x 27 with  8 Spokes (black)
 1 0 -40 -3 -50 0 0 1 0 1 0 -1 0 0 2470.dat
+0 STEP
 0 FILE 6790 - Bandit.ldr
 0 A cowboy bandit minifigure wearing a hat, bandana, and jacket, armed with a revolver.
 0 Name: 6790 - Bandit.ldr

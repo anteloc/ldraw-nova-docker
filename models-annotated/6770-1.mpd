@@ -11,6 +11,7 @@
 1 0 84.573 0 434.177 0.92388 0 0.382683 0 1 0 -0.382683 0 0.92388 6770 - Vehicle - Back + Container.ldr
 
 
+0 STEP
 0 FILE 6770 - Vehicle - Front.ldr
 0 Front cab section of the vehicle built from white plates, slopes, black towball connector, grille tile, and small trans-red light plates.
 0 Name: 6770 - Vehicle - Front.ldr
@@ -110,6 +111,7 @@
 1 256 -50 10 150 0 0 1 0 1 0 -1 0 0 2346.dat
 
 
+0 STEP
 0 FILE 6770 - Vehicle - Front + Minifig.ldr
 0 The front vehicle cab assembly paired with the space minifig driver.
 0 Name: 6770 - Vehicle - Front + Minifig.ldr
@@ -123,6 +125,7 @@
 1 0 0 -77 98 1 0 0 0 1 0 0 0 1 6770 - Minifig.ldr
 
 
+0 STEP
 0 FILE 6770 - Vehicle - Back.ldr
 0 Rear chassis section of the vehicle featuring white plates, a towball socket hitch, large black and white wheels with rubber tyres, and handle bars.
 0 Name: 6770 - Vehicle - Back.ldr
@@ -196,6 +199,7 @@
 1 256 -50 10 -70 0 0 1 0 1 0 -1 0 0 2346.dat
 
 
+0 STEP
 0 FILE 6770 - Vehicle - Back + Container.ldr
 0 The rear vehicle chassis combined with the light-and-sound equipment container payload.
 0 Name: 6770 - Vehicle - Back + Container.ldr
@@ -209,6 +213,7 @@
 1 0 0 -112 -110 1 0 0 0 1 0 0 0 1 6770 - Vehicle - Container.ldr
 
 
+0 STEP
 0 FILE 6770 - Vehicle - Container.ldr
 0 Equipment container with a 9V battery box, electric contact plates, a light-and-sound siren brick, twin top lights, and red and green signal globes.
 0 Name: 6770 - Vehicle - Container.ldr
@@ -273,6 +278,7 @@
 0 // Dish  6 x  6 Inverted Webbed Type 1 (white)
 1 15 0 0 -160 0 0 1 0 1 0 -1 0 0 4285a.dat
 
+0 STEP
 0 FILE 6770 - Vehicle - Container - Antenna.ldr
 0 A communications antenna assembly with a hinged mount, cone, inverted 4x4 dish, and a trans-red indicator light.
 0 Name: 6770 - Vehicle - Container - Antenna.ldr
@@ -293,6 +299,7 @@
 0 // Brick  1 x  1 Round with Hollow Stud (trans_red)
 1 36 22 -58 0 0 0 -1 0 -1 0 -1 0 0 3062b.dat
 
+0 STEP
 0 FILE 6770 - Minifig.ldr
 0 A yellow Futuron space minifig with a white patterned torso, airtanks, arms, hands, and standard hips and legs.
 0 Name: 6770 - Minifig.ldr
@@ -325,6 +332,7 @@
 1 14 21.7494 14.3471 -20.4568 0.985 0.169948 -0.00296646 -0.17 0.984701 -0.017188 0 0.0174498 0.999697 3820.dat
 
 
+0 STEP
 0 FILE 6770 - Minifig - Helmet.ldr
 0 A yellow space helmet with a trans-dark-blue visor.
 0 Name: 6770 - Minifig - Helmet.ldr

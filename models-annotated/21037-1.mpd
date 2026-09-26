@@ -940,6 +940,7 @@
 
 
 
+0 STEP
 0 FILE 21037 - step75-84.ldr
 0 White structural framework with rounded corner panels, clear elements, and dark red accent tiles forming one of the building's colored pods.
 0 Author: Orion Pobursky [OrionP]
@@ -1005,6 +1006,7 @@
 
 
 
+0 STEP
 0 FILE 21037 - step85-94.ldr
 0 White wall structure with rounded corner and side panels, accented by medium blue tiles forming a blue-colored zone.
 0 Author: Orion Pobursky [OrionP]
@@ -1082,6 +1084,7 @@
 
 
 
+0 STEP
 0 FILE 21037 - step95-104.ldr
 0 White structural framework with rounded corner panels, clear elements, and dark blue accent tiles forming a dark blue-colored pod.
 0 Author: Orion Pobursky [OrionP]
@@ -1147,6 +1150,7 @@
 
 
 
+0 STEP
 0 FILE 21037 - step105-114.ldr
 0 White wall structure with rounded panels, clear and tan accents, and lime green tiles forming a lime-colored zone.
 0 Author: Orion Pobursky [OrionP]
@@ -1212,6 +1216,7 @@
 
 
 
+0 STEP
 0 FILE 21037 - step115-124.ldr
 0 White structural framework with rounded corner panels, clear elements, and green accent tiles forming a green-colored pod.
 0 Author: Orion Pobursky [OrionP]
@@ -1277,6 +1282,7 @@
 
 
 
+0 STEP
 0 FILE 21037 - step125-134.ldr
 0 White wall structure with rounded corner and side panels, featuring bright light yellow accent tiles forming a yellow-colored zone.
 0 Author: Orion Pobursky [OrionP]
@@ -1350,6 +1356,7 @@
 
 
 
+0 STEP
 0 FILE 21037 - step135-144.ldr
 0 White wall structure with rounded corner panels, tan accents, and bright light orange tiles forming an orange-colored zone.
 0 Author: Orion Pobursky [OrionP]
@@ -1413,6 +1420,7 @@
 
 
 
+0 STEP
 0 FILE 21037 - step145-156.ldr
 0 A white platform assembly with plates, rounded open studs, grooved tiles, and an orange accent tile forming an interior or rooftop detail section.
 0 Author: Orion Pobursky [OrionP]
@@ -1506,6 +1514,7 @@
 
 
 
+0 STEP
 0 FILE 21037 - step157-186.ldr
 0 A large white and tan platform assembly built on a light bluish grey 8x8 base with numerous plates, a blue plate accent, and clear grooved tiles forming the central connecting structure.
 0 Author: Orion Pobursky [OrionP]
@@ -1784,6 +1793,7 @@
 
 
 
+0 STEP
 0 FILE 21037 - step187-197.ldr
 0 A white rooftop structure with rounded corner panels, thin wall panels, grooved tiles, and clear round tiles forming an upper section with skylight-like elements.
 0 Author: Orion Pobursky [OrionP]
@@ -1880,6 +1890,7 @@
 
 
 
+0 STEP
 0 FILE 21037 - 15207.dat
 0 A primitive part definition modeling a thin-wall rounded-corner panel using basic geometric primitives (boxes, discs, and cylinders).
 0 Name: 21037 - 15207.dat
@@ -1943,6 +1954,7 @@
 
 
 
+0 STEP
 0 FILE 21037 - 4162p1c.dat
 0 A patterned tile part definition rendering the 'LEGO® House' text using txt2dat-generated character primitives.
 0 Name: 21037 - 4162p1c.dat

@@ -6,6 +6,7 @@
 
 1 71 0 3 -110 1 0 0 0 0.99 -0.139 0 0.139 0.99 31040 - model2.ldr
 0 STEP
+0 STEP
 0 FILE 31040 - model2.ldr
 0 Chassis and body assembly with plates, mudguard, brackets, grille panels, and wheel mounts forming the buggy's frame.
 0 Name: 31040 - model2.ldr
@@ -125,6 +126,7 @@
 1 71 -40 -22 60 0 0 1 0 -1 0 1 0 0 93593.dat
 0 // Tyre  6.4/ 75 x  8 Shallow Offset Tread with Centre Band (black)
 1 0 -40 -22 60 0 0 1 0 -1 0 1 0 0 31040 - 92409.dat
+0 STEP
 0 FILE 31040 - 92409.dat
 0 Wheel and tire assembly composed of cylinders and cones forming the rim and rubber.
 0 Name: 31040 - 92409.dat
@@ -250,6 +252,7 @@
 4 16 9.899 -9.899 8 5.358 -12.935 8 12.045 -17.202 8 14.85 -14.848 8
 4 16 8.875 -19.033001 8 12.045 -17.202 8 5.358 -12.935 8 5.435 -20.285 8
 4 16 5.358 -12.935 8 0 -14 8 1.83 -20.92 8 5.435 -20.285 8
+0 STEP
 0 FILE s\31040 - 92409s01.dat
 0 Wheel sub-part contributing to the tire/rim assembly.
 0 Name: s\31040 - 92409s01.dat

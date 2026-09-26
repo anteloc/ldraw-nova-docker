@@ -8,6 +8,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 8845 - Dune Buggy.ldr
 
 
+0 STEP
 0 FILE 8845 - Dune Buggy.ldr
 0 A red Technic dune buggy chassis built with long bricks, axles, bushings, plates, and a steering/drivetrain structure.
 0 Name: 8845 - Dune Buggy.ldr
@@ -353,6 +354,7 @@
 1 7 -60 10 -270 -1 0 0 0 0.985 0.174 0 0.174 -0.985 8845 - Wheel.ldr
 
 
+0 STEP
 0 FILE 8845 - Liftarm.ldr
 0 A small linkage assembly made of connectors, an axle, and a pin.
 0 Name: 8845 - Liftarm.ldr
@@ -370,6 +372,7 @@
 1 7 10 0 60 -1 0 0 0 1 0 0 0 -1 3673.dat
 
 
+0 STEP
 0 FILE 8845 - Shock Absorber.ldr
 0 A Technic shock absorber unit with a cylinder, piston rod, and coiled spring.
 0 Name: 8845 - Shock Absorber.ldr
@@ -416,6 +419,7 @@
 
 
 
+0 STEP
 0 FILE 8845 - Shock Absorber_springMesh.ldr
 0 The coiled spring mesh component of the shock absorber, defined by winding and dimensional parameters.
 0 Name: 8845 - Shock Absorber_springMesh.ldr
@@ -4708,6 +4712,7 @@
 5 24 -7.625 37.379101 0.156196 -7.183058 36.933212 0.011601 -7.625 36.750214 0.016406 -7 37.375 0
 
 
+0 STEP
 0 FILE 8845 - Wheel.ldr
 0 A single wheel assembly consisting of a light grey rim and a black offset-tread tyre.
 0 Name: 8845 - Wheel.ldr

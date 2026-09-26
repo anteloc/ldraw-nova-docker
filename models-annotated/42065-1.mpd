@@ -336,6 +336,7 @@
 1 4 -318.525 -317.144 -236.377 0.636 -0.683 0.36 0.25 -0.259 -0.933 0.73 0.683 0.006 3713.dat
 0 // Technic Bush with Two Flanges (red)
 1 4 -345.845 -327.497 -209.056 0.636 -0.683 0.36 0.25 -0.259 -0.933 0.73 0.683 0.006 3713.dat
+0 STEP
 0 FILE 42065 - front.ldr
 0 Front steering linkage assembly using lime bent liftarms, an axle with joiners, and friction pins.
 0 Author: Philippe Hurbain [Philo]
@@ -371,6 +372,7 @@
 1 0 40 -40 -80 -1 0 0 0 1 0 0 0 -1 32054.dat
 0 // Technic Pin Long with Stop Bush (black)
 1 0 40 -40 -20 -1 0 0 0 1 0 0 0 -1 32054.dat
+0 STEP
 0 FILE 42065 - powerFuncMotorM-LQ-1.ldr
 0 Flexible Power Functions medium motor cable assembly routed along a 152-segment path.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -411,6 +413,7 @@
 0 //  To ensure correct edge colors those segments are placed in (a) subpart(s).
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 42065 - powerFuncMotorM-LQ-1 subPart 1.ldr
 
+0 STEP
 0 FILE 42065 - powerFuncMotorM-LQ-1 subPart 1.ldr
 0 Subpart containing cable path segments for the medium motor wiring.
 0 Author: LDCad
@@ -578,6 +581,7 @@
 1 16 -118.877058 -23.3769 130.02176 -0.991436 0.392318 -0.001516 -0.130588 -2.977708 0.023113 0.001516 0.069437 0.999732 u9190.dat
 1 16 -118.986806 -21.421082 130.002335 -0.997641 0.206235 -0.000418 -0.068648 -2.996934 0.01215 0.000418 0.036502 0.999926 u9190.dat
 1 16 -119.01305 -19.532221 129.99769 -0.999611 0.083776 -0.000069 -0.027886 -3.003038 0.004936 0.000069 0.014828 0.999988 u9190.dat
+0 STEP
 0 FILE 42065 - powerFuncMotorM-LQ-2.ldr
 0 Flexible Power Functions medium motor cable assembly routed along a 107-segment path.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -617,6 +621,7 @@
 0 //  To ensure correct edge colors those segments are placed in (a) subpart(s).
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 42065 - powerFuncMotorM-LQ-2 subPart 1.ldr
 
+0 STEP
 0 FILE 42065 - powerFuncMotorM-LQ-2 subPart 1.ldr
 0 Subpart containing cable path segments for the second medium motor wiring.
 0 Author: LDCad
@@ -739,6 +744,7 @@
 1 16 98.891472 -423.303335 130.075717 0.990588 -0.408952 -0.013012 -0.136877 -2.959607 -0.094169 0 0.285315 -0.995471 u9190.dat
 1 16 98.99001 -421.352228 130.00697 0.997879 -0.195151 -0.002953 -0.065089 -2.991872 -0.045268 0 0.136152 -0.998971 u9190.dat
 1 16 99.013061 -419.499702 129.990888 0.999659 -0.078312 -0.000475 -0.026097 -2.9998 -0.018198 0 0.054636 -0.999834 u9190.dat
+0 STEP
 0 FILE 42065 - batterybox.ldr
 0 Power Functions battery box mounting unit with cross blocks and axle connectors.
 0 Author: Philippe Hurbain [Philo]
@@ -773,6 +779,7 @@
 0 // Technic Pin with Friction and Slots (black)
 1 0 80 -20 110 0 1 0 0 0 1 1 0 0 2780.dat
 1 71 90 0 150 0 -1 0 1 0 0 0 0 1 42065 - powerFuncIRRecV1-LQ-1.ldr
+0 STEP
 0 FILE 42065 - powerFuncIRRecV1-LQ-1.ldr
 0 Flexible Power Functions IR receiver cable assembly routed along an 85-segment path.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -812,6 +819,7 @@
 0 //  To ensure correct edge colors those segments are placed in (a) subpart(s).
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 42065 - powerFuncIRRecV1-LQ-1 subPart 1.ldr
 
+0 STEP
 0 FILE 42065 - powerFuncIRRecV1-LQ-1 subPart 1.ldr
 0 Subpart containing cable path segments for the IR receiver wiring.
 0 Author: LDCad
@@ -912,6 +920,7 @@
 1 16 -78.810814 56.50657 -189.900193 -0.982157 0.555139 -0.034469 -0.18741 -2.93497 0.097462 -0.015672 0.306827 0.994642 u9190.dat
 1 16 -78.988026 58.704199 -189.994132 -0.995137 0.289539 -0.020107 -0.097326 -2.984692 0.050042 -0.015161 0.155408 0.998545 u9190.dat
 1 16 -79.019504 60.654307 -190.010253 -0.999514 0.089456 -0.009147 -0.02993 -3.001026 0.015394 -0.008683 0.047024 0.99984 u9190.dat
+0 STEP
 0 FILE 42065 - body.ldr
 0 Vehicle body shell with lime fairing panels, white beams, angle connectors, and clear teeth details.
 0 Author: Philippe Hurbain [Philo]
@@ -1134,6 +1143,7 @@
 1 0 20 20.588 -342.845 0 0.138 0.99 0.106 -0.985 0.137 0.994 0.105 -0.015 2780.dat
 0 // Technic Panel  3 x 11 (black)
 1 0 -40 17.419 -372.677 1 0 0 0 0.994 0.106 0 -0.106 0.994 15458.dat
+0 STEP
 0 FILE 42065 - technicChainTread38Closed-1.ldr
 0 Closed loop of 37 chain tread links forming a continuous tank track.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -1233,6 +1243,7 @@
 1 16 -17.582857 46.803735 0 0 0.61734 0.786697 0 -0.786697 0.61734 1 0 0 57518.dat
 0 // Technic Chain Tread 5 Wide (main_colour)
 1 16 -41.282983 28.205674 0 0 0.955413 0.295272 0 -0.295272 0.955413 1 0 0 57518.dat
+0 STEP
 0 FILE 42065 - 32523p01.dat
 0 Printed Technic liftarm beam featuring the 40th anniversary '1977-2017' text and 24-tooth gear pattern.
 0 Name: 32523p01.dat
@@ -1758,6 +1769,7 @@
 4 16 9 -6.1 11.9 9 -5.35 10.7 9 -5.5 12.35 9 -6.4 13.3
 3 16 9 -6.4 13.3 9 -5.5 12.35 9 -5.85 13.25
 4 16 9 7.9 10.4 9 8.55 10.1 9 8.55 11.55 9 7.35 10.75
+0 STEP
 0 FILE 42065 - 24119.dat
 0 Smooth Technic panel part formed from connector holes, cylinders, and rectangular geometric primitives.
 0 Name: 24119.dat
@@ -2576,6 +2588,7 @@
 5 24 9 0 -52 9 0 -49 8.5059 -6.364 -40 8.3151 3.4443 -52
 5 24 9 0 -49 9 0 -40 8.5059 -6.364 -40 8.3151 3.4443 -43.444302
 5 24 9 0 -70 9 0 -52 8.5059 -6.364 -40 8.3151 3.4443 -70
+0 STEP
 0 FILE 42065 - 4185.dat
 0 Technic wedge belt wheel part composed of circular and cylindrical geometric primitives around an axle hole.
 0 Name: 4185.dat
@@ -3842,6 +3855,7 @@
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 8 1   R 6 6   R 8 1] [center=true] [slide=true]
 
 0 !LDCAD SNAP_CYL [gender=M] [caps=none] [secs=R 30 2   R 28 4   R 30 2] [center=true]
+0 STEP
 0 FILE 42065 - 58134.dat
 0 Power Functions IR remote control bottom shell modeled from boxes, cylinders, and discs (marked as needing further detailing).
 0 Name: 58134.dat

@@ -287,6 +287,7 @@
 1 71 360 -136 -20 0 0 1 0 1 0 -1 0 0 3069b.dat
 1 0 450 -26 -20 -1 0 0 0 0 1 0 1 0 21028 - 7.ldr
 
+0 STEP
 0 FILE 21028 - 1.ldr
 0 Statue of Liberty figure on a tan pedestal base, composed of tan plates and tiles with a sand green minifig statuette.
 0 Name: 21028 - 1.ldr
@@ -328,6 +329,7 @@
 
 
 
+0 STEP
 0 FILE 21028 - 1 - 1.ldr
 0 Small tan detail accent piece with a grooved tile and a round plate.
 0 Name: 21028 - 1 - 1.ldr
@@ -343,6 +345,7 @@
 
 
 
+0 STEP
 0 FILE 21028 - 2.ldr
 0 Tall building facade section with horizontal rows of grille tiles and bracket supports in tan and bluish grey.
 0 Name: 21028 - 2.ldr
@@ -426,6 +429,7 @@
 
 
 
+0 STEP
 0 FILE 21028 - 2 - 1.ldr
 0 Narrow vertical tan wall section with grille tiles between single-stud bricks.
 0 Name: 21028 - 2 - 1.ldr
@@ -451,6 +455,7 @@
 
 
 
+0 STEP
 0 FILE 21028 - 2 - 2.ldr
 0 Tiered tan building section with side-stud bricks, grille tile windows, and rounded corner panels.
 0 Name: 21028 - 2 - 2.ldr
@@ -557,6 +562,7 @@
 1 19 30 -136 0 -1 0 0 0 1 0 0 0 -1 3623.dat
 
 
+0 STEP
 0 FILE 21028 - 2 - 2 - 1.ldr
 0 Small tan detail panel with a row of grille tiles on a plate base.
 0 Name: 21028 - 2 - 2 - 1.ldr
@@ -578,6 +584,7 @@
 
 
 
+0 STEP
 0 FILE 21028 - 2 - 3.ldr
 0 Tiny tan decorative accent with a grooved tile on a single stud plate.
 0 Name: 21028 - 2 - 3.ldr
@@ -598,6 +605,7 @@
 1 0 0 -120 0 1 0 0 0 1 0 0 0 1 21028 - 2 - 3 - 1.ldr
 
 
+0 STEP
 0 FILE 21028 - 2 - 3 - 1.ldr
 0 Compact tan structural element using plates and side-stud bricks.
 0 Name: 21028 - 2 - 3 - 1.ldr
@@ -619,6 +627,7 @@
 
 
 
+0 STEP
 0 FILE 21028 - 2 - 4.ldr
 0 Long horizontal tan section featuring a row of grille tiles on an extended plate.
 0 Name: 21028 - 2 - 4.ldr
@@ -642,6 +651,7 @@
 
 
 
+0 STEP
 0 FILE 21028 - 2 - 5.ldr
 0 Short tan window section with grille tiles mounted on plates.
 0 Name: 21028 - 2 - 5.ldr
@@ -661,6 +671,7 @@
 
 
 
+0 STEP
 0 FILE 21028 - 2 - 6.ldr
 0 Decorative tan and grey rooftop detail combining grille tiles, grooved tiles, and a four-sided stud brick.
 0 Name: 21028 - 2 - 6.ldr
@@ -686,6 +697,7 @@
 
 
 
+0 STEP
 0 FILE 21028 - 2 - 7.ldr
 0 Antenna or spire assembly of a round plate, finned brick, cone, and light bluish grey bar.
 0 Name: 21028 - 2 - 7.ldr
@@ -705,6 +717,7 @@
 
 
 
+0 STEP
 0 FILE 21028 - 3.ldr
 0 Transparent clear glass panel structure on a white plate base, suggesting a glass-walled building.
 0 Name: 21028 - 3.ldr
@@ -730,6 +743,7 @@
 
 
 
+0 STEP
 0 FILE 21028 - 4.ldr
 0 Glass-fronted building section built from transparent clear plates on white plates.
 0 Name: 21028 - 4.ldr
@@ -759,6 +773,7 @@
 
 
 
+0 STEP
 0 FILE 21028 - 4 - 1.ldr
 0 Small transparent clear window detail on a white plate.
 0 Name: 21028 - 4 - 1.ldr
@@ -776,6 +791,7 @@
 
 
 
+0 STEP
 0 FILE 21028 - 5.ldr
 0 Slender antenna or spire detail composed of a hollow-stud round brick, a cone, and a light bluish grey bar.
 0 Name: 21028 - 5.ldr
@@ -793,6 +809,7 @@
 
 
 
+0 STEP
 0 FILE 21028 - 6.ldr
 0 Stepped pyramid-like structure built from angled wing pieces in tan, light bluish grey, and dark bluish grey.
 0 Name: 21028 - 6.ldr
@@ -848,6 +865,7 @@
 
 
 
+0 STEP
 0 FILE 21028 - 7.ldr
 0 Broad building or base structure with light bluish grey tiles and tan side-stud bricks on a plate foundation.
 0 Name: 21028 - 7.ldr
@@ -911,6 +929,7 @@
 
 
 
+0 STEP
 0 FILE 21028 - 7 - 1.ldr
 0 Symmetrical structural connector sub-assembly with clip plates, side-stud bricks, and yellow accent plates.
 0 Name: 21028 - 7 - 1.ldr
@@ -942,6 +961,7 @@
 
 
 
+0 STEP
 0 FILE 21028 - 7 - 2.ldr
 0 Symmetrical structural connector sub-assembly with clip plates, side-stud bricks, and yellow accent plates.
 0 Name: 21028 - 7 - 2.ldr
@@ -973,6 +993,7 @@
 
 
 
+0 STEP
 0 FILE 21028 - 7 - 3.ldr
 0 Tall tower section with yellow technic bricks and blue pins, sand blue walls, and a black cylinder handle element.
 0 Name: 21028 - 7 - 3.ldr
@@ -1172,6 +1193,7 @@
 
 
 
+0 STEP
 0 FILE 21028 - 7 - 4.ldr
 0 Ornate rooftop detail assembly featuring round bricks, a bar stop, and a white flat-top antenna.
 0 Name: 21028 - 7 - 4.ldr
@@ -1208,6 +1230,7 @@
 1 379 0 -40 26 0 0 -1 1 0 0 0 -1 0 21028 - 7 - 4 - 1.ldr
 
 
+0 STEP
 0 FILE 21028 - 7 - 4 - 1.ldr
 0 Angled wall panel of sand blue sloped plates backed by a light bluish grey plate and tile.
 0 Name: 21028 - 7 - 4 - 1.ldr
@@ -1239,6 +1262,7 @@
 
 
 
+0 STEP
 0 FILE 21028 - 7 - 5.ldr
 0 Round tower top or connector assembly with axlehole plates, side-stud bricks, and sand blue tile cladding.
 0 Name: 21028 - 7 - 5.ldr
@@ -1284,6 +1308,7 @@
 
 
 
+0 STEP
 0 FILE 21028 - 7 - 6.ldr
 0 A small assembly using inverted dishes and a bar piece, likely forming a rounded structural detail or antenna-like element.
 0 Name: 21028 - 7 - 6.ldr

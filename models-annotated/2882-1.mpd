@@ -10,6 +10,7 @@
 1 16 -40 24 -0.005 1 0 0 0 1 0 0 0 1 2882 - boat.ldr
 
 
+0 STEP
 0 FILE 2882 - boat.ldr
 0 A small watercraft built with a windscreen, steering wheel, hull-forming sloped wings, and accent plates in red, black, and yellow.
 0 Name: 2882 - boat.ldr
@@ -54,6 +55,7 @@
 1 0 40 -24 0.005 0 0 -1 0 1 0 1 0 0 4855.DAT
 
 
+0 STEP
 0 FILE 2882 - minifig.ldr
 0 A female minifig with a ponytail, white shirt with pockets, and a yellow life vest.
 0 Name: 2882 - minifig.ldr

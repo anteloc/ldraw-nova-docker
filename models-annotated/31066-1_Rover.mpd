@@ -9,6 +9,7 @@
 1 1 160 -40 30 0.819 0 -0.574 0 1 0 0.574 0 0.819 31066 - astronaut.ldr
 
 
+0 STEP
 0 FILE 31066 - astronaut.ldr
 0 A spacesuit-clad astronaut minifigure with a white torso featuring a space shuttle logo, a helmet with a trans-brown visor, and dark bluish-grey hands.
 0 Name: 31066 - astronaut.ldr
@@ -40,6 +41,7 @@
 1 40 0 -56 0 0.995 0 -0.1 0 1 0 0.1 0 0.995 31066 - 2447.dat
 
 
+0 STEP
 0 FILE 31066 - rover.ldr
 0 A six-wheeled blue and white exploration rover built on a black chassis plate, with trans-neon-orange lights, technic-brick framing, and red side-stud bricks.
 0 Name: 31066 - rover.ldr
@@ -357,6 +359,7 @@
 1 40 0 -112 -190 1 0 0 0 1 0 0 0 1 18972.dat
 
 
+0 STEP
 0 FILE 31066 - arm1.ldr
 0 A short articulated technic arm segment using angle connectors, an axle, and friction pins.
 0 Name: 31066 - arm1.ldr
@@ -376,6 +379,7 @@
 1 0 -10 0 100 1 0 0 0 1 0 0 0 1 2780.dat
 
 
+0 STEP
 0 FILE 31066 - arm2.ldr
 0 A robotic arm segment with a rounded grey cylinder/dome end piece mounted via an angle connector on an axle.
 0 Name: 31066 - arm2.ldr
@@ -393,6 +397,7 @@
 1 72 0 0 91 0 0 -1 1 0 0 0 -1 0 6143.dat
 
 
+0 STEP
 0 FILE 31066 - solarpanel.ldr
 0 A tiltable solar panel array with trans-light-blue panel tiles mounted on a hinged pearl-gold and technic frame.
 0 Name: 31066 - solarpanel.ldr
@@ -425,6 +430,7 @@
 1 0 0 0 0 -1 0 0 0 0.924 -0.383 0 -0.383 -0.924 15100.dat
 
 
+0 STEP
 0 FILE 31066 - 3626cp80.dat
 0 A quarter-cylinder primitive component used as a geometric subpart.
 0 Name: 31066 - 3626cp80.dat
@@ -999,6 +1005,7 @@
 1 16 0 4 0 -5.65883 0 5.65488 0 -6.4 0 -5.65488 0 -5.65883 t04o6250.dat
 4 16 -6.68 9.23 10.8713 -6.43 7.84 11.0384 -6.27 7.58 11.1453 -6.24 9.45 11.1654
 
+0 STEP
 0 FILE 31066 - 2447.dat
 0 A geometric primitive assembly combining cylinders, discs, rings, spheres, and circles forming a rounded part.
 0 Name: 31066 - 2447.dat
@@ -1135,6 +1142,7 @@
 
 0 !LDCAD SNAP_GEN [group=visor] [gender=M] [bounding=cyl 2 15] [match=size]
 
+0 STEP
 0 FILE 31066 - 3665a.dat
 0 An empty geometric subpart with no direct pieces of its own.
 0 Name: 31066 - 3665a.dat
@@ -1156,6 +1164,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\31066 - 3665as01.dat
 4 16 10 24 -10 10 4 -30 -10 4 -30 -10 24 -10
 
+0 STEP
 0 FILE 31066 - 11291.dat
 0 A geometric primitive assembly made of box-shaped faces forming a detailed part.
 0 Name: 31066 - 11291.dat
@@ -1185,6 +1194,7 @@
 4 16 20 8 6 -20 8 6 -20 8 10 20 8 10
 4 16 20 8 -10 -20 8 -10 -20 8 -6 20 8 -6
 
+0 STEP
 0 FILE s\31066 - 3665as01.dat
 0 A geometric subpart composed of boxes and rectangles defining a sloped brick shape.
 0 Name: s\31066 - 3665as01.dat
@@ -1238,6 +1248,7 @@
 1 16 0 4 -20 1 0 0 0 2 0 0 0 1 stud2a.dat
 1 16 0 4 -20 0 0 1 0 6 0 -1 0 0 stud2s.dat
 
+0 STEP
 0 FILE s\31066 - 11291s01.dat
 0 An empty geometric subpart shell with no direct pieces of its own.
 0 Name: s\31066 - 11291s01.dat

@@ -8,6 +8,7 @@
 1 70 0 -110 340 -1 0 0 0 1 0 0 0 -1 42131 - bull.ldr
 
 
+0 STEP
 0 FILE 42131 - bull.ldr
 0 Large structural core of the bulldozer built from heavy Technic liftarms, a differential, bevel gears, and pins.
 0 Name: 42131 - bull.ldr
@@ -1338,6 +1339,7 @@
 1 4 406.969 -20 838.042 0 0 1 1 0 0 0 1 0 3713.dat
 
 
+0 STEP
 0 FILE 42131 - spikePrimeMotorL-LQ-1.ldr
 0 Powered Up large angular motor unit with cable routing metadata for flexible wiring.
 0 Name: 42131 - spikePrimeMotorL-LQ-1.ldr
@@ -1390,6 +1392,7 @@
 
 
 
+0 STEP
 0 FILE 42131 - spikePrimeMotorL-LQ-1_subPart1.ldr
 0 Cable path geometry subpart defining routing segments for a Powered Up motor.
 0 Name: 42131 - spikePrimeMotorL-LQ-1_subPart1.ldr
@@ -2712,6 +2715,7 @@
 1 16 520.001843 16.201391 60.001898 -0.000068 -0.004189 0.999991 -0.009425 -0.999947 -0.004189 0.999956 -0.009425 0.000029 u9218.dat
 
 
+0 STEP
 0 FILE 42131 - spikePrimeMotorL-LQ-2.ldr
 0 Powered Up large angular motor unit with cable routing metadata for flexible wiring.
 0 Name: 42131 - spikePrimeMotorL-LQ-2.ldr
@@ -2764,6 +2768,7 @@
 
 
 
+0 STEP
 0 FILE 42131 - spikePrimeMotorL-LQ-2_subPart1.ldr
 0 Cable path geometry subpart defining routing segments for a Powered Up motor.
 0 Name: 42131 - spikePrimeMotorL-LQ-2_subPart1.ldr
@@ -4091,6 +4096,7 @@
 1 16 -519.999775 16.163269 60.001738 0.000084 0.004743 0.999989 -0.010647 -0.999932 0.004744 0.999943 -0.010647 -0.000034 u9218.dat
 
 
+0 STEP
 0 FILE 42131 - chassis2.ldr
 0 Compact chassis frame segment using long beams and open-center liftarms with connector pins.
 0 Name: 42131 - chassis2.ldr
@@ -4132,6 +4138,7 @@
 1 0 80 -10 20 0 -1 0 1 0 0 0 0 1 42131 - 61332.dat
 
 
+0 STEP
 0 FILE 42131 - hub.ldr
 0 Control+ smart hub mounting assembly with beams and pins securing the electronic control unit.
 0 Name: 42131 - hub.ldr
@@ -4208,6 +4215,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42131 - gearbox.ldr
 0 Multi-speed gearbox mechanism with reinforced 16-tooth gears, axles, and H-shaped liftarm framing.
 0 Name: 42131 - gearbox.ldr
@@ -4678,6 +4686,7 @@
 1 72 40 0 -310 1 0 0 0 1 0 0 0 1 59443.dat
 
 
+0 STEP
 0 FILE 42131 - controlPlusMotorL-LQ-1.ldr
 0 Control+ L motor unit with white cable stub and flexible cable routing metadata.
 0 Name: 42131 - controlPlusMotorL-LQ-1.ldr
@@ -4729,6 +4738,7 @@
 
 
 
+0 STEP
 0 FILE 42131 - controlPlusMotorL-LQ-1_subPart1.ldr
 0 Cable path geometry subpart defining routing segments for a Control+ L motor.
 0 Name: 42131 - controlPlusMotorL-LQ-1_subPart1.ldr
@@ -4887,6 +4897,7 @@
 1 16 -23.380927 -19.990573 179.954833 0.014748 -3.991649 -0.071241 -0.99987 -0.060738 0.005465 -0.006532 0.284765 -0.997444 u9218.dat
 
 
+0 STEP
 0 FILE 42131 - controlPlusMotorL-LQ-2.ldr
 0 Control+ L motor unit with white cable stub and flexible cable routing metadata.
 0 Name: 42131 - controlPlusMotorL-LQ-2.ldr
@@ -4938,6 +4949,7 @@
 
 
 
+0 STEP
 0 FILE 42131 - controlPlusMotorL-LQ-2_subPart1.ldr
 0 Cable path geometry subpart defining routing segments for a Control+ L motor.
 0 Name: 42131 - controlPlusMotorL-LQ-2_subPart1.ldr
@@ -5096,6 +5108,7 @@
 1 16 23.380784 -19.990584 179.956827 -0.014748 3.991649 -0.071241 -0.99987 -0.060738 -0.005465 -0.006532 0.284765 0.997444 u9218.dat
 
 
+0 STEP
 0 FILE 42131 - gearbox2.ldr
 0 Auxiliary gearbox linkage with bent liftarms, gears, and toggle joint connectors.
 0 Name: 42131 - gearbox2.ldr
@@ -5150,6 +5163,7 @@
 1 19 -57 -60 20 0 0 1 -1 0 0 0 -1 0 6589.dat
 
 
+0 STEP
 0 FILE 42131 - gearbox3.ldr
 0 Auxiliary gearbox linkage with bent liftarms, gears, and toggle joint connectors.
 0 Name: 42131 - gearbox3.ldr
@@ -5204,6 +5218,7 @@
 1 19 -57 60 20 0 0 1 -1 0 0 0 -1 0 6589.dat
 
 
+0 STEP
 0 FILE 42131 - gearbox4.ldr
 0 Small shifter lever assembly using cross blocks, bent liftarms, and an axle-pin connector.
 0 Name: 42131 - gearbox4.ldr
@@ -5237,6 +5252,7 @@
 1 14 40 -40 -20 -1 0 0 0 1 0 0 0 -1 32073.dat
 
 
+0 STEP
 0 FILE 42131 - gearbox5.ldr
 0 Small shifter lever assembly using cross blocks, bent liftarms, and an axle-pin connector.
 0 Name: 42131 - gearbox5.ldr
@@ -5270,6 +5286,7 @@
 1 14 -40 -40 -20 -1 0 0 0 1 0 0 0 -1 32073.dat
 
 
+0 STEP
 0 FILE 42131 - gearbox6.ldr
 0 Worm-gear reduction stage mounted on an open-center beam frame for high-torque drive.
 0 Name: 42131 - gearbox6.ldr
@@ -5308,6 +5325,7 @@
 1 71 0 0 -80 0 0 1 -1 0 0 0 -1 0 32525.dat
 
 
+0 STEP
 0 FILE 42131 - onswitch.ldr
 0 Power-on switch mechanism with an orange liftarm lever, joiners, and bushings.
 0 Name: 42131 - onswitch.ldr
@@ -5338,6 +5356,7 @@
 1 4 65 -40 -40 0 1 0 -1 0 0 0 0 1 32056.dat
 
 
+0 STEP
 0 FILE 42131 - side1.ldr
 0 Left body side panel with a trapezium fairing, beams, and connector pins.
 0 Name: 42131 - side1.ldr
@@ -5371,6 +5390,7 @@
 1 0 20 -70 -240 0 1 0 1 0 0 0 0 -1 42131 - 61332.dat
 
 
+0 STEP
 0 FILE 42131 - chassis3.ldr
 0 Central chassis section with alternating-hole beams, connector blocks, and cross blocks.
 0 Name: 42131 - chassis3.ldr
@@ -5457,6 +5477,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42131 - side2.ldr
 0 Right body side panel with a trapezium fairing, beams, and connector pins.
 0 Name: 42131 - side2.ldr
@@ -5490,6 +5511,7 @@
 1 0 -20 -70 -240 0 -1 0 -1 0 0 0 0 -1 42131 - 61332.dat
 
 
+0 STEP
 0 FILE 42131 - chassis4.ldr
 0 Rear chassis segment with bent liftarms, axle joiners, and yellow supporting beams.
 0 Name: 42131 - chassis4.ldr
@@ -5569,6 +5591,7 @@
 1 14 -220 20 20 -0.6 0 0.8 0 1 0 -0.8 0 -0.6 6629.dat
 
 
+0 STEP
 0 FILE 42131 - chassis4a.ldr
 0 Mirrored rear chassis segment with bent liftarms and yellow supporting beams.
 0 Name: 42131 - chassis4a.ldr
@@ -5617,6 +5640,7 @@
 1 14 60 0 -100 1 0 0 0 0 1 0 -1 0 32184.dat
 
 
+0 STEP
 0 FILE 42131 - engine.ldr
 0 Detailed V-engine with twelve cylinders, pistons, connecting rods, and a dual crankshaft.
 0 Name: 42131 - engine.ldr
@@ -5843,6 +5867,7 @@
 1 4 -40 90 300 0 1 0 1 0 0 0 0 -1 42131 - 65304.dat
 
 
+0 STEP
 0 FILE 42131 - exhaust.ldr
 0 Twin exhaust system built from beams, cross blocks, and elbow cylinders arranged along an alternating-hole beam.
 0 Name: 42131 - exhaust.ldr
@@ -6060,6 +6085,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42131 - side3.ldr
 0 Yellow trapezium body panel mounted on bent beams forming one side fairing.
 0 Name: 42131 - side3.ldr
@@ -6088,6 +6114,7 @@
 1 14 -60 -60 40 0 0 1 0 -1 0 1 0 0 42131 - 32526.dat
 
 
+0 STEP
 0 FILE 42131 - side4.ldr
 0 Yellow trapezium body panel mounted on bent beams forming the opposite side fairing.
 0 Name: 42131 - side4.ldr
@@ -6116,6 +6143,7 @@
 1 14 60 -60 40 0 0 -1 0 1 0 1 0 0 42131 - 32526.dat
 
 
+0 STEP
 0 FILE 42131 - engineside1.ldr
 0 Yellow engine side panel assembly with an 11-stud beam, joiners, and perpendicular pin connectors.
 0 Name: 42131 - engineside1.ldr
@@ -6165,6 +6193,7 @@
 1 14 -25 -80 20 0 -1 0 -1 0 0 0 0 -1 6632.dat
 
 
+0 STEP
 0 FILE 42131 - engineside2.ldr
 0 Yellow 5x11 engine side panel reinforced with a long beam and friction pins.
 0 Name: 42131 - engineside2.ldr
@@ -6185,6 +6214,7 @@
 1 1 0 -110 -40 0 0 1 -1 0 0 0 -1 0 43093.dat
 
 
+0 STEP
 0 FILE 42131 - engineside3.ldr
 0 Yellow engine side panel assembly mirroring engineside1 with joiners and perpendicular pin connectors.
 0 Name: 42131 - engineside3.ldr
@@ -6234,6 +6264,7 @@
 1 14 25 -80 20 0 1 0 1 0 0 0 0 -1 6632.dat
 
 
+0 STEP
 0 FILE 42131 - engineside4.ldr
 0 Yellow 5x11 engine side panel mirroring engineside2 with a long beam and friction pins.
 0 Name: 42131 - engineside4.ldr
@@ -6254,6 +6285,7 @@
 1 1 0 -110 -40 0 0 1 -1 0 0 0 -1 0 43093.dat
 
 
+0 STEP
 0 FILE 42131 - engineroof.ldr
 0 Black and yellow engine hood framing using trapezium panels, beams, and cross blocks forming the roof cover.
 0 Name: 42131 - engineroof.ldr
@@ -6374,6 +6406,7 @@
 1 0 -90 0 300 1 0 0 0 0 -1 0 1 0 42131 - 61332.dat
 
 
+0 STEP
 0 FILE 42131 - grid.ldr
 0 Long gear-rack and beam framework mounted on axles providing a sliding rack guide assembly.
 0 Name: 42131 - grid.ldr
@@ -6425,6 +6458,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42131 - bladelift1.ldr
 0 Motorized blade-lift mechanism using a geared 9V motor, linear actuator, bevel gears, and liftarms.
 0 Name: 42131 - bladelift1.ldr
@@ -6476,6 +6510,7 @@
 1 71 -60 40 50 0 0 -1 0 -1 0 -1 0 0 42131 - 44874.dat
 
 
+0 STEP
 0 FILE 42131 - footway1.ldr
 0 Yellow walkway platform of thin liftarms joined by angle connectors and axles.
 0 Name: 42131 - footway1.ldr
@@ -6542,6 +6577,7 @@
 1 0 20 -140 40 0 0 1 0 -1 0 1 0 0 32014.dat
 
 
+0 STEP
 0 FILE 42131 - bladelift2.ldr
 0 Motorized blade-lift mechanism mirroring bladelift1 with motor, linear actuator, and bevel gears.
 0 Name: 42131 - bladelift2.ldr
@@ -6593,6 +6629,7 @@
 1 71 60 40 50 0 0 1 0 -1 0 1 0 0 42131 - 44874.dat
 
 
+0 STEP
 0 FILE 42131 - footway2.ldr
 0 Yellow walkway platform mirroring footway1 of thin liftarms joined by angle connectors and axles.
 0 Name: 42131 - footway2.ldr
@@ -6659,6 +6696,7 @@
 1 0 20 -140 -40 0 0 1 0 -1 0 1 0 0 32014.dat
 
 
+0 STEP
 0 FILE 42131 - track1.ldr
 0 Track assembly of gear racks, bent liftarms, and multiple axles forming the crawler tread frame.
 0 Name: 42131 - track1.ldr
@@ -6909,6 +6947,7 @@
 1 4 -70 0 120 0 0 -1 1 0 0 0 -1 0 42131 - 65304.dat
 
 
+0 STEP
 0 FILE 42131 - roller1.ldr
 0 Track roller wheel set with four rubber tyres on bevel-gear-driven rims supported by triangle liftarms.
 0 Name: 42131 - roller1.ldr
@@ -6973,6 +7012,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42131 - roller2.ldr
 0 Track roller wheel set mirroring roller1 with four rubber tyres on rims supported by triangle liftarms.
 0 Name: 42131 - roller2.ldr
@@ -7030,6 +7070,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42131 - trackside1.ldr
 0 Decorated track-side body section with smooth panels, fairing, and a turntable mounted on long beams.
 0 Name: 42131 - trackside1.ldr
@@ -7145,6 +7186,7 @@
 1 0 40 40 -400 1 0 0 0 -1 0 0 0 -1 3705.dat
 
 
+0 STEP
 0 FILE 42131 - trackside2.ldr
 0 Decorated track-side body section mirroring trackside1 with smooth panels, fairing, and open-center beams.
 0 Name: 42131 - trackside2.ldr
@@ -7236,6 +7278,7 @@
 1 1 20 -40 -200 1 0 0 0 -1 0 0 0 -1 42131 - 42924.dat
 
 
+0 STEP
 0 FILE 42131 - technicChainTread38Closed-1.ldr
 0 Closed-loop chain tread path metadata defining a 58-segment tread loop.
 0 Name: 42131 - technicChainTread38Closed-1.ldr
@@ -7271,6 +7314,7 @@
 
 
 
+0 STEP
 0 FILE 42131 - technicChainTread38Closed-1_subPart1.ldr
 0 Subpart containing the 58 cleated chain tread links forming the closed tread loop.
 0 Name: 42131 - technicChainTread38Closed-1_subPart1.ldr
@@ -7406,6 +7450,7 @@
 1 16 141.62353 181.794486 0 0 0.437035 0.899444 0 -0.899444 0.437035 1 0 0 42131 - 69910.dat
 
 
+0 STEP
 0 FILE 42131 - track2.ldr
 0 Track assembly mirroring track1 of gear racks, bent liftarms, and multiple axles forming the crawler tread frame.
 0 Name: 42131 - track2.ldr
@@ -7656,6 +7701,7 @@
 1 4 70 0 120 0 0 -1 1 0 0 0 -1 0 42131 - 65304.dat
 
 
+0 STEP
 0 FILE 42131 - trackside4.ldr
 0 Decorated track-side body section mirroring trackside2 with smooth panels, fairing, and open-center beams.
 0 Name: 42131 - trackside4.ldr
@@ -7747,6 +7793,7 @@
 1 1 -20 -40 -200 -1 0 0 0 -1 0 0 0 1 42131 - 42924.dat
 
 
+0 STEP
 0 FILE 42131 - trackside3.ldr
 0 Decorated track-side body section mirroring trackside1 with smooth panels, fairing, and a turntable on long beams.
 0 Name: 42131 - trackside3.ldr
@@ -7862,6 +7909,7 @@
 1 0 -40 40 -400 1 0 0 0 -1 0 0 0 -1 3705.dat
 
 
+0 STEP
 0 FILE 42131 - roller3.ldr
 0 Track roller wheel set mirroring roller1 with four rubber tyres on bevel-gear-driven rims supported by triangle liftarms.
 0 Name: 42131 - roller3.ldr
@@ -7926,6 +7974,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42131 - roller4.ldr
 0 Track roller wheel set mirroring roller2 with four rubber tyres on rims supported by triangle liftarms.
 0 Name: 42131 - roller4.ldr
@@ -7983,6 +8032,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42131 - cabin1.ldr
 0 Large cabin structural framework built from beams, gears, and pins forming the main operator cabin skeleton.
 0 Name: 42131 - cabin1.ldr
@@ -9025,6 +9075,7 @@
 1 4 220 -140 100 -1 0 0 0 1 0 0 0 -1 6141.dat
 
 
+0 STEP
 0 FILE 42131 - cabin2.ldr
 0 Compact beam and pin assembly forming a smaller section of the cabin structure.
 0 Name: 42131 - cabin2.ldr
@@ -9058,6 +9109,7 @@
 1 14 -20 0 60 0 1 0 0 0 1 1 0 0 32316.dat
 
 
+0 STEP
 0 FILE 42131 - cabin3.ldr
 0 Long yellow and grey beams joined with pins creating a lateral cabin support frame.
 0 Name: 42131 - cabin3.ldr
@@ -9128,6 +9180,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42131 - cabin4.ldr
 0 Black-panelled cabin section with bent liftarms and beams forming a dark structural wall.
 0 Name: 42131 - cabin4.ldr
@@ -9228,6 +9281,7 @@
 1 14 120 -80 -40 0 -1 0 0 0 1 -1 0 0 42131 - 32526.dat
 
 
+0 STEP
 0 FILE 42131 - cabin5.ldr
 0 Yellow-panelled cabin side with panels and beams forming a body panel assembly.
 0 Name: 42131 - cabin5.ldr
@@ -9302,6 +9356,7 @@
 1 1 -100 0 -120 0 -1 0 0 0 1 -1 0 0 42131 - 42924.dat
 
 
+0 STEP
 0 FILE 42131 - cabin6.ldr
 0 Simple yellow-panelled cabin section with panels mounted on a beam frame.
 0 Name: 42131 - cabin6.ldr
@@ -9338,6 +9393,7 @@
 1 14 80 0 -20 0 -1 0 -1 0 0 0 0 -1 32524.dat
 
 
+0 STEP
 0 FILE 42131 - cabin7.ldr
 0 Angled beam assembly with connectors and bushes forming a cabin support strut.
 0 Name: 42131 - cabin7.ldr
@@ -9395,6 +9451,7 @@
 1 4 20 60 -100 -1 0 0 0 0 -1 0 -1 0 11214.dat
 
 
+0 STEP
 0 FILE 42131 - cabin8.ldr
 0 Small bent liftarm and beam assembly forming a minor cabin bracket.
 0 Name: 42131 - cabin8.ldr
@@ -9430,6 +9487,7 @@
 1 4 -20 -60 -60 0 0 1 1 0 0 0 1 0 11214.dat
 
 
+0 STEP
 0 FILE 42131 - cabin9.ldr
 0 Mechanical linkage subassembly with universal joints, gears, and a linear actuator for cabin movement.
 0 Name: 42131 - cabin9.ldr
@@ -9504,6 +9562,7 @@
 1 14 -25 -20 -120 0 1 0 0 0 1 1 0 0 6632.dat
 
 
+0 STEP
 0 FILE 42131 - seat.ldr
 0 Operator seat built from bent liftarms, beams, and pins in black.
 0 Name: 42131 - seat.ldr
@@ -9580,6 +9639,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42131 - dash1.ldr
 0 Dashboard assembly using angle connectors, cross blocks, and plates with pegholes.
 0 Name: 42131 - dash1.ldr
@@ -9623,6 +9683,7 @@
 1 0 0 0 40 0 0 -1 1 0 0 0 -1 0 42131 - 60483.dat
 
 
+0 STEP
 0 FILE 42131 - cabina.ldr
 0 Major yellow-panelled cabin wall with connector blocks and beams forming a large body section.
 0 Name: 42131 - cabina.ldr
@@ -9756,6 +9817,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42131 - cabinb.ldr
 0 Cabin section with panels, plates, and angle connectors forming a detailed body panel.
 0 Name: 42131 - cabinb.ldr
@@ -9826,6 +9888,7 @@
 1 14 -100 54 -8 0 -1 0 0.8 0 0.6 -0.6 0 0.8 43857.dat
 
 
+0 STEP
 0 FILE 42131 - cabinc.ldr
 0 Black-panelled cabin section with beams and panels forming a dark structural element.
 0 Name: 42131 - cabinc.ldr
@@ -9875,6 +9938,7 @@
 1 0 -200 0 -40 0 0 1 1 0 0 0 1 0 42131 - 60483.dat
 
 
+0 STEP
 0 FILE 42131 - cabinhc.ldr
 0 Small yellow beam and pin joiner assembly forming a cabin hinge connector.
 0 Name: 42131 - cabinhc.ldr
@@ -9910,6 +9974,7 @@
 1 1 80 0 -20 -1 0 0 0 0 1 0 1 0 42131 - 42924.dat
 
 
+0 STEP
 0 FILE 42131 - cabind.ldr
 0 Axle joiner and liftarm assembly forming a rigid cabin linkage bar.
 0 Name: 42131 - cabind.ldr
@@ -9959,6 +10024,7 @@
 1 0 0 -150 0 0 1 0 0 0 1 1 0 0 59443.dat
 
 
+0 STEP
 0 FILE 42131 - cabinroof.ldr
 0 Cabin roof built from black panels, long beams, and bent liftarms forming an overhead cover.
 0 Name: 42131 - cabinroof.ldr
@@ -10046,6 +10112,7 @@
 1 0 40 -25 60 1 0 0 0 -1 0 0 0 -1 11478.dat
 
 
+0 STEP
 0 FILE 42131 - cabinroof2.ldr
 0 Secondary cabin roof section with a long beam, clear tiles, and cross blocks forming a roof detail.
 0 Name: 42131 - cabinroof2.ldr
@@ -10101,6 +10168,7 @@
 1 0 -140 40 10 0 1 0 0 0 -1 -1 0 0 42131 - 61332.dat
 
 
+0 STEP
 0 FILE 42131 - ladder.ldr
 0 Access ladder built from long beams, axle joiners, and cross blocks forming stepped rungs.
 0 Name: 42131 - ladder.ldr
@@ -10202,6 +10270,7 @@
 1 72 -33.287 -21.111 140 0.986 0 -0.166 0.166 0 0.986 0 -1 0 32192.dat
 
 
+0 STEP
 0 FILE 42131 - chassis5.ldr
 0 Chassis section with connector blocks, an H-beam, and a wheel rim forming part of the drivetrain.
 0 Name: 42131 - chassis5.ldr
@@ -10286,6 +10355,7 @@
 1 14 0 80 -120 1 0 0 0 -1 0 0 0 -1 60208.dat
 
 
+0 STEP
 0 FILE 42131 - ripper.ldr
 0 Rear ripper attachment with large yellow panels, bent beams, and a fairing forming a scarifying tool.
 0 Name: 42131 - ripper.ldr
@@ -10456,6 +10526,7 @@
 1 1 60 60 100 -1 0 0 0 0 -1 0 -1 0 42131 - 42924.dat
 
 
+0 STEP
 0 FILE 42131 - fakela.ldr
 0 Fake load element made of round bricks and plates on an axle forming a counterweight or decoration.
 0 Name: 42131 - fakela.ldr
@@ -10490,6 +10561,7 @@
 1 0 0 0 50 1 0 0 0 0 1 0 -1 0 15535.dat
 
 
+0 STEP
 0 FILE 42131 - bladesupport1.ldr
 0 Blade support structure with panels, triangle liftarms, and a linear actuator for blade articulation.
 0 Name: 42131 - bladesupport1.ldr
@@ -10607,6 +10679,7 @@
 1 71 -21.259 -20.15 555.301 -0.996 0 0.067 -0.008 0.992 -0.125 -0.066 -0.125 -0.988 42131 - 77590.dat
 
 
+0 STEP
 0 FILE 42131 - bladesupport1b.ldr
 0 Secondary blade support with long beams and cross blocks reinforcing the blade mount.
 0 Name: 42131 - bladesupport1b.ldr
@@ -10653,6 +10726,7 @@
 1 0 -20 0 240 0 -1 0 1 0 0 0 0 1 42131 - 73507.dat
 
 
+0 STEP
 0 FILE 42131 - panhard.ldr
 0 Panhard rod suspension link using long beams and suspension arms for axle stabilization.
 0 Name: 42131 - panhard.ldr
@@ -10679,6 +10753,7 @@
 1 14 0 -40 0 0 0 1 0 1 0 -1 0 0 32278.dat
 
 
+0 STEP
 0 FILE 42131 - blade.ldr
 0 Large yellow and black Technic blade arm built from long beams, panels, and pins forming a structural rotor blade core.
 0 Name: 42131 - blade.ldr
@@ -11027,6 +11102,7 @@
 1 0 -256.52 -156.373 -23.808 -0.97 0.165 0.179 0.22 0.909 0.355 -0.104 0.384 -0.918 42131 - bladegrid4.ldr
 
 
+0 STEP
 0 FILE 42131 - blade2.ldr
 0 Small yellow blade segment using a 3x11 panel joined with perpendicular pins and round pin joiners.
 0 Name: 42131 - blade2.ldr
@@ -11060,6 +11136,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42131 - bladeback.ldr
 0 Black rear blade section composed of beams, panels, and connector blocks forming a trailing-edge structure.
 0 Name: 42131 - bladeback.ldr
@@ -11142,6 +11219,7 @@
 1 0 200 30 0 0 -1 0 1 0 0 0 0 1 42131 - 61332.dat
 
 
+0 STEP
 0 FILE 42131 - bladeback2.ldr
 0 Compact black blade back piece using 3x11 panels and pins for a reinforced trailing edge.
 0 Name: 42131 - bladeback2.ldr
@@ -11174,6 +11252,7 @@
 1 0 -180 0 30 0 0 1 0 -1 0 1 0 0 42131 - 61332.dat
 
 
+0 STEP
 0 FILE 42131 - bladeside1.ldr
 0 Yellow side panel of the blade assembled from long beams, panels, and connector blocks forming a contoured sidewall.
 0 Name: 42131 - bladeside1.ldr
@@ -11325,6 +11404,7 @@
 1 0 -134 140 12 -0.969 0 -0.246 0 -1 0 -0.246 0 0.969 42131 - 61332.dat
 
 
+0 STEP
 0 FILE 42131 - bladeside1back.ldr
 0 Black rear side-piece of the blade with a trapezium panel, connector block, and bent liftarm for mounting.
 0 Name: 42131 - bladeside1back.ldr
@@ -11360,6 +11440,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42131 - bladeside1side.ldr
 0 Black edge panel for the blade side built from a 3x11 panel, bent beams, and perpendicular pins.
 0 Name: 42131 - bladeside1side.ldr
@@ -11401,6 +11482,7 @@
 1 14 -100 0 -60 0 1 0 0 0 1 1 0 0 42131 - 65487.dat
 
 
+0 STEP
 0 FILE 42131 - bladeside2.ldr
 0 Mirrored yellow side panel of the blade with beams, panels, and cross blocks matching bladeside1.
 0 Name: 42131 - bladeside2.ldr
@@ -11552,6 +11634,7 @@
 1 0 134 140 12 -0.969 0 0.246 0 -1 0 0.246 0 0.969 42131 - 61332.dat
 
 
+0 STEP
 0 FILE 42131 - bladeside2back.ldr
 0 Black rear side-piece mirroring bladeside1back with a trapezium panel and connector block.
 0 Name: 42131 - bladeside2back.ldr
@@ -11587,6 +11670,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42131 - bladeside2side.ldr
 0 Mirrored black edge panel for the blade side using a 3x11 panel and bent beams.
 0 Name: 42131 - bladeside2side.ldr
@@ -11628,6 +11712,7 @@
 1 14 100 0 -60 0 -1 0 0 0 -1 1 0 0 42131 - 65487.dat
 
 
+0 STEP
 0 FILE 42131 - bladetop.ldr
 0 Black top section of the blade using two 3x11 panels, trapezium panels, and a beam 15 for the upper surface.
 0 Name: 42131 - bladetop.ldr
@@ -11694,6 +11779,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42131 - bladeside3.ldr
 0 Black blade side fairing using a beam 15, trapezium panel, and smooth fairing panels for an aerodynamic edge.
 0 Name: 42131 - bladeside3.ldr
@@ -11742,6 +11828,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42131 - bladeside4.ldr
 0 Mirrored black blade side fairing with a beam 15, trapezium panel, and smooth fairing panels.
 0 Name: 42131 - bladeside4.ldr
@@ -11790,6 +11877,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42131 - bladegrid1.ldr
 0 Internal black support grid of the blade built from thin liftarms, cross blocks, and axles forming a lattice frame.
 0 Name: 42131 - bladegrid1.ldr
@@ -11878,6 +11966,7 @@
 1 1 -120 -22.315 -1.435 0 0 1 0.389 -0.921 0 0.921 0.389 0 43093.dat
 
 
+0 STEP
 0 FILE 42131 - bladegrid2.ldr
 0 Mirrored internal support grid of the blade using thin liftarms, axles, and cross blocks matching bladegrid1.
 0 Name: 42131 - bladegrid2.ldr
@@ -11966,6 +12055,7 @@
 1 1 120 -22.315 -1.435 0 0 1 0.389 -0.921 0 0.921 0.389 0 43093.dat
 
 
+0 STEP
 0 FILE 42131 - bladegrid3.ldr
 0 Small black cross-brace grid segment using angle connectors, an axle, and thin liftarms.
 0 Name: 42131 - bladegrid3.ldr
@@ -12003,6 +12093,7 @@
 1 1 -170 11.648 -27.646 0 0 -1 -0.388 0.922 0 0.922 0.388 0 43093.dat
 
 
+0 STEP
 0 FILE 42131 - bladegrid4.ldr
 0 Mirrored small cross-brace grid segment matching bladegrid3.
 0 Name: 42131 - bladegrid4.ldr
@@ -12040,6 +12131,7 @@
 1 1 170 11.648 -27.646 0 0 -1 -0.388 0.922 0 0.922 0.388 0 43093.dat
 
 
+0 STEP
 0 FILE 42131 - bladesupport2.ldr
 0 Yellow blade support structure featuring panels, beams, a linear actuator mount, and universal joints for articulation.
 0 Name: 42131 - bladesupport2.ldr
@@ -12157,6 +12249,7 @@
 1 71 21.642 -19.309 560.015 -0.996 -0.014 -0.067 -0.008 0.992 -0.125 0.066 -0.124 -0.987 42131 - 77590.dat
 
 
+0 STEP
 0 FILE 42131 - bladesupport2b.ldr
 0 Reinforced yellow and black blade support with long beams and cross blocks providing a pivot mount.
 0 Name: 42131 - bladesupport2b.ldr
@@ -12203,6 +12296,7 @@
 1 0 -20 0 240 0 -1 0 1 0 0 0 0 1 42131 - 73507.dat
 
 
+0 STEP
 0 FILE 42131 - 42924.dat
 0 Detailed part submodel of a Technic friction pin assembly composed of collars, ribs, cylinders, and rings.
 0 Name: 42131 - 42924.dat
@@ -12330,6 +12424,7 @@
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 4 60] [center=true] [slide=true]
 0 !LDCAD MIRROR_INFO [baseFlip=Z] [counterPart=self]
 
+0 STEP
 0 FILE 42131 - 61332.dat
 0 Detailed part submodel of a Technic friction pin with collars, ribs, cylinders, and rings.
 0 Name: 42131 - 61332.dat
@@ -12416,6 +12511,7 @@
 
 0 !LDCAD SNAP_INCL [ref=2780.dat]
 
+0 STEP
 0 FILE 42131 - 73507.dat
 0 Single primitive part representing a long Technic connector hole.
 0 Name: 42131 - 73507.dat
@@ -12436,6 +12532,7 @@
 
 1 16 0 0 -100 1 0 0 0 1 0 0 0 -1 s\42131 - 71710s02.dat
 
+0 STEP
 0 FILE 42131 - 18575.dat
 0 Primitive part submodel of an open Technic axle hole formed from rectangles.
 0 Name: 42131 - 18575.dat
@@ -12558,6 +12655,7 @@
 0 // Rectangle with 3 Edges (main_colour)
 1 16 1.5 5.7018 0 0 0 0.5 0 1 -0.0998 -10 0 0 rect3.dat
 
+0 STEP
 0 FILE 42131 - 65487.dat
 0 Primitive part submodel of a friction pin with a base collar and small center hole.
 0 Name: 42131 - 65487.dat
@@ -12583,6 +12681,7 @@
 0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=R 8 2   R 6 16   _L 6.25 2]
 0 !LDCAD MIRROR_INFO [baseFlip=Z]
 
+0 STEP
 0 FILE 42131 - 52731.dat
 0 Primitive part submodel of a semi-reduced axle hole with a disc and adapter ring.
 0 Name: 42131 - 52731.dat
@@ -12651,6 +12750,7 @@
 2 24 -3.4439 8.5 50 3.4439 8.5 50
 2 24 -3.4439 -8.5 50 3.4439 -8.5 50
 
+0 STEP
 0 FILE 42131 - 65304.dat
 0 65304
 0 Name: 42131 - 65304.dat
@@ -12784,6 +12884,7 @@
 
 0 !LDCAD SNAP_INCL [ref=32054.dat]
 
+0 STEP
 0 FILE 42131 - 71710.dat
 0 71710
 0 Name: 42131 - 71710.dat
@@ -12806,6 +12907,7 @@
 
 1 16 0 0 -140 1 0 0 0 1 0 0 0 -1 s\42131 - 71710s02.dat
 
+0 STEP
 0 FILE 42131 - 32526.dat
 0 32526
 0 Name: 42131 - 32526.dat
@@ -12834,6 +12936,7 @@
 0 !LDCAD SNAP_INCL [ref=connhole.dat]
 0 !LDCAD MIRROR_INFO [baseFlip=Y]
 
+0 STEP
 0 FILE 42131 - 60483.dat
 0 60483
 0 Name: 42131 - 60483.dat
@@ -12851,6 +12954,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\42131 - 60483s01.dat
 4 16 9 10 0 9 10 20 9 -10 20 9 -10 0
 
+0 STEP
 0 FILE 42131 - 71709.dat
 0 71709
 0 Name: 42131 - 71709.dat
@@ -12958,6 +13062,7 @@
 0 // Rectangle with 2 Parallel Edges (main_colour)
 1 16 0 9 -21 -20 0 0 0 -1 0 0 0 -9 rect2p.dat
 
+0 STEP
 0 FILE 42131 - 32523.dat
 0 32523
 0 Name: 42131 - 32523.dat
@@ -12978,6 +13083,7 @@
 
 0 !LDCAD SNAP_INCL [ref=connhole.dat]
 
+0 STEP
 0 FILE 42131 - 44874.dat
 0 44874
 0 Name: 42131 - 44874.dat
@@ -13011,6 +13117,7 @@
 0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=R 8 2   R 6 16   _L 6.25 2]
 0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=R 8 2   R 6 16   _L 6.25 2]
 
+0 STEP
 0 FILE 42131 - 42195.dat
 0 42195
 0 Name: 42131 - 42195.dat
@@ -13097,6 +13204,7 @@
 0 !LDCAD SNAP_CLEAR 
 0 !LDCAD SNAP_INCL [ref=26287.dat]
 
+0 STEP
 0 FILE 42131 - 62462.dat
 0 62462
 0 Name: 42131 - 62462.dat
@@ -13185,6 +13293,7 @@
 0 !LDCAD SNAP_CLEAR 
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 8 2   R 6 16   R 8 4   R 6 16   R 8 2] [center=true] [slide=true]
 
+0 STEP
 0 FILE 42131 - 42135.dat
 0 42135
 0 Name: 42131 - 42135.dat
@@ -13221,6 +13330,7 @@
 2 24 6.2884 2.8996 -12.9998 -6.2884 2.8996 -12.9998
 2 24 -6.2884 2.8996 -12.9998 -6.0001 0 -12.9998
 
+0 STEP
 0 FILE 42131 - 65473.dat
 0 65473
 0 Name: 42131 - 65473.dat
@@ -13239,6 +13349,7 @@
 0 BFC INVERTNEXT
 1 16 72 0 0 -72 0 0 0 0 -72 0 72 0 48\42131 - tm08q2111.dat
 
+0 STEP
 0 FILE 42131 - 69819.dat
 0 69819
 0 Name: 42131 - 69819.dat
@@ -13410,6 +13521,7 @@
 1 16 0 -9.5 -29 0 0 -10 -0.5 0 0 0 1 0 rect1.dat
 4 16 10 9 -29 10 -9 -29 -10 -9 -29 -10 9 -29
 
+0 STEP
 0 FILE 42131 - 69730.dat
 0 69730
 0 Name: 42131 - 69730.dat
@@ -13424,6 +13536,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 42131 - u9367c02.dat
 1 72 0 -50 0 1 0 0 0 1 0 0 0 1 42131 - u9363p02.dat
 
+0 STEP
 0 FILE 42131 - 22127.dat
 0 22127
 0 Name: 42131 - 22127.dat
@@ -13445,6 +13558,7 @@
 0 // Electric Control+ Hub Battery Lid (dark_bluish_grey)
 1 72 0 50 0 1 0 0 0 1 0 0 0 1 42131 - 24853.dat
 
+0 STEP
 0 FILE 42131 - 49130.dat
 0 49130
 0 Name: 42131 - 49130.dat
@@ -13505,6 +13619,7 @@
 2 24 2.828 10 2.828 -2.828 10 2.828
 2 24 -2.828 10 -2.828 2.828 10 -2.828
 
+0 STEP
 0 FILE 42131 - 65489.dat
 0 65489
 0 Name: 42131 - 65489.dat
@@ -13548,6 +13663,7 @@
 1 16 0 -20 -10 -2.82843 0 -2.82843 -2.82843 0 2.82843 0 1 0 1-4edge.dat
 2 24 2.8284 -17.1716 -10 -2.8284 -17.1716 -10
 
+0 STEP
 0 FILE 42131 - u9559c01.dat
 0 u9559c01
 0 Name: 42131 - u9559c01.dat
@@ -13562,6 +13678,7 @@
 1 72 0 20 10 1 0 0 0 1 0 0 0 1 u9489.dat
 1 16 0 0 40 1 0 0 0 1 0 0 0 1 42131 - u9559.dat
 
+0 STEP
 0 FILE 42131 - 71708.dat
 0 71708
 0 Name: 42131 - 71708.dat
@@ -13699,6 +13816,7 @@
 5 24 16.646999 10 31.788 16.646999 2 31.788 12 10 37 21.121 10 24.096001
 5 24 12 10 37 12 2 37 9 10 40 16.646999 10 31.788
 
+0 STEP
 0 FILE 42131 - 69910.dat
 0 69910
 0 Name: 42131 - 69910.dat
@@ -13735,6 +13853,7 @@
 0 // Cylinder Open 1.0 (main_colour)
 1 16 -14 0 0 0 28 0 4 0 0 0 0 4 4-4cylo.dat
 
+0 STEP
 0 FILE 42131 - 46835.dat
 0 46835
 0 Name: 42131 - 46835.dat
@@ -13964,6 +14083,7 @@
 2 24 6.0411 7.7593 1 6.0411 7.7593 6
 2 24 -1.3547 9.7306 1 -1.3547 9.7306 6
 
+0 STEP
 0 FILE 42131 - 46834.dat
 0 46834
 0 Name: 42131 - 46834.dat
@@ -14046,6 +14166,7 @@
 2 24 2 -5.602 -10 0 -6 -10
 3 16 2 -5.602 -10 0 -6 -10 -2 -5.602 -10
 
+0 STEP
 0 FILE 42131 - 34103.dat
 0 34103
 0 Name: 42131 - 34103.dat
@@ -14069,6 +14190,7 @@
 
 0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=R 6 4] [grid=C 5 1 10 0]
 
+0 STEP
 0 FILE 42131 - 77590.dat
 0 77590
 0 Name: 42131 - 77590.dat
@@ -14185,6 +14307,7 @@
 0 // Disc 1.0 (main_colour)
 1 16 0 0 20 6 0 0 0 0 6 0 -1 0 4-4disc.dat
 
+0 STEP
 0 FILE 42131 - 31794.dat
 0 31794
 0 Name: 42131 - 31794.dat
@@ -14219,6 +14342,7 @@
 4 16 1.5 -9 -50 -1.5 -9 -50 -10 -9 -51 10 -9 -51
 4 16 1.5 -9 -10 1.5 -9 -50 10 -9 -51 10 -9 -9
 
+0 STEP
 0 FILE 42131 - npeghol2.dat
 0 npeghol2
 0 Name: 42131 - npeghol2.dat
@@ -14262,6 +14386,7 @@
 0 // Disc Negative 0.125 (main_colour)
 1 16 0 0 -10 -9 0 0 0 1 0 0 0 9 1-8ndis.dat
 
+0 STEP
 0 FILE 42131 - connectcollar3.dat
 0 A cylindrical collar connector with rings, circles, and edge rectangles forming a ribbed collar detail.
 0 Name: 42131 - connectcollar3.dat
@@ -14343,6 +14468,7 @@
 0 // Rectangle with 3 Edges (main_colour)
 1 16 -4.3146 4.5 1 1.4865 0 0 0 0 -4.5 0 1 0 rect3.dat
 
+0 STEP
 0 FILE 42131 - confricrib1.dat
 0 An empty friction rib submodel containing no direct pieces.
 0 Name: 42131 - confricrib1.dat
@@ -14379,6 +14505,7 @@
 5 24 4.698 -3.7 3.5666 4.773 -3.7 4.0659 4.5259 -4 3.8188 4.698 0 3.5666
 5 24 4.773 -3.7 4.0659 4.773 0 4.0659 4.698 -3.7 3.5666 4.0659 0 4.773
 
+0 STEP
 0 FILE 42131 - confricrib2.dat
 0 An empty friction rib submodel containing no direct pieces.
 0 Name: 42131 - confricrib2.dat
@@ -14461,6 +14588,7 @@
 5 24 5.844 -3.7 0.8 6.25 -3.7 0.5 5.9006 -4 0.5 5.844 0 0.8
 5 24 6.25 -3.7 0.5 6.25 0 0.5 5.844 -3.7 0.8 6.25 0 -0.5
 
+0 STEP
 0 FILE 42131 - connectslit1.dat
 0 A small slit connector formed by nested cylinders and a rectangular edge piece.
 0 Name: 42131 - connectslit1.dat
@@ -14489,6 +14617,7 @@
 1 16 4.801 0 1 0 0 1 8 0 0 0 1 0 rect2p.dat
 5 24 5.5433 9 2.2961 5.5434 -9 2.2962 4.2426 -9 4.2426 5.801 -9 1
 
+0 STEP
 0 FILE 42131 - confricrib3.dat
 0 An empty friction rib submodel containing no direct pieces.
 0 Name: 42131 - confricrib3.dat
@@ -14538,6 +14667,7 @@
 5 24 4.773 5.7 4.0659 4.0659 5.7 4.773 4.2426 6 4.2426 4.773 -5.7 4.0659
 5 24 4.0659 5.7 4.773 3.5666 5.7 4.698 3.8188 6 4.5259 4.0659 -5.7 4.773
 
+0 STEP
 0 FILE 42131 - confricrib4.dat
 0 A friction rib detail composed of two quarter-circle disc segments.
 0 Name: 42131 - confricrib4.dat
@@ -14600,6 +14730,7 @@
 2 24 6.0748 -1.1 0.6294 5.844 -1.9863 0.8
 2 24 6.0748 1.1 0.6294 6.1475 0 0.5757
 
+0 STEP
 0 FILE 42131 - axlehol6.dat
 0 An axle hole submodel built from adapter rings, triangles, boxes, and face primitives defining a hollow axle socket.
 0 Name: 42131 - axlehol6.dat
@@ -14634,6 +14765,7 @@
 4 16 2 1 2 2.2962 1 5.5434 4.2426 1 4.2426 5.5434 1 2.2962
 3 16 2 1 2 2 1 5.6023 2.2962 1 5.5434
 
+0 STEP
 0 FILE 42131 - connectcollar5.dat
 0 A ribbed collar connector with paired cylinders, discs, chords, and edge rectangles around a central open cylinder.
 0 Name: 42131 - connectcollar5.dat
@@ -14722,6 +14854,7 @@
 0 // Rectangle with 2 Adjacent Edges (main_colour)
 1 16 4.801025 3 1 0 0 -1 -3 0 0 0 1 0 rect2a.dat
 
+0 STEP
 0 FILE 42131 - u9367c02.dat
 0 A cable stub submodel with see-through blockers defining a wiring element.
 0 Name: 42131 - u9367c02.dat
@@ -14756,6 +14889,7 @@
 4 72 -30.5 27 92 -30.5 12 92 -30.5 12 108 -30.5 27 108
 4 72 -30.5 -13 92 -30.5 -28 92 -30.5 -28 108 -30.5 -13 108
 
+0 STEP
 0 FILE 42131 - u9363p02.dat
 0 An empty submodel containing no direct pieces.
 0 Name: 42131 - u9363p02.dat
@@ -14770,6 +14904,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\42131 - u9363s01.dat
 1 71 0 0 0 1 0 0 0 1 0 0 0 1 s\42131 - u9363s02.dat
 
+0 STEP
 0 FILE s\42131 - u9363s01.dat
 0 A Technic connector body with axle holes, peg holes, rings, cylinders, and discs forming a complex beam-like junction.
 0 Name: s\42131 - u9363s01.dat
@@ -15098,6 +15233,7 @@
 5 24 3.4443 5.5 -28.3151 3.4443 0 -28.3151 6.3639 0 -26.363899 0.5 0 -28.9006
 5 24 -3.4443 0 -28.3151 -3.4443 5.5 -28.3151 -6.3639 0 -26.363899 -0.5 0 -28.9006
 
+0 STEP
 0 FILE s\42131 - u9363s02.dat
 0 A minor submodel consisting of two chord segments forming a curved edge detail.
 0 Name: s\42131 - u9363s02.dat
@@ -15121,6 +15257,7 @@
 4 16 0 5.5 -29 -0.4978 5.5 -28.967199 -0.4978 6.5992 -28.967199 0 13.5 -29
 3 16 -0.4978 6.5992 -28.967199 -1.3366 6.7664 -28.912399 0 13.5 -29
 
+0 STEP
 0 FILE s\42131 - 71710s02.dat
 0 A Technic beam connector with long connector holes, peg holes, rings, and cylinders defining a pegged beam end.
 0 Name: s\42131 - 71710s02.dat
@@ -15183,6 +15320,7 @@
 0 // Cylinder Open 0.5 (main_colour)
 1 16 0 -10 0 -9 0 0 0 20 0 0 0 9 2-4cylo.dat
 
+0 STEP
 0 FILE s\42131 - 71710s01.dat
 0 A Technic beam with two long connector holes, multiple peg hole negatives, rings, and discs defining a multi-hole beam.
 0 Name: s\42131 - 71710s01.dat
@@ -15274,6 +15412,7 @@
 4 16 7.071 -10 -20 10 -10 -20 10 -10 -10 7.07107 -10 -7.07107
 2 24 10 -10 -10 10 -10 -20
 
+0 STEP
 0 FILE 42131 - axlehol5.dat
 0 An axle hole submodel with adapter rings, triangles, boxes, and edge rectangles forming a detailed hollow axle opening.
 0 Name: 42131 - axlehol5.dat
@@ -15355,6 +15494,7 @@
 
 0 !LDCAD SNAP_INCL [ref=axlehole.dat]
 
+0 STEP
 0 FILE 42131 - 3-16ering.dat
 0 A ring of small chord segments forming a partial circular edge, designed for primitive substitution.
 0 Name: 42131 - 3-16ering.dat
@@ -15375,6 +15515,7 @@
 0 // Chord 0.0625 (main_colour)
 1 16 0 0 0 0.92388 0 -0.38268 0 1 0 0.38268 0 0.92388 1-16chrd.dat
 
+0 STEP
 0 FILE s\42131 - 32269s01.dat
 0 A submodel of parallel rectangles and edge pieces forming the flat sides of a Technic liftarm or beam.
 0 Name: s\42131 - 32269s01.dat
@@ -15464,6 +15605,7 @@
 3 16 18.258699 2.4034 -10 17.789101 4.7663 -10 19.3403 4.9066 -10
 3 16 15.3375 12.7626 -10 14.6121 11.2123 -10 13.0227 13.0227 -10
 
+0 STEP
 0 FILE s\42131 - 32269s02.dat
 0 A cylindrical end cap detail with open cylinders, rings, and edge rectangles forming a rounded beam extremity.
 0 Name: s\42131 - 32269s02.dat
@@ -15535,6 +15677,7 @@
 4 16 11.998 -1 -10 11.998 1 -10 16.934099 1 -10 16.934099 -1 -10
 3 16 17 0 -10 16.934099 -1 -10 16.934099 1 -10
 
+0 STEP
 0 FILE 42131 - axlehol4.dat
 0 An axle hole submodel with adapter rings, triangles, boxes, and edge rectangles forming a multi-segment hollow axle socket.
 0 Name: 42131 - axlehol4.dat
@@ -15622,6 +15765,7 @@
 
 0 !LDCAD SNAP_INCL [ref=axlehole.dat]
 
+0 STEP
 0 FILE s\42131 - 32523s01.dat
 0 A Technic beam submodel with connector holes, beam holes, sides, cylinders, and circles forming a perforated beam section.
 0 Name: s\42131 - 32523s01.dat
@@ -15657,6 +15801,7 @@
 0 // Rectangle with 2 Parallel Edges (main_colour)
 1 16 -9 0 0 0 1 0 0 0 10 20 0 0 rect2p.dat
 
+0 STEP
 0 FILE 42131 - confric11.dat
 0 A friction pin connector with pin collars, ribs, three-rib friction element, cylinders, and rings forming a friction pin assembly.
 0 Name: 42131 - confric11.dat
@@ -15701,6 +15846,7 @@
 0 // Rectangle with 2 Parallel Edges (main_colour)
 1 16 2.4 -6.5 0 0 1 0 -6.5 0 0 0 0 -3 rect2p.dat
 
+0 STEP
 0 FILE 42131 - connectcollar2.dat
 0 A cylindrical collar connector with open cylinders, rings, discs, chords, and edge rectangles forming a ribbed collar.
 0 Name: 42131 - connectcollar2.dat
@@ -15790,6 +15936,7 @@
 0 // Rectangle with 2 Adjacent Edges (main_colour)
 1 16 -2.4 3.5 2 0 -1 0 0 0 -3.5 1 0 0 rect2a.dat
 
+0 STEP
 0 FILE s\42131 - 15100s01.dat
 0 A Technic connector with a long connector hole, cylinders, circles, and sloped cylinders forming a bushing or collar element.
 0 Name: s\42131 - 15100s01.dat
@@ -15844,6 +15991,7 @@
 2 24 4.827 -3.062 7.391 3.916 0 8
 4 16 10 -3 -4 10 3 -4 10 3 4 10 -3 4
 
+0 STEP
 0 FILE 42131 - axlehol8.dat
 0 An axle hole submodel composed of boxes with parallel edges, faces, and conditional lines forming a square axle opening.
 0 Name: 42131 - axlehol8.dat
@@ -15888,6 +16036,7 @@
 5 24 0 0 -6 0 1 -6 -2 0 -5.6023 2 0 -5.6023
 5 24 6 0 0 6 1 0 5.6023 0 2 5.6023 0 -2
 
+0 STEP
 0 FILE s\42131 - 52731s01.dat
 0 A small submodel of two negative disc segments forming a notch or cutout detail.
 0 Name: s\42131 - 52731s01.dat
@@ -15951,6 +16100,7 @@
 5 24 8.7241 -1.1549 19.7766 8.7241 -1.1549 50 8.7243 0 19.628599 8.4995 -3.4437 50
 5 24 0 0 14 8.4995 -3.4437 19.925301 6.1799 -4.4045 18.9897 8.7241 -1.1549 19.7766
 
+0 STEP
 0 FILE s\42131 - 52731s02.dat
 0 Small cylindrical submodel consisting of two 0.25 cylinders and a 0.1875 cylinder, forming a compact tubular pin structure.
 0 Name: s\42131 - 52731s02.dat
@@ -16102,6 +16252,7 @@
 5 24 3.2337 -1.3395 -9.3 4.393 -4.393 -7.836 7.071 0 -7.071 2.4749 -2.4749 -9.3
 5 24 4.393 -4.393 -7.836 2.125 -6.6198 -6.7969 4.393 -7.836 -4.393 1.8191 -5.9621 -7.4878
 
+0 STEP
 0 FILE 42131 - confric3.dat
 0 Technic friction pin assembly composed of multiple ribs, collars, and pin slits forming a detailed friction connection component.
 0 Name: 42131 - confric3.dat
@@ -16181,6 +16332,7 @@
 0 // Cylinder 1.0 (main_colour)
 1 16 0 -2 0 8 0 0 0 2 0 0 0 -8 4-4cyli.dat
 
+0 STEP
 0 FILE 42131 - connectcollar4.dat
 0 Cylindrical connector collar with rings and chords forming a hollow connecting sleeve with slits.
 0 Name: 42131 - connectcollar4.dat
@@ -16266,6 +16418,7 @@
 0 // Rectangle with 2 Adjacent Edges (main_colour)
 1 16 -2.4 5 2 0 -1 0 0 0 -5 1 0 0 rect2a.dat
 
+0 STEP
 0 FILE 42131 - connectslit2.dat
 0 Slim cylindrical slit connector made of two small cylinders and a rectangular panel.
 0 Name: 42131 - connectslit2.dat
@@ -16294,6 +16447,7 @@
 1 16 6 5 0 0 -2 -0.199 1 0 0 0 0 1 8\1-4cylo.dat
 1 16 3.9941 5 0 0 1 -0.199 1 0 0 0 0 1 8\1-4ndis.dat
 
+0 STEP
 0 FILE 42131 - 25561c01.dat
 0 Electric Control+ hub assembly with a top shell, bottom with contacts, four PF 2.0 sockets, and a green power button.
 0 Name: 42131 - 25561c01.dat
@@ -16320,6 +16474,7 @@
 0 // ~Electric Control+ Hub Bottom with Electric Contacts (dark_bluish_grey)
 1 72 0 0 0 1 0 0 0 1 0 0 0 1 42131 - 25560c01.dat
 
+0 STEP
 0 FILE 42131 - 23807.dat
 0 Detailed multi-chambered box structure with gold accents and open cylindrical sockets, likely a motor or gearbox housing component.
 0 Name: 42131 - 23807.dat
@@ -16446,6 +16601,7 @@
 2 24 -13.5 8 18 -9 8 18
 2 24 15.5 6 0 15.5 -6 0
 
+0 STEP
 0 FILE 42131 - 25560c01.dat
 0 Electric Control+ battery box bottom with contact alloy terminals, rubber button, and rubber cylindrical pads.
 0 Name: 42131 - 25560c01.dat
@@ -16494,6 +16650,7 @@
 0 // Cylinder Closed 1.0 (rubber_light_bluish_grey)
 1 496 26 -16.5 50 2 0 0 0 -1.5 0 0 0 2 4-4cylc.dat
 
+0 STEP
 0 FILE 42131 - 25560.dat
 0 Single-piece Powered Up 2-port battery box bottom shell.
 0 Name: 42131 - 25560.dat
@@ -16511,6 +16668,7 @@
 1 16 0 0 -20 1 0 0 0 1 0 0 0 1 s\42131 - 24851s02.dat
 1 16 0 0 -20 -1 0 0 0 1 0 0 0 1 s\42131 - 24851s02.dat
 
+0 STEP
 0 FILE 42131 - 24851.dat
 0 Complex multi-piece Technic beam or connector with rectangular panels, cylinders, and rings forming a structural body with connector holes.
 0 Name: 42131 - 24851.dat
@@ -16685,6 +16843,7 @@
 5 24 2 50 83.444298 -2 50 83.444298 2 48.048801 86.363899 2 50 80
 4 16 -66 -20 -77 66 -20 -77 48 10 -77 -48 10 -77
 
+0 STEP
 0 FILE s\42131 - 24851s01.dat
 0 Detailed Technic beam submodel with multiple connector holes, rectangles, and cylinders forming a reinforced structural element with peg and axle holes.
 0 Name: s\42131 - 24851s01.dat
@@ -17194,6 +17353,7 @@
 5 24 43 50 83.444298 39 50 83.444298 43 48.048801 86.363899 43 50 80
 1 16 0 0 -60 1 0 0 0 1 0 0 0 1 s\42131 - 24851s02.dat
 
+0 STEP
 0 FILE s\42131 - 24851s02.dat
 0 Compact structural submodel of open cylinders and rectangular panels forming a small connector segment.
 0 Name: s\42131 - 24851s02.dat
@@ -17262,6 +17422,7 @@
 0 // Rectangle with 3 Edges (main_colour)
 1 16 48.5 -29 -17 -1.5 0 0 0 0 5 0 1 0 rect3.dat
 
+0 STEP
 0 FILE 42131 - 24849.dat
 0 Large detailed Technic beam or liftarm with numerous rectangular panels, open cylinders, chords, and boxes forming a complex structural element.
 0 Name: 42131 - 24849.dat
@@ -18019,6 +18180,7 @@
 5 24 -33 -34.400002 73 -33 -34.400002 -72 -21 -34.400002 -72 -39 -37.599998 -72
 5 24 -52 -37.599998 -72 -52 -37.599998 73 -58 -34.400002 -72 -39 -37.599998 -72
 
+0 STEP
 0 FILE 42131 - 24853.dat
 0 Simple box-and-rectangle structure forming a compact Technic connector or bracket piece.
 0 Name: 42131 - 24853.dat
@@ -18184,6 +18346,7 @@
 1 16 46 -7.5 -1 0 -1 0 0 0 4.5 -58 0 0 rect3.dat
 2 24 -5 -4 78 5 -4 78
 
+0 STEP
 0 FILE s\42131 - 24853s01.dat
 0 Reinforced Technic beam submodel with boxes, rectangles, and a cylindrical opening forming a structural connector with mounting features.
 0 Name: s\42131 - 24853s01.dat
@@ -18426,6 +18589,7 @@
 5 24 48 -15.9801 -85.202003 46 -15.9801 -85.202003 46 -17 -84.599998 46 -14 -85.400002
 5 24 16 -15.9801 -85.202003 14 -15.9801 -85.202003 16 -17 -84.599998 16 -14 -85.400002
 
+0 STEP
 0 FILE s\42131 - 32526s01.dat
 0 Technic beam with multiple connector and peg holes, open cylinders, and discs forming a multi-hole liftarm or connector.
 0 Name: s\42131 - 32526s01.dat
@@ -18506,6 +18670,7 @@
 2 24 40 -10 89 0 -10 89
 2 24 0 10 89 40 10 89
 
+0 STEP
 0 FILE s\42131 - 60483s01.dat
 0 Technic connector piece with axle and peg holes, rings, and a cylinder forming a compact bushing or connector hub.
 0 Name: s\42131 - 60483s01.dat
@@ -18544,6 +18709,7 @@
 2 24 9 -10 20 9 -10 0
 2 24 9 10 20 9 10 0
 
+0 STEP
 0 FILE s\42131 - 64782s01.dat
 0 Detailed Technic connector with multiple holes, sloped cylinders, circles, and discs forming a complex angular connector or joint element.
 0 Name: s\42131 - 64782s01.dat
@@ -18680,6 +18846,7 @@
 0 // Rectangle with 3 Edges (main_colour)
 1 16 -28.305 7 20 0 0 2.895 0 -1 0 1 0 0 rect3.dat
 
+0 STEP
 0 FILE s\42131 - 87082s01.dat
 0 Small cylindrical bushing or collar formed from a 1.0 cylinder and four sloped 0.25 cylinders.
 0 Name: s\42131 - 87082s01.dat
@@ -18726,6 +18893,7 @@
 2 24 -4.827 -3.062 -7.391 -3.916 0 -8
 4 16 -10 3 4 -10 3 -4 -10 -3 -4 -10 -3 4
 
+0 STEP
 0 FILE 42131 - axlehole.dat
 0 Primitive axle hole definition composed of adapter rings, boxes, and rectangles forming a standard Technic axle receiving socket.
 0 Name: 42131 - axlehole.dat
@@ -18816,6 +18984,7 @@
 0 // Use an ID so unwanted axle info can be dropped in higher parts using a more complicated composed hole.
 0 !LDCAD SNAP_CYL [ID=axleHole] [gender=F] [caps=none] [secs=A 6 1] [slide=true] [scale=YOnly]
 
+0 STEP
 0 FILE s\42131 - 55615s01.dat
 0 Detailed Technic connector submodel with multiple holes, sloped cylinders, circles, and cylinders forming a complex multi-axle joint piece.
 0 Name: s\42131 - 55615s01.dat
@@ -19003,6 +19172,7 @@
 0 // Circle 0.25 (main_colour)
 1 16 2 0 0 0 -1 0 -6.36396 0 6.36396 6.36396 0 6.36396 1-4edge.dat
 
+0 STEP
 0 FILE 42131 - connect7.dat
 0 Cylindrical connector with rings, ribs, and friction pin features forming a pin-and-axle connection collar.
 0 Name: 42131 - connect7.dat
@@ -19198,6 +19368,7 @@
 
 0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=R 8 2   R 6 16   _L 6.25 2]
 
+0 STEP
 0 FILE 42131 - npeghol3.dat
 0 Non-physical peg hole primitive made of small cylinders, rectangles, and rings defining a Technic peg receiving geometry.
 0 Name: 42131 - npeghol3.dat
@@ -19243,6 +19414,7 @@
 0 // Box with  2 Faces without  7 Edges (main_colour)
 1 16 2.7222 0.5 -3.041 0 -0.72215 0 0.5 0 0 0 0.14395 1.5 box2-7.dat
 
+0 STEP
 0 FILE s\42131 - 26287s02.dat
 0 Axle hole with semi-reduced perimeter featuring teeth, side edges, and inner surfaces forming a toothed axle connection.
 0 Name: s\42131 - 26287s02.dat
@@ -19356,6 +19528,7 @@
 4 16 4.5455 5.9674 30 2.296 5.543 30 4.243 4.243 30 5.2566 5.2566 30
 4 16 -2.296 -5.543 30 -4.243 -4.243 30 -5.2566 -5.2566 30 -4.5455 -5.9674 30
 
+0 STEP
 0 FILE s\42131 - 26287s01.dat
 0 Simple cylindrical submodel of small discs and circles forming part of a ribbed axle connector.
 0 Name: s\42131 - 26287s01.dat
@@ -19438,6 +19611,7 @@
 3 16 -6.8103 -4.0746 -12.5684 -6.3747 -2.6405 -10 -8.4992 -3.4441 -15
 2 24 -6.8103 -4.0746 -12.5684 -6.3747 -2.6405 -10
 
+0 STEP
 0 FILE s\42131 - 48989s01.dat
 0 Large detailed Technic connector with multiple long connector holes, sloped cylinders, and numerous circles forming a multi-joint structural link.
 0 Name: s\42131 - 48989s01.dat
@@ -19643,6 +19817,7 @@
 0 // Circle 1.0 (main_colour)
 1 16 0 20 -10 8 0 0 0 0 8 0 1 0 4-4edge.dat
 
+0 STEP
 0 FILE 42131 - u9559.dat
 0 Empty placeholder submodel for part u9559.
 0 Name: 42131 - u9559.dat
@@ -19676,6 +19851,7 @@
 5 24 0 -19 115.5 0 -16.625 117.5 -6.362 -15.36 117.5 6.362 -15.36 117.5
 5 24 0 -16 27 0 -16 0 -6.123 -14.782 0 6.123 -14.782 0
 
+0 STEP
 0 FILE s\42131 - u9559s01.dat
 0 Curved cylindrical detail built from rectangles, rings, chords, and quarter-disc primitives.
 0 Name: s\42131 - u9559s01.dat
@@ -19844,6 +20020,7 @@
 5 24 0 -19 115.5 0 -19 37 7.271 -17.554001 37 -7.271 -17.554001 115.5
 5 24 -13.52 -13.521 115.5 -13.52 -13.521 0 -12.416 -14.256 0 -14.256 -12.417 0
 
+0 STEP
 0 FILE s\42131 - 32039s01.dat
 0 Technic axle connector with bushes, cones, and rings forming a stepped cylindrical shape.
 0 Name: s\42131 - 32039s01.dat
@@ -19940,6 +20117,7 @@
 4 16 -9 7 -6 -9 7 -14.59 -9 0 -11 -9 -7 -6
 3 16 -9 -7 -6 -9 0 -11 -9 -7 -14.59
 
+0 STEP
 0 FILE s\42131 - 65473s01.dat
 0 Technic connector with axle holes, cylinders, and discs forming a complex geared joint.
 0 Name: s\42131 - 65473s01.dat
@@ -20099,6 +20277,7 @@
 0 // Circle 1.0 (main_colour)
 1 16 4.8592 -25.7254 0 14.0328 0 0 5.84129 1 0 0 0 15.2 4-4edge.dat
 
+0 STEP
 0 FILE 48\42131 - tm08q2639.dat
 0 Torus segment with major radius 72 and minor radius 19 over an eighth sweep.
 0 Name: 48\42131 - tm08q2639.dat
@@ -20423,6 +20602,7 @@
 5 24 0.8391 -0.1866 0.8391 0.8795 -0.101 0.8795 0.9414 -0.1866 0.7224 0.7286 -0.1866 0.9495
 5 24 0.8795 -0.101 0.8795 0.8937 0 0.8937 0.9868 -0.101 0.7572 0.7637 -0.101 0.9953
 
+0 STEP
 0 FILE 48\42131 - tm08q2111.dat
 0 Torus segment with major radius 72 and minor radius 15.2 over an eighth sweep.
 0 Name: 48\42131 - tm08q2111.dat
@@ -20747,6 +20927,7 @@
 5 24 0.8127 -0.1493 0.8127 0.845 -0.0808 0.845 0.9118 -0.1493 0.6996 0.7057 -0.1493 0.9197
 5 24 0.845 -0.0808 0.845 0.8564 0 0.8564 0.9481 -0.0808 0.7275 0.7338 -0.0808 0.9563
 
+0 STEP
 0 FILE 42131 - npeghol7.dat
 0 Non-physical peg hole with cylinders and rectangles forming a small recessed mounting slot.
 0 Name: 42131 - npeghol7.dat
@@ -20775,6 +20956,7 @@
 3 16 0 1 1 6.3639 1 0 3.4443 1 1.6849
 3 16 6.3639 1 0 6.3639 1 3.6361 3.4443 1 1.6849
 
+0 STEP
 0 FILE s\42131 - 46835s01.dat
 0 Small angled connector built from half and eighth chord, cone, and cylinder primitives.
 0 Name: s\42131 - 46835s01.dat
@@ -20892,6 +21074,7 @@
 
 3 16 3.8822 -14.4887 6 4.1675 -15.6 6 0 -15.6 6
 
+0 STEP
 0 FILE s\42131 - 46834s01.dat
 0 Single flat rectangular face forming a simple panel surface.
 0 Name: s\42131 - 46834s01.dat
@@ -20946,6 +21129,7 @@
 3 16 0.7178 -22.1054 6 1.6965 -25.888201 6 2.1085 -21.5142 6
 4 16 -2.1085 -21.5142 -7 -0.7178 -22.1054 -7 0.7178 -22.1054 -7 2.1085 -21.5142 -7
 
+0 STEP
 0 FILE s\42131 - 46834s02.dat
 0 Curved cylindrical section made of open cylinders, chords, and rings at fine angular resolution.
 0 Name: s\42131 - 46834s02.dat
@@ -21015,6 +21199,7 @@
 4 16 10 0 -10 8 0 -10 1.1544 8.7244 -10 3.827 9.239 -10
 2 24 3.4434 8.4995 -30 3.4434 8.4995 -10
 
+0 STEP
 0 FILE s\42131 - 34103s01.dat
 0 Box-shaped Technic beam or connector with multiple faces and edge details.
 0 Name: s\42131 - 34103s01.dat
@@ -21085,6 +21270,7 @@
 
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 stug2-1x2.dat
 
+0 STEP
 0 FILE s\42131 - 15068s01.dat
 0 Complex Technic bracket with sloped cylinders, boxes, and rectangular faces forming a mounting detail.
 0 Name: s\42131 - 15068s01.dat
@@ -21245,6 +21431,7 @@
 0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=S 6 4] [grid=C 2 1 20 0]
 0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=S 6 4] [grid=C 2 1 20 0]
 
+0 STEP
 0 FILE s\42131 - 69910s01.dat
 0 Technic connector with peg hole, cylinders, chords, and discs forming a multi-axle joint.
 0 Name: s\42131 - 69910s01.dat

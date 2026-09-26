@@ -32,6 +32,7 @@
 0 // Hinge Control Stick (black)
 1 0 10 -32 -30 -0.707 -0.385 0.593 0 0.839 0.545 -0.707 0.385 -0.593 4593.dat
 
+0 STEP
 0 FILE 7607 - Wing Left.ldr
 0 Wing Left
 0 Name: 7607 - Wing Left.ldr
@@ -62,6 +63,7 @@
 0 // Tile  2 x  2 Round with Cross Underside Stud (yellow)
 1 14 20 -24 -20 0 0 1 0 1 0 -1 0 0 4150.dat
 
+0 STEP
 0 FILE 7607 - Wing Right.ldr
 0 Wing Right
 0 Name: 7607 - Wing Right.ldr

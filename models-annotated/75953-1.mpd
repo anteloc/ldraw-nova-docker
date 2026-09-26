@@ -13,6 +13,7 @@
 1 0 -480 0 -100 0 0 -1 0 1 0 1 0 0 75953 - Workroom.ldr
 
 
+0 STEP
 0 FILE 75953 - Car.ldr
 0 A medium-blue car built on a black chassis base with wheel pins, plates, and grille detailing.
 0 Name: 75953 - Car.ldr
@@ -298,6 +299,7 @@
 1 0 0 -3 -50 1 0 0 0 1 0 0 0 1 75953 - Wheel.ldr
 
 
+0 STEP
 0 FILE 75953 - Deck Lid.ldr
 0 A medium-blue car rear deck lid with a curved brick, grooved tiles, and handled plates.
 0 Name: 75953 - Deck Lid.ldr
@@ -326,6 +328,7 @@
 1 73 20 16 0 -1 0 0 0 1 0 0 0 -1 2540.dat
 
 
+0 STEP
 0 FILE 75953 - Wheel.ldr
 0 A wheel assembly consisting of a pearl-silver rim and a black shallow-tread tyre.
 0 Name: 75953 - Wheel.ldr
@@ -339,6 +342,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 92409.dat
 
 
+0 STEP
 0 FILE 75953 - Tree.ldr
 0 A large reddish-brown and dark-green tree with slopes, log bricks, horns, and branches.
 0 Name: 75953 - Tree.ldr
@@ -567,6 +571,7 @@
 1 2 74.263 -258.949 42.131 0.84 0.426 0.337 -0.404 0.076 0.911 0.363 -0.902 0.236 24855.dat
 
 
+0 STEP
 0 FILE 75953 - Tree Top Base.ldr
 0 A dark-brown and dark-green upper tree base using round plates and socket-joint connectors for articulation.
 0 Name: 75953 - Tree Top Base.ldr
@@ -592,6 +597,7 @@
 1 288 0 -24 0 1 0 0 0 1 0 0 0 1 4032a.dat
 
 
+0 STEP
 0 FILE 75953 - Tree Top Limb.ldr
 0 An articulated tree limb built from Technic angle connectors, axles, towballs, and organic detail pieces.
 0 Name: 75953 - Tree Top Limb.ldr
@@ -627,6 +633,7 @@
 1 70 0 -61.145 135.617 -0.5 0 0.866 0.612 -0.707 0.354 0.612 0.707 0.354 85861.dat
 
 
+0 STEP
 0 FILE 75953 - Tower.ldr
 0 A tan and grey castle tower with facetted bricks, panels, windows, slopes, and hinged sections.
 0 Name: 75953 - Tower.ldr
@@ -1019,6 +1026,7 @@
 1 72 -80 -268 -80 1 0 0 0 1 0 0 0 1 24482.dat
 
 
+0 STEP
 0 FILE 75953 - Bed.ldr
 0 A small bed built with tan plates, reddish-brown rotors as legs, and a red mattress tile.
 0 Name: 75953 - Bed.ldr
@@ -1045,6 +1053,7 @@
 1 70 0 -32 -80 -1 0 0 0 1 0 0 0 -1 93095.dat
 
 
+0 STEP
 0 FILE 75953 - Passage.ldr
 0 A castle passage structure with tan and grey walls, an arched opening, reinforced panels, and sloped stonework.
 0 Name: 75953 - Passage.ldr
@@ -1209,6 +1218,7 @@
 1 72 100 -422 10 1 0 0 0 1 0 0 0 1 24482.dat
 
 
+0 STEP
 0 FILE 75953 - Kitchen.ldr
 0 A castle kitchen room with tan walls, lattice windows, an archway, and stony sloped detailing.
 0 Name: 75953 - Kitchen.ldr
@@ -1411,6 +1421,7 @@
 1 83 -40 -32 0 0 0 -1 0 1 0 1 0 0 75953 - Desk.ldr
 
 
+0 STEP
 0 FILE 75953 - Desk.ldr
 0 A wooden desk accessorized with pots, a candle, a crystal, and small round decorative plates.
 0 Name: 75953 - Desk.ldr
@@ -1448,6 +1459,7 @@
 1 35 40 -24 0 0 0 -1 0 1 0 1 0 0 30385.dat
 
 
+0 STEP
 0 FILE 75953 - Workroom.ldr
 0 A castle workroom with tan walls, lattice windows, an archway, and stone-textured slopes and bricks.
 0 Name: 75953 - Workroom.ldr
@@ -1670,6 +1682,7 @@
 1 0 -25 -58 75 -1 0 0 0 1 0 0 0 -1 4522.dat
 
 
+0 STEP
 0 FILE 75953 - Table.ldr
 0 A round table holding a crystal ball, a fez, a plume, and a candle arrangement.
 0 Name: 75953 - Table.ldr

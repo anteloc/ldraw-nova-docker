@@ -9,6 +9,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Quad.ldr
 0 Central chassis frame of a small quad bike built from plates, technic bricks, and axle connectors.
 0 Name: 5893 - Quad.ldr
@@ -162,6 +163,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Quad rear axle.ldr
 0 Rear axle assembly of the quad bike using a wishbone suspension plate and grille tiles.
 0 Name: 5893 - Quad rear axle.ldr
@@ -181,6 +183,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Quad L shape LH.ldr
 0 Left-hand bent liftarm linkage made of 90-degree technic beams joined by axle pins.
 0 Name: 5893 - Quad L shape LH.ldr
@@ -202,6 +205,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Quad L shape RH.ldr
 0 Right-hand bent liftarm linkage made of 90-degree technic beams joined by axle pins.
 0 Name: 5893 - Quad L shape RH.ldr
@@ -223,6 +227,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Quad side.ldr
 0 Side panel detail of the quad bike using a bracket, handle plates, and a grooved tile.
 0 Name: 5893 - Quad side.ldr
@@ -243,6 +248,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Quad exhaust.ldr
 0 Exhaust pipe detail built from cones mounted on handled plates.
 0 Name: 5893 - Quad exhaust.ldr
@@ -262,6 +268,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Quad engine LH.ldr
 0 Left-side engine detail using a curved wing piece, a grille tile, and a tap fitting.
 0 Name: 5893 - Quad engine LH.ldr
@@ -284,6 +291,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Quad engine RH.ldr
 0 Right-side engine detail using a curved wing piece, a grille tile, and a tap fitting.
 0 Name: 5893 - Quad engine RH.ldr
@@ -306,6 +314,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Quad front axle.ldr
 0 Front axle and steering linkage of the quad bike built from technic axles, bushes, and a crankshaft.
 0 Name: 5893 - Quad front axle.ldr
@@ -337,6 +346,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Quad front mudguard.ldr
 0 Front wheel mudguard of the quad bike shaped from red curved wedges and slope bricks.
 0 Name: 5893 - Quad front mudguard.ldr
@@ -397,6 +407,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Quad rear mudguard.ldr
 0 Rear wheel mudguard of the quad bike made from red curved wedges and clip plates.
 0 Name: 5893 - Quad rear mudguard.ldr
@@ -429,6 +440,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Quad handbar.ldr
 0 Steering handlebar of the quad bike built from a technic axle and angled connectors.
 0 Name: 5893 - Quad handbar.ldr
@@ -453,6 +465,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - 4WD.ldr
 0 Large chassis of the off-road 4WD vehicle built from technic bricks, plates, and inverted slopes.
 0 Name: 5893 - 4WD.ldr
@@ -1381,6 +1394,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Trailer.ldr
 0 Flatbed transport trailer with a long deck of technic bricks, wheels, and sloped sides.
 0 Name: 5893 - Trailer.ldr
@@ -1636,6 +1650,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Trailer bar.ldr
 0 Tow bar linkage of the trailer built from plates, a towball extension, and cross blocks.
 0 Name: 5893 - Trailer bar.ldr
@@ -1667,6 +1682,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Trailer stand.ldr
 0 Folding support stand of the trailer using angle connectors and a small wheel.
 0 Name: 5893 - Trailer stand.ldr
@@ -1690,6 +1706,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Trailer mudguard.ldr
 0 Curved wheel mudguard of the trailer made from arched slope bricks and headlight bricks.
 0 Name: 5893 - Trailer mudguard.ldr
@@ -1716,6 +1733,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Trailer ramp.ldr
 0 Loading ramp of the trailer built from long plates and angled slope bricks.
 0 Name: 5893 - Trailer ramp.ldr
@@ -1765,6 +1783,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - Trailer + Quad.ldr
 0 Combined assembly showing the quad bike loaded onto the transport trailer.
 0 Name: 5893 - Trailer + Quad.ldr
@@ -1776,6 +1795,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - 4WD arm LH.ldr
 0 Left suspension arm of the 4WD vehicle using a bent liftarm with pins and an axle.
 0 Name: 5893 - 4WD arm LH.ldr
@@ -1804,6 +1824,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - 4WD arm RH.ldr
 0 Right suspension arm of the 4WD vehicle using a bent liftarm with pins and an axle.
 0 Name: 5893 - 4WD arm RH.ldr
@@ -1832,6 +1853,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - 4WD rear bumper.ldr
 0 Rear bumper of the 4WD vehicle built from long plates, grille tiles, and technic bricks.
 0 Name: 5893 - 4WD rear bumper.ldr
@@ -1888,6 +1910,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - 4WD steering front.ldr
 0 Front steering module of the 4WD vehicle with steering arms, rotors, and a technic frame.
 0 Name: 5893 - 4WD steering front.ldr
@@ -1988,6 +2011,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - 4WD brake.ldr
 0 Brake disc assembly of the 4WD vehicle built from wedge belt wheels on a cross block.
 0 Name: 5893 - 4WD brake.ldr
@@ -2006,6 +2030,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - 4WD front.ldr
 0 Front chassis section built from inverted slope bricks and long plates forming the angled nose structure.
 0 Name: 5893 - 4WD front.ldr
@@ -2035,6 +2060,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - 4WD steering axle.ldr
 0 Steering mechanism using a technic plate assembly with an axle, gear, and joiner for steering linkage.
 0 Name: 5893 - 4WD steering axle.ldr
@@ -2057,6 +2083,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - 4WD rear side.ldr
 0 Blue rear side panel made of a long brick, plates, and corner pieces forming the bodywork.
 0 Name: 5893 - 4WD rear side.ldr
@@ -2078,6 +2105,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - 4WD door rear.ldr
 0 Rear door assembly of blue and white plates with clips and grooved tiles for a hinged panel.
 0 Name: 5893 - 4WD door rear.ldr
@@ -2110,6 +2138,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - 4WD front bumper.ldr
 0 Front bumper featuring curved slopes, a hose reel winch, and a control stick hinge for functionality.
 0 Name: 5893 - 4WD front bumper.ldr
@@ -2153,6 +2182,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - 4WD engine rack.ldr
 0 Engine bay frame built on a trap door plate with orange door rails and decorative tiles.
 0 Name: 5893 - 4WD engine rack.ldr
@@ -2206,6 +2236,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - 4WD engine.ldr
 0 Detailed engine with air scoop, propeller fan, exhaust cones, and patterned grille tile.
 0 Name: 5893 - 4WD engine.ldr
@@ -2259,6 +2290,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - 4WD cabin rear.ldr
 0 Rear cabin wall of blue bricks with yellow headlights and a black grille tile for detail.
 0 Name: 5893 - 4WD cabin rear.ldr
@@ -2305,6 +2337,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - 4WD seat.ldr
 0 Tan interior seat constructed from plates and grooved tiles with clip and handle attachments.
 0 Name: 5893 - 4WD seat.ldr
@@ -2346,6 +2379,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - 4WD door LH.ldr
 0 Left-hand door with white and blue bricks, a red hinge plate, and rounded corner panels with a handle.
 0 Name: 5893 - 4WD door LH.ldr
@@ -2384,6 +2418,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - 4WD door RH.ldr
 0 Right-hand door mirroring the left with white and blue bricks, a red hinge plate, and rounded corner panels with a handle.
 0 Name: 5893 - 4WD door RH.ldr
@@ -2422,6 +2457,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - 4WD board.ldr
 0 Dashboard board with a digital clock tile, dial gauge, grille, hinges, and a small steering wheel.
 0 Name: 5893 - 4WD board.ldr
@@ -2448,6 +2484,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - 4WD light.ldr
 0 Front light assembly of white plates with transparent orange and clear elements for headlamps.
 0 Name: 5893 - 4WD light.ldr
@@ -2471,6 +2508,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - 4WD locker.ldr
 0 Compact locker mechanism using a pin brick, angle connector, towball axle, and grille tile.
 0 Name: 5893 - 4WD locker.ldr
@@ -2494,6 +2532,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - 4WD hood rear.ldr
 0 Rear hood section of dark plates with clip-on tiles, grooved tiles, and lightsaber blade bars for detail.
 0 Name: 5893 - 4WD hood rear.ldr
@@ -2526,6 +2565,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - 4WD hood.ldr
 0 Hood panel of large blue and grey plates with curved and angled slopes forming the contoured engine cover.
 0 Name: 5893 - 4WD hood.ldr
@@ -2591,6 +2631,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - 4WD mirror LH.ldr
 0 Left side mirror with a clear dish reflector mounted on a curved bracket and blue plate.
 0 Name: 5893 - 4WD mirror LH.ldr
@@ -2610,6 +2651,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - 4WD mirror RH.ldr
 0 Right side mirror with a clear dish reflector mounted on a curved bracket and blue plate.
 0 Name: 5893 - 4WD mirror RH.ldr
@@ -2629,6 +2671,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - 4WD roof.ldr
 0 Roof structure of technic and standard plates in blue and white forming the cabin top with clip attachments.
 0 Name: 5893 - 4WD roof.ldr
@@ -2699,6 +2742,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - 4WD strut.ldr
 0 Small strut or antenna of round bricks and plates topped with a clip tile.
 0 Name: 5893 - 4WD strut.ldr
@@ -2722,6 +2766,7 @@
 
 
 
+0 STEP
 0 FILE 5893 - 4WD upper light.ldr
 0 Upper warning light with a yellow translucent dish on a round plate and technic axle pin mount.
 0 Name: 5893 - 4WD upper light.ldr

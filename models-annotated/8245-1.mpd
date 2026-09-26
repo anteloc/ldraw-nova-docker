@@ -12,6 +12,7 @@
 1 16 -464 41 -976 -1 0 0 0 1 0 0 0 -1 8245 - Target.ldr
 
 
+0 STEP
 0 FILE 8245 - Vehicle.ldr
 0 A compact Technic vehicle built from beams, axles, and liftarms with bent liftarm arms and bushing-connected wheels.
 0 Name: 8245 - Vehicle.ldr
@@ -279,6 +280,7 @@
 0 SYNTH END
 
 
+0 STEP
 0 FILE 8245 - Figure.ldr
 0 A posable Technic action figure with articulated legs, arms, torso, helmet with visor, and a frowning yellow head.
 0 Name: 8245 - Figure.ldr
@@ -342,6 +344,7 @@
 1 14 -427.763 -48.19 -178.196 1 0 0 0 0.999999 0 0 0 1 2702.dat
 
 
+0 STEP
 0 FILE 8245 - Target.ldr
 0 A large purple-and-black Technic target structure composed of bent liftarms, axles, connectors, gears, and a towball mechanism.
 0 Name: 8245 - Target.ldr
@@ -2456,6 +2459,7 @@
 
 
 
+0 STEP
 0 FILE 8245 - 2715.dat
 0 A Technic action figure helmet part with a patternable top area and a known collision issue with the visor in the up position.
 0 Name: 8245 - 2715.dat
@@ -2609,6 +2613,7 @@
 
 
 
+0 STEP
 0 FILE 8245 - LS05.dat
 0 An LSynth constraint part representing a Type 5 NXT cable with no physical pieces.
 0 Name: 8245 - LS05.dat
@@ -2763,6 +2768,7 @@
 
 
 
+0 STEP
 0 FILE s\8245 - 2715s01.dat
 0 A subpart forming the lower half of a Technic action figure helmet using cylinders, tori, and disc primitives.
 0 Name: s\8245 - 2715s01.dat

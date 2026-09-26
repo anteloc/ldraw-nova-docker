@@ -11,6 +11,7 @@
 
 
 
+0 STEP
 0 FILE 8820 - Dune Buggy.ldr
 0 The main chassis built from Technic plates, bricks, and steering components forming the buggy's structural frame with steering rack and gears.
 0 Name: 8820 - Dune Buggy.ldr
@@ -174,6 +175,7 @@
 
 
 
+0 STEP
 0 FILE 8820 - Steering.ldr
 0 The steering assembly consisting of a steering top wheel and a steering gear holder.
 0 Name: 8820 - Steering.ldr
@@ -188,6 +190,7 @@
 
 
 
+0 STEP
 0 FILE 8820 - Spring-Connection.ldr
 0 A suspension linkage subassembly using axles, bushes, and Technic bricks to connect the shock absorber springs.
 0 Name: 8820 - Spring-Connection.ldr
@@ -228,6 +231,7 @@
 
 
 
+0 STEP
 0 FILE 8820 - shock-06_5L-soft-1.ldr
 0 A 6.5L soft Technic shock absorber with a cylinder, piston rod, and coiled spring.
 0 !CATEGORY Technic
@@ -275,6 +279,7 @@
 
 
 
+0 STEP
 0 FILE 8820 - shock-06_5L-soft-1_springMesh.ldr
 0 A procedurally generated coiled spring mesh for the shock absorber with defined coil and wire resolution parameters.
 0 Author: Max Martin Richter [MMR1988]
@@ -4569,6 +4574,7 @@
 
 
 
+0 STEP
 0 FILE 8820 - Left-Side.ldr
 0 The left body side panel made of a red Technic brick with holes and a red plate.
 0 Name: 8820 - Left-Side.ldr
@@ -4583,6 +4589,7 @@
 
 
 
+0 STEP
 0 FILE 8820 - Right-Side.ldr
 0 The right body side panel made of a red Technic brick with holes and a red plate.
 0 Name: 8820 - Right-Side.ldr
@@ -4597,6 +4604,7 @@
 
 
 
+0 STEP
 0 FILE 8820 - Roll-Cage-Front.ldr
 0 The front section of the roll cage built from an axle, a pin/bush connector with studs, and a toggle joint connector.
 0 Name: 8820 - Roll-Cage-Front.ldr
@@ -4613,6 +4621,7 @@
 
 
 
+0 STEP
 0 FILE 8820 - Roll-Cage-Top.ldr
 0 The top section of the roll cage assembled from an axle, connectors, and a friction pin.
 0 Name: 8820 - Roll-Cage-Top.ldr
@@ -4631,6 +4640,7 @@
 
 
 
+0 STEP
 0 FILE 8820 - Front-Lights.ldr
 0 The front light assembly consisting of a Technic brick with a hole and a round grille-patterned tile.
 0 Name: 8820 - Front-Lights.ldr
@@ -4646,6 +4656,7 @@
 
 
 
+0 STEP
 0 FILE 8820 - 4185a.dat
 0 A Technic wedge belt wheel built from cylindrical and rectangular primitive shapes forming a pulley.
 0 Name: 8820 - 4185a.dat
@@ -4724,6 +4735,7 @@
 
 
 
+0 STEP
 0 FILE s\8820 - 4185as01.dat
 0 One eighth section of the Technic wedge belt wheel built from cylindrical rings, discs, and rectangular primitives forming part of the pulley geometry.
 0 Name: s\8820 - 4185as01.dat

@@ -14,6 +14,7 @@
 1 4 -40 -24 -20 0.707 0 -0.707 0 1 0 0.707 0 0.707 41502 - Arm Right.ldr
 
 
+0 STEP
 0 FILE 41502 - Body.ldr
 0 An angular red and dark-red torso with sloped shoulders, wing plates, and translucent yellow flame accents.
 0 Name: 41502 - Body.ldr
@@ -77,6 +78,7 @@
 0 // Technic Ball Joint with Axlehole Blind with Black Eye with Pupil Top Left Pattern (white)
 1 15 20 -81.25 -10 1 0 0 0 1 0 0 0 1 32474p01.dat
 
+0 STEP
 0 FILE 41502 - Leg Left.ldr
 0 A short red leg segment using a socket-and-ball joint plate topped with a grooved tile.
 0 Name: 41502 - Leg Left.ldr
@@ -88,6 +90,7 @@
 0 // Tile  1 x  2 with Groove (red)
 1 4 0 0 -8 0 0 1 1 0 0 0 1 0 3069b.dat
 
+0 STEP
 0 FILE 41502 - Leg Right.ldr
 0 A short red leg segment using a socket-and-ball joint plate topped with a grooved tile.
 0 Name: 41502 - Leg Right.ldr
@@ -99,6 +102,7 @@
 0 // Tile  1 x  2 with Groove (red)
 1 4 0 0 -8 0 0 1 1 0 0 0 1 0 3069b.dat
 
+0 STEP
 0 FILE 41502 - Arm Left.ldr
 0 A red arm assembly formed from a hinged plate, clip plate, and curved slope.
 0 Name: 41502 - Arm Left.ldr
@@ -112,6 +116,7 @@
 0 // Slope Brick Curved  2 x  1 (red)
 1 4 20 0 10 0 0 1 0 1 0 -1 0 0 11477.dat
 
+0 STEP
 0 FILE 41502 - Arm Right.ldr
 0 A red arm assembly formed from a hinged plate, clip plate, and curved slope.
 0 Name: 41502 - Arm Right.ldr
@@ -125,6 +130,7 @@
 0 // Slope Brick Curved  2 x  1 (red)
 1 4 -20 0 10 0 0 -1 0 1 0 1 0 0 11477.dat
 
+0 STEP
 0 FILE 41502 - Foot Right.ldr
 0 A dark-red and red angled foot with a side-mounted ball joint and steep sloped toe.
 0 Name: 41502 - Foot Right.ldr
@@ -140,6 +146,7 @@
 0 // Slope Brick 45  2 x  1 Inverted without Inner Stopper Ring (red)
 1 4 10 0 8 0 0 1 1 0 0 0 1 0 3665.dat
 
+0 STEP
 0 FILE 41502 - Foot Left.ldr
 0 A dark-red and red angled foot with a side-mounted ball joint and steep sloped toe.
 0 Name: 41502 - Foot Left.ldr
@@ -155,6 +162,7 @@
 0 // Slope Brick 45  2 x  1 Inverted without Inner Stopper Ring (red)
 1 4 -10 0 8 0 0 -1 -1 0 0 0 1 0 3665.dat
 
+0 STEP
 0 FILE 41502 - 14704.dat
 0 A plate joint socket component modeled from cylinders, discs, and boxes forming a friction center.
 0 Name: 41502 - 14704.dat
@@ -224,6 +232,7 @@
 
 1 16 0 4 -20 1 0 0 0 1 0 0 0 1 41502 - joint-8-socket-frica.dat
 
+0 STEP
 0 FILE 41502 - 14419.dat
 0 A ball-joint-and-socket connector formed from a sphere, cylinders, and a circle primitive.
 0 Name: 41502 - 14419.dat
@@ -245,6 +254,7 @@
 1 16 -30 4 0 0 0 8 0 8 0 -8 0 0 8-8sphe.dat
 1 16 30 4 0 0 0 -1 0 1 0 1 0 0 41502 - joint-8-socket-frica.dat
 
+0 STEP
 0 FILE 41502 - joint-8-socket-frica.dat
 0 A friction socket joint-8 built from quartered cylinders, chords, discs, and cut-off spheres.
 0 Name: 41502 - joint-8-socket-frica.dat
@@ -838,6 +848,7 @@
 5 24 -10 7.75 9 -10 -7.75 9 -9.817 7.567 9.31695 -10 7.75 -3
 5 24 -10 4 10 -10 -4 10 -9.817 4 9.68305 -10 4 15
 
+0 STEP
 0 FILE s\41502 - 14418s01.dat
 0 A subpart for a socket-joint plate constructed from closed cylinders and box primitives.
 0 Name: s\41502 - 14418s01.dat

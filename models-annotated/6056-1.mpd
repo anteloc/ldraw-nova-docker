@@ -16,6 +16,7 @@
 1 16 188.132 12 60.125 .0872 0 -.9962 0 1 0 .9962 0 .0872 6056 - Guardsman.ldr
 0 16 0 0 0 1 0 0 0 1 0 0 0 1 6056 - Extra Parts for Horses.ldr
 
+0 STEP
 0 FILE 6056 - Wagon Main.ldr
 0 The red and black wagon body built from plates and hinge elements, with a turntable and wheel-pin plates forming the wheeled chassis structure.
 0 Name: 6056 - Wagon Main.ldr
@@ -165,6 +166,7 @@
 1 14 89.5 -66 -92.5 0 0 -1 0 1 0 1 0 0 4491b.dat
 1 14 0 -300 -120 0 -1 0 0 0 -1 1 0 0 71303p01.dat
 
+0 STEP
 0 FILE 6056 - Front Bogie.ldr
 0 A hinged front axle assembly with a turntable base, pulling two horses fitted with red winged head armor and complete tack.
 0 Name: 6056 - Front Bogie.ldr
@@ -201,6 +203,7 @@
 0 // Animal Horse Head Armour with Wings (red)
 1 4 40 -84.188 -230.659 1 0 0 0 .98478 -.17383 0 .17383 .98478 6125.dat
 
+0 STEP
 0 FILE 6056 - Back Latch.ldr
 0 A black hinged latch mechanism using long plates and finger hinges with a red handle for opening and securing the wagon rear.
 0 Name: 6056 - Back Latch.ldr
@@ -230,6 +233,7 @@
 0 // Plate  1 x  4 (black)
 1 0 -170 -16 -30 0 0 1 0 1 0 -1 0 0 3710.dat
 
+0 STEP
 0 FILE 6056 - Dragon.ldr
 0 A fully assembled green dragon composed of body, tail, head, two arms, a pair of red wings, and a trans-neon-orange flame element.
 0 Name: 6056 - Dragon.ldr
@@ -254,6 +258,7 @@
 0 // Minifig Flame with Pegs (trans_neon_orange)
 1 38 0 -31.155 -117.125 0 -1 0 -.9138 0 .4061 -.4061 0 -.9138 6126a.dat
 
+0 STEP
 0 FILE 6056 - Guardsman.ldr
 0 A minifigure guardsman with a red dragon-decorated torso, blue arms, black helmet topped with a dragon crown and yellow winged plume.
 0 Name: 6056 - Guardsman.ldr
@@ -297,6 +302,7 @@
 0 // Minifig Polearm Halberd (dark_grey)
 1 8 -26.64 -47.352 -33.531 .4977 .3282 .8029 -.0136 .9285 -.3711 -.8673 .1737 .4666 6123.dat
 
+0 STEP
 0 FILE 6056 - Coachman.ldr
 0 A minifigure coachman with a red dragon-head-pattern torso, blue arms, black castle helmet with neck protector, and a dark grey shortsword.
 0 Name: 6056 - Coachman.ldr
@@ -334,6 +340,7 @@
 0 // Minifig Whip (black)
 1 0 -21.547 32.29087 -38.25694 1 -.0007 -.015 -.014671 -.231297 -.972799 -.002782 .972898 -.231307 2488.dat
 
+0 STEP
 0 FILE 6056 - Extra Parts for Horses.ldr
 0 A small spare parts set containing one black and one brown 1x2 plate for the horses.
 0 Name: 6056 - Extra Parts for Horses.ldr

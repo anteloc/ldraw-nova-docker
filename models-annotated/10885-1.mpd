@@ -35,6 +35,7 @@
 0 // Duplo Brick  2 x  4 x  2 with Zebra Head Pattern (medium_azure)
 1 322 738.289 -192 -93.127 0.94 0 0.342 0 1 0 -0.342 0 0.94 10885 - 31111p0g.dat
 
+0 STEP
 0 FILE 10885 - 31111p02.dat
 0 A decorative pattern part file for a Duplo animal brick component.
 0 Name: 10885 - 31111p02.dat
@@ -550,6 +551,7 @@
 3 0 19.6 77.599998 -40 22.6 81.800003 -40 22.6 67.400002 -40
 3 0 22.799999 84.800003 -40 22.6 81.800003 -40 20.4 83.599998 -40
 
+0 STEP
 0 FILE 10885 - 31111p03.dat
 0 A decorative pattern part file for a Duplo animal brick component.
 0 Name: 10885 - 31111p03.dat
@@ -1139,6 +1141,7 @@
 3 25 -10.2 84.400002 -40 -9.8 84.199997 -40 -13.2 78 -40
 3 25 -3.8 82 -40 -9.8 84.199997 -40 -8.2 84.400002 -40
 
+0 STEP
 0 FILE 10885 - 31111p04.dat
 0 A decorative pattern part file for a Duplo animal brick component.
 0 Name: 10885 - 31111p04.dat
@@ -1669,6 +1672,7 @@
 3 25 -10.6 77.400002 -40 -9.2 76.400002 -40 -15.4 73.800003 -40
 3 484 -3.8 75.400002 -40 -6.8 75.400002 -40 -0.8 76.800003 -40
 
+0 STEP
 0 FILE 10885 - 31111p08.dat
 0 A decorative pattern part file for a Duplo animal brick component.
 0 Name: 10885 - 31111p08.dat
@@ -2030,6 +2034,7 @@
 3 16 5 71.599998 -40 2 71.599998 -40 2.6 72.400002 -40
 3 16 -2.8 79 -40 -3.6 78.400002 -40 -3.6 82 -40
 
+0 STEP
 0 FILE 10885 - 31111p09.dat
 0 A decorative pattern part file for a Duplo animal brick component.
 0 Name: 10885 - 31111p09.dat
@@ -2503,6 +2508,7 @@
 4 16 -22 57.599998 -40 -24.799999 53.200001 -40 -27.4 56.599998 -40 -25 59.400002 -40
 3 2 -24 60.400002 -40 -25 59.400002 -40 -25.200001 61.400002 -40
 
+0 STEP
 0 FILE 10885 - 31111p0a.dat
 0 A decorative pattern part file for a Duplo animal brick component.
 0 Name: 10885 - 31111p0a.dat
@@ -3007,6 +3013,7 @@
 3 16 -27 85.400002 -40 -25 82.599998 -40 -28.799999 76.400002 -40
 4 2 -25 82.599998 -40 -21.200001 85.199997 -40 -22.200001 81.400002 -40 -23 79.599998 -40
 
+0 STEP
 0 FILE 10885 - 31111p0b.dat
 0 A decorative pattern part file for a Duplo animal brick component.
 0 Name: 10885 - 31111p0b.dat
@@ -3415,6 +3422,7 @@
 4 0 0.4 41 -40 -1 43.799999 -40 3 42.799999 -40 6.8 39.799999 -40
 3 31 4 42.799999 -40 3 42.799999 -40 4.2 43.400002 -40
 
+0 STEP
 0 FILE 10885 - 31111p0c.dat
 0 A decorative pattern part file for a Duplo animal brick component.
 0 Name: 10885 - 31111p0c.dat
@@ -3779,6 +3787,7 @@
 3 16 42.400002 92.800003 -40 11.4 92.599998 -40 80 96 -40
 4 16 -54 92.133301 -40 -56.599998 92.199997 -40 -80 96 -40 -4.8 92.400002 -40
 
+0 STEP
 0 FILE 10885 - 31111p0d.dat
 0 A decorative pattern part file for a Duplo animal brick component.
 0 Name: 10885 - 31111p0d.dat
@@ -4202,6 +4211,7 @@
 4 15 -12.4 33 -40 -10.8 38.200001 -40 -10 32.799999 -40 -11.2 32.599998 -40
 4 0 -11.2 32.599998 -40 -10 31 -40 -13.6 31.200001 -40 -12.4 33 -40
 
+0 STEP
 0 FILE 10885 - 31111p05.dat
 0 A decorative pattern part file for a Duplo animal brick component.
 0 Name: 10885 - 31111p05.dat
@@ -4673,6 +4683,7 @@
 4 16 -25 59.599998 -40 -26 63.400002 -40 -22.799999 61.799999 -40 -21 60.200001 -40
 3 16 -21 60.200001 -40 -22.799999 61.799999 -40 -19.6 60.400002 -40
 
+0 STEP
 0 FILE 10885 - 31111p06.dat
 0 A decorative pattern part file for a Duplo animal brick component.
 0 Name: 10885 - 31111p06.dat
@@ -5070,6 +5081,7 @@
 4 16 -58.799999 69.400002 -40 -60.799999 70.199997 -40 -57.400002 70.400002 -40 -57.799999 69.400002 -40
 3 0 -60.799999 70.199997 -40 -58.799999 69.400002 -40 -64 64 -40
 
+0 STEP
 0 FILE 10885 - 31111p07.dat
 0 A decorative pattern part file for a Duplo animal brick component.
 0 Name: 10885 - 31111p07.dat
@@ -5611,6 +5623,7 @@
 3 0 67.599998 51.400002 -40 67.199997 52.200001 -40 68.400002 51.400002 -40
 3 15 67.199997 47.799999 -40 67.599998 51.400002 -40 68.400002 51.400002 -40
 
+0 STEP
 0 FILE 10885 - 31111p0e.dat
 0 A decorative pattern part file for a Duplo animal brick component.
 0 Name: 10885 - 31111p0e.dat
@@ -6259,6 +6272,7 @@
 
 4 16 -5.5 4.5 -40 7 4.4667 -40 80 0 -40 -10.35 4.3 -40
 
+0 STEP
 0 FILE 10885 - 31111p0f.dat
 0 A decorative pattern part file for a Duplo animal brick component.
 0 Name: 10885 - 31111p0f.dat
@@ -6693,6 +6707,7 @@
 3 70 -53.599998 84.199997 -40 -54 88.900002 -40 -51 83.800003 -40
 3 15 -51.200001 75.900002 -40 -52.400002 78.699997 -40 -46.400002 77.800003 -40
 
+0 STEP
 0 FILE 10885 - 31111p0g.dat
 0 A decorative pattern part file for a Duplo animal brick component.
 0 Name: 10885 - 31111p0g.dat
@@ -7330,6 +7345,7 @@
 3 0 -17 76.199997 -40 -20.200001 76.199997 -40 -20 79.800003 -40
 3 0 -17 87.400002 -40 -19.6 86.800003 -40 -19.799999 90.599998 -40
 
+0 STEP
 0 FILE s\10885 - 31111s01.dat
 0 A geometric subpart composed of open and closed boxes forming the underlying brick shape for the patterned animal bricks.
 0 Name: s\10885 - 31111s01.dat

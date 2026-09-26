@@ -11,6 +11,7 @@
 1 40 120 -10 -19 1 0 0 0 1 0 0 0 1 30311 - Police.ldr
 
 
+0 STEP
 0 FILE 30311 - Helicopter.ldr
 0 A compact helicopter fuselage with sloped white panels, dark blue bricks, transparent blue windows, and yellow control sticks.
 0 Name: 30311 - Helicopter.ldr
@@ -98,6 +99,7 @@
 1 0 0 -136 90 0 0 1 0 1 0 -1 0 0 6636.dat
 
 
+0 STEP
 0 FILE 30311 - Helicopter Side.ldr
 0 A pair of yellow cylindrical floats or pontoons with rounded domes for the helicopter's landing gear.
 0 Name: 30311 - Helicopter Side.ldr
@@ -117,6 +119,7 @@
 1 14 0 -74 0 1 0 0 0 1 0 0 0 1 30367c.dat
 
 
+0 STEP
 0 FILE 30311 - Police.ldr
 0 A dark blue-uniformed police minifig with a white helmet and trans-brown visor.
 0 Name: 30311 - Police.ldr

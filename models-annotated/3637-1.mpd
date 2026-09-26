@@ -12,6 +12,7 @@
 1 366 141.165 -40.742 93.108 -0.436 0.856 0.276 -0.891 -0.454 0 0.125 -0.246 0.961 3637 - u669.dat
 0 // Fabuland Ladder (black)
 1 0 67.258 -34.091 195.951 0.297 -0.86 0.415 0.951 0.305 -0.049 -0.084 0.41 0.908 3637 - 4206.dat
+0 STEP
 0 FILE 3637 - gertrudgoat.ldr
 0 An empty placeholder submodel for the Fabuland goat figure Gertrude.
 0 Name: 3637 - gertrudgoat.ldr
@@ -25,6 +26,7 @@
 1 15 2.811 -37 8.352 0.988 0.059 -0.145 0 0.927 0.375 0.156 -0.37 0.916 u9100.dat
 1 15 22.565 -37 11.481 0.988 0 -0.156 0 1 0 0.156 0 0.988 u9100.dat
 1 4 12.688 -37 9.917 0.988 0 -0.156 0 1 0 0.156 0 0.988 u9103.dat
+0 STEP
 0 FILE 3637 - truck.ldr
 0 A red and yellow Fabuland truck built on a chassis with tow-hook and wheels, featuring a curved window, hinged roof, and container boxes.
 0 Name: 3637 - truck.ldr
@@ -51,6 +53,7 @@
 1 14 30 -24 100 0 0 -1 0 1 0 1 0 0 3010.dat
 0 // Container Box  6 x  6 (white)
 1 15 0 -48 100 0 0 -1 0 1 0 1 0 0 4452.dat
+0 STEP
 0 FILE 3637 - u669.dat
 0 A primitive geometric part composed of cylinders, rings, a cone, and a disc forming a rounded stud-like shape.
 0 Name: 3637 - u669.dat
@@ -566,6 +569,7 @@
 3 16 9.7703 70 -6.6076 6 70 -6 10.9523 70 -4.4974
 3 16 5.2551 70 -10.3966 1.7119 70 -11.3601 0 70 -6
 2 24 -5 70 11.3 -5.8 70 10.9
+0 STEP
 0 FILE 3637 - 4206.dat
 0 A high-resolution primitive part built from many cylinders, rings, circles, chords, and spheres forming a complex curved surface.
 0 Name: 3637 - 4206.dat
@@ -1165,6 +1169,7 @@
 1 16 -30.5 -212 2.4748 1.33939 0 -3.23358 0 1 0 3.23358 0 1.33939 1-8edge.dat
 0 // Circle 0.125 (main_colour)
 1 16 -30.5 -204 2.4748 1.33939 0 -3.23358 0 1 0 3.23358 0 1.33939 1-8edge.dat
+0 STEP
 0 FILE 3637 - 4463.dat
 0 A primitive geometric part constructed from boxes, rectangles, and small discs forming an angular bracket-like shape.
 0 Name: 3637 - 4463.dat
@@ -1275,6 +1280,7 @@
 1 16 10 30 10 0 0 22.5 -22.5 0 0 0 1 0 48\1-4edge.dat
 1 16 10 30 -5.1538 0 0 30 -30 0.137152 0 4.15381 0.99055 0 48\1-4edge.dat
 1 16 10 30 -5.1538 0 0 22.5 -22.5 0.137152 0 3.11535 0.99055 0 48\1-4edge.dat
+0 STEP
 0 FILE 3637 - 4469.dat
 0 A primitive geometric part made of rectangles, cylinders, and boxes forming a curved and angular structural element.
 0 Name: 3637 - 4469.dat
@@ -1334,6 +1340,7 @@
 4 16 40 0 -10 36 0 -6 36 0 6 40 0 10
 4 16 -40 0 10 40 0 10 36 0 6 -36 0 6
 4 16 -40 0 -10 -36 0 -6 36 0 -6 40 0 -10
+0 STEP
 0 FILE 3637 - 4468.dat
 0 A simple primitive part consisting of a small cylinder and rectangular plates forming a thin rounded edge.
 0 Name: 3637 - 4468.dat
@@ -1378,6 +1385,7 @@
 1 16 0 -59 -89 0 0 2 0 -1 0 1 0 0 rect1.dat
 0 // Rectangle with 1 Edge (main_colour)
 1 16 0 -63.16665 -88 0 0 2 -4.16665 0 0 0 -1 0 rect1.dat
+0 STEP
 0 FILE s\3637 - 4468s01.dat
 0 A sub-part primitive built from cylinders, discs, chords, spheres, and a cone forming a detailed rounded cylindrical surface.
 0 Name: s\3637 - 4468s01.dat

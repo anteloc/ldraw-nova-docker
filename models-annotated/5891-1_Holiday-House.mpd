@@ -7,6 +7,7 @@
 1 15 0 0 0 1 0 0 0 1 0 0 0 1 5891 - Holidays House.ldr
 
 
+0 STEP
 0 FILE 5891 - Holidays House.ldr
 0 A white and green holiday cottage built on a green baseplate with walls of bricks, tiled windows, and decorative panels.
 0 Name: 5891 - Holidays House.ldr
@@ -589,6 +590,7 @@
 1 272 -100 -320 -110 0 0 -1 0 1 0 1 0 0 3044a.dat
 
 
+0 STEP
 0 FILE 5891 - Plant.ldr
 0 A small potted plant made from a brown stem plate, green leaves, and yellow flower pieces.
 0 Name: 5891 - Plant.ldr
@@ -616,6 +618,7 @@
 1 14 -10 -32 -20 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 5891 - Fire.ldr
 0 A small campfire or flame element made from red, orange, and yellow round plates on a yellow base.
 0 Name: 5891 - Fire.ldr
@@ -642,6 +645,7 @@
 1 25 10 -16 10 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 5891 - Roof Hinge.ldr
 0 An adjustable roof hinge mechanism using red and grey plates with brown slope accents.
 0 Name: 5891 - Roof Hinge.ldr
@@ -665,6 +669,7 @@
 1 70 10 -16 10 1 0 0 0 1 0 0 0 1 54200.dat
 
 
+0 STEP
 0 FILE 5891 - Roof.ldr
 0 A dark blue sloped roof assembly with white and grey accents built on a brown support plate with technic pin hinges.
 0 Name: 5891 - Roof.ldr
@@ -757,6 +762,7 @@
 1 272 120 -192 -40 0 0 1 0 1 0 -1 0 0 3041.dat
 
 
+0 STEP
 0 FILE 5891 - Chair.ldr
 0 A grey lounge chair with a tan seat cushion, sloped backrest, and red round accent pieces.
 0 Name: 5891 - Chair.ldr
@@ -790,6 +796,7 @@
 1 19 0 -16 -30 1 0 0 0 1 0 0 0 1 3069b.dat
 
 
+0 STEP
 0 FILE 5891 - Table.ldr
 0 A small grey side table with a tan tiled top and a red round accent.
 0 Author: Marc Giraudet [Mad_Marc]
@@ -808,6 +815,7 @@
 1 4 0 8 0 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 5891 - Lamp.ldr
 0 A table lamp with a grey stem, round hollow-stud body, yellow light bulb, and white inverted dish shade.
 0 Name: 5891 - Lamp.ldr

@@ -477,6 +477,7 @@
 0 // Technic Disc  3 x  3 with Axlehole (black)
 1 0 -150 -49 -200 0 1 0 0 0 -1 -1 0 0 2723.dat
 
+0 STEP
 0 FILE 42048 - chassis.ldr
 0 A central chassis frame built from a large open-center liftarm beam, bent liftarms, towball pins, and an axle joiner for drivetrain connection.
 0 Author: Philippe Hurbain [Philo]
@@ -526,6 +527,7 @@
 0 // Technic Beam  2 Liftarm (orange)
 1 25 40 18.41 127.814 0 1 0 0.391 0 -0.921 -0.921 0 -0.391 60483.dat
 
+0 STEP
 0 FILE 42048 - gearbox.ldr
 0 A compact gearbox assembly using 16-tooth and 8-tooth gears on axles, with cross blocks for mounting and gear shifting.
 0 Author: Philippe Hurbain [Philo]
@@ -559,6 +561,7 @@
 0 // Technic Cross Block 1 x 3 (Axle/Pin/Pin) (black)
 1 0 0 -60 20 -1 0 0 0 1 0 0 0 -1 42003.dat
 
+0 STEP
 0 FILE 42048 - steering.ldr
 0 A steering mechanism comprising a liftarm beam, axles with stops, bushings, and clear round tiles for the steering column and wheel hub.
 0 Author: Philippe Hurbain [Philo]
@@ -601,6 +604,7 @@
 0 // Tile  1 x  1 Round with Groove (trans_clear)
 1 47 62 -20 40 0 1 0 1 0 0 0 0 -1 98138.dat
 
+0 STEP
 0 FILE 42048 - rear.ldr
 0 A rear section built from long liftarm beams, bent cross blocks, and a transmission changeover catch for the rear drivetrain.
 0 Author: Philippe Hurbain [Philo]
@@ -643,6 +647,7 @@
 0 // Technic Cross Block 1 x 3 (Axle/Pin/Pin) (black)
 1 0 -20 -60 0 0 -1 0 1 0 0 0 0 1 42003.dat
 
+0 STEP
 0 FILE 42048 - engine.ldr
 0 A single-cylinder Technic engine with cylinder head, crankshaft, connecting rod, piston, and a 12-tooth drive gear.
 0 Author: Philippe Hurbain [Philo]
@@ -691,6 +696,7 @@
 0 // Technic Cross Block 1 x 3 (Axle/Pin/Axle) (light_bluish_grey)
 1 71 60 20 17 0 0 1 0 1 0 -1 0 0 32184.dat
 
+0 STEP
 0 FILE 42048 - tank.ldr
 0 A fuel tank assembly constructed from short liftarms, bent liftarms, and cross blocks, capped with an orange round tile.
 0 Author: Philippe Hurbain [Philo]
@@ -738,6 +744,7 @@
 0 // Tile  1 x  1 Round with Groove (orange)
 1 25 45 38 -40 0 0 -1 0 -1 0 -1 0 0 98138.dat
 
+0 STEP
 0 FILE 42048 - technicRibHoseLQ-1.ldr
 0 A flexible ribbed hose built from 39 mid segments and 2 end segments along an approx 86 mm curved path.
 0 !CATEGORY technic
@@ -850,6 +857,7 @@
 0 // ~Technic Ribbed Hose End Segment (main_colour)
 1 16 -90 -43.810981 20 -1 0 0 0 1 0 0 0 -1 79.dat
 
+0 STEP
 0 FILE 42048 - seat.ldr
 0 A driver's seat assembly using orange bent liftarms and fairing panels, connected with pins and axles for support.
 0 Author: Philippe Hurbain [Philo]
@@ -916,6 +924,7 @@
 0 // Technic Axle Joiner Inline Smooth (black)
 1 0 60 -223.134 69.085 0 1 0 -0.105 0 0.995 0.995 0 0.105 59443.dat
 
+0 STEP
 0 FILE 42048 - 2850b.dat
 0 A Technic engine cylinder head part composed of cylinders, discs, and rectangular geometry primitives representing cooling fins and stud details.
 0 Name: 42048 - 2850b.dat
@@ -1086,6 +1095,7 @@
 4 16 -20 36 2 -20 33 2 -27 33 2 -27 36 2
 
 
+0 STEP
 0 FILE s\42048 - 2850s01.dat
 0 A half common geometry subpart for the Technic engine cylinder head, containing studs, cooling ribs, connector holes, and cylinder/disc primitives.
 0 Name: s\42048 - 2850s01.dat

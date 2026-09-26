@@ -16,6 +16,7 @@
 
 
 
+0 STEP
 0 FILE 3187 - Emma.ldr
 0 A Friends minidoll named Emma with a lavender vest top, layered skirt, long black wavy hair, and a ruffled bag accessory.
 0 Name: 3187 - Emma.ldr
@@ -44,6 +45,7 @@
 0
 
 
+0 STEP
 0 FILE 3187 - Sarah.ldr
 0 A Friends minidoll named Sarah with a white patterned vest top, aqua layered skirt, straight dark brown hair, and oval orange glasses.
 0 Name: 3187 - Sarah.ldr
@@ -73,6 +75,7 @@
 
 
 
+0 STEP
 0 FILE 3187 - Fountain.ldr
 0 A round white-and-grey garden fountain topped with a dome and a translucent light-blue flame jet.
 0 Name: 3187 - Fountain.ldr
@@ -100,6 +103,7 @@
 
 
 
+0 STEP
 0 FILE 3187 - Bench.ldr
 0 A park bench built from a white 2x6 brick with azure tiled seat, lime and pink round accents, and black clip handle supports.
 0 Name: 3187 - Bench.ldr
@@ -137,6 +141,7 @@
 
 
 
+0 STEP
 0 FILE 3187 - Building.ldr
 0 A multi-story pink-and-white building with azure trim, large windows, doors, grille bricks, and clear glass panels.
 0 Name: 3187 - Building.ldr
@@ -570,6 +575,7 @@
 
 
 
+0 STEP
 0 FILE 3187 - Showcase.ldr
 0 A small white-and-azure display showcase on a base plate with clip and rounded corner panels.
 0 Name: 3187 - Showcase.ldr
@@ -601,6 +607,7 @@
 1 322 -30 -32 -10 0 0 -1 0 1 0 1 0 0 6231.dat
 
 
+0 STEP
 0 FILE 3187 - 4620858i.dat
 0 A left-side sticker decal depicting a silver butterfly with pink floral detailing.
 0 Name: 3187 - 4620858i.dat
@@ -615,6 +622,7 @@
 0 // Sticker  1.3 x  3.3 with Silver Butterfly and Pink Floral - Left (main_colour)
 1 16 0 0 0 -1 0 0 0 1 0 0 0 1 3187 - 4620858g.dat
 
+0 STEP
 0 FILE 3187 - 4620858g.dat
 0 A patterned surface decal featuring alternating pink and white dot polka dots.
 0 Name: 3187 - 4620858g.dat
@@ -1223,6 +1231,7 @@
 3 15 24.799999 -0.25 -7.6 24.200001 -0.25 -7.6 28.4 -0.25 -8.7
 4 15 15.1 -0.25 0.7 12.7 -0.25 1.3 14.6 -0.25 0.4 17.5 -0.25 -0.2
 
+0 STEP
 0 FILE 3187 - 4620858a.dat
 0 A patterned surface decal of white dots on a pink background.
 0 Name: 3187 - 4620858a.dat
@@ -2943,6 +2952,7 @@
 3 15 -3.1 -0.25 -24.6 -1.3 -0.25 -26.5 -1.7 -0.25 -25.200001
 4 15 -1.7 -0.25 -25.200001 -1.3 -0.25 -26.5 0.7 -0.25 -29 1.3 -0.25 -29
 
+0 STEP
 0 FILE 3187 - 85984d07.dat
 0 A decorated slope sticker showing a paintbox, mirror, and makeup brushes.
 0 Name: 3187 - 85984d07.dat
@@ -2957,6 +2967,7 @@
 0 // Sticker  0.9 x  1.9 with Paintbox, Mirror and Makeup Brushes (main_colour)
 1 16 0 -10 0 -1 0 0 0 0.857491 0.514499 0 0.514499 -0.857491 3187 - 4620858l.dat
 
+0 STEP
 0 FILE 3187 - 85984d05.dat
 0 A decorated slope sticker showing a paintbox and makeup brushes.
 0 Name: 3187 - 85984d05.dat
@@ -2971,6 +2982,7 @@
 0 // Sticker  0.9 x  1.9 with Paintbox and Makeup Brushes (main_colour)
 1 16 0 -10 0 1 0 0 0 0.857491 -0.514499 0 0.514499 0.857491 3187 - 4620858k.dat
 
+0 STEP
 0 FILE 3187 - 4620858e.dat
 0 A patterned surface decal of white dots on an azure background.
 0 Name: 3187 - 4620858e.dat
@@ -3544,6 +3556,7 @@
 4 322 2 -0.25 -4.5 2.08 -0.25 -4.12 0.38 -0.25 -2.42 0 -0.25 -2.5
 4 322 2.08 -0.25 -4.88 2 -0.25 -4.5 0 -0.25 -2.5 1.7 -0.25 -6.6
 
+0 STEP
 0 FILE 3187 - 4620858d.dat
 0 A patterned surface decal of white dots on azure with silver accents.
 0 Name: 3187 - 4620858d.dat
@@ -4264,6 +4277,7 @@
 3 322 8 -0.25 14.5 6.38268 -0.25 14.42388 6.70711 -0.25 14.20711
 3 322 8 -0.25 14.5 6 -0.25 14.5 6.38268 -0.25 14.42388
 
+0 STEP
 0 FILE 3187 - 4620858f.dat
 0 A blank surface backing piece with no pattern.
 0 Name: 3187 - 4620858f.dat
@@ -4280,6 +4294,7 @@
 
 4 383 39 -0.25 29 -39 -0.25 29 -39 -0.25 -29 39 -0.25 -29
 
+0 STEP
 0 FILE 3187 - 4620858c.dat
 0 A patterned decal featuring assorted colorful dots framed by silver ring accents.
 0 Name: 3187 - 4620858c.dat
@@ -4966,6 +4981,7 @@
 4 15 19 -0.25 -6 -7 -0.25 -6 -7 -0.25 -7 19 -0.25 -7
 3 15 -7 -0.25 -7 -8 -0.25 -19 -7 -0.25 -19
 
+0 STEP
 0 FILE 3187 - 4620858j.dat
 0 A patterned surface decal of mixed white and azure polka dots with silver accents.
 0 Name: 3187 - 4620858j.dat
@@ -5433,6 +5449,7 @@
 3 15 13.4 -0.25 -10.1 12 -0.25 -10.1 12.6 -0.25 -10.3
 3 15 13.4 -0.25 -10.1 12.6 -0.25 -10.3 13 -0.25 -10.7
 
+0 STEP
 0 FILE 3187 - 85984d06.dat
 0 A decorated slope sticker showing a paintbox, mirror, and makeup brushes.
 0 Name: 3187 - 85984d06.dat
@@ -5447,6 +5464,7 @@
 0 // Sticker  0.9 x  1.9 with Paintbox, Mirror and Makeup Brushes (main_colour)
 1 16 0 -10 0 1 0 0 0 0.857491 -0.514499 0 0.514499 0.857491 3187 - 4620858l.dat
 
+0 STEP
 0 FILE 3187 - 4620858b.dat
 0 A blank surface backing piece with no pattern.
 0 Name: 3187 - 4620858b.dat
@@ -5463,6 +5481,7 @@
 
 4 383 19 -0.25 19 -19 -0.25 19 -19 -0.25 -19 19 -0.25 -19
 
+0 STEP
 0 FILE 3187 - 4620858l.dat
 0 A patterned decal with silver and pink curved accents on a dotted background.
 0 Name: 3187 - 4620858l.dat
@@ -5587,6 +5606,7 @@
 4 15 10.5 -0.25 -2 9.5 -0.25 -2 9.5 -0.25 -4 10.5 -0.25 -4
 4 15 10.5 -0.25 -4 9.5 -0.25 -4 9.5 -0.25 -6 10.5 -0.25 -6
 
+0 STEP
 0 FILE 3187 - 4620858k.dat
 0 A patterned decal featuring small colorful dots in nougat, azure, brown, and pink.
 0 Name: 3187 - 4620858k.dat
@@ -5731,6 +5751,7 @@
 
 
 
+0 STEP
 0 FILE 3187 - 4620858h.dat
 0 An oval chrome silver mirror sticker decal.
 0 Name: 3187 - 4620858h.dat

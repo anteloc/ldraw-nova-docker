@@ -316,6 +316,7 @@
 0 // Technic Bush 1/2 Smooth with Axle Hole Semi-Reduced (yellow)
 1 14 -75 0 -160 0 0 -1 0 1 0 1 0 0 32123b.dat
 
+0 STEP
 0 FILE 42004 - front right side.ldr
 0 Right-side frame section using a long yellow beam, bent liftarms, pins, and axles for structural support.
 0 Name: 42004 - front right side.ldr
@@ -357,6 +358,7 @@
 1 0 20 -70 20 1 0 0 0 1 0 0 0 1 42004 - exhaust.ldr
 
 
+0 STEP
 0 FILE 42004 - exhaust.ldr
 0 Vertical exhaust assembly formed from a stopped axle, worm gear, half-bushes, and joiners stacked into a pipe-like stack.
 0 Name: 42004 - exhaust.ldr
@@ -385,6 +387,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42004 - seat.ldr
 0 Operator seat and steering station built from yellow beams, a bent liftarm backrest, and a steering wheel.
 0 Name: 42004 - seat.ldr
@@ -420,6 +423,7 @@
 1 14 40 0 0 0 -1 0 1 0 0 0 0 1 32524.dat
 
 
+0 STEP
 0 FILE 42004 - roof.ldr
 0 Roll-cage roof structure using thin yellow liftarms, connectors, and an axle spanning the cabin top.
 0 Name: 42004 - roof.ldr
@@ -460,6 +464,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42004 - backhoe.ldr
 0 Rear digging arm mechanism with a long beam, bent liftarms, worm and spur gears, and axles forming the articulated boom and bucket drive.
 0 Name: 42004 - backhoe.ldr
@@ -554,6 +559,7 @@
 1 71 0 -10 20 0 0 -1 -1 0 0 0 1 0 63869.dat
 
 
+0 STEP
 0 FILE 42004 - front arm 1.ldr
 0 Articulated loader arm segment of bent and thin yellow liftarms pinned at joints for the front bucket linkage.
 0 Name: 42004 - front arm 1.ldr
@@ -588,6 +594,7 @@
 1 71 -5 20 20 0 -1 0 0 0 -1 1 0 0 41677.dat
 
 
+0 STEP
 0 FILE 42004 - front arm 2.ldr
 0 Parallel loader arm segment using paired thin yellow beams and half-bushes joined by an axle joiner for bucket support.
 0 Name: 42004 - front arm 2.ldr
@@ -623,6 +630,7 @@
 1 14 95 0 0 0 0 1 0.432 0.902 0 -0.902 0.432 0 32123b.dat
 
 
+0 STEP
 0 FILE 42004 - front arm 3.ldr
 0 Mirrored articulated loader arm segment of bent and thin yellow liftarms pinned for the opposite side of the front bucket linkage.
 0 Name: 42004 - front arm 3.ldr

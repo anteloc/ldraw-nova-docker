@@ -72,6 +72,7 @@
 1 33 0 -79 12 1 0 0 0 1 0 0 0 1 6827 - Minifig.ldr
 
 
+0 STEP
 0 FILE 6827 - Wing.ldr
 0 Wing
 0 Name: 6827 - Wing.ldr
@@ -109,6 +110,7 @@
 0 // Plate  1 x  1 Round (trans_red)
 1 36 -60 -6 -60 1 0 0 0 0 1 0 -1 0 6141.dat
 
+0 STEP
 0 FILE 6827 - Minifig.ldr
 0 Minifig
 0 Name: 6827 - Minifig.ldr

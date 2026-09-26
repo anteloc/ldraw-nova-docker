@@ -12,6 +12,7 @@
 1 0 -250 -4 -375 1 0 0 0 1 0 0 0 1 17101-1 - toy.ldr
 1 0 60 -24 -460 -0.921 0 0.391 0 1 0 -0.391 0 -0.921 17101-1 - slug.ldr
 
+0 STEP
 0 FILE 17101-1 - colorsensor.ldr
 0 Mounting bracket built from plates and technic bricks that houses the color and distance sensor.
 0 Name: 17101-1 - colorsensor.ldr
@@ -36,6 +37,7 @@
 0 // Tile  2 x  4 (white)
 1 15 0 -40 0 1 0 0 0 1 0 0 0 1 87079.dat
 
+0 STEP
 0 FILE 17101-1 - powerFunc2Color-LQ-1.ldr
 0 Color and distance sensor assembly with cable routing harness and plug stub.
 0 Name: 17101-1 - powerFunc2Color-LQ-1.ldr
@@ -80,6 +82,7 @@
 0 // To ensure correct edge colors those segments are placed in (a) subpart(s).
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 17101-1 - powerFunc2Color-LQ-1 subPart 1.ldr
 
+0 STEP
 0 FILE 17101-1 - powerFunc2Color-LQ-1 subPart 1.ldr
 0 Cable routing subpart containing the modeled wire segments for the color sensor cable.
 0 Name: 17101-1 - powerFunc2Color-LQ-1 subPart 1.ldr
@@ -225,6 +228,7 @@
 1 16 55.868 33.010738 240.000565 -0.084775 3.985464 0.008262 0.996235 0.338428 0.018908 0.01814 0.039335 -0.999787 u9218.dat
 1 16 53.160128 32.98225 239.996821 -0.021166 3.999093 0.002383 0.999726 0.084566 0.010003 0.00995 0.010377 -0.999947 u9218.dat
 
+0 STEP
 0 FILE 17101-1 - powerFunc2MotorInteractive-LQ-1.ldr
 0 Interactive motor assembly with cable routing harness and plug stub.
 0 Name: 17101-1 - powerFunc2MotorInteractive-LQ-1.ldr
@@ -269,6 +273,7 @@
 0 // To ensure correct edge colors those segments are placed in (a) subpart(s).
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 17101-1 - powerFunc2MotorInteractive-LQ-1 subPart 1.ldr
 
+0 STEP
 0 FILE 17101-1 - powerFunc2MotorInteractive-LQ-1 subPart 1.ldr
 0 Cable routing subpart containing the modeled wire segments for the interactive motor cable.
 0 Name: 17101-1 - powerFunc2MotorInteractive-LQ-1 subPart 1.ldr
@@ -398,6 +403,7 @@
 1 16 56.896019 146.989994 120.002436 -0.068516 3.990415 -0.009618 -0.997584 -0.274475 -0.010817 -0.011451 0.035414 0.999895 u9218.dat
 1 16 54.299162 147.015707 119.998932 -0.022397 3.998978 -0.003082 -0.999731 -0.089658 -0.005908 -0.005976 0.011795 0.999978 u9218.dat
 
+0 STEP
 0 FILE 17101-1 - ears.ldr
 0 Articulated cat ears built from technic beams, pins, towballs, and angle connectors with dark azure curved slope shells and pink inner detail.
 0 Name: 17101-1 - ears.ldr
@@ -471,6 +477,7 @@
 0 // Plate  1 x  2 with Socket Joint-8 with Friction (light_bluish_grey)
 1 71 129.976 -45.836 -16.236 -0.338 -0.341 0.877 0.897 -0.399 0.191 0.285 0.851 0.441 17101-1 - 14418.dat
 
+0 STEP
 0 FILE 17101-1 - face.ldr
 0 Cat face structure using round plates and bricks for the head, with lime dishes for eyes and decorative orange tile accents.
 0 Name: 17101-1 - face.ldr
@@ -623,6 +630,7 @@
 0 // Technic Pin  1/2 (blue)
 1 1 -59.729 10.011 -34.014 0 -0.009 1 0 1 0.009 -1 0 0 4274.dat
 
+0 STEP
 0 FILE 17101-1 - skull.ldr
 0 Inner skull frame made of rounded corner plates and curved slopes forming the structural core of the head.
 0 Name: 17101-1 - skull.ldr
@@ -667,6 +675,7 @@
 0 // Slope Brick Curved  4 x  2 (dark_azure)
 1 321 20 -16 90 -1 0 0 0 1 0 0 0 -1 93606.dat
 
+0 STEP
 0 FILE 17101-1 - toy.ldr
 0 Small play accessory shaped from white and orange cones on an axle with a bevel gear, resembling a toy or lure.
 0 Name: 17101-1 - toy.ldr
@@ -687,6 +696,7 @@
 0 // Cone  2 x  2 x  2 with Hollow Stud Open (orange)
 1 25 0 -162 0 1 0 0 0 1 0 0 0 1 3942c.dat
 
+0 STEP
 0 FILE 17101-1 - bodybackright.ldr
 0 Right rear body panel assembly using long technic bricks, pins, brackets, and studded plates for structural support.
 0 Name: 17101-1 - bodybackright.ldr
@@ -772,6 +782,7 @@
 1 14 -105 -30 -80 0 0 1 0.087 -0.996 0 0.996 0.087 0 32123b.dat
 0 STEP
 
+0 STEP
 0 FILE 17101-1 - bodybackleft.ldr
 0 Left rear body panel assembly using long technic bricks, pins, brackets, and studded plates for structural support.
 0 Name: 17101-1 - bodybackleft.ldr
@@ -839,6 +850,7 @@
 0 // Technic Beam  5 (dark_azure)
 1 321 20 -30 -80 0 -1 0 0 0 -1 1 0 0 32316.dat
 
+0 STEP
 0 FILE 17101-1 - back.ldr
 0 Curved back shell formed from wedge plates, slope plates, and tiles over a technic plate frame.
 0 Name: 17101-1 - back.ldr
@@ -880,6 +892,7 @@
 0 // Tile  1 x  1 Round with Groove (orange)
 1 25 50 -16 10 -1 0 0 0 1 0 0 0 -1 98138.dat
 
+0 STEP
 0 FILE 17101-1 - tailbase.ldr
 0 Articulated tail base mechanism using technic beams, long pins, and a bent beam for the tail mounting joint.
 0 Name: 17101-1 - tailbase.ldr
@@ -916,6 +929,7 @@
 0 // Technic Pin Long with Friction and Slot (blue)
 1 1 20 40 60 1 0 0 0 0 -1 0 1 0 6558.dat
 
+0 STEP
 0 FILE 17101-1 - frontleg.ldr
 0 Front leg assembly with a long technic brick core, curved slope detailing, direction-arrow patterned tile, and bracket joints.
 0 Name: 17101-1 - frontleg.ldr
@@ -960,6 +974,7 @@
 0 // Tile  1 x  1 Round with Groove (orange)
 1 25 10 152 -58 0 0 -1 -1 0 0 0 1 0 98138.dat
 
+0 STEP
 0 FILE 17101-1 - rearleftfoot.ldr
 0 Left rear paw built from brackets, curved-top bricks, a bent liftarm, and axle joints with studded detailing.
 0 Name: 17101-1 - rearleftfoot.ldr
@@ -998,6 +1013,7 @@
 0 // Technic Axle  2 Notched (red)
 1 4 0 29.799 27.172 1 0 0 0 -0.141 0.99 0 -0.99 -0.141 32062.dat
 
+0 STEP
 0 FILE 17101-1 - rearrightfoot.ldr
 0 Right rear paw built from brackets, curved-top bricks, a bent liftarm, and axle joints with studded detailing.
 0 Name: 17101-1 - rearrightfoot.ldr
@@ -1036,6 +1052,7 @@
 0 // Technic Axle  2 Notched (red)
 1 4 0 29.799 27.172 1 0 0 0 -0.141 0.99 0 -0.99 -0.141 32062.dat
 
+0 STEP
 0 FILE 17101-1 - frankie.ldr
 0 Core body chassis integrating the Boost Move Hub, large technic frame bricks, axles, pins, and sloped shell plates forming the cat's torso.
 0 Name: 17101-1 - frankie.ldr
@@ -1648,6 +1665,7 @@
 1 71 20 -72.024 -6.77 0 -1 0 -1 0 0 0 0 -1 44225.dat
 0 STEP
 
+0 STEP
 0 FILE 17101-1 - knot.ldr
 0 Small decorative orange assembly of a curved slope and triple-curved wedges on a plate, forming a bow or knot accent.
 0 Name: 17101-1 - knot.ldr
@@ -1666,6 +1684,7 @@
 0 // Wedge  4 x  3 Triple Curved without Studs (bright_light_orange)
 1 191 50 -24 0 0 0 1 0 1 0 -1 0 0 64225.dat
 
+0 STEP
 0 FILE 17101-1 - birthdaycake.ldr
 0 Cylindrical birthday cake accessory built from stacked round bricks on an axle with bushes, topped by a wheel.
 0 Name: 17101-1 - birthdaycake.ldr
@@ -1697,6 +1716,7 @@
 0 // Technic Bush 1/2 Smooth with Axle Hole Semi-Reduced (yellow)
 1 14 0 -155 0 0 1 0 0 0 1 1 0 0 32123b.dat
 
+0 STEP
 0 FILE 17101-1 - caterpillar.ldr
 0 Caterpillar creature accessory with a robot-face brick, elbow cylinders, and rounded plates on a technic base.
 0 Name: 17101-1 - caterpillar.ldr
@@ -1730,6 +1750,7 @@
 0 // Cylinder  2 x  2 Elbow with Axle Holes (black)
 1 0 31.27 -70 -14.71 0 -0.999 0.052 -1 0 0 0 -0.052 -0.999 25214.dat
 
+0 STEP
 0 FILE 17101-1 - slug.ldr
 0 Simple black slug creature made from a brick base, large curved slopes, and bar antennae.
 0 Name: 17101-1 - slug.ldr
@@ -1748,6 +1769,7 @@
 0 // ~Bar  1 x  3 (Obsolete) (black)
 1 0 24.142 -32 -44.142 0.707 0 0.707 0 1 0 -0.707 0 0.707 6190.dat
 
+0 STEP
 0 FILE 17101-1 - 26912.dat
 0 Part definition for the Boost Colour and Distance Sensor, modeling its case, LEDs, phototransistor, and internal components.
 0 Name: 17101-1 - 26912.dat
@@ -1781,6 +1803,7 @@
 4 0 17 43 -18 17 3 -18 -17 3 -18 -17 43 -18
 
 
+0 STEP
 0 FILE 17101-1 - 26913.dat
 0 Part definition for the Boost Interactive Motor, modeling its case, axle hub, and motor bush.
 0 Name: 17101-1 - 26913.dat
@@ -1800,6 +1823,7 @@
 1 4 0 34 -60 1 0 0 0 1 0 0 0 1 47157.dat
 
 
+0 STEP
 0 FILE 17101-1 - 14418.dat
 0 Part definition for a plate with socket joint, containing no sub-pieces.
 0 Name: 17101-1 - 14418.dat
@@ -1817,6 +1841,7 @@
 1 16 30 4 0 0 0 -1 0 1 0 1 0 0 17101-1 - joint-8-socket-frica.dat
 
 
+0 STEP
 0 FILE 17101-1 - 93606p01.dat
 0 Slope Brick Curved  4 x  2 with Yellow and Green Program Start Icon Pattern
 0 Name: 17101-1 - 93606p01.dat
@@ -1900,6 +1925,7 @@
 5 24 -20 11.3582 -21.232 20 11.3582 -21.232 -20 5.0895 -1.408 -20 19.999901 -40
 
 
+0 STEP
 0 FILE 17101-1 - 32198.dat
 0 Technic Gear 20 Tooth Bevel
 0 Name: 17101-1 - 32198.dat
@@ -2146,6 +2172,7 @@
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 6 3   A 6 7] [center=true] [slide=true]
 
 
+0 STEP
 0 FILE 17101-1 - 15672.dat
 0 Slope Plate 45  2 x  1
 0 Name: 17101-1 - 15672.dat
@@ -2194,6 +2221,7 @@
 4 16 -10 4 -20 10 4 -20 10 -16 0 -10 -16 0
 
 
+0 STEP
 0 FILE 17101-1 - 3069bp19.dat
 0 Tile 1 x  2 with Arrow Dotted Yellow with Black Border Pattern
 0 Name: 17101-1 - 3069bp19.dat
@@ -2299,6 +2327,7 @@
 4 16 -20 0 -10 -17.5 0 -3.6 -17.5 0 3.6 -20 0 10
 
 
+0 STEP
 0 FILE 17101-1 - 26910.dat
 0 Electric Power Functions 2.0 Boost Move Hub
 0 Name: 17101-1 - 26910.dat
@@ -2319,6 +2348,7 @@
 1 4 60 66 140 0 0 -1 0 1 0 1 0 0 47157.dat
 
 
+0 STEP
 0 FILE 17101-1 - 87580.dat
 0 Plate 2 x  2 with Groove with 1 Centre Stud
 0 Name: 17101-1 - 87580.dat
@@ -2345,6 +2375,7 @@
 0 !LDCAD SNAP_INCL [ref=3022.dat]
 
 
+0 STEP
 0 FILE 17101-1 - 10187.dat
 0 Minifig Bladed Claw Spread
 0 Name: 17101-1 - 10187.dat
@@ -2410,6 +2441,7 @@
 5 24 0.371 -7.2 -26.75 -0.371 -7.2 -26.75 0.864 -7.701 -21.156 -0.318 -7.16 -27.040001
 
 
+0 STEP
 0 FILE 17101-1 - 88323.dat
 0 Technic Chain Tread 38 Reinforced
 0 Name: 17101-1 - 88323.dat
@@ -2496,6 +2528,7 @@
 4 16 44 -14 -6 48 -10 -6 18 -10 -6 18 -14 -6
 
 
+0 STEP
 0 FILE 17101-1 - 24375.dat
 0 Technic Rubber Pin for Chain Tread 38
 0 Name: 17101-1 - 24375.dat
@@ -2702,6 +2735,7 @@
 3 16 -1.2 8 -5.5432 -1.2 8 -6 -1.2 10 -4
 
 
+0 STEP
 0 FILE 17101-1 - 3001p0e.dat
 0 Brick 2 x  4 with Cartoon Humanoid Robot Face Pattern
 0 Name: 17101-1 - 3001p0e.dat
@@ -3008,6 +3042,7 @@
 4 16 -40 24 20 -40 0 20 40 0 20 40 24 20
 
 
+0 STEP
 0 FILE 17101-1 - u9360c01.dat
 0 Electric Power Functions 2.0 Boost Move Hub Case
 0 Name: 17101-1 - u9360c01.dat
@@ -3042,6 +3077,7 @@
 1 494 0 89 -10 -1 0 0 0 -1 0 0 0 1 u9288.dat
 
 
+0 STEP
 0 FILE 17101-1 - u9360.dat
 0 ~Electric Power Functions 2.0 Boost Move Hub Top
 0 Name: 17101-1 - u9360.dat
@@ -3458,6 +3494,7 @@
 3 16 40 0 30.5 32.089802 0 22.5056 37.9734 0 22.5056
 
 
+0 STEP
 0 FILE s\17101-1 - u9360s01.dat
 0 ~Electric Power Functions 2.0 Boost Move Hub Top Half
 0 Name: s\17101-1 - u9360s01.dat
@@ -4000,6 +4037,7 @@
 2 24 37 -93 33.5 37 -93 157
 
 
+0 STEP
 0 FILE 17101-1 - u9357.dat
 0 ~Electric Power Functions 2.0 Boost Move Hub Bottom
 0 Name: 17101-1 - u9357.dat
@@ -4193,6 +4231,7 @@
 4 16 3 -18 -87 37 -18 -77 -37 -18 -77 -3 -18 -87
 
 
+0 STEP
 0 FILE 17101-1 - u9358.dat
 0 ~Electric Power Functions 2.0 Boost Move Hub Right Side
 0 Name: 17101-1 - u9358.dat
@@ -4431,6 +4470,7 @@
 5 24 -18.1618 0.0031 19.5 -18.1618 0.0031 20 -17.2752 1.088 19.5 -18.457399 -1.3265 19.5
 
 
+0 STEP
 0 FILE s\17101-1 - u9358s01.dat
 0 ~Electric Power Functions 2.0 Boost Move Hub Side
 0 Name: s\17101-1 - u9358s01.dat
@@ -4498,6 +4538,7 @@
 3 16 -3 9 -9 -3 21 17 -3 -11 -89
 
 
+0 STEP
 0 FILE 17101-1 - u9359.dat
 0 ~Electric Power Functions 2.0 Boost Move Hub Left Side
 0 Name: 17101-1 - u9359.dat
@@ -4548,6 +4589,7 @@
 1 16 17.51325 -3.6907 19.75 1.73945 1 0 5.6907 0 0 0 0 -0.25 rect2p.dat
 
 
+0 STEP
 0 FILE 17101-1 - u9361.dat
 0 ~Electric Power Functions 2.0 Boost Move Hub Connector Holder
 0 Name: 17101-1 - u9361.dat
@@ -4623,6 +4665,7 @@
 1 16 2 1.5 0 0 -1 0 -1.5 0 0 0 0 -17 rect2p.dat
 
 
+0 STEP
 0 FILE 17101-1 - 89658.dat
 0 ~Electric Energy Display On Button
 0 Name: 17101-1 - 89658.dat
@@ -4635,6 +4678,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 99146.dat
 
 
+0 STEP
 0 FILE 17101-1 - 27194.dat
 0 ~Electric Power Functions 2.0 Boost Move Hub Battery Holder (Needs Work)
 0 Name: 17101-1 - 27194.dat
@@ -4785,6 +4829,7 @@
 4 16 40 -8 80 9 -8 79 9 -8 61 30 -8 -77
 
 
+0 STEP
 0 FILE 17101-1 - u9352.dat
 0 ~Electric Power Functions 2.0 Boost Colour & Distance Sensor Case Top
 0 Name: 17101-1 - u9352.dat
@@ -4952,6 +4997,7 @@
 1 16 0 5.9 34.5 10 0 0 0 -1 0 0 0 -1.5 rect3.dat
 
 
+0 STEP
 0 FILE 17101-1 - u9354.dat
 0 ~Electric Power Functions 2.0 Boost Colour & Distance Sensor Case Bottom
 0 Name: 17101-1 - u9354.dat
@@ -5135,6 +5181,7 @@
 1 16 0 21.5 -4 0 0 17 13.5 0 0 0 1 0 rect2p.dat
 
 
+0 STEP
 0 FILE 17101-1 - u9353.dat
 0 ~Electric Power Functions 2.0 Boost Colour & Distance Sensor LED Support
 0 Name: 17101-1 - u9353.dat
@@ -5267,6 +5314,7 @@
 4 16 -6.1872 23.187201 14 -6 23 14 6 23 14 6.1871 23.187099 14
 
 
+0 STEP
 0 FILE 17101-1 - u9356c01.dat
 0 Electric Power Functions 2.0 Boost Interactive Motor Case
 0 Name: 17101-1 - u9356c01.dat
@@ -5290,6 +5338,7 @@
 1 0 0 4.9 54.5 -13 0 0 0 5 0 0 0 -1.5 box4-1.dat
 
 
+0 STEP
 0 FILE 17101-1 - u9355.dat
 0 ~Electric Power Functions 2.0 Boost Interactive Motor Front
 0 Name: 17101-1 - u9355.dat
@@ -5817,6 +5866,7 @@
 5 24 -20.505899 54.505901 -18 -20.505899 54.505901 0 -20 55 -18 -23.0086 51.655201 -18
 
 
+0 STEP
 0 FILE 17101-1 - u9356.dat
 0 Rear housing of the Power Functions 2.0 Boost interactive motor, built from boxes, cylinders, and rectangular panels forming the motor back shell.
 0 Name: 17101-1 - u9356.dat
@@ -6052,6 +6102,7 @@
 4 16 -17 64 36 -13 4.9 36 -13 3 36 -17 3 36
 
 
+0 STEP
 0 FILE s\17101-1 - 14418s01.dat
 0 Primitive geometry for a 1x2 plate with socket joint, composed of small boxes and cylinders forming the socket and plate structure.
 0 Name: s\17101-1 - 14418s01.dat
@@ -6103,6 +6154,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 stug2-1x2.dat
 
 
+0 STEP
 0 FILE 17101-1 - joint-8-socket-frica.dat
 0 Friction socket joint-8 element built from cylindrical sections, spherical cut-offs, and surface panels forming a ball-and-socket connection.
 0 Name: 17101-1 - joint-8-socket-frica.dat
@@ -6698,6 +6750,7 @@
 5 24 -10 4 10 -10 -4 10 -9.817 4 9.68305 -10 4 15
 
 
+0 STEP
 0 FILE s\17101-1 - 10187s01.dat
 0 Minifig bladed claw spread primitive with no direct pieces, serving as a shape subpart reference.
 0 Name: s\17101-1 - 10187s01.dat
@@ -7106,6 +7159,7 @@
 5 24 1.329 -3.619 -4.735 0.903 -4.026 0.882 1.648 -3.817 1.407 0.836 -4.331 0.088
 
 
+0 STEP
 0 FILE s\17101-1 - 57518s01.dat
 0 Technic chain tread link segment formed from numerous rectangles, circles, and ring primitives defining the repeating tread geometry.
 0 Name: s\17101-1 - 57518s01.dat
@@ -7732,6 +7786,7 @@
 3 16 -14 3.444 -38.314999 -14 0 -34.000599 -14 1.5309 -33.695999
 
 
+0 STEP
 0 FILE 17101-1 - toothb20.dat
 0 Single tooth for a Technic bevel gear (20-tooth), defined as a shape primitive with no direct pieces.
 0 Name: 17101-1 - toothb20.dat

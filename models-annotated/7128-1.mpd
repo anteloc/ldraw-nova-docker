@@ -19,6 +19,7 @@
 1 16 330 -27 30 0 0 1 0 1 0 -1 0 0 7128 - Speederbike.ldr
 
 
+0 STEP
 0 FILE 7128 - Minifig - Luke Skywalker.ldr
 0 A Luke Skywalker minifigure in camouflage smock with tan hair, black limbs, and a chrome-silver lightsaber with a neon-green blade.
 0 Name: 7128 - Minifig - Luke Skywalker.ldr
@@ -55,6 +56,7 @@
 0 // Bar  4L Lightsaber Blade (trans_neon_green)
 1 42 -23.195 22.724 -33.822 0.963475 0.0925699 0.249498 -0.17 -0.506976 0.844031 0.204793 -0.856351 -0.473162 30374.dat
 
+0 STEP
 0 FILE 7128 - Minifig - Scout Trooper.ldr
 0 A Scout Trooper minifigure with white armor, helmet, black visor head, and black hands.
 0 Name: 7128 - Minifig - Scout Trooper.ldr
@@ -86,6 +88,7 @@
 0 // Minifig Helmet Scout Trooper (white)
 1 15 19.882 -104.586 0 1 0 0 0 0.891007 -0.45399 0 0.45399 0.891007 30369.dat
 
+0 STEP
 0 FILE 7128 - Endor.ldr
 0 A forested Endor terrain base built from brown corner bricks and plates, decorated with bamboo leaf plants and large green foliage.
 0 Name: 7128 - Endor.ldr
@@ -137,6 +140,7 @@
 1 2 0 -168 -40 0 0 -1 0 1 0 1 0 0 30239.dat
 
 
+0 STEP
 0 FILE 7128 - Speederbike Landing Gear.ldr
 0 A small landing support assembly with dark-grey skis and bricks mounted on a black plate.
 0 Name: 7128 - Speederbike Landing Gear.ldr
@@ -156,6 +160,7 @@
 1 8 0 0 0 0 0 -1 0 1 0 1 0 0 3004.dat
 
 
+0 STEP
 0 FILE 7128 - Speederbike.ldr
 0 A compact speeder bike build with brown wedge and slope elements, dark-grey plates and bars, grille tile, and a backpack detail.
 0 Name: 7128 - Speederbike.ldr

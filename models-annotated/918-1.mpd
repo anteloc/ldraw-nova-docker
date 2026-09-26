@@ -14,6 +14,7 @@
 1 16 0 -85 18 1 0 0 0 1 0 0 0 1 918 - Minifig.ldr
 
 
+0 STEP
 0 FILE 918 - Space Ship.ldr
 0 A light grey spaceship built from plates, inverted slopes, and large left and right wing panels forming a sleek spacecraft body.
 0 Name: 918 - Space Ship.ldr
@@ -194,6 +195,7 @@
 0 // Plate  2 x  8 (light_grey)
 1 7 0 -192 190 1 0 0 0 1 0 0 0 1 3034.dat
 
+0 STEP
 0 FILE 918 - Space Ship - Cockpit Hatch.ldr
 0 A blue-hinged cockpit hatch with a translucent yellow canopy plate.
 0 Name: 918 - Space Ship - Cockpit Hatch.ldr
@@ -214,6 +216,7 @@
 1 46 50 -18 0 -1 0 0 0 1 0 0 0 -1 3032.dat
 
 
+0 STEP
 0 FILE 918 - Minifig.ldr
 0 A red Classic Space astronaut minifigure with helmet, airtanks, and printed torso.
 0 Name: 918 - Minifig.ldr

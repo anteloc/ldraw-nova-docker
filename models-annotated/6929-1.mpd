@@ -15,6 +15,7 @@
 1 16 0 10 -130 1 0 0 0 0 -1 0 1 0 6929 - Nose.ldr
 1 16 0 -5 110 1 0 0 0 1 0 0 0 1 6929 - Minifig.ldr
 
+0 STEP
 0 FILE 6929 - Space Ship.ldr
 0 A large light grey space ship fuselage assembled from plates, angled wing elements, and translucent red accent tiles.
 0 Name: 6929 - Space Ship.ldr
@@ -315,6 +316,7 @@
 0 // Brick  1 x  1 Round with Hollow Stud (trans_red)
 1 36 120 -100 300 1 0 0 0 0 -1 0 1 0 3062b.dat
 
+0 STEP
 0 FILE 6929 - Nose.ldr
 0 A tapered nose section featuring a toothed cone, a hinge plate, and a small antenna.
 0 Name: 6929 - Nose.ldr
@@ -332,6 +334,7 @@
 0 // Antenna  4H with Rounded Top (light_grey)
 1 7 0 -74 10 1 0 0 0 1 0 0 0 1 3957a.dat
 
+0 STEP
 0 FILE 6929 - Hatch Door Left.ldr
 0 A hinged left hatch door composed of light grey and white plates, hinge bricks, a grille-patterned brick, and translucent red accent tiles.
 0 Name: 6929 - Hatch Door Left.ldr
@@ -420,6 +423,7 @@
 0 // Cone  4 x  4 x  2 with Axlehole (black)
 1 0 -40 -60 128 1 0 0 0 0 -1 0 1 0 3943b.dat
 
+0 STEP
 0 FILE 6929 - Hatch Door Right.ldr
 0 A hinged right hatch door composed of light grey and white plates, hinge bricks, a grille-patterned brick, and translucent red accent tiles.
 0 Name: 6929 - Hatch Door Right.ldr
@@ -511,6 +515,7 @@
 0 // Cone  4 x  4 x  2 with Axlehole (black)
 1 0 40 -60 128 1 0 0 0 0 -1 0 1 0 3943b.dat
 
+0 STEP
 0 FILE 6929 - Cockpit Hatch.ldr
 0 A wide transparent dark blue cockpit canopy attached via white hinge plates.
 0 Name: 6929 - Cockpit Hatch.ldr
@@ -525,6 +530,7 @@
 0 // Plate  4 x  6 (trans_dark_blue)
 1 33 50 -18 0 -1 0 0 0 1 0 0 0 -1 3032.dat
 
+0 STEP
 0 FILE 6929 - Container.ldr
 0 A white cargo container built from plates and bricks, featuring two windows with shutters and Classic Space logo panels.
 0 Name: 6929 - Container.ldr
@@ -577,6 +583,7 @@
 0 // Plate  2 x  6 (white)
 1 15 0 -96 0 -1 0 0 0 1 0 0 0 -1 3795.dat
 
+0 STEP
 0 FILE 6929 - Minifig.ldr
 0 A red Classic Space astronaut minifigure with a helmet, airtanks, torso, arms, hands, and legs.
 0 Name: 6929 - Minifig.ldr

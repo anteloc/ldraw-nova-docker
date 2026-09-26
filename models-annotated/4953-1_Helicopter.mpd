@@ -8,6 +8,7 @@
 1 1 0 0 0 1 0 0 0 1 0 0 0 1 4953 - Helicopter.ldr
 
 
+0 STEP
 0 FILE 4953 - Helicopter.ldr
 0 Blue helicopter fuselage built from plates, bricks, curved and inverted slopes, and white wings forming the main body.
 0 Name: 4953 - Helicopter.ldr
@@ -203,6 +204,7 @@
 1 15 0 -136 -40 0.5 0 -0.866 0 1 0 0.866 0 0.5 3068b.dat
 
 
+0 STEP
 0 FILE 4953 - Helicopter S06.ldr
 0 Small structural sub-assembly made of three blue 1x4 plates.
 0 Name: 4953 - Helicopter S06.ldr
@@ -218,6 +220,7 @@
 1 1 0 -16 0 1 0 0 0 1 0 0 0 1 3710.dat
 
 
+0 STEP
 0 FILE 4953 - Helicopter S16.ldr
 0 White cockpit window section with three rounded windows, panels, and a trans-green round light.
 0 Name: 4953 - Helicopter S16.ldr
@@ -251,6 +254,7 @@
 1 15 0 -96 20 0 0 -1 0 1 0 1 0 0 4865a.dat
 
 
+0 STEP
 0 FILE 4953 - Helicopter S17.ldr
 0 White cabin window section with three rounded windows, panels, and a trans-red round light.
 0 Name: 4953 - Helicopter S17.ldr
@@ -284,6 +288,7 @@
 1 15 0 -96 20 0 0 1 0 1 0 -1 0 0 4865a.dat
 
 
+0 STEP
 0 FILE 4953 - Helicopter S20.ldr
 0 Red tail boom assembly built from long plates, tiles, and slopes with a trans-dark-blue light.
 0 Name: 4953 - Helicopter S20.ldr
@@ -325,6 +330,7 @@
 1 33 0 -88 110 0 0 -1 0 1 0 1 0 0 3062b.dat
 
 
+0 STEP
 0 FILE 4953 - Helicopter S20 s5.ldr
 0 Tiny detail sub-assembly of red plates and a trans-dark-blue round light.
 0 Name: 4953 - Helicopter S20 s5.ldr
@@ -340,6 +346,7 @@
 1 33 0 -16 0 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 4953 - Helicopter S26.ldr
 0 Rotor mount sub-assembly using a turntable, clips, and blue tiles for the spinning rotor base.
 0 Name: 4953 - Helicopter S26.ldr
@@ -366,6 +373,7 @@
 1 1 -21.213 -16 -7.071 -0.707 0 0.707 0 1 0 -0.707 0 -0.707 2431.dat
 
 
+0 STEP
 0 FILE 4953 - Helicopter S27.ldr
 0 Smooth tail section built from long white plates and grooved tiles with a red accent.
 0 Name: 4953 - Helicopter S27.ldr

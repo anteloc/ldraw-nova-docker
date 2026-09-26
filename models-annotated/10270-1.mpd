@@ -12,6 +12,7 @@
 1 15 78 -185 120 -1 0 0 0 1 0 0 0 -1 10270 - Building-2_First_Floor_Balcony.ldr
 
 
+0 STEP
 0 FILE 10270 - First Building.ldr
 0 Main bookshop facade - medium-nougat brick walls with green and white windowed fronts, a reddish-brown shingled lower floor, tiled signage panels (incl. BIRCH/BOOKS and 'Once upon a time...'), a green-panelled front door, rail-tile window mullions, and structural technic-brick and plate framing.
 0 Name: 10270 - First Building.ldr
@@ -992,6 +993,7 @@
 
 
 
+0 STEP
 0 FILE 10270 - Tree Fence.ldr
 0 Decorative fence assembly - black clip plates, brackets and handles supporting four black 'sausage' bars, anchored on a reddish-brown technic brick; used as an iron-style railing.
 0 Name: 10270 - Tree Fence.ldr
@@ -1040,6 +1042,7 @@
 
 
 
+0 STEP
 0 FILE 10270 - Stair Step.ldr
 0 Small brown-and-green step detail - a two-blade technic rotor and round tile forming a tread with green-tile trim.
 0 Name: 10270 - Stair Step.ldr
@@ -1060,6 +1063,7 @@
 
 
 
+0 STEP
 0 FILE 10270 - Bookshelf-1.ldr
 0 Wall-mounted bookshelf section - reddish-brown shelf board with side-stud bricks and coloured groove tiles (turquoise, red, orange) representing book spines.
 0 Name: 10270 - Bookshelf-1.ldr
@@ -1102,6 +1106,7 @@
 
 
 
+0 STEP
 0 FILE 10270 - Bookshelf-2.ldr
 0 Larger bookshelf unit - reddish-brown shelf plates and tiles with multi-coloured side-stud bricks and groove tiles depicting a row of assorted books.
 0 Name: 10270 - Bookshelf-2.ldr
@@ -1173,6 +1178,7 @@
 
 
 
+0 STEP
 0 FILE 10270 - Building-1_Entrance_Door_Arch.ldr
 0 Curved entrance arch - a white 1x6x2 curved-top arch framed by light-bluish-grey round-ended plates, headlight bricks and tile details over the doorway.
 0 Name: 10270 - Building-1_Entrance_Door_Arch.ldr
@@ -1236,6 +1242,7 @@
 
 
 
+0 STEP
 0 FILE 10270 - Building-1_Stair_Pedestal.ldr
 0 Green-topped stair pedestal - a 6x10 green plate base with reddish-brown inverted slopes and tiles forming steps, accented by green-tile trim and black telescopes as finials.
 0 Name: 10270 - Building-1_Stair_Pedestal.ldr
@@ -1318,6 +1325,7 @@
 
 
 
+0 STEP
 0 FILE 10270 - Building-1_Second_Floor.ldr
 0 Upper interior floor - light-bluish-grey plate decking for the second storey, with medium-nougat brick walls, arched window openings, fence-lattice railings, seating, cups, and tiled window/door detailing.
 0 Name: 10270 - Building-1_Second_Floor.ldr
@@ -1803,6 +1811,7 @@
 
 
 
+0 STEP
 0 FILE 10270 - Building-1_Easychair.ldr
 0 Black upholstered armchair - curved-top bricks and hinge/bracket plates forming a lounge seat with reddish-brown wooden feet.
 0 Name: 10270 - Building-1_Easychair.ldr
@@ -1863,6 +1872,7 @@
 
 
 
+0 STEP
 0 FILE 10270 - Building-1_Lamp.ldr
 0 Standing street lamp - a black handled bar and telescope pole topped by a pearl-gold clip and a clear domed cylinder lamp head.
 0 Name: 10270 - Building-1_Lamp.ldr
@@ -1885,6 +1895,7 @@
 
 
 
+0 STEP
 0 FILE 10270 - Pendulum_Clock.ldr
 0 Wall-hung pendulum clock - reddish-brown case with a windowed face carrying a clock-face patterned tile, pearl-gold pendulum bob and ornamental slope trim.
 0 Name: 10270 - Pendulum_Clock.ldr
@@ -1949,6 +1960,7 @@
 
 
 
+0 STEP
 0 FILE 10270 - Window-1.ldr
 0 Multi-pane window assembly - white window frames with clear glass and curved-top detail bricks, topped by a half-round fanlight.
 0 Name: 10270 - Window-1.ldr
@@ -1987,6 +1999,7 @@
 
 
 
+0 STEP
 0 FILE 10270 - Building-1_Roof.ldr
 0 Dark-red mansard roof - steep double/convex slope bricks forming the dormered roof over the bookshop, with white and turquoise dormer windows, chimneys, ornamental finials (microphones, skeleton legs), and ogee arch detail.
 0 Name: 10270 - Building-1_Roof.ldr
@@ -2410,6 +2423,7 @@
 
 
 
+0 STEP
 0 FILE 10270 - Building-1_Roof_Deco.ldr
 0 Roof cresting detail - hinge-mounted dark-red curved slopes, lime accents and reddish-brown ridge tiles forming ornamental rooftop decoration.
 0 Name: 10270 - Building-1_Roof_Deco.ldr
@@ -2495,6 +2509,7 @@
 
 
 
+0 STEP
 0 FILE 10270 - Building-1_Roof_Rear.ldr
 0 Rear mansard roof slope - a field of dark-red 2x2x3 double-convex and solid-stud slope bricks backed by black reinforcement panels and grey plates.
 0 Name: 10270 - Building-1_Roof_Rear.ldr
@@ -2577,6 +2592,7 @@
 
 
 
+0 STEP
 0 FILE 10270 - Building-1_Tree.ldr
 0 Autumn ornamental tree - technic pin/axle trunk and branches holding olive-green leaves and bright-light-orange, yellow and orange leaf clusters.
 0 Name: 10270 - Building-1_Tree.ldr
@@ -2701,6 +2717,7 @@
 
 
 
+0 STEP
 0 FILE 10270 - Minifig-1.ldr
 0 Minifigure placeholder - references assembled minifigure parts (no direct pieces listed).
 0 Name: 10270 - Minifig-1.ldr
@@ -2709,6 +2726,7 @@
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
 
 
+0 STEP
 0 FILE 10270 - Minifig-2.ldr
 0 Minifigure placeholder - references assembled minifigure parts (no direct pieces listed).
 0 Name: 10270 - Minifig-2.ldr
@@ -2717,6 +2735,7 @@
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
 
 
+0 STEP
 0 FILE 10270 - Aeroplane_Toy.ldr
 0 Small child's toy aeroplane - a yellow/red/white build with a blue rotor, rounded fin brick and clear pin-tile representing a spinning propeller plane.
 0 Name: 10270 - Aeroplane_Toy.ldr
@@ -2745,6 +2764,7 @@
 
 
 
+0 STEP
 0 FILE 10270 - Building-2_Cellar Deck.ldr
 0 Cellar/pavement scene on a green baseplate - tiled cellar hatch, reddish-brown wood decking, flower beds (lime/lavender/blue petals), a white lamppost, a pumpkin, gardening tools and assorted crates and accessories.
 0 Name: 10270 - Building-2_Cellar Deck.ldr
@@ -3235,6 +3255,7 @@
 
 
 
+0 STEP
 0 FILE 10270 - Building-2_Stair.ldr
 0 Interior staircase - light-bluish-grey hinge plates with dark-tan tread plates, black wheel-pin and clip details, and a black vine/swirl stem forming a stairway with railing.
 0 Name: 10270 - Building-2_Stair.ldr
@@ -3279,6 +3300,7 @@
 
 
 
+0 STEP
 0 FILE 10270 - Building-2_Ground_Floor.ldr
 0 Townhouse ground-floor interior/exterior - turquoise brick walls with white-trim windows, a medium-azure front door, brown wood flooring, a fireplace with flame, seating, a ship-portrait tile, newspaper-tile detail and various furnishings and accessories.
 0 Name: 10270 - Building-2_Ground_Floor.ldr
@@ -4061,6 +4083,7 @@
 
 
 
+0 STEP
 0 FILE 10270 - Building-2_First_Floor.ldr
 0 Townhouse first-floor room - turquoise and white walls with a dark-blue bay/round-corner feature, dormer and arched windows, a turntable, log-brick fireplace trim, curved bright-light-orange/azure accents, a suspension-bridge portrait tile and fenced gallery detailing.
 0 Name: 10270 - Building-2_First_Floor.ldr
@@ -5062,6 +5085,7 @@
 
 
 
+0 STEP
 0 FILE 10270 - Building-2_First_Floor_Balcony.ldr
 0 First-floor balcony - turquoise brick railing with dark-blue slopes forming a dormered bay, a white roof-window, brown door and trim, plus small floral accents on a tan/white plate base.
 0 Name: 10270 - Building-2_First_Floor_Balcony.ldr
@@ -5251,6 +5275,7 @@
 1 212 -90 -80 -10 0 0 -1 0 1 0 1 0 0 24866.dat
 
 
+0 STEP
 0 FILE 10270 - 3857h.dat
 0 LDraw primitive subpart - geometric primitives (cylinders, rectangles, holes, edges, stud) defining a holed plate element.
 0 Name: 10270 - 3857h.dat
@@ -5852,6 +5877,7 @@
 1 16 -240 0 -80 0 0 1 0 1 0 -1 0 0 stug-8x8.dat
 0 //
 
+0 STEP
 0 FILE 10270 - 87079pt2.dat
 0 Patterned-tile subpart - main disc with metallic-gold chord shapes forming a decorative print on a tile.
 0 Name: 10270 - 87079pt2.dat
@@ -6335,6 +6361,7 @@
 3 82 -0.13 0 -12.19 -37.200001 0 -13.3 0.35 0 -12.74
 3 82 0.35 0 -12.74 -37.200001 0 -13.3 0.87 0 -13.3
 
+0 STEP
 0 FILE 10270 - 87079pt1.dat
 0 Patterned-tile subpart - main disc with metallic-gold chord shapes forming a decorative print on a tile.
 0 Name: 10270 - 87079pt1.dat
@@ -6758,6 +6785,7 @@
 3 82 20.07 0 -12.19 -37.200001 0 -13.3 20.549999 0 -12.74
 3 82 20.549999 0 -12.74 -37.200001 0 -13.3 21.07 0 -13.3
 
+0 STEP
 0 FILE 10270 - 37695.dat
 0 Moulded-part subpart - cylinders, cone and ring primitives forming a small round/conical element.
 0 Name: 10270 - 37695.dat
@@ -6907,6 +6935,7 @@
 2 24 -0.853 -31.082001 -2.3754 -0.6896 -31.094801 -2.3759
 2 24 -0.8525 -29.493401 3.8305 -0.924 -29.1665 3.8163
 
+0 STEP
 0 FILE 10270 - 28192.dat
 0 Empty part subpart - references no direct geometry (placeholder wrapper).
 0 Name: 10270 - 28192.dat
@@ -6924,6 +6953,7 @@
 4 16 10 0 -10 10 0 10 -10 0 10 -10 0 -10
 4 16 10 0 -10 -10 0 -10 -10 20 -30 10 20 -30
 
+0 STEP
 0 FILE 10270 - 20310.dat
 0 Moulded-part subpart - boxes, discs, rings and sloped cylinders forming a complex shaped element with a centre feature.
 0 Name: 10270 - 20310.dat
@@ -7035,6 +7065,7 @@
 5 24 0.5 13.98762 -17.73238 -0.5 13.98762 -17.73238 1.25 11.537232 -17 0.5 15.49 -19.976021
 5 24 -1.25 11.537232 -17 1.25 11.537232 -17 2.75 8.3 -17 0.5 13.98762 -17.73238
 
+0 STEP
 0 FILE 10270 - 11062.dat
 0 Moulded-part subpart - a base/upper-column element built from cylinders, rings, chords and boxes with studs.
 0 Name: 10270 - 11062.dat
@@ -7180,6 +7211,7 @@
 0 // Stud
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 stud2a.dat
 
+0 STEP
 0 FILE 10270 - 60607.dat
 0 Moulded-part subpart - spheres, cylinders and chords forming a rounded two-bulb element with edge lines.
 0 Name: 10270 - 60607.dat
@@ -7543,6 +7575,7 @@
 2 24 2.5 55 -8.5 3.75 55 -8.5
 2 24 2.5 55 1 2.5 55 -8.5
 
+0 STEP
 0 FILE 10270 - 23986.dat
 0 Moulded-part subpart - bottom, top and spout cylinders/discs forming a handled jug or teapot-shaped element.
 0 Name: 10270 - 23986.dat
@@ -7605,6 +7638,7 @@
 5 24 -12.975 17.874001 0 -15.164 18.414 0 -13.371 16.969999 2.612 -13.371 16.969999 -2.612
 5 24 14.753 5.741 0 13.178 5.724 0 13.2857 6.6377 2.4394 13.2857 6.6377 -2.4394
 
+0 STEP
 0 FILE 10270 - studbp3.dat
 0 Baseplate stud primitive - discs, circle and cylinder geometry defining a printed/special baseplate stud.
 0 Name: 10270 - studbp3.dat
@@ -7639,6 +7673,7 @@
 4 16 14 4 6 14 4 -6 6 4 -6 6 4 6
 0 //
 
+0 STEP
 0 FILE 10270 - studbp2.dat
 0 Baseplate stud primitive - discs, circle and cylinder geometry defining a printed/special baseplate stud.
 0 Name: 10270 - studbp2.dat
@@ -7669,6 +7704,7 @@
 4 16 6 4 -6 6 4 -14 -6 4 -14 -6 4 -6
 0 //
 
+0 STEP
 0 FILE 10270 - studbp1.dat
 0 Baseplate stud primitive - discs, circle and cylinder geometry defining a printed/special baseplate stud.
 0 Name: 10270 - studbp1.dat
@@ -7696,6 +7732,7 @@
 1 16 0 4 0 6 0 0 0 -1 0 0 0 6 4-4ndis.dat
 0 //
 
+0 STEP
 0 FILE s\10270 - 37695s01.dat
 0 37695s01
 0 Name: s\10270 - 37695s01.dat
@@ -8311,6 +8348,7 @@
 5 24 -7.7165 -2.1595 3.696 -6.5285 -1.9695 4.1473 -8.1218 -1.9773 5.0185 -5.7093 -1.6838 3.4959
 5 24 -11.789 -5.6473 7.5598 -7.6594 -6.4669 9.4596 -10.0688 -5.4296 10.059 -7.7255 -7.488 6.154
 
+0 STEP
 0 FILE s\10270 - 28192s01.dat
 0 28192s01
 0 Name: s\10270 - 28192s01.dat
@@ -8364,6 +8402,7 @@
 0 // Rectangle (main_colour)
 1 16 0 22 -30 10 0 0 0 0 2 0 1 0 rect.dat
 
+0 STEP
 0 FILE s\10270 - 20310s01.dat
 0 20310s01
 0 Name: s\10270 - 20310s01.dat
@@ -8782,6 +8821,7 @@
 5 1 8.6 7.25296 -12.99704 8.4 6.37832 -16.36179 8.3 4.78376 -15.22624 8.5 8.3 -16.77
 
 
+0 STEP
 0 FILE s\10270 - 11062s01.dat
 0 11062s01
 0 Name: s\10270 - 11062s01.dat
@@ -9225,6 +9265,7 @@
 0 // Disc 0.25 (main_colour)
 1 16 0 26 0 3 0 0 0 1 0 0 0 3 1-4disc.dat
 
+0 STEP
 0 FILE s\10270 - 23986s01.dat
 0 23986s01
 0 Name: s\10270 - 23986s01.dat

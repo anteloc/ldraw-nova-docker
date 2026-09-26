@@ -11,6 +11,7 @@
 1 0 90 0 0 1 0 0 0 1 0 0 0 1 41496 - Martian Manhunter.ldr
 
 
+0 STEP
 0 FILE 41496 - Supergirl.ldr
 0 A black display base consisting of a 6x6 plate, support tiles, and a commemorative #LEGOSDCC 2017 patterned tile.
 0 Name: 41496 - Supergirl.ldr
@@ -32,6 +33,7 @@
 1 0 0 -8 40 1 0 0 0 1 0 0 0 1 87079.dat
 1 0 0 -48 20 1 0 0 0 1 0 0 0 1 41496 - Supergirl - 1.ldr
 
+0 STEP
 0 FILE 41496 - Supergirl - 1.ldr
 0 The main body build of Supergirl using dark red and dark blue plates, a Supergirl logo pattern brick, pearl gold accents, and a mix of tan, orange, and pink detail pieces.
 0 Name: 41496 - Supergirl - 1.ldr
@@ -256,6 +258,7 @@
 0 // Plate  1 x  2 (dark_red)
 1 320 -30 24 0 0 0 1 0 1 0 -1 0 0 3023.dat
 
+0 STEP
 0 FILE 41496 - Supergirl - 2.ldr
 0 A small dark blue and tan plate assembly with a horizontal clip, likely a limb or appendage connector.
 0 Name: 41496 - Supergirl - 2.ldr
@@ -273,6 +276,7 @@
 1 272 0 -8 10 1 0 0 0 1 0 0 0 1 3069b.dat
 
 
+0 STEP
 0 FILE 41496 - Supergirl - 3.ldr
 0 A small tan plate and grooved tile assembly forming a minor structural detail.
 0 Name: 41496 - Supergirl - 3.ldr
@@ -288,6 +292,7 @@
 1 28 40 8 0 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 41496 - Supergirl - 4.ldr
 0 A dark tan assembly of a plate, curved-top brick, and curved slope forming a rounded detail piece.
 0 Name: 41496 - Supergirl - 4.ldr
@@ -305,6 +310,7 @@
 1 28 0 0 0 0 0 1 0 1 0 -1 0 0 11477.dat
 
 
+0 STEP
 0 FILE 41496 - Supergirl - 5.ldr
 0 A dark red assembly of a 2x6 plate, tiles, and left and right wing pieces forming a symmetrical cape or back element.
 0 Name: 41496 - Supergirl - 5.ldr
@@ -326,6 +332,7 @@
 1 320 20 0 40 0 0 1 0 1 0 -1 0 0 41769.dat
 
 
+0 STEP
 0 FILE 41496 - Supergirl - 6.ldr
 0 A small dark tan assembly of a corner plate and a 1x2 plate forming an angular detail.
 0 Name: 41496 - Supergirl - 6.ldr
@@ -341,6 +348,7 @@
 1 28 20 8 10 0 0 -1 0 1 0 1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 41496 - Martian Manhunter.ldr
 0 A black display base consisting of a 6x6 plate, support tiles, and a commemorative #LEGOSDCC 2017 patterned tile.
 0 Name: 41496 - Martian Manhunter.ldr
@@ -362,6 +370,7 @@
 1 0 0 -8 40 1 0 0 0 1 0 0 0 1 87079.dat
 1 0 0 -48 20 1 0 0 0 1 0 0 0 1 41496 - Martian Manhunter - 1.ldr
 
+0 STEP
 0 FILE 41496 - Martian Manhunter - 1.ldr
 0 The main body build of Martian Manhunter using black and sand green plates, a striped gold-circle pattern brick, red and gold accents, yellow and pink detail pieces, and side-stud bricks.
 0 Name: 41496 - Martian Manhunter - 1.ldr
@@ -544,6 +553,7 @@
 0 // Brick  1 x  2 (black)
 1 0 -30 16 0 0 0 -1 0 1 0 1 0 0 3004.dat
 
+0 STEP
 0 FILE 41496 - Martian Manhunter - 2.ldr
 0 A small black assembly of a plate, horizontal clip, and 45-degree triple slope forming a limb or connector detail.
 0 Name: 41496 - Martian Manhunter - 2.ldr
@@ -561,6 +571,7 @@
 1 0 0 -24 10 -1 0 0 0 1 0 0 0 -1 15571.dat
 
 
+0 STEP
 0 FILE 41496 - Martian Manhunter - 3.ldr
 0 A small sand green assembly of a 2x2 brick and two 1x2 plates forming a compact structural block.
 0 Name: 41496 - Martian Manhunter - 3.ldr
@@ -578,6 +589,7 @@
 1 378 0 32 -10 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 41496 - Martian Manhunter - 4.ldr
 0 A black assembly of a plate, tile, left and right wings, and curved slopes forming a smooth cape or back element.
 0 Name: 41496 - Martian Manhunter - 4.ldr
@@ -601,6 +613,7 @@
 1 0 20 8 30 -1 0 0 0 1 0 0 0 -1 15068.dat
 
 
+0 STEP
 0 FILE 41496 - 87079pz9.dat
 0 A patterned part composed of white chord and disc primitives forming the #LEGOSDCC 2017 decorative graphic.
 0 Name: 41496 - 87079pz9.dat
@@ -1295,6 +1308,7 @@
 3 15 34 0 13 32.47 0 2.208 34 0 -13
 4 15 34 0 13 33.5 0 13.5 32.47 0 3.899 32.47 0 2.208
 
+0 STEP
 0 FILE 41496 - 3010pzk.dat
 0 A patterned 1x4 brick bearing the Supergirl logo graphic.
 0 Name: 41496 - 3010pzk.dat
@@ -1770,6 +1784,7 @@
 3 320 12.91 6.94 -10 12.388 6.958 -10 8.623 11.221 -10
 4 320 12.91 6.94 -10 8.623 11.221 -10 5.965 14.041 -10 0 21.56 -10
 
+0 STEP
 0 FILE 41496 - 3010pzj.dat
 0 A patterned 1x4 brick with red stripe negatives and metallic gold disc decorations.
 0 Name: 41496 - 3010pzj.dat

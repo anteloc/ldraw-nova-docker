@@ -7,6 +7,7 @@
 1 256 0 0 0 1 0 0 0 1 0 0 0 1 4096 - QB 4WD.ldr
 
 
+0 STEP
 0 FILE 4096 - QB 4WD.ldr
 0 Chassis and body of a yellow 4WD vehicle featuring wheels with extended pins, mudguards, sloped and rounded bricks, and transparent red lights.
 0 Name: 4096 - QB 4WD.ldr
@@ -103,6 +104,7 @@
 1 256 46 5 -60 0 0 -1 0 1 0 1 0 0 6015.dat
 
 
+0 STEP
 0 FILE 4096 - QB 4WD S06.ldr
 0 Small bracket assembly with a grooved black tile, a yellow bracket piece, and two transparent clear round plates.
 0 Name: 4096 - QB 4WD S06.ldr

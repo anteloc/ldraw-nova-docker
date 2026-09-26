@@ -12,6 +12,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 4532 - level crossing.ldr 
 0 A level crossing scene built on a 32x32 road baseplate with a roadside building featuring windows, seats, and a patterned phone slope.
 0 Name: 4532 - level crossing.ldr 
@@ -213,6 +214,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 4532 - level crossing - barrier.ldr 
 0 A Technic-based crossing barrier mechanism using axles, pins, a hose reel, and round connector blocks.
 0 Name: 4532 - level crossing - barrier.ldr 
@@ -274,6 +276,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 4532 - minifig.ldr 
 0 A minifigure in a suit with red tie and train logo, wearing a red police hat, with a grinning moustached face.
 0 Name: 4532 - minifig.ldr 

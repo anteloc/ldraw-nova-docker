@@ -14,6 +14,7 @@
 
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 8031 - m-1.ldr
 
+0 STEP
 0 FILE 8031 - m-1.ldr
 0 Small subassembly of white and dark red plates with clips, antennae, cones, and trans-medium-blue details.
 0 Name: 8031 - m-1.ldr
@@ -83,6 +84,7 @@
 0 STEP
 1 40 -50 -14 0 0.258819 -0.965926 0 0.965926 0.258819 0 0 0 1 8031 - m-1c.ldr
 
+0 STEP
 0 FILE 8031 - m-1a.ldr
 0 Technic connector module built from cross blocks, axle pins, and a holed plate for linking moving parts.
 0 Name: 8031 - m-1a.ldr
@@ -118,6 +120,7 @@
 0 // Technic Pin  1/2 (blue)
 1 1 30 0 0 0 0 -1 -1 0 0 0 1 0 4274.dat
 
+0 STEP
 0 FILE 8031 - m-1aa.ldr
 0 Compact white and dark red structural build with plates, slopes, bricks, and round trans-medium-blue accent.
 0 Name: 8031 - m-1aa.ldr
@@ -175,6 +178,7 @@
 0 // Slope Brick 45  2 x  1 (white)
 1 15 0 -162 50 1 0 0 0 1 0 0 0 1 3040b.dat
 
+0 STEP
 0 FILE 8031 - m-1b.ldr
 0 Left wing panel with angled wing element, clipped plates, dark red tile, and Galactic Republic pattern emblem.
 0 Name: 8031 - m-1b.ldr
@@ -207,6 +211,7 @@
 0 // Antenna  4H with Rounded Top (light_bluish_grey)
 1 71 140 8 -64 0 0 -1 1 0 0 0 -1 0 3957a.dat
 
+0 STEP
 0 FILE 8031 - m-1c.ldr
 0 Right wing panel mirroring the left, with angled wing element, clipped plates, dark red tile, and antenna.
 0 Name: 8031 - m-1c.ldr

@@ -358,6 +358,7 @@
 1 0 80 -107 200 -1 0 0 0 0 -1 0 -1 0 197905b.dat
 
 
+0 STEP
 0 FILE 5510 - 004-1steerR.ldr
 0 Right-side steering linkage assembly made from a steering arm and connecting pins.
 0 Name: 5510 - 004-1steerR.ldr
@@ -374,6 +375,7 @@
 1 7 0 -10 -30 0 0 1 1 0 0 0 1 0 3749.dat
 
 
+0 STEP
 0 FILE 5510 - 004-2steerL.ldr
 0 Left-side steering linkage assembly made from a steering arm and connecting pins.
 0 Name: 5510 - 004-2steerL.ldr
@@ -390,6 +392,7 @@
 1 7 0 -10 -30 0 0 1 1 0 0 0 1 0 3749.dat
 
 
+0 STEP
 0 FILE 5510 - 006rear.ldr
 0 Rear bed section built from yellow and black plates and bricks with headlight bricks and translucent red accents.
 0 Name: 5510 - 006rear.ldr
@@ -434,6 +437,7 @@
 1 36 50 -46 24 1 0 0 0 0 1 0 -1 0 6141.dat
 
 
+0 STEP
 0 FILE 5510 - 007rack.ldr
 0 Steering rack mechanism combining a Technic plate with a gear rack and support plates.
 0 Name: 5510 - 007rack.ldr
@@ -453,6 +457,7 @@
 1 7 0 -32 0 1 0 0 0 1 0 0 0 1 3743.dat
 
 
+0 STEP
 0 FILE 5510 - 009steer.ldr
 0 Front wheel and steering unit with a gear, pulley wheel, tyre, and axle assembly.
 0 Name: 5510 - 009steer.ldr
@@ -490,6 +495,7 @@
 
 
 
+0 STEP
 0 FILE 5510 - 010front.ldr
 0 Front chassis section with plates, angled slopes, headlight bricks, and a pulley wheel detail.
 0 Name: 5510 - 010front.ldr
@@ -536,6 +542,7 @@
 
 
 
+0 STEP
 0 FILE 5510 - 013hoist.ldr
 0 Crane hoist unit with a large base plate, multiple hinges, slopes, clips, and a hose reel.
 0 Name: 5510 - 013hoist.ldr
@@ -648,6 +655,7 @@
 1 7 0 -104 50 -1 0 0 0 1 0 0 0 -1 4085b.dat
 
 
+0 STEP
 0 FILE 5510 - stringLSynth75cm.ldr
 0 Synthesized tow cable string wound into a 75 cm spool with coil and knot sections.
 0 Name: 5510 - stringLSynth75cm.ldr
@@ -2067,6 +2075,7 @@
 1 16 15.689305 -74.019137 331.12841 0.012811 0.700425 0.713611 -0.99965 -0.007546 0.025353 0.023142 -0.713686 0.700083 5510 - LS60a.dat
 
 
+0 STEP
 0 FILE 5510 - 013-006boom.ldr
 0 Articulated crane boom built from red plates and hinge plates with vertical bar connectors.
 0 Name: 5510 - 013-006boom.ldr
@@ -2113,6 +2122,7 @@
 1 4 0 -33.364 -62.696 0 0 1 -0.314 0.949 0 -0.949 -0.314 0 3795.dat
 
 
+0 STEP
 0 FILE 5510 - 014cab.ldr
 0 Truck cab assembly with a large yellow base plate, slopes, and small detail pieces including a tap.
 0 Name: 5510 - 014cab.ldr
@@ -2153,6 +2163,7 @@
 1 0 90 -56 -30 1 0 0 0 1 0 0 0 1 3005.dat
 
 
+0 STEP
 0 FILE 5510 - 015roof.ldr
 0 Cab roof built from black plates with clips and two loudhailer-style exhaust details.
 0 Name: 5510 - 015roof.ldr
@@ -2186,6 +2197,7 @@
 1 14 90 -24 40 0 0 1 0 1 0 -1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 5510 - u4330.dat
 0 Primitive part composed of cylinders and discs forming a Fabuland logo element.
 0 Name: 5510 - u4330.dat
@@ -2227,6 +2239,7 @@
 0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=R 4 11] [slide=true]
 
 
+0 STEP
 0 FILE 5510 - 4209a.dat
 0 Primitive part definition with no directly listed sub-pieces.
 0 Name: 5510 - 4209a.dat
@@ -2250,6 +2263,7 @@
 
 0 
 
+0 STEP
 0 FILE 5510 - u4208.dat
 0 Simple primitive consisting of a single cylinder surface.
 0 Name: 5510 - u4208.dat
@@ -2274,6 +2288,7 @@
 0 !LDCAD SNAP_GEN [group=hoseReel2x4] [gender=M] [bounding=box 40 17.5 17.5]
 
 
+0 STEP
 0 FILE 5510 - LS60a.dat
 0 Primitive part definition with no directly listed sub-pieces.
 0 Name: 5510 - LS60a.dat
@@ -2316,6 +2331,7 @@
 
 0 
 
+0 STEP
 0 FILE s\5510 - 4209as02.dat
 0 Detailed geometric subpart made of numerous boxes, cylinders, and joints defining a complex underside surface.
 0 Name: s\5510 - 4209as02.dat
@@ -2765,6 +2781,7 @@
 0 !LDCAD SNAP_GEN [group=hoseReel2x4] [gender=F] [bounding=box 40 17.5 17.5]
 
 
+0 STEP
 0 FILE s\5510 - 4208s01.dat
 0 Geometric primitive subpart composed of cylinders, cones, and rings forming a rounded hub element.
 0 Name: s\5510 - 4208s01.dat
@@ -2813,6 +2830,7 @@
 1 16 -30 0 0 1 0 0 0 0 -1 0 1 0 s\5510 - 4208s02.dat
 
 
+0 STEP
 0 FILE s\5510 - 4208s03.dat
 0 Geometric primitive subpart formed from circles and two cones creating a tapered shape.
 0 Name: s\5510 - 4208s03.dat
@@ -2934,6 +2952,7 @@
 5 24 4.5 -2.296 5.543 -4.5 -2.296 5.543 4.5 -4.243 4.243 4.5 0 6
 
 
+0 STEP
 0 FILE s\5510 - 4208s02.dat
 0 Primitive subpart definition with no directly listed sub-pieces.
 0 Name: s\5510 - 4208s02.dat

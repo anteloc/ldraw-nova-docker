@@ -272,6 +272,7 @@
 0 // Technic Disc  3 x  3 with Axlehole (rubber_black)
 1 256 -80 -47 -100 0 -1 0 0 0 1 -1 0 0 2723.dat
 
+0 STEP
 0 FILE 42046 - motor.ldr
 0 Pull-back motor subassembly with mounting beams, axles, angle connectors, and translucent red accent plates.
 0 Author: Philippe Hurbain [Philo]
@@ -313,6 +314,7 @@
 0 // Plate  1 x  1 Round (trans_red)
 1 36 -60 -60 30 0 0 1 1 0 0 0 1 0 6141.dat
 
+0 STEP
 0 FILE 42046 - door1.ldr
 0 Curved side panel door assembly using a beam frame, fairing panels, and connecting pins for hinged mounting.
 0 Author: Philippe Hurbain [Philo]
@@ -354,6 +356,7 @@
 0 // Technic Beam  3 x  5 Bent 90 (dark_bluish_grey)
 1 72 100 -100 -20 0 1 0 0 0 1 1 0 0 32526.dat
 
+0 STEP
 0 FILE 42046 - Door2.ldr
 0 Mirrored curved side panel door assembly using a beam frame, fairing panels, and connecting pins for hinged mounting.
 0 Author: Philippe Hurbain [Philo]

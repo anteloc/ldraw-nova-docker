@@ -15,6 +15,7 @@
 
 
 
+0 STEP
 0 FILE 6652 - truck - front.ldr
 0 The truck's front cab assembly with red wheels, a steering stand and wheel, sloped brick detailing, a ladder plate, and a male hinge plate for connecting to the rear section.
 0 Name: 6652 - truck - front.ldr
@@ -90,6 +91,7 @@
 
 
 
+0 STEP
 0 FILE 6652 - truck - back.ldr
 0 The truck's rear chassis section with two pairs of red wheels and a female hinge plate for attaching to the front cab, plus a pivot for the tilting dump bed.
 0 Name: 6652 - truck - back.ldr
@@ -136,6 +138,7 @@
 
 
 
+0 STEP
 0 FILE 6652 - truck - movable.ldr
 0 The tilting dump bed assembly consisting of a hinge plate top and a tipper bucket that can be raised and lowered.
 0 Name: 6652 - truck - movable.ldr
@@ -154,6 +157,7 @@
 
 
 
+0 STEP
 0 FILE 6652 - minifig.ldr
 0 A construction worker minifigure wearing a red helmet, blue torso with patch pocket, and standard yellow head and hands.
 0 Name: 6652 - minifig.ldr

@@ -14,6 +14,7 @@
 1 4 -150 0 20 0.259 0 0.966 0 1 0 -0.966 0 0.259 6351 - minifig 1.ldr
 1 4 -239.354 -8 -204.048 0.643 0 0.766 0 1 0 -0.766 0 0.643 6351 - minifig 2.ldr
 
+0 STEP
 0 FILE 6351 - car.ldr
 0 A wheeled vehicle built from blue and white plates and inverted slope bricks, featuring a towball socket for hitching a trailer.
 0 Name: 6351 - car.ldr
@@ -278,6 +279,7 @@
 0 // Minifig Bicycle (Complete) (red)
 1 4 38.001 -57 120 0 -0.985 0.174 0 0.174 0.985 -1 0 0 4719c01.dat
 
+0 STEP
 0 FILE 6351 - boat.ldr
 0 A boat hull assembled from red inverted slope and wedge pieces with white plating, forming a sleek watercraft.
 0 Name: 6351 - boat.ldr
@@ -342,6 +344,7 @@
 0 // Bar  6.6L with Stop (red)
 1 4 -105.999 -46 30 0 -1 0 0 0 1 -1 0 0 4095.dat
 
+0 STEP
 0 FILE 6351 - windsurf board.ldr
 0 A yellow surf board fitted with a tall mast bar and a shorter boom bar for windsurfing.
 0 Name: 6351 - windsurf board.ldr
@@ -359,6 +362,7 @@
 1 15 13.416 -54 -24.666 -0.5 0.866 0 0 0 -1 -0.866 -0.5 0 4095.dat
 1 47 1.292 -54 -17.667 0.5 0 -0.866 0 1 0 0.866 0 0.5 u66p01c02.dat
 
+0 STEP
 0 FILE 6351 - minifig 1.ldr
 0 A minifigure wearing a red cap with a white truck-pattern torso and blue legs.
 0 Name: 6351 - minifig 1.ldr
@@ -389,6 +393,7 @@
 0 // ~Minifig Leg Right (Obsolete) (blue)
 1 1 2.26 -28 3.37 1 0 0 0 1 0 0 0 1 3816.dat
 
+0 STEP
 0 FILE 6351 - minifig 2.ldr
 0 A minifigure with a ponytail hairstyle wearing a yellow lifevest over a striped torso.
 0 Name: 6351 - minifig 2.ldr
@@ -421,6 +426,7 @@
 0 // Minifig Lifevest (yellow)
 1 14 2 -72 0 1 0 0 0 1 0 0 0 1 2610.dat
 
+0 STEP
 0 FILE 6351 - trailer.ldr
 0 A four-wheeled trailer with a towball hitch, black and light-grey plates, and red light pieces.
 0 Name: 6351 - trailer.ldr

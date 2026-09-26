@@ -24,6 +24,7 @@
 1 148 179 -15 -186 -0.224 -0.5 -0.836 -0.966 0 0.259 -0.129 0.866 -0.483 10051p01.dat
 
 
+0 STEP
 0 FILE 9476 - anvil.ldr
 0 A small black anvil built from inverted dish, sloped bricks, and round plates.
 0 Name: 9476 - anvil.ldr
@@ -46,6 +47,7 @@
 0 // Plate  1 x  1 Round (black)
 1 0 0 -8 0 1 0 0 0 1 0 0 0 1 6141.dat
 
+0 STEP
 0 FILE 9476 - rock.ldr
 0 A dark bluish grey rocky outcrop made from concave and inverted slope bricks.
 0 Name: 9476 - rock.ldr
@@ -62,6 +64,7 @@
 
 
 
+0 STEP
 0 FILE 9476 - Fusion.ldr
 0 The central forge structure with dark tan base plates, glowing red light brick, sloped rock walls, and a rotating grille mechanism.
 0 Name: 9476 - Fusion.ldr
@@ -260,6 +263,7 @@
 0 // Minifig Cauldron (black)
 1 0 100 -120 -60 0 0 -1 0 1 0 1 0 0 4341.dat
 
+0 STEP
 0 FILE 9476 - annealing.ldr
 0 A black furnace-like cooling station with grille bricks, trans-orange glowing plates, metallic grilles, and a Uruk-hai sword.
 0 Name: 9476 - annealing.ldr
@@ -315,6 +319,7 @@
 1 80 0 -40 -40 0 0 -1 0 1 0 1 0 0 2412b.dat
 
 
+0 STEP
 0 FILE 9476 - floor.ldr
 0 A wooden-toned base floor of reddish brown and dark tan plates with yellow handle plates.
 0 Name: 9476 - floor.ldr
@@ -342,6 +347,7 @@
 1 14 -20 16 10 -1 0 0 0 1 0 0 0 -1 60478.dat
 
 
+0 STEP
 0 FILE 9476 - ladder.ldr
 0 A wooden ladder made of reddish brown planks with dark grooved tiles and black clips.
 0 Name: 9476 - ladder.ldr
@@ -371,6 +377,7 @@
 1 19 -60 16 -60 1 0 0 0 1 0 0 0 1 2420.dat
 
 
+0 STEP
 0 FILE 9476 - wheel.ldr
 0 A large brown water wheel built from hexagonal spoke plates, round bricks, and connecting plates.
 0 Name: 9476 - wheel.ldr
@@ -449,6 +456,7 @@
 1 70 -51.961 -40 30 0.866 0 0.5 0 1 0 -0.5 0 0.866 3623.dat
 
 
+0 STEP
 0 FILE 9476 - ropeLQ-1.ldr
 0 A long flexible rope generated from 204 cylindrical segments forming a curved cord.
 0 Name: 9476 - ropeLQ-1.ldr
@@ -907,6 +915,7 @@
 1 16 -26.9688 -70.2466 -0.5712 1.4996 0.1398 -0.0023 -0.0295 5.2487 0.7262 0.019 -2.9037 1.3125 4-4cyli.dat
 0 // Cylinder 1.0 (main_colour)
 1 16 -27.0062 -75.5416 0.1394 1.5 0.0455 -0.0015 -0.011 5.9259 0.2348 0.0032 -0.9392 1.4815 4-4cyli.dat
+0 STEP
 0 FILE 9476 - spool.ldr
 0 A dark bluish grey winch spool with a towball hook for the rope.
 0 Name: 9476 - spool.ldr
@@ -922,6 +931,7 @@
 
 
 
+0 STEP
 0 FILE 9476 - chute.ldr
 0 A slanted dark bluish grey chute with rounded panels on a reddish brown base plate.
 0 Name: 9476 - chute.ldr
@@ -952,6 +962,7 @@
 
 
 
+0 STEP
 0 FILE 9476 - elevator.ldr
 0 A multi-level dark green and dark tan elevator tower with sloped rock detailing and technic pin connections.
 0 Name: 9476 - elevator.ldr
@@ -1194,6 +1205,7 @@
 
 
 
+0 STEP
 0 FILE 9476 - uruk-hai.ldr
 0 An Uruk-hai warrior minifigure with leather armor, scowling head, helmet with comb, spiked shield, and sword.
 0 Name: 9476 - uruk-hai.ldr
@@ -1228,6 +1240,7 @@
 0 // Minifig Sword Uruk-Hai (pearl_dark_grey)
 1 148 -43.2458 7.9692 -13.8836 -0.9392 0.3286 0.0994 0.2675 0.5189 0.8119 0.2152 0.7891 -0.5753 10050.dat
 
+0 STEP
 0 FILE 9476 - lurtz.ldr
 0 The Uruk-hai leader Lurtz minifigure with muscular torso, long black hair, scowling head, and spiked shield.
 0 Name: 9476 - lurtz.ldr
@@ -1258,6 +1271,7 @@
 0 // Minifig Shield Broad with Spiked Bottom, Cutout Corner with White Handprint Pattern (dark_bluish_grey)
 1 72 -25.3317 -9.6118 -20.4711 0.9875 -0.0557 -0.1464 0.0561 0.9983 -0.0016 0.1463 -0.0066 0.9891 10049p01.dat
 
+0 STEP
 0 FILE 9476 - blacksmith.ldr
 0 An orc blacksmith minifigure with leather armor, orc head with grey hair, mallet, and sword.
 0 Name: 9476 - blacksmith.ldr
@@ -1290,6 +1304,7 @@
 0 // ~Minifig Tool Mallet (Obsolete) (black)
 1 0 31.9786 -67.3289 -41.095 -0.7263 -0.2628 -0.6353 -0.3672 0.9296 0.0352 0.5812 0.2589 -0.7715 4522.dat
 
+0 STEP
 0 FILE 9476 - baldorc.ldr
 0 A bald orc minifigure with leather armor, orc head, shovel, and a pearl silver round tile.
 0 Name: 9476 - baldorc.ldr

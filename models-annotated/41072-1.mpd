@@ -12,6 +12,7 @@
 1 30 130 8 -120 1 0 0 0 0.966 -0.259 0 0.259 0.966 13392.dat
 
 
+0 STEP
 0 FILE 41072 - Day Bed.ldr
 0 A small tan and azure day bed with magenta tiles, arches, and technic ball joint accents.
 0 Name: 41072 - Day Bed.ldr
@@ -139,6 +140,7 @@
 1 15 20 -19 -19 1 0 0 0 1 0 0 0 1 3069bp0c.dat
 
 
+0 STEP
 0 FILE 41072 - Spa Bath.ldr
 0 A medium azure and lilac spa bath structure with rounded corner bricks, slopes, and trans-light-blue water elements.
 0 Name: 41072 - Spa Bath.ldr
@@ -475,6 +477,7 @@
 1 37 -150 -145 90 1 0 0 0 1 0 0 0 1 15745.dat
 
 
+0 STEP
 0 FILE 41072 - Spa Bath Waterfall.ldr
 0 A trans-light-blue technic beam waterfall with lavender leaves and a gem decoration.
 0 Name: 41072 - Spa Bath Waterfall.ldr
@@ -520,6 +523,7 @@
 1 70 40 -113.585 -22.196 0 0 1 0.383 0.924 0 -0.924 0.383 0 33183.dat
 
 
+0 STEP
 0 FILE 41072 - Naida Riverheart.ldr
 0 A Friends minifigure with azure trousers, tan torso, and a trans-dark-blue hair element.
 0 Name: 41072 - Naida Riverheart.ldr
@@ -541,6 +545,7 @@
 1 33 -26 -49.3 -3.8 1 0 0 0 0 -1 0 1 0 98138.dat
 
 
+0 STEP
 0 FILE 15745.dat
 0 A heart-shaped gem rock built from cylinder and disc primitives.
 0 Name: 15745.dat
@@ -572,6 +577,7 @@
 2 24 0 -29.75 -0.75 0 -29.75 0.75
 
 
+0 STEP
 0 FILE s\15745s01.dat
 0 A half-section of the heart-shaped gem rock made from rectangle primitives.
 0 Name: s\15745s01.dat

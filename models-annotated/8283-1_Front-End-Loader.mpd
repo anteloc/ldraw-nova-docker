@@ -7,6 +7,7 @@
 1 71 -25 0 100 1 0 0 0 1 0 0 0 1 8283 - Front End Loader.ldr
 
 
+0 STEP
 0 FILE 8283 - Front End Loader.ldr
 0 Main chassis frame built from red bent liftarms, long beams, axles, and bushings forming the structural backbone of the loader.
 0 Name: 8283 - Front End Loader.ldr
@@ -288,6 +289,7 @@
 1 256 109 40 -90 0 0 -1 0 -1 0 -1 0 0 32180.dat
 
 
+0 STEP
 0 FILE 8283 - Front axle.ldr
 0 Compact front axle assembly using a short liftarm pair, notched axle, and stop axle with bushing.
 0 Name: 8283 - Front axle.ldr
@@ -308,6 +310,7 @@
 1 71 5 0 0 0 0 1 0 1 0 -1 0 0 3713.dat
 
 
+0 STEP
 0 FILE 8283 - Sub14.ldr
 0 Liftarm linkage subassembly built from red and dark grey beams joined by an axle and friction pin.
 0 Name: 8283 - Sub14.ldr
@@ -332,6 +335,7 @@
 1 72 30 0 0 0 -1 0 1 0 0 0 0 1 32449.dat
 
 
+0 STEP
 0 FILE 8283 - Sub16.ldr
 0 Angled liftarm bracket combining a quarter-ellipse bent beam, triangle liftarm, and axles for structural support.
 0 Name: 8283 - Sub16.ldr
@@ -349,6 +353,7 @@
 1 4 -5 -80 0 1 0 0 0 1 0 0 0 1 32062.dat
 
 
+0 STEP
 0 FILE 8283 - Sub20.ldr
 0 Reinforced beam assembly using two long red beams, a bent liftarm, axles, and a 3L double pin connector.
 0 Name: 8283 - Sub20.ldr
@@ -373,6 +378,7 @@
 1 0 35 0 0 1 0 0 0 -1 0 0 0 -1 3705.dat
 
 
+0 STEP
 0 FILE 8283 - Sub20Sub03.ldr
 0 Small angle connector linkage with two red angle connectors mounted on an axle.
 0 Name: 8283 - Sub20Sub03.ldr
@@ -388,6 +394,7 @@
 1 4 0 0 -50 -1 0 0 0 0.641 -0.767 0 -0.767 -0.641 32013.dat
 
 
+0 STEP
 0 FILE 8283 - Sub23.ldr
 0 Steering linkage assembly using a bent liftarm, long beam, cross blocks, and half-pins for pivot mounting.
 0 Name: 8283 - Sub23.ldr
@@ -420,6 +427,7 @@
 1 71 60 -30 -40 0 0 -1 -1 0 0 0 1 0 4274.dat
 
 
+0 STEP
 0 FILE 8283 - Sub27.ldr
 0 Worm gear drive unit with a 12-tooth bevel gear, worm gear, and cross block mounted on an axle.
 0 Name: 8283 - Sub27.ldr
@@ -447,6 +455,7 @@
 1 71 0 0 -55 -0.53 -0.848 0 0.848 -0.53 0 0 0 1 32123a.dat
 
 
+0 STEP
 0 FILE 8283 - Side fitting.ldr
 0 Side mounting bracket built from cross blocks and an axle for attaching side components.
 0 Name: 8283 - Side fitting.ldr
@@ -466,6 +475,7 @@
 1 71 60 0 0 -1 0 0 0 -1 0 0 0 1 6536.dat
 
 
+0 STEP
 0 FILE 8283 - Sub31.ldr
 0 Steering arm assembly with a steering arm connector, cross block, stud axle, and half-bushes.
 0 Name: 8283 - Sub31.ldr
@@ -486,6 +496,7 @@
 1 0 30 10 -20 0 1 0 1 0 0 0 0 -1 32069.dat
 
 
+0 STEP
 0 FILE 8283 - Sub33.ldr
 0 Axle spacer assembly with a long beam, axle pins, and flanged bushes for spacing and alignment.
 0 Name: 8283 - Sub33.ldr
@@ -505,6 +516,7 @@
 1 71 20 -20 0 -1 0 0 0 0 -1 0 -1 0 3713.dat
 
 
+0 STEP
 0 FILE 8283 - Sub34.ldr
 0 Worm gear drive unit pairing a worm gear with a 12-tooth bevel gear, cross block, and bushes on an axle.
 0 Name: 8283 - Sub34.ldr
@@ -529,6 +541,7 @@
 1 71 0 0 -50 -0.707 -0.707 0 0.707 -0.707 0 0 0 1 3713.dat
 
 
+0 STEP
 0 FILE 8283 - Sub35.ldr
 0 Axle linkage assembly using connector bushes, angle connector, and notched axles for a pivoting joint.
 0 Name: 8283 - Sub35.ldr
@@ -560,6 +573,7 @@
 1 71 0 60 0 1 0 0 0 1 0 0 0 1 32073.dat
 
 
+0 STEP
 0 FILE 8283 - Sub37.ldr
 0 Bucket arm section built from red bent liftarms joined by a friction pin and long axle.
 0 Name: 8283 - Sub37.ldr
@@ -577,6 +591,7 @@
 1 0 -40 0 160 -1 0 0 0 1 0 0 0 -1 3737.dat
 
 
+0 STEP
 0 FILE 8283 - Sub39.ldr
 0 Angled linkage assembly using angle connectors and notched axles with an offset joiner for the lift mechanism.
 0 Name: 8283 - Sub39.ldr
@@ -599,6 +614,7 @@
 1 0 0 35.355 95.355 1 0 0 0 0.707 0.707 0 -0.707 0.707 6538b.dat
 
 
+0 STEP
 0 FILE 8283 - Sub40.ldr
 0 Bracket assembly combining bent liftarms, short beams, and connector bushes with axles for structural framing.
 0 Name: 8283 - Sub40.ldr
@@ -636,6 +652,7 @@
 1 71 50 0 0 0 -1 0 -1 0 0 0 0 -1 32056.dat
 
 
+0 STEP
 0 FILE 8283 - Sub41.ldr
 0 Red liftarm linkage with a bent beam, straight beam, axle, and bushing forming an articulated arm segment.
 0 Name: 8283 - Sub41.ldr
@@ -658,6 +675,7 @@
 1 0 55 0 0 1 0 0 0 -1 0 0 0 -1 3706.dat
 
 
+0 STEP
 0 FILE 8283 - Sub42.ldr
 0 Offset beam assembly using two liftarms joined by axle joiners on axles of different lengths.
 0 Name: 8283 - Sub42.ldr
@@ -680,6 +698,7 @@
 1 72 0 85 -30 -1 0 0 0 -1 0 0 0 1 32449.dat
 
 
+0 STEP
 0 FILE 8283 - Sub43.ldr
 0 Small pivot joint using an angle connector, cross block, notched axle, and friction pin.
 0 Name: 8283 - Sub43.ldr
@@ -697,6 +716,7 @@
 1 0 -10 40 -20 1 0 0 0 0 1 0 -1 0 2780.dat
 
 
+0 STEP
 0 FILE 8283 - Sub44.ldr
 0 Compact axle joiner coupling with an offset joiner, axle, and smooth half-bush.
 0 Name: 8283 - Sub44.ldr
@@ -712,6 +732,7 @@
 1 71 25 0 0 0 0 -1 0 1 0 1 0 0 32123a.dat
 
 
+0 STEP
 0 FILE 8283 - Sub45.ldr
 0 Bucket arm segment built from two red bent liftarms connected by a friction axle pin.
 0 Name: 8283 - Sub45.ldr
@@ -727,6 +748,7 @@
 1 4 15 0 -120 0 -1 0 1 0 0 0 0 1 32250.dat
 
 
+0 STEP
 0 FILE 8283 - Sub48.ldr
 0 Angled linkage using two angle connectors and notched axles joined by an offset axle joiner.
 0 Name: 8283 - Sub48.ldr
@@ -747,6 +769,7 @@
 1 0 0 35.355 -95.355 0 1 0 0.707 0 0.707 0.707 0 -0.707 6538b.dat
 
 
+0 STEP
 0 FILE 8283 - Sub49.ldr
 0 Red liftarm linkage with a bent beam, straight beam, axle, bushing, and 3/4 pin forming an articulated arm.
 0 Name: 8283 - Sub49.ldr
@@ -769,6 +792,7 @@
 1 71 -55 0 -40 1 0 0 0 -1 0 0 0 -1 8283 - Sub49Sub04.ldr
 
 
+0 STEP
 0 FILE 8283 - Sub49Sub04.ldr
 0 Simple axle-and-bush spacer stack with a long axle and three flanged bushes.
 0 Name: 8283 - Sub49Sub04.ldr
@@ -786,6 +810,7 @@
 1 71 20 0 0 0 0 1 0 1 0 -1 0 0 3713.dat
 
 
+0 STEP
 0 FILE 8283 - Sub50.ldr
 0 Small Technic connector assembly using a 2x2 cross block and two half-pins for joining structural elements.
 0 Name: 8283 - Sub50.ldr
@@ -801,6 +826,7 @@
 1 71 10 -20 10 0 0 1 0 -1 0 1 0 0 4274.dat
 
 
+0 STEP
 0 FILE 8283 - Hose.ldr
 0 Flexible pneumatic hose assembly built from rigid hose segments and end caps for routing fluid lines on the model.
 0 Name: 8283 - Hose.ldr

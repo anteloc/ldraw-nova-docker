@@ -13,6 +13,7 @@
 
 
 
+0 STEP
 0 FILE 744-1 - Truck.ldr
 0 Large yellow chassis built from plates and bricks with technic axle beams, sloped detailing, and black structural plates forming the wheeled truck base.
 0 Name: 744-1 - Truck.ldr
@@ -399,6 +400,7 @@
 
 
 
+0 STEP
 0 FILE 744-1 - Crane.ldr
 0 Motorized crane superstructure on a turntable, featuring a 4.5V electric motor, yellow braced framework, and technic axles with bushings to drive the lifting mechanism.
 0 Name: 744-1 - Crane.ldr
@@ -622,6 +624,7 @@
 
 
 
+0 STEP
 0 FILE 744-1 - Dashboard.ldr
 0 Small angled dashboard panel using a technic plate, belt wheel, and hinges for steering-column and control detail.
 0 Name: 744-1 - Dashboard.ldr
@@ -643,6 +646,7 @@
 
 
 
+0 STEP
 0 FILE 744-1 - Door left.ldr
 0 Left cab door made of yellow plates and bricks hinged on a top hinge brick, finished with a grooved tile detail.
 0 Name: 744-1 - Door left.ldr
@@ -672,6 +676,7 @@
 
 
 
+0 STEP
 0 FILE 744-1 - Door right.ldr
 0 Right cab door built from yellow plates and bricks hinged on a base hinge brick, matching the left door with a grooved tile accent.
 0 Name: 744-1 - Door right.ldr
@@ -701,6 +706,7 @@
 
 
 
+0 STEP
 0 FILE 744-1 - Crane arm.ldr
 0 Long black extending boom assembled from stacked plates with brackets and handles, terminating in a hinge plate bucket holder at the hook end.
 0 Name: 744-1 - Crane arm.ldr

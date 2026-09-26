@@ -1125,6 +1125,7 @@
 1 0 0 -115 -120 0 0 1 0 1 0 -1 0 0 21024 - 8.ldr
 
 
+0 STEP
 0 FILE 21024 - 1.ldr
 0 Pyramid roof section built from a dark bluish grey base plate with 45-degree slope bricks forming a stepped pyramid shape.
 0 Name: 21024 - 1.ldr
@@ -1156,6 +1157,7 @@
 1 72 0 -32 -50 1 0 0 0 1 0 0 0 1 3069b.dat
 
 
+0 STEP
 0 FILE 21024 - 2.ldr
 0 Small glass pyramid element made of transparent clear slope bricks mounted around a dark bluish grey core stud piece.
 0 Name: 21024 - 2.ldr
@@ -1179,6 +1181,7 @@
 1 47 0 -8 0 0 0 1 0 1 0 -1 0 0 3024.dat
 
 
+0 STEP
 0 FILE 21024 - 3.ldr
 0 Transparent glass skylight panel built from clear tiles mounted on a dark bluish grey frame plate.
 0 Name: 21024 - 3.ldr
@@ -1204,6 +1207,7 @@
 1 47 0 -8 -20 1 0 0 0 1 0 0 0 1 3069b.dat
 
 
+0 STEP
 0 FILE 21024 - 4.ldr
 0 Small glass pyramid element consisting of transparent clear slope bricks and plates attached via a dark bluish grey clip piece.
 0 Name: 21024 - 4.ldr
@@ -1235,6 +1239,7 @@
 1 47 -20 0 60 -1 0 0 0 1 0 0 0 -1 50746.dat
 
 
+0 STEP
 0 FILE 21024 - 5.ldr
 0 Small glass pyramid element consisting of transparent clear slope bricks and plates attached via a dark bluish grey clip piece.
 0 Name: 21024 - 5.ldr
@@ -1266,6 +1271,7 @@
 1 47 -20 0 -60 1 0 0 0 1 0 0 0 1 50746.dat
 
 
+0 STEP
 0 FILE 21024 - 6.ldr
 0 Larger glass pyramid element with multiple transparent clear slope bricks and plates mounted on a dark bluish grey clip base.
 0 Name: 21024 - 6.ldr
@@ -1305,6 +1311,7 @@
 1 47 -20 -48 0 1 0 0 0 1 0 0 0 1 50746.dat
 
 
+0 STEP
 0 FILE 21024 - 7.ldr
 0 Larger glass pyramid element with multiple transparent clear slope bricks and plates mounted on a dark bluish grey clip base.
 0 Name: 21024 - 7.ldr
@@ -1344,6 +1351,7 @@
 1 47 -20 -48 0 -1 0 0 0 1 0 0 0 -1 50746.dat
 
 
+0 STEP
 0 FILE 21024 - 8.ldr
 0 Glass pyramid element with transparent clear slope bricks around a dark bluish grey core, topped with a light bluish grey bar spire.
 0 Name: 21024 - 8.ldr

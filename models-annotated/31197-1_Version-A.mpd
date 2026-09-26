@@ -7,6 +7,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 31197 - Marilyn.ldr
 
 
+0 STEP
 0 FILE 31197 - A1.ldr
 0 Mosaic tile panel forming the top-left quadrant, dominated by yellow and dark pink round studs over a black Technic base.
 0 Name: 31197 - A1.ldr
@@ -536,6 +537,7 @@
 1 72 150 -8 30 1 0 0 0 1 0 0 0 1 98138.dat
 
 
+0 STEP
 0 FILE 31197 - B1.ldr
 0 Mosaic tile panel forming the top-center quadrant, predominantly yellow and bright pink round studs over a black Technic base.
 0 Name: 31197 - B1.ldr
@@ -1071,6 +1073,7 @@
 1 0 150 -8 30 1 0 0 0 1 0 0 0 1 98138.dat
 
 
+0 STEP
 0 FILE 31197 - C1.ldr
 0 Mosaic tile panel forming the top-right quadrant, dominated by yellow and dark pink round studs over a black Technic base.
 0 Name: 31197 - C1.ldr
@@ -1606,6 +1609,7 @@
 1 5 150 -8 30 1 0 0 0 1 0 0 0 1 98138.dat
 
 
+0 STEP
 0 FILE 31197 - Row 1.ldr
 0 Assembly grouping the three top-row mosaic panels (A1, B1, C1) into a single horizontal strip.
 0 Name: 31197 - Row 1.ldr
@@ -1618,6 +1622,7 @@
 1 0 320 0 0 1 0 0 0 1 0 0 0 1 31197 - C1.ldr
 
 
+0 STEP
 0 FILE 31197 - A2.ldr
 0 Mosaic tile panel forming the middle-left quadrant, predominantly bright pink and black round studs over a black Technic base.
 0 Name: 31197 - A2.ldr
@@ -2147,6 +2152,7 @@
 1 72 150 -8 30 1 0 0 0 1 0 0 0 1 98138.dat
 
 
+0 STEP
 0 FILE 31197 - B2.ldr
 0 Mosaic tile panel forming the middle-center quadrant, overwhelmingly bright pink round studs over a black Technic base.
 0 Name: 31197 - B2.ldr
@@ -2682,6 +2688,7 @@
 1 0 150 -8 30 1 0 0 0 1 0 0 0 1 98138.dat
 
 
+0 STEP
 0 FILE 31197 - C2.ldr
 0 Mosaic tile panel forming the middle-right quadrant, dominated by black and yellow round studs over a black Technic base.
 0 Name: 31197 - C2.ldr
@@ -3217,6 +3224,7 @@
 1 72 150 -8 30 1 0 0 0 1 0 0 0 1 98138.dat
 
 
+0 STEP
 0 FILE 31197 - Marilyn.ldr
 0 Support frame substructure of black bricks, plates, and corner pieces providing a rigid backing for the mosaic artwork.
 0 Name: 31197 - Marilyn.ldr
@@ -3483,6 +3491,7 @@
 1 0 -320 18 430 -1 0 0 0 -1 0 0 0 1 31197 - Bracket.ldr
 
 
+0 STEP
 0 FILE 31197 - Row 2.ldr
 0 Assembly grouping the three middle-row mosaic panels (A2, B2, C2) into a single horizontal strip.
 0 Name: 31197 - Row 2.ldr
@@ -3494,6 +3503,7 @@
 1 0 320 0 0 1 0 0 0 1 0 0 0 1 31197 - C2.ldr
 
 
+0 STEP
 0 FILE 31197 - A3.ldr
 0 Mosaic tile panel forming the bottom-left quadrant, predominantly dark pink and bright pink round studs over a black Technic base.
 0 Name: 31197 - A3.ldr
@@ -4017,6 +4027,7 @@
 1 0 150 -8 30 1 0 0 0 1 0 0 0 1 98138.dat
 
 
+0 STEP
 0 FILE 31197 - B3.ldr
 0 Mosaic tile panel forming the bottom-center quadrant, dominated by bright pink and black round studs with magenta accents over a black Technic base.
 0 Name: 31197 - B3.ldr
@@ -4546,6 +4557,7 @@
 1 0 150 -8 30 1 0 0 0 1 0 0 0 1 98138.dat
 
 
+0 STEP
 0 FILE 31197 - C3.ldr
 0 Mosaic tile panel forming the bottom-right quadrant, dominated by black and dark pink round studs with magenta accents over a black Technic base.
 0 Name: 31197 - C3.ldr
@@ -5060,6 +5072,7 @@
 1 0 110 -8 -120 1 0 0 0 1 0 0 0 1 31197 - C3 Signature.ldr
 
 
+0 STEP
 0 FILE 31197 - C3 Signature.ldr
 0 Small detail element featuring a printed Andy Warhol signature tile mounted on a black plate.
 0 Name: 31197 - C3 Signature.ldr
@@ -5072,6 +5085,7 @@
 1 0 -10 -8 0 1 0 0 0 1 0 0 0 1 87079pt4.dat
 
 
+0 STEP
 0 FILE 31197 - Row 3.ldr
 0 Assembly grouping the three bottom-row mosaic panels (A3, B3, C3) into a single horizontal strip.
 0 Name: 31197 - Row 3.ldr
@@ -5083,6 +5097,7 @@
 1 5 320 0 0 1 0 0 0 1 0 0 0 1 31197 - C3.ldr
 
 
+0 STEP
 0 FILE 31197 - Corner.ldr
 0 Small structural corner connector of black bricks and a corner plate used to join frame sections.
 0 Name: 31197 - Corner.ldr
@@ -5100,6 +5115,7 @@
 1 0 -20 -24 -20 0 0 1 0 1 0 -1 0 0 3005.dat
 
 
+0 STEP
 0 FILE 31197 - Bracket.ldr
 0 Mounting bracket built from a Technic connector block and friction pins used to attach panels to the frame.
 0 Name: 31197 - Bracket.ldr
@@ -5114,6 +5130,7 @@
 1 0 -40 0 30 0 0 1 0 -1 0 1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 31197 - 65803.dat
 0 Part definition for the large 16x16 Technic base tile used as the backing for each mosaic panel.
 0 Name: 31197 - 65803.dat
@@ -5161,6 +5178,7 @@
 1 16 -130 0 -150 1 0 0 0 1 0 0 0 1 stud.dat
 
 
+0 STEP
 0 FILE 31197 - 67139.dat
 0 Part definition for the Technic connector block with cutout used in the mounting brackets.
 0 Name: 31197 - 67139.dat
@@ -5298,6 +5316,7 @@
 1 16 0 0 12 9 0 0 0 0 -6.36 0 1 0 rect2p.dat
 
 
+0 STEP
 0 FILE s\31197 - 65803s01.dat
 0 Subpart defining one quarter of the 16x16 Technic base tile geometry.
 0 Name: s\31197 - 65803s01.dat
@@ -5365,6 +5384,7 @@
 1 16 50 8 50 0 0 -1 0 -1 0 -1 0 0 1-4rin10.dat
 
 
+0 STEP
 0 FILE s\31197 - 65803s03.dat
 0 Subpart defining the pinhole feature of the 16x16 Technic base tile.
 0 Name: s\31197 - 65803s03.dat
@@ -5427,6 +5447,7 @@
 1 16 0 16 -8 6 0 0 0 0 -2 0 1 0 rect3.dat
 
 
+0 STEP
 0 FILE s\31197 - 65803s02.dat
 0 Subpart defining one eighth of the 16x16 Technic base tile geometry.
 0 Name: s\31197 - 65803s02.dat
@@ -5517,6 +5538,7 @@
 1 16 95 4 40 -45 0 0 0 4 0 0 0 1 box3u5p.dat
 
 
+0 STEP
 0 FILE s\31197 - 67139s01.dat
 0 Subpart defining the outer pin-hole quarter of the Technic connector block.
 0 Name: s\31197 - 67139s01.dat
@@ -5631,6 +5653,7 @@
 3 16 -31 9 0 -9 9 9 -9 9 0
 
 
+0 STEP
 0 FILE s\31197 - 67139s02.dat
 0 Subpart defining the centre cutout quarter of the Technic connector block.
 0 Name: s\31197 - 67139s02.dat

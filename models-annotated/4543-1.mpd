@@ -12,6 +12,7 @@
 1 16 20.0574 -69.9998 0.0325 1 0 0 0 1 0 0 0 1 4543 - minifig.ldr
 
 
+0 STEP
 0 FILE 4543 - train car.ldr
 0 A long train car built on a 6x28 train base with a hinged roof, grille vents, and sloped ends bearing train logo stickers.
 0 Name: 4543 - train car.ldr
@@ -136,6 +137,7 @@
 1 0 -180 -72 0.015 -1 0 0 0 1 0 0 0 -1 4543 - train car - wheels.ldr
 
 
+0 STEP
 0 FILE 4543 - train car - wheels.ldr
 0 A train bogie assembly with two single-axle wheelsets, a buffer beam, coupling, and magnet for connecting cars.
 0 Name: 4543 - train car - wheels.ldr
@@ -170,6 +172,7 @@
 1 16 0 0 -0.03 -1 0 0 0 1 0 0 0 -1 4092A.DAT
 
 
+0 STEP
 0 FILE 4543 - tractor.ldr
 0 A small wheeled tractor with offset-tread tyres, a vertical windscreen, steering wheel, and red Technic brick framework.
 0 Name: 4543 - tractor.ldr
@@ -324,6 +327,7 @@
 1 7 -73.416 -70 0 0 0 1 0 1 0 -1 0 0 3679.dat
 
 
+0 STEP
 0 FILE 4543 - tractor - arm - full.ldr
 0 A turntable base plate with hinge used to mount the tractor's articulated arm assembly.
 0 Name: 4543 - tractor - arm - full.ldr
@@ -337,6 +341,7 @@
 1 0 0 -21.74 0.025 0 0 1 0 1 0 -1 0 0 4508.dat
 
 
+0 STEP
 0 FILE 4543 - tractor - arm - part A.ldr
 0 A hinged plate arm segment with fingers on both ends forming part of the excavator arm.
 0 Name: 4543 - tractor - arm - part A.ldr
@@ -350,6 +355,7 @@
 1 16 16.99 -67.58 0.05 -0.19 -0.98 0 0.98 -0.19 0 0 0 1 4504.DAT
 
 
+0 STEP
 0 FILE 4543 - tractor - arm - part B.ldr
 0 An articulated arm segment ending in a small black excavator bucket for digging.
 0 Name: 4543 - tractor - arm - part B.ldr
@@ -368,6 +374,7 @@
 1 0 -53.19 121.22 0 0.17 -0.99 0 0.99 0.17 0 0 0 1 4626.DAT
 
 
+0 STEP
 0 FILE 4543 - tractor - loader.ldr
 0 A front loader attachment consisting of a large excavator arm and a hinged bucket.
 0 Name: 4543 - tractor - loader.ldr
@@ -382,6 +389,7 @@
 1 16 80 -40 0 0 0.5 -0.866025 0 0.866025 0.5 1 0 0 2347.dat
 
 
+0 STEP
 0 FILE 4543 - trailer.ldr
 0 A small wheeled tipper trailer with wide tyres, a tilting bucket, and accessory clips holding a shovel and pushbroom.
 0 Name: 4543 - trailer.ldr
@@ -430,6 +438,7 @@
 1 16 71.17 -52.98 0.01 0 -1 -0.05 0 0.05 -1 1 0 0 4085C.DAT
 
 
+0 STEP
 0 FILE 4543 - minifig.ldr
 0 A worker minifigure wearing blue dungarees, a blue cap with flat peak, and a smiling yellow head.
 0 Name: 4543 - minifig.ldr

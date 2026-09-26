@@ -213,6 +213,7 @@
 1 71 0 -432 -100 0 0 -1 0 1 0 1 0 0 77904 - step152.ldr
 
 
+0 STEP
 0 FILE 77904 - step9.ldr
 0 Small structural subassembly of red side-stud bricks with light and dark grey plates and an inverted curved slope.
 0 Name: 77904 - step9.ldr
@@ -241,6 +242,7 @@
 1 71 -100 -24 0 1 0 0 0 1 0 0 0 1 3710.dat
 
 
+0 STEP
 0 FILE 77904 - step10.ldr
 0 Light grey 3x3 plate base with two dark grey clip plates for attaching accessories.
 0 Name: 77904 - step10.ldr
@@ -257,6 +259,7 @@
 1 72 -10 -8 0 -1 0 0 0 1 0 0 0 -1 77904 - 44861.dat
 
 
+0 STEP
 0 FILE 77904 - step12.ldr
 0 Left wing section built from a 3x6 left wing piece with grille slopes, clips, and a toothed detail plate.
 0 Name: 77904 - step12.ldr
@@ -281,6 +284,7 @@
 1 71 -20 8 -50 1 0 0 0 1 0 0 0 1 49668.dat
 
 
+0 STEP
 0 FILE 77904 - step15.ldr
 0 Light grey 3x3 plate base with two dark grey clip plates for mounting attachments.
 0 Name: 77904 - step15.ldr
@@ -297,6 +301,7 @@
 1 72 -10 -8 -20 -1 0 0 0 1 0 0 0 -1 77904 - 44861.dat
 
 
+0 STEP
 0 FILE 77904 - step17.ldr
 0 Right wing section built from a 3x6 right wing piece with grille slopes, clips, and a toothed detail plate.
 0 Name: 77904 - step17.ldr
@@ -321,6 +326,7 @@
 1 71 -20 8 50 -1 0 0 0 1 0 0 0 -1 49668.dat
 
 
+0 STEP
 0 FILE 77904 - step22.ldr
 0 Red side-stud brick mounted on two dark tan plates forming a small mounting block.
 0 Name: 77904 - step22.ldr
@@ -336,6 +342,7 @@
 1 28 0 32 0 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 77904 - step23.ldr
 0 Pair of reddish brown four-sided-stud bricks capped with dark grey round open-stud plates.
 0 Name: 77904 - step23.ldr
@@ -355,6 +362,7 @@
 1 70 0 -40 0 1 0 0 0 1 0 0 0 1 4733.dat
 
 
+0 STEP
 0 FILE 77904 - step24-33.ldr
 0 Detail cluster of dark tan plates with bars, nozzles, pins, and toothed and round plates forming a small mechanical fitting.
 0 Name: 77904 - step24-33.ldr
@@ -400,6 +408,7 @@
 1 71 -44 24 0 0 0 1 0 1 0 -1 0 0 60849.dat
 
 
+0 STEP
 0 FILE 77904 - step25.ldr
 0 Dark grey headlight brick joined to a reddish brown four-sided-stud brick.
 0 Name: 77904 - step25.ldr
@@ -413,6 +422,7 @@
 1 70 0 0 20 1 0 0 0 1 0 0 0 1 4733.dat
 
 
+0 STEP
 0 FILE 77904 - step34.ldr
 0 Right large wing assembly combining a 3x12 right wing with tiles, door rails, and curved slopes.
 0 Name: 77904 - step34.ldr
@@ -437,6 +447,7 @@
 1 71 10 -8 -10 1 0 0 0 1 0 0 0 1 96910.dat
 
 
+0 STEP
 0 FILE 77904 - step36.ldr
 0 Left large wing assembly combining a 3x12 left wing with tiles, door rails, and curved slopes.
 0 Name: 77904 - step36.ldr
@@ -461,6 +472,7 @@
 1 71 10 -8 10 -1 0 0 0 1 0 0 0 -1 96910.dat
 
 
+0 STEP
 0 FILE 77904 - step38.ldr
 0 Antenna or sensor mast made from a bar, microphone, cone, grille slope, and plates.
 0 Name: 77904 - step38.ldr
@@ -489,6 +501,7 @@
 1 71 -30 -22 0 -1 0 0 0 1 0 0 0 -1 90370.dat
 
 
+0 STEP
 0 FILE 77904 - step39-44.ldr
 0 Small detailed panel assembly with grille tiles, a curved slope, grooved plate, and connecting plates.
 0 Name: 77904 - step39-44.ldr
@@ -517,6 +530,7 @@
 1 72 30 34 0 0 -1 0 -1 0 0 0 0 -1 77904 - step43.ldr
 
 
+0 STEP
 0 FILE 77904 - step43.ldr
 0 Row of reddish brown four-sided-stud bricks and dark grey round plates on a long dark grey plate with a grooved tile.
 0 Name: 77904 - step43.ldr
@@ -549,6 +563,7 @@
 1 72 18 -30 0 0 -1 0 1 0 0 0 0 1 3666.dat
 
 
+0 STEP
 0 FILE 77904 - step45.ldr
 0 Panel section of dark grey plates with grille tiles, a curved slope, and a rounded-end tile detail.
 0 Name: 77904 - step45.ldr
@@ -578,6 +593,7 @@
 1 71 -100 -32 0 1 0 0 0 1 0 0 0 1 2412b.dat
 
 
+0 STEP
 0 FILE 77904 - step46-55.ldr
 0 Fuselage side detail with brackets, chamfered tiles, curved wedge, sloped bricks, and toothed plates.
 0 Name: 77904 - step46-55.ldr
@@ -625,6 +641,7 @@
 1 71 40 -6 24 1 0 0 0 0 1 0 -1 0 85984.dat
 
 
+0 STEP
 0 FILE 77904 - step56-77.ldr
 0 Larger fuselage or body subassembly with bricks, brackets, slopes, grilles, curved slopes, and a skeleton-leg detail piece.
 0 Name: 77904 - step56-77.ldr
@@ -728,6 +745,7 @@
 1 71 20 -126 -2 0 0 1 1 0 0 0 1 0 11477.dat
 
 
+0 STEP
 0 FILE 77904 - step65.ldr
 0 Bracket-mounted grille detail with a grille slope and grooved grille tile.
 0 Name: 77904 - step65.ldr
@@ -743,6 +761,7 @@
 1 71 0 10 -22 -1 0 0 0 0 1 0 1 0 2412b.dat
 
 
+0 STEP
 0 FILE 77904 - step66.ldr
 0 Bracket-mounted detail combining a grille slope and a standard slope brick.
 0 Name: 77904 - step66.ldr
@@ -758,6 +777,7 @@
 1 71 0 30 -14 -1 0 0 0 0 1 0 1 0 85984.dat
 
 
+0 STEP
 0 FILE 77904 - step80.ldr
 0 Small turret or nozzle tip of two hollow-stud minifig heads under a truncated cone.
 0 Name: 77904 - step80.ldr
@@ -774,6 +794,7 @@
 1 71 0 -40 0 1 0 0 0 1 0 0 0 1 33492.dat
 
 
+0 STEP
 0 FILE 77904 - step81.ldr
 0 Stack of five dark grey round plates threaded on a reddish brown 3L bar.
 0 Name: 77904 - step81.ldr
@@ -796,6 +817,7 @@
 1 72 0 36 0 1 0 0 0 1 0 0 0 1 85861.dat
 
 
+0 STEP
 0 FILE 77904 - step82.ldr
 0 Stack of eight dark grey round plates threaded on a light grey 4L lightsaber blade.
 0 Name: 77904 - step82.ldr
@@ -825,6 +847,7 @@
 1 72 0 -4 0 1 0 0 0 1 0 0 0 1 85861.dat
 
 
+0 STEP
 0 FILE 77904 - step87-121.ldr
 0 Complex structural subassembly with side-stud bricks, brackets, hinges, chamfered tiles, grilles, and offset-stud plates forming an articulated body section.
 0 Name: 77904 - step87-121.ldr
@@ -1010,6 +1033,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 77904 - step104.ldr
 0 Right wing or fin section with a 2x4 right wing, door-rail plates, toothed plates, curved slope with cutout, and a roller-skate detail piece.
 0 Name: 77904 - step104.ldr
@@ -1039,6 +1063,7 @@
 1 72 -10 -40 0 0 0 -1 0 1 0 1 0 0 98138.dat
 
 
+0 STEP
 0 FILE 77904 - step105.ldr
 0 An angled assembly with a left wing, curved slope, roller skate element, toothed plates, and a round grooved tile forming a detailed mechanical detail.
 0 Name: 77904 - step105.ldr
@@ -1068,6 +1093,7 @@
 1 72 10 -40 0 0 0 1 0 1 0 -1 0 0 98138.dat
 
 
+0 STEP
 0 FILE 77904 - step106.ldr
 0 A small mounting subassembly consisting of a black dual-stud side plate with an attached dark tan plate.
 0 Name: 77904 - step106.ldr
@@ -1081,6 +1107,7 @@
 1 28 0 0 20 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 77904 - step108.ldr
 0 A plate structure with a long dark bluish grey plate supporting grooved center-stud plates and round open-stud plates.
 0 Name: 77904 - step108.ldr
@@ -1100,6 +1127,7 @@
 1 72 50 -8 0 1 0 0 0 1 0 0 0 1 85861.dat
 
 
+0 STEP
 0 FILE 77904 - step112.ldr
 0 A long bracket-like assembly featuring multiple 45-degree cutout slope bricks mounted between light and dark bluish grey plates.
 0 Name: 77904 - step112.ldr
@@ -1127,6 +1155,7 @@
 1 71 50 -16 0 1 0 0 0 1 0 0 0 1 28192.dat
 
 
+0 STEP
 0 FILE 77904 - step116.ldr
 0 A cross-shaped mounting hub built on a 3x3 cross plate with dark tan plates and a round bar plate detail.
 0 Name: 77904 - step116.ldr
@@ -1154,6 +1183,7 @@
 1 28 10 -16 0 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 77904 - step116-2.ldr
 0 A small pivoting connector using a round-ended plate with two pin-and-hole round tiles.
 0 Name: 77904 - step116-2.ldr
@@ -1169,6 +1199,7 @@
 1 71 10 -8 0 1 0 0 0 1 0 0 0 1 20482.dat
 
 
+0 STEP
 0 FILE 77904 - step117.ldr
 0 A small spherical sensor or lens detail made from a truncated cone, a pin-hole round tile, and a transparent light blue round plate.
 0 Name: 77904 - step117.ldr
@@ -1185,6 +1216,7 @@
 1 43 0 -20 0 1 0 0 0 -1 0 0 0 -1 6141.dat
 
 
+0 STEP
 0 FILE 77904 - step118.ldr
 0 A right-side hinged panel subassembly combining plates, an offset plate, a right wing, and a hinge top.
 0 Name: 77904 - step118.ldr
@@ -1207,6 +1239,7 @@
 1 0 0 -10 0 -1 0 0 0 1 0 0 0 -1 6134.dat
 
 
+0 STEP
 0 FILE 77904 - step119.ldr
 0 A left-side hinged panel subassembly mirroring the right version, combining plates, an offset plate, a left wing, and a hinge top.
 0 Name: 77904 - step119.ldr
@@ -1229,6 +1262,7 @@
 1 0 0 -10 0 1 0 0 0 1 0 0 0 1 6134.dat
 
 
+0 STEP
 0 FILE 77904 - step120.ldr
 0 A small detail element featuring a grille slope, a binocular plate, and a domed cylinder with bar, suggesting an exhaust or sensor.
 0 Name: 77904 - step120.ldr
@@ -1248,6 +1282,7 @@
 1 71 20 -11 0 0 0 -1 0 1 0 1 0 0 58176.dat
 
 
+0 STEP
 0 FILE 77904 - step125-142.ldr
 0 A large black structural subassembly of long bricks, inverted arches, corner bricks, hinges, and curved slopes forming a framed, paneled housing or gondola section.
 0 Name: 77904 - step125-142.ldr
@@ -1334,6 +1369,7 @@
 1 0 115.019 -134.588 0 0 0.5 0.866 0 0.866 -0.5 -1 0 0 6179.dat
 
 
+0 STEP
 0 FILE 77904 - step139.ldr
 0 A black structural connector built from an up bracket, two corner plates, and a 1x4 plate.
 0 Name: 77904 - step139.ldr
@@ -1353,6 +1389,7 @@
 1 0 0 -22 -30 -1 0 0 0 0 1 0 1 0 3710.dat
 
 
+0 STEP
 0 FILE 77904 - step143.ldr
 0 A round dish detail with transparent light blue plates and bar plates forming a sensor or reactor cap.
 0 Name: 77904 - step143.ldr
@@ -1376,6 +1413,7 @@
 1 71 0 -16 0 1 0 0 0 1 0 0 0 1 18674.dat
 
 
+0 STEP
 0 FILE 77904 - step144.ldr
 0 A thin antenna or mast assembly formed by binoculars and two bars of different lengths.
 0 Name: 77904 - step144.ldr
@@ -1392,6 +1430,7 @@
 1 71 -6 0 -12 1 0 0 0 0 1 0 -1 0 30374.dat
 
 
+0 STEP
 0 FILE 77904 - step145.ldr
 0 A small mast or lance detail using binoculars fitted with two ski poles.
 0 Name: 77904 - step145.ldr
@@ -1408,6 +1447,7 @@
 1 72 6 0 -12 1 0 0 0 0 1 0 -1 0 90540.dat
 
 
+0 STEP
 0 FILE 77904 - step146.ldr
 0 A right-side angular armor panel built from a rectangular shield, large and small wings, and chamfered tiles.
 0 Name: 77904 - step146.ldr
@@ -1430,6 +1470,7 @@
 1 71 0 -20 -34 1 0 0 0 0 -1 0 1 0 96910.dat
 
 
+0 STEP
 0 FILE 77904 - step147.ldr
 0 A left-side angular armor panel mirroring the right version, built from a rectangular shield, large and small wings, and chamfered tiles.
 0 Name: 77904 - step147.ldr
@@ -1452,6 +1493,7 @@
 1 71 0 20 -34 -1 0 0 0 0 1 0 1 0 96910.dat
 
 
+0 STEP
 0 FILE 77904 - step148.ldr
 0 A left-side wing extension with a truncated-tip wing, inverted curved slope, and a clip plate.
 0 Name: 77904 - step148.ldr
@@ -1468,6 +1510,7 @@
 1 71 10 -10 -50 1 0 0 0 1 0 0 0 1 65429.dat
 
 
+0 STEP
 0 FILE 77904 - step149.ldr
 0 A right-side wing extension mirroring the left version, with a truncated-tip wing, inverted curved slope, and a clip plate.
 0 Name: 77904 - step149.ldr
@@ -1484,6 +1527,7 @@
 1 71 10 -10 50 -1 0 0 0 1 0 0 0 -1 65426.dat
 
 
+0 STEP
 0 FILE 77904 - step152.ldr
 0 A greebled detail assembly using a side-stud brick, rounded-end tiles, a round-ended plate, a ski pole, and a bar.
 0 Name: 77904 - step152.ldr
@@ -1512,6 +1556,7 @@
 1 71 10 -4 0 -1 0 0 0 -1 0 0 0 1 87994.dat
 
 
+0 STEP
 0 FILE 77904 - 44861.dat
 0 A primitive mesh model composed of boxes, rectangles, and a clip defining a complex molded part shape.
 0 Name: 77904 - 44861.dat
@@ -1557,6 +1602,7 @@
 5 24 14.5 0 4 14.5 0 -4 16.326 -1.804 -4 14.5 1 -4
 5 24 5.5 0 4 5.5 0 -4 3.674 -1.804 -4 5.5 1 -4
 
+0 STEP
 0 FILE 77904 - 44301b.dat
 0 A primitive single-surface mesh defining a partial box geometry for a part.
 0 Name: 77904 - 44301b.dat
@@ -1576,6 +1622,7 @@
 4 16 -20 8 10 -16 8 6 -16 8 -6 -20 8 -10
 4 16 -20 8 -10 -16 8 -6 16 8 -6 20 8 -10
 
+0 STEP
 0 FILE 77904 - 30166.dat
 0 A primitive single front surface mesh used as a part face.
 0 Name: 77904 - 30166.dat
@@ -1596,6 +1643,7 @@
 3 16 14.136 0 -18 0 30 -18 14.136 30 -18
 3 16 0 30 -18 -14.136 0 -18 -14.136 30 -18
 
+0 STEP
 0 FILE s\77904 - 44301s01.dat
 0 A subpart mesh combining box surfaces, a rectangle, and a click-lock hinge finger for plate ends.
 0 Name: s\77904 - 44301s01.dat
@@ -1629,6 +1677,7 @@
 0 // Click Lock Hinge Single Finger for Plate Ends (main_colour)
 1 16 20 2 0 0 0 -1 0 1 0 1 0 0 clh6.dat
 
+0 STEP
 0 FILE s\77904 - 30166s01.dat
 0 A subpart mesh defining a handle with open and closed cylinders plus rings, forming a grip or barrel element.
 0 Name: s\77904 - 30166s01.dat
@@ -1661,6 +1710,7 @@
 0 // Ring  2 x 0.75 (main_colour)
 1 16 -14 0 0 0 -1 0 1.414214 0 1.414214 -1.414214 0 1.414214 3-4ring2.dat
 
+0 STEP
 0 FILE s\77904 - 30166s02.dat
 0 A rounded mechanical part built from cylinders, discs, chords, and a handle, forming a hub or knob-like element with a stud extension.
 0 Name: s\77904 - 30166s02.dat

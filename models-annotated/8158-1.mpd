@@ -19,6 +19,7 @@
 
 0
 
+0 STEP
 0 FILE 8158 - 8158-1.ldr
 0 A white and red vehicle chassis built from plates, brackets, a steering stand with wheel, minifig seats, and an inverted wedge, forming a small car body.
 0 Name: 8158 - 8158-1.ldr
@@ -283,6 +284,7 @@
 
 
 
+0 STEP
 0 FILE 8158 - 8158-2.ldr
 0 A black and orange vehicle chassis with plates, brackets, technic bricks, slope elements, minifig seats, and a steering stand, forming a compact car body.
 0 Name: 8158 - 8158-2.ldr
@@ -556,6 +558,7 @@
 
 
 
+0 STEP
 0 FILE 8158 - 62359.dat
 0 A wheel rim assembly constructed from a hub, spokes, rings, cylinders, and axle hole elements forming a spoked wheel.
 0 Name: 8158 - 62359.dat
@@ -629,6 +632,7 @@
 5 24 0 -8.749 -13.75 0 -8.749 -17.188 1.201 -8.667 -13.75 -1.201 -8.667 -13.75
 
 
+0 STEP
 0 FILE s\8158 - 62359s01.dat
 0 The 7-spoke wheel cover subpart for the 14 x 18 wheel, consisting of geometry line and conditional line definitions.
 0 Name: s\8158 - 62359s01.dat

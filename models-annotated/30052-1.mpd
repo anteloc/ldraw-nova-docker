@@ -13,6 +13,7 @@
 
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 30052 - Tank.ldr
 
+0 STEP
 0 FILE 30052 - Tank.ldr
 0 A broad, low-slung tan and dark tan tank hull base built from plates, round dishes, curved slopes, and binoculars.
 0 Name: 30052 - Tank.ldr
@@ -79,6 +80,7 @@
 0 // Minifig Binoculars with Round Eyepiece (dark_bluish_grey)
 1 72 -50 -48 30 0 1 0 -1 0 0 0 0 1 30162.dat
 
+0 STEP
 0 FILE 30052 - Back-Bottom.ldr
 0 A small structural base of dark tan and tan plates forming the rear underside of the vehicle.
 0 Name: 30052 - Back-Bottom.ldr
@@ -97,6 +99,7 @@
 0 // Plate  2 x  2 (tan)
 1 19 0 -16 -10 1 0 0 0 1 0 0 0 1 3022.dat
 
+0 STEP
 0 FILE 30052 - Back.ldr
 0 A rear section featuring an inverted slope, clip plates, and a 2x2 turntable base for mounting the turret.
 0 Name: 30052 - Back.ldr
@@ -132,6 +135,7 @@
 0 STEP
 1 71 0 -24 30 1 0 0 0 1 0 0 0 1 30052 - Turret.ldr
 
+0 STEP
 0 FILE 30052 - Turret.ldr
 0 A simple rotating turret assembly combining a 2x2 turntable top with a round plate.
 0 Name: 30052 - Turret.ldr
@@ -149,6 +153,7 @@
 1 19 0 -8 0 1 0 0 0 1 0 0 0 1 4032b.dat
 1 19 0 -16 10 1 0 0 0 1 0 0 0 1 30052 - Gun.ldr
 
+0 STEP
 0 FILE 30052 - Gun.ldr
 0 A tank cannon built from a long bar, cone muzzle, slopes, and a side-stud brick.
 0 Name: 30052 - Gun.ldr

@@ -20,6 +20,7 @@
 1 10 -130 1 20 1 0 0 0 1 0 0 0 1 6065.dat
 
 
+0 STEP
 0 FILE 6706 - Cavalry Colonel.ldr
 0 A blue-uniformed US Cavalry colonel minifigure with cowboy hat, cutlass sword, and revolver.
 0 Name: 6706 - Cavalry Colonel.ldr
@@ -56,6 +57,7 @@
 0 // ~Minifig Leg Left (Obsolete) (black)
 1 0 0 44 0 1 0 0 0 1 0 0 0 1 3817.dat
 
+0 STEP
 0 FILE 6706 - Cavalry Lieutenant with Bandana.ldr
 0 A blue-uniformed US Cavalry lieutenant minifigure wearing a cowboy hat and white bandana, armed with a bugle and rifle.
 0 Name: 6706 - Cavalry Lieutenant with Bandana.ldr
@@ -95,6 +97,7 @@
 1 1 0 44 0 1 0 0 0 0.642788 -0.766044 0 0.766044 0.642788 3817.dat
 
 
+0 STEP
 0 FILE 6706 - Cavalry Soldier with Bandana.ldr
 0 A blue-uniformed US Cavalry soldier minifigure with kepi hat and white bandana, carrying a dynamite tile and rifle.
 0 Name: 6706 - Cavalry Soldier with Bandana.ldr
@@ -134,6 +137,7 @@
 1 1 0 44 0 1 0 0 0 0.62932 -0.777146 0 0.777146 0.62932 3817.dat
 
 
+0 STEP
 0 FILE 6706 - Horse.ldr
 0 A black horse with brown saddle, cavalry flag, mounted rifle, and a lance.
 0 Name: 6706 - Horse.ldr
@@ -157,6 +161,7 @@
 0 // Flag  2 x  2 with Cavalry Logo Pattern (white)
 1 15 -30 -88 18 -1 0 0 0 -1 0 0 0 1 2335pw1.dat
 
+0 STEP
 0 FILE 6706 - 3626bp45.dat
 0 A decorated minifig head featuring a curly moustache, spiky beard, and facial features pattern.
 0 Name: 6706 - 3626bp45.dat

@@ -15,6 +15,7 @@
 1 6 320 -176 510 0 0 1 0 1 0 -1 0 0 6062 - MiniFig3.ldr
 
 
+0 STEP
 0 FILE 6062 - Building.ldr
 0 A green-based grey stone castle building with hinged shutters, corner bricks, and a 45-degree sloped roof section.
 0 Name: 6062 - Building.ldr
@@ -273,6 +274,7 @@
 1 1 20 -432 70 0.5 0 -0.866 0 1 0 0.866 0 0.5 4495a.dat
 
 
+0 STEP
 0 FILE 6062 - MiniFig2.ldr
 0 A blue-legged red-torso knight with a neck-protector helmet, armed with a spear and a triangular blue lion shield.
 0 Name: 6062 - MiniFig2.ldr
@@ -306,6 +308,7 @@
 1 7 33.765 -30.288 -18.743 0.988 -0.01 0.153 -0.035 0.957 0.287 -0.149 -0.289 0.945 3846p4g.dat
 
 
+0 STEP
 0 FILE 6062 - MiniFig3.ldr
 0 A red-legged knight wearing a blue lion shield torso, chin-guard helmet, and carrying a bow with arrow quiver.
 0 Name: 6062 - MiniFig3.ldr
@@ -339,6 +342,7 @@
 1 6 32.202 -47.175 -28.374 0.082 0.265 -0.961 -0.248 0.939 0.238 0.966 0.219 0.142 4499.dat
 
 
+0 STEP
 0 FILE 6062 - MiniFig1.ldr
 0 A red-legged knight with crossed-pikes torso, neck-protector helmet, wielding a battleaxe and a yellow lion shield.
 0 Name: 6062 - MiniFig1.ldr
@@ -372,6 +376,7 @@
 1 7 33.765 -30.288 -18.743 0.988 -0.01 0.153 -0.035 0.957 0.287 -0.149 -0.289 0.945 3846p4h.dat
 
 
+0 STEP
 0 FILE 6062 - MiniFig5.ldr
 0 A Black Falcon knight in blue and black armor with a neck-protector helmet, armed with a spear and a blue-bordered falcon shield.
 0 Name: 6062 - MiniFig5.ldr
@@ -405,6 +410,7 @@
 1 7 35.295 -27.422 -9.285 0.988 -0.01 0.153 -0.035 0.957 0.287 -0.149 -0.289 0.945 3846p45.dat
 
 
+0 STEP
 0 FILE 6062 - MiniFig4.ldr
 0 A Black Falcon knight in blue and black armor with a chin-guard helmet, wielding a battleaxe and a yellow-bordered falcon shield.
 0 Name: 6062 - MiniFig4.ldr
@@ -438,6 +444,7 @@
 1 7 35.292 -27.418 -9.289 0.988 -0.01 0.153 -0.035 0.957 0.287 -0.149 -0.289 0.945 3846p46.dat
 
 
+0 STEP
 0 FILE 6062 - MiniFig6.ldr
 0 A Black Falcon archer knight in blue and black armor with a chin-guard helmet, carrying a bow with arrow quiver.
 0 Name: 6062 - MiniFig6.ldr
@@ -471,6 +478,7 @@
 1 6 32.202 -47.175 -28.374 0.082 0.265 -0.961 -0.248 0.939 0.238 0.966 0.219 0.142 4499.dat
 
 
+0 STEP
 0 FILE 6062 - Ram.ldr
 0 A black wheeled battering ram built from plates and arches with grey and black structural elements.
 0 Name: 6062 - Ram.ldr
@@ -651,6 +659,7 @@
 1 6 -50 -3 160 0 0 1 0 1 0 -1 0 0 4489a.dat
 
 
+0 STEP
 0 FILE 6062 - Slider Bottom.ldr
 0 A flat black plate-based sliding base with grooved tiles and center-stud plates.
 0 Name: 6062 - Slider Bottom.ldr

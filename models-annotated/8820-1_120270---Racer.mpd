@@ -6,6 +6,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 120270 - Racer.ldr
 
 
+0 STEP
 0 FILE 120270 - Racer.ldr
 0 Primary chassis built from Technic plates and bricks with holes, pins, bushes, an engine piston, and red structural plating.
 0 Name: 120270 - Racer.ldr
@@ -413,6 +414,7 @@
 1 15 -100 -63.159 -242.282 0 0 1 0.682 0.731 0 -0.731 0.682 0 4150p01.dat
 
 
+0 STEP
 0 FILE 120270 - Substep_Step-2.ldr
 0 Engine crankshaft subassembly with an axle, connecting rod, and half bush.
 0 Name: 120270 - Substep_Step-2.ldr
@@ -428,6 +430,7 @@
 1 7 -79 0 -10 0 0 1 -1 0 0 0 -1 0 4265a.dat
 
 
+0 STEP
 0 FILE 120270 - Substep_Step-5.ldr
 0 Front steering linkage assembly using a steering arm, axle pin, axle 4, and bushes.
 0 Name: 120270 - Substep_Step-5.ldr
@@ -446,6 +449,7 @@
 1 7 -20 10 0 0 0 -1 0 1 0 1 0 0 3713.dat
 
 
+0 STEP
 0 FILE 120270 - Substep_Step-6_1.ldr
 0 Short axle 3 with a flanged bush for a wheel or gear mounting point.
 0 Name: 120270 - Substep_Step-6_1.ldr
@@ -457,6 +461,7 @@
 1 7 0 0 0 0 0 -1 0 1 0 1 0 0 3713.dat
 
 
+0 STEP
 0 FILE 120270 - Substep_Step-6_2.ldr
 0 Short axle 3 with a flanged bush for a wheel or gear mounting point.
 0 Name: 120270 - Substep_Step-6_2.ldr
@@ -468,6 +473,7 @@
 1 7 0 0 0 0 0 1 0 1 0 -1 0 0 3713.dat
 
 
+0 STEP
 0 FILE 120270 - Substep_Step-6_3.ldr
 0 Front steering linkage assembly using a steering arm, axle pin, axle 4, and bushes.
 0 Name: 120270 - Substep_Step-6_3.ldr
@@ -486,6 +492,7 @@
 1 7 20 10 0 0 0 1 0 1 0 -1 0 0 3713.dat
 
 
+0 STEP
 0 FILE 120270 - Substep_Step-10_1.ldr
 0 Engine cylinder head mounted between two red Technic 1x8 bricks and secured with pins.
 0 Name: 120270 - Substep_Step-10_1.ldr
@@ -508,6 +515,7 @@
 1 4 0 16 30 -1 0 0 0 1 0 0 0 -1 3702.dat
 
 
+0 STEP
 0 FILE 120270 - Substep_Step-10_2.ldr
 0 Single 8-tooth Technic gear for drivetrain or steering reduction.
 0 Name: 120270 - Substep_Step-10_2.ldr
@@ -517,6 +525,7 @@
 1 7 0 0 0 1 0 0 0 0 -1 0 1 0 3647.dat
 
 
+0 STEP
 0 FILE 120270 - Substep_Step-13_1.ldr
 0 Axle 8 supported by half bushes and two red Technic 1x4 bricks for a drivetrain shaft.
 0 Name: 120270 - Substep_Step-13_1.ldr
@@ -534,6 +543,7 @@
 1 4 -70 -10 20 0 0 -1 0 1 0 1 0 0 3701.dat
 
 
+0 STEP
 0 FILE 120270 - Substep_Step-13_2.ldr
 0 Axle 8 shaft secured with two half bushes.
 0 Name: 120270 - Substep_Step-13_2.ldr
@@ -547,6 +557,7 @@
 1 7 0 71 0 0 1 0 0 0 1 1 0 0 4265a.dat
 
 
+0 STEP
 0 FILE 120270 - Substep_Step-13_3.ldr
 0 Red Technic 1x8 brick with friction pins and blue plates for a mounting or attachment bracket.
 0 Name: 120270 - Substep_Step-13_3.ldr
@@ -564,6 +575,7 @@
 1 1 -70 16 0 -1 0 0 0 1 0 0 0 -1 3623.dat
 
 
+0 STEP
 0 FILE 120270 - Substep_Step-14_1.ldr
 0 Red hinge base and top forming an articulating joint for bodywork or a movable part.
 0 Name: 120270 - Substep_Step-14_1.ldr
@@ -575,6 +587,7 @@
 1 4 0 2.557 -6.679 1 0 0 0 0.744 -0.668 0 0.668 0.744 3938.dat
 
 
+0 STEP
 0 FILE 120270 - Substep_Step-14_2.ldr
 0 Axle 4 joined with a toothed toggle joint connector for an angled linkage.
 0 Name: 120270 - Substep_Step-14_2.ldr
@@ -586,6 +599,7 @@
 1 7 0 30 0 0 1 0 0 0 -1 -1 0 0 4273a.dat
 
 
+0 STEP
 0 FILE 120270 - Substep_Step-14_3.ldr
 0 Light-grey headlight brick topped with a cone forming an exhaust or light fixture.
 0 Name: 120270 - Substep_Step-14_3.ldr
@@ -597,6 +611,7 @@
 1 7 0 10 30 -1 0 0 0 0 -1 0 -1 0 4589.dat
 
 
+0 STEP
 0 FILE 120270 - Substep_Step-15.ldr
 0 Axle 3 with a pin/bush connector with studs and a flanged bush for a pivot mount.
 0 Name: 120270 - Substep_Step-15.ldr
@@ -610,6 +625,7 @@
 1 7 0 0 0 0 -1 0 0 0 1 -1 0 0 3713.dat
 
 
+0 STEP
 0 FILE 120270 - Substep_Step-17.ldr
 0 Two red Technic 2x8 plates and two red 2x4 plates forming a reinforced chassis base.
 0 Name: 120270 - Substep_Step-17.ldr
@@ -626,6 +642,7 @@
 1 4 -80 -8 0 0 0 -1 0 1 0 1 0 0 3709b.dat
 
 
+0 STEP
 0 FILE 120270 - Substep_Step-18.ldr
 0 Red Technic bricks and a plate joined with pins to form a structural sub-frame mounting.
 0 Name: 120270 - Substep_Step-18.ldr
@@ -652,6 +669,7 @@
 1 7 -60 2 -20 -1 0 0 0 1 0.029 0 0.029 -1 3749.dat
 
 
+0 STEP
 0 FILE 120270 - Substep_Step-19_1.ldr
 0 Axle 6 with a pin/bush connector and a toothed toggle joint for a steering linkage pivot.
 0 Name: 120270 - Substep_Step-19_1.ldr
@@ -665,6 +683,7 @@
 1 7 0 -50 0 1 0 0 0 0 1 0 -1 0 4273a.dat
 
 
+0 STEP
 0 FILE 120270 - Substep_Step-19_2.ldr
 0 Bodywork paneling assembly of red and blue plates with red Technic 2x8 plates for the racer shell.
 0 Name: 120270 - Substep_Step-19_2.ldr
@@ -691,6 +710,7 @@
 1 0 0 6 120 1 0 0 0 0 1 0 -1 0 120270 - Substep_Step-19_2_Substep_Step-3.ldr
 
 
+0 STEP
 0 FILE 120270 - Substep_Step-19_2_Substep_Step-3.ldr
 0 Black 1x2 to 1x4 bracket used as a mounting bracket within the bodywork.
 0 Name: 120270 - Substep_Step-19_2_Substep_Step-3.ldr
@@ -700,6 +720,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 2436a.dat
 
 
+0 STEP
 0 FILE 120270 - 4185a.dat
 0 Pulley wheel assembly formed from cylinders, rectangles and an open axle-hole center.
 0 Name: 120270 - 4185a.dat
@@ -779,6 +800,7 @@
 
 
 
+0 STEP
 0 FILE s\120270 - 4185as01.dat
 0 Primitive geometry for a Technic wedge belt wheel with concentric rings and discs.
 0 Name: s\120270 - 4185as01.dat

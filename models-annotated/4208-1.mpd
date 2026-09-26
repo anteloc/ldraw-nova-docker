@@ -17,6 +17,7 @@
 
 
 
+0 STEP
 0 FILE 4208 - car.ldr
 0 Fire engine truck body built with dark bluish grey and blue plates, featuring grilles, inverted slopes, and round trans-dark-blue lights.
 0 Name: 4208 - car.ldr
@@ -430,6 +431,7 @@
 
 
 
+0 STEP
 0 FILE 4208 - car - door.ldr
 0 Vehicle door panel with handle plates, a reinforced side panel, and a grooved tile trim.
 0 Name: 4208 - car - door.ldr
@@ -466,6 +468,7 @@
 
 
 
+0 STEP
 0 FILE 4208 - car - water cannon.ldr
 0 Roof-mounted water cannon nozzle assembly with a yellow round base, grille slopes, and a mechanical arm mount.
 0 Name: 4208 - car - water cannon.ldr
@@ -499,6 +502,7 @@
 
 
 
+0 STEP
 0 FILE 4208 - car - water cannon - subpart.ldr
 0 Water cannon barrel with a yellow cylinder handle, cone tip, and a translucent light-blue water flame.
 0 Name: 4208 - car - water cannon - subpart.ldr
@@ -521,6 +525,7 @@
 
 
 
+0 STEP
 0 FILE 4208 - car - rack.ldr
 0 Equipment rack holding a handaxe, yellow airtanks, and a firefighter breathing hose with visor.
 0 Name: 4208 - car - rack.ldr
@@ -546,6 +551,7 @@
 
 
 
+0 STEP
 0 FILE 4208 - car - rack - empty.ldr
 0 Storage rack frame with door rails, clips, and a cone fitting, ready to hold firefighter gear.
 0 Name: 4208 - car - rack - empty.ldr
@@ -583,6 +589,7 @@
 
 
 
+0 STEP
 0 FILE 4208 - 92402.dat
 0 Wheel assembly consisting of a hub and rim with circular, cylindrical, and conical tire components.
 0 Tyre 14/ 50 x 17 with Centre Band
@@ -637,6 +644,7 @@
 1 16 0 0 0 -1 0 0 0 -1 0 0 0 1 4208 - 92402S02.DAT
 
 
+0 STEP
 0 FILE 4208 - 4-4edge.dat
 0 Empty geometric edge definition subpart containing no direct pieces.
 0 Circle 1.0
@@ -668,6 +676,7 @@
 2 24 0.9239 0 -0.3827 1 0 0
 
 
+0 STEP
 0 FILE 4208 - 92402s02.dat
 0 Empty wheel subpart containing no direct pieces.
 0 ~Tyre 14/ 50 x 17 -  1/4 with Centre Band - Quarter Profile
@@ -703,6 +712,7 @@
 4 16 5.16233 -32.59374 17 8.04 -19.4 17 0 -21 17 0 -33 17
 
 
+0 STEP
 0 FILE 4208 - 92402s01.dat
 0 Empty wheel subpart containing no direct pieces.
 0 ~Tyre 14/ 50 x 17 Pattern with Centre Band - Profile
@@ -740,6 +750,7 @@
 5 24 38 0 -1.0667 38 0 1.0667 37.53216 -5.94451 -1.0667 37.53216 5.94451 -1.0667
 
 
+0 STEP
 0 FILE 4208 - tree.ldr
 0 Tree model built from round brown trunk bricks topped with multiple layers of green leaf foliage on a green base plate.
 0 Name: 4208 - tree.ldr
@@ -803,6 +814,7 @@
 
 
 
+0 STEP
 0 FILE 4208 - tree - fire.ldr
 0 Burning fire effect made of five translucent orange flame elements.
 0 Name: 4208 - tree - fire.ldr
@@ -829,6 +841,7 @@
 
 
 
+0 STEP
 0 FILE 4208 - firemen.ldr
 0 Firefighter minifigure wearing a dark red fire helmet and bright light orange gear with a patterned head.
 0 Name: 4208 - firemen.ldr

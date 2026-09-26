@@ -33,6 +33,7 @@
 1 16 0 79 0.06 1 0 0 0 1 0 0 0 1 4547 - train car.ldr
 
 
+0 STEP
 0 FILE 4547 - train car.ldr
 0 A red and blue passenger train car body with seats, striped train doors, grille tiles, and hinged construction using grey structural bricks.
 0 Name: 4547 - train car.ldr
@@ -589,6 +590,7 @@
 1 0 -260 -64 0 -1 0 0 0 1 0 0 0 -1 4547 - train car - wheels.ldr
 
 
+0 STEP
 0 FILE 4547 - train car - wheels.ldr
 0 A train bogie undercarriage assembly with wheels, coupling, buffer beam, and magnet for connecting train cars.
 0 Name: 4547 - train car - wheels.ldr
@@ -615,6 +617,7 @@
 1 16 104.5 28.5 0.01 0 0 -1 0 1 0 1 0 0 73092.DAT
 
 
+0 STEP
 0 FILE 4547 - minifig 1.ldr
 0 A minifigure wearing black clothing with a red cap and sunglasses, depicting a train conductor or worker.
 0 Name: 4547 - minifig 1.ldr
@@ -645,6 +648,7 @@
 1 4 11.8508 -77.0002 0 0 0 1 0 1 0 -1 0 0 4485.DAT
 
 
+0 STEP
 0 FILE 4547 - minifig 2.ldr
 0 A minifigure wearing a white palm tree shirt, blue legs, and a blue cap, depicting a casual passenger.
 0 Name: 4547 - minifig 2.ldr
@@ -675,6 +679,7 @@
 1 1 11.8508 -77.0002 0 0 0 1 0 1 0 -1 0 0 4485.DAT
 
 
+0 STEP
 0 FILE 4547 - minifig 3.ldr
 0 A female minifigure with shoulder-length brown hair wearing a white shirt with red necklace and red legs.
 0 Name: 4547 - minifig 3.ldr
@@ -705,6 +710,7 @@
 1 6 -11.1608 -77.0002 -0.0622 0 0 -1 0 1 0 1 0 0 4530.DAT
 
 
+0 STEP
 0 FILE 4547 - minifig 4.ldr
 0 A female minifigure with shoulder-length black hair wearing a white and red striped shirt with white legs.
 0 Name: 4547 - minifig 4.ldr
@@ -735,6 +741,7 @@
 1 0 11.1558 -77.0002 0 0 0 1 0 1 0 -1 0 0 4530.DAT
 
 
+0 STEP
 0 FILE 4547 - minifig 5.ldr
 0 A male minifigure with black hair wearing a white shirt with red truck pattern and blue legs.
 0 Name: 4547 - minifig 5.ldr

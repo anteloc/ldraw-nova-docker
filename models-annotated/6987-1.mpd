@@ -14,6 +14,7 @@
 1 0 799.229 -77.5 259.862 0.996195 0 0.087156 0 1 0 -0.087156 0 0.996195 6987 - Minifig 4.ldr
 1 0 10 -26 -560 -0.5 0 -0.866025 0 1 0 0.866025 0 -0.5 6987 - Vehicle + Minifig.ldr
 
+0 STEP
 0 FILE 6987 - Spaceship.ldr
 0 A compact black and yellow spacecraft fuselage with sloped panels, computer tiles, antennas, and grille detailing.
 0 Name: 6987 - Spaceship.ldr
@@ -111,6 +112,7 @@
 1 0 0 -160 80 -1 0 0 0 1 0 0 0 -1 3068bp08.dat
 1 0 0 -60.184 -122.143 1 0 0 0 0.618408 0.785857 0 -0.785857 0.618408 6987 - Spaceship - Cockpit.ldr
 
+0 STEP
 0 FILE 6987 - Spaceship - Wing 1.ldr
 0 A left-side hinged wing panel with a large wing element, extension plates, and a trans-red light.
 0 Name: 6987 - Spaceship - Wing 1.ldr
@@ -136,6 +138,7 @@
 1 36 0 2 -90 0 0 1 -1 0 0 0 -1 0 6141.dat
 
 
+0 STEP
 0 FILE 6987 - Spaceship - Wing 2.ldr
 0 A right-side hinged wing panel mirroring the left wing with extension plates and a trans-red light.
 0 Name: 6987 - Spaceship - Wing 2.ldr
@@ -161,6 +164,7 @@
 1 36 120 2 -90 0 0 1 -1 0 0 0 -1 0 6141.dat
 
 
+0 STEP
 0 FILE 6987 - Spaceship - Cockpit.ldr
 0 A hinged trans-yellow canopy cockpit section mounted on an offset plate.
 0 Name: 6987 - Spaceship - Cockpit.ldr
@@ -178,6 +182,7 @@
 1 0 0 -144 40 -1 0 0 0 1 0 0 0 -1 4590.dat
 
 
+0 STEP
 0 FILE 6987 - Vehicle.ldr
 0 A small yellow and black wheeled rover with rubber tires, a console tile, and a trans-red signal light.
 0 Name: 6987 - Vehicle.ldr
@@ -233,6 +238,7 @@
 1 14 0 -56.3 16.9 -1 0 0 0 0.930418 -0.366501 0 -0.366501 -0.930418 3070bp06.dat
 
 
+0 STEP
 0 FILE 6987 - Base.ldr
 0 The main ground-level structure built on cratered and flat baseplates, featuring support stanchions, sloped armor, dishes, and structural brickwork.
 0 Name: 6987 - Base.ldr
@@ -1358,6 +1364,7 @@
 1 65 240 -374.73 99.994 0 0 1 0.0223 0.9998 0 0.9998 -0.0223 0 756.dat
 0 GROUP 50 Hose 3
 
+0 STEP
 0 FILE 6987 - Base - Axle 1.ldr
 0 A Technic axle assembly with a universal joint and a yellow toothed cone fitting.
 0 Name: 6987 - Base - Axle 1.ldr
@@ -1376,6 +1383,7 @@
 1 14 -352 18 0 0 1 0 0 0 1 1 0 0 3942b.dat
 
 
+0 STEP
 0 FILE 6987 - Base - Bar.ldr
 0 A flat plate platform with a yellow rack gear and turntable plates, forming a sliding or rotating mechanism.
 0 Name: 6987 - Base - Bar.ldr
@@ -1419,6 +1427,7 @@
 1 7 -60 14 260 0 0 -1 0 1 0 1 0 0 3679.dat
 
 
+0 STEP
 0 FILE 6987 - Base - Door 1.ldr
 0 A hinged door panel with trans-yellow and black wall panels and a roof hinge element.
 0 Name: 6987 - Base - Door 1.ldr
@@ -1446,6 +1455,7 @@
 1 0 -30 -152 -30 0 0 1 0 1 0 -1 0 0 4213.dat
 
 
+0 STEP
 0 FILE 6987 - Base - Arm 1.ldr
 0 A turntable-mounted sensor arm with a long plate boom, dishes, and a trans-red antenna.
 0 Name: 6987 - Base - Arm 1.ldr
@@ -1481,6 +1491,7 @@
 1 36 -140 24 0 -1 0 0 0 1 0 0 0 -1 4740.dat
 
 
+0 STEP
 0 FILE 6987 - Base - Arm 2.ldr
 0 A turntable-mounted sensor arm mirroring Arm 1 with dishes and a trans-red antenna.
 0 Name: 6987 - Base - Arm 2.ldr
@@ -1516,6 +1527,7 @@
 1 36 420 24 0 1 0 0 0 1 0 0 0 1 4740.dat
 
 
+0 STEP
 0 FILE 6987 - Base - Door 2.ldr
 0 A large hinged door module bearing the Blacktron I logo, with a jet engine plate, bracket, and antenna.
 0 Name: 6987 - Base - Door 2.ldr
@@ -1551,6 +1563,7 @@
 1 36 -168 -292 -80 0 0 1 -1 0 0 0 -1 0 4740.dat
 
 
+0 STEP
 0 FILE 6987 - Base - Door 3.ldr
 0 A large hinged door module mirroring Door 2 with the Blacktron I logo, jet engine plate, and antenna.
 0 Name: 6987 - Base - Door 3.ldr
@@ -1586,6 +1599,7 @@
 1 36 168 -292 -160 0 0 -1 1 0 0 0 -1 0 4740.dat
 
 
+0 STEP
 0 FILE 6987 - Base - Module.ldr
 0 A modular building section with long plates, stanchions, sloped bricks, and wall panels forming an enclosed compartment with a rack gear.
 0 Name: 6987 - Base - Module.ldr
@@ -1709,6 +1723,7 @@
 0 // Dish  2 x  2 Inverted (trans_red)
 1 36 100 -172 -116 1 0 0 0 0 1 0 -1 0 4740.dat
 
+0 STEP
 0 FILE 6987 - Base - Module - Seat + Minifig
 0 Base - Module - Seat + Minifig
 0 Name: 6987 - Base - Module - Seat + Minifig
@@ -1725,6 +1740,7 @@
 1 0 0 -61 8 1 0 0 0 1 0 0 0 1 6987 - Minifig 1.ldr
 
 
+0 STEP
 0 FILE 6987 - Base - Axle 2.ldr
 0 A Technic axle with a yellow toothed cone fitting.
 0 Name: 6987 - Base - Axle 2.ldr
@@ -1741,6 +1757,7 @@
 1 14 248 18 0 0 -1 0 1 0 0 0 0 1 3942b.dat
 
 
+0 STEP
 0 FILE 6987 - Vehicle + Minifig.ldr
 0 An assembly placing a minifigure with the wheeled rover vehicle.
 0 Name: 6987 - Vehicle + Minifig.ldr
@@ -1753,6 +1770,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 6987 - Vehicle.ldr
 1 0 0 -61 48 1 0 0 0 1 0 0 0 1 6987 - Minifig 2.ldr
 
+0 STEP
 0 FILE 6987 - Minifig 1.ldr
 0 A Blacktron minifigure with airtanks, standard grin head, and black torso with the Blacktron I pattern.
 0 Name: 6987 - Minifig 1.ldr
@@ -1784,6 +1802,7 @@
 0 // ~Minifig Leg Right (Obsolete) (black)
 1 0 0 44 0 1 0 0 0 0 1 0 -1 0 3816.dat
 
+0 STEP
 0 FILE 6987 - Minifig 2.ldr
 0 A Blacktron minifigure with airtanks, standard grin head, and black torso with the Blacktron I pattern.
 0 Name: 6987 - Minifig 2.ldr
@@ -1816,6 +1835,7 @@
 1 0 0 44 0 1 0 0 0 0 1 0 -1 0 3816.dat
 
 
+0 STEP
 0 FILE 6987 - Minifig 3.ldr
 0 A Blacktron minifigure with airtanks equipped with a camera and side sight accessory.
 0 Name: 6987 - Minifig 3.ldr
@@ -1850,6 +1870,7 @@
 1 0 0 44 0 1 0 0 0 0.981627 -0.190809 0 0.190809 0.981627 3816.dat
 
 
+0 STEP
 0 FILE 6987 - Minifig 4.ldr
 0 A Blacktron minifigure with airtanks equipped with a metal detector accessory.
 0 Name: 6987 - Minifig 4.ldr
@@ -1884,6 +1905,7 @@
 1 0 0 44 0 1 0 0 0 0.990268 -0.139173 0 0.139173 0.990268 3816.dat
 
 
+0 STEP
 0 FILE 6987 - Minifig 5.ldr
 0 A Blacktron minifigure with airtanks, standard grin head, and black torso with the Blacktron I pattern.
 0 Name: 6987 - Minifig 5.ldr
@@ -1916,6 +1938,7 @@
 1 0 0 44 0 1 0 0 0 1 0 0 0 1 3816.dat
 
 
+0 STEP
 0 FILE 6987 - Minifig - Helmet 1.ldr
 0 A standard black minifigure helmet with matching visor.
 0 Name: 6987 - Minifig - Helmet 1.ldr
@@ -1931,6 +1954,7 @@
 1 0 0 2.771 5.326 1 0 0 0 0.573576 0.819152 0 -0.819152 0.573576 2447.dat
 
 
+0 STEP
 0 FILE 6987 - Minifig - Helmet 2.ldr
 0 A standard black minifigure helmet with matching visor.
 0 Name: 6987 - Minifig - Helmet 2.ldr

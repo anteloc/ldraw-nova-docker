@@ -143,6 +143,7 @@
 1 15 40 -24 -250 0.6 0 -0.8 0 1 0 0.8 0 0.6 4873.dat
 1 14 49 -16 120 0 0 -1 0 1 0 1 0 0 4010 - cop1.ldr
 1 14 -40 -16 71 1 0 0 0 1 0 0 0 1 4010 - cop2.ldr
+0 STEP
 0 FILE 4010 - roof.ldr
 0 Removable white roof assembly featuring a hinged sunroof, windscreen panels, and mounting plates.
 0 Name: 4010 - roof.ldr
@@ -170,6 +171,7 @@
 0 // Plate  2 x  8 (white)
 1 15 0 -48 90 -1 0 0 0 1 0 0 0 -1 3034.dat
 
+0 STEP
 0 FILE 4010 - cop1.ldr
 0 Police officer minifigure with badge torso, radio, helmet, and standard grinning head.
 0 Name: 4010 - cop1.ldr
@@ -200,6 +202,7 @@
 0 // Minifig Radio with Short Handle (black)
 1 0 -20.5883 -24.1532 -30.7807 1 -0.0519 -0.1144 0 1 -0.0853 0.1183 0.0797 1 3962a.dat
 
+0 STEP
 0 FILE 4010 - cop2.ldr
 0 Police officer minifigure with zipper torso, police hat, and standard grinning head.
 0 Name: 4010 - cop2.ldr
@@ -228,6 +231,7 @@
 0 // Minifig Police Hat (white)
 1 15 0 -56 0 1 0 -0.1689 0 1 0 0.1689 0 1 3624.dat
 
+0 STEP
 0 FILE 4010 - 2372c01d01.dat
 0 Stickered floating boat hull with Police and 4010 decals applied.
 0 Name: 4010 - 2372c01d01.dat 
@@ -252,6 +256,7 @@
 
 
 
+0 STEP
 0 FILE 4010 - 2372c01.dat
 0 Floating boat hull assembly consisting of the bottom and white deck.
 0 Name: 4010 - 2372c01.dat 
@@ -264,6 +269,7 @@
 0 // ~Boat Hull Floating 25 x 10 Deck (white)
 1 15 0 0 0 1 0 0 0 1 0 0 0 1 4010 - 2373.dat
 
+0 STEP
 0 FILE 4010 - 197875a.dat
 0 White Police sticker surface built from a simple box face.
 0 Name: 4010 - 197875a.dat 
@@ -440,6 +446,7 @@
 
 
 
+0 STEP
 0 FILE 4010 - 197875bc02.dat
 0 Formed 4010 sticker part for the boat hull, containing no direct pieces.
 0 Name: 4010 - 197875bc02.dat 
@@ -700,6 +707,7 @@
 
 
 
+0 STEP
 0 FILE 4010 - 197875bc01.dat
 0 Formed 4010 sticker part for the boat hull, containing no direct pieces.
 0 Name: 4010 - 197875bc01.dat 
@@ -982,6 +990,7 @@
 
 
 
+0 STEP
 0 FILE 4010 - 2372.dat
 0 Boat hull bottom surface modeled from cylinders, circles, spheres, boxes, and rectangles.
 0 Name: 4010 - 2372.dat 
@@ -1069,6 +1078,7 @@
 
 
 
+0 STEP
 0 FILE 4010 - 2373.dat
 0 White boat hull deck surface constructed from boxes, discs, circles, and cylinders.
 0 Name: 4010 - 2373.dat 
@@ -1534,6 +1544,7 @@
 
 
 
+0 STEP
 0 FILE s\4010 - 2372s01.dat
 0 Boat hull bottom half subpart, containing no direct pieces.
 0 Name: s\4010 - 2372s01.dat

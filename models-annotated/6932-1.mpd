@@ -11,6 +11,7 @@
 1 0 230 9 -200 0.382684 0 -0.92388 0 1 0 0.92388 0 0.382684 6932 - Vehicle + Minifig.ldr
 
 
+0 STEP
 0 FILE 6932 - Spaceship.ldr
 0 Central fuselage of the starship built from black and white plates with a 6x6 cockpit, patterned control tiles, and positioning rocket bricks.
 0 Name: 6932 - Spaceship.ldr
@@ -523,6 +524,7 @@
 1 0 240 24 0 -1 0 0 0 1 0 0 0 -1 6932 - Spaceship - Container 2.ldr
 
 
+0 STEP
 0 FILE 6932 - Spaceship - Side 1.ldr
 0 Right-side hull panel made of white plates and 1x6 bricks secured with a pin brick.
 0 Name: 6932 - Spaceship - Side 1.ldr
@@ -548,6 +550,7 @@
 1 15 90 -32 0 0 0 -1 0 1 0 1 0 0 4477.dat
 
 
+0 STEP
 0 FILE 6932 - Spaceship - Side 2.ldr
 0 Left-side hull panel made of white plates and 1x6 bricks with a Technic hole brick for mounting.
 0 Name: 6932 - Spaceship - Side 2.ldr
@@ -575,6 +578,7 @@
 1 15 0 -32 0 0 0 -1 0 1 0 1 0 0 3034.dat
 
 
+0 STEP
 0 FILE 6932 - Spaceship - Canon.ldr
 0 Laser cannon turret featuring twin red dish elements, antennas, and headlight bricks.
 0 Name: 6932 - Spaceship - Canon.ldr
@@ -617,6 +621,7 @@
 1 36 -30 -4 -112 1 0 0 0 0 1 0 -1 0 4740.dat
 
 
+0 STEP
 0 FILE 6932 - Spaceship - Windscreen.ldr
 0 Tall trans-dark-blue windscreen panel printed with '200', mounted on round bricks and hinges.
 0 Name: 6932 - Spaceship - Windscreen.ldr
@@ -656,6 +661,7 @@
 1 0 10 -322 180 1 0 0 0 1 0 0 0 1 4589.dat
 
 
+0 STEP
 0 FILE 6932 - Spaceship - Container 1.ldr
 0 Cargo container with hinged octagonal canopy, grille-pattern brick, and angled slope armor plating.
 0 Name: 6932 - Spaceship - Container 1.ldr
@@ -729,6 +735,7 @@
 1 15 0 -136 -20 -1 0 0 0 1 0 0 0 -1 3068bp07.dat
 1 0 0 -124 -56 1 0 0 0 1 0 0 0 1 6932 - Spaceship - Container 1 - Door.ldr
 
+0 STEP
 0 FILE 6932 - Spaceship - Container 1 - Door.ldr
 0 Hinged cargo bay door assembly with inverted dish, finned red light, and sloped paneling.
 0 Name: 6932 - Spaceship - Container 1 - Door.ldr
@@ -767,6 +774,7 @@
 0 // Brick  1 x  1 Round with Fins (trans_red)
 1 36 0 64 -28 -1 0 0 0 0 -1 0 -1 0 4588.dat
 
+0 STEP
 0 FILE 6932 - Spaceship - Container 2.ldr
 0 Cargo container with hinged octagonal canopy, grille-pattern brick, pin mount, and angled slope armor plating.
 0 Name: 6932 - Spaceship - Container 2.ldr
@@ -840,6 +848,7 @@
 1 15 0 -136 -20 -1 0 0 0 1 0 0 0 -1 3068bp07.dat
 1 15 0 -124 -56 1 0 0 0 1 0 0 0 1 6932 - Spaceship - Container 2 - Door.ldr
 
+0 STEP
 0 FILE 6932 - Spaceship - Container 2 - Door.ldr
 0 Hinged cargo bay door assembly with inverted dish, finned red light, and sloped paneling.
 0 Name: 6932 - Spaceship - Container 2 - Door.ldr
@@ -881,6 +890,7 @@
 1 36 0 64 -28 -1 0 0 0 0 -1 0 -1 0 4588.dat
 
 
+0 STEP
 0 FILE 6932 - Spaceship + Minifig.ldr
 0 Assembled spaceship complete with an included space minifigure pilot.
 0 Name: 6932 - Spaceship + Minifig.ldr
@@ -894,6 +904,7 @@
 1 0 0 -61 -12 1 0 0 0 1 0 0 0 1 6932 - Minifig 2.ldr
 
 
+0 STEP
 0 FILE 6932 - Vehicle.ldr
 0 Wheeled rover built from a 2x4 plate, four rubber tyres, control sticks, and a console tile.
 0 Name: 6932 - Vehicle.ldr
@@ -939,6 +950,7 @@
 1 0 -18 -40 -10 0 0.382683 -0.92388 0.707107 -0.653281 -0.270598 -0.707107 -0.653281 -0.270598 4593.dat
 
 
+0 STEP
 0 FILE 6932 - Vehicle + Minifig.ldr
 0 Wheeled rover assembled with an included space minifigure driver.
 0 Name: 6932 - Vehicle + Minifig.ldr
@@ -952,6 +964,7 @@
 1 0 0 -61 48 1 0 0 0 1 0 0 0 1 6932 - Minifig 1.ldr
 
 
+0 STEP
 0 FILE 6932 - Minifig 1.ldr
 0 Futuron minifigure torso assembly with airtanks, arms, hands, and legs.
 0 Name: 6932 - Minifig 1.ldr
@@ -984,6 +997,7 @@
 1 14 0 44 0 1 0 0 0 0 1 0 -1 0 3817.dat
 
 
+0 STEP
 0 FILE 6932 - Minifig 1 - Helmet.ldr
 0 Standard yellow space helmet with a trans-dark-blue visor.
 0 Name: 6932 - Minifig 1 - Helmet.ldr
@@ -999,6 +1013,7 @@
 1 33 0 0 0 1 0 0 0 1 0 0 0 1 2447.dat
 
 
+0 STEP
 0 FILE 6932 - Minifig 2.ldr
 0 Futuron minifigure torso assembly with airtanks, arms, hands, and legs.
 0 Name: 6932 - Minifig 2.ldr
@@ -1031,6 +1046,7 @@
 1 14 0 44 0 1 0 0 0 0 1 0 -1 0 3817.dat
 
 
+0 STEP
 0 FILE 6932 - Minifig 2 - Helmet.ldr
 0 Standard yellow space helmet with a trans-dark-blue visor.
 0 Name: 6932 - Minifig 2 - Helmet.ldr

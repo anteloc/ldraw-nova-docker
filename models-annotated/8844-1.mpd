@@ -13,6 +13,7 @@
 
 
 
+0 STEP
 0 FILE 8844 - model.ldr
 0 A blue Technic helicopter body with geared drivetrain, chain link mechanism, computer-screen slope panel, and structural liftarm plates.
 0 Name: 8844 - model.ldr
@@ -209,6 +210,7 @@
 
 
 
+0 STEP
 0 FILE 8844 - frame-1.ldr
 0 A blue Technic frame subassembly using 1x8 hole bricks with an axle, gears, and a bushing for power transmission.
 0 Name: 8844 - frame-1.ldr
@@ -235,6 +237,7 @@
 
 
 
+0 STEP
 0 FILE 8844 - frame-2.ldr
 0 A blue Technic frame section built from 1x8 and 1x12 hole bricks joined by a long axle and bushings.
 0 Name: 8844 - frame-2.ldr
@@ -261,6 +264,7 @@
 
 
 
+0 STEP
 0 FILE 8844 - landinggear-1.ldr
 0 A retractable-style landing gear strut using an axle, toggle joint connector, 24-tooth gear, and half bush.
 0 Name: 8844 - landinggear-1.ldr
@@ -282,6 +286,7 @@
 
 
 
+0 STEP
 0 FILE 8844 - landinggear-2.ldr
 0 A compact landing gear mechanism built from a short axle, two-flange bush, pin-bush connector, and pin.
 0 Name: 8844 - landinggear-2.ldr
@@ -302,6 +307,7 @@
 
 
 
+0 STEP
 0 FILE 8844 - lever-1.ldr
 0 A Technic control lever assembly using two axles, toggle joint connector, and bushings for pivoting motion.
 0 Name: 8844 - lever-1.ldr
@@ -326,6 +332,7 @@
 
 
 
+0 STEP
 0 FILE 8844 - frame-3.ldr
 0 A small blue frame panel built from plates and grooved tiles.
 0 Name: 8844 - frame-3.ldr
@@ -348,6 +355,7 @@
 
 
 
+0 STEP
 0 FILE 8844 - seat-1.ldr
 0 A red interior seat built from stacked 2x3, 1x3, and 1x4 plates.
 0 Name: 8844 - seat-1.ldr
@@ -380,6 +388,7 @@
 
 
 
+0 STEP
 0 FILE 8844 - tail-1.ldr
 0 A blue Technic tail boom section with geared drivetrain, universal joint, belt wheel, and flexible hose cylinders.
 0 Name: 8844 - tail-1.ldr
@@ -500,6 +509,7 @@
 
 
 
+0 STEP
 0 FILE 8844 - tail-2.ldr
 0 A blue tail fairing assembly with 45-degree slopes, inverted slopes, and a translucent red indicator light.
 0 Name: 8844 - tail-2.ldr
@@ -526,6 +536,7 @@
 
 
 
+0 STEP
 0 FILE 8844 - tail-3.ldr
 0 A tail stabilizer assembly using red plates, grey round axlehole plates, and yellow grooved tiles.
 0 Name: 8844 - tail-3.ldr
@@ -555,6 +566,7 @@
 
 
 
+0 STEP
 0 FILE 8844 - rotor-1.ldr
 0 A red Technic rotor head with sloped blades, geared hub, belt wheel, and multiple bushings for blade attachment.
 0 Name: 8844 - rotor-1.ldr
@@ -621,6 +633,7 @@
 
 
 
+0 STEP
 0 FILE 8844 - rotor-2.ldr
 0 A simple yellow rotor mast assembly using an axle and four round bricks.
 0 Name: 8844 - rotor-2.ldr
@@ -643,6 +656,7 @@
 
 
 
+0 STEP
 0 FILE 8844 - rotor3.ldr
 0 A grey Technic rotor linkage assembly using a holed plate, bushings, and two axles.
 0 Name: 8844 - rotor3.ldr
@@ -667,6 +681,7 @@
 
 
 
+0 STEP
 0 FILE 8844 - rotor-4.ldr
 0 A small rotor linkage assembly using short axles, pin-bush connectors, and toggle joint connectors.
 0 Name: 8844 - rotor-4.ldr
@@ -691,6 +706,7 @@
 
 
 
+0 STEP
 0 FILE 8844 - cabin-1.ldr
 0 A Technic cabin side frame using toggle joint connectors, pin-bush connectors, an axle, and pins.
 0 Name: 8844 - cabin-1.ldr
@@ -735,6 +751,7 @@
 
 
 
+0 STEP
 0 FILE 8844 - cabin-2.ldr
 0 A minimal cabin linkage built from toggle joint connectors on a short axle.
 0 Name: 8844 - cabin-2.ldr
@@ -754,6 +771,7 @@
 
 
 
+0 STEP
 0 FILE 8844 - cabin-3.ldr
 0 A Technic cabin side frame using toggle joint connectors, pin-bush connectors, an axle, and pins.
 0 Name: 8844 - cabin-3.ldr
@@ -798,6 +816,7 @@
 
 
 
+0 STEP
 0 FILE 8844 - wheel-1.ldr
 0 A landing wheel assembly with rim, offset tread tyre, and a toggle-joint mounting connector.
 0 Name: 8844 - wheel-1.ldr
@@ -824,6 +843,7 @@
 
 
 
+0 STEP
 0 FILE 8844 - wheel-2.ldr
 0 A landing wheel assembly mounted on an axle with rim, offset tread tyre, and pin-bush connector.
 0 Name: 8844 - wheel-2.ldr
@@ -846,6 +866,7 @@
 
 
 
+0 STEP
 0 FILE 8844 - rotor-5.ldr
 0 A red rotor blade assembly built from long plates with yellow grooved tile accents.
 0 Name: 8844 - rotor-5.ldr

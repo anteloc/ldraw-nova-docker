@@ -24,6 +24,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box8base.ldr
 0 A structural base frame built from bent liftarms, long axles, and friction pins with red fairing panels.
 0 Name: 8448 - box8base.ldr
@@ -157,6 +158,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - chassis.ldr
 0 A central chassis frame using universal joints, technic bricks, plates, and connector pins for drivetrain mounting.
 0 Name: 8448 - chassis.ldr
@@ -303,6 +305,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box1.ldr
 0 A large structural assembly of long technic bricks with holes, gears, and plates forming the main body framework.
 0 Name: 8448 - box1.ldr
@@ -584,6 +587,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box1step7.ldr
 0 A small gear and axle subassembly with an angle connector and bevel gear for power transfer.
 0 Name: 8448 - box1step7.ldr
@@ -613,6 +617,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box1step8.ldr
 0 A bent double liftarm linkage mounted on a long axle with axle connectors.
 0 Name: 8448 - box1step8.ldr
@@ -636,6 +641,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box1step9.ldr
 0 A frame section of long technic bricks connected with friction pins forming a structural rail.
 0 Name: 8448 - box1step9.ldr
@@ -695,6 +701,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box1step14.ldr
 0 A mounting bracket assembly using L-brackets and perforated technic plates for structural support.
 0 Name: 8448 - box1step14.ldr
@@ -720,6 +727,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box1step14sub1.ldr
 0 A single 45-degree slope brick used as a decorative body element.
 0 Name: 8448 - box1step14sub1.ldr
@@ -737,6 +745,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box1step14sub2.ldr
 0 A single 45-degree slope brick used as a decorative body element.
 0 Name: 8448 - box1step14sub2.ldr
@@ -754,6 +763,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box1step15.ldr
 0 A gear train subassembly with 16-tooth and 24-tooth gears mounted on axles for speed reduction.
 0 Name: 8448 - box1step15.ldr
@@ -783,6 +793,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box1step16.ldr
 0 A paired 16-tooth gear assembly on an axle with technic bricks for torque transfer.
 0 Name: 8448 - box1step16.ldr
@@ -810,6 +821,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box1step20.ldr
 0 A reinforcing strut assembly of long technic bricks and pins connected by plates.
 0 Name: 8448 - box1step20.ldr
@@ -843,6 +855,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box2.ldr
 0 A body and mechanism subassembly combining plates, technic beams, rotors, and bent liftarms with stud axles.
 0 Name: 8448 - box2.ldr
@@ -996,6 +1009,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box2step7.ldr
 0 A linkage subassembly of bent liftarms and a long axle with cross blocks for articulated connection.
 0 Name: 8448 - box2step7.ldr
@@ -1025,6 +1039,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box2step8.ldr
 0 A linkage subassembly of bent liftarms and a long axle with cross blocks for articulated connection.
 0 Name: 8448 - box2step8.ldr
@@ -1055,6 +1070,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box2step9.ldr
 0 A drivetrain assembly featuring a differential, bevel gears, and universal joints for wheel power delivery.
 0 Name: 8448 - box2step9.ldr
@@ -1104,6 +1120,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box2step11.ldr
 0 A suspension arm assembly using thin liftarms with bosses and cross blocks for wheel mounting.
 0 Name: 8448 - box2step11.ldr
@@ -1140,6 +1157,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box2step11shock.ldr
 0 A complete shock absorber unit with cylinder, piston rod, and spring for suspension damping.
 0 Author: Orion Pobursky [OrionP]
@@ -1188,6 +1206,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box2step11shock_springMesh.ldr
 0 A procedurally generated coil spring mesh for the shock absorber with defined winding parameters.
 0 Author: Orion Pobursky [OrionP]
@@ -5483,6 +5502,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box2step13.ldr
 0 A small axle and cross block subassembly for pivot or linkage mounting.
 0 Name: 8448 - box2step13.ldr
@@ -5505,6 +5525,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box2step22sub1.ldr
 0 A stud axle with blue cross blocks and friction pins forming a compact connector joint.
 0 Name: 8448 - box2step22sub1.ldr
@@ -5527,6 +5548,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box2step22sub2.ldr
 0 A stud axle with blue cross blocks and friction pins forming a compact connector joint.
 0 Name: 8448 - box2step22sub2.ldr
@@ -5548,6 +5570,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box2step22sub3.ldr
 0 A pair of thin liftarms joined by friction pins forming a lightweight structural beam.
 0 Name: 8448 - box2step22sub3.ldr
@@ -5569,6 +5592,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box3.ldr
 0 A structural assembly of triangle liftarms, bent liftarms, long technic bricks, and steering links forming a support frame.
 0 Name: 8448 - box3.ldr
@@ -5662,6 +5686,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box3step5.ldr
 0 Rear suspension assembly with dual suspension arms, steering link, and mounting beams.
 0 Name: 8448 - box3step5.ldr
@@ -5708,6 +5733,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box3step5shock.ldr
 0 Shock absorber unit with cylinder, piston rod, and coil spring.
 0 Author: Orion Pobursky [OrionP]
@@ -5756,6 +5782,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box3step5shock_springMesh.ldr
 0 Detailed coil spring mesh with three winding sections for the shock absorber.
 0 Author: Orion Pobursky [OrionP]
@@ -10051,6 +10078,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box3step6.ldr
 0 Rear suspension assembly with dual suspension arms, steering link, and mounting beams.
 0 Name: 8448 - box3step6.ldr
@@ -10097,6 +10125,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box3step11.ldr
 0 Gear train module using an 8-stud technic brick with two 8-tooth gears on axles.
 0 Name: 8448 - box3step11.ldr
@@ -10121,6 +10150,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box3step13.ldr
 0 Steering column assembly with steering wheel, universal joints, and bent liftarms.
 0 Author: Orion Pobursky [OrionP]
@@ -10177,6 +10207,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box3step14.ldr
 0 Steering rack module with a 14-stud gear rack and towball axles.
 0 Author: Orion Pobursky [OrionP]
@@ -10198,6 +10229,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box3step13sub1.ldr
 0 Universal joint driveshaft sub-assembly on an 8-stud axle.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -10219,6 +10251,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box4.ldr
 0 Gearbox assembly with multiple gears, clutch rings, and technic bricks forming the transmission.
 0 Author: Orion Pobursky [OrionP]
@@ -10353,6 +10386,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box4step6.ldr
 0 Transmission gear stage with two clutch gears, a driving ring, and joining axles.
 0 Author: Orion Pobursky [OrionP]
@@ -10378,6 +10412,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box4step7.ldr
 0 Extended transmission gear stage with driving ring extension and clutch gears.
 0 Author: Orion Pobursky [OrionP]
@@ -10403,6 +10438,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box4step17.ldr
 0 Shifter linkage module using blue liftarms and technic bricks with pins.
 0 Author: Orion Pobursky [OrionP]
@@ -10431,6 +10467,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box4step18.ldr
 0 Extended shifter linkage module with long pins, blue liftarms, and technic bricks.
 0 Author: Orion Pobursky [OrionP]
@@ -10462,6 +10499,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box4step25.ldr
 0 Small bodywork detail with a wing panel, plate, and round tile.
 0 Author: Orion Pobursky [OrionP]
@@ -10479,6 +10517,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box4step26.ldr
 0 Gear changeover catch with a studded axle for shifting mechanism.
 0 Author: Orion Pobursky [OrionP]
@@ -10494,6 +10533,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box5.ldr
 0 Engine assembly with eight pistons, a 3-blade rotor, and cross blocks on axles.
 0 Author: Orion Pobursky [OrionP]
@@ -10557,6 +10597,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box5step1-5.ldr
 0 Engine crankshaft assembly with crankshafts, connecting rods, and centre pieces.
 0 Author: Orion Pobursky [OrionP]
@@ -10602,6 +10643,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box5step6.ldr
 0 Engine cylinder head bank with four transparent cylinder heads and connecting pins.
 0 Author: Orion Pobursky [OrionP]
@@ -10641,6 +10683,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box5step7.ldr
 0 Engine cylinder head bank with four transparent cylinder heads and connecting pins.
 0 Author: Orion Pobursky [OrionP]
@@ -10680,6 +10723,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box5step8.ldr
 0 Engine block base with plates, technic bricks, and a grooved tile.
 0 Author: Orion Pobursky [OrionP]
@@ -10703,6 +10747,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box5step9.ldr
 0 Engine mounting linkage with cross blocks, connectors, and pins on an axle.
 0 Author: Orion Pobursky [OrionP]
@@ -10730,6 +10775,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box5step10.ldr
 0 Axle assembly with four cross blocks on an 8-stud axle.
 0 Author: Orion Pobursky [OrionP]
@@ -10751,6 +10797,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box5step12.ldr
 0 Drivetrain connector module with gears, axle joiners, and stop axles.
 0 Author: Orion Pobursky [OrionP]
@@ -10787,6 +10834,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box5step14.ldr
 0 Engine support frame with angle connectors, toggle joints, and long tiles.
 0 Author: Orion Pobursky [OrionP]
@@ -10840,6 +10888,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box5step18.ldr
 0 Small linkage piece with an axlehole brick, notched axle, and blue cross block.
 0 Author: Orion Pobursky [OrionP]
@@ -10857,6 +10906,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box6-1.ldr
 0 box6-1
 0 Author: Orion Pobursky [OrionP]
@@ -10910,6 +10960,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box6-3.ldr
 0 box6-3
 0 Author: Orion Pobursky [OrionP]
@@ -10989,6 +11040,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box6-1step7.ldr
 0 box6-1step7
 0 Author: Orion Pobursky [OrionP]
@@ -11010,6 +11062,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box6-1step8.ldr
 0 box6-1step8
 0 Author: Orion Pobursky [OrionP]
@@ -11045,6 +11098,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box6-2.ldr
 0 box6-2
 0 Author: Orion Pobursky [OrionP]
@@ -11098,6 +11152,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box6-3step3.ldr
 0 box6-3step3
 0 Author: Orion Pobursky [OrionP]
@@ -11133,6 +11188,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box6-3step4.ldr
 0 box6-3step4
 0 Author: Orion Pobursky [OrionP]
@@ -11168,6 +11224,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box6-3step5sub1.ldr
 0 box6-3step5sub1
 0 Author: Orion Pobursky [OrionP]
@@ -11187,6 +11244,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box6-3step5sub2.ldr
 0 box6-3step5sub2
 0 Author: Orion Pobursky [OrionP]
@@ -11206,6 +11264,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box6-3step7.ldr
 0 box6-3step7
 0 Author: Orion Pobursky [OrionP]
@@ -11237,6 +11296,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box6-3step8.ldr
 0 box6-3step8
 0 Author: Orion Pobursky [OrionP]
@@ -11268,6 +11328,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box6-3step9sub1.ldr
 0 box6-3step9sub1
 0 Author: Orion Pobursky [OrionP]
@@ -11288,6 +11349,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box6-3step9sub2.ldr
 0 box6-3step9sub2
 0 Author: Orion Pobursky [OrionP]
@@ -11308,6 +11370,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box7step3sub1.ldr
 0 box7step3sub1
 0 Author: Orion Pobursky [OrionP]
@@ -11337,6 +11400,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box7step3sub2.ldr
 0 box7step3sub2
 0 Author: Orion Pobursky [OrionP]
@@ -11354,6 +11418,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box7step4sub1.ldr
 0 box7step4sub1
 0 Author: Orion Pobursky [OrionP]
@@ -11391,6 +11456,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box7step4sub2.ldr
 0 box7step4sub2
 0 Author: Orion Pobursky [OrionP]
@@ -11428,6 +11494,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box7step6.ldr
 0 box7step6
 0 Author: Orion Pobursky [OrionP]
@@ -11493,6 +11560,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box7step6-9.ldr
 0 box7step6-9
 0 Author: Orion Pobursky [OrionP]
@@ -11523,6 +11591,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box7step6-10.ldr
 0 box7step6-10
 0 Author: Orion Pobursky [OrionP]
@@ -11553,6 +11622,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box7step7sub1.ldr
 0 box7step7sub1
 0 Author: Orion Pobursky [OrionP]
@@ -11572,6 +11642,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box7step7sub2.ldr
 0 box7step7sub2
 0 Author: Orion Pobursky [OrionP]
@@ -11591,6 +11662,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box7step8.ldr
 0 box7step8
 0 Author: Orion Pobursky [OrionP]
@@ -11635,6 +11707,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box7ribbedhose1.ldr
 0 box7ribbedhose1
 0 Author: Orion Pobursky [OrionP]
@@ -21471,6 +21544,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box7step9.ldr
 0 box7step9
 0 Author: Orion Pobursky [OrionP]
@@ -21514,6 +21588,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box7ribbedhose2.ldr
 0 Flexible ribbed hose assembly built from a curved path of approximately 53 segments.
 0 Author: Orion Pobursky [OrionP]
@@ -60333,6 +60408,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box7step10.ldr
 0 Red panel fairing sub-assembly mounted on black liftarms with angle connectors and cross blocks.
 0 Author: Orion Pobursky [OrionP]
@@ -60377,6 +60453,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box7step11.ldr
 0 Red panel fairing #3 mounted on liftarms joined with angle connectors and pins.
 0 Author: Orion Pobursky [OrionP]
@@ -60420,6 +60497,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box7step13.ldr
 0 Structural frame of long liftarms and technic bricks connected with angle connectors and a white grooved tile.
 0 Author: Orion Pobursky [OrionP]
@@ -60464,6 +60542,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box7step14.ldr
 0 Bent red liftarm assembly joined by angle connectors and axles forming an angled structural link.
 0 Author: Orion Pobursky [OrionP]
@@ -60513,6 +60592,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box7step15.ldr
 0 Bent red liftarm assembly joined by angle connectors and axles forming an angled structural link, mirrored from step14.
 0 Author: Orion Pobursky [OrionP]
@@ -60562,6 +60642,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box7step16sub1.ldr
 0 Small pivoting sub-assembly of two bent liftarms held on an axle with a red stop-bush pin.
 0 Author: Orion Pobursky [OrionP]
@@ -60584,6 +60665,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box7step16sub2.ldr
 0 Small pivoting sub-assembly of two bent liftarms held on an axle with a red stop-bush pin, mirrored.
 0 Author: Orion Pobursky [OrionP]
@@ -60606,6 +60688,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box7step17.ldr
 0 Red bent liftarm frame mounted on technic bricks with a black grooved tile and friction pins.
 0 Author: Orion Pobursky [OrionP]
@@ -60644,6 +60727,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box7step18sub1.ldr
 0 Red panel fairing #1 mounted on a liftarm with cross blocks and an axle pin connector.
 0 Author: Orion Pobursky [OrionP]
@@ -60674,6 +60758,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box7step18sub2.ldr
 0 Red panel fairing #2 mounted on a liftarm with cross blocks and an axle pin connector, mirrored.
 0 Author: Orion Pobursky [OrionP]
@@ -60704,6 +60789,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box7step19sub1.ldr
 0 Small linkage of two red 112.5-degree angle connectors held by an axle pin.
 0 Author: Orion Pobursky [OrionP]
@@ -60725,6 +60811,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box7flexaxle1.ldr
 0 Flexible technic axle assembly forming a curved path of approximately 37 segments.
 0 Author: Orion Pobursky [OrionP]
@@ -63051,6 +63138,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box7flexaxle2.ldr
 0 Long flexible technic axle assembly forming a curved path of approximately 43 segments.
 0 Author: Orion Pobursky [OrionP]
@@ -65581,6 +65669,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box7flexaxle3.ldr
 0 Flexible technic axle assembly forming a curved path of approximately 37 segments, mirrored.
 0 Author: Orion Pobursky [OrionP]
@@ -67907,6 +67996,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box7flexaxle4.ldr
 0 Long flexible technic axle assembly forming a curved path of approximately 44 segments, mirrored.
 0 Author: Orion Pobursky [OrionP]
@@ -70471,6 +70561,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box7step19sub2.ldr
 0 Small linkage of two red 112.5-degree angle connectors held by an axle pin, mirrored.
 0 Author: Orion Pobursky [OrionP]
@@ -70492,6 +70583,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box7step20.ldr
 0 Red axle and angle connector assembly forming a 90-degree structural corner joint.
 0 Author: Orion Pobursky [OrionP]
@@ -70517,6 +70609,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box7flexaxle5.ldr
 0 Flexible technic axle assembly forming a curved path of approximately 36 segments.
 0 Author: Orion Pobursky [OrionP]
@@ -72810,6 +72903,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box7flexaxle6.ldr
 0 Extra-long flexible technic axle assembly forming a curved path of approximately 56 segments.
 0 Author: Orion Pobursky [OrionP]
@@ -75754,6 +75848,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box8.ldr
 0 Major structural sub-assembly of bent liftarms, triangle beams, long axles, and cams forming a load-bearing frame.
 0 Author: Orion Pobursky [OrionP]
@@ -75969,6 +76064,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box8shock.ldr
 0 Complete damped shock absorber unit with transparent cylinder, piston rod, and spring.
 0 !CATEGORY Technic
@@ -76017,6 +76113,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box8shock_springMesh.ldr
 0 Coiled spring mesh model with 13 windings across three sections for the shock absorber.
 0 Author: Orion Pobursky [OrionP]
@@ -81080,6 +81177,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box8step20.ldr
 0 Red bent liftarm connector assembly joining multiple angle connectors with axles.
 0 Author: Orion Pobursky [OrionP]
@@ -81110,6 +81208,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box8step21.ldr
 0 Parallel liftarm beam assembly of red and black 5-long beams joined by friction pins.
 0 Author: Orion Pobursky [OrionP]
@@ -81142,6 +81241,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box8step22-27sub1.ldr
 0 A compact frame assembly built from red and black liftarms joined with friction pins.
 0 Author: Orion Pobursky [OrionP]
@@ -81174,6 +81274,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box8step22-27sub2.ldr
 0 A red angled connector linkage using multiple angle connectors and a bent liftarm with axles.
 0 Author: Orion Pobursky [OrionP]
@@ -81204,6 +81305,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box8flexaxle1.ldr
 0 A flexible ribbed axle assembly approximately 101 mm long made of 45 segments.
 0 Author: Orion Pobursky [OrionP]
@@ -83802,6 +83904,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box8step22.ldr
 0 A small liftarm bracket with a towball and half-bush mounted on friction pins.
 0 Author: Orion Pobursky [OrionP]
@@ -83825,6 +83928,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box8step23.ldr
 0 A pair of red angle connectors on short axles secured with half-bushes.
 0 Author: Orion Pobursky [OrionP]
@@ -83849,6 +83953,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box8ribbedhose1.ldr
 0 A ribbed hose assembly approximately 114 mm long composed of 46 segments.
 0 Author: Orion Pobursky [OrionP]
@@ -117949,6 +118054,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box8step24.ldr
 0 A complex linkage of red and black angle connectors and axle joiners connected with short axles and pins.
 0 Author: Orion Pobursky [OrionP]
@@ -118001,6 +118107,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box8ribbedhose2.ldr
 0 A ribbed hose assembly approximately 112 mm long composed of 45 segments.
 0 Author: Orion Pobursky [OrionP]
@@ -151427,6 +151534,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box8ribbedhose3.ldr
 0 A ribbed hose assembly approximately 112 mm long composed of 45 segments.
 0 Author: Orion Pobursky [OrionP]
@@ -184853,6 +184961,7 @@
 
 
 
+0 STEP
 0 FILE 8448 - box8step25.ldr
 0 A complex linkage of red and black angle connectors and axle joiners connected with short axles and pins.
 0 Author: Orion Pobursky [OrionP]

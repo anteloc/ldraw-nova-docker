@@ -19,6 +19,7 @@
 
 
 
+0 STEP
 0 FILE 7667 - Dropship.ldr
 0 A compact Imperial vessel built from plates and sloped armor panels in dark bluish grey and blue, with grille details, Imperial symbol stickers, and trans-red cone engines.
 0 Name: 7667 - Dropship.ldr
@@ -161,6 +162,7 @@
 1 0 -60.19 -125 175.93 0.984808 0 0.173648 0 1 0 -0.173648 0 0.984808 57899.dat
 
 
+0 STEP
 0 FILE 7667 - Troop Platform.ldr
 0 A black and blue standing platform built from large plates with dish surfaces and Technic pin connectors for a raised base.
 0 Name: 7667 - Troop Platform.ldr
@@ -200,6 +202,7 @@
 
 
 
+0 STEP
 0 FILE 7667 - Stormtrooper With Blaster.ldr
 0 A white Stormtrooper minifigure in classic armour, paired with a short black blaster.
 0 Name: 7667 - Stormtrooper With Blaster.ldr
@@ -237,6 +240,7 @@
 
 
 
+0 STEP
 0 FILE 7667 - Stormtrooper.ldr
 0 A standard white Stormtrooper minifigure with classic helmet, armoured torso, and matching limbs.
 0 Name: 7667 - Stormtrooper.ldr
@@ -272,6 +276,7 @@
 
 
 
+0 STEP
 0 FILE 7667 - Shadow Trooper.ldr
 0 An all-black Shadow Trooper minifigure with shadow-pattern Stormtrooper helmet and black armoured limbs.
 0 Name: 7667 - Shadow Trooper.ldr
@@ -304,6 +309,7 @@
 0 // ~Minifig Leg Left (Obsolete) (black)
 1 0 0 44 0 1 0 0 0 0 1 0 -1 0 3817.dat
 
+0 STEP
 0 FILE 7667 - 30408p03.dat
 0 A Stormtrooper minifigure helmet part decorated with the Shadow Trooper pattern.
 0 Name: 7667 - 30408p03.dat
@@ -319,6 +325,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\7667 - 30408s06.dat
 1 16 0 0 0 -1 0 0 0 1 0 0 0 1 s\7667 - 30408s06.dat
 
+0 STEP
 0 FILE s\7667 - 30408s06.dat
 0 A half-pattern sub-part of the Stormtrooper helmet representing the Shadow Trooper facial detailing, broken into descriptive surface regions like mouth, cheek, and stripes.
 0 Name: s\7667 - 30408s06.dat

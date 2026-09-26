@@ -15,6 +15,7 @@
 1 1 -70 0 -160 0.174 0 -0.985 0 1 0 0.985 0 0.174 6693 - minifig 2.ldr
 
 0 NOFILE
+0 STEP
 0 FILE 6693 - car.ldr
 0 The chassis base of a vehicle built from black plates with wheel mounts, hinge plates, red accents, and translucent yellow details.
 0 !LEOCAD MODEL CURRENT_STEP34
@@ -158,6 +159,7 @@
 0 STEP
 
 0 NOFILE
+0 STEP
 0 FILE 6693 - car - movable A.ldr
 0 A large vehicle body section with red bricks, recycling-patterned panels, and a hinge plate top forming the rear container area.
 0 !LEOCAD MODEL CURRENT_STEP23
@@ -242,6 +244,7 @@
 0 STEP
 
 0 NOFILE
+0 STEP
 0 FILE 6693 - car - movable B.ldr
 0 A cab section with a train window, sloped red bricks, headlights, and hinge plates forming the angled front of the vehicle.
 0 car - movable B
@@ -334,6 +337,7 @@
 1 6 54.003 147.998 50 -1 0 0 0 -1 0 0 0 1 3836.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6693 - car - movable C.ldr
 0 A small red hinge-and-bracket assembly acting as a movable connector or flap.
 0 car - movable C
@@ -374,6 +378,7 @@
 1 4 58 -41 0 0 1 0 1 0 0 0 0 -1 3023.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6693 - trash bin.ldr
 0 A dark grey rubbish bin container topped with an inverted dish lid.
 0 trash bin
@@ -390,6 +395,7 @@
 1 8 0 -56 0 1 0 0 0 1 0 0 0 1 4740.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6693 - minifig 1.ldr
 0 A minifigure wearing a police hat, blue dungarees torso, with standard grin and yellow hands.
 0 minifig 1
@@ -422,6 +428,7 @@
 1 1 0 -28 0 1 0 0 0 1 0 0 0 1 3816.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6693 - minifig 2.ldr
 0 A minifigure with black hair, a patch-pocket blue torso, and standard grin with yellow hands.
 0 minifig 2

@@ -13,6 +13,7 @@
 1 15 -240 0 280 0.906 0 0.423 0 1 0 -0.423 0 0.906 6490 - river.ldr
 
 0 NOFILE
+0 STEP
 0 FILE 6490 - car.ldr
 0 A small vehicle built on a black car base with mudguards, panels, and a blue steering stand.
 0 !LEOCAD MODEL CURRENT_STEP14
@@ -177,6 +178,7 @@
 0 STEP
 
 0 NOFILE
+0 STEP
 0 FILE 6490 - minifig.ldr
 0 A minifigure with a green torso and legs, white arms, yellow head with sunglasses, and a red cap.
 0 minifig
@@ -209,6 +211,7 @@
 1 4 -0.008 -96 1.997 1 0 0.002 0 1 0 -0.002 0 1 4485.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6490 - river.ldr
 0 A riverbank diorama featuring blue water plates, tan banks, grey slopes, and brown bar structures.
 0 river

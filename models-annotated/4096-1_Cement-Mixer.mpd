@@ -7,6 +7,7 @@
 1 256 0 0 0 1 0 0 0 1 0 0 0 1 4096 - QB Cement Mixer.ldr
 
 
+0 STEP
 0 FILE 4096 - QB Cement Mixer.ldr
 0 A wheeled base with four slick tyres and wheel pins forming the main chassis of the cement mixer.
 0 Name: 4096 - QB Cement Mixer.ldr
@@ -47,6 +48,7 @@
 1 256 27 5 -20 1 0 0 0 1 0 0 0 1 30028.dat
 
 
+0 STEP
 0 FILE 4096 - QB Cement Mixer S03.ldr
 0 A hinged assembly made of a base and top hinge piece for articulation.
 0 Name: 4096 - QB Cement Mixer S03.ldr
@@ -59,6 +61,7 @@
 1 14 0 2.569 6.691 -1 0 0 0 0.743 -0.669 0 -0.669 -0.743 3938.dat
 
 
+0 STEP
 0 FILE 4096 - QB Cement Mixer S04.ldr
 0 A rotating drum assembly using a turntable, round plate, and hollow cone to form the mixer barrel.
 0 Name: 4096 - QB Cement Mixer S04.ldr
@@ -76,6 +79,7 @@
 1 7 0 -56 0 1 0 0 0 1 0 0 0 1 3942c.dat
 
 
+0 STEP
 0 FILE 4096 - QB Cement Mixer S05.ldr
 0 A window panel section using transparent and dark grey plates to form the cab windows.
 0 Name: 4096 - QB Cement Mixer S05.ldr

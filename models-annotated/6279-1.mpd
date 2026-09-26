@@ -17,6 +17,7 @@
 1 0 -140 -40 -189 1 0 0 0 1 0 0 0 1 6279 - Pirate_1.ldr
 1 0 -40 -89 112 1 0 0 0 1 0 0 0 1 6279 - Pirate_2.ldr
 
+0 STEP
 0 FILE 6279 - Island.ldr
 0 The main island structure built with arches, plates, palm trees, a Jolly Roger flag, a cannon on a turntable, a treasure map, and a monkey and parrot.
 0 Name: 6279 - Island.ldr
@@ -587,6 +588,7 @@
 0 // Turntable  4 x  4 Base (red)
 1 4 -140 -488 320 0 0 1 0 1 0 -1 0 0 3403.dat
 
+0 STEP
 0 FILE 6279 - Crane.ldr
 0 A red and black rotating crane assembly with a winch drum, turntable, hinge plates, and a crane hook for lifting cargo.
 0 Name: 6279 - Crane.ldr
@@ -623,6 +625,7 @@
 1 7 4 146 197 0 0 -1 0 1 0 1 0 0 6279 - Burrel.ldr
 1 0 140 488 -320 1 0 0 0 1 0 0 0 1 6279 - Rope.ldr
 
+0 STEP
 0 FILE 6279 - Burrel.ldr
 0 A small brown barrel with a lifting ring top and clear round plates.
 0 Name: 6279 - Burrel.ldr
@@ -639,6 +642,7 @@
 0 // Plate  1 x  1 Round (trans_clear)
 1 47 0 16 0 1 0 0 0 1 0 0 0 1 6141.dat
 
+0 STEP
 0 FILE 6279 - Rope.ldr
 0 A rope or string element with no direct pieces.
 0 Name: 6279 - Rope.ldr
@@ -1019,6 +1023,7 @@
 1 0 -140 -457.86 518 0 1 0 -0.0049 0 -1 1 0 -0.0049 6279 - LS60.dat
 1 0 -140 -459.36 517.999 0 1 0 -0.0015 0 -1 1 0 -0.0015 6279 - LS60.dat
 
+0 STEP
 0 FILE 6279 - Chest.ldr
 0 A brown treasure chest filled with gold coins stamped with values 10, 20, 30, and 40.
 0 Name: 6279 - Chest.ldr
@@ -1039,6 +1044,7 @@
 0 // Minifig Coin with "40" Sans-serif Type (chrome_gold)
 1 334 -20 16 0 1 0 0 0 1 0 0 0 1 70501d.dat
 
+0 STEP
 0 FILE 6279 - Boat 1.ldr
 0 A brown rowboat equipped with two red oars and red and yellow deck plates.
 0 Name: 6279 - Boat 1.ldr
@@ -1067,6 +1073,7 @@
 1 6 0 -48 80 -1 0 0 0 1 0 0 0 -1 6279 - Chest.ldr
 1 6 0 3 -28 -1 0 0 0 1 0 0 0 -1 6279 - Pirate_3.ldr
 
+0 STEP
 0 FILE 6279 - Boat 2.ldr
 0 A red rowboat with yellow deck plates, an antenna mast, and a crossed-cannons flag.
 0 Name: 6279 - Boat 2.ldr
@@ -1095,6 +1102,7 @@
 1 15 0 0 -90 1 0 0 0 1 0 0 0 1 6279 - Imperial_Guard_Officer.ldr
 1 15 0 -16 -28 -1 0 0 0 1 0 0 0 -1 6279 - Imperial_Guard_Soldier.ldr
 
+0 STEP
 0 FILE 6279 - Pirate_1.ldr
 0 A pirate minifigure wearing a tricorne hat, eye patch, red and black striped torso, and blue legs.
 0 Name: 6279 - Pirate_1.ldr
@@ -1123,6 +1131,7 @@
 0 // ~Minifig Leg Right (Obsolete) (blue)
 1 1 0 -28 0 1 0 0 0 1 0 0 0 1 3816.dat
 
+0 STEP
 0 FILE 6279 - Pirate_2.ldr
 0 A pirate minifigure wearing a tricorne hat, eye patch, open blue jacket over a striped vest, and grey legs.
 0 Name: 6279 - Pirate_2.ldr
@@ -1151,6 +1160,7 @@
 0 // ~Minifig Leg Right (Obsolete) (light_grey)
 1 7 0 -28 0 1 0 0 0 1 0 0 0 1 3816.dat
 
+0 STEP
 0 FILE 6279 - Pirate_3.ldr
 0 A pirate minifigure wearing a red bandana, blue and white striped torso with black buckle, and black sitting legs.
 0 Name: 6279 - Pirate_3.ldr
@@ -1175,6 +1185,7 @@
 0 // ~Minifig Hips and Legs, Sitting (Obsolete) (black)
 1 0 0 -40 0 1 0 0 0 1 0 0 0 1 3815c02.dat
 
+0 STEP
 0 FILE 6279 - Pirate_Captain.ldr
 0 The pirate captain minifigure with a skull bicorne hat, epaulettes, hook hand, and wooden legs.
 0 Name: 6279 - Pirate_Captain.ldr
@@ -1207,6 +1218,7 @@
 0 // ~Minifig Hat Bicorne with Evil Skull and Crossbones Pattern (Obsolete) (black)
 1 0 0 -96 -2 1 0 0 0 1 0 0 0 1 2528p30.dat
 
+0 STEP
 0 FILE 6279 - Imperial_Guard_Officer.ldr
 0 An imperial guard officer minifigure with a tricorne hat, epaulettes, red and white uniform, cutlass sword, and flintlock pistol.
 0 Name: 6279 - Imperial_Guard_Officer.ldr
@@ -1237,6 +1249,7 @@
 0 // Minifig Gun Flintlock Pistol (brown)
 1 6 -24.935 -38.692 -15.712 0.985 -0.086 -0.148 -0.086 0.5 -0.862 0.148 0.862 0.486 2562.dat
 
+0 STEP
 0 FILE 6279 - Imperial_Guard_Soldier.ldr
 0 An imperial guard soldier minifigure with a shako hat, backpack, red and white uniform, and two oars.
 0 Name: 6279 - Imperial_Guard_Soldier.ldr
@@ -1269,6 +1282,7 @@
 0 // Minifig Tool Oar (brown)
 1 6 6.231 -47.368 -34.911 0.137 0.83 0.546 0.274 0.5 -0.823 -0.957 0.262 -0.157 2542.dat
 
+0 STEP
 0 FILE 6279 - LS60.dat
 0 A short straight string segment used for rope synthesis.
 0 Name: 6279 - LS60.dat
@@ -1308,6 +1322,7 @@
 3 8 0.866026 -0.5 -1 0.5 -0.866026 1 1 0 1
 3 16 0 0 -1 0 -1 -1 0.866 -0.5 -1
 
+0 STEP
 0 FILE 6279 - 2551.dat
 0 The boat hull primitive composed of box elements.
 0 Name: 6279 - 2551.dat
@@ -1548,6 +1563,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\6279 - 2551s01.dat
 1 16 0 0 0 -1 0 0 0 1 0 0 0 1 s\6279 - 2551s01.dat
 
+0 STEP
 0 FILE s\6279 - 2551s01.dat
 0 A subpart representing one half side of the boat hull.
 0 Name: s\6279 - 2551s01.dat

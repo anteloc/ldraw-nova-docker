@@ -747,6 +747,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 21005 - Water Fall Piece.ldr
 0 Cascading waterfall element built from stacked trans-clear plates and tiles mounted on dark bluish-grey brick supports with side studs.
 0 Name: 21005 - Water Fall Piece.ldr
@@ -787,6 +788,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 21005 - Support.ldr
 0 Simple tan support beam assembled from a progressive run of 1x4, 1x3, and 1x2 plates.
 0 Name: 21005 - Support.ldr
@@ -804,6 +806,7 @@
 1 19 0 -16 20 0 0 1 0 1 0 -1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 21005 - Tree.ldr
 0 Minimalist dark green foliage represented by two 1x1 bricks.
 0 Name: 21005 - Tree.ldr
@@ -819,6 +822,7 @@
 1 288 0 -24 0 0.707107 0 0.707107 0 1 0 -0.707107 0 0.707107 3005.dat
 
 
+0 STEP
 0 FILE 21005 - House 1.ldr
 0 Large tan house structure of layered plates, bricks, tiles with grooves, and angled corner pieces forming cantilevered concrete horizons.
 0 Name: 21005 - House 1.ldr
@@ -1257,6 +1261,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 21005 - House Assy 1.ldr
 0 Compact tan house sub-assembly combining plates, panels, corner bricks, and an inverted slope to form a detailed architectural corner section.
 0 Name: 21005 - House Assy 1.ldr
@@ -1311,6 +1316,7 @@
 1 19 -50 -24 -50 1 -0 -0 0 1 0 0 -0 1 3665.dat
 0 STEP
 0
+0 STEP
 0 FILE 21005 - Deck 1.ldr
 0 Small tan terrace deck built from a 2x6 plate framed by square-edged and rounded corner panels.
 0 Name: 21005 - Deck 1.ldr
@@ -1338,6 +1344,7 @@
 1 19 -20 -24 -10 -1 0 -0 0 1 0 0 0 -1 4865a.dat
 
 
+0 STEP
 0 FILE 21005 - House 2.ldr
 0 Mid-sized tan house section with long plates, grooved tiles, and corner panels forming horizontal cantilevered levels and railings.
 0 Name: 21005 - House 2.ldr
@@ -1483,6 +1490,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 21005 - House 3.ldr
 0 Tan house section with varied plates, grooved tiles, and corner pieces accented by trans-clear plates suggesting water or glass features.
 0 Name: 21005 - House 3.ldr
@@ -1618,6 +1626,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 21005 - Deck 2.ldr
 0 Elevated tan deck with a 4x6 base, grille tiles, and paneled railings with rounded corner details.
 0 Name: 21005 - Deck 2.ldr
@@ -1665,6 +1674,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 21005 - House 4.ldr
 0 Tan house section of long plates and grooved tiles with paneled railings and trans-clear accents for water or glass elements.
 0 Name: 21005 - House 4.ldr
@@ -1754,6 +1764,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 21005 - House Assy 2.ldr
 0 Connecting tan sub-assembly of long plates and corner pieces joining house sections with tiled surface detailing.
 0 Name: 21005 - House Assy 2.ldr
@@ -1794,6 +1805,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 21005 - House Roof.ldr
 0 Flat tan rooftop built from plates and grooved tiles forming a smooth finished surface.
 0 Name: 21005 - House Roof.ldr
@@ -1832,6 +1844,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 21005 - House Combined Assy.ldr
 0 Container assembly that references and positions the individual house, deck, and roof submodels into a complete structure.
 0 Name: 21005 - House Combined Assy.ldr

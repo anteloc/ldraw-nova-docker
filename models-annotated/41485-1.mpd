@@ -20,6 +20,7 @@
 1 0 0 -48 20 1 0 0 0 1 0 0 0 1 41485 - Finn - 1.ldr
 
 
+0 STEP
 0 FILE 41485 - Finn - 1.ldr
 0 Large BrickHeadz Finn body assembly with white bricks, stormtrooper utility belt pattern, and multi-colored detailing.
 0 Name: 41485 - Finn - 1.ldr
@@ -163,6 +164,7 @@
 1 0 -54 -21 -30 0 0 1 0 1 0 -1 0 0 41485 - Finn - 6.ldr
 
 
+0 STEP
 0 FILE 41485 - Finn - 2.ldr
 0 Small white and black round plate and clip light detail submodel.
 0 Name: 41485 - Finn - 2.ldr
@@ -185,6 +187,7 @@
 
 
 
+0 STEP
 0 FILE 41485 - Finn - 3.ldr
 0 Small black plate with white grooved tile and horizontal clip attachment.
 0 Name: 41485 - Finn - 3.ldr
@@ -203,6 +206,7 @@
 
 
 
+0 STEP
 0 FILE 41485 - Finn - 4.ldr
 0 Small black plate with white grooved tile and side-mounted horizontal clip.
 0 Name: 41485 - Finn - 4.ldr
@@ -221,6 +225,7 @@
 
 
 
+0 STEP
 0 FILE 41485 - Finn - 5.ldr
 0 Compact black headlight brick and white grooved tile detail piece.
 0 Name: 41485 - Finn - 5.ldr
@@ -237,6 +242,7 @@
 
 
 
+0 STEP
 0 FILE 41485 - Finn - 6.ldr
 0 Small black nozzle and white cone round plate clip assembly.
 0 Name: 41485 - Finn - 6.ldr
@@ -259,6 +265,7 @@
 
 
 
+0 STEP
 0 FILE 41485 - 87079pzd.dat
 0 Patterned tile graphic made of white disc and chord primitives forming the exclusive series pattern.
 0 Name: 41485 - 87079pzd.dat
@@ -776,6 +783,7 @@
 4 15 33.5 0 13.5 5 0 13.5 20.184 0 10.618 34 0 13
 
 
+0 STEP
 0 FILE 41485 - 2431pzb.dat
 0 Tile 1 x  4 with Black Stormtrooper Utility Belt Pattern
 0 Name: 41485 - 2431pzb.dat
@@ -792,6 +800,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\41485 - 2431pzbs02.dat
 
 
+0 STEP
 0 FILE 41485 - 3010pzq.dat
 0 Patterned brick component representing black squares and stripe decoration.
 0 Name: 41485 - 3010pzq.dat
@@ -839,6 +848,7 @@
 4 16 28.56 21.81 -10 -28.56 21.81 -10 -40 24 -10 40 24 -10
 
 
+0 STEP
 0 FILE s\41485 - 2431pzbs01.dat
 0 Primitive-based pattern layer of disc and chord shapes forming the utility belt design.
 0 Name: s\41485 - 2431pzbs01.dat
@@ -1027,6 +1037,7 @@
 3 16 36.75 0 8.75 37.25 0 7.25 38.75 0 6.75
 
 
+0 STEP
 0 FILE s\41485 - 2431pzbs02.dat
 0 Primitive-based background layer of disc and chord shapes behind the utility belt pattern.
 0 Name: s\41485 - 2431pzbs02.dat

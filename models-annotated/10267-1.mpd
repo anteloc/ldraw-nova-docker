@@ -18,6 +18,7 @@
 1 15 190 -54 -490 -0.707 0 0.707 0 1 0 -0.707 0 -0.707 10267 - snowblower.ldr
 
 
+0 STEP
 0 FILE 10267 - christmas-tree.ldr
 0 A small Christmas tree built from a brown bar trunk, round bricks as branches, black four-sided studs, and a white inverted dish base, decorated with red round plate ornaments.
 0 Name: 10267 - christmas-tree.ldr
@@ -67,6 +68,7 @@
 1 70 0 -200 0 -0.707 0 0.707 0 1 0 -0.707 0 -0.707 10267 - christmas-tree-step17.ldr
 
 
+0 STEP
 0 FILE 10267 - christmas-tree-step6-10.ldr
 0 Upper portion of the Christmas tree using dark green wing and slope pieces for the conical foliage, decorated with pearl gold and trans-yellow round plates as ornaments.
 0 Name: 10267 - christmas-tree-step6-10.ldr
@@ -101,6 +103,7 @@
 1 4 -20 -8 -30 -1 0 0 0 1 0 0 0 -1 6141.dat
 
 
+0 STEP
 0 FILE 10267 - christmas-tree-step11-16.ldr
 0 Another tier of the Christmas tree foliage built with dark green wings and slopes, accented with red, pearl gold, and trans-yellow round plate decorations.
 0 Name: 10267 - christmas-tree-step11-16.ldr
@@ -138,6 +141,7 @@
 1 46 -20 -32 -50 -1 0 0 0 1 0 0 0 -1 6141.dat
 
 
+0 STEP
 0 FILE 10267 - christmas-tree-step17.ldr
 0 Decorative tree topper and base elements using a tan dish, gold handle plate, trans-yellow kite ornaments, and a reddish brown clip tile star.
 0 Name: 10267 - christmas-tree-step17.ldr
@@ -169,6 +173,7 @@
 1 70 0 0 0 1 0 0 0 1 0 0 0 1 15712.dat
 
 
+0 STEP
 0 FILE 10267 - pram.ldr
 0 A baby pram/stroller built with azure curved panels and slopes, reddish brown wheels and bar handle, white brackets, and medium nougat frosted cookie-patterned tiles for detailing.
 0 Name: 10267 - pram.ldr
@@ -232,6 +237,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10267 - snowblower.ldr
 0 A red snowblower machine featuring technic gears, beams, and axles for the mechanism, wheels with tyres, handlebars, a curved slope chute, and decorative patterned tiles including an ice cream scoop element.
 0 Name: 10267 - snowblower.ldr
@@ -328,6 +334,7 @@
 1 15 -62 -38 20 0 1 0 0 0 -1 -1 0 0 6254.dat
 
 
+0 STEP
 0 FILE 10267 - green-present.ldr
 0 A small green gift present with a red bow clip and red plate ribbon, topped with a medium nougat pretzel accent.
 0 Name: 10267 - green-present.ldr
@@ -350,6 +357,7 @@
 1 84 0 -6 -30 0 -1 0 1 0 0 0 0 1 10170.dat
 
 
+0 STEP
 0 FILE 10267 - heart-present.ldr
 0 A red and dark pink heart-themed present built on a heart-shaped plate base with pearl gold and red corner tile decoration.
 0 Name: 10267 - heart-present.ldr
@@ -375,6 +383,7 @@
 1 4 -20 -8 -20 0 0 1 0 1 0 -1 0 0 25269.dat
 
 
+0 STEP
 0 FILE 10267 - train.ldr
 0 A small red and green toy train with a headlight brick, gold round plate accents, black slope details, clear plates for windows, and a tap element for detailing.
 0 Name: 10267 - train.ldr
@@ -430,6 +439,7 @@
 1 0 -10 0 56 1 0 0 0 1 0 0 0 1 10267 - train-step8.ldr
 
 
+0 STEP
 0 FILE 10267 - train-step8.ldr
 0 Additional train body segment with green plates, gold round accent plates, black side-stud bricks, and black double-corner rounded panels.
 0 Name: 10267 - train-step8.ldr
@@ -459,6 +469,7 @@
 1 0 0 -24 -10 -1 0 0 0 1 0 0 0 -1 23969.dat
 
 
+0 STEP
 0 FILE 10267 - chest.ldr
 0 A small lavender and lime treasure chest with curved-top bricks forming the lid and a lime clip plate as a decorative latch.
 0 Name: 10267 - chest.ldr
@@ -477,6 +488,7 @@
 1 30 10 -8 0 1 0 0 0 1 0 0 0 1 49307.dat
 
 
+0 STEP
 0 FILE 10267 - blue-present.ldr
 0 A medium blue and white gift present with a dark pink heart-shaped tile decoration on top.
 0 Name: 10267 - blue-present.ldr
@@ -495,6 +507,7 @@
 1 5 0 -24 0 1 0 0 0 1 0 0 0 1 39739.dat
 
 
+0 STEP
 0 FILE 10267 - rocking-horse.ldr
 0 A classic rocking horse built with tan and reddish brown plates and bricks for the body, red and lime accents, and lime inverted curved slopes forming the curved rockers.
 0 Name: 10267 - rocking-horse.ldr
@@ -554,6 +567,7 @@
 1 27 -20 24 0 0 0 1 0 1 0 -1 0 0 3069b.dat
 
 
+0 STEP
 0 FILE 10267 - lorry.ldr
 0 A small toy lorry/truck with a yellow base plate, white curved-top bricks, clear plates, dark tan tile detail, and black roller skate elements serving as wheels.
 0 Name: 10267 - lorry.ldr
@@ -579,6 +593,7 @@
 1 0 0 8 20 -1 0 0 0 1 0 0 0 -1 11253.dat
 
 
+0 STEP
 0 FILE 10267 - mom-gingerbread.ldr
 0 A gingerbread mom minifigure, represented here by medium nougat hips and legs.
 0 Name: 10267 - mom-gingerbread.ldr
@@ -590,6 +605,7 @@
 1 84 0 0 0 1 0 0 0 1 0 0 0 1 3815c01.dat
 
 
+0 STEP
 0 FILE 10267 - dad-gingerbread.ldr
 0 A gingerbread dad minifigure, represented here by medium nougat hips and legs.
 0 Name: 10267 - dad-gingerbread.ldr
@@ -601,6 +617,7 @@
 1 84 0 0 0 1 0 0 0 1 0 0 0 1 3815c01.dat
 
 
+0 STEP
 0 FILE 10267 - house.ldr
 0 The main gingerbread house structure: a large two-story cottage with medium nougat embossed brick walls, a reddish brown and dark green roof, colorful candy decorations (glitter trans-pink and trans-purple bricks, bright pink swirl tiles), windows, doors, a fireplace with flames, log-textured bricks, and ornate architectural detailing throughout.
 0 Name: 10267 - house.ldr
@@ -2244,6 +2261,7 @@
 1 15 -210 -14 -290 -0.924 0 0.383 0.383 0 0.924 0 1 0 10267 - house-step223-230.ldr
 
 
+0 STEP
 0 FILE 10267 - house-step36.ldr
 0 Window assembly section with green door rails framing glitter trans-pink and trans-purple candy bricks, topped with white plates and a grooved tile.
 0 Name: 10267 - house-step36.ldr
@@ -2281,6 +2299,7 @@
 1 15 0 -72 0 1 0 0 0 1 0 0 0 1 2431.dat
 
 
+0 STEP
 0 FILE 10267 - house-step50.ldr
 0 A small chimney or vent detail with a black inverted dish, black round plates, a trans-yellow round brick, and a paint roller brush handle element.
 0 Name: 10267 - house-step50.ldr
@@ -2300,6 +2319,7 @@
 1 0 0 -31 45 0 0 -1 -1 0 0 0 1 0 12885.dat
 
 
+0 STEP
 0 FILE 10267 - house-step51-59.ldr
 0 Interior kitchen detail featuring a light bluish grey oven/microwave box with clear door, headlight bricks, taps as faucet knobs, a yellow cup, and frosted cookie-patterned tiles.
 0 Name: 10267 - house-step51-59.ldr
@@ -2366,6 +2386,7 @@
 1 71 40 -80 10 -1 0 0 0 1 0 0 0 -1 4599b.dat
 
 
+0 STEP
 0 FILE 10267 - house-step60.ldr
 0 Interior detail with dark blue and dark azure brickwork, spiral-patterned tiles, a yellow cup, and a frosted cookie-patterned tile, suggesting a kitchen counter or stove area.
 0 Name: 10267 - house-step60.ldr
@@ -2417,6 +2438,7 @@
 1 84 20 -48 -10 1 0 0 0 1 0 0 0 1 98138p0a.dat
 
 
+0 STEP
 0 FILE 10267 - house-step66-1.ldr
 0 A decorative candle element with a pearl gold flower plate base, white cylinder body, and trans-orange flame.
 0 Name: 10267 - house-step66-1.ldr
@@ -2432,6 +2454,7 @@
 1 57 0 -31 0 -1 0 0 0 1 0 0 0 -1 37775.dat
 
 
+0 STEP
 0 FILE 10267 - house-step66-2.ldr
 0 A small decorative detail with a white bracket, red and green tiles, and a red round-end plate, possibly a wall plaque or small sign.
 0 Name: 10267 - house-step66-2.ldr
@@ -2449,6 +2472,7 @@
 1 2 -20 -8 -20 1 0 0 0 1 0 0 0 1 24246.dat
 
 
+0 STEP
 0 FILE 10267 - house-step67.ldr
 0 A tan and reddish brown architectural section with curved-top bricks, chamfered indented tiles, and grooved tiles, forming part of the house's decorative stonework or trim.
 0 Name: 10267 - house-step67.ldr
@@ -2518,6 +2542,7 @@
 1 19 30 -64 0 -1 0 0 0 1 0 0 0 -1 3069b.dat
 
 
+0 STEP
 0 FILE 10267 - house-step69.ldr
 0 A small structural section with medium nougat and dark orange embossed bricks, a technic axle and bush mechanism, and reddish brown and white plates.
 0 Name: 10267 - house-step69.ldr
@@ -2549,6 +2574,7 @@
 1 84 66 -4 0 0 -1 0 0 0 -1 1 0 0 87580.dat
 
 
+0 STEP
 0 FILE 10267 - house-step82-92.ldr
 0 Roof section with white curved slopes, tiles, and rocky claw plates forming a snow-capped gable, plus colorful round groove tiles as candy decorations and technic hinge connectors for the roof angle.
 0 Name: 10267 - house-step82-92.ldr
@@ -2613,6 +2639,7 @@
 1 15 -50 -10 60 0 0 -1 0 1 0 1 0 0 3024.dat
 
 
+0 STEP
 0 FILE 10267 - house-step93-101.ldr
 0 Snow-covered roof section built on a reddish brown plate base with white curved slopes, tiles, and claw details, decorated with colorful candy groove tiles and hinged via technic connectors.
 0 Name: 10267 - house-step93-101.ldr
@@ -2681,6 +2708,7 @@
 1 15 -50 0 80 1 0 0 0 1 0 0 0 1 32013.dat
 
 
+0 STEP
 0 FILE 10267 - house-step102.ldr
 0 A small technic hinge/pin connector assembly using pin joiners, friction pins, and a spiral-patterned decorative tile.
 0 Name: 10267 - house-step102.ldr
@@ -2702,6 +2730,7 @@
 1 15 28 0 0 0 -1 0 1 0 0 0 0 1 98138p0d.dat
 
 
+0 STEP
 0 FILE 10267 - house-step115-125.ldr
 0 Another snow-capped roof gable section on a reddish brown base with white slopes, tiles, and claw details, a white wing piece, colorful candy tiles, and technic hinge connectors.
 0 Name: 10267 - house-step115-125.ldr
@@ -2766,6 +2795,7 @@
 1 15 10 0 120 1 0 0 0 1 0 0 0 1 32013.dat
 
 
+0 STEP
 0 FILE 10267 - house-step126-134.ldr
 0 A snow-capped roof section with a white wing element, curved slopes, tiles and claws, colorful candy groove tiles, and technic hinge connectors for the angled roof.
 0 Name: 10267 - house-step126-134.ldr
@@ -2833,6 +2863,7 @@
 1 15 10 0 120 1 0 0 0 1 0 0 0 1 32013.dat
 
 
+0 STEP
 0 FILE 10267 - house-step135.ldr
 0 A small technic pin connector joint with a pin joiner, friction pin, and a spiral-patterned decorative tile.
 0 Name: 10267 - house-step135.ldr
@@ -2850,6 +2881,7 @@
 1 15 28 0 0 0 -1 0 1 0 0 0 0 1 98138p0d.dat
 
 
+0 STEP
 0 FILE 10267 - house-step149.ldr
 0 A small white and tan decorative architectural detail with curved slopes and side-stud bricks, part of the roofline or trim.
 0 Name: 10267 - house-step149.ldr
@@ -2873,6 +2905,7 @@
 1 15 40 0 10 -1 0 0 0 0 -1 0 -1 0 11477.dat
 
 
+0 STEP
 0 FILE 10267 - house-step156-160.ldr
 0 A technic mechanism assembly with liftarms, axles, axle joiners, a long bar, and a white ice cream scoop element, likely part of a windmill or rotating feature.
 0 Name: 10267 - house-step156-160.ldr
@@ -2898,6 +2931,7 @@
 1 15 0 -220.5 0 1 0 0 0 1 0 0 0 1 6254.dat
 
 
+0 STEP
 0 FILE 10267 - house-step169.ldr
 0 A decorative garden or landscape section with a white plate base, bright pink plates, reddish brown round plates, medium nougat curved bricks, and numerous tan chamfered tiles.
 0 Name: 10267 - house-step169.ldr
@@ -2960,6 +2994,7 @@
 1 84 -50 -32 0 0 0 -1 0 1 0 1 0 0 3069b.dat
 
 
+0 STEP
 0 FILE 10267 - house-step170.ldr
 0 A detailed small feature with a round axlehole plate, a bright pink beehive, white bricks, a trans-yellow round brick, and reddish brown round plates, likely a decorative garden element.
 0 Name: 10267 - house-step170.ldr
@@ -2998,6 +3033,7 @@
 1 29 0 -104 0 1 0 0 0 1 0 0 0 1 35574.dat
 
 
+0 STEP
 0 FILE 10267 - house-step171.ldr
 0 A dark azure window assembly with glass, brackets, and bright pink round tiles with pin holes for mounting.
 0 Name: 10267 - house-step171.ldr
@@ -3023,6 +3059,7 @@
 1 29 20 0 0 1 0 0 0 -1 0 0 0 -1 20482.dat
 
 
+0 STEP
 0 FILE 10267 - house-step172-181.ldr
 0 A large snow-covered roof section on a reddish brown base with white curved slopes, long tiles, and claw details, decorated with colorful candy groove tiles and connected via technic hinge and angle connectors.
 0 Name: 10267 - house-step172-181.ldr
@@ -3108,6 +3145,7 @@
 1 15 10 0 -180 -1 0 0 0 1 0 0 0 -1 32013.dat
 
 
+0 STEP
 0 FILE 10267 - house-step182-188.ldr
 0 A snow-capped roof corner section on a reddish brown notched plate base with white curved slopes, inverted slopes, tiles, and colorful candy groove tiles, joined by technic angle connectors.
 0 Name: 10267 - house-step182-188.ldr
@@ -3168,6 +3206,7 @@
 1 15 0 -2 -30 0 0 -1 0 1 0 1 0 0 60478.dat
 
 
+0 STEP
 0 FILE 10267 - house-step190-200.ldr
 0 Two large snow-covered roof panels on reddish brown bases with white curved slopes, claw plates, long tiles, colorful candy decorations, white rimmed dishes, and technic hinge connectors.
 0 Name: 10267 - house-step190-200.ldr
@@ -3280,6 +3319,7 @@
 1 15 -30 0 -240 -1 0 0 0 1 0 0 0 -1 32013.dat
 
 
+0 STEP
 0 FILE 10267 - house-step201-209.ldr
 0 A snow-capped roof section on a reddish brown notched plate base with white curved slopes, inverted slopes, tiles, colorful candy groove tiles, and technic angle connectors for the roof structure.
 0 Name: 10267 - house-step201-209.ldr
@@ -3352,6 +3392,7 @@
 1 15 0 -2 30 0 0 1 0 1 0 -1 0 0 60478.dat
 
 
+0 STEP
 0 FILE 10267 - house-step211-220.ldr
 0 A roof base section with reddish brown plates and wings, white tiles and grooved details, colorful candy groove tiles, and reddish brown inverted curved slopes forming the eaves.
 0 Name: 10267 - house-step211-220.ldr
@@ -3427,6 +3468,7 @@
 1 70 40 -2 20 0 0 -1 0 1 0 1 0 0 24201.dat
 
 
+0 STEP
 0 FILE 10267 - house-step221.ldr
 0 A small decorative gable or finial detail with reddish brown plates, slopes, clip plates, and a tan handle plate, accented with red and bright green clip elements.
 0 Name: 10267 - house-step221.ldr
@@ -3456,6 +3498,7 @@
 1 10 -10 -10 -22 -1 0 0 0 0 1 0 1 0 61252.dat
 
 
+0 STEP
 0 FILE 10267 - house-step222.ldr
 0 A technic hinge joint assembly using white and yellow elbow cylinders, axle pins, pin joiners, and a notched axle for a connecting or pivoting mechanism.
 0 Name: 10267 - house-step222.ldr
@@ -3492,6 +3535,7 @@
 1 14 60 0 -180 1 0 0 0 1 0 0 0 1 25214.dat
 
 
+0 STEP
 0 FILE 10267 - house-step223-230.ldr
 0 A technic hinge and pipe assembly with white and red elbow cylinders, axle pins, pin joiners, a bar-with-clip element, and a dark red grooved tile, forming a pivoting structural connection.
 0 Name: 10267 - house-step223-230.ldr
@@ -3537,6 +3581,7 @@
 1 320 60 -10 -112 1 0 0 0 1 0 0 0 1 2431.dat
 
 
+0 STEP
 0 FILE 10267 - 35649.dat
 0 A custom-molded LEGO part (part 35649) primitive definition file with no directly-listed pieces; serves as a subpart reference.
 0 Name: 10267 - 35649.dat
@@ -3549,6 +3594,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\10267 - 35649s01.dat
 4 16 0 -8 -20.459 9.884 -8 -0.692 0 -8 9.192 -9.884 -8 -0.692
 
+0 STEP
 0 FILE 10267 - 20310.dat
 0 A custom-molded LEGO part (part 20310) defined with geometric primitives including boxes, discs, cylinders, rings, and circles, forming a complex rounded element.
 0 Name: 10267 - 20310.dat
@@ -3660,6 +3706,7 @@
 5 24 0.5 13.98762 -17.73238 -0.5 13.98762 -17.73238 1.25 11.537232 -17 0.5 15.49 -19.976021
 5 24 -1.25 11.537232 -17 1.25 11.537232 -17 2.75 8.3 -17 0.5 13.98762 -17.73238
 
+0 STEP
 0 FILE s\10267 - 20310s01.dat
 0 A subpart of part 20310 defining spiral sections, grooves, side walls, and conditional lines that form the part's detailed geometry.
 0 Name: s\10267 - 20310s01.dat
@@ -4078,6 +4125,7 @@
 5 1 8.6 7.25296 -12.99704 8.4 6.37832 -16.36179 8.3 4.78376 -15.22624 8.5 8.3 -16.77
 
 
+0 STEP
 0 FILE s\10267 - 35649s01.dat
 0 A subpart of part 35649 built from cylinders, discs, chords, rectangles, and conditional line geometry, defining the part's detailed molded shape including a tip and top surface.
 0 Name: s\10267 - 35649s01.dat

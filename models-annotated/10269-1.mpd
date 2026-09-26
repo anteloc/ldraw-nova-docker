@@ -274,6 +274,7 @@
 1 72 0 0 0 0 0 -1 0 1 0 1 0 0 10269 - step271.ldr
 
 
+0 STEP
 0 FILE 10269 - step11.ldr
 0 Front fork mount subassembly with ball joints and slope piece, forming the steering connection point.
 0 Name: 10269 - step11.ldr
@@ -307,6 +308,7 @@
 1 0 -50 -2 20 0 0 -1 0 1 0 1 0 0 32557.dat
 
 
+0 STEP
 0 FILE 10269 - step13.ldr
 0 Small steering linkage connector using axle joiners and a perpendicular extension hub.
 0 Name: 10269 - step13.ldr
@@ -328,6 +330,7 @@
 1 71 20 -20 140 0 1 0 0 0 1 1 0 0 3713.dat
 
 
+0 STEP
 0 FILE 10269 - step16.ldr
 0 Front fork section with hinge plates, a 2-blade rotor, and a corner technic brick forming the steering head structure.
 0 Name: 10269 - step16.ldr
@@ -362,6 +365,7 @@
 1 0 -30 -48 0 0 0 1 0 1 0 -1 0 0 92946.dat
 
 
+0 STEP
 0 FILE 10269 - step16-1.ldr
 0 Upper fork cover using hinge plates and a curved slope piece with a technic brick for rigidity.
 0 Name: 10269 - step16-1.ldr
@@ -385,6 +389,7 @@
 1 0 -10 -8 -10 0 0 1 0 1 0 -1 0 0 6141.dat
 
 
+0 STEP
 0 FILE 10269 - step17-57.ldr
 0 Engine cylinder block subassembly with gears (8, 16, 24 tooth), an arch, and plates forming the engine housing.
 0 Name: 10269 - step17-57.ldr
@@ -507,6 +512,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10269 - step27.ldr
 0 Small linkage assembly using technic beams, pins, and a lightsaber bar for a connecting rod.
 0 Name: 10269 - step27.ldr
@@ -530,6 +536,7 @@
 1 0 -40 0 40 0 1 0 -1 0 0 0 0 1 30374.dat
 
 
+0 STEP
 0 FILE 10269 - step28.ldr
 0 Gear train subassembly with 8-tooth and 24-tooth gears on axles for drivetrain power transfer.
 0 Name: 10269 - step28.ldr
@@ -552,6 +559,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10269 - step29-34.ldr
 0 Crankshaft assembly using engine crankshaft parts, an axle, and thin liftarm beams.
 0 Name: 10269 - step29-34.ldr
@@ -578,6 +586,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10269 - step33.ldr
 0 Reel or spool assembly with two technic reels on an axle, connected via a toggle joint.
 0 Name: 10269 - step33.ldr
@@ -597,6 +606,7 @@
 1 71 10 0 -60 0 0 -1 0 -1 0 -1 0 0 61510.dat
 
 
+0 STEP
 0 FILE 10269 - step35-42.ldr
 0 Engine block side panel with technic bricks, clip plates, and slopes forming the engine casing detail.
 0 Name: 10269 - step35-42.ldr
@@ -646,6 +656,7 @@
 1 71 -160 -56 0 0 0 1 0 1 0 -1 0 0 54200.dat
 
 
+0 STEP
 0 FILE 10269 - step44.ldr
 0 Small mounting bracket using a 2-pin brick, technic tile with holes, and connector pins.
 0 Name: 10269 - step44.ldr
@@ -663,6 +674,7 @@
 1 0 0 -30 -20 0 -1 0 0 0 1 -1 0 0 18651.dat
 
 
+0 STEP
 0 FILE 10269 - step45.ldr
 0 Engine mounting plate assembly with technic bricks, offset peghole plate, and slope details.
 0 Name: 10269 - step45.ldr
@@ -690,6 +702,7 @@
 1 71 20 -32 0 0 0 -1 0 1 0 1 0 0 54200.dat
 
 
+0 STEP
 0 FILE 10269 - step46-48-1.ldr
 0 Wheel hub and fender subassembly with round plates, corner plates, clips, and handle plates forming a wheel area structure.
 0 Name: 10269 - step46-48-1.ldr
@@ -749,6 +762,7 @@
 1 71 -60 -74 -10 0 0 -1 0 1 0 1 0 0 2420.dat
 
 
+0 STEP
 0 FILE 10269 - step46-48-2.ldr
 0 Mirror of step46-48-1; second wheel hub and fender subassembly with identical round plates and corner pieces.
 0 Name: 10269 - step46-48-2.ldr
@@ -808,6 +822,7 @@
 1 71 -60 -74 -10 0 0 -1 0 1 0 1 0 0 2420.dat
 
 
+0 STEP
 0 FILE 10269 - step51.ldr
 0 Front fender section with round plate, curved wedge, and corner plates forming a contoured fender shape.
 0 Name: 10269 - step51.ldr
@@ -838,6 +853,7 @@
 1 71 30 -24 0 0 0 1 0 1 0 -1 0 0 45677.dat
 
 
+0 STEP
 0 FILE 10269 - step53.ldr
 0 Rear fender section with round plate, curved wedge, and corner plates mirroring the front fender styling.
 0 Name: 10269 - step53.ldr
@@ -868,6 +884,7 @@
 1 71 30 -24 0 0 0 1 0 1 0 -1 0 0 45677.dat
 
 
+0 STEP
 0 FILE 10269 - step54.ldr
 0 Small antenna/mirror detail piece with two flat-top antennas on a rounded end plate.
 0 Name: 10269 - step54.ldr
@@ -883,6 +900,7 @@
 1 71 0 84 -10 1 0 0 0 1 0 0 0 1 3957b.dat
 
 
+0 STEP
 0 FILE 10269 - step55.ldr
 0 Brake disc assembly with two technic discs, a 28-tooth gear, and a round tile on a studded axle.
 0 Name: 10269 - step55.ldr
@@ -902,6 +920,7 @@
 1 71 38 0 0 0 -1 0 1 0 0 0 0 1 14769.dat
 
 
+0 STEP
 0 FILE 10269 - step56.ldr
 0 Hub cap subassembly with two round axlehole plates and a round tile secured by a friction pin.
 0 Name: 10269 - step56.ldr
@@ -919,6 +938,7 @@
 1 71 24 0 0 0 -1 0 1 0 0 0 0 1 14769.dat
 
 
+0 STEP
 0 FILE 10269 - step58-65.ldr
 0 Engine crankcase or transmission subassembly with technic bricks, beams, pins, and slope pieces forming the lower engine.
 0 Name: 10269 - step58-65.ldr
@@ -975,6 +995,7 @@
 1 14 -30 -32 -40 0 0 1 0 1 0 -1 0 0 54200.dat
 
 
+0 STEP
 0 FILE 10269 - step68-74.ldr
 0 Frame backbone subassembly with a long 14-stud technic brick, beams, and pins connecting the chassis structure.
 0 Name: 10269 - step68-74.ldr
@@ -1033,6 +1054,7 @@
 1 0 -120 0 20 0 0 -1 0 1 0 1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 10269 - step75-80.ldr
 0 Swingarm pivot subassembly with towball pin, technic bricks, plates, and an inverted slope forming the rear suspension mount.
 0 Name: 10269 - step75-80.ldr
@@ -1080,6 +1102,7 @@
 1 0 80 72 0 1 0 0 0 1 0 0 0 1 32529.dat
 
 
+0 STEP
 0 FILE 10269 - step81.ldr
 0 Rear wheel assembly with motorcycle wheels, a 40-tooth gear, brake disc, and rubber tyre on a solid axle.
 0 Name: 10269 - step81.ldr
@@ -1122,6 +1145,7 @@
 1 256 30 0 0 0 0 -1 1 0 0 0 -1 0 10269 - 46335.dat
 
 
+0 STEP
 0 FILE 10269 - step83-91.ldr
 0 Rear suspension linkage with cross blocks, liftarms, pins, and axles forming the swingarm articulation.
 0 Name: 10269 - step83-91.ldr
@@ -1166,6 +1190,7 @@
 1 1 30 0 -60 0 -1 0 1 0 0 0 0 1 6558.dat
 
 
+0 STEP
 0 FILE 10269 - step92-97.ldr
 0 Second swingarm pivot subassembly mirroring step75-80 with towball pin, technic bricks, and inverted slope.
 0 Name: 10269 - step92-97.ldr
@@ -1213,6 +1238,7 @@
 1 0 80 72 0 1 0 0 0 1 0 0 0 1 32529.dat
 
 
+0 STEP
 0 FILE 10269 - step98.ldr
 0 Chain drive made of 43 technic chain links forming the motorcycle's drive chain around sprockets.
 0 Name: 10269 - step98.ldr
@@ -1328,6 +1354,7 @@
 1 16 -49.874393 3.199646 0 0 0.975075 0.221874 0 -0.221874 0.975075 1 0 0 3711.dat
 
 
+0 STEP
 0 FILE 10269 - step99.ldr
 0 Chain guard and gear rack base plate with clip plates and a bar, forming the under-frame drivetrain cover.
 0 Name: 10269 - step99.ldr
@@ -1360,6 +1387,7 @@
 1 0 -40 0 0 0 1 0 0 0 -1 -1 0 0 30374.dat
 
 
+0 STEP
 0 FILE 10269 - step101-107.ldr
 0 Front engine cover with grille slopes, bracket, bent beam, and curved slope pieces forming the engine side panel.
 0 Name: 10269 - step101-107.ldr
@@ -1410,6 +1438,7 @@
 1 19 10 -56 -10 -1 0 0 0 1 0 0 0 -1 3623.dat
 
 
+0 STEP
 0 FILE 10269 - step108-115.ldr
 0 Kickstand or side detail subassembly with yellow brick, offset plates, axle joiners, and pins forming a deployable strut.
 0 Name: 10269 - step108-115.ldr
@@ -1454,6 +1483,7 @@
 1 72 -100 32 -60 0 0 -1 0 1 0 1 0 0 11214.dat
 
 
+0 STEP
 0 FILE 10269 - step116-127.ldr
 0 Fuel tank subassembly in dark red with curved slopes, brackets, and plates forming the large contoured fuel tank.
 0 Name: 10269 - step116-127.ldr
@@ -1598,6 +1628,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10269 - step130.ldr
 0 Small exhaust pipe tip detail with a cone stop, round plate, and orange translucent element.
 0 Name: 10269 - step130.ldr
@@ -1615,6 +1646,7 @@
 1 71 46 0 26 -1 0 0 0 0 -1 0 -1 0 59900.dat
 
 
+0 STEP
 0 FILE 10269 - step131.ldr
 0 Taillight subassembly with red translucent tiles, hinge plates, and locking hinges forming the rear light housing.
 0 Name: 10269 - step131.ldr
@@ -1647,6 +1679,7 @@
 1 71 0 -15.424 -46.39 1 0 0 0 0.966 0.259 0 -0.259 0.966 26603.dat
 
 
+0 STEP
 0 FILE 10269 - step132-138.ldr
 0 Mirror of step101-107; second engine cover side with grille slopes, bracket, bent beam, and curved slope pieces.
 0 Name: 10269 - step132-138.ldr
@@ -1697,6 +1730,7 @@
 1 19 10 -56 10 1 0 0 0 1 0 0 0 1 3623.dat
 
 
+0 STEP
 0 FILE 10269 - step139.ldr
 0 Rear mount plate assembly with corner round plate, axlehole plate, and grooved tiles forming a connection hub.
 0 Name: 10269 - step139.ldr
@@ -1725,6 +1759,7 @@
 1 71 0 0 0 0 0 1 0 1 0 -1 0 0 2460.dat
 
 
+0 STEP
 0 FILE 10269 - step140.ldr
 0 Flywheel or pulley subassembly with technic bricks, a 3x3 disc, perpendicular pin axle, and slope details.
 0 Name: 10269 - step140.ldr
@@ -1758,6 +1793,7 @@
 1 71 27 10 0 0 -1 0 1 0 0 0 0 1 2723.dat
 
 
+0 STEP
 0 FILE 10269 - step141-156.ldr
 0 Front fairing and engine guard subassembly with curved slopes, inverted arches, sand blue side panels, and plates.
 0 Name: 10269 - step141-156.ldr
@@ -1849,6 +1885,7 @@
 1 0 -40 16 30 -1 0 0 0 1 0 0 0 -1 3024.dat
 
 
+0 STEP
 0 FILE 10269 - step157.ldr
 0 Small engine detail block with a yellow brick, black plates, and a grey brick forming a mounting point.
 0 Name: 10269 - step157.ldr
@@ -1866,6 +1903,7 @@
 1 71 50 0 0 0 0 1 0 1 0 -1 0 0 3005.dat
 
 
+0 STEP
 0 FILE 10269 - step160.ldr
 0 Front cowl or fairing piece with multiple curved slopes, cutout slopes, and contoured plates forming the nose shape.
 0 Name: 10269 - step160.ldr
@@ -1918,6 +1956,7 @@
 1 0 40 8 30 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 10269 - step161-172.ldr
 0 Right saddlebag subassembly in dark red with wings, wedges, curved slopes, and dome corner bricks forming a storage bag.
 0 Name: 10269 - step161-172.ldr
@@ -1997,6 +2036,7 @@
 1 15 -80 18 10 0 0 -1 0 1 0 1 0 0 18654.dat
 
 
+0 STEP
 0 FILE 10269 - step187-198.ldr
 0 Left saddlebag subassembly mirroring step161-172 with wings, wedges, curved slopes, and dome corner bricks.
 0 Name: 10269 - step187-198.ldr
@@ -2076,6 +2116,7 @@
 1 15 -80 18 -10 0 0 -1 0 1 0 1 0 0 18654.dat
 
 
+0 STEP
 0 FILE 10269 - step173-185.ldr
 0 Right exhaust pipe assembly with jet engine piece, round barrels, elbow cylinders, and a long axle forming the dual exhaust.
 0 Name: 10269 - step173-185.ldr
@@ -2136,6 +2177,7 @@
 1 71 0 0 -196 0 0 -1 -1 0 0 0 1 0 2489.dat
 
 
+0 STEP
 0 FILE 10269 - step186.ldr
 0 Exhaust hanger bracket using a hinge tile, angle connector, and notched axle to mount the pipe.
 0 Name: 10269 - step186.ldr
@@ -2155,6 +2197,7 @@
 1 71 0 0 0 1 0 0 0 0 -1 0 1 0 32013.dat
 
 
+0 STEP
 0 FILE 10269 - step199-212.ldr
 0 Dashboard and headlight nacelle subassembly with headlight bricks, dish, round plates, hinge arms, and contoured tiles.
 0 Name: 10269 - step199-212.ldr
@@ -2258,6 +2301,7 @@
 1 0 -112.426 -16.426 -50 0.707 -0.707 0 0.707 0.707 0 0 0 1 59443.dat
 
 
+0 STEP
 0 FILE 10269 - step213.ldr
 0 Front grille panel with grille tiles, corner round tiles, and a curved inverted slope forming the front air intake.
 0 Name: 10269 - step213.ldr
@@ -2290,6 +2334,7 @@
 1 0 30 -10 -30 1 0 0 0 1 0 0 0 1 32803.dat
 
 
+0 STEP
 0 FILE 10269 - step216.ldr
 0 Left exhaust pipe assembly mirroring step173-185 with jet engine, barrels, elbow cylinders, and angle connector.
 0 Name: 10269 - step216.ldr
@@ -2342,6 +2387,7 @@
 1 71 0 0 -196 0 0 1 1 0 0 0 1 0 2489.dat
 
 
+0 STEP
 0 FILE 10269 - step217-249.ldr
 0 Main frame body subassembly with long technic bricks, curved slopes, brackets, and axlehole bricks forming the twin frame rails.
 0 Name: 10269 - step217-249.ldr
@@ -2456,6 +2502,7 @@
 1 71 -282 0 60 0 0 1 0 1 0 -1 0 0 10269 - step239-248.ldr
 
 
+0 STEP
 0 FILE 10269 - step231-238.ldr
 0 Axle coupling subassembly with stop bush pins and three-axle bushes for connecting drivetrain shafts.
 0 Name: 10269 - step231-238.ldr
@@ -2478,6 +2525,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10269 - step231-235.ldr
 0 Right saddlebag lid subassembly in dark red with hinge plates, curved cutout slopes, and brackets forming the hinged cover.
 0 Name: 10269 - step231-235.ldr
@@ -2517,6 +2565,7 @@
 1 0 0 0 -20 0 0 1 0 -1 0 1 0 0 30553.dat
 
 
+0 STEP
 0 FILE 10269 - step237.ldr
 0 Left saddlebag lid subassembly mirroring step231-235 with hinge plates, curved cutout slopes, and brackets.
 0 Name: 10269 - step237.ldr
@@ -2558,6 +2607,7 @@
 1 320 -60 14 -20 0 0 1 0 1 0 -1 0 0 15068.dat
 
 
+0 STEP
 0 FILE 10269 - step239-248.ldr
 0 Exhaust support strut using a long axle, bushes, pin joiner, and a small beam for pipe bracing.
 0 Name: 10269 - step239-248.ldr
@@ -2584,6 +2634,7 @@
 1 71 135 0 0 0 0 1 0 1 0 -1 0 0 32123b.dat
 
 
+0 STEP
 0 FILE 10269 - step239-243.ldr
 0 Right muffler tip assembly with round barrels, a long 12-stud axle, angle connector, and round 2x2 plate forming the silencer.
 0 Name: 10269 - step239-243.ldr
@@ -2614,6 +2665,7 @@
 1 71 0 0 154 -1 0 0 0 0 1 0 1 0 4032a.dat
 
 
+0 STEP
 0 FILE 10269 - step245.ldr
 0 Front wheel hub detail with motorcycle wheel, racing tread tyre, round plates, and corner tiles forming the front rim.
 0 Name: 10269 - step245.ldr
@@ -2647,6 +2699,7 @@
 1 71 10 10 -34 1 0 0 0 0 -1 0 1 0 27925.dat
 
 
+0 STEP
 0 FILE 10269 - step250-259.ldr
 0 Front fork and triple tree subassembly with plates, technic bricks, curved slopes, a clear dish, and handlebar arm forming the steering column.
 0 Name: 10269 - step250-259.ldr
@@ -2730,6 +2783,7 @@
 1 0 -10 -54 0 0 -0.851 0.526 0 -0.526 -0.851 1 0 0 93609.dat
 
 
+0 STEP
 0 FILE 10269 - step260-270.ldr
 0 Exhaust tip detail assembly with elbow cylinders, angle connectors, clips, signal holders, and round tiles forming the pipe ends.
 0 Name: 10269 - step260-270.ldr
@@ -2800,6 +2854,7 @@
 1 71 201.418 -144.033 11.489 -0.612 0.354 0.707 -0.612 0.354 -0.707 -0.5 -0.866 0 14769.dat
 
 
+0 STEP
 0 FILE 10269 - step267.ldr
 0 Shift lever or foot control subassembly with control stick hinge, clip plates, and technic beam forming a foot peg.
 0 Name: 10269 - step267.ldr
@@ -2835,6 +2890,7 @@
 1 0 0 0 -60 0 0 -1 -1 0 0 0 1 0 18654.dat
 
 
+0 STEP
 0 FILE 10269 - step268.ldr
 0 Indicator light detail with a cone stop, round plate, and orange translucent element forming a turn signal.
 0 Name: 10269 - step268.ldr
@@ -2850,6 +2906,7 @@
 1 71 0 -20 0 1 0 0 0 1 0 0 0 1 59900.dat
 
 
+0 STEP
 0 FILE 10269 - step271.ldr
 0 Base display stand subassembly with plates, bricks, and slope bricks in dark bluish grey forming a presentation platform.
 0 Name: 10269 - step271.ldr
@@ -2890,6 +2947,7 @@
 1 72 0 -64 0 1 0 0 0 1 0 0 0 1 6192.dat
 
 
+0 STEP
 0 FILE 10269 - 46372.dat
 0 Technic connector part with axle holes forming a structural joining element.
 0 Name: 10269 - 46372.dat
@@ -2951,6 +3009,7 @@
 0 // Technic Connector Hole Long (main_colour)
 1 16 -20 0 0 0 0 1 -1 0 0 0 1 0 connhole.dat
 
+0 STEP
 0 FILE 10269 - 46334.dat
 0 Technic pulley/wheel part defined with rings, cylinders, and rectangles forming a grooved rim.
 0 Name: 10269 - 46334.dat
@@ -3242,6 +3301,7 @@
 5 24 71.228996 -41.125 3.444 71.228996 -41.125 -3.444 74.542 -34.759998 3.444 67.373001 -47.176998 -3.444
 5 24 67.375 -38.900002 -3.75 67.375 -38.900002 3.75 70.509003 -32.880001 -3.75 63.728001 -44.624001 3.75
 
+0 STEP
 0 FILE 10269 - 46335.dat
 0 Tire tread or thread element part for a pneumatic wheel.
 0 Name: 10269 - 46335.dat
@@ -3309,6 +3369,7 @@
 1 16 0 0 -21.25 -0.707107 0.707107 0 -0.707107 -0.707107 0 0 0 -1 s\88516s01.dat
 1 16 0 0 -21.25 -0.965926 -0.258819 0 0.258819 -0.965926 0 0 0 -1 s\88516s01.dat
 
+0 STEP
 0 FILE 10269 - 28192.dat
 0 Custom part file with no direct geometry pieces (empty placeholder).
 0 Name: 10269 - 28192.dat
@@ -3326,6 +3387,7 @@
 4 16 10 0 -10 10 0 10 -10 0 10 -10 0 -10
 4 16 10 0 -10 -10 0 -10 -10 20 -30 10 20 -30
 
+0 STEP
 0 FILE 10269 - 92582.dat
 0 Box-frame technic part defined with faced boxes and rectangles forming a hollow structural element.
 0 Name: 10269 - 92582.dat
@@ -3354,6 +3416,7 @@
 1 16 -10 0 -10 -1 0 0 0 1 0 0 0 -1 stud.dat
 
 
+0 STEP
 0 FILE 10269 - toothb28d.dat
 0 Gear tooth profile part defined with rectangles forming the teeth of a 28-tooth bevel gear.
 0 Name: 10269 - toothb28d.dat
@@ -3463,6 +3526,7 @@
 5 24 -2.056 -4 33.203999 -2.0562 -4 31.353901 -1.0282 -10 29.950001 -2.056 4 33.203999
 5 24 1.028 -6 36.287998 2.056 -4 33.203999 1.028 -4 36.287998 1.028 -10 29.950001
 
+0 STEP
 0 FILE s\10269 - 46372s01.dat
 0 Subpart of the technic connector with open cylinders, chords, and rectangles defining the axle hole geometry.
 0 Name: s\10269 - 46372s01.dat
@@ -3633,6 +3697,7 @@
 1 16 20 0 -9 -8.31492 0 3.44415 3.44415 0 8.31492 0 -1 0 3-16edge.dat
 2 24 6.3639 6.3639 -10 6.3639 6.3639 10
 
+0 STEP
 0 FILE s\10269 - 46334s01.dat
 0 Subpart of the pulley wheel with rings, cylinders, circles, and a peg hole end defining the rim profile.
 0 Name: s\10269 - 46334s01.dat
@@ -3759,6 +3824,7 @@
 4 16 44.622524 63.72958 2 38.898483 67.3759 2 32.880001 70.511002 2 14.044874 20.325544 1.75
 3 16 44.622524 63.72958 2 14.044874 20.325544 1.75 50.007027 59.597393 2
 
+0 STEP
 0 FILE s\10269 - 46334s02.dat
 0 Subpart of the pulley with a vertical piece and open cylinders defining the inner groove detail.
 0 Name: s\10269 - 46334s02.dat
@@ -4270,6 +4336,7 @@
 5 24 0 -21.25 94 0 -17.5 94 -8.193 -19 93.641998 8.193 -19 93.641998
 0 !LPE INLINE_END
 
+0 STEP
 0 FILE s\10269 - 28192s01.dat
 0 Subpart of part 28192 with faced boxes and rectangles defining the hollow structure edges.
 0 Name: s\10269 - 28192s01.dat
@@ -4323,6 +4390,7 @@
 0 // Rectangle (main_colour)
 1 16 0 22 -30 10 0 0 0 0 2 0 1 0 rect.dat
 
+0 STEP
 0 FILE s\10269 - 92582s01.dat
 0 Subpart of the box-frame element with cones, cylinders, discs, and rectangles defining the rounded structural geometry.
 0 Name: s\10269 - 92582s01.dat

@@ -11,6 +11,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 6835 - Spaceship.ldr
 
 
+0 STEP
 0 FILE 6835 - Spaceship - Cockpit.ldr
 0 An octagonal cockpit assembly featuring a dark blue canopy windscreen and a tool holder.
 0 Name: 6835 - Spaceship - Cockpit.ldr
@@ -29,6 +30,7 @@
 
 
 
+0 STEP
 0 FILE 6835 - Spaceship.ldr
 0 A saucer-shaped spacecraft hull with red wedge plates, jet engines, and a Spyrius machinery pattern tile.
 0 Name: 6835 - Spaceship.ldr
@@ -113,6 +115,7 @@
 1 0 -50 -46 30 0 0 -1 0 1 0 1 0 0 6835 - Spaceship - Cockpit.ldr
 
 
+0 STEP
 0 FILE 6835 - Minifig.ldr
 0 A Spyrius astronaut minifigure with a blue patterned torso, airtanks, red hips, and a headband pattern.
 0 Name: 6835 - Minifig.ldr
@@ -145,6 +148,7 @@
 1 0 0 44 0 1 0 0 0 0.984808 0.173648 0 -0.173648 0.984808 3817.dat
 
 
+0 STEP
 0 FILE 6835 - Minifig - Helmet.ldr
 0 A red helmet with a neon green visor.
 0 Name: 6835 - Minifig - Helmet.ldr

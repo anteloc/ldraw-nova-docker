@@ -20,6 +20,7 @@
 1 1 -184.999 0 -293.301 0.5 0 0.866 0 1 0 -0.866 0 0.5 4555 - minifig 2.ldr
 1 1 60 0 -140 0 0 1 0 1 0 -1 0 0 4555 - minifig 3.ldr
 0 NOFILE
+0 STEP
 0 FILE 4555 - building.ldr
 0 A multi-story building on a road baseplate featuring train tracks, a computer workstation with keyboard and screen, and yellow seating areas.
 
@@ -258,6 +259,7 @@
 0 // Train Track Rail Slotted Straight (light_grey)
 1 7 200 -480 10 -1 0 0 0 1 0 0 0 -1 3228b.dat
 0 NOFILE
+0 STEP
 0 FILE 4555 - gantry.ldr
 0 A large gantry crane structure built from long plates and grooved bricks, with a crane stand, hinges, and train wheels for mobility.
 
@@ -417,6 +419,7 @@
 0 // Panel  1 x  2 x  1 with Square Corners (black)
 1 0 -10 352 790 1 0 0 0 1 0 0 0 1 4865a.dat
 0 NOFILE
+0 STEP
 0 FILE 4555 - gantry - lift.ldr
 0 A crane lift assembly with door rails, a winch drum, and sloped bricks forming the lifting platform.
 
@@ -464,6 +467,7 @@
 0 // Slope Brick 33  2 x  4 Double (main_colour)
 1 16 -10 -112 0 -1 0 0 0 1 0 0 0 -1 3299.dat
 0 NOFILE
+0 STEP
 0 FILE 4555 - train car.ldr
 0 A railway freight car built on a 6x24 train base with sloped ends, train logo panels, and coupling cones.
 
@@ -552,6 +556,7 @@
 1 0 140.001 88 10.005 0 0 1 0 1 0 -1 0 0 4555 - train car - wheels.ldr
 1 0 -179.999 88 10.005 0 0 -1 0 1 0 1 0 0 4555 - train car - wheels.ldr
 0 NOFILE
+0 STEP
 0 FILE 4555 - train car - wheels.ldr
 0 A train bogie wheel assembly with single-axle wheelsets, a buffer beam, coupling, and magnet for connecting cars.
 
@@ -581,6 +586,7 @@
 0 // Train Bogie Plate with Long Pin (black)
 1 0 0 -72 0 0 0 1 0 1 0 -1 0 0 4092a.dat
 0 NOFILE
+0 STEP
 0 FILE 4555 - car.ldr
 0 A road vehicle built on a car base with wheel pins, windscreen tiles, and red light elements.
 
@@ -706,6 +712,7 @@
 0 // Windscreen  2 x  4 x  2 (trans_medium_blue)
 1 41 -90 -96 -10 0 0 1 0 1 0 -1 0 0 3823.dat
 0 NOFILE
+0 STEP
 0 FILE 4555 - small car.ldr
 0 A compact car with mudguards, a steering wheel, grille tiles, yellow lights, and four offset-tread tyres.
 
@@ -782,6 +789,7 @@
 0 // Tyre  6/ 50 x  8 Offset Tread (black)
 1 0 -140 5 -70 0 0 1 0 1 0 -1 0 0 3641.dat
 0 NOFILE
+0 STEP
 0 FILE 4555 - container 1.ldr
 0 A yellow-based cargo container with shuttered windows, paneled walls, and opening doors.
 
@@ -830,6 +838,7 @@
 0 // Door  1 x  2 x  3 Pane (main_colour)
 1 16 76.002 -24 34 0 0 -1 0 -1 0 -1 0 0 6546.dat
 0 NOFILE
+0 STEP
 0 FILE 4555 - container 2.ldr
 0 A cargo container fitted with three rubbish bins and inverted dishes as lids.
 
@@ -871,6 +880,7 @@
 0 // Dish  2 x  2 Inverted (dark_grey)
 1 8 -40.001 -72 -0.002 0 0 1 0 1 0 -1 0 0 4740.dat
 0 NOFILE
+0 STEP
 0 FILE 4555 - container 3.ldr
 0 A simple paneled cargo container with grooved tiles and long smooth tiles on its surfaces.
 
@@ -906,6 +916,7 @@
 0 // Tile  1 x  8 (main_colour)
 1 16 0 -96 -30 1 0 0 0 1 0 0 0 1 4162.dat
 0 NOFILE
+0 STEP
 0 FILE 4555 - minifig 1.ldr
 0 A minifigure worker wearing a green vest, sunglasses, and a white cap with a flat peak.
 
@@ -939,6 +950,7 @@
 0 // ~Minifig Cap with Long Flat Peak (Obsolete) (white)
 1 15 -0.008 -96 1.997 1 0 0.002 0 1 0 -0.002 0 1 4485.dat
 0 NOFILE
+0 STEP
 0 FILE 4555 - minifig 2.ldr
 0 A minifigure railway worker in a blue outfit with red vest, construction helmet, moustache, and a red hand truck.
 
@@ -974,6 +986,7 @@
 0 // ~Minifig Leg Right (Obsolete) (blue)
 1 1 0.879 -28 7.355 1 0 0 0 1 0 0 0 1 3816.dat
 0 NOFILE
+0 STEP
 0 FILE 4555 - minifig 3.ldr
 0 A minifigure railway conductor in a blue suit with train logo, carrying a radio and wearing a red police hat.
 

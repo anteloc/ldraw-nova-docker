@@ -13,6 +13,7 @@
 1 0 -90 0 0 1 0 0 0 1 0 0 0 1 41492 - Iron Man.ldr
 
 
+0 STEP
 0 FILE 41492 - Captain America.ldr
 0 A black base plate assembly with a #LEGOSDCC event tile serving as the Captain America display backing.
 0 Name: 41492 - Captain America.ldr
@@ -33,6 +34,7 @@
 1 0 0 -48 20 1 0 0 0 1 0 0 0 1 41492 - Captain America - 1.ldr
 
 
+0 STEP
 0 FILE 41492 - Captain America - 1.ldr
 0 The main Captain America bust built in blue and white with patterned star and stripe bricks, grey SNOT bricks, and tan detailing.
 0 Name: 41492 - Captain America - 1.ldr
@@ -176,6 +178,7 @@
 1 4 30 32 0 0 0 1 0 1 0 -1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 41492 - Captain America - 2.ldr
 0 A small blue and red assembly with a red clip plate forming a shoulder or accent element for Captain America.
 0 Name: 41492 - Captain America - 2.ldr
@@ -195,6 +198,7 @@
 
 
 
+0 STEP
 0 FILE 41492 - Captain America - 3.ldr
 0 A blue and red assembly holding the round Captain America shield with star pattern via a red clip plate.
 0 Name: 41492 - Captain America - 3.ldr
@@ -216,6 +220,7 @@
 
 
 
+0 STEP
 0 FILE 41492 - Iron Man.ldr
 0 A black base plate assembly with a #LEGOSDCC event tile serving as the Iron Man display backing.
 0 Name: 41492 - Iron Man.ldr
@@ -236,6 +241,7 @@
 1 0 0 -56 20 1 0 0 0 1 0 0 0 1 41492 - Iron Man - 1.ldr
 
 
+0 STEP
 0 FILE 41492 - Iron Man - 1.ldr
 0 The main Iron Man bust built in red and yellow with patterned arc reactor tiles, grey SNOT bricks, and corner plate detailing.
 0 Name: 41492 - Iron Man - 1.ldr
@@ -417,6 +423,7 @@
 1 43 -30 40 0 0 0 1 0 1 0 -1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 41492 - Iron Man - 2.ldr
 0 A small red assembly with a clip plate and sloped brick forming a shoulder or accent element for Iron Man.
 0 Name: 41492 - Iron Man - 2.ldr
@@ -437,6 +444,7 @@
 
 
 
+0 STEP
 0 FILE 41492 - Iron Man - 2 - 1.ldr
 0 A tiny transparent assembly with a round light blue disc representing Iron Man's glowing eye or arc reactor detail.
 0 Name: 41492 - Iron Man - 2 - 1.ldr
@@ -452,6 +460,7 @@
 1 43 0 -18 0 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 41492 - 87079pz5.dat
 0 A decorative tile submodel with the LEGO logo and white #LEGOSDCC pattern.
 0 Name: 41492 - 87079pz5.dat
@@ -948,6 +957,7 @@
 3 16 40 0 20 32.962 0 2.78 33.329 0 2.813
 
 
+0 STEP
 0 FILE 41492 - 3010pzc.dat
 0 A patterned brick submodel with three red vertical stripes on white.
 0 Name: 41492 - 3010pzc.dat
@@ -967,6 +977,7 @@
 4 4 -10.9 0 -10 -10.9 24 -10 10.9 24 -10 10.9 0 -10
 
 
+0 STEP
 0 FILE 41492 - 3010pzd.dat
 0 A patterned brick submodel with a black outlined white star on blue.
 0 Name: 41492 - 3010pzd.dat
@@ -1005,6 +1016,7 @@
 3 16 40 0 -10 13.23 7.44 -10 40 24 -10
 
 
+0 STEP
 0 FILE 41492 - 87079pz6.dat
 0 A patterned tile submodel with a black outlined white letter A.
 0 Name: 41492 - 87079pz6.dat
@@ -1045,6 +1057,7 @@
 4 16 -40 0 20 -12.95 0 16.05 12.95 0 16.05 40 0 20
 
 
+0 STEP
 0 FILE 41492 - 3069bpz6.dat
 0 A patterned tile submodel with dark red lines.
 0 Name: 41492 - 3069bpz6.dat
@@ -1110,6 +1123,7 @@
 3 16 20 0 10 18.38 0 9 19 0 9
 
 
+0 STEP
 0 FILE 41492 - 2431pz6.dat
 0 A patterned tile submodel composed of colored discs and rings forming a red, white, and yellow circular emblem.
 0 Name: 41492 - 2431pz6.dat
@@ -1164,6 +1178,7 @@
 3 320 39 0 -0.62 33.39 0 -2.98 39 0 -2.14
 
 
+0 STEP
 0 FILE 41492 - 88930pz2.dat
 0 A patterned curved slope submodel with a red trapezoid and two orange ovals.
 0 Name: 41492 - 88930pz2.dat
@@ -1186,6 +1201,7 @@
 5 24 -40 -7.528 -14.446 40 -7.528 -14.446 -40 -3.993 -20.008 -40 -10.501 -8.29
 
 
+0 STEP
 0 FILE s\41492 - logolego01.dat
 0 A submodel representing the LEGO logo.
 0 Name: s\41492 - logolego01.dat
@@ -1955,6 +1971,7 @@
 4 15 16.681 -4.048 0 13.389 -4.108 0 13.485 -4.038 0 16.659 -3.215 0
 
 
+0 STEP
 0 FILE s\41492 - 88930pz2s01.dat
 0 A half-section of the patterned curved slope with red trapezoid and orange ovals.
 0 Name: s\41492 - 88930pz2s01.dat

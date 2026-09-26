@@ -20,6 +20,7 @@
 
 
 
+0 STEP
 0 FILE 6378 - building.ldr
 0 A multi-story service station building constructed from white, yellow, and red bricks on a 32x32 road baseplate with windows, plates, and hinge details.
 0 Name: 6378 - building.ldr
@@ -525,6 +526,7 @@
 
 
 
+0 STEP
 0 FILE 6378 - car.ldr
 0 A red car built on a 4x10 car base with yellow accent plates, four grey wheels with black tyres, mudguards, and a steering wheel.
 0 Name: 6378 - car.ldr
@@ -638,6 +640,7 @@
 
 
 
+0 STEP
 0 FILE 6378 - minifig 1.ldr
 0 A minifigure worker wearing a blue cap, blue dungarees over a white torso, with standard grin expression.
 0 Name: 6378 - minifig 1.ldr
@@ -672,6 +675,7 @@
 
 
 
+0 STEP
 0 FILE 6378 - minifig 2.ldr
 0 A minifigure with shoulder-length black hair, a white Shell-logo torso, and blue legs with a standard grin expression.
 0 Name: 6378 - minifig 2.ldr
@@ -706,6 +710,7 @@
 
 
 
+0 STEP
 0 FILE 6378 - flexHose.ldr
 0 A flexible hose assembly made of 42 linked segments with end connectors, approximately 43 mm in length.
 0 Name: 6378 - flexHose.ldr

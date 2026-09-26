@@ -9,6 +9,7 @@
 
 
 
+0 STEP
 0 FILE 42077 - rearaxle.ldr
 0 Live rear axle assembly with a differential, bevel gears, CV joints, and portal wheel hubs for power transmission.
 0 Name: 42077 - rearaxle.ldr
@@ -159,6 +160,7 @@
 
 
 
+0 STEP
 0 FILE 42077 - engine.ldr
 0 Inline 6-cylinder piston engine with crankshafts, connecting rods, cylinder heads, and drive gearing.
 0 Name: 42077 - engine.ldr
@@ -277,6 +279,7 @@
 
 
 
+0 STEP
 0 FILE 42077 - shockabsbar.ldr
 0 Rear shock absorber mounting bar built from beams and cross blocks to support the suspension struts.
 0 Name: 42077 - shockabsbar.ldr
@@ -332,6 +335,7 @@
 
 
 
+0 STEP
 0 FILE 42077 - technicRibHoseLQ-1.ldr
 0 Flexible ribbed hose assembly composed of end and mid segments forming a curved pipe run.
 0 Name: 42077 - technicRibHoseLQ-1.ldr
@@ -455,6 +459,7 @@
 
 
 
+0 STEP
 0 FILE 42077 - technicRibHoseLQ-2.ldr
 0 Flexible ribbed hose assembly composed of end and mid segments forming a curved pipe run.
 0 Name: 42077 - technicRibHoseLQ-2.ldr
@@ -578,6 +583,7 @@
 
 
 
+0 STEP
 0 FILE 42077 - hoggear.ldr
 0 Steering hog gear mechanism with bevel gears, joiners, and a toggle connector to redirect steering input.
 0 Name: 42077 - hoggear.ldr
@@ -631,6 +637,7 @@
 
 
 
+0 STEP
 0 FILE 42077 - seat.ldr
 0 Racing seat built from bent liftarms and axles in blue and azure, forming a contoured driver's seat.
 0 Name: 42077 - seat.ldr
@@ -666,6 +673,7 @@
 
 
 
+0 STEP
 0 FILE 42077 - frontaxle.ldr
 0 Independent front suspension assembly with suspension arms, towball steering linkages, portal hubs, and liftarms.
 0 Name: 42077 - frontaxle.ldr
@@ -851,6 +859,7 @@
 
 
 
+0 STEP
 0 FILE 42077 - frontspoiler.ldr
 0 Front splitter/spoiler built from beams, a long axle, and smooth fairing panels for aerodynamic detailing.
 0 Name: 42077 - frontspoiler.ldr
@@ -889,6 +898,7 @@
 
 
 
+0 STEP
 0 FILE 42077 - headlight1.ldr
 0 Left headlight module with curved trans-clear elements, beams, and fairing panels forming the light housing.
 0 Name: 42077 - headlight1.ldr
@@ -949,6 +959,7 @@
 
 
 
+0 STEP
 0 FILE 42077 - headlight2.ldr
 0 Right headlight module with curved trans-clear elements, beams, and fairing panels forming the light housing.
 0 Name: 42077 - headlight2.ldr
@@ -1009,6 +1020,7 @@
 
 
 
+0 STEP
 0 FILE 42077 - hood1.ldr
 0 Left hood section with a long beam, curved fairing panels, and a bodywork panel forming the engine cover.
 0 Name: 42077 - hood1.ldr
@@ -1052,6 +1064,7 @@
 
 
 
+0 STEP
 0 FILE 42077 - hood2.ldr
 0 Right hood section with a long beam, curved fairing panels, and a bodywork panel forming the engine cover.
 0 Name: 42077 - hood2.ldr
@@ -1095,6 +1108,7 @@
 
 
 
+0 STEP
 0 FILE 42077 - roof.ldr
 0 Roof structure assembled from long beams and large curved panels forming the car's canopy.
 0 Name: 42077 - roof.ldr
@@ -1153,6 +1167,7 @@
 
 
 
+0 STEP
 0 FILE 42077 - technicFlexAxle-1.ldr
 0 Flexible Technic axle assembly routed through multiple segments forming a curved structural element.
 0 Name: 42077 - technicFlexAxle-1.ldr
@@ -3686,6 +3701,7 @@
 
 
 
+0 STEP
 0 FILE 42077 - door1.ldr
 0 Left door assembly with long beams, grille detail, and fairing panels forming the side bodywork.
 0 Name: 42077 - door1.ldr
@@ -3723,6 +3739,7 @@
 
 
 
+0 STEP
 0 FILE 42077 - door2.ldr
 0 Right door assembly with long beams, grille detail, and fairing panels forming the side bodywork.
 0 Name: 42077 - door2.ldr
@@ -3760,6 +3777,7 @@
 
 
 
+0 STEP
 0 FILE 42077 - rearroof.ldr
 0 Rear roof and quarter panel section built from beams, bent liftarms, and large smooth body panels.
 0 Name: 42077 - rearroof.ldr
@@ -3850,6 +3868,7 @@
 
 
 
+0 STEP
 0 FILE 42077 - technicFlexAxle-2.ldr
 0 Flexible Technic axle assembly routed through multiple segments forming a curved structural element.
 0 Name: 42077 - technicFlexAxle-2.ldr
@@ -6311,6 +6330,7 @@
 
 
 
+0 STEP
 0 FILE 42077 - technicFlexAxle-3.ldr
 0 Flexible Technic axle assembly routed through multiple segments forming a curved structural element.
 0 Name: 42077 - technicFlexAxle-3.ldr
@@ -8772,6 +8792,7 @@
 
 
 
+0 STEP
 0 FILE 42077 - back.ldr
 0 Rear bodywork section with panels, bent liftarms, and beams forming the back of the car.
 0 Name: 42077 - back.ldr
@@ -8864,6 +8885,7 @@
 
 
 
+0 STEP
 0 FILE 42077 - technicFlexAxle-4.ldr
 0 Short flexible Technic axle assembly routed through segments forming a curved structural element.
 0 Name: 42077 - technicFlexAxle-4.ldr
@@ -10852,6 +10874,7 @@
 
 
 
+0 STEP
 0 FILE 42077 - rearspoiler.ldr
 0 Rear wing spoiler with a large arched mudguard panel, bent panels, and angle connectors mounted on liftarms.
 0 Name: 42077 - rearspoiler.ldr
@@ -10917,6 +10940,7 @@
 
 
 
+0 STEP
 0 FILE 42077 - car.ldr
 0 Complete car chassis and bodywork integrating frame beams, drivetrain, suspension, panels, and aerodynamic parts.
 0 Name: 42077 - car.ldr
@@ -11974,6 +11998,7 @@
 
 
 
+0 STEP
 0 FILE 42077 - 32198.dat
 0 32198
 0 Name: 42077 - 32198.dat
@@ -12224,6 +12249,7 @@
 
 
 
+0 STEP
 0 FILE 42077 - 23801.dat
 0 23801
 0 Name: 42077 - 23801.dat
@@ -12323,6 +12349,7 @@
 1 16 0 -20 0 -1 0 0 0 1 0 0 0 1 connhol3.dat
 
 
+0 STEP
 0 FILE 42077 - ldcFlexAxleEndA.dat
 0 ldcFlexAxleEndA
 0 Name: 42077 - ldcFlexAxleEndA.dat
@@ -12341,6 +12368,7 @@
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
 
+0 STEP
 0 FILE 42077 - ldcFlexAxleEndB.dat
 0 ldcFlexAxleEndB
 0 Name: 42077 - ldcFlexAxleEndB.dat
@@ -12360,6 +12388,7 @@
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
 
+0 STEP
 0 FILE 42077 - ldcFlexAxleEndC.dat
 0 ldcFlexAxleEndC
 0 Name: 42077 - ldcFlexAxleEndC.dat
@@ -12378,6 +12407,7 @@
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
 
+0 STEP
 0 FILE 42077 - ldcFlexAxleEndD.dat
 0 ldcFlexAxleEndD
 0 Name: 42077 - ldcFlexAxleEndD.dat
@@ -12396,6 +12426,7 @@
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
 
+0 STEP
 0 FILE 42077 - ldcFlexAxleEndE.dat
 0 ldcFlexAxleEndE
 0 Name: 42077 - ldcFlexAxleEndE.dat
@@ -12414,6 +12445,7 @@
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
 
+0 STEP
 0 FILE 42077 - ldcFlexAxleEndF.dat
 0 ldcFlexAxleEndF
 0 Name: 42077 - ldcFlexAxleEndF.dat
@@ -12432,6 +12464,7 @@
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
 
+0 STEP
 0 FILE 42077 - ldcFlexAxleEndG.dat
 0 ldcFlexAxleEndG
 0 Name: 42077 - ldcFlexAxleEndG.dat
@@ -12450,6 +12483,7 @@
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
 
+0 STEP
 0 FILE 42077 - ldcFlexAxleMid.dat
 0 ldcFlexAxleMid
 0 Name: 42077 - ldcFlexAxleMid.dat
@@ -12469,6 +12503,7 @@
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
 
+0 STEP
 0 FILE 42077 - 6143.dat
 0 6143
 0 Name: 42077 - 6143.dat
@@ -12497,6 +12532,7 @@
 
 
 
+0 STEP
 0 FILE 42077 - toothb20.dat
 0 toothb20
 0 Name: 42077 - toothb20.dat
@@ -12543,6 +12579,7 @@
 5 24 0 -6.13 2 -1.582 0 0 0 -3.13 0 -2.07 -6.13 6.5
 
 
+0 STEP
 0 FILE s\42077 - 23801s01.dat
 0 23801s01
 0 Name: s\42077 - 23801s01.dat
@@ -13030,6 +13067,7 @@
 5 24 6.42908 -15.5212 -15 6.42908 -15.5212 -6.3 9.5671 -13.4246 -15 -0.000136 -16.800446 -15
 
 
+0 STEP
 0 FILE s\42077 - faxle1.dat
 0 faxle1
 0 Name: s\42077 - faxle1.dat
@@ -13065,6 +13103,7 @@
 1 16 0.4 0 0 0 -0.4 0 -1 0 0 0 0 1 axlehol8.dat
 
 
+0 STEP
 0 FILE s\42077 - faxle2.dat
 0 faxle2
 0 Name: s\42077 - faxle2.dat
@@ -13094,6 +13133,7 @@
 1 16 0 0 0 0 0.8 0 6 0 0 0 0 6 4-4cyli.dat
 
 
+0 STEP
 0 FILE s\42077 - faxle3.dat
 0 faxle3
 0 Name: s\42077 - faxle3.dat
@@ -13123,6 +13163,7 @@
 1 16 1.2 0 0 0 -1.2 0 -1 0 0 0 0 1 axlehol8.dat
 
 
+0 STEP
 0 FILE s\42077 - faxle4.dat
 0 faxle4
 0 Name: s\42077 - faxle4.dat
@@ -13152,6 +13193,7 @@
 1 16 0 0 0 0 1.6 0 6 0 0 0 0 6 4-4cyli.dat
 
 
+0 STEP
 0 FILE s\42077 - faxle5.dat
 0 faxle5
 0 Name: s\42077 - faxle5.dat

@@ -14,6 +14,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 885 - Scooter.ldr
 1 16 0 -16 60 1 0 0 0 1 0 0 0 1 885 - Minifig.ldr
 
+0 STEP
 0 FILE 885 - Scooter.ldr
 0 A small space scooter built from plates and angled wings, with a steering stand, classic space logo slope, and transparent trans-red and trans-dark-blue light elements.
 0 Name: 885 - Scooter.ldr
@@ -60,6 +61,7 @@
 0 // Antenna  4H with Rounded Top (light_grey)
 1 7 -50 -24 70 1 0 0 0 1 0 0 0 1 3957a.dat
 
+0 STEP
 0 FILE 885 - Minifig.ldr
 0 A red Classic Space minifigure with helmet, airtanks, printed torso, and standard grin head.
 0 Name: 885 - Minifig.ldr

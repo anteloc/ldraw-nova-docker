@@ -234,6 +234,7 @@
 
 
 
+0 STEP
 0 FILE 42088 - Headlights.ldr
 0 Front headlight assembly using orange angle connectors, bent liftarms, cross blocks, and trans-clear round plates mounted on an axle structure.
 0 Name: 42088 - Headlights.ldr
@@ -295,6 +296,7 @@
 
 
 
+0 STEP
 0 FILE 42088 - Worm Gear.ldr
 0 Worm gear winch mechanism with bent liftarms, half-bushes, a 2L worm gear, and axles for driving the tow cable spool.
 0 Name: 42088 - Worm Gear.ldr
@@ -363,6 +365,7 @@
 
 
 
+0 STEP
 0 FILE 42088 - Rear Lights.ldr
 0 Rear light bar with split cross blocks, half-bushes, and trans-red and trans-orange round plates serving as tail lights.
 0 Name: 42088 - Rear Lights.ldr
@@ -409,6 +412,7 @@
 
 
 
+0 STEP
 0 FILE 42088 - Winch.ldr
 0 Cable winch drum featuring a 24-tooth gear on a 4-stud axle with quarter-circle bent liftarms as support brackets.
 0 Name: 42088 - Winch.ldr
@@ -442,6 +446,7 @@
 
 
 
+0 STEP
 0 FILE 42088 - Boom.ldr
 0 Tow crane boom arm made of long white liftarms joined by pin connectors and an angle hub to allow articulation.
 0 Name: 42088 - Boom.ldr
@@ -494,6 +499,7 @@
 
 
 
+0 STEP
 0 FILE 42088 - 32905.dat
 0 Primitive subpart modeling the two-toothed sliding axle hole geometry using circles and cylinders.
 0 Name: 42088 - 32905.dat
@@ -518,6 +524,7 @@
 
 
 
+0 STEP
 0 FILE 42088 - axl4hol2.dat
 0 Primitive subpart representing the quarter-circle edges of a Technic axle hole.
 0 Name: 42088 - axl4hol2.dat
@@ -538,6 +545,7 @@
 
 
 
+0 STEP
 0 FILE 42088 - axl4hole.dat
 0 Primitive subpart defining the cylindrical surface and teeth of a Technic axle hole.
 0 Name: 42088 - axl4hole.dat
@@ -568,6 +576,7 @@
 
 
 
+0 STEP
 0 FILE 42088 - axl4hol3.dat
 0 Primitive subpart representing the small outer edge arcs of a Technic sliding axle hole.
 0 Name: 42088 - axl4hol3.dat
@@ -588,6 +597,7 @@
 
 
 
+0 STEP
 0 FILE s\42088 - 4716s02.dat
 0 Worm gear body subpart with no direct pieces, serving as an empty container for component geometry.
 0 Name: s\42088 - 4716s02.dat
@@ -687,6 +697,7 @@
 
 
 
+0 STEP
 0 FILE s\42088 - 4716s03.dat
 0 Worm gear end surface subpart composed of rings, discs, chords, and helical cylinder primitives.
 0 Name: s\42088 - 4716s03.dat
@@ -765,6 +776,7 @@
 
 
 
+0 STEP
 0 FILE s\42088 - 4716s01.dat
 0 Worm gear thread subpart defined by a single helical Bézier curve primitive.
 0 Name: s\42088 - 4716s01.dat
@@ -826,6 +838,7 @@
 
 
 
+0 STEP
 0 FILE 42088 - 1-4cyloh.dat
 0 Primitive subpart forming the helical edge curves of a quarter-cylinder worm gear thread.
 0 Name: 42088 - 1-4cyloh.dat
@@ -843,6 +856,7 @@
 
 
 
+0 STEP
 0 FILE 42088 - 1-4cylih.dat
 0 Primitive subpart representing a quarter-turn helical cylinder surface of the worm gear thread.
 0 Name: 42088 - 1-4cylih.dat

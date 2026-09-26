@@ -9,6 +9,7 @@
 
 
 
+0 STEP
 0 FILE 8820 - Mountain Rambler.ldr
 0 Chassis assembly featuring steering rack, 8-tooth gear, seat, and pin-connected Technic beams with axles and wheels.
 0 Name: 8820 - Mountain Rambler.ldr
@@ -188,6 +189,7 @@
 
 
 
+0 STEP
 0 FILE 8820 - Steering-Top.ldr
 0 Steering column top consisting of a steering top piece and gear holder.
 0 Name: 8820 - Steering-Top.ldr
@@ -206,6 +208,7 @@
 
 
 
+0 STEP
 0 FILE 8820 - Rear-Right-Side.ldr
 0 Right rear side frame built from pinned Technic bricks and plates.
 0 Name: 8820 - Rear-Right-Side.ldr
@@ -233,6 +236,7 @@
 
 
 
+0 STEP
 0 FILE 8820 - Spring.ldr
 0 Spring assembly using axles with flanged and half bushes for spacing.
 0 Name: 8820 - Spring.ldr
@@ -263,6 +267,7 @@
 
 
 
+0 STEP
 0 FILE 8820 - shock-06_5L-soft-1.ldr
 0 6.5L soft shock absorber with cylinder, piston rod, and coiled spring.
 0 !CATEGORY Technic
@@ -316,6 +321,7 @@
 
 
 
+0 STEP
 0 FILE 8820 - shock-06_5L-soft-1_springMesh.ldr
 0 Detailed mesh geometry of the shock absorber spring coil with defined windings and dimensions.
 0 Author: Max Martin Richter [MMR1988]
@@ -4615,6 +4621,7 @@
 
 
 
+0 STEP
 0 FILE 8820 - Steering-Shaft-Holder.ldr
 0 Bracket holding the steering shaft using corner plates and pinned Technic bricks.
 0 Name: 8820 - Steering-Shaft-Holder.ldr
@@ -4645,6 +4652,7 @@
 
 
 
+0 STEP
 0 FILE 8820 - Steering-Wheel-and-Shaft.ldr
 0 Steering wheel and shaft with a wedge belt wheel mounted on a 6-stud axle.
 0 Name: 8820 - Steering-Wheel-and-Shaft.ldr
@@ -4665,6 +4673,7 @@
 
 
 
+0 STEP
 0 FILE 8820 - Rear-Left-Side.ldr
 0 Left rear side frame built from pinned Technic bricks and plates.
 0 Name: 8820 - Rear-Left-Side.ldr
@@ -4690,6 +4699,7 @@
 
 
 
+0 STEP
 0 FILE 8820 - Left-Side.ldr
 0 Left body panel composed of red Technic bricks and plates forming the side wall.
 0 Name: 8820 - Left-Side.ldr
@@ -4715,6 +4725,7 @@
 
 
 
+0 STEP
 0 FILE 8820 - Right-Side.ldr
 0 Right body panel of red Technic bricks and plates with vertical clip attachments.
 0 Name: 8820 - Right-Side.ldr
@@ -4745,6 +4756,7 @@
 
 
 
+0 STEP
 0 FILE 8820 - Front.ldr
 0 Front section combining plates, a bracket, and pin connectors forming the nose structure.
 0 Name: 8820 - Front.ldr
@@ -4786,6 +4798,7 @@
 
 
 
+0 STEP
 0 FILE 8820 - Axle3L-with-2-joints.ldr
 0 A 3-stud axle with two toothed toggle joint connectors at the ends.
 0 Name: 8820 - Axle3L-with-2-joints.ldr
@@ -4805,6 +4818,7 @@
 
 
 
+0 STEP
 0 FILE 8820 - Axle3L-with-HalfBush.ldr
 0 A 3-stud axle fitted with a single half bush.
 0 Name: 8820 - Axle3L-with-HalfBush.ldr
@@ -4822,6 +4836,7 @@
 
 
 
+0 STEP
 0 FILE 8820 - Brick-with-Axlepin.ldr
 0 A 1x6 Technic brick with an axle pin inserted through its hole.
 0 Name: 8820 - Brick-with-Axlepin.ldr
@@ -4846,6 +4861,7 @@
 
 
 
+0 STEP
 0 FILE 8820 - 4185a.dat
 0 Technic wedge belt wheel constructed from cylinders, rings, and rectangles.
 0 Name: 8820 - 4185a.dat
@@ -4924,6 +4940,7 @@
 
 
 
+0 STEP
 0 FILE s\8820 - 4185as01.dat
 0 Eighth-slice subpart of the wedge belt wheel made of curved cylinders, rings, and discs.
 0 Name: s\8820 - 4185as01.dat

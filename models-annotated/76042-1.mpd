@@ -7,6 +7,7 @@
 1 47 -240 -192 0 0 0 1 0 1 0 -1 0 0 76042 - Helicarrier.ldr
 
 
+0 STEP
 0 FILE 76042 - Stand.ldr
 0 Reinforced black display stand base built from technic bricks, beams, plates, and axles to support the model.
 0 Name: 76042 - Stand.ldr
@@ -117,6 +118,7 @@
 1 1 0 -20 -130 1 0 0 0 1 0 0 0 1 76042 - Stand S16.ldr
 
 
+0 STEP
 0 FILE 76042 - Shield.ldr
 0 Angled shield panel assembly of dark blue and light bluish grey plates, wings, and tiles forming a protective hull section.
 0 Name: 76042 - Shield.ldr
@@ -190,6 +192,7 @@
 1 0 60 -30 -144 1 0 0 0 0 1 0 -1 0 76042 - Shield S12.ldr
 
 
+0 STEP
 0 FILE 76042 - Shield S06.ldr
 0 Small shield subsection using a notched wing plate and a holed plate to extend the angled surface.
 0 Name: 76042 - Shield S06.ldr
@@ -203,6 +206,7 @@
 1 71 0 -8 0 1 0 0 0 1 0 0 0 1 3176.dat
 
 
+0 STEP
 0 FILE 76042 - Shield S10.ldr
 0 Hinged shield segment built on a corner-cut plate with hinge plates and technic bricks for articulation.
 0 Name: 76042 - Shield S10.ldr
@@ -246,6 +250,7 @@
 1 0 0 -16 0 1 0 0 0 1 0 0 0 1 4162.dat
 
 
+0 STEP
 0 FILE 76042 - Shield S12.ldr
 0 Sloped shield armor panel combining large light bluish grey plates with black 45-degree and inverted slopes.
 0 Name: 76042 - Shield S12.ldr
@@ -291,6 +296,7 @@
 1 71 60 -64 40 1 0 0 0 1 0 0 0 1 2460.dat
 
 
+0 STEP
 0 FILE 76042 - Shield S12 s02.ldr
 0 Shield sub-assembly joining a round axle-hole plate to a dark blue curved top panel.
 0 Name: 76042 - Shield S12 s02.ldr
@@ -303,6 +309,7 @@
 1 272 0 -24 120 1 0 0 0 1 0 0 0 1 87615.dat
 
 
+0 STEP
 0 FILE 76042 - Stand S06.ldr
 0 Simple stand connector using a technic tile with holes and a friction pin.
 0 Name: 76042 - Stand S06.ldr
@@ -315,6 +322,7 @@
 1 0 0 -22 -10 0 0 1 0 1 0 -1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 76042 - Stand S08.ldr
 0 Black stand support block combining a long plate, a brick, and two sloped elements for a stable base.
 0 Name: 76042 - Stand S08.ldr
@@ -332,6 +340,7 @@
 1 0 -90 -24 -10 0 0 1 0 1 0 -1 0 0 30363.dat
 
 
+0 STEP
 0 FILE 76042 - Stand S10.ldr
 0 Technic stand arm segment using a double-bent liftarm joined by friction pins.
 0 Name: 76042 - Stand S10.ldr
@@ -348,6 +357,7 @@
 1 0 60 0 -10 0 -1 0 0 0 1 -1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 76042 - Stand S11.ldr
 0 Technic stand arm segment using a 90-degree bent beam joined by friction pins and a cross block.
 0 Name: 76042 - Stand S11.ldr
@@ -365,6 +375,7 @@
 1 71 0 20 -20 1 0 0 0 1 0 0 0 1 48989.dat
 
 
+0 STEP
 0 FILE 76042 - Stand S12.ldr
 0 Technic stand arm segment using a double-bent liftarm joined by friction pins.
 0 Name: 76042 - Stand S12.ldr
@@ -381,6 +392,7 @@
 1 0 -40 0 -10 0 -1 0 0 0 1 -1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 76042 - Stand S13.ldr
 0 Technic stand arm segment using a 90-degree bent beam joined by friction pins and a cross block.
 0 Name: 76042 - Stand S13.ldr
@@ -398,6 +410,7 @@
 1 71 0 20 -20 1 0 0 0 1 0 0 0 1 48989.dat
 
 
+0 STEP
 0 FILE 76042 - Stand S15.ldr
 0 Heavy black stand base section built from long bricks, plates, axle-hole technic bricks, and grille tiles.
 0 Name: 76042 - Stand S15.ldr
@@ -431,6 +444,7 @@
 1 0 -60 -56 0 -1 0 0 0 1 0 0 0 -1 87079.dat
 
 
+0 STEP
 0 FILE 76042 - Stand S16.ldr
 0 Large display platform of an 8x16 black tile atop inverted slopes and light bluish grey plates for a smooth deck surface.
 0 Name: 76042 - Stand S16.ldr
@@ -463,6 +477,7 @@
 1 1 -40 10 20 1 0 0 0 1 0 0 0 1 76042 - Stand S16 s6.ldr
 
 
+0 STEP
 0 FILE 76042 - Stand S16 s6.ldr
 0 Small stand joint sub-assembly using a blue toggle joint connector and an axle pin.
 0 Name: 76042 - Stand S16 s6.ldr
@@ -475,6 +490,7 @@
 1 1 0 0 10 0 0 1 0 1 0 -1 0 0 43093.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier.ldr
 0 Main helicarrier hull built on a dark bluish grey boat base with technic framing, rotors, and extensive grille and trans-blue window detailing.
 0 Name: 76042 - Helicarrier.ldr
@@ -1812,6 +1828,7 @@
 1 0 630 72 280 0.707 0 -0.707 0 1 0 0.707 0 0.707 76042 - Shield with Minifig.ldr
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S006.ldr
 0 Small hull detail combining a black plate with an inverted 45-degree slope.
 0 Name: 76042 - Helicarrier S006.ldr
@@ -1824,6 +1841,7 @@
 1 72 0 -24 -20 1 0 0 0 1 0 0 0 1 3660.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S007.ldr
 0 Small hull detail pairing an inverted 45-degree slope with a light bluish grey grooved tile.
 0 Name: 76042 - Helicarrier S007.ldr
@@ -1836,6 +1854,7 @@
 1 71 0 -8 -20 1 0 0 0 1 0 0 0 1 3069b.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S015.ldr
 0 Translucent window insert of trans-light blue plates mounted on a dark bluish grey tile.
 0 Name: 76042 - Helicarrier S015.ldr
@@ -1853,6 +1872,7 @@
 1 43 0 0 40 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S017.ldr
 0 Translucent window strip of trans-light blue plates beside a long dark bluish grey tile.
 0 Name: 76042 - Helicarrier S017.ldr
@@ -1867,6 +1887,7 @@
 1 43 40 8 0 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S018.ldr
 0 Minor dark bluish grey plate infill detail for the hull surface.
 0 Name: 76042 - Helicarrier S018.ldr
@@ -1879,6 +1900,7 @@
 1 72 0 0 -10 0 0 1 0 1 0 -1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S022.ldr
 0 Technic frame subsection of open-center technic bricks, pins, and a large dark bluish grey plate forming structural support.
 0 Name: 76042 - Helicarrier S022.ldr
@@ -1916,6 +1938,7 @@
 1 72 60 -8 0 1 0 0 0 1 0 0 0 1 3029.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S028.ldr
 0 Robust technic frame assembly of long technic bricks, corner beams, and many pins creating a reinforced internal chassis.
 0 Name: 76042 - Helicarrier S028.ldr
@@ -2010,6 +2033,7 @@
 1 71 0 -16 -20 -1 0 0 0 1 0 0 0 -1 3460.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S028 s09.ldr
 0 Dark bluish grey hull subsection combining plates, bricks, and sloped elements to form a contoured structural panel.
 0 Name: 76042 - Helicarrier S028 s09.ldr
@@ -2032,6 +2056,7 @@
 1 71 0 -32 20 1 0 0 0 1 0 0 0 1 3034.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S028 s10.ldr
 0 Small sloped structural panel built from grey plates, bricks, and slope elements.
 0 Name: 76042 - Helicarrier S028 s10.ldr
@@ -2054,6 +2079,7 @@
 1 71 0 -32 20 1 0 0 0 1 0 0 0 1 3034.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S030.ldr
 0 Sloped hull detail section using inverted slopes and side-stud bricks with a long base plate.
 0 Name: 76042 - Helicarrier S030.ldr
@@ -2078,6 +2104,7 @@
 1 72 60 -24 -10 1 0 0 0 1 0 0 0 1 3660.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S031.ldr
 0 Mirrored sloped hull detail with inverted slopes and side-stud bricks on a long plate.
 0 Name: 76042 - Helicarrier S031.ldr
@@ -2102,6 +2129,7 @@
 1 72 -60 -24 -10 1 0 0 0 1 0 0 0 1 3660.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S033.ldr
 0 Angular hull surface section featuring slopes, cornerless plates, and translucent blue detail tiles.
 0 Name: 76042 - Helicarrier S033.ldr
@@ -2133,6 +2161,7 @@
 1 72 30 -8 30 0 0 -1 0 1 0 1 0 0 2450.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S036.ldr
 0 Small antenna or light fixture combining a clip bar with a translucent blue tile.
 0 Name: 76042 - Helicarrier S036.ldr
@@ -2146,6 +2175,7 @@
 1 43 -8 0 -2 0.966 0.259 0 0 0 -1 -0.259 0.966 0 3070b.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S038.ldr
 0 Curved slope mounting assembly attached via a white down bracket.
 0 Name: 76042 - Helicarrier S038.ldr
@@ -2161,6 +2191,7 @@
 1 15 0 -32 0 -1 0 0 0 1 0 0 0 -1 44728.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S047.ldr
 0 Curved slope mounting assembly with a black brick and white down bracket.
 0 Name: 76042 - Helicarrier S047.ldr
@@ -2176,6 +2207,7 @@
 1 15 0 -32 0 -1 0 0 0 1 0 0 0 -1 44728.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S049.ldr
 0 SHIELD emblem display stand built around a round tile bearing the SHIELD logo sticker.
 0 Name: 76042 - Helicarrier S049.ldr
@@ -2197,6 +2229,7 @@
 1 15 0 -4 -18 1 0 0 0 0 -1 0 1 0 6115204d.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S051 R.ldr
 0 Right-side angular hull section made of two dark grey wedge plates.
 0 Name: 76042 - Helicarrier S051 R.ldr
@@ -2209,6 +2242,7 @@
 1 72 -10 -24 0 1 0 0 0 1 0 0 0 1 41767.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S051 L.ldr
 0 Left-side angular hull section made of two dark grey wedge plates.
 0 Name: 76042 - Helicarrier S051 L.ldr
@@ -2221,6 +2255,7 @@
 1 72 0 -24 0 1 0 0 0 1 0 0 0 1 41768.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S053.ldr
 0 Sloped structural detail with a rounded bracket mount and translucent blue accent plate.
 0 Name: 76042 - Helicarrier S053.ldr
@@ -2248,6 +2283,7 @@
 1 71 0 -32 0 0 0 -1 0 1 0 1 0 0 3710.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S054.ldr
 0 Sloped structural detail with a rounded bracket mount and translucent blue accent plate.
 0 Name: 76042 - Helicarrier S054.ldr
@@ -2275,6 +2311,7 @@
 1 71 0 -32 0 0 0 -1 0 1 0 1 0 0 3710.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S057.ldr
 0 Small mounting block with a vertical clip brick for attaching accessories.
 0 Name: 76042 - Helicarrier S057.ldr
@@ -2289,6 +2326,7 @@
 1 72 0 -32 0 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S060.ldr
 0 Technic towball arm assembly using a beam with friction pin and towball.
 0 Name: 76042 - Helicarrier S060.ldr
@@ -2304,6 +2342,7 @@
 1 4 0 -60 0 0 1 0 0 0 -1 -1 0 0 32054.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S061.ldr
 0 Compact Technic linkage arm made of a beam pinned with a long stop bush.
 0 Name: 76042 - Helicarrier S061.ldr
@@ -2316,6 +2355,7 @@
 1 4 0 -60 0 0 1 0 0 0 -1 -1 0 0 32054.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S064.ldr
 0 Technic connector beam joining two long pins for structural linkage.
 0 Name: 76042 - Helicarrier S064.ldr
@@ -2330,6 +2370,7 @@
 1 4 0 -40 0 0 -1 0 0 0 -1 1 0 0 32054.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S065.ldr
 0 Complex structural Technic frame with braced plates, bricks, inverted slopes, and axlehole plates for rotor mounts.
 0 Name: 76042 - Helicarrier S065.ldr
@@ -2424,6 +2465,7 @@
 1 72 -150 8 -90 0 0 -1 0 1 0 1 0 0 3895.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S065 s11.ldr
 0 Curved hull fairing section combining a triple curved wedge, sloped brick, and mounting brackets.
 0 Name: 76042 - Helicarrier S065 s11.ldr
@@ -2444,6 +2486,7 @@
 1 0 0 16 10 -1 0 0 0 1 0 0 0 -1 99207.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S070.ldr
 0 Rounded engine nacelle section built from corner slope bricks, wing plates, and grooved tiles.
 0 Name: 76042 - Helicarrier S070.ldr
@@ -2499,6 +2542,7 @@
 1 71 0 0 -30 -1 0 0 0 -1 0 0 0 1 76042 - Helicarrier S070 s07.ldr
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S070 s07.ldr
 0 Small detailed accent panel with inverted slopes, handled bricks, and blue highlights.
 0 Name: 76042 - Helicarrier S070 s07.ldr
@@ -2528,6 +2572,7 @@
 1 71 0 -40 10 1 0 0 0 1 0 0 0 1 2431.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S071.ldr
 0 Technic structural frame section with long brick holes and corner blocks supporting translucent blue detail.
 0 Name: 76042 - Helicarrier S071.ldr
@@ -2558,6 +2603,7 @@
 1 0 110 -32 70 -1 0 0 0 1 0 0 0 -1 32555.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S073.ldr
 0 Reinforced plate assembly joining two long Technic bricks over a base plate.
 0 Name: 76042 - Helicarrier S073.ldr
@@ -2576,6 +2622,7 @@
 1 72 0 -16 10 1 0 0 0 1 0 0 0 1 4477.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S075 L.ldr
 0 Left-side Technic gear drive assembly with bevel gears and toggle joint connector on stopped axles.
 0 Name: 76042 - Helicarrier S075 L.ldr
@@ -2597,6 +2644,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S076.ldr
 0 Large Technic gearbox and drivetrain module packed with gears, axles, liftarms, and connector joints.
 0 Name: 76042 - Helicarrier S076.ldr
@@ -2722,6 +2770,7 @@
 1 71 110 10 -270 -1 0 0 0 1 0 0 0 -1 59443.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S076 s09.ldr
 0 Auxiliary Technic liftarm support with flanged bushes on stopped axles.
 0 Name: 76042 - Helicarrier S076 s09.ldr
@@ -2742,6 +2791,7 @@
 1 71 15 0 -80 0 0 -1 0 1 0 1 0 0 3713.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S078.ldr
 0 A small Technic connector linkage joining a 180-degree angle connector with a friction axle pin.
 0 Name: 76042 - Helicarrier S078.ldr
@@ -2754,6 +2804,7 @@
 1 1 0 0 -30 0 0 -1 0 1 0 1 0 0 43093.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S079.ldr
 0 A short Technic axle assembly coupling an axle 10 with an inline smooth joiner.
 0 Name: 76042 - Helicarrier S079.ldr
@@ -2766,6 +2817,7 @@
 1 71 0 0 -100 -1 0 0 0 1 0 0 0 -1 59443.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S080 R.ldr
 0 A right-side bent 90-degree Technic liftarm reinforced with four friction pins.
 0 Name: 76042 - Helicarrier S080 R.ldr
@@ -2784,6 +2836,7 @@
 1 0 -10 0 40 -1 0 0 0 -1 0 0 0 1 2780.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S080 L.ldr
 0 A left-side bent 90-degree Technic liftarm reinforced with four friction pins.
 0 Name: 76042 - Helicarrier S080 L.ldr
@@ -2802,6 +2855,7 @@
 1 0 10 0 40 -1 0 0 0 -1 0 0 0 1 2780.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S081 L.ldr
 0 A left-side Technic gear and toggle joint assembly with two bevel gears on stopped axles.
 0 Name: 76042 - Helicarrier S081 L.ldr
@@ -2823,6 +2877,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S083 R.ldr
 0 A right-side bent 90-degree Technic liftarm pinned with a single friction pin.
 0 Name: 76042 - Helicarrier S083 R.ldr
@@ -2835,6 +2890,7 @@
 1 0 0 0 -10 0 -1 0 0 0 1 -1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S083 L.ldr
 0 A left-side bent 90-degree Technic liftarm pinned with a single friction pin.
 0 Name: 76042 - Helicarrier S083 L.ldr
@@ -2847,6 +2903,7 @@
 1 0 0 0 -10 0 -1 0 0 0 1 -1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S084.ldr
 0 A compact Technic liftarm and pin joiner subassembly mounted on a stopped axle.
 0 Name: 76042 - Helicarrier S084.ldr
@@ -2862,6 +2919,7 @@
 1 71 -40 0 77 0 0 -1 0 -1 0 -1 0 0 62462.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S090.ldr
 0 A small deck platform built from curved slope bricks, a 2x4 plate, and pinned base plates.
 0 Name: 76042 - Helicarrier S090.ldr
@@ -2882,6 +2940,7 @@
 1 71 20 16 20 1 0 0 0 1 0 0 0 1 2476a.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S091.ldr
 0 A large wing and deck assembly featuring paired left/right wings, a grooved 6x6 tile, a '64' numbered sticker, and ball socket plates.
 0 Name: 76042 - Helicarrier S091.ldr
@@ -2947,6 +3006,7 @@
 1 0 60 4 140 0 0 1 0 1 0 -1 0 0 3747b.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S094.ldr
 0 A structural frame of Technic bricks and brackets accented with repeated small slope bricks and cross block connectors.
 0 Name: 76042 - Helicarrier S094.ldr
@@ -3007,6 +3067,7 @@
 1 71 100 -10 20 1 0 0 0 1 0 0 0 1 48989.dat
 
 
+0 STEP
 0 FILE 76042 - Forklift.ldr
 0 A tiny forklift accessory built from a roller skate base, clips, and small plates.
 0 Name: 76042 - Forklift.ldr
@@ -3032,6 +3093,7 @@
 1 28 0 -8 -27 1 0 0 0 -1 0 0 0 -1 3024.dat
 
 
+0 STEP
 0 FILE 76042 - Truck.ldr
 0 A small truck accessory featuring a yellow body, clear windscreen elements, and round stud wheels.
 0 Name: 76042 - Truck.ldr
@@ -3071,6 +3133,7 @@
 1 14 0 -24 -20 0 0 1 0 1 0 -1 0 0 3068b.dat
 
 
+0 STEP
 0 FILE 76042 - Aircraft A.ldr
 0 A compact aircraft model using rotor blades for props, a hinge tile fuselage, and a curved slope nose.
 0 Name: 76042 - Aircraft A.ldr
@@ -3095,6 +3158,7 @@
 1 47 0 8 -20 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 76042 - Aircraft B.ldr
 0 A detailed aircraft with swept wings, light blue canopy dishes, hinge tops, and handle plates for detailing.
 0 Name: 76042 - Aircraft B.ldr
@@ -3161,6 +3225,7 @@
 1 40 0 7.974 -79.192 1 0 0 0 0.921 -0.391 0 0.391 0.921 76042 - Aircraft B S13.ldr
 
 
+0 STEP
 0 FILE 76042 - Aircraft B S11.ldr
 0 An aircraft engine pod subassembly with clipped plate mounts, finned rounds, and small slopes.
 0 Name: 76042 - Aircraft B S11.ldr
@@ -3186,6 +3251,7 @@
 1 72 30 -24 10 -1 0 0 0 1 0 0 0 -1 54200.dat
 
 
+0 STEP
 0 FILE 76042 - Aircraft B S13.ldr
 0 A small aircraft tail or fin detail using curved slopes, a trans-brown grooved tile, and clip plates.
 0 Name: 76042 - Aircraft B S13.ldr
@@ -3208,6 +3274,7 @@
 1 40 0 -24 -3 0 0 -1 0 1 0 1 0 0 3069b.dat
 
 
+0 STEP
 0 FILE 76042 - M Maria Hill.ldr
 0 The Maria Hill minifigure with ponytail hair, a dark blue uniform torso and legs, and yellow hands.
 0 Name: 76042 - M Maria Hill.ldr
@@ -3236,6 +3303,7 @@
 1 14 21.9894 15.7375 -19.9657 0.985 0.169328 -0.0148142 -0.17 0.981104 -0.0858354 0 0.0871426 0.996044 3820.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S095.ldr
 0 A substantial hull section combining Technic corner bricks, beams, brackets, and layered plates forming the carrier's structural frame.
 0 Name: 76042 - Helicarrier S095.ldr
@@ -3534,6 +3602,7 @@
 1 43 -50 -64 -110 1 0 0 0 1 0 0 0 1 76042 - Helicarrier Air Intake.ldr
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S095 s03.ldr
 0 A minimal Technic joint pairing a 5x5 corner brick with a long friction pin.
 0 Name: 76042 - Helicarrier S095 s03.ldr
@@ -3546,6 +3615,7 @@
 1 1 30 10 40 0 0 1 0 1 0 -1 0 0 6558.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S095 s10.ldr
 0 A vented grille panel detail built on a 2x4 plate with grille tiles and slope grilles.
 0 Name: 76042 - Helicarrier S095 s10.ldr
@@ -3565,6 +3635,7 @@
 1 72 20 0 -10 0 0 1 0 1 0 -1 0 0 61409.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S095 s14.ldr
 0 A rotor and large curved inverted slope forming a fan or turbine detail element.
 0 Name: 76042 - Helicarrier S095 s14.ldr
@@ -3578,6 +3649,7 @@
 1 0 30 -24 0 0 0 -1 0 1 0 1 0 0 42023.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S095 s17.ldr
 0 A hinged panel assembly with long plates, trans-light-blue window elements, and hinge tops and bases.
 0 Name: 76042 - Helicarrier S095 s17.ldr
@@ -3616,6 +3688,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S095 s18.ldr
 0 A curved hull fairing using a triple-curved inverted wedge with supporting long plates.
 0 Name: 76042 - Helicarrier S095 s18.ldr
@@ -3636,6 +3709,7 @@
 1 15 20 0 0 1 0 0 0 1 0 0 0 1 3020.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S095 s19.ldr
 0 A mirrored curved hull fairing using a triple-curved inverted wedge with supporting long plates.
 0 Name: 76042 - Helicarrier S095 s19.ldr
@@ -3656,6 +3730,7 @@
 1 15 20 0 0 1 0 0 0 1 0 0 0 1 3020.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S095 s21.ldr
 0 Helicarrier S095 s21
 0 Name: 76042 - Helicarrier S095 s21.ldr
@@ -3668,6 +3743,7 @@
 1 272 0 -8 0 1 0 0 0 1 0 0 0 1 3020.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S095 s22.ldr
 0 Helicarrier S095 s22
 0 Name: 76042 - Helicarrier S095 s22.ldr
@@ -3713,6 +3789,7 @@
 1 72 20 -40 0 0 0 1 0 1 0 -1 0 0 61409.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S095 s23.ldr
 0 Helicarrier S095 s23
 0 Name: 76042 - Helicarrier S095 s23.ldr
@@ -3730,6 +3807,7 @@
 1 72 0 0 10 1 0 0 0 1 0 0 0 1 61409.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S095 s26.ldr
 0 Helicarrier S095 s26
 0 Name: 76042 - Helicarrier S095 s26.ldr
@@ -3761,6 +3839,7 @@
 1 72 70 -8 10 -1 0 0 0 1 0 0 0 -1 3070b.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier Air Intake.ldr
 0 Helicarrier Air Intake
 0 Name: 76042 - Helicarrier Air Intake.ldr
@@ -3810,6 +3889,7 @@
 1 72 98.233 0 68.234 -0.75 0 -0.661 0 1 0 0.661 0 -0.75 15068.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier Air Intake s1a.ldr
 0 Helicarrier Air Intake s1a
 0 Name: 76042 - Helicarrier Air Intake s1a.ldr
@@ -3824,6 +3904,7 @@
 1 72 20 -8 40 0.75 0 -0.661 0 1 0 0.661 0 0.75 2430.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier Engine Front R.ldr
 0 Helicarrier Engine Front R
 0 Name: 76042 - Helicarrier Engine Front R.ldr
@@ -3872,6 +3953,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 76042 - Helicarrier Engine Front s03.ldr
 0 Helicarrier Engine Front s03
 0 Name: 76042 - Helicarrier Engine Front s03.ldr
@@ -3884,6 +3966,7 @@
 1 19 31 0 0 0 0 1 0 1 0 -1 0 0 6589.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier Engine Front s07.ldr
 0 Helicarrier Engine Front s07
 0 Name: 76042 - Helicarrier Engine Front s07.ldr
@@ -3898,6 +3981,7 @@
 1 1 -90 0 -20 1 0 0 0 0 1 0 -1 0 43093.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier Engine Front s09.ldr
 0 Helicarrier Engine Front s09
 0 Name: 76042 - Helicarrier Engine Front s09.ldr
@@ -3917,6 +4001,7 @@
 1 71 30 0 0 0 1 0 -1 0 0 0 0 1 11478.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier Rotor.ldr
 0 Helicarrier Rotor
 0 Name: 76042 - Helicarrier Rotor.ldr
@@ -3951,6 +4036,7 @@
 1 15 0 -16 0 1 0 0 0 1 0 0 0 1 6115204e.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S098.ldr
 0 Helicarrier S098
 0 Name: 76042 - Helicarrier S098.ldr
@@ -4249,6 +4335,7 @@
 1 72 -50 -64 -110 1 0 0 0 1 0 0 0 1 76042 - Helicarrier Air Intake.ldr
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S098 s03.ldr
 0 Helicarrier S098 s03
 0 Name: 76042 - Helicarrier S098 s03.ldr
@@ -4261,6 +4348,7 @@
 1 1 -30 10 40 0 0 1 0 1 0 -1 0 0 6558.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S098 s10.ldr
 0 Helicarrier S098 s10
 0 Name: 76042 - Helicarrier S098 s10.ldr
@@ -4280,6 +4368,7 @@
 1 72 20 0 -10 0 0 1 0 1 0 -1 0 0 61409.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S098 s14.ldr
 0 Helicarrier S098 s14
 0 Name: 76042 - Helicarrier S098 s14.ldr
@@ -4293,6 +4382,7 @@
 1 0 30 -24 0 0 0 -1 0 1 0 1 0 0 42023.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S098 s17.ldr
 0 Helicarrier S098 s17
 0 Name: 76042 - Helicarrier S098 s17.ldr
@@ -4331,6 +4421,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S098 s18.ldr
 0 Helicarrier S098 s18
 0 Name: 76042 - Helicarrier S098 s18.ldr
@@ -4351,6 +4442,7 @@
 1 15 20 0 0 1 0 0 0 1 0 0 0 1 3020.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S098 s19.ldr
 0 Helicarrier S098 s19
 0 Name: 76042 - Helicarrier S098 s19.ldr
@@ -4371,6 +4463,7 @@
 1 15 20 0 0 1 0 0 0 1 0 0 0 1 3020.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S098 s21.ldr
 0 Helicarrier S098 s21
 0 Name: 76042 - Helicarrier S098 s21.ldr
@@ -4383,6 +4476,7 @@
 1 272 0 -8 0 1 0 0 0 1 0 0 0 1 3020.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S098 s22.ldr
 0 Helicarrier S098 s22
 0 Name: 76042 - Helicarrier S098 s22.ldr
@@ -4428,6 +4522,7 @@
 1 72 -20 -40 0 0 0 -1 0 1 0 1 0 0 61409.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S098 s23.ldr
 0 Helicarrier S098 s23
 0 Name: 76042 - Helicarrier S098 s23.ldr
@@ -4445,6 +4540,7 @@
 1 72 0 0 10 1 0 0 0 1 0 0 0 1 61409.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S098 s26.ldr
 0 Helicarrier S098 s26
 0 Name: 76042 - Helicarrier S098 s26.ldr
@@ -4476,6 +4572,7 @@
 1 72 70 -8 10 -1 0 0 0 1 0 0 0 -1 3070b.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier Engine Rear s03.ldr
 0 Helicarrier Engine Rear s03
 0 Name: 76042 - Helicarrier Engine Rear s03.ldr
@@ -4488,6 +4585,7 @@
 1 19 31 0 0 0 0 1 0 1 0 -1 0 0 6589.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S101.ldr
 0 Helicarrier S101
 0 Name: 76042 - Helicarrier S101.ldr
@@ -4787,6 +4885,7 @@
 1 43 0 -64 -160 1 0 0 0 1 0 0 0 1 76042 - Helicarrier Air Intake.ldr
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S101 s07.ldr
 0 Helicarrier S101 s07
 0 Name: 76042 - Helicarrier S101 s07.ldr
@@ -4806,6 +4905,7 @@
 1 72 30 -8 0 0 0 -1 0 1 0 1 0 0 2412b.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S101 s08.ldr
 0 Rotating ball joint subassembly built from Technic bricks with pins for an articulated mounting point.
 0 Name: 76042 - Helicarrier S101 s08.ldr
@@ -4828,6 +4928,7 @@
 1 71 0 0 -30 1 0 0 0 1 0 0 0 1 3700.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S101 s11.ldr
 0 Simple pair of long black plates forming a flat connecting strut.
 0 Name: 76042 - Helicarrier S101 s11.ldr
@@ -4840,6 +4941,7 @@
 1 0 0 -8 0 1 0 0 0 1 0 0 0 1 3666.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S101 s13.ldr
 0 Technic axle joiner and axle mounted through a long holed brick for a sliding linkage.
 0 Name: 76042 - Helicarrier S101 s13.ldr
@@ -4855,6 +4957,7 @@
 1 0 0 -10 -30 -1 0 0 0 1 0 0 0 -1 2730.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S101 s14.ldr
 0 Two-blade rotor paired with an inverted curved slope to form a small spinning vane detail.
 0 Name: 76042 - Helicarrier S101 s14.ldr
@@ -4868,6 +4971,7 @@
 1 0 30 -24 0 0 0 -1 0 1 0 1 0 0 42023.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S101 s16.ldr
 0 Hinged plate assembly with transparent blue accents forming an angled panel or canopy detail.
 0 Name: 76042 - Helicarrier S101 s16.ldr
@@ -4906,6 +5010,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S101 s17.ldr
 0 Curved inverted wedge panel backed by white and blue plates forming a contoured hull section.
 0 Name: 76042 - Helicarrier S101 s17.ldr
@@ -4926,6 +5031,7 @@
 1 15 20 0 0 1 0 0 0 1 0 0 0 1 3020.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S101 s18.ldr
 0 Curved inverted wedge panel backed by white and blue plates forming a contoured hull section mirroring s17.
 0 Name: 76042 - Helicarrier S101 s18.ldr
@@ -4946,6 +5052,7 @@
 1 15 20 0 0 1 0 0 0 1 0 0 0 1 3020.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S101 s21.ldr
 0 Two large dark bluish grey plates forming a flat structural deck section.
 0 Name: 76042 - Helicarrier S101 s21.ldr
@@ -4958,6 +5065,7 @@
 1 72 0 -8 0 1 0 0 0 1 0 0 0 1 3795.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S101 s22a.ldr
 0 Pair of right-facing wing elements forming an angled wing or fin detail.
 0 Name: 76042 - Helicarrier S101 s22a.ldr
@@ -4970,6 +5078,7 @@
 1 72 0 -8 0 1 0 0 0 1 0 0 0 1 43722.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S101 s22b.ldr
 0 Pair of left-facing wing elements forming an angled wing or fin detail.
 0 Name: 76042 - Helicarrier S101 s22b.ldr
@@ -4982,6 +5091,7 @@
 1 72 0 -8 0 1 0 0 0 1 0 0 0 1 43723.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S101 s23.ldr
 0 A sloped brick and short brick forming a small angled structural block.
 0 Name: 76042 - Helicarrier S101 s23.ldr
@@ -4994,6 +5104,7 @@
 1 71 0 0 0 0 0 1 0 1 0 -1 0 0 3622.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S101 s26.ldr
 0 Large plating section with transparent light blue grooved tiles forming a windowed deck surface.
 0 Name: 76042 - Helicarrier S101 s26.ldr
@@ -5025,6 +5136,7 @@
 1 72 70 -8 10 -1 0 0 0 1 0 0 0 -1 3070b.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S101 s27.ldr
 0 Plating section with transparent light blue grooved tiles forming a windowed deck surface similar to s26.
 0 Name: 76042 - Helicarrier S101 s27.ldr
@@ -5048,6 +5160,7 @@
 1 72 50 -8 -10 0 0 1 0 1 0 -1 0 0 15573.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier Air Intake s1b.ldr
 0 Hinged dark blue plate assembly with hinge tops forming an adjustable air intake vent.
 0 Name: 76042 - Helicarrier Air Intake s1b.ldr
@@ -5062,6 +5175,7 @@
 1 72 20 -8 40 0.662 0 -0.75 0 1 0 0.75 0 0.662 2430.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier Engine Rear L.ldr
 0 Rear engine rotor assembly using Technic gears, beams, a clear motorcycle wheel, and an inverted dish for the turbine housing.
 0 Name: 76042 - Helicarrier Engine Rear L.ldr
@@ -5111,6 +5225,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 76042 - Helicarrier Engine Rear s09.ldr
 0 Three liftarms joined by long axle pins forming a reinforced engine mount frame.
 0 Name: 76042 - Helicarrier Engine Rear s09.ldr
@@ -5130,6 +5245,7 @@
 1 0 20 0 -20 0 1 0 -1 0 0 0 0 1 6632.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S104.ldr
 0 Large structural submodel with Technic bricks, corner beams, brackets, and plates forming a major hull or deck framework section.
 0 Name: 76042 - Helicarrier S104.ldr
@@ -5429,6 +5545,7 @@
 1 43 0 -64 -160 1 0 0 0 1 0 0 0 1 76042 - Helicarrier Air Intake.ldr
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S104 s07.ldr
 0 Plate with grille slopes and grooved grille tiles forming a vented detail panel.
 0 Name: 76042 - Helicarrier S104 s07.ldr
@@ -5448,6 +5565,7 @@
 1 72 30 -8 0 0 0 -1 0 1 0 1 0 0 2412b.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S104 s08.ldr
 0 Rotating ball joint subassembly built from Technic bricks with pins for an articulated mounting point.
 0 Name: 76042 - Helicarrier S104 s08.ldr
@@ -5470,6 +5588,7 @@
 1 71 0 0 -30 1 0 0 0 1 0 0 0 1 3700.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S104 s11.ldr
 0 Simple pair of long black plates forming a flat connecting strut.
 0 Name: 76042 - Helicarrier S104 s11.ldr
@@ -5482,6 +5601,7 @@
 1 0 0 -8 0 1 0 0 0 1 0 0 0 1 3666.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S104 s13.ldr
 0 Technic axle joiner and axle mounted through a long holed brick for a sliding linkage.
 0 Name: 76042 - Helicarrier S104 s13.ldr
@@ -5497,6 +5617,7 @@
 1 0 0 -10 -30 -1 0 0 0 1 0 0 0 -1 2730.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S104 s14.ldr
 0 Two-blade rotor paired with an inverted curved slope to form a small spinning vane detail.
 0 Name: 76042 - Helicarrier S104 s14.ldr
@@ -5510,6 +5631,7 @@
 1 0 30 -24 0 0 0 -1 0 1 0 1 0 0 42023.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S104 s16.ldr
 0 Hinged plate assembly with transparent blue accents forming an angled panel or canopy detail.
 0 Name: 76042 - Helicarrier S104 s16.ldr
@@ -5548,6 +5670,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S104 s17.ldr
 0 Curved inverted wedge panel backed by white and blue plates forming a contoured hull section.
 0 Name: 76042 - Helicarrier S104 s17.ldr
@@ -5568,6 +5691,7 @@
 1 15 20 0 0 1 0 0 0 1 0 0 0 1 3020.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S104 s18.ldr
 0 Curved inverted wedge panel backed by white and blue plates forming a contoured hull section mirroring s17.
 0 Name: 76042 - Helicarrier S104 s18.ldr
@@ -5588,6 +5712,7 @@
 1 15 20 0 0 1 0 0 0 1 0 0 0 1 3020.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S104 s21.ldr
 0 Small plate assembly built from dark bluish grey 2x6 plates.
 0 Name: 76042 - Helicarrier S104 s21.ldr
@@ -5600,6 +5725,7 @@
 1 72 0 -8 0 1 0 0 0 1 0 0 0 1 3795.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S104 s22a.ldr
 0 Right wing section formed from dark bluish grey wing plates.
 0 Name: 76042 - Helicarrier S104 s22a.ldr
@@ -5612,6 +5738,7 @@
 1 72 0 -8 0 1 0 0 0 1 0 0 0 1 43722.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S104 s22b.ldr
 0 Left wing section formed from dark bluish grey wing plates.
 0 Name: 76042 - Helicarrier S104 s22b.ldr
@@ -5624,6 +5751,7 @@
 1 72 0 -8 0 1 0 0 0 1 0 0 0 1 43723.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S104 s23.ldr
 0 Angled light bluish grey section combining a slope and a brick.
 0 Name: 76042 - Helicarrier S104 s23.ldr
@@ -5636,6 +5764,7 @@
 1 71 0 0 0 0 0 1 0 1 0 -1 0 0 3622.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S104 s26.ldr
 0 Translucent light blue tiled panel mounted on a light bluish grey plate base.
 0 Name: 76042 - Helicarrier S104 s26.ldr
@@ -5667,6 +5796,7 @@
 1 72 70 -8 10 -1 0 0 0 1 0 0 0 -1 3070b.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S104 s27.ldr
 0 Translucent light blue tiled panel similar to S104 s26 with a plate base.
 0 Name: 76042 - Helicarrier S104 s27.ldr
@@ -5690,6 +5820,7 @@
 1 72 50 -8 -10 0 0 1 0 1 0 -1 0 0 15573.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier Engine Rear R.ldr
 0 Right rear engine assembly of Technic beams, gears, pins, and a clear motorcycle wheel.
 0 Name: 76042 - Helicarrier Engine Rear R.ldr
@@ -5739,6 +5870,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S111 s12.ldr
 0 Structural mounting module of plates, brackets, and red side-studded bricks.
 0 Name: 76042 - Helicarrier S111 s12.ldr
@@ -5767,6 +5899,7 @@
 1 72 0 -32 -20 -1 0 0 0 1 0 0 0 -1 3020.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S111 s12 s03.ldr
 0 Rotation joint socket assembly built from Technic and pin bricks.
 0 Name: 76042 - Helicarrier S111 s12 s03.ldr
@@ -5782,6 +5915,7 @@
 1 71 40 0 0 -1 0 0 0 1 0 0 0 -1 6232.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S111.ldr
 0 Hinged wing-like section with plates, wing elements, panels, and orange round studs.
 0 Name: 76042 - Helicarrier S111.ldr
@@ -5905,6 +6039,7 @@
 1 72 40 148 20 0 -1 0 0 0 -1 1 0 0 2654.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S111 s19.ldr
 0 Sloped detail of a curved slope and a 33-degree slope in dark bluish grey.
 0 Name: 76042 - Helicarrier S111 s19.ldr
@@ -5917,6 +6052,7 @@
 1 72 0 24 -90 1 0 0 0 1 0 0 0 1 4286.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S112 s12.ldr
 0 Structural mounting module of plates, brackets, and red side-studded bricks.
 0 Name: 76042 - Helicarrier S112 s12.ldr
@@ -5945,6 +6081,7 @@
 1 72 0 -32 -20 -1 0 0 0 1 0 0 0 -1 3020.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S112 s12 s03.ldr
 0 Rotation joint socket assembly built from Technic and pin bricks.
 0 Name: 76042 - Helicarrier S112 s12 s03.ldr
@@ -5960,6 +6097,7 @@
 1 71 40 0 0 -1 0 0 0 1 0 0 0 -1 6232.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S112 s19.ldr
 0 Sloped detail of a curved slope and a 33-degree slope in dark bluish grey.
 0 Name: 76042 - Helicarrier S112 s19.ldr
@@ -5972,6 +6110,7 @@
 1 72 0 24 -90 1 0 0 0 1 0 0 0 1 4286.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S112.ldr
 0 Hinged wing-like section with plates, wing elements, panels, and orange round studs.
 0 Name: 76042 - Helicarrier S112.ldr
@@ -6095,6 +6234,7 @@
 1 72 -40 148 20 0 1 0 0 0 1 1 0 0 2654.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S119.ldr
 0 Small structural section of a dark bluish grey plate and a light bluish grey 2x2 brick.
 0 Name: 76042 - Helicarrier S119.ldr
@@ -6108,6 +6248,7 @@
 1 71 -10 -24 0 1 0 0 0 1 0 0 0 1 3003.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S121.ldr
 0 Angled detail with two trans brown slope pieces and a small plate.
 0 Name: 76042 - Helicarrier S121.ldr
@@ -6123,6 +6264,7 @@
 1 40 10 0 0 1 0 0 0 1 0 0 0 1 54200.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S128.ldr
 0 Short wall segment of two dark bluish grey 1x2 bricks.
 0 Name: 76042 - Helicarrier S128.ldr
@@ -6135,6 +6277,7 @@
 1 72 0 -24 0 1 0 0 0 1 0 0 0 1 3004.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S129.ldr
 0 Blocky section composed of two black 2x4 bricks.
 0 Name: 76042 - Helicarrier S129.ldr
@@ -6147,6 +6290,7 @@
 1 0 0 -24 0 1 0 0 0 1 0 0 0 1 3001.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S130.ldr
 0 Girder and gear assembly with brackets, grille slopes, and triangular supports.
 0 Name: 76042 - Helicarrier S130.ldr
@@ -6191,6 +6335,7 @@
 1 72 -10 0 -590 1 0 0 0 1 0 0 0 1 61409.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S132.ldr
 0 Complex Technic core with open-center brick, pins, plates, brackets, and wedge elements.
 0 Name: 76042 - Helicarrier S132.ldr
@@ -6323,6 +6468,7 @@
 1 71 -110 -16 30 1 0 0 0 1 0 0 0 1 11212.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S132 s04.ldr
 0 Pin-based connector assembly joining Technic bricks and pins.
 0 Name: 76042 - Helicarrier S132 s04.ldr
@@ -6340,6 +6486,7 @@
 1 71 0 -10 30 1 0 0 0 1 0 0 0 1 6541.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S132 s06 R.ldr
 0 Small corner detail of a light bluish grey 2x2 corner brick and a plate.
 0 Name: 76042 - Helicarrier S132 s06 R.ldr
@@ -6352,6 +6499,7 @@
 1 72 20 24 0 0 0 1 0 1 0 -1 0 0 3024.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S132 s06 L.ldr
 0 Small corner detail of a light bluish grey 2x2 corner brick and a plate.
 0 Name: 76042 - Helicarrier S132 s06 L.ldr
@@ -6364,6 +6512,7 @@
 1 72 -20 24 0 0 0 1 0 1 0 -1 0 0 3024.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S132 s11.ldr
 0 Round section combining grille brick and round plates with an axle hole.
 0 Name: 76042 - Helicarrier S132 s11.ldr
@@ -6378,6 +6527,7 @@
 1 0 0 -24 0 1 0 0 0 1 0 0 0 1 92947.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S132 s13.ldr
 0 Helicarrier S132 s13
 0 Name: 76042 - Helicarrier S132 s13.ldr
@@ -6405,6 +6555,7 @@
 1 0 40 -8 -40 0 0 -1 0 1 0 1 0 0 87079.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S137.ldr
 0 Helicarrier S137
 0 Name: 76042 - Helicarrier S137.ldr
@@ -6497,6 +6648,7 @@
 1 179 -110 -24 0 0 0 -1 0 1 0 1 0 0 2412b.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S137 s07.ldr
 0 Helicarrier S137 s07
 0 Name: 76042 - Helicarrier S137 s07.ldr
@@ -6516,6 +6668,7 @@
 1 72 10 -16 10 0 0 -1 0 1 0 1 0 0 63864.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S137 s10.ldr
 0 Helicarrier S137 s10
 0 Name: 76042 - Helicarrier S137 s10.ldr
@@ -6528,6 +6681,7 @@
 1 71 0 -8 0 1 0 0 0 1 0 0 0 1 51739.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S138.ldr
 0 Helicarrier S138
 0 Name: 76042 - Helicarrier S138.ldr
@@ -6588,6 +6742,7 @@
 1 0 -40 16 100 -1 0 0 0 1 0 0 0 -1 2654.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S138 s09.ldr
 0 Helicarrier S138 s09
 0 Name: 76042 - Helicarrier S138 s09.ldr
@@ -6600,6 +6755,7 @@
 1 72 0 0 0 1 0 0 0 1 0 0 0 1 85984.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S139 s09.ldr
 0 Helicarrier S139 s09
 0 Name: 76042 - Helicarrier S139 s09.ldr
@@ -6612,6 +6768,7 @@
 1 72 0 0 0 1 0 0 0 1 0 0 0 1 85984.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S139.ldr
 0 Helicarrier S139
 0 Name: 76042 - Helicarrier S139.ldr
@@ -6673,6 +6830,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S140.ldr
 0 Helicarrier S140
 0 Name: 76042 - Helicarrier S140.ldr
@@ -6934,6 +7092,7 @@
 1 0 0 40 0 0 0 -1 1 0 0 0 -1 0 3705.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S140 s05.ldr
 0 Helicarrier S140 s05
 0 Name: 76042 - Helicarrier S140 s05.ldr
@@ -6956,6 +7115,7 @@
 1 0 20 10 -80 0 0 1 0 1 0 -1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S140 s09.ldr
 0 Helicarrier S140 s09
 0 Name: 76042 - Helicarrier S140 s09.ldr
@@ -6979,6 +7139,7 @@
 1 0 -10 0 -90 1 0 0 0 1 0 0 0 1 32555.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S140 s11.ldr
 0 Helicarrier S140 s11
 0 Name: 76042 - Helicarrier S140 s11.ldr
@@ -7015,6 +7176,7 @@
 1 0 39.241 0 -65.917 0.448 -0.894 0 0 0 1 -0.894 -0.448 0 18649.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S140 s14.ldr
 0 Helicarrier S140 s14
 0 Name: 76042 - Helicarrier S140 s14.ldr
@@ -7027,6 +7189,7 @@
 1 72 -50 -24 0 0 0 1 0 1 0 -1 0 0 3747b.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S140 s16.ldr
 0 Helicarrier S140 s16
 0 Name: 76042 - Helicarrier S140 s16.ldr
@@ -7048,6 +7211,7 @@
 1 0 0 -8 120 0 0 1 0 1 0 -1 0 0 90498pb1.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S140 s17.ldr
 0 Helicarrier S140 s17
 0 Name: 76042 - Helicarrier S140 s17.ldr
@@ -7069,6 +7233,7 @@
 1 72 30 20 -22 1 0 0 0 0 -1 0 1 0 61409.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S140 s22.ldr
 0 Helicarrier S140 s22
 0 Name: 76042 - Helicarrier S140 s22.ldr
@@ -7098,6 +7263,7 @@
 1 72 110 16 60 -1 0 0 0 1 0 0 0 -1 2654.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S141.ldr
 0 Helicarrier S141
 0 Name: 76042 - Helicarrier S141.ldr
@@ -7110,6 +7276,7 @@
 1 1 0 -48 0 1 0 0 0 1 0 0 0 1 59900.dat
 
 
+0 STEP
 0 FILE 76042 - Microfig IronMan.ldr
 0 Microfig IronMan
 0 Name: 76042 - Microfig IronMan.ldr
@@ -7122,6 +7289,7 @@
 1 320 0 0 0 1 0 0 0 1 0 0 0 1 90398.dat
 
 
+0 STEP
 0 FILE 76042 - Fence.ldr
 0 Fence
 0 Name: 76042 - Fence.ldr
@@ -7137,6 +7305,7 @@
 1 72 -30 0 0 0 0 1 0 1 0 -1 0 0 15712.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S144.ldr
 0 Helicarrier S144
 0 Name: 76042 - Helicarrier S144.ldr
@@ -7304,6 +7473,7 @@
 1 71 20 -104 90 0.707 0 0.707 0 1 0 -0.707 0 0.707 76042 - Helicarrier S144 s23.ldr
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S144 s10.ldr
 0 Helicarrier S144 s10
 0 Name: 76042 - Helicarrier S144 s10.ldr
@@ -7319,6 +7489,7 @@
 1 71 -30 0 0 0 0 -1 0 1 0 1 0 0 3024.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S144 s11.ldr
 0 Helicarrier S144 s11
 0 Name: 76042 - Helicarrier S144 s11.ldr
@@ -7337,6 +7508,7 @@
 1 72 0 -64 0 1 0 0 0 1 0 0 0 1 44728.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S144 s16.ldr
 0 Helicarrier S144 s16
 0 Name: 76042 - Helicarrier S144 s16.ldr
@@ -7354,6 +7526,7 @@
 1 72 0 -24 20 1 0 0 0 1 0 0 0 1 47759.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S144 s19.ldr
 0 Helicarrier S144 s19
 0 Name: 76042 - Helicarrier S144 s19.ldr
@@ -7366,6 +7539,7 @@
 1 71 0 -10 0 1 0 0 0 0 -1 0 1 0 42610.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S144 s21.ldr
 0 Helicarrier S144 s21
 0 Name: 76042 - Helicarrier S144 s21.ldr
@@ -7378,6 +7552,7 @@
 1 71 0 0 0 1 0 0 0 1 0 0 0 1 86208.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S144 s22.ldr
 0 Small cockpit detail assembly using a brown windscreen and dark bluish grey wing piece.
 0 Name: 76042 - Helicarrier S144 s22.ldr
@@ -7390,6 +7565,7 @@
 1 72 0 -8 30 1 0 0 0 1 0 0 0 1 51739.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S144 s23.ldr
 0 Compact detail fixture combining a transparent light blue round plate with a tap and inverted dish.
 0 Name: 76042 - Helicarrier S144 s23.ldr
@@ -7405,6 +7581,7 @@
 1 71 0 -20 -12 -1 0 0 0 0 -1 0 -1 0 4740.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S145.ldr
 0 Small structural detail built from plates, a slope brick, and a silver grille tile.
 0 Name: 76042 - Helicarrier S145.ldr
@@ -7423,6 +7600,7 @@
 1 179 10 -16 0 0 0 1 0 1 0 -1 0 0 2412b.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S146a.ldr
 0 Dark tan panel section composed of plates, a corner plate, and grooved tiles.
 0 Name: 76042 - Helicarrier S146a.ldr
@@ -7451,6 +7629,7 @@
 1 28 0 -8 0 1 0 0 0 1 0 0 0 1 3070b.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S146b.ldr
 0 Minimal dark tan tile-and-plate detail element.
 0 Name: 76042 - Helicarrier S146b.ldr
@@ -7463,6 +7642,7 @@
 1 28 0 0 0 1 0 0 0 1 0 0 0 1 3024.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S147.ldr
 0 Dark tan corner plate assembly with grooved tiles for surface detailing.
 0 Name: 76042 - Helicarrier S147.ldr
@@ -7483,6 +7663,7 @@
 1 28 0 -16 -20 1 0 0 0 1 0 0 0 1 3070b.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S148.ldr
 0 Small wheel hub detail formed from a round plate and a grooved wheel rim.
 0 Name: 76042 - Helicarrier S148.ldr
@@ -7495,6 +7676,7 @@
 1 71 0 -10 0 1 0 0 0 0 -1 0 1 0 42610.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S149.ldr
 0 Clever assembly of a clip tile, bar, and round plate forming an antennae or sensor detail.
 0 Name: 76042 - Helicarrier S149.ldr
@@ -7510,6 +7692,7 @@
 1 47 0 116 -4 1 0 0 0 0 -1 0 1 0 99784.dat
 
 
+0 STEP
 0 FILE 76042 - Shield with Minifig.ldr
 0 Minifigure-scale shield display element, empty at this sub-assembly level.
 0 Name: 76042 - Shield with Minifig.ldr
@@ -7524,6 +7707,7 @@
 1 70 160 56 1 1 0 0 0 1 0 0 0 1 76042 - M Black Widow.ldr
 
 
+0 STEP
 0 FILE 76042 - M Black Widow.ldr
 0 Black Widow minifigure with black outfit, short swept hair, and a two-barrel pistol.
 0 Name: 76042 - M Black Widow.ldr
@@ -7554,6 +7738,7 @@
 1 72 -21.919 15.322 -30.059 0.987 -0.16 -0.028 0.141 0.929 -0.342 0.08 0.334 0.939 95199.dat
 
 
+0 STEP
 0 FILE 76042 - M Captain America.ldr
 0 Captain America minifigure in dark blue with tousled hair and a red bullseye shield.
 0 Name: 76042 - M Captain America.ldr
@@ -7584,6 +7769,7 @@
 1 4 22.109 17.117 -33.662 0.16 -0.987 -0.028 0.929 0.16 -0.334 0.334 0.028 0.942 75902p02.dat
 
 
+0 STEP
 0 FILE 76042 - M Hawkeye.ldr
 0 Hawkeye minifigure in black outfit with dark red arms and spiked reddish brown hair.
 0 Name: 76042 - M Hawkeye.ldr
@@ -7612,6 +7798,7 @@
 1 0 21.989 15.738 -19.966 0.985 0.169 -0.015 -0.17 0.981 -0.086 0 0.087 0.996 3820.dat
 
 
+0 STEP
 0 FILE 76042 - M Nick Fury.ldr
 0 Nick Fury minifigure in black jacket with dark grey legs and reddish brown hands.
 0 Name: 76042 - M Nick Fury.ldr
@@ -7638,6 +7825,7 @@
 1 70 21.989 15.738 -19.966 0.985 0.169 -0.015 -0.17 0.981 -0.086 0 0.087 0.996 3820.dat
 
 
+0 STEP
 0 FILE 76042 - Helicarrier Engine Front L.ldr
 0 Left-side front engine Technic sub-assembly with beams, gears, pins, and an inverted dish hub.
 0 Name: 76042 - Helicarrier Engine Front L.ldr
@@ -7686,6 +7874,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 76042 - 33299a.dat
 0 Technic liftarm beam primitive with boss and pin, composed of axle holes, rings, and disc negatives.
 0 Name: 76042 - 33299a.dat
@@ -7719,6 +7908,7 @@
 4 16 8 10 36.661999 9 10 35.661999 9 10 32 8 10 32
 4 16 -9 10 35.661999 -8 10 36.661999 -8 10 32 -9 10 32
 
+0 STEP
 0 FILE 76042 - 87990.dat
 0 Minifig hair mold with ponytail and swept fringe, represented as a part with no direct pieces.
 0 Name: 76042 - 87990.dat
@@ -7737,6 +7927,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\76042 - 87990s02.dat
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\76042 - 87990s03.dat
 
+0 STEP
 0 FILE 76042 - 95347.dat
 0 Primitive geometry for a tall triangular Technic girder support built from rectangles, cylinders, and rings.
 0 Name: 76042 - 95347.dat
@@ -8575,6 +8766,7 @@
 0 // Rectangle with 3 Edges (main_colour)
 1 16 -15.1335 120 12.1975 0 0 0.8665 -96 0 0 0 1 0.1975 rect3.dat
 
+0 STEP
 0 FILE s\76042 - 33299s01.dat
 0 Common-section geometry sub-part of the Technic liftarm, made of cylinders, rings, and circles.
 0 Name: s\76042 - 33299s01.dat
@@ -8845,6 +9037,7 @@
 5 24 -4.9498 0 35.050098 -4.9498 10 35.050098 -6 0 36.661999 -2.6788 0 33.5327
 5 24 4.9497 10 35.050301 4.9498 0 35.050201 6 0 36.661999 2.6788 10 33.5327
 
+0 STEP
 0 FILE s\76042 - 95347s01.dat
 0 Half-section geometry sub-part of the triangular girder, composed of rectangles, cylinders, and circles.
 0 Name: s\76042 - 95347s01.dat
@@ -9074,6 +9267,7 @@
 5 24 13.845 118.246002 9.389 9.957 118.246002 9.389 10.058 120 10.107 11.237 99.391998 -9.171
 5 24 9.946 45.254002 9.307 13.833 45.254002 9.307 7.877 30.299 -5.415 14.016 45.903 10.605
 
+0 STEP
 0 FILE s\76042 - 87990s01.dat
 0 Fringe geometry sub-part of the ponytail hair mold, containing no direct pieces.
 0 Name: s\76042 - 87990s01.dat
@@ -9153,6 +9347,7 @@
 5 24 -14.819 6.272 -4.648 -11.999 4.95 -8.674 -13.098 3.866 -8.609 -13.93 6.773 -4.885
 5 24 4.289 -3.302 -13.334 -0.832 -3.465 -13.157 0.046 -1.765 -15.462 3.701 -4.311 -11.458
 
+0 STEP
 0 FILE s\76042 - 87990s02.dat
 0 Stripe-area geometry sub-part of the ponytail hair mold, containing no direct pieces.
 0 Name: s\76042 - 87990s02.dat
@@ -9603,6 +9798,7 @@
 5 24 -14.77 2.703 7.116 -12.699 0.234 10.068 -12.58 -0.342 9.159 -12.458 2.253 11.254
 5 24 -9.202 9.701 14.562 -9.726 12.739 13.381 -9.522 9.332 13.993 -8.104 9.719 15.46
 
+0 STEP
 0 FILE s\76042 - 87990s03.dat
 0 Non-patternable geometry shell of the ponytail hair mold, containing no direct pieces.
 0 Name: s\76042 - 87990s03.dat
@@ -11597,6 +11793,7 @@
 5 24 -12.39 14.281 8.68 -11.36 14.741 9.622 -10.642 15.164 9.585 -12.173 10.749 11.854
 5 24 -11.36 14.741 9.622 -10.642 15.164 9.585 -12.39 14.281 8.68 -10.084 11.914 12.517
 
+0 STEP
 0 FILE 76042 - Helicarrier S075 R.ldr
 0 Right-side Technic drive sub-assembly using axles, bevel gears, and a toggle joint connector.
 0 Name: 76042 - Helicarrier S075 R.ldr
@@ -11618,6 +11815,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 76042 - Helicarrier S081 R.ldr
 0 Right-side Technic gear train built from two axles, bevel gears, and a toggle joint connector.
 0 Name: 76042 - Helicarrier S081 R.ldr

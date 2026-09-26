@@ -15,6 +15,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 6350 - pizzeria building.ldr 
 0 A small two-story pizzeria building built on an 8x16 baseplate with white brick walls, a red roof, corner accents, and a service tap.
 0 Name: 6350 - pizzeria building.ldr 
@@ -214,6 +215,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 6350 - car.ldr 
 0 A red and white passenger car built on a 7x4 car base with mudguards, grille tiles, and panel details.
 0 Name: 6350 - car.ldr 
@@ -331,6 +333,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 6350 - minifig 1.ldr 
 0 A chef minifigure wearing a white cook's hat, a patterned chef torso, and holding a clear cup.
 0 Name: 6350 - minifig 1.ldr 
@@ -365,6 +368,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 6350 - minifig 2.ldr 
 0 A workman minifigure wearing a white cap, blue dungarees torso, and carrying a radio.
 0 Name: 6350 - minifig 2.ldr 
@@ -399,6 +403,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 6350 - minifig 3.ldr 
 0 A female customer minifigure with a black ponytail hairstyle, a yellow suntop torso, and red legs.
 0 Name: 6350 - minifig 3.ldr 

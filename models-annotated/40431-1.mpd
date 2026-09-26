@@ -7,6 +7,7 @@
 1 15 0 0 0 1 0 0 0 0.5 -0.866 0 0.866 0.5 40431 - BB8.ldr
 
 
+0 STEP
 0 FILE 40431 - Stand.ldr
 0 Technic support stand with locking hinges and axles that holds the spherical droid body upright.
 0 Name: 40431 - Stand.ldr
@@ -32,6 +33,7 @@
 1 15 -30 0 230 -1 0 0 0 1 0 0 0 -1 30553.dat
 
 
+0 STEP
 0 FILE 40431 - BB8.ldr
 0 Spherical white and dark bluish grey body built from curved plates and tiles forming the round droid torso.
 0 Name: 40431 - BB8.ldr
@@ -357,6 +359,7 @@
 
 
 
+0 STEP
 0 FILE 40431 - Head.ldr
 0 Dome-shaped head with orange accent tiles, a light blue eye piece, and curved slopes for the rounded top.
 0 Name: 40431 - Head.ldr
@@ -442,6 +445,7 @@
 1 0 30 -34 -22 0 0 1 1 0 0 0 1 0 85861.dat
 
 
+0 STEP
 0 FILE 40431 - Head side.ldr
 0 Small curved white side panel detail for the head using a grooved brick and curved slope.
 0 Name: 40431 - Head side.ldr

@@ -77,6 +77,7 @@
 1 14 -230 -16 -150 0 0 -1 0 1 0 1 0 0 3741ac01.dat
 0 // Plant Flower Stem Green with Three Flowers with 6 Petals Centre Upwards (red)
 1 4 10 -16 -30 0 0 -1 0 1 0 1 0 0 3741ac01.dat
+0 STEP
 0 FILE 3668 - rickyraccoon.ldr
 0 Fabuland Ricky Raccoon figure with no visible brick pieces.
 0 Name: 3668 - rickyraccoon.ldr
@@ -90,6 +91,7 @@
 1 0 -10 -37 4 1 0 0 0 1 0 0 0 1 u9100.dat
 1 0 10 -37 4 1 0 0 0 1 0 0 0 1 u9100.dat
 1 4 0 -37 4 1 0 0 0 1 0 0 0 1 u9103.dat
+0 STEP
 0 FILE 3668 - maxmouse.ldr
 0 Fabuland Max Mouse figure with no visible brick pieces.
 0 Name: 3668 - maxmouse.ldr
@@ -103,6 +105,7 @@
 1 14 -47.527 -23.729 -84.406 0.716 -0.651 -0.254 0.106 -0.257 0.961 -0.692 -0.714 -0.115 u9100.dat
 1 14 -33.215 -21.605 -98.244 0.716 -0.651 -0.254 0.106 -0.257 0.961 -0.692 -0.714 -0.115 u9100.dat
 1 4 -40.378 -22.668 -91.318 0.715 -0.253 0.651 0.106 0.96 0.257 -0.691 -0.115 0.714 u9103.dat
+0 STEP
 0 FILE 3668 - edwardelephant.ldr
 0 Fabuland Edward Elephant figure with no visible brick pieces.
 0 Name: 3668 - edwardelephant.ldr
@@ -116,6 +119,7 @@
 1 7 -10 -37 4 1 0 0 0 1 0 0 0 1 u9100.dat
 1 7 10 -37 4 1 0 0 0 1 0 0 0 1 u9100.dat
 1 4 0 -37 4 1 0 0 0 1 0 0 0 1 u9103.dat
+0 STEP
 0 FILE 3668 - merrygoround.ldr
 0 Fabuland merry-go-round carousel with a yellow turntable base, mast, round platform, red roof, and three blue seat assemblies.
 0 Name: 3668 - merrygoround.ldr
@@ -144,6 +148,7 @@
 1 1 -28.159 -140.476 112.942 -0.234 -0.063 -0.97 -0.259 0.966 0 0.938 0.251 -0.242 3668 - 4843.dat
 0 // Fabuland Ferris Wheel Seat (blue)
 1 1 -13.86 -70.5 135.831 -0.234 0.191 -0.953 -0.259 0.933 0.25 0.938 0.305 -0.169 3668 - 4782.dat
+0 STEP
 0 FILE 3668 - 3068bpfe.dat
 0 Printed tile decoration with no visible brick pieces.
 0 Name: 3668 - 3068bpfe.dat
@@ -159,6 +164,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\3668 - 3068bpfds01.dat
 1 14 0 0 0 1 0 0 0 1 0 0 0 1 s\3668 - 3068bpfds02.dat
 1 4 0 0 0 1 0 0 0 1 0 0 0 1 s\3668 - 3068bpfds03.dat
+0 STEP
 0 FILE 3668 - 3068bpfd.dat
 0 Printed tile decoration with no visible brick pieces.
 0 Name: 3668 - 3068bpfd.dat
@@ -174,6 +180,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\3668 - 3068bpfds01.dat
 1 25 0 0 0 1 0 0 0 1 0 0 0 1 s\3668 - 3068bpfds02.dat
 1 2 0 0 0 1 0 0 0 1 0 0 0 1 s\3668 - 3068bpfds03.dat
+0 STEP
 0 FILE 3668 - 4842.dat
 0 Geometric primitive assembly of spheres, boxes, cylinders, and rings forming a rounded three-dimensional part.
 0 Name: 3668 - 4842.dat
@@ -370,6 +377,7 @@
 4 16 7.1714 -8.9808 -10.0722 10.0782 -8.938 -7.1774 10.0722 -3 -7.1714 7.1714 -3 -10.0722
 3 16 7.1714 -8.9808 -10.0722 8.6218 -11.0332 -8.6218 10.0782 -8.938 -7.1774
 2 24 10.0782 -8.938 -7.1774 10.0722 -3 -7.1714
+0 STEP
 0 FILE 3668 - 4844a.dat
 0 Small cap or dome piece composed of a top cap, cylinders, circles, and a ring.
 0 Name: 3668 - 4844a.dat
@@ -395,6 +403,7 @@
 1 16 0 -214 0 20 0 0 0 -1 0 0 0 20 4-4edge.dat
 0 // Ring  4 x 1.0 (main_colour)
 1 16 0 -214 0 0 0 4 0 1 0 4 0 0 4-4ring4.dat
+0 STEP
 0 FILE 3668 - 4841.dat
 0 Cylindrical knob or stud-like part made from concentric rings, a bump, and closed cylinders.
 0 Name: 3668 - 4841.dat
@@ -435,6 +444,7 @@
 1 16 0 0 0 0.5 0 0.86603 0 1 0 0.86603 0 -0.5 s\3668 - 4841s02.dat
 1 16 0 0 0 -0.5 0 -0.86603 0 1 0 0.86603 0 -0.5 s\3668 - 4841s02.dat
 1 16 0 0 0 0.5 0 -0.86603 0 1 0 -0.86603 0 -0.5 s\3668 - 4841s02.dat
+0 STEP
 0 FILE 3668 - 4843.dat
 0 Densely detailed curved mesh built from circles, discs, cylinders, chords, and rectangles forming a complex rounded part.
 0 Name: 3668 - 4843.dat
@@ -778,6 +788,7 @@
 4 16 -51 1 -11 -51 -12 -8 -51 -6 -6 -51 6 -6
 0 // Rectangle with 2 Parallel Edges (main_colour)
 1 16 0 -88 0 -6.6438 0 0 0 -1 0 0 0 8 rect2p.dat
+0 STEP
 0 FILE 3668 - 4782.dat
 0 Complex curved primitive assembly of cylinders, chords, rectangles, and a box forming an intricate rounded component.
 0 Name: 3668 - 4782.dat
@@ -1204,6 +1215,7 @@
 1 16 -42 -75 0 0 1 0 6 0 0 0 0 6 4-4edge.dat
 0 // Circle 1.0 (main_colour)
 1 16 -40 -75 0 0 1 0 4 0 0 0 0 4 4-4edge.dat
+0 STEP
 0 FILE 3668 - 787.dat
 0 Pair of angled Fabuland roof support brackets.
 0 Name: 3668 - 787.dat
@@ -1222,6 +1234,7 @@
 
 0 //Antistuds
 0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=R 6 4] [grid=C 2 C 5 20 20]
+0 STEP
 0 FILE 3668 - 4320.dat
 0 Rounded sloped part constructed from cylinders, sloped cylinders, circles, rings, and rectangles.
 0 Name: 3668 - 4320.dat
@@ -1492,6 +1505,7 @@
 0 // Circle 0.25 (main_colour)
 1 16 -14 0 -54 0 0 -2 0 1 0 -2 0 0 1-4edge.dat
 2 24 -4 0 -54 -4 0 -50
+0 STEP
 0 FILE s\3668 - 4844s01.dat
 0 Detailed rounded cap or dome subpart built from boxes, spheres, cones, cylinders, discs, and chords.
 0 Name: s\3668 - 4844s01.dat
@@ -1709,6 +1723,7 @@
 1 16 30 4 0 0 0 -1 0 -1 0 1 0 0 stug3-1x3.dat
 1 16 0 4 30 1 0 0 0 -1 0 0 0 1 stug3-1x3.dat
 1 16 0 4 -30 1 0 0 0 -1 0 0 0 1 stug3-1x3.dat
+0 STEP
 0 FILE s\3668 - 4841s01.dat
 0 Box-and-cylinder subpart forming the main body of a knob or stud component.
 0 Name: s\3668 - 4841s01.dat
@@ -1793,6 +1808,7 @@
 3 16 -70 4 -121.243599 -28.468 3.9963 -106.249001 -14.355 3.9963 -109.054001
 3 16 -70 4 -121.243599 -14.355 3.9963 -109.054001 0 3.9963 -110
 1 16 0 8 0 0 0 20 0 -79.5272 0 -20 0 0 48\1-6cylo.dat
+0 STEP
 0 FILE 48\3668 - t12i8333.dat
 0 Torus primitive segment with major radius 6, minor radius 5, and a 4/48 sweep.
 0 Name: 48\3668 - t12i8333.dat
@@ -1969,6 +1985,7 @@
 5 24 0.6792 0.8049 0.3922 0.7718 0.8262 0.4456 0.6276 0.8049 0.4816 0.7246 0.8049 0.3002
 5 24 0.7718 0.8262 0.4456 0.866 0.8333 0.5 0.7132 0.8262 0.5472 0.8234 0.8262 0.3411
 0 // Build by LDPartEditor (PrimGen 2.X)
+0 STEP
 0 FILE s\3668 - 4779s01.dat
 0 Simple flat subpart consisting of two rectangles.
 0 Name: s\3668 - 4779s01.dat
@@ -1988,6 +2005,7 @@
 4 16 17.8452 -90 2.349 16.854601 -90 2.2189 16.999201 -90 -0.0003 18 -90 0
 4 16 18 -70 0 16.999201 -70 -0.0003 16.854601 -70 -2.2189 17.8451 -70 -2.3497
 1 16 0 -70 0 17.84601 0 2.34947 0 -1 0 -2.34947 0 17.84601 48\1-48edge.dat
+0 STEP
 0 FILE s\3668 - 4841s02.dat
 0 Grooved cylindrical subpart made from rectangles, an open cylinder, and negative discs.
 0 Name: s\3668 - 4841s02.dat
@@ -2124,6 +2142,7 @@
 4 16 15 11.5928 -100 15 12.9285 -98.533302 15 3.3269 -98.533302 15 3.4214 -100
 5 24 12 12.9464 -98.5 15 12.9285 -98.533302 12 11.5928 -100 12 13 -95
 5 24 12 11.5928 -100 15 11.5928 -100 15 12.9285 -98.533302 15 3.4214 -100
+0 STEP
 0 FILE s\3668 - 3068bpfds01.dat
 0 Printed tile decoration subpart with no visible brick pieces.
 0 Name: s\3668 - 3068bpfds01.dat
@@ -2317,6 +2336,7 @@
 4 16 -20 0 -20 20 0 -20 18.799999 0 -18.799999 -18.9 0 -18.9
 4 16 -20 0 -20 -18.9 0 -18.9 -18.700001 0 -4.1068 -18.700001 0 3.7068
 4 16 -20 0 20 -20 0 -20 -18.700001 0 3.7068 -18.6 0 18.5
+0 STEP
 0 FILE s\3668 - 3068bpfds02.dat
 0 Printed tile decoration subpart with no visible brick pieces.
 0 Name: s\3668 - 3068bpfds02.dat
@@ -2363,6 +2383,7 @@
 3 16 -17.799999 0 17.799999 -16.853201 0 4.2586 -15.2875 0 3.2125
 3 16 -17.799999 0 17.799999 -18 0 4.526 -16.853201 0 4.2586
 3 16 -13.874 0 -0.2 -14.2414 0 -2.0468 -13 0 -1.1
+0 STEP
 0 FILE s\3668 - 3068bpfds03.dat
 0 Printed tile decoration subpart with no visible brick pieces.
 0 Name: s\3668 - 3068bpfds03.dat

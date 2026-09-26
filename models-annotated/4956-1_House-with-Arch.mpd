@@ -8,6 +8,7 @@
 1 72 260 -160 40 1 0 0 0 1 0 0 0 1 4956 - Roof.ldr
 
 
+0 STEP
 0 FILE 4956 - House with Arch.ldr
 0 A white-walled house on a green baseplate with numerous grooved tiles, corner bricks, and light bluish grey plate flooring, featuring an arched design.
 0 Name: 4956 - House with Arch.ldr
@@ -613,6 +614,7 @@
 1 2 -10 -56 -270 0.707 0 -0.707 0 1 0 0.707 0 0.707 4956 - Mail Box.ldr
 
 
+0 STEP
 0 FILE 4956 - Pilar.ldr
 0 A small white and light bluish grey pillar built from plates and round hollow-stud bricks.
 0 Name: 4956 - Pilar.ldr
@@ -638,6 +640,7 @@
 1 15 0 -80 0 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 4956 - Garage Door.ldr
 0 A black garage door made of large plates and grooved tiles with technic pins and a handle for hinge articulation.
 0 Name: 4956 - Garage Door.ldr
@@ -677,6 +680,7 @@
 1 0 0 -32 -30 1 0 0 0 1 0 0 0 1 2432.dat
 
 
+0 STEP
 0 FILE 4956 - Garage Door Side.ldr
 0 A white side panel for the garage door featuring grille tiles and a downward bracket mount.
 0 Name: 4956 - Garage Door Side.ldr
@@ -694,6 +698,7 @@
 1 72 0 10 -22 1 0 0 0 0 -1 0 1 0 2412b.dat
 
 
+0 STEP
 0 FILE 4956 - Tree.ldr
 0 A green tree with a reddish brown trunk and sloped leaf elements, accented with lime bricks.
 0 Name: 4956 - Tree.ldr
@@ -729,6 +734,7 @@
 1 70 0 8 0 0 0 -1 0 1 0 1 0 0 3062b.dat
 
 
+0 STEP
 0 FILE 4956 - Mail Box.ldr
 0 A small yellow and dark bluish grey mailbox with a red mail slot tile and curved top.
 0 Name: 4956 - Mail Box.ldr
@@ -756,6 +762,7 @@
 1 71 0 32 0 1 0 0 0 1 0 0 0 1 3062b.dat
 
 
+0 STEP
 0 FILE 4956 - Bush.ldr
 0 A low green bush made of leaf plant pieces mounted on reddish brown stems.
 0 Name: 4956 - Bush.ldr
@@ -779,6 +786,7 @@
 1 70 0 16 0 -1 0 0 0 1 0 0 0 -1 3062b.dat
 
 
+0 STEP
 0 FILE 4956 - Roof.ldr
 0 A large red pitched roof constructed from 45-degree slope bricks supported by a white brick framework and light bluish grey plates.
 0 Name: 4956 - Roof.ldr

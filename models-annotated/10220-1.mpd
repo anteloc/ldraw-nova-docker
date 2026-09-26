@@ -11,6 +11,7 @@
 
 
 
+0 STEP
 0 FILE 10220 - Van.ldr
 0 Main T1 Camper Van body shell: red brick chassis with white and tan detailing, tiled and plated bodywork, glazed panels and windows, slopes and curved details, Technic pins and axles, fabric curtain, and hinged doors
 0 Name: 10220 - Van.ldr
@@ -1034,6 +1035,7 @@
 1 0 -132 -108 -100 1 0 0 0 1 0 0 0 1 10220 - Van S115.ldr
 
 
+0 STEP
 0 FILE 10220 - Van S113.ldr
 0 Wheel assembly: white 6-spoke rim with a black offset-tread tyre
 0 Name: 10220 - Van S113.ldr
@@ -1051,6 +1053,7 @@
 1 256 0 0 0 0 0 -1 -1 0 0 0 1 0 56898.dat
 
 
+0 STEP
 0 FILE 10220 - Van S007.ldr
 0 Technic axle subframe: bushes, inline joiners, an axle and two long dark bluish-grey 14-hole technic bricks
 0 Name: 10220 - Van S007.ldr
@@ -1091,6 +1094,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10220 - Van S010.ldr
 0 Steering/front linkage of yellow technic bricks with pins, white slopes and curved tiles
 0 Name: 10220 - Van S010.ldr
@@ -1147,6 +1151,7 @@
 
 
 
+0 STEP
 0 FILE 10220 - Van S012.ldr
 0 Technic wheel/steering sub-assembly: pin-connected bricks, a slope and a small light bluish-grey wheel rim
 0 Name: 10220 - Van S012.ldr
@@ -1184,6 +1189,7 @@
 1 324 0 -38 25 -1 0 0 0 1 0 0 0 -1 10220 - Van S012 s08 Rubber.ldr
 
 
+0 STEP
 0 FILE 10220 - Van S014 R.ldr
 0 Right-side white body detail: an arch, bricks and a grooved tile
 0 Name: 10220 - Van S014 R.ldr
@@ -1214,6 +1220,7 @@
 
 
 
+0 STEP
 0 FILE 10220 - Van S014 L.ldr
 0 Left-side white body detail: an arch, bricks, clip plates and a light bluish-grey handle bar
 0 Name: 10220 - Van S014 L.ldr
@@ -1251,6 +1258,7 @@
 
 
 
+0 STEP
 0 FILE 10220 - Van S015.ldr
 0 Technic pin-and-beam subframe of two dark bluish-grey 14-hole technic bricks
 0 Name: 10220 - Van S015.ldr
@@ -1279,6 +1287,7 @@
 
 
 
+0 STEP
 0 FILE 10220 - Van S016.ldr
 0 Technic axle assembly: two axles with inline joiners and yellow bushes
 0 Name: 10220 - Van S016.ldr
@@ -1307,6 +1316,7 @@
 
 
 
+0 STEP
 0 FILE 10220 - Van S017.ldr
 0 Technic pin-and-beam subframe of two dark bluish-grey 14-hole technic bricks
 0 Name: 10220 - Van S017.ldr
@@ -1335,6 +1345,7 @@
 
 
 
+0 STEP
 0 FILE 10220 - Van S019.ldr
 0 Red inverted-slope panel assembly (nine 45-degree 2x2 inverted slopes) on a black plate base
 0 Name: 10220 - Van S019.ldr
@@ -1373,6 +1384,7 @@
 
 
 
+0 STEP
 0 FILE 10220 - Van S024.ldr
 0 Red engine/front detail of studs-on-side bricks and dark bluish-grey inverted slopes on a black plate base
 0 Name: 10220 - Van S024.ldr
@@ -1436,6 +1448,7 @@
 
 
 
+0 STEP
 0 FILE 10220 - Van S026.ldr
 0 White front-end detail with a large curved arch, a headlight brick and a grooved tile
 0 Name: 10220 - Van S026.ldr
@@ -1466,6 +1479,7 @@
 
 
 
+0 STEP
 0 FILE 10220 - Van S032.ldr
 0 Medium-blue and dark-red tiled interior panel on a dark bluish-grey base with clip plates
 0 Name: 10220 - Van S032.ldr
@@ -1510,6 +1524,7 @@
 1 4 90 -8 -20 0 0 1 0 1 0 -1 0 0 3710.dat
 
 
+0 STEP
 0 FILE 10220 - Van S033.ldr
 0 Red door assembly of door-rail plates, corner plates, slopes and grooved tiles
 0 Name: 10220 - Van S033.ldr
@@ -1568,6 +1583,7 @@
 
 
 
+0 STEP
 0 FILE 10220 - Van S037.ldr
 0 Red sub-assembly with headlight bricks, a corner brick and a towball plate
 0 Name: 10220 - Van S037.ldr
@@ -1598,6 +1614,7 @@
 1 4 -10 -56 0 -1 0 0 0 1 0 0 0 -1 3023.dat
 
 
+0 STEP
 0 FILE 10220 - Van S038.ldr
 0 Red hinged body panel of 1x4 hinge plates, bricks and headlight bricks
 0 Name: 10220 - Van S038.ldr
@@ -1660,6 +1677,7 @@
 1 19 8 -38 -60 1 0 0 0 1 0 0 0 1 10220 - Van S038 s08.ldr
 
 
+0 STEP
 0 FILE 10220 - Van S041.ldr
 0 Red hinged panel assembly of 1x4 hinge plates, grooved tiles and tan detailing
 0 Name: 10220 - Van S041.ldr
@@ -1773,6 +1791,7 @@
 1 71 70 -72 -20 -1 0 0 0 1 0 0 0 -1 3069b.dat
 
 
+0 STEP
 0 FILE 10220 - Van S009 Hose R.ldr
 0 Right flexible hose of forty linked hose segments
 0 Name: 10220 - Van S009 Hose R.ldr
@@ -1902,6 +1921,7 @@
 1 16 59.958123 -70.004653 10.604428 0.000619 0.027372 0.999625 0.999995 0.003046 -0.000702 -0.003064 0.999621 -0.02737 754.dat
 
 
+0 STEP
 0 FILE 10220 - Van S009 Hose L.ldr
 0 Left flexible hose of forty linked hose segments
 0 Name: 10220 - Van S009 Hose L.ldr
@@ -2031,6 +2051,7 @@
 1 16 59.958123 -70.004653 -10.604428 -0.000619 0.027372 0.999625 -0.999995 0.003046 -0.000702 -0.003064 -0.999621 0.02737 754.dat
 
 
+0 STEP
 0 FILE 10220 - Van S012 s02.ldr
 0 Technic pulley sub-assembly: a tan axle pin, a yellow bush and a light bluish-grey wedge belt wheel
 0 Name: 10220 - Van S012 s02.ldr
@@ -2048,6 +2069,7 @@
 1 71 0 0 15 -1 0 0 0 1 0 0 0 -1 4185a.dat
 
 
+0 STEP
 0 FILE 10220 - Van S012 s04.ldr
 0 Technic joint sub-assembly: silver round plates, a 90-degree cross block and pins
 0 Name: 10220 - Van S012 s04.ldr
@@ -2072,6 +2094,7 @@
 1 80 -38.172 -9.897 0 0 0.707 0.707 0 0.707 -0.707 -1 0 0 6141.dat
 
 
+0 STEP
 0 FILE 10220 - Van S012 s06.ldr
 0 Small sub-assembly of two silver round plates and a black corner plate
 0 Name: 10220 - Van S012 s06.ldr
@@ -2089,6 +2112,7 @@
 1 80 0 -8 0 0 0 1 0 1 0 -1 0 0 6141.dat
 
 
+0 STEP
 0 FILE 10220 - Van S012 s08 Rubber.ldr
 0 Flexible rubber band of linked round segments
 0 Name: 10220 - Van S012 s08 Rubber.ldr
@@ -3511,6 +3535,7 @@
 5 24 -26.656437 -16.621889 1.414214 -25.456411 -15.8736 2 -26.18157 -17.501945 1.414214 -28.522923 -13.162457 1.414214
 
 
+0 STEP
 0 FILE 10220 - Van S038 s08.ldr
 0 Tan furniture sub-assembly of square and rounded-corner panels on a plate
 0 Name: 10220 - Van S038 s08.ldr
@@ -3539,6 +3564,7 @@
 1 19 24 20 -10 0 -1 0 -1 0 0 0 0 -1 6231.dat
 
 
+0 STEP
 0 FILE 10220 - Van S052.ldr
 0 Sink/detail assembly with headlight bricks and a pearl-gold two-valve tap
 0 Name: 10220 - Van S052.ldr
@@ -3561,6 +3587,7 @@
 1 297 -10 -14 14 -1 0 0 0 0 -1 0 -1 0 6936.dat
 
 
+0 STEP
 0 FILE 10220 - Van S053.ldr
 0 Tan cabinet/shelf sub-assembly of plates, a brick and a rounded-corner panel
 0 Name: 10220 - Van S053.ldr
@@ -3582,6 +3609,7 @@
 1 19 0 -24 -30 -1 0 0 0 1 0 0 0 -1 6231.dat
 
 
+0 STEP
 0 FILE 10220 - Van S054.ldr
 0 Hinged tan and dark-red furniture flap of hinge plates and plates
 0 Name: 10220 - Van S054.ldr
@@ -3608,6 +3636,7 @@
 1 19 0 -40 -20 0 0 -1 0 1 0 1 0 0 3010.dat
 
 
+0 STEP
 0 FILE 10220 - Van S056.ldr
 0 Foldable interior unit: dark-red and medium-blue tiles, mechanical clip arms and handle plates
 0 Name: 10220 - Van S056.ldr
@@ -3658,6 +3687,7 @@
 1 320 0 -92 38 1 0 0 0 1 0 0 0 1 10220 - Van S056 s07.ldr
 
 
+0 STEP
 0 FILE 10220 - Van S056 s06.ldr
 0 Interior furniture sub-unit of tan bricks, medium-blue tiles and handle plates
 0 Name: 10220 - Van S056 s06.ldr
@@ -3696,6 +3726,7 @@
 1 73 -20 30 -32 -1 0 0 0 0 1 0 1 0 3069b.dat
 
 
+0 STEP
 0 FILE 10220 - Van S056 s07.ldr
 0 Dark-red cushion/detail sub-unit of curved-top bricks and plates
 0 Name: 10220 - Van S056 s07.ldr
@@ -3730,6 +3761,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10220 - Van S057.ldr
 0 Foldable interior unit: dark-red and medium-blue tiles, a tan brick, an inverted slope and a clip plate
 0 Name: 10220 - Van S057.ldr
@@ -3770,6 +3802,7 @@
 1 320 0 -108 -38 -1 0 0 0 1 0 0 0 -1 10220 - Van S057 s07.ldr
 
 
+0 STEP
 0 FILE 10220 - Van S057 s07.ldr
 0 Dark-red cushion/detail sub-unit of curved-top bricks and plates
 0 Name: 10220 - Van S057 s07.ldr
@@ -3804,6 +3837,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10220 - Van S057 s06.ldr
 0 Interior furniture sub-unit of tan bricks, medium-blue tiles and handle plates
 0 Name: 10220 - Van S057 s06.ldr
@@ -3842,6 +3876,7 @@
 1 73 -20 0 32 0 0 -1 1 0 0 0 -1 0 3068b.dat
 
 
+0 STEP
 0 FILE 10220 - Van S067a.ldr
 0 Grab-handle/wiper sub-assembly: a silver round plate and a light bluish-grey handle bar on a pin
 0 Name: 10220 - Van S067a.ldr
@@ -3859,6 +3894,7 @@
 1 71 0 0 0 0 0 1 0 1 0 -1 0 0 87618.dat
 
 
+0 STEP
 0 FILE 10220 - Van S067b.ldr
 0 Grab-handle sub-assembly: dark bluish-grey round plates and a light bluish-grey handle plate
 0 Name: 10220 - Van S067b.ldr
@@ -3875,6 +3911,7 @@
 1 72 -10 -8 0 -1 0 0 0 1 0 0 0 -1 6141.dat
 
 
+0 STEP
 0 FILE 10220 - Van S074.ldr
 0 Red hinged edge/door panel with hinge bricks, inverted slopes and a hose-nozzle detail
 0 Name: 10220 - Van S074.ldr
@@ -3928,6 +3965,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10220 - Van S075.ldr
 0 Window/panel unit of studs-on-side bricks, medium-blue tiled glazing and hinged black tops
 0 Name: 10220 - Van S075.ldr
@@ -3981,6 +4019,7 @@
 1 0 -40 -40 0 1 0 0 0 1 0 0 0 1 30414.dat
 
 
+0 STEP
 0 FILE 10220 - Van S075 s04.ldr
 0 Dark-red curved-top brick detail sub-unit
 0 Name: 10220 - Van S075 s04.ldr
@@ -4000,6 +4039,7 @@
 1 320 20 -64 0 0 0 1 0 1 0 -1 0 0 6091.dat
 
 
+0 STEP
 0 FILE 10220 - Van S076.ldr
 0 Steering column sub-assembly: a small steering wheel, a notched axle and locking hinge plates
 0 Name: 10220 - Van S076.ldr
@@ -4027,6 +4067,7 @@
 1 71 0 -52.765 57 0 0 -1 0.5 0.866 0 0.866 -0.5 0 2819.dat
 
 
+0 STEP
 0 FILE 10220 - Van S077.ldr
 0 Red hinged edge/door panel with hinge bricks, inverted slopes and a hose-nozzle detail
 0 Name: 10220 - Van S077.ldr
@@ -4078,6 +4119,7 @@
 1 15 0 -56 -60 0 0 -1 0 1 0 1 0 0 4623.dat
 
 
+0 STEP
 0 FILE 10220 - Van S082.ldr
 0 Side mirror/window unit: a glazed train window, a chrome-silver mirror sticker and hinged tan plates
 0 Name: 10220 - Van S082.ldr
@@ -4104,6 +4146,7 @@
 1 71 0 -88 0 1 0 0 0 1 0 0 0 1 3069b.dat
 
 
+0 STEP
 0 FILE 10220 - Van S083.ldr
 0 Flower-power rear detail: a yellow wing and tile bearing a 'Make LEGO Models Not War' flowers sticker
 0 Name: 10220 - Van S083.ldr
@@ -4126,6 +4169,7 @@
 1 19 0 0 0 0 0 -1 0 1 0 1 0 0 47905.dat
 
 
+0 STEP
 0 FILE 10220 - Van S086.ldr
 0 Tan and white interior bracket with headlight bricks, clip plates and an inverted slope
 0 Name: 10220 - Van S086.ldr
@@ -4179,6 +4223,7 @@
 1 191 -19.999 -24 20 -0.866 0 0.5 0 -1 0 0.5 0 0.866 3852a.dat
 
 
+0 STEP
 0 FILE 10220 - Van S090.ldr
 0 White curved-slope body detail on a black plate
 0 Name: 10220 - Van S090.ldr
@@ -4203,6 +4248,7 @@
 1 15 -16 50 0 0 1 0 0 0 1 1 0 0 3710.dat
 
 
+0 STEP
 0 FILE 10220 - Van S091b.ldr
 0 White curved-slope body detail on a black plate
 0 Name: 10220 - Van S091b.ldr
@@ -4225,6 +4271,7 @@
 1 15 -24 0 -10 0 1 0 0 0 1 1 0 0 61678.dat
 
 
+0 STEP
 0 FILE 10220 - Van S091a.ldr
 0 Small white curved-slope body detail
 0 Name: 10220 - Van S091a.ldr
@@ -4242,6 +4289,7 @@
 1 15 -16 -20 0 0 1 0 0 0 1 1 0 0 61678.dat
 
 
+0 STEP
 0 FILE 10220 - Van S092.ldr
 0 White body corner with studs-on-side bricks, a corner plate and an inverted notched slope
 0 Name: 10220 - Van S092.ldr
@@ -4271,6 +4319,7 @@
 1 15 0 -56 -10 1 0 0 0 1 0 0 0 1 4287a.dat
 
 
+0 STEP
 0 FILE 10220 - Van S093.ldr
 0 Bracketed hinge joint: a down-bracket, a technic brick, a pin and a trans-yellow tooth plate
 0 Name: 10220 - Van S093.ldr
@@ -4296,6 +4345,7 @@
 1 46 -18 -46 0 0 1 0 0 0 -1 -1 0 0 49668.dat
 
 
+0 STEP
 0 FILE 10220 - Van S095.ldr
 0 Tan and white interior bracket with a headlight brick and an inverted slope
 0 Name: 10220 - Van S095.ldr
@@ -4317,6 +4367,7 @@
 1 15 30 -14 0 0 -1 0 0 0 1 -1 0 0 3005.dat
 
 
+0 STEP
 0 FILE 10220 - Van S098.ldr
 0 Locking-hinge bracket of two 9-position hinge plates with grooved tiles
 0 Name: 10220 - Van S098.ldr
@@ -4341,6 +4392,7 @@
 1 71 -50 -16 0 1 0 0 0 1 0 0 0 1 3070b.dat
 
 
+0 STEP
 0 FILE 10220 - Van S099.ldr
 0 White curved-slope and wing body detail on a tan plate
 0 Name: 10220 - Van S099.ldr
@@ -4371,6 +4423,7 @@
 1 15 -20 0 24 1 0 0 0 0 1 0 -1 0 61678.dat
 
 
+0 STEP
 0 FILE 10220 - Van S100.ldr
 0 White curved-slope and wing body detail on a tan plate
 0 Name: 10220 - Van S100.ldr
@@ -4401,6 +4454,7 @@
 1 15 0 0 24 1 0 0 0 0 1 0 -1 0 61678.dat
 
 
+0 STEP
 0 FILE 10220 - Van S101.ldr
 0 Red glazed panel/window unit with trans-clear panels and locking hinge tiles
 0 Name: 10220 - Van S101.ldr
@@ -4448,6 +4502,7 @@
 1 47 60 -63 -10 -1 0 0 0 0 -1 0 -1 0 4614415b.dat
 
 
+0 STEP
 0 FILE 10220 - Van S102.ldr
 0 White curved-slope body detail on a black plate
 0 Name: 10220 - Van S102.ldr
@@ -4472,6 +4527,7 @@
 1 15 16 50 0 0 -1 0 0 0 1 -1 0 0 3710.dat
 
 
+0 STEP
 0 FILE 10220 - Van S103a.ldr
 0 White curved-slope body detail on a black plate
 0 Name: 10220 - Van S103a.ldr
@@ -4494,6 +4550,7 @@
 1 15 24 0 -10 0 -1 0 0 0 1 -1 0 0 61678.dat
 
 
+0 STEP
 0 FILE 10220 - Van S103b.ldr
 0 Small white curved-slope body detail
 0 Name: 10220 - Van S103b.ldr
@@ -4511,6 +4568,7 @@
 1 15 16 50 0 0 -1 0 -1 0 0 0 0 -1 3024.dat
 
 
+0 STEP
 0 FILE 10220 - Van S104.ldr
 0 Hinged table/bench unit: tan grille tiles, hinge tops and tan plates on a long base
 0 Name: 10220 - Van S104.ldr
@@ -4566,6 +4624,7 @@
 1 0 18 -6 30 0 1 0 0 0 -1 -1 0 0 4593.dat
 
 
+0 STEP
 0 FILE 10220 - Van S105.ldr
 0 Glazed window unit with trans-clear panels, a clip plate and white tiles/plates
 0 Name: 10220 - Van S105.ldr
@@ -4590,6 +4649,7 @@
 1 15 0 -16 -20 0 0 1 0 1 0 -1 0 0 6636.dat
 
 
+0 STEP
 0 FILE 10220 - Van S106.ldr
 0 Glazed window unit with trans-clear panels, a clip plate and white tiles/plates
 0 Name: 10220 - Van S106.ldr
@@ -4614,6 +4674,7 @@
 1 15 0 -16 -20 0 0 1 0 1 0 -1 0 0 6636.dat
 
 
+0 STEP
 0 FILE 10220 - Van S107.ldr
 0 Small white curved-slope body detail
 0 Name: 10220 - Van S107.ldr
@@ -4631,6 +4692,7 @@
 1 15 0 0 0 0 -1 0 0 0 1 -1 0 0 61678.dat
 
 
+0 STEP
 0 FILE 10220 - Van S108.ldr
 0 White body corner detail with a 65-degree slope and a studs-on-side brick
 0 Name: 10220 - Van S108.ldr
@@ -4653,6 +4715,7 @@
 1 15 0 -14 -20 -1 0 0 0 0 1 0 1 0 54200.dat
 
 
+0 STEP
 0 FILE 10220 - Van S110.ldr
 0 Large white curved roof panel of curved 6x2 slopes, handle plates and tiles
 0 Name: 10220 - Van S110.ldr
@@ -4741,6 +4804,7 @@
 1 15 -60 21.271 -98.305 1 0 0 0 0.805 0.593 0 -0.593 0.805 10220 - Van S110 s11.ldr
 
 
+0 STEP
 0 FILE 10220 - Van S110 s11.ldr
 0 Glazed bracketed window sub-unit with clip tiles and a trans-clear panel
 0 Name: 10220 - Van S110 s11.ldr
@@ -4762,6 +4826,7 @@
 1 71 0 -16 0 -1 0 0 0 1 0 0 0 -1 3069b.dat
 
 
+0 STEP
 0 FILE 10220 - Van S113 s02.ldr
 0 Hubcap/light sub-assembly: silver and trans-neon-orange round plates on an inverted dish
 0 Name: 10220 - Van S113 s02.ldr
@@ -4779,6 +4844,7 @@
 1 80 -16 0 0 0 1 0 0 0 -1 -1 0 0 43898.dat
 
 
+0 STEP
 0 FILE 10220 - Van S115.ldr
 0 Red taillight/base detail with red tiles and a silver round plate
 0 Name: 10220 - Van S115.ldr
@@ -4800,6 +4866,7 @@
 1 80 -16 -10 30 0 1 0 0 0 -1 -1 0 0 6141.dat
 
 
+0 STEP
 0 FILE 10220 - Van S114.ldr
 0 Red taillight/base detail with red grooved tiles on a black plate
 0 Name: 10220 - Van S114.ldr
@@ -4819,6 +4886,7 @@
 1 4 8 20 0 0 -1 0 0 0 -1 1 0 0 87079.dat
 
 
+0 STEP
 0 FILE 10220 - Van S111 s14.ldr
 0 Foldable interior furnishing: mechanical clip arms, tan tiles and white curved slopes
 0 Name: 10220 - Van S111 s14.ldr
@@ -4957,6 +5025,7 @@
 1 71 -124.153 -9.071 -70 0 0.656 -0.755 0 -0.755 -0.656 -1 0 0 30377.dat
 
 
+0 STEP
 0 FILE 10220 - Van S111 s14 s6.ldr
 0 Small plate base of tan and white plates
 0 Name: 10220 - Van S111 s14 s6.ldr
@@ -4983,6 +5052,7 @@
 1 15 20 -16 0 1 0 0 0 1 0 0 0 1 3022.dat
 
 
+0 STEP
 0 FILE 10220 - Van S111 s15.ldr
 0 Bracketed shelf of white 2x4 tiles on down-brackets
 0 Name: 10220 - Van S111 s15.ldr
@@ -5008,6 +5078,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10220 - Van S111.ldr
 0 Pop-up roof assembly: white slopes, orange handle plates, technic beams and a fabric roof on a dark-red base
 0 Name: 10220 - Van S111.ldr
@@ -5130,6 +5201,7 @@
 1 47 0 8 120 0 0 -1 0 1 0 1 0 0 2654a.dat
 
 
+0 STEP
 0 FILE 10220 - Van S111 s13.ldr
 0 Roof panel of white 2x4 tiles and 4x8 plates
 0 Name: 10220 - Van S111 s13.ldr
@@ -5154,6 +5226,7 @@
 1 15 -90 32 0 1 0 0 0 1 0 0 0 1 10220 - Van S111 S13 s3.ldr
 
 
+0 STEP
 0 FILE 10220 - Van S111 S13 s3.ldr
 0 White curved-top roof section of curved bricks on a plate
 0 Name: 10220 - Van S111 S13 s3.ldr
@@ -5176,6 +5249,7 @@
 1 15 20 -32 -60 0 0 1 0 1 0 -1 0 0 6081.dat
 
 
+0 STEP
 0 FILE 10220 - Van S111 S10.ldr
 0 Single white 4x8 roof plate
 0 Name: 10220 - Van S111 S10.ldr
@@ -5191,6 +5265,7 @@
 1 320 0 16 70 -1 0 0 0 1 0 0 0 -1 10220 - Van S111 s10 s2.ldr
 
 
+0 STEP
 0 FILE 10220 - Van S111 s10 s2.ldr
 0 Roof frame detail of orange handle plates, a dark-red plate and round plates
 0 Name: 10220 - Van S111 s10 s2.ldr
@@ -5215,6 +5290,7 @@
 1 72 50 -16 0 -1 0 0 0 1 0 0 0 -1 6141.dat
 
 
+0 STEP
 0 FILE 10220 - Van S112.ldr
 0 Red rear body/engine assembly of curved and 31-degree slopes, grooved tiles and clip plates
 0 Name: 10220 - Van S112.ldr
@@ -5376,6 +5452,7 @@
 1 15 0 -84.057 -37.046 1 0 0 0 0.242 -0.97 0 0.97 0.242 4614425a.dat
 
 
+0 STEP
 0 FILE 10220 - Van S112 s05.ldr
 0 Detail sub-assembly: an axlehole plate, clip plates, a black grooved tile and a trans-clear rimmed dish
 0 Name: 10220 - Van S112 s05.ldr
@@ -5404,6 +5481,7 @@
 1 0 -50 0 4 0 0 -1 -1 0 0 0 1 0 60470a.dat
 
 
+0 STEP
 0 FILE 10220 - Van S112 s16 R.ldr
 0 Right flexible hose assembly (forty-four segments) with red, tan and bluish-grey connector plates and a trans-clear dish
 0 Name: 10220 - Van S112 s16 R.ldr
@@ -7804,6 +7882,7 @@
 5 24 106.278122 39.427013 -97.771011 106.259956 38.99118 -96.929871 106.000229 40.770355 -97.026466 107.122818 38.279091 -98.407234
 
 
+0 STEP
 0 FILE 10220 - Van S112 s16 L.ldr
 0 Left flexible hose assembly (forty-four segments) with red, tan and bluish-grey connector plates and a trans-clear dish
 0 Name: 10220 - Van S112 s16 L.ldr
@@ -10204,6 +10283,7 @@
 5 24 112.380447 -6.438843 104.751755 112.360687 -6.446819 103.725319 110.968895 -5.772713 104.73996 113.429405 -7.594463 104.772148
 
 
+0 STEP
 0 FILE 10220 - Van with Opened Roof.ldr
 0 T1 Camper Van shown with the pop-up roof opened: full red-and-white body shell with glazed windows, interior detail and the raised fabric roof
 0 Name: 10220 - Van with Opened Roof.ldr
@@ -11225,6 +11305,7 @@
 1 0 -132 -108 -100 1 0 0 0 1 0 0 0 1 10220 - Van S115.ldr
 
 
+0 STEP
 0 FILE 10220 - Van S111 Opened Roof.ldr
 0 Pop-up roof shown opened: white slopes, orange handle plates, technic beams and the raised fabric roof on a dark-red base
 0 Name: 10220 - Van S111 Opened Roof.ldr
@@ -11349,6 +11430,7 @@
 1 47 0 8 120 0 0 -1 0 1 0 1 0 0 2654a.dat
 
 
+0 STEP
 0 FILE 10220 - Van S109.ldr
 0 Small glazed window detail: a trans-clear panel, a white slope and a white-rectangle sticker
 0 Name: 10220 - Van S109.ldr

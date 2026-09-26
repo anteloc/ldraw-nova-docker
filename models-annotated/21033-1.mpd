@@ -276,6 +276,7 @@
 
 
 
+0 STEP
 0 FILE 21033 - 1.ldr
 0 1
 0 Name: 21033 - 1.ldr
@@ -292,6 +293,7 @@
 0 // Tile  1 x  8 with "Chicago" Pattern (black)
 1 0 0 -8 0 0 0 -1 0 1 0 1 0 0 4162p17.dat
 
+0 STEP
 0 FILE 21033 - 2.ldr
 0 2
 0 Name: 21033 - 2.ldr
@@ -320,6 +322,7 @@
 
 
 
+0 STEP
 0 FILE 21033 - 2 - 1.ldr
 0 2 - 1
 0 Name: 21033 - 2 - 1.ldr
@@ -340,6 +343,7 @@
 
 
 
+0 STEP
 0 FILE 21033 - 2 - 2.ldr
 0 2 - 2
 0 Name: 21033 - 2 - 2.ldr
@@ -362,6 +366,7 @@
 
 
 
+0 STEP
 0 FILE 21033 - 2 - 3.ldr
 0 2 - 3
 0 Name: 21033 - 2 - 3.ldr
@@ -384,6 +389,7 @@
 
 
 
+0 STEP
 0 FILE 21033 - 2 - 4.ldr
 0 2 - 4
 0 Name: 21033 - 2 - 4.ldr
@@ -404,6 +410,7 @@
 
 
 
+0 STEP
 0 FILE 21033 - 2 - 5.ldr
 0 2 - 5
 0 Name: 21033 - 2 - 5.ldr
@@ -434,6 +441,7 @@
 
 
 
+0 STEP
 0 FILE 21033 - 3.ldr
 0 3
 0 Name: 21033 - 3.ldr
@@ -470,6 +478,7 @@
 
 
 
+0 STEP
 0 FILE 21033 - 4.ldr
 0 4
 0 Name: 21033 - 4.ldr
@@ -492,6 +501,7 @@
 
 
 
+0 STEP
 0 FILE 21033 - 5.ldr
 0 5
 0 Name: 21033 - 5.ldr
@@ -527,6 +537,7 @@
 
 
 
+0 STEP
 0 FILE 21033 - 5 - 1.ldr
 0 5 - 1
 0 Name: 21033 - 5 - 1.ldr
@@ -549,6 +560,7 @@
 
 
 
+0 STEP
 0 FILE 21033 - 6.ldr
 0 6
 0 Name: 21033 - 6.ldr
@@ -571,6 +583,7 @@
 
 
 
+0 STEP
 0 FILE 21033 - 7.ldr
 0 7
 0 Name: 21033 - 7.ldr
@@ -601,6 +614,7 @@
 
 
 
+0 STEP
 0 FILE 21033 - 8.ldr
 0 8
 0 Name: 21033 - 8.ldr
@@ -619,6 +633,7 @@
 
 
 
+0 STEP
 0 FILE 21033 - 9.ldr
 0 9
 0 Name: 21033 - 9.ldr
@@ -635,6 +650,7 @@
 
 
 
+0 STEP
 0 FILE 21033 - 10.ldr
 0 10
 0 Name: 21033 - 10.ldr
@@ -705,6 +721,7 @@
 0 // Tile  1 x  1 Corner Round (light_bluish_grey)
 1 71 -10 0 10 -1 0 0 0 1 0 0 0 -1 25269.dat
 
+0 STEP
 0 FILE 21033 - 11.ldr
 0 11
 0 Name: 21033 - 11.ldr
@@ -753,6 +770,7 @@
 
 
 
+0 STEP
 0 FILE 21033 - 11 - 1.ldr
 0 11 - 1
 0 Name: 21033 - 11 - 1.ldr
@@ -781,6 +799,7 @@
 
 
 
+0 STEP
 0 FILE 21033 - 12.ldr
 0 12
 0 Name: 21033 - 12.ldr
@@ -855,6 +874,7 @@
 
 
 
+0 STEP
 0 FILE 21033 - 13.ldr
 0 13
 0 Name: 21033 - 13.ldr

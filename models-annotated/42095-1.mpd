@@ -9,6 +9,7 @@
 1 71 305 -50 -145 0.883 0 -0.469 0 1 0 0.469 0 0.883 42095 - remote.ldr
 
 
+0 STEP
 0 FILE 42095 - powerFuncMotorL-LQ-1.ldr
 0 Power Functions large motor with cable and connector used to drive one side of the tracked vehicle.
 0 Name: 42095 - powerFuncMotorL-LQ-1.ldr
@@ -54,6 +55,7 @@
 
 
 
+0 STEP
 0 FILE 42095 - powerFuncMotorL-LQ-1_subPart1.ldr
 0 Flexible cable segment routing the wiring for the first Power Functions large motor.
 0 Name: 42095 - powerFuncMotorL-LQ-1_subPart1.ldr
@@ -167,6 +169,7 @@
 1 16 -259.384661 -159.025709 90 -0.041744 -3.999208 0 -0.999128 0.167088 0 0 0 -1 u9190.dat
 
 
+0 STEP
 0 FILE 42095 - racer.ldr
 0 Main Technic chassis built from beams, pins, axles, and cross blocks forming the structural frame of the tracked racer.
 0 Name: 42095 - racer.ldr
@@ -538,6 +541,7 @@
 1 0 140 -20 220 0 0 1 0 1 0 -1 0 0 42095 - technicChainTread38ReinforcedClosed-1.ldr
 
 
+0 STEP
 0 FILE 42095 - powerFuncMotorL-LQ-2.ldr
 0 Power Functions large motor with cable and connector used to drive the other side of the tracked vehicle.
 0 Name: 42095 - powerFuncMotorL-LQ-2.ldr
@@ -583,6 +587,7 @@
 
 
 
+0 STEP
 0 FILE 42095 - powerFuncMotorL-LQ-2_subPart1.ldr
 0 Flexible cable segment routing the wiring for the second Power Functions large motor.
 0 Name: 42095 - powerFuncMotorL-LQ-2_subPart1.ldr
@@ -692,6 +697,7 @@
 1 16 179.596644 -159.018634 90 0.046147 3.98269 0 -0.998935 0.183986 0 0 0 1 u9190.dat
 
 
+0 STEP
 0 FILE 42095 - chassisfronttop.ldr
 0 Front upper chassis section assembled from bent liftarms, beams, axles, and cross blocks.
 0 Name: 42095 - chassisfronttop.ldr
@@ -748,6 +754,7 @@
 1 0 0 100 -80 0 0 1 1 0 0 0 1 0 32524.dat
 
 
+0 STEP
 0 FILE 42095 - headlights.ldr
 0 Headlight assembly with round silver-dot tiles mounted on a bent beam and cross block structure.
 0 Name: 42095 - headlights.ldr
@@ -794,6 +801,7 @@
 1 0 20 0 60 0 1 0 1 0 0 0 0 -1 32526.dat
 
 
+0 STEP
 0 FILE 42095 - powerFuncIRRecV1-LQ-1.ldr
 0 Power Functions IR receiver with connector and cable for receiving remote control signals.
 0 Name: 42095 - powerFuncIRRecV1-LQ-1.ldr
@@ -840,6 +848,7 @@
 
 
 
+0 STEP
 0 FILE 42095 - powerFuncIRRecV1-LQ-1_subPart1.ldr
 0 Flexible cable segment routing the wiring for the Power Functions IR receiver.
 0 Name: 42095 - powerFuncIRRecV1-LQ-1_subPart1.ldr
@@ -982,6 +991,7 @@
 1 16 -79.039191 -19.38957 -190.050569 -0.997926 0.255743 -0.008184 -0.064309 -3.983405 0.082034 -0.002901 0.329992 0.996596 u9190.dat
 
 
+0 STEP
 0 FILE 42095 - top.ldr
 0 Upper bodywork section featuring dark azure fairing panels and liftarms forming the roof of the racer.
 0 Name: 42095 - top.ldr
@@ -1035,6 +1045,7 @@
 1 0 70 40 120 1 0 0 0 1 0 0 0 1 2780.dat
 
 
+0 STEP
 0 FILE 42095 - topside1.ldr
 0 Left side bodywork panel using fairings, a silver-dot tile, and connector pins.
 0 Name: 42095 - topside1.ldr
@@ -1065,6 +1076,7 @@
 1 0 40 20 120 0 -1 0 1 0 0 0 0 1 15100.dat
 
 
+0 STEP
 0 FILE 42095 - topside2.ldr
 0 Right side bodywork panel using fairings, a silver-dot tile, and connector pins.
 0 Name: 42095 - topside2.ldr
@@ -1095,6 +1107,7 @@
 1 0 -40 20 120 0 1 0 1 0 0 0 0 -1 15100.dat
 
 
+0 STEP
 0 FILE 42095 - bumper.ldr
 0 Front bumper built from an axle, angle connectors, and a cross block assembly.
 0 Name: 42095 - bumper.ldr
@@ -1127,6 +1140,7 @@
 1 71 0 -40 -20 1 0 0 0 0 1 0 -1 0 44294.dat
 
 
+0 STEP
 0 FILE 42095 - technicChainTread38ReinforcedClosed-1.ldr
 0 Closed reinforced chain tread loop of 30 links forming one track of the racer.
 0 Name: 42095 - technicChainTread38ReinforcedClosed-1.ldr
@@ -1217,6 +1231,7 @@
 1 16 -18.578642 47.773741 0 0 0.822617 0.568596 0 -0.568596 0.822617 1 0 0 88323.dat
 
 
+0 STEP
 0 FILE 42095 - remote.ldr
 0 Power Functions IR remote control unit with orange channel and direction switches.
 0 Name: 42095 - remote.ldr
@@ -1249,6 +1264,7 @@
 1 71 20 -30 20 0 1 0 1 0 0 0 0 -1 2736.dat
 
 
+0 STEP
 0 FILE 42095 - technicFlexAxle-1.ldr
 0 Flexible Technic axle assembly of approximately 62 mm with end caps and stud detailing.
 0 Name: 42095 - technicFlexAxle-1.ldr
@@ -3338,6 +3354,7 @@
 5 24 -16.304399 -126.347153 70.507362 -16.304399 -122.470276 69.522568 -16 -125.970276 71.991043 -17.1716 -126.666618 69.249702
 
 
+0 STEP
 0 FILE 42095 - technicFlexAxle-2.ldr
 0 Flexible Technic axle assembly of approximately 62 mm with end caps and stud detailing.
 0 Name: 42095 - technicFlexAxle-2.ldr
@@ -5427,6 +5444,7 @@
 5 24 23.695601 -126.347153 70.507362 23.695601 -122.470276 69.522568 24 -125.970276 71.991043 22.8284 -126.666618 69.249702
 
 
+0 STEP
 0 FILE 42095 - 42529.dat
 0 Primitive geometry part defining a half-axle bushing with cylindrical and ring surfaces.
 0 Name: 42095 - 42529.dat
@@ -5530,6 +5548,7 @@
 1 16 0 0 0 -1 0 0 0 1 0 0 0 1 s\42095 - 42529s03.dat
 1 16 0 0 0 -1 0 0 0 -1 0 0 0 1 s\42095 - 42529s03.dat
 
+0 STEP
 0 FILE 42095 - ldcFlexAxleEndA.dat
 0 Placeholder subpart defining one style of flexible axle end cap.
 0 Name: 42095 - ldcFlexAxleEndA.dat
@@ -5547,6 +5566,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 42095 - ldcFlexAxleEndB.dat
 0 Placeholder subpart with a cylindrical element defining a flexible axle end cap.
 0 Name: 42095 - ldcFlexAxleEndB.dat
@@ -5565,6 +5585,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 42095 - ldcFlexAxleEndC.dat
 0 Placeholder subpart defining one style of flexible axle end cap.
 0 Name: 42095 - ldcFlexAxleEndC.dat
@@ -5583,6 +5604,7 @@
 0 // these don't seem to be worth the trouble, might add them in the future though.
 
 
+0 STEP
 0 FILE 42095 - ldcFlexAxleEndD.dat
 0 Placeholder subpart defining one style of flexible axle end cap.
 0 Name: 42095 - ldcFlexAxleEndD.dat
@@ -5601,6 +5623,7 @@
 0 // these don't seem to be worth the trouble, might add them in the future though.
 
 
+0 STEP
 0 FILE 42095 - ldcFlexAxleEndE.dat
 0 Placeholder subpart defining one style of flexible axle end cap.
 0 Name: 42095 - ldcFlexAxleEndE.dat
@@ -5619,6 +5642,7 @@
 0 // these don't seem to be worth the trouble, might add them in the future though.
 
 
+0 STEP
 0 FILE 42095 - ldcFlexAxleEndF.dat
 0 Placeholder subpart defining one style of flexible axle end cap.
 0 Name: 42095 - ldcFlexAxleEndF.dat
@@ -5637,6 +5661,7 @@
 0 // these don't seem to be worth the trouble, might add them in the future though.
 
 
+0 STEP
 0 FILE 42095 - ldcFlexAxleEndG.dat
 0 ldcFlexAxleEndG
 0 Name: 42095 - ldcFlexAxleEndG.dat
@@ -5655,6 +5680,7 @@
 0 // these don't seem to be worth the trouble, might add them in the future though.
 
 
+0 STEP
 0 FILE 42095 - ldcFlexAxleMid.dat
 0 ldcFlexAxleMid
 0 Name: 42095 - ldcFlexAxleMid.dat
@@ -5673,6 +5699,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE s\42095 - 42529s01.dat
 0 42529s01
 0 Name: s\42095 - 42529s01.dat
@@ -5855,6 +5882,7 @@
 5 24 0 -57.811001 -17.761 0 -58.25 -16.700001 6.4728 -57.447498 -17.761 -6.5219 -57.883701 -16.700001
 5 24 0 -57.811001 17.761 0 -58.25 16.700001 6.5219 -57.883701 16.700001 -6.4728 -57.447498 17.761
 
+0 STEP
 0 FILE s\42095 - 42529s02.dat
 0 42529s02
 0 Name: s\42095 - 42529s02.dat
@@ -5919,6 +5947,7 @@
 3 16 25.8692 10.7156 -10 24.2484 13.9994 -10 26.846399 15.4993 -10
 4 16 11 0 -8 8.5 0 -8 4.25 7.3612 -8 5.5 9.5263 -8
 
+0 STEP
 0 FILE s\42095 - 42529s03.dat
 0 42529s03
 0 Name: s\42095 - 42529s03.dat

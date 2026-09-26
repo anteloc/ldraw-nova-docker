@@ -54,6 +54,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - model B - platform.ldr
 0 A sloped light grey and black platform built from plates, hinge plates, and slope bricks, serving as a station platform with ramps.
 0 Name: 4558 - model B - platform.ldr
@@ -189,6 +190,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - model B - train 1.ldr
 0 A 9V electric train locomotive with motor, bogies, wheels, buffers, couplings, magnets, and decorative side slopes.
 0 Name: 4558 - model B - train 1.ldr
@@ -637,6 +639,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - model B - train 2.ldr
 0 A black train car with red accents on a 6x28 base, featuring four bogie axles, buffers, couplings, magnets, and inverted slopes.
 0 Name: 4558 - model B - train 2.ldr
@@ -1050,6 +1053,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - model B - train 3.ldr
 0 A light grey train car with grille bricks and a yellow accent on a 6x28 base, with four bogie axles, buffers, couplings, and magnets.
 0 Name: 4558 - model B - train 3.ldr
@@ -1282,6 +1286,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - model B - minifig 1.ldr
 0 A blue-clothed minifigure wearing a red police hat and train-logo torso, equipped with a red hand truck and trolley wheel.
 0 Name: 4558 - model B - minifig 1.ldr
@@ -1321,6 +1326,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - model B - minifig 2.ldr
 0 A minifigure in a white blue-striped torso with black hair, carrying a brown backpack.
 0 Name: 4558 - model B - minifig 2.ldr
@@ -1358,6 +1364,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - model B - minifig 3.ldr
 0 A minifigure in a blue suit-and-tie torso with black hair.
 0 Name: 4558 - model B - minifig 3.ldr
@@ -1393,6 +1400,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - model B - minifig 4.ldr
 0 A minifigure in a white red-striped torso with red limbs and shoulder-length brown hair.
 0 Name: 4558 - model B - minifig 4.ldr
@@ -1428,6 +1436,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - model B - minifig 5.ldr
 0 A minifigure in a blue four-button suit torso with train logo, black legs, and shoulder-length brown hair.
 0 Name: 4558 - model B - minifig 5.ldr
@@ -1463,6 +1472,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - model B - minifig 6.ldr
 0 A minifigure in a white torso with gold necklace and yellow undershirt, white legs, and shoulder-length brown hair.
 0 Name: 4558 - model B - minifig 6.ldr
@@ -1493,6 +1503,7 @@
 0 // Minifig Torso with Gold Necklace and Yellow Undershirt Pattern (white)
 1 15 -76 -158 1 0 0 1 0 1 0 -1 0 0 973p72.dat
 
+0 STEP
 0 FILE 4558 - model B - minifig 7.ldr
 0 A minifigure in a blue four-button suit torso with train logo, black legs, and a red police hat.
 0 Name: 4558 - model B - minifig 7.ldr
@@ -1528,6 +1539,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - model B - minifig 8.ldr
 0 A minifigure in a black suit torso holding a blue cup, wearing a light grey cowboy hat.
 0 Name: 4558 - model B - minifig 8.ldr
@@ -1565,6 +1577,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - model B - minifig 9.ldr
 0 A minifigure in a white red/blue vertical-striped torso wearing a red cap with a flat peak.
 0 Name: 4558 - model B - minifig 9.ldr
@@ -1600,6 +1613,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - model B - minifig 10.ldr
 0 A minifigure in a white torso with red necklace and blue undershirt, red legs, and black pigtail hair.
 0 Name: 4558 - model B - minifig 10.ldr
@@ -1635,6 +1649,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - model B - minifig 11.ldr
 0 A minifigure in a white blue-striped torso with brown male hair.
 0 Name: 4558 - model B - minifig 11.ldr
@@ -1667,6 +1682,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - 2916pb03.dat
 0 A 4x6 wedge piece decorated with Metroliner stickers including a small blue train logo and red/white/blue sloped stripes.
 0 Name: 4558 - 2916pb03.dat 
@@ -1686,6 +1702,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - 164557a.dat
 0 A sticker sheet providing a train logo schedule board for the rear window.
 0 Name: 4558 - 164557a.dat 
@@ -5486,6 +5503,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - 164557b.dat
 0 A sticker sheet providing a train logo schedule board for the front window.
 0 Name: 4558 - 164557b.dat 
@@ -9472,6 +9490,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - 164565a.dat
 0 A sticker sheet with train logo stripes for the right wedge.
 0 Name: 4558 - 164565a.dat 
@@ -9499,6 +9518,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - 164565b.dat
 0 A sticker sheet with train logo stripes for the left wedge.
 0 Name: 4558 - 164565b.dat 
@@ -9526,6 +9546,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - 164565e.dat
 0 A small sticker bearing a blue train logo on a box-shaped surface.
 0 Name: 4558 - 164565e.dat

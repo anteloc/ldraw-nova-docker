@@ -10,6 +10,7 @@
 1 4 120 -8 40 0.5 0 0.866 0 1 0 -0.866 0 0.5 6642 - helicopter.ldr
 1 4 -80 0 90 1 0 0 0 1 0 0 0 1 6642 - minifig.ldr
 
+0 STEP
 0 FILE 6642 - helicopter.ldr
 0 A white and black helicopter built from plates, bars, hinges, and sloped bricks with small trans-yellow accents.
 0 Name: 6642 - helicopter.ldr
@@ -150,6 +151,7 @@
 0 // Tile  1 x  8 (black)
 1 0 -80 -176 -90 0 0 -1 0 1 0 1 0 0 4162.dat
 
+0 STEP
 0 FILE 6642 - minifig.ldr
 0 A police minifig in a black uniform with white helmet, light blue visor, and a handheld radio.
 0 Name: 6642 - minifig.ldr

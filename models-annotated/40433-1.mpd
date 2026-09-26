@@ -9,6 +9,7 @@
 1 19 -20 -48 60 1 0 0 0 1 0 0 0 1 40433 - 1989 Batmobile - Limited Edition - batmobile.ldr
 
 
+0 STEP
 0 FILE 40433 - 1989 Batmobile - Limited Edition - batmobile.ldr
 0 The main Batmobile body built from large dark tan and dark bluish grey plates, brackets, and black wing elements forming the vehicle's armored chassis.
 0 Name: 40433 - 1989 Batmobile - Limited Edition - batmobile.ldr
@@ -672,6 +673,7 @@
 1 179 70 -82 -200 -1 0 0 0 0 -1 0 -1 0 6141.dat
 
 
+0 STEP
 0 FILE 40433 - 1989 Batmobile - Limited Edition - step22-30.ldr
 0 A black engine intake assembly using brackets, sloped grille pieces, and trans-yellow plates to form the turbine and jet details.
 0 Name: 40433 - 1989 Batmobile - Limited Edition - step22-30.ldr
@@ -738,6 +740,7 @@
 1 71 -50 12 -18 0 0 1 -1 0 0 0 -1 0 3069b.dat
 
 
+0 STEP
 0 FILE 40433 - 1989 Batmobile - Limited Edition - step33.ldr
 0 A structural Technic frame of long bricks with holes and friction pins connecting the model's sections.
 0 Name: 40433 - 1989 Batmobile - Limited Edition - step33.ldr
@@ -776,6 +779,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 40433 - 1989 Batmobile - Limited Edition - step72.ldr
 0 The rear tail fin assembly featuring the distinctive bat-style tail element, curved and sloped black bricks, and mounting plates.
 0 Name: 40433 - 1989 Batmobile - Limited Edition - step72.ldr
@@ -802,6 +806,7 @@
 1 0 0 16 60 1 0 0 0 1 0 0 0 1 4287a.dat
 
 
+0 STEP
 0 FILE 40433 - 1989 Batmobile - Limited Edition - base.ldr
 0 A rotating display base with a turntable, large inverted dish, sloped black stand, and angled tiles.
 0 Name: 40433 - 1989 Batmobile - Limited Edition - base.ldr
@@ -864,6 +869,7 @@
 1 0 70 0 50 0 0 -1 0 1 0 1 0 0 3623.dat
 
 
+0 STEP
 0 FILE 40433 - 15403.dat
 0 A custom geometric primitive part built from rectangles and boxes defining a display stand mount shape.
 0 Name: 40433 - 15403.dat
@@ -924,6 +930,7 @@
 5 24 0 -20.016001 -7 0 -20.016001 -7.53 2 -19.813 -7.531 -2 -19.813 -6.7
 
 
+0 STEP
 0 FILE s\40433 - 15403s01.dat
 0 A subpart of the custom display stand primitive with no direct pieces.
 0 Name: s\40433 - 15403s01.dat

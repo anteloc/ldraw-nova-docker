@@ -23,6 +23,7 @@
 
 
 
+0 STEP
 0 FILE 7750 - locomotive.ldr
 0 The main locomotive body built from technic bricks, plates, and axles with an electric light prism and stud connectors.
 0 Name: 7750 - locomotive.ldr
@@ -338,6 +339,7 @@
 
 
 
+0 STEP
 0 FILE 7750 - trailer.ldr
 0 A powered trailer unit with a 12V electric train motor, weighted bricks, buffer beams, and sloped ends.
 0 Name: 7750 - trailer.ldr
@@ -464,6 +466,7 @@
 
 
 
+0 STEP
 0 FILE 7750 - wheelcase A.ldr
 0 A train bogie wheel assembly with large train wheels, a buffer beam, bogie plate, and a magnetic coupling in uncoupled position.
 0 Name: 7750 - wheelcase A.ldr
@@ -528,6 +531,7 @@
 
 
 
+0 STEP
 0 FILE 7750 - wheelcase B.ldr
 0 A train bogie wheel assembly with large train wheels, a buffer beam, bogie plate, and a magnetic coupling in coupled position.
 0 Name: 7750 - wheelcase B.ldr
@@ -592,6 +596,7 @@
 
 
 
+0 STEP
 0 FILE 7750 - minifig 1.ldr
 0 A minifigure wearing a red police hat with a patch-pocket torso.
 0 Name: 7750 - minifig 1.ldr
@@ -631,6 +636,7 @@
 
 
 
+0 STEP
 0 FILE 7750 - minifig 2.ldr
 0 A minifigure wearing a red construction helmet and carrying a shovel.
 0 Name: 7750 - minifig 2.ldr
@@ -671,6 +677,7 @@
 
 
 
+0 STEP
 0 FILE 7750 - hose 1.ldr
 0 A flexible pneumatic hose segment.
 0 Name: 7750 - hose 1.ldr
@@ -853,6 +860,7 @@
 
 
 
+0 STEP
 0 FILE 7750 - hose 2.ldr
 0 A flexible pneumatic hose segment.
 0 Name: 7750 - hose 2.ldr
@@ -1053,6 +1061,7 @@
 
 
 
+0 STEP
 0 FILE 7750 - hose 3.ldr
 0 A flexible pneumatic hose segment.
 0 Name: 7750 - hose 3.ldr
@@ -1235,6 +1244,7 @@
 
 
 
+0 STEP
 0 FILE 7750 - hose 4.ldr
 0 A flexible pneumatic hose segment.
 0 Name: 7750 - hose 4.ldr
@@ -1435,6 +1445,7 @@
 
 
 
+0 STEP
 0 FILE 7750 - LS22.dat
 0 An LSynth beveled end piece for a technic pneumatic hose.
 0 Name: 7750 - LS22.dat
@@ -1473,6 +1484,7 @@
 
 
 
+0 STEP
 0 FILE 7750 - LS23.dat
 0 An LSynth beveled cross section piece for a technic pneumatic hose.
 0 Name: 7750 - LS23.dat

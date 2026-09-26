@@ -13,6 +13,7 @@
 1 0 -396.317 -24 380.097 -0.55557 0 0.83147 0 1 0 -0.83147 0 -0.55557 6973 - Minifig 3.ldr
 
 
+0 STEP
 0 FILE 6973 - Rocket.ldr
 0 Cylindrical finned rocket built on a Technic axle with a magnet base, blue dish, and a black hollow-stud nose cone.
 0 Name: 6973 - Rocket.ldr
@@ -53,6 +54,7 @@
 1 0 0 -120 0 0 0 1 0 1 0 -1 0 0 6973 - Rocket - Top.ldr
 
 
+0 STEP
 0 FILE 6973 - Rocket - Top.ldr
 0 Rocket nose tip with an antenna, four hinged control sticks, and inverted dishes in white and trans-neon orange.
 0 Name: 6973 - Rocket - Top.ldr
@@ -88,6 +90,7 @@
 1 0 -18 -74 0 0 0.5 -0.866 0 -0.866 -0.5 -1 0 0 4593.dat
 
 
+0 STEP
 0 FILE 6973 - Pod.ldr
 0 Blue and white magnet-equipped transport pod with a boat bow plate, control panel, skis, and an Ice Planet logo tile.
 0 Name: 6973 - Pod.ldr
@@ -135,6 +138,7 @@
 1 38 -32 -51 32 1 0 0 0 1 0 0 0 1 6120.dat
 
 
+0 STEP
 0 FILE 6973 - Pod + Minifig.ldr
 0 Transport pod assembly with an included Ice Planet minifigure.
 0 Name: 6973 - Pod + Minifig.ldr
@@ -148,6 +152,7 @@
 1 0 0 -53 -22 1 0 0 0 1 0 0 0 1 6973 - Minifig 2.ldr
 
 
+0 STEP
 0 FILE 6973 - Spaceship.ldr
 0 Multi-section vessel combining a cockpit, mid-body, and rear hull with cargo and engine assemblies.
 0 Name: 6973 - Spaceship.ldr
@@ -162,6 +167,7 @@
 1 0 -140 32 -140 1 0 0 0 1 0 0 0 1 6973 - Spaceship - Cockpit + Minifig.ldr
 1 0 140 32 -140 1 0 0 0 1 0 0 0 1 6973 - Spaceship - Cockpit.ldr
 
+0 STEP
 0 FILE 6973 - Spaceship - Cockpit.ldr
 0 Forward cockpit module with a blue canopy, large cutout wing, control-pattern slope, grille tiles, and neon-orange skis.
 0 Name: 6973 - Spaceship - Cockpit.ldr
@@ -251,6 +257,7 @@
 1 15 0 -112 0 1 0 0 0 1 0 0 0 1 4859.dat
 
 
+0 STEP
 0 FILE 6973 - Spaceship - Cockpit + Minifig.ldr
 0 Cockpit module fitted with an Ice Planet minifigure pilot.
 0 Name: 6973 - Spaceship - Cockpit + Minifig.ldr
@@ -264,6 +271,7 @@
 1 0 0 -53 -52 1 0 0 0 1 0 0 0 1 6973 - Minifig 1.ldr
 
 
+0 STEP
 0 FILE 6973 - Spaceship - Middle.ldr
 0 Central fuselage section built on large black plates with Technic bricks, blue structural bricks, and grille-tile detailing.
 0 Name: 6973 - Spaceship - Middle.ldr
@@ -465,6 +473,7 @@
 0 // Tile  1 x  2 Grille with Groove (white)
 1 15 70 -168 160 0 0 1 0 1 0 -1 0 0 2412b.dat
 
+0 STEP
 0 FILE 6973 - Spaceship - Middle - Door.ldr
 0 Hinged side door assembly with a canopy windscreen, wing panel, and Technic pin connections.
 0 Name: 6973 - Spaceship - Middle - Door.ldr
@@ -507,6 +516,7 @@
 0 // Windscreen  6 x  4 x  2 Canopy with Ice Planet Logo Pattern (blue)
 1 1 0 -22 -184 1 0 0 0 1 0 0 0 1 4474p61.dat
 
+0 STEP
 0 FILE 6973 - Spaceship - Back.ldr
 0 Rear hull section featuring large black base plates, extensive blue brick and Technic brick structure, and cargo detailing.
 0 Name: 6973 - Spaceship - Back.ldr
@@ -1125,6 +1135,7 @@
 1 256 -159.405 -70.022 29.996 -0.0085 -1 -0.0013 -0.9999 0.0085 0.0073 -0.0072 0.0013 -1 756.dat
 0 GROUP 53 Hose 2
 
+0 STEP
 0 FILE 6973 - Spaceship - Back - Support.ldr
 0 Structural support bracket assembly using pins, brackets, and studded plates to reinforce the rear section.
 0 Name: 6973 - Spaceship - Back - Support.ldr
@@ -1154,6 +1165,7 @@
 1 1 0 -50 10 1 0 0 0 1 0 0 0 1 3069b.dat
 
 
+0 STEP
 0 FILE 6973 - Spaceship - Back - Hinge.ldr
 0 Hinged plate with an arrow-pattern tile used to articulate a rear element.
 0 Name: 6973 - Spaceship - Back - Hinge.ldr
@@ -1169,6 +1181,7 @@
 1 15 0 -12 -30 0 0 1 0 1 0 -1 0 0 3069bp06.dat
 
 
+0 STEP
 0 FILE 6973 - Spaceship - Back - Roller Door.ldr
 0 Translucent and white roller door strips with a handle for a rear cargo opening.
 0 Name: 6973 - Spaceship - Back - Roller Door.ldr
@@ -1196,6 +1209,7 @@
 1 38 0 -140 0 1 0 0 0 1 0 0 0 1 4218b.dat
 
 
+0 STEP
 0 FILE 6973 - Spaceship - Back - Top Hinge - 1.ldr
 0 Hinged plate pair mounting a 12-fin jet engine on the upper rear section.
 0 Name: 6973 - Spaceship - Back - Top Hinge - 1.ldr
@@ -1213,6 +1227,7 @@
 1 0 30 4 0 1 0 0 0 1 0 0 0 1 4229.dat
 
 
+0 STEP
 0 FILE 6973 - Spaceship - Back - Top Hinge - 2.ldr
 0 Hinged plate pair with a jet engine and a grooved tile on the upper rear section.
 0 Name: 6973 - Spaceship - Back - Top Hinge - 2.ldr
@@ -1232,6 +1247,7 @@
 1 0 -30 4 0 1 0 0 0 1 0 0 0 1 4229.dat
 
 
+0 STEP
 0 FILE 6973 - Minifig 1.ldr
 0 Ice Planet minifigure with a moustache head, gold-pattern torso, airtanks, and white arms.
 0 Name: 6973 - Minifig 1.ldr
@@ -1264,6 +1280,7 @@
 1 1 -20.813 6.356 -16.471 0.985 -0.164925 -0.0411205 0.168447 0.91425 0.366906 -0.0229247 -0.368539 0.929159 3820.dat
 
 
+0 STEP
 0 FILE 6973 - Minifig 1 - Helmet.ldr
 0 White standard helmet with a shielded trans-neon orange visor and antenna.
 0 Name: 6973 - Minifig 1 - Helmet.ldr
@@ -1279,6 +1296,7 @@
 1 38 0 1.904 4.596 1 0 0 0 0.707107 0.707107 0 -0.707107 0.707107 6119.dat
 
 
+0 STEP
 0 FILE 6973 - Minifig 2.ldr
 0 Ice Planet minifigure with messy white hair head, silver-pattern torso, airtanks, and white arms.
 0 Name: 6973 - Minifig 2.ldr
@@ -1311,6 +1329,7 @@
 1 0 0 44 0 1 0 0 0 0 1 0 -1 0 3817.dat
 
 
+0 STEP
 0 FILE 6973 - Minifig 2 - Helmet.ldr
 0 White standard helmet with a shielded trans-neon orange visor and antenna.
 0 Name: 6973 - Minifig 2 - Helmet.ldr
@@ -1326,6 +1345,7 @@
 1 38 0 0 0 1 0 0 0 1 0 0 0 1 6119.dat
 
 
+0 STEP
 0 FILE 6973 - Minifig 3.ldr
 0 Ice Planet female minifigure with red hair head, silver-pattern torso, airtanks, and white arms.
 0 Name: 6973 - Minifig 3.ldr
@@ -1358,6 +1378,7 @@
 1 0 0 44 0 1 0 0 0 1 0 0 0 1 3817.dat
 
 
+0 STEP
 0 FILE 6973 - Minifig 3 - Helmet.ldr
 0 White standard helmet with a shielded trans-neon orange visor and antenna.
 0 Name: 6973 - Minifig 3 - Helmet.ldr

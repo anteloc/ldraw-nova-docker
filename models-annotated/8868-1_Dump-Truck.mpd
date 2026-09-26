@@ -886,6 +886,7 @@
 1 0 -100 -79.016 412.827 0 0 -1 0.964 -0.265 0 -0.265 -0.964 0 4267.dat
 0 // Tyre 20/ 83 x 30 Offset Tread (black)
 1 0 200 -79.016 412.827 0 0 -1 0.964 -0.265 0 -0.265 -0.964 0 4267.dat
+0 STEP
 0 FILE 8868 - cylinder1.ldr
 0 Technic pneumatic cylinder assembly built from long technic bricks, an 8-stud axle, liftarms, and bushings.
 0 Name: 8868 - cylinder1.ldr
@@ -918,6 +919,7 @@
 1 7 -30 41.784 -24.286 1 0 0 0 -0.607 0.795 0 -0.795 -0.607 3749.dat
 1 256 30 -53.138 -122.641 1 0 0 0 -0.866 0.5 0 -0.5 -0.866 8868 - pneumaticHoseLQ-1.ldr
 1 256 30 30 -74.641 1 0 0 0 -0.866 0.5 0 -0.5 -0.866 8868 - pneumaticHoseLQ-2.ldr
+0 STEP
 0 FILE 8868 - pneumaticHoseLQ-1.ldr
 0 Pneumatic hose run approximately 163mm long, composed of a bulged tube end and 91 tube segments.
 0 Name: 8868 - pneumaticHoseLQ-1.ldr
@@ -1138,6 +1140,7 @@
 1 16 -31.688305 179.900419 331.877721 -0.001838 -3.991372 0.040002 -0.842164 -0.079983 -0.538849 0.539218 -0.138526 -0.841452 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 -29.173142 179.906651 331.888515 -0.00026 -3.994279 0.012184 -0.855154 -0.024342 -0.518338 0.518374 -0.042159 -0.855089 166.dat
+0 STEP
 0 FILE 8868 - chassisright.ldr
 0 Right-side chassis rail constructed from long technic bricks with holes joined by friction pins.
 0 Name: 8868 - chassisright.ldr
@@ -1183,6 +1186,7 @@
 1 0 -10 10 260 -1 0 0 0 1 0 0 0 -1 2780.dat
 0 // Technic Pin with Friction and Slots (black)
 1 0 -10 10 -20 -1 0 0 0 1 0 0 0 -1 2780.dat
+0 STEP
 0 FILE 8868 - chassisleft.ldr
 0 Left-side chassis rail constructed from long technic bricks with holes joined by friction pins.
 0 Name: 8868 - chassisleft.ldr
@@ -1224,6 +1228,7 @@
 1 0 30 10 220 -1 0 0 0 1 0 0 0 -1 2780.dat
 0 // Technic Pin with Friction and Slots (black)
 1 0 10 10 -20 -1 0 0 0 1 0 0 0 -1 2780.dat
+0 STEP
 0 FILE 8868 - pneumaticHoseLQ-2.ldr
 0 Pneumatic hose run approximately 196mm long, composed of a bulged tube end and 85 tube segments.
 0 Name: 8868 - pneumaticHoseLQ-2.ldr
@@ -1431,6 +1436,7 @@
 1 16 -31.605147 294.953797 320.877767 0.195714 -3.922522 -0.02118 -0.471905 -0.452451 0.874366 -0.859652 -0.644653 -0.484804 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 -29.125262 294.98736 320.928985 0.060417 -3.993445 -0.005239 -0.491643 -0.13733 0.87012 -0.868698 -0.200019 -0.492812 166.dat
+0 STEP
 0 FILE 8868 - elecCable2Brick-1.ldr
 0 Electric cable assembly approximately 232mm long connecting two conductive 2x2 brick terminals via twin cable segments.
 0 Name: 8868 - elecCable2Brick-1.ldr
@@ -1691,6 +1697,7 @@
 1 16 117.624249 -259.972997 419.982462 0.042526 4.000519 0.028287 -0.999048 0.17138 -0.008563 -0.009762 -0.111744 0.999563 993.dat
 0 // ~Electric Cable 3LDU Twin (main_colour)
 1 16 114.582875 -260.006632 420.004315 0.015852 4.005026 0.010414 -0.999864 0.063681 -0.004323 -0.004488 -0.041435 0.999936 993.dat
+0 STEP
 0 FILE 8868 - motorpump.ldr
 0 9V electric motor pump unit with belt wheels, axles, brackets, and mounting plates.
 0 Name: 8868 - motorpump.ldr
@@ -1775,6 +1782,7 @@
 1 7 -40 -30 -65 -1 0 0 0 -1 0 0 0 1 4265a.dat
 0 // Technic Engine Crankshaft (light_grey)
 1 7 50 -30 -80 -1 0 0 0 1 0 0 0 -1 2853.dat
+0 STEP
 0 FILE 8868 - rubberBandRound-1.ldr
 0 Round rubber band composed of 38 curved segments forming an approximate 100mm loop.
 0 Name: 8868 - rubberBandRound-1.ldr
@@ -2803,6 +2811,7 @@
 5 24 -10.414214 0 -1.414214 -11 0 0 -10.61047 -0.980553 -1.414214 -9.587599 4.102715 -1.414214
 5 24 -11 0 0 -10.414214 0 1.414214 -11.196256 -0.980553 0 -10.124007 4.33811 0
 5 24 -10.414214 0 1.414214 -9 0 2 -10.61047 -0.980553 1.414214 -9.587599 4.102715 1.414214
+0 STEP
 0 FILE 8868 - pneumaticHoseLQ-3.ldr
 0 Short pneumatic hose run approximately 4.5mm long with bulged ends and 4 tube segments.
 0 Name: 8868 - pneumaticHoseLQ-3.ldr
@@ -2847,6 +2856,7 @@
 1 16 1.211102 0 9.011094 0.954168 -1.152198 0 0 0 1 -0.299272 -3.673546 0 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 2.170183 0 11.561396 0.939402 -1.319847 0 0 0 1 -0.342818 -3.616698 0 166.dat
+0 STEP
 0 FILE 8868 - pneumaticHoseLQ-4.ldr
 0 Pneumatic hose run approximately 130mm long, composed of a bulged tube end and 91 tube segments.
 0 Name: 8868 - pneumaticHoseLQ-4.ldr
@@ -3068,6 +3078,7 @@
 1 16 -65.880837 69.997067 281.965665 0.162007 -3.950915 -0.012882 -0.024037 -0.068058 0.999567 -0.986497 -0.647179 -0.026471 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 -63.162125 70.00381 282.038556 0.046016 -3.999874 -0.004012 -0.01144 -0.018189 0.999924 -0.998875 -0.184059 -0.011637 166.dat
+0 STEP
 0 FILE 8868 - pneumaticHoseLQ-5.ldr
 0 Pneumatic hose run approximately 179mm long, composed of a bulged tube end and 91 tube segments.
 0 Name: 8868 - pneumaticHoseLQ-5.ldr
@@ -3288,6 +3299,7 @@
 1 16 99.345572 380.551282 -31.946733 0.934685 -1.422815 -0.004776 -0.353034 -3.709114 -0.129499 0.041605 0.491264 -0.991568 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 100.365678 383.079812 -32.540551 0.930771 -1.458001 -0.031583 -0.362852 -3.641614 -0.201761 0.044756 0.797591 -0.978926 166.dat
+0 STEP
 0 FILE 8868 - pneumaticHoseLQ-6.ldr
 0 Pneumatic hose run approximately 55mm long, composed of a bulged tube end and 33 tube segments.
 0 Name: 8868 - pneumaticHoseLQ-6.ldr
@@ -3390,6 +3402,7 @@
 1 16 -96.055451 -221.076936 6.018359 -0.993121 -0.456128 -0.029512 -0.011464 -0.630908 0.987575 -0.116529 3.949424 0.154354 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 -95.967363 -220.9548 3.341051 -0.998709 -0.198662 -0.012043 -0.008652 -0.27514 0.997624 -0.050058 4.011094 0.067835 166.dat
+0 STEP
 0 FILE 8868 - pneumaticHoseLQ-7.ldr
 0 Pneumatic hose run approximately 51mm long, composed of a bulged tube end and 32 tube segments.
 0 Name: 8868 - pneumaticHoseLQ-7.ldr
@@ -3490,6 +3503,7 @@
 1 16 -216.047242 -213.065353 -95.919553 0.992206 -0.480881 -0.031954 0.01161 -0.66267 0.986063 -0.124064 -3.907869 -0.163278 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 -215.965345 -212.952179 -93.315301 0.998646 -0.201336 -0.012773 0.009245 -0.277831 0.997533 -0.05119 -3.977951 -0.069024 166.dat
+0 STEP
 0 FILE 8868 - pneumaticHoseLQ-8.ldr
 0 Very short pneumatic hose run approximately 1.6mm long with bulged ends and a single tube segment.
 0 Name: 8868 - pneumaticHoseLQ-8.ldr
@@ -3529,6 +3543,7 @@
 0 //Segments
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 70.725 -205 -160 0 -4.15 0 0 0 1 -1 0 0 166.dat
+0 STEP
 0 FILE 8868 - pneumaticHoseLQ-9.ldr
 0 Pneumatic hose run approximately 99mm long, composed of a bulged tube end and 54 tube segments.
 0 Name: 8868 - pneumaticHoseLQ-9.ldr
@@ -3674,6 +3689,7 @@
 1 16 -228.572853 20.937826 20.014348 0.027181 3.990306 -0.117786 -0.001607 -0.473475 -0.993038 -0.999629 0.109264 -0.001607 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 -231.551079 21.022683 19.994765 0.00949 4.016202 -0.041125 -0.000195 -0.165314 -0.999154 -0.999955 0.038149 -0.000195 166.dat
+0 STEP
 0 FILE 8868 - pneumaticHoseLQ-10.ldr
 0 Long pneumatic hose run approximately 312mm, composed of a bulged tube end and 225 tube segments.
 0 Name: 8868 - pneumaticHoseLQ-10.ldr
@@ -4164,6 +4180,7 @@
 1 16 -613.295097 142.351704 -41.889956 -0.05201 -3.954364 -0.143133 -0.006355 -0.572136 0.989703 -0.998626 0.209589 0.001157 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 -611.512869 142.618133 -41.871556 -0.012086 -3.957757 -0.146183 -0.001155 -0.584869 0.989257 -0.999926 0.048511 0.000625 166.dat
+0 STEP
 0 FILE 8868 - wheelaxle.ldr
 0 Wheel axle assembly using a 4-stud and 6-stud axle with connector pins and flanged bushes.
 0 Name: 8868 - wheelaxle.ldr
@@ -4181,6 +4198,7 @@
 1 7 0 50 -20 0 -1 0 1 0 0 0 0 1 3713.dat
 0 // Technic Bush with Two Flanges (light_grey)
 1 7 0 50 20 0 1 0 1 0 0 0 0 -1 3713.dat
+0 STEP
 0 FILE 8868 - pneumaticHoseLQ-11.ldr
 0 Pneumatic hose run approximately 138mm long, composed of a bulged tube end and 48 tube segments.
 0 Name: 8868 - pneumaticHoseLQ-11.ldr
@@ -4313,6 +4331,7 @@
 1 16 -3.999345 -13.820233 315.952326 0.999999 0.004312 0.000022 -0.001076 3.990515 0.078419 0.000063 -0.313897 0.996921 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 -4.000295 -16.661747 316.021456 1 0.001782 0.000004 -0.000445 4.000741 0.032407 0.000011 -0.129719 0.999475 166.dat
+0 STEP
 0 FILE 8868 - lever.ldr
 0 Yellow control lever assembly using liftarms, technic plates, axles, bushes, and a universal joint.
 0 Name: 8868 - lever.ldr
@@ -4365,6 +4384,7 @@
 0 !LDCAD GROUP_NXT [ids=1] [nrs=7]
 0 // Technic Bush  1/2 Type 1 (light_grey)
 1 7 55 -32.739 70.28 0 0 1 0.665 0.75 0 -0.75 0.665 0 4265a.dat
+0 STEP
 0 FILE 8868 - rearwheelbeam1.ldr
 0 Rear wheel support beam built from a 12-stud technic brick, 6-stud brick, axle, pins, and bushes.
 0 Name: 8868 - rearwheelbeam1.ldr
@@ -4388,6 +4408,7 @@
 1 7 20 10 -100 0 0 -1 -1 0 0 0 1 0 3713.dat
 0 // Technic Bush  1/2 Type 1 (light_grey)
 1 7 35 10 -100 0 0 1 -1 0 0 0 -1 0 4265a.dat
+0 STEP
 0 FILE 8868 - rearwheelbeam2.ldr
 0 Rear wheel support beam built from a 12-stud technic brick, 6-stud brick, axle, pins, and bushes.
 0 Name: 8868 - rearwheelbeam2.ldr
@@ -4411,6 +4432,7 @@
 1 7 -20 10 -100 0 0 1 1 0 0 0 1 0 3713.dat
 0 // Technic Bush  1/2 Type 1 (light_grey)
 1 7 -35 10 -100 0 0 -1 1 0 0 0 -1 0 4265a.dat
+0 STEP
 0 FILE 8868 - rearbumper.ldr
 0 White rear bumper assembly constructed from long technic bricks, plates, a triangular liftarm, and axle pins.
 0 Name: 8868 - rearbumper.ldr
@@ -4441,6 +4463,7 @@
 1 15 0 10 -15 -1 0 0 0 0 -1 0 -1 0 2905.dat
 0 // Technic Bush  1/2 Type 1 (light_grey)
 1 7 0 -30 -25 -1 0 0 0 1 0 0 0 -1 4265a.dat
+0 STEP
 0 FILE 8868 - batterysupport.ldr
 0 Battery box support structure made of plates, corner plates, technic bricks, and inverted slope bricks.
 0 Name: 8868 - batterysupport.ldr
@@ -4500,6 +4523,7 @@
 1 7 105 -6 -10 0 0 1 1 0 0 0 1 0 4265a.dat
 0 // Technic Bush  1/2 Type 1 (light_grey)
 1 7 -105 -6 -10 0 0 -1 -1 0 0 0 1 0 4265a.dat
+0 STEP
 0 FILE 8868 - pneumaticHoseLQ-12.ldr
 0 Pneumatic hose run approximately 50mm long, composed of a bulged tube end and 48 tube segments.
 0 Name: 8868 - pneumaticHoseLQ-12.ldr
@@ -4634,6 +4658,7 @@
 1 16 83.050709 30.66989 80.882352 0.987448 -0.632061 0.011727 0.088214 2.454125 0.786261 -0.131015 -3.111396 0.617784 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 83.046075 29.515528 82.658425 0.999137 -0.166579 0.001132 0.022541 2.267387 0.824762 -0.034877 -3.306693 0.565479 166.dat
+0 STEP
 0 FILE 8868 - pneumaticHoseLQ-13.ldr
 0 A medium-length pneumatic hose with bulged tube ends and 51 tube segments.
 0 Name: 8868 - pneumaticHoseLQ-13.ldr
@@ -4774,6 +4799,7 @@
 1 16 -83.037756 37.455923 59.915377 0.992659 0.481081 -0.010875 -0.057815 2.202775 0.83213 0.106236 -3.296395 0.554474 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 -83.041449 36.578977 61.700672 0.999071 0.172004 -0.00154 -0.019381 1.920655 0.876552 0.038492 -3.497339 0.481305 166.dat
+0 STEP
 0 FILE 8868 - pneumaticHoseLQ-14.ldr
 0 A short pneumatic hose with bulged tube ends and 12 tube segments.
 0 Name: 8868 - pneumaticHoseLQ-14.ldr
@@ -4834,6 +4860,7 @@
 1 16 83 -22.798963 12.035134 1 0 0 0 1.63658 0.910995 0 -3.615072 0.412417 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 83 -24.289221 14.498126 1 0 0 0 1.99254 0.864799 0 -3.431752 0.502119 166.dat
+0 STEP
 0 FILE 8868 - tank.ldr
 0 A white air tank assembly built from cylinders, hinge plates, and inverted dishes mounted on a Technic plate.
 0 Name: 8868 - tank.ldr
@@ -4888,6 +4915,7 @@
 1 15 96 10 0 0 -1 0 0 0 1 -1 0 0 3960.dat
 0 // Dish  4 x  4 Inverted (white)
 1 15 -96 10 0 0 1 0 0 0 1 1 0 0 3960.dat
+0 STEP
 0 FILE 8868 - cabinside1.ldr
 0 One side of the yellow and black cab interior using Technic bricks with holes and black plates.
 0 Name: 8868 - cabinside1.ldr
@@ -4926,6 +4954,7 @@
 1 0 0 40 60 0 0 -1 0 1 0 1 0 0 3700.dat
 0 // Plate  2 x  4 (black)
 1 0 30 24 -80 -1 0 0 0 1 0 0 0 -1 3020.dat
+0 STEP
 0 FILE 8868 - cabinside2.ldr
 0 The mirrored side of the yellow and black cab interior using Technic bricks with holes and black plates.
 0 Name: 8868 - cabinside2.ldr
@@ -4964,6 +4993,7 @@
 1 0 0 40 60 0 0 1 0 1 0 -1 0 0 3700.dat
 0 // Plate  2 x  4 (black)
 1 0 -30 24 -80 -1 0 0 0 1 0 0 0 -1 3020.dat
+0 STEP
 0 FILE 8868 - armfront.ldr
 0 The front lifting arm assembly of black Technic bricks, liftarms, and axles with bushings.
 0 Name: 8868 - armfront.ldr
@@ -5027,6 +5057,7 @@
 1 7 155 69.772 -4.772 -1 0 0 0 0.087 -0.996 0 -0.996 -0.087 3749.dat
 0 // Technic Axle Pin (light_grey)
 1 7 -150 69.772 -4.772 1 0 0 0 0.087 0.996 0 -0.996 0.087 3749.dat
+0 STEP
 0 FILE 8868 - claw.ldr
 0 A mechanical claw gripper using bevel gears, triangle liftarms, and crankshaft fingers on axles.
 0 Name: 8868 - claw.ldr
@@ -5095,6 +5126,7 @@
 1 0 -45 -42.284 -68.284 0 -1 0 -0.707 0 0.707 -0.707 0 -0.707 2905.dat
 0 // =Technic Beam  4 x  0.5 Liftarm with Boss (yellow)
 1 14 -60 -70.569 -96.569 0 1 0 -0.707 0 -0.707 -0.707 0 0.707 32006.dat
+0 STEP
 0 FILE 8868 - pneumaticHoseLQ-15.ldr
 0 A long pneumatic hose with bulged tube ends and 219 tube segments.
 0 Name: 8868 - pneumaticHoseLQ-15.ldr
@@ -5575,6 +5607,7 @@
 1 16 -51.712002 28.732353 -325.45418 0.992964 0.474173 -0.000078 0.014071 -0.469858 0.992992 0.117576 -3.948304 -0.118178 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 -51.742662 29.094304 -322.963406 0.999422 0.136048 0.000841 0.003875 -0.554646 0.990353 0.033764 -3.963404 -0.138563 166.dat
+0 STEP
 0 FILE 8868 - 4694c01-f1.dat
 0 A pneumatic valve assembly with casing, side cover, and a black lever.
 0 Name: 8868 - 4694c01-f1.dat
@@ -5595,6 +5628,7 @@
 0 // ~Technic Pneumatic Valve Lever (black)
 1 0 0 26 -9 1 0 0 0 1 0 0 0 1 4695.dat
 0 //
+0 STEP
 0 FILE 8868 - 2793c01-f1.dat
 0 A pneumatic cylinder (2x2x5) with cap and piston rod subparts.
 0 Name: 8868 - 2793c01-f1.dat
@@ -5615,6 +5649,7 @@
 0 // ~Technic Pneumatic Cylinder  2 x  2 Piston Rod 4L Cylindrical (black)
 1 0 0 -120 0 1 0 0 0 1 0 0 0 1 2796.dat
 0 //
+0 STEP
 0 FILE 8868 - 3665a.dat
 0 A pneumatic part with no directly-listed pieces.
 0 Name: 8868 - 3665a.dat
@@ -5635,6 +5670,7 @@
 
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\8868 - 3665as01.dat
 4 16 10 24 -10 10 4 -30 -10 4 -30 -10 24 -10
+0 STEP
 0 FILE 8868 - 2838c01.dat
 0 A 9V Technic electric motor assembly with shaft, base, and top casing.
 0 Name: 8868 - 2838c01.dat
@@ -5662,6 +5698,7 @@
 4 0 -12.5 47.5 42.5 -12.5 47.5 -42.5 -22.5 47.5 -42.5 -22.5 47.5 42.5
 4 0 22.5 47.5 42.5 22.5 47.5 -42.5 12.5 47.5 -42.5 12.5 47.5 42.5
 4 0 20 4 -40 -20 4 -40 -20 44 -40 20 44 -40
+0 STEP
 0 FILE 8868 - 4185.dat
 0 A primitive cylinder geometry made of circles, discs, and rings for a round Technic element.
 0 Name: 8868 - 4185.dat
@@ -6909,6 +6946,7 @@
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 8 1   R 6 6   R 8 1] [center=true] [slide=true]
 
 0 !LDCAD SNAP_CYL [gender=M] [caps=none] [secs=R 30 2   R 28 4   R 30 2] [center=true]
+0 STEP
 0 FILE 8868 - 74982-f1.dat
 0 A small pneumatic pump assembly with base, cylinder, cap, and piston rod.
 0 Name: 8868 - 74982-f1.dat
@@ -6933,6 +6971,7 @@
 0 // ~Technic Pneumatic Cylinder  1 x  1 Piston Rod (black)
 1 0 0 -90 0 1 0 0 0 1 0 0 0 1 2944.dat
 0 
+0 STEP
 0 FILE 8868 - ldcRubberBandRndSeg.dat
 0 An LDCad path-deform rubber band segment with auto-generated edge control.
 0 Name: 8868 - ldcRubberBandRndSeg.dat
@@ -6952,6 +6991,7 @@
 0 //  It will also take care of segment overlapping control points
 1 16 0 0 0 2 0 0 0 1 0 0 0 2 8868 - ldcConRing8.dat
 1 16 0 1 0 2 0 0 0 1 0 0 0 2 8868 - ldcConRing8.dat
+0 STEP
 0 FILE 8868 - logo.dat
 0 The four-letter LEGO logo built from individual L, E, G, O primitives.
 0 Name: 8868 - logo.dat
@@ -6994,6 +7034,7 @@
 2 24 2 0 2.5 2 0 3.5
 2 24 2 0 3.5 1.5 0 4
 2 24 1.5 0 4 -1.5 0 4.75
+0 STEP
 0 FILE 8868 - 2839a.dat
 0 A primitive Technic axle connector with perimeter, axle holes, and an electric contact alloy disc.
 0 Name: 8868 - 2839a.dat
@@ -7081,6 +7122,7 @@
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
 
 0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=A 6 20] [slide=true]
+0 STEP
 0 FILE s\8868 - 3665as01.dat
 0 The solid geometry subpart of a pneumatic part, built from boxes and rectangles.
 0 Name: s\8868 - 3665as01.dat
@@ -7133,6 +7175,7 @@
 1 16 0 0 0 0 0 1 0 1 0 -1 0 0 stud.dat
 1 16 0 4 -20 1 0 0 0 2 0 0 0 1 stud2a.dat
 1 16 0 4 -20 0 0 1 0 6 0 -1 0 0 stud2s.dat
+0 STEP
 0 FILE 8868 - ldcCyli8.dat
 0 An LDCad cylinder primitive with no directly-listed pieces.
 0 Name: 8868 - ldcCyli8.dat
@@ -7161,6 +7204,7 @@
 5 24 -0.707107 0 -0.707107 -0.707107 1 -0.707107 0 0 -1 -1 0 0
 5 24 -1 0 0 -1 1 0 -0.707107 0 -0.707107 -0.707107 0 0.707107
 5 24 -0.707107 0 0.707107 -0.707107 1 0.707107 -1 0 0 0 0 1
+0 STEP
 0 FILE 8868 - ldcConRing8.dat
 0 An LDCad cone ring primitive with edge-control notes for path-deform generation.
 0 Name: 8868 - ldcConRing8.dat
@@ -7183,6 +7227,7 @@
 5 24 -0.707107 0 -0.707107 -1 0 0 -0.707107 -1 -0.707107 -0.707107 1 -0.707107
 5 24 -1 0 0 -0.707107 0 0.707107 -1 -1 0 -1 1 0
 5 24 -0.707107 0 0.707107 0 0 1 -0.707107 -1 0.707107 -0.707107 1 0.707107
+0 STEP
 0 FILE 8868 - 2943.dat
 0 A round Technic bush/wheel primitive of cylinders, circles, discs, and a cone.
 0 Name: 8868 - 2943.dat
@@ -7225,6 +7270,7 @@
 
 0 //aircon
 0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=R 4 16]
+0 STEP
 0 FILE s\8868 - 2943s01.dat
 0 The solid subpart of a Technic bush with peg holes, rings, and sloped cylinders.
 0 Name: s\8868 - 2943s01.dat

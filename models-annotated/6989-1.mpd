@@ -14,6 +14,7 @@
 
 
 
+0 STEP
 0 FILE 6989 - Car 1.ldr
 0 A small wheeled red car with four black tyres, a control console tile, and a rear-mounted cylindrical magnet.
 0 Name: 6989 - Car 1.ldr
@@ -69,6 +70,7 @@
 
 
 
+0 STEP
 0 FILE 6989 - Car 2.ldr
 0 A small wheeled red car with four black tyres, a control console tile, and a rear-mounted cylindrical magnet.
 0 Vehicle 1
@@ -125,6 +127,7 @@
 
 
 
+0 STEP
 0 FILE 6989 - Car 2 + Minifig.ldr
 0 A minifig-equipped variant of the small wheeled magnet car.
 0 Name: 6989 - Car 2 + Minifig.ldr
@@ -140,6 +143,7 @@
 
 
 
+0 STEP
 0 FILE 6989 - Spaceship.ldr
 0 A compact red spaceship with angled wings, grille tiles, neon green cones, and a cylindrical magnet assembly.
 0 Name: 6989 - Spaceship.ldr
@@ -179,6 +183,7 @@
 
 
 
+0 STEP
 0 FILE 6989 - Spaceship + Minifig.ldr
 0 A minifig-equipped variant of the compact red magnet spaceship.
 0 Name: 6989 - Spaceship + Minifig.ldr
@@ -194,6 +199,7 @@
 
 
 
+0 STEP
 0 FILE 6989 - Vehicle.ldr
 0 An assembled submodel combining the front and back sections of the main vehicle.
 0 Name: 6989 - Vehicle.ldr
@@ -208,6 +214,7 @@
 
 
 
+0 STEP
 0 FILE 6989 - Vehicle - Front.ldr
 0 The front section of the main vehicle, built from red plates, technic axles with bushes, and a jet engine.
 0 Name: 6989 - Vehicle - Front.ldr
@@ -453,6 +460,7 @@
 1 0 180 -152 200 1 0 0 0 1 0 0 0 1 6989 - Vehicle - Container 3.ldr
 
 
+0 STEP
 0 FILE 6989 - Vehicle - Front - Turntable.ldr
 0 A red turntable assembly with plates, a hinge base, and a grooved tile.
 0 Name: 6989 - Vehicle - Front - Turntable.ldr
@@ -482,6 +490,7 @@
 1 4 0 0 80 -0.891545 0 -0.452933 0 1 0 0.452933 0 -0.891545 6989 - Vehicle - Front - Turntable - 1.ldr
 
 
+0 STEP
 0 FILE 6989 - Vehicle - Front - Turntable - 1.ldr
 0 A small red turntable base plate with a holed plate mount.
 0 Name: 6989 - Vehicle - Front - Turntable - 1.ldr
@@ -497,6 +506,7 @@
 1 0 0 8 0 0 0 1 0 1 0 -1 0 0 2817.dat
 
 
+0 STEP
 0 FILE 6989 - Vehicle - Front - Turntable - 2.ldr
 0 A red pivoting hinge assembly with a jet engine, an inverted dish, and an MTron logo tile.
 0 Name: 6989 - Vehicle - Front - Turntable - 2.ldr
@@ -532,6 +542,7 @@
 1 4 0 -66 -110 1 0 0 0 1 0 0 0 1 3068bp68.dat
 
 
+0 STEP
 0 FILE 6989 - Vehicle - Front - Windscreen.ldr
 0 The front windscreen frame with red plates, positioning rockets, grille tiles, and a green finned light.
 0 Name: 6989 - Vehicle - Front - Windscreen.ldr
@@ -586,6 +597,7 @@
 1 42 0 -82 0 0 0 1 0 1 0 -1 0 0 4588.dat
 
 
+0 STEP
 0 FILE 6989 - Vehicle - Front - Windscreen - Glass.ldr
 0 A large neon green corner panel windscreen mounted on a turntable base.
 0 Name: 6989 - Vehicle - Front - Windscreen - Glass.ldr
@@ -607,6 +619,7 @@
 1 0 0 -16 0 1 0 0 0 1 0 0 0 1 3680.dat
 
 
+0 STEP
 0 FILE 6989 - Vehicle - Front + Minifig.ldr
 0 A minifig-equipped variant of the vehicle front section.
 0 Name: 6989 - Vehicle - Front + Minifig.ldr
@@ -622,6 +635,7 @@
 
 
 
+0 STEP
 0 FILE 6989 - Vehicle - Wheel.ldr
 0 A large black treaded wheel with a round red hub.
 0 Name: 6989 - Vehicle - Wheel.ldr
@@ -640,6 +654,7 @@
 
 
 
+0 STEP
 0 FILE 6989 - Vehicle - Back.ldr
 0 The rear section of the main vehicle, built from red bricks and plates with technic axles and hinged panels.
 0 Name: 6989 - Vehicle - Back.ldr
@@ -858,6 +873,7 @@
 
 
 
+0 STEP
 0 FILE 6989 - Vehicle - Back - Door.ldr
 0 A red hinged roof door built from plates on a car-roof hinge.
 0 Name: 6989 - Vehicle - Back - Door.ldr
@@ -879,6 +895,7 @@
 
 
 
+0 STEP
 0 FILE 6989 - Vehicle - Back - Hinge 1.ldr
 0 A red hinge base with a headlight brick, a finned round brick, and a yellow arrow pattern tile.
 0 Name: 6989 - Vehicle - Back - Hinge 1.ldr
@@ -908,6 +925,7 @@
 
 
 
+0 STEP
 0 FILE 6989 - Vehicle - Back - Hinge 2.ldr
 0 A red hinge top with a headlight brick, a finned round brick, and a yellow arrow pattern tile.
 0 Name: 6989 - Vehicle - Back - Hinge 2.ldr
@@ -937,6 +955,7 @@
 
 
 
+0 STEP
 0 FILE 6989 - Vehicle - Back - Crane.ldr
 0 A black turntable crane base with red and black hinged pivot plates.
 0 Name: 6989 - Vehicle - Back - Crane.ldr
@@ -961,6 +980,7 @@
 
 
 
+0 STEP
 0 FILE 6989 - Vehicle - Back - Crane - Cockpit.ldr
 0 A black cockpit mounted on a turntable, featuring MTron-logo slopes, technic bricks, and hinged plates.
 0 Name: 6989 - Vehicle - Back - Crane - Cockpit.ldr
@@ -1051,6 +1071,7 @@
 
 
 
+0 STEP
 0 FILE 6989 - Vehicle - Back - Crane - Arm.ldr
 0 A rack winder with an axle and a solid rubber wheel forming the crane's winch arm.
 0 Name: 6989 - Vehicle - Back - Crane - Arm.ldr
@@ -1072,6 +1093,7 @@
 
 
 
+0 STEP
 0 FILE 6989 - Vehicle - Back - Crane - Arm - Arm.ldr
 0 An extended crane arm with a long red rack, a magnet holder with cylindrical magnet, and a neon green dish.
 0 Name: 6989 - Vehicle - Back - Crane - Arm - Arm.ldr
@@ -1107,6 +1129,7 @@
 
 
 
+0 STEP
 0 FILE 6989 - Vehicle - Back - Crane - Cockpit - Light.ldr
 0 A small hinged light fixture with two neon green cones.
 0 Name: 6989 - Vehicle - Back - Crane - Cockpit - Light.ldr
@@ -1129,6 +1152,7 @@
 
 
 
+0 STEP
 0 FILE 6989 - Vehicle - Back - Crane - Cockpit - Antenna.ldr
 0 A neon green whip antenna mounted on a turntable with hinge and clip plates.
 0 Name: 6989 - Vehicle - Back - Crane - Cockpit - Antenna.ldr
@@ -1156,6 +1180,7 @@
 
 
 
+0 STEP
 0 FILE 6989 - Vehicle - Back - Crane - Cockpit - Antenna - Radar.ldr
 0 A red hinged radar/antenna assembly using a hinge tile and top bracket.
 0 Name: 6989 - Vehicle - Back - Crane - Cockpit - Antenna - Radar.ldr
@@ -1175,6 +1200,7 @@
 
 
 
+0 STEP
 0 FILE 6989 - Vehicle - Back - Crane - Cockpit - Antenna - Radar - Radar.ldr
 0 A black patterned radar panel mounted on a large hinge.
 0 Name: 6989 - Vehicle - Back - Crane - Cockpit - Antenna - Radar - Radar.ldr
@@ -1190,6 +1216,7 @@
 
 
 
+0 STEP
 0 FILE 6989 - Vehicle - Back + Car 1.ldr
 0 An assembly wrapper for the vehicle rear section with no directly listed pieces.
 0 Name: 6989 - Vehicle - Back + Car 1.ldr
@@ -1205,6 +1232,7 @@
 
 
 
+0 STEP
 0 FILE 6989 - Vehicle - Container 1.ldr
 0 A small red MTron cargo container with a magnet coupling and door slot.
 0 Name: 6989 - Vehicle - Container 1.ldr
@@ -1231,6 +1259,7 @@
 
 
 
+0 STEP
 0 FILE 6989 - Vehicle - Container 2.ldr
 0 A larger red MTron container module with control panels, computer displays, grilles, and a magnet coupling.
 0 Name: 6989 - Vehicle - Container 2.ldr
@@ -1295,6 +1324,7 @@
 
 
 
+0 STEP
 0 FILE 6989 - Vehicle - Container 3.ldr
 0 A red MTron container housing a hose reel, tools, and control panels with grille detailing.
 0 Name: 6989 - Vehicle - Container 3.ldr
@@ -1787,6 +1817,7 @@
 1 256 32.708 -2.366 -45.762 -0.2142 -0.9746 0.0649 0.0467 -0.0766 -0.996 0.9757 -0.2103 0.062 6989 - LS60.dat
 0 GROUP 111 String 2
 
+0 STEP
 0 FILE 6989 - Vehicle - Container 3 - Nozzle.ldr
 0 A jet-pack nozzle attachment with two round red accent bricks.
 0 Name: 6989 - Vehicle - Container 3 - Nozzle.ldr
@@ -1805,6 +1836,7 @@
 
 
 
+0 STEP
 0 FILE 6989 - Vehicle - Container 3 - String.ldr
 0 A hose reel drum spool component.
 0 Name: 6989 - Vehicle - Container 3 - String.ldr
@@ -3412,6 +3444,7 @@
 1 256 -27 -13.038 -1.185 -0.003 -0.9997 0.0229 0.9864 -0.0067 -0.1643 0.1644 0.0221 0.9862 6989 - LS60.dat
 1 256 -26.996 -13.014 0.321 -0.0012 -1 0.0073 0.9996 -0.0014 -0.0289 0.0289 0.0073 0.9996 6989 - LS60.dat
 
+0 STEP
 0 FILE 6989 - Minifig 1.ldr
 0 An MTron minifigure with airtanks, red logo torso, and white arms and legs.
 0 Name: 6989 - Minifig 1.ldr
@@ -3446,6 +3479,7 @@
 
 
 
+0 STEP
 0 FILE 6989 - Minifig 2.ldr
 0 An MTron minifigure with airtanks, red logo torso, and white arms and legs.
 0 Name: 6989 - Minifig 2.ldr
@@ -3479,6 +3513,7 @@
 
 
 
+0 STEP
 0 FILE 6989 - Minifig 3.ldr
 0 An MTron minifigure with airtanks, red logo torso, and white arms and legs.
 0 Name: 6989 - Minifig 3.ldr
@@ -3513,6 +3548,7 @@
 
 
 
+0 STEP
 0 FILE 6989 - Minifig - Helmet 1.ldr
 0 A black space helmet with a trans-neon-green visor.
 0 Name: 6989 - Minifig - Helmet 1.ldr
@@ -3530,6 +3566,7 @@
 
 
 
+0 STEP
 0 FILE 6989 - Minifig - Helmet 2.ldr
 0 A black space helmet with a trans-neon-green visor.
 0 Name: 6989 - Minifig - Helmet 2.ldr
@@ -3544,6 +3581,7 @@
 0 // ~Minifig Helmet Visor Standard (Obsolete) (trans_neon_green)
 1 42 0 0 0 1 0 0 0 1 0 0 0 1 2447.dat
 
+0 STEP
 0 FILE 6989 - LS60.dat
 0 An LSynth short straight string segment with no direct pieces.
 0 Name: 6989 - LS60.dat

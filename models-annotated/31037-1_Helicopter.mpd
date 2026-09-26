@@ -273,6 +273,7 @@
 1 15 0 -156 70 0 0 1 0 1 0 -1 0 0 31037 - Propeller.ldr
 
 
+0 STEP
 0 FILE 31037 - Propeller.ldr
 0 A twin-blade main rotor assembly built from two white Technic rotor blades joined by long dark bluish grey and black plates, topped with trans-red round accents.
 0 Name: 31037 - Propeller.ldr
@@ -300,6 +301,7 @@
 0 // Technic Rotor  2 Blade with 4 Studs (white)
 1 15 0 16 0 1 0 0 0 1 0 0 0 1 32124.dat
 
+0 STEP
 0 FILE 31037 - Front.ldr
 0 A small cockpit front section using brackets and a white brick accented by two green curved-top arches.
 0 Name: 31037 - Front.ldr
@@ -317,6 +319,7 @@
 0 // Arch  1 x  3 x  2 with Curved Top (green)
 1 2 -30 -40 0 0 0 1 0 1 0 -1 0 0 6005.dat
 
+0 STEP
 0 FILE 31037 - Light.ldr
 0 A small beacon or light fitting made of a trans-clear inverted dish, a trans-dark-blue round plate, and a dark bluish grey clip tile.
 0 Name: 31037 - Light.ldr
@@ -330,6 +333,7 @@
 0 // Tile  1 x  1 with Clip (Thick C-Clip) (dark_bluish_grey)
 1 72 0 6 0 1 0 0 0 1 0 0 0 1 15712.dat
 
+0 STEP
 0 FILE 31037 - ropeLQ-1.ldr
 0 A flexible winch rope composed of fifty connected cylindrical segments forming an approximated hanging cable.
 0 Name: 31037 - ropeLQ-1.ldr
@@ -460,6 +464,7 @@
 0 // Cylinder 1.0 (main_colour)
 1 16 -26.007324 -26.976558 62.659311 -1.499932 0.038227 0.000374 -0.000814 -0.123162 -1.499291 -0.014297 -4.003529 0.046127 4-4cyli.dat
 
+0 STEP
 0 FILE 31037 - Tail.ldr
 0 A tapered tail boom of green and dark bluish grey plates with an arch, a red plate accent, an orange trans round light, and a Technic pin hole for attaching the tail rotor.
 0 Name: 31037 - Tail.ldr
@@ -502,6 +507,7 @@
 1 2 0 -64 140 0 0 1 0 1 0 -1 0 0 3069b.dat
 1 72 -20 -22 140 0 0 -1 0 1 0 1 0 0 31037 - Back Propeller.ldr
 
+0 STEP
 0 FILE 31037 - Back Propeller.ldr
 0 A tail rotor mount consisting of a dark bluish grey Technic brick with holes and two grooved black tiles forming a compact fin.
 0 Name: 31037 - Back Propeller.ldr

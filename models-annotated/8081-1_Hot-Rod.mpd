@@ -7,6 +7,7 @@
 1 71 0 -9.55 2.353 1 0 0 0 0.996 -0.094 0 0.094 0.996 8081 - Hot Rod.ldr
 
 
+0 STEP
 0 FILE 8081 - Hot Rod.ldr
 0 Core chassis assembly with beams, gears, and axles forming the main structural frame and drivetrain of the Hot Rod.
 0 Name: 8081 - Hot Rod.ldr
@@ -402,6 +403,7 @@
 1 256 -150 19.305 418.107 0 0 -1 -0.996 0.082 0 0.082 0.996 0 61480.dat
 
 
+0 STEP
 0 FILE 8081 - Hot Rod 011.ldr
 0 Axle and connector linkage assembly with liftarms and a 4-knob gear, forming a drivetrain linkage.
 0 Name: 8081 - Hot Rod 011.ldr
@@ -443,6 +445,7 @@
 1 0 0 40 -230 1 0 0 0 1 0 0 0 1 59443.dat
 
 
+0 STEP
 0 FILE 8081 - Hot Rod 011S05.ldr
 0 Small axle-driven gear sub-assembly with a cross block and 4-knob gear for drive transfer.
 0 Name: 8081 - Hot Rod 011S05.ldr
@@ -463,6 +466,7 @@
 1 71 0 20 -100 0 0 1 0 1 0 -1 0 0 32073.dat
 
 
+0 STEP
 0 FILE 8081 - Hot Rod 018.ldr
 0 Rear axle assembly featuring a differential, universal joint, bevel gears, and cross blocks for power delivery to the wheels.
 0 Name: 8081 - Hot Rod 018.ldr
@@ -582,6 +586,7 @@
 1 71 0 0 -40 1 0 0 0 1 0 0 0 1 62520.dat
 
 
+0 STEP
 0 FILE 8081 - Hot Rod 021.ldr
 0 Simple pin joiner coupling connecting two friction pins for a short linkage.
 0 Name: 8081 - Hot Rod 021.ldr
@@ -596,6 +601,7 @@
 1 0 20 0 0 1 0 0 0 -1 0 0 0 -1 2780.dat
 
 
+0 STEP
 0 FILE 8081 - Hot Rod 027.ldr
 0 Small bent liftarm bracket assembly with blue beams and pins for structural mounting.
 0 Name: 8081 - Hot Rod 027.ldr
@@ -619,6 +625,7 @@
 1 1 -20 0 0 0 1 0 1 0 0 0 0 -1 32140.dat
 
 
+0 STEP
 0 FILE 8081 - Hot Rod 028.ldr
 0 Small bent liftarm bracket assembly with blue beams and pins for structural mounting.
 0 Name: 8081 - Hot Rod 028.ldr
@@ -642,6 +649,7 @@
 1 1 20 0 0 0 1 0 1 0 0 0 0 -1 32140.dat
 
 
+0 STEP
 0 FILE 8081 - Hot Rod 032.ldr
 0 Front splitter or spoiler blade assembly using bent liftarms, angle connectors, and red/black decorative teeth.
 0 Name: 8081 - Hot Rod 032.ldr
@@ -675,6 +683,7 @@
 1 0 -40 80 10 0 -1 0 0 0 1 -1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 8081 - Hot Rod 035.ldr
 0 Axle joiner coupling assembly using inline joiners and a cross block for a connecting shaft.
 0 Name: 8081 - Hot Rod 035.ldr
@@ -702,6 +711,7 @@
 1 4 -100 0 0 -1 0 0 0 0 1 0 1 0 32054.dat
 
 
+0 STEP
 0 FILE 8081 - Hot Rod 038.ldr
 0 Front splitter or spoiler blade assembly using bent liftarms, angle connectors, and red/black decorative teeth.
 0 Name: 8081 - Hot Rod 038.ldr
@@ -735,6 +745,7 @@
 1 0 -40 80 -10 0 -1 0 0 0 1 -1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 8081 - Hot Rod 040.ldr
 0 Small mounting plate assembly with a black liftarm, half-pins, and a white grooved tile.
 0 Name: 8081 - Hot Rod 040.ldr
@@ -752,6 +763,7 @@
 1 15 0 -18 0 1 0 0 0 1 0 0 0 1 2431.dat
 
 
+0 STEP
 0 FILE 8081 - Hot Rod 041.ldr
 0 Short axle and dual angle connector assembly forming a simple angled linkage.
 0 Name: 8081 - Hot Rod 041.ldr
@@ -766,6 +778,7 @@
 1 0 60 0 0 0 0 1 0 1 0 -1 0 0 32013.dat
 
 
+0 STEP
 0 FILE 8081 - Hot Rod 045.ldr
 0 Axle coupling assembly with inline joiners and cross blocks forming a short structural connector.
 0 Name: 8081 - Hot Rod 045.ldr
@@ -790,6 +803,7 @@
 1 0 80 0 0 1 0 0 0 0 1 0 -1 0 6536.dat
 
 
+0 STEP
 0 FILE 8081 - Hot Rod 047.ldr
 0 Engine block sub-assembly with peghole bricks, gears, and axles supporting the cylinder heads and crankshaft.
 0 Name: 8081 - Hot Rod 047.ldr
@@ -833,6 +847,7 @@
 1 0 20 50 -10 0 0 1 0 1 0 -1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 8081 - Hot Rod 047S02.ldr
 0 Pair of engine cylinder heads joined by pins, forming one bank of the V-engine.
 0 Name: 8081 - Hot Rod 047S02.ldr
@@ -854,6 +869,7 @@
 1 0 20 26 60 0 0 -1 0 1 0 1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 8081 - Hot Rod 047S03.ldr
 0 Engine crankshaft assembly with two crankshafts, four connecting rods, and pistons forming the moving internals.
 0 Name: 8081 - Hot Rod 047S03.ldr
@@ -886,6 +902,7 @@
 1 14 -38.038 -28.528 0 0.6 0.8 0 -0.8 0.6 0 0 0 1 2851.dat
 
 
+0 STEP
 0 FILE 8081 - Hot Rod 047S04.ldr
 0 Pair of engine cylinder heads joined by pins, forming one bank of the V-engine.
 0 Name: 8081 - Hot Rod 047S04.ldr
@@ -907,6 +924,7 @@
 1 1 20 26 70 0 0 -1 0 1 0 1 0 0 6558.dat
 
 
+0 STEP
 0 FILE 8081 - Hot Rod 047S08.ldr
 0 Engine drive linkage with angle connectors, cross blocks, and red stop-bush pins transferring motion to the crankshaft.
 0 Name: 8081 - Hot Rod 047S08.ldr
@@ -936,6 +954,7 @@
 1 4 -40 -20 0 0 0 -1 -1 0 0 0 1 0 32054.dat
 
 
+0 STEP
 0 FILE 8081 - Hot Rod 050.ldr
 0 Front suspension and steering assembly with suspension arms, towballs, shock absorber, steering links, and gear rack.
 0 Name: 8081 - Hot Rod 050.ldr
@@ -1018,6 +1037,7 @@
 1 72 -20 -12 -40 0.069 0.156 -0.985 -0.998 0 -0.07 -0.011 0.988 0.156 32005.dat
 
 
+0 STEP
 0 FILE 8081 - Hot Rod 050S06.ldr
 0 Steering arm sub-assembly with a towball steering arm, stopped axle, and yellow bushing.
 0 Name: 8081 - Hot Rod 050S06.ldr
@@ -1033,6 +1053,7 @@
 1 14 15 0 0 0 0 1 0 -1 0 1 0 0 32123a.dat
 
 
+0 STEP
 0 FILE 8081 - Hot Rod 050S10.ldr
 0 Wheel hub cover assembly with a clear dish, round plate, and friction axle pin.
 0 Name: 8081 - Hot Rod 050S10.ldr
@@ -1048,6 +1069,7 @@
 1 1 0 -16 0 0 -1 0 1 0 0 0 0 1 43093.dat
 
 
+0 STEP
 0 FILE 8081 - Hot Rod 052.ldr
 0 Steering column assembly with a steering wheel, beams, cross blocks, and pins for the driver controls.
 0 Name: 8081 - Hot Rod 052.ldr
@@ -1107,6 +1129,7 @@
 1 71 60 0 54 1 0 0 0 0 1 0 -1 0 2819.dat
 
 
+0 STEP
 0 FILE 8081 - Hot Rod 053.ldr
 0 Small angled connector joint with a 157.5-degree connector and friction axle pins for linkage.
 0 Name: 8081 - Hot Rod 053.ldr
@@ -1124,6 +1147,7 @@
 1 0 46.194 0 19.134 0.924 0.383 0 0 0 1 0.383 -0.924 0 62462.dat
 
 
+0 STEP
 0 FILE 8081 - Hot Rod 055.ldr
 0 Body panel mounting assembly with a wide black fairing panel and cross blocks for exterior detail.
 0 Name: 8081 - Hot Rod 055.ldr
@@ -1149,6 +1173,7 @@
 1 0 0 -60 0 0 0 1 0 -1 0 1 0 0 64682.dat
 
 
+0 STEP
 0 FILE 8081 - Hot Rod 056.ldr
 0 Hot Rod 056
 0 Name: 8081 - Hot Rod 056.ldr
@@ -1174,6 +1199,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 8081 - Hot Rod 057.ldr
 0 Hot Rod 057
 0 Name: 8081 - Hot Rod 057.ldr
@@ -1217,6 +1243,7 @@
 1 71 0 0 -100 -1 0 0 0 1 0 0 0 -1 60485.dat
 
 
+0 STEP
 0 FILE 8081 - Hot Rod 059.ldr
 0 Hot Rod 059
 0 Name: 8081 - Hot Rod 059.ldr
@@ -1231,6 +1258,7 @@
 1 0 100 0 0 0 0 1 0 1 0 -1 0 0 32013.dat
 
 
+0 STEP
 0 FILE 8081 - Hot Rod 061.ldr
 0 Hot Rod 061
 0 Name: 8081 - Hot Rod 061.ldr
@@ -1260,6 +1288,7 @@
 1 0 0 -40 -70 1 0 0 0 1 0 0 0 1 8081 - Hot Rod 061S04.ldr
 
 
+0 STEP
 0 FILE 8081 - Hot Rod 061S03.ldr
 0 Hot Rod 061S03
 0 Name: 8081 - Hot Rod 061S03.ldr
@@ -1288,6 +1317,7 @@
 1 0 20 20 0 0 0 1 0 -1 0 1 0 0 3705.dat
 
 
+0 STEP
 0 FILE 8081 - Hot Rod 061S04.ldr
 0 Hot Rod 061S04
 0 Name: 8081 - Hot Rod 061S04.ldr

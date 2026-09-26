@@ -62,6 +62,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - Tribot Base.ldr
 0 Core chassis built from Technic beams and pins housing the NXT brick with two drive wheels and a caster wheel mount.
 0 Name: 8527 - Tribot Base.ldr
@@ -178,6 +179,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - Tribot Base - Motors.ldr
 0 Motor mounting frame using a bent liftarm connector.
 0 Name: 8527 - Tribot Base - Motors.ldr
@@ -201,6 +203,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - Tribot Base - Motors - Left Motor.ldr
 0 Left drive motor assembly with an NXT motor, axle, bushes, and bent liftarm bracing.
 0 Name: 8527 - Tribot Base - Motors - Left Motor.ldr
@@ -252,6 +255,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - Tribot Base - Motors - Center Motor.ldr
 0 Center drive motor built around an NXT motor with beams, pins, and cross block connectors.
 0 Name: 8527 - Tribot Base - Motors - Center Motor.ldr
@@ -291,6 +295,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - Tribot Base - Motors - Right Motor.ldr
 0 Right drive motor assembly with an NXT motor, axle, bushes, and bent liftarm bracing.
 0 Name: 8527 - Tribot Base - Motors - Right Motor.ldr
@@ -337,6 +342,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - Tribot Base - Back Wheel.ldr
 0 Rear caster wheel unit with belt wheels mounted on an axle and supported by beams.
 0 Name: 8527 - Tribot Base - Back Wheel.ldr
@@ -378,6 +384,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - Ball Holder.ldr
 0 Blue ball held within a cage of flexible axle joiners and angle connectors.
 0 Name: 8527 - Ball Holder.ldr
@@ -432,6 +439,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - Ball Holder - Front.ldr
 0 Front portion of the ball holder using flexible axle joiners and angle connectors.
 0 Name: 8527 - Ball Holder - Front.ldr
@@ -462,6 +470,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - Touch Sensor Attachment.ldr
 0 Touch sensor assembly with beams, angle connectors, and a gear linkage for the bumper mechanism.
 0 Name: 8527 - Touch Sensor Attachment.ldr
@@ -567,6 +576,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - Touch Sensor Attachment - Mount.ldr
 0 Mounting bracket for the touch sensor using beams, pins, and cross blocks.
 0 Name: 8527 - Touch Sensor Attachment - Mount.ldr
@@ -623,6 +633,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - Left Claw.ldr
 0 Left gripper claw with pincer elements, an orange tooth, and bent liftarms.
 0 Name: 8527 - Left Claw.ldr
@@ -667,6 +678,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - Right Claw.ldr
 0 Right gripper claw with pincer elements, an orange tooth, and bent liftarms.
 0 Name: 8527 - Right Claw.ldr
@@ -711,6 +723,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - Sound Sensor Attachment.ldr
 0 Sound sensor mount with bent liftarms and angle connectors.
 0 Name: 8527 - Sound Sensor Attachment.ldr
@@ -766,6 +779,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - Light Sensor Attachment.ldr
 0 Light sensor mounted between two short beams on a pin.
 0 Name: 8527 - Light Sensor Attachment.ldr
@@ -792,6 +806,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - cable1.ldr
 0 NXT RJ12 cable assembly approximately 309mm long with plug ends.
 0 Name: 8527 - cable1.ldr
@@ -842,6 +857,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - cable1_subPart1.ldr
 0 Cable segment subpart for cable1 containing the geometric path data.
 0 Name: 8527 - cable1_subPart1.ldr
@@ -1030,6 +1046,7 @@
 1 16 61.12576339 -253.64130383 -116.34883875 -0.00118256 -0.05321932 -0.99991097 -0.88096217 -1.89448171 0.00733084 -0.47318522 3.52722276 -0.01114941 8527 - ldcNxtWireSeg.dat
 
 
+0 STEP
 0 FILE 8527 - cable2.ldr
 0 NXT RJ12 cable assembly approximately 242mm long with plug ends.
 0 Name: 8527 - cable2.ldr
@@ -1077,6 +1094,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - cable2_subPart1.ldr
 0 Cable segment subpart for cable2 containing the geometric path data.
 0 Name: 8527 - cable2_subPart1.ldr
@@ -1241,6 +1259,7 @@
 1 16 56.45402884 183.50882963 -184.5513787 -0.00021574 -0.04374696 0.99994039 0.76768186 2.56791404 0.00716125 -0.64083112 3.07624022 0.00824216 8527 - ldcNxtWireSeg.dat
 
 
+0 STEP
 0 FILE 8527 - cable4.ldr
 0 NXT RJ12 cable assembly approximately 279mm long with plug ends.
 0 Name: 8527 - cable4.ldr
@@ -1290,6 +1309,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - cable4_subPart1.ldr
 0 Cable segment subpart for cable4 containing the geometric path data.
 0 Name: 8527 - cable4_subPart1.ldr
@@ -1429,6 +1449,7 @@
 1 16 -56.99878521 14.13692979 118.57718474 0.00058095 -0.38808706 -0.99526188 0.64951378 3.02068835 -0.0735524 0.7603496 -2.58006745 0.06359113 8527 - ldcNxtWireSeg.dat
 
 
+0 STEP
 0 FILE 8527 - cable3.ldr
 0 NXT RJ12 cable assembly approximately 309mm long with plug ends.
 0 Name: 8527 - cable3.ldr
@@ -1479,6 +1500,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - cable3_subPart1.ldr
 0 Cable segment subpart for cable3 containing the geometric path data.
 0 Name: 8527 - cable3_subPart1.ldr
@@ -1667,6 +1689,7 @@
 1 16 -61.12576339 -253.64130383 -116.34883875 -0.00118256 0.05321932 0.99991097 0.88096217 -1.89448171 0.00733084 0.47318522 3.52722276 -0.01114941 8527 - ldcNxtWireSeg.dat
 
 
+0 STEP
 0 FILE 8527 - cable5.ldr
 0 NXT RJ12 cable assembly approximately 257mm long with plug ends.
 0 Name: 8527 - cable5.ldr
@@ -1714,6 +1737,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - cable5_subPart1.ldr
 0 Cable segment subpart for cable5 containing the geometric path data.
 0 Name: 8527 - cable5_subPart1.ldr
@@ -1853,6 +1877,7 @@
 1 16 19.0029207 -244.24098991 -305.51764774 0.00001673 -0.12655293 0.99949808 -0.68575714 -2.90608034 -0.02304577 0.72783044 -2.73808725 -0.02173655 8527 - ldcNxtWireSeg.dat
 
 
+0 STEP
 0 FILE 8527 - cable6.ldr
 0 cable6
 0 Name: 8527 - cable6.ldr
@@ -1903,6 +1928,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - cable6_subPart1.ldr
 0 cable6_subPart1
 0 Name: 8527 - cable6_subPart1.ldr
@@ -2038,6 +2064,7 @@
 1 16 -19.0041541 -127.9990713 53.827596 0.00023273 0.09893876 0.9996938 -0.75801024 2.60721777 -0.01596267 -0.65224261 -3.02996878 0.01890789 8527 - ldcNxtWireSeg.dat
 
 
+0 STEP
 0 FILE 8527 - cable7.ldr
 0 cable7
 0 Name: 8527 - cable7.ldr
@@ -2086,6 +2113,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - cable7_subPart1.ldr
 0 cable7_subPart1
 0 Name: 8527 - cable7_subPart1.ldr
@@ -2269,6 +2297,7 @@
 1 16 -56.99997901 -79.83407435 178.62783734 0.00056483 0.1244002 0.9995176 -0.66578544 -2.98766374 0.02354542 0.74614303 -2.66599459 0.02025301 8527 - ldcNxtWireSeg.dat
 
 
+0 STEP
 0 FILE 8527 - ldcNxtWireSeg.dat
 0 ldcNxtWireSeg
 0 Name: 8527 - ldcNxtWireSeg.dat
@@ -2312,6 +2341,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - ldcConRing-2-4.dat
 0 ldcConRing-2-4
 0 Name: 8527 - ldcConRing-2-4.dat

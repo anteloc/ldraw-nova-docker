@@ -100,6 +100,7 @@
 1 14 -149 27 185 1 0 0 0 1 0 0 0 1 3024.dat
 
 
+0 STEP
 0 FILE 6880 - Surface Explorer - Tires.ldr
 0 Wheel assembly with an 8-stud axle, bushings, and four solid rubber tires for the rover's drive system.
 0 Name: 6880 - Surface Explorer - Tires.ldr
@@ -124,6 +125,7 @@
 1 256 -69 0 0 0 0 -1 0 1 0 1 0 0 4288.dat
 
 
+0 STEP
 0 FILE 6880 - Surface Explorer - Grabber with 6 Arm Pieces.ldr
 0 Single arm segment with a disc and two fingers, used as an extension piece of the grabber arm.
 0 Name: 6880 - Surface Explorer - Grabber with 6 Arm Pieces.ldr
@@ -137,6 +139,7 @@
 1 16 0 0 -10 1 0 0 0 0.259 0.966 0 -0.966 0.259 6880 - Surface Explorer - Grabber with 5 Arm Pieces.ldr
 
 
+0 STEP
 0 FILE 6880 - Surface Explorer - Grabber with 5 Arm Pieces.ldr
 0 Single arm segment with aligned two- and three-finger joints, forming part of the grabber arm.
 0 Name: 6880 - Surface Explorer - Grabber with 5 Arm Pieces.ldr
@@ -150,6 +153,7 @@
 1 7 0 0 -12 0 -1 0 1 0 0 0 0 1 3612.dat
 
 
+0 STEP
 0 FILE 6880 - Surface Explorer - Grabber with 4 Arm Pieces.ldr
 0 Single arm segment with aligned two- and three-finger joints, forming part of the grabber arm.
 0 Name: 6880 - Surface Explorer - Grabber with 4 Arm Pieces.ldr
@@ -163,6 +167,7 @@
 1 16 0 0 -24 1 0 0 0 0.866 -0.5 0 0.5 0.866 6880 - Surface Explorer - Grabber with 3 Arm Pieces.ldr
 
 
+0 STEP
 0 FILE 6880 - Surface Explorer - Grabber with 3 Arm Pieces.ldr
 0 Single arm segment with aligned two- and three-finger joints, forming part of the grabber arm.
 0 Name: 6880 - Surface Explorer - Grabber with 3 Arm Pieces.ldr
@@ -176,6 +181,7 @@
 1 7 0 0 -12 0 -1 0 1 0 0 0 0 1 3612.dat
 
 
+0 STEP
 0 FILE 6880 - Surface Explorer - Grabber with 2 Arm Pieces.ldr
 0 Single arm segment with aligned two- and three-finger joints, forming part of the grabber arm.
 0 Name: 6880 - Surface Explorer - Grabber with 2 Arm Pieces.ldr
@@ -189,6 +195,7 @@
 1 7 0 0 -12 0 -1 0 1 0 0 0 0 1 3612.dat
 
 
+0 STEP
 0 FILE 6880 - Surface Explorer - Grabber with 1 Arm Piece.ldr
 0 Grabber arm tip with a jaw holder, two grab jaws, and a small antenna.
 0 Name: 6880 - Surface Explorer - Grabber with 1 Arm Piece.ldr
@@ -206,6 +213,7 @@
 1 0 30 -0.5 -65 0 1 0 -1 0 0 0 0 1 3957a.dat
 
 
+0 STEP
 0 FILE 6880 - Surface Explorer - Digger with 6 Arm Pieces.ldr
 0 Single arm segment with a disc and two fingers, used as an extension piece of the digger arm.
 0 Name: 6880 - Surface Explorer - Digger with 6 Arm Pieces.ldr
@@ -219,6 +227,7 @@
 1 16 0 0 10 1 0 0 0 1 0 0 0 1 6880 - Surface Explorer - Digger with 5 Arm Pieces.ldr
 
 
+0 STEP
 0 FILE 6880 - Surface Explorer - Digger with 5 Arm Pieces.ldr
 0 Single arm segment with aligned two- and three-finger joints, forming part of the digger arm.
 0 Name: 6880 - Surface Explorer - Digger with 5 Arm Pieces.ldr
@@ -232,6 +241,7 @@
 1 7 0 0 12 0 1 0 1 0 0 0 0 -1 3612.dat
 
 
+0 STEP
 0 FILE 6880 - Surface Explorer - Digger with 4 Arm Pieces.ldr
 0 Single arm segment with aligned two- and three-finger joints, forming part of the digger arm.
 0 Name: 6880 - Surface Explorer - Digger with 4 Arm Pieces.ldr
@@ -245,6 +255,7 @@
 1 16 0 0 24 1 0 0 0 0.966 -0.259 0 0.259 0.966 6880 - Surface Explorer - Digger with 3 Arm Pieces.ldr
 
 
+0 STEP
 0 FILE 6880 - Surface Explorer - Digger with 3 Arm Pieces.ldr
 0 Single arm segment with aligned two- and three-finger joints, forming part of the digger arm.
 0 Name: 6880 - Surface Explorer - Digger with 3 Arm Pieces.ldr
@@ -258,6 +269,7 @@
 1 7 0 0 12 0 1 0 1 0 0 0 0 -1 3612.dat
 
 
+0 STEP
 0 FILE 6880 - Surface Explorer - Digger with 2 Arm Pieces.ldr
 0 Single arm segment with aligned two- and three-finger joints, forming part of the digger arm.
 0 Name: 6880 - Surface Explorer - Digger with 2 Arm Pieces.ldr
@@ -271,6 +283,7 @@
 1 7 0 0 12 0 1 0 1 0 0 0 0 -1 3612.dat
 
 
+0 STEP
 0 FILE 6880 - Surface Explorer - Digger with 1 Arm Piece.ldr
 0 Digger arm tip with a towball socket, an inverted slope with towball, and a yellow accent plate.
 0 Name: 6880 - Surface Explorer - Digger with 1 Arm Piece.ldr
@@ -286,6 +299,7 @@
 1 14 -1.541 -28.734 65.412 0 -0.982 -0.191 -0.866 -0.095 0.491 -0.5 0.165 -0.85 3024.dat
 
 
+0 STEP
 0 FILE 6880 - Surface Explorer - Radar Dish.ldr
 0 Radar array on a turntable with a bracket, plates, an inverted webbed dish, and a camera.
 0 Name: 6880 - Surface Explorer - Radar Dish.ldr
@@ -314,6 +328,7 @@
 1 0 8 -68 -36 0 -1 0 0 0 1 -1 0 0 4360.dat
 
 
+0 STEP
 0 FILE 6880 - Surface Explorer - Yellow Astronaut.ldr
 0 Yellow Classic Space minifigure with helmet, airtanks, printed torso, and standard grin head.
 0 Name: 6880 - Surface Explorer - Yellow Astronaut.ldr

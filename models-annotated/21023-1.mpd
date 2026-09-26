@@ -200,6 +200,7 @@
 1 0 20 -366 -42 -1 0 0 0 0 1 0 1 0 21023 - 7.ldr
 
 
+0 STEP
 0 FILE 21023 - 1.ldr
 0 Angular hinged base section built from hinge plates, brackets with rounded corners, and tan corner bricks, forming one of the wedge-shaped corners of the building.
 0 Name: 21023 - 1.ldr
@@ -254,6 +255,7 @@
 1 0 20 -292 -52 0 0 1 1 0 0 0 1 0 21023 - 1 - 5.ldr
 
 
+0 STEP
 0 FILE 21023 - 1 - 1.ldr
 0 Corner wall assembly composed of tan corner bricks, rounded-corner brackets, and plates forming an angled structural corner detail.
 0 Name: 21023 - 1 - 1.ldr
@@ -301,6 +303,7 @@
 1 19 0 -128 0 0 0 1 0 1 0 -1 0 0 2357.dat
 
 
+0 STEP
 0 FILE 21023 - 1 - 2.ldr
 0 Small corner subassembly with a corner brick, rounded-corner bracket, and side-stud brick for a transitional wall connection.
 0 Name: 21023 - 1 - 2.ldr
@@ -326,6 +329,7 @@
 1 19 0 -40 -30 0 0 -1 0 1 0 1 0 0 3004.dat
 
 
+0 STEP
 0 FILE 21023 - 2.ldr
 0 Ground-floor facade section with a large base plate, curved slope detailing, and windows made from trans-brown and tan grooved tiles.
 0 Name: 21023 - 2.ldr
@@ -389,6 +393,7 @@
 1 28 -10 0 -90 1 0 0 0 1 0 0 0 1 3024.dat
 
 
+0 STEP
 0 FILE 21023 - 3.ldr
 0 Mid-level facade section with two base plates and extensive grille tiles arranged as repeating window columns, framed by curved slope cornices.
 0 Name: 21023 - 3.ldr
@@ -504,6 +509,7 @@
 1 28 70 0 -130 1 0 0 0 1 0 0 0 1 3024.dat
 
 
+0 STEP
 0 FILE 21023 - 4.ldr
 0 Facade section with a base plate, curved and 0.667-height slopes, and rows of grooved window tiles in trans-brown, tan, and dark-tan.
 0 Name: 21023 - 4.ldr
@@ -587,6 +593,7 @@
 1 19 -30 0 -100 0 0 1 0 1 0 -1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 21023 - 5.ldr
 0 Upper facade section with curved slopes and grille tiles forming window bands, finished with dark-tan and trans-brown grooved detailing.
 0 Name: 21023 - 5.ldr
@@ -658,6 +665,7 @@
 1 19 10 -8 -80 0 0 -1 0 1 0 1 0 0 2412b.dat
 
 
+0 STEP
 0 FILE 21023 - 6.ldr
 0 Upper facade section combining curved slopes, grille tiles, and grooved window tiles in trans-brown, tan, and dark-tan finishes.
 0 Name: 21023 - 6.ldr
@@ -731,6 +739,7 @@
 1 28 -50 0 30 0 0 1 0 1 0 -1 0 0 3024.dat
 
 
+0 STEP
 0 FILE 21023 - 1 - 3.ldr
 0 Narrow facade section with a base plate and many trans-brown grooved tiles forming a strip of windows, accented by dark-tan detailing.
 0 Name: 21023 - 1 - 3.ldr
@@ -794,6 +803,7 @@
 0 // Slope Brick Curved  2 x  1 (dark_tan)
 1 28 -10 0 100 -1 0 0 0 1 0 0 0 -1 11477.dat
 
+0 STEP
 0 FILE 21023 - 1 - 3 - 1.ldr
 0 Small window-detail subassembly of trans-brown plates capped with curved slope pieces, representing a single glazed window unit.
 0 Name: 21023 - 1 - 3 - 1.ldr
@@ -820,6 +830,7 @@
 0 // Slope Brick Curved  2 x  2 x  0.667 (tan)
 1 19 30 0 20 -1 0 0 0 1 0 0 0 -1 15068.dat
 
+0 STEP
 0 FILE 21023 - 1 - 4.ldr
 0 Large mid-level facade section with two base plates and dense grille tiles forming a wide band of repeating windows with dark-tan framing.
 0 Name: 21023 - 1 - 4.ldr
@@ -931,6 +942,7 @@
 0 // Slope Brick Curved  2 x  1 (dark_tan)
 1 28 70 0 140 -1 0 0 0 1 0 0 0 -1 11477.dat
 
+0 STEP
 0 FILE 21023 - 1 - 4 - 1.ldr
 0 Window-detail subassembly using trans-brown plates and curved slopes to form a small glazed bay with an arched top.
 0 Name: 21023 - 1 - 4 - 1.ldr
@@ -969,6 +981,7 @@
 0 // Plate  1 x  1 (dark_tan)
 1 28 -20 -8 20 -1 0 0 0 1 0 0 0 -1 3024.dat
 
+0 STEP
 0 FILE 21023 - 1 - 5.ldr
 0 Narrow facade section with a base plate, sloped 0.667-height bricks, and rows of grooved window tiles in tan, dark-tan, and trans-brown.
 0 Name: 21023 - 1 - 5.ldr
@@ -1042,6 +1055,7 @@
 0 // Slope Brick Curved  2 x  1 (dark_tan)
 1 28 10 0 100 -1 0 0 0 1 0 0 0 -1 11477.dat
 
+0 STEP
 0 FILE 21023 - 1 - 5 - 1.ldr
 0 Small window-detail subassembly of trans-brown plates topped with curved slopes, mirroring a single glazed window unit.
 0 Name: 21023 - 1 - 5 - 1.ldr
@@ -1066,6 +1080,7 @@
 0 // Slope Brick Curved  2 x  2 x  0.667 (tan)
 1 19 30 0 20 -1 0 0 0 1 0 0 0 -1 15068.dat
 
+0 STEP
 0 FILE 21023 - 7.ldr
 0 Rooftop structure built from light-bluish-grey bricks and tall slope pieces with stud holders, forming a chimney-like crown detail with tile accents.
 0 Name: 21023 - 7.ldr

@@ -58,6 +58,7 @@
 1 1 10 -80 -30 -0.5 0 -0.866 0 1 0 0.866 0 -0.5 3899.dat
 1 16 130 -33 109 1 0 0 0 1 0 0 0 1 3798 - hannah.ldr
 
+0 STEP
 0 FILE 3798 - hannah.ldr
 0 A yellow umbrella assembly with a support bar, used as a picnic accessory.
 0 Name: 3798 - hannah.ldr
@@ -78,6 +79,7 @@
 1 4 32.4987 -26 5.7304 0.9848 0 -0.1736 0 1 0 0.1736 0 0.9848 u9101.dat
 
 
+0 STEP
 0 FILE 3798 - 4429.dat
 0 A curved Fabuland basket flask constructed from intersecting cylindrical and spherical primitive surfaces forming a handled container.
 0 Name: 3798 - 4429.dat
@@ -1048,6 +1050,7 @@
 2 24 0 31.9322 18.2884 0 31.9322 18.2885
 
 
+0 STEP
 0 FILE s\3798 - 4429s01.dat
 0 A sub-part defining the woven braid pattern of the flask basket handle.
 0 Name: s\3798 - 4429s01.dat
@@ -1155,6 +1158,7 @@
 5 24 -8.1116 36 19.583 -7.2459 36 20.3751 -11.6673 38 17.4613 -4.097 34 20.597
 
 
+0 STEP
 0 FILE s\3798 - 4429s02.dat
 0 A sub-part defining the woven side surface of the flask basket.
 0 Name: s\3798 - 4429s02.dat

@@ -13,6 +13,7 @@
 0 // Brick  1 x  2 (black)
 1 0 70 16 65 1 0 0 0 1 0 0 0 1 3004.dat
 
+0 STEP
 0 FILE 603 - sidecar.ldr
 0 A sidecar built from blue and yellow plates, an inverted slope, lattice fences, and light grey plates forming an open cargo compartment.
 0 Name: 603 - sidecar.ldr
@@ -56,6 +57,7 @@
 1 7 0 -40 10 1 0 0 0 1 0 0 0 1 3024.dat
 
 
+0 STEP
 0 FILE 603 - wheel.ldr
 0 A single wheel assembly consisting of a blue wheel-clipped plate, a red wheel centre with stub axles, and a black offset-tread tyre.
 0 Name: 603 - wheel.ldr
@@ -73,6 +75,7 @@
 0 // Tyre  6/ 50 x  8 Offset Tread (rubber_black)
 1 256 0 22 0 0 0 -1 0 1 0 1 0 0 3641.dat
 
+0 STEP
 0 FILE 603 - minifig.ldr
 0 A classic minifig figure with red torso and arms, yellow hands and head, black legs, and a blue helmet.
 0 Name: 603 - minifig.ldr

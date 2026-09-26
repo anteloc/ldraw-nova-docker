@@ -9,6 +9,7 @@
 1 1 0 -12 -480 1 0 0 0 1 0 0 0 1 42058 - ramp.ldr
 
 
+0 STEP
 0 FILE 42058 - chassis.ldr
 0 Structural frame built from long technic beams and reinforced 16-tooth gears connected by pins, forming the drivetrain backbone.
 0 Name: 42058 - chassis.ldr
@@ -48,6 +49,7 @@
 0 // Technic Pin Long with Friction and Slot (blue)
 1 1 -40 0 -140 -1 0 0 0 -1 0 0 0 1 6558.dat
 
+0 STEP
 0 FILE 42058 - tank.ldr
 0 Fuel tank bodywork using yellow fairing panels and bent liftarms with clear and light-blue teeth for decorative accents.
 0 Name: 42058 - tank.ldr
@@ -120,6 +122,7 @@
 1 71 170 40 -80 0 0 1 0 1 0 -1 0 0 59443.dat
 
 
+0 STEP
 0 FILE 42058 - tankmid.ldr
 0 Mid-section of the tank built from a large bent liftarm and multiple 0.5 liftarms reinforced with axles and pins.
 0 Name: 42058 - tankmid.ldr
@@ -157,6 +160,7 @@
 1 0 35 -28.247 148.321 0 1 0 -0.708 0 -0.706 -0.706 0 0.708 6632.dat
 
 
+0 STEP
 0 FILE 42058 - technicRibHose-1.ldr
 0 Flexible ribbed hose segment defined by generated cylindrical primitives forming a curved tubing element.
 0 Name: 42058 - technicRibHose-1.ldr
@@ -16046,6 +16050,7 @@
 5 24 6.00535 -64.790115 68.450699 6.5 -62.302567 68.450699 6.19645 -64.869415 68.450844 5.82855 -64.716667 68.486946
 
 
+0 STEP
 0 FILE 42058 - Bike.ldr
 0 Pull-back motor stunt bike with two large spoked wheels and rubber tyres, built on a bent liftarm frame with axles and bushes.
 0 Name: 42058 - Bike.ldr
@@ -16212,6 +16217,7 @@
 1 71 60 -22.904 -71.066 0 1 0 -0.5 0 -0.866 -0.866 0 0.5 15100.dat
 1 179 60 -10.392 -174 1 0 0 0 0.866 0.5 0 -0.5 0.866 42058 - technicRibHose-1.ldr
 
+0 STEP
 0 FILE 42058 - ramp.ldr
 0 Stunt jump ramp consisting of a formed cardboard ramp with yellow chevrons supported by two technic beams and flexible axle joiners.
 0 Name: 42058 - ramp.ldr
@@ -16241,6 +16247,7 @@
 0 // Technic Bush  1/2 Smooth with Axle Hole Reduced (yellow)
 1 14 -132 0 -80 0 0 -1 1 0 0 0 -1 0 32123a.dat
 
+0 STEP
 0 FILE 42058 - ldcRibHoseSeg.dat
 0 Low-level ribbed hose segment primitive made of cylinders and rings forming a single ribbed section.
 0 Name: 42058 - ldcRibHoseSeg.dat
@@ -16291,6 +16298,7 @@
 0 //  these don't seem to be worth the trouble (and extra weight), might add them in the future though.
 
 
+0 STEP
 0 FILE 42058 - 24316.dat
 0 Primitive axle-and-disc subpart combining a cylinder, disc, and axle shape.
 0 Name: 42058 - 24316.dat
@@ -16308,6 +16316,7 @@
 1 16 30 0 0 0 -2 0 8 0 0 0 0 8 4-4cylc.dat
 
 
+0 STEP
 0 FILE 42058 - 28884c01.dat
 0 Composite part definition with no direct pieces, serving as an assembly reference.
 0 Name: 42058 - 28884c01.dat
@@ -16340,6 +16349,7 @@
 0 !TEXMAP END
 
 
+0 STEP
 0 FILE s\42058 - 98138s01.dat
 0 Round tile subpart built from concentric rings and an open cylinder forming a smooth round tile.
 0 Name: s\42058 - 98138s01.dat
@@ -16369,6 +16379,7 @@
 1 16 0 0.5 0 9.5 0 0 0 -9.5 0 0 0 -9.5 42058 - t02o0526.dat
 
 
+0 STEP
 0 FILE 42058 - t02o0526.dat
 0 Primitive torus segment with major radius 19 and minor radius 1, generated for curved surface detailing.
 0 Name: 42058 - t02o0526.dat
@@ -16496,6 +16507,7 @@
 0 // Build by Primitive Generator 2
 
 
+0 STEP
 0 FILE s\42058 - u9331c01s01.dat
 0 Subpart composed of rectangles and edge lines defining flat geometric surface details.
 0 Name: s\42058 - u9331c01s01.dat
@@ -17163,6 +17175,7 @@
 5 24 -137 -5.588 -82.185997 -137.5 -5.588 -82.185997 -137.5 -5.999 -79.880997 -137 -4.326 -84.157997
 
 
+0 STEP
 0 FILE s\42058 - u9331c01s02.dat
 0 Subpart definition with no direct pieces, serving as an assembly reference.
 0 Name: s\42058 - u9331c01s02.dat
@@ -17187,6 +17200,7 @@
 4 16 -137 -17.122 67.237 137 -17.122 67.237 137 -4.369 100.902 -137 -4.369 100.902
 
 
+0 STEP
 0 FILE s\42058 - u9331c01s03.dat
 0 Subpart definition with no direct pieces, serving as an assembly reference.
 0 Name: s\42058 - u9331c01s03.dat

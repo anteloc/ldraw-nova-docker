@@ -7,6 +7,7 @@
 1 15 0 0 0 1 0 0 0 0.5 -0.866 0 0.866 0.5 40391 - Stormtrooper.ldr
 
 
+0 STEP
 0 FILE 40391 - Stand.ldr
 0 Stand
 0 Name: 40391 - Stand.ldr
@@ -32,6 +33,7 @@
 1 15 -30 0 230 -1 0 0 0 1 0 0 0 -1 30553.dat
 
 
+0 STEP
 0 FILE 40391 - Side RH.ldr
 0 Side RH
 0 Name: 40391 - Side RH.ldr
@@ -52,6 +54,7 @@
 1 15 20 0 -10 0 0 -1 0 1 0 1 0 0 61409.dat
 
 
+0 STEP
 0 FILE 40391 - Side LH.ldr
 0 Side LH
 0 Name: 40391 - Side LH.ldr
@@ -72,6 +75,7 @@
 1 15 20 0 10 0 0 -1 0 1 0 1 0 0 61409.dat
 
 
+0 STEP
 0 FILE 40391 - Stormtrooper.ldr
 0 Stormtrooper
 0 Name: 40391 - Stormtrooper.ldr

@@ -10,6 +10,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 1875 - Spaceship.ldr
 1 0 30 -61 -32 1 0 0 0 1 0 0 0 1 1875 - Minifig.ldr
 
+0 STEP
 0 FILE 1875 - Spaceship.ldr
 0 A compact spacecraft fuselage built from black and white plates, hinge plates, and brackets, with small trans-red round plates as lights or accents.
 0 Name: 1875 - Spaceship.ldr
@@ -55,6 +56,7 @@
 1 0 -7.071 -29.071 40 0.707107 0.707107 0 -0.707107 0.707107 0 0 0 1 1875 - Spaceship - Wing.ldr
 
 
+0 STEP
 0 FILE 1875 - Spaceship - Wing.ldr
 0 A folding wing section featuring a black tail fin, a white side-stud brick, a trans-red inverted dish, and hinge tops for articulation.
 0 Name: 1875 - Spaceship - Wing.ldr
@@ -76,6 +78,7 @@
 1 36 0 -78 -16 1 0 0 0 0 1 0 -1 0 4740.dat
 
 
+0 STEP
 0 FILE 1875 - Minifig.ldr
 0 A black-clad Blacktron astronaut minifigure with a patterned torso, standard grinning head, and black air tanks for space operations.
 0 Name: 1875 - Minifig.ldr
@@ -107,6 +110,7 @@
 0 // Minifig Airtanks (black)
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 3838.dat
 
+0 STEP
 0 FILE 1875 - Minifig - Helmet.ldr
 0 A standard black space helmet with matching black visor for the astronaut minifigure.
 0 Name: 1875 - Minifig - Helmet.ldr

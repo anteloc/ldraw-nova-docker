@@ -12,6 +12,7 @@
 1 0 -228 13 73.706 0.382683 0 0.92388 0 1 0 -0.92388 0 0.382683 6925 - Droid 2.ldr
 
 
+0 STEP
 0 FILE 6925 - Droid 1.ldr
 0 A small black droid built from an inverted dish, side-stud bricks, and round elements with two trans-yellow light accents.
 0 Name: 6925 - Droid 1.ldr
@@ -37,6 +38,7 @@
 1 0 -26 -46 0 0 1 0 0 0 -1 -1 0 0 4735.dat
 
 
+0 STEP
 0 FILE 6925 - Droid 2.ldr
 0 A small black droid built from an inverted dish, side-stud bricks, and round elements with two trans-yellow light accents.
 0 Name: 6925 - Droid 2.ldr
@@ -62,6 +64,7 @@
 1 0 -26 -46 0 0 1 0 -0.382683 0 -0.92388 -0.92388 0 0.382683 4735.dat
 
 
+0 STEP
 0 FILE 6925 - Vehicle.ldr
 0 An assembly referencing the front and rear sections of the rover vehicle.
 0 Name: 6925 - Vehicle.ldr
@@ -75,6 +78,7 @@
 1 0 0 0 160 0.92388 0 -0.382683 0 1 0 0.382683 0 0.92388 6925 - Vehicle - Back.ldr
 
 
+0 STEP
 0 FILE 6925 - Vehicle - Front.ldr
 0 The front half of the rover built from black and white plates, bricks, and slopes with a hinged articulation joint and headlights.
 0 Name: 6925 - Vehicle - Front.ldr
@@ -226,6 +230,7 @@
 1 0 -70 -14 0 0 0 1 0 1 0 -1 0 0 6925 - Vehicle - Wheels.ldr
 
 
+0 STEP
 0 FILE 6925 - Vehicle - Front + Minifig + Droid.ldr
 0 The front rover section accompanied by an astronaut minifigure and a droid.
 0 Name: 6925 - Vehicle - Front + Minifig + Droid.ldr
@@ -240,6 +245,7 @@
 1 0 0 -141 -32 1 0 0 0 1 0 0 0 1 6925 - Minifig 1.ldr
 
 
+0 STEP
 0 FILE 6925 - Vehicle - Detector.ldr
 0 A metal detector accessory mounted with a single trans-red indicator light.
 0 Name: 6925 - Vehicle - Detector.ldr
@@ -255,6 +261,7 @@
 1 36 36 8 0 0 -1 0 1 0 0 0 0 1 6141.dat
 1 0 -61.456 1.657 0 0.707107 -0.707107 0 0.707107 0.707107 0 0 0 1 6925 - Vehicle - Detector - Dish.ldr
 
+0 STEP
 0 FILE 6925 - Vehicle - Detector - Dish.ldr
 0 A dual inverted dish array consisting of a large white dish and a smaller black dish.
 0 Name: 6925 - Vehicle - Detector - Dish.ldr
@@ -270,6 +277,7 @@
 1 0 0 16 0 1 0 0 0 1 0 0 0 1 4740.dat
 
 
+0 STEP
 0 FILE 6925 - Vehicle - Wheels.ldr
 0 A wheel assembly with two white rimmed tyres mounted on a Technic beam using axle pins.
 0 Name: 6925 - Vehicle - Wheels.ldr
@@ -295,6 +303,7 @@
 1 256 -40 0 -20 1 0 0 0 1 0 0 0 1 2346.dat
 
 
+0 STEP
 0 FILE 6925 - Vehicle - Back.ldr
 0 The rear half of the rover built from black and white plates, bricks, and slopes with a male hinge joint for articulation.
 0 Name: 6925 - Vehicle - Back.ldr
@@ -400,6 +409,7 @@
 1 0 130 -136 150 0 0 1 0 1 0 -1 0 0 6925 - Vehicle - Detector.ldr
 1 0 -130 -136 150 0 0 1 0 1 0 -1 0 0 6925 - Vehicle - Detector.ldr
 
+0 STEP
 0 FILE 6925 - Vehicle - Back - Container.ldr
 0 A rear storage container with hinged panels, corner walls, slopes, and a printed down-arrow indicator pattern.
 0 Name: 6925 - Vehicle - Back - Container.ldr
@@ -453,6 +463,7 @@
 1 0 0 -180 30 1 0 0 0 1 0 0 0 1 4032a.dat
 
 
+0 STEP
 0 FILE 6925 - Pod.ldr
 0 A small white pod craft with handle plates, loudhailer thrusters, control sticks, and trans-red lights.
 0 Name: 6925 - Pod.ldr
@@ -486,6 +497,7 @@
 1 15 -10 -16 -30 0.92388 0.0664523 -0.37687 0 0.984808 0.173648 0.382683 -0.16043 0.909844 4593.dat
 
 
+0 STEP
 0 FILE 6925 - Pod + Minifig.ldr
 0 The small pod craft with an accompanying astronaut minifigure.
 0 Name: 6925 - Pod + Minifig.ldr
@@ -499,6 +511,7 @@
 1 0 0 -61 8 1 0 0 0 1 0 0 0 1 6925 - Minifig 2.ldr
 
 
+0 STEP
 0 FILE 6925 - Minifig 1.ldr
 0 A Futuron astronaut minifigure wearing a white torso with yellow Futuron pattern, airtanks, and yellow limbs.
 0 Name: 6925 - Minifig 1.ldr
@@ -531,6 +544,7 @@
 1 14 0 44 0 1 0 0 0 0 1 0 -1 0 3817.dat
 
 
+0 STEP
 0 FILE 6925 - Minifig 1 - Helmet.ldr
 0 A standard yellow astronaut helmet with a trans-dark-blue visor.
 0 Name: 6925 - Minifig 1 - Helmet.ldr
@@ -546,6 +560,7 @@
 1 33 0 1.904 4.596 1 0 0 0 0.707107 0.707107 0 -0.707107 0.707107 2447.dat
 
 
+0 STEP
 0 FILE 6925 - Minifig 2.ldr
 0 A Futuron astronaut minifigure wearing a white torso with yellow Futuron pattern, airtanks, and yellow limbs.
 0 Name: 6925 - Minifig 2.ldr
@@ -578,6 +593,7 @@
 1 14 -22.9243 21.1543 -16.831 0.985 -0.157597 0.0636735 0.17 0.913138 -0.368932 0 0.37455 0.927044 3820.dat
 
 
+0 STEP
 0 FILE 6925 - Minifig 2 - Helmet.ldr
 0 A standard yellow astronaut helmet with a trans-dark-blue visor.
 0 Name: 6925 - Minifig 2 - Helmet.ldr

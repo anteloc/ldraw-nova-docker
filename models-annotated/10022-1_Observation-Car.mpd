@@ -14,6 +14,7 @@
 
 
 
+0 STEP
 0 FILE 10022 - train car.ldr
 0 Observation car superstructure: curved roof, grilled windows with clear glazing, four seats, interior details, SANTA FE and 503 livery stickers, log-textured vestibule ends with blue windows on a 6x28 train base
 0 Name: 10022 - train car.ldr
@@ -627,6 +628,7 @@
 
 
 
+0 STEP
 0 FILE 10022 - train car - wheels.ldr
 0 Bogie truck assembly with two single-axle wheelsets, magnetic coupler, buffer beam, and curved trim
 0 Name: 10022 - train car - wheels.ldr

@@ -10,6 +10,7 @@
 
 
 
+0 STEP
 0 FILE 70814 - ECoM.ldr
 0 A large yellow and grey technic mech frame built from bricks, plates, slopes, grille tiles, and pin/axle connectors.
 0 Name: 70814 - ECoM.ldr
@@ -1821,6 +1822,7 @@
 
 
 
+0 STEP
 0 FILE 70814 - 43903a.dat
 0 A simple geometric box primitive composed of faces and rectangular panels without top and bottom edges.
 0 Name: 70814 - 43903a.dat
@@ -1859,6 +1861,7 @@
 2 24 4 -21 -3 3 -15 -1
 2 24 -4 -21 -3 -3 -15 -1
 
+0 STEP
 0 FILE 70814 - 43903b.dat
 0 A curved belt or tread segment made from cylinders, circles, and rectangular sections.
 0 Name: 70814 - 43903b.dat

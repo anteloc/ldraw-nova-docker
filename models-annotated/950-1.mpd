@@ -311,6 +311,7 @@
 1 7 -100 -238 -130 -1 0 0 0 1 0 0 0 -1 3673.dat
 1 7 0 -62 -88 1 0 0 0 1 0 0 0 1 950 - Forks.ldr
 
+0 STEP
 0 FILE 950 - Forks.ldr
 0 A pair of lifting forks built from long yellow technic bricks and gear racks, designed for vertical travel.
 0 Name: 950 - Forks.ldr
@@ -365,6 +366,7 @@
 0 // Technic Brick  1 x 16 with Holes (yellow)
 1 14 -50 -10 -114 0 0 1 0 1 0 -1 0 0 3703.dat
 
+0 STEP
 0 FILE 950 - Steering.ldr
 0 A steering mechanism using turntables, gear racks, and axles mounted on a yellow plate base.
 0 Name: 950 - Steering.ldr

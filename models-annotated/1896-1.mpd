@@ -20,6 +20,7 @@
 1 14 110 0 -150 0.5 0 0.866 0 1 0 -0.866 0 0.5 1896 - motorbike.ldr
 
 0 NOFILE
+0 STEP
 0 FILE 1896 - car 1.ldr
 0 A large wheeled vehicle built from long plates, corner plates, and inverted slope bricks forming a rounded-body car chassis.
 0 car 1
@@ -275,6 +276,7 @@
 1 0 15.001 -4 110 0 0 -1 0 1 0 1 0 0 6015.dat
 
 0 NOFILE
+0 STEP
 0 FILE 1896 - car 2.ldr
 0 A mid-sized wheeled vehicle with plates, corner pieces, inverted slopes, translucent lights, and a hinge base for articulated detail.
 0 car 2
@@ -438,6 +440,7 @@
 1 33 -40 -112 70 -1 0 0 0 1 0 0 0 -1 3070a.dat
 
 0 NOFILE
+0 STEP
 0 FILE 1896 - helicopter.ldr
 0 A helicopter model with long bar/plate booms, clip plates, control stick hinges, and sloped body panels.
 0 helicopter
@@ -578,6 +581,7 @@
 1 4 87.001 -4 -39.999 0 0 1 0 1 0 -1 0 0 1896 - stretcher.ldr
 
 0 NOFILE
+0 STEP
 0 FILE 1896 - motorbike.ldr
 0 A motorcycle built from a two-wheel frame, offset-tread tyres, control sticks, an antenna, and patterned number tiles.
 0 motorbike
@@ -630,6 +634,7 @@
 1 36 0 -38 47 -1 0 0 0 0 -1 0 -1 0 3024.dat
 
 0 NOFILE
+0 STEP
 0 FILE 1896 - stretcher.ldr
 0 A medical stretcher consisting of a hinged stretcher body and two white wheels.
 0 stretcher
@@ -648,6 +653,7 @@
 1 15 -50.001 -19 -9.998 0 0 -1 0 1 0 1 0 0 4715.dat
 
 0 NOFILE
+0 STEP
 0 FILE 1896 - minifig 1.ldr
 0 A minifigure with red legs and hips, a white torso with red horizontal stripes, a grinning head, and shoulder-length brown hair.
 0 minifig 1
@@ -680,6 +686,7 @@
 1 6 -0.008 -96 1.997 1 0 0.002 0 1 0 -0.002 0 1 4530.dat
 
 0 NOFILE
+0 STEP
 0 FILE 1896 - minifig 2.ldr
 0 A minifigure wearing a blue helmet with translucent visor, white body with diagonal zip torso, and white lower body.
 0 minifig 2
@@ -714,6 +721,7 @@
 1 15 0 -28 0 1 0 0 0 1 0 0 0 1 3816.dat
 
 0 NOFILE
+0 STEP
 0 FILE 1896 - minifig 3.ldr
 0 A minifigure with black hair, a white diagonal-zip torso, and white lower body parts.
 0 minifig 3
@@ -746,6 +754,7 @@
 1 15 0 -28 0 1 0 0 0 1 0 0 0 1 3816.dat
 
 0 NOFILE
+0 STEP
 0 FILE 1896 - minifig 4.ldr
 0 A minifigure with brown hair, a white diagonal-zip torso, and white lower body parts.
 0 minifig 4
@@ -778,6 +787,7 @@
 1 15 0 -28 0 1 0 0 0 1 0 0 0 1 3816.dat
 
 0 NOFILE
+0 STEP
 0 FILE 1896 - 4480c01.dat
 0 A composite motorcycle frame subassembly consisting of left and right side frames plus the forks.
 0 Bike 2 Wheel Motorcycle Frame  3 x  6 x  3 (Complete)
@@ -796,6 +806,7 @@
 1 16 0 30 -90 1 0 0 0 0.924 0.383 0 -0.383 0.924 4482.dat
 
 0 NOFILE
+0 STEP
 0 FILE 1896 - 4481.dat
 0 A geometric parts primitive file containing cylinders, circles, a rectangle, pinholes, and a LEGO stud logo.
 0 ~Bike 2 Wheel Motorcycle Frame  3 x  6 x  3 - Left Side
@@ -867,6 +878,7 @@
 1 16 11 0 -62 0 -1 0 1 0 0 0 0 1 1896 - logo5.dat
 
 0 NOFILE
+0 STEP
 0 FILE 1896 - 4480.dat
 0 A detailed geometric parts primitive file defining a motorcycle frame rear section with cylinders, rings, boxes, and connecting geometry.
 0 ~Bike 2 Wheel Motorcycle Frame  3 x  6 x  3 - Right Side
@@ -1039,6 +1051,7 @@
 1 16 -11 0 -62 0 1 0 1 0 0 0 0 -1 1896 - logo5.dat
 
 0 NOFILE
+0 STEP
 0 FILE 1896 - 4481s01.dat
 0 A low-level geometric subpart composed of many rectangles, circles, cylinders, discs, and rings defining curved surfaces.
 0 ~Bike 2 Wheel Motorcycle Frame  3 x  6 x  3 - Left/Right
@@ -2021,6 +2034,7 @@
 5 24 7.4 19.862 -63.392 0 19.862 -63.392 0 6.432 -70.213 7.4 34.01 -55.85
 
 0 NOFILE
+0 STEP
 0 FILE 1896 - logo5.dat
 0 An empty or reference-only logo subpart containing no direct pieces.
 0 LEGO Logo for Studs - 3D Flattened

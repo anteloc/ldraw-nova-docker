@@ -299,6 +299,7 @@
 1 15 50 -48 -19 1 0 0 0 1 0 0 0 1 31066 - astronaut.ldr
 
 
+0 STEP
 0 FILE 31066 - astronaut.ldr
 0 Spacesuit-clad minifigure astronaut with helmet and visor.
 0 Name: 31066 - astronaut.ldr
@@ -330,6 +331,7 @@
 1 40 0 -56 0 0.995 0 -0.1 0 1 0 0.1 0 0.995 31066 - 2447.dat
 
 
+0 STEP
 0 FILE 31066 - roof1.ldr
 0 Curved hinged roof panel section with blue plating and a central dish.
 0 Name: 31066 - roof1.ldr
@@ -354,6 +356,7 @@
 1 72 0 16 -20 0 0 -1 0 1 0 1 0 0 2654.dat
 
 
+0 STEP
 0 FILE 31066 - door1.ldr
 0 Doorway section with curved and wing elements forming an angled entry with a dish detail.
 0 Name: 31066 - door1.ldr
@@ -388,6 +391,7 @@
 1 72 -4 6 -50 -1 0 0 0 1 0 0 0 -1 2654.dat
 
 
+0 STEP
 0 FILE 31066 - shelter.ldr
 0 Compact shelter module with transparent blue clipped tiles mounted on brackets.
 0 Name: 31066 - shelter.ldr
@@ -409,6 +413,7 @@
 1 72 82 4 4 0 -1 0 0 0 -1 1 0 0 2431.dat
 
 
+0 STEP
 0 FILE 31066 - roof2.ldr
 0 Dual curved hinged roof panels with blue plates and decorative dishes.
 0 Name: 31066 - roof2.ldr
@@ -437,6 +442,7 @@
 1 1 -20 -40 -60 1 0 0 0 1 0 0 0 1 3022.dat
 
 
+0 STEP
 0 FILE 31066 - domeend.ldr
 0 Domed end cap with double wedges, wings, and a cylinder dome top.
 0 Name: 31066 - domeend.ldr
@@ -482,6 +488,7 @@
 1 71 0 -24 20 -1 0 0 0 1 0 0 0 -1 30367c.dat
 
 
+0 STEP
 0 FILE 31066 - arm1.ldr
 0 Simple Technic arm segment using angle connectors on an axle.
 0 Name: 31066 - arm1.ldr
@@ -497,6 +504,7 @@
 1 72 0 0 120 1 0 0 0 1 0 0 0 1 32013.dat
 
 
+0 STEP
 0 FILE 31066 - arm2.ldr
 0 Articulated robotic arm with Technic pin, bracket, and a tool spanner/screwdriver.
 0 Name: 31066 - arm2.ldr
@@ -523,6 +531,7 @@
 1 0 10 8 -60 -1 0 0 0 0 1 0 1 0 4006.dat
 
 
+0 STEP
 0 FILE 31066 - 3665a.dat
 0 Primitive part definition with no direct pieces.
 0 Name: 31066 - 3665a.dat
@@ -544,6 +553,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\31066 - 3665as01.dat
 4 16 10 24 -10 10 4 -30 -10 4 -30 -10 24 -10
 
+0 STEP
 0 FILE 31066 - 11291.dat
 0 Primitive part composed of basic box faces forming a geometric solid.
 0 Name: 31066 - 11291.dat
@@ -573,6 +583,7 @@
 4 16 20 8 6 -20 8 6 -20 8 10 20 8 10
 4 16 20 8 -10 -20 8 -10 -20 8 -6 20 8 -6
 
+0 STEP
 0 FILE 31066 - 3626cp80.dat
 0 Primitive part composed of quarter cylinders.
 0 Name: 31066 - 3626cp80.dat
@@ -1147,6 +1158,7 @@
 1 16 0 4 0 -5.65883 0 5.65488 0 -6.4 0 -5.65488 0 -5.65883 t04o6250.dat
 4 16 -6.68 9.23 10.8713 -6.43 7.84 11.0384 -6.27 7.58 11.1453 -6.24 9.45 11.1654
 
+0 STEP
 0 FILE 31066 - 2447.dat
 0 Primitive hemisphere part built from discs, rings, cylinders, and spheres.
 0 Name: 31066 - 2447.dat
@@ -1283,6 +1295,7 @@
 
 0 !LDCAD SNAP_GEN [group=visor] [gender=M] [bounding=cyl 2 15] [match=size]
 
+0 STEP
 0 FILE s\31066 - 3665as01.dat
 0 3665as01
 0 Name: s\31066 - 3665as01.dat
@@ -1336,6 +1349,7 @@
 1 16 0 4 -20 1 0 0 0 2 0 0 0 1 stud2a.dat
 1 16 0 4 -20 0 0 1 0 6 0 -1 0 0 stud2s.dat
 
+0 STEP
 0 FILE s\31066 - 11291s01.dat
 0 11291s01
 0 Name: s\31066 - 11291s01.dat

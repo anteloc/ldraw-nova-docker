@@ -23,6 +23,7 @@
 
 
 
+0 STEP
 0 FILE 1682 - platform.ldr
 0 Launch platform built on a road-patterned baseplate, featuring sloped support structures, a winch drum mechanism, and a stacked plate foundation in light grey.
 0 Name: 1682 - platform.ldr
@@ -376,6 +377,7 @@
 
 
 
+0 STEP
 0 FILE 1682 - space shuttle - ready for start.ldr
 0 Small connector assembly of two white plates used to attach or secure the space shuttle in launch position.
 0 Name: 1682 - space shuttle - ready for start.ldr
@@ -398,6 +400,7 @@
 
 
 
+0 STEP
 0 FILE 1682 - space shuttle.ldr
 0 Space shuttle orbiter with black swept wings, fuselage built from plates, tail fin, and body details in white and light grey.
 0 Name: 1682 - space shuttle.ldr
@@ -692,6 +695,7 @@
 
 
 
+0 STEP
 0 FILE 1682 - racket.ldr
 0 Cylindrical rocket booster assembly using round bricks, a finned nose cone section, and a technic axle core.
 0 Name: 1682 - racket.ldr
@@ -736,6 +740,7 @@
 
 
 
+0 STEP
 0 FILE 1682 - tank.ldr
 0 External fuel tank or wheeled equipment unit with technic axles, multiple wheels, and sloped panel cladding in light grey.
 0 Name: 1682 - tank.ldr
@@ -807,6 +812,7 @@
 
 
 
+0 STEP
 0 FILE 1682 - car.ldr
 0 Ground vehicle with four wheels, two seats, a steering wheel, and a towball socket, built in white and blue with yellow light elements.
 0 Name: 1682 - car.ldr
@@ -885,6 +891,7 @@
 
 
 
+0 STEP
 0 FILE 1682 - trailer.ldr
 0 Wheeled trailer with four wheels, a cargo seat area, and a towball hitch for coupling to the car.
 0 Name: 1682 - trailer.ldr
@@ -947,6 +954,7 @@
 
 
 
+0 STEP
 0 FILE 1682 - minifig 1.ldr
 0 Crew minifigure wearing a blue uniform with cap, standard grin head, and yellow hands.
 0 Name: 1682 - minifig 1.ldr
@@ -981,6 +989,7 @@
 
 
 
+0 STEP
 0 FILE 1682 - minifig 2.ldr
 0 Astronaut minifigure in a white spacesuit with helmet and translucent blue visor.
 0 Name: 1682 - minifig 2.ldr
@@ -1017,6 +1026,7 @@
 
 
 
+0 STEP
 0 FILE 1682 - minifig 3.ldr
 0 Mechanic minifigure in a blue uniform with cap, carrying a spanner and screwdriver tool.
 0 Name: 1682 - minifig 3.ldr
@@ -1053,6 +1063,7 @@
 
 
 
+0 STEP
 0 FILE 1682 - rope.ldr
 0 Flexible rope or cable assembly represented by string segments.
 0 Name: 1682 - rope.ldr
@@ -1877,6 +1888,7 @@
 
 
 
+0 STEP
 0 FILE 1682 - hose.ldr
 0 Long flexible black hose assembly composed of 48 center segments with two end connectors.
 0 Name: 1682 - hose.ldr
@@ -1995,6 +2007,7 @@
 
 
 
+0 STEP
 0 FILE 1682 - LS60.dat
 0 LSynth-generated short straight string segment representing a portion of rope or cable.
 0 Name: 1682 - LS60.dat

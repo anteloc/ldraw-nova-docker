@@ -10,6 +10,7 @@
 1 15 323 -49 -247 0.848 0 0.53 0 1 0 -0.53 0 0.848 72156.dat
 
 
+0 STEP
 0 FILE 31313 - track.ldr
 0 A single track unit with two large toothed gears, drive wheels, support beams, and axles.
 0 Name: 31313 - track.ldr
@@ -70,6 +71,7 @@
 1 256 -40 0 0 0 0 1 0 1 0 -1 0 0 31313 - 53992c05.dat
 
 
+0 STEP
 0 FILE 31313 - 3rdmotor.ldr
 0 A medium motor assembly with bent liftarms, angle connectors, toothed elements, and decorative side panels forming a weapon or tool attachment.
 0 Name: 31313 - 3rdmotor.ldr
@@ -154,6 +156,7 @@
 1 15 60 20 10 1 0 0 0 1 0 0 0 1 31313 - 64683d03.dat
 
 
+0 STEP
 0 FILE 31313 - ev3Cable-studio-1.ldr
 0 An EV3 cable assembly (~237mm) with two RJ12 plugs and a routed cable made of 1185 segments.
 0 Name: 31313 - ev3Cable-studio-1.ldr
@@ -201,6 +204,7 @@
 
 
 
+0 STEP
 0 FILE 31313 - ev3Cable-studio-1_subPart1.ldr
 0 The routed cable geometry subpart containing 1185 individual NXT cable segments forming the physical cable path.
 0 Name: 31313 - ev3Cable-studio-1_subPart1.ldr
@@ -2590,6 +2594,7 @@
 1 16 -56.996663 68.000054 237.843143 0.000132 -0.021248 0.999774 1 -0.000346 -0.000139 0.000349 0.999774 0.021247 932.dat
 
 
+0 STEP
 0 FILE 31313 - rotor.ldr
 0 A rotor assembly with curved blades, cams, bent liftarms, and cross blocks forming a spinning weapon element.
 0 Name: 31313 - rotor.ldr
@@ -2643,6 +2648,7 @@
 1 15 160 -20 -75 0 0.966 -0.259 0 0.259 0.966 1 0 0 98347.dat
 
 
+0 STEP
 0 FILE 31313 - distsensor.ldr
 0 An infrared distance sensor module mounted on bent liftarms with axle and pin connectors.
 0 Name: 31313 - distsensor.ldr
@@ -2677,6 +2683,7 @@
 1 4 -60 60 40 -1 0 0 0 1 0 0 0 -1 32054.dat
 
 
+0 STEP
 0 FILE 31313 - ev3Cable-studio-2.ldr
 0 An EV3 cable assembly (~244mm) with two RJ12 plugs and a routed cable made of 1220 segments.
 0 Name: 31313 - ev3Cable-studio-2.ldr
@@ -2723,6 +2730,7 @@
 
 
 
+0 STEP
 0 FILE 31313 - ev3Cable-studio-2_subPart1.ldr
 0 The routed cable geometry subpart containing 1220 individual NXT cable segments forming the physical cable path.
 0 Name: 31313 - ev3Cable-studio-2_subPart1.ldr
@@ -5182,6 +5190,7 @@
 1 16 -56.988627 23.971567 343.635127 -0.001357 -0.031067 0.999517 0.996973 0.077668 0.003766 -0.077733 0.996686 0.030862 932.dat
 
 
+0 STEP
 0 FILE 31313 - track3r.ldr
 0 The main Track3r body frame built around the EV3 brick with rechargeable battery, two large drive motors, structural liftarms, and decorative side fairing panels.
 0 Name: 31313 - track3r.ldr
@@ -5312,6 +5321,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 31313 - ev3Cable-studio-3.ldr
 0 An EV3 cable assembly (~258mm) with two RJ12 plugs and a routed cable made of 1288 segments.
 0 Name: 31313 - ev3Cable-studio-3.ldr
@@ -5359,6 +5369,7 @@
 
 
 
+0 STEP
 0 FILE 31313 - ev3Cable-studio-3_subPart1.ldr
 0 The routed cable geometry subpart containing 1288 individual NXT cable segments forming the physical cable path.
 0 Name: 31313 - ev3Cable-studio-3_subPart1.ldr
@@ -7954,6 +7965,7 @@
 1 16 -169.003456 -23.001543 73.551913 -0.000026 0.007713 0.99997 0.999994 0.003443 -0.000001 -0.003443 0.999884 -0.007714 932.dat
 
 
+0 STEP
 0 FILE 31313 - ev3Cable-studio-4.ldr
 0 An EV3 cable assembly (~245mm) with two RJ12 plugs and a routed cable made of 1227 segments.
 0 Name: 31313 - ev3Cable-studio-4.ldr
@@ -8001,6 +8013,7 @@
 
 
 
+0 STEP
 0 FILE 31313 - ev3Cable-studio-4_subPart1.ldr
 0 The routed cable geometry subpart containing 1227 individual NXT cable segments forming the physical cable path.
 0 Name: 31313 - ev3Cable-studio-4_subPart1.ldr
@@ -10474,6 +10487,7 @@
 1 16 141.005706 -22.997862 73.591498 0.000057 -0.013965 -0.999902 -0.999986 -0.005231 0.000016 -0.005232 0.99974 -0.013967 932.dat
 
 
+0 STEP
 0 FILE 31313 - 53992c05.dat
 0 A composite part representing the EV3 IR sensor with two cylindrical transducer elements and a mounting bracket.
 0 Name: 31313 - 53992c05.dat
@@ -10535,6 +10549,7 @@
 1 16 -107.079243 0.864242 0 1.007157 0.074979 0 0.075729 -0.997185 0 0 0 -1 31313 - 53992a.dat
 1 16 -6.562984 8.422097 0 1.007157 0.074979 0 0.075729 -0.997185 0 0 0 -1 31313 - 53992a.dat
 
+0 STEP
 0 FILE 31313 - 64391d03.dat
 0 A medium smooth panel fairing decorated with Mindstorms EV3 sticker #5.
 0 Name: 31313 - 64391d03.dat
@@ -10549,6 +10564,7 @@
 0 // Sticker Mindstorms EV3 #5 for Panel Smooth Medium (Formed) (Needs Work) (white)
 1 15 0 0 0 0 1 0 -1 0 0 0 0 1 31313 - 13710ec01.dat
 
+0 STEP
 0 FILE 31313 - 64683d03.dat
 0 A medium smooth panel fairing decorated with Mindstorms EV3 sticker #6.
 0 Name: 31313 - 64683d03.dat
@@ -10563,6 +10579,7 @@
 0 // Sticker Mindstorms EV3 #6 for Panel Smooth Medium (Formed) (Needs Work) (white)
 1 15 0 0 0 0 -1 0 1 0 0 0 0 1 31313 - 13710fc01.dat
 
+0 STEP
 0 FILE 31313 - 64681d03.dat
 0 A long smooth panel fairing decorated with Mindstorms EV3 sticker #14.
 0 Name: 31313 - 64681d03.dat
@@ -10577,6 +10594,7 @@
 0 // Sticker Mindstorms EV3 #14 for Panel Smooth Long (Formed) (Needs Work) (white)
 1 15 0 0 0 0 -1 0 1 0 0 0 0 1 31313 - 13710nc01.dat
 
+0 STEP
 0 FILE 31313 - 64393d03.dat
 0 A long smooth panel fairing decorated with Mindstorms EV3 sticker #13.
 0 Name: 31313 - 64393d03.dat
@@ -10591,6 +10609,7 @@
 0 // Sticker Mindstorms EV3 #13 for Panel Smooth Long (Formed) (Needs Work) (white)
 1 15 0 0 0 0 1 0 -1 0 0 0 0 1 31313 - 13710mc01.dat
 
+0 STEP
 0 FILE 31313 - 53992b.dat
 0 A primitive geometry part composed of rectangles and a box shape forming the IR sensor surface details.
 0 Name: 31313 - 53992b.dat
@@ -10639,6 +10658,7 @@
 2 24 -11.698 -35.931999 -10 -9.834 -36.703999 -10
 2 24 -7.835 -36.967999 -10 -7.835 -36.967999 10
 
+0 STEP
 0 FILE 31313 - 53992a.dat
 0 A primitive geometry part composed of rectangles and a box shape forming part of the IR sensor housing.
 0 Name: 31313 - 53992a.dat
@@ -10674,6 +10694,7 @@
 0 // Box with 5 Faces and All Edges (main_colour)
 1 16 0 -38 0 2 0 0 0 5 0 0 0 10 box5.dat
 
+0 STEP
 0 FILE 31313 - 13710nc01.dat
 0 A texture image file for a Mindstorms EV3 component, pending more detailed fallback pattern work.
 0 Name: 31313 - 13710nc01.dat
@@ -10693,6 +10714,7 @@
 1 15 0 0 0 0 1 0 -1 0 0 0 0 1 s\31313 - 64681s04.dat
 0 !TEXMAP END
 
+0 STEP
 0 FILE s\31313 - 64681s03.dat
 0 A subpart defining the bottom and edge surfaces of a long panel fairing.
 0 Name: s\31313 - 64681s03.dat
@@ -10794,6 +10816,7 @@
 5 24 9.231 -0.096 200.600006 9 0 200.600006 8.567 -8.654 194.5 9.231 0.958 201.274994
 5 24 9.231 0.958 201.274994 9 1.054 201.274994 9.231 -0.096 200.600006 9.231 1.764 201.529007
 
+0 STEP
 0 FILE s\31313 - 64681s04.dat
 0 A subpart defining the top surface of a long panel fairing.
 0 Name: s\31313 - 64681s04.dat
@@ -10846,6 +10869,7 @@
 5 24 9.231 -0.096 45.5 9.231 -0.096 200.600006 8.566 -8.661 42.846001 9.231 8.598 47.208
 5 24 8.567 -8.654 194.5 8.566 -8.661 42.846001 9.231 -0.096 45.5 6.596 -17.066999 36.299999
 
+0 STEP
 0 FILE 31313 - 13710mc01.dat
 0 A texture image file for a Mindstorms EV3 component main color, pending more detailed fallback pattern work.
 0 Name: 31313 - 13710mc01.dat
@@ -10865,6 +10889,7 @@
 1 15 0 0 0 0 -1 0 -1 0 0 0 0 1 s\31313 - 64681s04.dat
 0 !TEXMAP END
 
+0 STEP
 0 FILE 31313 - 13710ec01.dat
 0 13710ec01
 0 Name: 31313 - 13710ec01.dat
@@ -10884,6 +10909,7 @@
 1 15 0 0 0 0 -1 0 -1 0 0 0 0 1 s\31313 - 64683s05.dat
 0 !TEXMAP END
 
+0 STEP
 0 FILE s\31313 - 64683s04.dat
 0 64683s04
 0 Name: s\31313 - 64683s04.dat
@@ -10988,6 +11014,7 @@
 5 24 8.567 -8.654 115 8.336 -8.558 115 6.596 -17.066999 109.099998 9.231 -0.096 120.699997
 5 24 9.231 -0.096 120.699997 9 0 120.699997 8.567 -8.654 115 9.231 0.622 121.093002
 
+0 STEP
 0 FILE s\31313 - 64683s05.dat
 0 64683s05
 0 Name: s\31313 - 64683s05.dat
@@ -11043,6 +11070,7 @@
 5 24 8.567 -8.654 44.599998 8.567 -8.654 -6.3 9.147 -1.188 -3.658 6.597 -17.068001 -6.3
 5 24 6.596 -17.066999 36.799999 6.597 -17.068001 -6.3 8.567 -8.654 -6.3 3.537 -24.729 -3.874
 
+0 STEP
 0 FILE 31313 - 13710fc01.dat
 0 13710fc01
 0 Name: 31313 - 13710fc01.dat

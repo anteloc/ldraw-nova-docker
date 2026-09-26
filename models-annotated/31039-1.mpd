@@ -799,6 +799,7 @@
 1 15 -56.072 -96.8 370 0.924 0.383 0 -0.383 0.924 0 0 0 1 31039 - Tail.ldr
 1 4 116.072 -96.8 370 0.924 -0.383 0 0.383 0.924 0 0 0 1 31039 - Tail.ldr
 
+0 STEP
 0 FILE 31039 - Front Wheel.ldr
 0 A small front landing-gear wheel assembly using technic liftarms, notched axles, a rim, and a shallow offset tread tyre.
 0 Name: 31039 - Front Wheel.ldr
@@ -834,6 +835,7 @@
 
 
 
+0 STEP
 0 FILE 31039 - Back Wheel.ldr
 0 A rear landing-gear wheel unit composed of a technic beam mount, a deep-spoke wheel rim, and a large offset-tread tyre.
 0 Name: 31039 - Back Wheel.ldr
@@ -853,6 +855,7 @@
 
 
 
+0 STEP
 0 FILE 31039 - Engine Cover 1.ldr
 0 A curved engine housing made of white plates topped with dark blue curved slopes and a handled plate.
 0 Name: 31039 - Engine Cover 1.ldr
@@ -878,6 +881,7 @@
 
 
 
+0 STEP
 0 FILE 31039 - Engine Cover 2.ldr
 0 An engine cover section featuring dark blue curved slopes, a grille tile, and a trap-door plate on a dark bluish grey base.
 0 Name: 31039 - Engine Cover 2.ldr
@@ -905,6 +909,7 @@
 
 
 
+0 STEP
 0 FILE 31039 - Wing Left.ldr
 0 A large left wing built from white wing plates and assorted coloured plates with clip plates and trim tiles for detailing.
 0 Name: 31039 - Wing Left.ldr
@@ -1025,6 +1030,7 @@
 
 
 
+0 STEP
 0 FILE 31039 - Wing Left Flap.ldr
 0 A hinged left wing flap consisting of a white swept wing element with handle plates and a door-rail plate.
 0 Name: 31039 - Wing Left Flap.ldr
@@ -1042,6 +1048,7 @@
 
 
 
+0 STEP
 0 FILE 31039 - Wing Right.ldr
 0 A large right wing built from white wing plates and assorted coloured plates with clip plates and trim tiles for detailing.
 0 Name: 31039 - Wing Right.ldr
@@ -1162,6 +1169,7 @@
 
 
 
+0 STEP
 0 FILE 31039 - Wing Right Flap.ldr
 0 A hinged right wing flap consisting of a white swept wing element with handle plates and a door-rail plate.
 0 Name: 31039 - Wing Right Flap.ldr
@@ -1179,6 +1187,7 @@
 
 
 
+0 STEP
 0 FILE 31039 - Wing Back Right.ldr
 0 A rear right wing section using a notched white plate with dark blue accents, a small dark blue wing, and decorative tiles.
 0 Name: 31039 - Wing Back Right.ldr
@@ -1210,6 +1219,7 @@
 
 
 
+0 STEP
 0 FILE 31039 - Wing Back Left.ldr
 0 A rear left wing section using a notched white plate with dark blue accents, a small dark blue wing, and decorative tiles.
 0 Name: 31039 - Wing Back Left.ldr
@@ -1241,6 +1251,7 @@
 
 
 
+0 STEP
 0 FILE 31039 - Tail.ldr
 0 A vertical tail fin with dark blue sloped bricks, white slope accents, and twin black rotor blades.
 0 Name: 31039 - Tail.ldr
@@ -1288,6 +1299,7 @@
 
 
 
+0 STEP
 0 FILE 31039 - 14769p06.dat
 0 A round 2x2 patterned tile with a black and dark bluish grey grid design.
 0 Name: 31039 - 14769p06.dat
@@ -1303,6 +1315,7 @@
 
 
 
+0 STEP
 0 FILE 31039 - 13971.dat
 0 A model of a wheel rim with deep centre groove and spokes, constructed from cylinders, cones, and rings.
 0 Name: 31039 - 13971.dat
@@ -1406,6 +1419,7 @@
 
 
 
+0 STEP
 0 FILE 31039 - 61254.dat
 0 A tyre model with offset tread and middle band, built from cones, cylinders, and rings.
 0 Name: 31039 - 61254.dat
@@ -1523,6 +1537,7 @@
 
 
 
+0 STEP
 0 FILE s\31039 - 14769p06s01.dat
 0 A pattern subpart for the round grid tile, made of a triangle-to-normal adapter ring.
 0 Name: s\31039 - 14769p06s01.dat
@@ -2316,6 +2331,7 @@
 
 
 
+0 STEP
 0 FILE s\31039 - 13971s01.dat
 0 A spoke subpart for the wheel rim, composed of edge rectangles forming the spoke shape.
 0 Name: s\31039 - 13971s01.dat
@@ -2409,6 +2425,7 @@
 
 
 
+0 STEP
 0 FILE s\31039 - 61254s01.dat
 0 A tread element subpart for the offset-tread tyre, composed of edge rectangles.
 0 Name: s\31039 - 61254s01.dat
@@ -2462,6 +2479,7 @@
 5 24 1.779 -29.631 -1.25 2.456 -29.583 1.25 -2.456 -29.583 1.25 6.64106 -28.9319 -1.25
 
 
+0 STEP
 0 FILE 31039 - 3039pcd.dat
 0 A 2x2 slope brick printed with a silver control panel and screen pattern.
 0 Name: 31039 - 3039pcd.dat

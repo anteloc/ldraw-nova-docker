@@ -16,6 +16,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 7130 - Minifig - Luke Skywalker.ldr
 
 
+0 STEP
 0 FILE 7130 - Laser Cannon.ldr
 0 Laser Cannon
 0 Name: 7130 - Laser Cannon.ldr
@@ -64,6 +65,7 @@
 0 // Bar  6.6L with Stop (white)
 1 15 0 -125.92 -39.466 1 0 0 0 0.590606 -0.80696 0 0.80696 0.590606 4095.dat
 
+0 STEP
 0 FILE 7130 - Ship.ldr
 0 Ship
 0 Name: 7130 - Ship.ldr
@@ -282,6 +284,7 @@
 0 STEP
 1 8 0 -24.143 40 1 0 0 0 1 0 0 0 1 7130 - Container.ldr
 
+0 STEP
 0 FILE 7130 - Wing Angle Base 1.ldr
 0 Wing Angle Base 1
 0 Name: 7130 - Wing Angle Base 1.ldr
@@ -309,6 +312,7 @@
 1 8 50 -24 0 0 0 -1 0 1 0 1 0 0 30363.dat
 
 
+0 STEP
 0 FILE 7130 - Wing Angle Base 2.ldr
 0 Wing Angle Base 2
 0 Name: 7130 - Wing Angle Base 2.ldr
@@ -330,6 +334,7 @@
 1 8 50 -24 0 0 0 -1 0 1 0 1 0 0 30363.dat
 
 
+0 STEP
 0 FILE 7130 - Rear Cockpit.ldr
 0 Rear Cockpit
 0 Name: 7130 - Rear Cockpit.ldr
@@ -369,6 +374,7 @@
 1 0 20 -48 10 -1 0 0 0 1 0 0 0 -1 4595.dat
 
 
+0 STEP
 0 FILE 7130 - Wing Left.ldr
 0 Wing Left
 0 Name: 7130 - Wing Left.ldr
@@ -440,6 +446,7 @@
 1 8 0 -32 20 1 0 0 0 1 0 0 0 1 30359a.dat
 
 
+0 STEP
 0 FILE 7130 - Wing Left Rear End.ldr
 0 Wing Left Rear End
 0 Name: 7130 - Wing Left Rear End.ldr
@@ -467,6 +474,7 @@
 0 // Brick  1 x  1 Round with Hollow Stud (dark_grey)
 1 8 -30 10 -54 1 0 0 0 0 -1 0 1 0 3062b.dat
 
+0 STEP
 0 FILE 7130 - Wing Right.ldr
 0 Wing Right
 0 Name: 7130 - Wing Right.ldr
@@ -542,6 +550,7 @@
 1 8 0 -32 20 1 0 0 0 1 0 0 0 1 30359a.dat
 
 
+0 STEP
 0 FILE 7130 - Wing Right Rear End.ldr
 0 Wing Right Rear End
 0 Name: 7130 - Wing Right Rear End.ldr
@@ -569,6 +578,7 @@
 0 // Brick  1 x  1 Round with Hollow Stud (dark_grey)
 1 8 30 10 -54 1 0 0 0 0 -1 0 1 0 3062b.dat
 
+0 STEP
 0 FILE 7130 - Container.ldr
 0 Container
 0 Name: 7130 - Container.ldr
@@ -592,6 +602,7 @@
 0 // Minifig Lightsaber Hilt with Slight Sloping Fingers with Bottom Ring (chrome_silver)
 1 383 0 -37.042 14.561 1 0 0 0 0.601815 0.798636 0 -0.798636 0.601815 577b.dat
 
+0 STEP
 0 FILE 7130 - Minifig - Hoth Rebel Soldier.ldr
 0 Minifig - Hoth Rebel Soldier
 0 Name: 7130 - Minifig - Hoth Rebel Soldier.ldr
@@ -635,6 +646,7 @@
 1 8 26.277 36.274 -21.067 -0.28833 -0.954731 -0.0622946 -0.80792 0.277877 -0.518832 0.513085 -0.0989597 -0.851976 30304.dat
 
 
+0 STEP
 0 FILE 7130 - Minifig - Luke Skywalker.ldr
 0 Minifig - Luke Skywalker
 0 Name: 7130 - Minifig - Luke Skywalker.ldr
@@ -667,6 +679,7 @@
 1 15 0 -75.271 -16.921 1 0 0 0 0.857167 0.515038 0 -0.515038 0.857167 30370ps2.dat
 
 
+0 STEP
 0 FILE 7130 - Minifig - Dack Ralter.ldr
 0 Minifig - Dack Ralter
 0 Name: 7130 - Minifig - Dack Ralter.ldr

@@ -287,6 +287,7 @@
 1 1 0 0 40 1 0 0 0 1 0 0 0 1 42023 - Sub12.ldr
 
 
+0 STEP
 0 FILE 42023 - Sub01.ldr
 0 Compact linkage assembly built from short beams and cross blocks joined by axles and pins, forming an articulated connecting arm.
 0 Name: 42023 - Sub01.ldr
@@ -328,6 +329,7 @@
 1 0 40 -70 -20 0 0 -1 -1 0 0 0 1 0 2780.dat
 
 
+0 STEP
 0 FILE 42023 - Sub02.ldr
 0 Sliding axle and pin subassembly with long pins and cross block connectors forming a short hinged beam mechanism.
 0 Name: 42023 - Sub02.ldr
@@ -361,6 +363,7 @@
 1 0 0 0 20 1 0 0 0 0 1 0 -1 0 32184.dat
 
 
+0 STEP
 0 FILE 42023 - Sub03.ldr
 0 Reinforced bent beam bracket made of a large 90-degree bent liftarm and T-shaped beams connected by long friction pins.
 0 Name: 42023 - Sub03.ldr
@@ -394,6 +397,7 @@
 1 71 20 -20 40 0 1 0 1 0 0 0 0 -1 60484.dat
 
 
+0 STEP
 0 FILE 42023 - Sub04.ldr
 0 Structural mounting frame composed of multiple bent 90-degree liftarms and a central beam joined by long pins and a triple-pin cross block.
 0 Name: 42023 - Sub04.ldr
@@ -451,6 +455,7 @@
 1 1 -40 -40 -60 -1 0 0 0 1 0 0 0 -1 6558.dat
 
 
+0 STEP
 0 FILE 42023 - Sub05a.ldr
 0 Small angled connector joint using an angle connector, toggle joint connector, and short axle to form a pivot linkage.
 0 Name: 42023 - Sub05a.ldr
@@ -470,6 +475,7 @@
 1 1 0 -43.3 0 1 0 0 0 0 1 0 -1 0 32126.dat
 
 
+0 STEP
 0 FILE 42023 - Sub05b.ldr
 0 Small angled connector joint using an angle connector, toggle joint connector, and axle pin to form a pivot linkage.
 0 Name: 42023 - Sub05b.ldr
@@ -489,6 +495,7 @@
 1 1 30 0 0 -1 0 0 0 0 -1 0 -1 0 43093.dat
 
 
+0 STEP
 0 FILE 42023 - Sub06.ldr
 0 Large side body panel module with two 5x11 panels mounted on long beams and cross blocks, forming a structural truck body side.
 0 Name: 42023 - Sub06.ldr
@@ -586,6 +593,7 @@
 1 19 -20 60 20 0 0 1 0 1 0 -1 0 0 42023 - Sub11.ldr
 
 
+0 STEP
 0 FILE 42023 - Sub07.ldr
 0 Linear actuator mechanism assembly consisting of the orange actuator screw, body, piston, and a drive bevel gear.
 0 Name: 42023 - Sub07.ldr
@@ -606,6 +614,7 @@
 
 
 
+0 STEP
 0 FILE 42023 - Sub08.ldr
 0 Parallel beam array of five liftarms held together by pin cross blocks and long friction pins, forming a stiff structural rib.
 0 Name: 42023 - Sub08.ldr
@@ -635,6 +644,7 @@
 1 1 80 0 0 0 0 1 0 -1 0 1 0 0 6558.dat
 
 
+0 STEP
 0 FILE 42023 - Sub09.ldr
 0 Axle and beam linkage assembly with inline axle joiners and long beams connected by friction axle pins, forming an articulated strut.
 0 Name: 42023 - Sub09.ldr
@@ -689,6 +699,7 @@
 1 1 25 0 0 0 0 1 0.383 -0.924 0 0.924 0.383 0 42023 - Sub10.ldr
 
 
+0 STEP
 0 FILE 42023 - Sub10.ldr
 0 Angled connector bar made of a single beam joined to two angled connectors via axle pins, forming a bent structural link.
 0 Name: 42023 - Sub10.ldr
@@ -710,6 +721,7 @@
 1 71 -40 0 -25 0 1 0 -1 0 0 0 0 1 32524.dat
 
 
+0 STEP
 0 FILE 42023 - Sub11.ldr
 0 Long reinforced chassis beam assembly using very long liftarms, T-shaped beams, and double pins to form a rigid structural frame.
 0 Name: 42023 - Sub11.ldr
@@ -779,6 +791,7 @@
 1 0 40 -10 20 1 0 0 0 -1 0 0 0 -1 32138.dat
 
 
+0 STEP
 0 FILE 42023 - Sub12.ldr
 0 Drive shaft assembly with a 9-stud axle, inline joiners, bushings, and a 20-tooth bevel gear for power transmission.
 0 Name: 42023 - Sub12.ldr

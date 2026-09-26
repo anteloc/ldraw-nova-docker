@@ -307,6 +307,7 @@
 
 
 
+0 STEP
 0 FILE 31049 - Winch.ldr
 0 A small winch assembly using a T-shaped beam, two 8-tooth gears, and an axle.
 0 Name: 31049 - Winch.ldr
@@ -335,6 +336,7 @@
 
 
 
+0 STEP
 0 FILE 31049 - Handlebars.ldr
 0 Steering handlebars constructed from an angle connector and axle pins.
 0 Name: 31049 - Handlebars.ldr
@@ -362,6 +364,7 @@
 
 
 
+0 STEP
 0 FILE 31049 - Sleigh.ldr
 0 A towed sleigh trailer with a sloped body, grille tiles, side panels, and runner-style landing gear.
 0 Name: 31049 - Sleigh.ldr
@@ -458,6 +461,7 @@
 
 
 
+0 STEP
 0 FILE 31049 - TechnicChainTread17Closed-1.ldr
 0 A closed-loop track tread generated from 16 segments along an approximate path.
 0 Name: 31049 - TechnicChainTread17Closed-1.ldr
@@ -491,6 +495,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 31049 - TechnicChainTread17Closed-1_subPart1.ldr
 
 
+0 STEP
 0 FILE 31049 - TechnicChainTread17Closed-1_subPart1.ldr
 0 Subpart containing the 16 individual chain tread segments that form the closed loop.
 0 Name: 31049 - TechnicChainTread17Closed-1_subPart1.ldr
@@ -547,6 +552,7 @@
 
 
 
+0 STEP
 0 FILE 31049 - Rope.ldr
 0 A flexible rope modeled as 206 cylinder segments along a curved path.
 0 Name: 31049 - Rope.ldr

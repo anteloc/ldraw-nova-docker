@@ -16,6 +16,7 @@
 1 15 -67.557 -64 -67.481 -0.5 0 -0.866 0 1 0 0.866 0 -0.5 3069bp01.dat
 1 15 150 0 -40 0.5 0 0.866 0 1 0 -0.866 0 0.5 6622 - women.ldr
 
+0 STEP
 0 FILE 6622 - motorcycle.ldr
 0 Yellow motorcycle built from a motorcycle frame, three red wheels with black tyres, sloped bricks, and assorted red and yellow plates forming the body.
 0 Name: 6622 - motorcycle.ldr
@@ -58,6 +59,7 @@
 0 // Plate  1 x  1 Round (trans_yellow)
 1 46 0 -30 -52 1 0 0 0 0 -1 0 1 0 6141.dat
 
+0 STEP
 0 FILE 6622 - mailbox.ldr
 0 Yellow mailbox made from a solid container box and a container box door with slot, mounted on a black 2x2 plate.
 0 Name: 6622 - mailbox.ldr
@@ -74,6 +76,7 @@
 0 // Container Box  2 x  2 x  2 Door with Slot and Mailbox Pattern (yellow)
 1 14 0 -56 0 1 0 0 0 1 0 0 0 1 4346p03.dat
 
+0 STEP
 0 FILE 6622 - mailman.ldr
 0 Red-uniformed mailman minifigure with a horn-patterned torso, helmet with chin guard, yellow head, and yellow hands.
 0 Name: 6622 - mailman.ldr
@@ -104,6 +107,7 @@
 0 // ~Minifig Leg Right (Obsolete) (red)
 1 4 0 -28 0 1 0 0 0 1 0 0 0 1 3816.dat
 
+0 STEP
 0 FILE 6622 - women.ldr
 0 Female minifigure with brown shoulder-length hair, blue torso and legs, white arms, and yellow head with hands.
 0 Name: 6622 - women.ldr
@@ -134,6 +138,7 @@
 0 // Minifig Hair Shoulder Length (brown)
 1 6 3.542 -96 9.462 1 0 0 0 1 0 0 0 1 4530.dat
 
+0 STEP
 0 FILE 6622 - 4480c01.dat
 0 Complete motorcycle frame assembly consisting of the left and right side frame halves plus the forks.
 0 Bike 2 Wheel Motorcycle Frame  3 x  6 x  3 (Complete)
@@ -151,6 +156,7 @@
 0 // ~Bike  2 Wheel Motorcycle Forks  3 x  6 x  3 (main_colour)
 1 16 0 30 -90 1 0 0 0 0.924 0.383 0 -0.383 0.924 4482.dat
 
+0 STEP
 0 FILE 6622 - 4481.dat
 0 Geometric primitive submodel forming a wheel hub, composed of cylinders, rectangles, circles, and a 3D LEGO logo, with a patch and pinholes.
 0 ~Bike 2 Wheel Motorcycle Frame  3 x  6 x  3 - Left Side
@@ -221,6 +227,7 @@
 0 // LEGO Logo for Studs - 3D Flattened (main_colour)
 1 16 11 0 -62 0 -1 0 1 0 0 0 0 1 6622 - logo5.dat
 
+0 STEP
 0 FILE 6622 - 4480.dat
 0 Primitive-based submodel sculpting the rear portion of the motorcycle frame using cylinders, boxes, rings, discs, and rectangles with a between-legs connector and middle cover.
 0 ~Bike 2 Wheel Motorcycle Frame  3 x  6 x  3 - Right Side
@@ -392,6 +399,7 @@
 0 // LEGO Logo for Studs - 3D Flattened (main_colour)
 1 16 -11 0 -62 0 1 0 1 0 0 0 0 -1 6622 - logo5.dat
 
+0 STEP
 0 FILE 6622 - 4481s01.dat
 0 Detailed geometric primitive submodel for a wheel or hub component, built from numerous rectangles, circles, cylinders, discs, and rings.
 0 ~Bike 2 Wheel Motorcycle Frame  3 x  6 x  3 - Left/Right
@@ -1373,6 +1381,7 @@
 5 24 10.531 19.745 -66.111 9 19.862 -66.392 12.017 35.049 -58.398 9 18.331 -66.697
 5 24 7.4 19.862 -63.392 0 19.862 -63.392 0 6.432 -70.213 7.4 34.01 -55.85
 
+0 STEP
 0 FILE 6622 - logo5.dat
 0 Empty submodel placeholder containing no direct pieces.
 0 LEGO Logo for Studs - 3D Flattened

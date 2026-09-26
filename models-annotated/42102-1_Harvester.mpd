@@ -14,6 +14,7 @@
 
 
 
+0 STEP
 0 FILE 42102 - Harvester.ldr
 0 Core harvester chassis built from liftarms, gears, cross blocks, and a linear actuator forming the mechanical drive linkage.
 0 Name: 42102 - Harvester.ldr
@@ -120,6 +121,7 @@
 
 
 
+0 STEP
 0 FILE 42102 - Substep_Step-4_1.ldr
 0 A single 20-tooth bevel gear used as a drivetrain transfer component.
 0 Name: 42102 - Substep_Step-4_1.ldr
@@ -135,6 +137,7 @@
 
 
 
+0 STEP
 0 FILE 42102 - Substep_Step-4_2.ldr
 0 An axle and bush assembly forming a rotating shaft mount.
 0 Name: 42102 - Substep_Step-4_2.ldr
@@ -152,6 +155,7 @@
 
 
 
+0 STEP
 0 FILE 42102 - Substep_Step-8.ldr
 0 A small linkage subassembly combining a yellow axle, cross block, and short liftarm.
 0 Name: 42102 - Substep_Step-8.ldr
@@ -171,6 +175,7 @@
 
 
 
+0 STEP
 0 FILE 42102 - Substep_Step-14.ldr
 0 A gear train subassembly featuring two 36-tooth and one 12-tooth double bevel gears on a red liftarm.
 0 Name: 42102 - Substep_Step-14.ldr
@@ -204,6 +209,7 @@
 
 
 
+0 STEP
 0 FILE 42102 - Substep_Step-22.ldr
 0 A connector assembly joining two short liftarms via a cross block with pins and a stopped axle.
 0 Name: 42102 - Substep_Step-22.ldr
@@ -236,6 +242,7 @@
 
 
 
+0 STEP
 0 FILE 42102 - Substep_Step-18.ldr
 0 A compact pivot joint using a cross block with pins, stopped axle, and half bush.
 0 Name: 42102 - Substep_Step-18.ldr
@@ -255,6 +262,7 @@
 
 
 
+0 STEP
 0 FILE 42102 - Substep_Step-19.ldr
 0 A short linkage of two beams connecting structural elements.
 0 Name: 42102 - Substep_Step-19.ldr
@@ -272,6 +280,7 @@
 
 
 
+0 STEP
 0 FILE 42102 - Substep_Step-20.ldr
 0 An H-shaped liftarm connector block joined with long pins and cross blocks for structural framing.
 0 Name: 42102 - Substep_Step-20.ldr
@@ -296,6 +305,7 @@
 
 
 
+0 STEP
 0 FILE 42102 - Substep_Step-21.ldr
 0 A geared axle subassembly with two 16-tooth reinforced gears and a pin cross block for drive transfer.
 0 Name: 42102 - Substep_Step-21.ldr
@@ -323,6 +333,7 @@
 
 
 
+0 STEP
 0 FILE 42102 - Substep_Step-27.ldr
 0 A short locking beam secured with friction pins.
 0 Name: 42102 - Substep_Step-27.ldr
@@ -342,6 +353,7 @@
 
 
 
+0 STEP
 0 FILE 42102 - Substep_Step-28.ldr
 0 A small beam attached with a long friction pin connector.
 0 Name: 42102 - Substep_Step-28.ldr
@@ -359,6 +371,7 @@
 
 
 
+0 STEP
 0 FILE 42102 - Substep_Step-29.ldr
 0 A bent lime liftarm linkage assembly with axle and pin connectors for an articulated joint.
 0 Name: 42102 - Substep_Step-29.ldr
@@ -385,6 +398,7 @@
 
 
 
+0 STEP
 0 FILE 42102 - Substep_Step-29_Substep_Step-2.ldr
 0 A bent lime liftarm attached via a long blue friction pin.
 0 Name: 42102 - Substep_Step-29_Substep_Step-2.ldr
@@ -402,6 +416,7 @@
 
 
 
+0 STEP
 0 FILE 42102 - Substep_Step-31.ldr
 0 A lime body panel fairing mounted with an axle pin for exterior cladding.
 0 Name: 42102 - Substep_Step-31.ldr
@@ -419,6 +434,7 @@
 
 
 
+0 STEP
 0 FILE 42102 - Substep_Step-32.ldr
 0 A mirrored lime body panel fairing mounted with an axle pin for exterior cladding.
 0 Name: 42102 - Substep_Step-32.ldr
@@ -436,6 +452,7 @@
 
 
 
+0 STEP
 0 FILE 42102 - Substep_Step-34.ldr
 0 A bent lime liftarm connector block secured with three friction pins.
 0 Name: 42102 - Substep_Step-34.ldr
@@ -455,6 +472,7 @@
 
 
 
+0 STEP
 0 FILE 42102 - Substep_Step-35.ldr
 0 A white bent liftarm linkage assembly with pins forming a steering or arm mechanism.
 0 Name: 42102 - Substep_Step-35.ldr
@@ -482,6 +500,7 @@
 
 
 
+0 STEP
 0 FILE 42102 - Substep_Step-36.ldr
 0 A bent lime liftarm connector block secured with three friction pins.
 0 Name: 42102 - Substep_Step-36.ldr
@@ -501,6 +520,7 @@
 
 
 
+0 STEP
 0 FILE 42102 - Substep_Step-37.ldr
 0 A black bent liftarm mounted with a friction axle pin.
 0 Name: 42102 - Substep_Step-37.ldr
@@ -518,6 +538,7 @@
 
 
 
+0 STEP
 0 FILE 42102 - Substep_Step-38.ldr
 0 A black bent liftarm mounted with a friction axle pin.
 0 Name: 42102 - Substep_Step-38.ldr
@@ -535,6 +556,7 @@
 
 
 
+0 STEP
 0 FILE 42102 - Substep_Step-39.ldr
 0 A small gear-and-axle drive subassembly with a 12-tooth bevel gear and half bushes.
 0 Name: 42102 - Substep_Step-39.ldr
@@ -555,6 +577,7 @@
 
 
 
+0 STEP
 0 FILE 42102 - Substep_Step-40.ldr
 0 A complete wheel assembly consisting of a red rim and black rubber tyre.
 0 Name: 42102 - Substep_Step-40.ldr
@@ -570,6 +593,7 @@
 
 
 
+0 STEP
 0 FILE 42102 - 33299a.dat
 0 A primitive part definition modeling the geometry of a Technic 3-stud liftarm with boss and pin holes.
 0 Name: 42102 - 33299a.dat
@@ -605,6 +629,7 @@
 
 
 
+0 STEP
 0 FILE 42102 - 92402.dat
 0 Tyre 14/ 50 x 17 with Centre Band
 0 Name: 42102 - 92402.dat
@@ -662,6 +687,7 @@
 
 
 
+0 STEP
 0 FILE s\42102 - 33299s01.dat
 0 ~Technic Beam  3 x  0.5 Liftarm with Boss and Pin Common
 0 Name: s\42102 - 33299s01.dat
@@ -934,6 +960,7 @@
 
 
 
+0 STEP
 0 FILE 42102 - npeghol3.dat
 0 Technic Peg Hole / Axle Hole Negative without Top Surface Extensions
 0 Name: 42102 - npeghol3.dat
@@ -983,6 +1010,7 @@
 
 
 
+0 STEP
 0 FILE s\42102 - 92402s02.dat
 0 ~Tyre 14/ 50 x 17 -  1/4 with Centre Band - Quarter Profile
 0 Name: s\42102 - 92402s02.dat
@@ -1022,6 +1050,7 @@
 
 
 
+0 STEP
 0 FILE s\42102 - 92402s01.dat
 0 ~Tyre 14/ 50 x 17 Pattern with Centre Band - Profile
 0 Name: s\42102 - 92402s01.dat

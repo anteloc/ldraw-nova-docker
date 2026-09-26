@@ -13,6 +13,7 @@
 1 0 -40 10 12 0 -1 0 1 0 0 0 0 1 6965 - Part 2.ldr
 1 0 40 10 12 0 1 0 -1 0 0 0 0 1 6965 - Part 2.ldr
 0
+0 STEP
 0 FILE 6965 - Part 1.ldr
 0 The central cockpit assembly built around a four-sided stud brick with a sand blue patterned hatch, inverted dish canopy, and bar-mounted support plates.
 0 Name: 6965 - Part 1.ldr
@@ -37,6 +38,7 @@
 1 0 -24 10 22 0 -1 0 1 0 0 0 0 1 4623.dat
 0 
 0
+0 STEP
 0 FILE 6965 - Part 2.ldr
 0 The wing and weapons assembly consisting of paired left and right dagger-shaped wings mounted on an inverted slope frame, with clipped tiles, cones, and lightsaber-blade laser cannons.
 0 Name: 6965 - Part 2.ldr

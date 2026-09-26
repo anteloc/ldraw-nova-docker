@@ -12,6 +12,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 6601 - cart.ldr 
 0 A white ice cream vendor cart on wheels with red taps, a blue-tiled counter, an ice cream pattern, and a yellow antenna.
 0 Name: 6601 - cart.ldr 
@@ -82,6 +83,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 6601 - minifig.ldr 
 0 A chef minifigure wearing a red cap, white torso with chef pattern, and blue legs.
 0 Name: 6601 - minifig.ldr 

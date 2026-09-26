@@ -13,6 +13,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 886 - Buggy.ldr
 1 16 0 -32 0 1 0 0 0 1 0 0 0 1 886 - Minifig.ldr
 
+0 STEP
 0 FILE 886 - Buggy.ldr
 0 A light grey wheeled buggy chassis built from plates with four offset-tread tyres, a steering stand, a 45-degree slope, airtanks, and an antenna.
 0 Name: 886 - Buggy.ldr
@@ -51,6 +52,7 @@
 0 // Antenna  4H with Rounded Top (light_grey)
 1 7 -10 -64 50 1 0 0 0 1 0 0 0 1 3957a.dat
 
+0 STEP
 0 FILE 886 - Minifig.ldr
 0 A classic white space-suited minifigure with helmet, torso pattern, airtanks, and a light grey torch topped with a translucent green round brick.
 0 Name: 886 - Minifig.ldr

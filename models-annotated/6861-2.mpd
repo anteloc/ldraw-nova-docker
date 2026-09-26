@@ -10,6 +10,7 @@
 1 0 0 9.645 -2.303 1 0 0 0 0.992546 0.121869 0 -0.121869 0.992546 6861 - Vehicle.ldr
 1 0 342.841 -44 129.285 0.987688 0 -0.156434 0 1 0 0.156434 0 0.987688 6861 - Minifig 3.ldr
 
+0 STEP
 0 FILE 6861 - Vehicle.ldr
 0 Main body of a large black-and-white vehicle built from long plates, bricks, sloped panels, and wings forming a sleek armored hull.
 0 Name: 6861 - Vehicle.ldr
@@ -214,6 +215,7 @@
 1 0 -30 -93 -152 1 0 0 0 1 0 0 0 1 6861 - Minifig 1.ldr
 1 0 50 -93 -152 1 0 0 0 1 0 0 0 1 6861 - Minifig 2.ldr
 
+0 STEP
 0 FILE 6861 - Vehicle - Antenna 1.ldr
 0 A hinged articulating sensor array topped with a neon-green dish and whip antenna, mounted with clips and grille tiles.
 0 Name: 6861 - Vehicle - Antenna 1.ldr
@@ -249,6 +251,7 @@
 1 42 -50 -22 0 1 0 0 0 0 -1 0 1 0 2569.dat
 
 
+0 STEP
 0 FILE 6861 - Vehicle - Antenna 2.ldr
 0 A hinged articulating sensor array topped with a neon-green dish and whip antenna, mirroring Antenna 1 with clips and grille tiles.
 0 Name: 6861 - Vehicle - Antenna 2.ldr
@@ -284,6 +287,7 @@
 1 42 50 -22 0 1 0 0 0 0 -1 0 1 0 2569.dat
 
 
+0 STEP
 0 FILE 6861 - Vehicle - Cockpit.ldr
 0 An enclosed cockpit featuring tall neon-green paneled windshields, grille tile detailing, and round axle-hole plates for attachment.
 0 Name: 6861 - Vehicle - Cockpit.ldr
@@ -333,6 +337,7 @@
 1 0 0 36 18 -1 0 0 0 0 -1 0 -1 0 2516.dat
 
 
+0 STEP
 0 FILE 6861 - Vehicle - Canon.ldr
 0 A small pivoting weapon consisting of a hinged top mounting two stacked white cones to form a cannon barrel.
 0 Name: 6861 - Vehicle - Canon.ldr
@@ -350,6 +355,7 @@
 1 15 -10 -24 0 1 0 0 0 1 0 0 0 1 4589.dat
 
 
+0 STEP
 0 FILE 6861 - Vehicle - Door.ldr
 0 A round octagonal neon-green canopy door assembly with a patterned yellow-arrow tile for directional marking.
 0 Name: 6861 - Vehicle - Door.ldr
@@ -369,6 +375,7 @@
 1 15 0 -24 0 -1 0 0 0 1 0 0 0 -1 4150p04.dat
 
 
+0 STEP
 0 FILE 6861 - Minifig 1.ldr
 0 A Blacktron II minifigure with a white-patterned torso, black arms, airtanks, and black hips with white legs.
 0 Name: 6861 - Minifig 1.ldr
@@ -400,6 +407,7 @@
 0 // ~Minifig Leg Right (Obsolete) (white)
 1 15 0 44 0 1 0 0 0 0 1 0 -1 0 3816.dat
 
+0 STEP
 0 FILE 6861 - Minifig 2.ldr
 0 A Blacktron II minifigure with a white-patterned torso, black arms, airtanks, and black hips with white legs.
 0 Name: 6861 - Minifig 2.ldr
@@ -431,6 +439,7 @@
 0 // Minifig Airtanks (black)
 1 0 0 0.24 4.6 1 0 0 0 0.994522 0.104528 0 -0.104528 0.994522 3838.dat
 
+0 STEP
 0 FILE 6861 - Minifig 3.ldr
 0 A Blacktron II minifigure with a white-patterned torso, black arms, and black hips with white legs, without airtanks.
 0 Name: 6861 - Minifig 3.ldr
@@ -461,6 +470,7 @@
 0 // Minifig Hand (black)
 1 0 23.0709 22.0041 -16.1152 0.985 0.154049 -0.0718343 -0.17 0.892578 -0.416216 0 0.422554 0.906171 3820.dat
 
+0 STEP
 0 FILE 6861 - Minifig - Helmet 1.ldr
 0 A standard black helmet paired with a transparent neon-green visor.
 0 Name: 6861 - Minifig - Helmet 1.ldr
@@ -476,6 +486,7 @@
 1 42 0 0 0 1 0 0 0 1 0 0 0 1 2447.dat
 
 
+0 STEP
 0 FILE 6861 - Minifig - Helmet 2.ldr
 0 A standard black helmet paired with a transparent neon-green visor.
 0 Name: 6861 - Minifig - Helmet 2.ldr
@@ -491,6 +502,7 @@
 1 42 0 3.204 5.6 1 0 0 0 0.507538 0.861629 0 -0.861629 0.507538 2447.dat
 
 
+0 STEP
 0 FILE 6861 - Minifig - Jet-Pack.ldr
 0 A jet-pack assembly built around a white dual-nozzle pack with clip-plate mounts, brackets, and two neon-green whip antennas.
 0 Name: 6861 - Minifig - Jet-Pack.ldr

@@ -195,6 +195,7 @@
 1 256 80 20 -100 0 0 -1 -1 0 0 0 1 0 56897.dat
 
 
+0 STEP
 0 FILE 8260 - subModel-1.ldr
 0 Axle assembly with bushings and a cross block for connecting rotating components.
 0 Name: 8260 - subModel-1.ldr
@@ -221,6 +222,7 @@
 1 71 0 20 20 -1 0 0 0 -1 0 0 0 1 4519.dat
 
 
+0 STEP
 0 FILE 8260 - subModel-2.ldr
 0 Small liftarm and axle structure with a bent quarter-circle beam for articulated linkage.
 0 Name: 8260 - subModel-2.ldr
@@ -245,6 +247,7 @@
 1 4 25 0 0 0 0 1 0 -1 0 1 0 0 3713.dat
 
 
+0 STEP
 0 FILE 8260 - subModel-3.ldr
 0 Compact bent liftarm frame joined by axles forming a wheel or support hub.
 0 Name: 8260 - subModel-3.ldr
@@ -270,6 +273,7 @@
 1 1 40 0 0 0 1 0 1 0 0 0 0 -1 41677.dat
 
 
+0 STEP
 0 FILE 8260 - Bucket.ldr
 0 Front-loader bucket built from a bent liftarm arm, click-hinge connector, and an excavator bucket.
 0 Name: 8260 - Bucket.ldr

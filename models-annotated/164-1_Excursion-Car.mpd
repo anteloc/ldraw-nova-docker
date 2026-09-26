@@ -12,6 +12,7 @@
 1 14 49 -70 100 0 0 -1 0 1 0 1 0 0 164 - mfBluePkCapK.ldr
 
 
+0 STEP
 0 FILE 164 - mfBluePkCapK.ldr
 0 A minifig with blue uniform, yellow head, and black police hat.
 0 Name: 164 - mfBluePkCapK.ldr
@@ -45,6 +46,7 @@
 1 0 0 -96 0 0.951 0 -0.309 0 1 0 0.309 0 0.951 3624.dat
 
 
+0 STEP
 0 FILE 164 - mfWhiteBlackPtK.ldr
 0 A female minifig with white torso, black legs, yellow head, and black pigtail hair.
 0 Name: 164 - mfWhiteBlackPtK.ldr
@@ -79,6 +81,7 @@
 
 
 
+0 STEP
 0 FILE 164 - excursion.ldr
 0 A red and black train carriage built on a 6x16 train base with magnets, spoked wheels, and red brick bodywork with yellow detailing.
 0 Name: 164 - excursion.ldr

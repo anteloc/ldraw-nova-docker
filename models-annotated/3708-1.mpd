@@ -10,6 +10,7 @@
 1 19 -37.196 -57.821 -27.386 0 -0.5 0.866 0.799 -0.521 -0.301 0.602 0.692 0.399 4342.dat
 0 // Minifig Food French Bread (tan)
 1 19 -6.04 -68.632 43.468 0.611 -0.31 0.729 0.705 0.632 -0.322 -0.36 0.71 0.605 4342.dat
+0 STEP
 0 FILE 3708 - rufus.ldr
 0 An empty submodel that contributes no direct pieces to the model.
 0 Name: 3708 - rufus.ldr
@@ -23,6 +24,7 @@
 1 4 -10 -37 4 1 0 0 0 0.906 0.423 0 -0.423 0.906 u9100.dat
 1 4 10 -37 4 1 0 0 0 1 0 0 0 1 u9100.dat
 1 4 0 -37 4 1 0 0 0 1 0 0 0 1 u9103.dat
+0 STEP
 0 FILE 3708 - u606.dat
 0 A flat geometric surface composed of a half-chord piece and three edge rectangles forming a textured plate base.
 0 Name: 3708 - u606.dat
@@ -1422,6 +1424,7 @@
 5 24 -29.742001 -2 -39.348999 -31.006399 -1.9288 -35.055 -29.1224 -2.022 -42.465099 -30 -2 -37
 5 24 -30 -2 -37 -31.006399 -1.9288 -35.055 -29.742001 -2 -39.348999 -30.8279 -2 -27.167299
 5 24 -30 -2 -37 -30.8279 -2 -27.167299 -31.006399 -1.9288 -35.055 -30.8279 -2 -19.167299
+0 STEP
 0 FILE s\3708 - u606s01.dat
 0 A curved cylindrical relief feature built from open cylinders, negative discs, and chord segments forming a rounded mound shape.
 0 Name: s\3708 - u606s01.dat
@@ -1938,6 +1941,7 @@
 5 24 25.3097 31.5 -38.313702 25.039801 38 -38.370201 25.719101 38 -35.1675 23.6978 31.5 -41.784
 5 24 23.6978 31.5 -41.784 23.6978 38 -41.784 25.039801 38 -38.370201 21.900499 31.5 -42.3941
 5 24 1.8654 31.5 -50.769699 1.8654 38 -50.769699 5.4098 38 -50.3209 0 31.5 -50.020699
+0 STEP
 0 FILE 48\3708 - 2-4chrd.dat
 0 An empty submodel that contributes no direct pieces to the model.
 0 Name: 48\3708 - 2-4chrd.dat

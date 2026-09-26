@@ -9,6 +9,7 @@
 
 
 
+0 STEP
 0 FILE 42075 - hog.ldr
 0 Hand-of-God steering linkage using gears, axles, and angle connectors to translate rotational input to the front wheels.
 0 Name: 42075 - hog.ldr
@@ -53,6 +54,7 @@
 
 
 
+0 STEP
 0 FILE 42075 - frontaxle.ldr
 0 Front axle assembly with an open-center beam frame, steering linkage gears, and wheel hubs with round indicator tiles.
 0 Name: 42075 - frontaxle.ldr
@@ -145,6 +147,7 @@
 
 
 
+0 STEP
 0 FILE 42075 - rearaxle.ldr
 0 Rear axle assembly featuring a differential with bevel gears, universal joints, and a multi-link suspension structure.
 0 Name: 42075 - rearaxle.ldr
@@ -285,6 +288,7 @@
 
 
 
+0 STEP
 0 FILE 42075 - shock-06_5L-hard-1.ldr
 0 Hard 6.5L Technic shock absorber consisting of a cylinder, piston rod, and a tightly wound spring.
 0 Name: 42075 - shock-06_5L-hard-1.ldr
@@ -334,6 +338,7 @@
 
 
 
+0 STEP
 0 FILE 42075 - shock-06_5L-hard-1_springMesh.ldr
 0 Parametric spring mesh for the hard shock absorber, defining coil geometry with five sections and fifteen windings.
 0 Name: 42075 - shock-06_5L-hard-1_springMesh.ldr
@@ -6167,6 +6172,7 @@
 
 
 
+0 STEP
 0 FILE 42075 - topbeam.ldr
 0 Longitudinal top structural beam using 15-stud liftarms, angle connectors, and a clear dish element for detail.
 0 Name: 42075 - topbeam.ldr
@@ -6219,6 +6225,7 @@
 
 
 
+0 STEP
 0 FILE 42075 - side1.ldr
 0 Left body side panel assembly with a large smooth red panel, dark grey fairing, and a round blue indicator light.
 0 Name: 42075 - side1.ldr
@@ -6254,6 +6261,7 @@
 
 
 
+0 STEP
 0 FILE 42075 - dashboarddoors.ldr
 0 Dashboard and doors assembly featuring fairing panels, a small steering wheel, and liftarm framing for the door structure.
 0 Name: 42075 - dashboarddoors.ldr
@@ -6323,6 +6331,7 @@
 
 
 
+0 STEP
 0 FILE 42075 - winch.ldr
 0 Rear-mounted winch mechanism with a reel, drive gears, a towball hook, and bent liftarm supports.
 0 Name: 42075 - winch.ldr
@@ -6380,6 +6389,7 @@
 
 
 
+0 STEP
 0 FILE 42075 - ropeLQ-1.ldr
 0 Flexible rope element rendered as two hundred connected cylinder segments along a defined path.
 0 Name: 42075 - ropeLQ-1.ldr
@@ -6825,6 +6835,7 @@
 
 
 
+0 STEP
 0 FILE 42075 - engine.ldr
 0 Two-cylinder inline Technic engine with pistons, connecting rods, crankshafts, cylinder heads, and a drive gear.
 0 Name: 42075 - engine.ldr
@@ -6897,6 +6908,7 @@
 
 
 
+0 STEP
 0 FILE 42075 - bonnet.ldr
 0 Hood and front bodywork assembly using red and white beams, angle connectors, and smooth fairing panels.
 0 Name: 42075 - bonnet.ldr
@@ -7016,6 +7028,7 @@
 
 
 
+0 STEP
 0 FILE 42075 - cabintop.ldr
 0 Cabin roof structure built from short beams, angle connectors, and round plates with blue light tiles.
 0 Name: 42075 - cabintop.ldr
@@ -7068,6 +7081,7 @@
 
 
 
+0 STEP
 0 FILE 42075 - side2.ldr
 0 Right body side panel assembly mirroring the left, with a large smooth red panel, dark grey fairing, and a round blue indicator light.
 0 Name: 42075 - side2.ldr
@@ -7103,6 +7117,7 @@
 
 
 
+0 STEP
 0 FILE 42075 - vehicle.ldr
 0 Core vehicle chassis subassembly integrating the main frame beams, drivetrain gearing, and structural connectors for the full truck.
 0 Name: 42075 - vehicle.ldr
@@ -7561,6 +7576,7 @@
 
 
 
+0 STEP
 0 FILE 42075 - ldcLQRopeSeg.dat
 0 Single cylindrical rope segment primitive used to construct the flexible rope path.
 0 Name: 42075 - ldcLQRopeSeg.dat
@@ -7576,6 +7592,7 @@
 1 16 0 0 0 1.5 0 0 0 1 0 0 0 1.5 4-4cyli.dat
 
 
+0 STEP
 0 FILE 42075 - 2850b.dat
 0 Low-level geometric part definition composed of primitive shapes forming a cylindrical connector element.
 0 Name: 42075 - 2850b.dat
@@ -7746,6 +7763,7 @@
 4 16 -20 36 2 -20 33 2 -27 33 2 -27 36 2
 
 
+0 STEP
 0 FILE 42075 - 55615.dat
 0 Detailed geometric part mesh built from circles, discs, rings, and cylinders defining a complex Technic connector.
 0 Name: 42075 - 55615.dat
@@ -8105,6 +8123,7 @@
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 8 2   R 6 16   S 8 2] [center=true] [slide=true]
 
 
+0 STEP
 0 FILE s\42075 - 2850s01.dat
 0 Subpart defining studs and cooling ribs geometry of a Technic engine cylinder element using primitive shapes.
 0 Name: s\42075 - 2850s01.dat

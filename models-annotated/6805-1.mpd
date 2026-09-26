@@ -9,6 +9,7 @@
 
 
 
+0 STEP
 0 FILE 6805 - Astro Dasher.ldr
 0 A small grey rover with axle-mounted round plates, control sticks, a camera, trans-red cones and dish, and trans-green lights.
 0 Name: 6805 - Astro Dasher.ldr
@@ -78,6 +79,7 @@
 1 7 0 -45 28 1 0 0 0 1 0 0 0 1 6805 - MiniFig1.ldr
 
 
+0 STEP
 0 FILE 6805 - MiniFig1.ldr
 0 A blue classic space astronaut minifigure with airtanks, helmet, and standard grin head.
 0 Name: 6805 - MiniFig1.ldr

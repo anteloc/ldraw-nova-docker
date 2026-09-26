@@ -10,6 +10,7 @@
 1 4 -30 -170.397 35.983 0 0 -1 -0.5 -0.866 0 -0.866 0.5 0 4095.dat
 0 // Fabuland Umbrella (red)
 1 4 -30 -182.521 42.983 0 0 1 -0.5 0.866 0 -0.866 -0.5 0 4094a.dat
+0 STEP
 0 FILE 3602 - biancalamb.ldr
 0 An empty submodel with no direct pieces.
 0 Name: 3602 - biancalamb.ldr
@@ -23,6 +24,7 @@
 1 15 -10 -37 4 1 0 0 0 1 0 0 0 1 u9100.dat
 1 15 10 -37 4 1 0 0 0 1 0 0 0 1 u9100.dat
 1 4 0 -37 4 1 0 0 0 1 0 0 0 1 u9103.dat
+0 STEP
 0 FILE u9169c01.dat
 0 A redirected part alias for a complete red axle assembly with two 10x3 wheels.
 0 Name: u9169c01.dat
@@ -35,6 +37,7 @@
 0 // ~Axle Red with Two Wheels 10 x  3 (Complete)
 0 // ~Axle Red with Two Wheels 10 x  3 (Complete) (main_colour)
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 4108c01.dat
+0 STEP
 0 FILE 4108c01.dat
 0 A complete red wheel assembly consisting of an axle fitted with two 10x3 wheels.
 0 Name: 4108c01.dat
@@ -57,6 +60,7 @@
 0 // ~Wheel 10 x  3 (main_colour)
 1 16 -37.5 0 0 0 0 1 0 1 0 -1 0 0 4075.dat
 
+0 STEP
 0 FILE 4108.dat
 0 A red wheel axle built from an open cylinder, four closed cylinders, and two discs.
 0 Name: 4108.dat
@@ -87,6 +91,7 @@
 0 // Disc 1.0 (main_colour)
 1 16 27 0 0 0 -1 0 0 0 -5 5 0 0 4-4disc.dat
 
+0 STEP
 0 FILE 4075.dat
 0 A 10x3 wheel constructed from closed and open cylinders with various rings forming the tire profile.
 0 Name: 4075.dat

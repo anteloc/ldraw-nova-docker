@@ -19,6 +19,7 @@
 
 
 
+0 STEP
 0 FILE 3942 - Mia.ldr
 0 A Friends minidoll figure of Mia with a lavender outfit, ponytail hair with a bow, and a halter top with paw and butterfly pattern.
 0 Name: 3942 - Mia.ldr
@@ -49,6 +50,7 @@
 
 
 
+0 STEP
 0 FILE 3942 - Puppy White.ldr
 0 A white standing puppy figure with blue eyes and a lavender bow decoration.
 0 Name: 3942 - Puppy White.ldr
@@ -68,6 +70,7 @@
 
 
 
+0 STEP
 0 FILE 3942 - Hurdle.ldr
 0 A lime-and-pink agility hurdle built from plates, handles, and slope bricks on a white base.
 0 Name: 3942 - Hurdle.ldr
@@ -108,6 +111,7 @@
 
 
 
+0 STEP
 0 FILE 3942 - Seesaw.ldr
 0 A lime-and-white balance seesaw with a pivoting long plate and blue groove tiles.
 0 Name: 3942 - Seesaw.ldr
@@ -140,6 +144,7 @@
 
 
 
+0 STEP
 0 FILE 3942 - Grooming area.ldr
 0 A fenced-in lime and azure grooming station with picket fencing, rounded panels, bones, a dinner plate, and a water tap.
 0 Name: 3942 - Grooming area.ldr
@@ -242,6 +247,7 @@
 
 
 
+0 STEP
 0 FILE 3942 - Podium.ldr
 0 A tan log-style award podium topped with a trophy, a number-one ribbon, and an orange walking puppy figure.
 0 Name: 3942 - Podium.ldr
@@ -299,6 +305,7 @@
 
 
 
+0 STEP
 0 FILE 3942 - Stage.ldr
 0 A large green-based stage with white, tan, pink, and azure brickwork, tiled detailing, and round corner elements.
 0 Name: 3942 - Stage.ldr
@@ -513,6 +520,7 @@
 
 
 
+0 STEP
 0 FILE 3942 - 94717.dat
 0 A small primitive part composed of a pin, cylinder, and body element.
 0 Name: 3942 - 94717.dat
@@ -568,6 +576,7 @@
 
 
 
+0 STEP
 0 FILE 3942 - 93088p02.dat
 0 A decorated part submodel with no direct pieces defined in this batch.
 0 Name: 3942 - 93088p02.dat
@@ -589,6 +598,7 @@
 
 
 
+0 STEP
 0 FILE 3942 - 3062bp01.dat
 0 A small round transparent part made from concentric cylinder primitives.
 0 Name: 3942 - 3062bp01.dat
@@ -1039,6 +1049,7 @@
 
 
 
+0 STEP
 0 FILE 3942 - 94724.dat
 0 A geometric primitive part constructed from multiple rectangular edge elements.
 0 Name: 3942 - 94724.dat
@@ -1128,6 +1139,7 @@
 
 
 
+0 STEP
 0 FILE 3942 - 98386p01.dat
 0 A decorated part submodel with no direct pieces defined in this batch.
 0 Name: 3942 - 98386p01.dat
@@ -1146,6 +1158,7 @@
 
 
 
+0 STEP
 0 FILE 3942 - 94718.dat
 0 A geometric primitive part composed of cylinders, a disc, and an outer surface element.
 0 Name: 3942 - 94718.dat
@@ -2071,6 +2084,7 @@
 
 
 
+0 STEP
 0 FILE 3942 - 4150p09.dat
 0 A single adapter ring primitive converting triangle geometry to normal studs.
 0 Name: 3942 - 4150p09.dat
@@ -2091,6 +2105,7 @@
 
 
 
+0 STEP
 0 FILE s\3942 - 94717s01.dat
 0 A subfile of part 94717 with no direct pieces defined in this batch.
 0 Name: s\3942 - 94717s01.dat
@@ -2445,6 +2460,7 @@
 
 
 
+0 STEP
 0 FILE s\3942 - 93088s01.dat
 0 A cylindrical geometric subfile for part 93088 made from open cylinders, chords, and disc negatives.
 0 Name: s\3942 - 93088s01.dat
@@ -3863,6 +3879,7 @@
 5 24 -4.304 -10.114 10.59 -5.195 -8.275 7.343 -8.946 -9.772 11.821 0 -8.362 7.192
 
 
+0 STEP
 0 FILE s\3942 - 93088s02.dat
 0 A subfile of part 93088 with no direct pieces defined in this batch.
 0 Name: s\3942 - 93088s02.dat
@@ -4053,6 +4070,7 @@
 5 24 -8.274 -10.168 -10.851 -7.903 -13.156 -9.921 -5.331 -13.491 -11.736 -8.359 -12.068 -6.717
 
 
+0 STEP
 0 FILE s\3942 - 93088s04.dat
 0 A subfile of part 93088 with no direct pieces defined in this batch.
 0 Name: s\3942 - 93088s04.dat
@@ -4105,6 +4123,7 @@
 5 24 -18.398 -39.015 -14.588 -19.416 -31.957 -14.57 -17.69 -33.841 -17.291 -18.578 -40.184 -13.585
 
 
+0 STEP
 0 FILE s\3942 - 93088s05.dat
 0 A subfile of part 93088 with no direct pieces defined in this batch.
 0 Name: s\3942 - 93088s05.dat
@@ -4189,6 +4208,7 @@
 5 24 9.864 -46.18 -5.931 12.032 -41.993 -8.394 12.681 -39.008 -7.825 9.053 -48.584 -7.739
 
 
+0 STEP
 0 FILE s\3942 - 93088p02s01.dat
 0 A subfile of patterned part 93088p02 with no direct pieces defined in this batch.
 0 Name: s\3942 - 93088p02s01.dat
@@ -4754,6 +4774,7 @@
 5 24 -7.328 -42.102 -21.43 -10.947 -43.284 -18.602 -10.996 -40.863 -19.841 -5.439 -45.336 -19.861
 
 
+0 STEP
 0 FILE s\3942 - 93088p02s02.dat
 0 A subfile of patterned part 93088p02 with no direct pieces defined in this batch.
 0 Name: s\3942 - 93088p02s02.dat
@@ -5041,6 +5062,7 @@
 5 24 8.426 -9.433 -9.589 8.131 -12.612 -8.319 5.331 -13.491 -11.736 7.159 -10.031 -4.038
 
 
+0 STEP
 0 FILE s\3942 - 3062bs01.dat
 0 A geometric subfile for round part 3062b composed of circles, cylinders, and concentric rings.
 0 Name: s\3942 - 3062bs01.dat
@@ -5080,6 +5102,7 @@
 1 16 0 20 0 1 0 0 0 -1 0 0 0 -1 stud4od.dat
 
 
+0 STEP
 0 FILE s\3942 - 94724s01.dat
 0 A geometric subfile for part 94724 composed of an outer surface and rectangular edge elements.
 0 Name: s\3942 - 94724s01.dat
@@ -5496,6 +5519,7 @@
 5 24 -2 -40.443 3.464 -2 -28.287 3.464 -3.464 -28.288 2 0 -28.286 4
 
 
+0 STEP
 0 FILE s\3942 - 98386s01.dat
 0 A geometric subfile for part 98386 composed of open cylinders, chords, and disc negatives.
 0 Name: s\3942 - 98386s01.dat
@@ -7833,6 +7857,7 @@
 5 24 2.033 -29.028 -9.956 0 -31.748 -10.564 2.447 -31.194 -11.156 -2.033 -29.028 -9.956
 
 
+0 STEP
 0 FILE s\3942 - 98386p01s01.dat
 0 A patterned animal accessory submodel with no direct pieces, likely a decorated element reference.
 0 Name: s\3942 - 98386p01s01.dat
@@ -8112,6 +8137,7 @@
 5 24 0 -45.559 -29.066 0 -43.24 -31.187 -4.032 -42.51 -30.923 4.032 -42.51 -30.923
 
 
+0 STEP
 0 FILE s\3942 - 4150p09s01.dat
 0 A patterned disc decoration composed of layered reddish brown and main colour disc segments of varying sizes.
 0 Name: s\3942 - 4150p09s01.dat

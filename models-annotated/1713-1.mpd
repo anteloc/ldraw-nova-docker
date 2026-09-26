@@ -13,6 +13,7 @@
 1 0 20 -80 -10 1 0 0 0 1 0 0 0 1 1713 - Pirate.ldr
 
 
+0 STEP
 0 FILE 1713 - Raft.ldr
 0 A small yellow-and-black raft built from plates and brackets, topped with a mast flying a Jolly Roger flag.
 0 Name: 1713 - Raft.ldr
@@ -56,6 +57,7 @@
 1 14 -68 10 30 0 1 0 0 0 -1 -1 0 0 3062b.dat
 
 
+0 STEP
 0 FILE 1713 - Pirate.ldr
 0 A pirate minifigure wearing a ragged blue hat, red-and-black striped torso, and wielding a cutlass and oar.
 0 Name: 1713 - Pirate.ldr

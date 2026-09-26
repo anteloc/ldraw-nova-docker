@@ -16,6 +16,7 @@
 
 
 
+0 STEP
 0 FILE 3935 - Stephanie.ldr
 0 A Friends minidoll figure named Stephanie with bright pink skirt, light aqua star-patterned top, and long straight blonde hair.
 0 Name: 3935 - Stephanie.ldr
@@ -42,6 +43,7 @@
 0
 
 
+0 STEP
 0 FILE 3935 - Bush.ldr
 0 A small landscaped bush built from green and lime bricks topped with bamboo leaves and a bright green flower with a dark pink center.
 0 Name: 3935 - Bush.ldr
@@ -69,6 +71,7 @@
 
 
 
+0 STEP
 0 FILE 3935 - Bunny house.ldr
 0 A yellow-and-white bunny hutch on a lime base with a pitched roof, flanked by dark pink accents and containing a sitting bunny with a carrot.
 0 Name: 3935 - Bunny house.ldr
@@ -116,6 +119,7 @@
 
 
 
+0 STEP
 0 FILE 3935 - ATV.ldr
 0 A four-wheeled all-terrain vehicle with lime bodywork, light aqua mudguards, red transparent lights, and black wheel-mounted plates.
 0 Name: 3935 - ATV.ldr
@@ -183,6 +187,7 @@
 
 
 
+0 STEP
 0 FILE 3935 - Trailer.ldr
 0 A two-wheeled lime trailer with medium azure rounded side panels and a yellow grille, equipped with treaded tyres.
 0 Name: 3935 - Trailer.ldr
@@ -220,6 +225,7 @@
 
 
 
+0 STEP
 0 FILE 3935 - 92241p0g.dat
 0 A part file consisting of conditional line geometry used to define smooth shading edges of a part mesh.
 0 Name: 3935 - 92241p0g.dat
@@ -2018,6 +2024,7 @@
 5 24 -6.99 4.64 -8.69 -4.41 2.39 -8.84 -7.24 2.4 -8.04 -4.37 4.31 -9.23
 3 16 3.68 -6 -2.59 0 -7.25 -0.33 0 -6.54 -2.61
 
+0 STEP
 0 FILE 3935 - 98387p01.dat
 0 A patterned LEGO part wrapper that references a submodel defining its geometry and surface decoration.
 0 Name: 3935 - 98387p01.dat
@@ -2035,6 +2042,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\3935 - 98387p01s01.dat
 1 16 0 0 0 -1 0 0 0 1 0 0 0 1 s\3935 - 98387p01s01.dat
 
+0 STEP
 0 FILE s\3935 - 98387s01.dat
 0 98387s01
 0 Name: s\3935 - 98387s01.dat
@@ -3066,6 +3074,7 @@
 5 24 0 -28.795 9.936 0 -27.392 11.107 5.274 -26.622999 9.686 -5.274 -26.622999 9.686
 5 24 0 -17.445 22.481001 0 -14.828 25.097 -2.253 -13.876 24.950001 2.253 -13.876 24.950001
 
+0 STEP
 0 FILE s\3935 - 98387p01s01.dat
 0 98387p01s01
 0 Name: s\3935 - 98387p01s01.dat

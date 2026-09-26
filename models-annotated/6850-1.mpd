@@ -11,6 +11,7 @@
 1 0 80 -41.5 -122 0 0 1 0 1 0 -1 0 0 6850 - Minifig.ldr
 
 
+0 STEP
 0 FILE 6850 - Spaceship.ldr
 0 A compact white and black spaceship fuselage built from plates, wings, and inverted slopes with a red engine dish and a computer-patterned control panel.
 0 Name: 6850 - Spaceship.ldr
@@ -65,6 +66,7 @@
 1 0 0 -22 90 1 0 0 0 0.02356 -0.999722 0 0.999722 0.02356 6850 - Spaceship - Cockpit.ldr
 
 
+0 STEP
 0 FILE 6850 - Spaceship - Wing 1.ldr
 0 A folding wing section using a hinged plate and control stick, with a red round accent light.
 0 Name: 6850 - Spaceship - Wing 1.ldr
@@ -90,6 +92,7 @@
 1 15 12 -22 -30 0 0 -1 -1 0 0 0 1 0 4593.dat
 
 
+0 STEP
 0 FILE 6850 - Spaceship - Wing 2.ldr
 0 A folding wing section using a hinged base plate and control stick, with a red round accent light.
 0 Name: 6850 - Spaceship - Wing 2.ldr
@@ -115,6 +118,7 @@
 1 15 -12 -22 -30 0 0 1 1 0 0 0 1 0 4593.dat
 
 
+0 STEP
 0 FILE 6850 - Spaceship - Cockpit.ldr
 0 An enclosed cockpit module with a tall grilled white panel, transparent dark-blue curved corner panels, and a handle for opening.
 0 Name: 6850 - Spaceship - Cockpit.ldr
@@ -146,6 +150,7 @@
 1 15 0 -194 0 -1 0 0 0 1 0 0 0 -1 2432.dat
 
 
+0 STEP
 0 FILE 6850 - Minifig.ldr
 0 A Futuron minifigure with a white patterned torso, yellow airtanks, arms, hands, and legs.
 0 Name: 6850 - Minifig.ldr
@@ -178,6 +183,7 @@
 1 14 0 44 0 1 0 0 0 0.97437 -0.224951 0 0.224951 0.97437 3817.dat
 
 
+0 STEP
 0 FILE 6850 - Minifig - Helmet.ldr
 0 A standard yellow space helmet with a transparent dark-blue visor.
 0 Name: 6850 - Minifig - Helmet.ldr

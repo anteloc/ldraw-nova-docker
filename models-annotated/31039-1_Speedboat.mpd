@@ -637,6 +637,7 @@
 1 40 -60 -105 -90 1 0 0 0 1 0 0 0 1 92279.dat
 0 STEP
 
+0 STEP
 0 FILE 31039 - Seat.ldr
 0 A compact yellow seat assembly with red tiled surface, black clip plates, and a light bluish grey handle.
 0 Name: 31039 - Seat.ldr
@@ -659,6 +660,7 @@
 
 
 
+0 STEP
 0 FILE 31039 - Spoiler Part Left.ldr
 0 A left-side white wing spoiler element with dark bluish grey C-clips, a handle plate, and a trans-red accent tile.
 0 Name: 31039 - Spoiler Part Left.ldr
@@ -687,6 +689,7 @@
 
 
 
+0 STEP
 0 FILE 31039 - Spoiler Part Right.ldr
 0 A right-side white wing spoiler element with dark bluish grey C-clips, a handle plate, and a trans-green accent tile.
 0 Name: 31039 - Spoiler Part Right.ldr
@@ -715,6 +718,7 @@
 
 
 
+0 STEP
 0 FILE 31039 - Spoiler Part Top.ldr
 0 A central white spoiler section built from plates and long tiles, with two light bluish grey handles for attachment.
 0 Name: 31039 - Spoiler Part Top.ldr
@@ -740,6 +744,7 @@
 1 15 0 -8 -10 1 0 0 0 1 0 0 0 1 6636.dat
 
 
+0 STEP
 0 FILE 31039 - 3039pcd.dat
 0 A slope control panel piece with a silver printed screen pattern.
 0 Name: 31039 - 3039pcd.dat

@@ -7,6 +7,7 @@
 
 1 71 -40 -64 390 1 0 0 0 1 0 0 0 1 8049 - Log Loader.ldr
 1 71 0 -40 -120 1 0 0 0 1 0 0 0 1 8049 - pipe.ldr
+0 STEP
 0 FILE 8049 - Log Loader.ldr
 0 Robust Technic frame of long beams, cross blocks, and pins forming the structural base assembly of the log loader attachment.
 0 Name: 8049 - Log Loader.ldr
@@ -500,6 +501,7 @@
 1 71 180 -20 -220 0 0 1 0 1 0 -1 0 0 41896.dat
 0 // Tyre 34/ 37 x 43 Off Road (rubber_black)
 1 256 180 -20 -220 0 0 -1 0 1 0 1 0 0 61480.dat
+0 STEP
 0 FILE 8049 - subModel-1.ldr
 0 Compact geared mechanism built from triangle liftarms, bevel gears, and angle connectors forming a small drive or linkage unit.
 0 Name: 8049 - subModel-1.ldr
@@ -547,6 +549,7 @@
 0 // Technic Axle Pin with Friction (blue)
 1 1 -30 0 -40 1 0 0 0 -1 0 0 0 -1 43093.dat
 0 STEP
+0 STEP
 0 FILE 8049 - front axis left.ldr
 0 Left front steering axle assembly with a bent beam, long axle, and bushes mounting the wheel hub.
 0 Name: 8049 - front axis left.ldr
@@ -573,6 +576,7 @@
 1 71 -25 60 0 0 0 1 1 0 0 0 1 0 32123b.dat
 0 // Technic Bush 1/2 Smooth with Axle Hole Semi-Reduced (light_bluish_grey)
 1 71 35 60 0 0 0 1 1 0 0 0 1 0 32123b.dat
+0 STEP
 0 FILE 8049 - cabin.ldr
 0 Operator cabin structure built from bent lime liftarms, axles, and cross blocks forming the enclosed driver frame.
 0 Name: 8049 - cabin.ldr
@@ -710,6 +714,7 @@
 1 46 20 -40 192 -0.707 0 0.707 0.707 0 0.707 0 1 0 3941.dat
 0 STEP
 1 16 80 -120 -20 1 0 0 0 0 -1 0 1 0 8049 - cabin mount.ldr
+0 STEP
 0 FILE 8049 - seat.ldr
 0 Driver's seat composed of blue bent beams and a cross block forming a compact backrest and base.
 0 Name: 8049 - seat.ldr
@@ -738,6 +743,7 @@
 0 STEP
 0 // Technic Beam  3 x  5 Bent 90 (blue)
 1 1 -40 -20 100 1 0 0 0 -1 0 0 0 -1 32526.dat
+0 STEP
 0 FILE 8049 - cabin mount.ldr
 0 Mounting bracket of a long beam, angle connectors, and pins that secures the cabin to the chassis.
 0 Name: 8049 - cabin mount.ldr
@@ -774,6 +780,7 @@
 1 0 -20 -85 -100 0 0 1 0 -1 0 1 0 0 6632.dat
 0 // Technic Beam  3 x  0.5 Liftarm (black)
 1 0 -20 -60 -100 0 0 1 0 -1 0 1 0 0 6632.dat
+0 STEP
 0 STEP
 0 FILE 8049 - arm.ldr
 0 Pneumatic articulated arm of red beams and a pneumatic valve used to raise and lower the loader.
@@ -830,6 +837,7 @@
 0 STEP
 0 // Technic Beam  7 (red)
 1 4 40 0 360 0 -1 0 1 0 0 0 0 1 32524.dat
+0 STEP
 0 STEP
 0 FILE 8049 - pneumaticHose-16cm.ldr
 0 Flexible pneumatic tube assembly approximately 16cm long routing air between pneumatic components.
@@ -1401,6 +1409,7 @@
 1 16 -10.704411 -188.885546 -164.101313 0.699044 3.965553 -0.260676 -4.950285 0.563157 0.041417 0.077558 0.202362 4.993028 4-4cyli.dat
 0 // Cylinder 1.0 (main_colour)
 1 16 -10.704411 -188.885546 -164.101313 0.419426 3.965553 -0.156406 -2.970171 0.563157 0.02485 0.046535 0.202362 2.995817 4-4cyli.dat
+0 STEP
 0 FILE 8049 - pneumaticHose2-11.2cm.ldr
 0 Flexible pneumatic tube assembly approximately 11.2cm long routing air between pneumatic components.
 0 Name: 8049 - pneumaticHose2-11.2cm.ldr
@@ -1710,6 +1719,7 @@
 1 16 -50 -168.011377 26.651443 5 0 0 0 0.081611 4.999661 0 -7.007939 0.058224 4-4cyli.dat
 0 // Cylinder 1.0 (main_colour)
 1 16 -50 -168.011377 26.651443 3 0 0 0 0.081611 2.999797 0 -7.007939 0.034934 4-4cyli.dat
+0 STEP
 0 FILE 8049 - pneumaticHose1-11.2cm.ldr
 0 Flexible pneumatic tube assembly approximately 11.2cm long routing air between pneumatic components.
 0 Name: 8049 - pneumaticHose1-11.2cm.ldr
@@ -2099,6 +2109,7 @@
 1 16 38.251517 -130.507178 73.413762 4.99742 -0.127173 -0.021774 -0.023471 -0.042358 -4.999664 0.158868 3.994156 -0.053714 4-4cyli.dat
 0 // Cylinder 1.0 (main_colour)
 1 16 38.251517 -130.507178 73.413762 2.998452 -0.127173 -0.013065 -0.014083 -0.042358 -2.999798 0.095321 3.994156 -0.032228 4-4cyli.dat
+0 STEP
 0 FILE 8049 - pneumaticHose-12.8cm.ldr
 0 Flexible pneumatic tube assembly approximately 12.8cm long routing air between pneumatic components.
 0 Name: 8049 - pneumaticHose-12.8cm.ldr
@@ -2468,6 +2479,7 @@
 1 16 -207.845225 -8.862817 9.955722 -0.285828 -3.485551 -2.422297 -0.16407 -1.929945 4.374066 -4.989127 0.263155 -0.00507 4-4cyli.dat
 0 // Cylinder 1.0 (main_colour)
 1 16 -207.845225 -8.862817 9.955722 -0.171497 -3.485551 -1.453378 -0.098442 -1.929945 2.62444 -2.993476 0.263155 -0.003042 4-4cyli.dat
+0 STEP
 0 FILE 8049 - pump.ldr
 0 Pneumatic pump unit with a large yellow knob and surrounding liftarms that compresses air for the system.
 0 Name: 8049 - pump.ldr
@@ -2506,6 +2518,7 @@
 0 // Technic Axle Pin with Friction (blue)
 1 1 50 40 0 -1 0 0 0 0 1 0 1 0 43093.dat
 1 273 0 0 40 1 0 0 0 1 0 0 0 1 8049 - pneumaticHose-6.4cm.ldr
+0 STEP
 0 FILE 8049 - pneumaticHose-6.4cm.ldr
 0 Short flexible pneumatic tube assembly approximately 6.4cm long routing air between pneumatic components.
 0 Name: 8049 - pneumaticHose-6.4cm.ldr
@@ -2769,6 +2782,7 @@
 1 16 40.030606 -3.091521 41.682471 -0.002429 -0.219388 -4.992526 -2.521869 -3.460897 0.237189 -4.317426 2.021682 -0.135736 4-4cyli.dat
 0 // Cylinder 1.0 (main_colour)
 1 16 40.030606 -3.091521 41.682471 -0.001457 -0.219388 -2.995516 -1.513121 -3.460897 0.142313 -2.590456 2.021682 -0.081442 4-4cyli.dat
+0 STEP
 0 FILE 8049 - exhaust.ldr
 0 Vertical exhaust pipe stack made of thin liftarms and an angle connector simulating the tractor's exhaust.
 0 Name: 8049 - exhaust.ldr
@@ -2809,6 +2823,7 @@
 1 0 0 -125 0 -1 0 0 0 1 0 0 0 -1 41677.dat
 0 // Technic Pin Long with Stop Bush (black)
 1 0 0 -160 0 0 -1 0 -1 0 0 0 0 -1 32054.dat
+0 STEP
 0 FILE 8049 - engine cover.ldr
 0 Decorative engine cover of lime plates and curved slopes forming the hood bodywork.
 0 Name: 8049 - engine cover.ldr
@@ -2833,6 +2848,7 @@
 1 27 -20 0 0 0 0 1 0 -1 0 1 0 0 88930.dat
 0 // Slope Brick Curved  2 x  4 with Underside Studs (lime)
 1 27 20 0 0 0 0 -1 0 -1 0 -1 0 0 88930.dat
+0 STEP
 0 FILE 8049 - front axis right.ldr
 0 Right front steering axle assembly with a bent beam, long axle, and bushes mounting the wheel hub.
 0 Name: 8049 - front axis right.ldr
@@ -2857,6 +2873,7 @@
 1 71 -25 -20 0 0 0 1 -1 0 0 0 -1 0 32123b.dat
 0 // Technic Bush 1/2 Smooth with Axle Hole Semi-Reduced (light_bluish_grey)
 1 71 35 -20 0 0 0 1 -1 0 0 0 -1 0 32123b.dat
+0 STEP
 0 FILE 8049 - front fender.ldr
 0 Front fender beam assembly of long black beams and pins spanning the front of the chassis.
 0 Name: 8049 - front fender.ldr
@@ -2884,6 +2901,7 @@
 1 1 0 -60 -60 0 -1 0 1 0 0 0 0 1 6558.dat
 0 // Technic Pin Long with Friction and Slot (blue)
 1 1 0 -60 60 0 -1 0 1 0 0 0 0 1 6558.dat
+0 STEP
 0 FILE 8049 - left mud guard.ldr
 0 Left mud guard using a lime panel fairing beam and cross block to shield the front wheel.
 0 Name: 8049 - left mud guard.ldr
@@ -2904,6 +2922,7 @@
 0 STEP
 0 // Technic Axle  4 with Stop (dark_bluish_grey)
 1 72 -20 28 -20 0 0 1 -1 0 0 0 -1 0 87083.dat
+0 STEP
 0 FILE 8049 - right mud guard.ldr
 0 Right mud guard using a lime panel fairing beam and cross block to shield the front wheel.
 0 Name: 8049 - right mud guard.ldr
@@ -2922,6 +2941,7 @@
 1 27 0 0 -20 0 0 1 0 1 0 -1 0 0 61071.dat
 0 // Technic Axle  4 with Stop (dark_bluish_grey)
 1 72 -20 28 20 0 -1 0 -1 0 0 0 0 -1 87083.dat
+0 STEP
 0 FILE 8049 - claw.ldr
 0 Rotating log grabber claw built on a turntable with opposing bent liftarm jaws for gripping logs.
 0 Name: 8049 - claw.ldr
@@ -3047,6 +3067,7 @@
 1 4 -40 0 0 1 0 0 0 1 0 0 0 1 32062.dat
 0 // Technic Axle  2 Notched (red)
 1 4 -40 0 20 1 0 0 0 1 0 0 0 1 32062.dat
+0 STEP
 0 FILE 8049 - claw rotation.ldr
 0 Gear-driven rotation mechanism using bevel gears and an axle to spin the claw on the turntable.
 0 Name: 8049 - claw rotation.ldr
@@ -3091,6 +3112,7 @@
 1 71 0 -25 20 0 1 0 0 0 -1 -1 0 0 32123b.dat
 0 // Technic Bush 1/2 Smooth with Axle Hole Semi-Reduced (light_bluish_grey)
 1 71 0 -15 20 0 1 0 0 0 -1 -1 0 0 32123b.dat
+0 STEP
 0 FILE 8049 - pneumaticHose-33.6cm.ldr
 0 Long flexible pneumatic tube assembly approximately 33.6cm long routing air between pneumatic components.
 0 Name: 8049 - pneumaticHose-33.6cm.ldr
@@ -3716,6 +3738,7 @@
 1 16 493.55684 19.83601 10.025875 0.249104 -3.983858 0.373251 -0.031357 0.297719 4.986033 -4.993692 -0.200599 -0.01269 4-4cyli.dat
 0 // Cylinder 1.0 (main_colour)
 1 16 493.55684 19.83601 10.025875 0.149462 -3.983858 0.223951 -0.018814 0.297719 2.99162 -2.996215 -0.200599 -0.007614 4-4cyli.dat
+0 STEP
 0 FILE 8049 - pneumaticHose-28.8cm.ldr
 0 Long flexible pneumatic tube assembly approximately 28.8cm long routing air between pneumatic components.
 0 Name: 8049 - pneumaticHose-28.8cm.ldr
@@ -4142,6 +4165,7 @@
 1 16 -126.849384 512.682671 10.00499 4.985257 -0.295272 -0.107071 -0.367438 -3.996061 0.049817 -0.110447 -0.033501 -4.998605 4-4cyli.dat
 0 // Cylinder 1.0 (main_colour)
 1 16 -126.849384 512.682671 10.00499 2.991154 -0.295272 -0.064243 -0.220463 -3.996061 0.02989 -0.066268 -0.033501 -2.999163 4-4cyli.dat
+0 STEP
 0 FILE 8049 - pipe.ldr
 0 Log payload assembly of round brown bricks and grey wheel rims representing stacked logs on a support axle.
 0 Name: 8049 - pipe.ldr

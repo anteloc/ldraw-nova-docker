@@ -18,6 +18,7 @@
 1 16 0.04 40 0.015 1 0 0 0 1 0 0 0 1 4549 - container 4.ldr
 
 
+0 STEP
 0 FILE 4549 - loader.ldr
 0 Six-wheeled loader vehicle featuring a helicopter-style windscreen, tyres with rims, ladder plates, and sloped white body panels.
 0 Name: 4549 - loader.ldr
@@ -247,6 +248,7 @@
 1 0 -199.775 -212.96 -30.51 0 0 -1 0 1 0 1 0 0 4592c01.dat
 
 
+0 STEP
 0 FILE 4549 - loader - arm.ldr
 0 Articulated loader arm assembly built from crane arm segments, technic axles with bushes, hinges, and long tiles.
 0 Name: 4549 - loader - arm.ldr
@@ -325,6 +327,7 @@
 1 0 11.2439 -24.9048 -29.8866 0.898384 0.43921 0.000699 -0.43921 0.898384 -0.000342 -0.000778 0 1 3069b.dat
 
 
+0 STEP
 0 FILE 4549 - train car.ldr
 0 Split-level train car body with a 6x34 train base, roof hinges, grooved tiling, and train logo stickers.
 0 Name: 4549 - train car.ldr
@@ -471,6 +474,7 @@
 1 0 -260 -71 0.01 -1 0 0 0 1 0 0 0 -1 4549 - train car - wheels.ldr
 
 
+0 STEP
 0 FILE 4549 - train car - wheels.ldr
 0 Train bogie undercarriage with single-axle wheelsets, buffer beam, magnet coupling, and bogie plate.
 0 Name: 4549 - train car - wheels.ldr
@@ -497,6 +501,7 @@
 1 16 0 0 0 -1 0 0 0 1 0 0 0 -1 4092A.DAT
 
 
+0 STEP
 0 FILE 4549 - tractor.ldr
 0 Compact tractor built on technic plates with wheel-pin plates, round hollow-stud bricks, and corner plates.
 0 Name: 4549 - tractor.ldr
@@ -671,6 +676,7 @@
 1 16 153 -66 40.01 -1 0 0 0 0 -1 0 -1 0 164575g.dat
 
 
+0 STEP
 0 FILE 4549 - semi-trailer.ldr
 0 Wheeled semi-trailer with four wide tyres on rims, danger-stripe markings, towball socket, and technic frame plates.
 0 Name: 4549 - semi-trailer.ldr
@@ -771,6 +777,7 @@
 1 16 -328 -98 -0.095 0 1 0 0 0 1 1 0 0 821430a.dat
 
 
+0 STEP
 0 FILE 4549 - container 1.ldr
 0 Red and white cargo container with paneled doors, train windows with shutters, and train logo stickers.
 0 Name: 4549 - container 1.ldr
@@ -827,6 +834,7 @@
 1 4 -39.92 -79.6013 39.9188 1 0 0 0 0 1 0 -1 0 164575g.dat
 
 
+0 STEP
 0 FILE 4549 - container 2.ldr
 0 Green and white cargo container with paneled doors, train windows with shutters, and Octan-brand stickers.
 0 Name: 4549 - container 2.ldr
@@ -883,6 +891,7 @@
 1 15 19.9914 -36.0995 -40.014 1 0 0 0 0 -1 0 1 0 168185a.dat
 
 
+0 STEP
 0 FILE 4549 - container 3.ldr
 0 Decorative sticker sheet container panel bearing a closed-O LEGO logo on white.
 0 Name: 4549 - container 3.ldr
@@ -898,6 +907,7 @@
 1 15 -98.316 -55.5778 39.9101 -1 0 0 0 0 -1 0 -1 0 003432f.dat
 
 
+0 STEP
 0 FILE 4549 - container 4.ldr
 0 Decorative sticker sheet container panel bearing a blue globe with yellow box and curved arrows.
 0 Name: 4549 - container 4.ldr
@@ -913,6 +923,7 @@
 1 1 -100.2215 -52.5909 39.9665 -1 0 0 0 0 -1 0 -1 0 821421a.dat
 
 
+0 STEP
 0 FILE 4549 - container big.ldr
 0 Large paneled cargo container with multiple doors, train windows with shutters, and grooved tiling.
 0 Name: 4549 - container big.ldr
@@ -977,6 +988,7 @@
 1 16 149.96 -8 29.995 -1 0 0 0 1 0 0 0 -1 2420.DAT
 
 
+0 STEP
 0 FILE 4549 - minifig 1.ldr
 0 Train-worker minifigure with brown hair, blue torso with train logo and red diagonal stripes, and standard grin.
 0 Name: 4549 - minifig 1.ldr
@@ -1007,6 +1019,7 @@
 1 1 -5.2707 -28 0 0 0 -1 0 1 0 1 0 0 3816.DAT
 
 
+0 STEP
 0 FILE 4549 - minifig 2.ldr
 0 Train-worker minifigure with red cap, blue torso with train logo and red diagonal stripes, and standard grin.
 0 Name: 4549 - minifig 2.ldr

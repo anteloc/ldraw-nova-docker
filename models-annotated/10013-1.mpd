@@ -19,6 +19,7 @@
 
 
 
+0 STEP
 0 FILE 10013 - train car.ldr
 0 Paneled freight wagon body with grille sides, ladders, headlight bricks and sloped ends on a 6 x 24 train base
 0 Name: 10013 - train car.ldr
@@ -154,6 +155,7 @@
 
 
 
+0 STEP
 0 FILE 10013 - train car - wheels.ldr
 0 Two-axle wheel bogie undercarriage with buffer beams, magnetic couplings and base plates
 0 Name: 10013 - train car - wheels.ldr
@@ -187,6 +189,7 @@
 
 
 
+0 STEP
 0 FILE 10013 - chain 1.ldr
 0 Chain of linked minifig chain links with end studs for securing cargo
 0 Name: 10013 - chain 1.ldr
@@ -246,6 +249,7 @@
 
 
 
+0 STEP
 0 FILE 10013 - chain 2.ldr
 0 Chain of linked minifig chain links with end studs for securing cargo
 0 Name: 10013 - chain 2.ldr
@@ -305,6 +309,7 @@
 
 
 
+0 STEP
 0 FILE 10013 - log.ldr
 0 Stack of round 2 x 2 bricks forming a timber log load
 0 Name: 10013 - log.ldr

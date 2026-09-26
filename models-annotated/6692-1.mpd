@@ -12,6 +12,7 @@
 1 4 129.977 0 -150.064 0.766 0 0.643 0 1 0 -0.643 0 0.766 6692 - minifig.ldr
 
 0 NOFILE
+0 STEP
 0 FILE 6692 - car.ldr
 0 A wheeled vehicle built on a car base with four tread tyres, a steering stand, grille pattern, and hinge connection.
 0 !LEOCAD MODEL CURRENT_STEP22
@@ -135,6 +136,7 @@
 0 STEP
 
 0 NOFILE
+0 STEP
 0 FILE 6692 - car - trailer.ldr
 0 A trailer with windows, multiple plates, four tread tyres, and a hinge connection for attaching to the car.
 0 car - trailer
@@ -241,6 +243,7 @@
 1 16 160 -128 0 -1 0 0 0 1 0 0 0 -1 3030.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6692 - car - trailer - part 1.ldr
 0 A small trailer hitch connector assembly made of a hinge base, round bricks, and a plate.
 0 car - trailer - part 1
@@ -276,6 +279,7 @@
 1 0 -0.004 38 0 0 0 -1 0 1 0 1 0 0 3710.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6692 - minifig.ldr
 0 A blue-clothed minifig figure wearing a red police hat with a standard grin expression.
 0 minifig

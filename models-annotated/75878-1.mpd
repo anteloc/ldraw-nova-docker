@@ -19,6 +19,7 @@
 
 
 
+0 STEP
 0 FILE 75878 - body-1.ldr
 0 Car chassis and body structure built on a black 10x4 car base with assorted plates, wings, and side bricks forming the Bugatti bodywork.
 0 Name: 75878 - body-1.ldr
@@ -410,6 +411,7 @@
 
 
 
+0 STEP
 0 FILE 75878 - wheel.ldr
 0 Single road wheel assembly consisting of a tyre mounted on a vented brake disc rim with a spoked front and axle pin.
 0 Name: 75878 - wheel.ldr
@@ -428,6 +430,7 @@
 
 
 
+0 STEP
 0 FILE 75878 - driver-1.ldr
 0 Race driver minifigure wearing a dark blue Bugatti race suit, bright light blue arms, a helmet with brown visor, and holding a spanner.
 0 Name: 75878 - driver-1.ldr
@@ -462,6 +465,7 @@
 
 
 
+0 STEP
 0 FILE 75878 - windscreen-1.ldr
 0 Curved Bugatti Chiron windscreen panel with left and right windscreen stickers applied.
 0 Name: 75878 - windscreen-1.ldr
@@ -479,6 +483,7 @@
 
 
 
+0 STEP
 0 FILE 75878 - cone-1.ldr
 0 Small orange detail element formed from a 1x1 plate topped with a 1x1 stop cone.
 0 Name: 75878 - cone-1.ldr
@@ -493,6 +498,7 @@
 
 
 
+0 STEP
 0 FILE 75878 - rubberBandRound-1.ldr
 0 Flexible round rubber band part generated from 26 curved segments used as a flexible connector.
 0 Name: 75878 - rubberBandRound-1.ldr
@@ -1218,6 +1224,7 @@
 5 24 -22.282843 11.1836 1.414214 -22 9.797959 2 -23.281557 11.132918 1.414214 -18.05451 11.413759 1.414214
 
 
+0 STEP
 0 FILE 75878 - 6177949b.dat
 0 Primitive cylindrical part built from chords and cylinders defining its top, bottom, and lateral faces.
 0 Name: 75878 - 6177949b.dat
@@ -1270,6 +1277,7 @@
 1 0 16.5 -0.25 -6.5 0 0 1.5 0 1 0 -1.5 0 0 1-4chrd.dat
 
 
+0 STEP
 0 FILE 75878 - 6177949a.dat
 0 Decorated cylindrical sticker-like part with silver, black, and white patterned faces and borders.
 0 Name: 75878 - 6177949a.dat
@@ -3156,6 +3164,7 @@
 4 0 1.2225 -0.25 -4.5725 1.2526 -0.25 -4.5 1.0474 -0.25 -4.5 1.0775 -0.25 -4.5725
 
 
+0 STEP
 0 FILE 75878 - 6177949fc01.dat
 0 Formed sticker assembly composed of geometry primitives defining a curved sticker surface.
 0 Name: 75878 - 6177949fc01.dat
@@ -3176,6 +3185,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\75878 - 6177949fs08.dat
 
 
+0 STEP
 0 FILE 75878 - 6177949gc01.dat
 0 Formed sticker depicting a black and dark blue headlamp on a transparent background (right side).
 0 Name: 75878 - 6177949gc01.dat
@@ -3191,6 +3201,7 @@
 1 16 0 0 0 -1 0 0 0 1 0 0 0 1 75878 - 6177949fc01.dat
 
 
+0 STEP
 0 FILE 75878 - 6177949ic01.dat
 0 Formed sticker depicting a black air vent on a transparent background (right side).
 0 Name: 75878 - 6177949ic01.dat
@@ -3206,6 +3217,7 @@
 1 16 0 0 0 -1 0 0 0 1 0 0 0 1 75878 - 6177949hc01.dat
 
 
+0 STEP
 0 FILE 75878 - 6177949hc01.dat
 0 Formed sticker assembly composed of geometry primitives defining a curved sticker surface.
 0 Name: 75878 - 6177949hc01.dat
@@ -3226,6 +3238,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\75878 - 6177949fs08.dat
 
 
+0 STEP
 0 FILE 75878 - 6177949ec01.dat
 0 Formed sticker assembly composed of geometry primitives defining a curved sticker surface.
 0 Name: 75878 - 6177949ec01.dat
@@ -3246,6 +3259,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\75878 - 6177949es08.dat
 
 
+0 STEP
 0 FILE 75878 - 973py4.dat
 0 Minifig torso subpart with race suit pattern featuring bright light blue, blue, and black borders over neutral faces.
 0 Name: 75878 - 973py4.dat
@@ -3802,6 +3816,7 @@
 
 
 
+0 STEP
 0 FILE 75878 - ldcRubberBandRndSeg.dat
 0 Single curved rubber band segment used to build up the round flexible band.
 0 Name: 75878 - ldcRubberBandRndSeg.dat
@@ -3825,6 +3840,7 @@
 
 
 
+0 STEP
 0 FILE s\75878 - logobugat01.dat
 0 Text logo spelling "Chiron" made up of individual letter primitives on a background.
 0 Name: s\75878 - logobugat01.dat
@@ -4743,6 +4759,7 @@
 3 16 13.5 0 -2.515 13.49 0 -2.4968 12.8818 0 -2.5102
 
 
+0 STEP
 0 FILE 75878 - ldcCyli8.dat
 0 Reusable cylindrical primitive segment used by the rubber band generator.
 0 Name: 75878 - ldcCyli8.dat
@@ -4775,6 +4792,7 @@
 
 
 
+0 STEP
 0 FILE 75878 - ldcConRing8.dat
 0 Reusable conical ring primitive segment used by the rubber band generator.
 0 Name: 75878 - ldcConRing8.dat
@@ -4801,6 +4819,7 @@
 
 
 
+0 STEP
 0 FILE s\75878 - 6177949fs01.dat
 0 Sticker face subpart with transparent, black, and dark blue colored surface regions.
 0 Name: s\75878 - 6177949fs01.dat
@@ -4850,6 +4869,7 @@
 4 272 -5.3536 -0.25 0.361 -4.8087 -0.25 0.4694 -5 -0.25 0.5075 -5.1913 -0.25 0.4694
 
 
+0 STEP
 0 FILE s\75878 - 6177949fs02.dat
 0 Sticker face subpart with transparent, black, dark blue, and white colored surface regions.
 0 Name: s\75878 - 6177949fs02.dat
@@ -4923,6 +4943,7 @@
 4 15 -2.7197 -0.25 -4.5744 -2.5571 -0.25 -4.8177 -1.7345 -0.25 -4.2297 -2.0126 -0.25 -3.8673
 
 
+0 STEP
 0 FILE s\75878 - 6177949fs03.dat
 0 Sticker face subpart with transparent, black, dark blue, and white colored surface regions.
 0 Name: s\75878 - 6177949fs03.dat
@@ -4988,6 +5009,7 @@
 4 15 -3.1015 -0.25 1.5601 -3.2216 -0.25 -0.0128 -2.2187 -0.25 -0.0128 -2.1044 -0.25 1.484
 
 
+0 STEP
 0 FILE s\75878 - 6177949fs04.dat
 0 Sticker face subpart with transparent, black, dark blue, and white colored surface regions.
 0 Name: s\75878 - 6177949fs04.dat
@@ -5058,6 +5080,7 @@
 3 15 -3.9618 -0.25 -7.0573 -2.8122 -0.25 -7.061 -3.7962 -0.25 -6.8333
 
 
+0 STEP
 0 FILE s\75878 - 6177949fs05.dat
 0 Sticker face subpart with transparent, black, dark blue, and white colored surface regions.
 0 Name: s\75878 - 6177949fs05.dat
@@ -5140,6 +5163,7 @@
 3 15 -5.5 -0.25 -0.0144 -5.3664 -0.25 0.7863 -5.4799 -0.25 0.8133
 
 
+0 STEP
 0 FILE s\75878 - 6177949fs06.dat
 0 Sticker face subpart with transparent, black, dark blue, and white colored surface regions and chord primitives.
 0 Name: s\75878 - 6177949fs06.dat
@@ -5203,6 +5227,7 @@
 3 15 -5.5 -0.25 0.0144 -5.25 -0.25 -0.194 -4.9201 -0.25 -0.194
 
 
+0 STEP
 0 FILE s\75878 - 6177949fs08.dat
 0 A cylindrical silver sticker element with curved chord and lateral faces forming a rounded cap shape.
 0 Name: s\75878 - 6177949fs08.dat
@@ -5267,6 +5292,7 @@
 5 24 -8 -7.7504 -14.5579 8 -7.7504 -14.5579 -8 -10.7408 -8.3808 -6.5 -5.282839 -18.445404
 
 
+0 STEP
 0 FILE s\75878 - 6177949hs01.dat
 0 A hood sticker detail combining transparent, black, and silver sections with halftone shading.
 0 Name: s\75878 - 6177949hs01.dat
@@ -5534,6 +5560,7 @@
 3 16 4 -0.25 5.3922 3.8481 -0.25 0.4711 4 -0.25 -0.0121
 
 
+0 STEP
 0 FILE s\75878 - 6177949hs02.dat
 0 A hood sticker detail with transparent, black, and silver sections plus halftone accent.
 0 Name: s\75878 - 6177949hs02.dat
@@ -6684,6 +6711,7 @@
 3 16 4 -0.25 -2.5386 4 -0.25 -1.8692 3.9657 -0.25 -1.9204
 
 
+0 STEP
 0 FILE s\75878 - 6177949hs03.dat
 0 A small hood sticker detail with transparent, black, and silver face elements.
 0 Name: s\75878 - 6177949hs03.dat
@@ -6702,6 +6730,7 @@
 4 80 4 -0.25 -0.0128 5.7 -0.25 -0.0128 5.7 -0.25 7.2284 4 -0.25 7.2284
 
 
+0 STEP
 0 FILE s\75878 - 6177949hs04.dat
 0 A small hood sticker detail with transparent, black, and silver face elements.
 0 Name: s\75878 - 6177949hs04.dat
@@ -6720,6 +6749,7 @@
 4 80 4 -0.25 0.0128 4 -0.25 -7.061 5.7 -0.25 -7.061 5.7 -0.25 0.0128
 
 
+0 STEP
 0 FILE s\75878 - 6177949hs05.dat
 0 A small hood sticker detail with transparent, black, and silver face elements.
 0 Name: s\75878 - 6177949hs05.dat
@@ -6746,6 +6776,7 @@
 4 80 5.7 -0.25 -0.0144 5.7 -0.25 6.8484 4 -0.25 6.8484 4 -0.25 -0.0144
 
 
+0 STEP
 0 FILE s\75878 - 6177949hs06.dat
 0 A hood sticker detail with curved chord edges and transparent, black, and silver sections.
 0 Name: s\75878 - 6177949hs06.dat
@@ -6774,6 +6805,7 @@
 4 80 5.7 -0.25 -4.5901 5.7 -0.25 0.0144 4 -0.25 0.0144 4 -0.25 -0.319
 
 
+0 STEP
 0 FILE s\75878 - 6177949es01.dat
 0 An engine sticker detail featuring silver and black circular nodes bordered with halftone filler.
 0 Name: s\75878 - 6177949es01.dat
@@ -6888,6 +6920,7 @@
 4 0 -0.474175 -0.25 -0.0028 -0.480381 -0.25 -0.0121 -0.269619 -0.25 -0.0121 -0.275825 -0.25 -0.0028
 
 
+0 STEP
 0 FILE s\75878 - 6177949es02.dat
 0 An engine sticker detail with silver and black circular nodes, bordered and accented with halftone shading.
 0 Name: s\75878 - 6177949es02.dat
@@ -7220,6 +7253,7 @@
 4 0 -0.48325 -0.25 0.0078 -0.5 -0.25 -0.0547 -0.25 -0.25 -0.0547 -0.26675 -0.25 0.0078
 
 
+0 STEP
 0 FILE s\75878 - 6177949es03.dat
 0 An engine sticker detail composed of silver nodes with black and silver borders on a transparent background.
 0 Name: s\75878 - 6177949es03.dat
@@ -7546,6 +7580,7 @@
 3 0 13.8306 -0.25 -0.0128 1.7 -0.25 0.1922 1.1 -0.25 0.1922
 
 
+0 STEP
 0 FILE s\75878 - 6177949es04.dat
 0 An engine sticker detail bearing the Bugatti logo with white and red accents on silver and black borders.
 0 Name: s\75878 - 6177949es04.dat
@@ -7985,6 +8020,7 @@
 3 4 1.76 -0.25 -7.061 3.44 -0.25 -6.15252 3.23368 -0.25 -6.079
 
 
+0 STEP
 0 FILE s\75878 - 6177949es05.dat
 0 An engine sticker featuring the Bugatti logo plus the word BUGATTI rendered in alternating highlighted letters.
 0 Name: s\75878 - 6177949es05.dat
@@ -8509,6 +8545,7 @@
 4 15 0.75 -0.25 4.6472 -0.41 -0.25 4.6472 -0.11 -0.25 4.4572 0.13 -0.25 4.4572
 
 
+0 STEP
 0 FILE s\75878 - 6177949es06.dat
 0 An engine sticker detail with curved edges and silver nodes framed by black and silver borders.
 0 Name: s\75878 - 6177949es06.dat
@@ -8548,6 +8585,7 @@
 4 0 -2.6274 -0.25 -1.416 -2.6582 -0.25 -1.6143 0 -0.25 -1.819 0 -0.25 -1.6328
 
 
+0 STEP
 0 FILE s\75878 - 6177949es08.dat
 0 A cylindrical silver sticker element with curved chord and lateral faces forming a rounded cap shape.
 0 Name: s\75878 - 6177949es08.dat

@@ -210,6 +210,7 @@
 1 0 -90 0 -70 0 0 1 0 1 0 -1 0 0 55982.dat
 
 
+0 STEP
 0 FILE 8256 - Steering wheel.ldr
 0 Steering assembly consisting of a small steering wheel mounted on axles and liftarms with a bent connector for directional control.
 0 Name: 8256 - Steering wheel.ldr
@@ -259,6 +260,7 @@
 1 71 0 -150.561 -2.439 -1 0 0 0 0.718 0.696 0 0.696 -0.718 2819.dat
 
 
+0 STEP
 0 FILE 8256 - subModel-1.ldr
 0 Engine crankshaft linkage built from a crankshaft, angle connector, and liftarms forming part of the mower's drive mechanism.
 0 Name: 8256 - subModel-1.ldr
@@ -285,6 +287,7 @@
 1 71 57.716 10 11.481 0 0.383 -0.924 1 0 0 0 -0.924 -0.383 2853.dat
 
 
+0 STEP
 0 FILE 8256 - subModel-2.ldr
 0 Compact crankshaft sub-assembly combining an engine crankshaft with an angle connector and axle for the drive train.
 0 Name: 8256 - subModel-2.ldr
@@ -303,6 +306,7 @@
 1 71 87.716 10 11.481 0 0.383 -0.924 1 0 0 0 -0.924 -0.383 2853.dat
 
 
+0 STEP
 0 FILE 8256 - technicFlexAxle-1.ldr
 0 Flexible Technic axle approximately 54.74 mm long made of 28 segments forming a curved structural element.
 0 Name: 8256 - technicFlexAxle-1.ldr
@@ -2323,6 +2327,7 @@
 5 24 73.417358 -100.44352 -11.5308 70.454491 -98.221367 -11.5308 73.599998 -100.199997 -10 72.897041 -101.137283 -12.8284
 
 
+0 STEP
 0 FILE 8256 - technicFlexAxle-2.ldr
 0 Flexible Technic axle approximately 54.74 mm long made of 28 segments serving as a second curved structural element.
 0 Name: 8256 - technicFlexAxle-2.ldr

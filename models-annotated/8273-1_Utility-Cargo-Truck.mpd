@@ -14,6 +14,7 @@
 
 
 
+0 STEP
 0 FILE 8273 - a-1.ldr
 0 Complex Technic mechanism assembly with gears, liftarms, and cross blocks forming a functional linkage structure
 0 Name: 8273 - a-1.ldr
@@ -282,6 +283,7 @@
 1 71 0 -255.385 645.988 0.966 0 0.259 0 1 0 -0.259 0 0.966 8273 - a-1c'.ldr
 0
 
+0 STEP
 0 FILE 8273 - a-1a.ldr
 0 Simple liftarm assembly with a long beam connected by friction pins
 0 Name: 8273 - a-1a.ldr
@@ -299,6 +301,7 @@
 1 0 40 -20 0 0 1 0 -1 0 0 0 0 1 6558.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1b.ldr
 0 Compact axle-and-pin assembly with a cross block and stop axle
 0 Name: 8273 - a-1b.ldr
@@ -319,6 +322,7 @@
 1 71 -25 0 -20 0 0 -1 -1 0 0 0 1 0 32123b.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1c.ldr
 0 Rack gear assembly with a liftarm beam and mounting plates for linear motion control
 0 Name: 8273 - a-1c.ldr
@@ -348,6 +352,7 @@
 0 STEP
 0
 
+0 STEP
 0 FILE 8273 - a-1d.ldr
 0 Short axle connector assembly joining offset axle joiners with a notched axle
 0 Name: 8273 - a-1d.ldr
@@ -368,6 +373,7 @@
 1 0 0 0 -100 0 0 1 0 1 0 -1 0 0 3706.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1e.ldr
 0 Bent liftarm linkage assembly with axles and a cross block forming an articulating joint
 0 Name: 8273 - a-1e.ldr
@@ -406,6 +412,7 @@
 1 4 0 -30 -20 0 0 -1 1 0 0 0 -1 0 32062.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1ea.ldr
 0 Small articulating joint assembly with a cross block, axle, and liftarm boss connector
 0 Name: 8273 - a-1ea.ldr
@@ -424,6 +431,7 @@
 1 0 20 0 0 0 1 0 1 0 0 0 0 -1 33299.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1f.ldr
 0 Double-bent 45-degree liftarm linkage mounted with friction pins
 0 Name: 8273 - a-1f.ldr
@@ -445,6 +453,7 @@
 1 1 160 0 -10 0 1 0 0 0 1 1 0 0 43093.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1g.ldr
 0 Turntable assembly with base and top rings enabling rotational movement
 0 Name: 8273 - a-1g.ldr
@@ -471,6 +480,7 @@
 1 71 60 -80 20 0 -1 0 0 0 1 -1 0 0 32526.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1h.ldr
 0 Long dual-beam structural assembly with thirteen-stud beams and numerous connecting pins
 0 Name: 8273 - a-1h.ldr
@@ -524,6 +534,7 @@
 1 71 20 -60 -80 -1 0 0 0 0 1 0 1 0 4519.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1ha.ldr
 0 Small gear-and-axle assembly with a yellow 4-knob gear and cross block connector
 0 Name: 8273 - a-1ha.ldr
@@ -548,6 +559,7 @@
 1 72 0 30 0 -0.707107 -0.707107 0 0 0 -1 0.707107 -0.707107 0 6538b.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1i.ldr
 0 Short beam and pin connector assembly forming a rigid linkage
 0 Name: 8273 - a-1i.ldr
@@ -570,6 +582,7 @@
 1 71 -20 -10 0 0 -1 0 0 0 -1 1 0 0 43857.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1j.ldr
 0 Eleven-stud liftarm linkage with bent beam and cross block pivot point
 0 Name: 8273 - a-1j.ldr
@@ -599,6 +612,7 @@
 1 0 10 -20 140 -1 0 0 0 1 0 0 0 -1 2780.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1k.ldr
 0 Axle-mounted wheel or roller assembly with bent liftarms and bushings
 0 Name: 8273 - a-1k.ldr
@@ -648,6 +662,7 @@
 1 71 -45 -60 20 0 -1 0 -1 0 0 0 0 -1 41677.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1ka.ldr
 0 Paired axle and thin liftarm connector sub-assembly
 0 Name: 8273 - a-1ka.ldr
@@ -667,6 +682,7 @@
 1 71 -5 0 -10 0 -1 0 1 0 0 0 0 1 41677.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1kb.ldr
 0 Offset axle joiner assembly with two axles and half-bushings
 0 Name: 8273 - a-1kb.ldr
@@ -689,6 +705,7 @@
 1 71 -25 0 0 0 0 -1 0 1 0 1 0 0 32123b.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1kc.ldr
 0 Offset axle joiner assembly with longer axles and half-bushings
 0 Name: 8273 - a-1kc.ldr
@@ -711,6 +728,7 @@
 1 71 -25 0 0 0 0 -1 0 1 0 1 0 0 32123b.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1kd.ldr
 0 Small light fixture assembly with clear and orange round trans plates on a cross block
 0 Name: 8273 - a-1kd.ldr
@@ -733,6 +751,7 @@
 1 57 -10 -20 -18 1 0 0 0 0 -1 0 1 0 6141.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1ke.ldr
 0 Small light fixture assembly with clear and orange round trans plates on a cross block
 0 Name: 8273 - a-1ke.ldr
@@ -755,6 +774,7 @@
 1 57 10 -20 -18 1 0 0 0 0 -1 0 1 0 6141.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1l.ldr
 0 Eleven-stud liftarm linkage assembly with bent beam and cross block pivot
 0 Name: 8273 - a-1l.ldr
@@ -783,6 +803,7 @@
 1 0 30 -20 140 -1 0 0 0 1 0 0 0 -1 2780.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1m.ldr
 0 Angled pin connector assembly with a 135-degree angle connector
 0 Name: 8273 - a-1m.ldr
@@ -801,6 +822,7 @@
 1 0 0 -30 0 0 0.707107 -0.707107 1 0 0 0 -0.707107 -0.707107 32192.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1n.ldr
 0 Simple two-piece pin-and-axle connector joint
 0 Name: 8273 - a-1n.ldr
@@ -816,6 +838,7 @@
 1 1 30 0 0 -1 0 0 0 0 -1 0 -1 0 43093.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1o.ldr
 0 Large bent liftarm bracket assembly with cross blocks and pins forming a structural mount
 0 Name: 8273 - a-1o.ldr
@@ -852,6 +875,7 @@
 1 0 -10 -40 -60 1 0 0 0 1 0 0 0 1 8273 - a-1ob.ldr
 0
 
+0 STEP
 0 FILE 8273 - a-1oa.ldr
 0 Offset axle joiner sub-assembly with blue liftarms and connecting axles
 0 Name: 8273 - a-1oa.ldr
@@ -877,6 +901,7 @@
 1 0 0 20 0 0 -1 0 0 0 1 -1 0 0 3706.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1ob.ldr
 0 A small pin connector subassembly with a friction pin and round joiner.
 0 Name: 8273 - a-1ob.ldr
@@ -892,6 +917,7 @@
 1 0 20 0 0 1 0 0 0 1 0 0 0 1 2780.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1p.ldr
 0 A bent liftarm linkage with cross blocks and friction pins for axle mounting.
 0 Name: 8273 - a-1p.ldr
@@ -928,6 +954,7 @@
 1 0 60 -40 10 1 0 0 0 1 0 0 0 1 8273 - a-1pb.ldr
 0
 
+0 STEP
 0 FILE 8273 - a-1pa.ldr
 0 A blue liftarm axle assembly joined with offset connectors and an axle joiner.
 0 Name: 8273 - a-1pa.ldr
@@ -953,6 +980,7 @@
 1 0 0 20 0 -1 0 0 0 0 1 0 1 0 3706.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1pb.ldr
 0 A small pin connector subassembly with a friction pin and round joiner.
 0 Name: 8273 - a-1pb.ldr
@@ -968,6 +996,7 @@
 1 0 0 0 -20 0 0 1 0 1 0 -1 0 0 2780.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1q.ldr
 0 A bent liftarm mounting bracket with cross block and long axle.
 0 Name: 8273 - a-1q.ldr
@@ -993,6 +1022,7 @@
 1 1 20 0 -20 -1 0 0 0 0 1 0 1 0 43093.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1r.ldr
 0 A bent liftarm mounting bracket with cross block and long axle.
 0 Name: 8273 - a-1r.ldr
@@ -1018,6 +1048,7 @@
 1 1 -20 0 -20 1 0 0 0 0 1 0 -1 0 43093.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1s.ldr
 0 A short beam axle assembly with long stop pins for pivoting attachment.
 0 Name: 8273 - a-1s.ldr
@@ -1038,6 +1069,7 @@
 1 71 80 0 -20 0 -1 0 -1 0 0 0 0 -1 32523.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1t.ldr
 0 A steering linkage assembly featuring a small steering wheel on a long beam.
 0 Name: 8273 - a-1t.ldr
@@ -1060,6 +1092,7 @@
 1 71 60 0 34 1 0 0 0 0 1 0 -1 0 2819.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1u.ldr
 0 A small cross block pivot with notched axle and stop pin.
 0 Name: 8273 - a-1u.ldr
@@ -1078,6 +1111,7 @@
 1 72 0 0 40 0 0 -1 0 -1 0 -1 0 0 6536.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1v.ldr
 0 A structural beam subassembly with offset axle joiners, cross blocks, and combined liftarms.
 0 Name: 8273 - a-1v.ldr
@@ -1122,6 +1156,7 @@
 0 STEP
 0
 
+0 STEP
 0 FILE 8273 - a-1w.ldr
 0 A body panel subassembly with blue fairing panels, grille tiles, and mounting plates.
 0 Name: 8273 - a-1w.ldr
@@ -1164,6 +1199,7 @@
 1 1 52 0 10 0 -1 0 -1 0 0 0 0 -1 32528.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1x.ldr
 0 A light assembly with a long beam, round transparent plates, and a grooved tile.
 0 Name: 8273 - a-1x.ldr
@@ -1210,6 +1246,7 @@
 0 Sticker
 0
 
+0 STEP
 0 FILE 8273 - a-1y.ldr
 0 A long structural beam assembly with perpendicular connectors and angle connector for framework.
 0 Name: 8273 - a-1y.ldr
@@ -1271,6 +1308,7 @@
 1 71 -20 -10 100 -1 0 0 0 1 0 0 0 -1 8273 - a-1yj.ldr
 0
 
+0 STEP
 0 FILE 8273 - a-1ya.ldr
 0 A small cross block with axle pins for perpendicular connection.
 0 Name: 8273 - a-1ya.ldr
@@ -1288,6 +1326,7 @@
 1 1 10 0 20 -1 0 0 0 0 1 0 1 0 43093.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1yb.ldr
 0 A short offset axle joiner coupling.
 0 Name: 8273 - a-1yb.ldr
@@ -1303,6 +1342,7 @@
 1 72 0 0 0 1 0 0 0 1 0 0 0 1 6538b.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1yc.ldr
 0 A pivot assembly with cross block, liftarm, half-bush, and transparent round plates.
 0 Name: 8273 - a-1yc.ldr
@@ -1330,6 +1370,7 @@
 1 47 -10 -20 0 0 -1 0 0 0 1 -1 0 0 6141.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1yd.ldr
 0 A pivot assembly with cross block, liftarm, half-bush, and transparent round plates.
 0 Name: 8273 - a-1yd.ldr
@@ -1357,6 +1398,7 @@
 1 47 -10 -20 20 0 -1 0 0 0 1 -1 0 0 6141.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1ye.ldr
 0 An angled axle connector assembly with offset joiner and angle connector.
 0 Name: 8273 - a-1ye.ldr
@@ -1377,6 +1419,7 @@
 1 72 -30 0 -50 0 -1 0 -1 0 0 0 0 -1 6538b.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1yf.ldr
 0 A long blue beam with a perpendicular bent pin connector.
 0 Name: 8273 - a-1yf.ldr
@@ -1392,6 +1435,7 @@
 1 71 -20 0 0 0 1 0 -1 0 0 0 0 1 55615.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1yg.ldr
 0 A body panel subassembly with blue bent liftarm, grille tile, and mounting plate.
 0 Name: 8273 - a-1yg.ldr
@@ -1424,6 +1468,7 @@
 1 71 -51.34 -50 15 0 -0.866025 0.5 1 0 0 0 0.5 0.866025 2444.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1yh.ldr
 0 A body panel subassembly with blue bent liftarm, grille tile, and mounting plate.
 0 Name: 8273 - a-1yh.ldr
@@ -1456,6 +1501,7 @@
 1 71 -51.34 -50 -15 0 -0.866025 -0.5 1 0 0 0 -0.5 0.866025 2444.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1yi.ldr
 0 An angled axle end with a 135-degree angle connector.
 0 Name: 8273 - a-1yi.ldr
@@ -1471,6 +1517,7 @@
 1 0 0 0 -50 0 1 0 1 0 0 0 0 -1 32192.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1yj.ldr
 0 A small light assembly with orange transparent round plates on a pin.
 0 Name: 8273 - a-1yj.ldr
@@ -1491,6 +1538,7 @@
 1 57 0 -24 0 0 0 1 0 1 0 -1 0 0 6141.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1z.ldr
 0 A gear and bush subassembly on an axle for power transmission.
 0 Name: 8273 - a-1z.ldr
@@ -1510,6 +1558,7 @@
 0 
 0
 
+0 STEP
 0 FILE 8273 - a-1a'.ldr
 0 A complex chassis substructure with multiple bent liftarms, gears, a towball hook, and interconnected beams.
 0 Name: 8273 - a-1a'.ldr
@@ -1627,6 +1676,7 @@
 0 STEP
 0
 
+0 STEP
 0 FILE 8273 - a-1a'a.ldr
 0 Small axle and pin connector assembly with a stop bush and short axle.
 0 Name: 8273 - a-1a'a.ldr
@@ -1644,6 +1694,7 @@
 1 71 -40 0 0 1 0 0 0 1 0 0 0 1 4519.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1a'b.ldr
 0 Compact mechanical linkage with bent liftarms, cross blocks, and translucent round plates forming a pivoting joint with indicator lights.
 0 Name: 8273 - a-1a'b.ldr
@@ -1698,6 +1749,7 @@
 1 1 -30 0 -60 1 0 0 0 0 -1 0 1 0 43093.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1a'c.ldr
 0 Axle-mounted liftarm subassembly with bushings and a cross block for rotational support.
 0 Name: 8273 - a-1a'c.ldr
@@ -1730,6 +1782,7 @@
 1 0 -70 20 0 1 0 0 0 0 -1 0 1 0 3705.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1a'd.ldr
 0 Cross block and axle pin cluster forming a multi-point connector hub.
 0 Name: 8273 - a-1a'd.ldr
@@ -1755,6 +1808,7 @@
 1 1 -30 -20 -40 1 0 0 0 0 1 0 -1 0 43093.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1a'e.ldr
 0 Bent liftarm linkage with cross blocks and bushings for an articulated lever mechanism.
 0 Name: 8273 - a-1a'e.ldr
@@ -1790,6 +1844,7 @@
 0 STEP
 0
 
+0 STEP
 0 FILE 8273 - a-1a'f.ldr
 0 Simple beam and pin connector forming a short pivoting arm.
 0 Name: 8273 - a-1a'f.ldr
@@ -1807,6 +1862,7 @@
 1 4 0 0 -20 1 0 0 0 0 -1 0 1 0 32054.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1a'g.ldr
 0 Double bent 45-degree liftarm attached with friction pins, forming an angled structural bracket.
 0 Name: 8273 - a-1a'g.ldr
@@ -1826,6 +1882,7 @@
 1 0 -10 -40 0 1 0 0 0 -1 0 0 0 -1 2780.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1a'h.ldr
 0 Large bent liftarm mounted on a cross block and axle pin, forming an angled support arm.
 0 Name: 8273 - a-1a'h.ldr
@@ -1844,6 +1901,7 @@
 1 0 -20 0 -80 0 -1 0 1 0 0 0 0 1 6629.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1a'i.ldr
 0 Bent liftarm with axle and cross block connector forming an angled structural arm.
 0 Name: 8273 - a-1a'i.ldr
@@ -1864,6 +1922,7 @@
 1 0 20 0 -80 0 -1 0 1 0 0 0 0 1 6629.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1a'j.ldr
 0 Worm gear and 12-tooth bevel gear assembly on offset axles forming a small reduction gearbox.
 0 Name: 8273 - a-1a'j.ldr
@@ -1886,6 +1945,7 @@
 1 0 0 -70 0 0 -1 0 0 0 1 -1 0 0 4716.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1a'k.ldr
 0 Axle with half-bushings and cross block mounted on a liftarm for a guided rotating element.
 0 Name: 8273 - a-1a'k.ldr
@@ -1909,6 +1969,7 @@
 1 0 -25 30 0 0 1 0 0 0 -1 -1 0 0 32449.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1a'l.ldr
 0 24-tooth crown gear mounted on an axle between liftarms with a notched retaining axle.
 0 Name: 8273 - a-1a'l.ldr
@@ -1932,6 +1993,7 @@
 1 4 0 0 60 1 0 0 0 -1 0 0 0 -1 32062.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1a'm.ldr
 0 Long red beam assembly with multiple pins forming a structural frame or linkage support.
 0 Name: 8273 - a-1a'm.ldr
@@ -1971,6 +2033,7 @@
 1 4 40 0 160 0 -1 0 1 0 0 0 0 1 2825.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1a'ma.ldr
 0 Short red liftarm with boss mounted via cross block and notched axle for a lever attachment.
 0 Name: 8273 - a-1a'ma.ldr
@@ -1991,6 +2054,7 @@
 1 72 20 0 60 1 0 0 0 -1 0 0 0 -1 6536.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1a'n.ldr
 0 8-tooth gear on an axle pin forming a small drive gear element.
 0 Name: 8273 - a-1a'n.ldr
@@ -2006,6 +2070,7 @@
 1 1 10 0 0 -1 0 0 0 0 -1 0 -1 0 43093.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1a'o.ldr
 0 Reel spool mounted on a long axle with half-bushings forming a winch drum assembly.
 0 Name: 8273 - a-1a'o.ldr
@@ -9427,6 +9492,7 @@
 1 71 -25 0 0 0 0 1 0 1 0 -1 0 0 32123b.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1a'p.ldr
 0 Simple bent 90-degree liftarm attached with a friction pin.
 0 Name: 8273 - a-1a'p.ldr
@@ -9442,6 +9508,7 @@
 1 0 10 20 -60 -1 0 0 0 -1 0 0 0 1 2780.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1a'q.ldr
 0 Angled linkage assembly with bent liftarms, gears, and pins forming a geared pivot mechanism.
 0 Name: 8273 - a-1a'q.ldr
@@ -9479,6 +9546,7 @@
 0 STEP
 0
 
+0 STEP
 0 FILE 8273 - a-1a'r.ldr
 0 Offset axle joiner with a short axle forming a coupling element.
 0 Name: 8273 - a-1a'r.ldr
@@ -9494,6 +9562,7 @@
 1 72 0 0 0 0 0 1 0 1 0 -1 0 0 6538b.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1a's.ldr
 0 Large structural frame with long beams, bent liftarms, and many connecting pins.
 0 Name: 8273 - a-1a's.ldr
@@ -9554,6 +9623,7 @@
 0 STEP
 0
 
+0 STEP
 0 FILE 8273 - a-1a'sa.ldr
 0 Cross block with notched axle forming a small connector element.
 0 Name: 8273 - a-1a'sa.ldr
@@ -9570,6 +9640,7 @@
 1 4 -10 0 0 1 0 0 0 0 1 0 -1 0 32062.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1a'sb.ldr
 0 Beam with cross blocks and axle pins forming a multi-point linkage connector.
 0 Name: 8273 - a-1a'sb.ldr
@@ -9600,6 +9671,7 @@
 1 1 20 10 80 0 0 -1 -1 0 0 0 1 0 43093.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1a't.ldr
 0 12-tooth bevel gear with bushing on an axle forming a small drive gear element.
 0 Name: 8273 - a-1a't.ldr
@@ -9618,6 +9690,7 @@
 1 71 10 0 0 0 0 1 0 1 0 -1 0 0 3713.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1a'u.ldr
 0 Large triangular liftarm frame structure with long beams and pins forming a structural chassis element.
 0 Name: 8273 - a-1a'u.ldr
@@ -9698,6 +9771,7 @@
 1 72 -100 0 -80 0 1 0 -1 0 0 0 0 1 32523.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1a'ua.ldr
 0 Pair of axles with liftarm spacers forming a parallel connector link.
 0 Name: 8273 - a-1a'ua.ldr
@@ -9718,6 +9792,7 @@
 1 71 0 -20 0 1 0 0 0 1 0 0 0 1 32073.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1a'ub.ldr
 0 A small Technic connector sub-assembly with a cross block, stopped axle, and friction pin.
 0 Name: 8273 - a-1a'ub.ldr
@@ -9736,6 +9811,7 @@
 0 
 0
 
+0 STEP
 0 FILE 8273 - a-1b'.ldr
 0 A structural sub-assembly of bent liftarms, pin joiners, and large plates forming a braced frame.
 0 Name: 8273 - a-1b'.ldr
@@ -9791,6 +9867,7 @@
 1 71 0 21.2 -38.4 -1 0 0 0 0.600001 0.799999 0 0.799999 -0.600001 6180.dat
 0
 
+0 STEP
 0 FILE 8273 - a-1c'.ldr
 0 A Technic sub-assembly of tan plates and bricks with an axle and bushes for a sliding or braced linkage.
 0 Name: 8273 - a-1c'.ldr
@@ -9819,6 +9896,7 @@
 0
 0
 
+0 STEP
 0 FILE 8273 - LS60.dat
 0 A part reference submodel with no direct pieces, used as a decorative or custom element.
 0 Name: 8273 - LS60.dat

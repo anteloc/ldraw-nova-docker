@@ -8,6 +8,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 40193 - Ferrari 512 S.ldr
 
 
+0 STEP
 0 FILE 40193 - Ferrari 512 S.ldr
 0 A yellow race car bodyshell with a pull-back motor, curved slopes, mudguards, and clear light plates.
 0 Name: 40193 - Ferrari 512 S.ldr
@@ -118,6 +119,7 @@
 1 14 -40 5 60 -1 0 0 0 1 0 0 0 -1 40193 - Wheel.ldr
 
 
+0 STEP
 0 FILE 40193 - Wheel.ldr
 0 A black rubber tyre mounted on a gold-spoked wheel rim.
 0 Name: 40193 - Wheel.ldr

@@ -12,6 +12,7 @@
 1 4 76.699 0 -75.001 0.5 0 0.866 0 1 0 -0.866 0 0.5 6527 - minifig.ldr
 
 0 NOFILE
+0 STEP
 0 FILE 6527 - car.ldr
 0 A compact car built on a 4x5 car base with doors, headlights, hinges, steering wheel, and transparent round elements for windows.
 0 car
@@ -101,6 +102,7 @@
 1 6 -45 26 -50 0 0 1 0 -1 0 1 0 0 3836.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6527 - minifig.ldr
 0 A minifig with blue legs and arms, a white horizontally-striped torso, a standard grin head, and a blue cap with a flat peak.
 0 minifig

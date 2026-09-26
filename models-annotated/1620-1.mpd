@@ -10,6 +10,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 1620 - Spaceship.ldr
 1 0 0 -69 -12 1 0 0 0 1 0 0 0 1 1620 - Minifig.ldr
 
+0 STEP
 0 FILE 1620 - Spaceship.ldr
 0 The central body of a small spaceship, built from plates, hinge plates, and control sticks forming the cockpit and maneuvering controls.
 0 Name: 1620 - Spaceship.ldr
@@ -46,6 +47,7 @@
 1 0 -30 -16 0 0.996195 -0.0805214 -0.0333531 0 0.382683 -0.92388 0.0871557 0.920364 0.381227 4593.dat
 
 
+0 STEP
 0 FILE 1620 - Spaceship - Wing 1.ldr
 0 A spaceship wing panel with a corner plate, transparent light, grille tile detail, and a computer display element.
 0 Name: 1620 - Spaceship - Wing 1.ldr
@@ -68,6 +70,7 @@
 
 
 
+0 STEP
 0 FILE 1620 - Spaceship - Wing 2.ldr
 0 A spaceship wing panel with a corner plate, transparent light, grille tile detail, and a computer display element.
 0 Name: 1620 - Spaceship - Wing 2.ldr
@@ -90,6 +93,7 @@
 
 
 
+0 STEP
 0 FILE 1620 - Spaceship - Hinge.ldr
 0 A hinged thruster mount assembly using a hinge base, offset stud plate, and two transparent red cones as engines.
 0 Name: 1620 - Spaceship - Hinge.ldr
@@ -110,6 +114,7 @@
 
 
 
+0 STEP
 0 FILE 1620 - Minifig.ldr
 0 A classic yellow Futuron minifigure with white patterned torso, airtanks, radio, and articulated arms and legs.
 0 Name: 1620 - Minifig.ldr
@@ -145,6 +150,7 @@
 
 
 
+0 STEP
 0 FILE 1620 - Minifig - Helmet.ldr
 0 A standard space helmet with transparent dark blue visor for the minifigure.
 0 Name: 1620 - Minifig - Helmet.ldr

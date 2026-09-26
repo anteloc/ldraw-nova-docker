@@ -11,6 +11,7 @@
 1 0 0 -69 28 1 0 0 0 1 0 0 0 1 1974 - Minifig.ldr
 
 
+0 STEP
 0 FILE 1974 - Vehicle.ldr
 0 A black-and-white spacecraft fuselage featuring sloped nose with Classic Space logo, twin folding wings via hinge plates, grille detail, trans-red antenna tips, and a bracket-mounted body.
 0 Name: 1974 - Vehicle.ldr
@@ -50,6 +51,7 @@
 1 36 -30 -6 -150 -1 0 0 0 0 -1 0 -1 0 3957a.dat
 
 
+0 STEP
 0 FILE 1974 - Vehicle - Wing 1.ldr
 0 A foldable wing assembly built from a white 3x4 wing element with cutout, black hinge and plate substructure, a patterned control-button tile, and twin trans-dark-blue inverted dish thrusters.
 0 Name: 1974 - Vehicle - Wing 1.ldr
@@ -79,6 +81,7 @@
 1 33 50 4 -20 0 0 -1 0 1 0 1 0 0 4740.dat
 
 
+0 STEP
 0 FILE 1974 - Vehicle - Wing 2.ldr
 0 A foldable wing assembly mirroring Wing 1, using a white 3x4 wing element with cutout, black hinge and plate substructure, a computer-display pattern tile, and twin trans-dark-blue inverted dish thrusters.
 0 Name: 1974 - Vehicle - Wing 2.ldr
@@ -108,6 +111,7 @@
 1 33 -50 4 -20 0 0 -1 0 1 0 1 0 0 4740.dat
 
 
+0 STEP
 0 FILE 1974 - Minifig.ldr
 0 A white-torsoed Futuron astronaut minifigure with a smiling yellow head, black airtanks, and black arms, hips, hands, and legs.
 0 Name: 1974 - Minifig.ldr
@@ -140,6 +144,7 @@
 1 0 -22.107 16.4192 -19.6835 0.985 -0.168707 0.0207147 0.17 0.97751 -0.120023 0 0.121851 0.992396 3820.dat
 
 
+0 STEP
 0 FILE 1974 - Minifig - Helmet.ldr
 0 A white Classic Space helmet paired with a trans-dark-blue standard visor.
 0 Name: 1974 - Minifig - Helmet.ldr

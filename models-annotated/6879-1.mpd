@@ -10,6 +10,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 6879 - Spaceship.ldr
 
 
+0 STEP
 0 FILE 6879 - Spaceship.ldr
 0 A small assembly consisting of six trans-neon-orange minifig skis with hinges, likely serving as wing-mounted skis or decorative elements.
 0 Name: 6879 - Spaceship.ldr
@@ -34,6 +35,7 @@
 1 38 -10 8.987 -212.638 1 0 0 0 1 0 0 0 1 6120.dat
 
 
+0 STEP
 0 FILE 6879 - Spaceship - Main.ldr
 0 The main hull of the snowspeeder built from white and black plates and wings with blue accent hinge plates, a control panel tile, and a boat bow plate forming the nose.
 0 Name: 6879 - Spaceship - Main.ldr
@@ -145,6 +147,7 @@
 1 0 0 0 130 1 0 0 0 1 0 0 0 1 6879 - Spaceship - Radar.ldr
 
 
+0 STEP
 0 FILE 6879 - Spaceship - Cockpit.ldr
 0 The cockpit assembly made of a white top hinge and a large trans-neon-orange transparent canopy panel.
 0 Name: 6879 - Spaceship - Cockpit.ldr
@@ -160,6 +163,7 @@
 1 38 0 -146 0 1 0 0 0 1 0 0 0 1 2466.dat
 
 
+0 STEP
 0 FILE 6879 - Spaceship - Radar.ldr
 0 A radar array subassembly with a cornerless base plate, a blue turntable, a trans-neon-orange round brick and cone sensor, and a control panel tile.
 0 Name: 6879 - Spaceship - Radar.ldr
@@ -193,6 +197,7 @@
 1 1 0 -40 10 1 0 0 0 1 0 0 0 1 3680.dat
 1 0 0 -40 10 0.9397 0 0.342 0 1 0 -0.342 0 0.9397 6879 - Spaceship - Radar - Turntable.ldr
 
+0 STEP
 0 FILE 6879 - Spaceship - Radar - Turntable.ldr
 0 A rotating turntable mount built from a light-grey turntable top, a round axle plate, a handle plate, and a blue side-hinge plate.
 0 Name: 6879 - Spaceship - Radar - Turntable.ldr
@@ -211,6 +216,7 @@
 1 0 0 -14 30 1 0 0 0 0.9659 0.2588 0 -0.2588 0.9659 6879 - Spaceship - Radar - Turntable - Antenna.ldr
 1 0 0 -20 -10 1 0 0 0 -0.5 0.866 0 -0.866 -0.5 6879 - Spaceship - Radar - Turntable - Radar.ldr
 
+0 STEP
 0 FILE 6879 - Spaceship - Radar - Turntable - Antenna.ldr
 0 A trans-neon-orange whip antenna mounted on a small black clip plate.
 0 Name: 6879 - Spaceship - Radar - Turntable - Antenna.ldr
@@ -226,6 +232,7 @@
 1 38 0 -10 20 1 0 0 0 1 0 0 0 1 2569.dat
 
 
+0 STEP
 0 FILE 6879 - Spaceship - Radar - Turntable - Radar.ldr
 0 A radar dish element formed from a blue hinge plate, a large trans-neon-orange inverted dish, and a small cone.
 0 Name: 6879 - Spaceship - Radar - Turntable - Radar.ldr
@@ -243,6 +250,7 @@
 1 38 0 20 -20 0 0 -1 0 1 0 1 0 0 4589.dat
 
 
+0 STEP
 0 FILE 6879 - Spaceship - Main + Minifig.ldr
 0 A container submodel combining the completed spaceship hull with the included pilot minifigure.
 0 Name: 6879 - Spaceship - Main + Minifig.ldr
@@ -256,6 +264,7 @@
 1 0 0 -73 -42 1 0 0 0 1 0 0 0 1 6879 - Minifig.ldr
 
 
+0 STEP
 0 FILE 6879 - Minifig.ldr
 0 An Ice Planet pilot minifigure with a messy white hair head, black torso with silver Ice Planet pattern, white airtanks and arms, and blue hips and hands.
 0 Name: 6879 - Minifig.ldr
@@ -288,6 +297,7 @@
 1 0 0 44 0 1 0 0 0 0 1 0 -1 0 3817.dat
 
 
+0 STEP
 0 FILE 6879 - Minifig - Helmet.ldr
 0 A white standard helmet fitted with a trans-neon-orange shielded visor featuring an antenna.
 0 Name: 6879 - Minifig - Helmet.ldr

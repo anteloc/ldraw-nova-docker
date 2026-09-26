@@ -13,6 +13,7 @@
 
 
 
+0 STEP
 0 FILE 5770 - Minifig.ldr
 0 A minifigure with a dark blue lower body, orange hooded jacket, yellow hands, and a bearded yellow head wearing a dark bluish grey knit cap.
 0 Name: 5770 - Minifig.ldr
@@ -48,6 +49,7 @@
 
 
 
+0 STEP
 0 FILE 5770 - Boat.ldr
 0 A small white and yellow boat built from wing, slope, and plate pieces with hinges and corner plates for a rounded hull shape.
 0 Name: 5770 - Boat.ldr
@@ -136,6 +138,7 @@
 
 
 
+0 STEP
 0 FILE 5770 - Building.ldr
 0 A large coastal building on blue base plates constructed from grey and dark bluish grey bricks, corner bricks, and multiple slope elements with green accents.
 0 Name: 5770 - Building.ldr
@@ -989,6 +992,7 @@
 
 
 
+0 STEP
 0 FILE 5770 - Lighthouse top.ldr
 0 A tall black lighthouse top section with clear window bricks, hollow stud columns, and an inverted dish dome with a technic axle lantern mechanism.
 0 Name: 5770 - Lighthouse top.ldr
@@ -1102,6 +1106,7 @@
 
 
 
+0 STEP
 0 FILE 5770 - 3626bp8l.dat
 0 A decorated minifig head submodel consisting of two cylindrical detail elements forming facial features.
 0 Name: 5770 - 3626bp8l.dat
@@ -1595,6 +1600,7 @@
 5 24 0 18.5309 -12.6193 0 17 -13 4.8293 18.5309 -11.6593 -4.8293 18.5309 -11.6593
 
 
+0 STEP
 0 FILE 5770 - 973pu7.dat
 0 A patterned minifig torso submodel with four white disc buttons and black detailing on an orange jacket.
 0 Name: 5770 - 973pu7.dat
@@ -2538,6 +2544,7 @@
 4 16 2.8 3.8 10 0 3.9 10 0 0 10 5.2 3.7 10
 
 
+0 STEP
 0 FILE 5770 - 3039d01.dat
 0 A 2x2 sloped brick decorated with a chrome silver mirror sticker.
 0 Name: 5770 - 3039d01.dat
@@ -2553,6 +2560,7 @@
 1 16 0 10 -20 1 0 0 0 0.70711 -0.70711 0 0.70711 0.70711 5770 - 4629791a.dat
 
 
+0 STEP
 0 FILE 5770 - 85984d08.dat
 0 85984d08
 0 Name: 5770 - 85984d08.dat
@@ -2568,6 +2576,7 @@
 1 16 0 -10 0 1 0 0 0 0.857491 -0.514499 0 0.514499 0.857491 5770 - 4629791b.dat
 
 
+0 STEP
 0 FILE 5770 - 4629791a.dat
 0 A sticker decoration submodel rendered as a five-faced box surface.
 0 Name: 5770 - 4629791a.dat
@@ -2585,6 +2594,7 @@
 4 383 19 -0.25 13 -19 -0.25 13 -19 -0.25 -13 19 -0.25 -13
 
 
+0 STEP
 0 FILE 5770 - 4629791b.dat
 0 A chrome silver mirror sticker submodel rendered as a five-faced box surface.
 0 Name: 5770 - 4629791b.dat

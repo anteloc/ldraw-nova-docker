@@ -9,6 +9,7 @@
 1 256 -110.353 -180 -108.637 1 0 0 0 1 0 0 0 1 42062 - container.ldr
 1 256 309.647 -30 301.363 0 0 1 0 1 0 -1 0 0 42062 - handler.ldr
 1 256 -97.452 -308.081 419.363 -1 0 0 0 1 0 0 0 -1 42062 - container.ldr
+0 STEP
 0 FILE 42062 - tractor.ldr
 0 Technic chassis submodel built with beams, cross blocks, and friction pins forming the tractor's drivetrain and frame.
 0 Name: 42062 - tractor.ldr
@@ -324,6 +325,7 @@
 0 // Tyre 14/ 50 x 17 VR (rubber_black)
 1 256 -50 20 40 0 0 1 0 1 0 -1 0 0 58090.dat
 0 STEP
+0 STEP
 0 FILE 42062 - tractorfront.ldr
 0 Front axle assembly with steering linkage, angle connectors, and toggle joints for the tractor.
 0 Name: 42062 - tractorfront.ldr
@@ -404,6 +406,7 @@
 1 15 0 20 60 0 0 -1 0 1 0 1 0 0 32523.dat
 0 // Technic Beam  3 (white)
 1 15 0 -20 100 0 0 -1 0 1 0 1 0 0 32523.dat
+0 STEP
 0 FILE 42062 - dashboard.ldr
 0 Dashboard module incorporating a steering wheel, liftarms, and axle connectors for the cab interior.
 0 Name: 42062 - dashboard.ldr
@@ -441,6 +444,7 @@
 1 0 -40 -20 -20 0 -1 0 1 0 0 0 0 1 15100.dat
 0 // Technic Beam  7 (white)
 1 15 0 0 -20 0 0 -1 0 -1 0 -1 0 0 32524.dat
+0 STEP
 0 FILE 42062 - trailer.ldr
 0 Long trailer frame constructed from beams 11 and 13 with pins and cross blocks forming a chassis.
 0 Name: 42062 - trailer.ldr
@@ -614,6 +618,7 @@
 1 0 -50 60 80 0 0 1 0 -1 0 1 0 0 55982.dat
 0 // Tyre 14/ 50 x 17 VR (rubber_black)
 1 256 -50 60 80 0 0 1 0 -1 0 1 0 0 58090.dat
+0 STEP
 0 FILE 42062 - trailerback.ldr
 0 Rear section of the trailer using beams 7 and pins with red round tiles as taillights.
 0 Name: 42062 - trailerback.ldr
@@ -686,6 +691,7 @@
 1 0 40 -50 -40 0 0 1 1 0 0 0 1 0 2780.dat
 0 // Technic Pin with Friction and Slots (black)
 1 0 60 -50 -40 0 0 1 1 0 0 0 1 0 2780.dat
+0 STEP
 0 FILE 42062 - container.ldr
 0 Container body built from open-center beams and large panels forming a cargo box.
 0 Name: 42062 - container.ldr
@@ -737,6 +743,7 @@
 1 1 -40 -20 230 0 0 -1 0 -1 0 -1 0 0 43093.dat
 0 // Technic Axle Pin with Friction (blue)
 1 1 -40 20 230 0 0 -1 0 -1 0 -1 0 0 43093.dat
+0 STEP
 0 FILE 42062 - handler.ldr
 0 Orange handler vehicle chassis built with bent liftarms, panels, and axles forming the main body.
 0 Name: 42062 - handler.ldr
@@ -909,6 +916,7 @@
 1 70 -60 -20 -140 -1 0 0 0 1 0 0 0 -1 15462.dat
 0 // Technic Angle Connector #2 (180 degree) (orange)
 1 25 0 -20 -140 0 0 1 0 1 0 -1 0 0 32034.dat
+0 STEP
 0 FILE 42062 - handlerside.ldr
 0 Side panel of the handler made of orange bent liftarms, a beam 11, and a fairing panel.
 0 Name: 42062 - handlerside.ldr
@@ -963,6 +971,7 @@
 1 0 20 30 140 0 0 -1 1 0 0 0 -1 0 2780.dat
 0 // Technic Beam  2 x  4 Liftarm Bent 90 (orange)
 1 25 20 40 180 -1 0 0 0 1 0 0 0 -1 32140.dat
+0 STEP
 0 FILE 42062 - handlercabin.ldr
 0 Cabin structure of the handler built from blue liftarms and an angle connector forming a cab frame.
 0 Name: 42062 - handlercabin.ldr
@@ -1006,6 +1015,7 @@
 1 0 45 -75 0 0 -1 0 0 0 -1 1 0 0 6632.dat
 0 // Technic Axle Pin with Friction (blue)
 1 1 40 -115 0 1 0 0 0 0 1 0 -1 0 43093.dat
+0 STEP
 0 FILE 42062 - handlerwindscreen.ldr
 0 Windscreen frame using angle connectors and a steering wheel as a window/wiper assembly.
 0 Name: 42062 - handlerwindscreen.ldr
@@ -1055,6 +1065,7 @@
 1 4 -60 0 -30 0 1 0 0 0 -1 -1 0 0 32062.dat
 0 // Technic Angle Connector #1 (black)
 1 0 -60 0 -60 -1 0 0 0 1 0 0 0 -1 32013.dat
+0 STEP
 0 FILE 42062 - handlersteering.ldr
 0 Steering linkage mechanism using beams, ball joint, and connectors for the front wheels.
 0 Name: 42062 - handlersteering.ldr
@@ -1115,6 +1126,7 @@
 1 1 -30 -60 -20 1 0 0 0 -1 0 0 0 -1 43093.dat
 0 // Technic Axle Pin with Friction (blue)
 1 1 30 -60 -20 -1 0 0 0 -1 0 0 0 1 43093.dat
+0 STEP
 0 FILE 42062 - armbase.ldr
 0 Base for the grabber arm with a worm gear, 20 tooth gear, and bent liftarms forming a rotational joint.
 0 Name: 42062 - armbase.ldr
@@ -1176,6 +1188,7 @@
 1 0 25 -20 -20 -1 0 0 0 0 1 0 1 0 2780.dat
 0 // Technic Pin with Friction and Slots (black)
 1 0 -75 -20 -20 -1 0 0 0 0 1 0 1 0 2780.dat
+0 STEP
 0 FILE 42062 - handlerside2.ldr
 0 Mirrored side panel of the handler made of orange bent liftarms and a fairing panel.
 0 Name: 42062 - handlerside2.ldr
@@ -1230,6 +1243,7 @@
 1 0 -20 30 140 0 0 1 -1 0 0 0 -1 0 2780.dat
 0 // Technic Beam  2 x  4 Liftarm Bent 90 (orange)
 1 25 -20 40 180 1 0 0 0 -1 0 0 0 -1 32140.dat
+0 STEP
 0 FILE 42062 - handlerarm.ldr
 0 Lifting arm using gear racks, axles, and angle connectors forming an extendable boom.
 0 Name: 42062 - handlerarm.ldr
@@ -1310,6 +1324,7 @@
 1 4 0 -60 -320 1 0 0 0 1 0 0 0 1 32062.dat
 0 // Technic Beam  4 x  4 Liftarm Bent 53.13 (orange)
 1 25 0 -60 -320 0 1 0 1 0 0 0 0 -1 32348.dat
+0 STEP
 0 FILE 42062 - handlergrabber.ldr
 0 Grabber assembly with beams 7, axles, and hose connectors forming a clamp mechanism.
 0 Name: 42062 - handlergrabber.ldr
@@ -1385,6 +1400,7 @@
 1 72 -60 0 20 -1 0 0 0 -1 0 0 0 1 99021.dat
 0 // Technic Pneumatic Hose Connector with Bush (dark_bluish_grey)
 1 72 -60 0 -20 -1 0 0 0 -1 0 0 0 1 99021.dat
+0 STEP
 0 FILE 42062 - handlergrabberclaw.ldr
 0 Claw end effector with bent liftarms, axles, and hose connectors forming the gripping tines.
 0 Name: 42062 - handlergrabberclaw.ldr
@@ -1429,6 +1445,7 @@
 1 72 40 40 -120 0 0 -1 0 -1 0 -1 0 0 99021.dat
 0 // Technic Pneumatic Hose Connector with Bush (dark_bluish_grey)
 1 72 -40 40 -120 0 0 -1 0 -1 0 -1 0 0 99021.dat
+0 STEP
 0 FILE 42062 - 32523p01.dat
 0 Patterned Technic beam part composed of cylindrical and rectangular primitive shapes.
 0 Name: 42062 - 32523p01.dat
@@ -1954,6 +1971,7 @@
 4 16 9 -6.1 11.9 9 -5.35 10.7 9 -5.5 12.35 9 -6.4 13.3
 3 16 9 -6.4 13.3 9 -5.5 12.35 9 -5.85 13.25
 4 16 9 7.9 10.4 9 8.55 10.1 9 8.55 11.55 9 7.35 10.75
+0 STEP
 0 FILE 42062 - 16091.dat
 0 Car steering wheel part defined with a wheel disc and rectangular spokes.
 0 Name: 42062 - 16091.dat
@@ -2002,6 +2020,7 @@
 2 24 -1.375 1.599 7.866 -1.044 1.543 7.932
 2 24 -1.375 -3.5 13.858 -1.375 -3.5 7.866
 3 16 -1.375 -3.5 7.866 -1.375 -3.5 13.858 -1.375 1.599 7.866
+0 STEP
 0 FILE 42062 - 27940.dat
 0 Technic connector part modeled with cylinders, discs, and axle holes.
 0 Name: 42062 - 27940.dat
@@ -2063,6 +2082,7 @@
 0 !LDCAD SNAP_CLEAR [ID=axle]
 0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=A 6 20]
 0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=A 6 20]
+0 STEP
 0 FILE 42062 - 18575.dat
 0 Complex Technic part built from boxes, rings, cylinders, and circular primitives forming a wheel hub.
 0 Name: 42062 - 18575.dat
@@ -2484,6 +2504,7 @@
 4 16 6 0 -10 17 0 -10 16.798 1 -10 5.8011 1 -10
 4 16 6 0 10 17 0 10 16.798 -1 10 5.8011 -1 10
 4 16 16.798 1 10 17 0 10 6 0 10 5.8011 1 10
+0 STEP
 0 FILE 42062 - 27938.dat
 0 Technic bush/connector part composed of an axle hole and cylindrical rings.
 0 Name: 42062 - 27938.dat
@@ -3152,6 +3173,7 @@
 5 24 15.5295 -9.0425 -7.2 17.375 -4.587 -4.8 14.2969 -10.887 -5.3 17.8078 -2.4112 -6.7
 5 24 17.8078 -2.4112 -6.7 17.375 -4.587 -4.8 15.5295 -9.0425 -7.2 17.8078 2.4113 -4.3
 5 24 17.8078 -2.4112 -6.7 17.8078 2.4113 -4.3 17.375 -4.587 -4.8 17.375 4.5871 -6.2
+0 STEP
 0 FILE 42062 - 33299b.dat
 0 Technic connector part defined with axle holes, rings, and peg holes.
 0 Name: 42062 - 33299b.dat
@@ -3188,6 +3210,7 @@
 3 16 8 10 36.661999 7.391 10 36.938 8 10 40
 4 16 6.36 10 33.637001 3.444 10 31.684999 3.062 10 32.609001 5.657 10 34.342999
 4 16 3.444 10 31.684999 0 10 31 0 10 32 3.062 10 32.609001
+0 STEP
 0 FILE s\42062 - 98138s01.dat
 0 Round tile subpart composed of concentric rings and cylinders forming a 1x1 round base.
 0 Name: s\42062 - 98138s01.dat
@@ -3215,6 +3238,7 @@
 1 16 0 0 0 0.5 0 0 0 1 0 0 0 0.5 4-4rin18.dat
 1 16 0 0.5 0 -9.5 0 0 0 -9.5 0 0 0 9.5 42062 - t02o0526.dat
 1 16 0 0.5 0 9.5 0 0 0 -9.5 0 0 0 -9.5 42062 - t02o0526.dat
+0 STEP
 0 FILE 42062 - t02o0526.dat
 0 Torus primitive segment defining a curved tube shape via radius and sweep parameters.
 0 Name: 42062 - t02o0526.dat
@@ -3340,6 +3364,7 @@
 5 24 -1.0372 0.0372 0 -1.0486 0.0201 0 -1.0372 0.0372 -0.4296 -0.9583 0.0372 0.3969
 5 24 -1.0486 0.0201 0 -1.0526 0 0 -1.0486 0.0201 -0.4343 -0.9688 0.0201 0.4013
 0 // Build by Primitive Generator 2
+0 STEP
 0 FILE s\42062 - 6578s01.dat
 0 A simple box component made of two three-faced box primitives.
 0 Name: s\42062 - 6578s01.dat
@@ -3388,6 +3413,7 @@
 3 16 -9.83 -36.700001 7 -4.96 -37.669998 7 0 -38 7
 4 16 0 -37 7 -9.577 -35.738998 7 -9.83 -36.700001 7 0 -38 7
 2 24 -9.577 -35.738998 7 0 -37 7
+0 STEP
 0 FILE s\42062 - 33299s01.dat
 0 A rotational cylindrical assembly with cylinders, rings, and circles suggesting a wheel, hub, or rotor part.
 0 Name: s\42062 - 33299s01.dat

@@ -8,6 +8,7 @@
 1 256 100 -40 0 1 0 0 0 1 0 0 0 1 42060 - truck.ldr
 1 256 100 -60 240 -1 0 0 0 -1 0 0 0 1 42060 - trailer.ldr
 1 256 100 -120 240 1 0 0 0 1 0 0 0 1 42060 - excavator.ldr
+0 STEP
 0 FILE 42060 - truck.ldr
 0 Main truck chassis built from long technic beams, angle connectors, axles, and friction pins forming the load-bearing frame and steering linkage.
 0 Name: 42060 - truck.ldr
@@ -340,6 +341,7 @@
 1 0 -70 0 -240 0 0 1 -1 0 0 0 -1 0 55981.dat
 0 // Tyre 14/ 50 x 17 VR (rubber_black)
 1 256 -70 0 -240 0 0 1 -1 0 0 0 -1 0 58090.dat
+0 STEP
 0 FILE 42060 - truckcabin.ldr
 0 Orange truck cab constructed from beam 7 and bent liftarms joined by perpendicular pins.
 0 Name: 42060 - truckcabin.ldr
@@ -385,6 +387,7 @@
 1 0 20 0 -50 0 0 1 0 1 0 -1 0 0 2780.dat
 0 // Technic Beam  3 (black)
 1 0 0 0 -60 0 0 1 1 0 0 0 1 0 32523.dat
+0 STEP
 0 FILE 42060 - tipper.ldr
 0 Tilting tipper bed frame using long beams, a large side panel, and cross blocks for the tipping pivot.
 0 Name: 42060 - tipper.ldr
@@ -430,6 +433,7 @@
 1 0 40 40 80 0 -1 0 -1 0 0 0 0 -1 15100.dat
 0 // Technic Beam  7 (light_bluish_grey)
 1 71 60 -20 -100 0 0 -1 0 1 0 1 0 0 32524.dat
+0 STEP
 0 FILE 42060 - tipperside.ldr
 0 Reinforced sidewall of the tipper bed made from beam 11, beam 7, and a bent liftarm braced with pins.
 0 Name: 42060 - tipperside.ldr
@@ -470,6 +474,7 @@
 1 0 30 20 40 1 0 0 0 0 1 0 -1 0 4459.dat
 0 // Technic Pin with Friction (black)
 1 0 30 20 20 1 0 0 0 0 1 0 -1 0 4459.dat
+0 STEP
 0 STEP
 0 FILE 42060 - trailer.ldr
 0 Trailer bogie with two wheels and tyres, an axle 7 axle, and an anniversary-printed beam commemorating 1977-2017.
@@ -533,6 +538,7 @@
 1 256 -80 -40 60 0 0 1 1 0 0 0 1 0 42060 - 92409.dat
 0 // Tyre  6.4/ 75 x  8 Shallow Offset Tread with Centre Band (rubber_black)
 1 256 80 -40 60 0 0 1 1 0 0 0 1 0 42060 - 92409.dat
+0 STEP
 0 FILE 42060 - excavator.ldr
 0 Excavator arm mechanism featuring a worm gear, bevel gears, multiple axles, and liftarms forming the articulated boom.
 0 Name: 42060 - excavator.ldr
@@ -677,6 +683,7 @@
 1 256 0 -152.097 -5.06 0 1 0 0 0 -1 -1 0 0 32523.dat
 1 25 -70 -80 160 1 0 0 0 1 0 0 0 1 42060 - excavatorrear.ldr
 1 256 -20 40 20 1 0 0 0 1 0 0 0 1 42060 - excavatortracks.ldr
+0 STEP
 0 FILE 42060 - excavatorbucket.ldr
 0 Excavator digging bucket with a locking hinge arm and orange beam attached to the arm tip.
 0 Name: 42060 - excavatorbucket.ldr
@@ -700,6 +707,7 @@
 1 25 20 -20 0 0 1 0 0 0 -1 -1 0 0 32524.dat
 0 // Technic Pin (light_bluish_grey)
 1 71 10 -80 0 1 0 0 0 0 -1 0 1 0 3673.dat
+0 STEP
 0 FILE 42060 - excavatorrear.ldr
 0 Rear bodywork of the excavator made from two orange smooth panel fairings mounted on pin joiners.
 0 Name: 42060 - excavatorrear.ldr
@@ -717,6 +725,7 @@
 1 256 90 20 -20 1 0 0 0 0 1 0 -1 0 2780.dat
 0 // Technic Panel Fairing Smooth #1 (Short) (orange)
 1 25 120 0 -60 1 0 0 0 0 1 0 -1 0 87080.dat
+0 STEP
 0 FILE 42060 - excavatortracks.ldr
 0 Track drive unit with four 16-tooth gears, beams, and pins supporting the closed chain tread.
 0 Name: 42060 - excavatortracks.ldr
@@ -760,6 +769,7 @@
 1 71 20 -20 0 1 0 0 0 -1 0 0 0 -1 32316.dat
 1 256 20 50 130 0 0 -1 0 -1 0 -1 0 0 42060 - technicChainTread17Closed-1.ldr
 1 256 -60 50 130 0 0 -1 0 -1 0 -1 0 0 42060 - technicChainTread17Closed-1.ldr
+0 STEP
 0 FILE 42060 - technicChainTread17Closed-1.ldr
 0 Closed loop of 23 technic chain tread segments forming a continuous crawler track.
 0 Name: 42060 - technicChainTread17Closed-1.ldr
@@ -832,6 +842,7 @@
 1 16 55.680614 64.858759 -40 0 0.365239 0.930914 0 -0.930914 0.365239 1 0 0 3873.dat
 0 // Technic Chain Tread 2.5 Wide (main_colour)
 1 16 49.30246 50.185002 -40 0 0.91711 0.398635 0 -0.398635 0.91711 1 0 0 3873.dat
+0 STEP
 0 FILE 42060 - 33299b.dat
 0 Wheel rim sub-part with axle holes, rings, and discs defining the 8x11.2 grooved rim geometry.
 0 Name: 42060 - 33299b.dat
@@ -868,6 +879,7 @@
 3 16 8 10 36.661999 7.391 10 36.938 8 10 40
 4 16 6.36 10 33.637001 3.444 10 31.684999 3.062 10 32.609001 5.657 10 34.342999
 4 16 3.444 10 31.684999 0 10 31 0 10 32 3.062 10 32.609001
+0 STEP
 0 FILE 42060 - 18575.dat
 0 Molded tyre part composed of many box, cylinder, and cone primitives forming the 6.4/75 shallow offset tread pattern.
 0 Name: 42060 - 18575.dat
@@ -1289,6 +1301,7 @@
 4 16 6 0 -10 17 0 -10 16.798 1 -10 5.8011 1 -10
 4 16 6 0 10 17 0 10 16.798 -1 10 5.8011 -1 10
 4 16 16.798 1 10 17 0 10 6 0 10 5.8011 1 10
+0 STEP
 0 FILE 42060 - 32523p01.dat
 0 Printed technic beam sub-part with axle holes and a decorative pattern on its surface.
 0 Name: 42060 - 32523p01.dat
@@ -1814,6 +1827,7 @@
 4 16 9 -6.1 11.9 9 -5.35 10.7 9 -5.5 12.35 9 -6.4 13.3
 3 16 9 -6.4 13.3 9 -5.5 12.35 9 -5.85 13.25
 4 16 9 7.9 10.4 9 8.55 10.1 9 8.55 11.55 9 7.35 10.75
+0 STEP
 0 FILE 42060 - 92409.dat
 0 Rubber tyre part built from cylinders and cones defining the shallow offset tread with centre band.
 0 Name: 42060 - 92409.dat
@@ -1939,6 +1953,7 @@
 4 16 9.899 -9.899 8 5.358 -12.935 8 12.045 -17.202 8 14.85 -14.848 8
 4 16 8.875 -19.033001 8 12.045 -17.202 8 5.358 -12.935 8 5.435 -20.285 8
 4 16 5.358 -12.935 8 0 -14 8 1.83 -20.92 8 5.435 -20.285 8
+0 STEP
 0 FILE 42060 - 27938.dat
 0 Small bushing or hub sub-part with an axle hole, open cylinder, and outer rings.
 0 Name: 42060 - 27938.dat
@@ -2607,6 +2622,7 @@
 5 24 15.5295 -9.0425 -7.2 17.375 -4.587 -4.8 14.2969 -10.887 -5.3 17.8078 -2.4112 -6.7
 5 24 17.8078 -2.4112 -6.7 17.375 -4.587 -4.8 15.5295 -9.0425 -7.2 17.8078 2.4113 -4.3
 5 24 17.8078 -2.4112 -6.7 17.8078 2.4113 -4.3 17.375 -4.587 -4.8 17.375 4.5871 -6.2
+0 STEP
 0 FILE 42060 - 27940.dat
 0 Technic connector sub-part with a long connector hole, sloped cylinders, and disc surfaces.
 0 Name: 42060 - 27940.dat
@@ -2661,6 +2677,7 @@
 1 16 -9 0 0 0 9 0 -9 0 0 0 0 9 1-4cyls.dat
 0 // Cylinder Sloped 0.25 (main_colour)
 1 16 -9 0 0 0 9 0 -9 0 0 0 0 -9 1-4cyls.dat
+0 STEP
 0 FILE s\42060 - 33299s01.dat
 0 Solid base sub-part of the wheel rim composed of cylinders, rings, discs, and pin geometry.
 0 Name: s\42060 - 33299s01.dat
@@ -2930,6 +2947,7 @@
 4 16 4.9497 0 35.050201 6 0 36.661999 6 10 36.661999 4.9497 10 35.050301
 5 24 -4.9498 0 35.050098 -4.9498 10 35.050098 -6 0 36.661999 -2.6788 0 33.5327
 5 24 4.9497 10 35.050301 4.9498 0 35.050201 6 0 36.661999 2.6788 10 33.5327
+0 STEP
 0 FILE s\42060 - 6578s01.dat
 0 Minimal sub-part consisting of two boxes defining a basic structural element.
 0 Name: s\42060 - 6578s01.dat
@@ -2978,6 +2996,7 @@
 3 16 -9.83 -36.700001 7 -4.96 -37.669998 7 0 -38 7
 4 16 0 -37 7 -9.577 -35.738998 7 -9.83 -36.700001 7 0 -38 7
 2 24 -9.577 -35.738998 7 0 -37 7
+0 STEP
 0 FILE s\42060 - 92409s01.dat
 0 Empty placeholder sub-part of the tyre assembly with no direct geometry.
 0 Name: s\42060 - 92409s01.dat

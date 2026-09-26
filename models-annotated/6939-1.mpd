@@ -12,6 +12,7 @@
 1 0 -219 -41.45 -83 -0.021815 0 0.999762 0 1 0 -0.999762 0 -0.021815 6939 - Minifig 2.ldr
 
 
+0 STEP
 0 FILE 6939 - Vehicle.ldr
 0 Vehicle
 0 Name: 6939 - Vehicle.ldr
@@ -97,6 +98,7 @@
 1 256 -30 13 60 0 0 1 0 1 0 -1 0 0 3641.dat
 
 
+0 STEP
 0 FILE 6939 - Vehicle + Minifig.ldr
 0 Vehicle + Minifig
 0 Name: 6939 - Vehicle + Minifig.ldr
@@ -110,6 +112,7 @@
 1 0 0 -69 -12 1 0 0 0 1 0 0 0 1 6939 - Minifig 1.ldr
 
 
+0 STEP
 0 FILE 6939 - Saucer.ldr
 0 Saucer
 0 Name: 6939 - Saucer.ldr
@@ -230,6 +233,7 @@
 0 // Tile  2 x  2 with Spyrius Machinery Pattern (black)
 1 0 180 -136 60 -1 0 0 0 1 0 0 0 -1 3068bp51.dat
 
+0 STEP
 0 FILE 6939 - Saucer - Side 1.ldr
 0 Saucer - Side 1
 0 Name: 6939 - Saucer - Side 1.ldr
@@ -300,6 +304,7 @@
 1 0 30 -24 0 0 0 -1 0 1 0 1 0 0 6140.dat
 1 33 -20 -30 210 1 0 0 0 0.7071 -0.7071 0 0.7071 0.7071 6939 - Saucer - Side 2 - Rocket.ldr
 
+0 STEP
 0 FILE 6939 - Saucer - Side 1 - Crane.ldr
 0 Saucer - Side 1 - Crane
 0 Name: 6939 - Saucer - Side 1 - Crane.ldr
@@ -319,6 +324,7 @@
 1 0 12 0 -130 0 0.866 -0.5 -1 0 0 0 0.5 0.866 6939 - Saucer - Side 1 - Crane - Arm.ldr
 
 
+0 STEP
 0 FILE 6939 - Saucer - Side 1 - Crane - Arm.ldr
 0 Saucer - Side 1 - Crane - Arm
 0 Name: 6939 - Saucer - Side 1 - Crane - Arm.ldr
@@ -333,6 +339,7 @@
 1 0 0 8 -60 -1 0 0 0 -0.7071 0.7071 0 0.7071 0.7071 6939 - Saucer - Side 1 - Crane - Arm - Finger.ldr
 
 
+0 STEP
 0 FILE 6939 - Saucer - Side 1 - Crane - Arm - Finger.ldr
 0 Saucer - Side 1 - Crane - Arm - Finger
 0 Name: 6939 - Saucer - Side 1 - Crane - Arm - Finger.ldr
@@ -350,6 +357,7 @@
 1 33 0 4 -20 0 0 -1 0 1 0 1 0 0 6141.dat
 
 
+0 STEP
 0 FILE 6939 - Saucer - Side 2.ldr
 0 Saucer - Side 2
 0 Name: 6939 - Saucer - Side 2.ldr
@@ -453,6 +461,7 @@
 0 // Plate 10 x 10 without Corner (black)
 1 0 0 -40 240 0 0 -1 0 1 0 1 0 0 2401.dat
 
+0 STEP
 0 FILE 6939 - Saucer - Side 2 - Rocket.ldr
 0 Saucer - Side 2 - Rocket
 0 Name: 6939 - Saucer - Side 2 - Rocket.ldr
@@ -469,6 +478,7 @@
 0 // Cone  1 x  1 (trans_dark_blue)
 1 33 0 0 66 0 0 1 1 0 0 0 1 0 4589.dat
 
+0 STEP
 0 FILE 6939 - Saucer - Block.ldr
 0 Saucer - Block
 0 Name: 6939 - Saucer - Block.ldr
@@ -494,6 +504,7 @@
 1 0 -28 20 20 0 -1 0 0 0 -1 1 0 0 4032a.dat
 
 
+0 STEP
 0 FILE 6939 - Saucer - Antenna.ldr
 0 Saucer - Antenna
 0 Name: 6939 - Saucer - Antenna.ldr
@@ -509,6 +520,7 @@
 1 33 0 -44 0 1 0 0 0 1 0 0 0 1 2569.dat
 
 
+0 STEP
 0 FILE 6939 - Saucer - Rocket.ldr
 0 Saucer - Rocket
 0 Name: 6939 - Saucer - Rocket.ldr
@@ -531,6 +543,7 @@
 0 // Cone  1 x  1 (trans_dark_blue)
 1 33 0 -20 -100 1 0 0 0 0 -1 0 1 0 4589.dat
 
+0 STEP
 0 FILE 6939 - Minifig 1.ldr
 0 Minifig 1
 0 Name: 6939 - Minifig 1.ldr
@@ -563,6 +576,7 @@
 1 4 -21.3176 11.845 -21.0753 0.985 -0.169043 -0.0177672 0.17 0.979456 0.102945 0 -0.104513 0.994372 3820.dat
 
 
+0 STEP
 0 FILE 6939 - Minifig 1 - Helmet.ldr
 0 Minifig 1 - Helmet
 0 Name: 6939 - Minifig 1 - Helmet.ldr
@@ -578,6 +592,7 @@
 1 42 0 0 0 1 0 0 0 1 0 0 0 1 2447.dat
 
 
+0 STEP
 0 FILE 6939 - Minifig 2.ldr
 0 Minifig 2
 0 Name: 6939 - Minifig 2.ldr

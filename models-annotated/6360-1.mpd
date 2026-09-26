@@ -7,6 +7,7 @@
 0 !HISTORY 2018-01-06 [bercik] OMR version by Robert Paciorek [bercik] with perrmision of Rijkjavik
 
 
+0 STEP
 0 FILE 6360 - building.ldr
 0 A multi-story building on a large green baseplate, built from assorted red, black, and white bricks with decorative flower stems.
 0 Name: 6360 - building.ldr
@@ -219,6 +220,7 @@
 
 
 
+0 STEP
 0 FILE 6360 - male.ldr
 0 A male minifigure wearing a black suit torso with red shirt, blue legs, brown hair, and holding a frying pan.
 0 Name: 6360 - male.ldr
@@ -252,6 +254,7 @@
 
 
 
+0 STEP
 0 FILE 6360 - female.ldr
 0 A female minifigure with shoulder-length black hair, white striped red shirt torso, and red legs.
 0 Name: 6360 - female.ldr

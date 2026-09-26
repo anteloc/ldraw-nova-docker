@@ -12,6 +12,7 @@
 
 
 
+0 STEP
 0 FILE 7632 - Crane.ldr
 0 A large Technic-based mobile crane built on a turntable with yellow structural beams, dark grey plates, grille details, red dish accents, and side-studded blue bricks.
 0 Name: 7632 - Crane.ldr
@@ -961,6 +962,7 @@
 
 
 
+0 STEP
 0 FILE 7632 - Fence.ldr
 0 A white site fence section with stud mounts and translucent orange warning lights.
 0 Name: 7632 - Fence.ldr
@@ -981,6 +983,7 @@
 
 
 
+0 STEP
 0 FILE 7632 - Modular.ldr
 0 A short chain assembly made of connected chain links and end connectors.
 0 Name: 7632 - Modular.ldr
@@ -1001,6 +1004,7 @@
 
 
 
+0 STEP
 0 FILE 7632 - Door.ldr
 0 A green brick wall module fitted with a tall white-framed clear door on grey support plates.
 0 Name: 7632 - Door.ldr
@@ -1058,6 +1062,7 @@
 
 
 
+0 STEP
 0 FILE 7632 - Window.ldr
 0 A green brick wall module fitted with a tall white-framed three-pane window on grey support plates.
 0 Name: 7632 - Window.ldr
@@ -1117,6 +1122,7 @@
 
 
 
+0 STEP
 0 FILE 7632 - Worker.ldr
 0 A construction worker minifigure wearing a red helmet, orange safety-striped torso, and grey legs.
 0 Name: 7632 - Worker.ldr
@@ -1146,6 +1152,7 @@
 
 
 
+0 STEP
 0 FILE 7632 - Leader.ldr
 0 A construction site leader minifigure wearing a red helmet, blue plaid shirt torso, grey legs, and carrying a radio.
 0 Name: 7632 - Leader.ldr
@@ -1178,6 +1185,7 @@
 
 
 
+0 STEP
 0 FILE 7632 - String.ldr
 0 A flexible rope or string element composed of segmented cylinder pieces.
 0 Name: 7632 - String.ldr
@@ -1194,6 +1202,7 @@
 
 
 
+0 STEP
 0 FILE 7632 - Chain LH.ldr
 0 A left-side hanging chain made of ten interlinked chain links.
 0 Name: 7632 - Chain LH.ldr
@@ -1242,6 +1251,7 @@
 1 16 16.186818 -109.535782 0 -0.94963 0.313374 0 -0.313374 -0.94963 0 0 0 1 30104k02.dat
 
 
+0 STEP
 0 FILE 7632 - Chain RH.ldr
 0 A right-side hanging chain made of ten interlinked chain links.
 0 Name: 7632 - Chain RH.ldr
@@ -1290,6 +1300,7 @@
 1 16 28.813182 -90.535782 0 -0.94963 -0.313374 0 0.313374 -0.94963 0 0 0 1 30104k02.dat
 
 
+0 STEP
 0 FILE 7632 - String Part1.ldr
 0 A long rope segment made of seven cylindrical sections spanning roughly 451 mm.
 0 Name: 7632 - String Part1.ldr
@@ -1334,6 +1345,7 @@
 1 16 1129.044609 48.203914 -9.998645 0.220745 -3.960282 -0.002678 1.483668 0.58922 0.000912 -0.000508 -0.007428 1.499997 4-4cyli.dat
 
 
+0 STEP
 0 FILE 7632 - String Part2.ldr
 0 A short rope segment made of twelve cylindrical sections spanning roughly 28 mm.
 0 Name: 7632 - String Part2.ldr
@@ -1388,6 +1400,7 @@
 1 16 62.695116 16.187837 10 -0.391302 -12.345227 0 1.448062 -3.335983 0 0 0 1.5 4-4cyli.dat
 
 
+0 STEP
 0 FILE 7632 - String Part3.ldr
 0 A short rope segment made of seven cylindrical sections spanning roughly 8 mm.
 0 Name: 7632 - String Part3.ldr
@@ -1432,6 +1445,7 @@
 1 16 -7.362834 -4.074168 -10 0.173434 -4.01858 0 1.48994 0.467777 0 0 0 1.5 4-4cyli.dat
 
 
+0 STEP
 0 FILE 7632 - String Part4.ldr
 0 A medium-length rope segment made of nine cylindrical sections spanning roughly 87 mm.
 0 Name: 7632 - String Part4.ldr
@@ -1480,6 +1494,7 @@
 1 16 191.159507 14.865518 0.005755 -0.044203 -3.991256 -0.017027 1.499349 -0.117676 -0.000251 -0.000251 -0.045328 1.499903 4-4cyli.dat
 
 
+0 STEP
 0 FILE 7632 - String Part5.ldr
 0 A short rope segment made of twelve cylindrical sections spanning roughly 14 mm.
 0 Name: 7632 - String Part5.ldr
@@ -1534,6 +1549,7 @@
 1 16 3.051464 -29.430592 0 0.816863 3.347815 0 -1.258068 2.173734 0 0 0 1.5 4-4cyli.dat
 
 
+0 STEP
 0 FILE 7632 - String Part6.ldr
 0 A medium-length rope segment made of nine cylindrical sections spanning roughly 80 mm.
 0 Name: 7632 - String Part6.ldr

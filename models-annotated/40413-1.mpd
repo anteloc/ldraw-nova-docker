@@ -13,6 +13,7 @@
 1 4 190 -30 20 0.966 0 0.259 0 1 0 -0.259 0 0.966 40413 - mvp.ldr
 
 
+0 STEP
 0 FILE 40413 - blast.ldr
 0 Core body frame of the Blast mech built from Technic beams, pins, and white fairing panels.
 0 Name: 40413 - blast.ldr
@@ -78,6 +79,7 @@
 1 36 7 -40 -7.876 0.866 0 0.5 0 1 0 -0.5 0 0.866 40413 - blasthead.ldr
 
 
+0 STEP
 0 FILE 40413 - blast-leg1.ldr
 0 Left leg assembly using a Technic beam 5, cross block, axle, and a white fairing panel.
 0 Name: 40413 - blast-leg1.ldr
@@ -103,6 +105,7 @@
 1 15 -20 -20 -20 0 1 0 0 0 -1 -1 0 0 11946.dat
 
 
+0 STEP
 0 FILE 40413 - blastleg2.ldr
 0 Right leg assembly mirroring the left leg with a Technic beam 5, cross block, axle, and fairing panel.
 0 Name: 40413 - blastleg2.ldr
@@ -128,6 +131,7 @@
 1 15 20 -20 -20 0 -1 0 0 0 -1 1 0 0 11947.dat
 
 
+0 STEP
 0 FILE 40413 - blastarm1.ldr
 0 Articulated arm with angle connectors, hinge elements, a slope brick, and a round trans-brown detail tile.
 0 Name: 40413 - blastarm1.ldr
@@ -169,6 +173,7 @@
 1 15 -14 10 -56 0 1 0 0 0 -1 -1 0 0 60477.dat
 
 
+0 STEP
 0 FILE 40413 - blastarm2.ldr
 0 Spring-loaded shooter arm with a loaded arrow, angle connector, and corner tiles for a weaponized limb.
 0 Name: 40413 - blastarm2.ldr
@@ -194,6 +199,7 @@
 1 15 -14 -60 0 -1 0 0 0 0 -1 0 -1 0 32013.dat
 
 
+0 STEP
 0 FILE 40413 - blasthead.ldr
 0 Mech head built from plates and bricks with two control sticks and a round trans-red eye tile.
 0 Name: 40413 - blasthead.ldr
@@ -232,6 +238,7 @@
 1 36 20 0 -40 1 0 0 0 0 -1 0 1 0 98138.dat
 
 
+0 STEP
 0 FILE 40413 - charlie.ldr
 0 Main body of the Charlie vehicle assembled from plates, brackets, inverted slopes, and a ball-joint plate.
 0 Name: 40413 - charlie.ldr
@@ -303,6 +310,7 @@
 1 15 -20 -90 8 1 0 0 0 1 0 0 0 1 40413 - charliehead.ldr
 
 
+0 STEP
 0 FILE 40413 - charliebelly.ldr
 0 Curved belly section of Charlie using curved slope bricks and a hinge top piece.
 0 Name: 40413 - charliebelly.ldr
@@ -327,6 +335,7 @@
 1 71 0 -30 8 -1 0 0 0 0 1 0 1 0 6134.dat
 
 
+0 STEP
 0 FILE 40413 - charliewheels.ldr
 0 Wheeled undercarriage with two rubber tyres on rimmed wheels attached via ball joints and axles.
 0 Name: 40413 - charliewheels.ldr
@@ -380,6 +389,7 @@
 1 0 -30 14 -30 0 1 0 -1 0 0 0 0 1 32474.dat
 
 
+0 STEP
 0 FILE 40413 - charliearm.ldr
 0 Small articulated arm using an angle connector, friction axle pin, and a clipped bar element.
 0 Name: 40413 - charliearm.ldr
@@ -395,6 +405,7 @@
 1 71 -45.69 37.879 0 -0.924 0.383 0 -0.383 -0.924 0 0 0 1 48729b.dat
 
 
+0 STEP
 0 FILE 40413 - charliehead.ldr
 0 Detailed head module with socket joint, grooved tiles, control sticks, and trans-light-blue/clear eye accents.
 0 Name: 40413 - charliehead.ldr
@@ -469,6 +480,7 @@
 1 15 20 31.801 -52.272 1 0 0 0 0.94 -0.342 0 0.342 0.94 3069b.dat
 
 
+0 STEP
 0 FILE 40413 - gelo.ldr
 0 Main body of the Gelo mech made of plates, brackets, technic bricks, tiles, and liftarms.
 0 Name: 40413 - gelo.ldr
@@ -577,6 +589,7 @@
 1 40 0 18 -60 0 0 1 1 0 0 0 1 0 98138.dat
 
 
+0 STEP
 0 FILE 40413 - geloleg.ldr
 0 Compact leg joint assembly using angle connectors, a notched axle, and a cross block.
 0 Name: 40413 - geloleg.ldr
@@ -595,6 +608,7 @@
 1 71 0 -60 -30 0 0 1 -1 0 0 0 -1 0 42003.dat
 
 
+0 STEP
 0 FILE 40413 - mvp.ldr
 0 Main body of the MVP vehicle built from plates, curved-top bricks, a radio grille, and clip tiles.
 0 Name: 40413 - mvp.ldr
@@ -702,6 +716,7 @@
 1 4 0 -48 -80 1 0 0 0 1 0 0 0 1 40413 - mvparm.ldr
 
 
+0 STEP
 0 FILE 40413 - mvpfront.ldr
 0 Front section of MVP featuring curved slopes, handle plates, and a multi-position hinge plate.
 0 Name: 40413 - mvpfront.ldr
@@ -739,6 +754,7 @@
 1 15 20 -8 -40 1 0 0 0 1 0 0 0 1 15068.dat
 
 
+0 STEP
 0 FILE 40413 - mvparm.ldr
 0 Mechanical arm with a turntable base, handle plates, clip elements, and a red conical bucket end.
 0 Name: 40413 - mvparm.ldr
@@ -781,6 +797,7 @@
 1 4 -10 -69.538 -182.434 -1 0 0 0 0.999 -0.035 0 -0.035 -0.999 95343.dat
 
 
+0 STEP
 0 FILE 40413 - mvpshooter.ldr
 0 Turret assembly on a turntable with two mini shooting blasters, triggers, and trans-light-blue accents.
 0 Name: 40413 - mvpshooter.ldr
@@ -823,6 +840,7 @@
 1 15 0.002 -40 -0.175 1 0 -0.017 0 1 0 0.017 0 1 85984.dat
 
 
+0 STEP
 0 FILE 40413 - tricky.ldr
 0 Main body of the Tricky mech composed of plates, brackets, technic beams, and pins.
 0 Name: 40413 - tricky.ldr
@@ -927,6 +945,7 @@
 1 4 0 -7.253 -114.859 1 0 0 0 -0.087 -0.996 0 0.996 -0.087 54821.dat
 
 
+0 STEP
 0 FILE 40413 - trickyarm1.ldr
 0 Long articulated arm built from axles, angle connectors, bushes, and friction pins.
 0 Name: 40413 - trickyarm1.ldr
@@ -969,6 +988,7 @@
 1 0 20 0 -132 -1 0 0 0 0 1 0 1 0 2780.dat
 
 
+0 STEP
 0 FILE 40413 - trickyarm2.ldr
 0 Secondary articulated arm using axles, angle connectors, and bushes similar to the first arm.
 0 Name: 40413 - trickyarm2.ldr
@@ -994,6 +1014,7 @@
 1 71 58.284 60 -220.284 -0.707 0.707 0 0 0 1 0.707 0.707 0 4519.dat
 
 
+0 STEP
 0 FILE 40413 - 44301b.dat
 0 Single moulded box part with three faces and missing adjacent edges used as a prebuilt element.
 0 Name: 40413 - 44301b.dat
@@ -1013,6 +1034,7 @@
 4 16 -20 8 10 -16 8 6 -16 8 -6 -20 8 -10
 4 16 -20 8 -10 -16 8 -6 16 8 -6 20 8 -10
 
+0 STEP
 0 FILE 40413 - 3660a.dat
 0 Reference submodel for a slope/brick part with no direct pieces of its own.
 0 Name: 40413 - 3660a.dat
@@ -1033,6 +1055,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\40413 - 3660as01.dat
 4 16 20 24 -10 20 4 -30 -20 4 -30 -20 24 -10
 
+0 STEP
 0 FILE s\40413 - 44301s01.dat
 0 44301s01
 0 Name: s\40413 - 44301s01.dat
@@ -1067,6 +1090,7 @@
 1 16 20 2 0 0 0 -1 0 1 0 1 0 0 clh6.dat
 
 
+0 STEP
 0 FILE s\40413 - 3660as01.dat
 0 3660as01
 0 Name: s\40413 - 3660as01.dat

@@ -14,6 +14,7 @@
 
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 30050 - m-1.ldr
 
+0 STEP
 0 FILE 30050 - m-1.ldr
 0 Central fuselage body built from white plates and slopes with trans light-blue accents, red and white clip-light and hinge mechanisms, and dual white antennas.
 0 Name: 30050 - m-1.ldr
@@ -123,6 +124,7 @@
 0 ROTSTEP 35 55 0 ABS
 1 15 40 -6 30 0 1 0 -1 0 0 0 0 1 30050 - m-1c.ldr
 
+0 STEP
 0 FILE 30050 - m-1a.ldr
 0 Small nose assembly combining dark red and white plates with clear and dark red slopes, side-mounted left and right wings, and a side-stud brick.
 0 Name: 30050 - m-1a.ldr
@@ -154,6 +156,7 @@
 0 // Wing  2 x  3 Left (white)
 1 15 -18 2 -40 0 1 0 -1 0 0 0 0 1 43723.dat
 
+0 STEP
 0 FILE 30050 - m-1b.ldr
 0 Left wing subassembly with a large dark red 3x6 wing, white 2x4 wing, yellow grooved tile accent, and a clip plate connection.
 0 Name: 30050 - m-1b.ldr
@@ -176,6 +179,7 @@
 0 // Plate  1 x  2 with  2 Clips Horizontal (Thick U-Clips) (white)
 1 15 -20 -2 0 0 0 -1 0 1 0 1 0 0 60470a.dat
 
+0 STEP
 0 FILE 30050 - m-1c.ldr
 0 Right wing subassembly mirroring the left with a large dark red 3x6 wing, white 2x4 wing, yellow grooved tile accent, and a clip plate connection.
 0 Name: 30050 - m-1c.ldr

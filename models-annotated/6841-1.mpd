@@ -77,6 +77,7 @@
 0 STEP
 1 16 0 -69 8 1 0 0 0 1 0 0 0 1 6841 - Minifig.ldr
 
+0 STEP
 0 FILE 6841 - Detector Right.ldr
 0 A right-side sensor arm with a hinged mount, inverted dish, and trans-green light.
 0 Name: 6841 - Detector Right.ldr
@@ -95,6 +96,7 @@
 0 // Dish  4 x  4 Inverted (light_grey)
 1 7 10 32 -110 0 0 1 0 1 0 -1 0 0 3960.dat
 
+0 STEP
 0 FILE 6841 - Detector Left.ldr
 0 A left-side sensor arm with a hinged base, inverted dish, and trans-green light.
 0 Name: 6841 - Detector Left.ldr
@@ -113,6 +115,7 @@
 0 // Dish  4 x  4 Inverted (light_grey)
 1 7 -10 32 -110 0 0 1 0 1 0 -1 0 0 3960.dat
 
+0 STEP
 0 FILE 6841 - Minifig.ldr
 0 A red classic space astronaut minifigure with airtanks and helmet.
 0 Name: 6841 - Minifig.ldr

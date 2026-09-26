@@ -109,6 +109,7 @@
 1 308 46.3483 32.5708 -274.6381 -0.7071 0 -0.7071 0 1 0 0.7071 0 -0.7071 9469 - frodo.ldr
 
 
+0 STEP
 0 FILE 9469 - sidepanel.ldr
 0 Side panel assembly built from a dark tan plate with clips, handles, and small tan bricks.
 0 Name: 9469 - sidepanel.ldr
@@ -140,6 +141,7 @@
 0 // Plate  1 x  1 Round (tan)
 1 19 -26 18 -70 0 1 0 -1 0 0 0 0 1 6141.dat
 
+0 STEP
 0 FILE 9469 - fireworks1.ldr
 0 Yellow firework made from a long bar inserted into a white cone.
 0 Name: 9469 - fireworks1.ldr
@@ -154,6 +156,7 @@
 1 15 0 0 80 1 0 0 0 1 0 0 0 1 59900.dat
 
 
+0 STEP
 0 FILE 9469 - fireworks2.ldr
 0 Green firework made from a bar, green cone, and round green brick.
 0 Name: 9469 - fireworks2.ldr
@@ -170,6 +173,7 @@
 1 2 0 16 0 1 0 0 0 1 0 0 0 1 3062b.dat
 
 
+0 STEP
 0 FILE 9469 - gandalf.ldr
 0 Gandalf minifigure with grey wizard robes, cape, beard, wizard's hat, and staff.
 0 Name: 9469 - gandalf.ldr
@@ -205,6 +209,7 @@
 1 70 -18.3124 -68.5321 -30.2131 0.9942 0.0512 0.0941 0.0516 -0.9987 -0.0025 0.0938 0.0074 -0.9956 63965.dat
 
 
+0 STEP
 0 FILE 9469 - frodo.ldr
 0 Frodo minifigure in short legs with a green shirt, carrying a book and sporting tousled brown hair.
 0 Name: 9469 - frodo.ldr

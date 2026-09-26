@@ -14,6 +14,7 @@
 
 
 0 NOFILE
+0 STEP
 0 FILE 6667 - car.ldr
 0 A wheeled vehicle built on a car base with mudguards, wheel pins, headlights, and a rear towball socket for hitching a trailer.
 0 car
@@ -167,6 +168,7 @@
 
 
 0 NOFILE
+0 STEP
 0 FILE 6667 - car - flexHose.ldr
 0 A flexible hose assembly made of interlocking segment links with end connectors.
 0 car - flexHose
@@ -283,6 +285,7 @@
 0 // ~Hose Flexible Segment Link Section (main_colour)
 1 16 -24.383369 11.948432 43.972862 0.031881 -0.999351 0.016771 0.999492 0.031878 -0.000431 -0.000104 0.016776 0.999859 754.DAT
 0 NOFILE
+0 STEP
 0 FILE 6667 - trailer.ldr
 0 A towable trailer with wheels, mudguard, telemetry computer, hose nozzle, and grille details for transporting equipment.
 0 trailer
@@ -353,6 +356,7 @@
 
 
 0 NOFILE
+0 STEP
 0 FILE 6667 - minifig.ldr
 0 A construction worker minifig wearing a red helmet and red dungarees, equipped with a shovel.
 0 minifig

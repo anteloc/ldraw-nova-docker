@@ -7,6 +7,7 @@
 1 6 0 0 0 1 0 0 0 1 0 0 0 1 10124 - Flyer.ldr
 
 
+0 STEP
 0 FILE 10124 - Flyer.ldr
 0 Main airframe framework: brown-brick fuselage, hinged wing-mount plates, skids, struts and bracing for the central body of the biplane
 0 Name: 10124 - Flyer.ldr
@@ -304,6 +305,7 @@
 1 6 -610 -334 30 0 1 0 0 0 1 1 0 0 32293.dat
 
 
+0 STEP
 0 FILE 10124 - Front axle.ldr
 0 Front landing skid and axle assembly built from technic pins, joiners and holed bricks
 0 Name: 10124 - Front axle.ldr
@@ -338,6 +340,7 @@
 1 6 90 0 0 0 0 1 0 1 0 -1 0 0 6541.dat
 
 
+0 STEP
 0 FILE 10124 - Front wing.ldr
 0 Front canard elevator wing: boat-bow leading-edge plates, angled wing plates and bracing forming the forward lifting surface
 0 Name: 10124 - Front wing.ldr
@@ -395,6 +398,7 @@
 1 6 40 26 -58 -1 0 0 0 0 1 0 1 0 10124 - Front.ldr
 
 
+0 STEP
 0 FILE 10124 - Front wing upper.ldr
 0 Upper panel of the front canard elevator wing, mirroring the lower elevator with boat-bow and angled wing plates
 0 Name: 10124 - Front wing upper.ldr
@@ -423,6 +427,7 @@
 1 6 40 8 -40 1 0 0 0 1 0 0 0 1 3832.dat
 
 
+0 STEP
 0 FILE 10124 - Front.ldr
 0 Forward fuselage detail: plates, curved arch and grooved tiles finishing the nose of the flyer
 0 Name: 10124 - Front.ldr
@@ -457,6 +462,7 @@
 1 6 0 -8 0 -1 0 0 0 1 0 0 0 -1 6636.dat
 
 
+0 STEP
 0 FILE 10124 - Wing.ldr
 0 Main biplane wing: large boat-bow leading edges, multi-stud plates, wing slopes, struts and bracing forming the primary lifting surface
 0 Name: 10124 - Wing.ldr
@@ -821,6 +827,7 @@
 1 6 0 -240 100 1 0 0 0 1 0 0 0 1 10124 - Tail.ldr
 
 
+0 STEP
 0 FILE 10124 - Engine.ldr
 0 Replica engine block: curved-top bricks, taps, loudhailers and mechanical-arm parts simulating the piston engine and exhaust
 0 Name: 10124 - Engine.ldr
@@ -901,6 +908,7 @@
 1 7 49.932 -42.857 -30 0 -0.927 0.375 0 -0.375 -0.927 1 0 0 30377.dat
 
 
+0 STEP
 0 FILE 10124 - Engine axle.ldr
 0 Engine drive axle with a 16-tooth gear, wedge belt wheel and smooth bushes
 0 Name: 10124 - Engine axle.ldr
@@ -921,6 +929,7 @@
 1 7 0 0 45 -1 0 0 0 1 0 0 0 -1 32123a.dat
 
 
+0 STEP
 0 FILE 10124 - Control.ldr
 0 Control linkage: a barred shaft, pin joiner and mechanical arm forming the warping/steering control column
 0 Name: 10124 - Control.ldr
@@ -940,6 +949,7 @@
 1 7 110 -37.986 12.71 -1 0 0 0 0.809 -0.588 0 -0.588 -0.809 30377.dat
 
 
+0 STEP
 0 FILE 10124 - Fan RH.ldr
 0 Right-hand propeller rotor: technic axle, 24-tooth gear, suspension arms and pins forming the drive hub
 0 Name: 10124 - Fan RH.ldr
@@ -977,6 +987,7 @@
 1 0 0 0 -150 1 0 0 0 1 0 0 0 1 10124 - Propeller.ldr
 
 
+0 STEP
 0 FILE 10124 - Propeller.ldr
 0 Propeller blade assembly: axle connector, lightsaber-bar blades, hinge arms and angled brown hinge plates forming the two pusher blades
 0 Name: 10124 - Propeller.ldr
@@ -1006,6 +1017,7 @@
 1 0 0 0 50 1 0 0 0 -1 0 0 0 -1 6538b.dat
 
 
+0 STEP
 0 FILE 10124 - Fan LH.ldr
 0 Left-hand propeller rotor: technic axle, 24-tooth gear, suspension arms and pins forming the drive hub (mirror of the right rotor)
 0 Name: 10124 - Fan LH.ldr
@@ -1043,6 +1055,7 @@
 1 0 0 0 -150 1 0 0 0 1 0 0 0 1 10124 - Propeller.ldr
 
 
+0 STEP
 0 FILE 10124 - Tail.ldr
 0 Tail assembly: brown plates, hinge plates and grooved tiles forming the rear rudder and tail frame
 0 Name: 10124 - Tail.ldr
@@ -1110,6 +1123,7 @@
 1 6 0 -8 418.119 0 0 1 0 1 0 -1 0 0 3020.dat
 
 
+0 STEP
 0 FILE 10124 - Upper wing.ldr
 0 Upper wing panel: multi-stud and boat-bow plates, wing elements and towball struts forming the top surface of the biplane wing
 0 Name: 10124 - Upper wing.ldr
@@ -1320,6 +1334,7 @@
 1 0 -600 42 -20 1 0 0 0 1 0 0 0 1 6628.dat
 
 
+0 STEP
 0 FILE 10124 - Stringer front.ldr
 0 Front structural stringer: plates, a dual-finger hinge and a barred plate forming the forward bracing beam
 0 Name: 10124 - Stringer front.ldr
@@ -1338,6 +1353,7 @@
 1 6 0 16 -300 1 0 0 0 1 0 0 0 1 42445.dat
 
 
+0 STEP
 0 FILE 10124 - Rear box.ldr
 0 Rear structural mounting box: plates, holed bricks, a technic beam and pins forming the rear frame and engine mount
 0 Name: 10124 - Rear box.ldr
@@ -1391,6 +1407,7 @@
 1 6 0 0 0 0 0 -1 0 1 0 1 0 0 32063.dat
 
 
+0 STEP
 0 FILE 10124 - Front lower stringer.ldr
 0 Lower front stringer: a barred plate forming the lower forward bracing beam
 0 Name: 10124 - Front lower stringer.ldr
@@ -1403,6 +1420,7 @@
 1 6 0 -8 180 -1 0 0 0 1 0 0 0 -1 42445.dat
 
 
+0 STEP
 0 FILE 10124 - Rubber.ldr
 0 Rubber drive band: an LDCad-generated rubber band (about 72 mm, 20 segments) linking the engine to the propeller shafts
 0 Name: 10124 - Rubber.ldr
@@ -1727,6 +1745,7 @@
 5 24 0 11.5 2 0 11.5 -2 4.498012 10.580127 2 -0.979782 11.700069 2
 
 
+0 STEP
 0 FILE 10124 - Wing string LH.ldr
 0 Left wing bracing wire: an LDCad-generated rope (about 153 mm, 191 segments) tensioning the left wing structure
 0 Name: 10124 - Wing string LH.ldr
@@ -1778,6 +1797,7 @@
 
 
 
+0 STEP
 0 FILE 10124 - Wing string LH_subPart1.ldr
 0 Left wing bracing wire - segment subpart: cylinder segments composing part of the left wing rope
 0 Name: 10124 - Wing string LH_subPart1.ldr
@@ -2183,6 +2203,7 @@
 1 16 -49.566856 203.514688 320.823501 1.161682 -1.631679 -0.726051 0.399542 -1.938861 1.250286 -0.860733 -3.102177 -0.399542 4-4cyli.dat
 
 
+0 STEP
 0 FILE 10124 - Rear string LH.ldr
 0 Left rear bracing wire: an LDCad-generated rope (about 159 mm, 199 segments) tensioning the left rear structure
 0 Name: 10124 - Rear string LH.ldr
@@ -2234,6 +2255,7 @@
 
 
 
+0 STEP
 0 FILE 10124 - Rear string LH_subPart1.ldr
 0 Left rear bracing wire - segment subpart: cylinder segments composing part of the left rear rope
 0 Name: 10124 - Rear string LH_subPart1.ldr
@@ -2655,6 +2677,7 @@
 1 16 361.044649 187.134739 40.029291 0.041697 -3.966134 -0.191806 0.002677 -0.511551 1.487684 -1.499418 -0.111207 -0.002677 4-4cyli.dat
 
 
+0 STEP
 0 FILE 10124 - Rear string RH.ldr
 0 Right rear bracing wire: an LDCad-generated rope (about 159 mm, 199 segments) tensioning the right rear structure
 0 Name: 10124 - Rear string RH.ldr
@@ -2706,6 +2729,7 @@
 
 
 
+0 STEP
 0 FILE 10124 - Rear string RH_subPart1.ldr
 0 Right rear bracing wire - segment subpart: cylinder segments composing part of the right rear rope
 0 Name: 10124 - Rear string RH_subPart1.ldr
@@ -3127,6 +3151,7 @@
 1 16 361.044649 187.134739 -40.029291 -0.041697 -3.966134 -0.191806 -0.002677 -0.511551 1.487684 -1.499418 0.111207 0.002677 4-4cyli.dat
 
 
+0 STEP
 0 FILE 10124 - Chain RH.ldr
 0 Right drive chain: an LDCad-generated chain (about 224 mm, 35 links) transmitting engine power to the right propeller
 0 Name: 10124 - Chain RH.ldr
@@ -3224,6 +3249,7 @@
 1 16 -86.668037 -66.468037 0 0 0.920171 0.391517 0 -0.391517 0.920171 1 0 0 3711.dat
 
 
+0 STEP
 0 FILE 10124 - Chain LH.ldr
 0 Left drive chain: an LDCad-generated chain (about 358 mm, 56 links) transmitting engine power to the left propeller
 0 Name: 10124 - Chain LH.ldr
@@ -3363,6 +3389,7 @@
 1 16 3.58414 215.195638 0 0 0.950325 0.31126 0 -0.31126 0.950325 1 0 0 3711.dat
 
 
+0 STEP
 0 FILE 10124 - Tail string LH.ldr
 0 Left tail bracing wire: an LDCad-generated rope (about 35 mm, 44 segments) tensioning the left side of the tail
 0 Name: 10124 - Tail string LH.ldr
@@ -3481,6 +3508,7 @@
 1 16 78.451446 -38.911356 5.017748 1.334691 -1.82525 -0.010159 0.684542 3.558603 0.023996 -0.001912 -0.069302 1.499774 4-4cyli.dat
 
 
+0 STEP
 0 FILE 10124 - Tail string.ldr
 0 Centre tail bracing wire: an LDCad-generated rope (about 13 mm, 16 segments) tensioning the centre of the tail
 0 Name: 10124 - Tail string.ldr
@@ -3543,6 +3571,7 @@
 1 16 65.643471 0.490577 0.849703 0 -2.204093 -1.254312 1.299038 -1.68038 0.411309 -0.75 -2.910503 0.712408 4-4cyli.dat
 
 
+0 STEP
 0 FILE 10124 - Tail string RH.ldr
 0 Right tail bracing wire: an LDCad-generated rope (about 35 mm, 44 segments) tensioning the right side of the tail
 0 Name: 10124 - Tail string RH.ldr
@@ -3661,6 +3690,7 @@
 1 16 78.451446 -38.911356 -5.017748 1.334691 -1.82525 0.010159 0.684542 3.558603 -0.023996 0.001912 0.069302 1.499774 4-4cyli.dat
 
 
+0 STEP
 0 FILE 10124 - Wing string RH.ldr
 0 Right wing bracing wire: an LDCad-generated rope (about 153 mm, 191 segments) tensioning the right wing structure
 0 Name: 10124 - Wing string RH.ldr
@@ -3712,6 +3742,7 @@
 
 
 
+0 STEP
 0 FILE 10124 - Wing string RH_subPart1.ldr
 0 Right wing bracing wire - segment subpart: cylinder segments composing part of the right wing rope
 0 Name: 10124 - Wing string RH_subPart1.ldr

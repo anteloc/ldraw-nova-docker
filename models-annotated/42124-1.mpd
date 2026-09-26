@@ -8,6 +8,7 @@
 1 16 0 -134.582 -192.574 1 0 0 0 0.986 0.168 0 -0.168 0.986 42124 - buggy.ldr
 
 
+0 STEP
 0 FILE 42124 - controlPlusMotorL-LQ-1.ldr
 0 Control+ L Motor assembly with a black cable stub routing along a flexible 204.71 mm path.
 0 Name: 42124 - controlPlusMotorL-LQ-1.ldr
@@ -58,6 +59,7 @@
 
 
 
+0 STEP
 0 FILE 42124 - controlPlusMotorL-LQ-1_subPart1.ldr
 0 Subpart containing flexible cable geometry segments for the L motor's 204.71 mm routing path.
 0 Name: 42124 - controlPlusMotorL-LQ-1_subPart1.ldr
@@ -333,6 +335,7 @@
 1 16 -63.147008 77.098899 220.40809 0.666879 -2.969954 -0.06117 0.719552 2.481238 0.311917 -0.193693 -1.007883 0.948138 u9218.dat
 
 
+0 STEP
 0 FILE 42124 - buggy.ldr
 0 Main buggy substructure built from beams, pins, axles, cross blocks, and dark azure body panels forming the core frame.
 0 Name: 42124 - buggy.ldr
@@ -728,6 +731,7 @@
 1 15 -120 -416.382 287.708 1 0 0 0 1 0 0 0 1 18654.dat
 
 
+0 STEP
 0 FILE 42124 - steerfront.ldr
 0 Front steering assembly using beams, an H-shaped liftarm, and double pin connectors for steering linkage.
 0 Name: 42124 - steerfront.ldr
@@ -769,6 +773,7 @@
 1 14 50 0 40 0 0 1 -1 0 0 0 -1 0 43857.dat
 
 
+0 STEP
 0 FILE 42124 - chassisfrontbottom.ldr
 0 Front bottom chassis section with bent liftarms, cross blocks, and axles forming the angled structural base.
 0 Name: 42124 - chassisfrontbottom.ldr
@@ -811,6 +816,7 @@
 1 0 -20 -32 -144 0 -1 0 -1 0 0 0 0 -1 18654.dat
 
 
+0 STEP
 0 FILE 42124 - roofrear.ldr
 0 Rear roof and bodywork assembly with curved panels, angle connectors, and transparent round tiles for detailing.
 0 Name: 42124 - roofrear.ldr
@@ -910,6 +916,7 @@
 1 0 -40 100 -50 0 0 1 0 -1 0 1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 42124 - drivemotor.ldr
 0 Drive motor assembly featuring a large open-center beam frame, differential gear, and angle connectors for the drivetrain.
 0 Name: 42124 - drivemotor.ldr
@@ -1072,6 +1079,7 @@
 1 14 114 0 90 0 0 1 1 0 0 0 1 0 32123b.dat
 
 
+0 STEP
 0 FILE 42124 - drivemotor2.ldr
 0 Secondary drive motor assembly with beams, a 36-tooth double bevel gear, and cross blocks for gear reduction and mounting.
 0 Name: 42124 - drivemotor2.ldr
@@ -1156,6 +1164,7 @@
 1 321 40 0 0 0 -1 0 -1 0 0 0 0 -1 32524.dat
 
 
+0 STEP
 0 FILE 42124 - controlPlusMotorL-LQ-2.ldr
 0 Control+ L Motor assembly with a white cable stub routing along a flexible 286.44 mm path.
 0 Name: 42124 - controlPlusMotorL-LQ-2.ldr
@@ -1206,6 +1215,7 @@
 
 
 
+0 STEP
 0 FILE 42124 - controlPlusMotorL-LQ-2_subPart1.ldr
 0 Subpart containing flexible cable geometry segments for the L motor's 286.44 mm routing path.
 0 Name: 42124 - controlPlusMotorL-LQ-2_subPart1.ldr
@@ -1583,6 +1593,7 @@
 1 16 224.105234 73.812316 -3.106249 0.402701 -0.21399 0.913767 -0.905809 0.481336 0.406239 -0.13169 -3.965164 0 u9218.dat
 
 
+0 STEP
 0 FILE 42124 - chassisbottom1.ldr
 0 Bottom chassis fairing section with smooth short black and long magenta panel fairings attached via pins.
 0 Name: 42124 - chassisbottom1.ldr
@@ -1607,6 +1618,7 @@
 1 14 0 -30 -20 -1 0 0 0 0 -1 0 -1 0 43857.dat
 
 
+0 STEP
 0 FILE 42124 - chassisbottom2.ldr
 0 Bottom chassis fairing section with smooth short black and long magenta panel fairings attached via pins.
 0 Name: 42124 - chassisbottom2.ldr
@@ -1631,6 +1643,7 @@
 1 14 0 -30 -20 -1 0 0 0 0 -1 0 -1 0 43857.dat
 
 
+0 STEP
 0 FILE 42124 - 42924.dat
 0 Detailed Technic pin connector part geometry composed of friction pin ribs, collars, cylinders, and rings.
 0 Name: 42124 - 42924.dat
@@ -1758,6 +1771,7 @@
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 4 60] [center=true] [slide=true]
 0 !LDCAD MIRROR_INFO [baseFlip=Z] [counterPart=self]
 
+0 STEP
 0 FILE 42124 - 15100.dat
 0 Single Technic friction pin primitive with base collar and rectangular centre hole.
 0 Name: 42124 - 15100.dat
@@ -1779,6 +1793,7 @@
 
 0 !LDCAD MIRROR_INFO [baseFlip=Z] [counterPart=self]
 
+0 STEP
 0 FILE 42124 - 71709.dat
 0 Complex Technic connector part geometry with connector holes, peg holes, and box/disc sub-primitives forming a liftarm construction.
 0 Name: 42124 - 71709.dat
@@ -1886,6 +1901,7 @@
 0 // Rectangle with 2 Parallel Edges (main_colour)
 1 16 0 9 -21 -20 0 0 0 -1 0 0 0 -9 rect2p.dat
 
+0 STEP
 0 FILE 42124 - 32526.dat
 0 Technic part geometry (no visible sub-primitives, referencing external geometry).
 0 Name: 42124 - 32526.dat
@@ -1914,6 +1930,7 @@
 0 !LDCAD SNAP_INCL [ref=connhole.dat]
 0 !LDCAD MIRROR_INFO [baseFlip=Y]
 
+0 STEP
 0 FILE 42124 - 60483.dat
 0 Technic part geometry (no visible sub-primitives, referencing external geometry).
 0 Name: 42124 - 60483.dat
@@ -1931,6 +1948,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\42124 - 60483s01.dat
 4 16 9 10 0 9 10 20 9 -10 20 9 -10 0
 
+0 STEP
 0 FILE 42124 - 31794.dat
 0 Technic connector part geometry with connector holes, beam holes, and cylinder/box sub-primitives.
 0 Name: 42124 - 31794.dat
@@ -1965,6 +1983,7 @@
 4 16 1.5 -9 -50 -1.5 -9 -50 -10 -9 -51 10 -9 -51
 4 16 1.5 -9 -10 1.5 -9 -50 10 -9 -51 10 -9 -9
 
+0 STEP
 0 FILE 42124 - 44874.dat
 0 Technic friction pin primitive pair with base collars, small rectangular centre holes, and circle sub-primitives.
 0 Name: 42124 - 44874.dat
@@ -1992,6 +2011,7 @@
 2 24 -10 2.4 3 -10 2.4 -3
 2 24 -10 -2.4 3 -10 -2.4 -3
 
+0 STEP
 0 FILE 42124 - 71710.dat
 0 Technic beam/connector part geometry with multiple connector holes, peg holes, rings, and cylinders.
 0 Name: 42124 - 71710.dat
@@ -2118,6 +2138,7 @@
 0 // Cylinder Open 0.5 (main_colour)
 1 16 0 -10 -140 -9 0 0 0 20 0 0 0 -9 2-4cylo.dat
 
+0 STEP
 0 FILE 42124 - 69909.dat
 0 Technic part geometry (no visible sub-primitives, referencing external geometry).
 0 Name: 42124 - 69909.dat
@@ -2190,6 +2211,7 @@
 1 16 0 0 0 0.76604 0.64279 0 -0.64279 0.76604 0 0 0 1 s\42124 - 69909s02.dat
 1 16 0 0 0 0.93969 0.34202 0 -0.34202 0.93969 0 0 0 1 s\42124 - 69909s02.dat
 
+0 STEP
 0 FILE 42124 - 32523.dat
 0 Technic part geometry (no visible sub-primitives, referencing external geometry).
 0 Name: 42124 - 32523.dat
@@ -2210,6 +2232,7 @@
 
 0 !LDCAD SNAP_INCL [ref=connhole.dat]
 
+0 STEP
 0 FILE 42124 - 65098.dat
 0 Technic pin primitive set with base collars, rectangular centre holes, and thin base ribs with circle sub-primitives.
 0 Name: 42124 - 65098.dat
@@ -2253,6 +2276,7 @@
 2 24 10 -7.1716 2.8284 10 -7.1716 -2.8284
 2 24 10 -12.8284 -2.8284 10 -12.8284 2.8284
 
+0 STEP
 0 FILE 42124 - 71682.dat
 0 Detailed Technic part geometry with axle holes, semi-reduced axle holes, rings, discs, and cylinders forming a connector or bush component.
 0 Name: 42124 - 71682.dat
@@ -2464,6 +2488,7 @@
 1 16 -0.9835 -29.69 0 0 0 -1.4325 0 1 0 28.022 0 0 rect2p.dat
 4 16 -2.416 -29.690001 -28.021999 -2.416 -29.690001 28.021999 -1.637 -28.351 30 -1.637 -28.351 -30
 
+0 STEP
 0 FILE 42124 - 62462.dat
 0 Cylindrical Technic connector primitive with peg holes, rings, and axle features.
 0 Name: 42124 - 62462.dat
@@ -2552,6 +2577,7 @@
 0 !LDCAD SNAP_CLEAR 
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 8 2   R 6 16   R 8 4   R 6 16   R 8 2] [center=true] [slide=true]
 
+0 STEP
 0 FILE 42124 - 33299b.dat
 0 Small Technic connector primitive featuring axle and peg holes with rings.
 0 Name: 42124 - 33299b.dat
@@ -2589,6 +2615,7 @@
 4 16 6.36 10 33.637001 3.444 10 31.684999 3.062 10 32.609001 5.657 10 34.342999
 4 16 3.444 10 31.684999 0 10 31 0 10 32 3.062 10 32.609001
 
+0 STEP
 0 FILE 42124 - 55615.dat
 0 Complex Technic beam connector primitive with multiple connector holes, cylinders, and pin collars.
 0 Name: 42124 - 55615.dat
@@ -3041,6 +3068,7 @@
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 8 2   R 6 16   S 8 2] [center=true] [slide=true]
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 8 2   R 6 16   S 8 2] [center=true] [slide=true]
 
+0 STEP
 0 FILE 42124 - confric3.dat
 0 Friction pin connector primitive with ribs, slits, and stop rings.
 0 Name: 42124 - confric3.dat
@@ -3120,6 +3148,7 @@
 0 // Cylinder 1.0 (main_colour)
 1 16 0 -2 0 8 0 0 0 2 0 0 0 -8 4-4cyli.dat
 
+0 STEP
 0 FILE 42124 - connectcollar4.dat
 0 Small connector collar primitive with cylinders, rings, and rectangular edges.
 0 Name: 42124 - connectcollar4.dat
@@ -3205,6 +3234,7 @@
 0 // Rectangle with 2 Adjacent Edges (main_colour)
 1 16 -2.4 5 2 0 -1 0 0 0 -5 1 0 0 rect2a.dat
 
+0 STEP
 0 FILE 42124 - confricrib1.dat
 0 Friction pin rib primitive with no direct geometry pieces.
 0 Name: 42124 - confricrib1.dat
@@ -3241,6 +3271,7 @@
 5 24 4.698 -3.7 3.5666 4.773 -3.7 4.0659 4.5259 -4 3.8188 4.698 0 3.5666
 5 24 4.773 -3.7 4.0659 4.773 0 4.0659 4.698 -3.7 3.5666 4.0659 0 4.773
 
+0 STEP
 0 FILE 42124 - confricrib2.dat
 0 Friction pin rib primitive with no direct geometry pieces.
 0 Name: 42124 - confricrib2.dat
@@ -3323,6 +3354,7 @@
 5 24 5.844 -3.7 0.8 6.25 -3.7 0.5 5.9006 -4 0.5 5.844 0 0.8
 5 24 6.25 -3.7 0.5 6.25 0 0.5 5.844 -3.7 0.8 6.25 0 -0.5
 
+0 STEP
 0 FILE 42124 - confricrib3.dat
 0 Friction pin rib primitive with no direct geometry pieces.
 0 Name: 42124 - confricrib3.dat
@@ -3372,6 +3404,7 @@
 5 24 4.773 5.7 4.0659 4.0659 5.7 4.773 4.2426 6 4.2426 4.773 -5.7 4.0659
 5 24 4.0659 5.7 4.773 3.5666 5.7 4.698 3.8188 6 4.5259 4.0659 -5.7 4.773
 
+0 STEP
 0 FILE 42124 - confricrib4.dat
 0 Minimal friction pin rib primitive with two circular faces.
 0 Name: 42124 - confricrib4.dat
@@ -3434,6 +3467,7 @@
 2 24 6.0748 -1.1 0.6294 5.844 -1.9863 0.8
 2 24 6.0748 1.1 0.6294 6.1475 0 0.5757
 
+0 STEP
 0 FILE 42124 - connectslit2.dat
 0 Small connector slit primitive with cylinders and a rectangular edge strip.
 0 Name: 42124 - connectslit2.dat
@@ -3462,6 +3496,7 @@
 1 16 6 5 0 0 -2 -0.199 1 0 0 0 0 1 8\1-4cylo.dat
 1 16 3.9941 5 0 0 1 -0.199 1 0 0 0 0 1 8\1-4ndis.dat
 
+0 STEP
 0 FILE 42124 - connectcollar3.dat
 0 Connector collar primitive with cylinders, rings, and rectangular edge details.
 0 Name: 42124 - connectcollar3.dat
@@ -3543,6 +3578,7 @@
 0 // Rectangle with 3 Edges (main_colour)
 1 16 -4.3146 4.5 1 1.4865 0 0 0 0 -4.5 0 1 0 rect3.dat
 
+0 STEP
 0 FILE 42124 - connectslit1.dat
 0 Small connector slit primitive with cylinders and a rectangular edge strip.
 0 Name: 42124 - connectslit1.dat
@@ -3571,6 +3607,7 @@
 1 16 4.801 0 1 0 0 1 8 0 0 0 1 0 rect2p.dat
 5 24 5.5433 9 2.2961 5.5434 -9 2.2962 4.2426 -9 4.2426 5.801 -9 1
 
+0 STEP
 0 FILE s\42124 - 32523s01.dat
 0 Technic beam primitive with connector holes and cylindrical sides.
 0 Name: s\42124 - 32523s01.dat
@@ -3606,6 +3643,7 @@
 0 // Rectangle with 2 Parallel Edges (main_colour)
 1 16 -9 0 0 0 1 0 0 0 10 20 0 0 rect2p.dat
 
+0 STEP
 0 FILE s\42124 - 32138s01.dat
 0 Technic axle connector primitive with open axle holes, cylinders, and rectangles.
 0 Name: s\42124 - 32138s01.dat
@@ -3913,6 +3951,7 @@
 5 24 -4 7.4 -9 -4 7.4 -7.5 -6 6 -9 -2 8 -7.5
 5 24 -7 4.8 -9 -7 4.8 -7.5 -8 3 -9 -6 6 -7.5
 
+0 STEP
 0 FILE 42124 - connect7.dat
 0 Connector primitive with cylinders, rings, ribs, and rectangular edge details.
 0 Name: 42124 - connect7.dat
@@ -4183,6 +4222,7 @@
 
 0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=R 8 2   R 6 16   _L 6.25 2]
 
+0 STEP
 0 FILE 42124 - confric10.dat
 0 Friction connector primitive with cylinders, rings, ribs, and rectangular edges.
 0 Name: 42124 - confric10.dat
@@ -4571,6 +4611,7 @@
 5 24 -3.5666 -14.3 4.698 -4.0659 -14.3 4.773 -3.8188 -14 4.5259 -3.5666 -18 4.698
 5 24 -4.0659 -14.3 4.773 -4.0659 -18 4.773 -3.5666 -14.3 4.698 -4.773 -18 4.0659
 
+0 STEP
 0 FILE s\42124 - 15100s01.dat
 0 Technic connector primitive with a long connector hole and sloped cylinders.
 0 Name: s\42124 - 15100s01.dat
@@ -4625,6 +4666,7 @@
 2 24 4.827 -3.062 7.391 3.916 0 8
 4 16 10 -3 -4 10 3 -4 10 3 4 10 -3 4
 
+0 STEP
 0 FILE s\42124 - 64782s01.dat
 0 Technic connector primitive with connector holes, cylinders, and sloped details.
 0 Name: s\42124 - 64782s01.dat
@@ -4761,6 +4803,7 @@
 0 // Rectangle with 3 Edges (main_colour)
 1 16 -28.305 7 20 0 0 2.895 0 -1 0 1 0 0 rect3.dat
 
+0 STEP
 0 FILE s\42124 - 32526s01.dat
 0 Technic beam connector primitive with open cylinders and multiple peg holes.
 0 Name: s\42124 - 32526s01.dat
@@ -4841,6 +4884,7 @@
 2 24 40 -10 89 0 -10 89
 2 24 0 10 89 40 10 89
 
+0 STEP
 0 FILE s\42124 - 60483s01.dat
 0 Technic connector primitive with axle and peg holes plus rings and cylinders.
 0 Name: s\42124 - 60483s01.dat
@@ -4879,6 +4923,7 @@
 2 24 9 -10 20 9 -10 0
 2 24 9 10 20 9 10 0
 
+0 STEP
 0 FILE 42124 - confric11.dat
 0 Friction connector primitive with cylinders, rings, ribs, and edge rectangles.
 0 Name: 42124 - confric11.dat
@@ -5243,6 +5288,7 @@
 5 24 -3.558 -5.7 5.1627 -3.558 -2 5.1627 -3.6153 -5.7 4.6618 -2.692 -2 5.6627
 5 24 -2.692 -5.7 5.6627 -2.5337 -6 5.3847 -3.558 -5.7 5.1627 -2.2962 -5.7 5.5434
 
+0 STEP
 0 FILE s\42124 - 87082s01.dat
 0 Simple Technic connector primitive with a cylinder and sloped sides.
 0 Name: s\42124 - 87082s01.dat
@@ -5289,6 +5335,7 @@
 2 24 -4.827 -3.062 -7.391 -3.916 0 -8
 4 16 -10 3 4 -10 3 -4 -10 -3 -4 -10 -3 4
 
+0 STEP
 0 FILE s\42124 - 71710s01.dat
 0 Technic beam connector primitive with connector holes, peg holes, and rings.
 0 Name: s\42124 - 71710s01.dat
@@ -5380,6 +5427,7 @@
 4 16 7.071 -10 -20 10 -10 -20 10 -10 -10 7.07107 -10 -7.07107
 2 24 10 -10 -10 10 -10 -20
 
+0 STEP
 0 FILE 42124 - u9320.dat
 0 Electric Power Functions 2.0 socket primitive.
 0 Name: 42124 - u9320.dat
@@ -5398,6 +5446,7 @@
 
 0 !LDCAD SNAP_GEN [group=pwrFnc2Plg] [gender=F] [bounding=box 12.5 5 7]
 
+0 STEP
 0 FILE 42124 - 23807.dat
 0 Box-based primitive featuring chrome-gold faced boxes with edge details.
 0 Name: 42124 - 23807.dat
@@ -5524,6 +5573,7 @@
 2 24 -13.5 8 18 -9 8 18
 2 24 15.5 6 0 15.5 -6 0
 
+0 STEP
 0 FILE 42124 - 25560.dat
 0 25560
 0 Name: 42124 - 25560.dat
@@ -5541,6 +5591,7 @@
 1 16 0 0 -20 1 0 0 0 1 0 0 0 1 s\42124 - 24851s02.dat
 1 16 0 0 -20 -1 0 0 0 1 0 0 0 1 s\42124 - 24851s02.dat
 
+0 STEP
 0 FILE 42124 - 24851.dat
 0 24851
 0 Name: 42124 - 24851.dat
@@ -5715,6 +5766,7 @@
 5 24 2 50 83.444298 -2 50 83.444298 2 48.048801 86.363899 2 50 80
 4 16 -66 -20 -77 66 -20 -77 48 10 -77 -48 10 -77
 
+0 STEP
 0 FILE s\42124 - 24851s01.dat
 0 24851s01
 0 Name: s\42124 - 24851s01.dat
@@ -6224,6 +6276,7 @@
 5 24 43 50 83.444298 39 50 83.444298 43 48.048801 86.363899 43 50 80
 1 16 0 0 -60 1 0 0 0 1 0 0 0 1 s\42124 - 24851s02.dat
 
+0 STEP
 0 FILE s\42124 - 24851s02.dat
 0 24851s02
 0 Name: s\42124 - 24851s02.dat
@@ -6292,6 +6345,7 @@
 0 // Rectangle with 3 Edges (main_colour)
 1 16 48.5 -29 -17 -1.5 0 0 0 0 5 0 1 0 rect3.dat
 
+0 STEP
 0 FILE 42124 - 24849.dat
 0 24849
 0 Name: 42124 - 24849.dat
@@ -7049,6 +7103,7 @@
 5 24 -33 -34.400002 73 -33 -34.400002 -72 -21 -34.400002 -72 -39 -37.599998 -72
 5 24 -52 -37.599998 -72 -52 -37.599998 73 -58 -34.400002 -72 -39 -37.599998 -72
 
+0 STEP
 0 FILE 42124 - 24853.dat
 0 24853
 0 Name: 42124 - 24853.dat
@@ -7213,6 +7268,7 @@
 1 16 46 -7.5 -1 0 -1 0 0 0 4.5 -58 0 0 rect3.dat
 2 24 -5 -4 78 5 -4 78
 
+0 STEP
 0 FILE 42124 - npeghol3.dat
 0 npeghol3
 0 Name: 42124 - npeghol3.dat
@@ -7258,6 +7314,7 @@
 0 // Box with  2 Faces without  7 Edges (main_colour)
 1 16 2.7222 0.5 -3.041 0 -0.72215 0 0.5 0 0 0 0.14395 1.5 box2-7.dat
 
+0 STEP
 0 FILE s\42124 - 69909s01.dat
 0 69909s01
 0 Name: s\42124 - 69909s01.dat
@@ -7566,6 +7623,7 @@
 5 24 62.932499 -62.932499 0 57.208099 -68.178001 0 57.079498 -68.024696 -6.6 62.7911 -62.7911 6.6
 5 24 60.528301 -60.528301 -22.5 62.084 -62.084 -13.9 65.573402 -55.022598 -22.5 56.436798 -67.258698 -13.9
 
+0 STEP
 0 FILE s\42124 - 69909s02.dat
 0 69909s02
 0 Name: s\42124 - 69909s02.dat

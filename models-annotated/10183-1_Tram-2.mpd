@@ -256,6 +256,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 18 - Door.ldr
 0 Train door — red grille-tile frame with two clear window panels, hinged on a technic pin through a holed brick, mounted on a red plate
 0 Name: 10183 - 18 - Door.ldr
@@ -282,6 +283,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 18 - Front.ldr
 0 Front cab — sloped red and dark-red nose with clear windscreen panels, curved top, grille tiles, black wiper arms and clip-bar details
 0 Name: 10183 - 18 - Front.ldr
@@ -398,6 +400,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 18 - Back.ldr
 0 Rear cab — sloped red and dark-red tail with clear window panels, curved top, grille tiles, black wiper arms and clip-bar details (mirrors the front cab)
 0 Name: 10183 - 18 - Back.ldr
@@ -518,6 +521,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 18 - End window.ldr
 0 End wall — red brick frame with clear hollow-stud window panels, a yellow headlight, patterned destination-sign tile, curved-top housing and a hinged control-stick detail
 0 Name: 10183 - 18 - End window.ldr
@@ -572,6 +576,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 18 - Roof.ldr
 0 Curved black roof — long plates topped by curved-top bricks, ventilation grille bricks and tiles, a round axlehole plate and a clip-and-bar pantograph assembly
 0 Name: 10183 - 18 - Roof.ldr
@@ -645,6 +650,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 18 - Underside detail.ldr
 0 Underside chassis detail — plates with four side-stud bricks and two curved-top housing bricks forming the floor structure
 0 Name: 10183 - 18 - Underside detail.ldr
@@ -673,6 +679,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 18 - wheels.ldr
 0 Single-axle train bogie — two wheelsets on round bricks mounted to a plate frame with a bogie pin plate
 0 Name: 10183 - 18 - wheels.ldr

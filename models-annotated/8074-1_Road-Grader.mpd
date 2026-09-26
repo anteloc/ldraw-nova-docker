@@ -5,6 +5,7 @@
 1 256 -90 0 30 0 0 1 0.081 0.997 0 -0.997 0.081 0 8074 - Grader.ldr
 
 
+0 STEP
 0 FILE 8074 - Grader.ldr
 0 Main chassis frame built from long Technic bricks with holes, plates, and axles forming the structural backbone of the grader.
 0 Name: 8074 - Grader.ldr
@@ -227,6 +228,7 @@
 1 256 -110 66 -107 -1 0 0 0 1 0 0 0 -1 2857.dat
 
 
+0 STEP
 0 FILE 8074 - Substep_Step-5.ldr
 0 Axle assembly with a 24-tooth gear and half-bushes forming a drive gear stage.
 0 Name: 8074 - Substep_Step-5.ldr
@@ -242,6 +244,7 @@
 1 7 0 0 15 -1 0 0 0 1 0 0 0 -1 4265a.dat
 
 
+0 STEP
 0 FILE 8074 - Substep_Step-6.ldr
 0 Axle assembly combining a 16-tooth gear, 24-tooth crown gear, and bushes for a gear reduction stage.
 0 Name: 8074 - Substep_Step-6.ldr
@@ -259,6 +262,7 @@
 1 7 0 0 -30 -1 0 0 0 1 0 0 0 -1 3713.dat
 
 
+0 STEP
 0 FILE 8074 - Substep_Step-9.ldr
 0 Worm gear reduction unit with a 14-tooth bevel gear mounted between Technic bricks on an axle.
 0 Name: 8074 - Substep_Step-9.ldr
@@ -280,6 +284,7 @@
 1 7 -73 0 0 0 0 1 1 0 0 0 1 0 4143.dat
 
 
+0 STEP
 0 FILE 8074 - Substep_Step-10.ldr
 0 Steering and drive subassembly with gear racks, an 8-tooth gear, Technic plates, and grooved tiles for guiding mechanism.
 0 Name: 8074 - Substep_Step-10.ldr
@@ -343,6 +348,7 @@
 1 7 85 -62 0 0 0 1 0 1 0 -1 0 0 4265a.dat
 
 
+0 STEP
 0 FILE 8074 - Substep_Step-10_Substep_Step-1.ldr
 0 Steering arm linkage with axle pin, bushings, and a short axle forming a steering pivot.
 0 Name: 8074 - Substep_Step-10_Substep_Step-1.ldr
@@ -361,6 +367,7 @@
 1 7 0 10 20 1 0 0 0 1 0 0 0 1 3713.dat
 
 
+0 STEP
 0 FILE 8074 - Substep_Step-10_Substep_Step-2.ldr
 0 Steering arm linkage with axle pin, bushings, and a short axle forming a steering pivot.
 0 Name: 8074 - Substep_Step-10_Substep_Step-2.ldr
@@ -379,6 +386,7 @@
 1 7 0 10 -20 -1 0 0 0 1 0 0 0 -1 3713.dat
 
 
+0 STEP
 0 FILE 8074 - Substep_Step-10_Substep_Step-5.ldr
 0 Short axle pairing a 14-tooth bevel gear with a 24-tooth crown gear for an angled gear drive.
 0 Name: 8074 - Substep_Step-10_Substep_Step-5.ldr
@@ -392,6 +400,7 @@
 1 7 0 2 0 0 1 0 0 0 -1 -1 0 0 3650b.dat
 
 
+0 STEP
 0 FILE 8074 - Substep_Step-12.ldr
 0 Flat base plate group of 1x8 and 1x4 plates with a Technic hole plate providing a mounting platform.
 0 Name: 8074 - Substep_Step-12.ldr
@@ -407,6 +416,7 @@
 1 0 20 -8 0 0 0 1 0 1 0 -1 0 0 3709b.dat
 
 
+0 STEP
 0 FILE 8074 - Substep_Step-13_1.ldr
 0 Long axle with a wedge belt wheel and half-bush used as a pulley or wheel mount.
 0 Name: 8074 - Substep_Step-13_1.ldr
@@ -424,6 +434,7 @@
 1 7 0 72 20 0 0 -1 1 0 0 0 -1 0 4274.dat
 
 
+0 STEP
 0 FILE 8074 - Substep_Step-13_2.ldr
 0 Single wedge belt wheel held by two half-pins, forming a pulley wheel unit.
 0 Name: 8074 - Substep_Step-13_2.ldr
@@ -437,6 +448,7 @@
 1 7 0 -3 20 0 0 -1 1 0 0 0 -1 0 4274.dat
 
 
+0 STEP
 0 FILE 8074 - Substep_Step-14.ldr
 0 Pair of 1x4 Technic bricks in black and yellow joined by four half-pins, forming a pinned connector block.
 0 Name: 8074 - Substep_Step-14.ldr
@@ -462,6 +474,7 @@
 1 8 -190 0 20 0 -1 0 0 0 1 -1 0 0 8074 - technicflexSysCable-2.ldr
 
 
+0 STEP
 0 FILE 8074 - Substep_Step-15_1.ldr
 0 Yellow beam assembly of 1x8 Technic bricks, plates, and pins forming a pivoting arm or support frame.
 0 Name: 8074 - Substep_Step-15_1.ldr
@@ -498,6 +511,7 @@
 1 14 90 -32 0 0 0 -1 0 1 0 1 0 0 3795.dat
 
 
+0 STEP
 0 FILE 8074 - Substep_Step-15_2.ldr
 0 Single 8-tooth Technic gear used as a small drive gear.
 0 Name: 8074 - Substep_Step-15_2.ldr
@@ -507,6 +521,7 @@
 1 7 0 0 0 0 0 -1 0 1 0 1 0 0 3647.dat
 
 
+0 STEP
 0 FILE 8074 - Substep_Step-16.ldr
 0 Large yellow platform built from 2x8 Technic plates and flat plates forming the grader's body deck.
 0 Name: 8074 - Substep_Step-16.ldr
@@ -529,6 +544,7 @@
 1 14 90 -8 0 0 0 -1 0 -1 0 -1 0 0 3710.dat
 
 
+0 STEP
 0 FILE 8074 - Substep_Step-17_1.ldr
 0 Round light unit consisting of a round 2x2 brick with a transparent yellow lens and a round tile cover.
 0 Name: 8074 - Substep_Step-17_1.ldr
@@ -542,6 +558,7 @@
 1 7 0 -32 0 1 0 0 0 1 0 0 0 1 4150.dat
 
 
+0 STEP
 0 FILE 8074 - Substep_Step-17_2.ldr
 0 Two wedge belt wheels connected by a Technic pin, forming a paired wheel or pulley set.
 0 Name: 8074 - Substep_Step-17_2.ldr
@@ -555,6 +572,7 @@
 1 7 0 20 -10 0 0 1 0 1 0 -1 0 0 3673.dat
 
 
+0 STEP
 0 FILE 8074 - rigid3mmHose-1.ldr
 0 Rigid 3mm hose generated from cylindrical LDraw primitives, approximately 112mm long across 9 segments.
 0 !CATEGORY Technic
@@ -1178,6 +1196,7 @@
 5 24 0.7654 -1.8478 280 0.7654 -1.8478 278 1.4142 -1.4142 280 0 -2 280
 5 24 1.4142 -1.4142 280 1.4142 -1.4142 278 1.8478 -0.7654 280 0.7654 -1.8478 280
 5 24 1.8478 -0.7654 280 1.8478 -0.7654 278 2 0 280 1.4142 -1.4142 280
+0 STEP
 0 FILE 8074 - technicflexSysCable-1.ldr
 0 Technic flex-system cable approximately 136mm long with pin-hole connectors and cable ends at both terminations.
 0 !CATEGORY technic
@@ -1226,6 +1245,7 @@
 
 
 
+0 STEP
 0 FILE 8074 - technicflexSysCable-1_subPart1.ldr
 0 Flex-system cable segment subpart composed of cylindrical primitives forming the cable skin.
 0 Author: LDCad
@@ -2122,6 +2142,7 @@
 5 24 0.5944 -363.118988 -1.8478 1.2432 -363.118988 -1.4142 0.589096 -364.118988 -1.8478 0.698408 -343.511536 -1.8478
 5 24 1.2432 -363.118988 -1.4142 1.6768 -363.118988 -0.7654 1.237896 -364.118988 -1.4142 1.347202 -343.514343 -1.4142
 5 24 1.6768 -363.118988 -0.7654 1.829 -363.118988 0 1.671496 -364.118988 -0.7654 1.780798 -343.516205 -0.7654
+0 STEP
 0 FILE 8074 - technicflexSysCable-2.ldr
 0 Technic flex-system cable approximately 136mm long with pin-hole connectors and cable ends at both terminations.
 0 !CATEGORY technic
@@ -2178,6 +2199,7 @@
 
 
 
+0 STEP
 0 FILE 8074 - technicflexSysCable-2_subPart1.ldr
 0 Flex-system cable segment subpart composed of cylindrical primitives forming the cable skin.
 0 Author: LDCad
@@ -3074,6 +3096,7 @@
 5 24 -0.5864 -357.878998 1.8478 -1.2352 -357.878998 1.4142 -0.581196 -358.878998 1.8478 -0.688481 -338.264008 1.847799
 5 24 -1.2352 -357.878998 1.4142 -1.6688 -357.878998 0.7654 -1.229996 -358.878998 1.4142 -1.337274 -338.266937 1.414199
 5 24 -1.6688 -357.878998 0.7654 -1.821 -357.878998 0 -1.663596 -358.878998 0.7654 -1.77087 -338.26889 0.7654
+0 STEP
 0 FILE 8074 - 4185a.dat
 0 Primitive wedge belt wheel component built from rectangles, cylinders, and an open axle-hole element.
 0 Name: 8074 - 4185a.dat
@@ -3146,6 +3169,7 @@
 
 
 
+0 STEP
 0 FILE s\8074 - 4185as01.dat
 0 Wedge belt wheel 1/8th subpart defined by cylindrical arcs, rings, and discs forming the grooved pulley profile.
 0 Name: s\8074 - 4185as01.dat

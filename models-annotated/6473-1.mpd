@@ -23,6 +23,7 @@
 1 8 -55.999 -35.607 -173.435 -0.866 0 0.5 0.354 0.707 0.612 -0.354 0.707 -0.612 30193.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6473 - hovercraft.ldr
 0 A large yellow and black hovercraft built from plates, slopes, and transparent red and green indicator pieces.
 0 hovercraft
@@ -468,6 +469,7 @@
 1 383 174 -140 110 0 1 0 0 0 -1 -1 0 0 902.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6473 - ground vehicle.ldr
 0 A yellow and black rescue vehicle with a cockpit, excavator arm and bucket, steering wheel, and wheel-mounted chassis.
 0 ground vehicle
@@ -622,6 +624,7 @@
 1 15 -95 36 -40 0 0 1 0 1 0 -1 0 0 6014.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6473 - minifig 1.ldr
 0 A RES-Q rescue minifig wearing a white helmet with visor, sunglasses, orange-logo torso, and yellow lifevest.
 0 minifig 1
@@ -658,6 +661,7 @@
 1 14 0 -72 0 1 0 0 0 1 0 0 0 1 2610.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6473 - minifig 2.ldr
 0 A RES-Q rescue minifig with a moustache, black cap, orange-logo torso, and yellow lifevest.
 0 minifig 2

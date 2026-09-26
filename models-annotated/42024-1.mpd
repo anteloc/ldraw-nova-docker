@@ -894,6 +894,7 @@
 1 71 -60 -120 250 -0.53 0 0.848 -0.848 0 -0.53 0 -1 0 42024 - Sub29.ldr
 1 71 0 -140 635 0 0 -1 0 1 0 1 0 0 42024 - Sub31.ldr
 
+0 STEP
 0 FILE 42024 - Sub01.ldr
 0 Small gear assembly combining a 12-tooth bevel gear and a 4-knob gear on joined axles.
 0 Name: 42024 - Sub01.ldr
@@ -923,6 +924,7 @@
 1 14 0 0 60 1 0 0 0 1 0 0 0 1 32072.dat
 
 
+0 STEP
 0 FILE 42024 - Sub02.ldr
 0 Structural linkage assembly using red 11-long beams, bent liftarms, and 180-degree angle connectors joined by axles and pins.
 0 Name: 42024 - Sub02.ldr
@@ -978,6 +980,7 @@
 1 0 30 80 -120 1 0 0 0 -1 0 0 0 -1 2780.dat
 
 
+0 STEP
 0 FILE 42024 - Sub03.ldr
 0 Gear train assembly pairing a 4-knob gear with a 20-tooth double bevel gear on an axle joiner.
 0 Name: 42024 - Sub03.ldr
@@ -1003,6 +1006,7 @@
 1 0 0 -260 0 0 -1 0 0 0 1 -1 0 0 32269.dat
 
 
+0 STEP
 0 FILE 42024 - Sub04.ldr
 0 Compact gear stack mounting a 16-tooth reinforced gear and a 12-tooth bevel gear on a stopped axle.
 0 Name: 42024 - Sub04.ldr
@@ -1022,6 +1026,7 @@
 1 0 -40 0 0 0 0 -1 0 1 0 1 0 0 32270.dat
 
 
+0 STEP
 0 FILE 42024 - Sub05.ldr
 0 Complex steering or linkage assembly with triangle liftarms, multiple angle connectors, and axle/pin joints.
 0 Name: 42024 - Sub05.ldr
@@ -1193,6 +1198,7 @@
 1 0 60 -40 -210 -0.707 -0.707 0 0.707 -0.707 0 0 0 1 42024 - Sub13.ldr
 
 
+0 STEP
 0 FILE 42024 - Sub06.ldr
 0 Gear reduction assembly pairing a 20-tooth and a 12-tooth bevel gear on joined axles with bushes.
 0 Name: 42024 - Sub06.ldr
@@ -1224,6 +1230,7 @@
 1 72 0 0 57 0 0 -1 0 1 0 1 0 0 59426.dat
 
 
+0 STEP
 0 FILE 42024 - Sub07.ldr
 0 Transmission gear cluster with a driving ring, 24-tooth and 12-tooth gears on a stopped axle.
 0 Name: 42024 - Sub07.ldr
@@ -1249,6 +1256,7 @@
 1 71 0 0 35 -1 0 0 0 1 0 0 0 -1 32123b.dat
 
 
+0 STEP
 0 FILE 42024 - Sub08.ldr
 0 Gear train assembly combining a 16-tooth reinforced gear and a 24-tooth gear on a stopped axle.
 0 Name: 42024 - Sub08.ldr
@@ -1278,6 +1286,7 @@
 1 0 0 0 -110 0 0 -1 0 1 0 1 0 0 3706.dat
 
 
+0 STEP
 0 FILE 42024 - Sub09.ldr
 0 Small gear assembly with an 8-tooth reinforced gear on a short stopped axle with a half bush.
 0 Name: 42024 - Sub09.ldr
@@ -1299,6 +1308,7 @@
 1 72 0 0 -67 0 0 1 0 1 0 -1 0 0 59426.dat
 
 
+0 STEP
 0 FILE 42024 - Sub10.ldr
 0 Minimal gear stack mounting a 12-tooth and a 16-tooth gear on a centrally stopped axle.
 0 Name: 42024 - Sub10.ldr
@@ -1316,6 +1326,7 @@
 1 19 0 0 -30 0 0 -1 0 1 0 1 0 0 99008.dat
 
 
+0 STEP
 0 FILE 42024 - Sub11.ldr
 0 Universal joint assembly with a 16-tooth reinforced gear mounted on a 7-long axle.
 0 Name: 42024 - Sub11.ldr
@@ -1345,6 +1356,7 @@
 1 71 0 0 120 -1 0 0 0 -1 0 0 0 1 62519.dat
 
 
+0 STEP
 0 FILE 42024 - Sub12.ldr
 0 Universal joint assembly driving a 20-tooth double bevel gear on a stopped axle.
 0 Name: 42024 - Sub12.ldr
@@ -1367,6 +1379,7 @@
 1 71 0 0 80 -1 0 0 0 -1 0 0 0 1 62519.dat
 
 
+0 STEP
 0 FILE 42024 - Sub13.ldr
 0 Gear pairing assembly with a 12-tooth and a 24-tooth gear on a stopped axle with a bush.
 0 Name: 42024 - Sub13.ldr
@@ -1386,6 +1399,7 @@
 1 71 0 0 40 1 0 0 0 1 0 0 0 1 3713.dat
 
 
+0 STEP
 0 FILE 42024 - Sub14.ldr
 0 Motorized linear actuator assembly powered by two 9V geared motors driving twin linear actuators via universal joints.
 0 Name: 42024 - Sub14.ldr
@@ -1489,6 +1503,7 @@
 1 71 100 0 0 -1 0 0 0 -1 0 0 0 1 62520.dat
 
 
+0 STEP
 0 FILE 42024 - Sub15.ldr
 0 Small connector assembly joining a red 9-long beam and a bent liftarm with friction pins.
 0 Name: 42024 - Sub15.ldr
@@ -1508,6 +1523,7 @@
 1 0 -40 40 10 0 0 1 0 -1 0 1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 42024 - Sub16.ldr
 0 Compact linkage assembly using two short liftarms, an axle joiner, and axle pins.
 0 Name: 42024 - Sub16.ldr
@@ -1531,6 +1547,7 @@
 1 0 0 0 -40 0 0 1 0 1 0 -1 0 0 3705.dat
 
 
+0 STEP
 0 FILE 42024 - Sub17.ldr
 0 Small linear actuator unit with piston, actuator axle, and a universal joint end.
 0 Name: 42024 - Sub17.ldr
@@ -1550,6 +1567,7 @@
 1 71 0 0 0 -1 0 0 0 -1 0 0 0 1 62520.dat
 
 
+0 STEP
 0 FILE 42024 - Sub18.ldr
 0 Drive shaft assembly using axle joiners, cross blocks, and short liftarms with bushes.
 0 Name: 42024 - Sub18.ldr
@@ -1583,6 +1601,7 @@
 1 71 0 0 0 0 0 -1 -1 0 0 0 1 0 3713.dat
 
 
+0 STEP
 0 FILE 42024 - Sub19a.ldr
 0 Single bent red liftarm connector piece held by an axle pin and friction pin.
 0 Name: 42024 - Sub19a.ldr
@@ -1600,6 +1619,7 @@
 1 0 0 -10 60 0 1 0 -1 0 0 0 0 1 2780.dat
 
 
+0 STEP
 0 FILE 42024 - Sub19b.ldr
 0 Single bent red liftarm connector piece held by an axle pin and friction pin.
 0 Name: 42024 - Sub19b.ldr
@@ -1617,6 +1637,7 @@
 1 0 0 10 60 0 1 0 -1 0 0 0 0 1 2780.dat
 
 
+0 STEP
 0 FILE 42024 - Sub20.ldr
 0 Articulated joint assembly using pin joiners, long pins, and split cross block for pivot linkage.
 0 Name: 42024 - Sub20.ldr
@@ -1660,6 +1681,7 @@
 1 72 0 0 -80 1 0 0 0 0 1 0 -1 0 41678.dat
 
 
+0 STEP
 0 FILE 42024 - Sub21.ldr
 0 Detailed rear-light and bumper assembly with translucent red and orange round plates, red liftarms, and connectors.
 0 Name: 42024 - Sub21.ldr
@@ -1733,6 +1755,7 @@
 1 0 -40 0 20 0 1 0 1 0 0 0 0 -1 33299.dat
 
 
+0 STEP
 0 FILE 42024 - Sub22.ldr
 0 Small pivot linkage using a split cross block, a long pin, and two short liftarms on axles.
 0 Name: 42024 - Sub22.ldr
@@ -1756,6 +1779,7 @@
 1 72 -10 20 20 0 0 1 -1 0 0 0 -1 0 60483.dat
 
 
+0 STEP
 0 FILE 42024 - Sub23.ldr
 0 Long structural beam assembly using four red 13-long beams, angle connectors, and cross blocks joined by axles and pins.
 0 Name: 42024 - Sub23.ldr
@@ -1807,6 +1831,7 @@
 1 0 50 0 0 1 0 0 0 -1 0 0 0 -1 3705.dat
 
 
+0 STEP
 0 FILE 42024 - Sub24.ldr
 0 A grey Technic structural assembly with bent beams, long pins, and axles forming a reinforced framework.
 0 Name: 42024 - Sub24.ldr
@@ -1905,6 +1930,7 @@
 1 72 0 40 100 0 0 1 0 -1 0 1 0 0 42024 - Sub25.ldr
 
 
+0 STEP
 0 FILE 42024 - Sub25.ldr
 0 A yellow Technic body panel assembly with smooth fairing panels, beams, and orange indicator lights.
 0 Name: 42024 - Sub25.ldr
@@ -1952,6 +1978,7 @@
 1 57 -40 30 120 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 42024 - Sub26.ldr
 0 A red Technic liftarm structure built from bent 4x6 beams and axles forming a sturdy angled frame.
 0 Name: 42024 - Sub26.ldr
@@ -2023,6 +2050,7 @@
 1 71 -48 -20 -256 0.301 0 -0.954 0 1 0 0.954 0 0.301 42024 - Sub28.ldr
 
 
+0 STEP
 0 FILE 42024 - Sub27.ldr
 0 A simple red Technic beam connector joining beam 3 and beam 9 sections with friction pins.
 0 Name: 42024 - Sub27.ldr
@@ -2046,6 +2074,7 @@
 1 0 -40 -250 0 0 0 1 -1 0 0 0 -1 0 2780.dat
 
 
+0 STEP
 0 FILE 42024 - Sub28.ldr
 0 A minimal red Technic connector linking two short liftarms with friction pins.
 0 Name: 42024 - Sub28.ldr
@@ -2065,6 +2094,7 @@
 1 0 0 -250 20 0 0 -1 1 0 0 0 -1 0 2780.dat
 
 
+0 STEP
 0 FILE 42024 - Sub29.ldr
 0 A small red Technic link arm with a half-width liftarm, axle pin, and 3/4 pin for attachment.
 0 Name: 42024 - Sub29.ldr
@@ -2082,6 +2112,7 @@
 1 19 0 0 40 0 -1 0 1 0 0 0 0 1 32002.dat
 
 
+0 STEP
 0 FILE 42024 - Sub30.ldr
 0 A blue Technic chassis section using bent liftarms, long axles, and beams to form a structural frame.
 0 Name: 42024 - Sub30.ldr
@@ -2139,6 +2170,7 @@
 1 19 90 0 20 -1 0 0 0 1 0 0 0 -1 32002.dat
 
 
+0 STEP
 0 FILE 42024 - Sub31.ldr
 0 A grey and blue Technic extended framework of beam 11 liftarms with connector pins and axles.
 0 Name: 42024 - Sub31.ldr
@@ -2220,6 +2252,7 @@
 1 19 -280 -120 90 0 0 -1 0 1 0 1 0 0 42024 - Sub33.ldr
 
 
+0 STEP
 0 FILE 42024 - Sub32.ldr
 0 A blue Technic liftarm assembly combining bent beams and long pins to form a rigid structural frame.
 0 Name: 42024 - Sub32.ldr
@@ -2291,6 +2324,7 @@
 1 72 30 -48 -136 0 0 -1 -0.799999 -0.600001 0 -0.600001 0.799999 0 59443.dat
 
 
+0 STEP
 0 FILE 42024 - Sub33.ldr
 0 A blue Technic panel structure supported by beams 3, 7, and 15 with long connector pins.
 0 Name: 42024 - Sub33.ldr
@@ -2334,6 +2368,7 @@
 1 1 0 20 -100 0 1 0 -1 0 0 0 0 1 6558.dat
 
 
+0 STEP
 0 FILE 42024 - 13971.dat
 0 A wheel rim primitive model with deep spokes, center groove, and peghole built from cylinders, cones, and rings.
 0 Name: 42024 - 13971.dat
@@ -2439,6 +2474,7 @@
 0
 
 
+0 STEP
 0 FILE 42024 - 13971s01.dat
 0 A spokes sub-pattern for the wheel rim consisting of rectangle edge primitives.
 0 Name: 42024 - 13971s01.dat
@@ -2531,6 +2567,7 @@
 5 24 3.9065 9.8096 10 0 10.2202 10 1.3049 10.8874 9.888 3.4443 8.3151 10
 5 24 8.851 5.1101 10 6.5421 8.288 10 8.7763 6.5738 9.888 8.3151 3.4443 10
 
+0 STEP
 0 FILE 42024 - LS50.dat
 0 An LSynth end piece for a Technic flex-system hose made of cylinders, circles, and rings.
 0 Name: 42024 - LS50.dat
@@ -2560,6 +2597,7 @@
 0 // Ring  1 x 1.0 (main_colour)
 1 16 0 1 0 2 0 0 0 -1 0 0 0 -2 4-4ring1.dat
 
+0 STEP
 0 FILE 42024 - LS51.dat
 0 An LSynth cross section for a Technic flex-system hose built from cylinders and rings.
 0 Name: 42024 - LS51.dat

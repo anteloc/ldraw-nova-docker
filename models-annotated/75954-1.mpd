@@ -13,6 +13,7 @@
 
 
 
+0 STEP
 0 FILE 75954 - Boat.ldr
 0 A small floating boat built on a large reddish-brown hull with a black cone mast, a handled bar, and a pearl-gold flag clip topped by a glowing green lantern head.
 0 Name: 75954 - Boat.ldr
@@ -36,6 +37,7 @@
 
 
 
+0 STEP
 0 FILE 75954 - Bird.ldr
 0 A colorful sculpted bird figure with red and orange curved slope feathers, a viking-horn crest, and toothed beak details built on small clips and studs.
 0 Name: 75954 - Bird.ldr
@@ -73,6 +75,7 @@
 
 
 
+0 STEP
 0 FILE 75954 - Magic Window.ldr
 0 An ornate enchanted window set in a tall pearl-gold-trimmed frame with bright-light-orange slopes and a dark glass pane mounted on a brick pillar.
 0 Name: 75954 - Magic Window.ldr
@@ -126,6 +129,7 @@
 
 
 
+0 STEP
 0 FILE 75954 - Snake.ldr
 0 A serpentine creature with a segmented dark-red body formed from ball-and-socket jointed plates, curved slopes, and clip-connected limb sections.
 0 Name: 75954 - Snake.ldr
@@ -181,6 +185,7 @@
 
 
 
+0 STEP
 0 FILE 75954 - Snake Limb.ldr
 0 An articulated limb segment for the snake using a ball-joint plate, friction socket, and a black dish joint connected to a 2x2 plate.
 0 Name: 75954 - Snake Limb.ldr
@@ -201,6 +206,7 @@
 
 
 
+0 STEP
 0 FILE 75954 - Snake Head.ldr
 0 A menacing snake head with dark-red plating, white viking-horn fangs, toothed plates for teeth, and glowing yellow-trans round eyes.
 0 Name: 75954 - Snake Head.ldr
@@ -241,6 +247,7 @@
 
 
 
+0 STEP
 0 FILE 75954 - 21301.dat
 0 A primitive geometric part composed of rectangles, circles, and a holder element forming a decorative shield or sticker-like shape.
 0 Name: 75954 - 21301.dat
@@ -477,6 +484,7 @@
 3 16 16.610001 12.25 -100.300003 -16.610001 12.25 -100.300003 0 12.25 -104.400002
 
 
+0 STEP
 0 FILE 75954 - s\75954 - 2551s01.dat
 0 A subpart built from simple rectangular and box primitives representing the geometry of a molded LEGO element.
 0 Name: 75954 - s\75954 - 2551s01.dat
@@ -3531,6 +3539,7 @@
 5 24 42.02 -20.4 -23 40.16 0 -60.099998 42.009998 -21.030001 -41.5 40.23 0 -16.299999
 
 
+0 STEP
 0 FILE 75954 - Great Hall.ldr
 0 The large multi-story Great Hall interior and exterior built with tan brick walls, dark-bluish-grey floor plates, medium-nougat ogee arches, greenery leaves, and a variety of structural slopes and tiles.
 0 Name: 75954 - Great Hall.ldr
@@ -4874,6 +4883,7 @@
 
 
 
+0 STEP
 0 FILE 75954 - Fireplace.ldr
 0 A reddish-brown fireplace with pointed arches, scroll-decorated bricks, black panels, pearl-gold studs, and flickering orange flame plumes.
 0 Name: 75954 - Fireplace.ldr
@@ -4921,6 +4931,7 @@
 
 
 
+0 STEP
 0 FILE 75954 - Big Window.ldr
 0 A tall diamond-lattice window assembly made of 15 stacked reddish-brown window frames with black diamond panes framed between two 2x8 plates.
 0 Name: 75954 - Big Window.ldr
@@ -4997,6 +5008,7 @@
 
 
 
+0 STEP
 0 FILE 75954 - Door Roof.ldr
 0 A simple hinged roof section over a doorway using a 2x8 dark-bluish-grey plate mounted on a hinge top.
 0 Name: 75954 - Door Roof.ldr
@@ -5011,6 +5023,7 @@
 
 
 
+0 STEP
 0 FILE 75954 - Ridge.ldr
 0 An angular roof ridge assembly using technic bricks and pins, hinges, and brown and dark-bluish-grey slope plates to form the peaked roofline.
 0 Name: 75954 - Ridge.ldr
@@ -5072,6 +5085,7 @@
 
 
 
+0 STEP
 0 FILE 75954 - Roof.ldr
 0 A hinged pitched roof section of dark-bluish-grey base plates with tan 45-degree slope tiles, supported by hinge tops.
 0 Name: 75954 - Roof.ldr
@@ -5123,6 +5137,7 @@
 
 
 
+0 STEP
 0 FILE 75954 - Chandelier.ldr
 0 A suspended chandelier built from a black technic beam with mechanical arms, bars, and half-pins supporting candle holders.
 0 Name: 75954 - Chandelier.ldr
@@ -5164,6 +5179,7 @@
 
 
 
+0 STEP
 0 FILE 75954 - Chandelier Candle.ldr
 0 A single candle element for the chandelier made of a white cylindrical body with a mechanical arm clip and an orange flame.
 0 Name: 75954 - Chandelier Candle.ldr
@@ -5181,6 +5197,7 @@
 
 
 
+0 STEP
 0 FILE 75954 - Tower Roof Top.ldr
 0 A conical tower spire assembled from nested dark-bluish-grey half-cones of decreasing size topped with a sand-green ski-pole finial.
 0 Name: 75954 - Tower Roof Top.ldr
@@ -5208,6 +5225,7 @@
 
 
 
+0 STEP
 0 FILE 75954 - Tower Roof Side.ldr
 0 A tapered tower roof side built from large dark-bluish-grey wings, curved slope cutouts, and technic clip plates connecting to the central spire.
 0 Name: 75954 - Tower Roof Side.ldr
@@ -5257,6 +5275,7 @@
 
 
 
+0 STEP
 0 FILE 75954 - 23986.dat
 0 A primitive geometric subpart forming a pot or vessel shape using discs, cylinders, a spout, and a bottom element.
 0 Name: 75954 - 23986.dat
@@ -5320,6 +5339,7 @@
 5 24 14.753 5.741 0 13.178 5.724 0 13.2857 6.6377 2.4394 13.2857 6.6377 -2.4394
 
 
+0 STEP
 0 FILE 75954 - 20310.dat
 0 A complex primitive-based molded part using boxes, rings, cylinders, and discs to form a detailed decorative element.
 0 Name: 75954 - 20310.dat
@@ -5432,6 +5452,7 @@
 5 24 -1.25 11.537232 -17 1.25 11.537232 -17 2.75 8.3 -17 0.5 13.98762 -17.73238
 
 
+0 STEP
 0 FILE 75954 - 98313.dat
 0 A high-resolution primitive subpart composed of many spheres, circles, cylinders, and rectangles forming an organic or ornamental surface.
 0 Name: 75954 - 98313.dat
@@ -5623,6 +5644,7 @@
 1 16 10.75425 7.08185 0 -0.24575 0 0 0.08185 -1 0 0 0 4 rect2p.dat
 
 
+0 STEP
 0 FILE 75954 - s\75954 - 20310s01.dat
 0 A geometric subpart defining spiral grooves and side-wall detail of a larger molded element using cylinders and conditional lines.
 0 Name: 75954 - s\75954 - 20310s01.dat
@@ -6042,6 +6064,7 @@
 
 
 
+0 STEP
 0 FILE 75954 - s\75954 - 23986s01.dat
 0 A simple primitive subpart consisting of a single thin cylinder shape used in the construction of a vessel element.
 0 Name: 75954 - s\75954 - 23986s01.dat

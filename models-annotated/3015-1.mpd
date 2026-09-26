@@ -13,6 +13,7 @@
 1 0 0 -61 88 1 0 0 0 1 0 0 0 1 3015 - Minifig.ldr
 
 
+0 STEP
 0 FILE 3015 - Spaceship.ldr
 0 A compact red-and-grey space police vehicle built from plates, wings, hinges, and a Space Police II patterned tile.
 0 Name: 3015 - Spaceship.ldr
@@ -52,6 +53,7 @@
 1 7 10 -24 30 0.9659 0 0.2588 0 1 0 -0.2588 0 0.9659 4592.dat
 
 
+0 STEP
 0 FILE 3015 - Spaceship - Rocket.ldr
 0 A small rocket booster assembly made from a finned round brick, a cone nose, and a bar-and-clip connector.
 0 Name: 3015 - Spaceship - Rocket.ldr
@@ -69,6 +71,7 @@
 1 4 0 -40 40 1 0 0 0 1 0 0 0 1 4589.dat
 
 
+0 STEP
 0 FILE 3015 - Minifig.ldr
 0 A Space Police II minifigure with a white patterned torso, green limbs, black airtanks, and a headset head.
 0 Name: 3015 - Minifig.ldr
@@ -101,6 +104,7 @@
 1 2 0 44 0 1 0 0 0 0 1 0 -1 0 3817.dat
 
 
+0 STEP
 0 FILE 3015 - Minifig - Helmet.ldr
 0 A black space helmet paired with a trans-green visor.
 0 Name: 3015 - Minifig - Helmet.ldr

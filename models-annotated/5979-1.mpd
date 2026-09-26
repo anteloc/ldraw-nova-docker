@@ -13,6 +13,7 @@
 1 0 -200 0 0 1 0 0 0 1 0 0 0 1 5979 - 5979-2.ldr
 
 
+0 STEP
 0 FILE 5979 - 5979-1.ldr
 0 Small space vehicle with a competition cannon, technic liftarms, and engine scoop, built on a black plate base.
 0 Name: 5979 - 5979-1.ldr
@@ -96,6 +97,7 @@
 
 
 
+0 STEP
 0 FILE 5979 - 5979-2.ldr
 0 Main body submodel assembly combining tracked base, engines, panels, and accessories.
 0 Name: 5979 - 5979-2.ldr
@@ -121,6 +123,7 @@
 0
 
 
+0 STEP
 0 FILE 5979 - 5979-2-a.ldr
 0 Large structural chassis built from technic bricks, long plates, and brackets with trans-green light details.
 0 Name: 5979 - 5979-2-a.ldr
@@ -361,6 +364,7 @@
 
 
 
+0 STEP
 0 FILE 5979 - 5979-2-b.ldr
 0 Wheeled axle assembly with two large spiked wheels mounted on an axle with bushes and a round plate hub.
 0 Name: 5979 - 5979-2-b.ldr
@@ -402,6 +406,7 @@
 0
 
 
+0 STEP
 0 FILE 5979 - 5979-2-c.ldr
 0 Rear engine assembly with trans-green cones, brackets, and facetted bricks forming a propulsion module.
 0 Name: 5979 - 5979-2-c.ldr
@@ -514,6 +519,7 @@
 0
 
 
+0 STEP
 0 FILE 5979 - 5979-2-d.ldr
 0 Submodel wrapper referencing component assemblies within the main body.
 0 Name: 5979 - 5979-2-d.ldr
@@ -538,6 +544,7 @@
 0
 
 
+0 STEP
 0 FILE 5979 - 5979-2-e.ldr
 0 Submodel wrapper referencing component assemblies within the main body.
 0 Name: 5979 - 5979-2-e.ldr
@@ -555,6 +562,7 @@
 0
 
 
+0 STEP
 0 FILE 5979 - 5979-2-f.ldr
 0 Submodel wrapper referencing component assemblies within the main body.
 0 Name: 5979 - 5979-2-f.ldr
@@ -572,6 +580,7 @@
 0
 
 
+0 STEP
 0 FILE 5979 - 5979-2-g.ldr
 0 Twin engine pod assembly with black cones, air scoop engines, curved slopes, and trapezoid flags.
 0 Name: 5979 - 5979-2-g.ldr
@@ -635,6 +644,7 @@
 0
 
 
+0 STEP
 0 FILE 5979 - 5979-2-h.ldr
 0 Steerable engine nacelle with bent liftarm, flaring intake panel, and trans-red indicator light.
 0 Name: 5979 - 5979-2-h.ldr
@@ -679,6 +689,7 @@
 
 
 
+0 STEP
 0 FILE 5979 - 5979-2-i.ldr
 0 Small corner-mounted detail assembly with spiral axles and trans-green light elements.
 0 Name: 5979 - 5979-2-i.ldr
@@ -720,6 +731,7 @@
 
 
 
+0 STEP
 0 FILE 5979 - 5979-2-j.ldr
 0 Steerable engine nacelle with bent liftarm, flaring intake panel, and trans-red indicator light.
 0 Name: 5979 - 5979-2-j.ldr
@@ -765,6 +777,7 @@
 
 
 
+0 STEP
 0 FILE 5979 - 5979-2-k.ldr
 0 Small corner-mounted detail assembly with spiral axles and trans-green light elements.
 0 Name: 5979 - 5979-2-k.ldr
@@ -806,6 +819,7 @@
 
 
 
+0 STEP
 0 FILE 5979 - 5973-5979-0-a.ldr
 0 Tiny detail piece combining a cone, clip tile, and trans-orange round plate.
 0 Name: 5979 - 5973-5979-0-a.ldr
@@ -829,6 +843,7 @@
 
 
 
+0 STEP
 0 FILE 5979 - 5979-0.ldr
 0 Cockpit assembly wrapper combining structural frame and canopy components.
 0 Name: 5979 - 5979-0.ldr
@@ -847,6 +862,7 @@
 0
 
 
+0 STEP
 0 FILE 5979 - 5979-0-a.ldr
 0 Cockpit module with a round white frame, trans-dark-blue half-cylinder canopy, towball, and technic liftarms.
 0 Name: 5979 - 5979-0-a.ldr
@@ -896,6 +912,7 @@
 
 
 
+0 STEP
 0 FILE 5979 - 5973-5974-5979-5985-0-a.ldr
 0 Shared canopy piece combining a trans-dark-blue half-cylinder with a door-rail plate.
 0 Name: 5979 - 5973-5974-5979-5985-0-a.ldr
@@ -916,6 +933,7 @@
 0
 
 
+0 STEP
 0 FILE 5979 - 5974-5979-5985-0-a.ldr
 0 Small technic connector assembly using an angle connector, notched axle, and disc element.
 0 Name: 5979 - 5974-5979-5985-0-a.ldr

@@ -13,6 +13,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 7866 - level crossing.ldr 
 0 A road-and-track baseplate level crossing assembly with train rails, sleeper plates, electric actuators, warning signs, and light bricks for the crossing mechanism.
 0 Name: 7866 - level crossing.ldr 
@@ -225,6 +226,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 7866 - level crossing - building.ldr 
 0 A small red, black, and grey trackside building with windows, a computer-panel desk, an inclined roof, and a turntable plate.
 0 Name: 7866 - level crossing - building.ldr 
@@ -424,6 +426,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 7866 - level crossing - barrier.ldr 
 0 A single level crossing gate assembly consisting of a red-striped barrier gate, counterweight, bevel gear, and axle.
 0 Name: 7866 - level crossing - barrier.ldr 
@@ -450,6 +453,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 7866 - minifig.ldr 
 0 A blue-bodied minifigure with a red police hat and standard grin head.
 0 Name: 7866 - minifig.ldr 
@@ -482,6 +486,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 7866 - control.ldr 
 0 A 12V electric control component consisting of a flashing-light unit with two electric plugs.
 0 Name: 7866 - control.ldr 

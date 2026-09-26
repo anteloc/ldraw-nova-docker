@@ -468,6 +468,7 @@
 1 15 -70 0 -76 1 0 0 0 0 -1 0 1 0 4150p01.dat
 
 
+0 STEP
 0 FILE 8850 - Rally Support Truck - Model B Front.ldr
 0 A front bodywork section assembled from yellow and black plates of varying lengths.
 0 Name: 8850 - Rally Support Truck - Model B Front.ldr
@@ -520,6 +521,7 @@
 
 
 
+0 STEP
 0 FILE 8850 - Rally Support Truck - Model B motor.ldr
 0 A Technic engine assembly with crankshafts, connecting rods, pistons, cylinder heads, gears, and supporting bricks.
 0 Name: 8850 - Rally Support Truck - Model B motor.ldr
@@ -637,6 +639,7 @@
 1 0 -50 -30 91 0 0 1 1 0 0 0 1 0 3701.dat
 
 
+0 STEP
 0 FILE 8850 - Rally Support Truck - Model B Bumper.ldr
 0 A front bumper assembly using yellow liftarms, toothed connectors, bushes, and long axles.
 0 Name: 8850 - Rally Support Truck - Model B Bumper.ldr

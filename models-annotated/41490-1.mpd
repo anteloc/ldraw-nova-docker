@@ -11,6 +11,7 @@
 1 0 90 0 0 1 0 0 0 1 0 0 0 1 41490 - Wonder Woman.ldr
 
 
+0 STEP
 0 FILE 41490 - Superman.ldr
 0 Black display base plate with a tile featuring the LEGO SDCC event logo and branding.
 0 Name: 41490 - Superman.ldr
@@ -31,6 +32,7 @@
 1 0 0 -48 20 1 0 0 0 1 0 0 0 1 41490 - Superman - 1.ldr
 
 
+0 STEP
 0 FILE 41490 - Superman - 1.ldr
 0 Large brick-built Superman bust in red and blue with light bluish grey body, featuring the Superman logo pattern and S-curves.
 0 Name: 41490 - Superman - 1.ldr
@@ -215,6 +217,7 @@
 1 4 -30 24 0 0 0 -1 0 1 0 1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 41490 - Superman - 2.ldr
 0 Small blue connector sub-assembly with a tan clip plate for attaching a component.
 0 Name: 41490 - Superman - 2.ldr
@@ -232,6 +235,7 @@
 1 19 0 -8 -10 1 0 0 0 1 0 0 0 1 11476.dat
 
 
+0 STEP
 0 FILE 41490 - Superman - 3.ldr
 0 Red cape assembly built from curved slopes, angled wings, and a smooth tile.
 0 Name: 41490 - Superman - 3.ldr
@@ -255,6 +259,7 @@
 1 4 0 -8 -10 -1 0 0 0 1 0 0 0 -1 87079.dat
 
 
+0 STEP
 0 FILE 41490 - Wonder Woman.ldr
 0 Black display base plate with a tile featuring the LEGO SDCC event logo and branding.
 0 Name: 41490 - Wonder Woman.ldr
@@ -275,6 +280,7 @@
 1 0 0 -48 20 1 0 0 0 1 0 0 0 1 41490 - Wonder Woman - 1.ldr
 
 
+0 STEP
 0 FILE 41490 - Wonder Woman - 1.ldr
 0 Large brick-built Wonder Woman bust in blue, red, and yellow with light bluish grey body, Wonder Woman logo, pearl gold lasso, and bright pink accents.
 0 Name: 41490 - Wonder Woman - 1.ldr
@@ -419,6 +425,7 @@
 1 15 -30 24 0 0 0 1 0 1 0 -1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 41490 - Wonder Woman - 2.ldr
 0 Small tan connector sub-assembly with a star-patterned silver tile for attachment.
 0 Name: 41490 - Wonder Woman - 2.ldr
@@ -438,6 +445,7 @@
 1 71 0 -16 -10 1 0 0 0 1 0 0 0 1 3069bpz3.dat
 
 
+0 STEP
 0 FILE 41490 - Wonder Woman - 3.ldr
 0 Small black sub-assembly of plates and curved slope bricks forming a detailed accent piece.
 0 Name: 41490 - Wonder Woman - 3.ldr
@@ -457,6 +465,7 @@
 1 0 0 -24 20 -1 0 0 0 1 0 0 0 -1 6091.dat
 
 
+0 STEP
 0 FILE 41490 - Wonder Woman - 4.ldr
 0 Black assembly of curved and standard slopes on a plate, forming a contoured detail element.
 0 Name: 41490 - Wonder Woman - 4.ldr
@@ -476,6 +485,7 @@
 1 0 0 -16 70 -1 0 0 0 1 0 0 0 -1 3069b.dat
 
 
+0 STEP
 0 FILE 41490 - 87079pz5.dat
 0 Decorated 2x4 grooved tile part printed with the LEGO logo and white #LEGOSDCC pattern.
 0 Name: 41490 - 87079pz5.dat
@@ -972,6 +982,7 @@
 3 16 40 0 20 32.962 0 2.78 33.329 0 2.813
 
 
+0 STEP
 0 FILE 41490 - 93273pz0.dat
 0 Decorated double curved slope part printed with a red star bordered pattern.
 0 Name: 41490 - 93273pz0.dat
@@ -1029,6 +1040,7 @@
 5 24 10 -14.603715 14.64 -10 -14.603715 14.64 -2.02 -15.34 9.52 10 -12.882785 21.648
 
 
+0 STEP
 0 FILE s\41490 - logolego01.dat
 0 Subpart representing the LEGO logo decoration.
 0 Name: s\41490 - logolego01.dat

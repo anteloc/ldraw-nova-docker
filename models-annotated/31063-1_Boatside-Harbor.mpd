@@ -14,6 +14,7 @@
 
 
 
+0 STEP
 0 FILE 31063 - airboat.ldr
 0 A small airboat built from a reddish brown base plate with white and tan sloped hull pieces, lime accents, and a red wing assembly.
 0 Name: 31063 - airboat.ldr
@@ -135,6 +136,7 @@
 
 
 
+0 STEP
 0 FILE 31063 - house.ldr
 0 A coastal harbor house with a dark blue sloped roof, reddish brown arches, medium blue brick walls, and a tan foundation plate.
 0 Name: 31063 - house.ldr
@@ -353,6 +355,7 @@
 
 
 
+0 STEP
 0 FILE 31063 - window.ldr
 0 A window assembly featuring a white 1x4x3 pane with clear glass, clipped green curved slopes, and an orange fish accent piece.
 0 Name: 31063 - window.ldr
@@ -389,6 +392,7 @@
 
 
 
+0 STEP
 0 FILE 31063 - girl.ldr
 0 A female minifigure with a bright pink flower-patterned top, medium nougat long hair, and yellow arms and hands.
 0 Name: 31063 - girl.ldr
@@ -420,6 +424,7 @@
 
 
 
+0 STEP
 0 FILE 31063 - guy.ldr
 0 A male minifigure with a white windsurfboard-patterned torso, dark blue legs, tan tousled hair, and a dual-expression head.
 0 Name: 31063 - guy.ldr
@@ -451,6 +456,7 @@
 
 
 
+0 STEP
 0 FILE 31063 - 973p1z.dat
 0 A simple decorative pattern element made from a single small black cylinder primitive.
 0 Name: 31063 - 973p1z.dat
@@ -1479,6 +1485,7 @@
 
 
 
+0 STEP
 0 FILE 31063 - 3626cp8x.dat
 0 A decorative minifigure head pattern composed of two small cylinder primitives.
 0 Name: 31063 - 3626cp8x.dat
@@ -2015,6 +2022,7 @@
 5 24 0 20.6954 -9.9136 0 21 -8 3.0616 21 -7.3912 -3.0616 21 -7.3912
 
 
+0 STEP
 0 FILE 31063 - 3626cp70.dat
 0 A decorative minifigure head pattern composed of two small cylinder primitives.
 0 Name: 31063 - 3626cp70.dat
@@ -2756,6 +2764,7 @@
 5 24 0 20.6954 -9.9136 0 21 -8 3.0616 21 -7.3912 -3.0616 21 -7.3912
 
 
+0 STEP
 0 FILE s\31063 - 86210s01.dat
 0 A low-level subpart built from cylinders, rings, discs, boxes, and bumps forming a symmetric geometric assembly.
 0 Name: s\31063 - 86210s01.dat

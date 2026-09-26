@@ -11,6 +11,7 @@
 1 212 -140 3 140 1 0 0 0 1 0 0 0 1 75010 - Planet Endor.ldr
 
 
+0 STEP
 0 FILE 75010 - B-Wing Pilot.ldr
 0 A minifigure with a red torso, arms, legs, and hips, topped with a brown aviator cap and a neon green helmet visor.
 0 Name: 75010 - B-Wing Pilot.ldr
@@ -41,6 +42,7 @@
 0 // ~Minifig Helmet Visor Standard (Obsolete) (trans_neon_green)
 1 42 0 -56 0 1 0 0 0 1 0 0 0 1 2447.dat
 
+0 STEP
 0 FILE 75010 - B-Wing.ldr
 0 The main B-Wing fighter body with angular wings, brackets, clip plates, and orange accent pieces forming the cockpit and fuselage.
 0 Name: 75010 - B-Wing.ldr
@@ -151,6 +153,7 @@
 0 // Minifig Lightsaber Hilt with Slight Sloping Fingers with Bottom Ring (light_bluish_grey)
 1 71 6 150 -50 0 0 -1 1 0 0 0 -1 0 577b.dat
 
+0 STEP
 0 FILE 75010 - Wing 1.ldr
 0 A right-side wing panel with a handle plate, clip, telescope, and lightsaber hilt used as a thruster or cannon detail.
 0 Name: 75010 - Wing 1.ldr
@@ -171,6 +174,7 @@
 0 // Minifig Lightsaber Hilt with Slight Sloping Fingers with Bottom Ring (light_bluish_grey)
 1 71 -80 0 -30 0 0 1 -1 0 0 0 -1 0 577b.dat
 
+0 STEP
 0 FILE 75010 - Wing 2.ldr
 0 A left-side wing panel mirroring Wing 1 with a handle plate, clip, telescope, and lightsaber hilt detail.
 0 Name: 75010 - Wing 2.ldr
@@ -191,6 +195,7 @@
 0 // Minifig Lightsaber Hilt with Slight Sloping Fingers with Bottom Ring (light_bluish_grey)
 1 71 80 0 -30 0 0 -1 1 0 0 0 -1 0 577b.dat
 
+0 STEP
 0 FILE 75010 - Stand.ldr
 0 A black display stand with stacked plates, tiles with clips, and a vertical bar to hold the B-Wing model.
 0 Name: 75010 - Stand.ldr
@@ -221,6 +226,7 @@
 0 // Bar  3L (black)
 1 0 90 -14 30 0 0 -1 1 0 0 0 -1 0 87994.dat
 
+0 STEP
 0 FILE 75010 - Planet Endor.ldr
 0 A spherical planet model built from two bright light blue hemispheres mounted on a black frame.
 0 Name: 75010 - Planet Endor.ldr

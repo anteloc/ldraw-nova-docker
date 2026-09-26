@@ -17,6 +17,7 @@
 
 
 
+0 STEP
 0 FILE 1831 - truck.ldr
 0 A cab-style truck chassis built from plates, tiles, and wheel pins with assorted colored light details.
 0 Name: 1831 - truck.ldr
@@ -260,6 +261,7 @@
 
 
 
+0 STEP
 0 FILE 1831 - trailer.ldr
 0 A flatbed trailer with towball hitch, long tiles, and axle-supported wheel assemblies.
 0 Name: 1831 - trailer.ldr
@@ -370,6 +372,7 @@
 
 
 
+0 STEP
 0 FILE 1831 - trailer - movable A.ldr
 0 A pivoting wheel axle assembly with two wide tyres mounted on a wheeled plate.
 0 Name: 1831 - trailer - movable A.ldr
@@ -399,6 +402,7 @@
 
 
 
+0 STEP
 0 FILE 1831 - trailer - movable B.ldr
 0 A small articulated trolley wheel unit attached via a hinge plate and clip.
 0 Name: 1831 - trailer - movable B.ldr
@@ -422,6 +426,7 @@
 
 
 
+0 STEP
 0 FILE 1831 - container.ldr
 0 A paneled container featuring walls, windows, and opening doors on a plated base.
 0 Name: 1831 - container.ldr
@@ -481,6 +486,7 @@
 
 
 
+0 STEP
 0 FILE 1831 - minifig.ldr
 0 A white-torsoed minifig with a Maersk blue cap and standard grin face.
 0 Name: 1831 - minifig.ldr

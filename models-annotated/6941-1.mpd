@@ -624,6 +624,7 @@
 1 65 -70.0028 -101.984 158.597 -1 -0.0069 -0.0047 -0.005 0.0394 0.9992 0.0067 -0.9992 0.0395 756.dat
 0 GROUP 48 Hose 4
 
+0 STEP
 0 FILE 6941 - Front.ldr
 0 Forward chassis section of black plates, bricks, and Technic connectors with yellow accents and angled slope details.
 0 Name: 6941 - Front.ldr
@@ -772,6 +773,7 @@
 0 // Tile  1 x  2 with Black Grille with  7 Stripes Pattern (yellow)
 1 14 -60 -120 130 -1 0 0 0 1 0 0 0 -1 3069bp05.dat
 
+0 STEP
 0 FILE 6941 - Rear.ldr
 0 Larger rear chassis base built from multiple black plates and Technic bricks with yellow accent connectors supporting the engine and bodywork.
 0 Name: 6941 - Rear.ldr
@@ -956,6 +958,7 @@
 0 // Tile  1 x  2 with Arrow Long Black Pattern (yellow)
 1 14 -30 -152 20 0 0 -1 0 1 0 1 0 0 3069bp12.dat
 
+0 STEP
 0 FILE 6941 - Rear - Engine.ldr
 0 Compact rear engine module with hinged top mounted on round red translucent studs.
 0 Name: 6941 - Rear - Engine.ldr
@@ -987,6 +990,7 @@
 1 36 50 -32 0 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 6941 - Cockpit.ldr
 0 Enclosed cockpit assembly with angled wings, slopes, and a computer-patterned control panel tile.
 0 Name: 6941 - Cockpit.ldr
@@ -1089,6 +1093,7 @@
 1 46 0 -100 56 1 0 0 0 1 0 0 0 1 4474.dat
 
 
+0 STEP
 0 FILE 6941 - Antenna.ldr
 0 Tall sensory array built from large wing panels, hinged plates, inverted slopes, and red indicator lights.
 0 Name: 6941 - Antenna.ldr
@@ -1216,6 +1221,7 @@
 1 36 -26 -210 -95 1 0 0 0 0 1 0 -1 0 4740.dat
 
 
+0 STEP
 0 FILE 6941 - Minifig.ldr
 0 Blacktron I pilot minifigure wearing airtanks with standard grin head.
 0 Name: 6941 - Minifig.ldr
@@ -1247,6 +1253,7 @@
 0 // ~Minifig Leg Right (Obsolete) (black)
 1 0 0 44 0 1 0 0 0 0 1 0 -1 0 3816.dat
 
+0 STEP
 0 FILE 6941 - Minifig - Helmet.ldr
 0 Standard black astronaut helmet with matching visor.
 0 Name: 6941 - Minifig - Helmet.ldr

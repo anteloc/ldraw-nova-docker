@@ -12,6 +12,7 @@
 
 
 
+0 STEP
 0 FILE 6648-2 - car.ldr
 0 A wheeled vehicle chassis built from black and colored plates with doors, headlights, a steering wheel, and a hinge base for a tilting bed.
 0 Name: 6648-2 - car.ldr
@@ -104,6 +105,7 @@
 
 
 
+0 STEP
 0 FILE 6648-2 - car - movable.ldr
 0 A tilting tipper bucket assembly mounted on a hinge plate that forms the dump bed of the vehicle.
 0 Name: 6648-2 - car - movable.ldr
@@ -120,6 +122,7 @@
 
 
 
+0 STEP
 0 FILE 6648-2 - minifig.ldr
 0 A construction worker minifigure with a blue torso, black legs, and a red safety helmet.
 0 Name: 6648-2 - minifig.ldr

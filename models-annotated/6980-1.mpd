@@ -15,6 +15,7 @@
 
 
 
+0 STEP
 0 FILE 6980 - Galaxy Commander - Baseplate.ldr
 0 32x32 yellow landing pad baseplate with red and green transparent runway guide lights.
 0 Name: 6980 - Galaxy Commander - Baseplate.ldr
@@ -51,6 +52,7 @@
 
 
 
+0 STEP
 0 FILE 6980 - Galaxy Commander - Buggy.ldr
 0 Small blue wheeled rover with steering wheel, sloped front, antenna, metal detector, and red light elements.
 0 Name: 6980 - Galaxy Commander - Buggy.ldr
@@ -106,6 +108,7 @@
 
 
 
+0 STEP
 0 FILE 6980 - Galaxy Commander - Buggy2.ldr
 0 Grey and blue wheeled transport rover with storage container, computer-pattern slope, steering wheel, and torch.
 0 Name: 6980 - Galaxy Commander - Buggy2.ldr
@@ -160,6 +163,7 @@
 
 
 
+0 STEP
 0 FILE 6980 - Galaxy Commander - Front.ldr
 0 Large white forward hull section built from plates, sloped wings, and support pillars forming the cockpit and wing structure.
 0 Name: 6980 - Galaxy Commander - Front.ldr
@@ -475,6 +479,7 @@
 
 
 
+0 STEP
 0 FILE 6980 - Galaxy Commander - Front - Hatch.ldr
 0 Hinged blue cockpit hatch with classic space logo slope and positioning rocket accents.
 0 Name: 6980 - Galaxy Commander - Front - Hatch.ldr
@@ -504,6 +509,7 @@
 
 
 
+0 STEP
 0 FILE 6980 - Galaxy Commander - Middle section.ldr
 0 Blue mid-fuselage section with technic beams, grille-pattern bricks, hinge assemblies, and wing panels.
 0 Name: 6980 - Galaxy Commander - Middle section.ldr
@@ -666,6 +672,7 @@
 
 
 
+0 STEP
 0 FILE 6980 - Galaxy Commander - Middle section - Lock right side.ldr
 0 Right-side hinged locking mechanism with slope, clip plate, and torch detail.
 0 Name: 6980 - Galaxy Commander - Middle section - Lock right side.ldr
@@ -694,6 +701,7 @@
 
 
 
+0 STEP
 0 FILE 6980 - Galaxy Commander - Middle section - Lock left side.ldr
 0 Left-side hinged locking mechanism with slope, clip plate, and torch detail.
 0 Name: 6980 - Galaxy Commander - Middle section - Lock left side.ldr
@@ -722,6 +730,7 @@
 
 
 
+0 STEP
 0 FILE 6980 - Galaxy Commander - Back.ldr
 0 White rear hull section with plates, seat, bricks, and inverted slopes forming the aft cargo and engine area.
 0 Name: 6980 - Galaxy Commander - Back.ldr
@@ -954,6 +963,7 @@
 
 
 
+0 STEP
 0 FILE 6980 - Galaxy Commander - Back - Hatch.ldr
 0 Hinged white rear hatch with transparent dark blue canopy window.
 0 Name: 6980 - Galaxy Commander - Back - Hatch.ldr
@@ -978,6 +988,7 @@
 
 
 
+0 STEP
 0 FILE 6980 - Galaxy Commander - Back - Antenna.ldr
 0 Rear-mounted antenna assembly with inverted blue dish and red indicator light.
 0 Name: 6980 - Galaxy Commander - Back - Antenna.ldr
@@ -997,6 +1008,7 @@
 
 
 
+0 STEP
 0 FILE 6980 - Galaxy Commander - White Astronaut1.ldr
 0 White classic space astronaut minifigure with airtanks and loudhailer accessory.
 0 Name: 6980 - Galaxy Commander - White Astronaut1.ldr
@@ -1031,6 +1043,7 @@
 
 
 
+0 STEP
 0 FILE 6980 - Galaxy Commander - Yellow Astronaut2.ldr
 0 Yellow classic space astronaut minifigure with airtanks and no accessory.
 0 Name: 6980 - Galaxy Commander - Yellow Astronaut2.ldr
@@ -1063,6 +1076,7 @@
 
 
 
+0 STEP
 0 FILE 6980 - Galaxy Commander - Red Astronaut.ldr
 0 Red classic space astronaut minifigure with airtanks and no accessory.
 0 Name: 6980 - Galaxy Commander - Red Astronaut.ldr
@@ -1093,6 +1107,7 @@
 
 
 
+0 STEP
 0 FILE 6980 - Galaxy Commander - Buggy2 - Hose.ldr
 0 Flexible pneumatic hose assembly generated from multiple LDraw cylinder segments.
 0 Name: 6980 - Galaxy Commander - Buggy2 - Hose.ldr
@@ -3450,6 +3465,7 @@
 5 24 100 -1.9135 -4.6195 100 0 -5 100.999825 -1.920595 -4.602207 96.568604 -2.21372 -4.530446
 
 
+0 STEP
 0 FILE 6980 - Galaxy Commander - Front - Thruster.ldr
 0 Front engine thruster built from a white cone on a blue bracket and brick.
 0 Name: 6980 - Galaxy Commander - Front - Thruster.ldr
@@ -3466,6 +3482,7 @@
 1 15 0 20 18 -1 0 0 0 0 1 0 1 0 3943b.dat
 
 
+0 STEP
 0 FILE 6980 - Galaxy Commander - Front - Laser Canon.ldr
 0 Twin-mounted laser cannon with cameras, antennae, and red and yellow transparent light elements.
 0 Name: 6980 - Galaxy Commander - Front - Laser Canon.ldr
@@ -3495,6 +3512,7 @@
 1 46 36 23 -138 -1 0 0 0 0 -1 0 -1 0 3062b.dat
 
 
+0 STEP
 0 FILE 6980 - Galaxy Commander - White Astronaut2.ldr
 0 White classic space astronaut minifigure with airtanks and radio accessory.
 0 Name: 6980 - Galaxy Commander - White Astronaut2.ldr
@@ -3529,6 +3547,7 @@
 
 
 
+0 STEP
 0 FILE 6980 - Galaxy Commander - Yellow Astronaut1.ldr
 0 Yellow classic space astronaut minifigure with airtanks and no accessory.
 0 Name: 6980 - Galaxy Commander - Yellow Astronaut1.ldr

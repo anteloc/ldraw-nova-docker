@@ -165,6 +165,7 @@
 0 STEP
 1 71 -269.916 -98.368 -201.264 0.906 0 -0.423 0 1 0 0.423 0 0.906 10174 - subModel-82.ldr
 
+0 STEP
 0 FILE 10174 - subModel-1.ldr
 0 Technic strut assembly built from a long beam, two bent liftarms, pins, bush, axle, and grooved tiles
 0 Author: Roland Dahl [RolandD]
@@ -212,6 +213,7 @@
 1 71 0 -32 -164 1 0 0 0 0.111 0.994 0 -0.994 0.111 32073.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-2.ldr
 0 Short notched technic axle capped with a half-bush
 0 Author: Roland Dahl [RolandD]
@@ -225,6 +227,7 @@
 1 71 -15 0 0 0 0 1 0 1 0 -1 0 0 32123a.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-3.ldr
 0 Pinned technic beam joining a 1x8 and a tan 1x4 holed brick on a small plate
 0 Author: Roland Dahl [RolandD]
@@ -249,6 +252,7 @@
 1 72 0 -8 60 0 0 -1 0 1 0 1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-4.ldr
 0 Pinned technic beam joining a 1x8 and a tan 1x4 holed brick on a small plate
 0 Author: Roland Dahl [RolandD]
@@ -273,6 +277,7 @@
 1 72 0 -8 60 0 0 1 0 1 0 -1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-5.ldr
 0 Long technic beam fitted with six half-pins
 0 Author: Roland Dahl [RolandD]
@@ -301,6 +306,7 @@
 1 0 -10 40 -18 1 0 0 0 0 -1 0 1 0 10174 - subModel-7.ldr
 
 
+0 STEP
 0 FILE 10174 - subModel-6.ldr
 0 Sloped panel of plates with left and right wings and a grille tile
 0 Author: Roland Dahl [RolandD]
@@ -321,6 +327,7 @@
 1 72 -10 -8 10 0 0 1 0 1 0 -1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-7.ldr
 0 Bracket-mounted wing panel with grille and grooved tiles
 0 Author: Roland Dahl [RolandD]
@@ -346,6 +353,7 @@
 1 0 40 12 -10 0 -1 0 0 0 -1 1 0 0 10174 - subModel-8.ldr
 
 
+0 STEP
 0 FILE 10174 - subModel-8.ldr
 0 Small detail of an inverted dish on a round plate
 0 Author: Roland Dahl [RolandD]
@@ -358,6 +366,7 @@
 0 // Plate  1 x  1 Round (black)
 1 0 0 8 0 1 0 0 0 1 0 0 0 1 6141.dat
 
+0 STEP
 0 FILE 10174 - subModel-9.ldr
 0 Technic leg frame with holed bricks, pins, slopes, a bent liftarm, and dish detail
 0 Author: Roland Dahl [RolandD]
@@ -443,6 +452,7 @@
 1 1 -120 10 -46 0 0 1 1 0 0 0 1 0 10174 - subModel-10.ldr
 
 
+0 STEP
 0 FILE 10174 - subModel-10.ldr
 0 Inverted dish hub mounted on a round axle plate with an axle pin
 0 Author: Roland Dahl [RolandD]
@@ -461,6 +471,7 @@
 1 1 0 -16 0 1 0 0 0 1 0 0 0 1 10174 - subModel-8.ldr
 
 
+0 STEP
 0 FILE 10174 - subModel-11.ldr
 0 Technic mounting frame with holed bricks, a bent liftarm, panel, bar, and slope armor
 0 Author: Roland Dahl [RolandD]
@@ -528,6 +539,7 @@
 1 71 10 -56 -60 0 0 -1 0 1 0 1 0 0 3068b.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-12.ldr
 0 Long technic axle fitted with a half-bush
 0 Author: Roland Dahl [RolandD]
@@ -541,6 +553,7 @@
 1 71 -65 0 -4 0 0 1 0 1 0 -1 0 0 32123a.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-13.ldr
 0 Clip-and-stud mounting brick made of a two-sided stud brick and a clipped tile
 0 Author: Roland Dahl [RolandD]
@@ -554,6 +567,7 @@
 1 71 18 10 0 0 -1 0 1 0 0 0 0 1 2555.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-14.ldr
 0 Arch assembly of plates and curved-top arches
 0 Author: Roland Dahl [RolandD]
@@ -575,6 +589,7 @@
 1 71 0 -40 0 1 0 0 0 1 0 0 0 1 3623.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-15.ldr
 0 Hinged plate assembly using locking hinge plates and small plates
 0 Author: Roland Dahl [RolandD]
@@ -594,6 +609,7 @@
 1 72 0 -16 0 -1 0 0 0 1 0 0 0 -1 3710.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-16.ldr
 0 Stacked inverted dish detail
 0 Author: Roland Dahl [RolandD]
@@ -607,6 +623,7 @@
 1 71 0 -16 0 1 0 0 0 1 0 0 0 1 30065.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-17.ldr
 0 Hinged arm assembly with dual-finger hinges, a locking hinge plate, axle, and curved wedge
 0 Author: Roland Dahl [RolandD]
@@ -630,6 +647,7 @@
 0 // Hinge Arm Locking with Dual Finger and Axlehole (dark_bluish_grey)
 1 72 70 -6 0 0 0 -1 0 1 0 1 0 0 30553.dat
 
+0 STEP
 0 FILE 10174 - subModel-18.ldr
 0 Technic frame of holed bricks, pins, slopes, a grille tile, and dish detail
 0 Author: Roland Dahl [RolandD]
@@ -669,6 +687,7 @@
 1 72 18 10 -260 0 -1 0 -1 0 0 0 0 -1 4740.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-19.ldr
 0 Panel with inverted slopes, a handle plate, and a grooved tile on a long plate
 0 Author: Roland Dahl [RolandD]
@@ -692,6 +711,7 @@
 1 71 60 40 0 0 0 1 0 1 0 -1 0 0 10174 - subModel-20.ldr
 
 
+0 STEP
 0 FILE 10174 - subModel-20.ldr
 0 Hinged detail of round bricks, a bar, and hinge base with top
 0 Author: Roland Dahl [RolandD]
@@ -719,6 +739,7 @@
 1 71 0 -32 10 -1 0 0 0 1 0 0 0 -1 6134.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-21.ldr
 0 Technic rotation joint of a socket and pin beam
 0 Author: Roland Dahl [RolandD]
@@ -732,6 +753,7 @@
 1 71 0 0 0 0 -1 0 -0.866 0 -0.5 0.5 0 -0.866 44225.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-22.ldr
 0 Technic frame with a holed brick, pins, slopes, a curved slope, and grooved tiles
 0 Author: Roland Dahl [RolandD]
@@ -776,6 +798,7 @@
 1 71 110 20 -18 1 0 0 0 0 -1 0 1 0 3795.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-23.ldr
 0 Simple plate assembly of two 1x6 and one 1x3 plates
 0 Author: Roland Dahl [RolandD]
@@ -791,6 +814,7 @@
 1 71 0 -16 -30 0 0 1 0 1 0 -1 0 0 3623.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-24.ldr
 0 Technic frame with holed bricks, pins, a locking hinge plate, axle plate, and grooved tiles
 0 Author: Roland Dahl [RolandD]
@@ -835,6 +859,7 @@
 0 // Tile  1 x  4 with Groove (dark_bluish_grey)
 1 72 -10 -16 -20 0 0 1 0 1 0 -1 0 0 2431.dat
 
+0 STEP
 0 FILE 10174 - subModel-25.ldr
 0 Large armor panel with grille tiles, slopes, headlight bricks, panels, and repeated tap details
 0 Author: Roland Dahl [RolandD]
@@ -985,6 +1010,7 @@
 1 0 90 -14 -178 0 0 -1 -1 0 0 0 1 0 10174 - flexHose2-4.ldr
 
 
+0 STEP
 0 FILE 10174 - subModel-26.ldr
 0 Technic holed brick with a half-pin and an inverted dish detail
 0 Author: Roland Dahl [RolandD]
@@ -1001,6 +1027,7 @@
 1 72 0 10 -18 0 0 1 1 0 0 0 1 0 4740.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-27.ldr
 0 Pinned technic beam joining a 1x8 and a tan 1x4 holed brick
 0 Author: Roland Dahl [RolandD]
@@ -1017,6 +1044,7 @@
 1 71 20 0 -20 0 0 1 0 1 0 -1 0 0 3702.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-28.ldr
 0 Pinned technic beam joining a 1x8 and a tan 1x4 holed brick
 0 Author: Roland Dahl [RolandD]
@@ -1033,6 +1061,7 @@
 1 19 20 0 -20 1 0 0 0 1 0 0 0 1 3701.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-29.ldr
 0 Curved-top brick mounted on a plate
 0 Author: Roland Dahl [RolandD]
@@ -1046,6 +1075,7 @@
 1 0 0 -32 0 1 0 0 0 1 0 0 0 1 6191.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-30.ldr
 0 Locking turntable (base and top) on a round pinhole brick
 0 Author: Roland Dahl [RolandD]
@@ -1061,6 +1091,7 @@
 1 0 0 -40 0 1 0 0 0 1 0 0 0 1 87081.dat
 
 
+0 STEP
 0 FILE 10174 - flexHose2-1.ldr
 0 Flexible hose assembly
 0 !CATEGORY hose
@@ -1085,6 +1116,7 @@
 
 0 !LDCAD GENERATED [generator=LDCad 1.5 Beta 1]
 
+0 STEP
 0 FILE 10174 - flexHose2-2.ldr
 0 Flexible hose with end caps and link segments
 0 !CATEGORY hose
@@ -1232,6 +1264,7 @@
 0 // ~Hose Flexible Segment Link Section (main_colour)
 1 16 31.98982 -11.659209 49.984093 0.999982 0.006039 0.000042 -0.006038 0.999937 -0.009438 -0.000099 0.009437 0.999955 754.dat
 
+0 STEP
 0 FILE 10174 - flexHose-1.ldr
 0 Flexible hose assembly
 0 !CATEGORY hose
@@ -1256,6 +1289,7 @@
 
 0 !LDCAD GENERATED [generator=LDCad 1.5 Beta 1]
 
+0 STEP
 0 FILE 10174 - flexHose2-3.ldr
 0 Flexible hose with end caps and link segments
 0 !CATEGORY hose
@@ -1395,6 +1429,7 @@
 0 // ~Hose Flexible Segment Link Section (main_colour)
 1 16 0.035807 -23.713812 59.968022 0.999796 -0.020188 -0.000265 0.02018 0.999633 -0.018048 0.000629 0.018039 0.999837 754.dat
 
+0 STEP
 0 FILE 10174 - flexHose2-4.ldr
 0 Flexible hose with end caps and link segments
 0 !CATEGORY hose
@@ -1532,6 +1567,7 @@
 0 // ~Hose Flexible Segment Link Section (main_colour)
 1 16 0.026819 -23.492429 59.980839 0.999824 -0.018778 -0.000198 0.018774 0.999734 -0.013428 0.00045 0.013422 0.99991 754.dat
 
+0 STEP
 0 FILE 10174 - subModel-31.ldr
 0 Mirrored body base panel with plates, wedges, slopes, wings, and technic mounts
 0 Author: Roland Dahl [RolandD]
@@ -1657,6 +1693,7 @@
 0 // Technic Bush with Two Flanges (light_bluish_grey)
 1 71 -100 -617.212 -60.23 0 0 1 -0.34 0.941 0 -0.941 -0.34 0 3713.dat
 
+0 STEP
 0 FILE 10174 - subModel-32.ldr
 0 Technic strut assembly built from a long beam, two bent liftarms, pins, bush, axle, and grooved tiles
 0 Author: Roland Dahl [RolandD]
@@ -1704,6 +1741,7 @@
 1 71 0 -32 -164 1 0 0 0 0.111 0.994 0 -0.994 0.111 32073.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-33.ldr
 0 Long technic beam fitted with six half-pins
 0 Author: Roland Dahl [RolandD]
@@ -1732,6 +1770,7 @@
 1 72 -10 40 -18 -1 0 0 0 0 1 0 1 0 10174 - subModel-6.ldr
 
 
+0 STEP
 0 FILE 10174 - subModel-34.ldr
 0 Bracket-mounted wing panel with grille and grooved tiles
 0 Author: Roland Dahl [RolandD]
@@ -1757,6 +1796,7 @@
 1 0 40 12 70 0 -1 0 0 0 -1 1 0 0 10174 - subModel-8.ldr
 
 
+0 STEP
 0 FILE 10174 - subModel-35.ldr
 0 Technic leg frame with holed bricks, pins, slopes, a bent liftarm, and dish detail
 0 Author: Roland Dahl [RolandD]
@@ -1842,6 +1882,7 @@
 1 1 -120 10 46 1 0 0 0 0 1 0 -1 0 10174 - subModel-10.ldr
 
 
+0 STEP
 0 FILE 10174 - subModel-36.ldr
 0 Technic mounting frame with holed bricks, a bent liftarm, panel, bar, and slope armor
 0 Author: Roland Dahl [RolandD]
@@ -1909,6 +1950,7 @@
 1 71 60 -56 -10 0 0 1 0 1 0 -1 0 0 3068b.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-37.ldr
 0 Technic frame of holed bricks, pins, slopes, a grille tile, and dish detail
 0 Author: Roland Dahl [RolandD]
@@ -1945,6 +1987,7 @@
 1 72 260 10 -18 0 0 1 1 0 0 0 1 0 4740.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-38.ldr
 0 Technic rotation joint of a socket and pin beam
 0 Author: Roland Dahl [RolandD]
@@ -1959,6 +2002,7 @@
 1 71 -120 10 20 0.866 0 -0.5 -0.5 0 -0.866 0 1 0 44225.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-39.ldr
 0 Technic frame with a holed brick, pins, slopes, a curved slope, and grooved tiles
 0 Author: Roland Dahl [RolandD]
@@ -2003,6 +2047,7 @@
 1 71 110 20 18 1 0 0 0 0 1 0 -1 0 3795.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-40.ldr
 0 Technic frame with holed bricks, pins, a locking hinge plate, axle plate, and grooved tiles
 0 Author: Roland Dahl [RolandD]
@@ -2047,6 +2092,7 @@
 0 // Tile  1 x  4 with Groove (dark_bluish_grey)
 1 72 -10 -16 -20 0 0 1 0 1 0 -1 0 0 2431.dat
 
+0 STEP
 0 FILE 10174 - subModel-41.ldr
 0 Long plate assembly of a 2x10 plate with two 2x3 plates
 0 Author: Roland Dahl [RolandD]
@@ -2063,6 +2109,7 @@
 1 71 110 -8 0 1 0 0 0 1 0 0 0 1 3021.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-42.ldr
 0 Hinged arm assembly with dual-finger hinges and curved-top bricks on a plate with holes
 0 Author: Roland Dahl [RolandD]
@@ -2089,6 +2136,7 @@
 0 STEP
 1 71 86.039 -7.47 0 0 0.391 -0.921 0 0.921 0.391 1 0 0 10174 - subModel-43.ldr
 
+0 STEP
 0 FILE 10174 - subModel-43.ldr
 0 Hinged curved-slope panel on a small plate
 0 Author: Roland Dahl [RolandD]
@@ -2105,6 +2153,7 @@
 1 71 0 -16 20 1 0 0 0 1 0 0 0 1 47457.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-44.ldr
 0 Large plated frame with hinged bricks, inverted slopes, a round brick, and a long axle
 0 Author: Roland Dahl [RolandD]
@@ -2208,6 +2257,7 @@
 1 0 40 54 0 0 0.866 0.5 1 0 0 0 0.5 -0.866 3707.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-45.ldr
 0 Grille-tile detail mounted on a technic plate
 0 Author: Roland Dahl [RolandD]
@@ -2224,6 +2274,7 @@
 1 72 -10 -16 0 0 0 1 0 1 0 -1 0 0 2412b.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-46.ldr
 0 Hinged brick assembly with a technic holed brick and grooved tile
 0 Author: Roland Dahl [RolandD]
@@ -2249,6 +2300,7 @@
 1 0 0 24 -20 0 0 -1 0 1 0 1 0 0 3937.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-47.ldr
 0 Hinge base with matching hinge top
 0 Author: Roland Dahl [RolandD]
@@ -2262,6 +2314,7 @@
 1 71 0 5.46 -8.91 1 0 0 0 0.454 -0.891 0 0.891 0.454 6134.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-48.ldr
 0 Technic 90-degree angle connector with an axle pin and axle
 0 Author: Roland Dahl [RolandD]
@@ -2277,6 +2330,7 @@
 1 71 0 -60 0 0 -1 0 1 0 0 0 0 1 32073.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-49.ldr
 0 Technic 90-degree angle connector with an axle pin and a long axle
 0 Author: Roland Dahl [RolandD]
@@ -2292,6 +2346,7 @@
 1 0 0 -90 0 0 -1 0 1 0 0 0 0 1 3707.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-50.ldr
 0 Bracket assembly of corner bricks, inverted slopes, and bricks on plates
 0 Author: Roland Dahl [RolandD]
@@ -2328,6 +2383,7 @@
 1 71 50 -80 10 0 0 -1 0 1 0 1 0 0 3623.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-51.ldr
 0 Two technic holed bricks joined by a friction pin
 0 Author: Roland Dahl [RolandD]
@@ -2344,6 +2400,7 @@
 1 19 0 0 -20 1 0 0 0 1 0 0 0 1 3701.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-52.ldr
 0 Hinged panel assembly with curved-top bars, pin joiners, and a sloped tile
 0 Author: Roland Dahl [RolandD]
@@ -2397,6 +2454,7 @@
 1 1 20 -84.312 39.012 -1 0 0 0 -0.819 -0.574 0 -0.574 0.819 10174 - subModel-55.ldr
 
 
+0 STEP
 0 FILE 10174 - subModel-53.ldr
 0 Dual vertical clip plates on a small plate
 0 Author: Roland Dahl [RolandD]
@@ -2412,6 +2470,7 @@
 1 0 -9 -8 -2 0 0 1 0 1 0 -1 0 0 4085c.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-54.ldr
 0 Sensor detail of a cone, round brick, and lightsaber-blade bar
 0 Author: Roland Dahl [RolandD]
@@ -2428,6 +2487,7 @@
 1 71 0 -80 0 1 0 0 0 1 0 0 0 1 30374.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-55.ldr
 0 Dual-finger hinge arm on an axle pin
 0 Author: Roland Dahl [RolandD]
@@ -2440,6 +2500,7 @@
 0 // Technic Axle Pin (blue)
 1 1 0 0 19 0 0 1 0 1 0 -1 0 0 3749.dat
 
+0 STEP
 0 FILE 10174 - subModel-56.ldr
 0 Large wing panel assembly with corner plates, slopes, grooved tiles, and long wings
 0 Author: Roland Dahl [RolandD]
@@ -2511,6 +2572,7 @@
 1 71 60 -24 -10 1 0 0 0 1 0 0 0 1 10174 - subModel-59.ldr
 
 
+0 STEP
 0 FILE 10174 - subModel-57.ldr
 0 Pair of 2x4 plates
 0 Author: Roland Dahl [RolandD]
@@ -2524,6 +2586,7 @@
 1 71 0 -8 0 1 0 0 0 1 0 0 0 1 3020.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-58.ldr
 0 Hinged right wing section with hinge base and top
 0 Author: Roland Dahl [RolandD]
@@ -2543,6 +2606,7 @@
 1 71 10 -23.072 -11.411 0 0 -1 0.643 0.766 0 0.766 -0.643 0 43722.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-59.ldr
 0 Hinged left wing section with hinge base and top
 0 Author: Roland Dahl [RolandD]
@@ -2562,6 +2626,7 @@
 1 71 -10 -23.072 -11.411 0 0 1 -0.643 0.766 0 -0.766 -0.643 0 43723.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-60.ldr
 0 Large plated body panel with left wings, technic plates, and a central frame
 0 Author: Roland Dahl [RolandD]
@@ -2675,6 +2740,7 @@
 1 71 -120 26 -20 0.866 0.5 0 0 0 -1 -0.5 0.866 0 3713.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-61.ldr
 0 Two technic 1x6 holed bricks joined by pins
 0 Author: Roland Dahl [RolandD]
@@ -2695,6 +2761,7 @@
 1 72 0 0 -20 1 0 0 0 1 0 0 0 1 3894.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-62.ldr
 0 Round dome hub on an axle with an angle connector
 0 Author: Roland Dahl [RolandD]
@@ -2721,6 +2788,7 @@
 0 STEP
 1 71 -6 0 -38 0 0 1 1 0 0 0 1 0 10174 - subModel-64.ldr
 
+0 STEP
 0 FILE 10174 - subModel-63.ldr
 0 Quad binocular detail on a four-sided stud brick
 0 Author: Roland Dahl [RolandD]
@@ -2741,6 +2809,7 @@
 1 72 -14 10 0 0 1 0 0 0 1 1 0 0 30162.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-64.ldr
 0 Large inverted dish array mounted on a round axle plate
 0 Author: Roland Dahl [RolandD]
@@ -2757,6 +2826,7 @@
 1 71 0 8 0 -1 0 0 0 -1 0 0 0 1 45729.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-65.ldr
 0 Hinged technic brick assembly with hinge bases, tops, and a grooved tile
 0 Author: Roland Dahl [RolandD]
@@ -2782,6 +2852,7 @@
 1 0 0 24 -20 0 0 -1 0 1 0 1 0 0 3937.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-66.ldr
 0 Large plated body panel with right wings, technic plates, and a central frame
 0 Author: Roland Dahl [RolandD]
@@ -2895,6 +2966,7 @@
 1 71 120 26 -20 0.5 -0.866 0 0 0 1 -0.866 -0.5 0 3713.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-67.ldr
 0 Hinged technic joint with axle bricks, a grille tile, and a right wing
 0 Author: Roland Dahl [RolandD]
@@ -2932,6 +3004,7 @@
 0 STEP
 1 71 42 -38 0 0 -1 0 1 0 0 0 0 1 10174 - subModel-64.ldr
 
+0 STEP
 0 FILE 10174 - subModel-68.ldr
 0 Sensor detail of cones, a bar, and a round stud brick
 0 Author: Roland Dahl [RolandD]
@@ -2954,6 +3027,7 @@
 1 72 0 0 -146 -1 0 0 0 0 1 0 1 0 3062b.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-69.ldr
 0 Sensor detail of cones, a bar, and a tap
 0 Author: Roland Dahl [RolandD]
@@ -2976,6 +3050,7 @@
 1 71 0 0 -156 1 0 0 0 0 -1 0 1 0 4599a.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-70.ldr
 0 Cone-and-round-brick detail on a stud brick
 0 Author: Roland Dahl [RolandD]
@@ -2991,6 +3066,7 @@
 1 72 0 9 -33 0 0 -1 -1 0 0 0 1 0 3062b.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-71.ldr
 0 Hinged curved wedge on a round axle plate
 0 Author: Roland Dahl [RolandD]
@@ -3007,6 +3083,7 @@
 1 72 10 -17 20 0 0 1 0 1 0 -1 0 0 45677.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-72.ldr
 0 Towball mounted on a short technic liftarm
 0 Author: Roland Dahl [RolandD]
@@ -3020,6 +3097,7 @@
 1 71 0 -5 0 0 -1 0 1 0 0 0 0 1 2736.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-73.ldr
 0 Short technic liftarm
 0 Author: Roland Dahl [RolandD]
@@ -3031,6 +3109,7 @@
 1 72 0 0 0 1 0 0 0 1 0 0 0 1 6632.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-74.ldr
 0 Engine pod assembly with jet fans, rounded panels, hinge plates, curved wedges, and wings
 0 Author: Roland Dahl [RolandD]
@@ -3153,6 +3232,7 @@
 0 // Brick  2 x  2 with Curved Top and  2 Studs on Top (dark_bluish_grey)
 1 72 120 -40 -40 1 0 0 0 1 0 0 0 1 30165.dat
 
+0 STEP
 0 FILE 10174 - subModel-75.ldr
 0 Hinged plate mounted on a long technic frame
 0 Author: Roland Dahl [RolandD]
@@ -3172,6 +3252,7 @@
 1 71 30 -8 10 1 0 0 0 1 0 0 0 1 44301.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-76.ldr
 0 Small technic plate assembly
 0 Author: Roland Dahl [RolandD]
@@ -3185,6 +3266,7 @@
 1 0 -20 -8 0 1 0 0 0 1 0 0 0 1 3709b.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-77.ldr
 0 Panel assembly with grille tiles, slopes, wings, and hinged curved-top bars
 0 Author: Roland Dahl [RolandD]
@@ -3323,6 +3405,7 @@
 1 72 80 -47 0 0 0 -1 0 -1 0 -1 0 0 10174 - subModel-80.ldr
 
 
+0 STEP
 0 FILE 10174 - subModel-78.ldr
 0 Technic beam frame with angle connector, pin joiner, and axles
 0 Author: Roland Dahl [RolandD]
@@ -3358,6 +3441,7 @@
 1 0 120 10 15 0 0 -1 0 -1 0 -1 0 0 2444.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-79.ldr
 0 Technic axle fitted with a two-flange bush
 0 Author: Roland Dahl [RolandD]
@@ -3371,6 +3455,7 @@
 1 71 0 0 0 -1 0 0 0 1 0 0 0 -1 3713.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-80.ldr
 0 Bevel gear on an axle mounted to a dish-backed round plate
 0 Author: Roland Dahl [RolandD]
@@ -3389,6 +3474,7 @@
 1 71 0 -19 0 1 0 0 0 -1 0 0 0 -1 4032a.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-81.ldr
 0 Coil of flexible rubber cylinder segments
 0 Author: Roland Dahl [RolandD]
@@ -3467,6 +3553,7 @@
 1 273 117 5 0 0 -117 0 2 0 0 0 0 2 4-4cyli.dat
 
 
+0 STEP
 0 FILE 10174 - subModel-82.ldr
 0 Long tiled platform of twelve 1x8 tiles on 4x12 plates
 0 Author: Roland Dahl [RolandD]
@@ -3508,6 +3595,7 @@
 1 71 0 106.368 -40.912 0 0 -1 0 1 0 1 0 0 10174 - subModel-83.ldr
 
 
+0 STEP
 0 FILE 10174 - subModel-83.ldr
 0 Base plate assembly of a 4x6 plate with two 1x6 plates
 0 Author: Roland Dahl [RolandD]
@@ -3527,6 +3615,7 @@
 1 71 -10 -40 40 0 0 1 0 1 0 -1 0 0 10174 - subModel-84.ldr
 
 
+0 STEP
 0 FILE 10174 - subModel-84.ldr
 0 Hinge base with matching hinge top
 0 Author: Roland Dahl [RolandD]
@@ -3540,6 +3629,7 @@
 1 71 0 2.929 -7.071 -1 0 0 0 0.707 0.707 0 0.707 -0.707 6134.dat
 
 
+0 STEP
 0 FILE 10174 - 30658.dat
 0 ~Turntable 4 x  4 x  0.667 Locking Top
 0 Name: 10174 - 30658.dat

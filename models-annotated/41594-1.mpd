@@ -19,6 +19,7 @@
 
 
 
+0 STEP
 0 FILE 41594 - 1.ldr
 0 Large multi-piece body and torso structure built from grey and tan bricks, plates, and printed torso detail elements.
 0 Name: 41594 - 1.ldr
@@ -210,6 +211,7 @@
 
 
 
+0 STEP
 0 FILE 41594 - 2.ldr
 0 Small two-plate assembly combining a dark bluish grey plate with a white offset plate.
 0 Name: 41594 - 2.ldr
@@ -226,6 +228,7 @@
 
 
 
+0 STEP
 0 FILE 41594 - 3.ldr
 0 Compact detail assembly using a plate, groove tile, clip plate, and round corner tiles.
 0 Name: 41594 - 3.ldr
@@ -247,6 +250,7 @@
 1 71 10 -16 -10 1 0 0 0 1 0 0 0 1 41594 - 25269.dat
 
 
+0 STEP
 0 FILE 41594 - 4.ldr
 0 Small black detail build combining plates, a stud-sided brick, and a small slope.
 0 Name: 41594 - 4.ldr
@@ -267,6 +271,7 @@
 
 
 
+0 STEP
 0 FILE 41594 - 5.ldr
 0 Black curved slope assembly pairing a 4x1 curve with an inverted 2x1 curve.
 0 Name: 41594 - 5.ldr
@@ -283,6 +288,7 @@
 
 
 
+0 STEP
 0 FILE 41594 - 6.ldr
 0 Black detail assembly combining a curved slope and a single plate.
 0 Name: 41594 - 6.ldr
@@ -299,6 +305,7 @@
 
 
 
+0 STEP
 0 FILE 41594 - 7.ldr
 0 Black curved slope assembly combining a 4x1 curve, an inverted 2x1 curve, and a small slope.
 0 Name: 41594 - 7.ldr
@@ -317,6 +324,7 @@
 
 
 
+0 STEP
 0 FILE 41594 - 8.ldr
 0 Black curved slope assembly mixing a 3x1 curve, an inverted 2x1 curve, a plate, and a small slope.
 0 Name: 41594 - 8.ldr
@@ -336,6 +344,7 @@
 1 0 -40 0 0 0 0 -1 0 1 0 1 0 0 50746.dat
 
 
+0 STEP
 0 FILE 41594 - 25269.dat
 0 Primitive quarter-disc representing the rounded top of a corner tile.
 0 Name: 41594 - 25269.dat
@@ -350,6 +359,7 @@
 1 16 -10 0 10 0 0 20 0 1 0 -20 0 0 1-4disc.dat
 
 
+0 STEP
 0 FILE s\41594 - 25269s01.dat
 0 Subpart forming the underside geometry of a round corner tile using boxes, cylinders, circles, and rectangles.
 0 Name: s\41594 - 25269s01.dat

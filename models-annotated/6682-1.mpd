@@ -12,6 +12,7 @@
 1 4 -150 0 -270 -0.866 0 0.5 0 1 0 -0.5 0 -0.866 6682 - minifig.ldr
 
 0 NOFILE
+0 STEP
 0 FILE 6682 - car.ldr
 0 Articulated wheeled car section featuring mudguards, red wheels with tyres, hinge plates, and a control stick.
 0 car
@@ -79,6 +80,7 @@
 1 0 0 -104 20 1 0 0 0 1 0 0 0 1 4589.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6682 - car - part 1.ldr
 0 Front cab portion of the vehicle with a steering wheel, grille, headlights, door, and red wheeled mudguards.
 0 car - part 1
@@ -172,6 +174,7 @@
 1 46 -30 -120 -110 1 0 0 0 1 0 0 0 1 3024.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6682 - car - part 2.ldr
 0 Rear equipment section with a 4x4 turntable, hollow cone, round corner bricks, and red light elements.
 0 car - part 2
@@ -242,6 +245,7 @@
 1 16 0 -127.23 0.512 0 0 1 -0.866 0.5 0 -0.5 -0.866 0 4742.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6682 - minifig.ldr
 0 Construction worker minifig wearing a red helmet with a white dungaree torso and black legs.
 0 minifig

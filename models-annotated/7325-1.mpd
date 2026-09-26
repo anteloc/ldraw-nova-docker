@@ -18,6 +18,7 @@
 
 
 
+0 STEP
 0 FILE 7325 - Car.ldr
 0 A dark red desert car built on a 4x5 car base with seats, a steering wheel, black grille tiles, clear round wheels, and a reddish brown treasure chest carrying a shovel.
 0 Name: 7325 - Car.ldr
@@ -154,6 +155,7 @@
 
 
 
+0 STEP
 0 FILE 7325 - Temple.ldr
 0 A tan and dark tan sandstone temple built on a 6x6 base with tall walls, log bricks, 75-degree slope bricks, an arch, panels, and hieroglyphic stickers featuring snakes and a scarab.
 0 Name: 7325 - Temple.ldr
@@ -248,6 +250,7 @@
 1 297 -50 -296 0 0 0 -1 0 1 0 1 0 0 3048b.dat
 
 
+0 STEP
 0 FILE 7325 - Cobra Segment 1.ldr
 0 An articulated dark tan and pearl gold cobra body segment built around a ball joint brick for flexible posing.
 0 Name: 7325 - Cobra Segment 1.ldr
@@ -267,6 +270,7 @@
 
 
 
+0 STEP
 0 FILE 7325 - Cobra Segment 2.ldr
 0 A pair of dark tan and pearl gold cobra body segments with curved-top bricks, dark blue wings, and ball socket connections for articulation.
 0 Name: 7325 - Cobra Segment 2.ldr
@@ -307,6 +311,7 @@
 
 
 
+0 STEP
 0 FILE 7325 - Cobra Tail.ldr
 0 The tapering pearl gold and dark tan tail of the cobra, ending in an animal tail tip and connected via a ball joint and axlehole brick.
 0 Name: 7325 - Cobra Tail.ldr
@@ -342,6 +347,7 @@
 
 
 
+0 STEP
 0 FILE 7325 - Cobra Head.ldr
 0 The cobra's hooded head with a dark blue and pearl gold curved hood, dark tan face plate with printed eyes, a red mouth, and white Viking horn fangs.
 0 Name: 7325 - Cobra Head.ldr
@@ -407,6 +413,7 @@
 
 
 
+0 STEP
 0 FILE 7325 - Cobra Jaw.ldr
 0 A hinged lower jaw for the cobra built from dark bluish grey wings and plates with a locking hinge and a red interior tile.
 0 Name: 7325 - Cobra Jaw.ldr
@@ -434,6 +441,7 @@
 
 
 
+0 STEP
 0 FILE 7325 - Cobra.ldr
 0 The assembled cobra statue with dark tan segment plates, clear dishes for eyes, inverted dishes, and a large curved clear plastic sheet printed with hieroglyphs.
 0 Name: 7325 - Cobra.ldr
@@ -465,6 +473,7 @@
 1 47 23.831 -409.32 0 0 -0.174 0.985 0 0.985 0.174 -1 0 0 7325 - 93668p01c01.dat
 
 
+0 STEP
 0 FILE 7325 - Mummy Warrior.ldr
 0 A bandaged mummy warrior minifigure with a gold necklace, dark blue loincloth, a dark tan Nemes headdress with snakes, and two green snakes as accessories.
 0 Name: 7325 - Mummy Warrior.ldr
@@ -498,6 +507,7 @@
 
 
 
+0 STEP
 0 FILE 7325 - Jake Raines.ldr
 0 A male adventurer minifigure with a tan waistcoat torso, bandolier, scarred bearded face, and short tousled black hair.
 0 Name: 7325 - Jake Raines.ldr
@@ -524,6 +534,7 @@
 
 
 
+0 STEP
 0 FILE 7325 - Helena Tova Skvalling.ldr
 0 A female explorer minifigure with a white blouse torso, ponytail hair, a tan satchel, a bundle of red dynamite, and a dark bluish grey revolver.
 0 Name: 7325 - Helena Tova Skvalling.ldr
@@ -555,6 +566,7 @@
 
 
 
+0 STEP
 0 FILE 7325 - 92013.dat
 0 A custom part definition for a 2x2 ball socket brick with axlehole, differing slightly from the standard part.
 0 Name: 7325 - 92013.dat
@@ -570,6 +582,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 62712.dat
 
 
+0 STEP
 0 FILE 7325 - 93668p01c01.dat
 0 A custom part definition for a curved plastic sheet printed with hieroglyph patterns.
 0 Name: 7325 - 93668p01c01.dat
@@ -5715,6 +5728,7 @@
 
 
 
+0 STEP
 0 FILE s\7325 - 93668c01s01.dat
 0 A sub-part representing the half surface geometry of a curved plastic sheet.
 0 Name: s\7325 - 93668c01s01.dat
@@ -5800,6 +5814,7 @@
 5 24 0 77.84 -129.17 70 77.84 -129.17 92 58.52 -123.99 0 92.29 -130.43
 
 
+0 STEP
 0 FILE s\7325 - 93668c01s02.dat
 0 A sub-part representing the half edge geometry of a curved plastic sheet.
 0 Name: s\7325 - 93668c01s02.dat

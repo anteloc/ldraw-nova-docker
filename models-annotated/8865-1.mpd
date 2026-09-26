@@ -8,6 +8,7 @@
 1 1 0 0 0 1 0 0 0 1 0 0 0 1 8865 - Vehicle.ldr
 
 
+0 STEP
 0 FILE 8865 - Vehicle.ldr
 0 A large Technic chassis built from long beams, pins, axles, bushes, and suspension arms forming the vehicle's main frame.
 0 Name: 8865 - Vehicle.ldr
@@ -1190,6 +1191,7 @@
 1 4 -210 -258.722 231.655 0 0 0.998 0.487 0.874 0 -0.884 0.481 0 3703.dat
 
 
+0 STEP
 0 FILE 8865 - Steering Rack.ldr
 0 A steering rack assembly using a gear rack, towball axles, and plates to link the steering mechanism.
 0 Name: 8865 - Steering Rack.ldr
@@ -1215,6 +1217,7 @@
 1 7 0 -8 0 1 0 0 0 1 0 0 0 1 3743.dat
 
 
+0 STEP
 0 FILE 8865 - Rear Axis Mounting.ldr
 0 A rear axle mounting bracket made of blue technic bricks, pins, and plates that secures the rear axle.
 0 Name: 8865 - Rear Axis Mounting.ldr
@@ -1263,6 +1266,7 @@
 1 1 -30 -30 30 0 1 0 -1 0 0 0 0 1 3894.dat
 
 
+0 STEP
 0 FILE 8865 - Rear Axis Joint Angled.ldr
 0 An angled rear axle joint built from a universal joint centre and two universal joint ends.
 0 Name: 8865 - Rear Axis Joint Angled.ldr
@@ -1278,6 +1282,7 @@
 1 7 0 0 -30 0 1 0 0.976 0 0.219 0.219 0 -0.976 3326b.dat
 
 
+0 STEP
 0 FILE 8865 - Motor Block.ldr
 0 An engine motor block with four pistons, gears, axles, and technic bricks forming the drivetrain power unit.
 0 Name: 8865 - Motor Block.ldr
@@ -1384,6 +1389,7 @@
 1 0 0 -10 -190 1 0 0 0 1 0 0 0 1 3700.dat
 
 
+0 STEP
 0 FILE 8865 - Cylinder Block.ldr
 0 An engine cylinder block of stacked black bricks and technic bricks with transparent red detail pieces.
 0 Name: 8865 - Cylinder Block.ldr
@@ -1464,6 +1470,7 @@
 1 0 -10 -20 190 0 1 0 1 0 0 0 0 -1 3701.dat
 
 
+0 STEP
 0 FILE 8865 - Exhaust.ldr
 0 A rear exhaust system of yellow round bricks, a cone tip, an axle, and connector pieces.
 0 Name: 8865 - Exhaust.ldr
@@ -1494,6 +1501,7 @@
 1 7 0 -10 0 0 -1 0 0 0 1 -1 0 0 4273b.dat
 
 
+0 STEP
 0 FILE 8865 - Piston.ldr
 0 A piston assembly of a short axle joined by two pin-bush connectors.
 0 Name: 8865 - Piston.ldr
@@ -1509,6 +1517,7 @@
 1 7 0 0 20 -1 0 0 0 -1 0 0 0 1 3651.dat
 
 
+0 STEP
 0 FILE 8865 - Rear Frame Top.ldr
 0 The upper rear frame section of red technic bricks, long plates, axles, and pins providing structural support.
 0 Name: 8865 - Rear Frame Top.ldr
@@ -1552,6 +1561,7 @@
 1 0 -160 0 280 1 0 0 0 1 0 0 0 1 4459.dat
 
 
+0 STEP
 0 FILE 8865 - Rear Frame Bottom.ldr
 0 The lower rear chassis base of large red plates and technic braced with pins for structural rigidity.
 0 Name: 8865 - Rear Frame Bottom.ldr
@@ -1605,6 +1615,7 @@
 1 4 -190 20 70 0 0 -1 1 0 0 0 -1 0 3701.dat
 
 
+0 STEP
 0 FILE 8865 - Front Frame.ldr
 0 The front chassis frame of red technic beams, plates, pins, and a central black reinforcement beam.
 0 Name: 8865 - Front Frame.ldr
@@ -1745,6 +1756,7 @@
 1 4 170 20 290 0 0 1 1 0 0 0 1 0 3701.dat
 
 
+0 STEP
 0 FILE 8865 - Seat.ldr
 0 A driver's seat built from blue plates and hinge pieces forming a backrest and base.
 0 Name: 8865 - Seat.ldr
@@ -1802,6 +1814,7 @@
 1 1 30 -211.726 92.042 0 0 -1 -1 0 0 0 1 0 3023.dat
 
 
+0 STEP
 0 FILE 8865 - Wheel.ldr
 0 A single wheel assembly of a white Technic rim paired with a black offset-tread tyre.
 0 Name: 8865 - Wheel.ldr

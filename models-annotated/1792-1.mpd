@@ -10,6 +10,7 @@
 1 4 80 -8 130 -0.5 0 0.866 0 1 0 -0.866 0 -0.5 1792 - boat.ldr
 1 4 -260 0 70 0.866 0 -0.5 0 1 0 0.5 0 0.866 1792 - minifig.ldr
 
+0 STEP
 0 FILE 1792 - boat.ldr
 0 A red-hulled boat with white superstructure featuring bow plates, slopes, and a grille detail.
 0 Name: 1792 - boat.ldr
@@ -140,6 +141,7 @@
 0 // Plate  1 x  1 Round (trans_yellow)
 1 46 -30 -224 30 -1 0 0 0 1 0 0 0 -1 6141.dat
 
+0 STEP
 0 FILE 1792 - minifig.ldr
 0 A minifigure sailor wearing a black torso, yellow lifevest, and red cap with sunglasses.
 0 Name: 1792 - minifig.ldr

@@ -230,6 +230,7 @@
 
 
 
+0 STEP
 0 FILE 3678 - car.ldr
 0 A small Fabuland vehicle built on a chassis with wheels, featuring red and yellow bodywork, blue doors, and a rounded window.
 0 Name: 3678 - car.ldr
@@ -271,6 +272,7 @@
 
 
 
+0 STEP
 0 FILE 3678 - leolion.ldr
 0 A Fabuland Leo Lion figure with no separate pieces.
 0 Name: 3678 - leolion.ldr
@@ -286,6 +288,7 @@
 1 4 0 -37 4 1 0 0 0 1 0 0 0 1 u9103.dat
 
 
+0 STEP
 0 FILE 3678 - louiselamb.ldr
 0 A Fabuland Louise Lamb figure with no separate pieces.
 0 Name: 3678 - louiselamb.ldr
@@ -301,6 +304,7 @@
 1 4 0 -37 4 1 0 0 0 1 0 0 0 1 u9103.dat
 
 
+0 STEP
 0 FILE 3678 - edwardelephant.ldr
 0 A Fabuland Edward Elephant figure with no separate pieces.
 0 Name: 3678 - edwardelephant.ldr
@@ -316,6 +320,7 @@
 1 4 0 -37 4 1 0 0 0 1 0 0 0 1 u9103.dat
 
 
+0 STEP
 0 FILE 3678 - harryhorse.ldr
 0 A Fabuland Harry Horse figure with no separate pieces.
 0 Name: 3678 - harryhorse.ldr
@@ -331,6 +336,7 @@
 1 4 0 -37 4 1 0 0 0 0.966 -0.259 0 0.259 0.966 u9103.dat
 
 
+0 STEP
 0 FILE 3678 - bed.ldr
 0 A Fabuland brown bed decorated with two red heart stickers.
 0 Name: 3678 - bed.ldr

@@ -14,6 +14,7 @@
 
 
 
+0 STEP
 0 FILE 6379-1 - Horse Cart.ldr
 0 A red horse-drawn cart with wheels, turntable hitch, seat, and yellow bricks.
 0 Name: 6379-1 - Horse Cart.ldr
@@ -76,6 +77,7 @@
 
 
 
+0 STEP
 0 FILE 6379-1 - MiniFig1.ldr
 0 A minifigure worker wearing blue dungarees, a white torso, and a black construction helmet.
 0 Name: 6379-1 - MiniFig1.ldr
@@ -105,6 +107,7 @@
 1 0 10 -88 1 0.986 0 -0.169 0 1 0 0.169 0 0.986 3833.dat
 
 
+0 STEP
 0 FILE 6379-1 - MiniFig2.ldr
 0 A minifigure rider wearing a red riding jacket, light grey legs, and a black construction helmet.
 0 Name: 6379-1 - MiniFig2.ldr
@@ -134,6 +137,7 @@
 1 0 10 -88 1 0.986 0 -0.169 0 1 0 0.169 0 0.986 3833.dat
 
 
+0 STEP
 0 FILE 6379-1 - Horse White.ldr
 0 A white horse with brown and black tack on a small white plate base.
 0 Name: 6379-1 - Horse White.ldr
@@ -149,6 +153,7 @@
 1 15 0 -32 0 1 0 0 0 1 0 0 0 1 3069b.dat
 
 
+0 STEP
 0 FILE 6379-1 - Horse Brown.ldr
 0 A brown horse with red tack and a yellow saddle.
 0 Name: 6379-1 - Horse Brown.ldr
@@ -162,6 +167,7 @@
 1 14 0 -8 0 1 0 0 0 1 0 0 0 1 4491a.dat
 
 
+0 STEP
 0 FILE 6379-1 - Building.ldr
 0 A large white-brick building on a green baseplate with windows, excavator buckets, tools, and structural plates.
 0 Name: 6379-1 - Building.ldr
@@ -642,6 +648,7 @@
 
 
 
+0 STEP
 0 FILE 6379-1 - Horse Sticker.dat
 0 A decorative sticker element represented as a five-faced box.
 0 Name: 6379-1 - Horse Sticker.dat

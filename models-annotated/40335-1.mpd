@@ -8,6 +8,7 @@
 1 14 -40 -48 -100 0.707 0 0.707 0 1 0 -0.707 0 0.707 40335 - Kid.ldr
 
 
+0 STEP
 0 FILE 40335 - Space Rocket Ride.ldr
 0 A yellow and dark blue base structure built from plates, bricks, and grille tiles forming the foundation platform of the rocket ride.
 0 Name: 40335 - Space Rocket Ride.ldr
@@ -103,6 +104,7 @@
 1 14 -9.31 -128.203 10 0 -0.065 0.998 0 0.998 0.065 -1 0 0 40335 - Rocket.ldr
 
 
+0 STEP
 0 FILE 40335 - Rocket.ldr
 0 A red and white rocket built with curved slopes, wings, brackets, a minifig seat, and technic elements forming the main ride vehicle body.
 0 Name: 40335 - Rocket.ldr
@@ -261,6 +263,7 @@
 1 272 -26 -26 50 0 0 -1 -1 0 0 0 1 0 44676.dat
 
 
+0 STEP
 0 FILE 40335 - Rocket nose.ldr
 0 A dark blue rocket nose assembly with a large cone, round plates, and a clear trans dish forming the pointed tip.
 0 Name: 40335 - Rocket nose.ldr
@@ -281,6 +284,7 @@
 1 36 0 -32 0 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 40335 - Base axle.ldr
 0 A technic axle mechanism with a crankshaft, joiner, bush, and pin forming the rotational drive base for the ride.
 0 Name: 40335 - Base axle.ldr
@@ -301,6 +305,7 @@
 1 15 0 10 -40 1 0 0 0 1 0 0 0 1 18948.dat
 
 
+0 STEP
 0 FILE 40335 - Money.ldr
 0 A red coin box with a slotted door containing four patterned coin tiles and a red grille tile, representing a payment collection unit.
 0 Name: 40335 - Money.ldr
@@ -325,6 +330,7 @@
 1 4 -10 -8 -10 1 0 0 0 1 0 0 0 1 2412b.dat
 
 
+0 STEP
 0 FILE 40335 - Side.ldr
 0 A small yellow curved side panel built from plates and a curved-top brick forming a decorative flank piece.
 0 Name: 40335 - Side.ldr
@@ -340,6 +346,7 @@
 1 14 0 -24 0 1 0 0 0 1 0 0 0 1 6081.dat
 
 
+0 STEP
 0 FILE 40335 - Base axle RH.ldr
 0 A right-hand technic axle subassembly with a brick, axle pin, and half bush forming a mounting pivot.
 0 Name: 40335 - Base axle RH.ldr
@@ -355,6 +362,7 @@
 1 71 0 10 -15 -0.962 -0.272 0 -0.272 0.962 0 0 0 -1 32123a.dat
 
 
+0 STEP
 0 FILE 40335 - Bar.ldr
 0 A blue technic liftarm beam with an axle pin and half bush forming a connecting support bar.
 0 Name: 40335 - Bar.ldr
@@ -371,6 +379,7 @@
 1 71 -10.864 -1.504 10 0.962 -0.272 0 0.272 0.962 0 0 0 1 32123a.dat
 
 
+0 STEP
 0 FILE 40335 - Star.ldr
 0 A three-pointed star ornament built from technic angle connectors, axles, and perpendicular pin hole pieces.
 0 Name: 40335 - Star.ldr
@@ -391,6 +400,7 @@
 1 15 34.641 0 -20 -0.866 0 -0.5 0 1 0 0.5 0 -0.866 22961.dat
 
 
+0 STEP
 0 FILE 40335 - Front.ldr
 0 A yellow and dark blue front control panel with round studs, star-topped pins, and side-stud bricks forming the ticket console facade.
 0 Name: 40335 - Front.ldr
@@ -444,6 +454,7 @@
 1 191 30 -28 -18 0.966 0 0.259 0.259 0 -0.966 0 1 0 11609.dat
 
 
+0 STEP
 0 FILE 40335 - Kid.ldr
 0 A child minifigure with tousled brown hair, freckled smiling head, white spaceship-pattern torso, red arms, and short dark azure legs.
 0 Name: 40335 - Kid.ldr

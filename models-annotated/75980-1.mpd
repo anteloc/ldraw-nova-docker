@@ -9,6 +9,7 @@
 
 
 
+0 STEP
 0 FILE 75980 - House.ldr
 0 An olive-green and tan house structure with walls, round tiles, a pink pig animal figure, and a red bucket accessory.
 0 Name: 75980 - House.ldr
@@ -1518,6 +1519,7 @@
 
 
 
+0 STEP
 0 FILE 75980 - Inclined Top.ldr
 0 A tan and sand-blue inclined roof section with windows, clear glass panes, door rails, and hinge connections.
 0 Name: 75980 - Inclined Top.ldr
@@ -2279,6 +2281,7 @@
 
 
 
+0 STEP
 0 FILE 75980 - Flames.ldr
 0 A cluster of translucent orange and red flame elements mounted on clips and bars to simulate fire.
 0 Name: 75980 - Flames.ldr
@@ -2322,6 +2325,7 @@
 
 
 
+0 STEP
 0 FILE 75980 - 51239.dat
 0 A geometric submodel composed of a box with sides, top, sill, and rectangles forming a solid shape.
 0 Name: 75980 - 51239.dat
@@ -2410,6 +2414,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 stud2.dat
 
 
+0 STEP
 0 FILE 75980 - 37695.dat
 0 A cylindrical primitive part built from cylinders, cones, and rings.
 0 Name: 75980 - 37695.dat
@@ -2560,6 +2565,7 @@
 2 24 -0.8525 -29.493401 3.8305 -0.924 -29.1665 3.8163
 
 
+0 STEP
 0 FILE 75980 - 28621.dat
 0 A simple cylindrical primitive part.
 0 Name: 75980 - 28621.dat
@@ -2582,6 +2588,7 @@
 1 16 0 17 0 -8 0 0 0 6.4 0 0 0 -8 t04o6250.dat
 
 
+0 STEP
 0 FILE 75980 - 14395.dat
 0 A 1x5x4 arch shape formed from a single arch element.
 0 Name: 75980 - 14395.dat
@@ -2596,6 +2603,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 2339.dat
 
 
+0 STEP
 0 FILE 75980 - s\75980 - 42205s02.dat
 0 A circular geometric primitive composed of discs, circles, and cylinders forming a rounded shape.
 0 Name: 75980 - s\75980 - 42205s02.dat
@@ -2659,6 +2667,7 @@
 2 24 2 0 1 4 0 1
 
 
+0 STEP
 0 FILE 75980 - s\75980 - 42205s01.dat
 0 A stud-and-cylinder geometric primitive with circles, discs, and chords forming a detailed round component.
 0 Name: 75980 - s\75980 - 42205s01.dat
@@ -2740,6 +2749,7 @@
 3 16 2 4 2.5 6 4 1 -0.5 4 2.5
 
 
+0 STEP
 0 FILE 75980 - s\75980 - 37695s01.dat
 0 An empty geometric submodel with no direct pieces.
 0 Name: 75980 - s\75980 - 37695s01.dat
@@ -3356,6 +3366,7 @@
 5 24 -11.789 -5.6473 7.5598 -7.6594 -6.4669 9.4596 -10.0688 -5.4296 10.059 -7.7255 -7.488 6.154
 
 
+0 STEP
 0 FILE 75980 - s\75980 - 28621s01.dat
 0 A round geometric primitive with circles, rings, cylinders, and a stud filler forming a stud detail.
 0 Name: 75980 - s\75980 - 28621s01.dat
@@ -3391,6 +3402,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 75980 - filstud2.dat
 
 
+0 STEP
 0 FILE 75980 - filstud2.dat
 0 A filled stud primitive made of small cylinders, circles, chords, and rectangles.
 0 Name: 75980 - filstud2.dat
@@ -3514,6 +3526,7 @@
 4 16 3.6955 3 1.5307 2.4 3 0.8 -1.1314 3 2.2627 -1.5308 3 3.6956
 
 
+0 STEP
 0 FILE 75980 - 8\75980 - 3-8tang.dat
 0 A geometric tangent primitive submodel with no direct pieces.
 0 Name: 75980 - 8\75980 - 3-8tang.dat

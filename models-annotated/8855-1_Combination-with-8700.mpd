@@ -1030,6 +1030,7 @@
 
 0
 
+0 STEP
 0 FILE 8855 - 8855+8700 - Engine block.ldr
 0 A motorized engine block assembly featuring a 4.5V electric Technic motor, yellow plates and Technic bricks with sloped detailing.
 0 Name: 8855 - 8855+8700 - Engine block.ldr
@@ -1181,6 +1182,7 @@
 
 
 
+0 STEP
 0 FILE 8855 - 8841+8700 - Band.ldr
 0 A large rubber band assembly generated with LSynth, composed of many small box segments forming a continuous loop.
 0 Name: 8855 - 8841+8700 - Band.ldr
@@ -1473,6 +1475,7 @@
 
 0
 
+0 STEP
 0 FILE 8855 - 8855+8700 - Pilot.ldr
 0 A Technic action figure pilot with torso, head, helmet with visor, arms, and legs in blue, red, and yellow.
 0 Name: 8855 - 8855+8700 - Pilot.ldr
@@ -1541,6 +1544,7 @@
 
 0
 
+0 STEP
 0 FILE 8855 - 8855+8700 - Cable.ldr
 0 A flexible electric motor cable generated with LSynth, composed of thousands of cylinder segments connecting to a light motor.
 0 Name: 8855 - 8855+8700 - Cable.ldr
@@ -8474,6 +8478,7 @@
 
 0
 
+0 STEP
 0 FILE 8855 - 2715.dat
 0 A helmet visor part with patternable areas and known collision notes with the companion visor piece.
 0 Name: 8855 - 2715.dat
@@ -8628,6 +8633,7 @@
 
 0
 
+0 STEP
 0 FILE 8855 - x993.dat
 0 An empty placeholder part file containing no direct pieces.
 0 Name: 8855 - x993.dat
@@ -8707,6 +8713,7 @@
 
 0
 
+0 STEP
 0 FILE s\8855 - 2715s01.dat
 0 A geometric subpart composed of cylinders, torus sections, and discs forming a curved mechanical component.
 0 Name: s\8855 - 2715s01.dat
@@ -9166,6 +9173,7 @@
 
 
 
+0 STEP
 0 FILE 8855 - 2742c01.dat
 0 A propeller assembly combining a 3-blade propeller, a 24-tooth Technic gear, and a mounting brick.
 0 Name: 8855 - 2742c01.dat
@@ -9185,6 +9193,7 @@
 1 16 0 10 -8 1 0 0 0 1 0 0 0 1 2742.dat
 
 
+0 STEP
 0 FILE 8855 - 2740.dat
 0 A detailed gear or wheel primitive constructed from rings, circles, cylinders, and geometric primitives.
 0 Name: 8855 - 2740.dat

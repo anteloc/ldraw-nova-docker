@@ -16,6 +16,7 @@
 1 7 -100 -81 -425 1 0 0 0 1 0 0 0 1 6073 - MiniFig5.ldr
 
 
+0 STEP
 0 FILE 6073 - Castle.ldr
 0 Large grey-brick castle structure built on green baseplates, featuring hinged walls, red brick accents, and technic-pin connections for modular sections.
 0 Name: 6073 - Castle.ldr
@@ -711,6 +712,7 @@
 1 7 250 -254 -84 1 0 0 0 1 0 0 0 1 3846p46.dat
 
 
+0 STEP
 0 FILE 6073 - Door.ldr
 0 Black hinged gate door assembly constructed from plates, hinge bricks, an arch, and a central brick column.
 0 Name: 6073 - Door.ldr
@@ -763,6 +765,7 @@
 1 0 -30 -112 -50 0 0 -1 0 1 0 1 0 0 3069b.dat
 
 
+0 STEP
 0 FILE 6073 - Drawbridge.ldr
 0 Black drawbridge platform built from plates and technic bricks with light grey and red connecting pins for articulation.
 0 Name: 6073 - Drawbridge.ldr
@@ -803,6 +806,7 @@
 1 4 -100 -32 70 -1 0 0 0 1 0 0 0 -1 3700.dat
 
 
+0 STEP
 0 FILE 6073 - MiniFig2.ldr
 0 Black Falcons spearman minifigure wearing a neck-protector helmet and carrying a triangular Black Falcon shield with yellow border.
 0 Name: 6073 - MiniFig2.ldr
@@ -836,6 +840,7 @@
 1 7 35.295 -27.422 -9.285 0.988 -0.01 0.153 -0.035 0.957 0.287 -0.149 -0.289 0.945 3846p46.dat
 
 
+0 STEP
 0 FILE 6073 - MiniFig3.ldr
 0 Black Falcons archer minifigure wearing a chin-guard helmet, carrying a quiver and bow with arrow.
 0 Name: 6073 - MiniFig3.ldr
@@ -869,6 +874,7 @@
 1 6 32.202 -47.175 -28.374 0.082 0.265 -0.961 -0.248 0.939 0.238 0.966 0.219 0.142 4499.dat
 
 
+0 STEP
 0 FILE 6073 - MiniFig1.ldr
 0 Black Falcons spearman minifigure wearing a neck-protector helmet and carrying a triangular Black Falcon shield with blue border.
 0 Name: 6073 - MiniFig1.ldr
@@ -902,6 +908,7 @@
 1 7 35.295 -27.422 -9.285 0.988 -0.01 0.153 -0.035 0.957 0.287 -0.149 -0.289 0.945 3846p45.dat
 
 
+0 STEP
 0 FILE 6073 - subModel-1.ldr
 0 Black Falcons archer minifigure wearing a chin-guard helmet, carrying a quiver and bow with arrow.
 0 Name: 6073 - subModel-1.ldr
@@ -935,6 +942,7 @@
 1 6 35.263 -47.365 -27.56 -0.022 0.192 -0.981 -0.227 0.955 0.192 0.974 0.227 0.022 4499.dat
 
 
+0 STEP
 0 FILE 6073 - MiniFig4.ldr
 0 Black Falcons archer minifigure wearing a chin-guard helmet, carrying a quiver and bow with arrow.
 0 Name: 6073 - MiniFig4.ldr
@@ -968,6 +976,7 @@
 1 6 32.202 -47.175 -28.374 0.082 0.265 -0.961 -0.248 0.939 0.238 0.966 0.219 0.142 4499.dat
 
 
+0 STEP
 0 FILE 6073 - Horse1.ldr
 0 White saddled warhorse with blue saddle carrying a dark grey shortsword.
 0 Name: 6073 - Horse1.ldr
@@ -983,6 +992,7 @@
 1 8 -31 -10 17.5 -1 0 0 0 -1 0 0 0 1 3847.dat
 
 
+0 STEP
 0 FILE 6073 - Horse2.ldr
 0 Black saddled warhorse with yellow saddle carrying a dark grey shortsword.
 0 Name: 6073 - Horse2.ldr
@@ -998,6 +1008,7 @@
 1 8 -31 -10 17.5 -1 0 0 0 -1 0 0 0 1 3847.dat
 
 
+0 STEP
 0 FILE 6073 - MiniFig5.ldr
 0 Black Falcons knight minifigure in a red cape and plume, with face-grille helmet, lance, blue-bordered shield, and green flag.
 0 Name: 6073 - MiniFig5.ldr
@@ -1037,6 +1048,7 @@
 1 2 -12.156 -201.815 -54.951 1 0.004 -0.022 -0.008 0.986 -0.168 0.021 0.169 0.985 4495a.dat
 
 
+0 STEP
 0 FILE 6073 - MiniFig6.ldr
 0 Black Falcons knight minifigure in a black cape and plume, with dark grey face-grille helmet, lance, yellow-bordered shield, and dual flags.
 0 Name: 6073 - MiniFig6.ldr
@@ -1078,6 +1090,7 @@
 1 2 13.369 -194.253 -67.533 0.986 -0.164 0.021 0.164 0.953 -0.254 0.021 0.254 0.967 4495a.dat
 
 
+0 STEP
 0 FILE 6073 - Drawbridge Rope.ldr
 0 Long flexible rope assembly made of 122 linked cylinder segments forming the drawbridge chains.
 0 Name: 6073 - Drawbridge Rope.ldr
@@ -1361,6 +1374,7 @@
 1 16 51.016324 -154.497772 19.947007 0.000915 -0.129346 -1.499217 -0.157429 -3.979577 0.048096 -1.491716 0.419907 -0.005995 4-4cyli.dat
 
 
+0 STEP
 0 FILE 6073 - ldcLQRopeSeg.dat
 0 Single cylindrical rope segment component used as a repeating link in the drawbridge rope.
 0 Name: 6073 - ldcLQRopeSeg.dat

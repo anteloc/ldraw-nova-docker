@@ -7,6 +7,7 @@
 1 7 0 0 0 1 0 0 0 1 0 0 0 1 4096 - EB Tractor and Trailer.ldr
 
 
+0 STEP
 0 FILE 4096 - EB Tractor.ldr
 0 Compact tractor body built from yellow plates, a mudguard, grille, headlights, and wheel-pin plates.
 0 Name: 4096 - EB Tractor.ldr
@@ -82,6 +83,7 @@
 1 256 -27 -3 -40 -1 0 0 0 1 0 0 0 -1 30028.dat
 
 
+0 STEP
 0 FILE 4096 - EB Tractor and Trailer.ldr
 0 Long flatbed trailer chassis with four yellow wheels and tyres mounted on dark-grey plates.
 0 Name: 4096 - EB Tractor and Trailer.ldr
@@ -141,6 +143,7 @@
 1 7 0 32 -142 1 0 0 0 1 0 0 0 1 4096 - EB Tractor.ldr
 
 
+0 STEP
 0 FILE 4096 - EB Tractor and Trailer S06.ldr
 0 Small axle mount made of a dark-grey 2x2 brick with extended wheel pins.
 0 Name: 4096 - EB Tractor and Trailer S06.ldr
@@ -153,6 +156,7 @@
 1 8 0 -16 0 1 0 0 0 1 0 0 0 1 3003.dat
 
 
+0 STEP
 0 FILE 4096 - EB Tractor and Trailer S07.ldr
 0 Steering assembly using a turntable, axlehole plate, and extended wheel pins.
 0 Name: 4096 - EB Tractor and Trailer S07.ldr

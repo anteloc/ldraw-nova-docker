@@ -110,6 +110,7 @@
 1 47 0 -98.058 -35.692 1 0 0 0 0.451 -0.892 0 0.892 0.451 8260 - Front.ldr
 
 
+0 STEP
 0 FILE 8260 - subModel-1.ldr
 0 A small Technic structural assembly using a lime bent liftarm, short axles, and bushes forming a compact support bracket.
 0 Name: 8260 - subModel-1.ldr
@@ -144,6 +145,7 @@
 1 0 0 -10 -20 0 0 1 -1 0 0 0 -1 0 2780.dat
 
 
+0 STEP
 0 FILE 8260 - Front.ldr
 0 The front wheel assembly featuring a rim and tyre mounted on axles with lime and dark bluish grey liftarms for steering support.
 0 Name: 8260 - Front.ldr

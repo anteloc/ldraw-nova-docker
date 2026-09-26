@@ -46,6 +46,7 @@
 1 4 20 -9 100 1 0 0 0 1 0 0 0 1 3659 - Max.ldr
 
 
+0 STEP
 0 FILE 3659 - Bonnie.ldr
 0 An empty placeholder submodel representing the Bonnie character figure.
 0 Name: 3659 - Bonnie.ldr
@@ -62,6 +63,7 @@
 1 19 0 -67 4 0.6947 0 0.7193 0 1 0 -0.7193 0 0.6947 u9106p03c01.dat
 
 
+0 STEP
 0 FILE 3659 - Max.ldr
 0 An empty placeholder submodel representing the Max character figure.
 0 Name: 3659 - Max.ldr

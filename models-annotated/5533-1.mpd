@@ -4,6 +4,7 @@
 0 Author: Marc Giraudet [Mad_Marc]
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
 1 0 0 5.22249 1.88449 1 0 0 0 0.99957 -0.02916 0 0.02916 0.99957 5533 - Red Fury.ldr
+0 STEP
 0 FILE 5533 - Red Fury.ldr
 0 A large vehicle chassis built from plates and wing panels in red, black, and light grey, forming the main body of the Red Fury.
 0 Name: Red Fury.ldr
@@ -379,6 +380,7 @@
 1 7 136 -62 180 0 0 -1 0 1 0 1 0 0 3713.dat
 0 // Technic Bush with Two Flanges (light_grey)
 1 7 -136 -62 180 0 0 1 0 1 0 -1 0 0 3713.dat
+0 STEP
 0 FILE 5533 - Red Fury 01.ldr
 0 A white Technic steering assembly with gear rack, steering arms, and axle pins.
 0 Name: Red Fury 01.ldr
@@ -406,6 +408,7 @@
 1 7 80 10 10 1 0 0 0 -1 0 0 0 -1 3749.dat
 0 // Technic Axle Pin (light_grey)
 1 7 -80 10 10 -1 0 0 0 -1 0 0 0 1 3749.dat
+0 STEP
 0 FILE 5533 - Red Fury 02.ldr
 0 A small Technic linkage built from a cross block and axle pin.
 0 Name: Red Fury 02.ldr
@@ -415,6 +418,7 @@
 1 7 0 0 0 1 0 0 0 1 0 0 0 1 32068.dat
 0 // Technic Axle Pin (light_grey)
 1 7 0 0 -20 0 -1 0 1 0 0 0 0 1 3749.dat
+0 STEP
 0 FILE 5533 - Red Fury 03.ldr
 0 A Technic drivetrain module with axles, gears, and connector bricks.
 0 Name: Red Fury 03.ldr
@@ -450,6 +454,7 @@
 0 STEP
 0 // Technic Gear  8 Tooth (light_grey)
 1 7 0 10 -540 1 0 0 0 1 0 0 0 1 3647.dat
+0 STEP
 0 FILE 5533 - Red Fury 04.ldr
 0 A long Technic beam linkage of red and blue bricks held together by friction pins.
 0 Name: Red Fury 04.ldr
@@ -465,6 +470,7 @@
 1 0 10 10 220 -1 0 0 0 1 0 0 0 -1 2780.dat
 0 // Technic Brick  1 x  8 with Holes (blue)
 1 1 20 0 160 0 0 1 0 1 0 -1 0 0 3702.dat
+0 STEP
 0 FILE 5533 - Red Fury 05.ldr
 0 A long Technic beam linkage of red and blue bricks held together by friction pins.
 0 Name: Red Fury 05.ldr
@@ -480,6 +486,7 @@
 1 0 -10 10 220 -1 0 0 0 1 0 0 0 -1 2780.dat
 0 // Technic Brick  1 x  8 with Holes (blue)
 1 1 -20 0 160 0 0 1 0 1 0 -1 0 0 3702.dat
+0 STEP
 0 FILE 5533 - Red Fury 06.ldr
 0 A small bodywork panel assembly with grille tile and plates in blue, red, and black.
 0 Name: Red Fury 06.ldr
@@ -506,6 +513,7 @@
 1 7 0 -80 -20 0 0 1 0 1 0 -1 0 0 3700.dat
 0 // Tile  1 x  2 Grille with Groove (black)
 1 0 0 -88 -20 0 0 1 0 1 0 -1 0 0 2412b.dat
+0 STEP
 0 FILE 5533 - Red Fury 07.ldr
 0 A compact Technic axle module with bush, bevel gears, and connector bricks.
 0 Name: Red Fury 07.ldr
@@ -520,6 +528,7 @@
 1 0 0 0 0 0 0 1 0 1 0 -1 0 0 3700.dat
 0 // Technic Brick  1 x  2 with Hole (red)
 1 4 40 0 0 0 0 1 0 1 0 -1 0 0 3700.dat
+0 STEP
 0 FILE 5533 - Red Fury 08.ldr
 0 A Technic gear drive assembly with axle, bevel gear, and a red plate.
 0 Name: Red Fury 08.ldr
@@ -532,6 +541,7 @@
 0 STEP
 0 // Technic Plate  2 x  4 with Holes (red)
 1 4 0 0 0 1 0 0 0 1 0 0 0 1 3709b.dat
+0 STEP
 0 FILE 5533 - Red Fury 09.ldr
 0 A short Technic pin connector assembly using a red brick and friction pins.
 0 Name: Red Fury 09.ldr
@@ -543,6 +553,7 @@
 1 0 10 10 -40 1 0 0 0 1 0 0 0 1 2780.dat
 0 // Technic Pin Long with Friction and Slot (black)
 1 0 20 10 40 1 0 0 0 1 0 0 0 1 6558.dat
+0 STEP
 0 FILE 5533 - Red Fury 10.ldr
 0 A small bodywork panel assembly with grille tile and plates in blue, red, and black.
 0 Name: Red Fury 10.ldr
@@ -569,6 +580,7 @@
 1 7 0 -80 -20 0 0 1 0 1 0 -1 0 0 3700.dat
 0 // Tile  1 x  2 Grille with Groove (black)
 1 0 0 -88 -20 0 0 1 0 1 0 -1 0 0 2412b.dat
+0 STEP
 0 FILE 5533 - Red Fury 11.ldr
 0 A compact Technic axle module with bush, bevel gears, and connector bricks.
 0 Name: Red Fury 11.ldr
@@ -583,6 +595,7 @@
 1 0 0 0 0 0 0 -1 0 1 0 1 0 0 3700.dat
 0 // Technic Brick  1 x  2 with Hole (red)
 1 4 -40 0 0 0 0 -1 0 1 0 1 0 0 3700.dat
+0 STEP
 0 FILE 5533 - Red Fury 12.ldr
 0 A Technic steering column assembly topped with a small steering wheel.
 0 Name: Red Fury 12.ldr
@@ -595,6 +608,7 @@
 0 STEP
 0 // Technic Steering Wheel Small (light_grey)
 1 7 0 10 34 1 0 0 0 0 1 0 -1 0 2819.dat
+0 STEP
 0 FILE 5533 - Red Fury 13.ldr
 0 A yellow bodywork section with plates and hinge elements.
 0 Name: Red Fury 13.ldr
@@ -618,6 +632,7 @@
 1 14 -30 -26.26164 29.5174 0 0 1 0.99321 0.11634 0 -0.11634 0.99321 0 4275b.dat
 0 // Hinge Plate  1 x  2 with 3 Fingers and Hollow Studs (yellow)
 1 14 30 -26.26164 29.5174 0 0 1 0.99321 0.11634 0 -0.11634 0.99321 0 4275b.dat
+0 STEP
 0 FILE 5533 - Red Fury 14.ldr
 0 A detailed blue and red assembly with plates, hinges, slopes, and antenna pieces forming bodywork details.
 0 Name: Red Fury 14.ldr
@@ -716,6 +731,7 @@
 0 // Technic Gear 12 Tooth Bevel (light_grey)
 1 7 0 -70 -53 -1 0 0 0 1 0 0 0 -1 6589.dat
 1 256 0 -70 -45 1 0 0 0 1 0 0 0 1 5533 - RubberBandSquare.ldr
+0 STEP
 0 FILE 5533 - Red Fury 15.ldr
 0 A small light grey plate decorated with four goblet elements.
 0 Name: Red Fury 15.ldr
@@ -732,6 +748,7 @@
 1 7 0 -40 -10 0 0 1 0 1 0 -1 0 0 2343.dat
 0 // Minifig Goblet (light_grey)
 1 7 0 -40 -30 0 0 1 0 1 0 -1 0 0 2343.dat
+0 STEP
 0 FILE 5533 - Red Fury 16.ldr
 0 A decorative panel with grille tiles and round studs.
 0 Name: Red Fury 16.ldr
@@ -753,6 +770,7 @@
 1 7 0 -16 20 0 0 1 0 1 0 -1 0 0 2412b.dat
 0 // Tile  1 x  2 Grille with Groove (light_grey)
 1 7 0 -16 -20 0 0 1 0 1 0 -1 0 0 2412b.dat
+0 STEP
 0 FILE 5533 - Red Fury 17.ldr
 0 A small red plate accented with a black groove tile.
 0 Name: Red Fury 17.ldr
@@ -762,6 +780,7 @@
 1 4 0 0 0 0 0 1 0 1 0 -1 0 0 3021.dat
 0 // Tile  1 x  2 with Groove (black)
 1 0 0 -8 20 -1 0 0 0 1 0 0 0 -1 3069b.dat
+0 STEP
 0 FILE 5533 - Red Fury 18.ldr
 0 A small red detail piece using a round stud, inverted slope, and plate.
 0 Name: Red Fury 18.ldr
@@ -773,6 +792,7 @@
 1 4 0 -24 0 1 0 0 0 1 0 0 0 1 3665a.dat
 0 // Plate  1 x  2 without Groove with 1 Centre Stud (red)
 1 4 0 -32 -10 0 0 1 0 1 0 -1 0 0 3794a.dat
+0 STEP
 0 FILE 5533 - Red Fury 19.ldr
 0 A red bodywork detail assembly with curved bricks, panels, and a tile.
 0 Name: Red Fury 19.ldr
@@ -797,6 +817,7 @@
 0 STEP
 0 // Tile  2 x  2 with Groove (red)
 1 4 0 -32 -10 1 0 0 0 1 0 0 0 1 3068b.dat
+0 STEP
 0 FILE 5533 - Red Fury 20.ldr
 0 A small black detail assembly of curved bricks and a grille tile.
 0 Name: Red Fury 20.ldr
@@ -808,6 +829,7 @@
 1 0 10 0 0 0 0 -1 0 1 0 1 0 0 6091.dat
 0 // Tile  1 x  2 Grille with Groove (black)
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 2412b.dat
+0 STEP
 0 FILE 5533 - RubberBandSquare.ldr
 0 A flexible rubber band element modeled as a closed loop of generated segments.
 0 Name: RubberBandSquare.ldr
@@ -1395,6 +1417,7 @@
 5 24 -28 0 -2 -28 0 2 -27.812849 3.306237 -2 -28.05681 -0.998385 -2
 5 24 -28 0 2 -32 0 2 -27.812849 3.306237 2 -28.05681 -0.998385 2
 5 24 -32 0 2 -32 0 -2 -31.783247 3.791974 2 -32.056812 -0.998385 2
+0 STEP
 0 FILE 5533 - Red Fury 21.ldr
 0 A red and white body panel assembly with large studded plate, slopes, and handle plates.
 0 Name: Red Fury 21.ldr
@@ -1467,6 +1490,7 @@
 1 15 -20 -32 70 -1 0 0 0 1 0 0 0 -1 2540.dat
 0 // Plate  1 x  2 with Handle (white)
 1 15 20 -32 70 -1 0 0 0 1 0 0 0 -1 2540.dat
+0 STEP
 0 FILE 5533 - Red Fury 22.ldr
 0 A single Technic pin connector joining a red brick hole.
 0 Name: Red Fury 22.ldr
@@ -1476,6 +1500,7 @@
 1 4 0 0 0 1 0 0 0 1 0 0 0 1 6541.dat
 0 // Technic Pin with Friction and Slots (black)
 1 0 0 10 -10 0 0 1 0 1 0 -1 0 0 2780.dat
+0 STEP
 0 FILE 5533 - Red Fury 23.ldr
 0 Red Fury 23
 0 Name: Red Fury 23.ldr
@@ -1501,6 +1526,7 @@
 1 7 0 0 260 1 0 0 0 1 0 0 0 1 32013.dat
 0 // Minifig Backpack Openable Closed (brown)
 1 6 0 0 118 1 0 0 0 0 1 0 -1 0 30158c01.dat
+0 STEP
 0 FILE 5533 - Red Fury 24.ldr
 0 Red Fury 24
 0 Name: Red Fury 24.ldr
@@ -1512,6 +1538,7 @@
 1 0 0 0 110 0 0 -1 0 -1 0 -1 0 0 3737.dat
 0 // Technic Angle Connector #1 (light_grey)
 1 7 0 0 220 -1 0 0 0 -1 0 0 0 1 32013.dat
+0 STEP
 0 FILE 5533 - Red Fury 25.ldr
 0 Red Fury 25
 0 Name: Red Fury 25.ldr
@@ -1521,6 +1548,7 @@
 1 7 0 0 0 1 0 0 0 1 0 0 0 1 3941.dat
 0 // Tile  2 x  2 Round with Cross Underside Stud (black)
 1 0 0 -8 0 1 0 0 0 1 0 0 0 1 4150.dat
+0 STEP
 0 FILE 5533 - Red Fury 26R.ldr
 0 Red Fury 26R
 0 Name: Red Fury 26R.ldr
@@ -1541,6 +1569,7 @@
 1 0 0 -40 -70 -1 0 0 0 1 0 0 0 -1 28653.dat
 0 // Tile  1 x  2 with Groove (red)
 1 4 10 -56 -60 0 0 -1 0 1 0 1 0 0 3069b.dat
+0 STEP
 0 FILE 5533 - Red Fury 26L.ldr
 0 Red Fury 26L
 0 Name: Red Fury 26L.ldr
@@ -1561,6 +1590,7 @@
 1 0 0 -40 -70 -1 0 0 0 1 0 0 0 -1 28653.dat
 0 // Tile  1 x  2 with Groove (red)
 1 4 -10 -56 -60 0 0 -1 0 1 0 1 0 0 3069b.dat
+0 STEP
 0 FILE 5533 - Red Fury 27.ldr
 0 Red Fury 27
 0 Name: Red Fury 27.ldr
@@ -1570,6 +1600,7 @@
 1 15 0 0 0 1 0 0 0 1 0 0 0 1 2998.dat
 0 // Tyre 34/ 38 x 56 ZR (rubber_black)
 1 256 0 0 0 1 0 0 0 1 0 0 0 1 2997.dat
+0 STEP
 0 FILE 5533 - Red Fury 28.ldr
 0 Red Fury 28
 0 Name: Red Fury 28.ldr

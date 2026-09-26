@@ -13,6 +13,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 605-1 - MINIFIG.LDR
 
 0 NOFILE
+0 STEP
 0 FILE 605-1 - Cart.ldr
 0 A yellow wheeled cart built with plates, lattice fences, and two grey rolling wheels.
 0 Name: 605-1 - Cart.ldr
@@ -42,6 +43,7 @@
 1 0 29.377071 -18 -29.421379 -0.000051 0 1 0 1 0 -1 0 -0.000051 3641.DAT
 
 0 NOFILE
+0 STEP
 0 FILE 605-1 - Tree.ldr
 0 A single green tree plant element.
 0 Name: 605-1 - Tree.ldr
@@ -55,6 +57,7 @@
 1 2 -81.106056 -8 59.513145 1 0 0 0 1 0 0 0 1 3470.DAT
 
 0 NOFILE
+0 STEP
 0 FILE 605-1 - Shovel.ldr
 0 A single light grey minifig shovel tool.
 0 Name: 605-1 - Shovel.ldr
@@ -68,6 +71,7 @@
 1 7 26.139927 -44.944603 6.741808 -0.057986 -0.250004 -0.966507 -0.012282 -0.967884 0.251097 -0.998242 0.026431 0.053053 3837.DAT
 
 0 NOFILE
+0 STEP
 0 FILE 605-1 - Minifig.ldr
 0 A minifigure wearing a blue police outfit with vest, holding a pushbroom and decorated with a yellow-and-black chevron sticker on a red plate.
 0 Name: 605-1 - Minifig.ldr

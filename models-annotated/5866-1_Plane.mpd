@@ -8,6 +8,7 @@
 1 72 0 0 0 1 0 0 0 1 0 0 0 1 5866 - Plane.ldr
 
 
+0 STEP
 0 FILE 5866 - Plane.ldr
 0 The main fuselage and wings built from red, yellow, and grey plates with left and right wings.
 0 Name: 5866 - Plane.ldr
@@ -241,6 +242,7 @@
 1 71 0 -30 -74 0.707 0 0.707 0.707 0 -0.707 0 1 0 5866 - Plane S32.ldr
 
 
+0 STEP
 0 FILE 5866 - Plane S16.ldr
 0 A small connector assembly using a pinned plate and single-stud plate.
 0 Name: 5866 - Plane S16.ldr
@@ -257,6 +259,7 @@
 1 72 0 -8 -10 -1 0 0 0 1 0 0 0 -1 3794b.dat
 
 
+0 STEP
 0 FILE 5866 - Plane S17.ldr
 0 A tiny detail built from a side-stud brick topped with a round plate.
 0 Name: 5866 - Plane S17.ldr
@@ -270,6 +273,7 @@
 1 71 0 10 -18 1 0 0 0 0 -1 0 1 0 6141.dat
 
 
+0 STEP
 0 FILE 5866 - Plane S23.ldr
 0 A small yellow accent piece combining a plate and a curved slope.
 0 Name: 5866 - Plane S23.ldr
@@ -283,6 +287,7 @@
 1 14 0 -16 20 -1 0 0 0 1 0 0 0 -1 50950.dat
 
 
+0 STEP
 0 FILE 5866 - Plane S27.ldr
 0 A curved red slope detail with a clear round plate, likely a light or window.
 0 Name: 5866 - Plane S27.ldr
@@ -296,6 +301,7 @@
 1 4 0 -16 -10 1 0 0 0 1 0 0 0 1 61678.dat
 
 
+0 STEP
 0 FILE 5866 - Plane S32.ldr
 0 A propeller assembly featuring a four-blade propeller with mounting plates and tiles.
 0 Name: 5866 - Plane S32.ldr

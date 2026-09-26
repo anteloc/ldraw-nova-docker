@@ -11,6 +11,7 @@
 1 71 0 -14 -110 1 0 0 0 1 0 0 0 1 75895 - wheels-1.ldr
 
 
+0 STEP
 0 FILE 75895 - body-1.ldr
 0 Main chassis and bodywork subassembly built from plates, bricks, brackets, and mudguards that form the structural frame and white/red/blue exterior panels of the vehicle.
 0 Name: 75895 - body-1.ldr
@@ -397,6 +398,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 75895 - windscreen-1.ldr
 0 Translucent brown windscreen assembly topped with a white tile that forms the front cockpit canopy of the car.
 0 Name: 75895 - windscreen-1.ldr
@@ -410,6 +412,7 @@
 1 15 0 -8 30 1 0 0 0 1 0 0 0 1 87079.dat
 
 
+0 STEP
 0 FILE 75895 - wheels-1.ldr
 0 Rear wheel assembly consisting of a Technic axle, bushings, wheel rims, and rubber tyres that form the rolling wheels of the car.
 0 Name: 75895 - wheels-1.ldr
@@ -437,6 +440,7 @@
 1 71 -65 0 0 0 0 1 0 1 0 -1 0 0 32123b.dat
 
 
+0 STEP
 0 FILE 75895 - cone-1.ldr
 0 Small orange traffic cone built from a plate base and a cone top element.
 0 Name: 75895 - cone-1.ldr
@@ -450,6 +454,7 @@
 1 25 0 -24 0 1 0 0 0 1 0 0 0 1 59900.dat
 
 
+0 STEP
 0 FILE 75895 - driver-1.ldr
 0 Racing driver minifigure with brown torso, black helmet and clear visor, tousled hair, and a smiling freckled head.
 0 Name: 75895 - driver-1.ldr
@@ -483,6 +488,7 @@
 1 47 40 16 0 1 0 0 0 1 0 0 0 1 2447.dat
 
 
+0 STEP
 0 FILE 75895 - 6285381ac01.dat
 0 Empty wrapper submodel serving as a container for a formed sticker decal assembly with no direct parts.
 0 Name: 75895 - 6285381ac01.dat
@@ -531,6 +537,7 @@
 5 24 8 12.25 -28.709 -8 12.25 -28.709 8 5.681 -24.319 8 20 -30.25
 5 24 8 20 -30.25 -8 20 -30.25 8 12.25 -28.709 8 30 -30.25
 
+0 STEP
 0 FILE 75895 - 6285381b.dat
 0 Single curved sticker face represented by a box with five faces, used as one surface of a formed decal.
 0 Name: 75895 - 6285381b.dat
@@ -898,6 +905,7 @@
 4 16 8.4 -0.25 -1.88 17.5 -0.25 8.5 -17.5 -0.25 8.5 -8.43 -0.25 -1.88
 
 
+0 STEP
 0 FILE 75895 - 6285381cc01.dat
 0 Empty wrapper submodel serving as a container for a formed sticker decal assembly with no direct parts.
 0 Name: 75895 - 6285381cc01.dat
@@ -978,6 +986,7 @@
 5 24 8 7.36 -8.27 -8 7.36 -8.27 8 3.16 4.12 8 13.15 -20
 5 24 8 13.15 -20 -8 13.15 -20 8 7.36 -8.27 8 17.690001 -26.879
 
+0 STEP
 0 FILE 75895 - 6285381g.dat
 0 Decal sticker with a black curved stripe on a transparent background applied to the car bodywork.
 0 Name: 75895 - 6285381g.dat
@@ -992,6 +1001,7 @@
 0 // Sticker  0.9 x  2.6 with Black Curved Stripe Left on Transparent Background (main_colour)
 1 16 0 0 0 -1 0 0 0 1 0 0 0 1 75895 - 6285381h.dat
 
+0 STEP
 0 FILE 75895 - 6285381h.dat
 0 Multi-face sticker decal combining side and backside surfaces for a curved printed element.
 0 Name: 75895 - 6285381h.dat
@@ -1086,6 +1096,7 @@
 3 16 -7 0 1 -27.373899 0 -9.1327 -27.450001 0 -8.75
 3 16 -7 0 1 -27.450001 0 -8.75 -27.450001 0 1
 
+0 STEP
 0 FILE 75895 - 6285381f.dat
 0 Single curved sticker face represented by a box with five faces, used as one surface of a formed decal.
 0 Name: 75895 - 6285381f.dat
@@ -1105,6 +1116,7 @@
 4 16 17.5 -0.25 -8.5 3.8864 -0.25 -5.04 -3.8864 -0.25 -5.04 -17.5 -0.25 -8.5
 4 16 -17.5 -0.25 -8.5 -3.8864 -0.25 -5.04 -3.8864 -0.25 5.04 -17.5 -0.25 8.5
 
+0 STEP
 0 FILE 75895 - 6285381dc01.dat
 0 Empty wrapper submodel serving as a container for a formed sticker decal assembly with no direct parts.
 0 Name: 75895 - 6285381dc01.dat
@@ -1164,6 +1176,7 @@
 5 24 18 4.84 -1.41 -18 4.84 -1.41 18 1.03 19.120001 18 11.11 -21.23
 5 24 18 11.11 -21.23 -18 11.11 -21.23 18 4.84 -1.41 18 18.969999 -38.299999
 
+0 STEP
 0 FILE 75895 - 6285381ec01.dat
 0 Formed sticker decal depicting the right half of a black rounded square, applied to a curved bodywork surface.
 0 Name: 75895 - 6285381ec01.dat
@@ -1178,6 +1191,7 @@
 0 // Sticker  4.0 x  1.8 with Black Rounded Square Right Half (Formed) (main_colour)
 1 16 0 0 0 -1 0 0 0 1 0 0 0 1 75895 - 6285381dc01.dat
 
+0 STEP
 0 FILE s\75895 - logoporsl01.dat
 0 Detailed Porsche crest logo built from numerous lettering and shape primitives spelling out 'STUTTGART' within a shield border.
 0 Name: s\75895 - logoporsl01.dat

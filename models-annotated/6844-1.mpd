@@ -59,6 +59,7 @@
 1 16 -24 0 -93 0.809 0 0.588 0 1 0 -0.588 0 0.809 6844 - Seismologic Vehicle - White Astronaut.ldr
 1 16 0 0 -60 0.809 0 0.588 0 1 0 -0.588 0 0.809 6844 - Seismologic Vehicle - Tractor.ldr
 
+0 STEP
 0 FILE 6844 - Seismologic Vehicle - Tractor.ldr
 0 A light grey wheeled tractor unit with a female hinge joint, steering wheel, and red light elements.
 0 Name: 6844 - Seismologic Vehicle - Tractor.ldr
@@ -89,6 +90,7 @@
 0 // Brick  1 x  1 Round with Hollow Stud (trans_red)
 1 36 26 -12 -106 1 0 0 0 0 1 0 -1 0 3062b.dat
 
+0 STEP
 0 FILE 6844 - Seismologic Vehicle - White Astronaut.ldr
 0 A white classic space minifigure with helmet, airtanks, and standard grin.
 0 Name: 6844 - Seismologic Vehicle - White Astronaut.ldr
@@ -117,6 +119,7 @@
 0 // ~Minifig Leg Left (Obsolete) (white)
 1 15 0 -9 9 1 0 0 0 -0.052 0.999 0 -0.999 -0.052 3817b.dat
 
+0 STEP
 0 FILE 6844 - Seismologic Vehicle - Detector.ldr
 0 A small blue hand-held detector unit with clips and two metal detector pieces.
 0 Name: 6844 - Seismologic Vehicle - Detector.ldr

@@ -147,6 +147,7 @@
 1 0 0 -96 -48 1 0 0 0 1 0 0 0 1 4150.dat
 0 STEP
 
+0 STEP
 0 FILE 4918 - Mini Flyers - Tail.ldr
 0 An elongated red-and-white tail assembly built from long plates, wing slopes, and grille tiles, topped with a dark grey three-blade propeller.
 0 Name: 4918 - Mini Flyers - Tail.ldr
@@ -192,6 +193,7 @@
 1 8 38 -27 60 0 -1 0 0 0 1 -1 0 0 2421.dat
 0 STEP
 
+0 STEP
 0 FILE 4918 - Mini Flyers - Side.ldr
 0 A small white mounting bracket of plates and a clip light detail used as a side attachment.
 0 Name: 4918 - Mini Flyers - Side.ldr
@@ -214,6 +216,7 @@
 1 7 20 -6 -12 1 0 0 0 0 -1 0 1 0 6141.dat
 0 STEP
 
+0 STEP
 0 FILE 4918 - Mini Flyers - Nose.ldr
 0 A compact red front section formed by a downward bracket, a 2x2 plate, and a domed cylinder top.
 0 Name: 4918 - Mini Flyers - Nose.ldr

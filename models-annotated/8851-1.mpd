@@ -202,6 +202,7 @@
 1 7 140 -373.956 -10.456 0 0 1 0.051 0.999 0 -0.999 0.051 0 3894.dat
 0 // Plate  4 x  4 (light_grey)
 1 7 110 -381.946 -10.862 0 0 1 0.051 0.999 0 -0.999 0.051 0 3031.dat
+0 STEP
 0 FILE 8851 - pneumaticHoseLQ-1.ldr
 0 Short pneumatic tube (approx. 36 mm) with bulged ends forming a flexible air line connection.
 0 Name: 8851 - pneumaticHoseLQ-1.ldr
@@ -282,6 +283,7 @@
 1 16 -40.061743 -11.016979 19.909904 0.992802 0.477125 -0.00198 -0.00198 0.131209 0.999456 0.119754 -3.953352 0.032932 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 -40.00064 -11.000176 57.026081 1 0.012547 0 0 0.00345 1 0.000316 -39.747211 0.000087 166.dat
+0 STEP
 0 FILE 8851 - pneumaticHoseLQ-2.ldr
 0 Short pneumatic tube (approx. 35 mm) with bulged ends forming a flexible air line connection.
 0 Name: 8851 - pneumaticHoseLQ-2.ldr
@@ -366,6 +368,7 @@
 1 16 -40.046461 -9.010454 21.215917 0.998344 0.228703 -0.000373 -0.000373 0.051458 0.999916 0.057528 -3.968605 0.012944 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 -40.000009 -9.000002 56.006275 1 0.000336 0 0 0.000076 1 0.000009 -36.608366 0.000002 166.dat
+0 STEP
 0 FILE 8851 - pneumaticHoseLQ-3.ldr
 0 Long pneumatic tube (approx. 100 mm) with bulged ends routing air over an extended distance.
 0 Name: 8851 - pneumaticHoseLQ-3.ldr
@@ -541,6 +544,7 @@
 1 16 -26.083047 197.4485 60.00117 -0.948582 1.260263 0.02669 -0.316435 -3.767309 -0.104515 -0.0078 -0.429884 0.994165 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 -26.537273 199.621191 60.039413 -0.971744 0.942471 0.008822 -0.236033 -3.87927 -0.041486 -0.001221 -0.169403 0.9991 166.dat
+0 STEP
 0 FILE 8851 - chassisbeam1.ldr
 0 Red structural chassis beam built from technic bricks and plates with friction pins for mounting.
 0 Name: 8851 - chassisbeam1.ldr
@@ -569,6 +573,7 @@
 1 4 0 -8 -30 0 0 -1 0 1 0 1 0 0 3738.dat
 0 // Plate  1 x  2 (red)
 1 4 0 -16 -20 1 0 0 0 1 0 0 0 1 3023.dat
+0 STEP
 0 FILE 8851 - chassisbeam2.ldr
 0 Red structural chassis beam assembled from technic bricks with multiple friction pins for connection points.
 0 Name: 8851 - chassisbeam2.ldr
@@ -591,6 +596,7 @@
 1 0 180 10 -30 0 0 1 0 1 0 -1 0 0 4459.dat
 0 // Technic Brick  1 x  4 with Holes (red)
 1 4 -110 30 20 0 1 0 1 0 0 0 0 -1 3701.dat
+0 STEP
 0 FILE 8851 - pneumaticHoseLQ-5.ldr
 0 Medium pneumatic tube (approx. 46 mm) with bulged ends forming a flexible air line.
 0 Name: 8851 - pneumaticHoseLQ-5.ldr
@@ -692,6 +698,7 @@
 1 16 14.014652 -48.12705 108.051813 0.999591 -0.114314 0.000222 -0.028484 -3.97512 0.099371 -0.002621 -0.397002 -0.99505 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 14.008096 -46.088815 108.028115 0.999963 -0.034167 -0.000102 -0.008542 -3.994639 0.029553 -0.000355 -0.118104 -0.999563 166.dat
+0 STEP
 0 FILE 8851 - pneumaticHoseLQ-6.ldr
 0 Short pneumatic tube (approx. 25 mm) with bulged ends for a close air line connection.
 0 Name: 8851 - pneumaticHoseLQ-6.ldr
@@ -758,6 +765,7 @@
 1 16 -4.988929 4.988929 74.570461 0.999701 0.097293 0.000299 0.000299 -0.097293 0.999701 0.024465 -3.974403 -0.024465 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 -5.004243 5.004244 77.51783 0.999967 0.032244 0.000033 0.000033 -0.032245 0.999967 0.008108 -3.976522 -0.008108 166.dat
+0 STEP
 0 FILE 8851 - pneumaticHoseLQ-7.ldr
 0 Short pneumatic tube (approx. 15 mm) with bulged ends for a very close air line connection.
 0 Name: 8851 - pneumaticHoseLQ-7.ldr
@@ -832,6 +840,7 @@
 1 16 -22.467702 6.588759 -1.031242 0.649087 3.039282 -0.065738 -0.760229 2.604023 -0.020457 0.027182 0.25367 0.997627 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 -23.821137 5.217655 -1.0222 0.689834 2.902029 -0.021643 -0.723888 2.766679 -0.005825 0.010716 0.078943 0.999749 166.dat
+0 STEP
 0 FILE 8851 - pneumaticHoseLQ-8.ldr
 0 Short pneumatic tube (approx. 22 mm) with bulged ends forming a flexible air line.
 0 Name: 8851 - pneumaticHoseLQ-8.ldr
@@ -914,6 +923,7 @@
 1 16 -22.120554 -26.95521 -1.032981 0.122987 3.22606 -0.566686 -0.043229 -2.24157 -0.823215 -0.991466 0.497912 -0.034402 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 -23.78546 -25.305328 -1.044688 0.038101 2.936964 -0.669654 -0.011968 -2.652093 -0.742486 -0.999202 0.143759 -0.016642 166.dat
+0 STEP
 0 FILE 8851 - pneumaticHoseLQ-9.ldr
 0 Very long pneumatic tube (approx. 241 mm) with bulged ends routing air across the model.
 0 Name: 8851 - pneumaticHoseLQ-9.ldr
@@ -1314,6 +1324,7 @@
 1 16 -290.457253 -328.750077 -19.999355 -0.011171 -3.780549 0.326181 0.002409 1.304554 0.945307 -0.999935 0.045378 -0.001366 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 -288.145226 -329.396895 -20.003625 -0.003776 -3.837671 0.281603 0.000695 1.126287 0.959531 -0.999993 0.015276 -0.000396 166.dat
+0 STEP
 0 FILE 8851 - pneumaticHoseLQ-10.ldr
 0 Short pneumatic tube (approx. 26 mm) with bulged ends for a close air line connection.
 0 Name: 8851 - pneumaticHoseLQ-10.ldr
@@ -1392,6 +1403,7 @@
 1 16 13.911813 29.690225 44.952255 0.9886 -0.611934 -0.000338 -0.149228 -3.983545 0.130681 -0.020007 -0.524869 -0.991424 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 14.031197 32.642411 45.030179 0.998615 -0.213778 -0.001408 -0.052492 -4.055061 0.042291 -0.003629 -0.171344 -0.999104 166.dat
+0 STEP
 0 FILE 8851 - pneumaticHoseLQ-11.ldr
 0 Medium pneumatic tube (approx. 34 mm) with bulged ends forming a flexible air line.
 0 Name: 8851 - pneumaticHoseLQ-11.ldr
@@ -1495,6 +1507,7 @@
 1 16 40.008774 19.996762 5.585306 0.998432 -0.009881 -0.055931 -0.055676 0.24456 -0.99658 0.005874 3.997784 0.060826 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 39.998888 19.980404 3.11105 0.999796 0.00211 -0.02017 -0.020177 0.077005 -0.999612 -0.000139 4.004528 0.019233 166.dat
+0 STEP
 0 FILE 8851 - chassisbeam3.ldr
 0 Red chassis beam incorporating a pneumatic distribution block, technic bricks, and plates for structural support and air routing.
 0 Name: 8851 - chassisbeam3.ldr
@@ -1522,6 +1535,7 @@
 1 4 20 -8 -50 0 0 1 0 1 0 -1 0 0 3795.dat
 0 // ~_Technic Pneumatic Distribution Block  2 x  4 (Complete) Lt Grey (Obsolete) (red)
 1 4 20 0 -50 0 0 -1 0 1 0 1 0 0 73479.dat
+0 STEP
 0 FILE 8851 - pneumaticHoseLQ-12.ldr
 0 Short pneumatic tube (approx. 14 mm) with bulged ends for a very close air line connection.
 0 Name: 8851 - pneumaticHoseLQ-12.ldr
@@ -1588,6 +1602,7 @@
 1 16 -5.002557 9.004603 31.513593 0.999727 0.093469 0.000492 0.000492 -0.168244 0.999115 0.023367 -3.995367 -0.042061 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 -5.005644 9.01016 34.064107 0.999977 0.027002 0.000041 0.000041 -0.048603 0.999926 0.00675 -3.999614 -0.012151 166.dat
+0 STEP
 0 FILE 8851 - pneumaticHoseLQ-13.ldr
 0 Medium pneumatic tube (approx. 35 mm) with bulged ends forming a flexible air line.
 0 Name: 8851 - pneumaticHoseLQ-13.ldr
@@ -1693,6 +1708,7 @@
 1 16 -26.005589 11.360342 36.00245 0.999403 0.138635 -0.003108 -0.034411 4.025666 0.001939 0.003173 -0.007376 0.999993 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 -26.012656 8.959048 36.000576 0.999946 0.041842 -0.000689 -0.010387 4.027842 0.000241 0.000691 -0.00094 1 166.dat
+0 STEP
 0 FILE 8851 - pneumaticHoseLQ-14.ldr
 0 Medium pneumatic tube (approx. 38 mm) with bulged ends forming a flexible air line.
 0 Name: 8851 - pneumaticHoseLQ-14.ldr
@@ -1802,6 +1818,7 @@
 1 16 -29.651792 44.996944 28.999765 0.025692 -3.94124 -0.181354 0.031543 -0.723743 0.983064 -0.999172 -0.124191 0.026371 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 -27.142131 45.044934 29.007602 0.008138 -4.00342 -0.052421 0.013789 -0.209695 0.998536 -0.999872 -0.035477 0.013344 166.dat
+0 STEP
 0 FILE 8851 - pneumaticHoseLQ-15.ldr
 0 Very long pneumatic tube (approx. 359 mm) with bulged ends routing air across the entire model.
 0 Name: 8851 - pneumaticHoseLQ-15.ldr
@@ -2270,6 +2287,7 @@
 1 16 -251.517658 -612.097305 -100 -0.022677 -6.39555 0.005737 0.969194 -0.149643 -0.245186 0.245253 0 0.969459 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 -244.382142 -611.729365 -100 -0.047586 -8.78532 0.012299 0.967015 -0.432315 -0.249934 0.250236 0 0.968185 166.dat
+0 STEP
 0 FILE 8851 - chassisbeam4.ldr
 0 Red chassis beam built from a large technic brick, plates, and a 6x14 plate with friction pins for mounting.
 0 Name: 8851 - chassisbeam4.ldr
@@ -2294,6 +2312,7 @@
 1 0 -140 10 -10 0 0 1 0 1 0 -1 0 0 4459.dat
 0 // Technic Pin with Friction (black)
 1 0 -20 10 -10 0 0 1 0 1 0 -1 0 0 4459.dat
+0 STEP
 0 FILE 8851 - tracks.ldr
 0 Black tracked drive assembly composed of technic plates, bricks, axles, nuts, and pins forming the track undercarriage.
 0 Name: 8851 - tracks.ldr
@@ -2440,6 +2459,7 @@
 1 4 -30 -64 20 0 0 1 0 1 0 -1 0 0 3666.dat
 1 0 -140 26 -110 1 0 0 0 1 0 0 0 1 8851 - technicChainTread17Closed-1.ldr
 1 0 -140 26 110 1 0 0 0 1 0 0 0 1 8851 - technicChainTread17Closed-1.ldr
+0 STEP
 0 FILE 8851 - technicChainTread17Closed-1.ldr
 0 Closed loop of chain tread links forming one continuous track band for the crawler drive.
 0 Name: 8851 - technicChainTread17Closed-1.ldr
@@ -2578,6 +2598,7 @@
 1 16 -48.282963 16.906135 0 0 0.880552 0.47395 0 -0.47395 0.880552 1 0 0 3873.dat
 0 // Technic Chain Tread 2.5 Wide (main_colour)
 1 16 -51.143096 1.163847 0 0 0.983893 0.178758 0 -0.178758 0.983893 1 0 0 3873.dat
+0 STEP
 0 FILE 8851 - arm.ldr
 0 Grey excavator arm assembly featuring pneumatic cylinders, technic bricks, axles, and a yellow excavator bucket.
 0 Name: 8851 - arm.ldr
@@ -2695,6 +2716,7 @@
 1 7 -293.563 -91 -165.563 0.048 -0.999 0 0 0 1 -0.999 -0.048 0 4265a.dat
 0 // Technic Bush  1/2 Type 1 (light_grey)
 1 7 -293.563 16 -165.563 -0.999 0.048 0 0 0 -1 -0.048 -0.999 0 4265a.dat
+0 STEP
 0 FILE 8851 - rubberBandSquare-1.ldr
 0 Square rubber band formed from multiple generated segments providing tension or drive coupling.
 0 Name: 8851 - rubberBandSquare-1.ldr
@@ -3045,6 +3067,7 @@
 5 24 6.73383 1.911944 -2 6.73383 1.911944 2 6.907321 -1.103678 -2 6.67647 2.910297 -2
 5 24 6.73383 1.911944 2 10.581734 3.004483 2 6.907321 -1.103678 2 6.67647 2.910297 2
 5 24 10.581734 3.004483 2 10.581734 3.004483 -2 10.854696 -1.750389 2 10.524373 4.002837 2
+0 STEP
 0 FILE 8851 - back.ldr
 0 Red rear counterweight/body block built from bricks and plates to form the back structure of the excavator.
 0 Name: 8851 - back.ldr
@@ -3071,6 +3094,7 @@
 1 4 -20 4 -140 -1 0 0 0 1 0 0 0 -1 3710.dat
 0 // Plate  1 x  4 (red)
 1 4 -20 4 120 -1 0 0 0 1 0 0 0 -1 3710.dat
+0 STEP
 0 FILE 8851 - 4694c01-f1.dat
 0 Technic Pneumatic Valve (Complete - Neutral Position)
 0 Name: 4694c01-f1.dat
@@ -3091,6 +3115,7 @@
 0 // ~Technic Pneumatic Valve Lever (black)
 1 0 0 26 -9 1 0 0 0 1 0 0 0 1 4695.dat
 0 //
+0 STEP
 0 FILE 8851 - 4698.dat
 0 Technic Axle Nut
 0 Name: 4698.dat
@@ -3131,6 +3156,7 @@
 5 24 4.242 -4.242 -0.5 3.396 -3.396 0.1 4.434 -1.836 0.6 2.298 -5.544 -1
 5 24 3.396 -3.396 0.1 3.396 -3.396 0.9 4.434 -1.836 1.4 1.836 -4.434 -0.4
 5 24 3.396 -3.396 0.9 4.242 -4.242 1.5 5.544 -2.298 2 1.836 -4.434 0.4
+0 STEP
 0 FILE 8851 - 73485.dat
 0 _Technic Axle 10 Threaded Black
 0 Name: 73485.dat
@@ -3146,6 +3172,7 @@
 
 0 // Technic Axle 10 Threaded (black)
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 8851 - 3737c01.dat
+0 STEP
 0 FILE 8851 - ldcRubberBandSqSeg.dat
 0 Donor segment for square rubber band
 0 Name: ldcRubberBandSqSeg.dat
@@ -3166,6 +3193,7 @@
 0 //  It will also take care of segment overlapping control points
 1 16 0 0 0 2 0 0 0 1 0 0 0 2 8851 - ldcConRect-4-4.dat
 1 16 0 1 0 2 0 0 0 1 0 0 0 2 8851 - ldcConRect-4-4.dat
+0 STEP
 0 FILE 8851 - 3737c01.dat
 0 Technic Axle 10 Threaded
 0 Name: 3737c01.dat
@@ -3208,6 +3236,7 @@
 
 0 !LDCAD SNAP_CLEAR 
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=A 6 200] [center=true] [slide=true]
+0 STEP
 0 FILE s\8851 - 73839b.dat
 0 ~Technic Axle Threaded End
 0 Name: s\73839b.dat
@@ -3469,6 +3498,7 @@
 5 24 0 -3.398 2.95 0 -6 3.35 -2 -5.602 2.95 2 -3 3.35
 5 24 0 3.398 5.45 0 3.398 4.55 -2 3 4.95 2 3 5.05
 5 24 0 -3.398 5.45 0 -3.398 4.55 2 -3 4.95 -2 -3 5.05
+0 STEP
 0 FILE s\8851 - 73839a.dat
 0 ~Technic Axle Threaded Segment
 0 Name: s\73839a.dat
@@ -3905,6 +3935,7 @@
 5 24 0 -3.398 -2.05 0 -6 -1.65 -2 -5.602 -2.05 2 -3 -1.65
 5 24 0 3.398 5.45 0 3.398 4.55 -2 3 4.95 2 3 5.05
 5 24 0 -3.398 5.45 0 -3.398 4.55 2 -3 4.95 -2 -3 5.05
+0 STEP
 0 FILE s\8851 - 4698s01.dat
 0 ~Technic Axle Nut Quarter Perimeter
 0 Name: s\4698s01.dat
@@ -4041,6 +4072,7 @@
 5 24 5.76 6.8 0 6.24 6.44 5 6.24 6.44 -4.5 5.24 7.1 5
 5 24 0.2 8.98 5 0.72 8.86 0 0.72 8.86 -4.5 1.3 8.74 5
 5 24 -3.253 7.8532 -5 -3.24 7.88 5 -2.58 8 -5 -3.84 7.48 -5
+0 STEP
 0 FILE s\8851 - 4698s02.dat
 0 ~Technic Axle Nut Quarter Screw
 0 Name: s\4698s02.dat
@@ -4173,6 +4205,7 @@
 5 24 3.396 -3.396 4.1 2.298 -5.544 3 1.836 -4.434 3.6 4.242 -4.242 3.5
 5 24 2.298 -5.544 3 1.836 -4.434 3.6 3.396 -3.396 4.1 0 -6 2.5
 5 24 1.836 -4.434 3.6 0 -6 2.5 0 -4.8 3.1 2.298 -5.544 3
+0 STEP
 0 FILE 8851 - ldcConRect-4-4.dat
 0 Conditional line rectangle (4-4)
 0 Name: ldcConRect-4-4.dat

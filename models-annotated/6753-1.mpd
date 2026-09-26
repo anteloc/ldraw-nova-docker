@@ -10,6 +10,7 @@
 1 0 0 -240 705 1 0 0 0 1 0 0 0 1 6753 - Trailer.ldr
 
 
+0 STEP
 0 FILE 6753 - Red Car.ldr
 0 Red and grey brick-built sports car body with structural plates, pin connectors, and axle-mounting bricks.
 0 Name: 6753 - Red Car.ldr
@@ -242,6 +243,7 @@
 1 256 -60 -14 20 0 0 -1 0 1 0 1 0 0 58090.dat
 
 
+0 STEP
 0 FILE 6753 - Red Car S14.ldr
 0 Car interior detail with a steering wheel and small control plates.
 0 Name: 6753 - Red Car S14.ldr
@@ -265,6 +267,7 @@
 1 0 -10 10 -34 0 0 -1 -1 0 0 0 1 0 30663.dat
 
 
+0 STEP
 0 FILE 6753 - Red Car S17.ldr
 0 Rear bodywork with sloped bricks and translucent clear, orange, and brown window and light elements.
 0 Name: 6753 - Red Car S17.ldr
@@ -307,6 +310,7 @@
 1 40 50 -8 -20 0 0 -1 0 1 0 1 0 0 54200.dat
 
 
+0 STEP
 0 FILE 6753 - Red Car S18.ldr
 0 Small curved red body panel detail with a round mounting plate.
 0 Name: 6753 - Red Car S18.ldr
@@ -319,6 +323,7 @@
 1 4 0 -16 -20 1 0 0 0 1 0 0 0 1 50950.dat
 
 
+0 STEP
 0 FILE 6753 - Red Car S19.ldr
 0 Car front end with red sloped panels, translucent headlights, and a grille tile.
 0 Name: 6753 - Red Car S19.ldr
@@ -374,6 +379,7 @@
 1 71 -30 -16 -30 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 6753 - Truck.ldr
 0 Large transport truck chassis and body built from extensive plates, bricks, and Technic framing elements.
 0 Name: 6753 - Truck.ldr
@@ -1078,6 +1084,7 @@
 1 256 -90 10 -260 0 0 -1 0 1 0 1 0 0 44309.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S03.ldr
 0 Open-center Technic connector block joined by friction pins for structural linking.
 0 Name: 6753 - Truck S03.ldr
@@ -1100,6 +1107,7 @@
 1 0 20 0 60 0 0 -1 0 1 0 1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S04.ldr
 0 Pair of long Technic beams with holes pinned together to form longitudinal frame rails.
 0 Name: 6753 - Truck S04.ldr
@@ -1119,6 +1127,7 @@
 1 0 40 0 220 0 0 -1 0 1 0 1 0 0 32018.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S06.ldr
 0 Small black platform plate with light grey detail bricks.
 0 Name: 6753 - Truck S06.ldr
@@ -1134,6 +1143,7 @@
 1 71 50 -24 10 1 0 0 0 1 0 0 0 1 3005.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S08.ldr
 0 Detail panel with dark grey plates and translucent orange accent tiles.
 0 Name: 6753 - Truck S08.ldr
@@ -1160,6 +1170,7 @@
 1 57 -50 -16 0 1 0 0 0 1 0 0 0 1 3024.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S11.ldr
 0 Side-stud mounting brick paired with a reinforcing plate.
 0 Name: 6753 - Truck S11.ldr
@@ -1172,6 +1183,7 @@
 1 0 0 -8 0 1 0 0 0 1 0 0 0 1 3710.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S13.ldr
 0 Long Technic beam with axle holes, black slopes, and a white grooved tile for a structural frame section.
 0 Name: 6753 - Truck S13.ldr
@@ -1199,6 +1211,7 @@
 1 0 10 -8 0 1 0 0 0 1 0 0 0 1 54200.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S14.ldr
 0 Angled wing-back Technic brick with a dark grey grille tile forming a vented front detail.
 0 Name: 6753 - Truck S14.ldr
@@ -1214,6 +1227,7 @@
 1 72 0 -32 0 0 0 1 0 1 0 -1 0 0 2412b.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S15R.ldr
 0 Right-side tail light assembly with yellow bracket and translucent red and orange light elements.
 0 Name: 6753 - Truck S15R.ldr
@@ -1236,6 +1250,7 @@
 1 57 10 30 -14 0 0 -1 -1 0 0 0 1 0 54200.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S15L.ldr
 0 Left-side tail light assembly with yellow bracket and translucent red and orange light elements.
 0 Name: 6753 - Truck S15L.ldr
@@ -1258,6 +1273,7 @@
 1 57 -10 30 -14 0 0 1 1 0 0 0 1 0 54200.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S16.ldr
 0 Mechanical linkage of triangular liftarms, short beams, axles, and bushings.
 0 Name: 6753 - Truck S16.ldr
@@ -1285,6 +1301,7 @@
 1 72 15 0 40 0 -1 0 0 0 1 -1 0 0 2905.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S17.ldr
 0 Long Technic axle fitted with a smooth bushing.
 0 Name: 6753 - Truck S17.ldr
@@ -1297,6 +1314,7 @@
 1 14 65 0 0 0 0 1 0 1 0 -1 0 0 32123b.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S19.ldr
 0 Axle-and-pin cross block joint with a studded axle and round plate.
 0 Name: 6753 - Truck S19.ldr
@@ -1315,6 +1333,7 @@
 1 14 5 0 0 0 0 -1 -1 0 0 0 1 0 32123b.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S20.ldr
 0 Steering rack mechanism built from beams, a gear rack, studded axles, and bushings.
 0 Name: 6753 - Truck S20.ldr
@@ -1344,6 +1363,7 @@
 1 14 -50 10 0 1 0 0 0 0 -1 0 1 0 32123b.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S24.ldr
 0 Window section using a side-stud brick with a clear transparent plate panel.
 0 Name: 6753 - Truck S24.ldr
@@ -1359,6 +1379,7 @@
 1 47 0 10 -26 1 0 0 0 0 -1 0 1 0 3023.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S25.ldr
 0 Truck cab body of long black and grey plates with curved dark grey bricks and grooved tile details.
 0 Name: 6753 - Truck S25.ldr
@@ -1404,6 +1425,7 @@
 1 57 -110 24 -30 1 0 0 0 1 0 0 0 1 6753 - Truck S25 s6.ldr
 
 
+0 STEP
 0 FILE 6753 - Truck S25 s5.ldr
 0 Inverted slope bodywork detail with a translucent orange accent light.
 0 Name: 6753 - Truck S25 s5.ldr
@@ -1421,6 +1443,7 @@
 1 57 0 -16 0 0 0 -1 0 1 0 1 0 0 54200.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S25 s6.ldr
 0 Inverted slope bodywork detail with a translucent orange accent light.
 0 Name: 6753 - Truck S25 s6.ldr
@@ -1438,6 +1461,7 @@
 1 57 0 -16 0 0 0 1 0 1 0 -1 0 0 54200.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S29.ldr
 0 Gearbox assembly with bevel and spur gears on an axle for power transmission.
 0 Name: 6753 - Truck S29.ldr
@@ -1468,6 +1492,7 @@
 1 71 -10 8 -110 -1 0 0 0 1 0 0 0 -1 3700.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S29 s2.ldr
 0 Small Technic axle and bevel gear assembly for drivetrain linkage.
 0 Name: 6753 - Truck S29 s2.ldr
@@ -1480,6 +1505,7 @@
 1 19 0 0 -63 0 -1 0 -1 0 0 0 0 -1 6589.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S37.ldr
 0 Hinged plate section with red locking hinge and supporting plates for a movable connection.
 0 Name: 6753 - Truck S37.ldr
@@ -1500,6 +1526,7 @@
 1 19 0 -16 0 1 0 0 0 1 0 0 0 1 3021.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S38.ldr
 0 Small detail assembly with a red minifig cup, round hollow stud, and tiled plate for a compact feature.
 0 Name: 6753 - Truck S38.ldr
@@ -1520,6 +1547,7 @@
 1 71 0 -40 0 0 0 -1 0 1 0 1 0 0 3069b.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S39a.ldr
 0 Stack of three round hollow-stud bricks forming a small cylindrical column.
 0 Name: 6753 - Truck S39a.ldr
@@ -1534,6 +1562,7 @@
 1 71 0 -48 0 1 0 0 0 1 0 0 0 1 3062b.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S39b.ldr
 0 Locking hinge arm with towball axle for a flexible joint connection.
 0 Name: 6753 - Truck S39b.ldr
@@ -1546,6 +1575,7 @@
 1 71 0 -20 0 0 0 1 1 0 0 0 1 0 2736.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S40a.ldr
 0 Set of rounded corner bricks in yellow and black forming a curved corner detail.
 0 Name: 6753 - Truck S40a.ldr
@@ -1561,6 +1591,7 @@
 1 0 0 -48 0 1 0 0 0 1 0 0 0 1 3063b.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S40b.ldr
 0 Black brick with a grooved tile forming a simple panel or trim piece.
 0 Name: 6753 - Truck S40b.ldr
@@ -1573,6 +1604,7 @@
 1 71 0 -8 -20 0 0 -1 0 1 0 1 0 0 3069b.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S42.ldr
 0 Hinged plate assembly with grille brick and handle plates forming a louvered panel section.
 0 Name: 6753 - Truck S42.ldr
@@ -1603,6 +1635,7 @@
 1 14 10 -40 40 0 0 -1 0 1 0 1 0 0 2431.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S43.ldr
 0 Hinged plate assembly with grille brick and handle plates forming a louvered panel section.
 0 Name: 6753 - Truck S43.ldr
@@ -1633,6 +1666,7 @@
 1 14 -10 -40 40 0 0 -1 0 1 0 1 0 0 2431.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S46.ldr
 0 Pair of yellow 2x2 bricks forming a small structural block.
 0 Name: 6753 - Truck S46.ldr
@@ -1645,6 +1679,7 @@
 1 14 0 -24 0 1 0 0 0 1 0 0 0 1 3003.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S47a.ldr
 0 Plate assembly with locking hinge and clip plates forming a hinged mounting bracket.
 0 Name: 6753 - Truck S47a.ldr
@@ -1667,6 +1702,7 @@
 1 19 0 -15.501 57.712 1 0 0 0 0.924 -0.383 0 0.383 0.924 2540.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S47b.ldr
 0 Small plate filler assembly of dark and light bluish grey plates.
 0 Name: 6753 - Truck S47b.ldr
@@ -1681,6 +1717,7 @@
 1 72 0 -16 0 1 0 0 0 1 0 0 0 1 3024.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S48.ldr
 0 Grille panel assembly with eight silver grille tiles on a black base plate forming a detailed vent.
 0 Name: 6753 - Truck S48.ldr
@@ -1712,6 +1749,7 @@
 1 80 -10 -16 -10 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S49.ldr
 0 Control station with steering wheel, control stick, and mounting plate for the driver's area.
 0 Name: 6753 - Truck S49.ldr
@@ -1732,6 +1770,7 @@
 1 71 50 -24 0 -1 0 0 0 1 0 0 0 -1 2819.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S51.ldr
 0 Small yellow brick with a clip plate for a mounting attachment point.
 0 Name: 6753 - Truck S51.ldr
@@ -1744,6 +1783,7 @@
 1 0 0 -8 0 1 0 0 0 1 0 0 0 1 6019.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S52.ldr
 0 Yellow brick and plate combination forming a compact structural block.
 0 Name: 6753 - Truck S52.ldr
@@ -1756,6 +1796,7 @@
 1 14 0 -8 0 1 0 0 0 1 0 0 0 1 3021.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S54.ldr
 0 Yellow clip brick assembly with solid studs for attaching accessories or details.
 0 Name: 6753 - Truck S54.ldr
@@ -1776,6 +1817,7 @@
 1 14 0 -80 0 1 0 0 0 1 0 0 0 1 3024.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S55.ldr
 0 Yellow body panel assembly with curved top brick and tiled plate forming a smooth truck side section.
 0 Name: 6753 - Truck S55.ldr
@@ -1806,6 +1848,7 @@
 1 14 0 -32 -30 1 0 0 0 1 0 0 0 1 6091.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S56.ldr
 0 Yellow body panel assembly with curved top brick and tiled plate forming a smooth truck side section.
 0 Name: 6753 - Truck S56.ldr
@@ -1836,6 +1879,7 @@
 1 14 20 -32 -30 1 0 0 0 1 0 0 0 1 6091.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S59b.ldr
 0 Stack of three round hollow-stud bricks forming a small cylindrical column.
 0 Name: 6753 - Truck S59b.ldr
@@ -1850,6 +1894,7 @@
 1 71 0 -48 0 1 0 0 0 1 0 0 0 1 3062b.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S59a.ldr
 0 Large base plate with grille tiles, control sticks, and round studs forming a control deck surface.
 0 Name: 6753 - Truck S59a.ldr
@@ -1878,6 +1923,7 @@
 1 0 30 -16 -30 0 0 1 0 1 0 -1 0 0 4593.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S61.ldr
 0 Yellow plate with two black clip plates forming an attachment mounting strip.
 0 Name: 6753 - Truck S61.ldr
@@ -1892,6 +1938,7 @@
 1 0 20 8 0 1 0 0 0 1 0 0 0 1 6019.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S65.ldr
 0 Round hollow-stud brick topped with a dark grey cone forming a small exhaust or antenna detail.
 0 Name: 6753 - Truck S65.ldr
@@ -1904,6 +1951,7 @@
 1 72 0 -24 0 1 0 0 0 1 0 0 0 1 59900.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S66.ldr
 0 Technic axle with stop and double bevel gear forming a geared drivetrain component.
 0 Name: 6753 - Truck S66.ldr
@@ -1916,6 +1964,7 @@
 1 0 0 0 47 -1 0 0 0 1 0 0 0 -1 32270.dat
 
 
+0 STEP
 0 FILE 6753 - Truck S67.ldr
 0 Large angled body panel assembly with 45-degree and curved slopes, grille handles, and loudhailers forming a detailed truck rear section.
 0 Name: 6753 - Truck S67.ldr
@@ -1985,6 +2034,7 @@
 1 47 40 -4 -160 1 0 0 0 0 1 0 -1 0 6753 - Truck S67 s8.ldr
 
 
+0 STEP
 0 FILE 6753 - Truck S67 s8.ldr
 0 Small clear-domed cap assembly with a clip and dome-top cylinder.
 0 Name: 6753 - Truck S67 s8.ldr
@@ -2000,6 +2050,7 @@
 1 47 0 24 0 0 0 1 0 1 0 -1 0 0 2654a.dat
 
 
+0 STEP
 0 FILE 6753 - White Car.ldr
 0 Main body of a white car built from plates, bricks with side studs, and orange accent tiles.
 0 Name: 6753 - White Car.ldr
@@ -2271,6 +2322,7 @@
 1 256 -60 -14 -180 0 0 -1 0 1 0 1 0 0 58090.dat
 
 
+0 STEP
 0 FILE 6753 - White Car S11.ldr
 0 Small flat plate platform of white and blue plates for the car's midsection.
 0 Name: 6753 - White Car S11.ldr
@@ -2285,6 +2337,7 @@
 1 15 0 -16 0 0 0 -1 0 1 0 1 0 0 3666.dat
 
 
+0 STEP
 0 FILE 6753 - White Car S15.ldr
 0 Steering column subassembly with a black steering wheel and round plates.
 0 Name: 6753 - White Car S15.ldr
@@ -2308,6 +2361,7 @@
 1 0 -10 10 -34 0 0 1 1 0 0 0 1 0 30663.dat
 
 
+0 STEP
 0 FILE 6753 - White Car S16.ldr
 0 Dashboard detail with trans-orange windshield slopes and dark bluish-grey grille slopes.
 0 Name: 6753 - White Car S16.ldr
@@ -2339,6 +2393,7 @@
 1 72 -40 -24 0 0 0 1 0 1 0 -1 0 0 61409.dat
 
 
+0 STEP
 0 FILE 6753 - White Car S20R.ldr
 0 Right-side white wing panel with trans-brown slope accents.
 0 Name: 6753 - White Car S20R.ldr
@@ -2359,6 +2414,7 @@
 1 40 10 0 -20 1 0 0 0 1 0 0 0 1 54200.dat
 
 
+0 STEP
 0 FILE 6753 - White Car S20L.ldr
 0 Left-side white wing panel with trans-brown slope accents.
 0 Name: 6753 - White Car S20L.ldr
@@ -2379,6 +2435,7 @@
 1 40 -10 0 -20 1 0 0 0 1 0 0 0 1 54200.dat
 
 
+0 STEP
 0 FILE 6753 - White Car S22.ldr
 0 Axle-mounted trans-brown tooth detail piece pinned with friction.
 0 Name: 6753 - White Car S22.ldr
@@ -2391,6 +2448,7 @@
 1 40 0 0 0 1 0 0 0 1 0 0 0 1 41669.dat
 
 
+0 STEP
 0 FILE 6753 - White Car S23.ldr
 0 Car rear section with white plates, trans-orange and trans-red light slopes, and a grille tile.
 0 Name: 6753 - White Car S23.ldr
@@ -2439,6 +2497,7 @@
 1 15 -30 -24 -20 0 0 1 0 1 0 -1 0 0 3298.dat
 
 
+0 STEP
 0 FILE 6753 - Trailer Rear.ldr
 0 Large rear trailer frame of Technic bricks, pins, and locking hinge plates forming the load bed.
 0 Name: 6753 - Trailer Rear.ldr
@@ -2640,6 +2699,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 6753 - Trailer Rear S04.ldr
 0 Axle-and-bush assembly for the trailer's rear wheel.
 0 Name: 6753 - Trailer Rear S04.ldr
@@ -2652,6 +2712,7 @@
 1 14 -85 0 0 0 0 1 0 1 0 -1 0 0 32123b.dat
 
 
+0 STEP
 0 FILE 6753 - Trailer Rear S07.ldr
 0 Side linkage of Technic bricks and pins connecting the trailer rear.
 0 Name: 6753 - Trailer Rear S07.ldr
@@ -2677,6 +2738,7 @@
 1 1 30 10 -40 1 0 0 0 1 0 0 0 1 4274.dat
 
 
+0 STEP
 0 FILE 6753 - Trailer Rear S08.ldr
 0 Mirrored side linkage of Technic bricks and pins for the trailer rear.
 0 Name: 6753 - Trailer Rear S08.ldr
@@ -2702,6 +2764,7 @@
 1 1 -30 10 -40 -1 0 0 0 1 0 0 0 -1 4274.dat
 
 
+0 STEP
 0 FILE 6753 - Trailer Rear S11R.ldr
 0 Right yellow bracket detail with trans-red and trans-orange warning slopes.
 0 Name: 6753 - Trailer Rear S11R.ldr
@@ -2726,6 +2789,7 @@
 1 57 10 30 -14 0 0 -1 -1 0 0 0 1 0 54200.dat
 
 
+0 STEP
 0 FILE 6753 - Trailer Rear S11L.ldr
 0 Left yellow bracket detail with trans-red and trans-orange warning slopes.
 0 Name: 6753 - Trailer Rear S11L.ldr
@@ -2750,6 +2814,7 @@
 1 57 -10 30 -14 0 0 1 1 0 0 0 1 0 54200.dat
 
 
+0 STEP
 0 FILE 6753 - Trailer Rear S12.ldr
 0 Yellow windscreen panel assembly with inverted slopes for the trailer rear.
 0 Name: 6753 - Trailer Rear S12.ldr
@@ -2782,6 +2847,7 @@
 1 14 0 -40 60 -1 0 0 0 1 0 0 0 -1 6070.dat
 
 
+0 STEP
 0 FILE 6753 - Trailer Rear S13a.ldr
 0 Rear light strip of light bluish-grey tiles and trans-orange plate lights.
 0 Name: 6753 - Trailer Rear S13a.ldr
@@ -2803,6 +2869,7 @@
 1 57 50 -8 0 1 0 0 0 1 0 0 0 1 3024.dat
 
 
+0 STEP
 0 FILE 6753 - Trailer Rear S13b.ldr
 0 Technic angle connector and short axle linkage piece.
 0 Name: 6753 - Trailer Rear S13b.ldr
@@ -2815,6 +2882,7 @@
 1 0 0 0 60 -1 0 0 0 0 -1 0 -1 0 6553.dat
 
 
+0 STEP
 0 FILE 6753 - Trailer Rear S16.ldr
 0 Bent yellow liftarm with axle pin and long axle for a linkage mechanism.
 0 Name: 6753 - Trailer Rear S16.ldr
@@ -2830,6 +2898,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 3708.dat
 
 
+0 STEP
 0 FILE 6753 - Trailer Rear S17.ldr
 0 Bent yellow liftarm pinned with a friction axle pin.
 0 Name: 6753 - Trailer Rear S17.ldr
@@ -2842,6 +2911,7 @@
 1 1 10 -48 96 -1 0 0 0 0.6 0.8 0 0.8 -0.6 43093.dat
 
 
+0 STEP
 0 FILE 6753 - Trailer Front.ldr
 0 Front trailer section of yellow bricks, Technic beams, and plates forming the cab-fitted cargo body.
 0 Name: 6753 - Trailer Front.ldr
@@ -3022,6 +3092,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 6753 - Trailer Front S07.ldr
 0 Technic plate and brick frame with a round black brick for the trailer front.
 0 Name: 6753 - Trailer Front S07.ldr
@@ -3042,6 +3113,7 @@
 1 71 0 -32 0 1 0 0 0 1 0 0 0 1 3738.dat
 
 
+0 STEP
 0 FILE 6753 - Trailer Front S08.ldr
 0 Long plate floor assembly with pin-and-axlehole bricks for the trailer front chassis.
 0 Name: 6753 - Trailer Front S08.ldr
@@ -3077,6 +3149,7 @@
 1 72 0 -8 -50 1 0 0 0 1 0 0 0 1 4477.dat
 
 
+0 STEP
 0 FILE 6753 - Trailer Front S09.ldr
 0 Front hitch linkage of Technic bricks, pins, a bent liftarm, and yellow accent plates.
 0 Name: 6753 - Trailer Front S09.ldr
@@ -3125,6 +3198,7 @@
 1 72 0 -8 -80 0 0 1 0 1 0 -1 0 0 3666.dat
 
 
+0 STEP
 0 FILE 6753 - Trailer Front S14.ldr
 0 Technic axle housing of long bricks and pins connecting the trailer front frame.
 0 Name: 6753 - Trailer Front S14.ldr
@@ -3153,6 +3227,7 @@
 1 1 30 10 -180 1 0 0 0 1 0 0 0 1 4274.dat
 
 
+0 STEP
 0 FILE 6753 - Trailer Front S15.ldr
 0 Technic connector assembly using long bricks with holes and friction pins for structural linkage.
 0 Name: 6753 - Trailer Front S15.ldr
@@ -3181,6 +3256,7 @@
 1 1 30 10 180 1 0 0 0 1 0 0 0 1 4274.dat
 
 
+0 STEP
 0 FILE 6753 - Trailer Front S19.ldr
 0 Flat plate platform with a grooved tile surface forming a smooth trailer deck section.
 0 Name: 6753 - Trailer Front S19.ldr
@@ -3198,6 +3274,7 @@
 1 71 0 -8 -10 1 0 0 0 1 0 0 0 1 2431.dat
 
 
+0 STEP
 0 FILE 6753 - Trailer Front S20.ldr
 0 Clip and handle assembly built from a yellow plate with handle and a double-clipped bar.
 0 Name: 6753 - Trailer Front S20.ldr
@@ -3210,6 +3287,7 @@
 1 0 0 2 20 1 0 0 0 1 0 0 0 1 6020.dat
 
 
+0 STEP
 0 FILE 6753 - Trailer Front S23.ldr
 0 Small axle and bushing subassembly providing a pivoting mounting point.
 0 Name: 6753 - Trailer Front S23.ldr
@@ -3222,6 +3300,7 @@
 1 4 0 0 18 -1 0 0 0 1 0 0 0 -1 3713.dat
 
 
+0 STEP
 0 FILE 6753 - Trailer Front S24.ldr
 0 Yellow Technic beam and tile assembly forming a decorative structural panel.
 0 Name: 6753 - Trailer Front S24.ldr
@@ -3246,6 +3325,7 @@
 1 14 0 -18 60 0 0 1 0 1 0 -1 0 0 6636.dat
 
 
+0 STEP
 0 FILE 6753 - Trailer Front S25.ldr
 0 Large flat trailer floor section composed of multiple plates, grooved tiles, and locking hinge plates.
 0 Name: 6753 - Trailer Front S25.ldr
@@ -3282,6 +3362,7 @@
 1 72 0 16 0 -1 0 0 0 1 0 0 0 -1 3034.dat
 
 
+0 STEP
 0 FILE 6753 - Trailer.ldr
 0 Main trailer body assembled from Technic bricks, plates, slopes, tiles, and multiple submodel sections forming a complete cargo trailer.
 0 Name: 6753 - Trailer.ldr
@@ -3442,6 +3523,7 @@
 1 256 -110 250 -80 0 0 -1 0 1 0 1 0 0 44309.dat
 
 
+0 STEP
 0 FILE 6753 - Trailer S04.ldr
 0 Short Technic liftarm joined with friction pins serving as a connecting link.
 0 Name: 6753 - Trailer S04.ldr
@@ -3456,6 +3538,7 @@
 1 0 10 0 -40 -1 0 0 0 -1 0 0 0 1 2780.dat
 
 
+0 STEP
 0 FILE 6753 - Trailer S14.ldr
 0 Bent yellow liftarm with axle pin, notched axle, and bushing forming an angled mechanical joint.
 0 Name: 6753 - Trailer S14.ldr
@@ -3473,6 +3556,7 @@
 1 4 20 0 0 0 0 -1 0 1 0 1 0 0 3713.dat
 
 
+0 STEP
 0 FILE 6753 - Trailer S15.ldr
 0 Bent yellow liftarm with axle pin, notched axle, and bushing forming an angled mechanical joint.
 0 Name: 6753 - Trailer S15.ldr
@@ -3490,6 +3574,7 @@
 1 4 -20 0 0 0 0 1 0 1 0 -1 0 0 3713.dat
 
 
+0 STEP
 0 FILE 6753 - 44301a.dat
 0 Single hinge plate part represented by a simple box geometry shell.
 0 Name: 6753 - 44301a.dat
@@ -3526,6 +3611,7 @@
 4 16 20 0 10 -19 7 10 -20 7 10 -20 0 10
 
 
+0 STEP
 0 FILE s\6753 - 44301s01.dat
 0 Subpart defining the hinge plate body and click-lock finger mechanism geometry.
 0 Name: s\6753 - 44301s01.dat

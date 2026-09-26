@@ -724,6 +724,7 @@
 1 80 -220 -36 0 0 0 -1 0 1 0 1 0 0 10226 - step69.ldr
 
 
+0 STEP
 0 FILE 10226 - string1.ldr
 0 Biplane rigging cable: string with two black-capped end studs and a 12-segment cylinder body subpart
 0 Name: 10226 - string1.ldr
@@ -776,6 +777,7 @@
 
 
 
+0 STEP
 0 FILE 10226 - string1_subPart1.ldr
 0 Flexible rigging-cable body of 12 cylinder segments
 0 Name: 10226 - string1_subPart1.ldr
@@ -823,6 +825,7 @@
 1 16 -4.799673 -79.023396 -162.858455 -1.498316 0.184506 -0.016165 0.016774 1.802834 1.338902 0.069045 3.565915 -0.676078 4-4cyli.dat
 
 
+0 STEP
 0 FILE 10226 - step12.ldr
 0 Fuselage detail: dark-tan and reddish-brown corner plates with light-bluish-grey slopes and a dark-green tile
 0 Name: 10226 - step12.ldr
@@ -853,6 +856,7 @@
 1 71 10 -16 20 1 0 0 0 1 0 0 0 1 54200.dat
 
 
+0 STEP
 0 FILE 10226 - string4.ldr
 0 Biplane rigging cable: string with two black-capped end studs and a 54-segment cylinder body subpart
 0 Name: 10226 - string4.ldr
@@ -909,6 +913,7 @@
 
 
 
+0 STEP
 0 FILE 10226 - string4_subPart1.ldr
 0 Flexible rigging-cable body of 54 cylinder segments
 0 Name: 10226 - string4_subPart1.ldr
@@ -1040,6 +1045,7 @@
 1 16 470.001562 -171.406201 165.145074 1.49985 -0.010206 0.020855 -0.008672 -3.880762 0.355916 0.01935 -0.94813 -1.457014 4-4cyli.dat
 
 
+0 STEP
 0 FILE 10226 - step19.ldr
 0 Technic control linkage of holed beams, frictionless long pins, a stopped axle and an orange toothed lever
 0 Name: 10226 - step19.ldr
@@ -1061,6 +1067,7 @@
 1 25 0 10 0 1 0 0 0 0 -1 0 1 0 41669.dat
 
 
+0 STEP
 0 FILE 10226 - step21.ldr
 0 Articulated Technic linkage of towball axles, an angle connector, a bent cross block and a 9L steering link
 0 Name: 10226 - step21.ldr
@@ -1087,6 +1094,7 @@
 1 0 20 40 0 0 -0.094 0.996 0 -0.996 -0.094 1 0 0 32293.dat
 
 
+0 STEP
 0 FILE 10226 - step32.ldr
 0 Structural assembly: dark-bluish-grey plates, tan arched-window panels and round bricks, technic plates and a white beam joined by towball pins
 0 Name: 10226 - step32.ldr
@@ -1169,6 +1177,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10226 - band1.ldr
 0 Rubber band (LDCad flexible path, no rigid parts)
 0 Name: 10226 - band1.ldr
@@ -1655,6 +1664,7 @@
 5 24 3.555832 6.505892 1.414214 2.877579 5.264935 2 2.866309 7.230156 1.414214 6.680014 3.217232 1.414214
 
 
+0 STEP
 0 FILE 10226 - step32-11.ldr
 0 Sub-assembly of light-bluish-grey technic holed plates, dark-tan corner plates and a C-clip brick
 0 Name: 10226 - step32-11.ldr
@@ -1698,6 +1708,7 @@
 1 0 10 -24 70 0 0 1 0 1 0 -1 0 0 32124.dat
 
 
+0 STEP
 0 FILE 10226 - step34.ldr
 0 Dark-tan brick-and-plate fuselage/cowling panel with hinge plates, a reinforced side panel and white clip bricks
 0 Name: 10226 - step34.ldr
@@ -1798,6 +1809,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10226 - step35.ldr
 0 Dark-tan brick-and-plate fuselage/cowling panel (counterpart) with hinge plates, a reinforced side panel and white clip bricks
 0 Name: 10226 - step35.ldr
@@ -1906,6 +1918,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10226 - string6.ldr
 0 Biplane rigging cable: string with two black-capped end studs and a 24-segment cylinder body subpart
 0 Name: 10226 - string6.ldr
@@ -1958,6 +1971,7 @@
 
 
 
+0 STEP
 0 FILE 10226 - string6_subPart1.ldr
 0 Flexible rigging-cable body of 24 cylinder segments
 0 Name: 10226 - string6_subPart1.ldr
@@ -2029,6 +2043,7 @@
 1 16 153.068472 -5.00608 102.018494 1.191882 -2.416891 0.007807 0.000197 0.034807 1.499943 -0.910724 -3.163024 0.010541 4-4cyli.dat
 
 
+0 STEP
 0 FILE 10226 - step40.ldr
 0 Wing-panel assembly of dark-green tiles, socket-joint plates, towball sockets and left/right wedge wings
 0 Name: 10226 - step40.ldr
@@ -2088,6 +2103,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10226 - string5.ldr
 0 Biplane rigging cable: string with two black-capped end studs and a 24-segment cylinder body subpart
 0 Name: 10226 - string5.ldr
@@ -2140,6 +2156,7 @@
 
 
 
+0 STEP
 0 FILE 10226 - string5_subPart1.ldr
 0 Flexible rigging-cable body of 24 cylinder segments
 0 Name: 10226 - string5_subPart1.ldr
@@ -2211,6 +2228,7 @@
 1 16 -152.960159 -5.005033 101.87246 1.187255 2.434288 -0.008786 -0.000252 0.039039 1.499928 0.916747 -3.152572 0.01179 4-4cyli.dat
 
 
+0 STEP
 0 FILE 10226 - step41.ldr
 0 Right-side wing/aileron tip: towball plates, a dark-green corner-round plate and a right wedge wing
 0 Name: 10226 - step41.ldr
@@ -2242,6 +2260,7 @@
 1 288 -20 -32 0 1 0 0 0 1 0 0 0 1 3666.dat
 
 
+0 STEP
 0 FILE 10226 - step42.ldr
 0 Left-side wing/aileron tip: towball plates, a dark-green corner-round plate and a left wedge wing
 0 Name: 10226 - step42.ldr
@@ -2273,6 +2292,7 @@
 1 288 20 -32 0 1 0 0 0 1 0 0 0 1 3666.dat
 
 
+0 STEP
 0 FILE 10226 - string7.ldr
 0 Biplane rigging cable: string with two black-capped end studs and a 97-segment cylinder body subpart
 0 Name: 10226 - string7.ldr
@@ -2330,6 +2350,7 @@
 
 
 
+0 STEP
 0 FILE 10226 - string7_subPart1.ldr
 0 Flexible rigging-cable body of 97 cylinder segments
 0 Name: 10226 - string7_subPart1.ldr
@@ -2547,6 +2568,7 @@
 1 16 70.024274 -20.038221 -387.281582 -1.49862 -0.16783 0.013162 0.008981 0.26426 1.496694 -0.063688 3.986445 -0.098661 4-4cyli.dat
 
 
+0 STEP
 0 FILE 10226 - step47.ldr
 0 Tailplane/horizontal stabilizer: large 3x12 left and right wings over slopes on a dark-bluish-grey plate base
 0 Name: 10226 - step47.ldr
@@ -2612,6 +2634,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10226 - step48.ldr
 0 Cockpit detail: pearl-gold latticed window pane set in a black bracket and dark-tan grooved plates
 0 Name: 10226 - step48.ldr
@@ -2633,6 +2656,7 @@
 1 0 0 -16 0 0 0 1 0 1 0 -1 0 0 3021.dat
 
 
+0 STEP
 0 FILE 10226 - step51.ldr
 0 Small mounting bracket: two C-clip plates and a grooved reddish-brown tile
 0 Name: 10226 - step51.ldr
@@ -2648,6 +2672,7 @@
 1 70 -50 -10 0 -1 0 0 0 1 0 0 0 -1 2431.dat
 
 
+0 STEP
 0 FILE 10226 - step52.ldr
 0 Detail fitting: two black rim dishes on U-clip plates with a stopped bar and reddish-brown plates
 0 Name: 10226 - step52.ldr
@@ -2677,6 +2702,7 @@
 1 71 0 0 -42 0 0 -1 1 0 0 0 -1 0 63965.dat
 
 
+0 STEP
 0 FILE 10226 - step53.ldr
 0 Large dark-green plank-and-tile main wing on a tan plate base with socket joints, towball pins and wedge wings
 0 Name: 10226 - step53.ldr
@@ -2885,6 +2911,7 @@
 1 0 20 26 -420 0 -1 0 0 0 -1 1 0 0 10226 - step53-13.ldr
 
 
+0 STEP
 0 FILE 10226 - string8.ldr
 0 Biplane rigging cable: string with two black-capped end studs and a 6-segment cylinder body subpart
 0 Name: 10226 - string8.ldr
@@ -2937,6 +2964,7 @@
 
 
 
+0 STEP
 0 FILE 10226 - string8_subPart1.ldr
 0 Flexible rigging-cable body of 6 cylinder segments
 0 Name: 10226 - string8_subPart1.ldr
@@ -2972,6 +3000,7 @@
 1 16 163.894295 77.303241 -4.82194 -0.044986 -86.425832 -0.670672 -0.006393 -43.233241 1.341638 -1.499312 2.777499 0.014402 4-4cyli.dat
 
 
+0 STEP
 0 FILE 10226 - step53-11.ldr
 0 Pin mount: holed plates joined by friction pins and a long frictionless pin
 0 Name: 10226 - step53-11.ldr
@@ -2991,6 +3020,7 @@
 1 19 0 10 0 1 0 0 0 1 0 0 0 1 32556.dat
 
 
+0 STEP
 0 FILE 10226 - step53-13.ldr
 0 Landing-gear suspension: a reddish-brown 9L suspension arm on 3/4 pins with a two-hole technic tile
 0 Name: 10226 - step53-13.ldr
@@ -3008,6 +3038,7 @@
 1 0 0 60 -162 -1 0 0 0 0 -1 0 -1 0 32530.dat
 
 
+0 STEP
 0 FILE 10226 - string9.ldr
 0 Biplane rigging cable: string with two black-capped end studs and a 6-segment cylinder body subpart
 0 Name: 10226 - string9.ldr
@@ -3060,6 +3091,7 @@
 
 
 
+0 STEP
 0 FILE 10226 - string9_subPart1.ldr
 0 Flexible rigging-cable body of 6 cylinder segments
 0 Name: 10226 - string9_subPart1.ldr
@@ -3095,6 +3127,7 @@
 1 16 -163.894295 77.303241 -4.82194 -0.044986 86.425832 0.670672 0.006393 -43.233241 1.341638 1.499312 2.777499 0.014402 4-4cyli.dat
 
 
+0 STEP
 0 FILE 10226 - string2.ldr
 0 Biplane rigging cable: string with two black-capped end studs and a 12-segment cylinder body subpart
 0 Name: 10226 - string2.ldr
@@ -3147,6 +3180,7 @@
 
 
 
+0 STEP
 0 FILE 10226 - string2_subPart1.ldr
 0 Flexible rigging-cable body of 12 cylinder segments
 0 Name: 10226 - string2_subPart1.ldr
@@ -3194,6 +3228,7 @@
 1 16 -4.799673 -79.023396 162.858455 1.498316 0.184506 -0.016165 -0.016774 1.802834 1.338902 0.069045 -3.565915 0.676078 4-4cyli.dat
 
 
+0 STEP
 0 FILE 10226 - step55.ldr
 0 Light-bluish-grey engine/cockpit fairing of plates, bricks, slopes and a curved-top brick with a clip
 0 Name: 10226 - step55.ldr
@@ -3233,6 +3268,7 @@
 1 71 30 -80 0 0 0 1 0 1 0 -1 0 0 54200.dat
 
 
+0 STEP
 0 FILE 10226 - step58.ldr
 0 Technic beam framework: a 7x5 open-center beam joined by pins with two light-bluish-grey 1x6 tiles
 0 Name: 10226 - step58.ldr
@@ -3285,6 +3321,7 @@
 1 71 0 0 78 1 0 0 0 0 1 0 -1 0 6636.dat
 
 
+0 STEP
 0 FILE 10226 - step58-3.ldr
 0 Black landing-gear suspension arm mounted on 3/4 pins
 0 Name: 10226 - step58-3.ldr
@@ -3300,6 +3337,7 @@
 1 72 0 -20 0 -1 0 0 0 0 -1 0 -1 0 32002.dat
 
 
+0 STEP
 0 FILE 10226 - shock.ldr
 0 Technic shock absorber: 6.5L cylinder and black piston rod with a coiled spring mesh
 0 Name: 10226 - shock.ldr
@@ -3346,6 +3384,7 @@
 
 
 
+0 STEP
 0 FILE 10226 - shock_springMesh.ldr
 0 Coiled spring mesh for the shock absorber (flexible/LDCad reference)
 0 Name: 10226 - shock_springMesh.ldr
@@ -7638,6 +7677,7 @@
 5 24 -7.625 22.879101 0.156196 -7.183058 22.43321 0.011601 -7.625 22.250216 0.016406 -7 22.875 0
 
 
+0 STEP
 0 FILE 10226 - step58-5.ldr
 0 Landing-gear wheel pair: two white inverted-dish hubs on black 5D pulley wheels, an axle 12 and long pin-hole pins
 0 Name: 10226 - step58-5.ldr
@@ -7663,6 +7703,7 @@
 1 0 0 0 -78 1 0 0 0 0 1 0 -1 0 87082.dat
 
 
+0 STEP
 0 FILE 10226 - band2.ldr
 0 Rubber band (LDCad flexible path, no rigid parts)
 0 Name: 10226 - band2.ldr
@@ -9551,6 +9592,7 @@
 5 24 -46.414215 0 1.414214 -45 0 2 -46.456085 -0.999123 1.414214 -46.252991 3.846012 1.414214
 
 
+0 STEP
 0 FILE 10226 - step59.ldr
 0 Articulated dark-green wing/flap panel on towball plates with a corner-round plate, a down-bracket and grooved tiles
 0 Name: 10226 - step59.ldr
@@ -9588,6 +9630,7 @@
 1 288 -20 -32 10 0 0 1 0 1 0 -1 0 0 3068b.dat
 
 
+0 STEP
 0 FILE 10226 - step60.ldr
 0 Articulated dark-green wing/flap panel on towball plates with a corner-round plate, a down-bracket and grooved tiles
 0 Name: 10226 - step60.ldr
@@ -9625,6 +9668,7 @@
 1 288 20 -32 10 0 0 -1 0 1 0 1 0 0 3068b.dat
 
 
+0 STEP
 0 FILE 10226 - step61.ldr
 0 Articulated dark-green wing/flap panel on towball plates with a corner-round plate, an up-bracket and grooved tiles
 0 Name: 10226 - step61.ldr
@@ -9663,6 +9707,7 @@
 1 0 0 8 0 -1 0 0 0 1 0 0 0 -1 3184.dat
 
 
+0 STEP
 0 FILE 10226 - step62.ldr
 0 Articulated dark-green wing/flap panel on towball plates with a corner-round plate, an up-bracket and grooved tiles
 0 Name: 10226 - step62.ldr
@@ -9701,6 +9746,7 @@
 1 0 0 8 0 -1 0 0 0 1 0 0 0 -1 3184.dat
 
 
+0 STEP
 0 FILE 10226 - band3.ldr
 0 Rubber band (LDCad flexible path, no rigid parts)
 0 Name: 10226 - band3.ldr
@@ -10530,6 +10576,7 @@
 5 24 -6.541954 3.489042 1.414214 -5.294117 2.823529 2 -7.25233 2.785219 1.414214 -3.387476 6.604843 1.414214
 
 
+0 STEP
 0 FILE 10226 - band4.ldr
 0 Rubber band (LDCad flexible path, no rigid parts)
 0 Name: 10226 - band4.ldr
@@ -12108,6 +12155,7 @@
 5 24 -6.511666 3.545247 1.414214 -5.269607 2.869014 2 -7.214463 2.833857 1.414214 -3.457899 6.599413 1.414214
 
 
+0 STEP
 0 FILE 10226 - string3.ldr
 0 Biplane rigging cable: string with two black-capped end studs and a 54-segment cylinder body subpart
 0 Name: 10226 - string3.ldr
@@ -12164,6 +12212,7 @@
 
 
 
+0 STEP
 0 FILE 10226 - string3_subPart1.ldr
 0 Flexible rigging-cable body of 54 cylinder segments
 0 Name: 10226 - string3_subPart1.ldr
@@ -12295,6 +12344,7 @@
 1 16 470.001562 -171.406201 -165.145074 -1.49985 -0.010206 0.020855 0.008672 -3.880762 0.355916 0.01935 0.94813 1.457014 4-4cyli.dat
 
 
+0 STEP
 0 FILE 10226 - string10.ldr
 0 Biplane rigging cable: string with two black-capped end studs and a 5-segment cylinder body subpart
 0 Name: 10226 - string10.ldr
@@ -12347,6 +12397,7 @@
 
 
 
+0 STEP
 0 FILE 10226 - string10_subPart1.ldr
 0 Flexible rigging-cable body of 5 cylinder segments
 0 Name: 10226 - string10_subPart1.ldr
@@ -12380,6 +12431,7 @@
 1 16 182.568842 -47.11908 0 0 -3.901205 0.307344 0 0.816668 1.468176 -1.5 0 0 4-4cyli.dat
 
 
+0 STEP
 0 FILE 10226 - step66.ldr
 0 Radial-engine cylinder bank: blue handle and stud-on-side bricks around white and red plates and slopes
 0 Name: 10226 - step66.ldr
@@ -12469,6 +12521,7 @@
 1 4 130 54 0 0 -1 0 0 0 -1 1 0 0 50950.dat
 
 
+0 STEP
 0 FILE 10226 - step69.ldr
 0 Propeller and drive: a two-blade technic rotor on a geared axle with belt wheel, bush, bevel gears and four reddish-brown wedge wings
 0 Name: 10226 - step69.ldr
@@ -12537,6 +12590,7 @@
 1 70 90 0 66 1 0 0 0 0 1 0 -1 0 3069b.dat
 
 
+0 STEP
 0 FILE 10226 - step69-4.ldr
 0 Small metallic detail: silver round plates and a grooved pearl-silver tile on a U-clip
 0 Name: 10226 - step69-4.ldr
@@ -12554,6 +12608,7 @@
 1 179 0 -24 0 1 0 0 0 1 0 0 0 1 98138.dat
 
 
+0 STEP
 0 FILE 10226 - 60607.dat
 0 Primitive-mesh subpart built from spheres, open cylinders, circles and chords
 0 Name: 10226 - 60607.dat
@@ -12917,6 +12972,7 @@
 2 24 2.5 55 -8.5 3.75 55 -8.5
 2 24 2.5 55 1 2.5 55 -8.5
 
+0 STEP
 0 FILE 10226 - ldcLQRopeSeg.dat
 0 LDCad rope/string segment (single cylinder primitive)
 0 Name: 10226 - ldcLQRopeSeg.dat
@@ -12933,6 +12989,7 @@
 
 
 
+0 STEP
 0 FILE 10226 - ldcRopeEnd.dat
 0 LDCad rope-end cap (single cylinder primitive)
 0 Name: 10226 - ldcRopeEnd.dat
@@ -12948,6 +13005,7 @@
 1 16 0 0 0 1.5 0 0 0 4 0 0 0 1.5 4-4cyli.dat
 
 
+0 STEP
 0 FILE 10226 - ldcRubberBandRndSeg.dat
 0 LDCad rubber-band round segment: main 3D tube segment with overlap control
 0 Name: 10226 - ldcRubberBandRndSeg.dat
@@ -12970,6 +13028,7 @@
 
 
 
+0 STEP
 0 FILE 10226 - ldcCyli8.dat
 0 LDCad 8-segment cylinder primitive subpart
 0 Name: 10226 - ldcCyli8.dat
@@ -13000,6 +13059,7 @@
 5 24 -0.707107 0 0.707107 -0.707107 1 0.707107 -1 0 0 0 0 1
 
 
+0 STEP
 0 FILE 10226 - ldcConRing8.dat
 0 LDCad 8-segment cone-ring primitive subpart
 0 Name: 10226 - ldcConRing8.dat

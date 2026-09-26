@@ -8,6 +8,7 @@
 1 1 0 0 0 1 0 0 0 1 0 0 0 1 4953 - Plane.ldr
 
 
+0 STEP
 0 FILE 4953 - Plane.ldr
 0 Main fuselage assembly of blue and white plates, inverted slopes, and tiles forming the body of the airplane.
 0 Name: 4953 - Plane.ldr
@@ -343,6 +344,7 @@
 1 71 50 -14 -30 -1 0 0 0 -1 0 0 0 1 4953 - Plane S42.ldr
 
 
+0 STEP
 0 FILE 4953 - Plane S02.ldr
 0 A small blue plate assembly made of 1x6 and 1x4 plates.
 0 Name: 4953 - Plane S02.ldr
@@ -362,6 +364,7 @@
 1 1 0 -16 0 1 0 0 0 1 0 0 0 1 3710.dat
 
 
+0 STEP
 0 FILE 4953 - Plane S10.ldr
 0 A landing gear wheel unit with Technic connectors, axle pins, a wheel rim, and a rubber tyre.
 0 Name: 4953 - Plane S10.ldr
@@ -385,6 +388,7 @@
 1 256 20 0 0 0 0 -1 -1 0 0 0 1 0 50951.dat
 
 
+0 STEP
 0 FILE 4953 - Plane S11.ldr
 0 A small curved blue detail piece using inverted curved slopes and a corner plate.
 0 Name: 4953 - Plane S11.ldr
@@ -401,6 +405,7 @@
 1 1 20 0 20 1 0 0 0 1 0 0 0 1 42023.dat
 
 
+0 STEP
 0 FILE 4953 - Plane S12.ldr
 0 A mirrored curved blue detail piece using inverted curved slopes and a corner plate.
 0 Name: 4953 - Plane S12.ldr
@@ -417,6 +422,7 @@
 1 1 -20 0 20 1 0 0 0 1 0 0 0 1 42023.dat
 
 
+0 STEP
 0 FILE 4953 - Plane S13.ldr
 0 A small blue curved accent piece with an inverted curved slope and a grooved tile.
 0 Name: 4953 - Plane S13.ldr
@@ -430,6 +436,7 @@
 1 1 0 -8 -90 1 0 0 0 1 0 0 0 1 3070b.dat
 
 
+0 STEP
 0 FILE 4953 - Plane S17.ldr
 0 A Technic landing gear mechanism with liftarms, axles, pins, towball joints, and steering links in red and grey.
 0 Name: 4953 - Plane S17.ldr
@@ -499,6 +506,7 @@
 1 72 -10 20 -40 1 0 0 0 -1 0 0 0 -1 2739a.dat
 
 
+0 STEP
 0 FILE 4953 - Plane S17 s11.ldr
 0 A small Technic axle assembly with a connector, axle, and bushes.
 0 Name: 4953 - Plane S17 s11.ldr
@@ -517,6 +525,7 @@
 1 71 -15 0 20 0 0 -1 0 1 0 1 0 0 32123b.dat
 
 
+0 STEP
 0 FILE 4953 - Plane S21.ldr
 0 The left wing assembly built from white wing plates, pentagonal wing elements, and connecting plates.
 0 Name: 4953 - Plane S21.ldr
@@ -602,6 +611,7 @@
 1 0 230 4 -20 0 1 0 -1 0 0 0 0 1 6628.dat
 
 
+0 STEP
 0 FILE 4953 - Plane S21 s11.ldr
 0 A red decorative stripe detail with a red tile and white clip plates.
 0 Name: 4953 - Plane S21 s11.ldr
@@ -617,6 +627,7 @@
 1 15 -70 8 0 1 0 0 0 1 0 0 0 1 6019.dat
 
 
+0 STEP
 0 FILE 4953 - Plane S22 s11.ldr
 0 A red decorative stripe detail with a red tile and white clip plates.
 0 Name: 4953 - Plane S22 s11.ldr
@@ -632,6 +643,7 @@
 1 15 -70 8 0 1 0 0 0 1 0 0 0 1 6019.dat
 
 
+0 STEP
 0 FILE 4953 - Plane S22.ldr
 0 The right wing assembly built from white wing plates, pentagonal wing elements, and connecting plates.
 0 Name: 4953 - Plane S22.ldr
@@ -717,6 +729,7 @@
 1 0 -230 4 -20 0 1 0 -1 0 0 0 0 1 6628.dat
 
 
+0 STEP
 0 FILE 4953 - Plane S26.ldr
 0 A small blue angled detail piece with an inverted 45-degree slope and a plate.
 0 Name: 4953 - Plane S26.ldr
@@ -730,6 +743,7 @@
 1 1 0 -8 -10 0 0 1 0 1 0 -1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 4953 - Plane S27.ldr
 0 A cockpit window assembly with two rounded white windows mounted on a white bracket.
 0 Name: 4953 - Plane S27.ldr
@@ -746,6 +760,7 @@
 1 15 10 20 -78 0 0 1 1 0 0 0 1 0 30044.dat
 
 
+0 STEP
 0 FILE 4953 - Plane S31.ldr
 0 A jet engine pod with a grey engine part, trans-red dish, axle, and bushes on a round white brick.
 0 Name: 4953 - Plane S31.ldr
@@ -771,6 +786,7 @@
 1 4 0 0 -52 0 -1 0 1 0 0 0 0 1 3713.dat
 
 
+0 STEP
 0 FILE 4953 - Plane S33.ldr
 0 A red and white corner plate assembly connected by a Technic pin.
 0 Name: 4953 - Plane S33.ldr
@@ -793,6 +809,7 @@
 1 0 -40 26 0 -1 0 0 0 1 0 0 0 -1 2780.dat
 
 
+0 STEP
 0 FILE 4953 - Plane S34.ldr
 0 A mirrored red and white corner plate assembly connected by a Technic pin.
 0 Name: 4953 - Plane S34.ldr
@@ -815,6 +832,7 @@
 1 0 40 26 0 1 0 0 0 1 0 0 0 1 2780.dat
 
 
+0 STEP
 0 FILE 4953 - Plane S39.ldr
 0 A small red indicator light detail with a trans-dark-blue round plate and grooved tile.
 0 Name: 4953 - Plane S39.ldr
@@ -830,6 +848,7 @@
 1 4 0 -16 0 1 0 0 0 1 0 0 0 1 3070b.dat
 
 
+0 STEP
 0 FILE 4953 - Plane S40.ldr
 0 A small blue plate with a light bluish grey handle, likely a control surface or mount.
 0 Name: 4953 - Plane S40.ldr
@@ -843,6 +862,7 @@
 1 71 0 -8 -20 1 0 0 0 1 0 0 0 1 48336.dat
 
 
+0 STEP
 0 FILE 4953 - Plane S41.ldr
 0 A landing gear wheel unit with Technic angle connectors, axle pins, a wheel rim, and a rubber tyre.
 0 Name: 4953 - Plane S41.ldr
@@ -864,6 +884,7 @@
 1 256 20 0 -60 0 0 1 -1 0 0 0 -1 0 50951.dat
 
 
+0 STEP
 0 FILE 4953 - Plane S42.ldr
 0 A mirrored landing gear wheel unit with Technic angle connectors, axle pins, a wheel rim, and a rubber tyre.
 0 Name: 4953 - Plane S42.ldr

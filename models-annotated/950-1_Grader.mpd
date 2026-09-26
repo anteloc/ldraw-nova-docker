@@ -260,6 +260,7 @@
 0 // Tyre 10/130 x 17 Offset Tread (black)
 1 0 -70 72 -360 0 0 1 0 -1 0 1 0 0 3634.dat
 
+0 STEP
 0 FILE 950 - Steering.ldr
 0 A steering assembly using turntables, a gear rack, axles, and wheel rims mounted on yellow plates and Technic bricks.
 0 Name: 950 - Steering.ldr

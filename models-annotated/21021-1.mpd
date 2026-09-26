@@ -138,6 +138,7 @@
 1 0 -120 -16 10 0 0 1 0 1 0 -1 0 0 21021 - 3.ldr
 
 
+0 STEP
 0 FILE 21021 - 1.ldr
 0 One of three main hotel towers, built from white technic bricks and plates with grille tiles and transparent light blue window elements.
 0 Name: 21021 - 1.ldr
@@ -320,6 +321,7 @@
 1 0 -30 -14 188 0 0 -1 1 0 0 0 -1 0 21021 - 1 - 1.ldr
 
 
+0 STEP
 0 FILE 21021 - 2 - 1.ldr
 0 Hinged connection assembly with a top hinge plate and technic pins, used to join tower sections.
 0 Name: 21021 - 2 - 1.ldr
@@ -341,6 +343,7 @@
 1 1 -10 -22 30 0 0 1 0 1 0 -1 0 0 6558.dat
 
 
+0 STEP
 0 FILE 21021 - 3 - 1.ldr
 0 Hinged connection assembly with a base hinge plate and technic pins, used to join tower sections.
 0 Name: 21021 - 3 - 1.ldr
@@ -362,6 +365,7 @@
 1 1 -10 -22 -30 0 0 -1 0 1 0 1 0 0 6558.dat
 
 
+0 STEP
 0 FILE 21021 - 2.ldr
 0 Container/parent submodel that references nested tower section assemblies without its own direct pieces.
 0 Name: 21021 - 2.ldr
@@ -376,6 +380,7 @@
 1 0 -30 -40 20 0 0 -1 0 1 0 1 0 0 21021 - 2 - 4.ldr
 
 
+0 STEP
 0 FILE 21021 - 3.ldr
 0 Container/parent submodel that references nested tower section assemblies without its own direct pieces.
 0 Name: 21021 - 3.ldr
@@ -390,6 +395,7 @@
 1 0 -30 -40 -20 0 0 -1 0 1 0 1 0 0 21021 - 3 - 4.ldr
 
 
+0 STEP
 0 FILE 21021 - 2 - 2.ldr
 0 Small tiled decorative cap piece with white and transparent light blue accents.
 0 Name: 21021 - 2 - 2.ldr
@@ -412,6 +418,7 @@
 1 0 -10 -260 -60 1 0 0 0 1 0 0 0 1 21021 - 2 - 5.ldr
 
 
+0 STEP
 0 FILE 21021 - 3 - 2.ldr
 0 3 - 2
 0 Name: 21021 - 3 - 2.ldr
@@ -440,6 +447,7 @@
 1 0 -10 -260 60 1 0 0 0 1 0 0 0 1 21021 - 3 - 5.ldr
 
 
+0 STEP
 0 FILE 21021 - 3 - 3.ldr
 0 Upper portion of the third hotel tower, featuring white plates, transparent light blue windows, grille tiles, and a large base plate.
 0 Name: 21021 - 3 - 3.ldr
@@ -635,6 +643,7 @@
 1 71 -10 -14 160 0 0 -1 0 1 0 1 0 0 4274.dat
 
 
+0 STEP
 0 FILE 21021 - 3 - 3 - 1.ldr
 0 Small window detail assembly with transparent light blue plates, a white tile, and a headlight brick.
 0 Name: 21021 - 3 - 3 - 1.ldr
@@ -658,6 +667,7 @@
 1 15 10 14 -10 -1 0 0 0 0 1 0 1 0 4070.dat
 
 
+0 STEP
 0 FILE 21021 - 3 - 3 - 2.ldr
 0 Corner window section with a corner plate, transparent light blue plates, and grooved tiles.
 0 Name: 21021 - 3 - 3 - 2.ldr
@@ -705,6 +715,7 @@
 1 43 0 -40 -10 1 0 0 0 1 0 0 0 1 3069b.dat
 
 
+0 STEP
 0 FILE 21021 - 2 - 3.ldr
 0 Middle portion of the second hotel tower, with white plates, grille tiles, transparent light blue windows, and technic connections.
 0 Name: 21021 - 2 - 3.ldr
@@ -862,6 +873,7 @@
 1 71 -10 -14 160 0 0 1 0 -1 0 1 0 0 4274.dat
 
 
+0 STEP
 0 FILE 21021 - 2 - 3 - 1.ldr
 0 Small window detail with a clip plate and transparent light blue elements.
 0 Name: 21021 - 2 - 3 - 1.ldr
@@ -882,6 +894,7 @@
 1 0 20 -4 10 -0.1219 -0.9925 0 0 0 1 -0.9925 0.1219 0 21021 - 2 - 3 - 1 - 1.ldr
 
 
+0 STEP
 0 FILE 21021 - 2 - 3 - 1 - 1.ldr
 0 Tiny finial detail with a handle plate, white tile, and transparent light blue accent.
 0 Name: 21021 - 2 - 3 - 1 - 1.ldr
@@ -899,6 +912,7 @@
 1 43 60 -2 0 -1 0 0 0 1 0 0 0 -1 3024.dat
 
 
+0 STEP
 0 FILE 21021 - 2 - 3 - 2.ldr
 0 Window panel section with a white plate and transparent light blue grooved tiles.
 0 Name: 21021 - 2 - 3 - 2.ldr
@@ -920,6 +934,7 @@
 1 43 -20 -16 -10 -1 0 0 0 1 0 0 0 -1 3069b.dat
 
 
+0 STEP
 0 FILE 21021 - 2 - 4.ldr
 0 Small top cap detail with white and transparent light blue plates and grooved tiles.
 0 Name: 21021 - 2 - 4.ldr
@@ -947,6 +962,7 @@
 1 15 10 -24 -10 0 0 1 0 1 0 -1 0 0 3069b.dat
 
 
+0 STEP
 0 FILE 21021 - 3 - 4.ldr
 0 Small top cap detail with a brick, white and transparent light blue plates, and grooved tiles.
 0 Name: 21021 - 3 - 4.ldr
@@ -974,6 +990,7 @@
 1 15 10 -32 -10 0 0 1 0 1 0 -1 0 0 3069b.dat
 
 
+0 STEP
 0 FILE 21021 - 4 - 1.ldr
 0 Skybridge connection element with clip plates, transparent light blue tile, and white detailing.
 0 Name: 21021 - 4 - 1.ldr
@@ -999,6 +1016,7 @@
 1 15 -12 -6 50 0 1 0 0 0 -1 -1 0 0 3070b.dat
 
 
+0 STEP
 0 FILE 21021 - 4.ldr
 0 Minimal connector submodel consisting of two small white plates.
 0 Name: 21021 - 4.ldr
@@ -1016,6 +1034,7 @@
 1 15 -12 50 4 0 1 0 0 0 1 1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 21021 - 5.ldr
 0 Skybridge or rooftop structure spanning the towers, using a long white plate with transparent light blue window tiles and grille detailing.
 0 Name: 21021 - 5.ldr
@@ -1075,6 +1094,7 @@
 1 43 0 -16 -90 -1 0 0 0 1 0 0 0 -1 2431.dat
 
 
+0 STEP
 0 FILE 21021 - 1 - 1.ldr
 0 Boat/ArtScience Museum style curved base assembly with hinge plates, side-stud bricks, and olive green round tiles.
 0 Name: 21021 - 1 - 1.ldr
@@ -1116,6 +1136,7 @@
 1 0 0 -32 60 -0.9925 0 -0.1218 0 1 0 0.1218 0 -0.9925 21021 - 1 - 1 - 3.ldr
 
 
+0 STEP
 0 FILE 21021 - 1 - 1 - 1.ldr
 0 Window strip element with a long white tile and transparent light blue plates.
 0 Name: 21021 - 1 - 1 - 1.ldr
@@ -1143,6 +1164,7 @@
 1 43 0 16 40 0 0 -1 0 1 0 1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 21021 - 1 - 1 - 2.ldr
 0 Bracketed support structure with plates and tiles for mounting a facade element.
 0 Name: 21021 - 1 - 1 - 2.ldr
@@ -1168,6 +1190,7 @@
 1 15 0 -8 0 0 0 -1 0 1 0 1 0 0 4162.dat
 
 
+0 STEP
 0 FILE 21021 - 1 - 1 - 3.ldr
 0 Minimal plate-and-tile detail piece for finishing an edge.
 0 Name: 21021 - 1 - 1 - 3.ldr
@@ -1183,6 +1206,7 @@
 1 15 0 -8 -10 0 0 1 0 1 0 -1 0 0 3069b.dat
 
 
+0 STEP
 0 FILE 21021 - 2 - 5.ldr
 0 Curved base support with a hinge plate, side-stud brick, round stud tiles, and a grooved tile, forming a footing detail.
 0 Name: 21021 - 2 - 5.ldr
@@ -1214,6 +1238,7 @@
 1 15 0 -40 -64.1421 0.7071 0 0.7071 0 1 0 -0.7071 0 0.7071 14769.dat
 
 
+0 STEP
 0 FILE 21021 - 2 - 5 - 1.ldr
 0 A small white wall section featuring plates, grooved tiles, a curved slope, and translucent light-blue windows.
 0 Name: 21021 - 2 - 5 - 1.ldr
@@ -1241,6 +1266,7 @@
 1 15 0 -16 -40 1 0 0 0 1 0 0 0 1 61678.dat
 
 
+0 STEP
 0 FILE 21021 - 2 - 5 - 2.ldr
 0 A compact connector assembly using a multi-sided stud brick, technic brick with hole, and small white plates and tiles.
 0 Name: 21021 - 2 - 5 - 2.ldr
@@ -1260,6 +1286,7 @@
 1 15 0 -40 0 0 0 -1 0 1 0 1 0 0 3070b.dat
 
 
+0 STEP
 0 FILE 21021 - 2 - 5 - 3.ldr
 0 A wall segment with a bracket mount, grooved and round olive-green tiles, and a curved slope detail.
 0 Name: 21021 - 2 - 5 - 3.ldr
@@ -1291,6 +1318,7 @@
 1 15 0 0 70 1 0 0 0 1 0 0 0 1 3024.dat
 
 
+0 STEP
 0 FILE 21021 - 3 - 5.ldr
 0 A hinged wall panel combining hinge plates, side-stud bricks, and grooved tiles for articulation.
 0 Name: 21021 - 3 - 5.ldr
@@ -1317,6 +1345,7 @@
 1 0 0 -32 50 1 0 0 0 1 0 0 0 1 21021 - 3 - 5 - 3.ldr
 
 
+0 STEP
 0 FILE 21021 - 3 - 5 - 1.ldr
 0 A wall section with a curved-top brick, grooved tile, and translucent light-blue window plates.
 0 Name: 21021 - 3 - 5 - 1.ldr
@@ -1340,6 +1369,7 @@
 1 15 0 16 20 0 0 1 0 1 0 -1 0 0 3710.dat
 
 
+0 STEP
 0 FILE 21021 - 3 - 5 - 2.ldr
 0 A detailed wall segment with a bracket, curved-top brick, grooved tiles, and round olive-green accent tiles.
 0 Name: 21021 - 3 - 5 - 2.ldr
@@ -1371,6 +1401,7 @@
 1 330 22 2 -70 0 -1 0 0 0 1 -1 0 0 98138.dat
 
 
+0 STEP
 0 FILE 21021 - 2 - 5 - 4.ldr
 0 A small corner plate assembly with grooved tiles forming a decorative trim piece.
 0 Name: 21021 - 2 - 5 - 4.ldr
@@ -1394,6 +1425,7 @@
 1 15 20 -16 10 0 0 1 0 1 0 -1 0 0 3069b.dat
 
 
+0 STEP
 0 FILE 21021 - 3 - 5 - 3.ldr
 0 A small wall cap section made of plates and grooved tiles for a finished edge detail.
 0 Name: 21021 - 3 - 5 - 3.ldr

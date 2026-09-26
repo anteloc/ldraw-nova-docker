@@ -314,6 +314,7 @@
 
 
 
+0 STEP
 0 FILE 6755 - Sheriff's Lock-Up - Shock absorber.ldr
 0 A Technic 6.5L shock absorber assembly consisting of a main cylinder, piston rod, and a coiled spring.
 0 Name: 6755 - Sheriff's Lock-Up - Shock absorber.ldr
@@ -359,6 +360,7 @@
 1 494 0 56 0 1 0 0 0 1 0 0 0 1 6755 - Sheriff's Lock-Up - Shock absorber spring mesh.ldr
 
 
+0 STEP
 0 FILE 6755 - Sheriff's Lock-Up - Shock absorber spring mesh.ldr
 0 A detailed three-section coiled spring mesh for the shock absorber, wound approximately 11 times over a 9.60 mm length.
 0 Name: 6755 - Sheriff's Lock-Up - Shock absorber spring mesh.ldr
@@ -4651,6 +4653,7 @@
 5 24 -7.625 23.379101 0.156196 -7.183058 22.93321 0.011601 -7.625 22.750216 0.016406 -7 23.375 0
 
 
+0 STEP
 0 FILE 6755 - Sheriff's Lock-Up - Wall.ldr
 0 A light grey and black wall section built from plates and bricks, featuring a rounded-top barred window, arched top, and 75-degree sloped accents.
 0 Name: 6755 - Sheriff's Lock-Up - Wall.ldr
@@ -4697,6 +4700,7 @@
 1 0 0 -128 10 -1 0 0 0 1 0 0 0 -1 3010.dat
 
 
+0 STEP
 0 FILE 6755 - Sheriff's Lock-Up - Bandit1.ldr
 0 A red-shirted bandit minifigure with an angry moustached face, black bandana, and brown cowboy hat.
 0 Name: 6755 - Sheriff's Lock-Up - Bandit1.ldr
@@ -4728,6 +4732,7 @@
 1 6 0 -68 0 -0.03 0 -1 0 1 0 1 0 -0.03 3629.dat
 
 
+0 STEP
 0 FILE 6755 - Sheriff's Lock-Up - Bandit2.ldr
 0 A green-suited bandit minifigure with a top hat, revolver, and a dynamite-patterned tile accessory.
 0 Name: 6755 - Sheriff's Lock-Up - Bandit2.ldr
@@ -4761,6 +4766,7 @@
 1 15 -22.967 -4.895 -38.101 0.067 -0.981 -0.173 -0.666 0.084 -0.74 0.742 0.165 -0.649 3069bp03.dat
 
 
+0 STEP
 0 FILE 6755 - Sheriff's Lock-Up - Sheriff.ldr
 0 A sheriff minifigure in a starred cowboy hat, armed with a revolver and rifle, sporting a moustache and beard.
 0 Name: 6755 - Sheriff's Lock-Up - Sheriff.ldr
@@ -4794,6 +4800,7 @@
 1 7 -23.532 4.776 -12.636 0.999 -0.061 0.013 0.063 0.969 -0.238 0.002 0.238 0.971 30141.dat
 
 
+0 STEP
 0 FILE 6755 - Sheriff's Lock-Up - Deputy.ldr
 0 A blue-trousered deputy minifigure in a fringed brown vest and white cowboy hat, dual-wielding two revolvers.
 0 Name: 6755 - Sheriff's Lock-Up - Deputy.ldr
@@ -4827,6 +4834,7 @@
 1 7 -22.928 -25.852 -29.38 0.995 -0.003 -0.105 -0.048 0.876 -0.479 0.093 0.482 0.871 30132.dat
 
 
+0 STEP
 0 FILE 6755 - Sheriff's Lock-Up - Horse.ldr
 0 A white horse with brown and black tack, fitted with a saddle and carrying a rifle.
 0 Name: 6755 - Sheriff's Lock-Up - Horse.ldr

@@ -11,6 +11,7 @@
 1 0 160.081 -56 23.777 0.92388 0 0.382683 0 1 0 -0.382683 0 0.92388 6830 - Minifig.ldr
 
 
+0 STEP
 0 FILE 6830 - Spaceship.ldr
 0 The main fuselage of a white-and-black spacecraft built from plates, corner plates, and hinge plates forming a hinged body with axle and bracket structure.
 0 Name: 6830 - Spaceship.ldr
@@ -56,6 +57,7 @@
 1 0 -30 -38 86 -1 0 0 0 0 1 0 1 0 6830 - Spaceship - Rocket.ldr
 
 
+0 STEP
 0 FILE 6830 - Spaceship - Controls.ldr
 0 A small cockpit control console built from a black console tile and a patterned button tile.
 0 Name: 6830 - Spaceship - Controls.ldr
@@ -71,6 +73,7 @@
 1 15 0 -39.71 -8.265 1 0 0 0 0.928031 -0.372502 0 0.372502 0.928031 3070bp06.dat
 
 
+0 STEP
 0 FILE 6830 - Spaceship - Wing 1.ldr
 0 One fold-out wing constructed from a white 3x6 plate attached to a black hinge plate base.
 0 Name: 6830 - Spaceship - Wing 1.ldr
@@ -86,6 +89,7 @@
 1 15 10 -8 -60 0 0 -1 0 1 0 1 0 0 2419.dat
 
 
+0 STEP
 0 FILE 6830 - Spaceship - Wing 2.ldr
 0 The second fold-out wing constructed from a white 3x6 plate attached to a black hinge plate top.
 0 Name: 6830 - Spaceship - Wing 2.ldr
@@ -101,6 +105,7 @@
 1 15 -10 -8 -60 0 0 1 0 1 0 -1 0 0 2419.dat
 
 
+0 STEP
 0 FILE 6830 - Spaceship - Cockpit.ldr
 0 A transparent dark blue canopy panel mounted on a white hinge top, forming the cockpit enclosure.
 0 Name: 6830 - Spaceship - Cockpit.ldr
@@ -116,6 +121,7 @@
 1 33 0 -146 0 1 0 0 0 1 0 0 0 1 2466.dat
 1 0 0 -154 0 -1 0 0 0 1 0 0 0 -1 6830 - Spaceship - Cockpit - Front.ldr
 
+0 STEP
 0 FILE 6830 - Spaceship - Cockpit - Front.ldr
 0 The cockpit nose section featuring a white slope, grille tile, twin antennas, round studs, and trans-red light plates.
 0 Name: 6830 - Spaceship - Cockpit - Front.ldr
@@ -145,6 +151,7 @@
 1 36 -30 -88 -10 -1 0 0 0 -1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 6830 - Spaceship - Rocket.ldr
 0 A rocket thruster assembly built from an inverted dish, side-stud bricks, plates, a trans-red light, and clipped bar pieces.
 0 Name: 6830 - Spaceship - Rocket.ldr
@@ -172,6 +179,7 @@
 1 0 -26 -46 0 0 1 0 0 0 -1 -1 0 0 4735.dat
 
 
+0 STEP
 0 FILE 6830 - Minifig.ldr
 0 A classic yellow LEGO minifig wearing a white Futuron-pattern torso with airtanks, arms, hands, hips, and legs.
 0 Name: 6830 - Minifig.ldr
@@ -204,6 +212,7 @@
 1 14 0 44 0 1 0 0 0 1 0 0 0 1 3817.dat
 
 
+0 STEP
 0 FILE 6830 - Minifig - Helmet.ldr
 0 A standard yellow space helmet paired with a transparent dark blue visor.
 0 Name: 6830 - Minifig - Helmet.ldr

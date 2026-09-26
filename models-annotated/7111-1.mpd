@@ -108,6 +108,7 @@
 0 // Wedge  2 x 12 Triple (brown)
 1 6 -120 -22 -80 0 1 0 0 0 -1 -1 0 0 30382.dat
 
+0 STEP
 0 FILE 7111 - Leg Left Base.ldr
 0 A hinged left leg assembly using brown brackets and plates with dark and light grey locking hinge bricks for articulation.
 0 Name: 7111 - Leg Left Base.ldr
@@ -135,6 +136,7 @@
 1 7 10 -24 90 0 0 1 0 1 0 -1 0 0 30365.dat
 
 
+0 STEP
 0 FILE 7111 - Leg Right Base.ldr
 0 A hinged right leg assembly using brown brackets and plates with dark and light grey locking hinge bricks for articulation.
 0 Name: 7111 - Leg Right Base.ldr
@@ -162,6 +164,7 @@
 1 6 0 -32 -10 0 0 -1 0 1 0 1 0 0 3956.dat
 
 
+0 STEP
 0 FILE 7111 - Head Base.ldr
 0 A compact head section combining light grey, tan, and brown plates with a dark grey inverted slope and a technic brick with hole.
 0 Name: 7111 - Head Base.ldr
@@ -185,6 +188,7 @@
 1 6 0 -40 10 0 0 -1 0 1 0 1 0 0 3021.dat
 
 
+0 STEP
 0 FILE 7111 - Wing Circuit Base.ldr
 0 A wing section built on a black plate decorated with two dark grey tiles featuring black and copper circuit patterns.
 0 Name: 7111 - Wing Circuit Base.ldr

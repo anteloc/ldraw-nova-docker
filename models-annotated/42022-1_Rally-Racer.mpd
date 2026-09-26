@@ -344,6 +344,7 @@
 1 72 60 -140 -80 1 0 0 0 0.799 -0.602 0 0.602 0.799 42022 - Sub 17.ldr
 
 
+0 STEP
 0 FILE 42022 - Sub 01.ldr
 0 Small gear and axle subassembly with a 12-tooth bevel gear mounted on an axle with a red flanged bush.
 0 Name: 42022 - Sub 01.ldr
@@ -363,6 +364,7 @@
 
 
 
+0 STEP
 0 FILE 42022 - Sub 02.ldr
 0 Angled structural linkage subassembly using triangular and bent liftarms with cross blocks and angle connectors.
 0 Name: 42022 - Sub 02.ldr
@@ -405,6 +407,7 @@
 
 
 
+0 STEP
 0 FILE 42022 - Sub 03.ldr
 0 Compact gear subassembly with a 20-tooth bevel gear on a stopped axle attached to a bent liftarm.
 0 Name: 42022 - Sub 03.ldr
@@ -423,6 +426,7 @@
 
 
 
+0 STEP
 0 FILE 42022 - Sub 04.ldr
 0 Twin 12-tooth gear subassembly on joined axles forming a coupled drivetrain element.
 0 Name: 42022 - Sub 04.ldr
@@ -445,6 +449,7 @@
 
 
 
+0 STEP
 0 FILE 42022 - Sub 05.ldr
 0 Main chassis subassembly with Technic bricks, liftarms, engine crankshafts, and pins forming the structural and drivetrain core.
 0 Name: 42022 - Sub 05.ldr
@@ -589,6 +594,7 @@
 1 1 -70 42 44 -1 0 0 0 0.602 -0.799 0 -0.799 -0.602 42022 - Sub 06.ldr
 
 
+0 STEP
 0 FILE 42022 - Sub 06.ldr
 0 Engine cylinder head subassembly with three cylinder heads and pistons connected by pins.
 0 Name: 42022 - Sub 06.ldr
@@ -625,6 +631,7 @@
 1 14 0 -5 20 1 0 0 0 1 0 0 0 1 2851.dat
 
 
+0 STEP
 0 FILE 42022 - Sub 07.ldr
 0 Gear train subassembly with a 20-tooth and 12-tooth bevel gear on an axle with yellow bushes.
 0 Name: 42022 - Sub 07.ldr
@@ -646,6 +653,7 @@
 1 19 -47 0 0 0 0 1 0 1 0 -1 0 0 6589.dat
 
 
+0 STEP
 0 FILE 42022 - Sub 08.ldr
 0 Small bracing subassembly of a straight and bent liftarm joined by pins.
 0 Name: 42022 - Sub 08.ldr
@@ -665,6 +673,7 @@
 1 1 10 0 20 1 0 0 0 -1 0 0 0 -1 43093.dat
 
 
+0 STEP
 0 FILE 42022 - Sub 09.ldr
 0 Single long liftarm element serving as a structural beam.
 0 Name: 42022 - Sub 09.ldr
@@ -678,6 +687,7 @@
 1 71 0 0 -40 1 0 0 0 1 0 0 0 1 32316.dat
 
 
+0 STEP
 0 FILE 42022 - Sub 10.ldr
 0 Triangular support subassembly of two liftarm triangles joined by a pin and axle pin.
 0 Name: 42022 - Sub 10.ldr
@@ -697,6 +707,7 @@
 1 71 0 0 -40 0 0 -1 1 0 0 0 -1 0 87082.dat
 
 
+0 STEP
 0 FILE 42022 - Sub 11.ldr
 0 Long liftarm with an attached pin used as a structural member.
 0 Name: 42022 - Sub 11.ldr
@@ -712,6 +723,7 @@
 1 71 0 -10 100 0 -1 0 1 0 0 0 0 1 3673.dat
 
 
+0 STEP
 0 FILE 42022 - Sub 12.ldr
 0 Bent liftarm subassembly using two blue 90-degree beams connected by pins.
 0 Name: 42022 - Sub 12.ldr
@@ -735,6 +747,7 @@
 1 1 0 -80 0 -1 0 0 0 0 1 0 1 0 6558.dat
 
 
+0 STEP
 0 FILE 42022 - Sub 13a.ldr
 0 Left bodywork panel subassembly with a smooth fairing panel mounted on liftarms and pins.
 0 Name: 42022 - Sub 13a.ldr
@@ -770,6 +783,7 @@
 1 0 -15.094 -40 -33.122 -0.656059 0 0.75471 0 -1 0 0.75471 0 0.656059 32523.dat
 
 
+0 STEP
 0 FILE 42022 - Sub 13b.ldr
 0 Right bodywork panel subassembly with a smooth fairing panel mounted on liftarms and pins.
 0 Name: 42022 - Sub 13b.ldr
@@ -807,6 +821,7 @@
 1 71 20 0 45 0 -1 0 -1 0 0 0 0 -1 32123b.dat
 
 
+0 STEP
 0 FILE 42022 - Sub 14.ldr
 0 Rear suspension subassembly of bent liftarms, axles, and axle joiners forming a structural arm.
 0 Name: 42022 - Sub 14.ldr
@@ -851,6 +866,7 @@
 1 71 100 32 204 -1 0 0 0 0.799999 0.600001 0 0.600001 -0.799999 60485.dat
 
 
+0 STEP
 0 FILE 42022 - Sub 15.ldr
 0 Rear wing support subassembly of two long liftarms with angle connectors and axles.
 0 Name: 42022 - Sub 15.ldr
@@ -878,6 +894,7 @@
 1 71 60 0 0 1 0 0 0 0 1 0 -1 0 32013.dat
 
 
+0 STEP
 0 FILE 42022 - Sub 16.ldr
 0 Steering column subassembly with a steering wheel, liftarms, and angle connectors.
 0 Name: 42022 - Sub 16.ldr
@@ -913,6 +930,7 @@
 1 80 60 0 222 0 0 1 -1 0 0 0 -1 0 6141.dat
 
 
+0 STEP
 0 FILE 42022 - Sub 17.ldr
 0 Axle subassembly of joined axles with connectors forming a straight drivetrain shaft.
 0 Name: 42022 - Sub 17.ldr
@@ -946,6 +964,7 @@
 1 71 100 0 -105 -1 0 0 0 1 0 0 0 -1 32013.dat
 
 
+0 STEP
 0 FILE 42022 - Sub 18.ldr
 0 Rear wing panel subassembly with wide smooth fairing panels on a liftarm support.
 0 Name: 42022 - Sub 18.ldr

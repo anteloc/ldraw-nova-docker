@@ -7,6 +7,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 8418 - Mini Loader B.ldr
 
 
+0 STEP
 0 FILE 8418 - Mini Loader B.ldr
 0 The main chassis assembly of a small Technic loader, featuring bent liftarms, beams, gears, and axles forming the wheeled frame and drivetrain.
 0 Name: 8418 - Mini Loader B.ldr
@@ -112,6 +113,7 @@
 1 256 -30 49.567 126.851 0 0 1 0 1 0 -1 0 0 30648.dat
 
 
+0 STEP
 0 FILE 8418 - Sub07.ldr
 0 A small mechanical linkage assembly using a bent liftarm and two cams on an axle, likely part of a moving mechanism.
 0 Name: 8418 - Sub07.ldr
@@ -129,6 +131,7 @@
 1 0 15 10 0 0 0 -1 0 1 0 1 0 0 6575.dat
 
 
+0 STEP
 0 FILE 8418 - Sub09.ldr
 0 A compact axle connector subassembly joining a short notched axle with an axle/bush connector.
 0 Name: 8418 - Sub09.ldr
@@ -143,6 +146,7 @@
 1 0 0 0 -10 0 0 -1 0 1 0 1 0 0 32062.dat
 
 
+0 STEP
 0 FILE 8418 - Sub11.ldr
 0 An axle-and-liftarm joint subassembly using half-bushes and a cross block for rotational connection.
 0 Name: 8418 - Sub11.ldr
@@ -166,6 +170,7 @@
 1 0 0 0 40 -1 0 0 0 1 0 0 0 -1 3706.dat
 
 
+0 STEP
 0 FILE 8418 - Sub17.ldr
 0 The excavator bucket arm assembly, featuring a click hinge connector and a toothed bucket for scooping.
 0 Name: 8418 - Sub17.ldr

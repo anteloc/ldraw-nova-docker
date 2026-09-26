@@ -118,6 +118,7 @@
 1 15 434.727 -12 -381.198 -0.966 0 0.259 0 1 0 -0.259 0 -0.966 3683 - lucylamb.ldr
 1 15 160 -4 -60 0 0 1 0 1 0 -1 0 0 3683 - freddyfox.ldr
 1 1 -40 -76 110.72 -0.5 0 0.866 0 1 0 -0.866 0 -0.5 3683 - clivecrocodile.ldr
+0 STEP
 0 FILE 3683 - freddyfox.ldr
 0 Fabuland animal figure of Freddy Fox, built without directly-listed pieces.
 0 Name: 3683 - freddyfox.ldr
@@ -131,6 +132,7 @@
 1 1 -10 -37 4 1 0 0 0 0.695 0.719 0 -0.719 0.695 u9100.dat
 1 1 10 -37 4 1 0 0 0 1 0 0 0 1 u9100.dat
 1 4 0 -37 4 1 0 0 0 1 0 0 0 1 u9103.dat
+0 STEP
 0 FILE 3683 - prizebooth.ldr
 0 Blue and white prize booth with patterned tiles displaying a ball, teddy bear, and house.
 0 Name: 3683 - prizebooth.ldr
@@ -157,6 +159,7 @@
 1 15 -40 -64 -60 1 0 0 0 1 0 0 0 1 3683 - 3068bpfh.dat
 0 // Tile  2 x  2 with Fabuland House Pattern (white)
 1 15 0 -64 -60 1 0 0 0 1 0 0 0 1 3683 - 3068bpfg.dat
+0 STEP
 0 FILE 3683 - wheeloffortune.ldr
 0 Red wheel of fortune game with numbered tiles 1-4, an arrow spinner, and a turntable base.
 0 Name: 3683 - wheeloffortune.ldr
@@ -191,6 +194,7 @@
 1 15 0 -48 30 -0.707 0 -0.707 0 1 0 0.707 0 -0.707 3960pf1.dat
 0 // Tile  2 x  2 with Yellow Arrow with Black Border Pattern (white)
 1 15 60 -32 30 0 0 -1 0 1 0 1 0 0 3068bp08.dat
+0 STEP
 0 FILE 3683 - merry.ldr
 0 Red and yellow merry-go-round featuring a mast, barrel, ship wheel, and rounded roof.
 0 Name: 3683 - merry.ldr
@@ -226,6 +230,7 @@
 0 STEP
 0 // Fabuland Merry-Go-Round Roof (red)
 1 4 0 -222 0 1 0 0 0 1 0 0 0 1 3683 - 4841.dat
+0 STEP
 0 FILE 3683 - boat.ldr
 0 Small red Fabuland boat with white bricks and a pair of yellow oars.
 0 Name: 3683 - boat.ldr
@@ -244,6 +249,7 @@
 1 14 -39.463 -57.745 14.856 -0.164 -0.931 -0.326 -0.906 0.273 -0.323 0.39 0.242 -0.889 3683 - 4794a.dat
 0 // Fabuland Oar with Ring Handle (yellow)
 1 14 39.463 -57.745 14.856 -0.164 0.931 0.326 0.906 0.273 -0.323 -0.39 0.242 -0.889 3683 - 4794a.dat
+0 STEP
 0 FILE 3683 - maxmouse.ldr
 0 Fabuland animal figure of Max Mouse, built without directly-listed pieces.
 0 Name: 3683 - maxmouse.ldr
@@ -257,6 +263,7 @@
 1 14 -10 -37 4 1 0 0 0 1 0 0 0 1 u9100.dat
 1 14 10 -37 4 1 0 0 0 1 0 0 0 1 u9100.dat
 1 4 0 -37 4 1 0 0 0 1 0 0 0 1 u9103.dat
+0 STEP
 0 FILE 3683 - clivecrocodile.ldr
 0 Fabuland animal figure of Clive Crocodile, built without directly-listed pieces.
 0 Name: 3683 - clivecrocodile.ldr
@@ -270,6 +277,7 @@
 1 27 -10 -37 4 1 0 0 0 1 0 0 0 1 u9100.dat
 1 27 10 -37 4 1 0 0 0 1 0 0 0 1 u9100.dat
 1 4 0 -37 4 1 0 0 0 1 0 0 0 1 u9103.dat
+0 STEP
 0 FILE 3683 - lucylamb.ldr
 0 Fabuland animal figure of Lucy Lamb, built without directly-listed pieces.
 0 Name: 3683 - lucylamb.ldr
@@ -283,6 +291,7 @@
 1 15 -10 -37 4 1 0 0 0 0 1 0 -1 0 u9100.dat
 1 15 10.005 -37 4 1 0 0 0 0 1 0 -1 0 u9100.dat
 1 4 0 -37 4 1 0 0 0 1 0 0 0 1 u9103.dat
+0 STEP
 0 FILE 3683 - 4783.dat
 0 Curved geometric primitive assembly built from sloped cylinders, circles, and rectangular faces.
 0 Name: 3683 - 4783.dat
@@ -607,6 +616,7 @@
 0 // Rectangle (main_colour)
 1 16 -30 4 0 6 0 0 0 -1 0 0 0 16 rect.dat
 1 16 30 0 0 0 0 -1 0 1 0 1 0 0 stug-1x2.dat
+0 STEP
 0 FILE 3683 - 4779.dat
 0 Geometric primitive assembly of boxes, rectangles, and a circular disc.
 0 Name: 3683 - 4779.dat
@@ -896,6 +906,7 @@
 5 24 0 45 -15.2 -1.9836 45 -15.0693 -1.1481 44.771702 -15.1174 0 50 -15.2
 5 24 -1.9836 45 -15.0693 -3.9338 45 -14.6817 -2.1213 44.1213 -15.0442 -1.9836 50 -15.0693
 5 24 -4.9172 39 -18.3521 -4.9172 45 -18.3521 -3 42 -18.733101 -7.2713 39 -17.5541
+0 STEP
 0 FILE 3683 - 4782.dat
 0 Detailed curved primitive composed of many cylinders, chords, discs, and rectangular faces.
 0 Name: 3683 - 4782.dat
@@ -1322,6 +1333,7 @@
 1 16 -42 -75 0 0 1 0 6 0 0 0 0 6 4-4edge.dat
 0 // Circle 1.0 (main_colour)
 1 16 -40 -75 0 0 1 0 4 0 0 0 0 4 4-4edge.dat
+0 STEP
 0 FILE 3683 - 4842.dat
 0 Spherical primitive assembly with cylinders, rings, and circles forming a rounded shape.
 0 Name: 3683 - 4842.dat
@@ -1518,6 +1530,7 @@
 4 16 7.1714 -8.9808 -10.0722 10.0782 -8.938 -7.1774 10.0722 -3 -7.1714 7.1714 -3 -10.0722
 3 16 7.1714 -8.9808 -10.0722 8.6218 -11.0332 -8.6218 10.0782 -8.938 -7.1774
 2 24 10.0782 -8.938 -7.1774 10.0722 -3 -7.1714
+0 STEP
 0 FILE 3683 - 4728.dat
 0 Simple cylindrical primitive with a ring, circle, and cylinder.
 0 Name: 3683 - 4728.dat
@@ -1549,6 +1562,7 @@
 0 !LICENSE Free for non-commercial use.
 
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 6 20   R 4 8]
+0 STEP
 0 FILE 3683 - 3958.dat
 0 Pair of simple five-faced box primitives.
 0 Name: 3683 - 3958.dat
@@ -1580,6 +1594,7 @@
 0 !LICENSE Free for non-commercial use.
 
 0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=R 6 4] [grid=C 6 C 6 20 20]
+0 STEP
 0 FILE 3683 - 3068bpfh.dat
 0 Patterned tile submodel built without directly-listed pieces.
 0 Name: 3683 - 3068bpfh.dat
@@ -2019,6 +2034,7 @@
 3 16 -15.2 0 8.95 -14.1 0 7.35 -14 0 8.35
 4 16 -16.049999 0 -1 -15.3 0 0.85 -15.2 0 8.95 -15.75 0 10.05
 3 16 -15.9 0 10.9 -16.049999 0 -1 -15.75 0 10.05
+0 STEP
 0 FILE 3683 - 3068bpfg.dat
 0 Patterned tile submodel built without directly-listed pieces.
 0 Name: 3683 - 3068bpfg.dat
@@ -2124,6 +2140,7 @@
 4 4 6 0 15.4 3.8 0 15.4 3.8 0 7.4 6 0 5
 4 4 10.4 0 15.4 6.8 0 15.4 6.8 0 4.4 10.4 0 4.4
 3 0 -17.799999 0 -13.2 -18 0 -14 -17.4 0 -13.8
+0 STEP
 0 FILE 3683 - 4844a.dat
 0 Cylindrical cap primitive with a top cap, rings, and circles.
 0 Name: 3683 - 4844a.dat
@@ -2149,6 +2166,7 @@
 1 16 0 -214 0 20 0 0 0 -1 0 0 0 20 4-4edge.dat
 0 // Ring  4 x 1.0 (main_colour)
 1 16 0 -214 0 0 0 4 0 1 0 4 0 0 4-4ring4.dat
+0 STEP
 0 FILE 3683 - 4841.dat
 0 Layered cylindrical primitive with rings, a bump, and closed cylinder sections.
 0 Name: 3683 - 4841.dat
@@ -2189,6 +2207,7 @@
 1 16 0 0 0 0.5 0 0.86603 0 1 0 0.86603 0 -0.5 s\3683 - 4841s02.dat
 1 16 0 0 0 -0.5 0 -0.86603 0 1 0 0.86603 0 -0.5 s\3683 - 4841s02.dat
 1 16 0 0 0 0.5 0 -0.86603 0 1 0 -0.86603 0 -0.5 s\3683 - 4841s02.dat
+0 STEP
 0 FILE 3683 - 4793.dat
 0 Box-based primitive assembly with rectangles and edged rectangles.
 0 Name: 3683 - 4793.dat
@@ -2265,6 +2284,7 @@
 1 16 -36 8 36.5 0 0 2 0 -1 0 78.5 0 0 rect2p.dat
 4 16 -34 8 -42 -34 8 115 -34 4 115 -34 4 -46
 4 16 -38 4 115 -38 8 115 -38 8 -42 -38 4 -46
+0 STEP
 0 FILE 3683 - 4794a.dat
 0 Curved spherical primitive with cylinders, chords, and circular sections.
 0 Name: 3683 - 4794a.dat
@@ -2430,6 +2450,7 @@
 5 24 13.3151 122.556 -1.5308 13.3151 122.556 1.5308 3.6956 100.699997 1.5308 14 126 1.5308
 5 24 -13.3151 122.556 1.53078 -13.3151 122.556 -1.53082 -3.69557 100.699997 -1.53082 -14 126 1.5308
 2 24 3.6956 138 -1.5308 3.69552 100.699959 -1.53073
+0 STEP
 0 FILE s\3683 - 4779s01.dat
 0 Sub-part consisting of two simple rectangles.
 0 Name: s\3683 - 4779s01.dat
@@ -2449,6 +2470,7 @@
 4 16 17.8452 -90 2.349 16.854601 -90 2.2189 16.999201 -90 -0.0003 18 -90 0
 4 16 18 -70 0 16.999201 -70 -0.0003 16.854601 -70 -2.2189 17.8451 -70 -2.3497
 1 16 0 -70 0 17.84601 0 2.34947 0 -1 0 -2.34947 0 17.84601 48\1-48edge.dat
+0 STEP
 0 FILE 3683 - 3404.dat
 0 Cylindrical primitive with rings and open cylinders.
 0 Name: 3683 - 3404.dat
@@ -2516,6 +2538,7 @@
 1 16 20 0 0 1 0 0 0 1 0 0 0 1 stug-2x2.dat
 1 16 0 0 30 1 0 0 0 1 0 0 0 1 stug-1x2.dat
 1 16 0 0 -30 1 0 0 0 1 0 0 0 1 stug-1x2.dat
+0 STEP
 0 FILE s\3683 - 4844s01.dat
 0 Detailed cylindrical sub-part with boxes, discs, spheres, chords, and cones.
 0 Name: s\3683 - 4844s01.dat
@@ -2733,6 +2756,7 @@
 1 16 30 4 0 0 0 -1 0 -1 0 1 0 0 stug3-1x3.dat
 1 16 0 4 30 1 0 0 0 -1 0 0 0 1 stug3-1x3.dat
 1 16 0 4 -30 1 0 0 0 -1 0 0 0 1 stug3-1x3.dat
+0 STEP
 0 FILE s\3683 - 4841s01.dat
 0 Sub-part of boxes and rectangles surrounding a closed cylinder.
 0 Name: s\3683 - 4841s01.dat
@@ -2817,6 +2841,7 @@
 3 16 -70 4 -121.243599 -28.468 3.9963 -106.249001 -14.355 3.9963 -109.054001
 3 16 -70 4 -121.243599 -14.355 3.9963 -109.054001 0 3.9963 -110
 1 16 0 8 0 0 0 20 0 -79.5272 0 -20 0 0 48\1-6cylo.dat
+0 STEP
 0 FILE 48\3683 - t12i8333.dat
 0 t12i8333
 0 Name: 48\3683 - t12i8333.dat
@@ -2993,6 +3018,7 @@
 5 24 0.6792 0.8049 0.3922 0.7718 0.8262 0.4456 0.6276 0.8049 0.4816 0.7246 0.8049 0.3002
 5 24 0.7718 0.8262 0.4456 0.866 0.8333 0.5 0.7132 0.8262 0.5472 0.8234 0.8262 0.3411
 0 // Build by LDPartEditor (PrimGen 2.X)
+0 STEP
 0 FILE s\3683 - 4841s02.dat
 0 4841s02
 0 Name: s\3683 - 4841s02.dat
@@ -3129,6 +3155,7 @@
 4 16 15 11.5928 -100 15 12.9285 -98.533302 15 3.3269 -98.533302 15 3.4214 -100
 5 24 12 12.9464 -98.5 15 12.9285 -98.533302 12 11.5928 -100 12 13 -95
 5 24 12 11.5928 -100 15 11.5928 -100 15 12.9285 -98.533302 15 3.4214 -100
+0 STEP
 0 FILE s\3683 - 4728s02.dat
 0 4728s02
 0 Name: s\3683 - 4728s02.dat
@@ -3184,6 +3211,7 @@
 0 // Cylinder 1.0 (main_colour)
 1 16 0 19 0 8 0 0 0 1 0 0 0 8 4-4cyli.dat
 1 16 0 20 0 1 0 0 0 -1 0 0 0 -1 stud4a.dat
+0 STEP
 0 FILE s\3683 - 4728s01.dat
 0 4728s01
 0 Name: s\3683 - 4728s01.dat
@@ -3279,6 +3307,7 @@
 2 24 -1.35648 4 12.1495 -2.92609 4 13.6681
 2 24 -1.35648 8 12.1495 0 8 11.998
 2 24 0 4 11.998 -1.35648 4 12.1495
+0 STEP
 0 FILE s\3683 - 4793s01.dat
 0 4793s01
 0 Name: s\3683 - 4793s01.dat
@@ -4934,6 +4963,7 @@
 2 24 76.018997 -39 34.778 77.542999 -38.695999 34.794998
 4 16 72.039001 -35 13 72 -40 18 72 -40 30 72.039001 -35 35
 4 16 80 -35 35 80 -40 30 80 -40 18 80 -35 13
+0 STEP
 0 FILE 3683 - t16i3333.dat
 0 t16i3333
 0 Name: 3683 - t16i3333.dat

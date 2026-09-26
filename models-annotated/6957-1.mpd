@@ -12,6 +12,7 @@
 
 
 
+0 STEP
 0 FILE 6957 - Container.ldr
 0 A compact cargo container module featuring a black base plate, red corner bricks, light grey arches and slopes, grille tiles, and a trans-green helicopter windscreen canopy.
 0 Name: 6957 - Container.ldr
@@ -72,6 +73,7 @@
 
 
 
+0 STEP
 0 FILE 6957 - Vehicle.ldr
 0 An assembled wheeled space vehicle composed of the front and back vehicle submodels along with attached accessories and minifigures.
 0 Name: 6957 - Vehicle.ldr
@@ -86,6 +88,7 @@
 
 
 
+0 STEP
 0 FILE 6957 - Vehicle - Front.ldr
 0 A large six-wheeled front rover section built from light grey bricks, black plates and wings, red side bricks, brackets, and a towball plate hitch.
 0 Name: 6957 - Vehicle - Front.ldr
@@ -269,6 +272,7 @@
 1 7 30 -128 0 0 0 1 0 1 0 -1 0 0 2412b.dat
 
 
+0 STEP
 0 FILE 6957 - Vehicle - Front - Antenna.ldr
 0 A small signal antenna assembly made of a black minifig signal holder topped with a red whip antenna.
 0 Name: 6957 - Vehicle - Front - Antenna.ldr
@@ -285,6 +289,7 @@
 
 
 
+0 STEP
 0 FILE 6957 - Vehicle - Front - Hinge 1.ldr
 0 A hinged panel assembly using a black hinge top, a side-stud brick, and a patterned arrow indicator tile.
 0 Name: 6957 - Vehicle - Front - Hinge 1.ldr
@@ -303,6 +308,7 @@
 
 
 
+0 STEP
 0 FILE 6957 - Vehicle - Front - Hinge 2.ldr
 0 A hinged panel assembly using a black hinge top, a side-stud brick, and a patterned arrow indicator tile.
 0 Name: 6957 - Vehicle - Front - Hinge 2.ldr
@@ -321,6 +327,7 @@
 
 
 
+0 STEP
 0 FILE 6957 - Vehicle - Front + Container.ldr
 0 The front rover combined with the cargo container module to form a transport configuration.
 0 Name: 6957 - Vehicle - Front + Container.ldr
@@ -335,6 +342,7 @@
 
 
 
+0 STEP
 0 FILE 6957 - Vehicle - Front + Minifigs.ldr
 0 The front rover section outfitted with crewed minifigures.
 0 Name: 6957 - Vehicle - Front + Minifigs.ldr
@@ -350,6 +358,7 @@
 
 
 
+0 STEP
 0 FILE 6957 - Vehicle - Back.ldr
 0 A six-wheeled rear vehicle section with light grey structural bricks, black plates, red side panels, grille tiles, and a towball socket hitch for trailer coupling.
 0 Name: 6957 - Vehicle - Back.ldr
@@ -440,6 +449,7 @@
 
 
 
+0 STEP
 0 FILE 6957 - Vehicle - Back + Spaceship.ldr
 0 The rear vehicle section carrying the small spaceship as a transport payload.
 0 Name: 6957 - Vehicle - Back + Spaceship.ldr
@@ -454,6 +464,7 @@
 
 
 
+0 STEP
 0 FILE 6957 - Spaceship.ldr
 0 A small space vessel assembled from front and rear sections, cockpit canopy, and hinged panel components.
 0 Name: 6957 - Spaceship.ldr
@@ -469,6 +480,7 @@
 
 
 
+0 STEP
 0 FILE 6957 - Spaceship - Front.ldr
 0 The front body of a small spaceship featuring black swept wings, hinge bricks, jet engine plates, round axlehole plates, and patterned computer console tiles.
 0 Name: 6957 - Spaceship - Front.ldr
@@ -530,6 +542,7 @@
 1 0 -60 -44 -190 -1 0 0 0 0.4695 -0.8829 0 -0.8829 -0.4695 6957 - Spaceship - Front - Cockpit.ldr
 
 
+0 STEP
 0 FILE 6957 - Spaceship - Front - Cockpit.ldr
 0 A trans-green cockpit canopy assembly with hinge plates and handles for the spaceship's pilot cabin.
 0 Name: 6957 - Spaceship - Front - Cockpit.ldr
@@ -552,6 +565,7 @@
 
 
 
+0 STEP
 0 FILE 6957 - Spaceship - Hinge 1.ldr
 0 A hinged module of the spaceship composed of base and top hinge subassemblies.
 0 Name: 6957 - Spaceship - Hinge 1.ldr
@@ -566,6 +580,7 @@
 1 0 0 0 40 1 0 0 0 1 0 0 0 1 6957 - Spaceship - Hinge 1 - 3.ldr
 
 
+0 STEP
 0 FILE 6957 - Spaceship - Hinge 1 - 1.ldr
 0 A hinged cover assembly of two top hinge bricks with a plate and grooved tile to form a folding panel.
 0 Name: 6957 - Spaceship - Hinge 1 - 1.ldr
@@ -586,6 +601,7 @@
 
 
 
+0 STEP
 0 FILE 6957 - Spaceship - Hinge 1 - 2.ldr
 0 A hinged base assembly of two base hinge bricks, plates, and a patterned arrow indicator tile.
 0 Name: 6957 - Spaceship - Hinge 1 - 2.ldr
@@ -607,6 +623,7 @@
 1 0 10 -16 20 0 0 1 0 1 0 -1 0 0 3069bp15.dat
 
 
+0 STEP
 0 FILE 6957 - Spaceship - Hinge 1 - 3.ldr
 0 A detailed hinged rear module with jet engine plates, round axlehole plates, grille tiles, finned round brick, and Space Police II patterned slopes.
 0 Name: 6957 - Spaceship - Hinge 1 - 3.ldr
@@ -668,6 +685,7 @@
 1 7 -80 -40 50 1 0 0 0 1 0 0 0 1 3460.dat
 
 
+0 STEP
 0 FILE 6957 - Spaceship - Hinge 2.ldr
 0 A hinged module of the spaceship composed of base and top hinge subassemblies.
 0 Name: 6957 - Spaceship - Hinge 2.ldr
@@ -681,6 +699,7 @@
 1 0 -80 0 20 0 0 1 0 1 0 -1 0 0 6957 - Spaceship - Hinge 2 - 2.ldr
 
 
+0 STEP
 0 FILE 6957 - Spaceship - Hinge 2 - 1.ldr
 0 A hinged base assembly of two base hinge bricks, a plate, and a grooved tile forming a folding underside panel.
 0 Name: 6957 - Spaceship - Hinge 2 - 1.ldr
@@ -700,6 +719,7 @@
 1 0 10 24 40 0 0 -1 0 1 0 1 0 0 3710.dat
 
 
+0 STEP
 0 FILE 6957 - Spaceship - Hinge 2 - 2.ldr
 0 A hinged top assembly of two top hinge bricks, plates, and a patterned arrow indicator tile.
 0 Name: 6957 - Spaceship - Hinge 2 - 2.ldr
@@ -722,6 +742,7 @@
 
 
 
+0 STEP
 0 FILE 6957 - Minifig 1.ldr
 0 A Blacktron II-patterned minifigure with a yellow head, black airtanks, black arms and hands, and white legs.
 0 Name: 6957 - Minifig 1.ldr
@@ -754,6 +775,7 @@
 1 15 0 44 0 1 0 0 0 0.970296 0.241922 0 -0.241922 0.970296 3817.dat
 
 
+0 STEP
 0 FILE 6957 - Minifig 2.ldr
 0 A Space Police II officer minifigure with a red-haired head, black airtanks, green arms and legs, and a white loudhailer accessory.
 0 Name: 6957 - Minifig 2.ldr
@@ -788,6 +810,7 @@
 1 2 0 44 0 1 0 0 0 0 1 0 -1 0 3817.dat
 
 
+0 STEP
 0 FILE 6957 - Minifig 3.ldr
 0 A Space Police II officer minifigure with a red-haired head, black airtanks, and green arms and legs.
 0 Name: 6957 - Minifig 3.ldr
@@ -821,6 +844,7 @@
 
 
 
+0 STEP
 0 FILE 6957 - Minifig - Helmet 1.ldr
 0 A standard black space helmet paired with a trans-neon-green visor.
 0 Name: 6957 - Minifig - Helmet 1.ldr
@@ -836,6 +860,7 @@
 1 42 0 0 0 1 0 0 0 1 0 0 0 1 2447.dat
 
 
+0 STEP
 0 FILE 6957 - Minifig - Helmet 2.ldr
 0 A minifig helmet assembly consisting of a black standard helmet with a translucent green visor.
 0 Name: 6957 - Minifig - Helmet 2.ldr

@@ -12,6 +12,7 @@
 1 14 100 0 -100 0 0 1 0 1 0 -1 0 0 6525 - minifig.ldr
 
 0 NOFILE
+0 STEP
 0 FILE 6525 - car.ldr
 0 A compact fire truck built on a 4x10 car base with sloped detailing, wheel pins, warning light plates in red and yellow, and an antenna.
 0 car
@@ -115,6 +116,7 @@
 1 0 130 8 45.001 -1 0 0 0 1 0 0 0 -1 6015.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6525 - minifig.ldr
 0 A firefighter minifigure equipped with a fire helmet, visor, airtanks, and breathing hose.
 0 minifig

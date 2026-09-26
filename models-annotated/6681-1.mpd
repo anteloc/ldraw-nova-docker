@@ -13,6 +13,7 @@
 1 33 170 0 -30 1 0 0 0 1 0 0 0 1 6681 - road sign 2.ldr
 1 33 300 0 200 1 0 0 0 1 0 0 0 1 6681 - road sign 2.ldr
 
+0 STEP
 0 FILE 6681 - car.ldr
 0 A black patrol vehicle built on a 4x5 car base with mudguards, steering stand with wheel, and plates and bricks forming the chassis and bodywork.
 0 Name: 6681 - car.ldr
@@ -167,6 +168,7 @@
 0 // Tyre  8/ 75 x  8 Offset Tread (black)
 1 0 -31 22 -80 0 0 -1 0 1 0 1 0 0 4084.dat
 
+0 STEP
 0 FILE 6681 - road sign 1.ldr
 0 A warning road sign made of a striped 1x4 brick mounted on two round 1x1 posts.
 0 Name: 6681 - road sign 1.ldr
@@ -183,6 +185,7 @@
 0 // Brick  1 x  1 Round with Hollow Stud (white)
 1 15 30 -24 -10 1 0 0 0 1 0 0 0 1 3062b.dat
 
+0 STEP
 0 FILE 6681 - road sign 2.ldr
 0 A small red traffic cone-style road sign topped with a translucent blue plate.
 0 Name: 6681 - road sign 2.ldr
@@ -197,6 +200,7 @@
 0 // Plate  1 x  1 (trans_dark_blue)
 1 33 0 -56 0 1 0 0 0 1 0 0 0 1 3024.dat
 
+0 STEP
 0 FILE 6681 - policemen.ldr
 0 A police officer minifigure equipped with a radio, signal holder, and a red signal light, wearing a police hat and badge torso.
 0 Name: 6681 - policemen.ldr

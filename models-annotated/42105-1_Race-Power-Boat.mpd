@@ -8,6 +8,7 @@
 1 71 0 -114 220 1 0 0 0 1 0 0 0 1 42105 - powerboat.ldr
 
 
+0 STEP
 0 FILE 42105 - powerboat.ldr
 0 Core hull structure built from Technic beams, angle connectors, gears, and liftarms forming the boat's main framework.
 0 Name: 42105 - powerboat.ldr
@@ -219,6 +220,7 @@
 1 71 -120 -327.987 -8.911 0 0.005 -1 0.95 -0.313 -0.002 -0.313 -0.95 -0.005 2736.dat
 
 
+0 STEP
 0 FILE 42105 - beam1.ldr
 0 Straight structural axle assembly using a 9-stud axle, bushes, cross blocks, and short beams to form a rigid support beam.
 0 Name: 42105 - beam1.ldr
@@ -254,6 +256,7 @@
 1 71 20 0 40 0 0 1 0 1 0 -1 0 0 4519.dat
 
 
+0 STEP
 0 FILE 42105 - beam2.ldr
 0 Long reinforced support beam combining a 15-stud liftarm, T-shaped beams, steering wheels, and cross blocks for a braced structural element.
 0 Name: 42105 - beam2.ldr
@@ -310,6 +313,7 @@
 1 0 60 -40 -2 0 0 -1 1 0 0 0 -1 0 16091.dat
 
 
+0 STEP
 0 FILE 42105 - deck.ldr
 0 Flat deck platform constructed from multiple long liftarms, gear racks, and an axle framework providing a mounting surface.
 0 Name: 42105 - deck.ldr
@@ -392,6 +396,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42105 - cabin.ldr
 0 Boat cabin enclosure built from bent liftarms, beams, a round clear plate window, and towball joints forming the cockpit structure.
 0 Name: 42105 - cabin.ldr
@@ -480,6 +485,7 @@
 1 72 115 0 20 0 -1 0 1 0 0 0 0 1 32056.dat
 
 
+0 STEP
 0 FILE 42105 - cabinrear1.ldr
 0 Rear cabin section using bent liftarms, a 7-stud beam, towball pins, and a 180-degree angle connector forming one side of the cabin back.
 0 Name: 42105 - cabinrear1.ldr
@@ -514,6 +520,7 @@
 1 72 -25 30 70 0 0 1 -1 0 0 0 -1 0 32034.dat
 
 
+0 STEP
 0 FILE 42105 - cabinrear2.ldr
 0 Mirrored rear cabin section using bent liftarms, a 7-stud beam, towball pins, and a 180-degree angle connector forming the opposite side of the cabin back.
 0 Name: 42105 - cabinrear2.ldr
@@ -548,6 +555,7 @@
 1 72 25 30 70 0 0 -1 1 0 0 0 -1 0 32034.dat
 
 
+0 STEP
 0 FILE 42105 - motor1.ldr
 0 Engine assembly built from cross blocks, axles, angle connectors, and orange pin blocks forming one of the boat's drive motors.
 0 Name: 42105 - motor1.ldr
@@ -654,6 +662,7 @@
 1 1 -70 -10 0 0 0 -1 1 0 0 0 -1 0 43093.dat
 
 
+0 STEP
 0 FILE 42105 - motor2.ldr
 0 Mirrored engine assembly built from cross blocks, axles, angle connectors, and orange pin blocks forming the boat's second drive motor.
 0 Name: 42105 - motor2.ldr
@@ -760,6 +769,7 @@
 1 1 -70 -10 0 0 0 1 1 0 0 0 1 0 43093.dat
 
 
+0 STEP
 0 FILE 42105 - 65781.dat
 0 Floating boat hull consisting of a top shell and blue bottom half forming the buoyant 36-stud hull base.
 0 Name: 42105 - 65781.dat
@@ -776,6 +786,7 @@
 0 // Boat Hull Floating 36 x  7 x  7 Bottom (blue)
 1 1 0 0 0 1 0 0 0 1 0 0 0 1 42105 - 65417.dat
 
+0 STEP
 0 FILE 42105 - 18575.dat
 0 Geometric primitive subpart defining an open axle-hole box with rectangular edge faces.
 0 Name: 42105 - 18575.dat
@@ -898,6 +909,7 @@
 0 // Rectangle with 3 Edges (main_colour)
 1 16 1.5 5.7018 0 0 0 0.5 0 1 -0.0998 -10 0 0 rect3.dat
 
+0 STEP
 0 FILE 42105 - 65418.dat
 0 Geometric primitive part composed of connector holes, boxes, and rectangles defining a multi-sided Technic connector body.
 0 Name: 42105 - 65418.dat
@@ -987,6 +999,7 @@
 4 16 5 47 308 15.5427 15 308 -15.5427 15 308 -5 47 308
 4 16 29 13 310 5 47 310 -5 47 310 -29 13 310
 
+0 STEP
 0 FILE s\42105 - 65418s01.dat
 0 Detailed geometric subpart of a Technic connector featuring peg holes, cylinders, rings, and discs forming its cylindrical and ribbed surfaces.
 0 Name: s\42105 - 65418s01.dat
@@ -2339,6 +2352,7 @@
 4 16 29 13 310 29 71 310 5 71 310 5 47 310
 4 16 5 47 308 5 71 308 15.5427 71 308 15.5427 15 308
 
+0 STEP
 0 FILE 42105 - 5-16ring13.dat
 0 Single primitive ring segment generated for a circular part geometry.
 0 Name: 42105 - 5-16ring13.dat
@@ -2355,6 +2369,7 @@
 4 16 0 0 14 -5.3578 0 12.9346 -4.9751 0 12.0107 0 0 13
 0 // Build by LDPartEditor (PrimGen 2.X)
 
+0 STEP
 0 FILE 42105 - 65417.dat
 0 Simple geometric primitive consisting of a four-faced box with all edges forming a small Technic connector element.
 0 Name: 42105 - 65417.dat
@@ -2479,6 +2494,7 @@
 5 24 12 130 240 0 123.585098 269.947205 28.9702 112.505798 306.353699 -12 130 240
 5 24 14 127 -14 14 127 -107.6492 -14 127 -14 49.3181 115.147697 -30.999399
 
+0 STEP
 0 FILE s\42105 - 65417s01.dat
 0 Detailed geometric subpart of a Technic bush/connector featuring cylinders, cones, rings, and rectangular faces defining its ribbed cylindrical body.
 0 Name: s\42105 - 65417s01.dat
@@ -3680,6 +3696,7 @@
 5 24 10.1019 89.703598 -348.553009 23.7586 28.924299 -304.207001 28.3216 25.864 -288.026001 18.666201 37.4487 -319.644012
 5 24 10.1019 89.703598 -348.553009 18.666201 37.4487 -319.644012 23.7586 28.924299 -304.207001 11.2939 68.678596 -343.091003
 
+0 STEP
 0 FILE s\42105 - 32269s01.dat
 0 Geometric subpart composed of rectangles and edges defining the flat face of a Technic 5x3 liftarm with open center.
 0 Name: s\42105 - 32269s01.dat
@@ -3769,6 +3786,7 @@
 3 16 18.258699 2.4034 -10 17.789101 4.7663 -10 19.3403 4.9066 -10
 3 16 15.3375 12.7626 -10 14.6121 11.2123 -10 13.0227 13.0227 -10
 
+0 STEP
 0 FILE s\42105 - 32269s02.dat
 0 Geometric subpart composed of cylinders, rings, and rectangles defining the cylindrical peg-hole features of a Technic liftarm.
 0 Name: s\42105 - 32269s02.dat

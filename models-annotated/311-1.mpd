@@ -169,6 +169,7 @@
 1 4 0 0 220 1 0 0 0 1 0 0 0 1 164c02.dat
 1 4 0 80 0 1 0 0 0 1 0 0 0 1 311 - x139b.dat
 
+0 STEP
 0 FILE 311 - x139b.dat
 0 A weighted boat keel formed by two half-spheres capped with a cylinder and circle, creating a rounded ballast mass.
 0 Name: 311 - x139b.dat
@@ -191,6 +192,7 @@
 0 // Sphere 0.5 (main_colour)
 1 16 0 80 60 -20 0 0 0 0 20 0 20 0 4-8sphe.dat
 
+0 STEP
 0 FILE s\311 - x139s01.dat
 0 One half of a sculpted boat keel composed of curved rings, sloped cylinders, and circular primitives defining its tapered profile.
 0 Name: s\311 - x139s01.dat
@@ -489,6 +491,7 @@
 2 24 11.476 2 -64.294 12.296 2 -64.457
 2 24 12.296 2 -64.457 14.243 2 -65.757
 
+0 STEP
 0 FILE s\311 - x139s02.dat
 0 The geometric outline form of half the keel, constructed from chords, cylinders, and a circle with added conditional lines.
 0 Name: s\311 - x139s02.dat

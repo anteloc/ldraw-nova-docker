@@ -65,6 +65,7 @@
 1 71 85 -40 -20 -1 0 0 0 1 0 0 0 -1 8259 - House.ldr
 
 
+0 STEP
 0 FILE 8259 - technicChainTread17Closed-1.ldr
 0 Closed loop of 23 chain tread segments forming a continuous rubber track band.
 0 Name: 8259 - technicChainTread17Closed-1.ldr
@@ -141,6 +142,7 @@
 1 16 -20.951591 0.641848 0 0 0.912833 0.408332 0 -0.408332 0.912833 1 0 0 3873.dat
 
 
+0 STEP
 0 FILE 8259 - House.ldr
 0 Structural frame built from bent yellow liftarms, cross blocks, and pins forming the body housing of the excavator.
 0 Name: 8259 - House.ldr
@@ -206,6 +208,7 @@
 1 14 80 -44.162 8.581 0 -1 0 0.97 0 0.241 -0.241 0 0.97 32065.dat
 
 
+0 STEP
 0 FILE 8259 - subModel-1.ldr
 0 Worm gear and 8-tooth gear drivetrain on axles and bent liftarms providing a reduction mechanism.
 0 Name: 8259 - subModel-1.ldr
@@ -250,6 +253,7 @@
 1 14 20 -20 15 -0.966 -0.259 0 -0.259 0.966 0 0 0 -1 32123b.dat
 
 
+0 STEP
 0 FILE 8259 - Arm.ldr
 0 Excavator arm assembly with long yellow beams, a 2x4 plate, and a rounded yellow panel forming the articulated bucket arm.
 0 Name: 8259 - Arm.ldr

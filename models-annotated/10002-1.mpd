@@ -38,6 +38,7 @@
 
 
 
+0 STEP
 0 FILE 10002 - train car.ldr
 0 Passenger train car body with red/white/blue striped doors, glazed windows, interior minifig seats, plated walls and roof, decorative stickers, and two wheel bogies
 0 Name: 10002 - train car.ldr
@@ -595,6 +596,7 @@
 1 0 -260 -64 0 -1 0 0 0 1 0 0 0 -1 10002 - train car - wheels.ldr
 
 
+0 STEP
 0 FILE 10002 - train car - wheels.ldr
 0 Two-axle train bogie with wheels, buffer beam, magnetic coupling, and mounting plate
 0 Name: 10002 - train car - wheels.ldr
@@ -622,6 +624,7 @@
 1 16 104.5 28.5 0.01 0 0 -1 0 1 0 1 0 0 73092.DAT
 
 
+0 STEP
 0 FILE 10002 - minifig 1.ldr
 0 Train crew minifig in black uniform with red cap and sunglasses face
 0 Name: 10002 - minifig 1.ldr
@@ -653,6 +656,7 @@
 1 4 11.8508 -77.0002 0 0 0 1 0 1 0 -1 0 0 4485.DAT
 
 
+0 STEP
 0 FILE 10002 - minifig 2.ldr
 0 Passenger minifig in white palm-tree shirt, blue legs and blue cap, freckled grinning face
 0 Name: 10002 - minifig 2.ldr
@@ -684,6 +688,7 @@
 1 1 11.8508 -77.0002 0 0 0 1 0 1 0 -1 0 0 4485.DAT
 
 
+0 STEP
 0 FILE 10002 - minifig 3.ldr
 0 Passenger minifig in white shirt with red necklace over red legs, brown shoulder-length hair
 0 Name: 10002 - minifig 3.ldr
@@ -715,6 +720,7 @@
 1 6 -11.1608 -77.0002 -0.0622 0 0 -1 0 1 0 1 0 0 4530.DAT
 
 
+0 STEP
 0 FILE 10002 - minifig 4.ldr
 0 Passenger minifig in white-and-red striped shirt, white legs, black shoulder-length hair
 0 Name: 10002 - minifig 4.ldr
@@ -746,6 +752,7 @@
 1 0 11.1558 -77.0002 0 0 0 1 0 1 0 -1 0 0 4530.DAT
 
 
+0 STEP
 0 FILE 10002 - minifig 5.ldr
 0 Passenger minifig in white shirt with red truck print, blue legs, black male hair
 0 Name: 10002 - minifig 5.ldr

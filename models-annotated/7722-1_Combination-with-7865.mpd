@@ -84,6 +84,7 @@
 
 
 
+0 STEP
 0 FILE 7722 - locomotive.ldr
 0 12V powered steam locomotive with electric motor, connecting rods, weighted base, magnet couplings, and brick-built boiler with headlights and transparent round plates.
 0 Name: 7722 - locomotive.ldr
@@ -292,6 +293,7 @@
 
 
 
+0 STEP
 0 FILE 7722 - train car 1.ldr
 0 Battery box car with a 6x14 roof, single buffers, sloped ends, and plate-based construction.
 0 Name: 7722 - train car 1.ldr
@@ -344,6 +346,7 @@
 
 
 
+0 STEP
 0 FILE 7722 - train car 2.ldr
 0 Flatbed freight car with buffer beam couplings, small train wheels, inverted slopes, cones, and lattice fencing.
 0 Name: 7722 - train car 2.ldr
@@ -439,6 +442,7 @@
 
 
 
+0 STEP
 0 FILE 7722 - train car 3.ldr
 0 Flatbed freight car with buffer beam couplings, small train wheels, a turntable plate, door rails, and lattice fencing for cargo.
 0 Name: 7722 - train car 3.ldr
@@ -633,6 +637,7 @@
 
 
 
+0 STEP
 0 FILE 7722 - forklift.ldr
 0 Small wheeled forklift vehicle built on a bracket base with tyres, grille bricks, headlight bricks, and a towball plate.
 0 Name: 7722 - forklift.ldr
@@ -755,6 +760,7 @@
 
 
 
+0 STEP
 0 FILE 7722 - trailer.ldr
 0 Towable trailer with a turntable hitch, four tyres on red wheels, inverted slopes, hinge tiles, and lattice fencing.
 0 Name: 7722 - trailer.ldr
@@ -812,6 +818,7 @@
 
 
 
+0 STEP
 0 FILE 7722 - platform.ldr
 0 Loading platform built from plates and bricks with sloped ramps on a 6x10 base.
 0 Name: 7722 - platform.ldr
@@ -862,6 +869,7 @@
 
 
 
+0 STEP
 0 FILE 7722 - pallete.ldr
 0 Simple shipping pallet assembled from 1x4 and 4x6 plates.
 0 Name: 7722 - pallete.ldr
@@ -883,6 +891,7 @@
 
 
 
+0 STEP
 0 FILE 7722 - pallete 2.ldr
 0 Stacked round pallet of yellow, red, and white 2x2 round bricks and plates with axleholes.
 0 Name: 7722 - pallete 2.ldr
@@ -937,6 +946,7 @@
 
 
 
+0 STEP
 0 FILE 7722 - postal parcel.ldr
 0 Small postal parcel made of a 1x2 brick with a letter-patterned tile.
 0 Name: 7722 - postal parcel.ldr
@@ -955,6 +965,7 @@
 
 
 
+0 STEP
 0 FILE 7722 - minifig 1.ldr
 0 Blue-torso worker minifigure wearing a red police hat with standard grin head.
 0 Name: 7722 - minifig 1.ldr
@@ -989,6 +1000,7 @@
 
 
 
+0 STEP
 0 FILE 7722 - minifig 2.ldr
 0 Red-torso mail worker minifigure with mail horn pattern and black police hat.
 0 Name: 7722 - minifig 2.ldr
@@ -1023,6 +1035,7 @@
 
 
 
+0 STEP
 0 FILE 7722 - minifig 3.ldr
 0 White-torso worker minifigure with red dungarees pattern and red cap.
 0 Name: 7722 - minifig 3.ldr
@@ -1057,6 +1070,7 @@
 
 
 
+0 STEP
 0 FILE 7722 - flexHose.ldr
 0 Flexible hose assembly composed of 45 segment links plus end sections forming a contoured tube.
 0 Name: 7722 - flexHose.ldr
@@ -1190,6 +1204,7 @@
 
 
 
+0 STEP
 0 FILE 7722 - 3443c12.dat
 0 Magnet holder sub-assembly for a 6x16 train base with two complete magnet couplings.
 0 Train Battery Box Car w/ Black Base, Black Wheels and Magnets
@@ -1206,6 +1221,7 @@
 
 
 
+0 STEP
 0 FILE 7722 - 3443c11.dat
 0 Battery box car body sub-assembly with spoked wheels, steel axles, a direction lever, and a cutout button.
 0 ~Train Battery Box Car with Black Base and Black Wheels
@@ -1236,6 +1252,7 @@
 
 
 
+0 STEP
 0 FILE 7722 - x941.dat
 0 Low-level geometric primitive part composed of numerous rectangles, boxes, cylinders, rings, discs, and circles.
 0 ~Train Base for Train Battery Box Car

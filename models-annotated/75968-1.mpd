@@ -9,6 +9,7 @@
 1 0 -550 -8 0 1 0 0 0 1 0 0 0 1 75968 - Car.ldr
 
 
+0 STEP
 0 FILE 75968 - House.ldr
 0 Two-story tan and reddish-brown log-style house with a large olive-green base plate, sloped roof sections, and windows.
 0 Name: 75968 - House.ldr
@@ -1297,6 +1298,7 @@
 1 71 -150 -484.5 50 -0.707 0 -0.707 0 -1 0 -0.707 0 0.707 87618.dat
 
 
+0 STEP
 0 FILE 75968 - Tree.ldr
 0 Small reddish-brown tree with green leaves and foliage plates.
 0 Name: 75968 - Tree.ldr
@@ -1359,6 +1361,7 @@
 1 2 18.385 -46 -18.385 -0.5 -0.707 -0.5 -0.707 0 0.707 -0.5 0.707 -0.5 32607.dat
 
 
+0 STEP
 0 FILE 75968 - Break Window.ldr
 0 Detachable tan window section with two reddish-brown windows, glass panes, and clip-mounted antennae for a break-away feature.
 0 Name: 75968 - Break Window.ldr
@@ -1415,6 +1418,7 @@
 1 0 30 -76 -20 -1 0 0 0 -1 0 0 0 1 3957b.dat
 
 
+0 STEP
 0 FILE 75968 - Car.ldr
 0 Medium-blue and white car with a black chassis base, wheel plates, slopes, and red light elements.
 0 Name: 75968 - Car.ldr
@@ -1720,6 +1724,7 @@
 1 0 0 -3 50 -1 0 0 0 1 0 0 0 -1 75968 - Wheel.ldr
 
 
+0 STEP
 0 FILE 75968 - Car Chain.ldr
 0 Dark bluish-grey tow chain assembly made of connected chain links.
 0 Name: 75968 - Car Chain.ldr
@@ -1775,6 +1780,7 @@
 1 72 0 0 0 0 0 1 0 1 0 -1 0 0 60169k01.dat
 
 
+0 STEP
 0 FILE 75968 - Car Deck Lid.ldr
 0 Medium-blue car trunk lid with curved slopes, handle plates, and a mounting bracket.
 0 Name: 75968 - Car Deck Lid.ldr
@@ -1803,6 +1809,7 @@
 1 73 0 0 -8 -1 0 0 0 0 1 0 1 0 2431.dat
 
 
+0 STEP
 0 FILE 75968 - Wheel.ldr
 0 Single wheel consisting of a pearl-silver rim and a black shallow tread tyre.
 0 Name: 75968 - Wheel.ldr
@@ -1816,6 +1823,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 92409.dat
 
 
+0 STEP
 0 FILE 75968 - 37695.dat
 0 Primitive cylindrical part composed of a closed cylinder, open cylinder, ring, and cone shapes.
 0 Name: 75968 - 37695.dat
@@ -1966,6 +1974,7 @@
 2 24 -0.8525 -29.493401 3.8305 -0.924 -29.1665 3.8163
 
 
+0 STEP
 0 FILE 75968 - s\75968 - 37695s01.dat
 0 Subpart containing no direct pieces, serving as an organizational reference for part 37695.
 0 Name: 75968 - s\75968 - 37695s01.dat

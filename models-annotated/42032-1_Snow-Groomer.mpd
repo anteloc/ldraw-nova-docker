@@ -7,6 +7,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 42032 - Snow Groomer.ldr
 
 
+0 STEP
 0 FILE 42032 - Snow Groomer.ldr
 0 Core chassis assembly featuring a worm gear, bevel gears, liftarms, and axles forming the main drivetrain structure of the snow groomer.
 0 Name: 42032 - Snow Groomer.ldr
@@ -148,6 +149,7 @@
 1 15 0 0 -140 -1 0 0 0 1 0 0 0 -1 42032 - SG32.ldr
 
 
+0 STEP
 0 FILE 42032 - SG07.ldr
 0 Triangular liftarm and axle sub-assembly used to connect and reinforce structural framing.
 0 Name: 42032 - SG07.ldr
@@ -167,6 +169,7 @@
 1 72 -25 -20 40 0 1 0 0 0 -1 -1 0 0 99773.dat
 
 
+0 STEP
 0 FILE 42032 - SG09.ldr
 0 Gear-driven linkage built from a 24-tooth gear, liftarms, and a cross block for torque transfer.
 0 Name: 42032 - SG09.ldr
@@ -189,6 +192,7 @@
 1 0 15 0 40 0 1 0 1 0 0 0 0 -1 11478.dat
 
 
+0 STEP
 0 FILE 42032 - SG11.ldr
 0 Compact angled gear train using four 20-tooth bevel gears and an angle connector to redirect rotation.
 0 Name: 42032 - SG11.ldr
@@ -221,6 +225,7 @@
 1 71 -10 0 0 0 0 1 0 1 0 -1 0 0 87407.dat
 
 
+0 STEP
 0 FILE 42032 - SG12.ldr
 0 Compact angled gear train using four 20-tooth bevel gears and an angle connector to redirect rotation.
 0 Name: 42032 - SG12.ldr
@@ -253,6 +258,7 @@
 1 71 -10 0 0 0 0 1 0 1 0 -1 0 0 87407.dat
 
 
+0 STEP
 0 FILE 42032 - SG14.ldr
 0 Simple single bevel gear and connector assembly mounted on a stopped axle for limited rotation transfer.
 0 Name: 42032 - SG14.ldr
@@ -268,6 +274,7 @@
 1 0 -10 0 20 1 0 0 0 1 0 0 0 1 32039.dat
 
 
+0 STEP
 0 FILE 42032 - SG18.ldr
 0 Bent 90-degree liftarm bracket assembly joined by friction pins to form a pivoting structural joint.
 0 Name: 42032 - SG18.ldr
@@ -297,6 +304,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42032 - SG21.ldr
 0 Bent liftarm mechanism with a transparent orange domed cylinder, likely functioning as a light or signaling element.
 0 Name: 42032 - SG21.ldr
@@ -331,6 +339,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42032 - SG21S03.ldr
 0 Small axle and cross block connector sub-assembly used to link structural components within SG21.
 0 Name: 42032 - SG21S03.ldr
@@ -348,6 +357,7 @@
 1 0 0 0 -20 1 0 0 0 0 1 0 -1 0 3705.dat
 
 
+0 STEP
 0 FILE 42032 - SG23.ldr
 0 Angled arm assembly with transparent and black slope bricks, forming a window or housing detail panel.
 0 Name: 42032 - SG23.ldr
@@ -384,6 +394,7 @@
 1 0 0 -20 -10 1 0 0 0 0 -1 0 1 0 85984.dat
 
 
+0 STEP
 0 FILE 42032 - SG Side.ldr
 0 Side panel made from a long liftarm beam connected with pins to form the model's outer frame.
 0 Name: 42032 - SG Side.ldr
@@ -401,6 +412,7 @@
 1 71 0 -20 40 1 0 0 0 1 0 0 0 1 32523.dat
 
 
+0 STEP
 0 FILE 42032 - SG26.ldr
 0 Lighting or reflector assembly featuring two round transparent red plates mounted on a cross block linkage.
 0 Name: 42032 - SG26.ldr
@@ -430,6 +442,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42032 - SG Side 2.ldr
 0 Short side linkage using an angle connector and stopped axle to extend the side frame at an angle.
 0 Name: 42032 - SG Side 2.ldr
@@ -445,6 +458,7 @@
 1 0 0 20 100 0 0 -1 0 1 0 1 0 0 42003.dat
 
 
+0 STEP
 0 FILE 42032 - SG31.ldr
 0 Steering or actuator mechanism built from bent liftarms, a 12-tooth gear, pins, and joiners for articulated movement.
 0 Name: 42032 - SG31.ldr
@@ -513,6 +527,7 @@
 1 1 10 -20 -40 1 0 0 0 0 -1 0 1 0 43093.dat
 
 
+0 STEP
 0 FILE 42032 - SG31S09.ldr
 0 Minimal cross block and axle pin sub-assembly serving as a mounting point within the SG31 mechanism.
 0 Name: 42032 - SG31S09.ldr
@@ -528,6 +543,7 @@
 1 0 0 0 -30 0 -1 0 0 0 1 -1 0 0 3705.dat
 
 
+0 STEP
 0 FILE 42032 - SG32.ldr
 0 Pair of long white liftarm beams connected by friction pins, forming a parallel support bar or linkage.
 0 Name: 42032 - SG32.ldr
@@ -545,6 +561,7 @@
 1 15 0 -20 0 0 0 1 0 1 0 -1 0 0 32278.dat
 
 
+0 STEP
 0 FILE 42032 - Caterpillar.ldr
 0 Continuous rubber track tread composed of 32 linked chain segments forming the groomer's crawler belt.
 0 Name: 42032 - Caterpillar.ldr

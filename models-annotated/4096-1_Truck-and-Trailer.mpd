@@ -7,6 +7,7 @@
 1 8 0 0 0 1 0 0 0 1 0 0 0 1 4096 - AB Truck and Trailer.ldr
 
 
+0 STEP
 0 FILE 4096 - AB Truck.ldr
 0 A yellow and dark grey truck cab built from plates, bricks, mudguards, and a turntable on wheel-pin plates.
 0 Name: 4096 - AB Truck.ldr
@@ -134,6 +135,7 @@
 1 14 -32 -3 40 0 0 1 0 1 0 -1 0 0 30027b.dat
 
 
+0 STEP
 0 FILE 4096 - AB Truck S10.ldr
 0 A small set of transparent clear plates and rounds forming a glass or display element.
 0 Name: 4096 - AB Truck S10.ldr
@@ -148,6 +150,7 @@
 1 47 10 -8 0 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 4096 - AB Truck and Trailer.ldr
 0 A yellow and dark grey truck-and-trailer assembly featuring plates, mudguards, panels, slopes, and wheel-pin plates.
 0 Name: 4096 - AB Truck and Trailer.ldr
@@ -253,6 +256,7 @@
 1 0 0 16 -240 1 0 0 0 1 0 0 0 1 4096 - AB Truck.ldr
 
 
+0 STEP
 0 FILE 4096 - AB Truck S12.ldr
 0 A set of small round bricks, plates, and a cone forming decorative lights or fittings.
 0 Name: 4096 - AB Truck S12.ldr
@@ -270,6 +274,7 @@
 1 0 0 -56 0 1 0 0 0 1 0 0 0 1 4589.dat
 
 
+0 STEP
 0 FILE 4096 - AB Truck and Trailer S12.ldr
 0 A dark grey and light grey assembly of plates, round bricks, and an open cone forming a cargo container or tank detail.
 0 Name: 4096 - AB Truck and Trailer S12.ldr

@@ -14,6 +14,7 @@
 1 0 60 -8 30 0.866 0 0.5 0 1 0 -0.5 0 0.866 6698 - minifig.ldr
 
 0 NOFILE
+0 STEP
 0 FILE 6698 - car.ldr
 0 A white vehicle built on a 4x10 car base with mudguards, four offset-tread tyres, and a steering wheel.
 0 car
@@ -159,6 +160,7 @@
 1 47 -30 -94 151 1 0 0 0 0 1 0 -1 0 6141.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6698 - boat.ldr
 0 A small boat with a white hull, blue panels and wings, and a steering stand.
 0 boat
@@ -237,6 +239,7 @@
 1 15 0 -48 170 0 0 1 0 1 0 -1 0 0 3069b.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6698 - trailer.ldr
 0 A red trailer with hinge plates, wing panels, a set of stretcher wheels, and a towball connection.
 0 trailer
@@ -301,6 +304,7 @@
 1 36 -241 2 30 0 1 0 0 0 1 1 0 0 6141.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6698 - minifig.ldr
 0 A red rescue minifig with a thick-chin-guard helmet, airtanks, and a standard grin head.
 0 minifig

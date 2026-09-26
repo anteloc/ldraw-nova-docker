@@ -12,6 +12,7 @@
 1 4 -240 0 10 1 0 0 0 1 0 0 0 1 6649 - minifig.ldr
 
 0 NOFILE
+0 STEP
 0 FILE 6649 - sweeper.ldr
 0 A street sweeper vehicle build with mudguards, plates, wheels, a Technic axle, and blue car wash brushes mounted on a towball brush holder.
 0 sweeper
@@ -159,6 +160,7 @@
 1 6 20 -7 -40 0 0 -1 0 -1 0 -1 0 0 3836.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6649 - minifig.ldr
 0 A street worker minifig wearing a red cap, sunglasses, and a blue zippered jacket with pockets.
 0 minifig

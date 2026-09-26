@@ -440,6 +440,7 @@
 
 
 
+0 STEP
 0 FILE 42035 - motor.ldr
 0 Technic engine assembly with cylinder head, pistons, connecting rods, crankshafts, and a gear connected to a wheel rim via an exhaust pipe.
 0 Name: 42035 - motor.ldr
@@ -506,6 +507,7 @@
 0 // Exhaust Pipe with Pin and Flat Tip (light_bluish_grey)
 1 71 10 0 -80 0 1 0 0 0 1 1 0 0 14682.dat
 
+0 STEP
 0 FILE 42035 - technicChainClosed-2.ldr
 0 Closed Technic chain loop composed of nineteen linked chain links forming a continuous belt.
 0 Name: 42035 - technicChainClosed-2.ldr
@@ -572,6 +574,7 @@
 0 // Technic Chain Link (main_colour)
 1 16 -20.2 0 0 0 0.9239 0.3827 0 -0.3827 0.9239 1 0 0 3711.dat
 
+0 STEP
 0 FILE 42035 - bucket.ldr
 0 Large yellow Technic bucket constructed from beams, panels, and pins with reinforcing cross blocks and bushings.
 0 Name: 42035 - bucket.ldr
@@ -719,6 +722,7 @@
 0 // Technic Panel  5 x 11 Trapezium (yellow)
 1 14 -200 -80.1227 -0.0813 0 -1 0 0 0 1 -1 0 0 18945.dat
 
+0 STEP
 0 FILE 42035 - buckettop.ldr
 0 Yellow Technic bucket lid and frame made of beams, cross blocks, and plates with transparent slope brick windows.
 0 Name: 42035 - buckettop.ldr
@@ -821,6 +825,7 @@
 1 47 80 0 -58 -1 0 0 0 0 1 0 1 0 50746.dat
 
 
+0 STEP
 0 FILE 42035 - 2850b.dat
 0 Primitive geometry defining the quarter-cylinder and disc shapes that form the engine cylinder head shell.
 0 Name: 42035 - 2850b.dat
@@ -969,6 +974,7 @@
 1 16 0 43 0 2.77164 0 -1.14805 0 -1 0 1.14805 0 2.77164 3-8ring4.dat
 
 
+0 STEP
 0 FILE s\42035 - 2850s01.dat
 0 Underlying primitive geometry (cylinders, circles, boxes, and rings) defining the common structure of the Technic engine cylinder head.
 0 Name: s\42035 - 2850s01.dat

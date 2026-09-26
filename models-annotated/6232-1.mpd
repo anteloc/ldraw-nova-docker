@@ -13,6 +13,7 @@
 1 16 20 -12 10 1 0 0 0 1 0 0 0 1 6232 - Skeleton.ldr
 1 16 -60 0 -50 1 0 0 0 1 0 0 0 1 6232 - Pirate.ldr
 
+0 STEP
 0 FILE 6232 - Island.ldr
 0 A small grey rocky island built on a yellow plate, decorated with a palm leaf, a barrel, and scattered gold coins.
 0 Name: 6232 -  Island.ldr
@@ -57,6 +58,7 @@
 0 // Minifig Coin with "40" Sans-serif Type (chrome_gold)
 1 334 60 -24 -40 -1 0 0 0 1 0 0 0 -1 70501d.dat
 
+0 STEP
 0 FILE 6232 - Pirate.ldr
 0 A pirate minifigure wearing a red rag hat and green vest, armed with a flintlock pistol and a cutlass.
 0 Name: 6232 - Pirate.ldr
@@ -89,6 +91,7 @@
 0 // ~Minifig Leg Left (Obsolete) (blue)
 1 1 0 -28 0 1 0 0 0 1 0 0 0 1 3817.dat
 
+0 STEP
 0 FILE 6232 - Skeleton.ldr
 0 A skeletal minifigure with a skull head, black morion helmet, and thin skeleton torso, arms, and legs.
 0 Name: 6232 - Skeleton.ldr

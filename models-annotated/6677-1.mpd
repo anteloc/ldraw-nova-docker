@@ -20,6 +20,7 @@
 
 
 
+0 STEP
 0 FILE 6677 - car.ldr
 0 Small vehicle built from plates and mudguards with a steering wheel, red and clear light pieces, and an opening door.
 0 Name: 6677 - car.ldr
@@ -137,6 +138,7 @@
 
 
 
+0 STEP
 0 FILE 6677 - trailer.ldr
 0 Wheeled trailer with a towball hitch, mudguard, and round red tail lights meant to be towed behind the car.
 0 Name: 6677 - trailer.ldr
@@ -190,6 +192,7 @@
 
 
 
+0 STEP
 0 FILE 6677 - minifig.ldr
 0 Helmuted minifig wearing a white torso with a red and black 'S' logo and a smiling yellow head.
 0 Name: 6677 - minifig.ldr
@@ -221,6 +224,7 @@
 
 
 
+0 STEP
 0 FILE 6677 - motorbike.ldr
 0 Blue two-wheel motorcycle with red wheels and white tiles bearing a black '3' number plate marking.
 0 Name: 6677 - motorbike.ldr
@@ -252,6 +256,7 @@
 
 
 
+0 STEP
 0 FILE 6677 - 4480c01.dat
 0 Complete motorcycle frame assembly consisting of left and right side panels and the front forks.
 0 Name: 6677 - 4480c01.dat 
@@ -270,6 +275,7 @@
 
 
 
+0 STEP
 0 FILE 6677 - 4481.dat
 0 Left side body panel of the motorcycle frame, formed from cylinders, rectangles, and a stud logo.
 0 Name: 6677 - 4481.dat 
@@ -341,6 +347,7 @@
 
 
 
+0 STEP
 0 FILE 6677 - 4480.dat
 0 Right side body panel of the motorcycle frame with rear section details, pinholes, and geometric primitives.
 0 Name: 6677 - 4480.dat 
@@ -513,6 +520,7 @@
 
 
 
+0 STEP
 0 FILE 6677 - 4481s01.dat
 0 Shared left/right subpart of the motorcycle frame, built from many circles, cylinders, discs, and rings.
 0 Name: 6677 - 4481s01.dat 
@@ -1495,6 +1503,7 @@
 
 
 
+0 STEP
 0 FILE 6677 - logo5.dat
 0 3D flattened LEGO logo used as decoration on the motorcycle frame studs.
 0 Name: 6677 - logo5.dat

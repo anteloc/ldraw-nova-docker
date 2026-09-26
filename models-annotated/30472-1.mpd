@@ -7,6 +7,7 @@
 1 4 0 0 0 1 0 0 0 1 0 0 0 1 30472 - Parrot.ldr
 
 
+0 STEP
 0 FILE 30472 - Parrot.ldr
 0 The parrot's head, featuring sloped and curved beak bricks, colorful plate layering, and clip/handle connections for attachment.
 0 Name: 30472 - Parrot.ldr
@@ -80,6 +81,7 @@
 1 4 66.77 -44.854 7.22 -0.707 0.707 0 -0.612 -0.612 -0.5 -0.354 -0.354 0.866 30472 - Wing Left.ldr
 
 
+0 STEP
 0 FILE 30472 - Body.ldr
 0 A compact body core of stacked 2x2 bricks with side ball joints for attaching the wings.
 0 Name: 30472 - Body.ldr
@@ -97,6 +99,7 @@
 1 72 -10 -32 0 0 0 1 0 1 0 -1 0 0 14417.dat
 
 
+0 STEP
 0 FILE 30472 - Tail.ldr
 0 A feathered tail built from left and right wing plates, a curved slope, and a handled connector mounted to a dish.
 0 Name: 30472 - Tail.ldr
@@ -118,6 +121,7 @@
 1 272 0 -8 0 -1 0 0 0 1 0 0 0 -1 15068.dat
 
 
+0 STEP
 0 FILE 30472 - Wing Right.ldr
 0 A right wing assembly using a yellow wing plate, corner-less plate base, friction socket joint, and rimmed dish detail.
 0 Name: 30472 - Wing Right.ldr
@@ -138,6 +142,7 @@
 1 4 10 -16 -10 -1 0 0 0 -1 0 0 0 1 2654.dat
 
 
+0 STEP
 0 FILE 30472 - Wing Left.ldr
 0 A left wing assembly using a yellow wing plate, corner-less plate base, friction socket joint, and rimmed dish detail.
 0 Name: 30472 - Wing Left.ldr

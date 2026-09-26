@@ -24,6 +24,7 @@
 
 
 
+0 STEP
 0 FILE 8258 - m-1.ldr
 0 Core structural frame with beams, gears, and transmission rings forming the chassis and gearbox mount of the vehicle.
 0 Name: 8258 - m-1.ldr
@@ -773,6 +774,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1a.ldr
 0 Small beam and pin assembly used as a connecting linkage or brace component.
 0 Name: 8258 - m-1a.ldr
@@ -798,6 +800,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1b.ldr
 0 Simple black beam joined with long friction pins forming a rigid connecting arm.
 0 Name: 8258 - m-1b.ldr
@@ -823,6 +826,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1c.ldr
 0 Three-pin cross block with tan slotted pins serving as a pivoting connector joint.
 0 Name: 8258 - m-1c.ldr
@@ -848,6 +852,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1d.ldr
 0 Axle and joiner combination forming a short extended shaft coupling.
 0 Name: 8258 - m-1d.ldr
@@ -871,6 +876,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1e.ldr
 0 Red axle-pin cross block with a blue friction pin forming an articulated joint.
 0 Name: 8258 - m-1e.ldr
@@ -894,6 +900,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1f.ldr
 0 Linear actuator drive assembly with bevel gears, axles, and bushes for motion transfer.
 0 Name: 8258 - m-1f.ldr
@@ -944,6 +951,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1g.ldr
 0 Transmission driving ring with offset joiner and axle forming a gear-shifting selector element.
 0 Name: 8258 - m-1g.ldr
@@ -970,6 +978,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1h.ldr
 0 Bent liftarm with gears, axle, and a linear actuator forming an angled drive mechanism.
 0 Name: 8258 - m-1h.ldr
@@ -1015,6 +1024,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1ha.ldr
 0 Axle with inline joiner forming a short coupled shaft extension.
 0 Name: 8258 - m-1ha.ldr
@@ -1038,6 +1048,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1i.ldr
 0 Red beam with a 24-tooth clutch gear and stopped axle forming a driven gear module.
 0 Name: 8258 - m-1i.ldr
@@ -1068,6 +1079,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1j.ldr
 0 Gearbox section with cross blocks, worm gear, axles, and short liftarms forming a reduction drive unit.
 0 Name: 8258 - m-1j.ldr
@@ -1134,6 +1146,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1ja.ldr
 0 Short axle with an 8-tooth gear and half-bushes forming a small drive gear sub-assembly.
 0 Name: 8258 - m-1ja.ldr
@@ -1161,6 +1174,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1jb.ldr
 0 Axle with a 24-tooth clutch gear and bush forming a larger driven gear sub-assembly.
 0 Name: 8258 - m-1jb.ldr
@@ -1187,6 +1201,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1k.ldr
 0 Linear actuator drive unit with worm gear, bevel gears, and liftarms forming a geared actuation mechanism.
 0 Name: 8258 - m-1k.ldr
@@ -1244,6 +1259,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1ka.ldr
 0 Axle with a 12-tooth double bevel gear forming a simple drive shaft component.
 0 Name: 8258 - m-1ka.ldr
@@ -1267,6 +1283,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1kb.ldr
 0 Axle with an 8-tooth gear and half-bushes forming a small pinion sub-assembly.
 0 Name: 8258 - m-1kb.ldr
@@ -1295,6 +1312,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1l.ldr
 0 Transmission driving ring with 16-tooth clutch gear, axle, and offset joiner forming a gear selector stage.
 0 Name: 8258 - m-1l.ldr
@@ -1328,6 +1346,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1m.ldr
 0 Bent red beam with friction pins forming an angled support bracket.
 0 Name: 8258 - m-1m.ldr
@@ -1357,6 +1376,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1ma.ldr
 0 Blue axle-pin with a black cross block forming a small articulated joint element.
 0 Name: 8258 - m-1ma.ldr
@@ -1380,6 +1400,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1n.ldr
 0 Beam framework with bushes, cross block, and pin joiner forming a reinforced structural support arm.
 0 Name: 8258 - m-1n.ldr
@@ -1449,6 +1470,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1na.ldr
 0 Cross block with two axles forming a perpendicular shaft junction component.
 0 Name: 8258 - m-1na.ldr
@@ -1474,6 +1496,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1nb.ldr
 0 Yellow cross blocks with a changeover catch and bush forming a transmission shifter linkage element.
 0 Name: 8258 - m-1nb.ldr
@@ -1507,6 +1530,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1o.ldr
 0 Blue axle-pin with a red stop-bush pin forming a short connector element.
 0 Name: 8258 - m-1o.ldr
@@ -1530,6 +1554,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1p.ldr
 0 Red side panel assembly with beams and round plates attached via friction pins.
 0 Name: 8258 - m-1p.ldr
@@ -1579,6 +1604,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1q.ldr
 0 Red side panel assembly with beams and round plates attached via friction pins.
 0 Name: 8258 - m-1q.ldr
@@ -1628,6 +1654,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1r.ldr
 0 Small drivetrain of an axle with bushing and 8-tooth gear.
 0 Name: 8258 - m-1r.ldr
@@ -1654,6 +1681,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1s.ldr
 0 Axle joiner connecting two axle segments inline.
 0 Name: 8258 - m-1s.ldr
@@ -1677,6 +1705,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1t.ldr
 0 Axle and stop-bush pin connector assembly.
 0 Name: 8258 - m-1t.ldr
@@ -1700,6 +1729,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1u.ldr
 0 90-degree angle connector with an 11-stud beam and axle pins.
 0 Name: 8258 - m-1u.ldr
@@ -1729,6 +1759,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1ua.ldr
 0 Axle pin joined to a red angle connector.
 0 Name: 8258 - m-1ua.ldr
@@ -1752,6 +1783,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1v.ldr
 0 16-tooth gear mounted on a short axle.
 0 Name: 8258 - m-1v.ldr
@@ -1775,6 +1807,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1w.ldr
 0 16-tooth gear secured with an axle pin.
 0 Name: 8258 - m-1w.ldr
@@ -1798,6 +1831,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1x.ldr
 0 Gear pair of 16-tooth and 12-tooth bevel gears on a shared axle.
 0 Name: 8258 - m-1x.ldr
@@ -1823,6 +1857,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1y.ldr
 0 20-tooth bevel gear on a long axle.
 0 Name: 8258 - m-1y.ldr
@@ -1846,6 +1881,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1z.ldr
 0 Power Functions polarity switch and connector module with plates and pins.
 0 Name: 8258 - m-1z.ldr
@@ -2151,6 +2187,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1za.ldr
 0 Axle with towball connector and red bush connector.
 0 Name: 8258 - m-1za.ldr
@@ -2176,6 +2213,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1a'.ldr
 0 Long light-grey beam reinforced with friction pins and short black beams.
 0 Name: 8258 - m-1a'.ldr
@@ -2210,6 +2248,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1b'.ldr
 0 Long black beam with two long friction pins.
 0 Name: 8258 - m-1b'.ldr
@@ -2235,6 +2274,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1c'.ldr
 0 Pin cross block with a stopped axle and three half-bushes.
 0 Name: 8258 - m-1c'.ldr
@@ -2265,6 +2305,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1d'.ldr
 0 Red 9-stud beam braced with friction pins and a short yellow beam.
 0 Name: 8258 - m-1d'.ldr
@@ -2297,6 +2338,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1e'.ldr
 0 Red bent 90-degree beam assembly with beams joined by long friction pins.
 0 Name: 8258 - m-1e'.ldr
@@ -2329,6 +2371,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1f'.ldr
 0 20-tooth bevel gear on a stopped axle.
 0 Name: 8258 - m-1f'.ldr
@@ -2352,6 +2395,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1g'.ldr
 0 Long light-grey beam with bent red beam and friction pins.
 0 Name: 8258 - m-1g'.ldr
@@ -2387,6 +2431,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1g'a.ldr
 0 Axle-pin cross block with two friction axle pins.
 0 Name: 8258 - m-1g'a.ldr
@@ -2412,6 +2457,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1g'b.ldr
 0 Long black beam with a long friction pin.
 0 Name: 8258 - m-1g'b.ldr
@@ -2435,6 +2481,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1h'.ldr
 0 Long light-grey beam with bent red beam, friction pins, and a long pin.
 0 Name: 8258 - m-1h'.ldr
@@ -2471,6 +2518,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1h'a.ldr
 0 Axle-pin cross block with two friction axle pins.
 0 Name: 8258 - m-1h'a.ldr
@@ -2496,6 +2544,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1i'.ldr
 0 Pin cross block with a stopped axle and three half-bushes.
 0 Name: 8258 - m-1i'.ldr
@@ -2526,6 +2575,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1j'.ldr
 0 A small Technic gear and axle assembly using 13-long beams, angle connectors, and bevel gears for power transmission.
 0 Name: 8258 - m-1j'.ldr
@@ -2582,6 +2632,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1j'a.ldr
 0 A compact linkage subassembly using a 180-degree angle connector and long stop-bush pins.
 0 Name: 8258 - m-1j'a.ldr
@@ -2612,6 +2663,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1j'b.ldr
 0 A short axle-and-bush coupling joined by a 180-degree angle connector.
 0 Name: 8258 - m-1j'b.ldr
@@ -2642,6 +2694,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1k'.ldr
 0 A structural gear assembly built from long liftarms, bent beams, cross blocks, and gears for a drivetrain module.
 0 Name: 8258 - m-1k'.ldr
@@ -2763,6 +2816,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1k'a.ldr
 0 A minimal bent-liftarm connector piece pinned with friction pins.
 0 Name: 8258 - m-1k'a.ldr
@@ -2788,6 +2842,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1k'b.ldr
 0 A minimal bent-liftarm connector piece pinned with friction pins.
 0 Name: 8258 - m-1k'b.ldr
@@ -2813,6 +2868,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1k'c.ldr
 0 A small axle-pin cross block coupling for joining structural elements.
 0 Name: 8258 - m-1k'c.ldr
@@ -2838,6 +2894,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1k'd.ldr
 0 A yellow liftarm frame combining 7-long and 13-long beams with a T-shaped beam for mounting.
 0 Name: 8258 - m-1k'd.ldr
@@ -2874,6 +2931,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1k'da.ldr
 0 A 13-long gear rack mounted with a friction axle pin for linear motion.
 0 Name: 8258 - m-1k'da.ldr
@@ -2897,6 +2955,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1k'e.ldr
 0 A red 13-long beam subassembly with pin joiners for linkage connections.
 0 Name: 8258 - m-1k'e.ldr
@@ -2935,6 +2994,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1k'f.ldr
 0 A yellow liftarm frame combining 7-long and 13-long beams with a T-shaped beam for mounting.
 0 Name: 8258 - m-1k'f.ldr
@@ -2971,6 +3031,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1k'fa.ldr
 0 A 13-long gear rack mounted with a friction axle pin for linear motion.
 0 Name: 8258 - m-1k'fa.ldr
@@ -2994,6 +3055,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1k'g.ldr
 0 A small axle-pin cross block coupling for joining structural elements.
 0 Name: 8258 - m-1k'g.ldr
@@ -3021,6 +3083,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1k'h.ldr
 0 A single bent liftarm attached with a friction axle pin.
 0 Name: 8258 - m-1k'h.ldr
@@ -3044,6 +3107,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1k'i.ldr
 0 A single bent liftarm attached with a friction axle pin.
 0 Name: 8258 - m-1k'i.ldr
@@ -3067,6 +3131,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1k'j.ldr
 0 A small axle-pin cross block coupling for joining structural elements.
 0 Name: 8258 - m-1k'j.ldr
@@ -3094,6 +3159,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1k'k.ldr
 0 A gear subassembly with a 16-tooth gear mounted on a 7-long beam with a studded axle.
 0 Name: 8258 - m-1k'k.ldr
@@ -3121,6 +3187,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1k'ka.ldr
 0 A 16-tooth gear attached with an axle pin for rotation.
 0 Name: 8258 - m-1k'ka.ldr
@@ -3144,6 +3211,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1k'l.ldr
 0 A gear-and-beam assembly using an 11-long beam, cross blocks, and a 4-knob gear on an axle.
 0 Name: 8258 - m-1k'l.ldr
@@ -3190,6 +3258,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1k'la.ldr
 0 A small axle-pin cross block coupling for joining structural elements.
 0 Name: 8258 - m-1k'la.ldr
@@ -3215,6 +3284,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1k'lb.ldr
 0 A compact linkage subassembly using a 180-degree angle connector and long stop-bush pins.
 0 Name: 8258 - m-1k'lb.ldr
@@ -3245,6 +3315,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1k'lc.ldr
 0 An 11-long beam joined to a cross block with friction axle pins.
 0 Name: 8258 - m-1k'lc.ldr
@@ -3273,6 +3344,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1k'ld.ldr
 0 A short axle-and-joiner coupling for extending an axle connection.
 0 Name: 8258 - m-1k'ld.ldr
@@ -3297,6 +3369,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1l'.ldr
 0 A single 15-long beam mounted with friction and long pins.
 0 Name: 8258 - m-1l'.ldr
@@ -3322,6 +3395,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1m'.ldr
 0 A small pin-and-cross-block connector coupling for joining structural elements.
 0 Name: 8258 - m-1m'.ldr
@@ -3350,6 +3424,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1n'.ldr
 0 Small connector assembly with a cross block, axle pin, and long pin for linking structural elements.
 0 Name: 8258 - m-1n'.ldr
@@ -3378,6 +3453,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1o'.ldr
 0 Axle joiner coupling two long axles (7 and 8 studs) into a single extended driveshaft.
 0 Name: 8258 - m-1o'.ldr
@@ -3403,6 +3479,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1p'.ldr
 0 Structural beam assembly with open-center liftarms, long beams up to 13 studs, and cross blocks forming a frame bracket.
 0 Name: 8258 - m-1p'.ldr
@@ -3473,6 +3550,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1p'a.ldr
 0 Pin-and-180-degree angle connector pair for extending a structural link inline.
 0 Name: 8258 - m-1p'a.ldr
@@ -3496,6 +3574,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1q'.ldr
 0 Differential drivetrain subassembly with a differential housing, bevel gears, and open-center beams forming a geared axle module.
 0 Name: 8258 - m-1q'.ldr
@@ -3626,6 +3705,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1q'a.ldr
 0 Axle joiner connecting a 3-stud axle into an extended driveshaft segment.
 0 Name: 8258 - m-1q'a.ldr
@@ -3649,6 +3729,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1q'b.ldr
 0 Small linkage of cross blocks, red liftarm bosses, and a notched axle forming an articulated joint.
 0 Name: 8258 - m-1q'b.ldr
@@ -3682,6 +3763,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1q'c.ldr
 0 Compact joint pairing a triple-pin cross block with two red liftarm bosses on a 3-stud axle.
 0 Name: 8258 - m-1q'c.ldr
@@ -3710,6 +3792,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1q'd.ldr
 0 Longer structural link built from a beam 15, multiple beam 5s, pin joiner, and cross blocks on a stopped axle.
 0 Name: 8258 - m-1q'd.ldr
@@ -3768,6 +3851,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1q'e.ldr
 0 Structural link combining a beam 15, beam 5, pin joiner, and pin-block cross connectors on a stopped axle.
 0 Name: 8258 - m-1q'e.ldr
@@ -3808,6 +3892,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1q'f.ldr
 0 T-shaped black beam joined by two long friction pins forming a pivoting connector node.
 0 Name: 8258 - m-1q'f.ldr
@@ -3833,6 +3918,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1q'g.ldr
 0 Angle connector node with a #1 connector, axle pin, and long friction pin for redirecting a linkage.
 0 Name: 8258 - m-1q'g.ldr
@@ -3858,6 +3944,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1q'h.ldr
 0 Power Functions XL Motor mount secured with two friction pins and a PF connector cable socket.
 0 Name: 8258 - m-1q'h.ldr
@@ -4641,6 +4728,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1q'ha.ldr
 0 Beam 7 secured by an axle pin and long stop-bush pin forming a motor-side mounting arm.
 0 Name: 8258 - m-1q'ha.ldr
@@ -4667,6 +4755,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1q'hb.ldr
 0 16-tooth gear fixed on a 4-stud axle forming a simple driven gear shaft.
 0 Name: 8258 - m-1q'hb.ldr
@@ -4690,6 +4779,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1q'i.ldr
 0 Gear-and-axle assembly with a 16-tooth gear, inline joiner, and beam 7 forming a transfer shaft module.
 0 Name: 8258 - m-1q'i.ldr
@@ -4720,6 +4810,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1q'j.ldr
 0 Parallel beam assembly with two beam 15 and two beam 5 connected by pins on a 3-stud axle with stop bushes.
 0 Name: 8258 - m-1q'j.ldr
@@ -4766,6 +4857,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1q'ja.ldr
 0 Open-center beam 11 module joined by long friction pins and black pins for a mid-frame connector.
 0 Name: 8258 - m-1q'ja.ldr
@@ -4795,6 +4887,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1q'jb.ldr
 0 T-shaped black beam held by two friction pins forming a perpendicular joint.
 0 Name: 8258 - m-1q'jb.ldr
@@ -4823,6 +4916,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1r'.ldr
 0 16-tooth gear mounted on an 8-stud axle with a flanged bush and inline joiner forming a drive shaft.
 0 Name: 8258 - m-1r'.ldr
@@ -4851,6 +4945,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1s'.ldr
 0 Steering/linkage assembly with four beam 15, bent liftarms, bricks with holes, a 12-tooth gear, and angle connectors.
 0 Name: 8258 - m-1s'.ldr
@@ -4978,6 +5073,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1s'a.ldr
 0 Bent 90-degree liftarm attached via an axle pin forming a pivoting elbow.
 0 Name: 8258 - m-1s'a.ldr
@@ -5001,6 +5097,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1s'b.ldr
 0 Bent 90-degree liftarm attached via an axle pin forming a pivoting elbow.
 0 Name: 8258 - m-1s'b.ldr
@@ -5024,6 +5121,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1s'c.ldr
 0 Triple-pin cross block with a half pin for a compact multi-axis joint.
 0 Name: 8258 - m-1s'c.ldr
@@ -5047,6 +5145,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1s'd.ldr
 0 Yellow beam frame (beam 7 and beam 13) joined by a T-beam and friction pins forming a structural lever.
 0 Name: 8258 - m-1s'd.ldr
@@ -5083,6 +5182,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1s'da.ldr
 0 A gear rack assembly mounted with an axle pin for linear motion linkage.
 0 Name: 8258 - m-1s'da.ldr
@@ -5106,6 +5206,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1s'e.ldr
 0 A beam and cross-block linkage subassembly joined with friction pins and pin joiners.
 0 Name: 8258 - m-1s'e.ldr
@@ -5150,6 +5251,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1s'f.ldr
 0 A 16-tooth gear mounted on an axle with a flanged bush for rotation.
 0 Name: 8258 - m-1s'f.ldr
@@ -5175,6 +5277,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1s'g.ldr
 0 A yellow liftarm bracket built from beams of varying lengths connected with friction pins.
 0 Name: 8258 - m-1s'g.ldr
@@ -5211,6 +5314,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1s'ga.ldr
 0 A gear rack assembly mounted with an axle pin for linear motion linkage.
 0 Name: 8258 - m-1s'ga.ldr
@@ -5234,6 +5338,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1s'h.ldr
 0 A bent 90-degree liftarm attached with an axle pin for angled mounting.
 0 Name: 8258 - m-1s'h.ldr
@@ -5257,6 +5362,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1s'i.ldr
 0 A bent 90-degree liftarm attached with an axle pin for angled mounting.
 0 Name: 8258 - m-1s'i.ldr
@@ -5281,6 +5387,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1s'j.ldr
 0 An axle paired with an angle connector for redirecting a driveline.
 0 Name: 8258 - m-1s'j.ldr
@@ -5304,6 +5411,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1s'k.ldr
 0 A 16-tooth gear fixed to an axle pin for a compact drivetrain junction.
 0 Name: 8258 - m-1s'k.ldr
@@ -5327,6 +5435,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1t'.ldr
 0 A short beam with two friction pins forming a small connector link.
 0 Name: 8258 - m-1t'.ldr
@@ -5352,6 +5461,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1u'.ldr
 0 A small light cluster assembly of plates with transparent orange, clear, and red slope and plate elements.
 0 Name: 8258 - m-1u'.ldr
@@ -5382,6 +5492,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1v'.ldr
 0 A black liftarm frame built from beams and long friction pins forming a structural strut.
 0 Name: 8258 - m-1v'.ldr
@@ -5439,6 +5550,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1w'.ldr
 0 An axle and stop-bush pin combo forming a simple pivot or stop.
 0 Name: 8258 - m-1w'.ldr
@@ -5462,6 +5574,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1x'.ldr
 0 A long black bent-liftarm suspension arm joined with friction pins and half-beams.
 0 Name: 8258 - m-1x'.ldr
@@ -5507,6 +5620,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1x'a.ldr
 0 An axle with stop bush and flanged bush forming a retained pivot shaft.
 0 Name: 8258 - m-1x'a.ldr
@@ -5533,6 +5647,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1y'.ldr
 0 A long black bent-liftarm suspension arm joined with friction pins and half-beams.
 0 Name: 8258 - m-1y'.ldr
@@ -5578,6 +5693,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1y'a.ldr
 0 An axle with stop bush and flanged bush forming a retained pivot shaft.
 0 Name: 8258 - m-1y'a.ldr
@@ -5604,6 +5720,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1z'.ldr
 0 A four-cylinder engine block subassembly with cylinder heads, pins, and a 16-tooth gear.
 0 Name: 8258 - m-1z'.ldr
@@ -5686,6 +5803,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1z'a.ldr
 0 A complete piston-crankshaft assembly with crankshafts, connecting rods, and pistons for an 8-cylinder engine.
 0 Name: 8258 - m-1z'a.ldr
@@ -5759,6 +5877,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1z'b.ldr
 0 A cylinder head bank with four heads and friction pins forming one side of the engine block.
 0 Name: 8258 - m-1z'b.ldr
@@ -5803,6 +5922,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1z'c.ldr
 0 A beam-and-axle support frame with cross blocks and friction pins bracing the drivetrain.
 0 Name: 8258 - m-1z'c.ldr
@@ -5855,6 +5975,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1z'ca.ldr
 0 A small beam and cross-block connector with pins for a mounting joint.
 0 Name: 8258 - m-1z'ca.ldr
@@ -5878,6 +5999,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1z'cb.ldr
 0 A beam joined to a 180-degree angle connector via axle pins for a straight extension.
 0 Name: 8258 - m-1z'cb.ldr
@@ -5907,6 +6029,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1a''.ldr
 0 A 16-tooth gear fixed to an axle pin for a compact drivetrain junction.
 0 Name: 8258 - m-1a''.ldr
@@ -5930,6 +6053,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1b''.ldr
 0 A 16-tooth gear mounted on a long axle for a driveshaft gear reduction.
 0 Name: 8258 - m-1b''.ldr
@@ -5953,6 +6077,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1c''.ldr
 0 A short axle assembly with inline joiners forming an extended coupling linkage.
 0 Name: 8258 - m-1c''.ldr
@@ -5981,6 +6106,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1d''.ldr
 0 A small axle-and-pin cross block joint connector.
 0 Name: 8258 - m-1d''.ldr
@@ -6004,6 +6130,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1e''.ldr
 0 A 15-stud liftarm mounted on a long axle with stop bush pins, forming a pivoting beam arm.
 0 Name: 8258 - m-1e''.ldr
@@ -6034,6 +6161,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1f''.ldr
 0 A 15-stud liftarm attached with a long red stop-bush pin.
 0 Name: 8258 - m-1f''.ldr
@@ -6057,6 +6185,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1g''.ldr
 0 A structural beam assembly combining an 11-stud liftarm with cross blocks and angle connectors for a multi-axis joint.
 0 Name: 8258 - m-1g''.ldr
@@ -6103,6 +6232,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1h''.ldr
 0 A round dish-and-brick hub mounted on a 4-stud axle, resembling a wheel or rotor cap.
 0 Name: 8258 - m-1h''.ldr
@@ -6129,6 +6259,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1i''.ldr
 0 A short axle segment with a long red stop-bush pin.
 0 Name: 8258 - m-1i''.ldr
@@ -6152,6 +6283,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1j''.ldr
 0 A pair of 6-stud liftarms joined with pins, forming a compact linkage block.
 0 Name: 8258 - m-1j''.ldr
@@ -6188,6 +6320,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1k''.ldr
 0 A bent 90-degree liftarm assembly connected to two 6-stud liftarms via pins.
 0 Name: 8258 - m-1k''.ldr
@@ -6218,6 +6351,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1l''.ldr
 0 A bent liftarm and two 6-stud liftarms joined by a cross block and axle pins.
 0 Name: 8258 - m-1l''.ldr
@@ -6256,6 +6390,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1m''.ldr
 0 A curved quarter-ellipse liftarm assembly with six bent segments, axles, and cross blocks forming a large rounded structural panel.
 0 Name: 8258 - m-1m''.ldr
@@ -6316,6 +6451,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1m''a.ldr
 0 A small mounting bracket using a 1x2 technic brick with clear and black plates attached by pins.
 0 Name: 8258 - m-1m''a.ldr
@@ -6348,6 +6484,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1m''b.ldr
 0 A sub-assembly of two quarter-ellipse bent liftarms joined by axles and a cross block, forming part of a curved panel.
 0 Name: 8258 - m-1m''b.ldr
@@ -6387,6 +6524,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1m''ba.ldr
 0 A small mounting bracket using a 1x2 technic brick with clear and black plates attached by pins.
 0 Name: 8258 - m-1m''ba.ldr
@@ -6419,6 +6557,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1m''c.ldr
 0 A 1x4 technic brick with a grooved white tile attached by friction pins.
 0 Name: 8258 - m-1m''c.ldr
@@ -6449,6 +6588,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1n''.ldr
 0 A bent 90-degree liftarm attached to a 1x2 technic brick via a 3L double pin connector.
 0 Name: 8258 - m-1n''.ldr
@@ -6480,6 +6620,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1o''.ldr
 0 A bent 90-degree liftarm attached to a 1x2 technic brick via a 3L double pin connector.
 0 Name: 8258 - m-1o''.ldr
@@ -6511,6 +6652,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1p''.ldr
 0 A red 11-stud beam with 180-degree angle connectors and axle pins forming a symmetrical linkage.
 0 Name: 8258 - m-1p''.ldr
@@ -6553,6 +6695,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1p''a.ldr
 0 An axle assembly with angled connectors and cross blocks forming a multi-directional joint.
 0 Name: 8258 - m-1p''a.ldr
@@ -6591,6 +6734,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1p''b.ldr
 0 A clear dish lens mounted on a round plate with an axle pin, resembling a light or sensor housing.
 0 Name: 8258 - m-1p''b.ldr
@@ -6617,6 +6761,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1q''.ldr
 0 A bent 90-degree black liftarm mounted on a 5-stud axle with stop-bush pins.
 0 Name: 8258 - m-1q''.ldr
@@ -6645,6 +6790,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1r''.ldr
 0 A small panel of black plates with transparent clear and orange slope bricks forming a window or light element.
 0 Name: 8258 - m-1r''.ldr
@@ -6678,6 +6824,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1s''.ldr
 0 A small panel of black plates with transparent clear and orange slope bricks forming a window or light element.
 0 Name: 8258 - m-1s''.ldr
@@ -6711,6 +6858,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1t''.ldr
 0 A structural beam assembly combining a 15-stud and a bent liftarm with a 3-pin cross block for multi-point mounting.
 0 Name: 8258 - m-1t''.ldr
@@ -6759,6 +6907,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1t''a.ldr
 0 A small cross block joint with an axle pin connector.
 0 Name: 8258 - m-1t''a.ldr
@@ -6782,6 +6931,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1t''b.ldr
 0 Small axle and pin linkage subassembly.
 0 Name: 8258 - m-1t''b.ldr
@@ -6807,6 +6957,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1u''.ldr
 0 Red bent liftarm and beam assembly with cross block and axle joiner forming a structural connector module.
 0 Name: 8258 - m-1u''.ldr
@@ -6852,6 +7003,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1v''.ldr
 0 Pair of light bluish grey liftarms joined by friction pins to form a simple beam linkage.
 0 Name: 8258 - m-1v''.ldr
@@ -6880,6 +7032,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1w''.ldr
 0 Black bent liftarm and beam framework reinforced with a cross block and multiple pins.
 0 Name: 8258 - m-1w''.ldr
@@ -6926,6 +7079,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1w''a.ldr
 0 Red cross block fitted with a friction axle pin, a small connector subassembly.
 0 Name: 8258 - m-1w''a.ldr
@@ -6949,6 +7103,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1x''.ldr
 0 Red bent liftarm and beam assembly with cross block, axle joiner, and axle forming a structural connector module.
 0 Name: 8258 - m-1x''.ldr
@@ -6996,6 +7151,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1y''.ldr
 0 Pair of light bluish grey liftarms joined by friction pins to form a simple beam linkage.
 0 Name: 8258 - m-1y''.ldr
@@ -7024,6 +7180,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1z''.ldr
 0 Red beam and panel fairing assembly forming a structural body panel module for the truck's side.
 0 Name: 8258 - m-1z''.ldr
@@ -7089,6 +7246,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1z''a.ldr
 0 Black liftarm reinforced with long friction pins, a connector subassembly.
 0 Name: 8258 - m-1z''a.ldr
@@ -7118,6 +7276,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1z''b.ldr
 0 Red bent liftarm and beam assembly joined with pins, forming a structural connector module.
 0 Name: 8258 - m-1z''b.ldr
@@ -7152,6 +7311,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1z''c.ldr
 0 Red liftarm with two friction pins, a simple mounting subassembly.
 0 Name: 8258 - m-1z''c.ldr
@@ -7177,6 +7337,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1z''d.ldr
 0 Red liftarm with plates and pins forming a reinforced mounting plate module.
 0 Name: 8258 - m-1z''d.ldr
@@ -7215,6 +7376,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1a'''.ldr
 0 Black base plate decorated with red tiles, grilles, and grooved tiles forming a detailed deck or floor panel.
 0 Name: 8258 - m-1a'''.ldr
@@ -7273,6 +7435,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1b'''.ldr
 0 Blue and grey bent liftarms joined with pins and a straight beam, forming a linkage subassembly.
 0 Name: 8258 - m-1b'''.ldr
@@ -7310,6 +7473,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1c'''.ldr
 0 Steering wheel assembly with angle connectors, cross blocks, and axles forming a steering column mechanism.
 0 Name: 8258 - m-1c'''.ldr
@@ -7367,6 +7531,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1c'''a.ldr
 0 Black cross block with a stop-bush pin, a small steering linkage connector.
 0 Name: 8258 - m-1c'''a.ldr
@@ -7390,6 +7555,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1c'''aa.ldr
 0 Black cross block with a stop-bush pin, a small steering linkage connector.
 0 Name: 8258 - m-1c'''aa.ldr
@@ -7411,6 +7577,7 @@
 
 
 
+0 STEP
 0 FILE 8258 - m-1c'''b.ldr
 0 Black liftarm with cross blocks, connectors, and axles forming a steering linkage support module.
 0 Name: 8258 - m-1c'''b.ldr
@@ -7452,6 +7619,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1d'''.ldr
 0 Red and black liftarms joined with pins, forming a chassis cross-beam subassembly.
 0 Name: 8258 - m-1d'''.ldr
@@ -7484,6 +7652,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1e'''.ldr
 0 Single wide long red panel fairing used as a smooth body panel cover.
 0 Name: 8258 - m-1e'''.ldr
@@ -7506,6 +7675,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1f'''.ldr
 0 Single wide long red panel fairing used as a smooth body panel cover.
 0 Name: 8258 - m-1f'''.ldr
@@ -7528,6 +7698,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1g'''.ldr
 0 Small red half-liftarm with axle pin and half-bush, a minor mounting subassembly.
 0 Name: 8258 - m-1g'''.ldr
@@ -7554,6 +7725,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1h'''.ldr
 0 Red beam and cross block assembly on a long axle, forming a pivoting structural support module.
 0 Name: 8258 - m-1h'''.ldr
@@ -7605,6 +7777,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1i'''.ldr
 0 Single red liftarm with one pin, a simple attachment extension.
 0 Name: 8258 - m-1i'''.ldr
@@ -7628,6 +7801,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1j'''.ldr
 0 Black angle connectors, beam, and cross block on an axle, forming an angled linkage subassembly.
 0 Name: 8258 - m-1j'''.ldr
@@ -7663,6 +7837,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1k'''.ldr
 0 Small Technic linkage subassembly with angle connectors, beams, and a cross block joined by pins and an axle.
 0 Name: 8258 - m-1k'''.ldr
@@ -7698,6 +7873,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1l'''.ldr
 0 Red Technic connector assembly with axles, bushings, cross blocks, and a pin joiner forming a pivot linkage.
 0 Name: 8258 - m-1l'''.ldr
@@ -7744,6 +7920,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1m'''.ldr
 0 Red Technic beam arm built from beams 11 and 5 held together with long friction pins.
 0 Name: 8258 - m-1m'''.ldr
@@ -7774,6 +7951,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1n'''.ldr
 0 Single red smooth Technic panel used as a bodywork fairing.
 0 Name: 8258 - m-1n'''.ldr
@@ -7796,6 +7974,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1p'''.ldr
 0 Single red smooth Technic panel used as a bodywork fairing.
 0 Name: 8258 - m-1p'''.ldr
@@ -7818,6 +7997,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1q'''.ldr
 0 Black Technic connector subassembly with beams, long pins, and pin joiners forming a short linkage bracket.
 0 Name: 8258 - m-1q'''.ldr
@@ -7857,6 +8037,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1r'''.ldr
 0 Angled mounting arm consisting of a double bent 45-degree liftarm on an axle pin.
 0 Name: 8258 - m-1r'''.ldr
@@ -7880,6 +8061,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1s'''.ldr
 0 Angled mounting arm consisting of a double bent 45-degree liftarm on an axle pin.
 0 Name: 8258 - m-1s'''.ldr
@@ -7903,6 +8085,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1t'''.ldr
 0 Red structural arm with a beam 15 and long smooth fairing panels held by friction pins.
 0 Name: 8258 - m-1t'''.ldr
@@ -7945,6 +8128,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1t'''a.ldr
 0 Red reinforced bracket assembly using a beam 9, two bent 90-degree beams, and cross blocks pinned together.
 0 Name: 8258 - m-1t'''a.ldr
@@ -7984,6 +8168,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1t'''b.ldr
 0 Axle joiner fitting combining an inline smooth joiner with a friction axle pin.
 0 Name: 8258 - m-1t'''b.ldr
@@ -8007,6 +8192,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1u'''.ldr
 0 Decorative detail subassembly with an axle, connector, liftarm boss, antenna, and inverted dish forming a small sensor or light.
 0 Name: 8258 - m-1u'''.ldr
@@ -8038,6 +8224,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1v'''.ldr
 0 Long black Technic support beam joining a beam 15 and beam 13 with friction pins.
 0 Name: 8258 - m-1v'''.ldr
@@ -8066,6 +8253,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1w'''.ldr
 0 Red beam 15 strut secured with two friction pins.
 0 Name: 8258 - m-1w'''.ldr
@@ -8187,6 +8375,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1x'''.ldr
 0 Red panel-and-axle assembly with connectors, cross blocks, and bushings forming a braced structural mount.
 0 Name: 8258 - m-1x'''.ldr
@@ -8239,6 +8428,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1x'''a.ldr
 0 Axlehole brick with an open side and a clear plate used as a windowed mount.
 0 Name: 8258 - m-1x'''a.ldr
@@ -8262,6 +8452,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1y'''.ldr
 0 Black plate base assembly with grooved tiles and a pinned plate forming a flat mounting surface.
 0 Name: 8258 - m-1y'''.ldr
@@ -8294,6 +8485,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1z'''.ldr
 0 Round detail element combining a dish rim, transparent yellow round brick, and axle bushing into a light or beacon.
 0 Name: 8258 - m-1z'''.ldr
@@ -8323,6 +8515,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1a''''.ldr
 0 Axle and joiner assembly with a notched axle, wheel rim, and inline joiners forming a small wheel or pulley unit.
 0 Name: 8258 - m-1a''''.ldr
@@ -8358,6 +8551,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1b''''.ldr
 0 Black bent liftarm bracket built from paired 53-degree bent liftarms and thin liftarms pinned together.
 0 Name: 8258 - m-1b''''.ldr
@@ -8396,6 +8590,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1b''''a.ldr
 0 Pinned joiner element combining a friction pin with a round pin joiner slot.
 0 Name: 8258 - m-1b''''a.ldr
@@ -8419,6 +8614,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1c''''.ldr
 0 Black bent liftarm connector assembly with paired 53-degree liftarms, friction pins, and a pin joiner.
 0 Name: 8258 - m-1c''''.ldr
@@ -8453,6 +8649,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1c''''a.ldr
 0 Thin black liftarm pair joined by two friction pins forming a short connector link.
 0 Name: 8258 - m-1c''''a.ldr
@@ -8481,6 +8678,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1d''''.ldr
 0 Large turntable subassembly mounted between long beams with cross blocks and stop-bush pins for rotational support.
 0 Name: 8258 - m-1d''''.ldr
@@ -8530,6 +8728,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1e''''.ldr
 0 Small gear drive element with a 24-tooth gear mounted on an axle pin.
 0 Name: 8258 - m-1e''''.ldr
@@ -8553,6 +8752,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1f''''.ldr
 0 m-1f''''
 0 Name: 8258 - m-1f''''.ldr
@@ -8632,6 +8832,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1f''''a.ldr
 0 m-1f''''a
 0 Name: 8258 - m-1f''''a.ldr
@@ -8662,6 +8863,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1f''''b.ldr
 0 m-1f''''b
 0 Name: 8258 - m-1f''''b.ldr
@@ -8687,6 +8889,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1f''''c.ldr
 0 m-1f''''c
 0 Name: 8258 - m-1f''''c.ldr
@@ -8715,6 +8918,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1f''''d.ldr
 0 m-1f''''d
 0 Name: 8258 - m-1f''''d.ldr
@@ -8745,6 +8949,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1f''''e.ldr
 0 m-1f''''e
 0 Name: 8258 - m-1f''''e.ldr
@@ -8776,6 +8981,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1f''''f.ldr
 0 m-1f''''f
 0 Name: 8258 - m-1f''''f.ldr
@@ -8801,6 +9007,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1f''''g.ldr
 0 m-1f''''g
 0 Name: 8258 - m-1f''''g.ldr
@@ -8831,6 +9038,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1f''''h.ldr
 0 m-1f''''h
 0 Name: 8258 - m-1f''''h.ldr
@@ -8857,6 +9065,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1f''''i.ldr
 0 m-1f''''i
 0 Name: 8258 - m-1f''''i.ldr
@@ -8882,6 +9091,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1g''''.ldr
 0 m-1g''''
 0 Name: 8258 - m-1g''''.ldr
@@ -8919,6 +9129,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1g''''a.ldr
 0 m-1g''''a
 0 Name: 8258 - m-1g''''a.ldr
@@ -8946,6 +9157,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1h''''.ldr
 0 m-1h''''
 0 Name: 8258 - m-1h''''.ldr
@@ -9035,6 +9247,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1h''''a.ldr
 0 m-1h''''a
 0 Name: 8258 - m-1h''''a.ldr
@@ -9060,6 +9273,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1h''''b.ldr
 0 m-1h''''b
 0 Name: 8258 - m-1h''''b.ldr
@@ -9083,6 +9297,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1h''''c.ldr
 0 m-1h''''c
 0 Name: 8258 - m-1h''''c.ldr
@@ -9126,6 +9341,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1h''''ca.ldr
 0 m-1h''''ca
 0 Name: 8258 - m-1h''''ca.ldr
@@ -9149,6 +9365,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1h''''d.ldr
 0 m-1h''''d
 0 Name: 8258 - m-1h''''d.ldr
@@ -9191,6 +9408,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1h''''e.ldr
 0 m-1h''''e
 0 Name: 8258 - m-1h''''e.ldr
@@ -9214,6 +9432,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1h''''f.ldr
 0 m-1h''''f
 0 Name: 8258 - m-1h''''f.ldr
@@ -9237,6 +9456,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1h''''g.ldr
 0 m-1h''''g
 0 Name: 8258 - m-1h''''g.ldr
@@ -9264,6 +9484,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1h''''h.ldr
 0 m-1h''''h
 0 Name: 8258 - m-1h''''h.ldr
@@ -9290,6 +9511,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1i''''.ldr
 0 m-1i''''
 0 Name: 8258 - m-1i''''.ldr
@@ -9333,6 +9555,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1i''''a.ldr
 0 m-1i''''a
 0 Name: 8258 - m-1i''''a.ldr
@@ -9356,6 +9579,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1j''''.ldr
 0 m-1j''''
 0 Name: 8258 - m-1j''''.ldr
@@ -9380,6 +9604,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1k''''.ldr
 0 Small beam-and-pin linkage assembly with a bent yellow liftarm and bushings on an axle mount.
 0 Name: 8258 - m-1k''''.ldr
@@ -9426,6 +9651,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1k''''a.ldr
 0 Axle 10 with a two-flange bush for a simple rotating shaft subassembly.
 0 Name: 8258 - m-1k''''a.ldr
@@ -9450,6 +9676,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1l''''.ldr
 0 Notched axle paired with a yellow engine crankshaft forming a short crank element.
 0 Name: 8258 - m-1l''''.ldr
@@ -9473,6 +9700,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1l''''a.ldr
 0 Notched axle paired with a yellow engine crankshaft forming another short crank element.
 0 Name: 8258 - m-1l''''a.ldr
@@ -9492,6 +9720,7 @@
 
 
 
+0 STEP
 0 FILE 8258 - m-1m''''.ldr
 0 Single large yellow smooth body panel for exterior detailing.
 0 Name: 8258 - m-1m''''.ldr
@@ -9514,6 +9743,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1n''''.ldr
 0 Single large yellow smooth body panel for exterior detailing.
 0 Name: 8258 - m-1n''''.ldr
@@ -9536,6 +9766,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1o''''.ldr
 0 Winch assembly combining bent liftarms, a spool reel, a hook, and a gear train for line lifting.
 0 Name: 8258 - m-1o''''.ldr
@@ -13259,6 +13490,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1o''''a.ldr
 0 Structural liftarm frame with a bent beam and pins for mounting a mechanism.
 0 Name: 8258 - m-1o''''a.ldr
@@ -13304,6 +13536,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1o''''b.ldr
 0 Bent yellow liftarm joined with a 4-stud axle to form an angled connector link.
 0 Name: 8258 - m-1o''''b.ldr
@@ -13327,6 +13560,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1o''''c.ldr
 0 Axle-and-wheel hub subassembly using a bent liftarm, bushings, and a grooved rim.
 0 Name: 8258 - m-1o''''c.ldr
@@ -13360,6 +13594,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1o''''d.ldr
 0 Rack gear mounted on a 15-stud beam with liftarms forming a linear slider mechanism.
 0 Name: 8258 - m-1o''''d.ldr
@@ -13401,6 +13636,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1o''''da.ldr
 0 Axle-and-cross-block assembly with bushings for a small pivoting linkage.
 0 Name: 8258 - m-1o''''da.ldr
@@ -13438,6 +13674,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1o''''e.ldr
 0 Drive axle carrying two 12-tooth bevel gears on a bent yellow liftarm.
 0 Name: 8258 - m-1o''''e.ldr
@@ -13466,6 +13703,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1o''''f.ldr
 0 Axle 7 with a half-bush serving as a simple smooth shaft spacer.
 0 Name: 8258 - m-1o''''f.ldr
@@ -13489,6 +13727,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1o''''g.ldr
 0 Towball axle with connector joints forming a flexible linkage segment.
 0 Name: 8258 - m-1o''''g.ldr
@@ -13517,6 +13756,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1o''''h.ldr
 0 Flexible rubber axle joiner secured by a friction axle pin.
 0 Name: 8258 - m-1o''''h.ldr
@@ -13540,6 +13780,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1o''''i.ldr
 0 Friction axle pin mounting an 8-tooth gear for a small drive element.
 0 Name: 8258 - m-1o''''i.ldr
@@ -13563,6 +13804,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1p''''.ldr
 0 Parallel yellow liftarm pair connected by pins forming a structural beam module.
 0 Name: 8258 - m-1p''''.ldr
@@ -13595,6 +13837,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1q''''.ldr
 0 Two large yellow panels pinned together for a bodywork siding unit.
 0 Name: 8258 - m-1q''''.ldr
@@ -13626,6 +13869,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1r''''.ldr
 0 Long grey liftarm pair joined by pins to form a chassis support beam.
 0 Name: 8258 - m-1r''''.ldr
@@ -13664,6 +13908,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1r''''a.ldr
 0 Cross block with a friction axle pin for an axle-to-pin joint connector.
 0 Name: 8258 - m-1r''''a.ldr
@@ -13687,6 +13932,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1r''''b.ldr
 0 Bent grey liftarm mounted with pins to form an angled mounting bracket.
 0 Name: 8258 - m-1r''''b.ldr
@@ -13712,6 +13958,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1r''''c.ldr
 0 Bent grey liftarm mounted with pins to form an angled mounting bracket.
 0 Name: 8258 - m-1r''''c.ldr
@@ -13737,6 +13984,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1s''''.ldr
 0 Red panel pair combining a large smooth panel and a 5x11 panel for exterior cladding.
 0 Name: 8258 - m-1s''''.ldr
@@ -13767,6 +14015,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1t''''.ldr
 0 Axle 3 fitted into a yellow cross block forming a simple pivot joint.
 0 Name: 8258 - m-1t''''.ldr
@@ -13790,6 +14039,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1u''''.ldr
 0 A yellow and black Technic liftarm assembly with pins, a cross block, and a boss liftarm forming a small pivoting linkage substructure.
 0 Name: 8258 - m-1u''''.ldr
@@ -13835,6 +14085,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1u''''a.ldr
 0 A short yellow beam 5 joined by two black friction pins, forming a simple pinned connection.
 0 Name: 8258 - m-1u''''a.ldr
@@ -13860,6 +14111,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1u''''b.ldr
 0 A 12-tooth double bevel gear mounted on a 5-stud axle.
 0 Name: 8258 - m-1u''''b.ldr
@@ -13883,6 +14135,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1u''''c.ldr
 0 A cross block (axle/pin) fixed on a 3-stud axle.
 0 Name: 8258 - m-1u''''c.ldr
@@ -13906,6 +14159,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1u''''d.ldr
 0 A black beam 3 fitted with two blue long friction pins for an extended pin joint.
 0 Name: 8258 - m-1u''''d.ldr
@@ -13931,6 +14185,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1v''''.ldr
 0 A longer yellow Technic structure combining beams 11 and 7, two beam 4 liftarms, a cross block, and axle pins forming a geared linkage frame.
 0 Name: 8258 - m-1v''''.ldr
@@ -13977,6 +14232,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1v''''a.ldr
 0 A cross block (axle/pin) secured on a 3-stud axle.
 0 Name: 8258 - m-1v''''a.ldr
@@ -14000,6 +14256,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1v''''b.ldr
 0 A black beam 3 with two blue long friction pins providing an extended pivot.
 0 Name: 8258 - m-1v''''b.ldr
@@ -14025,6 +14282,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1v''''c.ldr
 0 A 12-tooth double bevel gear on a 5-stud axle paired with a boss liftarm, forming a small geared rocker.
 0 Name: 8258 - m-1v''''c.ldr
@@ -14050,6 +14308,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1w''''.ldr
 0 A yellow beam 11 and black beam 3 combined with a 12-tooth bevel gear, boss liftarm, and cross block to form a gear-and-linkage arm.
 0 Name: 8258 - m-1w''''.ldr
@@ -14091,6 +14350,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1w'''a.ldr
 0 A yellow beam 7 joined with two black friction pins, making a pinned beam connector.
 0 Name: 8258 - m-1w'''a.ldr
@@ -14118,6 +14378,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1w''''aa.ldr
 0 Two yellow beam 4 liftarms connected by two blue axle pins, forming a parallel liftarm pair.
 0 Name: 8258 - m-1w''''aa.ldr
@@ -14145,6 +14406,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1w''''b.ldr
 0 A cross block (axle/pin) on a 3-stud axle.
 0 Name: 8258 - m-1w''''b.ldr
@@ -14168,6 +14430,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1w''''c.ldr
 0 A black beam 3 with two blue long friction pins for an extended pivot joint.
 0 Name: 8258 - m-1w''''c.ldr
@@ -14193,6 +14456,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1x''''.ldr
 0 A yellow beam 5 and black beam 3 combined with a 12-tooth bevel gear, boss liftarm, and cross block forming a geared linkage arm.
 0 Name: 8258 - m-1x''''.ldr
@@ -14237,6 +14501,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1x''''a.ldr
 0 A yellow beam 5 with three black friction pins providing multiple connection points.
 0 Name: 8258 - m-1x''''a.ldr
@@ -14264,6 +14529,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1x''''b.ldr
 0 A yellow beam 3 with a single black friction pin, a minimal pinned connector.
 0 Name: 8258 - m-1x''''b.ldr
@@ -14287,6 +14553,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1x''''c.ldr
 0 A cross block (axle/pin) mounted on a 3-stud axle.
 0 Name: 8258 - m-1x''''c.ldr
@@ -14310,6 +14577,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - m-1x''''d.ldr
 0 A black beam 3 with two blue long friction pins forming an extended pin joint.
 0 Name: 8258 - m-1x''''d.ldr
@@ -14342,6 +14610,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - LS70.dat
 0 A flexible hose or pneumatic tube segment built from layered cylinders and discs.
 0 Author: Willy Tschager [Holly-Wood]
@@ -14418,6 +14687,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - LS40.dat
 0 A custom part credited to Steve Bliss and Chris Dee, used as a reference component.
 0 Author: Willy Tschager [Holly-Wood]
@@ -14452,6 +14722,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - LS41.dat
 0 A Technic axle representation composed of axle end surfaces and a perimeter.
 0 Author: Kevin Clague [kclague]
@@ -14484,6 +14755,7 @@
 0
 
 
+0 STEP
 0 FILE 8258 - LS60.dat
 0 An empty custom submodel serving as a placeholder or reference part.
 0 Author: Larry Pieniazek

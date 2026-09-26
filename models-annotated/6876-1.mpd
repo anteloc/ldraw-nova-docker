@@ -9,6 +9,7 @@
 
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 6876 - Vehicle.ldr
 
+0 STEP
 0 FILE 6876 - Vehicle.ldr
 0 Core chassis built from long black plates with hinge plates, slope bricks, and inverted trans-red dishes forming the vehicle's articulated body structure.
 0 Name: 6876 - Vehicle.ldr
@@ -56,6 +57,7 @@
 1 0 0 16 -160 1 0 0 0 1 0 0 0 1 6876 - Vehicle - Cockpit.ldr
 1 0 -10 -42.001 86 1 0 0 0 0 -1 0 1 0 6876 - Vehicle - Roof.ldr
 
+0 STEP
 0 FILE 6876 - Vehicle - Cockpit.ldr
 0 Cockpit frame constructed from black plates and slope bricks with control sticks, hinges, and handle plates for the pilot's seating area.
 0 Name: 6876 - Vehicle - Cockpit.ldr
@@ -102,6 +104,7 @@
 1 0 0 -25.731 -60.719 1 0 0 0 0.372988 0.927836 0 -0.927836 0.372988 6876 - Vehicle - Cockpit - Door.ldr
 1 0 0 -53 8 1 0 0 0 1 0 0 0 1 6876 - Minifig.ldr
 
+0 STEP
 0 FILE 6876 - Vehicle - Cockpit - Door.ldr
 0 A trans-yellow hinged canopy panel mounted on a hinge top with round trans-red accent plates.
 0 Name: 6876 - Vehicle - Cockpit - Door.ldr
@@ -120,6 +123,7 @@
 0 // Plate  1 x  1 Round (trans_red)
 1 36 -30 -128 -10 -1 0 0 0 1 0 0 0 -1 6141.dat
 
+0 STEP
 0 FILE 6876 - Vehicle - Feet.ldr
 0 Foot assembly consisting of a black plate base with light grey turntable tops connecting to a 2x2 brick for articulation.
 0 Name: 6876 - Vehicle - Feet.ldr
@@ -142,6 +146,7 @@
 1 7 75.432 104 -17.039 1 0 0 0 1 0 0 0 1 6876 - Vehicle - Feet - Foot 1.ldr
 1 7 -75.432 104 -62.961 1 0 0 0 1 0 0 0 1 6876 - Vehicle - Feet - Foot 2.ldr
 
+0 STEP
 0 FILE 6876 - Vehicle - Feet - Foot 1.ldr
 0 Left black wing foot piece with yellow turntable base plates for rotational mounting to the leg.
 0 Name: 6876 - Vehicle - Feet - Foot 1.ldr
@@ -158,6 +163,7 @@
 0 // Turntable  2 x  2 Plate Base (yellow)
 1 14 -20 -8 0 1 0 0 0 1 0 0 0 1 3680.dat
 
+0 STEP
 0 FILE 6876 - Vehicle - Feet - Foot 2.ldr
 0 Right black wing foot piece with yellow turntable base plates for rotational mounting to the leg.
 0 Name: 6876 - Vehicle - Feet - Foot 2.ldr
@@ -174,6 +180,7 @@
 0 // Turntable  2 x  2 Plate Base (yellow)
 1 14 20 -8 0 1 0 0 0 1 0 0 0 1 3680.dat
 
+0 STEP
 0 FILE 6876 - Vehicle - Feet - Leg 1.ldr
 0 Articulated left leg built from a long black plate, round support struts, and turntable joints for articulation.
 0 Name: 6876 - Vehicle - Feet - Leg 1.ldr
@@ -194,6 +201,7 @@
 0 // Turntable  2 x  2 Plate Base (yellow)
 1 14 60 -64 0 1 0 0 0 1 0 0 0 1 3680.dat
 
+0 STEP
 0 FILE 6876 - Vehicle - Feet - Leg 2.ldr
 0 Articulated right leg built from a long black plate, round support struts, round 2x2 bricks, and turntable joints for articulation.
 0 Name: 6876 - Vehicle - Feet - Leg 2.ldr
@@ -220,6 +228,7 @@
 0 // Turntable  2 x  2 Plate Base (yellow)
 1 14 60 -88 0 1 0 0 0 1 0 0 0 1 3680.dat
 
+0 STEP
 0 FILE 6876 - Vehicle - Roof.ldr
 0 Hinged roof section featuring black corner panels, slope bricks, antennas, and finned round bricks for a detailed topside structure.
 0 Name: 6876 - Vehicle - Roof.ldr
@@ -272,6 +281,7 @@
 0 // Plate  1 x  1 Round (yellow)
 1 14 -20 40 40 -1 0 0 0 1 0 0 0 -1 6141.dat
 
+0 STEP
 0 FILE 6876 - Minifig.ldr
 0 A Blacktron I minifigure with black airtanks, torso pattern, arms, hands, and legs in black and yellow tones.
 0 Name: 6876 - Minifig.ldr
@@ -304,6 +314,7 @@
 1 0 0 44 0 1 0 0 0 0 1 0 -1 0 3816.dat
 
 
+0 STEP
 0 FILE 6876 - Minifig - Helmet.ldr
 0 A black standard astronaut helmet with matching visor.
 0 Name: 6876 - Minifig - Helmet.ldr

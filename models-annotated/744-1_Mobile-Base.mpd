@@ -11,6 +11,7 @@
 0 ROTATION CONFIG 0 0
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 744-1 - Car.ldr
 0
+0 STEP
 0 FILE 744-1 - Car.ldr
 0 A large yellow vehicle chassis built from plates, technic bricks with holes, and axles.
 0 Name: 744-1 - Car.ldr
@@ -385,6 +386,7 @@
 
 
 0
+0 STEP
 0 FILE 744-1 - Dish antenna.ldr
 0 A rotating satellite dish antenna mounted on gears and wheels using an inverted dish and torch.
 0 Name: 744-1 - Dish antenna.ldr

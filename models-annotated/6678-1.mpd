@@ -14,6 +14,7 @@
 
 
 
+0 STEP
 0 FILE 6678 - crane.ldr
 0 A wheeled base platform with a turntable, outrigger plates, and torch lights forming the lower chassis of a mobile crane.
 0 Name: 6678 - crane.ldr
@@ -77,6 +78,7 @@
 
 
 
+0 STEP
 0 FILE 6678 - crane - top.ldr
 0 A bricked superstructure with plates, hinges, and headlight bricks forming the upper rotating body of the crane.
 0 Name: 6678 - crane - top.ldr
@@ -158,6 +160,7 @@
 
 
 
+0 STEP
 0 FILE 6678 - crane - movable A.ldr
 0 A hinged arm assembly using 2x5 hinge plates that forms the main articulated boom section of the crane.
 0 Name: 6678 - crane - movable A.ldr
@@ -183,6 +186,7 @@
 
 
 
+0 STEP
 0 FILE 6678 - crane - movable B.ldr
 0 A hinged end section with a towball socket and grab jaws forming the crane's claw attachment.
 0 Name: 6678 - crane - movable B.ldr
@@ -206,6 +210,7 @@
 
 
 
+0 STEP
 0 FILE 6678 - minifig.ldr
 0 A construction worker minifigure with a red helmet, blue torso, yellow head, and black legs.
 0 Name: 6678 - minifig.ldr

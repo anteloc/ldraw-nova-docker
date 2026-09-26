@@ -176,6 +176,7 @@
 0 // Technic Bush with Two Flanges (light_grey)
 1 7 -10 -230 -40 0 0 1 0 1 0 -1 0 0 3713.dat
 
+0 STEP
 0 FILE 950 - Platform.ldr
 0 Yellow rectangular platform built from plates and bricks with Technic gear racks on its sides for the fork-lift carriage.
 0 Name: 950 - Platform.ldr

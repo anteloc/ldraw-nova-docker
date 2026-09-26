@@ -345,6 +345,7 @@
 1 7 120.848 0 -65.254 0.656 0 0.755 0 1 0 -0.755 0 0.656 6761 - Packhorse.ldr
 1 7 227.848 0 103.746 0.423 0 0.906 0 1 0 -0.906 0 0.423 6761 - Cavalry soldier.ldr
 
+0 STEP
 0 FILE 6761 - Cavalry Lieutenant.ldr
 0 A mounted US Cavalry officer minifigure in blue uniform with a white horse, flag, bugle, rifle, and cutlass.
 0 Name: 6761 - Cavalry Lieutenant.ldr
@@ -388,6 +389,7 @@
 0 // Minifig Hat Cowboy (blue)
 1 1 0 -165 0 1 0 -0.023 0 1 0 0.023 0 1 3629.dat
 
+0 STEP
 0 FILE 6761 - Cavalry soldier.ldr
 0 A mounted US Cavalry soldier minifigure in blue uniform with kepi hat, bandana, riding a black horse armed with rifle and cutlass.
 0 Name: 6761 - Cavalry soldier.ldr
@@ -425,6 +427,7 @@
 0 // Minifig Hat Kepi (blue)
 1 1 0 -165 0 1 0 -0.023 0 1 0 0.023 0 1 30135.dat
 
+0 STEP
 0 FILE 6761 - Bandit1.ldr
 0 A black-clad bandit minifigure in a cowboy hat and bandana, wielding two revolvers.
 0 Name: 6761 - Bandit1.ldr
@@ -457,6 +460,7 @@
 0 // Minifig Gun Revolver (dark_grey)
 1 8 23.629 -53.872 -29.434 0.984 -0.181 -0.003 0.156 0.86 -0.486 0.09 0.478 0.874 30132.dat
 
+0 STEP
 0 FILE 6761 - Bandit2.ldr
 0 A red-jacketed bandit minifigure in a cowboy hat and bandana, armed with a revolver and rifle.
 0 Name: 6761 - Bandit2.ldr
@@ -489,6 +493,7 @@
 0 // Minifig Gun Rifle (dark_grey)
 1 8 -22.479 -40.435 -39.509 0.994 0.1 0.045 -0.046 0.007 0.999 0.1 -0.995 0.011 30141.dat
 
+0 STEP
 0 FILE 6761 - Bandit3.ldr
 0 A green-suited cardsharp bandit minifigure wearing a top hat, carrying a revolver and a stick of dynamite.
 0 Name: 6761 - Bandit3.ldr
@@ -519,6 +524,7 @@
 0 // Tile  1 x  2 with Dynamite Pattern (light_grey)
 1 7 -22.854 -42.641 -43.483 -0.117 0.058 -0.991 -0.365 0.926 0.097 0.924 0.373 -0.087 3069bp03.dat
 
+0 STEP
 0 FILE 6761 - Cannon.ldr
 0 A wheeled brown cannon on a dark grey carriage with four small train wheels.
 0 Name: 6761 - Cannon.ldr
@@ -547,6 +553,7 @@
 1 0 -30 5 -60 0 0 1 0 1 0 -1 0 0 50254.dat
 1 2 0 -8 31 1 0 0 0 1 0 0 0 1 6761 - Bandit2.ldr
 
+0 STEP
 0 FILE 6761 - Packhorse.ldr
 0 A brown packhorse carrying a green safe box loaded with gold coins of values 30 and 40.
 0 Name: 6761 - Packhorse.ldr
@@ -570,6 +577,7 @@
 1 334 35 -48 -2 1 0 0 0 0.94 -0.342 0 0.342 0.94 70501d.dat
 1 0 -40 -49 10 1 0 0 0 1 0 0 0 1 6761 - Box.ldr
 
+0 STEP
 0 FILE 6761 - Box.ldr
 0 A blue and black weapons crate containing a rifle.
 0 Name: 6761 - Box.ldr
@@ -602,6 +610,7 @@
 0 // Plate  2 x  6 (black)
 1 0 0 -32 0 0 0 -1 0 1 0 1 0 0 3795.dat
 
+0 STEP
 0 FILE 6761 - Train track.ldr
 0 A short straight train track segment built on plates with rails and support bricks.
 0 Name: 6761 - Train track.ldr
@@ -641,6 +650,7 @@
 0 // Panel  1 x  2 x  1 with Square Corners (black)
 1 0 -0.012 -32.233 -107.961 -1 0 0 0 1.003 -0.018 0 -0.018 -1.003 4865a.dat
 
+0 STEP
 0 FILE 6761 - Machinegun.ldr
 0 A tripod-mounted machine gun assembled from clips and three rifles on a black bracket.
 0 Name: 6761 - Machinegun.ldr
@@ -666,6 +676,7 @@
 0 // Minifig Gun Rifle (dark_grey)
 1 8 -26 10 14 0 0 -1 1 0 0 0 -1 0 30141.dat
 
+0 STEP
 0 FILE 6761 - Trip hazard.ldr
 0 A braided string tripwire strung between a round tile and a corner plate base.
 0 Name: 6761 - Trip hazard.ldr
@@ -688,6 +699,7 @@
 0 // Tile  2 x  2 Round with Cross Underside Stud (light_grey)
 1 7 -413.17 -34.468 0.395 0.706 -0.068 0.704 0.031 0.997 0.066 -0.707 -0.025 0.707 4150.dat
 
+0 STEP
 0 FILE 6761 - Sign.ldr
 0 A freestanding sign post bearing a 'GOLD MINE' sticker on a black base.
 0 Name: 6761 - Sign.ldr
@@ -702,6 +714,7 @@
 0 // Sticker  3.2 x  4 with "GOLD MINE" Sign (black)
 1 0 8 0 0 0 0 -1 0 1 0 1 0 0 4106330a.dat
 
+0 STEP
 0 FILE 6761 - 2359p04.dat
 0 A decorated 32x32 road baseplate with a curved 7-stud road, rocks, and ruts pattern in tan and dark tan.
 0 Name: 6761 - 2359p04.dat
@@ -3275,6 +3288,7 @@
 3 16 -320 0 -316 -320 0 -230 -316 0 -316
 4 16 81.685 0 -268.387 80.241 0 -262.276 81.907 0 -264.276 82.463 0 -266.054
 
+0 STEP
 0 FILE 6761 - 3626bpw0.dat
 0 A decorated minifig head pattern featuring an angry moustached face with white teeth, a gold tooth, scar, and furrowed brow.
 0 Name: 6761 - 3626bpw0.dat

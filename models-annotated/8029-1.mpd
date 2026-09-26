@@ -14,6 +14,7 @@
 
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 8029 - m-1.ldr
 
+0 STEP
 0 FILE 8029 - m-1.ldr
 0 Central fuselage core built from plates and bricks with hinge bases, curved slopes, and a binoculars detail piece.
 0 Name: 8029 - m-1.ldr
@@ -84,6 +85,7 @@
 1 72 0 -44 30 -1 0 0 0 1 0 0 0 -1 30162.dat
 0 STEP
 
+0 STEP
 0 FILE 8029 - m-1a.ldr
 0 Right-side wing assembly using large right wings, hinge tops, plates, and small slope accents.
 0 Name: 8029 - m-1a.ldr
@@ -129,6 +131,7 @@
 0 // Slope Brick 31  1 x  1 x  0.667 (light_bluish_grey)
 1 71 0 -26 30 0 0 -1 0 1 0 1 0 0 54200.dat
 
+0 STEP
 0 FILE 8029 - m-1b.ldr
 0 Left-side wing assembly mirroring the right wing with large left wings, hinge tops, plates, and small slope accents.
 0 Name: 8029 - m-1b.ldr
@@ -174,6 +177,7 @@
 0 // Slope Brick 31  1 x  1 x  0.667 (light_bluish_grey)
 1 71 40 -26 30 0 0 -1 0 1 0 1 0 0 54200.dat
 
+0 STEP
 0 FILE 8029 - m-1c.ldr
 0 Small ventral detail module featuring a downward bracket, a plate, and two grille tiles.
 0 Name: 8029 - m-1c.ldr
@@ -196,6 +200,7 @@
 0 // Tile  1 x  2 Grille with Groove (black)
 1 0 10 20 -30 0 0 1 1 0 0 0 1 0 2412b.dat
 
+0 STEP
 0 FILE 8029 - m-1aa.ldr
 0 Forward laser cannon turret built with cones, round trans-neon-orange and grey plates, a bar, and a headlight brick.
 0 Name: 8029 - m-1aa.ldr

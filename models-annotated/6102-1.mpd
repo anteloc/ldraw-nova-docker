@@ -13,6 +13,7 @@
 1 4 500 0 0 1 0 0 0 1 0 0 0 1 6102 - MiniFig6.ldr
 
 
+0 STEP
 0 FILE 6102 - MiniFig1.ldr
 0 A red-crossed-pikes castle archer in a chin-guard helmet armed with a bow and arrow quiver.
 0 Name: 6102 - MiniFig1.ldr
@@ -46,6 +47,7 @@
 1 6 35.265 -47.365 -27.556 -0.062 0.192 -0.98 -0.22 0.955 0.201 0.974 0.227 -0.017 4499.dat
 
 
+0 STEP
 0 FILE 6102 - MiniFig3.ldr
 0 A red-crossed-pikes castle soldier with a neck-protector helmet, triangular lion shield, and battleaxe.
 0 Name: 6102 - MiniFig3.ldr
@@ -79,6 +81,7 @@
 1 6 -12.494 -44.174 -39.292 -0.995 -0.086 -0.049 -0.086 0.5 0.862 -0.049 0.862 -0.505 3848.dat
 
 
+0 STEP
 0 FILE 6102 - MiniFig2.ldr
 0 A red-crossed-pikes castle soldier with a chin-guard helmet, triangular lion shield, and spear.
 0 Name: 6102 - MiniFig2.ldr
@@ -112,6 +115,7 @@
 1 6 -10.341 -56.681 -60.831 0.995 -0.086 0.049 0.086 0.5 -0.862 0.049 0.862 0.505 4497.dat
 
 
+0 STEP
 0 FILE 6102 - MiniFig4.ldr
 0 A Black Falcon archer in a black chin-guard helmet armed with a bow and arrow quiver.
 0 Name: 6102 - MiniFig4.ldr
@@ -145,6 +149,7 @@
 1 6 35.265 -47.365 -27.556 -0.062 0.192 -0.98 -0.22 0.955 0.201 0.974 0.227 -0.017 4499.dat
 
 
+0 STEP
 0 FILE 6102 - MiniFig5.ldr
 0 A Black Falcon soldier with a chin-guard helmet, falcon-decorated shield, and black battleaxe.
 0 Name: 6102 - MiniFig5.ldr
@@ -178,6 +183,7 @@
 1 0 -12.667 -43.172 -37.567 -0.993 -0.086 0.086 0.031 0.5 0.865 -0.118 0.861 -0.494 3848.dat
 
 
+0 STEP
 0 FILE 6102 - MiniFig6.ldr
 0 A Black Falcon soldier with a neck-protector helmet, falcon-decorated shield, and shortsword.
 0 Name: 6102 - MiniFig6.ldr

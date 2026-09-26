@@ -14,6 +14,7 @@
 1 0 120 0 20 0 0 -1 0 1 0 1 0 0 6592-1 - MiniFig2.ldr
 
 
+0 STEP
 0 FILE 6592-1 - House.ldr
 0 A red-brick vacation house built on a green baseplate with panels, plates, a grille tile, and small colored accent pieces.
 0 Name: 6592-1 - House.ldr
@@ -240,6 +241,7 @@
 1 0 -60 -184 110 1 0 0 0 1 0 0 0 1 4589.dat
 
 
+0 STEP
 0 FILE 6592-1 - Bicycle.ldr
 0 A red minifig bicycle with clear wheels and a lettered license plate tile.
 0 Name: 6592-1 - Bicycle.ldr
@@ -259,6 +261,7 @@
 1 15 0 -60 46 0 0 -1 0 1 0 1 0 0 3069bp01.dat
 
 
+0 STEP
 0 FILE 6592-1 - MiniFig1.ldr
 0 A female minifigure with red shoulder-length hair, a gold necklace torso, and a black frying pan.
 0 Name: 6592-1 - MiniFig1.ldr
@@ -286,6 +289,7 @@
 1 0 -23.197 -53.134 -23.005 0.994 0.068 -0.086 -0.016 0.866 0.5 0.109 -0.496 0.862 4528.dat
 
 
+0 STEP
 0 FILE 6592-1 - MiniFig2.ldr
 0 A male minifigure with black hair and a red-striped torso outfit.
 0 Name: 6592-1 - MiniFig2.ldr
@@ -311,6 +315,7 @@
 1 0 0 -96 11 0.986 0 -0.169 0 1 0 0.169 0 0.986 3901.dat
 
 
+0 STEP
 0 FILE 6592-1 - 160395a.dat
 0 A sticker sheet depicting a window curtain for the house facade.
 0 Name: 6592-1 - 160395a.dat

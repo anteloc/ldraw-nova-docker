@@ -15,6 +15,7 @@
 1 16 0 -4 -142 1 0 0 0 1 0 0 0 1 897 - White Minifig.ldr
 
 
+0 STEP
 0 FILE 897 - Command Vehicle.ldr
 0 A wheeled light grey command vehicle built on plates with six tyres, mudguards, a steering wheel, a turntable base, and an airtanks element.
 0 Name: 897 - Command Vehicle.ldr
@@ -72,6 +73,7 @@
 1 7 0 -20 -190 -1 0 0 0 1 0 0 0 -1 3838.dat
 
 
+0 STEP
 0 FILE 897 - Command Vehicle - Radar Stand.ldr
 0 A light grey radar mounting stand using plates, a turntable top, an upward bracket, a hinged computer console slope, and a hinge top.
 0 Name: 897 - Command Vehicle - Radar Stand.ldr
@@ -107,6 +109,7 @@
 1 16 20 -20 -18 -1 0 0 0 1 0 0 0 -1 897 - Red Minifig.ldr
 
 
+0 STEP
 0 FILE 897 - Command Vehicle - Radar Stand - Radar.ldr
 0 A small articulated radar unit consisting of an inverted dish antenna with a translucent green light, mounted on a hinge base.
 0 Name: 897 - Command Vehicle - Radar Stand - Radar.ldr
@@ -129,6 +132,7 @@
 1 34 -10 0 -38 1 0 0 0 0 1 0 -1 0 3062b.dat
 
 
+0 STEP
 0 FILE 897 - Rocket Trailer.ldr
 0 A wheeled light grey trailer with a towball socket, mudguards, four tyres, and a long hinged red-and-grey launch ramp bed.
 0 Name: 897 - Rocket Trailer.ldr
@@ -184,6 +188,7 @@
 1 16 0 -66 260 1 0 0 0 1 0 0 0 1 897 - Rocket Trailer - Rocket.ldr
 
 
+0 STEP
 0 FILE 897 - Rocket Trailer - Satellite.ldr
 0 A compact red and light grey satellite with positioning rockets, a translucent red element, and a rounded antenna.
 0 Name: 897 - Rocket Trailer - Satellite.ldr
@@ -213,6 +218,7 @@
 0 // Antenna  4H with Rounded Top (light_grey)
 1 7 0 -40 0 0 0 -1 0 1 0 1 0 0 3957a.dat
 
+0 STEP
 0 FILE 897 - Rocket Trailer - Rocket.ldr
 0 A tall multi-stage rocket built from round white and black bricks, topped with pointed black and white cones and mounted on a hinged launch bracket.
 0 Name: 897 - Rocket Trailer - Rocket.ldr
@@ -252,6 +258,7 @@
 1 15 0 -38 -202 0 0 -1 -1 0 0 0 1 0 3942b.dat
 
 
+0 STEP
 0 FILE 897 - White Minifig.ldr
 0 A Classic Space minifigure with a white helmet, airtanks, and classic space torso on white limbs.
 0 Name: 897 - White Minifig.ldr
@@ -287,6 +294,7 @@
 1 15 0 -9 10 1 0 0 0 0 1 0 -1 0 3817.dat
 
 
+0 STEP
 0 FILE 897 - Red Minifig.ldr
 0 A Classic Space minifigure with a red helmet, airtanks, and classic space torso on red limbs.
 0 Name: 897 - Red Minifig.ldr

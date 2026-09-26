@@ -113,6 +113,7 @@
 1 47 -120 -123 11 1 0 0 0 0.9976 0.0698 0 -0.0698 0.9976 3676 - cathy.ldr
 1 0 300 0 -60 0 0 1 0 1 0 -1 0 0 3676 - joe.ldr
 
+0 STEP
 0 FILE 3676 - edward.ldr
 0 Empty submodel serving as a placeholder reference for an Edward Fabuland figure.
 0 Name: 3676 - edward.ldr
@@ -129,6 +130,7 @@
 1 7 0 -67 4 0.9563 0.0255 -0.2913 0 0.9962 0.0872 0.2924 -0.0833 0.9527 u588p02c01.dat
 
 
+0 STEP
 0 FILE 3676 - bonnie.ldr
 0 Empty submodel serving as a placeholder reference for a Bonnie Fabuland figure.
 0 Name: 3676 - bonnie.ldr
@@ -145,6 +147,7 @@
 1 19 0 -67 4 0.866 0 0.5 0 1 0 -0.5 0 0.866 u9106p03c01.dat
 
 
+0 STEP
 0 FILE 3676 - cathy.ldr
 0 Empty submodel serving as a placeholder reference for a Cathy Fabuland figure.
 0 Name: 3676 - cathy.ldr
@@ -161,6 +164,7 @@
 1 15 0 -67 4 0.866 0 -0.5 0 1 0 0.5 0 0.866 u9108p03c01.dat
 
 
+0 STEP
 0 FILE 3676 - joe.ldr
 0 Empty submodel serving as a placeholder reference for a Joe Fabuland figure.
 0 Name: 3676 - joe.ldr
@@ -177,6 +181,7 @@
 1 0 0 -67 4 0.6561 0 -0.7547 0 1 0 0.7547 0 0.6561 u586p03c02.dat
 
 
+0 STEP
 0 FILE 3676 - 4429.dat
 0 Primitive geometry defining a Fabuland figure flask body with a handle, built from cylindrical, spherical, and chord surfaces.
 0 Name: 3676 - 4429.dat
@@ -1147,6 +1152,7 @@
 2 24 0 31.9322 18.2884 0 31.9322 18.2885
 
 
+0 STEP
 0 FILE s\3676 - 4429s01.dat
 0 Empty subfile providing the braid portion of the Fabuland figure flask with handle.
 0 Name: s\3676 - 4429s01.dat
@@ -1254,6 +1260,7 @@
 5 24 -8.1116 36 19.583 -7.2459 36 20.3751 -11.6673 38 17.4613 -4.097 34 20.597
 
 
+0 STEP
 0 FILE s\3676 - 4429s02.dat
 0 Empty subfile providing the side portion of the Fabuland figure flask with handle.
 0 Name: s\3676 - 4429s02.dat

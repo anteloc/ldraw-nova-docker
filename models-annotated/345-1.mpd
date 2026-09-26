@@ -17,6 +17,7 @@
 
 
 
+0 STEP
 0 FILE 345 - House.ldr
 0 A small building constructed from black and white bricks with red doors and a panoramic window on a patterned green baseplate.
 0 Name: 345 - House.ldr
@@ -269,6 +270,7 @@
 
 
 
+0 STEP
 0 FILE 345 - Car.ldr
 0 A white town car with black slope windshield, red wheels, and a patterned grille.
 0 Name: 345 - Car.ldr
@@ -323,6 +325,7 @@
 
 
 
+0 STEP
 0 FILE 345 - u9080p01.dat
 0 A geometric primitive sub-component made of cylinders, rings, discs, and box shapes.
 0 Name: 345 - u9080p01.dat
@@ -396,6 +399,7 @@
 0
 
 
+0 STEP
 0 FILE 345 - u9078s01.dat
 0 An empty reference submodel with no direct pieces.
 0 Name: 345 - u9078s01.dat
@@ -2742,6 +2746,7 @@
 
 
 
+0 STEP
 0 FILE 345 - u9078s02.dat
 0 An empty reference submodel with no direct pieces.
 0 Name: 345 - u9078s02.dat
@@ -3088,6 +3093,7 @@
 
 
 
+0 STEP
 0 FILE s\345 - u9078s01.dat
 0 An empty reference submodel with no direct pieces.
 0 Name: s\345 - u9078s01.dat
@@ -5425,6 +5431,7 @@
 5 24 49.5 2 19 50.75 2 19.25 51.25 2 20.5 51 2 17.5
 0 //
 
+0 STEP
 0 FILE s\345 - u9078s02.dat
 0 An empty reference submodel with no direct pieces.
 0 Name: s\345 - u9078s02.dat

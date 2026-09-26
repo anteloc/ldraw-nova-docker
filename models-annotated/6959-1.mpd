@@ -13,6 +13,7 @@
 
 
 
+0 STEP
 0 FILE 6959 - Rocket.ldr
 0 A red and black rocket built from finned round bricks, cones, and a tail section, topped with control sticks.
 0 Name: 6959 - Rocket.ldr
@@ -52,6 +53,7 @@
 
 
 
+0 STEP
 0 FILE 6959 - Vehicle.ldr
 0 A red and black wheeled rover with six wheels, a windshield screen, and control sticks.
 0 Name: 6959 - Vehicle.ldr
@@ -116,6 +118,7 @@
 
 
 
+0 STEP
 0 FILE 6959 - Vehicle - Light.ldr
 0 A small light fixture assembly made of a clip plate and a translucent blue inverted dish.
 0 Name: 6959 - Vehicle - Light.ldr
@@ -133,6 +136,7 @@
 
 
 
+0 STEP
 0 FILE 6959 - Vehicle + Minifig.ldr
 0 A wheeled rover submodel combined with a minifigure.
 0 Name: 6959 - Vehicle + Minifig.ldr
@@ -148,6 +152,7 @@
 
 
 
+0 STEP
 0 FILE 6959 - Spaceship.ldr
 0 A black and red spacecraft with a large cockpit, swept wings, jet engines, and grille tiles.
 0 Name: 6959 - Spaceship.ldr
@@ -215,6 +220,7 @@
 
 
 
+0 STEP
 0 FILE 6959 - Spaceship - Light 1.ldr
 0 A light fixture assembly using a hinge plate, side-stud brick, and translucent blue inverted dish.
 0 Name: 6959 - Spaceship - Light 1.ldr
@@ -234,6 +240,7 @@
 
 
 
+0 STEP
 0 FILE 6959 - Spaceship - Light 2.ldr
 0 A small light fitting consisting of a clip tile and a translucent blue cone.
 0 Name: 6959 - Spaceship - Light 2.ldr
@@ -251,6 +258,7 @@
 
 
 
+0 STEP
 0 FILE 6959 - Spaceship - Cockpit.ldr
 0 An octagonal cockpit canopy with a patterned control panel tile.
 0 Name: 6959 - Spaceship - Cockpit.ldr
@@ -268,6 +276,7 @@
 
 
 
+0 STEP
 0 FILE 6959 - Spaceship + Minifig.ldr
 0 A spacecraft submodel combined with a minifigure.
 0 Name: 6959 - Spaceship + Minifig.ldr
@@ -283,6 +292,7 @@
 
 
 
+0 STEP
 0 FILE 6959 - Base.ldr
 0 The main launch base built on a raised crater-patterned baseplate with bricks, slopes, and red plate detailing.
 0 Name: 6959 - Base.ldr
@@ -629,6 +639,7 @@
 
 
 
+0 STEP
 0 FILE 6959 - Base - 1.ldr
 0 A control station section with a translucent panel, antennas, slopes, and arrow-patterned tiles.
 0 Name: 6959 - Base - 1.ldr
@@ -674,6 +685,7 @@
 
 
 
+0 STEP
 0 FILE 6959 - Base - 1 - Radar.ldr
 0 A radar dish assembly using a hinge plate and a large inverted webbed dish.
 0 Name: 6959 - Base - 1 - Radar.ldr
@@ -694,6 +706,7 @@
 
 
 
+0 STEP
 0 FILE 6959 - Base - 2.ldr
 0 A storage container unit with a door, screen-patterned tile, and surrounding plates.
 0 Name: 6959 - Base - 2.ldr
@@ -720,6 +733,7 @@
 
 
 
+0 STEP
 0 FILE 6959 - Base - 3.ldr
 0 A flat platform section built from large plates and grooved tiles with directional arrow markings.
 0 Name: 6959 - Base - 3.ldr
@@ -771,6 +785,7 @@
 
 
 
+0 STEP
 0 FILE 6959 - Base - 4.ldr
 0 A large structural platform section with plates, rock panels, and directional arrow tiles.
 0 Name: 6959 - Base - 4.ldr
@@ -846,6 +861,7 @@
 
 
 
+0 STEP
 0 FILE 6959 - Base - 4 - 1.ldr
 0 A small hinged platform extension with plates and an arrow-patterned tile.
 0 Name: 6959 - Base - 4 - 1.ldr
@@ -866,6 +882,7 @@
 
 
 
+0 STEP
 0 FILE 6959 - Base - 5.ldr
 0 A hinged platform section with plates, handles, and translucent blue cones.
 0 Name: 6959 - Base - 5.ldr
@@ -889,6 +906,7 @@
 
 
 
+0 STEP
 0 FILE 6959 - Base - 6.ldr
 0 A small angled structural section using a slope brick and pin brick on plates.
 0 Name: 6959 - Base - 6.ldr
@@ -910,6 +928,7 @@
 
 
 
+0 STEP
 0 FILE 6959 - Base - 7.ldr
 0 A small structural section with plates, a slope brick, and a pin brick.
 0 Name: 6959 - Base - 7.ldr
@@ -933,6 +952,7 @@
 
 
 
+0 STEP
 0 FILE 6959 - Base - 8.ldr
 0 A rocky terrain section with rock panels, technic bricks, and clip light plates.
 0 Name: 6959 - Base - 8.ldr
@@ -974,6 +994,7 @@
 
 
 
+0 STEP
 0 FILE 6959 - Base - 8 + Rocket.ldr
 0 A rocky terrain section combined with the rocket assembly.
 0 Name: 6959 - Base - 8 + Rocket.ldr
@@ -989,6 +1010,7 @@
 
 
 
+0 STEP
 0 FILE 6959 - Base - 9.ldr
 0 A radar and launcher assembly with a large inverted dish, extension plates, and a translucent light cone.
 0 Name: 6959 - Base - 9.ldr
@@ -1030,6 +1052,7 @@
 
 
 
+0 STEP
 0 FILE 6959 - Base - 10.ldr
 0 A large translucent corner panel with a holographic stripe and red triangle sticker.
 0 Name: 6959 - Base - 10.ldr
@@ -1044,6 +1067,7 @@
 0 // Sticker  5.4 x  7.9 with Holographic Stripes and Red Triangles (black)
 1 0 88.572 96 -88.572 0.707107 -0.597924 -0.377474 0 0.533829 -0.845593 0.707107 0.597924 0.377474 6959 - 168295a.dat
 
+0 STEP
 0 FILE 6959 - Base + Minifig.ldr
 0 The launch base combined with a minifigure.
 0 Name: 6959 - Base + Minifig.ldr
@@ -1059,6 +1083,7 @@
 
 
 
+0 STEP
 0 FILE 6959 - Base + Vehicle.ldr
 0 Container submodel referencing the base and vehicle assemblies with no direct pieces of its own.
 0 Name: 6959 - Base + Vehicle.ldr
@@ -1074,6 +1099,7 @@
 
 
 
+0 STEP
 0 FILE 6959 - Minifig 1.ldr
 0 Blue Spyrius-patterned minifigure with airtanks, thin moustache head, red hips and black arms and legs.
 0 Name: 6959 - Minifig 1.ldr
@@ -1108,6 +1134,7 @@
 
 
 
+0 STEP
 0 FILE 6959 - Minifig 1 - Helmet.ldr
 0 Red helmet with blue and silver Spyrius pattern and a translucent neon green visor.
 0 Name: 6959 - Minifig 1 - Helmet.ldr
@@ -1125,6 +1152,7 @@
 
 
 
+0 STEP
 0 FILE 6959 - Minifig 2.ldr
 0 Blue Spyrius-patterned minifigure with airtanks, headband head, red hips and black arms and legs.
 0 Name: 6959 - Minifig 2.ldr
@@ -1159,6 +1187,7 @@
 
 
 
+0 STEP
 0 FILE 6959 - Minifig 2 - Helmet.ldr
 0 Red helmet with a translucent neon green visor.
 0 Name: 6959 - Minifig 2 - Helmet.ldr
@@ -1176,6 +1205,7 @@
 
 
 
+0 STEP
 0 FILE 6959 - Minifig 3.ldr
 0 Red robot-patterned minifigure with a clear helmet, robot-printed head, hips and legs, and black arms.
 0 Name: 6959 - Minifig 3.ldr
@@ -1206,6 +1236,7 @@
 0 // ~Minifig Leg Left with Robot Pattern (Obsolete) (red)
 1 4 0 44 0 1 0 0 0 1 0 0 0 1 3817p63.dat
 
+0 STEP
 0 FILE 6959 - 168295a.dat
 0 Sticker sheet composed of 24 silver chord segments on 24 black disc segments with a backing piece.
 0 Name: 6959 - 168295a.dat
@@ -1590,6 +1621,7 @@
 1 16 52.7 -0.25 48 0 0 6 0 0.25 0 6 0 0 48\5-24cyli.dat
 1 16 -52.7 -0.25 48 0 0 -6 0 0.25 0 6 0 0 48\5-24cyli.dat
 
+0 STEP
 0 FILE 48\6959 - 1-24ndis.dat
 0 Primitive-generated hi-resolution quarter disc negative geometry piece.
 0 Name: 48\6959 - 1-24ndis.dat

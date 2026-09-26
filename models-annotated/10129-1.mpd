@@ -11,6 +11,7 @@
 
 
 1 0 -120 -348.328 43.88 0 0 -1 0.208 0.978 0 0.978 -0.208 0 10129 - main_1.ldr
+0 STEP
 0 FILE 10129 - main_1.ldr
 0 Main fuselage and central body structure of the Snowspeeder, built up from bricks, plates, slopes, panels, grille tiles and numerous detail sub-assemblies
 0 Name: 10129 - main_1.ldr
@@ -770,6 +771,7 @@
 0 STEP
 1 71 -287.5436 -53.5143 80 0.866 0.5 0 -0.5 0.866 0 0 0 1 10129 - subModel-61.ldr
 
+0 STEP
 0 FILE 10129 - subModel-1.ldr
 0 Small headlight bracket detail assembly
 0 Author: Roland Dahl [RolandD]
@@ -782,6 +784,7 @@
 0 // Plate  1 x  1 Round (dark_bluish_grey)
 1 72 0 10 -14 0 0 1 1 0 0 0 1 0 6141.dat
 
+0 STEP
 0 FILE 10129 - subModel-2.ldr
 0 Technic structural mount with open-centre brick, axle and blue pin connectors
 0 Author: Roland Dahl [RolandD]
@@ -807,6 +810,7 @@
 0 // Plate  2 x  4 (light_bluish_grey)
 1 71 60 -24 0 1 0 0 0 -1 0 0 0 -1 3020.dat
 
+0 STEP
 0 FILE 10129 - subModel-3.ldr
 0 Long structural reinforcement assembly of a 1x4 plate and 1x10 brick
 0 Author: Roland Dahl [RolandD]
@@ -819,6 +823,7 @@
 0 // Brick  1 x 10 (light_bluish_grey)
 1 71 0 -24 40 0 0 -1 0 1 0 1 0 0 6111.dat
 
+0 STEP
 0 FILE 10129 - subModel-4.ldr
 0 Small angled greeble detail assembly (black)
 0 Author: Roland Dahl [RolandD]
@@ -836,6 +841,7 @@
 0 // Plate  1 x  3 (black)
 1 0 0 -32 10 0 0 1 0 1 0 -1 0 0 3623.dat
 
+0 STEP
 0 FILE 10129 - subModel-5.ldr
 0 Small angled panel greeble detail assembly (black)
 0 Author: Roland Dahl [RolandD]
@@ -860,6 +866,7 @@
 0 // Plate  1 x  3 (black)
 1 0 0 -56 10 0 0 -1 0 1 0 1 0 0 3623.dat
 
+0 STEP
 0 FILE 10129 - subModel-6.ldr
 0 Doubled 2x10 plate reinforcement assembly
 0 Author: Roland Dahl [RolandD]
@@ -872,6 +879,7 @@
 0 // Plate  2 x 10 (light_bluish_grey)
 1 71 0 -8 0 0 0 -1 0 1 0 1 0 0 3832.dat
 
+0 STEP
 0 FILE 10129 - subModel-7.ldr
 0 Doubled 2x2 corner plate reinforcement assembly
 0 Author: Roland Dahl [RolandD]
@@ -884,6 +892,7 @@
 0 // Plate  2 x  2 Corner (light_bluish_grey)
 1 71 0 -8 0 1 0 0 0 1 0 0 0 1 2420.dat
 
+0 STEP
 0 FILE 10129 - subModel-8.ldr
 0 Bracket-mounted detail assembly with yellow plates and round tile
 0 Author: Roland Dahl [RolandD]
@@ -902,6 +911,7 @@
 0 // Tile  2 x  2 Round with Cross Underside Stud (light_bluish_grey)
 1 71 0 4 -22 0 0 -1 -1 0 0 0 1 0 4150.dat
 
+0 STEP
 0 FILE 10129 - subModel-9.ldr
 0 Small angled greeble detail assembly (black)
 0 Author: Roland Dahl [RolandD]
@@ -921,6 +931,7 @@
 0 // Brick  1 x  4 (black)
 1 0 0 -48 0 0 0 1 0 1 0 -1 0 0 3010.dat
 
+0 STEP
 0 FILE 10129 - subModel-10.ldr
 0 Doubled 1x1 plate detail assembly
 0 Author: Roland Dahl [RolandD]
@@ -934,6 +945,7 @@
 0 // Plate  1 x  1 (light_bluish_grey)
 1 71 0 -8 0 1 0 0 0 1 0 0 0 1 3024.dat
 
+0 STEP
 0 FILE 10129 - subModel-11.ldr
 0 Grille vent assembly built on mounting plates
 0 Author: Roland Dahl [RolandD]
@@ -952,6 +964,7 @@
 0 // Plate  1 x  4 (light_bluish_grey)
 1 71 0 -32 0 1 0 0 0 1 0 0 0 1 3710.dat
 
+0 STEP
 0 FILE 10129 - subModel-12.ldr
 0 Hinged engine intake panel with locking mechanism (right side)
 0 Author: Roland Dahl [RolandD]
@@ -983,6 +996,7 @@
 1 71 10 -29.0711 22.9289 1 0 0 0 0.7071 0.7071 0 -0.7071 0.7071 10129 - subModel-13.ldr
 0 STEP
 
+0 STEP
 0 FILE 10129 - subModel-13.ldr
 0 Hinge arm locking mechanism sub-assembly
 0 Author: Roland Dahl [RolandD]
@@ -997,6 +1011,7 @@
 0 // Technic Pin Joiner Round (light_bluish_grey)
 1 71 0 0 -40 0 0 1 0 1 0 -1 0 0 75535.dat
 
+0 STEP
 0 FILE 10129 - subModel-14.ldr
 0 Small headlight detail assembly
 0 Author: Roland Dahl [RolandD]
@@ -1009,6 +1024,7 @@
 0 // Plate  1 x  1 (dark_bluish_grey)
 1 72 0 10 -14 0 0 1 1 0 0 0 1 0 3024.dat
 
+0 STEP
 0 FILE 10129 - subModel-15.ldr
 0 Hinged engine intake panel with locking mechanism (left side)
 0 Author: Roland Dahl [RolandD]
@@ -1040,6 +1056,7 @@
 0 STEP
 1 72 -10 -29.0711 22.9289 -1 0 0 0 -0.7071 0.7071 0 0.7071 0.7071 10129 - subModel-13.ldr
 
+0 STEP
 0 FILE 10129 - subModel-16.ldr
 0 Angled grille detail panel assembly (black)
 0 Author: Roland Dahl [RolandD]
@@ -1062,6 +1079,7 @@
 0 // =Tile  1 x  2 Grille with Groove (black)
 1 0 0 -32 -10 0 0 1 0 1 0 -1 0 0 30244.dat
 
+0 STEP
 0 FILE 10129 - subModel-17.ldr
 0 Large inverted double slope panel with hinge-tile mounting
 0 Author: Roland Dahl [RolandD]
@@ -1090,6 +1108,7 @@
 0 // Hinge Tile  1 x  4 Locking with 2 Single Fingers on Top (light_bluish_grey)
 1 71 0 8 -20 1 0 0 0 1 0 0 0 1 44822.dat
 
+0 STEP
 0 FILE 10129 - subModel-18.ldr
 0 Cockpit control stick (joystick) assembly
 0 Author: Roland Dahl [RolandD]
@@ -1102,6 +1121,7 @@
 0 // ~Hinge Control Stick and Base (Complete) (Obsolete) (yellow)
 1 14 0 10 14 -1 0 0 0 0 -1 0 -1 0 4592c01.dat
 
+0 STEP
 0 FILE 10129 - subModel-19.ldr
 0 Engine thruster nozzle assembly
 0 Author: Roland Dahl [RolandD]
@@ -1114,6 +1134,7 @@
 0 // Tile  2 x  2 with Pin (light_bluish_grey)
 1 71 0 0 -8 1 0 0 0 0 -1 0 1 0 2460.dat
 
+0 STEP
 0 FILE 10129 - subModel-20.ldr
 0 Angled vent grille detail assembly (black)
 0 Author: Roland Dahl [RolandD]
@@ -1134,6 +1155,7 @@
 0 // =Tile  1 x  2 Grille with Groove (black)
 1 0 0 -32 -50 0 0 -1 0 1 0 1 0 0 30244.dat
 
+0 STEP
 0 FILE 10129 - subModel-21.ldr
 0 Sensor / antenna tool-holder mount assembly
 0 Author: Roland Dahl [RolandD]
@@ -1146,6 +1168,7 @@
 0 // Technic Pin Long with Stop Bush (black)
 1 0 0 10 46 0 1 0 0 0 1 1 0 0 32054.dat
 
+0 STEP
 0 FILE 10129 - subModel-22.ldr
 0 Angled surface greeble detail assembly (black)
 0 Author: Roland Dahl [RolandD]
@@ -1173,6 +1196,7 @@
 0 // Brick  1 x  1 (black)
 1 0 0 56 30 0 0 1 0 1 0 -1 0 0 3005.dat
 
+0 STEP
 0 FILE 10129 - subModel-23.ldr
 0 Angled surface greeble detail assembly (black)
 0 Author: Roland Dahl [RolandD]
@@ -1200,6 +1224,7 @@
 0 // Brick  1 x  1 (black)
 1 0 0 56 30 0 0 1 0 1 0 -1 0 0 3005.dat
 
+0 STEP
 0 FILE 10129 - subModel-24.ldr
 0 Small mounting plate sub-assembly
 0 Author: Roland Dahl [RolandD]
@@ -1212,6 +1237,7 @@
 0 // Plate  1 x  2 (light_bluish_grey)
 1 71 0 8 20 -1 0 0 0 1 0 0 0 -1 3023.dat
 
+0 STEP
 0 FILE 10129 - subModel-25.ldr
 0 Control console assembly with dual joysticks and hinge
 0 Author: Roland Dahl [RolandD]
@@ -1250,6 +1276,7 @@
 0 // Hinge  1 x  2 Base (white)
 1 15 0.6031 14.5798 20 0 0.9397 -0.342 0 0.342 0.9397 1 0 0 3937.dat
 
+0 STEP
 0 FILE 10129 - subModel-26.ldr
 0 Hinged locking panel sub-assembly
 0 Author: Roland Dahl [RolandD]
@@ -1270,6 +1297,7 @@
 0 // Plate  2 x  4 (light_bluish_grey)
 1 71 0 -32 30 0 0 1 0 1 0 -1 0 0 3020.dat
 
+0 STEP
 0 FILE 10129 - subModel-27.ldr
 0 Technic beam assembly with pin-connector mount
 0 Author: Roland Dahl [RolandD]
@@ -1285,6 +1313,7 @@
 1 14 20 0 20 1 0 0 0 1 0 0 0 1 10129 - subModel-28.ldr
 1 14 -20 0 20 1 0 0 0 1 0 0 0 1 10129 - subModel-28.ldr
 
+0 STEP
 0 FILE 10129 - subModel-28.ldr
 0 Pin-connector brick sub-assembly
 0 Author: Roland Dahl [RolandD]
@@ -1297,6 +1326,7 @@
 0 // Brick  1 x  2 with Pin (yellow)
 1 14 0 -24 0 1 0 0 0 1 0 0 0 1 2458.dat
 
+0 STEP
 0 FILE 10129 - subModel-29.ldr
 0 Landing strut / lever mechanism with locking hinge and stop bar
 0 Author: Roland Dahl [RolandD]
@@ -1335,6 +1365,7 @@
 0 // Bar  6.6L with Stop (light_bluish_grey)
 1 71 0 -22 -20 -1 0 0 0 0 -1 0 -1 0 4095.dat
 
+0 STEP
 0 FILE 10129 - subModel-30.ldr
 0 Hinged panel assembly with red indicator lights
 0 Author: Roland Dahl [RolandD]
@@ -1371,6 +1402,7 @@
 1 15 0.603 14.58 -20 0 0.9397 -0.342 0 0.342 0.9397 1 0 0 3937.dat
 0 STEP
 
+0 STEP
 0 FILE 10129 - subModel-31.ldr
 0 Curved hinged access panel with locking hinge
 0 Author: Roland Dahl [RolandD]
@@ -1405,6 +1437,7 @@
 0 // Slope Brick Curved  6 x  1 (dark_bluish_grey)
 1 72 -50 -24 -40 -1 0 0 0 1 0 0 0 -1 42022.dat
 
+0 STEP
 0 FILE 10129 - subModel-32.ldr
 0 Laser cannon barrel assembly with barrels and dishes
 0 Author: Roland Dahl [RolandD]
@@ -1440,6 +1473,7 @@
 0 // Bar  6.6L with Stop (black)
 1 0 0 10 -150 0 0 1 -1 0 0 0 -1 0 4095.dat
 
+0 STEP
 0 FILE 10129 - subModel-33.ldr
 0 Cannon mounting core detail sub-assembly
 0 Author: Roland Dahl [RolandD]
@@ -1454,6 +1488,7 @@
 0 // Brick  1 x  1 with Headlight (black)
 1 0 0 0 40 -1 0 0 0 1 0 0 0 -1 4070.dat
 
+0 STEP
 0 FILE 10129 - subModel-34.ldr
 0 Cockpit canopy frame with windshield mounting
 0 Author: Roland Dahl [RolandD]
@@ -1511,6 +1546,7 @@
 0 // Tile  2 x  2 with Groove (white)
 1 15 -60 -88 80 1 0 0 0 1 0 0 0 1 3068b.dat
 
+0 STEP
 0 FILE 10129 - subModel-35.ldr
 0 Canopy window panel sub-assembly
 0 Author: Roland Dahl [RolandD]
@@ -1525,6 +1561,7 @@
 0 // =Panel  1 x  2 x  2 with Solid Studs (trans_brown)
 1 40 0 -56 0 0 0 -1 0 1 0 1 0 0 6268a.dat
 
+0 STEP
 0 FILE 10129 - subModel-36.ldr
 0 Canopy clip-light detail sub-assembly
 0 Author: Roland Dahl [RolandD]
@@ -1539,6 +1576,7 @@
 0 // Plate  1 x  1 with Clip Light Type 2 (white)
 1 15 0 -16 0 1 0 0 0 1 0 0 0 1 4081b.dat
 
+0 STEP
 0 FILE 10129 - subModel-37.ldr
 0 Cockpit windshield assembly (trans-brown)
 0 Author: Roland Dahl [RolandD]
@@ -1562,6 +1600,7 @@
 0 // Plate  1 x  2 (white)
 1 15 60 -8 0 1 0 0 0 1 0 0 0 1 3023.dat
 
+0 STEP
 0 FILE 10129 - subModel-38.ldr
 0 Canopy mounting plate sub-assembly
 0 Author: Roland Dahl [RolandD]
@@ -1576,6 +1615,7 @@
 0 // Plate  2 x  3 (light_bluish_grey)
 1 71 20 -8 20 0 0 -1 0 1 0 1 0 0 3021.dat
 
+0 STEP
 0 FILE 10129 - subModel-39.ldr
 0 Cockpit interior floor and seat structure
 0 Author: Roland Dahl [RolandD]
@@ -1703,6 +1743,7 @@
 0 // Plate  4 x  4 Corner (white)
 1 15 -60 -64 120 1 0 0 0 1 0 0 0 1 2639.dat
 
+0 STEP
 0 FILE 10129 - subModel-40.ldr
 0 Cockpit small slope detail sub-assembly
 0 Author: Roland Dahl [RolandD]
@@ -1715,6 +1756,7 @@
 0 // Plate  1 x  1 (white)
 1 15 0 -8 0 -1 0 0 0 1 0 0 0 -1 3024.dat
 
+0 STEP
 0 FILE 10129 - subModel-41.ldr
 0 Hinged main cockpit canopy (trans-brown)
 0 Author: Roland Dahl [RolandD]
@@ -1727,6 +1769,7 @@
 0 // Hinge Plate  1 x  4 with Car Roof Holder (white)
 1 15 0 -4 14 1 0 0 0 1 0 0 0 1 4315.dat
 
+0 STEP
 0 FILE 10129 - subModel-42.ldr
 0 Rear wing / engine pod assembly with airbrake flaps and orange accents
 0 Author: Roland Dahl [RolandD]
@@ -1832,6 +1875,7 @@
 0 // =Slope Brick 33  3 x  6 (dark_bluish_grey)
 1 72 20 -88 10 1 0 0 0 1 0 0 0 1 6208.dat
 
+0 STEP
 0 FILE 10129 - subModel-43.ldr
 0 Wing tip detail sub-assembly
 0 Author: Roland Dahl [RolandD]
@@ -1844,6 +1888,7 @@
 0 // Plate  2 x  2 Corner (white)
 1 15 10 -8 30 -1 0 0 0 1 0 0 0 -1 2420.dat
 
+0 STEP
 0 FILE 10129 - subModel-44.ldr
 0 Wing tip detail sub-assembly (mirror)
 0 Author: Roland Dahl [RolandD]
@@ -1856,6 +1901,7 @@
 0 // Plate  2 x  2 Corner (white)
 1 15 -10 -8 30 0 0 1 0 1 0 -1 0 0 2420.dat
 
+0 STEP
 0 FILE 10129 - subModel-45.ldr
 0 Wing technic spar with pin connectors
 0 Author: Roland Dahl [RolandD]
@@ -1879,6 +1925,7 @@
 0 STEP
 1 1 0 0 -20 1 0 0 0 1 0 0 0 1 10129 - subModel-46.ldr
 
+0 STEP
 0 FILE 10129 - subModel-46.ldr
 0 Technic beam sub-assembly
 0 Author: Roland Dahl [RolandD]
@@ -1891,6 +1938,7 @@
 0 // Technic Brick  1 x  6 with Holes (blue)
 1 1 0 -24 0 1 0 0 0 1 0 0 0 1 3894.dat
 
+0 STEP
 0 FILE 10129 - subModel-47.ldr
 0 Wing accent stripe detail sub-assembly
 0 Author: Roland Dahl [RolandD]
@@ -1910,6 +1958,7 @@
 0 // Plate  1 x  1 (white)
 1 15 50 -16 0 1 0 0 0 1 0 0 0 1 3024.dat
 
+0 STEP
 0 FILE 10129 - subModel-48.ldr
 0 Port wing panel assembly with plates, wing elements and surface details
 0 Author: Roland Dahl [RolandD]
@@ -2241,6 +2290,7 @@
 1 15 -80 -72 -330 1 0 0 0 1 0 0 0 1 2431.dat
 1 15 -80 -46 -500 1 0 0 0 1 0 0 0 1 10129 - subModel-59.ldr
 
+0 STEP
 0 FILE 10129 - subModel-49.ldr
 0 Wing detail tile with orange accent
 0 Author: Roland Dahl [RolandD]
@@ -2256,6 +2306,7 @@
 0 // Tile  1 x  1 with Groove (white)
 1 15 20 -8 0 0 0 1 0 1 0 -1 0 0 3070b.dat
 
+0 STEP
 0 FILE 10129 - subModel-50.ldr
 0 Technic landing strut mount sub-assembly
 0 Author: Roland Dahl [RolandD]
@@ -2275,6 +2326,7 @@
 0 // Plate  1 x  1 Round (dark_bluish_grey)
 1 72 10 10 -18 -1 0 0 0 0 1 0 1 0 6141.dat
 
+0 STEP
 0 FILE 10129 - subModel-51.ldr
 0 Wing surface detail sub-assembly
 0 Author: Roland Dahl [RolandD]
@@ -2289,6 +2341,7 @@
 0 // Tile  1 x  2 with Groove (light_bluish_grey)
 1 71 10 10 -14 1 0 0 0 0 -1 0 1 0 3069b.dat
 
+0 STEP
 0 FILE 10129 - subModel-52.ldr
 0 Doubled mounting plate detail
 0 Author: Roland Dahl [RolandD]
@@ -2301,6 +2354,7 @@
 0 // Plate  1 x  2 (dark_bluish_grey)
 1 72 0 -8 0 1 0 0 0 1 0 0 0 1 3023.dat
 
+0 STEP
 0 FILE 10129 - subModel-53.ldr
 0 Engine / gun greeble detail cluster with cones, bars and loudhailer
 0 Author: Roland Dahl [RolandD]
@@ -2374,6 +2428,7 @@
 0 // Minifig Loudhailer (dark_bluish_grey)
 1 72 -24 -30 30 0 1 0 -1 0 0 0 0 1 4349.dat
 
+0 STEP
 0 FILE 10129 - subModel-54.ldr
 0 Landing gear wheel assembly with rim and bevel gears
 0 Author: Roland Dahl [RolandD]
@@ -2419,6 +2474,7 @@
 0 // Plate  2 x  2 Round with Axlehole (light_bluish_grey)
 1 71 0 82 0 -1 0 0 0 -1 0 0 0 1 4032a.dat
 
+0 STEP
 0 FILE 10129 - subModel-55.ldr
 0 Landing gear wheel and sprocket mechanism assembly
 0 Author: Roland Dahl [RolandD]
@@ -2450,6 +2506,7 @@
 0 // Technic Brick  1 x  2 with Axlehole with Open Sides and Stud Blocker (white)
 1 15 0 0 220 1 0 0 0 1 0 0 0 1 32064a.dat
 
+0 STEP
 0 FILE 10129 - subModel-56.ldr
 0 Rounded panel surface detail sub-assembly
 0 Author: Roland Dahl [RolandD]
@@ -2464,6 +2521,7 @@
 0 // =Panel  1 x  4 x  1 with Rounded Corners (dark_bluish_grey)
 1 72 -20 -24 0 -1 0 0 0 1 0 0 0 -1 43337.dat
 
+0 STEP
 0 FILE 10129 - subModel-57.ldr
 0 Hinged rear canopy / access panel with windscreens
 0 Author: Roland Dahl [RolandD]
@@ -2500,6 +2558,7 @@
 0 // Hinge  1 x  2 Base (white)
 1 15 -20 8 70 -1 0 0 0 1 0 0 0 -1 3937.dat
 
+0 STEP
 0 FILE 10129 - subModel-58.ldr
 0 Technic gear drive mechanism assembly
 0 Author: Roland Dahl [RolandD]
@@ -2533,6 +2592,7 @@
 0 // Technic Gear 12 Tooth Bevel (light_bluish_grey)
 1 71 0 10 69 1 0 0 0 -1 0 0 0 -1 6589.dat
 
+0 STEP
 0 FILE 10129 - subModel-59.ldr
 0 Technic structural assembly with pins and trunk elements
 0 Author: Roland Dahl [RolandD]
@@ -2587,6 +2647,7 @@
 0 STEP
 1 0 0 0 -392 0 -1 0 1 0 0 0 0 1 10129 - subModel-60.ldr
 
+0 STEP
 0 FILE 10129 - subModel-60.ldr
 0 Small tip / cone detail sub-assembly
 0 Author: Roland Dahl [RolandD]
@@ -2599,6 +2660,7 @@
 0 // Plate  1 x  1 Round (black)
 1 0 0 0 -24 0 0 1 -1 0 0 0 -1 0 6141.dat
 
+0 STEP
 0 FILE 10129 - subModel-61.ldr
 0 Starboard wing panel assembly with plates, wing elements and surface details
 0 Author: Roland Dahl [RolandD]
@@ -2930,6 +2992,7 @@
 1 71 100 -64 -340 -1 0 0 0 1 0 0 0 -1 4150.dat
 1 71 100 -38 -480 1 0 0 0 1 0 0 0 1 10129 - subModel-59.ldr
 
+0 STEP
 0 FILE 10129 - subModel-62.ldr
 0 Wing detail tile with orange accent
 0 Author: Roland Dahl [RolandD]
@@ -2945,6 +3008,7 @@
 0 // Plate  1 x  4 (orange)
 1 25 0 -8 -30 0 0 1 0 1 0 -1 0 0 3710.dat
 
+0 STEP
 0 FILE 10129 - subModel-63.ldr
 0 Engine / gun greeble detail cluster with cones, bars and loudhailer
 0 Author: Roland Dahl [RolandD]
@@ -3018,6 +3082,7 @@
 0 // Cone  1 x  1 (dark_bluish_grey)
 1 72 -30 -40 10 0 0 1 0 1 0 -1 0 0 4589.dat
 
+0 STEP
 0 FILE 10129 - subModel-64.ldr
 0 Small wing slope detail sub-assembly
 0 Author: Roland Dahl [RolandD]
@@ -3030,6 +3095,7 @@
 0 // Slope Brick 45  2 x  1 (white)
 1 15 32 -24 -1 0 0 -1 0 1 0 1 0 0 3040b.dat
 
+0 STEP
 0 FILE 10129 - subModel-65.ldr
 0 Rounded panel surface detail sub-assembly
 0 Author: Roland Dahl [RolandD]
@@ -3044,6 +3110,7 @@
 0 // =Panel  1 x  4 x  1 with Rounded Corners (dark_bluish_grey)
 1 72 20 -24 0 -1 0 0 0 1 0 0 0 -1 43337.dat
 
+0 STEP
 0 FILE 10129 - subModel-66.ldr
 0 Technic landing strut mount with grille detail
 0 Author: Roland Dahl [RolandD]
@@ -3060,6 +3127,7 @@
 0 // =Tile  1 x  2 Grille with Groove (light_bluish_grey)
 1 71 0 10 -18 -1 0 0 0 0 1 0 1 0 30244.dat
 
+0 STEP
 0 FILE 10129 - subModel-67.ldr
 0 Hinged rear canopy / access panel with windscreens
 0 Author: Roland Dahl [RolandD]
@@ -3099,6 +3167,7 @@
 1 15 -70 8 20 0 0 1 0 1 0 -1 0 0 3937.dat
 
 
+0 STEP
 0 FILE 10129 - subModel-68.ldr
 0 Display stand structure (black) with technic frame
 0 Name: 10129 - subModel-68.ldr
@@ -3217,6 +3286,7 @@
 
 
 
+0 STEP
 0 FILE 10129 - subModel-69.ldr
 0 Display stand technic arm and bracket assembly
 0 Author: Roland Dahl [RolandD]
@@ -3259,6 +3329,7 @@
 
 
 
+0 STEP
 0 FILE 10129 - subModel-70.ldr
 0 Display stand bent liftarm support assembly
 0 Author: Roland Dahl [RolandD]
@@ -3279,6 +3350,7 @@
 
 
 
+0 STEP
 0 FILE 10129 - subModel-71.ldr
 0 Display stand 90-degree liftarm joint assembly
 0 Author: Roland Dahl [RolandD]
@@ -3297,6 +3369,7 @@
 
 
 
+0 STEP
 0 FILE 10129 - subModel-72.ldr
 0 Display stand bent liftarm support assembly
 0 Author: Roland Dahl [RolandD]
@@ -3315,6 +3388,7 @@
 
 
 
+0 STEP
 0 FILE 10129 - subModel-73.ldr
 0 Display stand hinge mount assembly
 0 Author: Roland Dahl [RolandD]
@@ -3333,6 +3407,7 @@
 
 
 
+0 STEP
 0 FILE 10129 - subModel-74.ldr
 0 Display stand base plate with tiled top surface
 0 Author: Roland Dahl [RolandD]

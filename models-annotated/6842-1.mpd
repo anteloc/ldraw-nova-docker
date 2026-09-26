@@ -10,6 +10,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 6842 - Inspection Spacecraft.ldr
 1 0 0 -16 20 1 0 0 0 1 0 0 0 1 6842 - Minifig.ldr
 0
+0 STEP
 0 FILE 6842 - Inspection Spacecraft.ldr
 0 A light grey and white space craft featuring jet engines, wings, and sloped accents with side ladders.
 0 Name: 6842 - Inspection Spacecraft.ldr
@@ -112,6 +113,7 @@
 0 // Antenna  4H with Rounded Top (black)
 1 0 0 -80 140 1 0 0 0 1 0 0 0 1 3957a.dat
 0
+0 STEP
 0 FILE 6842 - Minifig.ldr
 0 A red classic space minifigure with helmet, airtanks, and standard grin pattern.
 0 Name: 6842 - Minifig.ldr

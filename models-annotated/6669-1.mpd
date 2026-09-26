@@ -10,6 +10,7 @@
 1 4 -50 -48 -20 1 0 0 0 1 0 0 0 1 6669 - truck.ldr
 1 4 140 0 -110 0.342 0 0.94 0 1 0 -0.94 0 0.342 6669 - minifig.ldr
 
+0 STEP
 0 FILE 6669 - truck.ldr
 0 A red truck build with plates, wheel pins, and mudguards.
 0 Name: 6669 - truck.ldr
@@ -204,6 +205,7 @@
 0 // Tyre 12/ 40 x 11 Wide (black)
 1 0 -110 22 54 -1 0 0 0 1 0 0 0 -1 6015.dat
 
+0 STEP
 0 FILE 6669 - minifig.ldr
 0 A minifig wearing a white helmet and a torso with an 'S' logo.
 0 Name: 6669 - minifig.ldr

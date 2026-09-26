@@ -10,6 +10,7 @@
 1 4 0 -24 70 1 0 0 0 1 0 0 0 1 6537 - boat.ldr
 1 4 -83.303 0 156.244 0.866 0 0.5 0 1 0 -0.5 0 0.866 6537 - minifig.ldr
 
+0 STEP
 0 FILE 6537 - boat.ldr
 0 A red and black speedboat built from a boat bow plate, assorted plates, grille tiles, corner bricks, and a white steering wheel assembly.
 0 Name: 6537 - boat.ldr
@@ -116,6 +117,7 @@
 0 // Slope Brick 33  3 x  1 (black)
 1 0 0 -72 -60 -1 0 0 0 1 0 0 0 -1 4286.dat
 
+0 STEP
 0 FILE 6537 - minifig.ldr
 0 An Octan-branded boat crew minifig with a white helmet, blue torso with oil badge, blue legs, and a yellow lifevest.
 0 Name: 6537 - minifig.ldr

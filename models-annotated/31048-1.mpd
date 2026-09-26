@@ -10,6 +10,7 @@
 1 70 143 -83 400 1 0 0 0 1 0 0 0 1 31048 - Moose.ldr
 
 
+0 STEP
 0 FILE 31048 - Building.ldr
 0 A multi-level log cabin structure built from log bricks, hinged walls, sloped roofing, and assorted plates in green, blue, tan, and reddish brown.
 0 Name: 31048 - Building.ldr
@@ -581,6 +582,7 @@
 1 297 -30 -28.685 -90 0.866 0.433 -0.25 0 -0.5 -0.866 -0.5 0.75 -0.433 95344.dat
 
 
+0 STEP
 0 FILE 31048 - MiniFig.ldr
 0 A minifigure wearing a blue plaid shirt, with a black bar accessory, dark tan legs, and a tousled black hairstyle.
 0 Name: 31048 - MiniFig.ldr
@@ -612,6 +614,7 @@
 1 71 -33.265 -61.459 -54.298 -0.086 0.996 -0.006 0.896 0.08 0.436 0.434 0.032 -0.9 6141.dat
 
 
+0 STEP
 0 FILE 31048 - Bed.ldr
 0 A small bed piece made from reddish brown plates with a blue and white patterned mattress and black round base plates.
 0 Name: 31048 - Bed.ldr
@@ -638,6 +641,7 @@
 1 73 0 -16 0 1 0 0 0 1 0 0 0 1 3068b.dat
 
 
+0 STEP
 0 FILE 31048 - Edge FrontRight.ldr
 0 A reddish brown decorative front-right edge detail built from plates, headlight bricks, and round studs.
 0 Name: 31048 - Edge FrontRight.ldr
@@ -669,6 +673,7 @@
 1 70 0 -64 0 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 31048 - Edge FrontLeft.ldr
 0 A reddish brown decorative front-left edge detail built from plates, headlight bricks, and round studs.
 0 Name: 31048 - Edge FrontLeft.ldr
@@ -700,6 +705,7 @@
 1 70 0 -64 0 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 31048 - Window.ldr
 0 A tan window frame housing two green-paned window panes.
 0 Name: 31048 - Window.ldr
@@ -715,6 +721,7 @@
 1 2 -32 4 3 0 0 -1 0 1 0 1 0 0 60608.dat
 
 
+0 STEP
 0 FILE 31048 - Antlers.ldr
 0 A pair of white Viking horn antlers mounted on reddish brown plates with clip attachments.
 0 Name: 31048 - Antlers.ldr
@@ -739,6 +746,7 @@
 1 15 18 -6 -20 0 0 1 0 1 0 -1 0 0 53451.dat
 
 
+0 STEP
 0 FILE 31048 - Lamp.ldr
 0 A small black lamp with a clear transparent round light element, inverted dish shade, and a tap-style post.
 0 Name: 31048 - Lamp.ldr
@@ -758,6 +766,7 @@
 1 0 4 -50 0 0 -1 0 0 0 1 -1 0 0 4599b.dat
 
 
+0 STEP
 0 FILE 31048 - Tree.ldr
 0 A green tree with layered wings as foliage atop a reddish brown trunk and grey connecting bricks.
 0 Name: 31048 - Tree.ldr
@@ -796,6 +805,7 @@
 1 2 -18 -48 10 0 1 0 0 0 1 1 0 0 41770.dat
 
 
+0 STEP
 0 FILE 31048 - Garden Chair.ldr
 0 A small yellow garden chair assembled from plates with a handle, a flag backrest, and a black round swivel base.
 0 Name: 31048 - Garden Chair.ldr
@@ -818,6 +828,7 @@
 1 14 -20 -6 30 0 1 0 -0.259 0 -0.966 -0.966 0 0.259 2335.dat
 
 
+0 STEP
 0 FILE 31048 - Moose.ldr
 0 A reddish and dark brown moose figure with curved body slopes, mechanical arm antlers, white saber blade accents, and a dish muzzle.
 0 Name: 31048 - Moose.ldr
@@ -877,6 +888,7 @@
 1 70 0 -30 -94 1 0 0 0 0.966 -0.259 0 0.259 0.966 31048 - Moose Head.ldr
 
 
+0 STEP
 0 FILE 31048 - Moose Leg.ldr
 0 A single moose leg made from a reddish brown clip bar, a black inverted cone hoof, and a medium nouat joint tile.
 0 Name: 31048 - Moose Leg.ldr
@@ -893,6 +905,7 @@
 1 84 0 60.5 0 0 0 -1 0 -1 0 -1 0 0 98138.dat
 
 
+0 STEP
 0 FILE 31048 - Moose Head.ldr
 0 A reddish brown moose head with a curved-top muzzle, sloped face, clip attachment, and round stud detailing.
 0 Name: 31048 - Moose Head.ldr

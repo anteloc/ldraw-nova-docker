@@ -24,6 +24,7 @@
 1 1 505 -1 300 0 0 -1 0 1 0 1 0 0 6085 - Horse4.ldr
 
 
+0 STEP
 0 FILE 6085 - Castle.ldr
 0 Large fortified castle built from grey and black bricks on green baseplates, with corner towers, slopes, hinges, and tall wall sections.
 0 Name: 6085 - Castle.ldr
@@ -1196,6 +1197,7 @@
 1 7 440 -134 -90 0 -1 0 0 0 -1 1 0 0 3005.dat
 
 
+0 STEP
 0 FILE 6085 - Sarrasin.ldr
 0 Black portcullis gate assembly made of long plates forming a barred lattice door.
 0 Name: 6085 - Sarrasin.ldr
@@ -1232,6 +1234,7 @@
 1 0 -10 -8 0 0 0 1 0 1 0 -1 0 0 3176.dat
 
 
+0 STEP
 0 FILE 6085 - Drawbridge.ldr
 0 Drawbridge platform constructed from large grey and black plates with clip attachments for ropes.
 0 Name: 6085 - Drawbridge.ldr
@@ -1261,6 +1264,7 @@
 1 0 130 0 -70 0 0 -1 0 1 0 1 0 0 4081b.dat
 
 
+0 STEP
 0 FILE 6085 - Sarrasin Rope.ldr
 0 Flexible rope assembly made of linked cylinder segments used to raise the portcullis.
 0 Name: 6085 - Sarrasin Rope.ldr
@@ -1543,6 +1547,7 @@
 1 16 -161.624922 105.095591 178.99646 -0.226809 3.946994 -0.008304 -1.482753 -0.603751 0.00127 0 0.022361 1.499976 4-4cyli.dat
 
 
+0 STEP
 0 FILE 6085 - Drawbridge Rope.ldr
 0 Long rope assembly of connected cylinder segments used to operate the drawbridge.
 0 Name: 6085 - Drawbridge Rope.ldr
@@ -1809,6 +1814,7 @@
 1 16 97.044621 -11.00357 234.334441 0.000537 -0.267753 1.49664 1.499979 0.02142 0 -0.008009 3.993765 0.100339 4-4cyli.dat
 
 
+0 STEP
 0 FILE 6085 - MiniFig01-02.ldr
 0 Red-armored knight with chainmail torso, neck-protector helmet, triangular dragon shield, and spear.
 0 Name: 6085 - MiniFig01-02.ldr
@@ -1842,6 +1848,7 @@
 1 7 26.366 -43.874 -25.44 0.988 0.041 -0.146 0.041 0.853 0.52 0.146 -0.52 0.842 3846p4c.dat
 
 
+0 STEP
 0 FILE 6085 - MiniFig03-04.ldr
 0 Red-armored knight with chainmail torso, neck-protector helmet, triangular dragon shield, and battleaxe.
 0 Name: 6085 - MiniFig03-04.ldr
@@ -1875,6 +1882,7 @@
 1 7 26.366 -43.874 -25.44 0.988 0.041 -0.146 0.041 0.853 0.52 0.146 -0.52 0.842 3846p4c.dat
 
 
+0 STEP
 0 FILE 6085 - MiniFig05-08.ldr
 0 Blue-armored archer knight with chainmail torso, chin-guard helmet, bow with arrow, and quiver.
 0 Name: 6085 - MiniFig05-08.ldr
@@ -1908,6 +1916,7 @@
 1 6 22.278 -53.813 -29.007 -0.056 0.182 -0.982 -0.254 0.948 0.191 0.965 0.26 -0.007 4499.dat
 
 
+0 STEP
 0 FILE 6085 - MiniFig09.ldr
 0 Blue knight commander with breastplate, face-grille helmet, plumed crest, dragon shield, and shortsword.
 0 Name: 6085 - MiniFig09.ldr
@@ -1943,6 +1952,7 @@
 1 14 0 -108 7 1 0 0 0 1 0 0 0 1 87692.dat
 
 
+0 STEP
 0 FILE 6085 - MiniFig10.ldr
 0 Red knight commander with breastplate, face-grille helmet, plumed crest, dragon shield, and shortsword.
 0 Name: 6085 - MiniFig10.ldr
@@ -1978,6 +1988,7 @@
 1 14 0 -108 7 1 0 0 0 1 0 0 0 1 87692.dat
 
 
+0 STEP
 0 FILE 6085 - MiniFig11.ldr
 0 Blue knight with breastplate armor, face-grille helmet, red plume, dragon shield, and shortsword.
 0 Name: 6085 - MiniFig11.ldr
@@ -2013,6 +2024,7 @@
 1 4 0 -108 7 1 0 0 0 1 0 0 0 1 87692.dat
 
 
+0 STEP
 0 FILE 6085 - MiniFig12.ldr
 0 Black knight in full breastplate armor with face-grille helmet, red plume, dragon shield, and shortsword.
 0 Name: 6085 - MiniFig12.ldr
@@ -2048,6 +2060,7 @@
 1 4 0 -108 7 1 0 0 0 1 0 0 0 1 87692.dat
 
 
+0 STEP
 0 FILE 6085 - Horse1.ldr
 0 Brown horse with red saddle and tack, carrying a lance with a red wave banner.
 0 Name: 6085 - Horse1.ldr
@@ -2065,6 +2078,7 @@
 1 4 -31 -224 17.5 1 0 0 0 1 0 0 0 1 4495a.dat
 
 
+0 STEP
 0 FILE 6085 - Horse2.ldr
 0 Brown horse with blue saddle and tack, carrying a lance with a blue wave banner.
 0 Name: 6085 - Horse2.ldr
@@ -2082,6 +2096,7 @@
 1 1 -31 -224 17.5 1 0 0 0 1 0 0 0 1 4495a.dat
 
 
+0 STEP
 0 FILE 6085 - Horse3.ldr
 0 White horse with red barding bearing blue dragons, carrying a lance with a red wave banner.
 0 Name: 6085 - Horse3.ldr
@@ -2099,6 +2114,7 @@
 1 4 -31 -224 17.5 1 0 0 0 1 0 0 0 1 4495a.dat
 
 
+0 STEP
 0 FILE 6085 - Horse4.ldr
 0 Black horse with blue barding bearing black dragons, carrying a lance with a blue wave banner.
 0 Name: 6085 - Horse4.ldr
@@ -2116,6 +2132,7 @@
 1 1 -31 -224 17.5 1 0 0 0 1 0 0 0 1 4495a.dat
 
 
+0 STEP
 0 FILE 6085 - ldcLQRopeSeg.dat
 0 Single cylindrical segment unit used as the building block for flexible rope assemblies.
 0 Name: 6085 - ldcLQRopeSeg.dat

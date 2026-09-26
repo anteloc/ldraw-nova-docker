@@ -9,6 +9,7 @@
 
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 6887 - Spaceship.ldr
 
+0 STEP
 0 FILE 6887 - Spaceship.ldr
 0 Spaceship
 0 Name: 6887 - Spaceship.ldr
@@ -24,6 +25,7 @@
 1 0 -35.466 -57.768 -20 0.309017 -0.951057 0 0.951057 0.309017 0 0 0 1 6887 - Spaceship - Wing 2.ldr
 
 
+0 STEP
 0 FILE 6887 - Spaceship - Cockpit.ldr
 0 Spaceship - Cockpit
 0 Name: 6887 - Spaceship - Cockpit.ldr
@@ -95,6 +97,7 @@
 1 0 0 -53 -32 1 0 0 0 1 0 0 0 1 6887 - Minifig.ldr
 
 
+0 STEP
 0 FILE 6887 - Spaceship - Cockpit - Door.ldr
 0 Spaceship - Cockpit - Door
 0 Name: 6887 - Spaceship - Cockpit - Door.ldr
@@ -122,6 +125,7 @@
 1 0 10 44 -8 1 0 0 0 0 -1 0 1 0 2516.dat
 
 
+0 STEP
 0 FILE 6887 - Spaceship - Rear.ldr
 0 Spaceship - Rear
 0 Name: 6887 - Spaceship - Rear.ldr
@@ -187,6 +191,7 @@
 1 15 0 -120 110 1 0 0 0 1 0 0 0 1 2419.dat
 
 
+0 STEP
 0 FILE 6887 - Spaceship - Wing 1.ldr
 0 Spaceship - Wing 1
 0 Name: 6887 - Spaceship - Wing 1.ldr
@@ -226,6 +231,7 @@
 1 0 -36 156 -30 0 -1 0 1 0 0 0 0 1 4229.dat
 
 
+0 STEP
 0 FILE 6887 - Spaceship - Wing 2.ldr
 0 Spaceship - Wing 2
 0 Name: 6887 - Spaceship - Wing 2.ldr
@@ -265,6 +271,7 @@
 1 0 36 156 30 0 1 0 -1 0 0 0 0 1 4229.dat
 
 
+0 STEP
 0 FILE 6887 - Minifig.ldr
 0 Minifig
 0 Name: 6887 - Minifig.ldr
@@ -296,6 +303,7 @@
 0 // Minifig Airtanks (black)
 1 0 0 0.202 4.218 1 0 0 0 0.995396 0.0958458 0 -0.0958458 0.995396 3838.dat
 
+0 STEP
 0 FILE 6887 - Minifig - Helmet.ldr
 0 Minifig - Helmet
 0 Name: 6887 - Minifig - Helmet.ldr

@@ -12,6 +12,7 @@
 1 0 -107.516 -64 -752.528 -0.382683 0 -0.92388 0 1 0 0.92388 0 -0.382683 6988 - Spaceship + Pod.ldr
 1 0 102.108 -97.132 -213.185 0.146077 -0.349771 -0.925377 0.04615 0.936802 -0.346804 0.988196 0.007954 0.152987 6988 - Vehicle + Minifig.ldr
 
+0 STEP
 0 FILE 6988 - Vehicle.ldr
 0 A compact black wheeled rover with four white-rimmed rubber tyres, a steering wheel, neon green lights, and grille detailing.
 0 Name: 6988 - Vehicle.ldr
@@ -64,6 +65,7 @@
 0 // Tyre  6/ 50 x  8 Offset Tread (rubber_black)
 1 256 -30 5 40 0 0 1 1 0 0 0 1 0 3641.dat
 
+0 STEP
 0 FILE 6988 - Vehicle + Minifig.ldr
 0 The wheeled rover assembled with a minifigure driver included.
 0 Name: 6988 - Vehicle + Minifig.ldr
@@ -76,6 +78,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 6988 - Vehicle.ldr
 1 0 0 -69 28 1 0 0 0 1 0 0 0 1 6988 - Minifig 1.ldr
 
+0 STEP
 0 FILE 6988 - Pod.ldr
 0 A black and white spacecraft pod built with slopes, wings, tail fins, hinges, and grille tiles.
 0 Name: 6988 - Pod.ldr
@@ -145,6 +148,7 @@
 0 // Windscreen  6 x  6 Octagonal Canopy without Axlehole (trans_neon_green)
 1 42 -68 -52 -40 0 1 0 -1 0 0 0 0 1 2418a.dat
 
+0 STEP
 0 FILE 6988 - Pod - Cockpit.ldr
 0 A hinged cockpit canopy subassembly using a large neon green panel, white cones, and a tool holder.
 0 Name: 6988 - Pod - Cockpit.ldr
@@ -171,6 +175,7 @@
 0 // Minifig Tool Holder (white)
 1 15 10 44 8 -1 0 0 0 0 -1 0 -1 0 2516.dat
 
+0 STEP
 0 FILE 6988 - Pod - Support.ldr
 0 A small structural support module built from plates, corner plates, grille tiles, and pinned bricks.
 0 Name: 6988 - Pod - Support.ldr
@@ -201,6 +206,7 @@
 0 // Tile  1 x  2 Grille with Groove (white)
 1 15 -30 -16 0 0 0 -1 0 1 0 1 0 0 2412b.dat
 
+0 STEP
 0 FILE 6988 - Pod + Minifig.ldr
 0 The spacecraft pod assembled with a minifigure pilot included.
 0 Name: 6988 - Pod + Minifig.ldr
@@ -213,6 +219,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 6988 - Pod.ldr
 1 0 0 -53 -32 1 0 0 0 1 0 0 0 1 6988 - Minifig 2.ldr
 
+0 STEP
 0 FILE 6988 - Pod + Support.ldr
 0 The spacecraft pod assembled together with its support structure.
 0 Name: 6988 - Pod + Support.ldr
@@ -225,6 +232,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 6988 - Pod.ldr
 1 0 0 -40 120 1 0 0 0 1 0 0 0 1 6988 - Pod - Support.ldr
 
+0 STEP
 0 FILE 6988 - Spaceship.ldr
 0 A large black and white spaceship built on a 6x8 plate with sweeping wings, numerous plates and corner bricks, and clip detail.
 0 Name: 6988 - Spaceship.ldr
@@ -434,6 +442,7 @@
 0 // Brick  1 x  2 x  0.667 with Studs on Sides (black)
 1 0 -50 -216 80 -1 0 0 0 1 0 0 0 -1 4595.dat
 
+0 STEP
 0 FILE 6988 - Spaceship - Antenna.ldr
 0 A hinged radar antenna assembly featuring a black radar-patterned blade panel.
 0 Name: 6988 - Spaceship - Antenna.ldr
@@ -450,6 +459,7 @@
 0 // Hinge  6 x  3 Radar/Blade/Spoiler/Panel with Radar Pattern (black)
 1 0 0 27.801 1.989 0 0 1 -0.202787 -0.979223 0 0.979223 -0.202787 0 2440p69.dat
 
+0 STEP
 0 FILE 6988 - Spaceship + Pod.ldr
 0 The large spaceship assembled with the detachable pod mounted on it.
 0 Name: 6988 - Spaceship + Pod.ldr
@@ -462,6 +472,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 6988 - Spaceship.ldr
 1 0 0 48 -340 1 0 0 0 1 0 0 0 1 6988 - Pod + Minifig.ldr
 
+0 STEP
 0 FILE 6988 - Base.ldr
 0 An extensive lunar base on raised crater baseplates with a landing pad, stanchions, support columns, ramps, neon green dishes, and grille-patterned slopes.
 0 Name: 6988 - Base.ldr
@@ -1329,6 +1340,7 @@
 1 0 -60 -504 -50 0 0 -1 0 1 0 1 0 0 2452.dat
 1 0 -41.002 -530.245 -50 0.165048 0.986286 0 0.986286 -0.165048 0 0 0 -1 6988 - Base - Radar.ldr
 
+0 STEP
 0 FILE 6988 - Base - Door.ldr
 0 A hinged grille door assembly with handle, hinges, and a round plate marked with a yellow directional arrow.
 0 Name: 6988 - Base - Door.ldr
@@ -1353,6 +1365,7 @@
 0 // Tile  2 x  2 Round with Yellow Arrow with Black Border Pattern (white)
 1 15 0 -8 0 0 0 1 0 1 0 -1 0 0 4150p04.dat
 
+0 STEP
 0 FILE 6988 - Base - Antenna.ldr
 0 A round antenna tower with extension arms, neon green cones and inverted dishes, and a yellow grille-patterned slope.
 0 Name: 6988 - Base - Antenna.ldr
@@ -1379,6 +1392,7 @@
 0 // Dish  2 x  2 Inverted (trans_neon_green)
 1 42 -80 -6 0 0 -1 0 -1 0 0 0 0 -1 4740.dat
 
+0 STEP
 0 FILE 6988 - Base - Radar.ldr
 0 A hinged radar dish assembly mounted with a black radar-patterned blade panel.
 0 Name: 6988 - Base - Radar.ldr
@@ -1395,6 +1409,7 @@
 0 // Hinge  6 x  3 Radar/Blade/Spoiler/Panel with Radar Pattern (black)
 1 0 0 19.239 3.827 0 0 1 -0.382683 -0.92388 0 0.92388 -0.382683 0 2440p69.dat
 
+0 STEP
 0 FILE 6988 - Base + Minifigs.ldr
 0 The lunar base assembled with a full crew of five minifigures included.
 0 Name: 6988 - Base + Minifigs.ldr
@@ -1407,6 +1422,7 @@
 1 0 -160 -218.1 -140 0.883766 0 -0.46793 0 1 0 0.46793 0 0.883766 6988 - Minifig 4.ldr
 1 0 210 -272 121 1 0 0 0 1 0 0 0 1 6988 - Minifig 5.ldr
 
+0 STEP
 0 FILE 6988 - Minifig 1.ldr
 0 A Blacktron II astronaut minifigure with white torso, black arms and airtanks, white legs, and a smiling yellow head.
 0 Name: 6988 - Minifig 1.ldr
@@ -1438,6 +1454,7 @@
 0 // Minifig Hand (black)
 1 0 -22.5042 18.7201 -18.5095 0.985 -0.164925 0.0411205 0.17 0.955597 -0.238257 0 0.241885 0.970149 3820.dat
 
+0 STEP
 0 FILE 6988 - Minifig 2.ldr
 0 A Blacktron II astronaut minifigure with white torso, black arms and airtanks, white legs, and a smiling yellow head.
 0 Name: 6988 - Minifig 2.ldr
@@ -1469,6 +1486,7 @@
 0 // Minifig Airtanks (black)
 1 0 0 0.603 7.263 1 0 0 0 0.986286 0.165048 0 -0.165048 0.986286 3838.dat
 
+0 STEP
 0 FILE 6988 - Minifig 3.ldr
 0 A Blacktron II astronaut minifigure with white torso, black arms and airtanks, white legs, and a smiling yellow head.
 0 Name: 6988 - Minifig 3.ldr
@@ -1501,6 +1519,7 @@
 0 // ~Minifig Leg Left (Obsolete) (white)
 1 15 0 44 0 1 0 0 0 1 0 0 0 1 3817.dat
 
+0 STEP
 0 FILE 6988 - Minifig 3 - Camera.ldr
 0 A camera accessory built from a white minifig camera, a neon green cone lens, and a black grille tile.
 0 Name: 6988 - Minifig 3 - Camera.ldr
@@ -1517,6 +1536,7 @@
 0 // Cone  1 x  1 (trans_neon_green)
 1 42 32 8 0 0 1 0 0 0 -1 -1 0 0 4589.dat
 
+0 STEP
 0 FILE 6988 - Minifig 4.ldr
 0 A Blacktron II astronaut minifigure with white torso, black arms and airtanks, white legs, and a smiling yellow head.
 0 Name: 6988 - Minifig 4.ldr
@@ -1549,6 +1569,7 @@
 0 // ~Minifig Leg Left (Obsolete) (white)
 1 15 0 44 0 1 0 0 0 0.945519 -0.325568 0 0.325568 0.945519 3817.dat
 
+0 STEP
 0 FILE 6988 - Minifig 4 - Torch.ldr
 0 A handheld torch accessory made from a white minifig torch topped with a neon green inverted dish.
 0 Name: 6988 - Minifig 4 - Torch.ldr
@@ -1563,6 +1584,7 @@
 0 // Dish  2 x  2 Inverted (trans_neon_green)
 1 42 0 0 -24 1 0 0 0 0 1 0 -1 0 4740.dat
 
+0 STEP
 0 FILE 6988 - Minifig 5.ldr
 0 A Blacktron II astronaut minifigure with white torso, black arms and airtanks, white legs, and a smiling yellow head.
 0 Name: 6988 - Minifig 5.ldr
@@ -1593,6 +1615,7 @@
 0 // ~Minifig Leg Left (Obsolete) (white)
 1 15 0 44 0 1 0 0 0 1 0 0 0 1 3817.dat
 
+0 STEP
 0 FILE 6988 - Minifig 5 - Arm.ldr
 0 An extended arm assembly holding a white control panel tile patterned with red and yellow controls.
 0 Name: 6988 - Minifig 5 - Arm.ldr
@@ -1607,6 +1630,7 @@
 0 // Tile  1 x  2 with Red & Yellow Controls Pattern (white)
 1 15 1.3 0 -18.4 0.0623438 -0.959651 0.274196 0.931463 -0.0427249 -0.361318 0.358454 0.277929 0.891216 3069bp68.dat
 
+0 STEP
 0 FILE 6988 - Minifig - Helmet 1.ldr
 0 A black standard minifig helmet fitted with a neon green visor.
 0 Name: 6988 - Minifig - Helmet 1.ldr
@@ -1621,6 +1645,7 @@
 0 // ~Minifig Helmet Visor Standard (Obsolete) (trans_neon_green)
 1 42 0 0 0 1 0 0 0 1 0 0 0 1 2447.dat
 
+0 STEP
 0 FILE 6988 - Minifig - Helmet 2.ldr
 0 Black standard minifig helmet with a trans-neon green visor.
 0 Name: 6988 - Minifig - Helmet 2.ldr

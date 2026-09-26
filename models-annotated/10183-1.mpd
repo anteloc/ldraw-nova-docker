@@ -320,6 +320,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 1 - side wall base.ldr
 0 Red plate base (1x8, 1x4, two 1x2) forming the cabin side-wall foundation
 0 Name: 10183 - 1 - side wall base.ldr
@@ -339,6 +340,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 1 - control panel.ldr
 0 Driver's control panel with red brick frame, clear glass screen, and inset controls sub-assemblies
 0 Name: 10183 - 1 - control panel.ldr
@@ -370,6 +372,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 1 - controls.ldr
 0 Black brick control desk with two headlight studs and a patterned train-controls tile
 0 Name: 10183 - 1 - controls.ldr
@@ -390,6 +393,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 1 - controls base.ldr
 0 White plate base with two headlight bricks supporting the control stand
 0 Name: 10183 - 1 - controls base.ldr
@@ -407,6 +411,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 1 - cabin bevel 1.ldr
 0 Red 45-degree slope bricks (2x2 and 2x4) topped with a 1x6 tile forming one beveled cabin corner
 0 Name: 10183 - 1 - cabin bevel 1.ldr
@@ -424,6 +429,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 1 - cabin bevel 2.ldr
 0 Red 45-degree slope bricks (2x2 and 2x4) topped with a 1x6 tile forming the opposite beveled cabin corner
 0 Name: 10183 - 1 - cabin bevel 2.ldr
@@ -441,6 +447,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 1 - cabin overhang.ldr
 0 Dark-red plates and red 2x2 corner plates forming the cabin roof overhang
 0 Name: 10183 - 1 - cabin overhang.ldr
@@ -460,6 +467,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 1 - wheels front.ldr
 0 Front truck/bogie assembly with two axles, train wheels, front suspension, and turntable plate
 0 Name: 10183 - 1 - wheels front.ldr
@@ -519,6 +527,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 1 - wheels front suspension.ldr
 0 Black plates and round plates forming the front truck suspension linkage
 0 Name: 10183 - 1 - wheels front suspension.ldr
@@ -547,6 +556,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 1 - wheels back.ldr
 0 Rear truck/bogie assembly with two axles, train wheels, rear suspension, and turntable plate
 0 Name: 10183 - 1 - wheels back.ldr
@@ -602,6 +612,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 1 - wheels back suspension.ldr
 0 Black plates with dark-red studs and minifig heads forming the rear truck suspension linkage
 0 Name: 10183 - 1 - wheels back suspension.ldr
@@ -623,6 +634,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 1 - underside details.ldr
 0 Underbody detail: plates, brackets, curved bricks, door rails, handles, mechanical arms and bars representing pipes and linkages
 0 Name: 10183 - 1 - underside details.ldr
@@ -698,6 +710,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 1 - top details.ldr
 0 Roof detail: plates, axlehole plates, curved-top bricks, red grille tiles, and the mounted pantograph
 0 Name: 10183 - 1 - top details.ldr
@@ -745,6 +758,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 1 - pantograph.ldr
 0 Overhead-current pantograph built from a clip, minifig torso, mechanical arm, and bar
 0 Name: 10183 - 1 - pantograph.ldr
@@ -764,6 +778,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 1 - nose front.ldr
 0 Front nose hood: plates, bricks, windows, headlights, grille tiles, and attached front wheel bogie
 0 Name: 10183 - 1 - nose front.ldr
@@ -915,6 +930,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 1 - noses side grill.ldr
 0 Nose side vent grille: grey brick, black grille and curved-top bricks, and a red 2x8 plate
 0 Name: 10183 - 1 - noses side grill.ldr
@@ -934,6 +950,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 1 - noses backside.ldr
 0 Nose backside wall: grey brick, red curved-top bricks, red plate, grooved tile, right-side sub-assembly, and red bracket
 0 Name: 10183 - 1 - noses backside.ldr
@@ -963,6 +980,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 1 - noses backside right side.ldr
 0 Nose backside right-side wall: grey brick, three red curved-top bricks, and a red plate
 0 Name: 10183 - 1 - noses backside right side.ldr
@@ -985,6 +1003,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 1 - nose front platform.ldr
 0 Front-nose platform/walkway: black technic plate, door-rail plates, clip studs, red slope and headlight windows, with clear round lamps and grab bars
 0 Name: 10183 - 1 - nose front platform.ldr
@@ -1042,6 +1061,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 1 - nose front wheels.ldr
 0 Front-nose wheel bogie unit with plates, two axles, train wheels, front cover, buffer beam and coupling
 0 Name: 10183 - 1 - nose front wheels.ldr
@@ -1087,6 +1107,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 1 - nose front wheels back.ldr
 0 Rear half of front-nose bogie: wheel-pin plate, grille brick, U-clips, and grille tiles
 0 Name: 10183 - 1 - nose front wheels back.ldr
@@ -1111,6 +1132,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 1 - noses wheels middle.ldr
 0 Middle bogie detail: plate, two studs, and two clip-light plates
 0 Name: 10183 - 1 - noses wheels middle.ldr
@@ -1132,6 +1154,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 1 - noses wheels front.ldr
 0 Bogie front cover: studs-on-sides brick, jumper plate, dark-red and black plates, and handle tiles
 0 Name: 10183 - 1 - noses wheels front.ldr
@@ -1160,6 +1183,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 1 - noses wheels buffer.ldr
 0 Buffer assembly: train buffer beam, Type 2 coupling, and cylindrical magnet casing
 0 Name: 10183 - 1 - noses wheels buffer.ldr
@@ -1177,6 +1201,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 1 - nose back.ldr
 0 Rear nose hood: plates, bricks, windows, headlights, grille tiles, and attached rear wheel bogie
 0 Name: 10183 - 1 - nose back.ldr
@@ -1314,6 +1339,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 1 - nose back platform.ldr
 0 Rear-nose platform/walkway: black technic plate, door-rail plates, clip studs, red slope and headlight windows, with red round lamps and grab bars
 0 Name: 10183 - 1 - nose back platform.ldr
@@ -1371,6 +1397,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 1 - nose back wheels.ldr
 0 Rear-nose wheel bogie unit with plates, two axles, train wheels, front cover, buffer beam and coupling
 0 Name: 10183 - 1 - nose back wheels.ldr
@@ -1419,6 +1446,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 1 - nose back wheels back.ldr
 0 Rear half of back-nose bogie: red bracket, round axlehole plate, and steering-wheel detail
 0 Name: 10183 - 1 - nose back wheels back.ldr

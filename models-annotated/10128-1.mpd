@@ -17,6 +17,7 @@
 
 
 
+0 STEP
 0 FILE 10128 - level crossing.ldr
 0 Railway level crossing scene: green baseplate with 9V straight track, a control hut (door, keyboard control panel, staircase), sloped roadways, road signs and hose-reel barrier posts
 0 Name: 10128 - level crossing.ldr
@@ -476,6 +477,7 @@
 
 
 
+0 STEP
 0 FILE 10128 - level crossing - barrier.ldr
 0 Level crossing boom barrier: hose reel base with technic axle and a chain of alternating red/white pin joiners forming the striped barrier arm
 0 Name: 10128 - level crossing - barrier.ldr
@@ -547,6 +549,7 @@
 
 
 
+0 STEP
 0 FILE 10128 - car.ldr
 0 Railway maintenance car: 4-wheel chassis with steering wheel, cab (doors, trans-brown windscreen, curved wedge roof) loaded with tools (saw, jackhammer, mallet, spanner), ladder and a hinged crane arm
 0 Name: 10128 - car.ldr
@@ -680,6 +683,7 @@
 
 
 
+0 STEP
 0 FILE 10128 - car - subpart 1.ldr
 0 Car bogie/truck: plate with wheel pins, two hinge bases and two small train wheels
 0 Name: 10128 - car - subpart 1.ldr
@@ -707,6 +711,7 @@
 
 
 
+0 STEP
 0 FILE 10128 - car - subpart 2.ldr
 0 Car crane arm: locking hinge brick (1 x 6) that mounts the crane basket subassembly
 0 Name: 10128 - car - subpart 2.ldr
@@ -725,6 +730,7 @@
 
 
 
+0 STEP
 0 FILE 10128 - car - subpart 2a.ldr
 0 Crane basket: 2 x 3 x 2 basket with hinge clip on a locking hinge plate and trans-yellow plates
 0 Name: 10128 - car - subpart 2a.ldr
@@ -752,6 +758,7 @@
 
 
 
+0 STEP
 0 FILE 10128 - minifig 1.ldr
 0 Construction worker minifig: orange torso, blue hips/arms/legs, yellow hands, red construction helmet
 0 Name: 10128 - minifig 1.ldr
@@ -787,6 +794,7 @@
 
 
 
+0 STEP
 0 FILE 10128 - minifig 2.ldr
 0 Police officer minifig: dark blue torso/hips/legs, white arms, yellow hands, dark red police hat, with a hand radio and a cup
 0 Name: 10128 - minifig 2.ldr
@@ -826,6 +834,7 @@
 
 
 
+0 STEP
 0 FILE 10128 - 30178c02.dat
 0 Door 1 x  4 x  6 with 3 Panes with TransBlack Glass
 0 Name: 10128 - 30178c02.dat

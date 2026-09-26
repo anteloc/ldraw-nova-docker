@@ -13,6 +13,7 @@
 1 4 110.003 0 90 -1 0 0 0 1 0 0 0 -1 6666 - minifig 1.ldr
 
 
+0 STEP
 0 FILE 6666 - car.ldr
 0 A red and black emergency car with mudguards, wheel plates, steering wheel, and transparent light elements.
 0 Name: 6666 - car.ldr
@@ -169,6 +170,7 @@
 1 4 10 -144 120 1 0 0 0 1 0 0 0 1 4592c01.dat
 
 
+0 STEP
 0 FILE 6666 - minifig 1.ldr
 0 A male paramedic minifigure wearing a white cap with sunglasses and a white uniform.
 0 Name: 6666 - minifig 1.ldr
@@ -200,6 +202,7 @@
 1 15 3.542 -96 9.462 1 0 0 0 1 0 0 0 1 4485.dat
 
 
+0 STEP
 0 FILE 6666 - minifig 2.ldr
 0 A female paramedic minifigure with a ponytail hairstyle and a red-and-yellow uniform.
 0 Name: 6666 - minifig 2.ldr
@@ -231,6 +234,7 @@
 1 0 0 -96 10 1 0 0 0 1 0 0 0 1 6093a.dat
 
 
+0 STEP
 0 FILE 6666 - stretcher.ldr
 0 A white wheeled stretcher designed to transport injured minifigures.
 0 Name: 6666 - stretcher.ldr

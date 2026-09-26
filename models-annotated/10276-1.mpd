@@ -819,6 +819,7 @@
 1 71 -10 -102 226 -1 0 0 0 0 -1 0 -1 0 10276 - bk4-step561-583.ldr
 
 
+0 STEP
 0 FILE 10276 - bk1-step2.ldr
 0 Structural connector module using Technic bricks with open centres and pins to join load-bearing sections.
 0 Name: 10276 - bk1-step2.ldr
@@ -845,6 +846,7 @@
 1 0 60 10 -40 0 0 1 0 1 0 -1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 10276 - bk1-step4.ldr
 0 Technic framework joint combining open-centre bricks and pins to extend the structural base.
 0 Name: 10276 - bk1-step4.ldr
@@ -874,6 +876,7 @@
 1 0 40 10 -160 0 0 -1 0 1 0 1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 10276 - bk1-step5.ldr
 0 Technic framework joint mirroring step 4, using open-centre bricks and pins to extend the structural base.
 0 Name: 10276 - bk1-step5.ldr
@@ -903,6 +906,7 @@
 1 0 -40 10 -160 0 0 1 0 1 0 -1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 10276 - bk1-step6-7.ldr
 0 Large olive green Technic base plate sections joined with pins, forming part of the elliptical foundation.
 0 Name: 10276 - bk1-step6-7.ldr
@@ -926,6 +930,7 @@
 1 0 160 18 -100 1 0 0 0 1 0 0 0 1 2780.dat
 
 
+0 STEP
 0 FILE 10276 - bk1-step9.ldr
 0 Extended Technic framework combining open-centre bricks and pins with a dark red plate detail.
 0 Name: 10276 - bk1-step9.ldr
@@ -961,6 +966,7 @@
 1 320 30 -8 -310 0 0 -1 0 1 0 1 0 0 3623.dat
 
 
+0 STEP
 0 FILE 10276 - bk1-step10.ldr
 0 Further Technic framework extension using open-centre bricks and friction pins.
 0 Name: 10276 - bk1-step10.ldr
@@ -991,6 +997,7 @@
 1 0 0 10 -220 0 0 -1 0 1 0 1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 10276 - bk1-step15-24.ldr
 0 Structural framework section with long Technic bricks, connectors, and plates in nougat, dark green, and medium azure for multi-coloured detailing.
 0 Name: 10276 - bk1-step15-24.ldr
@@ -1069,6 +1076,7 @@
 1 322 290 24 -220 0 0 -1 0 1 0 1 0 0 3710.dat
 
 
+0 STEP
 0 FILE 10276 - bk1-step20.ldr
 0 Compact Technic joint using an open-centre brick and friction pins for framework connection.
 0 Name: 10276 - bk1-step20.ldr
@@ -1088,6 +1096,7 @@
 1 0 20 10 80 0 0 1 0 1 0 -1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 10276 - bk1-step26-1.ldr
 0 Small dark tan and black plate/brick detail element.
 0 Name: 10276 - bk1-step26-1.ldr
@@ -1101,6 +1110,7 @@
 1 0 0 -24 0 1 0 0 0 1 0 0 0 1 3003.dat
 
 
+0 STEP
 0 FILE 10276 - bk1-step26.ldr
 0 Olive green and dark green plate/brick substructure element.
 0 Name: 10276 - bk1-step26.ldr
@@ -1116,6 +1126,7 @@
 1 288 0 -24 0 0 0 1 0 1 0 -1 0 0 2456.dat
 
 
+0 STEP
 0 FILE 10276 - bk1-step27-1.ldr
 0 Blue and sand green plate/brick accent element.
 0 Name: 10276 - bk1-step27-1.ldr
@@ -1129,6 +1140,7 @@
 1 378 0 -24 0 1 0 0 0 1 0 0 0 1 3009.dat
 
 
+0 STEP
 0 FILE 10276 - bk1-step27-2.ldr
 0 Olive green and bright green plate/brick accent element.
 0 Name: 10276 - bk1-step27-2.ldr
@@ -1142,6 +1154,7 @@
 1 10 0 -24 0 1 0 0 0 1 0 0 0 1 3004.dat
 
 
+0 STEP
 0 FILE 10276 - bk1-step29.ldr
 0 Mixed-colour plate and brick element in reddish brown, dark green, olive green, and blue.
 0 Name: 10276 - bk1-step29.ldr
@@ -1163,6 +1176,7 @@
 1 1 70 32 0 0 0 -1 0 1 0 1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 10276 - bk1-step30.ldr
 0 Small green-toned plate and brick accent element.
 0 Name: 10276 - bk1-step30.ldr
@@ -1178,6 +1192,7 @@
 1 2 0 -32 20 0 0 -1 0 1 0 1 0 0 3002.dat
 
 
+0 STEP
 0 FILE 10276 - bk1-step31.ldr
 0 Blue, olive green, and dark green plate/brick accent element.
 0 Name: 10276 - bk1-step31.ldr
@@ -1193,6 +1208,7 @@
 1 288 0 -32 50 0 0 1 0 1 0 -1 0 0 2456.dat
 
 
+0 STEP
 0 FILE 10276 - bk1-step1-33.ldr
 0 Major foundational submodel with Technic base plates, many brackets, and tiles forming the layered elliptical base with olive green, blue, nougat, and dark green detailing.
 0 Name: 10276 - bk1-step1-33.ldr
@@ -1634,6 +1650,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10276 - bk1-step35-41.ldr
 0 Long Technic brick framework with friction pins and nougat plates, providing structural support for upper sections.
 0 Name: 10276 - bk1-step35-41.ldr
@@ -1705,6 +1722,7 @@
 1 92 10 24 480 0 0 -1 0 1 0 1 0 0 3020.dat
 
 
+0 STEP
 0 FILE 10276 - bk1-step45-1.ldr
 0 Small dark green and tan plate/brick detail element.
 0 Name: 10276 - bk1-step45-1.ldr
@@ -1718,6 +1736,7 @@
 1 19 0 -24 0 1 0 0 0 1 0 0 0 1 98283.dat
 
 
+0 STEP
 0 FILE 10276 - bk1-step45-2.ldr
 0 Small dark green and tan plate/brick detail element.
 0 Name: 10276 - bk1-step45-2.ldr
@@ -1731,6 +1750,7 @@
 1 19 0 -24 0 1 0 0 0 1 0 0 0 1 98283.dat
 
 
+0 STEP
 0 FILE 10276 - bk1-step46-50.ldr
 0 Structural framework with Technic bricks, pins, and plates in nougat, dark green, blue, and dark orange for decorative detailing.
 0 Name: 10276 - bk1-step46-50.ldr
@@ -1778,6 +1798,7 @@
 1 484 -70 0 -30 0 0 -1 0 1 0 1 0 0 2357.dat
 
 
+0 STEP
 0 FILE 10276 - bk1-step55-64.ldr
 0 Architectural wall section built from dark bluish grey and black bricks, plates, and slopes forming an angled facade.
 0 Name: 10276 - bk1-step55-64.ldr
@@ -1848,6 +1869,7 @@
 1 72 -80 0 -30 0 0 1 0 1 0 -1 0 0 3020.dat
 
 
+0 STEP
 0 FILE 10276 - bk1-step66-73.ldr
 0 Sloped architectural wall section using 45-degree slope bricks and bricks with side studs for the Colosseum's tiered facade.
 0 Name: 10276 - bk1-step66-73.ldr
@@ -1899,6 +1921,7 @@
 1 72 -30 -72 -20 0 0 -1 0 1 0 1 0 0 3622.dat
 
 
+0 STEP
 0 FILE 10276 - bk1-step70.ldr
 0 Small section of sloped facade wall with 45-degree slopes and a tan round plate accent.
 0 Name: 10276 - bk1-step70.ldr
@@ -1922,6 +1945,7 @@
 1 72 50 0 0 0 0 -1 0 1 0 1 0 0 3040b.dat
 
 
+0 STEP
 0 FILE 10276 - bk1-step75-79.ldr
 0 Angled wall section with 33-degree slopes in dark bluish grey and black forming part of the facade.
 0 Name: 10276 - bk1-step75-79.ldr
@@ -1953,6 +1977,7 @@
 1 0 -10 0 50 -1 0 0 0 1 0 0 0 -1 4161.dat
 
 
+0 STEP
 0 FILE 10276 - bk1-step81-86.ldr
 0 Repeated angled facade section with 33-degree slope bricks in dark bluish grey and black.
 0 Name: 10276 - bk1-step81-86.ldr
@@ -1995,6 +2020,7 @@
 1 19 48 -38 20 0 -1 0 -1 0 0 0 0 -1 6141.dat
 
 
+0 STEP
 0 FILE 10276 - bk1-step88-92.ldr
 0 Facade section using 18-degree slopes and bricks forming a decorative wall band.
 0 Name: 10276 - bk1-step88-92.ldr
@@ -2028,6 +2054,7 @@
 1 0 -20 0 60 -1 0 0 0 1 0 0 0 -1 30363.dat
 
 
+0 STEP
 0 FILE 10276 - bk1-step94-100.ldr
 0 Detailed facade section with slopes, tiles, brackets, and a 4x4 plate forming a complex wall corner.
 0 Name: 10276 - bk1-step94-100.ldr
@@ -2071,6 +2098,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10276 - bk1-step99.ldr
 0 Small sloped wall detail using 18-degree slopes in dark bluish grey and black.
 0 Name: 10276 - bk1-step99.ldr
@@ -2086,6 +2114,7 @@
 1 0 -20 -24 20 0 0 -1 0 1 0 1 0 0 30363.dat
 
 
+0 STEP
 0 FILE 10276 - bk1-step102-111.ldr
 0 Architectural wall section with slopes, bricks, plates, and brackets forming an angled facade similar to steps 55-64.
 0 Name: 10276 - bk1-step102-111.ldr
@@ -2156,6 +2185,7 @@
 1 72 80 0 -30 0 0 -1 0 1 0 1 0 0 3020.dat
 
 
+0 STEP
 0 FILE 10276 - bk1-step113-120.ldr
 0 Sloped facade wall section with 45-degree slope bricks forming a tiered wall element.
 0 Name: 10276 - bk1-step113-120.ldr
@@ -2207,6 +2237,7 @@
 1 72 30 -72 -20 0 0 1 0 1 0 -1 0 0 3622.dat
 
 
+0 STEP
 0 FILE 10276 - bk1-step117.ldr
 0 Small section of 45-degree sloped facade with side-stud brick detail.
 0 Name: 10276 - bk1-step117.ldr
@@ -2230,6 +2261,7 @@
 1 72 -50 0 0 0 0 1 0 1 0 -1 0 0 3040b.dat
 
 
+0 STEP
 0 FILE 10276 - bk1-step122-125.ldr
 0 Angled wall section with 33-degree slopes in dark bluish grey and black.
 0 Name: 10276 - bk1-step122-125.ldr
@@ -2261,6 +2293,7 @@
 1 0 -10 0 -50 1 0 0 0 1 0 0 0 1 4161.dat
 
 
+0 STEP
 0 FILE 10276 - bk1-step127-132.ldr
 0 Repeated angled facade section with 33-degree slope bricks in dark bluish grey and black.
 0 Name: 10276 - bk1-step127-132.ldr
@@ -2303,6 +2336,7 @@
 1 19 48 -38 -20 0 -1 0 1 0 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 10276 - bk1-step134-137.ldr
 0 Facade section using 18-degree slopes and bricks forming a decorative wall band.
 0 Name: 10276 - bk1-step134-137.ldr
@@ -2336,6 +2370,7 @@
 1 0 -20 0 -60 1 0 0 0 1 0 0 0 1 30363.dat
 
 
+0 STEP
 0 FILE 10276 - bk1-step147.ldr
 0 Large flat platform section with a 4x10 plate and black tiles forming a tiled surface area.
 0 Name: 10276 - bk1-step147.ldr
@@ -2364,6 +2399,7 @@
 1 0 80 -8 -10 0 0 -1 0 1 0 1 0 0 26603.dat
 
 
+0 STEP
 0 FILE 10276 - bk1-step139-145.ldr
 0 Detailed facade section with slopes, tiles, brackets, and a 4x4 plate forming a complex wall corner.
 0 Name: 10276 - bk1-step139-145.ldr
@@ -2407,6 +2443,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10276 - bk1-step144.ldr
 0 Small sloped wall detail using 18-degree slopes in dark bluish grey and black.
 0 Name: 10276 - bk1-step144.ldr
@@ -2422,6 +2459,7 @@
 1 0 20 -24 20 0 0 1 0 1 0 -1 0 0 30363.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step1-9.ldr
 0 Architectural wall section built from dark bluish grey and black bricks, plates, and slopes forming an angled facade.
 0 Name: 10276 - bk2-step1-9.ldr
@@ -2477,6 +2515,7 @@
 1 72 70 8 -30 0 0 1 0 1 0 -1 0 0 3710.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step11-18.ldr
 0 Sloped facade wall section with 45-degree slope bricks forming a tiered wall element.
 0 Name: 10276 - bk2-step11-18.ldr
@@ -2532,6 +2571,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10276 - bk2-step20-22.ldr
 0 Angled wall section with 33-degree slopes in dark bluish grey and black.
 0 Name: 10276 - bk2-step20-22.ldr
@@ -2557,6 +2597,7 @@
 1 72 30 0 -50 1 0 0 0 1 0 0 0 1 4286.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step24-29.ldr
 0 Repeated angled facade section with 33-degree slope bricks and plates.
 0 Name: 10276 - bk2-step24-29.ldr
@@ -2595,6 +2636,7 @@
 1 0 -10 -72 0 1 0 0 0 1 0 0 0 1 4161.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step31-34.ldr
 0 Facade section using 18-degree slopes and bricks forming a decorative wall band.
 0 Name: 10276 - bk2-step31-34.ldr
@@ -2623,6 +2665,7 @@
 1 0 -30 0 -60 1 0 0 0 1 0 0 0 1 60477.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step36-41.ldr
 0 Detailed facade section with slopes, tiles, plates, and 4x4 plates forming a complex wall corner.
 0 Name: 10276 - bk2-step36-41.ldr
@@ -2665,6 +2708,7 @@
 1 0 -10 -40 60 1 0 0 0 1 0 0 0 1 26603.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step43-51.ldr
 0 Architectural wall section with slopes, bricks, plates, and brackets forming an angled facade.
 0 Name: 10276 - bk2-step43-51.ldr
@@ -2720,6 +2764,7 @@
 1 72 -70 8 -30 0 0 -1 0 1 0 1 0 0 3710.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step53-60.ldr
 0 Sloped facade wall section with 45-degree slope bricks forming a tiered wall element.
 0 Name: 10276 - bk2-step53-60.ldr
@@ -2775,6 +2820,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10276 - bk2-step62-65.ldr
 0 Angled wall section with 33-degree slopes in dark bluish grey and black.
 0 Name: 10276 - bk2-step62-65.ldr
@@ -2800,6 +2846,7 @@
 1 72 -30 0 -50 1 0 0 0 1 0 0 0 1 4286.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step67-72.ldr
 0 Repeated angled facade section with 33-degree slope bricks and plates.
 0 Name: 10276 - bk2-step67-72.ldr
@@ -2838,6 +2885,7 @@
 1 0 10 -72 0 1 0 0 0 1 0 0 0 1 4161.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step74-77.ldr
 0 Facade section using 18-degree slopes and bricks forming a decorative wall band.
 0 Name: 10276 - bk2-step74-77.ldr
@@ -2866,6 +2914,7 @@
 1 0 30 0 -60 1 0 0 0 1 0 0 0 1 60477.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step79-84.ldr
 0 Detailed facade section with slopes, tiles, plates, and 4x4 plates forming a complex wall corner.
 0 Name: 10276 - bk2-step79-84.ldr
@@ -2908,6 +2957,7 @@
 1 0 10 -40 60 1 0 0 0 1 0 0 0 1 26603.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step87-92.ldr
 0 Tiled platform section with slope plates and large tiles forming a smooth angled surface.
 0 Name: 10276 - bk2-step87-92.ldr
@@ -2968,6 +3018,7 @@
 1 72 -110 0 -40 -1 0 0 0 1 0 0 0 -1 3021.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step94.ldr
 0 Green accent element using bright green bricks and olive green plates with a dark bluish grey tile.
 0 Name: 10276 - bk2-step94.ldr
@@ -2989,6 +3040,7 @@
 1 330 20 32 0 0 0 -1 0 1 0 1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step95.ldr
 0 Small dark bluish grey centre-stud plate with a tan round plate accent.
 0 Name: 10276 - bk2-step95.ldr
@@ -3002,6 +3054,7 @@
 1 19 0 -8 0 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step100.ldr
 0 Small olive green and dark tan decorative plate element with a round pin tile.
 0 Name: 10276 - bk2-step100.ldr
@@ -3017,6 +3070,7 @@
 1 28 0 -16 0 1 0 0 0 1 0 0 0 1 20482.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step102.ldr
 0 Tan arch element with a grooved tile, forming a small arched opening.
 0 Name: 10276 - bk2-step102.ldr
@@ -3030,6 +3084,7 @@
 1 19 0 -8 0 1 0 0 0 1 0 0 0 1 2431.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step103-109.ldr
 0 Detailed tan architectural section with headlight bricks, side-stud bricks, tiles, and a left wing forming a decorative arch cluster.
 0 Name: 10276 - bk2-step103-109.ldr
@@ -3067,6 +3122,7 @@
 1 28 -10 -18 50 0 0 1 1 0 0 0 1 0 20482.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step111-117.ldr
 0 Tan architectural detail section with headlight bricks, side-stud bricks, tiles, and round pin-hole tiles forming a decorated wall band.
 0 Name: 10276 - bk2-step111-117.ldr
@@ -3104,6 +3160,7 @@
 1 28 -10 -18 50 0 0 1 1 0 0 0 1 0 20482.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step119-123.ldr
 0 Tan architectural detail section with headlight bricks, side-stud bricks, tiles, and round pin-hole tiles forming a decorated wall element.
 0 Name: 10276 - bk2-step119-123.ldr
@@ -3133,6 +3190,7 @@
 1 28 -10 -18 40 1 0 0 0 0 -1 0 1 0 20482.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step125.ldr
 0 Small tan detail element with a left wing, headlight bricks, and round pin-hole tiles.
 0 Name: 10276 - bk2-step125.ldr
@@ -3152,6 +3210,7 @@
 1 28 20 -18 10 0 1 0 0 0 -1 -1 0 0 20482.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step126-130.ldr
 0 Extended tan wall detail with embossed bricks, headlight bricks, tiles, and round pin-hole tiles forming a decorated band.
 0 Name: 10276 - bk2-step126-130.ldr
@@ -3195,6 +3254,7 @@
 1 28 -50 -18 50 1 0 0 0 0 -1 0 1 0 20482.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step132-136.ldr
 0 Extended tan wall detail with embossed bricks, headlight bricks, tiles, and round pin-hole tiles forming a decorated band.
 0 Name: 10276 - bk2-step132-136.ldr
@@ -3238,6 +3298,7 @@
 1 28 -70 -18 50 1 0 0 0 0 -1 0 1 0 20482.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step138-142.ldr
 0 Tan architectural detail section with side-stud bricks, headlight bricks, tiles, and round pin-hole tiles.
 0 Name: 10276 - bk2-step138-142.ldr
@@ -3267,6 +3328,7 @@
 1 28 10 -18 40 1 0 0 0 0 -1 0 1 0 20482.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step144.ldr
 0 Small tan detail element with a left wing, headlight bricks, and round pin-hole tiles.
 0 Name: 10276 - bk2-step144.ldr
@@ -3286,6 +3348,7 @@
 1 28 20 -18 30 0 1 0 0 0 -1 -1 0 0 20482.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step145.ldr
 0 Small tan detail element with a right wing, headlight bricks, and round pin-hole tiles.
 0 Name: 10276 - bk2-step145.ldr
@@ -3305,6 +3368,7 @@
 1 28 20 -18 20 0 1 0 0 0 -1 -1 0 0 20482.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step147-1.ldr
 0 Small tan embossed brick with a slope element.
 0 Name: 10276 - bk2-step147-1.ldr
@@ -3318,6 +3382,7 @@
 1 19 10 0 0 0 0 -1 0 1 0 1 0 0 54200.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step147-2.ldr
 0 Small tan slope and embossed brick element.
 0 Name: 10276 - bk2-step147-2.ldr
@@ -3331,6 +3396,7 @@
 1 19 -10 0 0 1 0 0 0 1 0 0 0 1 98283.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step147-3.ldr
 0 Small tan slope and embossed brick element.
 0 Name: 10276 - bk2-step147-3.ldr
@@ -3344,6 +3410,7 @@
 1 19 -10 0 0 1 0 0 0 1 0 0 0 1 98283.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step147-4.ldr
 0 Small tan detail with slope bricks and an embossed brick.
 0 Name: 10276 - bk2-step147-4.ldr
@@ -3359,6 +3426,7 @@
 1 19 -20 -24 0 0 0 -1 0 1 0 1 0 0 3040b.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step147-5.ldr
 0 Small tan brick with a slope element.
 0 Name: 10276 - bk2-step147-5.ldr
@@ -3372,6 +3440,7 @@
 1 19 0 0 0 1 0 0 0 1 0 0 0 1 54200.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step148.ldr
 0 Hinged tan element with plates, slopes, and a grooved tile forming a small architectural detail.
 0 Name: 10276 - bk2-step148.ldr
@@ -3405,6 +3474,7 @@
 1 19 10.8 -24 -14.4 0.96 0 0.28 0 1 0 -0.28 0 0.96 3005.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step149-154.ldr
 0 Hinged tan architectural section with hinge plates, panels, slopes, and embossed bricks forming a decorative angled element.
 0 Name: 10276 - bk2-step149-154.ldr
@@ -3476,6 +3546,7 @@
 1 19 -41.23 -40 0.32 -0.972 0 0.235 0 1 0 -0.235 0 -0.972 3069b.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step156-162.ldr
 0 Extended hinged tan architectural section with multiple hinge plates, panels, slopes, and embossed bricks.
 0 Name: 10276 - bk2-step156-162.ldr
@@ -3560,6 +3631,7 @@
 1 19 79.372 -40 -14.147 0.955 0 0.296 0 1 0 -0.296 0 0.955 3069b.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step164-171.ldr
 0 Extended hinged tan architectural section with hinge plates, panels, embossed bricks, and slopes.
 0 Name: 10276 - bk2-step164-171.ldr
@@ -3657,6 +3729,7 @@
 1 19 -196.411 -56 -74.396 -0.85 0 0.526 0 1 0 -0.526 0 -0.85 23950.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step173-181.ldr
 0 Extended hinged tan architectural section with hinge plates, panels, embossed bricks, and slopes forming a curved element.
 0 Name: 10276 - bk2-step173-181.ldr
@@ -3758,6 +3831,7 @@
 1 19 151.6 -56 -1.2 0.96 0 -0.28 0 1 0 0.28 0 0.96 23950.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step176.ldr
 0 Small tan plate and brick element.
 0 Name: 10276 - bk2-step176.ldr
@@ -3773,6 +3847,7 @@
 1 19 0 8 0 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step183-190.ldr
 0 Hinged tan architectural section with hinge plates, panels, embossed bricks, and slopes.
 0 Name: 10276 - bk2-step183-190.ldr
@@ -3859,6 +3934,7 @@
 1 19 79.372 -40 14.147 -0.955 0 0.296 0 1 0 -0.296 0 -0.955 3069b.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step192-197.ldr
 0 Hinged tan architectural section with hinge plates, panels, embossed bricks, and slopes.
 0 Name: 10276 - bk2-step192-197.ldr
@@ -3923,6 +3999,7 @@
 1 19 -252.335 -56 135.12 0.546 0 0.838 0 1 0 -0.838 0 0.546 23950.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step199-222.ldr
 0 Large arched architectural section with arches, plates, panels, ball/socket joints, slopes, and a window panel forming part of the Colosseum's arcade.
 0 Name: 10276 - bk2-step199-222.ldr
@@ -4071,6 +4148,7 @@
 1 19 0 -8 -90 1 0 0 0 1 0 0 0 1 90195.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step204.ldr
 0 Small tan detail element with embossed brick, round-end plate, and plate.
 0 Name: 10276 - bk2-step204.ldr
@@ -4088,6 +4166,7 @@
 1 19 0 -40 0 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step207.ldr
 0 Small arched tan element with plates, bricks, and an arch.
 0 Name: 10276 - bk2-step207.ldr
@@ -4114,6 +4193,7 @@
 1 19 0 -72 30 1 0 0 0 1 0 0 0 1 3021.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step208.ldr
 0 Small arched tan element with plates, bricks, and an arch.
 0 Name: 10276 - bk2-step208.ldr
@@ -4134,6 +4214,7 @@
 1 19 0 -56 0 1 0 0 0 1 0 0 0 1 3623.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step215.ldr
 0 Small dark tan and tan plate element.
 0 Name: 10276 - bk2-step215.ldr
@@ -4147,6 +4228,7 @@
 1 19 0 -8 0 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step216.ldr
 0 Small tan detail with slope plate and round plates.
 0 Name: 10276 - bk2-step216.ldr
@@ -4162,6 +4244,7 @@
 1 19 0 8 10 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step219.ldr
 0 Arched tan element with embossed brick, centre-stud plates, and tall bricks forming a window surround.
 0 Name: 10276 - bk2-step219.ldr
@@ -4195,6 +4278,7 @@
 1 19 30 40 0 -1 0 0 0 1 0 0 0 -1 14716.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step221.ldr
 0 Small offset plate and tan round plate element.
 0 Name: 10276 - bk2-step221.ldr
@@ -4208,6 +4292,7 @@
 1 19 0 8 0 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step224-247.ldr
 0 Large arched architectural section with arches, plates, panels, ball/socket joints, slopes, offset plates, and a window panel forming part of the arcade.
 0 Name: 10276 - bk2-step224-247.ldr
@@ -4361,6 +4446,7 @@
 1 19 0 -8 -90 1 0 0 0 1 0 0 0 1 90195.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step232.ldr
 0 Small arched tan element with plates, bricks, and an arch.
 0 Name: 10276 - bk2-step232.ldr
@@ -4381,6 +4467,7 @@
 1 19 0 -56 -10 1 0 0 0 1 0 0 0 1 3021.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step233.ldr
 0 Decorative tan column element with bricks, round plates, half-arch bricks, and slope bricks.
 0 Name: 10276 - bk2-step233.ldr
@@ -4416,6 +4503,7 @@
 1 19 20 -32 -20 1 0 0 0 1 0 0 0 1 54200.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step249-273.ldr
 0 Large arched architectural section with arches, plates, panels, ball/socket joints, slopes, half-arch bricks, and a technic brick forming part of the arcade.
 0 Name: 10276 - bk2-step249-273.ldr
@@ -4576,6 +4664,7 @@
 1 19 -40 -280 30 1 0 0 0 1 0 0 0 1 10276 - bk2-step221.ldr
 
 
+0 STEP
 0 FILE 10276 - bk2-step259.ldr
 0 Small decorative tan column element with bricks, round plates, and half-arch bricks.
 0 Name: 10276 - bk2-step259.ldr
@@ -4601,6 +4690,7 @@
 1 19 20 -56 10 0 0 1 0 1 0 -1 0 0 38585.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step274-296.ldr
 0 Large arched architectural section with arches, plates, panels, ball/socket joints, slopes, offset plates, and corner tiles forming part of the arcade.
 0 Name: 10276 - bk2-step274-296.ldr
@@ -4751,6 +4841,7 @@
 1 19 -40 -280 30 1 0 0 0 1 0 0 0 1 10276 - bk2-step221.ldr
 
 
+0 STEP
 0 FILE 10276 - bk2-step297-472.ldr
 0 Collection of ten arched window panels with a slope brick, forming a repeated arcade window element.
 0 Name: 10276 - bk2-step297-472.ldr
@@ -4799,6 +4890,7 @@
 1 19 -18.838 -8 -173.624 0.992 0 -0.123 0 1 0 0.123 0 0.992 90195.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step298-322.ldr
 0 Large arched architectural section with arches, plates, panels, ball/socket joints, slopes, half-arch bricks, and corner tiles forming part of the arcade.
 0 Name: 10276 - bk2-step298-322.ldr
@@ -4959,6 +5051,7 @@
 1 19 -40 -280 30 1 0 0 0 1 0 0 0 1 10276 - bk2-step221.ldr
 
 
+0 STEP
 0 FILE 10276 - bk2-step398-421.ldr
 0 Large arched architectural section with arches, plates, panels, ball/socket joints, slopes, and offset plates forming part of the arcade.
 0 Name: 10276 - bk2-step398-421.ldr
@@ -5114,6 +5207,7 @@
 1 19 -40 -280 30 1 0 0 0 1 0 0 0 1 10276 - bk2-step221.ldr
 
 
+0 STEP
 0 FILE 10276 - bk2-step423-445.ldr
 0 Large arched architectural section with arches, plates, panels, ball/socket joints, slopes, and corner tiles forming part of the arcade.
 0 Name: 10276 - bk2-step423-445.ldr
@@ -5263,6 +5357,7 @@
 1 19 -40 -280 30 1 0 0 0 1 0 0 0 1 10276 - bk2-step221.ldr
 
 
+0 STEP
 0 FILE 10276 - bk2-step447-470.ldr
 0 Large arched architectural section with arches, plates, panels, ball/socket joints, slopes, and offset plates forming part of the arcade.
 0 Name: 10276 - bk2-step447-470.ldr
@@ -5420,6 +5515,7 @@
 1 19 -40 -280 30 1 0 0 0 1 0 0 0 1 10276 - bk2-step221.ldr
 
 
+0 STEP
 0 FILE 10276 - bk2-step474-517.ldr
 0 Complex architectural section with arches, plates, panels, ball/socket joints, slopes, cylinders, a slope brick with solid studs, and a window panel forming an elaborate arcade corner.
 0 Name: 10276 - bk2-step474-517.ldr
@@ -5631,6 +5727,7 @@
 1 19 0 -8 -130 1 0 0 0 1 0 0 0 1 90195.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step477.ldr
 0 Small tan and dark tan plate element with grooved centre-stud plates.
 0 Name: 10276 - bk2-step477.ldr
@@ -5652,6 +5749,7 @@
 1 28 20 0 -20 1 0 0 0 1 0 0 0 1 15573.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step478-1.ldr
 0 Pair of tan 1x1 bricks.
 0 Name: 10276 - bk2-step478-1.ldr
@@ -5665,6 +5763,7 @@
 1 19 0 -24 0 1 0 0 0 1 0 0 0 1 3005.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step478-2.ldr
 0 Small tan detail with bricks and a round plate.
 0 Name: 10276 - bk2-step478-2.ldr
@@ -5680,6 +5779,7 @@
 1 19 0 -32 0 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step480.ldr
 0 Small arched tan element with plates, bricks, and an arch.
 0 Name: 10276 - bk2-step480.ldr
@@ -5697,6 +5797,7 @@
 1 19 0 -48 0 1 0 0 0 1 0 0 0 1 4490.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step483.ldr
 0 Small plate element with a ball joint connector for arcade linkage.
 0 Name: 10276 - bk2-step483.ldr
@@ -5712,6 +5813,7 @@
 1 72 0 -16 0 1 0 0 0 1 0 0 0 1 14417.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step484.ldr
 0 Detailed tan element with bricks, plates, round plates, and an arch forming a window surround.
 0 Name: 10276 - bk2-step484.ldr
@@ -5753,6 +5855,7 @@
 1 19 20 -104 0 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step486-495.ldr
 0 Detailed architectural element with arches, plates, cylinders, a slope brick, door-rail plates, and round pin-hole tiles forming a decorated column section.
 0 Name: 10276 - bk2-step486-495.ldr
@@ -5816,6 +5919,7 @@
 1 19 0 -120 0 0 0 1 0 1 0 -1 0 0 6141.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step489.ldr
 0 Small tan and dark tan plate detail element.
 0 Name: 10276 - bk2-step489.ldr
@@ -5833,6 +5937,7 @@
 1 28 30 0 0 1 0 0 0 1 0 0 0 1 85861.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step492.ldr
 0 Small tan and dark tan element with embossed brick and round-end plate.
 0 Name: 10276 - bk2-step492.ldr
@@ -5852,6 +5957,7 @@
 1 28 0 24 0 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step505.ldr
 0 Small tan detail with slope plate and round plates.
 0 Name: 10276 - bk2-step505.ldr
@@ -5867,6 +5973,7 @@
 1 19 0 8 10 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step506.ldr
 0 Arched tan element with tall bricks forming a window surround.
 0 Name: 10276 - bk2-step506.ldr
@@ -5882,6 +5989,7 @@
 1 19 30 24 0 1 0 0 0 1 0 0 0 1 14716.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step507.ldr
 0 Arched tan element with a hollow-stud slope and a tall brick.
 0 Name: 10276 - bk2-step507.ldr
@@ -5897,6 +6005,7 @@
 1 19 30 24 0 1 0 0 0 1 0 0 0 1 14716.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step512.ldr
 0 Tan element with a solid-stud slope brick and plates forming a roof detail.
 0 Name: 10276 - bk2-step512.ldr
@@ -5914,6 +6023,7 @@
 1 19 10 -40 0 1 0 0 0 1 0 0 0 1 3005.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step514.ldr
 0 Small tan plate and brick element.
 0 Name: 10276 - bk2-step514.ldr
@@ -5931,6 +6041,7 @@
 1 19 0 -40 0 1 0 0 0 1 0 0 0 1 3005.dat
 
 
+0 STEP
 0 FILE 10276 - bk2-step567-bk3-stepXXX.ldr
 0 Collection of ten arched window panels with a slope brick, forming a repeated arcade window element.
 0 Name: 10276 - bk2-step567-bk3-stepXXX.ldr
@@ -5980,6 +6091,7 @@
 1 19 228.661 -8 -340.499 0.604 0 0.797 0 1 0 -0.797 0 0.604 90195.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step26-48.ldr
 0 Large arched architectural section with arches, plates, panels, ball/socket joints, slopes, and corner tiles forming part of the arcade.
 0 Name: 10276 - bk3-step26-48.ldr
@@ -6129,6 +6241,7 @@
 1 19 -40 -280 30 1 0 0 0 1 0 0 0 1 10276 - bk2-step221.ldr
 
 
+0 STEP
 0 FILE 10276 - bk3-step50-79.ldr
 0 Large arched architectural section with arches, plates, panels, ball/socket joints, slopes, socket joint squares, and slope plates forming an elaborate arcade section.
 0 Name: 10276 - bk3-step50-79.ldr
@@ -6305,6 +6418,7 @@
 1 71 -40 -280 30 1 0 0 0 1 0 0 0 1 34103.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step62.ldr
 0 Small arched tan element with plates forming a window detail.
 0 Name: 10276 - bk3-step62.ldr
@@ -6328,6 +6442,7 @@
 1 19 10 -32 0 1 0 0 0 1 0 0 0 1 3623.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step65.ldr
 0 Detailed arched tan element with slope brick, embossed brick, tall brick, and plates.
 0 Name: 10276 - bk3-step65.ldr
@@ -6355,6 +6470,7 @@
 1 28 -50 96 0 0 0 1 0 1 0 -1 0 0 3024.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step83-135.ldr
 0 Complex architectural section with arches, plates, panels, slope bricks, ball/socket joints, embossed bricks, large plates, and grooved tiles forming an elaborate arcade section.
 0 Name: 10276 - bk3-step83-135.ldr
@@ -6563,6 +6679,7 @@
 1 19 0 -24 -110 1 0 0 0 1 0 0 0 1 10276 - bk3-step135.ldr
 
 
+0 STEP
 0 FILE 10276 - bk3-step92.ldr
 0 Detailed tan element with grooved plates, slopes, bricks, round plates, and an arch forming a window surround.
 0 Name: 10276 - bk3-step92.ldr
@@ -6601,6 +6718,7 @@
 1 19 0 -104 0 1 0 0 0 1 0 0 0 1 3010.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step93.ldr
 0 Structural tan element with large plates, axlehole plates, and ball/socket joint connectors.
 0 Name: 10276 - bk3-step93.ldr
@@ -6628,6 +6746,7 @@
 1 19 0 -16 0 1 0 0 0 1 0 0 0 1 3032.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step94-98.ldr
 0 Small arched tan element with embossed bricks, round-end plate, and a tall brick.
 0 Name: 10276 - bk3-step94-98.ldr
@@ -6661,6 +6780,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10276 - bk3-step98.ldr
 0 Small tan element with edge-stud plates and a door-rail plate.
 0 Name: 10276 - bk3-step98.ldr
@@ -6676,6 +6796,7 @@
 1 19 0 -16 0 1 0 0 0 1 0 0 0 1 33909.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step107.ldr
 0 Arched tan element with a tall brick and centre-stud plates.
 0 Name: 10276 - bk3-step107.ldr
@@ -6699,6 +6820,7 @@
 1 19 30 24 0 1 0 0 0 1 0 0 0 1 14716.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step120.ldr
 0 Small tan detail with a side-stud brick, brick, and round plate.
 0 Name: 10276 - bk3-step120.ldr
@@ -6714,6 +6836,7 @@
 1 19 0 -32 0 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step121.ldr
 0 Arched tan element with embossed brick, bricks, and open-stud round plates.
 0 Name: 10276 - bk3-step121.ldr
@@ -6741,6 +6864,7 @@
 1 19 0 -56 0 1 0 0 0 1 0 0 0 1 3010.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step122-129.ldr
 0 Detailed architectural element with plates, embossed bricks, door-rail plates, window panels, clip plates, slope bricks, and a centre-stud plate forming a decorated wall section.
 0 Name: 10276 - bk3-step122-129.ldr
@@ -6795,6 +6919,7 @@
 1 19 30 -120 -10 1 0 0 0 1 0 0 0 1 54200.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step127.ldr
 0 Small tan element with round-end plates, a plate, and a brick.
 0 Name: 10276 - bk3-step127.ldr
@@ -6812,6 +6937,7 @@
 1 19 0 -40 0 1 0 0 0 1 0 0 0 1 3004.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step133.ldr
 0 Decorative tan element with embossed brick, scroll bricks, centre-stud plates, a grooved tile, and a 2-blade rotor forming an ornate detail.
 0 Name: 10276 - bk3-step133.ldr
@@ -6844,6 +6970,7 @@
 1 19 0 -64 0 -1 0 0 0 1 0 0 0 -1 32124.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step134.ldr
 0 Arched tan element with centre-stud plate and 1x1 plates.
 0 Name: 10276 - bk3-step134.ldr
@@ -6871,6 +6998,7 @@
 1 19 30 -48 0 1 0 0 0 1 0 0 0 1 3024.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step135.ldr
 0 Small dark tan and tan element with a thin rounded panel.
 0 Name: 10276 - bk3-step135.ldr
@@ -6884,6 +7012,7 @@
 1 19 0 -24 0 -1 0 0 0 1 0 0 0 -1 15207.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step137-200.ldr
 0 Large complex architectural section with arches, plates, panels, slopes, ball/socket joints, embossed bricks, corner tiles, tall bricks, axlehole plates, and chamfered tiles forming an elaborate arcade section.
 0 Name: 10276 - bk3-step137-200.ldr
@@ -7145,6 +7274,7 @@
 1 19 0 -528 -2 0 0 -1 -1 0 0 0 1 0 96910.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step146.ldr
 0 Detailed tan element with centre-stud plate, bricks, round plates, arch, and dark tan plates forming a window surround.
 0 Name: 10276 - bk3-step146.ldr
@@ -7180,6 +7310,7 @@
 1 28 30 8 0 0 0 -1 0 1 0 1 0 0 3024.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step148-156.ldr
 0 Detailed architectural element with embossed bricks, arches, round-end plates, corner plates, tall bricks, edge-stud plate, and slope bricks forming a decorated wall section.
 0 Name: 10276 - bk3-step148-156.ldr
@@ -7241,6 +7372,7 @@
 1 19 80 -80 -10 -1 0 0 0 1 0 0 0 -1 54200.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step153.ldr
 0 Small element with a round pin-hole tile and two cylinders forming a decorative detail.
 0 Name: 10276 - bk3-step153.ldr
@@ -7256,6 +7388,7 @@
 1 28 0 -64 0 1 0 0 0 -1 0 0 0 -1 37762.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step154.ldr
 0 Small dark tan and tan plate detail element.
 0 Name: 10276 - bk3-step154.ldr
@@ -7271,6 +7404,7 @@
 1 28 -10 8 0 1 0 0 0 1 0 0 0 1 85861.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step155.ldr
 0 Small tan element with edge-stud plate and door-rail plate.
 0 Name: 10276 - bk3-step155.ldr
@@ -7284,6 +7418,7 @@
 1 28 0 -8 10 1 0 0 0 1 0 0 0 1 32028.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step170.ldr
 0 Small element with pin-hole tile, cylinders, and a dark tan brick.
 0 Name: 10276 - bk3-step170.ldr
@@ -7301,6 +7436,7 @@
 1 28 0 0 0 1 0 0 0 1 0 0 0 1 3005.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step171-1.ldr
 0 Small detail element with a minifig roller skate and plates forming a decorative accent.
 0 Name: 10276 - bk3-step171-1.ldr
@@ -7318,6 +7454,7 @@
 1 19 0 -8 20 0 0 -1 0 1 0 1 0 0 3024.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step171-2.ldr
 0 Small detail element with a minifig roller skate and plates forming a decorative accent.
 0 Name: 10276 - bk3-step171-2.ldr
@@ -7335,6 +7472,7 @@
 1 19 0 -8 20 0 0 -1 0 1 0 1 0 0 3024.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step180.ldr
 0 Small element with open-stud round plates, a plate, and an edge-stud plate.
 0 Name: 10276 - bk3-step180.ldr
@@ -7353,6 +7491,7 @@
 1 19 10 -24 10 0 0 1 0 1 0 -1 0 0 33909.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step180-2.ldr
 0 Small element with open-stud round plates, a plate, and an edge-stud plate.
 0 Name: 10276 - bk3-step180-2.ldr
@@ -7371,6 +7510,7 @@
 1 19 -10 -24 10 0 0 -1 0 1 0 1 0 0 33909.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step183.ldr
 0 Tan element with a long tile, door-rail plates, and round plates forming a railing detail.
 0 Name: 10276 - bk3-step183.ldr
@@ -7394,6 +7534,7 @@
 1 19 -50 16 0 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step184.ldr
 0 Structural tan element with a plate, double-corner panel, corner bricks, door-rail plates, and a long plate.
 0 Name: 10276 - bk3-step184.ldr
@@ -7419,6 +7560,7 @@
 1 19 0 -32 10 1 0 0 0 1 0 0 0 1 3710.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step185.ldr
 0 Arched tan element with embossed brick, open-stud round plates, and tall bricks forming a window surround.
 0 Name: 10276 - bk3-step185.ldr
@@ -7451,6 +7593,7 @@
 1 19 30 24 0 1 0 0 0 1 0 0 0 1 14716.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step188.ldr
 0 Tan element with a brick, slope, and multiple small slopes forming a roof detail.
 0 Name: 10276 - bk3-step188.ldr
@@ -7471,6 +7614,7 @@
 1 19 10 0 0 0 0 1 0 1 0 -1 0 0 54200.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step189-197.ldr
 0 Detailed architectural element with embossed bricks, clip plates, scroll bricks, centre-stud plates, a rotor, and a grooved tile forming an ornate decorated section.
 0 Name: 10276 - bk3-step189-197.ldr
@@ -7532,6 +7676,7 @@
 1 19 0 -112 0 1 0 0 0 1 0 0 0 1 32124.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step199.ldr
 0 Dark tan and tan decorative element with plates, grooved tiles, slope brick, round plates, and offset plate.
 0 Name: 10276 - bk3-step199.ldr
@@ -7568,6 +7713,7 @@
 1 19 0 8 70 0 0 -1 0 1 0 1 0 0 3024.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step201-254.ldr
 0 Large complex architectural section with arches, plates, panels, slopes, ball/socket joints, embossed bricks, axlehole plates, tall bricks, grooved tiles, and a slope with stud holder forming an elaborate arcade section.
 0 Name: 10276 - bk3-step201-254.ldr
@@ -7779,6 +7925,7 @@
 1 19 -50 -408 0 1 0 0 0 1 0 0 0 1 10276 - bk3-step240-253.ldr
 
 
+0 STEP
 0 FILE 10276 - bk3-step233.ldr
 0 Small tan detail with side-stud brick, brick, and round plate.
 0 Name: 10276 - bk3-step233.ldr
@@ -7794,6 +7941,7 @@
 1 19 0 40 0 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step238.ldr
 0 Small tan element with open-stud round plates, plates, and a brick.
 0 Name: 10276 - bk3-step238.ldr
@@ -7813,6 +7961,7 @@
 1 19 0 -40 0 1 0 0 0 1 0 0 0 1 3004.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step240-253.ldr
 0 Detailed architectural element with plates, embossed bricks, door-rail plates, window panels, clip plates, scroll bricks, rotor, slope bricks, and centre-stud plates forming a decorated section.
 0 Name: 10276 - bk3-step240-253.ldr
@@ -7898,6 +8047,7 @@
 1 19 0 -176 10 -1 0 0 0 1 0 0 0 -1 32124.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step254-435.ldr
 0 Collection of five arched window panels forming a repeated arcade window element.
 0 Name: 10276 - bk3-step254-435.ldr
@@ -7936,6 +8086,7 @@
 1 19 -50 -8 -290 1 0 0 0 1 0 0 0 1 90195.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step256-317.ldr
 0 Large complex architectural section with arches, plates, panels, slopes, ball/socket joints, embossed bricks, corner tiles, axlehole plates, tall bricks, and chamfered tiles forming an elaborate arcade section.
 0 Name: 10276 - bk3-step256-317.ldr
@@ -8183,6 +8334,7 @@
 1 19 0 -528 -2 0 0 -1 -1 0 0 0 1 0 96910.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step305.ldr
 0 Tan element with a brick, plate, slope with stud holder, and small slopes forming a roof detail.
 0 Name: 10276 - bk3-step305.ldr
@@ -8203,6 +8355,7 @@
 1 19 30 -72 10 -1 0 0 0 1 0 0 0 -1 54200.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step255.ldr
 0 Hinged tan element with hinge plates and grooved tiles.
 0 Name: 10276 - bk3-step255.ldr
@@ -8220,6 +8373,7 @@
 1 19 0 0 0 0.982 0 -0.189 0 1 0 0.189 0 0.982 2429.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step320.ldr
 0 Small tan element with a tile and round plate.
 0 Name: 10276 - bk3-step320.ldr
@@ -8233,6 +8387,7 @@
 1 19 0 8 0 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step321-369.ldr
 0 Large complex architectural section with arches, plates, panels, slopes, ball/socket joints, embossed bricks, axlehole plates, tall bricks, and grooved tiles forming an elaborate arcade section.
 0 Name: 10276 - bk3-step321-369.ldr
@@ -8426,6 +8581,7 @@
 1 19 -50 -408 0 1 0 0 0 1 0 0 0 1 10276 - bk3-step358-369.ldr
 
 
+0 STEP
 0 FILE 10276 - bk3-step358-369.ldr
 0 Detailed architectural element with plates, embossed bricks, door-rail plates, window panels, clip plates, slope bricks, and a round-end plate forming a decorated section.
 0 Name: 10276 - bk3-step358-369.ldr
@@ -8498,6 +8654,7 @@
 1 19 20 -160 10 1 0 0 0 1 0 0 0 1 35480.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step372.ldr
 0 Hinged dark tan and tan element with hinge plates, slope brick, round-end plate, and grooved tiles.
 0 Name: 10276 - bk3-step372.ldr
@@ -8523,6 +8680,7 @@
 1 19 -11.364 -8 8.417 0.989 0 -0.147 0 1 0 0.147 0 0.989 3070b.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step374-433.ldr
 0 Large complex architectural section with arches, plates, panels, slopes, ball/socket joints, embossed bricks, corner tiles, axlehole plates, tall bricks, and chamfered tiles forming an elaborate arcade section.
 0 Name: 10276 - bk3-step374-433.ldr
@@ -8762,6 +8920,7 @@
 1 19 0 -468 -2 0 0 -1 -1 0 0 0 1 0 96910.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step421.ldr
 0 Structural tan element with plates, double-corner panel, corner bricks, door-rail plates, and slope bricks.
 0 Name: 10276 - bk3-step421.ldr
@@ -8794,6 +8953,7 @@
 1 19 0 -40 0 -1 0 0 0 1 0 0 0 -1 3020.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step422-429.ldr
 0 Detailed architectural element with embossed bricks, clip plates, bricks, centre-stud plates, slope bricks, round-end plate, and offset plate forming a decorated section.
 0 Name: 10276 - bk3-step422-429.ldr
@@ -8848,6 +9008,7 @@
 1 19 -30 -72 0 0 0 1 0 1 0 -1 0 0 54200.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step432.ldr
 0 Dark tan and tan decorative element with plates, grooved tiles, offset plate, and round plate.
 0 Name: 10276 - bk3-step432.ldr
@@ -8874,6 +9035,7 @@
 1 19 0 8 30 0 0 -1 0 1 0 1 0 0 6141.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step439-487.ldr
 0 Large complex architectural section with arches, plates, panels, slopes, ball/socket joints, embossed bricks, axlehole plates, tall bricks, and grooved tiles forming an elaborate arcade section.
 0 Name: 10276 - bk3-step439-487.ldr
@@ -9062,6 +9224,7 @@
 1 19 -50 -408 0 1 0 0 0 1 0 0 0 1 10276 - bk3-step474-486.ldr
 
 
+0 STEP
 0 FILE 10276 - bk3-step474-486.ldr
 0 Detailed architectural element with plates, embossed bricks, door-rail plates, window panels, clip plates, scroll bricks, rotor, slope bricks, and centre-stud plates forming a decorated section.
 0 Name: 10276 - bk3-step474-486.ldr
@@ -9143,6 +9306,7 @@
 1 19 0 -176 10 -1 0 0 0 1 0 0 0 -1 32124.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step488-547.ldr
 0 Large complex architectural section with arches, plates, panels, slopes, ball/socket joints, embossed bricks, corner tiles, axlehole plates, tall bricks, and chamfered tiles forming an elaborate arcade section.
 0 Name: 10276 - bk3-step488-547.ldr
@@ -9383,6 +9547,7 @@
 1 19 0 -528 -2 0 0 -1 -1 0 0 0 1 0 96910.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step535.ldr
 0 Structural tan element with plates, double-corner panel, corner bricks, door-rail plates, brick, and slope bricks.
 0 Name: 10276 - bk3-step535.ldr
@@ -9418,6 +9583,7 @@
 1 19 -20 -40 10 -1 0 0 0 1 0 0 0 -1 85984.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step548-bk4-stepXXX.ldr
 0 Collection of six arched window panels with slope bricks forming a repeated arcade window element.
 0 Name: 10276 - bk3-step548-bk4-stepXXX.ldr
@@ -9456,6 +9622,7 @@
 1 19 105.685 -84 -235.303 0.982 0 0.189 0 1 0 -0.189 0 0.982 85984.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step549.ldr
 0 Hinged tan element with hinge plates and grooved tiles.
 0 Name: 10276 - bk3-step549.ldr
@@ -9473,6 +9640,7 @@
 1 19 0 0 0 0.982 0 -0.189 0 1 0 0.189 0 0.982 2429.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step550-595.ldr
 0 Large complex architectural section with arches, plates, panels, slopes, ball/socket joints, embossed bricks, axlehole plates, tall bricks, and grooved tiles forming an elaborate arcade section.
 0 Name: 10276 - bk3-step550-595.ldr
@@ -9661,6 +9829,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10276 - bk3-step585-594.ldr
 0 Detailed architectural element with embossed bricks, plates, door-rail plates, corner plates, slope bricks with solid studs, scroll brick, and centre-stud plates forming a decorated corner section.
 0 Name: 10276 - bk3-step585-594.ldr
@@ -9729,6 +9898,7 @@
 1 28 20 -168 -10 -1 0 0 0 1 0 0 0 -1 15573.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step589-1.ldr
 0 Pair of tan 1x2 bricks.
 0 Name: 10276 - bk3-step589-1.ldr
@@ -9742,6 +9912,7 @@
 1 19 0 -24 0 1 0 0 0 1 0 0 0 1 3004.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step589-2.ldr
 0 Tan element with round-end plates, plates, clip plate, and round plate.
 0 Name: 10276 - bk3-step589-2.ldr
@@ -9765,6 +9936,7 @@
 1 19 0 -40 0 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 10276 - bk3-step597.ldr
 0 Hinged tan element with corner plate, hinge plates, and grooved tiles.
 0 Name: 10276 - bk3-step597.ldr
@@ -9786,6 +9958,7 @@
 1 19 -11.712 -8 7.929 0.982 0 -0.189 0 1 0 0.189 0 0.982 3070b.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step1-46.ldr
 0 Large complex architectural section with arches, plates, panels, slopes, half-arch bricks, ball/socket joints, embossed bricks, corner tiles, slope bricks with solid studs, axlehole plates, tall bricks, and a grooved tile forming an elaborate arcade section.
 0 Name: 10276 - bk4-step1-46.ldr
@@ -10044,6 +10217,7 @@
 1 19 -20 -408 30 0 0 1 0 1 0 -1 0 0 14719.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step11.ldr
 0 Detailed tan element with centre-stud plate, bricks, dark tan plates, round plates, and an arch forming a window surround.
 0 Name: 10276 - bk4-step11.ldr
@@ -10076,6 +10250,7 @@
 1 19 0 -80 0 1 0 0 0 1 0 0 0 1 3659.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step14-21.ldr
 0 Detailed architectural element with embossed bricks, arches, round-end plates, corner plates, tall bricks, half-arch bricks, edge-stud plate, and slope bricks forming a decorated wall section.
 0 Name: 10276 - bk4-step14-21.ldr
@@ -10138,6 +10313,7 @@
 1 19 80 -80 -10 -1 0 0 0 1 0 0 0 -1 54200.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step45.ldr
 0 Small element with a door-rail plate and round plate.
 0 Name: 10276 - bk4-step45.ldr
@@ -10151,6 +10327,7 @@
 1 19 -10 8 0 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step50.ldr
 0 Hinged tan and dark tan element with hinge plates, slope brick, round-end plate, and grooved tiles.
 0 Name: 10276 - bk4-step50.ldr
@@ -10176,6 +10353,7 @@
 1 19 -14.057 -8 1.569 0.624 0 0.781 0 1 0 -0.781 0 0.624 3070b.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step52-114.ldr
 0 Large complex architectural section with arches, plates, panels, slopes, ball/socket joints, embossed bricks, corner tiles, axlehole plates, tall bricks, and chamfered tiles forming an elaborate arcade section.
 0 Name: 10276 - bk4-step52-114.ldr
@@ -10433,6 +10611,7 @@
 1 19 0 -528 -2 0 0 -1 -1 0 0 0 1 0 96910.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step102.ldr
 0 Tan element with a brick, slope, and small slopes forming a roof detail.
 0 Name: 10276 - bk4-step102.ldr
@@ -10451,6 +10630,7 @@
 1 19 30 0 0 -1 0 0 0 1 0 0 0 -1 54200.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step103-111.ldr
 0 Detailed architectural element with embossed bricks, clip plates, scroll bricks, centre-stud plates, a rotor, and a grooved tile forming an ornate decorated section.
 0 Name: 10276 - bk4-step103-111.ldr
@@ -10512,6 +10692,7 @@
 1 19 0 -112 0 1 0 0 0 1 0 0 0 1 32124.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step115-167.ldr
 0 Large complex architectural section with arches, plates, panels, slopes, ball/socket joints, embossed bricks, axlehole plates, tall bricks, grooved tiles, and a slope with stud holder forming an elaborate arcade section.
 0 Name: 10276 - bk4-step115-167.ldr
@@ -10728,6 +10909,7 @@
 1 28 -60 -456 -50 1 0 0 0 1 0 0 0 1 63864.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step153-164.ldr
 0 Detailed architectural element with plates, embossed bricks, door-rail plates, window panels, clip plates, scroll bricks, rotor, slope bricks, and centre-stud plates forming a decorated section.
 0 Name: 10276 - bk4-step153-164.ldr
@@ -10809,6 +10991,7 @@
 1 19 0 -176 10 -1 0 0 0 1 0 0 0 -1 32124.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step168-XXX.ldr
 0 Collection of five arched window panels forming a repeated arcade window element.
 0 Name: 10276 - bk4-step168-XXX.ldr
@@ -10851,6 +11034,7 @@
 1 19 264.683 -8 -355.412 0.83 0 0.558 0 1 0 -0.558 0 0.83 90195.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step170-230.ldr
 0 Large complex architectural section with arches, plates, panels, slopes, ball/socket joints, embossed bricks, corner tiles, axlehole plates, tall bricks, and chamfered tiles forming an elaborate arcade section.
 0 Name: 10276 - bk4-step170-230.ldr
@@ -11104,6 +11288,7 @@
 1 19 0 -528 -2 0 0 -1 -1 0 0 0 1 0 96910.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step218-228.ldr
 0 Detailed architectural element with embossed bricks, clip plates, scroll bricks, centre-stud plates, a rotor, slope bricks, and a grooved tile forming an ornate decorated section.
 0 Name: 10276 - bk4-step218-228.ldr
@@ -11174,6 +11359,7 @@
 1 19 0 -112 0 1 0 0 0 1 0 0 0 1 32124.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step234-284.ldr
 0 Large complex architectural section with arches, plates, panels, slopes, ball/socket joints, embossed bricks, axlehole plates, tall bricks, and grooved tiles forming an elaborate arcade section.
 0 Name: 10276 - bk4-step234-284.ldr
@@ -11367,6 +11553,7 @@
 1 19 -50 -408 0 1 0 0 0 1 0 0 0 1 10276 - bk4-step271-283.ldr
 
 
+0 STEP
 0 FILE 10276 - bk4-step271-283.ldr
 0 Detailed architectural element with plates, embossed bricks, door-rail plates, window panels, clip plates, scroll bricks, rotor, slope bricks, and centre-stud plates forming a decorated section.
 0 Name: 10276 - bk4-step271-283.ldr
@@ -11446,6 +11633,7 @@
 1 19 0 -176 10 1 0 0 0 1 0 0 0 1 32124.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step288-347.ldr
 0 Large complex architectural section with arches, plates, panels, slopes, ball/socket joints, embossed bricks, corner tiles, axlehole plates, tall bricks, and chamfered tiles forming an elaborate arcade section.
 0 Name: 10276 - bk4-step288-347.ldr
@@ -11683,6 +11871,7 @@
 1 19 0 -468 -2 0 0 -1 -1 0 0 0 1 0 96910.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step334-343.ldr
 0 Detailed architectural element with plates, embossed bricks, clip plates, scroll bricks, corner bricks, double-corner panel, door-rail plates, slope bricks, and a chamfered tile forming a decorated section.
 0 Name: 10276 - bk4-step334-343.ldr
@@ -11753,6 +11942,7 @@
 1 19 20 -120 -10 1 0 0 0 1 0 0 0 1 96910.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step349.ldr
 0 Small tan and dark tan element with scroll bricks, plates, grooved tile, and slope brick.
 0 Name: 10276 - bk4-step349.ldr
@@ -11783,6 +11973,7 @@
 1 19 0 0 0 1 0 0 0 1 0 0 0 1 10276 - bk4-step286.ldr
 
 
+0 STEP
 0 FILE 10276 - bk4-step355-399.ldr
 0 Large complex architectural section with arches, plates, panels, slopes, ball/socket joints, embossed bricks, axlehole plates, tall bricks, and grooved tiles forming an elaborate arcade section.
 0 Name: 10276 - bk4-step355-399.ldr
@@ -11971,6 +12162,7 @@
 1 19 -50 -408 0 1 0 0 0 1 0 0 0 1 10276 - bk4-step390-398.ldr
 
 
+0 STEP
 0 FILE 10276 - bk4-step390-398.ldr
 0 Detailed architectural element with plates, embossed bricks, door-rail plates, window panels, clip plates, slope bricks, and a chamfered tile forming a decorated section.
 0 Name: 10276 - bk4-step390-398.ldr
@@ -12032,6 +12224,7 @@
 1 19 20 -120 10 -1 0 0 0 1 0 0 0 -1 96910.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step400-468.ldr
 0 Large complex architectural section with arches, plates, panels, slopes, ball/socket joints, embossed bricks, corner tiles, axlehole plates, tall bricks, and chamfered tiles forming an elaborate arcade section.
 0 Name: 10276 - bk4-step400-468.ldr
@@ -12284,6 +12477,7 @@
 1 19 0 -528 -2 0 0 -1 -1 0 0 0 1 0 96910.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step433.ldr
 0 Small tan element with bricks, plate, and rounded-corner panel.
 0 Name: 10276 - bk4-step433.ldr
@@ -12301,6 +12495,7 @@
 1 19 0 -56 0 1 0 0 0 1 0 0 0 1 4865b.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step443.ldr
 0 Small tan element with bricks and rounded-corner panel.
 0 Name: 10276 - bk4-step443.ldr
@@ -12316,6 +12511,7 @@
 1 19 0 -48 0 1 0 0 0 1 0 0 0 1 4865b.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step452-465.ldr
 0 Detailed architectural element with plates, embossed bricks, clip plates, scroll bricks, centre-stud plates, a rotor, corner bricks, double-corner panel, door-rail plates, slope bricks, tall brick, and grooved tiles forming an ornate decorated section.
 0 Name: 10276 - bk4-step452-465.ldr
@@ -12410,6 +12606,7 @@
 1 19 -40 -192 -10 0 0 -1 0 1 0 1 0 0 3070b.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step469-XXX.ldr
 0 Collection of six arched window panels with slope bricks forming a repeated arcade window element.
 0 Name: 10276 - bk4-step469-XXX.ldr
@@ -12446,6 +12643,7 @@
 1 19 -99.508 -80 -115.41 0.984 0 -0.18 0 1 0 0.18 0 0.984 85984.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step470.ldr
 0 Small tan element with scroll bricks, plates, tile, and slope brick.
 0 Name: 10276 - bk4-step470.ldr
@@ -12476,6 +12674,7 @@
 1 19 0 0 0 1 0 0 0 1 0 0 0 1 10276 - bk3-step255.ldr
 
 
+0 STEP
 0 FILE 10276 - bk4-step472-521.ldr
 0 Large complex architectural section with many arches, plates, bricks, panels, ball/socket joints, embossed bricks, slope bricks with solid studs, and tall bricks forming an elaborate multi-arch arcade facade.
 0 Name: 10276 - bk4-step472-521.ldr
@@ -12773,6 +12972,7 @@
 1 19 -70 -520 120 0 0 -1 0 1 0 1 0 0 10276 - bk4-step521.ldr
 
 
+0 STEP
 0 FILE 10276 - bk4-step484-492.ldr
 0 Architectural element with plates, embossed bricks, bricks, arches, slope bricks with solid studs, and half-arch bricks forming a decorated corner section.
 0 Name: 10276 - bk4-step484-492.ldr
@@ -12845,6 +13045,7 @@
 1 19 30 -104 10 0 0 -1 0 1 0 1 0 0 38585.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step487.ldr
 0 Small dark tan and tan plate element.
 0 Name: 10276 - bk4-step487.ldr
@@ -12860,6 +13061,7 @@
 1 19 10 -16 0 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step517.ldr
 0 Small element with axlehole plate, ball joint plate, and plates for connection.
 0 Name: 10276 - bk4-step517.ldr
@@ -12880,6 +13082,7 @@
 1 19 10 -16 0 0 0 1 0 1 0 -1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step519.ldr
 0 Small tan element with round-end plates, plate, and bricks.
 0 Name: 10276 - bk4-step519.ldr
@@ -12899,6 +13102,7 @@
 1 19 0 0 0 1 0 0 0 1 0 0 0 1 3004.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step521.ldr
 0 Small tan element with plates and a slope brick.
 0 Name: 10276 - bk4-step521.ldr
@@ -12914,6 +13118,7 @@
 1 19 0 -8 0 1 0 0 0 1 0 0 0 1 85984.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step523-546.ldr
 0 Large arched architectural section with arches, plates, panels, ball/socket joints, slopes, socket joint squares, embossed bricks, and axlehole plates forming an elaborate arcade section.
 0 Name: 10276 - bk4-step523-546.ldr
@@ -13069,6 +13274,7 @@
 1 19 -40 -280 30 1 0 0 0 1 0 0 0 1 10276 - bk2-step221.ldr
 
 
+0 STEP
 0 FILE 10276 - bk4-step286.ldr
 0 Hinged tan element with hinge plates and grooved tiles.
 0 Name: 10276 - bk4-step286.ldr
@@ -13086,6 +13292,7 @@
 1 19 0 0 0 0.989 0 -0.147 0 1 0 0.147 0 0.989 2429.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step550.ldr
 0 Hinged tan element with hinge plates, slopes, and small slopes.
 0 Name: 10276 - bk4-step550.ldr
@@ -13107,6 +13314,7 @@
 1 19 -26.348 -24 -17.486 -0.788 0 -0.616 0 1 0 0.616 0 -0.788 54200.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step551-1.ldr
 0 Window element with bricks, a tile, and a window frame.
 0 Name: 10276 - bk4-step551-1.ldr
@@ -13125,6 +13333,7 @@
 1 19 30 -24 0 1 0 0 0 1 0 0 0 1 60592.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step551-2.ldr
 0 Window element with bricks, a tile, and a window frame.
 0 Name: 10276 - bk4-step551-2.ldr
@@ -13143,6 +13352,7 @@
 1 19 -30 -24 0 1 0 0 0 1 0 0 0 1 60592.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step552.ldr
 0 Window element with a grooved tile, window frame, and bricks.
 0 Name: 10276 - bk4-step552.ldr
@@ -13165,6 +13375,7 @@
 1 19 -30 24 0 1 0 0 0 1 0 0 0 1 3005.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step553-1.ldr
 0 Window element with a dark tan plate, window frame, bricks, and a grooved tile.
 0 Name: 10276 - bk4-step553-1.ldr
@@ -13190,6 +13401,7 @@
 1 19 -30 -48 0 1 0 0 0 1 0 0 0 1 3005.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step553-2.ldr
 0 Window element with dark tan plate, bricks, embossed brick, and a grooved tile.
 0 Name: 10276 - bk4-step553-2.ldr
@@ -13210,6 +13422,7 @@
 1 19 0 -56 0 1 0 0 0 1 0 0 0 1 2431.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step554-1.ldr
 0 Window element with dark tan plate, bricks, embossed brick, and a grooved tile.
 0 Name: 10276 - bk4-step554-1.ldr
@@ -13230,6 +13443,7 @@
 1 19 0 -56 0 1 0 0 0 1 0 0 0 1 2431.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step554-2.ldr
 0 Small tan element with bricks and a grooved tile.
 0 Name: 10276 - bk4-step554-2.ldr
@@ -13245,6 +13459,7 @@
 1 19 0 -32 0 1 0 0 0 1 0 0 0 1 3070b.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step554-3.ldr
 0 Small tan element with dark tan plate, plates, slope, small slopes, and a grooved tile.
 0 Name: 10276 - bk4-step554-3.ldr
@@ -13269,6 +13484,7 @@
 1 19 10 -8 0 0 0 1 0 1 0 -1 0 0 3070b.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step555-1.ldr
 0 Small dark tan plate with a grooved tile element.
 0 Name: 10276 - bk4-step555-1.ldr
@@ -13282,6 +13498,7 @@
 1 19 0 -8 0 1 0 0 0 1 0 0 0 1 2431.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step555-2.ldr
 0 Small dark tan and tan element with plates, small slopes, and a grooved tile.
 0 Name: 10276 - bk4-step555-2.ldr
@@ -13311,6 +13528,7 @@
 1 19 -30 -8 0 0 0 1 0 1 0 -1 0 0 3070b.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step556-1.ldr
 0 Small dark tan and tan element with plates, slope, brick, grooved tiles, and a small slope.
 0 Name: 10276 - bk4-step556-1.ldr
@@ -13336,6 +13554,7 @@
 1 19 10 -32 0 0 0 1 0 1 0 -1 0 0 3070b.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step556-2.ldr
 0 Small dark tan and tan element with plates, slopes, brick, and grooved tiles.
 0 Name: 10276 - bk4-step556-2.ldr
@@ -13359,6 +13578,7 @@
 1 19 30 -8 0 0 0 1 0 1 0 -1 0 0 3070b.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step557.ldr
 0 Small green tree element with a cone on an open-stud round plate.
 0 Name: 10276 - bk4-step557.ldr
@@ -13372,6 +13592,7 @@
 1 2 0 -24 0 1 0 0 0 1 0 0 0 1 59900.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step558-1.ldr
 0 Small green tree element with a reddish brown bar and green cones.
 0 Name: 10276 - bk4-step558-1.ldr
@@ -13388,6 +13609,7 @@
 1 2 0 -76 0 1 0 0 0 1 0 0 0 1 59900.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step558-2.ldr
 0 Small green tree/cypress element with a reddish brown bar and large green cones.
 0 Name: 10276 - bk4-step558-2.ldr
@@ -13403,6 +13625,7 @@
 1 2 0 -108 0 1 0 0 0 1 0 0 0 1 3942c.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step559.ldr
 0 Small green tree element with a reddish brown bar, green cones, and a green round plate.
 0 Name: 10276 - bk4-step559.ldr
@@ -13424,6 +13647,7 @@
 1 2 0 -108 0 1 0 0 0 1 0 0 0 1 59900.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step560-1.ldr
 0 Small black centre-stud plate with a grooved tile element.
 0 Name: 10276 - bk4-step560-1.ldr
@@ -13437,6 +13661,7 @@
 1 0 0 -8 0 1 0 0 0 1 0 0 0 1 3070b.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step560-2.ldr
 0 Small white centre-stud plate with a grooved tile element.
 0 Name: 10276 - bk4-step560-2.ldr
@@ -13450,6 +13675,7 @@
 1 15 0 -8 0 1 0 0 0 1 0 0 0 1 3070b.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step560-3.ldr
 0 Small bright light yellow centre-stud plate with a grooved tile element.
 0 Name: 10276 - bk4-step560-3.ldr
@@ -13463,6 +13689,7 @@
 1 226 0 -8 0 1 0 0 0 1 0 0 0 1 3070b.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step561-583.ldr
 0 Large decorative upper section with side-stud bricks, slopes, curved slopes, tiles, and cylinders forming an ornate cornice or decorative band with columns.
 0 Name: 10276 - bk4-step561-583.ldr
@@ -13588,6 +13815,7 @@
 1 28 -210 36 0 -1 0 0 0 -1 0 0 0 1 10276 - bk4-step578-582.ldr
 
 
+0 STEP
 0 FILE 10276 - bk4-step574-576.ldr
 0 Detailed tan element with side-stud bricks, tall side-stud bricks, plates, and a slope forming a decorative cluster.
 0 Name: 10276 - bk4-step574-576.ldr
@@ -13629,6 +13857,7 @@
 1 19 0 -424 0 -1 0 0 0 1 0 0 0 -1 54200.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step578-582.ldr
 0 Detailed dark tan and tan element with plates, door-rail plates, round plate, and multiple tiles forming a railing or ledge detail.
 0 Name: 10276 - bk4-step578-582.ldr
@@ -13677,6 +13906,7 @@
 1 28 -320 -16 -20 0 0 -1 0 1 0 1 0 0 63864.dat
 
 
+0 STEP
 0 FILE 10276 - bk4-step579.ldr
 0 Small tan element with a plate and door-rail plates.
 0 Name: 10276 - bk4-step579.ldr
@@ -13695,6 +13925,7 @@
 1 28 60 -8 0 -1 0 0 0 1 0 0 0 -1 32028.dat
 
 
+0 STEP
 0 FILE 10276 - 65803.dat
 0 Primitive geometric subpart defining a box and rectangle shape used as a building block for a custom part.
 0 Name: 10276 - 65803.dat
@@ -13741,6 +13972,7 @@
 1 16 130 0 -150 1 0 0 0 1 0 0 0 1 stud.dat
 1 16 -130 0 -150 1 0 0 0 1 0 0 0 1 stud.dat
 
+0 STEP
 0 FILE 10276 - 20310.dat
 0 Primitive geometric subpart defining cylindrical, ring, disc, and box shapes for a custom moulded element.
 0 Name: 10276 - 20310.dat
@@ -13852,6 +14084,7 @@
 5 24 0.5 13.98762 -17.73238 -0.5 13.98762 -17.73238 1.25 11.537232 -17 0.5 15.49 -19.976021
 5 24 -1.25 11.537232 -17 1.25 11.537232 -17 2.75 8.3 -17 0.5 13.98762 -17.73238
 
+0 STEP
 0 FILE 10276 - 2454b.dat
 0 Empty reference subpart (no direct pieces).
 0 Name: 10276 - 2454b.dat
@@ -13866,6 +14099,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\10276 - 2454bs01.dat
 4 16 20 0 -10 -20 0 -10 -20 120 -10 20 120 -10
 
+0 STEP
 0 FILE s\10276 - 65803s01.dat
 0 Primitive geometric subpart defining rectangles, boxes, cylinders, and rings for part geometry.
 0 Name: s\10276 - 65803s01.dat
@@ -13932,6 +14166,7 @@
 0 // ~Ring 10 x 0.25 (Obsolete) (main_colour)
 1 16 50 8 50 0 0 -1 0 -1 0 -1 0 0 1-4rin10.dat
 
+0 STEP
 0 FILE s\10276 - 65803s03.dat
 0 Primitive geometric subpart defining cylinder joints, peg holes, discs, and rectangles for part geometry.
 0 Name: s\10276 - 65803s03.dat
@@ -13993,6 +14228,7 @@
 0 // Rectangle with 3 Edges (main_colour)
 1 16 0 16 -8 6 0 0 0 0 -2 0 1 0 rect3.dat
 
+0 STEP
 0 FILE s\10276 - 65803s02.dat
 0 Primitive geometric subpart defining boxes and rectangles for part geometry.
 0 Name: s\10276 - 65803s02.dat
@@ -14082,6 +14318,7 @@
 0 // Box with  3 Faces without  5 Edges (main_colour)
 1 16 95 4 40 -45 0 0 0 4 0 0 0 1 box3u5p.dat
 
+0 STEP
 0 FILE s\10276 - 20310s01.dat
 0 Primitive geometric subpart defining spiral sections, grooves, side walls, and conditional lines for a detailed moulded part.
 0 Name: s\10276 - 20310s01.dat
@@ -14498,6 +14735,7 @@
 5 24 8.7 8.0315 -13.5174 8.4 6.3783 -16.361799 8.5 8.3 -16.77 8.6 7.253 -12.997
 5 24 8.4 6.3783 -16.361799 8.6 7.253 -12.997 8.7 8.0315 -13.5174 8.3 4.7838 -15.2262
 
+0 STEP
 0 FILE s\10276 - 2454bs01.dat
 0 Primitive geometric subpart defining rectangles for part geometry.
 0 Name: s\10276 - 2454bs01.dat
@@ -14526,6 +14764,7 @@
 2 24 7 4 6 7 120 6
 2 24 -7 4 6 -7 120 6
 
+0 STEP
 0 FILE s\10276 - 2454s02.dat
 0 Primitive geometric subpart defining boxes with face and edge configurations for part geometry.
 0 Name: s\10276 - 2454s02.dat

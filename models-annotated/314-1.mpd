@@ -109,6 +109,7 @@
 0 // Boat Section Stern  6 x  6 x  3.333 with Light Grey Deck (black)
 1 0 0 0 140 1 0 0 0 1 0 0 0 1 164c01.dat
 
+0 STEP
 0 FILE 314 - x139a.dat
 0 A weighted boat keel component with a bottom tab, featuring a cylindrical shaft and stud details.
 0 Name: 314 - x139a.dat
@@ -125,6 +126,7 @@
 1 16 0 80 0 1 0 0 0 1 0 0 0 1 s\314 - x139s03.dat
 1 16 0 80 0 -1 0 0 0 1 0 0 0 -1 s\314 - x139s03.dat
 
+0 STEP
 0 FILE s\314 - x139s01.dat
 0 A half-section of a boat keel form built from rings, circles, cylinders, and sloped cylinder primitives.
 0 Name: s\314 - x139s01.dat
@@ -423,6 +425,7 @@
 2 24 11.476 2 -64.294 12.296 2 -64.457
 2 24 12.296 2 -64.457 14.243 2 -65.757
 
+0 STEP
 0 FILE s\314 - x139s03.dat
 0 A weighted half-section of the boat keel with a bottom tab, constructed from cylinders, discs, and a sphere.
 0 Name: s\314 - x139s03.dat
@@ -514,6 +517,7 @@
 2 24 -3 25.106 -25 -3 25.243 -25.632
 2 24 -3 25.243 -25.632 -3 25.549 -26.913
 
+0 STEP
 0 FILE s\314 - x139s02.dat
 0 A smooth half-form of the boat keel built from cylinders, chords, and a circle primitive.
 0 Name: s\314 - x139s02.dat

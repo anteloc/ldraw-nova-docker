@@ -898,6 +898,7 @@
 
 
 
+0 STEP
 0 FILE 5767 - Steering shaft horizontal.ldr
 0 A horizontal Technic steering linkage using axles, joiners, gears, and bevel gears to transmit rotational motion.
 0 Name: 5767 - Steering shaft horizontal.ldr
@@ -935,6 +936,7 @@
 
 
 
+0 STEP
 0 FILE 5767 - Steering shaft vertical.ldr
 0 A vertical Technic steering column assembly with bevel gear, axle, bushes, and mounting plates for transferring steering motion.
 0 Name: 5767 - Steering shaft vertical.ldr
@@ -963,6 +965,7 @@
 
 
 
+0 STEP
 0 FILE 5767 - Front seat.ldr
 0 A pair of front seats built from white and blue plates with hinge plates and sloped backs.
 0 Name: 5767 - Front seat.ldr
@@ -1013,6 +1016,7 @@
 
 
 
+0 STEP
 0 FILE 5767 - Right door.ldr
 0 A yellow hinged vehicle door with sloped detailing and a black trim strip built from plates and bricks.
 0 Name: 5767 - Right door.ldr
@@ -1069,6 +1073,7 @@
 
 
 
+0 STEP
 0 FILE 5767 - Left door.ldr
 0 A yellow hinged vehicle door mirroring the right side, with sloped detailing and a black trim strip built from plates and bricks.
 0 Name: 5767 - Left door.ldr
@@ -1126,6 +1131,7 @@
 
 
 
+0 STEP
 0 FILE 5767 - Instrument panel.ldr
 0 A dashboard assembly with a steering wheel, printed gauge tile, grille vent, and hinged mounting plates.
 0 Name: 5767 - Instrument panel.ldr
@@ -1171,6 +1177,7 @@
 
 
 
+0 STEP
 0 FILE 5767 - Engine hood.ldr
 0 A curved yellow engine hood with sloped panels, framing plates, and clip attachments.
 0 Name: 5767 - Engine hood.ldr
@@ -1216,6 +1223,7 @@
 
 
 
+0 STEP
 0 FILE 5767 - Windscreen.ldr
 0 A hinged windscreen assembly made from dark bluish grey and black plates, tiles, and hinge elements.
 0 Name: 5767 - Windscreen.ldr

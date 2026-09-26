@@ -33,6 +33,7 @@
 1 484 -58.46 -15.696 -12 0.966 -0.259 0 0.259 0.966 0 0 0 1 7209 - Wing Right.ldr
 1 70 0 -8 -92 1 0 0 0 1 0 0 0 1 7209 - Head.ldr
 
+0 STEP
 0 FILE 7209 - Wing Left.ldr
 0 A left-facing wing assembly using a 2x4 wing element, support plate, and locking hinge connector.
 0 Name: 7209 - Wing Left.ldr
@@ -47,6 +48,7 @@
 0 // Wing  2 x  4 Left (reddish_brown)
 1 70 -60 -16 -30 0 0 1 0 1 0 -1 0 0 41770.dat
 
+0 STEP
 0 FILE 7209 - Wing Right.ldr
 0 A right-facing wing assembly using a 2x4 wing element, support plate, and locking hinge connector.
 0 Name: 7209 - Wing Right.ldr
@@ -61,6 +63,7 @@
 0 // Wing  2 x  4 Right (reddish_brown)
 1 70 -60 -16 30 0 0 1 0 1 0 -1 0 0 41769.dat
 
+0 STEP
 0 FILE 7209 - Head.ldr
 0 A detailed dino head built from sloped bricks and plates in tan, dark orange, and dark red, mounted on a locking hinge.
 0 Name: 7209 - Head.ldr

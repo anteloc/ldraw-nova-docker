@@ -17,6 +17,7 @@
 1 0 -140 0 42.68 0.5 0 0.866 0 1 0 -0.866 0 0.5 6348 - policemen 2.ldr
 1 0 -109.999 0 180 0 0 1 0 1 0 -1 0 0 6348 - policemen 3.ldr
 
+0 STEP
 0 FILE 6348 - truck.ldr
 0 A black and grey truck cab built with plates, technic elements, wheel pins, and brackets, with red and clear light details.
 0 Name: 6348 - truck.ldr
@@ -235,6 +236,7 @@
 0 // Tile  1 x  2 Grille with Groove (white)
 1 15 0 -152 -150 1 0 0 0 1 0 0 0 1 2412b.dat
 
+0 STEP
 0 FILE 6348 - trailer.ldr
 0 A large white trailer chassis constructed from plates, turntables, and hinge plates with black and grey accent parts.
 0 Name: 6348 - trailer.ldr
@@ -576,6 +578,7 @@
 0 // Sticker  1.0 x  3.8 with White "POLICE" and Red Line on Black (red)
 1 4 -59.997 -110.003 320 0 1 0 0 0 -1 -1 0 0 170872a.dat
 
+0 STEP
 0 FILE 6348 - trailer - back door.ldr
 0 A white rear door assembly using a hinged sunroof panel, glass, and grooved tiles.
 0 Name: 6348 - trailer - back door.ldr
@@ -608,6 +611,7 @@
 0 STEP
 0 STEP
 
+0 STEP
 0 FILE 6348 - trailer - back door ladder.ldr
 0 A light grey window bar serving as a back door ladder.
 0 Name: 6348 - trailer - back door ladder.ldr
@@ -620,6 +624,7 @@
 0 // Bar  1 x  4 x  3 Window (light_grey)
 1 7 -30 -2 0 1 0 0 0 0 1 0 -1 0 6016.dat
 
+0 STEP
 0 FILE 6348 - trailer - side door.ldr
 0 A white side door with windowed panels, hinged roof sections, and a yellow round light.
 0 Name: 6348 - trailer - side door.ldr
@@ -668,6 +673,7 @@
 0 STEP
 0 STEP
 
+0 STEP
 0 FILE 6348 - trailer - antenna.ldr
 0 A red turntable-based antenna mount built with technic pins and a holed plate.
 0 Name: 6348 - trailer - antenna.ldr
@@ -711,6 +717,7 @@
 0 STEP
 0 STEP
 
+0 STEP
 0 FILE 6348 - trailer - antenna - top.ldr
 0 A red and grey antenna top with a whip antenna, inverted dishes, and a mounting bracket.
 0 Name: 6348 - trailer - antenna - top.ldr
@@ -754,6 +761,7 @@
 0 // Dish  2 x  2 Inverted (black)
 1 0 0 -57.998 45.996 1 0 0 0 0 -1 0 1 0 4740.dat
 
+0 STEP
 0 FILE 6348 - trailer - floodlight.ldr
 0 A black adjustable floodlight arm with hinged plates and center studs.
 0 Name: 6348 - trailer - floodlight.ldr
@@ -796,6 +804,7 @@
 0 STEP
 0 STEP
 
+0 STEP
 0 FILE 6348 - trailer - floodlight - middle.ldr
 0 A black hinge bar connector forming the middle joint of the floodlight assembly.
 0 Name: 6348 - trailer - floodlight - middle.ldr
@@ -834,6 +843,7 @@
 0 STEP
 0 STEP
 
+0 STEP
 0 FILE 6348 - trailer - floodlight - top.ldr
 0 A light grey floodlight lamp head with six round yellow light elements on a hinged plate.
 0 Name: 6348 - trailer - floodlight - top.ldr
@@ -884,6 +894,7 @@
 0 // Plate  1 x  1 Round (trans_yellow)
 1 46 -20 -19 -21 -1 0 0 0 0 -1 0 -1 0 6141.dat
 
+0 STEP
 0 FILE 6348 - police motorbike.ldr
 0 A white police motorcycle with complete frame, two wheels, red control stick, dark blue and red lights, and POLICE-printed tiles.
 0 Name: 6348 - police motorbike.ldr
@@ -918,6 +929,7 @@
 0 // Wheel Centre with Stub Axles (trans_clear)
 1 47 20.002 16 0 1 0 0 0 1 0 0 0 1 3464.dat
 
+0 STEP
 0 FILE 6348 - road sign 1.ldr
 0 A red cone-based road sign topped with white and yellow round plates.
 0 Name: 6348 - road sign 1.ldr
@@ -934,6 +946,7 @@
 0 // Plate  1 x  1 Round (trans_yellow)
 1 46 0 -64 0 1 0 0 0 1 0 0 0 1 6141.dat
 
+0 STEP
 0 FILE 6348 - road sign 2.ldr
 0 A white post-mounted warning sign featuring a tile with red danger stripes pattern.
 0 Name: 6348 - road sign 2.ldr
@@ -950,6 +963,7 @@
 0 // Tile  1 x  4 with Red Danger Stripes Pattern (white)
 1 15 0 -26.667 -15.333 1 0 0 0 0 -1 0 1 0 2431p02.dat
 
+0 STEP
 0 FILE 6348 - policemen 1.ldr
 0 A policeman minifigure wearing a white helmet with visor, black zippered jacket with police logo, and black legs.
 0 Name: 6348 - policemen 1.ldr
@@ -982,6 +996,7 @@
 0 // ~Minifig Leg Right (Obsolete) (black)
 1 0 0 -28.022 1.818 1 0 0 0 1 0 0 0 1 3816.dat
 
+0 STEP
 0 FILE 6348 - policemen 2.ldr
 0 A policeman minifigure wearing a black cap, black vest torso with police badge, white arms, and black legs.
 0 Name: 6348 - policemen 2.ldr
@@ -1012,6 +1027,7 @@
 0 // ~Minifig Leg Right (Obsolete) (black)
 1 0 0 -28.022 1.818 1 0 0 0 1 0 0 0 1 3816.dat
 
+0 STEP
 0 FILE 6348 - policemen 3.ldr
 0 A policeman minifigure with black hair, moustache, black jacket and tie torso with police badge, and black legs.
 0 Name: 6348 - policemen 3.ldr
@@ -1042,6 +1058,7 @@
 0 // ~Minifig Leg Right (Obsolete) (black)
 1 0 0 -28.022 1.818 1 0 0 0 1 0 0 0 1 3816.dat
 
+0 STEP
 0 FILE 6348 - 4480c01.dat
 0 A complete motorcycle frame sub-assembly combining left side, right side, and forks parts.
 0 Bike 2 Wheel Motorcycle Frame  3 x  6 x  3 (Complete)
@@ -1059,6 +1076,7 @@
 0 // ~Bike  2 Wheel Motorcycle Forks  3 x  6 x  3 (main_colour)
 1 16 0 30 -90 1 0 0 0 0.924 0.383 0 -0.383 0.924 4482.dat
 
+0 STEP
 0 FILE 6348 - 4481.dat
 0 A composite part with cylinders, a rectangle, circles, a patch, pinholes, and a LEGO logo element.
 0 ~Bike 2 Wheel Motorcycle Frame  3 x  6 x  3 - Left Side
@@ -1129,6 +1147,7 @@
 0 // LEGO Logo for Studs - 3D Flattened (main_colour)
 1 16 11 0 -62 0 -1 0 1 0 0 0 0 1 6348 - logo5.dat
 
+0 STEP
 0 FILE 6348 - 4480.dat
 0 A detailed motorcycle frame part composed of geometric primitives including cylinders, rectangles, boxes, and rings.
 0 ~Bike 2 Wheel Motorcycle Frame  3 x  6 x  3 - Right Side
@@ -1300,6 +1319,7 @@
 0 // LEGO Logo for Studs - 3D Flattened (main_colour)
 1 16 -11 0 -62 0 1 0 1 0 0 0 0 -1 6348 - logo5.dat
 
+0 STEP
 0 FILE 6348 - 4481s01.dat
 0 A geometric sub-part made of many rectangles, circles, cylinders, discs, and rings defining a rounded mechanical element.
 0 ~Bike 2 Wheel Motorcycle Frame  3 x  6 x  3 - Left/Right
@@ -2281,6 +2301,7 @@
 5 24 10.531 19.745 -66.111 9 19.862 -66.392 12.017 35.049 -58.398 9 18.331 -66.697
 5 24 7.4 19.862 -63.392 0 19.862 -63.392 0 6.432 -70.213 7.4 34.01 -55.85
 
+0 STEP
 0 FILE 6348 - logo5.dat
 0 An empty submodel containing no direct pieces.
 0 LEGO Logo for Studs - 3D Flattened

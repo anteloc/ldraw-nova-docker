@@ -11,6 +11,7 @@
 1 72 -40 0 -330 0 0 1 0 1 0 -1 0 0 4002020 - Present Presenting Imp Module.ldr
 
 
+0 STEP
 0 FILE 4002020 - Rotating Tree Module.ldr
 0 Main rotating tree module built from large dark tan and black plates and bricks forming a sturdy structural base with Technic holes for the drive mechanism.
 0 Name: 4002020 - Rotating Tree Module.ldr
@@ -242,6 +243,7 @@
 1 0 100 -14 -40 -1 0 0 0 1 0 0 0 -1 2780.dat
 
 
+0 STEP
 0 FILE 4002020 - Rotating Tree Module_Substep_Step-12.ldr
 0 Technic gearbox housing a bevel gear for transferring rotational motion.
 0 Name: 4002020 - Rotating Tree Module_Substep_Step-12.ldr
@@ -255,6 +257,7 @@
 1 19 -17 18 0 0 0 1 -0.259 0.966 0 -0.966 -0.259 0 6589.dat
 
 
+0 STEP
 0 FILE 4002020 - Rotating Tree Module_Substep_Step-13.ldr
 0 Axle and bevel gear assembly with bushings and joiners for drivetrain connection.
 0 Name: 4002020 - Rotating Tree Module_Substep_Step-13.ldr
@@ -283,6 +286,7 @@
 1 16 110 -18 0 1 0 0 0 1 0 0 0 1 4002020 - Rotating Tree Module_Substep_Step-12.ldr
 
 
+0 STEP
 0 FILE 4002020 - Rotating Tree Module_Substep_Step-17.ldr
 0 Perpendicular axle and beam assembly using joiners and a long friction pin to redirect motion.
 0 Name: 4002020 - Rotating Tree Module_Substep_Step-17.ldr
@@ -310,6 +314,7 @@
 1 71 -70 -80 0 0 -1 0 0 0 -1 1 0 0 40490.dat
 
 
+0 STEP
 0 FILE 4002020 - Rotating Tree Module_Substep_Step-18.ldr
 0 Long axle fitted with two reinforced 20-tooth double bevel gears for power transmission.
 0 Name: 4002020 - Rotating Tree Module_Substep_Step-18.ldr
@@ -325,6 +330,7 @@
 1 19 -30 0 0 0 0 1 0 1 0 -1 0 0 18575.dat
 
 
+0 STEP
 0 FILE 4002020 - Rotating Tree Module_Substep_Step-19.ldr
 0 Gearing subassembly using Technic plates, a round grille tile, and a 6-tooth plate gear.
 0 Name: 4002020 - Rotating Tree Module_Substep_Step-19.ldr
@@ -348,6 +354,7 @@
 1 0 0 -48 -20 -1 0 0 0 1 0 0 0 -1 35442.dat
 
 
+0 STEP
 0 FILE 4002020 - Rotating Tree Module_Substep_Step-27.ldr
 0 Two dark bluish grey plates of different lengths used as a structural connecting layer.
 0 Name: 4002020 - Rotating Tree Module_Substep_Step-27.ldr
@@ -361,6 +368,7 @@
 1 72 0 -8 0 -1 0 0 0 1 0 0 0 -1 3666.dat
 
 
+0 STEP
 0 FILE 4002020 - Rotating Tree Module_Substep_Step-29.ldr
 0 Large dark tan base plate with inverted convex slopes forming an angled corner detail.
 0 Name: 4002020 - Rotating Tree Module_Substep_Step-29.ldr
@@ -376,6 +384,7 @@
 1 72 -50 -8 -10 -1 0 0 0 -1 0 0 0 1 3676.dat
 
 
+0 STEP
 0 FILE 4002020 - Rotating Tree Module_Substep_Step-30.ldr
 0 Tan Technic brick and light bluish grey plate forming a small structural connector.
 0 Name: 4002020 - Rotating Tree Module_Substep_Step-30.ldr
@@ -389,6 +398,7 @@
 1 71 0 -8 10 0 0 -1 0 1 0 1 0 0 3623.dat
 
 
+0 STEP
 0 FILE 4002020 - Rotating Tree Module_Substep_Step-33.ldr
 0 Tan and medium nougat bricks and plates forming a wall or pillar section of the tree structure.
 0 Name: 4002020 - Rotating Tree Module_Substep_Step-33.ldr
@@ -409,6 +419,7 @@
 1 84 -10 -32 10 1 0 0 0 1 0 0 0 1 3004.dat
 
 
+0 STEP
 0 FILE 4002020 - Rotating Tree Module_Substep_Step-40.ldr
 0 Axle joiner and gear assembly with notched axles for a compact drivetrain linkage.
 0 Name: 4002020 - Rotating Tree Module_Substep_Step-40.ldr
@@ -429,6 +440,7 @@
 1 0 0 0 30 -1 0 0 0 1 0 0 0 -1 32270.dat
 
 
+0 STEP
 0 FILE 4002020 - Rotating Tree Module_Substep_Step-41.ldr
 0 Large 36-tooth and 12-tooth bevel gear reduction stage mounted on beams and an axle with stop.
 0 Name: 4002020 - Rotating Tree Module_Substep_Step-41.ldr
@@ -457,6 +469,7 @@
 1 70 0 -62 10 0 -1 0 1 0 0 0 0 1 59443.dat
 
 
+0 STEP
 0 FILE 4002020 - Rotating Tree Module_Substep_Step-42.ldr
 0 Single pearl gold stop bush pin used as a decorative or locking fastener.
 0 Name: 4002020 - Rotating Tree Module_Substep_Step-42.ldr
@@ -468,6 +481,7 @@
 1 297 0 0 0 1 0 0 0 0 -1 0 1 0 32054.dat
 
 
+0 STEP
 0 FILE 4002020 - Rotating Tree Module_Substep_Step-44.ldr
 0 Compact liftarm and axle joiner assembly with a pin joiner for linkage connection.
 0 Name: 4002020 - Rotating Tree Module_Substep_Step-44.ldr
@@ -489,6 +503,7 @@
 1 4 90 40 0 1 0 0 0 0 1 0 -1 0 62462.dat
 
 
+0 STEP
 0 FILE 4002020 - Rotating Tree Module_Substep_Step-45.ldr
 0 Bright green elf minifigure with pointy-eared hat, assembled from hips, legs, torso, and head.
 0 Name: 4002020 - Rotating Tree Module_Substep_Step-45.ldr
@@ -510,6 +525,7 @@
 1 14 0 -55.493 -8.287 1 0 0 0 0.993 -0.122 0 0.122 0.993 13787p01.dat
 
 
+0 STEP
 0 FILE 4002020 - Rotating Tree Module_Substep_Step-46.ldr
 0 White Technic brick assembly with a clip bar and olive green plate forming a small mounted detail or bracket.
 0 Name: 4002020 - Rotating Tree Module_Substep_Step-46.ldr
@@ -536,6 +552,7 @@
 1 330 0 -38 -10 -1 0 0 0 0 -1 0 -1 0 3024.dat
 
 
+0 STEP
 0 FILE 4002020 - Rotating Tree Module_Substep_Step-50.ldr
 0 Pair of reddish brown round plates with axleholes forming a rotating base element.
 0 Name: 4002020 - Rotating Tree Module_Substep_Step-50.ldr
@@ -549,6 +566,7 @@
 1 70 0 -8 0 0 0 -1 0 1 0 1 0 0 4032a.dat
 
 
+0 STEP
 0 FILE 4002020 - Rotating Tree Module_Substep_Step-51.ldr
 0 Round reddish brown axlehole plates with an octagonal rod frame for a reinforced rotating joint.
 0 Name: 4002020 - Rotating Tree Module_Substep_Step-51.ldr
@@ -565,6 +583,7 @@
 1 0 0 -8 0 0 0 -1 0 1 0 1 0 0 75937.dat
 
 
+0 STEP
 0 FILE 4002020 - Rotating Tree Module_Substep_Step-52.ldr
 0 Large round dark tan snapstud plate with a central light bluish grey round tile forming a turntable surface.
 0 Name: 4002020 - Rotating Tree Module_Substep_Step-52.ldr
@@ -578,6 +597,7 @@
 1 71 0 -8 0 0 0 -1 0 1 0 1 0 0 15535.dat
 
 
+0 STEP
 0 FILE 4002020 - Rotating Tree Module_Substep_Step-53.ldr
 0 Black mudguard with axle and bevel gear assembly forming a pivoting mounting bracket.
 0 Name: 4002020 - Rotating Tree Module_Substep_Step-53.ldr
@@ -602,6 +622,7 @@
 1 19 0 72 0 1 0 0 0 0 1 0 -1 0 6589.dat
 
 
+0 STEP
 0 FILE 4002020 - Rotating Tree Module_Substep_Step-54.ldr
 0 Small vignette with a roller skate, skeleton leg, and colorful tiles forming a decorative ground detail.
 0 Name: 4002020 - Rotating Tree Module_Substep_Step-54.ldr
@@ -626,6 +647,7 @@
 1 0 38 -22 10 0 -1 0 0 0 -1 1 0 0 6266.dat
 
 
+0 STEP
 0 FILE 4002020 - Rotating Tree Module_Substep_Step-55.ldr
 0 Small decorative vignette with a skeleton leg, blue and yellow plates, and a round pin tile.
 0 Name: 4002020 - Rotating Tree Module_Substep_Step-55.ldr
@@ -652,6 +674,7 @@
 1 0 42 -22 10 0 -1 0 0 0 -1 1 0 0 6266.dat
 
 
+0 STEP
 0 FILE 4002020 - Rotating Tree Module_Substep_Step-71s.ldr
 0 Tiny tree-top decoration with a green cone, brown stem plate, and a pearl gold star topper.
 0 Name: 4002020 - Rotating Tree Module_Substep_Step-71s.ldr
@@ -668,6 +691,7 @@
 1 297 0 -20 -2 1 0 0 0 0 -1 0 1 0 11609.dat
 
 
+0 STEP
 0 FILE 4002020 - Rotating Tree Module_Substep_Step-71.ldr
 0 Large rotating decorative crown made of green gear plates, transparent yellow and clear round plates, and reddish brown axlehole plates forming an ornate layered ornament.
 0 Name: 4002020 - Rotating Tree Module_Substep_Step-71.ldr
@@ -774,6 +798,7 @@
 1 16 0 -136 0 1 0 0 0 1 0 0 0 1 4002020 - Rotating Tree Module_Substep_Step-71s.ldr
 
 
+0 STEP
 0 FILE 4002020 - Imp Worker Module.ldr
 0 A large worker module structure built from long plates and bricks in dark tan, black, and light bluish grey with door rails and decorative tiles.
 0 Name: 4002020 - Imp Worker Module.ldr
@@ -1008,6 +1033,7 @@
 1 16 30 -132.288 -89.358 0 0 -1 0.643 0.766 0 0.766 -0.643 0 4002020 - Imp Worker Module_Substep_Step-62.ldr
 
 
+0 STEP
 0 FILE 4002020 - Imp Worker Module_Substep_Step-12.ldr
 0 A small decorative assembly featuring a round grille brick and pearl gold plates with center studs.
 0 Name: 4002020 - Imp Worker Module_Substep_Step-12.ldr
@@ -1033,6 +1059,7 @@
 1 297 -10 -16 0 0 0 -1 0 1 0 1 0 0 15573.dat
 
 
+0 STEP
 0 FILE 4002020 - Imp Worker Module_Substep_Step-14.ldr
 0 A technic linkage subassembly using axles, an elbow cylinder, and an angle connector to form an articulated joint.
 0 Name: 4002020 - Imp Worker Module_Substep_Step-14.ldr
@@ -1063,6 +1090,7 @@
 1 19 -20 -10 -50 0 0 1 0 1 0 -1 0 0 6541.dat
 
 
+0 STEP
 0 FILE 4002020 - Imp Worker Module_Substep_Step-16.ldr
 0 A technic linkage subassembly similar to step 14, using a cross block and elbow cylinder for an articulated joint.
 0 Name: 4002020 - Imp Worker Module_Substep_Step-16.ldr
@@ -1093,6 +1121,7 @@
 1 19 20 -10 -30 0 0 -1 0 1 0 1 0 0 6541.dat
 
 
+0 STEP
 0 FILE 4002020 - Imp Worker Module_Substep_Step-27.ldr
 0 A compact technic joint built from a cross block, short axle, and red elbow cylinder.
 0 Name: 4002020 - Imp Worker Module_Substep_Step-27.ldr
@@ -1109,6 +1138,7 @@
 1 4 0 -40 0 0 1 0 -1 0 0 0 0 1 25214.dat
 
 
+0 STEP
 0 FILE 4002020 - Imp Worker Module_Substep_Step-28.ldr
 0 A green and black bracket subassembly with technic bricks, axle pins, and clip light plates forming a small mechanical mount.
 0 Name: 4002020 - Imp Worker Module_Substep_Step-28.ldr
@@ -1156,6 +1186,7 @@
 1 16 -20 26 -50 1 0 0 0 1 0 0 0 1 4002020 - Imp Worker Module_Substep_Step-27.ldr
 
 
+0 STEP
 0 FILE 4002020 - Imp Worker Module_Substep_Step-30.ldr
 0 A windowed technic arm assembly using a 1x4x3 window, technic beam, and pins to form a pivoting panel.
 0 Name: 4002020 - Imp Worker Module_Substep_Step-30.ldr
@@ -1177,6 +1208,7 @@
 1 297 20 146 -20 0 -1 0 0 0 -1 1 0 0 32054.dat
 
 
+0 STEP
 0 FILE 4002020 - Imp Worker Module_Substep_Step-31.ldr
 0 A cam mechanism subassembly with axles, a quadruple connector, and two technic cams on a bushing.
 0 Name: 4002020 - Imp Worker Module_Substep_Step-31.ldr
@@ -1201,6 +1233,7 @@
 1 70 0 0 -110 0 1 0 1 0 0 0 0 -1 59443.dat
 
 
+0 STEP
 0 FILE 4002020 - Imp Worker Module_Substep_Step-32.ldr
 0 A windowed technic arm assembly using a 1x4x3 window, technic beam, and pins to form a pivoting panel.
 0 Name: 4002020 - Imp Worker Module_Substep_Step-32.ldr
@@ -1222,6 +1255,7 @@
 1 297 20 146 -20 -1 0 0 0 0 -1 0 -1 0 32054.dat
 
 
+0 STEP
 0 FILE 4002020 - Imp Worker Module_Substep_Step-35.ldr
 0 A mechanical detail featuring a pearl gold frypan mounted on a technic axle and cross block with round white bricks.
 0 Name: 4002020 - Imp Worker Module_Substep_Step-35.ldr
@@ -1251,6 +1285,7 @@
 1 15 38.975 -8.998 98 0.974 0 0.225 -0.225 0 0.974 0 -1 0 6143.dat
 
 
+0 STEP
 0 FILE 4002020 - Imp Worker Module_Substep_Step-36.ldr
 0 Two tiny round plates, one white and one translucent brown, forming a small detail element.
 0 Name: 4002020 - Imp Worker Module_Substep_Step-36.ldr
@@ -1264,6 +1299,7 @@
 1 40 0 -8 0 0 0 -1 0 1 0 1 0 0 3024.dat
 
 
+0 STEP
 0 FILE 4002020 - Imp Worker Module_Substep_Step-40.ldr
 0 A wall section of long tan and medium nougat bricks and plates forming a horizontal stripe detail.
 0 Name: 4002020 - Imp Worker Module_Substep_Step-40.ldr
@@ -1284,6 +1320,7 @@
 1 84 -60 -32 0 -1 0 0 0 1 0 0 0 -1 3010.dat
 
 
+0 STEP
 0 FILE 4002020 - Imp Worker Module_Substep_Step-42.ldr
 0 A decorative wall clock built on a reddish brown bracket with a round clock-faced tile and chamfered tile.
 0 Name: 4002020 - Imp Worker Module_Substep_Step-42.ldr
@@ -1300,6 +1337,7 @@
 1 70 0 20 -22 1 0 0 0 0 -1 0 1 0 14769p0a.dat
 
 
+0 STEP
 0 FILE 4002020 - Imp Worker Module_Substep_Step-43.ldr
 0 A colorful control panel detail with multicolored round knobs and dark bluish grey grooved tiles.
 0 Name: 4002020 - Imp Worker Module_Substep_Step-43.ldr
@@ -1330,6 +1368,7 @@
 1 72 -40 8 0 0 0 -1 0 1 0 1 0 0 98138.dat
 
 
+0 STEP
 0 FILE 4002020 - Imp Worker Module_Substep_Step-44.ldr
 0 A small dark turquoise detail piece with a tooth plate and grooved round tile.
 0 Name: 4002020 - Imp Worker Module_Substep_Step-44.ldr
@@ -1345,6 +1384,7 @@
 1 72 0 -16 0 0 0 -1 0 1 0 1 0 0 98138.dat
 
 
+0 STEP
 0 FILE 4002020 - Imp Worker Module_Substep_Step-45.ldr
 0 A minimal technic connector using a green axlehole brick and a tan axle pin.
 0 Name: 4002020 - Imp Worker Module_Substep_Step-45.ldr
@@ -1358,6 +1398,7 @@
 1 19 10 10 0 -1 0 0 0 0 -1 0 -1 0 3749.dat
 
 
+0 STEP
 0 FILE 4002020 - Imp Worker Module_Substep_Step-53.ldr
 0 A small nature vignette featuring a green frog perched on a green cone atop a hinge element.
 0 Name: 4002020 - Imp Worker Module_Substep_Step-53.ldr
@@ -1374,6 +1415,7 @@
 1 2 0 -48 -10 -1 0 0 0 1 0 0 0 -1 33320.dat
 
 
+0 STEP
 0 FILE 4002020 - Imp Worker Module_Substep_Step-56.ldr
 0 A small creature or robot figure built from tan hinge plates, round eye tiles, and sloped light bluish grey bricks.
 0 Name: 4002020 - Imp Worker Module_Substep_Step-56.ldr
@@ -1422,6 +1464,7 @@
 1 71 0 -6 -40 1 0 0 0 0 -1 0 1 0 47458.dat
 
 
+0 STEP
 0 FILE 4002020 - Imp Worker Module_Substep_Step-57.ldr
 0 An ornate reddish brown gateway section with scroll bricks and arches on a large base plate.
 0 Name: 4002020 - Imp Worker Module_Substep_Step-57.ldr
@@ -1455,6 +1498,7 @@
 1 70 70 -32 0 0 0 1 0 -1 0 1 0 0 3659.dat
 
 
+0 STEP
 0 FILE 4002020 - Imp Worker Module_Substep_Step-59.ldr
 0 A small decorative panel detail with medium azure and white plates and clip light elements.
 0 Name: 4002020 - Imp Worker Module_Substep_Step-59.ldr
@@ -1479,6 +1523,7 @@
 1 15 30 -6 -12 0 0 1 1 0 0 0 1 0 3070b.dat
 
 
+0 STEP
 0 FILE 4002020 - Imp Worker Module_Substep_Step-60.ldr
 0 A bright yellow and white platform detail built from plates with a grooved center stud tile.
 0 Name: 4002020 - Imp Worker Module_Substep_Step-60.ldr
@@ -1497,6 +1542,7 @@
 1 15 -10 -16 0 0 0 1 0 1 0 -1 0 0 3068b.dat
 
 
+0 STEP
 0 FILE 4002020 - Imp Worker Module_Substep_Step-61.ldr
 0 A technic linkage assembly using angle connectors, perpendicular axle pins, and bar tubes to form a jointed bar.
 0 Name: 4002020 - Imp Worker Module_Substep_Step-61.ldr
@@ -1518,6 +1564,7 @@
 1 72 0 -40 -40 0 1 0 0 0 1 1 0 0 24122.dat
 
 
+0 STEP
 0 FILE 4002020 - Imp Worker Module_Substep_Step-62.ldr
 0 A compact technic linkage using angle connectors and perpendicular axle pins to form a short jointed segment.
 0 Name: 4002020 - Imp Worker Module_Substep_Step-62.ldr
@@ -1539,6 +1586,7 @@
 1 16 40 7 0 1 0 0 0 1 0 0 0 1 4002020 - Imp Worker Module_Substep_Step-62-Substep_Step-3.ldr
 
 
+0 STEP
 0 FILE 4002020 - Imp Worker Module_Substep_Step-62-Substep_Step-3.ldr
 0 A tiny paint roller brush accessory with a light grey handle and yellow round stud.
 0 Name: 4002020 - Imp Worker Module_Substep_Step-62-Substep_Step-3.ldr
@@ -1552,6 +1600,7 @@
 1 14 0 -45 -11 0 0 -1 -1 0 0 0 1 0 3062b.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Presenting Imp Module.ldr
 0 A presenting display module built from angled wing bricks in light bluish grey and dark tan with green accents and medium nougat brickwork.
 0 Name: 4002020 - Present Presenting Imp Module.ldr
@@ -1746,6 +1795,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 4002020 - Present Presenting Imp Module_Substep_Step-6.ldr
 0 Present Presenting Imp Module_Substep_Step-6
 0 Name: 4002020 - Present Presenting Imp Module_Substep_Step-6.ldr
@@ -1759,6 +1809,7 @@
 1 84 0 0 0 0 0 -1 0 1 0 1 0 0 3831.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Presenting Imp Module_Substep_Step-12.ldr
 0 Present Presenting Imp Module_Substep_Step-12
 0 Name: 4002020 - Present Presenting Imp Module_Substep_Step-12.ldr
@@ -1788,6 +1839,7 @@
 1 71 -40 0 -120 -1 0 0 0 1 0 0 0 -1 54384.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Presenting Imp Module_Substep_Step-13.ldr
 0 Present Presenting Imp Module_Substep_Step-13
 0 Name: 4002020 - Present Presenting Imp Module_Substep_Step-13.ldr
@@ -1801,6 +1853,7 @@
 1 84 0 0 0 -0.6 0 -0.8 0 1 0 0.8 0 -0.6 3831.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Presenting Imp Module_Substep_Step-14.ldr
 0 Present Presenting Imp Module_Substep_Step-14
 0 Name: 4002020 - Present Presenting Imp Module_Substep_Step-14.ldr
@@ -1814,6 +1867,7 @@
 1 0 0 0 0 -1 0 0 0 1 0 0 0 -1 3831.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Presenting Imp Module_Substep_Step-18.ldr
 0 Present Presenting Imp Module_Substep_Step-18
 0 Name: 4002020 - Present Presenting Imp Module_Substep_Step-18.ldr
@@ -1830,6 +1884,7 @@
 1 71 0 24 -20 0 0 -1 0 1 0 1 0 0 60479.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Presenting Imp Module_Substep_Step-22.ldr
 0 Present Presenting Imp Module_Substep_Step-22
 0 Name: 4002020 - Present Presenting Imp Module_Substep_Step-22.ldr
@@ -1843,6 +1898,7 @@
 1 84 0 0 0 0.8 0 -0.6 0 1 0 0.6 0 0.8 3831.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Presenting Imp Module_Substep_Step-23.ldr
 0 Present Presenting Imp Module_Substep_Step-23
 0 Name: 4002020 - Present Presenting Imp Module_Substep_Step-23.ldr
@@ -1854,6 +1910,7 @@
 1 28 0 0 0 0 0 -1 0 1 0 1 0 0 15573.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Presenting Imp Module_Substep_Step-25.ldr
 0 Present Presenting Imp Module_Substep_Step-25
 0 Name: 4002020 - Present Presenting Imp Module_Substep_Step-25.ldr
@@ -1869,6 +1926,7 @@
 1 70 0 -32 0 1 0 0 0 1 0 0 0 1 4002020 - 3660b.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Presenting Imp Module_Substep_Step-27.ldr
 0 Present Presenting Imp Module_Substep_Step-27
 0 Name: 4002020 - Present Presenting Imp Module_Substep_Step-27.ldr
@@ -1893,6 +1951,7 @@
 1 4 0 -48 10 0 0 -1 0 1 0 1 0 0 85861.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Presenting Imp Module_Substep_Step-28.ldr
 0 Present Presenting Imp Module_Substep_Step-28
 0 Name: 4002020 - Present Presenting Imp Module_Substep_Step-28.ldr
@@ -1917,6 +1976,7 @@
 1 0 -10 0 0 0 0 -1 0 1 0 1 0 0 24246.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Presenting Imp Module_Substep_Step-33.ldr
 0 Present Presenting Imp Module_Substep_Step-33
 0 Name: 4002020 - Present Presenting Imp Module_Substep_Step-33.ldr
@@ -1930,6 +1990,7 @@
 1 71 0 0 0 0.042 0 0.999 0 1 0 -0.999 0 0.042 3679.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Presenting Imp Module_Substep_Step-36.ldr
 0 Present Presenting Imp Module_Substep_Step-36
 0 Name: 4002020 - Present Presenting Imp Module_Substep_Step-36.ldr
@@ -1962,6 +2023,7 @@
 1 2 9.583 -24 9.991 0.999 0 -0.042 0 1 0 0.042 0 0.999 34103.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Presenting Imp Module_Substep_Step-38.ldr
 0 Present Presenting Imp Module_Substep_Step-38
 0 Name: 4002020 - Present Presenting Imp Module_Substep_Step-38.ldr
@@ -1975,6 +2037,7 @@
 1 19 -10 20 0 0 1 0 1 0 0 0 0 -1 85984.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Presenting Imp Module_Substep_Step-39.ldr
 0 Present Presenting Imp Module_Substep_Step-39
 0 Name: 4002020 - Present Presenting Imp Module_Substep_Step-39.ldr
@@ -1988,6 +2051,7 @@
 1 71 -10 -8 10 0 0 -1 0 1 0 1 0 0 3623.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Presenting Imp Module_Substep_Step-40.ldr
 0 Present Presenting Imp Module_Substep_Step-40
 0 Name: 4002020 - Present Presenting Imp Module_Substep_Step-40.ldr
@@ -2012,6 +2076,7 @@
 1 28 20 -56 0 -1 0 0 0 1 0 0 0 -1 32028.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Presenting Imp Module_Substep_Step-41.ldr
 0 Present Presenting Imp Module_Substep_Step-41
 0 Name: 4002020 - Present Presenting Imp Module_Substep_Step-41.ldr
@@ -2036,6 +2101,7 @@
 1 28 30 -56 0 -1 0 0 0 1 0 0 0 -1 3623.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Presenting Imp Module_Substep_Step-43.ldr
 0 Present Presenting Imp Module_Substep_Step-43
 0 Name: 4002020 - Present Presenting Imp Module_Substep_Step-43.ldr
@@ -2049,6 +2115,7 @@
 1 84 0 0 0 0.8 0 -0.6 0 1 0 0.6 0 0.8 3831.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Presenting Imp Module_Substep_Step-48.ldr
 0 Present Presenting Imp Module_Substep_Step-48
 0 Name: 4002020 - Present Presenting Imp Module_Substep_Step-48.ldr
@@ -2065,6 +2132,7 @@
 1 72 47 0 0 1 0 0 0 1 0 0 0 1 32209.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Presenting Imp Module_Substep_Step-49.ldr
 0 Present Presenting Imp Module_Substep_Step-49
 0 Name: 4002020 - Present Presenting Imp Module_Substep_Step-49.ldr
@@ -2076,6 +2144,7 @@
 1 4 0 0 0 1 0 0 0 1 0 0 0 1 3705.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Presenting Imp Module_Substep_Step-52.ldr
 0 Present Presenting Imp Module_Substep_Step-52
 0 Name: 4002020 - Present Presenting Imp Module_Substep_Step-52.ldr
@@ -2123,6 +2192,7 @@
 1 71 -50 0 -20 -0.009 0.595 -0.804 -0.156 0.793 0.589 0.988 0.131 0.086 62519.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Presenting Imp Module_Substep_Step-57.ldr
 0 Present Presenting Imp Module_Substep_Step-57
 0 Name: 4002020 - Present Presenting Imp Module_Substep_Step-57.ldr
@@ -2139,6 +2209,7 @@
 1 72 20 0 20 0.991 -0.131 0 0.131 0.991 0 0 0 1 3648b.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Presenting Imp Module_Substep_Step-58.ldr
 0 Present Presenting Imp Module_Substep_Step-58
 0 Name: 4002020 - Present Presenting Imp Module_Substep_Step-58.ldr
@@ -2173,6 +2244,7 @@
 1 16 0 0 -40 1 0 0 0 1 0 0 0 1 4002020 - Present Presenting Imp Module_Substep_Step-57.ldr
 
 
+0 STEP
 0 FILE 4002020 - Present Presenting Imp Module_Substep_Step-60.ldr
 0 Present Presenting Imp Module_Substep_Step-60
 0 Name: 4002020 - Present Presenting Imp Module_Substep_Step-60.ldr
@@ -2194,6 +2266,7 @@
 1 15 -10 -20 0 1 0 0 0 1 0 0 0 1 37762.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Presenting Imp Module_Substep_Step-65.ldr
 0 Present Presenting Imp Module_Substep_Step-65
 0 Name: 4002020 - Present Presenting Imp Module_Substep_Step-65.ldr
@@ -2209,6 +2282,7 @@
 1 4 0 -16 0 0 0 -1 0 1 0 1 0 0 3024.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Presenting Imp Module_Substep_Step-72.ldr
 0 Present Presenting Imp Module_Substep_Step-72
 0 Name: 4002020 - Present Presenting Imp Module_Substep_Step-72.ldr
@@ -2265,6 +2339,7 @@
 1 0 65.386 20 128.219 0.01 -0.998 -0.054 -0.984 0 -0.18 0.18 0.055 -0.982 2739a.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Presenting Imp Module_Substep_Step-75.ldr
 0 A small Technic connector assembly with an elbow cylinder and angle connectors.
 0 Name: 4002020 - Present Presenting Imp Module_Substep_Step-75.ldr
@@ -2283,6 +2358,7 @@
 1 15 68.284 28.284 0 -1 0 0 0 0 -1 0 -1 0 22961.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Presenting Imp Module_Substep_Step-76.ldr
 0 A white and red plate assembly featuring a decorative gold star.
 0 Name: 4002020 - Present Presenting Imp Module_Substep_Step-76.ldr
@@ -2316,6 +2392,7 @@
 1 297 0 8 0 -1 0 0 0 -1 0 0 0 1 11609.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Presenting Imp Module_Substep_Step-77.ldr
 0 A compact Technic linkage with red and white angle connectors.
 0 Name: 4002020 - Present Presenting Imp Module_Substep_Step-77.ldr
@@ -2332,6 +2409,7 @@
 1 15 0 0 -40 0 -1 0 0 0 -1 1 0 0 22961.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Presenting Imp Module_Substep_Step-84.ldr
 0 A small green frog figure mounted on a hinge with a cone base.
 0 Name: 4002020 - Present Presenting Imp Module_Substep_Step-84.ldr
@@ -2348,6 +2426,7 @@
 1 2 0 -48 -10 -1 0 0 0 1 0 0 0 -1 33320.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Presenting Imp Module_Substep_Step-87.ldr
 0 A tan creature-like figure with closed eyes, teeth, and a hinged jaw.
 0 Name: 4002020 - Present Presenting Imp Module_Substep_Step-87.ldr
@@ -2392,6 +2471,7 @@
 1 19 -28 -22 -10 0 1 0 0.707 0 0.707 0.707 0 -0.707 49668.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Presenting Imp Module_Substep_Step-90.ldr
 0 A tiny grey clip and round plate detail with an open stud.
 0 Name: 4002020 - Present Presenting Imp Module_Substep_Step-90.ldr
@@ -2407,6 +2487,7 @@
 1 71 11.999 2 19.997 0 -1 0 1 0 0 0 0 1 98138.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Presenting Imp Module_Substep_Step-92.ldr
 0 A small smooth black tyre mounted on a round white plate.
 0 Name: 4002020 - Present Presenting Imp Module_Substep_Step-92.ldr
@@ -2424,6 +2505,7 @@
 1 15 0 8 0 0 0 -1 0 1 0 1 0 0 85861.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Presenting Imp Module_Substep_Step-93.ldr
 0 A small white clip plate with round bars and an eye-patterned tile.
 0 Name: 4002020 - Present Presenting Imp Module_Substep_Step-93.ldr
@@ -2446,6 +2528,7 @@
 1 15 0 -24 0 0.924 0 -0.383 0 1 0 0.383 0 0.924 98138p07.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Presenting Imp Module_Substep_Step-94.ldr
 0 A mixed clear, lime, and grey plate and brick assembly with a handle.
 0 Name: 4002020 - Present Presenting Imp Module_Substep_Step-94.ldr
@@ -2474,6 +2557,7 @@
 1 16 0 -50 -32 1 0 0 0 0 -1 0 1 0 4002020 - Present Presenting Imp Module_Substep_Step-93.ldr
 
 
+0 STEP
 0 FILE 4002020 - Present Conveyor Module.ldr
 0 A large reddish-brown log-built conveyor base with black technic framing and grey plates.
 0 Name: 4002020 - Present Conveyor Module.ldr
@@ -2698,6 +2782,7 @@
 1 16 0 -262 -190 -1 0 0 0 1 0 0 0 -1 4002020 - Present Conveyor Module_Substep_Step-66.ldr
 
 
+0 STEP
 0 FILE 4002020 - Present Conveyor Module_Substep_Step-9.ldr
 0 A simple dark tan and tan plate and brick extension.
 0 Name: 4002020 - Present Conveyor Module_Substep_Step-9.ldr
@@ -2713,6 +2798,7 @@
 1 19 0 -48 0 0 0 -1 0 1 0 1 0 0 3010.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Conveyor Module_Substep_Step-12.ldr
 0 A grey and white detail assembly with a door rail, petal plate, and brown trans tile.
 0 Name: 4002020 - Present Conveyor Module_Substep_Step-12.ldr
@@ -2742,6 +2828,7 @@
 1 71 0 -64 0 0 0 -1 0 1 0 1 0 0 32028.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Conveyor Module_Substep_Step-22.ldr
 0 A Technic sprocket and gold pulley wheel drivetrain with axles and beams.
 0 Name: 4002020 - Present Conveyor Module_Substep_Step-22.ldr
@@ -2778,6 +2865,7 @@
 1 72 -70 -10 -10 0 0 1 0 1 0 -1 0 0 32000.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Conveyor Module_Substep_Step-29.ldr
 0 A small white and dark orange angled plate detail with a curved slope.
 0 Name: 4002020 - Present Conveyor Module_Substep_Step-29.ldr
@@ -2794,6 +2882,7 @@
 1 15 0 0 -20 1 0 0 0 1 0 0 0 1 11477.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Conveyor Module_Substep_Step-31.ldr
 0 A Technic beam linkage with gold and black connector pins.
 0 Name: 4002020 - Present Conveyor Module_Substep_Step-31.ldr
@@ -2809,6 +2898,7 @@
 1 0 0 -80 10 0 0 1 0 -1 0 1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Conveyor Module_Substep_Step-32.ldr
 0 A short Technic axle with a smooth joiner.
 0 Name: 4002020 - Present Conveyor Module_Substep_Step-32.ldr
@@ -2822,6 +2912,7 @@
 1 14 0 0 30 0 0 1 0 1 0 -1 0 0 4519.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Conveyor Module_Substep_Step-33.ldr
 0 A Technic sprocket wheel assembly with axle joiner and half bushes.
 0 Name: 4002020 - Present Conveyor Module_Substep_Step-33.ldr
@@ -2843,6 +2934,7 @@
 1 0 0 0 0 0 0 -1 1 0 0 0 -1 0 57520.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Conveyor Module_Substep_Step-34.ldr
 0 A Technic beam linkage with gold and black connector pins.
 0 Name: 4002020 - Present Conveyor Module_Substep_Step-34.ldr
@@ -2858,6 +2950,7 @@
 1 0 -10 -80 0 1 0 0 0 -1 0 0 0 -1 2780.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Conveyor Module_Substep_Step-37.ldr
 0 A decorative lilac and turquoise round plate with a pink heart tile.
 0 Name: 4002020 - Present Conveyor Module_Substep_Step-37.ldr
@@ -2879,6 +2972,7 @@
 1 1 0 8 0 0 0 -1 -1 0 0 0 1 0 43093.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Conveyor Module_Substep_Step-38-Substep_Step-2.ldr
 0 A turquoise-topped white plate with a dark pink flower on a pin.
 0 Name: 4002020 - Present Conveyor Module_Substep_Step-38-Substep_Step-2.ldr
@@ -2895,6 +2989,7 @@
 1 5 -0.002 -2.919 -6.821 0 0 -1 -0.245 0.97 0 0.97 0.245 0 32606.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Conveyor Module_Substep_Step-38.ldr
 0 Three reinforced dark bluish grey chain tread links.
 0 Name: 4002020 - Present Conveyor Module_Substep_Step-38.ldr
@@ -2911,6 +3006,7 @@
 1 16 20 -22 13 1 0 0 0 1 0 0 0 1 4002020 - Present Conveyor Module_Substep_Step-38-Substep_Step-2.ldr
 
 
+0 STEP
 0 FILE 4002020 - Present Conveyor Module_Substep_Step-39-Substep_Step-2.ldr
 0 A decorative gold-grilled round brick with a white base and gold heart.
 0 Name: 4002020 - Present Conveyor Module_Substep_Step-39-Substep_Step-2.ldr
@@ -2929,6 +3025,7 @@
 1 1 -0.002 111.238 103.995 0 0 -1 0.999 -0.053 0 -0.053 -0.999 0 43093.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Conveyor Module_Substep_Step-39.ldr
 0 Three reinforced dark bluish grey chain tread links.
 0 Name: 4002020 - Present Conveyor Module_Substep_Step-39.ldr
@@ -2945,6 +3042,7 @@
 1 16 20 -38 13 1 0 0 0 1 0 0 0 1 4002020 - Present Conveyor Module_Substep_Step-39-Substep_Step-2.ldr
 
 
+0 STEP
 0 FILE 4002020 - Present Conveyor Module_Substep_Step-40-Substep_Step-2.ldr
 0 A dark azure plate assembly with white sub-plates and orange corner tiles.
 0 Name: 4002020 - Present Conveyor Module_Substep_Step-40-Substep_Step-2.ldr
@@ -2973,6 +3071,7 @@
 1 15 -20.001 111.996 284.733 0 0 1 0 -1 0 1 0 0 2476a.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Conveyor Module_Substep_Step-40.ldr
 0 Three reinforced dark bluish grey chain tread links.
 0 Name: 4002020 - Present Conveyor Module_Substep_Step-40.ldr
@@ -2989,6 +3088,7 @@
 1 16 -10 -30 13 1 0 0 0 1 0 0 0 1 4002020 - Present Conveyor Module_Substep_Step-40-Substep_Step-2.ldr
 
 
+0 STEP
 0 FILE 4002020 - Present Conveyor Module_Substep_Step-41-Substep_Step-2.ldr
 0 Present Conveyor Module_Substep_Step-41-Substep_Step-2
 0 Name: 4002020 - Present Conveyor Module_Substep_Step-41-Substep_Step-2.ldr
@@ -3015,6 +3115,7 @@
 1 1 -19.998 57.107 -452.092 0 0 1 -0.224 0.975 0 -0.975 -0.224 0 43093.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Conveyor Module_Substep_Step-41.ldr
 0 Present Conveyor Module_Substep_Step-41
 0 Name: 4002020 - Present Conveyor Module_Substep_Step-41.ldr
@@ -3031,6 +3132,7 @@
 1 16 0 -38 13 -1 0 0 0 1 0 0 0 -1 4002020 - Present Conveyor Module_Substep_Step-41-Substep_Step-2.ldr
 
 
+0 STEP
 0 FILE 4002020 - Present Conveyor Module_Substep_Step-42.ldr
 0 Present Conveyor Module_Substep_Step-42
 0 Name: 4002020 - Present Conveyor Module_Substep_Step-42.ldr
@@ -3056,6 +3158,7 @@
 1 29 -0.002 96.73 416.547 -1 0 0 0 0.956 -0.294 0 -0.294 -0.956 4002020 - Present Conveyor Module_Substep_Step-41.ldr
 
 
+0 STEP
 0 FILE 4002020 - Present Conveyor Module_Substep_Step-45.ldr
 0 Present Conveyor Module_Substep_Step-45
 0 Name: 4002020 - Present Conveyor Module_Substep_Step-45.ldr
@@ -3087,6 +3190,7 @@
 1 15 -140 0 0 0 0 -1 0 1 0 1 0 0 32064a.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Conveyor Module_Substep_Step-48.ldr
 0 Present Conveyor Module_Substep_Step-48
 0 Name: 4002020 - Present Conveyor Module_Substep_Step-48.ldr
@@ -3104,6 +3208,7 @@
 1 84 -60 -24 0 1 0 0 0 1 0 0 0 1 3010.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Conveyor Module_Substep_Step-50.ldr
 0 Present Conveyor Module_Substep_Step-50
 0 Name: 4002020 - Present Conveyor Module_Substep_Step-50.ldr
@@ -3124,6 +3229,7 @@
 1 15 40 0 0 0 0 1 0 1 0 -1 0 0 93273.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Conveyor Module_Substep_Step-51_1.ldr
 0 Present Conveyor Module_Substep_Step-51_1
 0 Name: 4002020 - Present Conveyor Module_Substep_Step-51_1.ldr
@@ -3139,6 +3245,7 @@
 1 297 0 0 0 0 0 -1 0 1 0 1 0 0 15470.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Conveyor Module_Substep_Step-51_2.ldr
 0 Present Conveyor Module_Substep_Step-51_2
 0 Name: 4002020 - Present Conveyor Module_Substep_Step-51_2.ldr
@@ -3154,6 +3261,7 @@
 1 297 0 24 0 0 0 -1 0 1 0 1 0 0 64644.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Conveyor Module_Substep_Step-52-Substep_Step-4.ldr
 0 Present Conveyor Module_Substep_Step-52-Substep_Step-4
 0 Name: 4002020 - Present Conveyor Module_Substep_Step-52-Substep_Step-4.ldr
@@ -3172,6 +3280,7 @@
 1 71 -20 0 0 0 0 -1 -1 0 0 0 1 0 2852.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Conveyor Module_Substep_Step-52.ldr
 0 Present Conveyor Module_Substep_Step-52
 0 Name: 4002020 - Present Conveyor Module_Substep_Step-52.ldr
@@ -3194,6 +3303,7 @@
 1 273 50 0 30 1 0 0 0 0 1 0 -1 0 4002020 - rubberBandRound-1.ldr
 
 
+0 STEP
 0 FILE 4002020 - Present Conveyor Module_Substep_Step-56.ldr
 0 Present Conveyor Module_Substep_Step-56
 0 Name: 4002020 - Present Conveyor Module_Substep_Step-56.ldr
@@ -3218,6 +3328,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 4002020 - Present Conveyor Module_Substep_Step-57.ldr
 0 Present Conveyor Module_Substep_Step-57
 0 Name: 4002020 - Present Conveyor Module_Substep_Step-57.ldr
@@ -3231,6 +3342,7 @@
 1 15 0 -8 0 1 0 0 0 1 0 0 0 1 24246.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Conveyor Module_Substep_Step-63.ldr
 0 Present Conveyor Module_Substep_Step-63
 0 Name: 4002020 - Present Conveyor Module_Substep_Step-63.ldr
@@ -3247,6 +3359,7 @@
 1 2 0 -48 -10 -1 0 0 0 1 0 0 0 -1 33320.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Conveyor Module_Substep_Step-65.ldr
 0 Present Conveyor Module_Substep_Step-65
 0 Name: 4002020 - Present Conveyor Module_Substep_Step-65.ldr
@@ -3287,6 +3400,7 @@
 1 19 -28 -22 -10 0 1 0 0.707 0 0.707 0.707 0 -0.707 49668.dat
 
 
+0 STEP
 0 FILE 4002020 - Present Conveyor Module_Substep_Step-66.ldr
 0 Present Conveyor Module_Substep_Step-66
 0 Name: 4002020 - Present Conveyor Module_Substep_Step-66.ldr
@@ -3318,6 +3432,7 @@
 
 
 
+0 STEP
 0 FILE 4002020 - rubberBandRound-1.ldr
 0 rubberBandRound-1
 0 Name: 4002020 - rubberBandRound-1.ldr
@@ -5339,6 +5454,7 @@
 5 24 -26.383163 31.414213 -5.50134 -25.594622 32 -6.67531 -25.438322 31.414213 -5.173813 -29.452934 31.414213 -6.562669
 
 
+0 STEP
 0 FILE 4002020 - 33299b.dat
 0 33299b
 0 Name: 4002020 - 33299b.dat
@@ -5376,6 +5492,7 @@
 4 16 6.36 10 33.637001 3.444 10 31.684999 3.062 10 32.609001 5.657 10 34.342999
 4 16 3.444 10 31.684999 0 10 31 0 10 32 3.062 10 32.609001
 
+0 STEP
 0 FILE 4002020 - 44567a.dat
 0 44567a
 0 Name: 4002020 - 44567a.dat
@@ -5423,6 +5540,7 @@
 4 16 -4 5.444 -10 -9 5.444 -10 -20 8 -10 -4 8 -10
 4 16 4 8 -10 20 8 -10 9 5.444 -10 4 5.444 -10
 
+0 STEP
 0 FILE 4002020 - 3660b.dat
 0 3660b
 0 Name: 4002020 - 3660b.dat
@@ -5435,6 +5553,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\4002020 - 3660bs01.dat
 4 16 20 24 -10 20 4 -30 -20 4 -30 -20 24 -10
 
+0 STEP
 0 FILE 4002020 - ldcRubberBandRndSeg.dat
 0 ldcRubberBandRndSeg
 0 Name: 4002020 - ldcRubberBandRndSeg.dat
@@ -5457,6 +5576,7 @@
 
 
 
+0 STEP
 0 FILE 4002020 - ldcCyli8.dat
 0 ldcCyli8
 0 Name: 4002020 - ldcCyli8.dat
@@ -5488,6 +5608,7 @@
 
 
 
+0 STEP
 0 FILE 4002020 - ldcConRing8.dat
 0 ldcConRing8
 0 Name: 4002020 - ldcConRing8.dat
@@ -5512,6 +5633,7 @@
 5 24 -0.707107 0 0.707107 0 0 1 -0.707107 -1 0.707107 -0.707107 1 0.707107
 
 
+0 STEP
 0 FILE s\4002020 - 3660bs01.dat
 0 3660bs01
 0 Name: s\4002020 - 3660bs01.dat

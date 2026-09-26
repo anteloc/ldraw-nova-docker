@@ -38,6 +38,7 @@
 
 
 
+0 STEP
 0 FILE 7839 - depot.ldr
 0 Multi-story black depot building constructed from bricks and plates on a 16x32 baseplate.
 0 Name: 7839 - depot.ldr
@@ -455,6 +456,7 @@
 
 
 
+0 STEP
 0 FILE 7839 - depot - loading platform.ldr
 0 Raised grey loading platform with directional arrow tiles, bollards, and lattice fencing for cargo handling.
 0 Name: 7839 - depot - loading platform.ldr
@@ -522,6 +524,7 @@
 
 
 
+0 STEP
 0 FILE 7839 - depot - boom.ldr
 0 Red and white rotating crane boom mounted on a turntable plate for lifting cargo.
 0 Name: 7839 - depot - boom.ldr
@@ -557,6 +560,7 @@
 
 
 
+0 STEP
 0 FILE 7839 - depot - movable A.ldr
 0 Hinged movable barrier with directional arrow tile and headlight bricks for a level crossing or gate.
 0 Name: 7839 - depot - movable A.ldr
@@ -578,6 +582,7 @@
 
 
 
+0 STEP
 0 FILE 7839 - depot - movable B.ldr
 0 Hinged movable barrier with directional arrow tile and headlight bricks for a level crossing or gate.
 0 Name: 7839 - depot - movable B.ldr
@@ -599,6 +604,7 @@
 
 
 
+0 STEP
 0 FILE 7839 - freightcar.ldr
 0 Black train freight wagon with train wheels, magnetic couplings, and sloped sides on a 6x16 train base.
 0 Name: 7839 - freightcar.ldr
@@ -695,6 +701,7 @@
 
 
 
+0 STEP
 0 FILE 7839 - sedan.ldr
 0 Four-wheeled passenger automobile with mudguards, doors, windscreen, and a red driver seat.
 0 Name: 7839 - sedan.ldr
@@ -780,6 +787,7 @@
 
 
 
+0 STEP
 0 FILE 7839 - stationchief.ldr
 0 Minifigure of the station chief wearing a red hat and a blue suit with tie.
 0 Name: 7839 - stationchief.ldr
@@ -813,6 +821,7 @@
 
 
 
+0 STEP
 0 FILE 7839 - driver.ldr
 0 Minifigure of a driver with brown hair and a black shirt.
 0 Name: 7839 - driver.ldr

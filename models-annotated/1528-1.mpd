@@ -10,6 +10,7 @@
 1 16 13.0944 3.5098 0 1 0 0 0 1 0 0 0 1 1528 - car.ldr
 
 
+0 STEP
 0 FILE 1528 - car.ldr
 0 A compact black car with four offset-tread tyres, a steering stand, headlight bricks, white cones, and a white V-pattern tile detail.
 0 Name: 1528 - car.ldr
@@ -68,6 +69,7 @@
 1 15 -54.4238 -91.726 0 0 -0.190809 -0.981627 0 0.981627 -0.190809 1 0 0 3710.DAT
 
 
+0 STEP
 0 FILE 1528 - minifig.ldr
 0 A minifigure with a white helmet, a white diagonal-zip torso pattern, yellow hands, and a classic smiling head.
 0 Name: 1528 - minifig.ldr

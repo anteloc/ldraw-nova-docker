@@ -12,6 +12,7 @@
 1 25 90 16 60 1 0 0 0 1 0 0 0 1 31027 - Cone.ldr
 
 
+0 STEP
 0 FILE 31027 - Racecar.ldr
 0 A compact racecar body built from blue plates and corner brackets with mudguards, silver grille tiles, and translucent brown sloped windshield pieces.
 0 Name: 31027 - Racecar.ldr
@@ -102,6 +103,7 @@
 1 1 30 -32 -10 1 0 0 0 1 0 0 0 1 3024.dat
 1 15 0 -32 50 -1 0 0 0 1 0 0 0 -1 31027 - Rear.ldr
 
+0 STEP
 0 FILE 31027 - Wheel.ldr
 0 A single wheel assembly consisting of a light bluish grey spoked rim fitted with a black tyre.
 0 Name: 31027 - Wheel.ldr
@@ -113,6 +115,7 @@
 0 // Tyre  6/ 30 x 11 (black)
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 50951.dat
 
+0 STEP
 0 FILE 31027 - Rear.ldr
 0 A vehicle rear section with brackets, a white curved slope, and red and silver round plates forming taillights.
 0 Name: 31027 - Rear.ldr
@@ -144,6 +147,7 @@
 0 // Plate  1 x  2 with Handle Type 2 (white)
 1 15 0 0 0 -1 0 0 0 1 0 0 0 -1 48336.dat
 
+0 STEP
 0 FILE 31027 - Cone.ldr
 0 A small detail assembly pairing a white plate with an orange cone element.
 0 Name: 31027 - Cone.ldr

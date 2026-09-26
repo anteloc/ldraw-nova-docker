@@ -10,6 +10,7 @@
 0 ROTATION CENTER 0 0 0 1 "Custom" 
 0 ROTATION CONFIG 0 0
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 6966 - Part 4.ldr
+0 STEP
 0 FILE 6966 - Part 1.ldr
 0 Forward cockpit nose section built from a trans-brown curved slope and inverted dish mounted on a technic brick and pin substructure.
 0 Name: 6966 - Part 1.ldr
@@ -36,6 +37,7 @@
 
 
 
+0 STEP
 0 FILE 6966 - Part 2.ldr
 0 Left wing assembly featuring a yellow left wing panel, flags, a long tile, and an antenna mounted on hinged dark grey corner plates.
 0 Name: 6966 - Part 2.ldr
@@ -75,6 +77,7 @@
 
 
 
+0 STEP
 0 FILE 6966 - Part 3.ldr
 0 Right wing assembly mirroring the left side with a yellow right wing panel, flags, a long tile, and an antenna on hinged dark grey corner plates.
 0 Name: 6966 - Part 3.ldr
@@ -114,6 +117,7 @@
 
 
 
+0 STEP
 0 FILE 6966 - Part 4.ldr
 0 Rear engine and mounting section using technic bricks, round hollow-stud bricks, locking hinge plates, and a dark grey curved slope.
 0 Name: 6966 - Part 4.ldr

@@ -14,6 +14,7 @@
 1 0 115.2707 55.5 -449.9 1 0 0 0 1 0 0 0 1 4557 - minifig 1.ldr
 
 
+0 STEP
 0 FILE 4557 - station.ldr
 0 A small loading station built on a dark grey platform with black brick walls, slope roof details, a tree, and a stop sign.
 0 Name: 4557 - station.ldr
@@ -77,6 +78,7 @@
 1 15 150.02 -89.25 -149.92 0 0 -1 0 1 0 1 0 0 30259.dat
 
 
+0 STEP
 0 FILE 4557 - crane.ldr
 0 A tall gantry crane structure with vertical support stands, long light grey beam columns, and a black rail track base.
 0 Name: 4557 - crane.ldr
@@ -172,6 +174,7 @@
 1 16 -10.08 -182 240.56 1 0 0 0 1 0 0 0 1 4557 - crane - movable.ldr
 
 
+0 STEP
 0 FILE 4557 - crane - movable.ldr
 0 The moving trolley and hoist assembly of the crane with a turntable, technic arm, and a winch spool.
 0 Name: 4557 - crane - movable.ldr
@@ -369,6 +372,7 @@
 1 0 29.9525 -103 -10.5 0.0001 0 2 1 0 -0.0002 0 -1 0 4557 - LS60.dat
 
 
+0 STEP
 0 FILE 4557 - truck.ldr
 0 A six-wheeled container truck composed of a front cab and a rear chassis section.
 0 Name: 4557 - truck.ldr
@@ -381,6 +385,7 @@
 1 16 -0.015 0 0 1 0 0 0 1 0 0 0 1 4557 - truck - back.ldr
 
 
+0 STEP
 0 FILE 4557 - truck - back.ldr
 0 The rear section of the truck with a black chassis, two wheel axles with wide tyres, and tail light tiles.
 0 Name: 4557 - truck - back.ldr
@@ -447,6 +452,7 @@
 1 0 47.995 -25 140 0 0 -1 0 1 0 1 0 0 6015.dat
 
 
+0 STEP
 0 FILE 4557 - truck - front.ldr
 0 The front cab section of the truck with a steering axle, two wide tyres, a grille, and a hinged connection to the rear.
 0 Name: 4557 - truck - front.ldr
@@ -527,6 +533,7 @@
 1 33 0.02 -154 -95.792 1 0 0 0 1 0 0 0 1 2348b.dat
 
 
+0 STEP
 0 FILE 4557 - container.ldr
 0 A shipping container with trans-dark-blue panel walls, corner studs, a door, and a money-patterned tile labeled 100.
 0 Name: 4557 - container.ldr
@@ -593,6 +600,7 @@
 1 7 0 -72 0 0 0 -1 0 1 0 1 0 0 4345b.dat
 
 
+0 STEP
 0 FILE 4557 - chain.ldr
 0 A length of dark grey chain made of linked chain segments and end pieces.
 0 Name: 4557 - chain.ldr
@@ -649,6 +657,7 @@
 1 8 -50 -8.46 -4.745 1 0 0 0 1 0 0 0 1 30104k01.dat
 
 
+0 STEP
 0 FILE 4557 - minifig 1.ldr
 0 A minifigure worker with brown hair, a blue torso, and green legs.
 0 Name: 4557 - minifig 1.ldr
@@ -679,6 +688,7 @@
 1 2 -5.2707 -28 0 0 0 -1 0 1 0 1 0 0 3816.dat
 
 
+0 STEP
 0 FILE 4557 - minifig 2.ldr
 0 A minifigure worker wearing a white construction helmet, a blue vest torso with a train logo, and dark grey legs.
 0 Name: 4557 - minifig 2.ldr
@@ -709,6 +719,7 @@
 1 8 -4.7246 -28 0 0 0 -1 0 1 0 1 0 0 3816.dat
 
 
+0 STEP
 0 FILE 4557 - LS60.dat
 0 A background gradient and a short string segment used for LeoCAD model rendering.
 0 Name: 4557 - LS60.dat

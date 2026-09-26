@@ -9,6 +9,7 @@
 1 46 0 0 0 1 0 0 0 1 0 0 0 1 31048 - Building.ldr
 
 
+0 STEP
 0 FILE 31048 - MiniFig.ldr
 0 A minifigure wearing a blue plaid shirt and dark tan legs, with tousled black hair and a brown bar accessory.
 0 Name: 31048 - MiniFig.ldr
@@ -37,6 +38,7 @@
 1 70 -29.039 -8.443 -6.412 0.913 0.086 0.399 -0.103 -0.896 0.431 0.394 -0.435 -0.81 87994.dat
 
 
+0 STEP
 0 FILE 31048 - Building.ldr
 0 A log cabin structure built with grey log bricks, green roof slopes and plates, and hinged elements for an opening design.
 0 Name: 31048 - Building.ldr
@@ -414,6 +416,7 @@
 1 46 -140 -8 180 -1 0 0 0 1 0 0 0 -1 31048 - Lamp.ldr
 
 
+0 STEP
 0 FILE 31048 - Table.ldr
 0 A small reddish brown table topped with a white letter tile and decorated with a feather accent.
 0 Name: 31048 - Table.ldr
@@ -437,6 +440,7 @@
 1 15 20 -8 -10 1 0 0 0 1 0 0 0 1 3069bp0c.dat
 
 
+0 STEP
 0 FILE 31048 - Chair.ldr
 0 A simple yellow chair built from plates and a flag piece as a backrest.
 0 Name: 31048 - Chair.ldr
@@ -456,6 +460,7 @@
 1 14 -30 -6 20 -1 0 0 0 0 -1 0 -1 0 2335.dat
 
 
+0 STEP
 0 FILE 31048 - Window.ldr
 0 A tan window frame fitted with two green glass panes.
 0 Name: 31048 - Window.ldr
@@ -471,6 +476,7 @@
 1 2 -32 4 3 0 0 -1 0 1 0 1 0 0 60608.dat
 
 
+0 STEP
 0 FILE 31048 - Lamp.ldr
 0 A brown lamp post with a glowing trans-orange and trans-yellow light element on top.
 0 Name: 31048 - Lamp.ldr

@@ -9,6 +9,7 @@
 
 
 
+0 STEP
 0 FILE 6245 - Harbor Sentry.ldr
 0 A small red boat armed with a turntable-mounted cannon, a blue Imperial Guard flag, and a cutlass sword.
 0 Name: 6245 - Harbor Sentry.ldr
@@ -58,6 +59,7 @@
 1 16 0 -25 -48 1 0 0 0 1 0 0 0 1 6245 - MiniFig1.ldr
 
 
+0 STEP
 0 FILE 6245 - MiniFig1.ldr
 0 An Imperial Guard minifigure in white-and-blue uniform with bicorne hat, epaulette, and a pair of oars.
 0 Name: 6245 - MiniFig1.ldr
@@ -93,6 +95,7 @@
 1 6 11.936 -31.841 32.593 -0.259 0.935 -0.244 0.966 0.248 -0.075 -0.009 -0.255 -0.967 2542.dat
 
 
+0 STEP
 0 FILE 6245 - 2551.dat
 0 A geometric part composed of rectangles, circles, and open cylinders forming a rounded structural element.
 0 Name: 6245 - 2551.dat
@@ -205,6 +208,7 @@
 4 16 40.23 0 99.75 -40.23 0 99.75 -42.02 -20.35 99.75 42.02 -20.35 99.75
 3 16 -42.02 -20.35 99.75 0 -25 99.75 42.02 -20.35 99.75
 
+0 STEP
 0 FILE s\6245 - 2551s01.dat
 0 A subpart made of rectangles and partial boxes forming a flat panel structure.
 0 Name: s\6245 - 2551s01.dat

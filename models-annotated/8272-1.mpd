@@ -11,6 +11,7 @@
 0 ROTATION CONFIG 0 0
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 8272 - m-1.ldr
 
+0 STEP
 0 FILE 8272 - m-1.ldr
 0 Major structural sub-assembly with liftarms, shock absorbers, axles, and cross blocks forming a suspension and frame module.
 0 Name: 8272 - m-1.ldr
@@ -604,6 +605,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1a.ldr
 0 Simple axle-and-connector coupling joining an 8-stud axle to a bush-type connector.
 0 Name: 8272 - m-1a.ldr
@@ -621,6 +623,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1b.ldr
 0 Small beam linkage built from a 6-stud liftarm, axle with stud, and cross block connector.
 0 Name: 8272 - m-1b.ldr
@@ -641,6 +644,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1ba.ldr
 0 Small beam linkage built from a 6-stud liftarm, axle with stud, and cross block connector.
 0 Name: 8272 - m-1ba.ldr
@@ -660,6 +664,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1c.ldr
 0 Small pivot linkage combining a 6-stud liftarm, axle with stud, cross block, and friction pin.
 0 Name: 8272 - m-1c.ldr
@@ -682,6 +687,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1ca.ldr
 0 Small pivot linkage combining a 6-stud liftarm, axle with stud, cross block, and friction pin.
 0 Name: 8272 - m-1ca.ldr
@@ -703,6 +709,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1d.ldr
 0 Compact axle assembly using a 3-wide cross block and 4-stud axle for a pivoting joint.
 0 Name: 8272 - m-1d.ldr
@@ -721,6 +728,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1e.ldr
 0 Towball joint made from a cross block mounted on a towball axle.
 0 Name: 8272 - m-1e.ldr
@@ -738,6 +746,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1f.ldr
 0 Red body panel fairing (#5) attached with a 3/4 pin for decorative side paneling.
 0 Name: 8272 - m-1f.ldr
@@ -755,6 +764,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1g.ldr
 0 Red body panel fairing (#6) attached with a 3/4 pin for decorative side paneling.
 0 Name: 8272 - m-1g.ldr
@@ -772,6 +782,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1h.ldr
 0 Pivot joint assembly using angle cross blocks, a 4-stud axle, half-bushes, and a short liftarm.
 0 Name: 8272 - m-1h.ldr
@@ -800,6 +811,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m.1i.ldr
 0 Long structural beam (13 studs) with angled connectors and pins forming an extended link or support arm.
 0 Name: 8272 - m.1i.ldr
@@ -827,6 +839,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1j.ldr
 0 Simple angle connector joint using a friction axle pin and a #1 angle connector.
 0 Name: 8272 - m-1j.ldr
@@ -844,6 +857,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1k.ldr
 0 Steering linkage assembly with towball pins, steering links, a bent liftarm, and bush for wheel alignment.
 0 Name: 8272 - m-1k.ldr
@@ -878,6 +892,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1ka.ldr
 0 Short pinned beam connection using a stop-bush pin and a 3-stud liftarm.
 0 Name: 8272 - m-1ka.ldr
@@ -896,6 +911,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1l.ldr
 0 Straight connector joint using a 4-stud axle and a #2 (180-degree) angle connector.
 0 Name: 8272 - m-1l.ldr
@@ -913,6 +929,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1m.ldr
 0 Angled support arm combining a double-bent 45-degree liftarm, a 7-stud beam, and an axle with pin.
 0 Name: 8272 - m-1m.ldr
@@ -936,6 +953,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1n.ldr
 0 Right-angle liftarm joint using a bent 90-degree liftarm and a friction axle pin.
 0 Name: 8272 - m-1n.ldr
@@ -953,6 +971,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1o.ldr
 0 Right-angle liftarm joint using a bent 90-degree liftarm and a long friction pin.
 0 Name: 8272 - m-1o.ldr
@@ -970,6 +989,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1p.ldr
 0 Bracket-style connector built from a 5-stud beam with multiple long friction pins.
 0 Name: 8272 - m-1p.ldr
@@ -991,6 +1011,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1q.ldr
 0 Extended structural frame section using a 9-stud beam, two 5-stud beams, and several friction pins.
 0 Name: 8272 - m-1q.ldr
@@ -1019,6 +1040,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1r.ldr
 0 Small pivot cap with a cross block, axle, half pin, and a round silver plate detail.
 0 Name: 8272 - m-1r.ldr
@@ -1041,6 +1063,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1s.ldr
 0 Wheel or hub support using a long axle through a twin-pin cross block with a 9-stud red beam.
 0 Name: 8272 - m-1s.ldr
@@ -1063,6 +1086,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1t.ldr
 0 Structural arm assembly built from an 11-stud red beam, twin-pin cross block, and connector pins.
 0 Name: 8272 - m-1t.ldr
@@ -1085,6 +1109,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1u.ldr
 0 A small pin connector assembly joining a long stop-bush pin with a friction axle pin.
 0 Name: 8272 - m-1u.ldr
@@ -1102,6 +1127,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1v.ldr
 0 A bent 90-degree liftarm attached via a friction axle pin.
 0 Name: 8272 - m-1v.ldr
@@ -1119,6 +1145,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1w.ldr
 0 A tracked roller assembly with sprocket wheels, chain tread, and long support beams.
 0 Name: 8272 - m-1w.ldr
@@ -1251,6 +1278,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1wa.ldr
 0 A bent liftarm connector sub-assembly mounted on an axle 3 with a long friction pin.
 0 Name: 8272 - m-1wa.ldr
@@ -1273,6 +1301,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1x.ldr
 0 A bent liftarm structure with trans-red toothed attachments and multiple axles.
 0 Name: 8272 - m-1x.ldr
@@ -1310,6 +1339,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1y.ldr
 0 A simple axle 3 capped with a flanged bush.
 0 Name: 8272 - m-1y.ldr
@@ -1327,6 +1357,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1z.ldr
 0 A panel fairing mounting assembly using cross blocks, pins, and a notched axle.
 0 Name: 8272 - m-1z.ldr
@@ -1360,6 +1391,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1a'.ldr
 0 A beam-7 body segment with dual red panel fairings attached via friction pins.
 0 Name: 8272 - m-1a'.ldr
@@ -1388,6 +1420,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1b'.ldr
 0 A ribbed hose assembly mounted on a cross block connector with an axle pin.
 0 Name: 8272 - m-1b'.ldr
@@ -1423,6 +1456,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1c'.ldr
 0 A panel fairing 7 mounting assembly using cross blocks and stop-bush pins.
 0 Name: 8272 - m-1c'.ldr
@@ -1453,6 +1487,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1d'.ldr
 0 A complex structural assembly with bent liftarms, panel fairings, and trans-blue teeth.
 0 Name: 8272 - m-1d'.ldr
@@ -1502,6 +1537,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1e'.ldr
 0 A single red panel fairing 23 attached with friction pins.
 0 Name: 8272 - m-1e'.ldr
@@ -1524,6 +1560,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1f'.ldr
 0 A single red panel fairing 22 attached with friction pins.
 0 Name: 8272 - m-1f'.ldr
@@ -1546,6 +1583,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1g'.ldr
 0 A small liftarm assembly with a pearl-grey toothed attachment on an axle.
 0 Name: 8272 - m-1g'.ldr
@@ -1571,6 +1609,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1h'(').ldr
 0 A long red ribbed hose assembly on an angle connector.
 0 Name: 8272 - m-1h'(').ldr
@@ -1655,6 +1694,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1h'('').ldr
 0 A long red ribbed hose assembly on an angle connector.
 0 Name: 8272 - m-1h'('').ldr
@@ -1742,6 +1782,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1i'(').ldr
 0 A single red angle connector #1 piece.
 0 Name: 8272 - m-1i'(').ldr
@@ -1856,6 +1897,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1i'('').ldr
 0 A single red angle connector #1 piece.
 0 Name: 8272 - m-1i'('').ldr
@@ -1970,6 +2012,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1j'.ldr
 0 A light-bluish-grey liftarm frame assembly using triangle and bent beams with notched axles.
 0 Name: 8272 - m-1j'.ldr
@@ -2003,6 +2046,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1j'a.ldr
 0 A small liftarm connector sub-assembly with notched axles and a friction pin.
 0 Name: 8272 - m-1j'a.ldr
@@ -2026,6 +2070,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1k'.ldr
 0 An angle connector linkage using 157.5-degree connectors with an axle and bush connector.
 0 Name: 8272 - m-1k'.ldr
@@ -2051,6 +2096,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - m-1k'a.ldr
 0 A stud-axle assembly fitted with three half-bushes.
 0 Name: 8272 - m-1k'a.ldr
@@ -2080,6 +2126,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - LS40.dat
 0 A custom part file credited to Steve Bliss and Chris Dee.
 0 Name: 8272 - LS40.dat
@@ -2109,6 +2156,7 @@
 
 0
 
+0 STEP
 0 FILE 8272 - LS41.dat
 0 A custom axle part composed of end surfaces and a perimeter element.
 0 Name: 8272 - LS41.dat
@@ -2136,6 +2184,7 @@
 
 0
 
+0 STEP
 0 FILE s\8272 - faxle1.dat
 0 A primitive part defining a Technic axle geometry with circles, cylinders, and edge surfaces.
 0 Name: s\8272 - faxle1.dat
@@ -2175,6 +2224,7 @@
 
 0
 
+0 STEP
 0 FILE s\8272 - faxle2.dat
 0 A Technic axle end piece composed of axle hole teeth, base surface, perimeter, inner edges, and a small cylinder.
 0 Name: s\8272 - faxle2.dat
@@ -2208,6 +2258,7 @@
 
 0
 
+0 STEP
 0 FILE s\8272 - faxle3.dat
 0 A Technic axle end piece with a cylinder, axle hole teeth, base surface, inner edges, and perimeter.
 0 Name: s\8272 - faxle3.dat
@@ -2241,6 +2292,7 @@
 
 0
 
+0 STEP
 0 FILE s\8272 - faxle4.dat
 0 A Technic axle end piece consisting of axle hole teeth, base surface, inner edges, perimeter, and a small cylinder.
 0 Name: s\8272 - faxle4.dat
@@ -2274,6 +2326,7 @@
 
 0
 
+0 STEP
 0 FILE s\8272 - faxle5.dat
 0 A Technic axle end piece built from a cylinder, axle hole teeth, base surface, inner edges, and perimeter.
 0 Name: s\8272 - faxle5.dat

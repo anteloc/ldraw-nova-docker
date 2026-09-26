@@ -10,6 +10,7 @@
 1 0 0 0 -300 1 0 0 0 1 0 0 0 1 40194 - Podium.ldr
 
 
+0 STEP
 0 FILE 40194 - Finish Line Side.ldr
 0 A tall side support structure with a stanchion, panels, lattice fences, and a red-and-yellow striped finish line banner.
 0 Name: 40194 - Finish Line Side.ldr
@@ -52,6 +53,7 @@
 1 15 0 -144 20 1 0 0 0 1 0 0 0 1 4476.dat
 
 
+0 STEP
 0 FILE 40194 - Finish Line.ldr
 0 A finish line gate with a white flag, stoplight camera, traffic light plates, and a checkered tile base.
 0 Name: 40194 - Finish Line.ldr
@@ -90,6 +92,7 @@
 1 0 10 -12 200 0 -1 0 1 0 0 0 0 1 3068b.dat
 
 
+0 STEP
 0 FILE 40194 - Podium.ldr
 0 A tiered award podium with rounded corners, curved top sections, and red accent details.
 0 Name: 40194 - Podium.ldr
@@ -146,6 +149,7 @@
 1 0 -12 -152 0 0 -1 0 0 0 1 -1 0 0 3068b.dat
 
 
+0 STEP
 0 FILE 40194 - MiniFig.ldr
 0 A racing minifigure wearing a red cap, red headphones, and a red torso outfit.
 0 Name: 40194 - MiniFig.ldr

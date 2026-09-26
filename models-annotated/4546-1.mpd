@@ -10,6 +10,7 @@
 1 14 13.625 46 0 1 0 0 0 1 0 0 0 1 4546 - car.ldr
 
 
+0 STEP
 0 FILE 4546 - car.ldr
 0 A small accessory cluster containing a rubbish bin, inverted dish, pushbroom, and shovel for tidy-up play.
 0 Name: 4546 - car.ldr
@@ -32,6 +33,7 @@
 1 16 -123.6125 -27.8732 -0.01 0 1 0 1 0 0 0 0 -1 4546 - car - train wheels.ldr
 
 
+0 STEP
 0 FILE 4546 - car - base.ldr
 0 A detailed car chassis with four wide tyres, steering wheel and stand, windscreen, opening doors, hinged roof panels, and a control stick assembly.
 0 Name: 4546 - car - base.ldr
@@ -166,6 +168,7 @@
 1 16 33.6525 -89.8903 39.8034 -1 0 0 0 0 -1 0 -1 0 168265b.dat
 
 
+0 STEP
 0 FILE 4546 - car - magnet.ldr
 0 A train coupling assembly with a cylindrical magnet in casing for connecting cars.
 0 Name: 4546 - car - magnet.ldr
@@ -180,6 +183,7 @@
 1 0 0 -11.25 0 0 0 -1 0 -1 0 -1 0 0 2920.DAT
 
 
+0 STEP
 0 FILE 4546 - car - train wheels.ldr
 0 A set of small train wheels mounted on a red base plate with wheel pins for rail travel.
 0 Name: 4546 - car - train wheels.ldr
@@ -198,6 +202,7 @@
 1 4 -10 0 0 0 1 0 0 0 1 1 0 0 3937.DAT
 
 
+0 STEP
 0 FILE 4546 - minifig.ldr
 0 A train worker minifigure with blue legs and torso bearing a train logo, red diagonal stripes, yellow hands, a smiling head, and brown hair.
 0 Name: 4546 - minifig.ldr

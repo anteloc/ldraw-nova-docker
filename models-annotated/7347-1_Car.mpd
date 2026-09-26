@@ -7,6 +7,7 @@
 1 15 0 0 0 1 0 0 0 1 0 0 0 1 7347 - Car.ldr
 
 
+0 STEP
 0 FILE 7347 - Car.ldr
 0 Red and light bluish grey Technic car chassis with long brick beams, plates, inverted slopes, towball pins, and axle connectors forming the main body structure.
 0 Name: 7347 - Car.ldr
@@ -647,6 +648,7 @@
 1 71 -118 10 -70 0 0 1 0 1 0 -1 0 0 3713.dat
 
 
+0 STEP
 0 FILE 7347 - Car S02.ldr
 0 Small pin connector assembly joining two friction pins with a round joiner.
 0 Name: 7347 - Car S02.ldr
@@ -661,6 +663,7 @@
 1 15 0 0 0 1 0 0 0 1 0 0 0 1 62462.dat
 
 
+0 STEP
 0 FILE 7347 - Car S07.ldr
 0 Light bluish grey plate and tile assembly forming a flat body panel section.
 0 Name: 7347 - Car S07.ldr
@@ -674,6 +677,7 @@
 1 71 0 -8 -10 1 0 0 0 1 0 0 0 1 6636.dat
 
 
+0 STEP
 0 FILE 7347 - Car S16.ldr
 0 Technic axle and bushing assembly forming a simple wheel or rotor mount.
 0 Name: 7347 - Car S16.ldr
@@ -686,6 +690,7 @@
 1 71 -70 0 0 0 0 1 0 1 0 -1 0 0 3713.dat
 
 
+0 STEP
 0 FILE 7347 - Car S18.ldr
 0 Round dark bluish grey brick with trans-orange plate forming a small light or indicator lens.
 0 Name: 7347 - Car S18.ldr
@@ -698,6 +703,7 @@
 1 57 0 0 0 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 7347 - Car S20.ldr
 0 Front light assembly with two electric light bricks, connectors, axle, and bushes forming the headlight unit.
 0 Name: 7347 - Car S20.ldr
@@ -725,6 +731,7 @@
 1 47 40 -18 68 0 0 1 0 1 0 -1 0 0 62930.dat
 
 
+0 STEP
 0 FILE 7347 - Car S23.ldr
 0 Blue Technic brick with friction pin forming a small pivot or connector joint.
 0 Name: 7347 - Car S23.ldr
@@ -737,6 +744,7 @@
 1 0 10 10 0 -1 0 0 0 1 0 0 0 -1 2780.dat
 
 
+0 STEP
 0 FILE 7347 - Car S26.ldr
 0 Pair of bent Technic beams joined with friction pins forming an angled connector linkage.
 0 Name: 7347 - Car S26.ldr
@@ -754,6 +762,7 @@
 1 71 10 0 0 0 1 0 -1 0 0 0 0 1 32526.dat
 
 
+0 STEP
 0 FILE 7347 - Car S32.ldr
 0 Angle connector with black hose nozzle forming a fuel filler or small hose fitting.
 0 Name: 7347 - Car S32.ldr
@@ -766,6 +775,7 @@
 1 0 -12 -42 0 0 -1 0 0 0 -1 1 0 0 60849.dat
 
 
+0 STEP
 0 FILE 7347 - Car S33.ldr
 0 Down bracket with white grooved tile forming a small mounting plate detail.
 0 Name: 7347 - Car S33.ldr
@@ -778,6 +788,7 @@
 1 15 0 10 -22 1 0 0 0 0 -1 0 1 0 3069b.dat
 
 
+0 STEP
 0 FILE 7347 - Car S34.ldr
 0 Red headlight brick with trans-red plate forming a rear taillight.
 0 Name: 7347 - Car S34.ldr
@@ -790,6 +801,7 @@
 1 4 0 0 0 1 0 0 0 1 0 0 0 1 4070.dat
 
 
+0 STEP
 0 FILE 7347 - Car S46.ldr
 0 Red curved arch sections on plates forming a fender or wheel arch detail.
 0 Name: 7347 - Car S46.ldr
@@ -808,6 +820,7 @@
 1 4 0 -16 0 1 0 0 0 1 0 0 0 1 3666.dat
 
 
+0 STEP
 0 FILE 7347 - Car S47.ldr
 0 White and dark bluish grey plates with a blue hinge top forming a hinged body panel or seat mount.
 0 Name: 7347 - Car S47.ldr
@@ -834,6 +847,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 7347 - Car S49R.ldr
 0 Right-side wheel assembly with axle, stop, bushes, cross block, and pin forming a wheel mount.
 0 Name: 7347 - Car S49R.ldr
@@ -854,6 +868,7 @@
 1 19 0 -10 -40 0 0 1 1 0 0 0 1 0 3749.dat
 
 
+0 STEP
 0 FILE 7347 - Car S49L.ldr
 0 Left-side wheel assembly with axle, stop, bushes, cross block, and pin forming a wheel mount.
 0 Name: 7347 - Car S49L.ldr
@@ -874,6 +889,7 @@
 1 19 0 -10 -40 0 0 1 1 0 0 0 1 0 3749.dat
 
 
+0 STEP
 0 FILE 7347 - Car S53.ldr
 0 Technic drivetrain assembly with axle, gears, and joiners forming a gear reduction or differential unit.
 0 Name: 7347 - Car S53.ldr
@@ -905,6 +921,7 @@
 1 71 0 10 182 1 0 0 0 1 0 0 0 1 7347 - Car S53 s7.ldr
 
 
+0 STEP
 0 FILE 7347 - Car S53 s7.ldr
 0 Small gear sub-assembly with bevel gear, axle stud, and Technic brick forming a geared drive component.
 0 Name: 7347 - Car S53 s7.ldr
@@ -920,6 +937,7 @@
 1 71 10 -10 -2 1 0 0 0 1 0 0 0 1 32000.dat
 
 
+0 STEP
 0 FILE 7347 - Car S55.ldr
 0 Black plate with six metallic silver grille tiles forming a front or rear radiator grille.
 0 Name: 7347 - Car S55.ldr
@@ -943,6 +961,7 @@
 1 80 40 -8 -10 1 0 0 0 1 0 0 0 1 2412b.dat
 
 
+0 STEP
 0 FILE 7347 - Car S57.ldr
 0 Dashboard assembly with yellow side-stud brick, patterned gauge tile, and dark grey grille forming the instrument cluster.
 0 Name: 7347 - Car S57.ldr
@@ -958,6 +977,7 @@
 1 72 20 10 -18 1 0 0 0 0 -1 0 1 0 2412b.dat
 
 
+0 STEP
 0 FILE 7347 - Car S58.ldr
 0 Steering column assembly with Technic brick, axle, bevel gear, and small steering wheel.
 0 Name: 7347 - Car S58.ldr
@@ -976,6 +996,7 @@
 1 0 10 10 54 -1 0 0 0 0 -1 0 -1 0 2819.dat
 
 
+0 STEP
 0 FILE 7347 - Car S61.ldr
 0 Red Technic brick with axlehole and black plate forming a small axle mounting block.
 0 Name: 7347 - Car S61.ldr
@@ -988,6 +1009,7 @@
 1 4 0 -24 0 0 0 -1 0 1 0 1 0 0 32064a.dat
 
 
+0 STEP
 0 FILE 7347 - Car S70.ldr
 0 Red curved arch with tile forming a windshield or roof arch section.
 0 Name: 7347 - Car S70.ldr
@@ -1000,6 +1022,7 @@
 1 4 0 0 10 0 0 -1 0 1 0 1 0 0 63864.dat
 
 
+0 STEP
 0 FILE 7347 - Car S74.ldr
 0 Right-side red and dark bluish grey panel assembly with corner plates, clips, and dish forming a side body or mirror detail.
 0 Name: 7347 - Car S74.ldr
@@ -1025,6 +1048,7 @@
 1 0 0 16 -20 1 0 0 0 1 0 0 0 1 2654a.dat
 
 
+0 STEP
 0 FILE 7347 - Car S75.ldr
 0 Left-side red and dark bluish grey panel assembly with corner plates, clips, and dish forming a side body or mirror detail.
 0 Name: 7347 - Car S75.ldr
@@ -1050,6 +1074,7 @@
 1 0 0 16 -20 1 0 0 0 1 0 0 0 1 2654a.dat
 
 
+0 STEP
 0 FILE 7347 - Car S76.ldr
 0 A small megaphone or loudhailer assembly mounted on a clear round base plate.
 0 Name: 7347 - Car S76.ldr

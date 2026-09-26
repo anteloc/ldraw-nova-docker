@@ -10,6 +10,7 @@
 
 
 
+0 STEP
 0 FILE 4896 - 4WD.ldr
 0 Robust vehicle chassis built from long Technic bricks, pins, and large dark bluish grey plates forming the main frame.
 0 Name: 4896 - 4WD.ldr
@@ -711,6 +712,7 @@
 
 
 
+0 STEP
 0 FILE 4896 - Structure RH.ldr
 0 Right-hand structural support beam assembly using Technic bricks, pins, an axle, and a bushing.
 0 Name: 4896 - Structure RH.ldr
@@ -745,6 +747,7 @@
 
 
 
+0 STEP
 0 FILE 4896 - Structure LH.ldr
 0 Left-hand structural support beam assembly mirroring the right side with Technic bricks, pins, an axle, and a bushing.
 0 Name: 4896 - Structure LH.ldr
@@ -779,6 +782,7 @@
 
 
 
+0 STEP
 0 FILE 4896 - Rear Seat.ldr
 0 Compact rear seat base made of red corner plates and a black plate with a handle.
 0 Name: 4896 - Rear Seat.ldr
@@ -797,6 +801,7 @@
 
 
 
+0 STEP
 0 FILE 4896 - Rear Seat Back.ldr
 0 Red rear seat backrest built from small plates and tiles with a clip detail.
 0 Name: 4896 - Rear Seat Back.ldr
@@ -817,6 +822,7 @@
 
 
 
+0 STEP
 0 FILE 4896 - Rear Side RH.ldr
 0 Right rear body panel of black bricks and plates with headlight elements, trans-red light, and silver round accents.
 0 Name: 4896 - Rear Side RH.ldr
@@ -860,6 +866,7 @@
 
 
 
+0 STEP
 0 FILE 4896 - Rear Side LH.ldr
 0 Left rear body panel mirroring the right side with black bricks, plates, headlight elements, and silver round accents.
 0 Name: 4896 - Rear Side LH.ldr
@@ -903,6 +910,7 @@
 
 
 
+0 STEP
 0 FILE 4896 - Seat Back.ldr
 0 Front seat backrest featuring red tiles, dark bluish grey plates, angle connectors, and chrome silver elbow details.
 0 Name: 4896 - Seat Back.ldr
@@ -962,6 +970,7 @@
 
 
 
+0 STEP
 0 FILE 4896 - Seat.ldr
 0 Front seat assembly with red curved-top bricks, tiles, and a dark bluish grey inverted slope cushion.
 0 Name: 4896 - Seat.ldr
@@ -1010,6 +1019,7 @@
 
 
 
+0 STEP
 0 FILE 4896 - Steering Arm.ldr
 0 Steering linkage arm using red and light bluish grey Technic beams with half pins and a gear rack.
 0 Name: 4896 - Steering Arm.ldr
@@ -1041,6 +1051,7 @@
 
 
 
+0 STEP
 0 FILE 4896 - Steering.ldr
 0 Steering mechanism with a gear train on an axle mounted between holed Technic bricks.
 0 Name: 4896 - Steering.ldr
@@ -1067,6 +1078,7 @@
 
 
 
+0 STEP
 0 FILE 4896 - Engine Side.ldr
 0 Engine side panel with a hinge, silver grille tile, and round silver accent plates.
 0 Name: 4896 - Engine Side.ldr
@@ -1087,6 +1099,7 @@
 
 
 
+0 STEP
 0 FILE 4896 - Engine.ldr
 0 Engine block assembly featuring an air scoop, grille tile, and supporting black plates and brick.
 0 Name: 4896 - Engine.ldr
@@ -1105,6 +1118,7 @@
 
 
 
+0 STEP
 0 FILE 4896 - Engine Part RH.ldr
 0 Right engine detail with a locking hinge arm and small red and blue round accent plates.
 0 Name: 4896 - Engine Part RH.ldr
@@ -1123,6 +1137,7 @@
 
 
 
+0 STEP
 0 FILE 4896 - Engine Part LH.ldr
 0 Left engine detail using a round plate with axlehole, holed Technic brick, and yellow round accent.
 0 Name: 4896 - Engine Part LH.ldr
@@ -1146,6 +1161,7 @@
 
 
 
+0 STEP
 0 FILE 4896 - Arm Hood.ldr
 0 Hood support arm combining a stop bar, clip, Technic brick, and silver round plate.
 0 Name: 4896 - Arm Hood.ldr
@@ -1167,6 +1183,7 @@
 
 
 
+0 STEP
 0 FILE 4896 - Board.ldr
 0 Dashboard board with a printed gauge tile, computer-pattern tile, steering wheel, slope, and hinge tops.
 0 Name: 4896 - Board.ldr
@@ -1216,6 +1233,7 @@
 
 
 
+0 STEP
 0 FILE 4896 - Door LH.ldr
 0 Left door panel of black bricks and hinge plates with a trans-neon-orange light, silver round accent, and grooved tiles.
 0 Name: 4896 - Door LH.ldr
@@ -1285,6 +1303,7 @@
 
 
 
+0 STEP
 0 FILE 4896 - Door RH.ldr
 0 Right door panel mirroring the left side with black bricks, hinge plates, trans-neon-orange light, and grooved tiles.
 0 Name: 4896 - Door RH.ldr
@@ -1354,6 +1373,7 @@
 
 
 
+0 STEP
 0 FILE 4896 - Front Side.ldr
 0 Front side panel of black bricks and plates with a curved slope, inverted slope, and trans-neon-orange accent.
 0 Name: 4896 - Front Side.ldr
@@ -1378,6 +1398,7 @@
 
 
 
+0 STEP
 0 FILE 4896 - Front.ldr
 0 Front fascia assembly with silver grille tiles, curved and angled black slopes, and a trans-brown windshield element.
 0 Name: 4896 - Front.ldr
@@ -1413,6 +1434,7 @@
 
 
 
+0 STEP
 0 FILE 4896 - Hood.ldr
 0 Large hood panel built from black plates and wing elements forming a contoured engine cover.
 0 Name: 4896 - Hood.ldr
@@ -1490,6 +1512,7 @@
 
 
 
+0 STEP
 0 FILE 4896 - Rear.ldr
 0 Rear fascia assembly with curved black slopes, dark bluish grey wedges, trans-neon-orange taillights, and clip plates.
 0 Name: 4896 - Rear.ldr
@@ -1538,6 +1561,7 @@
 
 
 
+0 STEP
 0 FILE 4896 - Rear Upper.ldr
 0 Rear upper body section of black plates, wings, and curved slopes with a light bluish grey handle plate.
 0 Name: 4896 - Rear Upper.ldr
@@ -1575,6 +1599,7 @@
 
 
 
+0 STEP
 0 FILE 4896 - Top Side.ldr
 0 Slanted roof panel built from long black plates, tiles, a curved arch, and locking hinge plates.
 0 Name: 4896 - Top Side.ldr
@@ -1610,6 +1635,7 @@
 
 
 
+0 STEP
 0 FILE 4896 - Top.ldr
 0 Flat dark grey plate with black tiles forming the model's top surface.
 0 Name: 4896 - Top.ldr
@@ -1626,6 +1652,7 @@
 
 
 
+0 STEP
 0 FILE 4896 - Windscreen.ldr
 0 Windshield assembly using long plates, tiles, and a handled plate to form a slanted front glass frame.
 0 Name: 4896 - Windscreen.ldr
@@ -1656,6 +1683,7 @@
 
 
 
+0 STEP
 0 FILE 4896 - Mirror.ldr
 0 Side mirror made of a small plate with a handle attached to a black curved slope brick.
 0 Name: 4896 - Mirror.ldr

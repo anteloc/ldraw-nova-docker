@@ -13,6 +13,7 @@
 
 
 
+0 STEP
 0 FILE 10016 - train car.ldr
 0 Train locomotive car body with two cabs (steering wheels, dishes, radar and control patterned tiles), Octan livery, side panels, ladders, and two bogies
 0 Name: 10016 - train car.ldr
@@ -225,6 +226,7 @@
 1 0 -140 0 0.31 -1 0 0 0 1 0 0 0 -1 10016 - train car - wheels.ldr
 
 
+0 STEP
 0 FILE 10016 - train car - wheels.ldr
 0 Single-axle train bogie with flanged wheelset, buffer beam, magnetic coupling, and bogie plate
 0 Name: 10016 - train car - wheels.ldr

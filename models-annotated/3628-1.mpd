@@ -11,6 +11,7 @@
 1 4 148.022 -2 -127.792 -0.208 0 0.978 0 1 0 -0.978 0 -0.208 3628 - chesterchimp.ldr
 0 // Fabuland Ladder (yellow)
 1 14 121.612 -44 -122.178 -0.208 0.949 0.236 0.007 0.243 -0.97 -0.978 -0.2 -0.057 3628 - 4206.dat
+0 STEP
 0 FILE 3628 - perrypanda.ldr
 0 An empty submodel representing the Perry Panda Fabuland figure with no direct pieces listed.
 0 Name: 3628 - perrypanda.ldr
@@ -24,6 +25,7 @@
 1 15 -10 -37 4 1 0 0 0 1 0 0 0 1 u9100.dat
 1 15 10 -37 4 1 0 0 0 1 0 0 0 1 u9100.dat
 1 4 0 -37 4 1 0 0 0 1 0 0 0 1 u9103.dat
+0 STEP
 0 FILE 3628 - chesterchimp.ldr
 0 An empty submodel representing the Chester Chimp Fabuland figure with no direct pieces listed.
 0 Name: 3628 - chesterchimp.ldr
@@ -37,6 +39,7 @@
 1 0 -10 -37.253 0.381 1 0 0 0 0.99 0.139 0 -0.139 0.99 u9100.dat
 1 0 10 -37.253 0.381 1 0 0 0 0.993 -0.122 0 0.122 0.993 u9100.dat
 1 4 0 -37.253 0.381 1 0 0 0 0.99 0.139 0 -0.139 0.99 u9103.dat
+0 STEP
 0 FILE 3628 - 4206.dat
 0 A part definition composed of cylinders, rings, circles, chords, spheres, and boxes forming a rounded cylindrical LEGO element.
 0 Name: 3628 - 4206.dat

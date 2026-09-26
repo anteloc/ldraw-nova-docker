@@ -88,6 +88,7 @@
 1 71 -140 40 -40 0 0 -1 0 1 0 1 0 0 42021 - Sub 12.ldr
 
 
+0 STEP
 0 FILE 42021 - Sub 01.ldr
 0 Small axle-and-beam connector assembly using a 6-stud axle, cross block, and liftarm joined by pins.
 0 Name: 42021 - Sub 01.ldr
@@ -109,6 +110,7 @@
 1 0 0 -20 0 0 1 0 0 0 -1 -1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 42021 - Sub 02.ldr
 0 Bent liftarm frame assembly with two long 11-stud beams and a 3x5 bent beam linked by friction pins.
 0 Name: 42021 - Sub 02.ldr
@@ -136,6 +138,7 @@
 1 72 40 0 100 -1 0 0 0 -1 0 0 0 1 11214.dat
 
 
+0 STEP
 0 FILE 42021 - Sub 03a.ldr
 0 Minimal lime bent liftarm with a short 3-stud axle attached.
 0 Name: 42021 - Sub 03a.ldr
@@ -151,6 +154,7 @@
 1 71 0 0 0 1 0 0 0 -1 0 0 0 -1 4519.dat
 
 
+0 STEP
 0 FILE 42021 - Sub 03b.ldr
 0 Angled structural arm using two double 45-degree bent liftarms, fairing panels, and axles pinned together.
 0 Name: 42021 - Sub 03b.ldr
@@ -184,6 +188,7 @@
 1 0 40 80 60 0 -1 0 1 0 0 0 0 1 11947.dat
 
 
+0 STEP
 0 FILE 42021 - Sub 03c.ldr
 0 Single lime bent liftarm fastened with one short and one long friction pin.
 0 Name: 42021 - Sub 03c.ldr
@@ -201,6 +206,7 @@
 1 27 0 0 -60 0 1 0 -1 0 0 0 0 1 32140.dat
 
 
+0 STEP
 0 FILE 42021 - Sub 03d.ldr
 0 Tread/sprocket element with two trans-clear toothed pieces mounted on a 5-stud axle between cross blocks.
 0 Name: 42021 - Sub 03d.ldr
@@ -224,6 +230,7 @@
 1 47 -40 0 -40 0 1 0 1 0 0 0 0 -1 41669.dat
 
 
+0 STEP
 0 FILE 42021 - Sub 04.ldr
 0 Long lime 13-stud beam supporting two pairs of bodywork fairing panels, secured with notched axles and pins.
 0 Name: 42021 - Sub 04.ldr
@@ -255,6 +262,7 @@
 1 4 20 0 -190 0 -1 0 0 0 -1 1 0 0 32062.dat
 
 
+0 STEP
 0 FILE 42021 - Sub 05a.ldr
 0 Frame assembly of two 11-stud beams joined by pins and a long axle-pin connector.
 0 Name: 42021 - Sub 05a.ldr
@@ -278,6 +286,7 @@
 1 72 -20 0 60 0 0 1 0 1 0 -1 0 0 11214.dat
 
 
+0 STEP
 0 FILE 42021 - Sub 05b.ldr
 0 Lime 7-stud beams and black 5-stud beams connected with friction pins forming a support structure.
 0 Name: 42021 - Sub 05b.ldr
@@ -305,6 +314,7 @@
 1 0 -40 0 80 0 0 1 1 0 0 0 1 0 32316.dat
 
 
+0 STEP
 0 FILE 42021 - Sub 05c.ldr
 0 Pair of black 5-stud liftarms serving as a simple connecting beam.
 0 Name: 42021 - Sub 05c.ldr
@@ -320,6 +330,7 @@
 1 0 0 -40 40 1 0 0 0 0 -1 0 1 0 32316.dat
 
 
+0 STEP
 0 FILE 42021 - Sub 06.ldr
 0 Short white liftarms and notched red axles with a dark bluish grey 2-stud liftarm forming a small linkage.
 0 Name: 42021 - Sub 06.ldr
@@ -341,6 +352,7 @@
 1 72 0 0 -40 0 -1 0 -1 0 0 0 0 -1 60483.dat
 
 
+0 STEP
 0 FILE 42021 - Sub 07.ldr
 0 Bent white 3x5 liftarm assembly joined by friction pins and half-pins forming an angled bracket.
 0 Name: 42021 - Sub 07.ldr
@@ -368,6 +380,7 @@
 1 71 50 -80 0 1 0 0 0 0 -1 0 1 0 4274.dat
 
 
+0 STEP
 0 FILE 42021 - Sub 08.ldr
 0 Continuous track unit made of 41 chain tread links with bevel gears on a lime 13-stud beam.
 0 Name: 42021 - Sub 08.ldr
@@ -477,6 +490,7 @@
 1 27 0 0 40 1 0 0 0 0.695 0.719 0 -0.719 0.695 42021 - Sub 06.ldr
 
 
+0 STEP
 0 FILE 42021 - Sub 09.ldr
 0 Single 6.5L shock absorber consisting of a piston rod and cylinder.
 0 Name: 42021 - Sub 09.ldr
@@ -2253,6 +2267,7 @@
 0 GROUP 880 Spring
 
 
+0 STEP
 0 FILE 42021 - Sub 10.ldr
 0 Steering linkage element with angle connectors, bushes, and notched axles forming a 157.5-degree joint.
 0 Name: 42021 - Sub 10.ldr
@@ -2278,6 +2293,7 @@
 1 0 34.642 -19.999 0 0 -0.5 0.866025 0 -0.866025 -0.5 1 0 0 32016.dat
 
 
+0 STEP
 0 FILE 42021 - Sub 11.ldr
 0 Steering/ski arm assembly using bent cross blocks, a 53-degree liftarm, and notched axles.
 0 Name: 42021 - Sub 11.ldr
@@ -2307,6 +2323,7 @@
 1 0 40 20 0 0 0 -1 -1 0 0 0 1 0 32271.dat
 
 
+0 STEP
 0 FILE 42021 - Sub 12.ldr
 0 Steering/ski arm assembly using bent cross blocks, a 53-degree liftarm, and notched axles (mirror of Sub 11).
 0 Name: 42021 - Sub 12.ldr

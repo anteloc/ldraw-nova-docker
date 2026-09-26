@@ -41,6 +41,7 @@
 1 71 70 2 40 0.258819 -0.965926 0 0.965926 0.258819 0 0 0 1 30055 - Wing.ldr
 1 71 -72 2 40 -0.258819 0.965926 0 -0.965926 -0.258819 0 0 0 1 30055 - Wing.ldr
 
+0 STEP
 0 FILE 30055 - Bottom.ldr
 0 The ventral assembly built from a light bluish grey dish, dark blue plates, a handle plate, and two translucent light blue round plates acting as thrusters.
 0 Name: 30055 - Bottom.ldr
@@ -62,6 +63,7 @@
 0 // Plate  1 x  1 Round (trans_light_blue)
 1 43 10 -16 10 -1 0 0 0 1 0 0 0 -1 6141.dat
 
+0 STEP
 0 FILE 30055 - Neck.ldr
 0 A single black mechanical arm piece serving as the articulated neck joint.
 0 Name: 30055 - Neck.ldr
@@ -75,6 +77,7 @@
 0 STEP
 1 0 0 -38 12 1 0 0 0 0.819152 -0.573576 0 0.573576 0.819152 30055 - Head.ldr
 
+0 STEP
 0 FILE 30055 - Head.ldr
 0 A compact head made of a handled plate and sloped bricks in dark bluish grey and dark blue, giving a tapered, beak-like profile.
 0 Name: 30055 - Head.ldr
@@ -91,6 +94,7 @@
 0 // Slope Brick Curved  3 x  1 (dark_blue)
 1 272 0 -18 -60 1 0 0 0 1 0 0 0 1 50950.dat
 
+0 STEP
 0 FILE 30055 - Wing.ldr
 0 A dark blue and grey wing panel with curved slope edges, a handle plate for attachment, and a light bluish grey grille tile detail.
 0 Name: 30055 - Wing.ldr
@@ -118,6 +122,7 @@
 0 STEP
 1 71 0 0 0 0.866025 -0.5 0 0.5 0.866025 0 0 0 1 30055 - Wing Bottom.ldr
 
+0 STEP
 0 FILE 30055 - Wing Bottom.ldr
 0 A mirrored lower wing section with curved slope surfaces, a clipped plate for mounting, dark blue plating, and a grille tile accent.
 0 Name: 30055 - Wing Bottom.ldr

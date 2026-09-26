@@ -10,6 +10,7 @@
 1 16 65.2247 32 -90 1 0 0 0 1 0 0 0 1 6536 - minifig.ldr
 
 
+0 STEP
 0 FILE 6536 - plane.ldr
 0 A compact red and white airplane built with wing plates, wedge slopes, a steering wheel, and landing gear, mounted on a bracket base.
 0 Name: 6536 - plane.ldr
@@ -106,6 +107,7 @@
 1 0 -40.015 -18 40.12 0 0 -1 0 1 0 1 0 0 3139.DAT
 
 
+0 STEP
 0 FILE 6536 - minifig.ldr
 0 A pilot minifigure with a blue helmet and visor, brown bomber jacket torso, and light grey legs.
 0 Name: 6536 - minifig.ldr

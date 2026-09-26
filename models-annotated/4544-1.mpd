@@ -12,6 +12,7 @@
 1 14 -239.99 -9 -50 1 0 0 0 1 0 0 0 1 4544 - train car.ldr
 
 
+0 STEP
 0 FILE 4544 - ramp.ldr
 0 Red-and-grey sloped loading ramp built on a large light-grey base with a turntable, designed to connect ground level to railway wagons.
 0 Name: 4544 - ramp.ldr
@@ -49,6 +50,7 @@
 1 4 -27.335 -32.79 9.99 -1 0 0 0 1 0 0 0 -1 3403.dat
 
 
+0 STEP
 0 FILE 4544 - ramp - part.ldr
 0 Red ramp section with 45-degree slopes, hinges, signal masts, and a turntable base forming an adjustable inclined deck.
 0 Name: 4544 - ramp - part.ldr
@@ -117,6 +119,7 @@
 1 4 10 -80.79 -40 0 0 -1 0 1 0 1 0 0 3937.DAT
 
 
+0 STEP
 0 FILE 4544 - ramp - subpart A.ldr
 0 Light-grey fenced platform section with lattice fences, brackets, and yellow logo tiles mounted on a turntable top.
 0 Name: 4544 - ramp - subpart A.ldr
@@ -163,6 +166,7 @@
 1 14 -59.99 -24 71.995 1 0 0 0 0 1 0 -1 0 168265b.dat
 
 
+0 STEP
 0 FILE 4544 - ramp - subpart B.ldr
 0 Small yellow hinged tile assembly forming a connecting flap or step for the ramp structure.
 0 Name: 4544 - ramp - subpart B.ldr
@@ -181,6 +185,7 @@
 1 14 0 -4 -30 0 0 -1 0 1 0 1 0 0 4275B.DAT
 
 
+0 STEP
 0 FILE 4544 - train car.ldr
 0 Red railway flatcar with black underframe, magnetic couplings, buffer beams, bogie wheels, and hinged roof-style deck details for car transport.
 0 Name: 4544 - train car.ldr
@@ -275,6 +280,7 @@
 1 16 -140 -82.9632 -59.8924 -1 0 0 0 0 1 0 1 0 168265a.dat
 
 
+0 STEP
 0 FILE 4544 - car.ldr
 0 Road vehicle built on a black car base with four treaded tyres, steering wheel, mudguards, and curved bodywork in the main colour.
 0 Name: 4544 - car.ldr
@@ -367,6 +373,7 @@
 1 43 30 -87 -0.01 0 0 -1 0 1 0 1 0 0 2437.DAT
 
 
+0 STEP
 0 FILE 4544 - minifig.ldr
 0 Minifigure driver with red hair, black torso, blue legs, and standard grinning head with sunglasses.
 0 Name: 4544 - minifig.ldr

@@ -8,6 +8,7 @@
 1 16 0 -128 0 1 0 0 0 0.985 -0.175 0 0.175 0.985 42081 - zeux.ldr
 
 
+0 STEP
 0 FILE 42081 - steerrack.ldr
 0 Steering rack assembly using a gear rack, liftarms, cross blocks, and axles to translate rotational motion into linear steering movement.
 0 Name: 42081 - steerrack.ldr
@@ -48,6 +49,7 @@
 1 71 -120 -10 -20 0 1 0 -1 0 0 0 0 1 3673.dat
 
 
+0 STEP
 0 FILE 42081 - steergear.ldr
 0 Steering gear mechanism built around an open-center liftarm frame with a 12-tooth double bevel gear and axles for steering input.
 0 Name: 42081 - steergear.ldr
@@ -86,6 +88,7 @@
 1 0 -50 0 40 1 0 0 0 0 -1 0 1 0 2780.dat
 
 
+0 STEP
 0 FILE 42081 - chassisback.ldr
 0 Rear chassis frame section constructed from long liftarms, bent liftarms, and open-center beams forming a structural backbone.
 0 Name: 42081 - chassisback.ldr
@@ -155,6 +158,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42081 - steertransmit.ldr
 0 Steering transmission linkage using a universal joint assembly, bevel gears, and a T-shaped beam to route steering motion through angles.
 0 Name: 42081 - steertransmit.ldr
@@ -200,6 +204,7 @@
 1 0 0 0 -100 0 1 0 0 0 1 1 0 0 3706.dat
 
 
+0 STEP
 0 FILE 42081 - reararm.ldr
 0 Rear lifting arm assembly with long bent liftarms, an angle connector, and pins forming an articulated boom structure.
 0 Name: 42081 - reararm.ldr
@@ -251,6 +256,7 @@
 1 1 -60 0 -160 1 0 0 0 0 -1 0 1 0 6558.dat
 
 
+0 STEP
 0 FILE 42081 - reararmside1.ldr
 0 Left side of the rear arm built from bent and straight liftarms connected with long friction pins, providing lateral boom support.
 0 Name: 42081 - reararmside1.ldr
@@ -291,6 +297,7 @@
 1 0 80 0 20 0 0 -1 0 1 0 1 0 0 32054.dat
 
 
+0 STEP
 0 FILE 42081 - reararmside2.ldr
 0 Right side of the rear arm built from bent and straight liftarms connected with long friction pins, providing lateral boom support.
 0 Name: 42081 - reararmside2.ldr
@@ -331,6 +338,7 @@
 1 0 -80 0 20 0 0 -1 0 1 0 1 0 0 32054.dat
 
 
+0 STEP
 0 FILE 42081 - sidepanel1.ldr
 0 Left body side panel featuring smooth fairing panels, long liftarms, and orange elbow cylinders for decorative bodywork.
 0 Name: 42081 - sidepanel1.ldr
@@ -380,6 +388,7 @@
 1 25 120 40 -40 0 0 -1 0 -1 0 -1 0 0 25214.dat
 
 
+0 STEP
 0 FILE 42081 - sidepanel2.ldr
 0 Right body side panel featuring smooth fairing panels, long liftarms, and orange elbow cylinders for decorative bodywork.
 0 Name: 42081 - sidepanel2.ldr
@@ -429,6 +438,7 @@
 1 25 -120 40 -40 -1 0 0 0 -1 0 0 0 1 25214.dat
 
 
+0 STEP
 0 FILE 42081 - brace.ldr
 0 Structural cross brace using a long liftarm, bent liftarms, and short beams to connect and reinforce the chassis.
 0 Name: 42081 - brace.ldr
@@ -465,6 +475,7 @@
 1 0 -116 0 -48 0.8 0 -0.6 0 -1 0 -0.6 0 -0.8 42081 - 33299b.dat
 
 
+0 STEP
 0 FILE 42081 - rearaxle.ldr
 0 Rear axle assembly incorporating drive beams, a gear rack, multiple axles, and open-center frames forming the rear wheel and drive structure.
 0 Name: 42081 - rearaxle.ldr
@@ -708,6 +719,7 @@
 1 4 -120 -100 -60 -1 0 0 0 0 -1 0 -1 0 32062.dat
 
 
+0 STEP
 0 FILE 42081 - laarm.ldr
 0 Linear actuator arm subassembly with a 9V geared motor, linear actuator body and piston, bevel gears, and a hinged bracket mount for powered digging motion.
 0 Name: 42081 - laarm.ldr
@@ -755,6 +767,7 @@
 1 0 -50 -20 50 1 0 0 0 1 0 0 0 1 2780.dat
 
 
+0 STEP
 0 FILE 42081 - digarm.ldr
 0 Articulated digging arm with long bent liftarms, universal joints, bevel gears, and numerous pins forming the extendable excavation boom.
 0 Name: 42081 - digarm.ldr
@@ -919,6 +932,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42081 - body.ldr
 0 Main body superstructure assembled from bent and long liftarms, tiles, axle joiners, and pins forming the cab and engine compartment frame.
 0 Name: 42081 - body.ldr
@@ -1255,6 +1269,7 @@
 1 43 -140 -172 -252 -1 0 0 0 0 1 0 1 0 98138.dat
 
 
+0 STEP
 0 FILE 42081 - rack.ldr
 0 Gear rack assembly with a 14-stud rack element, bent liftarms, and an axle providing a linear gear track.
 0 Name: 42081 - rack.ldr
@@ -1287,6 +1302,7 @@
 1 71 60 0 -130 0 0 1 1 0 0 0 1 0 3713.dat
 
 
+0 STEP
 0 FILE 42081 - rackhousing.ldr
 0 Rack housing structure enclosing a gear rack using bent liftarms, perpendicular axle pins, and friction pins to form the rack mount.
 0 Name: 42081 - rackhousing.ldr
@@ -1340,6 +1356,7 @@
 1 0 -50 0 -140 -1 0 0 0 0 -1 0 -1 0 2780.dat
 
 
+0 STEP
 0 FILE 42081 - bodytop.ldr
 0 Body roof and top frame with long liftarms, axles, and two silver propeller blades forming exhaust or ventilation detailing.
 0 Name: 42081 - bodytop.ldr
@@ -1412,6 +1429,7 @@
 1 179 20 -20 -60 0 1 0 0 0 -1 -1 0 0 87751.dat
 
 
+0 STEP
 0 FILE 42081 - control1.ldr
 0 Left operator control console with bent panels, angle connectors, cross blocks, plates, and indicator tiles (green and red) representing controls.
 0 Name: 42081 - control1.ldr
@@ -1495,6 +1513,7 @@
 1 0 -30 10 20 0 0 -1 -1 0 0 0 1 0 2780.dat
 
 
+0 STEP
 0 FILE 42081 - bodydoor1.ldr
 0 Left cab door assembly with bent liftarms, dark bluish-grey panels, towball pins, and axle joiners forming an opening door panel.
 0 Name: 42081 - bodydoor1.ldr
@@ -1593,6 +1612,7 @@
 1 0 -250 32 -84 -1 0 0 0 0.8 0.6 0 0.6 -0.8 2780.dat
 
 
+0 STEP
 0 FILE 42081 - control2.ldr
 0 Right operator control console with bent panels, angle connectors, cross blocks, plates, and indicator tiles (green and red) representing controls.
 0 Name: 42081 - control2.ldr
@@ -1676,6 +1696,7 @@
 1 0 -30 -10 20 0 0 -1 -1 0 0 0 1 0 2780.dat
 
 
+0 STEP
 0 FILE 42081 - bodydoor2.ldr
 0 Right cab door assembly with bent liftarms, dark bluish-grey panels, towball pins, and axle joiners forming an opening door panel.
 0 Name: 42081 - bodydoor2.ldr
@@ -1774,6 +1795,7 @@
 1 0 250 32 -84 -1 0 0 0 0.8 0.6 0 0.6 -0.8 2780.dat
 
 
+0 STEP
 0 FILE 42081 - rearlight1.ldr
 0 Left rear light cluster with bent liftarms, a short liftarm, and red translucent tiles forming tail lights.
 0 Name: 42081 - rearlight1.ldr
@@ -1816,6 +1838,7 @@
 1 36 36 0 -30 0 -1 0 0 0 1 -1 0 0 3069b.dat
 
 
+0 STEP
 0 FILE 42081 - rearlight2.ldr
 0 Right rear light cluster with bent liftarms, a short liftarm, and red translucent tiles forming tail lights.
 0 Name: 42081 - rearlight2.ldr
@@ -1858,6 +1881,7 @@
 1 36 36 0 30 0 -1 0 0 0 1 -1 0 0 3069b.dat
 
 
+0 STEP
 0 FILE 42081 - bodygrid.ldr
 0 Body grille/vent assembly using bent quarter-ellipse liftarms, cross blocks, short beams, and translucent blue tiles forming a radiator grille.
 0 Name: 42081 - bodygrid.ldr
@@ -1898,6 +1922,7 @@
 1 43 60 -18 20 1 0 0 0 1 0 0 0 1 98138.dat
 
 
+0 STEP
 0 FILE 42081 - sidepanel3.ldr
 0 Yellow Technic side panel assembly using smooth fairing panels, beams, and cross blocks joined with friction pins.
 0 Name: 42081 - sidepanel3.ldr
@@ -1932,6 +1957,7 @@
 1 14 60 0 0 0 1 0 -1 0 0 0 0 1 42003.dat
 
 
+0 STEP
 0 FILE 42081 - sidepanel4.ldr
 0 Mirrored yellow Technic side panel with matching fairing panels, beam, and cross blocks connected via friction pins.
 0 Name: 42081 - sidepanel4.ldr
@@ -1966,6 +1992,7 @@
 1 14 60 0 0 0 1 0 -1 0 0 0 0 1 42003.dat
 
 
+0 STEP
 0 FILE 42081 - camera.ldr
 0 Compact light bluish grey camera module with socket joint, ball connector, constraction shells, and an axle-supported mount.
 0 Name: 42081 - camera.ldr
@@ -2000,6 +2027,7 @@
 1 0 0 16 135 -1 0 0 0 0 1 0 1 0 42081 - stringStudsLQ-1.ldr
 
 
+0 STEP
 0 FILE 42081 - stringStudsLQ-1.ldr
 0 LDCad-generated flexible rope/string assembly with stud ends spanning approximately 66.65 mm across 54 segments.
 0 Name: 42081 - stringStudsLQ-1.ldr
@@ -2053,6 +2081,7 @@
 
 
 
+0 STEP
 0 FILE 42081 - stringStudsLQ-1_subPart1.ldr
 0 Internal subpart of the LDCad rope composed of 54 cylindrical segments forming the curved string body.
 0 Name: 42081 - stringStudsLQ-1_subPart1.ldr
@@ -2184,6 +2213,7 @@
 1 16 -0.020282 -115.543023 11.035784 1.498959 0.150069 0.000773 -0.055795 4.01788 0.098603 0.002902 -0.264768 1.496755 4-4cyli.dat
 
 
+0 STEP
 0 FILE 42081 - wheel1.ldr
 0 Large yellow tractor wheel with 56mm rim, black tyre, dish hub, and spoke-mounted constraction shells.
 0 Name: 42081 - wheel1.ldr
@@ -2229,6 +2259,7 @@
 1 14 -30 20 -48 0 1 0 -1 0 0 0 0 1 42081 - 28220.dat
 
 
+0 STEP
 0 FILE 42081 - wheel2.ldr
 0 Large yellow tractor wheel matching wheel1, with 56mm rim, black tyre, and spoke-mounted shells.
 0 Name: 42081 - wheel2.ldr
@@ -2274,6 +2305,7 @@
 1 14 -30 20 48 0 1 0 1 0 0 0 0 -1 42081 - 28220.dat
 
 
+0 STEP
 0 FILE 42081 - drone.ldr
 0 Quad-propeller drone submodel with black beams, angle connectors, four 3-blade propellers, and a rapier-style antenna element.
 0 Name: 42081 - drone.ldr
@@ -2353,6 +2385,7 @@
 1 0 0 -13 0 0 0 1 0 1 0 -1 0 0 93550.dat
 
 
+0 STEP
 0 FILE 42081 - zeux.ldr
 0 Main chassis of the Volvo Zeux concept loader, built from numerous beams, pins, steering bearings, and axle components.
 0 Name: 42081 - zeux.ldr
@@ -2933,6 +2966,7 @@
 1 0 0 -240 630 1 0 0 0 1 0 0 0 1 42081 - drone.ldr
 
 
+0 STEP
 0 FILE 42081 - 10197.dat
 0 Primitive Technic connector part combining cylindrical sections and perpendicular axle joints.
 0 Name: 42081 - 10197.dat
@@ -3007,6 +3041,7 @@
 0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=A 6 20] [slide=true]
 0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=A 6 20] [slide=true]
 
+0 STEP
 0 FILE 42081 - 33299b.dat
 0 Primitive Technic connector primitive with axle and peg holes plus ring and disc surfaces.
 0 Name: 42081 - 33299b.dat
@@ -3044,6 +3079,7 @@
 4 16 6.36 10 33.637001 3.444 10 31.684999 3.062 10 32.609001 5.657 10 34.342999
 4 16 3.444 10 31.684999 0 10 31 0 10 32 3.062 10 32.609001
 
+0 STEP
 0 FILE 42081 - 23801.dat
 0 Large primitive wheel rim part defined by concentric rings, circles, and cylinders of various radii.
 0 Name: 42081 - 23801.dat
@@ -3142,6 +3178,7 @@
 0 // Technic Connector Hole One-Sided (main_colour)
 1 16 0 -20 0 -1 0 0 0 1 0 0 0 1 connhol3.dat
 
+0 STEP
 0 FILE 42081 - 32198.dat
 0 Primitive Technic axle connector built from cylinders, rings, rectangles, and a cone section.
 0 Name: 42081 - 32198.dat
@@ -3386,6 +3423,7 @@
 0 !LDCAD SNAP_CLEAR 
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 6 3   A 6 7] [center=true] [slide=true]
 
+0 STEP
 0 FILE 42081 - 60176.dat
 0 Primitive gear or hub part composed of axle holes, tooth surfaces, and cylindrical ring geometry.
 0 Name: 42081 - 60176.dat
@@ -3611,6 +3649,7 @@
 4 16 -10 -9 10 -10 -9 0 10 -9 0 10 -9 10
 4 16 10 9 10 10 9 0 -10 9 0 -10 9 10
 
+0 STEP
 0 FILE 42081 - 27940.dat
 0 Primitive Technic long connector with perpendicular axle joints and central connector hole.
 0 Name: 42081 - 27940.dat
@@ -3646,6 +3685,7 @@
 0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=A 6 20]
 0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=A 6 20]
 
+0 STEP
 0 FILE 42081 - 28220.dat
 0 Empty Technic part file containing no directly-listed pieces.
 0 Name: 42081 - 28220.dat
@@ -3676,6 +3716,7 @@
 2 24 20 -3.225 -9.791 15.012 -3.214 -16.886999
 2 24 15.012 -3.214 -16.886999 14.41 -40 -12.6983
 
+0 STEP
 0 FILE 42081 - ldcLQRopeSeg.dat
 0 Single cylindrical segment primitive used as a unit in the LDCad flexible rope.
 0 Name: 42081 - ldcLQRopeSeg.dat
@@ -3690,6 +3731,7 @@
 0 // Cylinder 1.0 (main_colour)
 1 16 0 0 0 1.5 0 0 0 1 0 0 0 1.5 4-4cyli.dat
 
+0 STEP
 0 FILE 42081 - ldcRopeEnd.dat
 0 Single cylindrical segment primitive forming the end cap of the LDCad rope.
 0 Name: 42081 - ldcRopeEnd.dat
@@ -3704,6 +3746,7 @@
 0 // Cylinder 1.0 (main_colour)
 1 16 0 0 0 1.5 0 0 0 4 0 0 0 1.5 4-4cyli.dat
 
+0 STEP
 0 FILE 42081 - 23798.dat
 0 Tyre nomenclature metadata primitive defining width, profile, and rim diameter specifications.
 0 Name: 42081 - 23798.dat
@@ -4156,6 +4199,7 @@
 0 BFC INVERTNEXT
 1 16 0 0 -20 15.8889 0 0 0 0 15.8889 0 -30 0 48\4-4con7.dat
 
+0 STEP
 0 FILE 42081 - 32200.dat
 0 Flexible Technic axle part consisting of a cross-axle main section with mixed cylinder and cross-axle skinny tip segments.
 0 Name: 42081 - 32200.dat
@@ -4289,6 +4333,7 @@
 0 !LDCAD SNAP_CLEAR 
 0 !LDCAD SNAP_CYL [gender=M] [caps=none] [secs=R 4 20   R 6 200   R 4 20] [center=true] [slide=true]
 
+0 STEP
 0 FILE s\42081 - 23801s01.dat
 0 Subprimitive of the 23801 wheel rim defining its curved profile through nested cones, rings, and cylinders.
 0 Name: s\42081 - 23801s01.dat
@@ -4775,6 +4820,7 @@
 3 16 9.6 -13.4026 -3.4442 8.3149 -14.2614 -3.4442 6.42908 -15.5212 -6.3
 5 24 6.42908 -15.5212 -15 6.42908 -15.5212 -6.3 9.5671 -13.4246 -15 -0.000136 -16.800446 -15
 
+0 STEP
 0 FILE 42081 - npeghol3.dat
 0 Primitive Technic peg hole part constructed from cylinders, rings, and boxes.
 0 Name: 42081 - npeghol3.dat
@@ -4820,6 +4866,7 @@
 0 // Box with  2 Faces without  7 Edges (main_colour)
 1 16 2.7222 0.5 -3.041 0 -0.72215 0 0.5 0 0 0 0.14395 1.5 box2-7.dat
 
+0 STEP
 0 FILE s\42081 - faxle1.dat
 0 Subprimitive defining a section of a flexible Technic axle with perimeter, base surface, and inner edge geometry.
 0 Name: s\42081 - faxle1.dat
@@ -4854,6 +4901,7 @@
 0 // Technic Axle Perimeter (main_colour)
 1 16 0.4 0 0 0 -0.4 0 -1 0 0 0 0 1 axlehol8.dat
 
+0 STEP
 0 FILE s\42081 - faxle2.dat
 0 Subprimitive segment of a flexible Technic axle with perimeter, base, and edge surfaces around a cylinder.
 0 Name: s\42081 - faxle2.dat
@@ -4882,6 +4930,7 @@
 0 // Cylinder 1.0 (main_colour)
 1 16 0 0 0 0 0.8 0 6 0 0 0 0 6 4-4cyli.dat
 
+0 STEP
 0 FILE s\42081 - faxle3.dat
 0 Subprimitive segment of a flexible Technic axle mirroring faxle2 with cylindrical body and axle edge details.
 0 Name: s\42081 - faxle3.dat
@@ -4910,6 +4959,7 @@
 0 // Technic Axle Perimeter (main_colour)
 1 16 1.2 0 0 0 -1.2 0 -1 0 0 0 0 1 axlehol8.dat
 
+0 STEP
 0 FILE s\42081 - faxle4.dat
 0 A Technic axle primitive formed from base surfaces, perimeter, and inner tooth edges around a central cylinder.
 0 Name: s\42081 - faxle4.dat
@@ -4938,6 +4988,7 @@
 0 // Cylinder 1.0 (main_colour)
 1 16 0 0 0 0 1.6 0 6 0 0 0 0 6 4-4cyli.dat
 
+0 STEP
 0 FILE s\42081 - faxle5.dat
 0 A Technic axle primitive with perimeter, inner edges, tooth outer edges, and a central cylinder forming an axle shaft.
 0 Name: s\42081 - faxle5.dat
@@ -4966,6 +5017,7 @@
 0 // Technic Axle Perimeter (main_colour)
 1 16 2 0 0 0 -2 0 -1 0 0 0 0 1 axlehol8.dat
 
+0 STEP
 0 FILE 42081 - toothb20.dat
 0 A gear tooth submodel with no direct pieces, serving as a placeholder reference geometry.
 0 Name: 42081 - toothb20.dat
@@ -5011,6 +5063,7 @@
 5 24 1.582 0 0 0 -6.13 2 0 -3.13 0 2.07 -6.13 6.5
 5 24 0 -6.13 2 -1.582 0 0 0 -3.13 0 -2.07 -6.13 6.5
 
+0 STEP
 0 FILE 42081 - axleconnect.dat
 0 An axle connector primitive built from sloped cylinders, circles, and chords forming a cylindrical joint.
 0 Name: 42081 - axleconnect.dat
@@ -5042,6 +5095,7 @@
 0 // Circle 0.25 (main_colour)
 1 16 0 0 0 0 0 9 -9 -1 0 -9 0 0 1-4edge.dat
 
+0 STEP
 0 FILE s\42081 - 33299s01.dat
 0 A complex Technic connector submodel with multiple rings, cylinders, pins, and discs forming a geared or rotational element.
 0 Name: s\42081 - 33299s01.dat
@@ -5312,6 +5366,7 @@
 5 24 -4.9498 0 35.050098 -4.9498 10 35.050098 -6 0 36.661999 -2.6788 0 33.5327
 5 24 4.9497 10 35.050301 4.9498 0 35.050201 6 0 36.661999 2.6788 10 33.5327
 
+0 STEP
 0 FILE s\42081 - 60176s01.dat
 0 A simple Technic bushing or collar primitive formed from paired cylinders, circles, and rings.
 0 Name: s\42081 - 60176s01.dat
@@ -5342,6 +5397,7 @@
 3 16 -10 -9 0 0 -9 -10 10 -9 0
 3 16 10 9 0 0 9 -10 -10 9 0
 
+0 STEP
 0 FILE 42081 - ballsocketr1.dat
 0 A ball socket joint primitive with discs, sloped cylinders, and rectangles forming a rounded socket cavity.
 0 Name: 42081 - ballsocketr1.dat
@@ -5559,6 +5615,7 @@
 5 24 11.084 -6.25 -0.106 14 -2.9851 -2.7936 11.146 -2.45 1.45 12.714 -6.25 -2.546
 5 24 12.714 -6.25 -2.546 14 -5.5154 -4.4846 14 -2.9851 -2.7936 14 -6.25 -5.457
 
+0 STEP
 0 FILE 42081 - npeghol6c.dat
 0 A Technic peg hole connector primitive made from rectangles, small circles, and a thin cylinder with a negative disc.
 0 Name: 42081 - npeghol6c.dat
@@ -5582,6 +5639,7 @@
 0 // Circle 0.125 (main_colour)
 1 16 0 0 0 9 0 0 0 1 0 0 0 9 1-8edge.dat
 
+0 STEP
 0 FILE s\42081 - 28220s01.dat
 0 A bracket or beam submodel constructed from circles, discs, cylinders, and rectangular plates with multiple edges.
 0 Name: s\42081 - 28220s01.dat
@@ -5965,6 +6023,7 @@
 5 24 -8.513 10.663 -14.703 -8.497 3.184 -9 -8.5 16.82 -13.587 -8.5 3.185 -13.846
 5 24 -3.8946 0.5299 -13.572701 -5.448 1.418 -10.002 -8.497 3.184 -9 -3.8908 0.549 -9.999
 
+0 STEP
 0 FILE s\42081 - 23798s01.dat
 0 A submodel shell reference with no direct pieces, acting as a container for external geometry.
 0 Name: s\42081 - 23798s01.dat

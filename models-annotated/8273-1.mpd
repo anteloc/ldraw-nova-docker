@@ -14,6 +14,7 @@
 
 
 
+0 STEP
 0 FILE 8273 - m-1.ldr
 0 Structural liftarm framework with bent beams, long pins, axles, and connection plates forming a reinforced mechanical chassis.
 0 Name: 8273 - m-1.ldr
@@ -298,6 +299,7 @@
 1 71 600 0 -120 0 1 0 1 0 0 0 0 -1 3713.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1a.ldr
 0 Axle linkage assembly using a cross block connector to join a short and long axle.
 0 Name: 8273 - m-1a.ldr
@@ -315,6 +317,7 @@
 1 0 0 0 0 0 0 -1 0 1 0 1 0 0 32184.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1b.ldr
 0 Small bent liftarm joint held together by a friction pin.
 0 Name: 8273 - m-1b.ldr
@@ -332,6 +335,7 @@
 1 0 -20 0 10 0 -1 0 0 0 1 -1 0 0 2780.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1c.ldr
 0 Axle and cross block assembly with bushes and stop pins forming a rotational pivot mechanism.
 0 Name: 8273 - m-1c.ldr
@@ -363,6 +367,7 @@
 1 0 40 0 -20 0 -1 0 1 0 0 0 0 1 32054.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1d.ldr
 0 Small bent liftarm joint held together by a friction pin.
 0 Name: 8273 - m-1d.ldr
@@ -380,6 +385,7 @@
 1 0 -20 0 -10 0 -1 0 0 0 1 -1 0 0 2780.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1e.ldr
 0 Gear rack mounting assembly with liftarms and half-pins for linear motion guidance.
 0 Name: 8273 - m-1e.ldr
@@ -415,6 +421,7 @@
 0 STEP
 0
 
+0 STEP
 0 FILE 8273 - m-1ea.ldr
 0 Compact axle and cross block assembly with a stepped stop axle and half-bushes.
 0 Name: 8273 - m-1ea.ldr
@@ -435,6 +442,7 @@
 1 71 -25 0 -20 0 0 -1 -1 0 0 0 1 0 32123b.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1f.ldr
 0 Bent liftarm connector block joined by short and long axles.
 0 Name: 8273 - m-1f.ldr
@@ -455,6 +463,7 @@
 1 0 0 0 -5 1 0 0 0 0 -1 0 1 0 32056.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1g.ldr
 0 Gear train assembly with 8-tooth gears, a 4-knob gear, and axle joiners on a cross block mount.
 0 Name: 8273 - m-1g.ldr
@@ -487,6 +496,7 @@
 1 72 150 20 0 0 0 -1 0 -1 0 -1 0 0 6536.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1h.ldr
 0 Bent double liftarm connector with an axle pin and friction pins for pivoting attachment.
 0 Name: 8273 - m-1h.ldr
@@ -511,6 +521,7 @@
 1 0 -40 0 10 0 -1 0 0 0 1 -1 0 0 2780.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1i.ldr
 0 Bent double liftarm assembly with a short beam, pins, and a round pin joiner for articulated connection.
 0 Name: 8273 - m-1i.ldr
@@ -540,6 +551,7 @@
 1 0 -140 0 50 0 -1 0 0 0 1 -1 0 0 75535.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1j.ldr
 0 Long parallel beam assembly (13-stud) joined by friction pins and a twin-pin cross block for a rigid structural arm.
 0 Name: 8273 - m-1j.ldr
@@ -574,6 +586,7 @@
 1 0 330 -20 -40 1 0 0 0 1 0 0 0 1 32291.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1k.ldr
 0 Extended liftarm linkage combining 15-stud, 7-stud, and 3-stud beams with pins and an axle cross block.
 0 Name: 8273 - m-1k.ldr
@@ -615,6 +628,7 @@
 1 71 200 0 -10 0 -1 0 0 0 -1 1 0 0 4274.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1ka.ldr
 0 Simple gear-on-axle assembly with a 12-tooth double bevel gear and a bush for a rotating drive element.
 0 Name: 8273 - m-1ka.ldr
@@ -632,6 +646,7 @@
 1 71 0 0 0 0.707107 -0.707107 0 0.707107 0.707107 0 0 0 1 32270.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1l.ldr
 0 Parallel beam linkage with 7- and 5-stud liftarms joined by pins and a cross block for an articulated arm.
 0 Name: 8273 - m-1l.ldr
@@ -666,6 +681,7 @@
 1 71 -30 -40 60 -1 0 0 0 0 -1 0 -1 0 3673.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1m.ldr
 0 Short axle connector using an offset joiner and a notched 2-stud axle.
 0 Name: 8273 - m-1m.ldr
@@ -681,6 +697,7 @@
 1 4 0 0 -15 0 0 1 0 1 0 -1 0 0 32062.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1n.ldr
 0 Long parallel beam assembly (13-stud) joined by friction pins and a twin-pin cross block for a rigid structural arm.
 0 Name: 8273 - m-1n.ldr
@@ -714,6 +731,7 @@
 1 0 330 -20 0 1 0 0 0 1 0 0 0 1 32291.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1o.ldr
 0 Gear drive assembly with a 12-tooth double bevel gear mounted on a 6-stud axle with bushes and an offset joiner.
 0 Name: 8273 - m-1o.ldr
@@ -739,6 +757,7 @@
 1 71 0 0 10 0 1 0 -1 0 0 0 0 1 3713.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1p.ldr
 0 Axle and cross block linkage assembly joining multiple axles via three cross blocks for a multi-axis joint.
 0 Name: 8273 - m-1p.ldr
@@ -764,6 +783,7 @@
 1 0 -40 -20 50 0 1 0 0 0 -1 -1 0 0 3705.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1q.ldr
 0 Extended liftarm linkage combining 15-stud, 7-stud, and 3-stud beams with pins for a long structural arm.
 0 Name: 8273 - m-1q.ldr
@@ -797,6 +817,7 @@
 1 71 -162 0 -40 -1 0 0 0 -1 0 0 0 1 8273 - m-1qa.ldr
 0
 
+0 STEP
 0 FILE 8273 - m-1qa.ldr
 0 Compact cross block and twin axle-pin joint for connecting perpendicular axles.
 0 Name: 8273 - m-1qa.ldr
@@ -814,6 +835,7 @@
 1 1 -100 0 30 0 1 0 0 0 -1 -1 0 0 43093.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1r.ldr
 0 Bent liftarm joint assembly with multiple 90-degree bent liftarms and studded axles for a reinforced corner bracket.
 0 Name: 8273 - m-1r.ldr
@@ -845,6 +867,7 @@
 1 0 60 -40 -5 0 1 0 0 0 1 1 0 0 2780.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1s.ldr
 0 Articulated connector assembly with an angle connector, bent liftarm, cross block, and pins for a pivoting linkage.
 0 Name: 8273 - m-1s.ldr
@@ -882,6 +905,7 @@
 1 1 20 -80 10 0 0 1 0 1 0 -1 0 0 43093.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1sa.ldr
 0 Bent liftarm connector with a cross block and pins for an articulated joint.
 0 Name: 8273 - m-1sa.ldr
@@ -905,6 +929,7 @@
 1 71 -60 -60 0 0 0 1 0 1 0 -1 0 0 42003.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1t.ldr
 0 Small gear and axle assembly with an offset joiner forming a compact drivetrain segment.
 0 Name: 8273 - m-1t.ldr
@@ -923,6 +948,7 @@
 1 71 30 0 0 0 0 -1 0 1 0 1 0 0 32270.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1u.ldr
 0 Bent 90-degree liftarm structure reinforced with beams and long friction pins.
 0 Name: 8273 - m-1u.ldr
@@ -956,6 +982,7 @@
 1 72 20 -60 80 0 -1 0 -1 0 0 0 0 -1 40490.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1ua.ldr
 0 Cross block and axle assembly with a 12-tooth bevel gear and bushing for a geared linkage.
 0 Name: 8273 - m-1ua.ldr
@@ -981,6 +1008,7 @@
 1 71 0 -20 0 1 0 0 0 0 -1 0 1 0 3713.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1v.ldr
 0 Simple cross block connector joined with a friction axle pin.
 0 Name: 8273 - m-1v.ldr
@@ -996,6 +1024,7 @@
 1 1 -10 -20 0 1 0 0 0 0 1 0 -1 0 43093.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1w.ldr
 0 Long axle secured with a stop-bush pin for a pivoting or sliding joint.
 0 Name: 8273 - m-1w.ldr
@@ -1011,6 +1040,7 @@
 1 0 80 0 0 1 0 0 0 0 1 0 -1 0 32054.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1x.ldr
 0 Complete Technic turntable assembly (base and top) for rotational mounting.
 0 Name: 8273 - m-1x.ldr
@@ -1031,6 +1061,7 @@
 0 Sticker
 0
 
+0 STEP
 0 FILE 8273 - m-1xa.ldr
 0 Two-pin connector pair using a stop-bush pin and friction axle pin.
 0 Name: 8273 - m-1xa.ldr
@@ -1046,6 +1077,7 @@
 1 1 0 0 30 0 -1 0 0 0 1 -1 0 0 43093.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1y.ldr
 0 Single blue Technic beam used as a structural or marker element.
 0 Name: 8273 - m-1y.ldr
@@ -1060,6 +1092,7 @@
 0 Sticker
 0
 
+0 STEP
 0 FILE 8273 - m-1z.ldr
 0 Single blue Technic beam used as a structural or marker element.
 0 Name: 8273 - m-1z.ldr
@@ -1075,6 +1108,7 @@
 0 Sticker
 0
 
+0 STEP
 0 FILE 8273 - m-1a'.ldr
 0 Large structural frame built from triangle liftarms, long beams, and numerous pins forming a braced chassis section.
 0 Name: 8273 - m-1a'.ldr
@@ -1164,6 +1198,7 @@
 1 72 40 20 0 1 0 0 0 -1 0 0 0 -1 32524.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1a'a.ldr
 0 Stopped axle joined through a cross block to create a constrained pivot point.
 0 Name: 8273 - m-1a'a.ldr
@@ -1179,6 +1214,7 @@
 1 71 0 0 0 0 -1 0 1 0 0 0 0 1 42003.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1b'.ldr
 0 Paired bent liftarms with a beam and axle pins forming an angled linkage arm.
 0 Name: 8273 - m-1b'.ldr
@@ -1205,6 +1241,7 @@
 1 0 -100 0 -25 0 0 -1 1 0 0 0 -1 0 32524.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1c'.ldr
 0 Paired bent liftarms with a beam and axle pins forming an angled linkage arm.
 0 Name: 8273 - m-1c'.ldr
@@ -1231,6 +1268,7 @@
 1 0 -100 0 25 0 0 -1 1 0 0 0 -1 0 32524.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1d'.ldr
 0 Beam fitted with a grooved tile and translucent round plates, forming a sensor or light cluster.
 0 Name: 8273 - m-1d'.ldr
@@ -1261,6 +1299,7 @@
 0 Sticker
 0
 
+0 STEP
 0 FILE 8273 - m-1e'.ldr
 0 Offset axle joiner with an axle pin and short axle for a compact connector.
 0 Name: 8273 - m-1e'.ldr
@@ -1279,6 +1318,7 @@
 1 71 0 0 -30 0 0 1 0 1 0 -1 0 0 4519.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1f'.ldr
 0 Long 13-stud beam with cross block and stop-bush pins forming an extended lever arm.
 0 Name: 8273 - m-1f'.ldr
@@ -1304,6 +1344,7 @@
 1 0 -120 0 120 0 -1 0 0 0 -1 1 0 0 32054.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1g'.ldr
 0 13-stud beam terminated with a cross block connector and friction pin.
 0 Name: 8273 - m-1g'.ldr
@@ -1321,6 +1362,7 @@
 1 72 0 -20 -20 -1 0 0 0 1 0 0 0 -1 6536.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1h'.ldr
 0 Bent 90-degree liftarm pair joined to beams with long pins forming a reinforced bracket.
 0 Name: 8273 - m-1h'.ldr
@@ -1354,6 +1396,7 @@
 1 0 -100 -60 -20 0 0 1 0 1 0 -1 0 0 6558.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1i'.ldr
 0 11-stud beam with offset axle joiners and bushes forming a parallel axle linkage.
 0 Name: 8273 - m-1i'.ldr
@@ -1389,6 +1432,7 @@
 1 71 100 0 70 0 1 0 0 0 -1 -1 0 0 4519.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1j'.ldr
 0 11-stud beam with multiple offset joiners, bushes, and axle pins forming a multi-axle connector block.
 0 Name: 8273 - m-1j'.ldr
@@ -1428,6 +1472,7 @@
 1 1 60 0 100 -1 0 0 0 -1 0 0 0 1 43093.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1k'.ldr
 0 9-stud beam with bent liftarms, offset joiners, and pins forming a complex pivoting linkage.
 0 Name: 8273 - m-1k'.ldr
@@ -1468,6 +1513,7 @@
 1 72 10 0 -100 0 0 1 0 1 0 -1 0 0 6538b.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1l'.ldr
 0 Complex multi-beam assembly with bent liftarms, cross blocks, and assorted axles forming an articulated mechanism.
 0 Name: 8273 - m-1l'.ldr
@@ -1542,6 +1588,7 @@
 0 
 0
 
+0 STEP
 0 FILE 8273 - m-1m'.ldr
 0 Angled connector framework using bent liftarms, angle connectors, and cross blocks forming a structural joint.
 0 Name: 8273 - m-1m'.ldr
@@ -1605,6 +1652,7 @@
 1 71 105 40 -20 0 1 0 -1 0 0 0 0 1 41677.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1m'a.ldr
 0 Triple notched axle and offset joiner set forming a compact shaft coupler.
 0 Name: 8273 - m-1m'a.ldr
@@ -1627,6 +1675,7 @@
 1 4 -40 0 0 -1 0 0 0 1 0 0 0 -1 32062.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1n'.ldr
 0 Angled connector framework using bent liftarms, angle connectors, and cross blocks forming a structural joint.
 0 Name: 8273 - m-1n'.ldr
@@ -1690,6 +1739,7 @@
 1 71 0 40 -105 0 0 1 -1 0 0 0 -1 0 41677.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1n'a.ldr
 0 Short offset axle coupling assembly made of notched axles and joiners.
 0 Name: 8273 - m-1n'a.ldr
@@ -1712,6 +1762,7 @@
 1 4 0 0 -40 0 0 1 0 1 0 -1 0 0 32062.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1o'.ldr
 0 Bent liftarm linkage assembly with a cross block and friction pins.
 0 Name: 8273 - m-1o'.ldr
@@ -1737,6 +1788,7 @@
 1 0 -30 -20 0 1 0 0 0 1 0 0 0 1 2780.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1p'.ldr
 0 Bent red liftarm bracket with blue half-beams secured by an axle pin.
 0 Name: 8273 - m-1p'.ldr
@@ -1758,6 +1810,7 @@
 1 4 -15 100 0 0 1 0 0 0 -1 -1 0 0 6629.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1q'.ldr
 0 24-tooth crown gear mounted on an axle between two half-liftarm beams.
 0 Name: 8273 - m-1q'.ldr
@@ -1778,6 +1831,7 @@
 1 0 20 0 0 0 1 0 1 0 0 0 0 -1 33299.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1r'.ldr
 0 Worm gear drive unit with an offset joiner, cross block, and bushing on axles.
 0 Name: 8273 - m-1r'.ldr
@@ -1804,6 +1858,7 @@
 1 71 0 -20 40 -1 0 0 0 0 -1 0 -1 0 32073.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1s'.ldr
 0 Long multi-beam linkage assembly combining beams of various lengths with pins.
 0 Name: 8273 - m-1s'.ldr
@@ -1839,6 +1894,7 @@
 1 0 0 -50 -100 0 0 -1 1 0 0 0 -1 0 2780.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1s'a.ldr
 0 Worm gear reduction sub-assembly with a 12-tooth bevel gear and cross blocks on axles.
 0 Name: 8273 - m-1s'a.ldr
@@ -1873,6 +1929,7 @@
 1 71 0 0 -50 1 0 0 0 -1 0 0 0 -1 3713.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1s'b.ldr
 0 Simple 8-tooth gear mounted on a black axle.
 0 Name: 8273 - m-1s'b.ldr
@@ -1888,6 +1945,7 @@
 1 71 0 0 0 0 0 1 0 1 0 -1 0 0 3647.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1t'.ldr
 0 Bent red liftarm bracket with blue half-beams and axle pins.
 0 Name: 8273 - m-1t'.ldr
@@ -1912,6 +1970,7 @@
 0 STEP
 0
 
+0 STEP
 0 FILE 8273 - m-1u'.ldr
 0 Compact liftarm assembly with a boss beam, bushing, and axle.
 0 Name: 8273 - m-1u'.ldr
@@ -1932,6 +1991,7 @@
 1 71 0 0 30 -1 0 0 0 -1 0 0 0 1 3713.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1v'.ldr
 0 Short axle with a smooth half-bush spacer.
 0 Name: 8273 - m-1v'.ldr
@@ -1947,6 +2007,7 @@
 1 71 25 0 0 0 0 1 0 1 0 -1 0 0 32123b.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1w'.ldr
 0 Black 7-stud beam fitted with two long friction pins.
 0 Name: 8273 - m-1w'.ldr
@@ -1964,6 +2025,7 @@
 1 0 20 0 -40 1 0 0 0 1 0 0 0 1 6558.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1x'.ldr
 0 Bent liftarm linkage with axle joiners, connectors, and half-bush spacers.
 0 Name: 8273 - m-1x'.ldr
@@ -1996,6 +2058,7 @@
 1 71 0 0 0 0 0.600001 0.799999 0 0.799999 -0.600001 -1 0 0 4519.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1y'.ldr
 0 Flat tan base assembly of two holed technic bricks on long plates.
 0 Name: 8273 - m-1y'.ldr
@@ -2015,6 +2078,7 @@
 1 19 0 -8 -20 1 0 0 0 1 0 0 0 1 3795.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1z'.ldr
 0 Complex geared mechanism with multiple gears, long beams, and a fairing panel.
 0 Name: 8273 - m-1z'.ldr
@@ -2183,6 +2247,7 @@
 0 GROUP 16 Technic Flex-System Hose 7L('')
 0
 
+0 STEP
 0 FILE 8273 - m-1z'a.ldr
 0 Perpendicular pin connector linkage on a dark bluish grey beam with pins.
 0 Name: 8273 - m-1z'a.ldr
@@ -2208,6 +2273,7 @@
 1 72 20 0 -100 0 -1 0 1 0 0 0 0 1 32525.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1z'b.ldr
 0 Twin perpendicular connector assembly joining two long beams with pins and cross blocks.
 0 Name: 8273 - m-1z'b.ldr
@@ -2246,6 +2312,7 @@
 1 0 120 -30 0 0 -1 0 1 0 0 0 0 1 2780.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1z'c.ldr
 0 Perpendicular pin connector linkage on a dark bluish grey beam with pins.
 0 Name: 8273 - m-1z'c.ldr
@@ -2272,6 +2339,7 @@
 1 0 20 -20 70 0 0 -1 0 1 0 1 0 0 75535.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1z'ca.ldr
 0 Short connector beam with long stop-bush pins and an axle pin.
 0 Name: 8273 - m-1z'ca.ldr
@@ -2292,6 +2360,7 @@
 1 4 0 0 40 -1 0 0 0 0 1 0 1 0 32054.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1z'd.ldr
 0 Dark bluish grey beam fitted with half-pins and clear round plates.
 0 Name: 8273 - m-1z'd.ldr
@@ -2322,6 +2391,7 @@
 1 47 100 -18 0 -1 0 0 0 1 0 0 0 -1 6141.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1z'e.ldr
 0 Blue beam linkage joined by pin joiners and friction pins.
 0 Name: 8273 - m-1z'e.ldr
@@ -2347,6 +2417,7 @@
 1 0 -100 0 -50 0 0 -1 0 1 0 1 0 0 75535.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1z'ea.ldr
 0 Bent blue liftarm fitting with a friction pin and a long pin.
 0 Name: 8273 - m-1z'ea.ldr
@@ -2367,6 +2438,7 @@
 1 0 -60 0 0 0 0 -1 0 -1 0 -1 0 0 6558.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1z'eb.ldr
 0 Bent blue liftarm fitting with a friction pin and a long pin.
 0 Name: 8273 - m-1z'eb.ldr
@@ -2387,6 +2459,7 @@
 1 0 60 0 0 0 0 -1 0 -1 0 -1 0 0 6558.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1z'f.ldr
 0 Dual bent liftarm assembly with cross blocks, axles, and friction pins.
 0 Name: 8273 - m-1z'f.ldr
@@ -2428,6 +2501,7 @@
 1 0 -40 -20 30 0 0 -1 0 1 0 1 0 0 2780.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1z'g.ldr
 0 Simple long axle extension using an offset axle joiner.
 0 Name: 8273 - m-1z'g.ldr
@@ -2443,6 +2517,7 @@
 1 72 0 -60 0 0.600001 -0.799999 0 0 0 1 -0.799999 -0.600001 0 6538b.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1z'h.ldr
 0 Bent liftarm assembly with long friction pins and axles forming an articulated Technic arm joint.
 0 Name: 8273 - m-1z'h.ldr
@@ -2483,6 +2558,7 @@
 1 72 40 -59.088 50.419 0 1 0 -0.173648 0 -0.984808 -0.984808 0 0.173648 32316.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1z'i.ldr
 0 Cross block and beam linkage with axle pins forming a pivoting connector mechanism.
 0 Name: 8273 - m-1z'i.ldr
@@ -2522,6 +2598,7 @@
 0 STEP
 0
 
+0 STEP
 0 FILE 8273 - m-1z'j.ldr
 0 Simple blue liftarm beam segment with friction pins serving as a connector link.
 0 Name: 8273 - m-1z'j.ldr
@@ -2541,6 +2618,7 @@
 1 0 0 20 0 0 0 1 0 1 0 -1 0 0 6558.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1z'k.ldr
 0 Dark bluish grey liftarm with cross block and friction pins forming a short linkage joint.
 0 Name: 8273 - m-1z'k.ldr
@@ -2561,6 +2639,7 @@
 1 71 0 -20 20 -1 0 0 0 0 1 0 1 0 42003.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1z'l.ldr
 0 Small steering wheel with angle connector and axle pin forming a control handle.
 0 Name: 8273 - m-1z'l.ldr
@@ -2578,6 +2657,7 @@
 1 1 0 -10 0 0 -1 0 -1 0 0 0 0 -1 43093.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1z'm.ldr
 0 Complex linkage assembly with long blue beam, cross blocks, and transparent round plates forming a lever mechanism with indicator lights.
 0 Name: 8273 - m-1z'm.ldr
@@ -2636,6 +2716,7 @@
 0 STEP
 0
 
+0 STEP
 0 FILE 8273 - m-1z'ma.ldr
 0 Angle connector with half-pin and two transparent orange round plates forming a light indicator tip.
 0 Name: 8273 - m-1z'ma.ldr
@@ -2656,6 +2737,7 @@
 1 57 0 -26 0 -1 0 0 0 1 0 0 0 -1 6141.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1z'n.ldr
 0 Offset axle joiner with blue liftarms and angle connectors forming a bent linkage assembly.
 0 Name: 8273 - m-1z'n.ldr
@@ -2694,6 +2776,7 @@
 1 0 -100 20 0 -1 0 0 0 -1 0 0 0 1 32192.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1z'na.ldr
 0 Offset axle joiner connecting two axles forming a parallel offset shaft coupling.
 0 Name: 8273 - m-1z'na.ldr
@@ -2711,6 +2794,7 @@
 1 71 -50 0 0 -1 0 0 0 1 0 0 0 -1 32073.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1z'nb.ldr
 0 Pair of blue liftarms joined by an axle pin forming a small connector bracket.
 0 Name: 8273 - m-1z'nb.ldr
@@ -2728,6 +2812,7 @@
 1 1 5 0 0 -1 0 0 0 -1 0 0 0 1 43093.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1z'o.ldr
 0 Long blue liftarm beam with technic brick and long pins forming a structural support arm.
 0 Name: 8273 - m-1z'o.ldr
@@ -2756,6 +2841,7 @@
 0 Sticker
 0
 
+0 STEP
 0 FILE 8273 - m-1z'p.ldr
 0 Decorative panel assembly with plates, slopes, grille tiles, and transparent round plates forming a vented body panel with lights.
 0 Name: 8273 - m-1z'p.ldr
@@ -2807,6 +2893,7 @@
 0 
 0
 
+0 STEP
 0 FILE 8273 - m-1a''.ldr
 0 Gear assembly with bent liftarms, 8-tooth and 12-tooth gears forming a geared drive linkage.
 0 Name: 8273 - m-1a''.ldr
@@ -2864,6 +2951,7 @@
 1 72 30 -20 0 -1 0 0 0 0 1 0 1 0 8273 - m-1a''g.ldr
 0
 
+0 STEP
 0 FILE 8273 - m-1a''a.ldr
 0 Axle with thin liftarm forming a simple rotating lever arm.
 0 Name: 8273 - m-1a''a.ldr
@@ -2880,6 +2968,7 @@
 0 
 0
 
+0 STEP
 0 FILE 8273 - m-1a''b.ldr
 0 Towball hook with reel forming a winch or towing attachment.
 0 Name: 8273 - m-1a''b.ldr
@@ -6312,6 +6401,7 @@
 1 72 -6 42.976 -17 0 0 -1 0 1 0 1 0 0 30395.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1a''c.ldr
 0 Bent liftarm with notched red axle forming a locking lever component.
 0 Name: 8273 - m-1a''c.ldr
@@ -6327,6 +6417,7 @@
 1 4 0 -10 0 0 1 0 -1 0 0 0 0 1 32062.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1a''d.ldr
 0 Bent liftarm with notched red axle forming a locking lever component.
 0 Name: 8273 - m-1a''d.ldr
@@ -6342,6 +6433,7 @@
 1 4 0 -10 0 0 1 0 -1 0 0 0 0 1 32062.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1a''e.ldr
 0 Long axle assembly with cross blocks and thin liftarms forming a multi-point mounting shaft.
 0 Name: 8273 - m-1a''e.ldr
@@ -6375,6 +6467,7 @@
 1 0 0 -40 0 0 1 0 0 0 -1 -1 0 0 3707.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1a''f.ldr
 0 Cross block with friction pin forming a simple pivot connector.
 0 Name: 8273 - m-1a''f.ldr
@@ -6390,6 +6483,7 @@
 1 0 10 20 0 1 0 0 0 1 0 0 0 1 2780.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1a''g.ldr
 0 Long liftarm beam with half-pins and transparent clear round plates forming a structural arm with light attachments.
 0 Name: 8273 - m-1a''g.ldr
@@ -6420,6 +6514,7 @@
 1 47 -100 -18 0 0 0 1 0 1 0 -1 0 0 6141.dat
 0
 
+0 STEP
 0 FILE 8273 - m-1b''.ldr
 0 Pair of large bent liftarms with pins forming a heavy-duty angled support strut.
 0 Name: 8273 - m-1b''.ldr
@@ -6450,6 +6545,7 @@
 0 WRITE Sticker
 0
 
+0 STEP
 0 FILE 8273 - m-1c''.ldr
 0 Pair of large bent liftarms with pins forming a heavy-duty angled support strut.
 0 Name: 8273 - m-1c''.ldr
@@ -6481,6 +6577,7 @@
 0
 0
 
+0 STEP
 0 FILE 8273 - LS50.dat
 0 Geometric primitive subpart with cylinders, circles, and rings forming a tubular surface.
 0 Name: 8273 - LS50.dat
@@ -6511,6 +6608,7 @@
 1 16 0 1 0 2 0 0 0 -1 0 0 0 -2 4-4ring1.dat
 
 
+0 STEP
 0 FILE 8273 - LS51.dat
 0 Geometric primitive subpart with cylinders and rings forming an open tubular surface.
 0 Name: 8273 - LS51.dat
@@ -6538,6 +6636,7 @@
 1 16 0 1 0 2 0 0 0 -1 0 0 0 2 4-4ring1.dat
 
 
+0 STEP
 0 FILE 8273 - LS60.dat
 0 Empty geometric primitive subpart with no direct pieces.
 0 Name: 8273 - LS60.dat

@@ -12,6 +12,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 10143 - Core.ldr
 
 
+0 STEP
 0 FILE 10143 - Core.ldr
 0 Central core hub: 6x6/4x10 base plates and 45/33-degree slopes forming the superlaser well, with technic beams and long bricks as the mounting point for every hull section
 0 Name: 10143 - Core.ldr
@@ -145,6 +146,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Core_Sub1.ldr
 0 Radial technic support arm of the core: holed technic bricks, beams 15 and 5, and pins forming one structural arm radiating from the centre
 0 Name: 10143 - Core_Sub1.ldr
@@ -200,6 +202,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Core_Sub2.ldr
 0 Rotating axle mechanism of the core: technic axles, a boat-ship wheel and red liftarms mounted on a cross block
 0 Name: 10143 - Core_Sub2.ldr
@@ -233,6 +236,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Core_Plaque.ldr
 0 Display plaque: hinged tops, plates and rows of black tiles forming the information plaque mounted on the core
 0 Name: 10143 - Core_Plaque.ldr
@@ -280,6 +284,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Core_Sub3.ldr
 0 Technic beam sub-frame of the core: beams 7 and 15 linked by pins into a radial support arm
 0 Name: 10143 - Core_Sub3.ldr
@@ -319,6 +324,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Core_Sub4.ldr
 0 Technic beam sub-frame of the core: beams 7 and 15 linked by pins into a radial support arm
 0 Name: 10143 - Core_Sub4.ldr
@@ -366,6 +372,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Core_Cross.ldr
 0 Cross-shaped internal frame: red technic 5x5 corner bricks, long plates and bricks, and red and blue tiles forming the main cross-brace inside the sphere
 0 Name: 10143 - Core_Cross.ldr
@@ -611,6 +618,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Core_Sub5.ldr
 0 Technic beam sub-frame of the core: beams 7 and 15 linked by pins into a radial support arm
 0 Name: 10143 - Core_Sub5.ldr
@@ -678,6 +686,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Core_Top.ldr
 0 Top cap of the core: an 18-degree slope brick and a locking hinge plate closing off the top of the core
 0 Name: 10143 - Core_Top.ldr
@@ -711,6 +720,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Equator-Side.ldr
 0 Flat equatorial band panel: plates, bricks and tiles forming a straight section of the Death Star's equatorial trench
 0 Name: 10143 - Equator-Side.ldr
@@ -804,6 +814,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Equator-Angled.ldr
 0 Angled equatorial band panel: locking hinge bricks and hinge plates forming a kinked section of the equatorial trench
 0 Name: 10143 - Equator-Angled.ldr
@@ -889,6 +900,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Equator-Rough.ldr
 0 Stepped equatorial band panel: hinge bricks, bricks and plates forming a rougher section of the equatorial trench
 0 Name: 10143 - Equator-Rough.ldr
@@ -994,6 +1006,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Equator-270.ldr
 0 270-degree equatorial band section: hinge bricks and long plates forming the trench near where the Super Star Destroyer is docked
 0 Name: 10143 - Equator-270.ldr
@@ -1112,6 +1125,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Equator-270_AP1.ldr
 0 Sub-assembly of the 270-degree equatorial section
 0 Name: 10143 - Equator-270_AP1.ldr
@@ -1132,6 +1146,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Equator-270_AP1_AP2.ldr
 0 Nested sub-assembly of the 270-degree equatorial section
 0 Name: 10143 - Equator-270_AP1_AP2.ldr
@@ -1149,6 +1164,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Equator-225.ldr
 0 225-degree equatorial band section forming the trench at the 225-degree position
 0 Name: 10143 - Equator-225.ldr
@@ -1244,6 +1260,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Equator-225_BP.ldr
 0 Lower half of the 225-degree equatorial section
 0 Name: 10143 - Equator-225_BP.ldr
@@ -1263,6 +1280,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Equator-225_TP.ldr
 0 Upper half of the 225-degree equatorial section
 0 Name: 10143 - Equator-225_TP.ldr
@@ -1282,6 +1300,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Shell_000.0.ldr
 0 0-degree outer hull wedge: equator panel plus top and bottom caps forming one slice of the spherical shell; also carries the docked Super Star Destroyer
 0 Name: 10143 - Shell_000.0.ldr
@@ -1300,6 +1319,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Shell_022.5.ldr
 0 022.5-degree outer hull wedge: equator panel plus top and bottom caps forming one slice of the spherical shell
 0 Name: 10143 - Shell_022.5.ldr
@@ -1317,6 +1337,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Shell_045.0.ldr
 0 045.0-degree outer hull wedge: equator panel plus top and bottom caps forming one slice of the spherical shell
 0 Name: 10143 - Shell_045.0.ldr
@@ -1334,6 +1355,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Shell_067.5.ldr
 0 067.5-degree outer hull wedge: equator panel plus top and bottom caps forming one slice of the spherical shell
 0 Name: 10143 - Shell_067.5.ldr
@@ -1351,6 +1373,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Shell_090.0.ldr
 0 090.0-degree outer hull wedge: equator panel plus top and bottom caps forming one slice of the spherical shell
 0 Name: 10143 - Shell_090.0.ldr
@@ -1368,6 +1391,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Shell_112.5.ldr
 0 112.5-degree outer hull wedge: equator panel plus top and bottom caps forming one slice of the spherical shell
 0 Name: 10143 - Shell_112.5.ldr
@@ -1385,6 +1409,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Shell_135.0.ldr
 0 135.0-degree outer hull wedge: equator panel plus top and bottom caps forming one slice of the spherical shell
 0 Name: 10143 - Shell_135.0.ldr
@@ -1402,6 +1427,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Shell_157.5.ldr
 0 157.5-degree outer hull wedge: equator panel plus top and bottom caps forming one slice of the spherical shell
 0 Name: 10143 - Shell_157.5.ldr
@@ -1419,6 +1445,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Shell_180.0.ldr
 0 180.0-degree outer hull wedge: equator panel plus top and bottom caps forming one slice of the spherical shell
 0 Name: 10143 - Shell_180.0.ldr
@@ -1436,6 +1463,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Shell_202.5.ldr
 0 202.5-degree outer hull wedge: equator panel plus top and bottom caps forming one slice of the spherical shell
 0 Name: 10143 - Shell_202.5.ldr
@@ -1453,6 +1481,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Shell_225.0.ldr
 0 225.0-degree outer hull wedge: equator panel plus top and bottom caps forming one slice of the spherical shell
 0 Name: 10143 - Shell_225.0.ldr
@@ -1468,6 +1497,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Shell_247.5.ldr
 0 247.5-degree outer hull wedge: equator panel plus top and bottom caps forming one slice of the spherical shell
 0 Name: 10143 - Shell_247.5.ldr
@@ -1483,6 +1513,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Shell_270.0.ldr
 0 270.0-degree outer hull wedge: equator panel plus top and bottom caps forming one slice of the spherical shell
 0 Name: 10143 - Shell_270.0.ldr
@@ -1498,6 +1529,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Shell_292.5.ldr
 0 292.5-degree outer hull wedge: equator panel plus top and bottom caps forming one slice of the spherical shell
 0 Name: 10143 - Shell_292.5.ldr
@@ -1513,6 +1545,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Shell_315.0.ldr
 0 315.0-degree outer hull wedge: equator panel plus top and bottom caps forming one slice of the spherical shell
 0 Name: 10143 - Shell_315.0.ldr
@@ -1528,6 +1561,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Shell_337.5.ldr
 0 337.5-degree outer hull wedge: equator panel plus top and bottom caps forming one slice of the spherical shell
 0 Name: 10143 - Shell_337.5.ldr
@@ -1544,6 +1578,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Bot-000.0.ldr
 0 Lower-hemisphere cap at 0 degrees: hinge plates and studded plates closing the bottom of the shell at the 0-degree position
 0 Name: 10143 - Bot-000.0.ldr
@@ -1618,6 +1653,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Bot-000.0_Mid.ldr
 0 Middle band of the 0-degree lower-hemisphere cap
 0 Name: 10143 - Bot-000.0_Mid.ldr
@@ -1664,6 +1700,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Bot-000.0_Mid_End.ldr
 0 Outer rim of the 0-degree lower-hemisphere cap (technic angle connectors and wing plates)
 0 Name: 10143 - Bot-000.0_Mid_End.ldr
@@ -1703,6 +1740,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Bot-180.0.ldr
 0 Lower-hemisphere cap at 180 degrees: hinge plates and studded plates closing the bottom of the shell at the 180-degree position
 0 Name: 10143 - Bot-180.0.ldr
@@ -1777,6 +1815,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Bot-180.0_Mid.ldr
 0 Middle band of the 180-degree lower-hemisphere cap
 0 Name: 10143 - Bot-180.0_Mid.ldr
@@ -1823,6 +1862,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Bot-180.0_Mid_End.ldr
 0 Outer rim of the 180-degree lower-hemisphere cap (technic angle connectors and wing plates)
 0 Name: 10143 - Bot-180.0_Mid_End.ldr
@@ -1862,6 +1902,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Bot-XXX.5.ldr
 0 Reusable half-angle lower-hemisphere cap template (used at 22.5-degree-type positions): hinge plates and studded plates closing the bottom of the shell
 0 Name: 10143 - Bot-XXX.5.ldr
@@ -1932,6 +1973,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Bot-XXX.5_Mid.ldr
 0 Middle band of the half-angle lower-hemisphere cap template
 0 Name: 10143 - Bot-XXX.5_Mid.ldr
@@ -1972,6 +2014,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Bot-XXX.5_Mid_End.ldr
 0 Outer rim of the half-angle lower-hemisphere cap template
 0 Name: 10143 - Bot-XXX.5_Mid_End.ldr
@@ -2001,6 +2044,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Bot-XXX.0.ldr
 0 Reusable cardinal lower-hemisphere cap template (used at 0/90-degree-type positions): hinge plates and studded plates closing the bottom of the shell
 0 Name: 10143 - Bot-XXX.0.ldr
@@ -2075,6 +2119,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Bot-XXX.0_Mid.ldr
 0 Middle band of the cardinal lower-hemisphere cap template
 0 Name: 10143 - Bot-XXX.0_Mid.ldr
@@ -2115,6 +2160,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Bot-XXX.0_Mid_End.ldr
 0 Outer rim of the cardinal lower-hemisphere cap template
 0 Name: 10143 - Bot-XXX.0_Mid_End.ldr
@@ -2154,6 +2200,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Bot_Sides.ldr
 0 Lower-hemisphere side panel that closes off the bottom of the shell between two cap sections
 0 Name: 10143 - Bot_Sides.ldr
@@ -2203,6 +2250,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Construction.ldr
 0 Main internal armature: long plates and bricks, technic bricks with axle holes, ladders, brackets and handles forming the large internal frame that gives the sphere its shape and rigidity
 0 Name: 10143 - Construction.ldr
@@ -3274,6 +3322,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Construction_Top.ldr
 0 Upper portion of the internal armature that supports the top hemisphere of the sphere
 0 Name: 10143 - Construction_Top.ldr
@@ -3292,6 +3341,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Construction_Top_AP.ldr
 0 Sub-assembly of the upper internal armature
 0 Name: 10143 - Construction_Top_AP.ldr
@@ -3313,6 +3363,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Top-337.5.ldr
 0 Upper-hemisphere cap at 337.5 degrees: hinge plates and studded plates closing the top of the shell at the 337.5-degree position
 0 Name: 10143 - Top-337.5.ldr
@@ -3397,6 +3448,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Top-337.5_Mid.ldr
 0 Middle band of the 337.5-degree upper-hemisphere cap
 0 Name: 10143 - Top-337.5_Mid.ldr
@@ -3445,6 +3497,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Top-337.5_Mid_End.ldr
 0 Outer rim of the 337.5-degree upper-hemisphere cap
 0 Name: 10143 - Top-337.5_Mid_End.ldr
@@ -3474,6 +3527,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Top-202.5.ldr
 0 Upper-hemisphere cap at 202.5 degrees: hinge plates and studded plates closing the top of the shell at the 202.5-degree position
 0 Name: 10143 - Top-202.5.ldr
@@ -3558,6 +3612,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Top-202.5_Mid.ldr
 0 Middle band of the 202.5-degree upper-hemisphere cap
 0 Name: 10143 - Top-202.5_Mid.ldr
@@ -3606,6 +3661,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Top-202.5_Mid_End.ldr
 0 Outer rim of the 202.5-degree upper-hemisphere cap
 0 Name: 10143 - Top-202.5_Mid_End.ldr
@@ -3635,6 +3691,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Top-000.0.ldr
 0 Upper-hemisphere cap at 0 degrees: hinge plates, studded plates and a technic axle closing the top of the shell at the 0-degree position
 0 Name: 10143 - Top-000.0.ldr
@@ -3727,6 +3784,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Top-000.0_Mid.ldr
 0 Middle band of the 0-degree upper-hemisphere cap
 0 Name: 10143 - Top-000.0_Mid.ldr
@@ -3777,6 +3835,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Top-000.0_Mid_End.ldr
 0 Outer rim of the 0-degree upper-hemisphere cap
 0 Name: 10143 - Top-000.0_Mid_End.ldr
@@ -3818,6 +3877,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Top-045.0.ldr
 0 Upper-hemisphere cap at 45 degrees: hinge plates and studded plates closing the top of the shell at the 45-degree position
 0 Name: 10143 - Top-045.0.ldr
@@ -3910,6 +3970,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Top-045.0_Mid.ldr
 0 Middle band of the 45-degree upper-hemisphere cap
 0 Name: 10143 - Top-045.0_Mid.ldr
@@ -3960,6 +4021,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Top-045.0_Mid_End.ldr
 0 Outer rim of the 45-degree upper-hemisphere cap
 0 Name: 10143 - Top-045.0_Mid_End.ldr
@@ -4001,6 +4063,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Top-022.5.ldr
 0 Upper-hemisphere cap at 22.5 degrees: hinge plates and studded plates closing the top of the shell at the 22.5-degree position
 0 Name: 10143 - Top-022.5.ldr
@@ -4073,6 +4136,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Top-022.5_AP1.ldr
 0 Sub-assembly of the 22.5-degree upper-hemisphere cap
 0 Name: 10143 - Top-022.5_AP1.ldr
@@ -4091,6 +4155,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Top-022.5_AP1_Mid.ldr
 0 Middle-band sub-assembly of the 22.5-degree upper-hemisphere cap
 0 Name: 10143 - Top-022.5_AP1_Mid.ldr
@@ -4176,6 +4241,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Top-022.5_AP1_Mid_AP2.ldr
 0 Nested sub-assembly of the 22.5-degree upper-hemisphere cap
 0 Name: 10143 - Top-022.5_AP1_Mid_AP2.ldr
@@ -4194,6 +4260,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Top-022.5_AP1_Mid_AP2_End.ldr
 0 Outer rim of the 22.5-degree upper-hemisphere cap
 0 Name: 10143 - Top-022.5_AP1_Mid_AP2_End.ldr
@@ -4231,6 +4298,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Dish-HP1.ldr
 0 Superlaser dish hinge rib A: locking hinge plates and a hinge base forming one of the dish's curved ribs
 0 Name: 10143 - Dish-HP1.ldr
@@ -4250,6 +4318,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Dish-HP2.ldr
 0 Superlaser dish hinge rib B: locking hinge plates and a hinge base forming another of the dish's curved ribs
 0 Name: 10143 - Dish-HP2.ldr
@@ -4269,6 +4338,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Dish-AP1.ldr
 0 Superlaser dish surface panel: a 2x2 hinge top, plate and slope wing forming one facet of the concave dish
 0 Name: 10143 - Dish-AP1.ldr
@@ -4288,6 +4358,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Dish-AP2.ldr
 0 Superlaser dish reactor panel: a surface facet with trans-neon-green reactor lights and a whip antenna
 0 Name: 10143 - Dish-AP2.ldr
@@ -4317,6 +4388,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Dish-AP3.ldr
 0 Superlaser dish surface panel: a 2x2 hinge top, plate and slope wing forming a dark-bluish-grey facet of the concave dish
 0 Name: 10143 - Dish-AP3.ldr
@@ -4336,6 +4408,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Dish-AP4.ldr
 0 Superlaser dish reactor panel: a surface facet with trans-neon-green reactor lights and a whip antenna
 0 Name: 10143 - Dish-AP4.ldr
@@ -4365,6 +4438,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Dish-AP5.ldr
 0 Superlaser dish surface panel: a 2x2 hinge top, plate and slope wing forming one facet of the concave dish
 0 Name: 10143 - Dish-AP5.ldr
@@ -4384,6 +4458,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Dish_01.ldr
 0 Start of the superlaser dish chain: first hinge rib and surface panel, linking to the next dish segment
 0 Name: 10143 - Dish_01.ldr
@@ -4400,6 +4475,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Dish_02.ldr
 0 Superlaser dish chain segment: a hinge rib and surface panel linked to the neighbouring segments
 0 Name: 10143 - Dish_02.ldr
@@ -4416,6 +4492,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Dish_03.ldr
 0 Superlaser dish chain segment: a hinge rib and surface panel linked to the neighbouring segments
 0 Name: 10143 - Dish_03.ldr
@@ -4432,6 +4509,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Dish_04.ldr
 0 Superlaser dish chain segment: a hinge rib and surface panel linked to the neighbouring segments
 0 Name: 10143 - Dish_04.ldr
@@ -4448,6 +4526,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Dish_05.ldr
 0 Superlaser dish chain segment: a hinge rib and surface panel linked to the neighbouring segments
 0 Name: 10143 - Dish_05.ldr
@@ -4464,6 +4543,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Dish_06.ldr
 0 Superlaser dish chain segment: a hinge rib and surface panel linked to the neighbouring segments
 0 Name: 10143 - Dish_06.ldr
@@ -4480,6 +4560,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Dish_07.ldr
 0 Superlaser dish chain segment: a hinge rib and surface panel linked to the neighbouring segments
 0 Name: 10143 - Dish_07.ldr
@@ -4496,6 +4577,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Dish_08.ldr
 0 Superlaser dish chain segment: a hinge rib and surface panel linked to the neighbouring segments
 0 Name: 10143 - Dish_08.ldr
@@ -4512,6 +4594,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Dish_09.ldr
 0 Superlaser dish chain segment: a hinge rib and surface panel linked to the neighbouring segments
 0 Name: 10143 - Dish_09.ldr
@@ -4528,6 +4611,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Dish_10.ldr
 0 Superlaser dish chain segment: a hinge rib and surface panel linked to the neighbouring segments
 0 Name: 10143 - Dish_10.ldr
@@ -4544,6 +4628,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Dish_11.ldr
 0 Superlaser dish chain segment: a hinge rib and surface panel linked to the neighbouring segments
 0 Name: 10143 - Dish_11.ldr
@@ -4560,6 +4645,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Dish_12.ldr
 0 Superlaser dish chain segment: a hinge rib and surface panel linked to the neighbouring segments
 0 Name: 10143 - Dish_12.ldr
@@ -4576,6 +4662,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Dish_13.ldr
 0 Superlaser dish chain segment: a hinge rib and surface panel linked to the neighbouring segments
 0 Name: 10143 - Dish_13.ldr
@@ -4592,6 +4679,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Dish_14.ldr
 0 Superlaser dish chain segment: a hinge rib and surface panel linked to the neighbouring segments
 0 Name: 10143 - Dish_14.ldr
@@ -4608,6 +4696,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Dish_15.ldr
 0 Superlaser dish chain segment: a hinge rib and surface panel linked to the neighbouring segments
 0 Name: 10143 - Dish_15.ldr
@@ -4624,6 +4713,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Dish_16.ldr
 0 End of the superlaser dish chain: final hinge rib and surface panel completing the concave dish
 0 Name: 10143 - Dish_16.ldr
@@ -4639,6 +4729,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Top-XXX_Bot.ldr
 0 Reusable lower portion of an upper-hemisphere cap template: hinge plates and studded plates forming the inner rows of a top cap
 0 Name: 10143 - Top-XXX_Bot.ldr
@@ -4724,6 +4815,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Top-XXX_Mid.ldr
 0 Reusable middle band of an upper-hemisphere cap template
 0 Name: 10143 - Top-XXX_Mid.ldr
@@ -4763,6 +4855,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Top-XXX.0.ldr
 0 Reusable cardinal upper-hemisphere cap template (used at 0/90-degree-type positions)
 0 Name: 10143 - Top-XXX.0.ldr
@@ -4778,6 +4871,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Top-XXX.0_Mid.ldr
 0 Middle band of the cardinal upper-hemisphere cap template
 0 Name: 10143 - Top-XXX.0_Mid.ldr
@@ -4793,6 +4887,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Top-XXX.0_Mid_End.ldr
 0 Outer rim of the cardinal upper-hemisphere cap template
 0 Name: 10143 - Top-XXX.0_Mid_End.ldr
@@ -4834,6 +4929,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Top-XXX.5.ldr
 0 Reusable half-angle upper-hemisphere cap template (used at 22.5-degree-type positions)
 0 Name: 10143 - Top-XXX.5.ldr
@@ -4849,6 +4945,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Top-XXX.5_Mid.ldr
 0 Middle band of the half-angle upper-hemisphere cap template
 0 Name: 10143 - Top-XXX.5_Mid.ldr
@@ -4864,6 +4961,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - Top-XXX.5_Mid_End.ldr
 0 Outer rim of the half-angle upper-hemisphere cap template
 0 Name: 10143 - Top-XXX.5_Mid_End.ldr
@@ -4893,6 +4991,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - SSD.ldr
 0 Miniature Super Star Destroyer docked on the Death Star's surface: hinge-plate hull, bracket, binocular turrets and trans-neon-orange engine thrust nozzles
 0 Name: 10143 - SSD.ldr
@@ -4948,6 +5047,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - SSD_L-Side.ldr
 0 Left hull side of the miniature Super Star Destroyer: hinge-plate bases and plates forming one side of the arrowhead hull
 0 Name: 10143 - SSD_L-Side.ldr
@@ -4969,6 +5069,7 @@
 
 
 
+0 STEP
 0 FILE 10143 - SSD_R-Side.ldr
 0 Right hull side of the miniature Super Star Destroyer: hinge-plate tops and plates forming the other side of the arrowhead hull
 0 Name: 10143 - SSD_R-Side.ldr

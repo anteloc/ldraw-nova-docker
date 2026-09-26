@@ -5,6 +5,7 @@
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
 
 1 16 0 -145 0 1 0 0 0 1 -0.017 0 0.017 1 42063 - bike.ldr
+0 STEP
 0 FILE 42063 - engine.ldr
 0 Technic piston engine assembly featuring cylinder heads, crankshafts, and connecting rods on a structural beam frame.
 0 Name: 42063 - engine.ldr
@@ -105,6 +106,7 @@
 1 14 -30 30 0 0 1 0 0 0 -1 -1 0 0 2851.dat
 0 // Technic Bush  1/2 Smooth with Axle Hole Reduced (yellow)
 1 14 0 -15 0 0 1 0 0 0 -1 -1 0 0 32123a.dat
+0 STEP
 0 FILE 42063 - rearaxle.ldr
 0 Rear axle drivetrain module with H-shaped beams, bevel gears, and axles for power transfer to the rear wheel.
 0 Name: 42063 - rearaxle.ldr
@@ -244,6 +246,7 @@
 1 71 -40 -20 -100 1 0 0 0 -0.99 0.139 0 -0.139 -0.99 62520.dat
 0 // Technic Universal Joint 3L Centre (light_bluish_grey)
 1 71 -40 -20 -100 0 -1 0 1 0 0 0 0 1 62519.dat
+0 STEP
 0 FILE 42063 - frontchassis.ldr
 0 Front chassis section built from bent liftarms, suspension arms, and beams forming the steering and front support structure.
 0 Name: 42063 - frontchassis.ldr
@@ -326,6 +329,7 @@
 1 71 40 -23.214 77.485 1 0 0 0 -0.775 0.632 0 -0.632 -0.775 32054.dat
 0 // Technic Axle Pin Long with Friction with  2L Pin (dark_bluish_grey)
 1 72 0 -23.214 77.485 1 0 0 0 -0.775 0.632 0 -0.632 -0.775 11214.dat
+0 STEP
 0 FILE 42063 - shock-06_5L-hard-1.ldr
 0 6.5L hard shock absorber assembly consisting of a cylinder and piston rod with a spring.
 0 Name: 42063 - shock-06_5L-hard-1.ldr
@@ -371,6 +375,7 @@
 0 //Spring mesh reference
 1 494 0 56 0 1 0 0 0 1 0 0 0 1 42063 - shock-06_5L-hard-1 spring mesh.ldr
 
+0 STEP
 0 FILE 42063 - shock-06_5L-hard-1 spring mesh.ldr
 0 Detailed parametric spring mesh for the 6.5L hard shock absorber, defining coil dimensions and winding sections.
 0 Name: 42063 - shock-06_5L-hard-1 spring mesh.ldr
@@ -6200,6 +6205,7 @@
 3 16 -7.75 42.500359 0.023241 -7.21967 42.719925 0.016434 -7.75 43.25581 0.18741
 2 24 -7.75 42.500359 0.023241 -7.21967 42.719925 0.016434
 5 24 -7.75 43.25581 0.18741 -7.21967 42.719925 0.016434 -7.75 42.500359 0.023241 -7 43.25 0
+0 STEP
 0 FILE 42063 - frontchassisbeam.ldr
 0 Reinforcing beam for the front chassis composed of long liftarms, a suspension arm, and connecting axles.
 0 Name: 42063 - frontchassisbeam.ldr
@@ -6233,6 +6239,7 @@
 1 72 -60 0 0 0 0 1 0 1 0 -1 0 0 57515.dat
 0 // Technic Axle  2 Notched (red)
 1 4 -100 0 0 0 0 1 0 1 0 -1 0 0 32062.dat
+0 STEP
 0 FILE 42063 - shock-06_5L-hard-2.ldr
 0 Second 6.5L hard shock absorber assembly consisting of a cylinder and piston rod with a spring.
 0 Name: 42063 - shock-06_5L-hard-2.ldr
@@ -6278,6 +6285,7 @@
 0 //Spring mesh reference
 1 494 0 56 0 1 0 0 0 1 0 0 0 1 42063 - shock-06_5L-hard-2 spring mesh.ldr
 
+0 STEP
 0 FILE 42063 - shock-06_5L-hard-2 spring mesh.ldr
 0 Detailed parametric spring mesh for the second 6.5L hard shock absorber, defining coil dimensions and winding sections.
 0 Name: 42063 - shock-06_5L-hard-2 spring mesh.ldr
@@ -12107,6 +12115,7 @@
 3 16 -7.75 42.500359 0.023241 -7.21967 42.719925 0.016434 -7.75 43.25581 0.18741
 2 24 -7.75 42.500359 0.023241 -7.21967 42.719925 0.016434
 5 24 -7.75 43.25581 0.18741 -7.21967 42.719925 0.016434 -7.75 42.500359 0.023241 -7 43.25 0
+0 STEP
 0 FILE 42063 - seat1.ldr
 0 First rider seat module built from blue bent liftarms and angle connectors forming the contoured seat shape.
 0 Name: 42063 - seat1.ldr
@@ -12142,6 +12151,7 @@
 1 1 20 0 0 1 0 0 0 1 0 0 0 1 32016.dat
 0 // Technic Axle  5 (light_bluish_grey)
 1 71 20 0 0 1 0 0 0 1 0 0 0 1 32073.dat
+0 STEP
 0 FILE 42063 - seat2.ldr
 0 Second seat module using blue angle connectors and cross blocks to form a contoured seating surface.
 0 Name: 42063 - seat2.ldr
@@ -12216,6 +12226,7 @@
 1 1 -60 0 100 0 -1 0 1 0 0 0 0 1 6558.dat
 0 // Technic Pin Long with Friction and Slot (blue)
 1 1 60 0 100 0 -1 0 1 0 0 0 0 1 6558.dat
+0 STEP
 0 FILE 42063 - frametop1.ldr
 0 Left side top frame section with blue bent liftarms and a smooth panel fairing forming part of the motorcycle bodywork.
 0 Name: 42063 - frametop1.ldr
@@ -12245,6 +12256,7 @@
 1 0 -30 0 -20 -1 0 0 0 -1 0 0 0 1 2780.dat
 0 // Technic Panel Fairing Smooth #22 (Thin Short) (blue)
 1 1 -40 0 -80 0 1 0 -1 0 0 0 0 1 11947.dat
+0 STEP
 0 FILE 42063 - frametop2.ldr
 0 Right side top frame section with blue bent liftarms and a smooth panel fairing forming part of the motorcycle bodywork.
 0 Name: 42063 - frametop2.ldr
@@ -12274,6 +12286,7 @@
 1 0 30 0 -20 -1 0 0 0 -1 0 0 0 1 2780.dat
 0 // Technic Panel Fairing Smooth #21 (Thin Short) (blue)
 1 1 40 0 -80 0 -1 0 1 0 0 0 0 1 11946.dat
+0 STEP
 0 FILE 42063 - frontfork.ldr
 0 Front fork assembly with long black beams, angle connectors, and wedge belt wheels forming the telescopic steering fork.
 0 Name: 42063 - frontfork.ldr
@@ -12379,6 +12392,7 @@
 1 71 100 -20 -140 0 0 -1 0 1 0 1 0 0 3713.dat
 0 // Technic Axle  9 (light_bluish_grey)
 1 71 80 -20 60 0 0 -1 0 1 0 1 0 0 60485.dat
+0 STEP
 0 FILE 42063 - fork2.ldr
 0 Secondary fork linkage using bent liftarms, cross blocks, and a towball pin for articulated front-end connection.
 0 Name: 42063 - fork2.ldr
@@ -12414,6 +12428,7 @@
 1 14 -40 -60.572 0 -1 0 0 0 0 -1 0 -1 0 32123a.dat
 0 // Technic Pin with Friction with Perpendicular Pin Hole Type 1 (black)
 1 0 -40 4.428 0 0 0 1 0 1 0 -1 0 0 15100.dat
+0 STEP
 0 FILE 42063 - handlebar.ldr
 0 Handlebar assembly made from cross blocks, short liftarms, and angle connectors forming the steering grips.
 0 Name: 42063 - handlebar.ldr
@@ -12454,6 +12469,7 @@
 1 0 -105.433 -40 62.961 -0.924 0 -0.383 0 1 0 0.383 0 -0.924 32054.dat
 0 // Technic Pin Long with Stop Bush (black)
 1 0 105.433 -40 62.961 0.924 0 0.383 0 -1 0 0.383 0 -0.924 32054.dat
+0 STEP
 0 FILE 42063 - windscreen.ldr
 0 Windscreen module incorporating transparent clear plates, dishes, and angle connectors to form the protective windshield.
 0 Name: 42063 - windscreen.ldr
@@ -12563,6 +12579,7 @@
 1 4 -68.519 0 92.284 0.383 -0.924 0 0 0 1 -0.924 -0.383 0 32062.dat
 0 // Technic Panel Fairing Smooth #21 (Thin Short) (blue)
 1 1 -64.693 0 83.045 0 0.924 0.383 1 0 0 0 0.383 -0.924 11946.dat
+0 STEP
 0 FILE 42063 - tank1.ldr
 0 Left fuel tank panel built from black smooth fairing panels and bent beams forming the tank bodywork.
 0 Name: 42063 - tank1.ldr
@@ -12605,6 +12622,7 @@
 1 0 -50 80 -20 -1 0 0 0 -1 0 0 0 1 2780.dat
 0 // Technic Pin with Friction and Slots (black)
 1 0 -50 80 -60 -1 0 0 0 -1 0 0 0 1 2780.dat
+0 STEP
 0 FILE 42063 - tank2.ldr
 0 Right fuel tank panel built from black smooth fairing panels and bent beams forming the tank bodywork.
 0 Name: 42063 - tank2.ldr
@@ -12647,6 +12665,7 @@
 1 0 50 80 -20 -1 0 0 0 -1 0 0 0 1 2780.dat
 0 // Technic Pin with Friction and Slots (black)
 1 0 50 80 -60 -1 0 0 0 -1 0 0 0 1 2780.dat
+0 STEP
 0 FILE 42063 - sidebag1.ldr
 0 Left side pannier bag constructed from numerous liftarms and open-center beams forming a rectangular luggage container.
 0 Name: 42063 - sidebag1.ldr
@@ -12749,6 +12768,7 @@
 1 1 20 -100 -30 1 0 0 0 1 0 0 0 1 6558.dat
 0 // Technic Cross Block 1 x 3 (Pin/Pin/Pin) with 4 Pins (light_bluish_grey)
 1 71 60 -120 -30 1 0 0 0 0 -1 0 1 0 48989.dat
+0 STEP
 0 FILE 42063 - sidebag2.ldr
 0 Right side pannier bag constructed from numerous liftarms and open-center beams forming a rectangular luggage container.
 0 Name: 42063 - sidebag2.ldr
@@ -12851,6 +12871,7 @@
 1 1 -20 -100 -30 -1 0 0 0 1 0 0 0 -1 6558.dat
 0 // Technic Cross Block 1 x 3 (Pin/Pin/Pin) with 4 Pins (light_bluish_grey)
 1 71 -60 -120 -30 1 0 0 0 0 -1 0 1 0 48989.dat
+0 STEP
 0 FILE 42063 - topbag.ldr
 0 Top luggage case built from liftarms and open-center beams forming a rectangular top box mounted behind the seat.
 0 Name: 42063 - topbag.ldr
@@ -12948,6 +12969,7 @@
 1 71 0 -60 0 0 0 1 1 0 0 0 1 0 32316.dat
 0 // Technic Beam  5 (light_bluish_grey)
 1 71 0 -60 -20 0 0 1 1 0 0 0 1 0 32316.dat
+0 STEP
 0 FILE 42063 - bike.ldr
 0 Core motorcycle frame assembly featuring an open-center beam chassis, a 40th anniversary printed beam, gears, and structural liftarms.
 0 Name: 42063 - bike.ldr
@@ -13157,6 +13179,7 @@
 1 0 160 -136.592 331.425 0 1 0 -0.957 0 -0.29 -0.29 0 0.957 42063 - sidebag1.ldr
 1 0 -160 -136.592 331.425 0 -1 0 0.957 0 -0.29 0.29 0 0.957 42063 - sidebag2.ldr
 1 71 0 -246.795 350.275 1 0 0 0 0.957 -0.29 0 0.29 0.957 42063 - topbag.ldr
+0 STEP
 0 FILE 42063 - technicRibHoseLQ-1.ldr
 0 Flexible ribbed hose assembly of end and mid segments following a defined curved path.
 0 Name: 42063 - technicRibHoseLQ-1.ldr
@@ -13242,6 +13265,7 @@
 1 16 -49.694715 -20.358078 60 0 0.610821 -0.791768 0 -0.791768 -0.610821 -1 0 0 80.dat
 0 // ~Technic Ribbed Hose End Segment (main_colour)
 1 16 -52.814038 -16.3147 60 0 -0.610821 0.791768 0 0.791768 0.610821 -1 0 0 79.dat
+0 STEP
 0 FILE 42063 - technicRibHoseLQ-2.ldr
 0 Second flexible ribbed hose assembly of end and mid segments following a defined curved path.
 0 Name: 42063 - technicRibHoseLQ-2.ldr
@@ -13327,6 +13351,7 @@
 1 16 49.694715 -20.358078 60 0 -0.610821 0.791768 0 -0.791768 -0.610821 1 0 0 80.dat
 0 // ~Technic Ribbed Hose End Segment (main_colour)
 1 16 52.814038 -16.3147 60 0 0.610821 -0.791768 0 0.791768 0.610821 1 0 0 79.dat
+0 STEP
 0 FILE 42063 - 2850a.dat
 0 Boxed Technic housing with angular faces, cylinders, and rings forming a mechanical housing structure.
 0 Name: 42063 - 2850a.dat
@@ -13504,6 +13529,7 @@
 0 BFC INVERTNEXT
 0 // Box with 5 Faces and All Edges (main_colour)
 1 16 0 40 -20 -16 0 0 0 0 4 0 0.5 0 box5.dat
+0 STEP
 0 FILE 42063 - 4185.dat
 0 Technic axle-hole component built from concentric circles, cylinders, and discs forming a multi-bore rotary element.
 0 Name: 42063 - 4185.dat
@@ -14770,6 +14796,7 @@
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 8 1   R 6 6   R 8 1] [center=true] [slide=true]
 
 0 !LDCAD SNAP_CYL [gender=M] [caps=none] [secs=R 30 2   R 28 4   R 30 2] [center=true]
+0 STEP
 0 FILE 42063 - 32523p01.dat
 0 Patterned Technic beam with connector holes and adjacent axle holes.
 0 Name: 42063 - 32523p01.dat
@@ -15295,6 +15322,7 @@
 4 16 9 -6.1 11.9 9 -5.35 10.7 9 -5.5 12.35 9 -6.4 13.3
 3 16 9 -6.4 13.3 9 -5.5 12.35 9 -5.85 13.25
 4 16 9 7.9 10.4 9 8.55 10.1 9 8.55 11.55 9 7.35 10.75
+0 STEP
 0 FILE 42063 - 26287.dat
 0 Small Technic axle-hole connector with semi-reduced toothed axle sockets and cylindrical body.
 0 Name: 42063 - 26287.dat
@@ -15750,6 +15778,7 @@
 0 BFC INVERTNEXT
 0 // Cylinder Open 1.0 (main_colour)
 1 16 0 0 10 3 0 0 0 0 -3 0 -20 0 4-4cylo.dat
+0 STEP
 0 FILE 42063 - 27940.dat
 0 Technic connector with long connector holes, axles, and sloped cylinders forming a rotary joint.
 0 Name: 42063 - 27940.dat
@@ -15808,6 +15837,7 @@
 1 16 -9 0 0 0 9 0 -9 0 0 0 0 9 1-4cyls.dat
 0 // Cylinder Sloped 0.25 (main_colour)
 1 16 -9 0 0 0 9 0 -9 0 0 0 0 -9 1-4cyls.dat
+0 STEP
 0 FILE s\42063 - 2850s01.dat
 0 Differential housing sub-part with top studs, cooling ribs, and connector holes.
 0 Name: s\42063 - 2850s01.dat
@@ -16242,6 +16272,7 @@
 4 16 5.7405 36 13.8585 2.5 36 14.50287 2.5 36 16 16 36 16
 3 16 10.6065 36 10.6065 5.7405 36 13.8585 16 36 16
 3 16 13.8585 36 5.7405 10.6065 36 10.6065 16 36 16
+0 STEP
 0 FILE s\42063 - 98138s01.dat
 0 Round stud sub-part formed from concentric rings and cylinders.
 0 Name: s\42063 - 98138s01.dat
@@ -16269,6 +16300,7 @@
 1 16 0 0 0 0.5 0 0 0 1 0 0 0 0.5 4-4rin18.dat
 1 16 0 0.5 0 -9.5 0 0 0 -9.5 0 0 0 9.5 42063 - t02o0526.dat
 1 16 0 0.5 0 9.5 0 0 0 -9.5 0 0 0 -9.5 42063 - t02o0526.dat
+0 STEP
 0 FILE 42063 - t02o0526.dat
 0 Torus primitive with major radius 19, minor radius 1, and half-sweep segment definition.
 0 Name: 42063 - t02o0526.dat

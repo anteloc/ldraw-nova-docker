@@ -14,6 +14,7 @@
 
 
 
+0 STEP
 0 FILE 30193 - 250 GT Berlinetta.ldr
 0 Assembled Ferrari 250 GT Berlinetta car with a red curved body, mudguards, pull-back motor, and four rubber tyres on wheel pins.
 0 Name: 30193 - 250 GT Berlinetta.ldr
@@ -79,6 +80,7 @@
 
 
 
+0 STEP
 0 FILE 30193 - 93597.dat
 0 Car mudguard front bonnet part constructed from geometric cylinders and surface primitives.
 0 Name: 30193 - 93597.dat
@@ -137,6 +139,7 @@
 5 24 -21.242 5.481 -48.885 -20 10 -50 -23.356 8.644 -49.175 20 10 -50
 
 
+0 STEP
 0 FILE 30193 - 94740.dat
 0 Wheel rim shortcut part defining a 6.4 x 11 black rim with 8 Y-shaped spokes and silver pattern.
 0 Name: 30193 - 94740.dat
@@ -154,6 +157,7 @@
 
 
 
+0 STEP
 0 FILE s\30193 - 93597s01.dat
 0 Subpart of the curved car mudguard (3 x 4 x 1.333) without top and front surfaces, composed of primitive geometric shapes forming the curved shell.
 0 Name: s\30193 - 93597s01.dat

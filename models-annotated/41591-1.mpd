@@ -17,6 +17,7 @@
 1 0 0 -8 30 1 0 0 0 1 0 0 0 1 2431.dat
 1 0 0 -56 50 1 0 0 0 1 0 0 0 1 41591 - 1.ldr
 
+0 STEP
 0 FILE 41591 - 1.ldr
 0 Main Black Widow BrickHeadz figure body built with dark bluish grey and black bricks, side-stud bricks, red and yellow round elements, and patterned jacket detail.
 0 Name: 41591 - 1.ldr
@@ -273,6 +274,7 @@
 1 0 30 40 -30 1 0 0 0 1 0 0 0 1 41591 - 3.ldr
 1 0 -30 40 -30 -1 0 0 0 1 0 0 0 -1 41591 - 3.ldr
 
+0 STEP
 0 FILE 41591 - 2.ldr
 0 Small subassembly using a dark bluish grey plate, black tile and clip, and a patterned tile with silver rectangles.
 0 Name: 41591 - 2.ldr
@@ -291,6 +293,7 @@
 0 // Tile  1 x  2 with Silver Rectangles and Medium Azure Trapezoid Pattern (dark_bluish_grey)
 1 72 10 -16 0 0 0 -1 0 1 0 1 0 0 41591 - 3069bpz1.dat
 
+0 STEP
 0 FILE 41591 - 3.ldr
 0 Compact bracket-and-plate subassembly with black and dark bluish grey plates and a grooved tile.
 0 Name: 41591 - 3.ldr
@@ -311,6 +314,7 @@
 0 // Tile  1 x  2 with Groove (black)
 1 0 22 -6 0 0 -1 0 0 0 -1 1 0 0 3069b.dat
 
+0 STEP
 0 FILE 41591 - 87079pz0.dat
 0 Decorated 2x4 tile bearing the BrickHeadz series number pattern.
 0 Name: 41591 - 87079pz0.dat
@@ -326,6 +330,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\41591 - 87079pz0s01.dat
 1 15 0 0 0 1 0 0 0 1 0 0 0 1 s\41591 - 87079pz0s02.dat
 
+0 STEP
 0 FILE 41591 - 3245cpz0.dat
 0 Decorated 1x2x2 brick printed with a black, silver and red jacket pattern.
 0 Name: 41591 - 3245cpz0.dat
@@ -341,6 +346,7 @@
 1 16 0 0 -10 1 0 0 0 1 0 0 0 1 s\41591 - 3245cpz0s01.dat
 1 16 0 0 -10 -1 0 0 0 1 0 0 0 1 s\41591 - 3245cpz0s01.dat
 
+0 STEP
 0 FILE 41591 - 98138pz0.dat
 0 Round 1x1 tile printed with two white squares, built on an adapter ring primitive.
 0 Name: 41591 - 98138pz0.dat
@@ -373,6 +379,7 @@
 4 16 1.81 0 4.601 8.3151 0 3.4443 6.3639 0 6.3639 3.4443 0 8.3151
 3 16 0 0 9 1.81 0 4.601 3.4443 0 8.3151
 
+0 STEP
 0 FILE 41591 - 3069bpz1.dat
 0 Decorated 1x2 tile with silver rectangles and a medium azure trapezoid pattern, formed from disc primitives.
 0 Name: 41591 - 3069bpz1.dat
@@ -596,6 +603,7 @@
 4 80 14.7 0 4.28 17.71 0 4.28 17.71 0 5.8 14.7 0 5.8
 4 322 2.5 0 -4.73 -2.5 0 -4.73 -4.26 0 -7.46 4.26 0 -7.46
 
+0 STEP
 0 FILE s\41591 - 87079pz0s01.dat
 0 Geometric frame for the BrickHeadz series number tile, constructed from rings, chords and discs.
 0 Name: s\41591 - 87079pz0s01.dat
@@ -781,6 +789,7 @@
 3 16 40 0 20 35 0 14.5 35 0 13
 3 16 40 0 20 33.5 0 14.5 35 0 14.5
 
+0 STEP
 0 FILE s\41591 - 87079pz0s02.dat
 0 Number '1' graphic subpart for the BrickHeadz series number tile, made of chord and disc primitives.
 0 Name: s\41591 - 87079pz0s02.dat
@@ -822,6 +831,7 @@
 4 16 34 0 -13 34 0 13 22.824 0 -7.1 33.5 0 -13.5
 4 16 34 0 13 33.5 0 13.5 22.824 0 7.138 22.824 0 -7.1
 
+0 STEP
 0 FILE s\41591 - 3245cs01.dat
 0 Box-primitive shell forming the back of a 1x2x2 brick without the front face.
 0 Name: s\41591 - 3245cs01.dat
@@ -867,6 +877,7 @@
 1 16 -10 0 0 1 0 0 0 1 0 0 0 1 stud.dat
 1 16 10 0 0 1 0 0 0 1 0 0 0 1 stud.dat
 
+0 STEP
 0 FILE s\41591 - 3245cpz0s01.dat
 0 Half of the decorated 1x2x2 jacket-pattern brick subpart.
 0 Name: s\41591 - 3245cpz0s01.dat

@@ -68,6 +68,7 @@
 1 19 0 -84.743 -68.737 1 0 0 0 0.259 0.966 0 -0.966 0.259 4905 - Neck.ldr
 1 19 0 -136.593 -95.882 1 0 0 0 1 0 0 0 1 4905 - Head.ldr
 
+0 STEP
 0 FILE 4905 - Neck.ldr
 0 A hinged neck segment built from reddish-brown plates and tan hinge elements for articulation.
 0 Name: 4905 - Neck.ldr
@@ -82,6 +83,7 @@
 0 // Hinge Plate  1 x  2 Locking with Dual Finger on End Vertical with Groove on Short Side (tan)
 1 19 0 -8 -20 0 0 1 0 1 0 -1 0 0 44302.dat
 
+0 STEP
 0 FILE 4905 - Head.ldr
 0 A giraffe head with a curved slope top, cone-shaped horns, toothed jaw plates, and a side-mounted hinge for neck attachment.
 0 Name: 4905 - Head.ldr

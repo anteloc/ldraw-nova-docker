@@ -9,6 +9,7 @@
 1 16 -190 -32 410 0.707 0 0.707 0 1 0 -0.707 0 0.707 6950 - Mobile Rocket Transport - Yellow Astronaut Standing.ldr
 1 16 0 -88 -19 1 0 0 0 1 0 0 0 1 6950 - Mobile Rocket Transport - Yellow Astronaut Sitting.ldr
 
+0 STEP
 0 FILE 6950 - Mobile Rocket Transport - Transporter.ldr
 0 A large blue transporter base built from plates and bricks with inverted slopes, a turntable, and technic pin connections forming the carrier vehicle's main body.
 0 Name: 6950 - Mobile Rocket Transport - Transporter.ldr
@@ -226,6 +227,7 @@
 1 256 70 -14 -60 0 0 -1 0 1 0 1 0 0 3634.dat
 1 7 0 -312.593 174.034 1 0 0 0 0.866 0.5 0 -0.5 0.866 6950 - Mobile Rocket Transport - Rocket Holder.ldr
 
+0 STEP
 0 FILE 6950 - Mobile Rocket Transport - Tyres Back.ldr
 0 A rear axle assembly with four large rubber tyres mounted on black wheel rims, supported by a blue frame with technic bricks, pins, and a turntable base.
 0 Name: 6950 - Mobile Rocket Transport - Tyres Back.ldr
@@ -295,6 +297,7 @@
 0 // Tyre 10/130 x 17 Offset Tread (rubber_black)
 1 256 70 -14 -60 0 0 -1 0 1 0 1 0 0 3634.dat
 
+0 STEP
 0 FILE 6950 - Mobile Rocket Transport - Rocket Hinge.ldr
 0 A hinged plate assembly using light grey and red hinge plates with a grooved tile, forming an articulating support mechanism.
 0 Name: 6950 - Mobile Rocket Transport - Rocket Hinge.ldr
@@ -312,6 +315,7 @@
 0 // Tile  2 x  2 with Groove (light_grey)
 1 7 0 -26 -70 1 0 0 0 1 0 0 0 1 3068b.dat
 
+0 STEP
 0 FILE 6950 - Mobile Rocket Transport - Rocket Holder.ldr
 0 A light grey rocket cradle featuring a hinged plate, grille-patterned bricks, headlight bricks, torches, and tiles forming a securing bracket for the rocket.
 0 Name: 6950 - Mobile Rocket Transport - Rocket Holder.ldr
@@ -362,6 +366,7 @@
 1 16 30 -56 70 1 0 0 0 1 0 0 0 1 6950 - Mobile Rocket Transport - Grab Left.ldr
 1 16 0 -46 218 0.707 0 0.707 0.707 0 -0.707 0 1 0 6950 - Mobile Rocket Transport - Rocket.ldr
 
+0 STEP
 0 FILE 6950 - Mobile Rocket Transport - Grab Right.ldr
 0 A right-side grab arm built from hinged plates, brackets, handled plates, an inverted webbed dish, a camera, and a trans-red round light.
 0 Name: 6950 - Mobile Rocket Transport - Grab Right.ldr
@@ -394,6 +399,7 @@
 0 // Brick  1 x  1 Round with Hollow Stud (trans_red)
 1 36 27.5 -96 -32 0 0 1 -1 0 0 0 -1 0 3062b.dat
 
+0 STEP
 0 FILE 6950 - Mobile Rocket Transport - Grab Left.ldr
 0 A simple left-side grab arm made from hinged top plates and a light grey plate.
 0 Name: 6950 - Mobile Rocket Transport - Grab Left.ldr
@@ -408,6 +414,7 @@
 0 // Plate  2 x  6 (light_grey)
 1 7 -10 -18 0 0 0 1 0 1 0 -1 0 0 3795.dat
 
+0 STEP
 0 FILE 6950 - Mobile Rocket Transport - Rocket.ldr
 0 A tall two-tone rocket built from white and black round bricks, cones with axleholes, jet engine plates, fins, ladders, and topped with a trans-red light and antenna.
 0 Name: 6950 - Mobile Rocket Transport - Rocket.ldr
@@ -489,6 +496,7 @@
 0 // Plate  1 x  1 Round (trans_red)
 1 36 -74 52 0 1 0 0 0 1 0 0 0 1 6141.dat
 
+0 STEP
 0 FILE 6950 - Mobile Rocket Transport - Yellow Astronaut Standing.ldr
 0 A standing yellow Classic Space minifigure with helmet, airtanks, classic space torso, and a black camera accessory.
 0 Name: 6950 - Mobile Rocket Transport - Yellow Astronaut Standing.ldr
@@ -521,6 +529,7 @@
 0 // Minifig Camera with Side Sight (black)
 1 0 -20.862 -18.837 -22.413 0.04 -0.002 0.999 -0.073 0.997 0.004 -0.996 -0.073 0.04 4360.dat
 
+0 STEP
 0 FILE 6950 - Mobile Rocket Transport - Yellow Astronaut Sitting.ldr
 0 A seated yellow Classic Space minifigure with helmet, airtanks, classic space torso, and a black radio accessory.
 0 Name: 6950 - Mobile Rocket Transport - Yellow Astronaut Sitting.ldr
@@ -553,6 +562,7 @@
 0 // Minifig Radio with Short Handle (black)
 1 0 -20.094 -48.246 -22.748 -0.023 -0.17 -0.985 0.005 0.985 -0.17 1 -0.008 -0.022 3962a.dat
 
+0 STEP
 0 FILE 6950 - Mobile Rocket Transport - Satellit.ldr
 0 A small satellite payload assembled from black round bricks and plates with yellow hinge plates and a trans-red light.
 0 Name: 6950 - Mobile Rocket Transport - Satellit.ldr
@@ -575,6 +585,7 @@
 0 // Brick  1 x  1 Round with Hollow Stud (trans_red)
 1 36 0 -40 0 1 0 0 0 1 0 0 0 1 3062b.dat
 
+0 STEP
 0 FILE 6950 - Mobile Rocket Transport - Propulsion.ldr
 0 A propulsion unit made from a black cone with axlehole, round bricks and plates, a technic axle, bush, and a light grey bracket.
 0 Name: 6950 - Mobile Rocket Transport - Propulsion.ldr

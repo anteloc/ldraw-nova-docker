@@ -11,6 +11,7 @@
 1 0 0 0 -20 1 0 0 0 1 0 0 0 1 6822 - Minifig.ldr
 
 
+0 STEP
 0 FILE 6822 - Space Grab.ldr
 0 A compact space craft body built from plates and jet engines, featuring rocket thrusters, a steering wheel, an antenna, and an arm holder mechanism for the grab assembly.
 0 Name: 6822 - Space Grab.ldr
@@ -72,6 +73,7 @@
 1 0 0 -30.141 161.515 1 0 0 0 0.707107 -0.707107 0 0.707107 0.707107 3794b.dat
 
 
+0 STEP
 0 FILE 6822 - Grab Holder.ldr
 0 The grab claw assembly consisting of an arm jaw holder base and two opposing grab jaws that form the pincer tip.
 0 Name: 6822 - Grab Holder.ldr
@@ -88,6 +90,7 @@
 1 7 0 0.5 -0.866 1 0 0 0 0.866025 -0.5 0 0.5 0.866025 4221.dat
 
 
+0 STEP
 0 FILE 6822 - Grab Holder with 1 Arm Piece.ldr
 0 A single articulated arm segment with two and three aligned fingers used to extend the grab arm by one unit.
 0 Name: 6822 - Grab Holder with 1 Arm Piece.ldr
@@ -101,6 +104,7 @@
 1 7 0 10 -17.321 1 0 0 0 0.866025 -0.5 0 0.5 0.866025 6822 - Grab Holder.ldr
 
 
+0 STEP
 0 FILE 6822 - Grab Holder with 2 Arm Pieces.ldr
 0 A single articulated arm segment with two and three aligned fingers representing a two-section extension of the grab arm.
 0 Name: 6822 - Grab Holder with 2 Arm Pieces.ldr
@@ -114,6 +118,7 @@
 1 7 0 16.97 -16.97 1 0 0 0 0.707107 -0.707107 0 0.707107 0.707107 6822 - Grab Holder with 1 Arm Piece.ldr
 
 
+0 STEP
 0 FILE 6822 - Grab Holder with 3 Arm Pieces.ldr
 0 A single articulated arm segment with two and three aligned fingers representing a three-section extension of the grab arm.
 0 Name: 6822 - Grab Holder with 3 Arm Pieces.ldr
@@ -128,6 +133,7 @@
 1 0 0 12 -20.784 1 0 0 0 0.866025 -0.5 0 0.5 0.866025 6822 - Grab Holder with 2 Arm Pieces.ldr
 
 
+0 STEP
 0 FILE 6822 - Grab Holder with 4 Arm Pieces and Pin.ldr
 0 An articulated arm segment ending with a pin and two fingers, serving as the jointed base that connects the extended grab arm to the holder.
 0 Name: 6822 - Grab Holder with 4 Arm Pieces and Pin.ldr
@@ -141,6 +147,7 @@
 1 7 0 -24 0 1 0 0 0 0 1 0 -1 0 6822 - Grab Holder with 3 Arm Pieces.ldr
 
 
+0 STEP
 0 FILE 6822 - Minifig.ldr
 0 A red Classic Space minifigure equipped with a helmet, airtanks, radio, and standard grin-pattern head ready to pilot the craft.
 0 Name: 6822 - Minifig.ldr

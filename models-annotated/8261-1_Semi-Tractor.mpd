@@ -296,6 +296,7 @@
 1 71 110 40 80 0 0 1 1 0 0 0 1 0 56145.dat
 
 
+0 STEP
 0 FILE 8261 - frontAxle.ldr
 0 Steerable front axle assembly using 7-long dark bluish grey beams, cross blocks, a 6-long axle, and bushes for wheel mounting with a pin-based steering pivot.
 0 Name: 8261 - frontAxle.ldr
@@ -343,6 +344,7 @@
 1 0 40 -50 0 0 0 1 1 0 0 0 1 0 2780.dat
 
 
+0 STEP
 0 FILE 8261 - subModel-1.ldr
 0 Structural frame submodel composed of bent 90 liftarms, short beams, and long friction pins connected by axles forming a braced support linkage.
 0 Name: 8261 - subModel-1.ldr
@@ -384,6 +386,7 @@
 1 71 50 -100 20 0 -1 0 0 0 1 -1 0 0 32140.dat
 
 
+0 STEP
 0 FILE 8261 - subModel-2.ldr
 0 Cab detail submodel featuring a red base plate, grille slope bricks, curved-top white bodywork, a transparent windshield, and locking hinge plates for attachment.
 0 Name: 8261 - subModel-2.ldr
@@ -434,6 +437,7 @@
 1 1 -20 -10 42 0 0 -1 -1 0 0 0 1 0 6558.dat
 
 
+0 STEP
 0 FILE 8261 - subModel-3.ldr
 0 Rear liftarm module with red beams, bent liftarms, long axles, cross blocks, and a black steering wheel mounted on a 3x5 bent beam.
 0 Name: 8261 - subModel-3.ldr

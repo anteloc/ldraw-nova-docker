@@ -252,6 +252,7 @@
 1 71 -20 -100 50 0 0 1 0 1 0 -1 0 0 63965.dat
 
 
+0 STEP
 0 FILE 31045 - 14418.dat
 0 A plate 1 x 2 with a friction socket joint, a submodel containing no direct pieces.
 0 Name: 31045 - 14418.dat
@@ -269,6 +270,7 @@
 1 16 30 4 0 0 0 -1 0 1 0 1 0 0 31045 - joint-8-socket-frica.dat
 
 
+0 STEP
 0 FILE s\31045 - 14418s01.dat
 0 A primitive-based model of a socket joint built from boxes and cylinders representing its geometric form.
 0 Name: s\31045 - 14418s01.dat
@@ -320,6 +322,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 stug2-1x2.dat
 
 
+0 STEP
 0 FILE 31045 - joint-8-socket-frica.dat
 0 A detailed friction socket joint made from quartered spheres, cylinders, and surface elements.
 0 Name: 31045 - joint-8-socket-frica.dat

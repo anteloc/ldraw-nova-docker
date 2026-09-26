@@ -82,6 +82,7 @@
 0 // Technic Axle  5 (black)
 1 0 0 -40 0 -1 0 0 0 1 0 0 0 -1 32073.dat
 1 47 0 -41.564 -172.137 1 0 0 0 0.924 -0.383 0 0.383 0.924 8218 - frontwheel.ldr
+0 STEP
 0 FILE 8218 - seat.ldr
 0 A black Technic seat assembly built from bent liftarms and short axles joined by bushes and a connector.
 0 Name: 8218 - seat.ldr
@@ -103,6 +104,7 @@
 1 71 15 -40 0 -1 0 0 0 1 0 0 0 -1 6553.dat
 0 // Technic Axle  2 Notched (black)
 1 0 15 -40 0 -1 0 0 0 1 0 0 0 -1 32062.dat
+0 STEP
 0 FILE 8218 - subModel-1.ldr
 0 A small Technic connector sub-assembly combining a cross block, half-pin, and axle/bush connector.
 0 Author: Jaco van der Molen [Jaco van der Molen]
@@ -117,6 +119,7 @@
 1 1 0 -20 -100 0 0 -1 1 0 0 0 -1 0 8218 - technicflexSysHose-1.ldr
 0 // Technic Connector (Axle/Bush) Type 1 (black)
 1 0 0 25.858 -105.858 1 0 0 0 0.707 -0.707 0 0.707 0.707 32039.dat
+0 STEP
 0 FILE 8218 - technicflexSysHose-1.ldr
 0 A flexible Technic hose assembly composed of multiple connected segments forming a curved pneumatic-style line.
 0 !CATEGORY technic
@@ -1676,6 +1679,7 @@
 5 24 1.52987 -100.947 -3.6956 1.50976 -100.275 -3.6956 2.82668 -100.901 -2.8284 0 -101 -4
 5 24 2.82668 -100.901 -2.8284 2.80702 -100.245 -2.8284 3.69335 -100.871 -1.5308 1.52987 -100.947 -3.6956
 5 24 3.69335 -100.871 -1.5308 3.674 -100.225 -1.5308 3.99756 -100.86 0 2.82668 -100.901 -2.8284
+0 STEP
 0 FILE 8218 - frontwheel.ldr
 0 A yellow Technic front wheel assembly with tyre, crankshaft centres, liftarms, cross blocks, connectors, and an axle-mounted hub.
 0 Name: 8218 - frontwheel.ldr

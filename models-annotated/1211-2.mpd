@@ -52,6 +52,7 @@
 1 15 0 -88 0 1 0 0 0 1 0 0 0 1 u8202.dat
 
 
+0 STEP
 0 FILE 1211-2 - u8012.dat
 0 A detailed geometric submodel composed of boxes, cylinders, discs, and rectangular panels forming a complex structural component with curved half-circle elements.
 0 Name: 1211-2 - u8012.dat
@@ -200,6 +201,7 @@
 1 16 -20 61 10 -1 0 0 0 1 0 0 0 1 s\1211-2 - u8012s01.dat
 
 
+0 STEP
 0 FILE 1211-2 - u8021.dat
 0 A compact geometric submodel built from boxes and rectangles forming a simple framed panel or window-like structure.
 0 Name: 1211-2 - u8021.dat
@@ -282,6 +284,7 @@
 1 16 -40 11 10 -1 0 0 0 1 0 0 0 1 s\1211-2 - u8012s01.dat
 
 
+0 STEP
 0 FILE 1211-2 - u8023.dat
 0 A multi-piece geometric submodel constructed from numerous boxes and rectangles, forming a detailed latticed or grille-like structural framework.
 0 Name: 1211-2 - u8023.dat
@@ -478,6 +481,7 @@
 1 16 -60 11 10 -1 0 0 0 1 0 0 0 1 s\1211-2 - u8012s01.dat
 
 
+0 STEP
 0 FILE s\1211-2 - u8012s01.dat
 0 u8012s01
 0 Name: s\1211-2 - u8012s01.dat

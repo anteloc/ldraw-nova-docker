@@ -285,6 +285,7 @@
 1 256 -130 103.687 23.327 0 0 -1 0.992 0.126 0 0.126 -0.992 0 55976.dat
 
 
+0 STEP
 0 FILE 8261 - subModel-1.ldr
 0 Structural support assembly of bent liftarms joined by pins, cross blocks, and axles.
 0 Name: 8261 - subModel-1.ldr
@@ -324,6 +325,7 @@
 1 71 40 20 -40 1 0 0 0 0 1 0 -1 0 6536.dat
 
 
+0 STEP
 0 FILE 8261 - subModel-2.ldr
 0 Small linkage assembly using a bent liftarm, beam, and pinned axle connector.
 0 Name: 8261 - subModel-2.ldr
@@ -350,6 +352,7 @@
 1 4 -60 -103.687 -106.673 0 0 -1 0.992 -0.126 0 -0.126 -0.992 0 3713.dat
 
 
+0 STEP
 0 FILE 8261 - frontAxle-1.ldr
 0 Front axle module with beams, bushings, knob gears, and steering linkages.
 0 Name: 8261 - frontAxle-1.ldr
@@ -445,6 +448,7 @@
 1 71 40 -40 -20 -1 0 0 0 0 -1 0 -1 0 32054.dat
 
 
+0 STEP
 0 FILE 8261 - subModel-3.ldr
 0 Steering column assembly with a steering wheel, axle joiner, and cross blocks.
 0 Name: 8261 - subModel-3.ldr
@@ -477,6 +481,7 @@
 1 0 30 20 18 -1 0 0 0 0 -1 0 -1 0 30663.dat
 
 
+0 STEP
 0 FILE 8261 - subModel-4.ldr
 0 Bodywork panel featuring grille slopes, curved bricks, plates, and windows.
 0 Name: 8261 - subModel-4.ldr

@@ -7,6 +7,7 @@
 1 15 0 0 0 1 0 0 0 0.5 -0.866 0 0.866 0.5 40456 - Mickey.ldr
 
 
+0 STEP
 0 FILE 40456 - Stand.ldr
 0 A Technic display stand with locking hinges and axles for mounting a figure.
 0 Name: 40456 - Stand.ldr
@@ -32,6 +33,7 @@
 1 15 -30 0 230 -1 0 0 0 1 0 0 0 -1 30553.dat
 
 
+0 STEP
 0 FILE 40456 - Mickey.ldr
 0 The main Mickey Mouse body built from red, black, white, blue, and yellow plates, tiles, and wing pieces.
 0 Name: 40456 - Mickey.ldr
@@ -283,6 +285,7 @@
 1 0 0 -54.491 -144.717 1 0 0 0 0.849 0.528 0 -0.528 0.849 40456 - Mickey S37.ldr
 
 
+0 STEP
 0 FILE 40456 - Mickey S33.ldr
 0 A small white rounded plate accented with black rounded tiles.
 0 Name: 40456 - Mickey S33.ldr
@@ -298,6 +301,7 @@
 1 0 10 -8 10 -1 0 0 0 1 0 0 0 -1 24246.dat
 
 
+0 STEP
 0 FILE 40456 - Mickey S36.ldr
 0 A small white detail assembly of a plate and grooved tile.
 0 Name: 40456 - Mickey S36.ldr
@@ -310,6 +314,7 @@
 1 15 0 -8 0 1 0 0 0 1 0 0 0 1 3069b.dat
 
 
+0 STEP
 0 FILE 40456 - Mickey S37.ldr
 0 A small white and black hinged dome detail piece.
 0 Name: 40456 - Mickey S37.ldr

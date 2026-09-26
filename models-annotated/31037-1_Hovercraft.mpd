@@ -357,6 +357,7 @@
 1 33 0 -84 -262 1 0 0 0 0 1 0 -1 0 6141.dat
 
 
+0 STEP
 0 FILE 31037 - ropeLQ-1.ldr
 0 A flexible rope made of 34 connected cylinder segments.
 0 Name: 31037 - ropeLQ-1.ldr
@@ -455,6 +456,7 @@
 0 // Cylinder 1.0 (main_colour)
 1 16 -6.997972 101.512317 29.005616 1.499881 0.087596 0.000742 0.018869 -6.965283 -0.018108 0.000515 0.084136 -1.49989 4-4cyli.dat
 
+0 STEP
 0 FILE 31037 - Propeller.ldr
 0 A two-bladed propeller rotor mounted on an axle pin and bushing.
 0 Name: 31037 - Propeller.ldr
@@ -468,6 +470,7 @@
 0 // Technic Rotor  2 Blade with 4 Studs (white)
 1 15 0 0 -18 -1 0 0 0 0 1 0 1 0 32124.dat
 
+0 STEP
 0 FILE 31037 - Side.ldr
 0 A white side panel decorated with four handled plates.
 0 Name: 31037 - Side.ldr

@@ -14,6 +14,7 @@
 1 72 160 -528 0 1 0 0 0 1 0 0 0 1 10190 - Third Floor.ldr
 0
 
+0 STEP
 0 FILE 10190 - Minifig 1.ldr
 0 Minifig with reddish-brown ponytail hair, smiling yellow head, medium-blue jacket torso over pink shirt with necklace, dark-blue hips and legs, holding a red cherry
 0 Name: 10190 - Minifig 1.ldr
@@ -54,6 +55,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Minifig 2.ldr
 0 Minifig with dark-tan shoulder-length hair, smiling yellow head with glasses, dark-blue jacket torso over a white button-down shirt, dark-bluish-grey hips and legs
 0 Name: 10190 - Minifig 2.ldr
@@ -92,6 +94,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Minifig 3.ldr
 0 Minifig with light-bluish-grey male hair, stubbled lefty-mouth yellow head, white torso with green dungarees, and green hips and legs
 0 Name: 10190 - Minifig 3.ldr
@@ -130,6 +133,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Car port.ldr
 0 Car port structure on a 16x32 baseplate: tiled and grille floor, tan brick walls with headlight bricks, dark-blue arched gate with barred left/right gates, hinged roof, lamp, flag, owl detail, control sticks and whips, with storage baskets, cabbage and cherries
 0 Name: 10190 - Car port.ldr
@@ -430,6 +434,7 @@
 1 0 125.774 -23.063 -100 0 0.423 -0.906 0 0.906 0.423 1 0 0 6134.dat
 0
 
+0 STEP
 0 FILE 10190 - Car port - Cabage.ldr
 0 Cabbage detail: green round hollow-stud brick on a black plate topped with bright-green spiky hair
 0 Name: 10190 - Car port - Cabage.ldr
@@ -454,6 +459,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Car port - Cherries.ldr
 0 Pair of cherries: one lime and one red minifig food cherry
 0 Name: 10190 - Car port - Cherries.ldr
@@ -476,6 +482,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Car port - Wall element 1.ldr
 0 Tan wall section built from headlight, 1x1, 1x2 and 1x3 bricks with a groove tile
 0 Name: 10190 - Car port - Wall element 1.ldr
@@ -521,6 +528,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Car port - Gate right.ldr
 0 Right arched gate (1x4x9 with bars) framed in tan bricks and plates with clip, headlight brick and groove-tile details
 0 Name: 10190 - Car port - Gate right.ldr
@@ -576,6 +584,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Car port - Gate left.ldr
 0 Left arched gate (1x4x9 with bars) framed in tan bricks and corner plates with clip, headlight brick and groove-tile details
 0 Name: 10190 - Car port - Gate left.ldr
@@ -656,6 +665,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Car port - Wall element 2.ldr
 0 Single tan 1x1 brick wall filler
 0 Name: 10190 - Car port - Wall element 2.ldr
@@ -678,6 +688,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Car port - Lamp.ldr
 0 Lamp assembly: white signal-holder post with clear minifig-head lens and white inverted-dish shade
 0 Name: 10190 - Car port - Lamp.ldr
@@ -703,6 +714,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Car port - Flag.ldr
 0 Flag on a pole: light-bluish-grey bar with stop topped by a white 2x2 flag
 0 Name: 10190 - Car port - Flag.ldr
@@ -725,6 +737,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Car port - Arch.ldr
 0 Dark-blue 1x8x2 arch mounted on a black plate base with a centre-stud plate
 0 Name: 10190 - Car port - Arch.ldr
@@ -752,6 +765,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Car port - Arch decoration.ldr
 0 Arch decoration: black round hollow-stud brick topped with an animal-tail finial
 0 Name: 10190 - Car port - Arch decoration.ldr
@@ -779,6 +793,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Car port - Roof.ldr
 0 Car port roof on large light-bluish-grey and black plates, with white and tan tiling, a technic axle with 12-tooth gear, ribbed hose, round-stud bricks, plus chimney detail and roof decorations
 0 Name: 10190 - Car port - Roof.ldr
@@ -963,6 +978,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Car port - Chimey detail.ldr
 0 Chimney detail: dark-bluish-grey 2x2 round plate with reduced axle hole
 0 Name: 10190 - Car port - Chimey detail.ldr
@@ -985,6 +1001,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Car port - Roof decoration.ldr
 0 Tan roof decoration: round hollow-stud brick topped with a round plate
 0 Name: 10190 - Car port - Roof decoration.ldr
@@ -1007,6 +1024,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Ground Floor.ldr
 0 Ground-floor room on a 16x32 baseplate with tiled and grille flooring, dark-bluish-grey brick walls with arched openings and grille bricks, windows, staircase step modules, balcony with railing, lamppost, flower and a minifig
 0 Name: 10190 - Ground Floor.ldr
@@ -1271,6 +1289,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Ground Floor - Side Window.ldr
 0 Side window: white train window frame with a white 1x2x3 pane
 0 Name: 10190 - Ground Floor - Side Window.ldr
@@ -1295,6 +1314,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Ground Floor - Central Window.ldr
 0 Central window: white train window frame with a 1x2x3 pane on a dark-bluish-grey plate
 0 Name: 10190 - Ground Floor - Central Window.ldr
@@ -1322,6 +1342,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Ground Floor - First Staircase Module.ldr
 0 First staircase step module: dark-bluish-grey plate with light-bluish-grey round plate and groove tiles
 0 Name: 10190 - Ground Floor - First Staircase Module.ldr
@@ -1349,6 +1370,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Ground Floor - Staircase Module.ldr
 0 Staircase step module: dark-bluish-grey plate with light-bluish-grey round plate and groove tiles
 0 Name: 10190 - Ground Floor - Staircase Module.ldr
@@ -1379,6 +1401,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Ground Floor - Balcony.ldr
 0 Balcony of dark-bluish-grey 4x6 plate trimmed with light-bluish-grey groove tiles, clip tile and plates, with railing protection
 0 Name: 10190 - Ground Floor - Balcony.ldr
@@ -1429,6 +1452,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Ground Floor - Balcony Protection.ldr
 0 Balcony railing: white bar with stop fitted with a white mechanical arm with parallel clips
 0 Name: 10190 - Ground Floor - Balcony Protection.ldr
@@ -1457,6 +1481,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Ground Floor - Lamppost.ldr
 0 Lamppost: white 2x2x7 fluted lamppost support with a clear minifig-head lens and white inverted-dish shade
 0 Name: 10190 - Ground Floor - Lamppost.ldr
@@ -1482,6 +1507,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Ground Floor - Flower.ldr
 0 Flower plant: green stem with three white flowers alongside a green three-leaf plant
 0 Name: 10190 - Ground Floor - Flower.ldr
@@ -1505,6 +1531,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - First Floor.ldr
 0 First-floor room with dark-blue and tan brick walls, grille bricks, an arched opening, a plane window, hinged plates, a door, staircase, two awnings and a sign
 0 Name: 10190 - First Floor.ldr
@@ -2014,6 +2041,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - First Floor - Door.ldr
 0 Door: black 1x4x6 frame holding a 3-pane transparent door
 0 Name: 10190 - First Floor - Door.ldr
@@ -2036,6 +2064,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - First Floor - Staircase.ldr
 0 Staircase: reddish-brown open 7x4x6 staircase mounted on light-bluish-grey plates
 0 Name: 10190 - First Floor - Staircase.ldr
@@ -2067,6 +2096,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - First Floor - Window.ldr
 0 Window: white train window frame with a white 1x2x3 pane
 0 Name: 10190 - First Floor - Window.ldr
@@ -2091,6 +2121,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - First Floor - Awning Long.ldr
 0 Long awning: light-bluish-grey plate with blue and white stripe tiles on a locking hinged plate
 0 Name: 10190 - First Floor - Awning Long.ldr
@@ -2121,6 +2152,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - First Floor - Awning Short.ldr
 0 Short awning: light-bluish-grey 2x2 plate with blue and white stripe tiles on a locking hinged plate
 0 Name: 10190 - First Floor - Awning Short.ldr
@@ -2149,6 +2181,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - First Floor - Sign.ldr
 0 Bakery sign/display: white signal holder holding a dark-orange croissant
 0 Name: 10190 - First Floor - Sign.ldr
@@ -2171,6 +2204,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Second Floor.ldr
 0 Second-floor room with medium-blue and tan brick walls, grille bricks, a smoke-glass door, an arched window, awnings with fabric, a staircase, flagpost and balcony
 0 Name: 10190 - Second Floor.ldr
@@ -2620,6 +2654,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Second Floor - 2x Plate 1x2 Medium_Blue.ldr
 0 Pair of medium-blue 1x2 plates
 0 Name: 10190 - Second Floor - 2x Plate 1x2 Medium_Blue.ldr
@@ -2642,6 +2677,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Second Floor - 2x Plate 1x1 Medium_Blue.ldr
 0 Pair of medium-blue 1x1 plates
 0 Name: 10190 - Second Floor - 2x Plate 1x1 Medium_Blue.ldr
@@ -2664,6 +2700,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Second Floor - Window.ldr
 0 Window: white train window frame with a 1x2x3 pane and white groove-tile trim
 0 Name: 10190 - Second Floor - Window.ldr
@@ -2691,6 +2728,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Second Floor - Awning.ldr
 0 Awning arm: tan headlight brick fitted with a white antenna pole
 0 Name: 10190 - Second Floor - Awning.ldr
@@ -2716,6 +2754,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Second Floor - Awning Fabric.ldr
 0 Awning fabric: dark-blue and light-bluish-grey plates with a vertical clip plate and groove tiles
 0 Name: 10190 - Second Floor - Awning Fabric.ldr
@@ -2757,6 +2796,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Second Floor - Wall Element 1.ldr
 0 Medium-blue wall section built from 1x6 and 1x4 plates
 0 Name: 10190 - Second Floor - Wall Element 1.ldr
@@ -2779,6 +2819,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Second Floor - Staircase.ldr
 0 Staircase: reddish-brown open 7x4x6 staircase mounted on light-bluish-grey plates
 0 Name: 10190 - Second Floor - Staircase.ldr
@@ -2810,6 +2851,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Second Floor - Flagpost.ldr
 0 Flagpost: white bar with stop topped by a white 2x2 flag
 0 Name: 10190 - Second Floor - Flagpost.ldr
@@ -2832,6 +2874,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Second Floor - Balcony.ldr
 0 Balcony of dark-bluish-grey plates with a white clip tile and railing protection
 0 Name: 10190 - Second Floor - Balcony.ldr
@@ -2860,6 +2903,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Second Floor - Balcony Protection.ldr
 0 Balcony railing: white flexible hose segments joined by a white mechanical arm with parallel clips
 0 Name: 10190 - Second Floor - Balcony Protection.ldr
@@ -3097,6 +3141,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Third Floor.ldr
 0 Top/attic floor with medium-blue and black brick walls, sloped roof bricks, a turntable, lattice and plain windows, an arched door beside a lion's-head carving, seats, a plant, balcony and chimney
 0 Name: 10190 - Third Floor.ldr
@@ -3549,6 +3594,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Third Floor - Turnable.ldr
 0 Turntable: black 2x2 turntable base with a light-bluish-grey top
 0 Name: 10190 - Third Floor - Turnable.ldr
@@ -3571,6 +3617,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Third Floor - Window with Pane Lattice Diamond.ldr
 0 Window with diamond lattice: white 1x2x2.667 rounded-top frame with a black diamond-lattice pane
 0 Name: 10190 - Third Floor - Window with Pane Lattice Diamond.ldr
@@ -3593,6 +3640,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Third Floor - Window.ldr
 0 Window: white train window frame with a white 1x2x3 pane
 0 Name: 10190 - Third Floor - Window.ldr
@@ -3617,6 +3665,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Third Floor - Roof Element 1.ldr
 0 Roof element: light-bluish-grey 1x6 plate carrying a black 33-degree 3x3 slope
 0 Name: 10190 - Third Floor - Roof Element 1.ldr
@@ -3641,6 +3690,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Third Floor - 2x Plate 1x6 Medium_Blue.ldr
 0 Pair of medium-blue 1x6 plates
 0 Name: 10190 - Third Floor - 2x Plate 1x6 Medium_Blue.ldr
@@ -3663,6 +3713,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Third Floor - Roof Element.ldr
 0 Roof element: black 6x14 plate with a dark-bluish-grey 2x4 plate
 0 Name: 10190 - Third Floor - Roof Element.ldr
@@ -3687,6 +3738,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Third Floor - Balcony.ldr
 0 Balcony of dark-bluish-grey plates with a white clip tile and railing protection
 0 Name: 10190 - Third Floor - Balcony.ldr
@@ -3715,6 +3767,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Third Floor - Balcony Protection.ldr
 0 Balcony railing: white flexible hose segments joined by a white mechanical arm with parallel clips
 0 Name: 10190 - Third Floor - Balcony Protection.ldr
@@ -3952,6 +4005,7 @@
 
 0
 
+0 STEP
 0 FILE 10190 - Third Floor - Chimny.ldr
 0 Chimney: dark-bluish-grey and light-bluish-grey grille bricks topped with a black/dark-bluish-grey grid-pattern tile
 0 Name: 10190 - Third Floor - Chimny.ldr
@@ -3984,6 +4038,7 @@
 0 
 0
 
+0 STEP
 0 FILE 10190 - Car port - Basket1.ldr
 0 Basket 1: reddish-brown adventurer chest filled with a green apple plus red and lime cherries
 0 Name: 10190 - Car port - Basket1.ldr
@@ -4009,6 +4064,7 @@
 
 
 
+0 STEP
 0 FILE 10190 - Car port - Basket2.ldr
 0 Basket 2: reddish-brown adventurer chest holding cherries and a cabbage
 0 Name: 10190 - Car port - Basket2.ldr

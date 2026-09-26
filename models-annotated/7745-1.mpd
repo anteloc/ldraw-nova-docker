@@ -41,6 +41,7 @@
 
 
 
+0 STEP
 0 FILE 7745 - train car 1.ldr
 0 A 12V passenger train car with a light brick, windows, cupboard storage, and weighted base.
 0 Name: 7745 - train car 1.ldr
@@ -377,6 +378,7 @@
 
 
 
+0 STEP
 0 FILE 7745 - train car 2.ldr
 0 A passenger train car with glazed doors, seating area windows, and a sloped roof section.
 0 Name: 7745 - train car 2.ldr
@@ -656,6 +658,7 @@
 
 
 
+0 STEP
 0 FILE 7745 - train car 3.ldr
 0 A 12V passenger train car with a light brick, windows, and cupboard with translucent door panels.
 0 Name: 7745 - train car 3.ldr
@@ -929,6 +932,7 @@
 
 
 
+0 STEP
 0 FILE 7745 - train car - motor.ldr
 0 A 12V electric train motor unit with buffer beam coupling and magnet.
 0 Name: 7745 - train car - motor.ldr
@@ -946,6 +950,7 @@
 
 
 
+0 STEP
 0 FILE 7745 - train car - pseudomotor.ldr
 0 A non-powered train car assembly with wheels, bogie plate, and buffer beam coupling.
 0 Name: 7745 - train car - pseudomotor.ldr
@@ -999,6 +1004,7 @@
 
 
 
+0 STEP
 0 FILE 7745 - train car - wheelbox A.ldr
 0 A train bogie assembly with small wheels, buffer beam, and coupling plate.
 0 Name: 7745 - train car - wheelbox A.ldr
@@ -1032,6 +1038,7 @@
 
 
 
+0 STEP
 0 FILE 7745 - train car - wheelbox B.ldr
 0 A train bogie assembly with small wheels, buffer beam coupling, and bogie plate.
 0 Name: 7745 - train car - wheelbox B.ldr
@@ -1063,6 +1070,7 @@
 
 
 
+0 STEP
 0 FILE 7745 - platform.ldr
 0 A train platform structure with sloped ends, seats, and a ticket counter area.
 0 Name: 7745 - platform.ldr
@@ -1176,6 +1184,7 @@
 
 
 
+0 STEP
 0 FILE 7745 - lamp.ldr
 0 A train signal lamp assembly on a stand with mast and reflector dish.
 0 Name: 7745 - lamp.ldr
@@ -1199,6 +1208,7 @@
 
 
 
+0 STEP
 0 FILE 7745 - minifig - train driver.ldr
 0 A train driver minifigure wearing a red police hat and suit with tie.
 0 Name: 7745 - minifig - train driver.ldr
@@ -1233,6 +1243,7 @@
 
 
 
+0 STEP
 0 FILE 7745 - minifig 1.ldr
 0 A train conductor minifigure in a blue suit with a red hat and signal holder accessory.
 0 Name: 7745 - minifig 1.ldr
@@ -1268,6 +1279,7 @@
 
 
 
+0 STEP
 0 FILE 7745 - minifig 2.ldr
 0 A female passenger minifigure with shoulder-length black hair, white torso, and red legs.
 0 Name: 7745 - minifig 2.ldr
@@ -1301,6 +1313,7 @@
 
 
 
+0 STEP
 0 FILE 7745 - minifig 3.ldr
 0 A passenger minifigure with shoulder-length black hair, red torso, and blue legs.
 0 Name: 7745 - minifig 3.ldr
@@ -1334,6 +1347,7 @@
 
 
 
+0 STEP
 0 FILE 7745 - minifig 4.ldr
 0 A female passenger minifigure with pigtails, blue torso, and white legs.
 0 Name: 7745 - minifig 4.ldr
@@ -1367,6 +1381,7 @@
 
 
 
+0 STEP
 0 FILE 7745 - minifig 5.ldr
 0 A male passenger minifigure with black hair, red torso, and black legs.
 0 Name: 7745 - minifig 5.ldr
@@ -1400,6 +1415,7 @@
 
 
 
+0 STEP
 0 FILE 7745 - minifig 6.ldr
 0 A male passenger minifigure with brown hair, blue torso, and black legs.
 0 Name: 7745 - minifig 6.ldr
@@ -1433,6 +1449,7 @@
 
 
 
+0 STEP
 0 FILE 7745 - minifig 7.ldr
 0 A male passenger minifigure with brown hair, white torso, and black legs.
 0 Name: 7745 - minifig 7.ldr
@@ -1466,6 +1483,7 @@
 
 
 
+0 STEP
 0 FILE 7745 - minifig 8.ldr
 0 A passenger minifigure wearing a grey cowboy hat with red torso and blue legs.
 0 Name: 7745 - minifig 8.ldr
@@ -1499,6 +1517,7 @@
 
 
 
+0 STEP
 0 FILE 7745 - minifig 9.ldr
 0 A chef minifigure wearing a white cook's hat with a chef-pattern torso.
 0 Name: 7745 - minifig 9.ldr
@@ -1532,6 +1551,7 @@
 
 
 
+0 STEP
 0 FILE 7745 - track_oval.ldr
 0 An oval train track layout with straight and curved 12V track sections on sleeper plates.
 0 Name: 7745 - track_oval.ldr

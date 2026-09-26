@@ -8,6 +8,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 6799 - Bandit1.ldr
 1 16 -63 0 -92 0.656 0 -0.755 0 1 0 0.755 0 0.656 6799 - Bandit2.ldr
 1 16 0 7.008 -118.222 1 0 0 0 0.982 0.191 0 -0.191 0.982 6799 - Wheelgun.ldr
+0 STEP
 0 FILE 6799 - Bandit1.ldr
 0 A cowboy bandit minifigure with a revolver, bandana, and a dynamite tile accessory.
 0 Name: 6799 - Bandit1.ldr
@@ -41,6 +42,7 @@
 1 8 -18.513 -71.379 -44.556 0.963 -0.163 0.213 0.128 0.977 0.166 -0.235 -0.133 0.963 30132.dat
 0 // Tile  1 x  2 with Dynamite Pattern (light_grey)
 1 7 30.106 -25.133 -20.168 0.006 -0.994 -0.101 -0.104 0.099 -0.989 0.994 0.016 -0.103 3069bp03.dat
+0 STEP
 0 FILE 6799 - Bandit2.ldr
 0 A cowboy bandit minifigure with two revolvers, a bandana, and red shirt with white braces.
 0 Name: 6799 - Bandit2.ldr
@@ -73,6 +75,7 @@
 1 8 -8.513 -76.407 -28.332 0.963 -0.163 0.213 0.09 0.944 0.315 -0.252 -0.284 0.925 30132.dat
 0 // Minifig Gun Revolver (dark_grey)
 1 8 30.592 -64.316 -31.361 0.982 0.167 -0.079 -0.179 0.968 -0.171 0.048 0.182 0.982 30132.dat
+0 STEP
 0 FILE 6799 - Wheelgun.ldr
 0 A wheeled gatling-style weapon cart built from plates, two rifles, and spoked wheels.
 0 Name: 6799 - Wheelgun.ldr

@@ -1037,6 +1037,7 @@
 1 256 160 -80 470 0 0 -1 0 1 0 1 0 0 32019.dat
 
 
+0 STEP
 0 FILE 8285 - chassis1.ldr
 0 Rear chassis section with long red liftarms, a differential with gears, bevel gears, bushings, and a pneumatic cylinder for powered drive.
 0 Name: 8285 - chassis1.ldr
@@ -1345,6 +1346,7 @@
 1 71 0 -20 810 0 -1 0 1 0 0 0 0 1 4019.dat
 
 
+0 STEP
 0 FILE 8285 - chassis1a.ldr
 0 Small axle-and-gear subassembly using bent liftarms, bevel gears, and offset joiners to form a geared linkage.
 0 Name: 8285 - chassis1a.ldr
@@ -1392,6 +1394,7 @@
 1 0 130 0 -40 1 0 0 0 1 0 0 0 1 6558.dat
 
 
+0 STEP
 0 FILE 8285 - chassis1b.ldr
 0 Compact linkage subassembly of angle connectors, short red liftarms, and a notched axle forming an articulated joint.
 0 Name: 8285 - chassis1b.ldr
@@ -1424,6 +1427,7 @@
 1 4 0 0 -70 -1 0 0 0 1 0 0 0 -1 32013.dat
 
 
+0 STEP
 0 FILE 8285 - chassis3.ldr
 0 Steering or winch mechanism using a worm gear, 24-tooth gear, triangle liftarms, and bent beams with bushings.
 0 Name: 8285 - chassis3.ldr
@@ -1551,6 +1555,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 8285 - pneumaticHoseLQ-1.ldr
 0 A pneumatic tube hose made of 115 segments with bulged ends, approximately 177 mm long.
 0 Name: 8285 - pneumaticHoseLQ-1.ldr
@@ -1824,6 +1829,7 @@
 1 16 -21.116999 -109.94474 308.310639 -0.252172 3.854948 -0.081881 -0.024986 -0.364121 -0.995531 -0.96736 -0.995507 0.047058 166.dat
 
 
+0 STEP
 0 FILE 8285 - pneumaticHoseLQ-2.ldr
 0 A pneumatic tube hose made of 89 segments with bulged ends, approximately 150 mm long.
 0 Name: 8285 - pneumaticHoseLQ-2.ldr
@@ -2044,6 +2050,7 @@
 1 16 69.054576 -109.998386 287.125076 -0.30698 3.81049 0.004863 -0.020965 -0.006623 -0.999779 -0.951485 -1.229241 0.02046 166.dat
 
 
+0 STEP
 0 FILE 8285 - chassis2.ldr
 0 Second chassis side with long light bluish grey liftarms, technic bricks with holes, angle connectors, and round trans plates for lights.
 0 Name: 8285 - chassis2.ldr
@@ -2283,6 +2290,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 8285 - chassis2a.ldr
 0 Sub-frame section with bent red liftarms, axle studs, cross blocks, and pins forming a braced support.
 0 Name: 8285 - chassis2a.ldr
@@ -2338,6 +2346,7 @@
 1 4 0 60 140 1 0 0 0 0 -1 0 1 0 32184.dat
 
 
+0 STEP
 0 FILE 8285 - chassis2b.ldr
 0 Small linkage subassembly of red beams, cross blocks, and pins forming a connector joint.
 0 Name: 8285 - chassis2b.ldr
@@ -2376,6 +2385,7 @@
 1 0 -70 0 0 1 0 0 0 0 1 0 -1 0 2780.dat
 
 
+0 STEP
 0 FILE 8285 - chassis2c.ldr
 0 Triangular liftarm subassembly with angle connectors and bevel gears forming a geared support structure.
 0 Name: 8285 - chassis2c.ldr
@@ -2431,6 +2441,7 @@
 1 1 -50 80 0 1 0 0 0 -1 0 0 0 -1 43093.dat
 
 
+0 STEP
 0 FILE 8285 - seat.ldr
 0 Driver's seat built from bent blue and grey liftarms on a beam base with pins.
 0 Name: 8285 - seat.ldr
@@ -2461,6 +2472,7 @@
 1 1 -20 -20 0 0 1 0 0 0 1 1 0 0 32526.dat
 
 
+0 STEP
 0 FILE 8285 - cabinfront.ldr
 0 Front cabin frame using a long beam, short liftarms, cross blocks, and axle joiners forming a structural front.
 0 Name: 8285 - cabinfront.ldr
@@ -2528,6 +2540,7 @@
 1 1 180 -106.454 -21.409 0 0 -1 0.985 0.17 0 0.17 -0.985 0 43093.dat
 
 
+0 STEP
 0 FILE 8285 - engine.ldr
 0 Inline six-cylinder Technic engine with cylinder heads, pistons, connecting rods, crankshaft, and a 16-tooth drive gear.
 0 Name: 8285 - engine.ldr
@@ -2685,6 +2698,7 @@
 1 71 -10 -16 -70 0 0 -1 0 1 0 1 0 0 6636.dat
 
 
+0 STEP
 0 FILE 8285 - cabin.ldr
 0 Cabin frame built from black beams, angle connectors, and pins forming the structural cage around the driver area.
 0 Name: 8285 - cabin.ldr
@@ -2806,6 +2820,7 @@
 1 80 20 36.532 21.642 0 0.559 0.829 0.043 0.828 -0.559 -0.999 0.036 -0.024 75535.dat
 
 
+0 STEP
 0 FILE 8285 - cabin2.ldr
 0 Cabin rear section with angle connectors, a long beam, cross blocks, and half pins forming the back frame.
 0 Name: 8285 - cabin2.ldr
@@ -2857,6 +2872,7 @@
 1 71 -60 -20 20 -1 0 0 0 1 0 0 0 -1 4274.dat
 
 
+0 STEP
 0 FILE 8285 - chassisbeam.ldr
 0 Reinforced chassis crossbeam of three long black liftarms joined by cross blocks and pins.
 0 Name: 8285 - chassisbeam.ldr
@@ -2911,6 +2927,7 @@
 1 4 -160 0 100 -1 0 0 0 -1 0 0 0 1 32054.dat
 
 
+0 STEP
 0 FILE 8285 - chassisbeam2.ldr
 0 Secondary reinforced chassis crossbeam of three long black liftarms joined by cross blocks and pins.
 0 Name: 8285 - chassisbeam2.ldr
@@ -2959,6 +2976,7 @@
 1 4 0 0 80 1 0 0 0 -1 0 0 0 -1 32054.dat
 
 
+0 STEP
 0 FILE 8285 - cabotom1.ldr
 0 Cabin bottom support using beams, cross blocks, bushings, and pins forming a braced mounting plate.
 0 Name: 8285 - cabotom1.ldr
@@ -3006,6 +3024,7 @@
 1 71 -20 -40 0 -1 0 0 0 1 0 0 0 -1 32524.dat
 
 
+0 STEP
 0 FILE 8285 - cabotom2.ldr
 0 Mirror cabin bottom support using beams, cross blocks, bushings, and pins forming a braced mounting plate.
 0 Name: 8285 - cabotom2.ldr
@@ -3053,6 +3072,7 @@
 1 71 20 -40 0 -1 0 0 0 1 0 0 0 -1 32524.dat
 
 
+0 STEP
 0 FILE 8285 - exhaust1.ldr
 0 Exhaust pipe assembly with a silver inverted dish, round brick, horizontal cylinder, and curved-top brick forming a muffler.
 0 Name: 8285 - exhaust1.ldr
@@ -3085,6 +3105,7 @@
 1 0 40 60 20 0 0 1 0 1 0 -1 0 0 32039.dat
 
 
+0 STEP
 0 FILE 8285 - exhaust2.ldr
 0 Mirror exhaust pipe assembly with a silver inverted dish, round brick, horizontal cylinder, and curved-top brick forming a muffler.
 0 Name: 8285 - exhaust2.ldr
@@ -3117,6 +3138,7 @@
 1 0 -40 60 20 0 0 -1 0 1 0 1 0 0 32039.dat
 
 
+0 STEP
 0 FILE 8285 - bonnet.ldr
 0 Hood/bonnet structure using bent liftarms, long beams, technic bricks with holes, and angle connectors forming the engine cover frame.
 0 Name: 8285 - bonnet.ldr
@@ -3442,6 +3464,7 @@
 1 47 170 -60 6 -1 0 0 0 0 -1 0 -1 0 3023.dat
 
 
+0 STEP
 0 FILE 8285 - bonnettop.ldr
 0 Top panel of the bonnet with two long beams, angle connectors, and bushings forming a removable cover frame.
 0 Name: 8285 - bonnettop.ldr
@@ -3487,6 +3510,7 @@
 1 0 60 0 -140 1 0 0 0 -1 0 0 0 -1 6558.dat
 
 
+0 STEP
 0 FILE 8285 - technicRibHoseLQ-1.ldr
 0 A ribbed flexible hose made of 55 segments with end caps, approximately 115 mm long.
 0 Name: 8285 - technicRibHoseLQ-1.ldr
@@ -3629,6 +3653,7 @@
 1 16 20 -57.282679 203.093637 -1 0 0 0 0.866025 0.5 0 0.5 -0.866025 79.dat
 
 
+0 STEP
 0 FILE 8285 - technicRibHoseLQ-2.ldr
 0 A long flexible ribbed Technic hose assembly made of 53 ribbed hose segments with two end caps.
 0 Name: 8285 - technicRibHoseLQ-2.ldr
@@ -3771,6 +3796,7 @@
 1 16 -20 -57.282679 203.093637 -1 0 0 0 0.866025 0.5 0 0.5 -0.866025 79.dat
 
 
+0 STEP
 0 FILE 8285 - exhaust.ldr
 0 An exhaust system built from round reinforced bricks, gears, axles, and liftarms arranged along a central axle.
 0 Name: 8285 - exhaust.ldr
@@ -3817,6 +3843,7 @@
 1 1 0 20 -40 0 -1 0 0 0 -1 1 0 0 43093.dat
 
 
+0 STEP
 0 FILE 8285 - cranebase.ldr
 0 A sturdy crane base structure constructed from bent liftarms, long beams, gears, and numerous connector pins.
 0 Name: 8285 - cranebase.ldr
@@ -4012,6 +4039,7 @@
 1 71 160 -120 80 0 0 -1 0 -1 0 -1 0 0 3713.dat
 
 
+0 STEP
 0 FILE 8285 - cranebase2.ldr
 0 A geared crane base mechanism with worm gear, bevel gears, and triangular liftarms for rotational support.
 0 Name: 8285 - cranebase2.ldr
@@ -4057,6 +4085,7 @@
 
 
 
+0 STEP
 0 FILE 8285 - rope.ldr
 0 A long flexible rope assembly composed of 443 cylindrical segments forming a continuous line.
 0 Name: 8285 - rope.ldr
@@ -5000,6 +5029,7 @@
 1 16 455.284856 -21.019228 -870.133421 0.315039 -1.190215 1.396975 1.466241 0.178235 -0.309305 0.029788 3.814659 0.450323 4-4cyli.dat
 
 
+0 STEP
 0 FILE 8285 - knob.ldr
 0 A simple knob or dial made from a round brick and dish mounted on a short axle.
 0 Name: 8285 - knob.ldr
@@ -5015,6 +5045,7 @@
 1 0 10 -10 25 0 0 1 1 0 0 0 1 0 2654.dat
 
 
+0 STEP
 0 FILE 8285 - cranearm.ldr
 0 The main crane arm built from long red liftarms, cross blocks, gears, and connector pins forming an extended boom.
 0 Name: 8285 - cranearm.ldr
@@ -5216,6 +5247,7 @@
 1 0 40 -62 210 1 0 0 0 1 0 0 0 1 3040b.dat
 
 
+0 STEP
 0 FILE 8285 - cranearm2.ldr
 0 A secondary crane arm section using bent liftarms, cross blocks, and a long axle for articulation.
 0 Name: 8285 - cranearm2.ldr
@@ -5261,6 +5293,7 @@
 1 4 -20 -80 -30 0 -1 0 1 0 0 0 0 1 43857.dat
 
 
+0 STEP
 0 FILE 8285 - cranearmext.ldr
 0 A telescoping crane arm extension with gear racks, long technic bricks, and beams for extendable reach.
 0 Name: 8285 - cranearmext.ldr
@@ -5342,6 +5375,7 @@
 1 71 0 -10 430 0 0 -1 0 1 0 1 0 0 42610.dat
 
 
+0 STEP
 0 FILE 8285 - pneumaticHoseLQ-3.ldr
 0 A pneumatic hose assembly made of 99 tube segments with two bulged end connectors.
 0 Name: 8285 - pneumaticHoseLQ-3.ldr
@@ -5581,6 +5615,7 @@
 1 16 -214.070996 120.614682 -10.055943 -0.007382 0.455941 0.993422 0.089789 -3.947513 0.114472 0.995933 0.359271 -0.002957 166.dat
 
 
+0 STEP
 0 FILE 8285 - platform.ldr
 0 A support platform structure with shock absorbers, bent liftarms, axles, and connector pins.
 0 Name: 8285 - platform.ldr
@@ -5787,6 +5822,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 8285 - damper.ldr
 0 A damping mechanism using bent liftarms, cams, bushes, and axles for shock absorption.
 0 Name: 8285 - damper.ldr
@@ -5823,6 +5859,7 @@
 1 4 45 0 0 0 1 0 -1 0 0 0 0 1 32250.dat
 
 
+0 STEP
 0 FILE 8285 - side1a.ldr
 0 A side frame assembly using long black liftarms, cross blocks, and connector pins.
 0 Name: 8285 - side1a.ldr
@@ -5859,6 +5896,7 @@
 1 0 10 116 -22 1 0 0 0 1 0 0 0 1 2780.dat
 
 
+0 STEP
 0 FILE 8285 - sidepanel1.ldr
 0 A detailed side panel with a large studded plate, liftarms, handlebars, and mounting clips.
 0 Name: 8285 - sidepanel1.ldr
@@ -5899,6 +5937,7 @@
 1 80 20 130 0 0 0 -1 0 1 0 1 0 0 30031.dat
 
 
+0 STEP
 0 FILE 8285 - side1b.ldr
 0 A mirrored side frame assembly using long black liftarms, cross blocks, and connector pins.
 0 Name: 8285 - side1b.ldr
@@ -5935,6 +5974,7 @@
 1 0 -10 116 -22 1 0 0 0 1 0 0 0 1 2780.dat
 
 
+0 STEP
 0 FILE 8285 - technicFlexAxle-1.ldr
 0 A flexible Technic axle assembly with end connectors and multiple cylindrical segments forming a curved axle.
 0 Name: 8285 - technicFlexAxle-1.ldr
@@ -7786,6 +7826,7 @@
 5 24 32.594353 -204.32019 -1.5308 31.436199 -200.637314 -1.5308 32.884731 -204.228867 0 31.767103 -204.580383 -2.8284
 
 
+0 STEP
 0 FILE 8285 - tank.ldr
 0 A cylindrical tank assembly made of round Technic cylinders with inverted dishes as end caps.
 0 Name: 8285 - tank.ldr
@@ -7830,6 +7871,7 @@
 1 4 50 0 -20 1 0 0 0 -1 0 0 0 -1 41531.dat
 
 
+0 STEP
 0 FILE 8285 - ldcLQRopeSeg.dat
 0 A single cylindrical rope segment primitive used as a repeating unit in rope assemblies.
 0 Name: 8285 - ldcLQRopeSeg.dat
@@ -7844,6 +7886,7 @@
 0 // Cylinder 1.0 (main_colour)
 1 16 0 0 0 1.5 0 0 0 1 0 0 0 1.5 4-4cyli.dat
 
+0 STEP
 0 FILE 8285 - ldcFlexAxleEndA.dat
 0 A flexible axle end connector placeholder primitive.
 0 Name: 8285 - ldcFlexAxleEndA.dat
@@ -7861,6 +7904,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 8285 - ldcFlexAxleEndB.dat
 0 A flexible axle end connector with a cylindrical body primitive.
 0 Name: 8285 - ldcFlexAxleEndB.dat
@@ -7879,6 +7923,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 8285 - ldcFlexAxleEndC.dat
 0 A flexible axle end connector placeholder primitive.
 0 Name: 8285 - ldcFlexAxleEndC.dat
@@ -7897,6 +7942,7 @@
 0 // these don't seem to be worth the trouble, might add them in the future though.
 
 
+0 STEP
 0 FILE 8285 - ldcFlexAxleEndD.dat
 0 A flexible axle end connector placeholder primitive.
 0 Name: 8285 - ldcFlexAxleEndD.dat
@@ -7915,6 +7961,7 @@
 0 // these don't seem to be worth the trouble, might add them in the future though.
 
 
+0 STEP
 0 FILE 8285 - ldcFlexAxleEndE.dat
 0 A flexible axle end connector placeholder primitive.
 0 Name: 8285 - ldcFlexAxleEndE.dat
@@ -7933,6 +7980,7 @@
 0 // these don't seem to be worth the trouble, might add them in the future though.
 
 
+0 STEP
 0 FILE 8285 - ldcFlexAxleEndF.dat
 0 A flexible axle end connector placeholder primitive.
 0 Name: 8285 - ldcFlexAxleEndF.dat
@@ -7951,6 +7999,7 @@
 0 // these don't seem to be worth the trouble, might add them in the future though.
 
 
+0 STEP
 0 FILE 8285 - ldcFlexAxleEndG.dat
 0 A flexible axle end connector placeholder primitive.
 0 Name: 8285 - ldcFlexAxleEndG.dat
@@ -7969,6 +8018,7 @@
 0 // these don't seem to be worth the trouble, might add them in the future though.
 
 
+0 STEP
 0 FILE 8285 - ldcFlexAxleMid.dat
 0 A flexible axle segment composed of a central axle perimeter with a placeholder element.
 0 Name: 8285 - ldcFlexAxleMid.dat
@@ -7987,6 +8037,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE s\8285 - 6143s01.dat
 0 A Technic axle-hole connector sub-part with semi-reduced teeth and outer, inner, and side edge surfaces.
 0 Name: s\8285 - 6143s01.dat
@@ -8022,6 +8073,7 @@
 
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 8285 - stug15-2x2.dat
 
+0 STEP
 0 FILE s\8285 - 6143s02.dat
 0 A geometric detail sub-part combining circles, cylinders, rings, rectangles, and chords forming a rounded stud-like profile.
 0 Name: s\8285 - 6143s02.dat
@@ -8111,6 +8163,7 @@
 5 24 18.4778 20 -7.6539 18.4778 24 -7.6539 16.870001 24 -10.07 20.0005 24 0.0002
 5 24 18.477699 20 7.6538 18.476999 24 7.654 16.870001 24 10.07 20.0005 24 0.0002
 
+0 STEP
 0 FILE 8285 - stug15-2x2.dat
 0 A 2x2 studded base plate with four corner studs configured for logo placement.
 0 Name: 8285 - stug15-2x2.dat
@@ -8130,6 +8183,7 @@
 1 16 10 0 -10 0 0 1 0 1 0 -1 0 0 stud15.dat
 1 16 -10 0 -10 -1 0 0 0 1 0 0 0 -1 stud15.dat
 
+0 STEP
 0 FILE s\8285 - 32269s01.dat
 0 A rectangular detail sub-part built from multiple rectangles with varying edge counts forming a structural ribbed pattern.
 0 Name: s\8285 - 32269s01.dat
@@ -8219,6 +8273,7 @@
 3 16 18.258699 2.4034 -10 17.789101 4.7663 -10 19.3403 4.9066 -10
 3 16 15.3375 12.7626 -10 14.6121 11.2123 -10 13.0227 13.0227 -10
 
+0 STEP
 0 FILE s\8285 - 32269s02.dat
 0 A cylindrical connector sub-part combining an open cylinder, rings, and rectangular faces forming a bushing-like profile.
 0 Name: s\8285 - 32269s02.dat

@@ -7,6 +7,7 @@
 1 15 0 0 0 1 0 0 0 1 0 0 0 1 4996 - Building.ldr
 
 
+0 STEP
 0 FILE 4996 - Building.ldr
 0 A multi-story apartment building built on a green 16x32 baseplate with dark bluish-grey brick walls, arched entrance, fences, and grooved window tiles.
 0 Name: 4996 - Building.ldr
@@ -796,6 +797,7 @@
 1 0 -20 -664 40 0 0 -1 0 1 0 1 0 0 3041.dat
 
 
+0 STEP
 0 FILE 4996 - Plant1.ldr
 0 A small decorative plant made of stacked round plates in green, yellow, orange, and red.
 0 Name: 4996 - Plant1.ldr
@@ -820,6 +822,7 @@
 1 4 -10 -24 10 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 4996 - Plant2.ldr
 0 A small potted plant on a brown base with colorful round plate foliage in green, orange, yellow, and red.
 0 Name: 4996 - Plant2.ldr
@@ -848,6 +851,7 @@
 1 25 50 -16 0 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 4996 - Seat.ldr
 0 A small red and brown bench or seat built from a round brick, handled plate, clip plate, and grooved red tile.
 0 Author: Marc Giraudet [Mad_Marc]
@@ -868,6 +872,7 @@
 1 4 0 -26.795 11.781 1 0 0 0 0.087 -0.996 0 0.996 0.087 3069b.dat
 
 
+0 STEP
 0 FILE 4996 - Desk.ldr
 0 A light grey desk with brown legs, a white grooved top, and a yellow cup, accessorized with clip and handle plates.
 0 Name: 4996 - Desk.ldr

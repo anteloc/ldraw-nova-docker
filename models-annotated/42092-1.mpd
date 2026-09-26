@@ -359,6 +359,7 @@
 
 
 
+0 STEP
 0 FILE 42092 - side1.ldr
 0 side1
 0 Name: 42092 - side1.ldr
@@ -388,6 +389,7 @@
 
 
 
+0 STEP
 0 FILE 42092 - side2.ldr
 0 side2
 0 Name: 42092 - side2.ldr
@@ -417,6 +419,7 @@
 
 
 
+0 STEP
 0 FILE 42092 - bottom.ldr
 0 bottom
 0 Name: 42092 - bottom.ldr
@@ -444,6 +447,7 @@
 
 
 
+0 STEP
 0 FILE 42092 - floor.ldr
 0 floor
 0 Name: 42092 - floor.ldr
@@ -488,6 +492,7 @@
 
 
 
+0 STEP
 0 FILE 42092 - backside1.ldr
 0 backside1
 0 Name: 42092 - backside1.ldr
@@ -526,6 +531,7 @@
 
 
 
+0 STEP
 0 FILE 42092 - backside2.ldr
 0 backside2
 0 Name: 42092 - backside2.ldr
@@ -564,6 +570,7 @@
 
 
 
+0 STEP
 0 FILE 42092 - technicFlexAxle-1.ldr
 0 technicFlexAxle-1
 0 Name: 42092 - technicFlexAxle-1.ldr
@@ -3334,6 +3341,7 @@
 5 24 80.410896 -126.304398 -0.182997 76.846069 -126.304398 -0.182997 80.410896 -126 1.347803 80.410896 -127.1716 -1.480597
 
 
+0 STEP
 0 FILE 42092 - tail.ldr
 0 tail
 0 Name: 42092 - tail.ldr
@@ -3461,6 +3469,7 @@
 
 
 
+0 STEP
 0 FILE 42092 - tailback.ldr
 0 tailback
 0 Name: 42092 - tailback.ldr
@@ -3496,6 +3505,7 @@
 
 
 
+0 STEP
 0 FILE 42092 - tailtip.ldr
 0 tailtip
 0 Name: 42092 - tailtip.ldr
@@ -3536,6 +3546,7 @@
 
 
 
+0 STEP
 0 FILE 42092 - winch.ldr
 0 winch
 0 Name: 42092 - winch.ldr
@@ -3569,6 +3580,7 @@
 
 
 
+0 STEP
 0 FILE 42092 - rope.ldr
 0 rope
 0 Name: 42092 - rope.ldr
@@ -4035,6 +4047,7 @@
 1 16 -19.644288 -8.861853 49.956998 -0.184603 -2.487942 -1.159627 -1.472758 -0.147908 0.279114 -0.216576 3.126452 -0.909594 4-4cyli.dat
 
 
+0 STEP
 0 FILE 42092 - rotor.ldr
 0 rotor
 0 Name: 42092 - rotor.ldr
@@ -4060,6 +4073,7 @@
 
 
 
+0 STEP
 0 FILE 42092 - stretcher.ldr
 0 stretcher
 0 Name: 42092 - stretcher.ldr
@@ -4074,6 +4088,7 @@
 
 
 
+0 STEP
 0 FILE 42092 - ldcFlexAxleEndA.dat
 0 ldcFlexAxleEndA
 0 Name: 42092 - ldcFlexAxleEndA.dat
@@ -4092,6 +4107,7 @@
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
 
+0 STEP
 0 FILE 42092 - ldcFlexAxleEndB.dat
 0 ldcFlexAxleEndB
 0 Name: 42092 - ldcFlexAxleEndB.dat
@@ -4111,6 +4127,7 @@
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
 
+0 STEP
 0 FILE 42092 - ldcFlexAxleEndC.dat
 0 ldcFlexAxleEndC
 0 Name: 42092 - ldcFlexAxleEndC.dat
@@ -4130,6 +4147,7 @@
 
 
 
+0 STEP
 0 FILE 42092 - ldcFlexAxleEndD.dat
 0 ldcFlexAxleEndD
 0 Name: 42092 - ldcFlexAxleEndD.dat
@@ -4149,6 +4167,7 @@
 
 
 
+0 STEP
 0 FILE 42092 - ldcFlexAxleEndE.dat
 0 ldcFlexAxleEndE
 0 Name: 42092 - ldcFlexAxleEndE.dat
@@ -4168,6 +4187,7 @@
 
 
 
+0 STEP
 0 FILE 42092 - ldcFlexAxleEndF.dat
 0 ldcFlexAxleEndF
 0 Name: 42092 - ldcFlexAxleEndF.dat
@@ -4187,6 +4207,7 @@
 
 
 
+0 STEP
 0 FILE 42092 - ldcFlexAxleEndG.dat
 0 ldcFlexAxleEndG
 0 Name: 42092 - ldcFlexAxleEndG.dat
@@ -4206,6 +4227,7 @@
 
 
 
+0 STEP
 0 FILE 42092 - ldcFlexAxleMid.dat
 0 ldcFlexAxleMid
 0 Name: 42092 - ldcFlexAxleMid.dat
@@ -4225,6 +4247,7 @@
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
 
+0 STEP
 0 FILE 42092 - ldcLQRopeSeg.dat
 0 ldcLQRopeSeg
 0 Name: 42092 - ldcLQRopeSeg.dat
@@ -4240,6 +4263,7 @@
 1 16 0 0 0 1.5 0 0 0 1 0 0 0 1.5 4-4cyli.dat
 
 
+0 STEP
 0 FILE 42092 - 30191-f3.dat
 0 30191-f3
 0 Name: 42092 - 30191-f3.dat
@@ -4452,6 +4476,7 @@
 1 16 -70.0061 22.2378 -26.0027 -2.49917 0.05198 0.00071 -0.06451 -2.01359 -0.02793 0.00001 0.02251 -2.49984 4-4cyli.dat
 
 
+0 STEP
 0 FILE s\42092 - 32269s01.dat
 0 A flat rectangular panel surface made of various rectangular shapes.
 0 Name: s\42092 - 32269s01.dat
@@ -4542,6 +4567,7 @@
 3 16 15.3375 12.7626 -10 14.6121 11.2123 -10 13.0227 13.0227 -10
 
 
+0 STEP
 0 FILE s\42092 - 32269s02.dat
 0 A curved cylindrical element with a ring base and surrounding rectangular facets.
 0 Name: s\42092 - 32269s02.dat
@@ -4614,6 +4640,7 @@
 3 16 17 0 -10 16.934099 -1 -10 16.934099 1 -10
 
 
+0 STEP
 0 FILE 42092 - 30191k03.dat
 0 A cylindrical joint connection with a half-cylinder junction piece.
 0 Name: 42092 - 30191k03.dat
@@ -4636,6 +4663,7 @@
 1 16 0 0 0 4 0 0 0 0 -4 0 4 0 42092 - 4-4cylj1x1e.dat
 
 
+0 STEP
 0 FILE 42092 - 4-4cylj1x1e.dat
 0 A full cylindrical junction with edge lines and sloped cylinder segments.
 0 Name: 42092 - 4-4cylj1x1e.dat
@@ -4659,6 +4687,7 @@
 1 16 -1 0 0 0 1 0 -1 0 0 0 0 1 1-4cyls.dat
 
 
+0 STEP
 0 FILE 42092 - 2-4cylj1x1e.dat
 0 A half cylindrical junction connection with circular end caps.
 0 Name: 42092 - 2-4cylj1x1e.dat
@@ -4676,6 +4705,7 @@
 1 16 0 1 0 0 0 1 0 -1 -1 1 0 0 1-4edge.dat
 
 
+0 STEP
 0 FILE 42092 - 2-4cylj1x1.dat
 0 A half cylindrical connector piece for joining same-sized cylinders with sloped segments.
 0 Name: 42092 - 2-4cylj1x1.dat

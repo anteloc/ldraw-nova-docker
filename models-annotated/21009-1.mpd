@@ -224,6 +224,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 21009 - House.ldr
 0 The main house structure built from large white plates with extensive grooved white tiles forming smooth walls, accented with tan and transparent clear plates for floors and windows.
 0 Name: 21009 - House.ldr
@@ -688,6 +689,7 @@
 1 15 0 -96 -80 -1 0 0 0 1 0 -0 0 -1 21009 - Roof 2.ldr
 0 STEP
 
+0 STEP
 0 FILE 21009 - Sign.ldr
 0 A nameplate sign made of a white plate topped with a patterned tile reading 'Farnsworth House'.
 0 Name: 21009 - Sign.ldr
@@ -702,6 +704,7 @@
 0 // Tile  1 x  8 with "Farnsworth House" Pattern (white)
 1 15 0 -8 0 0 0 -1 0 1 0 1 0 0 4162p02.dat
 
+0 STEP
 0 FILE 21009 - Roof 1.ldr
 0 A flat white roof section consisting of a large plate covered with grooved white tiles for a smooth surface.
 0 Name: 21009 - Roof 1.ldr
@@ -732,6 +735,7 @@
 1 15 60 -8 -20 1 0 0 0 1 0 -0 0 1 3068b.dat
 0 STEP
 
+0 STEP
 0 FILE 21009 - Roof 2.ldr
 0 A smaller flat white roof panel made of a plate topped with grooved white tiles.
 0 Name: 21009 - Roof 2.ldr
@@ -752,6 +756,7 @@
 0 // Plate  2 x  8 (white)
 1 15 0 0 0 1 0 0 0 1 0 -0 0 1 3034.dat
 
+0 STEP
 0 FILE 21009 - Column 1.ldr
 0 A vertical white support column built from stacked bricks capped with a plate and grooved tile.
 0 Name: 21009 - Column 1.ldr
@@ -772,6 +777,7 @@
 0 // Tile  1 x  1 with Groove (white)
 1 15 0 -64 0 1 0 0 0 1 0 -0 0 1 3070b.dat
 
+0 STEP
 0 FILE 21009 - Column 2.ldr
 0 A simple white support column made of stacked single-stud bricks.
 0 Name: 21009 - Column 2.ldr
@@ -788,6 +794,7 @@
 0 // Brick  1 x  1 (white)
 1 15 0 -48 0 1 0 0 0 1 0 -0 0 1 3005.dat
 
+0 STEP
 0 FILE 21009 - Chair.ldr
 0 A small piece of furniture made from a tan rounded corner panel with a transparent round stud on top.
 0 Name: 21009 - Chair.ldr
@@ -802,6 +809,7 @@
 0 // Panel  1 x  1 x  1 Corner with Rounded Corners (tan)
 1 19 0 -24 0 1 0 0 0 1 0 -0 0 1 6231.dat
 
+0 STEP
 0 FILE 21009 - House Base.ldr
 0 The foundational platform of the house built from long white plates forming a rectangular base.
 0 Name: 21009 - House Base.ldr
@@ -829,6 +837,7 @@
 1 15 0 -8 20 -1 -0 0 -0 1 -0 -0 -0 -1 3036.dat
 0 STEP
 
+0 STEP
 0 FILE 21009 - Steps.ldr
 0 A short flight of entrance steps assembled from small white plates and grooved tiles.
 0 Name: 21009 - Steps.ldr
@@ -849,6 +858,7 @@
 1 15 -10 -16 0 0 0 1 0 1 0 -1 0 0 2431.dat
 0 STEP
 
+0 STEP
 0 FILE 21009 - Deck 1.ldr
 0 A large white deck surface built on a base plate and covered with many grooved single-stud tiles for a smooth finish.
 0 Name: 21009 - Deck 1.ldr
@@ -953,6 +963,7 @@
 1 15 -10 -8 50 0 0 1 0 1 0 -1 0 0 3070b.dat
 0 STEP
 
+0 STEP
 0 FILE 21009 - Deck 2.ldr
 0 A small white deck extension made of a plate topped with grooved tiles.
 0 Name: 21009 - Deck 2.ldr
@@ -977,6 +988,7 @@
 0 // Tile  1 x  1 with Groove (white)
 1 15 10 -8 20 1 0 0 0 1 0 -0 0 1 3070b.dat
 
+0 STEP
 0 FILE 21009 - Deck 3.ldr
 0 A large white deck platform consisting of a base plate fully covered with grooved single-stud tiles.
 0 Name: 21009 - Deck 3.ldr
@@ -1085,6 +1097,7 @@
 0 // Tile  1 x  1 with Groove (white)
 1 15 -10 -8 50 0 0 1 0 1 0 -1 0 0 3070b.dat
 
+0 STEP
 0 FILE 21009 - Panel 1.ldr
 0 A tan panel section built from a plate topped with multiple grooved tan tiles forming a smooth wall surface.
 0 Name: 21009 - Panel 1.ldr
@@ -1109,6 +1122,7 @@
 0 // Tile  1 x  2 with Groove (tan)
 1 19 0 -8 -50 -1 0 0 0 1 0 -0 0 -1 3069b.dat
 
+0 STEP
 0 FILE 21009 - Panel 2.ldr
 0 A narrow tan panel made of a plate topped with a single smooth tan tile.
 0 Name: 21009 - Panel 2.ldr

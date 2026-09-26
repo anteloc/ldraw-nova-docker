@@ -19,6 +19,7 @@
 
 
 
+0 STEP
 0 FILE 8275 - m-1.ldr
 0 Main mechanical assembly with liftarms, gears, and axles forming a geared drivetrain or transmission structure.
 0 Name: 8275 - m-1.ldr
@@ -328,6 +329,7 @@
 0 STEP
 0
 
+0 STEP
 0 FILE 8275 - m-1a.ldr
 0 Small liftarm bracket built from two black liftarms joined by pin and axle pin connectors.
 0 Name: 8275 - m-1a.ldr
@@ -351,6 +353,7 @@
 1 0 -5 0 10 1 0 0 0 -1 0 0 0 -1 2780.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1b.ldr
 0 Simple axle-and-gear assembly featuring a 12-stud axle with a 20-tooth double bevel gear and bush.
 0 Name: 8275 - m-1b.ldr
@@ -374,6 +377,7 @@
 1 71 -50 0 0 0 0 1 0 1 0 -1 0 0 32269.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1c.ldr
 0 Compact gear-and-liftarm module using a 10-stud axle with a 12-tooth double bevel gear and yellow liftarm.
 0 Name: 8275 - m-1c.ldr
@@ -399,6 +403,7 @@
 1 71 20 0 0 0 0 1 -0.965926 -0.258819 0 0.258819 -0.965926 0 3713.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1d.ldr
 0 Gear-driven angle connector assembly linking two axles via a 12-tooth double bevel gear.
 0 Name: 8275 - m-1d.ldr
@@ -424,6 +429,7 @@
 1 0 0 0 -20 -1 0 0 0 -1 0 0 0 1 32270.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1e.ldr
 0 Pair of yellow triangular liftarms joined by pin and axle pin connectors forming a pivoting bracket.
 0 Name: 8275 - m-1e.ldr
@@ -447,6 +453,7 @@
 1 0 15 -20 0 -1 0 0 0 0 -1 0 -1 0 2780.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1f.ldr
 0 Small liftarm bracket made of two black liftarms joined by pin and axle pin connectors.
 0 Name: 8275 - m-1f.ldr
@@ -470,6 +477,7 @@
 1 0 5 0 10 -1 0 0 0 1 0 0 0 -1 2780.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1g.ldr
 0 Minimal pin-and-liftarm joint consisting of a single yellow liftarm attached with a half-pin.
 0 Name: 8275 - m-1g.ldr
@@ -488,6 +496,7 @@
 1 72 5 0 -40 -1 0 0 0 0 1 0 1 0 32002.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1h.ldr
 0 Reinforced liftarm beam assembly joining two long beams with a cross block connector.
 0 Name: 8275 - m-1h.ldr
@@ -520,6 +529,7 @@
 1 14 40 0 -60 1 0 0 0 1 0 0 0 1 8275 - m-1hb.ldr
 0
 
+0 STEP
 0 FILE 8275 - m-1ha.ldr
 0 Bent liftarm connector module with a 90-degree beam mounted on a stopped axle and pin.
 0 Name: 8275 - m-1ha.ldr
@@ -541,6 +551,7 @@
 1 0 -10 -40 80 1 0 0 0 1 0 0 0 1 2780.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1hb.ldr
 0 Compact cross-block linkage assembly combining pin and axle connectors with a short liftarm.
 0 Name: 8275 - m-1hb.ldr
@@ -564,6 +575,7 @@
 1 71 0 -20 -20 0 -1 0 -1 0 0 0 0 -1 6536.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1i.ldr
 0 Complex structural frame assembly with multiple cross blocks, axles, and liftarms forming an extended braced framework.
 0 Name: 8275 - m-1i.ldr
@@ -685,6 +697,7 @@
 1 71 -35 -40 20 1 0 0 0 -1 0 0 0 -1 3647.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1ia.ldr
 0 Short axle-and-cross-block connector joining two axles of different lengths through a center block.
 0 Name: 8275 - m-1ia.ldr
@@ -705,6 +718,7 @@
 1 71 0 -20 0 1 0 0 0 1 0 0 0 1 4519.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1ib.ldr
 0 Simple axle assembly consisting of a 7-stud axle secured by two bushes.
 0 Name: 8275 - m-1ib.ldr
@@ -727,6 +741,7 @@
 0 
 0
 
+0 STEP
 0 FILE 8275 - m-1ic.ldr
 0 Bent liftarm linkage assembly using angle connectors and cross blocks to form a pivoting arm structure.
 0 Name: 8275 - m-1ic.ldr
@@ -764,6 +779,7 @@
 1 1 70 40 0 -1 0 0 0 0 -1 0 -1 0 43093.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1id.ldr
 0 Paired bent liftarms joined by a single axle pin forming a small angled connector.
 0 Name: 8275 - m-1id.ldr
@@ -784,6 +800,7 @@
 1 1 -10 40 0 1 0 0 0 0 -1 0 1 0 43093.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1ie.ldr
 0 Minimal liftarm-and-pin joint consisting of a short yellow liftarm on a friction pin.
 0 Name: 8275 - m-1ie.ldr
@@ -802,6 +819,7 @@
 1 0 10 0 0 -1 0 0 0 1 0 0 0 -1 2780.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1if.ldr
 0 Simple angle connector with a long friction pin forming a pivoting joint.
 0 Name: 8275 - m-1if.ldr
@@ -820,6 +838,7 @@
 1 0 0 0 0 0 0 -1 -1 0 0 0 1 0 6558.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1ig.ldr
 0 Gear train module with a clutch gear and 16-tooth gear mounted on an axle with a bush.
 0 Name: 8275 - m-1ig.ldr
@@ -845,6 +864,7 @@
 
 
 
+0 STEP
 0 FILE 8275 - m-1j.ldr
 0 Liftarm assembly with a clutch gear mechanism mounted along a long black beam.
 0 Name: 8275 - m-1j.ldr
@@ -877,6 +897,7 @@
 1 72 0 40 0 1 0 0 0 1 0 0 0 1 8275 - m-1jc.ldr
 0
 
+0 STEP
 0 FILE 8275 - m-1ja.ldr
 0 Short blue liftarm linkage built on a 4-stud axle with an axle pin.
 0 Name: 8275 - m-1ja.ldr
@@ -900,6 +921,7 @@
 1 1 -15 0 20 1 0 0 0 0 -1 0 1 0 43093.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1jb.ldr
 0 Power Functions XL motor module with connector, axle, and 16-tooth output gear.
 0 Name: 8275 - m-1jb.ldr
@@ -1811,6 +1833,7 @@
 1 71 10 0 0 0 0 1 0 1 0 -1 0 0 4019.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1jc.ldr
 0 Structural motor-mount or support bracket combining long beams, bent liftarms, and cross blocks.
 0 Name: 8275 - m-1jc.ldr
@@ -1850,6 +1873,7 @@
 1 71 40 -20 80 0 -1 0 -1 0 0 0 0 -1 6536.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1k.ldr
 0 Simple cross-block connector with a long friction pin for attaching adjacent assemblies.
 0 Name: 8275 - m-1k.ldr
@@ -1868,6 +1892,7 @@
 1 0 0 0 0 -1 0 0 0 0 -1 0 -1 0 6558.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1l.ldr
 0 A simple black Technic beam 15 pinned with two long stop-bush pins, forming a short structural link.
 0 Name: 8275 - m-1l.ldr
@@ -1888,6 +1913,7 @@
 1 71 0 0 140 0 0 1 -1 0 0 0 -1 0 32054.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1m.ldr
 0 A small black beam 11 assembly joined by pins and yellow cross blocks with axle-pin connectors.
 0 Name: 8275 - m-1m.ldr
@@ -1921,6 +1947,7 @@
 1 1 20 10 -120 0 -1 0 -1 0 0 0 0 -1 43093.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1n.ldr
 0 A yellow triangular liftarm and beam assembly with a 16-tooth gear and bushes, forming a geared lever or linkage module.
 0 Name: 8275 - m-1n.ldr
@@ -2010,6 +2037,7 @@
 1 0 45 60 -80 0 0 1 0 -1 0 1 0 0 8275 - m-1nt.ldr
 0
 
+0 STEP
 0 FILE 8275 - m-1na.ldr
 0 A 180-degree angle connector joining two light-bluish-grey axles into a straight axle coupler.
 0 Name: 8275 - m-1na.ldr
@@ -2030,6 +2058,7 @@
 1 71 -60 0 0 1 0 0 0 -1 0 0 0 -1 32073.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1nb.ldr
 0 Two short black liftarms linked by pins, forming a compact pivoting connector.
 0 Name: 8275 - m-1nb.ldr
@@ -2053,6 +2082,7 @@
 1 0 -5 0 10 1 0 0 0 0 1 0 -1 0 2780.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1nc.ldr
 0 A 20-tooth double bevel gear mounted on a black axle 12 with a flanged bush, a simple gear-and-shaft unit.
 0 Name: 8275 - m-1nc.ldr
@@ -2077,6 +2107,7 @@
 0 
 0
 
+0 STEP
 0 FILE 8275 - m-1nd.ldr
 0 A 12-tooth double bevel gear on a black axle 10 with a yellow beam 3 and bush, forming a geared shaft assembly.
 0 Name: 8275 - m-1nd.ldr
@@ -2102,6 +2133,7 @@
 1 71 10 0 0 0 0 1 1 0 0 0 1 0 3713.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1ne.ldr
 0 A complex linkage assembly of bent liftarms, offset axle joiners, and short axles forming an articulated arm or suspension element.
 0 Name: 8275 - m-1ne.ldr
@@ -2165,6 +2197,7 @@
 1 71 70 0 -120 1 0 0 0 1 0 0 0 1 6538b.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1nea.ldr
 0 A compact articulation unit with offset axle joiner, bent liftarms, and short blue liftarms forming a pivoting joint.
 0 Name: 8275 - m-1nea.ldr
@@ -2197,6 +2230,7 @@
 1 71 -85 0 0 0 1 0 0 0 1 1 0 0 32056.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1neb.ldr
 0 A short axle 7 with a smooth half-bush, a simple rotating shaft and spacer element.
 0 Name: 8275 - m-1neb.ldr
@@ -2215,6 +2249,7 @@
 1 71 0 0 45 -1 0 0 0 1 0 0 0 -1 32123b.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1nf.ldr
 0 A 180-degree angle connector joining two light-bluish-grey axles into a straight axle coupler.
 0 Name: 8275 - m-1nf.ldr
@@ -2235,6 +2270,7 @@
 1 71 -60 0 0 -1 0 0 0 1 0 0 0 -1 32073.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1ng.ldr
 0 Two yellow triangular liftarms held together by a single friction pin, forming a small angled bracket.
 0 Name: 8275 - m-1ng.ldr
@@ -2255,6 +2291,7 @@
 1 0 15 -20 0 -1 0 0 0 1 0 0 0 -1 2780.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1nh.ldr
 0 Two short black liftarms linked by pins, forming a compact pivoting connector.
 0 Name: 8275 - m-1nh.ldr
@@ -2278,6 +2315,7 @@
 1 0 15 0 10 -1 0 0 0 0 1 0 1 0 2780.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1ni.ldr
 0 A yellow bent liftarm fitted with a towball axle, forming a ball-joint steering or suspension link.
 0 Name: 8275 - m-1ni.ldr
@@ -2296,6 +2334,7 @@
 1 71 -10 0 0 1 0 0 0 1 0 0 0 1 2736.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1nj.ldr
 0 A yellow bent liftarm fitted with a towball axle, forming a ball-joint steering or suspension link.
 0 Name: 8275 - m-1nj.ldr
@@ -2314,6 +2353,7 @@
 1 71 10 0 0 -1 0 0 0 1 0 0 0 -1 2736.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1nk.ldr
 0 Two black beams 11 connected by pins via a yellow cross block, forming an extended pivoting strut.
 0 Name: 8275 - m-1nk.ldr
@@ -2347,6 +2387,7 @@
 1 0 40 0 -60 1 0 0 0 1 0 0 0 1 8275 - m-1nkb.ldr
 0
 
+0 STEP
 0 FILE 8275 - m-1nka.ldr
 0 A black bent beam 3x5 with a friction pin and stop axle, forming an angled actuator or catch lever.
 0 Name: 8275 - m-1nka.ldr
@@ -2367,6 +2408,7 @@
 1 72 27 0 20 1 0 0 0 0.99966 -0.0260795 0 0.0260795 0.99966 32209.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1nkb.ldr
 0 A small cross-block linkage with a yellow beam 3 and axle-pin connectors, forming a compact multi-joint pivot.
 0 Name: 8275 - m-1nkb.ldr
@@ -2391,6 +2433,7 @@
 0 
 0
 
+0 STEP
 0 FILE 8275 - m-1nl.ldr
 0 A complex axle-and-cross-block subassembly with offset joiners and blue liftarms, forming an articulated drivetrain or linkage module.
 0 Name: 8275 - m-1nl.ldr
@@ -2467,6 +2510,7 @@
 1 1 60 60 -40 1 0 0 0 1 0 0 0 1 8275 - m-1nlc.ldr
 0
 
+0 STEP
 0 FILE 8275 - m-1nla.ldr
 0 An articulated coupler of 180-degree connectors, cross blocks, and bent liftarms with axle pins.
 0 Name: 8275 - m-1nla.ldr
@@ -2503,6 +2547,7 @@
 1 1 -70 40 0 1 0 0 0 0 1 0 -1 0 43093.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1nlb.ldr
 0 Two bent liftarms joined by an axle pin, forming a small angled hinge bracket.
 0 Name: 8275 - m-1nlb.ldr
@@ -2523,6 +2568,7 @@
 1 1 -50 40 0 -1 0 0 0 0 1 0 1 0 43093.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1nlc.ldr
 0 A black beam 5 fitted with three friction pins, serving as a multi-mount pin connector block.
 0 Name: 8275 - m-1nlc.ldr
@@ -2545,6 +2591,7 @@
 1 0 10 0 20 -1 0 0 0 -1 0 0 0 1 2780.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1nm.ldr
 0 A black beam 11 with a clutch 16-tooth gear, pins, and a yellow beam 2, forming a geared pivoting arm.
 0 Name: 8275 - m-1nm.ldr
@@ -2574,6 +2621,7 @@
 1 72 -30 0 -20 1 0 0 0 1 0 0 0 1 8275 - m-1nmb.ldr
 0
 
+0 STEP
 0 FILE 8275 - m-1nma.ldr
 0 A short axle 4 with two blue liftarms and an axle pin, forming a compact pivoting link.
 0 Name: 8275 - m-1nma.ldr
@@ -2597,6 +2645,7 @@
 1 1 20 0 20 1 0 0 0 1 0 0 0 1 43093.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1nmb.ldr
 0 A Power Functions XL motor assembly with connector, gear, axle, and a red tile, forming a powered drive unit.
 0 Name: 8275 - m-1nmb.ldr
@@ -3570,6 +3619,7 @@
 1 4 10 -298 -20 1 0 0 0 1 0 0 0 1 3069b.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1nn.ldr
 0 A bent beam linkage assembly with cross blocks and pins for articulating connection.
 0 Name: 8275 - m-1nn.ldr
@@ -3611,6 +3661,7 @@
 1 14 60 0 60 0 -1 0 -1 0 0 0 0 -1 32523.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1no.ldr
 0 A short beam mounting bracket joined with friction pins.
 0 Name: 8275 - m-1no.ldr
@@ -3633,6 +3684,7 @@
 1 0 10 0 40 -1 0 0 0 -1 0 0 0 1 2780.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1np.ldr
 0 A compact axle-pin cross block connector joint.
 0 Name: 8275 - m-1np.ldr
@@ -3651,6 +3703,7 @@
 1 1 -10 0 -20 1 0 0 0 0 -1 0 1 0 43093.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1nq.ldr
 0 An angled connector joint using a long friction pin.
 0 Name: 8275 - m-1nq.ldr
@@ -3669,6 +3722,7 @@
 1 0 0 0 0 0 -1 0 1 0 0 0 0 1 6558.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1nr.ldr
 0 An axle-pin cross block connector joined with a long friction pin.
 0 Name: 8275 - m-1nr.ldr
@@ -3687,6 +3741,7 @@
 1 0 0 0 0 -1 0 0 0 1 0 0 0 -1 6558.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1ns.ldr
 0 A long 15-stud beam with stop-bush pins for pivot mounting.
 0 Name: 8275 - m-1ns.ldr
@@ -3707,6 +3762,7 @@
 1 71 0 0 140 0 0 1 -1 0 0 0 -1 0 32054.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1nt.ldr
 0 A reinforced beam assembly with twin cross blocks and axle pins for linkage attachment.
 0 Name: 8275 - m-1nt.ldr
@@ -3740,6 +3796,7 @@
 1 1 20 10 -120 0 -1 0 -1 0 0 0 0 -1 43093.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1o.ldr
 0 A 15-stud beam fitted with two pin cross blocks for multi-point connection.
 0 Name: 8275 - m-1o.ldr
@@ -3760,6 +3817,7 @@
 1 71 60 0 -20 0 1 0 1 0 0 0 0 -1 48989.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1p.ldr
 0 A 15-stud beam fitted with two pin cross blocks for multi-point connection.
 0 Name: 8275 - m-1p.ldr
@@ -3780,6 +3838,7 @@
 1 71 60 0 20 0 1 0 -1 0 0 0 0 1 48989.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1q.ldr
 0 A clutch gear drive module with a beamed housing, stop axle, and 24-tooth clutch gear.
 0 Name: 8275 - m-1q.ldr
@@ -3812,6 +3871,7 @@
 
 
 
+0 STEP
 0 FILE 8275 - m-1r.ldr
 0 A wheel-and-triangle-liftarm roller assembly mounted on a 16-stud brick axle with six rims.
 0 Name: 8275 - m-1r.ldr
@@ -3864,6 +3924,7 @@
 1 14 120 50 -25 0 0 -1 -1 0 0 0 1 0 32017.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1ra.ldr
 0 A small triangle liftarm wheel module with an axle and beam on a long pin.
 0 Name: 8275 - m-1ra.ldr
@@ -3889,6 +3950,7 @@
 1 71 40 0 0 0 0 1 0 -1 0 1 0 0 4519.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1s.ldr
 0 A short linkage strut combining a 7-stud half-beam, 3-stud beam, and axle stop.
 0 Name: 8275 - m-1s.ldr
@@ -3917,6 +3979,7 @@
 1 0 20 0 15 0 0 -1 1 0 0 0 -1 0 32065.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1t.ldr
 0 A straight axle coupler with two 180-degree angle connectors and cross blocks.
 0 Name: 8275 - m-1t.ldr
@@ -3945,6 +4008,7 @@
 1 14 -60 -20 20 -1 0 0 0 1 0 0 0 -1 8275 - m-1ta.ldr
 0
 
+0 STEP
 0 FILE 8275 - m-1ta.ldr
 0 A bevel gear drive module with a wheel rim hub, axle, and twin 12-tooth bevel gears.
 0 Name: 8275 - m-1ta.ldr
@@ -3978,6 +4042,7 @@
 1 71 0 0 -35 -1 0 0 0 -1 0 0 0 1 32123b.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1u.ldr
 0 A geared drive unit with twin peghole bricks, a 12-tooth double bevel gear, and connector pins.
 0 Name: 8275 - m-1u.ldr
@@ -4035,6 +4100,7 @@
 1 0 0 50 -40 1 0 0 0 1 0 0 0 1 32270.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1ua.ldr
 0 An engine cylinder bank of three heads secured with friction pins and a half pin.
 0 Name: 8275 - m-1ua.ldr
@@ -4070,6 +4136,7 @@
 
 
 
+0 STEP
 0 FILE 8275 - m-1ub.ldr
 0 An engine crankshaft assembly with two crankshafts, six connecting rods, and pistons.
 0 Name: 8275 - m-1ub.ldr
@@ -4123,6 +4190,7 @@
 1 14 25.238 -18.929 -30 0.600001 -0.799999 0 0.799999 0.600001 0 0 0 1 2851.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1uc.ldr
 0 An engine cylinder bank of three heads secured with friction pins and a half pin.
 0 Name: 8275 - m-1uc.ldr
@@ -4158,6 +4226,7 @@
 
 
 
+0 STEP
 0 FILE 8275 - m-1ud.ldr
 0 A compound gear shaft assembly with a 20-tooth double bevel gear and multiple cross blocks.
 0 Name: 8275 - m-1ud.ldr
@@ -4202,6 +4271,7 @@
 0 
 0
 
+0 STEP
 0 FILE 8275 - m-1v.ldr
 0 An offset axle joiner coupling two shafts at a fixed angle.
 0 Name: 8275 - m-1v.ldr
@@ -4222,6 +4292,7 @@
 1 71 0 0 -50 -1 0 0 0 1 0 0 0 -1 6538b.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1w.ldr
 0 A worm gear drive shaft on a 7-stud axle with half-bush spacers.
 0 Name: 8275 - m-1w.ldr
@@ -4245,6 +4316,7 @@
 1 71 0 0 5 -1 0 0 0 1 0 0 0 -1 32123b.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1x.ldr
 0 A bent liftarm structural bracket with triangle beams and multiple pins for bracing.
 0 Name: 8275 - m-1x.ldr
@@ -4293,6 +4365,7 @@
 1 71 -120 -120 -25 0 -1 0 1 0 0 0 0 1 32123b.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1xa.ldr
 0 A 24-tooth gear shaft assembly on a 12-stud axle with bushing spacers.
 0 Name: 8275 - m-1xa.ldr
@@ -4322,6 +4395,7 @@
 0 ROTSTEP 0 90 0 ABS
 0
 
+0 STEP
 0 FILE 8275 - m-1xb.ldr
 0 A long 10-stud axle shaft with flanged bushings for spacing and retention.
 0 Name: 8275 - m-1xb.ldr
@@ -4346,6 +4420,7 @@
 0 ROTSTEP 0 90 0 ABS
 0
 
+0 STEP
 0 FILE 8275 - m-1y.ldr
 0 Small connector assembly using an angle connector and two friction axle pins.
 0 Name: 8275 - m-1y.ldr
@@ -4366,6 +4441,7 @@
 1 1 -30 0 0 1 0 0 0 0 -1 0 1 0 43093.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1z.ldr
 0 Bent structural linkage built from yellow and black liftarms joined with pins and an axle.
 0 Name: 8275 - m-1z.ldr
@@ -4404,6 +4480,7 @@
 1 0 45 -120 80 0 -1 0 1 0 0 0 0 1 6632.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1a'.ldr
 0 Yellow liftarm connector pairing a 15-stud beam with a bent 90-degree beam via a friction pin.
 0 Name: 8275 - m-1a'.ldr
@@ -4425,6 +4502,7 @@
 1 14 20 0 -100 0 1 0 -1 0 0 0 0 1 32526.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1b'.ldr
 0 Reinforced axle assembly made of holed technic bricks and liftarms with bushes secured on axles.
 0 Name: 8275 - m-1b'.ldr
@@ -4472,6 +4550,7 @@
 1 0 -30 0 -60 0 0 -1 0 1 0 1 0 0 3894.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1c'.ldr
 0 Minimal axle-and-pin connector using a bushing connector and a friction axle pin.
 0 Name: 8275 - m-1c'.ldr
@@ -4490,6 +4569,7 @@
 1 1 0 0 -10 0 -1 0 0 0 -1 1 0 0 43093.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1d'.ldr
 0 Yellow beam framework with multiple liftarms and cross blocks pinned into a rigid strut.
 0 Name: 8275 - m-1d'.ldr
@@ -4537,6 +4617,7 @@
 1 0 20 -20 34.64 0.866025 0 0.5 0 1 0 -0.5 0 0.866025 32316.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1e'.ldr
 0 Axle-and-cross-block linkage with bushes and stop pins forming an articulated joint.
 0 Name: 8275 - m-1e'.ldr
@@ -4577,6 +4658,7 @@
 1 0 0 -80 -10 0 -1 0 0 0 1 -1 0 0 2780.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1f'.ldr
 0 Light-grey beam and cross block subassembly with an axle and stop-bush pin.
 0 Name: 8275 - m-1f'.ldr
@@ -4602,6 +4684,7 @@
 1 71 0 20 10 -1 0 0 0 0 1 0 1 0 32054.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1g'.ldr
 0 Yellow decorative panel built from plates, grille tiles, and a holed technic brick.
 0 Name: 8275 - m-1g'.ldr
@@ -4642,6 +4725,7 @@
 1 14 -10 40 -40 0 0 1 0 1 0 -1 0 0 32529.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1h'.ldr
 0 Long yellow liftarm structure reinforced with pins and a cross block forming a sturdy arm.
 0 Name: 8275 - m-1h'.ldr
@@ -4692,6 +4776,7 @@
 1 14 0 0 -180 0 -1 0 1 0 0 0 0 1 32523.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1i'.ldr
 0 Black triangular liftarm mechanism with axles and bushes forming an articulated bracket.
 0 Name: 8275 - m-1i'.ldr
@@ -4736,6 +4821,7 @@
 1 71 40 -20 30 0 0 -1 0 -1 0 -1 0 0 4519.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1j'.ldr
 0 Yellow triangular liftarm arm with a red stop-bush pin and assorted connecting pins.
 0 Name: 8275 - m-1j'.ldr
@@ -4779,6 +4865,7 @@
 1 14 0 -49.987 139.497 0 -1 0 -0.0502527 0 -0.998737 0.998737 0 -0.0502527 43857.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1j'a.ldr
 0 Pair of thin yellow liftarms joined with blue friction axle pins.
 0 Name: 8275 - m-1j'a.ldr
@@ -4802,6 +4889,7 @@
 1 1 -10 0 -30 1 0 0 0 0 -1 0 1 0 43093.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1k'.ldr
 0 Yellow 9-stud beam with a friction pin and half-pins forming a pivoting connector.
 0 Name: 8275 - m-1k'.ldr
@@ -4824,6 +4912,7 @@
 1 1 10 0 -20 1 0 0 0 0 1 0 -1 0 4274.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1l'.ldr
 0 Yellow beam assembly combining a 15-stud beam and bent 90 beam on a friction pin.
 0 Name: 8275 - m-1l'.ldr
@@ -4845,6 +4934,7 @@
 1 14 20 0 100 0 -1 0 -1 0 0 0 0 -1 32526.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1m'.ldr
 0 Power Functions medium motor unit with connector and a blue accent tile.
 0 Name: 8275 - m-1m'.ldr
@@ -5337,6 +5427,7 @@
 0 GHOST 0 MLCAD HIDE 1 1 100 -203 -10 -1 0 0 0 0 1 0 1 0 LS06.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1n'.ldr
 0 Power Functions medium motor unit with connector and a red accent tile.
 0 Name: 8275 - m-1n'.ldr
@@ -5800,6 +5891,7 @@
 1 4 -20 -218 -50 -1 0 0 0 1 0 0 0 -1 3069b.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1o'.ldr
 0 Symmetric axle and liftarm drive assembly using holed bricks, joiners, and bushes.
 0 Name: 8275 - m-1o'.ldr
@@ -5862,6 +5954,7 @@
 1 0 0 -90 20 -1 0 0 0 1 0 0 0 -1 3702.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1p'.ldr
 0 Power Functions infrared receiver assembly with lens, switch, and connector.
 0 Name: 8275 - m-1p'.ldr
@@ -6225,6 +6318,7 @@
 0 GHOST 0 MLCAD HIDE 1 4 0 10 40 1 0 0 0 0 -1 0 1 0 LS06.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1q'.ldr
 0 Power Functions IR receiver paired with a PF connector block.
 0 Name: 8275 - m-1q'.ldr
@@ -6512,6 +6606,7 @@
 1 72 0 114 -176 0 0 1 1 0 0 0 1 0 58124c01.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1r'.ldr
 0 Yellow beam framework with multiple liftarms and cross blocks pinned into a rigid strut.
 0 Name: 8275 - m-1r'.ldr
@@ -6557,6 +6652,7 @@
 1 0 20 -20 -34.64 0.866025 0 -0.5 0 1 0 0.5 0 0.866025 32316.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1s'.ldr
 0 Light-grey beam and cross block subassembly with an axle and stop-bush pin.
 0 Name: 8275 - m-1s'.ldr
@@ -6582,6 +6678,7 @@
 1 71 -10 20 0 0 1 0 0 0 1 1 0 0 32054.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1t'.ldr
 0 Yellow decorative panel built from plates, grille tiles, and a holed technic brick.
 0 Name: 8275 - m-1t'.ldr
@@ -6623,6 +6720,7 @@
 0 
 0
 
+0 STEP
 0 FILE 8275 - m-1u'.ldr
 0 Long yellow liftarm structure reinforced with pins and a cross block forming a sturdy arm.
 0 Name: 8275 - m-1u'.ldr
@@ -6672,6 +6770,7 @@
 1 14 0 0 180 0 -1 0 1 0 0 0 0 1 32523.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1v'.ldr
 0 Black triangular liftarm mechanism with axles and bushes forming an articulated bracket.
 0 Name: 8275 - m-1v'.ldr
@@ -6716,6 +6815,7 @@
 1 0 20 160 0 1 0 0 0 -1 0 0 0 -1 6558.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1v'a.ldr
 0 m-1v'a
 0 Name: 8275 - m-1v'a.ldr
@@ -6739,6 +6839,7 @@
 1 0 70 0 0 1 0 0 0 -1 0 0 0 -1 3705.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1w'.ldr
 0 m-1w'
 0 Name: 8275 - m-1w'.ldr
@@ -6771,6 +6872,7 @@
 1 14 80 0 0 0 1 0 -1 0 0 0 0 1 32316.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1x'.ldr
 0 m-1x'
 0 Name: 8275 - m-1x'.ldr
@@ -6814,6 +6916,7 @@
 1 14 0 -49.987 -139.497 0 1 0 -0.0502527 0 -0.998737 -0.998737 0 0.0502527 43857.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1x'a.ldr
 0 m-1x'a
 0 Name: 8275 - m-1x'a.ldr
@@ -6837,6 +6940,7 @@
 1 1 -10 0 -30 1 0 0 0 0 -1 0 1 0 43093.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1y'.ldr
 0 m-1y'
 0 Name: 8275 - m-1y'.ldr
@@ -6864,6 +6968,7 @@
 1 14 18 0 -50 0 -1 0 0 0 1 -1 0 0 4162.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1z'.ldr
 0 m-1z'
 0 Name: 8275 - m-1z'.ldr
@@ -6882,6 +6987,7 @@
 1 0 0 20 -10 0 0 1 0 1 0 -1 0 0 2780.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1a''.ldr
 0 m-1a''
 0 Name: 8275 - m-1a''.ldr
@@ -6908,6 +7014,7 @@
 
 
 
+0 STEP
 0 FILE 8275 - m-1b''.ldr
 0 m-1b''
 0 Name: 8275 - m-1b''.ldr
@@ -6932,6 +7039,7 @@
 1 36 120 0 -10 0 0 1 -1 0 0 0 -1 0 6141.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1c''.ldr
 0 m-1c''
 0 Name: 8275 - m-1c''.ldr
@@ -6967,6 +7075,7 @@
 1 1 40 0 0 0 1 0 0 0 1 1 0 0 32526.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1c''a.ldr
 0 m-1c''a
 0 Name: 8275 - m-1c''a.ldr
@@ -6990,6 +7099,7 @@
 0 
 0
 
+0 STEP
 0 FILE 8275 - m-1d''.ldr
 0 m-1d''
 0 Name: 8275 - m-1d''.ldr
@@ -7037,6 +7147,7 @@
 1 0 -45 0 60 0 1 0 -1 0 0 0 0 1 32065.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1d''a.ldr
 0 m-1d''a
 0 Name: 8275 - m-1d''a.ldr
@@ -7057,6 +7168,7 @@
 1 1 30 0 20 -1 0 0 0 0 -1 0 -1 0 43093.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1e''.ldr
 0 m-1e''
 0 Name: 8275 - m-1e''.ldr
@@ -7085,6 +7197,7 @@
 1 0 0 -126 -10 -1 0 0 0 -1 0 0 0 1 6632.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1f''.ldr
 0 m-1f''
 0 Name: 8275 - m-1f''.ldr
@@ -7108,6 +7221,7 @@
 1 14 0 0 -20 0 0 1 -1 0 0 0 -1 0 40490.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1g''.ldr
 0 m-1g''
 0 Name: 8275 - m-1g''.ldr
@@ -7149,6 +7263,7 @@
 1 0 50 -8 -20 0 0 1 0 1 0 -1 0 0 2412b.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1h''.ldr
 0 m-1h''
 0 Name: 8275 - m-1h''.ldr
@@ -7202,6 +7317,7 @@
 1 0 50 -8 40 0 0 1 0 1 0 -1 0 0 2412b.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1i''.ldr
 0 m-1i''
 0 Name: 8275 - m-1i''.ldr
@@ -7228,6 +7344,7 @@
 1 0 0 0 60 -1 0 0 0 1 0 0 0 -1 3795.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1j''.ldr
 0 m-1j''
 0 Name: 8275 - m-1j''.ldr
@@ -7259,6 +7376,7 @@
 1 47 10 -50 -18 1 0 0 0 0 1 0 -1 0 3023.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1k''.ldr
 0 m-1k''
 0 Name: 8275 - m-1k''.ldr
@@ -7290,6 +7408,7 @@
 1 47 -10 -50 -18 1 0 0 0 0 1 0 -1 0 3023.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1l''.ldr
 0 m-1l''
 0 Name: 8275 - m-1l''.ldr
@@ -7390,6 +7509,7 @@
 1 72 0 56 -85 1 0 0 0 -1 0 0 0 -1 57518.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1m''.ldr
 0 m-1m''
 0 Name: 8275 - m-1m''.ldr
@@ -7408,6 +7528,7 @@
 1 36 0 -8 0 1 0 0 0 -1 0 0 0 -1 6141.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1n''.ldr
 0 m-1n''
 0 Name: 8275 - m-1n''.ldr
@@ -7439,6 +7560,7 @@
 0 
 0
 
+0 STEP
 0 FILE 8275 - m-1o''.ldr
 0 m-1o''
 0 Name: 8275 - m-1o''.ldr
@@ -7490,6 +7612,7 @@
 1 14 40 -10 -280 0 -1 0 0 0 1 -1 0 0 32523.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1o''a.ldr
 0 m-1o''a
 0 Name: 8275 - m-1o''a.ldr
@@ -7511,6 +7634,7 @@
 1 0 0 -14 0 1 0 0 0 1 0 0 0 1 6558.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1p''.ldr
 0 m-1p''
 0 Name: 8275 - m-1p''.ldr
@@ -7563,6 +7687,7 @@
 1 14 230 10 -390 1 0 0 0 1 0 0 0 1 8275 - m-1p''b.ldr
 0
 
+0 STEP
 0 FILE 8275 - m-1p''a.ldr
 0 m-1p''a
 0 Name: 8275 - m-1p''a.ldr
@@ -7584,6 +7709,7 @@
 1 0 0 -14 0 -1 0 0 0 1 0 0 0 -1 6558.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1p''b.ldr
 0 m-1p''b
 0 Name: 8275 - m-1p''b.ldr
@@ -7623,6 +7749,7 @@
 1 71 110 -20 10 1 0 0 0 1 0 0 0 1 8275 - m-1p''bb.ldr
 0
 
+0 STEP
 0 FILE 8275 - m-1p''ba.ldr
 0 m-1p''ba
 0 Name: 8275 - m-1p''ba.ldr
@@ -7651,6 +7778,7 @@
 1 1 0 20 -10 0 1 0 0 0 1 1 0 0 43093.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1p''bb.ldr
 0 m-1p''bb
 0 Name: 8275 - m-1p''bb.ldr
@@ -7679,6 +7807,7 @@
 1 1 0 20 -10 0 1 0 0 0 1 1 0 0 43093.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1q''.ldr
 0 m-1q''
 0 Name: 8275 - m-1q''.ldr
@@ -7732,6 +7861,7 @@
 1 14 -20 0 0 0 0 -1 0 -1 0 -1 0 0 8275 - m-1q''b.ldr
 0
 
+0 STEP
 0 FILE 8275 - m-1q''a.ldr
 0 m-1q''a
 0 Name: 8275 - m-1q''a.ldr
@@ -7757,6 +7887,7 @@
 1 14 0 -80 0 1 0 0 0 1 0 0 0 1 4150.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1q''b.ldr
 0 m-1q''b
 0 Name: 8275 - m-1q''b.ldr
@@ -7781,6 +7912,7 @@
 1 1 0 0 -10 0 -1 0 0 0 -1 1 0 0 43093.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1r''.ldr
 0 m-1r''
 0 Name: 8275 - m-1r''.ldr
@@ -7885,6 +8017,7 @@
 1 71 -288 -54.4 59.2 0 1 0 0 0 1 1 0 0 8275 - m-1r''i.ldr
 0
 
+0 STEP
 0 FILE 8275 - m-1r''a.ldr
 0 m-1r''a
 0 Name: 8275 - m-1r''a.ldr
@@ -7910,6 +8043,7 @@
 1 1 40 0 0 1 0 0 0 0 -1 0 1 0 43093.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1r''b.ldr
 0 m-1r''b
 0 Name: 8275 - m-1r''b.ldr
@@ -7942,6 +8076,7 @@
 1 1 10 100 0 1 0 0 0 1 0 0 0 1 4274.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1r''c.ldr
 0 m-1r''c
 0 Name: 8275 - m-1r''c.ldr
@@ -7991,6 +8126,7 @@
 1 71 -250 10 -60 -1 0 0 0 -1 0 0 0 1 8275 - m-1r''cb.ldr
 0
 
+0 STEP
 0 FILE 8275 - m-1r''ca.ldr
 0 m-1r''ca
 0 Name: 8275 - m-1r''ca.ldr
@@ -8020,6 +8156,7 @@
 1 71 30 10 60 1 0 0 0 -1 0 0 0 -1 2817.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1r''cb.ldr
 0 m-1r''cb
 0 Name: 8275 - m-1r''cb.ldr
@@ -8049,6 +8186,7 @@
 1 71 -30 10 60 1 0 0 0 -1 0 0 0 -1 2817.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1r''d.ldr
 0 m-1r''d
 0 Name: 8275 - m-1r''d.ldr
@@ -8081,6 +8219,7 @@
 1 1 0 100 -10 0 0 1 0 1 0 -1 0 0 4274.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1r''e.ldr
 0 m-1r''e
 0 Name: 8275 - m-1r''e.ldr
@@ -8102,6 +8241,7 @@
 1 1 -20 -14 -10 -1 0 0 0 0 -1 0 -1 0 4274.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1r''f.ldr
 0 m-1r''f
 0 Name: 8275 - m-1r''f.ldr
@@ -8123,6 +8263,7 @@
 1 1 20 -14 -10 1 0 0 0 0 -1 0 1 0 4274.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1r''g.ldr
 0 m-1r''g
 0 Name: 8275 - m-1r''g.ldr
@@ -8152,6 +8293,7 @@
 0 
 0
 
+0 STEP
 0 FILE 8275 - m-1r''h.ldr
 0 m-1r''h
 0 Name: 8275 - m-1r''h.ldr
@@ -8186,6 +8328,7 @@
 1 14 60 -16 -40 0 0 -1 0 1 0 1 0 0 3020.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1r''i.ldr
 0 m-1r''i
 0 Name: 8275 - m-1r''i.ldr
@@ -8220,6 +8363,7 @@
 1 14 -60 -16 -40 0 0 -1 0 1 0 1 0 0 3020.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1s''.ldr
 0 m-1s''
 0 Name: 8275 - m-1s''.ldr
@@ -8287,6 +8431,7 @@
 1 14 -100 -29.577 214.85 1 0 0 0 0.123 -0.992 0 0.992 0.123 8275 - m-1s''h.ldr
 0
 
+0 STEP
 0 FILE 8275 - m-1s''a.ldr
 0 m-1s''a
 0 Name: 8275 - m-1s''a.ldr
@@ -8330,6 +8475,7 @@
 1 71 0 0 -105 0 -1 0 1 0 0 0 0 1 3326b.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1s''aa.ldr
 0 m-1s''aa
 0 Name: 8275 - m-1s''aa.ldr
@@ -8348,6 +8494,7 @@
 1 71 0 0 0 -1 0 0 0 -1 0 0 0 1 32073.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1s''b.ldr
 0 m-1s''b
 0 Name: 8275 - m-1s''b.ldr
@@ -8376,6 +8523,7 @@
 1 0 0 65.266 -39.652 0 1 0 -0.991297 0 -0.131642 -0.131642 0 0.991297 32316.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1s''c.ldr
 0 m-1s''c
 0 Name: 8275 - m-1s''c.ldr
@@ -8402,6 +8550,7 @@
 1 14 20 0 60 0 1 0 1 0 0 0 0 -1 32140.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1s''d.ldr
 0 m-1s''d
 0 Name: 8275 - m-1s''d.ldr
@@ -8428,6 +8577,7 @@
 0 
 0
 
+0 STEP
 0 FILE 8275 - m-1s''e.ldr
 0 Small yellow bent liftarm assembly with an axle and long stop pins forming a linkage joint.
 0 Name: 8275 - m-1s''e.ldr
@@ -8451,6 +8601,7 @@
 1 14 0 0 40 0.799999 0 0.600001 -0.600001 0 0.799999 0 -1 0 6629.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1s''f.ldr
 0 Compact yellow bent liftarm joined with a blue friction axle pin for a pivoting connection.
 0 Name: 8275 - m-1s''f.ldr
@@ -8470,6 +8621,7 @@
 0 
 0
 
+0 STEP
 0 FILE 8275 - m-1s''g.ldr
 0 Angle connector with pin and notched axle forming a small pivoting joint.
 0 Name: 8275 - m-1s''g.ldr
@@ -8491,6 +8643,7 @@
 1 4 0 0 -30 0 0 1 0 -1 0 1 0 0 32062.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1s''h.ldr
 0 Yellow panel built from plates, bricks, tiles, and a curved slope mounted on Technic cross blocks and pins.
 0 Name: 8275 - m-1s''h.ldr
@@ -8533,6 +8686,7 @@
 1 0 20 -54 0 0 0 1 0 1 0 -1 0 0 2780.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1t''.ldr
 0 Short axle with stud and a two-flange bush forming a small shaft coupling.
 0 Name: 8275 - m-1t''.ldr
@@ -8551,6 +8705,7 @@
 1 71 18 0 0 0 0 1 1 0 0 0 1 0 3713.dat
 0
 
+0 STEP
 0 FILE 8275 - m-1u''.ldr
 0 Short axle with stud and a two-flange bush forming a small shaft coupling.
 0 Name: 8275 - m-1u''.ldr
@@ -8593,6 +8748,7 @@
 0
 0
 
+0 STEP
 0 FILE 8275 - LS70.dat
 0 Array of cylinders and discs of varying diameters forming a decorative or mechanical wheel element.
 0 Name: 8275 - LS70.dat

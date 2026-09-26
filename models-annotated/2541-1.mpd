@@ -9,6 +9,7 @@
 0 // Minifig Gun Revolver (dark_grey)
 1 8 65.525 -9.667 -30.476 0.985 -0.086 0.147 0.17 0.5 -0.849 0 0.862 0.508 30132.dat
 
+0 STEP
 0 FILE 2541 - Car.ldr
 0 A compact four-wheeled car built from plates and 45-degree slope bricks with a curved-top cabin and black tyres on light grey rims.
 0 Name: 2541 - Car
@@ -54,6 +55,7 @@
 0 // Tyre  6/ 50 x  8 Offset Tread (black)
 1 0 30 13 -40 0 0 -1 0 1 0 1 0 0 3641.dat
 
+0 STEP
 0 FILE 2541 - Baron Von Barron.ldr
 0 The Baron Von Barron minifigure with a tan safari shirt, dark grey hook hand, monocled scarred face, and white pith helmet.
 0 Name: 2541 - Baron Von Barron.ldr

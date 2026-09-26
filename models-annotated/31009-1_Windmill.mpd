@@ -10,6 +10,7 @@
 1 1 79 -33 -50 0 0 -1 0 1 0 1 0 0 31009 - Skateboard.ldr
 
 
+0 STEP
 0 FILE 31009 - MiniFig1.ldr
 0 A minifigure with a blue torso, white arms, tan legs, a black-haired head with a grinning face, and a black bar accessory.
 0 Name: 31009 - MiniFig1.ldr
@@ -37,6 +38,7 @@
 1 0 18.768 -33.78 -34.471 0.986 0.164 -0.022 -0.164 0.951 -0.26 -0.022 0.26 0.965 48729b.dat
 
 
+0 STEP
 0 FILE 31009 - Windmill.ldr
 0 The windmill structure base built on a large green plate with sloped brick walls, colored plates, and structural bricks in green, lime, red, and grey tones.
 0 Name: 31009 - Windmill.ldr
@@ -295,6 +297,7 @@
 1 4 -50 -216 40 1 0 0 0 1 0 0 0 1 31009 - Roof.ldr
 
 
+0 STEP
 0 FILE 31009 - Window.ldr
 0 A single white-framed window with clear glass pane.
 0 Name: 31009 - Window.ldr
@@ -308,6 +311,7 @@
 1 47 0 0 0 1 0 0 0 1 0 0 0 1 60601.dat
 
 
+0 STEP
 0 FILE 31009 - Skateboard.ldr
 0 A blue skateboard deck fitted with two black wheels.
 0 Name: 31009 - Skateboard.ldr
@@ -323,6 +327,7 @@
 1 0 29.5 14.5 -1 0 0 -1 0 1 0 1 0 0 2496.dat
 
 
+0 STEP
 0 FILE 31009 - Open Wall.ldr
 0 A hinged modular wall section built from light bluish grey and red bricks with door rails, allowing the wall to open outward.
 0 Name: 31009 - Open Wall.ldr
@@ -419,6 +424,7 @@
 1 15 -20 -144 10 -1 0 0 0 1 0 0 0 -1 3069b.dat
 
 
+0 STEP
 0 FILE 31009 - Roof.ldr
 0 A pitched roof assembly made of red bricks with dark blue slope bricks forming the angled roof surfaces and arch details.
 0 Name: 31009 - Roof.ldr
@@ -569,6 +575,7 @@
 1 4 100 -62 -60 0 -1 0 -0.707 0 -0.707 0.707 0 -0.707 31009 - Wings.ldr
 
 
+0 STEP
 0 FILE 31009 - Wings.ldr
 0 The windmill rotor blades constructed from white plates and tiles reinforced with red plate accents on Technic bases.
 0 Name: 31009 - Wings.ldr

@@ -16,6 +16,7 @@
 
 
 
+0 STEP
 0 FILE 6765 - General Store.ldr
 0 General Store
 0 Name: 6765 - General Store.ldr
@@ -251,6 +252,7 @@
 1 6 -110.641 -41 -90.581 -0.859 -0.018 -0.512 0 0.999 -0.035 0.513 -0.03 -0.858 6765 - Cowboy1.ldr
 
 
+0 STEP
 0 FILE 6765 - Bank.ldr
 0 Bank
 0 Name: 6765 - Bank.ldr
@@ -497,6 +499,7 @@
 
 
 
+0 STEP
 0 FILE 6765 - Prison block.ldr
 0 Prison block
 0 Name: 6765 - Prison block.ldr
@@ -539,6 +542,7 @@
 1 15 -10 -120 0 0 0 -1 0 1 0 1 0 0 3633.dat
 
 
+0 STEP
 0 FILE 6765 - Carriage.ldr
 0 Carriage
 0 Name: 6765 - Carriage.ldr
@@ -716,6 +720,7 @@
 1 0 -3 -58 -140 0.951 0.3 0.075 -0.309 0.923 0.23 0 -0.242 0.97 6765 - Soldier.ldr
 
 
+0 STEP
 0 FILE 6765 - Tongue.ldr
 0 Tongue
 0 Name: 6765 - Tongue.ldr
@@ -756,6 +761,7 @@
 1 6 -40 -31.453 -222.644 1 0 0 0 0.5 -0.866 0 0.866 0.5 4492p04.dat
 
 
+0 STEP
 0 FILE 6765 - Gatling.ldr
 0 Gatling
 0 Name: 6765 - Gatling.ldr
@@ -784,6 +790,7 @@
 
 
 
+0 STEP
 0 FILE 6765 - Cannon.ldr
 0 Cannon
 0 Name: 6765 - Cannon.ldr
@@ -816,6 +823,7 @@
 
 
 
+0 STEP
 0 FILE 6765 - Sheriff.ldr
 0 Sheriff
 0 Name: 6765 - Sheriff.ldr
@@ -852,6 +860,7 @@
 
 
 
+0 STEP
 0 FILE 6765 - Banker.ldr
 0 Banker
 0 Name: 6765 - Banker.ldr
@@ -885,6 +894,7 @@
 1 2 25.776 -55.438 -35.317 -0.226 -0.01 -0.974 0.435 0.892 -0.11 0.871 -0.448 -0.197 3069bpw2.dat
 
 
+0 STEP
 0 FILE 6765 - Cowboy1.ldr
 0 Cowboy1
 0 Name: 6765 - Cowboy1.ldr
@@ -918,6 +928,7 @@
 1 15 16.117 -63.761 -25.57 0.135 0.972 -0.176 -0.813 0.21 0.536 0.56 0.07 0.822 3069bpw1.dat
 
 
+0 STEP
 0 FILE 6765 - Cowboy2.ldr
 0 Cowboy2
 0 Name: 6765 - Cowboy2.ldr
@@ -954,6 +965,7 @@
 
 
 
+0 STEP
 0 FILE 6765 - Soldier.ldr
 0 Soldier
 0 Name: 6765 - Soldier.ldr
@@ -992,6 +1004,7 @@
 
 
 
+0 STEP
 0 FILE 6765 - Bandit.ldr
 0 Bandit
 0 Name: 6765 - Bandit.ldr
@@ -1028,6 +1041,7 @@
 
 
 
+0 STEP
 0 FILE 6765 - Black Horse.ldr
 0 Black Horse
 0 Name: 6765 - Black Horse.ldr
@@ -1045,6 +1059,7 @@
 
 
 
+0 STEP
 0 FILE 6765 - shock-06_5L-hard-1.ldr
 0 shock-06_5L-hard-1
 0 Name: 6765 - shock-06_5L-hard-1.ldr
@@ -1095,6 +1110,7 @@
 
 
 
+0 STEP
 0 FILE 6765 - shock-06_5L-hard-1 spring mesh.ldr
 0 shock-06_5L-hard-1 spring mesh
 0 Name: 6765 - shock-06_5L-hard-1 spring mesh.ldr
@@ -6930,6 +6946,7 @@
 
 
 
+0 STEP
 0 FILE 6765 - shock-06_5L-soft-2.ldr
 0 shock-06_5L-soft-2
 0 Name: 6765 - shock-06_5L-soft-2.ldr
@@ -6978,6 +6995,7 @@
 
 
 
+0 STEP
 0 FILE 6765 - shock-06_5L-soft-2 spring mesh.ldr
 0 shock-06_5L-soft-2 spring mesh
 0 Name: 6765 - shock-06_5L-soft-2 spring mesh.ldr
@@ -11273,6 +11291,7 @@
 
 
 
+0 STEP
 0 FILE 6765 - 4106331c.dat
 0 Printed 'GENERAL STORE' sign sticker with multicolored lettering.
 0 Name: 6765 - 4106331c.dat
@@ -11830,6 +11849,7 @@
 3 16 0 -0.25 50.4 4.6 -0.25 48.5 4.92 -0.25 48.67
 
 
+0 STEP
 0 FILE 6765 - 4106331f.dat
 0 'GENERAL STORE' sign sticker with cereal ears decoration.
 0 Name: 6765 - 4106331f.dat
@@ -13839,6 +13859,7 @@
 3 16 10.885 -0.25 9.934 8.924 -0.25 9.7 10.801 -0.25 9.402
 
 
+0 STEP
 0 FILE 6765 - 4106331a.dat
 0 'BANK' sign sticker with framed lettering.
 0 Name: 6765 - 4106331a.dat
@@ -14399,6 +14420,7 @@
 4 16 18.3 -0.25 -50.5 32.7 -0.25 -50.5 32.7 -0.25 -42.5 18.3 -0.25 -42.5
 
 
+0 STEP
 0 FILE 6765 - 4106331b.dat
 0 Reversed 'OPEN' sign sticker for the storefront.
 0 Name: 6765 - 4106331b.dat
@@ -14780,6 +14802,7 @@
 4 16 -14.5 -0.25 6.67 -1.6 -0.25 6.67 -1.6 -0.25 11.705 -14.5 -0.25 13.093
 
 
+0 STEP
 0 FILE 6765 - 4106331d.dat
 0 '$ BANK' sign sticker with dollar symbol and lettering.
 0 Name: 6765 - 4106331d.dat
@@ -15264,6 +15287,7 @@
 5 24 -24.913 0 21.71 -24.913 -0.25 21.71 -27.192 0 18.5 -22.203 -0.25 24.609
 
 
+0 STEP
 0 FILE 6765 - 4106331h.dat
 0 'WE TRADE GOLD' sign sticker with ornament in red and white.
 0 Name: 6765 - 4106331h.dat
@@ -17267,6 +17291,7 @@
 4 15 15 -0.25 -21 13.359 -0.25 -21.035 13.359 -0.25 -25.6 15 -0.25 -30
 
 
+0 STEP
 0 FILE 6765 - 4106331g.dat
 0 Sticker 1.3 x  0.8 with "NEWS PAPER" Sign and Pointing Hand
 0 Name: 6765 - 4106331g.dat
@@ -18717,6 +18742,7 @@
 4 15 -0.096 -0.25 -3.038 0.028 -0.25 -2.79 -0.721 -0.25 -2.79 -1.683 -0.25 -5.324
 
 
+0 STEP
 0 FILE 6765 - 4106331e.dat
 0 Sticker 1.6 x  3.5 with "$" Sign
 0 Name: 6765 - 4106331e.dat
@@ -19630,6 +19656,7 @@
 3 0 -23.15 -0.25 9.85 -28.35 -0.25 9.85 -28.35 -0.25 5.15
 
 
+0 STEP
 0 FILE 6765 - 3626bpw8.dat
 0 Minifig Head with Glasses, Pencil Behind Ear and Pointed Moustache Pattern
 0 Name: 6765 - 3626bpw8.dat
@@ -20296,6 +20323,7 @@
 5 24 3.794 20.695 -9.159 0 20.695 -9.914 0 19.828 -11.535 0 21 -8
 
 
+0 STEP
 0 FILE 6765 - 3626bpw9.dat
 0 Minifig Head with Moustache, Stubble and Bald Hair Part Pattern
 0 Name: 6765 - 3626bpw9.dat

@@ -7,6 +7,7 @@
 1 4 0 0 0 1 0 0 0 1 0 0 0 1 31045 - Ship.ldr
 
 
+0 STEP
 0 FILE 31045 - Submarine.ldr
 0 A small yellow submarine with socket joints, towball connectors, curved slopes, a dome-topped clear viewport, and a steering wheel.
 0 Name: 31045 - Submarine.ldr
@@ -83,6 +84,7 @@
 0 // Tile  1 x  2 with Handle (yellow)
 1 14 0 -64 0 1 0 0 0 1 0 0 0 1 2432.dat
 
+0 STEP
 0 FILE 31045 - Ship.ldr
 0 A large red, dark blue, and white ship hull built from plates, bricks, and grille slopes with extensive side-stud detailing.
 0 Name: 31045 - Ship.ldr
@@ -379,6 +381,7 @@
 0 STEP
 1 4 -14 -23 377 0 0 -1 0 1 0 1 0 0 31045 - Submarine.ldr
 
+0 STEP
 0 FILE 31045 - Ship side left.ldr
 0 A curved hull side panel of plates and slopes in red and dark blue forming the left flank of the ship.
 0 Name: 31045 - Ship side left.ldr
@@ -411,6 +414,7 @@
 0 // Slope Brick Curved  3 x  1 (dark_blue)
 1 272 -30 -32 10 1 0 0 0 1 0 0 0 1 50950.dat
 
+0 STEP
 0 FILE 31045 - Ship side right.ldr
 0 A curved hull side panel of plates and slopes in red and dark blue forming the right flank of the ship.
 0 Name: 31045 - Ship side right.ldr
@@ -443,6 +447,7 @@
 0 // Slope Brick Curved  3 x  1 (dark_blue)
 1 272 10 -32 -10 -1 0 0 0 1 0 0 0 -1 50950.dat
 
+0 STEP
 0 FILE 31045 - Ship front.ldr
 0 An angled red and dark blue bow section built from sloped bricks and side-stud bricks forming the ship's front.
 0 Name: 31045 - Ship front.ldr
@@ -515,6 +520,7 @@
 0 // Slope Brick 31  1 x  1 x  0.667 (dark_blue)
 1 272 10 -48 -10 0 0 -1 0 1 0 1 0 0 54200.dat
 
+0 STEP
 0 FILE 31045 - Ship crane.ldr
 0 A red articulated crane arm with a hinge, socket joint, friction pin, and a towball hook for lifting cargo.
 0 Name: 31045 - Ship crane.ldr
@@ -554,6 +560,7 @@
 0 // Hook with Towball (dark_bluish_grey)
 1 72 111.282 -20 126.928 0 -1 0 -1 0 0 0 0 -1 30395.dat
 
+0 STEP
 0 FILE 31045 - 14418.dat
 0 A plate element with a friction socket joint for articulated connections.
 0 Name: 31045 - 14418.dat
@@ -572,6 +579,7 @@
 
 
 
+0 STEP
 0 FILE s\31045 - 14418s01.dat
 0 A subpart modeling the geometric body of the socket joint plate using boxes and cylinders.
 0 Name: s\31045 - 14418s01.dat
@@ -624,6 +632,7 @@
 
 
 
+0 STEP
 0 FILE 31045 - joint-8-socket-frica.dat
 0 A primitive friction socket joint-8 component defined with quarter-sphere sections, discs, and cylindrical surfaces.
 0 Name: 31045 - joint-8-socket-frica.dat

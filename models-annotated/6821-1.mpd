@@ -50,6 +50,7 @@
 0 // Plate  1 x  1 (yellow)
 1 14 40 48 -201 1 0 0 0 1 0 0 0 1 3024.dat
 
+0 STEP
 0 FILE 6821 - Shovel Buggy - Bucket with 4 Arm Pieces.ldr
 0 A single arm piece with a disc and two fingers, forming part of the shovel bucket assembly.
 0 Name: 6821 - Shovel Buggy - Bucket with 4 Arm Pieces.ldr
@@ -62,6 +63,7 @@
 0 // Arm Piece with Disc and 2 Fingers (light_grey)
 1 7 0 0 0 0 1 0 1 0 0 0 0 -1 795.dat
 
+0 STEP
 0 FILE 6821 - Shovel Buggy - Bucket with 3 Arm Pieces.ldr
 0 A single arm piece with aligned two and three fingers, forming part of the shovel bucket assembly.
 0 Name: 6821 - Shovel Buggy - Bucket with 3 Arm Pieces.ldr
@@ -74,6 +76,7 @@
 0 // Arm Piece with 2 and 3 Fingers Aligned (light_grey)
 1 7 0 0 -12 0 1 0 -1 0 0 0 0 1 3612.dat
 
+0 STEP
 0 FILE 6821 - Shovel Buggy - Bucket with 2 Arm Pieces.ldr
 0 A single arm piece with aligned two and three fingers, forming part of the shovel bucket assembly.
 0 Name: 6821 - Shovel Buggy - Bucket with 2 Arm Pieces.ldr
@@ -86,6 +89,7 @@
 0 // Arm Piece with 2 and 3 Fingers Aligned (light_grey)
 1 7 0 0 -12 0 1 0 -1 0 0 0 0 1 3612.dat
 
+0 STEP
 0 FILE 6821 - Shovel Buggy - Bucket with 1 Arm Piece.ldr
 0 A bucket subassembly consisting of a towball socket arm piece, an inverted hollow slope with towball, and a yellow accent plate.
 0 Name: 6821 - Shovel Buggy - Bucket with 1 Arm Piece.ldr
@@ -101,6 +105,7 @@
 0 // Plate  1 x  1 (yellow)
 1 14 0 -24.162 -53.018 1 0 0 0 0.550991 0.834511 0 -0.834511 0.550991 3024.dat
 
+0 STEP
 0 FILE 6821 - Shovel Buggy - White Astronaut.ldr
 0 A classic white space minifigure with airtanks, helmet, radio, and classic space torso pattern.
 0 Name: 6821 - Shovel Buggy - White Astronaut.ldr

@@ -10,6 +10,7 @@
 1 4 -60 8 80 1 0 0 0 1 0 0 0 1 6623 - car.ldr
 1 4 120 0 -10 0.5 0 0.866 0 1 0 -0.866 0 0.5 6623 - minifig.ldr
 
+0 STEP
 0 FILE 6623 - car.ldr
 0 A small white police car built on a 4x10 base with mudguards, POLICE-patterned doors, clear windscreen, hinged roof, and red/yellow light plates.
 0 Name: 6623 - car.ldr
@@ -94,6 +95,7 @@
 0 // Tyre  6/ 50 x  8 Offset Tread (black)
 1 0 -50 -18 -30 1 0 0 0 1 0 0 0 1 3641.dat
 
+0 STEP
 0 FILE 6623 - minifig.ldr
 0 A police officer minifigure with a white police hat, black torso with badge pattern, and black legs.
 0 Name: 6623 - minifig.ldr

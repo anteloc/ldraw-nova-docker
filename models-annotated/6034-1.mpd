@@ -11,6 +11,7 @@
 1 1 10 0 0 0 0 -1 0 1 0 1 0 0 6034 - MiniFigGhost.ldr
 
 
+0 STEP
 0 FILE 6034 - Wall.ldr
 0 A castle wall section built from black corner panels and arch with light grey technic bricks, slopes, and a green baseplate foundation.
 0 Name: 6034 - Wall.ldr
@@ -81,6 +82,7 @@
 1 8 30 -168 -50 -1 0 0 0 1 0 0 0 -1 2546.dat
 
 
+0 STEP
 0 FILE 6034 - MiniFig.ldr
 0 A black-armored castle knight minifigure wielding a shortsword and blue dragon shield, topped with a red plume helmet and visor.
 0 Name: 6034 - MiniFig.ldr
@@ -120,6 +122,7 @@
 1 4 0 -118 0 1 0 0 0 1 0 0 0 1 87692.dat
 
 
+0 STEP
 0 FILE 6034 - Horse.ldr
 0 A white horse with a blue saddle, carrying a lance bearing a red flag.
 0 Name: 6034 - Horse.ldr
@@ -137,6 +140,7 @@
 1 4 -31 -224 17.5 1 0 0 0 1 0 0 0 1 4495a.dat
 
 
+0 STEP
 0 FILE 6034 - MiniFigGhost.ldr
 0 A ghostly minifigure with a glow-in-the-dark shroud over a white body and a black hollow-stud head.
 0 Name: 6034 - MiniFigGhost.ldr
@@ -164,6 +168,7 @@
 1 21 0 -96 0 1 0 0 0 1 0 0 0 1 2588.dat
 
 
+0 STEP
 0 FILE 6034 - 2594.dat
 0 A cylindrical primitive part composed of closed cylinders, rings, and rectangular edges.
 0 Name: 6034 - 2594.dat
@@ -229,6 +234,7 @@
 5 24 -1.875 -11.6672 -12.6672 1.875 -11.6672 -12.6672 -1.875 -15.2444 -7.3146 -1.875 4.091 -24.084
 
 
+0 STEP
 0 FILE 6034 - s\6034 - 2594s01.dat
 0 A sub-part primitive composed of nested cylinders, rings, chords, and discs forming a detailed cylindrical shape.
 0 Name: 6034 - s\6034 - 2594s01.dat

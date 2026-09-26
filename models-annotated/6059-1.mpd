@@ -15,6 +15,7 @@
 1 0 180 -32 -290 1 0 0 0 1 0 0 0 1 6059 - Catapult.ldr
 
 
+0 STEP
 0 FILE 6059 - Wall.ldr
 0 A castle wall section built from light grey bricks with hinged panels, a black barred door within a frame, and corner reinforcements.
 0 Name: 6059 - Wall.ldr
@@ -326,6 +327,7 @@
 1 6 -30 -242 310 0 0 1 0 1 0 -1 0 0 4497.dat
 
 
+0 STEP
 0 FILE 6059 - MiniFig1.ldr
 0 A red-tuniced soldier wearing chainmail and a neck-protector helmet, armed with a spear.
 0 Name: 6059 - MiniFig1.ldr
@@ -357,6 +359,7 @@
 1 6 -25.105 -99.439 -41.385 0.995 0.08 -0.064 -0.093 0.962 -0.256 0.041 0.261 0.965 4497.dat
 
 
+0 STEP
 0 FILE 6059 - MiniFig2.ldr
 0 A red-tuniced soldier wearing chainmail and a neck-protector helmet, armed with a battleaxe.
 0 Name: 6059 - MiniFig2.ldr
@@ -388,6 +391,7 @@
 1 6 -25.486 -68.019 -33.029 -0.125 0.327 -0.937 -0.231 0.909 0.348 0.965 0.26 -0.039 3848.dat
 
 
+0 STEP
 0 FILE 6059 - MiniFig3.ldr
 0 A red-tuniced soldier wearing chainmail and a chin-guard helmet, armed with a crossbow.
 0 Name: 6059 - MiniFig3.ldr
@@ -419,6 +423,7 @@
 1 14 -21.586 -57.366 -20.267 0.982 0.189 0.001 -0.189 0.982 -0.011 -0.003 0.01 1 3820.dat
 
 
+0 STEP
 0 FILE 6059 - MiniFig5.ldr
 0 A black-armored knight with breastplate, pointed visor helmet, blue triple plume, triangular Black Falcon shield, shortsword, and armor plate.
 0 Name: 6059 - MiniFig5.ldr
@@ -458,6 +463,7 @@
 1 1 0 -118 0 1 0 0 0 1 0 0 0 1 87692.dat
 
 
+0 STEP
 0 FILE 6059 - Horse.ldr
 0 A white horse with blue saddle carrying a lance fitted with a blue First Wave flag.
 0 Name: 6059 - Horse.ldr
@@ -475,6 +481,7 @@
 1 1 -31 -224 17.5 1 0 0 0 1 0 0 0 1 4495a.dat
 
 
+0 STEP
 0 FILE 6059 - MiniFig4.ldr
 0 A blue-legged soldier with breastplate torso and chin-guard helmet, armed with a crossbow.
 0 Name: 6059 - MiniFig4.ldr
@@ -506,6 +513,7 @@
 1 14 -21.586 -57.366 -20.267 0.982 0.189 0.001 -0.189 0.982 -0.011 -0.003 0.01 1 3820.dat
 
 
+0 STEP
 0 FILE 6059 - Catapult.ldr
 0 A blue and black siege catapult mounted on a wheeled base, with technic axles, round bricks, and mounted shortswords.
 0 Name: 6059 - Catapult.ldr
@@ -592,6 +600,7 @@
 1 0 -60 18 44 0 0 1 -1 0 0 0 -1 0 3941.dat
 
 
+0 STEP
 0 FILE 6059 - Catapult Arm.ldr
 0 A hinged catapult throwing arm tipped with a black excavator bucket for launching projectiles.
 0 Name: 6059 - Catapult Arm.ldr
@@ -616,6 +625,7 @@
 1 0 0 -26 0 1 0 0 0 1 0 0 0 1 3022.dat
 
 
+0 STEP
 0 FILE 6059 - Catapult Weight.ldr
 0 A black counterweight assembly of stacked bricks and slopes used to power the catapult arm.
 0 Name: 6059 - Catapult Weight.ldr
@@ -653,6 +663,7 @@
 1 0 30 -48 0 0 0 1 0 1 0 -1 0 0 3038.dat
 
 
+0 STEP
 0 FILE 6059 - 2594.dat
 0 A primitive cylindrical part made of closed cylinders, rings, and rectangular edges used as a sub-part.
 0 Name: 6059 - 2594.dat
@@ -718,6 +729,7 @@
 5 24 -1.875 -11.6672 -12.6672 1.875 -11.6672 -12.6672 -1.875 -15.2444 -7.3146 -1.875 4.091 -24.084
 
 
+0 STEP
 0 FILE 6059 - s\6059 - 2594s01.dat
 0 s\2594s01
 0 Name: 6059 - s\6059 - 2594s01.dat

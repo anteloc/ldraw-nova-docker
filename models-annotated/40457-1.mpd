@@ -7,6 +7,7 @@
 1 15 0 0 0 1 0 0 0 0.5 -0.866 0 0.866 0.5 40457 - Minnie.ldr
 
 
+0 STEP
 0 FILE 40457 - Stand.ldr
 0 A small technic display stand built from white cylinders, locking hinge arms, and red and grey axles.
 0 Name: 40457 - Stand.ldr
@@ -32,6 +33,7 @@
 1 15 -30 0 230 -1 0 0 0 1 0 0 0 -1 30553.dat
 
 
+0 STEP
 0 FILE 40457 - Minnie.ldr
 0 A large brick-built Minnie Mouse figure using white, yellow, red, blue, and black plates and tiles forming her body, dress, and features.
 0 Name: 40457 - Minnie.ldr
@@ -312,6 +314,7 @@
 1 0 0 -54.491 -144.717 1 0 0 0 0.849 0.528 0 -0.528 0.849 40457 - Minnie S41.ldr
 
 
+0 STEP
 0 FILE 40457 - Minnie S29.ldr
 0 A small red and tan detail submodel using round plates and corner tiles, likely forming an eye or cheek accent.
 0 Name: 40457 - Minnie S29.ldr
@@ -332,6 +335,7 @@
 1 4 0 -8 14.142 -0.707 0 -0.707 0 1 0 0.707 0 -0.707 25269.dat
 
 
+0 STEP
 0 FILE 40457 - Minnie S34.ldr
 0 A small white and black detail submodel using a rounded plate and end tiles, likely part of an ear or face accent.
 0 Name: 40457 - Minnie S34.ldr
@@ -347,6 +351,7 @@
 1 0 10 -8 -10 1 0 0 0 1 0 0 0 1 24246.dat
 
 
+0 STEP
 0 FILE 40457 - Minnie S36.ldr
 0 A red heart-shaped plate decorated with white round tiles, forming a decorative heart motif.
 0 Name: 40457 - Minnie S36.ldr
@@ -362,6 +367,7 @@
 1 15 0 -8 -20 1 0 0 0 1 0 0 0 1 98138.dat
 
 
+0 STEP
 0 FILE 40457 - Minnie S40.ldr
 0 A simple white detail submodel made of a plate and a grooved tile.
 0 Name: 40457 - Minnie S40.ldr
@@ -374,6 +380,7 @@
 1 15 0 -8 0 1 0 0 0 1 0 0 0 1 3069b.dat
 
 
+0 STEP
 0 FILE 40457 - Minnie S41.ldr
 0 A small detail submodel combining a white hinge top and a black domed cylinder, likely a nose or button accent.
 0 Name: 40457 - Minnie S41.ldr
@@ -387,6 +394,7 @@
 1 0 0 -24 -10 1 0 0 0 1 0 0 0 1 30367c.dat
 
 
+0 STEP
 0 FILE 40457 - 44301b.dat
 0 A locking single-finger hinge plate submodel represented by a box piece.
 0 Name: 40457 - 44301b.dat
@@ -407,6 +415,7 @@
 4 16 -20 8 -10 -16 8 -6 16 8 -6 20 8 -10
 
 
+0 STEP
 0 FILE s\40457 - 44301s01.dat
 0 The internal geometry subpart of a locking single-finger hinge plate, built from boxes, a rectangle, and a click-lock hinge element.
 0 Name: s\40457 - 44301s01.dat

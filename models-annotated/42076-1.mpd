@@ -9,6 +9,7 @@
 1 71 -10 -167 -240 1 0 0 0 0.985 -0.174 0 0.174 0.985 42076 - truck.ldr
 
 
+0 STEP
 0 FILE 42076 - truck.ldr
 0 truck
 0 Name: 42076 - truck.ldr
@@ -338,6 +339,7 @@
 1 72 0 -100 120 -1 0 0 0 1 0 0 0 -1 42076 - container.ldr
 
 
+0 STEP
 0 FILE 42076 - shock-06_5L-soft-1.ldr
 0 shock-06_5L-soft-1
 0 Name: 42076 - shock-06_5L-soft-1.ldr
@@ -381,6 +383,7 @@
 1 0 0 110 0 1 0 0 0 1 0 0 0 1 4254.dat
 
 
+0 STEP
 0 FILE 42076 - seats.ldr
 0 seats
 0 Name: 42076 - seats.ldr
@@ -429,6 +432,7 @@
 1 72 0 -40 -40 0 -1 0 1 0 0 0 0 1 6632.dat
 
 
+0 STEP
 0 FILE 42076 - container.ldr
 0 container
 0 Name: 42076 - container.ldr
@@ -500,6 +504,7 @@
 1 25 0 20 20 0 0 -1 0 1 0 1 0 0 32523.dat
 
 
+0 STEP
 0 FILE 42076 - hover.ldr
 0 hover
 0 Name: 42076 - hover.ldr
@@ -1057,6 +1062,7 @@
 1 15 140 -320 120 1 0 0 0 1 0 0 0 1 42076 - cabin.ldr
 
 
+0 STEP
 0 FILE 42076 - hoverwheels.ldr
 0 hoverwheels
 0 Name: 42076 - hoverwheels.ldr
@@ -1100,6 +1106,7 @@
 1 71 70 0 0 0 0 -1 0 1 0 1 0 0 3713.dat
 
 
+0 STEP
 0 FILE 42076 - wheelstrans.ldr
 0 wheelstrans
 0 Name: 42076 - wheelstrans.ldr
@@ -1155,6 +1162,7 @@
 1 4 -40 0 130 0 1 0 0 0 1 1 0 0 3707.dat
 
 
+0 STEP
 0 FILE 42076 - wheelstrans2.ldr
 0 wheelstrans2
 0 Name: 42076 - wheelstrans2.ldr
@@ -1189,6 +1197,7 @@
 1 71 -80 -20 -30 0 1 0 0 0 -1 -1 0 0 3713.dat
 
 
+0 STEP
 0 FILE 42076 - propsteer.ldr
 0 propsteer
 0 Name: 42076 - propsteer.ldr
@@ -1234,6 +1243,7 @@
 1 14 0 20 -20 -1 0 0 0 0 -1 0 -1 0 32072.dat
 
 
+0 STEP
 0 FILE 42076 - steerwheels.ldr
 0 steerwheels
 0 Name: 42076 - steerwheels.ldr
@@ -1280,6 +1290,7 @@
 1 256 -60 0 -20 0 0 1 0 1 0 -1 0 0 42076 - 92409.dat
 
 
+0 STEP
 0 FILE 42076 - deck.ldr
 0 deck
 0 Name: 42076 - deck.ldr
@@ -1448,6 +1459,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42076 - deck2.ldr
 0 deck2
 0 Name: 42076 - deck2.ldr
@@ -1534,6 +1546,7 @@
 1 1 100 0 130 0 -1 0 0 0 -1 1 0 0 43093.dat
 
 
+0 STEP
 0 FILE 42076 - gantry.ldr
 0 gantry
 0 Name: 42076 - gantry.ldr
@@ -1583,6 +1596,7 @@
 1 0 0 -60 -140 0 -1 0 0 0 -1 1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 42076 - gantry2.ldr
 0 gantry2
 0 Name: 42076 - gantry2.ldr
@@ -1632,6 +1646,7 @@
 1 0 0 -60 -140 0 1 0 0 0 -1 -1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 42076 - skirt.ldr
 0 skirt
 0 Name: 42076 - skirt.ldr
@@ -1694,6 +1709,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42076 - skirtfront.ldr
 0 skirtfront
 0 Name: 42076 - skirtfront.ldr
@@ -1740,6 +1756,7 @@
 1 0 -200 0 80 0 0 1 0 -1 0 1 0 0 15100.dat
 
 
+0 STEP
 0 FILE 42076 - skirtback.ldr
 0 skirtback
 0 Name: 42076 - skirtback.ldr
@@ -1790,6 +1807,7 @@
 1 0 200 20 -60 0 0 1 0 1 0 -1 0 0 15100.dat
 
 
+0 STEP
 0 FILE 42076 - door.ldr
 0 door
 0 Name: 42076 - door.ldr
@@ -1860,6 +1878,7 @@
 1 0 -80 0 20 1 0 0 0 -1 0 0 0 -1 32039.dat
 
 
+0 STEP
 0 FILE 42076 - propellor.ldr
 0 propellor
 0 Name: 42076 - propellor.ldr
@@ -1937,6 +1956,7 @@
 1 15 47.071 32.929 -40 0.707 -0.707 0 0.707 0.707 0 0 0 1 42076 - technicFlexAxle-1.ldr
 
 
+0 STEP
 0 FILE 42076 - technicFlexAxle-1.ldr
 0 technicFlexAxle-1
 0 Name: 42076 - technicFlexAxle-1.ldr
@@ -6611,6 +6631,7 @@
 5 24 -68.568542 70.264145 -1.5308 -72.192017 70.264145 -1.5308 -68.568542 70.568542 0 -68.568542 69.396942 -2.8284
 
 
+0 STEP
 0 FILE 42076 - propellor2.ldr
 0 propellor2
 0 Name: 42076 - propellor2.ldr
@@ -6650,6 +6671,7 @@
 1 72 0 -40 -30 -1 0 0 0 -1 0 0 0 1 46667.dat
 
 
+0 STEP
 0 FILE 42076 - crane.ldr
 0 crane
 0 Name: 42076 - crane.ldr
@@ -6722,6 +6744,7 @@
 1 0 40 -60 -60 -0.423 0.906 0 0.906 0.423 0 0 0 -1 32270.dat
 
 
+0 STEP
 0 FILE 42076 - cabin.ldr
 0 cabin
 0 Name: 42076 - cabin.ldr
@@ -6943,6 +6966,7 @@
 1 15 0 0 -80 0 0 -1 -1 0 0 0 1 0 11947.dat
 
 
+0 STEP
 0 FILE 42076 - technicFlexAxle-2.ldr
 0 technicFlexAxle-2
 0 Name: 42076 - technicFlexAxle-2.ldr
@@ -9032,6 +9056,7 @@
 5 24 3.6956 -89.5308 83 3.6956 -89.5308 79.22065 4 -88 83 2.8284 -90.8284 83
 
 
+0 STEP
 0 FILE 42076 - 92402.dat
 0 A wheel hub assembly with a central hub, rim, and surrounding circular and cylindrical detail surfaces.
 0 Name: 42076 - 92402.dat
@@ -9086,6 +9111,7 @@
 1 16 0 0 0 0 -1 0 1 0 0 0 0 1 s\42076 - 92402s02.dat
 1 16 0 0 0 -1 0 0 0 -1 0 0 0 1 s\42076 - 92402s02.dat
 
+0 STEP
 0 FILE 42076 - 32198.dat
 0 A complex cylindrical body built from rings, rectangles, cylinders, and cones, forming a grooved mechanical component.
 0 Name: 42076 - 32198.dat
@@ -9330,6 +9356,7 @@
 0 !LDCAD SNAP_CLEAR 
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 6 3   A 6 7] [center=true] [slide=true]
 
+0 STEP
 0 FILE 42076 - 92409.dat
 0 A tire model composed of open cylinders and stacked cones with front and back side surfaces.
 0 Name: 42076 - 92409.dat
@@ -9456,6 +9483,7 @@
 4 16 8.875 -19.033001 8 12.045 -17.202 8 5.358 -12.935 8 5.435 -20.285 8
 4 16 5.358 -12.935 8 0 -14 8 1.83 -20.92 8 5.435 -20.285 8
 
+0 STEP
 0 FILE 42076 - ldcFlexAxleEndA.dat
 0 A placeholder submodel representing a flexible axle end component.
 0 Name: 42076 - ldcFlexAxleEndA.dat
@@ -9473,6 +9501,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 42076 - ldcFlexAxleEndB.dat
 0 A placeholder flexible axle end component containing a single cylindrical surface.
 0 Name: 42076 - ldcFlexAxleEndB.dat
@@ -9491,6 +9520,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 42076 - ldcFlexAxleEndC.dat
 0 A placeholder submodel representing a flexible axle end component.
 0 Name: 42076 - ldcFlexAxleEndC.dat
@@ -9508,6 +9538,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 42076 - ldcFlexAxleEndD.dat
 0 A placeholder submodel representing a flexible axle end component.
 0 Name: 42076 - ldcFlexAxleEndD.dat
@@ -9525,6 +9556,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 42076 - ldcFlexAxleEndE.dat
 0 A placeholder submodel representing a flexible axle end component.
 0 Name: 42076 - ldcFlexAxleEndE.dat
@@ -9542,6 +9574,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 42076 - ldcFlexAxleEndF.dat
 0 A placeholder submodel representing a flexible axle end component.
 0 Name: 42076 - ldcFlexAxleEndF.dat
@@ -9559,6 +9592,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 42076 - ldcFlexAxleEndG.dat
 0 A placeholder submodel representing a flexible axle end component.
 0 Name: 42076 - ldcFlexAxleEndG.dat
@@ -9576,6 +9610,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 42076 - ldcFlexAxleMid.dat
 0 ldcFlexAxleMid
 0 Name: 42076 - ldcFlexAxleMid.dat
@@ -9594,6 +9629,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE s\42076 - 92402s02.dat
 0 An empty subpart referenced by the wheel hub assembly.
 0 Name: s\42076 - 92402s02.dat
@@ -9631,6 +9667,7 @@
 4 16 5.16233 -32.593739 17 10.19756 -31.38488 17 14.98168 -29.403219 17 8.04 -19.4 17
 4 16 5.16233 -32.593739 17 8.04 -19.4 17 0 -21 17 0 -33 17
 
+0 STEP
 0 FILE s\42076 - 92402s01.dat
 0 An empty subpart referenced by the wheel hub assembly.
 0 Name: s\42076 - 92402s01.dat
@@ -9669,6 +9706,7 @@
 2 24 32.593719 -5.16234 -1.0667 32.593719 -5.16234 -17
 5 24 38 0 -1.0667 38 0 1.0667 37.532162 -5.94451 -1.0667 37.532162 5.94451 -1.0667
 
+0 STEP
 0 FILE 42076 - toothb20.dat
 0 An empty submodel representing a toothed gear component.
 0 Name: 42076 - toothb20.dat
@@ -9714,6 +9752,7 @@
 5 24 1.582 0 0 0 -6.13 2 0 -3.13 0 2.07 -6.13 6.5
 5 24 0 -6.13 2 -1.582 0 0 0 -3.13 0 -2.07 -6.13 6.5
 
+0 STEP
 0 FILE s\42076 - 92409s01.dat
 0 An empty subpart referenced by the tire assembly.
 0 Name: s\42076 - 92409s01.dat
@@ -9747,6 +9786,7 @@
 5 24 -1.9174 -21.916 1.0667 -1.9174 -21.916 -1.0667 1.9174 -21.916 1.0667 -5.69394 -21.250099 -1.0667
 5 24 1.9174 -21.916 -1.0667 1.9174 -21.916 1.0667 -1.9174 -21.916 1.0667 5.69394 -21.250099 -1.0667
 
+0 STEP
 0 FILE s\42076 - faxle1.dat
 0 A detailed Technic axle end segment with axle perimeter, base surface, inner edges, and tooth outer edges.
 0 Name: s\42076 - faxle1.dat
@@ -9781,6 +9821,7 @@
 0 // Technic Axle Perimeter (main_colour)
 1 16 0.4 0 0 0 -0.4 0 -1 0 0 0 0 1 axlehol8.dat
 
+0 STEP
 0 FILE s\42076 - faxle2.dat
 0 A Technic axle end segment composed of axle perimeter, base surface, inner edges, tooth edges, and a cylinder.
 0 Name: s\42076 - faxle2.dat
@@ -9809,6 +9850,7 @@
 0 // Cylinder 1.0 (main_colour)
 1 16 0 0 0 0 0.8 0 6 0 0 0 0 6 4-4cyli.dat
 
+0 STEP
 0 FILE s\42076 - faxle3.dat
 0 A Technic axle end segment featuring axle perimeter, base surface, inner edges, tooth edges, and a cylinder.
 0 Name: s\42076 - faxle3.dat
@@ -9837,6 +9879,7 @@
 0 // Technic Axle Perimeter (main_colour)
 1 16 1.2 0 0 0 -1.2 0 -1 0 0 0 0 1 axlehol8.dat
 
+0 STEP
 0 FILE s\42076 - faxle4.dat
 0 A Technic axle end segment with axle perimeter, base surface, inner edges, tooth edges, and a cylinder.
 0 Name: s\42076 - faxle4.dat
@@ -9865,6 +9908,7 @@
 0 // Cylinder 1.0 (main_colour)
 1 16 0 0 0 0 1.6 0 6 0 0 0 0 6 4-4cyli.dat
 
+0 STEP
 0 FILE s\42076 - faxle5.dat
 0 A Technic axle end segment consisting of axle perimeter, base surface, inner edges, tooth edges, and a cylinder.
 0 Name: s\42076 - faxle5.dat

@@ -7,6 +7,7 @@
 1 0 0 9.861 5.857 1 0 0 0 1 0 0 0 1 31031 - Cameleon.ldr
 
 
+0 STEP
 0 FILE 31031 - Cameleon.ldr
 0 Main chameleon torso built from green and lime plates, wing elements, and ball-and-socket hinge joints connecting the limbs.
 0 Name: 31031 - Cameleon.ldr
@@ -141,6 +142,7 @@
 1 27 0 8 -180 1 0 0 0 1 0 0 0 1 31031 - Head.ldr
 
 
+0 STEP
 0 FILE 31031 - Side.ldr
 0 Small side detail assembly of a green plate topped with a lime curved slope.
 0 Name: 31031 - Side.ldr
@@ -154,6 +156,7 @@
 1 27 0 0 0 0 0 1 0 1 0 -1 0 0 93273.dat
 
 
+0 STEP
 0 FILE 31031 - Body.ldr
 0 Central body section using inverted slopes, technic bricks with holes, and a locking hinge plate for articulation.
 0 Name: 31031 - Body.ldr
@@ -188,6 +191,7 @@
 1 0 0 -32 -50 1 0 0 0 1 0 0 0 1 60471.dat
 
 
+0 STEP
 0 FILE 31031 - Tail.ldr
 0 Segmented tail made of blue handle plates, red clip plates, and a vertical locking hinge for curling movement.
 0 Name: 31031 - Tail.ldr
@@ -213,6 +217,7 @@
 1 1 0 67.909 87.765 0 0 -1 0.866 0.5 0 0.5 -0.866 0 60478.dat
 
 
+0 STEP
 0 FILE 31031 - Rear leg LH.ldr
 0 Left rear leg combining lime plates, a corner plate, a lime wing element, and locking hinge joints for posing.
 0 Name: 31031 - Rear leg LH.ldr
@@ -237,6 +242,7 @@
 1 27 10 -24 0 -1 0 0 0 1 0 0 0 -1 43722.dat
 
 
+0 STEP
 0 FILE 31031 - Front leg LH.ldr
 0 Left front leg with a ball-joint plate, locking hinge, lime curved slope, and green and lime plates.
 0 Name: 31031 - Front leg LH.ldr
@@ -258,6 +264,7 @@
 1 27 0 -8 20 -1 0 0 0 1 0 0 0 -1 11477.dat
 
 
+0 STEP
 0 FILE 31031 - Left hand.ldr
 0 Left foot/hand built from two green corner plates, a locking hinge plate, and a small dark bluish grey plate.
 0 Name: 31031 - Left hand.ldr
@@ -277,6 +284,7 @@
 1 2 0 -16 0 0 0 1 0 1 0 -1 0 0 2420.dat
 
 
+0 STEP
 0 FILE 31031 - Rear leg RH.ldr
 0 Right rear leg mirroring the left, using lime plates, a corner plate, a lime wing element, and locking hinge joints.
 0 Name: 31031 - Rear leg RH.ldr
@@ -301,6 +309,7 @@
 1 27 -10 -24 0 -1 0 0 0 1 0 0 0 -1 43723.dat
 
 
+0 STEP
 0 FILE 31031 - Front leg RH.ldr
 0 Right front leg with a ball-joint plate, locking hinge, lime curved slope, and green and lime plates.
 0 Name: 31031 - Front leg RH.ldr
@@ -323,6 +332,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 31031 - Right hand.ldr
 0 Right foot/hand built from two green corner plates, a locking hinge plate, and a small dark bluish grey plate.
 0 Name: 31031 - Right hand.ldr
@@ -342,6 +352,7 @@
 1 2 0 -16 0 0 0 1 0 1 0 -1 0 0 2420.dat
 
 
+0 STEP
 0 FILE 31031 - Head.ldr
 0 Chameleon head featuring round eye tiles, curved slopes and arches, convex red slopes, and a socket joint for neck articulation.
 0 Name: 31031 - Head.ldr

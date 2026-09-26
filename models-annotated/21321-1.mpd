@@ -17,6 +17,7 @@
 1 15 70 -8 -70 1 0 0 0 1 0 0 0 1 21321 - International Space Station - 90398p01.dat
 
 
+0 STEP
 0 FILE 21321 - International Space Station - dragon.ldr
 0 Small spacecraft module built from round plates with axleholes and a white truncated cone, forming a compact cylindrical capsule.
 0 Name: 21321 - International Space Station - dragon.ldr
@@ -35,6 +36,7 @@
 1 0 0 -40 0 1 0 0 0 1 0 0 0 1 85861.dat
 
 
+0 STEP
 0 FILE 21321 - International Space Station - starliner.ldr
 0 Docked spacecraft capsule featuring solar panel patterned tiles, a fez-shaped nose, and pneumatic T-pieces forming a small white vehicle body.
 0 Name: 21321 - International Space Station - starliner.ldr
@@ -60,6 +62,7 @@
 1 272 2 10 57 0 -1 0 -1 0 0 0 0 -1 21321 - International Space Station - 30350cp01.dat
 
 
+0 STEP
 0 FILE 21321 - International Space Station - soyuz.ldr
 0 Crew transport spacecraft module with solar panel tiles, a ball joint docking mechanism, and a bar antenna on a small white body.
 0 Name: 21321 - International Space Station - soyuz.ldr
@@ -88,6 +91,7 @@
 1 272 2 10 -60 0 -1 0 1 0 0 0 0 1 21321 - International Space Station - 30350cp01.dat
 
 
+0 STEP
 0 FILE 21321 - International Space Station - shuttle.ldr
 0 Winged space shuttle orbiter built from black and white wing plates, cornerless plates, angled slopes, and multiple dish antennas.
 0 Name: 21321 - International Space Station - shuttle.ldr
@@ -206,6 +210,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 21321 - International Space Station - shuttle-step16.ldr
 0 Small shuttle detail sub-assembly consisting of a black clip tile, round plate, and fez element.
 0 Name: 21321 - International Space Station - shuttle-step16.ldr
@@ -221,6 +226,7 @@
 1 0 0 22 0 1 0 0 0 1 0 0 0 1 85975.dat
 
 
+0 STEP
 0 FILE 21321 - International Space Station - stand.ldr
 0 Heavy black display stand built on a large base plate with sloped supports, grille tiles, and pin bricks to hold the model upright.
 0 Name: 21321 - International Space Station - stand.ldr
@@ -392,6 +398,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 21321 - International Space Station - stand-step13.ldr
 0 Stand support detail combining a bracket, curved slope, hinge plate, and connecting plate.
 0 Name: 21321 - International Space Station - stand-step13.ldr
@@ -410,6 +417,7 @@
 1 0 -62 -2 0 0 1 0 0 0 1 1 0 0 44567.dat
 
 
+0 STEP
 0 FILE 21321 - International Space Station - stand-stap17.ldr
 0 Single top hinge piece forming part of the stand's articulation mechanism.
 0 Name: 21321 - International Space Station - stand-stap17.ldr
@@ -422,6 +430,7 @@
 1 71 0 -10 0 -1 0 0 0 1 0 0 0 -1 6134.dat
 
 
+0 STEP
 0 FILE 21321 - International Space Station - stand-step18-29.ldr
 0 Stand arm sub-assembly built from long technic bricks and friction pins that form a hinged support strut with grille detailing.
 0 Name: 21321 - International Space Station - stand-step18-29.ldr
@@ -511,6 +520,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 21321 - International Space Station - iss.ldr
 0 Core ISS truss structure assembled from long plates, ball sockets, pearl-gold studs, clips, and numerous white slope panels forming the main station framework.
 0 Name: 21321 - International Space Station - iss.ldr
@@ -931,6 +941,7 @@
 1 71 0 -22 260 -0.707 -0.707 0 -0.707 0.707 0 0 0 -1 21321 - International Space Station - iss-step118-137.ldr
 
 
+0 STEP
 0 FILE 21321 - International Space Station - iss-step9.ldr
 0 ISS module section with brackets and light bluish grey slopes mounted on a dark tan plate with an orange grooved tile.
 0 Name: 21321 - International Space Station - iss-step9.ldr
@@ -961,6 +972,7 @@
 1 71 24 6 20 0 -1 0 0 0 -1 1 0 0 85984.dat
 
 
+0 STEP
 0 FILE 21321 - International Space Station - iss-step20-44.ldr
 0 Robotic arm sub-assembly built from a robot body cylinder, axle, soda can patterned tiles, and clip plates forming a mechanical manipulator.
 0 Name: 21321 - International Space Station - iss-step20-44.ldr
@@ -1007,6 +1019,7 @@
 1 0 30 -102 0 0 -1 0 -0.707 0 0.707 -0.707 0 -0.707 21321 - International Space Station - iss-step38-43.ldr
 
 
+0 STEP
 0 FILE 21321 - International Space Station - iss-step25.ldr
 0 Small ISS junction detail combining a technic plate, round bricks, and white slope elements around an axlehole.
 0 Name: 21321 - International Space Station - iss-step25.ldr
@@ -1030,6 +1043,7 @@
 1 72 0 -40 20 1 0 0 0 1 0 0 0 1 15535.dat
 
 
+0 STEP
 0 FILE 21321 - International Space Station - iss-step27-37.ldr
 0 Cylindrical ISS module section with round bricks, axle pins, a patterned mechanical tile, roller skates, and a skeleton arm appendage.
 0 Name: 21321 - International Space Station - iss-step27-37.ldr
@@ -1090,6 +1104,7 @@
 1 0 0 0 0 0 1 0 -1 0 0 0 0 1 18651.dat
 
 
+0 STEP
 0 FILE 21321 - International Space Station - iss-step38-43.ldr
 0 Compact ISS connector node built from round bricks, axle pins, a handle plate, and small light bluish grey slopes.
 0 Name: 21321 - International Space Station - iss-step38-43.ldr
@@ -1118,6 +1133,7 @@
 1 0 0 0 0 0 1 0 -1 0 0 0 0 1 18651.dat
 
 
+0 STEP
 0 FILE 21321 - International Space Station - iss-step47-56.ldr
 0 ISS structural segment with technic plates, axlehole bricks, brackets, a grilles round brick, and a curved slope forming a junction detail.
 0 Name: 21321 - International Space Station - iss-step47-56.ldr
@@ -1183,6 +1199,7 @@
 1 15 20 -72 0 0 0 -1 0 1 0 1 0 0 15068.dat
 
 
+0 STEP
 0 FILE 21321 - International Space Station - iss-step58-65.ldr
 0 ISS module detail featuring round bricks, a robot body cylinder, a patterned mechanical tile, domed elements, and a truncated cone with trapezoid pattern.
 0 Name: 21321 - International Space Station - iss-step58-65.ldr
@@ -1231,6 +1248,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 21321 - International Space Station - iss-step66-73.ldr
 0 ISS solar array boom built from round bricks, an axle with bushings, and two dark blue solar panel patterned tiles.
 0 Name: 21321 - International Space Station - iss-step66-73.ldr
@@ -1268,6 +1286,7 @@
 1 71 0 -81 0 0 0 -1 0 1 0 1 0 0 3941.dat
 
 
+0 STEP
 0 FILE 21321 - International Space Station - iss-step76-83.ldr
 0 Docking adapter sub-assembly with a ball joint, perpendicular bar tubes, a gold lightsaber blade antenna, and solar panel patterned tiles.
 0 Name: 21321 - International Space Station - iss-step76-83.ldr
@@ -1306,6 +1325,7 @@
 1 272 57 -103 0 0 0 -1 -1 0 0 0 1 0 21321 - International Space Station - 30350cp01.dat
 
 
+0 STEP
 0 FILE 21321 - International Space Station - iss-step87-92.ldr
 0 Small ISS arm extension with a ball joint, perpendicular bar tubes, T-pieces, and solar panel patterned tiles.
 0 Name: 21321 - International Space Station - iss-step87-92.ldr
@@ -1337,6 +1357,7 @@
 1 272 2 10 61 0 -1 0 -1 0 0 0 0 -1 21321 - International Space Station - 30350cp01.dat
 
 
+0 STEP
 0 FILE 21321 - International Space Station - iss-step94.ldr
 0 Large solar panel array built from two big solar panel patterned flags attached via vertical clip plates to an axlehole brick.
 0 Name: 21321 - International Space Station - iss-step94.ldr
@@ -1362,6 +1383,7 @@
 1 272 0 12 30 1 0 0 0 1 0 0 0 1 21321 - International Space Station - 35252p01.dat
 
 
+0 STEP
 0 FILE 21321 - International Space Station - iss-step96-100.ldr
 0 Compact ISS docking module with a ball joint, bar antenna, T-pieces, and solar panel patterned tiles.
 0 Name: 21321 - International Space Station - iss-step96-100.ldr
@@ -1390,6 +1412,7 @@
 1 272 2 10 -64 0 -1 0 1 0 0 0 0 1 21321 - International Space Station - 30350cp01.dat
 
 
+0 STEP
 0 FILE 21321 - International Space Station - iss-step101-107.ldr
 0 Streamlined ISS module end-cap built from white double slopes and curved slopes on a base plate forming a tapered fairing.
 0 Name: 21321 - International Space Station - iss-step101-107.ldr
@@ -1426,6 +1449,7 @@
 1 15 0 -8 60 1 0 0 0 1 0 0 0 1 88930.dat
 
 
+0 STEP
 0 FILE 21321 - International Space Station - iss-step112.ldr
 0 Small sensor detail consisting of a dish, handle plate, round-ended plate, and a patterned mechanical round tile.
 0 Name: 21321 - International Space Station - iss-step112.ldr
@@ -1445,6 +1469,7 @@
 1 71 0 -10 30 1 0 0 0 1 0 0 0 1 21321 - International Space Station - 14769px2.dat
 
 
+0 STEP
 0 FILE 21321 - International Space Station - iss-step114.ldr
 0 Small structural bracket assembly with white tiles and grooves for detail.
 0 Name: 21321 - International Space Station - iss-step114.ldr
@@ -1460,6 +1485,7 @@
 1 15 22 10 -10 0 -1 0 0 0 -1 1 0 0 3070b.dat
 
 
+0 STEP
 0 FILE 21321 - International Space Station - iss-step115.ldr
 0 Detailed module combining brackets, handle plates, a metallic dish, and pearl gold accents.
 0 Name: 21321 - International Space Station - iss-step115.ldr
@@ -1488,6 +1514,7 @@
 1 297 36 30 34 0 0 1 1 0 0 0 1 0 90540.dat
 
 
+0 STEP
 0 FILE 21321 - International Space Station - iss-step116.ldr
 0 Bracket-based section with handle plates and white round tiles forming a detailed panel.
 0 Name: 21321 - International Space Station - iss-step116.ldr
@@ -1514,6 +1541,7 @@
 1 15 10 30 -38 1 0 0 0 0 -1 0 1 0 98138.dat
 
 
+0 STEP
 0 FILE 21321 - International Space Station - iss-step117.ldr
 0 Articulated bar assembly with clip tubes and a pinned round tile for connectivity.
 0 Name: 21321 - International Space Station - iss-step117.ldr
@@ -1538,6 +1566,7 @@
 1 15 14 -57.476 229.96 1 0 0 0 0.966 -0.259 0 0.259 0.966 20482.dat
 
 
+0 STEP
 0 FILE 21321 - International Space Station - iss-step118-137.ldr
 0 Large multi-section module with long plates, technic bricks, ball joints, lattice fences, and curved slopes forming a structural truss segment.
 0 Name: 21321 - International Space Station - iss-step118-137.ldr
@@ -1638,6 +1667,7 @@
 1 272 -70 0 -110 0 0 -1 0 1 0 1 0 0 21321 - International Space Station - iss-step138-145.ldr
 
 
+0 STEP
 0 FILE 21321 - International Space Station - iss-step126-133.ldr
 0 Technic brick and pin assembly with corner plates and a curved slope forming a small jointed support.
 0 Name: 21321 - International Space Station - iss-step126-133.ldr
@@ -1675,6 +1705,7 @@
 1 71 10 0 -30 0 0 -1 0 1 0 1 0 0 15068.dat
 
 
+0 STEP
 0 FILE 21321 - International Space Station - iss-step138-145.ldr
 0 Solar panel array built from axles, joiners, bar tubes, and patterned solar panel tiles.
 0 Name: 21321 - International Space Station - iss-step138-145.ldr
@@ -1718,6 +1749,7 @@
 1 272 -50 -2 260 1 0 0 0 1 0 0 0 1 21321 - International Space Station - 30350cp01.dat
 
 
+0 STEP
 0 FILE 21321 - International Space Station - iss-step143.ldr
 0 Solar panel module with orange support plate and patterned dark blue solar panel tiles.
 0 Name: 21321 - International Space Station - iss-step143.ldr
@@ -1739,6 +1771,7 @@
 1 272 0 -8 -110 -1 0 0 0 1 0 0 0 -1 21321 - International Space Station - 30350cp01.dat
 
 
+0 STEP
 0 FILE 21321 - International Space Station - 90398p01.dat
 0 Minifigure torso, head, visor, legs, and cylinders forming a complete astronaut figure.
 0 Name: 21321 - International Space Station - 90398p01.dat
@@ -2917,6 +2950,7 @@
 3 16 -0.4 -13.45 -1.25 -0.438 -10.133 -1.25 -0.15 -13.35 -1.25
 4 16 -0.438 -14.034 -1.25 0.4378 -14.0337 -1.25 0.4375 -14.1051 -1.25 -0.438 -14.105 -1.25
 
+0 STEP
 0 FILE 21321 - International Space Station - 30350cp01.dat
 0 Empty submodel file with no direct pieces.
 0 Name: 21321 - International Space Station - 30350cp01.dat
@@ -2943,6 +2977,7 @@
 3 16 19.200001 0 -28.299999 0.8 0 -28.299999 20 0 -30
 3 16 -20 0 -30 -0.8 0 -28.299999 -19.200001 0 -28.299999
 
+0 STEP
 0 FILE 21321 - International Space Station - 6180p00.dat
 0 Decorated nameplate tile with 'International Space Station' printed pattern.
 0 Name: 21321 - International Space Station - 6180p00.dat
@@ -4329,6 +4364,7 @@
 4 16 -10.7 0 11.1 -0.3 0 16.700001 -1.1 0 17.1 -11.6 0 11.6
 4 16 0.7 0 15.7 -8.4 0 10.6 -7.7 0 10.3 1.4 0 15.3
 
+0 STEP
 0 FILE 21321 - International Space Station - 92013.dat
 0 Empty submodel file with no direct pieces.
 0 Name: 21321 - International Space Station - 92013.dat
@@ -4349,6 +4385,7 @@
 3 16 30 19.75 0 20 19.75 -20 20 19.75 20
 2 24 20 19.75 -20 20 19.75 20
 
+0 STEP
 0 FILE 21321 - International Space Station - 14769px2.dat
 0 Detailed circular patterned element built from rings, discs, and adapter primitives forming a metallic emblem.
 0 Name: 21321 - International Space Station - 14769px2.dat
@@ -4520,6 +4557,7 @@
 3 16 8.5 0 0 8 0 0 8.5 0 -15.8348
 4 16 7 0 -17.64607 8.5 0 -15.8348 8 0 0 7 0 0
 
+0 STEP
 0 FILE 21321 - International Space Station - 98100p01.dat
 0 Simple disc primitive forming a flat circular surface.
 0 Name: 21321 - International Space Station - 98100p01.dat
@@ -4702,6 +4740,7 @@
 5 24 -10.25295 0 10.25295 -14.142 16 14.142 -7.654 16 18.478001 -18.478001 16 7.654
 5 24 -7.654 16 18.478001 -5.54915 0 13.39655 -14.142 16 14.142 0 16 20
 
+0 STEP
 0 FILE 21321 - International Space Station - 35252p01.dat
 0 Chord-based curved element made of four quarter arcs.
 0 Name: 21321 - International Space Station - 35252p01.dat
@@ -4759,6 +4798,7 @@
 0 // Chord 0.25 (main_colour)
 1 16 -2 28 148 0 1 0 2 0 0 0 0 2 1-4chrd.dat
 
+0 STEP
 0 FILE 21321 - International Space Station - 35252.dat
 0 Chord-based curved element made of four quarter arcs.
 0 Name: 21321 - International Space Station - 35252.dat
@@ -4788,6 +4828,7 @@
 0 // Chord 0.25 (main_colour)
 1 16 2 28 148 0 -1 0 2 0 0 0 0 2 1-4chrd.dat
 
+0 STEP
 0 FILE s\21321 - International Space Station - 6180s01.dat
 0 Box-geometry subpart defining the base shape of a nameplate or tile.
 0 Name: s\21321 - International Space Station - 6180s01.dat
@@ -4858,6 +4899,7 @@
 1 16 -50 0 -30 -1 0 0 0 1 0 0 0 -1 stud.dat
 0 //
 
+0 STEP
 0 FILE s\21321 - International Space Station - 62712s02.dat
 0 Geometric subpart defining a technic axle hole with toothed gear perimeter detail.
 0 Name: s\21321 - International Space Station - 62712s02.dat
@@ -4961,6 +5003,7 @@
 0 // Rectangle with 3 Edges (main_colour)
 1 16 20 21.875 0 0 -1 0 0 0 2.125 -20 0 0 rect3.dat
 
+0 STEP
 0 FILE s\21321 - International Space Station - 92013s01.dat
 0 Simple rectangle primitive subpart.
 0 Name: s\21321 - International Space Station - 92013s01.dat
@@ -5380,6 +5423,7 @@
 0 // Rectangle (main_colour)
 1 16 20 10 11.125 0 -1 0 0 0 5 -8.875 0 0 rect.dat
 
+0 STEP
 0 FILE 21321 - International Space Station - 2-4rin20.dat
 0 Primitive-generated ring element.
 0 Name: 21321 - International Space Station - 2-4rin20.dat
@@ -5399,6 +5443,7 @@
 4 16 -19.401899 0 8.0367 -21 0 0 -20 0 0 -18.478001 0 7.654
 0 // Build by Primitive Generator 2
 
+0 STEP
 0 FILE s\21321 - International Space Station - 30350cp01s01.dat
 0 Empty subpart file with no direct pieces.
 0 Name: s\21321 - International Space Station - 30350cp01s01.dat
@@ -5456,6 +5501,7 @@
 3 80 -7.3 0 7.25 -9.2 0 28.299999 -7.3 0 1.55
 4 80 -7.3 0 0 -7.3 0 1.55 -9.2 0 28.299999 -9.2 0 -28.299999
 
+0 STEP
 0 FILE s\21321 - International Space Station - 2431p70s01.dat
 0 Empty subpart file with no direct pieces.
 0 Name: s\21321 - International Space Station - 2431p70s01.dat
@@ -5508,6 +5554,7 @@
 3 80 -4.05 0 2.7 -4.4 0 7.3 -4.05 0 1.3
 3 80 4.4 0 7.3 4.05 0 2.7 4.05 0 1.3
 
+0 STEP
 0 FILE s\21321 - International Space Station - 35252s01.dat
 0 Cylindrical subpart with discs, rings, and open cylinders defining a hollow tube or connector.
 0 Name: s\21321 - International Space Station - 35252s01.dat
@@ -5681,6 +5728,7 @@
 2 24 -2 -30 9.21 -2 -30 10
 2 24 2 -30 9.21 2 -30 10
 
+0 STEP
 0 FILE s\21321 - International Space Station - 90398s01.dat
 0 Detailed minifigure subpart combining torso, arms, hands, hips, legs, and geometric rectangles for body geometry.
 0 Name: s\21321 - International Space Station - 90398s01.dat
@@ -6574,6 +6622,7 @@
 0 // Cylinder Closed 1.0 (main_colour)
 1 16 0 -8 0 8 0 0 0 8 0 0 0 8 4-4cylc.dat
 
+0 STEP
 0 FILE s\21321 - International Space Station - 90398s02.dat
 0 Minifigure head subpart with cylinder and ring primitives forming the head and neck geometry.
 0 Name: s\21321 - International Space Station - 90398s02.dat

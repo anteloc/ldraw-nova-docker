@@ -33,6 +33,7 @@
 
 
 
+0 STEP
 0 FILE 3934 - Mia.ldr
 0 Friends minifigure of Mia with a ponytail, bow, layered skirt, and halter-neck top.
 0 Name: 3934 - Mia.ldr
@@ -64,6 +65,7 @@
 
 
 
+0 STEP
 0 FILE 3934 - Puppy.ldr
 0 Small standing puppy figure with a pink bow accessory.
 0 Name: 3934 - Puppy.ldr
@@ -83,6 +85,7 @@
 
 
 
+0 STEP
 0 FILE 3934 - Puppy house.ldr
 0 Tan and pink puppy house built on a green baseplate with walls, an archway doorway, sloped roof, and award ribbons.
 0 Name: 3934 - Puppy house.ldr
@@ -177,6 +180,7 @@
 
 
 
+0 STEP
 0 FILE 3934 - Table.ldr
 0 Lime table made from a plate with yellow cone legs and a basket.
 0 Name: 3934 - Table.ldr
@@ -203,6 +207,7 @@
 
 
 
+0 STEP
 0 FILE 3934 - Tree.ldr
 0 Brown tree with sloped trunk and arch branch topped with green leaf clusters and red round accents.
 0 Name: 3934 - Tree.ldr
@@ -253,6 +258,7 @@
 
 
 
+0 STEP
 0 FILE 3934 - 94719.dat
 0 Primitive geometric part definition composed of outside surfaces.
 0 Name: 3934 - 94719.dat
@@ -274,6 +280,7 @@
 
 
 
+0 STEP
 0 FILE 3934 - 94721.dat
 0 Empty geometric part definition with no direct pieces.
 0 Name: 3934 - 94721.dat
@@ -294,6 +301,7 @@
 
 
 
+0 STEP
 0 FILE 3934 - 94720.dat
 0 Primitive geometric part definition with cylinders, discs, and circle surfaces.
 0 Name: 3934 - 94720.dat
@@ -323,6 +331,7 @@
 
 
 
+0 STEP
 0 FILE 3934 - 94724.dat
 0 Primitive geometric part definition made of rectangular edge surfaces.
 0 Name: 3934 - 94724.dat
@@ -412,6 +421,7 @@
 
 
 
+0 STEP
 0 FILE 3934 - 94723.dat
 0 Primitive geometric part definition composed of outside surfaces.
 0 Name: 3934 - 94723.dat
@@ -435,6 +445,7 @@
 
 
 
+0 STEP
 0 FILE 3934 - 92241p0f.dat
 0 Primitive geometric part definition of conditional lines.
 0 Name: 3934 - 92241p0f.dat
@@ -2243,6 +2254,7 @@
 
 
 
+0 STEP
 0 FILE 3934 - 94717.dat
 0 Primitive geometric part definition with a pin, cylinder, and body surfaces.
 0 Name: 3934 - 94717.dat
@@ -2298,6 +2310,7 @@
 
 
 
+0 STEP
 0 FILE 3934 - 93088p02.dat
 0 Empty geometric part definition with no direct pieces.
 0 Name: 3934 - 93088p02.dat
@@ -2319,6 +2332,7 @@
 
 
 
+0 STEP
 0 FILE 3934 - 94718.dat
 0 Primitive geometric part definition with outside, cylinder, and rectangular surfaces.
 0 Name: 3934 - 94718.dat
@@ -3244,6 +3258,7 @@
 
 
 
+0 STEP
 0 FILE 3934 - 94722.dat
 0 Primitive geometric part definition with outside and cylinder surfaces.
 0 Name: 3934 - 94722.dat
@@ -4783,6 +4798,7 @@
 
 
 
+0 STEP
 0 FILE 3934 - 4150p09.dat
 0 Primitive geometric part definition of an adapter ring.
 0 Name: 3934 - 4150p09.dat
@@ -4803,6 +4819,7 @@
 
 
 
+0 STEP
 0 FILE s\3934 - 94719s01.dat
 0 Sub-part of geometric primitives with cylinders, chords, circles, and a sphere.
 0 Name: s\3934 - 94719s01.dat
@@ -5195,6 +5212,7 @@
 
 
 
+0 STEP
 0 FILE s\3934 - 94721s01.dat
 0 Sub-part of geometric primitives with chords, circles, cones, rings, and cylinders.
 0 Name: s\3934 - 94721s01.dat
@@ -5539,6 +5557,7 @@
 5 24 -8.875 19.9 1.129 -9.67 19.571 1.129 -9.438 19.338 1.925 -8.875 19.571 .334
 
 
+0 STEP
 0 FILE s\3934 - 94720s01.dat
 0 Sub-part of geometric primitives with many discs, cylinders, circles, and spheres.
 0 Name: s\3934 - 94720s01.dat
@@ -5639,6 +5658,7 @@
 2 24 2.5 9.76 5.75 2.5 9.76 5.5
 
 
+0 STEP
 0 FILE s\3934 - 94724s01.dat
 0 Sub-part of geometric primitives with outside surfaces and rectangular edges.
 0 Name: s\3934 - 94724s01.dat
@@ -6055,6 +6075,7 @@
 5 24 -2 -40.443 3.464 -2 -28.287 3.464 -3.464 -28.288 2 0 -28.286 4
 
 
+0 STEP
 0 FILE s\3934 - 94723s01.dat
 0 Sub-part of geometric primitives with outside, cylinders, and rectangular edges.
 0 Name: s\3934 - 94723s01.dat
@@ -6315,6 +6336,7 @@
 5 24 19.212 4.624 0 19.6956 1.213 1.5308 20 1.213 0 18.717 4.419 2.005
 
 
+0 STEP
 0 FILE s\3934 - 94717s01.dat
 0 Empty sub-part definition with no direct pieces.
 0 Name: s\3934 - 94717s01.dat
@@ -6668,6 +6690,7 @@
 5 24 14.976 -9.005 1.341 15.364 -9.005 -1.277 14.198 -12.326 .388 14.687 -5.5 .401
 
 
+0 STEP
 0 FILE s\3934 - 93088s01.dat
 0 Sub-part of geometric primitives with open cylinders, chords, and disc negatives.
 0 Name: s\3934 - 93088s01.dat
@@ -8086,6 +8109,7 @@
 5 24 -4.304 -10.114 10.59 -5.195 -8.275 7.343 -8.946 -9.772 11.821 0 -8.362 7.192
 
 
+0 STEP
 0 FILE s\3934 - 93088s02.dat
 0 Empty sub-part definition with no direct pieces.
 0 Name: s\3934 - 93088s02.dat
@@ -8276,6 +8300,7 @@
 5 24 -8.274 -10.168 -10.851 -7.903 -13.156 -9.921 -5.331 -13.491 -11.736 -8.359 -12.068 -6.717
 
 
+0 STEP
 0 FILE s\3934 - 93088s04.dat
 0 93088s04
 0 Name: s\3934 - 93088s04.dat
@@ -8328,6 +8353,7 @@
 5 24 -18.398 -39.015 -14.588 -19.416 -31.957 -14.57 -17.69 -33.841 -17.291 -18.578 -40.184 -13.585
 
 
+0 STEP
 0 FILE s\3934 - 93088s05.dat
 0 93088s05
 0 Name: s\3934 - 93088s05.dat
@@ -8412,6 +8438,7 @@
 5 24 9.864 -46.18 -5.931 12.032 -41.993 -8.394 12.681 -39.008 -7.825 9.053 -48.584 -7.739
 
 
+0 STEP
 0 FILE s\3934 - 93088p02s01.dat
 0 93088p02s01
 0 Name: s\3934 - 93088p02s01.dat
@@ -8977,6 +9004,7 @@
 5 24 -7.328 -42.102 -21.43 -10.947 -43.284 -18.602 -10.996 -40.863 -19.841 -5.439 -45.336 -19.861
 
 
+0 STEP
 0 FILE s\3934 - 93088p02s02.dat
 0 93088p02s02
 0 Name: s\3934 - 93088p02s02.dat
@@ -9264,6 +9292,7 @@
 5 24 8.426 -9.433 -9.589 8.131 -12.612 -8.319 5.331 -13.491 -11.736 7.159 -10.031 -4.038
 
 
+0 STEP
 0 FILE s\3934 - 4150p09s01.dat
 0 4150p09s01
 0 Name: s\3934 - 4150p09s01.dat

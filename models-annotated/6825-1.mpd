@@ -73,6 +73,7 @@
 
 
 
+0 STEP
 0 FILE 6825 - Minifig-1.ldr
 0 A white classic-space astronaut minifigure wearing a helmet and airtanks, with a smiling yellow head and seated legs.
 0 Name: 6825 - Minifig-1.ldr
@@ -106,6 +107,7 @@
 
 
 
+0 STEP
 0 FILE 6825 - Thruster-1.ldr
 0 A small engine thruster assembly made of blue mounting plates, a round grey axle plate, and four translucent red cones.
 0 Name: 6825 - Thruster-1.ldr
@@ -137,6 +139,7 @@
 
 
 
+0 STEP
 0 FILE 6825 - misc_2592+4593-1.ldr
 0 A control stick composed of a hinge base and black joystick handle.
 0 Name: 6825 - misc_2592+4593-1.ldr
@@ -157,6 +160,7 @@
 
 
 
+0 STEP
 0 FILE 6825 - flexHose-1.ldr
 0 A flexible hose assembly about 54 mm long, built from 53 linked segments with end caps.
 0 Name: 6825 - flexHose-1.ldr
@@ -311,6 +315,7 @@
 0 // ~Hose Flexible Segment Link Section (main_colour)
 1 16 83.948583 -85.991194 23.583709 0.999473 0.032448 -0.000144 0.000325 -0.005558 0.999985 0.032447 -0.999458 -0.005565 754.dat
 
+0 STEP
 0 FILE 6825 - flexHose-2.ldr
 0 A flexible hose assembly about 54 mm long, built from 53 linked segments with end caps.
 0 Name: 6825 - flexHose-2.ldr

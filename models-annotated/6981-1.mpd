@@ -10,6 +10,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 6981 - Spaceship.ldr
 1 0 143.525 21.732 -475.515 -0.382683 -0.343099 -0.857809 0 0.928486 -0.371368 0.92388 -0.142116 -0.355316 6981 - Vehicle + Minifig.ldr
 
+0 STEP
 0 FILE 6981 - Vehicle.ldr
 0 A small wheeled ground vehicle built from black and white plates with four white-rimmed tyres, a sloped nose, grille tile, and a control-patterned dashboard.
 0 Name: 6981 - Vehicle.ldr
@@ -62,6 +63,7 @@
 0 // Tile  1 x  2 with Red & Yellow Controls Pattern (white)
 1 15 0 -24 20 -1 0 0 0 1 0 0 0 -1 3069bp68.dat
 
+0 STEP
 0 FILE 6981 - Vehicle + Minifig.ldr
 0 The wheeled ground vehicle paired with a space-suited minifigure.
 0 Name: 6981 - Vehicle + Minifig.ldr
@@ -74,6 +76,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 6981 - Vehicle.ldr
 1 0 0 -53 58 1 0 0 0 1 0 0 0 1 6981 - Minifig 1.ldr
 
+0 STEP
 0 FILE 6981 - Spaceship.ldr
 0 The assembled spacecraft combining the main hull and detachable pods.
 0 Name: 6981 - Spaceship.ldr
@@ -85,6 +88,7 @@
 1 0 -200 -8 -120 1 0 0 0 1 0 0 0 1 6981 - Spaceship - Pod.ldr
 1 0 200 -8 -120 1 0 0 0 1 0 0 0 1 6981 - Spaceship - Pod + Minifig.ldr
 
+0 STEP
 0 FILE 6981 - Spaceship - Pod.ldr
 0 A detachable escape pod with a white and black body, twin octagonal neon-green canopies, hinged panels, tail fins, and grille detailing.
 0 Name: 6981 - Spaceship - Pod.ldr
@@ -144,6 +148,7 @@
 0 // Windscreen  6 x  6 Octagonal Canopy without Axlehole (trans_neon_green)
 1 42 -68 -52 -40 0 1 0 -1 0 0 0 0 1 2418a.dat
 
+0 STEP
 0 FILE 6981 - Spaceship - Pod - Cockpit.ldr
 0 A hinged cockpit module for the pod featuring a tall neon-green panel, round axle plate, and a tool holder.
 0 Name: 6981 - Spaceship - Pod - Cockpit.ldr
@@ -170,6 +175,7 @@
 0 // Plate  1 x  1 Round (white)
 1 15 20 144 -10 0 0 -1 0 1 0 1 0 0 6141.dat
 
+0 STEP
 0 FILE 6981 - Spaceship - Pod + Minifig.ldr
 0 The detachable escape pod paired with a space-suited minifigure.
 0 Name: 6981 - Spaceship - Pod + Minifig.ldr
@@ -182,6 +188,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 6981 - Spaceship - Pod.ldr
 1 0 0 -53 -32 1 0 0 0 1 0 0 0 1 6981 - Minifig 2.ldr
 
+0 STEP
 0 FILE 6981 - Spaceship - Main.ldr
 0 The large main fuselage built on a 6x8 plate with extended wings, long bricks, and multiple structural plates in black and white.
 0 Name: 6981 - Spaceship - Main.ldr
@@ -402,6 +409,7 @@
 0 // Plate  1 x 10 (black)
 1 0 0 -104 50 -1 0 0 0 1 0 0 0 -1 4477.dat
 
+0 STEP
 0 FILE 6981 - Spaceship - Main - Ramp.ldr
 0 A long deployable loading ramp made of black plates and grooved tiles that can carry the ground vehicle.
 0 Name: 6981 - Spaceship - Main - Ramp.ldr
@@ -444,6 +452,7 @@
 0 // Tile  1 x  4 with Groove (black)
 1 0 -30 -16 -120 0 0 1 0 1 0 -1 0 0 2431.dat
 
+0 STEP
 0 FILE 6981 - Spaceship - Main - Ramp + Vehicle.ldr
 0 The loading ramp assembly stowing the wheeled ground vehicle.
 0 Name: 6981 - Spaceship - Main - Ramp + Vehicle.ldr
@@ -456,6 +465,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 6981 - Spaceship - Main - Ramp.ldr
 1 0 0 -43.922 -136.991 1 0 0 0 0.965926 -0.258819 0 0.258819 0.965926 6981 - Vehicle.ldr
 
+0 STEP
 0 FILE 6981 - Spaceship - Main - Cockpit.ldr
 0 The main ship's cockpit featuring a large Blacktron II logo canopy, hinged mounting plates, and a framework of black and white plates.
 0 Name: 6981 - Spaceship - Main - Cockpit.ldr
@@ -499,6 +509,7 @@
 1 0 -200 248 0 0 0 -1 0 1 0 1 0 0 3460.dat
 1 0 -106.597 -5.554 10 0 0.589196 0.80799 0 0.80799 -0.589196 -1 0 0 6981 - Spaceship - Main - Cockpit - Antenna.ldr
 
+0 STEP
 0 FILE 6981 - Spaceship - Main - Cockpit - Antenna.ldr
 0 A hinged antenna mount built from hinge plates and a pin-topped tile.
 0 Name: 6981 - Spaceship - Main - Cockpit - Antenna.ldr
@@ -516,6 +527,7 @@
 1 0 10 -8 0 0 0 -1 0 1 0 1 0 0 2460.dat
 1 0 10 -26 0 0.92388 0 -0.382683 0 1 0 0.382683 0 0.92388 6981 - Spaceship - Main - Cockpit - Antenna - Radar.ldr
 
+0 STEP
 0 FILE 6981 - Spaceship - Main - Cockpit - Antenna - Radar.ldr
 0 A rotating radar array with a large inverted webbed dish, neon-green light elements, and an extension arm.
 0 Name: 6981 - Spaceship - Main - Cockpit - Antenna - Radar.ldr
@@ -544,6 +556,7 @@
 0 // Bar  1 x  4 x  2 with Studs (black)
 1 0 0 -22 -12 1 0 0 0 0 -1 0 1 0 4083.dat
 
+0 STEP
 0 FILE 6981 - Minifig 1.ldr
 0 A Blacktron II minifigure in a white torso and legs with black arms, helmet, and a twin-nozzle jet-pack.
 0 Name: 6981 - Minifig 1.ldr
@@ -575,6 +588,7 @@
 0 // Minifig Jet-Pack with 2 Octagonal Nozzles (Needs Work) (white)
 1 15 0 3.648 17.548 1 0 0 0 0.91706 0.398749 0 -0.398749 0.91706 6023.dat
 
+0 STEP
 0 FILE 6981 - Minifig 1 - Helmet.ldr
 0 A standard black space helmet with a neon-green visor.
 0 Name: 6981 - Minifig 1 - Helmet.ldr
@@ -589,6 +603,7 @@
 0 // ~Minifig Helmet Visor Standard (Obsolete) (trans_neon_green)
 1 42 0 0 0 1 0 0 0 1 0 0 0 1 2447.dat
 
+0 STEP
 0 FILE 6981 - Minifig 2.ldr
 0 A Blacktron II minifigure in a white torso and legs with black arms, helmet, and an airtank backpack.
 0 Name: 6981 - Minifig 2.ldr
@@ -620,6 +635,7 @@
 0 // Minifig Airtanks (black)
 1 0 0 0.282 4.982 1 0 0 0 0.993572 0.113203 0 -0.113203 0.993572 3838.dat
 
+0 STEP
 0 FILE 6981 - Minifig 2 - Helmet.ldr
 0 A standard black space helmet with a neon-green visor.
 0 Name: 6981 - Minifig 2 - Helmet.ldr

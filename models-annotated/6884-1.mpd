@@ -12,6 +12,7 @@
 1 0 -115.487 0 29.301 -0.382683 0 0.92388 0 1 0 -0.92388 0 -0.382683 6884 - Droid.ldr
 
 
+0 STEP
 0 FILE 6884 - Vehicle.ldr
 0 A compact wheeled rover built from a white plate base, four white wheel rims with rubber tyres, and a console tile for a dashboard.
 0 Name: 6884 - Vehicle.ldr
@@ -47,6 +48,7 @@
 1 256 -30 5 0 0 0 1 0 1 0 -1 0 0 3641.dat
 
 
+0 STEP
 0 FILE 6884 - Spaceship.ldr
 0 A large spacecraft fuselage assembled from numerous white and black plates, a black cockpit canopy, and assorted structural plates and tiles.
 0 Name: 6884 - Spaceship.ldr
@@ -185,6 +187,7 @@
 1 36 -40 -14 -160 0 0 1 -1 0 0 0 -1 0 4740.dat
 
 
+0 STEP
 0 FILE 6884 - Spaceship - Wing 1.ldr
 0 A right-side wing module with a 4x8 right wing element, hinge plates for articulation, a sloped surface, and a trans-red cone tip.
 0 Name: 6884 - Spaceship - Wing 1.ldr
@@ -212,6 +215,7 @@
 1 36 -60 -30 -10 0 -1 0 0 0 -1 1 0 0 4589.dat
 
 
+0 STEP
 0 FILE 6884 - Spaceship - Wing 2.ldr
 0 A left-side wing module with a 4x8 left wing element, hinge top plates for articulation, a sloped surface, and a trans-red cone tip.
 0 Name: 6884 - Spaceship - Wing 2.ldr
@@ -239,6 +243,7 @@
 1 36 60 -30 -10 0 1 0 0 0 -1 -1 0 0 4589.dat
 
 
+0 STEP
 0 FILE 6884 - Spaceship - Cockpit.ldr
 0 A spacecraft cockpit assembly featuring a large trans-dark-blue canopy panel, hinges for opening, and white tiles with cone details.
 0 Name: 6884 - Spaceship - Cockpit.ldr
@@ -272,6 +277,7 @@
 1 0 -30 -306 170 0 0 1 0 1 0 -1 0 0 4589.dat
 
 
+0 STEP
 0 FILE 6884 - Spaceship + Minifig.ldr
 0 A combined assembly pairing the spaceship with its included astronaut minifigure.
 0 Name: 6884 - Spaceship + Minifig.ldr
@@ -285,6 +291,7 @@
 1 0 30 -61 -32 1 0 0 0 1 0 0 0 1 6884 - Minifig.ldr
 
 
+0 STEP
 0 FILE 6884 - Droid.ldr
 0 The base of a small droid consisting of a blue hinge element that connects to the upper droid body.
 0 Name: 6884 - Droid.ldr
@@ -299,6 +306,7 @@
 1 1 0 10 0 1 0 0 0 0.984808 -0.173648 0 0.173648 0.984808 6884 - Droid - Top.ldr
 
 
+0 STEP
 0 FILE 6884 - Droid - Top.ldr
 0 The upper body of a small blue droid with a console tile, a round hollow-stud brick, and two bar-and-clip round bricks for a mechanical appearance.
 0 Name: 6884 - Droid - Top.ldr
@@ -320,6 +328,7 @@
 1 1 0 -72.559 -14.225 1 0 0 0 0.928031 -0.372502 0 0.372502 0.928031 3062b.dat
 
 
+0 STEP
 0 FILE 6884 - Minifig.ldr
 0 A white-torsoed Futuron astronaut minifigure with blue air tanks, blue arms and legs, and a smiling yellow head.
 0 Name: 6884 - Minifig.ldr
@@ -352,6 +361,7 @@
 1 1 0 44 0 1 0 0 0 0 1 0 -1 0 3817.dat
 
 
+0 STEP
 0 FILE 6884 - Minifig - Helmet.ldr
 0 A blue space helmet with a trans-dark-blue visor for the astronaut minifigure.
 0 Name: 6884 - Minifig - Helmet.ldr

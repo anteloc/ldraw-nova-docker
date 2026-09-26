@@ -12,6 +12,7 @@
 1 25 90 16 60 1 0 0 0 1 0 0 0 1 31027 - Cone.ldr
 
 
+0 STEP
 0 FILE 31027 - Racecar.ldr
 0 A compact blue racecar chassis built from plates, brackets, curved slopes, silver grille tiles, and red light pieces.
 0 Name: 31027 - Racecar.ldr
@@ -81,6 +82,7 @@
 1 71 -40 5 -40 0 0 1 0 1 0 -1 0 0 31027 - Wheel.ldr
 1 71 -40 5 40 0 0 1 0 1 0 -1 0 0 31027 - Wheel.ldr
 
+0 STEP
 0 FILE 31027 - Wheel.ldr
 0 A single wheel assembly consisting of a light bluish grey rim and a black tyre.
 0 Name: 31027 - Wheel.ldr
@@ -92,6 +94,7 @@
 0 // Tyre  6/ 30 x 11 (black)
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 50951.dat
 
+0 STEP
 0 FILE 31027 - Cone.ldr
 0 A small orange traffic cone made from a cone piece mounted on a white plate.
 0 Name: 31027 - Cone.ldr

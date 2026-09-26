@@ -34,6 +34,7 @@
 
 
 
+0 STEP
 0 FILE 10159 - building.ldr
 0 Airport terminal and control-tower building on a green baseplate: multi-storey with windows and red shutters, glazed curved control-tower panels, a digital clock, seats, a computer/keyboard, lockers with sticker doors, luggage containers, airport-logo and schedule stickers, direction signs, flower beds and a palm tree
 0 Name: 10159 - building.ldr
@@ -446,6 +447,7 @@
 
 
 
+0 STEP
 0 FILE 10159 - runway.ldr
 0 Airport runway and taxiway assembled from road baseplates (crossroads, T-junction and straights with runway markings) joined by green plates, lined with coloured runway lights (white, clear, yellow, red, blue round plates), a striped wind cone and a signal-baton holder
 0 Name: 10159 - runway.ldr
@@ -623,6 +625,7 @@
 
 
 
+0 STEP
 0 FILE 10159 - radar.ldr
 0 Airport radar unit: a red base of two 45-degree slope bricks on a turntable plate, topped by the tilting radar antenna submodel
 0 Name: 10159 - radar.ldr
@@ -643,6 +646,7 @@
 
 
 
+0 STEP
 0 FILE 10159 - radar - top.ldr
 0 Tilting radar antenna array: a turntable top with a hinged plate arm mounting a grid of black grille tiles
 0 Name: 10159 - radar - top.ldr
@@ -676,6 +680,7 @@
 
 
 
+0 STEP
 0 FILE 10159 - airplane.ldr
 0 Passenger airplane with a red and white fuselage, swept white wings with blue stripes and twin jet engines, a glazed cockpit windscreen and a row of passenger windows, red tail surfaces and a tail plane, wheeled landing gear and red/green navigation lights
 0 Name: 10159 - airplane.ldr
@@ -930,6 +935,7 @@
 
 
 
+0 STEP
 0 FILE 10159 - helicopter.ldr
 0 Helicopter with a black and yellow body, a 4-blade main rotor and 3-blade tail rotor on hinged arms, a glazed canopy windscreen, landing skids, dual control sticks and a long tail boom
 0 Name: 10159 - helicopter.ldr
@@ -1039,6 +1045,7 @@
 
 
 
+0 STEP
 0 FILE 10159 - baggage car.ldr
 0 Red baggage-towing tractor with a black chassis, mudguards and side panels, four wheeled rims with offset-tread tyres, a towball hitch socket, a steering wheel and a rear handle
 0 Name: 10159 - baggage car.ldr
@@ -1110,6 +1117,7 @@
 
 
 
+0 STEP
 0 FILE 10159 - baggage trailer.ldr
 0 Red baggage trailer with panelled sides, a mudguard, two wheels with tyres, a towball coupling, corner plates and a trans-yellow light
 0 Name: 10159 - baggage trailer.ldr
@@ -1167,6 +1175,7 @@
 
 
 
+0 STEP
 0 FILE 10159 - minifig 1.ldr
 0 Male passenger minifig in a blue suit-and-tie torso with black hair, carrying a white suitcase
 0 Name: 10159 - minifig 1.ldr
@@ -1203,6 +1212,7 @@
 
 
 
+0 STEP
 0 FILE 10159 - minifig 2.ldr
 0 Female passenger minifig in a white torso with red necklace and blue undershirt, with shoulder-length brown hair
 0 Name: 10159 - minifig 2.ldr
@@ -1236,6 +1246,7 @@
 
 
 
+0 STEP
 0 FILE 10159 - minifig 3.ldr
 0 Police officer minifig in a black uniform with a black police hat and a torso patterned with buttons and a police badge
 0 Name: 10159 - minifig 3.ldr
@@ -1269,6 +1280,7 @@
 
 
 
+0 STEP
 0 FILE 10159 - minifig 4.ldr
 0 Airport worker minifig in a white torso with an airplane logo, wearing a blue cap with a flat peak
 0 Name: 10159 - minifig 4.ldr
@@ -1302,6 +1314,7 @@
 
 
 
+0 STEP
 0 FILE 10159 - minifig 5.ldr
 0 Pilot/crew minifig in a blue zip-up jacket torso, wearing a blue helmet with a trans-light-blue visor
 0 Name: 10159 - minifig 5.ldr
@@ -1337,6 +1350,7 @@
 
 
 
+0 STEP
 0 FILE 10159 - minifig 6.ldr
 0 Ground-crew marshaller minifig in a white torso with an airplane logo, black hair, holding two signal batons
 0 Name: 10159 - minifig 6.ldr
@@ -1372,6 +1386,7 @@
 
 
 
+0 STEP
 0 FILE 10159 - minifig 7.ldr
 0 Security officer minifig in a black six-button suit torso with airplane pattern, wearing a black police hat
 0 Name: 10159 - minifig 7.ldr
@@ -1405,6 +1420,7 @@
 
 
 
+0 STEP
 0 FILE 10159 - 3596s99.dat
 0 Flag on Flagpole with Airport Logo sticker
 0 Name: 10159 - 3596s99.dat
@@ -2090,6 +2106,7 @@
 
 
 
+0 STEP
 0 FILE 10159 - 4867px3.dat
 0 Tail Plane with Airplane pattern
 0 Name: 10159 - 4867px3.dat
@@ -2360,6 +2377,7 @@
 
 
 
+0 STEP
 0 FILE 10159 - 163155a.dat
 0 Sticker Sheet Town Airport Logos, Schedules - Schedule
 0 Name: 10159 - 163155a.dat
@@ -8736,6 +8754,7 @@
 
 
 
+0 STEP
 0 FILE 10159 - 163155b.dat
 0 Sticker Sheet Town Airport Logos - Logo
 0 Name: 10159 - 163155b.dat
@@ -8839,6 +8858,7 @@
 
 
 
+0 STEP
 0 FILE 10159 - 163156a.dat
 0 Sticker Sheet Town Airport Direction Signs, Lockers - 101 lock
 0 Name: 10159 - 163156a.dat
@@ -9301,6 +9321,7 @@
 
 
 
+0 STEP
 0 FILE 10159 - 163156b.dat
 0 Sticker Sheet Town Airport Direction Signs, Lockers - 102 lock
 0 Name: 10159 - 163156b.dat
@@ -9864,6 +9885,7 @@
 
 
 
+0 STEP
 0 FILE 10159 - 163156c.dat
 0 Sticker Sheet Town Airport Direction Signs, Lockers - Left Direction
 0 Name: 10159 - 163156c.dat
@@ -10062,6 +10084,7 @@
 
 
 
+0 STEP
 0 FILE 10159 - 163156d.dat
 0 Sticker Sheet Town Airport Direction Signs, Lockers - Right Direction
 0 Name: 10159 - 163156d.dat

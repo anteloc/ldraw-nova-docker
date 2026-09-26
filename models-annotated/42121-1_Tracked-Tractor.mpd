@@ -11,6 +11,7 @@
 
 
 
+0 STEP
 0 FILE 42121 - chassisbase.ldr
 0 Longitudinal chassis base frame built from yellow and grey liftarms joined by pins.
 0 Name: 42121 - chassisbase.ldr
@@ -64,6 +65,7 @@
 1 19 0 0 0 0 1 0 1 0 0 0 0 -1 32556.dat
 
 
+0 STEP
 0 FILE 42121 - transmission.ldr
 0 Geared transmission linkage with bevel gears, axles, and a linear actuator mount.
 0 Name: 42121 - transmission.ldr
@@ -105,6 +107,7 @@
 1 71 60 20 -60 0 0 1 0 1 0 -1 0 0 26287.dat
 
 
+0 STEP
 0 FILE 42121 - chassis2.ldr
 0 Chassis support section using a bent yellow liftarm and connector block mounted with pins.
 0 Name: 42121 - chassis2.ldr
@@ -133,6 +136,7 @@
 1 1 -40 0 20 -1 0 0 0 1 0 0 0 -1 42121 - 42924.dat
 
 
+0 STEP
 0 FILE 42121 - chassis3.ldr
 0 Angled chassis strut assembly composed of various bent liftarms, an axle, and connector blocks.
 0 Name: 42121 - chassis3.ldr
@@ -166,6 +170,7 @@
 1 0 -50 160 -160 -1 0 0 0 0 -1 0 -1 0 6536.dat
 
 
+0 STEP
 0 FILE 42121 - arm.ldr
 0 Loader arm assembly with a linear actuator, universal joints, and bent liftarms for articulation.
 0 Name: 42121 - arm.ldr
@@ -208,6 +213,7 @@
 1 71 0 -111.322 -60.089 1 0 0 0 -0.092 0.995 0 -0.995 -0.092 62519.dat
 
 
+0 STEP
 0 FILE 42121 - chassis4.ldr
 0 Rear chassis frame section built from long dark bluish grey liftarms connected by pins and a cross block.
 0 Name: 42121 - chassis4.ldr
@@ -239,6 +245,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42121 - seat.ldr
 0 Operator seat made from red plates, a curved slope, and locking hinge elements.
 0 Name: 42121 - seat.ldr
@@ -270,6 +277,7 @@
 1 4 0 20 -28 0 0 -1 0 -1 0 -1 0 0 32062.dat
 
 
+0 STEP
 0 FILE 42121 - side1.ldr
 0 Side panel assembly using triangular and bent liftarms fastened with pins.
 0 Name: 42121 - side1.ldr
@@ -300,6 +308,7 @@
 1 71 85 -20 0 1 0 0 0 0 -1 0 1 0 32054.dat
 
 
+0 STEP
 0 FILE 42121 - roof.ldr
 0 Cab roof structure built around a connector block and a yellow beam supported by pins.
 0 Name: 42121 - roof.ldr
@@ -333,6 +342,7 @@
 1 0 50 0 0 1 0 0 0 -1 0 0 0 -1 2780.dat
 
 
+0 STEP
 0 FILE 42121 - windscreen.ldr
 0 Windscreen frame supporting a transparent bent panel between yellow beams and pins.
 0 Name: 42121 - windscreen.ldr
@@ -362,6 +372,7 @@
 1 0 50 0 0 1 0 0 0 1 0 0 0 1 2780.dat
 
 
+0 STEP
 0 FILE 42121 - chassisside1.ldr
 0 Left chassis side panel with a beam, quarter-ellipse liftarms, and a grille slope detail.
 0 Name: 42121 - chassisside1.ldr
@@ -394,6 +405,7 @@
 1 0 10 0 -10 0 -1 0 1 0 0 0 0 1 61409.dat
 
 
+0 STEP
 0 FILE 42121 - chassisside1b.ldr
 0 Left chassis side extension using a beam, cross block, and angled connector pins.
 0 Name: 42121 - chassisside1b.ldr
@@ -420,6 +432,7 @@
 1 19 10 -20 -20 -1 0 0 0 -1 0 0 0 1 32002.dat
 
 
+0 STEP
 0 FILE 42121 - chassisside1c.ldr
 0 Left chassis side detail with a fairing panel, angle connector, and yellow beam.
 0 Name: 42121 - chassisside1c.ldr
@@ -444,6 +457,7 @@
 1 4 -20 -40 20 0 0 -1 1 0 0 0 -1 0 11214.dat
 
 
+0 STEP
 0 FILE 42121 - chassisside2.ldr
 0 Right chassis side panel with a beam, quarter-ellipse liftarms, and a grille slope detail.
 0 Name: 42121 - chassisside2.ldr
@@ -478,6 +492,7 @@
 1 1 10 -40 -20 1 0 0 0 -1 0 0 0 -1 43093.dat
 
 
+0 STEP
 0 FILE 42121 - chassisside2b.ldr
 0 Right chassis side extension using a beam, cross block, and axle pins.
 0 Name: 42121 - chassisside2b.ldr
@@ -502,6 +517,7 @@
 1 71 -20 -20 -20 0 1 0 -1 0 0 0 0 1 42121 - 44874.dat
 
 
+0 STEP
 0 FILE 42121 - ladder.ldr
 0 Access ladder built from angle connectors, yellow liftarm rungs, and axle pins.
 0 Name: 42121 - ladder.ldr
@@ -533,6 +549,7 @@
 1 4 -40 0 -20 1 0 0 0 0 1 0 -1 0 11214.dat
 
 
+0 STEP
 0 FILE 42121 - hood.ldr
 0 Front hood assembly built from a white beam and bent liftarms with a grille slope detail.
 0 Name: 42121 - hood.ldr
@@ -575,6 +592,7 @@
 1 1 40 60 -60 -1 0 0 0 0 1 0 1 0 42121 - 42924.dat
 
 
+0 STEP
 0 FILE 42121 - linac.ldr
 0 Linear actuator unit comprising a body, piston, axle actuator, gear, and bushing.
 0 Name: 42121 - linac.ldr
@@ -599,6 +617,7 @@
 1 0 -50 0 -120 -1 0 0 0 1 0 0 0 -1 32270.dat
 
 
+0 STEP
 0 FILE 42121 - arm2.ldr
 0 Loader bucket arm assembly with an excavator bucket attached to bent liftarms.
 0 Name: 42121 - arm2.ldr
@@ -629,6 +648,7 @@
 1 71 0 -3.331 -147.475 1 0 0 0 0.981 -0.195 0 0.195 0.981 4519.dat
 
 
+0 STEP
 0 FILE 42121 - track1.ldr
 0 Track drive wheel assembly with gears, angled connectors, and liftarm supports.
 0 Name: 42121 - track1.ldr
@@ -692,6 +712,7 @@
 1 0 -140 0 60 0 0 -1 0 1 0 1 0 0 32034.dat
 
 
+0 STEP
 0 FILE 42121 - technicChainTread17Closed-1.ldr
 0 Closed track loop of 21 chain tread segments forming one crawler tread.
 0 Name: 42121 - technicChainTread17Closed-1.ldr
@@ -765,6 +786,7 @@
 1 16 -21.932236 0.356236 0 0 0.926075 0.377339 0 -0.377339 0.926075 1 0 0 3873.dat
 
 
+0 STEP
 0 FILE 42121 - track3.ldr
 0 Track drive unit with 8-tooth gears, beams, and split cross blocks supporting the tread.
 0 Name: 42121 - track3.ldr
@@ -819,6 +841,7 @@
 1 0 -20 0 40 0 0 -1 0 -1 0 -1 0 0 42121 - technicChainTread17Closed-2.ldr
 
 
+0 STEP
 0 FILE 42121 - technicChainTread17Closed-2.ldr
 0 Closed track loop of 22 chain tread segments forming one crawler tread.
 0 Name: 42121 - technicChainTread17Closed-2.ldr
@@ -893,6 +916,7 @@
 1 16 -15.855919 -2.063986 0 0 0.933172 0.35943 0 -0.35943 0.933172 1 0 0 3873.dat
 
 
+0 STEP
 0 FILE 42121 - track4.ldr
 0 Track drive unit with 8-tooth gears, beams, and split cross blocks supporting the tread.
 0 Name: 42121 - track4.ldr
@@ -947,6 +971,7 @@
 1 0 -20 0 40 0 0 -1 0 -1 0 -1 0 0 42121 - technicChainTread17Closed-2.ldr
 
 
+0 STEP
 0 FILE 42121 - track2.ldr
 0 track2
 0 Name: 42121 - track2.ldr
@@ -1004,6 +1029,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42121 - exhaust.ldr
 0 exhaust
 0 Name: 42121 - exhaust.ldr
@@ -1030,6 +1056,7 @@
 1 71 -20 -110 0 0 0 -1 -1 0 0 0 1 0 4274.dat
 
 
+0 STEP
 0 FILE 42121 - roof2.ldr
 0 roof2
 0 Name: 42121 - roof2.ldr
@@ -1058,6 +1085,7 @@
 1 14 40 8 -40 1 0 0 0 1 0 0 0 1 15068.dat
 
 
+0 STEP
 0 FILE 42121 - cone.ldr
 0 cone
 0 Name: 42121 - cone.ldr
@@ -1074,6 +1102,7 @@
 1 4 0 -32 0 1 0 0 0 1 0 0 0 1 59900.dat
 
 
+0 STEP
 0 FILE 42121 - tractor.ldr
 0 tractor
 0 Name: 42121 - tractor.ldr
@@ -1455,6 +1484,7 @@
 1 14 -10 -218 -60 1 0 0 0 1 0 0 0 1 42121 - roof2.ldr
 
 
+0 STEP
 0 FILE 42121 - 44874.dat
 0 44874
 0 Name: 42121 - 44874.dat
@@ -1482,6 +1512,7 @@
 2 24 -10 2.4 3 -10 2.4 -3
 2 24 -10 -2.4 3 -10 -2.4 -3
 
+0 STEP
 0 FILE 42121 - 42924.dat
 0 42924
 0 Name: 42121 - 42924.dat
@@ -1609,6 +1640,7 @@
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 4 60] [center=true] [slide=true]
 0 !LDCAD MIRROR_INFO [baseFlip=Z] [counterPart=self]
 
+0 STEP
 0 FILE 42121 - 65487.dat
 0 65487
 0 Name: 42121 - 65487.dat
@@ -1628,6 +1660,7 @@
 2 24 10 2.4 3 10 2.4 -3
 2 24 10 -2.4 3 10 -2.4 -3
 
+0 STEP
 0 FILE 42121 - 62462.dat
 0 62462
 0 Name: 42121 - 62462.dat
@@ -1716,6 +1749,7 @@
 0 !LDCAD SNAP_CLEAR 
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 8 2   R 6 16   R 8 4   R 6 16   R 8 2] [center=true] [slide=true]
 
+0 STEP
 0 FILE 42121 - 32526.dat
 0 32526
 0 Name: 42121 - 32526.dat
@@ -1744,6 +1778,7 @@
 0 !LDCAD SNAP_INCL [ref=connhole.dat]
 0 !LDCAD MIRROR_INFO [baseFlip=Y]
 
+0 STEP
 0 FILE 42121 - 60483.dat
 0 60483
 0 Name: 42121 - 60483.dat
@@ -1761,6 +1796,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\42121 - 60483s01.dat
 4 16 9 10 0 9 10 20 9 -10 20 9 -10 0
 
+0 STEP
 0 FILE 42121 - 44567b.dat
 0 44567b
 0 Name: 42121 - 44567b.dat
@@ -1790,6 +1826,7 @@
 4 16 -20 8 -10 -9 5.444 -10 -9 0 -10 -20 0 -10
 4 16 9 0 -10 9 5.444 -10 20 8 -10 20 0 -10
 
+0 STEP
 0 FILE 42121 - 32523.dat
 0 32523
 0 Name: 42121 - 32523.dat
@@ -1810,6 +1847,7 @@
 
 0 !LDCAD SNAP_INCL [ref=connhole.dat]
 
+0 STEP
 0 FILE 42121 - 71708.dat
 0 71708
 0 Name: 42121 - 71708.dat
@@ -1947,6 +1985,7 @@
 5 24 16.646999 10 31.788 16.646999 2 31.788 12 10 37 21.121 10 24.096001
 5 24 12 10 37 12 2 37 9 10 40 16.646999 10 31.788
 
+0 STEP
 0 FILE 42121 - 65304.dat
 0 65304
 0 Name: 42121 - 65304.dat
@@ -2075,6 +2114,7 @@
 5 24 -13 -8.3151 -3.4443 -14.125 -6.2363 -2.5832 -14 -7 0 -13 -6.3639 -6.3639
 5 24 -13 -8.3151 -3.4443 -14 -7 0 -13 -8.3151 3.4443 -14.125 -6.2363 -2.5832
 
+0 STEP
 0 FILE 42121 - 3023.dat
 0 3023
 0 Name: 42121 - 3023.dat
@@ -2099,6 +2139,7 @@
 
 0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=S 6 4] [grid=C 2 1 20 0]
 
+0 STEP
 0 FILE 42121 - 18575.dat
 0 18575
 0 Name: 42121 - 18575.dat
@@ -2221,6 +2262,7 @@
 0 // Rectangle with 3 Edges (main_colour)
 1 16 1.5 5.7018 0 0 0 0.5 0 1 -0.0998 -10 0 0 rect3.dat
 
+0 STEP
 0 FILE 42121 - 65489.dat
 0 65489
 0 Name: 42121 - 65489.dat
@@ -2272,6 +2314,7 @@
 1 16 0 -20 -10 -2.82843 0 -2.82843 -2.82843 0 2.82843 0 1 0 1-4edge.dat
 2 24 2.8284 -17.1716 -10 -2.8284 -17.1716 -10
 
+0 STEP
 0 FILE 42121 - connectcollar3.dat
 0 connectcollar3
 0 Name: 42121 - connectcollar3.dat
@@ -2353,6 +2396,7 @@
 0 // Rectangle with 3 Edges (main_colour)
 1 16 -4.3146 4.5 1 1.4865 0 0 0 0 -4.5 0 1 0 rect3.dat
 
+0 STEP
 0 FILE 42121 - confricrib1.dat
 0 confricrib1
 0 Name: 42121 - confricrib1.dat
@@ -2389,6 +2433,7 @@
 5 24 4.698 -3.7 3.5666 4.773 -3.7 4.0659 4.5259 -4 3.8188 4.698 0 3.5666
 5 24 4.773 -3.7 4.0659 4.773 0 4.0659 4.698 -3.7 3.5666 4.0659 0 4.773
 
+0 STEP
 0 FILE 42121 - confricrib2.dat
 0 confricrib2
 0 Name: 42121 - confricrib2.dat
@@ -2471,6 +2516,7 @@
 5 24 5.844 -3.7 0.8 6.25 -3.7 0.5 5.9006 -4 0.5 5.844 0 0.8
 5 24 6.25 -3.7 0.5 6.25 0 0.5 5.844 -3.7 0.8 6.25 0 -0.5
 
+0 STEP
 0 FILE 42121 - connectslit1.dat
 0 connectslit1
 0 Name: 42121 - connectslit1.dat
@@ -2499,6 +2545,7 @@
 1 16 4.801 0 1 0 0 1 8 0 0 0 1 0 rect2p.dat
 5 24 5.5433 9 2.2961 5.5434 -9 2.2962 4.2426 -9 4.2426 5.801 -9 1
 
+0 STEP
 0 FILE 42121 - confricrib3.dat
 0 confricrib3
 0 Name: 42121 - confricrib3.dat
@@ -2548,6 +2595,7 @@
 5 24 4.773 5.7 4.0659 4.0659 5.7 4.773 4.2426 6 4.2426 4.773 -5.7 4.0659
 5 24 4.0659 5.7 4.773 3.5666 5.7 4.698 3.8188 6 4.5259 4.0659 -5.7 4.773
 
+0 STEP
 0 FILE 42121 - confricrib4.dat
 0 confricrib4
 0 Name: 42121 - confricrib4.dat
@@ -2610,6 +2658,7 @@
 2 24 6.0748 -1.1 0.6294 5.844 -1.9863 0.8
 2 24 6.0748 1.1 0.6294 6.1475 0 0.5757
 
+0 STEP
 0 FILE s\42121 - 32523s01.dat
 0 32523s01
 0 Name: s\42121 - 32523s01.dat
@@ -2645,6 +2694,7 @@
 0 // Rectangle with 2 Parallel Edges (main_colour)
 1 16 -9 0 0 0 1 0 0 0 10 20 0 0 rect2p.dat
 
+0 STEP
 0 FILE 42121 - confric11.dat
 0 A friction pin component with cylinders, rings, and ribs forming a ridged connector body.
 0 Name: 42121 - confric11.dat
@@ -3009,6 +3059,7 @@
 5 24 -3.558 -5.7 5.1627 -3.558 -2 5.1627 -3.6153 -5.7 4.6618 -2.692 -2 5.6627
 5 24 -2.692 -5.7 5.6627 -2.5337 -6 5.3847 -3.558 -5.7 5.1627 -2.2962 -5.7 5.5434
 
+0 STEP
 0 FILE s\42121 - 87082s01.dat
 0 A subassembly with a central cylinder and four sloped sides forming a tapered connector.
 0 Name: s\42121 - 87082s01.dat
@@ -3055,6 +3106,7 @@
 2 24 -4.827 -3.062 -7.391 -3.916 0 -8
 4 16 -10 3 4 -10 3 -4 -10 -3 -4 -10 -3 4
 
+0 STEP
 0 FILE s\42121 - 15100s01.dat
 0 A Technic connector with a long hole, cylinders, and sloped end caps.
 0 Name: s\42121 - 15100s01.dat
@@ -3109,6 +3161,7 @@
 2 24 4.827 -3.062 7.391 3.916 0 8
 4 16 10 -3 -4 10 3 -4 10 3 4 10 -3 4
 
+0 STEP
 0 FILE s\42121 - 32269s01.dat
 0 A rectangular beam-like part composed of flat rectangle panels with defined edges.
 0 Name: s\42121 - 32269s01.dat
@@ -3198,6 +3251,7 @@
 3 16 18.258699 2.4034 -10 17.789101 4.7663 -10 19.3403 4.9066 -10
 3 16 15.3375 12.7626 -10 14.6121 11.2123 -10 13.0227 13.0227 -10
 
+0 STEP
 0 FILE s\42121 - 32269s02.dat
 0 A detailed rectangular connector with a central cylindrical hole and multiple edge-defined panels.
 0 Name: s\42121 - 32269s02.dat
@@ -3269,6 +3323,7 @@
 4 16 11.998 -1 -10 11.998 1 -10 16.934099 1 -10 16.934099 -1 -10
 3 16 17 0 -10 16.934099 -1 -10 16.934099 1 -10
 
+0 STEP
 0 FILE s\42121 - 60483s01.dat
 0 A Technic beam connector with axle and peg holes plus cylindrical reinforcements.
 0 Name: s\42121 - 60483s01.dat
@@ -3307,6 +3362,7 @@
 2 24 9 -10 20 9 -10 0
 2 24 9 10 20 9 10 0
 
+0 STEP
 0 FILE s\42121 - 32526s01.dat
 0 A multi-hole Technic beam with three connector holes, beam holes, and peg holes along its length.
 0 Name: s\42121 - 32526s01.dat
@@ -3387,6 +3443,7 @@
 2 24 40 -10 89 0 -10 89
 2 24 0 10 89 40 10 89
 
+0 STEP
 0 FILE 42121 - confric3.dat
 0 A friction pin with ribs, stop rings, and collars forming a long Technic pin with grip features.
 0 Name: 42121 - confric3.dat
@@ -3466,6 +3523,7 @@
 0 // Cylinder 1.0 (main_colour)
 1 16 0 -2 0 8 0 0 0 2 0 0 0 -8 4-4cyli.dat
 
+0 STEP
 0 FILE 42121 - connectcollar4.dat
 0 A small cylindrical collar connector with a central hole and chord details.
 0 Name: 42121 - connectcollar4.dat
@@ -3551,6 +3609,7 @@
 0 // Rectangle with 2 Adjacent Edges (main_colour)
 1 16 -2.4 5 2 0 -1 0 0 0 -5 1 0 0 rect2a.dat
 
+0 STEP
 0 FILE 42121 - connectslit2.dat
 0 A slim cylindrical connector with a narrow slit feature.
 0 Name: 42121 - connectslit2.dat
@@ -3579,6 +3638,7 @@
 1 16 6 5 0 0 -2 -0.199 1 0 0 0 0 1 8\1-4cylo.dat
 1 16 3.9941 5 0 0 1 -0.199 1 0 0 0 0 1 8\1-4ndis.dat
 
+0 STEP
 0 FILE s\42121 - 48989s01.dat
 0 A complex Technic connector with three long holes, multiple cylinders, and box elements.
 0 Name: s\42121 - 48989s01.dat
@@ -3778,6 +3838,7 @@
 1 16 -6.6856 0 0 0 -1.5 0 0 0 5 6.3639 0 0 box3u4a.dat
 2 24 -6.6856 5 6.3639 -6.6856 5 -6.3639
 
+0 STEP
 0 FILE 42121 - connect7.dat
 0 A cylindrical connector with concentric rings, ribs, and edge details forming a multi-section joint.
 0 Name: 42121 - connect7.dat
@@ -4048,6 +4109,7 @@
 
 0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=R 8 2   R 6 16   _L 6.25 2]
 
+0 STEP
 0 FILE 42121 - npeghol3.dat
 0 A small non-peg hole connector with a cylindrical opening and rectangular panels.
 0 Name: 42121 - npeghol3.dat
@@ -4093,6 +4155,7 @@
 0 // Box with  2 Faces without  7 Edges (main_colour)
 1 16 2.7222 0.5 -3.041 0 -0.72215 0 0.5 0 0 0 0.14395 1.5 box2-7.dat
 
+0 STEP
 0 FILE 42121 - clh6.dat
 0 A curved clip-hand component with sloped surfaces, cones, and cylindrical sections forming a flexible hinge.
 0 Name: 42121 - clh6.dat
@@ -4390,6 +4453,7 @@
 
 0 !LDCAD SNAP_FGR [group=lckHng] [genderOfs=M] [seq=8]
 
+0 STEP
 0 FILE s\42121 - 3023s01.dat
 0 A simple box-shaped plate subpart with full face and edge geometry.
 0 Name: s\42121 - 3023s01.dat

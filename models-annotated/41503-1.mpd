@@ -14,6 +14,7 @@
 1 0 -170 60 -60 0.707 0 -0.707 0 1 0 0.707 0 0.707 41503 - Nixel.ldr
 
 
+0 STEP
 0 FILE 41503 - Body.ldr
 0 A compact torso assembly built from inverted slope bricks, socket-joint plates for limb attachment, and grooved dark bluish grey tiles mounted on a white turntable base.
 0 Name: 41503 - Body.ldr
@@ -41,6 +42,7 @@
 0 // Turntable  2 x  2 Plate Base (white)
 1 15 0 -8 0 0 0 1 0 1 0 -1 0 0 3680.dat
 
+0 STEP
 0 FILE 41503 - Leg Left.ldr
 0 A chunky left leg using a towball plate for articulation and a mix of black and pearl gold slope bricks to form an angular lower limb.
 0 Name: 41503 - Leg Left.ldr
@@ -56,6 +58,7 @@
 0 // ~Slope Brick 45  2 x  2 Inverted without Inner Stopper Ring (Obsolete) (light_bluish_grey)
 1 71 0 10 8 -1 0 0 0 0 1 0 1 0 3660.dat
 
+0 STEP
 0 FILE 41503 - Leg Right.ldr
 0 A chunky right leg using a towball plate for articulation and a mix of black and pearl gold slope bricks to form an angular lower limb.
 0 Name: 41503 - Leg Right.ldr
@@ -71,6 +74,7 @@
 0 // ~Slope Brick 45  2 x  2 Inverted without Inner Stopper Ring (Obsolete) (light_bluish_grey)
 1 71 0 10 8 -1 0 0 0 0 1 0 1 0 3660.dat
 
+0 STEP
 0 FILE 41503 - Arm Left.ldr
 0 A small left arm made from a handled plate, a clip plate, and a short slope brick to form a simple bent limb.
 0 Name: 41503 - Arm Left.ldr
@@ -84,6 +88,7 @@
 0 // Slope Brick 31  1 x  1 x  0.667 (light_bluish_grey)
 1 71 -10 0 0 0 0 1 0 1 0 -1 0 0 54200.dat
 
+0 STEP
 0 FILE 41503 - Arm Right.ldr
 0 A large articulated right arm built from a hinge plate, multiple clip and handle plates, and curved-top bricks forming an extended grabbing appendage.
 0 Name: 41503 - Arm Right.ldr
@@ -117,6 +122,7 @@
 0 // Brick  2 x  1 x  1.333 with Curved Top (dark_bluish_grey)
 1 72 -68.799 -63.87 0.515 0.707 0.5 -0.5 0 0.707 0.707 0.707 -0.5 0.5 6091.dat
 
+0 STEP
 0 FILE 41503 - Head.ldr
 0 A detailed head featuring ball-jointed printed eyes, pearl gold and black slope bricks, a hinge-top jaw, and a turntable top for posable mounting.
 0 Name: 41503 - Head.ldr
@@ -174,6 +180,7 @@
 0 // Turntable  2 x  2 Plate Top (light_bluish_grey)
 1 71 0 16 10 -1 0 0 0 1 0 0 0 -1 3679.dat
 
+0 STEP
 0 FILE 41503 - Nixel.ldr
 0 A small black-and-white companion creature with an inverted slope body, clip and tooth plates, and a round printed tile face with angry eyes and sharp teeth.
 0 Name: 41503 - Nixel.ldr
@@ -197,6 +204,7 @@
 0 // Tile  2 x  2 Round with Round Underside Stud with Black Angry Eyes and Mouth and Sharp Teeth Pattern (white)
 1 15 0 -30 -16 1 0 0 0 0 -1 0 1 0 14769p04.dat
 
+0 STEP
 0 FILE 41503 - 14418.dat
 0 A plate 1 x 2 with socket joint-8 with friction used for articulating connections.
 0 Name: 41503 - 14418.dat
@@ -213,6 +221,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\41503 - 14418s01.dat
 1 16 30 4 0 0 0 -1 0 1 0 1 0 0 41503 - joint-8-socket-frica.dat
 
+0 STEP
 0 FILE 41503 - 15456.dat
 0 A plate 2 x 2 with towball and centre hole, constructed from primitives forming a spherical ball joint and socket for articulation.
 0 Name: 41503 - 15456.dat
@@ -268,6 +277,7 @@
 1 16 0 4 -40 8 0 0 0 8 0 0 0 8 8-8sphe.dat
 1 16 0 0 0 0 0 1 0 1 0 -1 0 0 stug-2x2.dat
 
+0 STEP
 0 FILE s\41503 - 14418s01.dat
 0 A subpart of the socket joint plate built from box and cylinder primitives defining the joint housing geometry.
 0 Name: s\41503 - 14418s01.dat
@@ -318,6 +328,7 @@
 1 16 0 8 0 0 0 -20 0 -8 0 10 0 0 box4-4a.dat
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 stug2-1x2.dat
 
+0 STEP
 0 FILE 41503 - joint-8-socket-frica.dat
 0 A friction socket joint-8 part composed of quartered surfaces, discs, and cut-off spheres modeling the internal friction socket mechanism.
 0 Name: 41503 - joint-8-socket-frica.dat
@@ -911,6 +922,7 @@
 5 24 -10 7.75 9 -10 -7.75 9 -9.817 7.567 9.31695 -10 7.75 -3
 5 24 -10 4 10 -10 -4 10 -9.817 4 9.68305 -10 4 15
 
+0 STEP
 0 FILE 41503 - 4-4cyl19sph40.dat
 0 A truncated cylinder primitive fitted to a sphere, used to model rounded joint geometry.
 0 Name: 41503 - 4-4cyl19sph40.dat

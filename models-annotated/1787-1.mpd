@@ -11,6 +11,7 @@
 1 0 -180 -51.695 90 -0.19509 0 0.980785 0 1 0 -0.980785 0 -0.19509 1787 - Minifig 2.ldr
 
 
+0 STEP
 0 FILE 1787 - Cockpit.ldr
 0 An enclosed cockpit assembly built from plates, wings, slopes, and hinges with a rounded base and angled windscreen detailing.
 0 Name: 1787 - Cockpit.ldr
@@ -135,6 +136,7 @@
 1 0 30 -104 60 0 0 -1 0 1 0 1 0 0 2412b.dat
 
 
+0 STEP
 0 FILE 1787 - Cockpit - Control Panel.ldr
 0 A hinged control panel featuring a Spyrius machinery pattern tile mounted on a hinge top.
 0 Name: 1787 - Cockpit - Control Panel.ldr
@@ -150,6 +152,7 @@
 1 0 0 -18 -10 1 0 0 0 1 0 0 0 1 3068bp51.dat
 
 
+0 STEP
 0 FILE 1787 - Vehicle.ldr
 0 A wheeled vehicle chassis constructed from plates, inverted slopes, technic pins, and four large treaded wheels.
 0 Name: 1787 - Vehicle.ldr
@@ -338,6 +341,7 @@
 1 0 -70 -92 230 -1 0 0 0 0.766 -0.6428 0 -0.6428 -0.766 1787 - Vehicle - Antenna.ldr
 
 
+0 STEP
 0 FILE 1787 - Vehicle - Engine.ldr
 0 A jet engine module built from jet engine plates, cones, a rounded finned brick, and hinge plates for mounting.
 0 Name: 1787 - Vehicle - Engine.ldr
@@ -375,6 +379,7 @@
 0 // Panel  1 x  2 x  1 with Square Corners (light_grey)
 1 7 0 -28 20 1 0 0 0 1 0 0 0 1 4865a.dat
 
+0 STEP
 0 FILE 1787 - Vehicle - Engine - Rocket.ldr
 0 A rocket assembly made from cones, inverted dishes, and hinge tiles forming a pointed, finned projectile.
 0 Name: 1787 - Vehicle - Engine - Rocket.ldr
@@ -403,6 +408,7 @@
 0 // Cone  1 x  1 (trans_neon_green)
 1 42 0 108 30 1 0 0 0 1 0 0 0 1 4589.dat
 
+0 STEP
 0 FILE 1787 - Vehicle - Antenna.ldr
 0 A small hinged antenna with a neon green whip mounted on a bar with fingers.
 0 Name: 1787 - Vehicle - Antenna.ldr
@@ -418,6 +424,7 @@
 1 42 0 -44 0 0 0 1 0 1 0 -1 0 0 2569.dat
 
 
+0 STEP
 0 FILE 1787 - Vehicle + Minifig.ldr
 0 An assembly combining the vehicle submodel with a seated minifigure.
 0 Name: 1787 - Vehicle + Minifig.ldr
@@ -431,6 +438,7 @@
 1 0 0 -69 -72 1 0 0 0 1 0 0 0 1 1787 - Minifig 1.ldr
 
 
+0 STEP
 0 FILE 1787 - Vehicle + Cockpit.ldr
 0 An assembly joining the vehicle chassis with the cockpit module.
 0 Name: 1787 - Vehicle + Cockpit.ldr
@@ -444,6 +452,7 @@
 1 0 0 -104 130 1 0 0 0 1 0 0 0 1 1787 - Cockpit.ldr
 
 
+0 STEP
 0 FILE 1787 - Minifig 1.ldr
 0 A Unitron astronaut minifig wearing a dark grey patterned torso, blue airtanks, and a red-haired headset head.
 0 Name: 1787 - Minifig 1.ldr
@@ -476,6 +485,7 @@
 1 7 0 44 0 1 0 0 0 0 1 0 -1 0 3817.dat
 
 
+0 STEP
 0 FILE 1787 - Minifig 1 - Helmet.ldr
 0 A standard yellow space helmet with a trans-dark-blue visor.
 0 Name: 1787 - Minifig 1 - Helmet.ldr
@@ -491,6 +501,7 @@
 1 33 0 0 0 1 0 0 0 1 0 0 0 1 2447.dat
 
 
+0 STEP
 0 FILE 1787 - Minifig 2.ldr
 0 A Unitron astronaut minifig wearing a dark grey patterned torso, blue airtanks, and a head with silver sunglasses and red headset.
 0 Name: 1787 - Minifig 2.ldr
@@ -523,6 +534,7 @@
 1 7 0 44 0 1 0 0 0 0.978148 -0.207912 0 0.207912 0.978148 3817.dat
 
 
+0 STEP
 0 FILE 1787 - Minifig 2 - Helmet.ldr
 0 A yellow space helmet with a Unitron pattern and a trans-dark-blue visor.
 0 Name: 1787 - Minifig 2 - Helmet.ldr

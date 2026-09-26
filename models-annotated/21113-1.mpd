@@ -8,6 +8,7 @@
 1 2 70 -8 -279 1 0 0 0 1 0 0 0 1 21113 - Steve.ldr
 1 2 150 -8 -279 1 0 0 0 1 0 0 0 1 21113 - Zombie.ldr
 
+0 STEP
 0 FILE 21113 - Steve.ldr
 0 A humanoid minifigure with a dark azure torso, lilac legs, and a dark brown blocky head.
 0 Name: 21113 - Steve.ldr
@@ -28,6 +29,7 @@
 0 // Minifig Head Cuboid (dark_brown)
 1 308 0 -64 0 1 0 0 0 1 0 0 0 1 21113 - 19729.dat
 
+0 STEP
 0 FILE 21113 - Cave.ldr
 0 A large rocky cave structure built from grey and bluish-grey bricks and plates with orange slope accents and blue and orange base plates.
 0 Name: 21113 - Cave.ldr
@@ -267,6 +269,7 @@
 
 
 
+0 STEP
 0 FILE 21113 - Stone Block.ldr
 0 A small grey stone block built from a 2x2 brick and a grooved centre-stud plate.
 0 Name: 21113 - Stone Block.ldr
@@ -279,6 +282,7 @@
 
 
 
+0 STEP
 0 FILE 21113 - Redstone Ore.ldr
 0 A stone block decorated with glowing translucent red studs representing redstone ore.
 0 Name: 21113 - Redstone Ore.ldr
@@ -307,6 +311,7 @@
 
 
 
+0 STEP
 0 FILE 21113 - Gold Ore.ldr
 0 A stone block decorated with gleaming pearl gold studs representing gold ore.
 0 Name: 21113 - Gold Ore.ldr
@@ -335,6 +340,7 @@
 
 
 
+0 STEP
 0 FILE 21113 - Zombie.ldr
 0 A humanoid minifigure with a dark azure torso, lilac legs, and a green blocky head and hands.
 0 Name: 21113 - Zombie.ldr
@@ -355,6 +361,7 @@
 0 // Minifig Head Cuboid (green)
 1 2 0 -64 0 1 0 0 0 1 0 0 0 1 21113 - 19729.dat
 
+0 STEP
 0 FILE 21113 - Spider.ldr
 0 A black spider model with a brick body and hinged plate legs with clip attachments.
 0 Name: 21113 - Spider.ldr
@@ -413,6 +420,7 @@
 
 
 
+0 STEP
 0 FILE 21113 - Grass Block.ldr
 0 A small block combining a reddish-brown dirt base with a bright green grass top.
 0 Name: 21113 - Grass Block.ldr
@@ -425,6 +433,7 @@
 
 
 
+0 STEP
 0 FILE 21113 - Coal Ore.ldr
 0 A stone block decorated with black studs representing coal deposits.
 0 Name: 21113 - Coal Ore.ldr
@@ -453,6 +462,7 @@
 
 
 
+0 STEP
 0 FILE 21113 - Iron Ore.ldr
 0 A stone block decorated with tan studs representing iron deposits.
 0 Name: 21113 - Iron Ore.ldr
@@ -481,6 +491,7 @@
 
 
 
+0 STEP
 0 FILE 21113 - TNT.ldr
 0 A red explosive block with a pixelated 'TNT' label pattern on its sides.
 0 Name: 21113 - TNT.ldr
@@ -499,6 +510,7 @@
 
 
 
+0 STEP
 0 FILE 21113 - Top Floor.ldr
 0 A grey platform with a treasure chest and French bread sitting on top.
 0 Name: 21113 - Top Floor.ldr
@@ -531,6 +543,7 @@
 
 
 
+0 STEP
 0 FILE 21113 - Torch.ldr
 0 A small wall-mounted torch made from a brown telescope handle with yellow and orange translucent flame tips.
 0 Name: 21113 - Torch.ldr
@@ -543,6 +556,7 @@
 0 // Plate  1 x  1 (trans_orange)
 1 57 0 -16 0 1 0 0 0 1 0 0 0 1 3024.dat
 
+0 STEP
 0 FILE 21113 - 19729.dat
 0 A reference part file for the cuboid minifigure head used by the Minecraft-style characters.
 0 Name: 21113 - 19729.dat
@@ -559,6 +573,7 @@
 4 16 -15 30 -15 -15 0 -15 15 0 -15 15 30 -15
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\21113 - 19729s1.dat
 
+0 STEP
 0 FILE s\21113 - 19729s1.dat
 0 A subpart defining the box geometry of the cuboid minifigure head without its front face surface.
 0 Name: s\21113 - 19729s1.dat

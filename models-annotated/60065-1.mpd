@@ -15,6 +15,7 @@
 1 4 15 44 -105 0 0 -1 0 1 0 1 0 0 30115.dat
 
 
+0 STEP
 0 FILE 60065 - Police.ldr
 0 A police officer minifigure with a dark blue lower body, tan torso and arms, yellow hands, and a dark tan peaked cap.
 0 Name: 60065 - Police.ldr
@@ -44,6 +45,7 @@
 1 28 0 -56 0 1 0 0 0 1 0 0 0 1 11303.dat
 
 
+0 STEP
 0 FILE 60065 - Thief.ldr
 0 A thief minifigure wearing white clothing, a dark bluish grey knit cap, a dark tan sack, and carrying two green money tiles.
 0 Name: 60065 - Thief.ldr
@@ -79,6 +81,7 @@
 1 2 0 -25 30 0 0 1 -1 0 0 0 -1 0 3069bpw2.dat
 
 
+0 STEP
 0 FILE 60065 - Bush.ldr
 0 A small terrain feature built from brown log bricks and plates topped with a large dark green leaf plant, representing a bush hideaway.
 0 Name: 60065 - Bush.ldr
@@ -110,6 +113,7 @@
 1 288 0 -33.774 -43.362 -1 0 0 0 0.848 0.53 0 0.53 -0.848 2417.dat
 
 
+0 STEP
 0 FILE 60065 - Quad.ldr
 0 A blue quad bike built from a central dark bluish grey brick, mudguards, four wheels, handlebars, and assorted grille and light detail pieces.
 0 Name: 60065 - Quad.ldr
@@ -179,6 +183,7 @@
 1 71 -10 -12 70 0 0 1 -1 0 0 0 -1 0 61482.dat
 
 
+0 STEP
 0 FILE 60065 -Wheel.ldr
 0 A single off-road wheel assembly consisting of a light bluish grey rim fitted with a wide black tyre.
 0 Name: 60065 -Wheel.ldr

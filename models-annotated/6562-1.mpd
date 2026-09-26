@@ -14,6 +14,7 @@
 1 1 95 0 -125.98 0.5 0 0.866 0 1 0 -0.866 0 0.5 6562 - minifig 2.ldr
 1 1 0 0 -210 -0.866 0 -0.5 0 1 0 0.5 0 -0.866 6562 - minifig 2.ldr
 
+0 STEP
 0 FILE 6562 - building.ldr
 0 A two-story building structure built from plates and bricks in red, white, and grey with slopes and construction tools like a power drill and screwdriver.
 0 Name: 6562 - building.ldr
@@ -174,6 +175,7 @@
 0 // Minifig Tool Hose Nozzle with Handle (green)
 1 2 -120 -72 -30 0 0 -1 0 1 0 1 0 0 4210a.dat
 
+0 STEP
 0 FILE 6562 - car.ldr
 0 A small green and red car with black wheel plates, blue steering wheel, and sloped inverted red body panels.
 0 Name: 6562 - car.ldr
@@ -295,6 +297,7 @@
 0 // Slope Brick 45  2 x  3 x  1.333 Double with Crane Arm and Light Grey Hook (red)
 1 4 -30 -56 70 1 0 0 0 1 0 0 0 1 3135c02.dat
 
+0 STEP
 0 FILE 6562 - car tank.ldr
 0 A red and black tank truck built on a green car base with brackets, grooved tiles, wheel pins, and a telemetry computer panel.
 0 Name: 6562 - car tank.ldr
@@ -493,6 +496,7 @@
 1 7 3.91 -97.03 101.01 0 0 1 -1 0 0 0 -1 0 4274.dat
 1 0 -16 -72 150 0 0 1 0 -1 0 1 0 0 6562 - car tank - flexHose.ldr
 
+0 STEP
 0 FILE 6562 - car tank - flexHose.ldr
 0 A long flexible hose assembly made of many linked hose segments with end caps, approximately 49 mm in length.
 0 Name: 6562 - car tank - flexHose.ldr
@@ -625,6 +629,7 @@
 1 16 0 -25.861576 59.812794 1 0 0 0 0.997362 -0.072585 0 0.072585 0.997362 754.DAT
 0 // ~Hose Flexible Segment Link Section (main_colour)
 1 16 0 -23.551682 59.95628 1 0 0 0 0.999603 -0.028166 0 0.028166 0.999603 754.DAT
+0 STEP
 0 FILE 6562 - minifig 1.ldr
 0 A construction worker minifigure wearing a red cap, blue zippered jacket torso, and blue legs.
 0 Name: 6562 - minifig 1.ldr
@@ -655,6 +660,7 @@
 0 // ~Minifig Leg Right (Obsolete) (blue)
 1 1 0 -28.022 1.818 1 0 0 0 1 0 0 0 1 3816.dat
 
+0 STEP
 0 FILE 6562 - minifig 2.ldr
 0 A worker minifigure wearing a red cap with a plain green torso and green legs.
 0 Name: 6562 - minifig 2.ldr

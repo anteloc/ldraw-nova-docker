@@ -19,6 +19,7 @@
 
 0
 
+0 STEP
 0 FILE 7760 - locomotive.ldr
 0 A black motorized train locomotive built around a 12V electric motor with coupling rods, magnetic couplings, buffer beams, and sloped detailing.
 0 Name: 7760 - locomotive.ldr
@@ -312,6 +313,7 @@
 
 0
 
+0 STEP
 0 FILE 7760 - minifig 1.ldr
 0 A minifigure dressed in a suit and tie wearing a red hat, representing a passenger or conductor.
 0 Name: 7760 - minifig 1.ldr
@@ -348,6 +350,7 @@
 
 0
 
+0 STEP
 0 FILE 7760 - minifig 2.ldr
 0 A minifigure worker wearing a red construction helmet and yellow vest, equipped with a spanner/screwdriver tool.
 0 Name: 7760 - minifig 2.ldr
@@ -388,6 +391,7 @@
 
 0
 
+0 STEP
 0 FILE 7760 - 4181d02c01.dat
 0 A left-hand train door assembly with clear glass and a DB 7760 sticker, configured as a rotatable submodel.
 0 Name: 7760 - 4181d02c01.dat
@@ -414,6 +418,7 @@
 
 
 
+0 STEP
 0 FILE 7760 - 4182d02c01.dat
 0 A right-hand train door assembly with clear glass and a DB 7760 sticker, configured as a rotatable submodel.
 0 Name: 7760 - 4182d02c01.dat

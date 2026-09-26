@@ -53,6 +53,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - platform.ldr
 0 Station platform built from large light grey base plates with black hinge plates, sloped brick sections, and white lamppost supports.
 0 Name: 4558 - platform.ldr 
@@ -191,6 +192,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - train 1.ldr
 0 Front train car built on a long 6x28 train base with red and light grey bricks, grille details, and an electric light and sound brick.
 0 Name: 4558 - train 1.ldr 
@@ -675,6 +677,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - train 2.ldr
 0 Passenger train car on a 6x28 base with multiple windows, train doors with stripe patterns, and bogie wheel assemblies.
 0 Name: 4558 - train 2.ldr 
@@ -1074,6 +1077,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - train 3.ldr
 0 Train car section with bogie plate, wheel assemblies, buffer beams, and magnetic couplings for connecting to other cars.
 0 Name: 4558 - train 3.ldr 
@@ -1528,6 +1532,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - minifig 1.ldr
 0 Train conductor minifigure in blue uniform with train logo, red police hat, and a red hand truck with trolley wheel.
 0 Name: 4558 - minifig 1.ldr 
@@ -1565,6 +1570,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - minifig 2.ldr
 0 Passenger minifigure in white shirt with blue horizontal stripes, black hair, and a brown backpack.
 0 Name: 4558 - minifig 2.ldr 
@@ -1596,6 +1602,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - minifig 3.ldr
 0 Minifigure wearing a blue suit with tie and black male hair.
 0 Name: 4558 - minifig 3.ldr 
@@ -1625,6 +1632,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - minifig 4.ldr
 0 Minifigure in white shirt with red horizontal stripes, red legs, and shoulder-length brown hair.
 0 Name: 4558 - minifig 4.ldr 
@@ -1654,6 +1662,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - minifig 5.ldr
 0 Train staff minifigure in black and blue four-button suit with shoulder-length brown hair.
 0 Name: 4558 - minifig 5.ldr 
@@ -1683,6 +1692,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - minifig 6.ldr
 0 Passenger minifigure in white outfit with gold necklace and yellow undershirt, and shoulder-length brown hair.
 0 Name: 4558 - minifig 6.ldr 
@@ -1712,6 +1722,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - minifig 7.ldr
 0 Train staff minifigure in blue four-button suit with train logo, black legs, and a red police hat.
 0 Name: 4558 - minifig 7.ldr 
@@ -1741,6 +1752,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - minifig 8.ldr
 0 Minifigure in black suit with red shirt, a light grey cowboy hat, and a blue cup.
 0 Name: 4558 - minifig 8.ldr 
@@ -1772,6 +1784,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - minifig 9.ldr
 0 Passenger minifigure in white shirt with red and blue vertical stripes and a red cap with flat peak.
 0 Name: 4558 - minifig 9.ldr 
@@ -1801,6 +1814,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - minifig 10.ldr
 0 Passenger minifigure in white shirt with red necklace, red legs, and black pigtails hair.
 0 Name: 4558 - minifig 10.ldr 
@@ -1830,6 +1844,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - minifig 11.ldr
 0 Passenger minifigure in white shirt with blue horizontal stripes and brown male hair.
 0 Name: 4558 - minifig 11.ldr 
@@ -1859,6 +1874,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - 2916pb03.dat
 0 Wedge brick decorated with Metroliner train logo and red, white, and blue stripe stickers.
 0 Name: 4558 - 2916pb03.dat 
@@ -1877,6 +1893,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - 164557a.dat
 0 Schedule board sticker sheet applied to the back of a train window.
 0 Name: 4558 - 164557a.dat 
@@ -5676,6 +5693,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - 164557b.dat
 0 Schedule board sticker sheet applied to the front of a train window.
 0 Name: 4558 - 164557b.dat 
@@ -9661,6 +9679,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - 164565a.dat
 0 Train logo stripe sticker sheet applied to the right wedge piece.
 0 Name: 4558 - 164565a.dat 
@@ -9687,6 +9706,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - 164565b.dat
 0 Train logo stripe sticker sheet applied to the left wedge piece.
 0 Name: 4558 - 164565b.dat 
@@ -9713,6 +9733,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - 164565c.dat
 0 Decorative sticker representing the train bed section.
 0 Name: 4558 - 164565c.dat 
@@ -9933,6 +9954,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - 164565d.dat
 0 Decorative sticker representing the train restaurant section.
 0 Name: 4558 - 164565d.dat 
@@ -10139,6 +10161,7 @@
 
 
 
+0 STEP
 0 FILE 4558 - 164565e.dat
 0 Small sticker with a blue train logo applied to a brick surface.
 0 Name: 4558 - 164565e.dat

@@ -12,6 +12,7 @@
 1 14 114 0 127 0.407 0 -0.914 0 1 0 0.914 0 0.407 164 - mfBluePkCapK-2.ldr
 
 
+0 STEP
 0 FILE 164 - coach.ldr
 0 A red passenger train coach with brick-built body, clear windows, opening doors, and a 6x16 train base with magnet couplers and spoked wheels.
 0 Name: 164 - coach.ldr
@@ -178,6 +179,7 @@
 1 4 72.321 -141 128.66 -0.866 -0.5 0 0 0 -1 0.5 -0.866 0 164 - 004757e.dat
 
 
+0 STEP
 0 FILE 164 - mfBluePkCapK-2.ldr
 0 A minifigure wearing a blue outfit with a black police hat.
 0 Name: 164 - mfBluePkCapK-2.ldr
@@ -211,6 +213,7 @@
 1 0 0 -96 0 0.99 0 -0.139 0 1 0 0.139 0 0.99 3624.dat
 
 
+0 STEP
 0 FILE 164 - mfWhiteBlackPtK-2.ldr
 0 A minifigure wearing a white torso with black legs and pigtails hairstyle.
 0 Name: 164 - mfWhiteBlackPtK-2.ldr
@@ -245,6 +248,7 @@
 
 
 
+0 STEP
 0 FILE 164 - 004757e.dat
 0 A decorative sticker or printed element represented by a five-faced box.
 0 Name: 164 - 004757e.dat
@@ -268,6 +272,7 @@
 0 !TEXMAP END
 
 
+0 STEP
 0 FILE 164 - 004757c.dat
 0 A decorative sticker or printed element represented by a five-faced box.
 0 Name: 164 - 004757c.dat
@@ -291,6 +296,7 @@
 0 !TEXMAP END
 
 
+0 STEP
 0 FILE 164 - 004757j.dat
 0 A decorative sticker or printed element represented by a five-faced box.
 0 Name: 164 - 004757j.dat

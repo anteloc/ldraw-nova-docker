@@ -6,6 +6,7 @@
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
 1 72 0 0 0 1 0 0 0 1 0 0 0 1 30284 - Tractor.ldr
 1 72 0 20.045 128.202 1 0 0 0 1 0 0 0 1 30284 - Trailer.ldr
+0 STEP
 0 FILE 30284 - Tractor.ldr
 0 A compact blue and red tractor with mudguards, grille slopes, headlight bricks, and mounts for small front wheels and big rear wheels.
 0 Name: 30284 - Tractor.ldr
@@ -78,6 +79,7 @@
 1 0 -30 13 40 0 0 1 0 -1 0 1 0 0 30284 - Wheel Big.ldr
 1 0 30 21 -40 0 0 -1 0 -1 0 -1 0 0 30284 - Wheel Small.ldr
 1 0 30 13 40 0 0 -1 0 -1 0 -1 0 0 30284 - Wheel Big.ldr
+0 STEP
 0 FILE 30284 - Wheel Small.ldr
 0 A small light bluish grey wheel rim with a black offset tread tyre.
 0 Name: 30284 - Wheel Small.ldr
@@ -88,6 +90,7 @@
 1 71 0 0 0 1 0 0 0 1 0 0 0 1 4624.dat
 0 // Tyre  6/ 50 x  8 Offset Tread with Centre Band (black)
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 87414.dat
+0 STEP
 0 FILE 30284 - Wheel Big.ldr
 0 A large light bluish grey wheel rim with a wide black centre-band tyre.
 0 Name: 30284 - Wheel Big.ldr
@@ -98,6 +101,7 @@
 1 71 0 0 0 1 0 0 0 1 0 0 0 1 6014.dat
 0 // Tyre 12/ 40 x 11 Wide with Centre Band (black)
 1 0 0 0 -6 1 0 0 0 1 0 0 0 1 87697.dat
+0 STEP
 0 FILE 30284 - Trailer.ldr
 0 A small wheeled trailer built from plates with handles, mechanical arms with clips, and a wheel-pin axle plate.
 0 Name: 30284 - Trailer.ldr

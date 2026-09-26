@@ -1020,6 +1020,7 @@
 1 0 0 -280 260 0 0 1 0 1 0 -1 0 0 21020 - 17.ldr
 
 
+0 STEP
 0 FILE 21020 - 1.ldr
 0 A small white figurine sculpture assembly using plates, a slope, and a microfig, depicting a statue on a base.
 0 Name: 21020 - 1.ldr
@@ -1043,6 +1044,7 @@
 1 15 20 -56 0 0 0 -1 0 1 0 1 0 0 85863.dat
 
 
+0 STEP
 0 FILE 21020 - 2.ldr
 0 A tall white pillar or niche structure built from a tall brick, brackets, and a decorative grey tiled top.
 0 Name: 21020 - 2.ldr
@@ -1066,6 +1068,7 @@
 1 71 22 -28 0 0 -1 0 0 0 -1 1 0 0 3068b.dat
 
 
+0 STEP
 0 FILE 21020 - 3.ldr
 0 A compact white and grey figurine statue on a small grooved base with a microfig.
 0 Name: 21020 - 3.ldr
@@ -1087,6 +1090,7 @@
 1 15 0 -88 0 0 0 -1 0 1 0 1 0 0 85863.dat
 
 
+0 STEP
 0 FILE 21020 - 4.ldr
 0 A small translucent clear element assembly, likely a water spout or detail, made from plates, a brick, and a grooved tile.
 0 Name: 21020 - 4.ldr
@@ -1106,6 +1110,7 @@
 1 47 10 -40 0 1 0 0 0 1 0 0 0 1 3070b.dat
 
 
+0 STEP
 0 FILE 21020 - 5.ldr
 0 A tiny white corner detail built from a single-stud plate and side-stud brick.
 0 Name: 21020 - 5.ldr
@@ -1123,6 +1128,7 @@
 1 15 0 -48 0 0 0 -1 0 1 0 1 0 0 3005.dat
 
 
+0 STEP
 0 FILE 21020 - 6.ldr
 0 A white horizontal strip assembly combining a long plate with several grooved single-stud plates.
 0 Name: 21020 - 6.ldr
@@ -1142,6 +1148,7 @@
 1 15 0 8 30 -1 0 0 0 1 0 0 0 -1 15573.dat
 
 
+0 STEP
 0 FILE 21020 - 7.ldr
 0 A small white detail element with a side-stud brick and a vertical clip plate for attachment.
 0 Name: 21020 - 7.ldr
@@ -1159,6 +1166,7 @@
 1 15 0 -32 0 0 0 -1 0 1 0 1 0 0 60897.dat
 
 
+0 STEP
 0 FILE 21020 - 8.ldr
 0 A small white stepped platform built from a 2x4 plate topped with a grooved jumper plate.
 0 Name: 21020 - 8.ldr
@@ -1174,6 +1182,7 @@
 1 15 30 8 10 1 0 0 0 1 0 0 0 1 15573.dat
 
 
+0 STEP
 0 FILE 21020 - 9.ldr
 0 A small white stepped platform built from a 2x4 plate topped with a grooved jumper plate.
 0 Name: 21020 - 9.ldr
@@ -1189,6 +1198,7 @@
 1 15 30 8 -10 1 0 0 0 1 0 0 0 1 15573.dat
 
 
+0 STEP
 0 FILE 21020 - 10.ldr
 0 A long white balustrade-like assembly using a 1x12 plate with multiple grooved tiles and jumper plates.
 0 Name: 21020 - 10.ldr
@@ -1220,6 +1230,7 @@
 1 15 0 8 -20 1 0 0 0 1 0 0 0 1 15573.dat
 
 
+0 STEP
 0 FILE 21020 - 11.ldr
 0 A small white finial or fountain spray element made from a cone atop a round plate.
 0 Name: 21020 - 11.ldr
@@ -1237,6 +1248,7 @@
 1 15 0 -32 0 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 21020 - 12.ldr
 0 A water basin section with white round plates and translucent blue and clear studs representing water, bordered by dark grey tiles.
 0 Name: 21020 - 12.ldr
@@ -1312,6 +1324,7 @@
 1 72 0 -32 -40 0 0 -1 0 1 0 1 0 0 3068b.dat
 
 
+0 STEP
 0 FILE 21020 - 13.ldr
 0 A water basin section with white round plates and translucent blue and clear studs representing water, bordered by dark grey tiles.
 0 Name: 21020 - 13.ldr
@@ -1387,6 +1400,7 @@
 1 72 0 -32 -40 0 0 -1 0 1 0 1 0 0 3068b.dat
 
 
+0 STEP
 0 FILE 21020 - 14.ldr
 0 A small white fountain detail with a cone top and a vertical clip plate for attachment.
 0 Name: 21020 - 14.ldr
@@ -1404,6 +1418,7 @@
 1 15 0 -16 0 0 0 -1 0 1 0 1 0 0 6141.dat
 
 
+0 STEP
 0 FILE 21020 - 15.ldr
 0 An empty container submodel that references smaller decorative detail assemblies.
 0 Name: 21020 - 15.ldr
@@ -1417,6 +1432,7 @@
 1 0 0 -14 0 0 0.7314 -0.682 0 0.682 0.7314 1 0 0 21020 - 15 - 2.ldr
 
 
+0 STEP
 0 FILE 21020 - 15 - 1.ldr
 0 A minimal white detail attachment using a single plate with a clip tile.
 0 Name: 21020 - 15 - 1.ldr
@@ -1432,6 +1448,7 @@
 1 15 0 -8 0 1 0 0 0 1 0 0 0 1 2555.dat
 
 
+0 STEP
 0 FILE 21020 - 15 - 2.ldr
 0 A white sculptural figure assembly with curved brick, handles, and bent skeleton arms suggesting a statue or horse-like form.
 0 Name: 21020 - 15 - 2.ldr
@@ -1455,6 +1472,7 @@
 1 15 16 16 -60 -1 0 0 0 -0.5 -0.866 0 -0.866 0.5 93061.dat
 
 
+0 STEP
 0 FILE 21020 - 16.ldr
 0 An empty container submodel that references smaller decorative detail assemblies.
 0 Name: 21020 - 16.ldr
@@ -1468,6 +1486,7 @@
 1 0 0 -14 0 0 0.7314 -0.682 0 0.682 0.7314 1 0 0 21020 - 16 - 1.ldr
 
 
+0 STEP
 0 FILE 21020 - 16 - 1.ldr
 0 A white sculptural figure assembly with curved brick, handles, and bent skeleton arms suggesting a statue or horse-like form.
 0 Name: 21020 - 16 - 1.ldr
@@ -1491,6 +1510,7 @@
 1 15 16 16 -60 -1 0 0 0 0 -1 0 -1 0 93061.dat
 
 
+0 STEP
 0 FILE 21020 - 17.ldr
 0 A white ornamental architectural detail with multi-sided studs, slopes, round plates, and a triangular shield element.
 0 Name: 21020 - 17.ldr

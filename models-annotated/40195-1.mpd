@@ -9,6 +9,7 @@
 1 308 0 0 -210 1 0 0 0 1 0 0 0 1 40195 - MiniFig.ldr
 
 
+0 STEP
 0 FILE 40195 - Station.ldr
 0 A structure built from plates and bricks with curved slopes, handles, and small detail clips forming a small station or kiosk with red accents.
 0 Name: 40195 - Station.ldr
@@ -125,6 +126,7 @@
 1 4 0 -176 0 0 0 1 0 1 0 -1 0 0 40195 - Roof.ldr
 
 
+0 STEP
 0 FILE 40195 - MiniFig.ldr
 0 A minifigure with a white torso and arms, black legs, yellow hands, a smiling head with glasses, and tousled brown hair.
 0 Name: 40195 - MiniFig.ldr
@@ -150,6 +152,7 @@
 1 308 0 -96 1 1 0 0 0 1 0 0 0 1 62810.dat
 
 
+0 STEP
 0 FILE 40195 - Roof.ldr
 0 A red and white sloped roof section with 45-degree slope bricks, brackets, and a red flag mounted on a round grille base.
 0 Name: 40195 - Roof.ldr
@@ -221,6 +224,7 @@
 1 4 -90 28 -70 -1 0 0 0 1 0 0 0 -1 30292a.dat
 
 
+0 STEP
 0 FILE 40195 - 15625.dat
 0 A single top part component representing a moulded element.
 0 Name: 40195 - 15625.dat
@@ -241,6 +245,7 @@
 5 24 80 0.5 -30 -80 0.5 -30 80 2.5 -50 80 0 -10
 5 24 40 0 -10 -40 0 -10 40 0.5 -30 40 0 10
 
+0 STEP
 0 FILE 40195 - s_15625s01.dat
 0 A detailed subpart constructed from geometric primitives (cylinders, rings, circles, and boxes) defining the shape of a moulded LEGO element.
 0 Name: 40195 - s_15625s01.dat

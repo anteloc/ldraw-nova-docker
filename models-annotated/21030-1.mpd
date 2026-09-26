@@ -1448,6 +1448,7 @@
 1 0 -100 -96 -400 1 0 0 0 1 0 0 0 1 21030 - 7.ldr
 1 0 -80 -96 0 1 0 0 0 1 0 0 0 1 21030 - 8.ldr
 
+0 STEP
 0 FILE 21030 - 1.ldr
 0 Small white detail assembly made of two headlight bricks.
 0 Name: 21030 - 1.ldr
@@ -1463,6 +1464,7 @@
 1 15 0 -24 0 0 0 1 0 1 0 -1 0 0 4070.dat
 
 
+0 STEP
 0 FILE 21030 - 2.ldr
 0 Compact white detail element combining headlight bricks with a grooved tile.
 0 Name: 21030 - 2.ldr
@@ -1480,6 +1482,7 @@
 1 15 14 10 0 0 -1 0 0 0 -1 1 0 0 3069b.dat
 
 
+0 STEP
 0 FILE 21030 - 3.ldr
 0 Simple white detail assembly of headlight bricks joined by a small plate.
 0 Name: 21030 - 3.ldr
@@ -1497,6 +1500,7 @@
 1 15 -10 10 0 0 -1 0 0 0 -1 1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 21030 - 4.ldr
 0 White structural subassembly with plates, headlight bricks, and technic bricks forming a small connector module.
 0 Name: 21030 - 4.ldr
@@ -1539,6 +1543,7 @@
 0 // Plate  1 x  2 with Groove with 1 Centre Stud, without Understud (white)
 1 15 0 -72 30 0 0 -1 0 1 0 1 0 0 15573.dat
 
+0 STEP
 0 FILE 21030 - 4 - 1.ldr
 0 Small white connector subassembly using a technic brick with holes, headlight bricks, and a plate.
 0 Name: 21030 - 4 - 1.ldr
@@ -1558,6 +1563,7 @@
 1 15 -10 -14 0 0 -1 0 0 0 -1 1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 21030 - 5.ldr
 0 White architectural detail with arches and grooved plates forming a decorative window or opening element.
 0 Name: 21030 - 5.ldr
@@ -1593,6 +1599,7 @@
 1 15 0 -32 0 0 0 -1 0 1 0 1 0 0 3070b.dat
 
 
+0 STEP
 0 FILE 21030 - 6.ldr
 0 Sand green sloped roof section built on a dark bluish grey plate, combining 33-degree slopes and tiles to form a pitched surface.
 0 Name: 21030 - 6.ldr
@@ -1640,6 +1647,7 @@
 1 378 -40 -32 0 0 0 -1 0 1 0 1 0 0 87079.dat
 
 
+0 STEP
 0 FILE 21030 - 7.ldr
 0 Larger sand green sloped roof section on a dark bluish grey plate with multiple 33-degree slope bricks forming an extended pitched surface.
 0 Name: 21030 - 7.ldr
@@ -1685,6 +1693,7 @@
 1 378 40 -32 0 0 0 -1 0 1 0 1 0 0 87079.dat
 
 
+0 STEP
 0 FILE 21030 - 8.ldr
 0 White circular columned drum and dome base assembly with round plates, fence spindles, corner round elements, and domed corner bricks forming the central rotunda structure.
 0 Name: 21030 - 8.ldr
@@ -1800,6 +1809,7 @@
 1 15 -10 -192 -10 0 0 1 0 1 0 -1 0 0 88293.dat
 1 0 0 -200 0 -1 0 0 0 1 0 0 0 -1 21030 - 8 - 4.ldr
 
+0 STEP
 0 FILE 21030 - 8 - 1.ldr
 0 Tiny connector assembly of a multi-sided stud brick and a technic brick with hole.
 0 Name: 21030 - 8 - 1.ldr
@@ -1815,6 +1825,7 @@
 1 15 0 0 0 0 0 1 0 1 0 -1 0 0 6541.dat
 
 
+0 STEP
 0 FILE 21030 - 8 - 2.ldr
 0 Small white curved slope detail mounted on a yellow plate, forming a rounded decorative cap.
 0 Name: 21030 - 8 - 2.ldr
@@ -1832,6 +1843,7 @@
 1 15 0 8 20 -1 0 0 0 1 0 0 0 -1 15068.dat
 
 
+0 STEP
 0 FILE 21030 - 8 - 3.ldr
 0 Compact white rounded detail assembly using corner round plates, round plates, and hollow-stud round bricks.
 0 Name: 21030 - 8 - 3.ldr
@@ -1857,6 +1869,7 @@
 1 15 0 16 40 1 0 0 0 1 0 0 0 1 3062b.dat
 
 
+0 STEP
 0 FILE 21030 - 8 - 4.ldr
 0 Ornamental finial or crowning element with a grille brick, round plates, a cone, and a dark bluish grey statuette atop an axlehole base.
 0 Name: 21030 - 8 - 4.ldr

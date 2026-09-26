@@ -107,6 +107,7 @@
 1 1 210 0 0 1 0 0 0 1 0 0 0 1 6891 - Robot.ldr
 
 
+0 STEP
 0 FILE 6891 - Cockpit.ldr
 0 An enclosed cockpit section with a steering wheel and stand, an instrument panel with buttons and red lamps, directional arrow patterns, and sloped light grey plates.
 0 Name: 6891 - Cockpit.ldr
@@ -227,6 +228,7 @@
 1 7 0 -112 70 1 0 0 0 1 0 0 0 1 6891 - Top engine.ldr
 
 
+0 STEP
 0 FILE 6891 - Robot.ldr
 0 A small blue robot figure with a dish head, studs-on-sides bricks forming the body, transparent red round plates for eyes, and black hinge control sticks for arms.
 0 Name: 6891 - Robot.ldr
@@ -260,6 +262,7 @@
 0 // Hinge Control Stick (black)
 1 0 -18 -78 0 0 0.5 -0.866 0 0.866 0.5 1 0 0 4593.dat
 
+0 STEP
 0 FILE 6891 - Top engine.ldr
 0 A compact top-mounted engine assembly consisting of a finned round brick with a black cone nozzle, mounted on a tail piece with plates and a studs-on-sides brick.
 0 Name: 6891 - Top engine.ldr
@@ -287,6 +290,7 @@
 1 0 0 -70 -14 -1 0 0 0 0 1 0 1 0 4589.dat
 
 
+0 STEP
 0 FILE 6891 - Right wing.ldr
 0 A right-side swept wing built from a large wing plate with cutout, a jet engine with fins, a hinged car roof mount, flexible hose detailing, and directional arrow tiles.
 0 Name: 6891 - Right wing.ldr
@@ -431,6 +435,7 @@
 0 //  0 SYNTH END
 
 
+0 STEP
 0 FILE 6891 - Left wing.ldr
 0 A left-side swept wing built from a large wing plate with cutout, a jet engine with fins, a hinged car roof mount, flexible hose detailing, and directional arrow tiles.
 0 Name: 6891 - Left wing.ldr
@@ -575,6 +580,7 @@
 0 //  0 SYNTH END
 
 
+0 STEP
 0 FILE 6891 - Cover.ldr
 0 A small cover assembly of four headlight bricks, two outward-sloping black corner panels, and an offset-stud plate.
 0 Name: 6891 - Cover.ldr
@@ -601,6 +607,7 @@
 0 1 0 -30 -24 174 1 0 0 0 1 0 0 0 1 right_hose.dat
 
 
+0 STEP
 0 FILE 6891 - Tail.ldr
 0 A tail section with a large tail fin, a round finned brick, a rocket-pattern tail piece, two transparent red cones, and a yellow antenna.
 0 Name: 6891 - Tail.ldr
@@ -630,6 +637,7 @@
 1 46 0 -92 -8 1 0 0 0 0 -1 0 1 0 3957a.dat
 
 
+0 STEP
 0 FILE 6891 - Minifig.ldr
 0 A classic black-suited space minifigure with airtanks, a classic space torso pattern, a smiling yellow head, and a helmet with thin chin guard.
 0 Name: 6891 - Minifig.ldr

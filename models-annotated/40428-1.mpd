@@ -7,6 +7,7 @@
 1 15 0 0 0 1 0 0 0 0.5 -0.866 0 0.866 0.5 40428 - The Joker.ldr
 
 
+0 STEP
 0 FILE 40428 - Stand.ldr
 0 A Technic-based support stand using white elbow cylinders, locking hinge arms, and red and light bluish grey axles.
 0 Name: 40428 - Stand.ldr
@@ -32,6 +33,7 @@
 1 15 -30 0 230 -1 0 0 0 1 0 0 0 -1 30553.dat
 
 
+0 STEP
 0 FILE 40428 - The Joker.ldr
 0 The large mosaic-like Joker face built mainly from lime plates and tiles, accented with blue, yellow, and bright light orange details.
 0 Name: 40428 - The Joker.ldr
@@ -394,6 +396,7 @@
 1 15 0 -64 -130 -1 0 0 0 1 0 0 0 -1 50950.dat
 
 
+0 STEP
 0 FILE 40428 - Chin.ldr
 0 A small white curved chin section using a double curved slope, a side-studded brick, and a plate.
 0 Name: 40428 - Chin.ldr
@@ -409,6 +412,7 @@
 1 15 0 10 -10 0 0 1 1 0 0 0 1 0 93273.dat
 
 
+0 STEP
 0 FILE 40428 - Upper lip.ldr
 0 The Joker's red upper lip with bright light yellow teeth tiles mounted on white brackets.
 0 Name: 40428 - Upper lip.ldr
@@ -431,6 +435,7 @@
 1 15 30 22 -2 1 0 0 0 0 1 0 -1 0 99780.dat
 
 
+0 STEP
 0 FILE 40428 - Lower lip.ldr
 0 The Joker's red lower lip with bright light yellow teeth tiles and a side-studded white brick.
 0 Name: 40428 - Lower lip.ldr

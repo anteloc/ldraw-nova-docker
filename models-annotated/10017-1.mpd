@@ -13,6 +13,7 @@
 
 
 
+0 STEP
 0 FILE 10017 - train car - wheels.ldr
 0 Train bogie chassis with two wheel bogies, coupling, buffer beam, magnet, and base plates
 0 Name: 10017 - train car - wheels.ldr
@@ -43,6 +44,7 @@
 1 16 50 -63 0 0 0 1 0 1 0 -1 0 0 2878C01.DAT
 
 
+0 STEP
 0 FILE 10017 - train car.ldr
 0 Train car body with sloped sides and roof, blue grille panels, ladders, technic axle linkage, and shovel and broom accessories
 0 Name: 10017 - train car.ldr

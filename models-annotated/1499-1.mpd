@@ -10,6 +10,7 @@
 1 14 -80 -5 48 1 0 0 0 1 0 0 0 1 1499 - Twin Starfire - Astronaut.ldr
 
 
+0 STEP
 0 FILE 1499 - Twin Starfire - Ship.ldr
 0 A twin-engined space fighter built from white plates, inverted slopes, dual cockpits, and steering wheel-based engine pods.
 0 Name: 1499 - Twin Starfire - Ship.ldr
@@ -191,6 +192,7 @@
 
 
 
+0 STEP
 0 FILE 1499 - Twin Starfire - Astronaut.ldr
 0 A yellow classic space minifigure with torso print, helmet, and airtanks.
 0 Name: 1499 - Twin Starfire - Astronaut.ldr

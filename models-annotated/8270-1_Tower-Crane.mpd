@@ -7,6 +7,7 @@
 1 72 0 0 0 1 0 0 0 1 0 0 0 1 8270 - Base.ldr
 
 
+0 STEP
 0 FILE 8270 - Base.ldr
 0 Wheeled crawler base built from Technic liftarms, axles, and four rubber tyres.
 0 Name: 8270 - Base.ldr
@@ -100,6 +101,7 @@
 1 71 0 -296 -362 1 0 0 0 1 0 0 0 1 2432.dat
 
 
+0 STEP
 0 FILE 8270 - Base08.ldr
 0 Compact worm-gear and bevel-gear drive unit on a liftarm frame.
 0 Name: 8270 - Base08.ldr
@@ -131,6 +133,7 @@
 1 71 -20 -40 30 0 -1 0 -1 0 0 0 0 -1 2825.dat
 
 
+0 STEP
 0 FILE 8270 - Tower.ldr
 0 Yellow triangular liftarm mast section featuring gears and a crane arm for rotation.
 0 Name: 8270 - Tower.ldr
@@ -189,6 +192,7 @@
 1 0 0 20 0 -1 0 0 0 0 1 0 1 0 32498.dat
 
 
+0 STEP
 0 FILE 8270 - Tower03.ldr
 0 Small axle-and-pin connector subassembly mounted on a liftarm boss.
 0 Name: 8270 - Tower03.ldr
@@ -204,6 +208,7 @@
 1 0 -30 -20 0 1 0 0 0 0 1 0 -1 0 2780.dat
 
 
+0 STEP
 0 FILE 8270 - Crane.ldr
 0 Horizontal jib with bent liftarms, gears, and a towball hook for lifting.
 0 Name: 8270 - Crane.ldr
@@ -276,6 +281,7 @@
 1 0 0 -12.5 -176 0 0 1 1 0 0 0 1 0 8270 - String V.ldr
 
 
+0 STEP
 0 FILE 8270 - Crane06.ldr
 0 Simple bevel-gear-on-axle drive component with a bush flange.
 0 Name: 8270 - Crane06.ldr
@@ -291,6 +297,7 @@
 1 71 -30 0 0 0 0 1 0 1 0 -1 0 0 3713.dat
 
 
+0 STEP
 0 FILE 8270 - String H.ldr
 0 Flexible multi-segment horizontal hoist string generated as rope cylinders.
 0 Name: 8270 - String H.ldr
@@ -331,6 +338,7 @@
 1 16 380.59937 0 30.015167 0 -4.000299 -0.037946 1.5 0 0 0 -0.10123 1.49952 4-4cyli.dat
 
 
+0 STEP
 0 FILE 8270 - String V.ldr
 0 Single-segment vertical string generated as a short rope cylinder.
 0 Name: 8270 - String V.ldr

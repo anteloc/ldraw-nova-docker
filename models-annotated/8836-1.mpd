@@ -14,6 +14,7 @@
 
 
 
+0 STEP
 0 FILE 8836 - Sky Ranger.ldr
 0 Main Technic chassis structure built from long black and red plates and beams with pins and axles for the aircraft frame.
 0 Name: 8836 - Sky Ranger.ldr
@@ -216,6 +217,7 @@
 1 7 -54 -114 -130 0 0 1 0 1 0 -1 0 0 4265a.dat
 
 
+0 STEP
 0 FILE 8836 - Substep_Step-3.ldr
 0 A small Technic axle and connector assembly with a toggle joint connector mounted on a 1x6 beam.
 0 Name: 8836 - Substep_Step-3.ldr
@@ -249,6 +251,7 @@
 
 
 
+0 STEP
 0 FILE 8836 - Substep_Step-4.ldr
 0 Two long 1x12 Technic beams joined by friction pins forming an extended structural link.
 0 Name: 8836 - Substep_Step-4.ldr
@@ -269,6 +272,7 @@
 
 
 
+0 STEP
 0 FILE 8836 - Substep_Step-8.ldr
 0 A rotor assembly with two-blade hub mounted on axles with inverted slope pieces and connector beams.
 0 Name: 8836 - Substep_Step-8.ldr
@@ -314,6 +318,7 @@
 
 
 
+0 STEP
 0 FILE 8836 - Substep_Step-9.ldr
 0 A two-cylinder Technic engine assembly with crankshafts, connecting rods, pistons, cylinder heads, and triangular liftarms.
 0 Name: 8836 - Substep_Step-9.ldr
@@ -372,6 +377,7 @@
 
 
 
+0 STEP
 0 FILE 8836 - Substep_Step-10.ldr
 0 A linkage assembly using liftarms with bosses, toggle joint connectors, and axles forming a pivot mechanism.
 0 Name: 8836 - Substep_Step-10.ldr
@@ -408,6 +414,7 @@
 
 
 
+0 STEP
 0 FILE 8836 - Substep_Step-11_1.ldr
 0 A small Technic beam extension made of a 1x8 brick and 1x2 brick joined by a friction pin with plates.
 0 Name: 8836 - Substep_Step-11_1.ldr
@@ -430,6 +437,7 @@
 
 
 
+0 STEP
 0 FILE 8836 - Substep_Step-11_2.ldr
 0 A mirrored small Technic beam extension of a 1x8 brick and 1x2 brick joined by a friction pin with plates.
 0 Name: 8836 - Substep_Step-11_2.ldr
@@ -452,6 +460,7 @@
 
 
 
+0 STEP
 0 FILE 8836 - Substep_Step-11_3.ldr
 0 A single half-bush used as a spacer element.
 0 Name: 8836 - Substep_Step-11_3.ldr
@@ -466,6 +475,7 @@
 
 
 
+0 STEP
 0 FILE 8836 - Substep_Step-12_1.ldr
 0 A short assembly combining a 1x4 Technic brick with a matching 1x4 plate.
 0 Name: 8836 - Substep_Step-12_1.ldr
@@ -482,6 +492,7 @@
 
 
 
+0 STEP
 0 FILE 8836 - Substep_Step-12_2.ldr
 0 Two half-bushes used as spacer elements.
 0 Name: 8836 - Substep_Step-12_2.ldr
@@ -502,6 +513,7 @@
 
 
 
+0 STEP
 0 FILE 8836 - Substep_Step-12_2_Substep_Step-1.ldr
 0 A pair of reinforced Technic wedge belt wheels mounted on axle pins.
 0 Name: 8836 - Substep_Step-12_2_Substep_Step-1.ldr
@@ -522,6 +534,7 @@
 
 
 
+0 STEP
 0 FILE 8836 - Substep_Step-12_2_Substep_Step-2.ldr
 0 A Flex-System connector assembly with a pin hole connector and ball connector.
 0 Name: 8836 - Substep_Step-12_2_Substep_Step-2.ldr
@@ -540,6 +553,7 @@
 
 
 
+0 STEP
 0 FILE 8836 - Substep_Step-14_1.ldr
 0 A Technic steering arm mounted on a 3-stud axle with a half-bush.
 0 Name: 8836 - Substep_Step-14_1.ldr
@@ -558,6 +572,7 @@
 
 
 
+0 STEP
 0 FILE 8836 - Substep_Step-14_2.ldr
 0 A pin/bush connector mounted on a 3-stud axle with a half-bush.
 0 Name: 8836 - Substep_Step-14_2.ldr
@@ -576,6 +591,7 @@
 
 
 
+0 STEP
 0 FILE 8836 - Substep_Step-17.ldr
 0 A wing panel assembly with long Technic wing bricks, plates, and a transparent green indicator light.
 0 Name: 8836 - Substep_Step-17.ldr
@@ -618,6 +634,7 @@
 
 
 
+0 STEP
 0 FILE 8836 - Substep_Step-18.ldr
 0 A mirrored wing panel assembly with long Technic wing bricks, plates, and a transparent red indicator light.
 0 Name: 8836 - Substep_Step-18.ldr
@@ -660,6 +677,7 @@
 
 
 
+0 STEP
 0 FILE 8836 - Substep_Step-19_1.ldr
 0 A fuselage section with sloped bricks, wings, and plates featuring a red trans stud detail.
 0 Name: 8836 - Substep_Step-19_1.ldr
@@ -724,6 +742,7 @@
 
 
 
+0 STEP
 0 FILE 8836 - Substep_Step-19_2.ldr
 0 A small toggle joint connector mounted on a 3-stud axle with a half-bush.
 0 Name: 8836 - Substep_Step-19_2.ldr
@@ -742,6 +761,7 @@
 
 
 
+0 STEP
 0 FILE 8836 - Substep_Step-19_3.ldr
 0 A single half-bush used as a spacer element.
 0 Name: 8836 - Substep_Step-19_3.ldr
@@ -756,6 +776,7 @@
 
 
 
+0 STEP
 0 FILE 8836 - Substep_Step-19_4.ldr
 0 A small toggle joint connector mounted on a 3-stud axle with a half-bush.
 0 Name: 8836 - Substep_Step-19_4.ldr
@@ -774,6 +795,7 @@
 
 
 
+0 STEP
 0 FILE 8836 - Substep_Step-20_1.ldr
 0 A mounting plate assembly using long plates and a Technic plate with half-pins for attachment.
 0 Name: 8836 - Substep_Step-20_1.ldr
@@ -802,6 +824,7 @@
 
 
 
+0 STEP
 0 FILE 8836 - Substep_Step-20_2.ldr
 0 An axle and connector assembly with two 6-stud axles, pin/bush connectors, and bushings.
 0 Name: 8836 - Substep_Step-20_2.ldr
@@ -836,6 +859,7 @@
 
 
 
+0 STEP
 0 FILE 8836 - Substep_Step-20_3.ldr
 0 A towball joint assembly with a toggle joint connector and axle towball on a half-bush.
 0 Name: 8836 - Substep_Step-20_3.ldr
@@ -854,6 +878,7 @@
 
 
 
+0 STEP
 0 FILE 8836 - Substep_Step-21_1.ldr
 0 Axle assembly with toggle joint connectors forming a steering linkage joint.
 0 Name: 8836 - Substep_Step-21_1.ldr
@@ -881,6 +906,7 @@
 
 
 
+0 STEP
 0 FILE 8836 - Substep_Step-21_2.ldr
 0 Axle assembly with toggle joint connectors mirroring the steering linkage joint.
 0 Name: 8836 - Substep_Step-21_2.ldr
@@ -908,6 +934,7 @@
 
 
 
+0 STEP
 0 FILE 8836 - technicflexSysCable-1.ldr
 0 Technic flex-system pneumatic cable with two light grey end fittings.
 0 Name: 8836 - technicflexSysCable-1.ldr
@@ -956,6 +983,7 @@
 
 
 
+0 STEP
 0 FILE 8836 - technicflexSysCable-1_subPart1.ldr
 0 Geometry sub-part of the flex-system cable containing cylinder and ring segment primitives.
 0 Name: 8836 - technicflexSysCable-1_subPart1.ldr
@@ -1258,6 +1286,7 @@
 5 24 82.496246 1.847788 -4.203089 82.553459 1.999987 -3.43983 83.493317 1.8478 -4.279475 67.370201 1.8478 -3.044139
 
 
+0 STEP
 0 FILE 8836 - shock-06_5L-soft-1.ldr
 0 6.5L soft Technic shock absorber with cylinder, piston rod, and spring.
 0 Name: 8836 - shock-06_5L-soft-1.ldr
@@ -1309,6 +1338,7 @@
 
 
 
+0 STEP
 0 FILE 8836 - shock-06_5L-soft-1_springMesh.ldr
 0 Coiled spring mesh for the 6.5L shock absorber with 11 windings across three sections.
 0 Name: 8836 - shock-06_5L-soft-1_springMesh.ldr

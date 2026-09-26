@@ -558,6 +558,7 @@
 1 0 30 -48 -520 0 0 -1 0 1 0 1 0 0 21034 - 18.ldr
 1 15 37.071 -24 -97.071 -0.707 0 0.707 0 1 0 -0.707 0 -0.707 21034 - 19.ldr
 
+0 STEP
 0 FILE 21034 - 1.ldr
 0 1
 0 Name: 21034 - 1.ldr
@@ -593,6 +594,7 @@
 1 0 30 -8 -70 0 0 -1 0 1 0 1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 21034 - 2.ldr
 0 2
 0 Name: 21034 - 2.ldr
@@ -618,6 +620,7 @@
 1 0 18 6 0 0 -1 0 0 0 -1 1 0 0 3069b.dat
 
 
+0 STEP
 0 FILE 21034 - 3.ldr
 0 3
 0 Name: 21034 - 3.ldr
@@ -641,6 +644,7 @@
 1 71 -38 -12 0 0 1 0 -1 0 0 0 0 1 30165.dat
 
 
+0 STEP
 0 FILE 21034 - 4.ldr
 0 4
 0 Name: 21034 - 4.ldr
@@ -672,6 +676,7 @@
 1 71 -30 10 -70 0 1 0 -0.819028 0 -0.57349 -0.57349 0 0.819028 48729a.dat
 
 
+0 STEP
 0 FILE 21034 - 5.ldr
 0 5
 0 Name: 21034 - 5.ldr
@@ -723,6 +728,7 @@
 1 15 20 -72 0 -1 0 0 0 1 0 0 0 -1 61252.dat
 
 
+0 STEP
 0 FILE 21034 - 6.ldr
 0 6
 0 Name: 21034 - 6.ldr
@@ -750,6 +756,7 @@
 1 297 0 -24 0 0 0 -1 0 1 0 1 0 0 6141.dat
 
 
+0 STEP
 0 FILE 21034 - 7 - 1.ldr
 0 7 - 1
 0 Name: 21034 - 7 - 1.ldr
@@ -812,6 +819,7 @@
 1 73 49.981 -52.6602 -269.093 -0.0001 0.0965 0.9999 0.8125 4.5436 -0.0072 0.5829 -6.3331 0.0101 21034 - LS41.dat
 1 73 50 -51.7651 -270.341 0 0 1 0.8192 0.5736 0 0.5736 -0.8192 0 21034 - LS40.DAT
 
+0 STEP
 0 FILE 21034 - 7 - 2.ldr
 0 7 - 2
 0 Name: 21034 - 7 - 2.ldr
@@ -874,6 +882,7 @@
 1 73 -49.981 -52.66 -269.093 0.0001 -0.0965 -0.9999 0.8125 4.5436 -0.0072 0.5829 -6.3331 0.0101 21034 - LS41.dat
 1 73 -50 -51.765 -270.341 0 0 -1 0.8192 0.5736 0 0.5736 -0.8192 0 21034 - LS40.DAT
 
+0 STEP
 0 FILE 21034 - 8.ldr
 0 8
 0 Name: 21034 - 8.ldr
@@ -895,6 +904,7 @@
 1 15 0 -8 -30 -1 0 0 0 1 0 0 0 -1 2412b.dat
 
 
+0 STEP
 0 FILE 21034 - 9.ldr
 0 9
 0 Name: 21034 - 9.ldr
@@ -922,6 +932,7 @@
 1 15 10 0 -20 1 0 0 0 1 0 0 0 1 61409.dat
 
 
+0 STEP
 0 FILE 21034 - 10.ldr
 0 10
 0 Name: 21034 - 10.ldr
@@ -941,6 +952,7 @@
 1 15 0 -28 0 -1 0 0 0 -1 0 0 0 1 85861.dat
 
 
+0 STEP
 0 FILE 21034 - 11.ldr
 0 11
 0 Name: 21034 - 11.ldr
@@ -962,6 +974,7 @@
 1 15 -9 -6 10 0 1 0 0 0 1 1 0 0 30374.dat
 
 
+0 STEP
 0 FILE 21034 - 12.ldr
 0 12
 0 Name: 21034 - 12.ldr
@@ -977,6 +990,7 @@
 1 15 0 4 0 -1 0 0 0 -1 0 0 0 1 30374.dat
 
 
+0 STEP
 0 FILE 21034 - 13.ldr
 0 13
 0 Author: Damien Roux [Darats]
@@ -1028,6 +1042,7 @@
 1 15 -78 -355.759 -331.288 1 0 0 0 -0.123 0.998 0 2.018 0.061 21034 - LS51.dat
 1 15 -78 -355.838 -312 1 0 0 0 0 1 0 -18 0 21034 - LS50.dat
 
+0 STEP
 0 FILE 21034 - 14.ldr
 0 14
 0 Name: 21034 - 14.ldr
@@ -1045,6 +1060,7 @@
 1 15 0 -8 -10 0 0 -1 0 1 0 1 0 0 15712.dat
 
 
+0 STEP
 0 FILE 21034 - 15.ldr
 0 15
 0 Name: 21034 - 15.ldr
@@ -1070,6 +1086,7 @@
 1 19 0 -64 0 0 0 1 0 1 0 -1 0 0 3022.dat
 
 
+0 STEP
 0 FILE 21034 - 16.ldr
 0 16
 0 Name: 21034 - 16.ldr
@@ -1090,6 +1107,7 @@
 0 // Plate  2 x  2 (dark_bluish_grey)
 1 72 0 -48 0 1 0 0 0 1 0 0 0 1 3022.dat
 
+0 STEP
 0 FILE 21034 - 17.ldr
 0 17
 0 Name: 21034 - 17.ldr
@@ -1113,6 +1131,7 @@
 1 15 20 -8 0 0 0 1 0 1 0 -1 0 0 15712.dat
 
 
+0 STEP
 0 FILE 21034 - 18.ldr
 0 18
 0 Name: 21034 - 18.ldr
@@ -1140,6 +1159,7 @@
 1 15 0 -104 0 1 0 0 0 1 0 0 0 1 90398.dat
 
 
+0 STEP
 0 FILE 21034 - 19.ldr
 0 19
 0 Name: 21034 - 19.ldr
@@ -1154,6 +1174,7 @@
 0 // Bar  0.5L with Blade 3L (light_bluish_grey)
 1 71 0 -10 0 -1 0 0 0 1 0 0 0 -1 64727.dat
 
+0 STEP
 0 FILE 21034 - 4162p19.dat
 0 Tile 1 x  8 with "London" Pattern
 0 Name: 21034 - 4162p19.dat
@@ -1536,6 +1557,7 @@
 3 16 80 0 10 20.613 0 1.14 20.825 0 0.681
 3 16 80 0 10 20.825 0 0.681 20.966 0 0.116
 
+0 STEP
 0 FILE 21034 - 25269.dat
 0 Tile 1 x  1 Corner Round
 0 Name: 21034 - 25269.dat
@@ -1549,6 +1571,7 @@
 0 // Disc 0.25 (main_colour)
 1 16 -10 0 10 0 0 20 0 1 0 -20 0 0 1-4disc.dat
 
+0 STEP
 0 FILE 21034 - LS40.DAT
 0 ~LSynth Technic Flexible Axle - End Piece
 0 Name: 21034 - LS40.DAT
@@ -1574,6 +1597,7 @@
 1 16 0 4 0 0 1 0 1 0 0 0 0 -1 s\faxle4.dat
 1 16 0 0 0 0 1 0 1 0 0 0 0 -1 s\faxle5.dat
 
+0 STEP
 0 FILE 21034 - LS41.dat
 0 ~LSynth Technic Flexible Axle - Cross Section
 0 Name: 21034 - LS41.dat
@@ -1636,6 +1660,7 @@
 4 16 0 1 -6 0 1 0 2 1 -2 2 1 -5.602
 4 16 0 1 -6 -2 1 -5.602 -2 1 -2 0 1 0
 
+0 STEP
 0 FILE 21034 - LS50.dat
 0 LSynth flex hose end piece made of cylinders, circles, and rings.
 0 Name: 21034 - LS50.dat
@@ -1664,6 +1689,7 @@
 0 // Ring  1 x 1.0 (main_colour)
 1 16 0 1 0 2 0 0 0 -1 0 0 0 -2 4-4ring1.dat
 
+0 STEP
 0 FILE 21034 - LS51.dat
 0 LSynth flex hose cross section made of cylinders and rings.
 0 Name: 21034 - LS51.dat
@@ -1689,6 +1715,7 @@
 0 // Ring  1 x 1.0 (main_colour)
 1 16 0 1 0 2 0 0 0 -1 0 0 0 2 4-4ring1.dat
 
+0 STEP
 0 FILE 21034 - 3003p0b.dat
 0 Patterned 2x2 brick tile with black rings and gold discs forming a clock face design.
 0 Name: 21034 - 3003p0b.dat
@@ -3533,6 +3560,7 @@
 4 72 9.044 12.213 -20 9.129 12.196 -20 9.264 12 -20 8.497 12.213 -20
 3 72 9.264 12 -20 8.233 12.213 -20 8.497 12.213 -20
 
+0 STEP
 0 FILE s\21034 - 25269s01.dat
 0 Smooth underside of a rounded corner tile constructed from boxes, rectangles, and small circular arcs.
 0 Name: s\21034 - 25269s01.dat

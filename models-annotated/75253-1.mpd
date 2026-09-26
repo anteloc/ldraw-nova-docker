@@ -8,6 +8,7 @@
 1 71 0 8 50 0 0 -1 -0.966 0.259 0 0.259 0.966 0 75253 - body.ldr
 
 
+0 STEP
 0 FILE 75253 - boostengine.ldr
 0 Powered drive unit built around a Boost Move Hub, using two rubber-tyred wheels mounted on technic axles for locomotion.
 0 Name: 75253 - boostengine.ldr
@@ -43,6 +44,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 75253 - boostenginefront.ldr
 0 Front cover panel for the boost engine, formed from plates, a wedge, and a bracket with a decorative dish.
 0 Name: 75253 - boostenginefront.ldr
@@ -68,6 +70,7 @@
 1 0 0 -12 -48 1 0 0 0 0 1 0 -1 0 2654.dat
 
 
+0 STEP
 0 FILE 75253 - body.ldr
 0 Main central body section composed of technic bricks, plates, axles, gears, and colored wing/panel detail pieces that form the core frame.
 0 Name: 75253 - body.ldr
@@ -346,6 +349,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 75253 - body2.ldr
 0 Small geared mechanical body segment using a technic plate, bevel gear, bushing, and a truncated cone detail.
 0 Name: 75253 - body2.ldr
@@ -370,6 +374,7 @@
 1 15 0 -36 0 0 0 1 0 1 0 -1 0 0 98100.dat
 
 
+0 STEP
 0 FILE 75253 - body3.ldr
 0 Body sub-assembly featuring a 40-tooth gear drive with technic bricks, axles, and colored plate detailing.
 0 Name: 75253 - body3.ldr
@@ -430,6 +435,7 @@
 1 14 0 -46 -35 1 0 0 0 1 0 0 0 1 32123b.dat
 
 
+0 STEP
 0 FILE 75253 - body4.ldr
 0 Symmetrical body section with blue bricks, wings, a technic rotor, and bracket-reinforced plating.
 0 Name: 75253 - body4.ldr
@@ -514,6 +520,7 @@
 1 71 -14 -4 60 0 1 0 0 0 -1 -1 0 0 15068.dat
 
 
+0 STEP
 0 FILE 75253 - body5.ldr
 0 Flat angled body panel made of slope plates and a large base plate forming a tapered surface.
 0 Name: 75253 - body5.ldr
@@ -537,6 +544,7 @@
 1 71 10 -16 10 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 75253 - body6.ldr
 0 Structural body core using an open-center technic brick, brackets, and inverted slopes to shape the frame.
 0 Name: 75253 - body6.ldr
@@ -620,6 +628,7 @@
 1 71 40 -16 70 -1 0 0 0 1 0 0 0 -1 99207.dat
 
 
+0 STEP
 0 FILE 75253 - body7.ldr
 0 Inverted-slope body panel with tiles and plates forming a smooth angled surface.
 0 Name: 75253 - body7.ldr
@@ -642,6 +651,7 @@
 1 15 -20 -8 -60 0 0 1 0 1 0 -1 0 0 3460.dat
 
 
+0 STEP
 0 FILE 75253 - body8.ldr
 0 Inverted-slope body panel with tiles and plates forming a smooth angled surface, mirroring body7.
 0 Name: 75253 - body8.ldr
@@ -664,6 +674,7 @@
 1 15 20 -8 -60 0 0 -1 0 1 0 1 0 0 3460.dat
 
 
+0 STEP
 0 FILE 75253 - powerFunc2Color-LQ-1.ldr
 0 Cabled Power Functions 2.0 Boost Colour & Distance Sensor assembly with routed flexible cable segments.
 0 Name: 75253 - powerFunc2Color-LQ-1.ldr
@@ -716,6 +727,7 @@
 
 
 
+0 STEP
 0 FILE 75253 - powerFunc2Color-LQ-1_subPart1.ldr
 0 Cable-routing subpart containing generated path segments for the colour sensor cable.
 0 Name: 75253 - powerFunc2Color-LQ-1_subPart1.ldr
@@ -917,6 +929,7 @@
 1 16 39.998389 38.892806 -17.023143 -0.03328 0.004238 -0.999446 -0.036078 -3.997396 0.000142 -0.998795 0.144251 0.033296 u9218.dat
 
 
+0 STEP
 0 FILE 75253 - powerFunc2MotorInteractive-LQ-1.ldr
 0 Cabled Power Functions 2.0 Boost Interactive Motor assembly with routed flexible cable segments.
 0 Name: 75253 - powerFunc2MotorInteractive-LQ-1.ldr
@@ -965,6 +978,7 @@
 
 
 
+0 STEP
 0 FILE 75253 - powerFunc2MotorInteractive-LQ-1_subPart1.ldr
 0 Cable-routing subpart containing generated path segments for the interactive motor cable.
 0 Name: 75253 - powerFunc2MotorInteractive-LQ-1_subPart1.ldr
@@ -1179,6 +1193,7 @@
 1 16 -54.318344 161.052574 39.911511 -0.076314 -3.955382 0.127909 0.997082 -0.301741 0.011711 -0.001931 0.513717 0.991717 u9218.dat
 
 
+0 STEP
 0 FILE 75253 - head.ldr
 0 Rounded droid head built from round bricks, facet bricks, plates, and colored tile eye details.
 0 Name: 75253 - head.ldr
@@ -1382,6 +1397,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 75253 - leftarm.ldr
 0 Blue-accentuated articulated arm built from technic plates, brackets, hinge joints, and curved arches.
 0 Name: 75253 - leftarm.ldr
@@ -1506,6 +1522,7 @@
 1 15 20 8 0 0 0 1 0 1 0 -1 0 0 2654.dat
 
 
+0 STEP
 0 FILE 75253 - rightarm.ldr
 0 Red-accentuated articulated arm mirroring the left arm, built from technic plates, brackets, hinge joints, and curved arches.
 0 Name: 75253 - rightarm.ldr
@@ -1630,6 +1647,7 @@
 1 15 20 8 0 0 0 1 0 1 0 -1 0 0 2654.dat
 
 
+0 STEP
 0 FILE 75253 - foot.ldr
 0 Articulated foot assembly using large plates, hinge joints, technic connectors, and offset peghole plates for ankle articulation.
 0 Name: 75253 - foot.ldr
@@ -1728,6 +1746,7 @@
 1 15 -30 -28 -100 0 0 -1 -1 0 0 0 1 0 2431.dat
 
 
+0 STEP
 0 FILE 75253 - 24309ps1.dat
 0 Printed or patterned decorative part used as a detailed component piece.
 0 Name: 75253 - 24309ps1.dat
@@ -1791,6 +1810,7 @@
 5 24 -20 9.1499 -12.4268 20 9.1499 -12.4268 -20 14.1072 -21.658899 -20 5.1963 -2.4735
 5 24 -20 14.1072 -21.658899 20 14.1072 -21.658899 -20 20 -30 -20 9.1499 -12.4268
 
+0 STEP
 0 FILE 75253 - 4185a.dat
 0 Technic flexible axle or ribbed hose primitive defined by cylindrical and rectangular geometric primitives.
 0 Name: 75253 - 4185a.dat
@@ -1866,6 +1886,7 @@
 0 // Cylinder Open 0.5 (main_colour)
 1 16 -11 0 -3 0 0 -1 1 0 0 0 6 0 2-4cylo.dat
 
+0 STEP
 0 FILE 75253 - 49612.dat
 0 Decorative part primitive used as a detailed component piece.
 0 Name: 75253 - 49612.dat
@@ -1888,6 +1909,7 @@
 5 24 19.296 8.262 -19.296 4.142 4 -4.142 7.32 4 0 0 4 -7.32
 5 24 44.242599 64 -44.242599 44.242599 60 -44.242599 45.5434 64 -42.2962 42.2962 64 -45.5434
 
+0 STEP
 0 FILE 75253 - 44375bps1.dat
 0 Printed or patterned decorative part used as a detailed component piece.
 0 Name: 75253 - 44375bps1.dat
@@ -1908,6 +1930,7 @@
 1 16 0 0 0 -0.5 0 -0.86603 0 1 0 0.86603 0 -0.5 s\75253 - 44375bps1s01.dat
 1 16 0 0 0 0.5 0 -0.86603 0 1 0 0.86603 0 0.5 s\75253 - 44375bps1s01.dat
 
+0 STEP
 0 FILE 75253 - 55889.dat
 0 Technic connector or ring-based primitive defined by cylindrical and circular geometric primitives.
 0 Name: 75253 - 55889.dat
@@ -1935,6 +1958,7 @@
 1 16 0 0 0 -1 0 0 0 -1 0 0 0 1 s\75253 - 55889s01.dat
 1 16 0 0 0 0 1 0 -1 0 0 0 0 1 s\75253 - 55889s01.dat
 
+0 STEP
 0 FILE s\75253 - 98138s01.dat
 0 Small ring subpart primitive forming a simple circular ring element.
 0 Name: s\75253 - 98138s01.dat
@@ -1954,6 +1978,7 @@
 0 // Ring  9 x 1.0 (main_colour)
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 4-4ring9.dat
 
+0 STEP
 0 FILE s\75253 - 98138s02.dat
 0 Concentric ring assembly with two open cylinders forming a small circular rim detail.
 0 Name: s\75253 - 98138s02.dat
@@ -1973,6 +1998,7 @@
 0 // Cylinder Open 1.0 (main_colour)
 1 16 0 0 0 10 0 0 0 7 0 0 0 10 4-4cylo.dat
 
+0 STEP
 0 FILE s\75253 - 3660s01.dat
 0 Box-shaped submodel composed of rectangles and edge faces forming an angular bracket structure.
 0 Name: s\75253 - 3660s01.dat
@@ -2041,6 +2067,7 @@
 0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=S 6 20] [grid=C 2 1 20 0]
 0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=R 6 4] [grid=C 2 1 20 0]
 
+0 STEP
 0 FILE 75253 - 6192.dat
 0 Cylindrical housing built from boxes, open cylinders, and chord segments forming a half-rounded casing.
 0 Name: 75253 - 6192.dat
@@ -2094,6 +2121,7 @@
 
 0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=R 6 4] [grid=C 4 C 2 20 20]
 
+0 STEP
 0 FILE s\75253 - 6192s01.dat
 0 Rounded cap formed by sloped cylinders and half circles around a central full cylinder.
 0 Name: s\75253 - 6192s01.dat
@@ -2126,6 +2154,7 @@
 
 1 16 0 0 0 0 0 8 0 -8 0 8 0 0 75253 - cylj2_1x2.dat
 
+0 STEP
 0 FILE 75253 - cylj2_1x2.dat
 0 Empty cylindrical joint submodel with no direct geometric pieces.
 0 Name: 75253 - cylj2_1x2.dat
@@ -2192,6 +2221,7 @@
 5 24 0 -0.308986 1 0 0 1 -0.3827 -1 0.9239 0.3827 -1 0.9239
 5 24 0.9239 -0.308986 0.3827 0.9239 -0.258127 0.3827 0.7071 -1 0.7071 1 -1 0
 
+0 STEP
 0 FILE s\75253 - 49612s01.dat
 0 Complex curved surface detail built from sloped cylinders, rings, and circles forming a rounded contoured panel.
 0 Name: s\75253 - 49612s01.dat
@@ -2712,6 +2742,7 @@
 2 24 2.6088 4.5859 -9 0.97 4.3858 -9
 5 24 38.143501 60 -48.723099 40.726002 38.57 -40.726002 37.663799 54.2407 -47.585098 41.5452 60 -45.7925
 
+0 STEP
 0 FILE 48\75253 - r08o3000.dat
 0 Torus ring segment primitive with major radius 1 and minor radius 3 defined by edge and conditional line geometry.
 0 Name: 48\75253 - r08o3000.dat
@@ -2963,6 +2994,7 @@
 5 24 2.8102 0.3915 2.8102 2.8284 0 2.8284 2.4402 0.3915 3.1802 3.1531 0.3915 2.4195
 0 // Build by LDPartEditor (PrimGen 2.X)
 
+0 STEP
 0 FILE 75253 - 7-16ring3.dat
 0 Single primitive ring segment generated by PrimGen forming a partial annular ring.
 0 Name: 75253 - 7-16ring3.dat
@@ -2981,6 +3013,7 @@
 4 16 -2.8284 0 2.8284 -3.6956 0 1.5308 -2.7717 0 1.1481 -2.1213 0 2.1213
 0 // Build by LDPartEditor (PrimGen 2.X)
 
+0 STEP
 0 FILE s\75253 - 44375bps1s01.dat
 0 Empty submodel shell with no direct geometric pieces.
 0 Name: s\75253 - 44375bps1s01.dat
@@ -3087,6 +3120,7 @@
 5 24 12.94 6 48.294998 6.525 6 49.57 5.22 3 39.655998 7.83 11 59.484001
 5 24 6.525 6 49.57 0 6 50 0 3 40 0 11 60
 
+0 STEP
 0 FILE s\75253 - 4185as01.dat
 0 Tapered nozzle or vent detail built from open cylinders, rings, and negative discs forming a stepped circular opening.
 0 Name: s\75253 - 4185as01.dat
@@ -3235,6 +3269,7 @@
 3 16 26.024 -3.426 -4.375 26.25 0 -4.375 30 0 -4.375
 3 16 25.048 -7.929 -4.375 25.355 -6.794 -4.375 28.249001 -7.072 -4.375
 
+0 STEP
 0 FILE 75253 - npeghol3.dat
 0 Notched peg hole detail composed of open cylinders, rings, and rectangular edge faces.
 0 Name: 75253 - npeghol3.dat
@@ -3280,6 +3315,7 @@
 0 // Box with  2 Faces without  7 Edges (main_colour)
 1 16 2.7222 0.5 -3.041 0 -0.72215 0 0.5 0 0 0 0.14395 1.5 box2-7.dat
 
+0 STEP
 0 FILE s\75253 - 55889s01.dat
 0 Small cylindrical detail formed by partial circles and cylinders with rectangular edge connectors.
 0 Name: s\75253 - 55889s01.dat

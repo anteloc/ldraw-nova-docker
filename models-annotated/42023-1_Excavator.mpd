@@ -169,6 +169,7 @@
 1 4 0 -90 -178 1 0 0 0 0 -1 0 1 0 42023 - Sub10.ldr
 1 4 20 -120 -80 -1 0 0 0 -1 0 0 0 1 42023 - Sub11.ldr
 
+0 STEP
 0 FILE 42023 - Sub01.ldr
 0 Tracked drive unit built around chain treads, beams, and bevel gears for the excavator's crawler tracks.
 0 Name: 42023 - Sub01.ldr
@@ -289,6 +290,7 @@
 0 // =Technic Chain Tread 2.5 Wide (black)
 1 0 -139.941 15.977 0 0 0.529919 0.848048 0 -0.848048 0.529919 1 0 0 15379.dat
 
+0 STEP
 0 FILE 42023 - Sub02.ldr
 0 Compact structural linkage assembly of red beams and an H-shaped liftarm with connecting pins.
 0 Name: 42023 - Sub02.ldr
@@ -319,6 +321,7 @@
 0 // Technic Pin with Friction and Slots (black)
 1 0 10 0 -40 1 0 0 0 1 0 0 0 1 2780.dat
 
+0 STEP
 0 FILE 42023 - Sub03.ldr
 0 Small gear-and-axle drivetrain segment using an 8-tooth gear, axle joiners, and a stop bush.
 0 Name: 42023 - Sub03.ldr
@@ -341,6 +344,7 @@
 0 // Technic Axle  2 Notched (red)
 1 4 0 -122 0 0 0 -1 1 0 0 0 -1 0 32062.dat
 
+0 STEP
 0 FILE 42023 - Sub04.ldr
 0 Axle and gear coupler subassembly with bevel gear and inline axle joiners for torque transfer.
 0 Name: 42023 - Sub04.ldr
@@ -365,6 +369,7 @@
 0 // Technic Gear 12 Tooth Bevel (tan)
 1 19 0 0 13 1 0 0 0 1 0 0 0 1 6589.dat
 
+0 STEP
 0 FILE 42023 - Sub05.ldr
 0 Simple beam linkage of red liftarms joined by long friction pins on an axle.
 0 Name: 42023 - Sub05.ldr
@@ -392,6 +397,7 @@
 1 4 0 0 60 0 1 0 1 0 0 0 0 -1 32524.dat
 1 4 -20 96 192 0 -1 0 0.8 0 -0.6 0.6 0 0.8 42023 - Sub07.ldr
 
+0 STEP
 0 FILE 42023 - Sub06.ldr
 0 Cylinder and lever mechanism with white curved liftarms, pins, and a trans-orange domed cylinder for fluid detail.
 0 Name: 42023 - Sub06.ldr
@@ -430,6 +436,7 @@
 0 // Cylinder Domed  1 x  1 x  1.667 with Bar (trans_orange)
 1 57 0 -1 -20 0 0 1 0 1 0 -1 0 0 58176.dat
 
+0 STEP
 0 FILE 42023 - Sub07.ldr
 0 Excavator arm (boom and stick) ending in a black excavator bucket, built from bent and straight red beams.
 0 Name: 42023 - Sub07.ldr
@@ -480,6 +487,7 @@
 1 72 -60 -60 0 0 0 1 -1 0 0 0 -1 0 42023 - Sub12.ldr
 1 72 60 -40 0 0.445 0 0.896 0 1 0 -0.896 0 0.445 42023 - Sub13.ldr
 
+0 STEP
 0 FILE 42023 - Sub08.ldr
 0 Linear actuator assembly combining the actuator body, piston, orange actuator, and a 12-tooth bevel drive gear.
 0 Name: 42023 - Sub08.ldr
@@ -498,6 +506,7 @@
 0 // Technic Gear 12 Tooth Bevel (tan)
 1 19 0 0 27 -0.987688 -0.156434 0 -0.156434 0.987688 0 0 0 -1 6589.dat
 
+0 STEP
 0 FILE 42023 - Sub09.ldr
 0 Drive shaft assembly with a 20-tooth bevel gear and half-bushes on a long axle.
 0 Name: 42023 - Sub09.ldr
@@ -518,6 +527,7 @@
 0 // Technic Gear 20 Tooth Bevel (tan)
 1 19 17 0 0 0 0 1 0 1 0 -1 0 0 32198.dat
 
+0 STEP
 0 FILE 42023 - Sub10.ldr
 0 Decorative bodywork panel with plates, curved slopes, grooved tiles, and trans-red light elements.
 0 Name: 42023 - Sub10.ldr
@@ -558,6 +568,7 @@
 0 // Slope Brick 31  1 x  1 x  0.667 (trans_red)
 1 36 90 16 -30 0 0 -1 0 1 0 1 0 0 54200.dat
 
+0 STEP
 0 FILE 42023 - Sub11.ldr
 0 Structural frame subassembly of multiple red beam-9 liftarms connected with cross blocks and pins.
 0 Name: 42023 - Sub11.ldr
@@ -606,6 +617,7 @@
 0 // Technic Pin Long with Stop Bush (red)
 1 4 80 0 -60 1 0 0 0 0 1 0 -1 0 32054.dat
 
+0 STEP
 0 FILE 42023 - Sub12.ldr
 0 Small control lever or linkage made from a thin liftarm with boss, stopped axle, and axle connector.
 0 Name: 42023 - Sub12.ldr
@@ -622,6 +634,7 @@
 0 // Technic Beam  3 x  0.5 Liftarm with Boss and Pin with Closed Central Axle Hole (black)
 1 0 -40 0 0 0 -1 0 0 0 -1 1 0 0 33299.dat
 
+0 STEP
 0 FILE 42023 - Sub13.ldr
 0 Support beam linkage of two dark bluish grey beams joined by pins, axle, and half-bushes.
 0 Name: 42023 - Sub13.ldr

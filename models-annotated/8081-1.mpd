@@ -7,6 +7,7 @@
 1 4 0 -1.942 -0.213 1 0 0 0 1 -0.019 0 0.019 1 8081 - Extreme Cruiser.ldr
 
 
+0 STEP
 0 FILE 8081 - Frame.ldr
 0 Structural chassis core built from large liftarms, gears, and axle joiners forming the vehicle's main framework.
 0 Name: 8081 - Frame.ldr
@@ -181,6 +182,7 @@
 1 72 0 -40 -120 1 0 0 0 1 0 0 0 1 3647.dat
 
 
+0 STEP
 0 FILE 8081 - Frame08.ldr
 0 Small bent liftarm and pin linkage subassembly used to connect frame elements.
 0 Name: 8081 - Frame08.ldr
@@ -200,6 +202,7 @@
 1 4 -40 0 40 -1 0 0 0 1 0 0 0 -1 32054.dat
 
 
+0 STEP
 0 FILE 8081 - Body.ldr
 0 Vehicle body structure assembled from bent liftarms, long beams, and angle connectors forming the main shell.
 0 Name: 8081 - Body.ldr
@@ -337,6 +340,7 @@
 1 0 125.347 -186.007 62.367 -0.977 0 0.214 0.122 0.821 0.558 -0.176 0.571 -0.802 8081 - Hose.ldr
 
 
+0 STEP
 0 FILE 8081 - Frame11.ldr
 0 Geared linkage subassembly using axles, knobs, and short liftarms for motion transfer within the frame.
 0 Name: 8081 - Frame11.ldr
@@ -375,6 +379,7 @@
 1 71 0 40 -120 0 0 1 0 1 0 -1 0 0 60485.dat
 
 
+0 STEP
 0 FILE 8081 - Frame11S04.ldr
 0 Compact cross block and knob gear subassembly for routing motion through the frame.
 0 Name: 8081 - Frame11S04.ldr
@@ -392,6 +397,7 @@
 1 0 0 20 -50 1 0 0 0 1 0 0 0 1 59443.dat
 
 
+0 STEP
 0 FILE 8081 - Frame15.ldr
 0 Simple beam and pin connector subassembly reinforcing the frame structure.
 0 Name: 8081 - Frame15.ldr
@@ -411,6 +417,7 @@
 1 0 10 0 80 1 0 0 0 1 0 0 0 1 2780.dat
 
 
+0 STEP
 0 FILE 8081 - Frame17.ldr
 0 Simple beam and pin connector subassembly reinforcing the frame structure.
 0 Name: 8081 - Frame17.ldr
@@ -430,6 +437,7 @@
 1 0 20 0 -60 0 -1 0 1 0 0 0 0 1 32524.dat
 
 
+0 STEP
 0 FILE 8081 - Frame19.ldr
 0 Differential and universal joint drivetrain subassembly with bevel gears for power distribution.
 0 Name: 8081 - Frame19.ldr
@@ -516,6 +524,7 @@
 1 71 0 0 0 1 0 0 0 1 0 0 0 1 62520.dat
 
 
+0 STEP
 0 FILE 8081 - Frame19S04.ldr
 0 Cross block and axle joint subassembly for connecting drivetrain components.
 0 Name: 8081 - Frame19S04.ldr
@@ -528,6 +537,7 @@
 1 71 0 0 0 1 0 0 0 0 1 0 -1 0 4519.dat
 
 
+0 STEP
 0 FILE 8081 - Frame19S09.ldr
 0 Small cross block and bush subassembly for securing an axle within the drivetrain.
 0 Name: 8081 - Frame19S09.ldr
@@ -543,6 +553,7 @@
 1 71 20 0 0 0 0 -1 0 1 0 1 0 0 3713.dat
 
 
+0 STEP
 0 FILE 8081 - Frame19S11.ldr
 0 Minimal cross block and pin subassembly joining drivetrain linkages.
 0 Name: 8081 - Frame19S11.ldr
@@ -555,6 +566,7 @@
 1 0 10 0 0 -1 0 0 0 1 0 0 0 -1 2780.dat
 
 
+0 STEP
 0 FILE 8081 - Engine.ldr
 0 Engine block assembly with cylinder bricks, gears, and beams forming the motor housing.
 0 Name: 8081 - Engine.ldr
@@ -601,6 +613,7 @@
 1 71 -44 42 -20 0.8 0 0.6 0.6 0 -0.8 0 1 0 32316.dat
 
 
+0 STEP
 0 FILE 8081 - Engine03.ldr
 0 Cylinder head pair with pins forming one bank of the engine.
 0 Name: 8081 - Engine03.ldr
@@ -622,6 +635,7 @@
 1 0 20 26 60 0 0 -1 0 1 0 1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 8081 - Engine04.ldr
 0 Reciprocating engine internals with crankshafts, connecting rods, and pistons.
 0 Name: 8081 - Engine04.ldr
@@ -654,6 +668,7 @@
 1 14 -38.038 -28.528 0 0.6 0.8 0 -0.8 0.6 0 0 0 1 2851.dat
 
 
+0 STEP
 0 FILE 8081 - Engine05.ldr
 0 Cylinder head pair with pins forming one bank of the engine.
 0 Name: 8081 - Engine05.ldr
@@ -675,6 +690,7 @@
 1 1 20 26 70 0 0 -1 0 1 0 1 0 0 6558.dat
 
 
+0 STEP
 0 FILE 8081 - Engine07.ldr
 0 Cross block and angle connector linkage subassembly routing motion from the engine.
 0 Name: 8081 - Engine07.ldr
@@ -704,6 +720,7 @@
 1 0 20 20 0 -1 0 0 0 1 0 0 0 -1 6536.dat
 
 
+0 STEP
 0 FILE 8081 - Front Axle.ldr
 0 Steerable front axle assembly with suspension arms, shock absorber, steering rack, and steering links.
 0 Name: 8081 - Front Axle.ldr
@@ -770,6 +787,7 @@
 1 72 19.797 -12.474 -19.11 0.322 0.156 0.934 -0.946 0.011 0.325 0.04 -0.988 0.151 32005.dat
 
 
+0 STEP
 0 FILE 8081 - Front Axle S10.ldr
 0 Steering arm and axle subassembly providing directional control of the front wheels.
 0 Name: 8081 - Front Axle S10.ldr
@@ -785,6 +803,7 @@
 1 14 -15 0 0 0 0 1 0 1 0 -1 0 0 32123a.dat
 
 
+0 STEP
 0 FILE 8081 - Body09.ldr
 0 Bent liftarm and beam connector subassembly extending the body structure.
 0 Name: 8081 - Body09.ldr
@@ -804,6 +823,7 @@
 1 0 30 180 80 -1 0 0 0 -1 0 0 0 1 2780.dat
 
 
+0 STEP
 0 FILE 8081 - Body11.ldr
 0 Axle and cross block linkage subassembly with red liftarms reinforcing the body framework.
 0 Name: 8081 - Body11.ldr
@@ -845,6 +865,7 @@
 1 71 40 0 -40 0 0 1 0 1 0 -1 0 0 4519.dat
 
 
+0 STEP
 0 FILE 8081 - Body12.ldr
 0 Cross block and beam connector subassembly joining body framework elements.
 0 Name: 8081 - Body12.ldr
@@ -867,6 +888,7 @@
 1 0 40 80 200 1 0 0 0 1 0 0 0 1 8081 - Body12S04.ldr
 
 
+0 STEP
 0 FILE 8081 - Body12S04.ldr
 0 Bent liftarm and pin subassembly adding articulation to the body structure.
 0 Name: 8081 - Body12S04.ldr
@@ -883,6 +905,7 @@
 1 0 0 -80 -20 -1 0 0 0 0 -1 0 -1 0 32054.dat
 
 
+0 STEP
 0 FILE 8081 - Body13.ldr
 0 Cross block and beam connector subassembly joining body framework elements.
 0 Name: 8081 - Body13.ldr
@@ -908,6 +931,7 @@
 1 0 -60 -20 200 0 -1 0 0 0 -1 1 0 0 32316.dat
 
 
+0 STEP
 0 FILE 8081 - Body13S04.ldr
 0 Bent liftarm and pin subassembly adding articulation to the body structure.
 0 Name: 8081 - Body13S04.ldr
@@ -925,6 +949,7 @@
 1 0 0 -80 -20 1 0 0 0 0 -1 0 1 0 32054.dat
 
 
+0 STEP
 0 FILE 8081 - Body15.ldr
 0 Compact Technic linkage assembly with axles, liftarms, and cross blocks forming a small mechanical connector joint.
 0 Name: 8081 - Body15.ldr
@@ -981,6 +1006,7 @@
 1 0 30 -27.839 5 1 0 0 0 0.821 -0.571 0 0.571 0.821 2780.dat
 
 
+0 STEP
 0 FILE 8081 - Body16.ldr
 0 Small Technic connector subassembly using cross blocks, an axle, and a gear tooth element.
 0 Name: 8081 - Body16.ldr
@@ -1003,6 +1029,7 @@
 1 0 0 -20 20 0 0 1 0 1 0 -1 0 0 41669.dat
 
 
+0 STEP
 0 FILE 8081 - Body17.ldr
 0 Steering column assembly featuring a small steering wheel mounted on an axle with a bush and liftarm support.
 0 Name: 8081 - Body17.ldr
@@ -1028,6 +1055,7 @@
 1 71 0 -20 54 1 0 0 0 0 1 0 -1 0 2819.dat
 
 
+0 STEP
 0 FILE 8081 - Body19.ldr
 0 Structural framework built from red and black beams joined by long pins and double pin connectors forming a rigid chassis section.
 0 Name: 8081 - Body19.ldr
@@ -1082,6 +1110,7 @@
 1 0 120 36.55 47.461 0 1 0 -0.795 0 0.612 0.612 0 0.795 32316.dat
 
 
+0 STEP
 0 FILE 8081 - Body19S07.ldr
 0 Long axle assembly with inline joiners and friction pins used to connect and align distant Technic beams.
 0 Name: 8081 - Body19S07.ldr
@@ -1101,6 +1130,7 @@
 1 1 -110 0 0 1 0 0 0 1 0 0 0 1 43093.dat
 
 
+0 STEP
 0 FILE 8081 - Body20.ldr
 0 Short red axle assembly with an angle connector and inline joiners forming a compact linkage joint.
 0 Name: 8081 - Body20.ldr
@@ -1125,6 +1155,7 @@
 1 1 70 0 0 -1 0 0 0 0 1 0 1 0 43093.dat
 
 
+0 STEP
 0 FILE 8081 - Seat.ldr
 0 Driver's seat constructed from blue bent and straight liftarms mounted on a grey support beam.
 0 Name: 8081 - Seat.ldr
@@ -1158,6 +1189,7 @@
 1 1 -20 -60 -40 0 -1 0 0 0 1 -1 0 0 32140.dat
 
 
+0 STEP
 0 FILE 8081 - Body26.ldr
 0 Body panel mounting assembly using a large 5x11 panel attached via angle connectors and friction pins.
 0 Name: 8081 - Body26.ldr
@@ -1186,6 +1218,7 @@
 1 0 110 0 -40 -1 0 0 0 1 0 0 0 -1 2780.dat
 
 
+0 STEP
 0 FILE 8081 - Body28.ldr
 0 Articulated linkage assembly combining a long axle, toggle joint connectors, and a 90-degree angle connector.
 0 Name: 8081 - Body28.ldr
@@ -1213,6 +1246,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 8081 - Body29.ldr
 0 Compact angled linkage with toggle joint connectors and a 90-degree angle connector mounted on a short axle.
 0 Name: 8081 - Body29.ldr
@@ -1237,6 +1271,7 @@
 1 0 -50.001 0 -91.355 0 -0.214 -0.977 1 0 0 0 -0.977 0.214 32014.dat
 
 
+0 STEP
 0 FILE 8081 - Extreme Cruiser.ldr
 0 Main model assembly featuring four off-road wheels with tyres, body fairing panels, and a central support beam forming the core of the Extreme Cruiser vehicle.
 0 Name: 8081 - Extreme Cruiser.ldr
@@ -1308,6 +1343,7 @@
 1 256 -154.162 10 -100 0 0 1 0 1 0 -1 0 0 61480.dat
 
 
+0 STEP
 0 FILE 8081 - Panel02.ldr
 0 Body panel section combining a long black liftarm, a holed brick, and a white grooved tile for a finished exterior surface.
 0 Name: 8081 - Panel02.ldr
@@ -1334,6 +1370,7 @@
 1 15 0 -20 -18 1 0 0 0 0 -1 0 1 0 2431.dat
 
 
+0 STEP
 0 FILE 8081 - Panel03.ldr
 0 Curved body panel assembly with a fairing panel, bent liftarm, and a red translucent light element attached to a support beam.
 0 Name: 8081 - Panel03.ldr
@@ -1379,6 +1416,7 @@
 1 1 -240 0 50 0 -1 0 0 0 -1 1 0 0 43093.dat
 
 
+0 STEP
 0 FILE 8081 - Panel05.ldr
 0 Curved body panel assembly with a fairing panel, bent liftarm, and a red translucent light element forming a mirror of the Panel03 section.
 0 Name: 8081 - Panel05.ldr
@@ -1424,6 +1462,7 @@
 1 1 -240 0 -50 0 1 0 0 0 -1 -1 0 0 43093.dat
 
 
+0 STEP
 0 FILE 8081 - Hose.ldr
 0 Flexible hose assembly composed of multiple curved segments forming an approximately 97mm routed pneumatic or decorative line.
 0 Name: 8081 - Hose.ldr
@@ -2651,6 +2690,7 @@
 5 24 239.534958 -0.7654 -53.220943 237.946136 -0.7654 -52.504944 239.471359 0 -53.359219 239.716141 -1.414199 -52.827007
 
 
+0 STEP
 0 FILE 8081 - Panel07.ldr
 0 Angled body panel mount using bent liftarms and pin joiners to form a structural support for exterior cladding.
 0 Name: 8081 - Panel07.ldr
@@ -2684,6 +2724,7 @@
 1 0 0 -30 -80 0 1 0 1 0 0 0 0 -1 62462.dat
 
 
+0 STEP
 0 FILE 8081 - Panel08.ldr
 0 Long panel support structure built around a 13-stud beam and axle with cross blocks and pins for mounting.
 0 Name: 8081 - Panel08.ldr
@@ -2711,6 +2752,7 @@
 1 0 -100 -20 20 0 0 1 1 0 0 0 1 0 32054.dat
 
 
+0 STEP
 0 FILE 8081 - Panel09.ldr
 0 Wide smooth fairing panel mounted on a red beam using friction pins for an aerodynamic exterior surface.
 0 Name: 8081 - Panel09.ldr
@@ -2728,6 +2770,7 @@
 1 0 0 -20 -120 1 0 0 0 1 0 0 0 1 64392.dat
 
 
+0 STEP
 0 FILE 8081 - Panel10.ldr
 0 Angular support assembly using a double-bent liftarm, axle connector, and angle connector to mount bodywork.
 0 Name: 8081 - Panel10.ldr
@@ -2755,6 +2798,7 @@
 1 1 50 -40 -190 0 0 1 0 -1 0 1 0 0 43093.dat
 
 
+0 STEP
 0 FILE 8081 - Panel11.ldr
 0 Angled body panel mount using bent liftarms and pin joiners, mirroring the Panel07 section on the opposite side.
 0 Name: 8081 - Panel11.ldr
@@ -2788,6 +2832,7 @@
 1 0 30 0 -80 -1 0 0 0 -1 0 0 0 1 62462.dat
 
 
+0 STEP
 0 FILE 8081 - Panel12.ldr
 0 Long panel support structure built around a 13-stud beam and axle with cross blocks and pins, mirroring Panel08.
 0 Name: 8081 - Panel12.ldr
@@ -2814,6 +2859,7 @@
 1 0 100 -20 20 0 0 1 1 0 0 0 1 0 32054.dat
 
 
+0 STEP
 0 FILE 8081 - Panel13.ldr
 0 Wide smooth fairing panel mounted on a red beam using friction pins, mirroring Panel09 with a different fairing variant.
 0 Name: 8081 - Panel13.ldr
@@ -2831,6 +2877,7 @@
 1 0 0 -20 120 -1 0 0 0 1 0 0 0 -1 64682.dat
 
 
+0 STEP
 0 FILE 8081 - Panel14.ldr
 0 Angular support assembly using a double-bent liftarm, axle connector, and angle connector, mirroring Panel10.
 0 Name: 8081 - Panel14.ldr
@@ -2858,6 +2905,7 @@
 1 1 -30 -40 -190 0 0 1 0 -1 0 1 0 0 43093.dat
 
 
+0 STEP
 0 FILE 8081 - Panel15.ldr
 0 Wide fairing panel mounted on a red beam with an angle connector and friction pins for an exterior body surface.
 0 Name: 8081 - Panel15.ldr
@@ -2883,6 +2931,7 @@
 1 1 90 0 -160 -1 0 0 0 1 0 0 0 -1 43093.dat
 
 
+0 STEP
 0 FILE 8081 - Panel16.ldr
 0 Wide smooth fairing panel mounted on a red beam using friction pins for an aerodynamic exterior surface.
 0 Name: 8081 - Panel16.ldr
@@ -2900,6 +2949,7 @@
 1 0 20 0 80 0 -1 0 -1 0 0 0 0 -1 64392.dat
 
 
+0 STEP
 0 FILE 8081 - Panel17.ldr
 0 Short black fairing panel assembly built on an axle with angle connectors and friction pins.
 0 Name: 8081 - Panel17.ldr
@@ -2936,6 +2986,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 8081 - Panel17S04.ldr
 0 Small subassembly joining two angle connectors on a short axle with friction pins.
 0 Name: 8081 - Panel17S04.ldr
@@ -2955,6 +3006,7 @@
 1 1 67.716 0 11.481 -0.924 -0.383 0 0 0 1 -0.383 0.924 0 43093.dat
 
 
+0 STEP
 0 FILE 8081 - Panel18.ldr
 0 Medium black fairing panel structure with beams, cross blocks, and round clear plates on an axle frame.
 0 Name: 8081 - Panel18.ldr
@@ -3012,6 +3064,7 @@
 1 47 -103.843 -20 1.322 0.924 0.383 0 0 0 1 0.383 -0.924 0 6141.dat
 
 
+0 STEP
 0 FILE 8081 - Panel18S07.ldr
 0 Decorative grille assembly using six grille tiles on a black plate with white accents.
 0 Name: 8081 - Panel18S07.ldr
@@ -3043,6 +3096,7 @@
 1 4 60 8 0 0 0 -1 0 1 0 1 0 0 2444.dat
 
 
+0 STEP
 0 FILE 8081 - Panel18S08.ldr
 0 Small clear dish light mounted on a round plate with axlehole and a friction pin.
 0 Name: 8081 - Panel18S08.ldr

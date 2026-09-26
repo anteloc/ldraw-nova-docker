@@ -132,6 +132,7 @@
 1 14 -80 -2.661 -29.819 0 0 1 -0.666 0.745 0 -0.745 -0.666 0 2994.dat
 1 511 -5 -8.801 29.327 0 0 1 -0.667 0.745 0 -0.745 -0.667 0 8202 - rubber_string.ldr
 
+0 STEP
 0 FILE 8202 - Clutch.ldr
 0 A small Technic clutch mechanism built from a 16-tooth gear, angle connector, cross block, and axles.
 0 Name: 8202 - Clutch.ldr
@@ -155,6 +156,7 @@
 0 // Technic Axle  3 with Stud (dark_tan)
 1 28 -20 0 0 1 0 0 0 1 0 0 0 1 6587.dat
 
+0 STEP
 0 FILE 8202 - rubber_string.ldr
 0 A flexible rubber string assembly composed of 179 connected cylinder segments forming an approximately 783 mm long rope.
 0 Name: 8202 - rubber_string.ldr
@@ -551,6 +553,7 @@
 0 // Cylinder 1.0 (main_colour)
 1 16 -0.167995 0.656804 9.993242 1.476017 0.712635 -0.002165 0.26713 -3.937234 -0.010688 -0.004034 0.027026 -1.49996 4-4cyli.dat
 
+0 STEP
 0 FILE 8202 - 57719.dat
 0 A Technic ribbed hose 7L consisting of two end segments and twenty mid segments forming a flexible tube.
 0 Name: 8202 - 57719.dat

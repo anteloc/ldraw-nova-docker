@@ -11,6 +11,7 @@
 1 15 190 -32 -220 1 0 0 0 1 0 0 0 1 6208 - Ten Numb.ldr
 
 
+0 STEP
 0 FILE 6208 - Ten Numb.ldr
 0 A white-suited Rebel pilot minifigure with a reddish brown pilot helmet, representing the Sullustan character Ten Numb.
 0 Name: 6208 - Ten Numb.ldr
@@ -39,6 +40,7 @@
 0 // Minifig Helmet Star Wars Rebel Pilot (reddish_brown)
 1 70 0 -56 0 1 0 0 0 1 0 0 0 1 30370.dat
 
+0 STEP
 0 FILE 6208 - Rebel Pilot B-Wing.ldr
 0 A red-suited Rebel pilot minifigure with a patterned torso, light bluish grey helmet, and trans brown visor.
 0 Name: 6208 - Rebel Pilot B-Wing.ldr
@@ -69,6 +71,7 @@
 0 // ~Minifig Helmet Visor Standard (Obsolete) (trans_brown)
 1 40 0 -56 0 1 0 0 0 1 0 0 0 1 2447.dat
 
+0 STEP
 0 FILE 6208 - B-Wing.ldr
 0 The assembled B-Wing starfighter airframe combining the center body, wings, cockpit arm, engines, and docking components into the complete vessel.
 0 Name: 6208 - B-Wing.ldr
@@ -83,6 +86,7 @@
 1 71 -140 -56 0 0 0 1 0 1 0 -1 0 0 6208 - Cockpit Arm.ldr
 1 72 -280 -70 0 0 1 0 1 0 0 0 0 -1 6208 - Cockpit.ldr
 
+0 STEP
 0 FILE 6208 - Center.ldr
 0 The central fuselage core built from long plates, inverted slopes, and curved wedges forming the structural backbone of the fighter.
 0 Name: 6208 - Center.ldr
@@ -174,6 +178,7 @@
 1 0 0 16 80 0 0 -1 0 1 0 1 0 0 2654.dat
 1 71 -50 -70 -20 0 -1 0 1 0 0 0 0 1 6208 - Center Side 2.ldr
 
+0 STEP
 0 FILE 6208 - Exhaust.ldr
 0 A rear engine exhaust assembly using technic beams, axles, round bricks, and trans neon orange plates to form the thrust nozzles.
 0 Name: 6208 - Exhaust.ldr
@@ -252,6 +257,7 @@
 0 // Dish  2 x  2 Inverted (trans_neon_orange)
 1 38 -30 -10 -58 0 0 1 -1 0 0 0 -1 0 4740.dat
 
+0 STEP
 0 FILE 6208 - 85543.ldr
 0 A flexible rubber band assembly modeled as a sequence of LDCad-generated curved segments forming an elastic loop.
 0 Name: 6208 - 85543.ldr
@@ -1620,6 +1626,7 @@
 5 24 -0.97561 9.952295 -4 -0.91846 9.369304 -2.585786 -1.963974 10.104403 -4 3.916021 9.199023 -4
 5 24 -0.91846 9.369304 -2.585786 -0.780488 7.961836 -2 -1.906824 9.521412 -2.585786 3.685736 8.6604 -2.585786
 
+0 STEP
 0 FILE 6208 - Center Front.ldr
 0 The forward section of the central body featuring brackets, fins, door rails, and red slope details forming the nose and access structures.
 0 Name: 6208 - Center Front.ldr
@@ -1730,6 +1737,7 @@
 0 // Tile  2 x  2 Round with Cross Underside Stud (light_bluish_grey)
 1 71 -55.517 -0.34 0 0.5 0.866 0 0.866 -0.5 0 0 0 -1 4150.dat
 
+0 STEP
 0 FILE 6208 - Center Side 1.ldr
 0 A side panel of the central fuselage built from long plates, locking hinges, and technic pin connections for attaching external components.
 0 Name: 6208 - Center Side 1.ldr
@@ -1772,6 +1780,7 @@
 0 // Technic Pin Long with Friction and Slot (black)
 1 0 0 -54 0 0 0 1 0 1 0 -1 0 0 6558.dat
 
+0 STEP
 0 FILE 6208 - Wing 1.ldr
 0 One of the fighter's large wings constructed from a 6x12 wing element, curved wedges, locking hinges, and support plates.
 0 Name: 6208 - Wing 1.ldr
@@ -1834,6 +1843,7 @@
 0 // Tile  2 x  2 Round with Cross Underside Stud (light_bluish_grey)
 1 71 -20 -18 -170 1 0 0 0 1 0 0 0 1 4150.dat
 
+0 STEP
 0 FILE 6208 - Wing 2.ldr
 0 A broad central wing assembly combining multiple 3x12 wing elements, large curved wedges, and reinforcing plates to form a wide airfoil.
 0 Name: 6208 - Wing 2.ldr
@@ -1924,6 +1934,7 @@
 0 // Tile  2 x  2 Round with Cross Underside Stud (light_bluish_grey)
 1 71 0 -48 -400 0 0 -1 0 1 0 1 0 0 4150.dat
 
+0 STEP
 0 FILE 6208 - Wing 3.ldr
 0 A mirrored large wing built from a 6x12 wing element, rounded wedges, locking hinges, and support plates, mirroring Wing 1.
 0 Name: 6208 - Wing 3.ldr
@@ -1986,6 +1997,7 @@
 0 // Tile  2 x  2 Round with Cross Underside Stud (light_bluish_grey)
 1 71 20 -18 -170 1 0 0 0 1 0 0 0 1 4150.dat
 
+0 STEP
 0 FILE 6208 - Center Side 2.ldr
 0 A rounded side panel of the fuselage using round axlehole plates, curved-top bricks, and angle connectors to form a contoured surface.
 0 Name: 6208 - Center Side 2.ldr
@@ -2042,6 +2054,7 @@
 0 // Slope Brick Curved Top  2 x  2 x  1 (light_bluish_grey)
 1 71 -54 20 60 0 1 0 1 0 0 0 0 -1 30602.dat
 
+0 STEP
 0 FILE 6208 - Cockpit Arm.ldr
 0 The extended support arm connecting the cockpit to the main body, built from technic bricks with holes, wedges, and reinforcing plates.
 0 Name: 6208 - Cockpit Arm.ldr
@@ -2106,6 +2119,7 @@
 0 // Wedge  4 x  4 Triple Curved without Studs (dark_bluish_grey)
 1 72 -80 -14 -6 0 0 1 1 0 0 0 1 0 47753.dat
 
+0 STEP
 0 FILE 6208 - Cockpit.ldr
 0 The enclosed cockpit pod featuring curved wedges, a domed cylinder, brackets, and a reddish brown slope forming the pilot's canopy.
 0 Name: 6208 - Cockpit.ldr
@@ -2198,6 +2212,7 @@
 0 // Windscreen  4 x  7 x  2 Round Pointed (trans_brown)
 1 40 0 14 -130 1 0 0 0 1 0 0 0 1 30384.dat
 
+0 STEP
 0 FILE 6208 - Docking Station.ldr
 0 A yellow maintenance docking platform built from large base plates, slopes, curved-top bricks, and locking hinges forming a service structure.
 0 Name: 6208 - Docking Station.ldr
@@ -2306,6 +2321,7 @@
 1 14 -70 -218 60 1 0 0 0 1 0 0 0 1 6208 - Docking Side 1.ldr
 1 14 70 -218 60 1 0 0 0 1 0 0 0 1 6208 - Docking Side 2.ldr
 
+0 STEP
 0 FILE 6208 - Docking Pillar.ldr
 0 A yellow vertical docking pillar with grille detail, hinge elements, and a clipped bar forming a mounting support.
 0 Name: 6208 - Docking Pillar.ldr
@@ -2336,6 +2352,7 @@
 0 // Bar  7 x  3 with Double Clips (black)
 1 0 -2 -30 -80 1 0 0 0 0.866 -0.5 0 0.5 0.866 6020.dat
 
+0 STEP
 0 FILE 6208 - Docking Side 1.ldr
 0 One side of the docking structure combining yellow technic bricks, a bracket, an arch, and a hinged bar with a trans yellow cone detail.
 0 Name: 6208 - Docking Side 1.ldr
@@ -2372,6 +2389,7 @@
 0 // Bar  1 x  4 x  2 (yellow)
 1 14 -20 -74 40 0 0 1 0 1 0 -1 0 0 6187.dat
 
+0 STEP
 0 FILE 6208 - Docking Side 2.ldr
 0 The mirrored side of the docking structure with yellow technic bricks, an arch, hinge elements, and a trans yellow cone detail.
 0 Name: 6208 - Docking Side 2.ldr

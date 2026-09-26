@@ -18,6 +18,7 @@
 1 15 -304.738 -16 -135.715 0.866 0 -0.5 0 1 0 0.5 0 0.866 6384 - policemen 2.ldr
 
 0 NOFILE
+0 STEP
 0 FILE 6384 - building.ldr
 0 A police station building constructed from black and white bricks on a 32x32 road baseplate featuring a helicopter pad pattern.
 0 building
@@ -510,6 +511,7 @@
 1 46 -90 -230 136 1 0 0 0 0 -1 0 1 0 3024.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6384 - police car.ldr
 0 A white police car built on a 4x10 car base with mudguards, windscreen, and doors printed with the POLICE pattern.
 0 police car
@@ -612,6 +614,7 @@
 1 0 -30 -18 -60 0 0 -1 0 1 0 1 0 0 3641.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6384 - police helicopter.ldr
 0 A white and light grey police helicopter with sloped bodywork, rotor blades, and accessory equipment like torches and a loudhailer.
 0 police helicopter
@@ -800,6 +803,7 @@
 1 0 45 -12 -80 0 0 -1 0 1 0 1 0 0 3962b.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6384 - police motorbike.ldr
 0 A white police motorcycle with POLICE-patterned fairing, windshield, red wheels, and coloured indicator lights.
 0 police motorbike
@@ -836,6 +840,7 @@
 1 15 20 -22.2 0 0 0 -1 0 1 0 1 0 0 3023.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6384 - policemen 1.ldr
 0 A police officer minifigure wearing a white helmet and black torso with a zipper and police badge pattern.
 0 policemen 1
@@ -868,6 +873,7 @@
 1 0 0 -28 0 1 0 0 0 1 0 0 0 1 3816.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6384 - policemen 2.ldr
 0 A police officer minifigure wearing a white police cap and black torso with buttons and a police badge pattern.
 0 policemen 2
@@ -900,6 +906,7 @@
 1 0 0 -28 0 1 0 0 0 1 0 0 0 1 3816.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6384 - men.ldr
 0 A civilian minifigure with black hair, red torso, blue legs, holding signal markers and coloured round plates.
 0 men
@@ -940,6 +947,7 @@
 1 36 21.734 -57.276 -49.598 0.985 -0.12 -0.12 -0.17 -0.697 -0.697 0 0.707 -0.707 6141.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6384 - 4480c01.dat
 0 A complete motorcycle frame subassembly consisting of left and right side panels plus front forks.
 0 Bike 2 Wheel Motorcycle Frame  3 x  6 x  3 (Complete)
@@ -958,6 +966,7 @@
 1 16 0 30 -90 1 0 0 0 0.924 0.383 0 -0.383 0.924 4482.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6384 - 4481.dat
 0 A geometric primitive subassembly defining a cylindrical pin component with stud logo detail.
 0 ~Bike 2 Wheel Motorcycle Frame  3 x  6 x  3 - Left Side
@@ -1029,6 +1038,7 @@
 1 16 11 0 -62 0 -1 0 1 0 0 0 0 1 6384 - logo5.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6384 - 4480.dat
 0 A motorcycle frame primitive model built from geometric boxes, cylinders, and rings forming the body, rear, and between-legs sections.
 0 ~Bike 2 Wheel Motorcycle Frame  3 x  6 x  3 - Right Side
@@ -1201,6 +1211,7 @@
 1 16 -11 0 -62 0 1 0 1 0 0 0 0 -1 6384 - logo5.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6384 - 4481s01.dat
 0 A low-level geometric subpart composed of rectangles, circles, cylinders, discs, and rings used to construct a wheel or hub component.
 0 ~Bike 2 Wheel Motorcycle Frame  3 x  6 x  3 - Left/Right
@@ -2183,6 +2194,7 @@
 5 24 7.4 19.862 -63.392 0 19.862 -63.392 0 6.432 -70.213 7.4 34.01 -55.85
 
 0 NOFILE
+0 STEP
 0 FILE 6384 - logo5.dat
 0 An empty subpart placeholder containing no direct geometry, likely used as a reference container for the LEGO logo element.
 0 LEGO Logo for Studs - 3D Flattened

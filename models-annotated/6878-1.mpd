@@ -11,6 +11,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 6878 - Vehicle.ldr
 1 0 -22.088 14.6 -124.804 -0.185667 0 -0.982613 0 1 0 0.982613 0 -0.185667 6878 - Minifig.ldr
 
+0 STEP
 0 FILE 6878 - Vehicle.ldr
 0 An assembly combining two articulated feet, a middle turntable joint, and a detailed cockpit into a multi-legged vehicle.
 0 Name: 6878 - Vehicle.ldr
@@ -27,6 +28,7 @@
 1 0 76.955 80 35.307 1 0 0 0 1 0 0 0 1 6878 - Vehicle - Foot 2.ldr
 
 
+0 STEP
 0 FILE 6878 - Vehicle - Foot 1.ldr
 0 A right-facing articulated foot built from a large wing panel, sloped armor plates, and turntable bases for leg articulation.
 0 Name: 6878 - Vehicle - Foot 1.ldr
@@ -58,6 +60,7 @@
 1 15 40 -64 -20 0 0 1 0 1 0 -1 0 0 3680.dat
 
 
+0 STEP
 0 FILE 6878 - Vehicle - Foot 2.ldr
 0 A left-facing articulated foot mirroring Foot 1, with a large wing panel, sloped armor, and turntable bases for leg articulation.
 0 Name: 6878 - Vehicle - Foot 2.ldr
@@ -89,6 +92,7 @@
 1 15 -40 -64 -20 0 0 -1 0 1 0 1 0 0 3680.dat
 
 
+0 STEP
 0 FILE 6878 - Vehicle - Middle.ldr
 0 A central turntable-based chassis plate that connects the legs and provides rotation between the vehicle's sections.
 0 Name: 6878 - Vehicle - Middle.ldr
@@ -108,6 +112,7 @@
 1 7 -40 8 0 1 0 0 0 1 0 0 0 1 3679.dat
 
 
+0 STEP
 0 FILE 6878 - Vehicle - Cockpit.ldr
 0 An enclosed cockpit module featuring a hinged roof, control panels, sloped armor, and a turntable base for mounting.
 0 Name: 6878 - Vehicle - Cockpit.ldr
@@ -197,6 +202,7 @@
 1 42 -70 -6 60 1 0 0 0 0 -1 0 1 0 2569.dat
 
 
+0 STEP
 0 FILE 6878 - Minifig.ldr
 0 A white-and-black Blacktron II minifigure equipped with arms, legs, and a dual-nozzle jetpack.
 0 Name: 6878 - Minifig.ldr
@@ -228,6 +234,7 @@
 0 // ~Minifig Leg Left (Obsolete) (white)
 1 15 0 44 0 1 0 0 0 0.987688 -0.156434 0 0.156434 0.987688 3817.dat
 
+0 STEP
 0 FILE 6878 - Minifig - Helmet.ldr
 0 A black standard minifigure helmet paired with a translucent neon green visor.
 0 Name: 6878 - Minifig - Helmet.ldr

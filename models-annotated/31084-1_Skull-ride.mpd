@@ -14,6 +14,7 @@
 1 15 138 -40 -282 0.259 0 -0.966 0 1 0 0.966 0 0.259 31084 - pirate.ldr
 
 
+0 STEP
 0 FILE 31084 - island.ldr
 0 A small rocky island base with a pirate flag, cannon, treasure crate, bottle, and round curved slopes forming terrain.
 0 Name: 31084 - island.ldr
@@ -73,6 +74,7 @@
 1 2 -130 -32 40 1 0 0 0 1 0 0 0 1 31084 - palmtree.ldr
 
 
+0 STEP
 0 FILE 31084 - palmtree.ldr
 0 A tropical palm tree built from tail segments with green curved leaves and arches.
 0 Name: 31084 - palmtree.ldr
@@ -111,6 +113,7 @@
 1 2 30 -159.36 -86.162 0 0 -1 -0.682 0.731 0 0.731 0.682 0 6005.dat
 
 
+0 STEP
 0 FILE 31084 - ticketbooth.ldr
 0 A detailed ticket booth structure with log-textured walls, an archway, reinforced pillars, and a printed ticket tile.
 0 Name: 31084 - ticketbooth.ldr
@@ -350,6 +353,7 @@
 1 72 70 -36 -30 0 0 -1 0 1 0 1 0 0 31084 - skeletton.ldr
 
 
+0 STEP
 0 FILE 31084 - boothroof.ldr
 0 A colorful angled roof section made of plates and curved slopes in orange, azure, and reddish brown.
 0 Name: 31084 - boothroof.ldr
@@ -386,6 +390,7 @@
 1 70 0 24 20 1 0 0 0 1 0 0 0 1 3020.dat
 
 
+0 STEP
 0 FILE 31084 - sign.ldr
 0 A freestanding 'TICKET' sign on a hinged bracket with red and green indicator lights and yellow sloped detailing.
 0 Name: 31084 - sign.ldr
@@ -435,6 +440,7 @@
 1 71 0 -32 -10 1 0 0 0 1 0 0 0 1 3069bp82.dat
 
 
+0 STEP
 0 FILE 31084 - duck.ldr
 0 A small decorative duck figure built from a blue plate, white slope, and dark blue accent piece.
 0 Name: 31084 - duck.ldr
@@ -452,6 +458,7 @@
 1 272 0 -32 0 1 0 0 0 1 0 0 0 1 54200.dat
 
 
+0 STEP
 0 FILE 31084 - skeletton.ldr
 0 A classic LEGO skeleton minifigure armed with a cutlass sword.
 0 Name: 31084 - skeletton.ldr
@@ -475,6 +482,7 @@
 1 72 31.411 -25.277 -31.532 0.981 0.178 0.071 -0.185 0.978 0.096 -0.053 -0.107 0.993 2530.dat
 
 
+0 STEP
 0 FILE 31084 - ride.ldr
 0 The main skull-ride structure with a large tan base, sloped rockwork, sea life, flames, and structural brickwork.
 0 Name: 31084 - ride.ldr
@@ -670,6 +678,7 @@
 1 70 -211.4 -120 114.189 -0.438 0 0.899 0 1 0 -0.899 0 -0.438 31084 - trainfront.ldr
 
 
+0 STEP
 0 FILE 31084 - track.ldr
 0 A long roller coaster track segment with ball-joint connectors, log-textured supports, and sloped rail foundations.
 0 Name: 31084 - track.ldr
@@ -816,6 +825,7 @@
 1 70 0 -14 -315 0 0 -1 -1 0 0 0 1 0 6143.dat
 
 
+0 STEP
 0 FILE 31084 - skullsupport.ldr
 0 A structural support assembly of Technic plates and axles in azure and brown to hold the skull feature.
 0 Name: 31084 - skullsupport.ldr
@@ -859,6 +869,7 @@
 1 0 0 -32 0 1 0 0 0 1 0 0 0 1 31084 - skullsupport2.ldr
 
 
+0 STEP
 0 FILE 31084 - skullsupport2.ldr
 0 An extended skull support structure with round technic plates, handles, log-textured bricks, and a central bar tube.
 0 Name: 31084 - skullsupport2.ldr
@@ -919,6 +930,7 @@
 1 0 50 -54 50 0 0 -1 0 -1 0 -1 0 0 23443.dat
 
 
+0 STEP
 0 FILE 31084 - arm1.ldr
 0 One section of a mechanical arm with plates, a curved slope, a white wing piece, and C-clip handles for articulation.
 0 Name: 31084 - arm1.ldr
@@ -949,6 +961,7 @@
 1 70 -87.377 -47.148 0 0.18 -0.984 0 0.984 0.18 0 0 0 1 31084 - claw.ldr
 
 
+0 STEP
 0 FILE 31084 - claw.ldr
 0 A claw-like grabber mechanism with eye-tile detailing, clips, handles, and white plates forming a pincer shape.
 0 Name: 31084 - claw.ldr
@@ -1000,6 +1013,7 @@
 1 15 -18.594 -15.671 52.079 0.998 0.012 0.065 0.012 0.936 -0.352 -0.065 0.352 0.934 3062b.dat
 
 
+0 STEP
 0 FILE 31084 - arm2.ldr
 0 A jointed arm segment with hinge bricks, white wing elements, and socket joint connectors for articulation.
 0 Name: 31084 - arm2.ldr
@@ -1064,6 +1078,7 @@
 1 10 -50 -64 0 -0.326 0 0.946 0 1 0 -0.946 0 -0.326 6141.dat
 
 
+0 STEP
 0 FILE 31084 - trainfront.ldr
 0 The front car of a roller coaster train with sand-blue base, coaster wheels, reddish-brown log detailing, and a sloped nose.
 0 Name: 31084 - trainfront.ldr
@@ -1107,6 +1122,7 @@
 1 70 82 -10 -20 0 -1 0 0 0 1 -1 0 0 30136.dat
 
 
+0 STEP
 0 FILE 31084 - trainmid.ldr
 0 The middle car of a roller coaster train with coaster wheels, ball-joint connectors, and reddish-brown detailing.
 0 Name: 31084 - trainmid.ldr
@@ -1152,6 +1168,7 @@
 1 272 0 -8 -30 1 0 0 0 1 0 0 0 1 54200.dat
 
 
+0 STEP
 0 FILE 31084 - trainback.ldr
 0 The rear car of a roller coaster train with sand-blue base, coaster wheels, and a curved sloped tail.
 0 Name: 31084 - trainback.ldr
@@ -1192,6 +1209,7 @@
 1 70 -82 -10 -20 0 1 0 0 0 -1 -1 0 0 30136.dat
 
 
+0 STEP
 0 FILE 31084 - father.ldr
 0 An adult male minifigure wearing a dark-azure hoodie over a striped shirt with tousled dark-brown hair and a worried expression.
 0 Name: 31084 - father.ldr
@@ -1221,6 +1239,7 @@
 1 308 0 -56 0 0.848 0 -0.53 0 1 0 0.53 0 0.848 31084 - 23186.dat
 
 
+0 STEP
 0 FILE 31084 - mother.ldr
 0 An adult female minifigure wearing a pink-striped top with flower necklace and short swept dark-orange hair.
 0 Name: 31084 - mother.ldr
@@ -1250,6 +1269,7 @@
 1 484 0 -56 0 0.927 0 0.375 0 1 0 -0.375 0 0.927 31084 - 20877.dat
 
 
+0 STEP
 0 FILE 31084 - boy.ldr
 0 A boy minifigure wearing a train-jacket outfit with a dark-green cap and holding a golden goblet.
 0 Name: 31084 - boy.ldr
@@ -1283,6 +1303,7 @@
 1 15 -27.591 -53.877 -38.907 0.968 0.164 0.193 -0.11 0.958 -0.265 -0.228 0.235 0.945 6141.dat
 
 
+0 STEP
 0 FILE 31084 - pirate.ldr
 0 A pirate minifigure with a striped shirt, vest, bandana, eyepatch, gold teeth, and a cutlass accessory.
 0 Name: 31084 - pirate.ldr
@@ -1312,6 +1333,7 @@
 1 72 -22.501 -33.961 -33.967 0.995 -0.081 0.063 -0.042 0.238 0.971 -0.094 -0.968 0.234 48729b.dat
 
 
+0 STEP
 0 FILE 31084 - 30089b.dat
 0 A primitive part composed of geometric shapes including cylinders, discs, chords, and spheres defining a sculpted LEGO element.
 0 Name: 31084 - 30089b.dat
@@ -1625,6 +1647,7 @@
 5 24 11 0 -0.4 11 0 1 10.1 -8 -0.4 10.4293 2.87025 -0.4
 5 24 -4 0 1 -4 0 -0.4 -3.5245 -4 -0.4 -3.42925 2.87025 1
 
+0 STEP
 0 FILE 31084 - 25061.dat
 0 A primitive part definition with no direct sub-pieces.
 0 Name: 31084 - 25061.dat
@@ -1653,6 +1676,7 @@
 1 16 0 0 0 0.29237 0 0.9563 0 1 0 0.9563 0 -0.29237 s\31084 - 25061s05.dat
 1 16 0 0 0 0.9563 0 -0.29237 0 1 0 0.29237 0 0.9563 s\31084 - 25061s05.dat
 
+0 STEP
 0 FILE 31084 - 26021.dat
 0 A primitive part composed of boxes, cylinders, and disc geometry defining a LEGO element shape.
 0 Name: 31084 - 26021.dat
@@ -1777,6 +1801,7 @@
 2 24 1.5 24 2 1.5 24 -2
 2 24 -1.5 24 2 -1.5 24 -2
 
+0 STEP
 0 FILE 31084 - 24869.dat
 0 A cylindrical and conical assembly forming a tapered structure with open and closed cylinders, cones, and rings.
 0 Name: 31084 - 24869.dat
@@ -1829,6 +1854,7 @@
 0 // Cone  0 x 1.0 (main_colour)
 1 16 -34.5 0 0 0 -2.5 0 0 0 3 -3 0 0 4-4con0.dat
 
+0 STEP
 0 FILE 31084 - 973p99.dat
 0 A single black cylindrical piece, likely a torso body part.
 0 Name: 31084 - 973p99.dat
@@ -2513,6 +2539,7 @@
 4 16 11.45 4.75 10 11.1 6.2 10 10.15 4.4 10 11.5 3.85 10
 3 0 8.8 3.95 -10 8.6 5.15 -10 9.1 2.95 -10
 
+0 STEP
 0 FILE 31084 - 3626cp8w.dat
 0 Two small cylindrical pieces in main colour forming part of a minifigure head.
 0 Name: 31084 - 3626cp8w.dat
@@ -3052,6 +3079,7 @@
 4 16 -1.5934 5.5721 12.6831 0 16.059999 13 -2.096 9.7618 12.5832 -2.2438 9.1104 12.5538
 4 16 -1.908 5.7359 12.6206 -1.5934 5.5721 12.6831 -2.2438 9.1104 12.5538 -2.5958 8.5701 12.4838
 
+0 STEP
 0 FILE 31084 - 23186.dat
 0 An empty submodel with no direct pieces, serving as a placeholder or reference.
 0 Name: 31084 - 23186.dat
@@ -5661,6 +5689,7 @@
 5 24 3.324 0.683 -11.2135 0.756 2.177 -12.575 3.591 1.566 -11.364 3.057 0 -10.663
 5 24 11.87 4.67 -9.234 9.634501 3.815 -8.626 10.17 5.318 -8.13 8.799 2.312 -9.122
 
+0 STEP
 0 FILE 31084 - 973p1z.dat
 0 A single black cylindrical piece, likely a torso body part.
 0 Name: 31084 - 973p1z.dat
@@ -6687,6 +6716,7 @@
 3 14 8.6575 3.0322 10 9.8535 1.9402 10 7.5655 5.0602 10
 3 16 11.8415 0.5882 10 10.5295 0.6402 10 12 0 10
 
+0 STEP
 0 FILE 31084 - 3626cp8r.dat
 0 Two small cylindrical pieces in main colour forming part of a minifigure head.
 0 Name: 31084 - 3626cp8r.dat
@@ -7310,6 +7340,7 @@
 0 // Cylinder 0.25 (main_colour)
 1 16 0 4 0 -9.19239 0 -9.19239 0 13 0 9.19239 0 -9.19239 1-4cyli.dat
 
+0 STEP
 0 FILE 31084 - 20877.dat
 0 A conical and disc-based assembly forming a small tapered dome or cap shape.
 0 Name: 31084 - 20877.dat
@@ -9620,6 +9651,7 @@
 5 24 17.502001 19.145 -1.862 19.535 16.950001 -1.347 20.013 18.174999 0.806 18.450001 17.888 -5.111
 5 24 9.1923 9.955 -9.1923 9.1924 3 -9.1924 4.9752 4 -12.0104 12.0108 3 -4.9749
 
+0 STEP
 0 FILE 31084 - 973p07.dat
 0 A single black cylindrical piece, likely a torso body part.
 0 Name: 31084 - 973p07.dat
@@ -10175,6 +10207,7 @@
 4 16 15.5 15.3 -10 16.8235 21.5165 -10 19 29 -10 15.4 13.4 -10
 3 16 -15.35 12.45 -10 -15.1 11.15 -10 -15 10.15 -10
 
+0 STEP
 0 FILE 31084 - 3626cp71.dat
 0 Two small cylindrical pieces in main colour forming part of a minifigure head.
 0 Name: 31084 - 3626cp71.dat
@@ -10434,6 +10467,7 @@
 5 24 -4.9751 17 -12.0107 -4.9751 4 -12.0107 0 17 -13 -9.1923 17 -9.1923
 5 24 -9.1923 17 -9.1923 -9.1923 4 -9.1923 -4.9751 17 -12.0107 -12.0107 17 -4.9751
 
+0 STEP
 0 FILE 31084 - 973p3g.dat
 0 A single black cylindrical piece, likely a torso body part.
 0 Name: 31084 - 973p3g.dat
@@ -11033,6 +11067,7 @@
 3 16 -2.75 3.1 10 0.3 3.3 10 -7.55 6.9 10
 4 16 -4.85 2.75 10 -2.75 3.1 10 -7.55 6.9 10 -14.345 2 10
 
+0 STEP
 0 FILE 31084 - 3626cp30.dat
 0 Two small cylindrical pieces in main colour forming part of a minifigure head.
 0 Name: 31084 - 3626cp30.dat
@@ -11761,6 +11796,7 @@
 3 16 8.0839 12.5063 -9.9331 7.1731 13.2546 -10.5417 8.2161 12.5063 -9.8447
 3 16 7.1239 11.3337 -10.5747 7.2561 11.3337 -10.4863 8.1069 10.6954 -9.9177
 
+0 STEP
 0 FILE 31084 - 18927.dat
 0 A disc and cone assembly forming a small rounded conical shape.
 0 Name: 31084 - 18927.dat
@@ -12703,6 +12739,7 @@
 5 24 4.9751 3 12.0107 3.295 21.525 12.627 5.389 22.712999 11.903 2.05 19 12.998
 5 24 -5.062 7.035 15.828 -4.504 12.113 18.388 -3.75 8.149 18.361 -6.075 12.272 14.485
 
+0 STEP
 0 FILE s\31084 - 6143s01.dat
 0 A Technic axle hole component with semi-reduced teeth and perimeter edges.
 0 Name: s\31084 - 6143s01.dat
@@ -12738,6 +12775,7 @@
 
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 31084 - stug15-2x2.dat
 
+0 STEP
 0 FILE s\31084 - 6143s02.dat
 0 A detailed geometric assembly of small circles, cylinders, rings, and rectangles forming a fine surface detail.
 0 Name: s\31084 - 6143s02.dat
@@ -12827,6 +12865,7 @@
 5 24 18.4778 20 -7.6539 18.4778 24 -7.6539 16.870001 24 -10.07 20.0005 24 0.0002
 5 24 18.477699 20 7.6538 18.476999 24 7.654 16.870001 24 10.07 20.0005 24 0.0002
 
+0 STEP
 0 FILE 31084 - stug15-2x2.dat
 0 A 2x2 stud plate component with logo placements on four studs.
 0 Name: 31084 - stug15-2x2.dat
@@ -12846,6 +12885,7 @@
 1 16 10 0 -10 0 0 1 0 1 0 -1 0 0 stud15.dat
 1 16 -10 0 -10 -1 0 0 0 1 0 0 0 -1 stud15.dat
 
+0 STEP
 0 FILE s\31084 - 25061s02.dat
 0 A box-and-chord assembly with rectangular faces and circular cutouts forming a mechanical detail.
 0 Name: s\31084 - 25061s02.dat
@@ -13222,6 +13262,7 @@
 5 24 245.055603 -6 24.5 209.002197 -6 55.840801 208.221802 -7.5308 56.922501 209.5672 -4.4692 55.752899
 5 24 212.322098 -2.3044 56.226601 248.819305 -2.3044 24.5 214.092407 -2 56.716 210.7332 -3.1716 55.888401
 
+0 STEP
 0 FILE s\31084 - 25061s01.dat
 0 An empty submodel with no direct pieces, serving as a structural reference.
 0 Name: s\31084 - 25061s01.dat
@@ -13484,6 +13525,7 @@
 5 24 215.878799 -2 -26.506599 212.102905 -15.5309 -26.042999 209.281006 -15.5309 -43.213001 217.319702 -2 -8.8551
 5 24 270.7948 -11.1716 -33.249401 269.506897 -10.3044 -33.091301 267.191895 -11.1716 -55.1707 271.305695 -10.3044 -11.0549
 
+0 STEP
 0 FILE s\31084 - 25061s03.dat
 0 A geometric assembly of cylinders, circles, and rectangles forming a detailed surface or connector.
 0 Name: s\31084 - 25061s03.dat
@@ -13555,6 +13597,7 @@
 4 16 215.401505 -8.8284 4.2231 213.5186 -15.5309 8.7002 213.5186 -15.5309 -8.7002 215.401505 -8.8284 -4.2231
 4 16 215.401505 -8.8284 -4.2231 213.5186 -15.5309 -8.7002 217.319702 -2 -8.8551 217.319702 -2 -8.3568
 
+0 STEP
 0 FILE s\31084 - 25061s04.dat
 0 A geometric assembly combining large and small cylinders with rectangular faces forming a complex connector detail.
 0 Name: s\31084 - 25061s04.dat
@@ -13622,6 +13665,7 @@
 0 // Rectangle with 1 Edge (main_colour)
 1 16 260.2824 -2 0 -2 0 0 0 -1 0 0 0 5.3428 rect1.dat
 
+0 STEP
 0 FILE s\31084 - 25061s05.dat
 0 An empty submodel with no direct pieces, serving as a structural reference.
 0 Name: s\31084 - 25061s05.dat
@@ -13726,6 +13770,7 @@
 5 24 254.041107 -2.3044 57.833199 221.319702 -2.3044 5.4681 255.8535 -3.1716 58.285099 221.319702 -2 8.3568
 5 24 221.319702 -2 8.3568 251.902893 -2 57.300098 219.483597 -2.3044 8.3072 254.041107 -2.3044 57.833199
 
+0 STEP
 0 FILE 31084 - 4-4cylj1x1e.dat
 0 A four-part cylinder junction component with sloped sections and edge lines for smooth transitions.
 0 Name: 31084 - 4-4cylj1x1e.dat
@@ -13748,6 +13793,7 @@
 0 // Cylinder Sloped 0.25 (main_colour)
 1 16 -1 0 0 0 1 0 -1 0 0 0 0 1 1-4cyls.dat
 
+0 STEP
 0 FILE 31084 - 2-4cylj1x1e.dat
 0 A half cylinder junction component with circular sections for connecting same-size cylinders.
 0 Name: 31084 - 2-4cylj1x1e.dat
@@ -13764,6 +13810,7 @@
 0 // Circle 0.25 (main_colour)
 1 16 0 1 0 0 0 1 0 -1 -1 1 0 0 1-4edge.dat
 
+0 STEP
 0 FILE 31084 - 2-4cylj1x1.dat
 0 A half cylinder junction component with sloped sections for connecting same-size cylinders.
 0 Name: 31084 - 2-4cylj1x1.dat
@@ -13779,6 +13826,7 @@
 0 // Cylinder Sloped 0.25 (main_colour)
 1 16 0 0 0 -1 0 0 0 1 0 0 0 1 1-4cyls.dat
 
+0 STEP
 0 FILE 31084 - t08q3333.dat
 0 A torus segment primitive with major radius 3 and minor radius 1 spanning an eighth sweep.
 0 Name: 31084 - t08q3333.dat
@@ -13908,6 +13956,7 @@
 5 24 0.6169 0.308 0.6169 0.7071 0.3333 0.7071 0.3614 0.308 0.8724 0.806 0.308 0.3339
 0 // Build by LDPartEditor (PrimGen 2.X)
 
+0 STEP
 0 FILE 31084 - t04i3077.dat
 0 A torus segment primitive with major radius 13 and minor radius 4 spanning a quarter sweep.
 0 Name: 31084 - t04i3077.dat
@@ -13981,6 +14030,7 @@
 5 24 0 0.2843 0.8822 0 0.3077 1 -0.3654 0.2843 0.8822 0.3376 0.2843 0.8151
 0 // Build by LDPartEditor (PrimGen 2.X)
 
+0 STEP
 0 FILE s\31084 - 26021s01.dat
 0 Geometric primitive subpart composed of rectangles, cones, discs, and cylinders forming a curved sloped element.
 0 Name: s\31084 - 26021s01.dat
@@ -14490,6 +14540,7 @@
 5 24 50.211498 15.8282 15.3645 50.825001 14.5312 14.6251 50 14.5312 13.1369 52.7402 14.5312 16.1675
 5 24 50.825001 14.5312 14.6251 51.040001 13 14.3659 50 13 12.4886 52.8573 13 15.8285
 
+0 STEP
 0 FILE 31084 - t08o3333.dat
 0 Torus segment primitive with major radius 3 and minor radius 1 spanning 1/8 of a full sweep.
 0 Name: 31084 - t08o3333.dat
@@ -14537,6 +14588,7 @@
 5 24 0.9249 0.1276 0.9249 0.9428 0 0.9428 0.5418 0.1276 1.308 1.2084 0.1276 0.5006
 0 // Build by LDPartEditor (PrimGen 2.X)
 
+0 STEP
 0 FILE 31084 - t08i4167.dat
 0 Torus segment primitive with major radius 12 and minor radius 5 spanning 1/8 of a full sweep.
 0 Name: 31084 - t08i4167.dat
@@ -14584,6 +14636,7 @@
 5 24 0.5943 0.385 0.5943 0.7071 0.4167 0.7071 0.3482 0.385 0.8405 0.7766 0.385 0.3217
 0 // Build by LDPartEditor (PrimGen 2.X)
 
+0 STEP
 0 FILE s\31084 - 41879s01.dat
 0 Minifigure leg and foot subpart with detailed heel, toes, leg side, and foot geometry.
 0 Name: s\31084 - 41879s01.dat

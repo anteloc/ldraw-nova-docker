@@ -9,6 +9,7 @@
 
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 6848 - Robot.ldr
 
+0 STEP
 0 FILE 6848 - Robot.ldr
 0 A multi-part robot mech assembly composed of a cockpit, two articulated arms, and two hinged legs.
 0 Name: 6848 - Robot.ldr
@@ -22,6 +23,7 @@
 1 0 48 10 30 0 1 0 0 0 -1 -1 0 0 6848 - Robot - Leg 2.ldr
 1 0 0 0 0 1 0 0 0 0.984808 -0.173648 0 0.173648 0.984808 6848 - Robot - Cockpit + Arms.ldr
 
+0 STEP
 0 FILE 6848 - Robot - Cockpit.ldr
 0 A white, angular cockpit built from wing plates, sloped bricks, hinged plates, and brackets forming an enclosed central body.
 0 Name: 6848 - Robot - Cockpit.ldr
@@ -115,6 +117,7 @@
 1 33 -30 -104 0 0 0 -1 0 1 0 1 0 0 2418a.dat
 
 
+0 STEP
 0 FILE 6848 - Robot - Cockpit + Minifig.ldr
 0 The cockpit assembly combined with a seated spacesuited minifigure pilot.
 0 Name: 6848 - Robot - Cockpit + Minifig.ldr
@@ -128,6 +131,7 @@
 1 0 0 -61 18 1 0 0 0 1 0 0 0 1 6848 - Minifig.ldr
 
 
+0 STEP
 0 FILE 6848 - Robot - Cockpit + Arms.ldr
 0 The cockpit assembly fitted with two hinged arms equipped with directional arrow-tipped manipulators.
 0 Name: 6848 - Robot - Cockpit + Arms.ldr
@@ -142,6 +146,7 @@
 1 0 60 -76 -60 -0.991445 0 -0.130526 0 1 0 0.130526 0 -0.991445 6848 - Robot - Arm 2.ldr
 
 
+0 STEP
 0 FILE 6848 - Robot - Arm 1.ldr
 0 A hinged white arm with a plate strip, clip joints, and a yellow arrow-patterned tile forming the manipulator tip.
 0 Name: 6848 - Robot - Arm 1.ldr
@@ -163,6 +168,7 @@
 1 0 10 -15 66 1 0 0 0 0 -1 0 1 0 4735.dat
 
 
+0 STEP
 0 FILE 6848 - Robot - Arm 2.ldr
 0 A hinged white arm with a plate strip, clip joint, and a yellow arrow-patterned tile forming the manipulator tip.
 0 Name: 6848 - Robot - Arm 2.ldr
@@ -182,6 +188,7 @@
 1 15 -10 -8 40 0 0 -1 0 1 0 1 0 0 3069bp06.dat
 
 
+0 STEP
 0 FILE 6848 - Robot - Leg 1.ldr
 0 A hinged white leg built from a long plate, inverted sloped bricks, and a dark blue translucent accent piece.
 0 Name: 6848 - Robot - Leg 1.ldr
@@ -205,6 +212,7 @@
 1 15 10 -16 0 1 0 0 0 1 0 0 0 1 3666.dat
 
 
+0 STEP
 0 FILE 6848 - Robot - Leg 2.ldr
 0 A hinged white leg built from a long plate, inverted sloped bricks, and a dark blue translucent accent piece.
 0 Name: 6848 - Robot - Leg 2.ldr
@@ -228,6 +236,7 @@
 1 15 10 -16 0 1 0 0 0 1 0 0 0 1 3666.dat
 
 
+0 STEP
 0 FILE 6848 - Minifig.ldr
 0 A white Futuron-patterned minifigure with yellow head, airtanks, arms, hands, and legs.
 0 Name: 6848 - Minifig.ldr
@@ -260,6 +269,7 @@
 1 14 22.5588 19.0367 -18.3187 0.985 0.164183 -0.0439926 -0.17 0.951293 -0.254898 0 0.25878 0.96578 3820.dat
 
 
+0 STEP
 0 FILE 6848 - Minifig - Helmet.ldr
 0 A yellow space helmet with a dark blue translucent visor.
 0 Name: 6848 - Minifig - Helmet.ldr

@@ -15,6 +15,7 @@
 
 
 
+0 STEP
 0 FILE 6049 - MiniFig3-5.ldr
 0 A blue-armored castle soldier wearing a red torso with crossed pikes emblem, a chin-guard helmet, and wielding two spears.
 0 Name: 6049 - MiniFig3-5.ldr
@@ -48,6 +49,7 @@
 1 6 -13.614 -37.669 -28.089 0.972 -0.086 -0.215 -0.144 0.5 -0.854 0.181 0.862 0.474 4497.dat
 
 
+0 STEP
 0 FILE 6049 - MiniFig1.ldr
 0 A blue-armored castle soldier wearing a red torso with lion-on-blue-shield emblem, a neck-protector helmet, and wielding two spears.
 0 Name: 6049 - MiniFig1.ldr
@@ -81,6 +83,7 @@
 1 6 33.917 -33.009 -19.646 0.98 0.192 0.05 -0.057 0.514 -0.856 -0.19 0.836 0.515 4497.dat
 
 
+0 STEP
 0 FILE 6049 - MiniFig2.ldr
 0 A blue-armored castle soldier with a red breastplate torso, black neck-protector helmet, triangular lion shield, and a battleaxe.
 0 Name: 6049 - MiniFig2.ldr
@@ -114,6 +117,7 @@
 1 6 -13.528 -64.278 -32.08 -0.985 -0.086 -0.146 -0.12 0.961 0.241 0.12 0.255 -0.959 3848.dat
 
 
+0 STEP
 0 FILE 6049 - Boat.ldr
 0 A red and black castle longboat hull built from inverted slopes, wedge plates, lattice fences, and supporting plates.
 0 Name: 6049 - Boat.ldr
@@ -272,6 +276,7 @@
 1 14 50 -184 90 1 0 0 0 1 0 0 0 1 4495a.dat
 
 
+0 STEP
 0 FILE 6049 - Flexible Hose.ldr
 0 A long flexible hose assembly composed of 42 segment links with end caps.
 0 Name: 6049 - Flexible Hose.ldr
@@ -404,6 +409,7 @@
 
 
 
+0 STEP
 0 FILE 6049 - Horse Cart.ldr
 0 A black horse-drawn cart with spoked wheels, turntable hitch, and a harnessed horse.
 0 Name: 6049 - Horse Cart.ldr

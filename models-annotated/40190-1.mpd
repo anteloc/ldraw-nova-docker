@@ -8,6 +8,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 40190 - Car.ldr
 
 
+0 STEP
 0 FILE 40190 - Car.ldr
 0 A red and black pull-back race car featuring a motor pull-back unit, wing element, grille tile, curved slope bodywork with racing stripes, and locking hinge plates.
 0 Name: 40190 - Car.ldr
@@ -98,6 +99,7 @@
 1 0 43 4 -80 1 0 0 0 1 0 0 0 1 40190 - Wheel.ldr
 
 
+0 STEP
 0 FILE 40190 - Wheel.ldr
 0 A smooth slick tire mounted on a black notched wheel rim with a yellow ring pattern.
 0 Name: 40190 - Wheel.ldr
@@ -111,6 +113,7 @@
 1 0 0 0 0 0 0 -1 0 1 0 1 0 0 74967p01.dat
 
 
+0 STEP
 0 FILE 40190 - 93589p01.dat
 0 A patterned part composed of front and top surfaces with black and main-colour disc shapes forming decorative detailing.
 0 Name: 40190 - 93589p01.dat
@@ -205,6 +208,7 @@
 0 // Disc Negative 0.25 (main_colour)
 1 16 12 15.999 -43.161 0.87429 -0.48501 0.0197 0 -0.04058 -0.99918 0.48541 0.87357 -0.03548 1-4ndis.dat
 
+0 STEP
 0 FILE s\40190 - 93589s01.dat
 0 A geometric subpart built from sloped cylinders, boxes, and rectangles forming the underlying shape structure of a patterned element.
 0 Name: s\40190 - 93589s01.dat

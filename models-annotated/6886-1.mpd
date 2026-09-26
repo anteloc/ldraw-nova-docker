@@ -9,6 +9,7 @@
 
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 6886 - Spaceship + Jail.ldr
 
+0 STEP
 0 FILE 6886 - Spaceship.ldr
 0 A blue and black spacecraft fuselage built from plates, slopes, and panels with hinge-mount points for wings.
 0 Name: 6886 - Spaceship.ldr
@@ -127,6 +128,7 @@
 0 // Windscreen 10 x  4 x  2.333 Canopy (trans_red)
 1 36 0 -108 -4 1 0 0 0 1 0 0 0 1 2507.dat
 
+0 STEP
 0 FILE 6886 - Spaceship - Wing 1.ldr
 0 A black and blue hinge assembly connecting a wing section to the spaceship.
 0 Name: 6886 - Spaceship - Wing 1.ldr
@@ -143,6 +145,7 @@
 1 0 -50 4 -10 -1 0 0 0 1 0 0 0 -1 6886 - Spaceship - Wing 1 - Wing.ldr
 1 0 -80 -28 0 -1 0 0 0 1 0 0 0 -1 6886 - Spaceship - Wing 1 - Light.ldr
 
+0 STEP
 0 FILE 6886 - Spaceship - Wing 1 - Wing.ldr
 0 A small blue wing panel with a red translucent round element.
 0 Name: 6886 - Spaceship - Wing 1 - Wing.ldr
@@ -159,6 +162,7 @@
 0 // Plate  1 x  1 Round (trans_red)
 1 36 50 -16 -50 0 0 1 0 1 0 -1 0 0 6141.dat
 
+0 STEP
 0 FILE 6886 - Spaceship - Wing 1 - Light.ldr
 0 A small wing-mounted light fixture using a black brick, red translucent cone, and control stick hinge.
 0 Name: 6886 - Spaceship - Wing 1 - Light.ldr
@@ -177,6 +181,7 @@
 0 // Hinge Control Stick (black)
 1 0 18 10 0 0 0 -1 1 0 0 0 -1 0 4593.dat
 
+0 STEP
 0 FILE 6886 - Spaceship - Wing 2.ldr
 0 A black and blue hinge assembly connecting a wing section to the spaceship.
 0 Name: 6886 - Spaceship - Wing 2.ldr
@@ -193,6 +198,7 @@
 1 0 50 4 -10 -1 0 0 0 1 0 0 0 -1 6886 - Spaceship - Wing 2 - Wing.ldr
 1 0 80 -28 0 -1 0 0 0 1 0 0 0 -1 6886 - Spaceship - Wing 2 - Light.ldr
 
+0 STEP
 0 FILE 6886 - Spaceship - Wing 2 - Wing.ldr
 0 A small blue wing panel with a red translucent round element.
 0 Name: 6886 - Spaceship - Wing 2 - Wing.ldr
@@ -209,6 +215,7 @@
 0 // Plate  1 x  1 Round (trans_red)
 1 36 -50 -16 -50 1 0 0 0 1 0 0 0 1 6141.dat
 
+0 STEP
 0 FILE 6886 - Spaceship - Wing 2 - Light.ldr
 0 A small wing-mounted light fixture using a black brick, red translucent cone, and control stick hinge.
 0 Name: 6886 - Spaceship - Wing 2 - Light.ldr
@@ -225,6 +232,7 @@
 0 // Hinge Control Stick (black)
 1 0 -18 10 0 0 0 1 -1 0 0 0 -1 0 4593.dat
 
+0 STEP
 0 FILE 6886 - Spaceship - Side 1.ldr
 0 A blue side panel assembly featuring a Space Police patterned corner panel and red light.
 0 Name: 6886 - Spaceship - Side 1.ldr
@@ -245,6 +253,7 @@
 0 // Plate  1 x  1 Round (trans_red)
 1 36 0 10 -174 1 0 0 0 0 -1 0 1 0 6141.dat
 
+0 STEP
 0 FILE 6886 - Spaceship - Side 2.ldr
 0 A blue side panel assembly featuring a Space Police patterned corner panel and red light.
 0 Name: 6886 - Spaceship - Side 2.ldr
@@ -265,6 +274,7 @@
 0 // Plate  1 x  1 Round (trans_red)
 1 36 0 10 -174 1 0 0 0 0 -1 0 1 0 6141.dat
 
+0 STEP
 0 FILE 6886 - Spaceship + Minifig.ldr
 0 An assembly combining the spaceship with an included minifigure.
 0 Name: 6886 - Spaceship + Minifig.ldr
@@ -277,6 +287,7 @@
 1 0 0 0 -2 1 0 0 0 1 0 0 0 1 6886 - Spaceship.ldr
 1 0 0 -61 -34 1 0 0 0 1 0 0 0 1 6886 - Minifig 2.ldr
 
+0 STEP
 0 FILE 6886 - Spaceship + Jail.ldr
 0 An assembly combining the spaceship with the attached jail cell.
 0 Name: 6886 - Spaceship + Jail.ldr
@@ -288,6 +299,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 6886 - Spaceship + Minifig.ldr
 1 0 0 -88 166 0 0 -1 -1 0 0 0 1 0 6886 - Jail + Minifig.ldr
 
+0 STEP
 0 FILE 6886 - Jail.ldr
 0 A blue and black prisoner containment cell with barred window, red glass, and hinged door panel.
 0 Name: 6886 - Jail.ldr
@@ -339,6 +351,7 @@
 1 1 -30 -96 0 0 0 -1 0 1 0 1 0 0 4625.dat
 1 36 -36 -100 0 1 0 0 0 1 0 0 0 1 6886 - Jail - Door.ldr
 
+0 STEP
 0 FILE 6886 - Jail - Door.ldr
 0 A blue hinged jail door with vertical bars, red antennas, and round accent plates.
 0 Name: 6886 - Jail - Door.ldr
@@ -375,6 +388,7 @@
 0 // Antenna  4H with Rounded Top (trans_red)
 1 36 66 84 30 0 0 1 0 1 0 -1 0 0 3957a.dat
 
+0 STEP
 0 FILE 6886 - Jail + Minifig.ldr
 0 An assembly combining the jail cell with an included prisoner minifigure.
 0 Name: 6886 - Jail + Minifig.ldr
@@ -387,6 +401,7 @@
 1 36 0 0 0 1 0 0 0 1 0 0 0 1 6886 - Jail.ldr
 1 0 -8 -45 0 0 0 -1 0 1 0 1 0 0 6886 - Minifig 1.ldr
 
+0 STEP
 0 FILE 6886 - Minifig 1.ldr
 0 A black-suited Blacktron-patterned astronaut minifigure with airtanks and a grinning face.
 0 Name: 6886 - Minifig 1.ldr
@@ -418,6 +433,7 @@
 0 // ~Minifig Leg Left (Obsolete) (black)
 1 0 0 44 0 1 0 0 0 0 1 0 -1 0 3817.dat
 
+0 STEP
 0 FILE 6886 - Minifig 1 - Helmet.ldr
 0 A standard black astronaut helmet with matching visor.
 0 Name: 6886 - Minifig 1 - Helmet.ldr
@@ -432,6 +448,7 @@
 0 // ~Minifig Helmet Visor Standard (Obsolete) (black)
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 2447.dat
 
+0 STEP
 0 FILE 6886 - Minifig 2.ldr
 0 A white-suited Futuron-patterned astronaut minifigure with airtanks and a grinning face.
 0 Name: 6886 - Minifig 2.ldr
@@ -463,6 +480,7 @@
 0 // Minifig Hand (white)
 1 15 21.6274 13.6401 -20.6651 0.985 0.169948 0.00296646 -0.17 0.984701 0.017188 0 -0.0174498 0.999697 3820.dat
 
+0 STEP
 0 FILE 6886 - Minifig 2 - Helmet.ldr
 0 A standard white astronaut helmet with a red translucent visor.
 0 Name: 6886 - Minifig 2 - Helmet.ldr

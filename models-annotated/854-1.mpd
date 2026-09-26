@@ -8,6 +8,7 @@
 1 1 0 0 0 1 0 0 0 1 -0.024 0 0.024 1 854 - Go Kart.ldr
 
 
+0 STEP
 0 FILE 854 - Go Kart.ldr
 0 The main chassis built from blue Technic bricks, plates, axles, pins, and bushings forming the structural frame of the go-kart.
 0 Name: 854 - Go Kart.ldr
@@ -370,6 +371,7 @@
 1 15 50 -46.397 -374.74 1 0 0 0 0.438 -0.899 0 0.899 0.438 854 - Sticker.dat
 
 
+0 STEP
 0 FILE 854 - Turntable.ldr
 0 A small 2x2 turntable assembly consisting of a blue base plate and a light grey top plate for rotational connection.
 0 Name: 854 - Turntable.ldr
@@ -383,6 +385,7 @@
 1 7 0 0 0 1 0 0 0 1 0 0 0 1 3679.dat
 
 
+0 STEP
 0 FILE 854 - Angled Universal Joint.ldr
 0 A universal joint assembly with two end pieces and a center coupling for transmitting rotational motion at an angle.
 0 Name: 854 - Angled Universal Joint.ldr
@@ -398,6 +401,7 @@
 1 7 0 0 0 1 0 0 0 1 0 0 0 1 3326b.dat
 
 
+0 STEP
 0 FILE 854 - Angled Hinge Plate.ldr
 0 A hinged plate assembly using 2x5 pivot and base hinge plates enabling angled positioning.
 0 Name: 854 - Angled Hinge Plate.ldr
@@ -413,6 +417,7 @@
 1 7 0 0 0 1 0 0 0 1 0 0 0 1 3149e.dat
 
 
+0 STEP
 0 FILE 854 - Seat.ldr
 0 A black driver's seat constructed from plates, bricks, and 45-degree slope bricks to form a contoured seat shape.
 0 Name: 854 - Seat.ldr
@@ -458,6 +463,7 @@
 1 0 -30 -128 50 0 0 1 0 1 0 -1 0 0 3040a.dat
 
 
+0 STEP
 0 FILE 854 - Wheel.ldr
 0 A single wheel assembly combining a light grey rim with a rubber black offset-tread tyre.
 0 Name: 854 - Wheel.ldr
@@ -471,6 +477,7 @@
 1 256 0 0 0 1 0 0 0 1 0 0 0 1 3634.dat
 
 
+0 STEP
 0 FILE 854 - Hose Left.ldr
 0 A flexible left-side pneumatic hose made of segmented tubing with bulged end connectors.
 0 Name: 854 - Hose Left.ldr
@@ -627,6 +634,7 @@
 1 16 -20.025287 11.323373 89.999493 -0.9993 0.149947 -0.00213 0.037345 4.012178 0.00083 0.00216 0.003009 -0.999997 166.dat
 
 
+0 STEP
 0 FILE 854 - Sticker.dat
 0 A decorative sticker element applied to the model.
 0 Name: 854 - Sticker.dat
@@ -825,6 +833,7 @@
 4 15 -28 0 -18.4 -28 -.25 -18.4 -30.5 -.25 -14.6 -30.5 0 -14.6
 
 
+0 STEP
 0 FILE 854 - Hose Right.ldr
 0 A flexible right-side pneumatic hose made of segmented tubing with bulged end connectors.
 0 Name: 854 - Hose Right.ldr

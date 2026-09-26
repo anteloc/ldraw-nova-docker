@@ -154,6 +154,7 @@
 1 7 288 314 -30 0 0 1 0 1 0 -1 0 0 61184.dat
 
 
+0 STEP
 0 FILE 75075 - subModel-1.ldr
 0 Small sloped armor panel detail featuring a 45-degree slope, a grille tile, and dark grey plates.
 0 Name: 75075 - subModel-1.ldr
@@ -176,6 +177,7 @@
 1 7 0 0 -40 -1 0 0 0 1 0 0 0 -1 3022.dat
 
 
+0 STEP
 0 FILE 75075 - subModel-2.ldr
 0 Compact cockpit module with a locking hinge, dual control sticks, a curved slope canopy area, and a translucent red indicator plate.
 0 Name: 75075 - subModel-2.ldr

@@ -12,6 +12,7 @@
 
 
 
+0 STEP
 0 FILE 40290 - Brick stand - Base.ldr
 0 A black hinged base assembly built from a 4x4 plate, a hinge base, and a small slope brick.
 0 Name: 40290 - Brick stand - Base.ldr
@@ -29,6 +30,7 @@
 1 0 0 0 -10 1 0 0 0 1 0 0 0 1 85984.dat
 
 
+0 STEP
 0 FILE 40290 - Brick stand - Brick.ldr
 0 A red 2x4 brick with a hinge top and a white '60 years' patterned tile.
 0 Name: 40290 - Brick stand - Brick.ldr
@@ -46,6 +48,7 @@
 
 
 
+0 STEP
 0 FILE 40290 - 87079p0e.dat
 0 A decorated tile part bearing the '60 years' anniversary pattern.
 0 Name: 40290 - 87079p0e.dat

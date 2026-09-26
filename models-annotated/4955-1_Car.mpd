@@ -7,6 +7,7 @@
 1 72 0 0 0 1 0 0 0 1 0 0 0 1 4955 - Car.ldr
 
 
+0 STEP
 0 FILE 4955 - Car.ldr
 0 A large red and grey car chassis and body built from extensive plating, technic bricks, and inverted slopes forming the vehicle's main structure.
 0 Name: 4955 - Car.ldr
@@ -626,6 +627,7 @@
 1 80 -90 -88 110 -1 0 0 0 1 0 0 0 -1 3957a.dat
 
 
+0 STEP
 0 FILE 4955 - Car S06.ldr
 0 A small white hinged assembly with a grooved tile, likely a tilting panel or hood section.
 0 Name: 4955 - Car S06.ldr
@@ -641,6 +643,7 @@
 1 15 0 10 18 -1 0 0 0 0 -1 0 -1 0 2431.dat
 
 
+0 STEP
 0 FILE 4955 - Car S08.ldr
 0 A compact red and dark grey section using red slopes, forming a sloped body panel or fender element.
 0 Name: 4955 - Car S08.ldr
@@ -663,6 +666,7 @@
 1 0 -90 -24 0 0 0 1 0 1 0 -1 0 0 3660.dat
 
 
+0 STEP
 0 FILE 4955 - Car S09.ldr
 0 A pair of small black round plates, likely used as detail studs or hubcaps.
 0 Name: 4955 - Car S09.ldr
@@ -675,6 +679,7 @@
 1 0 0 -8 0 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 4955 - Car S11.ldr
 0 A black and grey detail bar built from a side-stud brick and long tiles, forming a trim or trim strip.
 0 Name: 4955 - Car S11.ldr
@@ -690,6 +695,7 @@
 1 0 0 10 -26 1 0 0 0 0 -1 0 1 0 6636.dat
 
 
+0 STEP
 0 FILE 4955 - Car S16.ldr
 0 A small silver grille assembly mounted on a light grey plate, forming a front grille or vent detail.
 0 Name: 4955 - Car S16.ldr
@@ -707,6 +713,7 @@
 1 80 40 -8 0 1 0 0 0 1 0 0 0 1 2412b.dat
 
 
+0 STEP
 0 FILE 4955 - Car S22.ldr
 0 A front light assembly featuring silver grille tiles with translucent yellow and red round plates forming head and taillights.
 0 Name: 4955 - Car S22.ldr
@@ -737,6 +744,7 @@
 1 36 70 -8 0 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 4955 - Car S27.ldr
 0 A detailed front fascia assembly with headlight bricks, clear and yellow translucent plates, and silver grille tiles forming the car's front grille and lights.
 0 Name: 4955 - Car S27.ldr
@@ -808,6 +816,7 @@
 1 80 40 -14 -36 1 0 0 0 0 -1 0 1 0 2412b.dat
 
 
+0 STEP
 0 FILE 4955 - Car S27 s2.ldr
 0 A small technic connector sub-assembly made of two pinned technic bricks forming an axle joint.
 0 Name: 4955 - Car S27 s2.ldr
@@ -825,6 +834,7 @@
 1 0 0 0 10 1 0 0 0 1 0 0 0 1 32000.dat
 
 
+0 STEP
 0 FILE 4955 - Car S38.ldr
 0 A red curved sloped panel built from multiple curved slope bricks on a dark grey plate, forming a rounded body section or fender.
 0 Name: 4955 - Car S38.ldr
@@ -854,6 +864,7 @@
 1 4 70 -16 30 -1 0 0 0 1 0 0 0 -1 50950.dat
 
 
+0 STEP
 0 FILE 4955 - Car S43.ldr
 0 A dashboard and steering assembly featuring a patterned gauge tile, steering wheel, towball, and hinge arm forming the car's cockpit interior.
 0 Name: 4955 - Car S43.ldr
@@ -885,6 +896,7 @@
 1 71 10 -32 -10 1 0 0 0 1 0 0 0 1 2819.dat
 
 
+0 STEP
 0 FILE 4955 - Car S45.ldr
 0 A tan and grey plate assembly with handles and clips, forming a seat or interior structural element.
 0 Name: 4955 - Car S45.ldr
@@ -920,6 +932,7 @@
 1 19 70 0 -70 -1 0 0 0 1 0 0 0 -1 6019.dat
 
 
+0 STEP
 0 FILE 4955 - Car S46.ldr
 0 A red door panel built from plates and clips with a handle, forming a left or right side door assembly.
 0 Name: 4955 - Car S46.ldr
@@ -955,6 +968,7 @@
 1 4 0 -40 0 0 0 -1 0 1 0 1 0 0 6636.dat
 
 
+0 STEP
 0 FILE 4955 - Car S47.ldr
 0 A red door panel built from plates and clips with a handle, mirroring the opposite side door assembly.
 0 Name: 4955 - Car S47.ldr
@@ -990,6 +1004,7 @@
 1 4 0 -40 0 0 0 -1 0 1 0 1 0 0 6636.dat
 
 
+0 STEP
 0 FILE 4955 - Car S50.ldr
 0 A small red and black structural sub-assembly combining a red brick with black plates, forming a support or seatback element.
 0 Name: 4955 - Car S50.ldr
@@ -1010,6 +1025,7 @@
 1 4 0 -32 -20 0 0 -1 0 1 0 1 0 0 3009.dat
 
 
+0 STEP
 0 FILE 4955 - 44567a.dat
 0 A primitive definition for a locking hinge plate with a single vertical finger, composed of basic geometric box faces and a click lock mechanism.
 0 Name: 4955 - 44567a.dat

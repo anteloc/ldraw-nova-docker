@@ -293,6 +293,7 @@
 1 256 0 -205 280 -1 0 0 0 0 1 0 1 0 8824 - 4288.dat
 
 
+0 STEP
 0 FILE 8824 - frontwheels.ldr
 0 Front wheel assembly with white Technic bricks, two black wheel rims with offset tread tyres, bevel gears, and a crown gear driven by axles for steering and drive.
 0 Name: 8824 - frontwheels.ldr
@@ -345,6 +346,7 @@
 1 0 50 -14 30 0 0 -1 0 1 0 1 0 0 2346.dat
 
 
+0 STEP
 0 FILE 8824 - propxmit.ldr
 0 Propeller transmission stage using white plates and Technic bricks with two 16-tooth gears on an axle to transfer rotational power via friction pins.
 0 Name: 8824 - propxmit.ldr
@@ -380,6 +382,7 @@
 1 7 0 -22 40 0.985 -0.174 0 0.174 0.985 0 0 0 1 4019.dat
 
 
+0 STEP
 0 FILE 8824 - propxmit2.ldr
 0 Secondary propeller transmission stage with white Technic bricks and plates mounting an 8-tooth gear and axle bush for additional gear reduction.
 0 Name: 8824 - propxmit2.ldr
@@ -410,6 +413,7 @@
 1 7 0 -54 -15 -1 0 0 0 1 0 0 0 -1 6577.dat
 
 
+0 STEP
 0 FILE 8824 - steeredwheels.ldr
 0 Steerable rear wheel unit with two large offset tread tyres on wheel rims, toggle joint connectors, a 24-tooth gear with axleholes, and axles for steering linkage.
 0 Name: 8824 - steeredwheels.ldr
@@ -455,6 +459,7 @@
 1 256 40 70 0 0 0 1 1 0 0 0 1 0 3483.dat
 
 
+0 STEP
 0 FILE 8824 - 2357.dat
 0 Primitive submodel composed of box geometry faces forming a multi-sided solid shape element.
 0 Name: 8824 - 2357.dat
@@ -520,6 +525,7 @@
 0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=S 6 20]
 0 !LDCAD MIRROR_INFO [counterPart=self] [oriCor=0 0 -1 0 1 0 1 0 0]
 
+0 STEP
 0 FILE 8824 - 70962.dat
 0 Primitive submodel made of rectangular geometric faces forming a flat patterned plate element.
 0 Name: 8824 - 70962.dat
@@ -573,6 +579,7 @@
 4 16 27.653099 -2 -7.6582 27.653099 -6 -7.6582 29.5012 -6 -6.8928 29.5012 -2 -6.8928
 4 16 27.653099 30 -7.6582 27.653099 26 -7.6582 29.5012 26 -6.8928 29.5012 30 -6.8928
 
+0 STEP
 0 FILE 8824 - 4288.dat
 0 Primitive submodel built from axle-hole teeth, rings, and open cylinders forming a cylindrical Technic bush or gear hub geometry.
 0 Name: 8824 - 4288.dat
@@ -729,6 +736,7 @@
 5 24 -22.8386 10.1684 -1.25 -23.2444 9.2031 1.25 -20.225401 14.6946 1.25 -24.453699 5.1978 1.25
 5 24 2.6132 24.863001 -1.25 1.5698 24.950701 1.25 7.7254 23.7764 1.25 -2.6132 24.863001 1.25
 
+0 STEP
 0 FILE s\8824 - 70962s01.dat
 0 Primitive submodel consisting of numerous rectangular faces and edges forming a detailed flat geometric pattern component.
 0 Name: s\8824 - 70962s01.dat
@@ -1006,6 +1014,7 @@
 2 24 25.5798 18 -28 24.386499 24 -22
 2 24 23.9888 26 -20 23.193199 30 -15.9998
 
+0 STEP
 0 FILE s\8824 - 4288-15.dat
 0 Primitive submodel with no direct pieces, serving as a reference geometry sub-part for the 4288 Technic bush element.
 0 Name: s\8824 - 4288-15.dat

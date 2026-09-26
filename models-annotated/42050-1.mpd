@@ -535,6 +535,7 @@
 0 // Technic Bush  1/2 Smooth with Axle Hole Reduced (light_bluish_grey)
 1 71 -95 -108 500 0 0 1 -0.072 -0.998 0 0.998 -0.072 0 32123a.dat
 
+0 STEP
 0 FILE 42050 - engine.ldr
 0 A Technic V-engine assembly with eight cylinder heads, pistons, connecting rods, and dual crankshafts mounted on a 5x3 brick base.
 0 Author: Philippe Hurbain [Philo]
@@ -689,6 +690,7 @@
 0 // Technic Beam  3 x  3 T-shaped (light_bluish_grey)
 1 71 20 -40 -200 1 0 0 0 0 1 0 -1 0 60484.dat
 
+0 STEP
 0 FILE 42050 - technicChainClosed-1.ldr
 0 A closed Technic chain loop made of eighteen interlinked chain links.
 0 !CATEGORY technic
@@ -752,6 +754,7 @@
 0 // Technic Chain Link (main_colour)
 1 16 -0.669592 -103.570619 40 0 0.999787 -0.02065 0 0.02065 0.999787 1 0 0 3711.dat
 
+0 STEP
 0 FILE 42050 - side1.ldr
 0 A structural side frame built from long red beams and an H-shaped liftarm joined by pins and connectors.
 0 Author: Philippe Hurbain [Philo]
@@ -808,6 +811,7 @@
 0 // Technic Pin Long with Pin Hole Type 1 (light_bluish_grey)
 1 71 140 40 0 0 1 0 0 0 -1 -1 0 0 87082.dat
 
+0 STEP
 0 FILE 42050 - wheelgears.ldr
 0 A wheel and gear drive assembly using bevel gears, cross blocks, and axles to transmit motion to the wheels.
 0 Author: Philippe Hurbain [Philo]
@@ -848,6 +852,7 @@
 0 // Technic Gear 20 Tooth Bevel (tan)
 1 19 -60 20 -17 0 -1 0 -1 0 0 0 0 -1 32198.dat
 
+0 STEP
 0 FILE 42050 - linact.ldr
 0 A linear actuator mechanism with a geared body, piston, and orange actuator axle mounted on beams and ball joints.
 0 Author: Philippe Hurbain [Philo]
@@ -906,6 +911,7 @@
 0 // Technic Pin Long with Friction and Slot (blue)
 1 1 0 0 0 0 -1 0 0 0 1 -1 0 0 6558.dat
 
+0 STEP
 0 FILE 42050 - technicRibHoseLQ-1.ldr
 0 A flexible ribbed hose assembly approximately 115 mm long composed of ribbed hose segments.
 0 !CATEGORY technic
@@ -996,6 +1002,7 @@
 0 // ~Technic Ribbed Hose End Segment (main_colour)
 1 16 67.474065 -70 -29.094478 0.5 0.707107 0.5 0.707107 0 -0.707107 -0.5 0.707107 -0.5 79.dat
 
+0 STEP
 0 FILE 42050 - technicRibHoseLQ-2.ldr
 0 A flexible ribbed hose assembly approximately 52 mm long composed of ribbed hose segments.
 0 !CATEGORY technic
@@ -1080,6 +1087,7 @@
 0 // ~Technic Ribbed Hose End Segment (main_colour)
 1 16 58.643465 -70 -1.365022 0.5 0.707107 0.5 0.707107 0 -0.707107 -0.5 0.707107 -0.5 79.dat
 
+0 STEP
 0 FILE 42050 - technicRibHoseLQ-3.ldr
 0 A flexible ribbed hose assembly approximately 49 mm long composed of ribbed hose segments.
 0 !CATEGORY technic
@@ -1160,6 +1168,7 @@
 0 // ~Technic Ribbed Hose End Segment (main_colour)
 1 16 51.621828 -70 28.186184 0.5 0.707107 0.5 0.707107 0 -0.707107 -0.5 0.707107 -0.5 79.dat
 
+0 STEP
 0 FILE 42050 - technicRibHoseLQ-4.ldr
 0 A flexible ribbed hose assembly approximately 51 mm long composed of ribbed hose segments.
 0 !CATEGORY technic
@@ -1242,6 +1251,7 @@
 0 // ~Technic Ribbed Hose End Segment (main_colour)
 1 16 41.997683 -70 55.136296 0.5 0.707107 0.5 0.707107 0 -0.707107 -0.5 0.707107 -0.5 79.dat
 
+0 STEP
 0 FILE 42050 - technicRibHoseLQ-5.ldr
 0 A flexible ribbed hose assembly approximately 59 mm long composed of ribbed hose segments.
 0 !CATEGORY technic
@@ -1332,6 +1342,7 @@
 0 // ~Technic Ribbed Hose End Segment (main_colour)
 1 16 28.395988 -70 -68.183928 -0.5 -0.707107 -0.5 0.707107 0 -0.707107 0.5 -0.707107 0.5 79.dat
 
+0 STEP
 0 FILE 42050 - technicRibHoseLQ-6.ldr
 0 A flexible ribbed hose assembly approximately 53 mm long composed of ribbed hose segments.
 0 !CATEGORY technic
@@ -1416,6 +1427,7 @@
 0 // ~Technic Ribbed Hose End Segment (main_colour)
 1 16 0.048784 -70 -59.956873 -0.5 -0.707107 -0.5 0.707107 0 -0.707107 0.5 -0.707107 0.5 79.dat
 
+0 STEP
 0 FILE 42050 - technicRibHoseLQ-7.ldr
 0 A flexible ribbed hose assembly approximately 49 mm long composed of ribbed hose segments.
 0 !CATEGORY technic
@@ -1496,6 +1508,7 @@
 0 // ~Technic Ribbed Hose End Segment (main_colour)
 1 16 -26.911971 -70 -50.344786 -0.5 -0.707107 -0.5 0.707107 0 -0.707107 0.5 -0.707107 0.5 79.dat
 
+0 STEP
 0 FILE 42050 - technicRibHoseLQ-8.ldr
 0 A flexible ribbed hose assembly approximately 51 mm long composed of ribbed hose segments.
 0 !CATEGORY technic
@@ -1578,6 +1591,7 @@
 0 // ~Technic Ribbed Hose End Segment (main_colour)
 1 16 -55.140421 -70 -41.998979 -0.5 -0.707107 -0.5 0.707107 0 -0.707107 0.5 -0.707107 0.5 79.dat
 
+0 STEP
 0 FILE 42050 - technicFlexAxle-1.ldr
 0 A long flexible Technic axle assembly approximately 128 mm long with soft axle segments.
 0 !CATEGORY technic
@@ -3268,6 +3282,7 @@
 5 24 -114.470184 -133.863663 49.572945 -110.947647 -133.863663 48.629086 -114.067108 -133.965881 51.077232 -114.832481 -133.173508 48.220825
 5 24 -114.067108 -133.965881 51.077232 -110.544579 -133.965881 50.133373 -113.684593 -133.464096 52.504787 -114.470184 -133.863663 49.572945
 
+0 STEP
 0 FILE 42050 - cooler.ldr
 0 A compact cooling mechanism assembly built from short liftarms, toggle joints, and bars arranged on cross blocks.
 0 Author: Philippe Hurbain [Philo]
@@ -3332,6 +3347,7 @@
 0 // Technic Pin Joiner Round with Slot (light_bluish_grey)
 1 71 35 -60 -30 0 0 -1 0 -1 0 -1 0 0 62462.dat
 
+0 STEP
 0 FILE 42050 - technicRibHoseLQ-9.ldr
 0 A flexible ribbed hose assembly approximately 49 mm long composed of ribbed hose segments.
 0 !CATEGORY technic
@@ -3410,6 +3426,7 @@
 0 // ~Technic Ribbed Hose End Segment (main_colour)
 1 16 -40 -49 -65.66388 1 0 0 0 0 1 0 -1 0 79.dat
 
+0 STEP
 0 FILE 42050 - tail.ldr
 0 The rear tail section built from long black beams, cross blocks, and two large wheel rims for the rear wheels.
 0 Author: Philippe Hurbain [Philo]
@@ -3476,6 +3493,7 @@
 0 // Technic Pin Long with Stop Bush (red)
 1 4 80 0 -60 -1 0 0 0 0 1 0 1 0 32054.dat
 
+0 STEP
 0 FILE 42050 - bodywork.ldr
 0 The main body shell composed of azure panels, fairing panels, and beams forming the aerodynamic bodywork.
 0 Author: Philippe Hurbain [Philo]
@@ -3580,6 +3598,7 @@
 0 STEP
 1 71 460 -60 0 0 0 1 0 1 0 -1 0 0 42050 - bodyworktop.ldr
 
+0 STEP
 0 FILE 42050 - mudguard.ldr
 0 A mudguard assembly made of thin fairing panels, angle connectors, and liftarms framing the wheel opening.
 0 Author: Philippe Hurbain [Philo]
@@ -3663,6 +3682,7 @@
 0 // Technic Beam  7 (medium_azure)
 1 322 0 -60 0 -1 0 0 0 -1 0 0 0 1 32524.dat
 
+0 STEP
 0 FILE 42050 - technicFlexAxle-2.ldr
 0 A short flexible Technic axle assembly approximately 55 mm long with soft axle segments.
 0 !CATEGORY technic
@@ -5233,6 +5253,7 @@
 5 24 -17.1716 -130.304138 -0.971308 -17.1716 -126.668152 -0.971308 -16.304399 -130.304138 0.326292 -18.4692 -130.304138 -1.838508
 5 24 -16.304399 -130.304138 0.326292 -16.304399 -126.668152 0.326292 -16 -130.304138 1.857092 -17.1716 -130.304138 -0.971308
 
+0 STEP
 0 FILE 42050 - technicFlexAxle-3.ldr
 0 A short flexible Technic axle assembly approximately 55 mm long with soft axle segments.
 0 !CATEGORY technic
@@ -6803,6 +6824,7 @@
 5 24 -17.1716 -130.304138 -4.685492 -17.1716 -126.668152 -4.685492 -16.304399 -130.304138 -3.387892 -18.4692 -130.304138 -5.552692
 5 24 -16.304399 -130.304138 -3.387892 -16.304399 -126.668152 -3.387892 -16 -130.304138 -1.857092 -17.1716 -130.304138 -4.685492
 
+0 STEP
 0 FILE 42050 - bodyworkside1.ldr
 0 A side bodywork panel assembly with large black panels and an azure beam clipped onto a support beam.
 0 Author: Philippe Hurbain [Philo]
@@ -6847,6 +6869,7 @@
 0 // Technic Pin with Friction and Slots (black)
 1 0 0 -90 360 0 -1 0 1 0 0 0 0 1 2780.dat
 
+0 STEP
 0 FILE 42050 - bodyworkside2.ldr
 0 A mirrored side bodywork panel assembly with large black panels and an azure beam clipped onto a support beam.
 0 Author: Philippe Hurbain [Philo]
@@ -6887,6 +6910,7 @@
 0 // Technic Pin with Friction and Slots (black)
 1 0 -360 -90 0 0 0 1 1 0 0 0 1 0 2780.dat
 
+0 STEP
 0 FILE 42050 - bodyworkrear.ldr
 0 The rear bodywork frame built from multiple long beams and cross blocks forming a sturdy rear structure.
 0 Author: Philippe Hurbain [Philo]
@@ -6972,6 +6996,7 @@
 0 // Technic Beam  5 (black)
 1 0 -160 -20 -140 -1 0 0 0 1 0 0 0 -1 32316.dat
 
+0 STEP
 0 FILE 42050 - bodyworktop.ldr
 0 A curved upper bodywork assembly built from a 5x11 Technic panel reinforced with medium azure beams and angle connectors.
 0 Author: Philippe Hurbain [Philo]
@@ -7044,6 +7069,7 @@
 0 // Technic Pin (light_bluish_grey)
 1 71 -90 113.13 -35.676 -1 0 0 0 -0.631 -0.776 0 -0.776 0.631 3673.dat
 
+0 STEP
 0 FILE 42050 - spoiler.ldr
 0 A rear wing spoiler using bent liftarms and angle connectors mounted on a red 15-stud beam with axles and pins.
 0 Author: Philippe Hurbain [Philo]
@@ -7093,6 +7119,7 @@
 0 // Technic Beam 15 (red)
 1 4 100 112 -144 0 -1 0 0.6 0 -0.8 0.8 0 0.6 32278.dat
 
+0 STEP
 0 FILE 42050 - 33299b.dat
 0 A short 3x0.5 Technic liftarm with boss and semi-reduced pin hole defined by axle and peg hole primitives.
 0 Name: 42050 - 33299b.dat
@@ -7130,6 +7157,7 @@
 4 16 6.36 10 33.637 3.444 10 31.685 3.062 10 32.609 5.657 10 34.343
 4 16 3.444 10 31.685 0 10 31 0 10 32 3.062 10 32.609
 
+0 STEP
 0 FILE 42050 - 24316.dat
 0 A Technic axle 3 with stop, modeled as a shaft capped with a stop disc and cylinder.
 0 Name: 42050 - 24316.dat
@@ -7146,6 +7174,7 @@
 0 // Cylinder Closed 1.0 (main_colour)
 1 16 30 0 0 0 -2 0 8 0 0 0 0 8 4-4cylc.dat
 
+0 STEP
 0 FILE 42050 - 2850b.dat
 0 A Technic engine cylinder head with bottom slots, composed of cylinders, rectangles, and disc primitives.
 0 Name: 42050 - 2850b.dat
@@ -7315,6 +7344,7 @@
 3 16 -13 33 2 -20 33 2 -20 36 2
 4 16 -20 36 2 -20 33 2 -27 33 2 -27 36 2
 
+0 STEP
 0 FILE s\42050 - 33299s01.dat
 0 Common geometry subpart for the 3x0.5 liftarm with boss, formed from cylinders, rings, and peg hole primitives.
 0 Name: s\42050 - 33299s01.dat
@@ -7569,6 +7599,7 @@
 4 16 8.091 0 3.78 6.363 0 6.363 3.78 0 8.091 4.014 0 6.93
 4 16 8.091 0 3.78 4.014 0 6.93 5.184 0 5.184 6.93 0 4.014
 
+0 STEP
 0 FILE s\42050 - 2850s01.dat
 0 Half of the common geometry for the engine cylinder head, featuring top studs, cooling ribs, and connector holes.
 0 Name: s\42050 - 2850s01.dat

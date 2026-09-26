@@ -7,6 +7,7 @@
 1 14 0 0 0 1 0 0 0 1 0 0 0 1 4096 - EB Combine Harvester.ldr
 
 
+0 STEP
 0 FILE 4096 - EB Combine Harvester.ldr
 0 Yellow combine harvester chassis with wheel pin plates, sloped and wing body panels, control stick hinge, and assorted dark grey plates.
 0 Name: 4096 - EB Combine Harvester.ldr
@@ -95,6 +96,7 @@
 1 256 46 -3 -40 0 0 -1 0 1 0 1 0 0 6015.dat
 
 
+0 STEP
 0 FILE 4096 - EB Combine Harvester S04.ldr
 0 Small hinged sub-assembly with a black hinge base and yellow hinge top.
 0 Name: 4096 - EB Combine Harvester S04.ldr
@@ -107,6 +109,7 @@
 1 14 0 2.929 -7.071 1 0 0 0 0.707 -0.707 0 0.707 0.707 3938.dat
 
 
+0 STEP
 0 FILE 4096 - EB Combine Harvester S08.ldr
 0 Compact dark grey plate sub-assembly built from 1x2 and 1x6 plates with a small round black plate.
 0 Name: 4096 - EB Combine Harvester S08.ldr
@@ -124,6 +127,7 @@
 1 0 90 0 0 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 4096 - EB Combine Harvester S10.ldr
 0 Yellow and dark grey plate sub-assembly using long 1x8 yellow plates, a 1x6 dark grey plate, and clip plates.
 0 Name: 4096 - EB Combine Harvester S10.ldr

@@ -7,6 +7,7 @@
 1 72 0 0 0 1 0 0 0 1 0 0 0 1 7347 - Truck.ldr
 
 
+0 STEP
 0 FILE 7347 - Truck.ldr
 0 Large truck chassis built from Technic beams, pins, axles, and numerous plates and round bricks forming the structural frame and wheel mounts.
 0 Name: 7347 - Truck.ldr
@@ -604,6 +605,7 @@
 1 14 0 -72 130 1 0 0 0 1 0 0 0 1 7347 - Truck S64.ldr
 
 
+0 STEP
 0 FILE 7347 - Truck S06.ldr
 0 Small plate-and-inverted-slope assembly forming a low angled mounting surface.
 0 Name: 7347 - Truck S06.ldr
@@ -618,6 +620,7 @@
 1 4 -50 -24 10 -1 0 0 0 1 0 0 0 -1 3665a.dat
 
 
+0 STEP
 0 FILE 7347 - Truck S07.ldr
 0 Technic beam sub-assembly with pins and an axle-with-stop forming a pivoting structural connector.
 0 Name: 7347 - Truck S07.ldr
@@ -653,6 +656,7 @@
 1 15 0 0 -240 0 0 1 0 1 0 -1 0 0 2730.dat
 
 
+0 STEP
 0 FILE 7347 - Truck S08.ldr
 0 Flat plate platform with corner, wing, and tile pieces forming a contoured body panel section.
 0 Name: 7347 - Truck S08.ldr
@@ -687,6 +691,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 7347 - Truck S10R.ldr
 0 Bracket with rounded corner panels forming a small right-side corner detail mount.
 0 Name: 7347 - Truck S10R.ldr
@@ -701,6 +706,7 @@
 1 71 30 10 -38 -1 0 0 0 0 1 0 1 0 6231.dat
 
 
+0 STEP
 0 FILE 7347 - Truck S10L.ldr
 0 Bracket with rounded corner panels forming a small left-side corner detail mount.
 0 Name: 7347 - Truck S10L.ldr
@@ -715,6 +721,7 @@
 1 71 -10 10 -38 -1 0 0 0 0 1 0 1 0 6231.dat
 
 
+0 STEP
 0 FILE 7347 - Truck S12.ldr
 0 Long Technic axle with a bushing forming a wheel or pulley shaft.
 0 Name: 7347 - Truck S12.ldr
@@ -727,6 +734,7 @@
 1 71 -70 0 0 0 0 -1 0 1 0 1 0 0 3713.dat
 
 
+0 STEP
 0 FILE 7347 - Truck S15.ldr
 0 Bracket-mounted assembly with clear slope windows and a tiled plate forming a light or window housing.
 0 Name: 7347 - Truck S15.ldr
@@ -751,6 +759,7 @@
 1 15 0 -6 -22 1 0 0 0 0 -1 0 1 0 3069b.dat
 
 
+0 STEP
 0 FILE 7347 - Truck S17.ldr
 0 Small plate assembly with horizontal clips forming a clip-on mounting bracket.
 0 Name: 7347 - Truck S17.ldr
@@ -765,6 +774,7 @@
 1 0 0 -16 0 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 7347 - Truck S28.ldr
 0 Pair of round 2x2 bricks forming a short cylindrical pillar.
 0 Name: 7347 - Truck S28.ldr
@@ -777,6 +787,7 @@
 1 71 0 -24 0 1 0 0 0 1 0 0 0 1 3941.dat
 
 
+0 STEP
 0 FILE 7347 - Truck S31R.ldr
 0 Clip plate with a trans-orange round plate forming a right-side tail light.
 0 Name: 7347 - Truck S31R.ldr
@@ -789,6 +800,7 @@
 1 57 -12 2 -20 0 1 0 -1 0 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 7347 - Truck S31L.ldr
 0 Clip plate with a trans-orange round plate forming a left-side tail light.
 0 Name: 7347 - Truck S31L.ldr
@@ -801,6 +813,7 @@
 1 57 12 2 -20 0 -1 0 1 0 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 7347 - Truck S33.ldr
 0 Small red Technic brick and plate with a trans-orange round plate forming a rear light detail.
 0 Name: 7347 - Truck S33.ldr
@@ -815,6 +828,7 @@
 1 4 0 -16 0 1 0 0 0 1 0 0 0 1 3024.dat
 
 
+0 STEP
 0 FILE 7347 - Truck S35.ldr
 0 Pair of 1x4 plates in yellow and white forming a thin two-tone strip.
 0 Name: 7347 - Truck S35.ldr
@@ -827,6 +841,7 @@
 1 15 0 -8 0 1 0 0 0 1 0 0 0 1 3710.dat
 
 
+0 STEP
 0 FILE 7347 - Truck S37.ldr
 0 Brick and corner plates in yellow and white forming a small stepped body block.
 0 Name: 7347 - Truck S37.ldr
@@ -847,6 +862,7 @@
 1 14 30 -16 10 -1 0 0 0 1 0 0 0 -1 2420.dat
 
 
+0 STEP
 0 FILE 7347 - Truck S40.ldr
 0 Bent Technic beam with towball and axle pin forming a steering or suspension linkage joint.
 0 Name: 7347 - Truck S40.ldr
@@ -868,6 +884,7 @@
 1 71 100 0 0 1 0 0 0 1 0 0 0 1 7347 - Truck S40 s4.ldr
 
 
+0 STEP
 0 FILE 7347 - Truck S40 s3.ldr
 0 Rounded-pin plate with two medium-blue tiles forming a smooth seating or storage surface.
 0 Name: 7347 - Truck S40 s3.ldr
@@ -882,6 +899,7 @@
 1 73 20 -8 0 1 0 0 0 1 0 0 0 1 3068b.dat
 
 
+0 STEP
 0 FILE 7347 - Truck S40 s4.ldr
 0 Bent Technic beam with towball and axle pin forming a second steering or suspension linkage joint.
 0 Name: 7347 - Truck S40 s4.ldr
@@ -899,6 +917,7 @@
 1 19 -10 -60 0 -1 0 0 0 1 0 0 0 -1 3749.dat
 
 
+0 STEP
 0 FILE 7347 - Truck S41.ldr
 0 Door rail plate and plain plate forming a door track or slider detail.
 0 Name: 7347 - Truck S41.ldr
@@ -911,6 +930,7 @@
 1 0 0 -8 0 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 7347 - Truck S43R.ldr
 0 Curved arch and corner plate in red forming a right-side wheel arch panel.
 0 Name: 7347 - Truck S43R.ldr
@@ -923,6 +943,7 @@
 1 4 0 0 10 0 0 1 0 1 0 -1 0 0 2420.dat
 
 
+0 STEP
 0 FILE 7347 - Truck S43L.ldr
 0 Curved arch and corner plate in red forming a left-side wheel arch panel.
 0 Name: 7347 - Truck S43L.ldr
@@ -935,6 +956,7 @@
 1 4 0 0 10 -1 0 0 0 1 0 0 0 -1 2420.dat
 
 
+0 STEP
 0 FILE 7347 - Truck S46.ldr
 0 Double inverted open-center slope with mounting plates forming a recessed grille section.
 0 Name: 7347 - Truck S46.ldr
@@ -949,6 +971,7 @@
 1 72 0 0 20 0 0 1 0 1 0 -1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 7347 - Truck S48R.ldr
 0 Headlight brick and hose nozzle forming a right-side exhaust or hose outlet.
 0 Name: 7347 - Truck S48R.ldr
@@ -961,6 +984,7 @@
 1 0 0 10 -8 0 0 1 1 0 0 0 1 0 60849.dat
 
 
+0 STEP
 0 FILE 7347 - Truck S48L.ldr
 0 Headlight brick and hose nozzle forming a left-side exhaust or hose outlet.
 0 Name: 7347 - Truck S48L.ldr
@@ -973,6 +997,7 @@
 1 0 0 10 -8 0 0 -1 -1 0 0 0 1 0 60849.dat
 
 
+0 STEP
 0 FILE 7347 - Truck S49.ldr
 0 Red and black structural truck chassis built from plates and curved-top bricks with transparent accent details.
 0 Name: 7347 - Truck S49.ldr
@@ -1094,6 +1119,7 @@
 1 0 -60 -32 -50 1 0 0 0 1 0 0 0 1 92280.dat
 
 
+0 STEP
 0 FILE 7347 - Truck S49 s3.ldr
 0 Small red accent assembly made of two plates.
 0 Name: 7347 - Truck S49 s3.ldr
@@ -1106,6 +1132,7 @@
 1 4 0 -8 20 0 0 1 0 1 0 -1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 7347 - Truck S49 s9.ldr
 0 Clear transparent light fixture using a round plate and grooved round tile.
 0 Name: 7347 - Truck S49 s9.ldr
@@ -1118,6 +1145,7 @@
 1 47 0 -8 0 1 0 0 0 1 0 0 0 1 98138.dat
 
 
+0 STEP
 0 FILE 7347 - Truck S53.ldr
 0 Simple red brick pair forming a small structural block.
 0 Name: 7347 - Truck S53.ldr
@@ -1130,6 +1158,7 @@
 1 4 0 -24 0 1 0 0 0 1 0 0 0 1 3004.dat
 
 
+0 STEP
 0 FILE 7347 - Truck S55.ldr
 0 Large brown trans windscreen mounted on black plates forming a truck cab windshield.
 0 Name: 7347 - Truck S55.ldr
@@ -1144,6 +1173,7 @@
 1 0 80 72 -20 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 7347 - Truck S56.ldr
 0 Red front truck section with curved slopes, grille tiles, and orange transparent light accents.
 0 Name: 7347 - Truck S56.ldr
@@ -1228,6 +1258,7 @@
 1 71 -103 -23.393 -9.882 0 0 1 -0.998 -0.07 0 0.07 -0.998 0 7347 - Truck S56 s9.ldr
 
 
+0 STEP
 0 FILE 7347 - Truck S56 s9.ldr
 0 Small detail part combining a metallic silver cone and a light bluish grey tap, resembling an exhaust pipe.
 0 Name: 7347 - Truck S56 s9.ldr
@@ -1240,6 +1271,7 @@
 1 80 0 0 0 1 0 0 0 1 0 0 0 1 59900.dat
 
 
+0 STEP
 0 FILE 7347 - Truck S57.ldr
 0 Technic linkage assembly using T-shaped beams, an angle connector, and friction pins.
 0 Name: 7347 - Truck S57.ldr
@@ -1265,6 +1297,7 @@
 1 72 0 27 0 1 0 0 0 1 0 0 0 1 7347 - Truck S57 s3.ldr
 
 
+0 STEP
 0 FILE 7347 - Truck S57 s3.ldr
 0 Technic axle joint built from a stopped axle and inline smooth joiner.
 0 Name: 7347 - Truck S57 s3.ldr
@@ -1277,6 +1310,7 @@
 1 72 0 -57 0 0 -1 0 0 0 -1 1 0 0 59443.dat
 
 
+0 STEP
 0 FILE 7347 - Truck S58.ldr
 0 Technic crane or winch mechanism featuring beams, gears, a reel, and a towball hook.
 0 Name: 7347 - Truck S58.ldr
@@ -1335,6 +1369,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 7347 - Truck S58 s3.ldr
 0 Technic connector assembly with a stopped axle, joiner, and pin components.
 0 Name: 7347 - Truck S58 s3.ldr
@@ -1358,6 +1393,7 @@
 1 1 10 0 -80 -1 0 0 0 0 1 0 1 0 43093.dat
 
 
+0 STEP
 0 FILE 7347 - Truck S58 s5.ldr
 0 Short Technic beam segment joined by blue friction pins.
 0 Name: 7347 - Truck S58 s5.ldr
@@ -1374,6 +1410,7 @@
 1 1 20 0 -20 1 0 0 0 1 0 0 0 1 6558.dat
 
 
+0 STEP
 0 FILE 7347 - Truck S58 s6.ldr
 0 Gear train built on a stopped axle with 8 and 12 tooth bevel gears.
 0 Name: 7347 - Truck S58 s6.ldr
@@ -1389,6 +1426,7 @@
 1 72 -48 0 0 0 0 -1 0 1 0 1 0 0 3647.dat
 
 
+0 STEP
 0 FILE 7347 - StringLQ.ldr
 0 StringLQ
 0 Name: 7347 - StringLQ.ldr
@@ -1484,6 +1522,7 @@
 1 16 0 112.235331 267.339911 0 0 -1.5 -0.982208 -66.510209 0 -1.133697 57.622844 0 4-4cyli.dat
 
 
+0 STEP
 0 FILE 7347 - Truck S58 s9.ldr
 0 Technic gear sub-assembly with a bevel gear and cross block on a connector.
 0 Name: 7347 - Truck S58 s9.ldr
@@ -1502,6 +1541,7 @@
 1 0 20 0 30 0 0 1 1 0 0 0 1 0 32068.dat
 
 
+0 STEP
 0 FILE 7347 - Truck S59.ldr
 0 Single truck wheel consisting of a six-spoke light bluish grey rim and black rubber tyre.
 0 Name: 7347 - Truck S59.ldr
@@ -1514,6 +1554,7 @@
 1 256 0 0 0 -1 0 0 0 1 0 0 0 -1 56898.dat
 
 
+0 STEP
 0 FILE 7347 - Truck S60.ldr
 0 Detailed cylindrical truck component with round bricks, dish, curved top, and lattice fence accents.
 0 Name: 7347 - Truck S60.ldr
@@ -1550,6 +1591,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 7347 - Truck S63.ldr
 0 Detailed cylindrical truck component with round bricks, dish, curved top, and lattice fence accents.
 0 Name: 7347 - Truck S63.ldr
@@ -1586,6 +1628,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 7347 - Truck S61.ldr
 0 Small curved-top red hood or light housing with a black dish and handle plate.
 0 Name: 7347 - Truck S61.ldr
@@ -1607,6 +1650,7 @@
 1 0 -20 8 0 0 0 1 0 1 0 -1 0 0 2654a.dat
 
 
+0 STEP
 0 FILE 7347 - Truck S62.ldr
 0 Small curved-top red hood or light housing with a black dish and handle plate.
 0 Name: 7347 - Truck S62.ldr
@@ -1628,6 +1672,7 @@
 1 0 -20 8 0 0 0 1 0 1 0 -1 0 0 2654a.dat
 
 
+0 STEP
 0 FILE 7347 - Truck S64.ldr
 0 Yellow truck body section with mudguards, hinges, brackets, and technic brick supports.
 0 Name: 7347 - Truck S64.ldr
@@ -1708,6 +1753,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 7347 - Truck S64 s7.ldr
 0 Detail assembly with grille tiles and a jet engine fan on holed plates.
 0 Name: 7347 - Truck S64 s7.ldr
@@ -1728,6 +1774,7 @@
 1 72 0 -10 -30 0 -1 0 0 0 1 -1 0 0 46667.dat
 
 
+0 STEP
 0 FILE 7347 - Truck S65 s9r.ldr
 0 Small light or sensor detail made of a clip plate and hollow round brick.
 0 Name: 7347 - Truck S65 s9r.ldr
@@ -1740,6 +1787,7 @@
 1 72 -28 2 -20 0 1 0 1 0 0 0 0 -1 3062b.dat
 
 
+0 STEP
 0 FILE 7347 - Truck S65 s9l.ldr
 0 Small light or sensor detail made of a clip plate and hollow round brick.
 0 Name: 7347 - Truck S65 s9l.ldr

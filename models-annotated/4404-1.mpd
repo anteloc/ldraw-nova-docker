@@ -8,6 +8,7 @@
 1 0 0 -48 0 1 0 0 0 1 0 0 0 1 4404 - Body.ldr
 
 
+0 STEP
 0 FILE 4404 - Land Busters.ldr
 0 A sturdy black and grey chassis base built from large plates, technic bricks, and pin connections.
 0 Name: 4404 - Land Busters.ldr
@@ -140,6 +141,7 @@
 1 7 -147.463 17.986 230 0 0 1 0 1 0 -1 0 0 41896.dat
 
 
+0 STEP
 0 FILE 4404 - Steering.ldr
 0 A Technic steering and suspension assembly with shock absorbers, towball suspension arms, and steering linkages.
 0 Name: 4404 - Steering.ldr
@@ -257,6 +259,7 @@
 1 8 20 -10 -40 0.205 0.156 0.966 -0.978 0 0.208 0.033 -0.988 0.153 32005.dat
 
 
+0 STEP
 0 FILE 4404 - Steering Front.ldr
 0 A front steering mechanism using gears, liftarms, axles, and a red propeller-like element.
 0 Name: 4404 - Steering Front.ldr
@@ -309,6 +312,7 @@
 1 7 0 110 20 1 0 0 0 1 0 0 0 1 4404 - Steering.ldr
 
 
+0 STEP
 0 FILE 4404 - Steering Rear.ldr
 0 A rear steering assembly built from liftarms, axles, cross blocks, and a motorcycle steering head brick.
 0 Name: 4404 - Steering Rear.ldr
@@ -366,6 +370,7 @@
 1 7 0 0 -130 -1 0 0 0 1 0 0 0 -1 4404 - Steering.ldr
 
 
+0 STEP
 0 FILE 4404 - Body.ldr
 0 The main vehicle body with large black and grey plates, inverted slopes, yellow wedges, and grille tiles forming the shell.
 0 Name: 4404 - Body.ldr
@@ -870,6 +875,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 4404 - Rear Lower.ldr
 0 The rear lower body section with plates, inverted curved slopes, wings, and grille details.
 0 Name: 4404 - Rear Lower.ldr
@@ -971,6 +977,7 @@
 1 0 0 8 30 -1 0 0 0 1 0 0 0 -1 4510.dat
 
 
+0 STEP
 0 FILE 4404 - Break.ldr
 0 A small hinged panel assembly with grille tiles, likely a spoiler or brake detail.
 0 Name: 4404 - Break.ldr
@@ -995,6 +1002,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 4404 - Rear Light LH.ldr
 0 A left rear light unit with yellow bracket, clear plate, and translucent red and neon orange light elements.
 0 Name: 4404 - Rear Light LH.ldr
@@ -1018,6 +1026,7 @@
 1 36 0 10 -38 -1 0 0 0 0 1 0 1 0 2412b.dat
 
 
+0 STEP
 0 FILE 4404 - Rear Light RH.ldr
 0 A right rear light unit with yellow bracket, clear plate, and translucent red and neon orange light elements.
 0 Name: 4404 - Rear Light RH.ldr
@@ -1042,6 +1051,7 @@
 1 36 0 30 -38 1 0 0 0 0 -1 0 1 0 2412b.dat
 
 
+0 STEP
 0 FILE 4404 - Rear Door.ldr
 0 A hinged yellow rear door built from large plates, curved wedges, and locking hinge plates.
 0 Name: 4404 - Rear Door.ldr
@@ -1081,6 +1091,7 @@
 1 14 -30 -24 30 0 0 1 0 1 0 -1 0 0 45677.dat
 
 
+0 STEP
 0 FILE 4404 - Bucket Bottom.ldr
 0 A flat base assembly of black and grey plates and curved-top bricks forming a bucket or storage floor.
 0 Name: 4404 - Bucket Bottom.ldr
@@ -1099,6 +1110,7 @@
 1 0 40 -40 10 1 0 0 0 1 0 0 0 1 6191.dat
 
 
+0 STEP
 0 FILE 4404 - Seat.ldr
 0 A red and black seat built from plates, curved-top bricks, and grooved tiles with an inverted yellow slope accent.
 0 Name: 4404 - Seat.ldr
@@ -1143,6 +1155,7 @@
 1 0 128.838 -43.089 0 0 -0.259 0.966 0 0.966 0.259 -1 0 0 4404 - Seat Back.ldr
 
 
+0 STEP
 0 FILE 4404 - Seat Axle.ldr
 0 A small pivoting seat mount using angle connectors, a pin, and a notched axle in a yellow technic brick.
 0 Name: 4404 - Seat Axle.ldr
@@ -1166,6 +1179,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 4404 - Seat Back.ldr
 0 A red and black seat backrest made of plates, corner plates, grooved tiles, and curved-top bricks.
 0 Name: 4404 - Seat Back.ldr
@@ -1224,6 +1238,7 @@
 1 0 20 -58 -104 1 0 0 0 0 -1 0 1 0 3070b.dat
 
 
+0 STEP
 0 FILE 4404 - Front Light RH.ldr
 0 A right front headlight unit with a clear dish lens, neon orange tile, and technic brick mount.
 0 Name: 4404 - Front Light RH.ldr
@@ -1255,6 +1270,7 @@
 1 47 -37.855 -26.688 0 0.087 -0.996 0 0.996 0.087 0 0 0 1 2654.dat
 
 
+0 STEP
 0 FILE 4404 - Front Light LH.ldr
 0 A left front headlight unit with a clear dish lens, neon orange tile, and technic brick mount.
 0 Name: 4404 - Front Light LH.ldr
@@ -1286,6 +1302,7 @@
 1 47 -37.855 -26.688 0 0.087 -0.996 0 0.996 0.087 0 0 0 1 2654.dat
 
 
+0 STEP
 0 FILE 4404 - Board.ldr
 0 A foldable running board or step using hinged plates, a side-stud brick, and a small steering wheel element.
 0 Name: 4404 - Board.ldr
@@ -1329,6 +1346,7 @@
 1 7 20 -24.87 49.497 1 0 0 0 0.707 0.707 0 -0.707 0.707 2819.dat
 
 
+0 STEP
 0 FILE 4404 - Engine.ldr
 0 A small engine detail made from a hinged curved-top brick and round plates.
 0 Name: 4404 - Engine.ldr
@@ -1349,6 +1367,7 @@
 1 7 10 -12.627 36.77 -1 0 0 0 0.707 -0.707 0 -0.707 -0.707 6141.dat
 
 
+0 STEP
 0 FILE 4404 - Front.ldr
 0 A yellow front bumper section built from a brick, plates, and a square-cornered bracket.
 0 Name: 4404 - Front.ldr
@@ -1370,6 +1389,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 4404 - Cover.ldr
 0 A flat yellow cover panel made of long plates, studded plates, and grooved tiles.
 0 Name: 4404 - Cover.ldr
@@ -1400,6 +1420,7 @@
 1 14 0 -8 20 1 0 0 0 1 0 0 0 1 3034.dat
 
 
+0 STEP
 0 FILE 4404 - Mirror.ldr
 0 A side mirror assembly consisting of a handle plate and a small curved slope element.
 0 Name: 4404 - Mirror.ldr
@@ -1413,6 +1434,7 @@
 1 8 0 0 10 -1 0 0 0 1 0 0 0 -1 30602.dat
 
 
+0 STEP
 0 FILE 4404 - Door RH.ldr
 0 A right side door built from yellow bricks and plates with an inverted slope, a silver tooth, and a liftarm hinge.
 0 Name: 4404 - Door RH.ldr
@@ -1449,6 +1471,7 @@
 1 0 90 -62 -20 0 0 -1 -1 0 0 0 1 0 2825.dat
 
 
+0 STEP
 0 FILE 4404 - Door Hinge RH.ldr
 0 A right door hinge mechanism using yellow hinge plates, a clip plate, and a grooved tile.
 0 Name: 4404 - Door Hinge RH.ldr
@@ -1472,6 +1495,7 @@
 1 14 -10 -24 0 -1 0 0 0 1 0 0 0 -1 3070b.dat
 
 
+0 STEP
 0 FILE 4404 - Door LH.ldr
 0 A left side door built from yellow bricks and plates with an inverted slope, a silver tooth, and a liftarm hinge.
 0 Name: 4404 - Door LH.ldr
@@ -1508,6 +1532,7 @@
 1 0 90 -62 20 0 0 -1 1 0 0 0 -1 0 2825.dat
 
 
+0 STEP
 0 FILE 4404 - Door Hinge LH.ldr
 0 A yellow door hinge assembly with hinge plates, clips, and a grooved tile for the left side.
 0 Name: 4404 - Door Hinge LH.ldr
@@ -1531,6 +1556,7 @@
 1 14 -10 -24 0 1 0 0 0 1 0 0 0 1 3070b.dat
 
 
+0 STEP
 0 FILE 4404 - Mudguard.ldr
 0 A dark grey mudguard built from curved arch pieces and a grooved tile.
 0 Name: 4404 - Mudguard.ldr
@@ -1546,6 +1572,7 @@
 1 8 0 0 0 0 0 -1 0 1 0 1 0 0 2431.dat
 
 
+0 STEP
 0 FILE 4404 - Hood.ldr
 0 A yellow hood section using locking hinge plates and curved hinge bricks for an angled top.
 0 Name: 4404 - Hood.ldr
@@ -1573,6 +1600,7 @@
 1 14 0 -16 -40 1 0 0 0 1 0 0 0 1 2431.dat
 
 
+0 STEP
 0 FILE 4404 - Bumper.ldr
 0 A robust bumper assembly combining dark grey and yellow plates, wings, wedges, and a door rail.
 0 Name: 4404 - Bumper.ldr
@@ -1617,6 +1645,7 @@
 1 14 0 -48 -20 -1 0 0 0 1 0 0 0 -1 6636.dat
 
 
+0 STEP
 0 FILE 4404 - PushBar.ldr
 0 A push bar with dark grey wings and plates, clips, a lightsaber bar, and trans-brown windscreens.
 0 Name: 4404 - PushBar.ldr
@@ -1652,6 +1681,7 @@
 1 8 0 -24 -10 1 0 0 0 1 0 0 0 1 6636.dat
 
 
+0 STEP
 0 FILE 4404 - Roof.ldr
 0 A yellow roof panel with a large studded plate, locking hinges, and dark grey support bars and tiles.
 0 Name: 4404 - Roof.ldr
@@ -1683,6 +1713,7 @@
 1 14 110 -107.388 -111.741 -1 0 0 0 0.694 0.72 0 0.72 -0.694 4404 - Frame.ldr
 
 
+0 STEP
 0 FILE 4404 - Frame.ldr
 0 A small yellow frame section using locking dual-finger hinge plates and a grooved tile.
 0 Name: 4404 - Frame.ldr
@@ -1698,6 +1729,7 @@
 1 14 0 -8 0 0 0 1 0 1 0 -1 0 0 2431.dat
 
 
+0 STEP
 0 FILE 4404 - Load.ldr
 0 A wheeled load unit built with Technic axles, bushes, connectors, and two rubber tyres.
 0 Name: 4404 - Load.ldr
@@ -1734,6 +1766,7 @@
 1 7 0 -86 0 0 -1 0 0 0 1 -1 0 0 44292.dat
 
 
+0 STEP
 0 FILE 4404 - Tube RH.ldr
 0 A flexible right-side hose tube made of 45 linked segments with end fittings.
 0 Name: 4404 - Tube RH.ldr
@@ -1871,6 +1904,7 @@
 1 16 79.978015 -15.61364 -39.950631 -0.000051 0.013617 0.999907 -0.03058 0.99944 -0.013612 -0.999532 -0.030578 0.000366 754.dat
 
 
+0 STEP
 0 FILE 4404 - Tube LH.ldr
 0 A flexible left-side hose tube made of 45 linked segments with end fittings.
 0 Name: 4404 - Tube LH.ldr
@@ -2008,6 +2042,7 @@
 1 16 69.950631 -13.61364 -29.978015 0.000264 0.030578 0.999532 -0.013631 0.99944 -0.030571 -0.999907 -0.013617 0.000681 754.dat
 
 
+0 STEP
 0 FILE 4404 - Rubber belt.ldr
 0 A rubber belt defined by a 73 mm flexible path of 20 segments with static skin coloring.
 0 Name: 4404 - Rubber belt.ldr
@@ -2039,6 +2074,7 @@
 
 
 
+0 STEP
 0 FILE 4404 - Rubber belt_subPart1.ldr
 0 A generated subpart containing the segmented body of the rubber belt with metadata credits.
 0 Name: 4404 - Rubber belt_subPart1.ldr

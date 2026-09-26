@@ -7,6 +7,7 @@
 1 71 0 -28.483 -5.557 1 0 0 0 0.985 0.174 0 -0.174 0.985 6747 - Chopper.ldr
 
 
+0 STEP
 0 FILE 6747 - Chopper.ldr
 0 The main blue and white chassis frame assembled from plates, grille bricks, curved and inverted slopes, and technic axlehole bricks.
 0 Name: 6747 - Chopper.ldr
@@ -286,6 +287,7 @@
 1 15 0 -120.928 -186.675 1 0 0 0 0.793 0.61 0 -0.61 0.793 6747 - Lights.ldr
 
 
+0 STEP
 0 FILE 6747 - Front Axle.ldr
 0 A front steering axle assembly with technic bricks, liftarms, pins, a steering head, cones, and a red accent tile.
 0 Name: 6747 - Front Axle.ldr
@@ -359,6 +361,7 @@
 1 0 40 10 -110 0 0 1 0 1 0 -1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 6747 - Rear Wheel.ldr
 0 A rear wheel with tyre mounted on an axle using technic bricks, bushings, a wheel rim, and a belt drive pulley.
 0 Name: 6747 - Rear Wheel.ldr
@@ -393,6 +396,7 @@
 1 71 -65 0 10 0 0 1 0 1 0 -1 0 0 32123a.dat
 
 
+0 STEP
 0 FILE 6747 - Engine.ldr
 0 A small engine detail with clip and handle plates, a round axlehole plate, and an inverted dish component.
 0 Name: 6747 - Engine.ldr
@@ -415,6 +419,7 @@
 1 72 59.673 3.445 0 -0.731 -0.682 0 -0.682 0.731 0 0 0 -1 4740.dat
 
 
+0 STEP
 0 FILE 6747 - Rear.ldr
 0 The blue and red rear bodywork with wedge, wing, hinge, and slope plates forming the tail section.
 0 Name: 6747 - Rear.ldr
@@ -474,6 +479,7 @@
 1 1 42 -6 50 0 -1 0 0 0 -1 1 0 0 6747 - Light LH.ldr
 
 
+0 STEP
 0 FILE 6747 - Light RH.ldr
 0 A right-hand headlight with trans-red and trans-orange slope lenses on a white corner plate.
 0 Name: 6747 - Light RH.ldr
@@ -492,6 +498,7 @@
 1 57 0 0 -20 1 0 0 0 1 0 0 0 1 54200.dat
 
 
+0 STEP
 0 FILE 6747 - Light LH.ldr
 0 A left-hand headlight with trans-red and trans-orange slope lenses on a white corner plate.
 0 Name: 6747 - Light LH.ldr
@@ -510,6 +517,7 @@
 1 57 0 0 -20 1 0 0 0 1 0 0 0 1 54200.dat
 
 
+0 STEP
 0 FILE 6747 - Handlebar.ldr
 0 A handlebar assembly using technic liftarms, axles, connectors, bushes, and flexible rubber joiners.
 0 Name: 6747 - Handlebar.ldr
@@ -560,6 +568,7 @@
 1 71 -100 -40 0 -1 0 0 0 0 1 0 1 0 4519.dat
 
 
+0 STEP
 0 FILE 6747 - Front Wheel.ldr
 0 A front wheel with tyre on an axle assembly using angle connectors, liftarms, bushes, and a belt drive pulley.
 0 Name: 6747 - Front Wheel.ldr
@@ -612,6 +621,7 @@
 1 72 40 0 150 0 0 1 0 -1 0 1 0 0 32002.dat
 
 
+0 STEP
 0 FILE 6747 - Lights.ldr
 0 A lighting assembly with trans-brown slope lenses, clip light, round plates, and technic teeth elements.
 0 Name: 6747 - Lights.ldr

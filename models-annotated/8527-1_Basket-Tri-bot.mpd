@@ -57,6 +57,7 @@
 1 7 0 -299 120 1 0 0 0 1 0 0 0 1 8527 - Sound Sensor Attachment.ldr
 
 
+0 STEP
 0 FILE 8527 - Tribot Base.ldr
 0 Core chassis built from long liftarms and pins, carrying the NXT brick and two large off-road drive wheels.
 0 Name: 8527 - Tribot Base.ldr
@@ -165,6 +166,7 @@
 1 47 29 -378.362644 48.228392 -1 0 0 0 -0.686184 -0.727428 0 -0.727428 0.686184 8527 - cable3.ldr
 
 
+0 STEP
 0 FILE 8527 - Tribot Base - Motors.ldr
 0 Structural bracket assembly that groups and mounts the left, center, and right drive motors to the base.
 0 Name: 8527 - Tribot Base - Motors.ldr
@@ -180,6 +182,7 @@
 1 7 100 0 30 1 0 0 0 1 0 0 0 1 8527 - Tribot Base - Motors - Right Motor.ldr
 
 
+0 STEP
 0 FILE 8527 - Tribot Base - Motors - Left Motor.ldr
 0 Left drive motor module using a 15-stud liftarm, bent liftarms, and an NXT motor with axle and pin connectors.
 0 Name: 8527 - Tribot Base - Motors - Left Motor.ldr
@@ -223,6 +226,7 @@
 1 72 49.844 -68.2937 -152.9676 0 -1 0 0.99938 0 -0.035201 0.035201 0 0.99938 32140.dat
 
 
+0 STEP
 0 FILE 8527 - Tribot Base - Motors - Center Motor.ldr
 0 Center drive motor module built from two 7-stud liftarms and pin connectors holding a single NXT motor.
 0 Name: 8527 - Tribot Base - Motors - Center Motor.ldr
@@ -254,6 +258,7 @@
 1 72 30.0014 -68.2947 -52.9675 -0.000024 0 1 0.99938 -0.035201 0.000024 0.035201 0.99938 0 42003.dat
 
 
+0 STEP
 0 FILE 8527 - Tribot Base - Motors - Right Motor.ldr
 0 Right drive motor module mirroring the left, using a 15-stud liftarm, bent liftarm, and an NXT motor.
 0 Name: 8527 - Tribot Base - Motors - Right Motor.ldr
@@ -292,6 +297,7 @@
 1 0 -39.9987 -70.5123 -90.0063 1 0.000022 0 0.000022 -0.99938 0.035197 0 -0.035197 -0.99938 2780.dat
 
 
+0 STEP
 0 FILE 8527 - Tribot Base - Back Wheel.ldr
 0 Rear caster wheel assembly using a 5-stud axle, bush, pulley wheels, and cross blocks to provide a trailing support wheel.
 0 Name: 8527 - Tribot Base - Back Wheel.ldr
@@ -325,6 +331,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 8527 - Basket Bot Attachments - Flapper.ldr
 0 Hinged flap made of two 9-stud liftarms and a bent connector on long pins for a swinging basket gate.
 0 Name: 8527 - Basket Bot Attachments - Flapper.ldr
@@ -349,6 +356,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - Basket Bot Attachments - Basket.ldr
 0 Rectangular basket frame assembled from long liftarms, bent beams, and pin connectors forming an open container.
 0 Name: 8527 - Basket Bot Attachments - Basket.ldr
@@ -434,6 +442,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - Ultrasonic Sensor Attachment.ldr
 0 Mounting bracket of beams and long pins that holds the NXT ultrasonic distance sensor to the robot.
 0 Name: 8527 - Ultrasonic Sensor Attachment.ldr
@@ -473,6 +482,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 8527 - Sound Sensor Attachment.ldr
 0 Bracket of bent liftarms and angle connectors that mounts the NXT sound sensor.
 0 Name: 8527 - Sound Sensor Attachment.ldr
@@ -512,6 +522,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 8527 - cable1.ldr
 0 Flexible NXT RJ12 cable assembly routed through 168 segments over a 309 mm path between two plug ends.
 0 Name: 8527 - cable1.ldr
@@ -562,6 +573,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - cable1_subPart1.ldr
 0 Sub-segment data for cable1 defining its 309 mm, 168-segment routing path.
 0 Name: 8527 - cable1_subPart1.ldr
@@ -749,6 +761,7 @@
 1 16 61.12576339 -253.64130383 -116.34883875 -0.00118256 -0.05321932 -0.99991097 -0.88096217 -1.89448171 0.00733084 -0.47318522 3.52722276 -0.01114941 8527 - ldcNxtWireSeg.dat
 
 
+0 STEP
 0 FILE 8527 - cable2.ldr
 0 Flexible NXT RJ12 cable assembly routed through 144 segments over a 242 mm path between two plug ends.
 0 Name: 8527 - cable2.ldr
@@ -796,6 +809,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - cable2_subPart1.ldr
 0 Sub-segment data for cable2 defining its 242 mm, 144-segment routing path.
 0 Name: 8527 - cable2_subPart1.ldr
@@ -959,6 +973,7 @@
 1 16 56.45402884 183.50882963 -184.5513787 -0.00021574 -0.04374696 0.99994039 0.76768186 2.56791404 0.00716125 -0.64083112 3.07624022 0.00824216 8527 - ldcNxtWireSeg.dat
 
 
+0 STEP
 0 FILE 8527 - cable4.ldr
 0 Flexible NXT RJ12 cable assembly routed through 119 segments over a 279 mm path between two plug ends.
 0 Name: 8527 - cable4.ldr
@@ -1008,6 +1023,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - cable4_subPart1.ldr
 0 Sub-segment data for cable4 defining its 279 mm, 119-segment routing path.
 0 Name: 8527 - cable4_subPart1.ldr
@@ -1146,6 +1162,7 @@
 1 16 -56.99878521 14.13692979 118.57718474 0.00058095 -0.38808706 -0.99526188 0.64951378 3.02068835 -0.0735524 0.7603496 -2.58006745 0.06359113 8527 - ldcNxtWireSeg.dat
 
 
+0 STEP
 0 FILE 8527 - cable3.ldr
 0 Flexible NXT RJ12 cable assembly routed through 168 segments over a 309 mm path between two plug ends.
 0 Name: 8527 - cable3.ldr
@@ -1196,6 +1213,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - cable3_subPart1.ldr
 0 Sub-segment data for cable3 defining its 309 mm, 168-segment routing path.
 0 Name: 8527 - cable3_subPart1.ldr
@@ -1383,6 +1401,7 @@
 1 16 -61.12576339 -253.64130383 -116.34883875 -0.00118256 0.05321932 0.99991097 0.88096217 -1.89448171 0.00733084 0.47318522 3.52722276 -0.01114941 8527 - ldcNxtWireSeg.dat
 
 
+0 STEP
 0 FILE 8527 - cable5.ldr
 0 Flexible NXT RJ12 cable assembly routed through 119 segments over a 257 mm path between two plug ends.
 0 Name: 8527 - cable5.ldr
@@ -1430,6 +1449,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - cable5_subPart1.ldr
 0 Sub-segment data for cable5 defining its 257 mm, 119-segment routing path.
 0 Name: 8527 - cable5_subPart1.ldr
@@ -1568,6 +1588,7 @@
 1 16 19.0029207 -244.24098991 -305.51764774 0.00001673 -0.12655293 0.99949808 -0.68575714 -2.90608034 -0.02304577 0.72783044 -2.73808725 -0.02173655 8527 - ldcNxtWireSeg.dat
 
 
+0 STEP
 0 FILE 8527 - cable6.ldr
 0 Placeholder submodel for an NXT cable assembly with no directly-listed pieces.
 0 Name: 8527 - cable6.ldr
@@ -1597,6 +1618,7 @@
 0 !LDCAD GENERATED [generator=LDCad 1.7 Alpha 1]
 
 
+0 STEP
 0 FILE 8527 - cable7.ldr
 0 Placeholder submodel for an NXT cable assembly with no directly-listed pieces.
 0 Name: 8527 - cable7.ldr
@@ -1624,6 +1646,7 @@
 0 !LDCAD GENERATED [generator=LDCad 1.7 Alpha 1]
 
 
+0 STEP
 0 FILE 8527 - ldcNxtWireSeg.dat
 0 LDCad path-deform primitive defining the cylindrical geometry of a single NXT wire cable segment.
 0 Name: 8527 - ldcNxtWireSeg.dat
@@ -1668,6 +1691,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - ldcConRing-2-4.dat
 0 LDCad path-deform primitive defining the connector ring geometry used to cap NXT cable segments.
 0 Name: 8527 - ldcConRing-2-4.dat

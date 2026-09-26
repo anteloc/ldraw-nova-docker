@@ -45,6 +45,7 @@
 
 
 
+0 STEP
 0 FILE 41075-1 - table.ldr
 0 A small round white table with a brown base and two pearl gold goblets topped with translucent round studs.
 0 Name: 41075-1 - table.ldr
@@ -69,6 +70,7 @@
 
 
 
+0 STEP
 0 FILE 41075-1 - seat.ldr
 0 A simple round white stool seat topped with a medium lavender round tile.
 0 Name: 41075-1 - seat.ldr
@@ -83,6 +85,7 @@
 
 
 
+0 STEP
 0 FILE 41075-1 - bed.ldr
 0 A lavender and tan bed built from hinged plates and round green tiles, with sloped lavender headboard details.
 0 Name: 41075-1 - bed.ldr
@@ -124,6 +127,7 @@
 
 
 
+0 STEP
 0 FILE 41075-1 - treebalcony.ldr
 0 A large multi-level tree balcony structure on a green baseplate, built with dark red bricks, slopes, arches, and brown supports.
 0 Name: 41075-1 - treebalcony.ldr
@@ -672,6 +676,7 @@
 
 
 
+0 STEP
 0 FILE 41075-1 - house.ldr
 0 A dark red and tan corner house with pointed arches, a sand green fence, lilac and green accents, and a hinged roof section.
 0 Name: 41075-1 - house.ldr
@@ -822,6 +827,7 @@
 
 
 
+0 STEP
 0 FILE 41075-1 - minifigChain-1.ldr
 0 A flexible chain of 21 interlinked chain links forming a long flexible assembly.
 0 Name: 41075-1 - minifigChain-1.ldr
@@ -896,6 +902,7 @@
 1 16 5 -171.026447 13 1 0 0 0 1 0 0 0 1 209.dat
 
 
+0 STEP
 0 FILE 41075-1 - observatory.ldr
 0 An azure and green-based observatory tower with dark red brickwork, magenta cones, trans-purple dishes, and pink plant foliage.
 0 Name: 41075-1 - observatory.ldr
@@ -1193,6 +1200,7 @@
 
 
 
+0 STEP
 0 FILE 41075-1 - azari.ldr
 0 The Azari elf minifigure wearing a magenta strapless top and skirt with a flame tattoo and wavy dark red elven hair.
 0 Name: 41075-1 - azari.ldr
@@ -1217,6 +1225,7 @@
 
 
 
+0 STEP
 0 FILE 41075-1 - farran.ldr
 0 The Farran elf minifigure wearing dark green cropped trousers with a leaf tattoo and short spiked brown elven hair.
 0 Name: 41075-1 - farran.ldr
@@ -1242,6 +1251,7 @@
 
 
 
+0 STEP
 0 FILE 41075-1 - emily.ldr
 0 The Emily minifigure wearing a white striped top, shorts with sand blue shoes, a backpack, and a braided ponytail hairstyle.
 0 Name: 41075-1 - emily.ldr
@@ -1266,6 +1276,7 @@
 
 
 
+0 STEP
 0 FILE 41075-1 - 14734p01.dat
 0 A closed cylinder primitive part used as a geometric sub-component.
 0 Name: 41075-1 - 14734p01.dat
@@ -1364,6 +1375,7 @@
 3 0 -5.101 -44.226002 -45.480999 -5.28 -44.839001 -45.153 -8.036 -46.07 -43.785
 
 
+0 STEP
 0 FILE 41075-1 - 14704.dat
 0 A geometric primitive assembly of boxes, discs, cylinders, and chords forming a curved part shape.
 0 Name: 41075-1 - 14704.dat
@@ -1435,6 +1447,7 @@
 1 16 0 4 -20 1 0 0 0 1 0 0 0 1 41075-1 - joint-8-socket-frica.dat
 
 
+0 STEP
 0 FILE 41075-1 - 14419.dat
 0 A geometric primitive assembly of circle, cylinder, and sphere shapes forming a stud or rounded element.
 0 Name: 41075-1 - 14419.dat
@@ -1458,6 +1471,7 @@
 1 16 30 4 0 0 0 -1 0 1 0 1 0 0 41075-1 - joint-8-socket-frica.dat
 
 
+0 STEP
 0 FILE 41075-1 - 3960p0b.dat
 0 A patterned round tile part with no direct sub-pieces.
 0 Name: 41075-1 - 3960p0b.dat
@@ -1478,6 +1492,7 @@
 0 !TEXMAP END
 
 
+0 STEP
 0 FILE 41075-1 - 3665a.dat
 0 A slope brick part with no direct sub-pieces.
 0 Name: 41075-1 - 3665a.dat
@@ -1500,6 +1515,7 @@
 4 16 10 24 -10 10 4 -30 -10 4 -30 -10 24 -10
 
 
+0 STEP
 0 FILE 41075-1 - 15469.dat
 0 A Technic axle hole gear primitive built from cylinders, cones, and toothed surface elements.
 0 Name: 41075-1 - 15469.dat
@@ -1620,6 +1636,7 @@
 5 24 20 16 0 20 9.448 0 19.67 16 -3.617 19.67 16 3.617
 
 
+0 STEP
 0 FILE 41075-1 - 18838.dat
 0 A geometric primitive assembly of boxes and rectangles forming a rectangular brick shape.
 0 Name: 41075-1 - 18838.dat
@@ -1877,6 +1894,7 @@
 1 16 -20.5 3 0 18.5 0 0 0 -1 0 0 0 -7 rect2p.dat
 
 
+0 STEP
 0 FILE 41075-1 - 14418.dat
 0 A minifigure accessory or decorated part with no direct sub-pieces.
 0 Name: 41075-1 - 14418.dat
@@ -1895,6 +1913,7 @@
 1 16 30 4 0 0 0 -1 0 1 0 1 0 0 41075-1 - joint-8-socket-frica.dat
 
 
+0 STEP
 0 FILE 41075-1 - 20380p01c01.dat
 0 A Friends minifigure hips-and-legs sub-assembly with a patterned layered skirt and sandals.
 0 Name: 41075-1 - 20380p01c01.dat
@@ -1912,6 +1931,7 @@
 1 16 0 -47.4 2.7 1 0 0 0 1 0 0 0 1 92248.dat
 
 
+0 STEP
 0 FILE 41075-1 - 92241p20.dat
 0 A patterned minifigure torso or accessory part with no direct sub-pieces.
 0 Name: 41075-1 - 92241p20.dat
@@ -3250,6 +3270,7 @@
 3 26 10.3 12.89 1.05 10.4348 17.579901 0.8853 10.45 18 0.92
 
 
+0 STEP
 0 FILE 41075-1 - 92244p11.dat
 0 A patterned minifigure torso or accessory part with no direct sub-pieces.
 0 Name: 41075-1 - 92244p11.dat
@@ -3269,6 +3290,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\92244s05.dat
 
 
+0 STEP
 0 FILE 41075-1 - 92198p14.dat
 0 A patterned minifigure torso or accessory part with no direct sub-pieces.
 0 Name: 41075-1 - 92198p14.dat
@@ -3366,6 +3388,7 @@
 3 16 -7.78 19.34 -11.69 -3.39 23.09 -13.11 -4.08 20.01 -14.07
 
 
+0 STEP
 0 FILE 41075-1 - 19204p01.dat
 0 A patterned minifigure legs or hips part with no direct sub-pieces.
 0 Name: 41075-1 - 19204p01.dat
@@ -3389,6 +3412,7 @@
 0 !TEXMAP END
 
 
+0 STEP
 0 FILE 41075-1 - 92251p06.dat
 0 A patterned minifigure head or hair part with no direct sub-pieces.
 0 Name: 41075-1 - 92251p06.dat
@@ -3416,6 +3440,7 @@
 1 84 0 0 0 -1 0 0 0 1 0 0 0 1 41075-1 - 92251p06s04.dat
 
 
+0 STEP
 0 FILE 41075-1 - u9210p03.dat
 0 Decorated part with left, right, and conditional line geometry details.
 0 Name: 41075-1 - u9210p03.dat
@@ -5204,6 +5229,7 @@
 4 300 7.24 2.4 -7.34 6.86 2.3987 -7.4286 6.8347 4.5046 -7.6335 6.99 4.64 -7.61
 
 
+0 STEP
 0 FILE 41075-1 - 92244p13.dat
 0 Patterned Friends figure part with no direct subcomponents listed.
 0 Name: 41075-1 - 92244p13.dat
@@ -5223,6 +5249,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\92244s05.dat
 
 
+0 STEP
 0 FILE 41075-1 - 92240p02.dat
 0 Patterned Friends figure part with no direct subcomponents listed.
 0 Name: 41075-1 - 92240p02.dat
@@ -5851,6 +5878,7 @@
 3 16 -6.98 25.309999 -5.94 -9.08 23.23 -6.89 -9.86 22.139999 -2.69
 
 
+0 STEP
 0 FILE 41075-1 - 19203p01.dat
 0 Patterned part with no direct subcomponents listed.
 0 Name: 41075-1 - 19203p01.dat
@@ -5867,6 +5895,7 @@
 1 78 0 0 0 1 0 0 0 1 0 0 0 1 41075-1 - 19203s02.dat
 
 
+0 STEP
 0 FILE 41075-1 - 11202p04c01.dat
 0 Friends minidoll lower body assembly with shorts-style legs, hips, and yellow-and-white patterned shoes.
 0 Name: 41075-1 - 11202p04c01.dat
@@ -5882,6 +5911,7 @@
 1 16 0 -47.4 2.7 1 0 0 0 1 0 0 0 1 92248.dat
 
 
+0 STEP
 0 FILE 41075-1 - 92241p22.dat
 0 Patterned Friends figure part with no direct subcomponents listed.
 0 Name: 41075-1 - 92241p22.dat
@@ -7192,6 +7222,7 @@
 3 1 -0.38 3.32 -9.258 -0.21 3.11 -9.221 -0.52 3.23 -9.228
 
 
+0 STEP
 0 FILE 41075-1 - 92198p15.dat
 0 Patterned Friends figure part with no direct subcomponents listed.
 0 Name: 41075-1 - 92198p15.dat
@@ -7370,6 +7401,7 @@
 3 16 -7.78 19.34 -11.69 -3.39 23.09 -13.11 -4.08 20.01 -14.07
 
 
+0 STEP
 0 FILE 41075-1 - 11605.dat
 0 Circular cylindrical primitive built from circles, cylinders, and a closed cylindrical surface.
 0 Name: 41075-1 - 11605.dat
@@ -11993,6 +12025,7 @@
 5 24 -2.3 -0.27 -13.94 0.5 1.04 -15.01 -1.01 0.2 -14.58 -1.87 0.87 -13.56
 
 
+0 STEP
 0 FILE 41075-1 - 11245.dat
 0 Cylindrical patterned container with ring, disc, sloped cylinder, and front pocket detail.
 0 Name: 41075-1 - 11245.dat
@@ -12259,6 +12292,7 @@
 5 24 -8.612 -1.899 -10.096 -3.918 -4.716 -12.005 -9.098 -5.383 -11.177 -3.813 -1.597 -10.882
 
 
+0 STEP
 0 FILE 41075-1 - joint-8-socket-frica.dat
 0 Ball-joint socket primitive formed from four quarter surfaces, top and bottom plates, cylindrical rings, and spherical cut sections.
 0 Name: 41075-1 - joint-8-socket-frica.dat
@@ -12852,6 +12886,7 @@
 5 24 -10 4 10 -10 -4 10 -9.817 4 9.68305 -10 4 15
 
 
+0 STEP
 0 FILE 41075-1 - 14418s01.dat
 0 Box-based structural subpart with closed cylinders and multi-face box elements.
 0 Name: 41075-1 - 14418s01.dat
@@ -12904,6 +12939,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 stug2-1x2.dat
 
 
+0 STEP
 0 FILE 41075-1 - 3665as01.dat
 0 Brick slope subassembly built from multi-face boxes and rectangular panels.
 0 Name: 41075-1 - 3665as01.dat
@@ -12958,6 +12994,7 @@
 1 16 0 4 -20 0 0 1 0 6 0 -1 0 0 stud2s.dat
 
 
+0 STEP
 0 FILE 41075-1 - 15469s01.dat
 0 Curved slope subpart composed of chord, cylinder, circle, and rectangle primitives.
 0 Name: 41075-1 - 15469s01.dat
@@ -13153,6 +13190,7 @@
 5 24 7.777 9.444 22.226 7.832 3.2 18.908001 0 3.2 20.465 14.729 8.575 17.643
 
 
+0 STEP
 0 FILE 41075-1 - 14734s01.dat
 0 Subpart of the 14734 element with no direct subcomponents listed.
 0 Name: 41075-1 - 14734s01.dat
@@ -14401,6 +14439,7 @@
 5 24 0 -59 -35 0 -58.27 -37.958 2.683 -58.293999 -37.115002 -2.683 -58.293999 -37.115002
 
 
+0 STEP
 0 FILE 41075-1 - 14734s02.dat
 0 Subpart of the 14734 element with no direct subcomponents listed.
 0 Name: 41075-1 - 14734s02.dat
@@ -14483,6 +14522,7 @@
 5 24 0 -34.514999 0.625 0 -35.682999 -2.789 2.864 -35.255001 -3.398 -2.864 -35.255001 -3.398
 
 
+0 STEP
 0 FILE 41075-1 - 14734s03.dat
 0 Subpart of the 14734 element with no direct subcomponents listed.
 0 Name: 41075-1 - 14734s03.dat
@@ -14511,6 +14551,7 @@
 5 24 16.6 -48 -33.007 17.799999 -47.799999 -32.608002 18.700001 -49.599998 -32.456001 16.299999 -46 -32.904999
 
 
+0 STEP
 0 FILE 41075-1 - 14734s04.dat
 0 Subpart of the 14734 element with no direct subcomponents listed.
 0 Name: 41075-1 - 14734s04.dat
@@ -14563,6 +14604,7 @@
 5 24 16.299999 -46 -32.904999 17.799999 -47.799999 -32.608002 16.6 -48 -33.007 18.1 -46.599998 -32.441002
 
 
+0 STEP
 0 FILE 41075-1 - 14734s05.dat
 0 Subpart of the 14734 element consisting of added edge and conditional lines.
 0 Name: 41075-1 - 14734s05.dat
@@ -14730,6 +14772,7 @@
 5 24 4.81 -3.47 -34.419998 5.09 -3.32 -34.597 5.963 -5.056 -34.601002 4.47 -2.67 -34.172001
 
 
+0 STEP
 0 FILE 41075-1 - 14734s06.dat
 0 Subpart of the 14734 element with no direct subcomponents listed.
 0 Name: 41075-1 - 14734s06.dat
@@ -14767,6 +14810,7 @@
 5 24 12.06 -4.07 -33.028 11.56 -4.13 -33.737 12.17 -3.73 -32.882 11.81 -4.25 -33.284
 
 
+0 STEP
 0 FILE 41075-1 - 14734p01s01.dat
 0 Patterned variant subpart of the 14734 element with no direct subcomponents listed.
 0 Name: 41075-1 - 14734p01s01.dat
@@ -15065,6 +15109,7 @@
 3 16 3.53 -34.325001 -44.308998 2.99 -33.959999 -44.105 8.041 -35.312 -43.021999
 
 
+0 STEP
 0 FILE 41075-1 - 92251p06s01.dat
 0 Patterned Friends figure subpart with no direct subcomponents listed.
 0 Name: 41075-1 - 92251p06s01.dat
@@ -15558,6 +15603,7 @@
 5 24 11.8788 -9.3289 -2.7421 11.8299 -9.2484 -3.0556 14.32 -8.76 -3.09 11.7225 -9.4075 -2.5863
 
 
+0 STEP
 0 FILE 41075-1 - 92251p06s02.dat
 0 Patterned Friends figure subpart with no direct subcomponents listed.
 0 Name: 41075-1 - 92251p06s02.dat
@@ -15795,6 +15841,7 @@
 5 24 3.1364 -14 1.9521 3.96 -16.91 1.38 3.15 -17.639999 2.23 4.8934 -14 0.4049
 
 
+0 STEP
 0 FILE 41075-1 - 92251p06s03.dat
 0 Patterned Friends figure subpart with no direct subcomponents listed.
 0 Name: 41075-1 - 92251p06s03.dat
@@ -15858,6 +15905,7 @@
 5 24 13.7 -5.08 -8.8 13.7 0 -8.8 16.6 0 -6.3 10 -5.17 -9.7
 
 
+0 STEP
 0 FILE 41075-1 - 92251p06s04.dat
 0 Patterned Friends figure subpart with no direct subcomponents listed.
 0 Name: 41075-1 - 92251p06s04.dat
@@ -15944,6 +15992,7 @@
 5 24 9.6469 -9.7519 -2.4317 10.0201 -9.5741 -3.003 11.7225 -9.4075 -2.5863 8.9918 -9.6798 -2.9267
 
 
+0 STEP
 0 FILE 41075-1 - 92244p13s02.dat
 0 Circular surface subpart for the patterned Friends figure element.
 0 Name: 41075-1 - 92244p13s02.dat
@@ -16398,6 +16447,7 @@
 3 16 0.904 0.872 -3.656 1.303 2.994 -2.777 1.551 1.562 -3.318
 
 
+0 STEP
 0 FILE 41075-1 - 19203s01.dat
 0 Cylindrical component formed by an open cylinder and two smaller half-cylinder pieces.
 0 Name: 41075-1 - 19203s01.dat
@@ -24486,6 +24536,7 @@
 5 24 1.41 6.58 19.77 1.4142 7.5858 18.724199 0.7654 7.1522 18.8507 1.86 7.17 19.77
 
 
+0 STEP
 0 FILE 41075-1 - 19203s02.dat
 0 Empty submodel serving as a container or placeholder with no direct pieces.
 0 Name: 41075-1 - 19203s02.dat
@@ -24887,6 +24938,7 @@
 5 24 17.57 9.98 3.44 18.84 9.53 2.22 17.48 11.5 3.43 18.030001 7.77 2.75
 
 
+0 STEP
 0 FILE 41075-1 - 20380p01.dat
 0 Printed part submodel containing no direct geometric pieces.
 0 Name: 41075-1 - 20380p01.dat
@@ -24913,6 +24965,7 @@
 1 16 0 0 0 -1 0 0 0 1 0 0 0 1 41075-1 - 20380p01s03.dat
 
 
+0 STEP
 0 FILE 41075-1 - 20380s01.dat
 0 Empty submodel serving as a container or placeholder with no direct pieces.
 0 Name: 41075-1 - 20380s01.dat
@@ -26208,6 +26261,7 @@
 5 24 4 -47.200001 11.1 6.0247 -42.8092 10.7612 4.9066 -41.540699 10.716 5.919 -44.195301 10.7965
 
 
+0 STEP
 0 FILE 41075-1 - 20380s02.dat
 0 Edge-line geometry submodel consisting only of added condlines.
 0 Name: 41075-1 - 20380s02.dat
@@ -26982,6 +27036,7 @@
 3 16 -2.6034 -35.569698 -4.8169 -2.8415 -36.260101 -4.8552 -3.6813 -36.679298 -4.8192
 
 
+0 STEP
 0 FILE 41075-1 - 20380p01s01.dat
 0 Empty pattern detail submodel with no direct pieces.
 0 Name: 41075-1 - 20380p01s01.dat
@@ -27384,6 +27439,7 @@
 5 24 10 -5.17 -9.7 8 -5.12 -9.2 6 -2 -8.7 7.88 -6.78 -8.44
 
 
+0 STEP
 0 FILE 41075-1 - 20380p01s02.dat
 0 Pattern detail submodel defined only by edge condlines.
 0 Name: 41075-1 - 20380p01s02.dat
@@ -27496,6 +27552,7 @@
 5 24 3.78 -7.2375 -4.405 4.27 -7.855 -4.17 3.275 -7.74 -3.27 5.1567 -7.8183 -5.2833
 
 
+0 STEP
 0 FILE 41075-1 - 20380p01s03.dat
 0 Empty pattern detail submodel with no direct pieces.
 0 Name: 41075-1 - 20380p01s03.dat
@@ -27539,6 +27596,7 @@
 5 24 6 -2 -8.7 6 0 -8.7 10 -2 -9.7 2.8 0 -5.6
 
 
+0 STEP
 0 FILE 41075-1 - 92244p11s02.dat
 0 Circular pattern element built from a single full circle primitive.
 0 Name: 41075-1 - 92244p11s02.dat
@@ -28030,6 +28088,7 @@
 3 16 0 -2.8284 -2.8284 0 -1.531 -3.696 0.504 -2.629 -3.176
 
 
+0 STEP
 0 FILE 41075-1 - 92198p13s03.dat
 0 Empty pattern detail submodel with no direct pieces.
 0 Name: 41075-1 - 92198p13s03.dat
@@ -28448,6 +28507,7 @@
 3 16 -3.51 10.31 -14.882 -3.91 10.34 -14.79 -4.84 10.51 -14.57
 
 
+0 STEP
 0 FILE 41075-1 - 92198p13s01.dat
 0 Empty pattern detail submodel with no direct pieces.
 0 Name: 41075-1 - 92198p13s01.dat
@@ -28673,6 +28733,7 @@
 3 0 -6.091 13.294 -13.463 -4.92 13.83 -14.142 -6.848 12.619 -13.062
 
 
+0 STEP
 0 FILE 41075-1 - 92198p13s02.dat
 0 Empty pattern detail submodel with no direct pieces.
 0 Name: 41075-1 - 92198p13s02.dat
@@ -28750,6 +28811,7 @@
 3 16 -7.41 13.97 -12.591 -6.92 14.56 -12.836 -6.94 14.24 -12.854
 
 
+0 STEP
 0 FILE 41075-1 - 19204s01.dat
 0 Hollow cylindrical part formed from an open cylinder, negative disc, and chord segments.
 0 Name: 41075-1 - 19204s01.dat
@@ -33354,6 +33416,7 @@
 5 24 13.186 23.403 0.701 12.74 22.921 4.515 13.341 24.115 4.314 13 4 0
 
 
+0 STEP
 0 FILE 41075-1 - 19204s02.dat
 0 Empty submodel serving as a container or placeholder with no direct pieces.
 0 Name: 41075-1 - 19204s02.dat
@@ -33781,6 +33844,7 @@
 5 24 -18.042 1.96 -0.607 -15.459 2.775 -1.529 -15.978 1.434 -0.068 -16.909 3.582 -2.232
 
 
+0 STEP
 0 FILE 41075-1 - 19204s03.dat
 0 Empty submodel serving as a container or placeholder with no direct pieces.
 0 Name: 41075-1 - 19204s03.dat
@@ -37551,6 +37615,7 @@
 5 24 -2.926 11.18 21.641001 -6.137 11.538 20.719 -2.29 10.315 21.589001 -4.468 13.981 22.207001
 
 
+0 STEP
 0 FILE 41075-1 - 19204s04.dat
 0 Empty submodel serving as a container or placeholder with no direct pieces.
 0 Name: 41075-1 - 19204s04.dat
@@ -38160,6 +38225,7 @@
 3 16 19.582001 17.989 10.677999 19.740999 16.556999 10.116 20.747 17.207001 9.27
 
 
+0 STEP
 0 FILE 41075-1 - 11202p04.dat
 0 Printed part submodel containing no direct geometric pieces.
 0 Name: 41075-1 - 11202p04.dat
@@ -38187,6 +38253,7 @@
 1 78 0 0 0 -1 0 0 0 1 0 0 0 1 s\92252s04.dat
 
 
+0 STEP
 0 FILE 41075-1 - 11202p04s01.dat
 0 Empty pattern detail submodel with no direct pieces.
 0 Name: 41075-1 - 11202p04s01.dat
@@ -38490,6 +38557,7 @@
 5 24 14.166 -8.987 -2.184 14.035 -8.958 -2.718 14.832 -8.392 -3.562 13.706 -9.231 -2.024
 
 
+0 STEP
 0 FILE 41075-1 - 11202p04s02.dat
 0 Empty pattern detail submodel with no direct pieces.
 0 Name: 41075-1 - 11202p04s02.dat
@@ -38563,6 +38631,7 @@
 5 24 13.7 -5.08 -8.8 13.7 0 -8.8 16.6 0 -6.3 10 -5.17 -9.7
 
 
+0 STEP
 0 FILE 41075-1 - 11202p04s03.dat
 0 Empty pattern detail submodel with no direct pieces.
 0 Name: 41075-1 - 11202p04s03.dat
@@ -38607,6 +38676,7 @@
 5 24 14.711 -8.314 -4.09 14.372 -8.644 -3.402 12.086 -8.739 -5.435 14.832 -8.392 -3.562
 
 
+0 STEP
 0 FILE 41075-1 - 11202p04s04.dat
 0 Empty pattern detail submodel with no direct pieces.
 0 Name: 41075-1 - 11202p04s04.dat
@@ -38676,6 +38746,7 @@
 5 24 12.59 -11.76 3.73 13.65 -10.12 5.27 12.82 -11.33 6.29 13.06 -10.45 2.77
 
 
+0 STEP
 0 FILE 41075-1 - 92198p15s01.dat
 0 Empty pattern detail submodel with no direct pieces.
 0 Name: 41075-1 - 92198p15s01.dat
@@ -38889,6 +38960,7 @@
 3 16 0 14.55 -14.86 0 20.09 -14.97 4.08 20.01 -14.07
 
 
+0 STEP
 0 FILE 41075-1 - 11245s01.dat
 0 Flat rectangular plate element composed of two rectangle primitives.
 0 Name: 41075-1 - 11245s01.dat

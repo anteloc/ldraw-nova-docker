@@ -1510,6 +1510,7 @@
 0 STEP
 0 STEP
 
+0 STEP
 0 FILE 42039 - shock-06_5L-hard-1.ldr
 0 A 6.5L hard shock absorber assembly with a cylinder and piston rod.
 0 Name: 42039 - shock-06_5L-hard-1.ldr
@@ -1555,6 +1556,7 @@
 0 //Spring mesh reference
 1 494 0 56 0 1 0 0 0 1 0 0 0 1 42039 - shock-06_5L-hard-1_springMesh.ldr
 
+0 STEP
 0 FILE 42039 - shock-06_5L-hard-1_springMesh.ldr
 0 A 5-section coil spring mesh approximating 17.6mm length for a 6.5L shock absorber.
 0 Name: 42039 - shock-06_5L-hard-1_springMesh.ldr
@@ -7386,6 +7388,7 @@
 2 24 -7.75 42.5004 0.0232 -7.2197 42.7199 0.0164
 5 24 -7.75 43.2558 0.1874 -7.2197 42.7199 0.0164 -7.75 42.5004 0.0232 -7 43.25 0
 
+0 STEP
 0 FILE 42039 - motor.ldr
 0 A Technic V8 engine assembly with 8 cylinders, pistons, connecting rods, and dual crankshafts.
 0 Name: 42039 - motor.ldr
@@ -7531,6 +7534,7 @@
 
 
 
+0 STEP
 0 FILE 42039 - frontchassis.ldr
 0 A front chassis substructure built from long liftarms, cross blocks, and an open-center beam.
 0 Name: 42039 - frontchassis.ldr
@@ -7595,6 +7599,7 @@
 
 
 
+0 STEP
 0 FILE 42039 - technicRibHose-1.ldr
 0 An empty placeholder submodel for a ribbed hose.
 0 Name: 42039 - technicRibHose-1.ldr
@@ -7617,6 +7622,7 @@
 
 0 !LDCAD GENERATED [generator=LDCad 1.4b]
 
+0 STEP
 0 FILE 42039 - technicRibHoseLQ-1.ldr
 0 A long ribbed hose assembly of 43 segments with end caps, approximately 90mm in length.
 0 Name: 42039 - technicRibHoseLQ-1.ldr
@@ -7733,6 +7739,7 @@
 0 // ~Technic Ribbed Hose End Segment (main_colour)
 1 16 -77.012 -162.842 31.8162 0.9061 0 0.423 -0.423 0 0.9061 0 -1 0 79.dat
 
+0 STEP
 0 FILE 42039 - technicRibHoseLQ-2.ldr
 0 A long ribbed hose assembly of 43 segments with end caps, approximately 89.5mm in length.
 0 Name: 42039 - technicRibHoseLQ-2.ldr
@@ -7849,6 +7856,7 @@
 0 // ~Technic Ribbed Hose End Segment (main_colour)
 1 16 -77.012 -162.842 -31.7205 0.9061 0 -0.423 -0.423 0 -0.9061 0 1 0 79.dat
 
+0 STEP
 0 FILE 42039 - frontfloor.ldr
 0 A front floor panel section using curved panels, beams, and cross blocks.
 0 Name: 42039 - frontfloor.ldr
@@ -7917,6 +7925,7 @@
 
 
 
+0 STEP
 0 FILE 42039 - frontaxle.ldr
 0 A front axle assembly with independent suspension arms, steering bearings, towball joints, and shock mounting points.
 0 Name: 42039 - frontaxle.ldr
@@ -8052,6 +8061,7 @@
 
 
 
+0 STEP
 0 FILE 42039 - shock-06_5L-hard-2.ldr
 0 A 6.5L hard shock absorber assembly with a cylinder and piston rod.
 0 Name: 42039 - shock-06_5L-hard-2.ldr
@@ -8097,6 +8107,7 @@
 0 //Spring mesh reference
 1 494 0 56 0 1 0 0 0 1 0 0 0 1 42039 - shock-06_5L-hard-2_springMesh.ldr
 
+0 STEP
 0 FILE 42039 - shock-06_5L-hard-2_springMesh.ldr
 0 A 5-section coil spring mesh approximating 15.6mm length for a 6.5L shock absorber.
 0 Name: 42039 - shock-06_5L-hard-2_springMesh.ldr
@@ -13928,6 +13939,7 @@
 2 24 -7.75 37.5004 0.0232 -7.2197 37.7199 0.0164
 5 24 -7.75 38.2558 0.1874 -7.2197 37.7199 0.0164 -7.75 37.5004 0.0232 -7 38.25 0
 
+0 STEP
 0 FILE 42039 - steeringrack.ldr
 0 A steering rack mechanism with gear rack, steering links, towball pins, and a drive gear.
 0 Name: 42039 - steeringrack.ldr
@@ -13982,6 +13994,7 @@
 1 0 0 -40 0 0 1 0 -1 0 0 0 0 1 32270.dat
 
 
+0 STEP
 0 FILE 42039 - frontaxletop.ldr
 0 An upper front axle support structure using bent liftarms, cross blocks, and T-beams.
 0 Name: 42039 - frontaxletop.ldr
@@ -14035,6 +14048,7 @@
 0 // Technic Axle Pin with Friction (blue)
 1 1 20 -22.9438 -82.1661 0 0 1 0.9455 -0.3256 0 0.3256 0.9455 0 43093.dat
 
+0 STEP
 0 FILE 42039 - doorlift.ldr
 0 A door-lift mechanism using bevel gears, a toggle joint connector, and axles.
 0 Name: 42039 - doorlift.ldr
@@ -14066,6 +14080,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42039 - doorlift2.ldr
 0 A worm-gear-driven door-lift reduction mechanism with an 8-tooth output gear.
 0 Name: 42039 - doorlift2.ldr
@@ -14111,6 +14126,7 @@
 1 71 -40 0 -65 1 0 0 0 0 1 0 -1 0 60483.dat
 
 
+0 STEP
 0 FILE 42039 - hoodlift.ldr
 0 A hood-lift mechanism using bevel gears and a toggle joint connector on axles.
 0 Name: 42039 - hoodlift.ldr
@@ -14141,6 +14157,7 @@
 1 14 0 0 -140 -1 0 0 0 -1 0 0 0 1 59443.dat
 
 
+0 STEP
 0 FILE 42039 - hoodlift2.ldr
 0 A worm-gear-driven hood-lift reduction mechanism with a 24-tooth output gear.
 0 Name: 42039 - hoodlift2.ldr
@@ -14191,6 +14208,7 @@
 1 0 25 -40 -30 0 1 0 -1 0 0 0 0 1 11478.dat
 1 0 0 0 220 1 0 0 0 1 0 0 0 1 42039 - hoodlift.ldr
 
+0 STEP
 0 FILE 42039 - seat.ldr
 0 A racing seat assembly built from bent red liftarms forming a backrest and base.
 0 Name: 42039 - seat.ldr
@@ -14227,6 +14245,7 @@
 
 
 
+0 STEP
 0 FILE 42039 - technicFlexAxle-1.ldr
 0 A long flexible axle assembly of 78 segments, approximately 154mm in length.
 0 Name: 42039 - technicFlexAxle-1.ldr
@@ -17945,6 +17964,7 @@
 5 24 237.1716 0 -2.8284 237.1716 -3.9292 -2.8284 236.3044 0 -1.5308 238.4692 0 -3.6956
 5 24 236.3044 0 -1.5308 236.3044 -3.9292 -1.5308 236 0 0 237.1716 0 -2.8284
 
+0 STEP
 0 FILE 42039 - technicFlexAxle-2.ldr
 0 A flexible axle assembly of 40 segments, approximately 88mm in length.
 0 Name: 42039 - technicFlexAxle-2.ldr
@@ -20369,6 +20389,7 @@
 5 24 38.2831 -197.5038 71.7029 36.9331 -194.6972 70.0452 39.0847 -196.5585 72.6515 37.084 -198.3719 71.2088
 5 24 39.0847 -196.5585 72.6515 37.7347 -193.752 70.9939 39.3663 -195.6801 73.9104 38.2831 -197.5038 71.7029
 
+0 STEP
 0 FILE 42039 - technicFlexAxle-3.ldr
 0 A flexible axle assembly of 40 segments, approximately 89mm in length.
 0 Name: 42039 - technicFlexAxle-3.ldr
@@ -22794,6 +22815,7 @@
 5 24 -33.5979 -200.4919 73.4681 -32.195 -197.5757 71.7453 -32.797 -200.1179 74.7544 -34.7965 -200.5055 72.4687
 5 24 -32.797 -200.1179 74.7544 -31.3942 -197.2018 73.0317 -32.5162 -199.4399 76.1319 -33.5979 -200.4919 73.4681
 
+0 STEP
 0 FILE 42039 - headlight1.ldr
 0 A bright-green headlight housing substructure with fairing panels and mounting beams.
 0 Name: 42039 - headlight1.ldr
@@ -22847,6 +22869,7 @@
 
 
 
+0 STEP
 0 FILE 42039 - headlight2.ldr
 0 A headlight assembly with clear trans dishes serving as lenses and bushings for mounting.
 0 Name: 42039 - headlight2.ldr
@@ -22884,6 +22907,7 @@
 
 
 
+0 STEP
 0 FILE 42039 - mudguard1.ldr
 0 A bright-green mudguard assembly using curved panels mounted on cross blocks and an axle.
 0 Name: 42039 - mudguard1.ldr
@@ -22906,6 +22930,7 @@
 0 // Technic Cross Block 1 x 3 (Axle/Pin/Pin) (bright_green)
 1 10 -50 20 0 1 0 0 0 1 0 0 0 1 42003.dat
 
+0 STEP
 0 FILE 42039 - headlight3.ldr
 0 Right-side headlight assembly with bright green fairing panels and cross blocks mounted on bent liftarms.
 0 Name: 42039 - headlight3.ldr
@@ -22958,6 +22983,7 @@
 
 
 
+0 STEP
 0 FILE 42039 - headlight4.ldr
 0 Headlight unit featuring clear trans dish lenses mounted on a T-shaped beam with axle and bush fittings.
 0 Name: 42039 - headlight4.ldr
@@ -22994,6 +23020,7 @@
 
 
 
+0 STEP
 0 FILE 42039 - mudguard2.ldr
 0 Curved mudguard panel assembly built from two long bright green panels on cross blocks and an axle connector.
 0 Name: 42039 - mudguard2.ldr
@@ -23016,6 +23043,7 @@
 0 // Technic Cross Block 1 x 3 (Axle/Pin/Pin) (bright_green)
 1 10 -50 20 0 1 0 0 0 1 0 0 0 1 42003.dat
 
+0 STEP
 0 FILE 42039 - technicFlexAxle-4.ldr
 0 Flexible Technic axle component generated by LDCad, approximately 144mm long with 38 segments.
 0 Name: 42039 - technicFlexAxle-4.ldr
@@ -25372,6 +25400,7 @@
 5 24 56.3782 -342.359 73.3775 55.1935 -339.1039 71.9763 57.0269 -341.6055 74.5805 55.2699 -343.1082 72.5736
 5 24 57.0269 -341.6055 74.5805 55.8423 -338.3505 73.1793 57.1169 -340.9622 75.9997 56.3782 -342.359 73.3775
 
+0 STEP
 0 FILE 42039 - technicFlexAxle-5.ldr
 0 Flexible Technic axle component generated by LDCad, approximately 144mm long with 38 segments.
 0 Name: 42039 - technicFlexAxle-5.ldr
@@ -27728,6 +27757,7 @@
 5 24 55.9326 -341.1336 -78.86 54.6994 -337.7454 -77.4015 56.9138 -341.2941 -77.6569 54.6022 -341.2719 -79.6641
 5 24 56.9138 -341.2941 -77.6569 55.6805 -337.9056 -76.1983 57.3959 -341.7292 -76.2377 55.9326 -341.1336 -78.86
 
+0 STEP
 0 FILE 42039 - hood.ldr
 0 Hood structure composed of multiple liftarms, bent beams, and long pins forming the front bodywork framework.
 0 Name: 42039 - hood.ldr
@@ -27828,6 +27858,7 @@
 
 
 
+0 STEP
 0 FILE 42039 - hood2.ldr
 0 Hood side panel built from long white beams and smooth fairing panels with connecting pins and axles.
 0 Name: 42039 - hood2.ldr
@@ -27880,6 +27911,7 @@
 1 15 60 -85.4163 -84.2914 0 -1 0 0.9345 0 0.3559 -0.3559 0 0.9345 64393.dat
 
 
+0 STEP
 0 FILE 42039 - hood3.ldr
 0 Hood section with white short fairing panels supported by long black beams and angle connectors.
 0 Name: 42039 - hood3.ldr
@@ -27968,6 +28000,7 @@
 
 
 
+0 STEP
 0 FILE 42039 - mudguard3.ldr
 0 Curved mudguard assembly using two long bright green panels joined by cross blocks on an axle.
 0 Name: 42039 - mudguard3.ldr
@@ -27988,6 +28021,7 @@
 0 // Technic Pin Joiner Round with Slot (white)
 1 15 0 0 0 1 0 0 0 -1 0 0 0 -1 62462.dat
 
+0 STEP
 0 FILE 42039 - rear1.ldr
 0 Rear bodywork section with bright green medium fairing panels, a liftarm, and angle connectors.
 0 Name: 42039 - rear1.ldr
@@ -28029,6 +28063,7 @@
 
 
 
+0 STEP
 0 FILE 42039 - rear2.ldr
 0 Mirror rear bodywork section with bright green medium fairing panels, a liftarm, and angle connectors.
 0 Name: 42039 - rear2.ldr
@@ -28068,6 +28103,7 @@
 1 15 0 -100 120 1 0 0 0 1 0 0 0 1 32013.dat
 
 
+0 STEP
 0 FILE 42039 - 33299b.dat
 0 Part definition for the Technic Beam 3 x 0.5 Liftarm with boss and semi-reduced axle hole, composed of primitive shapes.
 0 Name: 42039 - 33299b.dat
@@ -28106,6 +28142,7 @@
 4 16 3.444 10 31.685 0 10 31 0 10 32 3.062 10 32.609
 
 
+0 STEP
 0 FILE s\42039 - 33299s01.dat
 0 Subpart defining the common geometry of the Technic Beam 3 x 0.5 Liftarm using cylinders, rings, and peg hole primitives.
 0 Name: s\42039 - 33299s01.dat

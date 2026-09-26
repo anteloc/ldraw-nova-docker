@@ -79,6 +79,7 @@
 0 // Wheel 14 x 21 Solid Rubber with Axlehole (rubber_black)
 1 256 60 0 -180 0 0 -1 1 0 0 0 -1 0 32193.dat
 
+0 STEP
 0 FILE 8209 - shock-06_5L-soft-1.ldr
 0 A Technic 6.5L soft shock absorber assembly composed of a cylinder, piston rod, and coiled spring.
 0 !CATEGORY Technic
@@ -121,6 +122,7 @@
 0 //Spring mesh reference
 1 494 0 56 0 1 0 0 0 1 0 0 0 1 8209 - shock-06_5L-soft-1_springMesh.ldr
 
+0 STEP
 0 FILE 8209 - shock-06_5L-soft-1_springMesh.ldr
 0 A procedurally generated coiled spring mesh with 11 windings across three sections at a 5.60 mm coil diameter.
 0 !LDCAD GENERATED [generator=LDCad 1.5] [master=8209 - shock-06_5L-soft-1.ldr]
@@ -4412,6 +4414,7 @@
 2 24 -7.625 40.453217 0.016406 -7.183058 40.636211 0.011601
 5 24 -7.625 41.0821 0.156196 -7.183058 40.636211 0.011601 -7.625 40.453217 0.016406 -7 41.077999 0
 
+0 STEP
 0 FILE 8209 - subModel-1.ldr
 0 A small Technic connector subassembly joining red and black liftarm beams using an axle pin and half pin.
 0 Author: Jaco van der Molen [Jaco van der Molen]
@@ -4428,6 +4431,7 @@
 0 // Technic Pin  1/2 (light_bluish_grey)
 1 71 -10 0 -60 1 0 0 0 1 0 0 0 1 4274.dat
 
+0 STEP
 0 FILE 8209 - subModel-2.ldr
 0 A small Technic connector subassembly linking a red 6-stud beam to a black liftarm via an axle and half pin.
 0 Author: Jaco van der Molen [Jaco van der Molen]
@@ -4444,6 +4448,7 @@
 0 // Technic Beam  6 x  0.5 (red)
 1 4 -15 0 -30 0 -1 0 1 0 0 0 0 1 32063.dat
 
+0 STEP
 0 FILE 8209 - subModel-3.ldr
 0 A Technic gear subassembly with a 12-tooth bevel gear mounted on axles via a red axle-bush connector.
 0 Name: 8209 - subModel-3.ldr
@@ -4460,6 +4465,7 @@
 0 // Technic Gear 12 Tooth Bevel (light_bluish_grey)
 1 71 0 0 83 1 0 0 0 1 0 0 0 1 6589.dat
 
+0 STEP
 0 FILE 8209 - subModel-4.ldr
 0 A small Technic assembly combining a 2-blade rotor with a 33-degree slope brick, likely a decorative fan or rotor element.
 0 Name: 8209 - subModel-4.ldr

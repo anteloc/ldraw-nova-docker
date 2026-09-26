@@ -839,6 +839,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - batbox.ldr
 0 Powered Up two-port battery box mounted with pins and an axle for the model's electrical power supply.
 0 Name: 42113 - batbox.ldr
@@ -862,6 +863,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - arm1.ldr
 0 Rotor arm assembly using bent liftarms, cams, and axle joiners to form a linkage mechanism.
 0 Name: 42113 - arm1.ldr
@@ -900,6 +902,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - land1.ldr
 0 Tricycle-style landing gear strut with two rubber tyres on wheel rims built from white liftarms.
 0 Name: 42113 - land1.ldr
@@ -946,6 +949,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - land2.ldr
 0 Second landing gear strut mirroring the first, with two rubber tyres on wheel rims and white liftarms.
 0 Name: 42113 - land2.ldr
@@ -992,6 +996,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - bottom1.ldr
 0 Lower fuselage structure formed from a large panel, long beams, and bent liftarms pinned together.
 0 Name: 42113 - bottom1.ldr
@@ -1057,6 +1062,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - tailside1.ldr
 0 Tail boom side fairing built from a trapezium panel, a curved fairing panel, and long liftarms.
 0 Name: 42113 - tailside1.ldr
@@ -1116,6 +1122,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - tailside2.ldr
 0 Mirrored tail boom side fairing with trapezium panel, curved fairing panel, and long liftarms.
 0 Name: 42113 - tailside2.ldr
@@ -1178,6 +1185,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - hatch.ldr
 0 Hatch or canopy panel assembly using a large panel framed by beams 5 and 7 on hinge pins.
 0 Name: 42113 - hatch.ldr
@@ -1233,6 +1241,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - hatch2.ldr
 0 Secondary hatch framing built from beams 7 and 9 joined with cross blocks on an axle.
 0 Name: 42113 - hatch2.ldr
@@ -1286,6 +1295,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - front.ldr
 0 Front fuselage structure with bent liftarms, T-beams, and cross blocks forming the cockpit framework.
 0 Name: 42113 - front.ldr
@@ -1430,6 +1440,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - landfront.ldr
 0 Front landing gear strut with two rubber tyres on wheel rims and white liftarms.
 0 Name: 42113 - landfront.ldr
@@ -1476,6 +1487,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - seat1.ldr
 0 Compact cockpit seat built from short beams and cross blocks on an axle.
 0 Name: 42113 - seat1.ldr
@@ -1505,6 +1517,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - seat2.ldr
 0 Second cockpit seat mirroring the first, built from short beams and cross blocks on an axle.
 0 Name: 42113 - seat2.ldr
@@ -1534,6 +1547,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - door1.ldr
 0 Sliding side door made of a bent liftarm joined to beams 5 and 7 on hinge pins.
 0 Name: 42113 - door1.ldr
@@ -1561,6 +1575,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - door2.ldr
 0 Mirrored sliding side door made of a bent liftarm joined to beams 5 and 7 on hinge pins.
 0 Name: 42113 - door2.ldr
@@ -1588,6 +1603,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - side1.ldr
 0 Fuselage side panel structure with a long beam, smooth panels, and bent liftarms for body contouring.
 0 Name: 42113 - side1.ldr
@@ -1673,6 +1689,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - side2.ldr
 0 Mirrored fuselage side panel structure with a long beam, smooth panels, and bent liftarms.
 0 Name: 42113 - side2.ldr
@@ -1758,6 +1775,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - nose.ldr
 0 Nose section with curved fairing panels and a ball joint for articulation.
 0 Name: 42113 - nose.ldr
@@ -1821,6 +1839,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - wingbase.ldr
 0 Large wing and rotor-mount base with an open-center liftarm, gears, and many beams forming the central nacelle.
 0 Name: 42113 - wingbase.ldr
@@ -2635,6 +2654,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - motor.ldr
 0 Tilt-rotor drive assembly combining a linear actuator, universal joint, and angle connectors for rotor actuation.
 0 Name: 42113 - motor.ldr
@@ -2712,6 +2732,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - controlPlusMotorL-LQ-1.ldr
 0 Control+ L Motor unit with cable stub for powering the tilt-rotor functions.
 0 Name: 42113 - controlPlusMotorL-LQ-1.ldr
@@ -2763,6 +2784,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - controlPlusMotorL-LQ-1_subPart1.ldr
 0 Cable-routing subpart for the Control+ L Motor model with routed wire path segments.
 0 Name: 42113 - controlPlusMotorL-LQ-1_subPart1.ldr
@@ -2881,6 +2903,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - linac2.ldr
 0 Second linear actuator mechanism with universal joints and angle connectors for rotor or wing tilt control.
 0 Name: 42113 - linac2.ldr
@@ -2927,6 +2950,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - wingtop1.ldr
 0 Top wing cover built from a smooth panel, long beams 13 and 15, and cross blocks.
 0 Name: 42113 - wingtop1.ldr
@@ -2970,6 +2994,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - wingtop2.ldr
 0 Upper wing section built with liftarms and a smooth panel forming the contoured top surface.
 0 Name: 42113 - wingtop2.ldr
@@ -3013,6 +3038,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - technicFlexAxle-studio-1.ldr
 0 Long flexible flex-system hose forming a curved routing element across 518 segments.
 0 Name: 42113 - technicFlexAxle-studio-1.ldr
@@ -4087,6 +4113,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - flap1.ldr
 0 Articulated wing flap assembled from connected liftarms and angle connectors on an axle hinge.
 0 Name: 42113 - flap1.ldr
@@ -4145,6 +4172,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - engine1.ldr
 0 Detailed geared engine mechanism using gears, axles, and T-shaped liftarms to drive moving parts.
 0 Name: 42113 - engine1.ldr
@@ -4336,6 +4364,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - engineside1a.ldr
 0 Orange engine nacelle side panel with a turntable and fairing forming the rounded housing.
 0 Name: 42113 - engineside1a.ldr
@@ -4380,6 +4409,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - engineside1b.ldr
 0 Orange engine nacelle side panel with curved fairings and cross blocks forming the smooth outer skin.
 0 Name: 42113 - engineside1b.ldr
@@ -4414,6 +4444,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - enginetop.ldr
 0 Dark grey engine top cover built from smooth panels and fairings mounted on a central beam.
 0 Name: 42113 - enginetop.ldr
@@ -4443,6 +4474,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - exhaust.ldr
 0 Exhaust detail assembly using plates, corner panels, and a bracket to form a vented outlet.
 0 Name: 42113 - exhaust.ldr
@@ -4472,6 +4504,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - flap2.ldr
 0 Mirrored articulated wing flap of liftarms and angle connectors mirroring the opposite-side flap.
 0 Name: 42113 - flap2.ldr
@@ -4530,6 +4563,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - engine2.ldr
 0 Second geared engine mechanism with gears, axles, and liftarms matching the opposite engine.
 0 Name: 42113 - engine2.ldr
@@ -4721,6 +4755,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - engineside2a.ldr
 0 Orange engine nacelle side panel with turntable and fairing mirroring the opposite nacelle.
 0 Name: 42113 - engineside2a.ldr
@@ -4765,6 +4800,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - engineside2b.ldr
 0 Orange engine nacelle side panel with curved fairings mirroring the opposite-side skin.
 0 Name: 42113 - engineside2b.ldr
@@ -4799,6 +4835,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - tailtop.ldr
 0 Tail upper structure of liftarms, large panels, and fairings forming the tapered rear fuselage and tail.
 0 Name: 42113 - tailtop.ldr
@@ -4966,6 +5003,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - roof.ldr
 0 Curved roof assembly using a large curved panel mounted on liftarms to form the cockpit canopy area.
 0 Name: 42113 - roof.ldr
@@ -5029,6 +5067,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - propeller1.ldr
 0 Three-bladed propeller built from rotor blades on a central hub with axle and bush connectors.
 0 Name: 42113 - propeller1.ldr
@@ -5084,6 +5123,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - propblock1.ldr
 0 Small propeller hub block of cross blocks and pins connecting the blade assembly to the driveshaft.
 0 Name: 42113 - propblock1.ldr
@@ -5105,6 +5145,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - propeller2.ldr
 0 Second three-bladed propeller of rotor blades on a central hub mirroring the opposite propeller.
 0 Name: 42113 - propeller2.ldr
@@ -5160,6 +5201,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - propblock2.ldr
 0 Second propeller hub block of cross blocks and pins mirroring the opposite-side block.
 0 Name: 42113 - propblock2.ldr
@@ -5181,6 +5223,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - 51149.dat
 0 Primitive cylindrical axle-hole part with disc and adapter ring geometry.
 0 Name: 42113 - 51149.dat
@@ -5244,6 +5287,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - 67142.dat
 0 Primitive pinhole connector with tapered cone, cylinder, and chord faces.
 0 Name: 42113 - 67142.dat
@@ -5845,6 +5889,7 @@
 2 24 -27 -17 81.25 0.5 -17 81.25
 
 
+0 STEP
 0 FILE 42113 - 68196.dat
 0 Single curved tapered Technic panel part (#50 left) for bodywork shaping.
 0 Name: 42113 - 68196.dat
@@ -5858,6 +5903,7 @@
 1 16 0 0 0 -1 0 0 0 1 0 0 0 1 42113 - 67142.dat
 
 
+0 STEP
 0 FILE 42113 - 35185.dat
 0 Primitive long connector-hole cylinder ring part.
 0 Name: 42113 - 35185.dat
@@ -5897,6 +5943,7 @@
 1 16 0 0 0 0 -1 0 -1 0 0 0 0 1 s\42113 - 35185s01.dat
 
 
+0 STEP
 0 FILE 42113 - 46834.dat
 0 Primitive closed axle-hole box part with side edges and rectangular faces.
 0 Name: 42113 - 46834.dat
@@ -5980,6 +6027,7 @@
 3 16 2 -5.602 -10 0 -6 -10 -2 -5.602 -10
 
 
+0 STEP
 0 FILE 42113 - 46835.dat
 0 Primitive closed axle-hole part with cylindrical and disc geometry for a gear-like element.
 0 Name: 42113 - 46835.dat
@@ -6210,6 +6258,7 @@
 2 24 -1.3547 9.7306 1 -1.3547 9.7306 6
 
 
+0 STEP
 0 FILE 42113 - 65422.dat
 0 Primitive liftarm-end connector part with beam holes and a long connector hole.
 0 Name: 42113 - 65422.dat
@@ -6274,6 +6323,7 @@
 1 16 0 20 -10 -9 0 0 0 0 9 0 1 0 2-4edge.dat
 
 
+0 STEP
 0 FILE s\42113 - 6641s01.dat
 0 Cylindrical primitive submodel built from open cylinders, rings, discs, and rectangles forming a smooth rounded geometry.
 0 Name: s\42113 - 6641s01.dat
@@ -6398,6 +6448,7 @@
 5 24 6 0 6 6 0 3 5.602 2 6 5.602 -2 6
 
 
+0 STEP
 0 FILE s\42113 - 32269s01.dat
 0 Simple flat submodel composed of rectangular panels and edge-bordered rectangles forming a thin plate geometry.
 0 Name: s\42113 - 32269s01.dat
@@ -6488,6 +6539,7 @@
 3 16 15.3375 12.7626 -10 14.6121 11.2123 -10 13.0227 13.0227 -10
 
 
+0 STEP
 0 FILE s\42113 - 35185s01.dat
 0 Empty primitive shell submodel with no direct geometric pieces.
 0 Name: s\42113 - 35185s01.dat
@@ -6532,6 +6584,7 @@
 4 16 0 17 -9.8 1.0915 16.928101 -9.8 0 13.222 -9.8 -1.0915 16.928101 -9.8
 
 
+0 STEP
 0 FILE s\42113 - 46834s01.dat
 0 Minimal submodel consisting of a single edge-bordered rectangle forming a small flat face.
 0 Name: s\42113 - 46834s01.dat
@@ -6587,6 +6640,7 @@
 4 16 -2.1085 -21.5142 -7 -0.7178 -22.1054 -7 0.7178 -22.1054 -7 2.1085 -21.5142 -7
 
 
+0 STEP
 0 FILE s\42113 - 46834s02.dat
 0 Rounded submodel assembled from open cylinders, chords, and rings forming a small tubular curved surface.
 0 Name: s\42113 - 46834s02.dat
@@ -6657,6 +6711,7 @@
 2 24 3.4434 8.4995 -30 3.4434 8.4995 -10
 
 
+0 STEP
 0 FILE s\42113 - 46835s01.dat
 0 Cone-and-cylinder submodel combining discs, chords, circles, and rectangles into a tapered cylindrical shape.
 0 Name: s\42113 - 46835s01.dat
@@ -6775,6 +6830,7 @@
 3 16 3.8822 -14.4887 6 4.1675 -15.6 6 0 -15.6 6
 
 
+0 STEP
 0 FILE s\42113 - 67142s01.dat
 0 Technic connector submodel with pin holes, rings, cylinders, and attachment geometry forming a cylindrical mechanical joint.
 0 Name: s\42113 - 67142s01.dat
@@ -7064,6 +7120,7 @@
 2 24 -3.4827 -22.2712 79.213501 -1.5 -22.2356 78.842903
 
 
+0 STEP
 0 FILE s\42113 - 65422s01.dat
 0 Rotor-blade submodel with sloped cylinders, rotor surfaces, liftarm ends, and re-enforcements forming a curved aerodynamic blade.
 0 Name: s\42113 - 65422s01.dat
@@ -7245,6 +7302,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - 22167.dat
 0 Powered Up battery box body assembly with holder, lid, switches, and electrical contacts for the Control+ hub.
 0 Name: 42113 - 22167.dat
@@ -7270,6 +7328,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - 24852c01.dat
 0 Powered Up 2-port battery box top assembly combining top shell, sockets, and bottom plate with electric contacts.
 0 Name: 42113 - 24852c01.dat
@@ -7290,6 +7349,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - 24849c01.dat
 0 Control+ hub battery holder assembly with internal contacts and six-faced contact-alloy boxes.
 0 Name: 42113 - 24849c01.dat
@@ -7308,6 +7368,7 @@
 1 494 -39 -55 73.5 10 0 0 0 15 0 0 0 0.5 box.dat
 
 
+0 STEP
 0 FILE 42113 - 24854.dat
 0 Technic axle-and-connector hole submodel with rings, cylinders, and rectangles forming a mechanical bushing geometry.
 0 Name: 42113 - 24854.dat
@@ -7376,6 +7437,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - 24852.dat
 0 Powered Up battery box top shell with cylinders, discs, rectangles, and transparent/green indicator discs.
 0 Name: 42113 - 24852.dat
@@ -7672,6 +7734,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - 23807.dat
 0 Chrome-gold accented submodel with cylinders, chords, and multi-faced boxes forming a decorative connector piece.
 0 Name: 42113 - 23807.dat
@@ -7800,6 +7863,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - 24851c01.dat
 0 Powered Up battery box bottom assembly with contacts and electric contact-alloy connection plates.
 0 Name: 42113 - 24851c01.dat
@@ -7842,6 +7906,7 @@
 
 
 
+0 STEP
 0 FILE s\42113 - 24852s01.dat
 0 Powered Up 2-port battery box top half built from many cylinders, discs, and edge-bordered rectangles forming the detailed upper shell.
 0 Name: s\42113 - 24852s01.dat
@@ -8180,6 +8245,7 @@
 
 
 
+0 STEP
 0 FILE 42113 - 24851.dat
 0 Powered Up 2-port battery box bottom with connector holes, cylinders, circles, rings, and rectangular panels.
 0 Name: 42113 - 24851.dat
@@ -8356,6 +8422,7 @@
 
 
 
+0 STEP
 0 FILE s\42113 - 24851s01.dat
 0 Powered Up 2-port battery box bottom half with technic connector holes, cylinders, discs, and numerous rectangular faces forming the lower shell interior.
 0 Name: s\42113 - 24851s01.dat
@@ -8867,6 +8934,7 @@
 
 
 
+0 STEP
 0 FILE s\42113 - 24851s02.dat
 0 Powered Up battery box connector bottom with cylinders, discs, and edge-bordered rectangles forming a small connection base.
 0 Name: s\42113 - 24851s02.dat

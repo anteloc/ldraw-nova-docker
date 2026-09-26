@@ -484,6 +484,7 @@
 0 STEP
 0 NOFILE
 
+0 STEP
 0 FILE 40783 - Jellyfish
 0 A small glow-in-the-dark jellyfish with a clear domed bell, coral petals, and dangling tentacles.
 0 Name: 40783 - Jellyfish
@@ -512,6 +513,7 @@
 1 329 0 12.001 0 1 0 0 0 -1 0 0 0 -1 25516.dat
 0 STEP
 0 NOFILE
+0 STEP
 0 FILE 40783 - CoralBlue
 0 A blue and turquoise coral cluster made of seaweed and curved slope pieces.
 0 Name: 40783 - CoralBlue
@@ -531,6 +533,7 @@
 1 25 -10 -62 10 0 0 -1 1 0 0 0 -1 0 29119.dat
 0 STEP
 0 NOFILE
+0 STEP
 0 FILE 40783 - CoralGreen
 0 A green coral formation with olive plants and bright orange and yellow flowers.
 0 Name: 40783 - CoralGreen
@@ -565,6 +568,7 @@
 1 226 0 -86.1 -20 1 0 0 0 1 0 0 0 1 18853.dat
 0 STEP
 0 NOFILE
+0 STEP
 0 FILE 40783 - CoralMagenta
 0 A magenta coral cluster made of seaweed and orange curved slope pieces.
 0 Name: 40783 - CoralMagenta
@@ -584,6 +588,7 @@
 1 25 10 -62 -10 0 0 1 1 0 0 0 1 0 29119.dat
 0 STEP
 0 NOFILE
+0 STEP
 0 FILE 40783 - FishBlue
 0 A small blue and magenta fish made from curved slopes and a cone.
 0 Name: 40783 - FishBlue
@@ -604,6 +609,7 @@
 1 26 0 -24 0 1 0 0 0 1 0 0 0 1 59900.dat
 0 STEP
 0 NOFILE
+0 STEP
 0 FILE 40783 - CoralPink
 0 A coral and blue coral cluster made of seaweed and curved slope pieces.
 0 Name: 40783 - CoralPink
@@ -623,6 +629,7 @@
 1 1 -30 -42 -10 0 0 1 1 0 0 0 1 0 29119.dat
 0 STEP
 0 NOFILE
+0 STEP
 0 FILE 40783 - 68212.dat
 0 A cylindrical primitive part composed of an open cylinder and quarter discs.
 0 Name: 40783 - 68212.dat

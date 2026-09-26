@@ -11,6 +11,7 @@
 
 0
 
+0 STEP
 0 FILE 9397 - 9397B.ldr
 0 A large Technic chassis submodel built from beams, pins, axles, bevel gears, and a differential forming a geared drivetrain and structural frame.
 0 Name: 9397 - 9397B.ldr
@@ -2635,6 +2636,7 @@
 
 0
 
+0 STEP
 0 FILE 9397 - PFCable.ldr
 0 A Power Functions electrical cable assembly with top and bottom PF connectors.
 0 Name: 9397 - PFCable.ldr
@@ -2859,6 +2861,7 @@
 
 
 
+0 STEP
 0 FILE 9397 - LS70.dat
 0 An LSynth-generated flexible Power Functions cable segment composed of cylinders and discs.
 0 Name: 9397 - LS70.dat

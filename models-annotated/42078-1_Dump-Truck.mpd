@@ -1569,6 +1569,7 @@
 1 2 20 0.862 -1095.699 1 0 0 0 0.998 0.063 0 -0.063 0.998 42078 - junkbin.ldr
 
 
+0 STEP
 0 FILE 42078 - chassisfront.ldr
 0 Front chassis section built from long liftarms, bent liftarms, cross blocks, and axles forming the steering and front axle support structure.
 0 Name: 42078 - chassisfront.ldr
@@ -1903,6 +1904,7 @@
 1 71 -86 0 -180 0 0 1 1 0 0 0 1 0 32123b.dat
 
 
+0 STEP
 0 FILE 42078 - engine.ldr
 0 Inline engine assembly using a 12-stud axle, liftarms, cross blocks, axle joiners, and a 9-spoke wheel cover representing the engine block and fan.
 0 Name: 42078 - engine.ldr
@@ -2151,6 +2153,7 @@
 1 71 20 -50 -30 0 0 1 0 1 0 -1 0 0 30136.dat
 
 
+0 STEP
 0 FILE 42078 - cabinbackbase.ldr
 0 Rear cabin base framework constructed from bent liftarms, a 13-stud beam, cross blocks, and short axles providing the mounting structure behind the cab.
 0 Name: 42078 - cabinbackbase.ldr
@@ -2211,6 +2214,7 @@
 1 1 80 50 0 0 0 1 -1 0 0 0 -1 0 43093.dat
 
 
+0 STEP
 0 FILE 42078 - seat1.ldr
 0 Driver or passenger seat built from a mudguard, curved slopes, a wedge, clips, and a bracket forming an upholstered seat shape.
 0 Name: 42078 - seat1.ldr
@@ -2241,6 +2245,7 @@
 1 72 -8 22 0 0 1 0 0 0 1 1 0 0 99780.dat
 
 
+0 STEP
 0 FILE 42078 - seat2.ldr
 0 Second matching seat built from a mudguard, curved slopes, a wedge, clips, and a bracket forming an upholstered seat shape.
 0 Name: 42078 - seat2.ldr
@@ -2271,6 +2276,7 @@
 1 72 8 22 0 0 -1 0 0 0 1 -1 0 0 99780.dat
 
 
+0 STEP
 0 FILE 42078 - dashboard.ldr
 0 Dashboard assembly featuring a steering wheel, grooved tiles, cross blocks, bushings, and a decorative frog figure mounted on a beam frame.
 0 Name: 42078 - dashboard.ldr
@@ -2358,6 +2364,7 @@
 1 142 0 -10 -40 1 0 0 0 1 0 0 0 1 33320.dat
 
 
+0 STEP
 0 FILE 42078 - calender.ldr
 0 Decorative dashboard plate assembly using plates, slopes, tiles, and a printed 'MACK' tile forming a nameplate and calendar detail panel.
 0 Name: 42078 - calender.ldr
@@ -2445,6 +2452,7 @@
 1 72 -70 30 8 0 0 -1 -1 0 0 0 1 0 24201.dat
 
 
+0 STEP
 0 FILE 42078 - lift1.ldr
 0 Motorized linear actuator lifting unit with a 9V geared motor, actuator body and piston, gears, and green liftarms forming the dump bed lift mechanism.
 0 Name: 42078 - lift1.ldr
@@ -2513,6 +2521,7 @@
 1 71 55 108 104 0 0 -1 0 1 0 1 0 0 32123b.dat
 
 
+0 STEP
 0 FILE 42078 - lift2.ldr
 0 Second motorized linear actuator lifting unit with a 9V geared motor, actuator body and piston, gears, and green liftarms mirroring the dump bed lift mechanism.
 0 Name: 42078 - lift2.ldr
@@ -2581,6 +2590,7 @@
 1 71 -55 108 104 0 0 1 0 1 0 -1 0 0 32123b.dat
 
 
+0 STEP
 0 FILE 42078 - lift3.ldr
 0 Articulated lift linkage arm built from green and black liftarms, angle connectors, and pins forming part of the scissor-lift mechanism.
 0 Name: 42078 - lift3.ldr
@@ -2645,6 +2655,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42078 - lift4.ldr
 0 Second articulated lift linkage arm built from green and black liftarms, angle connectors, and pins mirroring the scissor-lift mechanism.
 0 Name: 42078 - lift4.ldr
@@ -2709,6 +2720,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42078 - frontfork.ldr
 0 Front fork or bumper assembly constructed from long green liftarms, axles, cross blocks, and pin joiners forming a rigid forward support structure.
 0 Name: 42078 - frontfork.ldr
@@ -2846,6 +2858,7 @@
 1 0 320 -38.812 129.677 -1 0 0 0 -0.909 -0.417 0 -0.417 0.909 6553.dat
 
 
+0 STEP
 0 FILE 42078 - skip.ldr
 0 Dump skip bed core built from long liftarms, bent liftarms, body panels, gears, and axle joiners forming the structural base of the dump body.
 0 Name: 42078 - skip.ldr
@@ -3025,6 +3038,7 @@
 1 71 100 20 220 -1 0 0 0 0 -1 0 -1 0 32054.dat
 
 
+0 STEP
 0 FILE 42078 - skipside1.ldr
 0 Side wall of the dump skip built from white panels, long liftarms, and pins forming a paneled enclosure with transparent accent plates.
 0 Name: 42078 - skipside1.ldr
@@ -3217,6 +3231,7 @@
 1 0 -80 -40 260 -1 0 0 0 -1 0 0 0 1 32526.dat
 
 
+0 STEP
 0 FILE 42078 - scissorscomp.ldr
 0 Scissor compensation linkage assembly using long liftarms, axle joiners, and cross blocks forming the articulated leveling mechanism between the chassis and bed.
 0 Name: 42078 - scissorscomp.ldr
@@ -3369,6 +3384,7 @@
 1 72 75 40 40 0 -1 0 -1 0 0 0 0 -1 6632.dat
 
 
+0 STEP
 0 FILE 42078 - compplate.ldr
 0 Mounting plate for the scissors mechanism built from dark bluish grey panels, liftarms, and cross blocks providing a structural attachment base.
 0 Name: 42078 - compplate.ldr
@@ -3438,6 +3454,7 @@
 1 0 -90 -54.621 -79.966 -1 0 0 0 -0.664 0.748 0 0.748 0.664 2780.dat
 
 
+0 STEP
 0 FILE 42078 - skipside2.ldr
 0 Opposite side wall of the dump skip built from white panels, long liftarms, and pins forming a paneled enclosure with transparent accent plates.
 0 Name: 42078 - skipside2.ldr
@@ -3630,6 +3647,7 @@
 1 0 -80 -40 -260 -1 0 0 0 1 0 0 0 -1 32526.dat
 
 
+0 STEP
 0 FILE 42078 - skipend.ldr
 0 End wall of the dump skip built from white panels and beams forming the front or rear enclosure of the dump body.
 0 Name: 42078 - skipend.ldr
@@ -3687,6 +3705,7 @@
 1 71 -20 -120 0 0 1 0 0 0 -1 -1 0 0 63869.dat
 
 
+0 STEP
 0 FILE 42078 - skiptop1.ldr
 0 Top rail frame of the dump skip built from white beams, cross blocks, and axles forming the upper edge of the dump body.
 0 Name: 42078 - skiptop1.ldr
@@ -3731,6 +3750,7 @@
 1 71 80 0 -60 0 -1 0 0 0 -1 1 0 0 6536.dat
 
 
+0 STEP
 0 FILE 42078 - skiptoprear.ldr
 0 Rear top frame of the dump skip built from white panels, liftarms, towball pins, angle connectors, and small gears forming the upper rear structure and tailgate hinge.
 0 Name: 42078 - skiptoprear.ldr
@@ -3935,6 +3955,7 @@
 1 71 280 120 120 0 0 1 0 1 0 -1 0 0 42078 - skiprear.ldr
 
 
+0 STEP
 0 FILE 42078 - skiprear.ldr
 0 Rear panel assembly of the dump skip built from trapezium panels, bent liftarms, cross blocks, and axle connectors forming the tailgate structure.
 0 Name: 42078 - skiprear.ldr
@@ -4250,6 +4271,7 @@
 1 71 159.936 170.622 54 1 0 -0.006 0.006 0 1 0 -1 0 26603.dat
 
 
+0 STEP
 0 FILE 42078 - skipdoor.ldr
 0 Hinged dump tailgate door built from curved panels, long beams, axles, and pin joiners forming the opening rear door of the skip.
 0 Name: 42078 - skipdoor.ldr
@@ -4295,6 +4317,7 @@
 1 72 170 -120 0 1 0 0 0 0 1 0 -1 0 87083.dat
 
 
+0 STEP
 0 FILE 42078 - skiphatch.ldr
 0 Side access hatch of the dump skip built from panels, beams, bent liftarms, and wheel rims forming a hinged cover assembly.
 0 Name: 42078 - skiphatch.ldr
@@ -4391,6 +4414,7 @@
 1 71 -140 96.993 57.389 0 0 1 -0.14 0.99 0 -0.99 -0.14 0 42610.dat
 
 
+0 STEP
 0 FILE 42078 - junkbin.ldr
 0 Storage junk bin built from panels, long liftarms, smooth panels, and axle joiners forming an enclosed side toolbox mounted on the truck.
 0 Name: 42078 - junkbin.ldr
@@ -4536,6 +4560,7 @@
 1 71 50 -34 -70 -0.719 -0.695 0 0 0 -1 0.695 -0.719 0 56145.dat
 
 
+0 STEP
 0 FILE 42078 - 3665a.dat
 0 Empty submodel serving as a placeholder part reference.
 0 Name: 42078 - 3665a.dat
@@ -4557,6 +4582,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\42078 - 3665as01.dat
 4 16 10 24 -10 10 4 -30 -10 4 -30 -10 24 -10
 
+0 STEP
 0 FILE 42078 - 6143.dat
 0 A 2x2 round brick without reinforcement, modeled from base part 3941.
 0 Name: 42078 - 6143.dat
@@ -4583,6 +4609,7 @@
 
 0 !LDCAD SNAP_INCL [ref=3941.dat]
 
+0 STEP
 0 FILE 42078 - 33299b.dat
 0 A Technic connector element combining axle holes, peg holes, rings, and a disc.
 0 Name: 42078 - 33299b.dat
@@ -4620,6 +4647,7 @@
 4 16 6.36 10 33.637001 3.444 10 31.684999 3.062 10 32.609001 5.657 10 34.342999
 4 16 3.444 10 31.684999 0 10 31 0 10 32 3.062 10 32.609001
 
+0 STEP
 0 FILE 42078 - 11291.dat
 0 A geometric primitive assembly built from boxed shapes with varied edge configurations.
 0 Name: 42078 - 11291.dat
@@ -4649,6 +4677,7 @@
 4 16 20 8 6 -20 8 6 -20 8 10 20 8 10
 4 16 20 8 -10 -20 8 -10 -20 8 -6 20 8 -6
 
+0 STEP
 0 FILE s\42078 - 33299s01.dat
 0 A cylindrical subpart composed of cylinders, rings, circles, and a Technic pin forming a rounded connector core.
 0 Name: s\42078 - 33299s01.dat
@@ -4919,6 +4948,7 @@
 5 24 -4.9498 0 35.050098 -4.9498 10 35.050098 -6 0 36.661999 -2.6788 0 33.5327
 5 24 4.9497 10 35.050301 4.9498 0 35.050201 6 0 36.661999 2.6788 10 33.5327
 
+0 STEP
 0 FILE s\42078 - 11291s01.dat
 0 Empty subpart serving as a placeholder reference.
 0 Name: s\42078 - 11291s01.dat
@@ -5124,6 +5154,7 @@
 2 24 -28.7698 2.75 -33.755699 -28.7686 2.75682 -33.755501
 2 24 -30.8372 2.75 -33.833801 -30.876801 3.07902 -33.825901
 
+0 STEP
 0 FILE s\42078 - 3665as01.dat
 0 A box-and-rectangle based subpart forming a angular structural shell.
 0 Name: s\42078 - 3665as01.dat
@@ -5177,6 +5208,7 @@
 1 16 0 4 -20 1 0 0 0 2 0 0 0 1 stud2a.dat
 1 16 0 4 -20 0 0 1 0 6 0 -1 0 0 stud2s.dat
 
+0 STEP
 0 FILE 42078 - toothb20.dat
 0 Empty submodel serving as a placeholder for a 20-tooth gear element.
 0 Name: 42078 - toothb20.dat

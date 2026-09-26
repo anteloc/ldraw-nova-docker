@@ -273,6 +273,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - Pattern.ldr
 0 Top-level container assembling the full mosaic artwork pattern from sequential build steps.
 0 Name: 31199 - Pattern.ldr
@@ -287,6 +288,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - Pattern - Steps 1 to 6.ldr
 0 Container grouping the first six mosaic panels that form the upper half of the artwork.
 0 Name: 31199 - Pattern - Steps 1 to 6.ldr
@@ -301,6 +303,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - Pattern - Steps 1 to 3.ldr
 0 Container grouping the first three mosaic panels of the artwork.
 0 Name: 31199 - Pattern - Steps 1 to 3.ldr
@@ -317,6 +320,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - Pattern - Step 1.ldr
 0 Mosaic panel composed of hundreds of round 1x1 plates in dark blue, black, tan, and gold tones forming a colorful image segment.
 0 Name: 31199 - Pattern - Step 1.ldr
@@ -848,6 +852,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - Pattern - Step 2.ldr
 0 Mosaic panel of round 1x1 plates dominated by red, pearl gold, and dark blue studs forming an image segment.
 0 Name: 31199 - Pattern - Step 2.ldr
@@ -1385,6 +1390,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - Pattern - Step 3.ldr
 0 Mosaic panel of round 1x1 plates predominantly in dark blue and black forming an image segment.
 0 Name: 31199 - Pattern - Step 3.ldr
@@ -1922,6 +1928,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - Pattern - Steps 4 to 6.ldr
 0 Container grouping mosaic panels four through six of the artwork.
 0 Name: 31199 - Pattern - Steps 4 to 6.ldr
@@ -1938,6 +1945,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - Pattern - Step 4.ldr
 0 Mosaic panel of round 1x1 plates in warm tones of dark orange, pearl gold, tan, and reddish brown forming an image segment.
 0 Name: 31199 - Pattern - Step 4.ldr
@@ -2469,6 +2477,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - Pattern - Step 5.ldr
 0 Mosaic panel of round 1x1 plates dominated by dark orange and medium nougat tones forming an image segment.
 0 Name: 31199 - Pattern - Step 5.ldr
@@ -3006,6 +3015,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - Pattern - Step 6.ldr
 0 Mosaic panel of round 1x1 plates in dark brown, black, and reddish brown tones forming an image segment.
 0 Name: 31199 - Pattern - Step 6.ldr
@@ -3543,6 +3553,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - Pattern - Steps 7 to 9.ldr
 0 Container grouping the final three mosaic panels completing the artwork.
 0 Name: 31199 - Pattern - Steps 7 to 9.ldr
@@ -3559,6 +3570,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - Pattern - Step 7.ldr
 0 Mosaic panel of round 1x1 plates dominated by red and dark red studs forming an image segment.
 0 Name: 31199 - Pattern - Step 7.ldr
@@ -4084,6 +4096,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - Pattern - Step 8.ldr
 0 Mosaic panel of round 1x1 plates dominated by red and reddish brown tones forming an image segment.
 0 Name: 31199 - Pattern - Step 8.ldr
@@ -4615,6 +4628,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - Pattern - Step 9.ldr
 0 Mosaic panel of round 1x1 plates predominantly in black and dark brown tones forming an image segment.
 0 Name: 31199 - Pattern - Step 9.ldr
@@ -5146,6 +5160,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - Frame - Step 4.ldr
 0 Small structural corner assembly using a 3x3 plate and corner bricks for reinforcement.
 0 Name: 31199 - Frame - Step 4.ldr
@@ -5173,6 +5188,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - 65803s03.dat
 0 Subpart composed of cylindrical primitives, rings, and joint elements defining the curved geometry of a custom display element.
 0 Name: 31199 - 65803s03.dat
@@ -5246,6 +5262,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - 65803s02.dat
 0 Subpart built from various box primitives and edgeless rectangles defining the faceted geometry of a custom display element.
 0 Name: 31199 - 65803s02.dat
@@ -5357,6 +5374,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - 65803s01.dat
 0 Subpart made of rectangular and box face primitives forming part of the geometry of a custom display element.
 0 Name: 31199 - 65803s01.dat
@@ -5411,6 +5429,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - 65803.dat
 0 Primitive subpart consisting of a box and rectangle defining the core geometry of a custom display element.
 0 Name: 31199 - 65803.dat
@@ -5466,6 +5485,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - 67139s01.dat
 0 Subpart composed of disc, cylinder, ring, and Technic connector hole primitives forming the detailed geometry of a custom element.
 0 Name: 31199 - 67139s01.dat
@@ -5587,6 +5607,7 @@
 
 
 
+0 STEP
 0 FILE 31199 - 67139.dat
 0 Primitive part built from cylinders, circles, rings, and Technic connector holes defining the geometry of a custom Technic-style element.
 0 Name: 31199 - 67139.dat

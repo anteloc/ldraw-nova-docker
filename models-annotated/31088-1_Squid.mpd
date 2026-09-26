@@ -169,6 +169,7 @@
 
 
 
+0 STEP
 0 FILE 31088 - Mantle.ldr
 0 Curved mantle forming the squid's bulbous head, built from white inverted curved slopes, dark blue slope and wedge pieces for the tapered body, and brackets with plates for internal support.
 0 Name: 31088 - Mantle.ldr
@@ -288,6 +289,7 @@
 
 
 
+0 STEP
 0 FILE 31088 - Right Tentacle.ldr
 0 A right-sided tentacle with ball-and-socket joint segments for articulation, tan toothed plates for suckers, and white plates and a left wing piece for the tapered tip.
 0 Name: 31088 - Right Tentacle.ldr
@@ -332,6 +334,7 @@
 
 
 
+0 STEP
 0 FILE 31088 - Left Tentacle.ldr
 0 A left-sided tentacle mirroring the right, using ball-and-socket joints for articulation, tan toothed sucker plates, and white plates with a right wing piece for the tapered tip.
 0 Name: 31088 - Left Tentacle.ldr
@@ -375,6 +378,7 @@
 
 
 
+0 STEP
 0 FILE 31088 - Lower Arm.ldr
 0 A lower arm segment with a socket joint connection, dark blue curved slope detailing, and light bluish grey plates for the elongated limb core.
 0 Name: 31088 - Lower Arm.ldr
@@ -407,6 +411,7 @@
 
 
 
+0 STEP
 0 FILE 31088 - Upper Arm.ldr
 0 An upper arm segment with a socket joint for articulation, dark blue curved slope and plate detailing, and a light bluish grey core plate for structure.
 0 Name: 31088 - Upper Arm.ldr
@@ -438,6 +443,7 @@
 
 
 
+0 STEP
 0 FILE 31088 - 15456.dat
 0 Primitive geometry defining a 2x2 plate with a towball and centre hole, composed of spheres, cylinders, cones, and disc elements.
 0 Name: 31088 - 15456.dat
@@ -495,6 +501,7 @@
 
 
 
+0 STEP
 0 FILE 31088 - 4-4cyl19sph40.dat
 0 Primitive geometry of a cylinder truncated to fit a sphere, combining a sphere and cylinder element for the towball joint detail.
 0 Name: 31088 - 4-4cyl19sph40.dat

@@ -17,6 +17,7 @@
 
 
 
+0 STEP
 0 FILE 3188 - Sophie.ldr
 0 A Friends girl minidoll named Sophie with a light aqua blouse, bright pink skirt, light nougat skin, and long straight dark brown hair.
 0 Name: 3188 - Sophie.ldr
@@ -47,6 +48,7 @@
 
 
 
+0 STEP
 0 FILE 3188 - Mia.ldr
 0 A Friends girl minidoll named Mia with a medium blue halter top, lime cropped trousers, light nougat skin, and dark red ponytail hair.
 0 Name: 3188 - Mia.ldr
@@ -73,6 +75,7 @@
 0
 
 
+0 STEP
 0 FILE 3188 - Horse.ldr
 0 A small dark orange horse figure built from two simple 2x2 bricks.
 0 Name: 3188 - Horse.ldr
@@ -91,6 +94,7 @@
 
 
 
+0 STEP
 0 FILE 3188 - Puppy Cart.ldr
 0 A wheeled white and pink cart carrying a puppy, with lime accents, yellow handle, and two black trolley wheels.
 0 Name: 3188 - Puppy Cart.ldr
@@ -129,6 +133,7 @@
 
 
 
+0 STEP
 0 FILE 3188 - Vet Clinic.ldr
 0 A two-story veterinary clinic building with a bright light blue base, lime and tan walls, large white windows, and interior storage compartments.
 0 Name: 3188 - Vet Clinic.ldr
@@ -493,6 +498,7 @@
 
 
 
+0 STEP
 0 FILE 3188 - Signboard.ldr
 0 A decorative clinic signboard with lime and white plates, animal-themed stickers showing a hedgehog, dog, and horse, plus butterflies and a paw print.
 0 Name: 3188 - Signboard.ldr
@@ -538,6 +544,7 @@
 
 
 
+0 STEP
 0 FILE 3188 - Fish Tank.ldr
 0 A small fish tank with pink and lime bricks, translucent light blue panels, and colorful fish stickers.
 0 Name: 3188 - Fish Tank.ldr
@@ -582,6 +589,7 @@
 
 
 
+0 STEP
 0 FILE 3188 - Examination Table.ldr
 0 A veterinary examination table with a white base, green and pink plates, and a medical chart sticker with a heart.
 0 Name: 3188 - Examination Table.ldr
@@ -626,6 +634,7 @@
 
 
 
+0 STEP
 0 FILE 3188 - Treatment Room.ldr
 0 A veterinary treatment room with a bright green base, tan and white walls, windows, a door, and medical-themed stickers.
 0 Name: 3188 - Treatment Room.ldr
@@ -902,6 +911,7 @@
 
 
 
+0 STEP
 0 FILE 3188 - Signboard Base.ldr
 0 A small lime and tan base stand for mounting a signboard, built with technic pin connections.
 0 Name: 3188 - Signboard Base.ldr
@@ -937,6 +947,7 @@
 
 
 
+0 STEP
 0 FILE 3188 - 93085p03d01.dat
 0 A Friends-style horse figure with light blue eyes and a white blaze pattern.
 0 Name: 3188 - 93085p03d01.dat
@@ -950,6 +961,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 3188 - 93085p03.dat
 1 16 -20.5 -22.25 28 -1 0 0 0 1 0 0 0 -1 3188 - 4650852fc01.dat
 
+0 STEP
 0 FILE 3188 - 98386p01.dat
 0 An empty placeholder submodel with no direct pieces.
 0 Name: 3188 - 98386p01.dat
@@ -966,6 +978,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\3188 - 98386p01s01.dat
 1 16 0 0 0 -1 0 0 0 1 0 0 0 1 s\3188 - 98386p01s01.dat
 
+0 STEP
 0 FILE 3188 - 4650852e.dat
 0 A simple geometric box primitive with five faces.
 0 Name: 3188 - 4650852e.dat
@@ -1448,6 +1461,7 @@
 4 30 -4 -0.25 7.1 -2.7 -0.25 8.8 -7.2 -0.25 8.4 -7.1 -0.25 7.3
 4 30 -5.5 -0.25 6.2 -4 -0.25 7.1 -7.1 -0.25 7.3 -6.6 -0.25 6.6
 
+0 STEP
 0 FILE 3188 - 4650852j.dat
 0 A simple geometric box primitive with five faces.
 0 Name: 3188 - 4650852j.dat
@@ -1845,6 +1859,7 @@
 3 14 12.7 -0.25 -17.1 12 -0.25 -17.200001 19 -0.25 -19
 3 14 13.1 -0.25 -16.4 12.7 -0.25 -17.1 19 -0.25 -19
 
+0 STEP
 0 FILE 3188 - 4650852n.dat
 0 A simple geometric box primitive with five faces.
 0 Name: 3188 - 4650852n.dat
@@ -2148,6 +2163,7 @@
 4 5 16.110001 -0.25 -9.89 19 -0.25 -7 14.14 -0.25 -8.75 14.5 -0.25 -10.4
 3 5 14.14 -0.25 -8.75 11.86 -0.25 -8.75 13 -0.25 -10
 
+0 STEP
 0 FILE 3188 - 4650852m.dat
 0 A geometric primitive assembly combining cylinders, rings, and discs in white, azure, and pink colors.
 0 Name: 3188 - 4650852m.dat
@@ -2249,6 +2265,7 @@
 3 15 0.5 -0.25 12.5 0.5 -0.25 9.5 5.82 -0.25 11.08
 3 15 0.5 -0.25 9.5 -0.5 -0.25 9.5 0 -0.25 1.2
 
+0 STEP
 0 FILE 3188 - 3062bp01.dat
 0 A geometric primitive assembly built from a half-cylinder and two small quarter-cylinders.
 0 Name: 3188 - 3062bp01.dat
@@ -2697,6 +2714,7 @@
 5 24 3.827 19 -9.239 3.827 0 -9.239 0 19 -10 7.071 19 -7.071
 5 24 7.071 19 -7.071 7.071 0 -7.071 3.827 19 -9.239 9.239 19 -3.827
 
+0 STEP
 0 FILE 3188 - 98389p01.dat
 0 A geometric primitive assembly combining cylinders, discs, and sloped convex elements, partly in reddish brown.
 0 Name: 3188 - 98389p01.dat
@@ -2847,6 +2865,7 @@
 5 24 4.532 0 6.7824 3.0616 0 7.3912 6.178 -0.022 10.227 5.6568 0 5.6568
 5 24 0 -19.992001 15.072 0 -17.132999 16.681999 2.176 -17.038 16.094 -2.176 -17.038 16.094
 
+0 STEP
 0 FILE 3188 - 1010455.dat
 0 A complex geometric primitive assembly with cylinders, cones, spheres, and chords forming a detailed shape.
 0 Name: 3188 - 1010455.dat
@@ -2938,6 +2957,7 @@
 2 24 0 -26.700001 -3 -0.3855 -26.700001 -2.9233
 2 24 0 -26.700001 -3 0.3855 -26.700001 -2.9233
 
+0 STEP
 0 FILE 3188 - 1010470.dat
 0 A single geometric cylinder primitive.
 0 Name: 3188 - 1010470.dat
@@ -3921,6 +3941,7 @@
 5 24 5.405 -14.281 -2.202 7.109 -17.676001 -2.12 4.977 -14.481 -3.613 5.585 -14.365 -0.153
 5 24 4.152 -12.805 -0.049 5.585 -14.365 -0.153 5.405 -14.281 -2.202 5.344 -14.882 1.904
 
+0 STEP
 0 FILE 3188 - 1010475.dat
 0 An empty placeholder submodel with no direct pieces.
 0 Name: 3188 - 1010475.dat
@@ -4517,6 +4538,7 @@
 5 24 4 14.113 0 10 14.113 -1.875 10 14.113 1.875 3.696 14.207 -1.531
 5 24 3.696 14.207 -1.531 10 14.113 -1.875 4 14.113 0 5.135 14.502 -4.419
 
+0 STEP
 0 FILE 3188 - 4650852o.dat
 0 A decorative pattern primitive built from many white and lime discs on a medium azure background.
 0 Name: 3188 - 4650852o.dat
@@ -5339,6 +5361,7 @@
 4 322 -27 -0.25 12 -28 -0.25 12 -30 -0.25 10 -30 -0.25 9
 3 322 -26 -0.25 11 -30 -0.25 9 -26 -0.25 10
 
+0 STEP
 0 FILE 3188 - 4650852p.dat
 0 A decorative pattern primitive built from white, lime, azure, and pink discs and chords forming a circular design.
 0 Name: 3188 - 4650852p.dat
@@ -5835,6 +5858,7 @@
 3 322 39 -0.25 19 26 -0.25 14.3 33 -0.25 14.4
 3 322 39 -0.25 19 33 -0.25 14.4 39 -0.25 13.4
 
+0 STEP
 0 FILE 3188 - 4150p09.dat
 0 A single adapter ring triangle-to-normal geometric primitive.
 0 Name: 3188 - 4150p09.dat
@@ -5853,6 +5877,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\3188 - 4150p09s01.dat
 1 16 0 0 0 -1 0 0 0 1 0 0 0 1 s\3188 - 4150p09s01.dat
 
+0 STEP
 0 FILE 3188 - 4650852i.dat
 0 Decorated disc pattern made of white and medium azure discs.
 0 Name: 3188 - 4650852i.dat
@@ -6420,6 +6445,7 @@
 5 24 -16.200001 -0.25 10.1 -16.200001 0 10.1 -17.299999 -0.25 8.4 -14.6 -0.25 11.9
 5 24 -17.299999 -0.25 8.4 -17.299999 0 8.4 -18 -0.25 6 -16.200001 -0.25 10.1
 
+0 STEP
 0 FILE 3188 - 4650852d.dat
 0 Decorated disc pattern with white, medium azure, and lime accents.
 0 Name: 3188 - 4650852d.dat
@@ -7052,6 +7078,7 @@
 5 24 -1.5 -0.25 18.4 -1.5 0 18.4 -2.4 -0.25 17.4 0 -0.25 19
 5 24 -2.4 -0.25 17.4 -2.4 0 17.4 -1.5 -0.25 18.4 -3.9 -0.25 17.299999
 
+0 STEP
 0 FILE 3188 - 4650852h.dat
 0 Empty geometric subpart used as a container or reference frame.
 0 Name: 3188 - 4650852h.dat
@@ -7743,6 +7770,7 @@
 5 24 14.4 -0.25 8.6 14.4 0 8.6 12.1 -0.25 9.9 15.8 -0.25 6.6
 5 24 12.1 -0.25 9.9 12.1 0 9.9 14.4 -0.25 8.6 10.1 -0.25 10.5
 
+0 STEP
 0 FILE 3188 - 4650852b.dat
 0 Decorated disc pattern with white, medium azure, and lime elements.
 0 Name: 3188 - 4650852b.dat
@@ -8281,6 +8309,7 @@
 5 24 -3.2 -0.25 17.700001 -3.2 0 17.700001 -5.1 -0.25 17.1 -2 -0.25 17.799999
 5 24 -5.1 -0.25 17.1 -5.1 0 17.1 -6.7 -0.25 15.8 -3.2 -0.25 17.700001
 
+0 STEP
 0 FILE 3188 - 4650852c.dat
 0 Plain five-faced box primitive used as a structural element.
 0 Name: 3188 - 4650852c.dat
@@ -8485,6 +8514,7 @@
 4 15 -13 -0.25 -10.2 -13 -0.25 -15 -10.4 -0.25 -13.5 -10.4 -0.25 -10.2
 3 15 11 -0.25 -1.4 3.5 -0.25 -1.4 11 -0.25 -3
 
+0 STEP
 0 FILE 3188 - 4650852k.dat
 0 Plain five-faced box primitive used as a structural element.
 0 Name: 3188 - 4650852k.dat
@@ -8869,6 +8899,7 @@
 3 30 0 -0.25 19 -6.1 -0.25 13.3 -3.4 -0.25 12.5
 3 30 0 -0.25 19 -9.2 -0.25 13.4 -6.1 -0.25 13.3
 
+0 STEP
 0 FILE 3188 - 4650852a.dat
 0 Composite element combining a box, discs, and a ring into a decorative assembly.
 0 Name: 3188 - 4650852a.dat
@@ -9446,6 +9477,7 @@
 3 5 0 -0.25 32 -26.5 -0.25 27 -25.799999 -0.25 26
 3 5 0 -0.25 32 -28 -0.25 27.700001 -26.5 -0.25 27
 
+0 STEP
 0 FILE 3188 - 4650852g.dat
 0 Plain five-faced box primitive used as a structural element.
 0 Name: 3188 - 4650852g.dat
@@ -9806,6 +9838,7 @@
 4 30 -1.2 -0.25 14.9 -0.1 -0.25 14.8 0 -0.25 19 -1.7 -0.25 16.6
 3 30 0 -0.25 19 -2.7 -0.25 17.1 -1.7 -0.25 16.6
 
+0 STEP
 0 FILE 3188 - 1010462.dat
 0 Empty geometric subpart used as a container or reference frame.
 0 Name: 3188 - 1010462.dat
@@ -10641,6 +10674,7 @@
 5 24 -0.671 -37.682999 0 0 -37.75 0 -0.493 -37.682999 0.422 -0.493 -37.682999 -0.422
 5 24 4.49 -8 4 6.816 -4.1 2.508 3.203 -4.1 4 6.84 -8 2.508
 
+0 STEP
 0 FILE 3188 - 1010471.dat
 0 Cylindrical element built from closed and open cylinders with a connecting ring.
 0 Name: 3188 - 1010471.dat
@@ -11455,6 +11489,7 @@
 5 24 4.843 -17.117001 2.056 5.25 -18.410999 0 4.524 -19.091999 1.911 6.089 -16.834999 0
 5 24 9.968 -8.675 -4.027 9.572 -11.609 -3.867 12.068 -11.866 0 8.534 -11.866 -8.534
 
+0 STEP
 0 FILE s\3188 - 4150p09s01.dat
 0 Small reddish brown and main colour disc pattern forming a printed round tile detail.
 0 Name: s\3188 - 4150p09s01.dat
@@ -11578,6 +11613,7 @@
 3 16 -7.051385 0 5.544326 -8.277808 0 3.692291 -7.972824 0 3.394458
 3 16 -7.051385 0 5.544326 -8.605218 0 3.947778 -8.277808 0 3.692291
 
+0 STEP
 0 FILE s\3188 - 3062bs01.dat
 0 Round cylindrical subpart composed of circles, cylinders, and concentric rings.
 0 Name: s\3188 - 3062bs01.dat
@@ -11616,6 +11652,7 @@
 1 16 0 19 0 8 0 0 0 5 0 0 0 8 4-4cylo.dat
 1 16 0 20 0 1 0 0 0 -1 0 0 0 -1 stud4od.dat
 
+0 STEP
 0 FILE s\3188 - 98389s01.dat
 0 Curved surface subpart defined by tangent disc cutouts and an outside face.
 0 Name: s\3188 - 98389s01.dat
@@ -12029,6 +12066,7 @@
 5 24 -5.439 -5.921 -16.513 -5.943 -5.318 -13.827 -4.729 -5.26 -15.709 -8.803 -7.398 -12.899
 5 24 -3.761 -0.801 9.933 -3.927 0 9.573 -6.178 0 10.227 -1.881 -1.471 8.518
 
+0 STEP
 0 FILE s\3188 - 98389s03.dat
 0 Quarter-circle curved subpart built from tangent disc cutouts and quarter circles.
 0 Name: s\3188 - 98389s03.dat
@@ -13396,6 +13434,7 @@
 5 24 -14.117 -21.85 -10.257 -12.1877 -23.9156 -10.277 -12.614 -23.408001 -8.45 -14.19 -22.087999 -11.616
 5 24 -11.536 -26.52 -10.772 -12.1877 -23.9156 -10.277 -12.614 -23.408001 -8.45 -11.528 -23.981001 -12.104
 
+0 STEP
 0 FILE s\3188 - 98389p01s01.dat
 0 Empty geometric subpart used as a container or reference frame.
 0 Name: s\3188 - 98389p01s01.dat
@@ -13600,6 +13639,7 @@
 4 16 -3.656 -13.173 -24.806 -2.1 -13.7 -26.195311 -1.9 -14.1 -26.075871 -1.67 -14.846 -25.681999
 3 16 -2.1 -13.7 -26.195311 -3.656 -13.173 -24.806 -2.1 -13.38622 -26.476749
 
+0 STEP
 0 FILE 3188 - 93085p03.dat
 0 Friends horse assembly with left and right halves featuring light blue eyes and a white blaze pattern.
 0 Name: 3188 - 93085p03.dat
@@ -13617,6 +13657,7 @@
 0 // ~Animal Horse Friends Left with Light Blue Eyes and White Blaze Pattern (main_colour)
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 3188 - 93084p03.dat
 
+0 STEP
 0 FILE 3188 - 93083p03.dat
 0 Empty geometric subpart used as a container or reference frame.
 0 Name: 3188 - 93083p03.dat
@@ -13634,6 +13675,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\3188 - 93083s04.dat
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\3188 - 93083s05.dat
 
+0 STEP
 0 FILE s\3188 - 93083s01.dat
 0 Cylindrical subpart consisting of two closed cylinders, forming a leg or limb segment.
 0 Name: s\3188 - 93083s01.dat
@@ -14691,6 +14733,7 @@
 5 24 -3.878 -45.382999 -34.66 -2.403 -42.57 -31.987 2.271 -48.737 -36.667 -9.188 -39.194 -33.452
 5 24 -14.553 -53.922001 -67.242996 -13.132 -56.213001 -70.147003 -13.15 -53.837002 -69.070999 -15.723 -58.591 -68.633003
 
+0 STEP
 0 FILE s\3188 - 93083s02.dat
 0 Rectangular body-panel subpart with inside and outside faces plus several bordered rectangles.
 0 Name: s\3188 - 93083s02.dat
@@ -17614,6 +17657,7 @@
 5 24 -3.61 -30.403 -64.526001 -5.079 -28.271999 -69.220001 -9.441 -30.514999 -71.391998 0 -30.231001 -64.570999
 5 24 -5.079 -28.271999 -69.220001 0 -27.976999 -68.964996 -5.032 -25.035 -72.461998 0 -30.231001 -64.570999
 
+0 STEP
 0 FILE s\3188 - 93084p03s01.dat
 0 Empty geometric subpart used as a container or reference frame.
 0 Name: s\3188 - 93084p03s01.dat
@@ -17838,6 +17882,7 @@
 5 24 10.962 -37.455002 -78.644997 10.301 -41.32 -83.508003 12.575 -46.730999 -80.369003 9.77 -32.069 -82.747002
 5 24 12.549 -42.528999 -74.639999 10.962 -37.455002 -78.644997 12.575 -46.730999 -80.369003 10.459 -33.304001 -74.072998
 
+0 STEP
 0 FILE s\3188 - 93084p03s02.dat
 0 Empty geometric subpart used as a container or reference frame.
 0 Name: s\3188 - 93084p03s02.dat
@@ -17989,6 +18034,7 @@
 5 24 12.575 -46.730999 -80.369003 11.381 -54.382 -83.539001 10.006 -49.327 -85.209999 13.675 -52.233002 -77.991997
 5 24 13.726 -56.428001 -77.206001 12.062 -57.842999 -81.594002 13.138 -59.561001 -76.500999 13.675 -52.233002 -77.991997
 
+0 STEP
 0 FILE s\3188 - 93083s03.dat
 0 Half-cylinder closed subpart forming a rounded segment of an animal limb.
 0 Name: s\3188 - 93083s03.dat
@@ -18458,6 +18504,7 @@
 2 24 0 -29.440001 55.720001 0 -29.440001 51.720001
 2 24 0 -29.440001 51.720001 0 -37.439999 51.720001
 
+0 STEP
 0 FILE s\3188 - 93083s04.dat
 0 Empty geometric subpart used as a container or reference frame.
 0 Name: s\3188 - 93083s04.dat
@@ -18544,6 +18591,7 @@
 5 24 -11.251 -37.34 -69.821999 -11.718 -40.437 -66.041 -9.916 -37.762001 -63.569 -12.549 -42.528999 -74.639999
 5 24 -10.007 -33.82 -67.106003 -11.251 -37.34 -69.821999 -10.459 -33.304001 -74.072998 -9.916 -37.762001 -63.569
 
+0 STEP
 0 FILE s\3188 - 93083s05.dat
 0 Empty geometric subpart used as a container or reference frame.
 0 Name: s\3188 - 93083s05.dat
@@ -18691,6 +18739,7 @@
 5 24 -19.881001 -1.569 -26.858999 -19.896 -0.213 -34.418999 -19.882 -9.536 -28.580999 -19.646 12.081 -24.815001
 5 24 -20.718 -5.089 41.332001 -19.919001 11.156 34.033001 -19.965 -0.866 28.801001 -19.532 2.951 44.048
 
+0 STEP
 0 FILE 3188 - 93084p03.dat
 0 Empty geometric subpart used as a container or reference frame.
 0 Name: 3188 - 93084p03.dat
@@ -18708,6 +18757,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\3188 - 93084s06.dat
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\3188 - 93084s07.dat
 
+0 STEP
 0 FILE s\3188 - 93084s01.dat
 0 A small half-height closed cylindrical sub-part forming part of a curved molded element.
 0 Name: s\3188 - 93084s01.dat
@@ -19104,6 +19154,7 @@
 2 24 0 -37.439999 51.720001 0 -29.440001 51.720001
 2 24 0 -29.440001 51.720001 0 -29.440001 55.720001
 
+0 STEP
 0 FILE s\3188 - 93084s02.dat
 0 A two-piece sub-part defining the inner and outer surfaces of a hollow molded element.
 0 Name: s\3188 - 93084s02.dat
@@ -22019,6 +22070,7 @@
 5 24 19.608 9.279 25.832001 19.43 8.56 33.882 19.756001 -0.461 28.148001 19.268999 16.27 34.849998
 5 24 18.296 -11.66 47.466 12.248 -21.003 48.597 9.772 -17.325001 49.846001 17.733999 -22.174 41.062
 
+0 STEP
 0 FILE s\3188 - 93084s05.dat
 0 An empty placeholder sub-part containing no direct geometry.
 0 Name: s\3188 - 93084s05.dat
@@ -22149,6 +22201,7 @@
 5 24 13.179 -47.694 -70.768997 13.637 -55.858002 -73.209 12.511 -50.013 -65.660004 13.675 -52.233002 -77.991997
 5 24 11.381 -54.382 -83.539001 10.006 -49.327 -85.209999 12.575 -46.730999 -80.369003 7.14 -55.789001 -86.122002
 
+0 STEP
 0 FILE s\3188 - 93084s06.dat
 0 An empty placeholder sub-part containing no direct geometry.
 0 Name: s\3188 - 93084s06.dat
@@ -22242,6 +22295,7 @@
 5 24 9.577 -60.305 -61.574001 11.573 -54.066002 -59.449001 8.852 -60.167999 -58.248001 11.628 -53.673 -61.098999
 5 24 9.248 -37.110001 -58.521999 5.032 -32.532001 -60.417999 8.95 -34.688 -56.707001 5.421 -32.573002 -61.478001
 
+0 STEP
 0 FILE s\3188 - 93084s07.dat
 0 An empty placeholder sub-part containing no direct geometry.
 0 Name: s\3188 - 93084s07.dat
@@ -22362,6 +22416,7 @@
 5 24 14.921 -24.249001 -42.831001 13.675 -25.823 -34.202999 18.344 -19.257999 -39.798 12.032 -39.556 -45.069
 5 24 13.675 -25.823 -34.202999 8.503 -31.273001 -30.521 7.41 -41.816002 -37.501999 14.142 -26.142 -20
 
+0 STEP
 0 FILE 3188 - 4650852fc01.dat
 0 An empty placeholder sub-part containing no direct geometry.
 0 Name: 3188 - 4650852fc01.dat
@@ -23671,6 +23726,7 @@
 4 14 -15.5225 -9.5672 0.8 -17.974501 -10.0547 7 -17.974501 -10.0547 -7 -15.5225 -9.5672 -0.8
 4 16 -17.974501 -10.0547 -7 -17.974501 -10.0547 7 -18.1513 -9.8779 7 -18.1513 -9.8779 -7
 
+0 STEP
 0 FILE s\3188 - 98386s01.dat
 0 A complex curved sub-part built from cylinders, discs, and chords forming a detailed rounded molded surface.
 0 Name: s\3188 - 98386s01.dat
@@ -26007,6 +26063,7 @@
 5 24 -2.033 -28.128 -8.906 -2.033 -29.028 -9.956 -4.529 -26.813 -9.679 2.033 -28.128 -8.906
 5 24 2.033 -29.028 -9.956 0 -31.747999 -10.564 2.447 -31.194 -11.156 -2.033 -29.028 -9.956
 
+0 STEP
 0 FILE s\3188 - 98386p01s01.dat
 0 An empty placeholder sub-part containing no direct geometry.
 0 Name: s\3188 - 98386p01s01.dat
@@ -26287,6 +26344,7 @@
 
 
 
+0 STEP
 0 FILE 3188 - 1010482.dat
 0 A single full-height closed cylinder forming a simple solid rod or post element.
 0 Name: 3188 - 1010482.dat
@@ -26377,6 +26435,7 @@
 5 24 0.324 -5.981 7.5 -0.324 -5.981 7.5 0 -5.7 2 -0.334 -9.516 7.5
 
 
+0 STEP
 0 FILE 3188 - 1010491.dat
 0 An empty placeholder sub-part containing no direct geometry.
 0 Name: 3188 - 1010491.dat
@@ -28968,6 +29027,7 @@
 2 24 6.599 -40.727 4.727 5.687 -40.727 4.727
 
 
+0 STEP
 0 FILE 3188 - 1010480.dat
 0 A rounded element combining an open cylinder, cone, sphere, circle, and ring into a dome-like shape.
 0 Name: 3188 - 1010480.dat
@@ -29396,6 +29456,7 @@
 5 24 2.132 -15.75 -3.693 2.675 -16.261 -3.865 3.693 -15.75 -2.132 0 -16.261 -4.891
 
 
+0 STEP
 0 FILE 3188 - 1010481.dat
 0 A tapered multi-cone assembly built from stacked cones, discs, rings, and circles forming a flared conical shape.
 0 Name: 3188 - 1010481.dat
@@ -29775,6 +29836,7 @@
 2 24 -4 0 0 -3.6956 0 -1.5308
 
 
+0 STEP
 0 FILE 3188 - 4650852l.dat
 0 A single five-faced box primitive forming a solid cuboid element.
 0 Name: 3188 - 4650852l.dat
@@ -30014,6 +30076,7 @@
 4 322 -14 -0.25 13 14 -0.25 13 18 -0.25 14 -18 -0.25 14
 
 
+0 STEP
 0 FILE s\3188 - 1010482s01.dat
 0 Half of a Friends medical nurse hat figure accessory with no direct piece geometry.
 0 Name: s\3188 - 1010482s01.dat

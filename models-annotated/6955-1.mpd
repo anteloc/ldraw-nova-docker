@@ -11,6 +11,7 @@
 1 0 330 -4 140 0.9659 0 0.2588 0 1 0 -0.2588 0 0.9659 6955 - Spaceship + Minifig.ldr
 
 
+0 STEP
 0 FILE 6955 - Spaceship.ldr
 0 A compact blue and black spaceship built from plates and tiles with hinge-mounted wings and computer pattern detailing.
 0 Name: 6955 - Spaceship.ldr
@@ -68,6 +69,7 @@
 1 0 52 -48 -30 0 -1 0 0 0 -1 1 0 0 3900.dat
 
 
+0 STEP
 0 FILE 6955 - Spaceship - Stick.ldr
 0 A single black hinge bar with three fingers serving as the mounting stick for the spaceship.
 0 Name: 6955 - Spaceship - Stick.ldr
@@ -81,6 +83,7 @@
 1 0 0 -36 0 1 0 0 0 1 0 0 0 1 2433.dat
 
 
+0 STEP
 0 FILE 6955 - Spaceship + Minifig.ldr
 0 A spaceship subassembly paired with an accompanying minifigure pilot.
 0 Name: 6955 - Spaceship + Minifig.ldr
@@ -91,6 +94,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 6955 - Spaceship.ldr
 1 0 0 -61 -72 1 0 0 0 1 0 0 0 1 6955 - Minifig 1.ldr
 
+0 STEP
 0 FILE 6955 - Jail.ldr
 0 A blue and black jail cell with a train window, transparent red glass, and Space Police patterned side panels.
 0 Name: 6955 - Jail.ldr
@@ -143,6 +147,7 @@
 1 0 -36 -100 0 1 0 0 0 1 0 0 0 1 6955 - Jail - Door.ldr
 
 
+0 STEP
 0 FILE 6955 - Jail - Door.ldr
 0 A blue hinged jail door with vertical bars, transparent red antenna studs, and a 45-degree slope top.
 0 Name: 6955 - Jail - Door.ldr
@@ -180,6 +185,7 @@
 1 36 66 84 30 0 0 1 0 1 0 -1 0 0 3957a.dat
 
 
+0 STEP
 0 FILE 6955 - Jail + Minifig.ldr
 0 A jail cell subassembly that includes a captive minifigure prisoner.
 0 Name: 6955 - Jail + Minifig.ldr
@@ -193,6 +199,7 @@
 1 0 -8 -45 0 0 0 -1 0 1 0 1 0 0 6955 - Minifig 2.ldr
 
 
+0 STEP
 0 FILE 6955 - Base.ldr
 0 A large light grey baseplate foundation with black inclined stanchion supports, blue and black plating, and translucent red and black panel walls.
 0 Name: 6955 - Base.ldr
@@ -380,6 +387,7 @@
 1 0 190 -336 160 0 0 -1 0 1 0 1 0 0 2432.dat
 
 
+0 STEP
 0 FILE 6955 - Base - Support.ldr
 0 A support structure of blue and black plates topped with antennas and lattice fences.
 0 Name: 6955 - Base - Support.ldr
@@ -411,6 +419,7 @@
 1 0 50 -3 20 -1 0 0 0 0 1 0 1 0 3185.dat
 
 
+0 STEP
 0 FILE 6955 - Base - Plateform.ldr
 0 A black and blue raised platform with a gear rack, hinges, and inverted slopes for mounting equipment.
 0 Name: 6955 - Base - Plateform.ldr
@@ -478,6 +487,7 @@
 1 0 0 -12 184 1 0 0 0 0.7696 -0.6386 0 0.6386 0.7696 6955 - Base - Plateform - Crane - 1 + Minifig.ldr
 1 0 0 -89.6774 265.082 1 0 0 0 0.9529 0.3032 0 -0.3032 0.9529 6955 - Base - Plateform - Crane - 2.ldr
 
+0 STEP
 0 FILE 6955 - Base - Plateform - Lever.ldr
 0 A small control lever assembly with a blue hinge plate, arrow-patterned tile, and translucent red cone tip.
 0 Name: 6955 - Base - Plateform - Lever.ldr
@@ -499,6 +509,7 @@
 1 36 -20 -10 -68 0 0 -1 -1 0 0 0 1 0 4589.dat
 
 
+0 STEP
 0 FILE 6955 - Base - Plateform - Crane - 1.ldr
 0 A crane base section with a digger bucket holder, long bricks, open-stud bars, and translucent red antenna tips.
 0 Name: 6955 - Base - Plateform - Crane - 1.ldr
@@ -541,6 +552,7 @@
 
 
 
+0 STEP
 0 FILE 6955 - Base - Plateform - Crane - 1 + Minifig.ldr
 0 A crane section subassembly paired with an operating minifigure.
 0 Name: 6955 - Base - Plateform - Crane - 1 + Minifig.ldr
@@ -554,6 +566,7 @@
 1 0 0 -44 176 0 0 1 -1 0 0 0 -1 0 6955 - Jail + Minifig.ldr
 
 
+0 STEP
 0 FILE 6955 - Base - Plateform - Crane - 2.ldr
 0 A crane arm extension with slopes, pin bricks, a long blue plate, handles, and a Space Police patterned slope detail.
 0 Name: 6955 - Base - Plateform - Crane - 2.ldr
@@ -612,6 +625,7 @@
 1 36 0 -16 -492 1 0 0 0 0 1 0 -1 0 4740.dat
 
 
+0 STEP
 0 FILE 6955 - Base - Plateform + Minifig.ldr
 0 A platform subassembly that includes an accompanying minifigure operator.
 0 Name: 6955 - Base - Plateform + Minifig.ldr
@@ -625,6 +639,7 @@
 1 0 -31 -72 -160 0 0 -1 0 1 0 1 0 0 6955 - Minifig 3.ldr
 
 
+0 STEP
 0 FILE 6955 - Minifig 1.ldr
 0 A white Futuron-patterned minifigure with airtanks, a radio, and black arms.
 0 Name: 6955 - Minifig 1.ldr
@@ -659,6 +674,7 @@
 1 15 0 44 0 1 0 0 0 0 1 0 -1 0 3817.dat
 
 
+0 STEP
 0 FILE 6955 - Minifig 1 - Helmet.ldr
 0 A white standard helmet with a translucent red visor.
 0 Name: 6955 - Minifig 1 - Helmet.ldr
@@ -675,6 +691,7 @@
 
 
 
+0 STEP
 0 FILE 6955 - Minifig 2.ldr
 0 A black Blacktron I-patterned minifigure with airtanks and black arms and hands.
 0 Name: 6955 - Minifig 2.ldr
@@ -707,6 +724,7 @@
 1 0 0 44 0 1 0 0 0 0 1 0 -1 0 3817.dat
 
 
+0 STEP
 0 FILE 6955 - Minifig 2 - Helmet.ldr
 0 A black standard helmet with a black visor.
 0 Name: 6955 - Minifig 2 - Helmet.ldr
@@ -722,6 +740,7 @@
 1 0 0 1.904 4.596 1 0 0 0 0.707107 0.707107 0 -0.707107 0.707107 2447.dat
 
 
+0 STEP
 0 FILE 6955 - Minifig 3.ldr
 0 A white Black Futuron-patterned minifigure with airtanks and black arms.
 0 Name: 6955 - Minifig 3.ldr
@@ -754,6 +773,7 @@
 1 15 22.7714 20.2688 -17.5007 0.985 0.160714 -0.0553382 -0.17 0.931195 -0.320636 0 0.325519 0.945376 3820.dat
 
 
+0 STEP
 0 FILE 6955 - Minifig 3 - Helmet.ldr
 0 A white standard helmet with a translucent red visor.
 0 Name: 6955 - Minifig 3 - Helmet.ldr

@@ -10,6 +10,7 @@
 1 321 520 -24 0 0.707 -0.049 0.705 0 0.998 0.07 -0.707 -0.049 0.705 17101-1 - stooge.ldr
 1 321 600 -24 -110 0.5 -0.06 0.864 0 0.998 0.07 -0.866 -0.035 0.499 17101-1 - stooge.ldr
 
+0 STEP
 0 FILE 17101-1 - motor.ldr
 0 Small dark azure and white plate structure with axles and pins forming a motor mounting bracket.
 0 Name: 17101-1 - motor.ldr
@@ -42,6 +43,7 @@
 0 // Technic Axle  4 (red)
 1 4 80 34 0 1 0 0 0 1 0 0 0 1 3705.dat
 
+0 STEP
 0 FILE 17101-1 - powerFunc2MotorInteractive-LQ-1.ldr
 0 LEGO BOOST interactive motor assembly with associated cable path geometry for the Power Functions 2.0 motor.
 0 Name: 17101-1 - powerFunc2MotorInteractive-LQ-1.ldr
@@ -86,6 +88,7 @@
 0 // To ensure correct edge colors those segments are placed in (a) subpart(s).
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 17101-1 - powerFunc2MotorInteractive-LQ-1 subPart 1.ldr
 
+0 STEP
 0 FILE 17101-1 - powerFunc2MotorInteractive-LQ-1 subPart 1.ldr
 0 Subpart containing the generated cable path segments for the interactive motor's wire routing.
 0 Name: 17101-1 - powerFunc2MotorInteractive-LQ-1 subPart 1.ldr
@@ -259,6 +262,7 @@
 1 16 58.027775 -4.96365 279.988478 0.090579 3.981454 0.032357 -0.995875 0.362812 -0.002367 -0.005291 -0.128039 0.999474 u9218.dat
 1 16 55.235466 -5.023706 280.009269 0.030951 3.997845 0.010912 -0.999515 0.123946 -0.003106 -0.003443 -0.043242 0.999936 u9218.dat
 
+0 STEP
 0 FILE 17101-1 - turntable.ldr
 0 Technic turntable assembly using a 28-tooth turntable, axles, cross blocks, and an orange beam for rotation.
 0 Name: 17101-1 - turntable.ldr
@@ -284,6 +288,7 @@
 0 // Technic Cross Block 1 x 3 (Axle/Pin/Axle) (white)
 1 15 170 0 -30 -1 0 0 0 0 -1 0 -1 0 32184.dat
 
+0 STEP
 0 FILE 17101-1 - powerFunc2Color-LQ-1.ldr
 0 LEGO BOOST colour and distance sensor assembly with associated cable path geometry.
 0 Name: 17101-1 - powerFunc2Color-LQ-1.ldr
@@ -327,6 +332,7 @@
 0 // To ensure correct edge colors those segments are placed in (a) subpart(s).
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 17101-1 - powerFunc2Color-LQ-1 subPart 1.ldr
 
+0 STEP
 0 FILE 17101-1 - powerFunc2Color-LQ-1 subPart 1.ldr
 0 Subpart containing the generated cable path segments for the colour sensor's wire routing.
 0 Name: 17101-1 - powerFunc2Color-LQ-1 subPart 1.ldr
@@ -485,6 +491,7 @@
 1 16 -55.972362 -187.939847 11.131001 0.371093 -3.639287 -0.18578 -0.042918 0.732189 -0.982167 0.927603 1.489795 0.02888 u9218.dat
 1 16 -53.336738 -188.049416 10.899821 0.149024 -3.944883 -0.071839 -0.004407 0.287949 -0.997396 0.988824 0.595808 0.006382 u9218.dat
 
+0 STEP
 0 FILE 17101-1 - head.ldr
 0 Robotic head built from dark azure and white plates, brackets, and bricks with a ball-joint connector for articulation.
 0 Name: 17101-1 - head.ldr
@@ -692,6 +699,7 @@
 1 25 112 -70 -20 0 -1 0 1 0 0 0 0 1 98138.dat
 0 STEP
 
+0 STEP
 0 FILE 17101-1 - armright.ldr
 0 Right arm assembly using Technic rotation joints, wing plates, brackets, and a curved slope for a robotic limb.
 0 Name: 17101-1 - armright.ldr
@@ -727,6 +735,7 @@
 0 // Tile  2 x  2 Round with Hole (orange)
 1 25 -20 0 -40 0 0 1 1 0 0 0 1 0 15535.dat
 
+0 STEP
 0 FILE 17101-1 - technicChainTread38Closed-right.ldr
 0 Closed loop of 19 reinforced chain tread links and rubber pins forming the right continuous tank tread.
 0 Name: 17101-1 - technicChainTread38Closed-right.ldr
@@ -815,6 +824,7 @@
 0 // Technic Rubber Pin for Chain Tread 5 Wide (rubber_orange)
 1 350 -58.652 16.23 -20 0 0.953 0.301 0 -0.301 0.953 1 0 0 17101-1 - 24375.dat
 
+0 STEP
 0 FILE 17101-1 - technicChainTread38Closed-left.ldr
 0 Closed loop of 19 reinforced chain tread links and rubber pins forming the left continuous tank tread.
 0 Name: 17101-1 - technicChainTread38Closed-left.ldr
@@ -903,6 +913,7 @@
 0 // Technic Rubber Pin for Chain Tread 5 Wide (rubber_orange)
 1 350 -58.652 16.23 20 0 0.953 0.301 0 -0.301 0.953 1 0 0 17101-1 - 24375.dat
 
+0 STEP
 0 FILE 17101-1 - stooge.ldr
 0 Small display figure or target stand built from bricks and a wing piece with a printed humanoid robot face brick.
 0 Name: 17101-1 - stooge.ldr
@@ -921,6 +932,7 @@
 0 // Brick  2 x  4 with Cartoon Humanoid Robot Face Pattern (white)
 1 15 0 -64 0 1 0 0 0 1 0 0 0 1 17101-1 - 3001p0e.dat
 
+0 STEP
 0 FILE 17101-1 - armleft.ldr
 0 Left arm assembly using Technic rotation joints, wing plates, brackets, and a curved slope for a robotic limb.
 0 Name: 17101-1 - armleft.ldr
@@ -956,6 +968,7 @@
 0 // Tile  2 x  2 Round with Hole (orange)
 1 25 -20 0 40 0 0 1 -1 0 0 0 -1 0 15535.dat
 
+0 STEP
 0 FILE 17101-1 - handleft.ldr
 0 Left robotic hand with rotors, axles, cross blocks, and rotation joints enabling articulated finger movement.
 0 Name: 17101-1 - handleft.ldr
@@ -1062,6 +1075,7 @@
 0 // Tile  2 x  2 Round with Hole (orange)
 1 25 -40 -60 0 0 1 0 0 0 -1 -1 0 0 15535.dat
 
+0 STEP
 0 FILE 17101-1 - finger.ldr
 0 Single articulated finger segment using a ball-joint plate, small plate, and curved slope.
 0 Name: 17101-1 - finger.ldr
@@ -1076,6 +1090,7 @@
 0 // Slope Brick Curved  2 x  1 (dark_azure)
 1 321 0 -4 -30 1 0 0 0 1 0 0 0 1 11477.dat
 
+0 STEP
 0 FILE 17101-1 - handright.ldr
 0 Right robotic hand with rotors, axles, cross blocks, and rotation joints enabling articulated finger movement.
 0 Name: 17101-1 - handright.ldr
@@ -1182,6 +1197,7 @@
 0 // Tile  2 x  2 Round with Hole (orange)
 1 25 40 -60 0 0 -1 0 0 0 -1 1 0 0 15535.dat
 
+0 STEP
 0 FILE 17101-1 - cannon.ldr
 0 Technic competition cannon mechanism with axles, connectors, and wheel rims forming a projectile launcher.
 0 Name: 17101-1 - cannon.ldr
@@ -1214,6 +1230,7 @@
 0 // Wheel Rim  8 x 11.2 with Centre Groove (light_bluish_grey)
 1 71 40 -61 61 0 0 1 1 0 0 0 1 0 42610.dat
 
+0 STEP
 0 FILE 17101-1 - target.ldr
 0 Target practice structure built on large base plates with a tall wheel and technic bricks for stability.
 0 Name: 17101-1 - target.ldr
@@ -1250,6 +1267,7 @@
 0 // Wheel 32 x 56 Hard-Plastic with Inner Supports (black)
 1 0 1 40 -14 1 0 0 0 0 -1 0 1 0 2515b.dat
 
+0 STEP
 0 FILE 17101-1 - rubberBandRound-1.ldr
 0 Generated round rubber band assembly composed of many path segments forming a flexible loop.
 0 Name: 17101-1 - rubberBandRound-1.ldr
@@ -2722,6 +2740,7 @@
 5 24 -23.5 0 2 -22.914213 0 3.414214 -23.592831 -0.995682 2 -23.09749 4.317609 2
 5 24 -22.914213 0 3.414214 -21.5 0 4 -23.007044 -0.995682 3.414214 -22.521782 4.209421 3.414214
 
+0 STEP
 0 FILE 17101-1 - rubberBandRound-2.ldr
 0 Generated round rubber band assembly composed of many path segments forming a flexible loop.
 0 Name: 17101-1 - rubberBandRound-2.ldr
@@ -4246,6 +4265,7 @@
 5 24 -23.5 0 2 -22.914213 0 3.414214 -23.587534 -0.996162 2 -23.141626 4.075264 2
 5 24 -22.914213 0 3.414214 -21.5 0 4 -23.001749 -0.996162 3.414214 -22.564976 3.972219 3.414214
 
+0 STEP
 0 FILE 17101-1 - rattle.ldr
 0 Rattle toy accessory made of round bricks, a transparent orange hemisphere, blue pins, and a black dome.
 0 Name: 17101-1 - rattle.ldr
@@ -4283,6 +4303,7 @@
 0 // Dome  4 x  4 Smooth (black)
 1 0 0 -88 0 1 0 0 0 1 0 0 0 1 86500.dat
 
+0 STEP
 0 FILE 17101-1 - vernie.ldr
 0 Main torso and body of the Vernie robot built from technic bricks, large plates, cylinders, and axlehole plates.
 0 Name: 17101-1 - vernie.ldr
@@ -4900,6 +4921,7 @@
 0 STEP
 1 0 -98.804 -341.302 -158.299 0.265 0 0.964 -0.25 0.966 0.069 -0.931 -0.259 0.256 17101-1 - rattle.ldr
 
+0 STEP
 0 FILE 17101-1 - 15672.dat
 0 Primitive geometry part defining a slope piece with specific face and edge geometry for a curved slope element.
 0 Name: 17101-1 - 15672.dat
@@ -4946,6 +4968,7 @@
 0 // top surface
 4 16 -10 4 -20 10 4 -20 10 -16 0 -10 -16 0
 
+0 STEP
 0 FILE 17101-1 - 26913.dat
 0 Primitive part defining a motor case and axle hub component for a geared Technic 9V motor.
 0 Name: 17101-1 - 26913.dat
@@ -4963,6 +4986,7 @@
 0 // ~Electric Technic Motor 9V Geared (480 RPM) Axle Bush (red)
 1 4 0 34 -60 1 0 0 0 1 0 0 0 1 47157.dat
 
+0 STEP
 0 FILE 17101-1 - u9219.dat
 0 Primitive geometry part defining cylindrical, conical, and disc shapes with chrome gold accents for a detailed element.
 0 Name: 17101-1 - u9219.dat
@@ -5232,6 +5256,7 @@
 4 16 -7.845 3 13 -7.845 3 0 -9.9998 2.9998 0 -9.9998 2.9998 13.9997
 4 16 -7.845 3 13 -9.9998 2.9998 13.9997 10 3 14 7.845 3 13
 
+0 STEP
 0 FILE 17101-1 - 26912.dat
 0 26912
 0 Name: 17101-1 - 26912.dat
@@ -5264,6 +5289,7 @@
 4 0 -10 10.1 33 -10 5.9 33 10 5.9 33 10 10.1 33
 4 0 17 43 -18 17 3 -18 -17 3 -18 -17 43 -18
 
+0 STEP
 0 FILE 17101-1 - 88323.dat
 0 88323
 0 Name: 17101-1 - 88323.dat
@@ -5349,6 +5375,7 @@
 1 16 33 -10 -4.5 0 0 15 0 1 0 -1.5 0 0 rect3.dat
 4 16 44 -14 -6 48 -10 -6 18 -10 -6 18 -14 -6
 
+0 STEP
 0 FILE 17101-1 - 24375.dat
 0 24375
 0 Name: 17101-1 - 24375.dat
@@ -5553,6 +5580,7 @@
 3 16 -1.2 8 6 -1.2 8 5.5433 -1.2 10 4
 3 16 -1.2 8 -5.5432 -1.2 8 -6 -1.2 10 -4
 
+0 STEP
 0 FILE 17101-1 - 3001p0e.dat
 0 3001p0e
 0 Name: 17101-1 - 3001p0e.dat
@@ -5858,6 +5886,7 @@
 3 16 -3.2 23.4 -20 -40 24 -20 0.2 23.5 -20
 4 16 -40 24 20 -40 0 20 40 0 20 40 24 20
 
+0 STEP
 0 FILE 17101-1 - 14418.dat
 0 14418
 0 Name: 17101-1 - 14418.dat
@@ -5875,6 +5904,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\17101-1 - 14418s01.dat
 1 16 30 4 0 0 0 -1 0 1 0 1 0 0 17101-1 - joint-8-socket-frica.dat
 
+0 STEP
 0 FILE 17101-1 - 87580.dat
 0 87580
 0 Name: 17101-1 - 87580.dat
@@ -5901,6 +5931,7 @@
 
 0 !LDCAD SNAP_INCL [ref=3022.dat]
 
+0 STEP
 0 FILE 17101-1 - 3069bp19.dat
 0 3069bp19
 0 Name: 17101-1 - 3069bp19.dat
@@ -6005,6 +6036,7 @@
 3 0 16.1 0 0 17.6 0 0 17.5 0 0.6
 4 16 -20 0 -10 -17.5 0 -3.6 -17.5 0 3.6 -20 0 10
 
+0 STEP
 0 FILE 17101-1 - ldcRubberBandRndSeg.dat
 0 ldcRubberBandRndSeg
 0 Name: 17101-1 - ldcRubberBandRndSeg.dat
@@ -6025,6 +6057,7 @@
 1 16 0 0 0 2 0 0 0 1 0 0 0 2 17101-1 - ldcConRing8.dat
 1 16 0 1 0 2 0 0 0 1 0 0 0 2 17101-1 - ldcConRing8.dat
 
+0 STEP
 0 FILE 17101-1 - 24130.dat
 0 24130
 0 Name: 17101-1 - 24130.dat
@@ -6088,6 +6121,7 @@
 5 24 -36.362999 -22.417 0 -32.115002 -14.702 0 -30.903 -14.702 8.28 -30.903 -14.702 -8.28
 5 24 24.385 -6.014 0 23.948999 0 0 23.045 0 -6.175 23.045 0 6.175
 
+0 STEP
 0 FILE 17101-1 - 15456.dat
 0 15456
 0 Name: 17101-1 - 15456.dat
@@ -6143,6 +6177,7 @@
 1 16 0 4 -40 8 0 0 0 8 0 0 0 8 8-8sphe.dat
 1 16 0 0 0 0 0 1 0 1 0 -1 0 0 stug-2x2.dat
 
+0 STEP
 0 FILE 17101-1 - 26910.dat
 0 26910
 0 Name: 17101-1 - 26910.dat
@@ -6162,6 +6197,7 @@
 0 // ~Electric Technic Motor 9V Geared (480 RPM) Axle Bush (red)
 1 4 60 66 140 0 0 -1 0 1 0 1 0 0 47157.dat
 
+0 STEP
 0 FILE 17101-1 - 93606p01.dat
 0 93606p01
 0 Name: 17101-1 - 93606p01.dat
@@ -6244,6 +6280,7 @@
 5 24 -20 5.0895 -1.408 20 5.0895 -1.408 -20 1.2836 19.120001 -20 11.3582 -21.232
 5 24 -20 11.3582 -21.232 20 11.3582 -21.232 -20 5.0895 -1.408 -20 19.999901 -40
 
+0 STEP
 0 FILE 17101-1 - 4-4cyl19sph40.dat
 0 4-4cyl19sph40
 0 Name: 17101-1 - 4-4cyl19sph40.dat
@@ -6284,6 +6321,7 @@
 2 24 -0.7022 -1.3504 0.2909 -0.6583 -1.3644 0.3565
 2 24 -0.76 -1.3795 0 -0.7022 -1.3504 0.2909
 
+0 STEP
 0 FILE 17101-1 - u9356c01.dat
 0 u9356c01
 0 Name: 17101-1 - u9356c01.dat
@@ -6306,6 +6344,7 @@
 0 // Box with 4 Faces without 1 Edge (black)
 1 0 0 4.9 54.5 -13 0 0 0 5 0 0 0 -1.5 box4-1.dat
 
+0 STEP
 0 FILE 17101-1 - u9355.dat
 0 u9355
 0 Name: 17101-1 - u9355.dat
@@ -6832,6 +6871,7 @@
 1 16 -30 8 10 0 0 -1 0 1 0 1 0 0 stud2.dat
 5 24 -20.505899 54.505901 -18 -20.505899 54.505901 0 -20 55 -18 -23.0086 51.655201 -18
 
+0 STEP
 0 FILE 17101-1 - u9356.dat
 0 u9356
 0 Name: 17101-1 - u9356.dat
@@ -7066,6 +7106,7 @@
 4 16 -17 64 36 -10 9.1 36 -10 4.9 36 -13 4.9 36
 4 16 -17 64 36 -13 4.9 36 -13 3 36 -17 3 36
 
+0 STEP
 0 FILE s\17101-1 - u9219s01.dat
 0 u9219s01
 0 Name: s\17101-1 - u9219s01.dat
@@ -7129,6 +7170,7 @@
 1 16 0 0 1.468 -1.46941 0 -1.46941 0 1 0 1.46941 0 -1.46941 1-4chrd.dat
 4 16 1.4701 0 -5.8781 1.4694 0 5.8756 -1.4689 0 5.8758 -1.4694 0 -5.8774
 
+0 STEP
 0 FILE 17101-1 - u9360c01.dat
 0 u9360c01
 0 Name: 17101-1 - u9360c01.dat
@@ -7162,6 +7204,7 @@
 0 // Battery Holder Screw
 1 494 0 89 -10 -1 0 0 0 -1 0 0 0 1 u9288.dat
 
+0 STEP
 0 FILE 17101-1 - u9360.dat
 0 u9360
 0 Name: 17101-1 - u9360.dat
@@ -7577,6 +7620,7 @@
 3 16 29.9 0 22.200001 32.089802 0 22.5056 40 0 30.5
 3 16 40 0 30.5 32.089802 0 22.5056 37.9734 0 22.5056
 
+0 STEP
 0 FILE s\17101-1 - u9360s01.dat
 0 u9360s01
 0 Name: s\17101-1 - u9360s01.dat
@@ -8118,6 +8162,7 @@
 1 16 53.75 -26 0 0 0 2.25 10 0 0 0 1 0 rect2a.dat
 2 24 37 -93 33.5 37 -93 157
 
+0 STEP
 0 FILE 17101-1 - u9357.dat
 0 u9357
 0 Name: 17101-1 - u9357.dat
@@ -8310,6 +8355,7 @@
 4 16 3 -18 -93 37 -18 -97 37 -18 -77 3 -18 -87
 4 16 3 -18 -87 37 -18 -77 -37 -18 -77 -3 -18 -87
 
+0 STEP
 0 FILE 17101-1 - u9358.dat
 0 u9358
 0 Name: 17101-1 - u9358.dat
@@ -8547,6 +8593,7 @@
 5 24 -17.2752 1.088 19.5 -17.2752 1.088 20 -18.1618 0.0031 19.5 -16.200199 1.6603 19.5
 5 24 -18.1618 0.0031 19.5 -18.1618 0.0031 20 -17.2752 1.088 19.5 -18.457399 -1.3265 19.5
 
+0 STEP
 0 FILE s\17101-1 - u9358s01.dat
 0 u9358s01
 0 Name: s\17101-1 - u9358s01.dat
@@ -8613,6 +8660,7 @@
 3 16 -3 9 9 -3 21 17 -3 9 -9
 3 16 -3 9 -9 -3 21 17 -3 -11 -89
 
+0 STEP
 0 FILE 17101-1 - u9359.dat
 0 u9359
 0 Name: 17101-1 - u9359.dat
@@ -8662,6 +8710,7 @@
 0 // Rectangle with 2 Parallel Edges (main_colour)
 1 16 17.51325 -3.6907 19.75 1.73945 1 0 5.6907 0 0 0 0 -0.25 rect2p.dat
 
+0 STEP
 0 FILE 17101-1 - u9361.dat
 0 u9361
 0 Name: 17101-1 - u9361.dat
@@ -8736,6 +8785,7 @@
 0 // Rectangle with 2 Parallel Edges (main_colour)
 1 16 2 1.5 0 0 -1 0 -1.5 0 0 0 0 -17 rect2p.dat
 
+0 STEP
 0 FILE 17101-1 - 89658.dat
 0 A single Mindstorms EV3 square button element.
 0 Name: 17101-1 - 89658.dat
@@ -8748,6 +8798,7 @@
 0 // ~Electric Mindstorms EV3 Square Button (main_colour)
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 99146.dat
 
+0 STEP
 0 FILE 17101-1 - 27194.dat
 0 A detailed geometric model built from rectangular boxes, cylinders, and discs forming a small mechanical part.
 0 Name: 17101-1 - 27194.dat
@@ -8896,6 +8947,7 @@
 4 16 -40 -8 80 -30 -8 -77 -9 -8 61 -9 -8 79
 4 16 40 -8 80 9 -8 79 9 -8 61 30 -8 -77
 
+0 STEP
 0 FILE 17101-1 - u9352.dat
 0 A flat plate-like component constructed from rectangles and small cylindrical openings.
 0 Name: 17101-1 - u9352.dat
@@ -9062,6 +9114,7 @@
 0 // Rectangle with 3 Edges (main_colour)
 1 16 0 5.9 34.5 10 0 0 0 -1 0 0 0 -1.5 rect3.dat
 
+0 STEP
 0 FILE 17101-1 - u9354.dat
 0 A boxed component with cylindrical holes and stud tubes, forming a connector or bracket.
 0 Name: 17101-1 - u9354.dat
@@ -9244,6 +9297,7 @@
 0 // Rectangle with 2 Parallel Edges (main_colour)
 1 16 0 21.5 -4 0 0 17 13.5 0 0 0 1 0 rect2p.dat
 
+0 STEP
 0 FILE 17101-1 - u9353.dat
 0 A rounded mechanical piece featuring cones, cylinders, and circular shapes, possibly a nozzle or housing.
 0 Name: 17101-1 - u9353.dat
@@ -9375,6 +9429,7 @@
 3 16 8.75 14 14 6 11 14 10 14 14
 4 16 -6.1872 23.187201 14 -6 23 14 6 23 14 6.1871 23.187099 14
 
+0 STEP
 0 FILE s\17101-1 - 57518s01.dat
 0 A complex submodel with many rectangular panels, cylinders, circles, and peg holes forming a large structural or mechanical element.
 0 Name: s\17101-1 - 57518s01.dat
@@ -10000,6 +10055,7 @@
 4 16 -14 3.444 -38.314999 -14 -3.4443 -38.3148 -14 -4 -34 -14 0 -34.000599
 3 16 -14 3.444 -38.314999 -14 0 -34.000599 -14 1.5309 -33.695999
 
+0 STEP
 0 FILE 17101-1 - ldcCyli8.dat
 0 An LDCad-generated cylindrical path-deform helper part with no direct geometry.
 0 Name: 17101-1 - ldcCyli8.dat
@@ -10029,6 +10085,7 @@
 5 24 -1 0 0 -1 1 0 -0.707107 0 -0.707107 -0.707107 0 0.707107
 5 24 -0.707107 0 0.707107 -0.707107 1 0.707107 -1 0 0 0 0 1
 
+0 STEP
 0 FILE 17101-1 - ldcConRing8.dat
 0 An LDCad-generated conical ring path-deform helper with scaling and rotation notes.
 0 Name: 17101-1 - ldcConRing8.dat
@@ -10052,6 +10109,7 @@
 5 24 -1 0 0 -0.707107 0 0.707107 -1 -1 0 -1 1 0
 5 24 -0.707107 0 0.707107 0 0 1 -0.707107 -1 0.707107 -0.707107 1 0.707107
 
+0 STEP
 0 FILE s\17101-1 - 14418s01.dat
 0 A small geometric submodel of boxes and closed cylinders forming a compact connector or hinge piece.
 0 Name: s\17101-1 - 14418s01.dat
@@ -10103,6 +10161,7 @@
 1 16 0 8 0 0 0 -20 0 -8 0 10 0 0 box4-4a.dat
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 stug2-1x2.dat
 
+0 STEP
 0 FILE 17101-1 - joint-8-socket-frica.dat
 0 A ball-and-socket joint component with quartered circular surfaces, top and bottom plates, and spherical cut sections.
 0 Name: 17101-1 - joint-8-socket-frica.dat
@@ -10695,6 +10754,7 @@
 5 24 -10 7.75 9 -10 -7.75 9 -9.817 7.567 9.31695 -10 7.75 -3
 5 24 -10 4 10 -10 -4 10 -9.817 4 9.68305 -10 4 15
 
+0 STEP
 0 FILE s\17101-1 - 24130s01.dat
 0 A minimal submodel consisting of a single small negative disc primitive.
 0 Name: s\17101-1 - 24130s01.dat
@@ -10944,6 +11004,7 @@
 5 24 30.489 -43 22.257999 30.489 -44 22.257999 32.75 -44 18.908001 26.639 -44 26.639
 5 24 3.398 -6.014 24.184 0 -6.014 24.385 0 0 23.948999 0 -10.4842 24.051001
 
+0 STEP
 0 FILE s\17101-1 - 24130s02.dat
 0 A minimal submodel consisting of a single larger negative disc primitive.
 0 Name: s\17101-1 - 24130s02.dat

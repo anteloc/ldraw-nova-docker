@@ -7,6 +7,7 @@
 1 15 0 0 0 1 0 0 0 0.5 -0.866 0 0.866 0.5 40386 - Batman.ldr
 
 
+0 STEP
 0 FILE 40386 - Stand.ldr
 0 A small support stand built from cylinders, hinges, and technic axles.
 0 Name: 40386 - Stand.ldr
@@ -32,6 +33,7 @@
 1 15 -30 0 230 -1 0 0 0 1 0 0 0 -1 30553.dat
 
 
+0 STEP
 0 FILE 40386 - Batman.ldr
 0 A large mosaic-style Batman figure made from white, yellow, blue, and black plates, tiles, and wings.
 0 Name: 40386 - Batman.ldr

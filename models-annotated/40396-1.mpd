@@ -115,6 +115,7 @@
 1 5 -0.00002 -62.00006 -16.00002 0.707107 0 0.707107 0.707107 0 -0.707107 0 1 0 39613.dat
 0 ROTSTEP 0 0 0 REL
 
+0 STEP
 0 FILE 40396 - a.ldr
 0 A small white curved assembly combining a 2x2 plate, a grooved center-stud plate, a curved slope, and a round grooved tile, forming a rounded head or muzzle detail.
 0 Name: 40396 - a.ldr
@@ -132,6 +133,7 @@
 0 // Tile  1 x  1 Round with Groove (black)
 1 0 0 -24 10 1 0 0 0 1 0 0 0 1 98138.dat
 
+0 STEP
 0 FILE 40396 - bb.ldr
 0 A simple white sub-assembly made of a 1x2 plate and a curved slope brick, forming a small curved body or limb segment.
 0 Name: 40396 - bb.ldr
@@ -145,6 +147,7 @@
 0 // Slope Brick Curved  2 x  2 x  0.667 (white)
 1 15 0 0 0 1 0 0 0 1 0 0 0 1 15068.dat
 
+0 STEP
 0 FILE 40396 - empty.dat
 0 An empty placeholder submodel containing no pieces.
 0 Name: 40396 - empty.dat

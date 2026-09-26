@@ -11,6 +11,7 @@
 1 0 440 -20 -40 0.707107 0 0.707107 0 1 0 -0.707107 0 0.707107 6953 - Vehicle.ldr
 
 
+0 STEP
 0 FILE 6953 - Vehicle.ldr
 0 An articulated multi-section transport vehicle composed of a front cockpit module and a rear cargo section, both equipped with wheeled chassis.
 0 Name: 6953 - Vehicle.ldr
@@ -24,6 +25,7 @@
 1 0 0 -8 60 0.92388 0 -0.382683 0 1 0 0.382683 0 0.92388 6953 - Vehicle - Back.ldr
 
 
+0 STEP
 0 FILE 6953 - Vehicle - Front.ldr
 0 A two-wheeled front cockpit module with a hinged articulation joint, built on white plates with a trans-red dish detail.
 0 Name: 6953 - Vehicle - Front.ldr
@@ -51,6 +53,7 @@
 0 // Tyre  6/ 50 x  8 Offset Tread (rubber_black)
 1 256 -30 6 0 0 0 1 0 1 0 -1 0 0 3641.dat
 
+0 STEP
 0 FILE 6953 - Vehicle - Front - Command.ldr
 0 A small control console for the front vehicle section featuring a patterned button tile and a console tile.
 0 Name: 6953 - Vehicle - Front - Command.ldr
@@ -66,6 +69,7 @@
 1 15 0 -39.71 -8.266 0 0 1 0.372567 0.928005 0 -0.928005 0.372567 0 3070bp06.dat
 
 
+0 STEP
 0 FILE 6953 - Vehicle - Front + Minifig.ldr
 0 The front vehicle cockpit module fitted with a pilot minifigure and its command console.
 0 Name: 6953 - Vehicle - Front + Minifig.ldr
@@ -79,6 +83,7 @@
 1 0 0 -69 8 1 0 0 0 1 0 0 0 1 6953 - Minifig 1.ldr
 
 
+0 STEP
 0 FILE 6953 - Vehicle - Back.ldr
 0 A four-wheeled rear vehicle section with a large base plate, sloped panels, and a male hinge joint connecting to the front module.
 0 Name: 6953 - Vehicle - Back.ldr
@@ -124,6 +129,7 @@
 1 15 50 -40 110 -1 0 0 0 1 0 0 0 -1 3005.dat
 
 
+0 STEP
 0 FILE 6953 - Base.ldr
 0 A large 32x32 baseplate foundation with inclined stanchions, roof windows, grilled bricks, and sloped panels forming the launch complex structure.
 0 Name: 6953 - Base.ldr
@@ -269,6 +275,7 @@
 1 15 0 -272 -160 0 0 -1 0 1 0 1 0 0 3068bp07.dat
 
 
+0 STEP
 0 FILE 6953 - Base - Command 1.ldr
 0 A rotating control station on a turntable featuring a button-and-lamp control panel slope and a control stick.
 0 Name: 6953 - Base - Command 1.ldr
@@ -290,6 +297,7 @@
 1 0 -10 -56 10 1 0 0 0 0.92388 -0.382683 0 0.382683 0.92388 4593.dat
 
 
+0 STEP
 0 FILE 6953 - Base - Command 2.ldr
 0 A rotating control station on a turntable featuring a button-and-lamp control panel slope and a control stick.
 0 Name: 6953 - Base - Command 2.ldr
@@ -311,6 +319,7 @@
 1 0 10 -56 10 1 0 0 0 0.92388 -0.382683 0 0.382683 0.92388 4593.dat
 
 
+0 STEP
 0 FILE 6953 - Base - Structure.ldr
 0 The structural framework of the base, composed of multiple sub-sections including support plates, a turntable assembly, and hinged side panels with Futuron-patterned detailing.
 0 Name: 6953 - Base - Structure.ldr
@@ -326,6 +335,7 @@
 1 0 -76 -312.538 -164.128 0 1 0 0.766044 0 0.642788 0.642788 0 -0.766044 6953 - Base - Structure - 2.ldr
 1 0 -32 -189.971 61.282 1 0 0 0 1 0 0 0 1 6953 - Base - Structure - 1 + Rocket.ldr
 
+0 STEP
 0 FILE 6953 - Base - Structure - 1.ldr
 0 A structural support frame built from white plates with a gear rack, rounded corner bricks, and turntable tops forming the central base assembly.
 0 Name: 6953 - Base - Structure - 1.ldr
@@ -380,6 +390,7 @@
 0 // Turntable  2 x  2 Plate Top (light_grey)
 1 7 -52 0 0 0 1 0 0 0 -1 -1 0 0 3679.dat
 
+0 STEP
 0 FILE 6953 - Base - Structure - 1 + Rocket.ldr
 0 The central base structure with the rocket mounted on its turntable-supported launch platform.
 0 Name: 6953 - Base - Structure - 1 + Rocket.ldr
@@ -392,6 +403,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 6953 - Base - Structure - 1.ldr
 1 0 20 140 -60 0 0 -1 0 1 0 1 0 0 6953 - Base - Rocket.ldr
 
+0 STEP
 0 FILE 6953 - Base - Structure - 2.ldr
 0 A long plate with a turntable base and top providing a rotating mounting point within the base structure.
 0 Name: 6953 - Base - Structure - 2.ldr
@@ -408,6 +420,7 @@
 0 // Turntable  2 x  2 Plate Base (black)
 1 0 160 -8 0 1 0 0 0 1 0 0 0 1 3680.dat
 
+0 STEP
 0 FILE 6953 - Base - Structure - 3.ldr
 0 A hinged side panel with a large Futuron-patterned trans-dark-blue panel, antennas, and trans-red accents that can pivot outward.
 0 Name: 6953 - Base - Structure - 3.ldr
@@ -450,6 +463,7 @@
 0 // Dish  2 x  2 Inverted (trans_red)
 1 36 36 -304 -160 0 1 0 0 0 1 1 0 0 4740.dat
 
+0 STEP
 0 FILE 6953 - Base - Structure - 4.ldr
 0 A hinged side panel with a large Futuron-patterned trans-dark-blue panel, antennas, and trans-red accents that can pivot outward.
 0 Name: 6953 - Base - Structure - 4.ldr
@@ -492,6 +506,7 @@
 0 // Dish  2 x  2 Inverted (trans_red)
 1 36 36 -304 160 0 1 0 0 0 1 1 0 0 4740.dat
 
+0 STEP
 0 FILE 6953 - Base - Rocket.ldr
 0 A tall space rocket with conical nose cones, panel body sections, finned details, trans-red accents, and hinged mounting points for deployable wings and a door.
 0 Name: 6953 - Base - Rocket.ldr
@@ -549,6 +564,7 @@
 1 0 56 -94 -10 0.984808 -0.173648 0 0 0 -1 0.173648 0.984808 0 6953 - Base - Rocket - Wing 1.ldr
 1 0 -56 -94 -10 0.984808 0.173648 0 0 0 -1 -0.173648 0.984808 0 6953 - Base - Rocket - Wing 2.ldr
 
+0 STEP
 0 FILE 6953 - Base - Rocket - Door.ldr
 0 A hinged sunroof-style door panel with a trans-dark-blue window and a yellow arrow pattern tile.
 0 Name: 6953 - Base - Rocket - Door.ldr
@@ -568,6 +584,7 @@
 1 33 0 0 -19 -1 0 0 0 1 0 0 0 -1 2348a.dat
 
 
+0 STEP
 0 FILE 6953 - Base - Rocket - Wing 1.ldr
 0 A deployable trans-dark-blue wing panel attached via a hinged plate to the rocket body.
 0 Name: 6953 - Base - Rocket - Wing 1.ldr
@@ -583,6 +600,7 @@
 1 33 40 -12 -10 0 0 -1 0 1 0 1 0 0 2419.dat
 
 
+0 STEP
 0 FILE 6953 - Base - Rocket - Wing 2.ldr
 0 A deployable trans-dark-blue wing panel attached via a hinged plate to the rocket body.
 0 Name: 6953 - Base - Rocket - Wing 2.ldr
@@ -598,6 +616,7 @@
 1 33 -40 -12 -10 0 0 1 0 1 0 -1 0 0 2419.dat
 
 
+0 STEP
 0 FILE 6953 - Base + Minifigs.ldr
 0 The complete launch base with the structural frame, rocket, command stations, and astronaut minifigures assembled together.
 0 Name: 6953 - Base + Minifigs.ldr
@@ -612,6 +631,7 @@
 1 0 -110 -232 140 0 0 -1 0 1 0 1 0 0 6953 - Minifig 3.ldr
 
 
+0 STEP
 0 FILE 6953 - Minifig 1.ldr
 0 A red Futuron astronaut minifigure with airtanks, a standard grin, and a red torso with the Futuron pattern.
 0 Name: 6953 - Minifig 1.ldr
@@ -644,6 +664,7 @@
 1 4 0 44 0 1 0 0 0 0 1 0 -1 0 3817.dat
 
 
+0 STEP
 0 FILE 6953 - Minifig 1 - Helmet.ldr
 0 A red standard space helmet with a trans-dark-blue visor for an astronaut minifigure.
 0 Name: 6953 - Minifig 1 - Helmet.ldr
@@ -659,6 +680,7 @@
 1 33 0 0 0 1 0 0 0 1 0 0 0 1 2447.dat
 
 
+0 STEP
 0 FILE 6953 - Minifig 2.ldr
 0 A yellow Futuron astronaut minifigure with airtanks, a yellow torso with the Futuron pattern, and a handheld radio.
 0 Name: 6953 - Minifig 2.ldr
@@ -693,6 +715,7 @@
 1 14 0 44 0 1 0 0 0 1 0 0 0 1 3817.dat
 
 
+0 STEP
 0 FILE 6953 - Minifig 2 - Helmet.ldr
 0 A yellow standard space helmet with a trans-dark-blue visor for an astronaut minifigure.
 0 Name: 6953 - Minifig 2 - Helmet.ldr
@@ -708,6 +731,7 @@
 1 33 0 1.904 4.596 1 0 0 0 0.707107 0.707107 0 -0.707107 0.707107 2447.dat
 
 
+0 STEP
 0 FILE 6953 - Minifig 3.ldr
 0 A red Futuron astronaut minifigure with airtanks, a red torso with the Futuron pattern, and a handheld spanner and screwdriver tool.
 0 Name: 6953 - Minifig 3.ldr
@@ -742,6 +766,7 @@
 1 4 0 44 0 1 0 0 0 1 0 0 0 1 3817.dat
 
 
+0 STEP
 0 FILE 6953 - Minifig 3 - Helmet.ldr
 0 A red standard minifig helmet with a translucent dark blue visor.
 0 Name: 6953 - Minifig 3 - Helmet.ldr

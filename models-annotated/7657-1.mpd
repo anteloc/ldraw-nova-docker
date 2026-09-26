@@ -142,6 +142,7 @@
 
 
 
+0 STEP
 0 FILE 7657 - AT-ST - subModel-1.ldr
 0 Articulated leg section built from a 2x6 plate, hinge plates, a sloped brick, and a technic brick with hole.
 0 Name: 7657 - AT-ST - subModel-1.ldr
@@ -164,6 +165,7 @@
 1 72 50 -24 -40 0 0 -1 0 1 0 1 0 0 3700.dat
 
 
+0 STEP
 0 FILE 7657 - AT-ST - subModel-2.ldr
 0 Articulated leg section mirroring subModel-1, using a 2x6 plate, hinge plates, a slope brick, and a technic brick with hole.
 0 Name: 7657 - AT-ST - subModel-2.ldr
@@ -186,6 +188,7 @@
 1 72 -10 -24 -40 0 0 -1 0 1 0 1 0 0 3700.dat
 
 
+0 STEP
 0 FILE 7657 - AT-ST - subModel-3.ldr
 0 Rotating joint assembly using a turntable, round brick with holes, and a bevel gear on a technic axle.
 0 Name: 7657 - AT-ST - subModel-3.ldr
@@ -204,6 +207,7 @@
 1 71 0 27 0 0 -1 0 0 0 1 -1 0 0 6589.dat
 
 
+0 STEP
 0 FILE 7657 - AT-ST - subModel-4.ldr
 0 Detailed cockpit or body section with grille bricks, side-stud bricks, a minifig seat, brackets, and technic pin connections.
 0 Name: 7657 - AT-ST - subModel-4.ldr
@@ -393,6 +397,7 @@
 
 
 
+0 STEP
 0 FILE 7657 - AT-ST - subModel-5.ldr
 0 Flat plate assembly with handle plates forming a small access panel or hatch cover.
 0 Name: 7657 - AT-ST - subModel-5.ldr
@@ -413,6 +418,7 @@
 1 71 -40 8 -10 1 0 0 0 1 0 0 0 1 2540.dat
 
 
+0 STEP
 0 FILE 7657 - AT-ST - subModel-6.ldr
 0 Weapon assembly with inverted dishes, a pneumatic T-piece, binoculars, and a round axle plate forming a gun or sensor mount.
 0 Name: 7657 - AT-ST - subModel-6.ldr
@@ -435,6 +441,7 @@
 1 72 -10 -35 0 0 -1 0 0 0 1 -1 0 0 30258.dat
 
 
+0 STEP
 0 FILE 7657 - AT-ST - subModel-7.ldr
 0 Weapon or sensor pod built from inverted dishes, a pneumatic T-piece, and round hollow-stud bricks on an axle plate.
 0 Name: 7657 - AT-ST - subModel-7.ldr
@@ -459,6 +466,7 @@
 1 71 -32 -35 0 0 -1 0 0 0 -1 1 0 0 6141.dat
 
 
+0 STEP
 0 FILE 7657 - AT-ST - subModel-8.ldr
 0 Sloped armor panel assembly using plates, inverted dishes, a pneumatic T-piece, and 75-degree slope bricks.
 0 Name: 7657 - AT-ST - subModel-8.ldr
@@ -498,6 +506,7 @@
 1 71 -30 -80 -10 1 0 0 0 1 0 0 0 1 4460b.dat
 
 
+0 STEP
 0 FILE 7657 - AT-ST - subModel-9.ldr
 0 Small joint or hinge mechanism with headlight bricks, round hollow-stud bricks, and lightsaber hilt pieces.
 0 Name: 7657 - AT-ST - subModel-9.ldr
@@ -524,6 +533,7 @@
 1 71 10 76.649 17.859 -1 0 0 0 -0.966 -0.259 0 -0.259 0.966 577b.dat
 
 
+0 STEP
 0 FILE 7657 - AT-ST - subModel-10.ldr
 0 Large side armor or leg cover panel with locking hinge plates, grille tiles, door rail plates, and an inverted dish.
 0 Name: 7657 - AT-ST - subModel-10.ldr
@@ -580,6 +590,7 @@
 1 72 40 -14 70 0 -1 0 1 0 0 0 0 1 43898.dat
 
 
+0 STEP
 0 FILE 7657 - AT-ST - subModel-11.ldr
 0 Foot or ankle assembly using a curved wedge, car mudguard, and locking hinge plates on a 2x6 base plate.
 0 Name: 7657 - AT-ST - subModel-11.ldr
@@ -610,6 +621,7 @@
 1 72 0 -27.758 -61.543 0 0 1 0.383 0.924 0 -0.924 0.383 0 50947.dat
 
 
+0 STEP
 0 FILE 7657 - AT-ST - subModel-12.ldr
 0 Small foot or toe segment with a car mudguard attached via locking hinge plates and a plate.
 0 Name: 7657 - AT-ST - subModel-12.ldr
@@ -628,6 +640,7 @@
 1 72 0 12 60 0 0 -1 0 -1 0 -1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 7657 - AT-ST - subModel-13.ldr
 0 Large side armor or leg cover panel mirroring subModel-10, with locking hinge plates, grille tiles, door rail plates, and an inverted dish.
 0 Name: 7657 - AT-ST - subModel-13.ldr
@@ -684,6 +697,7 @@
 1 72 -40 -14 70 0 1 0 -1 0 0 0 0 1 43898.dat
 
 
+0 STEP
 0 FILE 7657 - AT-ST - subModel-14.ldr
 0 Foot or ankle assembly mirroring subModel-11, using a curved wedge, car mudguard, and locking hinge plates on a 2x6 base plate.
 0 Name: 7657 - AT-ST - subModel-14.ldr
@@ -714,6 +728,7 @@
 1 72 0 -27.682 -61.926 0 0 1 0.383 0.924 0 -0.924 0.383 0 50947.dat
 
 
+0 STEP
 0 FILE 7657 - AT-ST - 973prr.dat
 0 Decorated minifig torso represented by a single black cylinder primitive.
 0 Name: 7657 - AT-ST - 973prr.dat
@@ -1276,6 +1291,7 @@
 
 
 
+0 STEP
 0 FILE 7657 - AT-ST - 3626bpsa.dat
 0 Printed minifig head part with no direct primitive pieces listed.
 0 Name: 7657 - AT-ST - 3626bpsa.dat
@@ -1638,6 +1654,7 @@
 
 
 
+0 STEP
 0 FILE s\7657 - AT-ST - 30237s01.dat
 0 Geometric subpart composed of cylinders, discs, and rectangles forming a curved or rounded shape component.
 0 Name: s\7657 - AT-ST - 30237s01.dat

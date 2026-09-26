@@ -11,6 +11,7 @@
 
 
 
+0 STEP
 0 FILE 4778 - Airplane.ldr
 0 A small yellow airplane built from wedge plates, inverted slopes, technic axles, and a minifig seat.
 0 Name: 4778 - Airplane.ldr 
@@ -220,6 +221,7 @@
 
 
 
+0 STEP
 0 FILE 4778 - Minifig.ldr
 0 A pilot minifigure with a black torso, aviator cap, and goggles.
 0 Name: 4778 - Minifig.ldr 
@@ -247,6 +249,7 @@
 
 
 
+0 STEP
 0 FILE 4778 - Wheel.ldr
 0 A single landing wheel assembly consisting of a dark bluish grey rim and a black offset tread tyre.
 0 Name: 4778 - Wheel.ldr 
@@ -260,6 +263,7 @@
 
 
 
+0 STEP
 0 FILE 4778 - 44571.dat
 0 A geometric primitive model defining a 45-degree 4x4 double slope brick with a locking hinge.
 0 Name: 4778 - 44571.dat 
@@ -313,6 +317,7 @@
 
 
 
+0 STEP
 0 FILE 4778 - 44571s01.dat
 0 A geometric primitive subpart representing one half of a 45-degree 4x4 double slope brick with a locking hinge.
 0 Name: 4778 - 44571s01.dat

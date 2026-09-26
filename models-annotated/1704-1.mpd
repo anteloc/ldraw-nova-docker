@@ -11,6 +11,7 @@
 1 0 0 -61 8 1 0 0 0 1 0 0 0 1 1704 - Minifig.ldr
 
 
+0 STEP
 0 FILE 1704 - Vehicle.ldr
 0 A six-wheeled tracked vehicle built on plates with a sloped control panel displaying the Ice Planet logo and an arrow-patterned directional tile.
 0 Name: 1704 - Vehicle.ldr
@@ -69,6 +70,7 @@
 1 0 0 -4 -90 -1 0 0 0 -0.309 -0.9511 0 -0.9511 0.309 1704 - Vehicle - Blade.ldr
 
 
+0 STEP
 0 FILE 1704 - Vehicle - Blade.ldr
 0 A hinged mounting assembly that connects the plow blade to the vehicle via hinge plates.
 0 Name: 1704 - Vehicle - Blade.ldr
@@ -84,6 +86,7 @@
 1 1 0 4 -30 0 0 -1 0 1 0 1 0 0 3938.dat
 1 0 0 14 -30 -0.9962 0.0872 0 -0.0872 -0.9962 0 0 0 1 1704 - Vehicle - Blade - Blade.ldr
 
+0 STEP
 0 FILE 1704 - Vehicle - Blade - Blade.ldr
 0 A large patterned panel forming the snow-plow blade surface with the Ice Planet logo.
 0 Name: 1704 - Vehicle - Blade - Blade.ldr
@@ -97,6 +100,7 @@
 1 1 0 -10 0 1 0 0 0 1 0 0 0 1 2440p67.dat
 
 
+0 STEP
 0 FILE 1704 - Container.ldr
 0 A blue equipment container with a control slope panel, neon-orange skis, a loudhailer, and a chainsaw accessory mounted on a hinged bracket.
 0 Name: 1704 - Container.ldr
@@ -133,6 +137,7 @@
 1 38 30 -12 -2 -1 0 0 0 0 -1 0 -1 0 6117.dat
 
 
+0 STEP
 0 FILE 1704 - Container - Radar.ldr
 0 A radar assembly made of an inverted dish topped with a neon-orange cone, mounted on a hinged tile for positioning.
 0 Name: 1704 - Container - Radar.ldr
@@ -150,6 +155,7 @@
 1 38 0 28 40 0 0 1 0 1 0 -1 0 0 4589.dat
 
 
+0 STEP
 0 FILE 1704 - Vehicle + Container.ldr
 0 An assembly combining the tracked vehicle with the mounted equipment container as a single unit.
 0 Name: 1704 - Vehicle + Container.ldr
@@ -163,6 +169,7 @@
 1 0 0 -24 82 1 0 0 0 1 0 0 0 1 1704 - Container.ldr
 
 
+0 STEP
 0 FILE 1704 - Minifig.ldr
 0 An Ice Planet astronaut minifigure with a black torso featuring gold Ice Planet detailing, white arms with air tanks, blue hips, and a patterned moustached head.
 0 Name: 1704 - Minifig.ldr
@@ -195,6 +202,7 @@
 1 0 0 44 0 1 0 0 0 0 1 0 -1 0 3817.dat
 
 
+0 STEP
 0 FILE 1704 - Minifig - Helmet.ldr
 0 A white space helmet paired with a neon-orange shielded visor featuring an antenna.
 0 Name: 1704 - Minifig - Helmet.ldr

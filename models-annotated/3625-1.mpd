@@ -20,6 +20,7 @@
 1 14 30 -38 -80 1 0 0 0 1 0 0 0 1 3625 - 4466.dat
 0 // Exhaust Pipe Twin Inlet 11L Right (yellow)
 1 14 -30 -38 -80 1 0 0 0 1 0 0 0 1 3625 - 4467.dat
+0 STEP
 0 FILE 3625 - sandyseagull.ldr
 0 An empty submodel containing no direct pieces.
 0 Author: Philippe Hurbain [Philo]
@@ -31,6 +32,7 @@
 1 14 -10 -37 4 1 0 0 0 0 1 0 -1 0 u9100.dat
 1 14 10 -37 4 1 0 0 0 0 1 0 -1 0 u9100.dat
 1 4 0 -37 4 1 0 0 0 1 0 0 0 1 u9103.dat
+0 STEP
 0 FILE 3625 - 4463.dat
 0 A curved-top window element composed of boxes, discs, cylinders, and rectangular faces.
 0 Name: 4463.dat
@@ -140,6 +142,7 @@
 1 16 10 30 10 0 0 22.5 -22.5 0 0 0 1 0 48\1-4edge.dat
 1 16 10 30 -5.1538 0 0 30 -30 0.137152 0 4.15381 0.99055 0 48\1-4edge.dat
 1 16 10 30 -5.1538 0 0 22.5 -22.5 0.137152 0 3.11535 0.99055 0 48\1-4edge.dat
+0 STEP
 0 FILE 3625 - 4466.dat
 0 A left-side twin-inlet exhaust pipe built from cylinders, cones, rings, and manifold port primitives.
 0 Name: 4466.dat
@@ -1502,6 +1505,7 @@
 5 24 8 -2.381 11.913 8 -3.4646 13.5351 11.114 -1.86 12.483 3.5355 -3.4645 13.5355
 5 24 8 -5.0867 14.6189 8 -3.4646 13.5351 10.474 -2.988 14.028 3.5355 -3.4645 13.5355
 5 24 11.827 -11.579 10.761 11.114 -11.01 12.483 8 -11.6188 11.9134 15.071 -10.381 12.929
+0 STEP
 0 FILE 3625 - 4467.dat
 0 A right-side twin-inlet exhaust pipe formed as a mirrored instance of the left exhaust pipe.
 0 Name: 4467.dat

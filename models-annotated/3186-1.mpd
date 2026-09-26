@@ -17,6 +17,7 @@
 
 
 
+0 STEP
 0 FILE 3186 - Emma.ldr
 0 The Emma Friends minifigure with white-trousered legs, a lavender vest torso, ponytailed hair with helmet and an azure bow, holding a brush.
 0 Name: 3186 - Emma.ldr
@@ -48,6 +49,7 @@
 
 
 
+0 STEP
 0 FILE 3186 - Horse.ldr
 0 A white Friends horse decorated with a prize number-one ribbon and an azure bow, standing on a small curved-top display base.
 0 Name: 3186 - Horse.ldr
@@ -72,6 +74,7 @@
 
 
 
+0 STEP
 0 FILE 3186 - Hurdle.ldr
 0 A lime and white show-jumping hurdle with yellow grille uprights built from stacked grille tiles and bricks.
 0 Name: 3186 - Hurdle.ldr
@@ -115,6 +118,7 @@
 
 
 
+0 STEP
 0 FILE 3186 - Pickup Truck.ldr
 0 A dark red and yellow pickup truck with four mudguards, black wheel plates, yellow grille detailing, and a steering stand.
 0 Name: 3186 - Pickup Truck.ldr
@@ -282,6 +286,7 @@
 
 
 
+0 STEP
 0 FILE 3186 - Truck Front Grille.ldr
 0 The dark red front end of the truck featuring yellow grille tiles, headlight slopes, and a '3186 BSS' license plate.
 0 Name: 3186 - Truck Front Grille.ldr
@@ -326,6 +331,7 @@
 
 
 
+0 STEP
 0 FILE 3186 - Trailer.ldr
 0 A pink and white horse trailer with red taillights, a towball hitch, dark red detailing, and round corner panels.
 0 Name: 3186 - Trailer.ldr
@@ -448,6 +454,7 @@
 
 
 
+0 STEP
 0 FILE 3186 - Trailer Door.ldr
 0 A bright pink rear trailer door with red lights, yellow tiled panels, handles, and a horseshoe 'Robin' sticker.
 0 Name: 3186 - Trailer Door.ldr
@@ -490,6 +497,7 @@
 
 
 
+0 STEP
 0 FILE 3186 - Stand.ldr
 0 A green and tan prize/tack stand with brick-built steps, a treasure chest of apples and carrots, and a horse saddle and bridle.
 0 Name: 3186 - Stand.ldr
@@ -573,6 +581,7 @@
 
 
 
+0 STEP
 0 FILE 3186 - 94717.dat
 0 A small mechanical part submodel composed of a pin, cylinder, and body primitives.
 0 Name: 3186 - 94717.dat
@@ -626,6 +635,7 @@
 5 24 0 -8.907 4.687 0 -8.492 4.774 -0.523 -8.561 4.754 0.523 -8.561 4.754
 5 24 0 -8.492 4.774 0 -5.5 4.775 -2.52 -5.5 4.259 2.52 -5.5 4.259
 
+0 STEP
 0 FILE 3186 - 94720.dat
 0 A geometric primitive submodel forming a closed circular disc assembly.
 0 Name: 3186 - 94720.dat
@@ -653,6 +663,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 -1 s\3186 - 94720s01.dat
 1 16 0 0 0 -1 0 0 0 1 0 0 0 -1 s\3186 - 94720s01.dat
 
+0 STEP
 0 FILE 3186 - 93085p02.dat
 0 A patterned horse body part submodel combining the left and right halves of a Friends horse with light blue eyes.
 0 Name: 3186 - 93085p02.dat
@@ -670,6 +681,7 @@
 0 // ~Animal Horse Friends Left with Light Blue Eyes Pattern (main_colour)
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 3186 - 93084p02.dat
 
+0 STEP
 0 FILE 3186 - 94718.dat
 0 A geometric primitive submodel with cylinders and rectangles forming a shaped mechanical detail.
 0 Name: 3186 - 94718.dat
@@ -1593,6 +1605,7 @@
 5 24 9.99 -5.587 -10.069 9.251 -5.547 -12.717 10.495 -5.229 -12.516 9.337 -5.664 -10.254
 5 24 -10.6 5.347 -9.873 -10.764 6.043 -5.5 -10.547 5.986 -9.977 -10.858 5.489 -5.5
 
+0 STEP
 0 FILE 3186 - 52031d03.dat
 0 A curved slope brick with an applied horseshoe-and-flower sticker.
 0 Name: 3186 - 52031d03.dat
@@ -1607,6 +1620,7 @@
 0 // Sticker  2.6 x  3.8 with Horseshoe and Flower (Formed) (main_colour)
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 3186 - 4620857fc01.dat
 
+0 STEP
 0 FILE 3186 - 4620857d.dat
 0 A decorative sticker detail submodel built from geometric lavender and yellow discs and rings.
 0 Name: 3186 - 4620857d.dat
@@ -2072,6 +2086,7 @@
 3 14 -12.71 -0.25 -2.4 -12.99 -0.25 -2.79 -11.33 -0.25 -2.98
 3 14 -12.99 -0.25 -2.79 -13.43 -0.25 -3.03 -11.33 -0.25 -2.98
 
+0 STEP
 0 FILE 3186 - 94723.dat
 0 A simple geometric primitive submodel consisting of a single outside surface.
 0 Name: 3186 - 94723.dat
@@ -2093,6 +2108,7 @@
 1 16 0 6.223 0 1 0 0 0 -1 0 0 0 1 s\3186 - 94723s01.dat
 1 16 0 6.223 0 -1 0 0 0 -1 0 0 0 1 s\3186 - 94723s01.dat
 
+0 STEP
 0 FILE 3186 - 94724.dat
 0 A geometric primitive submodel composed of various rectangles forming a flat shape.
 0 Name: 3186 - 94724.dat
@@ -2180,6 +2196,7 @@
 5 24 -4.613 -26.705 0 -6.427 -24.978001 0 -6.277 -24.978001 -1.044 -6.277 -24.978001 1.044
 5 24 -4.009 -28.274 0 -4.613 -26.705 0 -4.177 -26.698 -1.747 -4.177 -26.698 1.747
 
+0 STEP
 0 FILE 3186 - 85984d04.dat
 0 A small slope brick bearing a dark red heart and '3186 BSS' license plate sticker.
 0 Name: 3186 - 85984d04.dat
@@ -2194,6 +2211,7 @@
 0 // Sticker  0.9 x  1.9 with Dark Red Heart and "3186 BSS" License Plate (main_colour)
 1 16 0 -10 0 1 0 0 0 0.857491 -0.514499 0 0.514499 0.857491 3186 - 4620857d.dat
 
+0 STEP
 0 FILE 3186 - 6059d01.dat
 0 A rounded corner panel with an applied bright pink window sticker.
 0 Name: 3186 - 6059d01.dat
@@ -2208,6 +2226,7 @@
 0 // Sticker  1.3 x  2.6 Rounded Rectangle with Bright Pink Window (Formed) (main_colour)
 1 16 0 72 0 1 0 0 0 1 0 0 0 1 3186 - 4620857gc01.dat
 
+0 STEP
 0 FILE 3186 - 4620857b.dat
 0 A sticker sheet part depicting a white horse with flower and butterflies for the right trailer side.
 0 Name: 3186 - 4620857b.dat
@@ -2222,6 +2241,7 @@
 0 // Sticker  5.1 x  3.6 with White Horse, Flower and Butterflies - Right (main_colour)
 1 16 0 0 0 -1 0 0 0 1 0 0 0 1 3186 - 4620857a.dat
 
+0 STEP
 0 FILE 3186 - 4620857a.dat
 0 A decorative sticker detail submodel composed of white, pink, azure, and lavender discs forming a pattern.
 0 Name: 3186 - 4620857a.dat
@@ -3493,6 +3513,7 @@
 5 24 10.5 -0.25 -40.799999 10.5 0 -40.799999 11 -0.25 -39.5 9.1 -0.25 -42.099998
 5 24 9.1 -0.25 -42.099998 9.1 0 -42.099998 10.5 -0.25 -40.799999 6.9 -0.25 -42.599998
 
+0 STEP
 0 FILE 3186 - 4620857c.dat
 0 An empty referenced sticker or pattern submodel with no direct pieces.
 0 Name: 3186 - 4620857c.dat
@@ -3508,6 +3529,7 @@
 1 320 0 0 0 1 0 0 0 1 0 0 0 1 s\3186 - 4650854is02.dat
 1 29 0 0 0 1 0 0 0 1 0 0 0 1 s\3186 - 4650854is03.dat
 
+0 STEP
 0 FILE 3186 - 4620857e.dat
 0 An empty referenced sticker or pattern submodel with no direct pieces.
 0 Name: 3186 - 4620857e.dat
@@ -4176,6 +4198,7 @@
 5 24 38 -0.25 23 38 0 23 38 -0.25 25 36 -0.25 17
 5 24 38 -0.25 25 38 0 25 38 -0.25 23 37.700001 -0.25 25.700001
 
+0 STEP
 0 FILE 3186 - 93086.dat
 0 A geometric primitive submodel forming a small box with circular and cylindrical detail.
 0 Name: 3186 - 93086.dat
@@ -4228,6 +4251,7 @@
 3 16 -10 -40.799999 20 10 -40.799999 20 0 -40.799999 24
 2 24 10 -40.799999 20 -10 -40.799999 20
 
+0 STEP
 0 FILE 3186 - 93087.dat
 0 A horse bridle submodel consisting of the headpiece and reins.
 0 Name: 3186 - 93087.dat
@@ -4245,6 +4269,7 @@
 0 // Animal Horse Friends Bridle Reins (main_colour)
 1 16 0 0 11 1 0 0 0 1 0 0 0 1 3186 - 93087k02.dat
 
+0 STEP
 0 FILE s\3186 - 93086s01.dat
 0 A small geometric submodel composed of rectangles, partial cylinders, and chord segments forming a partial cylindrical shape.
 0 Name: s\3186 - 93086s01.dat
@@ -4809,6 +4834,7 @@
 5 24 15.801 -28.5875 18.9965 24.101 -28.597 18.997 18.200001 -25.587999 15.593 13.802 -30.386999 20
 5 24 14.933 -29.134001 23.806999 15.801 -28.5875 18.9965 13.802 -30.386999 20 18.444 -24.743 23.806999
 
+0 STEP
 0 FILE 3186 - 93087k01.dat
 0 An empty submodel shell that references a lower-level detail part without its own geometry.
 0 Name: 3186 - 93087k01.dat
@@ -4824,6 +4850,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\3186 - 93087k01s01.dat
 1 16 0 0 0 -1 0 0 0 1 0 0 0 1 s\3186 - 93087k01s01.dat
 
+0 STEP
 0 FILE s\3186 - 93087k01s01.dat
 0 A detailed compound part combining cylinders, rings, spheres, discs, and chords into a rounded knob-like shape.
 0 Name: s\3186 - 93087k01s01.dat
@@ -5246,6 +5273,7 @@
 5 24 0 -46.314499 0.8494 0 -46.632702 -0.25 -7.5339 -45.297199 0.8494 7.6186 -45.605499 -0.25
 5 24 0 -45.6325 -2.2661 0 -42.970299 -2.7 6.644 -42.0574 -2.7 -7.3525 -44.636501 -2.2661
 
+0 STEP
 0 FILE 3186 - 93087k02.dat
 0 A small symmetric part built from cones and hemispheres forming a pointed rounded element.
 0 Name: 3186 - 93087k02.dat
@@ -5287,6 +5315,7 @@
 5 24 -17.3361 0.7654 1.1406 -17.4767 0 1.0824 -29.5641 0 32.876999 -17.043301 0 0.4335
 5 24 -17.4767 0 1.0824 -17.3361 -0.7654 1.1406 -29.2829 -1.5308 32.9935 -17.043301 0 0.4335
 
+0 STEP
 0 FILE 3186 - t16i1429.dat
 0 A torus segment primitive composed of a major/minor radius tube swept over a 1/16 arc with conditional edge lines.
 0 Name: 3186 - t16i1429.dat
@@ -5322,6 +5351,7 @@
 5 24 0.8734 0.132 0.3618 0.9239 0.1429 0.3827 0.7236 0.132 0.7236 0.9453 0.132 0
 0 // Build by Primitive Generator 2
 
+0 STEP
 0 FILE 3186 - 4620857fc01.dat
 0 An empty submodel shell that references a lower-level detail part without its own geometry.
 0 Name: 3186 - 4620857fc01.dat
@@ -6494,6 +6524,7 @@
 5 24 -22.9 1.79 -44.937199 -22.9 1.54 -44.937199 -23 0.75 -40 -22 2.4219 -48.887001
 5 24 37.700001 -0.25 -14.3499 37.700001 0 -14.3499 37 0 -14.0499 38 -0.25 -15.0499
 
+0 STEP
 0 FILE s\3186 - 94717s01.dat
 0 An empty submodel shell that references a lower-level detail part without its own geometry.
 0 Name: s\3186 - 94717s01.dat
@@ -6846,6 +6877,7 @@
 5 24 1.613 -9.222 -5.633 0 -8.907 -5.812 0.523 -8.561 -5.879 0 -10.191 -4.841
 5 24 14.976 -9.005 1.341 15.364 -9.005 -1.277 14.198 -12.326 0.388 14.687 -5.5 0.401
 
+0 STEP
 0 FILE s\3186 - 94723s01.dat
 0 A rectangular box-like submodel composed of half cylinders and rectangular panels defining an enclosed outside surface.
 0 Name: s\3186 - 94723s01.dat
@@ -7105,6 +7137,7 @@
 5 24 14.369 4.665 -4.005 12.955 3.251 -3.469 11.942 3.829 -3.469 15.517 3.094 -4.005
 5 24 19.212 4.624 0 19.695601 1.213 1.5308 20 1.213 0 18.716999 4.419 2.005
 
+0 STEP
 0 FILE s\3186 - 94724s01.dat
 0 A flat rectangular panel submodel formed entirely of parallel-edged rectangles defining an outer surface.
 0 Name: s\3186 - 94724s01.dat
@@ -7520,6 +7553,7 @@
 2 24 3.464 -40.443001 2 4 -40.443001 0
 5 24 -2 -40.443001 3.464 -2 -28.287001 3.464 -3.464 -28.288 2 0 -28.285999 4
 
+0 STEP
 0 FILE 3186 - 6059.dat
 0 A complex rounded tile part with top and inner surfaces, torus sections, rings, discs, and cylinders forming a contoured base.
 0 Name: 3186 - 6059.dat
@@ -7808,6 +7842,7 @@
 0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=R 6 4]
 0 !LDCAD MIRROR_INFO [counterPart=self] [oriCor=0 0 1 0 1 0 -1 0 0]
 
+0 STEP
 0 FILE 3186 - 4620857gc01.dat
 0 An empty submodel shell that references a lower-level detail part without its own geometry.
 0 Name: 3186 - 4620857gc01.dat
@@ -8016,6 +8051,7 @@
 5 24 25.9415 -12.239 -53.442699 26.118299 -12.239 -53.619499 29.3002 -13 -51.493099 23.244301 -10.071 -55.245098
 5 24 21.3456 6.827 -55.967499 21.1688 6.827 -55.790699 22.961201 9.5614 -55.434299 20.599199 3 -56.115898
 
+0 STEP
 0 FILE s\3186 - 4650854is01.dat
 0 An empty submodel shell that references a lower-level detail part without its own geometry.
 0 Name: s\3186 - 4650854is01.dat
@@ -8126,6 +8162,7 @@
 4 16 0 0 -6.5 0 -0.25 -6.5 -0.8 -0.25 -7 -0.8 0 -7
 4 16 0.8 0 -7 0.8 -0.25 -7 0 -0.25 -6.5 0 0 -6.5
 
+0 STEP
 0 FILE s\3186 - 4650854is02.dat
 0 An empty submodel shell that references a lower-level detail part without its own geometry.
 0 Name: s\3186 - 4650854is02.dat
@@ -8168,6 +8205,7 @@
 4 16 8.7 -0.25 -4.9 9 -0.25 -3.2 4.1 -0.25 -7.5 5.7 -0.25 -7.6
 4 16 7.9 -0.25 -6.3 8.7 -0.25 -4.9 5.7 -0.25 -7.6 6.9 -0.25 -7.2
 
+0 STEP
 0 FILE s\3186 - 4650854is03.dat
 0 An empty submodel shell that references a lower-level detail part without its own geometry.
 0 Name: s\3186 - 4650854is03.dat
@@ -8238,6 +8276,7 @@
 4 16 0 -0.25 -4.6 1.6 -0.25 -5.6 0.9 -0.25 -3.8 0.4 -0.25 -3.5
 3 16 0.5 -0.25 -2.5 0.4 -0.25 -3.5 0.9 -0.25 -3.8
 
+0 STEP
 0 FILE s\3186 - 94720s01.dat
 0 A rounded knob submodel composed of discs, half-cylinders, and quarter spheres forming a contoured stud shape.
 0 Name: s\3186 - 94720s01.dat
@@ -8337,6 +8376,7 @@
 2 24 5 9.76 6 5 9.76 5.75
 2 24 2.5 9.76 5.75 2.5 9.76 5.5
 
+0 STEP
 0 FILE 3186 - 93083p02.dat
 0 An empty submodel shell that references a lower-level detail part without its own geometry.
 0 Name: 3186 - 93083p02.dat
@@ -8354,6 +8394,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\3186 - 93083s04.dat
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\3186 - 93083s05.dat
 
+0 STEP
 0 FILE s\3186 - 93083s01.dat
 0 A simple submodel consisting of two closed full cylinders forming a solid tube.
 0 Name: s\3186 - 93083s01.dat
@@ -9411,6 +9452,7 @@
 5 24 -3.878 -45.382999 -34.66 -2.403 -42.57 -31.987 2.271 -48.737 -36.667 -9.188 -39.194 -33.452
 5 24 -14.553 -53.922001 -67.242996 -13.132 -56.213001 -70.147003 -13.15 -53.837002 -69.070999 -15.723 -58.591 -68.633003
 
+0 STEP
 0 FILE s\3186 - 93083s02.dat
 0 A hollow rectangular part defined by inner and outer surfaces with various edge-defined rectangle panels.
 0 Name: s\3186 - 93083s02.dat
@@ -12334,6 +12376,7 @@
 5 24 -3.61 -30.403 -64.526001 -5.079 -28.271999 -69.220001 -9.441 -30.514999 -71.391998 0 -30.231001 -64.570999
 5 24 -5.079 -28.271999 -69.220001 0 -27.976999 -68.964996 -5.032 -25.035 -72.461998 0 -30.231001 -64.570999
 
+0 STEP
 0 FILE s\3186 - 93084s03.dat
 0 An empty submodel shell that references a lower-level detail part without its own geometry.
 0 Name: s\3186 - 93084s03.dat
@@ -12558,6 +12601,7 @@
 5 24 10.962 -37.455002 -78.644997 10.301 -41.32 -83.508003 12.575 -46.730999 -80.369003 9.77 -32.069 -82.747002
 5 24 12.549 -42.528999 -74.639999 10.962 -37.455002 -78.644997 12.575 -46.730999 -80.369003 10.459 -33.304001 -74.072998
 
+0 STEP
 0 FILE s\3186 - 93084p02s01.dat
 0 An empty submodel shell that references a lower-level detail part without its own geometry.
 0 Name: s\3186 - 93084p02s01.dat
@@ -12708,6 +12752,7 @@
 5 24 12.575 -46.730999 -80.369003 11.381 -54.382 -83.539001 10.006 -49.327 -85.209999 13.675 -52.233002 -77.991997
 5 24 13.726 -56.428001 -77.206001 12.062 -57.842999 -81.594002 13.138 -59.561001 -76.500999 13.675 -52.233002 -77.991997
 
+0 STEP
 0 FILE s\3186 - 93083s03.dat
 0 A minimal submodel composed of a single closed half-cylinder forming a solid half-round element.
 0 Name: s\3186 - 93083s03.dat
@@ -13177,6 +13222,7 @@
 2 24 0 -29.440001 55.720001 0 -29.440001 51.720001
 2 24 0 -29.440001 51.720001 0 -37.439999 51.720001
 
+0 STEP
 0 FILE s\3186 - 93083s04.dat
 0 An empty submodel shell that references a lower-level detail part without its own geometry.
 0 Name: s\3186 - 93083s04.dat
@@ -13263,6 +13309,7 @@
 5 24 -11.251 -37.34 -69.821999 -11.718 -40.437 -66.041 -9.916 -37.762001 -63.569 -12.549 -42.528999 -74.639999
 5 24 -10.007 -33.82 -67.106003 -11.251 -37.34 -69.821999 -10.459 -33.304001 -74.072998 -9.916 -37.762001 -63.569
 
+0 STEP
 0 FILE s\3186 - 93083s05.dat
 0 An empty submodel shell that references a lower-level detail part without its own geometry.
 0 Name: s\3186 - 93083s05.dat
@@ -13410,6 +13457,7 @@
 5 24 -19.881001 -1.569 -26.858999 -19.896 -0.213 -34.418999 -19.882 -9.536 -28.580999 -19.646 12.081 -24.815001
 5 24 -20.718 -5.089 41.332001 -19.919001 11.156 34.033001 -19.965 -0.866 28.801001 -19.532 2.951 44.048
 
+0 STEP
 0 FILE 3186 - 93084p02.dat
 0 An empty submodel shell that references a lower-level detail part without its own geometry.
 0 Name: 3186 - 93084p02.dat
@@ -13427,6 +13475,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\3186 - 93084s06.dat
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\3186 - 93084s07.dat
 
+0 STEP
 0 FILE s\3186 - 93084s01.dat
 0 A minimal submodel composed of a single closed half-cylinder forming a solid half-round element.
 0 Name: s\3186 - 93084s01.dat
@@ -13823,6 +13872,7 @@
 2 24 0 -37.439999 51.720001 0 -29.440001 51.720001
 2 24 0 -29.440001 51.720001 0 -29.440001 55.720001
 
+0 STEP
 0 FILE s\3186 - 93084s02.dat
 0 A bicycle assembly submodel consisting of inside and outside frame pieces.
 0 Name: s\3186 - 93084s02.dat
@@ -16738,6 +16788,7 @@
 5 24 19.608 9.279 25.832001 19.43 8.56 33.882 19.756001 -0.461 28.148001 19.268999 16.27 34.849998
 5 24 18.296 -11.66 47.466 12.248 -21.003 48.597 9.772 -17.325001 49.846001 17.733999 -22.174 41.062
 
+0 STEP
 0 FILE s\3186 - 93084s05.dat
 0 A bicycle component submodel with no directly listed pieces.
 0 Name: s\3186 - 93084s05.dat
@@ -16868,6 +16919,7 @@
 5 24 13.179 -47.694 -70.768997 13.637 -55.858002 -73.209 12.511 -50.013 -65.660004 13.675 -52.233002 -77.991997
 5 24 11.381 -54.382 -83.539001 10.006 -49.327 -85.209999 12.575 -46.730999 -80.369003 7.14 -55.789001 -86.122002
 
+0 STEP
 0 FILE s\3186 - 93084s06.dat
 0 A bicycle component submodel with no directly listed pieces.
 0 Name: s\3186 - 93084s06.dat
@@ -16961,6 +17013,7 @@
 5 24 9.577 -60.305 -61.574001 11.573 -54.066002 -59.449001 8.852 -60.167999 -58.248001 11.628 -53.673 -61.098999
 5 24 9.248 -37.110001 -58.521999 5.032 -32.532001 -60.417999 8.95 -34.688 -56.707001 5.421 -32.573002 -61.478001
 
+0 STEP
 0 FILE s\3186 - 93084s07.dat
 0 A bicycle component submodel with no directly listed pieces.
 0 Name: s\3186 - 93084s07.dat

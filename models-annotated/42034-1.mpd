@@ -167,6 +167,7 @@
 1 71 20 0 -60 0 0 -1 0 -1 0 -1 0 0 3713.dat
 
 
+0 STEP
 0 FILE 42034 - motor_support.ldr
 0 Bracket of bent beams and pins that mounts and secures the pull-back motor to the chassis.
 0 Name: 42034 - motor_support.ldr
@@ -197,6 +198,7 @@
 1 0 -50 -10 75 -1 0 0 0 -1 0 0 0 1 2780.dat
 
 
+0 STEP
 0 FILE 42034 - hood.ldr
 0 Front hood assembly built from beams, a grille tile, fairing panels, and clear window tiles attached via cross blocks and pins.
 0 Name: 42034 - hood.ldr
@@ -279,6 +281,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42034 - tank1.ldr
 0 Fuel tank detail made of a fairing panel, short liftarms, and axles joined by a 180-degree angle connector.
 0 Name: 42034 - tank1.ldr
@@ -309,6 +312,7 @@
 1 0 0 0 0 0 -1 0 1 0 0 0 0 1 11946.dat
 
 
+0 STEP
 0 FILE 42034 - tank2.ldr
 0 Mirrored fuel tank detail using a fairing panel, a short liftarm, and axles connected by a 180-degree angle connector.
 0 Name: 42034 - tank2.ldr
@@ -335,6 +339,7 @@
 1 0 0 -20 -60 0 0 -1 0 1 0 1 0 0 32054.dat
 
 
+0 STEP
 0 FILE 42034 - side1.ldr
 0 Body side panel combining a thin fairing panel, an angled beam, and angle connectors to shape the fender line.
 0 Name: 42034 - side1.ldr
@@ -367,6 +372,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42034 - side2.ldr
 0 Mirrored body side panel with a thin fairing panel, angled beam, and angle connectors forming the opposite fender line.
 0 Name: 42034 - side2.ldr
@@ -398,6 +404,7 @@
 1 72 -20 -36.9552 15.3073 0 1 0 0.9239 0 -0.3827 -0.3827 0 -0.9239 11214.dat
 
 
+0 STEP
 0 FILE 42034 - steering.ldr
 0 Steering linkage of short axles, bushings, and angled connectors linking the handlebar column to the front wheels.
 0 Name: 42034 - steering.ldr

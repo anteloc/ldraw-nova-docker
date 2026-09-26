@@ -879,6 +879,7 @@
 1 71 -210 101.4 288.98 0 0 1 0.993 0.122 0 -0.122 0.993 0 41999 - step105.ldr
 
 
+0 STEP
 0 FILE 41999 - step5-motor.ldr
 0 Empty placeholder submodel containing no direct pieces, serving as a reference or assembly marker for a motor installation step.
 0 Name: 41999 - step5-motor.ldr
@@ -901,6 +902,7 @@
 0 !LDCAD PATH_CAP [group=end] [color=1] [posOri=-20 -274 250 1 0 0 0 1 0 0 0 1] [part=2412b.dat] [extraLen=0mm] [inlineRef=false]
 
 
+0 STEP
 0 FILE 41999 - step15-1.ldr
 0 Light bluish grey axle assembly with joiners and stop-bush pins forming a small connecting linkage.
 0 Name: 41999 - step15-1.ldr
@@ -924,6 +926,7 @@
 1 71 -80 0 0 -1 0 0 0 1 0 0 0 -1 32054.dat
 
 
+0 STEP
 0 FILE 41999 - step15-2.ldr
 0 Red-accented axle assembly with red joiners, notched axles, and stop-bush pins forming a small connecting linkage.
 0 Name: 41999 - step15-2.ldr
@@ -947,6 +950,7 @@
 1 4 -80 0 0 -1 0 0 0 1 0 0 0 -1 32054.dat
 
 
+0 STEP
 0 FILE 41999 - step16.ldr
 0 Short axle subassembly with a light bluish grey axle 3, red joiners, and two black axle 6 shafts for drivetrain connection.
 0 Name: 41999 - step16.ldr
@@ -966,6 +970,7 @@
 1 0 -90 0 0 -1 0 0 0 1 0 0 0 -1 3706.dat
 
 
+0 STEP
 0 FILE 41999 - step17.ldr
 0 Axle subassembly with a light bluish grey axle 5, red joiners, and two black axle 6 shafts for extended drivetrain connection.
 0 Name: 41999 - step17.ldr
@@ -985,6 +990,7 @@
 1 0 -110 0 0 -1 0 0 0 1 0 0 0 -1 3706.dat
 
 
+0 STEP
 0 FILE 41999 - step16-2.ldr
 0 Pair of yellow Technic beam 7 liftarms forming a reinforcing cross-brace assembly.
 0 Name: 41999 - step16-2.ldr
@@ -999,6 +1005,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 41999 - step20-1.ldr
 0 Universal joint end with a light bluish grey axle 3 forming one half of a driveshaft coupler.
 0 Name: 41999 - step20-1.ldr
@@ -1012,6 +1019,7 @@
 1 71 0 0 40 0 0 -1 0 1 0 1 0 0 4519.dat
 
 
+0 STEP
 0 FILE 41999 - step20-2.ldr
 0 Universal joint center and end with a tan stop-axle 4 completing the driveshaft coupler assembly.
 0 Name: 41999 - step20-2.ldr
@@ -1027,6 +1035,7 @@
 1 19 0 0 -50 0 0 -1 0 1 0 1 0 0 99008.dat
 
 
+0 STEP
 0 FILE 41999 - step26-1.ldr
 0 Portal axle drive assembly with differential, bevel gears, reinforced gears, and open-center liftarm forming a geared wheel-drive unit.
 0 Name: 41999 - step26-1.ldr
@@ -1203,6 +1212,7 @@
 1 4 0 0 -180 0 0 -1 0 1 0 1 0 0 32525.dat
 
 
+0 STEP
 0 FILE 41999 - step26-1-17.ldr
 0 Complete universal joint with a 20-tooth bevel gear and axle 3 forming a driveshaft-to-gear adapter.
 0 Name: 41999 - step26-1-17.ldr
@@ -1218,6 +1228,7 @@
 1 19 40 0 0 0 0 -1 0 1 0 1 0 0 32269.dat
 
 
+0 STEP
 0 FILE 41999 - step26-1-19.ldr
 0 Steering portal axle frame with wheel hub, gears, cross blocks, and pins forming a geared wheel-mount assembly.
 0 Name: 41999 - step26-1-19.ldr
@@ -1254,6 +1265,7 @@
 1 71 0 -30 20 0 0 -1 1 0 0 0 -1 0 3673.dat
 
 
+0 STEP
 0 FILE 41999 - step26-2.ldr
 0 Portal axle drive assembly with differential, bevel gears, reinforced gears, and open-center liftarm forming a geared wheel-drive unit matching the opposite side.
 0 Name: 41999 - step26-2.ldr
@@ -1430,6 +1442,7 @@
 1 4 0 0 180 0 0 -1 0 1 0 1 0 0 32525.dat
 
 
+0 STEP
 0 FILE 41999 - step27.ldr
 0 Axle and pin subassembly with stop-axle 8, bushes, cross block, and pin joiner forming a rotational connector or pivot.
 0 Name: 41999 - step27.ldr
@@ -1449,6 +1462,7 @@
 1 71 -2 0 0 0 0 -1 0 1 0 1 0 0 3713.dat
 
 
+0 STEP
 0 FILE 41999 - step29.ldr
 0 Reinforcing liftarm assembly with a red beam 15, bent beams, and friction pins forming a structural support bracket.
 0 Name: 41999 - step29.ldr
@@ -1499,6 +1513,7 @@
 1 4 -40 0 160 0 -1 0 0 0 -1 1 0 0 32523.dat
 
 
+0 STEP
 0 FILE 41999 - step30.ldr
 0 Steering gear rack with pegholes mounted between cross blocks and notched axles forming a rack-and-pinion steering element.
 0 Name: 41999 - step30.ldr
@@ -1518,6 +1533,7 @@
 1 71 80 0 -20 0 1 0 0 0 -1 -1 0 0 98989.dat
 
 
+0 STEP
 0 FILE 41999 - step30-1.ldr
 0 Two-pin connector pairing a stop-bush pin with a friction axle pin for a small linkage joint.
 0 Name: 41999 - step30-1.ldr
@@ -1531,6 +1547,7 @@
 1 1 0 30 0 0 1 0 -1 0 0 0 0 1 43093.dat
 
 
+0 STEP
 0 FILE 41999 - step33.ldr
 0 Axle linkage with a 180-degree angle connector, cross blocks, axle pins, and notched axles forming a straight connector assembly.
 0 Name: 41999 - step33.ldr
@@ -1554,6 +1571,7 @@
 1 4 40 10 -40 0 0 -1 -1 0 0 0 1 0 32062.dat
 
 
+0 STEP
 0 FILE 41999 - step44.ldr
 0 Suspension or control arm built from a red beam 13 with pins, bushes, and a cross block forming an angled link.
 0 Name: 41999 - step44.ldr
@@ -1584,6 +1602,7 @@
 1 1 40 10 -40 0 -1 0 -1 0 0 0 0 -1 43093.dat
 
 
+0 STEP
 0 FILE 41999 - step45.ldr
 0 Suspension or control arm built from a red beam 13 with pins, bushes, and a cross block forming an angled link matching the opposite side.
 0 Name: 41999 - step45.ldr
@@ -1614,6 +1633,7 @@
 1 1 -40 10 -40 0 1 0 -1 0 0 0 0 1 43093.dat
 
 
+0 STEP
 0 FILE 41999 - step48.ldr
 0 Small gear assembly with a 12-tooth double bevel gear on a stop axle with a light bluish grey beam 3 mount.
 0 Name: 41999 - step48.ldr
@@ -1634,6 +1654,7 @@
 1 0 0 0 -30 1 0 0 0 -1 0 0 0 -1 32270.dat
 
 
+0 STEP
 0 FILE 41999 - step61-motor.ldr
 0 Empty placeholder submodel containing no direct pieces, serving as a reference or assembly marker for a motor installation step.
 0 Name: 41999 - step61-motor.ldr
@@ -1657,6 +1678,7 @@
 0 !LDCAD PATH_CAP [group=end] [color=25] [posOri=-20 -255.156 185.855 1 0 0 0 0.993 0.122 0 -0.122 0.993] [part=2412b.dat] [extraLen=0mm] [inlineRef=false]
 
 
+0 STEP
 0 FILE 41999 - step51.ldr
 0 Bent 90-degree red liftarm pair joined by a 3-way pin cross block forming a small angular bracket.
 0 Name: 41999 - step51.ldr
@@ -1676,6 +1698,7 @@
 1 0 -30 10 0 -1 0 0 0 0 1 0 1 0 2780.dat
 
 
+0 STEP
 0 FILE 41999 - step52.ldr
 0 Pair of bent 53.13-degree liftarms with an axle 5, bushes, and pin joiner forming an angled structural link.
 0 Name: 41999 - step52.ldr
@@ -1701,6 +1724,7 @@
 1 0 -90 40 0 1 0 0 0 0 1 0 -1 0 2780.dat
 
 
+0 STEP
 0 FILE 41999 - step61.ldr
 0 Small gear assembly with a 12-tooth double bevel gear on a stop axle with a light bluish grey beam 3 mount.
 0 Name: 41999 - step61.ldr
@@ -1721,6 +1745,7 @@
 1 0 0 0 -30 1 0 0 0 -1 0 0 0 -1 32270.dat
 
 
+0 STEP
 0 FILE 41999 - step48-motor.ldr
 0 Motor assembly substructure (no direct pieces).
 0 Name: 41999 - step48-motor.ldr
@@ -1744,6 +1769,7 @@
 0 !LDCAD PATH_CAP [group=end] [color=72] [posOri=20 -188.604 530.306 0 0 1 -0.122 0.993 0 -0.993 -0.122 0] [part=58124c01.dat] [extraLen=0mm] [inlineRef=false]
 
 
+0 STEP
 0 FILE 41999 - step68.ldr
 0 Long red technic beams joined with friction pins forming a structural support frame.
 0 Name: 41999 - step68.ldr
@@ -1793,6 +1819,7 @@
 1 71 220 0 -160 1 0 0 0 1 0 0 0 1 32054.dat
 
 
+0 STEP
 0 FILE 41999 - step70.ldr
 0 Red liftarms and cross blocks linked with pins and a long axle to form a articulated structural linkage.
 0 Name: 41999 - step70.ldr
@@ -1860,6 +1887,7 @@
 1 14 60 -10.155 0.078 -1 0 0 0 1 -0.008 0 -0.008 -1 41999 - step70-9-shock.ldr
 
 
+0 STEP
 0 FILE 41999 - step70-9-shock.ldr
 0 Shock absorber assembly substructure (no direct pieces).
 0 Name: 41999 - step70-9-shock.ldr
@@ -1886,6 +1914,7 @@
 0 !LDCAD SPRING_SECTION [windingCnt=2] [proportion=0]
 
 
+0 STEP
 0 FILE 41999 - step70-9-shock2.ldr
 0 Second shock absorber assembly substructure (no direct pieces).
 0 Name: 41999 - step70-9-shock2.ldr
@@ -1912,6 +1941,7 @@
 0 !LDCAD SPRING_SECTION [windingCnt=2] [proportion=0]
 
 
+0 STEP
 0 FILE 41999 - step72.ldr
 0 Red liftarms and T-beam mounted on cross blocks and axles forming a reinforced structural frame.
 0 Name: 41999 - step72.ldr
@@ -2002,6 +2032,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 41999 - step84.ldr
 0 Small blue half-liftarms mounted on a split cross block with a studded axle detail.
 0 Name: 41999 - step84.ldr
@@ -2025,6 +2056,7 @@
 1 0 -10 20 10 1 0 0 0 1 0 0 0 1 2780.dat
 
 
+0 STEP
 0 FILE 41999 - step85-ir.ldr
 0 Infrared receiver assembly substructure (no direct pieces).
 0 Name: 41999 - step85-ir.ldr
@@ -2046,6 +2078,7 @@
 0 !LDCAD PATH_CAP [group=end] [color=72] [posOri=-86 140 150 0 1 0 -1 0 0 0 0 1] [part=58124c01.dat] [extraLen=0mm] [inlineRef=false]
 
 
+0 STEP
 0 FILE 41999 - step86.ldr
 0 Power Functions 9V battery box mounted on red technic beams with friction pins.
 0 Name: 41999 - step86.ldr
@@ -2083,6 +2116,7 @@
 1 4 -40 0 120 -1 0 0 0 0 1 0 1 0 32316.dat
 
 
+0 STEP
 0 FILE 41999 - step89.ldr
 0 Bent red beam and holed plate assembly with an axle stop and cross block linkage.
 0 Name: 41999 - step89.ldr
@@ -2117,6 +2151,7 @@
 1 4 80 -60 -60 1 0 0 0 -1 0 0 0 -1 3713.dat
 
 
+0 STEP
 0 FILE 41999 - step89-polerev.ldr
 0 Pole reverser linkage assembly substructure (no direct pieces).
 0 Name: 41999 - step89-polerev.ldr
@@ -2138,6 +2173,7 @@
 0 !LDCAD PATH_CAP [group=end] [color=72] [posOri=-90 -106 162 1 0 0 0 0 1 0 -1 0] [part=58124c01.dat] [extraLen=0mm] [inlineRef=false]
 
 
+0 STEP
 0 FILE 41999 - step90.ldr
 0 Lighting assembly substructure (no direct pieces).
 0 Name: 41999 - step90.ldr
@@ -2150,6 +2186,7 @@
 1 4 3 12 -16 1 0 0 0 1 0 0 0 1 41999 - step90-light2.ldr
 
 
+0 STEP
 0 FILE 41999 - step90-lightbase.ldr
 0 Light mounting base substructure (no direct pieces).
 0 Name: 41999 - step90-lightbase.ldr
@@ -2171,6 +2208,7 @@
 0 !LDCAD PATH_CAP [group=end] [color=72] [posOri=-90 -130 138 1 0 0 0 0 1 0 -1 0] [part=58124c01.dat] [extraLen=0mm] [inlineRef=false]
 
 
+0 STEP
 0 FILE 41999 - step90-light1.ldr
 0 First light unit assembly substructure (no direct pieces).
 0 Name: 41999 - step90-light1.ldr
@@ -2195,6 +2233,7 @@
 0 !LDCAD PATH_CAP [group=start] [color=0] [posOri=0 0 0 0 0 -1 1 0 0 0 -1 0] [part=41999 - ldcPwrFuncWire2End.dat] [extraLen=0mm] [inlineRef=true]
 
 
+0 STEP
 0 FILE 41999 - step90-light2.ldr
 0 Second light unit assembly substructure (no direct pieces).
 0 Name: 41999 - step90-light2.ldr
@@ -2218,6 +2257,7 @@
 0 !LDCAD PATH_CAP [group=start] [color=0] [posOri=0 0 0 0 0 1 -1 0 0 0 -1 0] [part=41999 - ldcPwrFuncWire2End.dat] [extraLen=0mm] [inlineRef=true]
 
 
+0 STEP
 0 FILE 41999 - step91.ldr
 0 Long red technic beams joined with split cross blocks and pins forming a rigid structural support.
 0 Name: 41999 - step91.ldr
@@ -2265,6 +2305,7 @@
 1 4 20 0 0 0 -1 0 1 0 0 0 0 1 40490.dat
 
 
+0 STEP
 0 FILE 41999 - remote-control.ldr
 0 Power Functions IR remote control fitted with a gear, axles, and a small liftarm trigger mechanism.
 0 Name: 41999 - remote-control.ldr
@@ -2294,6 +2335,7 @@
 1 0 -80 0 -20 0 0 -1 -1 0 0 0 1 0 32498.dat
 
 
+0 STEP
 0 FILE 41999 - step40.ldr
 0 Large complex technic assembly with liftarms, cross blocks, gears, a worm gear, and numerous pins and axles forming a major drivetrain structure.
 0 Name: 41999 - step40.ldr
@@ -2729,6 +2771,7 @@
 1 0 -110 -80 120 -1 0 0 0 0 -1 0 -1 0 2780.dat
 
 
+0 STEP
 0 FILE 41999 - step92.ldr
 0 Axle with 180-degree angle connectors and pins forming a straight linkage extension.
 0 Name: 41999 - step92.ldr
@@ -2753,6 +2796,7 @@
 1 1 90 0 0 -1 0 0 0 -1 0 0 0 1 43093.dat
 
 
+0 STEP
 0 FILE 41999 - step40-1-motor.ldr
 0 Motor sub-assembly for the step40 structure (no direct pieces).
 0 Name: 41999 - step40-1-motor.ldr
@@ -2777,6 +2821,7 @@
 0 !LDCAD PATH_CAP [group=end] [color=15] [posOri=60 298 60 -1 0 0 0 -1 0 0 0 1] [part=2412b.dat] [extraLen=0mm] [inlineRef=false]
 
 
+0 STEP
 0 FILE 41999 - step40-15-rope.ldr
 0 Rope or winch line sub-assembly (no direct pieces).
 0 Name: 41999 - step40-15-rope.ldr
@@ -2797,6 +2842,7 @@
 0 !LDCAD PATH_SKIN [donCol=16] [donOri=1 0 0 0 1 0 0 0 1] [donPart=41999 - ldcLQRopeSeg.dat] [donYSize=400%] [donCen=absCen] [donCenYOfs=0] [donFinScale=segMerge] [donPlace=refsStat] [donYAlign=0] [donInline=true] [segSize=75%] [segSizeTol=5%] [segsCnt=0] [segsGrp=0] [segsMaxMerge=0] [segsMrgAng=0] [segsMrgRollAng=0] [segsEdgeDelKind=keepFirstLeft]
 
 
+0 STEP
 0 FILE 41999 - step40-22.ldr
 0 Silver bent liftarms joined with pin joiners and an axle forming a angled silver structural element.
 0 Name: 41999 - step40-22.ldr
@@ -2843,6 +2889,7 @@
 1 0 65 -32 144 0 1 0 0.6 0 0.8 0.8 0 -0.6 41677.dat
 
 
+0 STEP
 0 FILE 41999 - step40-28.ldr
 0 Black bent liftarm mounted on cross blocks and axles with inline joiners forming an articulated linkage.
 0 Name: 41999 - step40-28.ldr
@@ -2883,6 +2930,7 @@
 1 1 90 80 -120 1 0 0 0 0.8 0.6 0 -0.6 0.8 43093.dat
 
 
+0 STEP
 0 FILE 41999 - step48-1.ldr
 0 Cross blocks and flexible axle joiners with a bent red liftarm forming a small articulated joint assembly.
 0 Name: 41999 - step48-1.ldr
@@ -2923,6 +2971,7 @@
 1 1 20 40 -40 1 0 0 0 0 1 0 -1 0 6558.dat
 
 
+0 STEP
 0 FILE 41999 - step49.ldr
 0 Long red beam and bent liftarm connected via a triple-pin cross block forming an extended structural member.
 0 Name: 41999 - step49.ldr
@@ -2950,6 +2999,7 @@
 1 71 40 60 60 0 0 -1 -1 0 0 0 1 0 48989.dat
 
 
+0 STEP
 0 FILE 41999 - step50.ldr
 0 A small dark blue body panel fairing mounted on a split cross block with an axle pin.
 0 Name: 41999 - step50.ldr
@@ -2965,6 +3015,7 @@
 1 272 -20 -20 -30 -1 0 0 0 -1 0 0 0 1 87080.dat
 
 
+0 STEP
 0 FILE 41999 - step52-1.ldr
 0 An angle connector linkage assembly with cross blocks, axles, and silver pin joiners forming a pivoting joint.
 0 Name: 41999 - step52-1.ldr
@@ -3001,6 +3052,7 @@
 1 71 40 -20 0 0 0 1 -1 0 0 0 -1 0 48989.dat
 
 
+0 STEP
 0 FILE 41999 - step55.ldr
 0 A short dark blue body panel fairing (#2) mounted on cross blocks with a 3L double pin connector.
 0 Name: 41999 - step55.ldr
@@ -3028,6 +3080,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 41999 - step57.ldr
 0 A red and dark blue structural liftarm assembly with bent beams, axles, and a body panel forming a chassis support frame.
 0 Name: 41999 - step57.ldr
@@ -3102,6 +3155,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 41999 - step61-1.ldr
 0 A pair of dark blue liftarm beams (11 and 15 stud) joined with bent connectors forming a long structural frame element.
 0 Name: 41999 - step61-1.ldr
@@ -3140,6 +3194,7 @@
 1 0 160 -30 0 0 0 1 1 0 0 0 1 0 2780.dat
 
 
+0 STEP
 0 FILE 41999 - step65.ldr
 0 A suspension linkage assembly with flexible axle joiners, a bent liftarm, and cross blocks connected by pins and axles.
 0 Name: 41999 - step65.ldr
@@ -3180,6 +3235,7 @@
 1 1 20 40 40 1 0 0 0 0 -1 0 1 0 6558.dat
 
 
+0 STEP
 0 FILE 41999 - step66.ldr
 0 A red liftarm strut assembly with an 11-stud beam and bent connector joined via pins to a cross block.
 0 Name: 41999 - step66.ldr
@@ -3207,6 +3263,7 @@
 1 71 40 60 -60 0 0 -1 1 0 0 0 -1 0 48989.dat
 
 
+0 STEP
 0 FILE 41999 - step67.ldr
 0 An angle connector linkage assembly with cross blocks, axles, and silver pin joiners forming a mirrored pivoting joint.
 0 Name: 41999 - step67.ldr
@@ -3243,6 +3300,7 @@
 1 71 40 -20 0 0 0 1 1 0 0 0 1 0 48989.dat
 
 
+0 STEP
 0 FILE 41999 - step70-1.ldr
 0 A short dark blue body panel fairing (#1) mounted on cross blocks with a 3L double pin connector.
 0 Name: 41999 - step70-1.ldr
@@ -3270,6 +3328,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 41999 - step72-1.ldr
 0 A small dark blue body panel fairing (#2) mounted on a split cross block with an axle pin.
 0 Name: 41999 - step72-1.ldr
@@ -3285,6 +3344,7 @@
 1 272 20 -20 -30 -1 0 0 0 -1 0 0 0 1 87086.dat
 
 
+0 STEP
 0 FILE 41999 - step78.ldr
 0 A decorative tile surface with a black base plate featuring trans-orange and trans-red light elements and dark blue tiles.
 0 Name: 41999 - step78.ldr
@@ -3322,6 +3382,7 @@
 1 15 0 -8 -20 -1 0 0 0 1 0 0 0 -1 87079.dat
 
 
+0 STEP
 0 FILE 41999 - step79.ldr
 0 A long body panel fairing pair (#5 and #6) mounted on beams and connectors forming a side bodywork module.
 0 Name: 41999 - step79.ldr
@@ -3367,6 +3428,7 @@
 1 0 20 -20 0 0 -1 0 -1 0 0 0 0 -1 32316.dat
 
 
+0 STEP
 0 FILE 41999 - step80.ldr
 0 A long body panel fairing pair (#5 and #6) mounted on beams and connectors forming a mirrored side bodywork module.
 0 Name: 41999 - step80.ldr
@@ -3412,6 +3474,7 @@
 1 0 -20 -20 0 0 1 0 1 0 0 0 0 -1 32316.dat
 
 
+0 STEP
 0 FILE 41999 - step85.ldr
 0 A large side body panel module with an 11-stud panel, long fairing, cross blocks, and liftarms forming a structural body section.
 0 Name: 41999 - step85.ldr
@@ -3477,6 +3540,7 @@
 1 71 0 0 0 1 0 0 0 -1 0 0 0 -1 3713.dat
 
 
+0 STEP
 0 FILE 41999 - step94.ldr
 0 A large side body panel module with an 11-stud panel, long fairing, cross blocks, and liftarms forming a mirrored structural body section.
 0 Name: 41999 - step94.ldr
@@ -3542,6 +3606,7 @@
 1 71 0 0 0 -1 0 0 0 -1 0 0 0 1 3713.dat
 
 
+0 STEP
 0 FILE 41999 - step103.ldr
 0 A major chassis subassembly combining multiple dark blue beams, body panels, and structural connectors forming the core vehicle frame.
 0 Name: 41999 - step103.ldr
@@ -3877,6 +3942,7 @@
 1 1 -140 -60.956 573.39 -1 0 0 0 0.994 -0.111 0 -0.111 -0.994 41999 - step103-36-1.ldr
 
 
+0 STEP
 0 FILE 41999 - step103-14.ldr
 0 A simple dark blue liftarm connection joining 11 and 15 stud beams with friction pins.
 0 Name: 41999 - step103-14.ldr
@@ -3894,6 +3960,7 @@
 1 272 100 0 -10 0 0 1 1 0 0 0 1 0 32525.dat
 
 
+0 STEP
 0 FILE 41999 - step103-18.ldr
 0 A complex white and dark blue liftarm assembly with technic bricks, an axle 12, and bent beams forming a structural mechanism.
 0 Name: 41999 - step103-18.ldr
@@ -3985,6 +4052,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 41999 - step103-19.ldr
 0 A tan bodywork detail plate with curved slopes and tiles forming a smooth decorative surface element.
 0 Name: 41999 - step103-19.ldr
@@ -4014,6 +4082,7 @@
 1 19 30 -8 -30 0 0 -1 0 1 0 1 0 0 54200.dat
 
 
+0 STEP
 0 FILE 41999 - step103-32.ldr
 0 A body panel module with two 5x11 panels, tooth elements, and angle connectors forming a white and dark blue structural section.
 0 Name: 41999 - step103-32.ldr
@@ -4083,6 +4152,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 41999 - step103-34-4.ldr
 0 An axle and angle connector linkage assembly with cross blocks, bushes, and inline joiners forming a steering or suspension rod.
 0 Name: 41999 - step103-34-4.ldr
@@ -4137,6 +4207,7 @@
 1 0 40 -40 -20 0 0 1 0 -1 0 1 0 0 32054.dat
 
 
+0 STEP
 0 FILE 41999 - step103-36.ldr
 0 A toggle joint linkage assembly with a tooth element, thin beam, and angle connector forming a small mechanical pivot arm.
 0 Name: 41999 - step103-36.ldr
@@ -4169,6 +4240,7 @@
 1 1 20 -64.862 131.4 0 0 1 -0.111 0.994 0 -0.994 -0.111 0 43093.dat
 
 
+0 STEP
 0 FILE 41999 - step103-36-1.ldr
 0 A toggle joint linkage assembly with a tooth element, thin beam, and angle connector forming a mirrored small mechanical pivot arm.
 0 Name: 41999 - step103-36-1.ldr
@@ -4201,6 +4273,7 @@
 1 1 -20 -64.862 131.4 0 0 -1 -0.111 -0.994 0 -0.994 0.111 0 43093.dat
 
 
+0 STEP
 0 FILE 41999 - step103-31.ldr
 0 A pair of light bluish grey 9-stud liftarm beams forming a simple parallel strut element.
 0 Name: 41999 - step103-31.ldr
@@ -4214,6 +4287,7 @@
 1 71 80 0 80 0 1 0 1 0 0 0 0 -1 40490.dat
 
 
+0 STEP
 0 FILE 41999 - step105.ldr
 0 A single off-road wheel assembly with a 6-spoke light bluish grey rim and a black rubber tyre.
 0 Name: 41999 - step105.ldr
@@ -4227,6 +4301,7 @@
 1 256 0 0 0 1 0 0 0 1 0 0 0 1 54120.dat
 
 
+0 STEP
 0 FILE 41999 - ldcPwrFuncWire4Seg.dat
 0 A 4-segment Power Functions wire cable made of cylindrical segments with path-deform control points.
 0 Name: 41999 - ldcPwrFuncWire4Seg.dat
@@ -4280,6 +4355,7 @@
 
 
 
+0 STEP
 0 FILE 41999 - ldcPwrFuncWire2Seg.dat
 0 A 2-segment Power Functions wire cable made of cylindrical segments with path-deform control points.
 0 Name: 41999 - ldcPwrFuncWire2Seg.dat
@@ -4316,6 +4392,7 @@
 
 
 
+0 STEP
 0 FILE 41999 - ldcPwrFuncWire2End.dat
 0 End caps for a Power Functions wire cable, made of small cylindrical segments.
 0 Name: 41999 - ldcPwrFuncWire2End.dat
@@ -4341,6 +4418,7 @@
 0 !LDCAD SNAP_GEN [group=pfLight] [gender=M] [bounding=sph 10]
 
 
+0 STEP
 0 FILE 41999 - ldcLQRopeSeg.dat
 0 A single flexible rope segment built from a standard cylinder primitive.
 0 Name: 41999 - ldcLQRopeSeg.dat
@@ -4360,6 +4438,7 @@
 1 16 0 0 0 1.5 0 0 0 1 0 0 0 1.5 4-4cyli.dat
 
 
+0 STEP
 0 FILE 41999 - ldcConRing-3-4.dat
 0 A 3/4 connector ring primitive used for path-deform segment edges with scaling-aware control points.
 0 Name: 41999 - ldcConRing-3-4.dat
@@ -4392,6 +4471,7 @@
 5 24 -0.3827 0 -0.9239 0 0 -1 -0.3827 -1 -0.9239 -0.3827 1 -0.9239
 
 
+0 STEP
 0 FILE 41999 - ldcConRing-1-4.dat
 0 A 1/4 connector ring primitive used for path-deform segment edges with scaling-aware control points.
 0 Name: 41999 - ldcConRing-1-4.dat

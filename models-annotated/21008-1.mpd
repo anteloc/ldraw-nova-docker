@@ -121,6 +121,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 21008 - Center.ldr
 0 Vertical central spire built from round hollow-stud bricks, an antenna, and bars joined by a technic rotor hub.
 0 Name: 21008 - Center.ldr
@@ -160,6 +161,7 @@
 1 4 0 -432 0 1 0 0 0 1 0 0 0 1 21008 - Wing Part 1.ldr
 
 
+0 STEP
 0 FILE 21008 - Front Wing.ldr
 0 Forward-projecting tiered wing of small light bluish grey plates in graduated lengths.
 0 Name: 21008 - Front Wing.ldr
@@ -196,6 +198,7 @@
 1 71 0 -144 50 1 0 0 0 1 0 -0 0 1 21008 - Wing Part 1.ldr
 
 
+0 STEP
 0 FILE 21008 - Back Left Wing.ldr
 0 Rear-left setback wing composed of small light bluish grey plates in stepped lengths.
 0 Name: 21008 - Back Left Wing.ldr
@@ -231,6 +234,7 @@
 1 71 0 -352 50 1 0 0 0 1 0 -0 0 1 21008 - Wing Part 1.ldr
 
 
+0 STEP
 0 FILE 21008 - Back Right Wing.ldr
 0 Rear-right setback wing of small light bluish grey plates in graduated lengths.
 0 Name: 21008 - Back Right Wing.ldr
@@ -268,6 +272,7 @@
 1 71 0 -256 30 0 0 1 0 1 0 -1 0 0 21008 - Wing Part 3.ldr
 
 
+0 STEP
 0 FILE 21008 - Wing Part 1.ldr
 0 Stack of four round hollow-stud bricks forming a small columnar wing element.
 0 Name: 21008 - Wing Part 1.ldr
@@ -287,6 +292,7 @@
 1 71 0 -72 0 1 0 0 0 1 0 -0 0 1 3062b.dat
 
 
+0 STEP
 0 FILE 21008 - Wing Part 2.ldr
 0 Single short antenna element serving as a thin wing finial.
 0 Name: 21008 - Wing Part 2.ldr
@@ -301,6 +307,7 @@
 1 71 0 -24 0 1 0 0 0 1 0 -0 0 1 21008 - Wing Part 1.ldr
 
 
+0 STEP
 0 FILE 21008 - Wing Part 3.ldr
 0 Short stack of two round hollow-stud bricks capped with a round plate.
 0 Name: 21008 - Wing Part 3.ldr

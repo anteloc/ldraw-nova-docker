@@ -9,6 +9,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 4525 - Repair Truck.ldr
 1 0 140 24 0 1 0 0 0 1 0 0 0 1 4525 - Minifig.ldr
 
+0 STEP
 0 FILE 4525 - Minifig.ldr
 0 A blue train worker minifig wearing a white construction helmet with a standard grin.
 0 Name: 4525 - Minifig.ldr
@@ -34,6 +35,7 @@
 1 15 0 -56 0 1 0 0 0 1 0 0 0 1 3833.dat
 
 
+0 STEP
 0 FILE 4525 - Repair Truck.ldr
 0 A red repair truck built on a long plate with wheels, suspension, hinges, and a turntable base.
 0 Name: 4525 - Repair Truck.ldr
@@ -82,6 +84,7 @@
 
 
 
+0 STEP
 0 FILE 4525 - Truck Stabilizer.ldr
 0 A red hinged stabilizer arm used to support the repair truck.
 0 Name: 4525 - Truck Stabilizer.ldr
@@ -97,6 +100,7 @@
 
 
 
+0 STEP
 0 FILE 4525 - Truck Track Wheels.ldr
 0 A red hinged attachment with train wheels allowing the truck to ride on rails.
 0 Name: 4525 - Truck Track Wheels.ldr
@@ -116,6 +120,7 @@
 
 
 
+0 STEP
 0 FILE 4525 - Truck Wheel.ldr
 0 A single grey-rimmed black tyre wheel assembly for the truck.
 0 Name: 4525 - Truck Wheel.ldr
@@ -131,6 +136,7 @@
 
 
 
+0 STEP
 0 FILE 4525 - Excavator.ldr
 0 A yellow excavator with a turntable base, articulated control sticks, and a black bucket.
 0 Name: 4525 - Excavator.ldr
@@ -220,6 +226,7 @@
 
 
 
+0 STEP
 0 FILE 4525 - Excavator Arm 1.ldr
 0 A long yellow hinged plate forming the upper boom of the excavator arm.
 0 Name: 4525 - Excavator Arm 1.ldr
@@ -233,6 +240,7 @@
 1 14 0 -12 -70 0 0 -1 0 1 0 1 0 0 2431.dat
 
 
+0 STEP
 0 FILE 4525 - Excavator Arm 2.ldr
 0 A yellow hinged plate and tile forming the lower forearm segment of the excavator arm.
 0 Name: 4525 - Excavator Arm 2.ldr

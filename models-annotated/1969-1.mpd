@@ -11,6 +11,7 @@
 1 7 150 -50.81 0 0.866 0 0.5 0 1 0 -0.5 0 0.866 1969 - Minifig.ldr
 
 
+0 STEP
 0 FILE 1969 - Robot.ldr
 0 A wheeled robot body constructed from red and black plates, sloped bricks, grey wheel rims, and hinge control sticks for articulated limbs.
 0 Name: 1969 - Robot.ldr
@@ -82,6 +83,7 @@
 1 7 0 -74 12 1 0 0 0 0 1 0 -1 0 3660.dat
 
 
+0 STEP
 0 FILE 1969 - Robot - Arm.ldr
 0 An articulated robot arm made from a round brick with bar and clip attached to a hinged finger bar.
 0 Name: 1969 - Robot - Arm.ldr
@@ -97,6 +99,7 @@
 1 0 0 16 40 1 0 0 0 1 0 0 0 1 2433.dat
 
 
+0 STEP
 0 FILE 1969 - Minifig.ldr
 0 A Space Police II minifig wearing a white patterned torso, green arms and legs, black airtanks with radio, and a red-haired head with headset.
 0 Name: 1969 - Minifig.ldr
@@ -131,6 +134,7 @@
 1 2 0 44 0 1 0 0 0 0.97437 -0.224951 0 0.224951 0.97437 3817.dat
 
 
+0 STEP
 0 FILE 1969 - Minifig - Helmet.ldr
 0 A standard black minifig helmet with a translucent green visor.
 0 Name: 1969 - Minifig - Helmet.ldr

@@ -1229,6 +1229,7 @@
 1 70 0 -370 892 0 1 0 0 0 1 1 0 0 42054 - log.ldr
 0 // Bar Tube with Clip (black)
 1 0 60 -430 80 0 1 0 0 0 1 1 0 0 11090.dat
+0 STEP
 0 FILE 42054 - chassis2.ldr
 0 Rear lifting assembly built around a linear actuator with drive gears, bent liftarms, and supporting beams.
 0 Name: 42054 - chassis2.ldr
@@ -1378,6 +1379,7 @@
 1 72 110 -100 140 0 0 -1 1 0 0 0 -1 0 59443.dat
 0 // Technic Pin with Friction and Slots (black)
 1 0 90 -20 60 -1 0 0 0 0 -1 0 -1 0 2780.dat
+0 STEP
 0 FILE 42054 - rearaxle.ldr
 0 Rear portal axle assembly using steering wheel hubs, bearings, a long cross beam, and bent cross blocks to mount the wheels.
 0 Name: 42054 - rearaxle.ldr
@@ -1461,6 +1463,7 @@
 1 72 150 -40 0 0 0 -1 0 1 0 1 0 0 92909.dat
 0 // Technic Steering Wheel Hub for Portal Axle (dark_bluish_grey)
 1 72 -150 -40 0 0 0 1 0 1 0 -1 0 0 92909.dat
+0 STEP
 0 FILE 42054 - steering1.ldr
 0 Primary steering linkage with a T-shaped beam, 24-tooth gear, and lime liftarms connecting to the axle.
 0 Name: 42054 - steering1.ldr
@@ -1523,6 +1526,7 @@
 1 0 40 -110 -80 0 1 0 -1 0 0 0 0 1 2780.dat
 0 // Technic Pin with Friction and Slots (black)
 1 0 40 -110 -20 0 1 0 -1 0 0 0 0 1 2780.dat
+0 STEP
 0 FILE 42054 - steering2.ldr
 0 Auxiliary steering linkage of long axles, bent lime liftarms, and cross blocks for articulating the wheels.
 0 Name: 42054 - steering2.ldr
@@ -1550,6 +1554,7 @@
 1 4 50 -10 50 1 0 0 0 -1 0 0 0 -1 32062.dat
 0 // Technic Cross Block 1 x 3 (Axle/Pin/Axle) (red)
 1 4 70 10 10 1 0 0 0 0 -1 0 1 0 32184.dat
+0 STEP
 0 FILE 42054 - steering3.ldr
 0 Steering column extension using angle connectors, perpendicular axle pins, and thin liftarms to route the steering input.
 0 Name: 42054 - steering3.ldr
@@ -1585,6 +1590,7 @@
 1 0 50 -20 -35 1 0 0 0 1 0 0 0 1 2780.dat
 0 // Technic Pin with Friction and Slots (black)
 1 0 50 -20 -15 1 0 0 0 1 0 0 0 1 2780.dat
+0 STEP
 0 FILE 42054 - chassis3.ldr
 0 Gear train section with double-bevel gears, triangle liftarms, and angle connectors transmitting drive through the chassis.
 0 Name: 42054 - chassis3.ldr
@@ -1710,6 +1716,7 @@
 0 // Technic Beam  2 Liftarm (dark_bluish_grey)
 1 72 0 -120 -20 0 0 1 0 -1 0 1 0 0 60483.dat
 0 STEP
+0 STEP
 0 FILE 42054 - chassis4.ldr
 0 Engine and crankshaft subassembly using two crankshafts, bent liftarms, and axle joiners to simulate the motor's moving pistons.
 0 Name: 42054 - chassis4.ldr
@@ -1758,6 +1765,7 @@
 1 0 40 -160 80 -1 0 0 0 0.8 0.6 0 0.6 -0.8 18651.dat
 0 // Technic Axle Joiner  3L with Ridges for Driving Ring (white)
 1 15 0 -160 80 0 0 1 0.8 -0.6 0 0.6 0.8 0 18948.dat
+0 STEP
 0 FILE 42054 - frontaxle.ldr
 0 Front portal axle assembly with steering wheel hubs, bearings, portal axle hubs, and a long beam supporting the wheels.
 0 Name: 42054 - frontaxle.ldr
@@ -1853,6 +1861,7 @@
 1 72 80 -40 -20 0 0 -1 0 1 0 1 0 0 42003.dat
 0 // Technic Pin Long with Stop Bush (light_bluish_grey)
 1 71 80 -20 -20 -1 0 0 0 0 1 0 1 0 32054.dat
+0 STEP
 0 FILE 42054 - motor.ldr
 0 Compact motor mounting bracket of triangle liftarms, an 8-tooth gear, and cross blocks securing the drive motor.
 0 Name: 42054 - motor.ldr
@@ -1880,6 +1889,7 @@
 1 27 30 0 -40 -1 0 0 0 -1 0 0 0 1 6536.dat
 0 // Technic Cross Block 1 x 2 (Axle/Pin) (lime)
 1 27 30 0 40 -1 0 0 0 -1 0 0 0 1 6536.dat
+0 STEP
 0 FILE 42054 - powerFuncMotorM-1.ldr
 0 Power Functions Medium Motor unit with its electrical connector and pre-generated wiring stubs.
 0 Name: 42054 - powerFuncMotorM-1.ldr
@@ -1923,6 +1933,7 @@
 0 //  To ensure correct edge colors those segments are placed in (a) subpart(s).
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 42054 - powerFuncMotorM-1 subPart 1.ldr
 
+0 STEP
 0 FILE 42054 - powerFuncMotorM-1 subPart 1.ldr
 0 Auto-generated flexible cable geometry (subpart) modeling the motor's electrical wire path and credit metadata.
 0 Name: 42054 - powerFuncMotorM-1 subPart 1.ldr
@@ -16348,6 +16359,7 @@
 5 24 80.616783 -110 94.381683 80.749931 -110 93.711998 80.756958 -109.011261 94.329216 80.188705 -113.488838 94.541672
 5 24 80.749931 -110 93.711998 80.616783 -110 93.04232 80.890106 -109.011261 93.659538 80.296684 -113.59301 93.875572
 5 24 80.616783 -110 93.04232 80.237396 -110 92.474403 80.756958 -109.011261 92.989853 80.149178 -113.622108 93.209541
+0 STEP
 0 FILE 42054 - chassis5.ldr
 0 Small chassis linkage of cross blocks, an angle connector, and a beam 7 joining drivetrain elements.
 0 Name: 42054 - chassis5.ldr
@@ -16387,6 +16399,7 @@
 1 72 -20 -60 20 0 0 -1 0 1 0 1 0 0 32524.dat
 0 // Technic Pin Long with Friction and Slot (blue)
 1 1 -20 -60 20 0 0 -1 1 0 0 0 -1 0 6558.dat
+0 STEP
 0 FILE 42054 - chassis6.ldr
 0 Rear hitch assembly featuring a towball pin, long beam, and cross blocks to form the tow coupling point.
 0 Name: 42054 - chassis6.ldr
@@ -16468,6 +16481,7 @@
 1 4 20 -20 -90 0 1 0 0 0 -1 -1 0 0 32062.dat
 0 // Technic Axle  2 Notched (red)
 1 4 100 -20 -90 0 1 0 0 0 -1 -1 0 0 32062.dat
+0 STEP
 0 FILE 42054 - side1.ldr
 0 Tractor side bodywork of bent liftarms, long beams, and studless connectors forming the lower side panel.
 0 Name: 42054 - side1.ldr
@@ -16581,6 +16595,7 @@
 1 1 130 0 0 1 0 0 0 1 0 0 0 1 43093.dat
 0 // Technic Beam  2 x  4 Liftarm Bent 90 (dark_bluish_grey)
 1 72 140 0 0 0 1 0 -1 0 0 0 0 1 32140.dat
+0 STEP
 0 FILE 42054 - ladder.ldr
 0 Access ladder constructed from long beams, bent liftarms, rungs of axles with stop, and rounded detail tiles.
 0 Name: 42054 - ladder.ldr
@@ -16692,6 +16707,7 @@
 1 0 130 -20 60 1 0 0 0 1 0 0 0 1 2780.dat
 0 // Technic Beam  1 (dark_bluish_grey)
 1 72 120 -20 60 0 -1 0 -1 0 0 0 0 -1 18654.dat
+0 STEP
 0 FILE 42054 - mudguard1.ldr
 0 Left wheel mudguard built from curved lime and black liftarms, axle connectors, and a hose connector.
 0 Name: 42054 - mudguard1.ldr
@@ -16759,6 +16775,7 @@
 1 57 40 -20 70 1 0 0 0 0 1 0 -1 0 98138.dat
 0 // Flag  2 x  2 (white)
 1 15 40 -20 -30 0 -1 0 0 0 -1 1 0 0 2335.dat
+0 STEP
 0 FILE 42054 - mudguard2.ldr
 0 Right wheel mudguard mirroring the left, using curved lime and black liftarms, axle connectors, and a hose connector.
 0 Name: 42054 - mudguard2.ldr
@@ -16826,6 +16843,7 @@
 1 57 -40 -20 70 1 0 0 0 0 1 0 -1 0 98138.dat
 0 // Flag  2 x  2 (white)
 1 15 0 -20 -30 0 -1 0 0 0 -1 1 0 0 2335.dat
+0 STEP
 0 FILE 42054 - technicFlexAxle-2.ldr
 0 Auto-generated flexible axle geometry (subpart) representing a bent Technic flex axle and its metadata.
 0 Name: 42054 - technicFlexAxle-2.ldr
@@ -20040,6 +20058,7 @@
 5 24 41.530804 -240.045715 131.081009 41.530804 -238.204163 127.890411 42.828403 -239.294937 131.514832 40.000004 -240.309235 130.92868
 5 24 42.828403 -239.294937 131.514832 42.828403 -237.45314 128.324005 43.695602 -238.171509 132.163895 41.530804 -240.045715 131.081009
 5 24 43.695602 -238.171509 132.163895 43.695599 -236.329376 128.972794 43.999996 -236.846176 132.929565 42.828403 -239.294937 131.514832
+0 STEP
 0 FILE 42054 - bonnet.ldr
 0 Engine bonnet/hood of lime liftarms and beams, angle connectors, and connector panels enclosing the engine bay.
 0 Name: 42054 - bonnet.ldr
@@ -20296,6 +20315,7 @@
 1 47 115.8 -20 226.4 0.48 -0.6 0.64 -0.8 0 0.6 -0.36 -0.8 -0.48 98138.dat
 0 // Tile  1 x  1 Round with Groove (trans_clear)
 1 47 -74.8 -20 226.4 0.48 0.6 0.64 -0.8 0 0.6 0.36 -0.8 0.48 98138.dat
+0 STEP
 0 FILE 42054 - bonnet2.ldr
 0 Bonnet detailing with a bent body panel, double-bent liftarms, engine crankshafts, and lime beams forming the hood contours.
 0 Name: 42054 - bonnet2.ldr
@@ -20363,6 +20383,7 @@
 1 0 70 20 0 -1 0 0 0 0 -1 0 -1 0 2780.dat
 0 // Technic Axle  7 (light_bluish_grey)
 1 71 -1 -100 80 -1 0 0 0 0 -1 0 -1 0 44294.dat
+0 STEP
 0 FILE 42054 - mirror.ldr
 0 Side rearview mirror assembled from smooth panel fairings, a short beam, and pin connectors.
 0 Name: 42054 - mirror.ldr
@@ -20389,6 +20410,7 @@
 1 0 90 -40 120 0 -1 0 1 0 0 0 0 1 15100.dat
 0 // Technic Pin with Friction and Slots (black)
 1 0 90 -30 80 0 -1 0 1 0 0 0 0 1 2780.dat
+0 STEP
 0 FILE 42054 - cabin.ldr
 0 Operator cab built from large white panels, long white beams, window tiles, and studless connectors forming the enclosed cabin.
 0 Name: 42054 - cabin.ldr
@@ -20643,6 +20665,7 @@
 1 0 -130 90 138 0 0 -1 1 0 0 0 -1 0 14769.dat
 0 STEP
 1 1 -80 126.56 -77.505 0 0 -1 0.974 0.225 0 0.225 -0.974 0 42054 - steeringwheel.ldr
+0 STEP
 0 FILE 42054 - cabin2.ldr
 0 Cab frame structure of long beams, bent liftarms, and cross blocks reinforcing the operator cabin.
 0 Name: 42054 - cabin2.ldr
@@ -20703,6 +20726,7 @@
 1 0 -20 0 80 0 0 1 0 1 0 -1 0 0 42054 - cabinside2.ldr
 0 STEP
 1 72 0 -100 20 0 0 1 0 1 0 -1 0 0 42054 - seat.ldr
+0 STEP
 0 FILE 42054 - cabin3.ldr
 0 Steering console and wheel using a grooved wheel rim, bent liftarms, and pins to form the interior steering station.
 0 Name: 42054 - cabin3.ldr
@@ -20736,6 +20760,7 @@
 1 72 20 -20 -40 0 0 -1 -1 0 0 0 1 0 32140.dat
 0 // Technic Axle Pin (tan)
 1 19 20 -20 -50 0 0 1 0 -1 0 1 0 0 3749.dat
+0 STEP
 0 STEP
 0 FILE 42054 - cabin4.ldr
 0 Cabin structure with liftarms, gears, and cross blocks forming a framework with mechanical linkages.
@@ -20811,6 +20836,7 @@
 1 19 70 -20 40 -1 0 0 0 1 0 0 0 -1 3749.dat
 0 // Technic Axle Pin (tan)
 1 19 -30 -20 40 1 0 0 0 1 0 0 0 1 3749.dat
+0 STEP
 0 FILE 42054 - cabinside1.ldr
 0 Cabin interior side panel built from a long beam, T-shaped liftarm, and connector blocks with a decorative tile.
 0 Name: 42054 - cabinside1.ldr
@@ -20852,6 +20878,7 @@
 1 0 -20 4.505 -99.486 0 -1 0 0.225 0 0.974 -0.974 0 0.225 10197.dat
 0 // Technic Connector (Axle/Bush) Type 1 (black)
 1 0 0 -14.981 -103.991 -1 0 0 0 0.225 -0.974 0 -0.974 -0.225 32039.dat
+0 STEP
 0 FILE 42054 - cabinside2.ldr
 0 Cabin interior side panel mirroring cabinside1, using a long beam, T-shaped liftarm, and connector blocks.
 0 Name: 42054 - cabinside2.ldr
@@ -20893,6 +20920,7 @@
 1 0 20 4.505 -99.486 0 1 0 -0.225 0 0.974 0.974 0 0.225 10197.dat
 0 // Technic Connector (Axle/Bush) Type 1 (black)
 1 0 0 -14.981 -103.991 -1 0 0 0 0.225 -0.974 0 -0.974 -0.225 32039.dat
+0 STEP
 0 FILE 42054 - seat.ldr
 0 Operator seat constructed from bent liftarms and cross blocks forming an angled backrest and base.
 0 Name: 42054 - seat.ldr
@@ -20933,6 +20961,7 @@
 1 0 60 70 0 0 0 -1 -1 0 0 0 1 0 2780.dat
 0 // Technic Pin with Friction and Slots (black)
 1 0 -20 70 0 0 0 -1 -1 0 0 0 1 0 2780.dat
+0 STEP
 0 FILE 42054 - steeringwheel.ldr
 0 Steering column assembly with a small steering wheel, liftarms, and indicator tiles in red and green.
 0 Name: 42054 - steeringwheel.ldr
@@ -20993,6 +21022,7 @@
 1 0 -21.102 -53.422 42.161 0.945 0.271 0.183 -0.238 0.954 -0.183 -0.224 0.129 0.966 10247.dat
 0 // Tile  2 x  2 with Groove (black)
 1 0 -23.269 -61.053 41.125 0.945 0.271 0.183 -0.238 0.954 -0.183 -0.224 0.129 0.966 3068b.dat
+0 STEP
 0 FILE 42054 - counterweight.ldr
 0 Rear counterweight block built from dense H-shaped and bent liftarms providing ballast mass.
 0 Name: 42054 - counterweight.ldr
@@ -21133,6 +21163,7 @@
 1 72 0 -50 80 -1 0 0 0 1 0 0 0 -1 15458.dat
 0 // Technic Panel  3 x 11 (dark_bluish_grey)
 1 72 0 -70 80 -1 0 0 0 1 0 0 0 -1 15458.dat
+0 STEP
 0 FILE 42054 - crane.ldr
 0 Large crane superstructure with extensive liftarms, gears, and axles forming the main boom and drive mechanism.
 0 Name: 42054 - crane.ldr
@@ -21676,6 +21707,7 @@
 0 // Technic Gear  8 Tooth Reinforced (dark_bluish_grey)
 1 72 -20 250.382 -595.701 0 0 1 -0.053 0.999 0 -0.999 -0.053 0 10928.dat
 1 71 20 351.756 -370.77 1 0 0 0 0 1 0 -1 0 42054 - cranegripper.ldr
+0 STEP
 0 FILE 42054 - crane2.ldr
 0 Crane gearbox module with an open-center beam, bevel gears, and reinforced gears for power transmission.
 0 Name: 42054 - crane2.ldr
@@ -21726,6 +21758,7 @@
 1 71 -40 -40 0 0 0 -1 -1 0 0 0 1 0 94925.dat
 0 // Technic Gear 16 Tooth Reinforced (light_bluish_grey)
 1 71 40 -40 0 0 0 -1 -1 0 0 0 1 0 94925.dat
+0 STEP
 0 FILE 42054 - craneturntable.ldr
 0 Slewing turntable base with a 60-tooth turntable, angle connectors, and supporting liftarms for rotation.
 0 Name: 42054 - craneturntable.ldr
@@ -21806,6 +21839,7 @@
 1 0 40 50 0 0 0 1 1 0 0 0 1 0 2780.dat
 0 // Technic Beam  3 x  5 Bent 90 (red)
 1 4 40 60 0 1 0 0 0 -1 0 0 0 -1 32526.dat
+0 STEP
 0 FILE 42054 - cranearm.ldr
 0 Telescopic crane arm with long beams, a linear actuator, and universal joints for extension control.
 0 Name: 42054 - cranearm.ldr
@@ -21900,6 +21934,7 @@
 1 4 -80 0 0 0 1 0 0 0 1 1 0 0 32140.dat
 0 // Technic Beam  9 (dark_bluish_grey)
 1 72 -80 -52.298 73.191 0 1 0 0.915 0 0.404 0.404 0 -0.915 40490.dat
+0 STEP
 0 FILE 42054 - cranearm2.ldr
 0 Secondary crane arm section using thin liftarms and bent beams to extend the boom structure.
 0 Name: 42054 - cranearm2.ldr
@@ -21949,6 +21984,7 @@
 1 71 60 30 0 0 0 -1 -1 0 0 0 1 0 3673.dat
 0 // Technic Beam  7 (red)
 1 4 60.219 40 60 -1 0 0.004 0 -1 0 0.004 0 1 32524.dat
+0 STEP
 0 FILE 42054 - cranearm3.ldr
 0 Crane arm extension with a long beam and gear rack for linear telescopic movement.
 0 Name: 42054 - cranearm3.ldr
@@ -21976,6 +22012,7 @@
 1 0 -15 -20 140 0 -1 0 0 0 1 -1 0 0 32056.dat
 0 // Technic Axle  2 Notched (red)
 1 4 0 20 140 1 0 0 0 1 0 0 0 1 32062.dat
+0 STEP
 0 FILE 42054 - cranegripper.ldr
 0 Motorized grabber claw with worm gear, knob gears, and bent liftarms forming opposing jaws.
 0 Name: 42054 - cranegripper.ldr
@@ -22091,6 +22128,7 @@
 1 4 0 100 40 0 0 1 0 -1 0 1 0 0 32062.dat
 0 // Technic Cross Block 1 x 3 (Axle/Pin/Pin) (black)
 1 0 0 120 40 0 0 1 0 1 0 -1 0 0 42003.dat
+0 STEP
 0 FILE 42054 - log.ldr
 0 A cylindrical log made of round grille bricks stacked on a long axle.
 0 Name: 42054 - log.ldr
@@ -22119,6 +22157,7 @@
 1 70 96 0 0 0 1 0 0 0 -1 -1 0 0 92947.dat
 0 // Brick  2 x  2 Round with Grille (reddish_brown)
 1 70 72 0 0 0 1 0 0 0 -1 -1 0 0 92947.dat
+0 STEP
 0 FILE 42054 - 24316.dat
 0 Primitive cylinder assembly with a disc and axle representing a small cylindrical part.
 0 Name: 42054 - 24316.dat
@@ -22134,6 +22173,7 @@
 1 16 28 0 0 0 1 0 -8 0 0 0 0 8 4-4disc.dat
 0 // Cylinder Closed 1.0 (main_colour)
 1 16 30 0 0 0 -2 0 8 0 0 0 0 8 4-4cylc.dat
+0 STEP
 0 FILE 42054 - 18938.dat
 0 Primitive connector part consisting of two one-sided technic connector holes.
 0 Name: 42054 - 18938.dat
@@ -22175,6 +22215,7 @@
 5 24 0 -7.4 -68.998299 0 -5 -68.998299 7.2112 -7.4 -68.619598 -7.2112 -7.4 -68.619598
 5 24 0 -9.1 -68.198303 0 -7.4 -68.998299 7.1276 -9.1 -67.824097 -7.1276 -9.1 -67.824097
 5 24 0 -10 -65.999702 0 -9.1 -68.198303 6.8975 -10 -65.636398 -6.8975 -10 -65.636398
+0 STEP
 0 FILE 42054 - 18575.dat
 0 Primitive geometric mesh defining a rounded cylindrical part with ring and box surfaces.
 0 Name: 42054 - 18575.dat
@@ -22596,6 +22637,7 @@
 4 16 6 0 -10 17 0 -10 16.798 1 -10 5.8011 1 -10
 4 16 6 0 10 17 0 10 16.798 -1 10 5.8011 -1 10
 4 16 16.798 1 10 17 0 10 6 0 10 5.8011 1 10
+0 STEP
 0 FILE 42054 - 23798.dat
 0 Primitive tire definition representing a rubber wheel profile by dimension specification.
 0 Name: 42054 - 23798.dat
@@ -23047,6 +23089,7 @@
 1 16 0 0 -50 10.11112 0 0 0 0 10.11112 0 -1 0 48\4-4rin10.dat
 0 BFC INVERTNEXT
 1 16 0 0 -20 15.8889 0 0 0 0 15.8889 0 -30 0 48\4-4con7.dat
+0 STEP
 0 FILE 42054 - 23801.dat
 0 Primitive wheel rim mesh with cylinders and rings forming the spoke and hub geometry.
 0 Name: 42054 - 23801.dat
@@ -23144,6 +23187,7 @@
 1 16 0 0 -30 -9.56709 0 23.097 -23.097 0 -9.56709 0 23.7 0 1-8cyli.dat
 0 // Technic Connector Hole One-Sided (main_colour)
 1 16 0 -20 0 -1 0 0 0 1 0 0 0 1 connhol3.dat
+0 STEP
 0 FILE 42054 - ldcPwrFuncWire4Seg.dat
 0 Power Functions cable segment with cylindrical sections modeling a flexible wire path.
 0 Name: 42054 - ldcPwrFuncWire4Seg.dat
@@ -23191,6 +23235,7 @@
 1 16 0 1 -1.237 -1.2374 0 -1.2374 0 1 0 1.2374 0 -1.2374 42054 - ldcConRing-1-4.dat
 1 16 0 1 -3.712 -1.2374 0 -1.2374 0 1 0 1.2374 0 -1.2374 42054 - ldcConRing-3-4.dat
 
+0 STEP
 0 FILE 42054 - ldcFlexAxleEndA.dat
 0 Placeholder flex axle end cap primitive with no rendered geometry.
 0 Name: 42054 - ldcFlexAxleEndA.dat
@@ -23207,6 +23252,7 @@
 
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
+0 STEP
 0 FILE 42054 - ldcFlexAxleEndB.dat
 0 Flex axle end cap primitive with a single cylindrical section.
 0 Name: 42054 - ldcFlexAxleEndB.dat
@@ -23224,6 +23270,7 @@
 
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
+0 STEP
 0 FILE 42054 - ldcFlexAxleEndC.dat
 0 Placeholder flex axle end cap primitive with no rendered geometry.
 0 Name: 42054 - ldcFlexAxleEndC.dat
@@ -23240,6 +23287,7 @@
 
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
+0 STEP
 0 FILE 42054 - ldcFlexAxleEndD.dat
 0 Placeholder flex axle end cap primitive with no rendered geometry.
 0 Name: 42054 - ldcFlexAxleEndD.dat
@@ -23256,6 +23304,7 @@
 
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
+0 STEP
 0 FILE 42054 - ldcFlexAxleEndE.dat
 0 Placeholder flex axle end cap primitive with no rendered geometry.
 0 Name: 42054 - ldcFlexAxleEndE.dat
@@ -23272,6 +23321,7 @@
 
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
+0 STEP
 0 FILE 42054 - ldcFlexAxleEndF.dat
 0 Flexible axle end fitting component for the LDCad flexible axle assembly.
 0 Name: 42054 - ldcFlexAxleEndF.dat
@@ -23288,6 +23338,7 @@
 
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
+0 STEP
 0 FILE 42054 - ldcFlexAxleEndG.dat
 0 Flexible axle end fitting component for the LDCad flexible axle assembly.
 0 Name: 42054 - ldcFlexAxleEndG.dat
@@ -23304,6 +23355,7 @@
 
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
+0 STEP
 0 FILE 42054 - ldcFlexAxleMid.dat
 0 Middle segment of a flexible Technic axle, composed of a perimeter axle and connecting elements.
 0 Name: 42054 - ldcFlexAxleMid.dat
@@ -23321,6 +23373,7 @@
 
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
+0 STEP
 0 FILE 42054 - 23948.dat
 0 Simple Technic axle element.
 0 Name: 42054 - 23948.dat
@@ -23332,6 +23385,7 @@
 
 0 // Technic Axle (main_colour)
 1 16 110 0 0 0 -220 0 1 0 0 0 0 1 axle.dat
+0 STEP
 0 FILE 42054 - 55615.dat
 0 Large multi-part Technic connector or hub built from cylinders, discs, rings, pins, and connector holes.
 0 Name: 42054 - 55615.dat
@@ -23689,6 +23743,7 @@
 
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 8 2   R 6 16   S 8 2] [center=true] [slide=true]
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 8 2   R 6 16   S 8 2] [center=true] [slide=true]
+0 STEP
 0 FILE s\42054 - 23801s01.dat
 0 Detailed cylindrical primitive subpart made of cones, rings, and cylinders forming a contoured Technic element.
 0 Name: s\42054 - 23801s01.dat
@@ -24174,6 +24229,7 @@
 3 16 9.5675 23.0975 -3.4442 8.3148 23.3466 -3.4441 2.5 24.502899 -8
 3 16 9.6 -13.4026 -3.4442 8.3149 -14.2614 -3.4442 6.42908 -15.5212 -6.3
 5 24 6.42908 -15.5212 -15 6.42908 -15.5212 -6.3 9.5671 -13.4246 -15 -0.000136 -16.800446 -15
+0 STEP
 0 FILE 42054 - ldcConRing-3-4.dat
 0 Three-quarter connector ring segment used in LDCad path-deformed flexible elements.
 0 Name: 42054 - ldcConRing-3-4.dat
@@ -24200,6 +24256,7 @@
 5 24 -0.9239 0 -0.3827 -0.7071 0 -0.7071 -0.9239 -1 -0.3827 -0.9239 1 -0.3827
 5 24 -0.7071 0 -0.7071 -0.3827 0 -0.9239 -0.7071 -1 -0.7071 -0.7071 1 -0.7071
 5 24 -0.3827 0 -0.9239 0 0 -1 -0.3827 -1 -0.9239 -0.3827 1 -0.9239
+0 STEP
 0 FILE 42054 - ldcConRing-1-4.dat
 0 Quarter connector ring segment used in LDCad path-deformed flexible elements.
 0 Name: 42054 - ldcConRing-1-4.dat
@@ -24219,6 +24276,7 @@
 5 24 0.7071 0 0.7071 0.3827 0 0.9239 0.7071 -1 0.7071 0.7071 1 0.7071
 5 24 0.3827 0 0.9239 0 0 1 0.3827 -1 0.9239 0.3827 1 0.9239
 
+0 STEP
 0 FILE s\42054 - 18938s01.dat
 0 Curved Technic panel or fairing subpart composed of open cylinders, rings, discs, and rectangular surfaces.
 0 Name: s\42054 - 18938s01.dat
@@ -24599,6 +24657,7 @@
 2 24 41.960899 1.45 54.683998 40.505199 -2 52.785999
 2 24 41.960602 4 54.6842 40.786999 4 53.154701
 2 24 53.154701 4 40.786999 54.6842 4 41.960602
+0 STEP
 0 FILE 48\42054 - 1-24ring29.dat
 0 Thin fractional ring primitive generated by the Primitive Generator.
 0 Name: 48\42054 - 1-24ring29.dat
@@ -24611,6 +24670,7 @@
 4 16 30 0 0 29.742001 0 3.915 28.750601 0 3.7845 29 0 0
 4 16 29.742001 0 3.915 28.976999 0 7.764 28.011101 0 7.5052 28.750601 0 3.7845
 0 // Build by Primitive Generator 2
+0 STEP
 0 FILE s\42054 - 18938s02.dat
 0 Rectangular surface subpart forming the flat panel faces of a Technic element.
 0 Name: s\42054 - 18938s02.dat
@@ -24956,6 +25016,7 @@
 4 16 5.4081 -5 71.124298 7.2105 -5 68.620499 12.813 -5 70.169403 9.498 -5 70.694
 4 16 2.056 -5 71.299797 0 -5 69 7.2105 -5 68.620499 5.4081 -5 71.124298
 3 16 -2.056 -5 71.299797 0 -5 69 2.056 -5 71.299797
+0 STEP
 0 FILE s\42054 - 23798s01.dat
 0 Empty subpart serving as a container or assembly reference with no direct pieces.
 0 Name: s\42054 - 23798s01.dat
@@ -25131,6 +25192,7 @@
 5 24 5.748 -129.466995 -17.7719 13.697001 -130.679993 -37.5 19.0762 -112.309998 -50.865398 4.5 -133.460999 -18.5
 5 24 -10.5 -131.007004 -2.5 4.5 -133.460999 -18.5 5.748 -129.466995 -17.7719 -12 -133.031006 -2.5
 5 24 -20.6448 -130.376007 0 -20.510099 -129.529999 12.8105 -40.5233 -124.730003 12.8107 0 -131.143005 12.8105
+0 STEP
 0 FILE 42054 - technicFlexAxle-1.ldr
 0 Complete flexible Technic axle assembly, generated by LDCad, composed of many segments and flexible connectors approximating a curved axle path.
 0 Name: 42054 - technicFlexAxle-1.ldr

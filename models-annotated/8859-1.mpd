@@ -329,6 +329,7 @@
 
 0 // Technic Brick  1 x  4 with Holes (blue)
 1 1 25 -197.356 -138.442 0 0 1 0.875 0.485 0 -0.485 0.875 0 3701.dat
+0 STEP
 0 FILE 8859 - driveline-1.ldr
 0 driveline-1
 0 Name: 8859 - driveline-1.ldr
@@ -353,6 +354,7 @@
 
 
 
+0 STEP
 0 FILE 8859 - driveline-2.ldr
 0 driveline-2
 0 Name: 8859 - driveline-2.ldr
@@ -381,6 +383,7 @@
 
 
 
+0 STEP
 0 FILE 8859 - steering-1.ldr
 0 steering-1
 0 Name: 8859 - steering-1.ldr
@@ -431,6 +434,7 @@
 
 
 
+0 STEP
 0 FILE 8859 - driveline-3.ldr
 0 driveline-3
 0 Name: 8859 - driveline-3.ldr
@@ -449,6 +453,7 @@
 
 
 
+0 STEP
 0 FILE 8859 - steering-2.ldr
 0 steering-2
 0 Name: 8859 - steering-2.ldr
@@ -488,6 +493,7 @@
 
 
 
+0 STEP
 0 FILE 8859 - steering-3.ldr
 0 steering-3
 0 Name: 8859 - steering-3.ldr
@@ -514,6 +520,7 @@
 
 
 
+0 STEP
 0 FILE 8859 - lever-1.ldr
 0 lever-1
 0 Name: 8859 - lever-1.ldr
@@ -574,6 +581,7 @@
 
 
 
+0 STEP
 0 FILE 8859 - trunk.ldr
 0 trunk
 0 Name: 8859 - trunk.ldr
@@ -637,6 +645,7 @@
 
 
 
+0 STEP
 0 FILE 8859 - truck-fender.ldr
 0 truck-fender
 0 Name: 8859 - truck-fender.ldr
@@ -682,6 +691,7 @@
 
 
 
+0 STEP
 0 FILE 8859 - lever-2.ldr
 0 lever-2
 0 Name: 8859 - lever-2.ldr
@@ -700,6 +710,7 @@
 
 
 
+0 STEP
 0 FILE 8859 - seat-1.ldr
 0 seat-1
 0 Name: 8859 - seat-1.ldr
@@ -775,6 +786,7 @@
 
 
 
+0 STEP
 0 FILE 8859 - seat-2.ldr
 0 seat-2
 0 Name: 8859 - seat-2.ldr
@@ -793,6 +805,7 @@
 
 
 
+0 STEP
 0 FILE 8859 - seat-3.ldr
 0 seat-3
 0 Name: 8859 - seat-3.ldr
@@ -821,6 +834,7 @@
 
 
 
+0 STEP
 0 FILE 8859 - engine-1.ldr
 0 engine-1
 0 Name: 8859 - engine-1.ldr
@@ -874,6 +888,7 @@
 
 
 
+0 STEP
 0 FILE 8859 - front-1.ldr
 0 front-1
 0 Name: 8859 - front-1.ldr
@@ -932,6 +947,7 @@
 
 
 
+0 STEP
 0 FILE 8859 - steering-4.ldr
 0 steering-4
 0 Name: 8859 - steering-4.ldr
@@ -960,6 +976,7 @@
 
 
 
+0 STEP
 0 FILE 8859 - cabin-1-r.ldr
 0 cabin-1-r
 0 Name: 8859 - cabin-1-r.ldr
@@ -996,6 +1013,7 @@
 
 
 
+0 STEP
 0 FILE 8859 - cabin-1-l.ldr
 0 cabin-1-l
 0 Name: 8859 - cabin-1-l.ldr
@@ -1034,6 +1052,7 @@
 
 
 
+0 STEP
 0 FILE 8859 - lever-3.ldr
 0 lever-3
 0 Name: 8859 - lever-3.ldr
@@ -1056,6 +1075,7 @@
 
 
 
+0 STEP
 0 FILE 8859 - engine-2.ldr
 0 engine-2
 0 Name: 8859 - engine-2.ldr
@@ -1176,6 +1196,7 @@
 
 
 
+0 STEP
 0 FILE 8859 - hood-1.ldr
 0 hood-1
 0 Name: 8859 - hood-1.ldr
@@ -1200,6 +1221,7 @@
 
 
 
+0 STEP
 0 FILE 8859 - frontlight-1.ldr
 0 frontlight-1
 0 Name: 8859 - frontlight-1.ldr
@@ -1218,6 +1240,7 @@
 
 
 
+0 STEP
 0 FILE 8859 - hood-2.ldr
 0 hood-2
 0 Name: 8859 - hood-2.ldr
@@ -1267,6 +1290,7 @@
 
 
 
+0 STEP
 0 FILE 8859 - hood-3.ldr
 0 hood-3
 0 Name: 8859 - hood-3.ldr
@@ -1295,6 +1319,7 @@
 
 
 
+0 STEP
 0 FILE 8859 - equipmentA-1.ldr
 0 A large yellow Technic equipment substructure built from long holed bricks and plates, reinforced with axles, pins, bushes, and toggle joint connectors.
 0 Name: 8859 - equipmentA-1.ldr
@@ -1700,6 +1725,7 @@
 
 
 
+0 STEP
 0 FILE 8859 - equipmentA-2.ldr
 0 A flat yellow platform made of wide plates forming a sturdy base panel.
 0 Name: 8859 - equipmentA-2.ldr
@@ -1722,6 +1748,7 @@
 
 
 
+0 STEP
 0 FILE 8859 - equipmentA-3.ldr
 0 A small yellow Technic bracket combining holed bricks and plates for structural mounting.
 0 Name: 8859 - equipmentA-3.ldr
@@ -1742,6 +1769,7 @@
 
 
 
+0 STEP
 0 FILE 8859 - equipmentA-4.ldr
 0 A compact Technic joint assembly using a pin, axle, and toggle joint connectors for articulation.
 0 Name: 8859 - equipmentA-4.ldr
@@ -1762,6 +1790,7 @@
 
 
 
+0 STEP
 0 FILE 8859 - equipmentA-5.ldr
 0 A small Technic joint linkage made of an axle and two toggle joint connectors secured with a half pin.
 0 Name: 8859 - equipmentA-5.ldr
@@ -1783,6 +1812,7 @@
 
 
 
+0 STEP
 0 FILE 8859 - equipmentA-6.ldr
 0 A reinforced yellow Technic axle module using half bushes, short axles, and holed Technic plates for support.
 0 Name: 8859 - equipmentA-6.ldr

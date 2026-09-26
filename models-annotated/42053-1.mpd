@@ -724,6 +724,7 @@
 0 // Tile  2 x  2 Round with Hole (black)
 1 0 -153 -72 -300 0 1 0 -1 0 0 0 0 1 15535.dat
 
+0 STEP
 0 FILE 42053 - frontaxlesteer.ldr
 0 Front steering axle assembly with yellow beam 9 liftarms, a gear rack, and bushings that mount and steer the front wheels.
 0 Name: 42053 - frontaxlesteer.ldr
@@ -800,6 +801,7 @@
 1 71 0 -40 0 -1 0 0 0 0 1 0 1 0 4519.dat
 0 STEP
 
+0 STEP
 0 FILE 42053 - frontaxle.ldr
 0 Front axle built from bent liftarms, angle connectors, and axle connectors linking the wheels to the steering linkage.
 0 Name: 42053 - frontaxle.ldr
@@ -848,6 +850,7 @@
 0 STEP
 1 1 40 -60 -80 -1 0 0 0 -1 0 0 0 1 42053 - frontaxlesteer.ldr
 
+0 STEP
 0 FILE 42053 - rearaxle.ldr
 0 Rear axle assembly with beam 11 liftarms, a driving ring joiner, and cross blocks supporting the rear wheels and drivetrain.
 0 Name: 42053 - rearaxle.ldr
@@ -931,6 +934,7 @@
 0 // Technic Beam  1 (dark_bluish_grey)
 1 72 60 -60 0 1 0 0 0 1 0 0 0 1 18654.dat
 
+0 STEP
 0 FILE 42053 - rearaxle2.ldr
 0 Secondary rear axle section using bent liftarms and cross blocks to support the rear wheel mounting and drivetrain.
 0 Name: 42053 - rearaxle2.ldr
@@ -972,6 +976,7 @@
 0 // Technic Beam  2 x  4 Liftarm Bent 90 (yellow)
 1 14 -20 40 -100 0 -1 0 0 0 -1 1 0 0 32140.dat
 
+0 STEP
 0 FILE 42053 - outrigger.ldr
 0 Stabilizer outrigger made of bent liftarms and cross blocks that can extend down to support the vehicle during lifting operations.
 0 Name: 42053 - outrigger.ldr
@@ -1010,6 +1015,7 @@
 0 // Technic Beam  2 x  4 Liftarm Bent 90 (black)
 1 0 20 0 0 0 1 0 1 0 0 0 0 -1 32140.dat
 
+0 STEP
 0 FILE 42053 - chassis2.ldr
 0 Central chassis frame section with beam 11 liftarms and cross blocks connecting the axles and body structure.
 0 Name: 42053 - chassis2.ldr
@@ -1091,6 +1097,7 @@
 0 // Technic Cross Block 2 x 2 Split (Axle/Twin Pin) (black)
 1 0 40 -40 50 0 0 1 0 -1 0 1 0 0 41678.dat
 
+0 STEP
 0 FILE 42053 - chassisside1.ldr
 0 Left chassis side panel using orange and yellow beams joined by axle joiners to form the frame side.
 0 Name: 42053 - chassisside1.ldr
@@ -1136,6 +1143,7 @@
 0 // Technic Beam  9 (black)
 1 0 -20 -60 -60 0 1 0 -1 0 0 0 0 1 40490.dat
 
+0 STEP
 0 FILE 42053 - chassisside2.ldr
 0 Right chassis side panel mirroring the left, using orange and yellow beams joined by axle joiners.
 0 Name: 42053 - chassisside2.ldr
@@ -1177,6 +1185,7 @@
 0 // Technic Beam  9 (black)
 1 0 20 -60 -60 0 -1 0 1 0 0 0 0 1 40490.dat
 
+0 STEP
 0 FILE 42053 - frontblade.ldr
 0 Angled front dozer blade assembly with beam 15 liftarms, angle connectors, and round transparent plates for lights.
 0 Name: 42053 - frontblade.ldr
@@ -1298,6 +1307,7 @@
 0 // Technic Beam 15 (black)
 1 0 0 40 -30 0 0 1 1 0 0 0 1 0 32278.dat
 
+0 STEP
 0 FILE 42053 - pneumaticHoseLQ-01.ldr
 0 Short pneumatic hose routing 56 tube segments connecting two pneumatic components.
 0 Name: 42053 - pneumaticHoseLQ-01.ldr
@@ -1447,6 +1457,7 @@
 1 16 -80.000646 2.419968 -25.005889 0.999098 -0.035573 0.04216 0.006073 6.96461 -0.022829 -0.042031 0.160681 0.99885 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 -79.998774 -0.523381 -25.005257 0.999901 -0.006484 0.013978 0.001715 3.983194 -0.006247 -0.013968 0.024975 0.999883 166.dat
+0 STEP
 0 FILE 42053 - pneumaticswitches.ldr
 0 Mounting bracket holding three pneumatic valves with T-pieces and connectors for controlling the pneumatic functions.
 0 Name: 42053 - pneumaticswitches.ldr
@@ -1524,6 +1535,7 @@
 0 STEP
 1 0 0 40 -40 0 0 -1 1 0 0 0 -1 0 42053 - rearpanel.ldr
 
+0 STEP
 0 FILE 42053 - pneumaticHoseLQ-02.ldr
 0 Very short pneumatic hose of 16 tube segments used between closely spaced pneumatic fittings.
 0 Name: 42053 - pneumaticHoseLQ-02.ldr
@@ -1592,6 +1604,7 @@
 1 16 0 -0.027164 48.584652 1 0 0 0 -0.259495 0.997935 0 -4.031991 -0.064226 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 0 0.012365 51.572607 1 0 0 0 -0.084577 0.999781 0 -4.039448 -0.020933 166.dat
+0 STEP
 0 FILE 42053 - pneumaticHoseLQ-03.ldr
 0 Medium pneumatic hose of 37 tube segments routing between pneumatic components.
 0 Name: 42053 - pneumaticHoseLQ-03.ldr
@@ -1703,6 +1716,7 @@
 1 16 -72.87851 12.995139 72.513078 0.055872 4.011265 0.04549 0.430942 -0.262174 0.900022 0.900648 -0.123397 -0.433464 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 -75.705844 13.018174 72.524437 0.017194 4.020782 0.013008 0.475053 -0.07889 0.879738 0.879789 -0.035982 -0.47528 166.dat
+0 STEP
 0 FILE 42053 - pneumaticHoseLQ-04.ldr
 0 Medium-long pneumatic hose of 66 tube segments connecting pneumatic elements.
 0 Name: 42053 - pneumaticHoseLQ-04.ldr
@@ -1872,6 +1886,7 @@
 1 16 -15.906412 -80.011655 54.414216 -0.979634 0.80287 0.005443 0.000564 -0.097427 0.999703 0.200791 3.917385 0.023747 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 -16.032954 -79.996061 51.456503 -0.997777 0.266547 0.000933 0.000395 -0.032347 0.999967 0.066642 3.990978 0.008042 166.dat
+0 STEP
 0 FILE 42053 - pneumaticHoseLQ-06.ldr
 0 Medium pneumatic hose of 37 tube segments routing between pneumatic components.
 0 Name: 42053 - pneumaticHoseLQ-06.ldr
@@ -1982,6 +1997,7 @@
 1 16 -27.855225 39.985748 105.97157 0.089362 4.012684 0.043643 -0.000311 -0.176594 0.999041 0.995999 -0.360078 -0.003604 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 -30.702361 40.009202 106.018827 0.028735 4.030609 0.014107 0.000158 -0.056932 0.9999 0.999587 -0.115858 -0.000564 166.dat
+0 STEP
 0 FILE 42053 - rearpanel.ldr
 0 Rear counterweight and body panel built from bent panels and fairings giving the excavator its rounded rear shape.
 0 Name: 42053 - rearpanel.ldr
@@ -2050,6 +2066,7 @@
 0 // Technic Pin Long with Stop Bush (black)
 1 0 0 20 0 -1 0 0 0 -1 0 0 0 1 32054.dat
 
+0 STEP
 0 FILE 42053 - arm.ldr
 0 Excavator boom and stick arm with two pneumatic cylinders, long technic bricks, and plates forming the articulated lifting arm.
 0 Name: 42053 - arm.ldr
@@ -2198,6 +2215,7 @@
 0 // Tile  1 x  3 (black)
 1 0 20 43.394 150.291 -1 0 0 0 0.625 -0.781 0 -0.781 -0.625 63864.dat
 
+0 STEP
 0 FILE 42053 - pneumaticHoseLQ-07.ldr
 0 Long pneumatic hose of 212 tube segments routing to one of the arm cylinders.
 0 Name: 42053 - pneumaticHoseLQ-07.ldr
@@ -2661,6 +2679,7 @@
 1 16 -108.846402 253.18018 -364.054569 -0.961637 1.096486 -0.018185 -0.105602 -1.234568 0.945445 0.253184 3.649717 0.325273 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 -109.052474 254.377689 -366.68189 -0.995337 0.386288 -0.00221 -0.040961 -1.609622 0.914803 0.087327 3.647845 0.403894 166.dat
+0 STEP
 0 FILE 42053 - pneumaticHoseLQ-08.ldr
 0 Long pneumatic hose of 235 tube segments routing to a pneumatic actuator.
 0 Name: 42053 - pneumaticHoseLQ-08.ldr
@@ -3171,6 +3190,7 @@
 1 16 -131.001824 103.433514 -364.73013 -0.999949 0.040497 -0.000539 -0.003708 -1.262784 0.948853 0.009436 3.795226 0.315717 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 -131.002811 104.537714 -367.033419 -0.999995 0.012435 0.000462 -0.000831 -1.613399 0.915045 0.003031 3.660162 0.40335 166.dat
+0 STEP
 0 FILE 42053 - pneumaticHoseLQ-09.ldr
 0 Long pneumatic hose of 163 tube segments routing between pneumatic components.
 0 Name: 42053 - pneumaticHoseLQ-09.ldr
@@ -3537,6 +3557,7 @@
 1 16 31.011759 -307.827758 449.049482 0.023563 0.055232 0.999627 -0.475485 -3.522353 0.02334 0.879408 -1.905973 -0.014165 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 30.996097 -305.114703 449.822537 0.007806 0.024571 1.000394 -0.303016 -3.82055 0.008346 0.953418 -1.213895 -0.006453 166.dat
+0 STEP
 0 FILE 42053 - pneumaticHoseLQ-10.ldr
 0 Long pneumatic hose of 196 tube segments routing to a pneumatic function.
 0 Name: 42053 - pneumaticHoseLQ-10.ldr
@@ -3969,6 +3990,7 @@
 1 16 9.00708 -338.999129 593.600026 0.000277 0.062588 0.999878 -0.367625 -3.722904 0.01464 0.929974 -1.47171 0.00549 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 8.997276 -336.148107 594.314455 -0.000088 0.020785 0.999986 -0.262336 -3.863452 0.004986 0.964976 -1.050305 0.001448 166.dat
+0 STEP
 0 FILE 42053 - pneumaticHoseLQ-11.ldr
 0 Long pneumatic hose of 140 tube segments routing between pneumatic components.
 0 Name: 42053 - pneumaticHoseLQ-11.ldr
@@ -4290,6 +4312,7 @@
 1 16 -108.450002 -249.056326 708.823995 0.999909 0.05392 -0.000173 0.008753 -2.564001 0.768168 0.010231 -3.076299 -0.640248 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 -108.460518 -247.2061 710.879387 0.999988 0.019537 -0.000032 0.003271 -2.66339 0.745946 0.003619 -2.987536 -0.665012 166.dat
+0 STEP
 0 FILE 42053 - pneumaticHoseLQ-12.ldr
 0 Long pneumatic hose of 153 tube segments routing to a pneumatic actuator.
 0 Name: 42053 - pneumaticHoseLQ-12.ldr
@@ -4637,6 +4660,7 @@
 1 16 -50.753819 -249.0863 708.798245 0.999907 -0.054728 -0.000012 -0.008774 -2.573782 0.766101 -0.010477 -3.067862 -0.64272 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 -50.74444 -247.217578 710.863776 0.999989 -0.018836 -0.000081 -0.003077 -2.668388 0.744804 -0.003558 -2.982823 -0.66629 166.dat
+0 STEP
 0 FILE 42053 - pumpside.ldr
 0 Side body panel of the pump housing area using yellow panels and beams to form the lower chassis cladding.
 0 Name: 42053 - pumpside.ldr
@@ -4724,6 +4748,7 @@
 0 // Technic Axle  4 with Middle Cylindrical Stop (tan)
 1 19 110 60 100 -1 0 0 0 0 -1 0 -1 0 99008.dat
 
+0 STEP
 0 FILE 42053 - grabber.ldr
 0 Pneumatic clamshell bucket assembly with two excavator buckets, liftarms, and a pneumatic cylinder for opening and closing.
 0 Name: 42053 - grabber.ldr
@@ -4831,6 +4856,7 @@
 0 // Technic Bush  1/2 Smooth with Axle Hole Reduced (light_bluish_grey)
 1 71 55 317.388 -310.111 0 0 1 -0.412 -0.911 0 0.911 -0.412 0 32123a.dat
 
+0 STEP
 0 FILE 42053 - grabberarm.ldr
 0 Bent liftarm arm assembly with curved slope panels, bricks, and plates forming the grabber arm structure.
 0 Name: 42053 - grabberarm.ldr
@@ -4891,6 +4917,7 @@
 0 // Tile  1 x  3 (black)
 1 0 20 -34 -50 0 0 1 0 1 0 -1 0 0 63864.dat
 
+0 STEP
 0 FILE 42053 - pneumaticHoseLQ-13.ldr
 0 Approximately 148mm pneumatic tube hose with bulged tube ends connecting pneumatic components.
 0 Name: 42053 - pneumaticHoseLQ-13.ldr
@@ -5054,6 +5081,7 @@
 1 16 40.248698 86.013076 283.850835 0.99994 0.714962 -0.002185 0.009065 -46.989507 0.711632 0.006071 -47.599284 -0.702549 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 39.994127 113.677515 311.208333 0.99999 0.175826 -0.000927 0.003775 -28.312983 0.705217 0.002448 -28.162542 -0.70899 166.dat
+0 STEP
 0 FILE 42053 - pneumaticHoseLQ-14.ldr
 0 Approximately 154mm pneumatic tube hose with bulged tube ends connecting pneumatic components.
 0 Name: 42053 - pneumaticHoseLQ-14.ldr
@@ -5203,6 +5231,7 @@
 1 16 -39.971676 76.445283 344.585012 0.998883 0.188712 0.000619 0.032777 -2.804723 0.71118 0.034037 -2.83715 -0.70301 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 -40.008053 78.485931 346.615902 0.999861 0.066494 0.000282 0.01159 -2.827725 0.706112 0.011955 -2.819762 -0.7081 166.dat
+0 STEP
 0 FILE 42053 - cabinsupport.ldr
 0 Cab support structure with gears, worm gear, axles, and triangle liftarms providing mechanical mounting and gearing.
 0 Name: 42053 - cabinsupport.ldr
@@ -5297,6 +5326,7 @@
 1 0 50 -20 40 0 -1 0 -0.5 0 -0.866 0.866 0 -0.5 42053 - 33299b.dat
 0 STEP
 
+0 STEP
 0 FILE 42053 - cabinsupport2.ldr
 0 Secondary cab support bracket using an 11-long liftarm, bent beam, and connectors for structural reinforcement.
 0 Name: 42053 - cabinsupport2.ldr
@@ -5332,6 +5362,7 @@
 0 // Tile  2 x  2 with Pin (dark_bluish_grey)
 1 72 -60 -60 -30 0 0 1 1 0 0 0 1 0 2460.dat
 
+0 STEP
 0 FILE 42053 - cabin.ldr
 0 Main excavator cab frame built from numerous beams, pins, and cross blocks forming the operator cabin structure.
 0 Name: 42053 - cabin.ldr
@@ -5700,6 +5731,7 @@
 0 // Tile  2 x  2 with Groove (black)
 1 0 -92.675 167.448 -57.059 0 -0.407 0.913 -0.966 0.236 0.105 -0.259 -0.882 -0.393 3068b.dat
 
+0 STEP
 0 FILE 42053 - pneumaticHoseLQ-05.ldr
 0 Short approximately 21mm pneumatic tube hose segment with bulged tube ends.
 0 Name: 42053 - pneumaticHoseLQ-05.ldr
@@ -5738,6 +5770,7 @@
 0 //Segments
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 -13 3.483335 52.499995 0.866025 0 0.5 -0.5 0.000009 0.866025 0 -52.99999 0 166.dat
+0 STEP
 0 FILE 42053 - seat.ldr
 0 Operator seat assembly with a bent panel backrest, liftarms, and axles forming the seat shape.
 0 Name: 42053 - seat.ldr
@@ -5800,6 +5833,7 @@
 0 // Technic Beam  2 x  0.5 Liftarm (dark_bluish_grey)
 1 72 -35 -19.637 -56.207 0 -1 0 -0.982 0 -0.19 0.19 0 -0.982 41677.dat
 
+0 STEP
 0 FILE 42053 - cabinroof.ldr
 0 Yellow cabin roof frame built from liftarms, beams, and axles forming the roof structure.
 0 Name: 42053 - cabinroof.ldr
@@ -5860,6 +5894,7 @@
 0 // Technic Pin with Friction with Perpendicular Pin Hole Type 1 (black)
 1 0 70 80 60 1 0 0 0 -1 0 0 0 -1 15100.dat
 
+0 STEP
 0 FILE 42053 - rigid3mmHose-1.ldr
 0 Approximately 69mm rigid 3mm hose made of tube segments for pneumatic or fluid routing.
 0 Name: 42053 - rigid3mmHose-1.ldr
@@ -6155,6 +6190,7 @@
 5 24 55.7654 17.719501 130.543503 55.7654 17.308416 129.01001 56.4142 18.138327 130.431274 55 17.572489 130.582901
 5 24 56.4142 18.138327 130.431274 56.4142 17.727373 128.89827 56.847801 18.76502 130.263351 55.7654 17.719501 130.543503
 5 24 56.847801 18.76502 130.263351 56.847801 18.354261 128.731079 57 19.504339 130.065262 56.4142 18.138327 130.431274
+0 STEP
 0 FILE 42053 - technicFlexAxle-1.ldr
 0 Approximately 89mm flexible Technic axle composed of multiple segments for suspension or structural use.
 0 Name: 42053 - technicFlexAxle-1.ldr
@@ -7804,6 +7840,7 @@
 5 24 1.5308 -217.240692 -39.284641 1.5308 -213.745621 -38.350376 2.8284 -217.465149 -38.446991 0 -217.161911 -39.578671
 5 24 2.8284 -217.465149 -38.446991 2.8284 -213.968292 -37.512253 3.6956 -217.80098 -37.193604 1.5308 -217.240692 -39.284641
 5 24 3.6956 -217.80098 -37.193604 3.6956 -214.301468 -36.258156 4 -218.197189 -35.714966 2.8284 -217.465149 -38.446991
+0 STEP
 0 FILE 42053 - technicflexSysHose-1.ldr
 0 Approximately 64mm flexible system hose made of tube segments for pneumatic routing.
 0 Name: 42053 - technicflexSysHose-1.ldr
@@ -8182,6 +8219,7 @@
 5 24 1.5308 -96 -3.6956 1.5308 -95.146294 -3.694568 2.8284 -96 -2.8284 0 -96 -4
 5 24 2.8284 -96 -2.8284 2.8284 -95.148323 -2.82737 3.6956 -96 -1.5308 1.5308 -96 -3.6956
 5 24 3.6956 -96 -1.5308 3.6956 -95.151367 -1.529774 4 -96 0 2.8284 -96 -2.8284
+0 STEP
 0 FILE 42053 - sidepanelleft.ldr
 0 Left side panel assembly with a 3x11 panel, liftarms, and pins forming the bodywork side.
 0 Name: 42053 - sidepanelleft.ldr
@@ -8237,6 +8275,7 @@
 0 // Technic Beam  5 (black)
 1 0 0 -40 60 1 0 0 0 -1 0 0 0 -1 32316.dat
 
+0 STEP
 0 FILE 42053 - toppanel.ldr
 0 Top bodywork panel with a 3x11 panel, liftarms, and cross blocks forming the upper structure.
 0 Name: 42053 - toppanel.ldr
@@ -8289,6 +8328,7 @@
 0 // Technic Beam  5 (black)
 1 0 -120 -20 -40 0 0 1 1 0 0 0 1 0 32316.dat
 
+0 STEP
 0 FILE 42053 - toppanel2.ldr
 0 Secondary top panel with bent liftarms, plates, and a 33-degree slope brick forming angled bodywork detail.
 0 Name: 42053 - toppanel2.ldr
@@ -8344,6 +8384,7 @@
 0 // Technic Beam  5 (black)
 1 0 30 -40 -35 0 0 1 1 0 0 0 1 0 32316.dat
 
+0 STEP
 0 FILE 42053 - 18938.dat
 0 Technic connector hole subpart with one-sided connector holes.
 0 Name: 42053 - 18938.dat
@@ -8386,6 +8427,7 @@
 5 24 0 -9.1 -68.198303 0 -7.4 -68.998299 7.1276 -9.1 -67.824097 -7.1276 -9.1 -67.824097
 5 24 0 -10 -65.999702 0 -9.1 -68.198303 6.8975 -10 -65.636398 -6.8975 -10 -65.636398
 
+0 STEP
 0 FILE 42053 - 26288-p2.dat
 0 Technic pneumatic pump 2x2 base with a 3L beam and black cap subpart.
 0 Name: 42053 - 26288-p2.dat
@@ -8399,6 +8441,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 42053 - 26280c01.dat
 1 0 0 -210 0 1 0 0 0 1 0 0 0 1 42053 - u9329.dat
 
+0 STEP
 0 FILE 42053 - 33299b.dat
 0 Technic pneumatic valve subpart consisting of axle holes, peg holes, and rings.
 0 Name: 42053 - 33299b.dat
@@ -8436,6 +8479,7 @@
 4 16 6.36 10 33.637001 3.444 10 31.684999 3.062 10 32.609001 5.657 10 34.342999
 4 16 3.444 10 31.684999 0 10 31 0 10 32 3.062 10 32.609001
 
+0 STEP
 0 FILE 42053 - 47223d-f1.dat
 0 Technic pneumatic valve side cover with attached lever subpart.
 0 Name: 42053 - 47223d-f1.dat
@@ -8451,6 +8495,7 @@
 0 // ~Technic Pneumatic Valve Lever (black)
 1 0 0 0 -39 1 0 0 0 1 0 0 0 1 4695.dat
 
+0 STEP
 0 FILE 42053 - 19466c01.dat
 0 Technic pneumatic cylinder 2x11 body with two ports subpart.
 0 Name: 42053 - 19466c01.dat
@@ -8464,6 +8509,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 42053 - 19466.dat
 1 0 0 -178 0 1 0 0 0 1 0 0 0 1 42053 - u9306.dat
 
+0 STEP
 0 FILE 42053 - 19467c01.dat
 0 Technic pneumatic cylinder 2x11 piston head subpart.
 0 Name: 42053 - 19467c01.dat
@@ -8477,6 +8523,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 42053 - 19467.dat
 1 494 0 19 0 1 0 0 0 1 0 0 0 1 42053 - u9113.dat
 
+0 STEP
 0 FILE 42053 - 19482-f1.dat
 0 Small Technic pneumatic cylinder 1x1 for pump with cap and piston rod subpart.
 0 Name: 42053 - 19482-f1.dat
@@ -8494,6 +8541,7 @@
 0 // ~Technic Pneumatic Cylinder  1 x  1 Piston Rod (black)
 1 0 0 -100 0 1 0 0 0 1 0 0 0 1 2944.dat
 
+0 STEP
 0 FILE 42053 - 18943.dat
 0 Geometric connector subpart composed of boxes, rectangles, and cylinder primitives defining hole geometry.
 0 Name: 42053 - 18943.dat
@@ -8565,6 +8613,7 @@
 2 24 -66 76.804497 -57.170101 66 76.804497 -57.170101
 4 16 -66 76.804497 -57.170101 66 76.804497 -57.170101 70 78 -57.352001 -70 78 -57.352001
 
+0 STEP
 0 FILE 42053 - 2947-v2.dat
 0 Primitive stud/cylinder geometric subpart composed of circles, cones, and cylinders.
 0 Name: 42053 - 2947-v2.dat
@@ -8608,6 +8657,7 @@
 0 // Cylinder Closed 1.0 (main_colour)
 1 16 0 -60 -10 2 0 0 0 0 2 0 -16 0 4-4cylc.dat
 
+0 STEP
 0 FILE 42053 - ldcRigid3mmHoseCap.dat
 0 Cap for a 3mm rigid hose composed of cylinders, rings, and circle primitives.
 0 Name: 42053 - ldcRigid3mmHoseCap.dat
@@ -8638,6 +8688,7 @@
 0 //  It will also take care of segment overlapping control points
 1 16 0 1 0 4 0 0 0 1 0 0 0 4 42053 - ldcConRing-4-4.dat
 
+0 STEP
 0 FILE 42053 - ldcFlexAxleEndA.dat
 0 Placeholder end piece for a flexible axle with no meaningful geometry defined.
 0 Name: 42053 - ldcFlexAxleEndA.dat
@@ -8655,6 +8706,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 42053 - ldcFlexAxleEndB.dat
 0 Flexible axle end piece consisting of a single cylinder primitive.
 0 Name: 42053 - ldcFlexAxleEndB.dat
@@ -8673,6 +8725,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 42053 - ldcFlexAxleEndC.dat
 0 Placeholder end piece for a flexible axle with no meaningful geometry defined.
 0 Name: 42053 - ldcFlexAxleEndC.dat
@@ -8690,6 +8743,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 42053 - ldcFlexAxleEndD.dat
 0 Placeholder end piece for a flexible axle with no meaningful geometry defined.
 0 Name: 42053 - ldcFlexAxleEndD.dat
@@ -8707,6 +8761,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 42053 - ldcFlexAxleEndE.dat
 0 Placeholder end piece for a flexible axle with no meaningful geometry defined.
 0 Name: 42053 - ldcFlexAxleEndE.dat
@@ -8724,6 +8779,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 42053 - ldcFlexAxleEndF.dat
 0 Placeholder end piece for a flexible axle with no meaningful geometry defined.
 0 Name: 42053 - ldcFlexAxleEndF.dat
@@ -8741,6 +8797,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 42053 - ldcFlexAxleEndG.dat
 0 Placeholder end piece for a flexible axle with no meaningful geometry defined.
 0 Name: 42053 - ldcFlexAxleEndG.dat
@@ -8758,6 +8815,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE s\42053 - 18938s01.dat
 0 Curved subpart of part 18938 built from open cylinders, discs, rings, and rectangles.
 0 Name: s\42053 - 18938s01.dat
@@ -9139,6 +9197,7 @@
 2 24 41.960602 4 54.6842 40.786999 4 53.154701
 2 24 53.154701 4 40.786999 54.6842 4 41.960602
 
+0 STEP
 0 FILE 48\42053 - 1-24ring29.dat
 0 Generated 1/24 circular ring primitive at radius 29.
 0 Name: 48\42053 - 1-24ring29.dat
@@ -9152,6 +9211,7 @@
 4 16 29.742001 0 3.915 28.976999 0 7.764 28.011101 0 7.5052 28.750601 0 3.7845
 0 // Build by Primitive Generator 2
 
+0 STEP
 0 FILE s\42053 - 18938s02.dat
 0 Flat rectangular subpart of part 18938 made entirely of rectangle primitives with various edge configurations.
 0 Name: s\42053 - 18938s02.dat
@@ -9498,6 +9558,7 @@
 4 16 2.056 -5 71.299797 0 -5 69 7.2105 -5 68.620499 5.4081 -5 71.124298
 3 16 -2.056 -5 71.299797 0 -5 69 2.056 -5 71.299797
 
+0 STEP
 0 FILE s\42053 - 33299s01.dat
 0 Subpart of part 33299 featuring cylinders, circles, rings, discs, and a technic pin base collar.
 0 Name: s\42053 - 33299s01.dat
@@ -9768,6 +9829,7 @@
 5 24 -4.9498 0 35.050098 -4.9498 10 35.050098 -6 0 36.661999 -2.6788 0 33.5327
 5 24 4.9497 10 35.050301 4.9498 0 35.050201 6 0 36.661999 2.6788 10 33.5327
 
+0 STEP
 0 FILE 42053 - 26280c01.dat
 0 Composite technic pneumatic pump assembly combining a 2x2 base with a 3L beam.
 0 Name: 42053 - 26280c01.dat
@@ -9781,6 +9843,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 42053 - 26280.dat
 1 0 0 -128 0 1 0 0 0 1 0 0 0 1 42053 - u9330.dat
 
+0 STEP
 0 FILE 42053 - 26280.dat
 0 Technic pneumatic pump body detailed with cylinders, circles, rings, chords, and sloped cylinder sections.
 0 Name: 42053 - 26280.dat
@@ -10026,6 +10089,7 @@
 5 24 -14.1427 -16 -14.1427 -9.7 -15.9972 -17.1105 -14.0078 -15.0428 -14.0078 -14.142 -104 -14.142
 5 24 -14.1427 -16 14.1427 -9.7 -15.9972 17.1105 -14.0078 -15.0428 14.0078 -14.142 -104 14.142
 
+0 STEP
 0 FILE 42053 - u9330.dat
 0 Cylindrical technic part constructed from varied cylinders, circles, rings, and negative discs.
 0 Name: 42053 - u9330.dat
@@ -10128,6 +10192,7 @@
 0 // Cylinder 0.375 (main_colour)
 1 16 0 4 0 -18.4776 0 7.65367 0 10 0 -7.65367 0 -18.4776 3-8cyli.dat
 
+0 STEP
 0 FILE 42053 - u9329.dat
 0 Box-like technic connector made of a closed cylinder and two three-face boxes without parallel edges.
 0 Name: 42053 - u9329.dat
@@ -10168,6 +10233,7 @@
 5 24 0 17 -18 0 0 -18 0.7654 0 -17.847799 -0.7654 0 -17.847799
 5 24 -2 1.26 -6.3523 -6 1.098 -6 -6 0.63 -11.9156 -6 1.26 -2.9368
 
+0 STEP
 0 FILE s\42053 - u9329s01.dat
 0 Subpart of part u9329 with open cylinders, chords, circles, discs, and rectangles defining its shape.
 0 Name: s\42053 - u9329s01.dat
@@ -10363,6 +10429,7 @@
 5 24 1.4142 0.0426 17.4142 1.4142 17 17.4142 1.8478 0.1214 16.7654 0.7654 0 17.847799
 5 24 0.7654 0 17.847799 0.7654 17 17.847799 1.4142 0.0426 17.4142 0 0 18
 
+0 STEP
 0 FILE 42053 - 47222-v2.dat
 0 Pneumatic cylinder component made of open cylinders, circles, cones, and rings.
 0 Name: 42053 - 47222-v2.dat
@@ -10419,6 +10486,7 @@
 0 // Cylinder Open 1.0 (main_colour)
 1 16 7 -11 -30 0 19 0 0 0 2 2 0 0 4-4cylo.dat
 
+0 STEP
 0 FILE s\42053 - 47222s01.dat
 0 Subpart of part 47222 with negative discs, rectangles, boxes, circles, and long technic connector holes.
 0 Name: s\42053 - 47222s01.dat
@@ -10550,6 +10618,7 @@
 2 24 10 26 -6.6074 10 26.364201 -6.3641
 2 24 -10 26 -6.6074 -10 26.364201 -6.3641
 
+0 STEP
 0 FILE 42053 - 19466.dat
 0 Detailed technic part built from many cylinders, circles, chords, rings, and closed cylinders.
 0 Name: 42053 - 19466.dat
@@ -10817,6 +10886,7 @@
 5 24 0 -163 -20 0 -173 -20 -3.5355 -164.464005 -19.2967 5 -168 -19.0054
 5 24 0 -154 -19 0 -156 -17 -3.5355 -154 -18.2967 3.5355 -156 -16.2967
 
+0 STEP
 0 FILE 42053 - u9306.dat
 0 Technic pneumatic part composed of cylinders, circles, rings, chords, and negative discs in varied fractions.
 0 Name: 42053 - u9306.dat
@@ -10996,6 +11066,7 @@
 2 24 -12.0212 24 12.0211 -6.5056 24 15.706
 2 24 -15.7058 24 6.5056 -12.0212 24 12.0211
 
+0 STEP
 0 FILE 42053 - 7-16ring17.dat
 0 Generated 7/16 circular ring primitive at radius 17.
 0 Name: 42053 - 7-16ring17.dat
@@ -11014,6 +11085,7 @@
 4 16 -12.7278 0 12.7278 -16.630199 0 6.8886 -15.7063 0 6.5059 -12.0207 0 12.0207
 0 // Build by Primitive Generator 2
 
+0 STEP
 0 FILE 42053 - 7-16ring9.dat
 0 Generated 7/16 circular ring primitive at radius 9.
 0 Name: 42053 - 7-16ring9.dat
@@ -11032,6 +11104,7 @@
 4 16 -7.071 0 7.071 -9.239 0 3.827 -8.3151 0 3.4443 -6.3639 0 6.3639
 0 // Build by Primitive Generator 2
 
+0 STEP
 0 FILE 42053 - 19467.dat
 0 Technic part featuring cylinders, peg hole ends, rings, discs, circles, and chords.
 0 Name: 42053 - 19467.dat
@@ -11129,6 +11202,7 @@
 2 24 -1.951 6.2 7.612 -1.951 15 7.612
 2 24 -1.951 6.2 -7.612 -1.951 15 -7.612
 
+0 STEP
 0 FILE 42053 - u9113.dat
 0 Simple cylindrical technic part made of a closed cylinder and a disc.
 0 Name: 42053 - u9113.dat
@@ -11143,6 +11217,7 @@
 0 // Disc 1.0 (main_colour)
 1 16 0 150 0 6 0 0 0 -1 0 0 0 6 4-4disc.dat
 
+0 STEP
 0 FILE 42053 - 2943-v2.dat
 0 Cylindrical wheel hub assembly formed from stacked cones, cylinders, rings, and circles.
 0 Name: 42053 - 2943-v2.dat
@@ -11171,6 +11246,7 @@
 0 // Cylinder Closed 1.0 (main_colour)
 1 16 0 -10 -11 2 0 0 0 0 2 0 -15 0 4-4cylc.dat
 
+0 STEP
 0 FILE s\42053 - 2943s01.dat
 0 Detailed cylindrical wheel component featuring sloped cylinders, rings, circles, and peg hole ends.
 0 Name: s\42053 - 2943s01.dat
@@ -11249,6 +11325,7 @@
 0 // Circle 1.0 (main_colour)
 1 16 0 -20 0 10 0 0 0 1 0 0 0 10 4-4edge.dat
 
+0 STEP
 0 FILE s\42053 - 18943s01.dat
 0 Angular connector bracket built from discs, chords, cylinders, and rectangular edge plates.
 0 Name: s\42053 - 18943s01.dat
@@ -11443,6 +11520,7 @@
 4 16 63 28.1481 21.4869 63 73.986397 -54.798698 63 14.893 -28.999901 63 14.8929 8.9999
 4 16 63 73.986397 -54.798698 63 74 -57.352001 63 12 -49.352001 63 14.893 -28.999901
 
+0 STEP
 0 FILE 48\42053 - 7-48ring80.dat
 0 Primitive-generated partial ring segment for geometric detailing.
 0 Name: 48\42053 - 7-48ring80.dat
@@ -11461,6 +11539,7 @@
 4 16 57.275101 0 57.275101 49.312801 0 64.265404 48.703999 0 63.472 56.568001 0 56.568001
 0 // Build by Primitive Generator 2
 
+0 STEP
 0 FILE 48\42053 - 1-6ring80.dat
 0 Primitive-generated partial ring segment for geometric detailing.
 0 Name: 48\42053 - 1-6ring80.dat
@@ -11480,6 +11559,7 @@
 4 16 49.312801 0 64.265404 40.5 0 70.146004 40 0 69.279999 48.703999 0 63.472
 0 // Build by Primitive Generator 2
 
+0 STEP
 0 FILE s\42053 - 2947s01.dat
 0 Large detailed cylindrical wheel hub with sloped cylinders, rings, discs, chords, rectangles, and peg hole ends.
 0 Name: s\42053 - 2947s01.dat
@@ -11655,6 +11735,7 @@
 4 16 -8.5 -62 4 -8.5 -57 4 -10 -57 4 -10 -59 4
 4 16 -10 -57 -4 -8.5 -57 -4 -8.5 -62 -4 -10 -59 -4
 
+0 STEP
 0 FILE 42053 - ldcConRing-4-4.dat
 0 LDCad connector ring generated via path deform for flexible geometry control.
 0 Name: 42053 - ldcConRing-4-4.dat

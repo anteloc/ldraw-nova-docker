@@ -9,6 +9,7 @@
 
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 6933 - Vehicle.ldr
 
+0 STEP
 0 FILE 6933 - Vehicle.ldr
 0 The main spacecraft chassis composed of two cockpit sections, a wheeled undercarriage with steering assemblies, and mounted radar and doors.
 0 Name: 6933 - Vehicle.ldr
@@ -20,6 +21,7 @@
 1 0 0 32 -200 1 0 0 0 1 0 0 0 1 6933 - Vehicle - Cockpit 1.ldr
 1 0 0 -104 20 1 0 0 0 1 0 0 0 1 6933 - Vehicle - Cockpit 2.ldr
 
+0 STEP
 0 FILE 6933 - Vehicle - Cockpit 1.ldr
 0 A forward cockpit module built from white and black plates, slope bricks, hinge plates, side-stud bricks, and a tail fin.
 0 Name: 6933 - Vehicle - Cockpit 1.ldr
@@ -85,6 +87,7 @@
 1 42 -68 -52 -40 0 1 0 -1 0 0 0 0 1 2418a.dat
 1 0 0 -53 -32 1 0 0 0 1 0 0 0 1 6933 - Minifig 1.ldr
 
+0 STEP
 0 FILE 6933 - Vehicle - Cockpit 1 - Radar.ldr
 0 A hinged radar dish assembly made from a white hinge base and a patterned black radar panel.
 0 Name: 6933 - Vehicle - Cockpit 1 - Radar.ldr
@@ -101,6 +104,7 @@
 0 // Hinge  6 x  3 Radar/Blade/Spoiler/Panel with Radar Pattern (black)
 1 0 -2.756 35.612 0 -0.961262 0.275637 0 -0.275637 -0.961262 0 0 0 1 2440p69.dat
 
+0 STEP
 0 FILE 6933 - Vehicle - Cockpit 1 - Door.ldr
 0 A hinged cockpit door with a large neon-green transparent panel, hinge plates, a tool holder, and small round accent plates.
 0 Name: 6933 - Vehicle - Cockpit 1 - Door.ldr
@@ -127,6 +131,7 @@
 0 // Minifig Tool Holder (white)
 1 15 10 44 8 -1 0 0 0 0 -1 0 -1 0 2516.dat
 
+0 STEP
 0 FILE 6933 - Vehicle - Cockpit 2.ldr
 0 A larger rear cockpit built from a white cockpit canopy, corner plates, control-printed tiles, window frames, grille tiles, and a container box.
 0 Name: 6933 - Vehicle - Cockpit 2.ldr
@@ -207,6 +212,7 @@
 0 // Windscreen  6 x  6 Octagonal Canopy with Axlehole (trans_neon_green)
 1 42 -112 -36 0 0 1 0 0 0 -1 -1 0 0 2418b.dat
 
+0 STEP
 0 FILE 6933 - Vehicle - Cockpit 2 - Door.ldr
 0 A rear cockpit door with grille-tiled white plates, finned round bricks, and a hinged black car-roof section.
 0 Name: 6933 - Vehicle - Cockpit 2 - Door.ldr
@@ -233,6 +239,7 @@
 0 // Tile  1 x  2 Grille with Groove (white)
 1 15 -40 -16 10 -1 0 0 0 1 0 0 0 -1 2412b.dat
 
+0 STEP
 0 FILE 6933 - Vehicle - Cockpit 2 - Roof.ldr
 0 A hinged cockpit roof with whip antennas, grille tiles, clips, brackets, and a yellow arrow-patterned directional tile.
 0 Name: 6933 - Vehicle - Cockpit 2 - Roof.ldr
@@ -265,6 +272,7 @@
 0 // Tile  1 x  2 with Arrow Short Yellow with Black Border Pattern (white)
 1 15 0 -6 80 -1 0 0 0 0 -1 0 -1 0 3069bp13.dat
 
+0 STEP
 0 FILE 6933 - Vehicle - Wheels.ldr
 0 The wheeled undercarriage assembly composed of two wheel/axle sub-assemblies with shock absorbers and steering mechanisms.
 0 Name: 6933 - Vehicle - Wheels.ldr
@@ -277,6 +285,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 6933 - Vehicle - Wheels - Wheels 1.ldr
 1 0 -24.057 24 256.297 0.953717 0 -0.300706 0 1 0 0.300706 0 0.953717 6933 - Vehicle - Wheels - Wheels 2.ldr
 
+0 STEP
 0 FILE 6933 - Vehicle - Wheels - Wheels 1.ldr
 0 A primary wheel assembly with long plates, wing elements, corner plates, articulated joints, grille tiles, and four shock absorbers.
 0 Name: 6933 - Vehicle - Wheels - Wheels 1.ldr
@@ -426,6 +435,7 @@
 0 // Wheel 32 x 56 Hard-Plastic without Inner Supports (black)
 1 0 -117 10 -80 0 0 1 0 1 0 -1 0 0 2515a.dat
 
+0 STEP
 0 FILE 6933 - Vehicle - Wheels - Wheels 2.ldr
 0 A steerable rear wheel assembly with articulated hinge plates, turntable plates, a gear rack, and Technic pin bricks.
 0 Name: 6933 - Vehicle - Wheels - Wheels 2.ldr
@@ -491,6 +501,7 @@
 0 // Wheel 32 x 56 Hard-Plastic without Inner Supports (black)
 1 0 -77 -14 0 0 0 1 0 1 0 -1 0 0 2515a.dat
 
+0 STEP
 0 FILE 6933 - Vehicle - Wheels - Wheels 2 - Axle.ldr
 0 A Technic axle with two 8-tooth gears and a finned round brick.
 0 Name: 6933 - Vehicle - Wheels - Wheels 2 - Axle.ldr
@@ -511,6 +522,7 @@
 0 // Brick  2 x  2 x  2 Round with Fins (black)
 1 0 0 0 64 1 0 0 0 0 -1 0 1 0 4591.dat
 
+0 STEP
 0 FILE 6933 - Vehicle - Wheels - Wheels 2 - Axle - Block 1.ldr
 0 A small turntable-based mounting block with a Technic brick, black brick, and plate.
 0 Name: 6933 - Vehicle - Wheels - Wheels 2 - Axle - Block 1.ldr
@@ -531,6 +543,7 @@
 0 // Plate  2 x  2 (black)
 1 0 0 -32 0 1 0 0 0 1 0 0 0 1 3022.dat
 
+0 STEP
 0 FILE 6933 - Vehicle - Wheels - Wheels 2 - Axle - Block 2.ldr
 0 A compact turntable-based block with two Technic hole bricks sandwiched between top and base plates.
 0 Name: 6933 - Vehicle - Wheels - Wheels 2 - Axle - Block 2.ldr
@@ -549,6 +562,7 @@
 0 // Turntable  2 x  2 Plate Base (white)
 1 15 0 -32 0 1 0 0 0 1 0 0 0 1 3680.dat
 
+0 STEP
 0 FILE 6933 - Minifig 1.ldr
 0 A Blacktron II space minifigure with a white patterned torso, black airtanks, and white legs.
 0 Name: 6933 - Minifig 1.ldr
@@ -580,6 +594,7 @@
 0 // Minifig Airtanks (black)
 1 0 0 0.427 6.124 1 0 0 0 0.990268 0.139173 0 -0.139173 0.990268 3838.dat
 
+0 STEP
 0 FILE 6933 - Minifig 1 - Helmet.ldr
 0 A black standard space helmet with a neon-green transparent visor.
 0 Name: 6933 - Minifig 1 - Helmet.ldr
@@ -594,6 +609,7 @@
 0 // ~Minifig Helmet Visor Standard (Obsolete) (trans_neon_green)
 1 42 0 1.904 4.596 1 0 0 0 0.707107 0.707107 0 -0.707107 0.707107 2447.dat
 
+0 STEP
 0 FILE 6933 - Minifig 2.ldr
 0 A Blacktron II space minifigure with a white patterned torso, black airtanks, a radio with short handle, and white legs.
 0 Name: 6933 - Minifig 2.ldr
@@ -627,6 +643,7 @@
 0 // ~Minifig Leg Left (Obsolete) (white)
 1 15 0 44 0 1 0 0 0 1 0 0 0 1 3817.dat
 
+0 STEP
 0 FILE 6933 - Minifig 2 - Helmet.ldr
 0 A black standard space helmet with a neon-green transparent visor.
 0 Name: 6933 - Minifig 2 - Helmet.ldr

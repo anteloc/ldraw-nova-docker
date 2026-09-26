@@ -10,6 +10,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 1621 - Vehicle.ldr
 1 0 -130 29 90 0.965926 0 0.258819 0 1 0 -0.258819 0 0.965926 1621 - Droid.ldr
 
+0 STEP
 0 FILE 1621 - Vehicle - Front.ldr
 0 Front cockpit module built on a 3x6 plate with turntables, a grille-patterned slope, and a radio antenna with red light elements.
 0 Name: 1621 - Vehicle - Front.ldr
@@ -49,6 +50,7 @@
 1 0 10 -44 10 1 0 0 0 1 0 0 0 1 3962a.dat
 1 0 70 -77 8 1 0 0 0 0 -1 0 1 0 1621 - Vehicle - Front - Signal Holder.ldr
 
+0 STEP
 0 FILE 1621 - Vehicle - Front - Signal Holder.ldr
 0 Small signal holder assembly with a dark blue transparent light element mounted on a minifig signal holder.
 0 Name: 1621 - Vehicle - Front - Signal Holder.ldr
@@ -61,6 +63,7 @@
 0 // Plate  1 x  1 Round (trans_dark_blue)
 1 33 0 -8 0 1 0 0 0 1 0 0 0 1 6141.dat
 
+0 STEP
 0 FILE 1621 - Vehicle - Wheel 1.ldr
 0 Articulated steerable front wheel unit using a turntable base, hinge plates, a control stick mechanism, and a large treaded tyre on a white wheel rim.
 0 Name: 1621 - Vehicle - Wheel 1.ldr
@@ -101,6 +104,7 @@
 0 // Tyre 12/ 50 x 16 Offset Tread (rubber_black)
 1 256 -30 26 20 0 0 1 0 1 0 -1 0 0 2346.dat
 
+0 STEP
 0 FILE 1621 - Vehicle - Wheel 1 + Minifig.ldr
 0 Front wheel assembly combined with a seated minifig figure, referencing the wheel and minifig submodels.
 0 Name: 1621 - Vehicle - Wheel 1 + Minifig.ldr
@@ -113,6 +117,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 1621 - Vehicle - Wheel 1.ldr
 1 0 0 -61 -52 1 0 0 0 1 0 0 0 1 1621 - Minifig.ldr
 
+0 STEP
 0 FILE 1621 - Vehicle - Wheel 2.ldr
 0 Simpler articulated wheel unit with a turntable base, hinge plate, and a large treaded tyre on a white wheel rim.
 0 Name: 1621 - Vehicle - Wheel 2.ldr
@@ -139,6 +144,7 @@
 0 // Tyre 12/ 50 x 16 Offset Tread (rubber_black)
 1 256 30 26 20 0 0 -1 0 1 0 1 0 0 2346.dat
 
+0 STEP
 0 FILE 1621 - Vehicle - Back.ldr
 0 Rear chassis section with a large base plate, hinged articulation joints, two treaded wheels, and sloped body panels forming the back of the vehicle.
 0 Name: 1621 - Vehicle - Back.ldr
@@ -209,6 +215,7 @@
 1 0 -30 -48 -30 -1 0 0 0 1 0 0 0 -1 3957a.dat
 1 0 0 -22 50 1 0 0 0 0.707107 0.707107 0 -0.707107 0.707107 1621 - Vehicle - Back - Hinge.ldr
 
+0 STEP
 0 FILE 1621 - Vehicle - Back - Container.ldr
 0 Rear cargo container with inverted slopes, technic bricks, and a dark blue transparent dish forming an enclosed storage or sensor module.
 0 Name: 1621 - Vehicle - Back - Container.ldr
@@ -237,6 +244,7 @@
 0 // Dish  2 x  2 Inverted (trans_dark_blue)
 1 33 0 22 0 0 0 1 0 1 0 -1 0 0 4740.dat
 
+0 STEP
 0 FILE 1621 - Vehicle - Back - Hinge.ldr
 0 Articulated hinge assembly for the rear section with a hinge top, offset studs plate, and two black cones.
 0 Name: 1621 - Vehicle - Back - Hinge.ldr
@@ -255,6 +263,7 @@
 0 // Cone  1 x  1 (black)
 1 0 -30 -42 10 1 0 0 0 1 0 0 0 1 4589.dat
 
+0 STEP
 0 FILE 1621 - Minifig.ldr
 0 Blue-clad Futuron astronaut minifig with airtanks, white torso with blue Futuron pattern, and blue arms and legs.
 0 Name: 1621 - Minifig.ldr
@@ -286,6 +295,7 @@
 0 // ~Minifig Leg Left (Obsolete) (blue)
 1 1 0 44 0 1 0 0 0 0 1 0 -1 0 3817.dat
 
+0 STEP
 0 FILE 1621 - Minifig - Helmet.ldr
 0 Blue astronaut helmet with a dark blue transparent visor.
 0 Name: 1621 - Minifig - Helmet.ldr
@@ -300,6 +310,7 @@
 0 // ~Minifig Helmet Visor Standard (Obsolete) (trans_dark_blue)
 1 33 0 0 0 1 0 0 0 1 0 0 0 1 2447.dat
 
+0 STEP
 0 FILE 1621 - Droid.ldr
 0 Small articulated droid built from hinge parts, headlight bricks, and a dark blue transparent round light element.
 0 Name: 1621 - Droid.ldr
@@ -332,6 +343,7 @@
 0 // Plate  1 x  1 with Clip Vertical (Thin U-Clip) (white)
 1 15 -24 -13.704 -3.754 0 1 0 -0.987688 0 -0.156434 -0.156434 0 0.987688 4085b.dat
 
+0 STEP
 0 FILE 1621 - Vehicle.ldr
 0 Assembled wheeled lunar vehicle combining the front cockpit, two articulated front wheels, the rear chassis with container and hinge, and a droid.
 0 Name: 1621 - Vehicle.ldr

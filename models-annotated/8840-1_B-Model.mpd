@@ -309,6 +309,7 @@
 
 
 
+0 STEP
 0 FILE 8840 - LegoRally Shock n' Roll Racer Model B - step1 Model B.ldr
 0 A front steering axle assembly using a long Technic plate with holes, two steering arms, axles, and bushes.
 0 Name: 8840 - LegoRally Shock n' Roll Racer Model B - step1 Model B.ldr
@@ -341,6 +342,7 @@
 1 7 90 -24 40 0 0 1 1 0 0 0 1 0 3749.dat
 
 
+0 STEP
 0 FILE 8840 - LegoRally Shock n' Roll Racer Model B -  step2 Model B.ldr
 0 A pair of engine cylinder heads connected with friction and half pins.
 0 Name: 8840 - LegoRally Shock n' Roll Racer Model B -  step2 Model B.ldr
@@ -365,6 +367,7 @@
 
 
 
+0 STEP
 0 FILE 8840 - LegoRally Shock n' Roll Racer Model B - step3 Model B.ldr
 0 A small drivetrain module built from a Technic axle and brick with an 8-tooth gear meshing a 14-tooth bevel gear.
 0 Name: 8840 - LegoRally Shock n' Roll Racer Model B - step3 Model B.ldr
@@ -386,6 +389,7 @@
 1 7 0 14 53 -1 0 0 0 1 0 0 0 -1 4143.dat
 
 
+0 STEP
 0 FILE 8840 - LegoRally Shock n' Roll Racer Model B - shock-06_5L-soft-1.ldr
 0 A 6.5L soft Technic shock absorber with cylinder, piston rod, and coiled spring.
 0 Name: 8840 - LegoRally Shock n' Roll Racer Model B - shock-06_5L-soft-1.ldr
@@ -431,6 +435,7 @@
 
 
 
+0 STEP
 0 FILE 8840 - LegoRally Shock n' Roll Racer Model B - shock-06_5L-soft-1_springMesh.ldr
 0 The parametric coiled spring mesh for the 6.5L shock absorber, defining its 3-section winding geometry.
 0 Name: 8840 - LegoRally Shock n' Roll Racer Model B - shock-06_5L-soft-1_springMesh.ldr
@@ -4722,6 +4727,7 @@
 5 24 -7.625 43.379101 0.156196 -7.183058 42.933212 0.011601 -7.625 42.750214 0.016406 -7 43.375 0
 
 
+0 STEP
 0 FILE 8840 - LegoRally Shock n' Roll Racer Model B -  step4 Model B.ldr
 0 A drivetrain sub-assembly with a long axle, Technic bricks with holes, a 14-tooth bevel gear, and bushes.
 0 Name: 8840 - LegoRally Shock n' Roll Racer Model B -  step4 Model B.ldr
@@ -4752,6 +4758,7 @@
 
 
 
+0 STEP
 0 FILE 8840 - LegoRally Shock n' Roll Racer Model B - step5 Model B.ldr
 0 A right-side body panel of the rally car with a wing element, numbered racing stripe panel, and Technic bricks with holes.
 0 Name: 8840 - LegoRally Shock n' Roll Racer Model B - step5 Model B.ldr
@@ -4780,6 +4787,7 @@
 1 0 140 -114 -10 0 0 -1 0 1 0 1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 8840 - LegoRally Shock n' Roll Racer Model B - step6 Model B.ldr
 0 A left-side body panel of the rally car mirroring step5, with a left wing element, numbered racing stripe panel, and Technic bricks with holes.
 0 Name: 8840 - LegoRally Shock n' Roll Racer Model B - step6 Model B.ldr
@@ -4806,6 +4814,7 @@
 1 14 60 -8 -30 0 0 1 0 1 0 -1 0 0 3933.dat
 
 
+0 STEP
 0 FILE 8840 - LegoRally Shock n' Roll Racer Model B - step7 Model B.ldr
 0 The rear bodywork featuring a long axle, plates, headlight bricks, 'RALLY' tile, and grille-pattern round tiles.
 0 Name: 8840 - LegoRally Shock n' Roll Racer Model B - step7 Model B.ldr
@@ -4883,6 +4892,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 8840 - LegoRally Shock n' Roll Racer Model B - step8 Model B.ldr
 0 A set of yellow plates and Technic plates with holes forming a structural base panel.
 0 Name: 8840 - LegoRally Shock n' Roll Racer Model B - step8 Model B.ldr
@@ -4901,6 +4911,7 @@
 
 
 
+0 STEP
 0 FILE 8840 - LegoRally Shock n' Roll Racer Model B  - Figure.ldr
 0 A Technic action figure driver with torso, limbs, head, hands, and a red helmet with clear visor.
 0 Name: 8840 - LegoRally Shock n' Roll Racer Model B  - Figure.ldr
@@ -4970,6 +4981,7 @@
 
 
 
+0 STEP
 0 FILE 8840 - 2715.dat
 0 A Technic action figure helmet part definition with patternable top area notes.
 0 Name: 8840 - 2715.dat
@@ -5121,6 +5133,7 @@
 
 
 
+0 STEP
 0 FILE s\8840 - 2715s01.dat
 0 The geometric subpart of the helmet built from cylinders, tori, discs, and rectangles.
 0 Name: s\8840 - 2715s01.dat

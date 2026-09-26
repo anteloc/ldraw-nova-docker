@@ -10,6 +10,7 @@
 1 70 180 0 90 1 0 0 0 1 0 0 0 1 75966 - Stand up Display.ldr
 
 
+0 STEP
 0 FILE 75966 - Door.ldr
 0 A tall tan door structure built with arches, panels, curved slopes, and door rails, accented with trans-dark-blue bricks.
 0 Name: 75966 - Door.ldr
@@ -162,6 +163,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 75966 - Cantilever.ldr
 0 A small ornamental bracket assembly using ogee arches and plates in tan, dark turquoise, and medium nougat.
 0 Name: 75966 - Cantilever.ldr
@@ -192,6 +194,7 @@
 1 19 0 -10 -30 0 0 1 1 0 0 0 1 0 63864.dat
 
 
+0 STEP
 0 FILE 75966 - Chimney.ldr
 0 A detailed chimney with lattice fencing, flames, and orange trans elements simulating fire atop a tan brick base.
 0 Name: 75966 - Chimney.ldr
@@ -399,6 +402,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 75966 - Chimney Top.ldr
 0 A small chimney cap made of medium nougat tiles and dark tan clip plates.
 0 Name: 75966 - Chimney Top.ldr
@@ -417,6 +421,7 @@
 1 84 -60 -2 0 0 0 -1 0 1 0 1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 75966 - Stand up Display.ldr
 0 A compact display stand built from a reddish brown panel and black reinforced panel.
 0 Name: 75966 - Stand up Display.ldr

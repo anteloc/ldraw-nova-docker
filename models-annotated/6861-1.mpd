@@ -79,6 +79,7 @@
 1 7 0 -60 50 1 0 0 0 1 0 0 0 1 6861 - Minifig.ldr
 
 
+0 STEP
 0 FILE 6861 - Propulsor.ldr
 0 A cylindrical thrust engine assembly made of round bricks, brackets, and cones with a trans-red light element.
 0 Name: 6861 - Propulsor.ldr
@@ -110,6 +111,7 @@
 1 36 0 -36 200 -1 0 0 0 0 1 0 1 0 3062b.dat
 
 
+0 STEP
 0 FILE 6861 - Minifig.ldr
 0 A red Classic Space minifigure complete with helmet, airtanks, patterned torso, hands, and legs.
 0 Name: 6861 - Minifig.ldr

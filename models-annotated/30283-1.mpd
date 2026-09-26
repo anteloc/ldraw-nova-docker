@@ -74,6 +74,7 @@
 1 0 -35 13 -20 0 0 -1 0 1 0 1 0 0 30283 - Wheel.ldr
 
 
+0 STEP
 0 FILE 30283 - Wheel.ldr
 0 A complete wheel assembly consisting of a light bluish grey rim with fake bolts and spokes fitted with a black tyre.
 0 Name: 30283 - Wheel.ldr
@@ -85,6 +86,7 @@
 0 // Tyre 10/ 32 x 14 (black)
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 30283 - 11209.dat
 
+0 STEP
 0 FILE 30283 - 11208.dat
 0 A light bluish grey wheel rim 10 x 14 with fake bolts and six spokes.
 0 Name: 30283 - 11208.dat
@@ -127,6 +129,7 @@
 1 16 0 0 6.5 1.95 0 0 0 0 1.95 0 -1 0 48\4-4con7.dat
 1 16 0 0 5.5 13.65 0 0 0 0 13.65 0 1 0 48\4-4edge.dat
 
+0 STEP
 0 FILE 30283 - 11209.dat
 0 A black tyre sized 10/32 x 14 for fitting onto a wheel rim.
 0 Name: 30283 - 11209.dat
@@ -172,6 +175,7 @@
 1 16 0 0 0 -0.5 0.86603 0 -0.86603 -0.5 0 0 0 1 s\30283 - 11209s01.dat
 1 16 0 0 0 -0.25882 0.96593 0 -0.96593 -0.25882 0 0 0 1 s\30283 - 11209s01.dat
 
+0 STEP
 0 FILE s\30283 - 11208s01.dat
 0 A sub-part of the wheel rim formed from a closed cylinder and a negative disc defining its solid body.
 0 Name: s\30283 - 11208s01.dat
@@ -364,6 +368,7 @@
 5 24 -4.0707 -15.1921 -11.5 -4.3295 -16.1579 -12.5 -6.815 -15.276 -12.5 -1.736 -16.6369 -12.5
 5 24 -4.0506 -15.1171 -5.727 -4.0707 -15.1921 -11.5 -5.977 -14.54 -11.5 -2.0938 -15.5805 -11.5
 
+0 STEP
 0 FILE s\30283 - 11208s02.dat
 0 A sub-part of the wheel rim hub constructed from rectangles, chords, and an open cylinder forming the spoke and bolt detail.
 0 Name: s\30283 - 11208s02.dat
@@ -921,6 +926,7 @@
 5 24 4.98 2.875 2.419 4.98 2.875 -2.419 5.75 0 -2.419 2.875 4.98 2.419
 5 24 2.875 4.98 2.419 2.875 4.98 -2.419 4.98 2.875 -2.419 0 5.75 2.419
 
+0 STEP
 0 FILE s\30283 - 11209s01.dat
 0 A sub-part representing the geometry of the tyre.
 0 Name: s\30283 - 11209s01.dat

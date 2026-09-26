@@ -654,6 +654,7 @@
 1 10047 140 -134 307 0 -1 0 0 0 -1 1 0 0 5540 - 197915c.dat
 
 
+0 STEP
 0 FILE 5540 - 007-1steerR.ldr
 0 Right-side steering arm assembly built from a steering arm, axle, bush, and pin.
 0 Name: 5540 - 007-1steerR.ldr
@@ -675,6 +676,7 @@
 1 7 0 -10 40 0 0 1 1 0 0 0 1 0 3749.dat
 
 
+0 STEP
 0 FILE 5540 - 007-2steerL.ldr
 0 Left-side steering arm assembly built from a steering arm, axle, bush, and pin.
 0 Name: 5540 - 007-2steerL.ldr
@@ -696,6 +698,7 @@
 1 7 0 -10 40 0 0 1 1 0 0 0 1 0 3749.dat
 
 
+0 STEP
 0 FILE 5540 - 008-1cylR.ldr
 0 Right-side engine cylinder block made of plates, round axlehole plates, headlight bricks, and hinges.
 0 Name: 5540 - 008-1cylR.ldr
@@ -725,6 +728,7 @@
 1 7 0 -10 20 0 0 1 0 1 0 -1 0 0 3938.dat
 
 
+0 STEP
 0 FILE 5540 - 008-2cylL.ldr
 0 Left-side engine cylinder block made of plates, round axlehole plates, headlight bricks, and hinges.
 0 Name: 5540 - 008-2cylL.ldr
@@ -754,6 +758,7 @@
 1 7 0 -10 20 0 0 1 0 1 0 -1 0 0 3938.dat
 
 
+0 STEP
 0 FILE 5540 - 009-1rack.ldr
 0 Steering rack mechanism using a Technic gear rack mounted on plates with holes.
 0 Name: 5540 - 009-1rack.ldr
@@ -775,6 +780,7 @@
 1 0 80 -24 0 1 0 0 0 1 0 0 0 1 4263.dat
 
 
+0 STEP
 0 FILE 5540 - 009-2exhaust.ldr
 0 Exhaust pipe assembly built from headlight bricks, round axlehole plates, and round hollow-stud bricks.
 0 Name: 5540 - 009-2exhaust.ldr
@@ -829,6 +835,7 @@
 0 MLCAD HIDE 1 256 30 -62 -14 1 0 0 0 1 0 0 0 1 5540 - flexHoseWithNorEnds-4o.ldr
 
 
+0 STEP
 0 FILE 5540 - flexHoseWithNorEnds-1o.ldr
 0 Black flexible hose with 52 segments and end fittings.
 0 Name: 5540 - flexHoseWithNorEnds-1o.ldr
@@ -979,6 +986,7 @@
 1 16 -39.983837 -117.981286 22.2831 -0.000026 -0.009413 -0.999956 -0.999941 -0.010899 0.000129 -0.0109 0.999896 -0.009412 754.dat
 
 
+0 STEP
 0 FILE 5540 - flexHoseWithNorEnds-2o.ldr
 0 Trans-yellow flexible hose with 52 segments and end fittings.
 0 Name: 5540 - flexHoseWithNorEnds-2o.ldr
@@ -1129,6 +1137,7 @@
 1 16 -59.961631 -113.972918 22.289775 -0.000026 -0.022427 -0.999748 -0.999875 -0.01583 0.000381 -0.015834 0.999623 -0.022424 754.dat
 
 
+0 STEP
 0 FILE 5540 - flexHoseWithNorEnds-3o.ldr
 0 Trans-yellow flexible hose with 52 segments and end fittings.
 0 Name: 5540 - flexHoseWithNorEnds-3o.ldr
@@ -1279,6 +1288,7 @@
 1 16 59.961631 -113.972918 22.289775 0.000026 0.022427 -0.999748 -0.999875 -0.01583 -0.000381 -0.015834 0.999623 0.022424 754.dat
 
 
+0 STEP
 0 FILE 5540 - flexHoseWithNorEnds-4o.ldr
 0 Black flexible hose with 52 segments and end fittings.
 0 Name: 5540 - flexHoseWithNorEnds-4o.ldr
@@ -1429,6 +1439,7 @@
 1 16 39.983837 -117.981286 22.2831 0.000026 0.009413 -0.999956 -0.999941 -0.010899 -0.000129 -0.0109 0.999896 0.009412 754.dat
 
 
+0 STEP
 0 FILE 5540 - 010-1manR.ldr
 0 Right-side manifold/engine detail using round plates, slope bricks, a ladder plate, and headlight bricks.
 0 Name: 5540 - 010-1manR.ldr
@@ -1463,6 +1474,7 @@
 1 0 0 -114 10 1 0 0 0 0 1 0 -1 0 4070.dat
 
 
+0 STEP
 0 FILE 5540 - 010-2manL.ldr
 0 Left-side manifold/engine detail using round plates, slope bricks, a ladder plate, and headlight bricks.
 0 Name: 5540 - 010-2manL.ldr
@@ -1497,6 +1509,7 @@
 1 0 20 -114 10 1 0 0 0 0 1 0 -1 0 4070.dat
 
 
+0 STEP
 0 FILE 5540 - 012steer.ldr
 0 Steering column assembly with axle, bevel gear, bushes, belt wheel, and belt wheel tyre.
 0 Name: 5540 - 012steer.ldr
@@ -1548,6 +1561,7 @@
 
 
 
+0 STEP
 0 FILE 5540 - 015seat.ldr
 0 Vehicle seat built from plates, hinge plates, and grooved tiles.
 0 Name: 5540 - 015seat.ldr
@@ -1595,6 +1609,7 @@
 1 0 30 -81.302 40.641 0 0 1 0.978 0.208 0 -0.208 0.978 0 3023.dat
 
 
+0 STEP
 0 FILE 5540 - 016wing.ldr
 0 Large wing assembly of black and white slopes, plates, and bricks forming an aerodynamic surface.
 0 Name: 5540 - 016wing.ldr
@@ -1709,6 +1724,7 @@
 1 0 90 -24 50 -1 0 0 0 1 0 0 0 -1 3665a.dat
 
 
+0 STEP
 0 FILE 5540 - 017cowl.ldr
 0 Engine cowling and bodywork made of white and red slopes, plates, and bricks.
 0 Name: 5540 - 017cowl.ldr
@@ -1788,6 +1804,7 @@
 0 // * No parts added in this step
 
 
+0 STEP
 0 FILE 5540 - flexHoseWithNorEnds-1.ldr
 0 Black flexible hose with 52 segments and end fittings.
 0 Name: 5540 - flexHoseWithNorEnds-1.ldr
@@ -1939,6 +1956,7 @@
 1 16 -39.563264 -117.826877 22.346966 -0.966476 -0.254138 -0.036582 -0.011166 -0.100741 0.99485 -0.256515 0.961907 0.094526 754.dat
 
 
+0 STEP
 0 FILE 5540 - flexHoseWithNorEnds-2.ldr
 0 Trans-yellow flexible hose with 52 segments and end fittings.
 0 Name: 5540 - flexHoseWithNorEnds-2.ldr
@@ -2090,6 +2108,7 @@
 1 16 -59.561456 -113.826161 22.342423 -0.966388 -0.254465 -0.036625 -0.011142 -0.10087 0.994837 -0.256845 0.961807 0.094644 754.dat
 
 
+0 STEP
 0 FILE 5540 - flexHoseWithNorEnds-3.ldr
 0 Trans-yellow flexible hose with 52 segments and end fittings.
 0 Name: 5540 - flexHoseWithNorEnds-3.ldr
@@ -2241,6 +2260,7 @@
 1 16 59.561456 -113.826161 22.342423 0.966388 0.254465 -0.036625 -0.011142 -0.10087 -0.994837 -0.256845 0.961807 -0.094644 754.dat
 
 
+0 STEP
 0 FILE 5540 - flexHoseWithNorEnds-4.ldr
 0 Black flexible hose with 52 segments and end fittings.
 0 Name: 5540 - flexHoseWithNorEnds-4.ldr
@@ -2392,6 +2412,7 @@
 1 16 39.563263 -117.826877 22.346965 0.966476 0.254138 -0.036582 -0.011166 -0.100741 -0.99485 -0.256515 0.961907 -0.094526 754.dat
 
 
+0 STEP
 0 FILE 5540 - 197915d.dat
 0 Single geometric box primitive with five faces and no edges.
 0 Name: 5540 - 197915d.dat
@@ -2523,6 +2544,7 @@
 3 16 -23 -0.25 -16 -19.035 -0.25 -4.231 -19.000999 -0.25 -2.818
 
 
+0 STEP
 0 FILE 5540 - 197915e.dat
 0 Single geometric box primitive with five faces and no edges.
 0 Name: 5540 - 197915e.dat
@@ -2564,6 +2586,7 @@
 3 16 -16 -0.25 22.371 -11.503 -0.25 11.782 0.397 -0.25 20.122
 
 
+0 STEP
 0 FILE 5540 - 197915f.dat
 0 Single geometric box primitive with five faces and no edges.
 0 Name: 5540 - 197915f.dat
@@ -2954,6 +2977,7 @@
 3 16 -111 -0.25 23 -102.262001 -0.25 18.249001 -67.643997 -0.25 18.242001
 
 
+0 STEP
 0 FILE 5540 - 197915b.dat
 0 Single geometric box primitive with five faces and no edges.
 0 Name: 5540 - 197915b.dat
@@ -3280,6 +3304,7 @@
 3 16 -12.019 -0.25 -4.096 -11.824 -0.25 -3.94 -11.743 -0.25 -3.704
 
 
+0 STEP
 0 FILE 5540 - 197915a.dat
 0 197915a
 0 Name: 5540 - 197915a.dat
@@ -3588,6 +3613,7 @@
 3 0 -9.083 -0.25 1.283 -8.66 -0.25 0.471 -8.701 -0.25 1.48
 
 
+0 STEP
 0 FILE 5540 - 197915c.dat
 0 197915c
 0 Name: 5540 - 197915c.dat

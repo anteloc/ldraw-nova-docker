@@ -16,6 +16,7 @@
 1 16 -30 -16 0 1 0 0 0 1 0 0 0 1 7110 - Minifig - Luke Skywalker.ldr
 
 
+0 STEP
 0 FILE 7110 - Speeder.ldr
 0 A hover speeder vehicle built from tan and red plates, grille bricks, and rounded corner panels forming the iconic X-34 landspeeder body.
 0 Name: 7110 - Speeder.ldr
@@ -115,6 +116,7 @@
 0 // Tile  1 x  2 Grille with Groove (dark_grey)
 1 8 40 -40 -90 1 0 0 0 1 0 0 0 1 2412b.dat
 
+0 STEP
 0 FILE 7110 - Minifig - Obi-Wan Kenobi.ldr
 0 An Obi-Wan Kenobi minifigure with tan robes, grey beard, grey hair, and a chrome lightsaber with a trans-light-blue blade.
 0 Name: 7110 - Minifig - Obi-Wan Kenobi.ldr
@@ -151,6 +153,7 @@
 0 // Bar  4L Lightsaber Blade (trans_light_blue)
 1 43 -23.195 22.724 -33.822 0.99736 0.0720858 -0.0087262 0.0435779 -0.498097 0.866025 0.0580816 -0.86412 -0.499924 30374.dat
 
+0 STEP
 0 FILE 7110 - Minifig - Luke Skywalker.ldr
 0 A Luke Skywalker minifigure wearing a white tunic with tan legging legs, tan hair, and a yellow head with eyebrows.
 0 Name: 7110 - Minifig - Luke Skywalker.ldr

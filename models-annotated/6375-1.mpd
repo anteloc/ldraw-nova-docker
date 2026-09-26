@@ -18,6 +18,7 @@
 1 14 175 16 144.019 0.5 0 0.866 0 1 0 -0.866 0 0.5 6375 - minifig 2.ldr
 
 0 NOFILE
+0 STEP
 0 FILE 6375 - airplane.ldr
 0 A passenger airplane built from blue and light grey plates, tiles, and slope bricks forming a sleek fuselage with wings.
 0 airplane
@@ -347,6 +348,7 @@
 1 0 215 61 38 0 0 -1 0 1 0 1 0 0 3139.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6375 - forklift.ldr
 0 A small forklift vehicle with wheels, a forklift mast, and a control stick for lifting cargo.
 0 forklift
@@ -406,6 +408,7 @@
 1 15 30 -16 -10 0 0 -1 0 1 0 1 0 0 4592c01.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6375 - cart.ldr
 0 A cargo cart with mudguard, steering stand, wheels, and panels for transporting goods around the airport.
 0 cart
@@ -479,6 +482,7 @@
 1 0 50 13 32 -1 0 0 0 1 0 0 0 -1 3641.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6375 - case.ldr
 0 A compact shipping container case made of two stacked container box elements.
 0 case
@@ -495,6 +499,7 @@
 1 16 0 -48 0 0 0 -1 0 1 0 1 0 0 4345a.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6375 - minifig 1.ldr
 0 A ground crew minifigure wearing a blue cap and a white torso with an airplane logo.
 0 minifig 1
@@ -527,6 +532,7 @@
 1 1 2.26 -28 3.37 1 0 0 0 1 0 0 0 1 3816.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6375 - minifig 2.ldr
 0 A pilot minifigure dressed in a black suit with an airplane pattern and a police-style hat.
 0 minifig 2

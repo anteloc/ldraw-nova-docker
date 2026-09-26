@@ -1737,6 +1737,7 @@
 1 43 141.825 -270 -504.867 0 -0.242 0.97 1 0 0 0 0.97 0.242 6141.dat
 0 // Plate  1 x  1 Round (trans_light_blue)
 1 43 -141.825 -270 -504.867 0 0.242 0.97 1 0 0 0 0.97 -0.242 6141.dat
+0 STEP
 0 FILE 42069 - chassis1.ldr
 0 Central structural chassis frame built from an open-center 11x5 beam and a 15-long liftarm joined by pins and an angle connector.
 0 Name: 42069 - chassis1.ldr
@@ -1770,6 +1771,7 @@
 1 0 100 0 120 0 0 -1 1 0 0 0 -1 0 32034.dat
 0 // Technic Axle Pin Long with Friction with  2L Pin (dark_bluish_grey)
 1 72 140 0 120 -1 0 0 0 0 1 0 1 0 11214.dat
+0 STEP
 0 FILE 42069 - engine.ldr
 0 Inline piston engine assembly with cylinder heads, crankshafts, connecting rods, and pistons mounted on a 5x3 peghole brick base.
 0 Name: 42069 - engine.ldr
@@ -1938,6 +1940,7 @@
 1 71 0 60 20 -1 0 0 0 1 0 0 0 -1 6536.dat
 0 // Technic Gear 12 Tooth Double Bevel (black)
 1 0 0 40 40 -1 0 0 0 1 0 0 0 -1 32270.dat
+0 STEP
 0 FILE 42069 - chassis2l.ldr
 0 Left-side suspension/chassis arm using bent 45-degree double liftarms, a 53-degree bent liftarm, and angle connectors for articulation.
 0 Name: 42069 - chassis2l.ldr
@@ -1985,6 +1988,7 @@
 1 71 -20 0 60 1 0 0 0 0 1 0 -1 0 6536.dat
 0 // Technic Bush with Two Flanges (light_bluish_grey)
 1 71 -20 0 160 0 0 1 0 1 0 -1 0 0 3713.dat
+0 STEP
 0 FILE 42069 - chassis3.ldr
 0 Chassis cross-member built from a 15-long beam, T-shaped liftarm, and cross blocks on a 7-long axle.
 0 Name: 42069 - chassis3.ldr
@@ -2017,6 +2021,7 @@
 1 72 100 0 20 -1 0 0 0 0 -1 0 -1 0 32140.dat
 0 // Technic Axle  7 (light_bluish_grey)
 1 71 0 -20 -20 -1 0 0 0 -1 0 0 0 1 44294.dat
+0 STEP
 0 FILE 42069 - chassis2r.ldr
 0 Right-side suspension/chassis arm mirroring the left, using bent 45-degree double liftarms and angle connectors for articulation.
 0 Name: 42069 - chassis2r.ldr
@@ -2066,6 +2071,7 @@
 1 71 20 0 160 0 0 -1 0 1 0 1 0 0 3713.dat
 0 // Technic Pin with Friction and Slots (black)
 1 0 -10 0 40 1 0 0 0 0 -1 0 1 0 2780.dat
+0 STEP
 0 FILE 42069 - winch.ldr
 0 Winch mechanism with a 12-tooth bevel gear, spool built from thin liftarms, and a long output axle on a toggle-joint connector base.
 0 Name: 42069 - winch.ldr
@@ -2148,6 +2154,7 @@
 1 71 -80 -20 90 0 0 -1 0 1 0 1 0 0 3713.dat
 0 STEP
 1 0 -47 -3.535 53.535 0 0 1 -0.707 -0.707 0 0.707 -0.707 0 42069 - ropeLQ-1.ldr
+0 STEP
 0 FILE 42069 - winchratchet.ldr
 0 Winch ratchet locking assembly using split cross blocks, a flexible axle joiner, and a 9-long beam lever.
 0 Name: 42069 - winchratchet.ldr
@@ -2186,6 +2193,7 @@
 1 4 -40 -38.671 -10.873 0 0 1 -0.974 -0.225 0 0.225 -0.974 0 41677.dat
 0 // Technic Beam  2 x  0.5 Liftarm (red)
 1 4 -40 -36.421 -1.129 0 0 1 -0.974 -0.225 0 0.225 -0.974 0 41677.dat
+0 STEP
 0 FILE 42069 - chassis4l.ldr
 0 Left longitudinal chassis rail combining an 11-long beam, two bent 90-degree liftarms, and 1x2 technic bricks.
 0 Name: 42069 - chassis4l.ldr
@@ -2223,6 +2231,7 @@
 1 0 -40 0 -20 0 0 -1 1 0 0 0 -1 0 32526.dat
 0 // Technic Pin with Friction and Slots (black)
 1 0 120 40 10 0 0 1 0 1 0 -1 0 0 2780.dat
+0 STEP
 0 FILE 42069 - chassis5.ldr
 0 Chassis cross-bracing assembly of bent 90-degree liftarms, axle joiners, and a 9-long beam tied together with pins.
 0 Name: 42069 - chassis5.ldr
@@ -2272,6 +2281,7 @@
 0 STEP
 0 // Technic Beam  9 (dark_bluish_grey)
 1 72 160 -80 -40 0 -1 0 0 0 -1 1 0 0 40490.dat
+0 STEP
 0 FILE 42069 - chassis4r.ldr
 0 Right longitudinal chassis rail mirroring the left, combining an 11-long beam, bent 90-degree liftarms, and 1x2 technic bricks.
 0 Name: 42069 - chassis4r.ldr
@@ -2309,6 +2319,7 @@
 1 0 -40 0 20 0 0 -1 1 0 0 0 -1 0 32526.dat
 0 // Technic Pin with Friction and Slots (black)
 1 0 120 40 -10 0 0 1 0 1 0 -1 0 0 2780.dat
+0 STEP
 0 FILE 42069 - calender.ldr
 0 Body panel section with a 3x11 panel, 11-long beam, and bent liftarms forming a calendar/display plate mount.
 0 Name: 42069 - calender.ldr
@@ -2403,6 +2414,7 @@
 1 71 -100 80 -40 0 0 1 0 -1 0 1 0 0 87082.dat
 0 // Technic Pin Long with Friction and Slot (blue)
 1 1 -100 60 -40 0 0 1 1 0 0 0 1 0 6558.dat
+0 STEP
 0 FILE 42069 - dashboard.ldr
 0 Dashboard assembly featuring a printed gauge tile, small steering wheel, and supporting beams with cross blocks.
 0 Name: 42069 - dashboard.ldr
@@ -2436,6 +2448,7 @@
 1 179 60 -38 0 -1 0 0 0 1 0 0 0 -1 98138pc1.dat
 0 // Technic Steering Wheel Small (light_bluish_grey)
 1 71 60 -52 20 -1 0 0 0 1 0 0 0 -1 2819.dat
+0 STEP
 0 FILE 42069 - chassis6.ldr
 0 Driven axle/gearbox section using toggle joints, 12-tooth bevel gears, and angle connectors to transfer drive through the chassis.
 0 Name: 42069 - chassis6.ldr
@@ -2490,6 +2503,7 @@
 1 19 17 -50 0 0 0 -1 -1 0 0 0 1 0 6589.dat
 0 // Technic Bush with Two Flanges (light_bluish_grey)
 1 71 -40 -50 0 0 0 -1 -1 0 0 0 1 0 3713.dat
+0 STEP
 0 FILE 42069 - chassis7.ldr
 0 Chassis drive segment with a 20-tooth double bevel gear mounted on an 8-long stop axle within bent and straight liftarms.
 0 Name: 42069 - chassis7.ldr
@@ -2513,6 +2527,7 @@
 1 0 20 20 0 0 -1 0 0 0 1 -1 0 0 32523.dat
 0 // Technic Gear 20 Tooth Double Bevel Reinforced (tan)
 1 19 40 0 0 0 0 1 -1 0 0 0 -1 0 18575.dat
+0 STEP
 0 FILE 42069 - hog.ldr
 0 Hand-of-god steering linkage using universal joints and cross blocks to route control input through angled axles.
 0 Name: 42069 - hog.ldr
@@ -2554,6 +2569,7 @@
 1 71 0 40 -20 -1 0 0 0 -0.196 -0.981 0 -0.981 0.196 62519.dat
 0 // Technic Axle  4 (black)
 1 0 0 89.029 -29.806 0 1 0 0.981 0 -0.196 -0.196 0 -0.981 3705.dat
+0 STEP
 0 FILE 42069 - roofside.ldr
 0 Roof side rail formed from a 13-long beam and a 5-long beam connected with long friction pins.
 0 Name: 42069 - roofside.ldr
@@ -2580,6 +2596,7 @@
 1 0 10 0 120 1 0 0 0 -1 0 0 0 -1 2780.dat
 0 // Technic Pin with Friction with Perpendicular Pin Hole Type 1 (black)
 1 0 20 0 40 -1 0 0 0 0 1 0 1 0 15100.dat
+0 STEP
 0 FILE 42069 - roof1.ldr
 0 Roof frame section built from thin 0.5 liftarms and axle joiners forming a bent structural hoop.
 0 Name: 42069 - roof1.ldr
@@ -2615,6 +2632,7 @@
 1 0 -95 0 -30 0 -1 0 1 0 0 0 0 1 32449.dat
 0 // Technic Beam  4 x  0.5 Liftarm (black)
 1 0 -105 0 -30 0 -1 0 1 0 0 0 0 1 32449.dat
+0 STEP
 0 FILE 42069 - trunk.ldr
 0 Rear trunk/body panel assembly built around a 5x11 panel with 11-, 9-, and 7-long beams and cross blocks.
 0 Name: 42069 - trunk.ldr
@@ -2694,6 +2712,7 @@
 1 71 -30 -20 120 1 0 0 0 0 1 0 -1 0 32291.dat
 0 // Technic Axle  4 (black)
 1 0 0 -20 120 1 0 0 0 0 1 0 -1 0 3705.dat
+0 STEP
 0 FILE 42069 - floorback.ldr
 0 Rear floor/body panel section using a 5x11 panel and two 13-long beams joined by cross blocks and pins.
 0 Name: 42069 - floorback.ldr
@@ -2739,6 +2758,7 @@
 1 19 80 -10 40 0 -1 0 -1 0 0 0 0 -1 3749.dat
 0 // Technic Axle Pin (tan)
 1 19 -80 -10 40 0 -1 0 -1 0 0 0 0 -1 3749.dat
+0 STEP
 0 FILE 42069 - bumperrear.ldr
 0 Rear bumper assembly combining a smooth 7x2x3 panel, fairings, an 11-long beam, and angled connectors.
 0 Name: 42069 - bumperrear.ldr
@@ -2807,6 +2827,7 @@
 1 70 80 20 -40 0 0.383 0.924 1 0 0 0 0.924 -0.383 24316.dat
 0 // Technic Axle  3 with Stop (reddish_brown)
 1 70 -80 20 -40 0 -0.383 0.924 1 0 0 0 0.924 0.383 24316.dat
+0 STEP
 0 FILE 42069 - rearsidedoor.ldr
 0 Rear side door built from a black 5x11 panel with bent liftarms mounted on an 11-long axle and bushes.
 0 Name: 42069 - rearsidedoor.ldr
@@ -2838,6 +2859,7 @@
 1 71 10 80 -20 0 0 1 0 1 0 -1 0 0 3713.dat
 0 // Technic Bush with Two Flanges (light_bluish_grey)
 1 71 210 80 -20 0 0 -1 0 -1 0 -1 0 0 3713.dat
+0 STEP
 0 FILE 42069 - rearunderbodyr.ldr
 0 Right rear underbody/skid plate using a smooth panel, a bent 45-degree double liftarm, and 6-long thin beams.
 0 Name: 42069 - rearunderbodyr.ldr
@@ -2878,6 +2900,7 @@
 1 72 -80 0 -60 0 -1 0 -1 0 0 0 0 -1 42003.dat
 0 // Technic Axle Pin with Friction (blue)
 1 1 -60 10 -60 0 -1 0 -1 0 0 0 0 -1 43093.dat
+0 STEP
 0 FILE 42069 - seatleft.ldr
 0 Left seat assembly with beams, angle connectors, and tooth pieces forming the seatback and cushion structure.
 0 Name: 42069 - seatleft.ldr
@@ -2961,6 +2984,7 @@
 1 1 40 40 30 -1 0 0 0 1 0 0 0 -1 6558.dat
 0 // Technic Beam  9 (dark_bluish_grey)
 1 72 60 40 50 0 -1 0 -1 0 0 0 0 -1 40490.dat
+0 STEP
 0 FILE 42069 - footboardleft.ldr
 0 Left footboard/running board made from bent liftarms and a 3x11 panel mounted on cross blocks and a hub connector.
 0 Name: 42069 - footboardleft.ldr
@@ -2995,6 +3019,7 @@
 0 STEP
 0 // Technic Panel  3 x 11 (dark_bluish_grey)
 1 72 5 -40 120 0 0 1 0 -1 0 1 0 0 15458.dat
+0 STEP
 0 FILE 42069 - doorright.ldr
 0 A right-side door panel assembly built from a medium lilac beam, a black 3x11 panel, and connecting pins.
 0 Name: 42069 - doorright.ldr
@@ -3040,6 +3065,7 @@
 1 0 0 -80 0 1 0 0 0 1 0 0 0 1 41239.dat
 0 // Technic Pin with Friction and Slots (black)
 1 0 0 -90 120 0 -1 0 1 0 0 0 0 1 2780.dat
+0 STEP
 0 FILE 42069 - rearunderbodyl.ldr
 0 A rear underbody section on the left featuring a medium lilac 7x2x3 smooth panel and bent liftarm bracing.
 0 Name: 42069 - rearunderbodyl.ldr
@@ -3080,6 +3106,7 @@
 1 72 -80 0 -60 0 -1 0 -1 0 0 0 0 -1 42003.dat
 0 // Technic Axle Pin with Friction (blue)
 1 1 -60 -10 -60 0 -1 0 1 0 0 0 0 1 43093.dat
+0 STEP
 0 FILE 42069 - seatright.ldr
 0 A right-side seat frame constructed from beams, angle connectors, and pins with support teeth.
 0 Name: 42069 - seatright.ldr
@@ -3163,6 +3190,7 @@
 1 1 -40 40 30 1 0 0 0 1 0 0 0 1 6558.dat
 0 // Technic Beam  9 (dark_bluish_grey)
 1 72 -60 40 30 0 1 0 1 0 0 0 0 -1 40490.dat
+0 STEP
 0 FILE 42069 - footboardright.ldr
 0 A right-side footboard made of bent liftarms, a dark bluish grey 3x11 panel, and connector pins.
 0 Name: 42069 - footboardright.ldr
@@ -3197,6 +3225,7 @@
 0 STEP
 0 // Technic Panel  3 x 11 (dark_bluish_grey)
 1 72 -5 -40 120 0 0 -1 0 -1 0 -1 0 0 15458.dat
+0 STEP
 0 FILE 42069 - doorleft.ldr
 0 A left-side door panel assembly, mirroring the right door with a medium lilac beam and black 3x11 panel.
 0 Name: 42069 - doorleft.ldr
@@ -3242,6 +3271,7 @@
 1 0 0 -80 0 1 0 0 0 1 0 0 0 1 41239.dat
 0 // Technic Pin with Friction and Slots (black)
 1 0 0 -90 120 0 1 0 -1 0 0 0 0 1 2780.dat
+0 STEP
 0 FILE 42069 - roof2.ldr
 0 A roof section composed of multiple black 3x11 panels, white trapezium panels, and bent liftarms forming the cabin top.
 0 Name: 42069 - roof2.ldr
@@ -3401,6 +3431,7 @@
 1 1 140 -15.41 243.798 0 0 -1 -0.956 0.292 0 0.292 0.956 0 4274.dat
 0 // Technic Pin  1/2 (blue)
 1 1 -140 -15.41 243.798 0 0 -1 -0.956 0.292 0 0.292 0.956 0 4274.dat
+0 STEP
 0 FILE 42069 - reardoor.ldr
 0 A rear door featuring a black 5x11 panel, two 9-stud beams, and a 40.4 sprocket wheel for the spare or mechanism.
 0 Name: 42069 - reardoor.ldr
@@ -3459,6 +3490,7 @@
 1 72 -100 100 60 1 0 0 0 0 -1 0 1 0 74695.dat
 0 // Technic Bush with Two Flanges (light_bluish_grey)
 1 71 -100 100 40 0 1 0 -1 0 0 0 0 1 3713.dat
+0 STEP
 0 FILE 42069 - axlerear.ldr
 0 A rear axle assembly with a differential, CV joint, gears, and open-center liftarm frame for driven wheels.
 0 Name: 42069 - axlerear.ldr
@@ -3934,6 +3966,7 @@
 1 19 80 -20 -100 -1 0 0 0 1 0 0 0 -1 32556.dat
 0 // Technic Wheel Spindle Axle Driver (light_bluish_grey)
 1 71 0 0 -84 0 1 0 0.994 0 -0.107 -0.107 0 -0.994 32494.dat
+0 STEP
 0 FILE 42069 - axleturntable.ldr
 0 A turntable-based axle pivot using a 28-tooth turntable pair, beams, and cross blocks for articulation.
 0 Name: 42069 - axleturntable.ldr
@@ -3983,6 +4016,7 @@
 1 71 0 -45 -80 0 0 1 0 -1 0 1 0 0 11478.dat
 0 // Technic Cross Block 2 x 2 (Axle/Twin Pin) (light_bluish_grey)
 1 71 0 0 -80 1 0 0 0 0 -1 0 1 0 32291.dat
+0 STEP
 0 FILE 42069 - technicChainTread38Closed-1.ldr
 0 A closed continuous track loop of 25 reinforced chain tread links and rubber pins forming a tread band.
 0 Name: 42069 - technicChainTread38Closed-1.ldr
@@ -4069,6 +4103,7 @@
 1 256 -59.254 17.236 -20 0 0.951 0.309 0 -0.309 0.951 1 0 0 42069 - 24375.dat
 0 // Technic Rubber Pin for Chain Tread 5 Wide (rubber_black)
 1 256 -58.892 -20.151 -20 0 0.963 -0.27 0 0.27 0.963 1 0 0 42069 - 24375.dat
+0 STEP
 0 FILE 42069 - shock-06_5L-hard-1.ldr
 0 A hard 6.5L shock absorber assembly with a cylinder, piston rod, and tightly wound spring.
 0 Name: 42069 - shock-06_5L-hard-1.ldr
@@ -4114,6 +4149,7 @@
 0 //Spring mesh reference
 1 494 0 64.02 0 1 0 0 0 1 0 0 0 1 42069 - shock-06_5L-hard-1_springMesh.ldr
 
+0 STEP
 0 FILE 42069 - shock-06_5L-hard-1_springMesh.ldr
 0 The generated coil spring mesh for the hard 6.5L shock absorber with 15 windings across five sections.
 0 Name: 42069 - shock-06_5L-hard-1_springMesh.ldr
@@ -6323,6 +6359,7 @@
 3 16 -8.5 35.23 0 -7.75 34.480362 0.023358 -7.75 35.23584 0.187409
 2 24 -8.5 35.23 0 -7.75 34.480362 0.023358
 5 24 -7.75 35.23584 0.187409 -7.75 34.480362 0.023358 -8.5 35.23 0 -7 35.23 0
+0 STEP
 0 FILE 42069 - axlefront.ldr
 0 A front axle assembly featuring a differential, CV joint, bevel gears, and cross-block bracing for driven front wheels.
 0 Name: 42069 - axlefront.ldr
@@ -6834,6 +6871,7 @@
 1 1 99.987 -160.046 0 -1 0 0 0 1 0 0 0 -1 6558.dat
 0 // Technic Pin Long with Friction and Slot (blue)
 1 1 -100.013 -160.046 0 1 0 0 0 1 0 0 0 1 6558.dat
+0 STEP
 0 FILE 42069 - axlefront2.ldr
 0 A secondary front axle pivot using a 7-stud beam, towball pin, and angle connectors for steering linkage.
 0 Name: 42069 - axlefront2.ldr
@@ -6868,6 +6906,7 @@
 1 70 -40 0 60 1 0 0 0 1 0 0 0 1 15462.dat
 0 // Technic Pin Towball with Friction (black)
 1 0 -20 -30 0 0 1 0 1 0 0 0 0 -1 6628.dat
+0 STEP
 0 FILE 42069 - shock-06_5L-soft-1.ldr
 0 A soft 6.5L shock absorber assembly with a cylinder, piston rod, and lighter-wound spring.
 0 Name: 42069 - shock-06_5L-soft-1.ldr
@@ -6911,6 +6950,7 @@
 0 //Spring mesh reference
 1 494 -0.002 64.017 0 1 0.000056 0 -0.000056 1 0 0 0 1 42069 - shock-06_5L-soft-1_springMesh.ldr
 
+0 STEP
 0 FILE 42069 - shock-06_5L-soft-1_springMesh.ldr
 0 The generated coil spring mesh for the soft 6.5L shock absorber with 11 windings across three sections.
 0 Name: 42069 - shock-06_5L-soft-1_springMesh.ldr
@@ -8540,6 +8580,7 @@
 3 16 -8.25 35.358002 0 -7.625 34.733219 0.016489 -7.625 35.362122 0.156196
 2 24 -8.25 35.358002 0 -7.625 34.733219 0.016489
 5 24 -7.625 35.362122 0.156196 -7.625 34.733219 0.016489 -8.25 35.358002 0 -7 35.358002 0
+0 STEP
 0 FILE 42069 - axlefrontturntable1.ldr
 0 A front axle turntable mount using a 28-tooth turntable pair, thin liftarms, and cross blocks for pivot support.
 0 Name: 42069 - axlefrontturntable1.ldr
@@ -8616,6 +8657,7 @@
 1 71 0 0 -80 1 0 0 0 1 0 0 0 1 4519.dat
 0 // Technic Cross Block 2 x 2 (Axle/Twin Pin) (light_bluish_grey)
 1 71 0 0 -80 1 0 0 0 0 -1 0 1 0 32291.dat
+0 STEP
 0 STEP
 0 FILE 42069 - axlefrontturntable2.ldr
 0 A second front axle turntable mount mirroring the first with identical turntable pair and liftarm bracing.
@@ -8694,6 +8736,7 @@
 0 // Technic Cross Block 2 x 2 (Axle/Twin Pin) (light_bluish_grey)
 1 71 0 8 80 -1 0 0 0 0 -1 0 -1 0 32291.dat
 0 STEP
+0 STEP
 0 FILE 42069 - steerrack.ldr
 0 A steering rack assembly built from a 13-stud gear rack, beams, and cross blocks for rack-and-pinion steering.
 0 Name: 42069 - steerrack.ldr
@@ -8731,6 +8774,7 @@
 1 71 20 0 -180 0 0 -1 -1 0 0 0 1 0 4519.dat
 0 // Technic Axle  3 (light_bluish_grey)
 1 71 20 0 180 0 0 -1 -1 0 0 0 1 0 4519.dat
+0 STEP
 0 FILE 42069 - frontbump.ldr
 0 A front bumper featuring an 11-stud beam, smooth side panel, and an anniversary-printed beam element.
 0 Name: 42069 - frontbump.ldr
@@ -8772,6 +8816,7 @@
 1 0 70 -60 40 1 0 0 0 0 1 0 -1 0 2780.dat
 0 // Technic Pin with Friction and Slots (black)
 1 0 -70 -60 40 1 0 0 0 0 1 0 -1 0 2780.dat
+0 STEP
 0 FILE 42069 - shovel.ldr
 0 A small shovel or tool accessory built from an angled tile, hinge arms, and an axle joiner.
 0 Name: 42069 - shovel.ldr
@@ -8791,6 +8836,7 @@
 1 0 0 80 0 0 -1 0 0 0 -1 1 0 0 30552.dat
 0 // Tile  3 x  2 with Angled End (light_bluish_grey)
 1 71 -6.069 130.782 0 0 -0.924 0.383 0 -0.383 -0.924 1 0 0 22385.dat
+0 STEP
 0 FILE 42069 - roofrack.ldr
 0 A roof rack composed of two 13-stud beams, long axles, and 90-degree angle connectors forming a rectangular frame.
 0 Name: 42069 - roofrack.ldr
@@ -8863,6 +8909,7 @@
 1 71 -120 -40 -320 0 -1 0 -1 0 0 0 0 -1 32014.dat
 0 // Technic Axle 11 (light_bluish_grey)
 1 71 0 -40 -320 -1 0 0 0 0 -1 0 -1 0 23948.dat
+0 STEP
 0 FILE 42069 - jerrycan.ldr
 0 A jerrycan accessory built from plates and grooved bricks with a handle and slope detail.
 0 Name: 42069 - jerrycan.ldr
@@ -8910,6 +8957,7 @@
 1 16 0 -96 -10 1 0 0 0 1 0 0 0 1 15573.dat
 0 // Tile  1 x  1 Round with Groove (black)
 1 0 0 -104 -10 1 0 0 0 1 0 0 0 1 98138.dat
+0 STEP
 0 FILE 42069 - jerrycansmall.ldr
 0 A small blue jerrycan or crate accessory made of blue plates, grooved bricks, and a 2x2x2 crate element.
 0 Name: 42069 - jerrycansmall.ldr
@@ -8941,6 +8989,7 @@
 1 0 0 -88 -10 1 0 0 0 1 0 0 0 1 98138.dat
 0 // Plate  1 x  1 Round (blue)
 1 1 0 -80 -10 1 0 0 0 1 0 0 0 1 6141.dat
+0 STEP
 0 FILE 42069 - ropeLQ-1.ldr
 0 A long flexible rope modeled as 384 cylindrical segments forming a curved flexible line.
 0 Name: 42069 - ropeLQ-1.ldr
@@ -9760,6 +9809,7 @@
 1 16 14.641393 -83.628039 1 0 0.146227 1.498998 0 -3.997651 0.054831 1.5 0 0 4-4cyli.dat
 0 // Cylinder 1.0 (main_colour)
 1 16 13.980914 -80.763104 1 0 0.790577 1.470416 0 -3.921426 0.296442 1.5 0 0 4-4cyli.dat
+0 STEP
 0 FILE 42069 - 33299a.dat
 0 A small Technic connector submodel with axle holes, peg holes, and disc rings forming a compact cylindrical joint element.
 0 Name: 42069 - 33299a.dat
@@ -9792,6 +9842,7 @@
 4 16 9 10 32 9 10 29 -9 10 29 -9 10 32
 4 16 8 10 36.661999 9 10 35.661999 9 10 32 8 10 32
 4 16 -9 10 35.661999 -8 10 36.661999 -8 10 32 -9 10 32
+0 STEP
 0 FILE 42069 - 32198.dat
 0 A conical Technic part with multiple cylinders, rings, and rectangles forming a tapered housing with axle and peg connections.
 0 Name: 42069 - 32198.dat
@@ -10035,6 +10086,7 @@
 
 0 !LDCAD SNAP_CLEAR 
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 6 3   A 6 7] [center=true] [slide=true]
+0 STEP
 0 FILE 42069 - 28809.dat
 0 A small plate element with an offset peghole on the underside, referencing part 18677.
 0 Name: 42069 - 28809.dat
@@ -10047,6 +10099,7 @@
 0 // Alias of 18677
 0 // Plate  1 x  2 with Offset Peghole on Underside (main_colour)
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 18677.dat
+0 STEP
 0 FILE 42069 - 24118.dat
 0 A mirrored front-face half element, used as a symmetric component of a larger Technic part.
 0 Name: 42069 - 24118.dat
@@ -10199,6 +10252,7 @@
 3 16 -1.3527 -72.788498 -73.711998 3.5206 -65.096298 -91.796501 9 -62.6665 -54.4356
 3 16 -1.3527 -72.788498 -73.711998 9 -68.640602 -36.812 -4.1572 -76.355904 -63.243698
 3 16 9 -62.6665 -54.4356 9 -68.640602 -36.812 -1.3527 -72.788498 -73.711998
+0 STEP
 0 FILE 42069 - 88323.dat
 0 A rectangular panel-like submodel composed of many rectangle primitives forming a flat or box-shaped structural surface.
 0 Name: 42069 - 88323.dat
@@ -10283,6 +10337,7 @@
 0 // Rectangle with 3 Edges (main_colour)
 1 16 33 -10 -4.5 0 0 15 0 1 0 -1.5 0 0 rect3.dat
 4 16 44 -14 -6 48 -10 -6 18 -10 -6 18 -14 -6
+0 STEP
 0 FILE 42069 - 2850b.dat
 0 A cylindrical Technic motor-like housing with open cylinders, boxes, and disc negatives forming a detailed cylindrical body.
 0 Name: 42069 - 2850b.dat
@@ -10451,6 +10506,7 @@
 4 16 -16 43 2 -13 43 2 -13 33 2 -20 36 2
 3 16 -13 33 2 -20 33 2 -20 36 2
 4 16 -20 36 2 -20 33 2 -27 33 2 -27 36 2
+0 STEP
 0 FILE 42069 - 3623.dat
 0 An empty reference submodel representing a Technic plate or beam element with no direct geometry.
 0 Name: 42069 - 3623.dat
@@ -10473,6 +10529,7 @@
 0 !LICENSE Free for non-commercial use.
 
 0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=S 6 4] [grid=C 3 1 20 0]
+0 STEP
 0 FILE 42069 - 30395.dat
 0 A jointed cylindrical connector with multiple cylinder sections, circles, and chord primitives forming a ball-and-socket style articulation piece.
 0 Name: 42069 - 30395.dat
@@ -10576,6 +10633,7 @@
 5 24 7.0711 27.070999 4 7.0711 27.070999 -4 2 32 4 9.2391 23.826799 4
 5 24 -2.2961 34.456699 4 -2.2961 34.456699 -4 2 32 4 -4.2428 35.757301 4
 5 24 11.0868 44.591999 -4 11.0868 44.591999 4 11.2927 43.5569 -4 4.5922 51.086601 -4
+0 STEP
 0 FILE 42069 - 4185b.dat
 0 A Technic gear or pulley-like part with axle holes and multiple open cylinders forming a wheel-shaped component.
 0 Name: 42069 - 4185b.dat
@@ -10643,6 +10701,7 @@
 0 BFC INVERTNEXT
 0 // Cylinder Open 0.5 (main_colour)
 1 16 -11 0 -3 0 0 -1 1 0 0 0 6 0 2-4cylo.dat
+0 STEP
 0 FILE 42069 - 13971.dat
 0 A large conical wheel or rim element with stacked cones and rings forming a tire or wheel profile.
 0 Name: 42069 - 13971.dat
@@ -10741,6 +10800,7 @@
 1 16 0 0 0 -1 0 0 0 1 0 0 0 1 s\42069 - 13971s01.dat
 1 16 0 0 0 1 0 0 0 -1 0 0 0 1 s\42069 - 13971s01.dat
 1 16 0 0 0 -1 0 0 0 -1 0 0 0 1 s\42069 - 13971s01.dat
+0 STEP
 0 FILE 42069 - 24375.dat
 0 A rounded cylindrical Technic connector with cones, discs, and circles forming a smooth tapered knob or bushing element.
 0 Name: 42069 - 24375.dat
@@ -10944,6 +11004,7 @@
 2 24 -1.2 8 5.5433 -1.2 8 6
 3 16 -1.2 8 6 -1.2 8 5.5433 -1.2 10 4
 3 16 -1.2 8 -5.5432 -1.2 8 -6 -1.2 10 -4
+0 STEP
 0 FILE 42069 - 32523p01.dat
 0 A patterned Technic beam with beam holes, connector holes, and a decorative pattern overlay.
 0 Name: 42069 - 32523p01.dat
@@ -11469,6 +11530,7 @@
 4 16 9 -6.1 11.9 9 -5.35 10.7 9 -5.5 12.35 9 -6.4 13.3
 3 16 9 -6.4 13.3 9 -5.5 12.35 9 -5.85 13.25
 4 16 9 7.9 10.4 9 8.55 10.1 9 8.55 11.55 9 7.35 10.75
+0 STEP
 0 FILE 42069 - ldcLQRopeSeg.dat
 0 A simple rope segment represented by a single cylinder primitive, used in flexible cable or winch assemblies.
 0 Name: 42069 - ldcLQRopeSeg.dat
@@ -11482,6 +11544,7 @@
 
 0 // Cylinder 1.0 (main_colour)
 1 16 0 0 0 1.5 0 0 0 1 0 0 0 1.5 4-4cyli.dat
+0 STEP
 0 FILE s\42069 - 2850s01.dat
 0 A detailed sub-part of a Technic motor housing with cooling ribs, studs, connector holes, and extensive cylindrical geometry.
 0 Name: s\42069 - 2850s01.dat
@@ -11916,6 +11979,7 @@
 4 16 5.7405 36 13.8585 2.5 36 14.50287 2.5 36 16 16 36 16
 3 16 10.6065 36 10.6065 5.7405 36 13.8585 16 36 16
 3 16 13.8585 36 5.7405 10.6065 36 10.6065 16 36 16
+0 STEP
 0 FILE s\42069 - 3623s01.dat
 0 A simple box-based sub-part forming the rectangular body geometry of a Technic plate element.
 0 Name: s\42069 - 3623s01.dat
@@ -11937,6 +12001,7 @@
 0 // Box with 4 Adjacent Faces and All Edges (main_colour)
 1 16 0 8 0 30 0 0 0 -8 0 0 0 10 box4t.dat
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 stug-1x3.dat
+0 STEP
 0 FILE s\42069 - 33299s01.dat
 0 A detailed cylindrical Technic connector sub-part with pins, rings, and multiple cylinder and disc primitives forming a pin-and-axle joint.
 0 Name: s\42069 - 33299s01.dat
@@ -12206,6 +12271,7 @@
 4 16 4.9497 0 35.050201 6 0 36.661999 6 10 36.661999 4.9497 10 35.050301
 5 24 -4.9498 0 35.050098 -4.9498 10 35.050098 -6 0 36.661999 -2.6788 0 33.5327
 5 24 4.9497 10 35.050301 4.9498 0 35.050201 6 0 36.661999 2.6788 10 33.5327
+0 STEP
 0 FILE 42069 - toothb20.dat
 0 An empty reference submodel representing a gear tooth element with no direct geometry.
 0 Name: 42069 - toothb20.dat
@@ -12250,6 +12316,7 @@
 5 24 2.07 -6.13 6.5 2.07 -6.13 7 -2.07 -6.13 6.5 6.066 -5.497 6.5
 5 24 1.582 0 0 0 -6.13 2 0 -3.13 0 2.07 -6.13 6.5
 5 24 0 -6.13 2 -1.582 0 0 0 -3.13 0 -2.07 -6.13 6.5
+0 STEP
 0 FILE s\42069 - 4185bs01.dat
 0 A curved sub-part with concentric rings and discs forming a smooth cylindrical or wheel-rim profile.
 0 Name: s\42069 - 4185bs01.dat
@@ -12420,6 +12487,7 @@
 5 24 10.519 -25.393999 0 7.113 -26.549 0 7.215 -26.927999 -1.25 7.215 -26.927999 1.25
 5 24 7.113 -26.549 0 3.587 -27.25 0 3.638 -27.639 -1.25 3.638 -27.639 1.25
 5 24 3.587 -27.25 0 0 -27.486 0 0 -27.879 -1.25 0 -27.879 1.25
+0 STEP
 0 FILE 42069 - 3-16ring24.dat
 0 A primitive-generated ring segment (3/16 of a full circle at radius 24) used as a geometric building block.
 0 Name: 42069 - 3-16ring24.dat
@@ -12433,6 +12501,7 @@
 4 16 23.0975 0 9.5675 17.6775 0 17.6775 16.9704 0 16.9704 22.173599 0 9.1848
 4 16 17.6775 0 17.6775 9.5675 0 23.0975 9.1848 0 22.173599 16.9704 0 16.9704
 0 // Build by Primitive Generator 2
+0 STEP
 0 FILE 48\42069 - 1-4con70.dat
 0 A primitive-generated quarter cone segment used as a geometric building block for tapered surfaces.
 0 Name: 48\42069 - 1-4con70.dat
@@ -12469,6 +12538,7 @@
 5 24 9.135 1 69.398003 9.2655 0 70.389397 18.1173 1 67.614799 0 1 70
 5 24 0 1 70 0 0 71 9.1368 1 69.4011 -9.2157 1 70
 0 // Build by Primitive Generator 2
+0 STEP
 0 FILE s\42069 - 57518s01.dat
 0 A large detailed sub-part with extensive rectangles, cylinders, circles, and peg holes forming a complex multi-connection Technic structural body.
 0 Name: s\42069 - 57518s01.dat
@@ -13093,6 +13163,7 @@
 3 16 8 3.444 -38.314999 8 0 -34.000599 8 1.5309 -33.695999
 4 16 -14 3.444 -38.314999 -14 -3.4443 -38.3148 -14 -4 -34 -14 0 -34.000599
 3 16 -14 3.444 -38.314999 -14 0 -34.000599 -14 1.5309 -33.695999
+0 STEP
 0 FILE s\42069 - 13971s01.dat
 0 A minimal sub-part with two rectangle primitives forming a small flat surface element of a wheel or rim.
 0 Name: s\42069 - 13971s01.dat
@@ -13182,6 +13253,7 @@
 5 24 10.4486 1.5216 10 8.851 5.1101 10 10.0812 4.3136 9.888 9 0 10
 5 24 3.9065 9.8096 10 0 10.2202 10 1.3049 10.8874 9.888 3.4443 8.3151 10
 5 24 8.851 5.1101 10 6.5421 8.288 10 8.7763 6.5738 9.888 8.3151 3.4443 10
+0 STEP
 0 FILE s\42069 - 24118s01.dat
 0 A detailed Technic connector sub-part with connector holes, cylinders, rings, and a sloped surface forming a complex angled joint element.
 0 Name: s\42069 - 24118s01.dat

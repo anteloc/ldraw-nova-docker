@@ -460,6 +460,7 @@
 
 
 
+0 STEP
 0 FILE 31049 - Main Shaft.ldr
 0 Drivetrain shaft assembly using Technic axles, bevel gears, round pin-hole bricks, and axle joiners.
 0 Name: 31049 - Main Shaft.ldr
@@ -500,6 +501,7 @@
 
 
 
+0 STEP
 0 FILE 31049 - Winch.ldr
 0 Functional winch mechanism built from Technic beams, an axle, bushings, a reel, and a towball hook.
 0 Name: 31049 - Winch.ldr
@@ -535,6 +537,7 @@
 
 
 
+0 STEP
 0 FILE 31049 - Cockpit.ldr
 0 Enclosed cockpit module featuring inverted slope panels, round dome corners, grille tiles, and a green round brick.
 0 Name: 31049 - Cockpit.ldr
@@ -597,6 +600,7 @@
 
 
 
+0 STEP
 0 FILE 31049 - Right Landing Gear.ldr
 0 Right-side landing gear strut with angle connectors, an axle, a wing element, and a landing gear piece with peghole.
 0 Name: 31049 - Right Landing Gear.ldr
@@ -647,6 +651,7 @@
 
 
 
+0 STEP
 0 FILE 31049 - Left Landing Gear.ldr
 0 Left-side landing gear strut with angle connectors, an axle, a wing element, and a landing gear piece with peghole.
 0 Name: 31049 - Left Landing Gear.ldr
@@ -697,6 +702,7 @@
 
 
 
+0 STEP
 0 FILE 31049 - Rotor Mast.ldr
 0 Vertical rotor mast built from stacked Technic plates, slope bricks, grille tiles, and a geared axle with bush.
 0 Name: 31049 - Rotor Mast.ldr
@@ -761,6 +767,7 @@
 
 
 
+0 STEP
 0 FILE 31049 - Rotor Blade.ldr
 0 Three-bladed rotor assembly with a Technic rotor hub and long black plate and tile blades.
 0 Name: 31049 - Rotor Blade.ldr
@@ -806,6 +813,7 @@
 
 
 
+0 STEP
 0 FILE 31049 - Snowcat.ldr
 0 Alternate snowcat vehicle model with four wheeled tyres, plates, a dish, clear slope windows, and chain tread components.
 0 Name: 31049 - Snowcat.ldr
@@ -900,6 +908,7 @@
 
 
 
+0 STEP
 0 FILE 31049 - TechnicChainTread17Closed-1.ldr
 0 Generated closed Technic chain tread flex path wrapping 16 tread segments.
 0 Name: 31049 - TechnicChainTread17Closed-1.ldr
@@ -935,6 +944,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 31049 - TechnicChainTread17Closed-1_subPart1.ldr
 
 
+0 STEP
 0 FILE 31049 - TechnicChainTread17Closed-1_subPart1.ldr
 0 Subpart containing 16 linked Technic chain tread segments forming the closed loop.
 0 Name: 31049 - TechnicChainTread17Closed-1_subPart1.ldr
@@ -992,6 +1002,7 @@
 
 
 
+0 STEP
 0 FILE 31049 - Rope.ldr
 0 Generated flexible rope made of 214 connected cylinder segments for the winch line.
 0 Name: 31049 - Rope.ldr

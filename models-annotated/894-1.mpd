@@ -15,6 +15,7 @@
 1 16 0 -32 -40 1 0 0 0 1 0 0 0 1 894 - Minifig.ldr
 
 
+0 STEP
 0 FILE 894 - Vehicle.ldr
 0 A light grey six-wheeled vehicle built from plates, mudguards, tyres, and a steering assembly with a towball for hitching a trailer.
 0 Name: 894 - Vehicle.ldr
@@ -118,6 +119,7 @@
 1 16 40 -56 40 0.707107 0 0.707107 0 1 0 -0.707107 0 0.707107 894 - Vehicle - Hatch Left.ldr
 
 
+0 STEP
 0 FILE 894 - Vehicle - Radar Dish.ldr
 0 A small radar dish assembly mounted on a turntable with round bricks and clear trans shields as reflectors.
 0 Name: 894 - Vehicle - Radar Dish.ldr
@@ -144,6 +146,7 @@
 1 47 44 -34 0 0 0 1 0 -1 0 1 0 0 3876.dat
 
 
+0 STEP
 0 FILE 894 - Vehicle - Hatch Right.ldr
 0 A right-side hinged panel of bricks with a yellow trans window and an antenna detail.
 0 Name: 894 - Vehicle - Hatch Right.ldr
@@ -178,6 +181,7 @@
 1 7 30 -88 50 1 0 0 0 1 0 0 0 1 3957a.dat
 
 
+0 STEP
 0 FILE 894 - Vehicle - Hatch Left.ldr
 0 A left-side hinged panel of bricks with a yellow trans window and a red indicator stud.
 0 Name: 894 - Vehicle - Hatch Left.ldr
@@ -212,6 +216,7 @@
 1 36 -10 -88 50 1 0 0 0 1 0 0 0 1 3024.dat
 
 
+0 STEP
 0 FILE 894 - Radar Trailer.ldr
 0 A two-wheeled towable trailer with mudguards, a towball socket hitch, and a hinged mount for a radar dish.
 0 Name: 894 - Radar Trailer.ldr
@@ -247,6 +252,7 @@
 1 16 0 -54 10 -1 0 0 0 0.707107 0.707107 0 0.707107 -0.707107 894 - Radar Trailer - Radar Dish.ldr
 
 
+0 STEP
 0 FILE 894 - Radar Trailer - Radar Dish.ldr
 0 A hinged mounting arm that supports the radar dish atop the trailer.
 0 Name: 894 - Radar Trailer - Radar Dish.ldr
@@ -266,6 +272,7 @@
 1 16 0 -18 0 0.945519 0 0.325568 0 1 0 -0.325568 0 0.945519 894 - Radar Trailer - Radar Dish - Dish.ldr
 
 
+0 STEP
 0 FILE 894 - Radar Trailer - Radar Dish - Dish.ldr
 0 An inverted 4x4 radar dish with a green trans lens and a torch-style mount.
 0 Name: 894 - Radar Trailer - Radar Dish - Dish.ldr
@@ -285,6 +292,7 @@
 1 34 0 -16 -35 -1 0 0 0 0 -1 0 -1 0 3062b.dat
 
 
+0 STEP
 0 FILE 894 - Minifig.ldr
 0 A white classic space minifigure equipped with airtanks, helmet, and visor.
 0 Name: 894 - Minifig.ldr

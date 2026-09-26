@@ -85,6 +85,7 @@
 1 256 10 0 66 0 0 -1 0 1 0 1 0 0 89201.dat
 1 14 -75 -59 56 1 0 0 0 1 0 0 0 1 42031 - picker.ldr
 
+0 STEP
 0 FILE 42031 - chassis1.ldr
 0 Short white Technic beam frame joined by long pins, forming a compact sub-assembly for the chassis structure.
 0 Name: 42031 - chassis1.ldr
@@ -112,6 +113,7 @@
 1 19 0 0 -140 1 0 0 0 0 -1 0 1 0 32556.dat
 
 
+0 STEP
 0 FILE 42031 - chassis2.ldr
 0 Main chassis built from long black beams with red bodywork plates and curved slopes, connected by cross blocks and pins.
 0 Name: 42031 - chassis2.ldr
@@ -180,6 +182,7 @@
 0 // Slope Brick 31  1 x  1 x  0.667 (red)
 1 4 40 -24.6587 -17.3867 1 0 0 0 0.2588 -0.9659 0 0.9659 0.2588 54200.dat
 
+0 STEP
 0 FILE 42031 - rearbumper.ldr
 0 Rear bumper assembly using angle connectors and a Technic axle with bushes, accented by small red round plates.
 0 Name: 42031 - rearbumper.ldr
@@ -206,6 +209,7 @@
 0 // =Plate  1 x  1 Round (trans_red)
 1 36 -50 0 10 0 0 1 1 0 0 0 1 0 30057.dat
 
+0 STEP
 0 FILE 42031 - front.ldr
 0 Front-end assembly with a bent liftarm and cross blocks joined by pins and notched red axles.
 0 Name: 42031 - front.ldr
@@ -235,6 +239,7 @@
 1 0 30 -30 0 0 0 -1 0 1 0 1 0 0 41678.dat
 
 
+0 STEP
 0 FILE 42031 - roof.ldr
 0 Cab roof structure formed by angle connectors and cross blocks with a liftarm, featuring clear orange domed light elements.
 0 Name: 42031 - roof.ldr
@@ -280,6 +285,7 @@
 0 // Cylinder Domed  1 x  1 x  1.667 with Bar (trans_orange)
 1 57 60 -1 -20 0 0 -1 0 1 0 1 0 0 58176.dat
 
+0 STEP
 0 FILE 42031 - picker.ldr
 0 Yellow lifting mechanism with bent liftarms, a worm gear, and bevel gear for the elevation and rotation of the boom.
 0 Name: 42031 - picker.ldr
@@ -347,6 +353,7 @@
 1 14 10 20 -220 1 0 0 0 1 0 0 0 1 42031 - bucket.ldr
 
 
+0 STEP
 0 FILE 42031 - arm.ldr
 0 Telescoping boom arm made of paired yellow and grey liftarms with a 24-tooth gear for articulation.
 0 Name: 42031 - arm.ldr
@@ -386,6 +393,7 @@
 1 71 30 0 -160 0 1 0 -1 0 0 0 0 1 11478.dat
 
 
+0 STEP
 0 FILE 42031 - bucket.ldr
 0 Work bucket platform built from curved grey liftarms and yellow connectors, forming the operator basket at the end of the arm.
 0 Name: 42031 - bucket.ldr

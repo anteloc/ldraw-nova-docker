@@ -13,6 +13,7 @@
 1 15 50 0 -230 1 0 0 0 1 0 0 0 1 6430 - road sign 1.ldr
 1 15 -12.321 0 -185.981 0.866 0 -0.5 0 1 0 0.5 0 0.866 6430 - road sign 2.ldr
 
+0 STEP
 0 FILE 6430 - police car.ldr
 0 A black and white police car built from plates, slopes, and wheel pins forming the chassis and body.
 0 Name: 6430 - police car.ldr
@@ -259,6 +260,7 @@
 0 // Electric Light & Sound Coloured Globe (trans_dark_blue)
 1 33 -70 -120 10 1 0 0 0 1 0 0 0 1 4770.dat
 
+0 STEP
 0 FILE 6430 - police car - back.ldr
 0 The rear section of a police car with windows, panels, a roof hinge, and tail light elements.
 0 Name: 6430 - police car - back.ldr
@@ -314,6 +316,7 @@
 0 // Slope Brick 45  3 x  4 Double / 33 (black)
 1 0 90 -24 0 0 0 1 0 1 0 -1 0 0 4861.dat
 
+0 STEP
 0 FILE 6430 - policemen.ldr
 0 A police officer minifigure with a white helmet, visor, black uniform torso with badge, and standard limbs.
 0 Name: 6430 - policemen.ldr
@@ -346,6 +349,7 @@
 0 // ~Minifig Leg Right (Obsolete) (black)
 1 0 0 -28 0 1 0 0 0 1 0 0 0 1 3816.dat
 
+0 STEP
 0 FILE 6430 - road sign 1.ldr
 0 A small road sign made of a white cone topped with a round trans-dark-blue plate.
 0 Name: 6430 - road sign 1.ldr
@@ -360,6 +364,7 @@
 0 // Plate  1 x  1 Round (trans_dark_blue)
 1 33 0 -32 0 1 0 0 0 1 0 0 0 1 6141.dat
 
+0 STEP
 0 FILE 6430 - road sign 2.ldr
 0 A road sign consisting of a white plate base supporting a directional arrow disc tile.
 0 Name: 6430 - road sign 2.ldr

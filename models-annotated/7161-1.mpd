@@ -26,6 +26,7 @@
 0 // Animal Manta Ray (black)
 1 0 -498.51 -68 -24.749 0.707 0 -0.707 0 1 0 0.707 0 0.707 30084.dat
 
+0 STEP
 0 FILE 7161 - Part1.ldr
 0 A blue and light grey structural hull section with large plates, 33-degree slope bricks, and pin-and-axle connector bricks.
 0 Name: 7161 - Part1.ldr
@@ -190,6 +191,7 @@
 0 // Tile  1 x  6 (light_grey)
 1 7 0 -55.113 -28.488 1 0 0 0 0.407 0.914 0 -0.914 0.407 6636.dat
 
+0 STEP
 0 FILE 7161 - Part2.ldr
 0 A large blue and light grey hull section featuring many slope bricks, grooved tiles with underwater navigation patterns, wedges, and neon green round accents.
 0 Name: 7161 - Part2.ldr
@@ -531,6 +533,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 7161 - Hose Flexible 8.5L.ldr
 1 0 0 0 0 -1 0 0 0 1 0 0 0 1 7161 - Hose Flexible 8.5L.ldr
 
+0 STEP
 0 FILE 7161 - Part3.ldr
 0 A blue and light grey hull section built on a large base plate, incorporating slopes, grooved bricks, technic bushes, and a round brick with holes.
 0 Name: 7161 - Part3.ldr
@@ -616,6 +619,7 @@
 
 
 
+0 STEP
 0 FILE 7161 - Part4.ldr
 0 A small dark grey and blue assembly with inverted slopes, clip bricks, corner plates, and yellow taps.
 0 Name: 7161 - Part4.ldr
@@ -655,6 +659,7 @@
 
 
 
+0 STEP
 0 FILE 7161 - Part5.ldr
 0 A hinged assembly with inverted slopes, grille bricks, hinge plates, and plane engine pieces.
 0 Name: 7161 - Part5.ldr
@@ -702,6 +707,7 @@
 
 
 
+0 STEP
 0 FILE 7161 - Part6.ldr
 0 A small decorative detail cluster of stud-sided bricks, a round blue brick, and clipped tiles.
 0 Name: 7161 - Part6.ldr
@@ -725,6 +731,7 @@
 
 
 
+0 STEP
 0 FILE 7161 - Hose Flexible 8.5L.ldr
 0 A flexible grey hose assembly built from end tabs and many flexible center and end segments.
 0 Name: 7161 - Hose Flexible 8.5L.ldr
@@ -840,6 +847,7 @@
 
 
 
+0 STEP
 0 FILE 7161 - Island.ldr
 0 A seabed island display base on a large black plate with grey rocks, brown grooved tiles, dark grey cones, sea grass plants, and a starfish.
 0 Name: 7161 - Island.ldr
@@ -913,6 +921,7 @@
 
 
 
+0 STEP
 0 FILE 7161 - Minifig - Jar Jar Binks.ldr
 0 A seated Gungan minifigure with a dark grey/tan patterned torso, tan arms and head with split eyes, and sitting legs.
 0 Name: 7161 - Minifig - Jar Jar Binks.ldr
@@ -937,6 +946,7 @@
 
 
 
+0 STEP
 0 FILE 7161 - Minifig - Obi-Wan Kenobi.ldr
 0 A seated Jedi minifigure with a layered shirt torso, brown cape, brown hood, and sitting brown legs.
 0 Name: 7161 - Minifig - Obi-Wan Kenobi.ldr
@@ -966,6 +976,7 @@
 
 
 
+0 STEP
 0 FILE 7161 - Minifig - Qui-Gon Jinn.ldr
 0 A seated Jedi minifigure with a layered shirt torso, brown cape, pulled-back hair, bearded head, and sitting brown legs.
 0 Name: 7161 - Minifig - Qui-Gon Jinn.ldr
@@ -995,6 +1006,7 @@
 
 
 
+0 STEP
 0 FILE 7161 - Hose Flexible 30L.ldr
 0 A long flexible pneumatic hose assembly with no direct pieces.
 0 Name: 7161 - Hose Flexible 30L.ldr
@@ -1025,6 +1037,7 @@
 
 
 
+0 STEP
 0 FILE 7161 - 30218.dat
 0 A custom-modeled clam animal part converted from STL with added geometry lines.
 0 Name: 7161 - 30218.dat
@@ -2788,6 +2801,7 @@
 
 
 
+0 STEP
 0 FILE 7161 - 30371.dat
 0 A custom-modeled Gungan minifig head formed from a closed cylinder primitive.
 0 Name: 7161 - 30371.dat
@@ -2812,6 +2826,7 @@
 
 
 
+0 STEP
 0 FILE 7161 - LS20.dat
 0 An LSynth pneumatic hose end piece composed of cylinder, circle, and ring primitives.
 0 Name: 7161 - LS20.dat
@@ -2845,6 +2860,7 @@
 1 16 0 1 0 2 0 0 0 -1 0 0 0 2 4-4ring2.dat
 
 
+0 STEP
 0 FILE 7161 - LS21.dat
 0 An LSynth pneumatic hose cross section composed of cylinder and ring primitives.
 0 Name: 7161 - LS21.dat
@@ -2874,6 +2890,7 @@
 1 16 0 1 0 2 0 0 0 -1 0 0 0 2 4-4ring2.dat
 
 
+0 STEP
 0 FILE s\7161 - 92743s01.dat
 0 A subpart representing half of a Gungan minifig head built from comment lines.
 0 Name: s\7161 - 92743s01.dat
@@ -9605,6 +9622,7 @@
 
 
 
+0 STEP
 0 FILE s\7161 - 30371s01.dat
 0 A subpart for a Gungan split-eye head detail converted from STL with added lines.
 0 Name: s\7161 - 30371s01.dat

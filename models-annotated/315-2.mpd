@@ -166,6 +166,7 @@
 1 4 0 80 -160 1 0 0 0 1 0 0 0 1 315 - x139a.dat
 1 4 0 80 0 1 0 0 0 1 0 0 0 1 315 - x139a.dat
 
+0 STEP
 0 FILE 315 - x139a.dat
 0 A weighted boat keel component with a bottom tab, noted as needing stud and shaft adjustments.
 0 Name: 315 - x139a.dat
@@ -182,6 +183,7 @@
 1 16 0 80 0 1 0 0 0 1 0 0 0 1 s\315 - x139s03.dat
 1 16 0 80 0 -1 0 0 0 1 0 0 0 -1 s\315 - x139s03.dat
 
+0 STEP
 0 FILE s\315 - x139s01.dat
 0 Half of a boat keel form constructed from rings, circles, cylinders, and sloped cylinder primitives, marked as needing work on studs and bottom surface gaps.
 0 Name: s\315 - x139s01.dat
@@ -480,6 +482,7 @@
 2 24 11.476 2 -64.294 12.296 2 -64.457
 2 24 12.296 2 -64.457 14.243 2 -65.757
 
+0 STEP
 0 FILE s\315 - x139s03.dat
 0 Half of a weighted boat keel with a bottom tab, composed of cylinders, discs, and a sphere primitive.
 0 Name: s\315 - x139s03.dat
@@ -571,6 +574,7 @@
 2 24 -3 25.106 -25 -3 25.243 -25.632
 2 24 -3 25.243 -25.632 -3 25.549 -26.913
 
+0 STEP
 0 FILE s\315 - x139s02.dat
 0 Half of a boat keel form built from small cylinders, chords, and a circle primitive with added lines and condlines.
 0 Name: s\315 - x139s02.dat

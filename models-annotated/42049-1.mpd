@@ -374,6 +374,7 @@
 1 4 0 -129 -454 0 -1 0 -1 0 0 0 0 -1 42049 - 15361.dat
 0 STEP
 
+0 STEP
 0 FILE 42049 - gearing1.ldr
 0 Gear train assembly built from cross blocks, angle connectors, multiple axles, bevel gears, a 16-tooth reinforced gear, and a bent liftarm that transfers rotational drive between subsystems.
 0 Author: Philippe Hurbain [Philo]
@@ -449,6 +450,7 @@
 0 // Technic Pin with Friction and Slots (black)
 1 0 310 -40 100 1 0 0 0 0 1 0 -1 0 2780.dat
 
+0 STEP
 0 FILE 42049 - hog.ldr
 0 Hand-of-God steering input assembly using a long 11-stud beam, T-shaped and toggle connectors, gears, and axles to route steering rotation to the front wheels.
 0 Author: Philippe Hurbain [Philo]
@@ -508,6 +510,7 @@
 0 // Technic Axle Joiner Inline Smooth (dark_bluish_grey)
 1 72 230 20 0 0 0 1 0 1 0 -1 0 0 59443.dat
 
+0 STEP
 0 FILE 42049 - engine.ldr
 0 Two-cylinder Technic engine with cylinder heads, pistons, connecting rods, and crankshafts mounted on cross blocks and driven by gears.
 0 Author: Philippe Hurbain [Philo]
@@ -610,6 +613,7 @@
 0 // Technic Beam  5 x  3 H-shaped (light_bluish_grey)
 1 71 200 40 0 0 1 0 1 0 0 0 0 -1 14720.dat
 
+0 STEP
 0 FILE 42049 - bracket.ldr
 0 Mounting bracket formed from bent 90-degree liftarms, short beams, cross blocks, and long friction pins to reinforce adjacent structural members.
 0 Author: Philippe Hurbain [Philo]
@@ -654,6 +658,7 @@
 0 // Technic Pin Long with Stop Bush (black)
 1 0 240 60 60 0 -1 0 0 0 1 -1 0 0 32054.dat
 
+0 STEP
 0 FILE 42049 - frontaxle.ldr
 0 Front axle and steering unit with bent liftarms, 9-stud beams, angle connectors, stop axles, and steering link pins to support and steer the front wheels.
 0 Author: Philippe Hurbain [Philo]
@@ -762,6 +767,7 @@
 0 // Technic Pin Long with Stop Bush (black)
 1 0 -20 0 80 1 0 0 0 0 -1 0 1 0 32054.dat
 
+0 STEP
 0 FILE 42049 - turntable.ldr
 0 Rotating turntable base combining a 60-tooth turntable top and bottom with a 13-stud beam and 5-stud beams to provide a slewing platform for the grabber arm.
 0 Author: Philippe Hurbain [Philo]
@@ -802,6 +808,7 @@
 0 // Technic Pin with Friction and Slots (black)
 1 0 -50 20 -200 -1 0 0 0 -1 0 0 0 1 2780.dat
 
+0 STEP
 0 FILE 42049 - gripperlever.ldr
 0 Lever arm for the gripper using a 7-stud beam, boss liftarms, cross blocks, bushes, and an axle plus frictionless pin to pivot the grabber jaws.
 0 Author: Philippe Hurbain [Philo]
@@ -844,6 +851,7 @@
 0 // Technic Pin Long without Friction with Single Slot (tan)
 1 19 0 31.336 138.225 1 0 0 0 0.027 1 0 -1 0.027 32556.dat
 
+0 STEP
 0 FILE 42049 - gripper.ldr
 0 Grabber claw assembly with towball pins, triangle liftarms, cross blocks, a worm gear and 24-tooth gear, and multiple axles forming the opening and closing jaw mechanism.
 0 Author: Philippe Hurbain [Philo]
@@ -976,6 +984,7 @@
 0 // Technic Steering Link  6L Type 1 (black)
 1 0 -60.01 38.901 266.58 0.004 0.933 -0.359 1 0 0.011 0.01 -0.359 -0.933 2739a.dat
 
+0 STEP
 0 FILE 42049 - cabin.ldr
 0 Operator cabin frame built from bent liftarms, a grooved tile, connector beams, and pins forming the enclosed driver compartment structure.
 0 Author: Philippe Hurbain [Philo]
@@ -1023,6 +1032,7 @@
 0 // Technic Bush  1/2 Smooth with Axle Hole Reduced (light_bluish_grey)
 1 71 5 -80 200 0 0 -1 0.23 0.973 0 0.973 -0.23 0 32123a.dat
 
+0 STEP
 0 FILE 42049 - cabintop.ldr
 0 Cabin roof and upper frame using bent liftarms, beams, a round trans-orange light tile, bushes, and an axle-with-stop to cap the cabin structure.
 0 Author: Philippe Hurbain [Philo]
@@ -1077,6 +1087,7 @@
 0 // Technic Bush  1/2 Smooth with Axle Hole Reduced (light_bluish_grey)
 1 71 35 80 180 0 0 -1 0.23 0.973 0 0.973 -0.23 0 32123a.dat
 
+0 STEP
 0 FILE 42049 - rearbumper.ldr
 0 Rear bumper assembly with two 7-stud beams, bent panels, round trans-red light tiles, cross blocks, and pins forming the rear guard and taillights.
 0 Author: Philippe Hurbain [Philo]
@@ -1120,6 +1131,7 @@
 0 // Technic Pin Long with Stop Bush (black)
 1 0 140 -20 -120 0 -1 0 1 0 0 0 0 1 32054.dat
 
+0 STEP
 0 FILE 42049 - 15361.dat
 0 Technic half-cylinder block built from a liftarm, open cylinder, and rectangular face primitives representing the curved cylinder housing.
 0 Name: 42049 - 15361.dat
@@ -1230,6 +1242,7 @@
 2 24 16 12.3055 -43.5003 -16 12.3055 -43.5003
 2 24 16 17.2945 -43.5002 -16 17.2945 -43.5002
 
+0 STEP
 0 FILE 42049 - 2850b.dat
 0 Engine cylinder head composed of cylinders, rectangles, boxes, and disc primitives defining the ribbed head geometry with bottom slots.
 0 Name: 42049 - 2850b.dat
@@ -1399,6 +1412,7 @@
 3 16 -13 33 2 -20 33 2 -20 36 2
 4 16 -20 36 2 -20 33 2 -27 33 2 -27 36 2
 
+0 STEP
 0 FILE 42049 - 18938.dat
 0 Turntable top connector defined by one-sided connector holes forming the mounting interface of the 60-tooth turntable.
 0 Name: 42049 - 18938.dat
@@ -1441,6 +1455,7 @@
 5 24 0 -9.1 -68.1983 0 -7.4 -68.9983 7.1276 -9.1 -67.8241 -7.1276 -9.1 -67.8241
 5 24 0 -10 -65.9997 0 -9.1 -68.1983 6.8975 -10 -65.6364 -6.8975 -10 -65.6364
 
+0 STEP
 0 FILE 42049 - 33299b.dat
 0 Liftarm with boss and semi-reduced pin hole built from axle holes, rings, and a disc primitive defining its bossed cross-section.
 0 Name: 42049 - 33299b.dat
@@ -1478,6 +1493,7 @@
 4 16 6.36 10 33.637 3.444 10 31.685 3.062 10 32.609 5.657 10 34.343
 4 16 3.444 10 31.685 0 10 31 0 10 32 3.062 10 32.609
 
+0 STEP
 0 FILE s\42049 - 15361s01.dat
 0 Subpart of the half-cylinder block providing rectangles, circles, cylinders, peg holes, and a chord primitive that define its common geometric shell.
 0 Name: s\42049 - 15361s01.dat
@@ -2323,6 +2339,7 @@
 
 5 24 39.713 -33.837 -31.733 39.713 -0.25 -31.733 40.138 -0.25 -29.982 39.713 -3.375 -34.154
 
+0 STEP
 0 FILE s\42049 - 2850s01.dat
 0 Common geometry half of the engine cylinder head using boxes, cylinders, rings, cooling ribs, and connector holes to define the ribbed cylindrical form.
 0 Name: s\42049 - 2850s01.dat
@@ -2759,6 +2776,7 @@
 3 16 10.6065 36 10.6065 5.7405 36 13.8585 16 36 16
 3 16 13.8585 36 5.7405 10.6065 36 10.6065 16 36 16
 
+0 STEP
 0 FILE s\42049 - 18938s01.dat
 0 Quarter-segment subpart of the turntable top using cylinders, discs, rings, and rectangles to construct a quarter of the circular turntable body.
 0 Name: s\42049 - 18938s01.dat
@@ -3140,6 +3158,7 @@
 2 24 41.9606 4 54.6842 40.787 4 53.1547
 2 24 53.1547 4 40.787 54.6842 4 41.9606
 
+0 STEP
 0 FILE s\42049 - 18938s02.dat
 0 Five-tooth segment of the turntable top made of rectangles forming the gear teeth profile.
 0 Name: s\42049 - 18938s02.dat
@@ -3486,6 +3505,7 @@
 4 16 2.056 -5 71.2998 0 -5 69 7.2105 -5 68.6205 5.4081 -5 71.1243
 3 16 -2.056 -5 71.2998 0 -5 69 2.056 -5 71.2998
 
+0 STEP
 0 FILE s\42049 - 33299s01.dat
 0 Common geometry subpart of the bossed liftarm using peg holes, cylinders, rings, and circles to define its boss and pin-hole interior.
 0 Name: s\42049 - 33299s01.dat
@@ -3740,6 +3760,7 @@
 4 16 8.091 0 3.78 6.363 0 6.363 3.78 0 8.091 4.014 0 6.93
 4 16 8.091 0 3.78 4.014 0 6.93 5.184 0 5.184 6.93 0 4.014
 
+0 STEP
 0 FILE 48\42049 - 1-24ring29.dat
 0 High-resolution ring primitive segment representing a thin annular ring generated by the primitive generator.
 0 Name: 48\42049 - 1-24ring29.dat

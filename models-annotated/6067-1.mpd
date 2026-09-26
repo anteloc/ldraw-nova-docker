@@ -13,6 +13,7 @@
 1 0 600 0 150 1 0 0 0 1 0 0 0 1 6067 - MiniFig4.ldr
 
 
+0 STEP
 0 FILE 6067 - MiniFig1.ldr
 0 Castle guard minifigure with crossed-pikes torso, neck-protector helmet, triangular blue lion shield, and spear.
 0 Name: 6067 - MiniFig1.ldr
@@ -46,6 +47,7 @@
 1 6 -10.088 -102.8 -42.281 0.984 -0.087 0.146 0.12 0.962 -0.241 -0.12 0.255 0.959 4497.dat
 
 
+0 STEP
 0 FILE 6067 - MiniFig2.ldr
 0 Castle archer minifigure with crossed-pikes torso, chin-guard helmet, quiver, and bow with arrow.
 0 Name: 6067 - MiniFig2.ldr
@@ -79,6 +81,7 @@
 1 6 35.263 -47.365 -27.56 -0.022 0.192 -0.981 -0.227 0.955 0.192 0.974 0.227 0.022 4499.dat
 
 
+0 STEP
 0 FILE 6067 - Building.ldr
 0 Half-timbered castle building with hinged walls, arches, shuttered windows, and a large blue door on a black and green base.
 0 Name: 6067 - Building.ldr
@@ -451,6 +454,7 @@
 1 2 -230 -195 -130 0 0 1 0 1 0 -1 0 0 4495a.dat
 
 
+0 STEP
 0 FILE 6067 - Horse.ldr
 0 White horse with brown tack pattern, yellow saddle, and a dark grey shortsword.
 0 Name: 6067 - Horse.ldr
@@ -466,6 +470,7 @@
 1 8 -41 -59 62.5 1 0 0 0 -1 0 0 0 -1 3847.dat
 
 
+0 STEP
 0 FILE 6067 - MiniFig3.ldr
 0 Armored knight minifigure with breastplate torso, plumed face-grille helmet, black cape, and blue and black coloring.
 0 Name: 6067 - MiniFig3.ldr
@@ -499,6 +504,7 @@
 1 0 10 -66 1 1 0 0 0 1 0 0 0 1 4524.dat
 
 
+0 STEP
 0 FILE 6067 - MiniFig4.ldr
 0 Peasant minifigure with red conical hat, necklace-patterned white torso, and a black frypan.
 0 Name: 6067 - MiniFig4.ldr
@@ -530,6 +536,7 @@
 1 0 -12.971 -36.675 -29.269 0.996 0.011 -0.086 0.011 0.965 0.26 0.086 -0.26 0.962 4528.dat
 
 
+0 STEP
 0 FILE 6067 - Outer Wall.ldr
 0 Castle outer wall section with stone-pattern panels, inverted slopes, and an assortment of weapons including battleaxes and shortswords.
 0 Name: 6067 - Outer Wall.ldr
@@ -620,6 +627,7 @@
 1 7 200 -14 10 -1 0 0 0 -1 0 0 0 1 3673.dat
 
 
+0 STEP
 0 FILE 6067 - Side Wall.ldr
 0 Castle side wall section with corner panels, shuttered window, and arched brickwork in red and black.
 0 Name: 6067 - Side Wall.ldr

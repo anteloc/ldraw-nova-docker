@@ -14,6 +14,7 @@
 
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 8028 - m-1.ldr
 
+0 STEP
 0 FILE 8028 - m-1.ldr
 0 Central cockpit hub built around a technic axle with round plates, brackets, and layered dishes forming a spherical core.
 0 Name: 8028 - m-1.ldr
@@ -68,6 +69,7 @@
 1 47 58 10 0 0 -1 0 0 0 1 -1 0 0 8028 - m-1a.ldr
 1 47 -58 10 0 0 1 0 0 0 1 1 0 0 8028 - m-1a.ldr
 
+0 STEP
 0 FILE 8028 - m-1a.ldr
 0 Flat black wing panel assembled from left and right wing plates on a technic frame, decorated with grille tiles.
 0 Name: 8028 - m-1a.ldr

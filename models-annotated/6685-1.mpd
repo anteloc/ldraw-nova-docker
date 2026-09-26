@@ -13,6 +13,7 @@
 
 
 
+0 STEP
 0 FILE 6685 - helicopter.ldr
 0 A red rescue helicopter built from plates, slopes, a bracket, and a minifig seat, equipped with a radio and handaxe.
 0 Name: 6685 - helicopter.ldr
@@ -239,6 +240,7 @@
 
 
 
+0 STEP
 0 FILE 6685 - minifig.ldr
 0 A fire fighter minifigure with a black torso pattern, white helmet, and yellow hands and head.
 0 Name: 6685 - minifig.ldr
@@ -272,6 +274,7 @@
 
 
 
+0 STEP
 0 FILE 6685 - LS22.dat
 0 An LSynth technic pneumatic hose beveled end piece made from circles, cylinders, rings, and cones.
 0 Name: 6685 - LS22.dat 
@@ -325,6 +328,7 @@
 
 
 
+0 STEP
 0 FILE 6685 - LS23.dat
 0 An LSynth technic pneumatic hose cross section built from cylinders and rings.
 0 Name: 6685 - LS23.dat 
@@ -351,6 +355,7 @@
 
 
 
+0 STEP
 0 FILE 6685 - hose 1.ldr
 0 An empty hose submodel reference contributing a flexible pneumatic hose segment.
 0 Name: 6685 - hose 1.ldr
@@ -469,6 +474,7 @@
 
 
 
+0 STEP
 0 FILE 6685 - hose 2.ldr
 0 An empty hose submodel reference contributing a flexible pneumatic hose segment.
 0 Name: 6685 - hose 2.ldr

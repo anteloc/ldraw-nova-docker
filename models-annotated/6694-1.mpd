@@ -14,6 +14,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 6694 - car.ldr 
 0 A compact car built on a 4x10 chassis with mudguards, doors, headlights, steering wheel, and a single driver seat.
 0 Name: 6694 - car.ldr 
@@ -107,6 +108,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 6694 - trailer.ldr 
 0 A flatbed trailer with a 4x5 base, sloped sides, cups, and a towball hitch for attachment to a vehicle.
 0 Name: 6694 - trailer.ldr 
@@ -241,6 +243,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 6694 - trailer - subpart.ldr 
 0 A windowed canopy assembly with a hinged roof and clear glass panels for the trailer.
 0 Name: 6694 - trailer - subpart.ldr 
@@ -280,6 +283,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 6694 - minifig 1.ldr 
 0 A minifigure with a vertically striped red/blue torso, red legs, shoulder-length red hair, and a smiling face.
 0 Name: 6694 - minifig 1.ldr 
@@ -312,6 +316,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 6694 - minifig 2.ldr 
 0 A minifigure with a red torso, black legs, short black hair, and a smiling face.
 0 Name: 6694 - minifig 2.ldr 

@@ -54,6 +54,7 @@
 
 
 
+0 STEP
 0 FILE 10001 - platform.ldr
 0 Station platform with a ticket/schedule window, two benches, two lampposts and two bicycles
 0 Name: 10001 - platform.ldr
@@ -195,6 +196,7 @@
 
 
 
+0 STEP
 0 FILE 10001 - train 1.ldr
 0 Passenger car with seats, side grilles, a light-and-sound brick, a computer console and a magnet coupling
 0 Name: 10001 - train 1.ldr
@@ -682,6 +684,7 @@
 
 
 
+0 STEP
 0 FILE 10001 - train 2.ldr
 0 Passenger car with side doors, windows, seats, a cup and a magnet coupling at each end
 0 Name: 10001 - train 2.ldr
@@ -1084,6 +1087,7 @@
 
 
 
+0 STEP
 0 FILE 10001 - train 3.ldr
 0 Powered electric locomotive with a 9V motor, two-axle bogies, a pantograph and magnet couplings
 0 Name: 10001 - train 3.ldr
@@ -1541,6 +1545,7 @@
 
 
 
+0 STEP
 0 FILE 10001 - minifig 1.ldr
 0 Station porter minifig with red cap, blue train-logo uniform and a loaded hand trolley
 0 Name: 10001 - minifig 1.ldr
@@ -1581,6 +1586,7 @@
 
 
 
+0 STEP
 0 FILE 10001 - minifig 2.ldr
 0 Passenger minifig with blue-striped shirt, black hair and a backpack
 0 Name: 10001 - minifig 2.ldr
@@ -1615,6 +1621,7 @@
 
 
 
+0 STEP
 0 FILE 10001 - minifig 3.ldr
 0 Passenger minifig in a blue suit and tie with black hair
 0 Name: 10001 - minifig 3.ldr
@@ -1647,6 +1654,7 @@
 
 
 
+0 STEP
 0 FILE 10001 - minifig 4.ldr
 0 Passenger minifig with red-striped shirt and shoulder-length brown hair
 0 Name: 10001 - minifig 4.ldr
@@ -1679,6 +1687,7 @@
 
 
 
+0 STEP
 0 FILE 10001 - minifig 5.ldr
 0 Train conductor minifig in a four-button suit with train logo and shoulder-length brown hair
 0 Name: 10001 - minifig 5.ldr
@@ -1711,6 +1720,7 @@
 
 
 
+0 STEP
 0 FILE 10001 - minifig 6.ldr
 0 Passenger minifig with gold necklace and shoulder-length brown hair
 0 Name: 10001 - minifig 6.ldr
@@ -1743,6 +1753,7 @@
 
 
 
+0 STEP
 0 FILE 10001 - minifig 7.ldr
 0 Train conductor minifig in a four-button suit with train logo and red cap
 0 Name: 10001 - minifig 7.ldr
@@ -1775,6 +1786,7 @@
 
 
 
+0 STEP
 0 FILE 10001 - minifig 8.ldr
 0 Passenger minifig in a suit with a cowboy hat and a cup
 0 Name: 10001 - minifig 8.ldr
@@ -1809,6 +1821,7 @@
 
 
 
+0 STEP
 0 FILE 10001 - minifig 9.ldr
 0 Passenger minifig with vertical red/blue striped shirt and a red peaked cap
 0 Name: 10001 - minifig 9.ldr
@@ -1841,6 +1854,7 @@
 
 
 
+0 STEP
 0 FILE 10001 - minifig 10.ldr
 0 Passenger minifig with red necklace and pigtail hair
 0 Name: 10001 - minifig 10.ldr
@@ -1873,6 +1887,7 @@
 
 
 
+0 STEP
 0 FILE 10001 - minifig 11.ldr
 0 Passenger minifig with blue-striped shirt and brown hair
 0 Name: 10001 - minifig 11.ldr
@@ -1905,6 +1920,7 @@
 
 
 
+0 STEP
 0 FILE 10001 - 2916pb03.dat
 0 Wedge 4 x  6 x  2.333 with 4558 Metroliner stickers applied
 0 Name: 10001 - 2916pb03.dat
@@ -1922,6 +1938,7 @@
 1 16 60 12 15.5 0 -1 0 0 0 -1 1 0 0 10001 - 164565B.DAT
 
 
+0 STEP
 0 FILE 10001 - 164557a.dat
 0 Sticker Sheet Train Logo Schedule Board for window back
 0 Name: 10001 - 164557a.dat
@@ -5720,6 +5737,7 @@
 3 8 0.428271 -2.5 -2.17835 -6.1875 -2.5 -3.53744 1.89444 -2.5 -2.17835
 
 
+0 STEP
 0 FILE 10001 - 164557b.dat
 0 Sticker Sheet Train Logo Schedule Board for window front
 0 Name: 10001 - 164557b.dat
@@ -9704,6 +9722,7 @@
 3 16 -30 0.000002 -24.0031 -30 -2.5 24.0031 -30 0.000002 24.0031
 
 
+0 STEP
 0 FILE 10001 - 164565a.dat
 0 Sticker Sheet Train Logo Stripes for Wedge Right
 0 Name: 10001 - 164565a.dat
@@ -9729,6 +9748,7 @@
 3 16 -24.5 0 12 33.5 0 -12 -24.5 0 -12
 
 
+0 STEP
 0 FILE 10001 - 164565b.dat
 0 Sticker Sheet Train Logo Stripes for Wedge Left
 0 Name: 10001 - 164565b.dat
@@ -9754,6 +9774,7 @@
 3 16 -15.5 0 12 24.5 0 -12 -33.5 0 -12
 
 
+0 STEP
 0 FILE 10001 - 164565c.dat
 0 Sticker Sheet Train Bed
 0 Name: 10001 - 164565c.dat
@@ -9973,6 +9994,7 @@
 3 16 10.52 -0.25 -0.58 10.84 -0.25 -0.87 9.5 -0.25 -0.87
 
 
+0 STEP
 0 FILE 10001 - 164565d.dat
 0 Sticker Sheet Train Restaurant
 0 Name: 10001 - 164565d.dat
@@ -10178,6 +10200,7 @@
 3 1 -3.58 -0.25 7.48 -4.27 -0.25 7.48 -3.92 -0.25 7.79
 
 
+0 STEP
 0 FILE 10001 - 164565e.dat
 0 Sticker 1.15 x  1.95 with Blue Train Logo
 0 Name: 10001 - 164565e.dat

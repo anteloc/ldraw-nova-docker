@@ -13,6 +13,7 @@
 1 84 240 -20 -349 1 0 0 0 1 0 0 0 1 10251 - Minifig - Child.ldr
 1 84 170 -36 -349 1 0 0 0 1 0 0 0 1 10251 - Minifig - Mom.ldr
 
+0 STEP
 0 FILE 10251 - Ground Floor.ldr
 0 The bank's ground-floor interior: a large tiled banking hall with a teller counter featuring '$100' money-pattern tiles, sand-blue framed glass doors, windows, a stairwell, decorative arches, a lamppost, and assorted accessories.
 0 Name: 10251 - Ground Floor.ldr
@@ -2273,6 +2274,7 @@
 0 // Plate  1 x  1 Round (trans_light_blue)
 1 43 230 -32 -260 -1 0 0 0 1 0 0 0 -1 6141.dat
 
+0 STEP
 0 FILE 10251 - Vault Door.ldr
 0 A large round vault door built from inverted dishes and round plates on a central axle with bushings.
 0 Name: 10251 - Vault Door.ldr
@@ -2301,6 +2303,7 @@
 1 72 20 0 0 0 1 0 1 0 0 0 0 -1 99021.dat
 1 28 0 0 -70 0 0 1 0 1 0 -1 0 0 10251 - Vault Door Lock.ldr
 
+0 STEP
 0 FILE 10251 - Vault Door Lock.ldr
 0 A small vault locking mechanism made from an axle, a quadruple hub, a connector and a towball.
 0 Name: 10251 - Vault Door Lock.ldr
@@ -2316,6 +2319,7 @@
 0 // Technic Axle Towball (light_bluish_grey)
 1 71 30 0 40 -1 0 0 0 1 0 0 0 -1 2736.dat
 
+0 STEP
 0 FILE 10251 - Stair 1.ldr
 0 An open staircase assembly with a 7x4x6 staircase piece supported by technic bricks and plates.
 0 Name: 10251 - Stair 1.ldr
@@ -2341,6 +2345,7 @@
 0 // Tile  2 x  4 (dark_bluish_grey)
 1 72 0 -162 130 -1 0 0 0 1 0 0 0 -1 87079.dat
 
+0 STEP
 0 FILE 10251 - Vault Roof.ldr
 0 A vault enclosure with barred doors and a locking hinge plate.
 0 Name: 10251 - Vault Roof.ldr
@@ -2356,6 +2361,7 @@
 0 // Hinge Plate  1 x  2 Locking with Single Finger On Top (black)
 1 0 68 -12 -70 1 0 0 0 1 0 0 0 1 30383.dat
 
+0 STEP
 0 FILE 10251 - Washing Machines.ldr
 0 A laundrette scene with two washing machines (cupboards with doors and dark-blue drums), an arch-fronted machine, keypad, padlock and assorted furnishings.
 0 Name: 10251 - Washing Machines.ldr
@@ -2566,6 +2572,7 @@
 0 // Tile  1 x  3 (light_bluish_grey)
 1 71 -70 -144 -10 -1 0 0 0 1 0 0 0 -1 63864.dat
 
+0 STEP
 0 FILE 10251 - Money Counter.ldr
 0 A compact teller counter section with a bracket shelf, slope detailing and a money/transaction surface.
 0 Name: 10251 - Money Counter.ldr
@@ -2587,6 +2594,7 @@
 0 // Slope Brick Curved  2 x  1 (dark_tan)
 1 28 54 -2 -10 0 -1 0 1 0 0 0 0 1 11477.dat
 
+0 STEP
 0 FILE 10251 - Air-Vent.ldr
 0 A wall-mounted air vent unit with grille tiles, sloped ducting and a reinforced panel.
 0 Name: 10251 - Air-Vent.ldr
@@ -2663,6 +2671,7 @@
 0 // Tile  1 x  2 with Groove (light_bluish_grey)
 1 71 30 -120 0 0 0 -1 0 1 0 1 0 0 3069b.dat
 
+0 STEP
 0 FILE 10251 - Air-Vent Flap.ldr
 0 A hinged vent flap made from technic bricks, long pins and a lattice fence section.
 0 Name: 10251 - Air-Vent Flap.ldr
@@ -2688,6 +2697,7 @@
 0 // Fence Lattice  1 x  4 x  2 (black)
 1 0 0 -74 0 1 0 0 0 1 0 0 0 1 3185.dat
 
+0 STEP
 0 FILE 10251 - First Floor.ldr
 0 The upper floor: an office/laundrette space with walls of windows, a staircase, turntables, furniture supports, a parrot, a fireplace, clock and detailed interior partitioning.
 0 Name: 10251 - First Floor.ldr
@@ -3539,6 +3549,7 @@
 0 // Tile  1 x  2 with Groove (white)
 1 15 150 -184 -20 0 0 1 0 1 0 -1 0 0 3069b.dat
 
+0 STEP
 0 FILE 10251 - Desk.ldr
 0 A wooden reddish-brown desk with drawers, a curved-front drawer, arches and a telescope.
 0 Name: 10251 - Desk.ldr
@@ -3588,6 +3599,7 @@
 0 // Slope Brick 31  1 x  2 x  0.667 (green)
 1 2 -40 -74 4 0 0 -1 0 1 0 1 0 0 85984.dat
 
+0 STEP
 0 FILE 10251 - Desk Chair.ldr
 0 A wheeled swivel office chair with a turntable base, mechanical-arm armrests and a contoured back.
 0 Name: 10251 - Desk Chair.ldr
@@ -3615,6 +3627,7 @@
 0 // Minifig Mechanical Arm with Clip and Rod Hole with Thin Forearm (black)
 1 0 -29 -48 27 0 0 1 0 1 0 -1 0 0 53989.dat
 
+0 STEP
 0 FILE 10251 - Coffee Machine.ldr
 0 A coffee machine built from cupboards, drawers, a pressure gauge tile, grille and a curved hood.
 0 Name: 10251 - Coffee Machine.ldr
@@ -3652,6 +3665,7 @@
 0 // Bar  1L with Top Stud and Two Side Studs (light_bluish_grey)
 1 71 23 -52 -32.517 0 -0.5 0.866 1 0 0 0 0.866 0.5 92690.dat
 
+0 STEP
 0 FILE 10251 - Table.ldr
 0 A small round table with gold scroll legs, a fez, a cup and a patterned tile.
 0 Name: 10251 - Table.ldr
@@ -3699,6 +3713,7 @@
 0 // Minifig Cup (trans_clear)
 1 47 40 -32 -10 1 0 0 0 1 0 0 0 1 3899.dat
 
+0 STEP
 0 FILE 10251 - Clock.ldr
 0 A wall clock made from two clock-face tiles, bars and clip plates forming a framed pendulum-style clock.
 0 Name: 10251 - Clock.ldr
@@ -3748,6 +3763,7 @@
 0 // Tile  2 x  2 Round with Clock Pattern (white)
 1 15 -26 20 0 0 1 0 0 0 -1 -1 0 0 4150p03.dat
 
+0 STEP
 0 FILE 10251 - Roof.ldr
 0 The building's roof: a complex white brick structure with dormer windows, pointed and raised arches, chimneys, roof slopes, skylights, ornamental keys and a small frog detail.
 0 Name: 10251 - Roof.ldr
@@ -4680,6 +4696,7 @@
 0 // Plate  1 x  1 (light_bluish_grey)
 1 71 -80 -113 -181 0.707 0 -0.707 -0.707 0 -0.707 0 1 0 3024.dat
 
+0 STEP
 0 FILE 10251 - Chandelier.ldr
 0 A hanging chandelier with gem 'crystals', lightsaber-hilt arms and mechanical-arm supports around a central axle.
 0 Name: 10251 - Chandelier.ldr
@@ -4751,6 +4768,7 @@
 0 // Technic Pin  1/2 (light_bluish_grey)
 1 71 0 10 -67 0 -1 0 1 0 0 0 0 1 4274.dat
 
+0 STEP
 0 FILE 10251 - Bench.ldr
 0 A park bench with a dark-tan slatted seat, clip-on supports and rounded armrests.
 0 Name: 10251 - Bench.ldr
@@ -4800,6 +4818,7 @@
 0 // Animal Tail (black)
 1 0 -70 18 8 -1 0 0 0 -1 0 0 0 1 43892.dat
 
+0 STEP
 0 FILE 10251 - Tree.ldr
 0 An ornamental tree with a brown trunk, grille bark texture, leafy branches and small foliage clusters.
 0 Name: 10251 - Tree.ldr
@@ -4853,6 +4872,7 @@
 0 // Plate  1 x  1 Round with Open Stud (dark_red)
 1 320 -7.986 -144.815 -13.832 0.866 0.47 0.171 0 0.342 -0.94 -0.5 0.814 0.296 85861.dat
 
+0 STEP
 0 FILE 10251 - Ladder.ldr
 0 A ladder made from clipped bars and a cross rung.
 0 Name: 10251 - Ladder.ldr
@@ -4874,6 +4894,7 @@
 0 // Tile  1 x  1 with Clip (Thick C-Clip) (dark_bluish_grey)
 1 72 -12 6.01 72.495 0 0 -1 0 1 0 1 0 0 15712.dat
 
+0 STEP
 0 FILE 10251 - Minifig - Bank Teller.ldr
 0 A bank teller minifigure in a green shirt and red legs with a smiling head.
 0 Name: 10251 - Minifig - Bank Teller.ldr
@@ -4896,6 +4917,7 @@
 1 14 0 -56 0 1 0 0 0 1 0 0 0 1 3626bp01.dat
 1 19 0 -56 0 1 0 0 0 1 0 0 0 1 15500.dat
 
+0 STEP
 0 FILE 10251 - Minifig - Mom.ldr
 0 A mother minifigure in a bright-pink top and lime legs with swept-sideways hair and a smiling head.
 0 Name: 10251 - Minifig - Mom.ldr
@@ -4919,6 +4941,7 @@
 0 // Minifig Hair Female Short Swept Sideways (dark_orange)
 1 484 0 -56 0 1 0 0 0 1 0 0 0 1 20877.dat
 
+0 STEP
 0 FILE 10251 - Minifig - Child.ldr
 0 A child minifigure in a red top with lavender short legs and a ponytail hairstyle.
 0 Name: 10251 - Minifig - Child.ldr
@@ -4942,6 +4965,7 @@
 0 // Minifig Hair with Ponytail and Swept Sideways Fringe (dark_brown)
 1 308 0 -56 0 1 0 0 0 1 0 0 0 1 87990.dat
 
+0 STEP
 0 FILE 10251 - Minifig - Bank Manager.ldr
 0 The bank manager minifigure in a light-grey suit with a white shirt, comb-over hair and a smiling head.
 0 Name: 10251 - Minifig - Bank Manager.ldr
@@ -4965,6 +4989,7 @@
 0 // Minifig Hair Short Combed Sideways with Left Parting (black)
 1 0 0 -56 0 1 0 0 0 1 0 0 0 1 99930.dat
 
+0 STEP
 0 FILE 10251 - Minifig - Bank Secretary.ldr
 0 A bank secretary minifigure in black attire with tousled hair and a smiling head.
 0 Name: 10251 - Minifig - Bank Secretary.ldr
@@ -4987,6 +5012,7 @@
 1 14 0 -56 0 1 0 0 0 1 0 0 0 1 3626bp01.dat
 0 // Minifig Hair Short, Tousled with Side Parting (medium_nougat)
 1 84 0 -56 0 1 0 0 0 1 0 0 0 1 62810.dat
+0 STEP
 0 FILE 22385.dat
 0 Primitive part geometry file (no direct pieces).
 0 Name: 22385.dat
@@ -4999,6 +5025,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\22385s01.dat
 4 16 16 0 30 -16 0 30 -16 0 -8.34 16 0 -8.34
 3 16 0 0 -24.353001 16 0 -8.34 -16 0 -8.34
+0 STEP
 0 FILE 60616a.dat
 0 Primitive part geometry file composed of boxes and edge rectangles.
 0 Name: 60616a.dat
@@ -5057,6 +5084,7 @@
 
 1 16 57 70 -3.75 0 0 1 1 0 0 0 1 0 stud2.dat
 1 16 57 70 3.75 0 0 -1 1 0 0 0 -1 0 stud2.dat
+0 STEP
 0 FILE 22885.dat
 0 Primitive part geometry file composed of boxes, faces and parallel-edge rectangles.
 0 Name: 22885.dat
@@ -5128,6 +5156,7 @@
 1 16 0 40 0 20 0 0 0 -40 0 0 0 10 box5.dat
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 stug-1x2.dat
 1 16 0 20 -10 0 0 1 1 0 0 0 1 0 stug2-2x2.dat
+0 STEP
 0 FILE 11100.dat
 0 Primitive part geometry file with a closed cylinder and a rectangle.
 0 Name: 11100.dat
@@ -7032,6 +7061,7 @@
 5 24 -1.811 -50.834 50.18 0.561 -50.834 50.18 0.522 -43.195999 46.715 -2.146 -57.069 51.513
 5 24 2.125 -35.884998 22.971001 -2.125 -35.884998 22.971001 -2.125 -32.942001 18.757999 2.125 -40.241001 27.348
 5 24 2.125 -40.241001 27.348 -2.125 -40.241001 27.348 -2.125 -35.884998 22.971001 2.125 -42.886002 29.552999
+0 STEP
 0 FILE 19121.dat
 0 Primitive part geometry file with many mesh/edge elements forming a detailed ornament, including cylinder and disc sections.
 0 Name: 19121.dat
@@ -8021,6 +8051,7 @@
 5 24 -24.959999 25.559999 2.75 -25.059999 25.77 1.87 -24.959999 25.559999 1.87 -27.110001 30.200001 2.75
 5 24 -14.55 9.68 1.87 -14.55 9.68 -1.87 -14.28 11.67 -1.87 -15.35 7.53 -1.87
 5 24 -22.190001 18.41 -1.87 -22.190001 18.41 1.87 -20.469999 18.540001 1.87 -23.9 17.82 -1.87
+0 STEP
 0 FILE 60797c02.dat
 0 Primitive part geometry file (no direct pieces).
 0 Name: 60797c02.dat
@@ -8032,6 +8063,7 @@
 
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 u9086.dat
 1 40 0 0 0 1 0 0 0 1 0 0 0 1 u9087.dat
+0 STEP
 0 FILE 20310.dat
 0 Primitive part geometry file with rings, discs, sloped cylinders and boxes forming a wheel/rotational part.
 0 Name: 20310.dat
@@ -8140,6 +8172,7 @@
 5 24 0.5 15.49 -19.976021 -0.5 15.49 -19.976021 0.5 16 -22.450001 0.5 13.98762 -17.73238
 5 24 0.5 13.98762 -17.73238 -0.5 13.98762 -17.73238 1.25 11.537232 -17 0.5 15.49 -19.976021
 5 24 -1.25 11.537232 -17 1.25 11.537232 -17 2.75 8.3 -17 0.5 13.98762 -17.73238
+0 STEP
 0 FILE 19118.dat
 0 Primitive part geometry file with outer surface and stud elements.
 0 Name: 19118.dat
@@ -9465,6 +9498,7 @@
 2 24 3.062 -43.679001 -4.025 0 -44.5 -4.025
 2 24 5.304 -41.437 -4.025 3.062 -43.679001 -4.025
 
+0 STEP
 0 FILE 15500.dat
 0 Primitive part geometry file with outer surface and a hollow stud.
 0 Name: 15500.dat
@@ -10700,6 +10734,7 @@
 2 24 -5.385 -6.48 -3.109 -6.218 -6.48 0
 2 24 -6.218 -6.48 0 -5.385 -6.48 3.109
 
+0 STEP
 0 FILE 20877.dat
 0 Primitive part geometry file with outer surface and a hollow stud.
 0 Name: 20877.dat
@@ -11908,6 +11943,7 @@
 2 24 -4.044 0 7.004 0 0 8.087
 2 24 -7.004 0 4.044 -4.044 0 7.004
 
+0 STEP
 0 FILE 87990.dat
 0 Primitive part geometry file with outer surfaces only.
 0 Name: 87990.dat
@@ -13297,6 +13333,7 @@
 2 24 -11.132 -4.278 6.243 -11.391 -3.113 6.626
 2 24 2.6 -8.856 0.044 2.045 -9.418 0.025
 
+0 STEP
 0 FILE 99930.dat
 0 Primitive part geometry file with outer surface and a hollow stud.
 0 Name: 99930.dat
@@ -14153,6 +14190,7 @@
 2 24 0 0 8.142 4.071 0 7.051
 2 24 7.051 0 4.071 8.142 0 0
 
+0 STEP
 0 FILE s\22385s01.dat
 0 Subpart geometry file with boxes, rectangles and an angled end forming a curved bracket.
 0 Name: s\22385s01.dat
@@ -14261,6 +14299,7 @@
 2 24 0 4 -30 0 0 -24.353001
 2 24 16 0 -8.34 0 0 -24.353001
 2 24 -16 0 -8.34 0 0 -24.353001
+0 STEP
 0 FILE s\60616s01.dat
 0 Subpart geometry file with cylinders, rings, discs, chords and a bump forming a rounded mechanical element.
 0 Name: s\60616s01.dat
@@ -14328,6 +14367,7 @@
 0 // Chord 0.125 (main_colour)
 1 16 0 5.25 0 -3.4645 0 -1.4351 0 -1 0 -1.4351 0 3.4645 1-8chrd.dat
 4 16 -3.0871 5.25 2 -3.0871 5.25 -2 -3.4646 5.25 -1.4351 -3.4646 5.25 1.4351
+0 STEP
 0 FILE stud2-logo5.dat
 0 Subpart geometry file rendering the LEGO logo on a hollow stud with rings and cylinders.
 0 Name: stud2-logo5.dat
@@ -14356,6 +14396,7 @@
 
 0 // LEGO Logo for Studs - 3D Flattened (main_colour)
 1 16 0 0 0 0.62 0 0 0 0.62 0 0 0 0.62 logo5.dat
+0 STEP
 0 FILE logo5.dat
 0 Subpart geometry file for the 3D LEGO logo element (no direct pieces).
 0 Name: logo5.dat
@@ -15358,6 +15399,7 @@
 5 24 -1.9479 -0.05 4.1949 -2.0516 -0.0749 4.2986 -2.066 -0.05 4.0182 -1.8274 -0.0749 4.4483
 5 24 -1.7712 -0.05 4.313 -1.8274 -0.0749 4.4483 -1.9479 -0.05 4.1949 -1.563 -0.0749 4.5009
 5 24 -1.563 -0.0749 4.5009 -1.5627 -0.05 4.3545 1.3213 -0.0749 3.9039 -1.7712 -0.05 4.313
+0 STEP
 0 FILE u9086.dat
 0 Primitive part geometry file with discs, cylinders, boxes and rectangles forming a complex moulded element.
 0 Name: u9086.dat
@@ -15477,6 +15519,7 @@
 1 16 0 136 0 2.5 0 0 0 -2.5 0 0 0 2.5 bump5000.dat
 0 // Bump 1.0 x 0.5 (main_colour)
 1 16 0 4 0 2.5 0 0 0 2.5 0 0 0 2.5 bump5000.dat
+0 STEP
 0 FILE u9087.dat
 0 Primitive part geometry file with a box, disc, cylinder and ring forming a capped cylindrical element.
 0 Name: u9087.dat
@@ -15501,6 +15544,7 @@
 0 // Disc 1.0 (main_colour)
 1 16 49 70 -3.5 4 0 0 0 0 -4 0 1 0 4-4disc.dat
 1 16 49 70 -3.5 0 0 1 1 0 0 0 1 0 stud2.dat
+0 STEP
 0 FILE s\20310s01.dat
 0 Subpart geometry file with spiral sections, a groove, side walls and conditional lines defining a threaded/ribbed part.
 0 Name: s\20310s01.dat

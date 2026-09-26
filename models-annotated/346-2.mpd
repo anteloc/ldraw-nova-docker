@@ -9,6 +9,7 @@
 1 16 310 -12 0 1 0 0 0 1 0 0 0 1 346-2 - Car.ldr
 
 
+0 STEP
 0 FILE 346-2 - House.ldr
 0 A white house built on a green patterned baseplate, featuring red classic windows, a red door, and a grey tiled roof.
 0 Name: 346-2 - House.ldr
@@ -325,6 +326,7 @@
 
 
 
+0 STEP
 0 FILE 346-2 - Car.ldr
 0 A small white car with black rubber tyres, red wheels, clear and black sloped windshields, and a front grille pattern.
 0 Name: 346-2 - Car.ldr

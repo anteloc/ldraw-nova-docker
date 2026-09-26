@@ -11,6 +11,7 @@
 1 0 0 -77 28 1 0 0 0 1 0 0 0 1 6811 - Minifig.ldr
 
 
+0 STEP
 0 FILE 6811 - Spaceship.ldr
 0 A compact red and black spaceship built with wings, grille tiles, a steering stand, neon green cones, and an antenna.
 0 Name: 6811 - Spaceship.ldr
@@ -60,6 +61,7 @@
 1 0 20 -30 50 0 1 0 -0.872496 0 0.488621 0.488621 0 0.872496 4735.dat
 
 
+0 STEP
 0 FILE 6811 - Minifig.ldr
 0 An MTron space minifigure with a red logo torso, black airtanks and radio, white arms and legs, and a grinning yellow head.
 0 Name: 6811 - Minifig.ldr
@@ -94,6 +96,7 @@
 1 15 0 44 0 1 0 0 0 0 1 0 -1 0 3817.dat
 
 
+0 STEP
 0 FILE 6811 - Minifig - Helmet.ldr
 0 A standard black space helmet paired with a translucent neon green visor.
 0 Name: 6811 - Minifig - Helmet.ldr

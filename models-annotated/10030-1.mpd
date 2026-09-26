@@ -13,6 +13,7 @@
 1 4 -2098.343 350.771 -300 -0.497 0.709 0.5 0.819 0.574 0 -0.287 0.409 -0.866 10030 - subModel-134.ldr
 
 
+0 STEP
 0 FILE 10030 - subModel-1.ldr
 0 Left underside hull shell - boat-bow plates, technic-brick spine and tiled decking lined with greebling strips.
 0 Name: 10030 - subModel-1.ldr
@@ -296,6 +297,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10030 - subModel-2.ldr
 0 Engine-bay support frame - technic beams, pins and axle joiners linking a hinge unit and two connector sub-assemblies.
 0 Author: Roland Dahl [rolandd]
@@ -365,6 +367,7 @@
 1 1 -60 -14 -230 0 0 -1 0 1 0 1 0 0 10030 - subModel-4.ldr
 
 
+0 STEP
 0 FILE 10030 - subModel-3.ldr
 0 Hinge unit - 1x4 hinge top and base forming a rotating joint.
 0 Author: Roland Dahl [rolandd]
@@ -378,6 +381,7 @@
 1 7 0 0 0 1 0 0 0 1 0 0 0 1 3831.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-4.ldr
 0 Technic axle/connector linkage - axle 4, two connector bushes and axle-pins on a 2x2 hole plate.
 0 Author: Roland Dahl [rolandd]
@@ -401,6 +405,7 @@
 1 1 -30 0 -30 0 0 1 0 -1 0 1 0 0 43093.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-5.ldr
 0 Hull-frame segment - slope detail, technic-brick 14 beam, plates and a hinge unit.
 0 Author: Roland Dahl [rolandd]
@@ -431,6 +436,7 @@
 1 7 350 0 20 1 0 0 0 1 0 0 0 1 4282.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-6.ldr
 0 Hull-frame segment - slope detail, technic-brick 14 beam, plates and a hinge unit.
 0 Author: Roland Dahl [rolandd]
@@ -459,6 +465,7 @@
 1 8 -30 -56 -40 1 0 0 0 1 0 0 0 1 3021.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-7.ldr
 0 Engine-bay support frame (mirror of subModel-2) - technic beams, pins and axle joiners with a hinge unit.
 0 Author: Roland Dahl [rolandd]
@@ -528,6 +535,7 @@
 1 7 -7.181 -14 -235.186 -0.308 0 0.951 0 1 0 -0.951 0 -0.308 10030 - subModel-4.ldr
 
 
+0 STEP
 0 FILE 10030 - subModel-8.ldr
 0 Small brick-and-plate sub-assembly carrying two hinge units.
 0 Author: Roland Dahl [rolandd]
@@ -554,6 +562,7 @@
 1 7 -65.456 -24 -118.762 0.951 0 -0.308 0 1 0 0.308 0 0.951 3005.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-9.ldr
 0 Magnet-mount block - technic bricks, pins and bricks anchoring two magnet holders.
 0 Author: Roland Dahl [rolandd]
@@ -582,6 +591,7 @@
 1 7 0 -48 0 0 0 1 0 1 0 -1 0 0 3001.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-10.ldr
 0 Magnet holder - 2x3 magnet-holder plate with a cylindrical magnet (detachable joint).
 0 Author: Roland Dahl [rolandd]
@@ -595,6 +605,7 @@
 1 0 0 1 -26.5 1 0 0 0 0 1 0 -1 0 73092.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-11.ldr
 0 Magnet-mount block - 2x8 bricks, technic bricks and pins anchoring two magnet holders.
 0 Author: Roland Dahl [rolandd]
@@ -624,6 +635,7 @@
 1 7 30 -48 -50 0 0 -1 0 1 0 1 0 0 10030 - subModel-10.ldr
 
 
+0 STEP
 0 FILE 10030 - subModel-12.ldr
 0 Magnet-mount block - large 2x4x3 bricks and a reinforced plate anchoring two magnet holders.
 0 Author: Roland Dahl [rolandd]
@@ -657,6 +669,7 @@
 1 7 -50 -96 40 0 0 1 0 1 0 -1 0 0 10030 - subModel-10.ldr
 
 
+0 STEP
 0 FILE 10030 - subModel-13.ldr
 0 Surface greebling detail - panel, grille tile, clip, tap and cone on a plate.
 0 Author: Roland Dahl [rolandd]
@@ -678,6 +691,7 @@
 1 7 0 -24 -40 0 0 1 0 1 0 -1 0 0 4865a.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-14.ldr
 0 Greebling detail strip - clips, taps, grille tile and cone on a 1x10 plate (repeated along the hull).
 0 Author: Roland Dahl [rolandd]
@@ -710,6 +724,7 @@
 1 7 20 -6 94 0 0 -1 1 0 0 0 -1 0 6269.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-15.ldr
 0 Right underside hull shell (mirror of subModel-1) - boat-bow plates, technic spine, tiled decking and greebling strips.
 0 Name: 10030 - subModel-15.ldr
@@ -943,6 +958,7 @@
 1 8 -628.151 -14 -35.675 0 0.951 0.308 1 0 0 0 0.308 -0.951 10030 - subModel-14.ldr
 
 
+0 STEP
 0 FILE 10030 - subModel-16.ldr
 0 Small plate/technic-brick joiner segment.
 0 Author: Roland Dahl [rolandd]
@@ -972,6 +988,7 @@
 1 8 0 -72 0 1 0 0 0 1 0 0 0 1 3710.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-17.ldr
 0 Thruster/nozzle detail - angle connectors, inverted dishes, a T-piece and binoculars.
 0 Author: Roland Dahl [rolandd]
@@ -999,6 +1016,7 @@
 1 7 0 -50 0 0 -1 0 1 0 0 0 0 1 32013.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-18.ldr
 0 Magnet holder with pin - 2x3 magnet-holder plate and a cylindrical magnet.
 0 Author: Roland Dahl [rolandd]
@@ -1015,6 +1033,7 @@
 1 0 0 9 -26.5 -1 0 0 0 0 -1 0 -1 0 73092.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-19.ldr
 0 Plate framework - long 1x10 plates braced by technic bricks.
 0 Author: Roland Dahl [rolandd]
@@ -1044,6 +1063,7 @@
 1 8 0 -72 0 0 0 1 0 1 0 -1 0 0 4477.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-20.ldr
 0 Engine-baffle section - wing-back technic bricks, grille bricks and 4x2 slopes.
 0 Author: Roland Dahl [rolandd]
@@ -1104,6 +1124,7 @@
 1 0 -60 -32 30 1 0 0 0 1 0 0 0 1 30363.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-21.ldr
 0 Small slope/brick/tile surface detail.
 0 Author: Roland Dahl [rolandd]
@@ -1122,6 +1143,7 @@
 1 1 30 -24 -10 -1 0 0 0 1 0 0 0 -1 3040b.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-22.ldr
 0 Hull-frame segment - technic beams and plates with two joiner sub-assemblies.
 0 Author: Roland Dahl [rolandd]
@@ -1187,6 +1209,7 @@
 0 // Plate  2 x  4 (light_grey)
 1 7 -201.505 -22.47 0 0 0.087 -0.996 0 0.996 0.087 1 0 0 3020.dat
 
+0 STEP
 0 FILE 10030 - subModel-23.ldr
 0 Technic beam frame - three 1x16 technic bricks braced with pins.
 0 Author: Roland Dahl [rolandd]
@@ -1212,6 +1235,7 @@
 1 7 40 0 340 0 0 1 0 1 0 -1 0 0 3703.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-24.ldr
 0 Technic joiner - 1x1 technic bricks and a friction pin.
 0 Author: Roland Dahl [rolandd]
@@ -1227,6 +1251,7 @@
 1 4 0 0 -20 1 0 0 0 1 0 0 0 1 6541.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-25.ldr
 0 Left hull panel section - wing plates, pin-plates, clips and a large 6x12 left wing.
 0 Author: Roland Dahl [rolandd]
@@ -1281,6 +1306,7 @@
 1 1 -40 8 0 1 0 0 0 1 0 0 0 1 2476a.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-26.ldr
 0 Engine nozzle/thruster assembly - round brick, barrels and a minifig-head nozzle tip.
 0 Author: Roland Dahl [rolandd]
@@ -1311,6 +1337,7 @@
 1 1 -80 8 40 0 0 1 0 1 0 -1 0 0 2476a.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-27.ldr
 0 Engine nozzle tip - minifig head on an axle pin.
 0 Author: Roland Dahl [rolandd]
@@ -1324,6 +1351,7 @@
 1 19 0 25 0 0 -1 0 1 0 0 0 0 1 3749.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-28.ldr
 0 Engine nozzle/thruster assembly - round brick, barrels and a minifig-head nozzle tip.
 0 Author: Roland Dahl [rolandd]
@@ -1354,6 +1382,7 @@
 1 1 80 8 40 0 0 1 0 1 0 -1 0 0 2476a.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-29.ldr
 0 Right hull panel section - wing plates, pin-plates, clips and a large 6x12 right wing.
 0 Author: Roland Dahl [rolandd]
@@ -1408,6 +1437,7 @@
 1 1 -40 8 120 -1 0 0 0 1 0 0 0 -1 2476a.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-30.ldr
 0 Right hull panel section - wing plates, pin-plates, clips and a large 6x12 right wing.
 0 Author: Roland Dahl [rolandd]
@@ -1466,6 +1496,7 @@
 1 1 40 8 -120 1 0 0 0 1 0 0 0 1 2476a.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-31.ldr
 0 Engine nozzle/thruster assembly - round brick, barrels and a minifig-head nozzle tip.
 0 Author: Roland Dahl [rolandd]
@@ -1494,6 +1525,7 @@
 1 1 100 8 -40 0 0 1 0 1 0 -1 0 0 2476a.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-32.ldr
 0 Engine nozzle/thruster assembly - round brick, barrels and a minifig-head nozzle tip.
 0 Author: Roland Dahl [rolandd]
@@ -1522,6 +1554,7 @@
 1 1 80 8 -40 0 0 1 0 1 0 -1 0 0 2476a.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-33.ldr
 0 Left hull panel section - wing plates, pin-plates, clips and a large 6x12 left wing.
 0 Author: Roland Dahl [rolandd]
@@ -1580,6 +1613,7 @@
 1 1 40 8 120 1 0 0 0 1 0 0 0 1 2476a.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-34.ldr
 0 Engine thruster dish - round brick, axle 6 and inverted dishes.
 0 Author: Roland Dahl [rolandd]
@@ -1603,6 +1637,7 @@
 1 41 0 -133 0 -1 0 0 0 -1 0 0 0 1 45729.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-35.ldr
 0 Engine thruster - wheel/tyre on a round brick.
 0 Author: Roland Dahl [rolandd]
@@ -1616,6 +1651,7 @@
 1 1 0 -70 0 1 0 0 0 1 0 0 0 1 3941.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-36.ldr
 0 Engine thruster nozzle - 8x8 inverted dish on a round axle plate.
 0 Author: Roland Dahl [rolandd]
@@ -1629,6 +1665,7 @@
 1 1 0 -8 0 1 0 0 0 1 0 0 0 1 4032a.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-37.ldr
 0 Left main upper-hull panel - large array of 2x16 plates and 6x12 left wings joined by magnet holders.
 0 Author: Roland Dahl [rolandd]
@@ -1859,6 +1896,7 @@
 1 7 360 60.012 -91.296 0 0 1 -0.326 -0.946 0 0.946 -0.326 0 10030 - subModel-42.ldr
 
 
+0 STEP
 0 FILE 10030 - subModel-38.ldr
 0 Magnet holder - 2x2 magnet-holder plate with a cylindrical magnet (detachable joint).
 0 Author: Roland Dahl [rolandd]
@@ -1872,6 +1910,7 @@
 1 0 0 -14.5 0 0 -1 0 0 0 1 -1 0 0 73092.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-39.ldr
 0 Plate joiner - 2x2 hole plate and an axle-pin.
 0 Author: Roland Dahl [rolandd]
@@ -1885,6 +1924,7 @@
 1 1 -20 -10 0 -1 0 0 0 -1 0 0 0 1 43093.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-40.ldr
 0 Plate joiner - 2x2 hole plate and a friction pin.
 0 Author: Roland Dahl [rolandd]
@@ -1898,6 +1938,7 @@
 1 0 -20 -10 0 -1 0 0 0 -1 0 0 0 1 2780.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-41.ldr
 0 Left wing detail strip - 2x3 wings on plates.
 0 Author: Roland Dahl [rolandd]
@@ -1922,6 +1963,7 @@
 1 7 50 -24 50 1 0 0 0 1 0 0 0 1 43723.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-42.ldr
 0 Right hull panel sub-section - 6x12 right wings, 2x3 wings and plates.
 0 Author: Roland Dahl [rolandd]
@@ -1971,6 +2013,7 @@
 1 7 40 -16 200 0 0 1 0 1 0 -1 0 0 3934.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-43.ldr
 0 Right main upper-hull panel (mirror of subModel-37) - 2x16 plates and 6x12 right wings joined by magnet holders.
 0 Author: Roland Dahl [rolandd]
@@ -2201,6 +2244,7 @@
 1 7 -40 53.541 -94.004 0 0 -1 0.259 -0.966 0 -0.966 -0.259 0 10030 - subModel-45.ldr
 
 
+0 STEP
 0 FILE 10030 - subModel-44.ldr
 0 Right wing detail strip - 2x3 wings on plates.
 0 Author: Roland Dahl [rolandd]
@@ -2225,6 +2269,7 @@
 1 7 -50 -24 50 1 0 0 0 1 0 0 0 1 43722.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-45.ldr
 0 Left hull panel sub-section - 6x12 left wings, 2x3 wings and plates.
 0 Author: Roland Dahl [rolandd]
@@ -2274,6 +2319,7 @@
 1 7 -40 -16 200 0 0 -1 0 1 0 1 0 0 3933.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-46.ldr
 0 Left outer hull panel assembly - 2x16/2x12 plates and 6x12 left wings with magnet joiners and the underside hull shell.
 0 Author: Roland Dahl [rolandd]
@@ -2618,6 +2664,7 @@
 1 4 1120.692 -35.349 51.796 0.919 -0.246 0.308 0.259 0.966 0 -0.298 0.08 0.951 10030 - subModel-50.ldr
 
 
+0 STEP
 0 FILE 10030 - subModel-47.ldr
 0 Left wing detail strip - 2x3 wings on plates.
 0 Author: Roland Dahl [rolandd]
@@ -2642,6 +2689,7 @@
 1 7 50 -24 50 1 0 0 0 1 0 0 0 1 43723.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-48.ldr
 0 Thruster/detail - binoculars, plates and a round cross-stud tile.
 0 Author: Roland Dahl [rolandd]
@@ -2664,6 +2712,7 @@
 1 7 0 -16 -10 -1 0 0 0 1 0 0 0 -1 4150.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-49.ldr
 0 Right hull panel sub-section - 6x12 right wings, 2x3 wings and plates.
 0 Author: Roland Dahl [rolandd]
@@ -2712,6 +2761,7 @@
 1 7 -60 -8 0 1 0 0 0 1 0 0 0 1 3934.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-50.ldr
 0 Right outer hull panel assembly (mirror of subModel-46) - 2x16/2x12 plates and 6x12 right wings with magnet joiners.
 0 Author: Roland Dahl [rolandd]
@@ -2947,6 +2997,7 @@
 1 7 -320 35.387 4.659 -1 0 0 0 -0.966 -0.259 0 -0.259 0.966 10030 - subModel-52.ldr
 
 
+0 STEP
 0 FILE 10030 - subModel-51.ldr
 0 Right wing detail strip - 2x3 wings on plates.
 0 Author: Roland Dahl [rolandd]
@@ -2971,6 +3022,7 @@
 1 7 -10 -8 -70 1 0 0 0 1 0 0 0 1 43722.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-52.ldr
 0 Left hull panel sub-section - 6x12 left wings, 2x3 wings and plates.
 0 Author: Roland Dahl [rolandd]
@@ -3019,6 +3071,7 @@
 1 7 240 -8 -60 1 0 0 0 1 0 0 0 1 3933.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-53.ldr
 0 Central hull core / main spine - technic framework joining the hull shells, superstructure deck blocks, engine baffles and greebling panels.
 0 Author: Roland Dahl [rolandd]
@@ -3628,6 +3681,7 @@
 1 14 119.566 -12.959 0 0 0.174 -0.985 0 0.985 0.174 1 0 0 10030 - subModel-96.ldr
 
 
+0 STEP
 0 FILE 10030 - subModel-54.ldr
 0 Central frame cross-brace - technic bricks, pins and open-centre bricks.
 0 Author: Roland Dahl [rolandd]
@@ -3670,6 +3724,7 @@
 1 7 -140 -7.778 -102.816 1 0 0 0 0.988 -0.156 0 0.156 0.988 3034.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-55.ldr
 0 Small surface panel detail - panels on a 1x6 plate.
 0 Author: Roland Dahl [rolandd]
@@ -3686,6 +3741,7 @@
 1 7 0 -24 0 0 0 -1 0 1 0 1 0 0 4865a.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-56.ldr
 0 Small surface panel detail - panels on a 1x6 plate.
 0 Author: Roland Dahl [rolandd]
@@ -3702,6 +3758,7 @@
 1 7 0 -24 0 0 0 1 0 1 0 -1 0 0 4865a.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-57.ldr
 0 Superstructure deck block - technic frame with greebling, control sticks and detail sub-panels.
 0 Author: Roland Dahl [rolandd]
@@ -3764,6 +3821,7 @@
 1 7 -90 -40 -40 -1 0 0 0 1 0 0 0 -1 3959.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-58.ldr
 0 Superstructure greebling - grille, clip, control stick and tap on a plate.
 0 Author: Roland Dahl [rolandd]
@@ -3787,6 +3845,7 @@
 1 7 20 -24 -50 1 0 0 0 1 0 0 0 1 4599a.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-59.ldr
 0 Small greebling sub-panel - grille tile and a technic brick.
 0 Author: Roland Dahl [rolandd]
@@ -3807,6 +3866,7 @@
 1 8 -20 -8 0 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-60.ldr
 0 Deck frame segment - open-centre technic brick and a plate.
 0 Author: Roland Dahl [rolandd]
@@ -3822,6 +3882,7 @@
 1 8 0 24 0 0 0 1 0 1 0 -1 0 0 3032.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-61.ldr
 0 Greebling sub-panel - panel, cone, control stick and tap.
 0 Author: Roland Dahl [rolandd]
@@ -3845,6 +3906,7 @@
 1 7 30 -32 0 0 1 0 0 0 1 1 0 0 4593.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-62.ldr
 0 Superstructure deck block (mirror of subModel-57) - technic frame with greebling and detail sub-panels.
 0 Author: Roland Dahl [rolandd]
@@ -3906,6 +3968,7 @@
 1 7 -90 -40 40 1 0 0 0 1 0 0 0 1 3959.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-63.ldr
 0 Superstructure greebling - grille, clip, control stick and tap on a plate.
 0 Author: Roland Dahl [rolandd]
@@ -3929,6 +3992,7 @@
 1 7 0 -24 50 -1 0 0 0 1 0 0 0 -1 4599a.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-64.ldr
 0 Greebling sub-panel - panel, cone, control stick and tap.
 0 Author: Roland Dahl [rolandd]
@@ -3952,6 +4016,7 @@
 1 7 0 -32 -30 1 0 0 0 0 1 0 -1 0 4593.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-65.ldr
 0 Small greebling sub-panel - grille tile and a technic brick.
 0 Author: Roland Dahl [rolandd]
@@ -3972,6 +4037,7 @@
 1 7 10 10 -18 -1 0 0 0 0 1 0 1 0 2412b.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-66.ldr
 0 Greebling detail strip - panels, grille tiles, taps, cone and clip on a 2x10 plate.
 0 Author: Roland Dahl [rolandd]
@@ -4001,6 +4067,7 @@
 1 7 80 -24 -10 -1 0 0 0 1 0 0 0 -1 4865a.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-67.ldr
 0 Greebling detail strip - panels, grille tiles, taps, cone and clip on a 2x10 plate.
 0 Author: Roland Dahl [rolandd]
@@ -4030,6 +4097,7 @@
 1 7 -30 -8 -10 0 0 -1 0 1 0 1 0 0 2555.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-68.ldr
 0 Greebling detail strip - panels, grille tile and tap on a 2x10 plate.
 0 Author: Roland Dahl [rolandd]
@@ -4052,6 +4120,7 @@
 1 7 30 -24 -10 0 0 1 0 1 0 -1 0 0 4599a.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-69.ldr
 0 Greebling detail strip - panels, grille tile and tap on a 2x10 plate.
 0 Author: Roland Dahl [rolandd]
@@ -4074,6 +4143,7 @@
 1 7 30 -24 10 0 0 1 0 1 0 -1 0 0 4599a.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-70.ldr
 0 Greebling detail strip - panels, grille, cone, gear rack and tap on a 2x10 plate.
 0 Author: Roland Dahl [rolandd]
@@ -4103,6 +4173,7 @@
 1 7 10 -8 80 0 0 -1 0 1 0 1 0 0 2412b.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-71.ldr
 0 Greebling detail strip - panels, grille, gear rack, cone and tap on a 2x10 plate.
 0 Author: Roland Dahl [rolandd]
@@ -4132,6 +4203,7 @@
 1 7 -20 -24 -10 1 0 0 0 1 0 0 0 1 4865a.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-72.ldr
 0 Small greebling sub-panel - panel, grille, clip and tap.
 0 Author: Roland Dahl [rolandd]
@@ -4155,6 +4227,7 @@
 1 7 -30 -24 -10 0 0 1 0 1 0 -1 0 0 4599a.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-73.ldr
 0 Small greebling sub-panel - panel, grille, clip and tap.
 0 Author: Roland Dahl [rolandd]
@@ -4178,6 +4251,7 @@
 1 7 -30 -24 10 0 0 1 0 1 0 -1 0 0 4599a.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-74.ldr
 0 Greebling detail strip - clips, taps, control sticks and panels on a 2x10 plate.
 0 Author: Roland Dahl [rolandd]
@@ -4216,6 +4290,7 @@
 1 7 10 -8 -90 1 0 0 0 0.342 0.94 0 -0.94 0.342 4593.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-75.ldr
 0 Greebling detail strip - panels, taps, control sticks and clips on a 2x10 plate.
 0 Author: Roland Dahl [rolandd]
@@ -4254,6 +4329,7 @@
 1 7 90 -8 -10 0 0.966 0.259 0 0.259 -0.966 -1 0 0 4593.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-76.ldr
 0 Surface deck block - tiled bricks and plates.
 0 Author: Roland Dahl [rolandd]
@@ -4292,6 +4368,7 @@
 1 7 0 -96 -20 0 0 -1 0 1 0 1 0 0 3068b.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-77.ldr
 0 Greebling edge strip - panel, gear rack, clip and tap on a 1x8 plate.
 0 Author: Roland Dahl [rolandd]
@@ -4313,6 +4390,7 @@
 1 7 -70 -24 0 0 0 1 0 1 0 -1 0 0 4599a.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-78.ldr
 0 Greebling edge strip - panel, gear rack, clip and tap on a 1x8 plate.
 0 Author: Roland Dahl [rolandd]
@@ -4334,6 +4412,7 @@
 1 7 -70 -8 0 0 0 -1 0 1 0 1 0 0 2555.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-79.ldr
 0 Left rear hull/engine-baffle slope assembly - 3x4 slopes on a technic frame with greebling sub-panels.
 0 Author: Roland Dahl [rolandd]
@@ -4453,6 +4532,7 @@
 1 7 80 -56 -110 1 0 0 0 1 0 0 0 1 3743.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-80.ldr
 0 Pin-brick joiner - 2x4 bricks with pins and a technic brick.
 0 Author: Roland Dahl [rolandd]
@@ -4468,6 +4548,7 @@
 1 4 50 0 -20 -1 0 0 0 1 0 0 0 -1 6249.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-81.ldr
 0 Small technic sub-frame - plate, technic brick and pins.
 0 Author: Roland Dahl [rolandd]
@@ -4486,6 +4567,7 @@
 1 1 50 -14 -20 0 0 1 0 1 0 -1 0 0 4274.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-82.ldr
 0 Greebling sub-panel - panels, grille, clip and tap.
 0 Author: Roland Dahl [rolandd]
@@ -4509,6 +4591,7 @@
 1 7 20 -24 -10 -1 0 0 0 1 0 0 0 -1 4865a.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-83.ldr
 0 Greebling sub-panel - panels, grilles, taps, cones and control sticks.
 0 Author: Roland Dahl [rolandd]
@@ -4548,6 +4631,7 @@
 1 7 70 -8 -10 0 0.966 -0.259 0 0.259 0.966 1 0 0 4593.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-84.ldr
 0 Small greebling sub-panel - panel, clip and tap.
 0 Author: Roland Dahl [rolandd]
@@ -4569,6 +4653,7 @@
 1 7 -20 -24 -10 0 0 1 0 1 0 -1 0 0 4599a.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-85.ldr
 0 Right rear hull/engine-baffle slope assembly (mirror of subModel-79) - 3x4 slopes on a technic frame with greebling sub-panels.
 0 Author: Roland Dahl [rolandd]
@@ -4688,6 +4773,7 @@
 1 7 120 -56 -110 1 0 0 0 1 0 0 0 1 3743.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-86.ldr
 0 Small technic sub-frame - plate, technic brick and pins.
 0 Author: Roland Dahl [rolandd]
@@ -4706,6 +4792,7 @@
 1 1 50 -14 20 0 0 -1 0 1 0 1 0 0 4274.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-87.ldr
 0 Small greebling sub-panel - panel, grille, clip and tap.
 0 Author: Roland Dahl [rolandd]
@@ -4730,6 +4817,7 @@
 1 7 -20 -24 -10 -1 0 0 0 1 0 0 0 -1 4865a.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-88.ldr
 0 Small greebling sub-panel - panel, clip and tap.
 0 Author: Roland Dahl [rolandd]
@@ -4751,6 +4839,7 @@
 1 7 10 -24 20 -1 0 0 0 1 0 0 0 -1 4599a.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-89.ldr
 0 Greebling detail strip - clips, control sticks, panels and taps on a 2x10 plate.
 0 Author: Roland Dahl [rolandd]
@@ -4789,6 +4878,7 @@
 1 7 -70 -8 -10 0 -0.996 0.087 0 0.087 0.996 -1 0 0 4593.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-90.ldr
 0 Greebling detail strip - clips, control sticks, panels and taps on a 2x10 plate.
 0 Author: Roland Dahl [rolandd]
@@ -4827,6 +4917,7 @@
 1 7 10 -8 70 1 0 0 0 0 1 0 -1 0 4593.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-91.ldr
 0 Greebling panel - panels, taps, cones, grilles, clips and gear racks.
 0 Author: Roland Dahl [rolandd]
@@ -4882,6 +4973,7 @@
 1 7 10 -8 150 -1 0 0 0 0.643 0.766 0 0.766 -0.643 4593.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-92.ldr
 0 Superstructure frame segment - technic beams and plates with greebling sub-panels.
 0 Author: Roland Dahl [rolandd]
@@ -5046,6 +5138,7 @@
 1 7 -123.329 -6.294 10 0.988 0.156 0 -0.156 0.988 0 0 0 1 3034.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-93.ldr
 0 Small greebling sub-panel - panel, gear rack and plate.
 0 Author: Roland Dahl [rolandd]
@@ -5062,6 +5155,7 @@
 1 7 40 -24 0 -1 0 0 0 1 0 0 0 -1 4865a.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-94.ldr
 0 Small greebling sub-panel - panel, gear rack and plate.
 0 Author: Roland Dahl [rolandd]
@@ -5078,6 +5172,7 @@
 1 7 40 -24 0 1 0 0 0 1 0 0 0 1 4865a.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-95.ldr
 0 Greebling edge strip - grille, gear rack, clip and tap on a 1x8 plate.
 0 Author: Roland Dahl [rolandd]
@@ -5098,6 +5193,7 @@
 1 7 0 -24 -70 -1 0 0 0 1 0 0 0 -1 4599a.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-96.ldr
 0 Central superstructure/cityscape block - slopes, gear racks and open-centre technic bricks bristling with greebling, deck and tower sub-assemblies.
 0 Author: Roland Dahl [rolandd]
@@ -5281,6 +5377,7 @@
 1 7 0 -152 120 0 0 -1 0 1 0 1 0 0 10030 - subModel-116.ldr
 
 
+0 STEP
 0 FILE 10030 - subModel-97.ldr
 0 Small deck block - plates and bricks.
 0 Author: Roland Dahl [rolandd]
@@ -5296,6 +5393,7 @@
 1 7 0 -24 -20 1 0 0 0 1 0 0 0 1 3001.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-98.ldr
 0 Brick spacer - 2x4 bricks.
 0 Author: Roland Dahl [rolandd]
@@ -5309,6 +5407,7 @@
 1 7 0 -24 0 0 0 1 0 1 0 -1 0 0 3001.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-99.ldr
 0 Greebling block - grille tiles, clips, bars and panels on plates.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -5406,6 +5505,7 @@
 1 7 -281.808 20.264 -20 0 -0.799 0.602 0 0.602 0.799 -1 0 0 3937.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-100.ldr
 0 Deck frame segment - technic bricks and bricks.
 0 Author: Roland Dahl [rolandd]
@@ -5430,6 +5530,7 @@
 1 7 0 -112 0 1 0 0 0 1 0 0 0 1 3009.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-101.ldr
 0 Engine-thruster array support - axles, beams and angle connectors holding the nozzle housings.
 0 Author: Roland Dahl [rolandd]
@@ -5498,6 +5599,7 @@
 1 4 80 -60.139 -132.574 1 0 0 0 0.981 -0.195 0 0.195 0.981 10030 - subModel-106.ldr
 
 
+0 STEP
 0 FILE 10030 - subModel-102.ldr
 0 Left engine-nozzle housing - technic bricks, plates, a 6x12 left wing and tiles.
 0 Author: Roland Dahl [rolandd]
@@ -5533,6 +5635,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10030 - subModel-103.ldr
 0 Right engine-nozzle housing - technic bricks, plates, a 6x12 right wing and tiles.
 0 Author: Roland Dahl [rolandd]
@@ -5567,6 +5670,7 @@
 1 0 100 16 -70 1 0 0 0 1 0 0 0 1 32064b.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-104.ldr
 0 Left engine-nozzle detail - control-stick array, technic bricks, plates, a 6x12 left wing and a dome.
 0 Author: Roland Dahl [rolandd]
@@ -5640,6 +5744,7 @@
 1 7 -20 -24 60 0 0 1 0 1 0 -1 0 0 10030 - subModel-105.ldr
 
 
+0 STEP
 0 FILE 10030 - subModel-105.ldr
 0 Engine dome - hemisphere/globe on a round brick.
 0 Author: Roland Dahl [rolandd]
@@ -5655,6 +5760,7 @@
 1 7 0 -40 0 1 0 0 0 1 0 0 0 1 30208.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-106.ldr
 0 Right engine-nozzle detail - control-stick array, technic bricks, plates, a 6x12 right wing and a dome.
 0 Author: Roland Dahl [rolandd]
@@ -5726,6 +5832,7 @@
 1 7 -40 -24 -60 1 0 0 0 1 0 0 0 1 10030 - subModel-105.ldr
 
 
+0 STEP
 0 FILE 10030 - subModel-107.ldr
 0 Rear hull/engine-deck panel - wings, panels, grilles, clips and the thruster array support.
 0 Author: Roland Dahl [rolandd]
@@ -5846,6 +5953,7 @@
 1 1 10 86 70 0 1 0 -1 0 0 0 0 1 10030 - subModel-101.ldr
 
 
+0 STEP
 0 FILE 10030 - subModel-108.ldr
 0 Greebling sub-panel - plate, grille and clip with a hinge unit.
 0 Author: Roland Dahl [rolandd]
@@ -5864,6 +5972,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10030 - subModel-109.ldr
 0 Hinge unit - 1x2 hinge base and 2x2 top.
 0 Author: Roland Dahl [rolandd]
@@ -5877,6 +5986,7 @@
 1 0 0 -8 0 1 0 0 0 1 0 0 0 1 6134.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-110.ldr
 0 Greebling sub-panel - plate, grille and clip with a hinge unit.
 0 Author: Roland Dahl [rolandd]
@@ -5894,6 +6004,7 @@
 1 7 0 16 -30 1 0 0 0 1 0 0 0 1 10030 - subModel-109.ldr
 
 
+0 STEP
 0 FILE 10030 - subModel-111.ldr
 0 Rear hull wing array (left) - wing plates and a 3x6 cornerless plate.
 0 Author: Roland Dahl [rolandd]
@@ -5938,6 +6049,7 @@
 1 8 0 22 -60 -1 0 0 0 0 1 0 1 0 44728.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-112.ldr
 0 Rear hull wing array (right) - wing plates and a 3x6 cornerless plate.
 0 Author: Roland Dahl [rolandd]
@@ -5982,6 +6094,7 @@
 1 8 0 22 -60 -1 0 0 0 0 1 0 1 0 44728.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-113.ldr
 0 Hull-edge slope segment - slopes, tiles and plates with greebling sub-panels.
 0 Author: Roland Dahl [rolandd]
@@ -6036,6 +6149,7 @@
 1 8 30 -96 -30 0 0 1 0 1 0 -1 0 0 6141.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-114.ldr
 0 Greebling sub-panel - grille tiles on a bracket.
 0 Author: Roland Dahl [rolandd]
@@ -6051,6 +6165,7 @@
 1 7 10 10 -22 1 0 0 0 0 -1 0 1 0 2412b.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-115.ldr
 0 Greebling sub-panel - clips, lightsaber-blade bars, hinge and grille.
 0 Author: Roland Dahl [rolandd]
@@ -6083,6 +6198,7 @@
 1 8 10 19.215 -63.962 -1 0 0 0 -0.5 0.866 0 0.866 0.5 30374.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-116.ldr
 0 Command-tower base / bridge superstructure block - technic open-centre frame plated up and fitted with greebling and gear-rack sub-panels.
 0 Author: Roland Dahl [rolandd]
@@ -6352,6 +6468,7 @@
 1 7 -280 -18.809 -84.314 0 0 -1 -0.156 0.988 0 0.988 0.156 0 3068b.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-117.ldr
 0 Small detail - plate and a pin-brick.
 0 Author: Roland Dahl [rolandd]
@@ -6365,6 +6482,7 @@
 1 4 0 -24 0 1 0 0 0 1 0 0 0 1 2458.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-118.ldr
 0 Small detail - plate, grille-brick and a pin/axle brick.
 0 Author: Roland Dahl [rolandd]
@@ -6380,6 +6498,7 @@
 1 7 10 -24 0 1 0 0 0 1 0 0 0 1 6232.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-119.ldr
 0 Open-centre technic frame - pinned open-centre bricks.
 0 Author: Roland Dahl [rolandd]
@@ -6406,6 +6525,7 @@
 1 0 10 10 180 0 0 1 0 1 0 -1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-120.ldr
 0 Greebling edge strip - grille, gear rack, clip and tap on a 1x8 plate.
 0 Author: Roland Dahl [rolandd]
@@ -6426,6 +6546,7 @@
 1 7 0 -24 -70 1 0 0 0 1 0 0 0 1 4599a.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-121.ldr
 0 Greebling edge strip - panels, gear rack, clip and tap on a 1x10 plate.
 0 Author: Roland Dahl [rolandd]
@@ -6448,6 +6569,7 @@
 1 7 0 -24 90 1 0 0 0 1 0 0 0 1 4599a.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-122.ldr
 0 Greebling edge strip - panels, gear rack, clip and tap on a 1x10 plate.
 0 Author: Roland Dahl [rolandd]
@@ -6470,6 +6592,7 @@
 1 7 0 -24 90 1 0 0 0 1 0 0 0 1 4599a.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-123.ldr
 0 Greebling sub-panel - panels, cone and tap on a 1x6 plate.
 0 Author: Roland Dahl [rolandd]
@@ -6490,6 +6613,7 @@
 1 7 0 -24 -50 1 0 0 0 1 0 0 0 1 4599a.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-124.ldr
 0 Greebling sub-panel - panels, cone and tap on a 1x6 plate.
 0 Author: Roland Dahl [rolandd]
@@ -6510,6 +6634,7 @@
 1 7 0 -24 -50 1 0 0 0 1 0 0 0 1 4599a.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-125.ldr
 0 Deck/tower surface block - tiled bricks, grilles and plates with a gear-rack strip.
 0 Author: Roland Dahl [rolandd]
@@ -6558,6 +6683,7 @@
 1 7 0 -46 32 0 0 1 0 1 0 -1 0 0 10030 - subModel-126.ldr
 
 
+0 STEP
 0 FILE 10030 - subModel-126.ldr
 0 Gear-rack strip - 1x4 plate and a 1x4 gear rack.
 0 Author: Roland Dahl [rolandd]
@@ -6571,6 +6697,7 @@
 1 7 8 0 0 0 -1 0 0 0 1 -1 0 0 3743.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-127.ldr
 0 Command tower / bridge superstructure - plated tower body topped by sensor-globe supports, turrets and the bridge viewport, with control sticks.
 0 Author: Roland Dahl [rolandd]
@@ -6616,6 +6743,7 @@
 1 7 0 168 30 1 0 0 0 1 0 0 0 1 10030 - subModel-133.ldr
 
 
+0 STEP
 0 FILE 10030 - subModel-128.ldr
 0 Sensor-globe/turret support - studs-on-four-sides and technic 1x1 bricks.
 0 Author: Roland Dahl [rolandd]
@@ -6637,6 +6765,7 @@
 1 15 0 0 100 1 0 0 0 1 0 0 0 1 6541.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-129.ldr
 0 Sensor dome / turret - cones, grooved tiles and round bricks.
 0 Author: Roland Dahl [rolandd]
@@ -6662,6 +6791,7 @@
 1 15 0 24 0 0 0 -1 0 1 0 1 0 0 3062b.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-130.ldr
 0 Tower-edge slope - 45-degree slopes on a plate.
 0 Author: Roland Dahl [rolandd]
@@ -6679,6 +6809,7 @@
 0 // Slope Brick 45  1 x  2 Triple (white)
 1 15 0 -24 30 -1 0 0 0 1 0 0 0 -1 3048b.dat
 
+0 STEP
 0 FILE 10030 - subModel-131.ldr
 0 Small tower detail - plates and round plates.
 0 Author: Roland Dahl [rolandd]
@@ -6695,6 +6826,7 @@
 1 7 10 -16 0 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-132.ldr
 0 Sensor dome array - round bricks, neon-orange round plates and slopes (lit sensor domes).
 0 Author: Roland Dahl [rolandd]
@@ -6786,6 +6918,7 @@
 0 // Plate  1 x  1 Round (trans_neon_orange)
 1 38 0 48 -30 0 0 -1 0 1 0 1 0 0 6141.dat
 
+0 STEP
 0 FILE 10030 - subModel-133.ldr
 0 Bridge viewport - inverted dish and a curved bar between headlight bricks.
 0 Author: Roland Dahl [rolandd]
@@ -6804,6 +6937,7 @@
 1 7 0 -160 -24 1 0 0 0 1 0 0 0 1 4070.dat
 
 
+0 STEP
 0 FILE 10030 - subModel-134.ldr
 0 Display stand / base - black edge-stud plates, grilles and tiles forming the model's stand.
 0 Author: Roland Dahl [rolandd]
@@ -6872,6 +7006,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10030 - subModel-135.ldr
 0 Stand hinge base - hinges and 3x4 slopes on a plate.
 0 Author: Roland Dahl [rolandd]

@@ -70,6 +70,7 @@
 
 
 
+0 STEP
 0 FILE 7735 - locomotive.ldr
 0 12V motorized train locomotive built with a black motor base, connecting rods, buffer beams with magnetic couplings, red brick body with headlights, and clear round plates.
 0 Name: 7735 - locomotive.ldr
@@ -328,6 +329,7 @@
 
 
 
+0 STEP
 0 FILE 7735 - train car 1.ldr
 0 Small black train car with buffer beam couplings, small train wheels, inverted slopes, and a lattice fence body in the main color.
 0 Name: 7735 - train car 1.ldr
@@ -417,6 +419,7 @@
 
 
 
+0 STEP
 0 FILE 7735 - train car 2.ldr
 0 Train car with a black chassis featuring buffer couplings and small wheels, accented with red plates and black tiles along the body.
 0 Name: 7735 - train car 2.ldr
@@ -598,6 +601,7 @@
 
 
 
+0 STEP
 0 FILE 7735 - train car 3.ldr
 0 Longer train car with door rails, black chassis with buffer couplings and small wheels, and a tall body of main-colored bricks.
 0 Name: 7735 - train car 3.ldr
@@ -784,6 +788,7 @@
 
 
 
+0 STEP
 0 FILE 7735 - car.ldr
 0 Yellow road vehicle with a hinged black roof, wheel-pin plates, door rails, grille pattern brick, and inverted slope fenders.
 0 Name: 7735 - car.ldr
@@ -891,6 +896,7 @@
 
 
 
+0 STEP
 0 FILE 7735 - platform.ldr
 0 Grey station platform built on large plates with black slopes, bricks, and hinged sections supported by white technic bricks and round tiles.
 0 Name: 7735 - platform.ldr
@@ -988,6 +994,7 @@
 
 
 
+0 STEP
 0 FILE 7735 - minifig 1.ldr
 0 Minifigure with a blue torso, blue legs, yellow head with grin pattern, and a red police hat.
 0 Name: 7735 - minifig 1.ldr
@@ -1023,6 +1030,7 @@
 
 
 
+0 STEP
 0 FILE 7735 - minifig 2.ldr
 0 Minifigure with a white Shell-logo torso, blue legs, yellow head with grin pattern, and a red peaked cap.
 0 Name: 7735 - minifig 2.ldr
@@ -1058,6 +1066,7 @@
 
 
 
+0 STEP
 0 FILE 7735 - motorbike.ldr
 0 Two-wheeled motorcycle with a main-colored frame, black offset-tread tyres, and red hub wheels.
 0 Name: 7735 - motorbike.ldr
@@ -1083,6 +1092,7 @@
 
 
 
+0 STEP
 0 FILE 7735 - 4480c01.dat
 0 Motorcycle frame assembly consisting of the left side, right side, and front forks of a two-wheel motorcycle body.
 0 Bike 2 Wheel Motorcycle Frame  3 x  6 x  3 (Complete)
@@ -1103,6 +1113,7 @@
 
 
 
+0 STEP
 0 FILE 7735 - 4481.dat
 0 Subpart combining geometric primitives forming a logo patch with cylinders, rectangles, circles, and a LEGO stud logo.
 0 ~Bike 2 Wheel Motorcycle Frame  3 x  6 x  3 - Left Side
@@ -1176,6 +1187,7 @@
 
 
 
+0 STEP
 0 FILE 7735 - 4480.dat
 0 Composite motorcycle frame part built from geometric primitives including rectangles, cylinders, rings, and sub-assemblies for the rear, middle cover, and leg sections.
 0 ~Bike 2 Wheel Motorcycle Frame  3 x  6 x  3 - Right Side
@@ -1350,6 +1362,7 @@
 
 
 
+0 STEP
 0 FILE 7735 - 4481s01.dat
 0 Detailed geometric subpart composed of numerous rectangles, circles, cylinders, discs, and rings forming a complex curved shape.
 0 ~Bike 2 Wheel Motorcycle Frame  3 x  6 x  3 - Left/Right
@@ -2334,6 +2347,7 @@
 
 
 
+0 STEP
 0 FILE 7735 - logo5.dat
 0 Empty logo reference part with no direct pieces.
 0 LEGO Logo for Studs - 3D Flattened

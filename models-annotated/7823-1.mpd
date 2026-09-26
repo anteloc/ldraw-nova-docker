@@ -47,6 +47,7 @@
 
 
 
+0 STEP
 0 FILE 7823 - train car.ldr
 0 A black flatbed train car built on a 6x16 plate with buffers and magnetic couplings, rolling on two powered wheel bogies, with sloped ends and red cone accents.
 0 Name: 7823 - train car.ldr
@@ -187,6 +188,7 @@
 
 
 
+0 STEP
 0 FILE 7823 - container.ldr
 0 A blue cargo container with corner plates, shuttered windows, and a lifting ring lid.
 0 Name: 7823 - container.ldr
@@ -245,6 +247,7 @@
 
 
 
+0 STEP
 0 FILE 7823 - depot.ldr
 0 A roadside depot built on a 32x32 road baseplate with straight rail tracks, a ladder, door rails, and a small black building structure.
 0 Name: 7823 - depot.ldr
@@ -339,6 +342,7 @@
 
 
 
+0 STEP
 0 FILE 7823 - crane.ldr
 0 The main gantry crane framework built from technic bricks with friction pins, door rails, and plates forming the structural support with an operator ladder.
 0 Name: 7823 - crane.ldr
@@ -523,6 +527,7 @@
 
 
 
+0 STEP
 0 FILE 7823 - crane - part 1.ldr
 0 A crane component featuring two long 2x16 plates with door rails and a pair of wheels with tyres, forming part of the crane's rolling base.
 0 Name: 7823 - crane - part 1.ldr
@@ -579,6 +584,7 @@
 
 
 
+0 STEP
 0 FILE 7823 - crane - part 2.ldr
 0 A crane sub-assembly of plates and bricks with a train signal stand forming a signalling or control element.
 0 Name: 7823 - crane - part 2.ldr
@@ -616,6 +622,7 @@
 
 
 
+0 STEP
 0 FILE 7823 - crane - part 3.ldr
 0 A crane component with long plates and door rails plus hinge tiles and black/yellow warning stripe stickers for the boom structure.
 0 Name: 7823 - crane - part 3.ldr
@@ -664,6 +671,7 @@
 
 
 
+0 STEP
 0 FILE 7823 - crane - movable.ldr
 0 The movable crane head and operator cabin with a minifig seat, slopes, hinges, and control sticks for positioning the crane arm.
 0 Name: 7823 - crane - movable.ldr
@@ -909,6 +917,7 @@
 
 
 
+0 STEP
 0 FILE 7823 - car.ldr
 0 A road vehicle built on a 4x5 car base with plates, tiles, and red round light elements.
 0 Name: 7823 - car.ldr
@@ -1039,6 +1048,7 @@
 
 
 
+0 STEP
 0 FILE 7823 - minifig 1.ldr
 0 A minifigure construction worker with a red helmet, blue torso with patch pocket, and blue legs.
 0 Name: 7823 - minifig 1.ldr
@@ -1074,6 +1084,7 @@
 
 
 
+0 STEP
 0 FILE 7823 - minifig 2.ldr
 0 A minifigure wearing a red police hat, red zipper jacket torso, and black legs.
 0 Name: 7823 - minifig 2.ldr
@@ -1109,6 +1120,7 @@
 
 
 
+0 STEP
 0 FILE 7823 - flexHose.ldr
 0 A flexible hose assembly made of approximately 42 linked segments with end caps.
 0 Name: 7823 - flexHose.ldr

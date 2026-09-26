@@ -23,6 +23,7 @@
 1 16 430 -48 50 1 0 0 0 1 0 0 0 1 4554 - minifig 5.ldr
 1 16 300 -56 10 1 0 0 0 1 0 0 0 1 4554 - luggage car 2.ldr
 0 NOFILE
+0 STEP
 0 FILE 4554 - station with platform.ldr
 0 A raised railway platform built from large light grey platform sections with black brick supports and reinforcing plates.
 0 Author: Robert Paciorek [bercik]
@@ -216,6 +217,7 @@
 0 // Roadsign Wide Rectangle with Sticker Black Train Logo (white)
 1 15 780 -48 140 1 0 0 0 1 0 0 0 1 3897d01.dat
 0 NOFILE
+0 STEP
 0 FILE 4554 - station building.ldr
 0 A multi-section station building constructed from main-colored bricks with red accent details and large grey base plates.
 0 Author: Robert Paciorek [bercik]
@@ -964,6 +966,7 @@
 0 // Plate  1 x  1 Round (main_colour)
 1 16 20 -488 130 1 0 0 0 1 0 0 0 1 6141.dat
 0 NOFILE
+0 STEP
 0 FILE 4554 - streat lamp.ldr
 0 A classic street lamp made from a tall lamppost support topped with a transparent yellow light and inverted dish shade.
 0 Author: Robert Paciorek [bercik]
@@ -985,6 +988,7 @@
 0 // Dish  4 x  4 Inverted (main_colour)
 1 16 0 -248 0 1 0 0 0 1 0 0 0 1 3960.dat
 0 NOFILE
+0 STEP
 0 FILE 4554 - bench.ldr
 0 A simple park bench composed of a long plate seat with support legs and minifig seat elements.
 0 Author: Robert Paciorek [bercik]
@@ -1017,6 +1021,7 @@
 0 // Minifig Seat  2 x  2 (main_colour)
 1 16 -30 -72 120 1 0 0 0 1 0 0 0 1 4079.dat
 0 NOFILE
+0 STEP
 0 FILE 4554 - luggage car 1.ldr
 0 A red motorized luggage cart with four wheels, doors, mudguard, and a towing hitch socket.
 0 Author: Robert Paciorek [bercik]
@@ -1113,6 +1118,7 @@
 0 // Minifig Seat  2 x  2 (yellow)
 1 14 -27.757 -47 0 0 0 1 0 1 0 -1 0 0 4079.dat
 0 NOFILE
+0 STEP
 0 FILE 4554 - luggage car 2.ldr
 0 A red luggage trailer with lattice fencing sides, four wheels, and a turntable hitch connection.
 0 Author: Robert Paciorek [bercik]
@@ -1168,6 +1174,7 @@
 0 // Wheel Rim  6.4 x  8 (white)
 1 15 40 -11 -30 1 0 0 0 1 0 0 0 1 4624.dat
 0 NOFILE
+0 STEP
 0 FILE 4554 - minifig 1.ldr
 0 A train worker minifigure wearing a blue torso with train logo, red police hat, and holding a red hand truck.
 0 Author: Robert Paciorek [bercik]
@@ -1203,6 +1210,7 @@
 0 // ~Minifig Leg Right (Obsolete) (blue)
 1 1 0.879 -28 7.355 1 0 0 0 1 0 0 0 1 3816.dat
 0 NOFILE
+0 STEP
 0 FILE 4554 - minifig 2.ldr
 0 A train conductor minifigure in a blue uniform holding a signal flag with a green signal light.
 0 Author: Robert Paciorek [bercik]
@@ -1240,6 +1248,7 @@
 0 // Minifig Police Hat (red)
 1 4 3.542 -96 9.462 1 0 0 0 1 0 0 0 1 3624.dat
 0 NOFILE
+0 STEP
 0 FILE 4554 - minifig 3.ldr
 0 A chef minifigure wearing a white cook's hat and chef-pattern torso, holding a blue cup.
 0 Author: Robert Paciorek [bercik]
@@ -1275,6 +1284,7 @@
 0 // Minifig Cup (blue)
 1 1 -23.145 -35.68 -36.2 0.99 -0.12 0.12 0.17 0.7 -0.7 0 0.71 0.71 3899.dat
 0 NOFILE
+0 STEP
 0 FILE 4554 - minifig 4.ldr
 0 A female passenger minifigure with brown hair, white outfit, and carrying a closed suitcase.
 0 Author: Robert Paciorek [bercik]
@@ -1310,6 +1320,7 @@
 0 // ~Minifig Leg Right (Obsolete) (red)
 1 4 2.26 -28 3.37 1 0 0 0 1 0 0 0 1 3816.dat
 0 NOFILE
+0 STEP
 0 FILE 4554 - minifig 5.ldr
 0 A businessman minifigure wearing a blue suit with tie and short brown hair.
 0 Author: Robert Paciorek [bercik]
@@ -1343,6 +1354,7 @@
 0 // ~Minifig Leg Right (Obsolete) (black)
 1 0 0 -28 2 1 0 0 0 1 0 0 0 1 3816.dat
 0 NOFILE
+0 STEP
 0 FILE 4554 - minifig 6.ldr
 0 A businessman minifigure in a blue suit with red tie and train logo, with shoulder-length black hair.
 0 Author: Robert Paciorek [bercik]
@@ -1376,6 +1388,7 @@
 0 // Minifig Hair Shoulder Length (black)
 1 0 0 -96 2 1 0 0 0 1 0 0 0 1 4530.dat
 0 NOFILE
+0 STEP
 0 FILE 4554 - minifig 7.ldr
 0 A female passenger minifigure with pigtails, red and white striped outfit, and carrying a backpack.
 0 Author: Robert Paciorek [bercik]
@@ -1411,6 +1424,7 @@
 0 // Minifig Hair Female with Pigtails (black)
 1 0 0 -98 1.818 1 0 0 0 1 0 0 0 1 3625.dat
 0 NOFILE
+0 STEP
 0 FILE 4554 - minifig 8.ldr
 0 A train worker minifigure wearing a blue torso with train logo and red diagonal stripes, topped with a red police hat.
 0 Author: Robert Paciorek [bercik]

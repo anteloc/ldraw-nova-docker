@@ -5,6 +5,7 @@
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
 
 1 16 -20 -218.167 287.808 1 0 0 0 1 -0.012 0 0.012 1 42066 - jet.ldr
+0 STEP
 0 FILE 42066 - powerFuncMotorM-LQ-1.ldr
 0 Power Functions medium motor assembly with PF connector for providing motorized drive.
 0 Name: 42066 - powerFuncMotorM-LQ-1.ldr
@@ -48,6 +49,7 @@
 0 //  To ensure correct edge colors those segments are placed in (a) subpart(s).
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 42066 - powerFuncMotorM-LQ-1 subPart 1.ldr
 
+0 STEP
 0 FILE 42066 - powerFuncMotorM-LQ-1 subPart 1.ldr
 0 Wiring path subpart for the Power Functions motor with approximately 97 cable segments.
 0 Name: 42066 - powerFuncMotorM-LQ-1 subPart 1.ldr
@@ -161,6 +163,7 @@
 1 16 78.92875 11.68993 -288.866991 0.998463 -0.202372 -0.022814 0.036553 3.643897 -0.414041 0.041664 1.652916 0.909972 u9190.dat
 1 16 78.996954 8.871154 -289.422472 0.999459 -0.116563 -0.015306 0.024627 3.890306 -0.237694 0.021778 0.950266 0.97122 u9190.dat
 1 16 79.005471 6.115954 -289.4915 0.999948 -0.027052 -0.007609 0.006324 4.000241 -0.05497 0.007969 0.220027 0.998459 u9190.dat
+0 STEP
 0 FILE 42066 - cabin.ldr
 0 Structural cabin frame built from bent liftarms, beams, and friction pins forming the cockpit enclosure.
 0 Name: 42066 - cabin.ldr
@@ -477,6 +480,7 @@
 1 0 90 -58.445 226.303 1 0 0 0 -0.099 -0.998 0 0.998 -0.099 2780.dat
 0 // Technic Beam  5 (light_bluish_grey)
 1 71 80 -62.425 266.223 0 1 0 -0.997 0 -0.099 -0.099 0 0.997 32316.dat
+0 STEP
 0 FILE 42066 - seat.ldr
 0 Pilot seat assembly constructed from bent liftarms, a contoured panel, and pins for mounting.
 0 Name: 42066 - seat.ldr
@@ -530,6 +534,7 @@
 1 1 20 60 20 1 0 0 0 0.041 0.999 0 -0.999 0.041 6558.dat
 0 // Technic Beam  1 (dark_bluish_grey)
 1 72 20 60 20 0 -1 0 0 0 1 -1 0 0 18654.dat
+0 STEP
 0 FILE 42066 - frontside1.ldr
 0 Left or right front fuselage side panel using smooth medium-blue panels and trapezium sections for aerodynamic shaping.
 0 Name: 42066 - frontside1.ldr
@@ -587,6 +592,7 @@
 1 0 -90 -100 300 0 0 1 1 0 0 0 1 0 59443.dat
 0 // Technic Axle  4 (black)
 1 0 -130 -100 300 1 0 0 0 0 -1 0 1 0 3705.dat
+0 STEP
 0 FILE 42066 - roof.ldr
 0 Roof structure spanning medium-blue beams and white liftarms with towball pins for articulation.
 0 Name: 42066 - roof.ldr
@@ -655,6 +661,7 @@
 1 0 79.005 61.353 -84.239 0.995 0.018 0.103 -0.104 0.121 0.988 0.005 -0.993 0.122 2739a.dat
 0 // Technic Steering Link  6L Type 1 (black)
 1 0 0.995 61.353 -84.239 0.995 -0.018 -0.103 0.104 0.121 0.988 -0.005 -0.993 0.122 2739a.dat
+0 STEP
 0 FILE 42066 - frontside2.ldr
 0 Mirrored front fuselage side panel with smooth medium-blue panels and trapezium sections.
 0 Name: 42066 - frontside2.ldr
@@ -702,6 +709,7 @@
 1 72 -40 -20 360 0 0 1 -1 0 0 0 -1 0 60484.dat
 0 // Technic Pin with Friction and Slots (black)
 1 0 -20 -20 370 0 1 0 0 0 1 1 0 0 2780.dat
+0 STEP
 0 FILE 42066 - bottomhatch1.ldr
 0 Bottom hatch or landing gear door assembly using medium-blue beams, angle connectors, and a towball pin.
 0 Name: 42066 - bottomhatch1.ldr
@@ -735,6 +743,7 @@
 1 72 20 0 170 -1 0 0 0 1 0 0 0 -1 32291.dat
 0 // Technic Pin Towball with Friction (black)
 1 0 10 20 180 0 0 1 0 1 0 -1 0 0 6628.dat
+0 STEP
 0 FILE 42066 - bottomhatch2.ldr
 0 Mirrored bottom hatch or gear door assembly matching bottomhatch1 with beams and angle connectors.
 0 Name: 42066 - bottomhatch2.ldr
@@ -768,6 +777,7 @@
 1 72 -20 0 170 -1 0 0 0 1 0 0 0 -1 32291.dat
 0 // Technic Pin Towball with Friction (black)
 1 0 -10 20 180 0 0 1 0 1 0 -1 0 0 6628.dat
+0 STEP
 0 FILE 42066 - gearbox.ldr
 0 Primary gearbox with 16-tooth gears and clutch gears for transmitting and switching drive power.
 0 Name: 42066 - gearbox.ldr
@@ -860,6 +870,7 @@
 1 0 210 0 -40 0 0 1 0 1 0 -1 0 0 59443.dat
 0 // Technic Axle Joiner Inline Smooth (black)
 1 0 210 0 40 0 0 1 0 1 0 -1 0 0 59443.dat
+0 STEP
 0 FILE 42066 - gearbox2.ldr
 0 Secondary gearbox stage using 20-tooth and 8-tooth bevel gears to redirect or change drive ratio.
 0 Name: 42066 - gearbox2.ldr
@@ -899,6 +910,7 @@
 1 72 -60 0 0 0 0 1 1 0 0 0 1 0 10928.dat
 0 // Technic Axle Joiner Inline Smooth (black)
 1 0 30 0 0 0 0 1 1 0 0 0 1 0 59443.dat
+0 STEP
 0 FILE 42066 - tailside1.ldr
 0 Tail fuselage side panel built from large black panels and fairing sections for the rear structure.
 0 Name: 42066 - tailside1.ldr
@@ -942,6 +954,7 @@
 1 0 60 -40 -40 0 0 -1 0 -1 0 -1 0 0 32140.dat
 0 // Technic Beam  2 x  4 Liftarm Bent 90 (black)
 1 0 60 -40 20 0 0 -1 0 -1 0 -1 0 0 32140.dat
+0 STEP
 0 FILE 42066 - tailside2.ldr
 0 Mirrored tail fuselage side panel with mirrored fairing matching tailside1.
 0 Name: 42066 - tailside2.ldr
@@ -985,6 +998,7 @@
 1 0 -60 -40 -40 0 0 1 0 1 0 -1 0 0 32140.dat
 0 // Technic Beam  2 x  4 Liftarm Bent 90 (black)
 1 0 -60 -40 20 0 0 1 0 1 0 -1 0 0 32140.dat
+0 STEP
 0 FILE 42066 - nosetop.ldr
 0 Nose top section featuring smooth medium-blue fairing panels and cross blocks for the forward fuselage.
 0 Name: 42066 - nosetop.ldr
@@ -1030,6 +1044,7 @@
 1 0 0 0 0 0 -1 0 -1 0 0 0 0 -1 32140.dat
 0 // Technic Axle  3 (light_bluish_grey)
 1 71 0 0 -20 1 0 0 0 -1 0 0 0 -1 4519.dat
+0 STEP
 0 FILE 42066 - dashboard.ldr
 0 Dashboard or console plate assembly made from black plates, brackets, and tiles.
 0 Name: 42066 - dashboard.ldr
@@ -1052,6 +1067,7 @@
 1 0 0 -16 0 0 0 -1 0 1 0 1 0 0 87079.dat
 0 // Tile  2 x  4 (black)
 1 0 -32 -20 0 0 1 0 0 0 1 1 0 0 87079.dat
+0 STEP
 0 FILE 42066 - windscreen.ldr
 0 Windscreen frame constructed from angle connectors and notched axles forming a glazed canopy outline.
 0 Name: 42066 - windscreen.ldr
@@ -1103,6 +1119,7 @@
 0 // Technic Axle Pin with Friction (blue)
 1 1 80.228 31.748 205.031 -0.017 -0.924 -0.383 0 -0.383 0.924 -1 0.016 0.007 43093.dat
 1 0 -72.819 22.509 95.433 0 -0.383 -0.924 0 0.924 -0.383 1 0 0 42066 - technicFlexAxle-1.ldr
+0 STEP
 0 FILE 42066 - technicFlexAxle-1.ldr
 0 Flexible axle assembly with approximately 47 segments forming a curved structural or decorative element.
 0 Name: 42066 - technicFlexAxle-1.ldr
@@ -3764,6 +3781,7 @@
 5 24 1.285543 -55.181213 -132.086411 1.311861 -57.967625 -129.300293 2.568962 -55.803036 -132.720413 -0.240116 -54.955761 -131.846527
 5 24 2.568962 -55.803036 -132.720413 2.595281 -58.589447 -129.934311 3.415108 -56.726299 -133.651779 1.285543 -55.181213 -132.086411
 5 24 3.415108 -56.726299 -133.651779 3.441426 -59.512711 -130.865662 3.694779 -57.810688 -134.738922 2.568962 -55.803036 -132.720413
+0 STEP
 0 FILE 42066 - shiftplate.ldr
 0 Shifter plate with changeover catches and medium-blue beams for controlling gear selection.
 0 Name: 42066 - shiftplate.ldr
@@ -3830,6 +3848,7 @@
 1 4 60 -36 0 -1 0 0 0 0 -1 0 -1 0 3713.dat
 0 // Technic Bush with Two Flanges (red)
 1 4 -20 -36 0 -1 0 0 0 0 -1 0 -1 0 3713.dat
+0 STEP
 0 FILE 42066 - tail1.ldr
 0 Tail boom assembly using long black beams, red cross blocks, and a trapezium panel for the tail structure.
 0 Name: 42066 - tail1.ldr
@@ -3907,6 +3926,7 @@
 1 4 0 -20 -80 -1 0 0 0 0 1 0 1 0 32062.dat
 0 // Technic Beam 15 (black)
 1 0 0 -141.222 -9.963 0 1 0 0.5 0 0.866 0.866 0 -0.5 32278.dat
+0 STEP
 0 FILE 42066 - tail2.ldr
 0 Mirrored tail boom assembly matching tail1 with long beams and trapezium panel.
 0 Name: 42066 - tail2.ldr
@@ -3984,6 +4004,7 @@
 1 4 0 -20 -80 -1 0 0 0 0 1 0 1 0 32062.dat
 0 // Technic Beam 15 (black)
 1 0 0 -141.222 -9.963 0 -1 0 -0.5 0 0.866 -0.866 0 -0.5 32278.dat
+0 STEP
 0 FILE 42066 - jet.ldr
 0 Large jet engine or main body assembly built from hundreds of beams, pins, and cross blocks forming the core Technic structure.
 0 Name: 42066 - jet.ldr
@@ -5370,6 +5391,7 @@
 1 4 -104.52 -99.463 60 0.974 0.226 0 -0.226 0.974 0 0 0 1 42066 - tail1.ldr
 1 4 144.517 -99.463 60 0.974 -0.226 0 0.226 0.974 0 0 0 1 42066 - tail2.ldr
 0 STEP
+0 STEP
 0 FILE 42066 - 27940.dat
 0 Cylindrical Technic connector part with axle holes and sloped cylinder surfaces.
 0 Name: 42066 - 27940.dat
@@ -5435,6 +5457,7 @@
 0 !LDCAD SNAP_CLEAR [ID=axle]
 0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=A 6 20]
 0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=A 6 20]
+0 STEP
 0 FILE 42066 - 18976.dat
 0 Ringed cylindrical Technic part with cones and axle holes forming a turbine or wheel-like component.
 0 Name: 42066 - 18976.dat
@@ -5514,6 +5537,7 @@
 1 16 0 0 -20 -2 0 0 0 0 2 0 1 0 4-4rin10.dat
 0 // Cylinder Open 1.0 (main_colour)
 1 16 0 0 -10 22 0 0 0 0 22 0 -10 0 4-4cylo.dat
+0 STEP
 0 FILE 42066 - 18977.dat
 0 Small conical ringed Technic wheel or rim part with cylinders and cones.
 0 Name: 42066 - 18977.dat
@@ -5581,6 +5605,7 @@
 1 16 0 0 0 0.707107 -0.707107 0 0.707107 0.707107 0 0 0 1 s\42066 - 18977s01.dat
 1 16 0 0 0 0.866025 -0.5 0 0.5 0.866025 0 0 0 1 s\42066 - 18977s01.dat
 1 16 0 0 0 0.965926 -0.258819 0 0.258819 0.965926 0 0 0 1 s\42066 - 18977s01.dat
+0 STEP
 0 FILE 42066 - 24316.dat
 0 A small Technic axle assembly with a disc and closed cylinder, forming a compact connector piece.
 0 Name: 42066 - 24316.dat
@@ -5603,6 +5628,7 @@
 0 !LDCAD SNAP_CLEAR 
 0 !LDCAD SNAP_CYL [gender=M] [caps=none] [secs=R 8 2   A 6 58] [center=true] [slide=true]
 0 !LDCAD MIRROR_INFO [baseFlip=Z] [counterPart=self]
+0 STEP
 0 FILE 42066 - ldcFlexAxleEndA.dat
 0 A flex axle end cap component for a flexible Technic axle system.
 0 Name: 42066 - ldcFlexAxleEndA.dat
@@ -5619,6 +5645,7 @@
 
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
+0 STEP
 0 FILE 42066 - ldcFlexAxleEndB.dat
 0 A flex axle end cap with a cylinder body, part of the flexible axle termination system.
 0 Name: 42066 - ldcFlexAxleEndB.dat
@@ -5636,6 +5663,7 @@
 
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
+0 STEP
 0 FILE 42066 - ldcFlexAxleEndC.dat
 0 A flex axle end cap component for terminating a flexible Technic axle.
 0 Name: 42066 - ldcFlexAxleEndC.dat
@@ -5652,6 +5680,7 @@
 
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
+0 STEP
 0 FILE 42066 - ldcFlexAxleEndD.dat
 0 A flex axle end cap component for terminating a flexible Technic axle.
 0 Name: 42066 - ldcFlexAxleEndD.dat
@@ -5668,6 +5697,7 @@
 
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
+0 STEP
 0 FILE 42066 - ldcFlexAxleEndE.dat
 0 A flex axle end cap component for terminating a flexible Technic axle.
 0 Name: 42066 - ldcFlexAxleEndE.dat
@@ -5684,6 +5714,7 @@
 
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
+0 STEP
 0 FILE 42066 - ldcFlexAxleEndF.dat
 0 A flex axle end cap component for terminating a flexible Technic axle.
 0 Name: 42066 - ldcFlexAxleEndF.dat
@@ -5700,6 +5731,7 @@
 
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
+0 STEP
 0 FILE 42066 - ldcFlexAxleEndG.dat
 0 A flex axle end cap component for terminating a flexible Technic axle.
 0 Name: 42066 - ldcFlexAxleEndG.dat
@@ -5716,6 +5748,7 @@
 
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
+0 STEP
 0 FILE 42066 - ldcFlexAxleMid.dat
 0 A flex axle middle segment built around a Technic axle perimeter, forming the body of a flexible axle.
 0 Name: 42066 - ldcFlexAxleMid.dat
@@ -5733,6 +5766,7 @@
 
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
+0 STEP
 0 FILE 42066 - 33299a.dat
 0 A Technic structural element with axle holes and peg holes, using rings and discs to form a connector block.
 0 Name: 42066 - 33299a.dat
@@ -5765,6 +5799,7 @@
 4 16 9 10 32 9 10 29 -9 10 29 -9 10 32
 4 16 8 10 36.661999 9 10 35.661999 9 10 32 8 10 32
 4 16 -9 10 35.661999 -8 10 36.661999 -8 10 32 -9 10 32
+0 STEP
 0 FILE 42066 - 55615.dat
 0 A large complex molded Technic part composed of many cylinders, discs, rings, and connector holes forming a detailed structural body.
 0 Name: 42066 - 55615.dat
@@ -6122,6 +6157,7 @@
 
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 8 2   R 6 16   S 8 2] [center=true] [slide=true]
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 8 2   R 6 16   S 8 2] [center=true] [slide=true]
+0 STEP
 0 FILE 42066 - 32523p01.dat
 0 A printed Technic liftarm beam with connector holes and cylinders, featuring a decorative pattern surface.
 0 Name: 42066 - 32523p01.dat
@@ -6647,6 +6683,7 @@
 4 16 9 -6.1 11.9 9 -5.35 10.7 9 -5.5 12.35 9 -6.4 13.3
 3 16 9 -6.4 13.3 9 -5.5 12.35 9 -5.85 13.25
 4 16 9 7.9 10.4 9 8.55 10.1 9 8.55 11.55 9 7.35 10.75
+0 STEP
 0 FILE s\42066 - 33299s01.dat
 0 A subpart of a Technic connector element with cylinders, rings, pins, and circular primitives forming its detailed geometry.
 0 Name: s\42066 - 33299s01.dat
@@ -6916,6 +6953,7 @@
 4 16 4.9497 0 35.050201 6 0 36.661999 6 10 36.661999 4.9497 10 35.050301
 5 24 -4.9498 0 35.050098 -4.9498 10 35.050098 -6 0 36.661999 -2.6788 0 33.5327
 5 24 4.9497 10 35.050301 4.9498 0 35.050201 6 0 36.661999 2.6788 10 33.5327
+0 STEP
 0 FILE s\42066 - 6578s01.dat
 0 A simple subpart consisting of two open boxes forming a basic structural shell.
 0 Name: s\42066 - 6578s01.dat
@@ -6964,6 +7002,7 @@
 3 16 -9.83 -36.700001 7 -4.96 -37.669998 7 0 -38 7
 4 16 0 -37 7 -9.577 -35.738998 7 -9.83 -36.700001 7 0 -38 7
 2 24 -9.577 -35.738998 7 0 -37 7
+0 STEP
 0 FILE s\42066 - 18976s01.dat
 0 A cylindrical subpart with open cylinders, chords, and discs forming a slotted tubular connector geometry.
 0 Name: s\42066 - 18976s01.dat
@@ -7083,6 +7122,7 @@
 3 16 5.9586 0 4.4794 4.9843 0 3.9169 5.5434 0 2.2962
 4 16 5.9586 0 4.4794 6.275 0 2.4 7.4 0 2.4 11.1547 0 7.4794
 4 16 11.5576 0 5.1779 11.988 0 6.2173 11.1547 0 7.4794 7.4 0 2.4
+0 STEP
 0 FILE s\42066 - 18977s01.dat
 0 An empty subpart referencing no direct pieces.
 0 Name: s\42066 - 18977s01.dat
@@ -7197,6 +7237,7 @@
 2 24 28.171101 -5.60358 12 28.6604 -5.7009 12
 5 24 29.7143 0 9 30 0 7 29.742001 -3.915 7 29.742001 3.915 7
 5 24 29.742001 -3.915 7 29.033701 -3.82237 12 28.875299 -1.89259 14 28.6604 -5.7009 12
+0 STEP
 0 FILE 48\42066 - 1-24ring59.dat
 0 A primitive-generated ring segment used for circular surface detail.
 0 Name: 48\42066 - 1-24ring59.dat
@@ -7209,6 +7250,7 @@
 4 16 60 0 0 59.484001 0 7.83 58.492599 0 7.6995 59 0 0
 4 16 59.484001 0 7.83 57.953999 0 15.528 56.988098 0 15.2692 58.492599 0 7.6995
 0 // Build by Primitive Generator 2
+0 STEP
 0 FILE s\42066 - 98138s01.dat
 0 A small circular subpart built from rings and cylinders forming a rounded stud or cap.
 0 Name: s\42066 - 98138s01.dat
@@ -7236,6 +7278,7 @@
 1 16 0 0 0 0.5 0 0 0 1 0 0 0 0.5 4-4rin18.dat
 1 16 0 0.5 0 -9.5 0 0 0 -9.5 0 0 0 9.5 42066 - t02o0526.dat
 1 16 0 0.5 0 9.5 0 0 0 -9.5 0 0 0 -9.5 42066 - t02o0526.dat
+0 STEP
 0 FILE 42066 - t02o0526.dat
 0 A torus primitive segment with major radius 19 and minor radius 1, generated for curved surface detailing.
 0 Name: 42066 - t02o0526.dat

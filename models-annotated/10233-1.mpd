@@ -15,6 +15,7 @@
 1 73 150 8 530 -0.707 0 0.707 0 1 0 -0.707 0 -0.707 10233 - M Woman 1.ldr
 
 
+0 STEP
 0 FILE 10233 - Locomotive.ldr
 0 Orange and white streamlined locomotive body on a 6x28 train base with grille bricks, sloped nose, curved windscreen and curved-top side bricks
 0 Name: 10233 - Locomotive.ldr
@@ -350,6 +351,7 @@
 1 0 0 -128 -220 1 0 0 0 1 0 0 0 1 10233 - Loco S36.ldr
 
 
+0 STEP
 0 FILE 10233 - Loco S06.ldr
 0 Roof detail of grille round bricks and clip plates with stop-bars mounted on an axlehole plate via brackets
 0 Name: 10233 - Loco S06.ldr
@@ -397,6 +399,7 @@
 1 71 -30 -30 -108 1 0 0 0 0 1 0 -1 0 63965.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S09a.ldr
 0 Small clip-and-slope detail on a black plate
 0 Name: 10233 - Loco S09a.ldr
@@ -416,6 +419,7 @@
 1 0 -10 -8 0 0 0 1 0 1 0 -1 0 0 54200.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S09b.ldr
 0 Down-bracket detail with two sloped bricks on a plate
 0 Name: 10233 - Loco S09b.ldr
@@ -433,6 +437,7 @@
 1 0 10 30 -22 -1 0 0 0 0 1 0 1 0 54200.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S09c.ldr
 0 Down-bracket detail with two sloped bricks on a plate
 0 Name: 10233 - Loco S09c.ldr
@@ -450,6 +455,7 @@
 1 0 -10 30 -22 -1 0 0 0 0 1 0 1 0 54200.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S10a.ldr
 0 White clip plate with a sloped brick
 0 Name: 10233 - Loco S10a.ldr
@@ -462,6 +468,7 @@
 1 15 0 0 0 0 0 -1 0 1 0 1 0 0 54200.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S11a.ldr
 0 White clip plate with a sloped brick
 0 Name: 10233 - Loco S11a.ldr
@@ -474,6 +481,7 @@
 1 15 0 0 0 0 0 1 0 1 0 -1 0 0 54200.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S11b.ldr
 0 Black clip plate with a sloped brick
 0 Name: 10233 - Loco S11b.ldr
@@ -486,6 +494,7 @@
 1 0 0 0 0 0 0 1 0 1 0 -1 0 0 54200.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S10b.ldr
 0 Black clip plate with a sloped brick
 0 Name: 10233 - Loco S10b.ldr
@@ -498,6 +507,7 @@
 1 0 0 0 0 0 0 -1 0 1 0 1 0 0 54200.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S12a.ldr
 0 White clip plate with a sloped brick
 0 Name: 10233 - Loco S12a.ldr
@@ -510,6 +520,7 @@
 1 15 0 0 0 0 0 1 0 1 0 -1 0 0 54200.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S12b.ldr
 0 Black clip plate with a sloped brick
 0 Name: 10233 - Loco S12b.ldr
@@ -522,6 +533,7 @@
 1 0 0 0 0 0 0 1 0 1 0 -1 0 0 54200.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S13a.ldr
 0 White clip plate with a sloped brick
 0 Name: 10233 - Loco S13a.ldr
@@ -534,6 +546,7 @@
 1 15 0 0 0 0 0 -1 0 1 0 1 0 0 54200.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S13b.ldr
 0 Black clip plate with a sloped brick
 0 Name: 10233 - Loco S13b.ldr
@@ -546,6 +559,7 @@
 1 0 0 0 0 0 0 -1 0 1 0 1 0 0 54200.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S04.ldr
 0 Pair of white plates
 0 Name: 10233 - Loco S04.ldr
@@ -558,6 +572,7 @@
 1 15 0 -8 0 0 0 1 0 1 0 -1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S08.ldr
 0 Black brick capped with a plate
 0 Name: 10233 - Loco S08.ldr
@@ -570,6 +585,7 @@
 1 0 0 -8 -10 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S07.ldr
 0 Pair of black plates
 0 Name: 10233 - Loco S07.ldr
@@ -582,6 +598,7 @@
 1 0 0 0 0 0 0 1 0 1 0 -1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S14.ldr
 0 Two black 1x1 bricks
 0 Name: 10233 - Loco S14.ldr
@@ -594,6 +611,7 @@
 1 0 0 -24 0 1 0 0 0 1 0 0 0 1 3005.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S15.ldr
 0 Pair of handle bricks with a grooved tile
 0 Name: 10233 - Loco S15.ldr
@@ -608,6 +626,7 @@
 1 0 0 -32 0 1 0 0 0 1 0 0 0 1 3070b.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S16.ldr
 0 Small black plate detail
 0 Name: 10233 - Loco S16.ldr
@@ -620,6 +639,7 @@
 1 0 0 -8 10 0 0 -1 0 1 0 1 0 0 3623.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S17 R.ldr
 0 Right-side body panel: blue reinforced panel on brackets with a reddish-brown plate and an orange-triangle patterned tile
 0 Name: 10233 - Loco S17 R.ldr
@@ -644,6 +664,7 @@
 1 0 0 -24 -30 0 0 1 1 0 0 0 1 0 87079p03.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S17 L.ldr
 0 Left-side body panel: blue reinforced panel on brackets with a reddish-brown plate and an orange-triangle patterned tile
 0 Name: 10233 - Loco S17 L.ldr
@@ -669,6 +690,7 @@
 1 0 0 -24 -30 0 0 1 1 0 0 0 1 0 87079p02.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S18.ldr
 0 Pair of orange handle bricks with a grooved tile
 0 Name: 10233 - Loco S18.ldr
@@ -683,6 +705,7 @@
 1 25 0 -32 0 1 0 0 0 1 0 0 0 1 3070b.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S19.ldr
 0 Locomotive cab/roof assembly with sloped grille, seats, clip plates, grooved bricks and tiled plates
 0 Name: 10233 - Loco S19.ldr
@@ -749,6 +772,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10233 - Loco S19 s05.ldr
 0 Orange sloped-brick and curved-slope detail
 0 Name: 10233 - Loco S19 s05.ldr
@@ -765,6 +789,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10233 - Loco S19 s05 s2.ldr
 0 Two orange 1x1 plates
 0 Name: 10233 - Loco S19 s05 s2.ldr
@@ -777,6 +802,7 @@
 1 25 0 -8 0 1 0 0 0 1 0 0 0 1 3024.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S19 s06.ldr
 0 Transparent headlight brick with a sloped brick
 0 Name: 10233 - Loco S19 s06.ldr
@@ -789,6 +815,7 @@
 1 47 0 10 -6 -1 0 0 0 0 1 0 1 0 54200.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S19 s07.ldr
 0 Reddish-brown plate and tile with a handle plate
 0 Name: 10233 - Loco S19 s07.ldr
@@ -804,6 +831,7 @@
 1 71 0 0 20 -1 0 0 0 1 0 0 0 -1 48336.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S19 s08.ldr
 0 Curved-slope roof segment with plates, corner plates and tiles
 0 Name: 10233 - Loco S19 s08.ldr
@@ -834,6 +862,7 @@
 1 25 -10 -16 -80 1 0 0 0 1 0 0 0 1 61678.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S19 s09.ldr
 0 Curved-slope roof segment with plates, corner plates and tiles
 0 Name: 10233 - Loco S19 s09.ldr
@@ -864,6 +893,7 @@
 1 25 10 -16 -80 1 0 0 0 1 0 0 0 1 61678.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S19 s10.ldr
 0 Pair of orange cutout wedge bricks with 1x1 bricks
 0 Name: 10233 - Loco S19 s10.ldr
@@ -881,6 +911,7 @@
 1 25 -50 0 90 1 0 0 0 1 0 0 0 1 3005.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S23.ldr
 0 Orange plate and tile detail group
 0 Name: 10233 - Loco S23.ldr
@@ -903,6 +934,7 @@
 1 25 0 -16 10 1 0 0 0 1 0 0 0 1 6636.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S24.ldr
 0 Underframe bogie mount with technic bricks, friction pins and orange grille tiles
 0 Name: 10233 - Loco S24.ldr
@@ -948,6 +980,7 @@
 1 0 0 -32 0 -1 0 0 0 1 0 0 0 -1 3020.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S24 s04a.ldr
 0 Corner-plate group with a grooved tile and a holed plate
 0 Name: 10233 - Loco S24 s04a.ldr
@@ -965,6 +998,7 @@
 1 72 10 8 -10 0 0 1 0 1 0 -1 0 0 2444.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S24 s04b.ldr
 0 Corner-plate group with a grooved tile and a holed plate
 0 Name: 10233 - Loco S24 s04b.ldr
@@ -982,6 +1016,7 @@
 1 72 -10 8 -10 0 0 1 0 1 0 -1 0 0 2444.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S25.ldr
 0 Rear buffer assembly with buffer beam, bogie plate, wheel bogie and coupling bricks
 0 Name: 10233 - Loco S25.ldr
@@ -1029,6 +1064,7 @@
 1 0 0 -16 0 0 0 -1 0 1 0 1 0 0 4092b.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S25 s03.ldr
 0 Two black 2x3 plates
 0 Name: 10233 - Loco S25 s03.ldr
@@ -1041,6 +1077,7 @@
 1 0 -20 -8 0 0 0 1 0 1 0 -1 0 0 3021.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S25 s5.ldr
 0 Wheelset of two train wheels on a steel axle
 0 Name: 10233 - Loco S25 s5.ldr
@@ -1055,6 +1092,7 @@
 1 383 0 0 0 1 0 0 0 1 0 0 0 1 57877.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S26.ldr
 0 Powered bogie with motor sides, technic axles and four RC train wheels
 0 Name: 10233 - Loco S26.ldr
@@ -1115,6 +1153,7 @@
 1 0 0 -32 20 0 0 -1 0 1 0 1 0 0 4092b.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S27.ldr
 0 Orange nose wedge with sloped bricks, a brick and a grille tile
 0 Name: 10233 - Loco S27.ldr
@@ -1144,6 +1183,7 @@
 1 72 0 -8 -10 1 0 0 0 1 0 0 0 1 2412b.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S27 s02.ldr
 0 Right door/panel sub-assembly of plates, a door-rail plate and a grooved tile
 0 Name: 10233 - Loco S27 s02.ldr
@@ -1164,6 +1204,7 @@
 1 25 0 -24 -30 0 0 -1 0 1 0 1 0 0 2431.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S27 s03.ldr
 0 Left door/panel sub-assembly of plates, a door-rail plate and a grooved tile
 0 Name: 10233 - Loco S27 s03.ldr
@@ -1184,6 +1225,7 @@
 1 25 0 -24 -30 0 0 -1 0 1 0 1 0 0 2431.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S28.ldr
 0 Curved wedge roof/windscreen detail with clear plates
 0 Name: 10233 - Loco S28.ldr
@@ -1208,6 +1250,7 @@
 1 47 -10 -24 20 0 0 1 0 1 0 -1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S30.ldr
 0 Inverted tiles and plates with axlehole plates
 0 Name: 10233 - Loco S30.ldr
@@ -1236,6 +1279,7 @@
 1 72 0 -120 -20 0 0 -1 0 -1 0 -1 0 0 11203.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S30 s03.ldr
 0 Roof detail with grille tiles, handle plates and brackets on a grooved tile
 0 Name: 10233 - Loco S30 s03.ldr
@@ -1276,6 +1320,7 @@
 1 0 0 -48 0 0 0 -1 0 1 0 1 0 0 87079.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S31.ldr
 0 Orange pantograph base with technic axle and curved-top grille bricks
 0 Name: 10233 - Loco S31.ldr
@@ -1318,6 +1363,7 @@
 1 72 0 -14 -30 -1 0 0 0 1 0 0 0 -1 10233 - Loco S31 s05b.ldr
 
 
+0 STEP
 0 FILE 10233 - Loco S31 s05a.ldr
 0 Pantograph arm assembly with shoes, hinges, liftarms and bushes
 0 Name: 10233 - Loco S31 s05a.ldr
@@ -1347,6 +1393,7 @@
 1 72 9 -20 40 0 1 0 1 0 0 0 0 -1 6632.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S31 s05b.ldr
 0 Pantograph arm assembly with shoes, hinges, liftarms and bushes
 0 Name: 10233 - Loco S31 s05b.ldr
@@ -1376,6 +1423,7 @@
 1 72 9 -35.307 36.955 0 1 0 0.924 0 0.383 0.383 0 -0.924 6632.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S32.ldr
 0 Locomotive cab/underframe with bricks, brackets and an axlehole plate
 0 Name: 10233 - Loco S32.ldr
@@ -1421,6 +1469,7 @@
 1 0 0 -24 -32 0 0 -1 -1 0 0 0 1 0 87079.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S33.ldr
 0 Grille brick with curved-top bricks and a grooved tile
 0 Name: 10233 - Loco S33.ldr
@@ -1438,6 +1487,7 @@
 1 0 0 -16 0 0 0 1 0 1 0 -1 0 0 3069b.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S35.ldr
 0 Locomotive roof plate with grille round bricks and a cutout wing
 0 Name: 10233 - Loco S35.ldr
@@ -1486,6 +1536,7 @@
 1 0 0 -16 -20 1 0 0 0 1 0 0 0 1 3068b.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S35 s04.ldr
 0 Bracket with grille slope bricks
 0 Name: 10233 - Loco S35 s04.ldr
@@ -1505,6 +1556,7 @@
 1 0 30 20 -14 -1 0 0 0 0 1 0 1 0 61409.dat
 
 
+0 STEP
 0 FILE 10233 - Loco S36.ldr
 0 Sloped underframe/roof plate with corner-round plates and a cutout slope
 0 Name: 10233 - Loco S36.ldr
@@ -1549,6 +1601,7 @@
 1 0 0 -32 40 -1 0 0 0 1 0 0 0 -1 87079.dat
 
 
+0 STEP
 0 FILE 10233 - Wagon 1.ldr
 0 Orange and white passenger wagon body on a 6x28 train base with seats, windows, grille bricks and interior details
 0 Name: 10233 - Wagon 1.ldr
@@ -1802,6 +1855,7 @@
 1 0 0 -128 -60 1 0 0 0 1 0 0 0 1 10233 - W1 S28.ldr
 
 
+0 STEP
 0 FILE 10233 - W1 S04.ldr
 0 Curved-top bracket detail with plates and a grooved tile
 0 Name: 10233 - W1 S04.ldr
@@ -1822,6 +1876,7 @@
 1 0 -2 22 -10 0 -1 0 0 0 1 -1 0 0 99780.dat
 
 
+0 STEP
 0 FILE 10233 - W1 S05.ldr
 0 Bracket with a square-corner panel
 0 Name: 10233 - W1 S05.ldr
@@ -1834,6 +1889,7 @@
 1 71 0 -2 38 -1 0 0 0 0 -1 0 -1 0 4865a.dat
 
 
+0 STEP
 0 FILE 10233 - W1 S06.ldr
 0 Bracket with a grooved tile
 0 Name: 10233 - W1 S06.ldr
@@ -1846,6 +1902,7 @@
 1 0 0 -8 0 1 0 0 0 1 0 0 0 1 3069b.dat
 
 
+0 STEP
 0 FILE 10233 - W1 S12.ldr
 0 Bogie/underframe detail with brackets, square-corner panels and grooved tiles
 0 Name: 10233 - W1 S12.ldr
@@ -1870,6 +1927,7 @@
 1 0 0 -20 32 0 0 -1 1 0 0 0 -1 0 3068b.dat
 
 
+0 STEP
 0 FILE 10233 - W1 S13.ldr
 0 Interior console with a monitor-patterned tile, grille brick and panels
 0 Name: 10233 - W1 S13.ldr
@@ -1897,6 +1955,7 @@
 1 15 -38 10 0 0 1 0 -1 0 0 0 0 1 63864.dat
 
 
+0 STEP
 0 FILE 10233 - W1 S14.ldr
 0 Reinforced panel group with bricks and a plate
 0 Name: 10233 - W1 S14.ldr
@@ -1916,6 +1975,7 @@
 1 0 20 -56 0 1 0 0 0 1 0 0 0 1 3623.dat
 
 
+0 STEP
 0 FILE 10233 - W1 S15.ldr
 0 Reinforced panel with a plate and a grooved tile
 0 Name: 10233 - W1 S15.ldr
@@ -1932,6 +1992,7 @@
 1 15 10 -80 0 -1 0 0 0 1 0 0 0 -1 63864.dat
 
 
+0 STEP
 0 FILE 10233 - W1 S17.ldr
 0 Window pair assembly with glass, plates and a grooved tile
 0 Name: 10233 - W1 S17.ldr
@@ -1964,6 +2025,7 @@
 1 0 0 -360 0 -1 0 0 0 1 0 0 0 -1 10233 - W1 S17 s06.ldr
 
 
+0 STEP
 0 FILE 10233 - W1 S17 s04.ldr
 0 Window sub-assembly with a headlight brick and a grooved tile
 0 Name: 10233 - W1 S17 s04.ldr
@@ -1983,6 +2045,7 @@
 1 0 -20 -22 0 0 1 0 -1 0 0 0 0 1 10233 - W1 S17 s04 s3.ldr
 
 
+0 STEP
 0 FILE 10233 - W1 S17 s04 s3.ldr
 0 Headlight brick with a grooved tile
 0 Name: 10233 - W1 S17 s04 s3.ldr
@@ -1995,6 +2058,7 @@
 1 0 -14 10 0 0 1 0 0 0 -1 -1 0 0 3070b.dat
 
 
+0 STEP
 0 FILE 10233 - W1 S17 s05.ldr
 0 Window with glass and a plate
 0 Name: 10233 - W1 S17 s05.ldr
@@ -2010,6 +2074,7 @@
 1 0 0 -8 0 -1 0 0 0 1 0 0 0 -1 3023.dat
 
 
+0 STEP
 0 FILE 10233 - W1 S17 s06.ldr
 0 Window with glass, grooved tiles and a headlight brick
 0 Name: 10233 - W1 S17 s06.ldr
@@ -2032,6 +2097,7 @@
 1 0 -10 -32 0 -1 0 0 0 1 0 0 0 -1 3070b.dat
 
 
+0 STEP
 0 FILE 10233 - W1 S18.ldr
 0 Window sub-assembly with a headlight brick and a grooved tile
 0 Name: 10233 - W1 S18.ldr
@@ -2061,6 +2127,7 @@
 1 0 244 -12 0 0 -1 0 -1 0 0 0 0 -1 10233 - W1 S18 s07.ldr
 
 
+0 STEP
 0 FILE 10233 - W1 S18 s03.ldr
 0 Headlight brick with a grooved tile
 0 Name: 10233 - W1 S18 s03.ldr
@@ -2073,6 +2140,7 @@
 1 0 -14 10 0 0 1 0 0 0 -1 -1 0 0 3070b.dat
 
 
+0 STEP
 0 FILE 10233 - W1 S18 s04.ldr
 0 Window with glass, a grooved tile and a plate
 0 Name: 10233 - W1 S18 s04.ldr
@@ -2091,6 +2159,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10233 - W1 S18 s05.ldr
 0 Window with glass and a plate
 0 Name: 10233 - W1 S18 s05.ldr
@@ -2106,6 +2175,7 @@
 1 0 0 -8 0 -1 0 0 0 1 0 0 0 -1 3023.dat
 
 
+0 STEP
 0 FILE 10233 - W1 S18 s06 s3.ldr
 0 Headlight brick with a grooved tile
 0 Name: 10233 - W1 S18 s06 s3.ldr
@@ -2118,6 +2188,7 @@
 1 0 -14 10 0 0 1 0 0 0 -1 -1 0 0 3070b.dat
 
 
+0 STEP
 0 FILE 10233 - W1 S18 s06.ldr
 0 Window sub-assembly with a headlight brick and a grooved tile
 0 Name: 10233 - W1 S18 s06.ldr
@@ -2137,6 +2208,7 @@
 1 0 20 -22 0 0 -1 0 -1 0 0 0 0 -1 10233 - W1 S18 s06 s3.ldr
 
 
+0 STEP
 0 FILE 10233 - W1 S18 s07.ldr
 0 Window group with glass, plates, grooved tiles and a headlight brick
 0 Name: 10233 - W1 S18 s07.ldr
@@ -2166,6 +2238,7 @@
 1 0 20 -26 0 0 -1 0 0 0 1 -1 0 0 4070.dat
 
 
+0 STEP
 0 FILE 10233 - W1 S19.ldr
 0 Wagon end/roof assembly with a cutout slope, slope plates and a curved wedge
 0 Name: 10233 - W1 S19.ldr
@@ -2225,6 +2298,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10233 - W1 S19 s07.ldr
 0 Two black 1x3 plates
 0 Name: 10233 - W1 S19 s07.ldr
@@ -2237,6 +2311,7 @@
 1 15 0 -8 0 1 0 0 0 1 0 0 0 1 3623.dat
 
 
+0 STEP
 0 FILE 10233 - W1 S20.ldr
 0 Window/door frame with clip plates, bricks and orange tiles
 0 Name: 10233 - W1 S20.ldr
@@ -2280,6 +2355,7 @@
 1 25 0 -104 0 0 0 -1 0 1 0 1 0 0 63864.dat
 
 
+0 STEP
 0 FILE 10233 - W1 S20 s03.ldr
 0 Plane window with glass
 0 Name: 10233 - W1 S20 s03.ldr
@@ -2292,6 +2368,7 @@
 1 47 0 0.5 1 1 0 0 0 1 0 0 0 1 60601.dat
 
 
+0 STEP
 0 FILE 10233 - W1 S21.ldr
 0 Window/door frame with clip plates, bricks and orange tiles
 0 Name: 10233 - W1 S21.ldr
@@ -2335,6 +2412,7 @@
 1 25 0 -104 0 0 0 -1 0 1 0 1 0 0 63864.dat
 
 
+0 STEP
 0 FILE 10233 - W1 S21 s03.ldr
 0 Plane window with glass
 0 Name: 10233 - W1 S21 s03.ldr
@@ -2347,6 +2425,7 @@
 1 47 0 0.5 1 1 0 0 0 1 0 0 0 1 60601.dat
 
 
+0 STEP
 0 FILE 10233 - W1 S22.ldr
 0 Long plate group with white plates
 0 Name: 10233 - W1 S22.ldr
@@ -2370,6 +2449,7 @@
 1 15 0 -8 80 0 0 1 0 1 0 -1 0 0 3460.dat
 
 
+0 STEP
 0 FILE 10233 - W1 S24.ldr
 0 Bogie/roof coupling assembly with technic bricks, pins and orange tiles
 0 Name: 10233 - W1 S24.ldr
@@ -2413,6 +2493,7 @@
 1 25 0 -40 -70 0 0 1 0 1 0 -1 0 0 3068b.dat
 
 
+0 STEP
 0 FILE 10233 - W1 S24 s03.ldr
 0 Wing sub-assembly with an orange wing, a grooved tile and a holed plate
 0 Name: 10233 - W1 S24 s03.ldr
@@ -2430,6 +2511,7 @@
 1 72 0 8 -10 0 0 1 0 1 0 -1 0 0 2444.dat
 
 
+0 STEP
 0 FILE 10233 - W1 S24 s04.ldr
 0 Wing sub-assembly with an orange wing, a grooved tile and a holed plate
 0 Name: 10233 - W1 S24 s04.ldr
@@ -2447,6 +2529,7 @@
 1 72 0 8 -10 0 0 1 0 1 0 -1 0 0 2444.dat
 
 
+0 STEP
 0 FILE 10233 - W1 S24 s05.ldr
 0 Roof segment with orange grille/tile detail and holed plates
 0 Name: 10233 - W1 S24 s05.ldr
@@ -2481,6 +2564,7 @@
 1 72 10 8 -80 0 0 1 0 1 0 -1 0 0 2444.dat
 
 
+0 STEP
 0 FILE 10233 - W1 S24 s06.ldr
 0 Roof segment with orange grille/tile detail and holed plates
 0 Name: 10233 - W1 S24 s06.ldr
@@ -2516,6 +2600,7 @@
 1 72 -10 8 -80 0 0 1 0 1 0 -1 0 0 2444.dat
 
 
+0 STEP
 0 FILE 10233 - W1 S24 s07.ldr
 0 Technic brick with friction pins and silver round plates
 0 Name: 10233 - W1 S24 s07.ldr
@@ -2542,6 +2627,7 @@
 1 0 20 10 10 0 0 1 0 1 0 -1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 10233 - W1 S25.ldr
 0 Buffer/bogie assembly with a buffer beam, bogie plate and wheel bogie
 0 Name: 10233 - W1 S25.ldr
@@ -2567,6 +2653,7 @@
 1 0 0 -8 0 0 0 1 0 1 0 -1 0 0 4092b.dat
 
 
+0 STEP
 0 FILE 10233 - W1 S25 s03.ldr
 0 Wheelset of two train wheels on a steel axle
 0 Name: 10233 - W1 S25 s03.ldr
@@ -2581,6 +2668,7 @@
 1 383 0 0 0 1 0 0 0 1 0 0 0 1 57877.dat
 
 
+0 STEP
 0 FILE 10233 - W1 S26.ldr
 0 Bogie assembly with brackets, curved-top bricks, wheel bogies and pins
 0 Name: 10233 - W1 S26.ldr
@@ -2640,6 +2728,7 @@
 1 71 0 -26 -110 0 0 1 -1 0 0 0 -1 0 3673.dat
 
 
+0 STEP
 0 FILE 10233 - W1 S26 s04.ldr
 0 Two holed plates
 0 Name: 10233 - W1 S26 s04.ldr
@@ -2652,6 +2741,7 @@
 1 72 0 -8 0 1 0 0 0 1 0 0 0 1 3176.dat
 
 
+0 STEP
 0 FILE 10233 - W1 S26 s05.ldr
 0 Reddish-brown plate with a centre-stud plate
 0 Name: 10233 - W1 S26 s05.ldr
@@ -2664,6 +2754,7 @@
 1 0 0 -8 0 1 0 0 0 1 0 0 0 1 3794a.dat
 
 
+0 STEP
 0 FILE 10233 - W1 S26 s06.ldr
 0 Grille tile with an offset-stud plate
 0 Name: 10233 - W1 S26 s06.ldr
@@ -2676,6 +2767,7 @@
 1 72 0 0 0 -1 0 0 0 1 0 0 0 -1 4590.dat
 
 
+0 STEP
 0 FILE 10233 - W1 S26 s07.ldr
 0 Wheelset of two train wheels on a steel axle
 0 Name: 10233 - W1 S26 s07.ldr
@@ -2690,6 +2782,7 @@
 1 383 0 0 0 1 0 0 0 1 0 0 0 1 57877.dat
 
 
+0 STEP
 0 FILE 10233 - W1 S28.ldr
 0 Curved roof segment with slope bricks, hinges, clips and a flex hose
 0 Name: 10233 - W1 S28.ldr
@@ -2788,6 +2881,7 @@
 1 0 0 -25.827 -179.239 1 0 0 0 0.924 0.383 0 -0.383 0.924 10233 - W1 S28 s08.ldr
 
 
+0 STEP
 0 FILE 10233 - W1 S28 s08.ldr
 0 Hose nozzle on a locking hinge arm
 0 Name: 10233 - W1 S28 s08.ldr
@@ -2800,6 +2894,7 @@
 1 0 0 0 0 -1 0 0 0 1 0 0 0 -1 30553.dat
 
 
+0 STEP
 0 FILE 10233 - Wagon 2.ldr
 0 Orange and white passenger/dining wagon body on a 6x28 train base with seats, windows, ogee arches and interior accessories
 0 Name: 10233 - Wagon 2.ldr
@@ -3063,6 +3158,7 @@
 1 0 0 -128 -40 1 0 0 0 1 0 0 0 1 10233 - W2 S27.ldr
 
 
+0 STEP
 0 FILE 10233 - W2 S12a.ldr
 0 Facetted gem in a round hollow-stud brick (lamp detail)
 0 Name: 10233 - W2 S12a.ldr
@@ -3075,6 +3171,7 @@
 1 47 0 -4 0 1 0 0 0 1 0 0 0 1 30153.dat
 
 
+0 STEP
 0 FILE 10233 - W2 S12b.ldr
 0 Handle plate with a tile
 0 Name: 10233 - W2 S12b.ldr
@@ -3087,6 +3184,7 @@
 1 15 -10 -8 0 1 0 0 0 1 0 0 0 1 63864.dat
 
 
+0 STEP
 0 FILE 10233 - W2 S13.ldr
 0 Cupboard unit with drawers and grille tiles
 0 Name: 10233 - W2 S13.ldr
@@ -3106,6 +3204,7 @@
 1 15 -20 -8 0 0 0 1 0 1 0 -1 0 0 2412b.dat
 
 
+0 STEP
 0 FILE 10233 - W2 S14.ldr
 0 Red table detail with a round brick, a cup and tiles
 0 Name: 10233 - W2 S14.ldr
@@ -3128,6 +3227,7 @@
 1 4 0 -48 0 -1 0 0 0 1 0 0 0 -1 3069b.dat
 
 
+0 STEP
 0 FILE 10233 - W2 S16.ldr
 0 Window pair assembly with glass, plates and a grooved tile
 0 Name: 10233 - W2 S16.ldr
@@ -3160,6 +3260,7 @@
 1 0 0 -360 0 -1 0 0 0 1 0 0 0 -1 10233 - W2 S16 S06.ldr
 
 
+0 STEP
 0 FILE 10233 - W2 S16 s04.ldr
 0 Window sub-assembly with a headlight brick and a grooved tile
 0 Name: 10233 - W2 S16 s04.ldr
@@ -3179,6 +3280,7 @@
 1 0 -20 -22 0 0 1 0 -1 0 0 0 0 1 10233 - W2 S16 S04 s3.ldr
 
 
+0 STEP
 0 FILE 10233 - W2 S16 S04 s3.ldr
 0 Headlight brick with a grooved tile
 0 Name: 10233 - W2 S16 S04 s3.ldr
@@ -3191,6 +3293,7 @@
 1 0 -14 10 0 0 1 0 0 0 -1 -1 0 0 3070b.dat
 
 
+0 STEP
 0 FILE 10233 - W2 S16 S05.ldr
 0 Window with glass and a plate
 0 Name: 10233 - W2 S16 S05.ldr
@@ -3206,6 +3309,7 @@
 1 0 0 -8 0 -1 0 0 0 1 0 0 0 -1 3023.dat
 
 
+0 STEP
 0 FILE 10233 - W2 S16 S06.ldr
 0 Window with glass, grooved tiles and a headlight brick
 0 Name: 10233 - W2 S16 S06.ldr
@@ -3228,6 +3332,7 @@
 1 0 -10 -32 0 -1 0 0 0 1 0 0 0 -1 3070b.dat
 
 
+0 STEP
 0 FILE 10233 - W2 S17.ldr
 0 Window pair assembly with glass, plates and a grooved tile
 0 Name: 10233 - W2 S17.ldr
@@ -3260,6 +3365,7 @@
 1 0 0 -360 0 1 0 0 0 1 0 0 0 1 10233 - W2 S17 S06.ldr
 
 
+0 STEP
 0 FILE 10233 - W2 S17 s04.ldr
 0 Window sub-assembly with a headlight brick and a grooved tile
 0 Name: 10233 - W2 S17 s04.ldr
@@ -3279,6 +3385,7 @@
 1 0 -20 -22 0 0 1 0 -1 0 0 0 0 1 10233 - W2 S17 S04 s3.ldr
 
 
+0 STEP
 0 FILE 10233 - W2 S17 S04 s3.ldr
 0 Headlight brick with a grooved tile
 0 Name: 10233 - W2 S17 S04 s3.ldr
@@ -3291,6 +3398,7 @@
 1 0 -14 10 0 0 1 0 0 0 -1 -1 0 0 3070b.dat
 
 
+0 STEP
 0 FILE 10233 - W2 S17 S05.ldr
 0 Window with glass and a plate
 0 Name: 10233 - W2 S17 S05.ldr
@@ -3306,6 +3414,7 @@
 1 0 0 -8 0 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 10233 - W2 S17 S06.ldr
 0 Window with glass, grooved tiles and a headlight brick
 0 Name: 10233 - W2 S17 S06.ldr
@@ -3328,6 +3437,7 @@
 1 0 10 -32 0 1 0 0 0 1 0 0 0 1 3070b.dat
 
 
+0 STEP
 0 FILE 10233 - W2 S18.ldr
 0 Curved roof segment with slope bricks and centre-stud plates
 0 Name: 10233 - W2 S18.ldr
@@ -3357,6 +3467,7 @@
 1 0 50 8 30 -1 0 0 0 1 0 0 0 -1 10233 - W2 S18 s04.ldr
 
 
+0 STEP
 0 FILE 10233 - W2 S18 s04.ldr
 0 Inverted slope brick with white plates
 0 Name: 10233 - W2 S18 s04.ldr
@@ -3371,6 +3482,7 @@
 1 0 0 32 0 0 0 -1 0 1 0 1 0 0 3024.dat
 
 
+0 STEP
 0 FILE 10233 - W2 S19.ldr
 0 Window/door frame with clip plates, bricks and orange tiles
 0 Name: 10233 - W2 S19.ldr
@@ -3414,6 +3526,7 @@
 1 25 0 -104 0 0 0 -1 0 1 0 1 0 0 63864.dat
 
 
+0 STEP
 0 FILE 10233 - W2 S19 s03.ldr
 0 Plane window with glass
 0 Name: 10233 - W2 S19 s03.ldr
@@ -3426,6 +3539,7 @@
 1 47 0 0.5 1 1 0 0 0 1 0 0 0 1 60601.dat
 
 
+0 STEP
 0 FILE 10233 - W2 S20 s03.ldr
 0 Plane window with glass
 0 Name: 10233 - W2 S20 s03.ldr
@@ -3438,6 +3552,7 @@
 1 47 0 0.5 1 1 0 0 0 1 0 0 0 1 60601.dat
 
 
+0 STEP
 0 FILE 10233 - W2 S20.ldr
 0 Window/door frame with clip plates, bricks and orange tiles
 0 Name: 10233 - W2 S20.ldr
@@ -3481,6 +3596,7 @@
 1 25 0 -104 0 0 0 -1 0 1 0 1 0 0 63864.dat
 
 
+0 STEP
 0 FILE 10233 - W2 S21.ldr
 0 Long plate group with white plates
 0 Name: 10233 - W2 S21.ldr
@@ -3500,6 +3616,7 @@
 1 15 0 -8 -120 0 0 1 0 1 0 -1 0 0 60479.dat
 
 
+0 STEP
 0 FILE 10233 - W2 S23 s07.ldr
 0 Technic brick with friction pins and silver round plates
 0 Name: 10233 - W2 S23 s07.ldr
@@ -3526,6 +3643,7 @@
 1 0 20 10 10 0 0 1 0 1 0 -1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 10233 - W2 S23 s06.ldr
 0 Roof segment with orange grille/tile detail and holed plates
 0 Name: 10233 - W2 S23 s06.ldr
@@ -3561,6 +3679,7 @@
 1 72 -10 8 -80 0 0 1 0 1 0 -1 0 0 2444.dat
 
 
+0 STEP
 0 FILE 10233 - W2 S23 s05.ldr
 0 Roof segment with orange grille/tile detail and holed plates
 0 Name: 10233 - W2 S23 s05.ldr
@@ -3595,6 +3714,7 @@
 1 72 10 8 -80 0 0 1 0 1 0 -1 0 0 2444.dat
 
 
+0 STEP
 0 FILE 10233 - W2 S23 s04.ldr
 0 Wing sub-assembly with an orange wing, a grooved tile and a holed plate
 0 Name: 10233 - W2 S23 s04.ldr
@@ -3612,6 +3732,7 @@
 1 72 0 8 -10 0 0 1 0 1 0 -1 0 0 2444.dat
 
 
+0 STEP
 0 FILE 10233 - W2 S23 s03.ldr
 0 Wing sub-assembly with an orange wing, a grooved tile and a holed plate
 0 Name: 10233 - W2 S23 s03.ldr
@@ -3629,6 +3750,7 @@
 1 72 0 8 -10 0 0 1 0 1 0 -1 0 0 2444.dat
 
 
+0 STEP
 0 FILE 10233 - W2 S23.ldr
 0 Bogie/roof coupling assembly with technic bricks, pins and orange tiles
 0 Name: 10233 - W2 S23.ldr
@@ -3672,6 +3794,7 @@
 1 25 0 -40 -70 0 0 1 0 1 0 -1 0 0 3068b.dat
 
 
+0 STEP
 0 FILE 10233 - W2 S24 s03.ldr
 0 Wheelset of two train wheels on a steel axle
 0 Name: 10233 - W2 S24 s03.ldr
@@ -3686,6 +3809,7 @@
 1 383 0 0 0 1 0 0 0 1 0 0 0 1 57877.dat
 
 
+0 STEP
 0 FILE 10233 - W2 S24.ldr
 0 Buffer/bogie assembly with a buffer beam, bogie plate and wheel bogie
 0 Name: 10233 - W2 S24.ldr
@@ -3711,6 +3835,7 @@
 1 0 0 -8 0 0 0 1 0 1 0 -1 0 0 4092b.dat
 
 
+0 STEP
 0 FILE 10233 - W2 S26.ldr
 0 Hinge assembly with a hose nozzle for a pipe/hose detail
 0 Name: 10233 - W2 S26.ldr
@@ -3726,6 +3851,7 @@
 1 0 0 -7.925 16.004 -1 0 0 0 0.924 0.383 0 0.383 -0.924 60849.dat
 
 
+0 STEP
 0 FILE 10233 - W2 S27.ldr
 0 Large curved roof segment with slope bricks, plates, hinges, clips and a flex hose
 0 Name: 10233 - W2 S27.ldr
@@ -3812,6 +3938,7 @@
 1 0 0 -25.827 -199.239 1 0 0 0 0.924 0.383 0 -0.383 0.924 10233 - W2 S27 s08.ldr
 
 
+0 STEP
 0 FILE 10233 - W2 S27 s08.ldr
 0 Hose nozzle on a locking hinge arm
 0 Name: 10233 - W2 S27 s08.ldr
@@ -3824,6 +3951,7 @@
 1 0 0 0 0 -1 0 0 0 1 0 0 0 -1 30553.dat
 
 
+0 STEP
 0 FILE 10233 - M Woman 2.ldr
 0 Female passenger minifigure with tousled tan hair, a blue buttoned-shirt torso and black legs
 0 Name: 10233 - M Woman 2.ldr
@@ -3852,6 +3980,7 @@
 1 0 0 44 0 1 0 0 0 1 0 0 0 1 3817b.dat
 
 
+0 STEP
 0 FILE 10233 - M Stewart.ldr
 0 Train conductor minifigure with a dark-red cap, a dark-blue suit torso and dark-blue legs
 0 Name: 10233 - M Stewart.ldr
@@ -3881,6 +4010,7 @@
 
 
 
+0 STEP
 0 FILE 10233 - M Driver.ldr
 0 Female train driver minifigure with a braided-ponytail hairpiece, an orange safety-vest torso and light-bluish-grey legs
 0 Name: 10233 - M Driver.ldr
@@ -3910,6 +4040,7 @@
 
 
 
+0 STEP
 0 FILE 10233 - M Woman 1.ldr
 0 Female passenger minifigure with a black bob-cut hairpiece, a lilac torso and white legs
 0 Name: 10233 - M Woman 1.ldr
@@ -3939,6 +4070,7 @@
 
 
 
+0 STEP
 0 FILE 10233 - M Man 1.ldr
 0 Male passenger minifigure with tousled brown hair, a green sweater torso and dark-brown legs
 0 Name: 10233 - M Man 1.ldr
@@ -3968,6 +4100,7 @@
 
 
 
+0 STEP
 0 FILE 10233 - M Man 2.ldr
 0 Male passenger minifigure with grey hair, a pinstripe-vest torso and dark-bluish-grey legs
 0 Name: 10233 - M Man 2.ldr
@@ -3997,6 +4130,7 @@
 
 
 
+0 STEP
 0 FILE 10233 - 91994.dat
 0 Train Buffer Beam with Open Buffer Bottom with Sealed Magnet (Type 2) (Complete)
 0 Name: 10233 - 91994.dat
@@ -4012,6 +4146,7 @@
 1 16 0 0 -30 1 0 0 0 1 0 0 0 1 64417c01.dat
 
 
+0 STEP
 0 FILE 10233 - 91968c01.dat
 0 Train Buffer Beam with Open Buffer Bottom for Sealed Magnet with Screw (Type 2)
 0 Name: 10233 - 91968c01.dat
@@ -4026,6 +4161,7 @@
 1 494 0 35 -30 -1 0 0 0 -1 0 0 0 1 10233 - u9389.dat
 
 
+0 STEP
 0 FILE 10233 - 91968.dat
 0 ~Train Buffer Beam with Open Buffer Bottom for Sealed Magnet (Type 2)
 0 Name: 10233 - 91968.dat
@@ -4085,6 +4221,7 @@
 5 24 -9.239 38 -26.173 -9.239 30 -26.173 -7.9 38 -24 -10 38 -30
 
 
+0 STEP
 0 FILE s\10233 - 64424s01.dat
 0 ~Train Buffer Beam with Sealed Magnet, Centre Part
 0 Name: s\10233 - 64424s01.dat
@@ -4174,6 +4311,7 @@
 4 16 -2.5 8 -27.5 -2.5 8 -32.5 -20 8 -34 -17 8 -24
 
 
+0 STEP
 0 FILE s\10233 - 64424s02.dat
 0 ~Train Buffer Beam with Sealed Magnet, Single Buffer For Type  1 and Type  2 Buffer
 0 Name: s\10233 - 64424s02.dat
@@ -4216,6 +4354,7 @@
 1 16 -57 17 -25 0 -1 0 7 0 0 0 0 5 rect.dat
 
 
+0 STEP
 0 FILE s\10233 - 64424s03.dat
 0 ~Train Buffer Beam with Sealed Magnet, Single Buffer Common Geometry
 0 Name: s\10233 - 64424s03.dat
@@ -4325,6 +4464,7 @@
 2 24 -20 8 -20 -16 8 -20
 
 
+0 STEP
 0 FILE 10233 - u9389.dat
 0 ~Bolt 36 x 5
 0 Name: 10233 - u9389.dat

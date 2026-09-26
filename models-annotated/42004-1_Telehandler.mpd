@@ -314,6 +314,7 @@
 1 71 -30 -39.653 -305.256 -1 0 0 0 -0.81 0.586 0 0.586 0.81 4274.dat
 
 
+0 STEP
 0 FILE 42004 - SubModel1.ldr
 0 Compact linkage assembly using short liftarms, an axle 7, a cross block, and pin stops.
 0 Name: 42004 - SubModel1.ldr
@@ -349,6 +350,7 @@
 1 0 40 -20 40 -1 0 0 0 0 -1 0 -1 0 60483.dat
 0 STEP
 
+0 STEP
 0 FILE 42004 - Rear steering.ldr
 0 Rear steering mechanism with bent liftarms, axles with stops, bushes, and cross blocks forming a steerable axle.
 0 Name: 42004 - Rear steering.ldr
@@ -395,6 +397,7 @@
 0 // Technic Pin with Friction and Slots (black)
 1 0 100 -10 20 0 -1 0 -1 0 0 0 0 -1 2780.dat
 
+0 STEP
 0 FILE 42004 - SubModel2.ldr
 0 Small connector subassembly built from angle connectors, a cross block, and axles.
 0 Name: 42004 - SubModel2.ldr
@@ -419,6 +422,7 @@
 0 // Technic Cross Block 1 x 2 (Axle/Pin) (yellow)
 1 14 -20 0 -40 -1 0 0 0 0 1 0 1 0 6536.dat
 
+0 STEP
 0 FILE 42004 - Arm lever.ldr
 0 Articulated lever mechanism using thin liftarms, half bushes, an 8-tooth gear, and a long axle.
 0 Name: 42004 - Arm lever.ldr
@@ -455,6 +459,7 @@
 0 // Technic Bush  1/2 Smooth with Axle Hole Reduced (yellow)
 1 14 -45 0 60 0 0 -1 0 -1 0 -1 0 0 32123a.dat
 
+0 STEP
 0 FILE 42004 - Arm.ldr
 0 Telescoping lifting arm constructed from long beams and bent liftarms joined by friction pins.
 0 Name: 42004 - Arm.ldr
@@ -496,6 +501,7 @@
 0 // Technic Beam 11 (black)
 1 0 40 0 160 0 -1 0 -1 0 0 0 0 -1 32525.dat
 
+0 STEP
 0 FILE 42004 - Cabin.ldr
 0 Operator cabin frame with curved quarter-ellipse liftarms, a steering wheel, and assorted thin beams.
 0 Name: 42004 - Cabin.ldr

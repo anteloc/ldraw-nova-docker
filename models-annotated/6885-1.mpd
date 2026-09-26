@@ -11,6 +11,7 @@
 1 0 220 45 230 0 0 -1 0 1 0 1 0 0 6885 - Pod + Droid.ldr
 
 
+0 STEP
 0 FILE 6885 - Vehicle.ldr
 0 An articulated six-wheeled space vehicle combining a front cab section and a rear cargo base with wheels.
 0 Name: 6885 - Vehicle.ldr
@@ -24,6 +25,7 @@
 1 0 0 -16 100 0.92388 0 0.382683 0 1 0 -0.382683 0 0.92388 6885 - Vehicle - Back.ldr
 
 
+0 STEP
 0 FILE 6885 - Vehicle - Front.ldr
 0 The front cab section built from white and black plates, hinges, and decorative elements like trans-red cones and white loudhailers serving as exhausts or antennae.
 0 Name: 6885 - Vehicle - Front.ldr
@@ -103,6 +105,7 @@
 1 256 -50 18 0 0 0 1 0 1 0 -1 0 0 2346.dat
 
 
+0 STEP
 0 FILE 6885 - Vehicle - Front + Minifig.ldr
 0 The front cab section assembled together with the space-suited minifig driver seated inside.
 0 Name: 6885 - Vehicle - Front + Minifig.ldr
@@ -116,6 +119,7 @@
 1 0 0 -69 -12 1 0 0 0 1 0 0 0 1 6885 - Minifig.ldr
 
 
+0 STEP
 0 FILE 6885 - Vehicle - Back.ldr
 0 The rear section featuring a large white base plate, corner bricks, a male hinge joint, and two rubber-tyred wheels, forming the cargo-carrying platform of the vehicle.
 0 Name: 6885 - Vehicle - Back.ldr
@@ -163,6 +167,7 @@
 0 // Tyre 10/130 x 17 Offset Tread (rubber_black)
 1 256 -70 18 120 0 0 1 0 1 0 -1 0 0 3634.dat
 
+0 STEP
 0 FILE 6885 - Vehicle - Back - Container.ldr
 0 A cargo container mounted on the rear vehicle section, built from separate bottom and top halves with concave and convex corner panels.
 0 Name: 6885 - Vehicle - Back - Container.ldr
@@ -173,6 +178,7 @@
 1 0 0 0 0 0 0 1 -1 0 0 0 -1 0 6885 - Vehicle - Back - Container - Bottom.ldr
 1 0 0 -30 148 0 0 1 1 0 0 0 1 0 6885 - Vehicle - Back - Container - Top.ldr
 
+0 STEP
 0 FILE 6885 - Vehicle - Back - Container - Bottom.ldr
 0 The lower half of the cargo container, constructed from white plates, concave corner panels, headlight bricks, and trans-red round plates.
 0 Name: 6885 - Vehicle - Back - Container - Bottom.ldr
@@ -232,6 +238,7 @@
 1 0 10 8 0 0 0 1 0 1 0 -1 0 0 4590.dat
 
 
+0 STEP
 0 FILE 6885 - Vehicle - Back - Container - Top.ldr
 0 The hinged lid of the cargo container, featuring trans-dark-blue convex corner panels and a handle tile for opening.
 0 Name: 6885 - Vehicle - Back - Container - Top.ldr
@@ -251,6 +258,7 @@
 1 15 -20 -172 0 0 0 1 0 1 0 -1 0 0 2432.dat
 
 
+0 STEP
 0 FILE 6885 - Pod.ldr
 0 A small scout pod built on a white wing element and bracket, with control sticks, a trans-red light, and black cones forming thrusters or sensors.
 0 Name: 6885 - Pod.ldr
@@ -282,6 +290,7 @@
 1 0 -30 -32 30 1 0 0 0 1 0 0 0 1 4589.dat
 
 
+0 STEP
 0 FILE 6885 - Droid.ldr
 0 A small blue-colored droid figure assembled from blue bricks, a computer-patterned tile, control stick parts, and spout taps.
 0 Name: 6885 - Droid.ldr
@@ -309,6 +318,7 @@
 1 1 -20 -18 0 0 0 1 0 1 0 -1 0 0 4599a.dat
 
 
+0 STEP
 0 FILE 6885 - Pod + Droid.ldr
 0 The assembled scout pod with the blue droid placed inside it.
 0 Name: 6885 - Pod + Droid.ldr
@@ -322,6 +332,7 @@
 1 0 0 -24 -10 1 0 0 0 1 0 0 0 1 6885 - Droid.ldr
 
 
+0 STEP
 0 FILE 6885 - Minifig.ldr
 0 A Futuron space minifig with a white torso pattern, black airtanks, arms, hands, hips, and legs, plus a yellow head.
 0 Name: 6885 - Minifig.ldr
@@ -354,6 +365,7 @@
 1 0 21.566 10.146 -15.111 0.985 0.169871 0.00593202 -0.167417 0.963239 0.207365 0.0295202 -0.205278 0.978091 3820.dat
 
 
+0 STEP
 0 FILE 6885 - Minifig - Helmet.ldr
 0 A black standard space helmet paired with a trans-dark-blue visor.
 0 Name: 6885 - Minifig - Helmet.ldr

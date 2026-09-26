@@ -13,6 +13,7 @@
 1 0 0 -59.51 152.574 1 0 0 0 0.965926 0.258819 0 -0.258819 0.965926 6870 - Spacecraft.ldr
 1 0 0 -50.123 191.47 1 0 0 0 0.965926 0.258819 0 -0.258819 0.965926 6870 - Minifig.ldr
 
+0 STEP
 0 FILE 6870 - Traktor.ldr
 0 A light grey wheeled tractor tug with steering, positioning rockets, an antenna, and a hinged articulation joint for towing.
 0 Name: 6870 - Traktor.ldr
@@ -65,6 +66,7 @@
 0 // Antenna  4H with Rounded Top (light_grey)
 1 7 -30 -56 -30 0 0 -1 0 1 0 1 0 0 3957a.dat
 
+0 STEP
 0 FILE 6870 - Trailer.ldr
 0 A light grey articulated trailer with red-wheeled axle pairs and a hinged pivot for connecting to and tilting the load bed.
 0 Name: 6870 - Trailer.ldr
@@ -100,6 +102,7 @@
 0 // Tile  2 x  2 with Groove (light_grey)
 1 7 0 -16 80 0 0 1 0 1 0 -1 0 0 3068b.dat
 
+0 STEP
 0 FILE 6870 - Trailer - Launch Ramp.ldr
 0 A hinged light grey launch ramp section using a long plate and tiles that can be raised to deploy the carried spacecraft.
 0 Name: 6870 - Trailer - Launch Ramp.ldr
@@ -124,6 +127,7 @@
 0 // Tile  2 x  2 with Groove (light_grey)
 1 7 0 -26 -110 0 0 1 0 1 0 -1 0 0 3068b.dat
 
+0 STEP
 0 FILE 6870 - Spacecraft.ldr
 0 A white classic space spacecraft with large wings, angled nose slopes, rockets, thrusters, and the Classic Space logo pattern on its hull.
 0 Name: 6870 - Spacecraft.ldr
@@ -183,6 +187,7 @@
 0 // Slope Brick 33  3 x  2 with Classic Space Logo Pattern (white)
 1 15 0 -24 -10 1 0 0 0 1 0 0 0 1 3298p90.dat
 
+0 STEP
 0 FILE 6870 - Minifig.ldr
 0 A red classic space minifigure with helmet, airtanks, and classic space torso pattern.
 0 Name: 6870 - Minifig.ldr

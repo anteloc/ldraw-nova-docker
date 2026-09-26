@@ -157,6 +157,7 @@
 0 // Technic Pin Towball with Friction (light_bluish_grey)
 1 71 0 -178 20 0 1 0 1 0 0 0 0 -1 6628.dat
 
+0 STEP
 0 FILE 30029 - Arm.ldr
 0 A small articulated arm made from a technic brick with hole, a round hollow-stud brick, and a round plate.
 0 Name: 30029 - Arm.ldr
@@ -170,6 +171,7 @@
 0 // Plate  1 x  1 Round (yellow)
 1 14 0 0 -32 0 0 1 1 0 0 0 1 0 6141.dat
 
+0 STEP
 0 FILE 30029 - Leg.ldr
 0 A movable leg assembly using a white hinge top, a round brick, and round tiles for a foot.
 0 Name: 30029 - Leg.ldr
@@ -185,6 +187,7 @@
 0 // Tile  2 x  2 Round with Cross Underside Stud (yellow)
 1 14 10 0 -40 0 0 1 1 0 0 0 1 0 4150.dat
 
+0 STEP
 0 FILE 30029 - Ear.ldr
 0 A small tapered ear built from sloped bricks and plates on a white handle base.
 0 Name: 30029 - Ear.ldr

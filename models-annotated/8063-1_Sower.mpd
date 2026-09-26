@@ -7,6 +7,7 @@
 0 STEP
 1 71 60 60 390 1 0 0 0 1 0 0 0 1 8063 - Sowing Machine.ldr
 
+0 STEP
 0 FILE 8063 - Tractor.ldr
 0 Sturdy Technic tractor chassis built from liftarms, beams, pins, and axles forming the vehicle's main frame.
 0 Name: 8063 - Tractor.ldr
@@ -1167,6 +1168,7 @@
 1 256 -113 20 60 0 0 1 -1 0 0 0 -1 0 54120.dat
 
 
+0 STEP
 0 FILE 8063 - Seat.ldr
 0 Small blue liftarm and axle assembly forming the tractor's operator seat.
 0 Name: 8063 - Seat.ldr
@@ -1213,6 +1215,7 @@
 
 
 
+0 STEP
 0 FILE 8063 - Differential.ldr
 0 Differential gear assembly with bevel gears and a 16/24 tooth differential casing for the drivetrain.
 0 Name: 8063 - Differential.ldr
@@ -1277,6 +1280,7 @@
 
 
 
+0 STEP
 0 FILE 8063 - Wheel Hub.ldr
 0 Wheel hub assembly combining cross blocks, liftarms, and axles to mount the wheels.
 0 Name: 8063 - Wheel Hub.ldr
@@ -1321,6 +1325,7 @@
 
 
 
+0 STEP
 0 FILE 8063 - Engine.ldr
 0 Inline four-cylinder Technic engine with crankshafts, pistons, and cylinder heads.
 0 Name: 8063 - Engine.ldr
@@ -1440,6 +1445,7 @@
 
 
 
+0 STEP
 0 FILE 8063 - Steering.ldr
 0 Steering linkage assembly using long beams, cross blocks, and bushes to control the front wheels.
 0 Name: 8063 - Steering.ldr
@@ -1550,6 +1556,7 @@
 
 
 
+0 STEP
 0 FILE 8063 - technicFlexAxle-1.ldr
 0 Flexible Technic axle approximately 116 mm long, rendered as 48 connected segments.
 0 Author: LDCad
@@ -4245,6 +4252,7 @@
 5 24 -230 -112.8284 -2.8284 -226.444489 -112.8284 -2.8284 -230 -113.695602 -1.5308 -230 -111.5308 -3.6956
 5 24 -230 -113.695602 -1.5308 -226.444473 -113.695602 -1.5308 -230 -114 0 -230 -112.8284 -2.8284
 
+0 STEP
 0 FILE 8063 - rigid3mmHose-1.ldr
 0 Rigid 3 mm hose approximately 96 mm long, made of 8 straight segments with end caps.
 0 Name: 8063 - rigid3mmHose-1.ldr
@@ -4819,6 +4827,7 @@
 5 24 1.689321 -1.441016 239.999832 1.688836 -1.440968 237.998901 2.122921 -0.792216 239.999832 1.040521 -1.874616 239.999832
 5 24 2.122921 -0.792216 239.999832 2.122436 -0.792168 237.998672 2.275121 -0.026816 239.999832 1.689321 -1.441016 239.999832
 
+0 STEP
 0 FILE 8063 - technicFlexAxle-2.ldr
 0 Flexible Technic axle approximately 87 mm long, rendered as 33 connected segments.
 0 Author: LDCad
@@ -7122,6 +7131,7 @@
 5 24 -3.86772 -206.768784 6.614311 -3.713309 -203.203873 7.570422 -4.719574 -206.395721 5.360926 -2.581048 -207.049164 7.451962
 5 24 -4.719574 -206.395721 5.360926 -4.565164 -202.830811 6.317036 -5.006545 -205.986725 3.882286 -3.86772 -206.768784 6.614311
 
+0 STEP
 0 FILE 8063 - technicFlexAxle-3.ldr
 0 Flexible Technic axle approximately 108 mm long, rendered as 62 connected segments.
 0 Author: LDCad
@@ -10293,6 +10303,7 @@
 5 24 158.381989 -167.525436 -2.8284 154.763184 -167.525436 -2.8284 158.381989 -166.658234 -1.5308 158.381989 -168.823029 -3.6956
 5 24 158.381989 -166.658234 -1.5308 154.763184 -166.658234 -1.5308 158.381989 -166.353836 0 158.381989 -167.525436 -2.8284
 
+0 STEP
 0 FILE 8063 - technicFlexAxle-4.ldr
 0 Flexible Technic axle approximately 97 mm long, rendered as 36 connected segments.
 0 Author: LDCad
@@ -12580,6 +12591,7 @@
 5 24 -13.224896 -232.657364 57.987869 -12.750862 -229.481735 56.186825 -12.279232 -232.15387 59.12278 -14.567355 -232.889847 57.226582
 5 24 -12.279232 -232.15387 59.12278 -11.805492 -228.980209 57.322849 -11.874681 -231.455795 60.458832 -13.224896 -232.657364 57.987869
 
+0 STEP
 0 FILE 8063 - minifigChain-1.ldr
 0 Chain of 21 connected minifig chain links spanning approximately 117 mm.
 0 Name: 8063 - minifigChain-1.ldr
@@ -12653,6 +12665,7 @@
 1 16 10.98222 -1.044084 120 -0.004014 0.999992 0 -0.999992 -0.004014 0 0 0 1 30104k02.dat
 
 
+0 STEP
 0 FILE 8063 - Chain.ldr
 0 Pair of dark bluish grey chain end pieces for terminating a minifig chain.
 0 Name: 8063 - Chain.ldr
@@ -12667,6 +12680,7 @@
 
 
 
+0 STEP
 0 FILE 8063 - 33299a.dat
 0 Technic liftarm with boss and pin modeled from axle holes, peg holes, rings, and discs.
 0 Name: 8063 - 33299a.dat
@@ -12701,6 +12715,7 @@
 4 16 -9 10 35.662 -8 10 36.662 -8 10 32 -9 10 32
 
 
+0 STEP
 0 FILE s\8063 - 33299s01.dat
 0 Subpart of the bossed liftarm pin built from primitive cylinders, rings, and circles forming the common geometry.
 0 Name: s\8063 - 33299s01.dat
@@ -12972,6 +12987,7 @@
 5 24 4.9497 10 35.0503 4.9498 0 35.0502 6 0 36.662 2.6788 10 33.5327
 
 
+0 STEP
 0 FILE 8063 - Sowing Machine.ldr
 0 Sowing machine implement featuring a linear actuator, gears, and bent liftarms for the seeding mechanism.
 0 Name: 8063 - Sowing Machine.ldr
@@ -13379,6 +13395,7 @@
 0 // Tyre 20/ 64 x 37 S (rubber_black)
 1 256 -310 0 330 0 0 1 1 0 0 0 1 0 32019.dat
 
+0 STEP
 0 FILE 8063 - Attach Mechanism.ldr
 0 Hitch assembly of liftarms and cross blocks that connects the sowing machine to the tractor.
 0 Name: 8063 - Attach Mechanism.ldr
@@ -13458,6 +13475,7 @@
 0 // Technic Pin with Friction and Slots (black)
 1 0 -50 -40 20 -1 0 0 0 -1 0 0 0 1 2780.dat
 
+0 STEP
 0 FILE 8063 - Sowing Container.ldr
 0 Green-paneled seed container with support beams and translucent red and orange round plates.
 0 Name: 8063 - Sowing Container.ldr
@@ -13588,6 +13606,7 @@
 1 36 190 40 240 0 1 0 0 0 1 1 0 0 6141.dat
 0 STEP
 
+0 STEP
 0 FILE 8063 - Sewing Container Top.ldr
 0 Green-paneled lid for the seed container featuring support beams and warning-striped tiles.
 0 Name: 8063 - Sewing Container Top.ldr

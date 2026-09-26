@@ -419,6 +419,7 @@
 1 70 0 0 0 1 0 0 0 1 0 0 0 1 10281 - step86-103.ldr
 
 
+0 STEP
 0 FILE 10281 - step13.ldr
 0 Small display element combining a technic beam, pin plate, and slick tyre likely forming a hidden support or display stand.
 0 Name: 10281 - step13.ldr
@@ -434,6 +435,7 @@
 1 0 0 23 0 0 1 0 -1 0 0 0 0 1 30028.dat
 
 
+0 STEP
 0 FILE 10281 - step1-13.ldr
 0 Large structural foundation using dark tan plates, a turntable base, side-stud bricks, and black curved slope tiles to form the bonsai pot and base assembly.
 0 Name: 10281 - step1-13.ldr
@@ -637,6 +639,7 @@
 1 0 -80 16 120 0 0 1 0 1 0 -1 0 0 10281 - step13.ldr
 
 
+0 STEP
 0 FILE 10281 - step14-54.ldr
 0 Trunk base section built from brown and tan plates, brackets, and slopes including an animal tail piece to add organic shaping detail.
 0 Name: 10281 - step14-54.ldr
@@ -702,6 +705,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10281 - step20-25.ldr
 0 Branch structure using inverted arches, rectangular shield pieces, and curved slopes in brown tones to shape an angled limb joint.
 0 Name: 10281 - step20-25.ldr
@@ -737,6 +741,7 @@
 1 70 -60 -8 0 0 1 0 0 0 1 1 0 0 10281 - 30166.dat
 
 
+0 STEP
 0 FILE 10281 - step22.ldr
 0 Small connector assembly of brackets and round plates used to attach a branch element.
 0 Name: 10281 - step22.ldr
@@ -758,6 +763,7 @@
 1 308 0 -12 -30 0 0 -1 -1 0 0 0 1 0 4032a.dat
 
 
+0 STEP
 0 FILE 10281 - step27.ldr
 0 Left-side branch substructure using a left wing piece, quarter-circle cutout plates, brackets, and curved slopes in reddish and dark brown.
 0 Name: 10281 - step27.ldr
@@ -787,6 +793,7 @@
 1 308 60 -16 30 0 0 1 0 1 0 -1 0 0 11477.dat
 
 
+0 STEP
 0 FILE 10281 - step28.ldr
 0 Right-side branch substructure mirroring the left, using a right wing piece, quarter-circle cutout plates, brackets, and curved slopes.
 0 Name: 10281 - step28.ldr
@@ -816,6 +823,7 @@
 1 308 -60 -16 30 0 0 -1 0 1 0 1 0 0 11477.dat
 
 
+0 STEP
 0 FILE 10281 - step29-41.ldr
 0 Articulated branch section built from hinge plates, technic bricks with axleholes, vertical bar plates, and an animal frog piece for decorative detail.
 0 Name: 10281 - step29-41.ldr
@@ -896,6 +904,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10281 - step33.ldr
 0 Decorative joint using ogee arches and a chamfered tile to form an organic connecting detail on a branch.
 0 Name: 10281 - step33.ldr
@@ -912,6 +921,7 @@
 1 70 -10 0 0 1 0 0 0 1 0 0 0 1 88292.dat
 
 
+0 STEP
 0 FILE 10281 - step41.ldr
 0 Branch tip detail attaching a cow horn element via a clip plate and connector plate.
 0 Name: 10281 - step41.ldr
@@ -928,6 +938,7 @@
 1 70 4 -6 -20 -1 0 0 0 0 -1 0 -1 0 13564.dat
 
 
+0 STEP
 0 FILE 10281 - step44-48.ldr
 0 Curved branch section composed of long plates and assorted curved slope pieces in brown tones to shape a tapering limb.
 0 Name: 10281 - step44-48.ldr
@@ -956,6 +967,7 @@
 1 308 10 -32 20 0 0 1 0 1 0 -1 0 0 60477.dat
 
 
+0 STEP
 0 FILE 10281 - step50.ldr
 0 Pivot joint using a red notched axle and a round curved brick to enable rotation of a branch element.
 0 Name: 10281 - step50.ldr
@@ -969,6 +981,7 @@
 1 70 0 0 0 0 -1 0 1 0 0 0 0 1 10281 - 65473.dat
 
 
+0 STEP
 0 FILE 10281 - flex-cable2.ldr
 0 Generated flexible cable element approximating a 152 mm bent tube used as a curved structural detail.
 0 Name: 10281 - flex-cable2.ldr
@@ -4780,6 +4793,7 @@
 5 24 22.310688 -208.63829 -60.03072 22.19383 -209.658386 -56.104462 22.500999 -209.561493 -60.281216 21.768633 -207.855728 -59.818394
 
 
+0 STEP
 0 FILE 10281 - flex-cable.ldr
 0 Generated flexible cable element approximating a 146 mm bent tube used as a curved structural detail.
 0 Name: 10281 - flex-cable.ldr
@@ -7809,6 +7823,7 @@
 5 24 -37.689312 -215.55928 -53.62072 -37.738304 -216.576462 -49.853676 -37.499001 -216.482498 -53.871216 -38.231365 -214.776733 -53.408394
 
 
+0 STEP
 0 FILE 10281 - step53.ldr
 0 Branch tip detail combining a mechanical arm piece with an animal tail to form an organic twig end.
 0 Name: 10281 - step53.ldr
@@ -7822,6 +7837,7 @@
 1 308 -38 -17.5 4 1 0 0 0 1 0 0 0 1 43892.dat
 
 
+0 STEP
 0 FILE 10281 - step77-84.ldr
 0 Branch joint assembly using technic bricks, axle pins, clip plates, brackets, and a mechanical arm to connect an angled limb.
 0 Name: 10281 - step77-84.ldr
@@ -7867,6 +7883,7 @@
 1 70 0 -86 -12.5 1 0 0 0 1 0 0 0 1 10281 - step84-3.ldr
 
 
+0 STEP
 0 FILE 10281 - step84-1.ldr
 0 Blossom cluster decoration using white leaves, dark pink flowers, bright pink frogs, and a handlebar piece to form a flowering branch tip.
 0 Name: 10281 - step84-1.ldr
@@ -7932,6 +7949,7 @@
 1 5 83.956 -13.542 0.471 0.866 0 -0.5 0 1 0 0.5 0 0.866 32606.dat
 
 
+0 STEP
 0 FILE 10281 - step85-1.ldr
 0 Branch joint assembly using technic bricks, axle pins, clip plates, a green round plate, and a mechanical arm to attach a foliage-bearing branch.
 0 Name: 10281 - step85-1.ldr
@@ -7973,6 +7991,7 @@
 1 70 -30 -44 0 -0.866 -0.5 0 0 0 1 -0.5 0.866 0 48729b.dat
 
 
+0 STEP
 0 FILE 10281 - step85-2.ldr
 0 Branch joint assembly mirroring step85-1, using technic bricks, axle pins, clip plates, a green round plate, and a mechanical arm to attach a foliage-bearing branch.
 0 Name: 10281 - step85-2.ldr
@@ -8014,6 +8033,7 @@
 1 70 -30 -44 0 0.259 -0.966 0 0 0 1 -0.966 -0.259 0 48729b.dat
 
 
+0 STEP
 0 FILE 10281 - step86-103.ldr
 0 Trunk extension section built from long grooved plates, tiles, and inverted slope bricks in reddish brown to add textured height to the trunk.
 0 Name: 10281 - step86-103.ldr
@@ -8167,6 +8187,7 @@
 1 70 120 -8 -240 -1 0 0 0 1 0 0 0 -1 10281 - step103.ldr
 
 
+0 STEP
 0 FILE 10281 - step86-93.ldr
 0 Textured trunk section using log bricks, rounded panels, and long plates in reddish brown to build a bark-like cylindrical column.
 0 Name: 10281 - step86-93.ldr
@@ -8213,6 +8234,7 @@
 1 70 -100 -24 -220 0 0 1 0 1 0 -1 0 0 2456.dat
 
 
+0 STEP
 0 FILE 10281 - step99.ldr
 0 Small branch connector using a long plate and two tiles in brown tones.
 0 Name: 10281 - step99.ldr
@@ -8228,6 +8250,7 @@
 1 70 60 -8 0 1 0 0 0 1 0 0 0 1 6636.dat
 
 
+0 STEP
 0 FILE 10281 - step102.ldr
 0 Rounded branch tip detail using a corner round plate and chamfered tiles in reddish brown.
 0 Name: 10281 - step102.ldr
@@ -8243,6 +8266,7 @@
 1 70 30 -8 0 1 0 0 0 1 0 0 0 1 96910.dat
 
 
+0 STEP
 0 FILE 10281 - step103.ldr
 0 Rounded branch tip detail mirroring step102, using a corner round plate and chamfered tiles in reddish brown.
 0 Name: 10281 - step103.ldr
@@ -8258,6 +8282,7 @@
 1 70 30 -8 0 1 0 0 0 1 0 0 0 1 96910.dat
 
 
+0 STEP
 0 FILE 10281 - step71-75.ldr
 0 A cherry blossom branch with brown mechanical arm and handlebar structure decorated with white leaves, pink frogs, and dark pink flower petals.
 0 Name: 10281 - step71-75.ldr
@@ -8307,6 +8332,7 @@
 1 5 -8.926 -51.542 -68.426 0 0 1 0 1 0 -1 0 0 32606.dat
 
 
+0 STEP
 0 FILE 10281 - step84-2.ldr
 0 A cherry blossom branch tip built from a brown handlebar, white leaves, pink frogs, and dark pink seven-petal flowers.
 0 Name: 10281 - step84-2.ldr
@@ -8372,6 +8398,7 @@
 1 5 78.881 -21.444 -14.51 0.945 0.224 -0.238 -0.247 0.967 -0.07 0.214 0.125 0.969 32606.dat
 
 
+0 STEP
 0 FILE 10281 - step84-3.ldr
 0 A cherry blossom branch tip built from a brown handlebar, white leaves, pink frogs, and dark pink seven-petal flowers.
 0 Name: 10281 - step84-3.ldr
@@ -8437,6 +8464,7 @@
 1 5 26 -13.542 -44 0.707 0 0.707 0 1 0 -0.707 0 0.707 32606.dat
 
 
+0 STEP
 0 FILE 10281 - 30166.dat
 0 A front surface primitive element for a LEGO part geometry definition.
 0 Name: 10281 - 30166.dat
@@ -8457,6 +8485,7 @@
 3 16 14.136 0 -18 0 30 -18 14.136 30 -18
 3 16 0 30 -18 -14.136 0 -18 -14.136 30 -18
 
+0 STEP
 0 FILE 10281 - 66956.dat
 0 A primitive part composed of subparts defining the underside and patternable faces of a LEGO element.
 0 Name: 10281 - 66956.dat
@@ -8481,6 +8510,7 @@
 4 16 11.716 -10.5099 -8.284 -11.716 -10.5099 -8.284 -5.564 -7.5316 -14.436 5.564 -7.5316 -14.436
 3 16 5.564 -7.5316 -14.436 -5.564 -7.5316 -14.436 0 -4 -20
 
+0 STEP
 0 FILE 10281 - 65473.dat
 0 An empty part shell that references subparts for its geometry definition.
 0 Name: 10281 - 65473.dat
@@ -8499,6 +8529,7 @@
 0 BFC INVERTNEXT
 1 16 72 0 0 -72 0 0 0 0 -72 0 72 0 48\10281 - tm08q2111.dat
 
+0 STEP
 0 FILE 10281 - 98313.dat
 0 A geometric primitive mesh of cylinders, spheres, circles, and rectangles defining a complex curved LEGO element.
 0 Name: 10281 - 98313.dat
@@ -8689,6 +8720,7 @@
 0 // Rectangle with 2 Parallel Edges (main_colour)
 1 16 10.75425 7.08185 0 -0.24575 0 0 0.08185 -1 0 0 0 4 rect2p.dat
 
+0 STEP
 0 FILE s\10281 - 30166s01.dat
 0 A subpart defining handle and cylinder geometry with rings for a LEGO mechanical element.
 0 Name: s\10281 - 30166s01.dat
@@ -8721,6 +8753,7 @@
 0 // Ring  2 x 0.75 (main_colour)
 1 16 -14 0 0 0 -1 0 1.414214 0 1.414214 -1.414214 0 1.414214 3-4ring2.dat
 
+0 STEP
 0 FILE s\10281 - 30166s02.dat
 0 A detailed subpart combining small cylinders, chords, boxes, and a stud extension to define intricate surface geometry.
 0 Name: s\10281 - 30166s02.dat
@@ -8828,6 +8861,7 @@
 0 // Circle 0.5 (main_colour)
 1 16 10 -20 -18 0 0 -6 -6 0 0 0 1 0 2-4edge.dat
 
+0 STEP
 0 FILE s\10281 - 66956s01.dat
 0 A subpart composed of many rectangles, boxes, discs, and circles defining the detailed faceted geometry of a LEGO element.
 0 Name: s\10281 - 66956s01.dat
@@ -9087,6 +9121,7 @@
 5 24 -11.716 -10.5099 -8.284 11.716 -10.5099 -8.284 -18.351999 -12.8827 -1.648 -5.564 -7.5316 -14.436
 5 24 -5.564 -7.5316 -14.436 5.564 -7.5316 -14.436 -11.716 -10.5099 -8.284 -3 -5.90416 -17
 
+0 STEP
 0 FILE s\10281 - 65473s01.dat
 0 A subpart defining a technic axle hole assembly with rings, cylinders, and sloped surfaces for a connector element.
 0 Name: s\10281 - 65473s01.dat
@@ -9246,6 +9281,7 @@
 0 // Circle 1.0 (main_colour)
 1 16 4.8592 -25.7254 0 14.0328 0 0 5.84129 1 0 0 0 15.2 4-4edge.dat
 
+0 STEP
 0 FILE 48\10281 - tm08q2639.dat
 0 A torus segment primitive with major radius 72 and minor radius 19 defining a curved tube edge.
 0 Name: 48\10281 - tm08q2639.dat
@@ -9570,6 +9606,7 @@
 5 24 0.8391 -0.1866 0.8391 0.8795 -0.101 0.8795 0.9414 -0.1866 0.7224 0.7286 -0.1866 0.9495
 5 24 0.8795 -0.101 0.8795 0.8937 0 0.8937 0.9868 -0.101 0.7572 0.7637 -0.101 0.9953
 
+0 STEP
 0 FILE 48\10281 - tm08q2111.dat
 0 A torus segment primitive with major radius 72 and minor radius 15.2 defining a curved tube edge.
 0 Name: 48\10281 - tm08q2111.dat

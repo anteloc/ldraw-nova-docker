@@ -74,6 +74,7 @@
 1 15 0 -112 50 1 0 0 0 1 0 0 0 1 3067b.dat
 
 
+0 STEP
 0 FILE 1210-2 - u8012.dat
 0 A custom-molded slotted window part composed of boxes, cylinders, discs, and circular arcs.
 0 Name: 1210-2 - u8012.dat
@@ -222,6 +223,7 @@
 1 16 -20 61 10 -1 0 0 0 1 0 0 0 1 s\1210-2 - u8012s01.dat
 
 
+0 STEP
 0 FILE 1210-2 - u8024.dat
 0 A custom-molded window variant part built from boxes, cylinders, discs, and rectangular faces.
 0 Name: 1210-2 - u8024.dat
@@ -323,6 +325,7 @@
 1 16 -60 61 10 -1 0 0 0 1 0 0 0 1 s\1210-2 - u8012s01.dat
 
 
+0 STEP
 0 FILE 1210-2 - u8021.dat
 0 A simpler custom-molded part of boxes and rectangles, likely a door element.
 0 Name: 1210-2 - u8021.dat
@@ -405,6 +408,7 @@
 1 16 -40 11 10 -1 0 0 0 1 0 0 0 1 s\1210-2 - u8012s01.dat
 
 
+0 STEP
 0 FILE 1210-2 - 925p0r.dat
 0 A printed brick part reference with no direct geometric primitives of its own.
 0 Name: 1210-2 - 925p0r.dat
@@ -423,6 +427,7 @@
 
 
 
+0 STEP
 0 FILE s\1210-2 - u8012s01.dat
 0 A sub-assembly of the window part featuring an open cylinder, chords, and negative discs for the opening detail.
 0 Name: s\1210-2 - u8012s01.dat
@@ -454,6 +459,7 @@
 1 16 0 7 0 -4 0 0 0 0 4 0 -1 0 1-4ndis.dat
 
 
+0 STEP
 0 FILE s\1210-2 - 925p0rs01.dat
 0 A printed brick sub-reference part with no direct geometric primitives of its own.
 0 Name: s\1210-2 - 925p0rs01.dat
@@ -572,6 +578,7 @@
 3 16 59.1 5.9 -10 55.3 17.45 -10 61.45 13.05 -10
 
 
+0 STEP
 0 FILE s\1210-2 - 925p0rs02.dat
 0 A printed brick sub-reference part with no direct geometric primitives of its own.
 0 Name: s\1210-2 - 925p0rs02.dat
@@ -725,6 +732,7 @@
 4 16 48.2 17.5 -10 48.6 17.1 -10 48.9 16.5 -10 47.6 17.8 -10
 
 
+0 STEP
 0 FILE s\1210-2 - 925s02.dat
 0 A brick-shaped sub-assembly formed from several boxes with edge detailing.
 0 Name: s\1210-2 - 925s02.dat

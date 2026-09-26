@@ -1164,6 +1164,7 @@
 1 70 0 -264 -140 1 0 0 0 1 0 0 0 1 10241 - step91.ldr
 
 
+0 STEP
 0 FILE 10241 - step46.ldr
 0 Propeller and drive-shaft assembly: a reddish-brown Technic-brick mount carrying a notched axle-2, an axle-4, an inline smooth axle joiner and a pearl-gold three-blade propeller
 0 Name: 10241 - step46.ldr
@@ -1195,6 +1196,7 @@
 1 297 0 0 -110 1 0 0 0 1 0 0 0 1 6041.dat
 
 
+0 STEP
 0 FILE 10241 - step71-1.ldr
 0 Left mounting-bracket detail: dark-bluish-grey headlight brick and plate on a thin stud-hole bracket with a light-bluish-grey round plate
 0 Name: 10241 - step71-1.ldr
@@ -1216,6 +1218,7 @@
 1 71 0 10 -29 -1 0 0 0 0 1 0 1 0 6141.dat
 
 
+0 STEP
 0 FILE 10241 - step71-2.ldr
 0 Right mounting-bracket detail: dark-bluish-grey headlight brick and plate on a thin stud-hole bracket with a light-bluish-grey round plate
 0 Name: 10241 - step71-2.ldr
@@ -1237,6 +1240,7 @@
 1 71 0 10 -29 -1 0 0 0 0 1 0 1 0 6141.dat
 
 
+0 STEP
 0 FILE 10241 - step72-1.ldr
 0 Medium-azure clip-and-handle mount detail: black handle and thick C-clip plates with a grooved medium-azure tile
 0 Name: 10241 - step72-1.ldr
@@ -1252,6 +1256,7 @@
 1 322 50 -10 0 -1 0 0 0 1 0 0 0 -1 2431.dat
 
 
+0 STEP
 0 FILE 10241 - step72-2.ldr
 0 Small medium-azure curved-slope detail with a black horizontal-clip plate
 0 Name: 10241 - step72-2.ldr
@@ -1265,6 +1270,7 @@
 1 322 50 -10 0 0 0 -1 0 1 0 1 0 0 61678.dat
 
 
+0 STEP
 0 FILE 10241 - step77.ldr
 0 Sand-green deckhouse/superstructure module with sloped light-bluish-grey details, door-rail plates, a pearl-silver gauge tile and clip-light/handle details on a dark-bluish-grey base
 0 Name: 10241 - step77.ldr
@@ -1397,6 +1403,7 @@
 1 71 50 -64 -10 1 0 0 0 1 0 0 0 1 3623.dat
 
 
+0 STEP
 0 FILE 10241 - step78.ldr
 0 Sand-green deckhouse/superstructure module with sloped light-bluish-grey details, door-rail plates, a pearl-silver gauge tile and clip-light/handle details on a dark-bluish-grey base
 0 Name: 10241 - step78.ldr
@@ -1529,6 +1536,7 @@
 1 71 50 -64 10 -1 0 0 0 1 0 0 0 -1 3623.dat
 
 
+0 STEP
 0 FILE 10241 - step82.ldr
 0 Reddish-brown deck railing: a lattice fence section on long plates
 0 Name: 10241 - step82.ldr
@@ -1548,6 +1556,7 @@
 1 70 -80 -56 0 1 0 0 0 1 0 0 0 1 3185.dat
 
 
+0 STEP
 0 FILE 10241 - step84.ldr
 0 White ship's lifeboat: plated hull with a grille brick, white slopes and wings, an orange lifeguard float, a black short blaster and clip-bar details, with an inner console sub-assembly
 0 Name: 10241 - step84.ldr
@@ -1737,6 +1746,7 @@
 1 47 0 -160 0 1 0 0 0 1 0 0 0 1 10241 - step84-16.ldr
 
 
+0 STEP
 0 FILE 10241 - step84-16.ldr
 0 Lifeboat console/motor sub-assembly: white-plated deck with wing plates, a trans-brown screen, a control stick, a domed throttle, pearl-silver skis and a lightsaber-hilt detail
 0 Name: 10241 - step84-16.ldr
@@ -1901,6 +1911,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10241 - step85.ldr
 0 White and black deckhouse/cargo module: stacked white bricks and plates with black and medium-azure banding and a tiled top
 0 Name: 10241 - step85.ldr
@@ -2052,6 +2063,7 @@
 1 0 40 -192 10 0 0 1 0 1 0 -1 0 0 6141.dat
 
 
+0 STEP
 0 FILE 10241 - step86.ldr
 0 Black angled display stand: a 6x10 base with an 8x16 tile deck, 45-degree support slopes, a Technic-brick and axle cradle and a medium-azure accent, with a hinge-top base sub-assembly
 0 Name: 10241 - step86.ldr
@@ -2236,6 +2248,7 @@
 1 71 90 -14 0 0.5 -0.866 0 0.866 0.5 0 0 0 1 10241 - step86-15.ldr
 
 
+0 STEP
 0 FILE 10241 - step86-15.ldr
 0 Black display-stand base section: a 4x12 plate with tiles and two hinge tops
 0 Name: 10241 - step86-15.ldr
@@ -2263,6 +2276,7 @@
 1 71 0 -10 -60 0 0 -1 0 1 0 1 0 0 6134.dat
 
 
+0 STEP
 0 FILE 10241 - step87.ldr
 0 Cargo container on a reddish-brown base: a light-bluish-grey and sand-blue Maersk container with tiled sides
 0 Name: 10241 - step87.ldr
@@ -2318,6 +2332,7 @@
 1 71 -60 -56 0 0 0 1 0 1 0 -1 0 0 3020.dat
 
 
+0 STEP
 0 FILE 10241 - step88.ldr
 0 Cargo container on a reddish-brown base: a light-bluish-grey and sand-blue Maersk container with tiled sides
 0 Name: 10241 - step88.ldr
@@ -2394,6 +2409,7 @@
 1 379 20 -72 0 0 0 1 0 1 0 -1 0 0 87079.dat
 
 
+0 STEP
 0 FILE 10241 - step89.ldr
 0 Cargo container on a reddish-brown base: a light-bluish-grey and sand-blue Maersk container with tiled sides
 0 Name: 10241 - step89.ldr
@@ -2483,6 +2499,7 @@
 1 379 20 -96 0 0 0 1 0 1 0 -1 0 0 87079.dat
 
 
+0 STEP
 0 FILE 10241 - step90.ldr
 0 Cargo container on a reddish-brown base: a light-bluish-grey and sand-blue Maersk container with tiled sides
 0 Name: 10241 - step90.ldr
@@ -2572,6 +2589,7 @@
 1 379 -20 -96 0 0 0 1 0 1 0 -1 0 0 87079.dat
 
 
+0 STEP
 0 FILE 10241 - step91.ldr
 0 Cargo container on a reddish-brown base: a white, light-bluish-grey and sand-blue Maersk container with tiled sides
 0 Name: 10241 - step91.ldr
@@ -2661,6 +2679,7 @@
 1 379 -20 -96 0 0 0 1 0 1 0 -1 0 0 87079.dat
 
 
+0 STEP
 0 FILE 10241 - 47404.dat
 0 Custom ship-hull/deck part definition built from box, face, cylinder and stud primitives
 0 Name: 10241 - 47404.dat
@@ -2763,6 +2782,7 @@
 1 16 -10 0 -90 1 0 0 0 1 0 0 0 1 stud2a.dat
 1 16 10 0 -90 1 0 0 0 1 0 0 0 1 stud2a.dat
 
+0 STEP
 0 FILE 10241 - 62885.dat
 0 Custom moulded part (pipe grip, trigger and hammer) built from cylinder, chord and disc primitives
 0 Name: 10241 - 62885.dat
@@ -2866,6 +2886,7 @@
 4 16 -1.5 -20.731501 12.1573 -1.5 -17.3911 12.8826 -1.5 -14.1593 9.6222 -1.5 -21.1931 10.4031
 4 16 1.5 -20.731501 12.1573 1.5 -21.1931 10.4031 1.5 -14.1593 9.6222 1.5 -17.3911 12.8826
 
+0 STEP
 0 FILE s\10241 - 47404s01.dat
 0 Sub-part of the custom ship-hull/deck part: studs, cylinders, rings and box primitives
 0 Name: s\10241 - 47404s01.dat
@@ -3955,6 +3976,7 @@
 2 24 -68 24 -20 -67.390999 24 -16.938499
 2 24 -64.029999 24 -26.7439 -64.029999 20 -26.7439
 
+0 STEP
 0 FILE 10241 - 5-16stud4.dat
 0 5/16 open-cylinder stud ring sub-part (stud primitive)
 0 Name: 10241 - 5-16stud4.dat
@@ -3972,6 +3994,7 @@
 0 // ~Ring  3 x 0.3125 (Obsolete) (main_colour)
 1 16 0 -4 0 2 0 0 0 1 0 0 0 2 5-16rin3.dat
 
+0 STEP
 0 FILE 10241 - 3-8stud4.dat
 0 3/8 open-cylinder stud ring sub-part (stud primitive)
 0 Name: 10241 - 3-8stud4.dat
@@ -3989,6 +4012,7 @@
 0 // Ring  3 x 0.375 (main_colour)
 1 16 0 -4 0 2 0 0 0 1 0 0 0 2 3-8ring3.dat
 
+0 STEP
 0 FILE s\10241 - 62885s01.dat
 0 Sub-part of the custom moulded part: sides, channels, ends and cylinder/chord primitives
 0 Name: s\10241 - 62885s01.dat

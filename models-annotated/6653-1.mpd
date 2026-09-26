@@ -16,6 +16,7 @@
 1 4 124.994 0 -34.548 -0.5 0 -0.866 0 1 0 0.866 0 -0.5 6653 - minifig.ldr
 
 0 NOFILE
+0 STEP
 0 FILE 6653 - car.ldr
 0 A small car built on a 4x5 base with mudguards, doors, headlights, and steering wheel.
 0 car
@@ -124,6 +125,7 @@
 1 0 -15 22 -50 1 0 0 0 1 0 0 0 1 4084.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6653 - road sign 1.ldr
 0 A road sign with a red warning triangle pattern on a post.
 0 road sign 1
@@ -140,6 +142,7 @@
 1 15 0 -10 -1 1 0 0 0 0 -1 0 1 0 3023.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6653 - road sign 2.ldr
 0 A road sign with a diagonal arrow on blue disc pattern on a post.
 0 road sign 2
@@ -156,6 +159,7 @@
 1 15 19 -7 0 0 1 0 0 0 1 1 0 0 3023.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6653 - road sign 3.ldr
 0 A small road marker made of a round white brick topped with a trans-red round plate.
 0 road sign 3
@@ -172,6 +176,7 @@
 1 36 0 -32 0 1 0 0 0 1 0 0 0 1 30057.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6653 - minifig.ldr
 0 A police minifig wearing a white hat, blue torso with Autoroute pattern, and standard grin face.
 0 minifig

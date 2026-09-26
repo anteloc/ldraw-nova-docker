@@ -311,6 +311,7 @@
 
 
 
+0 STEP
 0 FILE 31088 - Little Fish.ldr
 0 Small companion fish built from round red plates, axlehole discs, dark blue slope fins, and printed squinting eye tiles.
 0 Name: 31088 - Little Fish.ldr
@@ -366,6 +367,7 @@
 
 
 
+0 STEP
 0 FILE 31088 - Jaw.ldr
 0 Articulated angler fish jaw assembly with tan tooth-plates, white brackets and curved cutout slopes forming the mouth structure.
 0 Name: 31088 - Jaw.ldr
@@ -422,6 +424,7 @@
 
 
 
+0 STEP
 0 FILE 31088 - Fin.ldr
 0 Movable fin with socket joint, dark blue slope and wedge plates mounted on a white base plate.
 0 Name: 31088 - Fin.ldr
@@ -456,6 +459,7 @@
 
 
 
+0 STEP
 0 FILE 31088 - 15456.dat
 0 Primitive 2x2 plate geometry with towball and centre hole, modeled from spheres, cylinders, cones and box primitives.
 0 Name: 31088 - 15456.dat
@@ -513,6 +517,7 @@
 
 
 
+0 STEP
 0 FILE 31088 - 4-4cyl19sph40.dat
 0 Low-level primitive combining a sphere segment and a cylinder for the truncated-to-sphere part definition.
 0 Name: 31088 - 4-4cyl19sph40.dat

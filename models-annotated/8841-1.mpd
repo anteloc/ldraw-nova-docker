@@ -196,6 +196,7 @@
 
 
 
+0 STEP
 0 FILE 8841 - Piston.ldr
 0 Technic piston assembly combining a piston block, 24-tooth gear with axleholes, and connector pins to form a functional piston mechanism.
 0 Name: 8841 - Piston.ldr
@@ -223,6 +224,7 @@
 
 
 
+0 STEP
 0 FILE 8841 - Back part.ldr
 0 Rear body section built from blue plates and red slopes with attached torches, forming the angled tail of the racer.
 0 Name: 8841 - Back part.ldr
@@ -276,6 +278,7 @@
 
 
 
+0 STEP
 0 FILE 8841 - Engine.ldr
 0 Engine block constructed from stacked grey and black plates forming a compact rectangular engine housing.
 0 Name: 8841 - Engine.ldr
@@ -339,6 +342,7 @@
 
 
 
+0 STEP
 0 FILE 8841 - Seat.ldr
 0 Driver's seat made from layered red, white, and blue plates and bricks mounted on a Technic plate base.
 0 Name: 8841 - Seat.ldr
@@ -410,6 +414,7 @@
 
 
 
+0 STEP
 0 FILE 8841 - Steering wheel.ldr
 0 Steering mechanism using universal joints, 8-tooth gears, a belt wheel, and an axle linkage for front-wheel control.
 0 Name: 8841 - Steering wheel.ldr
@@ -446,6 +451,7 @@
 
 
 
+0 STEP
 0 FILE 8841 - Left hose.ldr
 0 Flexible Technic hose routed along the left side using LSynth-synthesized segments.
 0 Name: 8841 - Left hose.ldr
@@ -727,6 +733,7 @@
 
 
 
+0 STEP
 0 FILE 8841 - Right hose.ldr
 0 Flexible Technic hose routed along the right side using LSynth-synthesized segments.
 0 Name: 8841 - Right hose.ldr
@@ -1010,6 +1017,7 @@
 
 
 
+0 STEP
 0 FILE 8841 - Arch.ldr
 0 Suspension arch structure using rigid Technic axles and toggle joint connectors to form a curved flex-axle frame.
 0 Name: 8841 - Arch.ldr
@@ -1084,6 +1092,7 @@
 
 
 
+0 STEP
 0 FILE 8841 - LS50.dat
 0 LSynth primitive part composed of cylinders, circles, and rings defining hose geometry.
 0 Name: 8841 - LS50.dat
@@ -1116,6 +1125,7 @@
 
 
 
+0 STEP
 0 FILE 8841 - LS51.dat
 0 LSynth primitive part composed of cylinders and rings defining hose geometry.
 0 Name: 8841 - LS51.dat
@@ -1146,6 +1156,7 @@
 
 
 
+0 STEP
 0 FILE 8841 - LS40a.dat
 0 LSynth primitive defining the end surface and edge details of a Technic axle.
 0 Name: 8841 - LS40a.dat
@@ -1169,6 +1180,7 @@
 
 
 
+0 STEP
 0 FILE 8841 - LS41a.dat
 0 Empty LSynth primitive placeholder for axle edge geometry.
 0 Name: 8841 - LS41a.dat

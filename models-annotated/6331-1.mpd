@@ -24,6 +24,7 @@
 0 // Minifig Tool Hammer (dark_grey)
 1 8 -540 -8 -300 0.643 -0.766 0 0 0 -1 0.766 0.643 0 55295.dat
 
+0 STEP
 0 FILE 6331 - airplane.ldr
 0 A large red aircraft built with boat bow plates, wings, wedge slopes, and a black Spyrius machinery control panel.
 0 Name: 6331 - airplane.ldr
@@ -320,6 +321,7 @@
 0 // Hinge Control Stick (light_grey)
 1 7 -100 -80 80 1 0 0 0 0.866 0.5 0 -0.5 0.866 4593.dat
 
+0 STEP
 0 FILE 6331 - tool box.ldr
 0 A rolling blue toolbox cart with cupboards, drawers, wheels, and a carrying handle.
 0 Name: 6331 - tool box.ldr
@@ -366,6 +368,7 @@
 0 // Tile  1 x  2 with Handle (blue)
 1 1 68 -37 0 0 -1 0 0 0 -1 1 0 0 2432.dat
 
+0 STEP
 0 FILE 6331 - minifig 1.ldr
 0 An Octan oil worker minifigure wearing a blue uniform, white cap, and holding signal batons with lights.
 0 Name: 6331 - minifig 1.ldr
@@ -404,6 +407,7 @@
 0 // ~Minifig Cap with Long Flat Peak (Obsolete) (white)
 1 15 -0.008 -96 1.997 1 0 0.002 0 1 0 -0.002 0 1 4485.dat
 
+0 STEP
 0 FILE 6331 - minifig 2.ldr
 0 A red racing-suited minifigure wearing a helmet with visor and sunglasses.
 0 Name: 6331 - minifig 2.ldr

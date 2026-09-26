@@ -14,6 +14,7 @@
 1 71 0 -16 -90 1 0 0 0 1 0 0 0 1 21107 - Enderman.ldr
 1 71 -50 -16 -90 1 0 0 0 1 0 0 0 1 21107 - Enderman.ldr
 1 71 -100 -16 -90 1 0 0 0 1 0 0 0 1 21107 - Enderman.ldr
+0 STEP
 0 FILE 21107 - Part 1 Bottom.ldr
 0 The structural base of the first End island section, built from tan and dark tan bricks with technic axle connections.
 0 Name: 21107 - Part 1 Bottom.ldr
@@ -79,6 +80,7 @@
 1 72 -20 -104 50 -1 0 0 0 1 0 0 0 -1 92593.dat
 0 // Tile  1 x  1 with Groove (tan)
 1 19 30 -104 50 -1 0 0 0 1 0 0 0 -1 3070b.dat
+0 STEP
 0 FILE 21107 - Part 1 Top.ldr
 0 The detailed surface of the first End island section, covered in grooved tan tiles with trans purple accent elements.
 0 Name: 21107 - Part 1 Top.ldr
@@ -228,6 +230,7 @@
 1 47 -50 -64 10 0 0 -1 0 1 0 1 0 0 3062b.dat
 0 // Antenna  4H with Rounded Top (trans_clear)
 1 47 -50 -72 10 0 0 -1 0 1 0 1 0 0 3957a.dat
+0 STEP
 0 FILE 21107 - Part 1.ldr
 0 The first complete End island section combining a tan brick base and a grooved tile surface.
 0 Name: 21107 - Part 1.ldr
@@ -237,6 +240,7 @@
 
 1 2 0 0 0 1 0 0 0 1 0 0 0 1 21107 - Part 1 Bottom.ldr
 1 2 0 -112 0 1 0 0 0 1 0 0 0 1 21107 - Part 1 Top.ldr
+0 STEP
 0 FILE 21107 - Part 2 Top.ldr
 0 The detailed surface of the second End island section, featuring tan and dark tan grooved tiles with trans purple accents.
 0 Name: 21107 - Part 2 Top.ldr
@@ -368,6 +372,7 @@
 1 52 -10 -96 30 0 0 -1 0 1 0 1 0 0 98138.dat
 0 // Tile  1 x  1 Round with Groove (trans_purple)
 1 52 30 -120 -10 0 0 -1 0 1 0 1 0 0 98138.dat
+0 STEP
 0 FILE 21107 - Part 2 Bottom.ldr
 0 The structural base of the second End island section, made of tan and dark tan bricks with technic axle connectors.
 0 Name: 21107 - Part 2 Bottom.ldr
@@ -439,6 +444,7 @@
 1 19 30 -104 50 0 0 -1 0 1 0 1 0 0 3070b.dat
 0 // Plate  1 x  4 with Two Studs (dark_bluish_grey)
 1 72 -20 -104 50 1 0 0 0 1 0 0 0 1 92593.dat
+0 STEP
 0 FILE 21107 - Part 2.ldr
 0 The second complete End island section combining a tan brick base and a grooved tile surface.
 0 Name: 21107 - Part 2.ldr
@@ -448,6 +454,7 @@
 
 1 71 0 0 0 1 0 0 0 1 0 0 0 1 21107 - Part 2 Bottom.ldr
 1 28 0 -112 0 1 0 0 0 1 0 0 0 1 21107 - Part 2 Top.ldr
+0 STEP
 0 FILE 21107 - Ender Dragon.ldr
 0 A small black dragon micro mob with wings, a bar spine, cones, slopes, and glowing Enderman-pattern eyes.
 0 Name: 21107 - Ender Dragon.ldr
@@ -487,6 +494,7 @@
 1 0 0 10 112 -1 0 0 0 0 1 0 1 0 59900.dat
 0 // Bar  1.5L with Clip with Truncated Sides and Hole in Shaft (black)
 1 0 0 25 -10 0 0 -1 0 -1 0 -1 0 0 48729b.dat
+0 STEP
 0 FILE 21107 - Enderman.ldr
 0 A compact black Enderman micro mob built from bricks with grooved tiles and characteristic purple-pink eyes.
 0 Name: 21107 - Enderman.ldr
@@ -508,6 +516,7 @@
 1 0 18 -12.341 -2.588 0 -1 0 0.966 0 0.259 -0.259 0 0.966 3069b.dat
 0 // Tile  1 x  2 with Groove (black)
 1 0 -18 -12.341 -2.588 0 1 0 0.966 0 -0.259 -0.259 0 -0.966 3069b.dat
+0 STEP
 0 FILE 21107 - Part 3 Bottom.ldr
 0 The structural base of the third End island section, built from tan corner bricks and technic axle connectors.
 0 Name: 21107 - Part 3 Bottom.ldr
@@ -573,6 +582,7 @@
 1 19 30 -104 50 0 0 1 0 1 0 -1 0 0 3070b.dat
 0 // Plate  1 x  4 with Two Studs (dark_bluish_grey)
 1 72 -20 -104 50 1 0 0 0 1 0 0 0 1 92593.dat
+0 STEP
 0 FILE 21107 - Part 3 Top.ldr
 0 The detailed surface of the third End island section, richly covered in grooved tan tiles with trans purple accents.
 0 Name: 21107 - Part 3 Top.ldr
@@ -734,6 +744,7 @@
 1 52 -30 -104 -30 0 0 -1 0 1 0 1 0 0 98138.dat
 0 // Tile  1 x  1 Round with Groove (trans_purple)
 1 52 10 -136 10 0 0 -1 0 1 0 1 0 0 98138.dat
+0 STEP
 0 FILE 21107 - Part 3.ldr
 0 The third complete End island section combining a tan brick base and a grooved tile surface.
 0 Name: 21107 - Part 3.ldr
@@ -743,6 +754,7 @@
 
 1 28 0 0 0 1 0 0 0 1 0 0 0 1 21107 - Part 3 Bottom.ldr
 1 28 0 -112 0 1 0 0 0 1 0 0 0 1 21107 - Part 3 Top.ldr
+0 STEP
 0 FILE 21107 - Part 4 Bottom.ldr
 0 The structural base of the fourth End island section, built from tan corner bricks and technic axle connectors.
 0 Name: 21107 - Part 4 Bottom.ldr
@@ -804,6 +816,7 @@
 1 19 -20 -104 20 0 0 1 0 1 0 -1 0 0 3068b.dat
 0 // Plate  1 x  4 with Two Studs (dark_bluish_grey)
 1 72 -20 -104 50 1 0 0 0 1 0 0 0 1 92593.dat
+0 STEP
 0 FILE 21107 - Part 4 Top.ldr
 0 The detailed surface of the fourth End island section, featuring grooved tiles in tan, dark bluish grey, and black.
 0 Name: 21107 - Part 4 Top.ldr
@@ -929,6 +942,7 @@
 1 72 -10 -64 -10 1 0 0 0 1 0 0 0 1 3005.dat
 0 // Plate  1 x  1 Round (black)
 1 0 -10 -72 -10 1 0 0 0 1 0 0 0 1 6141.dat
+0 STEP
 0 FILE 21107 - Part 4.ldr
 0 The fourth complete End island section combining a tan brick base and a multi-tone grooved tile surface.
 0 Name: 21107 - Part 4.ldr

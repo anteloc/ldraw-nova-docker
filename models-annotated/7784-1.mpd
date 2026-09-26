@@ -7,6 +7,7 @@
 1 71 0 0 0 1 0 0 0 1 0 0 0 1 7784 - Batmobile.ldr
 
 
+0 STEP
 0 FILE 7784 - Batmobile.ldr
 0 The main black Batmobile body built from large plates and slopes forming the iconic vehicle shell with light bluish-grey accents.
 0 Name: 7784 - Batmobile.ldr
@@ -1350,6 +1351,7 @@
 1 0 -130 -54 -80 -1 0 0 0 1 0 0 0 -1 7784 - Wheel.ldr
 
 
+0 STEP
 0 FILE 7784 - Bottom Front.ldr
 0 The lower front chassis section combining reinforced plates, pentagonal wings, and angled slope pieces forming the nose structure.
 0 Name: 7784 - Bottom Front.ldr
@@ -1450,6 +1452,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 7784 - Spar RH.ldr
 0 A right-side structural spar made of long technic bricks with holes connected by friction pins.
 0 Name: 7784 - Spar RH.ldr
@@ -1499,6 +1502,7 @@
 1 0 20 0 -800 0 0 1 0 1 0 -1 0 0 3894.dat
 
 
+0 STEP
 0 FILE 7784 - Spar LH.ldr
 0 A left-side structural spar made of long technic bricks with holes connected by friction pins.
 0 Name: 7784 - Spar LH.ldr
@@ -1548,6 +1552,7 @@
 1 0 20 0 -800 0 0 1 0 1 0 -1 0 0 3894.dat
 
 
+0 STEP
 0 FILE 7784 - Steering.ldr
 0 A steering linkage assembly using universal joints, a double bevel gear, and an axle with stop for rotational transfer.
 0 Name: 7784 - Steering.ldr
@@ -1584,6 +1589,7 @@
 1 72 0 -60.5 216.684 0 0 -1 -0.5 0.866 0 0.866 0.5 0 59426.dat
 
 
+0 STEP
 0 FILE 7784 - Steering RH.ldr
 0 The right-side steering linkage built from angle connectors, notched axles, and a liftarm.
 0 Name: 7784 - Steering RH.ldr
@@ -1608,6 +1614,7 @@
 1 15 20 0 -25 0 0 -1 -1 0 0 0 1 0 41677.dat
 
 
+0 STEP
 0 FILE 7784 - Steering LH.ldr
 0 The left-side steering linkage built from angle connectors, notched axles, and a liftarm.
 0 Name: 7784 - Steering LH.ldr
@@ -1632,6 +1639,7 @@
 1 15 0 0 -35 0 0 -1 -1 0 0 0 1 0 41677.dat
 
 
+0 STEP
 0 FILE 7784 - Steering Top.ldr
 0 The top steering linkage using liftarms, crankshafts, offset joiners, and axles.
 0 Name: 7784 - Steering Top.ldr
@@ -1664,6 +1672,7 @@
 1 14 -20 0 -60 0 -1 0 -1 0 0 0 0 -1 32123a.dat
 
 
+0 STEP
 0 FILE 7784 - Wheel holder.ldr
 0 A wheel mounting bracket formed by technic bricks with holes secured with friction pins.
 0 Name: 7784 - Wheel holder.ldr
@@ -1681,6 +1690,7 @@
 1 72 20 0 0 0 0 -1 0 1 0 1 0 0 3701.dat
 
 
+0 STEP
 0 FILE 7784 - Jumper.ldr
 0 A small connecting liftarm assembly joined by two axle pins.
 0 Name: 7784 - Jumper.ldr
@@ -1695,6 +1705,7 @@
 1 71 5 0 0 0 -1 0 0 0 1 -1 0 0 6632.dat
 
 
+0 STEP
 0 FILE 7784 - Rear Light.ldr
 0 A rear light fixture using a trans-red inverted dish mounted on a technic brick and pin.
 0 Name: 7784 - Rear Light.ldr
@@ -1710,6 +1721,7 @@
 1 36 0 10 18 0 0 -1 1 0 0 0 -1 0 4740.dat
 
 
+0 STEP
 0 FILE 7784 - Real axle.ldr
 0 A rear drive axle assembly featuring bevel gears, bushes, and a technic axle.
 0 Name: 7784 - Real axle.ldr
@@ -1741,6 +1753,7 @@
 1 71 -63 10 0 0 0 1 0 1 0 -1 0 0 32198.dat
 
 
+0 STEP
 0 FILE 7784 - Main Axle.ldr
 0 A central drive axle with a 36-tooth double bevel gear, bushes, and offset joiners.
 0 Name: 7784 - Main Axle.ldr
@@ -1768,6 +1781,7 @@
 1 36 -60 10 0 0 0 -1 1 0 0 0 -1 0 6538b.dat
 
 
+0 STEP
 0 FILE 7784 - Front Gear.ldr
 0 A front gear assembly pairing 24-tooth and 12-tooth double bevel gears on technic axles.
 0 Name: 7784 - Front Gear.ldr
@@ -1796,6 +1810,7 @@
 1 0 40 10 -20 1 0 0 0 1 0 0 0 1 32270.dat
 
 
+0 STEP
 0 FILE 7784 - Front Axle.ldr
 0 A front drive axle with bevel gears, offset joiners, and half-bushes on a technic axle.
 0 Name: 7784 - Front Axle.ldr
@@ -1828,6 +1843,7 @@
 1 36 60 10 0 0 0 -1 0 1 0 1 0 0 6538b.dat
 
 
+0 STEP
 0 FILE 7784 - Jet.ldr
 0 A jet turbine assembly featuring a jet engine housing, neon-orange flames, and gearing.
 0 Name: 7784 - Jet.ldr
@@ -1866,6 +1882,7 @@
 1 0 10 -34 30 -1 0 0 0 1 0 0 0 -1 54200.dat
 
 
+0 STEP
 0 FILE 7784 - Tube.ldr
 0 An axle-and-rim assembly with wheel rims, bushes, and liftarms forming a hub structure.
 0 Name: 7784 - Tube.ldr
@@ -1918,6 +1935,7 @@
 1 72 0 0 0 1 0 0 0 1 0 0 0 1 32064b.dat
 
 
+0 STEP
 0 FILE 7784 - Cockpit RH.ldr
 0 The right cockpit section with a wing panel, grille tiles, lightsaber bars, and a steering wheel.
 0 Name: 7784 - Cockpit RH.ldr
@@ -1953,6 +1971,7 @@
 1 71 20 8 20 0 0 -1 0 1 0 1 0 0 6134.dat
 
 
+0 STEP
 0 FILE 7784 - Cockpit LH.ldr
 0 The left cockpit section with a wing panel, grille tiles, lightsaber bars, and a steering wheel.
 0 Name: 7784 - Cockpit LH.ldr
@@ -1988,6 +2007,7 @@
 1 71 -20 8 20 0 0 1 0 1 0 -1 0 0 6134.dat
 
 
+0 STEP
 0 FILE 7784 - Gear.ldr
 0 A gear stage using two long technic bricks and multiple 12-tooth double bevel gears on a bush.
 0 Name: 7784 - Gear.ldr
@@ -2017,6 +2037,7 @@
 1 4 0 10 200 -1 0 0 0 1 0 0 0 -1 3713.dat
 
 
+0 STEP
 0 FILE 7784 - Stage 1.ldr
 0 The first gear stage using a 7-stud axle with 16-tooth and 20-tooth double bevel gears and an offset joiner.
 0 Name: 7784 - Stage 1.ldr
@@ -2037,6 +2058,7 @@
 1 71 0 0 70 -1 0 0 0 1 0 0 0 -1 4019.dat
 
 
+0 STEP
 0 FILE 7784 - Gear center.ldr
 0 A center gear assembly with a 12-tooth bevel gear, 180-degree angle connector, and long axle.
 0 Name: 7784 - Gear center.ldr
@@ -2062,6 +2084,7 @@
 1 0 0 10 230 0 0 -1 0 1 0 1 0 0 3708.dat
 
 
+0 STEP
 0 FILE 7784 - Stage 2.ldr
 0 The second gear stage pairing a worm gear with 24-tooth and 12-tooth double bevel gears on a 7-stud axle.
 0 Name: 7784 - Stage 2.ldr
@@ -2092,6 +2115,7 @@
 1 71 0 0 30 -1 0 0 0 1 0 0 0 -1 4716.dat
 
 
+0 STEP
 0 FILE 7784 - Arm.ldr
 0 A small articulated arm with a cross block, half-bush, bevel gear, and short axle.
 0 Name: 7784 - Arm.ldr
@@ -2109,6 +2133,7 @@
 1 71 17 0 0 0 0 -1 1 0 0 0 -1 0 6589.dat
 
 
+0 STEP
 0 FILE 7784 - Seat.ldr
 0 A dark red curved seat built from slope bricks mounted on a black plate base with clip and handle attachments.
 0 Name: 7784 - Seat.ldr
@@ -2167,6 +2192,7 @@
 1 320 50 -40 -30 1 0 0 0 1 0 0 0 1 50950.dat
 
 
+0 STEP
 0 FILE 7784 - Wing holder.ldr
 0 A Technic mounting assembly using an axle, liftarms with angled ball joints, and bushed bricks to secure and articulate a wing.
 0 Name: 7784 - Wing holder.ldr
@@ -2203,6 +2229,7 @@
 1 72 126.905 1.21 -9.295 -0.927 -0.176 0.331 -0.375 0.435 -0.819 0 -0.883 -0.469 50923.dat
 
 
+0 STEP
 0 FILE 7784 - Head.ldr
 0 A small dark red head section composed of curved-top bricks and tiles with clip plates for attachment.
 0 Name: 7784 - Head.ldr
@@ -2234,6 +2261,7 @@
 1 72 20 -24 0 -1 0 0 0 1 0 0 0 -1 3070b.dat
 
 
+0 STEP
 0 FILE 7784 - Rear Cover.ldr
 0 A compact black rear cover formed by curved slope bricks attached to a small plate.
 0 Name: 7784 - Rear Cover.ldr
@@ -2251,6 +2279,7 @@
 1 0 20 -16 20 -1 0 0 0 1 0 0 0 -1 50950.dat
 
 
+0 STEP
 0 FILE 7784 - Bat.ldr
 0 An angular black vehicle body built from a boat bow plate, multiple wedge and slope bricks forming a sleek bat-shaped hull.
 0 Name: 7784 - Bat.ldr
@@ -2311,6 +2340,7 @@
 1 72 -10 18 10 -1 0 0 0 0 1 0 1 0 7784 - Head Axle.ldr
 
 
+0 STEP
 0 FILE 7784 - Eye LH.ldr
 0 A left-eye detail piece made of a white sloped element pinned to a black Technic brick.
 0 Name: 7784 - Eye LH.ldr
@@ -2326,6 +2356,7 @@
 1 15 10 10 0 0 -1 0 -1 0 0 0 0 -1 54200.dat
 
 
+0 STEP
 0 FILE 7784 - Eye RH.ldr
 0 A right-eye detail piece made of a white sloped element pinned to a black Technic brick.
 0 Name: 7784 - Eye RH.ldr
@@ -2341,6 +2372,7 @@
 1 15 10 10 0 0 -1 0 1 0 0 0 0 1 54200.dat
 
 
+0 STEP
 0 FILE 7784 - Head Axle.ldr
 0 A Technic pivot axle assembly with bushes and white liftarms for mounting and rotating a head.
 0 Name: 7784 - Head Axle.ldr
@@ -2361,6 +2393,7 @@
 1 4 -10 0 20 -1 0 0 0 -1 0 0 0 1 32062.dat
 
 
+0 STEP
 0 FILE 7784 - Roof.ldr
 0 An angular black roof constructed from pentagonal and tapered wing panels hinged together over a multi-edge plate.
 0 Name: 7784 - Roof.ldr
@@ -2399,6 +2432,7 @@
 1 0 0 26.527 -174.042 0 0 -1 -0.707 0.707 0 0.707 0.707 0 3623.dat
 
 
+0 STEP
 0 FILE 7784 - Wheel.ldr
 0 A gold-spoked wheel with a black inverted Batman-logo dish hub fitted with a wide street tyre on an axle.
 0 Name: 7784 - Wheel.ldr

@@ -20,6 +20,7 @@
 1 14 -340 0 40 1 0 0 0 1 0 0 0 1 2140 - minifig 1.ldr
 1 14 180 0 130 0.5 0 0.866 0 1 0 -0.866 0 0.5 2140 - minifig 1.ldr
 
+0 STEP
 0 FILE 2140 - building.ldr
 0 A yellow and white service station building with computer screen, transparent windows, wheels, and a hinge control stick.
 0 Name: 2140 - building.ldr
@@ -133,6 +134,7 @@
 0 // Brick  1 x  6 (yellow)
 1 14 -50 -168 -20 1 0 0 0 1 0 0 0 1 3009.dat
 
+0 STEP
 0 FILE 2140 - car 1.ldr
 0 A yellow and black vehicle built on plates with wheel pins, grille tiles, hazard stripes, and transparent lights.
 0 Name: 2140 - car 1.ldr
@@ -292,6 +294,7 @@
 0 // Tyre 12/ 40 x 11 Wide (black)
 1 0 15.001 4 -219 0 0 -1 0 1 0 1 0 0 6015.dat
 
+0 STEP
 0 FILE 2140 - car 1 - movable.ldr
 0 A small movable hinged assembly with a long tile and a red indicator light.
 0 Name: 2140 - car 1 - movable.ldr
@@ -314,6 +317,7 @@
 0 // Plate  1 x  1 (trans_red)
 1 36 0 -20 4 0 0 -1 -1 0 0 0 1 0 3024.dat
 
+0 STEP
 0 FILE 2140 - car 2.ldr
 0 A blue car built on a black chassis with mudguards, headlights, grille, and steering wheel.
 0 Name: 2140 - car 2.ldr
@@ -429,6 +433,7 @@
 0 // Tyre  6/ 50 x  8 Offset Tread (black)
 1 0 40 13 60 0 0 -1 0 1 0 1 0 0 3641.dat
 
+0 STEP
 0 FILE 2140 - car 3.ldr
 0 A yellow service vehicle on a black chassis with mudguards, tools including a wrench, hammer, and screwdriver.
 0 Name: 2140 - car 3.ldr
@@ -554,6 +559,7 @@
 0 // Plate  1 x  1 Round (trans_orange)
 1 57 -20 -80 -10 1 0 0 0 1 0 0 0 1 6141.dat
 
+0 STEP
 0 FILE 2140 - barrel.ldr
 0 A small round barrel-like assembly made of stacked colored round bricks with a red tap spout.
 0 Name: 2140 - barrel.ldr
@@ -574,6 +580,7 @@
 0 // Tap  1 x  1 with Hole in Spout (red)
 1 4 25 -48 20 1 0 0 0 1 0 0 0 1 4599a.dat
 
+0 STEP
 0 FILE 2140 - road sign 1.ldr
 0 A small white traffic cone with a red round indicator.
 0 Name: 2140 - road sign 1.ldr
@@ -596,6 +603,7 @@
 0 // Plate  1 x  1 Round (trans_red)
 1 36 0 -32 0 1 0 0 0 1 0 0 0 1 6141.dat
 
+0 STEP
 0 FILE 2140 - road sign 2.ldr
 0 A warning sign on a white plate with a red triangle pattern.
 0 Name: 2140 - road sign 2.ldr
@@ -610,6 +618,7 @@
 0 // Plate  1 x  2 (white)
 1 15 0 -10 -1 1 0 0 0 0 -1 0 1 0 3023.dat
 
+0 STEP
 0 FILE 2140 - call point.ldr
 0 A landscaped scene with a green baseplate, tree, flowers, and a small yellow structure.
 0 Name: 2140 - call point.ldr
@@ -642,6 +651,7 @@
 0 // Tile  1 x  2 with Groove (yellow)
 1 14 36 -94.001 -0.003 0 1 0 0 0 -1 -1 0 0 3069b.dat
 
+0 STEP
 0 FILE 2140 - minifig 1.ldr
 0 A minifigure wearing a red cap, blue zippered jacket, and blue legs.
 0 Name: 2140 - minifig 1.ldr
@@ -672,6 +682,7 @@
 0 // ~Minifig Leg Right (Obsolete) (blue)
 1 1 0 -28.022 1.818 1 0 0 0 1 0 0 0 1 3816.dat
 
+0 STEP
 0 FILE 2140 - minifig 2.ldr
 0 A minifigure with black hair, black torso, yellow arms, and light grey legs wearing sunglasses.
 0 Name: 2140 - minifig 2.ldr

@@ -7,6 +7,7 @@
 1 2 0 0 0 1 0 0 0 1 0 0 0 1 31038 - Automn.ldr
 
 
+0 STEP
 0 FILE 31038 - Automn.ldr
 0 Main cabin structure built with log bricks, a large green baseplate, windows, door, roof, and assorted seasonal accent pieces.
 0 Name: 31038 - Automn.ldr
@@ -590,6 +591,7 @@
 1 288 130 -56 60 0 0 -1 0 1 0 1 0 0 31038 - Young.ldr
 
 
+0 STEP
 0 FILE 31038 - Young.ldr
 0 Young male minifigure wearing a red cap, white hooded sweatshirt, and dark blue short legs.
 0 Name: 31038 - Young.ldr
@@ -616,6 +618,7 @@
 1 4 -24.134 28.163 -26.085 0.996 -0.086 0 0.043 0.5 -0.865 0.075 0.862 0.502 6141.dat
 
 
+0 STEP
 0 FILE 31038 - Adult.ldr
 0 Adult female minifigure with a braided ponytail, plaid blue shirt, dark tan legs, holding a pushbroom.
 0 Name: 31038 - Adult.ldr
@@ -646,6 +649,7 @@
 1 70 21.631 13.661 -51.083 0.996 0.086 -0.011 -0.053 0.5 -0.864 -0.069 0.862 0.503 3836.dat
 
 
+0 STEP
 0 FILE 31038 - Corner.ldr
 0 Corner landscaping detail with round brown and green plates forming a small garden base with red accents.
 0 Name: 31038 - Corner.ldr
@@ -674,6 +678,7 @@
 1 2 20 -16 0 1 0 0 0 1 0 0 0 1 4032a.dat
 
 
+0 STEP
 0 FILE 31038 - Seat.ldr
 0 Small outdoor bench seat made from a white plate and a black curved-top brick, with a clear cup accessory.
 0 Name: 31038 - Seat.ldr
@@ -700,6 +705,7 @@
 1 47 30 -40 -20 -1 0 0 0 1 0 0 0 -1 3899.dat
 
 
+0 STEP
 0 FILE 31038 - Table.ldr
 0 Compact outdoor table holding a sausage meal, built from a log brick and small plates with a clip attachment.
 0 Name: 31038 - Table.ldr
@@ -723,6 +729,7 @@
 1 47 0 -54.093 27.803 1 0 0 0 0.921 -0.39 0 0.39 0.921 6141.dat
 
 
+0 STEP
 0 FILE 31038 - Window.ldr
 0 White-framed window with clear glass panes mounted on brown plates with a red accent.
 0 Name: 31038 - Window.ldr
@@ -741,6 +748,7 @@
 1 4 -10 64 -20 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 31038 - Chimney.ldr
 0 Small white chimney structure with 45-degree slope bricks and a dark grey base plate.
 0 Name: 31038 - Chimney.ldr
@@ -762,6 +770,7 @@
 1 15 0 -40 0 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 31038 - Door.ldr
 0 Tall white-framed double door with green paned door panels mounted on a white base plate.
 0 Name: 31038 - Door.ldr
@@ -779,6 +788,7 @@
 1 15 0 -8 10 1 0 0 0 1 0 0 0 1 3020.dat
 
 
+0 STEP
 0 FILE 31038 - Roof.ldr
 0 Sloped cabin roof section with yellow and blue curved slope tiles on tan and white plates.
 0 Name: 31038 - Roof.ldr
@@ -807,6 +817,7 @@
 1 15 30 -16 10 1 0 0 0 1 0 0 0 1 3024.dat
 
 
+0 STEP
 0 FILE 31038 - Column.ldr
 0 Simple vertical support column made of stacked tan bricks topped with a white plate.
 0 Name: 31038 - Column.ldr
@@ -829,6 +840,7 @@
 1 19 0 -104 0 1 0 0 0 1 0 0 0 1 3005.dat
 
 
+0 STEP
 0 FILE 31038 - Lamp.ldr
 0 Small outdoor lamp fixture using a translucent yellow brick as a light source under a black dish shade.
 0 Name: 31038 - Lamp.ldr
@@ -850,6 +862,7 @@
 1 0 0 -42 20 -1 0 0 0 0 1 0 1 0 6141.dat
 
 
+0 STEP
 0 FILE 31038 - Tube.ldr
 0 Cylindrical log-style column or pipe assembly built from round plates, log bricks, and a bracket mount.
 0 Name: 31038 - Tube.ldr
@@ -878,6 +891,7 @@
 1 72 0 -64 0 0 0 -1 0 1 0 1 0 0 3062b.dat
 
 
+0 STEP
 0 FILE 31038 - Antenna.ldr
 0 Tall antenna assembly made from bars, clips, and a mechanical arm component in black and grey.
 0 Name: 31038 - Antenna.ldr
@@ -896,6 +910,7 @@
 1 71 -1.747 -96.5 40.018 0 -0.259 0.966 -1 0 0 0 -0.966 -0.259 30031.dat
 
 
+0 STEP
 0 FILE 31038 - Lantern.ldr
 0 Glowing lantern made from an orange minifig head inside an inverted black dish on a round plate.
 0 Name: 31038 - Lantern.ldr
@@ -911,6 +926,7 @@
 1 0 0 -16 0 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 31038 - Skull.ldr
 0 Small skull or decorative element built from a single white plate and a white Technic brick with holes.
 0 Name: 31038 - Skull.ldr
@@ -924,6 +940,7 @@
 1 15 0 -24 0 1 0 0 0 1 0 0 0 1 32000.dat
 
 
+0 STEP
 0 FILE 31038 - Tree.ldr
 0 Leafy autumn tree with brown trunk and pointed arch branches decorated with red, orange, and yellow accents.
 0 Name: 31038 - Tree.ldr
@@ -994,6 +1011,7 @@
 1 0 -10 -95.397 -53.42 0 0 -1 -0.342 0.94 0 0.94 0.342 0 31038 - Bat.ldr
 
 
+0 STEP
 0 FILE 31038 - Bat.ldr
 0 Small black bat creature made from curved slope wings, round plates, a clip, and a four-sided stud brick.
 0 Name: 31038 - Bat.ldr

@@ -12,6 +12,7 @@
 
 
 
+0 STEP
 0 FILE 8257 - striker-a.ldr
 0 A dark turquoise and black Technic vehicle built with bent liftarms, axles, pins, offroad wheel rims, and a shock absorber structure.
 0 Name: 8257 - striker-a.ldr
@@ -450,6 +451,7 @@
 
 
 
+0 STEP
 0 FILE 8257 - striker-b.ldr
 0 A purple and black Technic vehicle with bent liftarms, suspension arms, towball pins, a competition arrow launcher, and rubber-tipped projectiles.
 0 Name: 8257 - striker-b.ldr
@@ -849,6 +851,7 @@
 
 
 
+0 STEP
 0 FILE 8257 - handle.ldr
 0 A black and yellow Technic control handle with long brick beams, plates, and curved top bricks for grip.
 0 Name: 8257 - handle.ldr
@@ -893,6 +896,7 @@
 
 
 
+0 STEP
 0 FILE 8257 - arrow-teal.ldr
 0 A dark turquoise and black Technic arrow assembly made of thin liftarm beams and three-quarter pins.
 0 Name: 8257 - arrow-teal.ldr
@@ -958,6 +962,7 @@
 
 
 
+0 STEP
 0 FILE 8257 - target-teal.ldr
 0 A dark turquoise Technic target with a bent liftarm base, axles, and a light violet scoring disc.
 0 Name: 8257 - target-teal.ldr
@@ -986,6 +991,7 @@
 
 
 
+0 STEP
 0 FILE 8257 - seatback-teal.ldr
 0 A dark turquoise Technic seatback built from thin liftarm beams, pins, and an axle.
 0 Name: 8257 - seatback-teal.ldr
@@ -1021,6 +1027,7 @@
 
 
 
+0 STEP
 0 FILE 8257 - figure-teal.ldr
 0 A dark turquoise Technic action figure with helmet, visor, articulated limbs, and a frowning yellow head.
 0 Name: 8257 - figure-teal.ldr
@@ -1083,6 +1090,7 @@
 0 // Technic Action Figure Hand (yellow)
 1 14 -53.063 29.8634 -27.424 1 0 0 0 -0.4772 -0.8788 0 0.8788 -0.4772 2702.dat
 
+0 STEP
 0 FILE 8257 - shockabs.ldr
 0 A Technic shock absorber unit consisting of a 9L cylinder and piston rod.
 0 Name: 8257 - shockabs.ldr
@@ -1100,6 +1108,7 @@
 1 494 0 -7 0 1 0 0 0 1 0 0 0 1 8257 - 110c01.ldr
 
 
+0 STEP
 0 FILE 8257 - backbands.ldr
 0 A large collection of 642 black box primitives forming flexible band or tread segments.
 0 Name: 8257 - backbands.ldr
@@ -2417,6 +2426,7 @@
 
 
 
+0 STEP
 0 FILE 8257 - rubber_tread.ldr
 0 A black rubber tread assembly composed of straight, curved, and transition tread segments.
 0 Name: 8257 - rubber_tread.ldr
@@ -2505,6 +2515,7 @@
 
 
 
+0 STEP
 0 FILE 8257 - arrow-purple.ldr
 0 A purple and black Technic arrow assembly made of thin liftarm beams and three-quarter pins.
 0 Name: 8257 - arrow-purple.ldr
@@ -2570,6 +2581,7 @@
 
 
 
+0 STEP
 0 FILE 8257 - target-purple.ldr
 0 A purple Technic target with a bent liftarm base, axles, and a light violet scoring disc.
 0 Name: 8257 - target-purple.ldr
@@ -2598,6 +2610,7 @@
 
 
 
+0 STEP
 0 FILE 8257 - seatback-purple.ldr
 0 A purple Technic seatback built from thin liftarm beams, pins, and an axle.
 0 Name: 8257 - seatback-purple.ldr
@@ -2629,6 +2642,7 @@
 
 
 
+0 STEP
 0 FILE 8257 - figure-purple.ldr
 0 A purple Technic action figure with black limbs, light grey arm bearings, and a frowning yellow head.
 0 Name: 8257 - figure-purple.ldr
@@ -2687,6 +2701,7 @@
 1 14 -76.3226 7.6267 -15.0976 0.9239 0 0.3827 0.233 -0.7934 -0.5624 0.3036 0.6088 -0.733 2702.dat
 
 
+0 STEP
 0 FILE 8257 - 110c01.ldr
 0 A submodel with no direct pieces, likely a placeholder or reference assembly.
 0 Name: 8257 - 110c01.ldr
@@ -4456,6 +4471,7 @@
 4 16 10.1627 -2 -4.2095 11 -2 0 12 -1 0 11.0866 -1 -4.5922
 
 
+0 STEP
 0 FILE 8257 - cybhair.ldr
 0 A small light grey decorative element consisting of a bump and a cylinder forming cybernetic hair.
 0 Name: 8257 - cybhair.ldr
@@ -4470,6 +4486,7 @@
 1 7 0 7.8 0 -3.8437 0 9.2795 0 -12.8 0 9.2795 0 3.8437 t04o6250.dat
 1 7 0 7.8 0 9.2795 0 3.8437 0 -12.8 0 3.8437 0 -9.2795 t04o6250.dat
 
+0 STEP
 0 FILE 8257 - 2715.dat
 0 A Technic action figure helmet part with a top patternable area and a noted collision with the visor.
 0 Name: 8257 - 2715.dat
@@ -4621,6 +4638,7 @@
 5 24 -8.8 -25.17 10 0 -27.13 10 0 -22.3 18.4 -8.8 -27.13 0
 5 24 -8.8 -27.13 0 0 -27.13 10 -8.8 -25.17 10 0 -28.88 0
 
+0 STEP
 0 FILE s\8257 - 2715s01.dat
 0 A subpart forming half of the Technic action figure helmet without the top, built from cylinders, tori, and discs.
 0 Name: s\8257 - 2715s01.dat

@@ -14,6 +14,7 @@
 1 0 -220 0 -30 1 0 0 0 1 0 0 0 1 6484 - minifigar 2.ldr
 1 0 -180 0 -190 0.866 0 0.5 0 1 0 -0.5 0 0.866 6484 - minifigar 3.ldr
 
+0 STEP
 0 FILE 6484 - car 1.ldr
 0 A large multi-section vehicle built from plates, bricks, and slopes in red, black, and white, with multiple wheel-pin plates suggesting a car or transport vehicle.
 0 Name: 6484 - car 1.ldr
@@ -436,6 +437,7 @@
 0 // Crane Hook Metal  1 x  4 x  1 (black)
 1 0 0 -144 270 -1 0 0 0 1 0 0 0 -1 70278.dat
 
+0 STEP
 0 FILE 6484 - car 2.ldr
 0 A compact car built on a 4x10 car base with steering, grille tiles, headlight bricks, and sloped white body panels.
 0 Name: 6484 - car 2.ldr
@@ -523,6 +525,7 @@
 0 // Tyre  6/ 50 x  8 Offset Tread (black)
 1 0 -40 -10 60 0 0 1 0 1 0 -1 0 0 3641.dat
 
+0 STEP
 0 FILE 6484 - service point.ldr
 0 A pit service station featuring clip-mounted tool panels with a drill, hammer, wrenches, oilcan, and screwdriver alongside a radio.
 0 Name: 6484 - service point.ldr
@@ -590,6 +593,7 @@
 0 // Jack Assembly (Complete) Lowered (blue)
 1 1 -97.321 0 -50 0.866 0 0.5 0 1 0 -0.5 0 0.866 4629c01.dat
 
+0 STEP
 0 FILE 6484 - minifigar 1.ldr
 0 A blue-jacketed mechanic minifigure wearing a blue cap with a flat peak and sunglasses.
 0 Name: 6484 - minifigar 1.ldr
@@ -620,6 +624,7 @@
 0 // Minifig Head with Standard Grin and Sunglasses Pattern (yellow)
 1 14 0 -96 0 1 0 0 0 1 0 0 0 1 3626bp04.dat
 
+0 STEP
 0 FILE 6484 - minifigar 2.ldr
 0 A blue-jacketed mechanic minifigure with black hair and a sunglasses-printed head.
 0 Name: 6484 - minifigar 2.ldr
@@ -650,6 +655,7 @@
 0 // Minifig Head with Standard Grin and Sunglasses Pattern (yellow)
 1 14 0 -96 0 1 0 0 0 1 0 0 0 1 3626bp04.dat
 
+0 STEP
 0 FILE 6484 - minifigar 3.ldr
 0 A red #1 racing driver minifigure wearing a white helmet with a translucent visor and sunglasses.
 0 Name: 6484 - minifigar 3.ldr

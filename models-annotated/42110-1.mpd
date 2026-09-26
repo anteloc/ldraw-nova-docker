@@ -8,6 +8,7 @@
 1 0 0 -83 380 1 0 0 0 1 0.003 0 -0.003 1 42110 - chassis.ldr
 
 
+0 STEP
 0 FILE 42110 - rearaxle.ldr
 0 Rear live axle assembly with differential, bevel gears, universal joints, and a large open-center beam housing the drive and suspension arms.
 0 Name: 42110 - rearaxle.ldr
@@ -626,6 +627,7 @@
 1 1 -60 -120 -200 1 0 0 0 1 0 0 0 1 6558.dat
 
 
+0 STEP
 0 FILE 42110 - reargearbox.ldr
 0 Rear transmission gearbox section built from cross blocks, reinforced gears, bent liftarms, and axles providing gear reduction and torque transfer.
 0 Name: 42110 - reargearbox.ldr
@@ -758,6 +760,7 @@
 1 72 -20 -60 0 0 0 1 0 -1 0 1 0 0 3648b.dat
 
 
+0 STEP
 0 FILE 42110 - reargearbox2.ldr
 0 Auxiliary rear gearbox shaft assembly using a long axle, cross blocks, and an axle joiner to extend drive through the rear drivetrain.
 0 Name: 42110 - reargearbox2.ldr
@@ -790,6 +793,7 @@
 1 72 60 -20 0 -1 0 0 0 1 0 0 0 -1 32184.dat
 
 
+0 STEP
 0 FILE 42110 - rearaxle3.ldr
 0 Small rear axle linkage subassembly of angle connectors, short axles, and liftarms for steering or suspension articulation.
 0 Name: 42110 - rearaxle3.ldr
@@ -822,6 +826,7 @@
 1 71 113.785 0 -29.302 0.383 0 0.924 0 1 0 -0.924 0 0.383 32039.dat
 
 
+0 STEP
 0 FILE 42110 - rubberBandRound-1.ldr
 0 Flexible round rubber band rendered as 18 connected segments for tensioning a mechanism within the model.
 0 Name: 42110 - rubberBandRound-1.ldr
@@ -1333,6 +1338,7 @@
 5 24 9.91387 -0.082618 1.414214 8.499705 -0.070833 2 10.118526 0.896215 1.414214 9.065382 -4.076907 1.414214
 
 
+0 STEP
 0 FILE 42110 - reargearboxlever.ldr
 0 Gearbox selector lever made from a bent liftarm, beam, pins, and a half-bush for shifting the rear transmission range.
 0 Name: 42110 - reargearboxlever.ldr
@@ -1361,6 +1367,7 @@
 1 0 20 60 -60 -1 0 0 0 0 -1 0 -1 0 18651.dat
 
 
+0 STEP
 0 FILE 42110 - rearbox3.ldr
 0 Compact rear gearbox bracket combining angle connectors, cross blocks, a beam, and a joiner to support rear drive routing.
 0 Name: 42110 - rearbox3.ldr
@@ -1400,6 +1407,7 @@
 1 4 -240 0 30 0 -1 0 0 0 -1 1 0 0 32062.dat
 
 
+0 STEP
 0 FILE 42110 - reargearbox4.ldr
 0 Rear gearbox gear stage with double-bevel gears, toggle joint connector, angle connector, and a stopped axle for power transfer.
 0 Name: 42110 - reargearbox4.ldr
@@ -1432,6 +1440,7 @@
 1 71 0 10 20 1 0 0 0 1 0 0 0 1 32054.dat
 
 
+0 STEP
 0 FILE 42110 - frontaxle.ldr
 0 Front live axle assembly featuring suspension arms, long liftarms, cross blocks, differential gears, and axle joiners for driven front wheels.
 0 Name: 42110 - frontaxle.ldr
@@ -1735,6 +1744,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42110 - frontaxle2.ldr
 0 Front differential housing with open-center beam, bevel gears, differential, and universal joints to distribute drive to the front wheels.
 0 Name: 42110 - frontaxle2.ldr
@@ -1795,6 +1805,7 @@
 1 4 -119.124 8.325 0 0.208 0 -0.978 0.978 0 0.208 0 -1 0 3713.dat
 
 
+0 STEP
 0 FILE 42110 - frontaxle3.ldr
 0 Small front axle linkage using bent liftarms, angle connectors, and cross blocks to connect steering or suspension elements.
 0 Name: 42110 - frontaxle3.ldr
@@ -1834,6 +1845,7 @@
 1 4 -60 -20 -40 0 0 1 1 0 0 0 1 0 32062.dat
 
 
+0 STEP
 0 FILE 42110 - frontaxel4.ldr
 0 Front axle drive and steering assembly with gears, towball pin, cross blocks, and multiple axles routing drive and steering motion.
 0 Name: 42110 - frontaxel4.ldr
@@ -1894,6 +1906,7 @@
 1 0 20 40 0 0 0 1 0 1 0 -1 0 0 32270.dat
 
 
+0 STEP
 0 FILE 42110 - steerrack.ldr
 0 Rack-and-pinion steering assembly with a gear rack, steering links, towball pins, and angle connectors for front wheel steering.
 0 Name: 42110 - steerrack.ldr
@@ -1943,6 +1956,7 @@
 1 0 -60 -20 40 -1 0 0 0 -1 0 0 0 1 74695.dat
 
 
+0 STEP
 0 FILE 42110 - engine.ldr
 0 Inline engine block built from connector blocks, angle connectors, axles, bushes, and beams simulating a multi-cylinder piston engine.
 0 Name: 42110 - engine.ldr
@@ -2032,6 +2046,7 @@
 1 0 0 0 0 0 0 -1 -1 0 0 0 1 0 40490.dat
 
 
+0 STEP
 0 FILE 42110 - camshaft.ldr
 0 Engine camshaft assembly on a long axle with offset liftarms in black and olive green, a gear, and cross blocks to actuate engine pistons.
 0 Name: 42110 - camshaft.ldr
@@ -2076,6 +2091,7 @@
 1 71 0 0 -90 -1 0 0 0 -1 0 0 0 1 94925.dat
 
 
+0 STEP
 0 FILE 42110 - frontgearbox.ldr
 0 Front transmission gearbox with multiple reinforced gears, cross blocks, bent liftarms, axles, and axle joiners forming the main gear selection mechanism.
 0 Name: 42110 - frontgearbox.ldr
@@ -2251,6 +2267,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42110 - frontgearbox2.ldr
 0 Front gearbox shaft subassembly using long red and dark grey axles with cross blocks and bushes to support the front drivetrain.
 0 Name: 42110 - frontgearbox2.ldr
@@ -2290,6 +2307,7 @@
 1 0 70 -40 0 0 -1 0 0 0 -1 1 0 0 74695.dat
 
 
+0 STEP
 0 FILE 42110 - shiftplate.ldr
 0 Transmission shift plate mechanism with changeover catches, long beams, cross blocks, and axles enabling gear range selection.
 0 Name: 42110 - shiftplate.ldr
@@ -2374,6 +2392,7 @@
 1 71 38 0 -100 -1 0 0 0 -1 0 0 0 1 32054.dat
 
 
+0 STEP
 0 FILE 42110 - frontgearbox4.ldr
 0 Front gearbox selector linkage of a long beam, angle connectors, cross blocks, and pins for routing shift motion.
 0 Name: 42110 - frontgearbox4.ldr
@@ -2406,6 +2425,7 @@
 1 72 -40 0 -100 -1 0 0 0 1 0 0 0 -1 6536.dat
 
 
+0 STEP
 0 FILE 42110 - frontaxle5.ldr
 0 Small front axle bracket of a beam, liftarm, pins, and a connector block reinforcing the front axle structure.
 0 Name: 42110 - frontaxle5.ldr
@@ -2436,6 +2456,7 @@
 1 0 -20 0 -20 0 1 0 -1 0 0 0 0 1 74695.dat
 
 
+0 STEP
 0 FILE 42110 - chassis.ldr
 0 Central chassis frame built from long beams, bent liftarms, numerous pins and joiners, universal joints, and gears connecting the axles, engine, and gearboxes.
 0 Name: 42110 - chassis.ldr
@@ -3272,6 +3293,7 @@
 1 0 0 -240 158 1 0 0 0 -1 0 0 0 -1 32270.dat
 
 
+0 STEP
 0 FILE 42110 - steerwheelholder.ldr
 0 Steering wheel holder assembly using a bent liftarm, cross blocks, round tiles, and pins to mount the model's steering wheel.
 0 Name: 42110 - steerwheelholder.ldr
@@ -3301,6 +3323,7 @@
 1 0 2 0 20 0 1 0 -1 0 0 0 0 1 98138.dat
 
 
+0 STEP
 0 FILE 42110 - winchgears.ldr
 0 Winch gear mechanism with bevel and double-bevel gears, toggle joint connectors, and a stopped axle to drive a winch drum.
 0 Name: 42110 - winchgears.ldr
@@ -3334,6 +3357,7 @@
 1 0 20 40 -60 1 0 0 0 -1 0 0 0 -1 32270.dat
 
 
+0 STEP
 0 FILE 42110 - technicRibHose-LQ-1.ldr
 0 Flexible ribbed hose rendered as 35 connected mid-segments capped with end segments for a routing line or cable.
 0 Name: 42110 - technicRibHose-LQ-1.ldr
@@ -3437,6 +3461,7 @@
 1 16 7 11.75319 -89.222483 -1 0 0 0 0.258819 -0.965926 0 -0.965926 -0.258819 79.dat
 
 
+0 STEP
 0 FILE 42110 - ropeLQ-1.ldr
 0 A flexible rope assembly made of 395 cylinder segments forming an approximately 474mm long flexible element.
 0 Name: 42110 - ropeLQ-1.ldr
@@ -4279,6 +4304,7 @@
 1 16 -17.408424 -78.496468 -17.497903 0.182137 2.522775 1.149854 -1.472542 -0.15153 0.279985 0.220103 -3.101382 0.921653 4-4cyli.dat
 
 
+0 STEP
 0 FILE 42110 - dashboard.ldr
 0 A dashboard panel subassembly built around a Technic Panel 3x11 with beams, axles, and angle connectors for structural mounting.
 0 Name: 42110 - dashboard.ldr
@@ -4342,6 +4368,7 @@
 1 72 -80 20 40 -1 0 0 0 0 -1 0 -1 0 6536.dat
 
 
+0 STEP
 0 FILE 42110 - dashboard2.ldr
 0 A secondary dashboard section with a Technic Beam 11, tile, and pin connections forming a flat mounting surface.
 0 Name: 42110 - dashboard2.ldr
@@ -4372,6 +4399,7 @@
 1 28 60 0 -20 0 0 -1 1 0 0 0 -1 0 74695.dat
 
 
+0 STEP
 0 FILE 42110 - pillar1.ldr
 0 A structural pillar using T-shaped beams and a long Beam 11 reinforced with cross blocks and notched axles.
 0 Name: 42110 - pillar1.ldr
@@ -4402,6 +4430,7 @@
 1 0 -40 0 0 0 1 0 1 0 0 0 0 -1 60484.dat
 
 
+0 STEP
 0 FILE 42110 - runningboard1.ldr
 0 A side running board subassembly with a Technic Panel 3x11, bent connectors, and cross blocks forming a low side step.
 0 Name: 42110 - runningboard1.ldr
@@ -4438,6 +4467,7 @@
 1 4 0 -20 -180 -1 0 0 0 0 1 0 1 0 11214.dat
 
 
+0 STEP
 0 FILE 42110 - runningboard2.ldr
 0 A mirrored side running board subassembly with a Technic Panel 3x11, bent connectors, and cross blocks forming a low side step.
 0 Name: 42110 - runningboard2.ldr
@@ -4474,6 +4504,7 @@
 1 4 0 -20 -180 1 0 0 0 0 -1 0 1 0 11214.dat
 
 
+0 STEP
 0 FILE 42110 - pillar2.ldr
 0 A structural pillar using T-shaped beams and a long Beam 11 reinforced with cross blocks and notched axles.
 0 Name: 42110 - pillar2.ldr
@@ -4504,6 +4535,7 @@
 1 0 -40 0 0 0 1 0 -1 0 0 0 0 1 60484.dat
 
 
+0 STEP
 0 FILE 42110 - seat.ldr
 0 A vehicle seat with bent liftarms, curved fairing panels, and axles forming the backrest and cushion frame.
 0 Name: 42110 - seat.ldr
@@ -4620,6 +4652,7 @@
 1 28 20 -194.66 -22.563 -1 0 0 0 -0.259 0.966 0 0.966 0.259 63864.dat
 
 
+0 STEP
 0 FILE 42110 - backseat.ldr
 0 A rear back seat assembly with smooth Technic Panels, curved slope bricks, and plates forming the upholstered backrest.
 0 Name: 42110 - backseat.ldr
@@ -4728,6 +4761,7 @@
 1 0 -60 0 -30 0 1 0 0 0 -1 -1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 42110 - backbottom.ldr
 0 A rear bottom structural panel using a large Technic Panel Smooth 11x2x3 with a Beam 13 and bent liftarms for rigidity.
 0 Name: 42110 - backbottom.ldr
@@ -4794,6 +4828,7 @@
 1 70 -42 -20 -80 -1 0 0 0 0 -1 0 -1 0 24316.dat
 
 
+0 STEP
 0 FILE 42110 - backbottomside1.ldr
 0 A rear lower side panel with a fairing panel and bent liftarm forming the side bodywork trim.
 0 Name: 42110 - backbottomside1.ldr
@@ -4820,6 +4855,7 @@
 1 15 40 0 -30 1 0 0 0 0 -1 0 1 0 28974.dat
 
 
+0 STEP
 0 FILE 42110 - backbottomside2.ldr
 0 A mirrored rear lower side panel with a fairing panel and bent liftarm forming the opposite side bodywork trim.
 0 Name: 42110 - backbottomside2.ldr
@@ -4846,6 +4882,7 @@
 1 15 40 0 30 -1 0 0 0 0 -1 0 -1 0 28974.dat
 
 
+0 STEP
 0 FILE 42110 - backbottom2.ldr
 0 A rear bottom cross-brace using axles, angle connectors, half-bushes, and bent liftarms to link the structural frame.
 0 Name: 42110 - backbottom2.ldr
@@ -4899,6 +4936,7 @@
 1 72 200 20 0 0 0 1 0 1 0 -1 0 0 32013.dat
 
 
+0 STEP
 0 FILE 42110 - cabinside1.ldr
 0 An interior cab wall with smooth Technic Panels, bent liftarms, and a Beam 13 forming the cabin side lining.
 0 Name: 42110 - cabinside1.ldr
@@ -4966,6 +5004,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42110 - roofbottom.ldr
 0 The underside roof frame with a large open-center Beam 11x7 plate and angle connectors supporting the roof structure.
 0 Name: 42110 - roofbottom.ldr
@@ -5002,6 +5041,7 @@
 1 0 -2.411 20 99.684 0.966 0.259 0 0 0 -1 -0.259 0.966 0 63864.dat
 
 
+0 STEP
 0 FILE 42110 - cabinside2.ldr
 0 An interior cab wall with smooth Technic Panels, bent liftarms, and a Beam 13 forming the opposite cabin side lining.
 0 Name: 42110 - cabinside2.ldr
@@ -5068,6 +5108,7 @@
 1 0 -60 -340 60 0 1 0 1 0 0 0 0 -1 32316.dat
 
 
+0 STEP
 0 FILE 42110 - backpilar.ldr
 0 A rear pillar frame with liftarms, grooved tiles, and translucent red plates forming a windowed structural post.
 0 Name: 42110 - backpilar.ldr
@@ -5132,6 +5173,7 @@
 1 0 -10 -50 -18 0 -1 0 1 0 0 0 0 1 32526.dat
 
 
+0 STEP
 0 FILE 42110 - backdoor.ldr
 0 A rear door assembly with liftarms, grooved tiles, and translucent red plates forming a windowed hinged panel.
 0 Name: 42110 - backdoor.ldr
@@ -5197,6 +5239,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42110 - backdoor2.ldr
 0 A reinforced rear door assembly with an olive green Technic Panel 5x11, bent liftarms, and cross blocks forming a large door panel.
 0 Name: 42110 - backdoor2.ldr
@@ -5311,6 +5354,7 @@
 1 511 196 -63 -65 -1 0 0 0 1 0 0 0 -1 42110 - rubberBandRound-2.ldr
 
 
+0 STEP
 0 FILE 42110 - backdoorlatch.ldr
 0 A back door latch mechanism with thin liftarms, axles, bushes, and a curved slope forming a locking handle.
 0 Name: 42110 - backdoorlatch.ldr
@@ -5360,6 +5404,7 @@
 1 72 60 0 8 0 0 -1 1 0 0 0 -1 0 24201.dat
 
 
+0 STEP
 0 FILE 42110 - rubberBandRound-2.ldr
 0 A round rubber band assembly made of 23 generated segments forming an approximately 60mm loop.
 0 Name: 42110 - rubberBandRound-2.ldr
@@ -6001,6 +6046,7 @@
 5 24 -13.914214 1 1.414214 -12.5 1 2 -14.056766 0.010213 1.414214 -13.342417 4.959901 1.414214
 
 
+0 STEP
 0 FILE 42110 - backwindows1.ldr
 0 A rear window frame using a Beam 15 and multiple Beam 5 liftarms connected by pins to form a rectangular opening.
 0 Name: 42110 - backwindows1.ldr
@@ -6045,6 +6091,7 @@
 1 330 0 -120 0 1 0 0 0 1 0 0 0 1 42110 - backwindows2.ldr
 
 
+0 STEP
 0 FILE 42110 - backwindows2.ldr
 0 A rear window cross brace with a Beam 15, axle joiners, and cross blocks reinforcing the window frame.
 0 Name: 42110 - backwindows2.ldr
@@ -6069,6 +6116,7 @@
 1 0 0 100 140 0 0 -1 -1 0 0 0 1 0 63869.dat
 
 
+0 STEP
 0 FILE 42110 - backwheelarch1.ldr
 0 A rear wheel arch assembly with a Beam 15, bent liftarms, a fairing panel, and pins forming the curved wheel housing.
 0 Name: 42110 - backwheelarch1.ldr
@@ -6129,6 +6177,7 @@
 1 1 0 20 -80 -1 0 0 0 1 0 0 0 -1 6558.dat
 
 
+0 STEP
 0 FILE 42110 - backwheelarchtop.ldr
 0 A rear wheel arch top trim with plates and slope bricks forming the curved top edge of the wheel well.
 0 Name: 42110 - backwheelarchtop.ldr
@@ -6161,6 +6210,7 @@
 1 330 0 0 -230 0 0 1 0 1 0 -1 0 0 54200.dat
 
 
+0 STEP
 0 FILE 42110 - backwheelarch2.ldr
 0 A rear wheel arch assembly built from olive green Technic beams and a smooth fairing panel.
 0 Name: 42110 - backwheelarch2.ldr
@@ -6221,6 +6271,7 @@
 1 1 0 20 -80 1 0 0 0 1 0 0 0 1 6558.dat
 
 
+0 STEP
 0 FILE 42110 - roof.ldr
 0 A white roof structure composed of large 5x11 panels and supporting liftarms with extensive pin connections.
 0 Name: 42110 - roof.ldr
@@ -6446,6 +6497,7 @@
 1 0 180 30 -60 0 -1 0 1 0 0 0 0 1 2780.dat
 
 
+0 STEP
 0 FILE 42110 - roofside1.ldr
 0 A white roof side fairing using a smooth 7x2x3 panel, short fairing, and axle joiners.
 0 Name: 42110 - roofside1.ldr
@@ -6475,6 +6527,7 @@
 1 15 0 0 -260 0 -1 0 -1 0 0 0 0 -1 24119.dat
 
 
+0 STEP
 0 FILE 42110 - roofside2.ldr
 0 A mirrored white roof side fairing using a smooth 7x2x3 panel, short fairing, and axle joiners.
 0 Name: 42110 - roofside2.ldr
@@ -6504,6 +6557,7 @@
 1 15 0 0 -260 0 1 0 -1 0 0 0 0 1 24119.dat
 
 
+0 STEP
 0 FILE 42110 - door1.ldr
 0 An olive green side door with a 5x11 panel, long beams, and sloped plate detailing.
 0 Name: 42110 - door1.ldr
@@ -6665,6 +6719,7 @@
 1 4 -60 50 -30 0 0.091 0.996 1 0 0 0 0.996 -0.091 11214.dat
 
 
+0 STEP
 0 FILE 42110 - door1b.ldr
 0 A door window/mechanism frame of olive green liftarms joined by angle connectors and axles.
 0 Name: 42110 - door1b.ldr
@@ -6706,6 +6761,7 @@
 1 0 0 -30 -100 1 0 0 0 0 1 0 -1 0 59443.dat
 
 
+0 STEP
 0 FILE 42110 - door2.ldr
 0 A second olive green side door with a 5x11 panel, long beams, and sloped plate detailing.
 0 Name: 42110 - door2.ldr
@@ -6867,6 +6923,7 @@
 1 4 60 50 -30 0 -0.091 0.996 1 0 0 0 0.996 0.091 11214.dat
 
 
+0 STEP
 0 FILE 42110 - door2b.ldr
 0 A mirrored door window/mechanism frame of olive green liftarms joined by angle connectors and axles.
 0 Name: 42110 - door2b.ldr
@@ -6908,6 +6965,7 @@
 1 0 0 -30 -100 1 0 0 0 0 1 0 -1 0 59443.dat
 
 
+0 STEP
 0 FILE 42110 - frontbottom.ldr
 0 A front lower body section featuring a smooth grey panel and angled connector supports.
 0 Name: 42110 - frontbottom.ldr
@@ -7025,6 +7083,7 @@
 1 0 0 -60 -40 1 0 0 0 1 0 0 0 1 42110 - frontbottom2.ldr
 
 
+0 STEP
 0 FILE 42110 - frontbottom2.ldr
 0 A reinforced front lower subframe of light bluish grey liftarms and axles.
 0 Name: 42110 - frontbottom2.ldr
@@ -7065,6 +7124,7 @@
 1 0 100 -40 0 -1 0 0 0 -1 0 0 0 1 74695.dat
 
 
+0 STEP
 0 FILE 42110 - frontlight1.ldr
 0 A front light housing with a clear dish lens, black disc, and olive green curved quarter-ellipse beams.
 0 Name: 42110 - frontlight1.ldr
@@ -7150,6 +7210,7 @@
 1 330 0 40 0 1 0 0 0 0 1 0 -1 0 11946.dat
 
 
+0 STEP
 0 FILE 42110 - frontlight2.ldr
 0 A mirrored front light housing with a clear dish lens, black disc, and olive green curved quarter-ellipse beams.
 0 Name: 42110 - frontlight2.ldr
@@ -7235,6 +7296,7 @@
 1 330 0 40 0 1 0 0 0 0 1 0 -1 0 11947.dat
 
 
+0 STEP
 0 FILE 42110 - bonnetside1.ldr
 0 A bonnet side panel mounting built around a bent olive green liftarm with cross block connectors.
 0 Name: 42110 - bonnetside1.ldr
@@ -7270,6 +7332,7 @@
 1 0 10 10 -20 1 0 0 0 0 -1 0 1 0 2780.dat
 
 
+0 STEP
 0 FILE 42110 - bonnetside2.ldr
 0 A mirrored bonnet side panel mounting built around a bent olive green liftarm with cross block connectors.
 0 Name: 42110 - bonnetside2.ldr
@@ -7305,6 +7368,7 @@
 1 0 -10 10 -20 1 0 0 0 0 -1 0 1 0 2780.dat
 
 
+0 STEP
 0 FILE 42110 - bonnet.ldr
 0 An olive green bonnet (hood) assembly with a large 5x11 panel and long supporting beams.
 0 Name: 42110 - bonnet.ldr
@@ -7394,6 +7458,7 @@
 1 330 100 0 -120 0 1 0 1 0 0 0 0 -1 18654.dat
 
 
+0 STEP
 0 FILE 42110 - bonnettop.ldr
 0 A bonnet top surface of olive green tiles and curved slope bricks mounted on a grey base plate.
 0 Name: 42110 - bonnettop.ldr
@@ -7447,6 +7512,7 @@
 1 330 -80 8 80 -1 0 0 0 1 0 0 0 -1 15068.dat
 
 
+0 STEP
 0 FILE 42110 - frontwheelarch.ldr
 0 A front wheel arch built from olive green beam 7s and a straight angle connector.
 0 Name: 42110 - frontwheelarch.ldr
@@ -7500,6 +7566,7 @@
 1 71 0 -10 0 0 1 0 -1 0 0 0 0 1 4274.dat
 
 
+0 STEP
 0 FILE 42110 - bonnetside3.ldr
 0 An extended bonnet side structure with long olive green beam 15s, a beam 9, and a black tile.
 0 Name: 42110 - bonnetside3.ldr
@@ -7560,6 +7627,7 @@
 1 330 -20 10.598 156.961 0 1 0 0.848 0 -0.53 -0.53 0 -0.848 74695.dat
 
 
+0 STEP
 0 FILE 42110 - bonnetside4.ldr
 0 A mirrored extended bonnet side structure with long olive green beam 15s, a beam 9, and a black tile.
 0 Name: 42110 - bonnetside4.ldr
@@ -7620,6 +7688,7 @@
 1 330 20 10.598 156.961 0 -1 0 -0.848 0 -0.53 0.53 0 -0.848 74695.dat
 
 
+0 STEP
 0 FILE 42110 - roofrack.ldr
 0 A black roof rack framework of long thin liftarms, axles, and inline joiners.
 0 Name: 42110 - roofrack.ldr
@@ -7813,6 +7882,7 @@
 1 0 -360 10 80 0 1 0 1 0 0 0 0 -1 2780.dat
 
 
+0 STEP
 0 FILE 42110 - sidecase1.ldr
 0 A side case mounting frame built around an open-center beam with support liftarms and axles.
 0 Name: 42110 - sidecase1.ldr
@@ -7883,6 +7953,7 @@
 1 0 0 -120 -40 0 0 1 -1 0 0 0 -1 0 25214.dat
 
 
+0 STEP
 0 FILE 42110 - sidecaselid.ldr
 0 A side case lid composed of grey plates, tiles, and sloped detail pieces.
 0 Name: 42110 - sidecaselid.ldr
@@ -7949,6 +8020,7 @@
 1 0 18 -20 50 0 0 1 0 1 0 -1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 42110 - ladder.ldr
 0 A folding ladder assembly of black liftarms, toggle joints, and elbow cylinder connectors.
 0 Name: 42110 - ladder.ldr
@@ -8020,6 +8092,7 @@
 1 0 0 -160 80 -1 0 0 0 0 1 0 1 0 25214.dat
 
 
+0 STEP
 0 FILE 42110 - ladder2.ldr
 0 A ladder section of black thin liftarms joined by round pin joiners.
 0 Name: 42110 - ladder2.ldr
@@ -8050,6 +8123,7 @@
 1 1 0 80 -30 0 1 0 0 0 1 1 0 0 43093.dat
 
 
+0 STEP
 0 FILE 42110 - rooftrunk.ldr
 0 A roof trunk storage box with hinged lid, grey bricks and tiles, and orange grab handles.
 0 Name: 42110 - rooftrunk.ldr
@@ -8129,6 +8203,7 @@
 1 0 0 -48 0 1 0 0 0 1 0 0 0 1 42110 - rooftrunklid.ldr
 
 
+0 STEP
 0 FILE 42110 - rooftrunklid.ldr
 0 rooftrunklid
 0 Name: 42110 - rooftrunklid.ldr
@@ -8153,6 +8228,7 @@
 1 0 -50 16 -40 0 0 1 0 1 0 -1 0 0 6134.dat
 
 
+0 STEP
 0 FILE 42110 - 18575.dat
 0 18575
 0 Name: 42110 - 18575.dat
@@ -8275,6 +8351,7 @@
 0 // Rectangle with 3 Edges (main_colour)
 1 16 1.5 5.7018 0 0 0 0.5 0 1 -0.0998 -10 0 0 rect3.dat
 
+0 STEP
 0 FILE 42110 - 23801.dat
 0 23801
 0 Name: 42110 - 23801.dat
@@ -8373,6 +8450,7 @@
 0 // Technic Connector Hole One-Sided (main_colour)
 1 16 0 -20 0 -1 0 0 0 1 0 0 0 1 connhol3.dat
 
+0 STEP
 0 FILE 42110 - 92909.dat
 0 92909
 0 Name: 42110 - 92909.dat
@@ -8768,6 +8846,7 @@
 0 //NOTE current version has no solution for the nodged sphere socket (see 32494.dat), just define a fixed ori sphere for now
 0 !LDCAD SNAP_GEN [group=nudge1] [gender=F] [bounding=sph 6]
 
+0 STEP
 0 FILE 42110 - 35188.dat
 0 35188
 0 Name: 42110 - 35188.dat
@@ -8804,6 +8883,7 @@
 5 24 0 24.6 10 0 24.6 4.996 -5.7405 23.4585 4.996 5.7405 23.4585 4.996
 5 24 -27.6 0 -1.5 -19.8333 0 -1.5 -14.0241 14.0241 3.5643 -18.6 -15.588 -5.397
 
+0 STEP
 0 FILE 42110 - ldcRubberBandRndSeg.dat
 0 ldcRubberBandRndSeg
 0 Name: 42110 - ldcRubberBandRndSeg.dat
@@ -8824,6 +8904,7 @@
 1 16 0 0 0 2 0 0 0 1 0 0 0 2 42110 - ldcConRing8.dat
 1 16 0 1 0 2 0 0 0 1 0 0 0 2 42110 - ldcConRing8.dat
 
+0 STEP
 0 FILE 42110 - 39793.dat
 0 39793
 0 Name: 42110 - 39793.dat
@@ -8866,6 +8947,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 -1 s\42110 - 39793s01.dat
 1 16 0 0 0 -1 0 0 0 1 0 0 0 -1 s\42110 - 39793s01.dat
 
+0 STEP
 0 FILE 42110 - 35185.dat
 0 35185
 0 Name: 42110 - 35185.dat
@@ -8904,6 +8986,7 @@
 1 16 0 0 0 -1 0 0 0 1 0 0 0 1 s\42110 - 35185s01.dat
 1 16 0 0 0 0 -1 0 -1 0 0 0 0 1 s\42110 - 35185s01.dat
 
+0 STEP
 0 FILE 42110 - 46882.dat
 0 46882
 0 Name: 42110 - 46882.dat
@@ -8931,6 +9014,7 @@
 5 24 11.4999 -86.363998 73.636002 37 -66.400002 0 37 -65.900002 22.6 11.5 -86.363899 -73.636101
 5 24 32 -55.200001 0 40 -55.200001 0 40 -54.900002 -22.5 40 -54.900002 22.5
 
+0 STEP
 0 FILE 42110 - 85984.dat
 0 85984
 0 Name: 42110 - 85984.dat
@@ -8953,6 +9037,7 @@
 4 16 -18 -15.6 9.3333 -20 -13.6 6 20 -13.6 6 18 -15.6 9.3333
 4 16 -20 -4 -10 20 -4 -10 20 -13.6 6 -20 -13.6 6
 
+0 STEP
 0 FILE 42110 - 49294.dat
 0 49294
 0 Name: 42110 - 49294.dat
@@ -9035,6 +9120,7 @@
 1 16 0 0 -42 16.82324 0 -62.78518 62.78518 0 16.82324 0 1 0 48\1-12edge.dat
 3 16 -5.213 2.791 -30 -5.543 2.296 -30 -10.4332 1.0242 -30
 
+0 STEP
 0 FILE 42110 - ldcLQRopeSeg.dat
 0 ldcLQRopeSeg
 0 Name: 42110 - ldcLQRopeSeg.dat
@@ -9049,6 +9135,7 @@
 0 // Cylinder 1.0 (main_colour)
 1 16 0 0 0 1.5 0 0 0 1 0 0 0 1.5 4-4cyli.dat
 
+0 STEP
 0 FILE 42110 - 55615.dat
 0 55615
 0 Name: 42110 - 55615.dat
@@ -9501,6 +9588,7 @@
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 8 2   R 6 16   S 8 2] [center=true] [slide=true]
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 8 2   R 6 16   S 8 2] [center=true] [slide=true]
 
+0 STEP
 0 FILE 42110 - 33299a.dat
 0 33299a
 0 Name: 42110 - 33299a.dat
@@ -9534,6 +9622,7 @@
 4 16 8 10 36.661999 9 10 35.661999 9 10 32 8 10 32
 4 16 -9 10 35.661999 -8 10 36.661999 -8 10 32 -9 10 32
 
+0 STEP
 0 FILE 42110 - 39794.dat
 0 39794
 0 Name: 42110 - 39794.dat
@@ -9590,6 +9679,7 @@
 1 16 -60 0 100 -1 0 0 0 1 0 0 0 1 s\42110 - 39790s02.dat
 1 16 -60 0 -100 -1 0 0 0 1 0 0 0 -1 s\42110 - 39790s02.dat
 
+0 STEP
 0 FILE 42110 - 28192.dat
 0 28192
 0 Name: 42110 - 28192.dat
@@ -9682,6 +9772,7 @@
 4 16 -10 20 -30 10 20 -30 10 0 -10 -10 0 -10
 4 16 -10 0 -10 10 0 -10 10 0 10 -10 0 10
 
+0 STEP
 0 FILE 42110 - npeghol5.dat
 0 npeghol5
 0 Name: 42110 - npeghol5.dat
@@ -9736,6 +9827,7 @@
 5 24 3.4443 1 -1.6849 3.4443 0 -1.6849 6.3639 1 -3.6361 2 1 -1.397
 5 24 -3.4443 1 -1.6849 -3.4443 0 -1.6849 -6.3639 1 -3.6361 -2 1 -1.397
 
+0 STEP
 0 FILE s\42110 - 32269s01.dat
 0 32269s01
 0 Name: s\42110 - 32269s01.dat
@@ -9825,6 +9917,7 @@
 3 16 18.258699 2.4034 -10 17.789101 4.7663 -10 19.3403 4.9066 -10
 3 16 15.3375 12.7626 -10 14.6121 11.2123 -10 13.0227 13.0227 -10
 
+0 STEP
 0 FILE s\42110 - 32269s02.dat
 0 32269s02
 0 Name: s\42110 - 32269s02.dat
@@ -9896,6 +9989,7 @@
 4 16 11.998 -1 -10 11.998 1 -10 16.934099 1 -10 16.934099 -1 -10
 3 16 17 0 -10 16.934099 -1 -10 16.934099 1 -10
 
+0 STEP
 0 FILE s\42110 - 23801s01.dat
 0 23801s01
 0 Name: s\42110 - 23801s01.dat
@@ -10382,6 +10476,7 @@
 3 16 9.6 -13.4026 -3.4442 8.3149 -14.2614 -3.4442 6.42908 -15.5212 -6.3
 5 24 6.42908 -15.5212 -15 6.42908 -15.5212 -6.3 9.5671 -13.4246 -15 -0.000136 -16.800446 -15
 
+0 STEP
 0 FILE 42110 - axl4hole.dat
 0 axl4hole
 0 Name: 42110 - axl4hole.dat
@@ -10410,6 +10505,7 @@
 1 16 0 0 0 -1 0 0 0 1 0 0 0 1 axlehol6.dat
 4 16 -2 1 5.602 0 1 6 0 0 6 -2 0 5.602
 
+0 STEP
 0 FILE 42110 - axl4hol2.dat
 0 axl4hol2
 0 Name: 42110 - axl4hol2.dat
@@ -10428,6 +10524,7 @@
 0 // Circle 0.25 (main_colour)
 1 16 0 0 0 -6 0 0 0 1 0 0 0 -6 1-4edge.dat
 
+0 STEP
 0 FILE 42110 - axl4hol3.dat
 0 axl4hol3
 0 Name: 42110 - axl4hol3.dat
@@ -10446,6 +10543,7 @@
 2 24 4.243 0 -4.243 2.296 0 -5.543
 2 24 2.296 0 -5.543 2 0 -5.602
 
+0 STEP
 0 FILE s\42110 - 98138s01.dat
 0 98138s01
 0 Name: s\42110 - 98138s01.dat
@@ -10465,6 +10563,7 @@
 0 // Ring  9 x 1.0 (main_colour)
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 4-4ring9.dat
 
+0 STEP
 0 FILE s\42110 - 98138s02.dat
 0 98138s02
 0 Name: s\42110 - 98138s02.dat
@@ -10484,6 +10583,7 @@
 0 // Cylinder Open 1.0 (main_colour)
 1 16 0 0 0 10 0 0 0 7 0 0 0 10 4-4cylo.dat
 
+0 STEP
 0 FILE s\42110 - 39793s01.dat
 0 Curved Technic shell submodel built from cylinders, discs, and rings forming a rounded housing with a connector hole.
 0 Name: s\42110 - 39793s01.dat
@@ -10619,6 +10719,7 @@
 3 16 12 -6.364 26.364 12 0 28.4853 12 -4.2426 24.242599
 3 16 12 0 28.4853 12 6.3639 26.363899 12 4.2426 24.242599
 
+0 STEP
 0 FILE s\42110 - 35185s01.dat
 0 Empty Technic part placeholder submodel with no direct geometry pieces.
 0 Name: s\42110 - 35185s01.dat
@@ -10662,6 +10763,7 @@
 2 24 0.457 12.3917 -2 1.7915 16.881901 -2
 4 16 0 17 -9.8 1.0915 16.928101 -9.8 0 13.222 -9.8 -1.0915 16.928101 -9.8
 
+0 STEP
 0 FILE s\42110 - 35188s01.dat
 0 Box-shaped Technic brick submodel composed of rectangles and a ring forming a hollow cylindrical body.
 0 Name: s\42110 - 35188s01.dat
@@ -11011,6 +11113,7 @@
 2 24 9.9167 17.175699 7.4256 10.9584 16.480499 6.7706
 2 24 9.9167 17.175699 7.4256 9.1003 17.5786 7.9389
 
+0 STEP
 0 FILE 48\42110 - 1-6ring6.dat
 0 Primitive-generated one-sixth ring segment used as a small fractional ring element.
 0 Name: 48\42110 - 1-6ring6.dat
@@ -11030,6 +11133,7 @@
 4 16 4.2616 0 5.5538 3.5 0 6.062 3 0 5.196 3.6528 0 4.7604
 0 // Build by Primitive Generator 2
 
+0 STEP
 0 FILE 42110 - ldcCyli8.dat
 0 Empty LDCad-generated cylinder placeholder submodel with no direct pieces.
 0 Name: 42110 - ldcCyli8.dat
@@ -11059,6 +11163,7 @@
 5 24 -1 0 0 -1 1 0 -0.707107 0 -0.707107 -0.707107 0 0.707107
 5 24 -0.707107 0 0.707107 -0.707107 1 0.707107 -1 0 0 0 0 1
 
+0 STEP
 0 FILE 42110 - ldcConRing8.dat
 0 LDCad path-deform connector ring submodel consisting of flexible edge-control annotations.
 0 Name: 42110 - ldcConRing8.dat
@@ -11082,6 +11187,7 @@
 5 24 -1 0 0 -0.707107 0 0.707107 -1 -1 0 -1 1 0
 5 24 -0.707107 0 0.707107 0 0 1 -0.707107 -1 0.707107 -0.707107 1 0.707107
 
+0 STEP
 0 FILE 42110 - npeghol3.dat
 0 Technic connector hole submodel combining cylinders, rings, and boxes into a peg-and-hole assembly.
 0 Name: 42110 - npeghol3.dat
@@ -11127,6 +11233,7 @@
 0 // Box with  2 Faces without  7 Edges (main_colour)
 1 16 2.7222 0.5 -3.041 0 -0.72215 0 0.5 0 0 0 0.14395 1.5 box2-7.dat
 
+0 STEP
 0 FILE s\42110 - 33299s01.dat
 0 Technic connector submodel with pin holes, collars, and multiple rings forming a reinforced cylindrical joint.
 0 Name: s\42110 - 33299s01.dat
@@ -11397,6 +11504,7 @@
 5 24 -4.9498 0 35.050098 -4.9498 10 35.050098 -6 0 36.661999 -2.6788 0 33.5327
 5 24 4.9497 10 35.050301 4.9498 0 35.050201 6 0 36.661999 2.6788 10 33.5327
 
+0 STEP
 0 FILE s\42110 - 39790s01.dat
 0 Technic beam connector submodel featuring peg holes, a long connector hole, and disc cutouts.
 0 Name: s\42110 - 39790s01.dat
@@ -11437,6 +11545,7 @@
 0 // Rectangle with 1 Edge (main_colour)
 1 16 -10 1 0 0 1 0 9 0 0 0 0 -12 rect1.dat
 
+0 STEP
 0 FILE s\42110 - 39790s02.dat
 0 Detailed Technic beam connector submodel with a long connector hole, cylinders, and edge rectangles forming a ribbed body.
 0 Name: s\42110 - 39790s02.dat
@@ -11618,6 +11727,7 @@
 5 24 -3.827 10 -9.239 -3.827 3.444 -9.239 0 10 -10 -5.7995 10 -7.9208
 2 24 -11.685 3.444 -3.827 -11.685 10 -3.827
 
+0 STEP
 0 FILE s\42110 - 85984s01.dat
 0 Sloped Technic bush or cap submodel built from a box, circle, and sloped cylinder.
 0 Name: s\42110 - 85984s01.dat
@@ -11746,6 +11856,7 @@
 
 0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=R 6 4] [grid=C 2 1 20 0]
 
+0 STEP
 0 FILE s\42110 - 46882s01.dat
 0 Complex Technic connector submodel with long connector holes, sloped convex cylinders, and varied radii forming an angled joint.
 0 Name: s\42110 - 46882s01.dat
@@ -12328,6 +12439,7 @@
 2 24 31.587999 4.9749 -127.989601 31.2502 -0.0001 -126.999702
 2 24 29.052099 -4.9748 -127.9897 31.1464 -0.2272 -127.044899
 
+0 STEP
 0 FILE 42110 - 2723.dat
 0 Simple ring assembly composed of concentric fractional rings.
 0 Name: 42110 - 2723.dat
@@ -12359,6 +12471,7 @@
 0 // Ring  1 x 1.0 (main_colour)
 1 16 0 3 0 15 0 0 0 1 0 0 0 15 4-4ring1.dat
 
+0 STEP
 0 FILE s\42110 - 2723s01.dat
 0 Technic axle ring submodel featuring an axle hole, open cylinders, and concentric rings.
 0 Name: s\42110 - 2723s01.dat
@@ -12391,6 +12504,7 @@
 0 // Ring  6 x 1.0 (main_colour)
 1 16 0 10 0 1 0 0 0 -1 0 0 0 1 4-4ring6.dat
 
+0 STEP
 0 FILE s\42110 - 49294s01.dat
 0 Technic connector submodel with a peg hole, axle-like cylinders, sloped sections, and rings forming a stepped joint.
 0 Name: s\42110 - 49294s01.dat

@@ -10,6 +10,7 @@
 0 
 
 0
+0 STEP
 0 FILE 42020-1 - Sub01.ldr
 0 Main structural frame assembly built from bent beams, cross blocks, and long pins forming the chassis core.
 0 Name: 42020-1 - Sub01.ldr
@@ -150,6 +151,7 @@
 1 71 70.1 52.5 -180 0 0 -1 0 1 0 1 0 0 42020-1 - Sticker Rescue Left.dat
 
 0
+0 STEP
 0 FILE 42020-1 - Sub02.ldr
 0 Small bent liftarm bracket mounted on a notched axle with thin liftarm struts.
 0 Name: 42020-1 - Sub02.ldr
@@ -170,6 +172,7 @@
 0 
 
 0
+0 STEP
 0 FILE 42020-1 - Sub03.ldr
 0 Reinforced structural support arm using long liftarms, an axle 7, and cross blocks for bracing.
 0 Name: 42020-1 - Sub03.ldr
@@ -220,6 +223,7 @@
 0 
 
 0
+0 STEP
 0 FILE 42020-1 - Sub04.ldr
 0 Compact bearing assembly with a stopped axle, two flanged bushes, and an axle/pin cross block.
 0 Name: 42020-1 - Sub04.ldr
@@ -240,6 +244,7 @@
 0 
 
 0
+0 STEP
 0 FILE 42020-1 - Sub05.ldr
 0 Gear drive assembly featuring bevel and double-bevel gears mounted on axles with joiners and bushes.
 0 Name: 42020-1 - Sub05.ldr
@@ -270,6 +275,7 @@
 0 
 
 0
+0 STEP
 0 FILE 42020-1 - Sub06.ldr
 0 Rotor assembly with three 8L blades mounted on a bevel gear and stopped axle.
 0 Name: 42020-1 - Sub06.ldr
@@ -298,6 +304,7 @@
 0 
 
 0
+0 STEP
 0 FILE 42020-1 - Sub07.ldr
 0 Long structural spar built from beam 11 liftarms, quarter-circle bent arms, and axle joiners.
 0 Name: 42020-1 - Sub07.ldr
@@ -342,6 +349,7 @@
 0 
 
 0
+0 STEP
 0 FILE 42020-1 - Sub08.ldr
 0 Grabber or scoop blade assembly with transparent teeth, liftarms, and a triple-pin cross block.
 0 Name: 42020-1 - Sub08.ldr
@@ -382,6 +390,7 @@
 0 
 
 0
+0 STEP
 0 FILE 42020-1 - Sub09.ldr
 0 Rotor assembly with three 8L blades driven by a double-bevel gear on a stopped axle.
 0 Name: 42020-1 - Sub09.ldr
@@ -408,6 +417,7 @@
 0 
 
 0
+0 STEP
 0 FILE 42020-1 - Sticker Rescue Right.dat
 0 Decorative right-side 'Rescue' sticker panel.
 0 Name: 42020-1 - Sticker Rescue Right.dat
@@ -3217,6 +3227,7 @@
 4 15 137.188 15 0 159.688 15 0 159.688 15.3125 0 137.188 15.3125 0
 
 0
+0 STEP
 0 FILE 42020-1 - Sticker Rescue Left.dat
 0 Decorative left-side 'Rescue' sticker panel.
 0 Name: 42020-1 - Sticker Rescue Left.dat

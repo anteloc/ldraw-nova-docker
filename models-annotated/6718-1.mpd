@@ -11,6 +11,7 @@
 1 0 60 -16 200 0.857 0 -0.515 0 1 0 0.515 0 0.857 6718 - Raindance Ridge - Totem.ldr
 
 
+0 STEP
 0 FILE 6718 - Raindance Ridge - Minifig1.ldr
 0 A Native American minifigure with a tan body featuring blue/white triangle patterns, a feathered headband hairstyle, and armed with a quiver of arrows and a spear.
 0 Name: 6718 - Raindance Ridge - Minifig1.ldr
@@ -43,6 +44,7 @@
 1 0 -37.361 -73.426 10.648 0.935 0.137 0.326 -0.303 0.782 0.544 -0.18 -0.608 0.773 4497.dat
 
 
+0 STEP
 0 FILE 6718 - Raindance Ridge - Minifig2.ldr
 0 A Native American warrior minifigure wearing a buffalo horned headdress with feathers, carrying a patterned ovoid shield and a handaxe.
 0 Name: 6718 - Raindance Ridge - Minifig2.ldr
@@ -73,6 +75,7 @@
 1 15 20.021 -34.527 -35.15 0.792 0.094 0.602 0.101 0.954 -0.281 -0.601 0.284 0.747 30127p01.dat
 
 
+0 STEP
 0 FILE 6718 - Raindance Ridge - Horse.ldr
 0 A white horse outfitted with a green patterned blanket, saddle, and feathered tack, accompanied by a bow with arrow.
 0 Name: 6718 - Raindance Ridge - Horse.ldr
@@ -89,6 +92,7 @@
 1 0 -31 -12 17.5 1 0 0 0 1 0 0 0 1 4499.dat
 
 
+0 STEP
 0 FILE 6718 - Raindance Ridge - Totem.ldr
 0 A small totem pole built from stacked round and curved bricks in red, white, and brown, topped with a dark grey parrot.
 0 Name: 6718 - Raindance Ridge - Totem.ldr
@@ -124,6 +128,7 @@
 1 8 0 -136 10 1 0 0 0 1 0 0 0 1 2546.dat
 
 
+0 STEP
 0 FILE 6718 - Raindance Ridge - Ridge.ldr
 0 A rocky ridge landform built on a large grey baseplate with blue slopes and tiles, black structural bricks, and brown round elements.
 0 Name: 6718 - Raindance Ridge - Ridge.ldr
@@ -211,6 +216,7 @@
 1 0 59 -35 160 0.242 0 -0.97 0 1 0 0.97 0 0.242 4499.dat
 
 
+0 STEP
 0 FILE 6718 - Raindance Ridge - Platform.ldr
 0 A small hinged platform structure made of grey panels on a black plate base with a blue hinge top.
 0 Name: 6718 - Raindance Ridge - Platform.ldr
@@ -240,6 +246,7 @@
 
 
 
+0 STEP
 0 FILE 6718 - 30131.dat
 0 A primitive geometric part composed of cylinders, circles, rings, and ministuds forming a rounded stud-based element.
 0 Name: 6718 - 30131.dat

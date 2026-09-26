@@ -10,6 +10,7 @@
 1 16 -20 -140.439 -109.989 1 0 0 0 0.978 -0.207 0 0.207 0.978 42107 - bike.ldr
 
 
+0 STEP
 0 FILE 42107 - windshield.ldr
 0 Front fairing and windshield subassembly built from liftarms, angle connectors, clear tiles, and decorative katana blades forming the front cowl structure.
 0 Name: 42107 - windshield.ldr
@@ -122,6 +123,7 @@
 1 47 0 -71 -74 -1 0 0 0 0.988 -0.156 0 -0.156 -0.988 42107 - 67144p01c01.dat
 
 
+0 STEP
 0 FILE 42107 - windshield2.ldr
 0 Small supplemental fairing section using a red beam and two short smooth panel fairings mounted with friction pins.
 0 Name: 42107 - windshield2.ldr
@@ -146,6 +148,7 @@
 1 0 -40 20 30 0 1 0 0 0 -1 -1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 42107 - chassistop.ldr
 0 Upper chassis framework of bent liftarms, beams, and a red bent panel that connects the frame to the bodywork.
 0 Name: 42107 - chassistop.ldr
@@ -181,6 +184,7 @@
 1 0 -40 16.252 3.095 0 1 0 0 0 1 1 0 0 60483.dat
 
 
+0 STEP
 0 FILE 42107 - gearbox1.ldr
 0 Compact gearbox module assembled from cross blocks, angle connectors, axles, and liftarms housing the transmission gear train.
 0 Name: 42107 - gearbox1.ldr
@@ -259,6 +263,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42107 - gearbox2.ldr
 0 Gear-shifting module containing bevel and spur gears on axles joined by cross blocks and a long white beam for the gear linkage.
 0 Name: 42107 - gearbox2.ldr
@@ -330,6 +335,7 @@
 1 4 -20 -40 10 0 0 -1 -1 0 0 0 1 0 32523.dat
 
 
+0 STEP
 0 FILE 42107 - engine.ldr
 0 Four-cylinder engine assembly with cylinder heads, pistons, connecting rods, and twin crankshafts mounted on an engine block.
 0 Name: 42107 - engine.ldr
@@ -398,6 +404,7 @@
 1 0 -20 10 60 0 0 -1 0 1 0 1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 42107 - gearboxside.ldr
 0 Side-mounted gearbox structure of long beams, cross blocks, angle connectors, and bushes supporting the drivetrain.
 0 Name: 42107 - gearboxside.ldr
@@ -465,6 +472,7 @@
 1 0 -40 20 -20 -1 0 0 0 0 -1 0 -1 0 15100.dat
 
 
+0 STEP
 0 FILE 42107 - rubberBandRound-2.ldr
 0 Generated flexible rubber band loop, approximately 56 mm long, made of 18 deformed segments.
 0 Name: 42107 - rubberBandRound-2.ldr
@@ -976,6 +984,7 @@
 5 24 -10.914214 0 1.414214 -9.5 0 2 -11.114059 -0.979828 1.414214 -10.043918 4.262187 1.414214
 
 
+0 STEP
 0 FILE 42107 - rearfork.ldr
 0 Rear swingarm fork built from a long beam, triangle liftarms, bent beams, wheel hub bearing, and cross blocks to mount the rear wheel.
 0 Name: 42107 - rearfork.ldr
@@ -1073,6 +1082,7 @@
 1 71 -234.751 115.877 -50 -0.25 0 0.968 0.968 0 0.25 0 1 0 18654.dat
 
 
+0 STEP
 0 FILE 42107 - rubberBandRound-1.ldr
 0 Generated flexible rubber band loop, approximately 80 mm long, made of 19 deformed segments.
 0 Name: 42107 - rubberBandRound-1.ldr
@@ -1610,6 +1620,7 @@
 5 24 -9.914214 0 6.414214 -8.5 0 7 -10.108355 -0.980973 6.414214 -9.108122 4.205433 6.414214
 
 
+0 STEP
 0 FILE 42107 - frontfork.ldr
 0 Front fork assembly using long beams, angle connectors, triangle liftarms, and axle joiners to form the telescopic-style steering forks.
 0 Name: 42107 - frontfork.ldr
@@ -1713,6 +1724,7 @@
 1 19 20 20 0 -1 0 0 0 0 1 0 1 0 18654.dat
 
 
+0 STEP
 0 FILE 42107 - frontwheel.ldr
 0 Front wheel module consisting of a motorcycle rim and racing tyre mounted on an axle with brake discs and gold shock absorbers.
 0 Name: 42107 - frontwheel.ldr
@@ -1757,6 +1769,7 @@
 1 256 1 -20 -200 0 0 1 0 -1 0 1 0 0 88516.dat
 
 
+0 STEP
 0 FILE 42107 - sidepanel1.ldr
 0 Left bodywork side panel of red fairing panels, a thin black spoiler, and a trapezoid flag detail on a support beam.
 0 Name: 42107 - sidepanel1.ldr
@@ -1799,6 +1812,7 @@
 1 71 20 -40 -20 -1 0 0 0 0 -1 0 -1 0 32054.dat
 
 
+0 STEP
 0 FILE 42107 - sidepanel2.ldr
 0 Long red fairing side panel with a medium-wide panel and angle connector attached via friction pins.
 0 Name: 42107 - sidepanel2.ldr
@@ -1825,6 +1839,7 @@
 1 4 20 80 -20 0 1 0 -1 0 0 0 0 1 22961.dat
 
 
+0 STEP
 0 FILE 42107 - sidepanel3.ldr
 0 Right bodywork side panel mirroring sidepanel1, with red fairings, a black spoiler detail, and trapezoid flag accent.
 0 Name: 42107 - sidepanel3.ldr
@@ -1866,6 +1881,7 @@
 1 71 20 -40 20 -1 0 0 0 0 1 0 1 0 32054.dat
 
 
+0 STEP
 0 FILE 42107 - bottom1.ldr
 0 Lower frame section joining split cross blocks, notched axles, and thin fairing panels under one side of the chassis.
 0 Name: 42107 - bottom1.ldr
@@ -1905,6 +1921,7 @@
 1 0 -30 10 -120 0 1 0 1 0 0 0 0 -1 2780.dat
 
 
+0 STEP
 0 FILE 42107 - bottom2.ldr
 0 Lower frame section mirroring bottom1, using split cross blocks, notched axles, and thin fairing panels for the opposite side.
 0 Name: 42107 - bottom2.ldr
@@ -1942,6 +1959,7 @@
 1 0 30 10 -120 0 -1 0 -1 0 0 0 0 -1 2780.dat
 
 
+0 STEP
 0 FILE 42107 - sidepanel4.ldr
 0 Long red fairing side panel with a medium-wide panel and angle connector attached via friction pins, mirroring sidepanel2.
 0 Name: 42107 - sidepanel4.ldr
@@ -1968,6 +1986,7 @@
 1 4 20 80 20 0 1 0 -1 0 0 0 0 1 22961.dat
 
 
+0 STEP
 0 FILE 42107 - technicChainClosed-1.ldr
 0 Closed Technic chain loop of 35 chain links, approximately 224 mm long, representing the drive chain.
 0 Name: 42107 - technicChainClosed-1.ldr
@@ -2066,6 +2085,7 @@
 1 16 -30.7 0 0 0 0.966184 0.257853 0 -0.257853 0.966184 1 0 0 3711.dat
 
 
+0 STEP
 0 FILE 42107 - rear.ldr
 0 Rear section comprising short red fairing panels, split cross block, and toothed axle parts forming the rear fender and detail.
 0 Name: 42107 - rear.ldr
@@ -2105,6 +2125,7 @@
 1 4 36.527 39.696 -20 0.985 0.174 0 0.174 -0.985 0 0 0 -1 41669.dat
 
 
+0 STEP
 0 FILE 42107 - bike.ldr
 0 Main motorcycle submodel integrating the frame, beams, axles, pins, and structural liftarms that form the core chassis of the bike.
 0 Name: 42107 - bike.ldr
@@ -2558,6 +2579,7 @@
 1 71 0 -259.229 -195.01 -1 0 0 0 0.9 0.436 0 0.436 -0.9 42107 - windshield.ldr
 
 
+0 STEP
 0 FILE 42107 - stand.ldr
 0 Side stand assembly of beams, angle connectors, axle joiners, small wheels, and bushes that fold out to support the parked bike.
 0 Name: 42107 - stand.ldr
@@ -2657,6 +2679,7 @@
 1 1 15 -60.634 -62.187 -1 0 0 0 -0.964 -0.264 0 -0.264 0.964 43093.dat
 
 
+0 STEP
 0 FILE 42107 - 67144p01c01.dat
 0 Pre-assembled part representing a prebuilt Technic component referenced directly by the model.
 0 Name: 42107 - 67144p01c01.dat
@@ -2674,6 +2697,7 @@
 1 16 0 0 0 -1 0 0 0 1 0 0 0 1 s\42107 - 67144c01s02.dat
 1 4 0 0 0 -1 0 0 0 1 0 0 0 1 s\42107 - 67144c01s03.dat
 
+0 STEP
 0 FILE 42107 - ldcRubberBandRndSeg.dat
 0 Reusable LDCad rubber band segment primitive used to construct the flexible band loops.
 0 Name: 42107 - ldcRubberBandRndSeg.dat
@@ -2698,6 +2722,7 @@
 
 
 
+0 STEP
 0 FILE 42107 - 23801.dat
 0 A rounded circular component built from cylinders, rings, and discs forming a smooth tire or wheel-like shape.
 0 Name: 42107 - 23801.dat
@@ -2796,6 +2821,7 @@
 0 // Technic Connector Hole One-Sided (main_colour)
 1 16 0 -20 0 -1 0 0 0 1 0 0 0 1 connhol3.dat
 
+0 STEP
 0 FILE 42107 - 33299b.dat
 0 A small Technic connector piece with axle holes and peg holes for mechanical attachment.
 0 Name: 42107 - 33299b.dat
@@ -2834,6 +2860,7 @@
 4 16 3.444 10 31.684999 0 10 31 0 10 32 3.062 10 32.609001
 
 
+0 STEP
 0 FILE 42107 - ldcCyli8.dat
 0 An LDCad flexible cylinder path-deform primitive with no direct geometry pieces.
 0 Name: 42107 - ldcCyli8.dat
@@ -2865,6 +2892,7 @@
 
 
 
+0 STEP
 0 FILE 42107 - ldcConRing8.dat
 0 An LDCad path-deform connector ring primitive used for flexible hose or cable generation.
 0 Name: 42107 - ldcConRing8.dat
@@ -2890,6 +2918,7 @@
 
 
 
+0 STEP
 0 FILE s\42107 - 23801s01.dat
 0 A detailed sub-part of a wheel or tire using concentric cylinders, cones, and rings to form a treaded circular surface.
 0 Name: s\42107 - 23801s01.dat
@@ -3376,6 +3405,7 @@
 3 16 9.6 -13.4026 -3.4442 8.3149 -14.2614 -3.4442 6.42908 -15.5212 -6.3
 5 24 6.42908 -15.5212 -15 6.42908 -15.5212 -6.3 9.5671 -13.4246 -15 -0.000136 -16.800446 -15
 
+0 STEP
 0 FILE s\42107 - 67144c01s01.dat
 0 A sub-part reference with no direct pieces, likely a structural or detail component of a larger assembly.
 0 Name: s\42107 - 67144c01s01.dat
@@ -3931,6 +3961,7 @@
 5 24 0 0.2993 -78.760002 0 0.2992 -69.960403 -5.4781 0.6828 -77.986504 5.4781 0.6828 -77.986504
 5 24 0 0 -78.760002 0 0.2993 -78.760002 -5.4781 0.6828 -77.986504 5.4781 0.6828 -77.986504
 
+0 STEP
 0 FILE s\42107 - 67144c01s02.dat
 0 A sub-part reference with no direct pieces, likely a structural or detail component of a larger assembly.
 0 Name: s\42107 - 67144c01s02.dat
@@ -4052,6 +4083,7 @@
 5 24 31.8046 15.2869 -35.481098 34.5177 20.664101 -27.0807 24.4627 13.8011 58.0285 32.9645 15.8783 -46.000301
 5 24 0 0 57.529999 0 0 -69.959999 5.6218 0.4299 -69.187401 -5.6218 0.4299 -69.187401
 
+0 STEP
 0 FILE s\42107 - 67144c01s03.dat
 0 A sub-part reference with no direct pieces, likely a structural or detail component of a larger assembly.
 0 Name: s\42107 - 67144c01s03.dat

@@ -274,6 +274,7 @@
 1 256 -90 0 -270 0 0 1 0 1 0 -1 0 0 58090.dat
 
 
+0 STEP
 0 FILE 8256 - Seat.ldr
 0 A small Technic seat assembly built from bent liftarms, beams, an axle, and connecting pins.
 0 Name: 8256 - Seat.ldr
@@ -300,6 +301,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 8256 - Right-side.ldr
 0 A Technic side panel constructed from long beams, cross blocks, an axle, and various pins forming the vehicle's right structure.
 0 Name: 8256 - Right-side.ldr
@@ -353,6 +355,7 @@
 1 0 45 -45.082 -81.625 0 -1 0 -0.432 0 -0.902 0.902 0 -0.432 32063.dat
 
 
+0 STEP
 0 FILE 8256 - Soft Axle 7 - 1.ldr
 0 A flexible Technic soft axle of approximately 55 mm length composed of 20 curved segments.
 0 Name: 8256 - Soft Axle 7 - 1.ldr
@@ -2101,6 +2104,7 @@
 5 24 -16.304399 -130 -1.5308 -16.304399 -126.529686 -1.5308 -16 -130 0 -17.1716 -130 -2.8284
 
 
+0 STEP
 0 FILE 8256 - Steering Wheel.ldr
 0 A Technic steering assembly consisting of a small steering wheel mounted on axles with a bush and connectors.
 0 Name: 8256 - Steering Wheel.ldr
@@ -2124,6 +2128,7 @@
 1 71 0 -10.163 -33.25 1 0 0 0 0.905 -0.425 0 0.425 0.905 32073.dat
 
 
+0 STEP
 0 FILE 8256 - Soft Axle 7 - 2.ldr
 0 A flexible Technic soft axle of approximately 54 mm length composed of 23 curved segments.
 0 Name: 8256 - Soft Axle 7 - 2.ldr
@@ -3974,6 +3979,7 @@
 5 24 23.695601 -130 -5.5308 23.695601 -126.352898 -5.5308 24 -130 -4 22.8284 -130 -6.8284
 
 
+0 STEP
 0 FILE 8256 - Soft Axle 7 - 3.ldr
 0 A flexible Technic soft axle of approximately 54 mm length composed of 23 curved segments.
 0 Name: 8256 - Soft Axle 7 - 3.ldr

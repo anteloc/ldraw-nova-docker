@@ -16,6 +16,7 @@
 
 
 
+0 STEP
 0 FILE 75055 - Imperial Star Destroyer.ldr
 0 Large wedge-shaped grey starship hull constructed from hundreds of plates, tiles, and angled left-wing sections forming the iconic triangular silhouette.
 0 Name: 75055 - Imperial Star Destroyer.ldr
@@ -2737,6 +2738,7 @@
 
 
 
+0 STEP
 0 FILE 75055 - 92582.dat
 0 Primitive geometric mesh composed of box and rectangle shapes defining a small structural housing part.
 0 Name: 75055 - 92582.dat
@@ -2771,6 +2773,7 @@
 
 0
 
+0 STEP
 0 FILE s\75055 - 92582s01.dat
 0 Detailed sub-part modeled from circles, cylinders, cones, and spheres forming the curved geometry of a click-lock hinge single finger mechanism.
 0 Name: s\75055 - 92582s01.dat

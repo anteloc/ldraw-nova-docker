@@ -9,6 +9,7 @@
 1 0 139 8 -590 0 0 -1 0 1 0 1 0 0 31025 - Quad.ldr
 1 2 220 0 -150 1 0 0 0 1 0 0 0 1 31025 - Tree.ldr
 1 15 -40 -328 30 1 0 0 0 1 0 0 0 1 31025 - Bird.ldr
+0 STEP
 0 FILE 31025 - Building.ldr
 0 A multi-story hut structure built from light bluish grey bricks with a bright green roof, large trans light blue windows, and a mixed blue and reddish brown plate foundation.
 0 Name: 31025 - Building.ldr
@@ -969,6 +970,7 @@
 1 2 -30 -280 -390 0 0 -1 0 1 0 1 0 0 6141.dat
 0 // Plate  1 x  1 Round (green)
 1 2 30 -280 -410 0 0 -1 0 1 0 1 0 0 6141.dat
+0 STEP
 0 FILE 31025 - Mountain Top.ldr
 0 A rocky snow-covered mountain peak made from a large triangular rock panel and white 45-degree slopes.
 0 Name: 31025 - Mountain Top.ldr
@@ -995,6 +997,7 @@
 1 15 10 0 0 0 0 -1 0 1 0 1 0 0 3040b.dat
 0 // Plate  1 x  2 with Groove with 1 Centre Stud, without Understud (white)
 1 15 0 -8 20 -1 0 0 0 1 0 0 0 -1 15573.dat
+0 STEP
 0 FILE 31025 - Balcony.ldr
 0 A small reddish brown wooden balcony with a railing made of round black and dark brown plates.
 0 Name: 31025 - Balcony.ldr
@@ -1022,6 +1025,7 @@
 1 70 -50 -32 -30 1 0 0 0 1 0 0 0 1 6141.dat
 0 // Tile  1 x  6 (reddish_brown)
 1 70 0 -40 -30 1 0 0 0 1 0 0 0 1 6636.dat
+0 STEP
 0 FILE 31025 - Cabinet.ldr
 0 A small tan and reddish brown furniture cabinet with a trans yellow knob and decorative white panel.
 0 Name: 31025 - Cabinet.ldr
@@ -1056,6 +1060,7 @@
 1 46 20 -88 0 0 0 -1 0 1 0 1 0 0 3062b.dat
 0 // Tile  1 x  1 with Clip with Rounded Tips (dark_bluish_grey)
 1 72 20 -96 0 1 0 0 0 1 0 0 0 1 12825.dat
+0 STEP
 0 FILE 31025 - MiniFig.ldr
 0 A red-shirted minifigure with yellow hands, a bearded face, and a light bluish grey skateboard helmet.
 0 Name: 31025 - MiniFig.ldr
@@ -1078,6 +1083,7 @@
 1 14 0 -96 0 0.986 0 -0.169 0 1 0 0.169 0 0.986 3626cp88.dat
 0 // Minifig Helmet Skateboard (light_bluish_grey)
 1 71 0 -96 0 0.986 0 -0.169 0 1 0 0.169 0 0.986 46303.dat
+0 STEP
 0 FILE 31025 - Quad.ldr
 0 A blue and white quad bike with four wheels, handlebars, an orange accents, and a blue mudguard.
 0 Name: 31025 - Quad.ldr
@@ -1163,6 +1169,7 @@
 1 256 -60 -22 80 0 0 1 0 1 0 -1 0 0 51011.dat
 0 // Tyre  6.4/ 75 x  8 Shallow Offset Tread (rubber_black)
 1 256 -60 -22 0 0 0 1 0 1 0 -1 0 0 51011.dat
+0 STEP
 0 FILE 31025 - Tree.ldr
 0 A small tree with a dark brown trunk and green foliage top decorated with yellow and green round plates.
 0 Name: 31025 - Tree.ldr
@@ -1196,6 +1203,7 @@
 1 2 0 -56 -18 0 0 1 1 0 0 0 1 0 31025 - Tree Side.ldr
 1 2 -18 -56 0 0 1 0 1 0 0 0 0 -1 31025 - Tree Side.ldr
 1 2 0 -56 18 0 0 -1 1 0 0 0 -1 0 31025 - Tree Side.ldr
+0 STEP
 0 FILE 31025 - Tree Side.ldr
 0 A patch of green ground foliage made of small green plates.
 0 Name: 31025 - Tree Side.ldr
@@ -1208,6 +1216,7 @@
 1 2 20 -8 0 1 0 0 0 1 0 0 0 1 3023.dat
 0 // Plate  1 x  1 (green)
 1 2 30 -16 0 1 0 0 0 1 0 0 0 1 3024.dat
+0 STEP
 0 FILE 31025 - Bird.ldr
 0 A small bright orange and reddish brown bird built from corner plates and a clip, with yellow and white accents.
 0 Name: 31025 - Bird.ldr

@@ -98,6 +98,7 @@
 
 
 
+0 STEP
 0 FILE 7106 - Droid Escape - subModel-1.ldr
 0 A small attachment assembly made of a dark grey cone, white clip tile, and yellow handle brick.
 0 Name: 7106 - Droid Escape - subModel-1.ldr
@@ -114,6 +115,7 @@
 1 14 0 -10 -34 -1 0 0 0 1 0 0 0 -1 30236.dat
 
 
+0 STEP
 0 FILE 7106 - Droid Escape - subModel-2.ldr
 0 A landing strut or thruster module with an inverted dish base, axlehole plates, clips, and cones.
 0 Name: 7106 - Droid Escape - subModel-2.ldr
@@ -145,6 +147,7 @@
 1 8 42.124 13 0 0.5 0.866 0 -0.866 0.5 0 0 0 1 4589.dat
 
 
+0 STEP
 0 FILE 7106 - Droid Escape - 30562ps1.dat
 0 A patterned decorative element consisting of surface patterns and conditional edge lines.
 0 Name: 7106 - Droid Escape - 30562ps1.dat
@@ -175,6 +178,7 @@
 5 24 79.311996 140 -10.44 79.311996 0 -10.44 77.272003 140 -20.704 80 140 0
 5 24 80 140 0 80 0 0 79.311996 140 -10.44 80 140 80
 
+0 STEP
 0 FILE 7106 - Droid Escape - 3958.dat
 0 A basic geometric primitive defining a box with five faces and all edges.
 0 Name: 7106 - Droid Escape - 3958.dat
@@ -207,6 +211,7 @@
 
 0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=R 6 4] [grid=C 6 C 6 20 20]
 
+0 STEP
 0 FILE s\7106 - Droid Escape - 30562ps1s01.dat
 0 An empty subpart shell that references other components without containing direct pieces.
 0 Name: s\7106 - Droid Escape - 30562ps1s01.dat

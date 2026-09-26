@@ -14,6 +14,7 @@
 1 16 -160 0 -10 1 0 0 0 1 0 0 0 1 3931 - Deck chair.ldr
 1 16 -80 0 -60 1 0 0 0 1 0 0 0 1 3931 - Emma.ldr
 
+0 STEP
 0 FILE 3931 - Deck chair.ldr
 0 A colorful reclining deck chair built from plates and tiles with a pink and lime color scheme, topped with a white bar and clear goblet accessory.
 0 Name: 3931 - Deck chair.ldr
@@ -56,6 +57,7 @@
 0 // Plate  1 x  1 Round with Tabs (bright_light_orange)
 1 191 30 -160 10 1 0 0 0 1 0 0 0 1 33291.dat
 
+0 STEP
 0 FILE 3931 - Pool.ldr
 0 A rounded splash pool with curved pink and azure corner bricks and transparent light blue side panels, decorated with lime tiles.
 0 Name: 3931 - Pool.ldr
@@ -100,6 +102,7 @@
 0 // Tile  1 x  2 with Groove (lime)
 1 27 0 -24 -50 1 0 0 0 1 0 0 0 1 3069b.dat
 
+0 STEP
 0 FILE 3931 - Plant.ldr
 0 A small potted bamboo plant in a lime round pot on a brown base with green leaves.
 0 Name: 3931 - Plant.ldr
@@ -116,6 +119,7 @@
 0 // Plate  1 x  1 Round with Tabs (bright_light_orange)
 1 191 -10 -56 10 1 0 0 0 1 0 0 0 1 33291.dat
 
+0 STEP
 0 FILE 3931 - Emma.ldr
 0 A Friends minifigure of Emma with long black wavy hair, light nougat skin, a lavender flower-patterned top, and magenta layered skirt legs.
 0 Name: 3931 - Emma.ldr

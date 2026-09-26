@@ -30,6 +30,7 @@
 0 // Plant Flower Stem Green with Three Flowers with 6 Petals Centre Upwards (white)
 1 15 -30 -44 30 -0.966 0 -0.259 0 1 0 0.259 0 -0.966 3741ac01.dat
 1 16 120 36 150 0.707 0 0.707 0 1 0 -0.707 0 0.707 3624 - bunny.ldr
+0 STEP
 0 FILE 3624 - bunny.ldr
 0 A small Fabuland-style red watering can representing a bunny accessory.
 0 Name: 3624 - bunny.ldr
@@ -45,6 +46,7 @@
 1 4 0 -37 4 1 0 0 0 0.966 -0.259 0 0.259 0.966 u9103.dat
 0 // Fabuland Watering Can (red)
 1 4 30 -35.398 -67.997 1 0 0 0 0.976 0.216 0 -0.216 0.976 3624 - 4325.dat
+0 STEP
 0 FILE 3624 - 4463.dat
 0 A geometric primitive composite built from boxes, discs, and cylinders forming a solid molded part.
 0 Name: 3624 - 4463.dat
@@ -155,6 +157,7 @@
 1 16 10 30 10 0 0 22.5 -22.5 0 0 0 1 0 48\1-4edge.dat
 1 16 10 30 -5.1538 0 0 30 -30 0.137152 0 4.15381 0.99055 0 48\1-4edge.dat
 1 16 10 30 -5.1538 0 0 22.5 -22.5 0.137152 0 3.11535 0.99055 0 48\1-4edge.dat
+0 STEP
 0 FILE 3624 - 4325.dat
 0 A cylindrical primitive part composed of three full cylinders.
 0 Name: 3624 - 4325.dat
@@ -238,6 +241,7 @@
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
 
 0 !LDCAD SNAP_CYL [gender=M] [caps=two] [secs=R 4 16]
+0 STEP
 0 FILE s\3624 - 4325s01.dat
 0 A sub-part reference with no direct geometry of its own.
 0 Name: s\3624 - 4325s01.dat

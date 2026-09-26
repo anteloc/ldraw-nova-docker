@@ -14,6 +14,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - forklift.ldr
 0 A structural frame assembly built from bent liftarms, beams, axles, and connecting pins.
 0 Name: 42079 - forklift.ldr
@@ -309,6 +310,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - beam2x4bent90_with_pins-left.ldr
 0 A left-side bent liftarm bracket fitted with a friction pin and axle pin.
 0 Name: 42079 - beam2x4bent90_with_pins-left.ldr
@@ -326,6 +328,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - beam4x6bent53.14_with_pin.ldr
 0 A 4x6 bent liftarm with an attached axle pin for connection.
 0 Name: 42079 - beam4x6bent53.14_with_pin.ldr
@@ -341,6 +344,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - double_universal_joint_connection.ldr
 0 A dual universal joint drivetrain linkage with axles and a center coupling.
 0 Name: 42079 - double_universal_joint_connection.ldr
@@ -374,6 +378,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - axle4_with_8T_gear.ldr
 0 A stop axle fitted with an 8-tooth reinforced gear.
 0 Name: 42079 - axle4_with_8T_gear.ldr
@@ -389,6 +394,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - beam2x4bent90_with_pins-right.ldr
 0 A right-side bent liftarm bracket fitted with a friction pin and axle pin.
 0 Name: 42079 - beam2x4bent90_with_pins-right.ldr
@@ -406,6 +412,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - Differential_Unit.ldr
 0 A differential housing assembly with a 5x3 open-center frame, axles, bushings, and a 20-tooth gear.
 0 Name: 42079 - Differential_Unit.ldr
@@ -443,6 +450,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - Differential.ldr
 0 A differential gear unit with a 28-tooth bevel carrier and three 12-tooth bevel gears.
 0 Name: 42079 - Differential.ldr
@@ -462,6 +470,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - steering-module.ldr
 0 A steering assembly with a 16-tooth gear, long beams, and pin joints for linkage movement.
 0 Name: 42079 - steering-module.ldr
@@ -525,6 +534,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - Axle9L_with-Connector.ldr
 0 A long axle joined inline with a smooth axle connector.
 0 Name: 42079 - Axle9L_with-Connector.ldr
@@ -540,6 +550,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - Gear_W_Clutch_B_Sides_and_Pin.ldr
 0 A 16-tooth clutch gear fitted with a connecting pin.
 0 Name: 42079 - Gear_W_Clutch_B_Sides_and_Pin.ldr
@@ -555,6 +566,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - Lower_Steering.ldr
 0 A lower steering linkage with towball pins, cross blocks, and stop axles for wheel articulation.
 0 Name: 42079 - Lower_Steering.ldr
@@ -591,6 +603,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - SteeringDropArm.ldr
 0 A steering drop arm composed of a boss liftarm, long axle pin, and inline joiner.
 0 Name: 42079 - SteeringDropArm.ldr
@@ -609,6 +622,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - TraingleswithPins-Left.ldr
 0 A left-side pair of triangle liftarms joined with friction and axle pins.
 0 Name: 42079 - TraingleswithPins-Left.ldr
@@ -630,6 +644,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - TraingleswithPins-Right.ldr
 0 A right-side pair of triangle liftarms joined with friction and axle pins.
 0 Name: 42079 - TraingleswithPins-Right.ldr
@@ -651,6 +666,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - Beam3LwLongPins.ldr
 0 A short beam with two long friction pins for attachment.
 0 Name: 42079 - Beam3LwLongPins.ldr
@@ -668,6 +684,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - CenterConnection.ldr
 0 A central structural hub joining triangle liftarms, axles, and cross blocks into a rigid frame.
 0 Name: 42079 - CenterConnection.ldr
@@ -751,6 +768,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - CenterGearBox.ldr
 0 A center gearbox with a stop axle, a 12-tooth bevel gear, and a double-bevel gear.
 0 Name: 42079 - CenterGearBox.ldr
@@ -773,6 +791,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - Axle5L-with-Long-Connector.ldr
 0 An axle extended using a 3L axle joiner coupling.
 0 Name: 42079 - Axle5L-with-Long-Connector.ldr
@@ -788,6 +807,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - Beam7LwithPins.ldr
 0 A long beam fitted with two friction pins for mounting.
 0 Name: 42079 - Beam7LwithPins.ldr
@@ -805,6 +825,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - Beam5LwithSticker.ldr
 0 A single beam intended to receive a decorative sticker.
 0 Name: 42079 - Beam5LwithSticker.ldr
@@ -819,6 +840,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - FlexMechanism.ldr
 0 A flexible mechanism assembly of liftarms, a cross block, and long pins enabling articulated motion.
 0 Name: 42079 - FlexMechanism.ldr
@@ -886,6 +908,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - BeamAndConnector_left.ldr
 0 A long beam joined to a cross block via an axle pin for a left-side connection.
 0 Name: 42079 - BeamAndConnector_left.ldr
@@ -904,6 +927,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - FlexMechanismCenter.ldr
 0 A central flex assembly using stopped axles, beams, and pins for pivoting movement.
 0 Name: 42079 - FlexMechanismCenter.ldr
@@ -944,6 +968,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - BeamAndConnector_right.ldr
 0 Right-side beam and cross block connector assembly with a long liftarm and friction pins.
 0 Name: 42079 - BeamAndConnector_right.ldr
@@ -962,6 +987,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - MidConstruction-left.ldr
 0 Left mid-frame structural assembly using bent liftarms, short beams, and axle pins for support.
 0 Name: 42079 - MidConstruction-left.ldr
@@ -991,6 +1017,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - MidConstruction-right.ldr
 0 Right mid-frame structural assembly using bent liftarms, short beams, and a notched axle for support.
 0 Name: 42079 - MidConstruction-right.ldr
@@ -1018,6 +1045,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - Motor.ldr
 0 Engine motor assembly with two cylinder heads, a gear, and pins mounted on an axle.
 0 Name: 42079 - Motor.ldr
@@ -1057,6 +1085,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - Motor-SideConnector-back.ldr
 0 Rear motor side connector linking liftarms via cross blocks and axles.
 0 Name: 42079 - Motor-SideConnector-back.ldr
@@ -1084,6 +1113,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - MotorCrankshaft.ldr
 0 Engine crankshaft assembly with crankshafts, connecting rods, and pistons on a notched axle.
 0 Name: 42079 - MotorCrankshaft.ldr
@@ -1114,6 +1144,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - Motor-SideConnector-front.ldr
 0 Front motor side connector linking liftarms via cross blocks and axles.
 0 Name: 42079 - Motor-SideConnector-front.ldr
@@ -1141,6 +1172,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - ConnectorwithPin+LongAxlePin.ldr
 0 Cross block connector combining a notched axle and a long axle pin for joint linkage.
 0 Name: 42079 - ConnectorwithPin+LongAxlePin.ldr
@@ -1158,6 +1190,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - Seat.ldr
 0 Driver's seat built from a bent panel, T-shaped beams, and bent liftarms with pins.
 0 Name: 42079 - Seat.ldr
@@ -1197,6 +1230,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - Axle5LwithCenteredBush.ldr
 0 A 5-stud axle fitted with a centered bushing flange.
 0 Name: 42079 - Axle5LwithCenteredBush.ldr
@@ -1212,6 +1246,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - Connector#2withLongPins.ldr
 0 A 180-degree angle connector fitted with two long axle pins.
 0 Name: 42079 - Connector#2withLongPins.ldr
@@ -1229,6 +1264,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - Axlewith2LongConnectors.ldr
 0 A notched axle joined with two 3L axle joiners for extended linkage.
 0 Name: 42079 - Axlewith2LongConnectors.ldr
@@ -1246,6 +1282,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - SteeringWheel.ldr
 0 Steering wheel mounted on a friction axle pin.
 0 Name: 42079 - SteeringWheel.ldr
@@ -1261,6 +1298,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - CabinTop.ldr
 0 Cabin roof framework assembled from bent beams, angle connectors, and perpendicular axle pins.
 0 Name: 42079 - CabinTop.ldr
@@ -1312,6 +1350,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - CabinFlexAxle.ldr
 0 Flexible axle assembly for the cabin contour, generated as a multi-segment flex path.
 0 Name: 42079 - CabinFlexAxle.ldr
@@ -1360,6 +1399,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 42079 - CabinFlexAxle_subPart1.ldr
 
 
+0 STEP
 0 FILE 42079 - CabinFlexAxle_subPart1.ldr
 0 Sub-part containing the flex axle segment geometry and metadata for the cabin contour.
 0 Name: 42079 - CabinFlexAxle_subPart1.ldr
@@ -3529,6 +3569,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - CabinFlexAxleConnection.ldr
 0 Connector joining the cabin flex axle using an angle connector, perpendicular axle, and inline joiner.
 0 Name: 42079 - CabinFlexAxleConnection.ldr
@@ -3547,6 +3588,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - CabinFrontEnd.ldr
 0 Cabin front end structure formed by an axle with two angle connectors.
 0 Name: 42079 - CabinFrontEnd.ldr
@@ -3565,6 +3607,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - TopFrontLights.ldr
 0 Front light bar with a liftarm, half-pins, and two clear transparent round tiles as lights.
 0 Name: 42079 - TopFrontLights.ldr
@@ -3587,6 +3630,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - Connectorwith2AxlePins.ldr
 0 Inline axle joiner fitted with two friction axle pins for coupling.
 0 Name: 42079 - Connectorwith2AxlePins.ldr
@@ -3604,6 +3648,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - ForkTiltHandle.ldr
 0 Fork tilt control handle using an axle connector and inline joiner.
 0 Name: 42079 - ForkTiltHandle.ldr
@@ -3619,6 +3664,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - RightPanelwithSticker.ldr
 0 Right-side decorative fairing panel mounted with friction pins.
 0 Name: 42079 - RightPanelwithSticker.ldr
@@ -3636,6 +3682,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - WheelarchFrontRight.ldr
 0 Front right wheel arch assembly with yellow liftarms, cross blocks, and indicator light tiles.
 0 Name: 42079 - WheelarchFrontRight.ldr
@@ -3688,6 +3735,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - WheelarchRearRight.ldr
 0 Rear right wheel arch assembly with yellow liftarms, cross blocks, and taillight tiles.
 0 Name: 42079 - WheelarchRearRight.ldr
@@ -3737,6 +3785,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - MirrorRight.ldr
 0 Right side mirror assembly with an offset plate, joiner, and a 2x2 tile mirror surface.
 0 Name: 42079 - MirrorRight.ldr
@@ -3763,6 +3812,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - BackEnd.ldr
 0 Rear body section built from a bent beam and four smooth fairing panels with connector pins.
 0 Name: 42079 - BackEnd.ldr
@@ -3795,6 +3845,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - LeftPanelwithSticker.ldr
 0 Long smooth panel fairing held by friction pins, providing a left-side body cover with sticker area.
 0 Name: 42079 - LeftPanelwithSticker.ldr
@@ -3812,6 +3863,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - WheelarchRearLeft.ldr
 0 Rear left wheel arch assembly of yellow liftarms and beams with translucent indicator tiles and connector blocks.
 0 Name: 42079 - WheelarchRearLeft.ldr
@@ -3861,6 +3913,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - WheelarchFrontLeft.ldr
 0 Front left wheel arch assembly using yellow bent liftarms and beams with a clear indicator tile and pin connectors.
 0 Name: 42079 - WheelarchFrontLeft.ldr
@@ -3913,6 +3966,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - MirrorLeft.ldr
 0 Left side mirror made from an axle joiner, offset peghole plates, and a grooved tile on a short axle.
 0 Name: 42079 - MirrorLeft.ldr
@@ -3939,6 +3993,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - FlashingLight.ldr
 0 Orange warning beacon composed of a round dish atop a round brick with a hole-mounted base tile.
 0 Name: 42079 - FlashingLight.ldr
@@ -3956,6 +4011,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - Wheels.ldr
 0 Single wheel unit combining a six-peghole rim with a 20/64 x 37 rubber tyre.
 0 Name: 42079 - Wheels.ldr
@@ -3971,6 +4027,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - Hubcap.ldr
 0 Decorative hubcap pairing a round axlehole plate with a matching round holed tile.
 0 Name: 42079 - Hubcap.ldr
@@ -3986,6 +4043,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - LiftingMechanism.ldr
 0 Worm-gear-driven lifting mechanism using gear racks, bent liftarms, and assorted axles for vertical motion.
 0 Name: 42079 - LiftingMechanism.ldr
@@ -4052,6 +4110,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - Beam2LwithPin.ldr
 0 Short 2L liftarm fitted with a friction pin for compact linkage connections.
 0 Name: 42079 - Beam2LwithPin.ldr
@@ -4067,6 +4126,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - LiftingMechanismTop.ldr
 0 Top linkage of the lifting mechanism using an angle connector, bent liftarm, and axle pins.
 0 Name: 42079 - LiftingMechanismTop.ldr
@@ -4092,6 +4152,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - LiftingMechanismInnerTop.ldr
 0 Inner top pivot of the lifting mechanism featuring a bent beam, a grooved wheel rim, and connector pins.
 0 Name: 42079 - LiftingMechanismInnerTop.ldr
@@ -4112,6 +4173,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - Axle3LwithBush.ldr
 0 3L axle fitted with a double-flanged bush for spacing and retention.
 0 Name: 42079 - Axle3LwithBush.ldr
@@ -4127,6 +4189,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - BeamwithPin.ldr
 0 Bent 3x5 liftarm fitted with a friction pin for angled connection points.
 0 Name: 42079 - BeamwithPin.ldr
@@ -4142,6 +4205,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - LiftingMechanismSide.ldr
 0 Side frame of the lifting mechanism formed by long 9L and 15L beams joined with friction pins.
 0 Name: 42079 - LiftingMechanismSide.ldr
@@ -4162,6 +4226,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - Fork.ldr
 0 Main fork body built around an open-center 7x5 beam with long pins and connectors for tine mounting.
 0 Name: 42079 - Fork.ldr
@@ -4210,6 +4275,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - ForkSides.ldr
 0 Fork side supports of a 7L beam and bent liftarms connected via axle pins and perpendicular pin-hole axles.
 0 Name: 42079 - ForkSides.ldr
@@ -4237,6 +4303,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - Beam7Lwith2Pins.ldr
 0 7L beam pre-assembled with one friction pin and one long friction-slot pin for dual attachment.
 0 Name: 42079 - Beam7Lwith2Pins.ldr
@@ -4254,6 +4321,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - ForkTipRight.ldr
 0 Right fork tip assembly of 5L and 9L beams with a bent connector joined by friction pins.
 0 Name: 42079 - ForkTipRight.ldr
@@ -4281,6 +4349,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - ForkTipLeft.ldr
 0 Left fork tip assembly of 5L and 9L beams with a bent connector joined by friction pins.
 0 Name: 42079 - ForkTipLeft.ldr
@@ -4308,6 +4377,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - ForkBottom.ldr
 0 Fork bottom brace using a 9L beam reinforced by a short liftarm, bushes, and axle pins.
 0 Name: 42079 - ForkBottom.ldr
@@ -4333,6 +4403,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - String.ldr
 0 Flexible string assembly generated by LDCad with rope end studs and segment metadata.
 0 Name: 42079 - String.ldr
@@ -4387,6 +4458,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 42079 - String_subPart1.ldr
 
 
+0 STEP
 0 FILE 42079 - String_subPart1.ldr
 0 Subpart containing the segmented cylindrical rope body forming the string's length.
 0 Name: 42079 - String_subPart1.ldr
@@ -4469,6 +4541,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - LongJoinerwith2Axles.ldr
 0 3L axle joiner coupling two notched 2L axles for extended shaft alignment.
 0 Name: 42079 - LongJoinerwith2Axles.ldr
@@ -4486,6 +4559,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - beam2x4bent90_with_pin.ldr
 0 Bent 2x4 liftarm pre-fitted with a friction axle pin for right-angle connections.
 0 Name: 42079 - beam2x4bent90_with_pin.ldr
@@ -4501,6 +4575,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - Axle5LwithLeftSideBush.ldr
 0 A 5-stud Technic axle fitted with a flanged bushing on one end.
 0 Name: 42079 - Axle5LwithLeftSideBush.ldr
@@ -4516,6 +4591,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - Muffler.ldr
 0 A cylindrical muffler assembly made from stacked round bricks topped with a holed round tile.
 0 Name: 42079 - Muffler.ldr
@@ -4535,6 +4611,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - AxleWithLongJoiner.ldr
 0 A 6-stud Technic axle extended using a 3L axle joiner coupling.
 0 Name: 42079 - AxleWithLongJoiner.ldr
@@ -4550,6 +4627,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - Palette.ldr
 0 A flat rectangular palette built from long tan plates and bricks.
 0 Name: 42079 - Palette.ldr
@@ -4579,6 +4657,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - Container.ldr
 0 A round white container formed by stacked cylinders on a snap-stud base plate with an inverted dish lid.
 0 Name: 42079 - Container.ldr
@@ -4603,6 +4682,7 @@
 
 
 
+0 STEP
 0 FILE 42079 - 33299b.dat
 0 Primitive geometry defining the semi-reduced pin boss portion of a Technic 3L liftarm.
 0 Name: 42079 - 33299b.dat
@@ -4643,6 +4723,7 @@
 
 
 
+0 STEP
 0 FILE s\42079 - 33299s01.dat
 0 Common primitive geometry subpart defining the shared body and pin features of a Technic 3L liftarm.
 0 Name: s\42079 - 33299s01.dat

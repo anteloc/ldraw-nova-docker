@@ -644,6 +644,7 @@
 1 14 -536.496 198 -1045.438 0.276 0 0.961 0 1 0 -0.961 0 0.276 10179 - Luke Skywalker.ldr
 
 
+0 STEP
 0 FILE 10179 - subModel-1.ldr
 0 Central frame junction: open-centre 4x6 technic brick on a 4x6 plate base with friction pins
 0 Author: Roland Dahl [RolandD]
@@ -667,6 +668,7 @@
 1 71 0 -16 -40 -1 0 0 0 1 0 0 0 -1 3020.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-2.ldr
 0 Hull frame beam: two 1x16 technic bricks with edge plates forming a spine segment
 0 Author: Roland Dahl [RolandD]
@@ -694,6 +696,7 @@
 1 72 0 -40 0 1 0 0 0 1 0 0 0 1 3703.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-3.ldr
 0 Main frame cross-junction: large open-centre technic bricks and 1x16 beams linked by long pins
 0 Author: Roland Dahl [RolandD]
@@ -719,6 +722,7 @@
 1 0 0 0 -120 1 0 0 0 1 0 0 0 1 32531.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-4.ldr
 0 Small pin connector: open-centre 4x6 technic brick with two friction pins
 0 Author: Roland Dahl [RolandD]
@@ -734,6 +738,7 @@
 1 0 60 10 -20 1 0 0 0 1 0 0 0 1 2780.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-5.ldr
 0 Hull frame beam: 1x16 and 1x14 technic bricks with edge plates
 0 Author: Roland Dahl [RolandD]
@@ -763,6 +768,7 @@
 1 71 300 0 0 1 0 0 0 1 0 0 0 1 32018.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-6.ldr
 0 Hull frame beam: 1x14 technic bricks with edge plates and friction pins
 0 Author: Roland Dahl [RolandD]
@@ -796,6 +802,7 @@
 1 71 0 0 140 0 0 -1 0 1 0 1 0 0 10179 - subModel-8.ldr
 
 
+0 STEP
 0 FILE 10179 - subModel-7.ldr
 0 Frame junction with tiled array: open-centre 4x6 technic brick on a 4x6 plate with twelve jumper tiles
 0 Author: Roland Dahl [RolandD]
@@ -839,6 +846,7 @@
 1 72 20 -16 -30 1 0 0 0 1 0 0 0 1 3794b.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-8.ldr
 0 Hull frame beam: 1x14 technic bricks with edge plates
 0 Author: Roland Dahl [RolandD]
@@ -864,6 +872,7 @@
 1 71 0 -48 120 0 0 -1 0 1 0 1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-9.ldr
 0 Angled frame corner: 1x14/1x16 technic beams meeting a yellow 5x5 corner brick
 0 Author: Roland Dahl [RolandD]
@@ -897,6 +906,7 @@
 1 14 190 -40 -360 0 0 -1 0 1 0 1 0 0 32555.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-10.ldr
 0 Angled frame corner (mirror): 1x14/1x16 technic beams meeting a yellow 5x5 corner brick
 0 Author: Roland Dahl [RolandD]
@@ -930,6 +940,7 @@
 1 14 -190 -40 -360 -1 0 0 0 1 0 0 0 -1 32555.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-11.ldr
 0 Short hull frame beam: 1x6 technic bricks with edge plates
 0 Author: Roland Dahl [RolandD]
@@ -953,6 +964,7 @@
 1 71 80 -48 0 1 0 0 0 1 0 0 0 1 3460.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-12.ldr
 0 Axle/gear housing: 2x6 technic plates and axle-hole bricks
 0 Author: Roland Dahl [RolandD]
@@ -973,6 +985,7 @@
 1 72 40 -32 0 0 0 1 0 1 0 -1 0 0 30000.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-13.ldr
 0 Hull frame beam: 1x10 technic brick with a yellow 5x5 corner and edge plates
 0 Author: Roland Dahl [RolandD]
@@ -993,6 +1006,7 @@
 1 14 150 0 -30 0 0 1 0 1 0 -1 0 0 32555.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-14.ldr
 0 Small linkage: half-bush liftarm on a friction axle pin
 0 Author: Roland Dahl [RolandD]
@@ -1006,6 +1020,7 @@
 1 1 -10 0 0 1 0 0 0 0 1 0 -1 0 43093.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-15.ldr
 0 Small angle joint: white angle connector on a friction axle pin
 0 Author: Roland Dahl [RolandD]
@@ -1019,6 +1034,7 @@
 1 1 0 0 -30 0 0 -1 0 1 0 1 0 0 43093.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-16.ldr
 0 Bracing strut assembly: technic 3-liftarms and long pins forming a cross-brace
 0 Author: Roland Dahl [RolandD]
@@ -1088,6 +1104,7 @@
 1 72 -20 -10 80 0 1 0 0 0 -1 -1 0 0 32523.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-17.ldr
 0 Axle/pin mounting block: round pin joiners and axle-hole bricks on technic plates
 0 Author: Roland Dahl [RolandD]
@@ -1134,6 +1151,7 @@
 1 0 60 -22 -40 1 0 0 0 1 0 0 0 1 2780.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-18.ldr
 0 Frame pin mount: open-centre 4x6 technic brick with technic tiles and friction pins
 0 Author: Roland Dahl [RolandD]
@@ -1158,6 +1176,7 @@
 1 0 -50 -8 20 0 0 1 0 1 0 -1 0 0 32530.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-19.ldr
 0 Small structural sub-assembly: liftarms on a plate with a rounded-pin plate
 0 Author: Roland Dahl [RolandD]
@@ -1176,6 +1195,7 @@
 1 72 -50 4.4504 -30.077 0 -1 0 0.9449 0 -0.3274 0.3274 0 0.9449 32523.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-20.ldr
 0 Hull frame beam: 1x16 technic bricks with edge plates and pins
 0 Author: Roland Dahl [RolandD]
@@ -1211,6 +1231,7 @@
 1 0 10 -38 80 -1 0 0 0 1 0 0 0 -1 2780.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-21.ldr
 0 Angled frame corner: long technic beams and a yellow 5x5 corner brick with edge plates
 0 Author: Roland Dahl [RolandD]
@@ -1249,6 +1270,7 @@
 1 14 40 -40 190 1 0 0 0 1 0 0 0 1 32555.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-22.ldr
 0 Angled frame corner (with pins): long technic beams and a yellow 5x5 corner brick with edge plates
 0 Author: Roland Dahl [RolandD]
@@ -1292,6 +1314,7 @@
 1 14 -40 -40 190 0 0 1 0 1 0 -1 0 0 32555.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-23.ldr
 0 Frame corner connector: two yellow 5x5 corner bricks linked by red stop-bush pins
 0 Author: Roland Dahl [RolandD]
@@ -1324,6 +1347,7 @@
 1 4 10 10 -40 0 1 0 0 0 -1 -1 0 0 32054.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-24.ldr
 0 Axle/gear housing: 2x6 technic plates and axle-hole bricks with a 1x6 technic brick
 0 Author: Roland Dahl [RolandD]
@@ -1347,6 +1371,7 @@
 1 72 -30 -32 0 0 0 -1 0 1 0 1 0 0 3894.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-28.ldr
 0 Long strut assembly: 13-long beams and angle connectors on axle pins
 0 Author: Roland Dahl [RolandD]
@@ -1389,6 +1414,7 @@
 1 71 20 -20 -180 0 0 -1 -1 0 0 0 1 0 6553.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-26.ldr
 0 Small hinged flap: plate on a locking hinge finger
 0 Author: Roland Dahl [RolandD]
@@ -1402,6 +1428,7 @@
 1 0 0 -24 -20 -1 0 0 0 1 0 0 0 -1 30541.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-25.ldr
 0 Small hinged flap: plate on a locking horizontal hinge finger
 0 Author: Roland Dahl [RolandD]
@@ -1415,6 +1442,7 @@
 1 0 0 -24 -20 1 0 0 0 1 0 0 0 1 30541.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-27.ldr
 0 Small strut: technic 3-liftarm joined by friction pins
 0 Author: Roland Dahl [RolandD]
@@ -1430,6 +1458,7 @@
 1 0 0 20 10 0 -1 0 0 0 -1 1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-29.ldr
 0 Curved hull panel: 1x6 technic brick with curved slope and grooved tile
 0 Author: Roland Dahl [RolandD]
@@ -1450,6 +1479,7 @@
 1 72 10 -16 30 -1 0 0 0 1 0 0 0 -1 47457.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-30.ldr
 0 Small greeble handle: plate with a handled tile
 0 Author: Roland Dahl [RolandD]
@@ -1463,6 +1493,7 @@
 1 72 0 -32 0 0 0 -1 0 1 0 1 0 0 2432.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-31.ldr
 0 Interior archway: white reinforced arches on a 2x8 plate with side bricks
 0 Author: Roland Dahl [RolandD]
@@ -1483,6 +1514,7 @@
 1 15 10 -72 0 0 0 1 0 1 0 -1 0 0 3307.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-32.ldr
 0 Interior wall section: white 1x2x2 bricks and plates on an 8-long plate
 0 Author: Roland Dahl [RolandD]
@@ -1508,6 +1540,7 @@
 1 71 0 -64 40 0 0 -1 0 1 0 1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-33.ldr
 0 Corner linkage: bent 90 liftarm on a tan axle pin
 0 Author: Roland Dahl [RolandD]
@@ -1521,6 +1554,7 @@
 1 19 10 -48 10 -1 0 0 0 0 1 0 1 0 3749.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-34.ldr
 0 Frame pin mount: open-centre 4x6 technic brick with technic bricks and long pins
 0 Author: Roland Dahl [RolandD]
@@ -1545,6 +1579,7 @@
 1 71 -70 0 10 0 0 1 0 1 0 -1 0 0 3701.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-35.ldr
 0 Large hull side shell: layered wedges, facet bricks, wings and plates forming a curved saucer flank
 0 Author: Roland Dahl [RolandD]
@@ -1914,6 +1949,7 @@
 1 71 -270 -96 -320 0 0 1 0 1 0 -1 0 0 10179 - subModel-38.ldr
 
 
+0 STEP
 0 FILE 10179 - subModel-36.ldr
 0 Small filler plate: 1x3 and 1x4 edge plates
 0 Author: Roland Dahl [RolandD]
@@ -1929,6 +1965,7 @@
 1 71 -10 -16 0 1 0 0 0 1 0 0 0 1 3623.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-37.ldr
 0 Small filler plate: two 1x3 plates
 0 Author: Roland Dahl [RolandD]
@@ -1942,6 +1979,7 @@
 1 71 0 -8 0 1 0 0 0 1 0 0 0 1 3623.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-38.ldr
 0 Small edge detail: 1x2 brick with an edge plate
 0 Author: Roland Dahl [RolandD]
@@ -1955,6 +1993,7 @@
 1 71 0 -24 0 1 0 0 0 1 0 0 0 1 3004.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-39.ldr
 0 Hull edge band: corner bricks, facet bricks, slopes and plates forming a hull side band
 0 Author: Roland Dahl [RolandD]
@@ -2061,6 +2100,7 @@
 1 71 -60 -80 120 -1 0 0 0 1 0 0 0 -1 6106.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-40.ldr
 0 Hull edge band (mirror): corner bricks, facet bricks, slopes and plates forming a hull side band
 0 Author: Roland Dahl [RolandD]
@@ -2169,6 +2209,7 @@
 1 71 -110 -88 -100 0 0 1 0 1 0 -1 0 0 2431.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-41.ldr
 0 Greeble strip: 1x8 plate with two grooved handled tiles
 0 Author: Roland Dahl [RolandD]
@@ -2184,6 +2225,7 @@
 1 71 60 -8 0 1 0 0 0 1 0 0 0 1 3069b.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-42.ldr
 0 Upper hull greeble cluster (left): wing panel, domes, control sticks and a bar antenna
 0 Author: Roland Dahl [RolandD]
@@ -2223,6 +2265,7 @@
 1 71 20 -48 40 -0.7071 -0.7067 -0.0247 0 -0.0349 0.9994 -0.7071 0.7067 0.0247 4593.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-43.ldr
 0 Upper hull greeble cluster (right): wing panel, domes, control sticks, loudhailer and antenna
 0 Author: Roland Dahl [RolandD]
@@ -2264,6 +2307,7 @@
 1 71 30 -22 -20 0.7071 0 0.7071 0.7071 0 -0.7071 0 1 0 3957a.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-44.ldr
 0 Small corner filler: 2x2 corner plate with an edge plate
 0 Author: Roland Dahl [RolandD]
@@ -2277,6 +2321,7 @@
 1 71 0 -8 -10 0 0 1 0 1 0 -1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-45.ldr
 0 Small turret detail: 1x2 brick with a jumper tile and round plate
 0 Author: Roland Dahl [RolandD]
@@ -2292,6 +2337,7 @@
 1 72 0 -16 0 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-46.ldr
 0 Greebled engine panel: cones, domes, bars and grilles on a 6x14 plate
 0 Author: Roland Dahl [RolandD]
@@ -2326,6 +2372,7 @@
 1 72 10 -32 30 -1 0 0 0 1 0 0 0 -1 2540.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-47.ldr
 0 Interior crew station: minifig seat and steering-wheel console on a plate
 0 Author: Roland Dahl [RolandD]
@@ -2342,6 +2389,7 @@
 1 70 0 -8 -10 -1 0 0 0 1 0 0 0 -1 4079.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-48.ldr
 0 Laser turret base: slopes, hinges, round gears and a 4x4 round brick forming a rotating mount
 0 Author: Roland Dahl [RolandD]
@@ -2404,6 +2452,7 @@
 1 71 0 -209 -20 0 -1 0 0 0 -1 1 0 0 32123a.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-49.ldr
 0 Long axle assembly: axle joiner with a 12-long and a 3-long axle
 0 Author: Roland Dahl [RolandD]
@@ -2419,6 +2468,7 @@
 1 71 0 0 -30 0 0 -1 0 1 0 1 0 0 4519.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-50.ldr
 0 Articulated antenna/bar: lightsaber-bar on a hinge with edge plates
 0 Author: Roland Dahl [RolandD]
@@ -2443,6 +2493,7 @@
 1 71 0 -8 -30 0 0 -1 0 1 0 1 0 0 3021.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-51.ldr
 0 Articulated detail: lightsaber-bar and cone on locking hinge plates
 0 Author: Roland Dahl [RolandD]
@@ -2466,6 +2517,7 @@
 1 72 0 -32 -10 0 0 -1 0 1 0 1 0 0 4589.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-52.ldr
 0 Axle assembly: axle joiner with a 3-long and a 6-long axle
 0 Author: Roland Dahl [RolandD]
@@ -2481,6 +2533,7 @@
 1 0 0 0 60 0 0 -1 0 1 0 1 0 0 3706.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-53.ldr
 0 Round mount: technic 2x4 plates and 2x2 round bricks
 0 Author: Roland Dahl [RolandD]
@@ -2501,6 +2554,7 @@
 1 71 0 -56 -20 0 -1 0 0 0 -1 1 0 0 10179 - subModel-52.ldr
 
 
+0 STEP
 0 FILE 10179 - subModel-54.ldr
 0 Rotating turret mount: round bricks on technic plates with axle, joiner and bush
 0 Author: Roland Dahl [RolandD]
@@ -2527,6 +2581,7 @@
 1 71 0 -81 20 1 0 0 0 0 -1 0 1 0 32123a.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-55.ldr
 0 Large curved hull corner: 45 slopes, 8x8 plates and convex slopes forming a dome/corner
 0 Author: Roland Dahl [RolandD]
@@ -2622,6 +2677,7 @@
 1 71 50 29 -213 0 0 -1 0 1 0 1 0 0 3021.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-56.ldr
 0 Hull frame beam: 1x16, 1x12 and 1x6 technic bricks with friction pins
 0 Author: Roland Dahl [RolandD]
@@ -2646,6 +2702,7 @@
 1 72 -20 0 220 0 0 -1 0 1 0 1 0 0 3895.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-57.ldr
 0 Hinged hull edge: 1x10 plates on locking hinges with a technic beam
 0 Author: Roland Dahl [RolandD]
@@ -2705,6 +2762,7 @@
 1 71 40 386.749 569.563 -1 0 0 0 0.373 -0.928 0 -0.928 -0.373 10179 - subModel-65.ldr
 
 
+0 STEP
 0 FILE 10179 - subModel-58.ldr
 0 Small clip greeble: tiles-with-clip on 2x3 plates
 0 Author: Roland Dahl [RolandD]
@@ -2728,6 +2786,7 @@
 1 72 -20 -24 -10 0 0 -1 0 1 0 1 0 0 2555.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-59.ldr
 0 Viewport/window strip: trans-dark-blue grooved tiles on a plate
 0 Author: Roland Dahl [RolandD]
@@ -2746,6 +2805,7 @@
 1 33 20 -8 0 0 0 1 0 1 0 -1 0 0 3069b.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-60.ldr
 0 Hinged hull edge: 1x10 plates on locking hinges with beam and side brick
 0 Author: Roland Dahl [RolandD]
@@ -2801,6 +2861,7 @@
 1 71 20 -40 120 1 0 0 0 1 0 0 0 1 10179 - subModel-59.ldr
 
 
+0 STEP
 0 FILE 10179 - subModel-61.ldr
 0 Detailed vent/greeble strip: plates, bars, hinges and grille tiles
 0 Author: Roland Dahl [RolandD]
@@ -2872,6 +2933,7 @@
 1 72 0 -56 -50 0 0 1 0 1 0 -1 0 0 6190.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-62.ldr
 0 Short hinged edge: 1x10 plate on a locking hinge with a technic brick
 0 Author: Roland Dahl [RolandD]
@@ -2893,6 +2955,7 @@
 1 71 0 -32 0 0 0 -1 0 1 0 1 0 0 4477.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-63.ldr
 0 Greebled vent edge: plates, hinges, taps, handlebars and finned rounds
 0 Author: Roland Dahl [RolandD]
@@ -2995,6 +3058,7 @@
 1 72 0 -80 -70 -1 0 0 0 0.1736 0.9848 0 0.9848 -0.1736 30031.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-64.ldr
 0 Hinged edge section: plates on locking hinges with a bent liftarm
 0 Author: Roland Dahl [RolandD]
@@ -3039,6 +3103,7 @@
 1 71 20 -32 80 -1 0 0 0 1 0 0 0 -1 3021.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-65.ldr
 0 Small linkage: technic 3-liftarm on studded axles
 0 Author: Roland Dahl [RolandD]
@@ -3058,6 +3123,7 @@
 1 72 0 60.3032 -73.9775 0 1 0 -0.699 0 -0.7151 -0.7151 0 0.699 32523.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-67.ldr
 0 Large greebled hull edge: grilles, plates, taps, control sticks and curved bricks
 0 Author: Roland Dahl [RolandD]
@@ -3269,6 +3335,7 @@
 1 72 0 84.3037 -913.9768 0 1 0 -0.699 0 -0.7151 -0.7151 0 0.699 32523.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-66.ldr
 0 Sensor lens/window: technic bricks and gear rack around a trans-clear inverted dish
 0 Author: Roland Dahl [RolandD]
@@ -3317,6 +3384,7 @@
 1 47 -10 -72 20 -1 0 0 0 1 0 0 0 -1 4740.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-68.ldr
 0 Articulated mount: bent liftarms on long pins with locking hinges
 0 Author: Roland Dahl [RolandD]
@@ -3360,6 +3428,7 @@
 1 71 40 0 -100 0 0 1 0 1 0 -1 0 0 30365.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-69.ldr
 0 Greeble detail: plates with cones, bars and taps
 0 Author: Roland Dahl [RolandD]
@@ -3401,6 +3470,7 @@
 1 72 20 -24 -30 0 0 1 0 1 0 -1 0 0 6190.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-70.ldr
 0 Detailed frame edge: technic bricks, long pins, tiles and taps
 0 Author: Roland Dahl [RolandD]
@@ -3486,6 +3556,7 @@
 1 72 20 -28 -379 0 0 -1 0 1 0 1 0 0 3794b.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-71.ldr
 0 Angle joint: notched axles in 90- and 180-degree connectors
 0 Author: Roland Dahl [RolandD]
@@ -3506,6 +3577,7 @@
 1 71 0 0 -60 -1 0 0 0 1 0 0 0 -1 32014.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-72.ldr
 0 Angle joint: notched axle in two 90-degree connectors
 0 Author: Roland Dahl [RolandD]
@@ -3521,6 +3593,7 @@
 1 71 0 0 -60 -1 0 0 0 1 0 0 0 -1 32014.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-73.ldr
 0 Large greebled hull edge: grilles, plates, cones, control sticks and curved bricks
 0 Author: Roland Dahl [RolandD]
@@ -3699,6 +3772,7 @@
 1 72 0 84.3037 -913.9768 0 1 0 -0.699 0 -0.7151 -0.7151 0 0.699 32523.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-74.ldr
 0 Hinged edge section: plates and bent liftarms on locking hinges
 0 Author: Roland Dahl [RolandD]
@@ -3747,6 +3821,7 @@
 1 71 0 -20 20 0 0 -1 0 1 0 1 0 0 3666.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-75.ldr
 0 Greeble detail: plates with cones, bars and taps
 0 Author: Roland Dahl [RolandD]
@@ -3782,6 +3857,7 @@
 1 72 20 -20 10 0 0 -1 0 1 0 1 0 0 6190.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-76.ldr
 0 Sensor lens/window (mirror): technic bricks and gear rack around a trans-clear inverted dish
 0 Author: Roland Dahl [RolandD]
@@ -3830,6 +3906,7 @@
 1 47 10 -72 20 -1 0 0 0 1 0 0 0 -1 4740.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-77.ldr
 0 Detailed frame edge (mirror): technic bricks, long pins, tiles and taps
 0 Author: Roland Dahl [RolandD]
@@ -3915,6 +3992,7 @@
 1 72 20 -28 -379 0 0 -1 0 1 0 1 0 0 3794b.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-78.ldr
 0 Large upper hull shell (right): layered wing plates, tiles and dishes forming the saucer top
 0 Author: Roland Dahl [RolandD]
@@ -4102,6 +4180,7 @@
 1 72 360 66 0 0 0 -1 0 1 0 1 0 0 10179 - subModel-80.ldr
 
 
+0 STEP
 0 FILE 10179 - subModel-79.ldr
 0 Interior archway/corridor: arch on a plate with side-stud bricks
 0 Author: Roland Dahl [RolandD]
@@ -4124,6 +4203,7 @@
 1 0 0 -32 20 0 0 -1 0 1 0 1 0 0 52107.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-80.ldr
 0 Strut assembly: three 5-long liftarms on long pins
 0 Author: Roland Dahl [RolandD]
@@ -4144,6 +4224,7 @@
 1 72 0 -40 0 1 0 0 0 1 0 0 0 1 32316.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-81.ldr
 0 Large upper hull shell (left): layered wing plates, tiles and dishes forming the saucer top
 0 Author: Roland Dahl [RolandD]
@@ -4331,6 +4412,7 @@
 1 71 0 66 -360 1 0 0 0 1 0 0 0 1 10179 - subModel-80.ldr
 
 
+0 STEP
 0 FILE 10179 - subModel-82.ldr
 0 Mandible/front hull detail (right): wedges and wing panels on bricks
 0 Author: Roland Dahl [RolandD]
@@ -4391,6 +4473,7 @@
 1 0 30 -14 120 1 0 0 0 1 0 0 0 1 2780.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-83.ldr
 0 Mandible/front hull detail (left): wedges and wing panels on bricks
 0 Author: Roland Dahl [RolandD]
@@ -4451,6 +4534,7 @@
 1 0 60 -14 -120 -1 0 0 0 1 0 0 0 -1 2780.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-84.ldr
 0 Greebled vent block: cones, log bricks, grilles and panels
 0 Author: Roland Dahl [RolandD]
@@ -4521,6 +4605,7 @@
 1 72 -26 -54 -10 0 1 0 0 0 1 1 0 0 3794b.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-85.ldr
 0 Greebled vent block (mirror): cones, log bricks, grilles and panels
 0 Author: Roland Dahl [RolandD]
@@ -4581,6 +4666,7 @@
 1 72 -26 -54 -20 0 1 0 0 0 1 1 0 0 3794b.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-86.ldr
 0 Turret/rotating assembly: hinge plates, dishes, gear rack and dome on tiled plates
 0 Author: Roland Dahl [RolandD]
@@ -4680,6 +4766,7 @@
 1 0 92.4264 22.2843 20 0.7071 -0.7071 0 0.7071 0.7071 0 0 0 1 10179 - subModel-89.ldr
 
 
+0 STEP
 0 FILE 10179 - subModel-87.ldr
 0 Curved hull corner: convex slopes and round-brick pins on plates
 0 Author: Roland Dahl [RolandD]
@@ -4718,6 +4805,7 @@
 1 15 -20 40 20 1 0 0 0 1 0 0 0 1 2476b.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-88.ldr
 0 Panel/hatch section: hinge plates and dishes on grooved tiles and plates
 0 Author: Roland Dahl [RolandD]
@@ -4760,6 +4848,7 @@
 1 0 0 16 -80 0 0 -1 0 1 0 1 0 0 2654.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-89.ldr
 0 Panel/hatch section (mirror): hinge plates and dishes on grooved tiles and plates
 0 Author: Roland Dahl [RolandD]
@@ -4802,6 +4891,7 @@
 1 0 0 16 80 0 0 -1 0 1 0 1 0 0 2654.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-90.ldr
 0 Rotating mount: convex slopes and cones on hinge plates with a gear rack
 0 Author: Roland Dahl [RolandD]
@@ -4881,6 +4971,7 @@
 1 15 -20 40 -340 -1 0 0 0 1 0 0 0 -1 2476b.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-91.ldr
 0 Panel section: hinge plates on edged plates and tiles
 0 Author: Roland Dahl [RolandD]
@@ -4915,6 +5006,7 @@
 1 71 10 16 50 0 0 -1 0 1 0 1 0 0 3623.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-92.ldr
 0 Hinged panel: locking hinge plates on plates and bricks
 0 Author: Roland Dahl [RolandD]
@@ -4947,6 +5039,7 @@
 1 72 10 32 20 0 0 1 0 1 0 -1 0 0 3003.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-93.ldr
 0 Panel section: hinge plates on edged plates and tiles
 0 Author: Roland Dahl [RolandD]
@@ -4981,6 +5074,7 @@
 1 71 -10 16 50 0 0 -1 0 1 0 1 0 0 3623.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-94.ldr
 0 Greeble base plate: clip plates on large plates with a rounded-pin plate
 0 Author: Roland Dahl [RolandD]
@@ -5010,6 +5104,7 @@
 1 71 0 -16 -60 0 0 1 0 1 0 -1 0 0 3456.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-95.ldr
 0 Rotating axle assembly: liftarms, axles and angle connectors with bushes
 0 Author: Roland Dahl [RolandD]
@@ -5052,6 +5147,7 @@
 1 72 0 -70 0 1 0 0 0 1 0 0 0 1 6632.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-96.ldr
 0 Strut/linkage: bent 53-degree liftarm on pins
 0 Author: Roland Dahl [RolandD]
@@ -5067,6 +5163,7 @@
 1 1 -10 40 -18 1 0 0 0 0.6 0.8 0 -0.8 0.6 43093.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-97.ldr
 0 Strut/linkage: bent 53-degree liftarm on pins
 0 Author: Roland Dahl [RolandD]
@@ -5082,6 +5179,7 @@
 1 0 0 -12 0 -1 0 0 0 -0.6 0.8 0 0.8 0.6 2780.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-98.ldr
 0 Strut/linkage: bent 90-degree liftarm on pins
 0 Author: Roland Dahl [RolandD]
@@ -5100,6 +5198,7 @@
 1 71 10 10 -60 0 0 -1 0 -1 0 -1 0 0 32000.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-99.ldr
 0 Strut/linkage: bent 90-degree liftarm on pins
 0 Author: Roland Dahl [RolandD]
@@ -5118,6 +5217,7 @@
 1 71 -20 10 -40 0 0 1 0 -1 0 1 0 0 32000.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-100.ldr
 0 Large hull quadrant with turret mount: wing plates, dishes and beams forming a saucer quarter
 0 Author: Roland Dahl [RolandD]
@@ -5314,6 +5414,7 @@
 1 72 0 -24 -220 0 0 1 0 1 0 -1 0 0 10179 - subModel-105.ldr
 
 
+0 STEP
 0 FILE 10179 - subModel-101.ldr
 0 Large hull quadrant (mirror): wing plates, dishes and beams forming a saucer quarter
 0 Author: Roland Dahl [RolandD]
@@ -5545,6 +5646,7 @@
 1 72 0 -24 -220 0 0 1 0 1 0 -1 0 0 10179 - subModel-105.ldr
 
 
+0 STEP
 0 FILE 10179 - subModel-102.ldr
 0 Small mount: 1x4 plates on side-stud bricks
 0 Author: Roland Dahl [RolandD]
@@ -5572,6 +5674,7 @@
 1 0 -74 32 0 0 1 0 0 0 -1 -1 0 0 30414.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-103.ldr
 0 Vented detail: curved slope and grille on locking hinges
 0 Author: Roland Dahl [RolandD]
@@ -5599,6 +5702,7 @@
 1 72 50 -48 0 0 0 -1 0 1 0 1 0 0 50950.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-104.ldr
 0 Vented detail (mirror): curved slope on locking hinges
 0 Author: Roland Dahl [RolandD]
@@ -5624,6 +5728,7 @@
 1 72 0 -48 30 -1 0 0 0 1 0 0 0 -1 50950.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-105.ldr
 0 Engine nozzle/antenna assembly: cones, bars, angle connectors and a dome
 0 Author: Roland Dahl [RolandD]
@@ -5701,6 +5806,7 @@
 1 72 144 -38 -10 0 1 0 0 0 -1 -1 0 0 4589.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-106.ldr
 0 Axle/connector assembly: connectors, bush and axle on a friction pin
 0 Author: Roland Dahl [RolandD]
@@ -5727,6 +5833,7 @@
 1 71 60 0 0 1 0 0 0 0 1 0 -1 0 6553.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-107.ldr
 0 Greebled hull panel: control sticks, dishes and slopes on edged plates
 0 Author: Roland Dahl [RolandD]
@@ -5813,6 +5920,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10179 - subModel-108.ldr
 0 Large greebled hull panel: control sticks, tiles, wing panels and dishes
 0 Author: Roland Dahl [RolandD]
@@ -5949,6 +6057,7 @@
 1 72 10 -24 0 0 0 1 0 1 0 -1 0 0 30244.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-109.ldr
 0 Small clip detail: corner plate with a light clip
 0 Author: Roland Dahl [RolandD]
@@ -5968,6 +6077,7 @@
 1 71 0 -16 0 1 0 0 0 1 0 0 0 1 2450.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-110.ldr
 0 Large greebled hull panel: control sticks, tiles, wing panels and dishes
 0 Author: Roland Dahl [RolandD]
@@ -6111,6 +6221,7 @@
 1 71 191.0427 -42 -103.3602 0 -0.9397 -0.342 -1 0 0 0 0.342 -0.9397 10179 - subModel-111.ldr
 
 
+0 STEP
 0 FILE 10179 - subModel-111.ldr
 0 Small clip detail: corner plate with a light clip
 0 Author: Roland Dahl [RolandD]
@@ -6130,6 +6241,7 @@
 1 71 0 -16 0 1 0 0 0 1 0 0 0 1 2450.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-112.ldr
 0 Empty placeholder submodel (no parts)
 0 Author: Roland Dahl [RolandD]
@@ -6144,6 +6256,7 @@
 1 71 197.388 8.883 -29 0.998 -0.07 0 0.07 0.998 0 0 0 1 10179 - subModel-110.ldr
 
 
+0 STEP
 0 FILE 10179 - subModel-113.ldr
 0 Hull panel section: wing plates and tiles on edged plates
 0 Author: Roland Dahl [RolandD]
@@ -6203,6 +6316,7 @@
 1 15 -40 8 -70 -1 0 0 0 -1 0 0 0 1 10179 - subModel-114.ldr
 
 
+0 STEP
 0 FILE 10179 - subModel-114.ldr
 0 Joint mount: angle connectors and pin plate with friction pins
 0 Author: Roland Dahl [RolandD]
@@ -6232,6 +6346,7 @@
 1 15 0 0 60 0 0 -1 0 -1 0 -1 0 0 2444.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-115.ldr
 0 Hull panel section (mirror): wing plates and tiles on edged plates
 0 Author: Roland Dahl [RolandD]
@@ -6291,6 +6406,7 @@
 1 71 60 8 40 0 0 -1 0 -1 0 -1 0 0 10179 - subModel-114.ldr
 
 
+0 STEP
 0 FILE 10179 - subModel-116.ldr
 0 Hull panel section: tiles, wing plates and dishes with red accents
 0 Author: Roland Dahl [RolandD]
@@ -6356,6 +6472,7 @@
 1 0 40 8 80 -1 0 0 0 -1 0 0 0 1 10179 - subModel-114.ldr
 
 
+0 STEP
 0 FILE 10179 - subModel-117.ldr
 0 Hull panel section: tiles, wing plates and dishes on edged plates
 0 Author: Roland Dahl [RolandD]
@@ -6407,6 +6524,7 @@
 1 0 -40 8 80 1 0 0 0 -1 0 0 0 -1 10179 - subModel-114.ldr
 
 
+0 STEP
 0 FILE 10179 - subModel-118.ldr
 0 Large lower hull shell (left): wing plates, tiles and dishes forming a saucer flank
 0 Author: Roland Dahl [RolandD]
@@ -6618,6 +6736,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10179 - subModel-119.ldr
 0 Large lower hull shell (right): wing plates, tiles and dishes forming a saucer flank
 0 Author: Roland Dahl [RolandD]
@@ -6816,6 +6935,7 @@
 1 71 110 -16 -550 -1 0 0 0 1 0 0 0 -1 2431.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-120.ldr
 0 Small vent detail: handled plate with grille and tap
 0 Author: Roland Dahl [RolandD]
@@ -6836,6 +6956,7 @@
 1 71 -20 -32 -10 0 0 1 0 1 0 -1 0 0 4599a.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-121.ldr
 0 Small vent detail: plate with tap and handled tile
 0 Author: Roland Dahl [RolandD]
@@ -6851,6 +6972,7 @@
 1 72 -10 -32 10 1 0 0 0 1 0 0 0 1 2432.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-122.ldr
 0 Upper hull sensor panel: clip plates, slopes and binocular scopes on 8x8 plates
 0 Author: Roland Dahl [RolandD]
@@ -7028,6 +7150,7 @@
 1 71 0 8 400 1 0 0 0 1 0 0 0 1 3795.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-123.ldr
 0 Hull frame beam: 1x16, 1x12 and 1x6 technic bricks with pins
 0 Author: Roland Dahl [RolandD]
@@ -7052,6 +7175,7 @@
 1 72 20 -8 220 0 0 1 0 1 0 -1 0 0 3895.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-124.ldr
 0 Hull frame beam (mirror): 1x16, 1x12 and 1x6 technic bricks with pins
 0 Author: Roland Dahl [RolandD]
@@ -7076,6 +7200,7 @@
 1 72 -70 0 -150 0 0 1 0 1 0 -1 0 0 3894.dat
 
 
+0 STEP
 0 FILE 10179 - technicflexSysHose-1.ldr
 0 Flexible technic hose run (~162 mm, 13 segments) generated by LDCad
 0 !CATEGORY technic
@@ -7922,6 +8047,7 @@
 5 24 2.8284 -405 -2.8284 2.8284 -404.004944 -2.8284 3.6956 -405 -1.5308 1.5308 -405 -3.6956
 5 24 3.6956 -405 -1.5308 3.6956 -404.004944 -1.5308 4 -405 0 2.8284 -405 -2.8284
 
+0 STEP
 0 FILE 10179 - subModel-125.ldr
 0 Ridged vent/exhaust assembly: rows of 18-slopes and locking hinges with grilles
 0 Author: Roland Dahl [RolandD]
@@ -8038,6 +8164,7 @@
 1 72 -80 0 -110 0 -1 0 1 0 0 0 0 1 10179 - subModel-129.ldr
 
 
+0 STEP
 0 FILE 10179 - subModel-126.ldr
 0 Small block: 2x2 bricks and a side-stud brick
 0 Author: Roland Dahl [RolandD]
@@ -8058,6 +8185,7 @@
 1 72 -52 20 0 0 1 0 0 0 1 1 0 0 3003.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-127.ldr
 0 Flat hull patch: corner-cut 6x6 plates with grooved tiles
 0 Author: Roland Dahl [RolandD]
@@ -8084,6 +8212,7 @@
 1 72 0 -8 100 0 0 1 0 1 0 -1 0 0 3068b.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-128.ldr
 0 Greebled vent cluster: taps, cones, clips and bars with red accents
 0 Author: Roland Dahl [RolandD]
@@ -8154,6 +8283,7 @@
 1 71 -30 -32 50 -0.7071 0 -0.7071 0 1 0 0.7071 0 -0.7071 4599a.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-129.ldr
 0 Small edge detail: inverted slope on a 1x4 brick
 0 Author: Roland Dahl [RolandD]
@@ -8169,6 +8299,7 @@
 1 71 20 -24 0 -1 0 0 0 1 0 0 0 -1 3660.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-130.ldr
 0 Hull edge/vent section: hinge plates, grilles and a 6x6 inverted dish
 0 Author: Roland Dahl [RolandD]
@@ -8331,6 +8462,7 @@
 0 // Dish  6 x  6 Inverted Webbed Type 1 (light_bluish_grey)
 1 71 0 -84 -176 0 0 -1 -1 0 0 0 1 0 4285a.dat
 
+0 STEP
 0 FILE 10179 - subModel-131.ldr
 0 Small wing panel: hinge plate with 2x3 wing tiles
 0 Author: Roland Dahl [RolandD]
@@ -8356,6 +8488,7 @@
 1 71 -10 -16 -80 1 0 0 0 1 0 0 0 1 43722.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-132.ldr
 0 Small panel: jumper and round plates with dishes on a black plate
 0 Author: Roland Dahl [RolandD]
@@ -8391,6 +8524,7 @@
 1 71 0 -18 -100 -1 0 0 0 0 1 0 1 0 3023.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-133.ldr
 0 Hinge joint: locking 3x4 hinge plate with a vertical hinge plate
 0 Author: Roland Dahl [RolandD]
@@ -8409,6 +8543,7 @@
 1 71 10 -18.1865 -103.141 1 0 0 0 0.9397 0.342 0 -0.342 0.9397 10179 - subModel-134.ldr
 
 
+0 STEP
 0 FILE 10179 - subModel-134.ldr
 0 Small wing detail: 3x6 wing on a hinge plate
 0 Author: Roland Dahl [RolandD]
@@ -8425,6 +8560,7 @@
 1 72 0 -16 20 0 0 1 0 -1 0 1 0 0 44301.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-135.ldr
 0 Hinge joint: locking 3x4 hinge plates with grille tiles
 0 Author: Roland Dahl [RolandD]
@@ -8451,6 +8587,7 @@
 1 72 183.141 18.1865 10 0 0.342 -0.9397 0 -0.9397 -0.342 -1 0 0 10179 - subModel-136.ldr
 
 
+0 STEP
 0 FILE 10179 - subModel-136.ldr
 0 Small wing detail (mirror): 3x6 wing on a hinge plate
 0 Author: Roland Dahl [RolandD]
@@ -8467,6 +8604,7 @@
 1 72 0 -16 20 0 0 1 0 -1 0 1 0 0 44301.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-137.ldr
 0 Greebled vent strip: side-stud bricks, slopes and T-pieces with grille tiles
 0 Author: Roland Dahl [RolandD]
@@ -8497,6 +8635,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10179 - subModel-138.ldr
 0 Hull frame mount: open-centre 4x6 technic bricks with inverted slopes on plates
 0 Author: Roland Dahl [RolandD]
@@ -8533,6 +8672,7 @@
 1 71 170 40 0 0 0 1 0 1 0 -1 0 0 3701.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-139.ldr
 0 Door-rail panel: technic plate with door-rail plates and a vertical hinge
 0 Author: Roland Dahl [RolandD]
@@ -8554,6 +8694,7 @@
 1 0 10 8 20 0 0 -1 0 1 0 1 0 0 44302.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-140.ldr
 0 Door-rail panel (mirror): technic plate with door-rail plates and a vertical hinge
 0 Author: Roland Dahl [RolandD]
@@ -8575,6 +8716,7 @@
 1 0 -10 8 20 0 0 -1 0 1 0 1 0 0 44302.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-141.ldr
 0 Hull edge with hinge flap: 1x6 plates and 1x4 hinge bricks on a 1x16 brick
 0 Author: Roland Dahl [RolandD]
@@ -8617,6 +8759,7 @@
 1 72 220 -64 0 1 0 0 0 1 0 0 0 1 4162.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-142.ldr
 0 Greebled panel with rotating mount: hinge plates, gear racks, dishes and cones
 0 Author: Roland Dahl [RolandD]
@@ -8736,6 +8879,7 @@
 1 72 92.4264 22.2843 -100 0.7071 -0.7071 0 0.7071 0.7071 0 0 0 1 10179 - subModel-146.ldr
 
 
+0 STEP
 0 FILE 10179 - subModel-143.ldr
 0 Small rotating mount: round bricks on an axle with a 2x4 brick
 0 Author: Roland Dahl [RolandD]
@@ -8759,6 +8903,7 @@
 1 71 25 62 -5 0 -1 0 1 0 0 0 0 1 4519.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-144.ldr
 0 Rotating mount with wings: convex slopes, round bricks and 2x4 wings
 0 Author: Roland Dahl [RolandD]
@@ -8811,6 +8956,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10179 - subModel-145.ldr
 0 Panel/hatch section: hinge plates and dishes on grooved tiles and plates
 0 Author: Roland Dahl [RolandD]
@@ -8856,6 +9002,7 @@
 1 71 0 -8 120 0 0 -1 0 1 0 1 0 0 3068b.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-146.ldr
 0 Panel/hatch section: hinge plates and dishes on edged plates
 0 Author: Roland Dahl [RolandD]
@@ -8903,6 +9050,7 @@
 1 71 0 -8 180 0 0 1 0 1 0 -1 0 0 3068b.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-147.ldr
 0 Greebled panel with rotating mount: hinge plates, gear racks, dishes and bars
 0 Author: Roland Dahl [RolandD]
@@ -9023,6 +9171,7 @@
 1 71 92.4264 22.2843 100 -0.7071 -0.7071 0 -0.7071 0.7071 0 0 0 -1 10179 - subModel-149.ldr
 
 
+0 STEP
 0 FILE 10179 - subModel-148.ldr
 0 Panel/hatch section: hinge plates and dishes on edged plates
 0 Author: Roland Dahl [RolandD]
@@ -9068,6 +9217,7 @@
 1 71 0 -8 -240 0 0 1 0 1 0 -1 0 0 3068b.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-149.ldr
 0 Panel/hatch section: hinge plates and dishes on edged plates
 0 Author: Roland Dahl [RolandD]
@@ -9113,6 +9263,7 @@
 1 71 0 -8 120 0 0 -1 0 1 0 1 0 0 3068b.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-150.ldr
 0 Large greebled hull plate with sensors: clip plates, scopes, cones and dishes on 8x8 plates
 0 Author: Roland Dahl [RolandD]
@@ -9340,6 +9491,7 @@
 1 71 -16 -18.584 -7.288 0 -1 0 0.092 0 -0.996 0.996 0 0.092 10179 - technicflexSysHose-2.ldr
 
 
+0 STEP
 0 FILE 10179 - subModel-151.ldr
 0 Greebled hull tile panel: control sticks and red-accent plates on an 8x8 plate
 0 Author: Roland Dahl [RolandD]
@@ -9384,6 +9536,7 @@
 1 71 10 -8 30 1 0 0 0 0.1219 0.9925 0 -0.9925 0.1219 4593.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-152.ldr
 0 Small handle detail: edge plate with a handled tan plate
 0 Author: Roland Dahl [RolandD]
@@ -9399,6 +9552,7 @@
 1 71 0 -16 0 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-153.ldr
 0 Large greebled hull quadrant (left): wings, corner-round bricks, dishes and sensors
 0 Author: Roland Dahl [RolandD]
@@ -9597,6 +9751,7 @@
 1 71 294.472 -30 -121.056 0.894 0.447 0 0 0 -1 -0.447 0.894 0 10179 - technicflexSysHose-3.ldr
 
 
+0 STEP
 0 FILE 10179 - subModel-154.ldr
 0 Small pin plate: two 2x2 plates with hole and split ribs
 0 Author: Roland Dahl [RolandD]
@@ -9610,6 +9765,7 @@
 1 15 30 10 0 -1 0 0 0 -1 0 0 0 1 2444.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-155.ldr
 0 Large greebled hull quadrant (right): wings, corner-round bricks, dishes and sensors
 0 Author: Roland Dahl [RolandD]
@@ -9816,6 +9972,7 @@
 1 71 -174.472 -30 -141.056 0.894 -0.447 0 0 0 -1 0.447 0.894 0 10179 - technicflexSysHose-3.ldr
 
 
+0 STEP
 0 FILE 10179 - rigid3mmHose-1.ldr
 0 Rigid 3 mm hose part (empty geometry reference)
 0 !CATEGORY Technic
@@ -9835,6 +9992,7 @@
 
 0 !LDCAD GENERATED [generator=LDCad 1.6 Alpha 4]
 
+0 STEP
 0 FILE 10179 - technicflexSysHose-2.ldr
 0 Flexible technic hose run (~64 mm, 6 segments) generated by LDCad
 0 !CATEGORY technic
@@ -10331,6 +10489,7 @@
 5 24 2.8284 -96 -2.8284 2.8284 -95.474686 -2.8284 3.6956 -96 -1.5308 1.5308 -96 -3.6956
 5 24 3.6956 -96 -1.5308 3.6956 -95.474686 -1.5308 4 -96 0 2.8284 -96 -2.8284
 
+0 STEP
 0 FILE 10179 - technicflexSysHose-3.ldr
 0 Flexible technic hose run (~80 mm, 7 segments) generated by LDCad
 0 !CATEGORY technic
@@ -10877,6 +11036,7 @@
 5 24 2.8284 -199 -2.8284 2.8284 -198.489853 -2.8284 3.6956 -199 -1.5308 1.5308 -199 -3.6956
 5 24 3.6956 -199 -1.5308 3.6956 -198.489853 -1.5308 4 -199 0 2.8284 -199 -2.8284
 
+0 STEP
 0 FILE 10179 - subModel-156.ldr
 0 Large greebled hull quadrant: control sticks, wings, corner-round bricks and dishes
 0 Author: Roland Dahl [RolandD]
@@ -11166,6 +11326,7 @@
 1 71 220 16 100 0 0 -1 0 1 0 1 0 0 10179 - subModel-159.ldr
 
 
+0 STEP
 0 FILE 10179 - subModel-157.ldr
 0 Small clip greeble: round plate with a clip and an inverted dish
 0 Author: Roland Dahl [RolandD]
@@ -11182,6 +11343,7 @@
 1 72 0 -16 0 -1 0 0 0 1 0 0 0 -1 61252.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-158.ldr
 0 Small pipe joint: half-pin and round joiner on a tap
 0 Author: Roland Dahl [RolandD]
@@ -11198,6 +11360,7 @@
 1 71 0 0 0 -1 0 0 0 1 0 0 0 -1 4599a.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-159.ldr
 0 Clip rail: thick C-clip plates on a 2x12 and 2x8 plate
 0 Author: Roland Dahl [RolandD]
@@ -11220,6 +11383,7 @@
 1 71 0 -8 0 0 0 -1 0 1 0 1 0 0 3034.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-154b.ldr
 0 Small angle-joint strut: long pin with an angle connector and a 3-long axle
 0 Author: Roland Dahl [RolandD]
@@ -11235,6 +11399,7 @@
 1 71 0 -40 0 0 0 -1 -1 0 0 0 1 0 4519.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-160.ldr
 0 Large greebled hull quadrant: control sticks, wings, corner-round bricks and dishes
 0 Author: Roland Dahl [RolandD]
@@ -11513,6 +11678,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10179 - subModel-161.ldr
 0 Hull panel section: wing plates and tiles on edged plates with a 3x12 wing
 0 Author: Roland Dahl [RolandD]
@@ -11570,6 +11736,7 @@
 1 71 -20 8 -40 -1 0 0 0 -1 0 0 0 1 10179 - subModel-162.ldr
 
 
+0 STEP
 0 FILE 10179 - subModel-162.ldr
 0 Small pin plate: 2x2 plate with hole and split underside ribs
 0 Author: Roland Dahl [RolandD]
@@ -11581,6 +11748,7 @@
 1 15 0 0 0 -1 0 0 0 -1 0 0 0 1 2444.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-162b.ldr
 0 Toggle-joint linkage: 3/4 pin and smooth toggle connector on a 3-long axle
 0 Author: Roland Dahl [RolandD]
@@ -11596,6 +11764,7 @@
 1 71 -30 -50 0 0 1 0 -1 0 0 0 0 1 4519.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-163.ldr
 0 Large greebled hull edge: hinge plates, door-rail plates, gear racks and grilles
 0 Author: Roland Dahl [RolandD]
@@ -11725,6 +11894,7 @@
 1 71 -22.037 5.328 -130 0 0.087 0.997 0 0.997 -0.087 -1 0 0 10179 - subModel-170.ldr
 
 
+0 STEP
 0 FILE 10179 - subModel-164.ldr
 0 Small hinged wing panel: hinge plate with 2x3 wing and edge plates
 0 Author: Roland Dahl [RolandD]
@@ -11748,6 +11918,7 @@
 1 71 0 -16 30 0 0 1 0 1 0 -1 0 0 43722.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-165.ldr
 0 Small dish mount: 3x6 wing and dish on a pin plate
 0 Author: Roland Dahl [RolandD]
@@ -11774,6 +11945,7 @@
 1 0 -40 18 -10 1 0 0 0 1 0 0 0 1 2780.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-166.ldr
 0 Hinged hull panel: locking 3x4 hinge plates with wing and grooved tiles
 0 Author: Roland Dahl [RolandD]
@@ -11799,6 +11971,7 @@
 1 71 0 -16 120 0 0 1 0 1 0 -1 0 0 3068b.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-167.ldr
 0 Hinged hull panel: locking 3x4 hinge plates with wing and grooved tiles
 0 Author: Roland Dahl [RolandD]
@@ -11849,6 +12022,7 @@
 1 71 130 24 -10 -1 0 0 0 1 0 0 0 -1 3623.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-168.ldr
 0 Hull edge section: hinge plates and wing with grooved tiles
 0 Author: Roland Dahl [RolandD]
@@ -11894,6 +12068,7 @@
 1 71 -90 -32 10 0 0 1 0 1 0 -1 0 0 41770.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-169.ldr
 0 Small hatch: dish and hinge plate on a corner-cut plate
 0 Author: Roland Dahl [RolandD]
@@ -11920,6 +12095,7 @@
 1 71 0 -32 60 0 0 -1 0 1 0 1 0 0 30503.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-170.ldr
 0 Greebled hull panel with vents: red-accent plates, dishes and wing tiles
 0 Author: Roland Dahl [RolandD]
@@ -11988,6 +12164,7 @@
 1 0 0 16 -140 0 0 -1 0 1 0 1 0 0 2654.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-171.ldr
 0 Hull detail strip: wing and grooved tiles with a bar-on-plate
 0 Author: Roland Dahl [RolandD]
@@ -12013,6 +12190,7 @@
 1 71 -20 -16 -20 -1 0 0 0 1 0 0 0 -1 42445.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-172.ldr
 0 Greebled panel with rotating mount: hinge plates, axle, gear and grilles
 0 Author: Roland Dahl [RolandD]
@@ -12079,6 +12257,7 @@
 1 0 71.0122 -25.5563 60 -0.7071 -0.7071 0 0.7071 -0.7071 0 0 0 1 10179 - subModel-177.ldr
 
 
+0 STEP
 0 FILE 10179 - subModel-173.ldr
 0 Small wing clip detail: clip plate with a 2x4 wing
 0 Author: Roland Dahl [RolandD]
@@ -12097,6 +12276,7 @@
 1 71 10 -16 -10 1 0 0 0 1 0 0 0 1 51739.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-174.ldr
 0 Small dish panel: hinge plate with dish on edged plates
 0 Author: Roland Dahl [RolandD]
@@ -12123,6 +12303,7 @@
 1 14 -20 11.931 55.5405 -1 0 0 0 0.9136 -0.4067 0 -0.4067 -0.9136 10179 - subModel-176.ldr
 
 
+0 STEP
 0 FILE 10179 - subModel-175.ldr
 0 Small hinge clip: C-clip plates on a hinge base and top
 0 Author: Roland Dahl [RolandD]
@@ -12143,6 +12324,7 @@
 1 0 0 -24 10 0 0 -1 0 1 0 1 0 0 3938.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-176.ldr
 0 Small pipe/antenna: bars and clip with a mechanical arm
 0 Author: Roland Dahl [RolandD]
@@ -12161,6 +12343,7 @@
 1 71 -40 0 0 -0.3012 0 0.9536 0.9536 0 0.3012 0 1 0 4095.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-177.ldr
 0 Small dish panel: hinge plate with dish on edged plates
 0 Author: Roland Dahl [RolandD]
@@ -12197,6 +12380,7 @@
 1 4 20 11.9307 -135.5415 -1 0 0 0 -0.9136 -0.4067 0 -0.4067 0.9136 10179 - subModel-179.ldr
 
 
+0 STEP
 0 FILE 10179 - subModel-178.ldr
 0 Small hinge clip: C-clip plates on a hinge base and top
 0 Author: Roland Dahl [RolandD]
@@ -12217,6 +12401,7 @@
 1 0 0 -24 10 0 0 -1 0 1 0 1 0 0 3938.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-179.ldr
 0 Small pipe/antenna: bars and clip with a mechanical arm
 0 Author: Roland Dahl [RolandD]
@@ -12235,6 +12420,7 @@
 1 71 40 0 0 -0.3012 0 0.9536 0.9536 0 0.3012 0 1 0 4095.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-180.ldr
 0 Large greebled hull quadrant: red-accent tiles, wings, dishes and pipes
 0 Author: Roland Dahl [RolandD]
@@ -12355,6 +12541,7 @@
 1 71 70 10 40 -1 0 0 0 -1 0 0 0 1 10179 - subModel-154.ldr
 
 
+0 STEP
 0 FILE 10179 - subModel-181.ldr
 0 Small hull panel: wing and grooved tiles on edged plates
 0 Author: Roland Dahl [RolandD]
@@ -12379,6 +12566,7 @@
 1 72 30 -8 120 0 0 -1 0 1 0 1 0 0 2431.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-182.ldr
 0 Small wing detail: two 2x4 wings and a 3x6 wing
 0 Author: Roland Dahl [RolandD]
@@ -12395,6 +12583,7 @@
 1 71 10 -8 -80 1 0 0 0 1 0 0 0 1 41769.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-183.ldr
 0 Small wing panel: 2x4 wing on a 4x8 plate
 0 Author: Roland Dahl [RolandD]
@@ -12408,6 +12597,7 @@
 1 71 20 -8 -80 0 0 -1 0 1 0 1 0 0 41769.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-184.ldr
 0 Large greebled hull quadrant: wings, hinge flaps, dishes, cones and pipes
 0 Author: Roland Dahl [RolandD]
@@ -12530,6 +12720,7 @@
 1 71 30 -22 -136 0 -0.9397 0.342 0 -0.342 -0.9397 1 0 0 30377.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-185.ldr
 0 Greebled vent block: slopes, grille bricks and handled plates
 0 Author: Roland Dahl [RolandD]
@@ -12572,6 +12763,7 @@
 1 72 10 -16 -50 1 0 0 0 1 0 0 0 1 54200.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-186.ldr
 0 Small handle strip: handled plates on edge plates
 0 Author: Roland Dahl [RolandD]
@@ -12596,6 +12788,7 @@
 1 19 0 -8 220 0 0 1 0 1 0 -1 0 0 48336.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-187.ldr
 0 Large greebled hull quadrant: wings, hinge flaps, dishes and an antenna
 0 Author: Roland Dahl [RolandD]
@@ -12693,6 +12886,7 @@
 1 71 -61.0679 -23.7473 159.2102 0 0.8944 -0.4473 -1 0 0 0 0.4473 0.8944 3957a.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-188.ldr
 0 Small handle strip: handled plates on edge plates with a gear rack
 0 Author: Roland Dahl [RolandD]
@@ -12722,6 +12916,7 @@
 1 71 0 -24 200 0 0 -1 0 1 0 1 0 0 3743.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-189.ldr
 0 Rotating sensor turret: 4x4 turntable with dome, cone and axle
 0 Author: Roland Dahl [RolandD]
@@ -12763,6 +12958,7 @@
 1 71 0 -161.8489 90.3932 1 0 0 0 0.6428 0.766 0 -0.766 0.6428 3942b.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-190.ldr
 0 Large rotating dish mount: 10x10 inverted dish on peg-hole bricks and an axle
 0 Author: Roland Dahl [RolandD]
@@ -12798,6 +12994,7 @@
 0 // Technic Brick  5 x  3 x  1 with  8 Pegholes and  2 Studs (light_bluish_grey)
 1 71 50 40 0 0 0 -1 0 1 0 1 0 0 32333.dat
 
+0 STEP
 0 FILE 10179 - subModel-191.ldr
 0 Large tiled hull panel: edged plates, grooved and grille tiles with black accents
 0 Author: Roland Dahl [RolandD]
@@ -12860,6 +13057,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10179 - subModel-192.ldr
 0 Small angled block: 45-slopes on a 4x10 plate
 0 Author: Roland Dahl [RolandD]
@@ -12881,6 +13079,7 @@
 1 72 80 -24 20 1 0 0 0 1 0 0 0 1 3039.dat
 
 
+0 STEP
 0 FILE 10179 - subModel-193.ldr
 0 Small hinge unit: hinge base with a top
 0 Author: Roland Dahl [RolandD]
@@ -12894,6 +13093,7 @@
 1 0 0 5 -8.66 1 0 0 0 0.5 -0.866 0 0.866 0.5 3938.dat
 
 
+0 STEP
 0 FILE 10179 - Chewbacca.ldr
 0 Chewbacca minifigure: Wookiee head with bandolier on a reddish-brown body
 0 Author: Roland Dahl [RolandD]
@@ -12921,6 +13121,7 @@
 1 70 3.688 66.76 10.116 0.969 0.217 -0.12 -0.238 0.677 -0.697 -0.07 0.704 0.707 3820.dat
 
 
+0 STEP
 0 FILE 10179 - Han Solo.ldr
 0 Han Solo minifigure: smirking head with hair, black vest torso and gunbelt hips
 0 Author: Roland Dahl [RolandD]
@@ -12950,6 +13151,7 @@
 1 70 0 -24 0 1 0 0 0 1 0 0 0 1 3901.dat
 
 
+0 STEP
 0 FILE 10179 - Princess Leia.ldr
 0 Princess Leia minifigure: double-bun hair with white loose-dress torso and legs
 0 Author: Roland Dahl [RolandD]
@@ -12981,6 +13183,7 @@
 0 // Minifig Torso with SW Loose Dress Light Grey Folds Pattern (white)
 1 15 0 -32 0 1 0 0 0 1 0 0 0 1 973pry.dat
 
+0 STEP
 0 FILE 10179 - Obi-Wan Kenobi.ldr
 0 Obi-Wan Kenobi minifigure: grey-bearded head, tan Ben Kenobi torso and grey hair
 0 Author: Roland Dahl [RolandD]
@@ -13010,6 +13213,7 @@
 1 78 33.688 -5.24 -9.884 0.992 0.049 -0.12 -0.119 0.707 -0.697 0.051 0.705 0.707 3820.dat
 
 
+0 STEP
 0 FILE 10179 - Luke Skywalker.ldr
 0 Luke Skywalker minifigure: shoulder-length hair, white tunic torso and tan legs
 0 Author: Roland Dahl [RolandD]
@@ -13039,6 +13243,7 @@
 1 19 20 -23 0 1 0 0 0 1 0 0 0 1 4530.dat
 
 
+0 STEP
 0 FILE 10179 - 47996_bended.dat
 0 Pre-bent flexible technic hose (19L) geometry part (empty reference)
 0 Name: 10179 - 47996_bended.dat
@@ -13061,6 +13266,7 @@
 1 71 0 191.3693 508.2194 -1 0 0 0 -0.5892 0.8079 0 0.8079 0.5892 10179 - 47996_bended_02.dat
 
 
+0 STEP
 0 FILE 10179 - 47996_bended_01.dat
 0 Bent flexible-hose segment (cylindrical geometry primitives)
 0 Name: 10179 - 47996_bended_01.dat
@@ -13083,6 +13289,7 @@
 
 
 
+0 STEP
 0 FILE 10179 - 47996_bended_02.dat
 0 Bent flexible-hose segment (cylindrical geometry primitives)
 0 Name: 10179 - 47996_bended_02.dat
@@ -13105,6 +13312,7 @@
 
 
 
+0 STEP
 0 FILE s\10179 - 6057s04_bended.dat
 0 Bent pipe subpart (cylindrical geometry primitives)
 0 Name: s\10179 - 6057s04_bended.dat
@@ -13121,6 +13329,7 @@
 
 
 
+0 STEP
 0 FILE s\10179 - 47996s01_bended.dat
 0 Bent flexible-hose subpart (cylindrical geometry primitives)
 0 Name: s\10179 - 47996s01_bended.dat
@@ -13135,6 +13344,7 @@
 
 
 
+0 STEP
 0 FILE 10179 - 33299a.dat
 0 Custom Technic pin/axle connector part (33299a) geometry primitives
 0 Name: 10179 - 33299a.dat
@@ -13172,6 +13382,7 @@
 
 
 
+0 STEP
 0 FILE 10179 - 30658.dat
 0 Custom curved surface part (30658) geometry primitives
 0 Name: 10179 - 30658.dat
@@ -13646,6 +13857,7 @@
 
 
 
+0 STEP
 0 FILE s\10179 - 33299s01.dat
 0 Subpart of the 33299 Technic connector (geometry primitives)
 0 Name: s\10179 - 33299s01.dat

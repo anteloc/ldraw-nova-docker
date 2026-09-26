@@ -75,6 +75,7 @@
 0 STEP
 0 // Minifig Pipe Wrench (Needs Work) (light_grey)
 1 7 -22.615 -34.236 -248.302 0.865 -0.017 -0.502 -0.492 0.174 -0.853 0.102 0.985 0.142 4328.dat
+0 STEP
 0 FILE 3670 - roof.ldr
 0 Yellow brick structure topped with green Fabuland roof slopes forming a pitched roof.
 0 Name: 3670 - roof.ldr
@@ -112,6 +113,7 @@
 1 14 -60 -72 40 0 0 1 0 1 0 -1 0 0 787c02.dat
 0 // Fabuland Roof Slope without Top Hole (Complete) Green (yellow)
 1 14 60 -72 40 0 0 -1 0 1 0 1 0 0 787c02.dat
+0 STEP
 0 FILE 3670 - wrecker.ldr
 0 Red tow truck built on a vehicle chassis with a tow-hook crane and blue cab body.
 0 Name: 3670 - wrecker.ldr
@@ -138,6 +140,7 @@
 1 4 0 -86 80 1 0 0 0 1 0 0 0 1 4452.dat
 0 // Tow Crane  2 x  4 x  3 with Hook (red)
 1 4 0 -80 80 1 0 0 0 1 0 0 0 1 3670 - 3997c01.dat
+0 STEP
 0 FILE 3670 - blackbear.ldr
 0 Fabuland black bear figure subassembly (contains no direct pieces).
 0 Name: 3670 - blackbear.ldr
@@ -151,6 +154,7 @@
 1 0 -10 -37 4 1 0 0 0 1 0 0 0 1 u9100.dat
 1 0 10 -37 4 1 0 0 0 1 0 0 0 1 u9100.dat
 1 4 0 -37 4 1 0 0 0 0.656 -0.755 0 0.755 0.656 u9103.dat
+0 STEP
 0 FILE 3670 - brownbear.ldr
 0 Fabuland brown bear figure subassembly (contains no direct pieces).
 0 Name: 3670 - brownbear.ldr
@@ -164,6 +168,7 @@
 1 0 -10 -37 4 1 0 0 0 1 0 0 0 1 u9100.dat
 1 0 10 -37 4 1 0 0 0 1 0 0 0 1 u9100.dat
 1 4 0 -37 4 1 0 0 0 0.946 -0.326 0 0.326 0.946 u9103.dat
+0 STEP
 0 FILE 3670 - 4618c01.dat
 0 Fuel pump assembly consisting of a pump body with a black hose.
 0 Name: 3670 - 4618c01.dat
@@ -179,6 +184,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 3670 - 4618.dat
 0 // Figure Fuel Pump Hose (black)
 1 0 29 54 0 1 0 0 0 1 0 0 0 1 3670 - 4619.dat
+0 STEP
 0 FILE 3670 - 4614c02.dat
 0 Fabuland jack assembly combining a jack base and lifter.
 0 Name: 3670 - 4614c02.dat
@@ -194,6 +200,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 3670 - 4614.dat
 0 // ~Fabuland Jack Lifter (main_colour)
 1 16 0 -14 0 1 0 0 0 -0.17365 -0.98481 0 0.98481 -0.17365 3670 - 4615.dat
+0 STEP
 0 FILE 3670 - 4440.dat
 0 Geometric primitive part built from cylinders, discs, cones, circles, and spheres forming a rounded shape.
 0 Name: 3670 - 4440.dat
@@ -404,6 +411,7 @@
 1 16 0 -48.173 -55.711 3 0 0 0 -0.06983 3 0 -0.99756 0 4-4edge.dat
 0 // Disc 1.0 (main_colour)
 1 16 0 -48.173 -55.711 3 0 0 0 0.06983 3 0 0.99756 0 4-4disc.dat
+0 STEP
 0 FILE 3670 - 195835a.dat
 0 Primitive curved part made of chords and cylinders forming a short arc segment.
 0 Name: 3670 - 195835a.dat
@@ -841,6 +849,7 @@
 4 16 26.4 -0.25 0 26.4 -0.25 -28.6 26.4 0 -28.6 26.4 0 0
 4 16 26.4 0 0 26.4 0 -28.6 -26.4 0 -28.6 -26.4 0 0
 4 16 -26.4 -0.25 0 -26.4 0 0 -26.4 0 -28.6 -26.4 -0.25 -28.6
+0 STEP
 0 FILE 3670 - 195835b.dat
 0 Primitive curved part made of chords and cylinders forming a medium arc segment.
 0 Name: 3670 - 195835b.dat
@@ -1220,6 +1229,7 @@
 4 16 -18 0 -25 -18 -0.25 -25 -18 -0.25 32 -18 0 32
 4 16 6 0 -37 -6 0 -37 -18 0 -25 18 0 -25
 4 16 6 -0.25 -37 -6 -0.25 -37 -6 0 -37 6 0 -37
+0 STEP
 0 FILE 3670 - 195835e.dat
 0 Primitive curved part subassembly (contains no direct pieces).
 0 Name: 3670 - 195835e.dat
@@ -2019,6 +2029,7 @@
 4 16 -20.306101 0 -3.1016 -21.9 0 -6.3 -21.9 -0.25 -6.3 -20.306101 -0.25 -3.1016
 4 16 -18.6054 0 -16.740999 -15.1 0 -17 -15.1 -0.25 -17 -18.6054 -0.25 -16.740999
 4 16 -15.1 0 -17 22 0 -17 22 -0.25 -17 -15.1 -0.25 -17
+0 STEP
 0 FILE 3670 - 195835d.dat
 0 Primitive curved part made of chords and cylinders forming a medium arc segment.
 0 Name: 3670 - 195835d.dat
@@ -2432,6 +2443,7 @@
 4 16 -17 0 -21 -17 0 21 17 0 21 17 0 -21
 4 16 -17 0 -21 17 0 -21 11 0 -27 -11 0 -27
 4 16 -11 0 27 11 0 27 17 0 21 -17 0 21
+0 STEP
 0 FILE 3670 - 195835c.dat
 0 Primitive curved part subassembly (contains no direct pieces).
 0 Name: 3670 - 195835c.dat
@@ -2890,6 +2902,7 @@
 4 16 25 -0.25 -19 -25 -0.25 -19 -25 0 -19 25 0 -19
 4 16 25 0 -19 -25 0 -19 -25 0 19 25 0 19
 4 16 25 0 19 -25 0 19 -25 -0.25 19 25 -0.25 19
+0 STEP
 0 FILE 3670 - 4437.dat
 0 Primitive geometric part composed of cylinders, discs, circles, and rectangles forming a rounded body.
 0 Name: 3670 - 4437.dat
@@ -3059,6 +3072,7 @@
 1 16 0 -70.6 1 4 0 0 0 4 0 0 0 4 2-4cylc.dat
 0 // Box with 3 Faces and 4 Parallel Edges (main_colour)
 1 16 0 -66.6 0 0 0 -4 0 -4 0 -1 0 0 box3u8p.dat
+0 STEP
 0 FILE 3670 - 4463.dat
 0 Primitive geometric part built from boxes, rectangles, and small cylinders forming a shaped block.
 0 Name: 3670 - 4463.dat
@@ -3169,6 +3183,7 @@
 1 16 10 30 10 0 0 22.5 -22.5 0 0 0 1 0 48\1-4edge.dat
 1 16 10 30 -5.1538 0 0 30 -30 0.137152 0 4.15381 0.99055 0 48\1-4edge.dat
 1 16 10 30 -5.1538 0 0 22.5 -22.5 0.137152 0 3.11535 0.99055 0 48\1-4edge.dat
+0 STEP
 0 FILE 3670 - 3997c01.dat
 0 Tow crane assembly combining a crane stand with a hook crane element.
 0 Name: 3670 - 3997c01.dat
@@ -3182,6 +3197,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 3670 - 3997.dat
 0 // Tow Crane  2 x  4 x  3 Hook (main_colour)
 1 16 0 -68 76 1 0 0 0 1 0 0 0 1 3670 - 3998a.dat
+0 STEP
 0 FILE 3670 - 787.dat
 0 Fabuland roof support element made of two roof support halves.
 0 Name: 3670 - 787.dat
@@ -3200,6 +3216,7 @@
 
 0 //Antistuds
 0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=R 6 4] [grid=C 2 C 5 20 20]
+0 STEP
 0 FILE 3670 - 4320.dat
 0 Primitive geometric part built from rectangles, circles, cylinders, rings, and discs forming a detailed rounded shape.
 0 Name: 3670 - 4320.dat
@@ -3470,6 +3487,7 @@
 0 // Circle 0.25 (main_colour)
 1 16 -14 0 -54 0 0 -2 0 1 0 -2 0 0 1-4edge.dat
 2 24 -4 0 -54 -4 0 -50
+0 STEP
 0 FILE 3670 - 4618.dat
 0 Primitive geometric part composed of boxes, rectangles, and small cylinders forming a cased body.
 0 Name: 3670 - 4618.dat
@@ -3585,6 +3603,7 @@
 3 16 24.1408 24 -4 24.5072 50 -4 24 14 -15.5
 4 16 24.5072 50 -4 24.1408 24 -4 24.1408 24 4 24.5072 50 4
 4 16 25 85 -15.5 24.619801 58 -4 24.619801 58 4 25 85 15.5
+0 STEP
 0 FILE 3670 - 4619.dat
 0 Primitive geometric part built from cylinders, circles, discs, cones, and spheres forming a complex rounded shape.
 0 Name: 3670 - 4619.dat
@@ -3758,6 +3777,7 @@
 4 16 -8.4149 1.7222 4.1576 -8.4149 1.7222 -4.1576 -8.4365 0 -4.5 -8.4365 0 4.5
 0 // Cylinder Open 1.0 (main_colour)
 1 16 -0.4365 0 0 0.05634 -4 0 4 0 0 0 0 4 4-4cylo.dat
+0 STEP
 0 FILE 48\3670 - tm06o1750.dat
 0 Torus tube segment with major radius 40 and minor radius 7 sweeping 8 of 48 segments.
 0 Name: 48\3670 - tm06o1750.dat
@@ -3885,6 +3905,7 @@
 5 24 0.5808 0.067 1.006 0.5619 0.1237 0.9732 0.7072 0.067 0.9216 0.4484 0.067 1.0825
 5 24 0.5619 0.1237 0.9732 0.5335 0.1617 0.924 0.6841 0.1237 0.8915 0.4337 0.1237 1.0472
 5 24 0.5335 0.1617 0.924 0.5 0.175 0.866 0.6495 0.1617 0.8465 0.4118 0.1617 0.9943
+0 STEP
 0 FILE 48\3670 - tm06i1750.dat
 0 Torus tube segment with major radius 40 and minor radius 7 sweeping 8 of 48 segments.
 0 Name: 48\3670 - tm06i1750.dat
@@ -4012,6 +4033,7 @@
 5 24 0.4665 0.1617 0.808 0.4381 0.1237 0.7589 0.568 0.1617 0.7402 0.3601 0.1617 0.8694
 5 24 0.4381 0.1237 0.7589 0.4192 0.067 0.726 0.5334 0.1237 0.6952 0.3382 0.1237 0.8165
 5 24 0.4192 0.067 0.726 0.4125 0 0.7145 0.5103 0.067 0.6651 0.3236 0.067 0.7812
+0 STEP
 0 FILE 48\3670 - tm04o1750.dat
 0 Torus tube segment with major radius 40 and minor radius 7 sweeping 12 of 48 segments.
 0 Name: 48\3670 - tm04o1750.dat
@@ -4191,6 +4213,7 @@
 5 24 0 0.067 1.1617 0 0.1237 1.1237 0.1516 0.067 1.1517 -0.1529 0.067 1.1617
 5 24 0 0.1237 1.1237 0 0.1617 1.067 0.1467 0.1237 1.1141 -0.1479 0.1237 1.1237
 5 24 0 0.1617 1.067 0 0.175 1 0.1393 0.1617 1.0578 -0.1405 0.1617 1.067
+0 STEP
 0 FILE 48\3670 - tm04i1750.dat
 0 Torus tube segment with major radius 40 and minor radius 7 sweeping 12 of 48 segments.
 0 Name: 48\3670 - tm04i1750.dat
@@ -4370,6 +4393,7 @@
 5 24 0 0.1617 0.933 0 0.1237 0.8763 0.1218 0.1617 0.925 -0.1228 0.1617 0.933
 5 24 0 0.1237 0.8763 0 0.067 0.8383 0.1144 0.1237 0.8688 -0.1154 0.1237 0.8763
 5 24 0 0.067 0.8383 0 0 0.825 0.1094 0.067 0.8311 -0.1104 0.067 0.8383
+0 STEP
 0 FILE 3670 - 3997.dat
 0 Tow crane part composed of base, hook pivot, and outer/inner side panels forming a working crane element.
 0 Name: 3670 - 3997.dat
@@ -4579,6 +4603,7 @@
 0 // Cylinder 0.125 (main_colour)
 1 16 -16 -12 52 0 -4 0 0 0 -12 -12 0 0 1-8cyli.dat
 4 16 -16 -12 40 -16 0 40 -20 8 40 -20 -12 40
+0 STEP
 0 FILE 3670 - 3998a.dat
 0 A cylindrical part composed of rings, circles, cylinders, and parallel-edged rectangles forming a rounded hub-like element.
 0 Name: 3670 - 3998a.dat
@@ -4654,6 +4679,7 @@
 3 16 -2 57.099998 17.9 -2 57.099998 21.1 -2.4 63.5 20.9
 3 16 -2.4 63.5 20.9 -2 57.099998 21.1 1.6 63.5 20.9
 3 16 -3 63.5 17.1 1 63.5 17.1 -2 57.099998 17.9
+0 STEP
 0 FILE s\3670 - 3998as01.dat
 0 A detailed geometric breakdown of a cylindrical component using open cylinders, chords, discs, and rings to define its curved surfaces.
 0 Name: s\3670 - 3998as01.dat
@@ -4787,6 +4813,7 @@
 4 16 -8 -5.0912 -5.0912 -8 -4.8184 -3.273 -8 -1.3777 -3.326 -8 -2.7553 -6.6521
 2 24 6 6.8023 -2 2 6.8023 -2
 2 24 -2 6.8023 -2 -6 6.8023 -2
+0 STEP
 0 FILE 3670 - 4614.dat
 0 A part featuring open and closed cylinders, negative discs, rings, and cones forming a multi-stepped cylindrical structure.
 0 Name: 3670 - 4614.dat
@@ -5058,6 +5085,7 @@
 5 24 17 -9.3 36.299999 13 -9.3 36.299999 13 -10 35 17 -8 37
 5 24 13 -13 -16 17 -13 -16 17 -10 -35 17 -15 -12
 5 24 13 -15 -12 17 -15 -12 13 -13 -16 17 -19 -8
+0 STEP
 0 FILE 3670 - 4615.dat
 0 A cylindrical part variant built from open and closed cylinders, chords, discs, and circles defining its rounded profile.
 0 Name: 3670 - 4615.dat

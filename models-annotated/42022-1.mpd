@@ -297,6 +297,7 @@
 1 1 50 -92 76 1 0 0 0 0.971 0.24 0 -0.24 0.971 42022 - Sub 20.ldr
 1 1 110 -60 100 -1 0 0 0 1 0 0 0 -1 42022 - Sub 21a.ldr
 
+0 STEP
 0 FILE 42022 - Sub 01.ldr
 0 A rear wheel assembly built around a 20x30 rim and matching rubber tyre mounted on a stopped axle with a small bevel gear.
 0 Name: 42022 - Sub 01.ldr
@@ -320,6 +321,7 @@
 0 // Tyre 20/ 48 x 30 (rubber_black)
 1 256 -130 0 0 0 0 -1 0 -1 0 -1 0 0 15413.dat
 
+0 STEP
 0 FILE 42022 - Sub 02.ldr
 0 A small axle and gear train connecting a 4-knob knob wheel to a 20-tooth bevel gear using joiners and short axles.
 0 Name: 42022 - Sub 02.ldr
@@ -349,6 +351,7 @@
 0 // Technic Axle  6 (black)
 1 0 0 0 -330 0 0 1 0 1 0 -1 0 0 3706.dat
 
+0 STEP
 0 FILE 42022 - Sub 03.ldr
 0 A front-wheel steering unit using bent liftarms, angle connectors, and clear round plates forming headlight lenses.
 0 Name: 42022 - Sub 03.ldr
@@ -404,6 +407,7 @@
 0 // Plate  1 x  1 Round (trans_clear)
 1 47 60 -80 54 0 0 1 1 0 0 0 1 0 6141.dat
 
+0 STEP
 0 FILE 42022 - Sub 04.ldr
 0 A compact linkage subassembly combining a knob wheel, towball, and cross block on a short stopped axle.
 0 Name: 42022 - Sub 04.ldr
@@ -427,6 +431,7 @@
 0 // Technic Axle  4 with Stop (dark_bluish_grey)
 1 72 8 0 0 -1 0 0 0 1 0 0 0 -1 87083.dat
 
+0 STEP
 0 FILE 42022 - Sub 05.ldr
 0 A small rotating shaft module with a bevel gear and bushes mounted on a stopped axle.
 0 Name: 42022 - Sub 05.ldr
@@ -448,6 +453,7 @@
 0 // Technic Bush 1/2 Smooth with Axle Hole Semi-Reduced (light_bluish_grey)
 1 71 0 -67 0 1 0 0 0 0 1 0 -1 0 32123b.dat
 
+0 STEP
 0 FILE 42022 - Sub 06.ldr
 0 A wheel and axle module carrying a 22x30 ZR tyre and rim on a long stopped axle reinforced with triangle liftarms and bushes.
 0 Name: 42022 - Sub 06.ldr
@@ -499,6 +505,7 @@
 0 // Technic Beam  3 x  5 Bent 90 (blue)
 1 1 20 0 30 0 0 -1 -1 0 0 0 1 0 32526.dat
 
+0 STEP
 0 FILE 42022 - Sub 07.ldr
 0 A paired rear-wheel assembly mounting two 22x30 ZR tyres and rims on beam-9 supports with bushes and stopped axles.
 0 Name: 42022 - Sub 07.ldr
@@ -548,6 +555,7 @@
 0 // Tyre 22/ 30 x 30 ZR (rubber_black)
 1 256 70 -20 -40 0 0 -1 -1 0 0 0 1 0 44309.dat
 
+0 STEP
 0 FILE 42022 - Sub 08.ldr
 0 A small towball linkage made from a single liftarm boss with a closed axle hole.
 0 Name: 42022 - Sub 08.ldr
@@ -563,6 +571,7 @@
 0 // Technic Axle Towball (light_bluish_grey)
 1 71 -10 0 -40 1 0 0 0 -1 0 0 0 -1 2736.dat
 
+0 STEP
 0 FILE 42022 - Sub 09.ldr
 0 A structural beam assembly joining a beam 11, beam 5, and cross block with friction pins for chassis reinforcement.
 0 Name: 42022 - Sub 09.ldr
@@ -594,6 +603,7 @@
 0 // Technic Cross Block 1 x 3 (Axle/Pin/Pin) (dark_bluish_grey)
 1 72 20 0 -40 0 0 -1 -1 0 0 0 1 0 42003.dat
 
+0 STEP
 0 FILE 42022 - Sub 10.ldr
 0 A small drive shaft unit with a 12-tooth bevel gear on a stopped axle and joiner.
 0 Name: 42022 - Sub 10.ldr
@@ -613,6 +623,7 @@
 0 // Technic Axle  2 Notched (red)
 1 4 -50 0 0 -1 0 0 0 1 0 0 0 -1 32062.dat
 
+0 STEP
 0 FILE 42022 - Sub 11.ldr
 0 A structural beam assembly joining a beam 11, beam 5, and cross block with friction pins for chassis reinforcement.
 0 Name: 42022 - Sub 11.ldr
@@ -644,6 +655,7 @@
 0 // Technic Beam  5 (light_bluish_grey)
 1 71 20 0 20 0 1 0 1 0 0 0 0 -1 32316.dat
 
+0 STEP
 0 FILE 42022 - Sub 12a.ldr
 0 A side exhaust pipe assembly formed from conical buckets mounted on a bent liftarm and angle connector.
 0 Name: 42022 - Sub 12a.ldr
@@ -675,6 +687,7 @@
 0 // Bucket  1 x  1 x  1 Conical (light_bluish_grey)
 1 71 70 20 0 0 -1 0 -1 0 0 0 0 -1 95343.dat
 
+0 STEP
 0 FILE 42022 - Sub 12b.ldr
 0 A side exhaust pipe assembly formed from conical buckets mounted on a bent liftarm and angle connector.
 0 Name: 42022 - Sub 12b.ldr
@@ -706,6 +719,7 @@
 0 // Bucket  1 x  1 x  1 Conical (light_bluish_grey)
 1 71 70 -20 0 0 -1 0 1 0 0 0 0 1 95343.dat
 
+0 STEP
 0 FILE 42022 - Sub 13.ldr
 0 A suspension or link arm assembly built from paired bent 90 liftarms joined by long friction pins.
 0 Name: 42022 - Sub 13.ldr
@@ -733,6 +747,7 @@
 0 // Technic Beam  2 x  4 Liftarm Bent 90 (black)
 1 0 -20 0 -60 1 0 0 0 1 0 0 0 1 32140.dat
 
+0 STEP
 0 FILE 42022 - Sub 14.ldr
 0 A V-engine assembly with two crankshafts, connecting rods, and pistons driven by an 8-tooth gear within Technic brick blocks.
 0 Name: 42022 - Sub 14.ldr
@@ -794,6 +809,7 @@
 1 1 70 -10 -20 1 0 0 0 -0.602 -0.799 0 0.799 -0.602 42022 - Sub 15.ldr
 1 1 70 -42 44 1 0 0 0 -0.602 0.799 0 -0.799 -0.602 42022 - Sub 15.ldr
 
+0 STEP
 0 FILE 42022 - Sub 15.ldr
 0 Three engine cylinder heads each fitted with two pistons and held by friction pins.
 0 Name: 42022 - Sub 15.ldr
@@ -829,6 +845,7 @@
 0 // Technic Engine Piston Round (yellow)
 1 14 0 -5 20 1 0 0 0 1 0 0 0 1 2851.dat
 
+0 STEP
 0 FILE 42022 - Sub 16.ldr
 0 A mounting linkage of cross blocks and short liftarms on a long axle joined by friction pins.
 0 Name: 42022 - Sub 16.ldr
@@ -860,6 +877,7 @@
 0 // Technic Pin with Friction and Slots (black)
 1 0 -10 -40 -20 1 0 0 0 0 -1 0 1 0 2780.dat
 
+0 STEP
 0 FILE 42022 - Sub 17.ldr
 0 A compact gear reduction shaft pairing an 8-tooth gear with a 12-tooth bevel gear on a stopped axle.
 0 Name: 42022 - Sub 17.ldr
@@ -883,6 +901,7 @@
 0 // Technic Gear 12 Tooth Double Bevel (black)
 1 0 150 0 0 0 0 1 0 1 0 -1 0 0 32270.dat
 
+0 STEP
 0 FILE 42022 - Sub 18.ldr
 0 A steering linkage assembly using multiple cross blocks, pin joiners, and connector bushes on long axles.
 0 Name: 42022 - Sub 18.ldr
@@ -940,6 +959,7 @@
 0 // Technic Cross Block 1 x 3 (Axle/Pin/Axle) (light_bluish_grey)
 1 71 -100 -40 -10 -1 0 0 0 0 1 0 1 0 32184.dat
 
+0 STEP
 0 FILE 42022 - Sub 19.ldr
 0 A chassis frame assembly of beams, bent liftarms, and gears joined by long friction pins and axles.
 0 Name: 42022 - Sub 19.ldr
@@ -1009,6 +1029,7 @@
 0 // Technic Gear 12 Tooth Double Bevel (black)
 1 0 0 180 0 0 -1 0 0 0 1 -1 0 0 32270.dat
 
+0 STEP
 0 FILE 42022 - Sub 20.ldr
 0 A single long Technic beam 11 used as a structural chassis member.
 0 Name: 42022 - Sub 20.ldr
@@ -1022,6 +1043,7 @@
 0 // Technic Beam 11 (black)
 1 0 0 0 -100 0 -1 0 1 0 0 0 0 1 32525.dat
 
+0 STEP
 0 FILE 42022 - Sub 21a.ldr
 0 A medium-blue body panel subassembly with smooth fairing panels mounted on bent liftarms.
 0 Name: 42022 - Sub 21a.ldr
@@ -1054,6 +1076,7 @@
 1 0 -10 -32 64 -1 0 0 0 1 0 0 0 -1 2780.dat
 1 71 -10 0 0 1 0 0 0 0.6 -0.8 0 0.8 0.6 42022 - Sub 21b.ldr
 
+0 STEP
 0 FILE 42022 - Sub 21b.ldr
 0 A small decorative linkage with a 180-degree angle connector and a silver round plate on a stopped axle.
 0 Name: 42022 - Sub 21b.ldr

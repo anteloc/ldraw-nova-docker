@@ -10,6 +10,7 @@
 1 16 -40 24 -0.005 1 0 0 0 1 0 0 0 1 1069 - boat.ldr
 
 
+0 STEP
 0 FILE 1069 - boat.ldr
 0 A red and black boat featuring a windscreen, steering wheel with stand, sloped hull sections, and wing plates.
 0 Name: 1069 - boat.ldr
@@ -54,6 +55,7 @@
 1 0 40 -24 0.005 0 0 -1 0 1 0 1 0 0 4855.DAT
 
 
+0 STEP
 0 FILE 1069 - minifig.ldr
 0 A female minifigure with red ponytail hair, white torso with pockets, white legs and arms, and a yellow lifevest.
 0 Name: 1069 - minifig.ldr

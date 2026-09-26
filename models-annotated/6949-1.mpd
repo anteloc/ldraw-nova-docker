@@ -13,6 +13,7 @@
 
 
 
+0 STEP
 0 FILE 6949 - Spaceship.ldr
 0 Compact red and dark grey spacecraft built from plates and wings with a patterned control screen and neon green accent lights.
 0 Name: 6949 - Spaceship.ldr
@@ -65,6 +66,7 @@
 
 
 
+0 STEP
 0 FILE 6949 - Spaceship - Rocket.ldr
 0 Small thruster nozzle assembly made of a side-stud brick topped with a trans neon green cone and trans red dish.
 0 Name: 6949 - Spaceship - Rocket.ldr
@@ -83,6 +85,7 @@
 
 
 
+0 STEP
 0 FILE 6949 - Spaceship + Minifig.ldr
 0 Combined assembly of the small spaceship with an accompanying minifigure.
 0 Name: 6949 - Spaceship + Minifig.ldr
@@ -97,6 +100,7 @@
 
 
 
+0 STEP
 0 FILE 6949 - Robot.ldr
 0 Substantial black, dark grey, and red robot torso built from large plates, slope bricks, and technic bricks with pin connections forming a bulky armored body.
 0 Name: 6949 - Robot.ldr
@@ -482,6 +486,7 @@
 
 
 
+0 STEP
 0 FILE 6949 - Robot - Hinge 1.ldr
 0 Red hinged top plate fitted with a clip and a yellow arrow indicator tile.
 0 Name: 6949 - Robot - Hinge 1.ldr
@@ -502,6 +507,7 @@
 
 
 
+0 STEP
 0 FILE 6949 - Robot - Hinge 2.ldr
 0 Red hinged base plate fitted with a clip and a yellow arrow indicator tile.
 0 Name: 6949 - Robot - Hinge 2.ldr
@@ -522,6 +528,7 @@
 
 
 
+0 STEP
 0 FILE 6949 - Robot - Container.ldr
 0 Red storage container with a Spyrius-patterned door and a magnet assembly inside, flanked by two patterned screen tiles.
 0 Name: 6949 - Robot - Container.ldr
@@ -546,6 +553,7 @@
 
 
 
+0 STEP
 0 FILE 6949 - Robot - Bar.ldr
 0 Red antenna mounted on a light grey technic connector stud.
 0 Name: 6949 - Robot - Bar.ldr
@@ -562,6 +570,7 @@
 
 
 
+0 STEP
 0 FILE 6949 - Robot - Head.ldr
 0 Black turntable top mounting two red grooved tiles to form the neck mount of the robot's head.
 0 Name: 6949 - Robot - Head.ldr
@@ -580,6 +589,7 @@
 1 0 0 -16 0 1 0 0 0 1 0 0 0 1 6949 - Robot - Head - Head.ldr
 
 
+0 STEP
 0 FILE 6949 - Robot - Head - Head.ldr
 0 Detailed robot head built from facetted bricks and slope bricks featuring Spyrius droid and gauge patterned panels with a red grille accent.
 0 Name: 6949 - Robot - Head - Head.ldr
@@ -708,6 +718,7 @@
 
 
 
+0 STEP
 0 FILE 6949 - Robot - Head + Minifig.ldr
 0 Combined assembly of the robot's head module with an accompanying minifigure.
 0 Name: 6949 - Robot - Head + Minifig.ldr
@@ -722,6 +733,7 @@
 
 
 
+0 STEP
 0 FILE 6949 - Robot - Arm 1.ldr
 0 Left robot arm assembly using a technic axle, gear, and bush with jet engine plate, dark grey wing panel, and grille tiles.
 0 Name: 6949 - Robot - Arm 1.ldr
@@ -757,6 +769,7 @@
 
 
 
+0 STEP
 0 FILE 6949 - Robot - Arm 1 - 1.ldr
 0 Upper arm segment built from plates and red hinge bases with a dark grey wing panel and Spyrius machinery patterned tile.
 0 Name: 6949 - Robot - Arm 1 - 1.ldr
@@ -788,6 +801,7 @@
 
 
 
+0 STEP
 0 FILE 6949 - Robot - Arm 1 - 2.ldr
 0 Lower arm segment with red hinge tops, a handle plate, and trans neon green cones forming wrist detail.
 0 Name: 6949 - Robot - Arm 1 - 2.ldr
@@ -827,6 +841,7 @@
 
 
 
+0 STEP
 0 FILE 6949 - Robot - Arm 1 - 3.ldr
 0 Red magnet holder brick used as the arm's magnetic attachment point.
 0 Name: 6949 - Robot - Arm 1 - 3.ldr
@@ -842,6 +857,7 @@
 
 
 
+0 STEP
 0 FILE 6949 - Robot - Arm 1 - 4.ldr
 0 Cylindrical magnet in casing forming the magnet element for the arm.
 0 Name: 6949 - Robot - Arm 1 - 4.ldr
@@ -856,6 +872,7 @@
 
 
 
+0 STEP
 0 FILE 6949 - Robot - Arm 1 - 4 + Container.ldr
 0 Combined assembly of the magnet element attached to the red container.
 0 Name: 6949 - Robot - Arm 1 - 4 + Container.ldr
@@ -870,6 +887,7 @@
 
 
 
+0 STEP
 0 FILE 6949 - Robot - Arm 2.ldr
 0 Right robot arm assembly mirroring the left, using a technic axle, gear, and bush with jet engine plate, dark grey wing panel, and grille tiles.
 0 Name: 6949 - Robot - Arm 2.ldr
@@ -904,6 +922,7 @@
 1 0 -80 6 -120 1 0 0 0 1 0 0 0 1 6949 - Robot - Arm 2 - 1.ldr
 
 
+0 STEP
 0 FILE 6949 - Robot - Arm 2 - 1.ldr
 0 Upper arm segment built from plates and red hinge tops with a dark grey wing panel and Spyrius machinery patterned tile.
 0 Name: 6949 - Robot - Arm 2 - 1.ldr
@@ -934,6 +953,7 @@
 1 0 -20 14 -40 0.7071 0 0.7071 0 1 0 -0.7071 0 0.7071 6949 - Robot - Arm 2 - 2.ldr
 
 
+0 STEP
 0 FILE 6949 - Robot - Arm 2 - 2.ldr
 0 Lower arm segment with red hinge bases, a handle plate, side-stud brick, and trans neon green cones forming wrist detail.
 0 Name: 6949 - Robot - Arm 2 - 2.ldr
@@ -972,6 +992,7 @@
 1 0 20 -6 -94 0 -0.866 0.5 1 0 0 0 0.5 0.866 6949 - Robot - Arm 2 - 3.ldr
 
 
+0 STEP
 0 FILE 6949 - Robot - Arm 2 - 3.ldr
 0 Grab claw assembly consisting of a jaw holder with truncated middle finger and two grab jaw pieces.
 0 Name: 6949 - Robot - Arm 2 - 3.ldr
@@ -989,6 +1010,7 @@
 1 0 0 0 -22 1 0 0 0 0.9659 -0.2588 0 0.2588 0.9659 4221.dat
 
 
+0 STEP
 0 FILE 6949 - Minifig 1.ldr
 0 Red and black robot-patterned minifigure with a clear helmet and silver robot head.
 0 Name: 6949 - Minifig 1.ldr
@@ -1021,6 +1043,7 @@
 
 
 
+0 STEP
 0 FILE 6949 - Minifig 2.ldr
 0 Blue Spyrius-patterned spaceman minifigure with yellow head, airtanks, and a red helmet.
 0 Name: 6949 - Minifig 2.ldr
@@ -1054,6 +1077,7 @@
 
 
 
+0 STEP
 0 FILE 6949 - Minifig 2 - Helmet.ldr
 0 Red space helmet with a trans neon green visor.
 0 Name: 6949 - Minifig 2 - Helmet.ldr
@@ -1070,6 +1094,7 @@
 
 
 
+0 STEP
 0 FILE 6949 - Minifig 3.ldr
 0 A blue Spyrius-patterned astronaut minifigure with black airtanks, moustached head, and red hips and hands.
 0 Name: 6949 - Minifig 3.ldr
@@ -1103,6 +1128,7 @@
 
 
 
+0 STEP
 0 FILE 6949 - Minifig 3 - Helmet.ldr
 0 A red Spyrius-patterned helmet with a trans-neon-green visor.
 0 Name: 6949 - Minifig 3 - Helmet.ldr

@@ -12,6 +12,7 @@
 1 7 150 0 -200 0 0 -1 0 1 0 1 0 0 6041 - Horse.ldr
 
 
+0 STEP
 0 FILE 6041 - MiniFig1.ldr
 0 A blue-armored castle knight minifigure with helmet plume, cape, lance, lion shield, and flag.
 0 Name: 6041 - MiniFig1.ldr
@@ -51,6 +52,7 @@
 1 4 -1.472 -199.066 -67.837 0.984 -0.086 0.147 0.12 0.962 -0.241 -0.12 0.255 0.959 2335p45.dat
 
 
+0 STEP
 0 FILE 6041 - MiniFig2.ldr
 0 A red-breastplated squire minifigure with blue legs, brown shoulder-length hair, and bare hands.
 0 Name: 6041 - MiniFig2.ldr
@@ -80,6 +82,7 @@
 1 6 10 -88 1 0.986 0 -0.169 0 1 0 0.169 0 0.986 4530.dat
 
 
+0 STEP
 0 FILE 6041 - Shop.ldr
 0 A light grey medieval shop or smithy structure built on a green baseplate with walls, arches, round columns, and a battleaxe.
 0 Name: 6041 - Shop.ldr
@@ -247,6 +250,7 @@
 1 6 30 -48 110 0 0 -1 0 1 0 1 0 0 4498.dat
 
 
+0 STEP
 0 FILE 6041 - Rack.ldr
 0 A black weapon and armor rack displaying goblets, spear, bow and arrow, helmets, plume, and shields.
 0 Name: 6041 - Rack.ldr
@@ -305,6 +309,7 @@
 1 7 0 -68 100 0.087 0 -0.996 0 1 0 0.996 0 0.087 3846p4g.dat
 
 
+0 STEP
 0 FILE 6041 - Horse.ldr
 0 A white saddled warhorse with a blue saddle and a dark grey shortsword.
 0 Name: 6041 - Horse.ldr

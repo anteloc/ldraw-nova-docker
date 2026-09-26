@@ -957,6 +957,7 @@
 1 7 30 -112 60 -1 0 0 0 1 0 0 0 -1 168315b.dat
 
 
+0 STEP
 0 FILE 8880 - step4sub1.ldr
 0 Long technic brick frame assembly joined with friction pins and a 2x2 plate for structural reinforcement.
 0 Author: Orion Pobursky [OrionP]
@@ -989,6 +990,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step4sub2.ldr
 0 Mirrored long technic brick frame assembly joined with friction pins and a 2x2 plate for structural reinforcement.
 0 Author: Orion Pobursky [OrionP]
@@ -1021,6 +1023,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step5.ldr
 0 Black technic plate and brick subframe with cross-bracing pins providing a rigid structural base.
 0 Author: Orion Pobursky [OrionP]
@@ -1053,6 +1056,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step6.ldr
 0 Black and yellow technic plate and brick subframe with cross-bracing pins, mirroring the step5 structure with a color-coded accent.
 0 Author: Orion Pobursky [OrionP]
@@ -1085,6 +1089,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step8sub1.ldr
 0 Small geared axle module with a 16-tooth and 14-tooth bevel gear mounted on a 6-stud axle.
 0 Author: Orion Pobursky [OrionP]
@@ -1109,6 +1114,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step8sub2.ldr
 0 Mirrored small geared axle module with a 16-tooth and 14-tooth bevel gear mounted on a 6-stud axle.
 0 Author: Orion Pobursky [OrionP]
@@ -1133,6 +1139,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step9.ldr
 0 Blue suspension arm assembly with triangular liftarms, cross block, and axles forming a suspension linkage.
 0 Author: Orion Pobursky [OrionP]
@@ -1162,6 +1169,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step10sub1.ldr
 0 Chassis side panel built from plates, technic bricks, and inverted slopes with axle-mounted palm trunk connectors.
 0 Author: Orion Pobursky [OrionP]
@@ -1209,6 +1217,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step10sub2.ldr
 0 Aerodynamic body side panel with wings, plates, and 45-degree slopes forming a contoured fairing.
 0 Author: Orion Pobursky [OrionP]
@@ -1263,6 +1272,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step12.ldr
 0 Compact gear reduction module with an 8-tooth and 16-tooth gear on a 10-stud axle.
 0 Author: Orion Pobursky [OrionP]
@@ -1284,6 +1294,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step13.ldr
 0 Multi-speed gearbox assembly with clutch gears, driving rings, bevel gears, and axles forming a transmission mechanism.
 0 Author: Orion Pobursky [OrionP]
@@ -1351,6 +1362,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step15.ldr
 0 Rear differential assembly with universal joints, bevel gears, and axle joiners for drivetrain power delivery.
 0 Author: Orion Pobursky [OrionP]
@@ -1402,6 +1414,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step16.ldr
 0 Short liftarm linkage pinned on a 2-stud axle serving as a small mechanical connector.
 0 Author: Orion Pobursky [OrionP]
@@ -1419,6 +1432,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step17sub1.ldr
 0 Side detail strip combining black and yellow technic brick and plates with a friction pin.
 0 Author: Orion Pobursky [OrionP]
@@ -1438,6 +1452,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step17sub2.ldr
 0 Mirrored side detail strip combining black and yellow technic brick and plates with a friction pin.
 0 Author: Orion Pobursky [OrionP]
@@ -1457,6 +1472,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step18sub1.ldr
 0 Front wheel hub assembly with steering arm, towball pin, and large wheel hub for steering geometry.
 0 Author: Orion Pobursky [OrionP]
@@ -1474,6 +1490,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step18sub2.ldr
 0 Mirrored front wheel hub assembly with steering arm, towball pin, and large wheel hub for steering geometry.
 0 Author: Orion Pobursky [OrionP]
@@ -1491,6 +1508,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step19.ldr
 0 Steering rack assembly with gear racks, towball axles, steering links, and a technic plate for the steering mechanism.
 0 Author: Orion Pobursky [OrionP]
@@ -1522,6 +1540,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step20.ldr
 0 Gear train module with multiple 16-tooth gears and an 8-tooth gear on joined axles for power transfer.
 0 Author: Orion Pobursky [OrionP]
@@ -1563,6 +1582,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step21sub1.ldr
 0 Driveshaft segment with universal joint, gears, and technic bricks transmitting rotational power.
 0 Author: Orion Pobursky [OrionP]
@@ -1593,6 +1613,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step21sub2.ldr
 0 Driveshaft segment with universal joint, 8-tooth and 24-tooth crown gears for angled power transfer.
 0 Author: Orion Pobursky [OrionP]
@@ -1624,6 +1645,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step23.ldr
 0 Rear body panel assembly with hinged plates in black and yellow forming opening engine-cover sections.
 0 Author: Orion Pobursky [OrionP]
@@ -1683,6 +1705,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step23sub2.ldr
 0 Small bevel gear and axle module mounted on a technic plate for drivetrain redirection.
 0 Author: Orion Pobursky [OrionP]
@@ -1702,6 +1725,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step24shock.ldr
 0 Shock absorber unit with cylinder, piston rod, and coiled spring providing suspension damping.
 0 Author: Orion Pobursky [OrionP]
@@ -1749,6 +1773,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step24shock_springMesh.ldr
 0 Detailed coiled shock absorber spring mesh with multiple winding sections for suspension.
 0 Author: Orion Pobursky [OrionP]
@@ -7962,6 +7987,7 @@
 5 24 -10.9375 64.008369 0.234287 -10.274588 63.339272 0.018197 -10.9375 63.064785 0.025734 -10 64.00193 0
 
 
+0 STEP
 0 FILE 8880 - step25.ldr
 0 Short axle assembly with three connectors forming a linkage joint.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -7981,6 +8007,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step26.ldr
 0 Axle and joiner assembly with a 14-tooth bevel gear for drivetrain connection.
 0 Author: Orion Pobursky [OrionP]
@@ -8004,6 +8031,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step27-1-5.ldr
 0 Engine assembly with crankshafts, connecting rods, and pistons for a multi-cylinder block.
 0 Author: Orion Pobursky [OrionP]
@@ -8069,6 +8097,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step27-6.ldr
 0 Engine cylinder head block with pins for mounting on the engine assembly.
 0 Author: Orion Pobursky [OrionP]
@@ -8108,6 +8137,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step27-7.ldr
 0 Engine cylinder head block with pins, mirroring the opposite side of the engine.
 0 Author: Orion Pobursky [OrionP]
@@ -8147,6 +8177,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step27-8.ldr
 0 Black structural plate assembly with technic bricks for engine or chassis mounting.
 0 Author: Orion Pobursky [OrionP]
@@ -8170,6 +8201,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step27-9.ldr
 0 Yellow structural plate assembly with technic bricks complementing the black mounting block.
 0 Author: Orion Pobursky [OrionP]
@@ -8193,6 +8225,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step27.ldr
 0 Engine bay section with gears, rotor, and yellow body panels featuring slopes and ladders.
 0 Author: Orion Pobursky [OrionP]
@@ -8258,6 +8291,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step27sub1.ldr
 0 Black support sub-assembly with inverted slope and long technic brick for body mounting.
 0 Author: Orion Pobursky [OrionP]
@@ -8279,6 +8313,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step27sub2.ldr
 0 Black support sub-assembly with inverted slope and long technic brick, mirroring the opposite side.
 0 Author: Orion Pobursky [OrionP]
@@ -8300,6 +8335,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step28.ldr
 0 Large grey and white chassis plate assembly with technic bricks, gears, and structural corner plates.
 0 Author: Orion Pobursky [OrionP]
@@ -8424,6 +8460,7 @@
 1 0 -120 -38 -80 1 0 0 0 0 -1 0 1 0 168315g.dat
 
 
+0 STEP
 0 FILE 8880 - step28-4sub1.ldr
 0 Small sub-assembly combining a technic brick with a white grille tile for vent detailing.
 0 Author: Orion Pobursky [OrionP]
@@ -8441,6 +8478,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step28-4sub2.ldr
 0 Small sub-assembly combining a technic brick with a white grille tile, mirroring the opposite side.
 0 Author: Orion Pobursky [OrionP]
@@ -8458,6 +8496,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step29sub1.ldr
 0 Rear wheel and drivetrain sub-assembly with gear, axle, tyre, and yellow grille detailing.
 0 Author: Orion Pobursky [OrionP]
@@ -8510,6 +8549,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step29sub2.ldr
 0 Body panel sub-assembly with headlight bricks and a sloped headlamp pattern piece.
 0 Author: Orion Pobursky [OrionP]
@@ -8545,6 +8585,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step29sub3.ldr
 0 Body panel sub-assembly with headlight bricks and sloped headlamp, mirroring the opposite side.
 0 Author: Orion Pobursky [OrionP]
@@ -8580,6 +8621,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step27combo.ldr
 0 Black plate and tile assembly with a yellow 'LT' logo sticker for badging detail.
 0 Author: Orion Pobursky [OrionP]
@@ -8598,6 +8640,7 @@
 1 0 -60 -26 0 0 0 1 0 1 0 -1 0 0 8880 - 168315i.dat
 
 
+0 STEP
 0 FILE 8880 - step30sub1.ldr
 0 Large black structural frame assembly with long technic bricks, plates, and grille tiles.
 0 Author: Orion Pobursky [OrionP]
@@ -8704,6 +8747,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step30sub2.ldr
 0 Adjustable hinged plate assembly with technic bricks for a movable spoiler or wing component.
 0 Author: Orion Pobursky [OrionP]
@@ -8776,6 +8820,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step31sub1.ldr
 0 Hinged panel assembly with long technic bricks and axle for an adjustable rear wing element.
 0 Author: Orion Pobursky [OrionP]
@@ -8843,6 +8888,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step31sub2.ldr
 0 Hinged panel assembly with long technic bricks and axle, mirroring the opposite wing element.
 0 Author: Orion Pobursky [OrionP]
@@ -8910,6 +8956,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step32.ldr
 0 White and grey bodywork assembly with plates, grille tiles, hinges, and a slope for rear body panels.
 0 Author: Orion Pobursky [OrionP]
@@ -8995,6 +9042,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step32sub1.ldr
 0 Black hinged plate assembly with technic bricks for an adjustable bodywork section.
 0 Author: Orion Pobursky [OrionP]
@@ -9034,6 +9082,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step32sub2.ldr
 0 Black hinged plate assembly with technic bricks, mirroring the opposite bodywork section.
 0 Author: Orion Pobursky [OrionP]
@@ -9073,6 +9122,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step32sub3.ldr
 0 Empty submodel placeholder with no direct pieces.
 0 Author: Orion Pobursky [OrionP]
@@ -9086,6 +9136,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step28sub3.ldr
 0 Empty submodel placeholder with no direct pieces.
 0 Author: Orion Pobursky [OrionP]
@@ -9099,6 +9150,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step33-1-8.ldr
 0 Black panel assembly built from Technic bricks, liftarms, plates, tiles, and axles with a Supercar logo sticker.
 0 Author: Orion Pobursky [OrionP]
@@ -9175,6 +9227,7 @@
 1 7 0 -58 0 -1 0 0 0 1 0 0 0 -1 168315a.dat
 
 
+0 STEP
 0 FILE 8880 - step19ch.ldr
 0 Flexible Technic chain assembly composed of 21 linked chain links forming an approximate 135 mm loop.
 0 Author: Orion Pobursky [OrionP]
@@ -9247,6 +9300,7 @@
 1 16 -10.21943 -43.233465 -10 0 0.97071 0.240254 0 -0.240254 0.97071 1 0 0 3711.dat
 
 
+0 STEP
 0 FILE 8880 - step33.ldr
 0 Pair of long Technic brick rails joined by friction pins and flanged bushes forming a structural beam.
 0 Author: Orion Pobursky [OrionP]
@@ -9301,6 +9355,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step33-7sub1.ldr
 0 Short Technic beam section with an 8-stud brick, grooved tile, and pinned 4-stud plate.
 0 Author: Orion Pobursky [OrionP]
@@ -9322,6 +9377,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step33-7sub2.ldr
 0 Technic beam section with an 8-stud brick, grooved tile, pinned 4-stud plate, and loose pin.
 0 Author: Orion Pobursky [OrionP]
@@ -9344,6 +9400,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step33-8.ldr
 0 Bracket assembly of Technic bricks, plates, and inverted 33-degree slopes joined by friction pins.
 0 Author: Orion Pobursky [OrionP]
@@ -9379,6 +9436,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step33-9.ldr
 0 Simple reinforcement of a 12-stud Technic brick, holed brick, and two plates.
 0 Author: Orion Pobursky [OrionP]
@@ -9399,6 +9457,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step33-10sub2.ldr
 0 Hinged plate assembly with base and top hinge plates, connecting plates, and a yellow alignment plate pinned to Technic bricks.
 0 Author: Orion Pobursky [OrionP]
@@ -9442,6 +9501,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step33-11sub1.ldr
 0 Axle assembly joining two stud connectors with a 6-stud Technic axle.
 0 Author: Orion Pobursky [OrionP]
@@ -9459,6 +9519,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step33-11sub2.ldr
 0 Small linkage assembly of a toggle joint connector, axle connector, bushes, pins, and a 4-stud axle.
 0 Author: Orion Pobursky [OrionP]
@@ -9484,6 +9545,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step33-12.ldr
 0 Hinged panel module with base and top hinge plates, Technic brick rails, clear and red light elements, and an axle-and-bush pivot.
 0 Author: Orion Pobursky [OrionP]
@@ -9565,6 +9627,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step34sub1.ldr
 0 Long structural beam combining 16-stud and 4-stud Technic bricks with connecting plates.
 0 Author: Orion Pobursky [OrionP]
@@ -9585,6 +9648,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step33-13.ldr
 0 Hinged panel module with base and top hinge plates, Technic brick rails, clear and red light elements, and an axle-and-bush pivot.
 0 Author: Orion Pobursky [OrionP]
@@ -9666,6 +9730,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step33-10sub1.ldr
 0 Hinged plate assembly with base and top hinge plates, connecting plates, and a yellow alignment plate pinned to Technic bricks.
 0 Author: Orion Pobursky [OrionP]
@@ -9709,6 +9774,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step34sub2.ldr
 0 Side mirror assembly of a 2x2 plate, inverted slope, tiles, and a Technic Supercar mirror sticker.
 0 Author: Orion Pobursky [OrionP]
@@ -9734,6 +9800,7 @@
 1 0 10 -18 45 0 0 -1 0 1 0 1 0 0 168315e.dat
 
 
+0 STEP
 0 FILE 8880 - step34sub3.ldr
 0 Side mirror assembly of a 2x2 plate, inverted slope, tiles, and a Technic Supercar mirror sticker.
 0 Author: Orion Pobursky [OrionP]
@@ -9759,6 +9826,7 @@
 1 0 -10 -18 45 0 0 1 0 1 0 -1 0 0 168315e.dat
 
 
+0 STEP
 0 FILE 8880 - step35.ldr
 0 Rear wing assembly built from large left and right wings, hinge plates, and structural plates.
 0 Author: Orion Pobursky [OrionP]
@@ -9807,6 +9875,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - step36.ldr
 0 Wheel and tyre assembly with a white six-spoke rim and a low-profile rubber tyre.
 0 Author: Orion Pobursky [OrionP]
@@ -9821,6 +9890,7 @@
 
 
 
+0 STEP
 0 FILE 8880 - 168315i.dat
 0 Sticker element depicting a yellow "LT" emblem on a black elliptical background.
 0 Name: 8880 - 168315i.dat

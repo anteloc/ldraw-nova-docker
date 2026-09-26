@@ -676,6 +676,7 @@
 1 71 30 -208 30 -0.966 0 0.259 0 1 0 -0.259 0 -0.966 4599a.dat
 0 STEP
 
+0 STEP
 0 FILE 21011 - Top Ornament.ldr
 0 A small decorative finial made of a four-sided stud brick crowned with round plates.
 0 Name: 21011 - Top Ornament.ldr
@@ -694,6 +695,7 @@
 0 // Plate  1 x  1 Round (light_bluish_grey)
 1 71 0 10 18 0 0 -1 1 0 0 0 -1 0 6141.dat
 
+0 STEP
 0 FILE 21011 - Top.ldr
 0 A flat horizontal tan beam decorated with round studs and grooved tiles.
 0 Name: 21011 - Top.ldr
@@ -737,6 +739,7 @@
 1 19 0 -16 50 0 0 1 0 1 0 -1 0 0 3070b.dat
 0 STEP
 
+0 STEP
 0 FILE 21011 - Top 2.ldr
 0 A stepped tan horizontal section composed of connected plates and grooved tiles.
 0 Name: 21011 - Top 2.ldr
@@ -767,6 +770,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 21011 - Base.ldr
 0 A sturdy dark bluish grey and black platform base built from large plates and smooth tiles.
 0 Name: 21011 - Base.ldr

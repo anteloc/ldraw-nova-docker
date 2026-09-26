@@ -9,6 +9,7 @@
 1 0 -80 -48 -89 1 0 0 0 1 0 0 0 1 31009 - MiniFig1.ldr
 
 
+0 STEP
 0 FILE 31009 - MiniFig1.ldr
 0 A minifigure wearing a blue torso with white arms, tan legs, a black tousled hairstyle, and holding a red sausage clipped to a black bar.
 0 Name: 31009 - MiniFig1.ldr
@@ -38,6 +39,7 @@
 1 4 -23.011 -9.172 -35.123 -0.049 -0.086 0.995 0.862 0.5 0.086 -0.505 0.862 0.049 33078.dat
 
 
+0 STEP
 0 FILE 31009 - Small Cottage.ldr
 0 A small cottage structure built on a 16x16 green baseplate with light bluish grey walls, windows, a hinged door, and grille tile details.
 0 Name: 31009 - Small Cottage.ldr
@@ -425,6 +427,7 @@
 1 2 100 -25 -101 -1 0 0 0 1 0 0 0 -1 31009 - Skateboard.ldr
 
 
+0 STEP
 0 FILE 31009 - Seat.ldr
 0 A small rotatable seat or stool made from a turntable top plate, a bracket, and a blue-tiled tan seat surface.
 0 Name: 31009 - Seat.ldr
@@ -448,6 +451,7 @@
 1 71 0 0 0 1 0 0 0 1 0 0 0 1 3679.dat
 
 
+0 STEP
 0 FILE 31009 - Window.ldr
 0 A simple white-framed 1x2x2 window with clear glass pane.
 0 Name: 31009 - Window.ldr
@@ -461,6 +465,7 @@
 1 47 0 0 0 1 0 0 0 1 0 0 0 1 60601.dat
 
 
+0 STEP
 0 FILE 31009 - Big Window.ldr
 0 A tall white-framed 1x4x6 door or large window assembly with a clear glass panel.
 0 Name: 31009 - Big Window.ldr
@@ -474,6 +479,7 @@
 1 47 0 4 -5 1 0 0 0 1 0 0 0 1 57895.dat
 
 
+0 STEP
 0 FILE 31009 - Roof.ldr
 0 A peaked cottage roof with red brick structure and dark blue 45-degree slope tiles forming the slanted roof surface.
 0 Name: 31009 - Roof.ldr
@@ -658,6 +664,7 @@
 1 272 80 -120 70 1 0 0 0 1 0 0 0 1 3037.dat
 
 
+0 STEP
 0 FILE 31009 - Skateboard.ldr
 0 A blue minifig skateboard with two black wheels attached.
 0 Name: 31009 - Skateboard.ldr

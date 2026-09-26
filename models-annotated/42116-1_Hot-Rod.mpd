@@ -279,6 +279,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42116 - 65489.dat
 0 Technic friction pin component with base collar and rectangular centre hole, decorated with cylindrical ring primitives.
 0 Name: 42116 - 65489.dat
@@ -331,6 +332,7 @@
 2 24 2.8284 -17.1716 -10 -2.8284 -17.1716 -10
 
 
+0 STEP
 0 FILE 42116 - 42924.dat
 0 Detailed cylindrical Technic part submodel composed of cylinders, rings, discs, and rectangles forming a connector with multiple ridges.
 0 Name: 42116 - 42924.dat
@@ -1397,6 +1399,7 @@
 0 !LDCAD MIRROR_INFO [baseFlip=Z] [counterPart=self]
 
 
+0 STEP
 0 FILE 42116 - 65487.dat
 0 Technic friction pin with base collar and small rectangular centre hole, shown with circular end caps.
 0 Name: 42116 - 65487.dat
@@ -1416,6 +1419,7 @@
 2 24 10 2.4 3 10 2.4 -3
 2 24 10 -2.4 3 10 -2.4 -3
 
+0 STEP
 0 FILE 42116 - 44874.dat
 0 Pair of Technic friction pins with base collars and small rectangular centre holes, capped with circular primitives.
 0 Name: 42116 - 44874.dat
@@ -1443,6 +1447,7 @@
 2 24 -10 2.4 3 -10 2.4 -3
 2 24 -10 -2.4 3 -10 -2.4 -3
 
+0 STEP
 0 FILE 42116 - 3069bpcd.dat
 0 Printed tile submodel featuring red and yellow circular elements with black and white chord accents, forming a decorative gauge or badge graphic.
 0 Name: 42116 - 3069bpcd.dat
@@ -1835,6 +1840,7 @@
 3 0 9.1 0 8.15 18.1 0 8.15 19.35 0 9.5
 3 0 9.1 0 8.15 19.35 0 9.5 6.8 0 8.15
 
+0 STEP
 0 FILE s\42116 - 48989s01.dat
 0 Sloped Technic wheel or rim submodel built from cylinders, connector holes, and rectangular box primitives forming a contoured rim shell.
 0 Name: s\42116 - 48989s01.dat
@@ -2034,6 +2040,7 @@
 1 16 -6.6856 0 0 0 -1.5 0 0 0 5 6.3639 0 0 box3u4a.dat
 2 24 -6.6856 5 6.3639 -6.6856 5 -6.3639
 
+0 STEP
 0 FILE 42116 - 3-16ring3.dat
 0 Single primitive ring segment generated for a partial Technic ring element.
 0 Name: 42116 - 3-16ring3.dat
@@ -2048,6 +2055,7 @@
 4 16 2.8284 0 2.8284 1.5308 0 3.6956 1.1481 0 2.7717 2.1213 0 2.1213
 0 // Build by LDPartEditor (PrimGen 2.X)
 
+0 STEP
 0 FILE 42116 - confric11.dat
 0 Technic friction connector submodel composed of cylinders, rings, ribs, and rectangles forming a ribbed pin connector.
 0 Name: 42116 - confric11.dat
@@ -2412,6 +2420,7 @@
 5 24 -3.558 -5.7 5.1627 -3.558 -2 5.1627 -3.6153 -5.7 4.6618 -2.692 -2 5.6627
 5 24 -2.692 -5.7 5.6627 -2.5337 -6 5.3847 -3.558 -5.7 5.1627 -2.2962 -5.7 5.5434
 
+0 STEP
 0 FILE s\42116 - 15100s01.dat
 0 Small Technic connector submodel with a connector hole, cylinders, and sloped cylinder surfaces forming a contoured bushing.
 0 Name: s\42116 - 15100s01.dat
@@ -2466,6 +2475,7 @@
 2 24 4.827 -3.062 7.391 3.916 0 8
 4 16 10 -3 -4 10 3 -4 10 3 4 10 -3 4
 
+0 STEP
 0 FILE s\42116 - 32269s01.dat
 0 Flat panel submodel made entirely of rectangles and edge-bordered rectangles forming a smooth-sided Technic liftarm surface.
 0 Name: s\42116 - 32269s01.dat
@@ -2555,6 +2565,7 @@
 3 16 18.258699 2.4034 -10 17.789101 4.7663 -10 19.3403 4.9066 -10
 3 16 15.3375 12.7626 -10 14.6121 11.2123 -10 13.0227 13.0227 -10
 
+0 STEP
 0 FILE s\42116 - 32269s02.dat
 0 Sided Technic beam submodel with an open cylinder, rings, and bordered rectangles forming a reinforced liftarm with axle holes.
 0 Name: s\42116 - 32269s02.dat
@@ -2626,6 +2637,7 @@
 4 16 11.998 -1 -10 11.998 1 -10 16.934099 1 -10 16.934099 -1 -10
 3 16 17 0 -10 16.934099 -1 -10 16.934099 1 -10
 
+0 STEP
 0 FILE s\42116 - 32523s01.dat
 0 Technic liftarm submodel with beam holes, connector hole, cylinders, and bordered rectangles forming a bent structural arm.
 0 Name: s\42116 - 32523s01.dat
@@ -2661,6 +2673,7 @@
 0 // Rectangle with 2 Parallel Edges (main_colour)
 1 16 -9 0 0 0 1 0 0 0 10 20 0 0 rect2p.dat
 
+0 STEP
 0 FILE s\42116 - 32526s01.dat
 0 Technic liftarm submodel featuring multiple beam and peg holes, open cylinders, discs, and connector holes forming a multi-connector structural beam.
 0 Name: s\42116 - 32526s01.dat
@@ -2741,6 +2754,7 @@
 2 24 40 -10 89 0 -10 89
 2 24 0 10 89 40 10 89
 
+0 STEP
 0 FILE s\42116 - 60483s01.dat
 0 Technic connector block submodel with axle and peg holes, rings, and bordered rectangles forming a multi-hole bushing block.
 0 Name: s\42116 - 60483s01.dat
@@ -2779,6 +2793,7 @@
 2 24 9 -10 20 9 -10 0
 2 24 9 10 20 9 10 0
 
+0 STEP
 0 FILE s\42116 - 87082s01.dat
 0 Simple Technic bushing submodel consisting of a full cylinder with four sloped cylinder surfaces forming a tapered cone.
 0 Name: s\42116 - 87082s01.dat

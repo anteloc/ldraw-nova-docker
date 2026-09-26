@@ -10,6 +10,7 @@
 1 71 -210 -8 0 0 0 1 0 1 0 -1 0 0 76161 - minifig-stand.ldr
 
 
+0 STEP
 0 FILE 76161 - batwing.ldr
 0 The core Batwing airframe built from a Technic open-center beam skeleton pinned together with plates and large black wing elements.
 0 Name: 76161 - batwing.ldr
@@ -1771,6 +1772,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 76161 - minifig-batman.ldr
 0 A Batman minifigure with black torso, arms, legs, hands, a light nougat head, and a bar accessory with bat wings.
 0 Name: 76161 - minifig-batman.ldr
@@ -1796,6 +1798,7 @@
 1 0 24.697 -38.9 -17.459 0.18 -0.983 -0.025 0.481 0.11 -0.87 0.858 0.145 0.492 98721.dat
 
 
+0 STEP
 0 FILE 76161 - step6-9.ldr
 0 A Technic frame segment of open-center beams joined with friction pins.
 0 Name: 76161 - step6-9.ldr
@@ -1832,6 +1835,7 @@
 1 0 -480 10 -20 1 0 0 0 1 0 0 0 1 2780.dat
 
 
+0 STEP
 0 FILE 76161 - step14-25.ldr
 0 A Technic support assembly using open-center beams, hole bricks, and friction pins.
 0 Name: 76161 - step14-25.ldr
@@ -1908,6 +1912,7 @@
 1 2 100 0 50 1 0 0 0 1 0 0 0 1 3700.dat
 
 
+0 STEP
 0 FILE 76161 - step27-30.ldr
 0 A small Technic connector block joining beams of varying lengths with friction pins.
 0 Name: 76161 - step27-30.ldr
@@ -1938,6 +1943,7 @@
 1 4 70 0 20 0 0 1 0 1 0 -1 0 0 3700.dat
 
 
+0 STEP
 0 FILE 76161 - step32-35.ldr
 0 A small Technic connector block joining beams of varying lengths with friction pins.
 0 Name: 76161 - step32-35.ldr
@@ -1968,6 +1974,7 @@
 1 2 70 0 -20 0 0 1 0 1 0 -1 0 0 3700.dat
 
 
+0 STEP
 0 FILE 76161 - step37-45.ldr
 0 A large Technic structural framework of open-center beams and long hole bricks pinned together with friction pins.
 0 Name: 76161 - step37-45.ldr
@@ -2105,6 +2112,7 @@
 1 15 560 0 -70 1 0 0 0 1 0 0 0 1 3702.dat
 
 
+0 STEP
 0 FILE 76161 - step49-1.ldr
 0 A small friction-pinned connector joining two short green hole bricks.
 0 Name: 76161 - step49-1.ldr
@@ -2120,6 +2128,7 @@
 1 2 0 -10 0 0 0 1 0 1 0 -1 0 0 3700.dat
 
 
+0 STEP
 0 FILE 76161 - step49-2.ldr
 0 A small friction-pinned connector joining two short red hole bricks.
 0 Name: 76161 - step49-2.ldr
@@ -2135,6 +2144,7 @@
 1 4 0 -10 0 0 0 1 0 1 0 -1 0 0 3700.dat
 
 
+0 STEP
 0 FILE 76161 - step50-52.ldr
 0 A Technic module combining a large open-center beam with friction pins and a short green hole brick.
 0 Name: 76161 - step50-52.ldr
@@ -2162,6 +2172,7 @@
 1 2 -90 0 0 0 0 1 0 1 0 -1 0 0 3700.dat
 
 
+0 STEP
 0 FILE 76161 - step54-56.ldr
 0 A Technic module combining a large open-center beam with friction pins and a short red hole brick.
 0 Name: 76161 - step54-56.ldr
@@ -2189,6 +2200,7 @@
 1 4 90 0 0 0 0 -1 0 1 0 1 0 0 3700.dat
 
 
+0 STEP
 0 FILE 76161 - step59.ldr
 0 A Technic spine assembly of open-center beams and long hole bricks pinned together.
 0 Name: 76161 - step59.ldr
@@ -2244,6 +2256,7 @@
 1 14 0 10 -190 0 0 -1 0 1 0 1 0 0 76161 - step49-2.ldr
 
 
+0 STEP
 0 FILE 76161 - step62.ldr
 0 A central spar made of a long hole brick flanked by paired black wing elements with yellow detail tiles.
 0 Name: 76161 - step62.ldr
@@ -2265,6 +2278,7 @@
 1 14 150 16 0 0 0 -1 0 1 0 1 0 0 3070b.dat
 
 
+0 STEP
 0 FILE 76161 - step78.ldr
 0 A flat black plate and tile assembly forming a streamlined surface strip.
 0 Name: 76161 - step78.ldr
@@ -2286,6 +2300,7 @@
 1 0 0 -8 100 0 0 -1 0 1 0 1 0 0 2445.dat
 
 
+0 STEP
 0 FILE 76161 - step92.ldr
 0 A small black plate assembly with a center hole for mounting.
 0 Name: 76161 - step92.ldr
@@ -2302,6 +2317,7 @@
 1 0 0 -16 0 1 0 0 0 1 0 0 0 1 3176.dat
 
 
+0 STEP
 0 FILE 76161 - step96-104.ldr
 0 An arched black housing built from bricks, inverted arches, slopes, and plates.
 0 Name: 76161 - step96-104.ldr
@@ -2365,6 +2381,7 @@
 1 0 -100 -200 0 -1 0 0 0 1 0 0 0 -1 3043.dat
 
 
+0 STEP
 0 FILE 76161 - step100.ldr
 0 A simple pair of black plates forming a flat mounting surface.
 0 Name: 76161 - step100.ldr
@@ -2378,6 +2395,7 @@
 1 0 -40 -8 0 1 0 0 0 1 0 0 0 1 3795.dat
 
 
+0 STEP
 0 FILE 76161 - step104.ldr
 0 A small black plate and grooved tile surface detail.
 0 Name: 76161 - step104.ldr
@@ -2393,6 +2411,7 @@
 1 0 0 -16 0 1 0 0 0 1 0 0 0 1 3068b.dat
 
 
+0 STEP
 0 FILE 76161 - step106.ldr
 0 A corner detail assembly of plates, a corner panel, and a Technic brick.
 0 Name: 76161 - step106.ldr
@@ -2419,6 +2438,7 @@
 1 0 100 -8 30 1 0 0 0 1 0 0 0 1 3070b.dat
 
 
+0 STEP
 0 FILE 76161 - step108.ldr
 0 A corner detail assembly of plates, a corner panel, and a Technic brick.
 0 Name: 76161 - step108.ldr
@@ -2445,6 +2465,7 @@
 1 0 100 -8 -30 -1 0 0 0 1 0 0 0 -1 3070b.dat
 
 
+0 STEP
 0 FILE 76161 - step110-115.ldr
 0 An arched black substructure of plates, bricks, and inverted arches.
 0 Name: 76161 - step110-115.ldr
@@ -2488,6 +2509,7 @@
 1 0 -140 -104 0 1 0 0 0 1 0 0 0 1 76161 - step104.ldr
 
 
+0 STEP
 0 FILE 76161 - step117-140.ldr
 0 A detailed wing section with plates, wing elements, heart-shaped accent, and tan and yellow trim pieces.
 0 Name: 76161 - step117-140.ldr
@@ -2576,6 +2598,7 @@
 1 0 50 -8 -10 0 0 -1 0 1 0 1 0 0 3024.dat
 
 
+0 STEP
 0 FILE 76161 - step129-136.ldr
 0 An angular black housing built from bricks, inverted slopes, brackets, and corner elements.
 0 Name: 76161 - step129-136.ldr
@@ -2624,6 +2647,7 @@
 1 0 -10 8 -10 1 0 0 0 1 0 0 0 1 87087.dat
 
 
+0 STEP
 0 FILE 76161 - step143-166.ldr
 0 A mirrored detailed wing section with plates, wing elements, heart-shaped accent, and tan and yellow trim pieces.
 0 Name: 76161 - step143-166.ldr
@@ -2712,6 +2736,7 @@
 1 0 -50 -8 -10 0 0 1 0 1 0 -1 0 0 3024.dat
 
 
+0 STEP
 0 FILE 76161 - step155-162.ldr
 0 Angular black structural assembly with inverted slopes, brackets, and corner bricks forming a detailed mounting block.
 0 Name: 76161 - step155-162.ldr
@@ -2760,6 +2785,7 @@
 1 0 -10 8 10 -1 0 0 0 1 0 0 0 -1 87087.dat
 
 
+0 STEP
 0 FILE 76161 - step170.ldr
 0 Small black and yellow detail piece combining a left wing element with four round yellow studs.
 0 Name: 76161 - step170.ldr
@@ -2781,6 +2807,7 @@
 1 14 -10 -16 -10 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 76161 - step172-230.ldr
 0 Large hinged curved panel structure built from plates, hinge plates, and numerous curved slope bricks forming a contoured surface.
 0 Name: 76161 - step172-230.ldr
@@ -2900,6 +2927,7 @@
 1 0 446.921 -16 -153.452 0.713 0 0.701 0 1 0 -0.701 0 0.713 76161 - step230.ldr
 
 
+0 STEP
 0 FILE 76161 - step179.ldr
 0 Compact black plate base with two inverted curved slopes for smooth contouring.
 0 Name: 76161 - step179.ldr
@@ -2919,6 +2947,7 @@
 1 0 0 -8 10 -1 0 0 0 1 0 0 0 -1 3022.dat
 
 
+0 STEP
 0 FILE 76161 - step184-191.ldr
 0 Hinged curved panel section with plates, hinge plates, and curved slopes plus two reddish brown pin-hole tiles for articulation.
 0 Name: 76161 - step184-191.ldr
@@ -2975,6 +3004,7 @@
 1 0 48.46 -8 -41.164 -0.892 0 0.452 0 1 0 -0.452 0 -0.892 11477.dat
 
 
+0 STEP
 0 FILE 76161 - step189-band.ldr
 0 LDCad-generated flexible rubber band assembly composed of fourteen curved segments forming a continuous loop.
 0 Name: 76161 - step189-band.ldr
@@ -3383,6 +3413,7 @@
 5 24 -6.920024 28.661549 1.414214 -5.600074 28.153875 2 -7.543519 27.879721 1.414214 -4.086637 32.199211 1.414214
 
 
+0 STEP
 0 FILE 76161 - step194-200.ldr
 0 Contoured black wing structure with plates, inverted curved slopes, and a yellow round stud detail.
 0 Name: 76161 - step194-200.ldr
@@ -3426,6 +3457,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 76161 - step198.ldr
 0 Small curved slope detail with dark and light grey plates and a round clip element.
 0 Name: 76161 - step198.ldr
@@ -3447,6 +3479,7 @@
 1 0 -40 -8 0 1 0 0 0 1 0 0 0 1 4735.dat
 
 
+0 STEP
 0 FILE 76161 - step203-207.ldr
 0 Flat black plate assembly with inverted curved slopes and a light grey accent plate.
 0 Name: 76161 - step203-207.ldr
@@ -3474,6 +3507,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 76161 - step206.ldr
 0 Minimal inverted curved slope detail mounted on a dark grey plate.
 0 Name: 76161 - step206.ldr
@@ -3490,6 +3524,7 @@
 1 0 10 0 20 -1 0 0 0 1 0 0 0 -1 32803.dat
 
 
+0 STEP
 0 FILE 76161 - step209-216.ldr
 0 Hinged curved panel section with plates, dark grey hinge plates, and reddish brown pin-hole tiles for articulation.
 0 Name: 76161 - step209-216.ldr
@@ -3541,6 +3576,7 @@
 1 0 37.413 -8 -106.158 -0.889 0 -0.459 0 1 0 0.459 0 -0.889 11477.dat
 
 
+0 STEP
 0 FILE 76161 - step218.ldr
 0 Small dark grey plate topped with two black curved slope bricks.
 0 Name: 76161 - step218.ldr
@@ -3556,6 +3592,7 @@
 1 0 -30 8 10 -1 0 0 0 1 0 0 0 -1 15068.dat
 
 
+0 STEP
 0 FILE 76161 - step219-228.ldr
 0 Embellished curved panel section with hinge plates, yellow round studs, a printed Batman logo round tile, and a trans-yellow slope accent.
 0 Name: 76161 - step219-228.ldr
@@ -3616,6 +3653,7 @@
 1 0 29.442 -8 -221.844 -0.439 0 -0.899 0 1 0 0.899 0 -0.439 15068.dat
 
 
+0 STEP
 0 FILE 76161 - step222.ldr
 0 Compact black plate with inverted curved slopes for smooth edge contouring.
 0 Name: 76161 - step222.ldr
@@ -3634,6 +3672,7 @@
 1 0 -35.244 0 -271.371 -0.439 0 -0.899 0 1 0 0.899 0 -0.439 32803.dat
 
 
+0 STEP
 0 FILE 76161 - step225.ldr
 0 Angled detail piece combining a black left wing, inverted curved slopes, and a bright light yellow bar stud.
 0 Name: 76161 - step225.ldr
@@ -3658,6 +3697,7 @@
 1 226 -30 -8 0 -0.634 0 0.773 0 1 0 -0.773 0 -0.634 32828.dat
 
 
+0 STEP
 0 FILE 76161 - step230.ldr
 0 Long black plate topped with three curved slope bricks for a smooth surface.
 0 Name: 76161 - step230.ldr
@@ -3676,6 +3716,7 @@
 1 0 -40 8 10 -1 0 0 0 1 0 0 0 -1 15068.dat
 
 
+0 STEP
 0 FILE 76161 - step239.ldr
 0 Small black and yellow detail combining a right wing element with four round yellow studs.
 0 Name: 76161 - step239.ldr
@@ -3697,6 +3738,7 @@
 1 14 10 -16 -10 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 76161 - step241-299.ldr
 0 Extensive hinged curved panel assembly with dozens of inverted and standard curved slopes, multiple hinge plate pairs, and pin-hole tiles forming a large contoured surface.
 0 Name: 76161 - step241-299.ldr
@@ -4032,6 +4074,7 @@
 1 0 425.41 -8 118.278 0.713 0 -0.701 0 1 0 0.701 0 0.713 15068.dat
 
 
+0 STEP
 0 FILE 76161 - minifig-boombox-goon.ldr
 0 Purple-shirted minifigure carrying a boombox, with black legs and light nougat head and hands.
 0 Name: 76161 - minifig-boombox-goon.ldr
@@ -4057,6 +4100,7 @@
 1 71 27.718 -26.985 -2.62 -0.095 0.303 0.948 0.009 0.952 -0.303 -0.995 -0.021 -0.094 93221.dat
 
 
+0 STEP
 0 FILE 76161 - step308.ldr
 0 Small detail piece combining a clip plate with a curved slope brick.
 0 Name: 76161 - step308.ldr
@@ -4070,6 +4114,7 @@
 1 0 -20 8 0 0 0 1 0 1 0 -1 0 0 11477.dat
 
 
+0 STEP
 0 FILE 76161 - step312.ldr
 0 Compact mounting bracket assembly with side-stud plate and an upturned bracket.
 0 Name: 76161 - step312.ldr
@@ -4083,6 +4128,7 @@
 1 72 0 0 20 -1 0 0 0 1 0 0 0 -1 99780.dat
 
 
+0 STEP
 0 FILE 76161 - step314.ldr
 0 Simple structural base pairing a dark grey brick with a long light grey plate.
 0 Name: 76161 - step314.ldr
@@ -4096,6 +4142,7 @@
 1 71 0 -8 0 1 0 0 0 1 0 0 0 1 3034.dat
 
 
+0 STEP
 0 FILE 76161 - step316.ldr
 0 Long reinforced platform built from a 2x10 brick, 2x12 plate, and ten downward brackets for attachment points.
 0 Name: 76161 - step316.ldr
@@ -4131,6 +4178,7 @@
 1 0 80 -16 10 -1 0 0 0 1 0 0 0 -1 44728.dat
 
 
+0 STEP
 0 FILE 76161 - step318.ldr
 0 Angled structural detail with wings, multi-sided stud bricks, and slope elements forming a contoured edge.
 0 Name: 76161 - step318.ldr
@@ -4169,6 +4217,7 @@
 1 0 -20 -32 -18 0 0 -1 -1 0 0 0 1 0 41770.dat
 
 
+0 STEP
 0 FILE 76161 - step319.ldr
 0 Curved architectural section with two long dark grey slopes, black arches, and a light grey plate base.
 0 Name: 76161 - step319.ldr
@@ -4192,6 +4241,7 @@
 1 0 70 -24 0 1 0 0 0 1 0 0 0 1 6005.dat
 
 
+0 STEP
 0 FILE 76161 - step322.ldr
 0 Small detail assembly with a curved slope and a single stud plate.
 0 Name: 76161 - step322.ldr
@@ -4205,6 +4255,7 @@
 1 72 0 8 -10 1 0 0 0 1 0 0 0 1 11477.dat
 
 
+0 STEP
 0 FILE 76161 - step323.ldr
 0 Angled roof section built from long 45-degree slopes, plates, and black curved-top arches.
 0 Name: 76161 - step323.ldr
@@ -4228,6 +4279,7 @@
 1 0 -70 -24 0 1 0 0 0 1 0 0 0 1 6005.dat
 
 
+0 STEP
 0 FILE 76161 - step330-340.ldr
 0 Right-side wing assembly using six right wings layered on a framework of black and light bluish grey plates.
 0 Name: 76161 - step330-340.ldr
@@ -4293,6 +4345,7 @@
 1 0 70 -88 -10 0 0 -1 0 1 0 1 0 0 14719.dat
 
 
+0 STEP
 0 FILE 76161 - step342-352.ldr
 0 Left-side wing assembly mirroring the right, using six left wings on a matching plate framework.
 0 Name: 76161 - step342-352.ldr
@@ -4358,6 +4411,7 @@
 1 0 70 -88 10 -1 0 0 0 1 0 0 0 -1 14719.dat
 
 
+0 STEP
 0 FILE 76161 - step355.ldr
 0 Compact angled connector block with side-stud plates, 45-degree slope plates, and a grooved tile.
 0 Name: 76161 - step355.ldr
@@ -4382,6 +4436,7 @@
 1 0 0 -4 -18 1 0 0 0 0 -1 0 1 0 3068b.dat
 
 
+0 STEP
 0 FILE 76161 - step360-367.ldr
 0 Left engine nacelle section formed from four left wings, a yellow brick, and side-stud detailing.
 0 Name: 76161 - step360-367.ldr
@@ -4424,6 +4479,7 @@
 1 0 10 -56 10 1 0 0 0 1 0 0 0 1 63864.dat
 
 
+0 STEP
 0 FILE 76161 - step369-376.ldr
 0 Right engine nacelle section mirroring the left, built with four right wings and matching detail parts.
 0 Name: 76161 - step369-376.ldr
@@ -4466,6 +4522,7 @@
 1 0 -10 -56 10 1 0 0 0 1 0 0 0 1 63864.dat
 
 
+0 STEP
 0 FILE 76161 - step381-1.ldr
 0 Vent detail unit using a down bracket mounting two grille slopes.
 0 Name: 76161 - step381-1.ldr
@@ -4482,6 +4539,7 @@
 1 0 0 30 -14 0 0 -1 -1 0 0 0 1 0 61409.dat
 
 
+0 STEP
 0 FILE 76161 - step381-2.ldr
 0 Vent detail unit using a down bracket mounting two grille slopes, mirrored counterpart.
 0 Name: 76161 - step381-2.ldr
@@ -4498,6 +4556,7 @@
 1 0 0 30 -14 0 0 1 1 0 0 0 1 0 61409.dat
 
 
+0 STEP
 0 FILE 76161 - step382-395.ldr
 0 Large fuselage panel constructed from side-stud bricks, sloped bricks, and hinged curved sections.
 0 Name: 76161 - step382-395.ldr
@@ -4607,6 +4666,7 @@
 1 0 530 48 0 1 0 0 0 1 0 0 0 1 76161 - step395.ldr
 
 
+0 STEP
 0 FILE 76161 - step393.ldr
 0 Bat-style tail fin attached via two hinge tops for articulation.
 0 Name: 76161 - step393.ldr
@@ -4622,6 +4682,7 @@
 1 0 0 -10 20 0 0 -1 0 1 0 1 0 0 3938.dat
 
 
+0 STEP
 0 FILE 76161 - step394.ldr
 0 Detail assembly combining side-stud brick, sloped elements, and inverted bar-hole tiles.
 0 Name: 76161 - step394.ldr
@@ -4653,6 +4714,7 @@
 1 0 -100 16 0 0 0 1 0 1 0 -1 0 0 29119.dat
 
 
+0 STEP
 0 FILE 76161 - step395.ldr
 0 Small structural detail with an ogee arch, side-stud brick, and inverted bar-hole tile.
 0 Name: 76161 - step395.ldr
@@ -4676,6 +4738,7 @@
 1 0 0 -40 0 1 0 0 0 1 0 0 0 1 3623.dat
 
 
+0 STEP
 0 FILE 76161 - step397-410.ldr
 0 Large fuselage panel mirroring step382-395, built from side-stud bricks and sloped hinged sections.
 0 Name: 76161 - step397-410.ldr
@@ -4785,6 +4848,7 @@
 1 0 -530 48 0 1 0 0 0 1 0 0 0 1 76161 - step410.ldr
 
 
+0 STEP
 0 FILE 76161 - step409.ldr
 0 Detail assembly mirroring step394 with a left-cutout curved slope, side-stud brick, and inverted tiles.
 0 Name: 76161 - step409.ldr
@@ -4816,6 +4880,7 @@
 1 0 100 16 0 0 0 -1 0 1 0 1 0 0 29120.dat
 
 
+0 STEP
 0 FILE 76161 - step410.ldr
 0 Small structural detail mirroring step395 with an ogee arch and side-stud brick.
 0 Name: 76161 - step410.ldr
@@ -4839,6 +4904,7 @@
 1 0 0 -40 0 1 0 0 0 1 0 0 0 1 3623.dat
 
 
+0 STEP
 0 FILE 76161 - step412.ldr
 0 Curved fuselage panel with side-stud bricks, paired curved slopes, and a grooved tile.
 0 Name: 76161 - step412.ldr
@@ -4876,6 +4942,7 @@
 1 0 0 -48 0 1 0 0 0 1 0 0 0 1 3069b.dat
 
 
+0 STEP
 0 FILE 76161 - step413.ldr
 0 Left-facing wing cluster with wedge plate and wings on a 2x4 base plate.
 0 Name: 76161 - step413.ldr
@@ -4902,6 +4969,7 @@
 1 0 -40 8 -10 1 0 0 0 1 0 0 0 1 3020.dat
 
 
+0 STEP
 0 FILE 76161 - step414.ldr
 0 Right-facing wing cluster mirroring step413 with mirrored wings and wedge plate.
 0 Name: 76161 - step414.ldr
@@ -4928,6 +4996,7 @@
 1 0 40 8 -10 1 0 0 0 1 0 0 0 1 3020.dat
 
 
+0 STEP
 0 FILE 76161 - step416-426.ldr
 0 Large curved hull section combining triple-curved wedges, 45-degree slopes, brackets, and colored accent plates.
 0 Name: 76161 - step416-426.ldr
@@ -4993,6 +5062,7 @@
 1 0 -10 -24 100 0 0 1 0 1 0 -1 0 0 4445.dat
 
 
+0 STEP
 0 FILE 76161 - step419.ldr
 0 Simple two-plate connector pairing a light bluish grey and a black 1x2 plate.
 0 Name: 76161 - step419.ldr
@@ -5006,6 +5076,7 @@
 1 0 0 -8 0 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 76161 - step423.ldr
 0 Recessed panel assembly using inverted 45-degree slopes on 2x6 plates with a side-stud tan brick.
 0 Name: 76161 - step423.ldr
@@ -5034,6 +5105,7 @@
 1 19 50 -32 -10 1 0 0 0 1 0 0 0 1 87087.dat
 
 
+0 STEP
 0 FILE 76161 - step428-438.ldr
 0 Large curved hull section mirroring step416-426 with identical wedge, slope, and bracket construction.
 0 Name: 76161 - step428-438.ldr
@@ -5099,6 +5171,7 @@
 1 0 -10 -24 -100 0 0 1 0 1 0 -1 0 0 4445.dat
 
 
+0 STEP
 0 FILE 76161 - step435.ldr
 0 Recessed panel assembly mirroring step423 with inverted 45-degree slopes and a side-stud tan brick.
 0 Name: 76161 - step435.ldr
@@ -5127,6 +5200,7 @@
 1 19 -50 -32 -10 1 0 0 0 1 0 0 0 1 87087.dat
 
 
+0 STEP
 0 FILE 76161 - step440.ldr
 0 Curved rear hull segment built on a 2x6 brick with a large 8x2 curved slope and 4x2 slope.
 0 Name: 76161 - step440.ldr
@@ -5154,6 +5228,7 @@
 1 0 0 -8 -140 1 0 0 0 1 0 0 0 1 30363.dat
 
 
+0 STEP
 0 FILE 76161 - step442.ldr
 0 step442
 0 Name: 76161 - step442.ldr
@@ -5169,6 +5244,7 @@
 1 0 -70 0 10 0 0 -1 0 1 0 1 0 0 54200.dat
 
 
+0 STEP
 0 FILE 76161 - step444.ldr
 0 step444
 0 Name: 76161 - step444.ldr
@@ -5184,6 +5260,7 @@
 1 1 -90 -8 -10 -1 0 0 0 1 0 0 0 -1 3024.dat
 
 
+0 STEP
 0 FILE 76161 - step445.ldr
 0 step445
 0 Name: 76161 - step445.ldr
@@ -5200,6 +5277,7 @@
 1 0 0 -16 -10 0 0 1 0 1 0 -1 0 0 63864.dat
 
 
+0 STEP
 0 FILE 76161 - step447.ldr
 0 step447
 0 Name: 76161 - step447.ldr
@@ -5215,6 +5293,7 @@
 1 72 0 0 128 0 0 -1 0 1 0 1 0 0 32002.dat
 
 
+0 STEP
 0 FILE 76161 - step448.ldr
 0 step448
 0 Name: 76161 - step448.ldr
@@ -5238,6 +5317,7 @@
 1 14 50 8 0 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 76161 - step449-1.ldr
 0 step449-1
 0 Name: 76161 - step449-1.ldr
@@ -5251,6 +5331,7 @@
 1 72 0 -22 -10 1 0 0 0 1 0 0 0 1 3070b.dat
 
 
+0 STEP
 0 FILE 76161 - step449-2.ldr
 0 step449-2
 0 Name: 76161 - step449-2.ldr
@@ -5264,6 +5345,7 @@
 1 72 0 -22 10 -1 0 0 0 1 0 0 0 -1 3070b.dat
 
 
+0 STEP
 0 FILE 76161 - step451.ldr
 0 step451
 0 Name: 76161 - step451.ldr
@@ -5288,6 +5370,7 @@
 1 72 10 0 0 1 0 0 0 1 0 0 0 1 54200.dat
 
 
+0 STEP
 0 FILE 76161 - step452-1.ldr
 0 step452-1
 0 Name: 76161 - step452-1.ldr
@@ -5304,6 +5387,7 @@
 1 0 0 -50 -2 1 0 0 0 0 -1 0 1 0 37762.dat
 
 
+0 STEP
 0 FILE 76161 - step452-2.ldr
 0 step452-2
 0 Name: 76161 - step452-2.ldr
@@ -5317,6 +5401,7 @@
 1 0 0 -52 -2 1 0 0 0 -1 0 0 0 -1 37762.dat
 
 
+0 STEP
 0 FILE 76161 - step454-460.ldr
 0 step454-460
 0 Name: 76161 - step454-460.ldr
@@ -5353,6 +5438,7 @@
 1 0 0 8 30 1 0 0 0 1 0 0 0 1 3010.dat
 
 
+0 STEP
 0 FILE 76161 - step459.ldr
 0 step459
 0 Name: 76161 - step459.ldr
@@ -5382,6 +5468,7 @@
 1 71 0 -10 0 0 0 -1 0 1 0 1 0 0 6134.dat
 
 
+0 STEP
 0 FILE 76161 - step462-470.ldr
 0 step462-470
 0 Name: 76161 - step462-470.ldr
@@ -5444,6 +5531,7 @@
 1 72 0 16 -100 0 0 -1 0.707 0.707 0 0.707 -0.707 0 76161 - step470.ldr
 
 
+0 STEP
 0 FILE 76161 - step470.ldr
 0 step470
 0 Name: 76161 - step470.ldr
@@ -5470,6 +5558,7 @@
 1 72 -40 -10 0 0 0 1 0 1 0 -1 0 0 85984.dat
 
 
+0 STEP
 0 FILE 76161 - step472.ldr
 0 step472
 0 Name: 76161 - step472.ldr
@@ -5491,6 +5580,7 @@
 1 0 0 -24 0 1 0 0 0 1 0 0 0 1 32028.dat
 
 
+0 STEP
 0 FILE 76161 - step473-478.ldr
 0 step473-478
 0 Name: 76161 - step473-478.ldr
@@ -5529,6 +5619,7 @@
 1 0 -120 0 -30 0 0 1 0 1 0 -1 0 0 54384.dat
 
 
+0 STEP
 0 FILE 76161 - step480.ldr
 0 step480
 0 Name: 76161 - step480.ldr
@@ -5542,6 +5633,7 @@
 1 0 0 -8 0 -1 0 0 0 1 0 0 0 -1 15573.dat
 
 
+0 STEP
 0 FILE 76161 - step481.ldr
 0 step481
 0 Name: 76161 - step481.ldr
@@ -5557,6 +5649,7 @@
 1 0 0 -10 -20 1 0 0 0 0 -1 0 1 0 3069b.dat
 
 
+0 STEP
 0 FILE 76161 - step482.ldr
 0 step482
 0 Name: 76161 - step482.ldr
@@ -5581,6 +5674,7 @@
 1 14 30 -10 12 1 0 0 0 0 -1 0 1 0 6141.dat
 
 
+0 STEP
 0 FILE 76161 - step484.ldr
 0 step484
 0 Name: 76161 - step484.ldr
@@ -5598,6 +5692,7 @@
 1 71 0 -10 0 1 0 0 0 1 0 0 0 1 6134.dat
 
 
+0 STEP
 0 FILE 76161 - step485.ldr
 0 step485
 0 Name: 76161 - step485.ldr
@@ -5639,6 +5734,7 @@
 1 72 -30 -2 40 0 0 -1 0 1 0 1 0 0 61409.dat
 
 
+0 STEP
 0 FILE 76161 - step486.ldr
 0 step486
 0 Name: 76161 - step486.ldr
@@ -5652,6 +5748,7 @@
 1 71 0 1.012 -4.384 -1 0 0 0 0.899 0.438 0 0.438 -0.899 6134.dat
 
 
+0 STEP
 0 FILE 76161 - step487-498.ldr
 0 step487-498
 0 Name: 76161 - step487-498.ldr
@@ -5725,6 +5822,7 @@
 1 72 0 -12 -152 0 0 1 1 0 0 0 1 0 76161 - step498.ldr
 
 
+0 STEP
 0 FILE 76161 - step498.ldr
 0 step498
 0 Name: 76161 - step498.ldr
@@ -5753,6 +5851,7 @@
 1 72 10 8 -10 1 0 0 0 1 0 0 0 1 85861.dat
 
 
+0 STEP
 0 FILE 76161 - step501-515.ldr
 0 step501-515
 0 Name: 76161 - step501-515.ldr
@@ -5831,6 +5930,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 76161 - step510.ldr
 0 step510
 0 Name: 76161 - step510.ldr
@@ -5844,6 +5944,7 @@
 1 0 0 8 0 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 76161 - step512.ldr
 0 step512
 0 Name: 76161 - step512.ldr
@@ -5857,6 +5958,7 @@
 1 0 -30 -8 0 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 76161 - step515.ldr
 0 step515
 0 Name: 76161 - step515.ldr
@@ -5870,6 +5972,7 @@
 1 0 0 0 -20 1 0 0 0 1 0 0 0 1 85984.dat
 
 
+0 STEP
 0 FILE 76161 - step517-531.ldr
 0 step517-531
 0 Name: 76161 - step517-531.ldr
@@ -5948,6 +6051,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 76161 - step535.ldr
 0 step535
 0 Name: 76161 - step535.ldr
@@ -5967,6 +6071,7 @@
 1 320 0 10 -57.5 0 0 1 1 0 0 0 1 0 59900.dat
 
 
+0 STEP
 0 FILE 76161 - step536.ldr
 0 step536
 0 Name: 76161 - step536.ldr
@@ -5982,6 +6087,7 @@
 1 179 0 -18 0 1 0 0 0 1 0 0 0 1 2412b.dat
 
 
+0 STEP
 0 FILE 76161 - step537.ldr
 0 step537
 0 Name: 76161 - step537.ldr
@@ -6001,6 +6107,7 @@
 1 0 0 -120 -10 -1 0 0 0 1 0 0 0 -1 18909.dat
 
 
+0 STEP
 0 FILE 76161 - step538-545.ldr
 0 step538-545
 0 Name: 76161 - step538-545.ldr
@@ -6049,6 +6156,7 @@
 1 0 0 -536 40 1 0 0 0 1 0 0 0 1 76161 - step545.ldr
 
 
+0 STEP
 0 FILE 76161 - step544.ldr
 0 step544
 0 Name: 76161 - step544.ldr
@@ -6070,6 +6178,7 @@
 1 0 -11 16 0 0 -1 0 0 0 1 -1 0 0 44676.dat
 
 
+0 STEP
 0 FILE 76161 - step545.ldr
 0 step545
 0 Name: 76161 - step545.ldr
@@ -6085,6 +6194,7 @@
 1 0 0 -16 0 1 0 0 0 1 0 0 0 1 14769.dat
 
 
+0 STEP
 0 FILE 76161 - minifig-joker.ldr
 0 minifig-joker
 0 Name: 76161 - minifig-joker.ldr
@@ -6112,6 +6222,7 @@
 1 15 21.548 -58.394 -30.23 0.989 0.008 0.147 0.029 0.968 -0.249 -0.144 0.25 0.957 87693.dat
 
 
+0 STEP
 0 FILE 76161 - stand.ldr
 0 stand
 0 Name: 76161 - stand.ldr
@@ -6253,6 +6364,7 @@
 1 0 14.163 -121.965 0 0 0.946 -0.323 0 0.323 0.946 1 0 0 90498.dat
 
 
+0 STEP
 0 FILE 76161 - stand-step4.ldr
 0 stand-step4
 0 Name: 76161 - stand-step4.ldr
@@ -6266,6 +6378,7 @@
 1 0 -20 10 10 0 0 1 0 1 0 -1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 76161 - stand-step8-1.ldr
 0 stand-step8-1
 0 Name: 76161 - stand-step8-1.ldr
@@ -6290,6 +6403,7 @@
 1 71 0 -32 0 0 0 1 0 1 0 -1 0 0 3068b.dat
 
 
+0 STEP
 0 FILE 76161 - stand-step8-2.ldr
 0 stand-step8-2
 0 Name: 76161 - stand-step8-2.ldr
@@ -6314,6 +6428,7 @@
 1 71 0 -32 0 0 0 1 0 1 0 -1 0 0 3022.dat
 
 
+0 STEP
 0 FILE 76161 - stand-step9.ldr
 0 stand-step9
 0 Name: 76161 - stand-step9.ldr
@@ -6330,6 +6445,7 @@
 1 71 0 -32 0 1 0 0 0 1 0 0 0 1 6636.dat
 
 
+0 STEP
 0 FILE 76161 - stand-step10-15.ldr
 0 stand-step10-15
 0 Name: 76161 - stand-step10-15.ldr
@@ -6368,6 +6484,7 @@
 1 4 0 0 0 0 0.6 0.8 0 0.8 -0.6 -1 0 0 3706.dat
 
 
+0 STEP
 0 FILE 76161 - stand-step17-23.ldr
 0 stand-step17-23
 0 Name: 76161 - stand-step17-23.ldr
@@ -6453,6 +6570,7 @@
 1 71 0 12 -42 1 0 0 0 0 -1 0 1 0 87079.dat
 
 
+0 STEP
 0 FILE 76161 - stand-step25.ldr
 0 stand-step25
 0 Name: 76161 - stand-step25.ldr
@@ -6482,6 +6600,7 @@
 1 71 250 -32 0 0 0 -1 0 1 0 1 0 0 30363.dat
 
 
+0 STEP
 0 FILE 76161 - minifig-stand.ldr
 0 minifig-stand
 0 Name: 76161 - minifig-stand.ldr
@@ -6540,6 +6659,7 @@
 1 0 80 -32 -9 1 0 0 0 1 0 0 0 1 76161 - minifig-joker.ldr
 
 
+0 STEP
 0 FILE 76161 - minifig-stand-step8.ldr
 0 minifig-stand-step8
 0 Name: 76161 - minifig-stand-step8.ldr
@@ -6565,6 +6685,7 @@
 1 16 18 -14 0 1 0 0 0 1 0 0 0 1 76161 - minifig-stand-step8-4.ldr
 
 
+0 STEP
 0 FILE 76161 - minifig-stand-step8-4.ldr
 0 minifig-stand-step8-4
 0 Name: 76161 - minifig-stand-step8-4.ldr
@@ -6582,6 +6703,7 @@
 1 179 4 -20 6 -0.5 0.866 0 0 0 -1 -0.866 -0.5 0 53451.dat
 
 
+0 STEP
 0 FILE 76161 - 67139.dat
 0 67139
 0 Name: 76161 - 67139.dat
@@ -6718,6 +6840,7 @@
 0 // Rectangle with 2 Parallel Edges (main_colour)
 1 16 0 0 12 9 0 0 0 0 -6.36 0 1 0 rect2p.dat
 
+0 STEP
 0 FILE 76161 - ldcRubberBandRndSeg.dat
 0 ldcRubberBandRndSeg
 0 Name: 76161 - ldcRubberBandRndSeg.dat
@@ -6742,6 +6865,7 @@
 
 
 
+0 STEP
 0 FILE 76161 - 44301b.dat
 0 44301b
 0 Name: 76161 - 44301b.dat
@@ -6761,6 +6885,7 @@
 4 16 -20 8 10 -16 8 6 -16 8 -6 -20 8 -10
 4 16 -20 8 -10 -16 8 -6 16 8 -6 20 8 -10
 
+0 STEP
 0 FILE s\76161 - 67139s01.dat
 0 A rounded cylindrical disc component with multiple ring and cylinder segments forming a smooth contoured wheel or hub shape.
 0 Name: s\76161 - 67139s01.dat
@@ -6874,6 +6999,7 @@
 4 16 -29 9 30 -20 9 30 -13 9 12 -31 9 9
 3 16 -31 9 0 -9 9 9 -9 9 0
 
+0 STEP
 0 FILE s\76161 - 67139s02.dat
 0 A small open cylindrical ring element with rectangular cutouts and disc negatives forming a hollow connector or socket detail.
 0 Name: s\76161 - 67139s02.dat
@@ -6950,6 +7076,7 @@
 3 16 -6 -6.36 6 -9 -6.36 12 0 -6.36 6
 
 
+0 STEP
 0 FILE 76161 - ldcCyli8.dat
 0 An empty cylindrical primitive submodel used as a placeholder or scaling reference in the model.
 0 Name: 76161 - ldcCyli8.dat
@@ -6981,6 +7108,7 @@
 
 
 
+0 STEP
 0 FILE 76161 - ldcConRing8.dat
 0 A path-deform connector ring segment used for flexible part generation with edge visibility control.
 0 Name: 76161 - ldcConRing8.dat
@@ -7006,6 +7134,7 @@
 
 
 
+0 STEP
 0 FILE s\76161 - 44301s01.dat
 0 A box-based click-lock hinge submodel with a single finger joint for attaching plate ends.
 0 Name: s\76161 - 44301s01.dat

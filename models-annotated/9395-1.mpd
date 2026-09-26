@@ -14,6 +14,7 @@
 
 
 
+0 STEP
 0 FILE 9395 - 9395-1.ldr
 0 Technic chassis submodel built from beams, gears, a differential, axles, and angle connectors forming the drivetrain and steering structure.
 0 Author: Oh-Seong KWON
@@ -2630,6 +2631,7 @@
 
 
 
+0 STEP
 0 FILE 9395 - LS60.dat
 0 LSynth-generated short straight string segment used for the winch or cable element.
 0 Name: 9395 - LS60.dat

@@ -188,6 +188,7 @@
 0 STEP
 1 14 0 -48 -139 1 0 0 0 1 0 0 0 1 6780 - Minifig.ldr
 
+0 STEP
 0 FILE 6780 - Cockpit.ldr
 0 Enclosed cockpit module with white wings, inverted slopes, jet-engine plates, and black brackets forming a streamlined cockpit with twin engine housings.
 0 Name: 6780 - Cockpit.ldr
@@ -373,6 +374,7 @@
 1 0 50 -66 130 1 0 0 0 1 0 0 0 1 6780 - Left black hose.ldr
 1 0 -50 -66 130 1 0 0 0 1 0 0 0 1 6780 - Right black hose.ldr
 
+0 STEP
 0 FILE 6780 - Connector block.ldr
 0 Small white connector block joining sections, using Technic bricks with holes, plates, a pin, and grille-patterned bricks with a directional arrow tile.
 0 Name: 6780 - Connector block.ldr
@@ -406,6 +408,7 @@
 0 // Plate  2 x  2 (white)
 1 15 0 -56 20 0 0 -1 0 1 0 1 0 0 3022.dat
 
+0 STEP
 0 FILE 6780 - Tail.ldr
 0 Rear tail assembly with inclined stanchions, a rocket tail piece, cones, finned round brick, and translucent green dishes forming exhaust details.
 0 Name: 6780 - Tail.ldr
@@ -444,6 +447,7 @@
 0 // Dish  2 x  2 Inverted (trans_green)
 1 34 26 -122 -40 -1 0 0 0 0 -1 0 -1 0 4740.dat
 
+0 STEP
 0 FILE 6780 - Probe.ldr
 0 Compact probe unit built from left and right wings, plates, hinge controls, and positioning rockets with directional arrow tiles.
 0 Name: 6780 - Probe.ldr
@@ -487,6 +491,7 @@
 0 // Brick  2 x  1 with Positioning Rockets (black)
 1 0 -30 -48 -10 0 0 1 0 1 0 -1 0 0 3963.dat
 
+0 STEP
 0 FILE 6780 - Minifig.ldr
 0 Classic yellow Space minifig with airtanks, helmet, and standard grin head, fully assembled from individual body parts.
 0 Name: 6780 - Minifig.ldr
@@ -517,6 +522,7 @@
 0 // Minifig Hand (yellow)
 1 14 21.561 -38.5773 -12.3659 0.9855 0.1699 0.0001 -0.1699 0.9855 0.0001 0 0 1 3820.dat
 
+0 STEP
 0 FILE 6780 - Left black hose.ldr
 0 Left-side flexible black hose routed from base to an angled connection, synthesized from many rubber-black hose segments.
 0 Name: 6780 - Left black hose.ldr
@@ -641,6 +647,7 @@
 0 //  0 SYNTH SYNTHESIZED END
 0 //  0 SYNTH END
 
+0 STEP
 0 FILE 6780 - Right black hose.ldr
 0 Right-side flexible black hose mirroring the left, routed from base to an angled connection using rubber-black hose segments.
 0 Name: 6780 - Right black hose.ldr
@@ -765,6 +772,7 @@
 0 //  0 SYNTH SYNTHESIZED END
 0 //  0 SYNTH END
 
+0 STEP
 0 FILE 6780 - Left yellow hose.ldr
 0 Left-side flexible translucent-yellow hose routed along a curved path, composed of many rubber-yellow hose segments.
 0 Name: 6780 - Left yellow hose.ldr
@@ -889,6 +897,7 @@
 0 //  0 SYNTH SYNTHESIZED END
 0 //  0 SYNTH END
 
+0 STEP
 0 FILE 6780 - Right yellow hose.ldr
 0 Right-side flexible translucent-yellow hose mirroring the left, routed along a curved path using rubber-yellow hose segments.
 0 Name: 6780 - Right yellow hose.ldr

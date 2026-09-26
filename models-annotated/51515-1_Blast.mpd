@@ -8,6 +8,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 51515 - blast.ldr
 
 
+0 STEP
 0 FILE 51515 - head.ldr
 0 Robot head built around a Powered Up 6-port hub with whip antennas and pin-connected cross blocks for mounting.
 0 Name: 51515 - head.ldr
@@ -37,6 +38,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 51515 - torso.ldr
 0 Central torso frame constructed from open-center beams, liftarms, a 36-tooth gear, and numerous connector pins providing structural support and articulation.
 0 Name: 51515 - torso.ldr
@@ -313,6 +315,7 @@
 1 1 -80 -220 -20 0 1 0 -1 0 0 0 0 1 6558.dat
 
 
+0 STEP
 0 FILE 51515 - shoulders.ldr
 0 Shoulder assembly with 12- and 20-tooth gears, connector blocks, and a large open-center beam frame supporting arm articulation.
 0 Name: 51515 - shoulders.ldr
@@ -387,6 +390,7 @@
 1 1 -20 -30 -40 0 0 1 -1 0 0 0 -1 0 43093.dat
 
 
+0 STEP
 0 FILE 51515 - spikePrimeMotorM-LQ-1.ldr
 0 Flexible-cable model of a Powered Up Medium Angular Motor with white cable stub for robotic actuation.
 0 Name: 51515 - spikePrimeMotorM-LQ-1.ldr
@@ -433,6 +437,7 @@
 
 
 
+0 STEP
 0 FILE 51515 - spikePrimeMotorM-LQ-1_subPart1.ldr
 0 Subpart containing flexible cable routing segments for the Medium Angular Motor model.
 0 Name: 51515 - spikePrimeMotorM-LQ-1_subPart1.ldr
@@ -1489,6 +1494,7 @@
 1 16 0.000999 118.015631 382.692023 0 0 1 0.998715 -0.050694 0 0.050688 0.998827 0 u9218.dat
 
 
+0 STEP
 0 FILE 51515 - torsolid.ldr
 0 Solid torso cladding using smooth fairing panels and a MINDSTORMS-decorated panel to enclose the frame.
 0 Name: 51515 - torsolid.ldr
@@ -1539,6 +1545,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 51515 - rightarm.ldr
 0 Right arm built from bent liftarms, angle connectors, fairing panels, and pins enabling articulated forearm and upper-arm segments.
 0 Name: 51515 - rightarm.ldr
@@ -1639,6 +1646,7 @@
 1 15 92.139 -218.864 -20 0.242 0 -0.97 -0.97 0 -0.242 0 1 0 18654.dat
 
 
+0 STEP
 0 FILE 51515 - spikePrimeMotorM-LQ-2.ldr
 0 Flexible-cable model of a Powered Up Medium Angular Motor with white cable stub for robotic actuation.
 0 Name: 51515 - spikePrimeMotorM-LQ-2.ldr
@@ -1684,6 +1692,7 @@
 
 
 
+0 STEP
 0 FILE 51515 - spikePrimeMotorM-LQ-2_subPart1.ldr
 0 Subpart containing flexible cable routing segments for the Medium Angular Motor model.
 0 Name: 51515 - spikePrimeMotorM-LQ-2_subPart1.ldr
@@ -2859,6 +2868,7 @@
 1 16 139.999001 -402.679163 101.982037 0 0 -1 -0.055899 -0.99856 0 -0.998436 0.055906 0 u9218.dat
 
 
+0 STEP
 0 FILE 51515 - leftarm.ldr
 0 Left arm assembled from bent liftarms, cross blocks, a circular connector, fairing panels, and pins forming an articulated limb.
 0 Name: 51515 - leftarm.ldr
@@ -2972,6 +2982,7 @@
 1 15 -12.139 -218.864 -20 1 0 0 0 0 -1 0 1 0 18654.dat
 
 
+0 STEP
 0 FILE 51515 - spikePrimeDistSens-LQ-1.ldr
 0 Flexible-cable model of a Powered Up Distance Sensor with white cable stub for proximity sensing.
 0 Name: 51515 - spikePrimeDistSens-LQ-1.ldr
@@ -3019,6 +3030,7 @@
 
 
 
+0 STEP
 0 FILE 51515 - spikePrimeDistSens-LQ-1_subPart1.ldr
 0 Subpart containing flexible cable routing segments for the Distance Sensor model.
 0 Name: 51515 - spikePrimeDistSens-LQ-1_subPart1.ldr
@@ -3345,6 +3357,7 @@
 1 16 -1.958114 -140.000999 402.547296 0.995747 -0.267178 0 0 0 -1 0.09213 2.887666 0 u9218.dat
 
 
+0 STEP
 0 FILE 51515 - spikePrimeColorSens-LQ-1.ldr
 0 Flexible-cable model of a Powered Up Colour Sensor with white cable stub for color detection.
 0 Name: 51515 - spikePrimeColorSens-LQ-1.ldr
@@ -3394,6 +3407,7 @@
 
 
 
+0 STEP
 0 FILE 51515 - spikePrimeColorSens-LQ-1_subPart1.ldr
 0 Subpart containing flexible cable routing segments for the Colour Sensor model.
 0 Name: 51515 - spikePrimeColorSens-LQ-1_subPart1.ldr
@@ -4472,6 +4486,7 @@
 1 16 140.000999 235.350626 81.946648 0 0 1 0.150431 -0.988815 0 0.98862 0.150461 0 u9218.dat
 
 
+0 STEP
 0 FILE 51515 - leftarmsensors.ldr
 0 Sensor mounting subassembly using friction pins to attach components to the left arm.
 0 Name: 51515 - leftarmsensors.ldr
@@ -4488,6 +4503,7 @@
 1 0 80 0 0 0 0 -1 -1 0 0 0 1 0 51515 - spikePrimeColorSens-LQ-1.ldr
 
 
+0 STEP
 0 FILE 51515 - leftarmside.ldr
 0 Left arm side reinforcement built from a bent double liftarm, beam, circular connector, and pins.
 0 Name: 51515 - leftarmside.ldr
@@ -4516,6 +4532,7 @@
 1 0 -30 -180 120 0 0 1 0 1 0 -1 0 0 98585.dat
 
 
+0 STEP
 0 FILE 51515 - legs.ldr
 0 Leg assembly with bent liftarms, axle connectors, and four spoked wheels with tyres for a wheeled robot base.
 0 Name: 51515 - legs.ldr
@@ -4679,6 +4696,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 51515 - spikePrimeMotorM-LQ-3.ldr
 0 Flexible-cable model of a Powered Up Medium Angular Motor with white cable stub for robotic actuation.
 0 Name: 51515 - spikePrimeMotorM-LQ-3.ldr
@@ -4727,6 +4745,7 @@
 
 
 
+0 STEP
 0 FILE 51515 - spikePrimeMotorM-LQ-3_subPart1.ldr
 0 Subpart containing flexible cable routing segments for the Medium Angular Motor model.
 0 Name: 51515 - spikePrimeMotorM-LQ-3_subPart1.ldr
@@ -5857,6 +5876,7 @@
 1 16 -38.019874 80.000999 515.153706 0.991744 0.128234 0 0 0 1 0.128234 -0.991744 0 u9218.dat
 
 
+0 STEP
 0 FILE 51515 - hips.ldr
 0 Hip frame constructed from an open-center beam and bent beams joined with friction pins to connect torso and legs.
 0 Name: 51515 - hips.ldr
@@ -5890,6 +5910,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 51515 - spikePrimeMotorM-LQ-4.ldr
 0 Flexible-cable model of a Powered Up Medium Angular Motor with white cable stub for robotic actuation.
 0 Name: 51515 - spikePrimeMotorM-LQ-4.ldr
@@ -5938,6 +5959,7 @@
 
 
 
+0 STEP
 0 FILE 51515 - spikePrimeMotorM-LQ-4_subPart1.ldr
 0 Subpart containing flexible cable routing segments for the Medium Angular Motor model.
 0 Name: 51515 - spikePrimeMotorM-LQ-4_subPart1.ldr
@@ -7021,6 +7043,7 @@
 1 16 -38.039562 -39.999001 515.312827 0.992098 0.125482 0 0 0 1 0.125467 -0.992219 0 u9218.dat
 
 
+0 STEP
 0 FILE 51515 - legpanel1.ldr
 0 Decorative leg panel using a smooth long fairing attached with perpendicular and friction pins.
 0 Name: 51515 - legpanel1.ldr
@@ -7039,6 +7062,7 @@
 1 0 0 -20 30 0 0 1 0 1 0 -1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 51515 - legpanel2.ldr
 0 Decorative leg panel using a smooth long fairing attached with perpendicular and friction pins.
 0 Name: 51515 - legpanel2.ldr
@@ -7057,6 +7081,7 @@
 1 0 0 -20 30 0 0 -1 0 1 0 1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 51515 - foot1.ldr
 0 Articulated foot assembly with bent beams, cross blocks, smooth wheels, and fairing panels for a rolling stance.
 0 Name: 51515 - foot1.ldr
@@ -7121,6 +7146,7 @@
 1 15 80 0 100 0 -1 0 1 0 0 0 0 1 11946.dat
 
 
+0 STEP
 0 FILE 51515 - shooter.ldr
 0 Dual spring-loaded shooter mechanism built on bent beams with elbow connectors, axles, and competition arrows.
 0 Name: 51515 - shooter.ldr
@@ -7201,6 +7227,7 @@
 1 15 40 -50 60 1 0 0 0 0 1 0 -1 0 59443.dat
 
 
+0 STEP
 0 FILE 51515 - blast.ldr
 0 Compact connector subassembly using long stop pins, perpendicular pin blocks, and an axle with bushes.
 0 Name: 51515 - blast.ldr
@@ -7239,6 +7266,7 @@
 1 15 -220 300 -210 1 0 0 0 1 0 0 0 1 51515 - shooter.ldr
 
 
+0 STEP
 0 FILE 51515 - 67718c01.dat
 0 Powered Up 6-port hub unit with dark turquoise rechargeable battery pack.
 0 Name: 51515 - 67718c01.dat
@@ -7256,6 +7284,7 @@
 1 3 0 0 0 1 0 0 0 1 0 0 0 1 67704.dat
 
 
+0 STEP
 0 FILE 51515 - 54696p02.dat
 0 Printed or decorated part referenced as a single component with no direct sub-pieces.
 0 Name: 51515 - 54696p02.dat
@@ -7270,6 +7299,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 51515 - u9364c02.dat
 1 71 0 -50 0 1 0 0 0 1 0 0 0 1 u9363.dat
 
+0 STEP
 0 FILE 51515 - 6327015a.dat
 0 Primitive part reference with no direct sub-pieces, used as a standalone component.
 0 Name: 51515 - 6327015a.dat
@@ -7286,6 +7316,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 s\51515 - 6327015as03.dat
 1 15 0 0 0 1 0 0 0 1 0 0 0 1 s\51515 - 6327015as04.dat
 
+0 STEP
 0 FILE 51515 - 65098.dat
 0 Tire or wheel primitive formed from circular segments and pin-based collar ribs.
 0 Name: 51515 - 65098.dat
@@ -7329,6 +7360,7 @@
 2 24 10 -7.1716 2.8284 10 -7.1716 -2.8284
 2 24 10 -12.8284 -2.8284 10 -12.8284 2.8284
 
+0 STEP
 0 FILE 51515 - 55889.dat
 0 Cylindrical primitive part with connector hole, rings, and circular segments forming a hub-like component.
 0 Name: 51515 - 55889.dat
@@ -7356,6 +7388,7 @@
 1 16 0 0 0 -1 0 0 0 -1 0 0 0 1 s\51515 - 55889s01.dat
 1 16 0 0 0 0 1 0 -1 0 0 0 0 1 s\51515 - 55889s01.dat
 
+0 STEP
 0 FILE 51515 - 46537.dat
 0 Single rubber-black curved box element with three faces, likely a tire or tread component.
 0 Name: 51515 - 46537.dat
@@ -7374,6 +7407,7 @@
 0 // Box with 3 Faces without 2 Parallel Edges (rubber_black)
 1 256 0 0 -40 0 0 4 -6.14286 0 0 0 19 0 box3u2p.dat
 
+0 STEP
 0 FILE 51515 - 67718.dat
 0 Simple six-faced black box primitive representing a basic cuboid housing element.
 0 Name: 51515 - 67718.dat
@@ -7408,6 +7442,7 @@
 0 // Box 6 (six faces) (black)
 1 0 0 -57 87 8 0 0 0 2 0 0 0 4 box.dat
 
+0 STEP
 0 FILE 51515 - u9364c02.dat
 0 Cable and blocker stub assembly representing an electrical connection element.
 0 Name: 51515 - u9364c02.dat
@@ -7433,6 +7468,7 @@
 4 71 12 7.5 130 12 -8.5 130 27 -8.5 130 27 7.5 130
 4 71 -27 -8.5 130 -12 -8.5 130 -12 7.5 130 -27 7.5 130
 
+0 STEP
 0 FILE s\51515 - 6327015as01.dat
 0 Primitive sub-part of the 6327015a component with no direct sub-pieces.
 0 Name: s\51515 - 6327015as01.dat
@@ -7452,6 +7488,7 @@
 4 16 -51.599998 0 7.5 -56.200001 0 0 -56.200001 -0.25 0 -51.599998 -0.25 7.5
 4 16 -56.200001 0 0 -51.599998 0 -7.5 -51.599998 -0.25 -7.5 -56.200001 -0.25 0
 
+0 STEP
 0 FILE s\51515 - 6327015as02.dat
 0 Primitive sub-part of the 6327015a component with no direct sub-pieces.
 0 Name: s\51515 - 6327015as02.dat
@@ -7545,6 +7582,7 @@
 4 16 37.182999 -0.25 2.5 37.724201 -0.25 2.2758 37.817001 -0.25 2.5 37.724201 -0.25 2.7242
 4 16 37.182999 -0.25 2.5 37.724201 -0.25 2.7242 37.5 -0.25 2.817 37.275902 -0.25 2.7242
 
+0 STEP
 0 FILE s\51515 - 6327015as03.dat
 0 Primitive sub-part of the 6327015a component with no direct sub-pieces.
 0 Name: s\51515 - 6327015as03.dat
@@ -7567,6 +7605,7 @@
 4 16 -47.099998 -0.25 0 -48.200001 -0.25 0 -44.599998 -0.25 -5.9 -44.200001 -0.25 -4.8
 4 16 -44.599998 -0.25 -5.9 -39.599998 -0.25 -5.9 -41.400002 -0.25 -4.8 -44.200001 -0.25 -4.8
 
+0 STEP
 0 FILE s\51515 - 6327015as04.dat
 0 Primitive sub-part of the 6327015a component with no direct sub-pieces.
 0 Name: s\51515 - 6327015as04.dat
@@ -7722,6 +7761,7 @@
 3 16 -22.799999 -0.25 -3.1 -23.799999 -0.25 -3.1 -39.599998 -0.25 -5.9
 3 16 -22.799999 -0.25 -3.1 -39.599998 -0.25 -5.9 -19.35 -0.25 -3.1
 
+0 STEP
 0 FILE s\51515 - 32138s01.dat
 0 Geometric primitive sub-part composed of cylinders, rings, circles, and rectangles forming a complex rounded body.
 0 Name: s\51515 - 32138s01.dat
@@ -8029,6 +8069,7 @@
 5 24 -4 7.4 -9 -4 7.4 -7.5 -6 6 -9 -2 8 -7.5
 5 24 -7 4.8 -9 -7 4.8 -7.5 -8 3 -9 -6 6 -7.5
 
+0 STEP
 0 FILE s\51515 - 55889s01.dat
 0 Geometric primitive sub-part made of small circular and cylindrical segments with edge rectangles.
 0 Name: s\51515 - 55889s01.dat
@@ -8191,6 +8232,7 @@
 3 16 14.205 8.201 4.5 10.7656 10.7656 4.5 14.0664 5.8266 4.5
 3 16 8.201 14.205 4.5 5.8266 14.0664 4.5 10.7656 10.7656 4.5
 
+0 STEP
 0 FILE s\51515 - 46537s01.dat
 0 Detailed geometric primitive sub-part built from cylinders, circles, chords, and rectangles forming a contoured shape.
 0 Name: s\51515 - 46537s01.dat
@@ -8376,6 +8418,7 @@
 2 24 5 -10.5455 -40.454102 5 -6.1429 -40
 2 24 5 6.1429 -40 5 10.5455 -40.454102
 
+0 STEP
 0 FILE s\51515 - 46537s02.dat
 0 Primitive sub-part of the 46537 component with no direct sub-pieces.
 0 Name: s\51515 - 46537s02.dat

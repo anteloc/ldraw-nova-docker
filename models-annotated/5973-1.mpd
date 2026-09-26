@@ -17,6 +17,7 @@
 
 
 
+0 STEP
 0 FILE 5973 - 5973-1.ldr
 0 Container or hub submodel that references a large winged aircraft hull, a minifigure-mounted component, and a small attachment assembly.
 0 Name: 5973 - 5973-1.ldr
@@ -53,6 +54,7 @@
 
 
 
+0 STEP
 0 FILE 5973 - 5973-1-a.ldr
 0 A large winged aircraft hull built from plates, inverted slopes, and large wing panels with small trans-colored accent lights.
 0 Name: 5973 - 5973-1-a.ldr
@@ -425,6 +427,7 @@
 
 
 
+0 STEP
 0 FILE 5973 - 5973-1-b.ldr
 0 A small minifigure figure assembly using a skeleton leg, a blocked-head element, a hinge, and handlebars.
 0 Name: 5973 - 5973-1-b.ldr
@@ -455,6 +458,7 @@
 
 
 
+0 STEP
 0 FILE 5973 - 5973-1-c.ldr
 0 An empty placeholder submodel with no directly-listed pieces.
 0 Name: 5973 - 5973-1-c.ldr
@@ -614,6 +618,7 @@
 
 
 
+0 STEP
 0 FILE 5973 - 5973-5979-0-a.ldr
 0 A tiny antenna or light detail made from a cone, a trans-orange round plate, and a clip tile.
 0 Name: 5973 - 5973-5979-0-a.ldr
@@ -638,6 +643,7 @@
 
 
 
+0 STEP
 0 FILE 5973 - 5973-0.ldr
 0 A rotating or articulating assembly that references a Technic axle-and-connector mechanism submodel.
 0 Name: 5973 - 5973-0.ldr
@@ -657,6 +663,7 @@
 
 
 
+0 STEP
 0 FILE 5973 - 5973-0-a.ldr
 0 A small Technic rotor assembly using an angle connector, axle, notched axle, and a 3x3 disc with axlehole.
 0 Name: 5973 - 5973-0-a.ldr
@@ -684,6 +691,7 @@
 
 
 
+0 STEP
 0 FILE 5973 - 5973-5974-0-a.ldr
 0 A trans-dark-blue domed sensor or cockpit module built on a round brick with Technic pins, axles, and a door-rail plate.
 0 Name: 5973 - 5973-5974-0-a.ldr
@@ -735,6 +743,7 @@
 
 
 
+0 STEP
 0 FILE 5973 - 5973-5974-5979-5985-0-a.ldr
 0 A small translucent domed canopy piece mounted on a door-rail plate.
 0 Name: 5973 - 5973-5974-5979-5985-0-a.ldr
@@ -756,6 +765,7 @@
 
 
 
+0 STEP
 0 FILE 5973 - 5973-2.ldr
 0 A missile launcher assembly holding two competition arrows with rubber tips mounted on Technic half-pins.
 0 Name: 5973 - 5973-2.ldr
@@ -791,6 +801,7 @@
 
 
 
+0 STEP
 0 FILE 5973 - 5973-2-a.ldr
 0 A wheeled rover chassis built on large black plates, featuring round axlehole plates, wheels, dishes, and red body panels.
 0 Name: 5973 - 5973-2-a.ldr
@@ -1096,6 +1107,7 @@
 
 
 
+0 STEP
 0 FILE 5973 - 5973-2-b.ldr
 0 A detailed rover module featuring a mudguard, curved wedge, grille slopes, handles, and decorative flags.
 0 Name: 5973 - 5973-2-b.ldr
@@ -1148,6 +1160,7 @@
 
 
 
+0 STEP
 0 FILE 5973 - 5973-2-c.ldr
 0 A Technic competition cannon mounted on cross blocks and axles.
 0 Name: 5973 - 5973-2-c.ldr
@@ -1181,6 +1194,7 @@
 
 
 
+0 STEP
 0 FILE 5973 - 5973-2-d.ldr
 0 A small launcher or laser nozzle assembly using a stud axle, cross blocks, and a trans-neon-green cone.
 0 Name: 5973 - 5973-2-d.ldr
@@ -1208,6 +1222,7 @@
 
 
 
+0 STEP
 0 FILE 5973 - 5973-3.ldr
 0 A yellow cargo container with doors, grilles, round tiles, and chrome-gold accent trim.
 0 Name: 5973 - 5973-3.ldr
@@ -1256,6 +1271,7 @@
 
 
 
+0 STEP
 0 FILE 5973 - LS90.dat
 0 A primitive disc-and-ring geometry part composed of concentric circles, cylinders, and rings.
 0 Name: 5973 - LS90.dat
@@ -1411,6 +1427,7 @@
 0 //
 
 
+0 STEP
 0 FILE 5973 - LS91.dat
 0 An LSynth flexible hose segment part built from circles and cone primitives.
 0 Name: 5973 - LS91.dat

@@ -14,6 +14,7 @@
 
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 20021 - m-1.ldr
 
+0 STEP
 0 FILE 20021 - m-1.ldr
 0 Dark green hull subassembly with ogee arches, grille slopes, and side-stud bricks forming a detailed nose or cockpit section.
 0 Name: 20021 - m-1.ldr
@@ -98,6 +99,7 @@
 1 0 120 -86 60 1 0 0 0 0 -1 0 1 0 20021 - m-1f.ldr
 1 0 -120 -86 60 1 0 0 0 0 -1 0 1 0 20021 - m-1f.ldr
 
+0 STEP
 0 FILE 20021 - m-1a.ldr
 0 Small dark green curved slope and plate subassembly with translucent brown accents.
 0 Name: 20021 - m-1a.ldr
@@ -122,6 +124,7 @@
 0 // Slope Brick Curved  3 x  1 (dark_green)
 1 288 10 -16 -30 1 0 0 0 1 0 0 0 1 50950.dat
 
+0 STEP
 0 FILE 20021 - m-1b.ldr
 0 Dark green wing panel subassembly built on a corner plate with a grooved tile and curved slope detail.
 0 Name: 20021 - m-1b.ldr
@@ -144,6 +147,7 @@
 0 // Slope Brick Curved  3 x  1 (dark_green)
 1 288 10 -16 -30 0 0 -1 0 1 0 1 0 0 50950.dat
 
+0 STEP
 0 FILE 20021 - m-1c.ldr
 0 Dark green wing panel subassembly built on a corner plate with a grooved tile and curved slope detail.
 0 Name: 20021 - m-1c.ldr
@@ -166,6 +170,7 @@
 0 // Slope Brick Curved  3 x  1 (dark_green)
 1 288 -10 -16 -30 0 0 1 0 1 0 -1 0 0 50950.dat
 
+0 STEP
 0 FILE 20021 - m-1d.ldr
 0 Dark green wing and fuselage section with yellow structural plates, grooved tiles, engine nozzles, and cone exhaust details.
 0 Name: 20021 - m-1d.ldr
@@ -224,6 +229,7 @@
 0 // Minifig Hose Nozzle with Side String Hole Simplified (black)
 1 0 -14 -30 70 0 1 0 0.707107 0 0.707107 0.707107 0 -0.707107 60849.dat
 
+0 STEP
 0 FILE 20021 - m-1e.ldr
 0 Dark green and bluish grey engine pod or wing section featuring dish components, technic pins, and left/right wing plates.
 0 Name: 20021 - m-1e.ldr
@@ -263,6 +269,7 @@
 0 // Wing  2 x  4 Left (dark_bluish_grey)
 1 72 -60 -8 -20 0 0 1 0 1 0 -1 0 0 41770.dat
 
+0 STEP
 0 FILE 20021 - m-1f.ldr
 0 Cylindrical engine or turret subassembly with a robot body cylinder, finned round brick, yellow round plates, and an axle.
 0 Name: 20021 - m-1f.ldr

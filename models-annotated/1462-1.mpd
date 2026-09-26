@@ -10,6 +10,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 1462 - Spaceship.ldr
 1 0 0 -69 8 1 0 0 0 1 0 0 0 1 1462 - Minifig.ldr
 
+0 STEP
 0 FILE 1462 - Spaceship.ldr
 0 A compact spaceship fuselage built from plates, hinge plates, and a bracket, topped with a round finned white cockpit element.
 0 Name: 1462 - Spaceship.ldr
@@ -37,6 +38,7 @@
 1 0 56.186 -19.176 20 0.92388 0.382683 0 -0.382683 0.92388 0 0 0 1 1462 - Spaceship - Wing 2.ldr
 1 0 -10 -45.456 -44.544 0 0 1 -0.707107 0.707107 0 -0.707107 -0.707107 0 1462 - Spaceship - Command.ldr
 
+0 STEP
 0 FILE 1462 - Spaceship - Wing 1.ldr
 0 A hinged wing panel with a black angled plate and a white tile bearing a yellow arrow pattern.
 0 Name: 1462 - Spaceship - Wing 1.ldr
@@ -54,6 +56,7 @@
 1 15 10 -16 10 0 0 1 0 1 0 -1 0 0 3069bp13.dat
 
 
+0 STEP
 0 FILE 1462 - Spaceship - Wing 2.ldr
 0 A hinged wing panel with a black angled plate and a white tile bearing a yellow arrow pattern.
 0 Name: 1462 - Spaceship - Wing 2.ldr
@@ -71,6 +74,7 @@
 1 15 -10 -16 10 0 0 -1 0 1 0 1 0 0 3069bp13.dat
 
 
+0 STEP
 0 FILE 1462 - Spaceship - Command.ldr
 0 A command section using two hinged bars with top studs and a white grille tile to form the cockpit detailing.
 0 Name: 1462 - Spaceship - Command.ldr
@@ -88,6 +92,7 @@
 1 15 0 -8 10 0 0 1 0 1 0 -1 0 0 2412b.dat
 
 
+0 STEP
 0 FILE 1462 - Minifig.ldr
 0 A Blacktron II minifigure with a grinning yellow head, patterned white torso, black airtanks and arms, and white legs.
 0 Name: 1462 - Minifig.ldr
@@ -119,6 +124,7 @@
 0 // Minifig Hand (black)
 1 0 22.823 20.5678 -17.2827 0.985 0.159724 -0.0581346 -0.17 0.925457 -0.336839 0 0.341968 0.939551 3820.dat
 
+0 STEP
 0 FILE 1462 - Minifig - Helmet.ldr
 0 A standard black minifigure helmet paired with a translucent neon green visor.
 0 Name: 1462 - Minifig - Helmet.ldr

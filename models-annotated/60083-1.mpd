@@ -9,6 +9,7 @@
 1 15 140 -8 -140 1 0 0 0 1 0 0 0 1 60083 - Driver.ldr
 
 
+0 STEP
 0 FILE 60083 - Driver.ldr
 0 A minifigure with a blue torso, dark blue legs, yellow head and hands, topped with a blue cap.
 0 Name: 60083 - Driver.ldr
@@ -38,6 +39,7 @@
 1 1 0 -56 0 1 0 0 0 1 0 0 0 1 11303.dat
 
 
+0 STEP
 0 FILE 60083 - Truck.ldr
 0 The main chassis of the truck with green body panels, black plates, Technic gears and axles, mudguards, and slope elements forming the vehicle frame.
 0 Name: 60083 - Truck.ldr
@@ -249,6 +251,7 @@
 1 15 10 -152 -70 1 0 0 0 1 0 0 0 1 98138.dat
 
 
+0 STEP
 0 FILE 60083 - Truck Front.ldr
 0 The front cab section featuring green plates, a grille, clear and orange light elements, and black curved slopes forming the hood.
 0 Name: 60083 - Truck Front.ldr
@@ -278,6 +281,7 @@
 1 0 -40 8 -20 0 0 1 0 1 0 -1 0 0 11477.dat
 
 
+0 STEP
 0 FILE 60083 - Wheel.ldr
 0 An off-road wheel assembly with a black rim and a chunky offset-centre tyre.
 0 Name: 60083 - Wheel.ldr
@@ -291,6 +295,7 @@
 1 0 0 0 0 0 0 -1 0 1 0 1 0 0 56891.dat
 
 
+0 STEP
 0 FILE 60083 - Truck Side.ldr
 0 A side panel assembly using an inverted slope, clips, pins, and plates forming a mounted detail element.
 0 Name: 60083 - Truck Side.ldr
@@ -312,6 +317,7 @@
 1 72 0 24 0 0 0 -1 0 1 0 1 0 0 15092.dat
 
 
+0 STEP
 0 FILE 60083 - Container.ldr
 0 An orange tipper container with sloped sides, end panels, and a black base plate forming the dump bed.
 0 Name: 60083 - Container.ldr
@@ -363,6 +369,7 @@
 1 0 50 -8 0 0 0 -1 0 1 0 1 0 0 4162.dat
 
 
+0 STEP
 0 FILE 60083 - Back Unit.ldr
 0 A rear unit combining orange slopes, a curved slope, handle plate, and Technic gear and pin connectors for a tilting mechanism.
 0 Name: 60083 - Back Unit.ldr
@@ -396,6 +403,7 @@
 1 71 0 2 160 1 0 0 0 1 0 0 0 1 87407.dat
 
 
+0 STEP
 0 FILE 60083 - Plough.ldr
 0 An orange snowplough blade assembly with curved hinge panels, brackets, clips, and a clear light element mounted on a long base plate.
 0 Name: 60083 - Plough.ldr
@@ -469,6 +477,7 @@
 1 25 0 -50 -8 0 0 1 -1 0 0 0 -1 0 93273.dat
 
 
+0 STEP
 0 FILE 14704.dat
 0 A 1x2 plate with a friction ball socket joint, built from cylinders, discs, chords, and rectangular primitive shapes.
 0 Name: 14704.dat
@@ -542,6 +551,7 @@
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
 
 0 !LDCAD SNAP_GEN [gender=F] [bounding=sph 8] [match=size] [placement=free]
+0 STEP
 0 FILE 18910.dat
 0 A curved 3x4x3 hinge panel composed of boxes, rectangles, cylinders, and chords forming its contoured shape.
 0 Name: 18910.dat
@@ -733,6 +743,7 @@
 5 24 40 63.703999 -34.457001 34 63.703999 -34.457001 40 53 -42 40 66 -34
 5 24 26 63.703999 -34.457001 20 63.703999 -34.457001 20 53 -42 26 66 -34
 5 24 -40 0 -10 40 0 -10 40 0 10 40 0.736 -15.22
+0 STEP
 0 FILE 15456.dat
 0 A 2x2 plate with a towball and centre hole, constructed from spheres, cylinders, cones, and discs.
 0 Name: 15456.dat
@@ -792,6 +803,7 @@
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
 
 0 !LDCAD SNAP_GEN [gender=M] [bounding=sph 8] [match=size] [placement=free]
+0 STEP
 0 FILE joint-8-socket-frica.dat
 0 A friction socket joint-8 component built from quarter sections, cylinders, discs, chords, and small cut-off spheres.
 0 Name: joint-8-socket-frica.dat
@@ -1386,6 +1398,7 @@
 5 24 -10 7.75 9 -10 -7.75 9 -9.817 7.567 9.31695 -10 7.75 -3
 5 24 -10 4 10 -10 -4 10 -9.817 4 9.68305 -10 4 15
 
+0 STEP
 0 FILE 2-4edge.dat
 0 A half-circle edge primitive defining a 0.5 radius circular outline.
 0 Name: 2-4edge.dat
@@ -1407,6 +1420,7 @@
 2 24 -0.3827 0 0.9239 -0.7071 0 0.7071
 2 24 -0.7071 0 0.7071 -0.9239 0 0.3827
 2 24 -0.9239 0 0.3827 -1 0 0
+0 STEP
 0 FILE 4-4cyl19sph40.dat
 0 A truncated cylinder primitive designed to fit a sphere, combining a cylinder with a spherical segment.
 0 Name: 4-4cyl19sph40.dat

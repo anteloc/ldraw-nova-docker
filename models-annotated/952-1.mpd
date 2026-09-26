@@ -469,6 +469,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 952 - Steering assy
 0 Steering mechanism using turntables, gear racks, technic bricks, and axles to translate rotational input into directional control.
 0 Name: 952 - Steering assy
@@ -585,6 +586,7 @@
 
 
 
+0 STEP
 0 FILE 952 - Thresher Attachment
 0 Rotating thresher drum assembly with large 40-tooth gears, technic plates and bricks, and an 8-tooth drive gear for power transmission.
 0 Name: 952 - Thresher Attachment
@@ -724,6 +726,7 @@
 
 
 
+0 STEP
 0 FILE 952 - 3739c01.dat
 0 A single large technic wheel with a wide offset-tread tyre.
 0 Name: 952 - 3739c01.dat

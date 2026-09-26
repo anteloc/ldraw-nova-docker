@@ -10,6 +10,7 @@
 1 0 -10 -56 -60 0 0 1 0 1 0 -1 0 0 2584 - motorbike.ldr
 1 0 50 0 -110 0.866 0 0.5 0 1 0 -0.5 0 0.866 2584 - minifig.ldr
 
+0 STEP
 0 FILE 2584 - motorbike.ldr
 0 A motorcycle built from a bike base with light grey plates, a black grille and handle, trans-orange flames, and red and yellow accent tiles.
 0 Name: 2584 - motorbike.ldr
@@ -40,6 +41,7 @@
 0 // Tile  1 x  1 without Groove (trans_yellow)
 1 46 -50 -14 -78 0 0 1 1 0 0 0 1 0 3070a.dat
 
+0 STEP
 0 FILE 2584 - minifig.ldr
 0 A standard minifig in all black with helmet and visor, yellow head, torso, hips, arms, hands, and legs.
 0 Name: 2584 - minifig.ldr

@@ -857,6 +857,7 @@
 1 14 -220.007 -20 -40 0 0 1 -0.989 -0.148 0 0.148 -0.99 0 57519.dat
 
 
+0 STEP
 0 FILE 42114 - gearboxframe.ldr
 0 Structural frame built from an open-center beam and connector blocks that mounts and aligns the gearbox internals.
 0 Name: 42114 - gearboxframe.ldr
@@ -890,6 +891,7 @@
 1 0 0 -40 -10 0 0 1 0 -1 0 1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 42114 - gearbox2.ldr
 0 Gear cluster of reinforced 16-tooth gears, bent beams, and axle joiners forming one stage of the transmission.
 0 Name: 42114 - gearbox2.ldr
@@ -956,6 +958,7 @@
 1 71 0 -80 -40 0 1 0 1 0 0 0 0 -1 94925.dat
 
 
+0 STEP
 0 FILE 42114 - torquelim.ldr
 0 Torque-limiting clutch assembly using inner and outer clutch halves on a cross block and bent beam to slip under overload.
 0 Name: 42114 - torquelim.ldr
@@ -982,6 +985,7 @@
 1 4 20 -40 -40 -1 0 0 0 0 -1 0 -1 0 11214.dat
 
 
+0 STEP
 0 FILE 42114 - gearbox3.ldr
 0 Multi-gear transmission stage with an open-center frame, reinforced 16-tooth gears, a clutch gear, and supporting beams and cross blocks.
 0 Name: 42114 - gearbox3.ldr
@@ -1081,6 +1085,7 @@
 1 71 0 -60 -120 -1 0 0 0 1 0 0 0 -1 26287.dat
 
 
+0 STEP
 0 FILE 42114 - gearbox4.ldr
 0 Reinforced gearbox section using paired open-center beams and long liftarms pinned together to form a rigid mounting cage.
 0 Name: 42114 - gearbox4.ldr
@@ -1148,6 +1153,7 @@
 1 14 0 20 60 0 0 1 0 -1 0 1 0 0 32525.dat
 
 
+0 STEP
 0 FILE 42114 - chassis1.ldr
 0 Central chassis beam module built around an 11x5 open-center liftarm with axle joiners and pins for mounting drivetrain components.
 0 Name: 42114 - chassis1.ldr
@@ -1195,6 +1201,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42114 - chassis1a.ldr
 0 Rear axle assembly with a 16/24-tooth differential, three bevel gears, and cross blocks for drive output.
 0 Name: 42114 - chassis1a.ldr
@@ -1240,6 +1247,7 @@
 1 19 0 -40 87 1 0 0 0 -1 0 0 0 -1 6589.dat
 
 
+0 STEP
 0 FILE 42114 - wheelsupport.ldr
 0 Live-axle wheel support using a portal axle frame, wheel hub, 24-tooth drive gear, and 8-tooth reduction gear.
 0 Name: 42114 - wheelsupport.ldr
@@ -1269,6 +1277,7 @@
 1 14 0 0 60 0 -1 0 0 0 1 -1 0 0 4519.dat
 
 
+0 STEP
 0 FILE 42114 - wheelsupport2.ldr
 0 Portal-axle wheel support with steering frame, hub, and 24-tooth/8-tooth gear reduction, mirroring wheelsupport with minor axle differences.
 0 Name: 42114 - wheelsupport2.ldr
@@ -1296,6 +1305,7 @@
 1 14 0 0 30 0 1 0 -1 0 0 0 0 1 59443.dat
 
 
+0 STEP
 0 FILE 42114 - motors.ldr
 0 Mounting structure of beams, cross blocks, and pins that holds the drive motors to the chassis frame.
 0 Name: 42114 - motors.ldr
@@ -1376,6 +1386,7 @@
 1 14 60 0 140 0 -1 0 1 0 0 0 0 1 32524.dat
 
 
+0 STEP
 0 FILE 42114 - controlPlusMotorXL-LQ-1.ldr
 0 Representation of a Control+ XL motor with cable and flexible routed wiring skin.
 0 Name: 42114 - controlPlusMotorXL-LQ-1.ldr
@@ -1428,6 +1439,7 @@
 
 
 
+0 STEP
 0 FILE 42114 - controlPlusMotorXL-LQ-1_subPart1.ldr
 0 Flexible cable-routing subpart containing the path segments for the XL motor wiring.
 0 Name: 42114 - controlPlusMotorXL-LQ-1_subPart1.ldr
@@ -1613,6 +1625,7 @@
 1 16 3.458153 200.026423 239.875515 -0.22298 3.902316 0.045353 0.004347 -0.182463 0.998953 0.974813 0.893434 0.005919 u9218.dat
 
 
+0 STEP
 0 FILE 42114 - controlPlusMotorL-LQ-1.ldr
 0 Representation of a Control+ L motor with cable and flexible routed wiring skin.
 0 Name: 42114 - controlPlusMotorL-LQ-1.ldr
@@ -1664,6 +1677,7 @@
 
 
 
+0 STEP
 0 FILE 42114 - controlPlusMotorL-LQ-1_subPart1.ldr
 0 Flexible cable-routing subpart containing the path segments for the L motor wiring.
 0 Name: 42114 - controlPlusMotorL-LQ-1_subPart1.ldr
@@ -1852,6 +1866,7 @@
 1 16 -43.52476 199.99586 239.902135 0.200158 -3.912675 -0.017588 -0.056157 0.025768 -0.998401 0.978153 0.802124 -0.053721 u9218.dat
 
 
+0 STEP
 0 FILE 42114 - linacbase1.ldr
 0 Linear-actuator base assembly using a turntable, bevel gears, crankshafts, and a hinged actuator bracket for raising a mechanism.
 0 Name: 42114 - linacbase1.ldr
@@ -1917,6 +1932,7 @@
 1 71 31.409 19.049 0.004 0 0.215 0.976 0 -0.976 0.215 1 0 0 32316.dat
 
 
+0 STEP
 0 FILE 42114 - linacbase2.ldr
 0 Second linear-actuator base, identical in construction to linacbase1, using a turntable, bevel gears, crankshafts, and actuator bracket.
 0 Name: 42114 - linacbase2.ldr
@@ -1982,6 +1998,7 @@
 1 71 31.409 19.049 -0.004 0 0.215 0.976 0 -0.976 0.215 1 0 0 32316.dat
 
 
+0 STEP
 0 FILE 42114 - cabin.ldr
 0 Large operator cab structure built from open-center beams, numerous pins, cross blocks, and liftarms forming the detailed bodywork.
 0 Name: 42114 - cabin.ldr
@@ -2628,6 +2645,7 @@
 1 71 40 -120 -180 -1 0 0 0 0 -1 0 -1 0 32054.dat
 
 
+0 STEP
 0 FILE 42114 - wheelsupport3.ldr
 0 Compact portal-axle wheel support with steering frame, hub, 24-tooth drive gear, 8-tooth reduction gear, and bushing.
 0 Name: 42114 - wheelsupport3.ldr
@@ -2653,6 +2671,7 @@
 1 71 0 0 0 -1 0 0 0 1 0 0 0 -1 3713.dat
 
 
+0 STEP
 0 FILE 42114 - steermotor.ldr
 0 Steering motor mounting bracket of beams, bent liftarms, and pins that houses the steering drive motor.
 0 Name: 42114 - steermotor.ldr
@@ -2774,6 +2793,7 @@
 1 0 0 -70 -10 0 0 -1 0 -1 0 -1 0 0 32525.dat
 
 
+0 STEP
 0 FILE 42114 - spikePrimeMotorL-LQ-1.ldr
 0 Representation of a Spike Prime / Powered Up Large Angular Motor with cable and flexible wiring skin.
 0 Name: 42114 - spikePrimeMotorL-LQ-1.ldr
@@ -2822,6 +2842,7 @@
 
 
 
+0 STEP
 0 FILE 42114 - spikePrimeMotorL-LQ-1_subPart1.ldr
 0 Flexible cable-routing subpart containing the path segments for the Spike Prime motor wiring.
 0 Name: 42114 - spikePrimeMotorL-LQ-1_subPart1.ldr
@@ -3834,6 +3855,7 @@
 1 16 83.610867 160.000587 180.002383 -0.006128 0.999749 -0.00406 -0.002918 -0.004077 -0.999987 -0.999977 -0.006115 0.002942 u9218.dat
 
 
+0 STEP
 0 FILE 42114 - cabin2.ldr
 0 Small linkage subassembly of beams, gears, and toggle joints used within or adjacent to the cabin mechanism.
 0 Name: 42114 - cabin2.ldr
@@ -3877,6 +3899,7 @@
 1 1 -60 21.213 7.071 0 0 1 -0.707 -0.707 0 0.707 -0.707 0 43093.dat
 
 
+0 STEP
 0 FILE 42114 - cabinroof.ldr
 0 Cab roof module built from a large 11x7 open-center panel and beams pinned onto cross blocks.
 0 Name: 42114 - cabinroof.ldr
@@ -3918,6 +3941,7 @@
 1 0 80 0 20 0 1 0 1 0 0 0 0 -1 32316.dat
 
 
+0 STEP
 0 FILE 42114 - engine.ldr
 0 Engine and front frame module using a large open-center beam, gears, liftarms, angle connectors, and a flexible axle joint to simulate an engine and hood structure.
 0 Name: 42114 - engine.ldr
@@ -4084,6 +4108,7 @@
 1 0 60 0 -20 0 0 -1 -1 0 0 0 1 0 18651.dat
 
 
+0 STEP
 0 FILE 42114 - mudguard1.ldr
 0 A small wheel mudguard assembly built from bent liftarms, beams, and axle pins.
 0 Name: 42114 - mudguard1.ldr
@@ -4130,6 +4155,7 @@
 1 1 -80 20 90 0 0 -1 0 -1 0 -1 0 0 43093.dat
 
 
+0 STEP
 0 FILE 42114 - mudguard1a.ldr
 0 A mudguard section using an open-center liftarm beam secured with pins and cross blocks.
 0 Name: 42114 - mudguard1a.ldr
@@ -4156,6 +4182,7 @@
 1 0 20 20 40 -1 0 0 0 -1 0 0 0 1 6536.dat
 
 
+0 STEP
 0 FILE 42114 - mudguard2.ldr
 0 A wheel mudguard assembly constructed from bent liftarms, beams, and axle pins.
 0 Name: 42114 - mudguard2.ldr
@@ -4202,6 +4229,7 @@
 1 1 80 20 90 0 0 -1 0 -1 0 -1 0 0 43093.dat
 
 
+0 STEP
 0 FILE 42114 - mudguard2a.ldr
 0 A mudguard section using an open-center liftarm beam with pins and cross blocks.
 0 Name: 42114 - mudguard2a.ldr
@@ -4228,6 +4256,7 @@
 1 0 -20 20 40 -1 0 0 0 -1 0 0 0 1 6536.dat
 
 
+0 STEP
 0 FILE 42114 - bottomfront1.ldr
 0 A lower front body panel with yellow fairing panels, a 5x11 trapezium panel, and liftarms.
 0 Name: 42114 - bottomfront1.ldr
@@ -4280,6 +4309,7 @@
 1 14 -99.32 5.16 20 -0.719 0 -0.695 0.695 0 -0.719 0 -1 0 11947.dat
 
 
+0 STEP
 0 FILE 42114 - bottomfront2.ldr
 0 A lower front body panel with yellow fairing panels, a 5x11 trapezium panel, and liftarms.
 0 Name: 42114 - bottomfront2.ldr
@@ -4332,6 +4362,7 @@
 1 14 99.32 5.16 20 -0.719 0 0.695 -0.695 0 -0.719 0 -1 0 11946.dat
 
 
+0 STEP
 0 FILE 42114 - hub.ldr
 0 The electric Control+ hub unit with mounting pins, clips, and a flex hose.
 0 Name: 42114 - hub.ldr
@@ -4371,6 +4402,7 @@
 1 80 80 20 -120 0 -1 0 0 0 1 -1 0 0 25214.dat
 
 
+0 STEP
 0 FILE 42114 - mudguard3.ldr
 0 A wheel mudguard with bent liftarms, slope bricks, and cross blocks forming an arched shape.
 0 Name: 42114 - mudguard3.ldr
@@ -4415,6 +4447,7 @@
 1 0 20 -16 12 0 0 -1 0.6 0.8 0 0.8 -0.6 0 6536.dat
 
 
+0 STEP
 0 FILE 42114 - mudguard4.ldr
 0 A wheel mudguard with bent liftarms, slope bricks, and cross blocks forming an arched shape.
 0 Name: 42114 - mudguard4.ldr
@@ -4459,6 +4492,7 @@
 1 0 -20 -16 12 0 0 1 -0.6 0.8 0 -0.8 -0.6 0 6536.dat
 
 
+0 STEP
 0 FILE 42114 - onswitchlever.ldr
 0 An on/off switch lever assembly made from axles, a cross block, and thin liftarms.
 0 Name: 42114 - onswitchlever.ldr
@@ -4484,6 +4518,7 @@
 1 0 0 -65 0 1 0 0 0 -1 0 0 0 -1 41677.dat
 
 
+0 STEP
 0 FILE 42114 - cabinrooftop.ldr
 0 A cabin roof panel composed of yellow plates, tiles, panels, and orange flex hoses.
 0 Name: 42114 - cabinrooftop.ldr
@@ -4565,6 +4600,7 @@
 1 25 -140 0 69 0 0 -1 1 0 0 0 -1 0 76289.dat
 
 
+0 STEP
 0 FILE 42114 - cabinrooftop2.ldr
 0 A secondary cabin roof section built from yellow plates, bricks, and grooved tiles.
 0 Name: 42114 - cabinrooftop2.ldr
@@ -4623,6 +4659,7 @@
 1 14 -110 -56 0 0 0 1 0 1 0 -1 0 0 3070b.dat
 
 
+0 STEP
 0 FILE 42114 - enginetop.ldr
 0 The top of an engine assembly with green beams, cylinder elbows, and grooved tiles.
 0 Name: 42114 - enginetop.ldr
@@ -4757,6 +4794,7 @@
 1 0 114 0 -20 0 -1 0 1 0 0 0 0 1 14769.dat
 
 
+0 STEP
 0 FILE 42114 - flexHose10L-1.ldr
 0 A 10L flexible hose assembly made of 23 connected hose segments.
 0 Name: 42114 - flexHose10L-1.ldr
@@ -4843,6 +4881,7 @@
 1 16 90.053252 2 5.674651 0 0.019906 0.999802 1 0 0 0 0.999802 -0.019906 57539k02.dat
 
 
+0 STEP
 0 FILE 42114 - hoodfront.ldr
 0 The front hood section with black panels, plates, a rotor, and angle connectors.
 0 Name: 42114 - hoodfront.ldr
@@ -4933,6 +4972,7 @@
 1 14 0 30 60 1 0 0 0 1 0 0 0 1 42114 - bottomfront4.ldr
 
 
+0 STEP
 0 FILE 42114 - bottomfront4.ldr
 0 A lower front structural frame with thin liftarms, cross blocks, and axle joiners.
 0 Name: 42114 - bottomfront4.ldr
@@ -5003,6 +5043,7 @@
 1 14 -65 0 -20 0 0 1 -1 0 0 0 -1 0 32123b.dat
 
 
+0 STEP
 0 FILE 42114 - engineside1.ldr
 0 An engine side panel with bent liftarms, grooved tiles, and a jet engine fan.
 0 Name: 42114 - engineside1.ldr
@@ -5066,6 +5107,7 @@
 1 0 10 0 40 0 0 -1 -1 0 0 0 1 0 46667.dat
 
 
+0 STEP
 0 FILE 42114 - engineside2.ldr
 0 A secondary engine side panel with a jet engine fan, cross blocks, and liftarms.
 0 Name: 42114 - engineside2.ldr
@@ -5110,6 +5152,7 @@
 1 0 -10 0 -20 0 0 1 -1 0 0 0 -1 0 46667.dat
 
 
+0 STEP
 0 FILE 42114 - hoodsides.ldr
 0 The combined hood side panels with angle connectors, bent liftarms, and an open-center beam.
 0 Name: 42114 - hoodsides.ldr
@@ -5314,6 +5357,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42114 - hoodside1.ldr
 0 One hood side panel with a curved yellow panel, liftarms, and cross blocks.
 0 Name: 42114 - hoodside1.ldr
@@ -5388,6 +5432,7 @@
 1 0 -32.649 -60 115.035 0 -0.316 0.949 1 0 0 0 0.949 0.316 92907.dat
 
 
+0 STEP
 0 FILE 42114 - hoodside2.ldr
 0 The opposite hood side panel with a curved yellow panel, liftarms, and cross blocks.
 0 Name: 42114 - hoodside2.ldr
@@ -5462,6 +5507,7 @@
 1 0 32.649 -60 115.035 0 0.316 -0.949 -1 0 0 0 0.949 0.316 92907.dat
 
 
+0 STEP
 0 FILE 42114 - hoodtop.ldr
 0 The top hood surface made of yellow fairing panels and beams.
 0 Name: 42114 - hoodtop.ldr
@@ -5525,6 +5571,7 @@
 1 0 53.984 0 -65.656 0 0.924 0.383 -1 0 0 0 -0.383 0.924 6632.dat
 
 
+0 STEP
 0 FILE 42114 - bonnet.ldr
 0 The bonnet assembly with large black panels, fairings, and long liftarms.
 0 Name: 42114 - bonnet.ldr
@@ -5592,6 +5639,7 @@
 1 0 -20 26.078 -85.532 0 0 1 0.985 0.174 0 -0.174 0.985 0 6632.dat
 
 
+0 STEP
 0 FILE 42114 - sidebars.ldr
 0 A side bar or railing assembly made from angle connectors and a short liftarm.
 0 Name: 42114 - sidebars.ldr
@@ -5623,6 +5671,7 @@
 1 71 0 -40 -10 0 1 0 0 0 -1 -1 0 0 4274.dat
 
 
+0 STEP
 0 FILE 42114 - rigid3mmHose-studio-1.ldr
 0 A long rigid 3mm hose assembly composed of 562 connected hose segments.
 0 Name: 42114 - rigid3mmHose-studio-1.ldr
@@ -6781,6 +6830,7 @@
 1 16 -190.383166 0 260 0 1 0 0 0 1 1 0 0 u9053.dat
 
 
+0 STEP
 0 FILE 42114 - sidemirror1.ldr
 0 Left side mirror assembly built from black Technic beams, axles, and a 2x4 tile mounted on a pin-and-axle frame.
 0 Name: 42114 - sidemirror1.ldr
@@ -6814,6 +6864,7 @@
 1 0 60 -140 0 0 0 -1 0 -1 0 -1 0 0 2825.dat
 
 
+0 STEP
 0 FILE 42114 - sidemirror2.ldr
 0 Right side mirror assembly mirroring the left, using black Technic beams, axles, and a 2x4 tile on a pin-and-axle frame.
 0 Name: 42114 - sidemirror2.ldr
@@ -6847,6 +6898,7 @@
 1 0 -60 -140 0 0 0 1 0 -1 0 1 0 0 2825.dat
 
 
+0 STEP
 0 FILE 42114 - dumpbody.ldr
 0 Large yellow dump truck body constructed from panels, bent liftarms, and beams held together by friction pins.
 0 Name: 42114 - dumpbody.ldr
@@ -7650,6 +7702,7 @@
 1 36 -70 13.846 776.769 -1 0 0 0 0 -1 0 -1 0 3069b.dat
 
 
+0 STEP
 0 FILE 42114 - dumpbodybottom.ldr
 0 Reinforced yellow base frame for the dump body using long liftarms, cross blocks, and panels connected by pins.
 0 Name: 42114 - dumpbodybottom.ldr
@@ -7810,6 +7863,7 @@
 1 14 120 -120 180 0 1 0 0.385 0 -0.923 -0.923 0 -0.385 15100.dat
 
 
+0 STEP
 0 FILE 42114 - 18575.dat
 0 Technic axle-hole component formed from a rectangular open axle boss and edge rectangles.
 0 Name: 42114 - 18575.dat
@@ -7932,6 +7986,7 @@
 0 // Rectangle with 3 Edges (main_colour)
 1 16 1.5 5.7018 0 0 0 0.5 0 1 -0.0998 -10 0 0 rect3.dat
 
+0 STEP
 0 FILE 42114 - 2654a.dat
 0 Small conical/cylindrical primitive subpart combining cones, cylinders, and a disc into a rounded stud-like shape.
 0 Name: 42114 - 2654a.dat
@@ -8005,6 +8060,7 @@
 5 24 -12.0107 3.075 -4.9751 -9.1923 3.075 -9.1923 -11.0868 3.7 -4.5924 -11.490375 1.125 -11.490375
 5 24 4.5922 3.7 11.0866 0 3.7 12 0 3.075 13 2.2962 4.7 5.5434
 
+0 STEP
 0 FILE 42114 - 62274c02.dat
 0 Technic linear actuator piston head subpart representing the internal moving piston element.
 0 Name: 42114 - 62274c02.dat
@@ -8020,6 +8076,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 62274.dat
 1 494 0 0 -19 1 0 0 0 1 0 0 0 1 42114 - u9488.dat
 
+0 STEP
 0 FILE 42114 - 46835.dat
 0 Cylindrical Technic bush/connector subpart with closed axle holes and ribbed cylinder surfaces.
 0 Name: 42114 - 46835.dat
@@ -8249,6 +8306,7 @@
 2 24 6.0411 7.7593 1 6.0411 7.7593 6
 2 24 -1.3547 9.7306 1 -1.3547 9.7306 6
 
+0 STEP
 0 FILE 42114 - 46834.dat
 0 Compact Technic axle-hole subpart with closed axle bores and rectangular box faces.
 0 Name: 42114 - 46834.dat
@@ -8331,6 +8389,7 @@
 2 24 2 -5.602 -10 0 -6 -10
 3 16 2 -5.602 -10 0 -6 -10 -2 -5.602 -10
 
+0 STEP
 0 FILE 42114 - 92909.dat
 0 Geometric primitive subpart forming a grooved pulley/wheel using concentric rings, cylinders, and cones.
 0 Name: 42114 - 92909.dat
@@ -8726,6 +8785,7 @@
 0 //NOTE current version has no solution for the nodged sphere socket (see 32494.dat), just define a fixed ori sphere for now
 0 !LDCAD SNAP_GEN [group=nudge1] [gender=F] [bounding=sph 6]
 
+0 STEP
 0 FILE 42114 - 32249.dat
 0 Technic connector subpart with peg/axle holes, rings, and cylindrical segments forming a multi-hole beam end.
 0 Name: 42114 - 32249.dat
@@ -9372,6 +9432,7 @@
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 8 2   R 6 6   R 8 2] [center=true] [slide=true]
 0 !LDCAD MIRROR_INFO [baseFlip=Y]
 
+0 STEP
 0 FILE 42114 - 69730.dat
 0 Empty placeholder submodel containing no direct pieces.
 0 Name: 42114 - 69730.dat
@@ -9386,6 +9447,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 42114 - u9367c02.dat
 1 72 0 -50 0 1 0 0 0 1 0 0 0 1 u9363.dat
 
+0 STEP
 0 FILE 42114 - 55615.dat
 0 Complex cylindrical Technic pin/connector subpart with multiple connector holes and ribbed collars.
 0 Name: 42114 - 55615.dat
@@ -9838,6 +9900,7 @@
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 8 2   R 6 16   S 8 2] [center=true] [slide=true]
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 8 2   R 6 16   S 8 2] [center=true] [slide=true]
 
+0 STEP
 0 FILE 42114 - 33299b.dat
 0 Technic axle-and-peg-hole connector subpart with semi-reduced axle holes and ring detailing.
 0 Name: 42114 - 33299b.dat
@@ -9875,6 +9938,7 @@
 4 16 6.36 10 33.637001 3.444 10 31.684999 3.062 10 32.609001 5.657 10 34.342999
 4 16 3.444 10 31.684999 0 10 31 0 10 32 3.062 10 32.609001
 
+0 STEP
 0 FILE s\42114 - 32269s01.dat
 0 Rectangular panel subpart composed of plain and edged rectangles forming a flat surface.
 0 Name: s\42114 - 32269s01.dat
@@ -9964,6 +10028,7 @@
 3 16 18.258699 2.4034 -10 17.789101 4.7663 -10 19.3403 4.9066 -10
 3 16 15.3375 12.7626 -10 14.6121 11.2123 -10 13.0227 13.0227 -10
 
+0 STEP
 0 FILE s\42114 - 32269s02.dat
 0 Cylindrical end-cap subpart with rings and rectangles forming a rounded beam termination.
 0 Name: s\42114 - 32269s02.dat
@@ -10035,6 +10100,7 @@
 4 16 11.998 -1 -10 11.998 1 -10 16.934099 1 -10 16.934099 -1 -10
 3 16 17 0 -10 16.934099 -1 -10 16.934099 1 -10
 
+0 STEP
 0 FILE 42114 - npeghol5.dat
 0 Primitive peg-hole subpart with rings, boxes, and small cylinders defining a Technic pin socket.
 0 Name: 42114 - npeghol5.dat
@@ -10089,6 +10155,7 @@
 5 24 3.4443 1 -1.6849 3.4443 0 -1.6849 6.3639 1 -3.6361 2 1 -1.397
 5 24 -3.4443 1 -1.6849 -3.4443 0 -1.6849 -6.3639 1 -3.6361 -2 1 -1.397
 
+0 STEP
 0 FILE 42114 - axl4hole.dat
 0 Axle-hole primitive subpart with toothed cylinders defining a cross-axle socket.
 0 Name: 42114 - axl4hole.dat
@@ -10117,6 +10184,7 @@
 1 16 0 0 0 -1 0 0 0 1 0 0 0 1 axlehol6.dat
 4 16 -2 1 5.602 0 1 6 0 0 6 -2 0 5.602
 
+0 STEP
 0 FILE 42114 - axl4hol2.dat
 0 Simple circular primitive subpart forming part of an axle-hole cross section.
 0 Name: 42114 - axl4hol2.dat
@@ -10135,6 +10203,7 @@
 0 // Circle 0.25 (main_colour)
 1 16 0 0 0 -6 0 0 0 1 0 0 0 -6 1-4edge.dat
 
+0 STEP
 0 FILE 42114 - axl4hol3.dat
 0 Simple circular primitive subpart forming a finer segment of an axle-hole cross section.
 0 Name: 42114 - axl4hol3.dat
@@ -10153,6 +10222,7 @@
 0 // Circle 0.125 (main_colour)
 1 16 0 0 0 2.296 0 5.543 0 1 0 -5.543 0 2.296 1-8edge.dat
 
+0 STEP
 0 FILE 42114 - npeghol3.dat
 0 Peg-hole primitive subpart with cylinders, rings, and boxes defining a Technic pin socket.
 0 Name: 42114 - npeghol3.dat
@@ -10198,6 +10268,7 @@
 0 // Box with  2 Faces without  7 Edges (main_colour)
 1 16 2.7222 0.5 -3.041 0 -0.72215 0 0.5 0 0 0 0.14395 1.5 box2-7.dat
 
+0 STEP
 0 FILE 42114 - u9367c02.dat
 0 Cable stub subpart representing a wire or hose termination with see-through blockers.
 0 Name: 42114 - u9367c02.dat
@@ -10232,6 +10303,7 @@
 4 72 -30.5 27 92 -30.5 12 92 -30.5 12 108 -30.5 27 108
 4 72 -30.5 -13 92 -30.5 -28 92 -30.5 -28 108 -30.5 -13 108
 
+0 STEP
 0 FILE s\42114 - 33299s01.dat
 0 Detailed cylindrical pin/axle-hole subpart with rings, collars, and discs forming a Technic connector.
 0 Name: s\42114 - 33299s01.dat
@@ -10500,6 +10572,7 @@
 5 24 -4.9498 0 35.050098 -4.9498 10 35.050098 -6 0 36.661999 -2.6788 0 33.5327
 5 24 4.9497 10 35.050301 4.9498 0 35.050201 6 0 36.661999 2.6788 10 33.5327
 
+0 STEP
 0 FILE s\42114 - 2654as01.dat
 0 Concentric ring and cylinder primitive subpart forming the base of a rounded stud element.
 0 Name: s\42114 - 2654as01.dat
@@ -10652,6 +10725,7 @@
 5 24 -17.553699 1.125 7.271 -17.553699 0 7.271 -14.5421 1.125 14.5417 -19 1.125 0
 5 24 -15.013 1.125 6.2186 -15.013 0 6.2186 -12.4373 1.125 12.437 -16.250401 1.125 0
 
+0 STEP
 0 FILE 42114 - stud6a.dat
 0 Hollow Technic stud primitive combining cylinders and rings into a stud shape.
 0 Name: 42114 - stud6a.dat
@@ -10710,6 +10784,7 @@
 5 24 4.142 -4 4.142 4.142 0 4.142 1.9387 -4 5.6145 5.6145 -4 1.9387
 5 24 6 -4 0 6 0 0 5.5434 -4 -2.2962 5.6145 -4 1.9387
 
+0 STEP
 0 FILE 42114 - 1-8ring35.dat
 0 A primitive-generated one-eighth ring segment at radius 35.
 0 Name: 42114 - 1-8ring35.dat
@@ -10723,6 +10798,7 @@
 4 16 33.260399 0 13.7772 25.455601 0 25.455601 24.748501 0 24.748501 32.336498 0 13.3945
 0 // Build by Primitive Generator 2
 
+0 STEP
 0 FILE 42114 - 1-8ring13.dat
 0 A primitive-generated one-eighth ring segment at radius 13.
 0 Name: 42114 - 1-8ring13.dat
@@ -10736,6 +10812,7 @@
 4 16 12.9346 0 5.3578 9.8994 0 9.8994 9.1923 0 9.1923 12.0107 0 4.9751
 0 // Build by Primitive Generator 2
 
+0 STEP
 0 FILE 42114 - u9488.dat
 0 A small cylindrical part composed of two closed cylinders and a disc cap.
 0 Name: 42114 - u9488.dat
@@ -10756,6 +10833,7 @@
 0 // Disc 1.0 (main_colour)
 1 16 0 0 -168 10 0 0 0 0 10 0 1 0 4-4disc.dat
 
+0 STEP
 0 FILE s\42114 - 46835s01.dat
 0 A curved geometric sub-part combining discs, chords, a cone, and a cylinder to form a contoured shape.
 0 Name: s\42114 - 46835s01.dat
@@ -10873,6 +10951,7 @@
 
 3 16 3.8822 -14.4887 6 4.1675 -15.6 6 0 -15.6 6
 
+0 STEP
 0 FILE s\42114 - 46834s01.dat
 0 A simple flat rectangular sub-part with two adjacent beveled edges.
 0 Name: s\42114 - 46834s01.dat
@@ -10927,6 +11006,7 @@
 3 16 0.7178 -22.1054 6 1.6965 -25.888201 6 2.1085 -21.5142 6
 4 16 -2.1085 -21.5142 -7 -0.7178 -22.1054 -7 0.7178 -22.1054 -7 2.1085 -21.5142 -7
 
+0 STEP
 0 FILE s\42114 - 46834s02.dat
 0 A cylindrical sub-part with multiple open cylinders, chords, and rings forming a ribbed or tiered tubular shape.
 0 Name: s\42114 - 46834s02.dat

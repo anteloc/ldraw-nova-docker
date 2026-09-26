@@ -1680,6 +1680,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - bottom1.ldr
 0 Lower body panel section built from black Technic panels and bent liftarms forming the underbody fairing.
 0 Name: 42056 - bottom1.ldr
@@ -1717,6 +1718,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - bottom2.ldr
 0 Mirrored lower body panel section using black Technic panels and bent liftarms forming the opposite side underbody fairing.
 0 Name: 42056 - bottom2.ldr
@@ -1754,6 +1756,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - gearboxout.ldr
 0 Outer gearbox housing with large open-center beam, bevel gears, and 8-tooth gears forming the output gear train.
 0 Name: 42056 - gearboxout.ldr
@@ -1839,6 +1842,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - gearbox1.ldr
 0 Multi-speed gearbox stage using clutch gears, 16-tooth gears, and a 20-tooth double bevel gear on axles for gear selection.
 0 Name: 42056 - gearbox1.ldr
@@ -1903,6 +1907,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - gearbox2.ldr
 0 Secondary gearbox stage with split cross blocks, 16-tooth and 24-tooth gears for an additional gear ratio.
 0 Name: 42056 - gearbox2.ldr
@@ -1960,6 +1965,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - gearshift.ldr
 0 Gear shift linkage mechanism using an open-center beam, CV joint, and flexible axle joiners to transfer shift motion.
 0 Name: 42056 - gearshift.ldr
@@ -2131,6 +2137,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - gearshift2.ldr
 0 Gear shift gate assembly with black beams, knob gears, and colored liftarm bosses forming the H-pattern selector.
 0 Name: 42056 - gearshift2.ldr
@@ -2221,6 +2228,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - gearshift3.ldr
 0 Gear shift linkage subassembly using towball pins, angle connector, and 12-tooth gears to route shift movement.
 0 Name: 42056 - gearshift3.ldr
@@ -2287,6 +2295,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - rubberBandRound-1.ldr
 0 Flexible rubber band rendered as 24 curved segments used as a tension belt around pulleys.
 0 Name: 42056 - rubberBandRound-1.ldr
@@ -2955,6 +2964,7 @@
 5 24 -16.295771 -20.52121 -13.585786 -14.881557 -20.52121 -13 -16.520618 -21.495604 -13.585786 -15.295523 -16.192101 -13.585786
 
 
+0 STEP
 0 FILE 42056 - rubberBandRound-2.ldr
 0 Flexible rubber band rendered as 38 curved segments used as a tension belt around pulleys.
 0 Name: 42056 - rubberBandRound-2.ldr
@@ -3987,6 +3997,7 @@
 5 24 -16.295771 -20.52121 -19.585787 -14.881557 -20.52121 -19 -16.494333 -21.501297 -19.585787 -15.477727 -16.517431 -19.585787
 
 
+0 STEP
 0 FILE 42056 - frontaxle.ldr
 0 Front axle assembly with portal hubs, towball joints, suspension arms, and open-center beams forming the driven steering axle.
 0 Name: 42056 - frontaxle.ldr
@@ -4191,6 +4202,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - frontaxle2.ldr
 0 Front suspension arm mounting subframe using beams and 2x6 suspension arms to support the wheel hubs.
 0 Name: 42056 - frontaxle2.ldr
@@ -4235,6 +4247,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - frontaxle3.ldr
 0 Front axle reinforcement using a 15-stud beam, bent liftarms, and suspension arms to stiffen the axle structure.
 0 Name: 42056 - frontaxle3.ldr
@@ -4291,6 +4304,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - shock-06_5L-hard-1.ldr
 0 Hard 6.5L shock absorber unit with cylinder, piston rod, and a 15-winding spring.
 0 Name: 42056 - shock-06_5L-hard-1.ldr
@@ -4340,6 +4354,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - shock-06_5L-hard-1_springMesh.ldr
 0 Coiled spring mesh for the 6.5L hard shock absorber rendered as five tapered sections with 15 windings.
 0 Name: 42056 - shock-06_5L-hard-1_springMesh.ldr
@@ -7273,6 +7288,7 @@
 5 24 -7.75 41.26981 0.18741 -7.75 40.514359 0.023241 -8.5 41.264 0 -7 41.264 0
 
 
+0 STEP
 0 FILE 42056 - dashboard.ldr
 0 Interior dashboard assembly using a smooth panel, angle connector, grooved tile, and beams forming the cockpit fascia.
 0 Name: 42056 - dashboard.ldr
@@ -7335,6 +7351,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - rearaxle.ldr
 0 Rear axle assembly with differential, 12-tooth bevel gears, portal hubs, and suspension arms forming the driven rear axle.
 0 Name: 42056 - rearaxle.ldr
@@ -7644,6 +7661,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - shock-06_5L-hard-2.ldr
 0 Hard 6.5L shock absorber unit with cylinder, piston rod, and a 15-winding spring.
 0 Name: 42056 - shock-06_5L-hard-2.ldr
@@ -7695,6 +7713,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - shock-06_5L-hard-2_springMesh.ldr
 0 Coiled spring mesh for the 6.5L hard shock absorber rendered as five tapered sections with 15 windings.
 0 Name: 42056 - shock-06_5L-hard-2_springMesh.ldr
@@ -10628,6 +10647,7 @@
 5 24 -7.75 37.337811 0.18741 -7.75 36.582359 0.023241 -8.5 37.332001 0 -7 37.332001 0
 
 
+0 STEP
 0 FILE 42056 - engine.ldr
 0 Flat-six engine assembly with cylinder heads, pistons, connecting rods, crankshaft, and cross blocks mounted on a 13-stud beam.
 0 Name: 42056 - engine.ldr
@@ -10784,6 +10804,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - engineexhaust.ldr
 0 Exhaust system routing using angle connectors, liftarms with axle holes, and cross blocks to form the exhaust pipes.
 0 Name: 42056 - engineexhaust.ldr
@@ -10874,6 +10895,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - bodyframe.ldr
 0 Main body frame structure using bent 45-degree liftarms, panels, and open-center beams forming the monocoque tub.
 0 Name: 42056 - bodyframe.ldr
@@ -11419,6 +11441,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - bodyframe2.ldr
 0 Body frame reinforcement subassembly with a 15-stud beam, towball pins, and bent liftarms for chassis bracing.
 0 Name: 42056 - bodyframe2.ldr
@@ -11462,6 +11485,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - bodyframe3.ldr
 0 Body frame section using an 11-stud beam, towball pins, and orange liftarms contributing to the rear structural frame.
 0 Name: 42056 - bodyframe3.ldr
@@ -11513,6 +11537,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - bodyframe4.ldr
 0 Structural chassis frame section built from bent liftarms, cross blocks, and axles joined with friction pins.
 0 Name: 42056 - bodyframe4.ldr
@@ -11610,6 +11635,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - bodyframe5.ldr
 0 Structural chassis frame section using bent liftarms, cross blocks, and an open-center beam pinned together.
 0 Name: 42056 - bodyframe5.ldr
@@ -11707,6 +11733,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - bodyframe6.ldr
 0 Small structural frame connector with a long orange beam, bent liftarms, and pins.
 0 Name: 42056 - bodyframe6.ldr
@@ -11747,6 +11774,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - bodyframe7.ldr
 0 Body panel mounting frame featuring large Technic panels, long beams, and friction pins.
 0 Name: 42056 - bodyframe7.ldr
@@ -11823,6 +11851,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - bodyframe8.ldr
 0 Structural frame segment with an open-center beam, angle connector, and orange liftarms.
 0 Name: 42056 - bodyframe8.ldr
@@ -11892,6 +11921,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - bodyframe9.ldr
 0 Reinforced chassis frame section with long beams, cross blocks, and bent liftarms.
 0 Name: 42056 - bodyframe9.ldr
@@ -12000,6 +12030,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - bodyframe10.ldr
 0 Structural frame segment with an open-center beam, T-shaped and bent liftarms, and cross blocks.
 0 Name: 42056 - bodyframe10.ldr
@@ -12107,6 +12138,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - technicRibHoseLQ-1.ldr
 0 Flexible ribbed hose assembly composed of end and mid segments.
 0 Name: 42056 - technicRibHoseLQ-1.ldr
@@ -12180,6 +12212,7 @@
 1 16 -46.271023 -50 -40 0 -1 0 -1 0 0 0 0 -1 79.dat
 
 
+0 STEP
 0 FILE 42056 - bodyframe11.ldr
 0 Structural frame segment with an open-center beam, T-shaped and bent liftarms, and cross blocks.
 0 Name: 42056 - bodyframe11.ldr
@@ -12289,6 +12322,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - technicRibHoseLQ-2.ldr
 0 Flexible ribbed hose assembly composed of end and mid segments.
 0 Name: 42056 - technicRibHoseLQ-2.ldr
@@ -12362,6 +12396,7 @@
 1 16 -46.271023 -50 40 0 -1 0 -1 0 0 0 0 -1 79.dat
 
 
+0 STEP
 0 FILE 42056 - seat.ldr
 0 Driver's seat built from orange bent liftarms, thin liftarms, and a smooth fairing panel.
 0 Name: 42056 - seat.ldr
@@ -12469,6 +12504,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - bumperrear.ldr
 0 Rear bumper assembly with long beams, bent liftarms, axles, and trans-red tooth elements.
 0 Name: 42056 - bumperrear.ldr
@@ -12558,6 +12594,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - bumperrear2.ldr
 0 Rear bumper detail section with angle connectors, orange fairing panels, tiles, and a plate.
 0 Name: 42056 - bumperrear2.ldr
@@ -12628,6 +12665,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - bumperrear3.ldr
 0 Rear bumper section with tail lights made of trans-red and trans-clear plates and slope bricks.
 0 Name: 42056 - bumperrear3.ldr
@@ -12786,6 +12824,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - technicFlexAxle-1.ldr
 0 Long flexible Technic axle with end connectors, approximately 150 mm.
 0 Name: 42056 - technicFlexAxle-1.ldr
@@ -14370,6 +14409,7 @@
 5 24 67.670723 -362.820953 -1.5308 66.456802 -359.485748 -1.5308 67.956764 -362.716858 0 66.855827 -363.117554 -2.8284
 
 
+0 STEP
 0 FILE 42056 - technicFlexAxle-2.ldr
 0 Flexible Technic axle with end connectors, approximately 100 mm.
 0 Name: 42056 - technicFlexAxle-2.ldr
@@ -15960,6 +16000,7 @@
 5 24 7.6956 -240.373093 40.67429 7.6956 -236.89064 38.663692 8 -239.607697 42 6.8284 -241.021896 39.550533
 
 
+0 STEP
 0 FILE 42056 - technicFlexAxle-3.ldr
 0 Flexible Technic axle with end connectors, approximately 100 mm.
 0 Name: 42056 - technicFlexAxle-3.ldr
@@ -17550,6 +17591,7 @@
 5 24 7.6956 -240.373093 40.67429 7.6956 -236.89064 38.663692 8 -239.607697 42 6.8284 -241.021896 39.550533
 
 
+0 STEP
 0 FILE 42056 - dashhold.ldr
 0 Small dashboard mounting bracket of bent and straight liftarms joined with pins.
 0 Name: 42056 - dashhold.ldr
@@ -17583,6 +17625,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - hood.ldr
 0 Front hood assembly of orange curved panels, fairings, and long orange liftarms.
 0 Name: 42056 - hood.ldr
@@ -17667,6 +17710,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - dashhold2.ldr
 0 Small dashboard mounting bracket of bent and straight liftarms joined with pins.
 0 Name: 42056 - dashhold2.ldr
@@ -17700,6 +17744,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - roof.ldr
 0 Roof structure of orange curved panels and long liftarms connected with pins and joiners.
 0 Name: 42056 - roof.ldr
@@ -17782,6 +17827,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - dashboard2.ldr
 0 Dashboard with grille tiles, curved slopes, and smooth panels mounted on beams.
 0 Name: 42056 - dashboard2.ldr
@@ -17898,6 +17944,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - frontgrid1.ldr
 0 Front grille assembly with thin liftarms, angle connectors, fairing panels, and a yellow axle.
 0 Name: 42056 - frontgrid1.ldr
@@ -17978,6 +18025,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - frontgrid2.ldr
 0 Front grille section incorporating gear racks, plates, and angle connectors on axles.
 0 Name: 42056 - frontgrid2.ldr
@@ -18033,6 +18081,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - wheelarch1.ldr
 0 Wheel arch assembly with orange mudguard panels, bent liftarms, and a fairing panel.
 0 Name: 42056 - wheelarch1.ldr
@@ -18101,6 +18150,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - frontgrid3.ldr
 0 Front grille assembly using black plates and brackets with gear racks and transparent clear plates for a vented intake appearance.
 0 Name: 42056 - frontgrid3.ldr
@@ -18174,6 +18224,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - doorleft.ldr
 0 Left door structure built from orange body panels, a bent 3x5 beam and a long liftarm pinned together with friction pins.
 0 Name: 42056 - doorleft.ldr
@@ -18225,6 +18276,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - doorleft2.ldr
 0 Left door internal linkage of angle connectors, axles and cross blocks forming a compact hinged mechanism.
 0 Name: 42056 - doorleft2.ldr
@@ -18254,6 +18306,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - doorleft3.ldr
 0 Left door exterior skin of large smooth orange panels mounted on liftarms with a toothed fairing accent.
 0 Name: 42056 - doorleft3.ldr
@@ -18299,6 +18352,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - backroof.ldr
 0 Rear roof and engine deck section combining a large black panel with thin fairings and orange support beams.
 0 Name: 42056 - backroof.ldr
@@ -18368,6 +18422,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - winghold1.ldr
 0 Left wing support bracket of curved bent liftarms and a towball joint for adjustable wing mounting.
 0 Name: 42056 - winghold1.ldr
@@ -18410,6 +18465,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - winghold2.ldr
 0 Right wing support bracket mirroring winghold1 with curved bent liftarms and a towball joint.
 0 Name: 42056 - winghold2.ldr
@@ -18452,6 +18508,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - wing.ldr
 0 Rear wing assembly built from long orange liftarms and 3x11 panels forming the aerodynamic spoiler element.
 0 Name: 42056 - wing.ldr
@@ -18530,6 +18587,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - doorright.ldr
 0 Right door structure mirroring doorleft with orange body panels, a bent beam and a long liftarm.
 0 Name: 42056 - doorright.ldr
@@ -18581,6 +18639,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - doorright2.ldr
 0 Right door internal linkage of angle connectors, axles and cross blocks forming the hinge mechanism.
 0 Name: 42056 - doorright2.ldr
@@ -18608,6 +18667,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - doorright3.ldr
 0 Right door exterior skin of large smooth orange panels mounted on liftarms with a toothed fairing accent.
 0 Name: 42056 - doorright3.ldr
@@ -18654,6 +18714,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - wheelarch2.ldr
 0 Wheel arch assembly using arched mudguard panels and bent liftarms to shape the fender over the wheel.
 0 Name: 42056 - wheelarch2.ldr
@@ -18722,6 +18783,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - frontgrid4.ldr
 0 Front grille assembly mirroring frontgrid3 with black plates, gear racks and transparent clear vent plates.
 0 Name: 42056 - frontgrid4.ldr
@@ -18795,6 +18857,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - technicFlexAxle-4.ldr
 0 Short flexible Technic axle of approximately 97 mm routed in 25 segments for bodywork contouring.
 0 Name: 42056 - technicFlexAxle-4.ldr
@@ -20361,6 +20424,7 @@
 5 24 -58.358402 -233.597366 -0.522147 -56.397518 -230.201019 -0.522147 -58.446888 -233.54628 1.035277 -58.79298 -233.346466 -1.99998
 
 
+0 STEP
 0 FILE 42056 - technicFlexAxle-5.ldr
 0 Long flexible Technic axle of approximately 150 mm routed in 55 segments for bodywork contouring.
 0 Name: 42056 - technicFlexAxle-5.ldr
@@ -21987,6 +22051,7 @@
 5 24 -123.697563 -338.794647 76.855515 -122.182793 -335.622986 75.433701 -122.868881 -338.603729 78.164268 -124.909592 -338.651886 75.882675
 
 
+0 STEP
 0 FILE 42056 - technicFlexAxle-6.ldr
 0 Long flexible Technic axle of approximately 153 mm routed in 56 segments for bodywork contouring.
 0 Name: 42056 - technicFlexAxle-6.ldr
@@ -23615,6 +23680,7 @@
 5 24 49.078339 -340.806976 -146.535324 48.048054 -337.477417 -144.613449 49.372276 -341.504028 -145.170166 48.24078 -340.352661 -147.771408
 
 
+0 STEP
 0 FILE 42056 - technicFlexAxle-7.ldr
 0 Short flexible Technic axle of approximately 96 mm routed in 36 segments for bodywork contouring.
 0 Name: 42056 - technicFlexAxle-7.ldr
@@ -25203,6 +25269,7 @@
 5 24 114.04361 -200.303162 -2.322797 111.401161 -197.660385 -2.323321 114.496887 -199.850098 -0.899711 113.239494 -201.106583 -3.392072
 
 
+0 STEP
 0 FILE 42056 - technicFlexAxle-8.ldr
 0 Long flexible Technic axle of approximately 156 mm routed in 57 segments for bodywork contouring.
 0 Name: 42056 - technicFlexAxle-8.ldr
@@ -26835,6 +26902,7 @@
 5 24 11.860054 -371.63913 -59.040634 11.503939 -368.536011 -57.252518 12.267055 -372.35553 -57.715233 10.910318 -371.10495 -60.15786
 
 
+0 STEP
 0 FILE 42056 - technicFlexAxle-9.ldr
 0 Long flexible Technic axle of approximately 156 mm routed in 57 segments for bodywork contouring.
 0 Name: 42056 - technicFlexAxle-9.ldr
@@ -28467,6 +28535,7 @@
 5 24 40.822945 -369.517456 54.808155 40.145256 -366.240204 52.909363 40.983944 -368.714569 56.13681 40.089344 -370.31842 53.687473
 
 
+0 STEP
 0 FILE 42056 - technicFlexAxle-10.ldr
 0 Long flexible Technic axle of approximately 149 mm routed in 34 segments for bodywork contouring.
 0 Name: 42056 - technicFlexAxle-10.ldr
@@ -30051,6 +30120,7 @@
 5 24 79.173767 -358.837708 2.960152 77.632179 -355.366241 3.081378 79.452011 -358.767731 4.494327 78.381073 -359.143982 1.65107
 
 
+0 STEP
 0 FILE 42056 - suitcase.ldr
 0 Luggage or storage tray built from smooth orange panels supported on liftarms and axles.
 0 Name: 42056 - suitcase.ldr
@@ -30109,6 +30179,7 @@
 
 
 
+0 STEP
 0 FILE 42056 - technicFlexAxle-11.ldr
 0 Long flexible Technic axle of approximately 149 mm routed in 37 segments for bodywork contouring.
 0 Name: 42056 - technicFlexAxle-11.ldr
@@ -31795,6 +31866,7 @@
 5 24 79.060326 -359.170074 -5.888258 77.494911 -355.64447 -5.782658 79.33857 -359.100128 -4.354083 78.267632 -359.476349 -7.19734
 
 
+0 STEP
 0 FILE 42056 - ldcRubberBandRndSeg.dat
 0 LDCad-generated rubber band segment primitive used to build a flexible band path.
 0 Name: 42056 - ldcRubberBandRndSeg.dat
@@ -31815,6 +31887,7 @@
 1 16 0 0 0 2 0 0 0 1 0 0 0 2 42056 - ldcConRing8.dat
 1 16 0 1 0 2 0 0 0 1 0 0 0 2 42056 - ldcConRing8.dat
 
+0 STEP
 0 FILE 42056 - 23801.dat
 0 Primitive part definition composed of cylinders, rings and circles forming a round Technic connector or rim element.
 0 Name: 42056 - 23801.dat
@@ -31913,6 +31986,7 @@
 0 // Technic Connector Hole One-Sided (main_colour)
 1 16 0 -20 0 -1 0 0 0 1 0 0 0 1 connhol3.dat
 
+0 STEP
 0 FILE 42056 - ldcFlexAxleEndA.dat
 0 End cap primitive for a flexible Technic axle, used to terminate a flex axle path.
 0 Name: 42056 - ldcFlexAxleEndA.dat
@@ -31930,6 +32004,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 42056 - ldcFlexAxleEndB.dat
 0 ldcFlexAxleEndB
 0 Name: 42056 - ldcFlexAxleEndB.dat
@@ -31948,6 +32023,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 42056 - ldcFlexAxleEndC.dat
 0 ldcFlexAxleEndC
 0 Name: 42056 - ldcFlexAxleEndC.dat
@@ -31966,6 +32042,7 @@
 0 // these don't seem to be worth the trouble, might add them in the future though.
 
 
+0 STEP
 0 FILE 42056 - ldcFlexAxleEndD.dat
 0 ldcFlexAxleEndD
 0 Name: 42056 - ldcFlexAxleEndD.dat
@@ -31984,6 +32061,7 @@
 0 // these don't seem to be worth the trouble, might add them in the future though.
 
 
+0 STEP
 0 FILE 42056 - ldcFlexAxleEndE.dat
 0 ldcFlexAxleEndE
 0 Name: 42056 - ldcFlexAxleEndE.dat
@@ -32002,6 +32080,7 @@
 0 // these don't seem to be worth the trouble, might add them in the future though.
 
 
+0 STEP
 0 FILE 42056 - ldcFlexAxleEndF.dat
 0 ldcFlexAxleEndF
 0 Name: 42056 - ldcFlexAxleEndF.dat
@@ -32020,6 +32099,7 @@
 0 // these don't seem to be worth the trouble, might add them in the future though.
 
 
+0 STEP
 0 FILE 42056 - ldcFlexAxleEndG.dat
 0 ldcFlexAxleEndG
 0 Name: 42056 - ldcFlexAxleEndG.dat
@@ -32038,6 +32118,7 @@
 0 // these don't seem to be worth the trouble, might add them in the future though.
 
 
+0 STEP
 0 FILE 42056 - 33299b.dat
 0 33299b
 0 Name: 42056 - 33299b.dat
@@ -32076,6 +32157,7 @@
 4 16 3.444 10 31.684999 0 10 31 0 10 32 3.062 10 32.609001
 
 
+0 STEP
 0 FILE s\42056 - 32269s01.dat
 0 32269s01
 0 Name: s\42056 - 32269s01.dat
@@ -32165,6 +32247,7 @@
 3 16 18.258699 2.4034 -10 17.789101 4.7663 -10 19.3403 4.9066 -10
 3 16 15.3375 12.7626 -10 14.6121 11.2123 -10 13.0227 13.0227 -10
 
+0 STEP
 0 FILE s\42056 - 32269s02.dat
 0 32269s02
 0 Name: s\42056 - 32269s02.dat
@@ -32236,6 +32319,7 @@
 4 16 11.998 -1 -10 11.998 1 -10 16.934099 1 -10 16.934099 -1 -10
 3 16 17 0 -10 16.934099 -1 -10 16.934099 1 -10
 
+0 STEP
 0 FILE 42056 - ldcCyli8.dat
 0 ldcCyli8
 0 Name: 42056 - ldcCyli8.dat
@@ -32265,6 +32349,7 @@
 5 24 -1 0 0 -1 1 0 -0.707107 0 -0.707107 -0.707107 0 0.707107
 5 24 -0.707107 0 0.707107 -0.707107 1 0.707107 -1 0 0 0 0 1
 
+0 STEP
 0 FILE 42056 - ldcConRing8.dat
 0 ldcConRing8
 0 Name: 42056 - ldcConRing8.dat
@@ -32288,6 +32373,7 @@
 5 24 -1 0 0 -0.707107 0 0.707107 -1 -1 0 -1 1 0
 5 24 -0.707107 0 0.707107 0 0 1 -0.707107 -1 0.707107 -0.707107 1 0.707107
 
+0 STEP
 0 FILE s\42056 - 23801s01.dat
 0 23801s01
 0 Name: s\42056 - 23801s01.dat
@@ -32774,6 +32860,7 @@
 3 16 9.6 -13.4026 -3.4442 8.3149 -14.2614 -3.4442 6.42908 -15.5212 -6.3
 5 24 6.42908 -15.5212 -15 6.42908 -15.5212 -6.3 9.5671 -13.4246 -15 -0.000136 -16.800446 -15
 
+0 STEP
 0 FILE s\42056 - 33299s01.dat
 0 33299s01
 0 Name: s\42056 - 33299s01.dat

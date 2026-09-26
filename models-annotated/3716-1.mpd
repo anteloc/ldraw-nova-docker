@@ -24,6 +24,7 @@
 1 4 120 -75.868 58.009 0 -1 0 0.707 0 0.707 -0.707 0 0.707 3716 - 4609.dat
 0 // Tile  2 x  2 with Letter with "FABULAND" Text and "1" Stamp Pattern (white)
 1 15 64 -56.393 31.753 0 -1 0 -0.259 0 -0.966 0.966 0 -0.259 3716 - 3068bpfi.dat
+0 STEP
 0 FILE 3716 - fox.ldr
 0 An empty reference submodel with no direct pieces.
 0 Name: 3716 - fox.ldr
@@ -37,6 +38,7 @@
 1 4 -10 -37 4 1 0 0 0 0 1 0 -1 0 u9100.dat
 1 4 10 -37 4 1 0 0 0 0 1 0 -1 0 u9100.dat
 1 4 0 -37 4 1 0 0 0 0.985 0.174 0 -0.174 0.985 u9103.dat
+0 STEP
 0 FILE 3716 - 4610.dat
 0 A detailed part composed of spheres, circles, cylinders, and cones forming rounded geometric shapes, likely defining the Fabuland telephone base.
 0 Name: 3716 - 4610.dat
@@ -164,6 +166,7 @@
 5 24 16.6 -11 -28.700001 -16.6 -11 -28.700001 -17 -8 -29 16.6 -12.6187 -27.8769
 5 24 16.6 -12.6187 -27.8769 -16.6 -12.6187 -27.8769 -16.6 -11 -28.700001 -14.0194 -32.618698 0.1231
 5 24 14.0194 -32.618698 0.1231 -14.0194 -32.618698 0.1231 -16.6 -12.6187 -27.8769 7 -34.350498 1.9157
+0 STEP
 0 FILE 3716 - 4609.dat
 0 A part built from cylinders, spheres, rings, and chords forming smooth curved geometry, likely defining the Fabuland chair.
 0 Name: 3716 - 4609.dat
@@ -430,6 +433,7 @@
 5 24 30.3365 -2.2091 -0.3827 32.070999 -1.4142 0 30.4126 -2.1892 0 30.119699 -2.2901 -0.7071
 5 24 28.7055 -2.8882 0.7071 29.393 -2.2558 4.393 29.0299 -2.7492 0.9239 25 -3.6956 3.827
 5 24 29.7953 -2.4215 -0.9239 29.393 -2.2558 -4.393 29.4126 -2.5832 -1 30.119699 -2.2901 -0.7071
+0 STEP
 0 FILE 3716 - 3068bpfi.dat
 0 An empty reference submodel with no direct pieces.
 0 Name: 3716 - 3068bpfi.dat
@@ -1198,6 +1202,7 @@
 3 16 -10.2 0 11.6 -9.1 0 11.4 -8.1 0 11.5
 4 16 -14.95 0 -3.85 -14.9 0 -3.4 -16.85 0 16.549999 -16.5 0 -14.15
 3 0 2.15 0 2.8 1.05 0 2.8 1.85 0 2.2
+0 STEP
 0 FILE s\3716 - 4610s01.dat
 0 A sub-part composed of spheres, circles, and graduated cones forming tapered rounded geometry for a portion of the telephone.
 0 Name: s\3716 - 4610s01.dat

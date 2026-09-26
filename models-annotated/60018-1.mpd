@@ -13,6 +13,7 @@
 1 4 210 14 380 0.707 0 0.707 0 1 0 -0.707 0 0.707 60018 - Worker.ldr
 
 
+0 STEP
 0 FILE 60018 - Mixer.ldr
 0 The rotating mixing drum assembly built from two large half-cylinders joined by pins on a red round plate base.
 0 Name: 60018 - Mixer.ldr
@@ -40,6 +41,7 @@
 
 
 
+0 STEP
 0 FILE 60018 - Wheelbarrow.ldr
 0 A red wheelbarrow with a single white wheel, black tyre, and round plates for attachment.
 0 Name: 60018 - Wheelbarrow.ldr
@@ -61,6 +63,7 @@
 
 
 
+0 STEP
 0 FILE 60018 - Cement Mixer.ldr
 0 The cement mixer drum housing unit with yellow side panels, blue steering wheel, red cup, clear windscreen, and doors mounted on the truck bed.
 0 Name: 60018 - Cement Mixer.ldr
@@ -240,6 +243,7 @@
 
 
 
+0 STEP
 0 FILE 60018 - Truck.ldr
 0 The main truck chassis built from long light bluish grey plates, white panels, eight wheel pins, black mudguards, and assorted structural bricks.
 0 Name: 60018 - Truck.ldr
@@ -409,6 +413,7 @@
 
 
 
+0 STEP
 0 FILE 60018 - Truck Engine.ldr
 0 The truck engine grille assembly with a vented tile grille and red handles mounted on a red side-stud brick.
 0 Name: 60018 - Truck Engine.ldr
@@ -429,6 +434,7 @@
 
 
 
+0 STEP
 0 FILE 60018 - Truck Rear.ldr
 0 The rear of the truck featuring red and orange round lights, a white license plate tile, and a dark bluish grey support plate.
 0 Name: 60018 - Truck Rear.ldr
@@ -456,6 +462,7 @@
 
 
 
+0 STEP
 0 FILE 60018 - Truck Side LH.ldr
 0 The left-hand side panel of the truck with a light bluish grey brick, grooved tiles, and a black slope detail.
 0 Name: 60018 - Truck Side LH.ldr
@@ -479,6 +486,7 @@
 
 
 
+0 STEP
 0 FILE 60018 - Truck Side RH.ldr
 0 The right-hand side panel of the truck consisting of a light bluish grey brick and a long grooved tile.
 0 Name: 60018 - Truck Side RH.ldr
@@ -494,6 +502,7 @@
 
 
 
+0 STEP
 0 FILE 60018 - Truck Fitting.ldr
 0 A yellow fitting assembly with clips and handles attached to a long grooved tile, used to mount accessories on the truck.
 0 Name: 60018 - Truck Fitting.ldr
@@ -520,6 +529,7 @@
 
 
 
+0 STEP
 0 FILE 60018 - Truck Front Bumper.ldr
 0 The front bumper of the truck with clear headlight plates, a door rail bar, a grooved tile, and angled slope pieces.
 0 Name: 60018 - Truck Front Bumper.ldr
@@ -548,6 +558,7 @@
 
 
 
+0 STEP
 0 FILE 60018 - Cabin Roof.ldr
 0 The cabin roof featuring a large yellow curved slope, a white plate, a black plate, and translucent orange light tiles.
 0 Name: 60018 - Cabin Roof.ldr
@@ -573,6 +584,7 @@
 
 
 
+0 STEP
 0 FILE 60018 - Truck Ramp.ldr
 0 A yellow ramp assembly with hinged plates and a large hinged panel, allowing it to pivot and fold.
 0 Name: 60018 - Truck Ramp.ldr
@@ -596,6 +608,7 @@
 
 
 
+0 STEP
 0 FILE 60018 - Mixer Rear RH.ldr
 0 The right rear mixer fairing built from a yellow wing piece and two hinged plate sections.
 0 Name: 60018 - Mixer Rear RH.ldr
@@ -617,6 +630,7 @@
 
 
 
+0 STEP
 0 FILE 60018 - Mixer Rear.ldr
 0 The rear mixer body with curved dark bluish grey slopes and yellow brackets mounted on a base plate.
 0 Name: 60018 - Mixer Rear.ldr
@@ -646,6 +660,7 @@
 
 
 
+0 STEP
 0 FILE 60018 - Mixer Rear LH.ldr
 0 The left rear mixer fairing built from a yellow wing piece and two hinged plate sections.
 0 Name: 60018 - Mixer Rear LH.ldr
@@ -667,6 +682,7 @@
 
 
 
+0 STEP
 0 FILE 60018 - Mixer Gear.ldr
 0 The mechanical gear mechanism with a turntable, gearbox, bevel gears, axles, and a reinforced round brick driving the mixer drum.
 0 Name: 60018 - Mixer Gear.ldr
@@ -715,6 +731,7 @@
 
 
 
+0 STEP
 0 FILE 60018 - Mixer Gear Top.ldr
 0 The top cover of the mixer gear with yellow handles, a dark bluish grey curved slope, and a jet engine element with axle hole.
 0 Name: 60018 - Mixer Gear Top.ldr
@@ -739,6 +756,7 @@
 
 
 
+0 STEP
 0 FILE 60018 - Worker.ldr
 0 A construction worker minifigure wearing a red helmet, glasses with a brown beard, orange safety-striped jacket over a blue shirt, dark tan legs, and carrying a shovel.
 0 Name: 60018 - Worker.ldr
@@ -773,6 +791,7 @@
 
 
 
+0 STEP
 0 FILE 60018 - Driver.ldr
 0 A truck driver minifigure wearing a black cap, blue shirt with orange dungarees, blue arms, and orange legs.
 0 Name: 60018 - Driver.ldr

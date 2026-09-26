@@ -7,6 +7,7 @@
 1 71 0 0 0 1 0 0 0 1 0 0 0 1 6743 - SpeedCar.ldr
 
 
+0 STEP
 0 FILE 6743 - SpeedCar.ldr
 0 Low-slung green racing car chassis with sloped bodywork, grey support plates, and pin-connected bricks.
 0 Name: 6743 - SpeedCar.ldr
@@ -279,6 +280,7 @@
 1 256 -60 -14 180 0 0 1 0 1 0 -1 0 0 30648.dat
 
 
+0 STEP
 0 FILE 6743 - Side.ldr
 0 Small side detail assembly with a black grille tile and a white grooved tile on a grey plate.
 0 Name: 6743 - Side.ldr
@@ -294,6 +296,7 @@
 1 15 -30 -8 0 1 0 0 0 1 0 0 0 1 3070b.dat
 
 
+0 STEP
 0 FILE 6743 - Exhaust.ldr
 0 Rear exhaust detail featuring a trans-orange round plate clipped between two black U-clips.
 0 Name: 6743 - Exhaust.ldr
@@ -309,6 +312,7 @@
 1 0 0 -16 0 1 0 0 0 1 0 0 0 1 4085c.dat
 
 
+0 STEP
 0 FILE 6743 - Windscreen.ldr
 0 Angled transparent windscreen constructed from clear slopes and plates on a black frame.
 0 Name: 6743 - Windscreen.ldr

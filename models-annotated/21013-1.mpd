@@ -486,6 +486,7 @@
 1 16 40 -344 -10 -1 0 0 0 1 0 0 0 -1 21013 - Sub-Assy 52.ldr
 1 16 20 -344 -30 0 0 1 0 1 0 -1 0 0 21013 - Sub-Assy 52.ldr
 
+0 STEP
 0 FILE 21013 - Sub-Assy 28.ldr
 0 A small black accent piece combining a four-sided stud brick with a dark bluish-grey grooved tile, likely a decorative detail or finial.
 0 Name: 21013 - Sub-Assy 28.ldr
@@ -502,6 +503,7 @@
 1 72 18 0 0 0 -1 0 1 0 0 0 0 1 3069b.dat
 
 
+0 STEP
 0 FILE 21013 - Sub-Assy 51.ldr
 0 A multi-piece tower spire assembly built from tan and dark bluish-grey plates, a convex slope, and a cone stop, forming a tapered ornamental pinnacle.
 0 Name: 21013 - Sub-Assy 51.ldr
@@ -590,6 +592,7 @@
 1 72 0 0 0 1 0 0 0 1 0 0 0 1 59900.dat
 
 
+0 STEP
 0 FILE 21013 - Sub-Assy 52.ldr
 0 A clock face element consisting of a round white clock-pattern tile mounted on a tan 2x2 plate.
 0 Name: 21013 - Sub-Assy 52.ldr
@@ -606,6 +609,7 @@
 1 15 0 10 -26 1 0 0 0 0 -1 0 1 0 4150p03.dat
 
 
+0 STEP
 0 FILE 21013 - Sub-Assy 34.ldr
 0 A small angled detail combining a tan plate with a dark bluish-grey double 45-degree slope, likely a roof or cornice section.
 0 Name: 21013 - Sub-Assy 34.ldr
@@ -622,6 +626,7 @@
 1 72 0 0 0 0 0 1 0 1 0 -1 0 0 3044b.dat
 
 
+0 STEP
 0 FILE 21013 - Sub-Assy 20.ldr
 0 A window-like detail made from a tan plate topped with a grooved grille tile, resembling a louvered vent or decorative grille.
 0 Name: 21013 - Sub-Assy 20.ldr
@@ -639,6 +644,7 @@
 1 19 0 20 -26 0 0 1 1 0 0 0 1 0 2412b.dat
 
 
+0 STEP
 0 FILE 21013 - Sub-Assy 38.ldr
 0 A simple pair of tan round hollow-stud bricks, likely forming a small ornamental column or railing detail.
 0 Name: 21013 - Sub-Assy 38.ldr
@@ -656,6 +662,7 @@
 1 19 0 0 0 1 0 0 0 1 0 0 0 1 3062b.dat
 
 
+0 STEP
 0 FILE 21013 - Sub-Assy 33.ldr
 0 A decorative finial assembly combining a tan plate and cones with dark bluish-grey accent tiles, forming a small ornamental top.
 0 Name: 21013 - Sub-Assy 33.ldr
@@ -679,6 +686,7 @@
 1 72 0 8 0 1 0 0 0 1 0 0 0 1 3070b.dat
 
 
+0 STEP
 0 FILE 21013 - Sub-Assy 29.ldr
 0 A smooth detail pairing a tan plate with a grooved tan tile, forming a flat tiled surface or trim section.
 0 Name: 21013 - Sub-Assy 29.ldr
@@ -695,6 +703,7 @@
 1 19 0 20 -26 0 0 1 1 0 0 0 1 0 3069b.dat
 
 
+0 STEP
 0 FILE 21013 - Sub-Assy 32.ldr
 0 An ornamental pinnacle assembly using tan plates and a cone with dark bluish-grey accent tiles, forming a small decorative spire top.
 0 Name: 21013 - Sub-Assy 32.ldr

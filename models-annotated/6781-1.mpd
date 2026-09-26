@@ -12,6 +12,7 @@
 1 0 -149.28 -65.87 -312.048 -0.173631 0 0.98478 0 1 0 -0.98478 0 -0.173631 6781 - Minifig 1.ldr
 
 
+0 STEP
 0 FILE 6781 - Spaceship.ldr
 0 The main fuselage of a black-and-blue spaceship built from large wing plates, inverted slopes, and grooved tiles forming a sleek hull with corner plates.
 0 Name: 6781 - Spaceship.ldr
@@ -194,6 +195,7 @@
 1 0 0 -40 -170 1 0 0 0 1 0 0 0 1 6781 - Spaceship - Tail.ldr
 
 
+0 STEP
 0 FILE 6781 - Spaceship - Laser 1.ldr
 0 A laser cannon assembly featuring an inverted red dish, a blue antenna, and headlight bricks mounted on a cornerless plate.
 0 Name: 6781 - Spaceship - Laser 1.ldr
@@ -222,6 +224,7 @@
 
 
 
+0 STEP
 0 FILE 6781 - Spaceship - Laser 2.ldr
 0 A laser cannon assembly featuring an inverted red dish, a blue antenna, and headlight bricks mounted on a cornerless plate.
 0 Name: 6781 - Spaceship - Laser 2.ldr
@@ -250,6 +253,7 @@
 
 
 
+0 STEP
 0 FILE 6781 - Spaceship - Wing 1.ldr
 0 A right-side spaceship wing built around a large wing element with hinge plates, corner plates, and a grille tile detail.
 0 Name: 6781 - Spaceship - Wing 1.ldr
@@ -280,6 +284,7 @@
 
 
 
+0 STEP
 0 FILE 6781 - Spaceship - Wing 2.ldr
 0 A left-side spaceship wing built around a large wing element with hinge plates, corner plates, and a grille tile detail.
 0 Name: 6781 - Spaceship - Wing 2.ldr
@@ -310,6 +315,7 @@
 
 
 
+0 STEP
 0 FILE 6781 - Spaceship - Hinge.ldr
 0 A small blue hinge mechanism using a top hinge, a plate, and a tile with handle for articulation.
 0 Name: 6781 - Spaceship - Hinge.ldr
@@ -328,6 +334,7 @@
 
 
 
+0 STEP
 0 FILE 6781 - Spaceship - Tail.ldr
 0 The spaceship's tail section housing a 9V battery box, light-and-sound computer console, and illuminated contact plates with translucent red lights.
 0 Name: 6781 - Spaceship - Tail.ldr
@@ -403,6 +410,7 @@
 0 // Tile  1 x  2 with Groove (black)
 1 0 0 -144 160 1 0 0 0 1 0 0 0 1 3069b.dat
 
+0 STEP
 0 FILE 6781 - Spaceship - Tail - Top.ldr
 0 The upper tail structure featuring two light-and-sound bricks with three lights each, twin wing panels, grille tiles, and translucent red accent bricks.
 0 Name: 6781 - Spaceship - Tail - Top.ldr
@@ -451,6 +459,7 @@
 0 // Brick  1 x  6 without Centre Studs (trans_red)
 1 36 80 10 -74 1 0 0 0 0 -1 0 1 0 3067.dat
 
+0 STEP
 0 FILE 6781 - Spaceship - Tail - Top - Arrow 1.ldr
 0 A directional arrow indicator with a dark-red arrow patterned tile, red antenna, and torch mounted via a clip plate.
 0 Name: 6781 - Spaceship - Tail - Top - Arrow 1.ldr
@@ -474,6 +483,7 @@
 1 36 0 10 -78 0 0 -1 1 0 0 0 -1 0 3957a.dat
 
 
+0 STEP
 0 FILE 6781 - Spaceship - Tail - Top - Arrow 2.ldr
 0 A directional arrow indicator with a dark-red arrow patterned tile, red antenna, and torch mounted via a clip plate.
 0 Name: 6781 - Spaceship - Tail - Top - Arrow 2.ldr
@@ -498,6 +508,7 @@
 
 
 
+0 STEP
 0 FILE 6781 - Jail.ldr
 0 A prisoner containment pod with barred window panels, Space Police patterned side panels, and a hinged door made of blue bricks and plates.
 0 Name: 6781 - Jail.ldr
@@ -550,6 +561,7 @@
 1 0 -36 -100 0 0 0 -1 0 1 0 1 0 0 6781 - Jail - Door.ldr
 
 
+0 STEP
 0 FILE 6781 - Jail - Door.ldr
 0 A barred jail door built from a hinged slope, vertical bars, and red antenna elements serving as the cell bars.
 0 Name: 6781 - Jail - Door.ldr
@@ -587,6 +599,7 @@
 1 36 30 84 -66 -1 0 0 0 1 0 0 0 -1 3957a.dat
 
 
+0 STEP
 0 FILE 6781 - Jail + Minifig.ldr
 0 An assembly combining the jail pod with a captured minifigure inside.
 0 Name: 6781 - Jail + Minifig.ldr
@@ -600,6 +613,7 @@
 1 0 -8 -45 0 0 0 -1 0 1 0 1 0 0 6781 - Minifig 2.ldr
 
 
+0 STEP
 0 FILE 6781 - Minifig 1.ldr
 0 A Space Police minifigure with a white Futuron-pattern torso, black airtanks, and a standard grin head.
 0 Name: 6781 - Minifig 1.ldr
@@ -632,6 +646,7 @@
 1 15 -22.2802 17.4225 -19.2153 0.985 -0.167392 0.0295157 0.17 0.969889 -0.171018 0 0.173622 0.984659 3820.dat
 
 
+0 STEP
 0 FILE 6781 - Minifig 1 - Helmet.ldr
 0 A white standard minifigure helmet with a translucent red visor.
 0 Name: 6781 - Minifig 1 - Helmet.ldr
@@ -648,6 +663,7 @@
 
 
 
+0 STEP
 0 FILE 6781 - Minifig 2.ldr
 0 A captured Blacktron minifigure with a black Blacktron-pattern torso, black airtanks, and a standard grin head.
 0 Name: 6781 - Minifig 2.ldr
@@ -680,6 +696,7 @@
 1 0 0 44 0 1 0 0 0 0 1 0 -1 0 3817.dat
 
 
+0 STEP
 0 FILE 6781 - Minifig 2 - Helmet.ldr
 0 A black standard minifigure helmet with a black visor.
 0 Name: 6781 - Minifig 2 - Helmet.ldr

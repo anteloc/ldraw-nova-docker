@@ -16,6 +16,7 @@
 
 
 
+0 STEP
 0 FILE 9394 - 9394-2.ldr
 0 Primary structural airframe built predominantly from red Technic liftarms, beams, pins, axles, and cross blocks forming the plane's fuselage and wings.
 0 Name: 9394 - 9394-2.ldr
@@ -1110,6 +1111,7 @@
 
 
 
+0 STEP
 0 FILE 9394 - LS50.dat
 0 Small circular assembly of cylinders, disks, and rings forming a smooth wheel or rounded hub component.
 0 Name: 9394 - LS50.dat
@@ -1141,6 +1143,7 @@
 1 16 0 1 0 2 0 0 0 -1 0 0 0 -2 4-4ring1.dat
 
 
+0 STEP
 0 FILE 9394 - LS51.dat
 0 Compact circular component made of cylinders and rings, likely a smaller wheel or rounded bushing.
 0 Name: 9394 - LS51.dat
@@ -1168,6 +1171,7 @@
 1 16 0 1 0 2 0 0 0 -1 0 0 0 2 4-4ring1.dat
 
 
+0 STEP
 0 FILE 9394 - LS40.dat
 0 Placeholder LSynth reference part with no physical bricks, representing a generated flexible element.
 0 Name: 9394 - LS40.dat
@@ -1194,6 +1198,7 @@
 1 16 0 0 0 0 1 0 1 0 0 0 0 -1 s\faxle5.dat
 
 
+0 STEP
 0 FILE 9394 - LS41.dat
 0 LSynth flexible Technic axle cross-section composed of axle end surfaces and a perimeter element for rendering smooth flexible axles.
 0 Name: 9394 - LS41.dat

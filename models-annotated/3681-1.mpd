@@ -27,6 +27,7 @@
 1 15 544 -84 40 0 -1 0 0 0 -1 1 0 0 3681 - 3681 - 3068bpfd.dat
 0 // Tile  2 x  2 with Fabuland "5" on Yellow and Red Background Pattern (white)
 1 15 494 -59 -62 0 -1 0 -0.259 0 -0.966 0.966 0 -0.259 3681 - 3681 - 3068bpfe.dat
+0 STEP
 0 FILE 3681 - 3681 - ferriswheel.ldr
 0 Fabuland ferris wheel built on a green baseplate with red and yellow structural panels, axle supports, doors, and round hollowed bricks forming the wheel.
 0 Author: Philippe Hurbain [Philo]
@@ -108,6 +109,7 @@
 1 1 150 -263 50 0 0 1 0 1 0 -1 0 0 4495a.dat
 0 // Flag  4 x  1 with First Wave Left (green)
 1 2 150 -263 150 0 0 1 0 1 0 -1 0 0 4495a.dat
+0 STEP
 0 FILE 3681 - 3681 - slide.ldr
 0 Fabuland playground slide structure on a green baseplate with blue windowed panels, blue bricks, a yellow staircase, fences, and roof slopes.
 0 Author: Philippe Hurbain [Philo]
@@ -201,6 +203,7 @@
 1 14 -130 0 60 0 0 1 0 1 0 -1 0 0 3681 - 3681 - 4784.dat
 0 // Fabuland Slide (yellow)
 1 14 570 0 80 0 0 -1 0 1 0 1 0 0 4876.dat
+0 STEP
 0 FILE 3681 - 3681 - merry.ldr
 0 Fabuland merry-go-round on a green baseplate with red platform and base, umbrellas, a table, a chair, and support bars.
 0 Author: Philippe Hurbain [Philo]
@@ -223,6 +226,7 @@
 1 14 100 -48 -20 1 0 0 0 1 0 0 0 1 4095.dat
 0 // Fabuland Umbrella (yellow)
 1 14 100 -176 -20 1 0 0 0 1 0 0 0 1 4094a.dat
+0 STEP
 0 FILE 3681 - 3681 - cathycat.ldr
 0 Empty submodel assembly with no directly-listed pieces.
 0 Author: Philippe Hurbain [Philo]
@@ -234,6 +238,7 @@
 1 4 -10 -37 4 1 0 0 0 0 1 0 -1 0 u9100.dat
 1 4 10 -37 4 1 0 0 0 0 1 0 -1 0 u9100.dat
 1 4 0 -37 4 1 0 0 0 1 0 0 0 1 u9103.dat
+0 STEP
 0 FILE 3681 - 3681 - mikemonkey.ldr
 0 Empty submodel assembly with no directly-listed pieces.
 0 Author: Philippe Hurbain [Philo]
@@ -245,6 +250,7 @@
 1 1 -10 -37 4 1 0 0 0 0.707 0.707 0 -0.707 0.707 u9100.dat
 1 1 10 -37 4 1 0 0 0 0.707 0.707 0 -0.707 0.707 u9100.dat
 1 4 0 -37 4 1 0 0 0 1 0 0 0 1 u9103.dat
+0 STEP
 0 FILE 3681 - 3681 - freddyfox.ldr
 0 Empty submodel assembly with no directly-listed pieces.
 0 Author: Philippe Hurbain [Philo]
@@ -256,6 +262,7 @@
 1 4 -10 -37 4 1 0 0 0 0.866 0.5 0 -0.5 0.866 u9100.dat
 1 4 10 -37 4 1 0 0 0 1 0 0 0 1 u9100.dat
 1 4 0 -37 4 1 0 0 0 1 0 0 0 1 u9103.dat
+0 STEP
 0 FILE 3681 - 3681 - rickyraccoon.ldr
 0 Empty submodel assembly with no directly-listed pieces.
 0 Author: Philippe Hurbain [Philo]
@@ -267,6 +274,7 @@
 1 0 -10 -47.708 35.964 1 0 0 0 0.5 0.866 0 -0.866 0.5 u9100.dat
 1 0 10 -47.708 35.964 1 0 0 0 0.5 0.866 0 -0.866 0.5 u9100.dat
 1 4 0 -47.708 35.964 1 0 0 0 0.866 -0.5 0 0.5 0.866 u9103.dat
+0 STEP
 0 FILE 3681 - 3681 - 4429.dat
 0 Figure flask with handle modeled from primitive cylinders, circles, chords, spheres, and sloped surfaces forming a basket-like vessel.
 0 Name: 4429.dat
@@ -1234,6 +1242,7 @@
 2 24 0 31.932199 18.2885 0.8103 32.304401 18.355499
 2 24 -1.8768 33 18.556801 -1.5308 32.656399 18.4095
 2 24 -1.5308 32.656399 18.4095 0 31.932199 18.288401
+0 STEP
 0 FILE 3681 - 3681 - 3068bpfd.dat
 0 Decorative 2x2 tile with a Fabuland '5' pattern on an orange and green background.
 0 Name: 3068bpfd.dat
@@ -1249,6 +1258,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\3681 - 3681 - 3068bpfds01.dat
 1 25 0 0 0 1 0 0 0 1 0 0 0 1 s\3681 - 3681 - 3068bpfds02.dat
 1 2 0 0 0 1 0 0 0 1 0 0 0 1 s\3681 - 3681 - 3068bpfds03.dat
+0 STEP
 0 FILE 3681 - 3681 - 3068bpfe.dat
 0 Decorative 2x2 tile with a Fabuland '5' pattern on a yellow and red background.
 0 Name: 3068bpfe.dat
@@ -1264,6 +1274,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\3681 - 3681 - 3068bpfds01.dat
 1 14 0 0 0 1 0 0 0 1 0 0 0 1 s\3681 - 3681 - 3068bpfds02.dat
 1 4 0 0 0 1 0 0 0 1 0 0 0 1 s\3681 - 3681 - 3068bpfds03.dat
+0 STEP
 0 FILE 3681 - 3681 - 4779.dat
 0 Fabuland ferris wheel axle modeled from boxes, rectangles, a circle, disc, and cylinder primitives forming a knurled shaft.
 0 Name: 4779.dat
@@ -1484,6 +1495,7 @@
 2 24 0 55 15.2 1.1481 55.228298 15.1243
 2 24 3 58 14.8673 2.7717 56.851898 14.9126
 2 24 2.1213 55.8787 15.0419 2.7717 56.851898 14.9126
+0 STEP
 0 FILE 3681 - 3681 - 4782.dat
 0 Fabuland ferris wheel seat modeled from cylinders, chords, discs, rectangles, and boxes forming a bucket-style seat.
 0 Name: 4782.dat
@@ -1910,6 +1922,7 @@
 1 16 -42 -75 0 0 1 0 6 0 0 0 0 6 4-4edge.dat
 0 // Circle 1.0 (main_colour)
 1 16 -40 -75 0 0 1 0 4 0 0 0 0 4 4-4edge.dat
+0 STEP
 0 FILE 3681 - 3681 - 4784.dat
 0 Enclosed straight staircase modeled from boxes, rectangles, chords, cylinders, and discs forming a 4x6 stepped structure.
 0 Name: 4784.dat
@@ -2437,6 +2450,7 @@
 1 16 10 -181 110 2 0 0 0 5 0 0 0 4 box4-1.dat
 0 // Box with 4 Faces without 1 Edge (main_colour)
 1 16 -10 -181 110 2 0 0 0 5 0 0 0 4 box4-1.dat
+0 STEP
 0 FILE s\3681 - 3681 - 4779s01.dat
 0 Ferris wheel axle knurl subpart consisting of two rectangle primitives.
 0 Name: s\4779s01.dat
@@ -2456,6 +2470,7 @@
 4 16 17.8452 -90 2.349 16.854601 -90 2.2189 16.999201 -90 -0.0003 18 -90 0
 4 16 18 -70 0 16.999201 -70 -0.0003 16.854601 -70 -2.2189 17.8451 -70 -2.3497
 1 16 0 -70 0 17.84601 0 2.34947 0 -1 0 -2.34947 0 17.84601 48\1-48edge.dat
+0 STEP
 0 FILE 3681 - 3681 - 787.dat
 0 Alias part redirecting to the Fabuland roof support, containing two roof support reference pieces.
 0 Name: 787.dat
@@ -2474,6 +2489,7 @@
 
 0 //Antistuds
 0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=R 6 4] [grid=C 2 C 5 20 20]
+0 STEP
 0 FILE 3681 - 3681 - 4320.dat
 0 Fabuland roof support modeled from circles, cylinders, rings, sloped cylinders, discs, and rectangles forming a curved support structure.
 0 Name: 4320.dat
@@ -2744,6 +2760,7 @@
 0 // Circle 0.25 (main_colour)
 1 16 -14 0 -54 0 0 -2 0 1 0 -2 0 0 1-4edge.dat
 2 24 -4 0 -54 -4 0 -50
+0 STEP
 0 FILE s\3681 - 3681 - 4429s01.dat
 0 Flask basket braid subpart with no directly-listed pieces.
 0 Name: s\4429s01.dat
@@ -2849,6 +2866,7 @@
 5 24 -4.097 34 20.597 -8.1116 36 19.583 -9.2837 36 19.531 -7.2459 36 20.375099
 5 24 -8.1116 36 19.583 -11.6673 38 17.4613 -9.2837 36 19.531 -7.2459 36 20.375099
 5 24 -8.1116 36 19.583 -7.2459 36 20.375099 -11.6673 38 17.4613 -4.097 34 20.597
+0 STEP
 0 FILE s\3681 - 3681 - 4429s02.dat
 0 Flask basket side subpart with no directly-listed pieces.
 0 Name: s\4429s02.dat
@@ -3031,6 +3049,7 @@
 5 24 -16.028299 42.099998 10.7098 -16.7222 45.599998 6.9266 -17.553699 42.400002 7.271 -15.2295 45.900002 10.176
 5 24 -16.1679 46.200001 6.697 -17.2528 49.099998 3.4318 -17.964399 45.900002 3.5733 -15.5212 49.099998 6.4291
 5 24 -16.1679 46.200001 6.697 -14.6262 49.099998 9.7729 -15.5212 49.099998 6.4291 -15.2295 45.900002 10.176
+0 STEP
 0 FILE s\3681 - 3681 - 3068bpfds01.dat
 0 Tile pattern foreground subpart for the Fabuland '5' decoration with no directly-listed pieces.
 0 Name: s\3068bpfds01.dat
@@ -3224,6 +3243,7 @@
 4 16 -20 0 -20 20 0 -20 18.799999 0 -18.799999 -18.9 0 -18.9
 4 16 -20 0 -20 -18.9 0 -18.9 -18.700001 0 -4.1068 -18.700001 0 3.7068
 4 16 -20 0 20 -20 0 -20 -18.700001 0 3.7068 -18.6 0 18.5
+0 STEP
 0 FILE s\3681 - 3681 - 3068bpfds02.dat
 0 Tile pattern top-left background subpart for the Fabuland '5' decoration with no directly-listed pieces.
 0 Name: s\3068bpfds02.dat
@@ -3270,6 +3290,7 @@
 3 16 -17.799999 0 17.799999 -16.853201 0 4.2586 -15.2875 0 3.2125
 3 16 -17.799999 0 17.799999 -18 0 4.526 -16.853201 0 4.2586
 3 16 -13.874 0 -0.2 -14.2414 0 -2.0468 -13 0 -1.1
+0 STEP
 0 FILE s\3681 - 3681 - 3068bpfds03.dat
 0 Tile pattern bottom-right background subpart for the Fabuland '5' decoration with no directly-listed pieces.
 0 Name: s\3068bpfds03.dat
@@ -3315,6 +3336,7 @@
 4 16 -3.5 0 -7.8 4 0 -6.9 3.9 0 -5 3.1 0 -3.2
 4 16 -3.5 0 -7.8 3.1 0 -3.2 1.8 0 -1.8 -0.1 0 -0.8
 3 16 -0.1 0 -0.8 -5.1 0 -6 -3.5 0 -7.8
+0 STEP
 0 FILE 3681 - 4783.dat
 0 Fabuland ferris wheel axle support modeled from boxes, sloped cylinders, circles, rectangles, and discs forming a mounting bracket.
 0 Name: 4783.dat
@@ -3639,6 +3661,7 @@
 0 // Rectangle (main_colour)
 1 16 -30 4 0 6 0 0 0 -1 0 0 0 16 rect.dat
 1 16 30 0 0 0 0 -1 0 1 0 1 0 0 stug-1x2.dat
+0 STEP
 0 FILE 3681 - 787.dat
 0 Alias part redirecting to the Fabuland roof support, containing two roof support reference pieces.
 0 Name: 787.dat
@@ -3657,6 +3680,7 @@
 
 0 //Antistuds
 0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=R 6 4] [grid=C 2 C 5 20 20]
+0 STEP
 0 FILE 3681 - 4320.dat
 0 Fabuland roof support modeled from circles, cylinders, rings, sloped cylinders, discs, and rectangles forming a curved support structure.
 0 Name: 4320.dat

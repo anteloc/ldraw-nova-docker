@@ -8,6 +8,7 @@
 1 36 0 -210 0 1 0 0 0 1 0 0 0 1 42105 - catamaran.ldr
 
 
+0 STEP
 0 FILE 42105 - mast.ldr
 0 A tall vertical mast assembly built from long liftarms, axles, and towball pins for mounting sails and rigging.
 0 Name: 42105 - mast.ldr
@@ -125,6 +126,7 @@
 1 0 10 -840 120 -1 0 0 0 1 0 0 0 -1 6628.dat
 
 
+0 STEP
 0 FILE 42105 - deck.ldr
 0 The main central deck structure with a large open-center beam frame, cross blocks, towball joints, and gears for connecting hulls and mast.
 0 Name: 42105 - deck.ldr
@@ -309,6 +311,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42105 - deck2.ldr
 0 A secondary deck section using a long lime liftarm, short beams, and cross blocks to extend the deck framework.
 0 Name: 42105 - deck2.ldr
@@ -368,6 +371,7 @@
 1 71 -60 -60 120 0 0 1 0 1 0 -1 0 0 18654.dat
 
 
+0 STEP
 0 FILE 42105 - deck3.ldr
 0 A compact deck extension section with a lime liftarm, cross blocks, and short beams connecting to the main deck frame.
 0 Name: 42105 - deck3.ldr
@@ -412,6 +416,7 @@
 1 71 120 -77.339 25.653 0 1 0 0 0 1 1 0 0 18654.dat
 
 
+0 STEP
 0 FILE 42105 - deck4.ldr
 0 A small deck connector piece joining two angle connectors with a short axle and pins.
 0 Name: 42105 - deck4.ldr
@@ -431,6 +436,7 @@
 1 71 10 0 40 0 -1 0 0 0 -1 1 0 0 4519.dat
 
 
+0 STEP
 0 FILE 42105 - dirarm.ldr
 0 A short directional arm or lever built from a beam, liftarm, and stop axle with bushes.
 0 Name: 42105 - dirarm.ldr
@@ -453,6 +459,7 @@
 1 71 0 -15 -40 0 -1 0 0 0 -1 1 0 0 32123b.dat
 
 
+0 STEP
 0 FILE 42105 - mastbase.ldr
 0 The base support for the mast using cross blocks, long pins, and liftarms to anchor it to the deck.
 0 Name: 42105 - mastbase.ldr
@@ -484,6 +491,7 @@
 1 27 20 20 100 0 -1 0 -1 0 0 0 0 -1 32316.dat
 
 
+0 STEP
 0 FILE 42105 - righthull.ldr
 0 The right pontoon assembly with beams, cross blocks, gears, and pins forming one of the twin floating hulls.
 0 Name: 42105 - righthull.ldr
@@ -658,6 +666,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42105 - catamaran.ldr
 0 The catamaran float assembly using beams, steering links, towball pins, axles, and two patterned trapezoid sails.
 0 Name: 42105 - catamaran.ldr
@@ -720,6 +729,7 @@
 1 0 10 -860 -140 1 0 0 0 1 0 0 0 1 42105 - 66645bp01.dat
 
 
+0 STEP
 0 FILE 42105 - lefthull.ldr
 0 The left pontoon assembly mirroring the right hull, with beams, cross blocks, gears, and pins forming the twin floating hull.
 0 Name: 42105 - lefthull.ldr
@@ -894,6 +904,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42105 - rightrudder.ldr
 0 The right rudder assembly with rotor blades, short liftarms, notched axles, and a towball axle for steering control.
 0 Name: 42105 - rightrudder.ldr
@@ -953,6 +964,7 @@
 1 71 -16.396 -90 59.976 0 -0.999 -0.035 1 0 0 0 -0.035 0.999 2736.dat
 
 
+0 STEP
 0 FILE 42105 - leftrudder.ldr
 0 The left rudder assembly mirroring the right, with rotor blades, short liftarms, notched axles, and a towball axle for steering.
 0 Name: 42105 - leftrudder.ldr
@@ -1012,6 +1024,7 @@
 1 71 17.255 -90.188 59.105 -0.002 0.999 -0.035 1 0.002 0.004 0.004 -0.035 -0.999 2736.dat
 
 
+0 STEP
 0 FILE 42105 - 33299b.dat
 0 A geometric subpart defining axle holes, rings, and disc surfaces for a Technic connector element.
 0 Name: 42105 - 33299b.dat
@@ -1049,6 +1062,7 @@
 4 16 6.36 10 33.637001 3.444 10 31.684999 3.062 10 32.609001 5.657 10 34.342999
 4 16 3.444 10 31.684999 0 10 31 0 10 32 3.062 10 32.609001
 
+0 STEP
 0 FILE 42105 - 18575.dat
 0 A geometric subpart defining an open axle hole with rectangular faces forming a beam-like element.
 0 Name: 42105 - 18575.dat
@@ -1171,6 +1185,7 @@
 0 // Rectangle with 3 Edges (main_colour)
 1 16 1.5 5.7018 0 0 0 0.5 0 1 -0.0998 -10 0 0 rect3.dat
 
+0 STEP
 0 FILE 42105 - 65781.dat
 0 A two-piece boat hull assembly consisting of a floating hull top and blue bottom shell.
 0 Name: 42105 - 65781.dat
@@ -1187,6 +1202,7 @@
 0 // Boat Hull Floating 36 x  7 x  7 Bottom (blue)
 1 1 0 0 0 1 0 0 0 1 0 0 0 1 42105 - 65417.dat
 
+0 STEP
 0 FILE 42105 - 66645ap01.dat
 0 A decorated hull float shell subpart with no direct primitive pieces.
 0 Name: 42105 - 66645ap01.dat
@@ -1208,6 +1224,7 @@
 1 16 0.25 0 0 1 0 0 0 1 0 0 0 1 s\42105 - 66645ap01s01.dat
 0 !TEXMAP END
 
+0 STEP
 0 FILE 42105 - 66645bp01.dat
 0 A second decorated hull float shell subpart with no direct primitive pieces.
 0 Name: 42105 - 66645bp01.dat
@@ -1229,6 +1246,7 @@
 1 16 0.25 0 0 1 0 0 0 1 0 0 0 1 s\42105 - 66645bp01s01.dat
 0 !TEXMAP END
 
+0 STEP
 0 FILE s\42105 - 33299s01.dat
 0 A geometric primitive subpart defining cylindrical sections, rings, and circles for a Technic connector shape.
 0 Name: s\42105 - 33299s01.dat
@@ -1499,6 +1517,7 @@
 5 24 -4.9498 0 35.050098 -4.9498 10 35.050098 -6 0 36.661999 -2.6788 0 33.5327
 5 24 4.9497 10 35.050301 4.9498 0 35.050201 6 0 36.661999 2.6788 10 33.5327
 
+0 STEP
 0 FILE 42105 - npeghol3.dat
 0 A geometric subpart defining cylinders, rectangles, and rings forming a peg hole structure.
 0 Name: 42105 - npeghol3.dat
@@ -1544,6 +1563,7 @@
 0 // Box with  2 Faces without  7 Edges (main_colour)
 1 16 2.7222 0.5 -3.041 0 -0.72215 0 0.5 0 0 0 0.14395 1.5 box2-7.dat
 
+0 STEP
 0 FILE s\42105 - 32269s01.dat
 0 A geometric subpart composed entirely of rectangles and edged rectangles forming a flat structural surface.
 0 Name: s\42105 - 32269s01.dat
@@ -1633,6 +1653,7 @@
 3 16 18.258699 2.4034 -10 17.789101 4.7663 -10 19.3403 4.9066 -10
 3 16 15.3375 12.7626 -10 14.6121 11.2123 -10 13.0227 13.0227 -10
 
+0 STEP
 0 FILE s\42105 - 32269s02.dat
 0 A geometric subpart defining cylinders, rings, and rectangles forming a circular connector element.
 0 Name: s\42105 - 32269s02.dat
@@ -1704,6 +1725,7 @@
 4 16 11.998 -1 -10 11.998 1 -10 16.934099 1 -10 16.934099 -1 -10
 3 16 17 0 -10 16.934099 -1 -10 16.934099 1 -10
 
+0 STEP
 0 FILE 42105 - 65418.dat
 0 A geometric subpart defining boxes and connector holes forming a multi-connection Technic beam element.
 0 Name: 42105 - 65418.dat
@@ -1793,6 +1815,7 @@
 4 16 5 47 308 15.5427 15 308 -15.5427 15 308 -5 47 308
 4 16 29 13 310 5 47 310 -5 47 310 -29 13 310
 
+0 STEP
 0 FILE s\42105 - 65418s01.dat
 0 A detailed geometric primitive subpart defining peg holes, cylinders, rings, and rectangles for a complex Technic connector.
 0 Name: s\42105 - 65418s01.dat
@@ -3145,6 +3168,7 @@
 4 16 29 13 310 29 71 310 5 71 310 5 47 310
 4 16 5 47 308 5 71 308 15.5427 71 308 15.5427 15 308
 
+0 STEP
 0 FILE 42105 - 5-16ring13.dat
 0 A single primitive ring segment (5/16 of a full ring) generated as a geometric building block.
 0 Name: 42105 - 5-16ring13.dat
@@ -3161,6 +3185,7 @@
 4 16 0 0 14 -5.3578 0 12.9346 -4.9751 0 12.0107 0 0 13
 0 // Build by LDPartEditor (PrimGen 2.X)
 
+0 STEP
 0 FILE 42105 - 65417.dat
 0 65417
 0 Name: 42105 - 65417.dat
@@ -3285,6 +3310,7 @@
 5 24 12 130 240 0 123.585098 269.947205 28.9702 112.505798 306.353699 -12 130 240
 5 24 14 127 -14 14 127 -107.6492 -14 127 -14 49.3181 115.147697 -30.999399
 
+0 STEP
 0 FILE s\42105 - 65417s01.dat
 0 65417s01
 0 Name: s\42105 - 65417s01.dat
@@ -4486,6 +4512,7 @@
 5 24 10.1019 89.703598 -348.553009 23.7586 28.924299 -304.207001 28.3216 25.864 -288.026001 18.666201 37.4487 -319.644012
 5 24 10.1019 89.703598 -348.553009 18.666201 37.4487 -319.644012 23.7586 28.924299 -304.207001 11.2939 68.678596 -343.091003
 
+0 STEP
 0 FILE s\42105 - 66645as02.dat
 0 66645as02
 0 Name: s\42105 - 66645as02.dat
@@ -4596,6 +4623,7 @@
 5 24 0.25 -20 -13 -0.25 -20 -13 0.25 800 -13 0.25 -22.8284 -11.8284
 5 24 0.25 800 -13 -0.25 800 -13 0.25 -20 -13 0.25 803.82843 -11.8284
 
+0 STEP
 0 FILE s\42105 - 66645as01.dat
 0 66645as01
 0 Name: s\42105 - 66645as01.dat
@@ -4685,6 +4713,7 @@
 4 16 0 17 84 0 17 76 0 753 216 0 753 224
 4 16 0 17 84 0 753 224 0 801 245 0 -20 97
 
+0 STEP
 0 FILE s\42105 - 66645ap01s01.dat
 0 66645ap01s01
 0 Name: s\42105 - 66645ap01s01.dat
@@ -9832,6 +9861,7 @@
 3 0 0 753 216 0 762 215 0 761 216
 3 0 0 779 216 0 778 215 0 787 216
 
+0 STEP
 0 FILE s\42105 - 66645bs02.dat
 0 66645bs02
 0 Name: s\42105 - 66645bs02.dat
@@ -9929,6 +9959,7 @@
 0 // Cylinder Open 1.0 (main_colour)
 1 16 0.25 778 -160 0 -0.5 0 8 0 0 0 0 -5 4-4cylo.dat
 
+0 STEP
 0 FILE s\42105 - 66645bs01.dat
 0 66645bs01
 0 Name: s\42105 - 66645bs01.dat
@@ -10002,6 +10033,7 @@
 3 16 0 7 -4 0 6 -5 0 15 -4
 3 16 0 15 -4 0 6 -5 0 -24 -25
 
+0 STEP
 0 FILE s\42105 - 66645bp01s01.dat
 0 66645bp01s01
 0 Name: s\42105 - 66645bp01s01.dat

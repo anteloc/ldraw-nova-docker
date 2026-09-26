@@ -67,6 +67,7 @@
 1 0 0 -140 -130 1 0 0 0 1 0 0 0 1 8217 - subModel-5.ldr
 1 0 0 -140 130 -1 0 0 0 1 0 0 0 -1 8217 - subModel-5.ldr
 
+0 STEP
 0 FILE 8217 - subModel-1.ldr
 0 Structural linkage assembly built from cross blocks, bent liftarms, and connectors joined by axles.
 0 Name: 8217 - subModel-1.ldr
@@ -100,6 +101,7 @@
 0 // Technic Connector (Axle/Bush) Type 1 (black)
 1 0 0 -80 -40 0 -1 0 0 0 1 -1 0 0 32039.dat
 
+0 STEP
 0 FILE 8217 - subModel-2.ldr
 0 Simple gear-and-axle drivetrain module with a 12-tooth bevel gear mounted on an axle 6 with a half bush.
 0 Author: Jaco van der Molen [Jaco van der Molen]
@@ -116,6 +118,7 @@
 0 // Technic Bush  1/2 Smooth with Axle Hole Reduced (light_bluish_grey)
 1 71 0 45 0 0 1 0 0 0 1 1 0 0 32123a.dat
 
+0 STEP
 0 FILE 8217 - subModel-3.ldr
 0 Small connector detail piece made of a green liftarm beam, tan pins, and a round yellow plate.
 0 Author: Jaco van der Molen [Jaco van der Molen]
@@ -134,6 +137,7 @@
 0 // Plate  1 x  1 Round (yellow)
 1 14 7 0 40 0 1 0 -1 0 0 0 0 1 4073.dat
 
+0 STEP
 0 FILE 8217 - technicflexSysHose-2.ldr
 0 Flexible Technic pneumatic-style hose approximately 93 mm long, composed of 39 hose segments.
 0 !CATEGORY technic
@@ -2279,6 +2283,7 @@
 5 24 -86.521553 -207.999985 -23.132723 -85.948524 -207.432175 -23.218502 -85.692337 -208.61319 -21.961319 -87.575737 -207.082443 -23.827419
 5 24 -85.692337 -208.61319 -21.961319 -85.169449 -208.092636 -22.038401 -85.214546 -208.82843 -20.491152 -86.521553 -207.999985 -23.132723
 
+0 STEP
 0 FILE 8217 - technicflexSysHose-1.ldr
 0 Flexible Technic pneumatic-style hose approximately 93 mm long, composed of 39 hose segments.
 0 !CATEGORY technic
@@ -4424,6 +4429,7 @@
 5 24 90.460747 -204.000015 -22.438137 89.836159 -203.379257 -22.540623 90.839302 -203.38681 -21.053768 89.707726 -204.917557 -23.451492
 5 24 90.839302 -203.38681 -21.053768 90.249046 -202.797073 -21.152681 90.785454 -203.17157 -19.508848 90.460747 -204.000015 -22.438137
 
+0 STEP
 0 FILE 8217 - subModel-4.ldr
 0 Angled structural assembly using a 112.5-degree angle connector, an axle 10, liftarm beam, and round yellow plates.
 0 Name: 8217 - subModel-4.ldr
@@ -4453,6 +4459,7 @@
 0 // Technic Bush 1/2 Smooth with Axle Hole Semi-Reduced (light_bluish_grey)
 1 71 0 0 -75 1 0 0 0 1 0 0 0 1 32123b.dat
 
+0 STEP
 0 FILE 8217 - technicflexSysHose-3.ldr
 0 Longer flexible Technic pneumatic-style hose approximately 108 mm long, composed of 69 hose segments.
 0 !CATEGORY technic
@@ -8099,6 +8106,7 @@
 5 24 2.832256 -119.928497 -2.824544 2.886035 -118.931396 -2.770765 3.695338 -120.061913 -1.531063 1.538775 -119.79509 -3.687625
 5 24 3.695338 -120.061913 -1.531063 3.750732 -119.035431 -1.475668 3.996246 -120.175011 -0.003754 2.832256 -119.928497 -2.824544
 
+0 STEP
 0 FILE 8217 - subModel-5.ldr
 0 Axle joiner assembly consisting of an axle 10, a half bush, and an offset axle joiner connector.
 0 Name: 8217 - subModel-5.ldr

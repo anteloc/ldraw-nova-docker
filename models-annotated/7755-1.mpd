@@ -13,6 +13,7 @@
 
 
 
+0 STEP
 0 FILE 7755 - locomotive.ldr
 0 A large weighted train locomotive body built on a 6x28 train base with slopes, bricks, shutters, and buffer clips.
 0 Name: 7755 - locomotive.ldr
@@ -242,6 +243,7 @@
 
 
 
+0 STEP
 0 FILE 7755 - pseudomotor.ldr
 0 A non-powered train bogie assembly with small train wheels, a buffer beam with magnet coupling, and plate framing.
 0 Name: 7755 - pseudomotor.ldr
@@ -307,6 +309,7 @@
 
 
 
+0 STEP
 0 FILE 7755 - motor.ldr
 0 A powered 12V train motor bogie with an electric motor, magnet coupling buffer beam, and corrected plate framing.
 0 Name: 7755 - motor.ldr
@@ -344,6 +347,7 @@
 
 
 
+0 STEP
 0 FILE 7755 - minifig.ldr
 0 A minifigure engineer wearing a red police hat, holding a spanner/screwdriver tool.
 0 Name: 7755 - minifig.ldr
@@ -379,6 +383,7 @@
 
 
 
+0 STEP
 0 FILE 7755 - 4181d03c01.dat
 0 A complete left train door with glass window and DB 7755 sticker.
 0 Name: 7755 - 4181d03c01.dat 
@@ -396,6 +401,7 @@
 
 
 
+0 STEP
 0 FILE 7755 - 4182d03c01.dat
 0 A complete right train door with glass window and DB 7755 sticker.
 0 Name: 7755 - 4182d03c01.dat

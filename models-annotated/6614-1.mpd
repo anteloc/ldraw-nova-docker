@@ -12,6 +12,7 @@
 1 0 -100 -8.001 -143.397 0 -0.866 0.5 1 0 0 0 0.5 0.866 4522.dat
 1 0 90 0 -120 0.5 0 0.866 0 1 0 -0.866 0 0.5 6614 - minifig.ldr
 
+0 STEP
 0 FILE 6614 - car.ldr
 0 A red and white fire truck built from plates, slopes, and wheel-mounted axles.
 0 Name: 6614 - car.ldr
@@ -264,6 +265,7 @@
 0 // Cone  1 x  1 (yellow)
 1 14 -82.732 -197.283 20 0 0.707 0.707 0 0.707 -0.707 -1 0 0 4589.dat
 
+0 STEP
 0 FILE 6614 - minifig.ldr
 0 A firefighter minifigure wearing a fire helmet with breathing apparatus, airtanks, and carrying a handaxe and hose nozzle.
 0 Name: 6614 - minifig.ldr

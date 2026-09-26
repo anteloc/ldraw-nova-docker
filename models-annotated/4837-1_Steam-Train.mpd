@@ -134,6 +134,7 @@
 1 2 10 -96 130 0 0 -1 0 1 0 1 0 0 54200.dat
 0 STEP
 0 NOFILE
+0 STEP
 0 FILE 4837-1 - Rear Wheels.ldr
 0 A rear wheel assembly using a plate with holes, technic pins, and two large grooved wheel rims.
 0 Name: 4837-1 - Rear Wheels.ldr
@@ -157,6 +158,7 @@
 1 7 -31 10 0 0 0 -1 0 1 0 1 0 0 56902.dat
 0 STEP
 0 NOFILE
+0 STEP
 0 FILE 4837-1 - Smokebox.ldr
 0 A rounded black smokebox front featuring a domed cylinder, a round brick, and a small yellow trans-transparent detail.
 0 Name: 4837-1 - Smokebox.ldr
@@ -182,6 +184,7 @@
 1 46 0 -48 0 -1 -0 0 -0 1 -0 0 -0 -1 3024.dat
 0 STEP
 0 NOFILE
+0 STEP
 0 FILE 4837-1 - Smokestack.ldr
 0 A smokestack made from a hollow black cone with a clip plate and a small green translucent accent.
 0 Name: 4837-1 - Smokestack.ldr

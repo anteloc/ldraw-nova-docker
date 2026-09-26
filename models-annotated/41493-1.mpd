@@ -12,6 +12,7 @@
 
 
 
+0 STEP
 0 FILE 41493 - Dr. Strange.ldr
 0 A black display base plate with an attached tile bearing the LEGO SDCC logo pattern.
 0 Name: 41493 - Dr. Strange.ldr
@@ -32,6 +33,7 @@
 1 0 0 -40 20 1 0 0 0 1 0 0 0 1 41493 - Dr. Strange - 1.ldr
 
 
+0 STEP
 0 FILE 41493 - Dr. Strange - 1.ldr
 0 The main Dr. Strange bust built from blue and red plates and bricks with light bluish grey side-stud bricks, yellow corner accents, and a gold eye-shaped medallion pattern on the torso.
 0 Name: 41493 - Dr. Strange - 1.ldr
@@ -218,6 +220,7 @@
 1 0 -30 8 0 0 0 1 0 1 0 -1 0 0 3004.dat
 
 
+0 STEP
 0 FILE 41493 - Dr. Strange - 2.ldr
 0 A red cape and shoulder assembly made from curved slopes, wings, and tiles.
 0 Name: 41493 - Dr. Strange - 2.ldr
@@ -242,6 +245,7 @@
 
 
 
+0 STEP
 0 FILE 41493 - Dr. Strange - 3.ldr
 0 A small blue and yellow clip-on arm piece with a grooved tile.
 0 Name: 41493 - Dr. Strange - 3.ldr
@@ -260,6 +264,7 @@
 
 
 
+0 STEP
 0 FILE 41493 - Dr. Strange - 4.ldr
 0 A small blue and yellow end-clip arm piece with a grooved tile.
 0 Name: 41493 - Dr. Strange - 4.ldr
@@ -279,6 +284,7 @@
 
 
 
+0 STEP
 0 FILE 41493 - Dr. Strange - 4 - 1.ldr
 0 A translucent magical-effect accessory made from a clear handle, a yellow round plate, and a neon orange inverted dish.
 0 Name: 41493 - Dr. Strange - 4 - 1.ldr
@@ -297,6 +303,7 @@
 
 
 
+0 STEP
 0 FILE 41493 - Black Panther.ldr
 0 A black display base plate with an attached tile bearing the LEGO SDCC logo pattern.
 0 Name: 41493 - Black Panther.ldr
@@ -317,6 +324,7 @@
 1 0 0 -48 20 1 0 0 0 1 0 0 0 1 41493 - Black Panther - 1.ldr
 
 
+0 STEP
 0 FILE 41493 - Black Panther - 1.ldr
 0 The main Black Panther bust built from black plates and bricks with light bluish grey side-stud bricks, pink and yellow accents, and a silver claw necklace pattern on the torso.
 0 Name: 41493 - Black Panther - 1.ldr
@@ -434,6 +442,7 @@
 1 72 -30 32 0 0 0 1 0 1 0 -1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 41493 - Black Panther - 2.ldr
 0 A black and dark bluish grey arm piece with a metallic silver claw bracelet pattern tile.
 0 Name: 41493 - Black Panther - 2.ldr
@@ -451,6 +460,7 @@
 1 0 0 -8 10 1 0 0 0 1 0 0 0 1 41493 - 3069bpz8.dat
 
 
+0 STEP
 0 FILE 41493 - 87079pz5.dat
 0 A decorative tile part bearing the LEGO logo and a white "#LEGOSDCC" pattern.
 0 Name: 41493 - 87079pz5.dat
@@ -947,6 +957,7 @@
 3 16 40 0 20 32.962 0 2.78 33.329 0 2.813
 
 
+0 STEP
 0 FILE 41493 - 3010pzf.dat
 0 A decorative brick part featuring a metallic gold eye-shaped medallion pattern.
 0 Name: 41493 - 3010pzf.dat
@@ -1620,6 +1631,7 @@
 4 87 14.249 12.435 -10 10.165 12.435 -10 10.148 12.785 -10 14.203 12.785 -10
 
 
+0 STEP
 0 FILE 41493 - 2431pz7.dat
 0 A decorative tile part printed with a black moustache and beard pattern.
 0 Name: 41493 - 2431pz7.dat
@@ -1714,6 +1726,7 @@
 3 16 -40 0 -10 -10.29 0 -6.42 -12.29 0 -5.39
 
 
+0 STEP
 0 FILE 41493 - 3010pze.dat
 0 A decorative brick part featuring a metallic silver claw necklace pattern.
 0 Name: 41493 - 3010pze.dat
@@ -1730,6 +1743,7 @@
 1 16 0 0 -10 -1 0 0 0 1 0 0 0 1 s\41493 - 3010pzes01.dat
 
 
+0 STEP
 0 FILE 41493 - 87079pz7.dat
 0 A decorative tile part printed with metallic silver lines.
 0 Name: 41493 - 87079pz7.dat
@@ -1888,6 +1902,7 @@
 4 80 37.732 0 -6.653 14.91 0 -13.145 14.08 0 -14.94 38.143 0 -8.097
 
 
+0 STEP
 0 FILE 41493 - 3069bpz8.dat
 0 A decorative tile part printed with a metallic silver claw bracelet pattern.
 0 Name: 41493 - 3069bpz8.dat
@@ -2143,6 +2158,7 @@
 4 80 19.5 0 -4.161 16.536 0 -2.773 16.408 0 -4.381 19.5 0 -5.814
 
 
+0 STEP
 0 FILE s\41493 - logolego01.dat
 0 A printed LEGO logo sub-part.
 0 Name: s\41493 - logolego01.dat
@@ -2912,6 +2928,7 @@
 4 15 16.681 -4.048 0 13.389 -4.108 0 13.485 -4.038 0 16.659 -3.215 0
 
 
+0 STEP
 0 FILE s\41493 - 3010pzes01.dat
 0 A half-section sub-part of the brick bearing the metallic silver claw necklace pattern.
 0 Name: s\41493 - 3010pzes01.dat

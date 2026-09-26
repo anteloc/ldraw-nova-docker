@@ -14,6 +14,7 @@
 1 16 80 24 -230 1 0 0 0 1 0 0 0 1 3063 - Wharf.ldr
 
 
+0 STEP
 0 FILE 3063 - Plane.ldr
 0 A colorful seaplane fuselage with white wings, yellow and light aqua accents, bright pink detailing, and red and green navigation light plates.
 0 Name: 3063 - Plane.ldr
@@ -114,6 +115,7 @@
 1 71 -70 -16 -30 0 0 1 0 1 0 -1 0 0 2412b.dat
 1 78 0 24 -20 1 0 0 0 1 0 0 0 1 3063 - Stephanie.ldr
 
+0 STEP
 0 FILE 3063 - Plane nose side.ldr
 0 A small nose side assembly with a light aqua curved slope, a yellow plate, and a bright pink round accent.
 0 Name: 3063 - Plane nose side.ldr
@@ -128,6 +130,7 @@
 0 // Slope Brick Curved  4 x  1 (light_aqua)
 1 323 -10 -16 -50 1 0 0 0 1 0 0 0 1 61678.dat
 
+0 STEP
 0 FILE 3063 - Plane Tail.ldr
 0 An aircraft tail section built from yellow and white plates, bright pink trim, and an inverted light aqua wedge forming the tail fin and stabilizers.
 0 Name: 3063 - Plane Tail.ldr
@@ -162,6 +165,7 @@
 0 // Plate  2 x  2 (yellow)
 1 14 0 -8 120 0 0 1 0 1 0 -1 0 0 3022.dat
 
+0 STEP
 0 FILE 3063 - Plane Floats.ldr
 0 A pair of pontoon floats using white plates and black curved inverted slopes, with yellow and light aqua accents and light bluish grey axle holders for mounting.
 0 Name: 3063 - Plane Floats.ldr
@@ -236,6 +240,7 @@
 0 // Plate  2 x  6 (white)
 1 15 0 -32 0 0 0 -1 0 1 0 1 0 0 3795.dat
 
+0 STEP
 0 FILE 3063 - Booth.ldr
 0 A service booth built from white bricks and panels with log-textured brown walls, a tan counter section, and bright pink and life preserver detailing.
 0 Name: 3063 - Booth.ldr
@@ -338,6 +343,7 @@
 0 // Animal Friends Bird with Eyes and Red Beak Pattern (bright_light_orange)
 1 191 10 -192 -30 -0.5 0 -0.866 0 1 0 0.866 0 -0.5 98388p01.dat
 
+0 STEP
 0 FILE 3063 - Wharf.ldr
 0 A reddish brown wooden wharf with white spindle fences, tan accessories, a telescope, and decorative magenta and pink elements including a skeleton leg detail.
 0 Name: 3063 - Wharf.ldr
@@ -448,6 +454,7 @@
 0 // Animal Crab (bright_light_orange)
 1 191 90 -16 -50 0.7071 0 -0.7071 0 1 0 0.7071 0 0.7071 33121.dat
 
+0 STEP
 0 FILE 3063 - Stephanie.ldr
 0 The Stephanie Friends minifigure with bright light yellow hair, a white halter top torso, and a magenta layered skirt outfit.
 0 Name: 3063 - Stephanie.ldr

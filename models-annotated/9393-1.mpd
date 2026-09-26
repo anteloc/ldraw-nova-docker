@@ -10,6 +10,7 @@
 
 
 
+0 STEP
 0 FILE 9393 - vehicle.ldr
 0 Main structural chassis built from bent liftarms, long pins, and axles forming the vehicle frame with gear and towball articulation points.
 0 Name: 9393 - vehicle.ldr
@@ -464,6 +465,7 @@
 
 
 
+0 STEP
 0 FILE 9393 - steering.ldr
 0 Rack-and-pinion steering assembly using a gear rack, beam, and cross blocks to link the steering column to the wheels.
 0 Name: 9393 - steering.ldr
@@ -496,6 +498,7 @@
 
 
 
+0 STEP
 0 FILE 9393 - pto.ldr
 0 Power-takeoff drivetrain with universal joints, bevel gears, and connector joints transferring rotational motion to the rear implement.
 0 Name: 9393 - pto.ldr
@@ -557,6 +560,7 @@
 
 
 
+0 STEP
 0 FILE 9393 - subModel-1.ldr
 0 Compact worm-gear reduction unit using a worm gear, angle connector, and liftarms to step down rotational speed.
 0 Name: 9393 - subModel-1.ldr
@@ -599,6 +603,7 @@
 
 
 
+0 STEP
 0 FILE 9393 - hubRearLeft.ldr
 0 Rear left wheel hub assembly built from a T-shaped beam, cross block, and mounting pins to attach the driven wheel.
 0 Name: 9393 - hubRearLeft.ldr
@@ -628,6 +633,7 @@
 
 
 
+0 STEP
 0 FILE 9393 - frontWeight.ldr
 0 Front counterweight module of lime and black bent liftarms and triangular connector blocks to balance the tractor nose.
 0 Name: 9393 - frontWeight.ldr
@@ -666,6 +672,7 @@
 
 
 
+0 STEP
 0 FILE 9393 - stepsLeft.ldr
 0 Left-side access step assembly using bent liftarms and cross blocks mounted on short axles.
 0 Name: 9393 - stepsLeft.ldr
@@ -696,6 +703,7 @@
 
 
 
+0 STEP
 0 FILE 9393 - stepsRight.ldr
 0 Right-side access step assembly mirroring the left, built from bent liftarms and cross blocks on short axles.
 0 Name: 9393 - stepsRight.ldr
@@ -726,6 +734,7 @@
 
 
 
+0 STEP
 0 FILE 9393 - subModel-2.ldr
 0 Implement mounting bracket combining bent liftarms, a toothed connector, and a notched axle for tool attachment.
 0 Name: 9393 - subModel-2.ldr
@@ -758,6 +767,7 @@
 
 
 
+0 STEP
 0 FILE 9393 - attachment.ldr
 0 Powered implement drive unit using a 24-tooth gear, split cross block, and red liftarms to transmit motion to a tool.
 0 Name: 9393 - attachment.ldr
@@ -824,6 +834,7 @@
 
 
 
+0 STEP
 0 FILE 9393 - subModel-3.ldr
 0 Right-side gear reduction module pairing an 8-tooth and 24-tooth gear on a beam with cross blocks for the drivetrain.
 0 Name: 9393 - subModel-3.ldr
@@ -858,6 +869,7 @@
 
 
 
+0 STEP
 0 FILE 9393 - subModel-4.ldr
 0 Left-side gear reduction module mirroring subModel-3, pairing an 8-tooth and 24-tooth gear on a beam with cross blocks.
 0 Name: 9393 - subModel-4.ldr
@@ -888,6 +900,7 @@
 
 
 
+0 STEP
 0 FILE 9393 - subModel-5.ldr
 0 Bevel-gear transfer unit using triangle liftarms, two bevel gears, and a toggle joint to redirect drive through 90 degrees.
 0 Name: 9393 - subModel-5.ldr
@@ -921,6 +934,7 @@
 
 
 
+0 STEP
 0 FILE 9393 - subModel-6.ldr
 0 Pulley assembly built from two wedge belt wheels and thin liftarms held by 3/4 pins for a belt-driven mechanism.
 0 Name: 9393 - subModel-6.ldr

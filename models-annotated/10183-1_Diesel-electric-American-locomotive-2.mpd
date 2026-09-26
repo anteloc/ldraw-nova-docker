@@ -557,6 +557,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 8 - side grill type 1.ldr
 0 Red side ventilation grille panel: three vertical grille tiles on a plate frame
 0 Name: 10183 - 8 - side grill type 1.ldr
@@ -580,6 +581,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 8 - side grill type 2.ldr
 0 Red side ventilation grille panel: three horizontal grille tiles on 1 x 3 plates
 0 Name: 10183 - 8 - side grill type 2.ldr
@@ -601,6 +603,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 8 - side grill type 3.ldr
 0 Red side ventilation grille panel: three grille tiles on corner plates
 0 Name: 10183 - 8 - side grill type 3.ldr
@@ -622,6 +625,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 8 - side protrusion.ldr
 0 Red curved side bulge detail with round studs, clip-light plates and a top plate
 0 Name: 10183 - 8 - side protrusion.ldr
@@ -660,6 +664,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 8 - top grill.ldr
 0 Black rooftop ventilation grille panel with two grille tiles flanked by slope bricks
 0 Name: 10183 - 8 - top grill.ldr
@@ -683,6 +688,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 8 - nose front.ldr
 0 Locomotive front nose: red sloped hood with headlight bricks, control-panel pattern slopes and a clear lamp
 0 Name: 10183 - 8 - nose front.ldr
@@ -782,6 +788,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 8 - nose back.ldr
 0 Locomotive rear end: sloped hood with grille tile and a red tail lamp
 0 Name: 10183 - 8 - nose back.ldr
@@ -830,6 +837,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 8 - bottom detail.ldr
 0 Locomotive underframe detail with plates and curved-top side bricks
 0 Name: 10183 - 8 - bottom detail.ldr
@@ -867,6 +875,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 8 - cabin roof.ldr
 0 Locomotive cab with glazed side windows, curved roof and door-rail frame
 0 Name: 10183 - 8 - cabin roof.ldr
@@ -923,6 +932,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 8 - wheels front.ldr
 0 Front three-axle bogie with wheels, buffer beam, coupling and magnet
 0 Name: 10183 - 8 - wheels front.ldr
@@ -968,6 +978,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 8 - wheels back.ldr
 0 Rear three-axle bogie with wheels, buffer beam, coupling and magnet
 0 Name: 10183 - 8 - wheels back.ldr

@@ -26,6 +26,7 @@
 0 STEP
 1 1 -80 0 -157 -0.259 0 -0.966 0 1 0 0.966 0 -0.259 3644 - mikemonkey.ldr
 1 1 100 0 143 0.866 0 -0.5 0 1 0 0.5 0 0.866 3644 - mayorlion.ldr
+0 STEP
 0 FILE 3644 - mikemonkey.ldr
 0 An empty submodel placeholder containing no pieces, likely representing a monkey figure referenced from the main model.
 0 Name: 3644 - mikemonkey.ldr
@@ -39,6 +40,7 @@
 1 0 -10 -37 4 1 0 0 0 1 0 0 0 1 u9100.dat
 1 0 10 -37 4 1 0 0 0 1 0 0 0 1 u9100.dat
 1 4 0 -37 4 1 0 0 0 1 0 0 0 1 u9103.dat
+0 STEP
 0 FILE 3644 - mayorlion.ldr
 0 An empty submodel placeholder containing no pieces, likely representing a lion figure referenced from the main model.
 0 Name: 3644 - mayorlion.ldr
@@ -52,6 +54,7 @@
 1 14 -10 -37 4 1 0 0 0 1 0 0 0 1 u9100.dat
 1 14 10 -37 4 1 0 0 0 0.866 0.5 0 -0.5 0.866 u9100.dat
 1 4 0 -37 4 1 0 0 0 1 0 0 0 1 u9103.dat
+0 STEP
 0 FILE 3644 - 4463.dat
 0 A geometric primitive part composed of boxes, cylinders, discs, and rectangles forming a complex curved shape.
 0 Name: 3644 - 4463.dat
@@ -162,6 +165,7 @@
 1 16 10 30 10 0 0 22.5 -22.5 0 0 0 1 0 48\1-4edge.dat
 1 16 10 30 -5.1538 0 0 30 -30 0.137152 0 4.15381 0.99055 0 48\1-4edge.dat
 1 16 10 30 -5.1538 0 0 22.5 -22.5 0.137152 0 3.11535 0.99055 0 48\1-4edge.dat
+0 STEP
 0 FILE 3644 - 4469.dat
 0 A geometric primitive part composed of rectangles, cylinders, chords, and boxes forming a rounded hollow structure.
 0 Name: 3644 - 4469.dat
@@ -221,6 +225,7 @@
 4 16 40 0 -10 36 0 -6 36 0 6 40 0 10
 4 16 -40 0 10 40 0 10 36 0 6 -36 0 6
 4 16 -40 0 -10 -36 0 -6 36 0 -6 40 0 -10
+0 STEP
 0 FILE 3644 - 4468.dat
 0 A simple geometric primitive part consisting of a cylinder with multiple rectangular faces forming a cylindrical body.
 0 Name: 3644 - 4468.dat
@@ -265,6 +270,7 @@
 1 16 0 -59 -89 0 0 2 0 -1 0 1 0 0 rect1.dat
 0 // Rectangle with 1 Edge (main_colour)
 1 16 0 -63.16665 -88 0 0 2 -4.16665 0 0 0 -1 0 rect1.dat
+0 STEP
 0 FILE s\3644 - 4468s01.dat
 0 A detailed geometric subpart composed of cylinders, spheres, cones, chords, and discs forming a rounded contoured shape.
 0 Name: s\3644 - 4468s01.dat

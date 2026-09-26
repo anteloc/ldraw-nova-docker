@@ -201,6 +201,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 15 - tank bottom.ldr
 0 Tank bottom — base plates, door rails and curved-top bricks forming the lower curved shell of the tank
 0 Name: 10183 - 15 - tank bottom.ldr
@@ -255,6 +256,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 15 - tank middle.ldr
 0 Tank middle — stacked 1x4 bricks and side-stud bricks forming the internal bracing of the tank
 0 Name: 10183 - 15 - tank middle.ldr
@@ -279,6 +281,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 15 - underside detail.ldr
 0 Underside detail — pipes, valves, round plates and fittings representing the underframe mechanical equipment
 0 Name: 10183 - 15 - underside detail.ldr

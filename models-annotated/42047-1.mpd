@@ -362,6 +362,7 @@
 0 // Technic Disc  3 x  3 with Axlehole (rubber_black)
 1 256 130 -54 -100 0 -1 0 -0.995 0 0.1 -0.1 0 -0.995 2723.dat
 
+0 STEP
 0 FILE 42047 - chasis.ldr
 0 A structural chassis frame assembled from bent liftarms, long axles, and friction pins to support the vehicle's wheels and drivetrain.
 0 Author: Philippe Hurbain [Philo]

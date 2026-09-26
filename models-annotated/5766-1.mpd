@@ -7,6 +7,7 @@
 1 70 0 0 0 1 0 0 0 1 0 0 0 1 5766 - Log Cabin.ldr
 
 
+0 STEP
 0 FILE 5766 - Log Cabin.ldr
 0 A green-base foundation with light bluish grey brick walls, log-texture bricks, and tan plates forming the cabin structure.
 0 Name: 5766 - Log Cabin.ldr
@@ -391,6 +392,7 @@
 1 1 0 -99 -130 1 0 0 0 1 0 0 0 1 5766 - Minifig.ldr
 
 
+0 STEP
 0 FILE 5766 - Boat.ldr
 0 A small yellow boat with tan side bricks, yellow slopes, trans-yellow dishes, and a reddish brown oar.
 0 Name: 5766 - Boat.ldr
@@ -453,6 +455,7 @@
 1 70 0 -36 -50 -0.956 0 -0.292 -0.292 0 0.956 0 1 0 2542.dat
 
 
+0 STEP
 0 FILE 5766 - Boat Side.ldr
 0 A yellow boat hull side with curved slope bricks and connecting plates.
 0 Name: 5766 - Boat Side.ldr
@@ -471,6 +474,7 @@
 1 14 0 -16 40 -1 0 0 0 1 0 0 0 -1 61678.dat
 
 
+0 STEP
 0 FILE 5766 - Food.ldr
 0 A food assembly with a turkey leg on a black bar mounted to a bracket using a Technic pin.
 0 Name: 5766 - Food.ldr
@@ -494,6 +498,7 @@
 1 484 13 10 0 0 -1 0 -1 0 0 0 0 -1 33057.dat
 
 
+0 STEP
 0 FILE 5766 - Rear Wall.ldr
 0 A reddish brown hinged rear wall section with light bluish grey and tan reinforcing plates.
 0 Name: 5766 - Rear Wall.ldr
@@ -533,6 +538,7 @@
 1 70 20 -40 0 1 0 0 0 1 0 0 0 1 3009.dat
 
 
+0 STEP
 0 FILE 5766 - Chimney.ldr
 0 A light bluish grey chimney built from arch, log-texture, and 45-degree slope bricks.
 0 Name: 5766 - Chimney.ldr
@@ -557,6 +563,7 @@
 1 71 0 -72 10 -1 0 0 0 1 0 0 0 -1 3040b.dat
 
 
+0 STEP
 0 FILE 5766 - Lamp.ldr
 0 A small black lamp with a trans-neon-orange round brick acting as the glowing light.
 0 Name: 5766 - Lamp.ldr
@@ -573,6 +580,7 @@
 1 0 0 -40 4 1 0 0 0 -1 0 0 0 -1 6141.dat
 
 
+0 STEP
 0 FILE 5766 - Roof.ldr
 0 A pitched dark red and tan roof with 45-degree slopes, brown trim, white Viking horns, and a window.
 0 Name: 5766 - Roof.ldr
@@ -760,6 +768,7 @@
 1 70 10 8 -70 1 0 0 0 1 0 0 0 1 2420.dat
 
 
+0 STEP
 0 FILE 5766 - Tree.ldr
 0 A leafy green tree on a brown trunk built from arches, corner bricks, and slope pieces.
 0 Name: 5766 - Tree.ldr
@@ -837,6 +846,7 @@
 1 27 10 -232 -10 -0.259 0 -0.966 0 1 0 0.966 0 -0.259 49668.dat
 
 
+0 STEP
 0 FILE 5766 - Wood.ldr
 0 A small green-based pile of firewood made from tooth plates.
 0 Name: 5766 - Wood.ldr
@@ -855,6 +865,7 @@
 1 27 -10 -16 0 1 0 0 0 1 0 0 0 1 49668.dat
 
 
+0 STEP
 0 FILE 5766 - Minifig.ldr
 0 A minifigure with a blue torso, red cap, green backpack, tan legs, and a smiling yellow head.
 0 Name: 5766 - Minifig.ldr

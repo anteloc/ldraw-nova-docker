@@ -208,6 +208,7 @@
 1 15 50 -6 -49 1 0 0 0 1 0 0 0 1 8830 - Figure.ldr
 
 
+0 STEP
 0 FILE 8830 - RearAxleExtension.ldr
 0 Small yellow and black reinforcement plate assembly extending the rear axle structure.
 0 Name: 8830 - RearAxleExtension.ldr
@@ -219,6 +220,7 @@
 1 0 0 -24 10 1 0 0 0 1 0 0 0 1 3700.dat
 
 
+0 STEP
 0 FILE 8830 - RightFrontTip.ldr
 0 Yellow wing-back brick and corner plate forming the right front nose tip of the car body.
 0 Name: 8830 - RightFrontTip.ldr
@@ -230,6 +232,7 @@
 1 14 0 24 30 -1 0 0 0 1 0 0 0 -1 2420.dat
 
 
+0 STEP
 0 FILE 8830 - LeftFrontTip.ldr
 0 Yellow wing-back brick and corner plate forming the left front nose tip of the car body.
 0 Name: 8830 - LeftFrontTip.ldr
@@ -241,6 +244,7 @@
 1 14 0 24 30 0 0 1 0 1 0 -1 0 0 2420.dat
 
 
+0 STEP
 0 FILE 8830 - Plate_with_1x1Bricks.ldr
 0 Yellow plate with two 1x1 bricks used as a small structural spacer.
 0 Name: 8830 - Plate_with_1x1Bricks.ldr
@@ -254,6 +258,7 @@
 1 14 -10 -24 0 1 0 0 0 1 0 0 0 1 3005.dat
 
 
+0 STEP
 0 FILE 8830 - RearShaft.ldr
 0 Rear shaft assembly with a 4-stud axle, 8-tooth gear, wedge belt wheel, and inverted slope bricks forming the rear drivetrain.
 0 Name: 8830 - RearShaft.ldr
@@ -276,6 +281,7 @@
 
 
 
+0 STEP
 0 FILE 8830 - SteeringRack.ldr
 0 Black plate with a 1x4 gear rack that provides the steering mechanism.
 0 Name: 8830 - SteeringRack.ldr
@@ -287,6 +293,7 @@
 1 7 0 -8 0 1 0 0 0 1 0 0 0 1 3743.dat
 
 
+0 STEP
 0 FILE 8830 - EngineTop.ldr
 0 Engine top cover built from technic plates with two round grille-pattern tiles representing vents.
 0 Name: 8830 - EngineTop.ldr
@@ -307,6 +314,7 @@
 1 15 0 -16 10 -1 0 0 0 1 0 0 0 -1 4150p01.dat
 
 
+0 STEP
 0 FILE 8830 - RightSideCockpit.ldr
 0 Yellow technic brick and liftarm beams joined by pins forming the right side of the cockpit frame.
 0 Name: 8830 - RightSideCockpit.ldr
@@ -330,6 +338,7 @@
 1 14 20 10 100 0 1 0 0.778 0 -0.629 -0.629 0 -0.778 2825.dat
 
 
+0 STEP
 0 FILE 8830 - LeftSideCockpit.ldr
 0 Yellow technic brick and liftarm beams joined by pins forming the left side of the cockpit frame.
 0 Name: 8830 - LeftSideCockpit.ldr
@@ -353,6 +362,7 @@
 1 14 -20 10 100 0 -1 0 -0.778 0 -0.629 0.629 0 -0.778 2825.dat
 
 
+0 STEP
 0 FILE 8830 - SteeringWheel.ldr
 0 Steering wheel assembly using an axle, bush, 8-tooth gear, and wedge belt wheel mounted on a technic brick.
 0 Name: 8830 - SteeringWheel.ldr
@@ -370,6 +380,7 @@
 1 7 0 10 45 1 0 0 0 1 0 0 0 1 4185.dat
 
 
+0 STEP
 0 FILE 8830 - Figure.ldr
 0 Articulated technic action figure driver with torso, legs, arms, head, and a red racing helmet with clear visor.
 0 Author: Max Martin Richter [MMR1988]
@@ -434,6 +445,7 @@
 
 
 
+0 STEP
 0 FILE 8830 - 4864apx3.dat
 0 Panel 1 x 2 x 2 with solid studs featuring a black 3-with-stripes printed pattern.
 0 Name: 8830 - 4864apx3.dat
@@ -599,6 +611,7 @@
 4 16 -6.1 37.9 10 -19.2 38.5 10 12.9 38.5 10 13.6 37.9 10
 
 
+0 STEP
 0 FILE 8830 - 2715.dat
 0 Technic action figure helmet part noted to need rework due to collision with the 2716 visor.
 0 Name: 8830 - 2715.dat
@@ -751,6 +764,7 @@
 5 24 -8.8 -27.13 0 0 -27.13 10 -8.8 -25.17 10 0 -28.88 0
 
 
+0 STEP
 0 FILE s\8830 - 2715s01.dat
 0 Primitive subpart defining the lower half of the action figure helmet using cylinders, tori, and discs.
 0 Name: s\8830 - 2715s01.dat

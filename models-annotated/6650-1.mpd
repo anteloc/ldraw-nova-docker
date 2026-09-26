@@ -120,6 +120,7 @@
 
 
 
+0 STEP
 0 FILE 6650 - Fire and Rescue Van ropeLQ-1.ldr
 0 A flexible hose-like path composed of 82 connected rope segments.
 0 Name: 6650 - Fire and Rescue Van ropeLQ-1.ldr
@@ -151,6 +152,7 @@
 
 0 //Segments
 
+0 STEP
 0 FILE 6650 - ldcLQRopeSeg.dat
 0 ldcLQRopeSeg
 0 Name: 6650 - ldcLQRopeSeg.dat

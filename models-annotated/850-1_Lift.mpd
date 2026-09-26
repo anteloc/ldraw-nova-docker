@@ -176,6 +176,7 @@
 0 // Technic Bush with Two Flanges (light_grey)
 1 7 -10 -230 -40 0 0 1 0 1 0 -1 0 0 3713.dat
 
+0 STEP
 0 FILE 850 - Platform.ldr
 0 Yellow rectangular platform with gear racks along its sides, designed to be raised and lowered by a lift mechanism.
 0 Name: 850 - Platform.ldr

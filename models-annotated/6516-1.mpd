@@ -11,6 +11,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 6516 - Moon Buggy.ldr
 1 16 0 -40 28 1 0 0 0 1 0 0 0 1 6516 - Becky Blastinoff.ldr
 
+0 STEP
 0 FILE 6516 - Moon Buggy.ldr
 0 A compact white and blue moon rover built on a 2x6 plate with four knobby tires, a steering wheel, telemetry computer tile, and side panels.
 0 Name: 6516 - Moon Buggy.ldr
@@ -65,6 +66,7 @@
 1 16 10 -31 70 1 0 0 0 1 0 0 0 1 6516 - Radar Dish.ldr
 1 16 -30 -55 0 1 0 0 0 1 0 0 0 1 6516 - Tool.ldr
 
+0 STEP
 0 FILE 6516 - Becky Blastinoff.ldr
 0 A white-suited astronaut minifigure with a launch command logo torso, airtanks, and a helmet, featuring a head with a microphone pattern.
 0 Name: 6516 - Becky Blastinoff.ldr
@@ -102,6 +104,7 @@
 0 // Minifig Helmet Visor Space (chrome_gold)
 1 334 -.55 -64 .312 .866 .3536 -.3536 0 .7071 .7071 .5 -.6124 .6124 71016.dat
 
+0 STEP
 0 FILE 6516 - Headlight.ldr
 0 A small light fixture made from a trans-yellow 1x1 plate mounted on a white 1x1 clip tile.
 0 Name: 6516 - Headlight.ldr
@@ -114,6 +117,7 @@
 0 // Plate  1 x  1 (trans_yellow)
 1 46 0 8 0 0 0 -1 0 1 0 1 0 0 3024.dat
 
+0 STEP
 0 FILE 6516 - Radar Dish.ldr
 0 A communications antenna consisting of a trans-dark-blue inverted dish mounted on a white bar with a clip tile.
 0 Name: 6516 - Radar Dish.ldr
@@ -128,6 +132,7 @@
 0 // Dish  2 x  2 Inverted (trans_dark_blue)
 1 33 0 -110 -14 1 0 0 0 0 1 0 -1 0 4740.dat
 
+0 STEP
 0 FILE 6516 - Tool.ldr
 0 A handheld tool assembly combining a grey torch, a clip plate, and red and black control sticks.
 0 Name: 6516 - Tool.ldr

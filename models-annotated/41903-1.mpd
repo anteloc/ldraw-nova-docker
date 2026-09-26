@@ -65,6 +65,7 @@
 1 3 -41.207 -13 -78.5 -0.917 0.399 0 0 0 1 0.399 0.917 0 41903 - 25269p61.dat
 
 
+0 STEP
 0 FILE 41903 - 66821-f2.dat
 0 A flexible bracelet band constructed via LDCad path-skin geometry forming a looped wrist strap.
 0 Name: 41903 - 66821-f2.dat
@@ -217,6 +218,7 @@
 0 // Bracelet 25L with 14 x  2 Studs Filler Segment (main_colour)
 1 16 0 68.0523 7.3217 -1 0 0 0 -0.99705 -0.8467 0 -0.07681 10.99065 41903 - 66821k02.dat
 
+0 STEP
 0 FILE 41903 - 65092.dat
 0 A collection of rectangular geometric primitives forming a flat surface pattern.
 0 Name: 41903 - 65092.dat
@@ -407,6 +409,7 @@
 
 0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=R 6 4]
 
+0 STEP
 0 FILE 41903 - 98138p60.dat
 0 A single adapter ring converting triangle primitives to standard normal at full scale.
 0 Name: 41903 - 98138p60.dat
@@ -731,6 +734,7 @@
 4 16 -6.4 0 -2.6 -6.7 0 -3 -5.2 0 -3.5 -5.9 0 -2.2
 4 16 -6.7 0 -3 -6.7 0 -3.3 -6.3 0 -3.5 -5.2 0 -3.5
 
+0 STEP
 0 FILE 41903 - 25269p61.dat
 0 A single adapter ring converting triangle primitives to standard normal at quarter scale.
 0 Name: 41903 - 25269p61.dat
@@ -1147,6 +1151,7 @@
 3 16 -2.712 0 8.465 -2.878 0 8.345 -1.448 0 8.245
 3 16 8.761 0 6.439 8.832 0 6.22 10 0 10
 
+0 STEP
 0 FILE 41903 - 25269p60.dat
 0 A single adapter ring converting triangle primitives to standard normal at quarter scale.
 0 Name: 41903 - 25269p60.dat
@@ -1636,6 +1641,7 @@
 3 16 -4.204 0 7.306 -3.701 0 6.619 -3.515 0 6.754
 3 16 9.301 0 8.119 9.372 0 7.9 10 0 10
 
+0 STEP
 0 FILE 41903 - 66821k05.dat
 0 A composite bracelet stud segment built from cylinders, cones, discs, and rectangular faces.
 0 Name: 41903 - 66821k05.dat
@@ -1768,6 +1774,7 @@
 0 // Box with 3 Faces without 2 Parallel Edges (main_colour)
 1 16 -5.5434 7.75 0 0 3 0 3.25 0 0 0 0 2.2962 box3u2p.dat
 
+0 STEP
 0 FILE 41903 - 66821k04.dat
 0 A small hollow cylindrical bracelet connector formed from open cylinders and discs.
 0 Name: 41903 - 66821k04.dat
@@ -1809,6 +1816,7 @@
 3 16 -6.5 4.5 -6.5 0 4.5 -22.5 -22.5 4.5 0
 3 16 6.5 4.5 -6.5 0 4.5 -22.5 -6.5 4.5 -6.5
 
+0 STEP
 0 FILE 41903 - 66821k02.dat
 0 A single four-sided box primitive representing a bracelet band segment without top and bottom edges.
 0 Name: 41903 - 66821k02.dat
@@ -1824,6 +1832,7 @@
 0 // Box with 4 Faces (2 Parallel Pairs) without Top and Bottom Edges (main_colour)
 1 16 0 2.25 0 22.5 0 0 0 0 2.25 0 1 0 box4o8a.dat
 
+0 STEP
 0 FILE 41903 - 66821k01.dat
 0 A single four-sided box primitive representing a bracelet stud element without top and bottom edges.
 0 Name: 41903 - 66821k01.dat
@@ -1840,6 +1849,7 @@
 0 // Box with 4 Faces (2 Parallel Pairs) without Top and Bottom Edges (main_colour)
 1 16 0 2.25 -6 22.5 0 0 0 0 2.25 0 12 0 box4o8a.dat
 
+0 STEP
 0 FILE 41903 - 66821k03.dat
 0 A small hollow cylindrical bracelet connector formed from open cylinders and discs.
 0 Name: 41903 - 66821k03.dat
@@ -1872,6 +1882,7 @@
 4 16 6.5 4.5 6.5 22.5 4.5 7.5 22.5 4.5 -7.5 6.5 4.5 -6.5
 4 16 -6.5 4.5 -6.5 6.5 4.5 -6.5 22.5 4.5 -7.5 -22.5 4.5 -7.5
 
+0 STEP
 0 FILE s\41903 - 98138s02.dat
 0 A concentric ring assembly formed from nested rings and open cylinders.
 0 Name: s\41903 - 98138s02.dat

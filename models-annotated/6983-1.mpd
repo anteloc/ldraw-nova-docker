@@ -12,6 +12,7 @@
 1 0 542.637 -44 148.15 -0.956305 0 0.292372 0 1 0 -0.292372 0 -0.956305 6983 - Vehicle 2.ldr
 
 
+0 STEP
 0 FILE 6983 - Rocket.ldr
 0 Tall cylindrical rocket assembled from round bricks, cones, and fins, with a magnetic base coupling.
 0 Name: 6983 - Rocket.ldr
@@ -51,6 +52,7 @@
 1 0 0 -164 0 0 0 1 0 1 0 -1 0 0 3942b.dat
 
 
+0 STEP
 0 FILE 6983 - Rocket - Top.ldr
 0 Rocket nose assembly topped with an antenna and surrounded by four hinged control sticks.
 0 Name: 6983 - Rocket - Top.ldr
@@ -86,6 +88,7 @@
 1 0 0 -74 -18 -1 0 0 0 -0.866 0.5 0 0.5 0.866 4593.dat
 
 
+0 STEP
 0 FILE 6983 - Rocket + Rocket - Top.ldr
 0 Complete rocket combining the main body with the top nose section.
 0 Name: 6983 - Rocket + Rocket - Top.ldr
@@ -99,6 +102,7 @@
 1 0 0 -172 -10 1 0 0 0 1 0 0 0 1 6983 - Rocket - Top.ldr
 
 
+0 STEP
 0 FILE 6983 - Vehicle 1.ldr
 0 Compact tracked sled vehicle with skis, a blue control panel, and hinged components.
 0 Name: 6983 - Vehicle 1.ldr
@@ -142,6 +146,7 @@
 1 0 -32 -22 50 0 0.2588 -0.9659 0 0.9659 0.2588 1 0 0 6983 - Vehicle 1 - Hinge 2.ldr
 
 
+0 STEP
 0 FILE 6983 - Vehicle 1 - Hinge 1.ldr
 0 Small hinge detail with a trans-neon-orange cone light mounted on a finger hinge.
 0 Name: 6983 - Vehicle 1 - Hinge 1.ldr
@@ -157,6 +162,7 @@
 1 38 0 -60 0 1 0 0 0 1 0 0 0 1 4589.dat
 
 
+0 STEP
 0 FILE 6983 - Vehicle 1 - Hinge 2.ldr
 0 Hinge assembly combining a white finger plate with a blue grille tile.
 0 Name: 6983 - Vehicle 1 - Hinge 2.ldr
@@ -172,6 +178,7 @@
 1 1 0 -12 30 0 0 1 0 1 0 -1 0 0 2412b.dat
 
 
+0 STEP
 0 FILE 6983 - Vehicle 1 + Minifig.ldr
 0 Vehicle 1 sled with an accompanying minifigure.
 0 Name: 6983 - Vehicle 1 + Minifig.ldr
@@ -185,6 +192,7 @@
 1 0 -28 -61 0 0 0 -1 0 1 0 1 0 0 6983 - Minifig 2.ldr
 
 
+0 STEP
 0 FILE 6983 - Vehicle 2.ldr
 0 Articulated tracked transport vehicle composed of a front cab and rear trailer section.
 0 Name: 6983 - Vehicle 2.ldr
@@ -198,6 +206,7 @@
 1 0 0 -4 92 0.980785 0 -0.19509 0 1 0 0.19509 0 0.980785 6983 - Vehicle 2 - Back.ldr
 
 
+0 STEP
 0 FILE 6983 - Vehicle 2 - Front.ldr
 0 Front cab section of a tracked vehicle with four wheels, skis, control panels, and a towball socket.
 0 Name: 6983 - Vehicle 2 - Front.ldr
@@ -251,6 +260,7 @@
 1 38 -32 -19 62 1 0 0 0 1 0 0 0 1 6120.dat
 
 
+0 STEP
 0 FILE 6983 - Vehicle 2 - Front + Minifig.ldr
 0 Front cab section of the tracked vehicle with an accompanying minifigure.
 0 Name: 6983 - Vehicle 2 - Front + Minifig.ldr
@@ -264,6 +274,7 @@
 1 0 0 -53 8 1 0 0 0 1 0 0 0 1 6983 - Minifig 3.ldr
 
 
+0 STEP
 0 FILE 6983 - Vehicle 2 - Back.ldr
 0 Rear trailer section with six wheels, a towball joint, and a large hinge plate for cargo.
 0 Name: 6983 - Vehicle 2 - Back.ldr
@@ -314,6 +325,7 @@
 1 0 0 -2 230 1 0 0 0 0.9659 0.2588 0 -0.2588 0.9659 6983 - Vehicle 2 - Back - Rocket Holder.ldr
 
 
+0 STEP
 0 FILE 6983 - Vehicle 2 - Back - Rocket Holder.ldr
 0 Rocket-carrying cargo bay on the rear trailer with car roof holders and an inverted center slope.
 0 Name: 6983 - Vehicle 2 - Back - Rocket Holder.ldr
@@ -351,6 +363,7 @@
 1 0 -24 -22 -30 0 0.225 -0.9744 0 0.9744 0.225 1 0 0 6983 - Vehicle 2 - Back - Rocket Holder - Door.ldr
 
 
+0 STEP
 0 FILE 6983 - Vehicle 2 - Back - Rocket Holder - Door.ldr
 0 Hinged transparent cargo door with an arrow indicator tile.
 0 Name: 6983 - Vehicle 2 - Back - Rocket Holder - Door.ldr
@@ -368,6 +381,7 @@
 1 15 0 -76 -26 1 0 0 0 1 0 0 0 1 3069bp13.dat
 
 
+0 STEP
 0 FILE 6983 - Base.ldr
 0 Main station base built on a raised ice-pattern baseplate with walls, slopes, control panels, and structural plates.
 0 Name: 6983 - Base.ldr
@@ -625,6 +639,7 @@
 1 0 200 -78 332 0.866 0 -0.5 0.5 0 0.866 0 -1 0 6983 - Rocket - Top.ldr
 
 
+0 STEP
 0 FILE 6983 - Base - Fence 1.ldr
 0 Perimeter fence segment with multiple trans-neon-orange antennas and hinge plates.
 0 Name: 6983 - Base - Fence 1.ldr
@@ -654,6 +669,7 @@
 1 38 -20 -20 0 1 0 0 0 1 0 0 0 1 3957a.dat
 
 
+0 STEP
 0 FILE 6983 - Base - Fence 2.ldr
 0 Small fence post with a handle plate and a trans-neon-orange cone.
 0 Name: 6983 - Base - Fence 2.ldr
@@ -671,6 +687,7 @@
 1 38 30 -8 90 -1 0 0 0 0 1 0 1 0 4589.dat
 
 
+0 STEP
 0 FILE 6983 - Base - Seat.ldr
 0 Rotating station seat mounted on a turntable with a bracket backrest.
 0 Name: 6983 - Base - Seat.ldr
@@ -686,6 +703,7 @@
 1 15 0 -8 -10 1 0 0 0 1 0 0 0 1 4598.dat
 
 
+0 STEP
 0 FILE 6983 - Base - Platform.ldr
 0 Raised platform with a gear rack, engine connecting rods, and a grille control surface.
 0 Name: 6983 - Base - Platform.ldr
@@ -723,6 +741,7 @@
 1 7 0 -18 0 0.9781 0.2079 0 0 0 1 0.2079 -0.9781 0 2852.dat
 
 
+0 STEP
 0 FILE 6983 - Base - Tool.ldr
 0 Tool holder containing a pair of trans-neon-orange skis.
 0 Name: 6983 - Base - Tool.ldr
@@ -740,6 +759,7 @@
 1 38 -13 12 0 0 1 0 0 0 1 1 0 0 6120.dat
 
 
+0 STEP
 0 FILE 6983 - Base - Radar 1.ldr
 0 Large radar dish on a jet engine mount, hinged for adjustable angle with an antenna.
 0 Name: 6983 - Base - Radar 1.ldr
@@ -765,6 +785,7 @@
 1 38 0 6 220 0 0 -1 -1 0 0 0 1 0 3957a.dat
 
 
+0 STEP
 0 FILE 6983 - Base - Radar 2.ldr
 0 Turntable-mounted secondary radar assembly with a side hinge plate.
 0 Name: 6983 - Base - Radar 2.ldr
@@ -783,6 +804,7 @@
 1 0 0 -12 -10 1 0 0 0 -0.5 0.866 0 -0.866 -0.5 6983 - Base - Radar 2 - 1.ldr
 
 
+0 STEP
 0 FILE 6983 - Base - Radar 2 - 1.ldr
 0 Hinge sub-assembly with a white finger tile and top for the secondary radar.
 0 Name: 6983 - Base - Radar 2 - 1.ldr
@@ -799,6 +821,7 @@
 1 0 0 22 -30 0.9659 -0.2588 0 -0.2588 -0.9659 0 0 0 -1 6983 - Base - Radar 2 - 2.ldr
 
 
+0 STEP
 0 FILE 6983 - Base - Radar 2 - 2.ldr
 0 Large blue Ice Planet-patterned radar panel blade.
 0 Name: 6983 - Base - Radar 2 - 2.ldr
@@ -812,6 +835,7 @@
 1 1 0 -10 0 1 0 0 0 1 0 0 0 1 2440p67.dat
 
 
+0 STEP
 0 FILE 6983 - Base - Rocket Holder.ldr
 0 Rocket storage rack on the base with towball mounts, car roof holders, and steering links.
 0 Name: 6983 - Base - Rocket Holder.ldr
@@ -863,6 +887,7 @@
 1 38 30 -20 16 0.2588 0 0.9659 0 1 0 -0.9659 0 0.2588 6141.dat
 
 
+0 STEP
 0 FILE 6983 - Base - Rocket Holder - Door.ldr
 0 A hinged door assembly with a neon-orange panel, black plate, and arrow indicator tile.
 0 Name: 6983 - Base - Rocket Holder - Door.ldr
@@ -880,6 +905,7 @@
 1 15 0 -76 26 -1 0 0 0 1 0 0 0 -1 3069bp13.dat
 
 
+0 STEP
 0 FILE 6983 - Base - Rocket Holder + Rocket.ldr
 0 A combined rocket holder and rocket assembly that groups the door and rocket submodels.
 0 Name: 6983 - Base - Rocket Holder + Rocket.ldr
@@ -893,6 +919,7 @@
 1 0 10 -60 156 0 0 1 -1 0 0 0 -1 0 6983 - Rocket + Rocket - Top.ldr
 
 
+0 STEP
 0 FILE 6983 - Base - Crane.ldr
 0 A crane base built on a turntable with supporting bricks and a black plate foundation.
 0 Name: 6983 - Base - Crane.ldr
@@ -915,6 +942,7 @@
 1 0 0 -48 0 -0.7071 0 0.7071 0 1 0 -0.7071 0 -0.7071 6983 - Base - Crane - 1.ldr
 
 
+0 STEP
 0 FILE 6983 - Base - Crane - 1.ldr
 0 The first crane arm segment using a turntable top and red/blue hinge plates.
 0 Name: 6983 - Base - Crane - 1.ldr
@@ -933,6 +961,7 @@
 1 0 0 -6 50 -1 0 0 0 -0.5 -0.866 0 -0.866 0.5 6983 - Base - Crane - 2.ldr
 
 
+0 STEP
 0 FILE 6983 - Base - Crane - 2.ldr
 0 A second linked hinge arm segment composed of blue hinge plates and a red pivot.
 0 Name: 6983 - Base - Crane - 2.ldr
@@ -951,6 +980,7 @@
 1 0 0 -16 100 -1 0 0 0 0.7071 -0.7071 0 -0.7071 -0.7071 6983 - Base - Crane - 3.ldr
 
 
+0 STEP
 0 FILE 6983 - Base - Crane - 3.ldr
 0 An articulated crane tip with grille tiles, a Technic pin joint, and an Ice Planet logo tile.
 0 Name: 6983 - Base - Crane - 3.ldr
@@ -977,6 +1007,7 @@
 1 0 0 0 140 1 0 0 0 1 0 0 0 1 6983 - Base - Crane - 4.ldr
 
 
+0 STEP
 0 FILE 6983 - Base - Crane - 4.ldr
 0 A blue magnet holder attached to the crane's end for grabbing payloads.
 0 Name: 6983 - Base - Crane - 4.ldr
@@ -991,6 +1022,7 @@
 1 0 0 -1 26.6 1 0 0 0 1 0 0 0 1 6983 - Base - Crane - 5 + Rocket.ldr
 
 
+0 STEP
 0 FILE 6983 - Base - Crane - 5.ldr
 0 A cylindrical magnet in black casing providing the crane's lifting magnet.
 0 Name: 6983 - Base - Crane - 5.ldr
@@ -1004,6 +1036,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 2959c01.dat
 
 
+0 STEP
 0 FILE 6983 - Base - Crane - 5 + Rocket.ldr
 0 A display of the crane magnet assembly holding a rocket.
 0 Name: 6983 - Base - Crane - 5 + Rocket.ldr
@@ -1017,6 +1050,7 @@
 1 0 0 0 40.6 0 0.5 0.866 0 0.866 -0.5 -1 0 0 6983 - Rocket.ldr
 
 
+0 STEP
 0 FILE 6983 - Base + Minifig.ldr
 0 The completed launch base assembly populated with minifigures.
 0 Name: 6983 - Base + Minifig.ldr
@@ -1030,6 +1064,7 @@
 1 0 -210 -216 80 1 0 0 0 1 0 0 0 1 6983 - Minifig 1.ldr
 
 
+0 STEP
 0 FILE 6983 - Minifig 1.ldr
 0 An Ice Planet astronaut minifigure with a gold-patterned torso, airtanks, and blue hands.
 0 Name: 6983 - Minifig 1.ldr
@@ -1062,6 +1097,7 @@
 1 0 0 44 0 1 0 0 0 1 0 0 0 1 3817.dat
 
 
+0 STEP
 0 FILE 6983 - Minifig 1 - Helmet.ldr
 0 A white space helmet with a trans-neon-orange shielded visor and antenna.
 0 Name: 6983 - Minifig 1 - Helmet.ldr
@@ -1077,6 +1113,7 @@
 1 38 0 1.904 4.596 1 0 0 0 0.707107 0.707107 0 -0.707107 0.707107 6119.dat
 
 
+0 STEP
 0 FILE 6983 - Minifig 2.ldr
 0 A female Ice Planet astronaut minifigure with a silver-patterned torso and airtanks.
 0 Name: 6983 - Minifig 2.ldr
@@ -1109,6 +1146,7 @@
 1 1 21.255 11.4821 -21.1381 0.985 0.168707 0.0207147 -0.17 0.97751 0.120023 0 -0.121851 0.992396 3820.dat
 
 
+0 STEP
 0 FILE 6983 - Minifig 2 - Helmet.ldr
 0 A white space helmet with a trans-neon-orange shielded visor and antenna.
 0 Name: 6983 - Minifig 2 - Helmet.ldr
@@ -1124,6 +1162,7 @@
 1 38 0 0 0 1 0 0 0 1 0 0 0 1 6119.dat
 
 
+0 STEP
 0 FILE 6983 - Minifig 3.ldr
 0 An Ice Planet astronaut minifigure with messy white hair, silver-patterned torso, and airtanks.
 0 Name: 6983 - Minifig 3.ldr
@@ -1156,6 +1195,7 @@
 1 0 0 44 0 1 0 0 0 0 1 0 -1 0 3817.dat
 
 
+0 STEP
 0 FILE 6983 - Minifig 3 - Helmet.ldr
 0 A white space helmet with a trans-neon-orange shielded visor and antenna.
 0 Name: 6983 - Minifig 3 - Helmet.ldr

@@ -27,6 +27,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 6598 - main PD building.ldr 
 0 Main police department building with tall white pillars, blue brick walls, doors, and a green road baseplate.
 0 Name: 6598 - main PD building.ldr 
@@ -484,6 +485,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 6598 - jail building.ldr 
 0 Compact jail building with grey brick walls, grille tile, and hinges mounted on a green baseplate.
 0 Name: 6598 - jail building.ldr 
@@ -718,6 +720,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 6598 - police helicopter.ldr 
 0 Black and blue police helicopter with rotor plates, control sticks, and sloped fuselage panels.
 0 Name: 6598 - police helicopter.ldr 
@@ -880,6 +883,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 6598 - police car.ldr 
 0 Sleek blue and red police car with mudguard, wheel pins, and translucent light plates.
 0 Name: 6598 - police car.ldr 
@@ -1020,6 +1024,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 6598 - police boat.ldr 
 0 Black police patrol boat with bow plates, seats, cones, and sloped hull sections.
 0 Name: 6598 - police boat.ldr 
@@ -1152,6 +1157,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 6598 - police motorbike.ldr 
 0 White police motorcycle with 'POLICE' decals, control stick, and two wheeled tyres.
 0 Name: 6598 - police motorbike.ldr 
@@ -1188,6 +1194,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 6598 - policeman 1.ldr 
 0 Police officer minifigure wearing a white helmet with visor, sunglasses, and a zippered jacket with police logo.
 0 Name: 6598 - policeman 1.ldr 
@@ -1222,6 +1229,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 6598 - policeman 2.ldr 
 0 Police officer minifigure wearing a white helmet with black visor, sunglasses, and a zippered jacket with police logo.
 0 Name: 6598 - policeman 2.ldr 
@@ -1256,6 +1264,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 6598 - policeman 3.ldr 
 0 Police officer minifigure wearing a black cap, sunglasses, and a vest torso with police badge.
 0 Name: 6598 - policeman 3.ldr 
@@ -1288,6 +1297,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 6598 - policeman 4.ldr 
 0 Police officer minifigure wearing a white cap, sunglasses, a vest torso with police badge, and a yellow lifevest.
 0 Name: 6598 - policeman 4.ldr 
@@ -1322,6 +1332,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 6598 - policeman 5.ldr 
 0 Police officer minifigure with black hair, moustache, and a jacket-and-tie torso with police badge.
 0 Name: 6598 - policeman 5.ldr 
@@ -1354,6 +1365,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 6598 - women.ldr 
 0 Female civilian minifigure with ponytail hair, white shirt with pockets, and black legs.
 0 Name: 6598 - women.ldr 
@@ -1386,6 +1398,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 6598 - prisoner.ldr 
 0 Prisoner minifigure with black hair, pointed moustache, and a striped jail outfit printed with number 23768.
 0 Name: 6598 - prisoner.ldr 
@@ -1418,6 +1431,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 6598 - 4480c01.dat 
 0 Three-part motorcycle frame sub-assembly consisting of left side, right side, and forks.
 0 Bike  2 Wheel Motorcycle Frame  3 x  6 x  3 (Complete)
@@ -1437,6 +1451,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 6598 - 4481.dat 
 0 Primitive wheel sub-assembly built from cylinders, rectangles, and the LEGO stud logo.
 0 ~Bike  2 Wheel Motorcycle Frame  3 x  6 x  3 - Left Side
@@ -1509,6 +1524,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 6598 - 4480.dat 
 0 Primitive motorcycle sub-assembly composed of geometric rear body, cylinders, and connecting pieces.
 0 ~Bike  2 Wheel Motorcycle Frame  3 x  6 x  3 - Right Side
@@ -1682,6 +1698,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 6598 - 4481s01.dat 
 0 Primitive wheel sub-model constructed from geometric rectangles, circles, cylinders, and rings.
 0 ~Bike  2 Wheel Motorcycle Frame  3 x  6 x  3 - Left/Right
@@ -2665,6 +2682,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 6598 - logo5.dat 
 0 Empty logo placeholder sub-model with no direct pieces.
 0 LEGO Logo for Studs - 3D Flattened

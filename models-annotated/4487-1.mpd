@@ -10,6 +10,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 4487 - Jedi Starfighter.ldr
 1 0 -40 -60 272 1 0 0 0 0 -1 0 1 0 4487 - Slave I.ldr
 
+0 STEP
 0 FILE 4487 - Jedi Starfighter.ldr
 0 Compact dark-red starfighter mini build featuring wings, a patterned cockpit tile, and curved white detailing.
 0 Name: 4487 - Jedi Starfighter.ldr
@@ -71,6 +72,7 @@
 
 
 
+0 STEP
 0 FILE 4487 - Slave I.ldr
 0 Angular dark-blue starship mini build with sloped armor, sand-green patterned wedge plates, and engine cones.
 0 Name: 4487 - Slave I.ldr

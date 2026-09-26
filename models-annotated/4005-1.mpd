@@ -9,6 +9,7 @@
 1 15 0 0 0 1 0 0 0 1 0 0 0 1 4005 - boat.ldr
 1 16 190 0 70 1 0 0 0 1 0 0 0 1 4005 - minifig.ldr
 
+0 STEP
 0 FILE 4005 - boat.ldr
 0 A boat built from bow, middle, and stern hull sections with deck plates and reinforcing bricks.
 0 Name: 4005 - boat.ldr
@@ -145,6 +146,7 @@
 1 0 -30 -22 -20 -1 0 0 0 0 -1 0 -1 0 4349.dat
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 4005 - rope.ldr
 
+0 STEP
 0 FILE 4005 - minifig.ldr
 0 A blue-torsoed minifig wearing a police hat with standard grin head and black legs.
 0 Name: 4005 - minifig.ldr
@@ -174,6 +176,7 @@
 0 // Minifig Police Hat (black)
 1 0 0 -16 0 1 0 0 0 1 0 0 0 1 3624.dat
 
+0 STEP
 0 FILE 4005 - LS60.dat
 0 A short straight string segment used for LSynth rigging simulation.
 0 Name: 4005 - LS60.dat 
@@ -209,6 +212,7 @@
 3 8 0.866026 -0.5 -1 0.5 -0.866026 1 1 0 1
 3 16 0 0 -1 0 -1 -1 0.866 -0.5 -1
 
+0 STEP
 0 FILE 4005 - LS04.dat
 0 An LSynth constraint part defining a type-4 string attachment point.
 0 Name: 4005 - LS04.dat 
@@ -270,6 +274,7 @@
 4 16 -0.195 0 -0.866 0 -4 -0.5 0 -4 -1.4 -0.195 0 -1.4
 3 16 0.195 0 -1.4 -0.195 0 -1.4 0 -4 -1.4
 
+0 STEP
 0 FILE 4005 - rope.ldr
 0 A rope assembly composed of LSynth string segments with no direct physical pieces.
 0 Name: 4005 - rope.ldr

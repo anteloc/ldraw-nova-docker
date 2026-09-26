@@ -19,6 +19,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 7140 - Ship.ldr
 
 
+0 STEP
 0 FILE 7140 - Minifig - Luke Skywalker.ldr
 0 Luke Skywalker minifigure in orange Rebel Pilot flight suit with white helmet bearing the red Rebel logo.
 0 Name: 7140 - Minifig - Luke Skywalker.ldr
@@ -51,6 +52,7 @@
 1 15 0 -116.324 -81.626 1 0 0 0 0.990268 -0.139173 0 0.139173 0.990268 30370ps2.dat
 
 
+0 STEP
 0 FILE 7140 - Minifig - Biggs Darklighter.ldr
 0 Biggs Darklighter minifigure in orange Rebel Pilot flight suit with white checkered-pattern pilot helmet.
 0 Name: 7140 - Minifig - Biggs Darklighter.ldr
@@ -83,6 +85,7 @@
 1 15 0 -24 0 1 0 0 0 1 0 0 0 1 30370ps4.dat
 
 
+0 STEP
 0 FILE 7140 - Minifig - Rebel Technician.ldr
 0 Tan-uniformed Rebel mechanic minifigure with cap, equipped with tools for vehicle maintenance.
 0 Name: 7140 - Minifig - Rebel Technician.ldr
@@ -115,6 +118,7 @@
 1 19 0 -24 0 1 0 0 0 1 0 0 0 1 4485.dat
 
 
+0 STEP
 0 FILE 7140 - Minifig - R2-D2.ldr
 0 R2-D2 astromech droid minifigure with white and blue dome head and cylindrical body on robot legs.
 0 Name: 7140 - Minifig - R2-D2.ldr
@@ -134,6 +138,7 @@
 1 15 0 -34 0 1 0 0 0 1 0 0 0 1 30367aps1.dat
 
 
+0 STEP
 0 FILE 7140 - Support Vehicle Section 1.ldr
 0 Front section of the support vehicle featuring a towball socket plate, console tiles, and control sticks.
 0 Name: 7140 - Support Vehicle Section 1.ldr
@@ -189,6 +194,7 @@
 1 46 10 -40 10 1 0 0 0 1 0 0 0 1 4589.dat
 
 
+0 STEP
 0 FILE 7140 - Support Vehicle Section 2.ldr
 0 Middle section of the support vehicle connecting towball plates with a light grey base plate and black bricks.
 0 Name: 7140 - Support Vehicle Section 2.ldr
@@ -227,6 +233,7 @@
 1 14 30 -40 0 0 0 -1 0 1 0 1 0 0 2431.dat
 
 
+0 STEP
 0 FILE 7140 - Support Vehicle Section 3.ldr
 0 Rear section of the support vehicle equipped with assorted mechanic tools including wrenches, hammer, and drill.
 0 Name: 7140 - Support Vehicle Section 3.ldr
@@ -301,6 +308,7 @@
 1 0 30 -40.046 -50 0.207912 0 0.978148 0 1 0 -0.978148 0 0.207912 55296.dat
 
 
+0 STEP
 0 FILE 7140 - Support Vehicle.ldr
 0 Towed Rebel maintenance vehicle assembled from three sections connected by towball joints with tools and a flexible hose.
 0 Name: 7140 - Support Vehicle.ldr
@@ -313,6 +321,7 @@
 1 16 0 0 110 0 0 -1 0 1 0 1 0 0 7140 - Support Vehicle Section 3.ldr
 
 
+0 STEP
 0 FILE 7140 - Ship.ldr
 0 Main fuselage of the starfighter built from grey and red plates with computer console tiles and sloped hull pieces.
 0 Name: 7140 - Ship.ldr
@@ -551,6 +560,7 @@
 
 
 
+0 STEP
 0 FILE 7140 - Ship Nose.ldr
 0 Tapered forward nose section with sloped grey pieces, red wing plates, and hinge elements for connecting to the main body.
 0 Name: 7140 - Ship Nose.ldr
@@ -613,6 +623,7 @@
 
 
 
+0 STEP
 0 FILE 7140 - Cockpit Rear.ldr
 0 Rear cockpit assembly with hinge bricks in dark grey and tan plates for canopy articulation.
 0 Name: 7140 - Cockpit Rear.ldr
@@ -635,6 +646,7 @@
 
 
 
+0 STEP
 0 FILE 7140 - Lower Left Wing.ldr
 0 Lower port S-foil wing with a left-wing element, red grille tiles, an engine cylinder, and hinge connection to the fuselage.
 0 Name: 7140 - Lower Left Wing.ldr
@@ -675,6 +687,7 @@
 
 
 
+0 STEP
 0 FILE 7140 - Lower Right Wing.ldr
 0 Lower starboard S-foil wing with a right-wing element, red grille tiles, an engine cylinder, and hinge connection to the fuselage.
 0 Name: 7140 - Lower Right Wing.ldr
@@ -715,6 +728,7 @@
 
 
 
+0 STEP
 0 FILE 7140 - Upper Left Wing.ldr
 0 Upper port S-foil wing with a left-wing element, red stripe tiles, and hinge bricks for positioning into attack formation.
 0 Name: 7140 - Upper Left Wing.ldr
@@ -753,6 +767,7 @@
 
 
 
+0 STEP
 0 FILE 7140 - Upper Left Wing Engine.ldr
 0 Port upper wing engine nacelle built from a horizontal cylinder with a red grille vent and slope detail.
 0 Name: 7140 - Upper Left Wing Engine.ldr
@@ -770,6 +785,7 @@
 
 
 
+0 STEP
 0 FILE 7140 - Upper Right Wing.ldr
 0 Upper starboard S-foil wing with a right-wing element, red stripe tiles, and hinge bricks for positioning into attack formation.
 0 Name: 7140 - Upper Right Wing.ldr
@@ -808,6 +824,7 @@
 
 
 
+0 STEP
 0 FILE 7140 - Upper Right Wing Engine.ldr
 0 Starboard upper wing engine nacelle built from a horizontal cylinder with a red grille vent and slope detail.
 0 Name: 7140 - Upper Right Wing Engine.ldr
@@ -825,6 +842,7 @@
 
 
 
+0 STEP
 0 FILE 7140 - Rear Engines.ldr
 0 Rear engine exhaust assembly with round trans-neon-orange thrust nozzles mounted on a round axlehole plate.
 0 Name: 7140 - Rear Engines.ldr
@@ -845,6 +863,7 @@
 
 
 
+0 STEP
 0 FILE 7140 - Landing Gear Bow.ldr
 0 Forward landing gear strut with a hinged ski element and round light grey support pieces.
 0 Name: 7140 - Landing Gear Bow.ldr
@@ -866,6 +885,7 @@
 1 7 0 0 0 -1 0 0 0 1 0 0 0 -1 3665.dat
 
 
+0 STEP
 0 FILE 7140 - Landing Gear Tail.ldr
 0 Tail landing gear assembly composed of light grey plates and a large double slope element.
 0 Name: 7140 - Landing Gear Tail.ldr
@@ -882,6 +902,7 @@
 1 7 0 -8 0 0 0 -1 0 1 0 1 0 0 30180.dat
 
 
+0 STEP
 0 FILE 7140 - Support Vehicle - Hose.ldr
 0 Long flexible grey hose assembly made of many connected segments with end fittings for the support vehicle.
 0 Name: 7140 - Support Vehicle - Hose.ldr

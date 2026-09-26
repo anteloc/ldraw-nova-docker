@@ -683,6 +683,7 @@
 
 
 
+0 STEP
 0 FILE 42041 - Motor.ldr
 0 Inline piston engine assembly with cylinders, crankshaft, connecting rods, and pistons mounted on a 5x3 Technic brick base.
 0 Name: 42041 - Motor.ldr
@@ -830,6 +831,7 @@
 
 
 
+0 STEP
 0 FILE 42041 - rearaxle.ldr
 0 Rear axle unit featuring an open-center liftarm frame, differential with bevel gears, and axle joiners for wheel mounting.
 0 Name: 42041 - rearaxle.ldr
@@ -951,6 +953,7 @@
 
 
 
+0 STEP
 0 FILE 42041 - radiator.ldr
 0 Cooling radiator built around a 6x6 plate covered with grille tiles, attached via cross blocks and a long liftarm.
 0 Name: 42041 - radiator.ldr
@@ -1010,6 +1013,7 @@
 
 
 
+0 STEP
 0 FILE 42041 - seats.ldr
 0 Two-seat interior assembly constructed from bent liftarms, axles, and a yellow steering knob connected by a cross block.
 0 Name: 42041 - seats.ldr
@@ -1051,6 +1055,7 @@
 
 
 
+0 STEP
 0 FILE 42041 - frontradiator.ldr
 0 Front-mounted radiator and dashboard section with fairing panels, a steering wheel, angle connectors, and a long support beam.
 0 Name: 42041 - frontradiator.ldr
@@ -1153,6 +1158,7 @@
 
 
 
+0 STEP
 0 FILE 42041 - rearplate.ldr
 0 Rear support plate framework made of interconnected liftarms and angle connectors joined by long pins.
 0 Name: 42041 - rearplate.ldr
@@ -1225,6 +1231,7 @@
 
 
 
+0 STEP
 0 FILE 42041 - rearbumper.ldr
 0 Rear bumper constructed from long axles, bent angle connectors, short liftarms, and round trans-red light plates.
 0 Name: 42041 - rearbumper.ldr
@@ -1277,6 +1284,7 @@
 
 
 
+0 STEP
 0 FILE 42041 - exhaust.ldr
 0 Side exhaust pipe assembly using a long axle threaded through round bricks and angle connectors to form a stacked muffler.
 0 Name: 42041 - exhaust.ldr
@@ -1325,6 +1333,7 @@
 
 
 
+0 STEP
 0 FILE 42041 - frontbumper.ldr
 0 Front bumper assembly of red bent liftarms, axles, pin joiners, and clear round light plates forming a push bar.
 0 Name: 42041 - frontbumper.ldr
@@ -1383,6 +1392,7 @@
 
 
 
+0 STEP
 0 FILE 42041 - technicRibHoseLQ-1.ldr
 0 Flexible ribbed hose formed from 48 ribbed hose segments with two end caps.
 0 Name: 42041 - technicRibHoseLQ-1.ldr

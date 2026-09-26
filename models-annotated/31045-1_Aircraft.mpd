@@ -197,6 +197,7 @@
 1 4 40 8 -20 1 0 0 0 1 0 0 0 1 2654.dat
 
 
+0 STEP
 0 FILE 31045 - Nose.ldr
 0 A tapered dark blue and red nose assembly built from 45-degree and 31-degree slope bricks with black connector plates.
 0 Name: 31045 - Nose.ldr
@@ -225,6 +226,7 @@
 0 // =Slope Brick 31  1 x  1 x  0.667 (red)
 1 4 -10 -8 20 0 0 1 0 1 0 -1 0 0 50746.dat
 
+0 STEP
 0 FILE 31045 - Wing left.ldr
 0 A left wing section composed of layered white and colored plates with a red translucent round accent and a grooved tile surface.
 0 Name: 31045 - Wing left.ldr
@@ -256,6 +258,7 @@
 0 // Plate  1 x  1 Round (trans_red)
 1 36 50 -16 10 -1 0 0 0 1 0 0 0 -1 6141.dat
 
+0 STEP
 0 FILE 31045 - Wing right.ldr
 0 A right wing section mirroring the left wing, with layered white and colored plates and a green translucent round accent.
 0 Name: 31045 - Wing right.ldr
@@ -288,6 +291,7 @@
 0 // Plate  1 x  1 Round (trans_green)
 1 34 -50 -16 10 -1 0 0 0 1 0 0 0 -1 6141.dat
 
+0 STEP
 0 FILE 31045 - Tail.ldr
 0 A tail assembly featuring dark blue wing plates, red and yellow support plates, curved slopes, and red and green translucent indicator lights.
 0 Name: 31045 - Tail.ldr
@@ -343,6 +347,7 @@
 0 // Slope Brick 45  2 x  1 (dark_blue)
 1 272 0 -72 10 1 0 0 0 1 0 0 0 1 3040b.dat
 
+0 STEP
 0 FILE 31045 - Engine.ldr
 0 A compact engine pod built from side-stud bricks, round tiles, and a round hole tile, mounted on a yellow base plate.
 0 Name: 31045 - Engine.ldr

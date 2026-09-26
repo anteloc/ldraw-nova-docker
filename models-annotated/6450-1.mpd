@@ -14,6 +14,7 @@
 1 15 -4.999 -40 -157.941 0.5 0 0.866 0 1 0 -0.866 0 0.5 6450 - policemen.ldr
 
 0 NOFILE
+0 STEP
 0 FILE 6450 - car.ldr
 0 A black LEGO car with mudguards, wheel pins, steering stand, and white detailing pieces.
 0 car
@@ -180,6 +181,7 @@
 1 46 -194.001 -38 40 0 1 0 0 0 -1 -1 0 0 3024.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6450 - road sign 1.ldr
 0 A white road sign with a red warning triangle pattern.
 0 road sign 1
@@ -196,6 +198,7 @@
 1 15 0 -10 -1 1 0 0 0 0 -1 0 1 0 3023.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6450 - road sign 2.ldr
 0 A white road sign with a blue disc and diagonal arrow pattern.
 0 road sign 2
@@ -212,6 +215,7 @@
 1 15 19 -7 0 0 1 0 0 0 1 1 0 0 3023.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6450 - policemen.ldr
 0 A black-uniformed police minifigure with white hat, badge torso, and yellow head and hands.
 0 policemen

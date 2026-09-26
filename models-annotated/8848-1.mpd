@@ -332,6 +332,7 @@
 
 
 
+0 STEP
 0 FILE 8848 - tipper.ldr
 0 Large flat red dump bed built from assorted plates and long bricks forming the cargo tray.
 0 Name: 8848 - tipper.ldr
@@ -394,6 +395,7 @@
 
 
 
+0 STEP
 0 FILE 8848 - front_tipper.ldr
 0 Yellow front section of the tipper bed made of long plates and technic bricks with holes.
 0 Name: 8848 - front_tipper.ldr
@@ -428,6 +430,7 @@
 
 
 
+0 STEP
 0 FILE 8848 - front_tipper1.ldr
 0 Small yellow technic brick and pin connector forming a hinged front tipper mount.
 0 Name: 8848 - front_tipper1.ldr
@@ -446,6 +449,7 @@
 
 
 
+0 STEP
 0 FILE 8848 - front_tipper2.ldr
 0 Yellow front tipper wall panel with tipper end pieces mounted on long plates.
 0 Name: 8848 - front_tipper2.ldr
@@ -470,6 +474,7 @@
 
 
 
+0 STEP
 0 FILE 8848 - chassis_back1.ldr
 0 Rear chassis subframe built from layered black plates providing structural support.
 0 Name: 8848 - chassis_back1.ldr
@@ -502,6 +507,7 @@
 
 
 
+0 STEP
 0 FILE 8848 - chassis_back2.ldr
 0 Additional rear chassis plate layer of black plates reinforcing the back frame.
 0 Name: 8848 - chassis_back2.ldr
@@ -524,6 +530,7 @@
 
 
 
+0 STEP
 0 FILE 8848 - power_train_front.ldr
 0 Front driveshaft assembly using a universal joint, bevel gear, and axles to transmit power.
 0 Name: 8848 - power_train_front.ldr
@@ -564,6 +571,7 @@
 
 
 
+0 STEP
 0 FILE 8848 - front-axle.ldr
 0 Front axle mounting plate built from technic plates with holes and small bricks.
 0 Name: 8848 - front-axle.ldr
@@ -586,6 +594,7 @@
 
 
 
+0 STEP
 0 FILE 8848 - steerleft.ldr
 0 Left steering wheel assembly consisting of a steering arm, axle, and bushings.
 0 Name: 8848 - steerleft.ldr
@@ -606,6 +615,7 @@
 
 
 
+0 STEP
 0 FILE 8848 - steerright.ldr
 0 Right steering wheel assembly consisting of a steering arm, axle, and bushings.
 0 Name: 8848 - steerright.ldr
@@ -626,6 +636,7 @@
 
 
 
+0 STEP
 0 FILE 8848 - steerrack.ldr
 0 Steering rack unit combining a gear rack with technic plates for rack-and-pinion steering.
 0 Name: 8848 - steerrack.ldr
@@ -646,6 +657,7 @@
 
 
 
+0 STEP
 0 FILE 8848 - power_train_back.ldr
 0 Rear powertrain section with a bevel gear, axle, and bushing connecting to the driveshaft.
 0 Name: 8848 - power_train_back.ldr
@@ -666,6 +678,7 @@
 
 
 
+0 STEP
 0 FILE 8848 - tipper2.ldr
 0 Tipper lifting gearbox using 8-tooth gears, an axle, and toggle connectors to drive the bed.
 0 Name: 8848 - tipper2.ldr
@@ -708,6 +721,7 @@
 
 
 
+0 STEP
 0 FILE 8848 - tipper3.ldr
 0 Tipper actuation rack combining a gear rack and technic plate for linear lifting motion.
 0 Name: 8848 - tipper3.ldr
@@ -726,6 +740,7 @@
 
 
 
+0 STEP
 0 FILE 8848 - tipper4-l.ldr
 0 Left toggle-joint linkage arm using toothed connectors and an axle for the tipper lift.
 0 Name: 8848 - tipper4-l.ldr
@@ -747,6 +762,7 @@
 
 
 
+0 STEP
 0 FILE 8848 - tipper4-r.ldr
 0 Right toggle-joint linkage arm using toothed connectors and an axle for the tipper lift.
 0 Name: 8848 - tipper4-r.ldr
@@ -768,6 +784,7 @@
 
 
 
+0 STEP
 0 FILE 8848 - tipper_mech1.ldr
 0 Tipper lifting linkage mechanism built from toggle joints, axles, and pin connectors.
 0 Name: 8848 - tipper_mech1.ldr
@@ -820,6 +837,7 @@
 
 
 
+0 STEP
 0 FILE 8848 - steering_mech1.ldr
 0 Steering gearbox with 8-tooth and bevel gears on an axle to transfer steering rotation.
 0 Name: 8848 - steering_mech1.ldr
@@ -848,6 +866,7 @@
 
 
 
+0 STEP
 0 FILE 8848 - levers.ldr
 0 Control lever assembly using long technic bricks, 24-tooth gears, and pins for actuation.
 0 Name: 8848 - levers.ldr
@@ -882,6 +901,7 @@
 
 
 
+0 STEP
 0 FILE 8848 - steering_mech2.ldr
 0 Steering mechanism housing with technic plates, bevel gear, pulley wheel, and pin connectors.
 0 Name: 8848 - steering_mech2.ldr
@@ -946,6 +966,7 @@
 
 
 
+0 STEP
 0 FILE 8848 - tipper_mech2.ldr
 0 Tipper mechanism gear linkage using a 24-tooth gear, toggle joints, and axles.
 0 Name: 8848 - tipper_mech2.ldr
@@ -976,6 +997,7 @@
 
 
 
+0 STEP
 0 FILE 8848 - cabin1.ldr
 0 Red brick cabin walls constructed from bricks and plates forming the driver's cab body.
 0 Name: 8848 - cabin1.ldr
@@ -1034,6 +1056,7 @@
 
 
 
+0 STEP
 0 FILE 8848 - cabin2.ldr
 0 Red plate cabin roof assembly covering the cab structure.
 0 Name: 8848 - cabin2.ldr
@@ -1066,6 +1089,7 @@
 
 
 
+0 STEP
 0 FILE 8848 - cabin3.ldr
 0 Single red plate forming a small cabin detail or trim piece.
 0 Name: 8848 - cabin3.ldr

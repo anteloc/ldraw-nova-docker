@@ -7,6 +7,7 @@
 1 27 0 0 0 1 0 0 0 1 0 0 0 1 31031 - Fish.ldr
 
 
+0 STEP
 0 FILE 31031 - Fish.ldr
 0 Sculpted fish body built from green and lime plates, wings, and curved slopes with printed eye tiles and articulated joint sockets for the fins.
 0 Name: 31031 - Fish.ldr
@@ -226,6 +227,7 @@
 1 0 0 -38.887 109.598 -1 0 0 0 -0.707 0.707 0 0.707 0.707 31031 - Fin.ldr
 
 
+0 STEP
 0 FILE 31031 - Side.ldr
 0 Small decorative side fin assembly composed of green and lime curved slope bricks mounted on a black plate.
 0 Name: 31031 - Side.ldr
@@ -244,6 +246,7 @@
 1 27 0 8 -10 0 0 -1 0 1 0 1 0 0 93273.dat
 
 
+0 STEP
 0 FILE 31031 - Fin.ldr
 0 Articulated fin made from a locking hinge plate, a green plate, and a blue curved slope brick that allows adjustable positioning.
 0 Name: 31031 - Fin.ldr

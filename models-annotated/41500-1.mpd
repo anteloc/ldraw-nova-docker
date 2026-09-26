@@ -13,6 +13,7 @@
 1 0 0 -87.588 -1.679 1 0 0 0 0.866 -0.5 0 0.5 0.866 41500 - Head.ldr
 
 
+0 STEP
 0 FILE 41500 - Body.ldr
 0 Red and dark-red torso assembly built from socket-joint plates, slope bricks, and a bracket, forming the central body core with arm and leg attachment points.
 0 Name: 41500 - Body.ldr
@@ -44,6 +45,7 @@
 0 // Hinge  1 x  2 Base (red)
 1 4 0 -72 -10 1 0 0 0 1 0 0 0 1 3937.dat
 
+0 STEP
 0 FILE 41500 - Leg Left.ldr
 0 Red and dark-red leg with a white toothed tile and a technic towball joint for poseable hip articulation.
 0 Name: 41500 - Leg Left.ldr
@@ -59,6 +61,7 @@
 0 // Technic Axle Towball (light_bluish_grey)
 1 71 0 -10 10 0 0 1 1 0 0 0 1 0 2736.dat
 
+0 STEP
 0 FILE 41500 - Leg Right.ldr
 0 Red and dark-red leg with a white toothed tile and a technic towball joint for poseable hip articulation.
 0 Name: 41500 - Leg Right.ldr
@@ -74,6 +77,7 @@
 0 // Technic Axle Towball (light_bluish_grey)
 1 71 0 -10 10 0 0 1 1 0 0 0 1 0 2736.dat
 
+0 STEP
 0 FILE 41500 - Arm Left.ldr
 0 Red and dark-red arm built from clip plates and a small slope brick, designed to attach to the body via clips.
 0 Name: 41500 - Arm Left.ldr
@@ -87,6 +91,7 @@
 0 // Slope Brick 31  1 x  1 x  0.667 (dark_red)
 1 320 -10 0 0 0 0 1 0 1 0 -1 0 0 54200.dat
 
+0 STEP
 0 FILE 41500 - Arm Right.ldr
 0 Red and dark-red arm built from clip plates and a small slope brick, designed to attach to the body via clips.
 0 Name: 41500 - Arm Right.ldr
@@ -100,6 +105,7 @@
 0 // Slope Brick 31  1 x  1 x  0.667 (dark_red)
 1 320 10 0 0 0 0 -1 0 1 0 1 0 0 54200.dat
 
+0 STEP
 0 FILE 41500 - Head.ldr
 0 Detailed red and dark-red head featuring printed eyes with pupils, curved slope beak, dark-red wing, and two trans-neon-orange flames representing the character's fiery hair.
 0 Name: 41500 - Head.ldr
@@ -171,6 +177,7 @@
 0 // Hinge  2 x  2 Top (black)
 1 0 0 8 -20 1 0 0 0 1 0 0 0 1 6134.dat
 
+0 STEP
 0 FILE 41500 - 14704.dat
 0 Geometric primitive model of a plate with socket joint-8 friction centre, constructed from boxes, discs, cylinders, and chord shapes.
 0 Name: 41500 - 14704.dat
@@ -240,6 +247,7 @@
 
 1 16 0 4 -20 1 0 0 0 1 0 0 0 1 41500 - joint-8-socket-frica.dat
 
+0 STEP
 0 FILE 41500 - joint-8-socket-frica.dat
 0 Primitive geometric definition of a friction socket joint-8, composed of quarter sections, spheres, and cylindrical surfaces forming the joint interior.
 0 Name: 41500 - joint-8-socket-frica.dat

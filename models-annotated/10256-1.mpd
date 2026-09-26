@@ -22,6 +22,7 @@
 1 70 0 -424 0 0 0 1 0 1 0 -1 0 0 10256 - step213-281.ldr
 
 
+0 STEP
 0 FILE 10256 - step1-12.ldr
 0 Foundation and lower base structure built on a 16x32 blue baseplate, with technic bricks, turntable plates, yellow corner bricks, and white plates forming the platform and initial walls.
 0 Name: 10256 - step1-12.ldr
@@ -383,6 +384,7 @@
 1 19 70 -128 310 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 10256 - step4.ldr
 0 Small decorative detail using a white 1x3 arch and two headlight bricks, forming a window or niche element.
 0 Name: 10256 - step4.ldr
@@ -398,6 +400,7 @@
 1 15 20 0 0 0 0 1 0 1 0 -1 0 0 4070.dat
 
 
+0 STEP
 0 FILE 10256 - step5.ldr
 0 A small tan platform section of 2x2 plates and center-stud plates, building up a tiled floor or ledge area.
 0 Name: 10256 - step5.ldr
@@ -425,6 +428,7 @@
 1 19 10 -40 20 0 0 -1 0 1 0 1 0 0 3794a.dat
 
 
+0 STEP
 0 FILE 10256 - step7.ldr
 0 A tan and white plate assembly using 1x2 center-stud plates and a 2x6 plate, forming a smooth tiled surface detail.
 0 Name: 10256 - step7.ldr
@@ -454,6 +458,7 @@
 1 15 0 -24 0 1 0 0 0 1 0 0 0 1 3020.dat
 
 
+0 STEP
 0 FILE 10256 - step13-23.ldr
 0 Continuation of the lower base structure on a 16x32 blue baseplate, adding more turntable plates, yellow bricks, blue bricks, and large white plates to extend the platform and walls.
 0 Name: 10256 - step13-23.ldr
@@ -765,6 +770,7 @@
 1 19 70 -128 310 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 10256 - step24-41.ldr
 0 Upper base/platform layer with turntables, hinge plates, arches, corner rounds, and grille tiles, building stepped walls and structural framing around the central building footprint.
 0 Name: 10256 - step24-41.ldr
@@ -1278,6 +1284,7 @@
 1 19 -150 -128 230 -1 0 0 0 1 0 0 0 -1 6141.dat
 
 
+0 STEP
 0 FILE 10256 - step28.ldr
 0 A set of hinged plate assemblies (tan and white) with small connecting plates, forming an articulated hinged rooftop or canopy element.
 0 Name: 10256 - step28.ldr
@@ -1333,6 +1340,7 @@
 1 15 -100 -8 -100 0 0 -1 0 1 0 1 0 0 2430.dat
 
 
+0 STEP
 0 FILE 10256 - step42-59.ldr
 0 Large structural layer combining the base platform with windows, headlight bricks, arches, hinge plates, and grille tiles to form the main building walls with openings and detailing.
 0 Name: 10256 - step42-59.ldr
@@ -1961,6 +1969,7 @@
 1 19 -150 -128 -230 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 10256 - step61-81.ldr
 0 Rounded dome and columnar assembly using cylinders, round corner bricks, dishes, cones, axles, and windows to build the main dome drum and its supporting structure.
 0 Name: 10256 - step61-81.ldr
@@ -2163,6 +2172,7 @@
 1 14 0 -768 0 0 0 -1 0 1 0 1 0 0 30374.dat
 
 
+0 STEP
 0 FILE 10256 - step83-131.ldr
 0 The main central building body with a large 6x12 studded plate, numerous grille bricks, arches, inverted slopes, and medium-blue accents forming the ornate facade and walls.
 0 Name: 10256 - step83-131.ldr
@@ -2598,6 +2608,7 @@
 1 71 -48 -330 0 0 1 0 0 0 -1 -1 0 0 10256 - step130.ldr
 
 
+0 STEP
 0 FILE 10256 - step91-1.ldr
 0 A small transparent window detail made of clear plates and a clear slope, representing a glazed opening.
 0 Name: 10256 - step91-1.ldr
@@ -2621,6 +2632,7 @@
 1 47 0 -40 0 1 0 0 0 1 0 0 0 1 54200.dat
 
 
+0 STEP
 0 FILE 10256 - step91-2.ldr
 0 A small clear-paneled window element of transparent plates on a white base.
 0 Name: 10256 - step91-2.ldr
@@ -2646,6 +2658,7 @@
 1 47 0 -56 0 1 0 0 0 1 0 0 0 1 3024.dat
 
 
+0 STEP
 0 FILE 10256 - step94.ldr
 0 A compact decorative section with yellow and medium-blue accent plates and a tan side-stud brick, forming a small window or niche detail.
 0 Name: 10256 - step94.ldr
@@ -2673,6 +2686,7 @@
 1 73 0 -4 -50 0 0 -1 -1 0 0 0 1 0 3069b.dat
 
 
+0 STEP
 0 FILE 10256 - step104.ldr
 0 A small tan and white brick assembly with side-stud connectors, forming a minor structural or decorative detail.
 0 Name: 10256 - step104.ldr
@@ -2692,6 +2706,7 @@
 1 19 0 -72 0 1 0 0 0 1 0 0 0 1 3004.dat
 
 
+0 STEP
 0 FILE 10256 - step109.ldr
 0 A tiny connector assembly of white, blue, and red plates/bricks used as a linkage or mount point.
 0 Name: 10256 - step109.ldr
@@ -2707,6 +2722,7 @@
 1 4 20 -32 0 0 0 1 0 1 0 -1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 10256 - step114-128.ldr
 0 An extended wall section with door-rail plates, center-stud plates, panels, and groove tiles forming a detailed facade with windows and trim.
 0 Name: 10256 - step114-128.ldr
@@ -2801,6 +2817,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10256 - step120.ldr
 0 A large transparent window assembly of clear plates and clear slopes on a white frame, representing a glazed window panel.
 0 Name: 10256 - step120.ldr
@@ -2850,6 +2867,7 @@
 1 47 -20 -40 0 0 0 1 0 1 0 -1 0 0 54200.dat
 
 
+0 STEP
 0 FILE 10256 - step124.ldr
 0 A small detailed wall segment with yellow accent plates, tan side-stud bricks, and a groove tile, forming a window or niche feature.
 0 Name: 10256 - step124.ldr
@@ -2875,6 +2893,7 @@
 1 15 0 -24 -50 0 0 -1 -1 0 0 0 1 0 2431.dat
 
 
+0 STEP
 0 FILE 10256 - step130.ldr
 0 A dark red and light bluish grey grille assembly using many grille tiles and plates, forming a latticed screen or jali window.
 0 Name: 10256 - step130.ldr
@@ -2957,6 +2976,7 @@
 1 71 -110 -8 -230 0 0 1 0 1 0 -1 0 0 2412b.dat
 
 
+0 STEP
 0 FILE 10256 - step132-169.ldr
 0 A major structural assembly with technic framework, grille bricks, arches, inverted slopes, and panels forming the ornate upper building with openings, windows, and decorative detailing.
 0 Name: 10256 - step132-169.ldr
@@ -3529,6 +3549,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10256 - step146.ldr
 0 A small detailed section with clear plates, a grille brick, an arch, and an inverted slope, forming a windowed corner element.
 0 Name: 10256 - step146.ldr
@@ -3588,6 +3609,7 @@
 1 15 0 -104 20 1 0 0 0 1 0 0 0 1 3307.dat
 
 
+0 STEP
 0 FILE 10256 - step170-212.ldr
 0 The reddish brown rooftop/terracing assembly composed of many large plates and groove tiles, forming the flat roof surfaces and surrounding paving of the complex.
 0 Name: 10256 - step170-212.ldr
@@ -3939,6 +3961,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10256 - step171-177.ldr
 0 A heavy technic framework of large open-center technic bricks, long beams, pins, and corner connectors forming the structural core supporting the central dome.
 0 Name: 10256 - step171-177.ldr
@@ -4060,6 +4083,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 10256 - step184-187.ldr
 0 A small white wall section with door-rail plates, corner panels, and a long panel, forming part of a decorated facade or parapet.
 0 Name: 10256 - step184-187.ldr
@@ -4090,6 +4114,7 @@
 1 15 0 -48 0 1 0 0 0 1 0 0 0 1 30413.dat
 
 
+0 STEP
 0 FILE 10256 - step189-196.ldr
 0 An extended facade section of white plates, door-rail plates, panels, and corner elements forming a long wall with windows and rounded detailing.
 0 Name: 10256 - step189-196.ldr
@@ -4157,6 +4182,7 @@
 1 15 0 24 10 1 0 0 0 1 0 0 0 1 6111.dat
 
 
+0 STEP
 0 FILE 10256 - step198.ldr
 0 A small window unit consisting of a rounded-top window element with tan framing bricks.
 0 Name: 10256 - step198.ldr
@@ -4172,6 +4198,7 @@
 1 15 0 -88 0 1 0 0 0 1 0 0 0 1 30044.dat
 
 
+0 STEP
 0 FILE 10256 - step199.ldr
 0 A small finial or decorative cap made of a round brick, minifig head, inverted dish, and cone, topping a dome or turret.
 0 Name: 10256 - step199.ldr
@@ -4193,6 +4220,7 @@
 1 15 0 -104 0 1 0 0 0 1 0 0 0 1 59900.dat
 
 
+0 STEP
 0 FILE 10256 - step200-210.ldr
 0 A detailed rooftop section with blue bricks, groove tiles, yellow accent plates, side-stud bricks, and a round brick, forming an ornate capped element.
 0 Name: 10256 - step200-210.ldr
@@ -4293,6 +4321,7 @@
 1 14 0 -72 0 1 0 0 0 1 0 0 0 1 10256 - step210.ldr
 
 
+0 STEP
 0 FILE 10256 - step209.ldr
 0 A small white plate assembly of corner and rectangular plates forming a compact platform or cap.
 0 Name: 10256 - step209.ldr
@@ -4310,6 +4339,7 @@
 1 15 0 -16 -10 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 10256 - step210.ldr
 0 A yellow and white finial assembly with a dome-topped cylinder, inverted dish, minifig head, cone, and lightsaber blade, forming an ornate spire or pinnacle.
 0 Name: 10256 - step210.ldr
@@ -4331,6 +4361,7 @@
 1 14 0 -120 0 1 0 0 0 1 0 0 0 1 30374.dat
 
 
+0 STEP
 0 FILE 10256 - step213-281.ldr
 0 The minaret and corner structure assembly with tall plates, slopes, curved slopes, brackets, side-stud bricks, dome tops, and finials forming the four slender minarets.
 0 Name: 10256 - step213-281.ldr
@@ -4558,6 +4589,7 @@
 1 14 0 -644 0 0 0 -1 0 1 0 1 0 0 30374.dat
 
 
+0 STEP
 0 FILE 10256 - step222-227.ldr
 0 An articulated section using locking hinge plates, clip plates, and tiles, forming a hinged or angled balcony/railing element.
 0 Name: 10256 - step222-227.ldr
@@ -4608,6 +4640,7 @@
 1 15 -170 -34 40 0 0 -1 0 1 0 1 0 0 4085c.dat
 
 
+0 STEP
 0 FILE 10256 - step228.ldr
 0 A pair of long white plates joined by locking dual-finger hinge plates, forming an extendable or angled connection.
 0 Name: 10256 - step228.ldr
@@ -4629,6 +4662,7 @@
 1 15 -20 -10 20 1 0 0 0 1 0 0 0 1 3460.dat
 
 
+0 STEP
 0 FILE 10256 - step229.ldr
 0 White plates connected by locking single-finger hinge plates, forming a hinged joint assembly.
 0 Name: 10256 - step229.ldr
@@ -4646,6 +4680,7 @@
 1 15 0 -10 30 1 0 0 0 1 0 0 0 1 3020.dat
 
 
+0 STEP
 0 FILE 10256 - step230.ldr
 0 An empty organizational step serving as a placeholder with no direct pieces.
 0 Name: 10256 - step230.ldr
@@ -4656,6 +4691,7 @@
 1 71 -80 0 40 -1 0 0 0 1 0 0 0 -1 10256 - step228.ldr
 
 
+0 STEP
 0 FILE 10256 - step231-232.ldr
 0 An empty organizational step serving as a placeholder with no direct pieces.
 0 Name: 10256 - step231-232.ldr
@@ -4681,6 +4717,7 @@
 1 71 0 0 60 1 0 0 0 0.897 0.442 0 -0.442 0.897 10256 - step230.ldr
 
 
+0 STEP
 0 FILE 10256 - step233.ldr
 0 A hinged section of white plates, clip plates, and groove tiles forming an angled railing or balcony detail.
 0 Name: 10256 - step233.ldr
@@ -4712,6 +4749,7 @@
 1 15 -90 -16 10 0 0 -1 0 1 0 1 0 0 4085c.dat
 
 
+0 STEP
 0 FILE 10256 - step234.ldr
 0 A longer plate assembly with clip plates and groove tiles forming a railing or decorative trim element with attachment points.
 0 Name: 10256 - step234.ldr
@@ -4753,6 +4791,7 @@
 1 15 -90 -16 20 0 0 -1 0 1 0 1 0 0 4085c.dat
 
 
+0 STEP
 0 FILE 10256 - step242-254.ldr
 0 A white and red platform structure of many plates, bricks, and corner elements forming a stepped base or supporting platform for an upper section.
 0 Name: 10256 - step242-254.ldr
@@ -4864,6 +4903,7 @@
 1 15 60 0 80 0 0 -1 0 1 0 1 0 0 3003.dat
 
 
+0 STEP
 0 FILE 10256 - step246.ldr
 0 A white plate framework of long plates and corner pieces forming a structural sub-base or platform layer.
 0 Name: 10256 - step246.ldr
@@ -4895,6 +4935,7 @@
 1 15 0 -24 0 1 0 0 0 1 0 0 0 1 3795.dat
 
 
+0 STEP
 0 FILE 10256 - step255-267.ldr
 0 A white and red platform assembly similar to step242-254 but with added brackets, forming a stepped supporting base for an upper structure or minaret.
 0 Name: 10256 - step255-267.ldr
@@ -5002,6 +5043,7 @@
 1 15 -20 -80 0 0 0 -1 0 1 0 1 0 0 3022.dat
 
 
+0 STEP
 0 FILE 10256 - step259.ldr
 0 A simple white plate framework of long plates and a 1x10 brick forming a structural base layer.
 0 Name: 10256 - step259.ldr
@@ -5021,6 +5063,7 @@
 1 15 0 -24 10 1 0 0 0 1 0 0 0 1 6111.dat
 
 
+0 STEP
 0 FILE 10256 - step268-277.ldr
 0 A detailed upper platform with a red 6x6 plate, clip plates, inverted dishes, axlehole plates, and an octagonal rod frame, forming a decorative topped element or chhatri.
 0 Name: 10256 - step268-277.ldr
@@ -5132,6 +5175,7 @@
 1 15 0 -108 0 -1 0 0 0 1 0 0 0 -1 43898.dat
 
 
+0 STEP
 0 FILE 10256 - step278.ldr
 0 A white plate assembly of various plates and 2x2 bricks forming a compact structural platform or sub-base.
 0 Name: 10256 - step278.ldr
@@ -5179,6 +5223,7 @@
 1 15 0 -64 20 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 10256 - step279.ldr
 0 A white plate framework with red accent plates and corner bricks forming a structural platform or base layer.
 0 Name: 10256 - step279.ldr

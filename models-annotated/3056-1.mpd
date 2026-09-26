@@ -7,6 +7,7 @@
 0 !HISTORY 2018-01-19 [bercik] 3056 based on 6400 by RabbiT_CZ
 1 14 0 -29 8 1 0 0 0 1 0 0 0 1 3056 - Minifig.ldr
 1 4 0 0 0 1 0 0 0 1 0 0 0 1 3056 - Go-Kart.ldr
+0 STEP
 0 FILE 3056 - Go-Kart.ldr
 0 A compact green and red go-kart built around a steering assembly with four slick rubber tires on white rims, bearing a number 1 plate.
 0 Name: 3056 - Go-Kart.ldr
@@ -57,6 +58,7 @@
 0 // Tyre  8/ 40 x  8 Slick Smooth (rubber_black)
 1 256 47 -3 -40 -1 0 0 0 1 0 0 0 -1 30028.dat
 
+0 STEP
 0 FILE 3056 - Minifig.ldr
 0 A minifigure in a white torso, legs, and arms with yellow hands, a grinning sunglasses-printed head, and a green helmet with a translucent light-blue visor.
 0 Name: 3056 - Minifig.ldr

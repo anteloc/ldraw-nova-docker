@@ -18,6 +18,7 @@
 1 8 -80 -54.5 -186.548 0 0 1 1 0 0 0 1 0 7410 - minifigChain-1.ldr
 1 8 50 -56 71 1 0 0 0 1 0 0 0 1 7410 - johnny.ldr
 
+0 STEP
 0 FILE 7410 - johnny.ldr
 0 An adventurer minifigure wearing a safari shirt with red bandana, a wide-brimmed brown hat, and carrying a revolver.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -42,6 +43,7 @@
 0 // Minifig Gun Revolver (dark_grey)
 1 8 24.475 -0.667 -20.476 0.838 0.086 -0.539 -0.504 0.5 -0.704 0.209 0.862 0.462 30132.dat
 
+0 STEP
 0 FILE 7410 - gator.ldr
 0 A green crocodile assembled from crocodile body and dragon head and tail parts.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -54,6 +56,7 @@
 0 // Animal Dragon Tail (green)
 1 2 0 5 55 1 0 0 0 1 0 0 0 1 6028.dat
 
+0 STEP
 0 FILE 7410 - idol.ldr
 0 A small temple idol shrine with a skull head, multiple faceted gems, and decorative columns and arches on a base plate.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -110,6 +113,7 @@
 0 // Plant Brick  1 x  1 Round with 3 Bamboo Leaves (green)
 1 2 -30 -192 -30 0 0 1 0 1 0 -1 0 0 30176.dat
 
+0 STEP
 0 FILE 7410 - boat.ldr
 0 A river motorboat with a hull, steering wheel, control stick, windows, and a dial gauge instrument panel.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -172,6 +176,7 @@
 1 38 30 -128.009 10 0 1 0 0 0 -1 -1 0 0 6126a.dat
 0 STEP
 
+0 STEP
 0 FILE 7410 - crate.ldr
 0 An adventurers supply chest containing dynamite sticks, a rifle, a pickaxe, and a shovel.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -192,6 +197,7 @@
 0 // Minifig Shovel (dark_grey)
 1 8 16 -34 31 0.214 -0.629 0.747 0.173 0.777 0.605 -0.961 0 0.276 3837.dat
 
+0 STEP
 0 FILE 7410 - minifigChain-1.ldr
 0 A flexible chain made of seventeen interlocking minifig chain links.
 0 Author: Philippe Hurbain [Philo]
@@ -255,6 +261,7 @@
 1 16 19.957453 86.885917 82.672333 -0.099355 0.678488 0.727862 -0.166364 0.709858 -0.684415 -0.981046 -0.18909 0.042348 209.dat
 0 // Minifig Chain Link for Chain  6L and 17L (main_colour)
 1 16 23.34751 90.456498 81.818287 0.729956 -0.678085 -0.085821 -0.683012 -0.71895 -0.128864 0.02568 0.152682 -0.987942 209.dat
+0 STEP
 0 FILE 7410 - 973pax.dat
 0 A minifig torso pattern with safari shirt details including a gun, red bandana, and white chest pattern.
 0 Name: 7410 - 973pax.dat
@@ -788,6 +795,7 @@
 3 16 -9.5 11.75 -10 -9.5 12.5 -10 -8.5 13 -10
 3 16 -9.5 12.5 -10 -9.5 13.25 -10 -8.5 13 -10
 
+0 STEP
 0 FILE 7410 - 3626bpap.dat
 0 A minifig head pattern with a smirk, black moustache, and cleft chin.
 0 Name: 7410 - 3626bpap.dat
@@ -1293,6 +1301,7 @@
 3 16 7.23 1.9 -9.494 8.923 2.469 -8.923 8.04 2.01 -9.061
 3 16 0.16 19.6 -11.694 0 19.65 -11.684 0 19.827999 -11.535
 
+0 STEP
 0 FILE 7410 - 30276.dat
 0 A jungle headdress accessory for a minifigure, composed of curved primitive shapes.
 0 Name: 7410 - 30276.dat
@@ -1367,6 +1376,7 @@
 5 24 0 -48.963001 10.775 0 -48.963001 7.025 1.36 -48.542 7.025 -1.36 -48.542 7.025
 5 24 0 -10.195 -8.1 0 -4 -8 3.062 -4 -7.391 -3.062 -4 -7.391
 
+0 STEP
 0 FILE 7410 - 2551.dat
 0 A boat hull shell measuring 5 x 14 studs, constructed from rectangular and box primitives.
 0 Name: 7410 - 2551.dat
@@ -1549,6 +1559,7 @@
 0 // Rectangle with 2 Parallel Edges (main_colour)
 1 16 -20 9.875 99.5 8.5 0 0 0 0 6.125 0 1 0 rect2p.dat
 
+0 STEP
 0 FILE s\7410 - 2551s01.dat
 0 One half of the boat hull side, built from rectangular primitive shapes.
 0 Name: s\7410 - 2551s01.dat
@@ -4743,6 +4754,7 @@
 5 24 -6 -40 -150 -10 -40 -140 -4.56 -40.060001 -140 -10 -40 -150
 2 24 -19.76 0 -108.400002 -13.66 0 -113.199997
 
+0 STEP
 0 FILE s\7410 - 30276s01.dat
 0 One half of the jungle headdress, constructed from cylinders, cones, and circular primitives.
 0 Name: s\7410 - 30276s01.dat

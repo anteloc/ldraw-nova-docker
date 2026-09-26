@@ -15,6 +15,7 @@
 
 
 
+0 STEP
 0 FILE 6645 - sweeper.ldr
 0 A compact vehicle chassis built from plates, mudguards, hinge elements, and an excavator bucket, forming the main body of a street sweeper truck.
 0 Name: 6645 - sweeper.ldr
@@ -138,6 +139,7 @@
 
 
 
+0 STEP
 0 FILE 6645 - sweeper - movable A.ldr
 0 A movable brush assembly with two blue car wash brushes mounted on a hinge mechanism and a Technic axle, forming the rotating sweeper element.
 0 Name: 6645 - sweeper - movable A.ldr
@@ -164,6 +166,7 @@
 
 
 
+0 STEP
 0 FILE 6645 - minifig.ldr
 0 A street worker minifigure wearing a white cap, blue torso and legs, with a brown pushbroom accessory.
 0 Name: 6645 - minifig.ldr
@@ -200,6 +203,7 @@
 
 
 
+0 STEP
 0 FILE 6645 - flexHose.ldr
 0 A flexible hose assembly made of 57 linked segment parts with end fittings, approximately 58 mm long, constructed from interconnecting hose segments.
 0 Name: 6645 - flexHose.ldr

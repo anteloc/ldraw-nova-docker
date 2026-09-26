@@ -18,6 +18,7 @@
 
 
 
+0 STEP
 0 FILE 3183 - Stand.ldr
 0 A compact display stand or cart built from plates, bricks, and a grille, decorated with leaves, a dome, and pink accent pieces.
 0 Name: 3183 - Stand.ldr
@@ -92,6 +93,7 @@
 
 
 
+0 STEP
 0 FILE 3183 - Vehicle.ldr
 0 A wheeled vehicle chassis with four mudguards, wheel pins, plates, and grille details in medium azure, yellow, and lavender colors.
 0 Name: 3183 - Vehicle.ldr
@@ -241,6 +243,7 @@
 
 
 
+0 STEP
 0 FILE 3183 - Vehicle Rear.ldr
 0 The rear section of a vehicle with taillight elements in trans red and orange, sloped panels, and a "STEPH 01" star sticker.
 0 Name: 3183 - Vehicle Rear.ldr
@@ -279,6 +282,7 @@
 
 
 
+0 STEP
 0 FILE 3183 - Vehicle Front.ldr
 0 The front section of a vehicle with headlight pieces in trans yellow, sloped panels, and grille tiles.
 0 Name: 3183 - Vehicle Front.ldr
@@ -313,6 +317,7 @@
 
 
 
+0 STEP
 0 FILE 3183 - Stephanie.ldr
 0 A Friends minidoll figure of Stephanie with long yellow hair, glasses, a star hair clip, white halter top torso, and magenta skirt.
 0 Name: 3183 - Stephanie.ldr
@@ -344,6 +349,7 @@
 
 
 
+0 STEP
 0 FILE 3183 - Puppy.ldr
 0 A standing puppy animal figure with a bright pink bow decoration.
 0 Name: 3183 - Puppy.ldr
@@ -362,6 +368,7 @@
 
 
 
+0 STEP
 0 FILE 3183 - 52031d02.dat
 0 A curved slope piece with a shooting star sticker applied, forming a decorated panel.
 0 Name: 3183 - 52031d02.dat
@@ -378,6 +385,7 @@
 
 
 
+0 STEP
 0 FILE 3183 - 93088p01.dat
 0 A patterned part submodel that references underlying geometry with an applied printed pattern.
 0 Name: 3183 - 93088p01.dat
@@ -399,6 +407,7 @@
 
 
 
+0 STEP
 0 FILE 3183 - 4620855ac01.dat
 0 A pre-assembled printed or decorated assembly referenced as a single composite element.
 0 Name: 3183 - 4620855ac01.dat
@@ -709,6 +718,7 @@
 
 
 
+0 STEP
 0 FILE s\3183 - 93088s01.dat
 0 A geometric subpart composed of cylinders, chords, and disc primitives forming rounded sculpted geometry.
 0 Name: s\3183 - 93088s01.dat
@@ -2128,6 +2138,7 @@
 
 
 
+0 STEP
 0 FILE s\3183 - 93088s02.dat
 0 A subpart of a printed element providing underlying geometric detail.
 0 Name: s\3183 - 93088s02.dat
@@ -2318,6 +2329,7 @@
 5 24 -8.274 -10.168 -10.851 -7.903 -13.156 -9.921 -5.331 -13.491 -11.736 -8.359 -12.068 -6.717
 
 
+0 STEP
 0 FILE s\3183 - 93088s03.dat
 0 A subpart of a printed element providing underlying geometric detail.
 0 Name: s\3183 - 93088s03.dat
@@ -2525,6 +2537,7 @@
 5 24 8.426 -9.433 -9.589 8.131 -12.612 -8.319 5.331 -13.491 -11.736 7.159 -10.031 -4.038
 
 
+0 STEP
 0 FILE s\3183 - 93088s04.dat
 0 A subpart of a printed element providing underlying geometric detail.
 0 Name: s\3183 - 93088s04.dat
@@ -2577,6 +2590,7 @@
 5 24 -18.398 -39.015 -14.588 -19.416 -31.957 -14.57 -17.69 -33.841 -17.291 -18.578 -40.184 -13.585
 
 
+0 STEP
 0 FILE s\3183 - 93088s05.dat
 0 A subpart of a printed element providing underlying geometric detail.
 0 Name: s\3183 - 93088s05.dat
@@ -2661,6 +2675,7 @@
 5 24 9.864 -46.18 -5.931 12.032 -41.993 -8.394 12.681 -39.008 -7.825 9.053 -48.584 -7.739
 
 
+0 STEP
 0 FILE s\3183 - 93088p01s01.dat
 0 A subpart supporting a patterned variant of a printed element.
 0 Name: s\3183 - 93088p01s01.dat

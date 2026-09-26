@@ -14,6 +14,7 @@
 1 4 -69.799 -10 -28.627 0.707 -0.707 0 0 0 -1 0.707 0.707 0 41504 - Arm Right.ldr
 
 
+0 STEP
 0 FILE 41504 - Body.ldr
 0 Body
 0 Name: 41504 - Body.ldr
@@ -53,6 +54,7 @@
 0 // Slope Brick 45  1 x  2 Triple (pearl_gold)
 1 297 -30 0 -56 0 0 1 1 0 0 0 1 0 3048b.dat
 
+0 STEP
 0 FILE 41504 - Leg Left.ldr
 0 Leg Left
 0 Name: 41504 - Leg Left.ldr
@@ -64,6 +66,7 @@
 0 // Slope Plate 45.73  2 x  1 (dark_bluish_grey)
 1 72 0 0 -8 -1 0 0 0 0 1 0 1 0 92946.dat
 
+0 STEP
 0 FILE 41504 - Leg Right.ldr
 0 Leg Right
 0 Name: 41504 - Leg Right.ldr
@@ -77,6 +80,7 @@
 0 // Slope Brick 31  1 x  1 x  0.667 (pearl_gold)
 1 297 0 -10 -8 0 0 -1 -1 0 0 0 1 0 54200.dat
 
+0 STEP
 0 FILE 41504 - Arm Left.ldr
 0 Arm Left
 0 Name: 41504 - Arm Left.ldr
@@ -90,6 +94,7 @@
 0 // Slope Brick Curved  2 x  1 (light_bluish_grey)
 1 71 0 0 0 0 0 1 0 1 0 -1 0 0 11477.dat
 
+0 STEP
 0 FILE 41504 - Arm Right.ldr
 0 Arm Right
 0 Name: 41504 - Arm Right.ldr
@@ -103,6 +108,7 @@
 0 // Slope Brick Curved  2 x  1 (light_bluish_grey)
 1 71 0 0 0 0 0 -1 0 1 0 1 0 0 11477.dat
 
+0 STEP
 0 FILE 41504 - Foot Right.ldr
 0 Foot Right
 0 Name: 41504 - Foot Right.ldr
@@ -132,6 +138,7 @@
 0 // Slope Brick 31  1 x  1 x  0.667 (light_bluish_grey)
 1 71 -10 20 -16 -1 0 0 0 0 1 0 1 0 54200.dat
 
+0 STEP
 0 FILE 41504 - Foot Left.ldr
 0 Foot Left
 0 Name: 41504 - Foot Left.ldr
@@ -163,6 +170,7 @@
 0 // Slope Brick 31  1 x  1 x  0.667 (light_bluish_grey)
 1 71 10 20 -16 0 0 -1 -1 0 0 0 1 0 54200.dat
 
+0 STEP
 0 FILE 41504 - 14418.dat
 0 A plate with a friction ball socket joint, represented as a part submodel with no internal pieces.
 0 Name: 41504 - 14418.dat
@@ -179,6 +187,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\41504 - 14418s01.dat
 1 16 30 4 0 0 0 -1 0 1 0 1 0 0 41504 - joint-8-socket-frica.dat
 
+0 STEP
 0 FILE 41504 - 14419.dat
 0 A plate combining a friction socket joint and ball joint, modeled with primitive circle, cylinder, and sphere shapes.
 0 Name: 41504 - 14419.dat
@@ -200,6 +209,7 @@
 1 16 -30 4 0 0 0 8 0 8 0 -8 0 0 8-8sphe.dat
 1 16 30 4 0 0 0 -1 0 1 0 1 0 0 41504 - joint-8-socket-frica.dat
 
+0 STEP
 0 FILE s\41504 - 14418s01.dat
 0 The internal geometry subpart of a friction socket joint plate, constructed from box and cylinder primitives defining the joint housing.
 0 Name: s\41504 - 14418s01.dat
@@ -250,6 +260,7 @@
 1 16 0 8 0 0 0 -20 0 -8 0 10 0 0 box4-4a.dat
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 stug2-1x2.dat
 
+0 STEP
 0 FILE 41504 - joint-8-socket-frica.dat
 0 A detailed friction ball socket joint built from quartered surface segments, discs, cylinders, and partial spheres forming the socket interior.
 0 Name: 41504 - joint-8-socket-frica.dat

@@ -11,6 +11,7 @@
 1 0 90 0 0 1 0 0 0 1 0 0 0 1 41491 - The Joker.ldr
 
 
+0 STEP
 0 FILE 41491 - Batman.ldr
 0 A black display baseplate assembly featuring a LEGO SDCC promotional logo tile for the Batman portrait.
 0 Name: 41491 - Batman.ldr
@@ -31,6 +32,7 @@
 1 0 0 -48 20 1 0 0 0 1 0 0 0 1 41491 - Batman - 1.ldr
 
 
+0 STEP
 0 FILE 41491 - Batman - 1.ldr
 0 The main Batman portrait built predominantly from blue and light bluish grey bricks and plates, featuring a yellow-accented Batman logo in an oval on the chest.
 0 Name: 41491 - Batman - 1.ldr
@@ -201,6 +203,7 @@
 1 0 -54 2 0 0 1 0 0 0 -1 -1 0 0 55707c.dat
 
 
+0 STEP
 0 FILE 41491 - Batman - 2.ldr
 0 A blue rounded corner section with large smooth tiles forming part of the Batman portrait backdrop.
 0 Name: 41491 - Batman - 2.ldr
@@ -218,6 +221,7 @@
 1 1 20 -8 0 0 0 -1 0 1 0 1 0 0 87079.dat
 
 
+0 STEP
 0 FILE 41491 - Batman - 3.ldr
 0 A small detail section of the Batman build using light bluish grey plates and a blue clip element.
 0 Name: 41491 - Batman - 3.ldr
@@ -235,6 +239,7 @@
 1 71 0 -8 10 1 0 0 0 1 0 0 0 1 3069b.dat
 
 
+0 STEP
 0 FILE 41491 - The Joker.ldr
 0 A black display baseplate assembly featuring a LEGO SDCC promotional logo tile for The Joker portrait.
 0 Name: 41491 - The Joker.ldr
@@ -255,6 +260,7 @@
 1 0 0 -48 20 1 0 0 0 1 0 0 0 1 41491 - The Joker - 1.ldr
 
 
+0 STEP
 0 FILE 41491 - The Joker - 1.ldr
 0 The main Joker portrait built from medium lilac, bright light orange, and light bluish grey bricks, featuring a green bow tie and wing-shaped accent pieces.
 0 Name: 41491 - The Joker - 1.ldr
@@ -488,6 +494,7 @@
 1 15 -57.69 10.51 0 0 1 0 0 0 1 1 0 0 41491 - 3069bpz7.dat
 
 
+0 STEP
 0 FILE 41491 - 87079pz5.dat
 0 A decorative 2x4 tile element printed with the LEGO logo and a white #LEGOSDCC pattern.
 0 Name: 41491 - 87079pz5.dat
@@ -984,6 +991,7 @@
 3 16 40 0 20 32.962 0 2.78 33.329 0 2.813
 
 
+0 STEP
 0 FILE 41491 - 3010pzb.dat
 0 A decorative 1x4 brick printed with a black Batman logo inside a black-outlined yellow oval.
 0 Name: 41491 - 3010pzb.dat
@@ -1000,6 +1008,7 @@
 1 16 0 0 -10 -1 0 0 0 1 0 0 0 1 s\41491 - 3010pzbs01.dat
 
 
+0 STEP
 0 FILE 41491 - 3069bpz7.dat
 0 A decorative 1x2 tile printed with a black Brickheadz Joker playing card design.
 0 Name: 41491 - 3069bpz7.dat
@@ -2097,6 +2106,7 @@
 4 16 -20 0 10 -8.927 0 9.25 -7.276 0 9.25 20 0 10
 
 
+0 STEP
 0 FILE s\41491 - logolego01.dat
 0 The standard LEGO logo pattern element used as a printed detail on tiles.
 0 Name: s\41491 - logolego01.dat
@@ -2866,6 +2876,7 @@
 4 15 16.681 -4.048 0 13.389 -4.108 0 13.485 -4.038 0 16.659 -3.215 0
 
 
+0 STEP
 0 FILE s\41491 - 3010pzbs01.dat
 0 A half-section primitive defining half of the Batman logo oval print pattern.
 0 Name: s\41491 - 3010pzbs01.dat
@@ -3049,6 +3060,7 @@
 4 16 -18.25 22 0 -40 24 0 0 24 0 0 22 0
 
 
+0 STEP
 0 FILE 41491 - 2-4ering.dat
 0 An adapter ring primitive made of chord segments used for circular geometric construction.
 0 Name: 41491 - 2-4ering.dat

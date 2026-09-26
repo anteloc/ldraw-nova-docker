@@ -479,6 +479,7 @@
 
 
 
+0 STEP
 0 FILE 8850 - Rally Support Truck Gearbox.ldr
 0 A compact Technic gearbox unit built from plates and holed bricks housing a differential, bevel gears, and a 24-tooth gear on multiple axles.
 0 Name: 8850 - Rally Support Truck Gearbox.ldr
@@ -568,6 +569,7 @@
 1 7 55 -54 70 1 0 0 0 -1 0 0 0 -1 3713.dat
 
 
+0 STEP
 0 FILE 8850 - Rally Support Truck chasis.ldr
 0 A sturdy chassis frame made from long Technic bricks with holes, a yellow holed plate, and axles joined with friction pins.
 0 Name: 8850 - Rally Support Truck chasis.ldr
@@ -621,6 +623,7 @@
 1 0 -60 -26 80 -1 0 0 0 1 0 0 0 -1 2780.dat
 
 
+0 STEP
 0 FILE 8850 - Rally Support Truck Seat.ldr
 0 A driver's seat assembly composed of yellow plates and two red Technic seat bases mounted on supporting plates.
 0 Name: 8850 - Rally Support Truck Seat.ldr
@@ -654,6 +657,7 @@
 1 4 140 -16 10 1 0 0 0 1 0 0 0 1 2717.dat
 
 
+0 STEP
 0 FILE 8850 - Rally Support Truck Engine.ldr
 0 A Technic engine assembly with crankshafts, connecting rods, pistons, and cylinder heads arranged around a 16-tooth drive gear.
 0 Name: 8850 - Rally Support Truck Engine.ldr

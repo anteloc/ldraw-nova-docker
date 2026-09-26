@@ -12,6 +12,7 @@
 
 
 
+0 STEP
 0 FILE 6532 - dumper.ldr
 0 An assembled articulated dumper truck combining the front cab, rear axle section, and tilting tipper bucket.
 0 Name: 6532 - dumper.ldr
@@ -26,6 +27,7 @@
 
 
 
+0 STEP
 0 FILE 6532 - dumper - front.ldr
 0 The front cab section of the dumper featuring a minifig seat, steering wheel and stand, control stick, headlight bricks, and a hinged male joint plate connecting to the rear.
 0 Name: 6532 - dumper - front.ldr
@@ -90,6 +92,7 @@
 
 
 
+0 STEP
 0 FILE 6532 - dumper - back.ldr
 0 The rear chassis section of the dumper with a female hinge joint, four wheels with tyres, and hinge tiles supporting the tilting bucket.
 0 Name: 6532 - dumper - back.ldr
@@ -146,6 +149,7 @@
 
 
 
+0 STEP
 0 FILE 6532 - dumper - movable.ldr
 0 The tilting dump bed consisting of a large tipper bucket mounted on hinged finger plates for articulation.
 0 Name: 6532 - dumper - movable.ldr
@@ -166,6 +170,7 @@
 
 
 
+0 STEP
 0 FILE 6532 - minifig.ldr
 0 A construction worker minifig wearing a red helmet, white torso with blue dungarees, yellow head and hands, and blue legs.
 0 Name: 6532 - minifig.ldr

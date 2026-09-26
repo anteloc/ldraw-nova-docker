@@ -8,6 +8,7 @@
 1 71 0 -122 400 1 0 0 0 1 -0.028 0 0.028 1 42125 - ferrari.ldr
 
 
+0 STEP
 0 FILE 42125 - chassisrear.ldr
 0 Rear chassis assembly featuring a differential, CV joints, wheel spindles, and beams that form the rear drivetrain and suspension mounting structure.
 0 Name: 42125 - chassisrear.ldr
@@ -478,6 +479,7 @@
 1 1 88 0 100 -1 0 0 0 0 1 0 1 0 43093.dat
 
 
+0 STEP
 0 FILE 42125 - engine.ldr
 0 V-style engine block built from cylinder heads, connecting rods, and gears mounted on a bricked base plate.
 0 Name: 42125 - engine.ldr
@@ -589,6 +591,7 @@
 1 0 -20 10 -50 0 0 1 0 -1 0 1 0 0 2780.dat
 
 
+0 STEP
 0 FILE 42125 - camshaft.ldr
 0 Engine crankshaft and piston assembly with crankshafts, connecting rods, and pistons that form the moving engine internals.
 0 Name: 42125 - camshaft.ldr
@@ -648,6 +651,7 @@
 1 14 -48.038 -28.528 -150 0.6 0.8 0 -0.8 0.6 0 0 0 1 2851.dat
 
 
+0 STEP
 0 FILE 42125 - chassisrear2.ldr
 0 Secondary rear chassis support structure of bent liftarms and cross blocks bracing the rear frame.
 0 Name: 42125 - chassisrear2.ldr
@@ -693,6 +697,7 @@
 1 71 50 0 0 0 0 1 0 1 0 -1 0 0 59443.dat
 
 
+0 STEP
 0 FILE 42125 - chassisfront.ldr
 0 Front chassis assembly with suspension arms, steering hubs, towball pins, and beams forming the front suspension and steering geometry.
 0 Name: 42125 - chassisfront.ldr
@@ -1147,6 +1152,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42125 - chassisfront2.ldr
 0 Secondary front chassis support of long liftarms and cross blocks reinforcing the front frame.
 0 Name: 42125 - chassisfront2.ldr
@@ -1200,6 +1206,7 @@
 1 4 -100 20 40 1 0 0 0 1 0 0 0 1 32054.dat
 
 
+0 STEP
 0 FILE 42125 - ferrari.ldr
 0 Central body framework of beams, angle connectors, and panels shaping the Ferrari's mid-section and structural body.
 0 Name: 42125 - ferrari.ldr
@@ -1717,6 +1724,7 @@
 1 0 0 -180 200 -1 0 0 0 1 0 0 0 -1 42125 - spoiler.ldr
 
 
+0 STEP
 0 FILE 42125 - chassisside1.ldr
 0 Left side chassis panel assembly using long panels and liftarms to form the side bodywork.
 0 Name: 42125 - chassisside1.ldr
@@ -1758,6 +1766,7 @@
 1 0 -44 0 -160 0 1 0 1 0 0 0 0 -1 48729b.dat
 
 
+0 STEP
 0 FILE 42125 - chassisside2.ldr
 0 Right side chassis panel assembly using long panels and liftarms to form the side bodywork.
 0 Name: 42125 - chassisside2.ldr
@@ -1799,6 +1808,7 @@
 1 0 44 0 -160 0 -1 0 -1 0 0 0 0 -1 48729b.dat
 
 
+0 STEP
 0 FILE 42125 - seat1.ldr
 0 Driver seat assembly built from bent liftarms and cross blocks forming the seatback and base.
 0 Name: 42125 - seat1.ldr
@@ -1864,6 +1874,7 @@
 1 0 60 -160 0 -1 0 0 0 0 -1 0 -1 0 6536.dat
 
 
+0 STEP
 0 FILE 42125 - frontside1.ldr
 0 Left front fender section with curved fairing panels and bent liftarms shaping the front bodywork.
 0 Name: 42125 - frontside1.ldr
@@ -1900,6 +1911,7 @@
 1 0 -70 30 20 0 0 -1 0 1 0 1 0 0 11947.dat
 
 
+0 STEP
 0 FILE 42125 - frontside1b.ldr
 0 Left front body detail with thin fairing panels, angle connectors, and liftarms adding contour detail.
 0 Name: 42125 - frontside1b.ldr
@@ -1940,6 +1952,7 @@
 1 4 0 -59.958 20.063 0 1 0 0.924 0 0.383 0.383 0 -0.924 11946.dat
 
 
+0 STEP
 0 FILE 42125 - frontside2.ldr
 0 Right front fender section with curved fairing panels and bent liftarms shaping the front bodywork.
 0 Name: 42125 - frontside2.ldr
@@ -1976,6 +1989,7 @@
 1 0 -70 30 -20 0 0 -1 0 1 0 1 0 0 11946.dat
 
 
+0 STEP
 0 FILE 42125 - frontside2b.ldr
 0 Right front body detail with thin fairing panels, angle connectors, and liftarms adding contour detail.
 0 Name: 42125 - frontside2b.ldr
@@ -2016,6 +2030,7 @@
 1 4 0 -59.958 20.063 0 -1 0 -0.924 0 0.383 -0.383 0 -0.924 11947.dat
 
 
+0 STEP
 0 FILE 42125 - frontside2c.ldr
 0 Right front corner bodywork of plates, tiles, and curved slope bricks forming a detailed fascia element.
 0 Name: 42125 - frontside2c.ldr
@@ -2052,6 +2067,7 @@
 1 1 -40 -50 0 0 0 1 1 0 0 0 1 0 29119.dat
 
 
+0 STEP
 0 FILE 42125 - frontside1c.ldr
 0 Left front corner bodywork of plates, tiles, and curved slope bricks forming a detailed fascia element.
 0 Name: 42125 - frontside1c.ldr
@@ -2088,6 +2104,7 @@
 1 1 -120 -50 0 0 0 -1 -1 0 0 0 1 0 29120.dat
 
 
+0 STEP
 0 FILE 42125 - front1.ldr
 0 Front nose assembly using angle connectors, axles, fairing panels, and liftarms forming the front hood shape.
 0 Name: 42125 - front1.ldr
@@ -2155,6 +2172,7 @@
 1 1 0 56.246 -31.463 1 0 0 0 0.77 0.638 0 -0.638 0.77 42125 - front1b.ldr
 
 
+0 STEP
 0 FILE 42125 - front1b.ldr
 0 Front bodywork overlay of large tapered panels and bent panels shaping the sculpted front end.
 0 Name: 42125 - front1b.ldr
@@ -2230,6 +2248,7 @@
 1 1 120 7.445 -29.061 0 0 1 -0.248 -0.969 0 0.969 -0.248 0 43093.dat
 
 
+0 STEP
 0 FILE 42125 - front1c.ldr
 0 Front hood panel with smooth panels, plates, and tiles creating the hood surface.
 0 Name: 42125 - front1c.ldr
@@ -2293,6 +2312,7 @@
 1 0 -90 0 20 1 0 0 0 0.924 -0.383 0 0.383 0.924 2780.dat
 
 
+0 STEP
 0 FILE 42125 - headlight1.ldr
 0 Right headlight assembly featuring a curved windscreen piece with headlight pattern and mounting plates.
 0 Name: 42125 - headlight1.ldr
@@ -2326,6 +2346,7 @@
 1 4 10 -18 10 -1 0 0 0 1 0 0 0 -1 3068b.dat
 
 
+0 STEP
 0 FILE 42125 - headlight2.ldr
 0 Left headlight assembly featuring a curved windscreen piece with headlight pattern and mounting plates.
 0 Name: 42125 - headlight2.ldr
@@ -2359,6 +2380,7 @@
 1 4 -10 -18 10 -1 0 0 0 1 0 0 0 -1 3068b.dat
 
 
+0 STEP
 0 FILE 42125 - frontbump.ldr
 0 Front bumper assembly of long axles, thin fairing panels, and liftarms forming the bumper bar.
 0 Name: 42125 - frontbump.ldr
@@ -2422,6 +2444,7 @@
 1 0 -55 -20 -40 0 1 0 1 0 0 0 0 -1 42125 - technicFlexAxle-studio-2.ldr
 
 
+0 STEP
 0 FILE 42125 - frontbumper2.ldr
 0 Secondary front bumper element of liftarms and axles reinforcing the bumper structure.
 0 Name: 42125 - frontbumper2.ldr
@@ -2465,6 +2488,7 @@
 1 72 -40 0 40 -1 0 0 0 0 -1 0 -1 0 27940.dat
 
 
+0 STEP
 0 FILE 42125 - technicFlexAxle-studio-1.ldr
 0 Flexible axle assembly composed of hose segments forming a curved body contour or wing element.
 0 Name: 42125 - technicFlexAxle-studio-1.ldr
@@ -2875,6 +2899,7 @@
 1 16 -20 -125.842564 -26.048262 -0.92388 0 0.382683 0.146446 0.926241 0.353553 -0.353553 0.383661 -0.853554 stud3a.dat
 
 
+0 STEP
 0 FILE 42125 - technicFlexAxle-studio-2.ldr
 0 A medium-length flexible Technic axle assembly composed of 189 hose and axle perimeter segments.
 0 Name: 42125 - technicFlexAxle-studio-2.ldr
@@ -3285,6 +3310,7 @@
 1 16 20 -125.842564 -26.048262 -0.92388 0 -0.382683 -0.146446 0.926241 0.353553 0.353553 0.383661 -0.853554 stud3a.dat
 
 
+0 STEP
 0 FILE 42125 - windscreenbase.ldr
 0 A structural windscreen base built from beams, angle connectors, pins, and smooth white fairing panels.
 0 Name: 42125 - windscreenbase.ldr
@@ -3368,6 +3394,7 @@
 1 0 -153.91 -20 -30.615 -0.383 -0.924 0 0 0 -1 0.924 -0.383 0 42125 - technicFlexAxle-studio-4.ldr
 
 
+0 STEP
 0 FILE 42125 - technicFlexAxle-studio-3.ldr
 0 A long flexible Technic axle assembly composed of 410 hose and axle perimeter segments.
 0 Name: 42125 - technicFlexAxle-studio-3.ldr
@@ -4220,6 +4247,7 @@
 1 16 89.151534 -219.027183 0 0.707107 -0.707107 0 0.707107 0.707107 0 0 0 1 stud3a.dat
 
 
+0 STEP
 0 FILE 42125 - technicFlexAxle-studio-4.ldr
 0 The longest flexible Technic axle assembly composed of 555 hose and axle perimeter segments.
 0 Name: 42125 - technicFlexAxle-studio-4.ldr
@@ -5362,6 +5390,7 @@
 1 16 -114.96969 -281.561067 0 0.707107 0.707107 0 -0.707107 0.707107 0 0 0 1 stud3a.dat
 
 
+0 STEP
 0 FILE 42125 - frontwheelarch1.ldr
 0 A front wheel arch structure using red angle connectors, cross blocks, and pins to form an angled curve.
 0 Name: 42125 - frontwheelarch1.ldr
@@ -5397,6 +5426,7 @@
 1 0 20 -30 0 0 0 -1 0 -1 0 -1 0 0 42125 - technicFlexAxle-studio-6.ldr
 
 
+0 STEP
 0 FILE 42125 - technicFlexAxle-studio-5.ldr
 0 A medium-length flexible Technic axle assembly composed of 190 hose and axle perimeter segments.
 0 Name: 42125 - technicFlexAxle-studio-5.ldr
@@ -5809,6 +5839,7 @@
 1 16 0 -123.188113 -34.490146 1 0 0 0 0.817201 -0.573119 0 0.571531 0.819472 stud3a.dat
 
 
+0 STEP
 0 FILE 42125 - technicFlexAxle-studio-6.ldr
 0 A medium-length flexible Technic axle assembly composed of 187 hose and axle perimeter segments.
 0 Name: 42125 - technicFlexAxle-studio-6.ldr
@@ -6215,6 +6246,7 @@
 1 16 -3.113881 -130.619829 -21.259439 -0.992604 0.114079 0.04151 0.121397 0.932772 0.33941 0 0.341939 -0.939722 stud3a.dat
 
 
+0 STEP
 0 FILE 42125 - dashboard.ldr
 0 A dashboard module featuring smooth black panels, bent liftarms, and connector pins forming the interior console shape.
 0 Name: 42125 - dashboard.ldr
@@ -6263,6 +6295,7 @@
 1 0 -150 20 -60 1 0 0 0 1 0 0 0 1 42125 - 60483.dat
 
 
+0 STEP
 0 FILE 42125 - dashboard2.ldr
 0 A detailed dashboard section using beams, plates, curved slopes, and a wedge to form the interior instrument panel.
 0 Name: 42125 - dashboard2.ldr
@@ -6319,6 +6352,7 @@
 1 0 63.241 -20 -20.335 -0.94 0.342 0 0 0 1 0.342 0.94 0 3069b.dat
 
 
+0 STEP
 0 FILE 42125 - back1.ldr
 0 A rear structural framework using a red H-shaped beam, angle connectors, and liftarms joined by axles and pins.
 0 Name: 42125 - back1.ldr
@@ -6358,6 +6392,7 @@
 1 0 80 10 -60 0 1 0 1 0 0 0 0 -1 2780.dat
 
 
+0 STEP
 0 FILE 42125 - technicFlexAxle-studio-7.ldr
 0 A flexible Technic axle assembly composed of 224 hose and axle perimeter segments.
 0 Name: 42125 - technicFlexAxle-studio-7.ldr
@@ -6838,6 +6873,7 @@
 1 16 31.723396 -144.870542 8.040828 -0.923785 -0.38023 0.035283 -0.382911 0.917318 -0.085121 0 -0.09189 -0.995746 stud3a.dat
 
 
+0 STEP
 0 FILE 42125 - back2.ldr
 0 A compact rear structural module connecting red angle connectors with axles and pins.
 0 Name: 42125 - back2.ldr
@@ -6872,6 +6908,7 @@
 1 1 -70 -20 0 1 0 0 0 0 -1 0 1 0 43093.dat
 
 
+0 STEP
 0 FILE 42125 - back3.ldr
 0 A rear body section using white beams, red bent liftarms, and red fairing panels with a curved white panel.
 0 Name: 42125 - back3.ldr
@@ -6917,6 +6954,7 @@
 1 15 0 -40 0 0 0 1 0 1 0 -1 0 0 42125 - 71682.dat
 
 
+0 STEP
 0 FILE 42125 - back4a.ldr
 0 A rear quarter bodywork section with red and yellow quarter-ellipse liftarms, panels, and C-clipped bars forming an angled fairing.
 0 Name: 42125 - back4a.ldr
@@ -6986,6 +7024,7 @@
 1 0 60 -70 -40 0 0 -1 -1 0 0 0 1 0 2780.dat
 
 
+0 STEP
 0 FILE 42125 - back4b.ldr
 0 A mirror-image rear quarter bodywork section with red and yellow quarter-ellipse liftarms, panels, and C-clipped bars forming an angled fairing.
 0 Name: 42125 - back4b.ldr
@@ -7055,6 +7094,7 @@
 1 0 -60 -70 -40 0 0 1 1 0 0 0 1 0 2780.dat
 
 
+0 STEP
 0 FILE 42125 - rearlights.ldr
 0 A rear light assembly featuring trans-red round bricks, dishes, and round plates mounted on a long liftarm frame.
 0 Name: 42125 - rearlights.ldr
@@ -7129,6 +7169,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42125 - mudg1.ldr
 0 A front mudguard module using a red bent beam and arched mudguard panels with extension pieces.
 0 Name: 42125 - mudg1.ldr
@@ -7162,6 +7203,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42125 - mudg1a.ldr
 0 A front mudguard detail attachment using axle joiners, a toothed connector, and red pins to secure trim elements.
 0 Name: 42125 - mudg1a.ldr
@@ -7193,6 +7235,7 @@
 1 4 0 0 220 1 0 0 0 0 -1 0 1 0 42125 - 65487.dat
 
 
+0 STEP
 0 FILE 42125 - mudg1b.ldr
 0 A front mudguard side fairing using a wide red panel fairing, angle connectors, and pins to form a smooth body curve.
 0 Name: 42125 - mudg1b.ldr
@@ -7234,6 +7277,7 @@
 1 0 -102.426 -20 22.426 0 -0.707 -0.707 1 0 0 0 -0.707 0.707 32013.dat
 
 
+0 STEP
 0 FILE 42125 - mudg2.ldr
 0 A rear mudguard module using a red bent beam and arched mudguard panels with extension pieces.
 0 Name: 42125 - mudg2.ldr
@@ -7267,6 +7311,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42125 - mudg2a.ldr
 0 A rear mudguard detail attachment using axle joiners, a toothed connector, and red pins to secure trim elements.
 0 Name: 42125 - mudg2a.ldr
@@ -7298,6 +7343,7 @@
 1 4 0 0 220 -1 0 0 0 0 1 0 1 0 42125 - 65487.dat
 
 
+0 STEP
 0 FILE 42125 - mudg2b.ldr
 0 A rear mudguard side fairing using a wide red panel fairing, angle connectors, and pins to form a smooth body curve.
 0 Name: 42125 - mudg2b.ldr
@@ -7339,6 +7385,7 @@
 1 0 102.426 -20 22.426 0 0.707 0.707 -1 0 0 0 -0.707 0.707 32013.dat
 
 
+0 STEP
 0 FILE 42125 - roof.ldr
 0 A roof structure built from long white beams, red curved panels, and interconnected liftarms forming the domed car body.
 0 Name: 42125 - roof.ldr
@@ -7599,6 +7646,7 @@
 1 71 76.173 26.753 143.207 0.924 0 -0.383 0.097 0.967 0.234 0.37 -0.254 0.893 42125 - rigid3mmHose-studio-2.ldr
 
 
+0 STEP
 0 FILE 42125 - rigid3mmHose-studio-1.ldr
 0 A rigid 3mm flexible hose assembly spanning approximately 86.76 mm across 310 segments.
 0 Name: 42125 - rigid3mmHose-studio-1.ldr
@@ -8250,6 +8298,7 @@
 1 16 51.860607 -13.938186 204.308636 0.934534 -0.341157 -0.101286 0.17 0.177922 0.969249 -0.312644 -0.923015 0.224271 u9053.dat
 
 
+0 STEP
 0 FILE 42125 - rigid3mmHose-studio-2.ldr
 0 A rigid 3mm flexible hose assembly spanning approximately 86.38 mm across 308 segments.
 0 Name: 42125 - rigid3mmHose-studio-2.ldr
@@ -8897,6 +8946,7 @@
 1 16 -51.877814 -13.942871 204.328495 0.915252 0.390928 0.097413 -0.179415 0.179004 0.967351 0.360728 -0.902847 0.233972 u9053.dat
 
 
+0 STEP
 0 FILE 42125 - frontwheelarch2.ldr
 0 Front wheel arch assembly using angle connectors, cross blocks, and pins to form a curved structural frame.
 0 Name: 42125 - frontwheelarch2.ldr
@@ -8932,6 +8982,7 @@
 1 0 -20 -30 0 0 0 -1 0 -1 0 -1 0 0 42125 - technicFlexAxle-studio-8.ldr
 
 
+0 STEP
 0 FILE 42125 - technicFlexAxle-studio-8.ldr
 0 Flexible Technic axle hose approximately 54mm long, composed of 177 segments forming a bendable ribbed hose.
 0 Name: 42125 - technicFlexAxle-studio-8.ldr
@@ -9338,6 +9389,7 @@
 1 16 -3.113881 -130.619829 21.259439 0.992604 0.114079 0.04151 -0.121397 0.932772 0.33941 0 -0.341939 0.939722 stud3a.dat
 
 
+0 STEP
 0 FILE 42125 - technicFlexAxle-studio-9.ldr
 0 Flexible Technic axle hose approximately 62mm long, composed of 214 segments forming a bendable ribbed hose.
 0 Name: 42125 - technicFlexAxle-studio-9.ldr
@@ -9818,6 +9870,7 @@
 1 16 -31.723396 -144.870542 8.040828 -0.923785 0.38023 -0.035283 0.382911 0.917318 -0.085121 0 -0.09189 -0.995746 stud3a.dat
 
 
+0 STEP
 0 FILE 42125 - technicFlexAxle-studio-10.ldr
 0 Flexible Technic axle hose approximately 151mm long, composed of 661 segments forming a long bendable ribbed hose.
 0 Name: 42125 - technicFlexAxle-studio-10.ldr
@@ -11194,6 +11247,7 @@
 1 16 -60 -323.644872 134.966839 -1 0 0 0 0.685637 -0.727944 0 -0.727944 -0.685637 stud3a.dat
 
 
+0 STEP
 0 FILE 42125 - technicFlexAxle-studio-11.ldr
 0 Flexible Technic axle hose approximately 151mm long, composed of 661 segments forming a long bendable ribbed hose.
 0 Name: 42125 - technicFlexAxle-studio-11.ldr
@@ -12570,6 +12624,7 @@
 1 16 60 -323.644872 134.966839 -1 0 0 0 0.685637 -0.727944 0 -0.727944 -0.685637 stud3a.dat
 
 
+0 STEP
 0 FILE 42125 - reartop.ldr
 0 Rear top body section built from red bent liftarms, beams, and tiles with curved slopes forming the rear deck surface.
 0 Name: 42125 - reartop.ldr
@@ -12689,6 +12744,7 @@
 1 4 -160 0 -60 -0.471 -0.882 0 -0.882 0.471 0 0 0 -1 64392.dat
 
 
+0 STEP
 0 FILE 42125 - reartop2.ldr
 0 Rear top panel sub-assembly using red beams and smooth fairing panels to shape the rear upper bodywork.
 0 Name: 42125 - reartop2.ldr
@@ -12734,6 +12790,7 @@
 1 15 0 0 40 0 0 -1 1 0 0 0 -1 0 42125 - 71682.dat
 
 
+0 STEP
 0 FILE 42125 - topbackside1.ldr
 0 Left rear upper body panel mounting a medium black fairing panel with beams and angle connectors.
 0 Name: 42125 - topbackside1.ldr
@@ -12764,6 +12821,7 @@
 1 0 60 -30 -20 0 0 1 1 0 0 0 1 0 2780.dat
 
 
+0 STEP
 0 FILE 42125 - door1.ldr
 0 Left door frame constructed from red beams, angle connectors, and a wide long red fairing panel.
 0 Name: 42125 - door1.ldr
@@ -12819,6 +12877,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42125 - door1a.ldr
 0 Left door skin with short and long red fairing panels, a toothed axle piece, and half-beams.
 0 Name: 42125 - door1a.ldr
@@ -12856,6 +12915,7 @@
 1 4 -40 40 -20 0 1 0 1 0 0 0 0 -1 41669.dat
 
 
+0 STEP
 0 FILE 42125 - mirrorside1.ldr
 0 Right side mirror assembly with a curved slope cutout and connector pieces for mounting.
 0 Name: 42125 - mirrorside1.ldr
@@ -12878,6 +12938,7 @@
 1 0 -5.977 -40 -42.817 0 0.94 -0.342 -1 0 0 0 0.342 0.94 29119.dat
 
 
+0 STEP
 0 FILE 42125 - topbackside2.ldr
 0 Right rear upper body panel mounting a medium black fairing panel with beams and angle connectors.
 0 Name: 42125 - topbackside2.ldr
@@ -12908,6 +12969,7 @@
 1 0 -60 -30 -20 0 0 -1 -1 0 0 0 1 0 2780.dat
 
 
+0 STEP
 0 FILE 42125 - mirrorside2.ldr
 0 Left side mirror assembly with a curved slope cutout and connector pieces for mounting.
 0 Name: 42125 - mirrorside2.ldr
@@ -12930,6 +12992,7 @@
 1 0 -5.977 -40 42.817 0 0.94 -0.342 1 0 0 0 -0.342 -0.94 29120.dat
 
 
+0 STEP
 0 FILE 42125 - door2.ldr
 0 Right door frame constructed from red beams, angle connectors, and a wide long red fairing panel.
 0 Name: 42125 - door2.ldr
@@ -12985,6 +13048,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42125 - door2a.ldr
 0 Right door skin with short and long red fairing panels, a toothed axle piece, and half-beams.
 0 Name: 42125 - door2a.ldr
@@ -13022,6 +13086,7 @@
 1 4 40 40 -20 0 -1 0 -1 0 0 0 0 -1 41669.dat
 
 
+0 STEP
 0 FILE 42125 - exhaust.ldr
 0 Center exhaust system assembly with long black beam support, red liftarms, and twin pairs of thin black fairing panels forming the pipes.
 0 Name: 42125 - exhaust.ldr
@@ -13116,6 +13181,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 42125 - exhaust2.ldr
 0 Rear underbody exhaust surround made of black plates and tiles with Technic brick mounts and joiners.
 0 Name: 42125 - exhaust2.ldr
@@ -13185,6 +13251,7 @@
 1 4 70 18 15 -1 0 0 0 0 -1 0 -1 0 6632.dat
 
 
+0 STEP
 0 FILE 42125 - spoiler.ldr
 0 Rear spoiler wing built from three black Technic panels and left/right black wings mounted via cross blocks.
 0 Name: 42125 - spoiler.ldr
@@ -13226,6 +13293,7 @@
 1 0 -238 0 0 0 1 0 -1 0 0 0 0 1 41769.dat
 
 
+0 STEP
 0 FILE 42125 - 18575.dat
 0 Primitive part composed of an open axle hole and rectangles forming a simple connector geometry.
 0 Name: 42125 - 18575.dat
@@ -13348,6 +13416,7 @@
 0 // Rectangle with 3 Edges (main_colour)
 1 16 1.5 5.7018 0 0 0 0.5 0 1 -0.0998 -10 0 0 rect3.dat
 
+0 STEP
 0 FILE 42125 - 42924.dat
 0 Detailed primitive part built from friction pin collars, ribs, cylinders, and rings forming a pin connector.
 0 Name: 42125 - 42924.dat
@@ -13475,6 +13544,7 @@
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 4 60] [center=true] [slide=true]
 0 !LDCAD MIRROR_INFO [baseFlip=Z] [counterPart=self]
 
+0 STEP
 0 FILE 42125 - 32523.dat
 0 Primitive part definition for a Technic liftarm with no directly listed sub-pieces.
 0 Name: 42125 - 32523.dat
@@ -13495,6 +13565,7 @@
 
 0 !LDCAD SNAP_INCL [ref=connhole.dat]
 
+0 STEP
 0 FILE 42125 - 92909.dat
 0 Primitive part built from cylinders, rings, cones, and circles forming a conical pin connector.
 0 Name: 42125 - 92909.dat
@@ -13890,6 +13961,7 @@
 0 //NOTE current version has no solution for the nodged sphere socket (see 32494.dat), just define a fixed ori sphere for now
 0 !LDCAD SNAP_GEN [group=nudge1] [gender=F] [bounding=sph 6]
 
+0 STEP
 0 FILE 42125 - 65487.dat
 0 Primitive part forming a friction pin with a base collar and small rectangular center hole.
 0 Name: 42125 - 65487.dat
@@ -13909,6 +13981,7 @@
 2 24 10 2.4 3 10 2.4 -3
 2 24 10 -2.4 3 10 -2.4 -3
 
+0 STEP
 0 FILE 42125 - 62462.dat
 0 Primitive part composed of cylinders, rings, peg-hole ends, and discs forming a pin connector with two peg holes.
 0 Name: 42125 - 62462.dat
@@ -13997,6 +14070,7 @@
 0 !LDCAD SNAP_CLEAR 
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 8 2   R 6 16   R 8 4   R 6 16   R 8 2] [center=true] [slide=true]
 
+0 STEP
 0 FILE 42125 - 32526.dat
 0 Primitive part definition for a Technic liftarm with no directly listed sub-pieces.
 0 Name: 42125 - 32526.dat
@@ -14025,6 +14099,7 @@
 0 !LDCAD SNAP_INCL [ref=connhole.dat]
 0 !LDCAD MIRROR_INFO [baseFlip=Y]
 
+0 STEP
 0 FILE 42125 - 23801.dat
 0 A cylindrical wheel hub or rim component built from concentric rings, cylinders, and technic connector holes.
 0 Name: 42125 - 23801.dat
@@ -14123,6 +14198,7 @@
 0 // Technic Connector Hole One-Sided (main_colour)
 1 16 0 -20 0 -1 0 0 0 1 0 0 0 1 connhol3.dat
 
+0 STEP
 0 FILE 42125 - 60483.dat
 0 An empty submodel placeholder with no direct pieces.
 0 Name: 42125 - 60483.dat
@@ -14140,6 +14216,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\42125 - 60483s01.dat
 4 16 9 10 0 9 10 20 9 -10 20 9 -10 0
 
+0 STEP
 0 FILE 42125 - 65422.dat
 0 A technic liftarm connector with beam holes, a connector hole, and a tapered liftarm end.
 0 Name: 42125 - 65422.dat
@@ -14203,6 +14280,7 @@
 0 // Circle 0.5 (main_colour)
 1 16 0 20 -10 -9 0 0 0 0 9 0 1 0 2-4edge.dat
 
+0 STEP
 0 FILE 42125 - 69911.dat
 0 An empty submodel placeholder with no direct pieces.
 0 Name: 42125 - 69911.dat
@@ -14226,6 +14304,7 @@
 5 24 1 -73.3964 0 5.25 -69.2705 0 0.7967 -72.5961 -19.5693 0.7967 -72.5961 19.5693
 5 24 -29 -84.394897 0 -15 -84.394897 0 -15 -84.012001 -12.0833 -15 -84.012001 12.0833
 
+0 STEP
 0 FILE 42125 - 71708.dat
 0 A multi-holed technic connector block with axle and peg holes plus rectangular surface details.
 0 Name: 42125 - 71708.dat
@@ -14363,6 +14442,7 @@
 5 24 16.646999 10 31.788 16.646999 2 31.788 12 10 37 21.121 10 24.096001
 5 24 12 10 37 12 2 37 9 10 40 16.646999 10 31.788
 
+0 STEP
 0 FILE 42125 - 49294.dat
 0 A small box-shaped technic connector featuring an axle hole and surrounding ring.
 0 Name: 42125 - 49294.dat
@@ -14445,6 +14525,7 @@
 1 16 0 0 -42 16.82324 0 -62.78518 62.78518 0 16.82324 0 1 0 48\1-12edge.dat
 3 16 -5.213 2.791 -30 -5.543 2.296 -30 -10.4332 1.0242 -30
 
+0 STEP
 0 FILE 42125 - 33299a.dat
 0 A compact technic connector with reduced axle holes and peg holes built from rings and discs.
 0 Name: 42125 - 33299a.dat
@@ -14478,6 +14559,7 @@
 1 16 0 10 40 -8 0 0 0 -1 0 0 0 -8 2-4ndis.dat
 4 16 9 10 32 9 10 29 -9 10 29 -9 10 32
 
+0 STEP
 0 FILE 42125 - 67142.dat
 0 A detailed technic pin connector with wide and narrow pinhole ends and sloped cylinder surfaces.
 0 Name: 42125 - 67142.dat
@@ -15078,6 +15160,7 @@
 2 24 0.5 -15.8468 81.25 -27 -15.8468 81.25
 2 24 -27 -17 81.25 0.5 -17 81.25
 
+0 STEP
 0 FILE 42125 - 68196.dat
 0 A single tapered curved body panel (Technic Panel 5 x 13 Curved, left side).
 0 Name: 42125 - 68196.dat
@@ -15090,6 +15173,7 @@
 0 // Technic Panel  5 x 13 Curved #50 Tapered Left (main_colour)
 1 16 0 0 0 -1 0 0 0 1 0 0 0 1 42125 - 67142.dat
 
+0 STEP
 0 FILE 42125 - 18973p09.dat
 0 A single left-side curved windscreen panel with headlights and vents on a red background pattern.
 0 Name: 42125 - 18973p09.dat
@@ -15104,6 +15188,7 @@
 0 // Windscreen  6 x  4 x  1.333 Curved with Headlights and Vents on Red Background Left Pattern (main_colour)
 1 16 0 0 0 -1 0 0 0 1 0 0 0 1 42125 - 18973p08.dat
 
+0 STEP
 0 FILE 42125 - 18973p08.dat
 0 An empty submodel placeholder for the mirrored windscreen panel with no direct pieces.
 0 Name: 42125 - 18973p08.dat
@@ -16953,6 +17038,7 @@
 3 4 -15.308 0.5682 -19.239 -24.351999 1.536 -32.933998 -20 1.536 -33.66
 3 4 -40 24 -70 -39.655998 24 -75.220001 -40 13.6299 -55.922001
 
+0 STEP
 0 FILE s\42125 - faxle1.dat
 0 A technic axle primitive with base surface, inner edges, and tooth details on a cylinder.
 0 Name: s\42125 - faxle1.dat
@@ -16987,6 +17073,7 @@
 0 // Technic Axle Perimeter (main_colour)
 1 16 0.4 0 0 0 -0.4 0 -1 0 0 0 0 1 axlehol8.dat
 
+0 STEP
 0 FILE s\42125 - faxle2.dat
 0 A shorter technic axle primitive segment with surface, edges, and tooth details.
 0 Name: s\42125 - faxle2.dat
@@ -17015,6 +17102,7 @@
 0 // Cylinder 1.0 (main_colour)
 1 16 0 0 0 0 0.8 0 6 0 0 0 0 6 4-4cyli.dat
 
+0 STEP
 0 FILE s\42125 - faxle3.dat
 0 A short technic axle primitive segment with cylinder, surface, edges, and tooth details.
 0 Name: s\42125 - faxle3.dat
@@ -17043,6 +17131,7 @@
 0 // Technic Axle Perimeter (main_colour)
 1 16 1.2 0 0 0 -1.2 0 -1 0 0 0 0 1 axlehol8.dat
 
+0 STEP
 0 FILE s\42125 - faxle4.dat
 0 A short technic axle primitive segment with surface, edges, and tooth details on a cylinder.
 0 Name: s\42125 - faxle4.dat
@@ -17071,6 +17160,7 @@
 0 // Cylinder 1.0 (main_colour)
 1 16 0 0 0 0 1.6 0 6 0 0 0 0 6 4-4cyli.dat
 
+0 STEP
 0 FILE s\42125 - faxle5.dat
 0 A short technic axle primitive segment with cylinder, base surface, edges, and tooth details.
 0 Name: s\42125 - faxle5.dat
@@ -17099,6 +17189,7 @@
 0 // Technic Axle Perimeter (main_colour)
 1 16 2 0 0 0 -2 0 -1 0 0 0 0 1 axlehol8.dat
 
+0 STEP
 0 FILE 42125 - 44874.dat
 0 A pair of technic friction pins with base collars and small rectangular center holes.
 0 Name: 42125 - 44874.dat
@@ -17126,6 +17217,7 @@
 2 24 -10 2.4 3 -10 2.4 -3
 2 24 -10 -2.4 3 -10 -2.4 -3
 
+0 STEP
 0 FILE 42125 - 3023.dat
 0 An empty submodel placeholder representing a standard plate with no direct pieces.
 0 Name: 42125 - 3023.dat
@@ -17150,6 +17242,7 @@
 
 0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=S 6 4] [grid=C 2 1 20 0]
 
+0 STEP
 0 FILE 42125 - 71682.dat
 0 A multi-axle technic connector with semi-reduced axle holes, cylinders, and rectangular detailing.
 0 Name: 42125 - 71682.dat
@@ -17361,6 +17454,7 @@
 1 16 -0.9835 -29.69 0 0 0 -1.4325 0 1 0 28.022 0 0 rect2p.dat
 4 16 -2.416 -29.690001 -28.021999 -2.416 -29.690001 28.021999 -1.637 -28.351 30 -1.637 -28.351 -30
 
+0 STEP
 0 FILE 42125 - 32039.dat
 0 A simple flat rectangular subpart consisting of two thin rectangles.
 0 Name: 42125 - 32039.dat
@@ -17400,6 +17494,7 @@
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=A 6 20] [center=true] [slide=true]
 0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=A 6 20] [slide=true]
 
+0 STEP
 0 FILE 42125 - 71689.dat
 0 An empty submodel placeholder with no direct pieces.
 0 Name: 42125 - 71689.dat
@@ -17414,6 +17509,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\42125 - 71689s01.dat
 1 16 0 0 0 1 0 0 0 1 0 0 0 -1 s\42125 - 71689s01.dat
 
+0 STEP
 0 FILE 42125 - 42135.dat
 0 A simple flat subpart built from two small rectangles with edge details.
 0 Name: 42125 - 42135.dat
@@ -17450,6 +17546,7 @@
 2 24 6.2884 2.8996 -12.9998 -6.2884 2.8996 -12.9998
 2 24 -6.2884 2.8996 -12.9998 -6.0001 0 -12.9998
 
+0 STEP
 0 FILE 42125 - 71709.dat
 0 A large technic liftarm assembly with multiple one-sided connector holes, peg holes, and mirrored center sections.
 0 Name: 42125 - 71709.dat
@@ -17557,6 +17654,7 @@
 0 // Rectangle with 2 Parallel Edges (main_colour)
 1 16 0 9 -21 -20 0 0 0 -1 0 0 0 -9 rect2p.dat
 
+0 STEP
 0 FILE s\42125 - 32269s01.dat
 0 A flat subpart of a technic axle connector formed entirely from rectangles with various edges.
 0 Name: s\42125 - 32269s01.dat
@@ -17646,6 +17744,7 @@
 3 16 18.258699 2.4034 -10 17.789101 4.7663 -10 19.3403 4.9066 -10
 3 16 15.3375 12.7626 -10 14.6121 11.2123 -10 13.0227 13.0227 -10
 
+0 STEP
 0 FILE s\42125 - 32269s02.dat
 0 A cylindrical subpart of a technic axle connector featuring open cylinders, rings, and rectangular faces.
 0 Name: s\42125 - 32269s02.dat
@@ -17717,6 +17816,7 @@
 4 16 11.998 -1 -10 11.998 1 -10 16.934099 1 -10 16.934099 -1 -10
 3 16 17 0 -10 16.934099 -1 -10 16.934099 1 -10
 
+0 STEP
 0 FILE 42125 - connectcollar3.dat
 0 A cylindrical collar connector with rings and edge rectangles forming a smooth connecting collar.
 0 Name: 42125 - connectcollar3.dat
@@ -17798,6 +17898,7 @@
 0 // Rectangle with 3 Edges (main_colour)
 1 16 -4.3146 4.5 1 1.4865 0 0 0 0 -4.5 0 1 0 rect3.dat
 
+0 STEP
 0 FILE 42125 - confricrib1.dat
 0 A friction rib component with no direct geometry pieces defined.
 0 Name: 42125 - confricrib1.dat
@@ -17834,6 +17935,7 @@
 5 24 4.698 -3.7 3.5666 4.773 -3.7 4.0659 4.5259 -4 3.8188 4.698 0 3.5666
 5 24 4.773 -3.7 4.0659 4.773 0 4.0659 4.698 -3.7 3.5666 4.0659 0 4.773
 
+0 STEP
 0 FILE 42125 - confricrib2.dat
 0 A friction rib component with no direct geometry pieces defined.
 0 Name: 42125 - confricrib2.dat
@@ -17916,6 +18018,7 @@
 5 24 5.844 -3.7 0.8 6.25 -3.7 0.5 5.9006 -4 0.5 5.844 0 0.8
 5 24 6.25 -3.7 0.5 6.25 0 0.5 5.844 -3.7 0.8 6.25 0 -0.5
 
+0 STEP
 0 FILE 42125 - connectslit1.dat
 0 A small slit connector composed of two thin cylinders and an edge rectangle.
 0 Name: 42125 - connectslit1.dat
@@ -17944,6 +18047,7 @@
 1 16 4.801 0 1 0 0 1 8 0 0 0 1 0 rect2p.dat
 5 24 5.5433 9 2.2961 5.5434 -9 2.2962 4.2426 -9 4.2426 5.801 -9 1
 
+0 STEP
 0 FILE 42125 - confricrib3.dat
 0 A friction rib component with no direct geometry pieces defined.
 0 Name: 42125 - confricrib3.dat
@@ -17993,6 +18097,7 @@
 5 24 4.773 5.7 4.0659 4.0659 5.7 4.773 4.2426 6 4.2426 4.773 -5.7 4.0659
 5 24 4.0659 5.7 4.773 3.5666 5.7 4.698 3.8188 6 4.5259 4.0659 -5.7 4.773
 
+0 STEP
 0 FILE 42125 - confricrib4.dat
 0 A friction rib composed of two quarter-circle discs.
 0 Name: 42125 - confricrib4.dat
@@ -18055,6 +18160,7 @@
 2 24 6.0748 -1.1 0.6294 5.844 -1.9863 0.8
 2 24 6.0748 1.1 0.6294 6.1475 0 0.5757
 
+0 STEP
 0 FILE s\42125 - 32523s01.dat
 0 A Technic beam submodel with connector holes, cylinders, and edge rectangles forming a structural beam.
 0 Name: s\42125 - 32523s01.dat
@@ -18090,6 +18196,7 @@
 0 // Rectangle with 2 Parallel Edges (main_colour)
 1 16 -9 0 0 0 1 0 0 0 10 20 0 0 rect2p.dat
 
+0 STEP
 0 FILE 42125 - confric11.dat
 0 A friction pin connector with multiple cylinders, rings, ribs, and chord details forming a ribbed friction connection.
 0 Name: 42125 - confric11.dat
@@ -18454,6 +18561,7 @@
 5 24 -3.558 -5.7 5.1627 -3.558 -2 5.1627 -3.6153 -5.7 4.6618 -2.692 -2 5.6627
 5 24 -2.692 -5.7 5.6627 -2.5337 -6 5.3847 -3.558 -5.7 5.1627 -2.2962 -5.7 5.5434
 
+0 STEP
 0 FILE s\42125 - 15100s01.dat
 0 A Technic connector submodel with a long connector hole, cylinders, and sloped sections.
 0 Name: s\42125 - 15100s01.dat
@@ -18508,6 +18616,7 @@
 2 24 4.827 -3.062 7.391 3.916 0 8
 4 16 10 -3 -4 10 3 -4 10 3 4 10 -3 4
 
+0 STEP
 0 FILE 42125 - confric3.dat
 0 A detailed friction pin assembly featuring multiple ribs, collars, slits, and stop rings for a long friction pin.
 0 Name: 42125 - confric3.dat
@@ -18587,6 +18696,7 @@
 0 // Cylinder 1.0 (main_colour)
 1 16 0 -2 0 8 0 0 0 2 0 0 0 -8 4-4cyli.dat
 
+0 STEP
 0 FILE 42125 - connectcollar4.dat
 0 A cylindrical collar connector with chords, rings, and edge rectangles forming a detailed connecting collar.
 0 Name: 42125 - connectcollar4.dat
@@ -18672,6 +18782,7 @@
 0 // Rectangle with 2 Adjacent Edges (main_colour)
 1 16 -2.4 5 2 0 -1 0 0 0 -5 1 0 0 rect2a.dat
 
+0 STEP
 0 FILE 42125 - connectslit2.dat
 0 A thin slit connector composed of small cylinders and an edge rectangle.
 0 Name: 42125 - connectslit2.dat
@@ -18700,6 +18811,7 @@
 1 16 6 5 0 0 -2 -0.199 1 0 0 0 0 1 8\1-4cylo.dat
 1 16 3.9941 5 0 0 1 -0.199 1 0 0 0 0 1 8\1-4ndis.dat
 
+0 STEP
 0 FILE s\42125 - 32526s01.dat
 0 A Technic beam submodel with multiple peg holes, connector holes, and disc negatives forming a multi-hole structural beam.
 0 Name: s\42125 - 32526s01.dat
@@ -18780,6 +18892,7 @@
 2 24 40 -10 89 0 -10 89
 2 24 0 10 89 40 10 89
 
+0 STEP
 0 FILE 42125 - npeghol5.dat
 0 A non-physical peg hole detail with rings, edge rectangles, and box faces forming connection hole geometry.
 0 Name: 42125 - npeghol5.dat
@@ -18834,6 +18947,7 @@
 5 24 3.4443 1 -1.6849 3.4443 0 -1.6849 6.3639 1 -3.6361 2 1 -1.397
 5 24 -3.4443 1 -1.6849 -3.4443 0 -1.6849 -6.3639 1 -3.6361 -2 1 -1.397
 
+0 STEP
 0 FILE s\42125 - 23801s01.dat
 0 A complex shaped Technic part submodel with rings, cones, and cylinders forming a contoured connector or gear element.
 0 Name: s\42125 - 23801s01.dat
@@ -19320,6 +19434,7 @@
 3 16 9.6 -13.4026 -3.4442 8.3149 -14.2614 -3.4442 6.42908 -15.5212 -6.3
 5 24 6.42908 -15.5212 -15 6.42908 -15.5212 -6.3 9.5671 -13.4246 -15 -0.000136 -16.800446 -15
 
+0 STEP
 0 FILE s\42125 - 60483s01.dat
 0 A Technic connector submodel with axle holes, peg holes, and rings forming a dual-hole connector piece.
 0 Name: s\42125 - 60483s01.dat
@@ -19358,6 +19473,7 @@
 2 24 9 -10 20 9 -10 0
 2 24 9 10 20 9 10 0
 
+0 STEP
 0 FILE s\42125 - 65422s01.dat
 0 A rotor or blade element submodel with rotor surfaces, sloped cylinders, and reinforcement details forming a turbine blade.
 0 Name: s\42125 - 65422s01.dat
@@ -19536,6 +19652,7 @@
 5 24 -14.879 -15.879 -3.9827 -38.7654 -41 -1.8478 -38.7654 -39.7654 -1.8478 -18.962601 -342 -1.8478
 5 24 -39.4142 -41 -1.4142 -39.847801 -41 -0.7654 -39.847801 -40.847801 -0.7654 -20.04501 -342 -0.7654
 
+0 STEP
 0 FILE 42125 - npeghol3.dat
 0 A non-physical peg hole detail with cylinders, rings, and box faces forming connection hole geometry.
 0 Name: 42125 - npeghol3.dat
@@ -19581,6 +19698,7 @@
 0 // Box with  2 Faces without  7 Edges (main_colour)
 1 16 2.7222 0.5 -3.041 0 -0.72215 0 0.5 0 0 0 0.14395 1.5 box2-7.dat
 
+0 STEP
 0 FILE s\42125 - 67142s01.dat
 0 A Technic connector submodel with pin holes, connector holes, and multiple cylinders forming a contoured connector piece.
 0 Name: s\42125 - 67142s01.dat
@@ -19869,6 +19987,7 @@
 2 24 -5.2119 -22.374201 80.288101 -3.4827 -22.2712 79.213501
 2 24 -3.4827 -22.2712 79.213501 -1.5 -22.2356 78.842903
 
+0 STEP
 0 FILE s\42125 - 87082s01.dat
 0 A simple cylindrical Technic part submodel with a main cylinder and sloped sections.
 0 Name: s\42125 - 87082s01.dat
@@ -19915,6 +20034,7 @@
 2 24 -4.827 -3.062 -7.391 -3.916 0 -8
 4 16 -10 3 4 -10 3 -4 -10 -3 -4 -10 -3 4
 
+0 STEP
 0 FILE s\42125 - 69911s01.dat
 0 A Technic connector submodel with connector holes, rings, cylinders, and disc negatives forming a multi-hole structural element.
 0 Name: s\42125 - 69911s01.dat
@@ -20614,6 +20734,7 @@
 5 24 -29 -79.508202 50.583302 -15 -79.508202 50.583302 -15 -81.5597 38.083302 -29 -76.535004 62.916698
 5 24 -7.5 -81.248199 0 -7.6611 -80.059799 22.822201 -16 -88.017097 12.0833 -3.25 -77.422302 0
 
+0 STEP
 0 FILE s\42125 - 3023s01.dat
 0 A box-shaped plate submodel composed of faces and edges forming a simple rectangular plate.
 0 Name: s\42125 - 3023s01.dat
@@ -20637,6 +20758,7 @@
 4 16 -20 8 -10 -16 8 -6 16 8 -6 20 8 -10
 4 16 20 8 -10 16 8 -6 16 8 6 20 8 10
 
+0 STEP
 0 FILE s\42125 - 32039s01.dat
 0 A Technic bush connector submodel with cones, rings, and axle surfaces forming a bushing with tapered ends.
 0 Name: s\42125 - 32039s01.dat
@@ -20733,6 +20855,7 @@
 4 16 -9 7 -6 -9 7 -14.59 -9 0 -11 -9 -7 -6
 3 16 -9 -7 -6 -9 0 -11 -9 -7 -14.59
 
+0 STEP
 0 FILE s\42125 - 71689s01.dat
 0 A Technic axle connector submodel with a closed axle hole, rings, and cylinders forming an axle end or joiner.
 0 Name: s\42125 - 71689s01.dat
@@ -20892,6 +21015,7 @@
 5 24 9.5 -5.2892 116.602997 29 0.1874 103.647003 29 9 106.573997 29 -13.2414 97.151299
 2 24 0 -9 108.779297 0 -9 110.4897
 
+0 STEP
 0 FILE 48\42125 - 3-16con8.dat
 0 A partial cone primitive with conditional lines forming a 3/16 arc cone segment.
 0 Name: 48\42125 - 3-16con8.dat
@@ -20923,6 +21047,7 @@
 5 24 3.0616 1 7.3912 3.4443 0 8.3151 4 1 6.928 2.0888 1 7.7944
 0 // Build by LDPartEditor (PrimGen 2.X)
 
+0 STEP
 0 FILE 48\42125 - 3-16ring29.dat
 0 A thin 3/16 circular ring primitive of radius 29 used for curved surface detailing.
 0 Name: 48\42125 - 3-16ring29.dat
@@ -20943,6 +21068,7 @@
 4 16 15 0 25.98 11.481 0 27.716999 11.0983 0 26.7931 14.5 0 25.114
 0 // Build by LDPartEditor (PrimGen 2.X)
 
+0 STEP
 0 FILE 48\42125 - 3-16ring50.dat
 0 A thin 3/16 circular ring primitive of radius 50 used for larger curved surface detailing.
 0 Name: 48\42125 - 3-16ring50.dat
@@ -20963,6 +21089,7 @@
 4 16 25.5 0 44.166 19.5177 0 47.1189 19.135 0 46.195 25 0 43.299999
 0 // Build by LDPartEditor (PrimGen 2.X)
 
+0 STEP
 0 FILE 48\42125 - 3-16con10.dat
 0 A 3/16 cone segment primitive of height 10 with conditional lines defining its curved surface.
 0 Name: 48\42125 - 3-16con10.dat
@@ -20994,6 +21121,7 @@
 5 24 3.827 1 9.239 4.2097 0 10.1629 5 1 8.66 2.611 1 9.743
 0 // Build by LDPartEditor (PrimGen 2.X)
 
+0 STEP
 0 FILE 48\42125 - 1-6ring17.dat
 0 A 1/6 circular ring primitive of radius 17 used for partial curved edge detailing.
 0 Name: 48\42125 - 1-6ring17.dat
@@ -21013,6 +21141,7 @@
 4 16 10.9584 0 14.2812 9 0 15.588 8.5 0 14.722 10.3496 0 13.4878
 0 // Build by LDPartEditor (PrimGen 2.X)
 
+0 STEP
 0 FILE s\42125 - 49294s01.dat
 0 A submodel of part 49294 composed of cylinders, rings, circles, and sloped cylinders forming a rounded connector with a peg hole.
 0 Name: s\42125 - 49294s01.dat
@@ -21799,6 +21928,7 @@
 5 24 -12.0944 20.948099 -38.393902 -10.6946 18.5235 -34.645199 -13.3205 16.9282 -34.645199 -8 20 -34.645199
 5 24 -10.6946 18.5235 -34.645199 -9.1371 15.8259 -31.8342 -13.3205 16.9282 -34.645199 -8 20 -34.645199
 
+0 STEP
 0 FILE s\42125 - 64782s01.dat
 0 A detailed Technic connector submodel (part 64782) built from cylinders, discs, circles, and connector-hole negatives forming a multi-hole Technic joint.
 0 Name: s\42125 - 64782s01.dat

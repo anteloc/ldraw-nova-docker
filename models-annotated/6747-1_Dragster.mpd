@@ -7,6 +7,7 @@
 1 0 0 6.973 1.003 1 0 0 0 1 -0.017 0 0.017 1 6747 - Dragster.ldr
 
 
+0 STEP
 0 FILE 6747 - Dragster.ldr
 0 The main dragster body built from long plates and wing panels in blue, white, and red forming an elongated aerodynamic chassis.
 0 Name: 6747 - Dragster.ldr
@@ -277,6 +278,7 @@
 1 256 -80 -54 400 0 0 1 0 1 0 -1 0 0 32019.dat
 
 
+0 STEP
 0 FILE 6747 - Front Axle.ldr
 0 A front axle assembly using a Technic axle 6 with bushes and two Technic bricks with holes to mount the front wheels.
 0 Name: 6747 - Front Axle.ldr
@@ -303,6 +305,7 @@
 1 71 40 0 0 0 0 -1 0 1 0 1 0 0 3713.dat
 
 
+0 STEP
 0 FILE 6747 - Side RH.ldr
 0 The right side chassis rail constructed from a long Technic brick with holes, plates, pins, and an axle joiner for linkage.
 0 Name: 6747 - Side RH.ldr
@@ -346,6 +349,7 @@
 1 71 -15 -30 120 0 0 1 0 1 0 -1 0 0 32123a.dat
 
 
+0 STEP
 0 FILE 6747 - Jumper.ldr
 0 A small linkage assembly of two liftarms connected by axle pins for pivoting movement.
 0 Name: 6747 - Jumper.ldr
@@ -363,6 +367,7 @@
 1 72 10 0 -20 0 -1 0 1 0 0 0 0 1 6632.dat
 
 
+0 STEP
 0 FILE 6747 - Arm RH.ldr
 0 A right-side bent liftarm arm mounted via axle pins and a plate with hole, forming a pivoting support.
 0 Name: 6747 - Arm RH.ldr
@@ -380,6 +385,7 @@
 1 1 -30 -6 118 1 0 0 0 0.6 0.8 0 -0.8 0.6 2444.dat
 
 
+0 STEP
 0 FILE 6747 - Side LH.ldr
 0 The left side chassis rail built from a long Technic brick with holes, plates, and pins mirroring the right side.
 0 Name: 6747 - Side LH.ldr
@@ -416,6 +422,7 @@
 1 1 -20 -126 212 1 0 0 0 0.6 -0.8 0 0.8 0.6 6747 - Arm LH.ldr
 
 
+0 STEP
 0 FILE 6747 - Arm LH.ldr
 0 A left-side bent liftarm arm mounted via axle pins and a plate with hole, mirroring the right arm.
 0 Name: 6747 - Arm LH.ldr
@@ -433,6 +440,7 @@
 1 1 30 -6 8 -1 0 0 0 0.6 -0.8 0 -0.8 -0.6 2444.dat
 
 
+0 STEP
 0 FILE 6747 - Engine.ldr
 0 A small engine detail assembly using clip plates, handles, a grooved tile, and round plates.
 0 Name: 6747 - Engine.ldr
@@ -455,6 +463,7 @@
 1 72 -30.646 -37.833 -10 0 -0.875 0.485 0 0.485 0.875 -1 0 0 6141.dat
 
 
+0 STEP
 0 FILE 6747 - Steering.ldr
 0 A steering mechanism with an axlehole brick, notched axle, liftarm, and inverted dish forming a steering wheel.
 0 Name: 6747 - Steering.ldr
@@ -473,6 +482,7 @@
 1 72 0 -10 30 1 0 0 0 0 -1 0 1 0 4740.dat
 
 
+0 STEP
 0 FILE 6747 - Exhaust.ldr
 0 A vertical exhaust pipe assembly built from a cone, antenna, round brick, bushes, and an angle connector.
 0 Name: 6747 - Exhaust.ldr
@@ -496,6 +506,7 @@
 1 71 0 -106 0 -1 0 0 0 0 -1 0 -1 0 32013.dat
 
 
+0 STEP
 0 FILE 6747 - Aileron.ldr
 0 A rear wing assembly of blue and white plates, red plates, brackets, and small black slopes forming an aerodynamic surface.
 0 Name: 6747 - Aileron.ldr
@@ -531,6 +542,7 @@
 1 1 92 14 -30 0 -1 0 1 0 0 0 0 1 6747 - Aileron LH.ldr
 
 
+0 STEP
 0 FILE 6747 - Aileron RH.ldr
 0 The right portion of the rear wing using blue wing panels and small orange and black slopes.
 0 Author: Marc Giraudet [Mad_Marc]
@@ -549,6 +561,7 @@
 1 0 20 -8 -30 -1 0 0 0 1 0 0 0 -1 54200.dat
 
 
+0 STEP
 0 FILE 6747 - Aileron LH.ldr
 0 The left portion of the rear wing using blue wing panels and small black and orange slopes.
 0 Name: 6747 - Aileron LH.ldr

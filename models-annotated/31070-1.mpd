@@ -8,6 +8,7 @@
 1 1 0 0 0 1 0 0 0 1 0 0 0 1 31070 - Racer.ldr
 
 
+0 STEP
 0 FILE 31070 - Racer.ldr
 0 The main body and chassis of a Technic-based vehicle built with open-center bricks, beams, pins, plates, brackets, and slope elements in black, white, and light bluish grey.
 0 Name: 31070 - Racer.ldr
@@ -1236,6 +1237,7 @@
 1 70 -120 -10 0 0 0 -1 0 -1 0 -1 0 0 31070 - Wheel.ldr
 
 
+0 STEP
 0 FILE 31070 - Door Opener.ldr
 0 A small Technic axle-and-joiner mechanism assembly used to operate a door, built from axles, axle joiners, and a cross block.
 0 Name: 31070 - Door Opener.ldr
@@ -1262,6 +1264,7 @@
 1 71 -60 0 40 1 0 0 0 0 1 0 -1 0 2736.dat
 
 
+0 STEP
 0 FILE 31070 - Back Window.ldr
 0 A rear window assembly consisting of a translucent brown windscreen panel framed with technic bricks, plates, and pins.
 0 Name: 31070 - Back Window.ldr
@@ -1302,6 +1305,7 @@
 1 72 0 -98 0 1 0 0 0 1 0 0 0 1 6636.dat
 
 
+0 STEP
 0 FILE 31070 - Spoiler.ldr
 0 A rear wing spoiler built from a long black plate, curved slope bricks, round axlehole plates, gears, and bushings.
 0 Name: 31070 - Spoiler.ldr
@@ -1341,6 +1345,7 @@
 1 71 -40 0 0 0 0 -1 -1 0 0 0 1 0 24014.dat
 
 
+0 STEP
 0 FILE 31070 - Seat Top.ldr
 0 A seat backrest assembly made from an orange mudguard piece, handle plates, and grooved tiles.
 0 Name: 31070 - Seat Top.ldr
@@ -1365,6 +1370,7 @@
 1 191 0 -14.836 76.73 1 0 0 0 0.966 -0.259 0 0.259 0.966 3069b.dat
 
 
+0 STEP
 0 FILE 31070 - Door Right.ldr
 0 A right-side vehicle door panel with blue curved slopes, tiles, plates, a technic angle connector, and a decorative dish detail.
 0 Name: 31070 - Door Right.ldr
@@ -1433,6 +1439,7 @@
 1 1 74 -16 50 0 -1 0 0 0 1 -1 0 0 11477.dat
 
 
+0 STEP
 0 FILE 31070 - Door Left.ldr
 0 A left-side vehicle door panel with blue curved slopes, tiles, plates, a technic angle connector, and a decorative dish detail.
 0 Name: 31070 - Door Left.ldr
@@ -1501,6 +1508,7 @@
 1 1 -74 -16 50 0 1 0 0 0 1 1 0 0 11477.dat
 
 
+0 STEP
 0 FILE 31070 - Front Window.ldr
 0 A front windshield assembly featuring a translucent brown trapezoidal windscreen, sloped bricks, and top hinges for opening.
 0 Name: 31070 - Front Window.ldr
@@ -1534,6 +1542,7 @@
 1 0 100 -10 0 -1 0 0 0 1 0 0 0 -1 3938.dat
 
 
+0 STEP
 0 FILE 31070 - Hatch.ldr
 0 A rear hatch or tailgate panel built from plates and curved slope bricks in blue, white, and medium azure with grille tiles.
 0 Name: 31070 - Hatch.ldr
@@ -1597,6 +1606,7 @@
 1 1 60 -10 -130 1 0 0 0 1 0 0 0 1 93606.dat
 
 
+0 STEP
 0 FILE 31070 - Wheel.ldr
 0 A single wheel assembly consisting of a white multi-spoke rim with wheel cover and a black tyre.
 0 Name: 31070 - Wheel.ldr

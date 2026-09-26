@@ -10,6 +10,7 @@
 1 4 -0.01 4 0.01 1 0 0 0 1 0 0 0 1 4539 - level crossing.ldr
 
 
+0 STEP
 0 FILE 4539 - level crossing.ldr
 0 A road level crossing built on a road-pattern baseplate with sloped black trackside housings, level crossing warning signs, and decorative flowers.
 0 Name: 4539 - level crossing.ldr
@@ -125,6 +126,7 @@
 1 16 -139.99 -74 -180.01 -1 0 0 0 0.5 0.866025 0 0.866025 -0.5 4539 - level crossing - barrier.ldr
 
 
+0 STEP
 0 FILE 4539 - level crossing - building.ldr
 0 A small crossing attendant's building with white walls, tall windows, lattice pillar support, hinged elements, and a turntable-mounted seat.
 0 Name: 4539 - level crossing - building.ldr
@@ -237,6 +239,7 @@
 1 16 0 -304 -50.01 1 0 0 0 1 0 0 0 1 3023.DAT
 
 
+0 STEP
 0 FILE 4539 - level crossing - barrier.ldr
 0 A level crossing barrier assembly consisting of a red-striped gate, a counterweight, and a pivot pin.
 0 Name: 4539 - level crossing - barrier.ldr
@@ -253,6 +256,7 @@
 1 7 0 0 0 -1 0 0 0 1 0 0 0 -1 3749.DAT
 
 
+0 STEP
 0 FILE 4539 - minifig.ldr
 0 A railway worker minifigure with a blue train-logo torso, black legs, and a red police-style hat.
 0 Name: 4539 - minifig.ldr

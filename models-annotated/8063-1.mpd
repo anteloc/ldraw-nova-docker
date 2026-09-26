@@ -10,6 +10,7 @@
 
 
 
+0 STEP
 0 FILE 8063 - Tractor.ldr
 0 A large Technic tractor chassis built from numerous beams, pins, and axles forming the structural frame.
 0 Name: 8063 - Tractor.ldr
@@ -1171,6 +1172,7 @@
 
 
 
+0 STEP
 0 FILE 8063 - Seat.ldr
 0 A driver's seat assembly constructed from blue beams, pins, and toothed connector pieces.
 0 Name: 8063 - Seat.ldr
@@ -1217,6 +1219,7 @@
 
 
 
+0 STEP
 0 FILE 8063 - Differential.ldr
 0 A differential gear mechanism with a 16/24 tooth differential casing and bevel gears mounted on triangle liftarms.
 0 Name: 8063 - Differential.ldr
@@ -1281,6 +1284,7 @@
 
 
 
+0 STEP
 0 FILE 8063 - Wheel Hub.ldr
 0 A wheel hub assembly joining axles and liftarms via cross blocks and axle joiners.
 0 Name: 8063 - Wheel Hub.ldr
@@ -1325,6 +1329,7 @@
 
 
 
+0 STEP
 0 FILE 8063 - Engine.ldr
 0 A multi-cylinder Technic engine with crankshafts, pistons, connecting rods, and cylinder heads.
 0 Name: 8063 - Engine.ldr
@@ -1444,6 +1449,7 @@
 
 
 
+0 STEP
 0 FILE 8063 - Steering.ldr
 0 A steering linkage assembly using long beams, cross blocks, bushes, and angle connectors.
 0 Name: 8063 - Steering.ldr
@@ -1554,6 +1560,7 @@
 
 
 
+0 STEP
 0 FILE 8063 - technicFlexAxle-1.ldr
 0 A flexible Technic axle approximately 116mm long composed of 48 segments.
 0 Author: LDCad
@@ -4250,6 +4257,7 @@
 5 24 -230 -113.695602 -1.5308 -226.444473 -113.695602 -1.5308 -230 -114 0 -230 -112.8284 -2.8284
 
 
+0 STEP
 0 FILE 8063 - rigid3mmHose-1.ldr
 0 A rigid 3mm hose approximately 96mm long composed of 8 segments.
 0 Name: 8063 - rigid3mmHose-1.ldr
@@ -4825,6 +4833,7 @@
 5 24 2.122921 -0.792216 239.999832 2.122436 -0.792168 237.998672 2.275121 -0.026816 239.999832 1.689321 -1.441016 239.999832
 
 
+0 STEP
 0 FILE 8063 - technicFlexAxle-2.ldr
 0 A flexible Technic axle approximately 87mm long composed of 33 segments.
 0 Author: LDCad
@@ -7129,6 +7138,7 @@
 5 24 -4.719574 -206.395721 5.360926 -4.565164 -202.830811 6.317036 -5.006545 -205.986725 3.882286 -3.86772 -206.768784 6.614311
 
 
+0 STEP
 0 FILE 8063 - technicFlexAxle-3.ldr
 0 A flexible Technic axle approximately 108mm long composed of 62 segments.
 0 Author: LDCad
@@ -10301,6 +10311,7 @@
 5 24 158.381989 -166.658234 -1.5308 154.763184 -166.658234 -1.5308 158.381989 -166.353836 0 158.381989 -167.525436 -2.8284
 
 
+0 STEP
 0 FILE 8063 - technicFlexAxle-4.ldr
 0 A flexible Technic axle approximately 97mm long composed of 36 segments.
 0 Author: LDCad
@@ -12589,6 +12600,7 @@
 5 24 -12.279232 -232.15387 59.12278 -11.805492 -228.980209 57.322849 -11.874681 -231.455795 60.458832 -13.224896 -232.657364 57.987869
 
 
+0 STEP
 0 FILE 8063 - Trailer.ldr
 0 A trailer chassis built from long red beams, bent liftarms, pins, and decorative striped tiles.
 0 Name: 8063 - Trailer.ldr
@@ -13018,6 +13030,7 @@
 
 
 
+0 STEP
 0 FILE 8063 - minifigChain-1.ldr
 0 A minifig-scale chain of 21 links spanning approximately 119mm.
 0 Name: 8063 - minifigChain-1.ldr
@@ -13092,6 +13105,7 @@
 1 16 2.827988 -10.920394 119.856523 -0.974159 0.187734 -0.125577 -0.184606 -0.982146 -0.036201 -0.130131 -0.012083 0.991423 30104k02.dat
 
 
+0 STEP
 0 FILE 8063 - Chain.ldr
 0 A short chain assembly consisting of two minifig chain end pieces.
 0 Name: 8063 - Chain.ldr
@@ -13106,6 +13120,7 @@
 
 
 
+0 STEP
 0 FILE 8063 - minifigChain-2.ldr
 0 A minifig-scale chain of 21 links spanning approximately 118mm.
 0 Name: 8063 - minifigChain-2.ldr
@@ -13179,6 +13194,7 @@
 1 16 2.413869 -11.191024 -119.482285 0.971536 0.210633 0.108408 0.214234 -0.976521 -0.022594 0.101104 0.045175 -0.99385 30104k02.dat
 
 
+0 STEP
 0 FILE 8063 - Tipper Bed.ldr
 0 A tipper bed frame constructed from dark bluish grey beams, liftarms, and pins forming a tilting platform.
 0 Name: 8063 - Tipper Bed.ldr
@@ -13366,6 +13382,7 @@
 
 
 
+0 STEP
 0 FILE 8063 - Bed Side Right.ldr
 0 The right side wall of the trailer bed built from long beams, green panels, and pins.
 0 Name: 8063 - Bed Side Right.ldr
@@ -13476,6 +13493,7 @@
 
 
 
+0 STEP
 0 FILE 8063 - Bed Side Left.ldr
 0 The left side wall of the trailer bed built from long beams, green panels, and pins.
 0 Name: 8063 - Bed Side Left.ldr
@@ -13586,6 +13604,7 @@
 
 
 
+0 STEP
 0 FILE 8063 - Bed Side Front.ldr
 0 The front wall of the trailer bed assembled from beams, a green panel, and cross blocks.
 0 Name: 8063 - Bed Side Front.ldr
@@ -13643,6 +13662,7 @@
 1 72 0 -40 -160 0 0 -1 0 1 0 1 0 0 6536.dat
 
 
+0 STEP
 0 FILE 8063 - 33299a.dat
 0 A Technic liftarm with boss and pin constructed from axle holes, rings, and disc primitives.
 0 Name: 8063 - 33299a.dat
@@ -13678,6 +13698,7 @@
 
 
 
+0 STEP
 0 FILE s\8063 - 33299s01.dat
 0 A common subpart for the Technic liftarm with boss and pin made of cylinders, rings, and discs.
 0 Name: s\8063 - 33299s01.dat

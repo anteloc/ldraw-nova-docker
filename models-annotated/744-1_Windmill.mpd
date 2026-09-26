@@ -12,6 +12,7 @@
 
 
 
+0 STEP
 0 FILE 744-1 - Car.ldr
 0 A small yellow and black car assembled from plates and bricks of various sizes.
 0 Name: 744-1 - Car.ldr
@@ -202,6 +203,7 @@
 
 
 
+0 STEP
 0 FILE 744-1 - Building.ldr
 0 The windmill tower built from yellow bricks with a 4x4 turntable base and 45-degree slope details.
 0 Name: 744-1 - Building.ldr
@@ -341,6 +343,7 @@
 
 
 
+0 STEP
 0 FILE 744-1 - Support.ldr
 0 A black support structure of long plates and brackets reinforcing the windmill model.
 0 Name: 744-1 - Support.ldr
@@ -371,6 +374,7 @@
 
 
 
+0 STEP
 0 FILE 744-1 - Turbine.ldr
 0 A yellow turbine assembly with inverted slopes, technic axles, and a turntable top for rotation.
 0 Name: 744-1 - Turbine.ldr
@@ -626,6 +630,7 @@
 
 
 
+0 STEP
 0 FILE 744-1 - Rotor.ldr
 0 A yellow windmill rotor of long plates arranged around a central round brick.
 0 Name: 744-1 - Rotor.ldr
@@ -688,6 +693,7 @@
 
 
 
+0 STEP
 0 FILE 744-1 - Antenna.ldr
 0 A light grey antenna mast topped with round bricks, a torch, and a large inverted dish.
 0 Name: 744-1 - Antenna.ldr

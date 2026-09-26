@@ -13,6 +13,7 @@
 
 
 
+0 STEP
 0 FILE 722-1 - Helicopter.ldr
 0 A red helicopter fuselage built from plates, bricks, trans-clear windscreen elements, and angled slope pieces forming the body.
 0 Name: 722-1 - Helicopter.ldr
@@ -197,6 +198,7 @@
 
 
 
+0 STEP
 0 FILE 722-1 - Tail.ldr
 0 A tapered red tail boom with an inverted slope, tail rotor holder, yellow trans-plates, and a yellow four-blade tail rotor.
 0 Name: 722-1 - Tail.ldr
@@ -236,6 +238,7 @@
 
 
 
+0 STEP
 0 FILE 722-1 - Foot.ldr
 0 A small red and grey landing skid foot made of bricks, a long plate, and an inverted slope.
 0 Name: 722-1 - Foot.ldr
@@ -262,6 +265,7 @@
 
 
 
+0 STEP
 0 FILE 722-1 - Main rotor.ldr
 0 A wide red rotor assembly built from long plates supporting a central yellow four-blade propeller.
 0 Name: 722-1 - Main rotor.ldr

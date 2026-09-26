@@ -16,6 +16,7 @@
 
 
 
+0 STEP
 0 FILE 6696 - car.ldr
 0 A small wheeled vehicle built on a 4x5 car base with a mudguard, steering wheel, headlights, and an opening door.
 0 Name: 6696 - car.ldr
@@ -112,6 +113,7 @@
 
 
 
+0 STEP
 0 FILE 6696 - trailer.ldr
 0 A long flatbed trailer mounted on wheels with a hose reel and nozzle, mudguard, and taillight elements.
 0 Name: 6696 - trailer.ldr
@@ -264,6 +266,7 @@
 
 
 
+0 STEP
 0 FILE 6696 - trailer - movable A.ldr
 0 A hinged connector assembly made of a hinge base and two plates used to articulate the trailer.
 0 Name: 6696 - trailer - movable A.ldr
@@ -286,6 +289,7 @@
 
 
 
+0 STEP
 0 FILE 6696 - minifig.ldr
 0 A minifig figure with a red police hat, red torso, blue legs, and a grinning yellow head.
 0 Name: 6696 - minifig.ldr

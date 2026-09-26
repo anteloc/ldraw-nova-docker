@@ -836,6 +836,7 @@
 1 4 535 -6 -38.135 -0.433 -0.5 -0.75 0.866 0 -0.5 0.25 -0.866 0.433 64728.dat
 
 
+0 STEP
 0 FILE 7327 - Car.ldr
 0 A dark-red vintage car with a sloped grille front, rounded fender plates, hinged components, and a two-seat chassis base.
 0 Name: 7327 - Car.ldr
@@ -1025,6 +1026,7 @@
 0 // Technic Pin Long with Stop Bush (black)
 1 0 27 -156 20.555 0.5 0 0.866 0 1 0 -0.866 0 0.5 32054.dat
 
+0 STEP
 0 FILE 7327 - Scorpion.ldr
 0 A large articulated scorpion with black pentagonal wings, dark-blue body sections, pearl-gold cones, and locking hinges forming its legs and tail.
 0 Name: 7327 - Scorpion.ldr
@@ -1157,6 +1159,7 @@
 1 1 81.794 -26.21 -143.017 0.908 -0.243 -0.342 0.259 0.966 0 0.33 -0.089 0.94 7327 - Scorpion (Left Claw).ldr
 
 
+0 STEP
 0 FILE 7327 - Scorpion (Tail Segment).ldr
 0 A curved, hinged tail segment built from locking hinge plates, a swept-back mudguard, and a triple curved slope element.
 0 Name: 7327 - Scorpion (Tail Segment).ldr
@@ -1176,6 +1179,7 @@
 1 28 0 -24 40 1 0 0 0 1 0 0 0 1 47457.dat
 
 
+0 STEP
 0 FILE 7327 - Scorpion (Tail End).ldr
 0 The stinger-tipped tail end with inverted wedge pieces, in-line tooth plates, and locking hinge bricks for articulation.
 0 Name: 7327 - Scorpion (Tail End).ldr
@@ -1210,6 +1214,7 @@
 1 28 0 -32 30 -1 0 0 0 1 0 0 0 -1 47753.dat
 
 
+0 STEP
 0 FILE 7327 - Scorpion (Leg).ldr
 0 A single articulated scorpion leg using a locking hinge arm with axle, a red technic axle, a pearl-gold cone, and a tail-section end piece.
 0 Name: 7327 - Scorpion (Leg).ldr
@@ -1227,6 +1232,7 @@
 1 28 0 0 51 -1 0 0 0 -1 0 0 0 1 40379.dat
 
 
+0 STEP
 0 FILE 7327 - Scorpion (Right Claw).ldr
 0 A right-side claw assembly with hieroglyph-patterned wedges, hinged plates, toothed plates, and a pearl-gold round tile.
 0 Name: 7327 - Scorpion (Right Claw).ldr
@@ -1273,6 +1279,7 @@
 1 71 20 8 -30 0 0 -1 0 1 0 1 0 0 2817.dat
 
 
+0 STEP
 0 FILE 7327 - Scorpion (Left Claw).ldr
 0 A left-side claw assembly with hieroglyph-patterned wedges, hinged plates, toothed plates, and a pearl-gold round tile.
 0 Name: 7327 - Scorpion (Left Claw).ldr
@@ -1318,6 +1325,7 @@
 1 71 -20 8 -30 0 0 1 0 1 0 -1 0 0 2817.dat
 
 
+0 STEP
 0 FILE 7327 - Stairway.ldr
 0 A stepped stairway structure with large dark-grey bricks, inverted slopes, an arched opening, and technic bricks with axle holes.
 0 Name: 7327 - Stairway.ldr
@@ -1376,6 +1384,7 @@
 1 72 0 -136 90 1 0 0 0 1 0 0 0 1 6636.dat
 
 
+0 STEP
 0 FILE 7327 - Ceiling 1.ldr
 0 A tan ceiling section composed of large plates with a hieroglyph-decorated brick, pearl-gold accent, and a dark-blue convex slope.
 0 Name: 7327 - Ceiling 1.ldr
@@ -1429,6 +1438,7 @@
 1 272 -30 -64 -30 -1 0 0 0 1 0 0 0 -1 3045.dat
 
 
+0 STEP
 0 FILE 7327 - Ceiling 2.ldr
 0 A simple flat ceiling section made of a large dark-tan plate reinforced with four tan plates.
 0 Name: 7327 - Ceiling 2.ldr
@@ -1447,6 +1457,7 @@
 1 19 0 16 100 1 0 0 0 1 0 0 0 1 3795.dat
 
 
+0 STEP
 0 FILE 7327 - Sarcophagus.ldr
 0 An Egyptian sarcophagus consisting of a dark-blue coffin base, a pearl-gold lid with mummy relief, and dark-orange base plates.
 0 Name: 7327 - Sarcophagus.ldr
@@ -1465,6 +1476,7 @@
 1 484 0 8 40 1 0 0 0 1 0 0 0 1 3022.dat
 
 
+0 STEP
 0 FILE 7327 - Tomb Wall.ldr
 0 A hieroglyph-styled tomb wall built from tan and dark-tan bricks with dark-blue round studs, a clip element, and accent plates.
 0 Name: 7327 - Tomb Wall.ldr
@@ -1511,6 +1523,7 @@
 1 72 0 -96 0 0 0 -1 0 1 0 1 0 0 6636.dat
 
 
+0 STEP
 0 FILE 7327 - Door (Left).ldr
 0 A left door panel with a gear rack mechanism, pearl-gold cones, and an Anubis-head hieroglyph sticker on a black reinforced panel.
 0 Name: 7327 - Door (Left).ldr
@@ -1549,6 +1562,7 @@
 1 0 90 -120 0 1 0 0 0 1 0 0 0 1 3005.dat
 
 
+0 STEP
 0 FILE 7327 - Door (Right).ldr
 0 A right door panel with a gear rack mechanism, pearl-gold cones, and an Anubis-head hieroglyph sticker on a black reinforced panel.
 0 Name: 7327 - Door (Right).ldr
@@ -1587,6 +1601,7 @@
 1 0 -90 -120 0 1 0 0 0 1 0 0 0 1 3005.dat
 
 
+0 STEP
 0 FILE 7327 - Column with Arch.ldr
 0 A black and tan column topped by twin arches, accented with a dark-orange plate.
 0 Name: 7327 - Column with Arch.ldr
@@ -1615,6 +1630,7 @@
 1 484 80 -144 0 0 0 1 0 1 0 -1 0 0 3022.dat
 
 
+0 STEP
 0 FILE 7327 - Nemes Mounting.ldr
 0 A small display mount for a metallic-gold pharaoh's Nemes headdress using a bar plate, head piece, and round studs.
 0 Name: 7327 - Nemes Mounting.ldr
@@ -1635,6 +1651,7 @@
 1 82 0 -52 -22 -1 0 0 0 1 0 0 0 -1 90462pq1.dat
 
 
+0 STEP
 0 FILE 7327 - Trapdoor.ldr
 0 A barred trapdoor plate with rounded tan corner panels and a Technic hole plate for a hinged opening mechanism.
 0 Name: 7327 - Trapdoor.ldr
@@ -1659,6 +1676,7 @@
 1 71 0 8 -20 0 0 1 0 1 0 -1 0 0 2817.dat
 
 
+0 STEP
 0 FILE 7327 - Sidewall (Large).ldr
 0 A large tan sidewall with tile accents, a dish element, technic pin tiles, and connection plates for structural assembly.
 0 Name: 7327 - Sidewall (Large).ldr
@@ -1699,6 +1717,7 @@
 1 72 0 -8 0 0 0 -1 0 1 0 1 0 0 3034.dat
 
 
+0 STEP
 0 FILE 7327 - Sidewall (Small, Left).ldr
 0 A small left-side tan wall with a sloped wing element, tile accents, technic pins, and connection plates.
 0 Name: 7327 - Sidewall (Small, Left).ldr
@@ -1743,6 +1762,7 @@
 1 0 0 -8 30 -1 0 0 0 1 0 0 0 -1 32530.dat
 
 
+0 STEP
 0 FILE 7327 - Sidewall (Small, Right).ldr
 0 A small right-side tan wall with a sloped wing element, tile accents, technic pins, and connection plates.
 0 Name: 7327 - Sidewall (Small, Right).ldr
@@ -1787,6 +1807,7 @@
 1 0 120 40 -10 1 0 0 0 1 0 0 0 1 32530.dat
 
 
+0 STEP
 0 FILE 7327 - Plate.ldr
 0 A small decorative tan element with an Eye-of-Horus sticker, pearl-gold cone, slopes, and dark-blue accent plates.
 0 Name: 7327 - Plate.ldr
@@ -1809,6 +1830,7 @@
 1 297 10 -112 -10 0 0 1 0 1 0 -1 0 0 4589.dat
 
 
+0 STEP
 0 FILE 7327 - Obelisk.ldr
 0 A tall tapered obelisk with hieroglyph-decorated panels, dark-orange accent plates, and a dark-blue convex slope cap.
 0 Name: 7327 - Obelisk.ldr
@@ -1847,6 +1869,7 @@
 1 272 0 -400 0 1 0 0 0 1 0 0 0 1 3688.dat
 
 
+0 STEP
 0 FILE 7327 - Mummy Warrior.ldr
 0 A bandaged mummy warrior minifigure with a Horus headdress, wrapped-face head, gold-belted loincloth, spear, and eagle wing.
 0 Name: 7327 - Mummy Warrior.ldr
@@ -1879,6 +1902,7 @@
 1 272 0 -72 0 1 0 0 0 1 0 0 0 1 93250pq0.dat
 
 
+0 STEP
 0 FILE 7327 - Anubis Guard 1.ldr
 0 An Anubis guard minifigure with a jackal-head headdress, scarab shield, khopesh sword, and gold-accented black body.
 0 Name: 7327 - Anubis Guard 1.ldr
@@ -1909,6 +1933,7 @@
 1 83 25.517 -37.981 -23.183 0.93 0.245 -0.282 -0.204 0.967 0.168 0.313 -0.098 0.946 93251.dat
 
 
+0 STEP
 0 FILE 7327 - Anubis Guard 2.ldr
 0 Black-armored Anubis Guard minifigure with muscle-printed torso, jackal headdress, scarab shield, and pearl-black khopesh sword.
 0 Name: 7327 - Anubis Guard 2.ldr
@@ -1939,6 +1964,7 @@
 1 83 23.897 -38.192 -25.804 0.989 0.005 0.215 -0.005 1.007 0.003 -0.213 0.001 0.992 93251.dat
 
 
+0 STEP
 0 FILE 7327 - Amset-Ra.ldr
 0 Mummy pharaoh minifigure Amset-Ra with bandaged torso, gold death mask, and gold nemes headdress with dark blue stripes.
 0 Name: 7327 - Amset-Ra.ldr
@@ -1967,6 +1993,7 @@
 1 82 0 -98 0 1 0 0 0 1 0 0 0 1 90462pq1.dat
 
 
+0 STEP
 0 FILE 7327 - Professor Archibald Hale.ldr
 0 Explorer minifigure Professor Archibald Hale wearing a pith helmet, safari shirt with bandana, satchel, pickaxe, and a pyramid map tile.
 0 Name: 7327 - Professor Archibald Hale.ldr
@@ -2001,6 +2028,7 @@
 1 19 23.989 -43.843 45.635 -0.331 -0.944 -0.001 -0.814 0.286 -0.506 0.478 -0.167 -0.862 3068bpq0.dat
 
 
+0 STEP
 0 FILE 7327 - Jake Raines.ldr
 0 Adventurer minifigure Jake Raines with waistcoat, bandolier, tousled black hair, and a revolver.
 0 Name: 7327 - Jake Raines.ldr
@@ -2031,6 +2059,7 @@
 1 72 -20.227 -73.767 -19.471 0.997 -0.006 -0.079 0.026 0.965 0.263 0.075 -0.264 0.962 30132.dat
 
 
+0 STEP
 0 FILE 7327 - Mac McCloud.ldr
 0 Minifigure Mac McCloud wearing a tank top with braces, a kepi hat, and a stubbly bearded face.
 0 Name: 7327 - Mac McCloud.ldr
@@ -2059,6 +2088,7 @@
 1 28 0 -96 0 1 0 0 0 1 0 0 0 1 30135.dat
 
 
+0 STEP
 0 FILE 7327 - 61254.dat
 0 Primitive construction of a treaded tyre with cone, cylinder, and ring elements forming the rounded tire body.
 0 Name: 7327 - 61254.dat
@@ -2173,6 +2203,7 @@
 1 16 0 0 0 0.14232 0.98982 0 -0.98982 0.14232 0 0 0 1 s\7327 - 61254s01.dat
 1 16 0 0 0 -0.14231 0.98982 0 -0.98982 -0.14231 0 0 0 1 s\7327 - 61254s01.dat
 
+0 STEP
 0 FILE 7327 - 43903c01.dat
 0 20-tooth belt assembly formed from two belt rim halves and a belt segment component.
 0 Name: 7327 - 43903c01.dat
@@ -2211,6 +2242,7 @@
 1 16 -60 0 0 0 1 0 1 0 0 0 0 1 7327 - 43903b.dat
 1 16 -60 0 0 1 0 0 0 1 0 0 0 1 7327 - 43903b.dat
 
+0 STEP
 0 FILE s\7327 - 61254s01.dat
 0 Primitive tread element of a tyre built from rectangular edge primitives.
 0 Name: s\7327 - 61254s01.dat
@@ -2263,6 +2295,7 @@
 5 24 -2.456 -29.583 1.25 2.456 -29.583 1.25 2.199 -29.215 9 -1.779 -29.631 -1.25
 5 24 1.779 -29.631 -1.25 2.456 -29.583 1.25 -2.456 -29.583 1.25 6.64106 -28.9319 -1.25
 
+0 STEP
 0 FILE 7327 - 43903a.dat
 0 Straight belt segment built from a box and rectangular primitives forming a flat band section.
 0 Name: 7327 - 43903a.dat
@@ -2301,6 +2334,7 @@
 2 24 4 -21 -3 3 -15 -1
 2 24 -4 -21 -3 -3 -15 -1
 
+0 STEP
 0 FILE 7327 - 43903b.dat
 0 Curved belt segment built from partial cylinders and rectangular primitives forming a rounded band section.
 0 Name: 7327 - 43903b.dat

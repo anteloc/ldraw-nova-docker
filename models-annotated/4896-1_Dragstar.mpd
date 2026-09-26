@@ -7,6 +7,7 @@
 1 33 0 20.946 0.017 1 0 0 0 0.999 -0.035 0 0.035 0.999 4896 - Dragster.ldr
 
 
+0 STEP
 0 FILE 4896 - Dragster.ldr
 0 The main chassis built from long Technic bricks, beams, plates, gears, and axles forming a low, geared dragster frame with aerodynamic wings.
 0 Name: 4896 - Dragster.ldr
@@ -370,6 +371,7 @@
 1 256 -100 10 600 0 0 1 0 1 0 -1 0 0 41897.dat
 
 
+0 STEP
 0 FILE 4896 - Middle.ldr
 0 A connector section joining Technic bricks with friction pins.
 0 Name: 4896 - Middle.ldr
@@ -401,6 +403,7 @@
 1 0 -20 10 60 1 0 0 0 1 0 0 0 1 2780.dat
 
 
+0 STEP
 0 FILE 4896 - Rear.ldr
 0 The rear subassembly with beams, axles, bushes, a hinged plate, and a translucent red inverted dish detail.
 0 Name: 4896 - Rear.ldr
@@ -451,6 +454,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 4896 - Arm.ldr
 0 An articulated arm made of plates, a long tile, an inverted slope, and dual-finger locking hinges.
 0 Name: 4896 - Arm.ldr
@@ -478,6 +482,7 @@
 1 0 0 8 -30 1 0 0 0 1 0 0 0 1 3665a.dat
 
 
+0 STEP
 0 FILE 4896 - Side LH.ldr
 0 A left-side body panel combining a plate with handle and angled left wings.
 0 Name: 4896 - Side LH.ldr
@@ -496,6 +501,7 @@
 1 0 10 -16 0 0 0 -1 0 1 0 1 0 0 43723.dat
 
 
+0 STEP
 0 FILE 4896 - Side RH.ldr
 0 A right-side body panel combining a plate with handle and angled right wings.
 0 Name: 4896 - Side RH.ldr
@@ -514,6 +520,7 @@
 1 0 -10 -16 0 0 0 1 0 1 0 -1 0 0 43722.dat
 
 
+0 STEP
 0 FILE 4896 - Intake.ldr
 0 A front engine intake assembly featuring an air scoop, side-stud bricks, curved slopes, grilles, and double wedge panels.
 0 Name: 4896 - Intake.ldr
@@ -568,6 +575,7 @@
 1 0 -44 -14 -40 0 1 0 1 0 0 0 0 -1 41747.dat
 
 
+0 STEP
 0 FILE 4896 - Aileron.ldr
 0 A long rear wing assembly with plates, angled connectors, curved slopes, and a 45-degree slope fin.
 0 Name: 4896 - Aileron.ldr
@@ -629,6 +637,7 @@
 1 0 136.87 -6.431 -20.943 0.707 -0.707 0 0.653 0.653 -0.383 0.271 0.271 0.924 4896 - Winglet LH.ldr
 
 
+0 STEP
 0 FILE 4896 - Winglet LH.ldr
 0 A left winglet formed from cut-corner plates, angled wings, a red corner accent, and a hinge top.
 0 Name: 4896 - Winglet LH.ldr
@@ -651,6 +660,7 @@
 1 0 -20 8 10 0 0 1 0 1 0 -1 0 0 6134.dat
 
 
+0 STEP
 0 FILE 4896 - Winglet RH.ldr
 0 A right winglet formed from cut-corner plates, angled wings, a red corner accent, and a hinge top.
 0 Name: 4896 - Winglet RH.ldr
@@ -673,6 +683,7 @@
 1 0 20 8 10 0 0 -1 0 1 0 1 0 0 6134.dat
 
 
+0 STEP
 0 FILE 4896 - Seat.ldr
 0 A driver's seat built from red and grey plates, handles, and grooved tiles.
 0 Name: 4896 - Seat.ldr
@@ -697,6 +708,7 @@
 1 4 0 -16 -10 -1 0 0 0 1 0 0 0 -1 3068b.dat
 
 
+0 STEP
 0 FILE 4896 - Steering.ldr
 0 A steering column assembly featuring a small Technic steering wheel, plates, an axle pin, and a hinge mount.
 0 Name: 4896 - Steering.ldr

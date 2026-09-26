@@ -57,6 +57,7 @@
 
 0
 
+0 STEP
 0 FILE 7740 - train 1.ldr
 0 Red locomotive cab with sloped computer-panel screens, windscreens, light prisms, and weighted base.
 0 Name: 7740 - train 1.ldr
@@ -411,6 +412,7 @@
 
 0
 
+0 STEP
 0 FILE 7740 - train 2.ldr
 0 Red passenger coach with large windows, seats, and German Railways 'Basel/Hamburg' destination stickers.
 0 Name: 7740 - train 2.ldr
@@ -637,6 +639,7 @@
 
 0
 
+0 STEP
 0 FILE 7740 - train 3.ldr
 0 Red passenger coach with seats, round supports, and German Railways 'Basel/Hamburg' destination stickers.
 0 Name: 7740 - train 3.ldr
@@ -897,6 +900,7 @@
 
 0
 
+0 STEP
 0 FILE 7740 - pseudo motor.ldr
 0 Motorized bogie assembly with train wheels on a base of plates and a bogie plate.
 0 Name: 7740 - pseudo motor.ldr
@@ -936,6 +940,7 @@
 
 0
 
+0 STEP
 0 FILE 7740 - wheelcase.ldr
 0 Train bogie unit with small wheels, buffer beam, magnetic coupling, and side plates.
 0 Name: 7740 - wheelcase.ldr
@@ -971,6 +976,7 @@
 
 0
 
+0 STEP
 0 FILE 7740 - roof A.ldr
 0 Sloped roof section built from 33-degree and 45-degree slope bricks with a large base plate.
 0 Name: 7740 - roof A.ldr
@@ -1039,6 +1045,7 @@
 
 0
 
+0 STEP
 0 FILE 7740 - roof B.ldr
 0 Simple roof segment made of sloped 33-degree bricks on a large plate with round axle-hole plates.
 0 Name: 7740 - roof B.ldr
@@ -1073,6 +1080,7 @@
 
 0
 
+0 STEP
 0 FILE 7740 - roof C.ldr
 0 Sloped roof section with 33-degree and 45-degree slope bricks on a large plate, featuring a yellow accent brick.
 0 Name: 7740 - roof C.ldr
@@ -1137,6 +1145,7 @@
 
 0
 
+0 STEP
 0 FILE 7740 - platform.ldr
 0 Train station platform built on a large base plate with benches, seats, and support pillars.
 0 Name: 7740 - platform.ldr
@@ -1273,6 +1282,7 @@
 
 0
 
+0 STEP
 0 FILE 7740 - minifig - train driver.ldr
 0 Train driver minifigure wearing a red cap and a suit with tie.
 0 Name: 7740 - minifig - train driver.ldr
@@ -1310,6 +1320,7 @@
 
 0
 
+0 STEP
 0 FILE 7740 - minifig 1.ldr
 0 Male passenger minifigure in a blue suit carrying a signal holder with a green circle sticker.
 0 Name: 7740 - minifig 1.ldr
@@ -1348,6 +1359,7 @@
 
 0
 
+0 STEP
 0 FILE 7740 - minifig 2.ldr
 0 Passenger minifigure wearing a black cap and red torso.
 0 Name: 7740 - minifig 2.ldr
@@ -1384,6 +1396,7 @@
 
 0
 
+0 STEP
 0 FILE 7740 - minifig 3.ldr
 0 Female passenger minifigure with pigtails, blue torso, and red legs.
 0 Name: 7740 - minifig 3.ldr
@@ -1420,6 +1433,7 @@
 
 0
 
+0 STEP
 0 FILE 7740 - minifig 4.ldr
 0 Female passenger minifigure with pigtails, red torso, and blue legs.
 0 Name: 7740 - minifig 4.ldr
@@ -1456,6 +1470,7 @@
 
 0
 
+0 STEP
 0 FILE 7740 - minifig 5.ldr
 0 Male passenger minifigure with black hair, blue torso, and red legs.
 0 Name: 7740 - minifig 5.ldr
@@ -1492,6 +1507,7 @@
 
 0
 
+0 STEP
 0 FILE 7740 - minifig 6.ldr
 0 Male passenger minifigure with brown hair, black torso, and white legs.
 0 Name: 7740 - minifig 6.ldr
@@ -1528,6 +1544,7 @@
 
 0
 
+0 STEP
 0 FILE 7740 - minifig 7.ldr
 0 Male passenger minifigure with brown hair and an all-blue outfit.
 0 Name: 7740 - minifig 7.ldr
@@ -1564,6 +1581,7 @@
 
 0
 
+0 STEP
 0 FILE 7740 - minifig 8.ldr
 0 Chef minifigure wearing a white cook's hat and a patterned chef torso.
 0 Name: 7740 - minifig 8.ldr
@@ -1600,6 +1618,7 @@
 
 0
 
+0 STEP
 0 FILE 7740 - 4181p02c01.dat
 0 Assembled left train door with red bottom half pattern and clear glass pane.
 0 Name: 7740 - 4181p02c01.dat
@@ -1619,6 +1638,7 @@
 
 0
 
+0 STEP
 0 FILE 7740 - 4182p02c01.dat
 0 Assembled right train door with red bottom half pattern and clear glass pane.
 0 Name: 7740 - 4182p02c01.dat

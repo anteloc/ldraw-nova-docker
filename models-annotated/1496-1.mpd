@@ -9,6 +9,7 @@
 1 16 0 -40 0 1 0 0 0 1 0 0 0 1 1496 - DRIVER.LDR
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 1496 - CAR.LDR
 
+0 STEP
 0 FILE 1496 - car.ldr
 0 A red race car built on a 4x10 base with black mudguards, wheels, a steering wheel, and a bold white number '2' on the sides.
 0 Name: 1496 - car.ldr
@@ -117,6 +118,7 @@
 0 // Tyre  6/ 50 x  8 Offset Tread (black)
 1 0 142 -14.828 25.594 0 0 -1 0.438 0.899 0 0.899 -0.438 0 3641.DAT
 
+0 STEP
 0 FILE 1496 - driver.ldr
 0 A racing driver minifigure wearing a red suit with a white diagonal zip pattern and a black helmet with a visor.
 0 Name: 1496 - driver.ldr

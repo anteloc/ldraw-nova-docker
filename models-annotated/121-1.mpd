@@ -52,6 +52,7 @@
 0 // Plate  4 x  6 (yellow)
 1 14 0 -128 80 0 0 -1 0 1 0 1 0 0 3032.dat
 1 16 102 -29 97.464 0.866 0 -0.5 0 1 0 0.5 0 0.866 121 - Mitchell.ldr
+0 STEP
 0 FILE 121 - Mitchell.ldr
 0 An empty assembly submodel containing no direct pieces.
 0 Name: 121 - Mitchell.ldr
@@ -65,6 +66,7 @@
 1 14 -10 30 0 1 0 0 0 1 0 0 0 1 u9100.dat
 1 14 10 30 0 1 0 0 0 1 0 0 0 1 u9100.dat
 1 4 0 30 0 1 0 0 0 1 0 0 0 1 u9103.dat
+0 STEP
 0 FILE 121 - 3996.dat
 0 An empty submodel with no direct pieces.
 0 Name: 121 - 3996.dat
@@ -81,6 +83,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\121 - 3996s01.dat
 1 16 0 0 0 0 0 1 0 1 0 -1 0 0 stud.dat
 0 
+0 STEP
 0 FILE 121 - 3995.dat
 0 An empty submodel with no direct pieces.
 0 Name: 121 - 3995.dat
@@ -97,6 +100,7 @@
 1 16 0 0 0 -1 0 0 0 1 0 0 0 1 s\121 - 3996s01.dat
 1 16 0 0 0 0 0 -1 0 1 0 1 0 0 stud.dat
 0 
+0 STEP
 0 FILE s\121 - 3996s01.dat
 0 A wheel or tire primitive composed of circles, cylinders, discs, and rings of varying diameters.
 0 Name: s\121 - 3996s01.dat

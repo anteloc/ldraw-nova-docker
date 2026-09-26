@@ -52,6 +52,7 @@
 1 14 241.452 -70.267 -224.891 -0.815 -0.405 -0.415 0.258 0.388 -0.885 0.519 -0.828 -0.212 3660 - 4794a.dat
 0 // Fabuland Oar with Ring Handle (yellow)
 1 14 304 -66 -167 0.519 0.828 0.212 -0.258 0.388 -0.885 -0.815 0.405 0.415 3660 - 4794a.dat
+0 STEP
 0 FILE 3660 - edwardelephant.ldr
 0 An Edward Elephant Fabuland figure submodel containing no direct pieces.
 0 Name: 3660 - edwardelephant.ldr
@@ -65,6 +66,7 @@
 1 0 -10 -37 4 1 0 0 0 1 0 0 0 1 u9100.dat
 1 0 10 -37 4 1 0 0 0 1 0 0 0 1 u9100.dat
 1 4 0 -37 4 1 0 0 0 1 0 0 0 1 u9103.dat
+0 STEP
 0 FILE 3660 - 4071c01.dat
 0 A red door frame submodel with a four-pane door shown in closed, half-open, and fully open positions.
 0 Name: 3660 - 4071c01.dat
@@ -89,6 +91,7 @@
 0 // door fully open
 0 // 1 16 48 84 -14.5 0 0 -1 0 1 0 1 0 0 4072.dat
 0 
+0 STEP
 0 FILE 3660 - 4793.dat
 0 A geometric submodel composed of boxes and rectangles forming a simple paneled structure.
 0 Name: 3660 - 4793.dat
@@ -165,6 +168,7 @@
 1 16 -36 8 36.5 0 0 2 0 -1 0 78.5 0 0 rect2p.dat
 4 16 -34 8 -42 -34 8 115 -34 4 115 -34 4 -46
 4 16 -38 4 115 -38 8 115 -38 8 -42 -38 4 -46
+0 STEP
 0 FILE 3660 - 4327.dat
 0 A submodel combining cylinders, spheres, and rectangles to form a rounded, knobbed shape.
 0 Name: 3660 - 4327.dat
@@ -330,6 +334,7 @@
 5 24 0 47.1152 -155.763 0 47.810001 -156.654007 2.5669 48.588299 -156.044006 -2.5669 48.588299 -156.044006
 5 24 0 45.662498 -150.397995 0 46.933201 -151.509995 1.9071 46.340401 -150.595001 -1.9071 46.340401 -150.595001
 5 24 -0.00015 -29.312401 -123.400002 0.00045 -28.7076 -95.254501 0.91915 -28.889799 -95.265503 -0.91855 -29.4946 -123.411003
+0 STEP
 0 FILE 3660 - 4794a.dat
 0 A detailed curved submodel built from many cylinders, spheres, chords, and circles forming a complex rounded body.
 0 Name: 3660 - 4794a.dat
@@ -495,6 +500,7 @@
 5 24 13.3151 122.556 -1.5308 13.3151 122.556 1.5308 3.6956 100.699997 1.5308 14 126 1.5308
 5 24 -13.3151 122.556 1.53078 -13.3151 122.556 -1.53082 -3.69557 100.699997 -1.53082 -14 126 1.5308
 2 24 3.6956 138 -1.5308 3.69552 100.699959 -1.53073
+0 STEP
 0 FILE 3660 - 787.dat
 0 A Fabuland roof support submodel consisting of two support elements.
 0 Name: 3660 - 787.dat
@@ -513,6 +519,7 @@
 
 0 //Antistuds
 0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=R 6 4] [grid=C 2 C 5 20 20]
+0 STEP
 0 FILE 3660 - 4320.dat
 0 A submodel with sloped cylinders, discs, and circles forming a rounded, ridged component.
 0 Name: 3660 - 4320.dat
@@ -783,6 +790,7 @@
 0 // Circle 0.25 (main_colour)
 1 16 -14 0 -54 0 0 -2 0 1 0 -2 0 0 1-4edge.dat
 2 24 -4 0 -54 -4 0 -50
+0 STEP
 0 FILE s\3660 - 4793s01.dat
 0 A submodel of open cylinders and rectangles forming a hollow cylindrical structure.
 0 Name: s\3660 - 4793s01.dat
@@ -2438,6 +2446,7 @@
 2 24 76.018997 -39 34.778 77.542999 -38.695999 34.794998
 4 16 72.039001 -35 13 72 -40 18 72 -40 30 72.039001 -35 35
 4 16 80 -35 35 80 -40 30 80 -40 18 80 -35 13
+0 STEP
 0 FILE s\3660 - 4327s01.dat
 0 A submodel of cylinders and chords forming a smooth rounded cylindrical surface.
 0 Name: s\3660 - 4327s01.dat
@@ -3855,6 +3864,7 @@
 5 24 3.8314 67.832001 -156.987 3.8128 68.125999 -152.136993 3.5881 66.027901 -153.641998 3.3669 72.373001 -152.811005
 5 24 3.3596 51.444698 -149.139999 3.0361 51.871799 -152.214005 3.3353 56.202499 -152.138 3.1182 48.7901 -151.938004
 5 24 3.5825 53.301201 -155.309998 3.3353 56.202499 -152.138 3.0361 51.871799 -152.214005 3.7191 55.133801 -155.936996
+0 STEP
 0 FILE 3660 - t16i3333.dat
 0 A torus segment primitive submodel representing a 1/16 sweep tube with major radius 3 and minor radius 1.
 0 Name: 3660 - t16i3333.dat

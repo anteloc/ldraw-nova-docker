@@ -11,6 +11,7 @@
 
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 6054 - Forestmen's Hideout.ldr
 
+0 STEP
 0 FILE 6054 - Forestmen's Hideout.ldr
 0 A large multi-level black forest tower with hinged sloped roofs, corner wall panels, and numerous arches forming a fortified hideout.
 0 Name: 6054 - Forestmen's Hideout.ldr
@@ -483,6 +484,7 @@
 
 
 
+0 STEP
 0 FILE 6054 - 14395.dat
 0 A small architectural detail part consisting of a single arch element.
 0 Name: 6054 - 14395.dat

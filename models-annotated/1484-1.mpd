@@ -10,6 +10,7 @@
 1 47 20 -19 -230 1 0 0 0 1 0 0 0 1 1484 - smallcar.ldr
 1 47 -260 -80 60 1 0 0 0 1 0 0 0 1 1484 - female.ldr
 1 0 38 -61 -230 0 0 1 0 1 0 -1 0 0 1484 - male.ldr
+0 STEP
 0 FILE 1484 - building.ldr
 0 A small house with yellow walls, a tree, and red and grey roofing accents built on a green 16x32 baseplate.
 0 Name: 1484 - building.ldr
@@ -327,6 +328,7 @@
 
 
 
+0 STEP
 0 FILE 1484 - smallcar.ldr
 0 A blue compact car with windscreen, mudguards, doors, and a steering assembly.
 0 Name: 1484 - smallcar.ldr
@@ -406,6 +408,7 @@
 0 // Tyre  6/ 50 x  8 Offset Tread (black)
 1 0 -50 5 -30 1 0 0 0 1 0 0 0 1 3641.dat
 
+0 STEP
 0 FILE 1484 - male.ldr
 0 A male minifigure wearing a white cap, black suit torso with red shirt, and grey legs.
 0 Name: 1484 - male.ldr
@@ -434,6 +437,7 @@
 0 // ~Minifig Leg Left (Obsolete) (light_grey)
 1 7 0 44 0 1 0 0 0 0 1 0 -1 0 3817.dat
 
+0 STEP
 0 FILE 1484 - female.ldr
 0 A female minifigure with brown shoulder-length hair, white and red striped torso, and red legs.
 0 Name: 1484 - female.ldr

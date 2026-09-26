@@ -41,6 +41,7 @@
 1 1 790 -24 410 1 0 0 0 1 0 0 0 1 3838.dat
 
 
+0 STEP
 0 FILE 60216 - firefighter1.ldr
 0 A firefighter minifigure wearing an orange vest with reflective stripes, a white helmet with visor, and a headset.
 0 Name: 60216 - firefighter1.ldr
@@ -72,6 +73,7 @@
 1 40 0 -56 0 1 0 -0.03 0 1 0 0.03 0 1 60216 - 2447.dat
 
 
+0 STEP
 0 FILE 60216 - firefighter2.ldr
 0 A firefighter minifigure wearing a black vest with reflective stripes and utility belt, a white helmet with visor, and silver sunglasses.
 0 Name: 60216 - firefighter2.ldr
@@ -98,6 +100,7 @@
 1 40 0 -56 0 1 0 -0.03 0 1 0 0.03 0 1 60216 - 2447.dat
 
 
+0 STEP
 0 FILE 60216 - worker1.ldr
 0 A female construction worker minifigure with an orange safety vest, white hard hat with ponytail hair, and a jackhammer.
 0 Name: 60216 - worker1.ldr
@@ -124,6 +127,7 @@
 1 72 -21.974 -15.182 -19.415 -0.282 -0.959 0.021 0.952 -0.282 -0.12 0.121 -0.014 0.993 3820.dat
 
 
+0 STEP
 0 FILE 60216 - burger.ldr
 0 A small buildable burger made from layered tan, yellow, red, and green plates representing buns, cheese, patty, and lettuce.
 0 Name: 60216 - burger.ldr
@@ -143,6 +147,7 @@
 1 19 0 -24 0 1 0 0 0 1 0 0 0 1 35480.dat
 
 
+0 STEP
 0 FILE 60216 - burninggascylinder.ldr
 0 An empty submodel serving as a placeholder for a burning gas cylinder element.
 0 Name: 60216 - burninggascylinder.ldr
@@ -154,6 +159,7 @@
 1 16 0 -45 0 1 0 0 0 1 0 0 0 1 60216 - firespot.ldr
 
 
+0 STEP
 0 FILE 60216 - motorcycle.ldr
 0 A red racing motorcycle with spoked wheels, a fairing, handlebars, and a mounted radio.
 0 Name: 60216 - motorcycle.ldr
@@ -199,6 +205,7 @@
 1 0 -20 -54 59 0 0 -1 1 0 0 0 -1 0 19220.dat
 
 
+0 STEP
 0 FILE 60216 - helicopter.ldr
 0 A red and white rescue helicopter featuring a cockpit, skids, a tail boom, control stick, and curved slope panels with trans-dark-blue windows.
 0 Name: 60216 - helicopter.ldr
@@ -309,6 +316,7 @@
 1 43 -74 -46 -39 0 1 0 0 0 1 1 0 0 98138.dat
 
 
+0 STEP
 0 FILE 60216 - firefighter3.ldr
 0 A firefighter minifigure wearing a black vest with reflective stripes and utility belt, a red fire helmet, and a stubbled face with scar.
 0 Name: 60216 - firefighter3.ldr
@@ -338,6 +346,7 @@
 1 4 0 -56 0 1 0 -0.03 0 1 0 0.03 0 1 3834.dat
 
 
+0 STEP
 0 FILE 60216 - firefighter4.ldr
 0 A firefighter minifigure wearing a dark-tan vest with reflective stripes and heavy-duty belt, a red fire helmet with breathing hose and airtanks, and a mud-splattered face.
 0 Name: 60216 - firefighter4.ldr
@@ -373,6 +382,7 @@
 1 1 0 -32 0 1 0 0 0 1 0 0 0 1 3838.dat
 
 
+0 STEP
 0 FILE 60216 - firetruck.ldr
 0 The chassis and body of a large fire truck built from dark bluish-grey, white, blue, and red plates and bricks with wheel pins and door rails.
 0 Name: 60216 - firetruck.ldr
@@ -598,6 +608,7 @@
 1 33 0 -168 -80 1 0 0 0 1 0 0 0 1 60216 - 46524.dat
 
 
+0 STEP
 0 FILE 60216 - firetruckfront.ldr
 0 The red front cab section of the fire truck with grille tiles, curved slopes, headlights, and a windshield.
 0 Name: 60216 - firetruckfront.ldr
@@ -650,6 +661,7 @@
 1 4 -50 -50 0 0 0 1 1 0 0 0 1 0 54200.dat
 
 
+0 STEP
 0 FILE 60216 - trailer.ldr
 0 A large equipment trailer with mudguards, wheel pins, hinge plates for doors, and storage compartments built from light bluish-grey, white, and red elements.
 0 Name: 60216 - trailer.ldr
@@ -937,6 +949,7 @@
 1 256 56 -3 20 0 0 -1 0 1 0 1 0 0 87697.dat
 
 
+0 STEP
 0 FILE 60216 - trailerback.ldr
 0 The rear section of the trailer with curved slopes, a grille panel, and trans-orange and trans-red light elements.
 0 Name: 60216 - trailerback.ldr
@@ -965,6 +978,7 @@
 1 36 -70 0 -32 0 0 1 1 0 0 0 1 0 54200.dat
 
 
+0 STEP
 0 FILE 60216 - trailerfront.ldr
 0 The red front section of the trailer built from plates and angled slopes forming a sloped nose.
 0 Name: 60216 - trailerfront.ldr
@@ -997,6 +1011,7 @@
 1 4 0 -16 40 -1 0 0 0 1 0 0 0 -1 87079.dat
 
 
+0 STEP
 0 FILE 60216 - trailerdoor.ldr
 0 A pair of red trailer doors with arched tops, panels, and clip plates for mounting.
 0 Name: 60216 - trailerdoor.ldr
@@ -1032,6 +1047,7 @@
 1 72 -30 72 -40 0 0 1 0 1 0 -1 0 0 3460.dat
 
 
+0 STEP
 0 FILE 60216 - laddersupport.ldr
 0 A rotating turntable base for the fire truck's ladder, built from a round plate, liftarms, pins, and support bricks.
 0 Name: 60216 - laddersupport.ldr
@@ -1115,6 +1131,7 @@
 1 256 0 -128 -414 0 0 -1 0 1 0 1 0 0 60216 - pneumaticHoseLQ-1.ldr
 
 
+0 STEP
 0 FILE 60216 - ladderbase.ldr
 0 The base platform of the extending ladder assembly built from white and black plates with clips and curved slopes.
 0 Name: 60216 - ladderbase.ldr
@@ -1149,6 +1166,7 @@
 1 15 -10 -16 -40 0 0 -1 0 1 0 1 0 0 92593.dat
 
 
+0 STEP
 0 FILE 60216 - ladder.ldr
 0 A pair of long white extension ladders mounted on a light bluish-grey holder.
 0 Name: 60216 - ladder.ldr
@@ -1168,6 +1186,7 @@
 1 0 0 0 -420 -1 0 0 0 1 0 0 0 -1 60216 - laddertip.ldr
 
 
+0 STEP
 0 FILE 60216 - laddertip.ldr
 0 The articulated tip section of the ladder with a hinge arm, locking plate, and inverted tiles.
 0 Name: 60216 - laddertip.ldr
@@ -1190,6 +1209,7 @@
 1 0 0 0 70 -1 0 0 0 0 -1 0 -1 0 30552.dat
 
 
+0 STEP
 0 FILE 60216 - pneumaticHoseLQ-1.ldr
 0 A flexible pneumatic hose assembly made of 426 tube segments with bulged end connectors.
 0 Name: 60216 - pneumaticHoseLQ-1.ldr
@@ -2083,6 +2103,7 @@
 1 16 438.668944 92.517973 69.998625 -0.002817 3.226489 -0.590936 0.001829 2.363501 0.806712 0.999994 0.004764 -0.00314 166.dat
 
 
+0 STEP
 0 FILE 60216 - outrigger.ldr
 0 A stabilizing outrigger for the fire truck built from a hinge arm, technic beam, angle connector, and axle with an orange indicator tile.
 0 Name: 60216 - outrigger.ldr
@@ -2105,6 +2126,7 @@
 1 57 0 -70 -18 1 0 0 0 0 -1 0 1 0 98138.dat
 
 
+0 STEP
 0 FILE 60216 - worker2.ldr
 0 A male construction worker minifigure wearing orange overalls with reflective stripes, a white hard hat, and a bearded face.
 0 Name: 60216 - worker2.ldr
@@ -2134,6 +2156,7 @@
 1 15 0 -56 0 1 0 -0.03 0 1 0 0.03 0 1 3833.dat
 
 
+0 STEP
 0 FILE 60216 - robotoperator.ldr
 0 A female robot operator minifigure wearing orange overalls, a dark-brown ponytail with red baseball cap, and holding a control plate.
 0 Name: 60216 - robotoperator.ldr
@@ -2162,6 +2185,7 @@
 1 0 0.41 1.274 -46.515 0.248 0.864 -0.439 0.876 -0.006 0.483 0.414 -0.504 -0.758 3068b.dat
 
 
+0 STEP
 0 FILE 60216 - firefighterbot.ldr
 0 A remote-controlled firefighting robot with six wheeled tracks, mechanical arms, red slope panels, and a pneumatic hose connector.
 0 Name: 60216 - firefighterbot.ldr
@@ -2254,6 +2278,7 @@
 1 43 0 -54 -71 0 0 1 0 1 0 -1 0 0 98138.dat
 
 
+0 STEP
 0 FILE 60216 - firespot.ldr
 0 Small trans-orange fire element made from flames mounted on a dish.
 0 Name: 60216 - firespot.ldr
@@ -2269,6 +2294,7 @@
 1 57 10 -6 10 1 0 0 0 0 -1 0 1 0 6126b.dat
 
 
+0 STEP
 0 FILE 60216 - toilets.ldr
 0 Public restroom structure built from grey and blue bricks on a tan base plate.
 0 Name: 60216 - toilets.ldr
@@ -2351,6 +2377,7 @@
 1 15 -50 -176 20 0 0 -1 0 1 0 1 0 0 60216 - toiletscabin.ldr
 
 
+0 STEP
 0 FILE 60216 - floodlightbase.ldr
 0 Yellow and grey wheeled base with technic axles supporting a floodlight mount.
 0 Name: 60216 - floodlightbase.ldr
@@ -2381,6 +2408,7 @@
 1 0 -10 -8 30 -1 0 0 0 1 0 0 0 -1 11458.dat
 
 
+0 STEP
 0 FILE 60216 - floodlight.ldr
 0 Yellow floodlight on a tall triangular girder stand with light lenses and clips.
 0 Name: 60216 - floodlight.ldr
@@ -2409,6 +2437,7 @@
 1 14 0 8 0 0 0 -1 0 1 0 1 0 0 60216 - 95347.dat
 
 
+0 STEP
 0 FILE 60216 - toiletscabin.ldr
 0 White and blue portable toilet cabin with a door frame and hinged panel.
 0 Name: 60216 - toiletscabin.ldr
@@ -2447,6 +2476,7 @@
 1 15 -20 36 -26 0 0 1 1 0 0 0 1 0 3068b.dat
 
 
+0 STEP
 0 FILE 60216 - building.ldr
 0 Large multi-story building with brown and nougat brick walls, windows, and roof brackets.
 0 Name: 60216 - building.ldr
@@ -2877,6 +2907,7 @@
 1 15 280 -659 -40 1 0 0 0 1 0 0 0 1 60216 - firespot.ldr
 
 
+0 STEP
 0 FILE 60216 - wallbase.ldr
 0 Decorative brown wall section with grooved tiles and a blue accent stripe.
 0 Name: 60216 - wallbase.ldr
@@ -2915,6 +2946,7 @@
 1 73 20 -30 -16 0 0 -1 -1 0 0 0 1 0 26603.dat
 
 
+0 STEP
 0 FILE 60216 - paintbucket.ldr
 0 Green paint bucket with a roller brush handle and white paint lid.
 0 Name: 60216 - paintbucket.ldr
@@ -2934,6 +2966,7 @@
 1 15 34 -22 11.5 1 0 0 0 0 1 0 -1 0 3062b.dat
 
 
+0 STEP
 0 FILE 60216 - gascylinder.ldr
 0 Round white gas cylinder with red and green valve plates and a steering wheel cap.
 0 Name: 60216 - gascylinder.ldr
@@ -2954,6 +2987,7 @@
 1 71 0 -32 0 1 0 0 0 1 0 0 0 1 16091.dat
 
 
+0 STEP
 0 FILE 60216 - flame.ldr
 0 Trans-red flame element mounted on a technic angle connector with pins.
 0 Name: 60216 - flame.ldr
@@ -2974,6 +3008,7 @@
 1 36 0 -10.751 -28.007 -1 0 0 0 0.358 0.934 0 0.934 -0.358 85959p02.dat
 
 
+0 STEP
 0 FILE 60216 - flame2.ldr
 0 Trans-red flame element on a technic angle connector with a single pin.
 0 Name: 60216 - flame2.ldr
@@ -2992,6 +3027,7 @@
 1 36 0 -10.751 -28.007 -1 0 0 0 0.358 0.934 0 0.934 -0.358 85959p02.dat
 
 
+0 STEP
 0 FILE 60216 - flame3.ldr
 0 Trans-red flame element on a technic angle connector with a single pin.
 0 Name: 60216 - flame3.ldr
@@ -3010,6 +3046,7 @@
 1 36 20 -10.751 -28.007 -1 0 0 0 0.358 0.934 0 0.934 -0.358 85959p02.dat
 
 
+0 STEP
 0 FILE 60216 - bar.ldr
 0 Red and black technic bar assembly with axles, joiners, and cross blocks.
 0 Name: 60216 - bar.ldr
@@ -3047,6 +3084,7 @@
 1 72 -210 -10 40 0 0 1 0 1 0 -1 0 0 3700.dat
 
 
+0 STEP
 0 FILE 60216 - counterweight.ldr
 0 Grey counterweight block with plates, slopes, and technic liftarms for balancing.
 0 Name: 60216 - counterweight.ldr
@@ -3091,6 +3129,7 @@
 1 72 10 -14 50 0 -1 0 1 0 0 0 0 1 18654.dat
 
 
+0 STEP
 0 FILE 60216 - slidingflame.ldr
 0 Trans-red flame mounted on an inverted dish for a sliding fire effect.
 0 Name: 60216 - slidingflame.ldr
@@ -3104,6 +3143,7 @@
 1 36 0 -12 0 1 0 0 0 1 0 0 0 1 85959p02.dat
 
 
+0 STEP
 0 FILE 60216 - clock.ldr
 0 White clock assembly with a round face, slope numerals, and scroll decorations.
 0 Name: 60216 - clock.ldr
@@ -3137,6 +3177,7 @@
 1 15 20 -42 6 1 0 0 0 1 0 0 0 1 2431.dat
 
 
+0 STEP
 0 FILE 60216 - helicoptertail.ldr
 0 Red helicopter tail boom with a light-blue lens and tail fin.
 0 Name: 60216 - helicoptertail.ldr
@@ -3155,6 +3196,7 @@
 1 4 -40 -8 0 -1 0 0 0 1 0 0 0 -1 6636.dat
 
 
+0 STEP
 0 FILE 60216 - helicopterrotor.ldr
 0 Black helicopter rotor with angled hinge blades and a four-blade propeller.
 0 Name: 60216 - helicopterrotor.ldr
@@ -3177,6 +3219,7 @@
 1 72 0 -16 0 -1 0 0 0 1 0 0 0 -1 63864.dat
 
 
+0 STEP
 0 FILE 60216 - crane.ldr
 0 Yellow construction crane on a turntable base with technic axles and corner supports.
 0 Name: 60216 - crane.ldr
@@ -3296,6 +3339,7 @@
 1 14 30 -454 0 0 1 0 0 0 -1 -1 0 0 40490.dat
 
 
+0 STEP
 0 FILE 60216 - boom.ldr
 0 Yellow crane boom arm with grey technic beams, axles, and a hose reel.
 0 Name: 60216 - boom.ldr
@@ -3358,6 +3402,7 @@
 1 72 0 182 453 0 0 -1 0 1 0 1 0 0 30395.dat
 
 
+0 STEP
 0 FILE 60216 - ropeThinLQ-1.ldr
 0 Flexible thin rope hose composed of many cylinder segments.
 0 Name: 60216 - ropeThinLQ-1.ldr
@@ -5292,6 +5337,7 @@
 1 16 -158.548808 202.071871 -413 0.603759 -2.372651 0 0.444943 3.219533 0 0 0 0.75 4-4cyli.dat
 
 
+0 STEP
 0 FILE 60216 - bottle.ldr
 0 Small trans-light-blue bottle with a black cap.
 0 Name: 60216 - bottle.ldr
@@ -5305,6 +5351,7 @@
 1 0 0 -8 0 1 0 0 0 1 0 0 0 1 20482.dat
 
 
+0 STEP
 0 FILE 60216 - 39802p01.dat
 0 Decorated minifig part with printed pattern.
 0 Name: 60216 - 39802p01.dat
@@ -5319,6 +5366,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\60216 - 39802s01.dat
 1 4 0 0 0 1 0 0 0 1 0 0 0 1 s\60216 - 39802s02.dat
 
+0 STEP
 0 FILE 60216 - 3816bp70.dat
 0 Left minifig leg with reflective stripes and black pocket outline pattern.
 0 Name: 60216 - 3816bp70.dat
@@ -5333,6 +5381,7 @@
 0 // ~Minifig Leg Left with Reflective Stripes and Black Pocket Outline Pattern (Obsolete) (main_colour)
 1 16 0 0 0 -1 0 0 0 1 0 0 0 1 60216 - 3817bp70.dat
 
+0 STEP
 0 FILE 60216 - 3817bp70.dat
 0 Right minifig leg with reflective stripes and black pocket outline pattern.
 0 Name: 60216 - 3817bp70.dat
@@ -5347,6 +5396,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\60216 - 3817bp70s01.dat
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 s\60216 - 3817bp70s02.dat
 
+0 STEP
 0 FILE 60216 - 3626cp75.dat
 0 3626cp75
 0 Name: 60216 - 3626cp75.dat
@@ -5643,6 +5693,7 @@
 5 24 0 19.828199 -11.5352 0 20.6954 -9.9136 3.7936 20.6954 -9.1592 -3.7936 20.6954 -9.1592
 5 24 0 20.6954 -9.9136 0 21 -8 3.0616 21 -7.3912 -3.0616 21 -7.3912
 
+0 STEP
 0 FILE 60216 - 2447.dat
 0 2447
 0 Name: 60216 - 2447.dat
@@ -5779,6 +5830,7 @@
 
 0 !LDCAD SNAP_GEN [group=visor] [gender=M] [bounding=cyl 2 15] [match=size]
 
+0 STEP
 0 FILE 60216 - 3815bp71c01.dat
 0 3815bp71c01
 0 Name: 60216 - 3815bp71c01.dat
@@ -5797,6 +5849,7 @@
 0 // ~Minifig Leg Left with Reflective Stripes and Tan Pocket Outline Pattern (Obsolete) (main_colour)
 1 16 0 12 0 1 0 0 0 1 0 0 0 1 60216 - 3817bp71.dat
 
+0 STEP
 0 FILE 60216 - 973p9p.dat
 0 973p9p
 0 Name: 60216 - 973p9p.dat
@@ -7358,6 +7411,7 @@
 3 16 -3 26.846199 10 -3.15 27.799999 10 -3.7692 27.9769 10
 3 80 -3.15 27.799999 10 -1.9231 28.9231 10 -3 28.6154 10
 
+0 STEP
 0 FILE 60216 - 3626cp8h.dat
 0 3626cp8h
 0 Name: 60216 - 3626cp8h.dat
@@ -7652,6 +7706,7 @@
 1 16 0 17 0 0 0 8 0 6.4 0 -8 0 0 t04o6250.dat
 1 16 0 17 0 -8 0 0 0 6.4 0 0 0 -8 t04o6250.dat
 
+0 STEP
 0 FILE 60216 - 3815bc01.dat
 0 3815bc01
 0 Name: 60216 - 3815bc01.dat
@@ -7668,6 +7723,7 @@
 0 // ~Minifig Leg Left (Obsolete) (main_colour)
 1 16 0 12 0 1 0 0 0 1 0 0 0 1 3817b.dat
 
+0 STEP
 0 FILE 60216 - 973p9o.dat
 0 973p9o
 0 Name: 60216 - 973p9o.dat
@@ -8502,6 +8558,7 @@
 3 16 6.15 3.35 10 -0.55 16.15 10 4.3 3.9 10
 3 16 2.9 31.299999 -10 1 31.299999 -10 -19 32 -10
 
+0 STEP
 0 FILE 60216 - 16178p01.dat
 0 16178p01
 0 Name: 60216 - 16178p01.dat
@@ -8516,6 +8573,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\16175s01.dat
 1 308 0 0 0 1 0 0 0 1 0 0 0 1 s\60216 - 16178s02.dat
 
+0 STEP
 0 FILE 60216 - 18896.dat
 0 18896
 0 Name: 60216 - 18896.dat
@@ -8622,6 +8680,7 @@
 5 24 2.5 -30.855 -49.504002 2.5 -34.563 -54.799 -2.5 -30.855 -49.504002 7.829 -33.179001 -53.963001
 5 24 -2.5 -34.563 -54.799 -2.5 -30.855 -49.504002 2.5 -34.563 -54.799 -7.829 -33.179001 -53.963001
 
+0 STEP
 0 FILE 60216 - 18895.dat
 0 18895
 0 Name: 60216 - 18895.dat
@@ -8640,6 +8699,7 @@
 1 16 0 0 0 -1 0 0 0 1 0 0 0 1 s\60216 - 18895s02.dat
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\60216 - 18895s00.dat
 
+0 STEP
 0 FILE 60216 - 3816bp71.dat
 0 3816bp71
 0 Name: 60216 - 3816bp71.dat
@@ -8654,6 +8714,7 @@
 0 // ~Minifig Leg Left with Reflective Stripes and Tan Pocket Outline Pattern (Obsolete) (main_colour)
 1 16 0 0 0 -1 0 0 0 1 0 0 0 1 60216 - 3817bp71.dat
 
+0 STEP
 0 FILE 60216 - 3817bp71.dat
 0 3817bp71
 0 Name: 60216 - 3817bp71.dat
@@ -8668,6 +8729,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\60216 - 3817bp70s01.dat
 1 19 0 0 0 1 0 0 0 1 0 0 0 1 s\60216 - 3817bp70s02.dat
 
+0 STEP
 0 FILE 60216 - 973p9r.dat
 0 973p9r
 0 Name: 60216 - 973p9r.dat
@@ -9804,6 +9866,7 @@
 3 16 8.7447 8.4327 -10 8.63 8.15 -10 8.78 8.63 -10
 3 16 8.78 8.63 -10 9.1 8.55 -10 8.7447 8.4327 -10
 
+0 STEP
 0 FILE 60216 - 973p9t.dat
 0 973p9t
 0 Name: 60216 - 973p9t.dat
@@ -11357,6 +11420,7 @@
 3 0 -2.15 27.24 10 -2.24 27.629999 10 -2.66 27.35 10
 3 272 -2.66 27.35 10 -2.24 27.629999 10 -2.69 28.040001 10
 
+0 STEP
 0 FILE 60216 - 3626cp77.dat
 0 3626cp77
 0 Name: 60216 - 3626cp77.dat
@@ -12194,6 +12258,7 @@
 5 24 4.9752 17 12.0105 4.9752 4 12.0104 0 17 13 9.1921 17 9.1921
 5 24 9.1921 17 9.1921 9.192 4 9.192 4.9752 17 12.0105 12.0105 17 4.9752
 
+0 STEP
 0 FILE 60216 - 2357.dat
 0 2357
 0 Name: 60216 - 2357.dat
@@ -12259,6 +12324,7 @@
 0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=S 6 20]
 0 !LDCAD MIRROR_INFO [counterPart=self] [oriCor=0 0 -1 0 1 0 1 0 0]
 
+0 STEP
 0 FILE 60216 - 44301a.dat
 0 44301a
 0 Name: 60216 - 44301a.dat
@@ -12296,6 +12362,7 @@
 4 16 -20 0 10 -19 0 10 -19 7 10 -20 7 10
 4 16 -20 0 -10 -20 7 -10 -19 7 -10 -19 0 -10
 
+0 STEP
 0 FILE 60216 - 46524.dat
 0 46524
 0 Name: 60216 - 46524.dat
@@ -12314,6 +12381,7 @@
 1 0 33 17 0 1 0 0 0 -1 0 0 0 -1 u9013.dat
 1 0 -33 17 0 1 0 0 0 -1 0 0 0 -1 u9013.dat
 
+0 STEP
 0 FILE 60216 - 41817.dat
 0 41817
 0 Name: 60216 - 41817.dat
@@ -12494,6 +12562,7 @@
 4 16 -6.9 10 0 -9 10 11 -6.3639 10 13.6361 -6.3639 10 2.6361
 3 16 -6.9 10 0 -9 10 -11 -9 10 11
 
+0 STEP
 0 FILE 60216 - 41818.dat
 0 41818
 0 Name: 60216 - 41818.dat
@@ -12510,6 +12579,7 @@
 1 16 0 0 0 -1 0 0 0 -1 0 0 0 1 s\60216 - 41818s01.dat
 1 16 0 0 0 0 1 0 -1 0 0 0 0 1 s\60216 - 41818s01.dat
 
+0 STEP
 0 FILE 60216 - 41815c01-f2.dat
 0 41815c01-f2
 0 Name: 60216 - 41815c01-f2.dat
@@ -12530,6 +12600,7 @@
 0 // ~Pneumatic Fire Hose Nozzle Handle with Bladder or Hose Attachment (black)
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 60216 - 41816.dat
 
+0 STEP
 0 FILE 60216 - 87913.dat
 0 87913
 0 Name: 60216 - 87913.dat
@@ -12774,6 +12845,7 @@
 1 16 30 0 0 1 0 0 0 1 0 0 0 1 s\60216 - 87913s01.dat
 1 16 -30 0 0 1 0 0 0 1 0 0 0 1 s\60216 - 87913s01.dat
 
+0 STEP
 0 FILE 60216 - 15118.dat
 0 15118
 0 Name: 60216 - 15118.dat
@@ -13040,6 +13112,7 @@
 0 // Sphere 0.25 (main_colour)
 1 16 -140 -5.625 2.5 2.5 0 0 0 -2.5 0 0 0 2.5 2-8sphe.dat
 
+0 STEP
 0 FILE 60216 - 165.dat
 0 165
 0 Name: 60216 - 165.dat
@@ -13149,6 +13222,7 @@
 
 0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=R 4 17]
 
+0 STEP
 0 FILE 60216 - 973p9g.dat
 0 973p9g
 0 Name: 60216 - 973p9g.dat
@@ -14374,6 +14448,7 @@
 4 0 -0.689 22.0923 10 -0.911 22.0923 10 -1.022 21.9 10 -0.578 21.9 10
 4 0 -0.689 21.707701 10 -0.578 21.9 10 -1.022 21.9 10 -0.911 21.707701 10
 
+0 STEP
 0 FILE 60216 - 3626cp74.dat
 0 A small cylindrical stud piece with printed detail.
 0 Name: 60216 - 3626cp74.dat
@@ -14743,6 +14818,7 @@
 5 24 0 20.6954 -9.9136 0 21 -8 3.0616 21 -7.3912 -3.0616 21 -7.3912
 5 24 9.192 17 -9.192 12.0104 17 -4.9752 9.192 15.343 -9.192 8.9232 18.530899 -8.9232
 
+0 STEP
 0 FILE 60216 - 3626cp76.dat
 0 A small cylindrical stud piece with printed detail.
 0 Name: 60216 - 3626cp76.dat
@@ -15215,6 +15291,7 @@
 5 24 0 20.6954 -9.9136 0 21 -8 3.0616 21 -7.3912 -3.0616 21 -7.3912
 5 24 -12.0107 17 -4.9751 -12.0107 4 -4.9751 -9.1923 4 -9.1923 -13 4 0
 
+0 STEP
 0 FILE 60216 - 35660p01.dat
 0 A decorative printed part with no direct geometry pieces.
 0 Name: 60216 - 35660p01.dat
@@ -15233,6 +15310,7 @@
 1 4 0 0 0 1 0 0 0 1 0 0 0 1 s\60216 - 35560s04.dat
 1 4 0 0 0 -1 0 0 0 1 0 0 0 1 s\60216 - 35560s04.dat
 
+0 STEP
 0 FILE 60216 - 95347.dat
 0 A detailed technic-style cylindrical component featuring axles, circles, and rectangles forming a geared mechanical hub.
 0 Name: 60216 - 95347.dat
@@ -16071,6 +16149,7 @@
 0 // Rectangle with 3 Edges (main_colour)
 1 16 -15.1335 120 12.1975 0 0 0.8665 -96 0 0 0 1 0.1975 rect3.dat
 
+0 STEP
 0 FILE 60216 - 59349.dat
 0 A part with no direct geometry pieces, likely a printed or decorated element.
 0 Name: 60216 - 59349.dat
@@ -16093,6 +16172,7 @@
 
 0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=S 6 4] [grid=C 6 1 20 0]
 
+0 STEP
 0 FILE 60216 - 85984.dat
 0 A part with no direct geometry pieces, likely a printed or decorated element.
 0 Name: 60216 - 85984.dat
@@ -16115,6 +16195,7 @@
 4 16 -18 -15.6 9.3333 -20 -13.6 6 20 -13.6 6 18 -15.6 9.3333
 4 16 -20 -4 -10 20 -4 -10 20 -13.6 6 -20 -13.6 6
 
+0 STEP
 0 FILE 60216 - 15535p03.dat
 0 A layered ring-based decorative part composed of concentric rings in multiple colors.
 0 Name: 60216 - 15535p03.dat
@@ -16144,6 +16225,7 @@
 1 16 0 0 0 -1 0 0 0 1 0 0 0 -1 s\60216 - 15535p03s01.dat
 1 16 0 0 0 0 0 -1 0 1 0 1 0 0 s\60216 - 15535p03s01.dat
 
+0 STEP
 0 FILE 60216 - 20310.dat
 0 A multi-sectioned box-and-cylinder part featuring sloped surfaces, circles, and discs forming a complex molded piece.
 0 Name: 60216 - 20310.dat
@@ -16255,6 +16337,7 @@
 5 24 0.5 13.98762 -17.73238 -0.5 13.98762 -17.73238 1.25 11.537232 -17 0.5 15.49 -19.976021
 5 24 -1.25 11.537232 -17 1.25 11.537232 -17 2.75 8.3 -17 0.5 13.98762 -17.73238
 
+0 STEP
 0 FILE 60216 - ldcLQRopeThinSeg.dat
 0 A single cylindrical segment representing a thin rope piece.
 0 Name: 60216 - ldcLQRopeThinSeg.dat
@@ -16271,6 +16354,7 @@
 
 
 
+0 STEP
 0 FILE s\60216 - 59349s01.dat
 0 A box-based subpart forming the structural body of a larger element.
 0 Name: s\60216 - 59349s01.dat
@@ -16305,6 +16389,7 @@
 4 16 -56 4 10 -60 0 10 60 0 10 56 4 10
 2 24 60 120 10 -60 120 10
 
+0 STEP
 0 FILE s\60216 - 85984s01.dat
 0 A rectangular and cylindrical subpart forming a shaped plate or tile with a sloped surface.
 0 Name: s\60216 - 85984s01.dat
@@ -16431,6 +16516,7 @@
 
 0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=R 6 4] [grid=C 2 1 20 0]
 
+0 STEP
 0 FILE s\60216 - 15535p03s01.dat
 0 A subpart with no direct geometry pieces, serving as a structural reference for the parent part.
 0 Name: s\60216 - 15535p03s01.dat
@@ -16675,6 +16761,7 @@
 3 0 18.0161 0 7.4627 17.788799 0 3.1689 18.4354 0 1.129
 4 0 18.0161 0 7.4627 18.4354 0 1.129 18.700001 0 0 19.5 0 0
 
+0 STEP
 0 FILE s\60216 - 20310s01.dat
 0 A subpart containing spiral grooves, sidewalls, and intersection lines defining an intricate molded surface.
 0 Name: s\60216 - 20310s01.dat
@@ -17093,6 +17180,7 @@
 5 1 8.6 7.25296 -12.99704 8.4 6.37832 -16.36179 8.3 4.78376 -15.22624 8.5 8.3 -16.77
 
 
+0 STEP
 0 FILE s\60216 - 95347s01.dat
 0 A subpart composed of rectangles, cylinders, and circles forming a detailed cylindrical mechanical section.
 0 Name: s\60216 - 95347s01.dat
@@ -17322,6 +17410,7 @@
 5 24 13.845 118.246002 9.389 9.957 118.246002 9.389 10.058 120 10.107 11.237 99.391998 -9.171
 5 24 9.946 45.254002 9.307 13.833 45.254002 9.307 7.877 30.299 -5.415 14.016 45.903 10.605
 
+0 STEP
 0 FILE s\60216 - 3660s01.dat
 0 A box-and-rectangle subpart forming the angular body of a sloped element.
 0 Name: s\60216 - 3660s01.dat
@@ -17390,6 +17479,7 @@
 0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=S 6 20] [grid=C 2 1 20 0]
 0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=R 6 4] [grid=C 2 1 20 0]
 
+0 STEP
 0 FILE s\60216 - 98138s01.dat
 0 A single ring subpart forming a small round tile surface.
 0 Name: s\60216 - 98138s01.dat
@@ -17409,6 +17499,7 @@
 0 // Ring  9 x 1.0 (main_colour)
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 4-4ring9.dat
 
+0 STEP
 0 FILE s\60216 - 98138s02.dat
 0 A concentric ring and cylinder subpart forming a small round stud-and-ring assembly.
 0 Name: s\60216 - 98138s02.dat
@@ -17428,6 +17519,7 @@
 0 // Cylinder Open 1.0 (main_colour)
 1 16 0 0 0 10 0 0 0 7 0 0 0 10 4-4cylo.dat
 
+0 STEP
 0 FILE s\60216 - 44301s01.dat
 0 A box and hinge-finger subpart forming a locking click-hinge plate mechanism.
 0 Name: s\60216 - 44301s01.dat
@@ -17461,6 +17553,7 @@
 0 // Click Lock Hinge Single Finger for Plate Ends (main_colour)
 1 16 20 2 0 0 0 -1 0 1 0 1 0 0 60216 - clh6.dat
 
+0 STEP
 0 FILE 60216 - clh6.dat
 0 A complex click-lock hinge piece with sloped cylinders, spheres, cones, and circles forming a multi-finger articulated joint.
 0 Name: 60216 - clh6.dat
@@ -17758,6 +17851,7 @@
 
 0 !LDCAD SNAP_FGR [group=lckHng] [genderOfs=M] [seq=8]
 
+0 STEP
 0 FILE s\60216 - 39802s01.dat
 0 A cylindrical subpart with a central cylinder, disc, and surrounding circles forming a hub-like assembly.
 0 Name: s\60216 - 39802s01.dat
@@ -18009,6 +18103,7 @@
 5 24 4.2499 -36.5 -1.7604 4.6 -36.5 0 4.4169 -37.1838 -1.8296 4.2499 -35 -1.7604
 5 24 -4.6 -36.5 0 -4.2499 -36.5 -1.7604 -4.6 -35 0 -4.4169 -37.1838 -1.8296
 
+0 STEP
 0 FILE s\60216 - 39802s02.dat
 0 A subpart with no direct geometry pieces, serving as a structural reference for the parent element.
 0 Name: s\60216 - 39802s02.dat
@@ -18117,6 +18212,7 @@
 5 24 3.365 -50.07 -11.6775 3.6075 -53.557499 -3.9325 3.33 -53.802502 -11.685 3.64 -42.072498 0.4175
 5 24 3.38 -46.365002 10.7325 3.28 -51.810001 11.975 3.5825 -52.977501 4.565 3.1975 -47.334999 12.8525
 
+0 STEP
 0 FILE 60216 - 40930.dat
 0 A part with no direct geometry pieces, likely a printed or decorated element.
 0 Name: 60216 - 40930.dat
@@ -18132,6 +18228,7 @@
 1 16 30 0 0 1 0 0 0 1 0 0 0 1 stug-2x1.dat
 1 16 -30 0 0 1 0 0 0 1 0 0 0 1 stug-2x1.dat
 
+0 STEP
 0 FILE s\60216 - 40930s01.dat
 0 A subpart with cones, open cylinders, and rectangles forming a tapered mechanical connector surface.
 0 Name: s\60216 - 40930s01.dat
@@ -18289,6 +18386,7 @@
 4 16 -20 4 12.6667 -20 0 15 -20 12 20 -20 12 18
 3 16 -20 4 12.6667 -20 12 18 -20 12 16
 
+0 STEP
 0 FILE s\60216 - 40930s02.dat
 0 A detailed subpart with cones, cylinders, boxes, and rectangles forming a complex multi-faced mechanical housing.
 0 Name: s\60216 - 40930s02.dat
@@ -18822,6 +18920,7 @@
 3 16 20 4 -7 23 4 -7 26.9 4 -11.9667
 3 16 26.9 4 -11.9667 23 4 -7 28.5 4 -4.5
 
+0 STEP
 0 FILE 60216 - 41852.dat
 0 A multi-faceted box and cylinder part with cones, chords, and rings forming a structural bracket or connector element.
 0 Name: 60216 - 41852.dat
@@ -18968,6 +19067,7 @@
 0 // Box with 5 Faces and All Edges (main_colour)
 1 16 5 0.5 0 1 0 0 0 -0.5 0 0 0 4.5 box5.dat
 
+0 STEP
 0 FILE 60216 - 40931.dat
 0 40931
 0 Name: 60216 - 40931.dat
@@ -19436,6 +19536,7 @@
 4 16 -40 -8 -18 -40 -8 18 -40 -7 19 -40 -7 -19
 4 16 -40 0 -20 -40 -7 -19 -40 -7 19 -40 0 20
 
+0 STEP
 0 FILE s\60216 - 87913s01.dat
 0 87913s01
 0 Name: s\60216 - 87913s01.dat
@@ -19608,6 +19709,7 @@
 5 24 -5.5434 0 -2.2962 -4.7016 -0.16693 -2.6358 -5.5434 -0.14543 0 -4.2426 0 -4.2426
 5 24 0 -0.38 0 0 -0.35108 -2.2962 -2.2962 -0.35108 0 2.2962 -0.35108 0
 
+0 STEP
 0 FILE s\60216 - 41817s02.dat
 0 41817s02
 0 Name: s\60216 - 41817s02.dat
@@ -19683,6 +19785,7 @@
 2 24 12.5465 -27 2.9094 12.7453 -28 1.9094
 2 24 11.5463 -27 -5.8906 10.9874 -28 -6.727
 
+0 STEP
 0 FILE s\60216 - 41817s01.dat
 0 41817s01
 0 Name: s\60216 - 41817s01.dat
@@ -19717,6 +19820,7 @@
 5 24 16.5 -27 -2.9094 12.5 -27 -2.9094 12.5 -28 -1.9094 11.4457 -27 -5.8061
 5 24 16.5 -27 -2.9094 16.5 -23 -2.9094 16.5 -27 2.9094 14.5099 -27 -8.3773
 
+0 STEP
 0 FILE s\60216 - 41818s01.dat
 0 41818s01
 0 Name: s\60216 - 41818s01.dat
@@ -19861,6 +19965,7 @@
 2 24 19.5825 19.3519 95.195602 21.6992 16.129999 95.350998
 2 24 16.1301 21.6992 95.350998 19.3519 19.5825 95.195602
 
+0 STEP
 0 FILE 60216 - 41815.dat
 0 41815
 0 Name: 60216 - 41815.dat
@@ -20043,6 +20148,7 @@
 2 24 0 12.75 -49.2957 -1.5 12.4517 -49.599998
 2 24 1.5 12.4517 -49.599998 0 12.75 -49.2957
 
+0 STEP
 0 FILE 60216 - 41814.dat
 0 41814
 0 Name: 60216 - 41814.dat
@@ -20090,6 +20196,7 @@
 1 16 0 0 0 0 0 -10 -10 0 0 0 -1 0 1-4chrd.dat
 4 16 0 -10 0 0 -8.4853 0 -8.4853 0 0 -10 0 0
 
+0 STEP
 0 FILE 60216 - 41813.dat
 0 41813
 0 Name: 60216 - 41813.dat
@@ -20187,6 +20294,7 @@
 0 // ~Ring 25 x 1.0 (Obsolete) (main_colour)
 1 16 0 0 -112 0 0 0.2 -0.2 0 0 0 -1 0 4-4rin25.dat
 
+0 STEP
 0 FILE 60216 - 41816.dat
 0 41816
 0 Name: 60216 - 41816.dat
@@ -20311,6 +20419,7 @@
 4 16 -9.639 16 1.5 -5.0227 12.1258 1.5 5.0227 12.1258 1.5 9.639 16 1.5
 2 24 9.639 16 1.5 -9.639 16 1.5
 
+0 STEP
 0 FILE s\60216 - 18896s01.dat
 0 18896s01
 0 Name: s\60216 - 18896s01.dat
@@ -20967,6 +21076,7 @@
 5 24 5 -15.458 22.649 5 -10.457 22.649 7.6545 -10.457 23.290001 -5 -10.457 22.649
 5 24 8.909 -15.458 24.531 8.909 -10.457 24.531 7.6545 -10.457 23.290001 10 -10.457 27.349001
 
+0 STEP
 0 FILE s\60216 - 18895s02.dat
 0 18895s02
 0 Name: s\60216 - 18895s02.dat
@@ -21010,6 +21120,7 @@
 5 24 0 -68.860001 -68.831001 0 -56.224998 -78.139 2.555 -56.365002 -77.832001 -2.555 -56.365002 -77.832001
 5 24 0 -74.158997 -63.321999 0 -68.860001 -68.831001 -8 -68.130997 -67.084 8 -68.130997 -67.084
 
+0 STEP
 0 FILE s\60216 - 18895s00.dat
 0 18895s00
 0 Name: s\60216 - 18895s00.dat
@@ -21127,6 +21238,7 @@
 2 24 -3.122056 -5.225 2.389 -2.8284 -5.225 2.8284
 2 24 -3.122056 -5.225 2.389 -3.6956 -5.700698 1.5308
 
+0 STEP
 0 FILE s\60216 - 18895s01.dat
 0 18895s01
 0 Name: s\60216 - 18895s01.dat
@@ -22029,6 +22141,7 @@
 2 24 9.3815 -53.6824 -43.9841 4.245 -53.682701 -43.984001
 2 24 4.245 -53.682701 -43.984001 4.245 -47.687401 -45.019501
 
+0 STEP
 0 FILE s\60216 - 3818s01.dat
 0 3818s01
 0 Name: s\60216 - 3818s01.dat
@@ -22161,6 +22274,7 @@
 5 24 -1.465 8.604 -4.604 0 2.487 -6.005 -3.087 8.474 -6.008 0 4.596 -4.596
 5 24 -1.666 0 -6.5 -5.02 8.4209 -6.5354 0 0 -6.5 -2.942 -1.53 -6.005
 
+0 STEP
 0 FILE s\60216 - 11263s02.dat
 0 11263s02
 0 Name: s\60216 - 11263s02.dat
@@ -22381,6 +22495,7 @@
 5 24 -5 -2.105 5.081 -3.5 -2.105 5.081 -3.5 0 5.5 -5 -3.889 3.889
 5 24 -7 0 -4 -6 0 -5 -7 1.5307 -3.6956 -6 -1.913 -4.619
 
+0 STEP
 0 FILE s\60216 - 3818s02.dat
 0 3818s02
 0 Name: s\60216 - 3818s02.dat
@@ -22396,6 +22511,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\60216 - 3818s03.dat
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\60216 - 3818s04.dat
 
+0 STEP
 0 FILE s\60216 - 3818s03.dat
 0 3818s03
 0 Name: s\60216 - 3818s03.dat
@@ -22482,6 +22598,7 @@
 5 24 -6.8356 7.8154 6.0054 -2.942 -1.53 6.005 -8.4614 7.8246 4.5962 -4.9224 7.8154 6.5
 5 24 -8.4614 7.8246 4.5962 -4.024 -2.829 4.596 -9.58 7.9077 2.4876 -6.8356 7.8154 6.0054
 
+0 STEP
 0 FILE s\60216 - 3818s04.dat
 0 3818s04
 0 Name: s\60216 - 3818s04.dat
@@ -22555,6 +22672,7 @@
 5 24 -8.5355 10.1807 3.8199 -8.5355 21.400299 -7.3997 -9.6195 9.6086 2.0978 -6.9135 10.5627 4.9712
 5 24 -6.9135 10.5627 4.9712 -6.9135 22.166901 -6.6331 -8.5355 10.1807 3.8199 -5 10.6471 5.4249
 
+0 STEP
 0 FILE s\60216 - 16178s02.dat
 0 16178s02
 0 Name: s\60216 - 16178s02.dat
@@ -23990,6 +24108,7 @@
 5 24 11.299 3.731 -6.662 12.011 3.731 -4.975 12.034 8.79 -5.014 11.087 -0.5 -4.592
 5 24 10.953 5.5 -7.196 11.299 3.731 -6.662 12.034 8.79 -5.014 8.375 3.177 -10.15
 
+0 STEP
 0 FILE s\60216 - 3817bp70s01.dat
 0 3817bp70s01
 0 Name: s\60216 - 3817bp70s01.dat
@@ -24066,6 +24185,7 @@
 3 16 2 -6.187 -6.187 2 -3.349 -8.084 4.283 -3.349 -8.084
 3 16 4.49 0 -8.75 2 0 -8.75 4.5663 2.2324 -8.3061
 
+0 STEP
 0 FILE s\60216 - 3817bp70s02.dat
 0 3817bp70s02
 0 Name: s\60216 - 3817bp70s02.dat
@@ -24108,6 +24228,7 @@
 4 16 4.5663 2.2324 -8.3061 5.2623 1.7104 -8.4099 5.22 0 -8.75 4.49 0 -8.75
 4 16 4.49 0 -8.75 5.22 0 -8.75 5.1463 -1.5952 -8.4328 4.4503 -1.8852 -8.3751
 
+0 STEP
 0 FILE s\60216 - 35560s02.dat
 0 35560s02
 0 Name: s\60216 - 35560s02.dat
@@ -25765,6 +25886,7 @@
 5 24 2.8525 28.235001 18.1525 3.4575 28.407499 18.594999 2.7225 29.665001 19.047501 4.2775 26.93 18.200001
 5 24 -2.1725 30.790001 20.7075 -2.0925 29.99 20.0275 -1.435 31.522499 20.615 -2.885 29.92 20.702499
 
+0 STEP
 0 FILE s\60216 - 35560s03.dat
 0 35560s03
 0 Name: s\60216 - 35560s03.dat
@@ -26361,6 +26483,7 @@
 5 24 0 1.1718 -11.5352 0 2.4691 -12.6192 4.4144 1.1718 -10.6576 -4.8292 2.4691 -11.6586
 5 24 0 0 -8 3.0615 0 -7.391 2.2689 0 -5.4775 3.7936 0.3046 -9.1592
 
+0 STEP
 0 FILE s\60216 - 35560s01.dat
 0 35560s01
 0 Name: s\60216 - 35560s01.dat
@@ -27658,6 +27781,7 @@
 5 24 0 -1.01 15.5875 0 -2.78 14.665 -5.2288 -1.1525 14.1575 5.2288 -1.1525 14.1575
 5 24 0 3.1825 22.4175 0 2.3867 21.051701 2.2129 2.9092 20.8696 -2.2129 2.9092 20.8696
 
+0 STEP
 0 FILE s\60216 - 35560s04.dat
 0 35560s04
 0 Name: s\60216 - 35560s04.dat

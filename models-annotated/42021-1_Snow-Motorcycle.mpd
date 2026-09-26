@@ -52,6 +52,7 @@
 1 71 20 180.885 -145.13 0 0 -1 0 1 0 1 0 0 42021 - Sub 09.ldr
 
 
+0 STEP
 0 FILE 42021 - Sub 01.ldr
 0 Reinforced structural frame using bent liftarms, beams, cross blocks, and axles forming a core supporting subassembly.
 0 Name: 42021 - Sub 01.ldr
@@ -133,6 +134,7 @@
 
 
 
+0 STEP
 0 FILE 42021 - Sub 02.ldr
 0 Simple pair of black Technic beams serving as a spacer or connector linkage.
 0 Name: 42021 - Sub 02.ldr
@@ -149,6 +151,7 @@
 
 
 
+0 STEP
 0 FILE 42021 - Sub 03.ldr
 0 Small angled connector module built from a bent liftarm, notched axles, and a split cross block.
 0 Name: 42021 - Sub 03.ldr
@@ -171,6 +174,7 @@
 
 
 
+0 STEP
 0 FILE 42021 - Sub 04.ldr
 0 Track assembly consisting of a long beam, bevel gears, and 35 chain tread links forming a continuous snow track.
 0 Name: 42021 - Sub 04.ldr
@@ -289,6 +293,7 @@
 
 
 
+0 STEP
 0 FILE 42021 - Sub 05.ldr
 0 6.5L shock absorber unit combining a piston rod and cylinder for suspension damping.
 0 Name: 42021 - Sub 05.ldr
@@ -1185,6 +1190,7 @@
 
 
 
+0 STEP
 0 FILE 42021 - Sub 06.ldr
 0 Rigid support beam assembly using long beams, connector pegs, and a joining axle.
 0 Name: 42021 - Sub 06.ldr
@@ -1221,6 +1227,7 @@
 
 
 
+0 STEP
 0 FILE 42021 - Sub 07.ldr
 0 Front ski and steering assembly built around a lime beam with angle connectors, axles, and clear transparent ski teeth.
 0 Name: 42021 - Sub 07.ldr
@@ -1279,6 +1286,7 @@
 
 
 
+0 STEP
 0 FILE 42021 - Sub 08.ldr
 0 Compact linkage module using a short liftarm with boss, axle pin, and stop axle for a pivoting joint.
 0 Name: 42021 - Sub 08.ldr
@@ -1301,6 +1309,7 @@
 
 
 
+0 STEP
 0 FILE 42021 - Sub 09.ldr
 0 Angled support arm constructed from bent liftarms, a pin, and axles for bracing structure.
 0 Name: 42021 - Sub 09.ldr

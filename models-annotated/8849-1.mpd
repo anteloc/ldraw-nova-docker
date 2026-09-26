@@ -8,6 +8,7 @@
 1 256 0 0 0 1 0 0 0 1 0 0 0 1 8849 - Tractor With Irrigation.ldr
 
 
+0 STEP
 0 FILE 8849 - Tractor.ldr
 0 Main tractor chassis built from light grey Technic bricks, plates, gears, and axles forming the structural frame and drivetrain.
 0 Name: 8849 - Tractor.ldr
@@ -320,6 +321,7 @@
 1 256 -112 6 -167 0 0 1 0 1 0 -1 0 0 4267.dat
 
 
+0 STEP
 0 FILE 8849 - Shaft top.ldr
 0 Short top shaft assembly using a Technic axle 4 with two pin/bush connectors with studs.
 0 Name: 8849 - Shaft top.ldr
@@ -335,6 +337,7 @@
 1 7 0 0 80 -1 0 0 0 1 0 0 0 -1 3651.dat
 
 
+0 STEP
 0 FILE 8849 - Shaft bottom.ldr
 0 Bottom shaft assembly joining a Technic axle 4, a toggle joint toothed connector, and a pin/bush connector with studs.
 0 Name: 8849 - Shaft bottom.ldr
@@ -350,6 +353,7 @@
 1 7 0 0 80 -1 0 0 0 1 0 0 0 -1 3651.dat
 
 
+0 STEP
 0 FILE 8849 - Front.ldr
 0 Steerable front axle module with Technic plates, steering arms, gear rack, and an 8-tooth gear train for rack-and-pinion steering.
 0 Name: 8849 - Front.ldr
@@ -431,6 +435,7 @@
 1 7 -50 -114 127 0 0 1 -1 0 0 0 -1 0 3713.dat
 
 
+0 STEP
 0 FILE 8849 - Front 2.ldr
 0 Compact front section subassembly of light grey plates and Technic bricks joined by friction pins.
 0 Name: 8849 - Front 2.ldr
@@ -463,6 +468,7 @@
 1 7 40 -40 60 -1 0 0 0 1 0 0 0 -1 3022.dat
 
 
+0 STEP
 0 FILE 8849 - Front 1.ldr
 0 Front-end support subassembly using plates, a brick, Technic bricks, and friction pins to form a small mounting block.
 0 Name: 8849 - Front 1.ldr
@@ -502,6 +508,7 @@
 1 7 40 -32 30 -1 0 0 0 1 0 0 0 -1 3004.dat
 
 
+0 STEP
 0 FILE 8849 - Front 3.ldr
 0 Front gear subassembly featuring a 12-stud axle, round reinforced brick, bush, and a 14-tooth bevel gear.
 0 Name: 8849 - Front 3.ldr
@@ -532,6 +539,7 @@
 1 7 40 -6 17 0.259 -0.966 0 0.966 0.259 0 0 0 1 4143.dat
 
 
+0 STEP
 0 FILE 8849 - Stand.ldr
 0 Yellow display stand built from Technic bricks and plates supporting the completed model.
 0 Name: 8849 - Stand.ldr
@@ -549,6 +557,7 @@
 1 14 0 -18 20 0 0 1 0 1 0 -1 0 0 3710.dat
 
 
+0 STEP
 0 FILE 8849 - Panel Right.ldr
 0 Right side panel assembly with yellow and grey plates, bevel gears, wedge belt wheel, and axles forming a power-take-off housing.
 0 Name: 8849 - Panel Right.ldr
@@ -608,6 +617,7 @@
 1 7 0 -48 0 1 0 0 0 1 0 0 0 1 3709b.dat
 
 
+0 STEP
 0 FILE 8849 - Panel Left.ldr
 0 Left side panel of yellow plates and Technic bricks with a connecting axle and pin/bush connectors.
 0 Name: 8849 - Panel Left.ldr
@@ -637,6 +647,7 @@
 1 0 -40 -116.254 113.409 -1 0 0 0 0.943 -0.334 0 -0.334 -0.943 4459.dat
 
 
+0 STEP
 0 FILE 8849 - Counterbalance.ldr
 0 Rear counterbalance weight of black bricks and 45-degree slope bricks providing ballast for the tractor.
 0 Name: 8849 - Counterbalance.ldr
@@ -676,6 +687,7 @@
 1 0 10 -80 -60 0 0 -1 0 1 0 1 0 0 3039.dat
 
 
+0 STEP
 0 FILE 8849 - Irrigation.ldr
 0 Red irrigation boom assembly of long Technic bricks, hinge plates, round bricks, and taps forming a sprinkler arm.
 0 Name: 8849 - Irrigation.ldr
@@ -794,6 +806,7 @@
 1 256 -60 -14 -46 0 1 0 0 0 -1 -1 0 0 8849 - Hose Right.ldr
 
 
+0 STEP
 0 FILE 8849 - Hose Left.ldr
 0 Flexible left pneumatic hose of 77 tube segments with bulged end connectors.
 0 Name: 8849 - Hose Left.ldr
@@ -988,6 +1001,7 @@
 1 16 -50.732623 -18.008043 162.013051 0.020908 3.985515 -0.000735 -0.494302 0.043754 0.869221 0.869039 -0.071001 0.494423 166.dat
 
 
+0 STEP
 0 FILE 8849 - Tank.ldr
 0 Blue water tank assembly using plates, slopes, inverted dishes, and wheel rims to form a cylindrical reservoir.
 0 Name: 8849 - Tank.ldr
@@ -1051,6 +1065,7 @@
 1 1 0 -88 -10 1 0 0 0 1 0 0 0 1 3039.dat
 
 
+0 STEP
 0 FILE 8849 - Tractor With Irrigation.ldr
 0 Connecting assembly joining the irrigation boom to the tractor using long axles and bushes.
 0 Name: 8849 - Tractor With Irrigation.ldr
@@ -1074,6 +1089,7 @@
 1 7 -90 -100.6 290 0 0 1 1 0 0 0 1 0 3713.dat
 
 
+0 STEP
 0 FILE 8849 - Hose Right.ldr
 0 Flexible right pneumatic hose of 77 tube segments with bulged end connectors.
 0 Name: 8849 - Hose Right.ldr

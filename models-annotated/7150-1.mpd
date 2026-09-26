@@ -18,6 +18,7 @@
 1 16 150 16 355 1 0 0 0 1 0 0 0 1 7150 - Y-Wing Fighter.ldr
 
 
+0 STEP
 0 FILE 7150 - Minifig Darth Vader.ldr
 0 A black-armored Darth Vader minifigure complete with cape, helmet, and a red lightsaber.
 0 Name: 7150 - Minifig Darth Vader.ldr
@@ -57,6 +58,7 @@
 0 // Bar  4L Lightsaber Blade (trans_red)
 1 36 -23.195 22.724 -33.822 0.963475 0.0925699 0.249498 -0.17 -0.506976 0.844031 0.204793 -0.856351 -0.473162 30374.dat
 
+0 STEP
 0 FILE 7150 - TIE Fighter.ldr
 0 The main body of a TIE Fighter built from grey and black plates, bricks, and inverted slopes with red cockpit details.
 0 Name: 7150 - TIE Fighter.ldr
@@ -238,6 +240,7 @@
 1 7 208 -70 0 0 -1 0 -1 0 0 0 0 -1 7150 - TIE Fighter - Wing.ldr
 1 7 -208 -70 0 0 1 0 1 0 0 0 0 -1 7150 - TIE Fighter - Wing.ldr
 
+0 STEP
 0 FILE 7150 - TIE Fighter - Console.ldr
 0 A small cockpit console assembly featuring a Star Wars computer-patterned tile on grey bricks.
 0 Name: 7150 - TIE Fighter - Console.ldr
@@ -254,6 +257,7 @@
 1 7 0 -32 0 -1 0 0 0 1 0 0 0 -1 3069bps1.dat
 
 
+0 STEP
 0 FILE 7150 - TIE Fighter - Cockpit Hatch.ldr
 0 A cockpit hatch panel with an Imperial-patterned round tile and blue grille accents.
 0 Name: 7150 - TIE Fighter - Cockpit Hatch.ldr
@@ -276,6 +280,7 @@
 1 1 30 -8 0 0 0 -1 0 1 0 1 0 0 2412b.dat
 
 
+0 STEP
 0 FILE 7150 - TIE Fighter - Engine.ldr
 0 A TIE Fighter engine nacelle made of grey corner bricks and blue plates with a connector pin.
 0 Name: 7150 - TIE Fighter - Engine.ldr
@@ -319,6 +324,7 @@
 0 // Plate  2 x  4 (blue)
 1 1 0 -32 0 1 0 0 0 1 0 0 0 1 3020.dat
 
+0 STEP
 0 FILE 7150 - TIE Fighter - Wing Base.ldr
 0 A wing mounting base using black and grey plates with connector pins and a blue slope.
 0 Name: 7150 - TIE Fighter - Wing Base.ldr
@@ -338,6 +344,7 @@
 1 1 30 -48 0 0 0 1 0 1 0 -1 0 0 30363.dat
 
 
+0 STEP
 0 FILE 7150 - TIE Fighter - Wing.ldr
 0 A hexagonal TIE Fighter wing panel with large black plates, inverted slopes, hinges, and an Imperial emblem round tile.
 0 Name: 7150 - TIE Fighter - Wing.ldr
@@ -385,6 +392,7 @@
 1 7 78.359 19.865 0 0.920505 -0.390731 0 0.390731 0.920505 0 0 0 1 7150 - TIE Fighter - Wing Bottom Angle.ldr
 
 
+0 STEP
 0 FILE 7150 - TIE Fighter - Wing Top Angle.ldr
 0 The upper angular portion of a TIE Fighter wing built from black plates, wing elements, hinges, and a double inverted slope.
 0 Name: 7150 - TIE Fighter - Wing Top Angle.ldr
@@ -419,6 +427,7 @@
 0 // Plate  2 x  3 (blue)
 1 1 -10 -24 -20 1 0 0 0 1 0 0 0 1 3021.dat
 
+0 STEP
 0 FILE 7150 - TIE Fighter - Wing Bottom Angle.ldr
 0 The lower angular portion of a TIE Fighter wing built from black plates, wing elements, hinges, and a double inverted slope.
 0 Name: 7150 - TIE Fighter - Wing Bottom Angle.ldr
@@ -453,6 +462,7 @@
 0 // Plate  2 x  3 (blue)
 1 1 10 -24 -20 1 0 0 0 1 0 0 0 1 3021.dat
 
+0 STEP
 0 FILE 7150 - Minifig - Rebel Pilot Y-Wing (Dutch Vander).ldr
 0 An orange-suited Rebel Pilot minifigure wearing a helmet with visor pattern and headset head.
 0 Name: 7150 - Minifig - Rebel Pilot Y-Wing (Dutch Vander).ldr
@@ -485,6 +495,7 @@
 1 15 0 -55.945 -256.19 1 0 0 0 0.573576 0.819152 0 -0.819152 0.573576 30370ps1.dat
 
 
+0 STEP
 0 FILE 7150 - Minifig - R5-D4.ldr
 0 A white astromech droid minifigure with a red-and-silver R5-patterned dome head and robot legs.
 0 Name: 7150 - Minifig - R5-D4.ldr
@@ -503,6 +514,7 @@
 0 // ~Minifig Robot Leg (Obsolete) (white)
 1 15 -20 0 0 0 0 -1 0 1 0 1 0 0 30362.dat
 
+0 STEP
 0 FILE 7150 - Y-Wing Fighter.ldr
 0 The main fuselage of a Y-wing fighter assembled from grey, yellow, and red plates and bricks with grille detailing.
 0 Name: 7150 - Y-Wing Fighter.ldr
@@ -893,6 +905,7 @@
 1 7 -200 -54 142 1 0 0 0 0 -1 0 1 0 7150 - Y-Wing Fighter - Engine.ldr
 1 7 200 -54 142 1 0 0 0 0 -1 0 1 0 7150 - Y-Wing Fighter - Engine.ldr
 
+0 STEP
 0 FILE 7150 - Y-Wing Fighter - Cockpit Base.ldr
 0 A small cockpit foundation made of a faceted white brick and a corner-cut grey plate.
 0 Name: 7150 - Y-Wing Fighter - Cockpit Base.ldr
@@ -907,6 +920,7 @@
 1 15 0 -24 0 -1 0 0 0 1 0 0 0 -1 2462.dat
 
 
+0 STEP
 0 FILE 7150 - Y-Wing Fighter - Trunk Hinge.ldr
 0 A hinged trunk mechanism built from a hinge base and top with a connecting plate.
 0 Name: 7150 - Y-Wing Fighter - Trunk Hinge.ldr
@@ -923,6 +937,7 @@
 1 8 0 -8 0 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 7150 - Y-Wing Fighter - Container.ldr
 0 A cargo container with a Rebel-patterned door and a black grooved tile lid.
 0 Name: 7150 - Y-Wing Fighter - Container.ldr
@@ -939,6 +954,7 @@
 1 0 0 -8 0 1 0 0 0 1 0 0 0 1 3068b.dat
 
 
+0 STEP
 0 FILE 7150 - Y-Wing Fighter - Engine.ldr
 0 A cylindrical Y-wing engine built from round holed bricks, cylinders, a cone, and a technic axle.
 0 Name: 7150 - Y-Wing Fighter - Engine.ldr
@@ -985,6 +1001,7 @@
 0 STEP
 1 0 0 276 0 1 0 0 0 1 0 0 0 1 7150 - Y-Wing-Fighter - Engine End.ldr
 
+0 STEP
 0 FILE 7150 - Y-Wing-Fighter - Engine End.ldr
 0 The rear end of a Y-wing engine using a round holed brick with technic pins and four long links.
 0 Name: 7150 - Y-Wing-Fighter - Engine End.ldr

@@ -3,6 +3,7 @@
 0 Author: Max Martin Richter [MMR1988]
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 8074 - Mini Loader.ldr
+0 STEP
 0 FILE 8074 - Mini Loader.ldr
 0 Core chassis assembly built from long Technic bricks, plates, axles, bushings, wedge belt wheels, a gear rack, and yellow accent plates.
 0 Name: 8074 - Mini Loader.ldr
@@ -259,6 +260,7 @@
 1 256 -107 10 90 0 0 -1 0 1 0 1 0 0 2857.dat
 
 
+0 STEP
 0 FILE 8074 - Substep_Step-2.ldr
 0 Front steering arm assembly with a steering arm, axle pin, and bushes mounted on a Technic axle.
 0 Name: 8074 - Substep_Step-2.ldr
@@ -277,6 +279,7 @@
 1 7 -20 10 0 0 0 -1 0 1 0 1 0 0 3713.dat
 
 
+0 STEP
 0 FILE 8074 - Substep_Step-3.ldr
 0 Front steering arm assembly with a steering arm, axle pin, and bushes mounted on a Technic axle.
 0 Name: 8074 - Substep_Step-3.ldr
@@ -295,6 +298,7 @@
 1 7 20 10 0 0 0 1 0 1 0 -1 0 0 3713.dat
 
 
+0 STEP
 0 FILE 8074 - Substep_Step-5.ldr
 0 Worm gear reduction unit with a bevel gear mounted between Technic bricks on an axle.
 0 Name: 8074 - Substep_Step-5.ldr
@@ -314,6 +318,7 @@
 1 7 0 0 34 1 0 0 0 1 0 0 0 1 4143.dat
 
 
+0 STEP
 0 FILE 8074 - Substep_Step-6.ldr
 0 Gear train assembly pairing a 24-tooth crown gear and 8-tooth gear between Technic bricks on an axle.
 0 Name: 8074 - Substep_Step-6.ldr
@@ -333,6 +338,7 @@
 1 7 0 0 50 -1 0 0 0 -1 0 0 0 1 3647.dat
 
 
+0 STEP
 0 FILE 8074 - Substep_Step-8.ldr
 0 Driveshaft segment with a 24-tooth crown gear held by bushes on a long axle.
 0 Name: 8074 - Substep_Step-8.ldr
@@ -348,6 +354,7 @@
 1 7 15 0 0 0 0 -1 -1 0 0 0 1 0 4265a.dat
 
 
+0 STEP
 0 FILE 8074 - Substep_Step-9.ldr
 0 Plated base assembly carrying a 24-tooth gear with three axleholes and a long axle on black plates.
 0 Name: 8074 - Substep_Step-9.ldr
@@ -385,6 +392,7 @@
 1 7 0 -32 -50 0.131 0.991 0 0 0 -1 -0.991 0.131 0 3713.dat
 
 
+0 STEP
 0 FILE 8074 - Substep_Step-10.ldr
 0 Worm gear reduction unit with a bevel gear mounted between Technic bricks on an axle.
 0 Name: 8074 - Substep_Step-10.ldr
@@ -404,6 +412,7 @@
 1 7 0 0 -60 1 0 0 0 1 0 0 0 1 3713.dat
 
 
+0 STEP
 0 FILE 8074 - Substep_Step-12.ldr
 0 Long driveshaft with a 16-tooth gear secured by bushes.
 0 Name: 8074 - Substep_Step-12.ldr
@@ -419,6 +428,7 @@
 1 7 0 0 0 0 0 1 -1 0 0 0 -1 0 4019.dat
 
 
+0 STEP
 0 FILE 8074 - Substep_Step-13.ldr
 0 Single long Technic brick with a half pin connector.
 0 Name: 8074 - Substep_Step-13.ldr
@@ -430,6 +440,7 @@
 1 7 -10 -30 -10 -1 0 0 0 -1 0 0 0 1 4274.dat
 
 
+0 STEP
 0 FILE 8074 - Substep_Step-14_1.ldr
 0 Yellow liftarm armature with an axle pin and liftarm with boss.
 0 Name: 8074 - Substep_Step-14_1.ldr
@@ -443,6 +454,7 @@
 1 7 -50 -30 70 -1 0 0 0 1 0 0 0 -1 2825.dat
 
 
+0 STEP
 0 FILE 8074 - Substep_Step-14_2.ldr
 0 Yellow liftarm armature with an axle pin and liftarm with boss.
 0 Name: 8074 - Substep_Step-14_2.ldr
@@ -456,6 +468,7 @@
 1 7 30 -30 70 -1 0 0 0 1 0 0 0 -1 2825.dat
 
 
+0 STEP
 0 FILE 8074 - Substep_Step-15.ldr
 0 Two-blade rotor assembly on a long yellow Technic brick with liftarms and pins.
 0 Name: 8074 - Substep_Step-15.ldr
@@ -482,6 +495,7 @@
 1 7 -30 10 80 1 0 0 0 1 0 0 0 1 3749.dat
 
 
+0 STEP
 0 FILE 8074 - Substep_Step-16.ldr
 0 Two-blade rotor assembly on a long yellow Technic brick with liftarms and pins.
 0 Name: 8074 - Substep_Step-16.ldr
@@ -508,6 +522,7 @@
 1 7 30 10 80 -1 0 0 0 1 0 0 0 -1 3749.dat
 
 
+0 STEP
 0 FILE 8074 - Substep_Step-17.ldr
 0 Pair of Technic half pins used as connectors.
 0 Name: 8074 - Substep_Step-17.ldr
@@ -521,6 +536,7 @@
 1 7 5 0 0 1 0 0 0 1 0 0 0 1 4274.dat
 
 
+0 STEP
 0 FILE 8074 - technicflexSysCable-1.ldr
 0 Flex-system cable assembly with pin hole connectors and cable ends spanning a routed path.
 0 !CATEGORY technic
@@ -567,6 +583,7 @@
 
 
 
+0 STEP
 0 FILE 8074 - technicflexSysCable-1_subPart1.ldr
 0 Generated flex-system cable geometry made of cylindrical segments and connector rings.
 0 Author: LDCad
@@ -1063,6 +1080,7 @@
 5 24 0.7664 -210.498993 -1.8478 1.4152 -210.498993 -1.4142 0.7664 -211.498993 -1.8478 0.7664 -190.775223 -1.8478
 5 24 1.4152 -210.498993 -1.4142 1.8488 -210.498993 -0.7654 1.4152 -211.498993 -1.4142 1.4152 -190.775223 -1.4142
 5 24 1.8488 -210.498993 -0.7654 2.001 -210.498993 0 1.8488 -211.498993 -0.7654 1.8488 -190.775223 -0.7654
+0 STEP
 0 FILE 8074 - Substep_Step-18_1.ldr
 0 Yellow Technic brick extension with a short axle, bushes, and a friction pin.
 0 Name: 8074 - Substep_Step-18_1.ldr
@@ -1082,6 +1100,7 @@
 1 7 25 0 40 0 0 1 0.484 0.875 0 -0.875 0.484 0 4265a.dat
 
 
+0 STEP
 0 FILE 8074 - Substep_Step-18_2.ldr
 0 Yellow Technic brick extension with a short axle, bushes, and a friction pin.
 0 Name: 8074 - Substep_Step-18_2.ldr
@@ -1101,6 +1120,7 @@
 1 7 -25 0 40 0 0 -1 -0.484 0.875 0 0.875 0.484 0 4265a.dat
 
 
+0 STEP
 0 FILE 8074 - Substep_Step-19.ldr
 0 Yellow structural beam assembly with long Technic bricks, a holed plate, axles, liftarms, and bushes.
 0 Name: 8074 - Substep_Step-19.ldr
@@ -1151,6 +1171,7 @@
 1 7 -100 -50 60 1 0 0 0 1 0 0 0 1 3749.dat
 
 
+0 STEP
 0 FILE 8074 - Substep_Step-20.ldr
 0 Yellow Technic plate deck built from two holed 2x8 plates and one holed 2x4 plate.
 0 Name: 8074 - Substep_Step-20.ldr
@@ -1165,6 +1186,7 @@
 1 14 40 -8 0 1 0 0 0 1 0 0 0 1 3738.dat
 
 
+0 STEP
 0 FILE 8074 - Substep_Step-20_1.ldr
 0 Round transparent light fixture made from a round plate, trans-yellow cylinder, and round tile.
 0 Name: 8074 - Substep_Step-20_1.ldr
@@ -1178,6 +1200,7 @@
 1 7 0 -32 0 1 0 0 0 1 0 0 0 1 4150.dat
 
 
+0 STEP
 0 FILE 8074 - Substep_Step-20_2.ldr
 0 Axle coupling with two pin/bush connectors on a long Technic axle.
 0 Name: 8074 - Substep_Step-20_2.ldr
@@ -1191,6 +1214,7 @@
 1 7 0 -110 0 1 0 0 0 0 1 0 -1 0 3651.dat
 
 
+0 STEP
 0 FILE 8074 - 4185a.dat
 0 4185a
 0 Name: 8074 - 4185a.dat
@@ -1261,6 +1285,7 @@
 1 16 -11 0 -3 0 0 -1 1 0 0 0 6 0 2-4cylo.dat
 
 
+0 STEP
 0 FILE s\8074 - 4185as01.dat
 0 Technic wedge belt wheel primitive composed of nested cylinders, rings, and discs forming a grooved pulley profile.
 0 Name: s\8074 - 4185as01.dat

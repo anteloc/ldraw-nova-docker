@@ -11,6 +11,7 @@
 1 0 0 -101 8 1 0 0 0 1 0 0 0 1 6828 - Minifig.ldr
 
 
+0 STEP
 0 FILE 6828 - Vehicle.ldr
 0 A white and black space vehicle body built from plates, hinge plates, cones, and grille-patterned tiles forming a compact twin-winged craft.
 0 Name: 6828 - Vehicle.ldr
@@ -104,6 +105,7 @@
 1 0 50 -28 10 0 -1 0 0 0 -1 1 0 0 6828 - Vehicle - Leg.ldr
 
 
+0 STEP
 0 FILE 6828 - Vehicle - Leg.ldr
 0 A white and black vehicle landing leg assembly built from a hinge plate, plates, a trans-red light, a signal stand, and a yellow arrow-patterned tile.
 0 Name: 6828 - Vehicle - Leg.ldr
@@ -125,6 +127,7 @@
 1 15 0 -12 -50 0 0 1 0 1 0 -1 0 0 3069bp06.dat
 
 
+0 STEP
 0 FILE 6828 - Minifig.ldr
 0 A Futuron astronaut minifigure with a blue airtanks, white torso, blue arms and legs, yellow head, and a white torch accessory.
 0 Name: 6828 - Minifig.ldr
@@ -159,6 +162,7 @@
 1 1 0 44 0 1 0 0 0 0 1 0 -1 0 3817.dat
 
 
+0 STEP
 0 FILE 6828 - Minifig - Helmet.ldr
 0 A blue space helmet with a trans-dark-blue visor for the minifigure.
 0 Name: 6828 - Minifig - Helmet.ldr

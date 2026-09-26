@@ -12,6 +12,7 @@
 
 
 
+0 STEP
 0 FILE 31063 - windsurf.ldr
 0 A windsurf board built from an orange surf board, a white fabric sail, and a mast with mounting clips.
 0 Name: 31063 - windsurf.ldr
@@ -39,6 +40,7 @@
 
 
 
+0 STEP
 0 FILE 31063 - house.ldr
 0 A two-story beachside shop with bright blue and medium blue brick walls, hinged roof sections, sloped tan detailing, and windows.
 0 Name: 31063 - house.ldr
@@ -403,6 +405,7 @@
 
 
 
+0 STEP
 0 FILE 31063 - duck.ldr
 0 A small decorative duck figure made from green curved slopes, a white body brick, and orange beak and feet pieces.
 0 Name: 31063 - duck.ldr
@@ -426,6 +429,7 @@
 
 
 
+0 STEP
 0 FILE 31063 - plant.ldr
 0 A potted palm plant built from lime curved-top bricks and side-stud bricks arranged on a blue base.
 0 Name: 31063 - plant.ldr
@@ -459,6 +463,7 @@
 
 
 
+0 STEP
 0 FILE 31063 - girl.ldr
 0 A female minifigure with long nougat hair, a pink-striped torso, and white legs.
 0 Name: 31063 - girl.ldr
@@ -490,6 +495,7 @@
 
 
 
+0 STEP
 0 FILE 31063 - guy.ldr
 0 A male minifigure with tousled tan hair, a windsurfboard-patterned torso, dark blue legs, and a paddle.
 0 Name: 31063 - guy.ldr
@@ -527,6 +533,7 @@
 
 
 
+0 STEP
 0 FILE 31063 - 28981c02.dat
 0 A component submodel with no direct pieces.
 0 Name: 31063 - 28981c02.dat
@@ -1742,6 +1749,7 @@
 5 24 2.659 -135.520493 -16.6425 0.9633 -137.058594 -14.2465 2.6774 -135.766693 -16.802601 0.9111 -136.815002 -14.0999
 
 
+0 STEP
 0 FILE 31063 - 973p1z.dat
 0 A geometric subpart composed of a black quarter cylinder primitive.
 0 Name: 31063 - 973p1z.dat
@@ -2770,6 +2778,7 @@
 
 
 
+0 STEP
 0 FILE 31063 - 3626cp8x.dat
 0 A geometric subpart composed of two thin cylindrical primitives.
 0 Name: 31063 - 3626cp8x.dat
@@ -3306,6 +3315,7 @@
 5 24 0 20.6954 -9.9136 0 21 -8 3.0616 21 -7.3912 -3.0616 21 -7.3912
 
 
+0 STEP
 0 FILE 31063 - 3626cp70.dat
 0 A geometric subpart composed of two thin cylindrical primitives.
 0 Name: 31063 - 3626cp70.dat
@@ -4047,6 +4057,7 @@
 5 24 0 20.6954 -9.9136 0 21 -8 3.0616 21 -7.3912 -3.0616 21 -7.3912
 
 
+0 STEP
 0 FILE s\31063 - 86210s01.dat
 0 A low-level geometric subpart constructed from various cylindrical, disc, box, and ring primitives.
 0 Name: s\31063 - 86210s01.dat

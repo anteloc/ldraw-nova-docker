@@ -311,6 +311,7 @@
 1 7 -100 -238 -130 -1 0 0 0 1 0 0 0 -1 3673.dat
 1 7 0 -62 -88 1 0 0 0 1 0 0 0 1 850 - Forks.ldr
 
+0 STEP
 0 FILE 850 - Forks.ldr
 0 A vertical lift fork assembly using long technic bricks, stacked plates, and gear racks driven by pins for raising and lowering loads.
 0 Name: 850 - Forks.ldr
@@ -365,6 +366,7 @@
 0 // Technic Brick  1 x 16 with Holes (yellow)
 1 14 -50 -10 -114 0 0 1 0 1 0 -1 0 0 3703.dat
 
+0 STEP
 0 FILE 850 - Steering.ldr
 0 A rack-and-pinion steering mechanism built on turntable plates with gear racks, axles, and technic bricks for front-wheel direction control.
 0 Name: 850 - Steering.ldr

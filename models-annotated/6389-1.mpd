@@ -18,6 +18,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 6389 - building.ldr 
 0 A multi-story red fire station built on a road baseplate, with tall brick walls, white accents, and a yellow airtank.
 0 Name: 6389 - building.ldr 
@@ -591,6 +592,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 6389 - helicopter.ldr 
 0 A red and white rescue helicopter with sloped panels, black plates, rotor mounts, and clip attachments.
 0 Name: 6389 - helicopter.ldr 
@@ -724,6 +726,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 6389 - helicopter - flexHose.ldr 
 0 A flexible hose assembly made of interconnected segments with end caps.
 0 Name: 6389 - helicopter - flexHose.ldr 
@@ -843,6 +846,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 6389 - car 1.ldr 
 0 A red vehicle with black chassis plates, inverted slopes, wheel mounts, and a yellow steering stand.
 0 Name: 6389 - car 1.ldr 
@@ -1127,6 +1131,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 6389 - car 2.ldr 
 0 A compact white car with mudguards, wheel plates, yellow accents, and a steering stand.
 0 Name: 6389 - car 2.ldr 
@@ -1261,6 +1266,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 6389 - minifig 1.ldr 
 0 A firefighter minifigure wearing a white helmet with visor and a black fire fighter torso.
 0 Name: 6389 - minifig 1.ldr 
@@ -1295,6 +1301,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 6389 - minifig 2.ldr 
 0 A firefighter minifigure wearing a white fire helmet and a black fire fighter torso.
 0 Name: 6389 - minifig 2.ldr 
@@ -1327,6 +1334,7 @@
 0 NOFILE
 
 
+0 STEP
 0 FILE 6389 - minifig 3.ldr 
 0 A firefighter minifigure with black male hair and a black fire fighter torso.
 0 Name: 6389 - minifig 3.ldr 

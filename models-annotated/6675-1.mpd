@@ -15,6 +15,7 @@
 
 0
 
+0 STEP
 0 FILE 6675 - Car.ldr
 0 A black car with a 4x10 base, yellow steering wheel, mudguards, striped doors, headlights, and grille detailing.
 0 Name: 6675 - Car.ldr
@@ -187,6 +188,7 @@
 1 14 -30 -88 -30 0 -0.5 0.866 0 0.866 0.5 -1 0 0 4593.dat
 0
 
+0 STEP
 0 FILE 6675 - Minifig.ldr
 0 A mechanic minifig in a red cap with a red truck-patterned torso and a spanner/screwdriver tool.
 0 Name: 6675 - Minifig.ldr
@@ -216,6 +218,7 @@
 
 
 
+0 STEP
 0 FILE 6675 - Exhaust pipe.ldr
 0 A small exhaust pipe assembly built from a hinge plate and two grey goblet pieces.
 0 Name: 6675 - Exhaust pipe.ldr

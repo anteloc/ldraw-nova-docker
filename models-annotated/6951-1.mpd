@@ -394,6 +394,7 @@
 0 // Minifig Torch (black)
 1 0 -90 -360 50 1 0 0 0 0 1 0 -1 0 3959.dat
 
+0 STEP
 0 FILE 6951 - Right searchlights.ldr
 0 Blue hinged and bracketed assembly mounting two round trans-yellow light elements.
 0 Name: 6951 - Right searchlights.ldr
@@ -426,6 +427,7 @@
 0 // Plate  1 x  1 Round (trans_yellow)
 1 46 -30 -4 -82 1 0 0 0 0 1 0 -1 0 4073.dat
 
+0 STEP
 0 FILE 6951 - Left searchlights.ldr
 0 Blue hinged and bracketed assembly mounting two round trans-yellow light elements.
 0 Name: 6951 - Left searchlights.ldr
@@ -458,6 +460,7 @@
 0 // Plate  1 x  1 Round (trans_yellow)
 1 46 -30 -4 -82 1 0 0 0 0 1 0 -1 0 4073.dat
 
+0 STEP
 0 FILE 6951 - Left lower cover.ldr
 0 Blue canopy windscreen attached by a hinged plate and flanked by two grey loudhailers.
 0 Name: 6951 - Left lower cover.ldr
@@ -480,6 +483,7 @@
 0 // Minifig Loudhailer (light_grey)
 1 7 -30 -30 0 1 0 0 0 0 -1 0 1 0 4349.dat
 
+0 STEP
 0 FILE 6951 - Right lower cover.ldr
 0 Blue canopy windscreen attached by a hinged plate and flanked by two grey loudhailers.
 0 Name: 6951 - Right lower cover.ldr
@@ -502,6 +506,7 @@
 0 // Minifig Loudhailer (light_grey)
 1 7 -30 -30 0 1 0 0 0 0 -1 0 1 0 4349.dat
 
+0 STEP
 0 FILE 6951 - Panels.ldr
 0 Blue plate and brick assembly fitted with four computer-screen and control-panel slope bricks.
 0 Name: 6951 - Panels.ldr
@@ -523,6 +528,7 @@
 0 // Slope Brick 45  2 x  2 with Computer Panel Pattern (blue)
 1 1 80 -32 10 1 0 0 0 1 0 0 0 1 3039p34.dat
 
+0 STEP
 0 FILE 6951 - Bottom engine.ldr
 0 Two light grey jet engine plates with fins flanking a central trans-red round element.
 0 Name: 6951 - Bottom engine.ldr
@@ -538,6 +544,7 @@
 0 // Plate  1 x  1 Round (trans_red)
 1 36 0 26 -88 1 0 0 0 0 -1 0 1 0 4073.dat
 
+0 STEP
 0 FILE 6951 - Antenna.ldr
 0 Blue bracketed mount topped by a large inverted grey webbed dish and a trans-red stud.
 0 Name: 6951 - Antenna.ldr
@@ -556,6 +563,7 @@
 0 // Brick  1 x  1 Round with Hollow Stud (trans_red)
 1 36 -4 -108 0 0 1 0 -1 0 0 0 0 1 3062b.dat
 
+0 STEP
 0 FILE 6951 - Rocket.ldr
 0 White and black rocket built from stacked round bricks with a black nose cone and red trans thrusters.
 0 Name: 6951 - Rocket.ldr
@@ -597,6 +605,7 @@
 0 // Plate  1 x  1 Round (trans_red)
 1 36 80 10 -50 0 1 0 -1 0 0 0 0 1 4073.dat
 
+0 STEP
 0 FILE 6951 - Rover.ldr
 0 Grey wheeled vehicle with four small rubber tyres, a steering wheel, and blue storage elements on a plate chassis.
 0 Name: 6951 - Rover.ldr
@@ -663,6 +672,7 @@
 0 STEP
 1 14 0 -32 -20 1 0 0 0 1 0 0 0 1 6951 - Yellow minifig.ldr
 
+0 STEP
 0 FILE 6951 - Spaceship.ldr
 0 Grey hinged-wing spacecraft with grille-patterned bricks, a steering column, and twin angled wings.
 0 Name: 6951 - Spaceship.ldr
@@ -745,6 +755,7 @@
 0 STEP
 1 4 0 -56 -20 1 0 0 0 1 0 0 0 1 6951 - Red minifig.ldr
 
+0 STEP
 0 FILE 6951 - Yellow minifig.ldr
 0 Yellow classic-space minifig with airtanks, a grinning head, and a classic space helmet.
 0 Name: 6951 - Yellow minifig.ldr
@@ -775,6 +786,7 @@
 0 // Minifig Hand (yellow)
 1 14 20.6285 -43.9854 -13.3189 0.9855 0.1641 0.044 -0.1699 0.9519 0.2551 0 -0.2588 0.9659 3820.dat
 
+0 STEP
 0 FILE 6951 - Red minifig.ldr
 0 Red classic-space minifig with airtanks, a yellow grinning head, and a classic space helmet.
 0 Name: 6951 - Red minifig.ldr
@@ -805,6 +817,7 @@
 0 // Minifig Hand (red)
 1 4 22.4195 -33.5965 -10.0236 0.9855 0.1641 -0.0439 -0.1699 0.9519 -0.255 0 0.2588 0.9659 3820.dat
 
+0 STEP
 0 FILE 6951 - Black minifig.ldr
 0 Black classic-space minifig with airtanks, a yellow grinning head, and a classic space helmet.
 0 Name: 6951 - Black minifig.ldr

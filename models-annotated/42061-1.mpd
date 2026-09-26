@@ -225,6 +225,7 @@
 1 0 -89.969 -62 1.753 -0.035 0.001 -0.999 -0.015 -1 0 -0.999 0.015 0.035 56145.dat
 0 // Tyre 20/ 48 x 30 (rubber_black)
 1 256 -89.969 -62 1.753 -0.035 0.001 -0.999 -0.015 -1 0 -0.999 0.015 0.035 15413.dat
+0 STEP
 0 FILE 42061 - axle.ldr
 0 Wheel axle assembly with towball pins, cross blocks, and stop axles for mounting wheels.
 0 Name: 42061 - axle.ldr
@@ -257,6 +258,7 @@
 0 STEP
 0 // Technic Beam  7 (dark_bluish_grey)
 1 72 -1.405 0 -39.975 0 0 1 0 1 0 -1 0 0 32524.dat
+0 STEP
 0 FILE 42061 - arm.ldr
 0 Telescopic boom arm with gear rack, linear actuator, bevel gears, and bent liftarms for lifting and extending.
 0 Name: 42061 - arm.ldr
@@ -347,6 +349,7 @@
 1 4 20 148 -96 0 -1 0 1 0 0 0 0 1 32278.dat
 0 // Technic Axle  3 (light_bluish_grey)
 1 71 -20 148 -256 1 0 0 0 0 -1 0 1 0 4519.dat
+0 STEP
 0 FILE 42061 - side1.ldr
 0 Left side frame using bent liftarms, pins, and a trans-red round light element.
 0 Name: 42061 - side1.ldr
@@ -383,6 +386,7 @@
 1 72 60 48 -196 -1 0 0 0 0 1 0 1 0 11214.dat
 0 // Technic Beam  1 (dark_bluish_grey)
 1 72 60 48 -196 0 1 0 0 0 1 1 0 0 18654.dat
+0 STEP
 0 FILE 42061 - sidepanel.ldr
 0 Red fairing side panel built from a smooth panel, bent liftarm, angle connector, and notched axles.
 0 Name: 42061 - sidepanel.ldr
@@ -416,6 +420,7 @@
 1 0 40 -40 20 -1 0 0 0 0 -1 0 -1 0 32192.dat
 0 // Technic Pin with Friction and Slots (black)
 1 0 0 30 20 0 0 1 -1 0 0 0 -1 0 2780.dat
+0 STEP
 0 FILE 42061 - extension.ldr
 0 Extendable boom tip with gear rack, worm gear drive, small gear, and an excavator bucket at the end.
 0 Name: 42061 - extension.ldr
@@ -469,6 +474,7 @@
 1 0 40 40 -130 0 -1 0 0.207 0 0.978 -0.978 0 0.207 42061 - 33299b.dat
 0 // Technic Beam  2 x  4 Liftarm Bent 90 (dark_bluish_grey)
 1 72 20 120 -170 0 1 0 -0.928 0 -0.372 -0.372 0 0.928 32140.dat
+0 STEP
 0 FILE 42061 - cabin.ldr
 0 Operator cabin structure with bent quarter-ellipse liftarms, a steering wheel, and a trans-orange light.
 0 Name: 42061 - cabin.ldr
@@ -559,6 +565,7 @@
 1 0 -5 -90 20 0 0 -1 -1 0 0 0 1 0 2780.dat
 0 // Technic Beam  5 (black)
 1 0 35 -80 20 0 0 -1 0 1 0 1 0 0 32316.dat
+0 STEP
 0 FILE 42061 - side2.ldr
 0 Right side frame mirroring side1 with bent liftarms, pins, and a trans-red round light element.
 0 Name: 42061 - side2.ldr
@@ -589,6 +596,7 @@
 1 72 -60 48 -96 0 -1 0 0 0 1 -1 0 0 18654.dat
 0 // Technic Pin with Friction and Slots (black)
 1 0 -10 48 -136 -1 0 0 0 -1 0 0 0 1 2780.dat
+0 STEP
 0 FILE 42061 - 24316.dat
 0 Primitive cylindrical part with axle, disc, and closed cylinder geometry.
 0 Name: 42061 - 24316.dat
@@ -611,6 +619,7 @@
 0 !LDCAD SNAP_CLEAR 
 0 !LDCAD SNAP_CYL [gender=M] [caps=none] [secs=R 8 2   A 6 58] [center=true] [slide=true]
 0 !LDCAD MIRROR_INFO [baseFlip=Z] [counterPart=self]
+0 STEP
 0 FILE 42061 - 32523p01.dat
 0 Patterned Technic liftarm subpart with beam holes, connector hole, and printed detailing.
 0 Name: 42061 - 32523p01.dat
@@ -1136,6 +1145,7 @@
 4 16 9 -6.1 11.9 9 -5.35 10.7 9 -5.5 12.35 9 -6.4 13.3
 3 16 9 -6.4 13.3 9 -5.5 12.35 9 -5.85 13.25
 4 16 9 7.9 10.4 9 8.55 10.1 9 8.55 11.55 9 7.35 10.75
+0 STEP
 0 FILE 42061 - 27938.dat
 0 Primitive Technic axle-hole ring cylinder component.
 0 Name: 42061 - 27938.dat
@@ -1804,6 +1814,7 @@
 5 24 15.5295 -9.0425 -7.2 17.375 -4.587 -4.8 14.2969 -10.887 -5.3 17.8078 -2.4112 -6.7
 5 24 17.8078 -2.4112 -6.7 17.375 -4.587 -4.8 15.5295 -9.0425 -7.2 17.8078 2.4113 -4.3
 5 24 17.8078 -2.4112 -6.7 17.8078 2.4113 -4.3 17.375 -4.587 -4.8 17.375 4.5871 -6.2
+0 STEP
 0 FILE 42061 - 27940.dat
 0 Primitive multi-cylinder connector part with sloped cylinders and axle stubs.
 0 Name: 42061 - 27940.dat
@@ -1865,6 +1876,7 @@
 0 !LDCAD SNAP_CLEAR [ID=axle]
 0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=A 6 20]
 0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=A 6 20]
+0 STEP
 0 FILE 42061 - 33299b.dat
 0 Primitive Technic axle-hole bushing part with rings and a half-disc.
 0 Name: 42061 - 33299b.dat
@@ -1901,6 +1913,7 @@
 3 16 8 10 36.661999 7.391 10 36.938 8 10 40
 4 16 6.36 10 33.637001 3.444 10 31.684999 3.062 10 32.609001 5.657 10 34.342999
 4 16 3.444 10 31.684999 0 10 31 0 10 32 3.062 10 32.609001
+0 STEP
 0 FILE 42061 - 28216.dat
 0 Primitive Technic beam connector with multiple connector holes, peg holes, and rectangular geometry.
 0 Name: 42061 - 28216.dat
@@ -1980,6 +1993,7 @@
 1 16 12 0 -49.5 0 -24 0 25.0316 0 -25.0316 25.0316 0 25.0316 48\1-4cyli.dat
 1 16 10 0 -49.5 0 -20 0 23.9319 0 -31.1887 31.1887 0 23.9319 48\5-48cyli.dat
 5 24 -12 -25.032 -24.468 12 -25.032 -24.468 0 -52.374001 -55.351002 12 -21.549999 -21.417
+0 STEP
 0 FILE 42061 - 16091.dat
 0 Primitive car steering wheel part with a rectangular rim detail.
 0 Name: 42061 - 16091.dat
@@ -2028,6 +2042,7 @@
 2 24 -1.375 1.599 7.866 -1.044 1.543 7.932
 2 24 -1.375 -3.5 13.858 -1.375 -3.5 7.866
 3 16 -1.375 -3.5 7.866 -1.375 -3.5 13.858 -1.375 1.599 7.866
+0 STEP
 0 FILE s\42061 - 33299s01.dat
 0 Geometric subpart for the 33299 piece defining its cylinders, rings, and circular surfaces.
 0 Name: s\42061 - 33299s01.dat
@@ -2297,6 +2312,7 @@
 4 16 4.9497 0 35.050201 6 0 36.661999 6 10 36.661999 4.9497 10 35.050301
 5 24 -4.9498 0 35.050098 -4.9498 10 35.050098 -6 0 36.661999 -2.6788 0 33.5327
 5 24 4.9497 10 35.050301 4.9498 0 35.050201 6 0 36.661999 2.6788 10 33.5327
+0 STEP
 0 FILE 42061 - logo.dat
 0 LEGO logo decal composed of the four letters L, E, G, and O.
 0 Name: 42061 - logo.dat
@@ -2339,6 +2355,7 @@
 2 24 2 0 2.5 2 0 3.5
 2 24 2 0 3.5 1.5 0 4
 2 24 1.5 0 4 -1.5 0 4.75
+0 STEP
 0 FILE s\42061 - 28216s01.dat
 0 Geometric subpart for the 28216 piece defining rectangles and cylinders.
 0 Name: s\42061 - 28216s01.dat
@@ -2726,6 +2743,7 @@
 5 24 93 22.524099 -20.146799 93 18.5007 -17.4564 96 18.5007 -17.4564 10 19.6563 -15.4554
 5 24 93 26.1646 -23.335501 93 22.524099 -20.146799 96 22.524099 -20.146799 10 23.9335 -18.3095
 5 24 93 29.3538 -26.976 93 26.1646 -23.335501 96 26.1646 -23.335501 10 27.797899 -21.702101
+0 STEP
 0 FILE 48\42061 - 3-8con16.dat
 0 Primitive 48-segment 3/8 cone curve geometry.
 0 Name: 48\42061 - 3-8con16.dat
@@ -2774,6 +2792,7 @@
 5 24 -9.7408 1 12.6944 -10.3496 0 13.4878 -8 1 13.856 -11.3136 1 11.3136
 5 24 -11.3136 1 11.3136 -12.0207 0 12.0207 -9.7408 1 12.6944 -12.8032 1 9.824
 0 // Build by LDPartEditor (PrimGen 2.X)
+0 STEP
 0 FILE 48\42061 - 3-8con14.dat
 0 Primitive 48-segment 3/8 cone curve geometry.
 0 Name: 48\42061 - 3-8con14.dat
@@ -2822,6 +2841,7 @@
 5 24 -8.5232 1 11.1076 -9.132 0 11.901 -7 1 12.124 -9.8994 1 9.8994
 5 24 -9.8994 1 9.8994 -10.6065 0 10.6065 -8.5232 1 11.1076 -11.2028 1 8.596
 0 // Build by LDPartEditor (PrimGen 2.X)
+0 STEP
 0 FILE s\42061 - 28216s02.dat
 0 Geometric subpart for the 28216 piece defining rectangular surface detail.
 0 Name: s\42061 - 28216s02.dat
@@ -2905,6 +2925,7 @@
 5 24 5.064 34.713001 -113.094002 5.064 34.713001 -91.094002 4.1 32.950001 -96 5.5 37 -106.991997
 5 24 -5.5 37 -106.991997 -5.064 34.713001 -113.094002 -5.064 34.713001 -91.094002 -4.5 37 -121
 5 24 5.5 37 -106.991997 5.064 34.713001 -113.094002 4.5 37 -121 5.064 34.713001 -91.094002
+0 STEP
 0 FILE 48\42061 - 1-12ring12.dat
 0 Primitive 48-segment 1/12 ring geometry.
 0 Name: 48\42061 - 1-12ring12.dat

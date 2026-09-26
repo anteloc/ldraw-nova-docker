@@ -924,6 +924,7 @@
 1 16 20 0 -640 1 0 0 0 1 0 0 0 1 8110 - crane.ldr
 0 STEP
 1 16 20 -20 540 1 0 0 0 1 0 0 0 1 8110 - winch.ldr
+0 STEP
 0 FILE 8110 - powerFuncMotorM-1.ldr
 0 Power Functions medium motor with PF connector and routed flexible cabling.
 0 Name: 8110 - powerFuncMotorM-1.ldr
@@ -970,6 +971,7 @@
 0 //  To ensure correct edge colors those segments are placed in (a) subpart(s).
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 8110 - powerFuncMotorM-1_subPart1.ldr
 
+0 STEP
 0 FILE 8110 - powerFuncMotorM-1_subPart1.ldr
 0 Flexible routing subpart containing cable path geometry segments.
 0 Name: 8110 - powerFuncMotorM-1_subPart1.ldr
@@ -1165,6 +1167,7 @@
 1 16 -12.626637 318.979113 50.03839 -0.131253 -3.8798 0.208423 0.990258 -0.473644 0.073416 -0.046494 0.864789 0.97528 u9190.dat
 1 16 -10.608507 319.024396 49.955436 -0.057872 -3.977363 0.097378 0.99779 -0.217674 0.038182 -0.032641 0.3978 0.994515 u9190.dat
 1 16 -8.800043 319.022404 49.959041 -0.019215 -4.000103 0.033796 0.999685 -0.074686 0.016761 -0.016118 0.136538 0.999288 u9190.dat
+0 STEP
 0 FILE 8110 - pneumaticHoseLQ-1.ldr
 0 Short pneumatic tube hose with bulged ends spanning approximately 112mm.
 0 Name: 8110 - pneumaticHoseLQ-1.ldr
@@ -1284,6 +1287,7 @@
 1 16 233.893132 101.27678 -20 0 -1.050028 0.964974 0 3.86227 0.262346 -1 0 0 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 234.052983 98.386313 -20 0 -0.344275 0.996294 0 3.987626 0.086016 -1 0 0 166.dat
+0 STEP
 0 FILE 8110 - pneumaticHoseLQ-2.ldr
 0 Medium-length pneumatic tube hose with bulged ends spanning approximately 164mm.
 0 Name: 8110 - pneumaticHoseLQ-2.ldr
@@ -1497,6 +1501,7 @@
 1 16 11.054733 49.954389 -304.595326 0.004549 0.416292 0.994541 0.996209 -0.34691 0.004549 0.086874 3.956335 -0.104248 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 10.979965 50.016696 -307.542423 0.000567 0.147324 0.999319 0.999527 -0.12277 0.000567 0.030744 3.988666 -0.036893 166.dat
+0 STEP
 0 FILE 8110 - pneumaticHoseLQ-3.ldr
 0 Long pneumatic tube hose with bulged ends spanning approximately 290mm.
 0 Name: 8110 - pneumaticHoseLQ-3.ldr
@@ -1738,6 +1743,7 @@
 1 16 11 30.011804 664.855739 0 0 1 -0.999522 0.123653 0 -0.030902 -3.999575 0 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 11 29.993005 667.678984 0 0 1 -0.999947 0.041224 0 -0.010302 -4.001273 0 166.dat
+0 STEP
 0 FILE 8110 - pneumaticHoseLQ-4.ldr
 0 Very short pneumatic tube hose with bulged ends spanning approximately 32mm.
 0 Name: 8110 - pneumaticHoseLQ-4.ldr
@@ -1828,6 +1834,7 @@
 1 16 13.004704 -6.43816 64.051693 0.990924 0.515154 -0.044163 0.134364 -3.835198 0.297594 -0.003959 -1.220636 -0.95367 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 12.358015 -3.641244 64.182404 0.97723 0.860198 -0.00893 0.212004 -3.951252 0.082367 0.008765 -0.334284 -0.996562 166.dat
+0 STEP
 0 FILE 8110 - pneumaticHoseLQ-5.ldr
 0 Medium pneumatic tube hose with bulged ends spanning approximately 166mm.
 0 Name: 8110 - pneumaticHoseLQ-5.ldr
@@ -2064,6 +2071,7 @@
 1 16 -75.849315 202.340857 -194.591234 0.118691 3.977591 0.024531 0.8452 -0.352768 -0.52715 -0.521104 0.333801 -0.849418 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 -78.607435 202.631545 -194.614296 0.095403 3.985325 -0.04186 0.818302 -0.409937 -0.565611 -0.566816 0.078967 -0.823609 166.dat
+0 STEP
 0 FILE 8110 - pneumaticHoseLQ-6.ldr
 0 Long pneumatic tube hose with bulged ends spanning approximately 201mm.
 0 Name: 8110 - pneumaticHoseLQ-6.ldr
@@ -2372,6 +2380,7 @@
 1 16 -77.470179 280.84291 -181.397103 0.0481 4.002951 0.000503 0.796644 -0.152525 -0.603249 -0.602532 0.117893 -0.797553 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 -80.338879 281.118155 -181.404014 0.073458 3.992282 -0.047209 0.796358 -0.349009 -0.598523 -0.600348 0.025532 -0.799714 166.dat
+0 STEP
 0 FILE 8110 - pneumaticHoseLQ-7.ldr
 0 Long pneumatic tube hose with bulged ends spanning approximately 354mm.
 0 Name: 8110 - pneumaticHoseLQ-7.ldr
@@ -2880,6 +2889,7 @@
 1 16 -414.687349 132.513893 -306.614866 0.646668 2.091471 -0.555365 -0.088063 3.097586 0.626542 0.757671 -1.425029 0.546823 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 -416.218939 130.323521 -305.349956 0.672482 2.075503 -0.527765 -0.054583 2.983658 0.663801 0.738098 -1.67035 0.529936 166.dat
+0 STEP
 0 FILE 8110 - pneumaticHoseLQ-8.ldr
 0 Long pneumatic tube hose with bulged ends spanning approximately 390mm.
 0 Name: 8110 - pneumaticHoseLQ-8.ldr
@@ -3399,6 +3409,7 @@
 1 16 -399.813385 -339.927569 -213.541129 0.681661 1.876059 -0.561716 0.731037 -1.618844 0.549467 0.030364 -3.141901 -0.618515 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 -401.222787 -338.718756 -211.493045 0.683141 2.015593 -0.528764 0.729272 -1.730227 0.530278 0.038471 -2.992574 -0.662732 166.dat
+0 STEP
 0 FILE 8110 - pneumaticHoseLQ-9.ldr
 0 Very long pneumatic tube hose with bulged ends spanning approximately 642mm.
 0 Name: 8110 - pneumaticHoseLQ-9.ldr
@@ -4139,6 +4150,7 @@
 1 16 -297.083586 144.838344 528.843015 -0.537446 -0.373523 -0.838117 -0.826317 -0.560875 0.545488 -0.168381 3.944683 -0.001801 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 -297.049532 144.887843 526.074808 -0.563637 -0.098934 -0.825653 -0.82484 -0.146551 0.564179 -0.044184 3.997919 0.000249 166.dat
+0 STEP
 0 FILE 8110 - pneumaticHoseLQ-10.ldr
 0 Very long pneumatic tube hose with bulged ends spanning approximately 645mm.
 0 Name: 8110 - pneumaticHoseLQ-10.ldr
@@ -4861,6 +4873,7 @@
 1 16 -279.067945 182.221778 528.938291 0.829882 -0.242297 -0.554645 -0.557221 -0.561695 -0.81842 -0.028292 3.955552 -0.150192 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 -279.042657 182.280229 526.122461 0.824477 -0.067094 -0.565647 -0.565837 -0.15533 -0.823604 -0.008146 3.998996 -0.041481 166.dat
+0 STEP
 0 FILE 8110 - pneumaticHoseLQ-11.ldr
 0 Short pneumatic tube hose with bulged ends spanning approximately 51mm.
 0 Name: 8110 - pneumaticHoseLQ-11.ldr
@@ -4983,6 +4996,7 @@
 1 16 -27.387803 24.963358 65.109337 0.01051 3.981679 -0.073374 -0.076218 0.295311 0.994344 0.997036 -0.019398 0.076785 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 -30.22866 24.406254 65.101046 0.012197 3.93103 -0.174602 -0.078412 0.698793 0.981438 0.996846 0.006867 0.079336 166.dat
+0 STEP
 0 FILE 8110 - pneumaticHoseLQ-12.ldr
 0 Pneumatic tube hose assembly with embedded LDraw part metadata and credit headers.
 0 Name: 8110 - pneumaticHoseLQ-12.ldr
@@ -8589,6 +8603,7 @@
 5 24 12.02577 2.8769 -1.400075 9.776233 3.35125 -1.438001 12.190988 3.559879 -2.336226 11.954312 2.595008 -0.266195
 5 24 12.190988 3.559879 -2.336226 9.952347 4.02499 -2.37885 12.424749 4.539708 -2.932405 12.02577 2.8769 -1.400075
 5 24 12.424749 4.539708 -2.932405 10.16946 5.003945 -2.982709 12.691524 5.667454 -3.097551 12.190988 3.559879 -2.336226
+0 STEP
 0 FILE 8110 - pneumaticHoseLQ-13.ldr
 0 Short pneumatic tube hose with bulged ends spanning approximately 72mm.
 0 Name: 8110 - pneumaticHoseLQ-13.ldr
@@ -8748,6 +8763,7 @@
 1 16 35.415679 40.87522 -50.95159 -0.093913 -3.765323 -0.336154 -0.017228 -1.350315 0.941681 -0.995431 0.378606 0.015416 166.dat
 0 // ~Technic Pneumatic Tube Segment (main_colour)
 1 16 38.196995 41.988986 -51.017028 -0.032 -3.735743 -0.366796 -0.006206 -1.473771 0.930282 -0.999469 0.128757 0.005967 166.dat
+0 STEP
 0 FILE 8110 - ropeLQ-1.ldr
 0 Flexible rope modeled as a cylinder path spanning approximately 181mm.
 0 Name: 8110 - ropeLQ-1.ldr
@@ -9044,6 +9060,7 @@
 1 16 -0.25462 72.371264 2.001186 0.939131 -1.256358 0.138893 0.310502 3.795633 0.048333 -0.147045 -0.009052 0.989127 4-4cyli.dat
 0 // Cylinder 1.0 (main_colour)
 1 16 -0.425327 60.512681 2.000003 1 -0.001033 0 0.00008 12.992674 0.000004 0 -0.000056 1 4-4cyli.dat
+0 STEP
 0 FILE 8110 - motor.ldr
 0 Power Functions medium motor mounted with gears, axles, beams, and pins for drive transmission.
 0 Name: 8110 - motor.ldr
@@ -9085,6 +9102,7 @@
 1 71 100 0 -80 0 0 -1 0 1 0 1 0 0 60485.dat
 0 // Technic Pin Long with Stop Bush (black)
 1 0 100 0 -180 0 0 1 0 1 0 -1 0 0 32054.dat
+0 STEP
 0 FILE 8110 - subModel-1.ldr
 0 Small Technic liftarm and beam linkage assembly joined with pins and a bent connector.
 0 Name: 8110 - subModel-1.ldr
@@ -9114,6 +9132,7 @@
 0 STEP
 0 // Technic Axle Pin (blue)
 1 1 80 0 -70 0 0 -1 0 1 0 1 0 0 3749.dat
+0 STEP
 0 FILE 8110 - subModel-2.ldr
 0 Drivetrain subassembly with universal joints, axles, clutch gears, and reinforced gears for power transmission.
 0 Name: 8110 - subModel-2.ldr
@@ -9194,6 +9213,7 @@
 1 4 0 -80 -90 0 -1 0 -1 0 0 0 0 -1 3713.dat
 0 // Technic Pin (black)
 1 0 0 -20 -80 0 -1 0 0 0 -1 1 0 0 3673.dat
+0 STEP
 0 FILE 8110 - subModel-3.ldr
 0 Compact Technic beam linkage assembly joined with friction and half-pins.
 0 Name: 8110 - subModel-3.ldr
@@ -9226,6 +9246,7 @@
 1 0 -80 0 30 0 0 -1 0 1 0 1 0 0 3673.dat
 0 // Technic Beam  5 x  0.5 (light_bluish_grey)
 1 71 0 0 35 0 0 -1 -1 0 0 0 1 0 32017.dat
+0 STEP
 0 FILE 8110 - gearBox-1.ldr
 0 Gearbox stage with transmission driving rings, clutch gears, and axles for gear selection.
 0 Name: 8110 - gearBox-1.ldr
@@ -9257,6 +9278,7 @@
 1 72 0 0 110 -1 0 0 0 1 0 0 0 -1 6542a.dat
 0 // Technic Gear 16 Tooth Reinforced (light_bluish_grey)
 1 71 0 0 130 -1 0 0 0 1 0 0 0 -1 94925.dat
+0 STEP
 0 FILE 8110 - gearBox-2.ldr
 0 Gearbox stage with transmission driving rings, clutch gears, and extension sleeves on axles.
 0 Name: 8110 - gearBox-2.ldr
@@ -9288,6 +9310,7 @@
 1 71 0 0 -10 1 0 0 0 1 0 0 0 1 32187.dat
 0 // Technic Gear 16 Tooth with Clutch (dark_bluish_grey)
 1 72 0 0 -30 1 0 0 0 1 0 0 0 1 6542a.dat
+0 STEP
 0 FILE 8110 - gearBox-3.ldr
 0 Gearbox frame using beams, pins, bushings, and a reinforced gear on a stopped axle.
 0 Name: 8110 - gearBox-3.ldr
@@ -9326,6 +9349,7 @@
 1 14 80 0 -55 1 0 0 0 1 0 0 0 1 32123b.dat
 0 // Technic Bush 1/2 Smooth with Axle Hole Semi-Reduced (yellow)
 1 14 80 0 -65 1 0 0 0 1 0 0 0 1 32123b.dat
+0 STEP
 0 FILE 8110 - axleRear.ldr
 0 Rear axle assembly with differential, bevel gears, universal joint supports, ball joint frame, and structural liftarms.
 0 Name: 8110 - axleRear.ldr
@@ -9497,6 +9521,7 @@
 1 1 60 -40 -240 0 -1 0 1 0 0 0 0 1 32556.dat
 0 // Technic Pin Towball with Friction (black)
 1 0 50 -60 -270 0 0 -1 0 1 0 1 0 0 6628.dat
+0 STEP
 0 FILE 8110 - rearHub.ldr
 0 Rear wheel hub assembly with steering portal axle frame, gears, and liftarms forming a driven axle mounting.
 0 Name: 8110 - rearHub.ldr
@@ -9555,6 +9580,7 @@
 1 0 -40 20 25 1 0 0 0 0 1 0 -1 0 6632.dat
 0 // Technic Beam  3 x  0.5 Liftarm (black)
 1 0 -40 20 35 1 0 0 0 0 1 0 -1 0 6632.dat
+0 STEP
 0 FILE 8110 - shock-09_5L-extraHard-1.ldr
 0 Extra-hard 9L pneumatic shock absorber with cylinder, piston rod, and compressed spring.
 0 Name: 8110 - shock-09_5L-extraHard-1.ldr
@@ -9598,6 +9624,7 @@
 0 //Spring mesh reference
 1 494 0 40 0 1 0 0 0 1 -0.000719 0 0.000719 1 8110 - shock-09_5L-extraHard-1_springMesh.ldr
 
+0 STEP
 0 FILE 8110 - shock-09_5L-extraHard-1_springMesh.ldr
 0 Spring mesh model defining the coiled wire geometry for the extra-hard 9L shock absorber.
 0 Name: 8110 - shock-09_5L-extraHard-1_springMesh.ldr
@@ -13120,6 +13147,7 @@
 3 16 -11 85.593445 0.029112 -10.292893 85.886215 0.020585 -11 86.600304 0.249894
 2 24 -11 85.593445 0.029112 -10.292893 85.886215 0.020585
 5 24 -11 86.600304 0.249894 -10.292893 85.886215 0.020585 -11 85.593445 0.029112 -10 86.593025 0
+0 STEP
 0 FILE 8110 - subModel-4.ldr
 0 Compact structural linkage built from a 13-stud beam, long pins, and a cross block connector.
 0 Name: 8110 - subModel-4.ldr
@@ -13154,6 +13182,7 @@
 1 71 20 -20 120 0 0 -1 0 1 0 1 0 0 4519.dat
 0 // Technic Bush with Two Flanges (red)
 1 4 20 -20 140 -1 0 0 0 1 0 0 0 -1 3713.dat
+0 STEP
 0 FILE 8110 - subModel-5.ldr
 0 Bracing assembly using a 9-stud beam with cross blocks and pins for structural support.
 0 Name: 8110 - subModel-5.ldr
@@ -13182,6 +13211,7 @@
 1 1 10 -40 0 1 0 0 0 1 0 0 0 1 3749.dat
 0 // Technic Cross Block 1 x 3 (Axle/Pin/Axle) (red)
 1 4 20 -60 0 -1 0 0 0 1 0 0 0 -1 32184.dat
+0 STEP
 0 FILE 8110 - subModel-6.ldr
 0 Gear-driven structural subassembly with a 13-stud beam, bent liftarms, axles, and a 16-tooth reinforced gear.
 0 Name: 8110 - subModel-6.ldr
@@ -13256,6 +13286,7 @@
 1 0 60 40 140 0 -1 0 1 0 0 0 0 1 32526.dat
 0 // Technic Pin (black)
 1 0 70 60 220 1 0 0 0 1 0 0 0 1 3673.dat
+0 STEP
 0 FILE 8110 - valve-1.ldr
 0 Pneumatic control valve assembly with a bent liftarm lever, angle connector, and axle linkage for actuation.
 0 Name: 8110 - valve-1.ldr
@@ -13280,6 +13311,7 @@
 1 4 0 39 -20 1 0 0 0 1 0 0 0 1 32054.dat
 0 // Technic Axle Joiner Inline Smooth (red)
 1 4 -79 -1 0 0 0 1 0 1 0 -1 0 0 59443.dat
+0 STEP
 0 FILE 8110 - fenderRearRight.ldr
 0 Right rear fender built from a 7-stud beam and bent liftarms mounted via cross blocks and connectors.
 0 Name: 8110 - fenderRearRight.ldr
@@ -13320,6 +13352,7 @@
 1 0 -60 0 60 0 0 1 0 1 0 -1 0 0 32039.dat
 0 // Technic Cross Block 2 x 2 (Axle/Twin Pin) (black)
 1 0 -80 0 80 0 0 -1 0 1 0 1 0 0 32291.dat
+0 STEP
 0 FILE 8110 - fenderRearLeft.ldr
 0 Left rear fender built from a 7-stud beam and bent liftarms mounted via cross blocks and connectors.
 0 Name: 8110 - fenderRearLeft.ldr
@@ -13360,6 +13393,7 @@
 1 4 80 0 70 0 0 1 0 1 0 -1 0 0 32062.dat
 0 // Technic Cross Block 2 x 2 (Axle/Twin Pin) (black)
 1 0 80 0 80 0 0 1 0 1 0 -1 0 0 32291.dat
+0 STEP
 0 FILE 8110 - axleFront.ldr
 0 Front axle assembly with differential, bevel gears, universal joints, and open-center liftarm frame for steering and drive.
 0 Name: 8110 - axleFront.ldr
@@ -13700,6 +13734,7 @@
 0 // Technic Axle Pin (blue)
 1 1 60 -148.093 338.189 0 0.998 -0.068 0.108 0.068 0.992 0.994 -0.007 -0.108 3749.dat
 1 14 80.642 -155.583 349.067 0.998 -0.068 0 0.067 0.992 0.108 -0.007 -0.108 0.994 8110 - shock-09_5L-extraHard-2.ldr
+0 STEP
 0 FILE 8110 - shock-09_5L-extraHard-2.ldr
 0 Extra-hard 9L pneumatic shock absorber with cylinder, piston rod, and compressed spring.
 0 Name: 8110 - shock-09_5L-extraHard-2.ldr
@@ -13743,6 +13778,7 @@
 0 //Spring mesh reference
 1 494 0 40 0 1 -0.000501 0 0.000501 1 0 0 0 1 8110 - shock-09_5L-extraHard-2_springMesh.ldr
 
+0 STEP
 0 FILE 8110 - shock-09_5L-extraHard-2_springMesh.ldr
 0 Spring mesh model defining the coiled wire geometry for the second extra-hard 9L shock absorber.
 0 Name: 8110 - shock-09_5L-extraHard-2_springMesh.ldr
@@ -17265,6 +17301,7 @@
 3 16 -11 83.822433 0.029112 -10.292893 84.115204 0.020585 -11 84.829292 0.249894
 2 24 -11 83.822433 0.029112 -10.292893 84.115204 0.020585
 5 24 -11 84.829292 0.249894 -10.292893 84.115204 0.020585 -11 83.822433 0.029112 -10 84.822014 0
+0 STEP
 0 FILE 8110 - engine.ldr
 0 Inline engine assembly with cylinder heads, pistons, connecting rods, and crankshaft components.
 0 Name: 8110 - engine.ldr
@@ -17375,6 +17412,7 @@
 1 0 0 -20 -20 0 0 1 0 -1 0 1 0 0 3705.dat
 0 // Technic Gear 16 Tooth Reinforced (light_bluish_grey)
 1 71 0 -20 -40 -1 0 0 0 -1 0 0 0 1 94925.dat
+0 STEP
 0 FILE 8110 - subModel-7.ldr
 0 Long structural bracing subassembly combining 15- and 11-stud beams joined by pins.
 0 Name: 8110 - subModel-7.ldr
@@ -17400,6 +17438,7 @@
 1 1 0 0 140 -1 0 0 0 1 0 0 0 -1 32556.dat
 0 // Technic Pin Long without Friction with Single Slot (blue)
 1 1 0 0 20 -1 0 0 0 1 0 0 0 -1 32556.dat
+0 STEP
 0 FILE 8110 - subModel-8.ldr
 0 Complex drive subassembly with CV joint, wheel spindle, towball, gears, and bent liftarm framing.
 0 Name: 8110 - subModel-8.ldr
@@ -17508,6 +17547,7 @@
 1 0 60 -40 -260 0 1 0 1 0 0 0 0 -1 32526.dat
 0 // Technic Axle Pin (blue)
 1 1 70 0 -340 1 0 0 0 1 0 0 0 1 3749.dat
+0 STEP
 0 FILE 8110 - subModel-9.ldr
 0 Long structural bracing subassembly combining 15- and 11-stud beams joined by pins.
 0 Name: 8110 - subModel-9.ldr
@@ -17533,6 +17573,7 @@
 1 1 0 0 140 1 0 0 0 1 0 0 0 1 32556.dat
 0 // Technic Pin Long without Friction with Single Slot (blue)
 1 1 0 0 20 1 0 0 0 1 0 0 0 1 32556.dat
+0 STEP
 0 FILE 8110 - frontLightLeft.ldr
 0 Left front light housing with transparent plates, bent liftarms, and red-and-white diagonal stripe sticker.
 0 Name: 8110 - frontLightLeft.ldr
@@ -17576,6 +17617,7 @@
 1 47 -85.366 -20 -11.024 -0.924 0.383 0 0 0 -1 -0.383 -0.924 0 3023.dat
 0 // Plate  1 x  2 (light_bluish_grey)
 1 71 -91.543 -30 -22.242 0 0.383 -0.924 1 0 0 0 -0.924 -0.383 3023.dat
+0 STEP
 0 FILE 8110 - frontBumperLeft.ldr
 0 Left front bumper segment built from liftarms, angle connectors, and notched axles.
 0 Name: 8110 - frontBumperLeft.ldr
@@ -17622,6 +17664,7 @@
 0 STEP
 0 // Technic Angle Connector #3 (157.5 degree) (black)
 1 0 55.432 -100 22.961 0 -0.383 0.924 1 0 0 0 0.924 0.383 32016.dat
+0 STEP
 0 FILE 8110 - frontLightRight.ldr
 0 Right front light housing with transparent plates, bent liftarms, angle connectors, and diagonal stripe sticker.
 0 Name: 8110 - frontLightRight.ldr
@@ -17702,6 +17745,7 @@
 1 0 115.433 -60 -22.961 -0.383 0.924 0 0 0 -1 -0.924 -0.383 0 32014.dat
 0 // Technic Axle  2 Notched (red)
 1 4 87.717 -60 -11.481 -0.924 0 -0.383 0 1 0 0.383 0 -0.924 32062.dat
+0 STEP
 0 FILE 8110 - frontBumper.ldr
 0 Front bumper bar made of plates, tiles, and sloped technic bricks mounted on pin-connected bricks.
 0 Name: 8110 - frontBumper.ldr
@@ -17731,6 +17775,7 @@
 1 0 90 -72 0 0 0 1 0 1 0 -1 0 0 60481.dat
 0 // Slope Brick 65  2 x  1 x  2 with Symmetric Stud Holder (black)
 1 0 -90 -72 0 0 0 -1 0 1 0 1 0 0 60481.dat
+0 STEP
 0 FILE 8110 - rearBumper.ldr
 0 Rear bumper with a long technic brick, tiled surface, and Mercedes-Benz badged stickers with light elements.
 0 Name: 8110 - rearBumper.ldr
@@ -17771,6 +17816,7 @@
 1 36 170 -20 -8 -1 0 0 0 0 1 0 1 0 6141.dat
 0 // Plate  1 x  1 Round (trans_orange)
 1 57 190 -20 -8 -1 0 0 0 0 1 0 1 0 6141.dat
+0 STEP
 0 FILE 8110 - cab.ldr
 0 Truck cab structure built from numerous beams, liftarms, pins, and angle connectors forming the body frame.
 0 Name: 8110 - cab.ldr
@@ -18132,6 +18178,7 @@
 1 16 -200 0 -160 1 0 0 0 1 0 0 0 1 8110 - fenderFrontLeft.ldr
 0 STEP
 1 16 200 0 -160 1 0 0 0 1 0 0 0 1 8110 - fenderFrontRight.ldr
+0 STEP
 0 FILE 8110 - dumpBody.ldr
 0 Tilted dump truck bed formed from large body panels, bent beams, and diagonal warning-stripe stickers.
 0 Name: 8110 - dumpBody.ldr
@@ -18216,6 +18263,7 @@
 1 16 -180 40 240 1 0 0 0 1 0 0 0 1 8110 - dumpBodyFace.ldr
 0 STEP
 1 16 -180 40 -240 -1 0 0 0 1 0 0 0 -1 8110 - dumpBodyFace.ldr
+0 STEP
 0 FILE 8110 - crane.ldr
 0 Articulated crane boom made of red liftarms, gears, axles, and pin joints for folding extension.
 0 Name: 8110 - crane.ldr
@@ -18369,6 +18417,7 @@
 0 STEP
 0 // Technic Bush with Two Flanges (light_bluish_grey)
 1 71 80 -160 -40 -1 0 0 0 0 1 0 1 0 3713.dat
+0 STEP
 0 FILE 8110 - winch.ldr
 0 Worm-gear winch mechanism with drive axles, gears, and bracing liftarms for cable operation.
 0 Name: 8110 - winch.ldr
@@ -18476,6 +18525,7 @@
 0 // Hook with Towball (dark_bluish_grey)
 1 72 -10 28 72 0 0 -1 0 1 0 1 0 0 30395.dat
 1 256 -4.957 -60.128 72.425 0 0 -1 0 1 0 1 0 0 8110 - ropeLQ-1.ldr
+0 STEP
 0 FILE 8110 - subModel-10.ldr
 0 Orange Technic beam assembly with gears, axles, and angle connectors forming a small geared mechanism.
 0 Name: 8110 - subModel-10.ldr
@@ -18574,6 +18624,7 @@
 1 0 -110 180 40 -1 0 0 0 0 -1 0 -1 0 3673.dat
 0 // Technic Pin Long without Friction with Single Slot (blue)
 1 1 -100 180 0 1 0 0 0 0 1 0 -1 0 32556.dat
+0 STEP
 0 FILE 8110 - subModel-11.ldr
 0 Compact linkage of angle connectors, axle pins, and axles forming a short articulated joint.
 0 Name: 8110 - subModel-11.ldr
@@ -18602,6 +18653,7 @@
 1 0 -40 0.436 9.99 0 -1 0 -0.044 0 0.999 -0.999 0 -0.044 3673.dat
 0 // Technic Pin (black)
 1 0 40 0.436 9.99 0 -1 0 -0.044 0 0.999 -0.999 0 -0.044 3673.dat
+0 STEP
 0 FILE 8110 - cabRight.ldr
 0 Right cab side panel featuring orange fairing panels with U400, BLUETEC 5, and turn indicator stickers.
 0 Name: 8110 - cabRight.ldr
@@ -18641,6 +18693,7 @@
 1 25 87.3 -12 0 0 -0.974 -0.225 0 0.225 -0.974 1 0 0 4622303n.dat
 0 // Sticker  0.75 x  1.75 Badge "BLUETEC 5" on Orange (orange)
 1 25 87.3 -11.978 -220 0 -0.974 -0.225 0 0.225 -0.974 1 0 0 4622303q.dat
+0 STEP
 0 FILE 8110 - seatRight.ldr
 0 Right seat assembly built from blue Technic beams, bent liftarms, and pins forming a contoured support frame.
 0 Name: 8110 - seatRight.ldr
@@ -18705,6 +18758,7 @@
 1 1 -40 -96.144 -47.5 0 1 0 -0.481 0 0.877 0.877 0 0.481 6629.dat
 0 // Technic Axle Pin (blue)
 1 1 -30 0 60 -1 0 0 0 0.99 -0.141 0 -0.141 -0.99 3749.dat
+0 STEP
 0 FILE 8110 - seatLeft.ldr
 0 Left seat assembly mirroring the right side, built from blue Technic beams and bent liftarms.
 0 Name: 8110 - seatLeft.ldr
@@ -18769,6 +18823,7 @@
 1 1 -40 -96.144 -47.5 0 1 0 -0.481 0 0.877 0.877 0 0.481 6629.dat
 0 // Technic Axle Pin (blue)
 1 1 -30 0 60 -1 0 0 0 0.99 -0.141 0 -0.141 -0.99 3749.dat
+0 STEP
 0 FILE 8110 - subModel-12.ldr
 0 Axle-and-brick assembly with joiners and blue liftarms forming a braced structural connector.
 0 Name: 8110 - subModel-12.ldr
@@ -18817,6 +18872,7 @@
 1 1 -223 0 0 0 -1 0 0.766 0 0.643 -0.643 0 0.766 41677.dat
 0 // Technic Pin Long with Stop Bush (black)
 1 0 -258 0 0 -1 0 0 0 0.766 -0.643 0 -0.643 -0.766 32054.dat
+0 STEP
 0 FILE 8110 - cabLeft.ldr
 0 Left cab side panel featuring orange fairing panels with U400, BLUETEC 5, and left turn indicator stickers.
 0 Name: 8110 - cabLeft.ldr
@@ -18856,6 +18912,7 @@
 1 25 -87.3 -12 0 0 0.974 0.225 0 0.225 -0.974 -1 0 0 4622303m.dat
 0 // Sticker  0.75 x  1.75 Badge "BLUETEC 5" on Orange (orange)
 1 25 -87.3 -12 -220 0 0.974 0.225 0 0.225 -0.974 -1 0 0 4622303q.dat
+0 STEP
 0 FILE 8110 - cabFront.ldr
 0 Cab front fascia built from black and orange plates, grille tiles, and curved slopes forming the grille and headlights.
 0 Name: 8110 - cabFront.ldr
@@ -19013,6 +19070,7 @@
 1 25 0 -24.152 10.128 1 0 0 0 1 0 0 0 1 4622303l.dat
 0 // Sticker  0.75 x  1.75 with Mercedes-Benz Logo (orange)
 1 25 0 -15.52 48.574 1 0 0 0 0.998 0.07 0 -0.07 0.998 4622303g.dat
+0 STEP
 0 FILE 8110 - cabRoof.ldr
 0 Cab roof structure using orange long beams, axles, and a large 5x11 panel spanning the top.
 0 Name: 8110 - cabRoof.ldr
@@ -19107,6 +19165,7 @@
 1 0 180 90 120 0 0 -1 1 0 0 0 -1 0 3707.dat
 0 // Technic Axle  8 (black)
 1 0 -180 90 120 0 0 -1 1 0 0 0 -1 0 3707.dat
+0 STEP
 0 FILE 8110 - subModel-13.ldr
 0 Orange beam 13 assembly with angle connectors and cross blocks forming an extendable support arm.
 0 Name: 8110 - subModel-13.ldr
@@ -19141,6 +19200,7 @@
 1 0 -60 77.499 20.041 0 0 -1 -0.969 -0.251 0 -0.251 0.969 0 32013.dat
 0 // Technic Pin (black)
 1 0 -60 67.812 17.536 0 0 -1 -0.969 -0.251 0 -0.251 0.969 0 3673.dat
+0 STEP
 0 FILE 8110 - subModel-14.ldr
 0 Orange beam 13 assembly mirroring subModel-13, with angle connectors forming a matching support arm.
 0 Name: 8110 - subModel-14.ldr
@@ -19175,6 +19235,7 @@
 1 0 60 77.321 20.717 0 0 1 -0.967 0.259 0 -0.259 -0.967 0 32013.dat
 0 // Technic Pin (black)
 1 0 60 67.656 18.127 0 0 1 -0.967 0.259 0 -0.259 -0.967 0 3673.dat
+0 STEP
 0 FILE 8110 - cabDashboard.ldr
 0 Dashboard built from black plates, tiles, and beams featuring UNIMOG and control panel stickers plus a steering wheel.
 0 Name: 8110 - cabDashboard.ldr
@@ -19230,6 +19291,7 @@
 0 STEP
 0 // Technic Steering Wheel Large (black)
 1 0 -100 -58 -49.984 -1 0 0 0 1 0 0 0 -1 2741.dat
+0 STEP
 0 FILE 8110 - mirrorLeft.ldr
 0 Left side mirror assembly using angle connectors, round plates, and a clear dish to form the reflective housing.
 0 Name: 8110 - mirrorLeft.ldr
@@ -19286,6 +19348,7 @@
 0 STEP
 0 // Dish  2 x  2 with Rim (trans_clear)
 1 47 -30.018 -66.793 94.626 0 0 1 1 -0.07 0 0.07 1 0 2654.dat
+0 STEP
 0 FILE 8110 - mirrorRight.ldr
 0 Right side mirror assembly mirroring the left, with angle connectors and a clear dish forming the reflective housing.
 0 Name: 8110 - mirrorRight.ldr
@@ -19342,6 +19405,7 @@
 0 STEP
 0 // Dish  2 x  2 with Rim (trans_clear)
 1 47 -0.01 -65.936 94.312 0 0 -1 -1 -0.061 0 -0.061 1 0 2654.dat
+0 STEP
 0 FILE 8110 - cabAirFilter.ldr
 0 Air filter housing made of black plates, tiles, grille tiles, and down brackets forming a vented box.
 0 Name: 8110 - cabAirFilter.ldr
@@ -19377,6 +19441,7 @@
 1 0 -52 -70 20 0 1 0 0 0 -1 -1 0 0 30244.dat
 0 // =Tile  1 x  2 Grille with Groove (black)
 1 0 -52 -50 20 0 1 0 0 0 -1 -1 0 0 30244.dat
+0 STEP
 0 FILE 8110 - exhaust.ldr
 0 Vertical exhaust pipe assembly using round bricks stacked on axles and angle connectors with a joiner.
 0 Name: 8110 - exhaust.ldr
@@ -19427,6 +19492,7 @@
 1 4 0 -270 -60 0 0 -1 1 0 0 0 -1 0 32062.dat
 0 // Technic Angle Connector #4 (135 degree) (black)
 1 0 0 -300 -60 1 0 0 0 0 -1 0 1 0 32192.dat
+0 STEP
 0 FILE 8110 - fenderFrontLeft.ldr
 0 Left front fender built from bent black liftarms and beams forming a wheel arch protector.
 0 Name: 8110 - fenderFrontLeft.ldr
@@ -19455,6 +19521,7 @@
 1 71 20 0 -120 -1 0 0 0 1 0 0 0 -1 87082.dat
 0 // Technic Pin (black)
 1 0 20 -10 -120 0 -1 0 -1 0 0 0 0 -1 3673.dat
+0 STEP
 0 FILE 8110 - fenderFrontRight.ldr
 0 Right front fender mirroring the left, built from bent black liftarms forming a wheel arch protector.
 0 Name: 8110 - fenderFrontRight.ldr
@@ -19483,6 +19550,7 @@
 1 0 -20 -10 -120 0 -1 0 -1 0 0 0 0 -1 3673.dat
 0 // Technic Pin Long with Pin Hole Type 1 (light_bluish_grey)
 1 71 -20 0 -120 -1 0 0 0 1 0 0 0 -1 87082.dat
+0 STEP
 0 FILE 8110 - subModel-15.ldr
 0 Side panel assembly of three light bluish grey 5x11 panels mounted on beam 11 supports.
 0 Name: 8110 - subModel-15.ldr
@@ -19512,6 +19580,7 @@
 0 STEP
 0 // Technic Panel  5 x 11 (light_bluish_grey)
 1 71 -240 0 0 0 0 1 0 1 0 -1 0 0 64782.dat
+0 STEP
 0 FILE 8110 - dumpBodyFace.ldr
 0 Dump body wall face built from light bluish grey panels and beams joined by pins and cross blocks.
 0 Name: 8110 - dumpBodyFace.ldr
@@ -19580,6 +19649,7 @@
 1 0 170 0 0 1 0 0 0 1 0 0 0 1 3673.dat
 0 // Technic Axle Pin (blue)
 1 1 180 -40 -10 0 0 -1 0 1 0 1 0 0 3749.dat
+0 STEP
 0 FILE 8110 - craneLeg.ldr
 0 Crane outrigger leg built from T-shaped and straight beams with a red-and-white hazard stripe sticker.
 0 Name: 8110 - craneLeg.ldr
@@ -19606,6 +19676,7 @@
 1 0 -9.25 -60 -20 0 1 0 1 0 -0.004 -0.004 0 -1 4622303a.dat
 0 // Technic Beam  3 x  3 T-shaped (black)
 1 0 0 0 -40 -1 0 0.004 0.004 0 1 0 1 0 60484.dat
+0 STEP
 0 FILE 8110 - craneBase.ldr
 0 Crane base platform built from red bent beams, cross blocks, and triangle liftarms forming a sturdy rotating mount.
 0 Name: 8110 - craneBase.ldr
@@ -19798,6 +19869,7 @@
 0 STEP
 0 // Technic Gear 16 Tooth Reinforced (light_bluish_grey)
 1 71 -20 -40 60 -1 0 0 0 1 0 0 0 -1 94925.dat
+0 STEP
 0 FILE 8110 - craneArm-1.ldr
 0 Main crane arm assembly with turntable, open-center beam frame, and cross blocks forming the rotating boom base.
 0 Name: 8110 - craneArm-1.ldr
@@ -19985,6 +20057,7 @@
 1 273 -183.2 17.6 -70 0 -0.6 0.8 0 0.8 0.6 -1 0 0 8110 - pneumaticHoseLQ-11.ldr
 1 273 -142.6 71.8 7 0 -0.6 -0.8 0 0.8 -0.6 1 0 0 8110 - pneumaticHoseLQ-12.ldr
 1 273 -149.948 66.289 65.173 -0.306 0.739 -0.6 -0.23 0.554 0.8 0.924 0.383 0 8110 - pneumaticHoseLQ-13.ldr
+0 STEP
 0 FILE 8110 - craneArm-2.ldr
 0 Crane arm extension built from red bent liftarms and cross blocks forming an articulated boom segment.
 0 Name: 8110 - craneArm-2.ldr
@@ -20026,6 +20099,7 @@
 0 STEP
 0 // Technic Beam  7 (red)
 1 4 20 38.405 11.183 0 1 0 -0.28 0 0.96 0.96 0 0.28 32524.dat
+0 STEP
 0 FILE 8110 - valve-2.ldr
 0 Pneumatic valve control assembly with valve body, T-piece, and red bent liftarm forming a control lever.
 0 Name: 8110 - valve-2.ldr
@@ -20058,6 +20132,7 @@
 1 273 -7.2 -30.4 40 0 -0.6 0.8 0 0.8 0.6 -1 0 0 8110 - pneumaticHoseLQ-4.ldr
 0 // Technic Pneumatic T-Piece - Type 2 (light_bluish_grey)
 1 71 33.4 23.8 33 -0.821 0.554 0.134 -0.57 -0.8 -0.186 0.004 -0.23 0.973 4697b.dat
+0 STEP
 0 FILE 8110 - craneArm-3.ldr
 0 Short crane arm segment built from a pneumatic cylinder and a red liftarm with connecting pins.
 0 Name: 8110 - craneArm-3.ldr
@@ -20082,6 +20157,7 @@
 0 STEP
 1 256 0 -91.349 -49.844 0 0 1 0.105 0.995 0 -0.995 0.105 0 8110 - pneumaticHoseLQ-6.ldr
 1 496 0 4.183 -39.805 0 0 1 0.105 0.995 0 -0.995 0.105 0 8110 - pneumaticHoseLQ-5.ldr
+0 STEP
 0 FILE 8110 - craneArm-4.ldr
 0 Long articulated crane arm section composed of multiple red liftarms, friction pins, axles, and bent beams.
 0 Name: 8110 - craneArm-4.ldr
@@ -20283,6 +20359,7 @@
 1 19 -60 -154.323 131.121 -1 0 0 0 0.866 0.5 0 0.5 -0.866 3749.dat
 0 // Technic Beam  2 x  4 Liftarm Bent 90 (black)
 1 0 -70 -154.324 131.119 0 -1 0 0.5 0 0.866 -0.866 0 0.5 32140.dat
+0 STEP
 0 FILE 8110 - craneArm-5.ldr
 0 Crane arm assembly featuring bent liftarms, cross blocks, flexible axle joiners, and connector pins for articulation.
 0 Name: 8110 - craneArm-5.ldr
@@ -20384,6 +20461,7 @@
 0 STEP
 0 // Technic Bush 1/2 Smooth with Axle Hole Semi-Reduced (light_bluish_grey)
 1 71 110.956 17.838 95 0.629 -0.777 0 0.777 0.629 0 0 0 1 32123b.dat
+0 STEP
 0 FILE 8110 - craneArm-6.ldr
 0 Compact crane arm segment with a small pneumatic cylinder, bent liftarms, and flexible axle joiners.
 0 Name: 8110 - craneArm-6.ldr
@@ -20424,6 +20502,7 @@
 0 STEP
 0 // Technic Beam  2 x  0.5 Liftarm (light_bluish_grey)
 1 71 0 0 70 0.777 0 0.629 -0.629 0 0.777 0 -1 0 41677.dat
+0 STEP
 0 FILE 8110 - 32269.dat
 0 32269
 0 Name: 8110 - 32269.dat
@@ -20619,6 +20698,7 @@
 5 24 -2.2958 5.5427 -10 -2.2958 5.5427 10 -1 5.8016 -10 -3.6492 4.6392 10
 5 24 5.5428 -2.2959 -10 5.5428 -2.2959 10 4.6392 -3.6492 -10 5.8016 -1 10
 5 24 2.2958 -5.5426 10 2.2958 -5.5426 -10 1 -5.8016 -10 3.6492 -4.6392 10
+0 STEP
 0 FILE 8110 - 33299.dat
 0 33299
 0 Name: 8110 - 33299.dat
@@ -20631,6 +20711,7 @@
 0 // Technic Beam  3 x  0.5 Liftarm with Boss and Pin
 0 // Technic Beam  3 x  0.5 Liftarm with Boss and Pin with Closed Central Axle Hole (main_colour)
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 8110 - 33299a.dat
+0 STEP
 0 FILE 8110 - 3941.dat
 0 3941
 0 Name: 8110 - 3941.dat
@@ -20649,6 +20730,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\8110 - 3941s01.dat
 0 // Cylinder 1.0 (main_colour)
 1 16 0 0 0 20 0 0 0 20 0 0 0 20 4-4cyli.dat
+0 STEP
 0 FILE 8110 - 4631649a.dat
 0 4631649a
 0 Name: 8110 - 4631649a.dat
@@ -20676,6 +20758,7 @@
 4 0 -21.229601 -0.25 4.5216 -21.25 -0.25 6 -21.25 -0.25 -6 -21.229601 -0.25 -4.5216
 4 0 33.029598 -0.25 4.5216 37.5 -0.25 7.5 -21.25 -0.25 6 -21.229601 -0.25 4.5216
 4 0 -21.25 -0.25 -6 37.5 -0.25 -7.5 33.029598 -0.25 -4.5216 -21.229601 -0.25 -4.5216
+0 STEP
 0 FILE s\8110 - 32269s01.dat
 0 Sub-part made entirely of rectangular primitives forming a flat geometric surface pattern.
 0 Name: s\8110 - 32269s01.dat
@@ -20764,6 +20847,7 @@
 4 16 15.3375 12.7626 -10 16.877501 10.643 -10 15.9492 9.2086 -10 14.6121 11.2123 -10
 3 16 18.258699 2.4034 -10 17.789101 4.7663 -10 19.3403 4.9066 -10
 3 16 15.3375 12.7626 -10 14.6121 11.2123 -10 13.0227 13.0227 -10
+0 STEP
 0 FILE s\8110 - 32269s02.dat
 0 Curved sub-part composed of cylinder sections, rings, and rectangles forming a partial cylindrical shell.
 0 Name: s\8110 - 32269s02.dat
@@ -20834,6 +20918,7 @@
 4 16 2.352 9.513 -10 1 11.998 -10 3 11.6205 -10 3.003 9.513 -10
 4 16 11.998 -1 -10 11.998 1 -10 16.934099 1 -10 16.934099 -1 -10
 3 16 17 0 -10 16.934099 -1 -10 16.934099 1 -10
+0 STEP
 0 FILE 8\8110 - 2-4ndis.dat
 0 Primitive generator build representing a quarter-disc negative shape.
 0 Name: 8\8110 - 2-4ndis.dat
@@ -20848,6 +20933,7 @@
 3 16 -1 0 1 -0.7071 0 0.7071 0 0 1
 3 16 -1 0 1 -1 0 0 -0.7071 0 0.7071
 0 // Build by Primitive Generator 2
+0 STEP
 0 FILE 8110 - stud10.dat
 0 Small stud element made of a short cylinder with circular and disc surfaces.
 0 Name: 8110 - stud10.dat
@@ -20894,6 +20980,7 @@
 4 16 5.6145 0 1.9397 4.142 0 4.142 4.142 -4 4.142 5.6145 -4 1.9397
 4 16 4.142 0 4.142 1.9387 0 5.6145 1.9397 -4 5.6145 4.142 -4 4.142
 4 16 1.9387 0 5.6145 0 0 6 0 -4 6 1.9397 -4 5.6145
+0 STEP
 0 FILE 8110 - 33299a.dat
 0 33299a
 0 Name: 8110 - 33299a.dat
@@ -20926,6 +21013,7 @@
 4 16 9 10 32 9 10 29 -9 10 29 -9 10 32
 4 16 8 10 36.661999 9 10 35.661999 9 10 32 8 10 32
 4 16 -9 10 35.661999 -8 10 36.661999 -8 10 32 -9 10 32
+0 STEP
 0 FILE s\8110 - 33299s01.dat
 0 Detailed cylindrical sub-part combining cylinder sections, rings, circles, and pin geometry.
 0 Name: s\8110 - 33299s01.dat
@@ -21195,6 +21283,7 @@
 4 16 4.9497 0 35.050201 6 0 36.661999 6 10 36.661999 4.9497 10 35.050301
 5 24 -4.9498 0 35.050098 -4.9498 10 35.050098 -6 0 36.661999 -2.6788 0 33.5327
 5 24 4.9497 10 35.050301 4.9498 0 35.050201 6 0 36.661999 2.6788 10 33.5327
+0 STEP
 0 FILE s\8110 - 3941s01.dat
 0 Detailed cylindrical sub-part with axle holes, circles, rings, and rectangular surfaces forming a stud axle connector.
 0 Name: s\8110 - 3941s01.dat
@@ -21329,6 +21418,7 @@
 4 16 0 0 -20 20 0 0 8.4853 0 0 0 0 -8.4853
 
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 8110 - stug10-2x2.dat
+0 STEP
 0 FILE 8110 - stug10-2x2.dat
 0 2x2 stud tile pattern with optional LEGO logo placements on each stud.
 0 Name: 8110 - stug10-2x2.dat
@@ -21347,6 +21437,7 @@
 1 16 -10 0 10 0 0 -1 0 1 0 1 0 0 8110 - stud10.dat
 1 16 10 0 -10 0 0 1 0 1 0 -1 0 0 8110 - stud10.dat
 1 16 -10 0 -10 -1 0 0 0 1 0 0 0 -1 8110 - stud10.dat
+0 STEP
 0 FILE s\8110 - technic2a.dat
 0 Empty Technic sub-part placeholder with no direct pieces.
 0 Name: s\8110 - technic2a.dat
@@ -21569,6 +21660,7 @@
 4 15 33.700001 0 2 34.200001 0 3.8 26.09 0 3.8 25.6 0 2
 
 
+0 STEP
 0 FILE s\8110 - technic2b.dat
 0 Empty Technic sub-part placeholder with no direct pieces.
 0 Name: s\8110 - technic2b.dat

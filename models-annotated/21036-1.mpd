@@ -378,6 +378,7 @@
 
 
 
+0 STEP
 0 FILE 21036 - step19.ldr
 0 A small trio of 1x2 plates in light bluish grey, white, and tan used as a color-step subassembly.
 0 Author: Orion Pobursky [OrionP]
@@ -395,6 +396,7 @@
 
 
 
+0 STEP
 0 FILE 21036 - step20.ldr
 0 A decorative subassembly combining side-stud plates, door rail plates, a panel, and a white minifig statuette on a 2x4 tile base.
 0 Author: Orion Pobursky [OrionP]
@@ -434,6 +436,7 @@
 
 
 
+0 STEP
 0 FILE 21036 - step29.ldr
 0 A 6x6 white plate platform supported by downward brackets and centered-stud plates for mounting.
 0 Author: Orion Pobursky [OrionP]
@@ -471,6 +474,7 @@
 
 
 
+0 STEP
 0 FILE 21036 - step32.ldr
 0 A hinged subassembly using hinge bases, headlight bricks, and side-stud bricks to form an articulated corner.
 0 Author: Orion Pobursky [OrionP]
@@ -504,6 +508,7 @@
 
 
 
+0 STEP
 0 FILE 21036 - step33.ldr
 0 A hinged armature built from a Technic 1x10 brick with blue half-pins anchoring multiple hinge bases.
 0 Author: Orion Pobursky [OrionP]
@@ -550,6 +555,7 @@
 
 
 
+0 STEP
 0 FILE 21036 - step35.ldr
 0 A simple flat subassembly of two 1x6 plates supporting a 2x4 white tile.
 0 Author: Orion Pobursky [OrionP]
@@ -569,6 +575,7 @@
 
 
 
+0 STEP
 0 FILE 21036 - step38.ldr
 0 A sloped subassembly using a 45-degree double inverted slope, trans-dark-blue 2x2 bricks, and blue side-stud bricks.
 0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
@@ -591,6 +598,7 @@
 
 
 
+0 STEP
 0 FILE 21036 - step39.ldr
 0 A detail subassembly of small white plates and round plates with headlight bricks and a bracket for surface detailing.
 0 Author: Orion Pobursky [OrionP]
@@ -637,6 +645,7 @@
 
 
 
+0 STEP
 0 FILE 21036 - step40.ldr
 0 A white 1x8 brick reinforced with round and square 1x1 plates for structure.
 0 Author: Orion Pobursky [OrionP]
@@ -667,6 +676,7 @@
 
 
 
+0 STEP
 0 FILE 21036 - step41.ldr
 0 A large roof-like platform on a 6x12 plate with numerous hinge bases and tiled surfaces in white and tan.
 0 Author: Orion Pobursky [OrionP]
@@ -754,6 +764,7 @@
 
 
 
+0 STEP
 0 FILE 21036 - 25269.dat
 0 A single quarter-disc primitive representing the curved surface of a 1x1 round corner tile.
 0 Name: 21036 - 25269.dat
@@ -769,6 +780,7 @@
 
 
 
+0 STEP
 0 FILE s\21036 - 25269s01.dat
 0 The geometric subpart of a 1x1 corner round tile, composed of boxes, cylinders, circles, and rectangles forming its curved underside.
 0 Name: s\21036 - 25269s01.dat
@@ -868,6 +880,7 @@
 
 
 
+0 STEP
 0 FILE 21036 - 4162p1b.dat
 0 A patterned 1x8 tile bearing the text 'Arc de Triomphe' rendered from individual character glyphs.
 0 Name: 21036 - 4162p1b.dat

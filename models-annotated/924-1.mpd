@@ -14,6 +14,7 @@
 1 16 310 0 200 1 0 0 0 1 0 0 0 1 924 - Fork Lifter.ldr
 
 
+0 STEP
 0 FILE 924 - Space Ship.ldr
 0 A large light grey spaceship hull built from plates and angled wings, with trans-green accents and round support struts forming the core fuselage structure.
 0 Name: 924 - Space Ship.ldr
@@ -249,6 +250,7 @@
 0 STEP
 1 16 0 -101 68 1 0 0 0 1 0 0 0 1 924 - Red Minifig.ldr
 
+0 STEP
 0 FILE 924 - Space Ship - Hatch Right.ldr
 0 A blue right-side hatch assembly with inverted slopes, hinged bricks, a bracket, a tail fin, and a light grey cone forming an engine detail.
 0 Name: 924 - Space Ship - Hatch Right.ldr
@@ -305,6 +307,7 @@
 1 7 -20 -44 88 0 0 -1 -1 0 0 0 1 0 3943b.dat
 
 
+0 STEP
 0 FILE 924 - Space Ship - Hatch Left.ldr
 0 A blue left-side hatch assembly mirroring the right, with inverted slopes, a hinge base, bracket, tail fin, and a light grey engine cone.
 0 Name: 924 - Space Ship - Hatch Left.ldr
@@ -359,6 +362,7 @@
 1 7 20 -44 88 0 0 -1 -1 0 0 0 1 0 3943b.dat
 
 
+0 STEP
 0 FILE 924 - Space Ship - Cockpit Hatch.ldr
 0 A trans-yellow transparent canopy panel hinged on two blue hinge tops, forming the cockpit enclosure.
 0 Name: 924 - Space Ship - Cockpit Hatch.ldr
@@ -378,6 +382,7 @@
 1 46 0 -18 -70 0 0 -1 0 1 0 1 0 0 3030.dat
 
 
+0 STEP
 0 FILE 924 - Fork Lifter.ldr
 0 A light grey wheeled forklift vehicle with rubber tyres, a steering wheel stand, vertical lift rails, and a forklift fork attachment.
 0 Name: 924 - Fork Lifter.ldr
@@ -420,6 +425,7 @@
 1 16 0 -85 28 1 0 0 0 1 0 0 0 1 924 - White Minifig.ldr
 
 
+0 STEP
 0 FILE 924 - Fork Lifter - Container.ldr
 0 A small white cargo container with plates, a door on each side, and a trans-green hollow-stud round brick detail.
 0 Name: 924 - Fork Lifter - Container.ldr
@@ -451,6 +457,7 @@
 1 15 0 -48 0 0 0 1 0 1 0 -1 0 0 3020.dat
 
 
+0 STEP
 0 FILE 924 - Red Minifig.ldr
 0 A red Classic Space minifigure with helmet, airtanks, classic space torso, and a black spanner/screwdriver tool.
 0 Name: 924 - Red Minifig.ldr
@@ -488,6 +495,7 @@
 1 0 -19 -2 -34 0.984808 -0.173648 0 0.16849 0.955555 -0.241922 0.0420093 0.238247 0.970296 4006.dat
 
 
+0 STEP
 0 FILE 924 - White Minifig.ldr
 0 A white Classic Space minifigure with helmet, airtanks, classic space torso, and a light grey torch tool.
 0 Name: 924 - White Minifig.ldr

@@ -36,6 +36,7 @@
 1 2 120 0 -40 1 0 0 0 1 0 0 0 1 6414 - palm tree.ldr
 
 0 NOFILE
+0 STEP
 0 FILE 6414 - building.ldr
 0 White multi-story beachside structure with arches, panels, hinges, and grey brick accents built from 126 pieces.
 0 building
@@ -325,6 +326,7 @@
 1 47 30 -433 24 0 0 -1 1 0 0 0 -1 0 6141.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6414 - grill.ldr
 0 Small barbeque grill with black grilles, trans-red flames, and handles mounted on a grey base.
 0 grill
@@ -358,6 +360,7 @@
 1 0 70 -32 -100 0 0 1 0 1 0 -1 0 0 2412b.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6414 - table.ldr
 0 Pink parasol table with a striped dish canopy, white arch legs, antenna pole, and two pink seats.
 0 table
@@ -388,6 +391,7 @@
 1 15 -150 -128 -50 1 0 0 0 1 0 0 0 1 3960p05.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6414 - palm tree.ldr
 0 Classic LEGO palm tree assembled from a brown trunk, base, and green palm leaves on a round plate.
 0 !LEOCAD MODEL CURRENT_STEP10
@@ -434,6 +438,7 @@
 0 STEP
 
 0 NOFILE
+0 STEP
 0 FILE 6414 - boat.ldr
 0 Red and white motorboat with a steering control stick, towball, and sloped hull pieces.
 0 boat
@@ -479,6 +484,7 @@
 1 47 -0.001 -54 -20 0 0 1 0 1 0 -1 0 0 u66p01c02.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6414 - minifig 1.ldr
 0 Male windsurfer minifigure wearing a blue cap, moustache, and windsurfboard-printed torso.
 0 minifig 1
@@ -511,6 +517,7 @@
 1 1 -0.008 -96 0 1 0 0.002 0 1 0 -0.002 0 1 4485.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6414 - minifig 2.ldr
 0 Female minifigure with black ponytail hair and a palm tree and dolphin-printed torso.
 0 minifig 2
@@ -543,6 +550,7 @@
 1 14 0 -28 0 1 0 0 0 1 0 0 0 1 3816.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6414 - minifig 3.ldr
 0 Male minifigure with sunglasses, black torso, and a yellow lifevest.
 0 minifig 3
@@ -577,6 +585,7 @@
 1 14 0 -72 0 1 0 0 0 1 0 0 0 1 2610.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6414 - minifig 4.ldr
 0 Female minifigure with white cap and a pink shirt with blue flowers pattern.
 0 minifig 4
@@ -609,6 +618,7 @@
 1 15 -0.008 -96 0 1 0 0.002 0 1 0 -0.002 0 1 4485.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6414 - 6228.dat
 0 Empty submodel referencing part 6228 with no direct pieces.
 0 Animal Dolphin
@@ -676,6 +686,7 @@
 5 24 0 -2.09 -14.167 0 -1.793 -14.211 -0.027 -2.089 -14.159 0.027 -2.089 -14.159
 
 0 NOFILE
+0 STEP
 0 FILE 6414 - 6228s01.dat
 0 Empty submodel referencing subpart 6228s01 with no direct pieces.
 0 ~Animal Dolphin half

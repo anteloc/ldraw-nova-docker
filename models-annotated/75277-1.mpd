@@ -306,6 +306,7 @@
 1 0 0 160.34 -140.588 -1 0 0 0 0.5 0.866 0 0.866 -0.5 75277 - 6180ps1.dat
 
 
+0 STEP
 0 FILE 75277 - front-assembly.ldr
 0 Front structural section of the helmet built from a sand green base plate, tan corner bricks, lime accents, and a tall light bluish grey pillar.
 0 Name: 75277 - front-assembly.ldr
@@ -385,6 +386,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 75277 - helmet-top.ldr
 0 Top dome portion of the helmet made entirely of sand green plates and corner pieces.
 0 Name: 75277 - helmet-top.ldr
@@ -411,6 +413,7 @@
 1 378 30 -16 20 0 0 1 0 1 0 -1 0 0 2420.dat
 
 
+0 STEP
 0 FILE 75277 - helmet-top-2.ldr
 0 Supplementary top section of the helmet composed of a few sand green plates forming a flat surface.
 0 Name: 75277 - helmet-top-2.ldr
@@ -426,6 +429,7 @@
 1 378 0 -16 -10 1 0 0 0 1 0 0 0 1 3022.dat
 
 
+0 STEP
 0 FILE 75277 - stand.ldr
 0 Sloped black display stand with technic beams, pins, and axle providing structural support for the helmet.
 0 Name: 75277 - stand.ldr
@@ -556,6 +560,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 75277 - stand-base.ldr
 0 Tan base plate with black rounded plates, a technic brick, and a slope forming the foot of the stand.
 0 Name: 75277 - stand-base.ldr
@@ -582,6 +587,7 @@
 1 0 0 -24 50 -1 0 0 0 1 0 0 0 -1 3297.dat
 
 
+0 STEP
 0 FILE 75277 - helmet-back.ldr
 0 Rear shell of the helmet built from dark green and tan plates with grille tiles, dark red accents, and curved slopes.
 0 Name: 75277 - helmet-back.ldr
@@ -691,6 +697,7 @@
 1 288 60 -8 60 0 0 -1 0 1 0 1 0 0 15068.dat
 
 
+0 STEP
 0 FILE 75277 - helmet-back-2.ldr
 0 Secondary rear helmet panel of sand green plates accented with bright light orange and dark red groove tiles.
 0 Name: 75277 - helmet-back-2.ldr
@@ -726,6 +733,7 @@
 1 378 -10 -8 -30 1 0 0 0 1 0 0 0 1 3004.dat
 
 
+0 STEP
 0 FILE 75277 - helmet-back-rim.ldr
 0 Rear rim of the helmet assembled from sand green plates and corner pieces trimmed with dark red plates and curved slopes.
 0 Name: 75277 - helmet-back-rim.ldr
@@ -784,6 +792,7 @@
 1 320 50 -32 10 0 0 -1 0 1 0 1 0 0 61678.dat
 
 
+0 STEP
 0 FILE 75277 - helmet-left-side-inner.ldr
 0 Inner left side of the helmet combining sand green and bright light orange plates with groove details and a clip piece.
 0 Name: 75277 - helmet-left-side-inner.ldr
@@ -837,6 +846,7 @@
 1 378 10 -60 40 -1 0 0 0 1 0 0 0 -1 3069b.dat
 
 
+0 STEP
 0 FILE 75277 - helmet-left-side-inner-2.ldr
 0 Additional inner left side layer using bright light orange and sand green plates with groove and clip details.
 0 Name: 75277 - helmet-left-side-inner-2.ldr
@@ -895,6 +905,7 @@
 1 191 40 -60 10 0 0 -1 0 1 0 1 0 0 3069b.dat
 
 
+0 STEP
 0 FILE 75277 - helmat-left-top.ldr
 0 Upper left section of the helmet formed predominantly from sand green plates and corner pieces with a tan accent.
 0 Name: 75277 - helmat-left-top.ldr
@@ -928,6 +939,7 @@
 1 378 0 -32 0 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 75277 - helmet-left-side-outer.ldr
 0 Large outer left shell of the helmet composed of sand green, dark green, dark red, yellow, and light bluish grey plates.
 0 Name: 75277 - helmet-left-side-outer.ldr
@@ -1083,6 +1095,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 75277 - helmet-left-side-outer-rim.ldr
 0 Outer left rim of the helmet built from dark red and sand green plates with curved slope accents.
 0 Name: 75277 - helmet-left-side-outer-rim.ldr
@@ -1120,6 +1133,7 @@
 1 320 0 -24 0 0 0 -1 0 1 0 1 0 0 50950.dat
 
 
+0 STEP
 0 FILE 75277 - helmet-left-side-outer-2.ldr
 0 Supplementary outer left layer of sand green plates with brackets and groove tiles for structure and detail.
 0 Name: 75277 - helmet-left-side-outer-2.ldr
@@ -1155,6 +1169,7 @@
 1 320 -60 -24 0 1 0 0 0 1 0 0 0 1 3070b.dat
 
 
+0 STEP
 0 FILE 75277 - helmet-visor.ldr
 0 Curved black visor section with a sand green frame and tan base plate.
 0 Name: 75277 - helmet-visor.ldr
@@ -1181,6 +1196,7 @@
 1 0 40 -24 0 0 0 -1 0 1 0 1 0 0 61678.dat
 
 
+0 STEP
 0 FILE 75277 - helmet-front-top.ldr
 0 Front upper area of the helmet made of sand green plates with a tan accent.
 0 Name: 75277 - helmet-front-top.ldr
@@ -1213,6 +1229,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 75277 - helmet-right-side-top.ldr
 0 Right upper side of the helmet composed of sand green plates, corner pieces, and dark red accents.
 0 Name: 75277 - helmet-right-side-top.ldr
@@ -1306,6 +1323,7 @@
 1 0 100 -24 0 0 0 1 0 1 0 -1 0 0 3070b.dat
 
 
+0 STEP
 0 FILE 75277 - helmet-right-side-bottom.ldr
 0 Lower right shell of the helmet built from sand green, dark green, and light bluish grey plates with curved slope details.
 0 Name: 75277 - helmet-right-side-bottom.ldr
@@ -1474,6 +1492,7 @@
 0 STEP
 
 
+0 STEP
 0 FILE 75277 - helmet-front-rim.ldr
 0 Front rim of the helmet made of dark red plates and bright light orange groove tiles with curved slope accents.
 0 Name: 75277 - helmet-front-rim.ldr
@@ -1506,6 +1525,7 @@
 1 320 70 16 0 1 0 0 0 1 0 0 0 1 3023.dat
 
 
+0 STEP
 0 FILE 75277 - helmet-right-cheek.ldr
 0 Right cheek panel of the helmet using sand green and black plates, dark red wings, a quarter-circle cutout plate, and a shield detail piece.
 0 Name: 75277 - helmet-right-cheek.ldr
@@ -1549,6 +1569,7 @@
 1 320 0 0 0 1 0 0 0 0 1 0 -1 0 75277 - 30166.dat
 
 
+0 STEP
 0 FILE 75277 - helmet-left-cheek.ldr
 0 Left cheek panel of the helmet using sand green and black plates, dark red wings, a quarter-circle cutout plate, and a shield detail piece.
 0 Name: 75277 - helmet-left-cheek.ldr
@@ -1592,6 +1613,7 @@
 1 320 0 0 0 -1 0 0 0 0 1 0 1 0 75277 - 30166.dat
 
 
+0 STEP
 0 FILE 75277 - helmet-front-bottom.ldr
 0 Lower front of the helmet built from black and dark red plates, door rail pieces, and tiles.
 0 Name: 75277 - helmet-front-bottom.ldr
@@ -1653,6 +1675,7 @@
 1 320 20 -40 30 -1 0 0 0 1 0 0 0 -1 4162.dat
 
 
+0 STEP
 0 FILE 75277 - antenna.ldr
 0 Light bluish grey antenna stalk built from plates and a locking hinge plate.
 0 Name: 75277 - antenna.ldr
@@ -1683,6 +1706,7 @@
 1 0 -90 10 0 0 -1 0 0 0 -1 1 0 0 75277 - antenna-top.ldr
 
 
+0 STEP
 0 FILE 75277 - antenna-top.ldr
 0 Black antenna tip assembly using a hinge plate, slope brick, inverted tile, and a small plate.
 0 Name: 75277 - antenna-top.ldr
@@ -1700,6 +1724,7 @@
 1 0 0 -2 -20 -1 0 0 0 1 0 0 0 -1 44567.dat
 
 
+0 STEP
 0 FILE 75277 - 30166.dat
 0 30166
 0 Name: 75277 - 30166.dat
@@ -1720,6 +1745,7 @@
 3 16 14.136 0 -18 0 30 -18 14.136 30 -18
 3 16 0 30 -18 -14.136 0 -18 -14.136 30 -18
 
+0 STEP
 0 FILE s\75277 - 30166s01.dat
 0 30166s01
 0 Name: s\75277 - 30166s01.dat
@@ -1752,6 +1778,7 @@
 0 // Ring  2 x 0.75 (main_colour)
 1 16 -14 0 0 0 -1 0 1.414214 0 1.414214 -1.414214 0 1.414214 3-4ring2.dat
 
+0 STEP
 0 FILE s\75277 - 30166s02.dat
 0 30166s02
 0 Name: s\75277 - 30166s02.dat
@@ -1859,6 +1886,7 @@
 0 // Circle 0.5 (main_colour)
 1 16 10 -20 -18 0 0 -6 -6 0 0 0 1 0 2-4edge.dat
 
+0 STEP
 0 FILE 75277 - 6180ps1.dat
 0 6180ps1
 0 Name: 75277 - 6180ps1.dat
@@ -2099,6 +2127,7 @@
 3 16 -40 0 -4 -27.75 0 0 -28.75 0 0
 3 16 -40 0 -4 -28.75 0 0 -29.25 0 0
 
+0 STEP
 0 FILE s\75277 - 6180ps1s01.dat
 0 6180ps1s01
 0 Name: s\75277 - 6180ps1s01.dat
@@ -2222,6 +2251,7 @@
 4 16 -40 0 -4.75 -40 0 -4 -41 0 16 -41 0 -6.86
 4 16 -41 0 -6.86 15 0 -6.86 41 0 -4.75 -40 0 -4.75
 
+0 STEP
 0 FILE s\75277 - logostarwars01.dat
 0 logostarwars01
 0 Name: s\75277 - logostarwars01.dat

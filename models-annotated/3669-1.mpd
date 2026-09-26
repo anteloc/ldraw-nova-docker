@@ -64,6 +64,7 @@
 
 
 
+0 STEP
 0 FILE 3669 - firetricycle.ldr
 0 A red Fabuland fire tricycle built from a brick, ladder support, and a yellow ladder with pivot.
 0 Name: 3669 - firetricycle.ldr
@@ -79,6 +80,7 @@
 1 14 0 -75 80 1 0 0 0 0.961 0.276 0 -0.276 0.961 3669 - 4000.dat
 
 
+0 STEP
 0 FILE 3669 - scooter.ldr
 0 A simple scooter assembly consisting of a single pair of earth orange side bags.
 0 Name: 3669 - scooter.ldr
@@ -90,6 +92,7 @@
 1 366 0 -44 50 -1 0 0 0 1 0 0 0 -1 749.dat
 
 
+0 STEP
 0 FILE 3669 - policeman.ldr
 0 A minifigure character submodel with no directly listed pieces.
 0 Name: 3669 - policeman.ldr
@@ -105,6 +108,7 @@
 1 4 0 -37 4 1 0 0 0 1 0 0 0 1 u9103.dat
 
 
+0 STEP
 0 FILE 3669 - photographer.ldr
 0 A minifigure character submodel with no directly listed pieces.
 0 Name: 3669 - photographer.ldr
@@ -120,6 +124,7 @@
 1 4 0 -37 4 1 0 0 0 1 0 0 0 1 u9103.dat
 
 
+0 STEP
 0 FILE 3669 - fireman.ldr
 0 A minifigure character submodel with no directly listed pieces.
 0 Name: 3669 - fireman.ldr
@@ -135,6 +140,7 @@
 1 4 0 -37 4 1 0 0 0 0.946 -0.326 0 0.326 0.946 u9103.dat
 
 
+0 STEP
 0 FILE 3669 - 3999.dat
 0 A geometric primitive part composed of boxes, cylinders, discs, and circles forming a cylindrical and boxed shape.
 0 Name: 3669 - 3999.dat
@@ -326,6 +332,7 @@
 4 16 -16 -4 -40 -16 -49.120998 6.879 -20 -49.120998 6.879 -20 -4 -40
 
 
+0 STEP
 0 FILE 3669 - 4000.dat
 0 A geometric primitive part composed of a pivot, boxes, cylinders, and discs forming a pivoting mechanical shape.
 0 Name: 3669 - 4000.dat
@@ -589,6 +596,7 @@
 4 16 20 -8 -246 20 -8 -254 -20 -8 -254 -20 -8 -246
 
 
+0 STEP
 0 FILE 48\3669 - 1-24disc.dat
 0 A geometric primitive part with no directly listed pieces.
 0 Name: 48\3669 - 1-24disc.dat

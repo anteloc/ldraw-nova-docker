@@ -12,6 +12,7 @@
 
 
 
+0 STEP
 0 FILE 6889 - Robot.ldr
 0 The assembled robot structure, referencing the wheeled base, mid-body torso, dual hinged arms, and rotating head.
 0 Name: 6889 - Robot.ldr
@@ -27,6 +28,7 @@
 
 
 
+0 STEP
 0 FILE 6889 - Robot - Wheels.ldr
 0 A wheeled chassis base built from black plates, bricks with pins, slope panels, and red hinge plates forming the rolling platform.
 0 Name: 6889 - Robot - Wheels.ldr
@@ -132,6 +134,7 @@
 
 
 
+0 STEP
 0 FILE 6889 - Robot - Wheels - Door.ldr
 0 A small hinged door or access panel made from a red plate, black grille tiles, and hinged finger plates.
 0 Name: 6889 - Robot - Wheels - Door.ldr
@@ -154,6 +157,7 @@
 
 
 
+0 STEP
 0 FILE 6889 - Robot - Middle.ldr
 0 The central torso section using cut-corner plates, inverted slopes, a Spyrius droid-patterned slope, red grille tiles, and a turntable base.
 0 Name: 6889 - Robot - Middle.ldr
@@ -216,6 +220,7 @@
 
 
 
+0 STEP
 0 FILE 6889 - Robot - Middle - Arm 1.ldr
 0 The left robotic arm shoulder joint using round axlehole plates, hinge plates, and a connecting plate.
 0 Name: 6889 - Robot - Middle - Arm 1.ldr
@@ -241,6 +246,7 @@
 
 
 
+0 STEP
 0 FILE 6889 - Robot - Middle - Arm 1 - 1.ldr
 0 A forearm segment with handle plate, side hinge, and a Spyrius machinery-patterned tile.
 0 Name: 6889 - Robot - Middle - Arm 1 - 1.ldr
@@ -265,6 +271,7 @@
 
 
 
+0 STEP
 0 FILE 6889 - Robot - Middle - Arm 1 - 2.ldr
 0 A short articulated arm segment composed of three linked hinge plates.
 0 Name: 6889 - Robot - Middle - Arm 1 - 2.ldr
@@ -285,6 +292,7 @@
 
 
 
+0 STEP
 0 FILE 6889 - Robot - Middle - Arm 1 - 3.ldr
 0 A single hinge bar connector linking two finger joints at the arm extremity.
 0 Name: 6889 - Robot - Middle - Arm 1 - 3.ldr
@@ -299,6 +307,7 @@
 
 
 
+0 STEP
 0 FILE 6889 - Robot - Middle - Arm 2.ldr
 0 The right robotic arm shoulder joint mirroring the left, using round axlehole plates and hinge plates.
 0 Name: 6889 - Robot - Middle - Arm 2.ldr
@@ -324,6 +333,7 @@
 
 
 
+0 STEP
 0 FILE 6889 - Robot - Middle - Arm 2 - 1.ldr
 0 A forearm segment with handle plate, side hinge, and a Spyrius machinery-patterned tile.
 0 Name: 6889 - Robot - Middle - Arm 2 - 1.ldr
@@ -347,6 +357,7 @@
 
 
 
+0 STEP
 0 FILE 6889 - Robot - Middle - Arm 2 - 2.ldr
 0 A short articulated arm segment composed of three linked hinge plates.
 0 Name: 6889 - Robot - Middle - Arm 2 - 2.ldr
@@ -367,6 +378,7 @@
 
 
 
+0 STEP
 0 FILE 6889 - Robot - Head.ldr
 0 A rotating sensor head built on a turntable, featuring a side-stud brick, grille tiles, neon green round lights, control sticks, and flexible rubber hose antennae.
 0 Name: 6889 - Robot - Head.ldr
@@ -582,6 +594,7 @@
 
 
 
+0 STEP
 0 FILE 6889 - Minifig.ldr
 0 A Spyrius minifigure with a moustached head, airtanks, blue patterned torso, black arms, and red hips.
 0 Name: 6889 - Minifig.ldr
@@ -615,6 +628,7 @@
 
 
 
+0 STEP
 0 FILE 6889 - Minifig - Helmet.ldr
 0 A Spyrius-patterned helmet with a trans-neon-green visor.
 0 Name: 6889 - Minifig - Helmet.ldr
@@ -631,6 +645,7 @@
 
 
 
+0 STEP
 0 FILE 6889 - Minifig - Torch.ldr
 0 A handheld black torch fitted with a trans-neon-green round light element.
 0 Name: 6889 - Minifig - Torch.ldr
@@ -647,6 +662,7 @@
 
 
 
+0 STEP
 0 FILE 6889 - Minifig - Hand.ldr
 0 A minifig hand gripping a patterned control tile with a blue screen and silver panel.
 0 Name: 6889 - Minifig - Hand.ldr

@@ -13,6 +13,7 @@
 1 72 200 40 -319 1 0 0 0 1 0 0 0 1 60067 - Thief.ldr
 
 
+0 STEP
 0 FILE 60067 - Helicopter Pilot.ldr
 0 A dark-blue minifigure with a white helmet and trans-brown visor, outfitted to pilot the helicopter.
 0 Name: 60067 - Helicopter Pilot.ldr
@@ -44,6 +45,7 @@
 1 40 0 -56 0 1 0 0 0 1 0 0 0 1 2447.dat
 
 
+0 STEP
 0 FILE 60067 - Police.ldr
 0 A tan-torsoed police officer minifigure carrying handcuffs, ready to apprehend the thief.
 0 Name: 60067 - Police.ldr
@@ -73,6 +75,7 @@
 1 71 24.734 0.833 -17.892 0.086 -0.147 0.985 0.5 -0.849 -0.17 0.861 0.507 0 61482.dat
 
 
+0 STEP
 0 FILE 60067 - Thief.ldr
 0 A white-shirted thief minifigure with tousled dark-orange hair and sand-blue legs.
 0 Name: 60067 - Thief.ldr
@@ -102,6 +105,7 @@
 1 484 0 -56 0 1 0 0 0 1 0 0 0 1 87991.dat
 
 
+0 STEP
 0 FILE 60067 - Helicopter.ldr
 0 A large dark-blue and white police helicopter built from plates, slopes, plane panels, and flight control pieces.
 0 Name: 60067 - Helicopter.ldr
@@ -382,6 +386,7 @@
 1 0 0 -208 -20 1 0 0 0 1 0 0 0 1 60067 - Propeller.ldr
 
 
+0 STEP
 0 FILE 60067 - Speedboat.ldr
 0 A red and dark-bluish-grey getaway speedboat with a seat, cockpit canopy, gears, and curved hull slopes.
 0 Name: 60067 - Speedboat.ldr
@@ -475,6 +480,7 @@
 1 4 -28 2 -10 0 1 0 0 0 -1 -1 0 0 92585.dat
 
 
+0 STEP
 0 FILE 60067 - Bush.ldr
 0 A small landscaping scene of a green baseplate with a leafy bush, round tree trunk, and a sack of stolen money.
 0 Name: 60067 - Bush.ldr
@@ -506,6 +512,7 @@
 1 288 -30 -64 -20 0 0 1 0 1 0 -1 0 0 2417.dat
 
 
+0 STEP
 0 FILE 60067 - Helicopter Ponton.ldr
 0 A yellow pontoon float assembly built from wedges, wings, bricks, and inverted slopes for the helicopter's landing gear.
 0 Name: 60067 - Helicopter Ponton.ldr
@@ -543,6 +550,7 @@
 1 14 0 -40 0 1 0 0 0 1 0 0 0 1 3068b.dat
 
 
+0 STEP
 0 FILE 60067 - Propeller.ldr
 0 A large black rotor assembly with a hexagonal hub, twelve blades, and six wedge plates.
 0 Name: 60067 - Propeller.ldr
@@ -590,6 +598,7 @@
 1 0 -51.96 8 -30 -0.866 0 0.5 0 1 0 -0.5 0 -0.866 32124.dat
 
 
+0 STEP
 0 FILE 11293c01.dat
 0 A plane front cockpit section with eight windows fitted with translucent light-blue glass.
 0 Name: 11293c01.dat
@@ -604,6 +613,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 11293.dat
 0 // Glass for Plane Front  6 x  8 x  4 with  8 Windows (trans_light_blue)
 1 43 0 0 0 1 0 0 0 1 0 0 0 1 11297.dat
+0 STEP
 0 FILE 92582.dat
 0 A locking hinge plate with a single finger joint on top, composed of geometric primitives.
 0 Name: 92582.dat
@@ -632,6 +642,7 @@
 1 16 -10 0 10 -1 0 0 0 1 0 0 0 -1 stud.dat
 1 16 -10 0 -10 -1 0 0 0 1 0 0 0 -1 stud.dat
 
+0 STEP
 0 FILE 47406.dat
 0 A curved 6x10 cockpit canopy shell made of cylinders, discs, and rectangular primitives.
 0 Name: 47406.dat
@@ -763,6 +774,7 @@
 0 // Rectangle with 2 Parallel Edges (main_colour)
 1 16 0 -39.275 -128.757 4.247 0 0 0 0 8.725 0 -1 0.001 rect2p.dat
 5 24 0 -6.75 20 0 -6.75 22 -4.22 -8 22 4.22 -8 22
+0 STEP
 0 FILE 11293.dat
 0 A plane front window frame element composed of two simple rectangular primitives.
 0 Name: 11293.dat
@@ -801,6 +813,7 @@
 5 24 0 55.029999 -109.708 0 70.57 -129.701004 23.576 54.904999 -107.767998 -23.576 54.904999 -107.767998
 5 24 0 70.57 -129.701004 0 84.512001 -138.181 28.848999 70.545998 -123.555 -28.848999 70.545998 -123.555
 5 24 0 96 -140 0 84.512001 -138.181 7.83 96 -139.483994 -7.83 96 -139.483994
+0 STEP
 0 FILE s\11293s01.dat
 0 The subpart geometry of a plane front 6x8x4 window section, built from rectangles, boxes, and a sloped cylinder.
 0 Name: s\11293s01.dat
@@ -2221,6 +2234,7 @@
 5 24 57.050999 86.821999 -96.150002 59.254002 86.820999 -84.939003 56.227001 71.777 -88.624001 57.953999 96 -95.528
 5 24 47.005001 86.341003 -114.664001 57.050999 86.821999 -96.150002 46.122002 70.710999 -107.596001 51.959999 96 -110
 5 24 29.367001 84.538002 -130.287003 47.005001 86.341003 -114.664001 46.122002 70.710999 -107.596001 42.425999 96 -122.426003
+0 STEP
 0 FILE 11297.dat
 0 A glass pane part for the plane front windows, with no direct geometry pieces of its own.
 0 Name: 11297.dat
@@ -2237,6 +2251,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\11297s01.dat
 1 16 0 0 0 -1 0 0 0 1 0 0 0 1 s\11297s01.dat
 
+0 STEP
 0 FILE s\11297s01.dat
 0 The subpart forming the translucent glass surface of the plane front windows, built from a half cylinder.
 0 Name: s\11297s01.dat
@@ -3731,6 +3746,7 @@
 5 24 43.805 9.7956 -33.705002 35.412998 5.414 -33.778 40.098 9.9636 -42.383999 39.610001 7.2872 -29.25
 5 24 53.924999 18.4151 -33.483002 43.805 9.7956 -33.705002 53.333 18.3972 -36.755001 53.790001 18.289101 -31.271
 5 24 35.412998 5.414 -33.778 26.673 3.5009 -33.257 28.681999 6.2162 -43.254002 33.881001 4.9499 -29.25
+0 STEP
 0 FILE s\92582s01.dat
 0 The internal click-lock hinge mechanism geometry, built from numerous cylinders, cones, spheres, and circles.
 0 Name: s\92582s01.dat
@@ -4084,6 +4100,7 @@
 1 16 4 -7 0 0 -1 0 6.46716 0 2.67878 2.67878 0 -6.46716 1-8chrd.dat
 0 // Chord 0.125 (main_colour)
 1 16 -4 -7 0 0 1 0 6.46716 0 2.67878 -2.67878 0 6.46716 1-8chrd.dat
+0 STEP
 0 FILE s\47406s01.dat
 0 One half of the curved cockpit canopy shell, composed of rectangles, cylinders, and peg-hole primitives.
 0 Name: s\47406s01.dat

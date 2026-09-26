@@ -70,6 +70,7 @@
 1 0 132 0 -40 0 1 0 1 0 0 0 0 -1 8204 - technicflexSysHose-1.ldr
 1 0 -132 0 -40 0 -1 0 -1 0 0 0 0 -1 8204 - technicflexSysHose-1.ldr
 
+0 STEP
 0 FILE 8204 - subModel-1.ldr
 0 Small Technic gear assembly using a cross block, notched axle, half-bush, and a 12-tooth bevel gear.
 0 Name: 8204 - subModel-1.ldr
@@ -86,6 +87,7 @@
 0 // Technic Gear 12 Tooth Bevel (light_bluish_grey)
 1 71 -17 -20 0 0 0 1 0 -1 0 1 0 0 6589.dat
 
+0 STEP
 0 FILE 8204 - rubberBandRound-1.ldr
 0 LDCad-generated round rubber band formed from 18 flexible segments approximating a 68.90 mm loop.
 0 !CATEGORY technic
@@ -594,6 +596,7 @@
 5 24 0 10 0 0 9.414214 1.414214 -0.972349 10.233533 0 4.544757 8.905143 0
 5 24 0 9.414214 1.414214 0 8 2 -0.972349 9.647746 1.414214 4.275164 8.38508 1.414214
 
+0 STEP
 0 FILE 8204 - subModel-2.ldr
 0 Technic bevel-gear subassembly built from two axles, a cross block, three half-bushes, and a 12-tooth bevel gear.
 0 Name: 8204 - subModel-2.ldr
@@ -616,6 +619,7 @@
 0 // Technic Gear 12 Tooth Bevel (light_bluish_grey)
 1 71 0 -20 23 -1 0 0 0 -1 0 0 0 1 6589.dat
 
+0 STEP
 0 FILE 8204 - technicflexSysHose-1.ldr
 0 LDCad-generated flexible Technic hose, approximately 71.03 mm long, composed of 17 ribbed u9053-style segments.
 0 !CATEGORY technic

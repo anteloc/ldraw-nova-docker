@@ -12,6 +12,7 @@
 1 0 -302 16 291 -0.382683 0 0.92388 0 1 0 -0.92388 0 -0.382683 6897 - Container.ldr
 
 
+0 STEP
 0 FILE 6897 - Container.ldr
 0 Compact cargo container built from a black plate base with red corner bricks, light grey arches and slopes, a trans-green helicopter windscreen, and grille tiles.
 0 Name: 6897 - Container.ldr
@@ -71,6 +72,7 @@
 1 34 0 -60 -44 -1 0 0 0 0.7826 0.6225 0 0.6225 -0.7826 2483p50.dat
 
 
+0 STEP
 0 FILE 6897 - Spaceship.ldr
 0 Large winged spaceship fuselage featuring left and right wings, a cockpit canopy, hinge assemblies, a reactor engine, and an axle bar.
 0 Name: 6897 - Spaceship.ldr
@@ -185,6 +187,7 @@
 1 0 0 -120 30 1 0 0 0 1 0 0 0 1 3068bp69.dat
 
 
+0 STEP
 0 FILE 6897 - Spaceship - Hinge 1.ldr
 0 Assembly grouping together the three sub-parts of the first wing hinge mechanism.
 0 Name: 6897 - Spaceship - Hinge 1.ldr
@@ -199,6 +202,7 @@
 1 0 0 -24 120 1 0 0 0 1 0 0 0 1 6897 - Spaceship - Hinge 1 - 3.ldr
 
 
+0 STEP
 0 FILE 6897 - Spaceship - Hinge 1 - 1.ldr
 0 Base half of the first hinge with black hinge plates, hinge bricks, and a grille tile.
 0 Name: 6897 - Spaceship - Hinge 1 - 1.ldr
@@ -220,6 +224,7 @@
 1 0 10 -40 60 0 0 -1 0 1 0 1 0 0 2412a.dat
 
 
+0 STEP
 0 FILE 6897 - Spaceship - Hinge 1 - 2.ldr
 0 Top half of the first hinge with black hinge plates, hinge bricks, and a patterned arrow tile.
 0 Name: 6897 - Spaceship - Hinge 1 - 2.ldr
@@ -241,6 +246,7 @@
 1 0 -10 -40 20 0 0 -1 0 1 0 1 0 0 3069bp15.dat
 
 
+0 STEP
 0 FILE 6897 - Spaceship - Hinge 1 - 3.ldr
 0 Articulated wing section with large wings, hinge bricks, light grey tail and winglets, and Technic bricks forming the first hinged engine pod.
 0 Name: 6897 - Spaceship - Hinge 1 - 3.ldr
@@ -300,6 +306,7 @@
 1 4 54 -138 84 -1 0 0 0 0 1 0 1 0 4589.dat
 
 
+0 STEP
 0 FILE 6897 - Spaceship - Hinge 2.ldr
 0 Assembly grouping together the two sub-parts of the second wing hinge mechanism.
 0 Name: 6897 - Spaceship - Hinge 2.ldr
@@ -313,6 +320,7 @@
 1 0 56.5684 0 60.0001 0.5395 0 -0.842 0 1 0 0.842 0 0.5395 6897 - Spaceship - Hinge 2 - 2.ldr
 
 
+0 STEP
 0 FILE 6897 - Spaceship - Hinge 2 - 1.ldr
 0 Top half of the second hinge with black hinge plates, hinge bricks, and a grille tile.
 0 Name: 6897 - Spaceship - Hinge 2 - 1.ldr
@@ -334,6 +342,7 @@
 1 0 -10 -40 60 0 0 -1 0 1 0 1 0 0 2412a.dat
 
 
+0 STEP
 0 FILE 6897 - Spaceship - Hinge 2 - 2.ldr
 0 Base half of the second hinge with black hinge plates, hinge bricks, and a patterned arrow tile.
 0 Name: 6897 - Spaceship - Hinge 2 - 2.ldr
@@ -355,6 +364,7 @@
 1 0 10 -40 20 0 0 1 0 1 0 -1 0 0 3069bp15.dat
 
 
+0 STEP
 0 FILE 6897 - Spaceship - Reactor.ldr
 0 Engine reactor built from a stanchion support topped by a red plate and a jet engine element.
 0 Name: 6897 - Spaceship - Reactor.ldr
@@ -372,6 +382,7 @@
 1 0 0 128 0 1 0 0 0 1 0 0 0 1 4229.dat
 
 
+0 STEP
 0 FILE 6897 - Spaceship - Bar.ldr
 0 Thin axle bar made of a Technic axle secured by a flanged bush.
 0 Name: 6897 - Spaceship - Bar.ldr
@@ -387,6 +398,7 @@
 1 7 110 0 0 0 0 -1 0 1 0 1 0 0 3713.dat
 
 
+0 STEP
 0 FILE 6897 - Spaceship + Minifig.ldr
 0 Grouping of the spaceship together with its two minifigure crew members.
 0 Name: 6897 - Spaceship + Minifig.ldr
@@ -400,6 +412,7 @@
 1 0 0 -61 -22 1 0 0 0 1 0 0 0 1 6897 - Minifig 1.ldr
 
 
+0 STEP
 0 FILE 6897 - Minifig 1.ldr
 0 Space Police II officer minifig wearing a white torso with radio pattern, green arms and legs, airtanks, and carrying a loudhailer.
 0 Name: 6897 - Minifig 1.ldr
@@ -434,6 +447,7 @@
 1 2 0 44 0 1 0 0 0 0 1 0 -1 0 3817.dat
 
 
+0 STEP
 0 FILE 6897 - Minifig 1 - Helmet.ldr
 0 Black space helmet with a trans-green visor for the first minifig.
 0 Name: 6897 - Minifig 1 - Helmet.ldr
@@ -449,6 +463,7 @@
 1 34 0 1.904 4.596 1 0 0 0 0.707107 0.707107 0 -0.707107 0.707107 2447.dat
 
 
+0 STEP
 0 FILE 6897 - Minifig 2.ldr
 0 Blacktron II patterned minifig with white torso, black and white limbs, airtanks, and a standard grin head.
 0 Name: 6897 - Minifig 2.ldr
@@ -481,6 +496,7 @@
 1 15 0 44 0 1 0 0 0 1 0 0 0 1 3817.dat
 
 
+0 STEP
 0 FILE 6897 - Minifig 2 - Helmet.ldr
 0 Black space helmet with a trans-neon-green visor for the second minifig.
 0 Name: 6897 - Minifig 2 - Helmet.ldr

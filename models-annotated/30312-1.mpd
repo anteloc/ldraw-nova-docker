@@ -9,6 +9,7 @@
 1 0 100 6 0 1 0 0 0 1 0 0 0 1 30312 - Construction Worker.ldr
 
 
+0 STEP
 0 FILE 30312 - Driller.ldr
 0 A yellow drilling vehicle body with a chainsaw blade, wheels, mudguards, control sticks, and grille details.
 0 Name: 30312 - Driller.ldr
@@ -82,6 +83,7 @@
 1 0 -46 21 34 -1 0 0 0 1 0 0 0 -1 30312 - Wheel.ldr
 
 
+0 STEP
 0 FILE 30312 - Construction Worker.ldr
 0 An orange construction worker minifigure with a red safety helmet and dark bluish grey hands.
 0 Name: 30312 - Construction Worker.ldr
@@ -111,6 +113,7 @@
 1 4 0 -56 0 1 0 0 0 1 0 0 0 1 3833.dat
 
 
+0 STEP
 0 FILE 30312 - Wheel.ldr
 0 A yellow wheel rim paired with a wide black tyre assembly.
 0 Name: 30312 - Wheel.ldr
@@ -124,6 +127,7 @@
 1 0 0 0 -6 0 0 -1 0 1 0 1 0 0 87697.dat
 
 
+0 STEP
 0 FILE 92582.dat
 0 A 2x2 locking hinge plate with a single finger on top, modeled as a composite box and rectangle structure.
 0 Name: 92582.dat
@@ -152,6 +156,7 @@
 1 16 -10 0 10 -1 0 0 0 1 0 0 0 -1 stud.dat
 1 16 -10 0 -10 -1 0 0 0 1 0 0 0 -1 stud.dat
 
+0 STEP
 0 FILE s\92582s01.dat
 0 A click-lock single finger hinge component made of cylinders, cones, spheres, and discs forming the locking mechanism.
 0 Name: s\92582s01.dat

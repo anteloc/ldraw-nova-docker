@@ -116,6 +116,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - tribot base - motors.ldr
 0 Structural connector bracket using a bent liftarm to mount the motor assembly.
 0 Name: 8527 - tribot base - motors.ldr
@@ -136,6 +137,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - tribot base - motors - left motor.ldr
 0 Left drive motor subassembly built from an NXT motor, bent liftarms, and pin-connected cross blocks on an axle.
 0 Name: 8527 - tribot base - motors - left motor.ldr
@@ -183,6 +185,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - tribot base - motors - center motor.ldr
 0 Center motor subassembly mounting an NXT motor between beams and cross blocks with friction pins.
 0 Name: 8527 - tribot base - motors - center motor.ldr
@@ -218,6 +221,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - tribot base - motors - right motor.ldr
 0 Right drive motor subassembly built from an NXT motor, bent liftarms, and pin-connected cross blocks on an axle.
 0 Name: 8527 - tribot base - motors - right motor.ldr
@@ -260,6 +264,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - tribot base - back wheel.ldr
 0 Rear caster wheel subassembly using belt wheels on an axle with beam and cross block supports.
 0 Name: 8527 - tribot base - back wheel.ldr
@@ -297,6 +302,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - ev3Cable-1.ldr
 0 Routed Mindstorms NXT cable path with plug end caps spanning approximately 275mm.
 0 Name: 8527 - ev3Cable-1.ldr
@@ -351,6 +357,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - ev3cable-1_subPart1.ldr
 0 Generated cable segment subpart defining the curved wire mesh for cable 1.
 0 Name: 8527 - ev3cable-1_subPart1.ldr
@@ -9213,6 +9220,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - ev3Cable-2.ldr
 0 Routed Mindstorms NXT cable path with plug end caps spanning approximately 425mm.
 0 Name: 8527 - ev3Cable-2.ldr
@@ -9258,6 +9266,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - ev3Cable-2_subPart1.ldr
 0 Generated cable segment subpart defining the curved wire mesh for cable 2.
 0 Name: 8527 - ev3Cable-2_subPart1.ldr
@@ -9879,6 +9888,7 @@
 1 16 -61.00128793 252.43192681 -117.06292728 -0.00001109 0.01727399 0.99999263 0.72062035 3.12054585 -0.00265297 -0.69332987 3.24337482 -0.00277339 8527 - ldcev3wireseg.dat
 
 
+0 STEP
 0 FILE 8527 - ev3Cable-3.ldr
 0 Routed Mindstorms NXT cable path with plug end caps spanning approximately 418mm.
 0 Name: 8527 - ev3Cable-3.ldr
@@ -9924,6 +9934,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - ev3Cable-3_subPart1.ldr
 0 Generated cable segment subpart defining the curved wire mesh for cable 3.
 0 Name: 8527 - ev3Cable-3_subPart1.ldr
@@ -10516,6 +10527,7 @@
 1 16 61.00107636 252.48000933 -117.01371461 -0.0000073 -0.01807724 -0.99999193 -0.72187079 3.11410034 -0.00277472 0.69202786 3.24839226 -0.00290493 8527 - ldcev3wireseg.dat
 
 
+0 STEP
 0 FILE 8527 - ldcev3wireseg.dat
 0 Reusable wire segment primitive composed of cylinders defining a cable cross-section.
 0 Name: 8527 - ldcev3wireseg.dat
@@ -10550,6 +10562,7 @@
 
 
 
+0 STEP
 0 FILE 8527 - ldcconring-2-4.dat
 0 Connector ring primitive used to cap and edge cable segments within the path generator.
 0 Name: 8527 - ldcconring-2-4.dat

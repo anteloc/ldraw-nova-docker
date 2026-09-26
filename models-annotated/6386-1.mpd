@@ -28,6 +28,7 @@
 
 
 
+0 STEP
 0 FILE 6386 - building.ldr
 0 A large police station building constructed on a road-patterned baseplate with walls of bricks, windows, and interior details including a cup.
 0 Name: 6386 - building.ldr
@@ -533,6 +534,7 @@
 
 
 
+0 STEP
 0 FILE 6386 - police car.ldr
 0 A black and white police car built from plates with mudguards, wheels, transparent lights, and a hinged component.
 0 Name: 6386 - police car.ldr
@@ -668,6 +670,7 @@
 
 
 
+0 STEP
 0 FILE 6386 - police helicopter.ldr
 0 A police helicopter with bars, wings, inverted slopes, cones, and hinge control sticks forming the rotor and body.
 0 Name: 6386 - police helicopter.ldr
@@ -806,6 +809,7 @@
 
 
 
+0 STEP
 0 FILE 6386 - policemen 1.ldr
 0 A police officer minifigure wearing a white helmet with visor and a black torso with a zipper and police badge.
 0 Name: 6386 - policemen 1.ldr
@@ -843,6 +847,7 @@
 
 
 
+0 STEP
 0 FILE 6386 - policemen 2.ldr
 0 A police officer minifigure wearing a white police hat and a black torso with buttons and a police badge.
 0 Name: 6386 - policemen 2.ldr
@@ -880,6 +885,7 @@
 
 
 
+0 STEP
 0 FILE 6386 - police motorbike.ldr
 0 A police motorcycle with a frame, two offset-tread tyres, transparent indicator lights, and POLICE-patterned tiles.
 0 Name: 6386 - police motorbike.ldr
@@ -919,6 +925,7 @@
 
 
 
+0 STEP
 0 FILE 6386 - 4480c01.dat
 0 A motorcycle frame subassembly consisting of left and right side panels with front forks.
 0 Bike 2 Wheel Motorcycle Frame  3 x  6 x  3 (Complete)
@@ -938,6 +945,7 @@
 
 
 
+0 STEP
 0 FILE 6386 - 4481.dat
 0 A composite motorcycle wheel/hub part formed from cylinders, rectangles, circles, a patch, a pinholes element, and a LEGO logo.
 0 ~Bike 2 Wheel Motorcycle Frame  3 x  6 x  3 - Left Side
@@ -1010,6 +1018,7 @@
 
 
 
+0 STEP
 0 FILE 6386 - 4480.dat
 0 A detailed motorcycle frame part composed of geometric primitives including a rear section, boxes, cylinders, rings, and discs defining the body and legs.
 0 ~Bike 2 Wheel Motorcycle Frame  3 x  6 x  3 - Right Side
@@ -1183,6 +1192,7 @@
 
 
 
+0 STEP
 0 FILE 6386 - 4481s01.dat
 0 A subpart for a motorcycle wheel/hub built from numerous rectangles, circles, cylinders, discs, and rings defining its curved geometry.
 0 ~Bike 2 Wheel Motorcycle Frame  3 x  6 x  3 - Left/Right
@@ -2166,6 +2176,7 @@
 
 
 
+0 STEP
 0 FILE 6386 - logo5.dat
 0 An empty decorative logo placeholder part with no direct pieces.
 0 LEGO Logo for Studs - 3D Flattened

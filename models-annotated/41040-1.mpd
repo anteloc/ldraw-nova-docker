@@ -13,6 +13,7 @@
 1 28 90 36 -50 1 0 0 0 1 0 0 0 1 95344.dat
 
 
+0 STEP
 0 FILE 40140 - Cart.ldr
 0 A wheeled cart built from plates, panels, and an arch with a barrel, wheels, and handle for pulling.
 0 Name: 40140 - Cart.ldr
@@ -130,6 +131,7 @@
 0 // Minifig Pushbroom (reddish_brown)
 1 70 -70 -42 -30 0 0 -1 0 1 0 1 0 0 3836.dat
 
+0 STEP
 0 FILE 40140 - Minifig.ldr
 0 A minifigure with a red torso and arms, green legs, yellow hands, and a dark brown tousled hairstyle.
 0 Name: 40140 - Minifig.ldr

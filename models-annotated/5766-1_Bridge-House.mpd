@@ -7,6 +7,7 @@
 1 4 0 0 0 1 0 0 0 1 0 0 0 1 5766 - Bridge House.ldr
 
 
+0 STEP
 0 FILE 5766 - Bridge House.ldr
 0 A two-story reddish brown house built on a large green baseplate with windows, corner slopes, and hinged construction.
 0 Name: 5766 - Bridge House.ldr
@@ -480,6 +481,7 @@
 1 27 -120 -99 -70 1 0 0 0 1 0 0 0 1 5766 - Camper.ldr
 
 
+0 STEP
 0 FILE 5766 - Bin.ldr
 0 A small yellow and tan trash bin with clip plates and a handle for lifting.
 0 Name: 5766 - Bin.ldr
@@ -511,6 +513,7 @@
 1 71 0 -22 -18 -1 0 0 0 0 1 0 1 0 48336.dat
 
 
+0 STEP
 0 FILE 5766 - Roof.ldr
 0 A dark red pitched roof assembly with tan support plates and light bluish grey framing.
 0 Name: 5766 - Roof.ldr
@@ -545,6 +548,7 @@
 1 320 -60 -40 -10 1 0 0 0 1 0 0 0 1 4445.dat
 
 
+0 STEP
 0 FILE 5766 - Lamp.ldr
 0 A small street lamp with a black post and a translucent neon orange glowing top.
 0 Name: 5766 - Lamp.ldr
@@ -563,6 +567,7 @@
 1 19 0 -38 20 1 0 0 0 1 0 0 0 1 87087.dat
 
 
+0 STEP
 0 FILE 5766 - Window Top.ldr
 0 A tan and reddish brown window frame top piece with yellow accent trim.
 0 Name: 5766 - Window Top.ldr
@@ -585,6 +590,7 @@
 1 70 50 -16 0 0 0 1 0 1 0 -1 0 0 3023.dat
 
 
+0 STEP
 0 FILE 5766 - Chimney.ldr
 0 A reddish brown and grey chimney stack topped with a round black flue.
 0 Name: 5766 - Chimney.ldr
@@ -606,6 +612,7 @@
 1 0 -40 -56 0 0 0 1 0 1 0 -1 0 0 3062b.dat
 
 
+0 STEP
 0 FILE 5766 - Tree.ldr
 0 A reddish brown tree trunk with hinged arches and green leafy branches featuring lime foliage.
 0 Name: 5766 - Tree.ldr
@@ -664,6 +671,7 @@
 1 27 -10 -88 50 -0.707 0 -0.707 0 1 0 0.707 0 -0.707 49668.dat
 
 
+0 STEP
 0 FILE 5766 - Branch1.ldr
 0 A small green tree branch with dark green and lime toothed leaves.
 0 Name: 5766 - Branch1.ldr
@@ -681,6 +689,7 @@
 1 27 10 -16 0 1 0 0 0 1 0 0 0 1 49668.dat
 
 
+0 STEP
 0 FILE 5766 - Branch2.ldr
 0 A small green tree branch with dark green and lime toothed leaves.
 0 Name: 5766 - Branch2.ldr
@@ -698,6 +707,7 @@
 1 27 10 -8 0 -1 0 0 0 1 0 0 0 -1 49668.dat
 
 
+0 STEP
 0 FILE 5766 - Camper.ldr
 0 A minifigure camper with a blue torso, tan legs, a red cap, and a turkey leg accessory.
 0 Name: 5766 - Camper.ldr

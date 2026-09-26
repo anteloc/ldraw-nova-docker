@@ -12,6 +12,7 @@
 1 0 0 0 140 1 0 0 0 1 0 0 0 1 6894 - Rear.ldr
 1 0 -161.202 0 -194.458 0.92388 0 -0.382683 0 1 0 0.382683 0 0.92388 6894 - Robot.ldr
 
+0 STEP
 0 FILE 6894 - Cockpit.ldr
 0 A black-and-yellow angled cockpit section with sloped panels, a computer tile, and a decorative control panel pattern.
 0 Name: 6894 - Cockpit.ldr
@@ -168,6 +169,7 @@
 1 46 0 -61 -12 1 0 0 0 1 0 0 0 1 6894 - Minifig.ldr
 
 
+0 STEP
 0 FILE 6894 - Middle.ldr
 0 A black-and-yellow central body section built from long plates, inverted slopes, and technic bricks connecting the fuselage.
 0 Name: 6894 - Middle.ldr
@@ -257,6 +259,7 @@
 1 0 -30 -80 -80 0 0 1 0 1 0 -1 0 0 3039.dat
 1 0 0 -86 -60 1 0 0 0 0 1 0 -1 0 6894 - Middle - Roof.ldr
 
+0 STEP
 0 FILE 6894 - Middle - Roof.ldr
 0 A hinged roof assembly featuring the Blacktron I logo panels, an arrow indicator, and red translucent tiles.
 0 Name: 6894 - Middle - Roof.ldr
@@ -292,6 +295,7 @@
 1 0 0 -136 10 1 0 0 0 1 0 0 0 1 3068b.dat
 
 
+0 STEP
 0 FILE 6894 - Rear.ldr
 0 A black-and-yellow rear fuselage section with hinge plates for mounting wings, a round engine brick, and a sloped tail.
 0 Name: 6894 - Rear.ldr
@@ -348,6 +352,7 @@
 0 // Tile  2 x  2 with Groove (black)
 1 0 0 -72 20 1 0 0 0 1 0 0 0 1 3068b.dat
 
+0 STEP
 0 FILE 6894 - Rear - Wing 1.ldr
 0 A single red translucent wing panel mounted on a hinged plate for adjustable positioning.
 0 Name: 6894 - Rear - Wing 1.ldr
@@ -362,6 +367,7 @@
 0 // Plate  3 x  6 without Corners (trans_red)
 1 36 -40 -8 -20 1 0 0 0 1 0 0 0 1 2419.dat
 
+0 STEP
 0 FILE 6894 - Rear - Wing 2.ldr
 0 A single red translucent wing panel mounted on a hinged plate, mirroring the opposite wing.
 0 Name: 6894 - Rear - Wing 2.ldr
@@ -374,6 +380,7 @@
 0 // Plate  3 x  6 without Corners (trans_red)
 1 36 -40 -8 20 -1 0 0 0 1 0 0 0 -1 2419.dat
 
+0 STEP
 0 FILE 6894 - Minifig.ldr
 0 A Blacktron I pilot minifigure with airtanks, black patterned torso, and yellow head and hands.
 0 Name: 6894 - Minifig.ldr
@@ -406,6 +413,7 @@
 1 0 0 44 0 1 0 0 0 0 1 0 -1 0 3816.dat
 
 
+0 STEP
 0 FILE 6894 - Minifig - Helmet.ldr
 0 A standard black minifigure helmet with matching visor.
 0 Name: 6894 - Minifig - Helmet.ldr
@@ -421,6 +429,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 2447.dat
 
 
+0 STEP
 0 FILE 6894 - Robot.ldr
 0 A small robot figure built from round clip bricks, a console tile, and a translucent red light element.
 0 Name: 6894 - Robot.ldr

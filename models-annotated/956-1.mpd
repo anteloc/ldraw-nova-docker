@@ -11,6 +11,7 @@
 
 
 
+0 STEP
 0 FILE 956 - chassis.ldr
 0 Red and grey vehicle chassis frame of long Technic bricks and plates with a drivetrain of gears, axles, universal joints and four rubber-tyred wheels
 0 Name: 956 - chassis.ldr
@@ -680,6 +681,7 @@
 
 
 
+0 STEP
 0 FILE 956 - engine.ldr
 0 Blue engine-block assembly of plates and bricks with an internal Technic gear, bush and axle
 0 Name: 956 - engine.ldr
@@ -946,6 +948,7 @@
 
 
 
+0 STEP
 0 FILE 956 - power.ldr
 0 Blue Technic power train of pistons and 8/24/40-tooth gears on axles and bushes with connecting rods
 0 Name: 956 - power.ldr
@@ -1062,6 +1065,7 @@
 
 
 
+0 STEP
 0 FILE 956 - prod.ldr
 0 Small Technic connecting rod: a short axle joining two pin/bush connectors with studs
 0 Name: 956 - prod.ldr
@@ -1078,6 +1082,7 @@
 
 
 
+0 STEP
 0 FILE 956 - steer.ldr
 0 Red steering assembly with turntables, Technic gears, axles, bushes and holed plates
 0 Name: 956 - steer.ldr
@@ -1287,6 +1292,7 @@
 
 
 
+0 STEP
 0 FILE 956 - trod.ldr
 0 Small Technic tie-rod linkage of pins, pin/bush connectors and a short axle
 0 Name: 956 - trod.ldr
@@ -1307,6 +1313,7 @@
 
 
 
+0 STEP
 0 FILE 956 - rseat.ldr
 0 Yellow rear seat assembly of plates and bricks with a hinged backrest
 0 Name: 956 - rseat.ldr
@@ -1465,6 +1472,7 @@
 
 
 
+0 STEP
 0 FILE 956 - fseatr.ldr
 0 Yellow front seat (right) assembly of plates and bricks with a hinged section
 0 Name: 956 - fseatr.ldr
@@ -1547,6 +1555,7 @@
 
 
 
+0 STEP
 0 FILE 956 - fseatl.ldr
 0 Yellow front seat (left) assembly of plates and bricks with a hinged section
 0 Name: 956 - fseatl.ldr
@@ -1629,6 +1638,7 @@
 
 
 
+0 STEP
 0 FILE 956 - rack.ldr
 0 Red gear-rack base plate with a light-grey Technic gear rack and tie-rod linkages
 0 Name: 956 - rack.ldr

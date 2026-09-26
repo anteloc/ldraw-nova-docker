@@ -342,6 +342,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-1.ldr
 0 Right upper X-wing wing assembly with S-foil attack-position gearing, engine nacelle, laser cannons, and technic liftarm linkage
 0 Name: 10240 - subModel-1.ldr
@@ -570,6 +571,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-2.ldr
 0 Small engine nacelle panel section built from plates, a hinge plate and a technic brick
 0 Author: Roland Dahl [RolandD]
@@ -622,6 +624,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-3.ldr
 0 Technic pin and axle linkage for the S-foil wing-opening mechanism
 0 Author: Roland Dahl [RolandD]
@@ -655,6 +658,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-4.ldr
 0 Technic axle, gear and pin sub-assembly for the wing-opening mechanism
 0 Author: Roland Dahl [RolandD]
@@ -697,6 +701,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-5.ldr
 0 Technic pin connector block built from a 1x8 technic brick with pins
 0 Author: Roland Dahl [RolandD]
@@ -721,6 +726,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-6.ldr
 0 Technic pin connector block built from a 1x6 technic brick and friction pin
 0 Author: Roland Dahl [RolandD]
@@ -740,6 +746,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-7.ldr
 0 Technic pin connector block built from a 1x6 technic brick and 3/4 pin
 0 Author: Roland Dahl [RolandD]
@@ -759,6 +766,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-8.ldr
 0 Technic worm-gear gearbox with a 24-tooth gear driving the S-foil opening mechanism
 0 Author: Roland Dahl [RolandD]
@@ -791,6 +799,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-9.ldr
 0 Small plate detail assembly with a 2x3 plate and a grooved centre-stud plate
 0 Author: Roland Dahl [RolandD]
@@ -809,6 +818,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-10.ldr
 0 Small plate detail assembly with a 2x3 plate and a grooved centre-stud plate
 0 Author: Roland Dahl [RolandD]
@@ -827,6 +837,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-11.ldr
 0 Technic quadruple axle-connector hub with axles and a pin joiner
 0 Author: Roland Dahl [RolandD]
@@ -871,6 +882,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-12.ldr
 0 Technic liftarm strut assembly (bent 90, beams 3/5/9) with pins, used as an engine/leg support
 0 Author: Roland Dahl [RolandD]
@@ -958,6 +970,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-13.ldr
 0 Technic axle and short liftarm connector
 0 Author: Roland Dahl [RolandD]
@@ -975,6 +988,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-14.ldr
 0 Technic landing-leg/engine support strut assembly with angled liftarms, axles and pin joiners
 0 Author: Roland Dahl [RolandD]
@@ -1073,6 +1087,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-15.ldr
 0 Technic beam-9 strut with friction and half pins
 0 Author: Roland Dahl [RolandD]
@@ -1094,6 +1109,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-16.ldr
 0 Technic angled liftarm connector with axle pin and stop axle
 0 Author: Roland Dahl [RolandD]
@@ -1119,6 +1135,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-17.ldr
 0 Technic cross-block axle joint with notched axle and stop-bush pin
 0 Author: Roland Dahl [RolandD]
@@ -1144,6 +1161,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-18.ldr
 0 Lower wing/cannon mount assembly with technic structure, corner bricks and sloped armor
 0 Author: Roland Dahl [RolandD]
@@ -1256,6 +1274,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-19.ldr
 0 Small plate bracket sub-assembly for the lower wing
 0 Author: Roland Dahl [RolandD]
@@ -1276,6 +1295,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-20.ldr
 0 Technic stop-axle connector for the wing mechanism
 0 Author: Roland Dahl [RolandD]
@@ -1293,6 +1313,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-21.ldr
 0 Technic stop-axle connector for the wing mechanism
 0 Author: Roland Dahl [RolandD]
@@ -1310,6 +1331,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-22.ldr
 0 Long 2x12 plate spar for wing structure
 0 Author: Roland Dahl [RolandD]
@@ -1328,6 +1350,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-23.ldr
 0 Engine nacelle/rear fuselage section with sloped fairing, round dish, brackets and technic gearing
 0 Author: Roland Dahl [RolandD]
@@ -1530,6 +1553,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-24.ldr
 0 Plate detail strip built from 1x8 and 1x4 plates
 0 Author: Roland Dahl [RolandD]
@@ -1547,6 +1571,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-25.ldr
 0 Technic stop-axle with 20-tooth double-bevel gear for the wing mechanism
 0 Author: Roland Dahl [RolandD]
@@ -1564,6 +1589,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-26.ldr
 0 Sloped plate detail assembly with a 2x4 plate and a 45.73 slope plate
 0 Author: Roland Dahl [RolandD]
@@ -1588,6 +1614,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-27.ldr
 0 Curved sloped panel assembly with plates and a triple-curved slope
 0 Author: Roland Dahl [RolandD]
@@ -1618,6 +1645,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-28.ldr
 0 Sloped plate fairing assembly with a 1x12 plate and a 31-slope
 0 Author: Roland Dahl [RolandD]
@@ -1678,6 +1706,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-29.ldr
 0 Landing-gear/wing-tip rotor plate assembly with a 2-blade technic rotor
 0 Author: Roland Dahl [RolandD]
@@ -1705,6 +1734,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-30.ldr
 0 Curved wing-tip wedge assembly with quadruple-curved wedge and 2x4 wings
 0 Author: Roland Dahl [RolandD]
@@ -1727,6 +1757,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-31.ldr
 0 Landing-gear/wing-tip rotor plate assembly with a 2-blade technic rotor
 0 Author: Roland Dahl [RolandD]
@@ -1754,6 +1785,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-33.ldr
 0 Plate spar assembly built from 2x6, 2x4 and 2x8 plates
 0 Author: Roland Dahl [RolandD]
@@ -1777,6 +1809,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-34.ldr
 0 Technic connector brick assembly with a pinned axlehole brick
 0 Author: Roland Dahl [RolandD]
@@ -1794,6 +1827,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-35.ldr
 0 Grille-vent detail assembly with a handle plate and a grille tile
 0 Author: Roland Dahl [RolandD]
@@ -1811,6 +1845,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-36.ldr
 0 Hinged canopy/fuselage hatch assembly with 1x4 hinge bricks, plates, tiles and a technic rotor
 0 Author: Roland Dahl [RolandD]
@@ -1888,6 +1923,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-37.ldr
 0 Hinged canopy/fuselage hatch assembly with 1x4 hinge bricks, plates, tiles and a technic rotor
 0 Author: Roland Dahl [RolandD]
@@ -1965,6 +2001,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-38.ldr
 0 Grille-vent detail assembly with a 1x8 plate and a grille tile
 0 Author: Roland Dahl [RolandD]
@@ -1985,6 +2022,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-39.ldr
 0 Tile trim-strip assembly with 1x3 plate and tile
 0 Author: Roland Dahl [RolandD]
@@ -2002,6 +2040,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-40.ldr
 0 Hinged engine-intake assembly with a curved 4x4 wedge and locking hinge plate
 0 Author: Roland Dahl [RolandD]
@@ -2033,6 +2072,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-41.ldr
 0 Sloped fuselage side fairing with double-inverted wedges, curved slopes and plates
 0 Author: Roland Dahl [RolandD]
@@ -2129,6 +2169,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-42.ldr
 0 Cannon/nozzle mount assembly with sloped armor, black tiles and an axlehole plate
 0 Author: Roland Dahl [RolandD]
@@ -2194,6 +2235,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-43.ldr
 0 Hose-nozzle and clip detail assembly for the cannon tip
 0 Author: Roland Dahl [RolandD]
@@ -2214,6 +2256,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-44.ldr
 0 Cockpit/fuselage side-panel assembly with metallic grille vents, corner panels and an axlehole plate
 0 Author: Roland Dahl [RolandD]
@@ -2292,6 +2335,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-45.ldr
 0 Metallic grille-vent detail assembly with grooved plates
 0 Author: Roland Dahl [RolandD]
@@ -2319,6 +2363,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-46.ldr
 0 Twin inverted-dish sensor detail assembly (3x3 and 2x2)
 0 Author: Roland Dahl [RolandD]
@@ -2336,6 +2381,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-47.ldr
 0 Upper X-wing wing panel assembly with wings, plates, metallic grilles and a locking hinge
 0 Author: Roland Dahl [RolandD]
@@ -2418,6 +2464,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-48.ldr
 0 Light-clip sensor detail assembly with a round plate
 0 Author: Roland Dahl [RolandD]
@@ -2438,6 +2485,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - shock-06_5L-soft-1.ldr
 0 shock-06_5L-soft-1
 0 !CATEGORY Technic
@@ -2477,6 +2525,7 @@
 0 //End cap reference(s)
 0 // ~Technic Shock Absorber  6.5L Piston Rod (black)
 1 0 0 110 0 1 0 0 0 1 0 0 0 1 4254.dat
+0 STEP
 0 FILE 10240 - shock-06_5L-soft-2.ldr
 0 shock-06_5L-soft-2
 0 !CATEGORY Technic
@@ -2519,6 +2568,7 @@
 0 //Spring mesh reference
 1 494 0 56 0 1 0 0 0 1 0 0 0 1 10240 - shock-06_5L-soft-2 spring mesh.ldr
 
+0 STEP
 0 FILE 10240 - shock-06_5L-soft-2 spring mesh.ldr
 0 shock-06_5L-soft-2 spring mesh
 0 Name: 10240 - shock-06_5L-soft-2 spring mesh.ldr
@@ -6807,6 +6857,7 @@
 3 16 -7.625 31.120214 0.016406 -7.183058 31.303211 0.011601 -7.625 31.749102 0.156196
 2 24 -7.625 31.120214 0.016406 -7.183058 31.303211 0.011601
 5 24 -7.625 31.749102 0.156196 -7.183058 31.303211 0.011601 -7.625 31.120214 0.016406 -7 31.745001 0
+0 STEP
 0 FILE 10240 - subModel-49.ldr
 0 Hose-nozzle detail assembly with a clipped bar tube
 0 Author: Roland Dahl [RolandD]
@@ -6825,6 +6876,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-50.ldr
 0 Antenna/bar detail assembly with bracket, clips and a 6L stop bar
 0 Author: Roland Dahl [RolandD]
@@ -6855,6 +6907,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-51.ldr
 0 R2-D2 astromech droid assembly with patterned body, dome head and robot leg
 0 Author: Roland Dahl [RolandD]
@@ -6878,6 +6931,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-52.ldr
 0 Right lower X-wing wing assembly with wings, sloped leading edge and hinge mechanism
 0 Author: Roland Dahl [RolandD]
@@ -7044,6 +7098,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-53.ldr
 0 Technic beam-9 spar with friction pins and a holed plate
 0 Author: Roland Dahl [RolandD]
@@ -7085,6 +7140,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-54.ldr
 0 Right wing-tip wedge with metallic grille detail
 0 Author: Roland Dahl [RolandD]
@@ -7108,6 +7164,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-55.ldr
 0 Left lower X-wing wing assembly with wings, sloped leading edge and hinge mechanism
 0 Author: Roland Dahl [RolandD]
@@ -7274,6 +7331,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-56.ldr
 0 Left wing-tip wedge with metallic grille detail
 0 Author: Roland Dahl [RolandD]
@@ -7297,6 +7355,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-57.ldr
 0 Technic cross-block joint with axle, pin joiner and a clip plate
 0 Author: Roland Dahl [RolandD]
@@ -7336,6 +7395,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-58.ldr
 0 Rounded engine nacelle/thruster assembly with cylinders, round bricks and a technic core
 0 Author: Roland Dahl [RolandD]
@@ -7401,6 +7461,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-59.ldr
 0 Technic engine turbine core with a 4x4x2 cylinder, axle and liftarm
 0 Author: Roland Dahl [RolandD]
@@ -7427,6 +7488,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-60.ldr
 0 Technic angle-connector linkage assembly for the engine/landing gear
 0 Author: Roland Dahl [RolandD]
@@ -7454,6 +7516,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-61.ldr
 0 Technic engine intake/thruster nozzle with belt wheel, rod frame and sensor detailing
 0 Author: Roland Dahl [RolandD]
@@ -7526,6 +7589,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-62.ldr
 0 Rounded engine nacelle/thruster assembly with cylinders, round bricks and a technic core
 0 Author: Roland Dahl [RolandD]
@@ -7592,6 +7656,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-63.ldr
 0 Technic engine turbine core with a 4x4x2 cylinder, axle and liftarm
 0 Author: Roland Dahl [RolandD]
@@ -7615,6 +7680,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-64.ldr
 0 Technic landing-gear/wheel strut assembly with gears, wheel rims, round bricks and axles
 0 Author: Roland Dahl [RolandD]
@@ -7668,6 +7734,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-65.ldr
 0 Technic axle-joiner linkage assembly for the landing gear
 0 Author: Roland Dahl [RolandD]
@@ -7695,6 +7762,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-66.ldr
 0 Technic axle-joiner linkage assembly for the landing gear
 0 Author: Roland Dahl [RolandD]
@@ -7722,6 +7790,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - subModel-67.ldr
 0 Landing leg/wheel strut assembly with hinge arms, offset joiners and a wheel rim
 0 Author: Roland Dahl [RolandD]
@@ -7751,6 +7820,7 @@
 
 
 
+0 STEP
 0 FILE 10240 - 92582.dat
 0 Hinge Plate  2 x  2 Locking with Single Finger On Top
 0 Name: 10240 - 92582.dat
@@ -7781,6 +7851,7 @@
 
 
 
+0 STEP
 0 FILE s\10240 - 92582s01.dat
 0 ~Click Lock Hinge Single Finger for Plate Top w. Wide Groove 2L
 0 Name: s\10240 - 92582s01.dat
@@ -8135,6 +8206,7 @@
 0 // Chord 0.125 (main_colour)
 1 16 -4 -7 0 0 1 0 6.46716 0 2.67878 -2.67878 0 6.46716 1-8chrd.dat
 
+0 STEP
 0 FILE 10240 - subModel-68.ldr
 0 Display-stand base assembly with long bricks, curved slopes, technic axles and a dish
 0 Name: 10240 - subModel-68.ldr
@@ -8271,6 +8343,7 @@
 0 !LDCAD GROUP_NXT [ids=1] [nrs=7]
 0 // Dish  2 x  2 with Rim (black)
 1 0 -155.409 -14.198 -170 -0.174 0.985 0 0.985 0.174 0 0 0 -1 2654.dat
+0 STEP
 0 FILE 10240 - subModel-69.ldr
 0 Technic pin-joint assembly with a round pin joiner
 0 Name: 10240 - subModel-69.ldr
@@ -8282,6 +8355,7 @@
 1 0 20 0 0 1 0 0 0 1 0 0 0 1 2780.dat
 0 // Technic Pin with Friction and Slots (black)
 1 0 -20 0 0 1 0 0 0 1 0 0 0 1 2780.dat
+0 STEP
 0 FILE 10240 - subModel-70.ldr
 0 Technic bent-liftarm strut assembly with a 4-axle
 0 Name: 10240 - subModel-70.ldr

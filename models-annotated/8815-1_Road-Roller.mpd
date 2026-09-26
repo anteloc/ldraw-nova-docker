@@ -11,6 +11,7 @@
 
 
 
+0 STEP
 0 FILE 8815 - Road_Roller.ldr
 0 The red Technic chassis featuring steering rack, lift arms, plates, and slope bricks that form the main body of the road roller.
 0 Name: 8815 - Road_Roller.ldr
@@ -109,6 +110,7 @@
 
 
 
+0 STEP
 0 FILE 8815 - Front-Roller.ldr
 0 A front roller assembly built from a Technic axle, two lift arms, and flanged bushes.
 0 Name: 8815 - Front-Roller.ldr
@@ -136,6 +138,7 @@
 
 
 
+0 STEP
 0 FILE 8815 - Wheel_With_Tyre.ldr
 0 A complete wheel unit consisting of a white rim fitted with an offset-tread rubber tyre.
 0 Name: 8815 - Wheel_With_Tyre.ldr
@@ -150,6 +153,7 @@
 
 
 
+0 STEP
 0 FILE 8815 - Hinge.ldr
 0 A simple red hinge assembly combining a hinge base and hinge top for articulation.
 0 Name: 8815 - Hinge.ldr
@@ -164,6 +168,7 @@
 
 
 
+0 STEP
 0 FILE 8815 - Steering_Shaft.ldr
 0 A steering shaft subassembly with an axle, wedge belt wheel, and spacing bushes.
 0 Name: 8815 - Steering_Shaft.ldr
@@ -183,6 +188,7 @@
 
 
 
+0 STEP
 0 FILE 8815 - 4185a.dat
 0 A geometric primitive assembly of rectangles, cylinders, and an axle-hole forming a structural connector element.
 0 Name: 8815 - 4185a.dat
@@ -261,6 +267,7 @@
 
 
 
+0 STEP
 0 FILE s\8815 - 4185as01.dat
 0 A detailed Technic wedge belt wheel quarter built from cylinders, rings, and discs defining its rounded pulley profile.
 0 Name: s\8815 - 4185as01.dat

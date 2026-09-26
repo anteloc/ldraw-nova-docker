@@ -1277,6 +1277,7 @@
 
 
 
+0 STEP
 0 FILE 10258 - engine.ldr
 0 A small mechanical engine assembly built from grey plates, a dark bluish grey brick with side studs, clips and bars, suggesting a motor block with pipes and fittings.
 0 Name: 10258 - engine.ldr
@@ -1331,6 +1332,7 @@
 
 
 
+0 STEP
 0 FILE 10258 - step.ldr
 0 A compact single step made of light bluish grey plates and a smooth tile, with a small round black accent piece.
 0 Name: 10258 - step.ldr
@@ -1352,6 +1354,7 @@
 
 
 
+0 STEP
 0 FILE 10258 - rear.ldr
 0 The rear section of the bus with red bricks and plates forming the back wall, featuring trans red and trans orange light tiles and a yellow license plate tile.
 0 Name: 10258 - rear.ldr
@@ -1428,6 +1431,7 @@
 
 
 
+0 STEP
 0 FILE 10258 - seat3.ldr
 0 A curved bench seat assembly in tan with light and dark bluish grey plates and handle clips, forming a contoured passenger seat.
 0 Name: 10258 - seat3.ldr
@@ -1469,6 +1473,7 @@
 
 
 
+0 STEP
 0 FILE 10258 - seat2.ldr
 0 A shorter curved seat unit in tan with light bluish grey plates and handle clips, forming a compact passenger seat.
 0 Name: 10258 - seat2.ldr
@@ -1502,6 +1507,7 @@
 
 
 
+0 STEP
 0 FILE 10258 - bonnet.ldr
 0 The front bonnet of the bus, using red curved slopes, a wedge plate and dark red dishes, mounted on a dark bluish grey and black plate base with a handle.
 0 Name: 10258 - bonnet.ldr
@@ -1530,6 +1536,7 @@
 
 
 
+0 STEP
 0 FILE 10258 - calender.ldr
 0 A dashboard or interior panel assembly with grille tiles forming vents, red wings and tiles, and brackets, suggesting a grille and instrument panel detail.
 0 Name: 10258 - calender.ldr
@@ -1592,6 +1599,7 @@
 
 
 
+0 STEP
 0 FILE 10258 - deck.ldr
 0 The large main body and lower deck of the bus, built from extensive red plates and bricks, log-textured side pillars, clear window and windscreen panels, plus decorative details like flags, a newspaper tile and soda can tile.
 0 Name: 10258 - deck.ldr
@@ -2684,6 +2692,7 @@
 
 
 
+0 STEP
 0 FILE 10258 - roofrear.ldr
 0 The rear roof section of the bus, composed of red and black plates, 45-degree slope plates and curved top bricks forming the sloped rear roofline.
 0 Name: 10258 - roofrear.ldr
@@ -2790,6 +2799,7 @@
 
 
 
+0 STEP
 0 FILE 10258 - rooffront.ldr
 0 The front roof section of the bus, using red and black plates, curved top bricks and brackets with tiles to form the sloped front roofline.
 0 Name: 10258 - rooffront.ldr
@@ -2858,6 +2868,7 @@
 
 
 
+0 STEP
 0 FILE 10258 - roof.ldr
 0 The main upper roof of the bus, built from large white and red plates, black bricks, curved top bricks and numerous red tiles and brackets forming the domed roof surface.
 0 Name: 10258 - roof.ldr
@@ -3060,6 +3071,7 @@
 
 
 
+0 STEP
 0 FILE 10258 - 25269.dat
 0 A single disc quarter primitive part used as a geometric component in a custom LEGO element.
 0 Name: 10258 - 25269.dat
@@ -3074,6 +3086,7 @@
 1 16 -10 0 10 0 0 20 0 1 0 -20 0 0 1-4disc.dat
 
 
+0 STEP
 0 FILE s\10258 - 25269s01.dat
 0 A subpart made of geometric primitives (boxes, circles, cylinders, rectangles and chords) that form the underlying shape of a custom LEGO wheel or disc element.
 0 Name: s\10258 - 25269s01.dat

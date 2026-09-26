@@ -51,6 +51,7 @@
 1 36 30 -30 -72 1 0 0 0 0 -1 0 1 0 6141.dat
 1 36 0 9.34 -15 1 0 0 0 0.866 0.5 0 -0.5 0.866 7218 - Motor.ldr
 
+0 STEP
 0 FILE 7218 - Motor.ldr
 0 A small outboard motor assembly with a hinged mount, piston-detail slope, and a three-blade propeller.
 0 Name: 7218 - Motor.ldr

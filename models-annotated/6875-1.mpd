@@ -11,6 +11,7 @@
 1 0 0 -61 48 1 0 0 0 1 0 0 0 1 6875 - Minifig.ldr
 
 
+0 STEP
 0 FILE 6875 - Spaceship.ldr
 0 A white single-seat spaceship featuring a large cockpit canopy, four jet engines with fins, swept wings, and sloped nose detailing.
 0 Name: 6875 - Spaceship.ldr
@@ -80,6 +81,7 @@
 1 15 -120 0 40 1 0 0 0 1 0 0 0 1 6875 - Spaceship - Side.ldr
 
 
+0 STEP
 0 FILE 6875 - Spaceship - Cockpit.ldr
 0 An enclosed cockpit assembly with a transparent dark blue canopy, trans_dark_blue panels, control antennas, and inverted sloped framing.
 0 Name: 6875 - Spaceship - Cockpit.ldr
@@ -141,6 +143,7 @@
 1 33 -30 -30 -326 1 0 0 0 0 1 0 -1 0 4589.dat
 
 
+0 STEP
 0 FILE 6875 - Spaceship - Hinge.ldr
 0 A small hinged joint assembly using two finger hinges and a handle tile for articulation.
 0 Name: 6875 - Spaceship - Hinge.ldr
@@ -158,6 +161,7 @@
 1 15 0 -68 0 1 0 0 0 1 0 0 0 1 2432.dat
 
 
+0 STEP
 0 FILE 6875 - Spaceship - Side.ldr
 0 A side panel module with a black wing element, extension plates, round trans_red lights, and twin control sticks with a grille tile.
 0 Name: 6875 - Spaceship - Side.ldr
@@ -205,6 +209,7 @@
 1 0 50 -40 0 0 0 1 0 1 0 -1 0 0 2412b.dat
 
 
+0 STEP
 0 FILE 6875 - Minifig.ldr
 0 A yellow-skinned Futuron astronaut minifigure with a white patterned torso, airtanks, and standard hips and legs.
 0 Name: 6875 - Minifig.ldr
@@ -237,6 +242,7 @@
 1 14 0 44 0 1 0 0 0 0 1 0 -1 0 3817.dat
 
 
+0 STEP
 0 FILE 6875 - Minifig - Helmet.ldr
 0 A standard yellow astronaut helmet with a transparent dark blue visor.
 0 Name: 6875 - Minifig - Helmet.ldr

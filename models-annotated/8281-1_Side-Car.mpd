@@ -7,6 +7,7 @@
 1 71 0.619 3.686 0.274 1 -0.017 0 0.017 1 -0.017 0 0.017 1 8281 - Side Car.ldr
 
 
+0 STEP
 0 FILE 8281 - Side Car.ldr
 0 The main side-car chassis built from bent liftarms, axles, and cross blocks forming a sturdy wheeled frame.
 0 Name: 8281 - Side Car.ldr
@@ -111,6 +112,7 @@
 1 19 -125 -132.729 -114.09 1 0 0 0 0.956 0.295 0 -0.295 0.956 8281 - Sub22.ldr
 
 
+0 STEP
 0 FILE 8281 - Sub07.ldr
 0 A small gear and liftarm linkage assembly with a 12-tooth bevel gear for power transfer.
 0 Name: 8281 - Sub07.ldr
@@ -134,6 +136,7 @@
 1 71 -20 -31.843 -15.87 1 0 0 0 0.588 0.809 0 -0.809 0.588 6589.dat
 
 
+0 STEP
 0 FILE 8281 - Sub12.ldr
 0 An angle connector and axle linkage used to join structural elements at 90 degrees.
 0 Name: 8281 - Sub12.ldr
@@ -154,6 +157,7 @@
 1 19 40 30 0 0 -1 0 -1 0 0 0 0 -1 3749.dat
 
 
+0 STEP
 0 FILE 8281 - Sub13.ldr
 0 A bent liftarm and 20-tooth bevel gear assembly forming part of the drivetrain mechanism.
 0 Name: 8281 - Sub13.ldr
@@ -180,6 +184,7 @@
 1 0 0 -18.33 -172 0 -1 0 0.4 0 -0.917 0.917 0 0.4 32523.dat
 
 
+0 STEP
 0 FILE 8281 - Sub15.ldr
 0 A structural bracket built from long liftarms, cross blocks, and axles providing support framing.
 0 Name: 8281 - Sub15.ldr
@@ -216,6 +221,7 @@
 1 71 -7.68 -50 10.91 -0.956 0 -0.295 0 -1 0 -0.295 0 0.956 41677.dat
 
 
+0 STEP
 0 FILE 8281 - Sub17.ldr
 0 A compact bent liftarm and axle sub-assembly used as a mounting or linkage element.
 0 Name: 8281 - Sub17.ldr
@@ -238,6 +244,7 @@
 1 0 0 40 -40 1 0 0 0 1 0 0 0 1 32062.dat
 
 
+0 STEP
 0 FILE 8281 - Sub19.ldr
 0 A split cross block with neon orange round plates forming a light or decorative detail element.
 0 Name: 8281 - Sub19.ldr
@@ -260,6 +267,7 @@
 1 0 0 0 0 1 0 0 0 0 1 0 -1 0 32062.dat
 
 
+0 STEP
 0 FILE 8281 - Sub21.ldr
 0 A complete wheel assembly with a yellow rim, rubber tyre, and wedge belt wheel.
 0 Name: 8281 - Sub21.ldr
@@ -280,6 +288,7 @@
 1 256 0 0 0 1 0 0 0 1 0 0 0 1 2696.dat
 
 
+0 STEP
 0 FILE 8281 - Sub22.ldr
 0 A wheel-and-axle assembly with long beams, bushings, and a clear plate forming a wheel mounting structure.
 0 Name: 8281 - Sub22.ldr

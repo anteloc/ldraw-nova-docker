@@ -10,6 +10,7 @@
 
 
 
+0 STEP
 0 FILE 42101 - Race Car.ldr
 0 Core chassis frame using bent liftarms, cross blocks, and axles fitted with two white wheels and black rubber tyres.
 0 Name: 42101 - Race Car.ldr
@@ -106,6 +107,7 @@
 
 
 
+0 STEP
 0 FILE 42101 - Substep_Step-2.ldr
 0 Red bent liftarm assembly mounted on a yellow axle to extend the chassis structure.
 0 Name: 42101 - Substep_Step-2.ldr
@@ -123,6 +125,7 @@
 
 
 
+0 STEP
 0 FILE 42101 - Substep_Step-4.ldr
 0 Small white liftarm and axle connector linkage joined with a red pin.
 0 Name: 42101 - Substep_Step-4.ldr
@@ -142,6 +145,7 @@
 
 
 
+0 STEP
 0 FILE 42101 - Substep_Step-5.ldr
 0 Black bent liftarm connector secured with a grey axle and friction pin.
 0 Name: 42101 - Substep_Step-5.ldr
@@ -158,6 +162,7 @@
 
 
 
+0 STEP
 0 FILE 42101 - Substep_Step-7.ldr
 0 Simple black beam and pin connection used to reinforce the frame.
 0 Name: 42101 - Substep_Step-7.ldr
@@ -172,6 +177,7 @@
 
 
 
+0 STEP
 0 FILE 42101 - Substep_Step-8.ldr
 0 Long grey axle fitted with red and grey bushings to form a driveshaft or axle assembly.
 0 Name: 42101 - Substep_Step-8.ldr
@@ -194,6 +200,7 @@
 
 
 
+0 STEP
 0 FILE 42101 - Substep_Step-11.ldr
 0 Black cross block mounted on an axle for a pivot or mounting joint.
 0 Name: 42101 - Substep_Step-11.ldr
@@ -208,6 +215,7 @@
 
 
 
+0 STEP
 0 FILE 42101 - Substep_Step-15.ldr
 0 Orange beam joined with two friction pins to connect frame sections.
 0 Name: 42101 - Substep_Step-15.ldr
@@ -224,6 +232,7 @@
 
 
 
+0 STEP
 0 FILE 42101 - Substep_Step-16.ldr
 0 Front wheel assembly with a white rim, rubber tyre, cross block, and red bushing.
 0 Name: 42101 - Substep_Step-16.ldr
@@ -251,6 +260,7 @@
 
 
 
+0 STEP
 0 FILE 42101 - Substep_Step-17.ldr
 0 Front wheel assembly with a white rim, rubber tyre, cross block, and red bushing.
 0 Name: 42101 - Substep_Step-17.ldr
@@ -278,6 +288,7 @@
 
 
 
+0 STEP
 0 FILE 42101 - Substep_Step-18.ldr
 0 Black bent liftarm and orange beam secured together with friction pins.
 0 Name: 42101 - Substep_Step-18.ldr
@@ -296,6 +307,7 @@
 
 
 
+0 STEP
 0 FILE 42101 - Substep_Step-19.ldr
 0 Small boss liftarm and axle pin assembly with a notched axle and half-bush.
 0 Name: 42101 - Substep_Step-19.ldr
@@ -315,6 +327,7 @@
 
 
 
+0 STEP
 0 FILE 42101 - Substep_Step-21.ldr
 0 Steering or linkage assembly using an angle connector, white liftarm, and notched axles.
 0 Name: 42101 - Substep_Step-21.ldr
@@ -339,6 +352,7 @@
 
 
 
+0 STEP
 0 FILE 42101 - Substep_Step-21_Substep_Step-3.ldr
 0 Angle connector with a long axle pin used for an angled joint.
 0 Name: 42101 - Substep_Step-21_Substep_Step-3.ldr
@@ -353,6 +367,7 @@
 
 
 
+0 STEP
 0 FILE 42101 - Substep_Step-22.ldr
 0 Small black liftarm attached with a notched red axle.
 0 Name: 42101 - Substep_Step-22.ldr
@@ -367,6 +382,7 @@
 
 
 
+0 STEP
 0 FILE 42101 - Substep_Step-24.ldr
 0 Yellow axle fitted with a 12-tooth double bevel gear for the drivetrain.
 0 Name: 42101 - Substep_Step-24.ldr
@@ -381,6 +397,7 @@
 
 
 
+0 STEP
 0 FILE 42101 - Substep_Step-25.ldr
 0 Left-side body panel assembly using an orange fairing panel, cross block, and angle connector.
 0 Name: 42101 - Substep_Step-25.ldr
@@ -407,6 +424,7 @@
 
 
 
+0 STEP
 0 FILE 42101 - Substep_Step-26.ldr
 0 Right-side body panel assembly using an orange fairing panel, cross block, and angle connector.
 0 Name: 42101 - Substep_Step-26.ldr
@@ -433,6 +451,7 @@
 
 
 
+0 STEP
 0 FILE 42101 - Substep_Step-27.ldr
 0 Single orange beam added to the body structure.
 0 Name: 42101 - Substep_Step-27.ldr
@@ -445,6 +464,7 @@
 
 
 
+0 STEP
 0 FILE 42101 - Substep_Step-28.ldr
 0 Single orange thin fairing panel added to the left body side.
 0 Name: 42101 - Substep_Step-28.ldr
@@ -457,6 +477,7 @@
 
 
 
+0 STEP
 0 FILE 42101 - Substep_Step-29.ldr
 0 Single orange thin fairing panel added to the right body side.
 0 Name: 42101 - Substep_Step-29.ldr
@@ -469,6 +490,7 @@
 
 
 
+0 STEP
 0 FILE 42101 - Substep_Step-30.ldr
 0 Steering assembly with a steering wheel, liftarms, axles, and red tooth elements.
 0 Name: 42101 - Substep_Step-30.ldr
@@ -501,6 +523,7 @@
 
 
 
+0 STEP
 0 FILE 42101 - Substep_Step-31.ldr
 0 Bent split cross block and angled liftarm joined with a notched axle for a frame extension.
 0 Name: 42101 - Substep_Step-31.ldr
@@ -518,6 +541,7 @@
 
 
 
+0 STEP
 0 FILE 42101 - 92402.dat
 0 Primitive tyre geometry built from a hub, rim, circles, cylinders, and cones.
 0 Name: 42101 - 92402.dat
@@ -575,6 +599,7 @@
 
 
 
+0 STEP
 0 FILE 42101 - npeghol3.dat
 0 Technic Peg Hole / Axle Hole Negative without Top Surface Extensions
 0 Name: 42101 - npeghol3.dat
@@ -624,6 +649,7 @@
 
 
 
+0 STEP
 0 FILE s\42101 - 92402s02.dat
 0 ~Tyre 14/ 50 x 17 -  1/4 with Centre Band - Quarter Profile
 0 Name: s\42101 - 92402s02.dat
@@ -663,6 +689,7 @@
 
 
 
+0 STEP
 0 FILE s\42101 - 92402s01.dat
 0 ~Tyre 14/ 50 x 17 Pattern with Centre Band - Profile
 0 Name: s\42101 - 92402s01.dat

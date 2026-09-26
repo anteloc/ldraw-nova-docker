@@ -343,6 +343,7 @@
 1 71 -81.547 -400 79.999 1 0 0 0 1 0 0 0 1 21052 - Dubai - step155-169.ldr
 
 
+0 STEP
 0 FILE 21052 - Dubai - step20-39.ldr
 0 Sloped white panels with dark blue inverted tiles and gold accents building a tapered tower section.
 0 Name: 21052 - Dubai - step20-39.ldr
@@ -494,6 +495,7 @@
 1 71 20 38 10 1 0 0 0 1 0 0 0 1 35459.dat
 
 
+0 STEP
 0 FILE 21052 - Dubai - step40-55.ldr
 0 Sloped white and dark blue panels with gold curved-top bricks forming a tapered skyscraper segment.
 0 Name: 21052 - Dubai - step40-55.ldr
@@ -626,6 +628,7 @@
 1 71 20 38 10 0 0 -1 0 1 0 1 0 0 24201.dat
 
 
+0 STEP
 0 FILE 21052 - Dubai - step56.ldr
 0 A gold door frame with rounded tan and grey tiles forming an ornate entrance detail.
 0 Name: 21052 - Dubai - step56.ldr
@@ -660,6 +663,7 @@
 1 82 20 -160 10 -1 0 0 0 1 0 0 0 -1 3069b.dat
 
 
+0 STEP
 0 FILE 21052 - Dubai - step59-84.ldr
 0 Dark and sand blue wing plates with trans-light-blue windows forming the stepped profile of a tapered tower.
 0 Name: 21052 - Dubai - step59-84.ldr
@@ -931,6 +935,7 @@
 1 15 0 -360 -10 0 0 1 0 1 0 -1 0 0 87994.dat
 
 
+0 STEP
 0 FILE 21052 - Dubai - step82-flexaxle1.ldr
 0 A generated flexible Technic axle assembly with end caps and segments.
 0 Name: 21052 - Dubai - step82-flexaxle1.ldr
@@ -3484,6 +3489,7 @@
 5 24 39.368187 242.180359 34.225109 38.932453 242.677399 34.045132 38.637154 242.286438 36.446674 40.685577 242.680328 32.355598
 
 
+0 STEP
 0 FILE 21052 - Dubai - step82-flexaxle2.ldr
 0 A generated flexible Technic axle assembly with end caps and segments.
 0 Name: 21052 - Dubai - step82-flexaxle2.ldr
@@ -6037,6 +6043,7 @@
 5 24 38.521339 243.07695 -38.649258 38.079605 243.578217 -38.46727 38.557014 242.378967 -36.414852 39.188038 244.259415 -40.556572
 
 
+0 STEP
 0 FILE 21052 - Dubai - step85-139.ldr
 0 Trans-light-blue windows and grey axle-hole plates forming a tall cylindrical skyscraper section.
 0 Name: 21052 - Dubai - step85-139.ldr
@@ -6218,6 +6225,7 @@
 1 71 20.775 61 35.981 0.866 0 0.5 0 1 0 -0.5 0 0.866 21052 - Dubai - step138.ldr
 
 
+0 STEP
 0 FILE 21052 - Dubai - step106-119.ldr
 0 Trans-light-blue round plates and grey axle-hole bricks forming a segment of a cylindrical tower.
 0 Name: 21052 - Dubai - step106-119.ldr
@@ -6351,6 +6359,7 @@
 1 43 30 -208 -10 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 21052 - Dubai - step120-137.ldr
 0 Trans-light-blue round plates and grey axle-hole bricks forming another segment of a cylindrical tower.
 0 Name: 21052 - Dubai - step120-137.ldr
@@ -6497,6 +6506,7 @@
 1 43 30 -208 -10 1 0 0 0 1 0 0 0 1 6141.dat
 
 
+0 STEP
 0 FILE 21052 - Dubai - step138.ldr
 0 Small grey brackets and curved slope details forming a minor architectural accent piece.
 0 Name: 21052 - Dubai - step138.ldr
@@ -6520,6 +6530,7 @@
 1 71 -24 -16 20 0 1 0 1 0 0 0 0 -1 50950.dat
 
 
+0 STEP
 0 FILE 21052 - Dubai - step140-154.ldr
 0 Hinge plates and trans-light-blue round plates forming an articulated curved tower section.
 0 Name: 21052 - Dubai - step140-154.ldr
@@ -6676,6 +6687,7 @@
 1 71 23.66 -112 -2.114 0.5 0 -0.866 0 1 0 0.866 0 0.5 25269.dat
 
 
+0 STEP
 0 FILE 21052 - Dubai - step155-169.ldr
 0 Trans-light-blue round plates with grey axle-hole components and a cone forming the tapered crown of a tower.
 0 Name: 21052 - Dubai - step155-169.ldr
@@ -6837,6 +6849,7 @@
 1 71 10 -300 0 0 0 -1 0 1 0 1 0 0 63965.dat
 
 
+0 STEP
 0 FILE 21052 - Dubai - 37695.dat
 0 A primitive cone-and-cylinder assembly forming a custom turned or rounded element.
 0 Name: 21052 - Dubai - 37695.dat
@@ -6986,6 +6999,7 @@
 2 24 -0.853 -31.082001 -2.3754 -0.6896 -31.094801 -2.3759
 2 24 -0.8525 -29.493401 3.8305 -0.924 -29.1665 3.8163
 
+0 STEP
 0 FILE 21052 - Dubai - ldcFlexAxleEndD.dat
 0 A flexible axle end cap primitive placeholder.
 0 Name: 21052 - Dubai - ldcFlexAxleEndD.dat
@@ -7003,6 +7017,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 21052 - Dubai - ldcFlexAxleEndE.dat
 0 A flexible axle end cap primitive placeholder.
 0 Name: 21052 - Dubai - ldcFlexAxleEndE.dat
@@ -7020,6 +7035,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 21052 - Dubai - ldcFlexAxleEndF.dat
 0 A flexible axle end cap primitive placeholder.
 0 Name: 21052 - Dubai - ldcFlexAxleEndF.dat
@@ -7037,6 +7053,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 21052 - Dubai - ldcFlexAxleEndG.dat
 0 A flexible axle end cap primitive placeholder.
 0 Name: 21052 - Dubai - ldcFlexAxleEndG.dat
@@ -7054,6 +7071,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 21052 - Dubai - ldcFlexAxleMid.dat
 0 A flexible axle middle segment primitive.
 0 Name: 21052 - Dubai - ldcFlexAxleMid.dat
@@ -7072,6 +7090,7 @@
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
 
+0 STEP
 0 FILE 21052 - Dubai - ldcFlexAxleCap.dat
 0 A flexible axle cap primitive component.
 0 Name: 21052 - Dubai - ldcFlexAxleCap.dat
@@ -7088,6 +7107,7 @@
 
 0 !LDCAD SNAP_CYL [gender=M] [caps=one] [secs=R 4 20] [slide=true]
 
+0 STEP
 0 FILE s\21052 - Dubai - 37695s01.dat
 0 A sub-pattern primitive component for the custom turned element.
 0 Name: s\21052 - Dubai - 37695s01.dat

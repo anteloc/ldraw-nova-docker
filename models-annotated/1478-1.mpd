@@ -11,6 +11,7 @@
 1 0 22.961 0 95.433 0.92388 0 0.382683 0 1 0 -0.382683 0 0.92388 1478 - Vehicle - Back.ldr
 
 
+0 STEP
 0 FILE 1478 - Vehicle - Front.ldr
 0 Front section of the vehicle featuring two rubber wheels on grey rims, a red 45-degree slope windshield, a black hinged joint plate, and a control-patterned tile dashboard.
 0 Name: 1478 - Vehicle - Front.ldr
@@ -38,6 +39,7 @@
 1 15 0 -40 -30 -1 0 0 0 1 0 0 0 -1 3069bp68.dat
 
 
+0 STEP
 0 FILE 1478 - Vehicle - Front + Minifig.ldr
 0 The front vehicle section assembled with the included minifig operator seated in place.
 0 Name: 1478 - Vehicle - Front + Minifig.ldr
@@ -51,6 +53,7 @@
 1 0 0 -61 8 1 0 0 0 1 0 0 0 1 1478 - Minifig.ldr
 
 
+0 STEP
 0 FILE 1478 - Vehicle - Back.ldr
 0 Rear section of the vehicle with two rubber wheels on grey rims, a black hinged joint plate, red structural bricks and plates, and grey handle plates for mounting accessories.
 0 Name: 1478 - Vehicle - Back.ldr
@@ -85,6 +88,7 @@
 1 0 -40 -65.242 -35.807 -1 0 0 0 0.382683 -0.92388 0 -0.92388 -0.382683 1478 - Vehicle - Back - Antenna.ldr
 1 0 40 -63.713 -20.501 -1 0 0 0 -0.382683 -0.92388 0 -0.92388 0.382683 1478 - Vehicle - Back - Satellite.ldr
 
+0 STEP
 0 FILE 1478 - Vehicle - Back - Antenna.ldr
 0 A whip antenna mounted on a black clip plate, forming a communications up-link element.
 0 Name: 1478 - Vehicle - Back - Antenna.ldr
@@ -100,6 +104,7 @@
 1 42 0 -8 0 1 0 0 0 1 0 0 0 1 2569.dat
 
 
+0 STEP
 0 FILE 1478 - Vehicle - Back - Satellite.ldr
 0 A satellite dish assembly with two translucent neon-green inverted dishes mounted on a black clip and plate structure.
 0 Name: 1478 - Vehicle - Back - Satellite.ldr
@@ -119,6 +124,7 @@
 1 42 -20 16 0 1 0 0 0 1 0 0 0 1 4740.dat
 
 
+0 STEP
 0 FILE 1478 - Minifig.ldr
 0 An M-Tron minifig operator with a red logo torso, black airtanks, white arms and legs, and a standard smiling head.
 0 Name: 1478 - Minifig.ldr
@@ -151,6 +157,7 @@
 1 15 0 44 0 1 0 0 0 0 1 0 -1 0 3817.dat
 
 
+0 STEP
 0 FILE 1478 - Minifig - Helmet.ldr
 0 A black space helmet with a translucent neon-green visor for the minifig operator.
 0 Name: 1478 - Minifig - Helmet.ldr

@@ -50,6 +50,7 @@
 1 28 50 -20.706 77.274 1 0 0 0 0.966 -0.259 0 0.259 0.966 32002.dat
 1 256 20 -21 82 0 1 0 -0.985 0 0.174 0.174 0 0.985 8203 - rubberBandSquare-2.ldr
 1 14 20 -28.004 -0.733 1 0 0 0 0.978 0.208 0 -0.208 0.978 8203 - subModel-1.ldr
+0 STEP
 0 FILE 8203 - rubberBandSquare-2.ldr
 0 A flexible square rubber band assembly rendered via LDCad-generated segment subparts.
 0 !CATEGORY technic
@@ -806,6 +807,7 @@
 5 24 0.174311 -35.9924 -11 -0.174312 -32.0076 -11 2.82567 -35.7604 -10.3181 -0.789457 -36.0767 -11.2531
 5 24 -0.174312 -32.0076 -11 -0.174311 -32.0076 -15 2.47704 -31.7756 -10.3181 -1.13808 -32.0919 -11.2531
 5 24 -0.174311 -32.0076 -15 0.174312 -35.9924 -15 4.51788 -31.5971 -13.7537 -1.13808 -32.0919 -15.2531
+0 STEP
 0 FILE 8203 - subModel-1.ldr
 0 A Technic steering or linkage assembly built from a bent liftarm, angle connectors, cross blocks, and axles.
 0 Author: Jaco van der Molen [Jaco]
@@ -839,6 +841,7 @@
 1 14 20 -88 116 -1 0 0 0 -0.86 -0.509 0 -0.509 0.86 32015.dat
 1 0 -20 -78 100 0 0 -1 -0.866 -0.5 0 -0.5 0.866 0 8203 - technicflexSysHose-1.ldr
 1 0 20 -78 100 0 0 -1 -0.866 -0.5 0 -0.5 0.866 0 8203 - technicflexSysHose-1.ldr
+0 STEP
 0 FILE 8203 - technicflexSysHose-1.ldr
 0 A flexible Technic ribbed hose assembly composed of 20 generated segments.
 0 !CATEGORY technic

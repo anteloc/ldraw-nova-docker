@@ -13,6 +13,7 @@
 1 7 -320 0 -190 0.866 0 -0.5 0 1 0 0.5 0 0.866 6440 - minifig.ldr
 
 0 NOFILE
+0 STEP
 0 FILE 6440 - car.ldr
 0 A black-and-white emergency vehicle built from plates, bricks, and inverted slopes with red and trans-yellow light elements and six wheels.
 0 car
@@ -355,6 +356,7 @@
 1 15 109.998 -77.001 -19.996 0 -1 0 0 0 -1 1 0 0 164365c.dat
 
 0 NOFILE
+0 STEP
 0 FILE 6440 - minifig.ldr
 0 A firefighter minifigure wearing a black fire helmet, white torso with airplane logo, and black hips and legs.
 0 minifig

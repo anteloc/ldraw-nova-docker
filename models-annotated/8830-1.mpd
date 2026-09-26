@@ -297,6 +297,7 @@
 
 
 
+0 STEP
 0 FILE 8830 - SteeringRack.ldr
 0 A gear rack mounted on a Technic plate, forming the steering rack assembly.
 0 Author: Max Martin Richter [MMR1988]
@@ -311,6 +312,7 @@
 
 
 
+0 STEP
 0 FILE 8830 - Steering-Shaft.ldr
 0 A steering shaft assembly with an axle, two 8-tooth gears, a 24-tooth crown gear, and mounting Technic bricks.
 0 Author: Max Martin Richter [MMR1988]
@@ -332,6 +334,7 @@
 1 0 -50 -10 0 0 0 1 0 1 0 -1 0 0 3701.dat
 
 
+0 STEP
 0 FILE 8830 - Steering-Shaft2.ldr
 0 A secondary steering shaft with a 6-stud axle, half-bush, and a 24-tooth gear with three axle holes.
 0 Author: Max Martin Richter [MMR1988]
@@ -347,6 +350,7 @@
 1 7 0 50 0 0 -1 0 0 0 1 -1 0 0 3648a.dat
 
 
+0 STEP
 0 FILE 8830 - FrontBumper.ldr
 0 A front bumper assembly built from a 10-stud axle, a yellow liftarm, bushes, and a toggle joint connector.
 0 Author: Max Martin Richter [MMR1988]
@@ -368,6 +372,7 @@
 1 7 -1 -18.478 7.654 1 0 0 0 0.383 -0.924 0 0.924 0.383 4273a.dat
 
 
+0 STEP
 0 FILE 8830 - 2AdjTechnicPlates.ldr
 0 Two adjacent yellow Technic plates joined together to form a wider platform.
 0 Author: Max Martin Richter [MMR1988]
@@ -381,6 +386,7 @@
 1 14 0 0 20 0 0 1 0 1 0 -1 0 0 3709b.dat
 
 
+0 STEP
 0 FILE 8830 - Top.ldr
 0 The upper body structure using angled yellow wing bricks, a Technic plate, and toggle joint connectors.
 0 Author: Max Martin Richter [MMR1988]
@@ -405,6 +411,7 @@
 1 7 -50 10 0 0 0 1 -0.989 0.147 0 -0.147 -0.989 0 4273a.dat
 
 
+0 STEP
 0 FILE 8830 - Figure.ldr
 0 A complete posable action figure driver with torso, limbs, head, hair, hands, and a helmet with clear visor.
 0 Author: Max Martin Richter [MMR1988]
@@ -469,6 +476,7 @@
 
 
 
+0 STEP
 0 FILE 8830 - LeftRollBar.ldr
 0 A left-side roll bar made from an 8-stud axle and two toggle joint connectors.
 0 Author: Max Martin Richter [MMR1988]
@@ -484,6 +492,7 @@
 1 7 0.02 0.003 138.439 0 -1 0 -1 0 0 0 0 -1 4273a.dat
 
 
+0 STEP
 0 FILE 8830 - RightRollBar.ldr
 0 A right-side roll bar made from an 8-stud axle and two toggle joint connectors.
 0 Author: Max Martin Richter [MMR1988]
@@ -499,6 +508,7 @@
 1 7 0.02 0.003 138.439 0 1 0 1 0 0 0 0 -1 4273a.dat
 
 
+0 STEP
 0 FILE 8830 - 4864apx3.dat
 0 A patterned panel piece with black stripes detail.
 0 Name: 8830 - 4864apx3.dat
@@ -664,6 +674,7 @@
 4 16 -6.1 37.9 10 -19.2 38.5 10 12.9 38.5 10 13.6 37.9 10
 
 
+0 STEP
 0 FILE 8830 - 2715.dat
 0 A Technic action figure helmet shell with a patternable top surface.
 0 Name: 8830 - 2715.dat
@@ -816,6 +827,7 @@
 5 24 -8.8 -27.13 0 0 -27.13 10 -8.8 -25.17 10 0 -28.88 0
 
 
+0 STEP
 0 FILE s\8830 - 2715s01.dat
 0 The geometric half-shell of the action figure helmet without the top, composed of cylindrical and torus primitives.
 0 Name: s\8830 - 2715s01.dat

@@ -458,6 +458,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 6 - roof.ldr
 0 Locomotive roof assembly: plates and side-stud bricks form the top surface, with four mechanical torsos plus articulated arms and light-bluish-grey bars representing cooling fans and rooftop piping, finished with grille-vented roof side panels
 0 Name: 10183 - 6 - roof.ldr
@@ -562,6 +563,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 6 - roof side detail.ldr
 0 Roof side panel detail: two light-bluish-grey 1x8 bricks backed by black grooved tiles and grille tiles forming the locomotive's side ventilation slats
 0 Name: 10183 - 6 - roof side detail.ldr
@@ -587,6 +589,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 6 - underside detail.ldr
 0 Underside chassis detail: plates and brackets frame two grille bricks and inverted 45-degree slopes forming central vents, flanked by four round 2x2 bricks and hollow-stud round 1x1 bricks representing underframe equipment
 0 Name: 10183 - 6 - underside detail.ldr
@@ -637,6 +640,7 @@
 
 
 
+0 STEP
 0 FILE 10183 - 6 - wheels.ldr
 0 Three-axle (Co-Co) bogie assembly: three single-axle train wheel bogies joined by technic and studded plates, finished with a train buffer beam, a coupling type 2 and a cylindrical magnet for connecting to other rolling stock
 0 Name: 10183 - 6 - wheels.ldr

@@ -18,6 +18,7 @@
 
 
 
+0 STEP
 0 FILE 8134 - 8134-1.ldr
 0 A yellow vehicle body section with wheel pins, mudguards, curved slope details, and black spoked wheel rims.
 0 Name: 8134 - 8134-1.ldr
@@ -114,6 +115,7 @@
 
 
 
+0 STEP
 0 FILE 8134 - 8134-2.ldr
 0 A vehicle chassis section featuring wishbone suspension arms, blue round plates, mudguards, and clear slope windows.
 0 Name: 8134 - 8134-2.ldr
@@ -266,6 +268,7 @@
 
 
 
+0 STEP
 0 FILE 8134 - 8134-3.ldr
 0 An assembly submodel that references multiple structural body subsections.
 0 Name: 8134 - 8134-3.ldr
@@ -286,6 +289,7 @@
 
 
 
+0 STEP
 0 FILE 8134 - 8134-3-a.ldr
 0 A yellow and black body panel section with extended wheel pins, raised grilles, door rails, and mudguard details.
 0 Name: 8134 - 8134-3-a.ldr
@@ -438,6 +442,7 @@
 
 
 
+0 STEP
 0 FILE 8134 - 8134-3-b.ldr
 0 A large black and yellow structural frame built from corner plates, long bricks, and 4x8 plates with inverted slopes.
 0 Name: 8134 - 8134-3-b.ldr
@@ -575,6 +580,7 @@
 
 
 
+0 STEP
 0 FILE 8134 - 8134-3-c.ldr
 0 A small assembly combining a 4x4 plate with grooved tiles and angled horizontal clip tiles.
 0 Name: 8134 - 8134-3-c.ldr
@@ -600,6 +606,7 @@
 
 
 
+0 STEP
 0 FILE 8134 - 8134-3-d.ldr
 0 A Technic-detail submodel with a turntable top, technic bricks with holes, yellow taps, and studded plates.
 0 Name: 8134 - 8134-3-d.ldr
@@ -718,6 +725,7 @@
 
 
 
+0 STEP
 0 FILE 8134 - 8134-4.ldr
 0 A minimal assembly of a handle tile and an angled clip tile used as a small attachment detail.
 0 Name: 8134 - 8134-4.ldr

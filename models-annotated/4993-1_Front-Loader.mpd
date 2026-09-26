@@ -7,6 +7,7 @@
 1 1 0 0 0 1 0 0 0 1 0 0 0 1 4993 - Front Loader.ldr
 
 
+0 STEP
 0 FILE 4993 - Front Loader.ldr
 0 Core chassis frame built from long Technic bricks, pins, axles, and structural plates.
 0 Name: 4993 - Front Loader.ldr
@@ -318,6 +319,7 @@
 1 256 -120 100 -210 0 0 1 0 1 0 -1 0 0 41897.dat
 
 
+0 STEP
 0 FILE 4993 - Sub05.ldr
 0 Reinforced Technic beam segment using a long brick, pins, and a grooved tile.
 0 Name: 4993 - Sub05.ldr
@@ -340,6 +342,7 @@
 1 14 0 -8 100 0 0 1 0 1 0 -1 0 0 2431.dat
 
 
+0 STEP
 0 FILE 4993 - Sub19.ldr
 0 Inverted sloped plate assembly forming a stepped angular structure.
 0 Name: 4993 - Sub19.ldr
@@ -363,6 +366,7 @@
 1 0 40 8 0 1 0 0 0 1 0 0 0 1 3660.dat
 
 
+0 STEP
 0 FILE 4993 - Sub26.ldr
 0 Small Technic axle-and-connector joint for linking rotating components.
 0 Name: 4993 - Sub26.ldr
@@ -380,6 +384,7 @@
 1 1 0 0 70 0 0 1 0 1 0 -1 0 0 43093.dat
 
 
+0 STEP
 0 FILE 4993 - Sub33.ldr
 0 Mounting bracket detail with a grille tile and a dark red plate.
 0 Name: 4993 - Sub33.ldr
@@ -395,6 +400,7 @@
 1 80 0 30 -22 1 0 0 0 0 -1 0 1 0 2412b.dat
 
 
+0 STEP
 0 FILE 4993 - Sub34.ldr
 0 Small white fairing detail with a sloped surface and a round plate.
 0 Name: 4993 - Sub34.ldr
@@ -410,6 +416,7 @@
 1 15 0 0 -30 -1 0 0 0 1 0 0 0 -1 54200.dat
 
 
+0 STEP
 0 FILE 4993 - Seat Back.ldr
 0 Operator seat backrest with hinged plates, clamps, and smooth tiled panels.
 0 Name: 4993 - Seat Back.ldr
@@ -456,6 +463,7 @@
 1 15 0 -9.617 98.328 1 0 0 0 0.97 -0.242 0 0.242 0.97 4993 - Sub36.ldr
 
 
+0 STEP
 0 FILE 4993 - Sub36.ldr
 0 Small topped fixture combining a handled plate, a dish, and a grooved tile.
 0 Name: 4993 - Sub36.ldr
@@ -474,6 +482,7 @@
 1 15 0 8 -10 1 0 0 0 1 0 0 0 1 2654.dat
 
 
+0 STEP
 0 FILE 4993 - Sub37.ldr
 0 Technic lifting linkage made of beams, cross blocks, pins, and an axle.
 0 Name: 4993 - Sub37.ldr
@@ -520,6 +529,7 @@
 1 4 90 20 -150 0 -1 0 0 0 1 -1 0 0 32062.dat
 
 
+0 STEP
 0 FILE 4993 - Sub38.ldr
 0 Pivoting Technic arm formed from a long beam and a short beam joined by pins.
 0 Name: 4993 - Sub38.ldr
@@ -538,6 +548,7 @@
 1 0 -20 0 -40 0 -1 0 1 0 0 0 0 1 32523.dat
 
 
+0 STEP
 0 FILE 4993 - Sub39.ldr
 0 Extended Technic lever arm with beams, pins, and an axle joiner coupling.
 0 Name: 4993 - Sub39.ldr
@@ -562,6 +573,7 @@
 1 1 70 0 -40 -1 0 0 0 1 0 0 0 -1 43093.dat
 
 
+0 STEP
 0 FILE 4993 - Sub40.ldr
 0 Long grooved panel with a trans-clear round plate forming a light or lens detail.
 0 Name: 4993 - Sub40.ldr
@@ -579,6 +591,7 @@
 1 47 0 -8 130 0 0 1 0 1 0 -1 0 0 6141.dat
 
 
+0 STEP
 0 FILE 4993 - Arm RH.ldr
 0 Right-side body panel assembly with long bricks, plates, and tiles forming a smooth fairing.
 0 Name: 4993 - Arm RH.ldr
@@ -637,6 +650,7 @@
 1 15 -10 -40 -20 0 0 1 0 1 0 -1 0 0 3069b.dat
 
 
+0 STEP
 0 FILE 4993 - Bucket.ldr
 0 Large loader bucket built from wide plates, curved bricks, and Technic mounting bricks.
 0 Name: 4993 - Bucket.ldr
@@ -698,6 +712,7 @@
 1 15 0 101.234 39.717 -1 0 0 0 0.995 -0.105 0 -0.105 -0.995 6179.dat
 
 
+0 STEP
 0 FILE 4993 - Bucket side.ldr
 0 Curved black side panel for the bucket using arches, plates, and a grooved tile.
 0 Name: 4993 - Bucket side.ldr
@@ -717,6 +732,7 @@
 1 0 10 24 0 1 0 0 0 1 0 0 0 1 3069b.dat
 
 
+0 STEP
 0 FILE 4993 - Bucket panel.ldr
 0 Tall black bucket back panel with long bricks, curved-top bricks, and sloped details.
 0 Name: 4993 - Bucket panel.ldr
@@ -743,6 +759,7 @@
 1 0 60 -56 0 -1 0 0 0 1 0 0 0 -1 6191.dat
 
 
+0 STEP
 0 FILE 4993 - Bucket Arm.ldr
 0 Pivoting bent Technic beam arm connecting the bucket to the loader linkage.
 0 Name: 4993 - Bucket Arm.ldr
@@ -761,6 +778,7 @@
 1 1 40 0.055 -1.045 0 0 -1 -0.105 0.995 0 0.995 0.105 0 6541.dat
 
 
+0 STEP
 0 FILE 4993 - Arm LH.ldr
 0 Left-side body panel assembly mirroring the right side with long bricks, plates, and tiles.
 0 Name: 4993 - Arm LH.ldr
@@ -819,6 +837,7 @@
 1 15 10 -40 -20 0 0 1 0 1 0 -1 0 0 3069b.dat
 
 
+0 STEP
 0 FILE 4993 - Arm rear.ldr
 0 Rear connecting panel of the lifting arm with large plates and a double curved slope.
 0 Name: 4993 - Arm rear.ldr
@@ -842,6 +861,7 @@
 1 15 0 -24 -30 -1 0 0 0 1 0 0 0 -1 52031.dat
 
 
+0 STEP
 0 FILE 4993 - Rear.ldr
 0 Rear body section with arches, bricks, side-stud bricks, and translucent orange detail slopes.
 0 Name: 4993 - Rear.ldr
@@ -954,6 +974,7 @@
 1 15 110 -152 0 0 0 -1 0 1 0 1 0 0 3069b.dat
 
 
+0 STEP
 0 FILE 4993 - Back.ldr
 0 Engine compartment back panel with grille tiles, curved slopes, and exhaust port plates.
 0 Name: 4993 - Back.ldr
@@ -1003,6 +1024,7 @@
 1 320 0 0 -70 1 0 0 0 1 0 0 0 1 4993 - Bumper.ldr
 
 
+0 STEP
 0 FILE 4993 - Grille.ldr
 0 Front grille assembly with slatted grille tiles, plates, and translucent red accent slopes.
 0 Name: 4993 - Grille.ldr
@@ -1027,6 +1049,7 @@
 1 71 40 -16 0 1 0 0 0 1 0 0 0 1 2412b.dat
 
 
+0 STEP
 0 FILE 4993 - Bumper.ldr
 0 Front bumper with paired left and right wedge pieces and a dark red accent tile.
 0 Name: 4993 - Bumper.ldr

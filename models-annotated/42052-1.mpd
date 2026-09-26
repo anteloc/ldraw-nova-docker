@@ -715,6 +715,7 @@
 0 STEP
 1 71 -27 -31.001 -4.987 1 0 0 0 1 0 0 0 1 42052 - crate.ldr
 
+0 STEP
 0 FILE 42052 - floorbeam.ldr
 0 floorbeam
 0 Author: Philippe Hurbain [Philo]
@@ -765,6 +766,7 @@
 0 // Technic Beam  9 (white)
 1 15 0 0 -20 0 0 1 -1 0 0 0 -1 0 40490.dat
 
+0 STEP
 0 FILE 42052 - bodyside.ldr
 0 bodyside
 0 Author: Philippe Hurbain [Philo]
@@ -860,6 +862,7 @@
 0 // Technic Pin  1/2 (blue)
 1 1 0 -40 -130 0 -1 0 0 0 1 -1 0 0 4274.dat
 
+0 STEP
 0 FILE 42052 - motorassy.ldr
 0 motorassy
 0 Author: Philippe Hurbain [Philo]
@@ -1100,6 +1103,7 @@
 0 STEP
 1 16 -100 -20 -70 0 -1 0 -1 0 0 0 0 -1 42052 - powerFuncMotorM-1.ldr
 
+0 STEP
 0 FILE 42052 - winch.ldr
 0 winch
 0 Author: Philippe Hurbain [Philo]
@@ -1172,6 +1176,7 @@
 0 // Plate  1 x  2 with Groove with 1 Centre Stud, without Understud (yellow)
 1 14 65 -46 30 0 0 1 0 1 0 -1 0 0 15573.dat
 
+0 STEP
 0 FILE 42052 - gearbox.ldr
 0 gearbox
 0 Author: Philippe Hurbain [Philo]
@@ -1271,6 +1276,7 @@
 1 72 -160 0 0 0 1 0 -1 0 0 0 0 1 32525.dat
 0 STEP
 
+0 STEP
 0 FILE 42052 - rotoraxle.ldr
 0 rotoraxle
 0 Author: Philippe Hurbain [Philo]
@@ -1439,6 +1445,7 @@
 0 // Technic Beam  3 (white)
 1 15 120 80 40 -1 0 0 0 0 -1 0 -1 0 32523.dat
 
+0 STEP
 0 FILE 42052 - rotorbeam.ldr
 0 rotorbeam
 0 Author: Philippe Hurbain [Philo]
@@ -1471,6 +1478,7 @@
 0 // Technic Cross Block 1 x 2 (Axle/Pin) (white)
 1 15 0 -40 20 0 0 1 1 0 0 0 1 0 6536.dat
 
+0 STEP
 0 FILE 42052 - powerFuncMotorM-1.ldr
 0 powerFuncMotorM-1
 0 !CATEGORY electric
@@ -1513,6 +1521,7 @@
 0 // To ensure correct edge colors those segments are placed in (a) subpart(s).
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 42052 - powerFuncMotorM-1_subPart1.ldr
 
+0 STEP
 0 FILE 42052 - powerFuncMotorM-1_subPart1.ldr
 0 powerFuncMotorM-1_subPart1
 0 !LDCAD GENERATED [generator=LDCad 1.5] [master=42052 - powerFuncMotorM-1.ldr]
@@ -1671,6 +1680,7 @@
 1 16 -170.980241 18.960067 50.172418 0.080288 -3.775675 -0.320267 0.996765 0.299539 0.029174 -0.003555 -1.286294 0.946878 u9190.dat
 1 16 -168.970465 18.972634 50.112394 0.02442 -3.979419 -0.098324 0.999674 0.094245 0.009884 -0.007517 -0.394134 0.995105 u9190.dat
 
+0 STEP
 0 FILE 42052 - landinggear.ldr
 0 landinggear
 0 Author: Philippe Hurbain [Philo]
@@ -1818,6 +1828,7 @@
 0 // Technic Beam  1 (dark_bluish_grey)
 1 72 0 -60 120 0 1 0 0 0 1 1 0 0 18654.dat
 
+0 STEP
 0 FILE 42052 - rearframe.ldr
 0 rearframe
 0 Author: Philippe Hurbain [Philo]
@@ -1932,6 +1943,7 @@
 0 // Technic Beam  3 x  5 Bent 90 (white)
 1 15 -110 -80 -180 0 1 0 0 0 1 1 0 0 32526.dat
 
+0 STEP
 0 FILE 42052 - tail.ldr
 0 tail
 0 Author: Philippe Hurbain [Philo]
@@ -2065,6 +2077,7 @@
 0 // Technic Tooth  1 x  3 with Axlehole with Rounded Bottom Cavity (orange)
 1 25 60 0 -240 0 -1 0 0 0 1 -1 0 0 41669.dat
 
+0 STEP
 0 FILE 42052 - tailside1.ldr
 0 tailside1
 0 Author: Philippe Hurbain [Philo]
@@ -2138,6 +2151,7 @@
 0 // Technic Angle Connector #2 (180 degree) (light_bluish_grey)
 1 71 -40 -60 -200 0 -1 0 0 0 1 -1 0 0 32034.dat
 
+0 STEP
 0 FILE 42052 - tailside2.ldr
 0 tailside2
 0 Author: Philippe Hurbain [Philo]
@@ -2179,6 +2193,7 @@
 0 // Technic Cross Block 1 x 2 (Axle/Pin) (white)
 1 15 40 0 100 0 0 1 1 0 0 0 1 0 6536.dat
 
+0 STEP
 0 FILE 42052 - tailfin.ldr
 0 tailfin
 0 Author: Philippe Hurbain [Philo]
@@ -2219,6 +2234,7 @@
 0 // Technic Beam 11 (dark_bluish_grey)
 1 72 100 0 0 0 1 0 0 0 -1 -1 0 0 32525.dat
 
+0 STEP
 0 FILE 42052 - hatch.ldr
 0 hatch
 0 Author: Philippe Hurbain [Philo]
@@ -2272,6 +2288,7 @@
 0 // Technic Cross Block 1 x 3 (Axle/Pin/Axle) (light_bluish_grey)
 1 71 -100 60 140 0 0 -1 1 0 0 0 -1 0 32184.dat
 
+0 STEP
 0 FILE 42052 - dashboard.ldr
 0 dashboard
 0 Author: Philippe Hurbain [Philo]
@@ -2423,6 +2440,7 @@
 0 // Tile  2 x  2 with Groove (dark_bluish_grey)
 1 72 110 -120.203 7.911 -1 0 0 0 0.453 -0.892 0 -0.892 -0.453 3068b.dat
 
+0 STEP
 0 FILE 42052 - technicFlexAxle-1.ldr
 0 technicFlexAxle-1
 0 !CATEGORY technic
@@ -4141,6 +4159,7 @@
 5 24 -113.323563 -192.8284 -2.223447 -109.608101 -192.8284 -2.223447 -113.323563 -193.695602 -0.925847 -113.323563 -191.530807 -3.090647
 5 24 -113.323563 -193.695602 -0.925847 -109.608101 -193.695602 -0.925847 -113.323563 -194 0.604953 -113.323563 -192.8284 -2.223447
 
+0 STEP
 0 FILE 42052 - rigid3mmHose-1.ldr
 0 rigid3mmHose-1
 0 !CATEGORY Technic
@@ -4477,6 +4496,7 @@
 5 24 1.414387 -8.87592 116.865189 1.414372 -8.304017 115.357216 1.847978 -8.274362 117.108253 0.765594 -9.277953 116.702736
 5 24 1.847978 -8.274362 117.108253 1.847965 -7.691617 115.571487 2.000167 -7.564696 117.394997 1.414387 -8.87592 116.865189
 
+0 STEP
 0 FILE 42052 - motor.ldr
 0 motor
 0 Author: Philippe Hurbain [Philo]
@@ -4498,6 +4518,7 @@
 0 // Cylinder  6 x  3 x 10 Half with Taper and Four Pin Holes (white)
 1 15 0 0 78 0 0 -1 1 0 0 0 -1 0 57792.dat
 
+0 STEP
 0 FILE 42052 - rotor.ldr
 0 rotor
 0 Author: Philippe Hurbain [Philo]
@@ -4545,6 +4566,7 @@
 0 // Technic Pin Long with Stop Bush (light_bluish_grey)
 1 71 10 20 57.321 0 -1 0 1 0 0 0 0 1 32054.dat
 
+0 STEP
 0 FILE 42052 - crate.ldr
 0 crate
 0 Author: Philippe Hurbain [Philo]
@@ -4579,6 +4601,7 @@
 0 // Bar  3L (black)
 1 0 70 -30 0 0 -1 0 1 0 0 0 0 1 87994.dat
 
+0 STEP
 0 FILE 42052 - ropeLQ-1.ldr
 0 ropeLQ-1
 0 Name: 42052 - ropeLQ-1.ldr
@@ -5444,6 +5467,7 @@
 0 // Cylinder 1.0 (main_colour)
 1 16 -27.002721 -75.499555 0.056185 1.499985 0.017704 -0.000471 -0.00657 3.983944 0.134104 0.001063 -0.357603 1.493993 4-4cyli.dat
 
+0 STEP
 0 FILE 42052 - 13971.dat
 0 Wheel rim part with deep center groove and spokes built from cylinders, cones, and rings.
 0 Name: 42052 - 13971.dat
@@ -5544,6 +5568,7 @@
 1 16 0 0 0 1 0 0 0 -1 0 0 0 1 s\42052 - 13971s01.dat
 1 16 0 0 0 -1 0 0 0 -1 0 0 0 1 s\42052 - 13971s01.dat
 
+0 STEP
 0 FILE 42052 - 61254.dat
 0 Large offset tyre submodel built from tapered cones, open cylinders, and wide ring bands forming a grooved tread surface.
 0 Name: 42052 - 61254.dat
@@ -5658,6 +5683,7 @@
 1 16 0 0 0 0.14232 0.98982 0 -0.98982 0.14232 0 0 0 1 s\42052 - 61254s01.dat
 1 16 0 0 0 -0.14231 0.98982 0 -0.98982 -0.14231 0 0 0 1 s\42052 - 61254s01.dat
 
+0 STEP
 0 FILE 42052 - 33299b.dat
 0 Short Technic liftarm with boss featuring semi-reduced axle holes and peg connections, defined by rings and disc primitives.
 0 Name: 42052 - 33299b.dat
@@ -5695,6 +5721,7 @@
 4 16 6.36 10 33.637 3.444 10 31.685 3.062 10 32.609 5.657 10 34.343
 4 16 3.444 10 31.685 0 10 31 0 10 32 3.062 10 32.609
 
+0 STEP
 0 FILE s\42052 - 13971s01.dat
 0 Subpart forming the spokes of a deep-groove wheel rim, constructed from two rectangular edge primitives.
 0 Name: s\42052 - 13971s01.dat
@@ -5785,6 +5812,7 @@
 5 24 3.9065 9.8096 10 0 10.2202 10 1.3049 10.8874 9.888 3.4443 8.3151 10
 5 24 8.851 5.1101 10 6.5421 8.288 10 8.7763 6.5738 9.888 8.3151 3.4443 10
 
+0 STEP
 0 FILE s\42052 - 61254s01.dat
 0 Subpart defining a single tread band element of the offset tyre, composed of two rectangular edge primitives.
 0 Name: s\42052 - 61254s01.dat
@@ -5837,6 +5865,7 @@
 5 24 -2.456 -29.583 1.25 2.456 -29.583 1.25 2.199 -29.215 9 -1.779 -29.631 -1.25
 5 24 1.779 -29.631 -1.25 2.456 -29.583 1.25 -2.456 -29.583 1.25 6.64106 -28.9319 -1.25
 
+0 STEP
 0 FILE s\42052 - 33299s01.dat
 0 Common geometry subpart for a short Technic liftarm with boss, constructed from cylinders, rings, circles, and peg-hole primitives.
 0 Name: s\42052 - 33299s01.dat

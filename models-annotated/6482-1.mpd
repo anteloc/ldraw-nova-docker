@@ -13,6 +13,7 @@
 1 14 280 0 -70 0.5 0 0.866 0 1 0 -0.866 0 0.5 6482 - minifig 2.ldr
 1 14 91.999 -40.001 -99.999 0 -1 0 0 0 1 -1 0 0 6482 - minifig 3.ldr
 
+0 STEP
 0 FILE 6482 - helicopter.ldr
 0 A large red and yellow helicopter built from plates and hinge plates, with a detailed fuselage construction.
 0 Name: 6482 - helicopter.ldr
@@ -410,6 +411,7 @@
 0 // Tile  1 x  8 (light_grey)
 1 7 -100 -172 -50 0 0 1 0 1 0 -1 0 0 4162.dat
 
+0 STEP
 0 FILE 6482 - stretcher.ldr
 0 A white wheeled stretcher with bottom hinges for medical transport.
 0 Name: 6482 - stretcher.ldr
@@ -426,6 +428,7 @@
 0 // Stretcher Wheels (white)
 1 15 -50.001 -19 0.002 0 0 -1 0 1 0 1 0 0 4715.dat
 
+0 STEP
 0 FILE 6482 - minifig 1.ldr
 0 A rescue helicopter pilot minifigure wearing a white helmet with blue visor and a red flight suit with diagonal zip.
 0 Name: 6482 - minifig 1.ldr
@@ -458,6 +461,7 @@
 0 // ~Minifig Leg Right (Obsolete) (blue)
 1 1 0 -28 0 1 0 0 0 1 0 0 0 1 3816.dat
 
+0 STEP
 0 FILE 6482 - minifig 2.ldr
 0 A rescue crew minifigure wearing a white cap and a red flight suit with diagonal zip.
 0 Name: 6482 - minifig 2.ldr
@@ -488,6 +492,7 @@
 0 // ~Minifig Leg Right (Obsolete) (blue)
 1 1 0 -28 0 1 0 0 0 1 0 0 0 1 3816.dat
 
+0 STEP
 0 FILE 6482 - minifig 3.ldr
 0 A rescue crew minifigure with black hair wearing a black outfit.
 0 Name: 6482 - minifig 3.ldr

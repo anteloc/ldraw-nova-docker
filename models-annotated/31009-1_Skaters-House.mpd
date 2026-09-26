@@ -10,6 +10,7 @@
 1 14 -69.995 -55.936 10 0.208 -0.978 0 0.978 0.208 0 0 0 1 31009 - Skateboard.ldr
 
 
+0 STEP
 0 FILE 31009 - MiniFig1.ldr
 0 A male minifigure wearing a blue torso, white arms, tan legs, and short tousled black hair.
 0 Name: 31009 - MiniFig1.ldr
@@ -35,6 +36,7 @@
 1 14 -23.688 -5.24 -9.884 0.985 -0.12 0.12 0.17 0.697 -0.697 0 0.707 0.707 3820.dat
 
 
+0 STEP
 0 FILE 31009 - Skaters House.ldr
 0 A green and light bluish-grey house built on a 16x16 baseplate, with slopes, plates, hinges, and door rails forming the walls and roof.
 0 Name: 31009 - Skaters House.ldr
@@ -474,6 +476,7 @@
 1 15 -230 -312 -150 0 0 1 0 1 0 -1 0 0 59900.dat
 
 
+0 STEP
 0 FILE 31009 - Window.ldr
 0 A small white-framed window with clear glass pane.
 0 Name: 31009 - Window.ldr
@@ -487,6 +490,7 @@
 1 47 0 0 0 1 0 0 0 1 0 0 0 1 60601.dat
 
 
+0 STEP
 0 FILE 31009 - Big Window.ldr
 0 A tall white-framed door or large window unit with a single clear glass panel.
 0 Name: 31009 - Big Window.ldr
@@ -500,6 +504,7 @@
 1 47 0 4 -5 1 0 0 0 1 0 0 0 1 57895.dat
 
 
+0 STEP
 0 FILE 31009 - Skateboard.ldr
 0 A blue skateboard fitted with two sets of black wheels.
 0 Name: 31009 - Skateboard.ldr
@@ -515,6 +520,7 @@
 1 0 29.5 14.5 -1 0 0 -1 0 1 0 1 0 0 2496.dat
 
 
+0 STEP
 0 FILE 31009 - Chair.ldr
 0 A small swivel chair on a turntable base, with a tan seat and medium blue tiled backrest.
 0 Name: 31009 - Chair.ldr
@@ -540,6 +546,7 @@
 1 71 0 8 10 1 0 0 0 1 0 0 0 1 3679.dat
 
 
+0 STEP
 0 FILE 31009 - Table.ldr
 0 A round brown dining table holding a white plate with a cup, sausage, and a small condiment.
 0 Name: 31009 - Table.ldr

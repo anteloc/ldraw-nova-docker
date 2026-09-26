@@ -17,6 +17,7 @@
 1 0 0 -8 30 1 0 0 0 1 0 0 0 1 2431.dat
 1 0 0 -48 20 1 0 0 0 1 0 0 0 1 41592 - 1.ldr
 
+0 STEP
 0 FILE 41592 - 1.ldr
 0 A green and light bluish grey build forming the Hulk's torso with muscle pattern bricks, hinged shoulders, and black slope detailing.
 0 Name: 41592 - 1.ldr
@@ -187,6 +188,7 @@
 0 // Brick  1 x  2 (medium_lilac)
 1 85 30 8 0 0 0 1 0 1 0 -1 0 0 3004.dat
 
+0 STEP
 0 FILE 41592 - 2.ldr
 0 A small green assembly with a hinge top, round axle plates, and slope bricks forming part of a limb.
 0 Name: 41592 - 2.ldr
@@ -209,6 +211,7 @@
 
 
 
+0 STEP
 0 FILE 41592 - 3.ldr
 0 A small green assembly with a hinge top, round axle plates, and slope bricks forming part of a limb.
 0 Name: 41592 - 3.ldr
@@ -229,6 +232,7 @@
 0 // Slope Brick 31  1 x  2 x  0.667 (green)
 1 2 -10 -26 10 0 0 1 0 1 0 -1 0 0 85984.dat
 
+0 STEP
 0 FILE 41592 - 87079pz0.dat
 0 A decorated black 2x4 tile displaying the BrickHeadz Series Number 1 pattern.
 0 Name: 41592 - 87079pz0.dat
@@ -244,6 +248,7 @@
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 s\41592 - 87079pz0s01.dat
 1 15 0 0 0 1 0 0 0 1 0 0 0 1 s\41592 - 87079pz0s02.dat
 
+0 STEP
 0 FILE 41592 - 3010pz7.dat
 0 A green 1x4 brick printed with black abdominal muscles pattern.
 0 Name: 41592 - 3010pz7.dat
@@ -313,6 +318,7 @@
 3 16 16.92 13.81 -10 16.57 20.09 -10 40 24 -10
 3 16 16.57 20.09 -10 15.8 22.14 -10 40 24 -10
 
+0 STEP
 0 FILE 41592 - 3010pz6.dat
 0 A green 1x4 brick printed with black pectoral muscles pattern.
 0 Name: 41592 - 3010pz6.dat
@@ -393,6 +399,7 @@
 3 16 37.44 16.36 -10 37.38 16.75 -10 40 24 -10
 3 16 37.46 16.04 -10 37.44 16.36 -10 40 24 -10
 
+0 STEP
 0 FILE 41592 - 98138pz0.dat
 0 A decorated round 1x1 tile featuring a two white squares pattern.
 0 Name: 41592 - 98138pz0.dat
@@ -425,6 +432,7 @@
 4 16 1.81 0 4.601 8.3151 0 3.4443 6.3639 0 6.3639 3.4443 0 8.3151
 3 16 0 0 9 1.81 0 4.601 3.4443 0 8.3151
 
+0 STEP
 0 FILE s\41592 - 87079pz0s01.dat
 0 A sub-part of the series number tile composed of black rings, adapter rings, and white chord/disc primitives forming the decorative border.
 0 Name: s\41592 - 87079pz0s01.dat
@@ -610,6 +618,7 @@
 3 16 40 0 20 35 0 14.5 35 0 13
 3 16 40 0 20 33.5 0 14.5 35 0 14.5
 
+0 STEP
 0 FILE s\41592 - 87079pz0s02.dat
 0 A sub-part of the series number tile composed of chord and disc primitives forming the numeral 1.
 0 Name: s\41592 - 87079pz0s02.dat

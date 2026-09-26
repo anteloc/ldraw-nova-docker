@@ -9,6 +9,7 @@
 
 
 
+0 STEP
 0 FILE 8838 - Trike.ldr
 0 Technic chassis frame built from long holed bricks, plates, axles, and an 8-tooth gear forming the trike's structural base.
 0 Name: 8838 - Trike.ldr
@@ -132,6 +133,7 @@
 
 
 
+0 STEP
 0 FILE 8838 - Lower-Frame-Right.ldr
 0 Right-side lower frame section using holed bricks, axles, and a 24-tooth gear with bushes to support drivetrain rotation.
 0 Name: 8838 - Lower-Frame-Right.ldr
@@ -166,6 +168,7 @@
 
 
 
+0 STEP
 0 FILE 8838 - shock-09_5L-soft-1.ldr
 0 Soft 9L shock absorber assembly composed of a cylinder, piston rod, and coiled spring.
 0 !CATEGORY Technic
@@ -202,6 +205,7 @@
 
 
 
+0 STEP
 0 FILE 8838 - shock-09_5L-soft-1_springMesh.ldr
 0 Generated coil spring mesh for the 9L soft shock absorber, modeled with three sections and 16 windings.
 0 Author: Max Martin Richter [MMR1988]
@@ -6410,6 +6414,7 @@
 
 
 
+0 STEP
 0 FILE 8838 - Motor-Block.ldr
 0 Engine cylinder head block assembled with holed bricks, pins, and connector plates forming the motor housing.
 0 Name: 8838 - Motor-Block.ldr
@@ -6456,6 +6461,7 @@
 
 
 
+0 STEP
 0 FILE 8838 - Piston-Connector.ldr
 0 Engine crankshaft and piston subassembly with connecting rod, axle, and bushing.
 0 Name: 8838 - Piston-Connector.ldr
@@ -6477,6 +6483,7 @@
 
 
 
+0 STEP
 0 FILE 8838 - Pivot-Connection.ldr
 0 Steering pivot connection using a motorcycle steering head brick, plate, and axle with bushes.
 0 Name: 8838 - Pivot-Connection.ldr
@@ -6498,6 +6505,7 @@
 
 
 
+0 STEP
 0 FILE 8838 - Lower-Frame-Left.ldr
 0 Left-side lower frame section using a holed brick, axle, axle pins, bushes, and a 24-tooth gear.
 0 Name: 8838 - Lower-Frame-Left.ldr
@@ -6524,6 +6532,7 @@
 
 
 
+0 STEP
 0 FILE 8838 - Frame-Front.ldr
 0 Front frame section built from holed bricks, liftarms, pins, and an axle to connect the forward structure.
 0 Name: 8838 - Frame-Front.ldr
@@ -6559,6 +6568,7 @@
 
 
 
+0 STEP
 0 FILE 8838 - Fork-Upper.ldr
 0 Upper fork assembly made of triangle liftarms and axles with bushes forming the fork arms.
 0 Name: 8838 - Fork-Upper.ldr
@@ -6590,6 +6600,7 @@
 
 
 
+0 STEP
 0 FILE 8838 - Start-Number-Connector.ldr
 0 Connector assembly using holed plates, an axle, bushes, and toggle joint connectors for the start number mount.
 0 Name: 8838 - Start-Number-Connector.ldr
@@ -6615,6 +6626,7 @@
 
 
 
+0 STEP
 0 FILE 8838 - Handle-Right.ldr
 0 Right handlebar assembly of toggle joint connectors, short axles, and half bushes.
 0 Name: 8838 - Handle-Right.ldr
@@ -6644,6 +6656,7 @@
 
 
 
+0 STEP
 0 FILE 8838 - Seat.ldr
 0 Rider seat built from hinge plates and yellow plates to form an articulated, contoured saddle.
 0 Name: 8838 - Seat.ldr
@@ -6671,6 +6684,7 @@
 
 
 
+0 STEP
 0 FILE 8838 - Handle-Left.ldr
 0 Left handlebar assembly of toggle joint connectors, short axles, and half bushes.
 0 Name: 8838 - Handle-Left.ldr
@@ -6700,6 +6714,7 @@
 
 
 
+0 STEP
 0 FILE 8838 - technicChainClosed-1.ldr
 0 Closed loop of 25 Technic chain links forming a drive chain.
 0 !CATEGORY technic
@@ -6777,6 +6792,7 @@
 
 
 
+0 STEP
 0 FILE 8838 - Fork.ldr
 0 Front fork with axles, bushes, and a wedge belt wheel paired with a rubber tyre.
 0 Name: 8838 - Fork.ldr
@@ -6804,6 +6820,7 @@
 
 
 
+0 STEP
 0 FILE 8838 - shock-09_5L-soft-2.ldr
 0 Second soft 9L shock absorber assembly composed of a cylinder, piston rod, and coiled spring.
 0 !CATEGORY Technic
@@ -6840,6 +6857,7 @@
 
 
 
+0 STEP
 0 FILE 8838 - shock-09_5L-soft-2_springMesh.ldr
 0 Generated coil spring mesh for the second 9L soft shock absorber, modeled with three sections and 16 windings.
 0 Author: Max Martin Richter [MMR1988]
@@ -13048,6 +13066,7 @@
 
 
 
+0 STEP
 0 FILE 8838 - 2903.dat
 0 Motorcycle wheel rim assembly composed of rings, cylinders, discs, and spokes forming a 14 x 62 rim.
 0 Name: 8838 - 2903.dat
@@ -13253,6 +13272,7 @@
 
 
 
+0 STEP
 0 FILE s\8838 - 2903s01.dat
 0 Subpart of the motorcycle wheel rim detailing the pegholes, spokes, rim cone, and circular geometry.
 0 Name: s\8838 - 2903s01.dat
@@ -13510,6 +13530,7 @@
 
 
 
+0 STEP
 0 FILE 8\8838 - 2-4ndis.dat
 0 Primitive low-resolution negative half-disc generated for circular part geometry.
 0 Name: 8\8838 - 2-4ndis.dat
@@ -13525,6 +13546,7 @@
 
 
 
+0 STEP
 0 FILE 8838 - 2-4ring32.dat
 0 Primitive ring segment at 1/32 resolution generated for circular part geometry.
 0 Name: 8838 - 2-4ring32.dat
@@ -13544,6 +13566,7 @@
 
 
 
+0 STEP
 0 FILE 8838 - 2902.dat
 0 Motorcycle off-road tyre 17/70 x 62 shell with no direct pieces.
 0 Name: 8838 - 2902.dat
@@ -13607,6 +13630,7 @@
 
 
 
+0 STEP
 0 FILE s\8838 - 2902s01.dat
 0 One-twenty-fourth subpart of the off-road motorcycle tyre detailing tread grooves, faces, and edges.
 0 Name: s\8838 - 2902s01.dat
@@ -13716,6 +13740,7 @@
 
 
 
+0 STEP
 0 FILE 8838 - 4185a.dat
 0 Technic wedge belt wheel composed of an axle hub with open cylinders and rectangular flanges forming a grooved pulley rim.
 0 Name: 8838 - 4185a.dat
@@ -13787,6 +13812,7 @@
 
 
 
+0 STEP
 0 FILE s\8838 - 4185as01.dat
 0 One-eighth radial segment of the Technic wedge belt wheel, built from rings, discs, and cylindrical sections defining the grooved pulley profile.
 0 Name: s\8838 - 4185as01.dat

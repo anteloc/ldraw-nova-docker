@@ -228,6 +228,7 @@
 1 14 0 -24 -310 1 0 0 0 1 0 0 0 1 3037.dat
 
 
+0 STEP
 0 FILE 312 - x139b.dat
 0 A weighted boat keel primitive composed of spheres, a cylinder, and circular elements forming the weighted lower hull.
 0 Name: 312 - x139b.dat
@@ -250,6 +251,7 @@
 0 // Sphere 0.5 (main_colour)
 1 16 0 80 60 -20 0 0 0 0 20 0 20 0 4-8sphe.dat
 
+0 STEP
 0 FILE s\312 - x139s01.dat
 0 A half-section boat keel form built from rings, circles, cylinders, and sloped cylinders defining the curved keel profile.
 0 Name: s\312 - x139s01.dat
@@ -548,6 +550,7 @@
 2 24 11.476 2 -64.294 12.296 2 -64.457
 2 24 12.296 2 -64.457 14.243 2 -65.757
 
+0 STEP
 0 FILE s\312 - x139s02.dat
 0 A boat keel half form consisting of cylinders, chords, and circular shapes with added conditional lines.
 0 Name: s\312 - x139s02.dat

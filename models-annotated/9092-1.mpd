@@ -17,6 +17,7 @@
 
 
 
+0 STEP
 0 FILE 9092 - 9092-a.ldr
 0 A robust Technic frame submodel built with bent beams, long axles, pin joiners, and reinforcing plates forming a structural chassis.
 0 Name: 9092 - 9092-a.ldr
@@ -182,6 +183,7 @@
 
 
 
+0 STEP
 0 FILE 9092 - 9092-b.ldr
 0 A small Technic connector submodel using a cross block, half pin, and axle pin to join axle and pin elements.
 0 Name: 9092 - 9092-b.ldr
@@ -203,6 +205,7 @@
 
 
 
+0 STEP
 0 FILE 9092 - 9092-c.ldr
 0 A Technic detail submodel combining angle connectors, slotted bricks with axleholes, a stop axle, and curved slope bricks for a finished mechanical element.
 0 Name: 9092 - 9092-c.ldr

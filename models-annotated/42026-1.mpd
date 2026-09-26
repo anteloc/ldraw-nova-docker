@@ -167,6 +167,7 @@
 
 
 
+0 STEP
 0 FILE 42026 - step10.ldr
 0 Small orange beam and black body panel subassembly joined with pins and a short axle.
 0 Author: Orion Pobursky [OrionP]
@@ -198,6 +199,7 @@
 
 
 
+0 STEP
 0 FILE 42026 - step12.ldr
 0 Orange bent liftarm and black beam substructure connected with long pins and short axles.
 0 Author: Orion Pobursky [OrionP]
@@ -227,6 +229,7 @@
 
 
 
+0 STEP
 0 FILE 42026 - step13.ldr
 0 Steering assembly combining a black beam, a steering wheel yoke, and connecting pins.
 0 Author: Orion Pobursky [OrionP]
@@ -248,6 +251,7 @@
 
 
 
+0 STEP
 0 FILE 42026 - step16.ldr
 0 Orange thin fairing panel mounted alongside a black medium panel using axle and friction pins.
 0 Author: Orion Pobursky [OrionP]
@@ -273,6 +277,7 @@
 
 
 
+0 STEP
 0 FILE 42026 - step17.ldr
 0 Mirrored orange thin fairing panel paired with a black medium panel, attached via axle and friction pins.
 0 Author: Orion Pobursky [OrionP]
@@ -298,6 +303,7 @@
 
 
 
+0 STEP
 0 FILE 42026 - step18.ldr
 0 Axle-and-pin cross block connector module using long pin and stop bush pins.
 0 Author: Orion Pobursky [OrionP]
@@ -325,6 +331,7 @@
 
 
 
+0 STEP
 0 FILE 42026 - step18hose1.ldr
 0 Bent flexible hose segment approximating 48 mm over 20 segments.
 0 Author: Orion Pobursky [OrionP]
@@ -17180,6 +17187,7 @@
 5 24 -53.994652 -26.546482 -72.487549 -53.5 -26.546482 -70 -53.803551 -26.546627 -72.566849 -54.171448 -26.58316 -72.414101
 
 
+0 STEP
 0 FILE 42026 - step18hose2.ldr
 0 Bent flexible hose segment mirroring step18hose1, approximately 48 mm long.
 0 Author: Orion Pobursky [OrionP]
@@ -34034,6 +34042,7 @@
 5 24 66.005348 -26.546494 -72.487549 66.5 -26.546494 -70 66.196449 -26.546638 -72.566849 65.828552 -26.58317 -72.414101
 
 
+0 STEP
 0 FILE 42026 - step19.ldr
 0 Angular support subassembly using bent liftarms, angle connectors, and axle pins.
 0 Author: Orion Pobursky [OrionP]
@@ -34074,6 +34083,7 @@
 
 
 
+0 STEP
 0 FILE 42026 - step20.ldr
 0 Black structural mounting block combining a T-beam, bent beams, and body panels with friction pins.
 0 Author: Orion Pobursky [OrionP]
@@ -34117,6 +34127,7 @@
 
 
 
+0 STEP
 0 FILE 42026 - step21.ldr
 0 Short black panel fairing attached to a beam with a stop bush pin.
 0 Author: Orion Pobursky [OrionP]
@@ -34139,6 +34150,7 @@
 
 
 
+0 STEP
 0 FILE 42026 - step22.ldr
 0 Mirrored short black panel fairing mounted on a beam with a stop bush pin.
 0 Author: Orion Pobursky [OrionP]
@@ -34161,6 +34173,7 @@
 
 
 
+0 STEP
 0 FILE 42026 - step24.ldr
 0 Orange liftarm connector module using a cross block, axle, and long friction pin.
 0 Author: Orion Pobursky [OrionP]
@@ -34184,6 +34197,7 @@
 
 
 
+0 STEP
 0 FILE 42026 - step26.ldr
 0 Small black linkage subassembly with a split cross block, beam, and stop bush pins.
 0 Author: Orion Pobursky [OrionP]
@@ -34208,6 +34222,7 @@
 
 
 
+0 STEP
 0 FILE 42026 - step27flexaxle1.ldr
 0 Long flexible axle segment approximately 128 mm with 54 curved segments.
 0 Author: Orion Pobursky [OrionP]
@@ -37112,6 +37127,7 @@
 5 24 135.242111 -3.513412 -91.5308 131.841766 -4.424532 -91.5308 135.16333 -3.219385 -90 135.466568 -4.351063 -92.8284
 
 
+0 STEP
 0 FILE 42026 - step27flexaxle2.ldr
 0 Mirrored long flexible axle segment approximately 128 mm with 54 curved segments.
 0 Author: Orion Pobursky [OrionP]

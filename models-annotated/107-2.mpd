@@ -7,6 +7,7 @@
 
 1 16 0 0 0 1 0 0 0 1 0 0 0 1 107-2 - m-1.ldr
 
+0 STEP
 0 FILE 107-2 - m-1.ldr
 0 An assembly referencing the vehicle, building, and minifig submodels into the full scene.
 0 Name: 107-2 - m-1.ldr
@@ -21,6 +22,7 @@
 
 
 
+0 STEP
 0 FILE 107-2 - m-1a.ldr
 0 A red vehicle chassis built on black plates with six grey wheels, tyres, and a mudguard.
 0 Name: 107-2 - m-1a.ldr
@@ -180,6 +182,7 @@
 
 
 
+0 STEP
 0 FILE 107-2 - mf-1.ldr
 0 A police minifig wearing a black hat, blue torso and legs, with a smiling yellow head.
 0 Name: 107-2 - mf-1.ldr
@@ -212,6 +215,7 @@
 
 
 
+0 STEP
 0 FILE 107-2 - m-1b.ldr
 0 A white building structure composed of bricks and plates with windows and a red striped accent.
 0 Name: 107-2 - m-1b.ldr
@@ -307,6 +311,7 @@
 
 
 
+0 STEP
 0 FILE 107-2 - m-1ba.ldr
 0 A black wheeled vehicle or trailer module with four grey wheels, hinges, and red light elements.
 0 Name: 107-2 - m-1ba.ldr

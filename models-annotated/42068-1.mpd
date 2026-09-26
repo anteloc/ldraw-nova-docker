@@ -1118,6 +1118,7 @@
 1 0 -140 -73 240 0 -1 0 -1 0 0 0 0 -1 2723.dat
 0 STEP
 1 4 0 -213 -120 1 0 0 0 1 0 0 0 1 42068 - toolstray.ldr
+0 STEP
 0 FILE 42068 - axle.ldr
 0 Rear drive axle assembly featuring a differential with bevel gears, a 20-tooth double bevel gear, and cross blocks mounted on a large open-center beam.
 0 Name: 42068 - axle.ldr
@@ -1223,6 +1224,7 @@
 1 0 -60 -10 -40 0 0 -1 -1 0 0 0 1 0 2780.dat
 0 // Technic Beam  5 (light_bluish_grey)
 1 71 -60 -20 0 -1 0 0 0 1 0 0 0 -1 32316.dat
+0 STEP
 0 FILE 42068 - axlefront.ldr
 0 Front steering axle built from open-center beams, liftarms, and a towball, with a commemorative '40 1977-2017' printed beam.
 0 Name: 42068 - axlefront.ldr
@@ -1295,6 +1297,7 @@
 1 0 -40 -10 60 0 0 -1 1 0 0 0 -1 0 2780.dat
 0 // Technic Beam  5 (light_bluish_grey)
 1 71 0 -20 60 0 0 -1 0 -1 0 -1 0 0 32316.dat
+0 STEP
 0 FILE 42068 - steerbeam.ldr
 0 Steering linkage made from long beams, a bent liftarm, and a towball joint cross block for articulating the front wheels.
 0 Name: 42068 - steerbeam.ldr
@@ -1327,6 +1330,7 @@
 1 1 20 0 180 1 0 0 0 -1 0 0 0 -1 6558.dat
 0 // Technic Beam  2 Liftarm (orange)
 1 25 0 0 200 0 -1 0 -1 0 0 0 0 -1 60483.dat
+0 STEP
 0 FILE 42068 - gear1.ldr
 0 Gear linkage subassembly using a 9-stud axle, 12-tooth double bevel gears, bent liftarms, and an angle connector for power transfer.
 0 Name: 42068 - gear1.ldr
@@ -1378,6 +1382,7 @@
 1 4 200 0 40 0 0 -1 0 -1 0 -1 0 0 32054.dat
 0 // Technic Pin Long with Stop Bush (red)
 1 4 240 0 40 0 0 -1 0 -1 0 -1 0 0 32054.dat
+0 STEP
 0 FILE 42068 - chassis1.ldr
 0 Mid-chassis section with universal joints and an 8-stud axle for transmitting drive through the open-center beam frame.
 0 Name: 42068 - chassis1.ldr
@@ -1428,6 +1433,7 @@
 1 71 40 -80 -200 0.986 -0.058 -0.158 0.058 0.998 -0.005 0.158 -0.005 0.987 62519.dat
 0 // Technic Axle Joiner Inline Smooth (dark_bluish_grey)
 1 72 0 0 90 1 0 0 0 1 0 0 0 1 59443.dat
+0 STEP
 0 STEP
 0 FILE 42068 - chassis2.ldr
 0 Rear chassis frame section combining open-center beams, bent liftarms, a 20-tooth gear, and angle connectors to support drivetrain components.
@@ -1516,6 +1522,7 @@
 1 14 0 0 80 0 1 0 0 0 1 1 0 0 44294.dat
 0 // Technic Gear 24 Tooth with Single Axle Hole (dark_bluish_grey)
 1 72 0 -40 -120 -1 0 0 0 1 0 0 0 -1 3648b.dat
+0 STEP
 0 FILE 42068 - gearbox.ldr
 0 Multi-speed gearbox built from beams, clutch gears, cross blocks, and bushings to select and route drive to the axles.
 0 Name: 42068 - gearbox.ldr
@@ -1695,6 +1702,7 @@
 1 0 -40 -120 -50 0 0 -1 0 -1 0 -1 0 0 2780.dat
 0 // Technic Beam  7 (light_bluish_grey)
 1 71 20 -180 -80 0 0 -1 1 0 0 0 -1 0 32524.dat
+0 STEP
 0 FILE 42068 - turntable.ldr
 0 Rotating turntable mechanism using a 28-tooth turntable pair driven by a 12-tooth bevel gear on an open-center beam base.
 0 Name: 42068 - turntable.ldr
@@ -1753,6 +1761,7 @@
 1 1 0 -40 -20 1 0 0 0 -1 0 0 0 -1 6558.dat
 0 // Technic Pin Long with Friction and Slot (blue)
 1 1 0 -40 20 1 0 0 0 -1 0 0 0 -1 6558.dat
+0 STEP
 0 STEP
 0 FILE 42068 - engine.ldr
 0 Inline four-cylinder engine assembly with crankshafts, connecting rods, pistons, cylinder heads, and a 16-tooth drive gear.
@@ -1856,6 +1865,7 @@
 1 14 10 40 -140 1 0 0 0 0 1 0 -1 0 4519.dat
 0 // Technic Cross Block 1 x 3 (Axle/Pin/Pin) (yellow)
 1 14 10 20 -140 1 0 0 0 -1 0 0 0 -1 42003.dat
+0 STEP
 0 FILE 42068 - chassislowerfront.ldr
 0 Lower front chassis structure using bent liftarms, cross blocks, and a driving-ring axle joiner to reinforce the front frame.
 0 Name: 42068 - chassislowerfront.ldr
@@ -1898,6 +1908,7 @@
 1 0 6 48 -70 0 0 1 0 -1 0 1 0 0 2780.dat
 0 // Technic Pin with Friction and Slots (black)
 1 0 6 48 30 0 0 1 0 -1 0 1 0 0 2780.dat
+0 STEP
 0 FILE 42068 - cabinfloor.ldr
 0 Cabin floor framework assembled from double-bent liftarms and 7-stud beams pinned around a central axle.
 0 Name: 42068 - cabinfloor.ldr
@@ -1931,6 +1942,7 @@
 1 0 50 20 0 -1 0 0 0 -1 0 0 0 1 2780.dat
 0 // Technic Pin with Friction and Slots (black)
 1 0 -50 20 0 -1 0 0 0 -1 0 0 0 1 2780.dat
+0 STEP
 0 FILE 42068 - bodywork.ldr
 0 Red and grey exterior bodywork composed of large smooth panels, beams, connectors, and transparent round lights.
 0 Name: 42068 - bodywork.ldr
@@ -2151,6 +2163,7 @@
 1 0 530 20 0 -1 0 0 0 -1 0 0 0 1 2780.dat
 0 // Technic Beam  9 (dark_bluish_grey)
 1 72 540 20 80 0 1 0 -1 0 0 0 0 1 40490.dat
+0 STEP
 0 FILE 42068 - technicFlexAxle-1.ldr
 0 Flexible ribbed axle assembly approximately 99 mm long, generated from 49 curved segments.
 0 Name: 42068 - technicFlexAxle-1.ldr
@@ -4881,6 +4894,7 @@
 5 24 1.5308 -180.60968 140.323517 1.5308 -179.634796 136.685211 2.8284 -179.772018 140.547958 0 -180.903702 140.24472
 5 24 2.8284 -179.772018 140.547958 2.8284 -178.79715 136.909653 3.6956 -178.518646 140.883804 1.5308 -180.60968 140.323517
 5 24 3.6956 -178.518646 140.883804 3.6956 -177.543762 137.245499 4 -177.039993 141.279999 2.8284 -179.772018 140.547958
+0 STEP
 0 FILE 42068 - frontbumper.ldr
 0 Front bumper bar built from an 11-stud beam, angle connector, and transparent round accent pieces.
 0 Name: 42068 - frontbumper.ldr
@@ -4925,6 +4939,7 @@
 1 14 11.647 -40 -63.467 -0.966 0 -0.259 0 -1 0 -0.259 0 0.966 32123a.dat
 0 // Cone  1 x  1 with Stop (yellow)
 1 14 20.188 -40 -95.342 -0.966 -0.259 0 0 0 1 -0.259 0.966 0 59900.dat
+0 STEP
 0 FILE 42068 - firehosearm.ldr
 0 Articulated fire hose arm with bent white liftarms, a worm gear, and an 8-tooth gear for controlled rotation.
 0 Name: 42068 - firehosearm.ldr
@@ -4990,6 +5005,7 @@
 1 1 -432 24 -70 0 -1 0 0 0 1 -1 0 0 43093.dat
 0 // Technic Beam  3 x  3 x  0.5 Liftarm Bent 90 (yellow)
 1 14 -432 24 -75 0 0 1 -1 0 0 0 -1 0 32056.dat
+0 STEP
 0 FILE 42068 - firehosearmunfoldgear.ldr
 0 Gear mechanism for unfolding the fire hose arm using 12-tooth bevel gears and a toggle joint connector.
 0 Name: 42068 - firehosearmunfoldgear.ldr
@@ -5022,6 +5038,7 @@
 1 0 -60 0 -50 0 0 1 0 1 0 -1 0 0 32270.dat
 0 // Technic Bush with Two Flanges (red)
 1 4 -40 0 -50 0 0 1 0 1 0 -1 0 0 3713.dat
+0 STEP
 0 FILE 42068 - firehosearmtip.ldr
 0 Tip section of the fire hose arm with long white beams, a nozzle cone, and bushings for the hose outlet.
 0 Name: 42068 - firehosearmtip.ldr
@@ -5068,6 +5085,7 @@
 0 // Cone  1 x  1 with Stop (yellow)
 1 14 10 15.154 -363.439 0 0 -1 -0.707 -0.707 0 -0.707 0.707 0 59900.dat
 
+0 STEP
 0 FILE 42068 - toolstray.ldr
 0 Side storage tray holding a crowbar, hammer, and lug wrench tools, framed by a panel, beams, and steering wheels.
 0 Name: 42068 - toolstray.ldr
@@ -5198,6 +5216,7 @@
 1 71 -78 -40 40 0 1 0 0 0 -1 -1 0 0 42068 - 30663.dat
 0 // Tile  1 x  2 Grille with Groove (light_bluish_grey)
 1 71 -58 0 -10 0 1 0 0 0 -1 -1 0 0 2412b.dat
+0 STEP
 0 FILE 42068 - technicRibHoseLQ-1.ldr
 0 Ribbed flexible hose approximately 87 mm long, composed of 41 mid segments capped with end segments.
 0 Name: 42068 - technicRibHoseLQ-1.ldr
@@ -5309,6 +5328,7 @@
 1 16 0 -140.458646 -127.170103 1 0 0 0 0.707107 -0.707107 0 0.707107 0.707107 80.dat
 0 // ~Technic Ribbed Hose End Segment (main_colour)
 1 16 0 -144.197982 -130.909439 1 0 0 0 -0.707107 0.707107 0 -0.707107 -0.707107 79.dat
+0 STEP
 0 FILE 42068 - 33299a.dat
 0 Primitive part definition for a Technic axle-hole component with rings and discs.
 0 Name: 42068 - 33299a.dat
@@ -5341,6 +5361,7 @@
 4 16 9 10 32 9 10 29 -9 10 29 -9 10 32
 4 16 8 10 36.661999 9 10 35.661999 9 10 32 8 10 32
 4 16 -9 10 35.661999 -8 10 36.661999 -8 10 32 -9 10 32
+0 STEP
 0 FILE 42068 - 32523p01.dat
 0 Primitive part definition for a Technic beam with cylinder and connector hole geometry.
 0 Name: 42068 - 32523p01.dat
@@ -5866,6 +5887,7 @@
 4 16 9 -6.1 11.9 9 -5.35 10.7 9 -5.5 12.35 9 -6.4 13.3
 3 16 9 -6.4 13.3 9 -5.5 12.35 9 -5.85 13.25
 4 16 9 7.9 10.4 9 8.55 10.1 9 8.55 11.55 9 7.35 10.75
+0 STEP
 0 FILE 42068 - 2850b.dat
 0 Primitive part definition for a Technic turntable gear using cylinders and rectangular box faces.
 0 Name: 42068 - 2850b.dat
@@ -6034,6 +6056,7 @@
 4 16 -16 43 2 -13 43 2 -13 33 2 -20 36 2
 3 16 -13 33 2 -20 33 2 -20 36 2
 4 16 -20 36 2 -20 33 2 -27 33 2 -27 36 2
+0 STEP
 0 FILE 42068 - ldcFlexAxleEndA.dat
 0 Placeholder part definition for a flexible axle end cap (stub).
 0 Name: 42068 - ldcFlexAxleEndA.dat
@@ -6050,6 +6073,7 @@
 
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
+0 STEP
 0 FILE 42068 - ldcFlexAxleEndB.dat
 0 Placeholder part definition for a cylindrical flexible axle end cap (stub).
 0 Name: 42068 - ldcFlexAxleEndB.dat
@@ -6067,6 +6091,7 @@
 
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
+0 STEP
 0 FILE 42068 - ldcFlexAxleEndC.dat
 0 Flexible axle end segment C with a single placeholder piece.
 0 Name: 42068 - ldcFlexAxleEndC.dat
@@ -6083,6 +6108,7 @@
 
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
+0 STEP
 0 FILE 42068 - ldcFlexAxleEndD.dat
 0 Flexible axle end segment D with a single placeholder piece.
 0 Name: 42068 - ldcFlexAxleEndD.dat
@@ -6099,6 +6125,7 @@
 
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
+0 STEP
 0 FILE 42068 - ldcFlexAxleEndE.dat
 0 Flexible axle end segment E with a single placeholder piece.
 0 Name: 42068 - ldcFlexAxleEndE.dat
@@ -6115,6 +6142,7 @@
 
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
+0 STEP
 0 FILE 42068 - ldcFlexAxleEndF.dat
 0 Flexible axle end segment F with a single placeholder piece.
 0 Name: 42068 - ldcFlexAxleEndF.dat
@@ -6131,6 +6159,7 @@
 
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
+0 STEP
 0 FILE 42068 - ldcFlexAxleEndG.dat
 0 Flexible axle end segment G with a single placeholder piece.
 0 Name: 42068 - ldcFlexAxleEndG.dat
@@ -6147,6 +6176,7 @@
 
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
+0 STEP
 0 FILE 42068 - ldcFlexAxleMid.dat
 0 Flexible axle middle section with a Technic axle perimeter body and a placeholder segment.
 0 Name: 42068 - ldcFlexAxleMid.dat
@@ -6164,6 +6194,7 @@
 
 0 //Conditional lines in between segments
 0 //  these don't seem to be worth the trouble, might add them in the future though.
+0 STEP
 0 FILE 42068 - 30663.dat
 0 Cylindrical Technic part with a rectangular outer ring and various disc cutouts forming a hollow wheel-like profile.
 0 Name: 42068 - 30663.dat
@@ -6361,6 +6392,7 @@
 0 !LICENSE Free for non-commercial use.
 
 0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 6 4   R 4 10.5]
+0 STEP
 0 FILE s\42068 - 33299s01.dat
 0 Rounded Technic subpart with cylindrical and ring segments featuring a pin hole and multiple circular cutouts.
 0 Name: s\42068 - 33299s01.dat
@@ -6630,6 +6662,7 @@
 4 16 4.9497 0 35.050201 6 0 36.661999 6 10 36.661999 4.9497 10 35.050301
 5 24 -4.9498 0 35.050098 -4.9498 10 35.050098 -6 0 36.661999 -2.6788 0 33.5327
 5 24 4.9497 10 35.050301 4.9498 0 35.050201 6 0 36.661999 2.6788 10 33.5327
+0 STEP
 0 FILE s\42068 - 2850s01.dat
 0 Complex Technic motor-style subpart with studs, cooling ribs, connector holes, and numerous cylindrical and boxed surfaces.
 0 Name: s\42068 - 2850s01.dat
@@ -7064,6 +7097,7 @@
 4 16 5.7405 36 13.8585 2.5 36 14.50287 2.5 36 16 16 36 16
 3 16 10.6065 36 10.6065 5.7405 36 13.8585 16 36 16
 3 16 13.8585 36 5.7405 10.6065 36 10.6065 16 36 16
+0 STEP
 0 FILE s\42068 - faxle1.dat
 0 Full Technic flexible axle segment with cylinder body, axle hole, perimeter, and inner edges.
 0 Name: s\42068 - faxle1.dat
@@ -7097,6 +7131,7 @@
 1 16 0.4 0 0 0 1 0 -1 0 0 0 0 1 axlehol9.dat
 0 // Technic Axle Perimeter (main_colour)
 1 16 0.4 0 0 0 -0.4 0 -1 0 0 0 0 1 axlehol8.dat
+0 STEP
 0 FILE s\42068 - faxle2.dat
 0 Technic flexible axle segment with cylinder body and standard axle perimeter, base surface, and edge details.
 0 Name: s\42068 - faxle2.dat
@@ -7124,6 +7159,7 @@
 1 16 0.8 0 0 0 3.2 0 1 0 0 0 0 1 axlehol8.dat
 0 // Cylinder 1.0 (main_colour)
 1 16 0 0 0 0 0.8 0 6 0 0 0 0 6 4-4cyli.dat
+0 STEP
 0 FILE s\42068 - faxle3.dat
 0 Technic flexible axle segment with cylinder body and axle hole tooth, base surface, and perimeter detail.
 0 Name: s\42068 - faxle3.dat
@@ -7151,6 +7187,7 @@
 1 16 1.2 0 0 0 1 0 -1 0 0 0 0 1 axlehol9.dat
 0 // Technic Axle Perimeter (main_colour)
 1 16 1.2 0 0 0 -1.2 0 -1 0 0 0 0 1 axlehol8.dat
+0 STEP
 0 FILE s\42068 - faxle4.dat
 0 Technic flexible axle segment with cylinder body and complete axle hole, base surface, and edge geometry.
 0 Name: s\42068 - faxle4.dat
@@ -7178,6 +7215,7 @@
 1 16 1.6 0 0 0 2.4 0 1 0 0 0 0 1 axlehol8.dat
 0 // Cylinder 1.0 (main_colour)
 1 16 0 0 0 0 1.6 0 6 0 0 0 0 6 4-4cyli.dat
+0 STEP
 0 FILE s\42068 - faxle5.dat
 0 Technic flexible axle segment with cylinder body and axle hole tooth, perimeter, and inner edge details.
 0 Name: s\42068 - faxle5.dat

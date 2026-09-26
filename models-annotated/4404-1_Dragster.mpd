@@ -7,6 +7,7 @@
 1 0 0 30 1.292 1 0 0 0 0.999 -0.035 0 0.035 0.999 4404 - Dragster.ldr
 
 
+0 STEP
 0 FILE 4404 - Dragster.ldr
 0 A long, low dragster chassis built from large black and grey plates with yellow body panels, wings, and Technic bracing.
 0 Name: 4404 - Dragster.ldr
@@ -299,6 +300,7 @@
 1 0 0 -100 964 1 0 0 0 0 1 0 -1 0 4404 - Rear.ldr
 
 
+0 STEP
 0 FILE 4404 - Back.ldr
 0 A rear bodywork section featuring yellow brackets, a grille tile, and handled plates.
 0 Name: 4404 - Back.ldr
@@ -323,6 +325,7 @@
 1 8 0 28 12 -1 0 0 0 0 -1 0 -1 0 3020.dat
 
 
+0 STEP
 0 FILE 4404 - Tube RH.ldr
 0 A long flexible right-side tube or hose assembly made of many linked hose segments.
 0 Name: 4404 - Tube RH.ldr
@@ -456,6 +459,7 @@
 1 16 -49.967547 -31.697123 39.974037 -0.000292 -0.019117 0.999817 0.015291 0.9997 0.019119 -0.999883 0.015293 0 754.dat
 
 
+0 STEP
 0 FILE 4404 - Tube LH.ldr
 0 A long flexible left-side tube or hose assembly made of many linked hose segments.
 0 Name: 4404 - Tube LH.ldr
@@ -589,6 +593,7 @@
 1 16 -49.967547 -31.697123 -39.974037 0.000292 -0.019117 0.999817 -0.015291 0.9997 0.019119 -0.999883 -0.015293 0 754.dat
 
 
+0 STEP
 0 FILE 4404 - Seat.ldr
 0 A racing driver seat with curved dark grey panels, yellow hinge plates, and round accent pieces.
 0 Name: 4404 - Seat.ldr
@@ -634,6 +639,7 @@
 1 8 30 -56 -10 -1 0 0 0 1 0 0 0 -1 6091.dat
 
 
+0 STEP
 0 FILE 4404 - Steering.ldr
 0 A steering assembly with a small steering wheel, axle pin, and red and yellow plate supports.
 0 Name: 4404 - Steering.ldr
@@ -675,6 +681,7 @@
 1 14 0 -40 10 1 0 0 0 1 0 0 0 1 45677.dat
 
 
+0 STEP
 0 FILE 4404 - Exhaust LH.ldr
 0 A curved left-side exhaust built from arched pieces mounted on a holed plate.
 0 Name: 4404 - Exhaust LH.ldr
@@ -692,6 +699,7 @@
 1 8 0 -40 -10 0 0 1 0 1 0 -1 0 0 6060.dat
 
 
+0 STEP
 0 FILE 4404 - Exhaust RH.ldr
 0 A curved right-side exhaust built from arched pieces mounted on a holed plate.
 0 Name: 4404 - Exhaust RH.ldr
@@ -709,6 +717,7 @@
 1 8 0 -40 10 0 0 1 0 1 0 -1 0 0 6060.dat
 
 
+0 STEP
 0 FILE 4404 - Engine.ldr
 0 A detailed engine block with domed cylinders, red round pistons, and dark grey structural plates.
 0 Name: 4404 - Engine.ldr
@@ -802,6 +811,7 @@
 1 7 -46.879 -33.795 0 0.899 0.438 0 -0.438 0.899 0 0 0 1 4404 - Engine RH.ldr
 
 
+0 STEP
 0 FILE 4404 - Engine RH.ldr
 0 A right-side engine housing with curved black bricks, a grille tile, and a ribbed hose detail.
 0 Name: 4404 - Engine RH.ldr
@@ -833,6 +843,7 @@
 1 8 0 -24 -40 1 0 0 0 1 0 0 0 1 30602.dat
 
 
+0 STEP
 0 FILE 4404 - Engine LH.ldr
 0 A left-side engine housing with curved black bricks, a grille tile, and a ribbed hose detail.
 0 Name: 4404 - Engine LH.ldr
@@ -864,6 +875,7 @@
 1 8 0 -24 -40 1 0 0 0 1 0 0 0 1 30602.dat
 
 
+0 STEP
 0 FILE 4404 - Intake.ldr
 0 An engine intake assembly with a curved top, side-stud bricks, and translucent red grille tiles.
 0 Name: 4404 - Intake.ldr
@@ -887,6 +899,7 @@
 1 36 -20 -6 -38 1 0 0 0 0 -1 0 1 0 2412b.dat
 
 
+0 STEP
 0 FILE 4404 - Rear.ldr
 0 A rear bodywork section with large yellow curved slopes, grille detail, and a rounded black top.
 0 Name: 4404 - Rear.ldr

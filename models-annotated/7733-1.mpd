@@ -16,6 +16,7 @@
 
 
 
+0 STEP
 0 FILE 7733 - Truck.ldr
 0 A green and dark bluish grey transport truck chassis built from long plates, wheel-pin plates, mudguards, and a towball socket for trailer coupling.
 0 Name: 7733 - Truck.ldr
@@ -368,6 +369,7 @@
 
 
 
+0 STEP
 0 FILE 7733 - Trailer.ldr
 0 A white panel-sided cargo trailer with a large light bluish grey studded base plate and green structural plates.
 0 Name: 7733 - Trailer.ldr
@@ -551,6 +553,7 @@
 
 
 
+0 STEP
 0 FILE 7733 - Forklift.ldr
 0 A compact red forklift with dark bluish grey wheel plates, yellow locking hinges, inverted slope panels, and a lifting fork assembly.
 0 Name: 7733 - Forklift.ldr
@@ -729,6 +732,7 @@
 
 
 
+0 STEP
 0 FILE 7733 - Oil.ldr
 0 A small equipment station built on a tan base with round drums in multiple colors, a gauge dial tile, and a yellow handle bar.
 0 Name: 7733 - Oil.ldr
@@ -782,6 +786,7 @@
 
 
 
+0 STEP
 0 FILE 7733 - Tank.ldr
 0 A row of cylindrical translucent yellow fuel tanks and round dark bluish grey and green caps mounted on a tan base plate.
 0 Name: 7733 - Tank.ldr
@@ -823,6 +828,7 @@
 
 
 
+0 STEP
 0 FILE 7733 - Boxes.ldr
 0 A tan pallet base stacked with dark bluish grey cargo crates and grooved container tiles.
 0 Name: 7733 - Boxes.ldr
@@ -852,6 +858,7 @@
 
 
 
+0 STEP
 0 FILE 7733 - Driver.ldr
 0 A male minifigure driver with brown hair, a blue plaid shirt torso, and a red coffee cup.
 0 Name: 7733 - Driver.ldr
@@ -885,6 +892,7 @@
 
 
 
+0 STEP
 0 FILE 7733 - Worker.ldr
 0 A warehouse worker minifigure wearing a red construction helmet, blue dungarees with a tool-printed torso, and carrying a handheld radio.
 0 Name: 7733 - Worker.ldr
@@ -918,6 +926,7 @@
 
 
 
+0 STEP
 0 FILE 7733 - 70181c01.dat
 0 A pre-assembled flexible hose or cable component referenced as a single part.
 0 Name: 7733 - 70181c01.dat
@@ -949,6 +958,7 @@
 1 16 0 46.02 0 -1 0 0 0 -1 0 0 0 1 s\7733 - 70181s01.dat
 
 
+0 STEP
 0 FILE s\7733 - 70181s01.dat
 0 A subpart composed of bend and connector segments forming the curved geometry of a flexible hose.
 0 Name: s\7733 - 70181s01.dat
@@ -1330,6 +1340,7 @@
 5 24 -3.75 -0.23 0 -3.52 0 0 -3.46 -0.29 1.43 -3.46 -0.19 -1.44
 5 24 -3.52 0 0 -3.75 0.24 0 -3.25 -0.06 1.34 -3.26 0.04 -1.35
 
+0 STEP
 0 FILE s\7733 - 70181s02.dat
 0 A subpart consisting solely of added condition lines for smoothing the rendering of a flexible hose.
 0 Name: s\7733 - 70181s02.dat

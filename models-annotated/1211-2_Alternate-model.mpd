@@ -54,6 +54,7 @@
 1 15 0 -88 0 1 0 0 0 1 0 0 0 1 u8202.dat
 
 
+0 STEP
 0 FILE 1211-2 - u8012.dat
 0 Detailed cylindrical assembly of boxes, discs, and circles forming a wheel-like component.
 0 Name: 1211-2 - u8012.dat
@@ -202,6 +203,7 @@
 1 16 -20 61 10 -1 0 0 0 1 0 0 0 1 s\1211-2 - u8012s01.dat
 
 
+0 STEP
 0 FILE 1211-2 - u8020.dat
 0 Boxy rectangular part assembled from boxes and rectangles forming a small window or panel element.
 0 Name: 1211-2 - u8020.dat
@@ -284,6 +286,7 @@
 1 16 -30 11 10 -1 0 0 0 1 0 0 0 1 s\1211-2 - u8012s01.dat
 
 
+0 STEP
 0 FILE 1211-2 - u8021.dat
 0 Boxy rectangular part assembled from boxes and rectangles forming a small window or panel element.
 0 Name: 1211-2 - u8021.dat
@@ -366,6 +369,7 @@
 1 16 -40 11 10 -1 0 0 0 1 0 0 0 1 s\1211-2 - u8012s01.dat
 
 
+0 STEP
 0 FILE s\1211-2 - u8012s01.dat
 0 Sub-assembly of an open box with cylinders, chords, and negative discs forming a detailed round mechanical detail.
 0 Name: s\1211-2 - u8012s01.dat

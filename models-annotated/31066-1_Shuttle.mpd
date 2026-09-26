@@ -10,6 +10,7 @@
 
 
 
+0 STEP
 0 FILE 31066 - astronaut.ldr
 0 White spacesuit minifigure with helmet, visor, gloved hands, and side-mounted equipment brackets.
 0 Name: 31066 - astronaut.ldr
@@ -57,6 +58,7 @@
 
 
 
+0 STEP
 0 FILE 31066 - shuttle.ldr
 0 Large winged spacecraft fuselage built from black plates and yellow plates with left and right wings.
 0 Name: 31066 - shuttle.ldr
@@ -552,6 +554,7 @@
 
 
 
+0 STEP
 0 FILE 31066 - satellite.ldr
 0 Compact satellite with pearl-gold panels, solar-array clips, domed sensor top, and grille tiles.
 0 Name: 31066 - satellite.ldr
@@ -587,6 +590,7 @@
 
 
 
+0 STEP
 0 FILE 31066 - arm1.ldr
 0 Technic manipulator arm segment using angle connectors, an axle, and friction pins.
 0 Name: 31066 - arm1.ldr
@@ -607,6 +611,7 @@
 
 
 
+0 STEP
 0 FILE 31066 - arm2.ldr
 0 Articulated Technic arm joint combining an angle connector, axle, and locking hinge arm.
 0 Name: 31066 - arm2.ldr
@@ -623,6 +628,7 @@
 
 
 
+0 STEP
 0 FILE 31066 - door.ldr
 0 Curved white cargo bay door assembly built from hinged panels and a long plate.
 0 Name: 31066 - door.ldr
@@ -643,6 +649,7 @@
 
 
 
+0 STEP
 0 FILE 31066 - 3626cp80.dat
 0 Quarter-cylinder primitive geometry used in a minifigure head or similar round part.
 0 Name: 31066 - 3626cp80.dat
@@ -1218,6 +1225,7 @@
 4 16 -6.68 9.23 10.8713 -6.43 7.84 11.0384 -6.27 7.58 11.1453 -6.24 9.45 11.1654
 
 
+0 STEP
 0 FILE 31066 - 2447.dat
 0 Primitive-based geometry forming a curved, domed cylindrical part such as a gear or knob.
 0 Name: 31066 - 2447.dat
@@ -1355,6 +1363,7 @@
 0 !LDCAD SNAP_GEN [group=visor] [gender=M] [bounding=cyl 2 15] [match=size]
 
 
+0 STEP
 0 FILE 31066 - 3665a.dat
 0 Empty wrapper submodel referencing lower-level geometry primitives for a slope brick.
 0 Name: 31066 - 3665a.dat
@@ -1377,6 +1386,7 @@
 4 16 10 24 -10 10 4 -30 -10 4 -30 -10 24 -10
 
 
+0 STEP
 0 FILE 31066 - 11291.dat
 0 Box-face primitives defining the solid shape of a small bracket or tile element.
 0 Name: 31066 - 11291.dat
@@ -1407,6 +1417,7 @@
 4 16 20 8 -10 -20 8 -10 -20 8 -6 20 8 -6
 
 
+0 STEP
 0 FILE 31066 - 33299a.dat
 0 Primitive Technic geometry defining axle holes and peg recesses for a connector element.
 0 Name: 31066 - 33299a.dat
@@ -1441,6 +1452,7 @@
 4 16 -9 10 35.661999 -8 10 36.661999 -8 10 32 -9 10 32
 
 
+0 STEP
 0 FILE s\31066 - 3665as01.dat
 0 Sub-part composed of box and rectangle primitives forming the body of a slope brick.
 0 Name: s\31066 - 3665as01.dat
@@ -1495,6 +1507,7 @@
 1 16 0 4 -20 0 0 1 0 6 0 -1 0 0 stud2s.dat
 
 
+0 STEP
 0 FILE s\31066 - 11291s01.dat
 0 Empty wrapper sub-part referencing geometry for a tile or bracket component.
 0 Name: s\31066 - 11291s01.dat
@@ -1701,6 +1714,7 @@
 2 24 -30.8372 2.75 -33.833801 -30.876801 3.07902 -33.825901
 
 
+0 STEP
 0 FILE s\31066 - 33299s01.dat
 0 Detailed primitive sub-part defining cylinders, rings, and pin geometry for a Technic connector.
 0 Name: s\31066 - 33299s01.dat
@@ -1972,6 +1986,7 @@
 5 24 4.9497 10 35.050301 4.9498 0 35.050201 6 0 36.661999 2.6788 10 33.5327
 
 
+0 STEP
 0 FILE 31066 - Tail.ldr
 0 Vertical tail fin built from white plates, black slopes, grille, and an inverted curved slope.
 0 Author: Philippe Hurbain [Philo]

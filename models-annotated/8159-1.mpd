@@ -20,6 +20,7 @@
 
 0
 
+0 STEP
 0 FILE 8159 - 8159-1.ldr
 0 Yellow vehicle chassis built from plates, brackets, steering stand, and sloped body panels.
 0 Name: 8159 - 8159-1.ldr
@@ -283,6 +284,7 @@
 
 
 
+0 STEP
 0 FILE 8159 - 8159-2.ldr
 0 Red vehicle chassis built from plates, steering stand, minifig seats, and sloped wedge body panels.
 0 Name: 8159 - 8159-2.ldr
@@ -544,6 +546,7 @@
 
 
 
+0 STEP
 0 FILE 8159 - 62359.dat
 0 Multi-piece wheel assembly with axle hole, rim rings, and spokes.
 0 Name: 8159 - 62359.dat
@@ -617,6 +620,7 @@
 5 24 0 -8.749 -13.75 0 -8.749 -17.188 1.201 -8.667 -13.75 -1.201 -8.667 -13.75
 
 
+0 STEP
 0 FILE s\8159 - 62359s01.dat
 0 Wheel cover subpart defining the 7-spoke rim surface lines.
 0 Name: s\8159 - 62359s01.dat

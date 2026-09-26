@@ -8,6 +8,7 @@
 1 0 0 0 0 1 0 0 0 1 0 0 0 1 40191 - Ferrari F12 Berlinetta.ldr
 
 
+0 STEP
 0 FILE 40191 - Ferrari F12 Berlinetta.ldr
 0 Red pull-back sports car chassis and body built around a motorized pull-back unit, with mudguards, grille slopes, and a large wedge base forming the sleek Ferrari silhouette.
 0 Name: 40191 - Ferrari F12 Berlinetta.ldr
@@ -83,6 +84,7 @@
 1 0 -40 5 60 -1 0 0 0 -1 0 0 0 1 40191 - Wheel.ldr
 
 
+0 STEP
 0 FILE 40191 - Wheel.ldr
 0 A single black five-spoke wheel rim fitted with a rubber tire for the car's wheels.
 0 Name: 40191 - Wheel.ldr
@@ -96,6 +98,7 @@
 1 0 0 0 0 0 0 -1 0 1 0 1 0 0 51719.dat
 
 
+0 STEP
 0 FILE 40191 - Back.ldr
 0 Red rear assembly featuring brackets, sloped bricks, and translucent red round tiles forming the back lights and bumper detail of the car.
 0 Name: 40191 - Back.ldr
