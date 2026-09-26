@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { downloadGlb, downloadUrl, partsLabel, timeAgo, type ModelFile, type ViewerMode } from "../api";
+import { downloadGlb, downloadUrl, partsLabel, timeAgo, XR_TITLE, xrUrl, type ModelFile, type ViewerMode } from "../api";
 import { useApp } from "../context";
 
 type Props = {
@@ -88,6 +88,11 @@ export default function ModelCard({ model, showChats = false }: Props) {
           <button onClick={() => open("player")} disabled={!model.model_url} title="Watch the model being built, step by step">
             3D player
           </button>
+          {model.model_url && (
+            <a className="button" href={xrUrl(model.model_url, model.parts)} title={XR_TITLE}>
+              VR
+            </a>
+          )}
           <span className="button-group" role="group" aria-label="Download">
             {model.model_url && (
               <a className="button" href={downloadUrl(model.model_url)} title={`Download ${model.file}`}>

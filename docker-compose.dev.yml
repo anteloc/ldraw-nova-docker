@@ -12,6 +12,8 @@ services:
     volumes:
       - .:/app                          # leocad_render.py, example.py, web/backend
       - ./web/viewer:/opt/web/viewer    # viewer.html, player.html
+      # The mixed-reality viewer (web/xr) has its own dev server instead:
+      #   cd web/xr && npm install && npm run dev   # http://localhost:5173/xr/?model=...&emulate=quest3
       # Iterating on the 3D player (ldraw.rs-astra, tools/player/build.sh): use
       # your local build instead of the release zip baked into the image.
       # - ../ldraw.rs-astra/tools/player/dist/ldraw-player-0.1.0:/opt/web/player-vendor

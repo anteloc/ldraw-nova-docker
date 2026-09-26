@@ -5,11 +5,13 @@ services:
     platform: linux/amd64  # LeoCAD ships x86_64-only AppImages (emulated on Apple Silicon)
     container_name: leocad-app
     init: true            # proper signal handling / zombie reaping (Xvfb + your process)
-    # The web app: http://localhost:8765 (change with LEOCAD_WEB_PORT in .env).
-    # Bound to localhost only on purpose — it has no login, and agents can run
-    # code and spend your API keys.
+    # The web app is available on localhost and the host's LAN IP at this port
+    # (change with LEOCAD_WEB_PORT in .env). It has no login, so restrict access
+    # with your host firewall on untrusted networks.
     ports:
-      - "127.0.0.1:${LEOCAD_WEB_PORT:-8765}:8000"
+      - "${LEOCAD_WEB_PORT:-8765}:8000"
+      # HTTPS (self-signed), for headsets: WebXR needs HTTPS or localhost.
+      - "${LEOCAD_WEB_HTTPS_PORT:-8443}:8443"
     volumes:
       - ./data:/data       # host ./data <-> container /data (input: everything under it, output: output/)
       - config:/config     # LLM settings + API keys; kept out of ./data on purpose

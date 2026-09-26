@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { viewerUrl, type ViewerMode } from "../api";
+import { viewerUrl, XR_TITLE, xrUrl, type ViewerMode } from "../api";
 import type { ViewerTarget } from "../context";
 
 const MODES: { mode: ViewerMode; label: string; title: string }[] = [
@@ -33,6 +33,9 @@ export default function ViewerModal({ target, onClose }: { target: ViewerTarget;
               </button>
             ))}
           </span>
+          <a className="button" href={xrUrl(target.modelUrl, target.parts)} title={XR_TITLE}>
+            VR
+          </a>
           <a href={url} target="_blank" rel="noreferrer">
             Open in new tab
           </a>

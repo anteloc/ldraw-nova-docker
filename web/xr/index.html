@@ -1,0 +1,66 @@
+<!doctype html>
+<!--
+  LDraw mixed-reality viewer (WebXR, Meta Quest 3): /xr/?model=<url of an .ldr/.mpd>[&parts=N]
+  Built with Meta's Immersive Web SDK on three.js (see web/xr and README.md).
+  Options: &stats=1 (show performance), &fps=72|90, &scale=<framebuffer scale, 1.0>,
+           &emulate=quest3 (emulated headset, for desktop testing).
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:,">
+<title>LDraw MR</title>
+<style>
+  :root { --bg: #f2f2f2; --bar: rgba(255,255,255,.92); --fg: #1d1d1f; --muted: #6b6b70;
+          --btn-border: #d4d4d8; --accent: #1d1d1f; --accent-fg: #fff; --danger: #b42318; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bar: rgba(28,28,30,.92); --fg: #f4f4f5; --muted: #a1a1aa; --btn-border: #3f3f46;
+            --accent: #f4f4f5; --accent-fg: #18181b; --danger: #f97066; }
+  }
+  html, body { margin: 0; height: 100%; background: var(--bg); color: var(--fg);
+               font: 13px/1.4 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  #scene-container { position: fixed; inset: 0; }
+  .bar { position: fixed; left: 0; right: 0; display: flex; gap: 10px; align-items: center; padding: 8px 12px;
+         background: var(--bar); backdrop-filter: blur(6px); z-index: 2; }
+  #top { top: 0; border-bottom: 1px solid var(--btn-border); }
+  #title { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; margin-right: auto; }
+  #title strong { font-weight: 600; }
+  #parts { color: var(--muted); }
+  #bottom { bottom: 0; border-top: 1px solid var(--btn-border); flex-wrap: wrap; }
+  #status { margin-right: auto; }
+  #status.error { color: var(--danger); }
+  #stats { color: var(--muted); font-variant-numeric: tabular-nums; width: 100%; }
+  #stats:empty { display: none; }
+  #xr-hint { width: 100%; color: var(--danger); }
+  #xr-hint a { color: inherit; font-weight: 600; word-break: break-all; }
+  #enter { font: inherit; font-weight: 600; padding: 8px 18px; border-radius: 8px; cursor: pointer;
+           border: 1px solid var(--accent); background: var(--accent); color: var(--accent-fg); }
+  #enter:disabled { opacity: .45; cursor: default; }
+  #help { position: fixed; top: 52px; right: 12px; max-width: 320px; padding: 10px 12px; border-radius: 8px;
+          background: var(--bar); border: 1px solid var(--btn-border); color: var(--muted); z-index: 2; font-size: 12px; }
+  #help b { color: var(--fg); font-weight: 600; }
+  @media (max-width: 640px) { #help { display: none; } }
+</style>
+</head>
+<body>
+  <div id="scene-container"></div>
+  <div id="top" class="bar">
+    <span id="title"><strong id="file">LDraw MR</strong><span id="parts"></span></span>
+  </div>
+  <div id="help">
+    <b>In mixed reality</b><br>
+    Both hands work the same, with the trigger (or a pinch). Point at a table or the floor to put the model there.
+    Point at the model and hold to move and turn it; hold it with both hands and pull apart or together to scale it.
+    The menu follows your view: <b>Real size</b>, <b>Tabletop</b>, <b>Walk-in</b> (minifig scale, on the floor), <b>Stats</b>, <b>Exit</b>.
+    Thumbsticks walk and turn.
+  </div>
+  <div id="bottom" class="bar">
+    <span id="status">Loading…</span>
+    <button id="enter" disabled>Enter MR</button>
+    <div id="xr-hint" hidden></div>
+    <div id="stats"></div>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

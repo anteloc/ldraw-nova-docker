@@ -138,6 +138,12 @@ export type ViewerMode = "viewer" | "player";
 export const viewerUrl = (modelUrl: string, parts?: number | null, mode: ViewerMode = "viewer") =>
   `/viewer/${mode}.html?model=${encodeURIComponent(modelUrl)}` + (parts != null ? `&parts=${parts}` : "");
 
+/** The mixed-reality viewer (WebXR, Meta Quest 3): a top-level page, the most reliable way to start WebXR. */
+export const xrUrl = (modelUrl: string, parts?: number | null) =>
+  `/xr/?model=${encodeURIComponent(modelUrl)}` + (parts != null ? `&parts=${parts}` : "");
+
+export const XR_TITLE = "Mixed reality on a Meta Quest 3 (WebXR)";
+
 export const partsLabel = (parts: number) => `${parts.toLocaleString()} part${parts === 1 ? "" : "s"}`;
 
 export const isPending = (m: { status: SnapshotStatus; bom_status: SnapshotStatus }) =>

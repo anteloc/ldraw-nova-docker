@@ -1,0 +1,76 @@
+<!--
+  The in-headset menu (IWSDK spatial UI, Horizon kit). It follows your view,
+  lower left. Wired up in src/main.ts by element id.
+-->
+<style>
+  .panel-root {
+    flex-direction: column;
+    width: 300px;
+    padding-bottom: 12px;
+  }
+
+  .heading {
+    padding-top: 14px;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #272727;
+  }
+
+  .heading:dark {
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  .hint {
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 4px;
+    font-size: 11px;
+    color: #5c5c5c;
+  }
+
+  .hint:dark {
+    color: rgba(255, 255, 255, 0.65);
+  }
+
+  .row {
+    flex-direction: row;
+    gap: 8px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 10px;
+  }
+
+  .button {
+    flex-grow: 1;
+    justify-content: center;
+  }
+
+  .stats {
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 10px;
+    font-size: 11px;
+    color: #272727;
+  }
+
+  .stats:dark {
+    color: rgba(255, 255, 255, 0.85);
+  }
+</style>
+<Panel class="panel-root">
+  <div id="title" class="heading">LDraw model</div>
+  <div class="hint">Trigger (or pinch) on a table or the floor: put it there. Hold it on the model: move and turn; with both hands: scale.</div>
+  <Divider></Divider>
+  <div class="row">
+    <Button id="real-size" class="button"><ButtonLabel>Real size</ButtonLabel></Button>
+    <Button id="tabletop" class="button"><ButtonLabel>Tabletop</ButtonLabel></Button>
+    <Button id="walk-in" class="button"><ButtonLabel>Walk-in</ButtonLabel></Button>
+  </div>
+  <div class="row">
+    <Button id="stats-button" class="button"><ButtonLabel>Stats</ButtonLabel></Button>
+    <Button id="exit" class="button"><ButtonLabel>Exit</ButtonLabel></Button>
+  </div>
+  <div id="stats" class="stats" style="display: none">...</div>
+</Panel>

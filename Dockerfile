@@ -23,6 +23,15 @@ RUN npm ci --no-audit --no-fund
 COPY web/frontend/ ./
 RUN npm run build
 
+# --- Stage 1b: the mixed-reality viewer (web/xr: Vite + Meta's IWSDK) ---------
+# Same idea, its own stage so SPA edits don't re-install its dependencies.
+FROM --platform=$BUILDPLATFORM node:24-slim AS xr
+WORKDIR /src
+COPY web/xr/package.json web/xr/package-lock.json ./
+RUN npm ci --no-audit --no-fund
+COPY web/xr/ ./
+RUN npm run build
+
 # --- Stage 2: the runtime image ----------------------------------------------
 # LeoCAD only publishes x86_64 Linux AppImages, so the image is always amd64.
 # On Apple Silicon / arm64 hosts Docker Desktop runs it under emulation.
@@ -133,6 +142,11 @@ RUN set -eux; \
     bun /opt/mpd2glb/mpd2glb.mjs --help > /dev/null
 ENV MPD2GLB=/opt/mpd2glb/mpd2glb.mjs
 
+# socat: the HTTPS front for headsets on the LAN (WebXR needs a secure page;
+# see entrypoint.sh). Its own layer, so the big layers above stay cached.
+RUN apt-get update && apt-get install -y --no-install-recommends socat \
+    && rm -rf /var/lib/apt/lists/*
+
 # Software (llvmpipe) OpenGL rendering — works on any host, GPU or not.
 ENV LIBGL_ALWAYS_SOFTWARE=1
 
@@ -176,6 +190,7 @@ COPY leocad_render.py example.py /app/
 COPY web/backend/ /app/web/backend/
 COPY web/viewer/ /opt/web/viewer/
 COPY --from=frontend /src/dist/ /opt/web/static/
+COPY --from=xr /src/dist/ /opt/web/xr/
 
 # --- Shared folder with the host --------------------------------------------
 # /data/generated: the model collection; /data/chats: chat history;
@@ -186,6 +201,6 @@ VOLUME ["/data", "/config"]
 COPY entrypoint.sh /usr/local/bin/entrypoint.sh
 RUN chmod +x /usr/local/bin/entrypoint.sh
 
-EXPOSE 8000
+EXPOSE 8000 8443
 ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
 CMD ["uvicorn", "main:app", "--app-dir", "/app/web/backend", "--host", "0.0.0.0", "--port", "8000"]

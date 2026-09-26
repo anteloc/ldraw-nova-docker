@@ -10,5 +10,7 @@ docker-compose.yml
 docker-compose.override.yml
 web/frontend/node_modules
 web/frontend/dist
+web/xr/node_modules
+web/xr/dist
 **/__pycache__
 **/.pytest_cache

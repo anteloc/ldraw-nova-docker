@@ -45,6 +45,16 @@ def test_viewer_and_player_offer_the_camera_modes(client):
         assert 'data-camera="inspect"' in page and 'data-camera="walk"' in page
 
 
+@pytest.mark.skipif(not settings.XR_DIR.is_dir(), reason="the mixed-reality viewer is built into the image")
+def test_mixed_reality_viewer_is_served(client):
+    page = client.get("/xr/?model=/ref/8303-1.mpd")
+    assert page.status_code == 200 and 'id="enter"' in page.text
+    script = next(p for p in page.text.split('"') if p.startswith("/xr/assets/") and p.endswith(".js"))
+    assert client.get(script).status_code == 200
+    assert "Real size" in client.get("/xr/ui/menu.uikitml").text
+    assert client.get("/xr/nope.js").status_code == 404                    # not the SPA's index.html
+
+
 @pytest.mark.skipif(not settings.PLAYER_VENDOR_DIR.is_dir(), reason="ldraw-player is unpacked at image build")
 def test_player_page_and_webassembly_are_served(client):
     page = client.get("/viewer/player.html")

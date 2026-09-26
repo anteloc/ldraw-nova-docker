@@ -414,10 +414,13 @@ if settings.PLAYER_VENDOR_DIR.is_dir():
     app.mount("/viewer/player-vendor", StaticFiles(directory=settings.PLAYER_VENDOR_DIR), name="player-vendor")
 if settings.VIEWER_DIR.is_dir():
     app.mount("/viewer", StaticFiles(directory=settings.VIEWER_DIR, html=True), name="viewer")
+# The mixed-reality viewer (web/xr, built in the image): /xr/?model=<url>
+if settings.XR_DIR.is_dir():
+    app.mount("/xr", StaticFiles(directory=settings.XR_DIR, html=True), name="xr")
 if (settings.STATIC_DIR / "assets").is_dir():
     app.mount("/assets", StaticFiles(directory=settings.STATIC_DIR / "assets"), name="assets")
 
-RESERVED_PREFIXES = ("api/", "files/", "ref/", "ldraw/", "ldraw-id/", "viewer/", "assets/")
+RESERVED_PREFIXES = ("api/", "files/", "ref/", "ldraw/", "ldraw-id/", "viewer/", "xr/", "assets/")
 
 
 @app.get("/{full_path:path}", include_in_schema=False)

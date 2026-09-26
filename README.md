@@ -4,8 +4,8 @@ A single image containing:
 - **A web app** on http://localhost:8765: chat with LLM agents (Claude,
   GPT, Gemini, local Ollama models — anything LiteLLM supports) that design
   LDraw models, render them with LeoCAD and show you screenshots you can open
-  in a three.js 3D viewer, or in a 3D player that animates how the model is
-  built. See [Web app](#web-app).
+  in a three.js 3D viewer, in a 3D player that animates how the model is
+  built, or in mixed reality on a Meta Quest 3. See [Web app](#web-app).
 - **LeoCAD**, installed from an official, pinned, *released* AppImage (not
   built from source, not the rolling "continuous" build) — no compiler, no
   build failures from work-in-progress code
@@ -44,6 +44,7 @@ A single image containing:
 ├── web/
 │   ├── backend/           # FastAPI: chat API, agent loop (LiteLLM), tools, file routes
 │   ├── frontend/          # React + Vite UI (built in a Docker build stage)
+│   ├── xr/                # mixed-reality viewer: Vite + Meta's Immersive Web SDK (own build stage)
 │   └── viewer/            # viewer.html (three.js 3D viewer), player.html (3D player)
 ├── vendor/                # ldraw-player-<version>.zip (+ .sha256): the 3D player's release
 └── data/                  # mounted at /data (not baked in)
@@ -184,9 +185,10 @@ open http://localhost:8765                # port: LEOCAD_WEB_PORT in .env
    have it regenerated. **Download all** zips the folder.
 5. **3D view / 3D player** on each card open the model in the three.js viewer
    or in the player, which plays back how it's built; the window's header
-   switches between the two.
+   switches between the two. **VR** opens it in mixed reality on a Meta
+   Quest 3 (see [Mixed reality](#mixed-reality-meta-quest-3)).
 6. **`.glb`** (on each card and in the 3D viewer) converts the model with
-   mpd2glb — uncompressed (`-c none`), real-world size in centimetres, LDraw
+   mpd2glb — uncompressed (`-c none`), real LEGO size in metres, LDraw
    metadata kept as custom properties on each node (readable in Blender,
    three.js editor, …) — and downloads it. Big models can take a minute; the
    result is cached until the model file changes.
@@ -269,6 +271,62 @@ cp tools/player/dist/ldraw-player-*.zip* ../leocad-docker/vendor/
 While working on the player itself, `docker-compose.dev.yml` can mount your
 local build over the baked-in one (see the commented line there).
 
+### Mixed reality (Meta Quest 3)
+
+**VR** (on each model card, and in the viewer window's header) opens
+`/xr/?model=<url>`: the model in passthrough mixed reality, through WebXR in
+the Quest browser. It shows the model's size and draw calls, then **Enter MR**.
+
+**Reaching the app from the Quest.** WebXR only runs on secure pages: HTTPS,
+or `localhost`. A plain `http://<your computer's IP>:8765` page loads, but
+**Enter MR** stays off (the page says why and links to the HTTPS address).
+Two ways:
+
+* **HTTPS over Wi-Fi:** open `https://<your computer's IP>:8443` in the Quest
+  browser (the app's HTTPS port, `LEOCAD_WEB_HTTPS_PORT`). The certificate is
+  self-signed, made once and kept in the `config` volume: the first time, the
+  browser warns, choose Advanced → Proceed. This needs the ports reachable
+  from the network, which also exposes the app (it has no login) to
+  everyone on it.
+* **adb, with the app on localhost only:** with developer mode on and the
+  Quest connected over USB (or wireless adb):
+
+  ```bash
+  adb reverse tcp:8765 tcp:8765        # the Quest's localhost:8765 -> this machine's
+  # then, in the Quest browser: http://localhost:8765 -> a model card -> VR -> Enter MR
+  ```
+
+**In the headset:**
+
+* Both hands work the same, with the **trigger** (or a pinch); each has a
+  laser, so you see what it points at.
+* Point at a table or the floor and press: the model is put there (a ring
+  shows the spot). At first it stands in front of you at tabletop size.
+* Point at the model and hold: move and turn it; hold it with **both hands**
+  and pull apart or together: scale it.
+* The menu follows your view: **Real size** (actual LEGO size), **Tabletop**
+  (60 cm), **Walk-in** (minifig scale, ×45, on the floor: walk in, or use the
+  thumbsticks), **Stats** (frame rate, frame time, draw calls, triangles; also
+  logged to the console every 5 s, readable with `chrome://inspect` over adb),
+  **Exit**.
+
+**Why it's fast.** The model is loaded as the same `.glb` as above, then its
+thousands of parts are batched into at most 4 draw calls (three.js
+`BatchedMesh`: opaque/transparent × normal/mirrored parts), with each unique
+part geometry stored once and made indexed (e.g. the cathedral: 5,394 parts,
+37 unique geometries, 2 draw calls; its vertices shrink from 80,646 to 27,247).
+It runs on Meta's [Immersive Web SDK](https://iwsdk.dev) (three.js with
+multiview: both eyes in one draw), with fixed foveation and a 72 Hz target.
+Left out on purpose: edge lines (1 px lines alias in a headset and cost up to
+a third of the vertices), PBR materials, environment maps and shadows (plain
+diffuse lighting instead). Page options: `&stats=1`, `&fps=90`,
+`&scale=0.8` (render resolution), `&emulate=quest3` (an emulated headset, to
+try it on a computer).
+
+Studs are about 80% of the triangles (the cathedral: 2.39M, 0.47M without);
+if a large model doesn't hold its frame rate, the next step is to draw studs
+separately and drop the ones covered by other parts.
+
 **mpd2glb by hand**, from a `docker compose exec leocad-app bash` shell:
 
 ```bash
@@ -299,6 +357,8 @@ x64 build, since the emulated CPU on Apple Silicon has no AVX2.
 ```bash
 docker compose -f docker-compose.yml -f docker-compose.dev.yml up -d   # backend from your checkout, auto-reload
 cd web/frontend && npm install && npm run dev                          # UI with hot reload: http://localhost:5173
+cd web/xr && npm install && npm run dev      # mixed-reality viewer: /xr/?model=...&emulate=quest3 (next free port)
+cd web/xr && npm test                        # its batching tests
 
 # backend tests (inside the container: they use LeoCAD and the real library)
 docker compose exec leocad-app bash -c \
