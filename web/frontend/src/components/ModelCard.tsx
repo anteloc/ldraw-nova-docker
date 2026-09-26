@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { downloadGlb, downloadUrl, partsLabel, timeAgo, type ModelFile } from "../api";
+import { downloadGlb, downloadUrl, partsLabel, timeAgo, type ModelFile, type ViewerMode } from "../api";
 import { useApp } from "../context";
 
 type Props = {
@@ -10,8 +10,9 @@ type Props = {
 
 export default function ModelCard({ model, showChats = false }: Props) {
   const { openViewer } = useApp();
-  const open = () =>
-    model.model_url && openViewer({ modelUrl: model.model_url, title: model.description || model.file, parts: model.parts });
+  const open = (mode: ViewerMode = "viewer") =>
+    model.model_url &&
+    openViewer({ modelUrl: model.model_url, title: model.description || model.file, parts: model.parts, mode });
   const warnings = model.warnings ?? [];
   const extension = "." + (model.file.split(".").pop() ?? "mpd").toLowerCase();
   const bomBusy = model.bom_status === "queued" || model.bom_status === "rendering";
@@ -45,7 +46,7 @@ export default function ModelCard({ model, showChats = false }: Props) {
 
   return (
     <div className="model-card">
-      <button className="model-thumb" onClick={open} disabled={!model.model_url} title="Open in the 3D viewer">
+      <button className="model-thumb" onClick={() => open()} disabled={!model.model_url} title="Open in the 3D viewer">
         {thumb}
         {model.model_url && <span className="thumb-hint">View in 3D</span>}
       </button>
@@ -81,41 +82,46 @@ export default function ModelCard({ model, showChats = false }: Props) {
           )}
         </div>
         <div className="model-actions">
-          <button onClick={open} disabled={!model.model_url}>
+          <button onClick={() => open()} disabled={!model.model_url}>
             3D view
           </button>
-          {model.model_url && (
-            <a className="button" href={downloadUrl(model.model_url)} title={`Download ${model.file}`}>
-              {extension}
-            </a>
-          )}
-          {model.model_url && (
-            <button
-              onClick={saveGlb}
-              disabled={glb.busy}
-              title={
-                glb.busy
-                  ? "Converting with mpd2glb… big models can take a minute"
-                  : glb.error
-                    ? `Conversion failed: ${glb.error}`
-                    : "Download as glTF binary (.glb), converted with mpd2glb"
-              }
-              aria-label={glb.busy ? "Converting to .glb" : undefined}
-              className={glb.error ? "danger-text" : undefined}
-            >
-              {glb.busy && <span className="spinner" aria-hidden />}
-              .glb
-            </button>
-          )}
-          {model.bom_url ? (
-            <a className="button" href={downloadUrl(model.bom_url)} title="Download the bill of materials (CSV)">
-              BOM
-            </a>
-          ) : model.model_url ? (
-            <button disabled title={bomBusy ? "Generating the bill of materials…" : (model.bom_error ?? "No bill of materials")}>
-              BOM
-            </button>
-          ) : null}
+          <button onClick={() => open("player")} disabled={!model.model_url} title="Watch the model being built, step by step">
+            3D player
+          </button>
+          <span className="button-group" role="group" aria-label="Download">
+            {model.model_url && (
+              <a className="button" href={downloadUrl(model.model_url)} title={`Download ${model.file}`}>
+                {extension}
+              </a>
+            )}
+            {model.model_url && (
+              <button
+                onClick={saveGlb}
+                disabled={glb.busy}
+                title={
+                  glb.busy
+                    ? "Converting with mpd2glb… big models can take a minute"
+                    : glb.error
+                      ? `Conversion failed: ${glb.error}`
+                      : "Download as glTF binary (.glb), converted with mpd2glb"
+                }
+                aria-label={glb.busy ? "Converting to .glb" : undefined}
+                className={glb.error ? "danger-text" : undefined}
+              >
+                {glb.busy && <span className="spinner" aria-hidden />}
+                .glb
+              </button>
+            )}
+            {model.bom_url ? (
+              <a className="button" href={downloadUrl(model.bom_url)} title="Download the bill of materials (CSV)">
+                BOM
+              </a>
+            ) : model.model_url ? (
+              <button disabled title={bomBusy ? "Generating the bill of materials…" : (model.bom_error ?? "No bill of materials")}>
+                BOM
+              </button>
+            ) : null}
+          </span>
         </div>
       </div>
     </div>

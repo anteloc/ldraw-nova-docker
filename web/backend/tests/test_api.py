@@ -30,9 +30,22 @@ def test_ldraw_library_routes(client):
     r = client.get("/ldraw/parts/3001.dat")
     assert r.status_code == 200 and "immutable" in r.headers["cache-control"]
     assert client.get("/ldraw/PARTS/S/3001S01.DAT").status_code == 200       # case-insensitive
-    assert client.get("/ldraw-id/stud4.dat").text.startswith("0 ")            # found under p/
-    assert client.get("/ldraw-id/s/3001s01.dat").status_code == 200
+    stud = client.get("/ldraw-id/stud4.dat")
+    assert stud.text.startswith("0 ") and stud.headers["x-ldraw-folder"] == "p"   # found under p/
+    subpart = client.get("/ldraw-id/s/3001s01.dat")
+    assert subpart.status_code == 200 and subpart.headers["x-ldraw-folder"] == "parts"
     assert client.get("/ldraw-id/nope-nope.dat").status_code == 404
+
+
+@pytest.mark.skipif(not settings.PLAYER_VENDOR_DIR.is_dir(), reason="ldraw-player is unpacked at image build")
+def test_player_page_and_webassembly_are_served(client):
+    page = client.get("/viewer/player.html")
+    assert page.status_code == 200 and "player-vendor/ldraw_player.js" in page.text
+    assert "Player" in client.get("/viewer/player-vendor/ldraw_player.js").text
+    wasm = client.get("/viewer/player-vendor/ldraw_player_bg.wasm")
+    # the MIME type WebAssembly.instantiateStreaming insists on
+    assert wasm.status_code == 200 and wasm.headers["content-type"] == "application/wasm"
+    assert wasm.content[:4] == b"\0asm"
 
 
 def test_api_404s_are_json_not_the_spa(client):

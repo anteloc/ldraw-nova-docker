@@ -13,7 +13,7 @@ from leocad_render import DATA_DIR, GENERATED_DIR, OUTPUT_DIR
 __all__ = [
     "DATA_DIR", "GENERATED_DIR", "CHATS_DIR", "OUTPUT_DIR", "WEB_DIRS",
     "CONFIG_DIR", "LDRAW_DIR", "REF_MODELS_DIR", "INDEX_DIR", "STATIC_DIR",
-    "VIEWER_DIR", "VIEWER_VENDOR_DIR", "PROMPTS_DIR",
+    "VIEWER_DIR", "VIEWER_VENDOR_DIR", "PLAYER_VENDOR_DIR", "PROMPTS_DIR",
 ]
 
 # Shared with the host (bind mount):
@@ -36,5 +36,6 @@ INDEX_DIR = Path(os.environ.get("LEOCAD_INDEX_DIR", "/opt/index"))
 STATIC_DIR = Path(os.environ.get("LEOCAD_WEB_STATIC_DIR", "/opt/web/static"))
 VIEWER_DIR = Path(os.environ.get("LEOCAD_WEB_VIEWER_DIR", "/opt/web/viewer"))                   # viewer.html
 VIEWER_VENDOR_DIR = Path(os.environ.get("LEOCAD_WEB_VIEWER_VENDOR_DIR", "/opt/web/viewer-vendor"))  # ldbi etc.
+PLAYER_VENDOR_DIR = Path(os.environ.get("LEOCAD_WEB_PLAYER_VENDOR_DIR", "/opt/web/player-vendor"))  # ldraw-player
 
 PROMPTS_DIR = Path(__file__).parent / "prompts"

@@ -4,7 +4,8 @@ A single image containing:
 - **A web app** on http://localhost:8765: chat with LLM agents (Claude,
   GPT, Gemini, local Ollama models — anything LiteLLM supports) that design
   LDraw models, render them with LeoCAD and show you screenshots you can open
-  in a three.js 3D viewer. See [Web app](#web-app).
+  in a three.js 3D viewer, or in a 3D player that animates how the model is
+  built. See [Web app](#web-app).
 - **LeoCAD**, installed from an official, pinned, *released* AppImage (not
   built from source, not the rolling "continuous" build) — no compiler, no
   build failures from work-in-progress code
@@ -18,6 +19,9 @@ A single image containing:
   a pinned [Bun](https://bun.com/)), which converts LDraw models to glTF `.glb` while keeping
   the LDraw metadata (descriptions, part files, colours, building steps) on
   every node
+- **The 3D player**, ldraw-player: Rust + WebAssembly (tools/player in the
+  [ldraw.rs-astra](https://github.com/anteloc/ldraw.rs-astra) fork of
+  ldraw.rs), added from a pinned release zip
 - **A persistent virtual display** (Xvfb), started once by the entrypoint for
   the life of the container, since LeoCAD's render mode needs a real
   (virtual, here) display even from the CLI
@@ -40,7 +44,8 @@ A single image containing:
 ├── web/
 │   ├── backend/           # FastAPI: chat API, agent loop (LiteLLM), tools, file routes
 │   ├── frontend/          # React + Vite UI (built in a Docker build stage)
-│   └── viewer/            # viewer.html: the three.js LDraw viewer page
+│   └── viewer/            # viewer.html (three.js 3D viewer), player.html (3D player)
+├── vendor/                # ldraw-player-<version>.zip (+ .sha256): the 3D player's release
 └── data/                  # mounted at /data (not baked in)
     ├── generated/         # the model collection, flat: car.mpd + car.png (snapshot) + car.csv (BOM), ...
     ├── chats/<chat>/      # one folder per chat: history, model references, renders
@@ -177,7 +182,10 @@ open http://localhost:8765                # port: LEOCAD_WEB_PORT in .env
    snapshot (`.png`, rendered from LeoCAD's home view) or BOM (`.csv`, LeoCAD's
    parts list, which also gives the part count) get them; delete either to
    have it regenerated. **Download all** zips the folder.
-5. **`.glb`** (on each card and in the 3D viewer) converts the model with
+5. **3D view / 3D player** on each card open the model in the three.js viewer
+   or in the player, which plays back how it's built; the window's header
+   switches between the two.
+6. **`.glb`** (on each card and in the 3D viewer) converts the model with
    mpd2glb — uncompressed (`-c none`), real-world size in centimetres, LDraw
    metadata kept as custom properties on each node (readable in Blender,
    three.js editor, …) — and downloads it. Big models can take a minute; the
@@ -211,6 +219,37 @@ edges are one merged draw call, so it needs fewer draw calls than Normal. It is 
 on [buildinginstructions.js](https://github.com/LasseD/buildinginstructions.js),
 Unlicense), vendored into the image at a pinned commit (`LDRAWORG_REF`), with
 parts served from the baked-in library instead of ldraw.org.
+
+**The 3D player** is `/viewer/player.html?model=<url>` — e.g.
+http://localhost:8765/viewer/player.html?model=/ref/8303-1.mpd. Parts drop
+into place step by step while the camera slowly turns; that's what **play**
+does, and **pause** stops both. **|◀ / ▶|** jump to the previous / next step,
+and the time slider is cut into the steps like the chapters of a video (hover
+for the step number). Keys: Space play/pause, ←/→ previous/next step,
+Home/End. A build takes about a minute at 1×, whatever its size (small models
+keep their natural pace), and the speed menu goes from 0.25× to 4×. Drag to
+rotate, Shift+drag to pan, scroll to zoom, at any time, also while paused.
+Zooming doesn't stop at the model: keep scrolling and the camera flies in and
+through walls, to look around inside buildings. The reset-view button (right)
+brings back the whole model. It renders with ldraw.rs's own renderer (wgpu):
+WebGPU where the browser has it, WebGL2 otherwise.
+
+It's ldraw-player, `tools/player` in the
+[ldraw.rs-astra](https://github.com/anteloc/ldraw.rs-astra) fork, which
+adds it next to the ldraw.rs demo viewer (unchanged); see its README for the
+JavaScript API. The image gets its release zip, pinned by version and SHA-256
+(`LDRAW_PLAYER_VERSION`, `LDRAW_PLAYER_SHA256`): from `vendor/` for now,
+from the fork's GitHub releases later (the Dockerfile has the `curl` line that
+replaces the `COPY`). To update it:
+
+```bash
+cd ../ldraw.rs-astra && tools/player/build.sh          # -> tools/player/dist/ldraw-player-<version>.zip
+cp tools/player/dist/ldraw-player-*.zip* ../leocad-docker/vendor/
+# then set LDRAW_PLAYER_VERSION / LDRAW_PLAYER_SHA256 (from the .sha256) in the Dockerfile and rebuild
+```
+
+While working on the player itself, `docker-compose.dev.yml` can mount your
+local build over the baked-in one (see the commented line there).
 
 **mpd2glb by hand**, from a `docker compose exec leocad-app bash` shell:
 

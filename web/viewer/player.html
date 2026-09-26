@@ -1,0 +1,312 @@
+<!doctype html>
+<!--
+  LDraw 3D player: plays back how a model is built (parts drop in step by step
+  while the camera turns). ldraw-player, Rust + WebAssembly (wgpu: WebGPU, or
+  WebGL2), from tools/player in the ldraw.rs-astra fork; the release zip is
+  unpacked into /viewer/player-vendor/ at image build time (see Dockerfile).
+  Parts come from the LDraw library baked into the image (/ldraw-id/..., /ldraw/...).
+
+  Usage: /viewer/player.html?model=<url of an .ldr/.mpd>[&parts=<count>][&theme=light|dark]
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LDraw Player</title>
+<style>
+  :root {
+    --bg: #f2f2f2; --bar: rgba(255,255,255,.92); --fg: #1d1d1f; --muted: #6b6b70;
+    --btn: #fff; --btn-border: #d4d4d8; --danger: #b42318;
+    --track: rgba(29,29,31,.18); --fill: #1d1d1f; --tip: #1d1d1f; --tip-fg: #fff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bar: rgba(28,28,30,.92); --fg: #f4f4f5; --muted: #a1a1aa;
+      --btn: #2c2c2e; --btn-border: #3f3f46; --danger: #f97066;
+      --track: rgba(244,244,245,.22); --fill: #f4f4f5; --tip: #f4f4f5; --tip-fg: #18181b;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bar: rgba(28,28,30,.92); --fg: #f4f4f5; --muted: #a1a1aa;
+    --btn: #2c2c2e; --btn-border: #3f3f46; --danger: #f97066;
+    --track: rgba(244,244,245,.22); --fill: #f4f4f5; --tip: #f4f4f5; --tip-fg: #18181b;
+  }
+  html, body { margin: 0; height: 100%; background: var(--bg); color: var(--fg);
+               font: 13px/1.4 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  #stage { position: fixed; inset: 0; }
+  #canvas { display: block; width: 100%; height: 100%; }
+  .bar { position: fixed; left: 0; right: 0; display: flex; gap: 8px; align-items: center;
+         padding: 8px 12px; background: var(--bar); backdrop-filter: blur(6px); z-index: 2; }
+  #top { top: 0; border-bottom: 1px solid var(--btn-border); }
+  #title { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+  #title strong { font-weight: 600; }
+  #parts { color: var(--muted); }
+  #controls { bottom: 0; border-top: 1px solid var(--btn-border); gap: 6px; }
+  #status { position: fixed; left: 12px; bottom: 58px; color: var(--muted); z-index: 2;
+            text-shadow: 0 0 4px var(--bg); }
+  #status.error { color: var(--danger); }
+
+  button, select { font: inherit; color: var(--fg); background: var(--btn); border: 1px solid var(--btn-border);
+                   border-radius: 6px; cursor: pointer; }
+  button:disabled { opacity: .4; cursor: default; }
+  button.icon { width: 32px; height: 32px; padding: 0; display: inline-grid; place-items: center; flex: none; }
+  button.icon svg { width: 20px; height: 20px; fill: currentColor; }
+  #play { width: 38px; height: 38px; border-radius: 50%; }
+  #play svg { width: 24px; height: 24px; }
+  button:focus-visible, select:focus-visible, #scrub:focus-visible { outline: 2px solid var(--fg); outline-offset: 2px; }
+  select { padding: 4px 6px; flex: none; }
+  .readout { color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; flex: none; }
+
+  /* The time slider: a bar cut into "chapters" at the step marks. */
+  #scrub { position: relative; flex: 1; min-width: 80px; height: 32px; cursor: pointer; touch-action: none;
+           border-radius: 4px; }
+  #track { position: absolute; left: 0; right: 0; top: 13px; height: 6px; border-radius: 3px;
+           background: var(--track); overflow: hidden; transition: top .1s, height .1s; }
+  #scrub:hover #track, #scrub.dragging #track { top: 12px; height: 8px; }
+  #fill { position: absolute; left: 0; top: 0; bottom: 0; width: 0; background: var(--fill); }
+  #marks { position: absolute; inset: 0; width: 100%; height: 100%; }
+  #thumb { position: absolute; top: 9px; width: 14px; height: 14px; margin-left: -7px; border-radius: 50%;
+           background: var(--fill); box-shadow: 0 0 0 2px var(--bar); pointer-events: none; }
+  #tip { position: absolute; bottom: 34px; transform: translateX(-50%); padding: 3px 7px; border-radius: 5px;
+         background: var(--tip); color: var(--tip-fg); white-space: nowrap; pointer-events: none; font-size: 12px; }
+  #tip[hidden] { display: none; }
+  @media (max-width: 560px) { #time, #speed { display: none; } }
+</style>
+</head>
+<body>
+<div id="top" class="bar">
+  <span id="title"><strong id="file">LDraw Player</strong><span id="parts"></span></span>
+</div>
+<div id="stage"><canvas id="canvas"></canvas></div>
+<div id="status">Loading…</div>
+<div id="controls" class="bar">
+  <button id="prev" class="icon" title="Previous step (←)" aria-label="Previous step" disabled>
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.5 5H8v14H5.5z"/><path d="M18.5 5v14L9 12z"/></svg>
+  </button>
+  <button id="play" class="icon" title="Play (Space)" aria-label="Play" disabled>
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path id="play-icon" d="M8 5v14l11-7z"/></svg>
+  </button>
+  <button id="next" class="icon" title="Next step (→)" aria-label="Next step" disabled>
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.5 5v14l9.5-7z"/><path d="M16 5h2.5v14H16z"/></svg>
+  </button>
+  <span id="time" class="readout">0:00 / 0:00</span>
+  <div id="scrub" role="slider" tabindex="0" aria-label="Build progress" aria-valuemin="0" aria-valuemax="0" aria-valuenow="0">
+    <div id="track"><div id="fill"></div><canvas id="marks"></canvas></div>
+    <div id="thumb"></div>
+    <div id="tip" hidden></div>
+  </div>
+  <span id="step" class="readout">Step – / –</span>
+  <select id="speed" title="Playback speed" aria-label="Playback speed">
+    <option value="0.25">0.25×</option>
+    <option value="0.5">0.5×</option>
+    <option value="1" selected>1×</option>
+    <option value="2">2×</option>
+    <option value="4">4×</option>
+  </select>
+  <button id="home" class="icon" title="Reset view" aria-label="Reset view" disabled>
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9V5a2 2 0 0 1 2-2h4v2H5v4zm12-6h4a2 2 0 0 1 2 2v4h-2V5h-4zM3 15h2v4h4v2H5a2 2 0 0 1-2-2zm16 0h2v4a2 2 0 0 1-2 2h-4v-2h4zM12 8.5a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7z"/></svg>
+  </button>
+</div>
+
+<script type="module">
+import init, { Player } from './player-vendor/ldraw_player.js';
+
+const ICONS = { play: 'M8 5v14l11-7z', pause: 'M6 5h4v14H6zM14 5h4v14h-4z',
+                replay: 'M12 5V1.5L7 6l5 4.5V7a6 6 0 1 1-6 6H4a8 8 0 1 0 8-8z' };
+const HINT = 'Drag to rotate · Shift+drag to pan · Scroll to zoom, and keep scrolling to go inside';
+const $ = id => document.getElementById(id);
+
+const params = new URLSearchParams(location.search);
+const modelUrl = params.get('model');
+const knownParts = params.has('parts') ? parseInt(params.get('parts'), 10) : NaN;
+const theme = params.get('theme');
+if (theme === 'light' || theme === 'dark') document.documentElement.dataset.theme = theme;
+
+const setStatus = (text, isError) => { $('status').textContent = text; $('status').classList.toggle('error', !!isError); };
+const clock = s => { s = Math.max(0, Math.round(s)); return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`; };
+const plural = (n, word) => `${n.toLocaleString()} ${word}${n === 1 ? '' : 's'}`;
+
+let player = null;
+let steps = new Float32Array();
+let duration = 0;
+let dragging = null;             // {wasPlaying} while scrubbing
+let lastPrev = { at: 0, step: -1 };
+
+async function main() {
+  if (!modelUrl) { setStatus('No model given: add ?model=<url of an .ldr/.mpd file>', true); return; }
+  const fileName = decodeURIComponent(modelUrl.split('/').pop().split('?')[0]);
+  $('file').textContent = fileName;
+  document.title = fileName + ' · LDraw Player';
+  if (Number.isFinite(knownParts)) $('parts').textContent = ', ' + plural(knownParts, 'part');
+
+  try {
+    await init();
+    player = await Player.create($('canvas'), {
+      libraryUrl: '/ldraw/', resolverUrl: '/ldraw-id/', background: '#f2f2f2',
+      backend: params.get('backend') || undefined,
+    });
+  } catch (e) {
+    setStatus('Could not start the 3D player: ' + (e && e.message || e), true);
+    return;
+  }
+  document.documentElement.dataset.backend = player.backend;     // "webgpu" or "gl"
+  player.onChange(update);
+
+  let result;
+  try {
+    result = await player.load(modelUrl, (stage, done, total) => setStatus(
+      stage === 'parts' ? `Loading parts… ${done.toLocaleString()} files` : `Preparing parts… ${done} / ${total}`));
+  } catch (e) {
+    setStatus(`Could not load ${fileName}: ${e && e.message || e}`, true);
+    return;
+  }
+  if (!result) return;                          // superseded by another load
+  steps = player.stepTimes();
+  duration = player.duration;
+  if (!Number.isFinite(knownParts)) $('parts').textContent = ', ' + plural(result.parts, 'part');
+  if (result.missing.length) {
+    const names = result.missing.slice(0, 5).join(', ') + (result.missing.length > 5 ? ', …' : '');
+    setStatus(`${plural(result.missing.length, 'file')} not found, left out: ${names}`, true);
+  } else {
+    setStatus(`${plural(result.parts, 'part')} in ${plural(result.steps, 'step')} · ${HINT}`);
+  }
+  for (const id of ['prev', 'play', 'next', 'home']) $(id).disabled = false;
+  $('scrub').setAttribute('aria-valuemax', duration.toFixed(2));
+  drawMarks();
+  update();
+}
+
+// --- playback controls ---------------------------------------------------------
+
+function update() {
+  if (!player) return;
+  const t = player.time, playing = player.playing, ended = duration > 0 && t >= duration;
+  const step = steps.length ? player.stepAt(t) : 0;
+  $('play-icon').setAttribute('d', playing ? ICONS.pause : ended ? ICONS.replay : ICONS.play);
+  const label = playing ? 'Pause' : ended ? 'Replay' : 'Play';
+  $('play').setAttribute('aria-label', label);
+  $('play').title = label + ' (Space)';
+  $('prev').disabled = t <= 0;
+  $('next').disabled = ended;
+  $('time').textContent = `${clock(t)} / ${clock(duration)}`;
+  $('step').textContent = steps.length ? `Step ${step + 1} / ${steps.length}` : 'Step – / –';
+  const fraction = duration > 0 ? t / duration : 0;
+  $('fill').style.width = `${fraction * 100}%`;
+  $('thumb').style.left = `${fraction * 100}%`;
+  $('scrub').setAttribute('aria-valuenow', t.toFixed(2));
+  $('scrub').setAttribute('aria-valuetext', steps.length ? `Step ${step + 1} of ${steps.length}, ${clock(t)}` : clock(t));
+}
+
+function togglePlay() {
+  if (!player || !duration) return;
+  player.playing ? player.pause() : player.play();
+}
+
+// Like a video player's chapters: "next" jumps to the next step's start;
+// "previous" to the start of the current step, or, when already there (or
+// pressed again right away), to the step before.
+function nextStep() {
+  if (!player) return;
+  const t = player.time;
+  const next = steps.find(s => s > t + 1e-4);
+  player.seek(next ?? duration);
+}
+
+function prevStep() {
+  if (!player || !steps.length) return;
+  const t = player.time, k = player.stepAt(t);
+  const again = performance.now() - lastPrev.at < 800 && lastPrev.step === k;
+  const target = (t - steps[k] > 1e-3 && !again) || k === 0 ? k : k - 1;
+  player.seek(steps[target]);
+  lastPrev = { at: performance.now(), step: target };
+}
+
+$('play').addEventListener('click', togglePlay);
+$('next').addEventListener('click', nextStep);
+$('prev').addEventListener('click', prevStep);
+$('home').addEventListener('click', () => player && player.resetView());
+$('speed').addEventListener('change', e => { if (player) player.speed = parseFloat(e.target.value); });
+
+addEventListener('keydown', e => {
+  if (e.target instanceof HTMLSelectElement || e.metaKey || e.ctrlKey || e.altKey) return;
+  const keys = { ' ': togglePlay, k: togglePlay, ArrowRight: nextStep, ArrowLeft: prevStep,
+                 Home: () => player && player.seek(0), End: () => player && player.seek(duration) };
+  const action = keys[e.key];
+  if (!action) return;
+  e.preventDefault();
+  if (e.target instanceof HTMLButtonElement) e.target.blur();   // Space shouldn't also "click" the focused button
+  action();
+});
+
+// --- the time slider -------------------------------------------------------------
+
+// Gaps at the step marks cut the bar into chapters; marks closer than 3 px are skipped.
+function drawMarks() {
+  const canvas = $('marks');
+  const width = canvas.clientWidth, height = canvas.clientHeight, ratio = devicePixelRatio || 1;
+  canvas.width = Math.round(width * ratio);
+  canvas.height = Math.round(height * ratio);
+  const ctx = canvas.getContext('2d');
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  if (!duration) return;
+  ctx.fillStyle = getComputedStyle($('controls')).backgroundColor;
+  let last = -Infinity;
+  for (const s of steps) {
+    const x = s / duration * width;
+    if (x < 1 || x - last < 3) continue;
+    ctx.fillRect(Math.round((x - 1) * ratio), 0, Math.max(1, Math.round(1.5 * ratio)), canvas.height);
+    last = x;
+  }
+}
+new ResizeObserver(drawMarks).observe($('scrub'));
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change', drawMarks);
+
+const timeAt = e => {
+  const r = $('scrub').getBoundingClientRect();
+  return Math.min(1, Math.max(0, (e.clientX - r.left) / r.width)) * duration;
+};
+
+function showTip(e) {
+  if (!player || !duration) return;
+  const t = timeAt(e), r = $('scrub').getBoundingClientRect();
+  const tip = $('tip');
+  tip.textContent = steps.length ? `Step ${player.stepAt(t) + 1} · ${clock(t)}` : clock(t);
+  tip.hidden = false;
+  const half = tip.offsetWidth / 2;
+  tip.style.left = `${Math.min(r.width - half, Math.max(half, e.clientX - r.left))}px`;
+}
+
+$('scrub').addEventListener('pointerdown', e => {
+  if (!player || !duration || e.button !== 0) return;
+  $('scrub').setPointerCapture(e.pointerId);
+  $('scrub').classList.add('dragging');
+  dragging = { wasPlaying: player.playing };
+  player.pause();
+  player.seek(timeAt(e));
+  showTip(e);
+});
+$('scrub').addEventListener('pointermove', e => {
+  showTip(e);
+  if (dragging) player.seek(timeAt(e));
+});
+const endDrag = () => {
+  if (!dragging) return;
+  $('scrub').classList.remove('dragging');
+  if (dragging.wasPlaying && player.time < duration) player.play();
+  dragging = null;
+};
+$('scrub').addEventListener('pointerup', endDrag);
+$('scrub').addEventListener('pointercancel', endDrag);
+$('scrub').addEventListener('pointerleave', () => { if (!dragging) $('tip').hidden = true; });
+$('scrub').addEventListener('lostpointercapture', () => { endDrag(); $('tip').hidden = true; });
+$('scrub').addEventListener('keydown', e => {
+  if (!player) return;
+  const small = Math.max(1, duration / 100);
+  const moves = { PageUp: small * 10, PageDown: -small * 10, ArrowUp: small, ArrowDown: -small };
+  if (e.key in moves) { e.preventDefault(); e.stopPropagation(); player.seek(player.time + moves[e.key]); }
+});
+
+main();
+</script>
+</body>
+</html>

@@ -11,7 +11,10 @@ services:
   leocad-app:
     volumes:
       - .:/app                          # leocad_render.py, example.py, web/backend
-      - ./web/viewer:/opt/web/viewer    # viewer.html
+      - ./web/viewer:/opt/web/viewer    # viewer.html, player.html
+      # Iterating on the 3D player (ldraw.rs-astra, tools/player/build.sh): use
+      # your local build instead of the release zip baked into the image.
+      # - ../ldraw.rs-astra/tools/player/dist/ldraw-player-0.1.0:/opt/web/player-vendor
     environment:
       PYTHONDONTWRITEBYTECODE: "1"      # no __pycache__ written into your checkout
     command: ["uvicorn", "main:app", "--app-dir", "/app/web/backend", "--host", "0.0.0.0", "--port", "8000",

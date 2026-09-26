@@ -156,6 +156,22 @@ WORKDIR /app
 COPY requirements.txt /app/requirements.txt
 RUN pip install --no-cache-dir --break-system-packages -r requirements.txt
 ENV PYTHONPATH=/app
+
+# --- The 3D player: ldraw-player (Rust -> WebAssembly) ------------------------
+# The release zip of tools/player in the ldraw.rs-astra fork (its build.sh),
+# checksum-verified -> /opt/web/player-vendor/{ldraw_player.js,ldraw_player_bg.wasm,...}
+# It comes from vendor/ in this repo for now; once releases are on GitHub, only
+# the COPY changes, to:
+#   RUN curl -fsSL "https://github.com/anteloc/ldraw.rs-astra/releases/download/<tag>/ldraw-player-${LDRAW_PLAYER_VERSION}.zip" -o /tmp/ldraw-player.zip
+ARG LDRAW_PLAYER_VERSION=0.1.0
+ARG LDRAW_PLAYER_SHA256=8afe27445452768039791476a0bc843979e3dfcda801edb5d794b63a13fde43c
+COPY vendor/ldraw-player-${LDRAW_PLAYER_VERSION}.zip /tmp/ldraw-player.zip
+RUN set -eux; \
+    echo "${LDRAW_PLAYER_SHA256}  /tmp/ldraw-player.zip" | sha256sum -c -; \
+    unzip -q /tmp/ldraw-player.zip -d /tmp/ldraw-player; \
+    mv "/tmp/ldraw-player/ldraw-player-${LDRAW_PLAYER_VERSION}" /opt/web/player-vendor; \
+    rm -rf /tmp/ldraw-player /tmp/ldraw-player.zip; \
+    test -f /opt/web/player-vendor/ldraw_player_bg.wasm
 COPY leocad_render.py example.py /app/
 COPY web/backend/ /app/web/backend/
 COPY web/viewer/ /opt/web/viewer/

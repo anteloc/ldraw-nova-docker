@@ -132,8 +132,11 @@ export async function downloadGlb(modelUrl: string, fileName: string): Promise<v
   setTimeout(() => URL.revokeObjectURL(link.href), 30000);
 }
 
-export const viewerUrl = (modelUrl: string, parts?: number | null) =>
-  `/viewer/viewer.html?model=${encodeURIComponent(modelUrl)}` + (parts != null ? `&parts=${parts}` : "");
+/** The 3D viewer (three.js), or the 3D player that animates the build (Rust/WebAssembly). */
+export type ViewerMode = "viewer" | "player";
+
+export const viewerUrl = (modelUrl: string, parts?: number | null, mode: ViewerMode = "viewer") =>
+  `/viewer/${mode}.html?model=${encodeURIComponent(modelUrl)}` + (parts != null ? `&parts=${parts}` : "");
 
 export const partsLabel = (parts: number) => `${parts.toLocaleString()} part${parts === 1 ? "" : "s"}`;
 

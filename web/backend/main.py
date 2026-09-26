@@ -354,13 +354,14 @@ def models_zip():
 # --- files -------------------------------------------------------------------
 
 def _serve(root: Path, path: str, *, download: bool = False, case_insensitive: bool = False,
-           cache: str = "no-cache", media_type: Optional[str] = None) -> FileResponse:
+           cache: str = "no-cache", media_type: Optional[str] = None,
+           headers: Optional[dict[str, str]] = None) -> FileResponse:
     file = safe_join(root, path, case_insensitive=case_insensitive)
     if file is None or not file.is_file():
         _not_found()
     if media_type is None and file.suffix.lower() in (".dat", ".ldr", ".mpd"):
         media_type = "text/plain; charset=utf-8"
-    return FileResponse(file, media_type=media_type, headers={"Cache-Control": cache},
+    return FileResponse(file, media_type=media_type, headers={"Cache-Control": cache, **(headers or {})},
                         filename=file.name if download else None)
 
 
@@ -391,20 +392,26 @@ def ldraw_library(path: str):
 @app.get("/ldraw-id/{part_id:path}")
 def ldraw_by_id(part_id: str):
     """A type-1 reference as LDraw resolves it: parts/, then p/, then models/.
-    One request per part for the viewer instead of probing each folder (404s)."""
+    One request per part for the viewer and player instead of probing each
+    folder (404s). X-LDraw-Folder says which folder it came from: the player
+    treats p/ files as primitives."""
     for sub in ("parts", "p", "models"):
         file = safe_join(settings.LDRAW_DIR / sub, part_id, case_insensitive=True)
         if file is not None and file.is_file():
-            return _serve(settings.LDRAW_DIR / sub, part_id, case_insensitive=True, cache=LIBRARY_CACHE)
+            return _serve(settings.LDRAW_DIR / sub, part_id, case_insensitive=True, cache=LIBRARY_CACHE,
+                          headers={"X-LDraw-Folder": sub})
     _not_found()
 
 
 # --- viewer + SPA ------------------------------------------------------------
 
-# Vendored viewer libraries (downloaded at build time) and our own viewer page
-# live in separate folders, so development can mount web/viewer/ over the page.
+# Vendored viewer and player libraries (added at build time) and our own pages
+# (viewer.html, player.html) live in separate folders, so development can mount
+# web/viewer/ over the pages.
 if settings.VIEWER_VENDOR_DIR.is_dir():
     app.mount("/viewer/vendor", StaticFiles(directory=settings.VIEWER_VENDOR_DIR), name="viewer-vendor")
+if settings.PLAYER_VENDOR_DIR.is_dir():
+    app.mount("/viewer/player-vendor", StaticFiles(directory=settings.PLAYER_VENDOR_DIR), name="player-vendor")
 if settings.VIEWER_DIR.is_dir():
     app.mount("/viewer", StaticFiles(directory=settings.VIEWER_DIR, html=True), name="viewer")
 if (settings.STATIC_DIR / "assets").is_dir():

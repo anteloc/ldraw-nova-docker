@@ -1,7 +1,7 @@
 import { createContext, useContext } from "react";
-import type { Chat, LlmEntry } from "./api";
+import type { Chat, LlmEntry, ViewerMode } from "./api";
 
-export type ViewerTarget = { modelUrl: string; title: string; parts?: number | null };
+export type ViewerTarget = { modelUrl: string; title: string; parts?: number | null; mode?: ViewerMode };
 
 export type AppState = {
   chats: Chat[];
