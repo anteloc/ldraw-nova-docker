@@ -210,28 +210,46 @@ off. Deleting a chat removes its chat and work folders; its models stay in
 
 **The 3D viewer** is `/viewer/viewer.html?model=<url>` — e.g.
 http://localhost:8765/viewer/viewer.html?model=/ref/8303-1.mpd for a
-reference model. Drag to rotate, Shift+drag to pan, scroll to zoom. **Normal**
-is the fast outlined LDraw look; **High** uses realistic plastic/metal/rubber/
-transparent materials, soft studio lighting, faint edge lines and a ground
-shadow — its shadow is computed once per model rather than per frame, and its
-edges are one merged draw call, so it needs fewer draw calls than Normal. It is library.ldraw.org's viewer
+reference model. Rendering:
+
+* **High** (the default): realistic plastic/metal/rubber/transparent
+  materials, soft studio lighting, faint edge lines and a ground shadow. Its
+  shadow is computed once per model rather than per frame, and its edges are
+  one merged draw call, so it needs fewer draw calls than Normal.
+* **Normal**: the fast outlined LDraw look.
+* **Poly**: the bare triangles as a wireframe, in flat colours, with no
+  lighting, textures or edge lines (very light colours are drawn a bit darker
+  so they show on the light background).
+
+And two ways to move the camera, the same as in the 3D player:
+
+* **Inspect**: drag to rotate, Shift+drag to pan, scroll to zoom towards the
+  pointer. Zooming doesn't stop at the model: keep scrolling and the camera
+  flies in and through walls, to look around inside buildings.
+* **Walk**: first person, like a game. Click and the mouse looks around (Esc
+  frees the pointer; dragging works too); **W A S D** move, **E / Q** go up and
+  down, **Shift** runs, scrolling flies along the pointer. Back in Inspect, the
+  camera orbits a point just ahead of where you walked to.
+
+Nothing stops the camera at walls in either mode; the reset-view button
+brings back the whole model. It is library.ldraw.org's viewer
 ([ldraworg-library](https://github.com/ldraw-org/ldraworg-library), MIT, built
 on [buildinginstructions.js](https://github.com/LasseD/buildinginstructions.js),
 Unlicense), vendored into the image at a pinned commit (`LDRAWORG_REF`), with
-parts served from the baked-in library instead of ldraw.org.
+parts served from the baked-in library instead of ldraw.org, and a perspective
+camera instead of its orthographic one (which can't go inside a model).
 
 **The 3D player** is `/viewer/player.html?model=<url>` — e.g.
 http://localhost:8765/viewer/player.html?model=/ref/8303-1.mpd. Parts drop
-into place step by step while the camera slowly turns; that's what **play**
-does, and **pause** stops both. **|◀ / ▶|** jump to the previous / next step,
+into place step by step while the camera slowly turns (in Inspect); that's
+what **play** does, and **pause** stops both. **|◀ / ▶|** jump to the previous / next step,
 and the time slider is cut into the steps like the chapters of a video (hover
 for the step number). Keys: Space play/pause, ←/→ previous/next step,
 Home/End. A build takes about a minute at 1×, whatever its size (small models
-keep their natural pace), and the speed menu goes from 0.25× to 4×. Drag to
-rotate, Shift+drag to pan, scroll to zoom, at any time, also while paused.
-Zooming doesn't stop at the model: keep scrolling and the camera flies in and
-through walls, to look around inside buildings. The reset-view button (right)
-brings back the whole model. It renders with ldraw.rs's own renderer (wgpu):
+keep their natural pace), and the speed menu goes from 0.25× to 4×. The camera
+has the viewer's **Inspect** and **Walk** modes, at any time, also while
+paused (in Walk, E / Q go up and down: Space stays play/pause). The reset-view
+button (bottom right) brings back the whole model. It renders with ldraw.rs's own renderer (wgpu):
 WebGPU where the browser has it, WebGL2 otherwise.
 
 It's ldraw-player, `tools/player` in the

@@ -164,7 +164,7 @@ ENV PYTHONPATH=/app
 # the COPY changes, to:
 #   RUN curl -fsSL "https://github.com/anteloc/ldraw.rs-astra/releases/download/<tag>/ldraw-player-${LDRAW_PLAYER_VERSION}.zip" -o /tmp/ldraw-player.zip
 ARG LDRAW_PLAYER_VERSION=0.1.0
-ARG LDRAW_PLAYER_SHA256=8afe27445452768039791476a0bc843979e3dfcda801edb5d794b63a13fde43c
+ARG LDRAW_PLAYER_SHA256=62163a017141b9c0f0ee1a48d1ade1a0b9cbf4fd22f6c7167c6d0b7be7efd78f
 COPY vendor/ldraw-player-${LDRAW_PLAYER_VERSION}.zip /tmp/ldraw-player.zip
 RUN set -eux; \
     echo "${LDRAW_PLAYER_SHA256}  /tmp/ldraw-player.zip" | sha256sum -c -; \

@@ -37,6 +37,14 @@ def test_ldraw_library_routes(client):
     assert client.get("/ldraw-id/nope-nope.dat").status_code == 404
 
 
+def test_viewer_and_player_offer_the_camera_modes(client):
+    viewer = client.get("/viewer/viewer.html").text
+    assert 'data-mode="high" aria-pressed="true"' in viewer                  # High by default
+    assert 'data-mode="poly"' in viewer
+    for page in (viewer, client.get("/viewer/player.html").text):
+        assert 'data-camera="inspect"' in page and 'data-camera="walk"' in page
+
+
 @pytest.mark.skipif(not settings.PLAYER_VENDOR_DIR.is_dir(), reason="ldraw-player is unpacked at image build")
 def test_player_page_and_webassembly_are_served(client):
     page = client.get("/viewer/player.html")

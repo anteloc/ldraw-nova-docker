@@ -7,6 +7,10 @@
 
   Usage: /viewer/viewer.html?model=<url of an .ldr/.mpd>[&parts=<count>]   e.g. ?model=/ref/8303-1.mpd
   (`parts` shows a known part count, e.g. from the model's BOM; otherwise the viewer counts them.)
+
+  Rendering: Normal (ldbi's outlined look), High (PBR, the default), Poly (wireframe).
+  Camera: Inspect (orbit, pan, zoom, also into the model) or Walk (first person),
+  the same two modes as the 3D player (player.html).
 -->
 <html lang="en">
 <head>
@@ -44,7 +48,10 @@
   .segmented { display: inline-flex; }
   .segmented button { border-radius: 0; }
   .segmented button:first-child { border-radius: 6px 0 0 6px; }
-  .segmented button:last-child { border-radius: 0 6px 6px 0; border-left: 0; }
+  .segmented button:last-child { border-radius: 0 6px 6px 0; }
+  .segmented button + button { border-left: 0; }
+  button.icon { padding: 4px 6px; display: inline-grid; place-items: center; }
+  button.icon svg { width: 17px; height: 17px; fill: currentColor; display: block; }
   .segmented button[aria-pressed="true"] { background: var(--btn-active); color: var(--btn-active-fg); border-color: var(--btn-active); }
   #status { position: fixed; left: 12px; bottom: 10px; color: var(--muted); z-index: 2; }
   #status.error { color: var(--danger); }
@@ -53,10 +60,18 @@
 <body>
 <div id="bar">
   <span id="title"><strong id="file">LDraw Viewer</strong><span id="parts"></span></span>
-  <span class="segmented" role="group" aria-label="Rendering quality">
-    <button data-mode="normal" aria-pressed="true" title="Fast outlined rendering">Normal</button>
-    <button data-mode="high" aria-pressed="false" title="Realistic materials, lighting and shadows">High</button>
+  <span class="segmented" role="group" aria-label="Rendering">
+    <button data-mode="normal" aria-pressed="false" title="Fast outlined rendering">Normal</button>
+    <button data-mode="high" aria-pressed="true" title="Realistic materials, lighting and shadows">High</button>
+    <button data-mode="poly" aria-pressed="false" title="Wireframe: every triangle, flat colours, no lighting or textures">Poly</button>
   </span>
+  <span class="segmented" role="group" aria-label="Camera">
+    <button data-camera="inspect" aria-pressed="true" title="Orbit, pan and zoom, also into the model">Inspect</button>
+    <button data-camera="walk" aria-pressed="false" title="First person: mouse to look, W A S D to move">Walk</button>
+  </span>
+  <button id="home" class="icon" title="Reset view" aria-label="Reset view" disabled>
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9V5a2 2 0 0 1 2-2h4v2H5v4zm12-6h4a2 2 0 0 1 2 2v4h-2V5h-4zM3 15h2v4h4v2H5a2 2 0 0 1-2-2zm16 0h2v4a2 2 0 0 1-2 2h-4v-2h4zM12 8.5a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7z"/></svg>
+  </button>
   <a class="btn" id="download" href="#" download>.mpd</a>
   <button id="glb" title="Download as glTF binary (.glb), converted with mpd2glb">.glb</button>
 </div>
@@ -101,7 +116,10 @@ var scene = null;
   const status = document.getElementById('status');
   let restingStatus = { text: 'Loading…', isError: false };     // what to show again after a .glb download
   const setStatus = (text, isError) => { status.textContent = text; status.classList.toggle('error', !!isError); };
-  const HINT = 'Drag to rotate · Shift+drag to pan · Scroll to zoom';
+  const HINTS = {
+    inspect: 'Drag to rotate · Shift+drag to pan · Scroll to zoom, and keep scrolling to go inside',
+    walk: 'Click, then move the mouse to look around (Esc frees it) · W A S D to move · E / Q up and down · Shift to run · Scroll to fly',
+  };
 
   if (!modelUrl) { setStatus('No model given: add ?model=<url of an .ldr/.mpd file>', true); return; }
   if (!WEBGL.isWebGLAvailable()) { setStatus('WebGL is not available in this browser.', true); return; }
@@ -144,6 +162,22 @@ var scene = null;
   LDR.Options.bgColor = 0xF2F2F2;
   LDR.Colors.envMapPrefix = 'vendor/ldbi/textures/cube/';
   LDR.Colors.textureMaterialPrefix = 'vendor/ldbi/textures/materials/';
+
+  // Normal mode's conditional lines (LDraw type 5) are drawn when the camera
+  // sees both control points on the same side of the line. ldbi compares clip
+  // coordinates, which is only right for an orthographic camera; with ours
+  // (perspective, see "Camera" below) they have to be divided by w first, or
+  // lines flicker in and out close to the camera, e.g. inside a model.
+  const conditionalShader = LDR.Shader.createConditionalVertexShader;
+  LDR.Shader.createConditionalVertexShader = function () {
+    const src = conditionalShader.call(this);
+    const clip = 'vec2 xp1=gl_Position.xy;vec2 d12=vec4(m*vec4(p2,1.0)).yx-xp1.yx;d12.y=-d12.y;vec2 d13=vec4(m*vec4(p3,1.0)).xy-xp1;vec2 d14=vec4(m*vec4(p4,1.0)).xy-xp1;';
+    const ndc = 'vec2 xp1=gl_Position.xy/gl_Position.w;vec4 q2=m*vec4(p2,1.0);vec4 q3=m*vec4(p3,1.0);vec4 q4=m*vec4(p4,1.0);' +
+                'vec2 d12=q2.yx/q2.w-xp1.yx;d12.y=-d12.y;vec2 d13=q3.xy/q3.w-xp1;vec2 d14=q4.xy/q4.w-xp1;';
+    if (src.includes(clip)) LDR.Shader.COND = src.replace(clip, ndc);
+    else if (!src.includes(ndc)) console.warn('ldbi conditional line shader changed; perspective fix not applied');
+    return LDR.Shader.COND || src;
+  };
 
   // ---------------------------------------------------------------------------
   // "High" quality. ldbi's own physical mode (Phong materials, an old cube-map
@@ -202,8 +236,9 @@ var scene = null;
     return room;
   }
 
-  // ldbi calls this for every colour in physical mode; we only use physical mode for High.
+  // ldbi calls this for every colour in physical mode, which High and Poly use.
   LDR.Colors.buildStandardMaterial = function (colorID, texmap) {
+    if (mode === 'poly') return polyMaterial(colorID);
     const key = String(colorID);
     if (!texmap && HQ.materials[key]) return HQ.materials[key];
     const color = LDR.Colors[colorID < 0 ? (-colorID - 1) : colorID] || LDR.Colors[0];
@@ -326,6 +361,29 @@ var scene = null;
     scene.scene.add(HQ.edges);
   }
 
+  // ---------------------------------------------------------------------------
+  // "Poly": the bare triangles as a wireframe, in flat colours: no lighting,
+  // textures, shadows or LDraw edge lines. Same per-colour meshes as High.
+  // ---------------------------------------------------------------------------
+  const POLY = { materials: {} };
+
+  function polyMaterial(colorID) {
+    const key = String(colorID);
+    if (!POLY.materials[key]) {
+      const color = LDR.Colors[colorID < 0 ? (-colorID - 1) : colorID] || LDR.Colors[0];
+      const c = new THREE.Color(colorID < 0 ? (color.edge !== undefined ? color.edge : 0x333333) : color.value);
+      const hsl = c.getHSL({});
+      if (hsl.l > 0.82) c.setHSL(hsl.h, hsl.s, 0.62);   // white lines would vanish on the light background
+      POLY.materials[key] = new THREE.MeshBasicMaterial({ color: c, wireframe: true });
+    }
+    return POLY.materials[key];
+  }
+
+  function enablePoly() {
+    enableNormal();                                    // plain renderer: no shadows, environment, tone mapping
+    for (const { mesh } of scene.mc.lineMeshes) if (mesh.parent) mesh.parent.remove(mesh);
+  }
+
   function enableNormal() {
     const r = scene.renderer;
     r.outputEncoding = THREE.LinearEncoding;
@@ -345,11 +403,233 @@ var scene = null;
 
   // ---------------------------------------------------------------------------
 
-  let mode = 'normal';
+  // ---------------------------------------------------------------------------
+  // Camera. ldbi's scene has an orthographic camera, which can't go inside a
+  // model; this is a perspective one, with two ways to move it (the same as the
+  // 3D player's, see player.html):
+  //   Inspect: drag to orbit, Shift+drag to pan (OrbitControls), scroll to zoom
+  //     towards the pointer. Close to the orbit point, zooming in keeps flying
+  //     forward, through walls: nothing stops the camera.
+  //   Walk: first person. Click and the mouse looks around (pointer lock, Esc
+  //     frees it; dragging works too); W A S D move level, E/Q up/down, Shift
+  //     runs, scroll flies along the pointer.
+  // Distances scale with the model's size (radius of its bounding sphere).
+  // ---------------------------------------------------------------------------
+  const canvas = document.getElementById('ldbi-canvas');
+  const FOV = 45;
+  const FLY_SPEED = 0.2;                 // model radii per unit of zoom
+  const LOOK_PER_PIXEL = 0.0025;
+  const PITCH_LIMIT = Math.PI / 2 - 0.01;
+  const WALK_KEYS = new Set(['KeyW', 'KeyA', 'KeyS', 'KeyD', 'KeyE', 'KeyQ', 'ShiftLeft', 'ShiftRight']);
+  const clamp = THREE.MathUtils.clamp;
+  const view = {
+    mode: 'inspect', framed: false, radius: 100, center: new THREE.Vector3(),
+    yaw: 0, pitch: 0, keys: new Set(), walking: false, last: 0, drag: null, walkStart: null,
+  };
+  const minDistance = () => clamp(view.radius * 0.08, 5, 300);
+  const maxDistance = () => Math.max(view.radius * 30, 1000);
+  const walkSpeed = () => clamp(view.radius * 0.25, 40, 600);   // LDraw units per second
+
+  function usePerspective() {
+    const camera = new THREE.PerspectiveCamera(FOV, 1, 1, 100000);
+    scene.orbitControls.dispose();
+    scene.camera = camera;
+    const controls = new THREE.OrbitControls(camera, scene.renderer.domElement);
+    controls.addEventListener('change', () => scene.render());
+    controls.screenSpacePanning = true;
+    controls.mouseButtons.RIGHT = -1;    // Shift+drag pans (as do Ctrl/Cmd+drag); right-drag does nothing
+    scene.orbitControls = controls;      // (its wheel zoom never sees the wheel: see onWheel)
+
+    scene.render = function () {
+      updateClipPlanes();
+      LDrawOrg.Model.prototype.render.call(this);
+    };
+    // ldbi's onChange sizes an orthographic view; same job for a perspective one.
+    scene.onChange = function () {
+      if (!this.mc) return;              // not built yet
+      const w = this.container.clientWidth, h = this.container.clientHeight;
+      this.renderer.setSize(w, h);
+      camera.aspect = w / Math.max(1, h);
+      camera.updateProjectionMatrix();
+      if (!view.framed) { frameModel(); view.framed = true; }
+      if (view.mode === 'inspect') controls.update();
+      this.composer = new THREE.EffectComposer(this.renderer);
+      this.composer.addPass(new THREE.RenderPass(this.scene, camera));
+      if (!this.mc.attachGlowPasses(w, h, this.scene, camera, this.composer)) this.composer = null;
+      this.render();
+    };
+  }
+
+  function frameModel() {
+    const box = new THREE.Box3().setFromObject(scene.baseObject);
+    if (box.isEmpty()) return;
+    box.getCenter(view.center);
+    view.radius = Math.max(10, box.getSize(new THREE.Vector3()).length() / 2);
+    resetView();
+  }
+
+  // The whole model, from ldbi's usual viewpoint (front right, above).
+  function resetView() {
+    const camera = scene.camera, controls = scene.orbitControls;
+    const halfV = THREE.MathUtils.degToRad(FOV / 2);
+    const half = Math.min(halfV, Math.atan(Math.tan(halfV) * camera.aspect));
+    const distance = view.radius / Math.sin(half) * 1.02;
+    camera.position.copy(view.center).addScaledVector(new THREE.Vector3(1, 0.7, 1).normalize(), distance);
+    controls.target.copy(view.center);
+    camera.lookAt(view.center);
+    if (view.mode === 'walk') { syncLook(); view.walkStart = pose(); }
+    else controls.update();
+    scene.render();
+  }
+
+  function updateClipPlanes() {
+    const camera = scene.camera;
+    const close = view.mode === 'walk' ? minDistance() : camera.position.distanceTo(scene.orbitControls.target);
+    const near = clamp(close * 0.05, 0.5, 10);
+    const far = Math.max(camera.position.distanceTo(view.center) + view.radius * 2, 1000) + near;
+    if (camera.near !== near || camera.far !== far) {
+      camera.near = near; camera.far = far;
+      camera.updateProjectionMatrix();
+    }
+  }
+
+  // World direction through a point of the canvas (CSS pixels).
+  function rayThrough(x, y) {
+    const camera = scene.camera;
+    camera.updateMatrixWorld();
+    const p = new THREE.Vector3(x / canvas.clientWidth * 2 - 1, 1 - y / canvas.clientHeight * 2, 0.5).unproject(camera);
+    return p.sub(camera.position).normalize();
+  }
+
+  // Scales the view about the point under the pointer on the orbit plane (it
+  // stays put on screen); at the minimum distance, or in Walk, flies instead.
+  function zoomAt(factor, x, y) {
+    const camera = scene.camera, target = scene.orbitControls.target;
+    const ray = rayThrough(x, y);
+    const fly = () => {
+      const step = ray.clone().multiplyScalar(view.radius * FLY_SPEED * (1 - factor));
+      camera.position.add(step);
+      target.add(step);
+    };
+    const distance = camera.position.distanceTo(target);
+    if (view.mode === 'walk' || (factor < 1 && distance <= minDistance() * 1.001)) fly();
+    else {
+      const f = clamp(factor, minDistance() / distance, maxDistance() / distance);
+      const forward = target.clone().sub(camera.position).normalize();
+      const anchor = camera.position.clone().addScaledVector(ray, distance / Math.max(1e-3, ray.dot(forward)));
+      target.sub(anchor).multiplyScalar(f).add(anchor);
+      camera.position.sub(anchor).multiplyScalar(f).add(anchor);
+    }
+    if (view.mode === 'inspect') scene.orbitControls.update();
+    scene.render();
+  }
+
+  function onWheel(e) {
+    if (!scene || !view.framed) return;
+    e.preventDefault();
+    e.stopPropagation();                 // OrbitControls' own zoom stops at its target
+    const delta = e.deltaY * (e.deltaMode === 1 ? 16 : e.deltaMode === 2 ? canvas.clientHeight : 1);
+    const factor = Math.exp(clamp(delta, -400, 400) * (e.ctrlKey ? 0.01 : 0.0015));   // ctrlKey: trackpad pinch
+    const rect = canvas.getBoundingClientRect();
+    zoomAt(factor, e.clientX - rect.left, e.clientY - rect.top);
+  }
+  // Capture phase on the stage: runs before OrbitControls' listener on the canvas.
+  document.getElementById('stage').addEventListener('wheel', onWheel, { capture: true, passive: false });
+
+  // --- Walk ---
+  const pose = () => ({ position: scene.camera.position.clone(), quaternion: scene.camera.quaternion.clone() });
+
+  function syncLook() {
+    const e = new THREE.Euler().setFromQuaternion(scene.camera.quaternion, 'YXZ');
+    view.yaw = e.y;
+    view.pitch = e.x;
+  }
+
+  function look(dx, dy) {
+    view.yaw -= dx * LOOK_PER_PIXEL;
+    view.pitch = clamp(view.pitch - dy * LOOK_PER_PIXEL, -PITCH_LIMIT, PITCH_LIMIT);
+    scene.camera.quaternion.setFromEuler(new THREE.Euler(view.pitch, view.yaw, 0, 'YXZ'));
+    scene.render();
+  }
+
+  function walkStep(now) {
+    const k = view.keys, held = code => (k.has(code) ? 1 : 0);
+    const forward = held('KeyW') - held('KeyS'), right = held('KeyD') - held('KeyA'), up = held('KeyE') - held('KeyQ');
+    if (view.mode !== 'walk' || (!forward && !right && !up)) { view.walking = false; return; }
+    const seconds = view.last ? Math.min(0.1, (now - view.last) / 1000) : 0;
+    view.last = now;
+    const run = k.has('ShiftLeft') || k.has('ShiftRight') ? 3 : 1;
+    // Level, whichever way you look; up is up.
+    const move = new THREE.Vector3(-Math.sin(view.yaw), 0, -Math.cos(view.yaw)).multiplyScalar(forward)
+      .add(new THREE.Vector3(Math.cos(view.yaw), 0, -Math.sin(view.yaw)).multiplyScalar(right))
+      .add(new THREE.Vector3(0, up, 0));
+    scene.camera.position.addScaledVector(move.normalize(), walkSpeed() * run * seconds);
+    scene.render();
+    requestAnimationFrame(walkStep);
+  }
+
+  addEventListener('keydown', e => {
+    if (!WALK_KEYS.has(e.code) || e.ctrlKey || e.metaKey || e.altKey) return;
+    view.keys.add(e.code);
+    if (view.mode === 'walk' && !view.walking) { view.walking = true; view.last = 0; requestAnimationFrame(walkStep); }
+  });
+  addEventListener('keyup', e => view.keys.delete(e.code));
+  addEventListener('blur', () => view.keys.clear());   // keys released while the page wasn't looking
+
+  canvas.addEventListener('pointerdown', e => {
+    if (view.mode !== 'walk' || e.button !== 0) return;
+    view.drag = { x: e.clientX, y: e.clientY };
+    if (e.pointerType !== 'mouse') canvas.setPointerCapture(e.pointerId);
+    else if (document.pointerLockElement !== canvas) {
+      const request = canvas.requestPointerLock();       // if refused, dragging still looks around
+      if (request && request.catch) request.catch(() => {});
+    }
+  });
+  canvas.addEventListener('pointermove', e => {
+    if (view.mode !== 'walk') return;
+    if (document.pointerLockElement === canvas) look(e.movementX, e.movementY);
+    else if (view.drag) {
+      look(e.clientX - view.drag.x, e.clientY - view.drag.y);
+      view.drag = { x: e.clientX, y: e.clientY };
+    }
+  });
+  for (const type of ['pointerup', 'pointercancel']) canvas.addEventListener(type, () => { view.drag = null; });
+
+  // Walk starts where the camera is. Back in Inspect, it orbits a point just
+  // ahead of where you walked to, or the same point as before if you didn't move.
+  function setCameraMode(next) {
+    if (next === view.mode || !scene || !view.framed) return;
+    const camera = scene.camera, controls = scene.orbitControls;
+    if (next === 'walk') {
+      controls.enabled = false;
+      syncLook();
+      view.walkStart = pose();
+    } else {
+      if (document.pointerLockElement === canvas) document.exitPointerLock();
+      view.keys.clear();
+      const start = view.walkStart;
+      if (!start || !camera.position.equals(start.position) || !camera.quaternion.equals(start.quaternion)) {
+        const ahead = camera.getWorldDirection(new THREE.Vector3());
+        controls.target.copy(camera.position).addScaledVector(ahead, minDistance());
+      }
+      controls.enabled = true;
+    }
+    view.mode = next;
+    if (next === 'inspect') controls.update();
+    cameraButtons.forEach(b => b.setAttribute('aria-pressed', String(b.dataset.camera === next)));
+    showRestingStatus();
+    scene.render();
+  }
+
+  // ---------------------------------------------------------------------------
+
+  let mode = 'high';
   let loaded = 0;
   const missing = new Set();
-  const canvas = document.getElementById('ldbi-canvas');
+  let problems = [];
   const modeButtons = document.querySelectorAll('button[data-mode]');
+  const cameraButtons = document.querySelectorAll('button[data-camera]');
+  const homeButton = document.getElementById('home');
 
   function showPartCount() {
     let n = knownParts;
@@ -359,29 +639,37 @@ var scene = null;
     document.getElementById('parts').textContent = `, ${n.toLocaleString()} part${n === 1 ? '' : 's'}`;
   }
 
-  function onBuilt() {
-    if (mode === 'high') enableHigh(); else enableNormal();
-    scene.render();
-    showPartCount();
-    modeButtons.forEach(b => { b.disabled = false; });
-    const problems = [];
-    if (missing.size) problems.push(`${missing.size} part(s) not found, shown as boxes: ${[...missing].slice(0, 5).join(', ')}`);
-    if (unknownColours.size) problems.push(`unknown colour code(s) shown black: ${[...unknownColours].join(', ')}`);
-    restingStatus = { text: problems.length ? problems.join(' · ') : HINT, isError: problems.length > 0 };
+  function showRestingStatus() {
+    restingStatus = { text: problems.length ? problems.join(' · ') : HINTS[view.mode], isError: problems.length > 0 };
     setStatus(restingStatus.text, restingStatus.isError);
   }
+
+  function onBuilt() {
+    ({ high: enableHigh, normal: enableNormal, poly: enablePoly })[mode]();
+    scene.render();
+    showPartCount();
+    [...modeButtons, ...cameraButtons, homeButton].forEach(b => { b.disabled = false; });
+    problems = [];
+    if (missing.size) problems.push(`${missing.size} part(s) not found, shown as boxes: ${[...missing].slice(0, 5).join(', ')}`);
+    if (unknownColours.size) problems.push(`unknown colour code(s) shown black: ${[...unknownColours].join(', ')}`);
+    showRestingStatus();
+  }
+
+  const BUILDING = { normal: 'Building normal view…', high: 'Building high-quality view…', poly: 'Building polygon view…' };
 
   function setMode(next) {
     if (next === mode || !scene) return;
     mode = next;
     modeButtons.forEach(b => b.setAttribute('aria-pressed', String(b.dataset.mode === mode)));
     modeButtons.forEach(b => { b.disabled = true; });
-    setStatus(mode === 'high' ? 'Building high-quality view…' : 'Building normal view…');
-    // Let the status paint before the (synchronous) rebuild; physical rendering
-    // age 1 = physical materials without ldbi's "aged plastic" yellowing.
-    setTimeout(() => scene.setPhysicalRenderingAge(mode === 'high' ? 1 : 0), 30);
+    setStatus(BUILDING[mode]);
+    // Let the status paint before the (synchronous) rebuild. Physical rendering
+    // (High, Poly): age 1 = physical materials without ldbi's "aged plastic" yellowing.
+    setTimeout(() => scene.setPhysicalRenderingAge(mode === 'normal' ? 0 : 1), 30);
   }
   modeButtons.forEach(b => b.addEventListener('click', () => setMode(b.dataset.mode)));
+  cameraButtons.forEach(b => b.addEventListener('click', () => { setCameraMode(b.dataset.camera); b.blur(); }));
+  homeButton.addEventListener('click', () => { if (view.framed) resetView(); });
 
   // .glb: converted on the server with mpd2glb (uncompressed, LDraw metadata kept
   // per node). Fetched rather than linked so the button can show progress.
@@ -408,18 +696,18 @@ var scene = null;
       glbButton.textContent = '.glb';
     }
   });
-  modeButtons.forEach(b => { b.disabled = true; });
+  [...modeButtons, ...cameraButtons, homeButton].forEach(b => { b.disabled = true; });
 
   LDR.Colors.load(() => {
     scene = new LDrawOrg.Model(canvas, modelUrl, {
       idToUrl, idToTextureUrl,
       onProgress: () => { loaded++; if (loaded % 25 === 0) setStatus(`Loading parts… ${loaded}`); },
       onLoaded: onBuilt,
+      physicalRenderingAge: 1,           // High is the default
     });
     scene.renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
     scene.renderer.shadowMap.enabled = false;
-    // Shift+drag pans (built into OrbitControls, as do Ctrl/Cmd+drag); right-drag does nothing.
-    scene.orbitControls.mouseButtons.RIGHT = -1;
+    usePerspective();
     scene.loader.onError = e => {
       if (e && e.subModel) missing.add(e.subModel);
       if (e && e.subModel === modelUrl) setStatus(`Could not load ${fileName}`, true);

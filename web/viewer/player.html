@@ -38,7 +38,7 @@
   .bar { position: fixed; left: 0; right: 0; display: flex; gap: 8px; align-items: center;
          padding: 8px 12px; background: var(--bar); backdrop-filter: blur(6px); z-index: 2; }
   #top { top: 0; border-bottom: 1px solid var(--btn-border); }
-  #title { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+  #title { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; margin-right: auto; }
   #title strong { font-weight: 600; }
   #parts { color: var(--muted); }
   #controls { bottom: 0; border-top: 1px solid var(--btn-border); gap: 6px; }
@@ -55,6 +55,11 @@
   #play svg { width: 24px; height: 24px; }
   button:focus-visible, select:focus-visible, #scrub:focus-visible { outline: 2px solid var(--fg); outline-offset: 2px; }
   select { padding: 4px 6px; flex: none; }
+  .segmented { display: inline-flex; flex: none; }
+  .segmented button { border-radius: 0; padding: 4px 10px; }
+  .segmented button:first-child { border-radius: 6px 0 0 6px; }
+  .segmented button:last-child { border-radius: 0 6px 6px 0; border-left: 0; }
+  .segmented button[aria-pressed="true"] { background: var(--fill); color: var(--bar); border-color: var(--fill); }
   .readout { color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; flex: none; }
 
   /* The time slider: a bar cut into "chapters" at the step marks. */
@@ -76,6 +81,10 @@
 <body>
 <div id="top" class="bar">
   <span id="title"><strong id="file">LDraw Player</strong><span id="parts"></span></span>
+  <span class="segmented" role="group" aria-label="Camera">
+    <button data-camera="inspect" aria-pressed="true" title="Orbit, pan and zoom, also into the model">Inspect</button>
+    <button data-camera="walk" aria-pressed="false" title="First person: mouse to look, W A S D to move">Walk</button>
+  </span>
 </div>
 <div id="stage"><canvas id="canvas"></canvas></div>
 <div id="status">Loading…</div>
@@ -113,7 +122,10 @@ import init, { Player } from './player-vendor/ldraw_player.js';
 
 const ICONS = { play: 'M8 5v14l11-7z', pause: 'M6 5h4v14H6zM14 5h4v14h-4z',
                 replay: 'M12 5V1.5L7 6l5 4.5V7a6 6 0 1 1-6 6H4a8 8 0 1 0 8-8z' };
-const HINT = 'Drag to rotate · Shift+drag to pan · Scroll to zoom, and keep scrolling to go inside';
+const HINTS = {
+  inspect: 'Drag to rotate · Shift+drag to pan · Scroll to zoom, and keep scrolling to go inside',
+  walk: 'Click, then move the mouse to look around (Esc frees it) · W A S D to move · E / Q up and down · Shift to run · Scroll to fly',
+};
 const $ = id => document.getElementById(id);
 
 const params = new URLSearchParams(location.search);
@@ -131,6 +143,8 @@ let steps = new Float32Array();
 let duration = 0;
 let dragging = null;             // {wasPlaying} while scrubbing
 let lastPrev = { at: 0, step: -1 };
+let summary = '';                // "N parts in M steps", shown with the camera hint
+let problem = null;              // a load problem, shown instead
 
 async function main() {
   if (!modelUrl) { setStatus('No model given: add ?model=<url of an .ldr/.mpd file>', true); return; }
@@ -164,17 +178,32 @@ async function main() {
   steps = player.stepTimes();
   duration = player.duration;
   if (!Number.isFinite(knownParts)) $('parts').textContent = ', ' + plural(result.parts, 'part');
+  summary = `${plural(result.parts, 'part')} in ${plural(result.steps, 'step')}`;
   if (result.missing.length) {
     const names = result.missing.slice(0, 5).join(', ') + (result.missing.length > 5 ? ', …' : '');
-    setStatus(`${plural(result.missing.length, 'file')} not found, left out: ${names}`, true);
-  } else {
-    setStatus(`${plural(result.parts, 'part')} in ${plural(result.steps, 'step')} · ${HINT}`);
+    problem = `${plural(result.missing.length, 'file')} not found, left out: ${names}`;
   }
+  showHint();
   for (const id of ['prev', 'play', 'next', 'home']) $(id).disabled = false;
   $('scrub').setAttribute('aria-valuemax', duration.toFixed(2));
   drawMarks();
   update();
 }
+
+function showHint() {
+  if (problem) setStatus(problem, true);
+  else setStatus(`${summary} · ${HINTS[player.cameraMode]}`);
+}
+
+// Inspect: orbit, pan, zoom (into the model too). Walk: first person.
+const cameraButtons = document.querySelectorAll('button[data-camera]');
+cameraButtons.forEach(b => b.addEventListener('click', () => {
+  if (!player) return;
+  player.cameraMode = b.dataset.camera;
+  cameraButtons.forEach(c => c.setAttribute('aria-pressed', String(c === b)));
+  b.blur();                      // so Space goes back to play/pause
+  if (summary) showHint();
+}));
 
 // --- playback controls ---------------------------------------------------------
 
