@@ -304,11 +304,13 @@ Two ways:
   shows the spot). At first it stands in front of you at tabletop size.
 * Point at the model and hold: move and turn it; hold it with **both hands**
   and pull apart or together: scale it.
-* The menu follows your view: **Real size** (actual LEGO size), **Tabletop**
+* The menu follows your view. It's open when you enter, closes once you've
+  put the model somewhere or picked a size, and **B** or **Y** (the upper
+  buttons) show or hide it: **Real size** (actual LEGO size), **Tabletop**
   (60 cm), **Walk-in** (minifig scale, ×45, on the floor: walk in, or use the
-  thumbsticks), **Stats** (frame rate, frame time, draw calls, triangles; also
-  logged to the console every 5 s, readable with `chrome://inspect` over adb),
-  **Exit**.
+  thumbsticks), **Stats** (frame rate, frame time, draw calls, triangles, and
+  any shader error; also logged to the console every 5 s, readable with
+  `chrome://inspect` over adb), **Exit**.
 
 **Why it's fast.** The model is loaded as the same `.glb` as above, then its
 thousands of parts are batched into at most 4 draw calls (three.js

@@ -10,6 +10,7 @@ import {
   FollowBehavior,
   Follower,
   HemisphereLight,
+  InputComponent,
   PanelDocument,
   PanelUI,
   RayInteractable,
@@ -19,6 +20,7 @@ import {
   VisibilityState,
   World,
 } from "@iwsdk/core";
+import { fixShaderExtensions } from "./batching";
 import { formatSample, PerfMeter, type Sample } from "./hud";
 import { createFloor, PlacedModel, PlacementSystem } from "./interaction";
 import { loadModel } from "./model";
@@ -77,10 +79,14 @@ function explainNoXR(why: string) {
   hint.hidden = false;
 }
 
-/** Wires the menu's buttons (public/ui/menu.uikitml) once IWSDK has loaded it. */
+/**
+ * Wires the menu's buttons (public/ui/menu.uikitml) once IWSDK has loaded it;
+ * B or Y (the upper face buttons) toggle the menu.
+ */
 class MenuSystem extends createSystem({ panels: { required: [PanelUI, PanelDocument] } }) {
   static actions: Record<string, () => void> = {};
   static document: UIKitDocument | null = null;
+  static toggle = () => {};
 
   init() {
     this.queries.panels.subscribe("qualify", (entity) => {
@@ -94,6 +100,13 @@ class MenuSystem extends createSystem({ panels: { required: [PanelUI, PanelDocum
       }
       MenuSystem.document = doc;
     });
+  }
+
+  update() {
+    const { left, right } = this.input.xr.gamepads;
+    if (left?.getButtonDown(InputComponent.Y_Button) || right?.getButtonDown(InputComponent.B_Button)) {
+      MenuSystem.toggle();
+    }
   }
 }
 
@@ -125,6 +138,24 @@ async function main() {
     render: { fov: 50, near: 0.01, far: 500, camera: { position: [0, 1.35, 0.55], lookAt: [0, 0.95, -0.45] } },
     features: { grabbing: true, environmentRaycast: true, locomotion: { enableJumping: false }, spatialUI: true },
   });
+  fixShaderExtensions(world.renderer.getContext() as WebGL2RenderingContext);
+  let showStats = Boolean(params.get("stats"));
+  const setStats = (show: boolean) => {
+    showStats = show;
+    MenuSystem.document?.getElementById("stats")?.setProperties({ display: show ? "flex" : "none" });
+  };
+  // A shader that doesn't compile draws nothing, and in the headset nobody sees
+  // the console: show it in the menu's stats (and the page's).
+  let shaderError = "";
+  world.renderer.debug.onShaderError = (gl, program, vertexShader, fragmentShader) => {
+    const log = [gl.getProgramInfoLog(program), gl.getShaderInfoLog(vertexShader), gl.getShaderInfoLog(fragmentShader)]
+      .map((text) => text?.trim())
+      .filter(Boolean)
+      .join("\n");
+    console.error("[xr] shader error:", log);
+    shaderError ||= `Shader error: ${log.split("\n").find((line) => /error/i.test(line)) ?? log.split("\n")[0]}`;
+    setStats(true);
+  };
   // Walkable floor first: locomotion has gravity, and the player would fall
   // through while the model loads.
   createFloor(world);
@@ -158,22 +189,19 @@ async function main() {
   PlacementSystem.model = placed;
   world.registerSystem(PlacementSystem);
 
-  // The in-headset menu, following the view (lower left).
-  let showStats = Boolean(params.get("stats"));
+  // The in-headset menu, following the view (lower left). Open when you enter,
+  // closed once the model is in place (so it's out of the way of the view and
+  // the lasers), B or Y bring it back.
   MenuSystem.actions = {
-    "real-size": () => placed.realSize(),
-    tabletop: () => placed.tabletop(),
-    "walk-in": () => placed.walkIn(),
-    "stats-button": () => {
-      showStats = !showStats;
-      MenuSystem.document?.getElementById("stats")?.setProperties({ display: showStats ? "flex" : "none" });
-    },
+    "real-size": () => (placed.realSize(), showMenu(false)),
+    tabletop: () => (placed.tabletop(), showMenu(false)),
+    "walk-in": () => (placed.walkIn(), showMenu(false)),
+    "stats-button": () => setStats(!showStats),
     exit: () => world.exitXR(),
   };
   world.registerSystem(MenuSystem);
   const menu = world.createTransformEntity(undefined, { persistent: true });
   menu.addComponent(PanelUI, { config: `${import.meta.env.BASE_URL}ui/menu.uikitml` });
-  menu.addComponent(RayInteractable);
   // It stays put while it's within 45° of where you look (it sits about 25°
   // off, lower left), so it holds still while you aim at it; it catches up
   // once you turn away.
@@ -184,15 +212,23 @@ async function main() {
     maxAngle: 45,
     speed: 2,
   });
-  const showMenu = (visible: boolean) => {
-    if (menu.object3D) menu.object3D.visible = visible;
-  };
+  let menuOpen = false;
+  function showMenu(open: boolean) {
+    menuOpen = open;
+    if (menu.object3D) menu.object3D.visible = open;
+    // Hidden, it must not stop the lasers either: rays only test ray interactables.
+    if (open && !menu.hasComponent(RayInteractable)) menu.addComponent(RayInteractable);
+    if (!open && menu.hasComponent(RayInteractable)) menu.removeComponent(RayInteractable);
+    if (open) menu.setValue(Follower, "needsPositionSync", true); // in front of you, not where it was
+  }
   showMenu(false);
+  MenuSystem.toggle = () => world.session && showMenu(!menuOpen);
+  PlacementSystem.onPlaced = () => showMenu(false);
 
   world.visibilityState.subscribe((state) => {
     const immersive = state !== VisibilityState.NonImmersive;
-    showMenu(immersive);
     if (!immersive) {
+      showMenu(false);
       world.scene.background = BACKGROUND;
       preview();
     }
@@ -207,6 +243,7 @@ async function main() {
     if (session?.supportedFrameRates?.includes(targetFps)) session.updateTargetFrameRate?.(targetFps).catch(() => {});
     world.scene.background = mode === SessionMode.ImmersiveVR ? VR_BACKGROUND : null; // passthrough in MR
     PlacementSystem.placeAfter = 3; // a few frames, so the head pose is real
+    showMenu(true);
   });
 
   // Numbers: page, menu (Stats), and the console every 5 s while immersive.
@@ -214,10 +251,12 @@ async function main() {
   setInterval(() => {
     const sample: Sample | null = meter.latest;
     if (!sample) return;
-    const text = formatSample(sample);
+    const text = [shaderError, formatSample(sample)].filter(Boolean).join(" · ");
     if (showStats) statsEl.textContent = text;
     // the panel's font has no "·"
-    if (showStats) MenuSystem.document?.getElementById("stats")?.setProperties({ text: text.replaceAll(" · ", " | ") });
+    if (showStats) {
+      MenuSystem.document?.getElementById("stats")?.setProperties({ display: "flex", text: text.replaceAll(" · ", " | ") });
+    }
     if (world.session && performance.now() - logged > 5000) {
       logged = performance.now();
       console.info(`[xr-stats] ${fileName}: ${text}`);

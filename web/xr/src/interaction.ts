@@ -266,6 +266,8 @@ export class PlacementSystem extends createSystem({}) {
   static model: PlacedModel | null = null;
   /** Frames to wait before the first placement, so the head pose is real. */
   static placeAfter = -1;
+  /** After you put the model somewhere with the trigger (or a pinch). */
+  static onPlaced: () => void = () => {};
   private pointers: SurfacePointer[] = [];
   private session: XRSession | undefined;
   private readonly selected = new Set<Hand>();
@@ -304,6 +306,7 @@ export class PlacementSystem extends createSystem({}) {
       if (this.selected.has(pointer.hand) && pointer.aiming) {
         model.holder.position.copy(pointer.hit);
         model.faceTowards(this.world.camera.getWorldPosition(_origin));
+        PlacementSystem.onPlaced();
       }
     }
     this.selected.clear();

@@ -18,9 +18,11 @@
 // Imports `three` directly (not via @iwsdk/core) so the tests run in Node;
 // both resolve to the same super-three package (see vite.config.ts).
 import {
+  type ArrayCamera,
   BatchedMesh,
   Box3,
   BufferGeometry,
+  type Camera,
   Color,
   Group,
   Matrix4,
@@ -193,6 +195,7 @@ export function batchModel(scene: Object3D, options: BatchOptions = {}): Batched
       triangles += geometry.index!.count / 3;
     });
     batch.perObjectFrustumCulled = true; // pays off once you walk into a model
+    cullWithBothEyes(batch);
     batch.sortObjects = transparent; // back to front, for blending
     batch.matrixAutoUpdate = false;
     // Pointers ray-test the model every frame; thousands of instances must not
@@ -233,6 +236,55 @@ export function batchModel(scene: Object3D, options: BatchOptions = {}): Batched
       edges,
     },
   };
+}
+
+// With multiview (Quest), one draw renders both eyes, and BatchedMesh gets the
+// XR ArrayCamera. super-three 0.181 then tests each instance's bounding sphere,
+// which is in the batch's own space, against the eyes' world-space frustums, so
+// a placed or scaled model is culled away entirely. Hand it the XR camera as a
+// plain camera instead: WebXRManager sets that camera's projection to the union
+// of both eyes (for culling), and the plain-camera path moves the frustum into
+// the batch's space correctly. Per-eye rendering (no multiview) is unaffected.
+const plainCameras = new WeakMap<Camera, Camera>();
+
+function asPlainCamera(camera: Camera): Camera {
+  if (!(camera as ArrayCamera).isArrayCamera) return camera;
+  let plain = plainCameras.get(camera);
+  if (!plain) {
+    // reads through to the live camera: its matrices, coordinate system, depth
+    plain = Object.create(camera, { isArrayCamera: { value: false } }) as Camera;
+    plainCameras.set(camera, plain);
+  }
+  return plain;
+}
+
+export function cullWithBothEyes(batch: BatchedMesh) {
+  const onBeforeRender = batch.onBeforeRender;
+  batch.onBeforeRender = function (renderer, scene, camera, geometry, material, group) {
+    onBeforeRender.call(this, renderer, scene, asPlainCamera(camera), geometry, material, group);
+  };
+}
+
+// With multiview, super-three 0.181 starts the vertex shader with
+// `layout(num_views = 2) in;` and only then adds the `#extension
+// GL_ANGLE_multi_draw` line that BatchedMesh needs. ESSL 3 rejects that
+// ("extension directive must occur before any non-preprocessor tokens"), so the
+// model's shader doesn't compile and nothing of it shows, while everything else
+// does. Call with the renderer's context before anything renders.
+export function fixShaderExtensions(gl: WebGL2RenderingContext) {
+  const shaderSource = gl.shaderSource.bind(gl);
+  gl.shaderSource = (shader, source) => shaderSource(shader, hoistExtensions(source));
+}
+
+/** Moves every #extension line up to right after #version (three.js never puts one inside an #if). */
+export function hoistExtensions(source: string): string {
+  const lines = source.split("\n");
+  const isExtension = (line: string) => line.trimStart().startsWith("#extension");
+  const extensions = lines.filter(isExtension);
+  if (!extensions.length) return source;
+  const rest = lines.filter((line) => !isExtension(line));
+  rest.splice(rest[0]?.startsWith("#version") ? 1 : 0, 0, ...extensions);
+  return rest.join("\n");
 }
 
 /** Indexed copy with only positions and normals (what BatchedMesh needs), shared vertices merged. */
