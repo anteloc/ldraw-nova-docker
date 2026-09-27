@@ -1,4 +1,4 @@
-"""LDraw knowledge for the agent tools: part/model search, colours, validation."""
+"""LDraw knowledge for the agent tools: part search, colours, validation."""
 from __future__ import annotations
 
 import json
@@ -10,8 +10,7 @@ from pathlib import Path
 from typing import Iterable, Optional
 
 import settings
-from build_index import index_parts, index_ref_models
-from paths import safe_join
+from build_index import index_parts
 
 # Where type-1 references can resolve inside the parts library.
 LIBRARY_SUBDIRS = ("parts", "p", "models")
@@ -25,14 +24,6 @@ def parts_index() -> list[list[str]]:
     if path.exists():
         return json.loads(path.read_text())
     return index_parts(settings.LDRAW_DIR)            # dev fallback: slow, no cache file
-
-
-@lru_cache(maxsize=1)
-def ref_models_index() -> list[dict]:
-    path = settings.INDEX_DIR / "ref-models.json"
-    if path.exists():
-        return json.loads(path.read_text())
-    return index_ref_models(settings.REF_MODELS_DIR)
 
 
 @lru_cache(maxsize=1)
@@ -105,57 +96,6 @@ def find_parts(query: str, limit: int = 20) -> list[dict]:
         scored.append((score, pid, description, category))
     scored.sort(key=lambda row: -row[0])
     return [{"id": pid, "description": d, "category": c} for _s, pid, d, c in scored[:limit]]
-
-
-def search_reference_models(query: str, limit: int = 10) -> list[dict]:
-    q_words = _words(query)
-    if not q_words:
-        return []
-    scored = []
-    for model in ref_models_index():
-        texts = [model["file"]] + [f'{s["name"]} {s["description"]}' for s in model["submodels"]]
-        blob = _normalise(" ".join(texts))
-        hits = sum(1 for w in q_words if w in blob)
-        if hits == 0:
-            continue
-        main_desc = _normalise(texts[1]) if len(texts) > 1 else ""
-        score = hits * 10 + sum(3 for w in q_words if w in main_desc) - model["parts"] / 500
-        scored.append((score, model))
-    scored.sort(key=lambda row: -row[0])
-    return [
-        {
-            "file": m["file"],
-            "parts": m["parts"],
-            "submodels": [
-                {"name": s["name"], "description": s["description"]}
-                for s in m["submodels"][:8]
-            ],
-        }
-        for _s, m in scored[:limit]
-    ]
-
-
-def read_reference_model(name: str, submodel: Optional[str] = None, max_lines: int = 300) -> str:
-    path = safe_join(settings.REF_MODELS_DIR, name, case_insensitive=True)
-    if path is None or not path.is_file():
-        raise FileNotFoundError(f"no reference model named {name!r}")
-    lines = path.read_text(errors="replace").splitlines()
-    if submodel:
-        want = submodel.strip().lower()
-        start = next(
-            (i for i, l in enumerate(lines)
-             if l.startswith("0 FILE") and l[6:].strip().lower() == want),
-            None,
-        )
-        if start is None:
-            raise FileNotFoundError(f"{name} has no submodel {submodel!r}")
-        end = next((i for i in range(start + 1, len(lines)) if lines[i].startswith("0 FILE")), len(lines))
-        lines = lines[start:end]
-    total = len(lines)
-    text = "\n".join(lines[:max_lines])
-    if total > max_lines:
-        text += f"\n0 // ... truncated: showing {max_lines} of {total} lines"
-    return text
 
 
 # --- validation ------------------------------------------------------------

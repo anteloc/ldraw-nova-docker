@@ -16,7 +16,7 @@ import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 import { describe, expect, it } from "vitest";
 import { batchModel, flipWinding, hoistExtensions, weldGeometry } from "../src/batching";
 
-// 8303-1 (from models-annotated), converted by the app's /api/glb (mpd2glb -c none).
+// 8303-1 (a small LEGO set), converted by the app's /api/glb (mpd2glb -c none).
 async function loadFixture(): Promise<Object3D> {
   const file = readFileSync(new URL("./fixtures/8303-1.glb", import.meta.url));
   const buffer = file.buffer.slice(file.byteOffset, file.byteOffset + file.byteLength);

@@ -10,8 +10,8 @@ or from a long-running worker/service process.
 
 Also runnable by hand, e.g. from a `docker exec` shell:
 
-    python3 /app/leocad_render.py /opt/models-annotated/8303-1.mpd
-    # -> /data/output/8303-1.png
+    python3 /app/leocad_render.py /opt/models-demo/copper-bean.mpd
+    # -> /data/output/copper-bean.png
 """
 from __future__ import annotations
 

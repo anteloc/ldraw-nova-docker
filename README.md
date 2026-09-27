@@ -13,20 +13,17 @@ A single image containing:
   library.ldraw.org and baked into the image
 - **Python 3**, so your own scripts run in the same container and call
   `leocad` as a subprocess (see `leocad_render.py`)
-- **The annotated models** from `models-annotated/`, baked into the image at
-  `/opt/models-annotated/`
 - **The demo models** from `models-demo/`, baked into the image at
   `/opt/models-demo/` and shown on the Models page
 - **[mpd2glb](https://github.com/anteloc/mpd2glb)** (pinned release, run with
   a pinned [Bun](https://bun.com/) through `scripts/mpd2glb.sh`), which converts LDraw models to glTF `.glb` while keeping
   the LDraw metadata (descriptions, part files, colours, building steps) on
   every node
-- **`scripts/`**, at `/opt/scripts/` and on the `PATH` (the agents' too):
-  `mpd2glb.sh` (the way to run mpd2glb, whatever runs it underneath),
-  `ldraw-render-steps.sh` (a picture per building step, with LeoCAD) and
-  `ldraw-info.db` (SQLite: LDraw parts and models with descriptions,
-  categories, keywords, bounding boxes and colours, full-text indexes, and
-  views for jev-rerank)
+- **`scripts/`**, the whole folder, at `/opt/scripts/` and on the `PATH`
+  (the agents' too): whatever is in it runs from anywhere in the container, by
+  name — e.g. `mpd2glb.sh` (the way to run mpd2glb, whatever runs it
+  underneath) and `ldraw-render-steps.sh` (a picture per building step, with
+  LeoCAD)
 - **[uv](https://docs.astral.sh/uv/) and Python 3.14** (pinned: `python3.14`,
   and the Python uv uses; `python3` stays Ubuntu's, which the app and the
   agents' scripts run on), with
@@ -56,9 +53,8 @@ A single image containing:
 ├── requirements.txt
 ├── leocad_render.py       # render_image() + a CLI — wrapper around leocad
 ├── example.py             # batch worker: makes missing snapshots + BOMs in data/generated/
-├── models-annotated/      # baked into the image at /opt/models-annotated/
 ├── models-demo/           # demo models (+ .png, .csv, .md), baked in at /opt/models-demo/
-├── scripts/               # command-line helpers, at /opt/scripts/ on the PATH (mpd2glb.sh, ...)
+├── scripts/               # command-line helpers, baked in at /opt/scripts/: all on the PATH
 ├── web/
 │   ├── backend/           # FastAPI: chat API, agent loop (LiteLLM), tools, file routes
 │   ├── frontend/          # React + Vite UI (built in a Docker build stage)
@@ -76,7 +72,8 @@ A single image containing:
 | `./data/generated/` | `/data/generated/` | models (`.mpd`/`.ldr`/`.dat`) + same-named `.png` snapshots and `.csv` BOMs; drop your own models here |
 | `./data/chats/` | `/data/chats/` | chat history, one folder per chat |
 | `./data/output/` | `/data/output/` | agents' work folders (one per chat); also the CLI's default render folder |
-| `./models-annotated/` | `/opt/models-annotated/` | baked in at build time (rebuild to update) |
+| `./models-demo/` | `/opt/models-demo/` | demo models, baked in at build time (rebuild to update) |
+| `./scripts/` | `/opt/scripts/` | command-line helpers, on the `PATH`; baked in at build time (rebuild to update) |
 | named volume `config` | `/config/` | LLM settings and API keys (not on the host, on purpose) |
 
 ## Why an AppImage, not Snap/Flatpak, and not a source build
@@ -130,10 +127,10 @@ docker compose exec ldraw-astra-app bash       # log in — repeat as often as y
 Inside the container:
 
 ```bash
-python3 /app/leocad_render.py /opt/models-annotated/8303-1.mpd
-#   -> /data/output/8303-1.png, i.e. ./data/output/8303-1.png on the host
+python3 /app/leocad_render.py /opt/models-demo/copper-bean.mpd
+#   -> /data/output/copper-bean.png, i.e. ./data/output/copper-bean.png on the host
 
-python3 /app/leocad_render.py /opt/models-annotated/316-1.mpd /opt/models-annotated/854-1.mpd \
+python3 /app/leocad_render.py /opt/models-demo/cathedral.mpd /opt/models-demo/sakura-garden.mpd \
     --width 1920 --height 1080 --camera-angles 20 60
 python3 /app/leocad_render.py /data/my-model.ldr -o /data/output/tests
 python3 /app/leocad_render.py --help
@@ -186,8 +183,8 @@ open http://localhost:8765                # port: LDRAW_ASTRA_WEB_PORT in .env
    the UI: put `ANTHROPIC_API_KEY=...` in a `.env` file next to
    `docker-compose.yml` and enter `os.environ/ANTHROPIC_API_KEY` as the key.
    Existing LiteLLM proxy `model_list` YAML can be imported.
-2. **Chat.** Ask for a model. The agent searches the parts library and the
-   ~1800 annotated reference models, writes an `.mpd`, validates it (unknown
+2. **Chat.** Ask for a model. The agent searches the parts library, writes
+   an `.mpd`, validates it (unknown
    parts, bad colours), publishes it to `data/generated` with a snapshot and —
    if the model accepts images — looks at the snapshot to fix problems. It can
    also run Python or shell in its work folder (e.g. to generate a model with
@@ -236,8 +233,8 @@ off. Deleting a chat removes its chat and work folders; its models stay in
 `data/generated`.
 
 **The 3D viewer** is `/viewer/viewer.html?model=<url>` — e.g.
-http://localhost:8765/viewer/viewer.html?model=/ref/8303-1.mpd for a
-reference model. Rendering:
+http://localhost:8765/viewer/viewer.html?model=/demo/copper-bean.mpd for a
+demo model. Rendering:
 
 * **High** (the default): realistic plastic/metal/rubber/transparent
   materials, soft studio lighting, faint edge lines and a ground shadow. Its
@@ -267,7 +264,7 @@ parts served from the baked-in library instead of ldraw.org, and a perspective
 camera instead of its orthographic one (which can't go inside a model).
 
 **The 3D player** is `/viewer/player.html?model=<url>` — e.g.
-http://localhost:8765/viewer/player.html?model=/ref/8303-1.mpd. Parts drop
+http://localhost:8765/viewer/player.html?model=/demo/copper-bean.mpd. Parts drop
 into place step by step while the camera slowly turns (in Inspect); that's
 what **play** does, and **pause** stops both. **|◀ / ▶|** jump to the previous / next step,
 and the time slider is cut into the steps like the chapters of a video (hover

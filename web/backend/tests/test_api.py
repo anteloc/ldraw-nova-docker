@@ -21,7 +21,6 @@ def client():
     "/files/%2e%2e/%2e%2e/etc/passwd",
     "/files/..%2f..%2fetc%2fpasswd",
     "/ldraw/..%2f..%2f..%2fetc%2fpasswd",
-    "/ref/..%2f..%2fetc%2fpasswd",
     "/demo/..%2f..%2fetc%2fpasswd",
     "/ldraw-id/..%2f..%2f..%2fetc%2fpasswd",
 ])
@@ -50,7 +49,7 @@ def test_viewer_and_player_offer_the_camera_modes(client):
 
 @pytest.mark.skipif(not settings.XR_DIR.is_dir(), reason="the mixed-reality viewer is built into the image")
 def test_mixed_reality_viewer_is_served(client):
-    page = client.get("/xr/?model=/ref/8303-1.mpd")
+    page = client.get("/xr/?model=/demo/copper-bean.mpd")
     assert page.status_code == 200 and 'id="enter"' in page.text
     script = next(p for p in page.text.split('"') if p.startswith("/xr/assets/") and p.endswith(".js"))
     assert client.get(script).status_code == 200

@@ -66,11 +66,11 @@ def _next_version(slug: str) -> int:
 
 
 def resolve_path(ctx: ToolContext, path: str, *, write: bool = False) -> Path:
-    """Paths the agent may use. Reading: the model collection, its own work
-    folder and the reference models. Writing (write_file): only its work folder.
+    """Paths the agent may use. Reading: the model collection and its own work
+    folder. Writing (write_file): only its work folder.
     Relative paths are relative to the work folder."""
     path = (path or "").strip()
-    roots = [ctx.work_dir] if write else [ctx.work_dir, settings.GENERATED_DIR, settings.REF_MODELS_DIR]
+    roots = [ctx.work_dir] if write else [ctx.work_dir, settings.GENERATED_DIR]
     if path.startswith("/"):
         for root in roots:
             if path == str(root) or path.startswith(str(root) + "/"):
@@ -112,22 +112,6 @@ async def t_find_parts(ctx: ToolContext, query: str, limit: int = 15) -> ToolRes
     if not rows:
         return ToolResult(f"No parts match {query!r}. Try fewer or more general words (e.g. 'plate 2 x 4', 'wheel', 'slope 45').")
     return ToolResult("\n".join(f'{r["id"]}\t{r["description"]}' for r in rows))
-
-
-async def t_search_reference_models(ctx: ToolContext, query: str, limit: int = 8) -> ToolResult:
-    rows = ldraw.search_reference_models(query, limit=max(1, min(limit, 25)))
-    if not rows:
-        return ToolResult(f"No reference models match {query!r}.")
-    return ToolResult(json.dumps(rows, indent=1))
-
-
-async def t_read_reference_model(ctx: ToolContext, file: str, submodel: str | None = None,
-                                 max_lines: int = 250) -> ToolResult:
-    try:
-        text = ldraw.read_reference_model(file, submodel, max_lines=max(20, min(max_lines, 1500)))
-    except FileNotFoundError as exc:
-        raise ToolError(str(exc)) from None
-    return ToolResult(text)
 
 
 async def t_save_model(ctx: ToolContext, name: str, content: str, description: str | None = None) -> ToolResult:
@@ -264,20 +248,6 @@ TOOLS: dict[str, tuple[dict, Callable[..., Awaitable[ToolResult]]]] = {
         {"query": {"type": "string", "description": "e.g. 'brick 2 x 4', 'plate 1 x 2', 'wheel', '3001'"},
          "limit": {"type": "integer", "description": "max results (default 15)"}},
         ["query"]), t_find_parts),
-    "search_reference_models": (_fn(
-        "search_reference_models",
-        "Search ~1800 real LEGO set models (annotated LDraw files) by what they depict. "
-        "Returns file names with per-submodel descriptions; read one with read_reference_model to learn how real builds are put together.",
-        {"query": {"type": "string", "description": "e.g. 'fire truck', 'small house with door'"},
-         "limit": {"type": "integer"}},
-        ["query"]), t_search_reference_models),
-    "read_reference_model": (_fn(
-        "read_reference_model",
-        "Read the LDraw source of a reference model, optionally just one submodel (a '0 FILE' section).",
-        {"file": {"type": "string", "description": "file name from search_reference_models, e.g. '8303-1.mpd'"},
-         "submodel": {"type": "string", "description": "submodel name, e.g. '8303 - Demon Destroyer.ldr'"},
-         "max_lines": {"type": "integer", "description": "default 250"}},
-        ["file"]), t_read_reference_model),
     "save_model": (_fn(
         "save_model",
         "Publish a finished LDraw model (.mpd/.ldr text) to the model collection (/data/generated), validate it "
@@ -291,7 +261,7 @@ TOOLS: dict[str, tuple[dict, Callable[..., Awaitable[ToolResult]]]] = {
         ["name", "content"]), t_save_model),
     "render_model": (_fn(
         "render_model",
-        "Render any model file (in /data/generated, your work folder or /opt/models-annotated) from a chosen "
+        "Render any model file (in /data/generated or your work folder) from a chosen "
         "camera angle, e.g. to check the back or underside of a build. The image is shown in the chat.",
         {"path": {"type": "string"},
          "latitude": {"type": "number", "description": "degrees above the horizon (default 30)"},
@@ -315,11 +285,11 @@ TOOLS: dict[str, tuple[dict, Callable[..., Awaitable[ToolResult]]]] = {
         ["command"]), t_run_shell),
     "list_files": (_fn(
         "list_files",
-        "List a folder: your work folder (default), /data/generated, or /opt/models-annotated.",
+        "List a folder: your work folder (default) or /data/generated.",
         {"path": {"type": "string"}}, []), t_list_files),
     "read_file": (_fn(
         "read_file",
-        "Read a text file from your work folder, /data/generated or /opt/models-annotated.",
+        "Read a text file from your work folder or /data/generated.",
         {"path": {"type": "string"}, "max_chars": {"type": "integer"}},
         ["path"]), t_read_file),
     "write_file": (_fn(

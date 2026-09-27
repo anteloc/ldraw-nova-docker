@@ -30,7 +30,7 @@ services:
     #   docker compose up -d --build
     #   docker compose exec ldraw-astra-app bash
     # Then, inside:
-    #   python3 /app/leocad_render.py /opt/models-annotated/8303-1.mpd
+    #   python3 /app/leocad_render.py /opt/models-demo/copper-bean.mpd
     #   python3 /app/example.py
     # and look at ./data/output on the host.
 

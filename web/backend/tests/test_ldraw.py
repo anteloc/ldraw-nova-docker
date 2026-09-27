@@ -8,17 +8,6 @@ def test_find_parts_prefers_the_plain_part():
     assert ldraw.find_parts("zzzz-no-such-thing") == []
 
 
-def test_search_reference_models():
-    hits = ldraw.search_reference_models("fire truck")
-    assert hits and all("file" in h and "submodels" in h for h in hits)
-
-
-def test_read_reference_model_submodel():
-    text = ldraw.read_reference_model("8303-1.mpd", "8303 - Demon Destroyer.ldr", max_lines=5)
-    assert text.startswith("0 FILE 8303 - Demon Destroyer.ldr")
-    assert "truncated" in text
-
-
 def test_validate_good_model_adds_file_header():
     v = ldraw.validate_model("1 4 0 0 0 1 0 0 0 1 0 0 0 1 3001.dat\n", main_name="car.ldr")
     assert v.content.startswith("0 FILE car.ldr\n")

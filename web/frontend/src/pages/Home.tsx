@@ -8,7 +8,7 @@ const EXAMPLES = [
   "Build a small red car with four black wheels",
   "A 6 x 8 cottage with a door, two windows and a sloped roof",
   "Generate a spiral staircase with a Python script",
-  "Which reference models have a crane? Show me how one is built",
+  "Which parts would make a crane's hook and boom? Show me the part ids",
 ];
 
 export default function Home() {

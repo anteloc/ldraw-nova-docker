@@ -5,8 +5,6 @@ type Status = "running" | "queued" | "done" | "interrupted";
 
 const LABELS: Record<string, string> = {
   find_parts: "Searched parts",
-  search_reference_models: "Searched reference models",
-  read_reference_model: "Read reference model",
   save_model: "Saved model",
   write_file: "Wrote file",
   render_model: "Rendered",
@@ -33,8 +31,6 @@ function summary(name: string, args: Record<string, unknown>): string {
       return pick("command");
     case "save_model":
       return pick("name");
-    case "read_reference_model":
-      return [pick("file"), pick("submodel")].filter(Boolean).join(" › ");
     case "render_model":
     case "read_file":
     case "write_file":

@@ -342,13 +342,11 @@ async def models_list():
 
 
 def model_from_url(url: str) -> Optional[Path]:
-    """The model file behind a viewer URL: /files/generated/<name>, /demo/<name> or /ref/<name>."""
+    """The model file behind a viewer URL: /files/generated/<name> or /demo/<name>."""
     path = unquote(urlsplit(url).path)
-    for prefix, root, case_insensitive in (("/files/generated/", settings.GENERATED_DIR, False),
-                                           ("/demo/", settings.DEMO_MODELS_DIR, False),
-                                           ("/ref/", settings.REF_MODELS_DIR, True)):
+    for prefix, root in (("/files/generated/", settings.GENERATED_DIR), ("/demo/", settings.DEMO_MODELS_DIR)):
         if path.startswith(prefix):
-            model = safe_join(root, path[len(prefix):], case_insensitive=case_insensitive)
+            model = safe_join(root, path[len(prefix):])
             if (model is not None and model.is_file() and model.parent == root.resolve()
                     and model.suffix.lower() in MODEL_SUFFIXES):
                 return model
@@ -359,7 +357,7 @@ def model_from_url(url: str) -> Optional[Path]:
 async def model_glb(url: str):
     """The model at `url` (as the viewer loads it) as an uncompressed .glb, made
     with mpd2glb. Can take a minute for big models; cached per model version."""
-    model = model_from_url(url) or _not_found("not a model in data/generated, the demo models or the reference models")
+    model = model_from_url(url) or _not_found("not a model in data/generated or the demo models")
     try:
         out = await glb.export_glb(model)
     except glb.GlbError as exc:
@@ -420,12 +418,6 @@ def demo_models(path: str, download: bool = False):
     return _serve(settings.DEMO_MODELS_DIR, path, download=download)
 
 
-@app.get("/ref/{path:path}")
-def reference_models(path: str, download: bool = False):
-    return _serve(settings.REF_MODELS_DIR, path, download=download, case_insensitive=True,
-                  cache="public, max-age=86400")
-
-
 LIBRARY_CACHE = "public, max-age=31536000, immutable"   # baked into the image, never changes
 
 
@@ -478,7 +470,7 @@ if settings.XR_DIR.is_dir():
 if (settings.STATIC_DIR / "assets").is_dir():
     app.mount("/assets", StaticFiles(directory=settings.STATIC_DIR / "assets"), name="assets")
 
-RESERVED_PREFIXES = ("api/", "files/", "demo/", "ref/", "ldraw/", "ldraw-id/", "viewer/", "xr/", "assets/")
+RESERVED_PREFIXES = ("api/", "files/", "demo/", "ldraw/", "ldraw-id/", "viewer/", "xr/", "assets/")
 
 
 @app.get("/{full_path:path}", include_in_schema=False)

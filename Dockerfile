@@ -100,16 +100,10 @@ RUN set -eux; \
     cp /tmp/lor/LICENSE /opt/web/viewer-vendor/LICENSE-ldraworg-library.txt; \
     rm -rf /tmp/lor
 
-# --- Bake in the annotated LDraw models -------------------------------------
-# Lives in the image (not in /data), so it's always there regardless of what
-# the host mounts. Placed before the app code so editing scripts doesn't
-# invalidate this (large) layer.
-COPY models-annotated/ /opt/models-annotated/
-
-# Search indexes for the agent tools (parts descriptions, reference models).
-# Only depends on the two trees above, so app edits don't rebuild it.
+# Parts index for the agent tools (find_parts: part descriptions).
+# Only depends on the library above, so app edits don't rebuild it.
 COPY web/backend/build_index.py /opt/index/build_index.py
-RUN python3 /opt/index/build_index.py /opt/ldraw/ldraw /opt/models-annotated /opt/index
+RUN python3 /opt/index/build_index.py /opt/ldraw/ldraw /opt/index
 
 # --- Bun runtime (for mpd2glb) -------------------------------------------------
 # mpd2glb supports Node.js and Bun; measured on this image, Bun converts up to
@@ -232,17 +226,15 @@ RUN set -eux; \
     rm -rf /tmp/ldraw-player /tmp/ldraw-player.zip; \
     test -f /opt/web/player-vendor/ldraw_player_bg.wasm
 
-# --- scripts/: command-line helpers, on everyone's PATH ------------------------
-# (agents' too: web/backend/sandbox.py). mpd2glb.sh is the way to run mpd2glb.
+# --- scripts/: the whole folder, on everyone's PATH ----------------------------
+# Whatever is in scripts/ runs from anywhere in the container, by name, for
+# every user (agents too: web/backend/sandbox.py). mpd2glb.sh is the way to
+# run mpd2glb.
 COPY scripts/ /opt/scripts/
 ENV PATH="/opt/scripts:${PATH}"
-# SQLite databases in WAL mode (ldraw-info.db) only open where the reader can
-# create their -wal/-shm files, which agents can't in /opt/scripts: rollback-
-# journal mode reads fine from a read-only folder.
 RUN set -eux; \
-    for db in /opt/scripts/*.db; do \
-        python3 -c 'import sqlite3, sys; c = sqlite3.connect(sys.argv[1]); c.execute("PRAGMA journal_mode=DELETE"); c.close()' "$db"; \
-    done; \
+    chmod -R a+rX /opt/scripts; \
+    find /opt/scripts -type f -exec chmod a+x {} +; \
     mpd2glb.sh --help > /dev/null
 
 # --- Demo models (models-demo/): on the Models page, with their snapshots,
