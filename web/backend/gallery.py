@@ -6,6 +6,13 @@ Each model has two siblings with the same base name, both made with LeoCAD:
 Missing ones are made in the background, one model at a time, whenever
 something asks for them (the Models page, a chat that references the model).
 A failed one isn't retried until the model file changes.
+
+An optional third sibling, <name>.md, is whatever its author wants to say
+about the model (the prompt that made it, say), shown under Info.
+
+The Models page also shows the demo models baked into the image (models-demo/
+in the repo), which ship with their siblings. A model in data/generated with
+the same base name overrides a demo model, siblings and all.
 """
 from __future__ import annotations
 
@@ -39,6 +46,11 @@ def description_of(path: Path) -> str:
             return title_of(line for _, line in zip(range(40), fh))
     except OSError:
         return ""
+
+
+def info_path_for(model: Path) -> Path:
+    """A model's notes: the sibling .md with the same base name (car.mpd -> car.md)."""
+    return model.with_suffix(".md")
 
 
 def part_count(model: Path) -> Optional[int]:
@@ -108,3 +120,11 @@ def status_of(model: Path, kind: str = "snapshot") -> tuple[str, Optional[str]]:
 def collection(folder: Path) -> list[Path]:
     """The models in the collection, newest first."""
     return sorted(list_models(folder), key=_mtime, reverse=True)
+
+
+def with_demos(models: list[Path], demo_folder: Path) -> list[Path]:
+    """The collection, then the demo models it doesn't override: a model in the
+    collection with the same base name (any extension, any case) replaces the
+    demo model and all of its siblings."""
+    names = {model.stem.casefold() for model in models}
+    return models + [demo for demo in collection(demo_folder) if demo.stem.casefold() not in names]

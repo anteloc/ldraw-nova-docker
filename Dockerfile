@@ -128,7 +128,8 @@ RUN set -eux; \
 
 # --- mpd2glb: LDraw -> glTF binary (.glb), keeping LDraw metadata per node ----
 # https://github.com/anteloc/mpd2glb — pinned release, checksum-verified.
-# Run: bun /opt/mpd2glb/mpd2glb.mjs -c none -l /opt/ldraw/ldraw -o out.glb model.mpd
+# Run it through scripts/mpd2glb.sh (below), not bun + the .mjs directly:
+#   mpd2glb.sh -c none -l /opt/ldraw/ldraw -o out.glb model.mpd
 ARG MPD2GLB_VERSION=0.9.0
 ARG MPD2GLB_SHA256=c215485927c8e629e00c7e8d0af9251b9f668e1fe39c22ab39025b786df18a3b
 RUN set -eux; \
@@ -138,14 +139,57 @@ RUN set -eux; \
     mv "/tmp/mpd2glb/mpd2glb-${MPD2GLB_VERSION}" /opt/mpd2glb; \
     rm -rf /tmp/mpd2glb /tmp/mpd2glb.zip; \
     cd /opt/mpd2glb && bun install --production; \
-    rm -rf /root/.bun/install/cache; \
-    bun /opt/mpd2glb/mpd2glb.mjs --help > /dev/null
-ENV MPD2GLB=/opt/mpd2glb/mpd2glb.mjs
+    rm -rf /root/.bun/install/cache
 
 # socat: the HTTPS front for headsets on the LAN (WebXR needs a secure page;
 # see entrypoint.sh). Its own layer, so the big layers above stay cached.
 RUN apt-get update && apt-get install -y --no-install-recommends socat \
     && rm -rf /var/lib/apt/lists/*
+
+# --- Command-line tools for agents and scripts ---------------------------------
+# poppler-utils (pdftotext, pdfinfo, pdftoppm, ...), ripgrep (rg), git.
+RUN apt-get update && apt-get install -y --no-install-recommends poppler-utils ripgrep git \
+    && rm -rf /var/lib/apt/lists/*
+
+# --- uv, and Python 3.14 managed by it (jev-rerank, and tools to come) ---------
+# https://github.com/astral-sh/uv — pinned release, checksum-verified. Python
+# 3.14 (PYTHON_VERSION) is `python3.14`, and the Python uv picks. `python3`
+# stays Ubuntu's: the app and agents' scripts run on it, with the app's packages.
+# Everything uv installs is shared: under /opt/uv, commands in /usr/local/bin.
+ARG UV_VERSION=0.12.19
+ARG UV_SHA256=23bf5552d220e0842b65c862097b2ebaeba0064b74eda5e565e77fd25969d8c8
+ARG PYTHON_VERSION=3.14.6
+ENV UV_PYTHON_INSTALL_DIR=/opt/uv/python \
+    UV_PYTHON_BIN_DIR=/usr/local/bin \
+    UV_TOOL_DIR=/opt/uv/tools \
+    UV_TOOL_BIN_DIR=/usr/local/bin
+RUN set -eux; \
+    curl -fsSL "https://github.com/astral-sh/uv/releases/download/${UV_VERSION}/uv-x86_64-unknown-linux-gnu.tar.gz" -o /tmp/uv.tar.gz; \
+    echo "${UV_SHA256}  /tmp/uv.tar.gz" | sha256sum -c -; \
+    tar -xzf /tmp/uv.tar.gz -C /tmp; \
+    install -m 0755 /tmp/uv-x86_64-unknown-linux-gnu/uv /tmp/uv-x86_64-unknown-linux-gnu/uvx /usr/local/bin/; \
+    rm -rf /tmp/uv.tar.gz /tmp/uv-x86_64-unknown-linux-gnu; \
+    uv python install "${PYTHON_VERSION}"; \
+    uv cache clean; \
+    test "$(python3.14 -c 'import platform; print(platform.python_version())')" = "${PYTHON_VERSION}"
+
+# --- jev-rerank: ranks text files / SQLite text fields against a query ---------
+# https://github.com/anteloc/jev-rerank — pinned release (its source bundle,
+# checksum-verified), installed as a uv tool on Python 3.14 with the release's
+# locked dependency versions. Needs TYPESAFE_API_KEY when it runs.
+ARG JEV_RERANK_VERSION=0.5.0
+ARG JEV_RERANK_SHA256=7a2bc86b68779e5f835026df708f4c7f38e2364f9d17bee58ff7f2c17e04f03a
+RUN set -eux; \
+    curl -fsSL "https://github.com/anteloc/jev-rerank/releases/download/v${JEV_RERANK_VERSION}/jev-rerank-${JEV_RERANK_VERSION}-source.zip" -o /tmp/jev-rerank.zip; \
+    echo "${JEV_RERANK_SHA256}  /tmp/jev-rerank.zip" | sha256sum -c -; \
+    unzip -q /tmp/jev-rerank.zip -d /tmp/jev-rerank; \
+    cd "/tmp/jev-rerank/jev-rerank-${JEV_RERANK_VERSION}"; \
+    uv export --frozen --no-dev --no-emit-project --no-hashes --output-file /tmp/jev-rerank-locked.txt; \
+    uv tool install --python "${PYTHON_VERSION}" --constraints /tmp/jev-rerank-locked.txt .; \
+    cd /; \
+    rm -rf /tmp/jev-rerank /tmp/jev-rerank.zip /tmp/jev-rerank-locked.txt; \
+    uv cache clean; \
+    jev-rerank --help > /dev/null
 
 # Software (llvmpipe) OpenGL rendering — works on any host, GPU or not.
 ENV LIBGL_ALWAYS_SOFTWARE=1
@@ -172,17 +216,39 @@ RUN pip install --no-cache-dir --break-system-packages -r requirements.txt
 ENV PYTHONPATH=/app
 
 # --- The 3D player: ldraw-player (Rust -> WebAssembly) ------------------------
-# https://github.com/anteloc/ldraw.rs-astra (tools/player) — pinned release,
+# https://github.com/anteloc/ldraw.rs-astra (tools/player), its release zip,
 # checksum-verified -> /opt/web/player-vendor/{ldraw_player.js,ldraw_player_bg.wasm,...}
-ARG LDRAW_PLAYER_VERSION=0.8.0
-ARG LDRAW_PLAYER_SHA256=a50f0feffc04940ac5ddf7b65078d77658a96a1fc299f1bef74d4b2b4be8d62a
+# For now a local build from vendor/: the v0.8.0 release doesn't start in any
+# browser (its CI's old wasm-opt exported the wrong table; fixed in the fork's
+# build). Once a fixed release is on GitHub, the COPY goes back to:
+#   RUN curl -fsSL "https://github.com/anteloc/ldraw.rs-astra/releases/download/v${LDRAW_PLAYER_VERSION}/ldraw-player-${LDRAW_PLAYER_VERSION}.zip" -o /tmp/ldraw-player.zip
+ARG LDRAW_PLAYER_VERSION=0.8.1
+ARG LDRAW_PLAYER_SHA256=1c96d79764393ec702106b5da7a9131594510135704ff02cb808f1ec77a1154f
+COPY vendor/ldraw-player-${LDRAW_PLAYER_VERSION}.zip /tmp/ldraw-player.zip
 RUN set -eux; \
-    curl -fsSL "https://github.com/anteloc/ldraw.rs-astra/releases/download/v${LDRAW_PLAYER_VERSION}/ldraw-player-${LDRAW_PLAYER_VERSION}.zip" -o /tmp/ldraw-player.zip; \
     echo "${LDRAW_PLAYER_SHA256}  /tmp/ldraw-player.zip" | sha256sum -c -; \
     unzip -q /tmp/ldraw-player.zip -d /tmp/ldraw-player; \
     mv "/tmp/ldraw-player/ldraw-player-${LDRAW_PLAYER_VERSION}" /opt/web/player-vendor; \
     rm -rf /tmp/ldraw-player /tmp/ldraw-player.zip; \
     test -f /opt/web/player-vendor/ldraw_player_bg.wasm
+
+# --- scripts/: command-line helpers, on everyone's PATH ------------------------
+# (agents' too: web/backend/sandbox.py). mpd2glb.sh is the way to run mpd2glb.
+COPY scripts/ /opt/scripts/
+ENV PATH="/opt/scripts:${PATH}"
+# SQLite databases in WAL mode (ldraw-info.db) only open where the reader can
+# create their -wal/-shm files, which agents can't in /opt/scripts: rollback-
+# journal mode reads fine from a read-only folder.
+RUN set -eux; \
+    for db in /opt/scripts/*.db; do \
+        python3 -c 'import sqlite3, sys; c = sqlite3.connect(sys.argv[1]); c.execute("PRAGMA journal_mode=DELETE"); c.close()' "$db"; \
+    done; \
+    mpd2glb.sh --help > /dev/null
+
+# --- Demo models (models-demo/): on the Models page, with their snapshots,
+# BOMs and notes (.md). A model of the same name in data/generated replaces one.
+COPY models-demo/ /opt/models-demo/
+
 COPY leocad_render.py example.py /app/
 COPY web/backend/ /app/web/backend/
 COPY web/viewer/ /opt/web/viewer/

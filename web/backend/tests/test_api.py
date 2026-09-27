@@ -1,5 +1,7 @@
+import io
 import json
 import time
+import zipfile
 from pathlib import Path
 
 import pytest
@@ -20,6 +22,7 @@ def client():
     "/files/..%2f..%2fetc%2fpasswd",
     "/ldraw/..%2f..%2f..%2fetc%2fpasswd",
     "/ref/..%2f..%2fetc%2fpasswd",
+    "/demo/..%2f..%2fetc%2fpasswd",
     "/ldraw-id/..%2f..%2f..%2fetc%2fpasswd",
 ])
 def test_file_routes_refuse_traversal(client, url):
@@ -64,6 +67,10 @@ def test_player_page_and_webassembly_are_served(client):
     # the MIME type WebAssembly.instantiateStreaming insists on
     assert wasm.status_code == 200 and wasm.headers["content-type"] == "application/wasm"
     assert wasm.content[:4] == b"\0asm"
+    # same URLs in every version: browsers must revalidate, or they run a stale player
+    assert page.headers["cache-control"] == wasm.headers["cache-control"] == "no-cache"
+    again = client.get("/viewer/player-vendor/ldraw_player_bg.wasm", headers={"If-None-Match": wasm.headers["etag"]})
+    assert again.status_code == 304
 
 
 def test_api_404s_are_json_not_the_spa(client):
@@ -130,6 +137,43 @@ def test_models_page_lists_generated_and_renders_missing_snapshots(client, data_
     assert client.get(wall["model_url"]).status_code == 200
     z = client.get("/api/models/zip")
     assert z.status_code == 200 and z.headers["content-type"] == "application/zip"
+
+
+def test_demo_models_follow_the_collection_unless_overridden(client, data_dir: Path, demo_dir: Path):
+    generated = data_dir / "generated"
+    generated.mkdir(parents=True, exist_ok=True)
+    for name in ("demo-only", "clash"):                                         # baked in with their siblings
+        (demo_dir / f"{name}.mpd").write_text(
+            f"0 FILE {name}.ldr\n0 Demo {name}\n1 4 0 0 0 1 0 0 0 1 0 0 0 1 3001.dat\n")
+        (demo_dir / f"{name}.png").write_bytes(b"\x89PNG\r\n\x1a\n")
+        (demo_dir / f"{name}.csv").write_text("Part Name,Color,Quantity,Part ID,Color Code\nBrick 2 x 4,Red,1,3001,4\n")
+        (demo_dir / f"{name}.md").write_text(f"## {name}\n\n**Prompt:** build it")
+    (generated / "clash.ldr").write_text("0 Mine, not the demo\n1 14 0 0 0 1 0 0 0 1 0 0 0 1 3003.dat\n")
+
+    listing = client.get("/api/models").json()["models"]
+    by_file = {m["file"]: m for m in listing}
+    demo = by_file["demo-only.mpd"]
+    assert demo["demo"] is True and demo["model_url"] == "/demo/demo-only.mpd"
+    assert demo["status"] == "ready" and demo["image_url"].startswith("/demo/demo-only.png?v=")
+    assert demo["bom_status"] == "ready" and demo["parts"] == 1
+    assert demo["info_url"].startswith("/demo/demo-only.md?v=")
+    assert "clash.mpd" not in by_file                                           # same base name in data/generated
+    mine = by_file["clash.ldr"]
+    assert mine["demo"] is False and mine["info_url"] is None                   # none of the demo's siblings either
+    assert listing.index(mine) < listing.index(demo)                            # demo models come last
+
+    (generated / "clash.md").write_text("Notes on *my* clash")
+    mine = next(m for m in client.get("/api/models").json()["models"] if m["file"] == "clash.ldr")
+    assert mine["info_url"].startswith("/files/generated/clash.md?v=")
+    info = client.get(demo["info_url"].split("?")[0])
+    assert info.status_code == 200 and info.headers["content-type"].startswith("text/markdown")
+    assert "**Prompt:** build it" in info.text
+    assert client.get(demo["model_url"]).status_code == 200
+
+    z = client.get("/api/models/zip")
+    with zipfile.ZipFile(io.BytesIO(z.content)) as zf:
+        names = set(zf.namelist())
+    assert {"demo-only.mpd", "demo-only.md", "clash.ldr", "clash.md"} <= names and "clash.mpd" not in names
 
 
 def test_chat_api_resolves_model_references(client, data_dir: Path):

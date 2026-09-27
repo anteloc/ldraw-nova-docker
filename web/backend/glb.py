@@ -16,8 +16,9 @@ from pathlib import Path
 
 import settings
 
-MPD2GLB = Path(os.environ.get("MPD2GLB", "/opt/mpd2glb/mpd2glb.mjs"))
-RUNTIME = os.environ.get("MPD2GLB_RUNTIME", "bun")      # 2-4x faster than node for mpd2glb, same output
+# scripts/mpd2glb.sh, on PATH in the image: the one way to run mpd2glb, so how
+# it runs (runtime, install location) can change without touching callers.
+MPD2GLB = os.environ.get("LEOCAD_MPD2GLB", "mpd2glb.sh")
 CACHE_DIR = Path(os.environ.get("LEOCAD_GLB_CACHE_DIR", "/tmp/glb-cache"))
 TIMEOUT_SECONDS = 900
 
@@ -54,7 +55,7 @@ async def _convert(model: Path, out: Path) -> Path:
         CACHE_DIR.mkdir(parents=True, exist_ok=True)
         partial = out.with_name(out.stem + ".partial.glb")
         proc = await asyncio.create_subprocess_exec(
-            RUNTIME, str(MPD2GLB), "-c", "none", "-l", str(settings.LDRAW_DIR), "-o", str(partial), str(model),
+            MPD2GLB, "-c", "none", "-l", str(settings.LDRAW_DIR), "-o", str(partial), str(model),
             stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.STDOUT, cwd=CACHE_DIR,
         )
         try:

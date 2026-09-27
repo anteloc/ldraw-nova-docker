@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { downloadGlb, downloadUrl, partsLabel, timeAgo, XR_TITLE, xrUrl, type ModelFile, type ViewerMode } from "../api";
 import { useApp } from "../context";
+import InfoModal from "./InfoModal";
 
 type Props = {
   model: ModelFile & { warnings?: string[]; created_at?: number };
@@ -17,6 +18,7 @@ export default function ModelCard({ model, showChats = false }: Props) {
   const extension = "." + (model.file.split(".").pop() ?? "mpd").toLowerCase();
   const bomBusy = model.bom_status === "queued" || model.bom_status === "rendering";
   const [glb, setGlb] = useState<{ busy: boolean; error?: string }>({ busy: false });
+  const [info, setInfo] = useState(false);
 
   async function saveGlb() {
     if (!model.model_url) return;
@@ -60,6 +62,11 @@ export default function ModelCard({ model, showChats = false }: Props) {
               <span className="muted">, counting parts…</span>
             ) : null}
           </span>
+          {model.demo && (
+            <span className="badge demo" title="A demo model, included with the app. A model with the same name in data/generated replaces it.">
+              Demo
+            </span>
+          )}
           {warnings.length > 0 && (
             <span className="badge warn" title={warnings.join("\n")}>
               {warnings.length} warning{warnings.length > 1 ? "s" : ""}
@@ -68,7 +75,7 @@ export default function ModelCard({ model, showChats = false }: Props) {
         </div>
         {model.description && <p className="model-description">{model.description}</p>}
         <div className="muted small ellipsis">
-          {timeAgo(model.created_at ?? model.mtime)}
+          {model.demo ? "Demo model, included with the app" : timeAgo(model.created_at ?? model.mtime)}
           {showChats && model.chats && model.chats.length > 0 && (
             <>
               {" · from "}
@@ -92,6 +99,11 @@ export default function ModelCard({ model, showChats = false }: Props) {
             <a className="button" href={xrUrl(model.model_url, model.parts)} title={XR_TITLE}>
               VR
             </a>
+          )}
+          {model.info_url && (
+            <button onClick={() => setInfo(true)} title="About this model, from its author (e.g. the prompt that made it)">
+              Info
+            </button>
           )}
           <span className="button-group" role="group" aria-label="Download">
             {model.model_url && (
@@ -129,6 +141,9 @@ export default function ModelCard({ model, showChats = false }: Props) {
           </span>
         </div>
       </div>
+      {info && model.info_url && (
+        <InfoModal title={model.description || model.file} url={model.info_url} onClose={() => setInfo(false)} />
+      )}
     </div>
   );
 }

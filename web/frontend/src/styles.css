@@ -91,6 +91,7 @@ input:focus, select:focus, textarea:focus, button:focus-visible {
 }
 .badge.ok { color: var(--ok); }
 .badge.warn { color: var(--warn); background: var(--warn-soft); border-color: transparent; }
+.badge.demo { color: var(--accent); background: var(--accent-soft); border-color: transparent; }
 .banner {
   background: var(--surface-2); border: 1px solid var(--border); border-radius: var(--radius);
   padding: 8px 12px; margin: 8px 0; color: var(--muted); white-space: pre-wrap;
@@ -279,6 +280,9 @@ input:focus, select:focus, textarea:focus, button:focus-visible {
 .modal-head { display: flex; align-items: center; gap: 14px; padding: 8px 10px 8px 16px; border-bottom: 1px solid var(--border); }
 .modal-head strong { margin-right: auto; }
 .modal iframe { flex: 1; border: 0; width: 100%; background: #f2f2f2; }
+/* A model's notes (its .md): as tall as its text, scrolling beyond. */
+.modal.info-modal { width: min(720px, 100%); height: auto; max-height: min(820px, 100%); }
+.info-body { flex: 1; min-height: 0; overflow-y: auto; padding: 16px 20px 20px; line-height: 1.55; }
 .segmented { display: inline-flex; flex: none; }
 .segmented button { border-radius: 0; padding: 3px 10px; font-size: 12.5px; }
 .segmented button:first-child { border-radius: 6px 0 0 6px; }

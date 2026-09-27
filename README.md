@@ -15,10 +15,26 @@ A single image containing:
   `leocad` as a subprocess (see `leocad_render.py`)
 - **The annotated models** from `models-annotated/`, baked into the image at
   `/opt/models-annotated/`
+- **The demo models** from `models-demo/`, baked into the image at
+  `/opt/models-demo/` and shown on the Models page
 - **[mpd2glb](https://github.com/anteloc/mpd2glb)** (pinned release, run with
-  a pinned [Bun](https://bun.com/)), which converts LDraw models to glTF `.glb` while keeping
+  a pinned [Bun](https://bun.com/) through `scripts/mpd2glb.sh`), which converts LDraw models to glTF `.glb` while keeping
   the LDraw metadata (descriptions, part files, colours, building steps) on
   every node
+- **`scripts/`**, at `/opt/scripts/` and on the `PATH` (the agents' too):
+  `mpd2glb.sh` (the way to run mpd2glb, whatever runs it underneath),
+  `ldraw-render-steps.sh` (a picture per building step, with LeoCAD) and
+  `ldraw-info.db` (SQLite: LDraw parts and models with descriptions,
+  categories, keywords, bounding boxes and colours, full-text indexes, and
+  views for jev-rerank)
+- **[uv](https://docs.astral.sh/uv/) and Python 3.14** (pinned: `python3.14`,
+  and the Python uv uses; `python3` stays Ubuntu's, which the app and the
+  agents' scripts run on), with
+  **[jev-rerank](https://github.com/anteloc/jev-rerank)** (pinned release,
+  with its locked dependencies), which ranks text files or SQLite text
+  fields against a question in plain language; it needs a `TYPESAFE_API_KEY`
+  when it runs
+- **poppler-utils** (`pdftotext`, …), **ripgrep** (`rg`) and **git**
 - **The 3D player**, ldraw-player: Rust + WebAssembly (tools/player in the
   [ldraw.rs-astra](https://github.com/anteloc/ldraw.rs-astra) fork of
   ldraw.rs), added from a pinned release zip
@@ -41,11 +57,14 @@ A single image containing:
 ├── leocad_render.py       # render_image() + a CLI — wrapper around leocad
 ├── example.py             # batch worker: makes missing snapshots + BOMs in data/generated/
 ├── models-annotated/      # baked into the image at /opt/models-annotated/
+├── models-demo/           # demo models (+ .png, .csv, .md), baked in at /opt/models-demo/
+├── scripts/               # command-line helpers, at /opt/scripts/ on the PATH (mpd2glb.sh, ...)
 ├── web/
 │   ├── backend/           # FastAPI: chat API, agent loop (LiteLLM), tools, file routes
 │   ├── frontend/          # React + Vite UI (built in a Docker build stage)
 │   ├── xr/                # mixed-reality viewer: Vite + Meta's Immersive Web SDK (own build stage)
 │   └── viewer/            # viewer.html (three.js 3D viewer), player.html (3D player)
+├── vendor/                # ldraw-player-<version>.zip (+ .sha256): the 3D player, a local build for now
 └── data/                  # mounted at /data (not baked in)
     ├── generated/         # the model collection, flat: car.mpd + car.png (snapshot) + car.csv (BOM), ...
     ├── chats/<chat>/      # one folder per chat: history, model references, renders
@@ -181,7 +200,12 @@ open http://localhost:8765                # port: LEOCAD_WEB_PORT in .env
    title line (line 2 of an `.mpd`). When you open the page, models without a
    snapshot (`.png`, rendered from LeoCAD's home view) or BOM (`.csv`, LeoCAD's
    parts list, which also gives the part count) get them; delete either to
-   have it regenerated. **Download all** zips the folder.
+   have it regenerated. After them come the **demo models** that ship with the
+   app (marked *Demo*); a model in `data/generated` with the same base name
+   replaces a demo model, with all its files. A model with a Markdown file of
+   the same base name (`atlas-crane.md` next to `atlas-crane.mpd`: the prompt
+   that made it, say) gets an **Info** button that shows it. **Download all**
+   zips all of it.
 5. **3D view / 3D player** on each card open the model in the three.js viewer
    or in the player, which plays back how it's built; the window's header
    switches between the two. **VR** opens it in mixed reality on a Meta
@@ -198,6 +222,8 @@ Where things live:
 |---|---|
 | Models | `data/generated/<name>.mpd` (chat models: `<name>-v<N>.mpd`, never overwritten) |
 | Their snapshots and BOMs | `data/generated/<name>.png`, `data/generated/<name>.csv` — same base name, same folder |
+| Notes on a model (Info) | `data/generated/<name>.md`, optional: Markdown, written by hand |
+| Demo models | `models-demo/` in the repo (`/opt/models-demo/` in the image): each with its `.png`, `.csv` and optional `.md`, all made beforehand |
 | A chat | `data/chats/<chat>/`: `chat.json` (title, model), `messages.jsonl` (history), `models.jsonl` (references to its models, e.g. `../../generated/red-car-v1.mpd`), `renders/` (extra renders shown in the chat) |
 | A chat's work folder | `data/output/<chat>/`: the agents' notes (`NOTES.md`), plans, drafts, scripts (`.scripts/`) — never served by the web app |
 | LLM settings, API keys | `/config` volume (`docker compose down -v` deletes it) |
@@ -256,12 +282,13 @@ WebGPU where the browser has it, WebGL2 otherwise.
 It's ldraw-player, `tools/player` in the
 [ldraw.rs-astra](https://github.com/anteloc/ldraw.rs-astra) fork, which
 adds it next to the ldraw.rs demo viewer (unchanged); see its README for the
-JavaScript API. The image downloads `ldraw-player-<version>.zip` from the
-fork's [GitHub releases](https://github.com/anteloc/ldraw.rs-astra/releases),
-pinned by version and SHA-256 (`LDRAW_PLAYER_VERSION`, `LDRAW_PLAYER_SHA256`
-in the Dockerfile). To update it, set both from the new release (the checksum
-is in its `ldraw-player-<version>.zip.sha256`, or `SHA256SUMS.txt`) and
-rebuild.
+JavaScript API. The image takes `ldraw-player-<version>.zip`, pinned by
+version and SHA-256 (`LDRAW_PLAYER_VERSION`, `LDRAW_PLAYER_SHA256` in the
+Dockerfile), from `vendor/` for now: a local build (`VERSION=0.8.1
+tools/player/build.sh` in the fork), because the v0.8.0 release on
+[GitHub](https://github.com/anteloc/ldraw.rs-astra/releases) doesn't start in
+any browser. Once a fixed release is published, the Dockerfile's `COPY` goes
+back to the commented `curl` line next to it.
 
 While working on the player itself, `docker-compose.dev.yml` can mount your
 local build over the baked-in one (see the commented line there).
@@ -330,12 +357,15 @@ separately and drop the ones covered by other parts.
 **mpd2glb by hand**, from a `docker compose exec leocad-app bash` shell:
 
 ```bash
-bun $MPD2GLB -c none -l /opt/ldraw/ldraw -o /data/output/cathedral.glb /data/generated/cathedral.mpd
-bun $MPD2GLB --help             # draco/meshopt compression, colour remapping, ...
+mpd2glb.sh -c none -l /opt/ldraw/ldraw -o /data/output/cathedral.glb /data/generated/cathedral.mpd
+mpd2glb.sh --help               # draco/meshopt compression, colour remapping, ...
 ```
 
-Versions are pinned as build args (`BUN_VERSION`, `MPD2GLB_VERSION`, each
-with its SHA-256); bump them and rebuild to upgrade. Bun rather than Node.js:
+Always through `scripts/mpd2glb.sh` (the web app too), so how mpd2glb runs can
+change in one place. Versions are pinned as build args (`BUN_VERSION`,
+`MPD2GLB_VERSION`, and for the other tools `UV_VERSION`, `PYTHON_VERSION`,
+`JEV_RERANK_VERSION`, `LDRAW_PLAYER_VERSION`, each download with its SHA-256);
+bump them and rebuild to upgrade. Bun rather than Node.js:
 measured on this image it converts 2.7–3.7× faster on larger models, with
 byte-identical output (Deno was no faster than Node). It's Bun's *baseline*
 x64 build, since the emulated CPU on Apple Silicon has no AVX2.

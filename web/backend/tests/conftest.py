@@ -15,7 +15,9 @@ _tmp = Path(tempfile.mkdtemp(prefix="leocad-web-tests-"))
 os.environ["LEOCAD_DATA_DIR"] = str(_tmp / "data")
 os.environ["LEOCAD_WEB_CONFIG_DIR"] = str(_tmp / "config")
 os.environ["LEOCAD_GLB_CACHE_DIR"] = str(_tmp / "glb-cache")
+os.environ["LEOCAD_DEMO_MODELS_DIR"] = str(_tmp / "models-demo")     # not the image's demo models
 (_tmp / "data" / "output").mkdir(parents=True)
+(_tmp / "models-demo").mkdir()
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))          # web/backend
 sys.path.insert(0, str(Path(__file__).resolve().parents[3]))          # repo root: leocad_render
@@ -26,3 +28,8 @@ import pytest  # noqa: E402
 @pytest.fixture
 def data_dir() -> Path:
     return _tmp / "data"
+
+
+@pytest.fixture
+def demo_dir() -> Path:
+    return _tmp / "models-demo"

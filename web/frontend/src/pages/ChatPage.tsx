@@ -1,23 +1,14 @@
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react";
-import ReactMarkdown from "react-markdown";
-import remarkGfm from "remark-gfm";
 import { useParams } from "react-router-dom";
 import { api, isPending, type ChatDetail, type ChatModel, type Message } from "../api";
 import Composer from "../components/Composer";
+import Markdown from "../components/Markdown";
 import ToolCard from "../components/ToolCard";
 import { useApp } from "../context";
 
 type RunningTool = { id: string; name: string; arguments: string };
 
 const text = (m: Message) => (typeof m.content === "string" ? m.content : "");
-
-function Markdown({ children }: { children: string }) {
-  return (
-    <div className="markdown">
-      <ReactMarkdown remarkPlugins={[remarkGfm]}>{children}</ReactMarkdown>
-    </div>
-  );
-}
 
 export default function ChatPage() {
   const { id = "" } = useParams();

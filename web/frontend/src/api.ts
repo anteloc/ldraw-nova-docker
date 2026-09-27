@@ -2,7 +2,7 @@
 
 export type SnapshotStatus = "ready" | "queued" | "rendering" | "failed" | "missing";
 
-/** A model file in data/generated. */
+/** A model file in data/generated, or one of the demo models baked into the image. */
 export type ModelFile = {
   file: string;
   name: string;
@@ -11,6 +11,8 @@ export type ModelFile = {
   image_url: string | null; // the sibling .png, once it exists
   bom_url: string | null; // the sibling .csv bill of materials, once it exists
   parts: number | null; // total parts, from the BOM
+  info_url: string | null; // the sibling .md: notes about the model (its prompt, say), if any
+  demo: boolean; // a demo model (models-demo/), unless data/generated has one of the same name
   size: number;
   mtime: number;
   status: SnapshotStatus; // of the snapshot

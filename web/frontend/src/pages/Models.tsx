@@ -49,9 +49,10 @@ export default function Models() {
         <div>
           <h1>Models</h1>
           <p className="muted">
-            Everything in <code>data/generated</code> — from chats or added by hand. Each model's snapshot (
+            Everything in <code>data/generated</code> — from chats or added by hand — then the demo models that come
+            with the app (one with the same name in <code>data/generated</code> replaces it). Each model's snapshot (
             <code>.png</code>) and bill of materials (<code>.csv</code>) sit next to it; missing ones are made with
-            LeoCAD.
+            LeoCAD. A <code>.md</code> with the same name, if any, is shown under Info.
             {pending > 0 && (
               <>
                 {" "}

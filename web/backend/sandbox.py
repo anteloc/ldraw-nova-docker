@@ -20,7 +20,11 @@ MAX_OUTPUT_CHARS = 20_000
 MAX_FILE_BYTES = 512 * 1024 * 1024
 
 # Only what renders and Python need; notably nothing from the server's env.
-PASSTHROUGH_ENV = ("DISPLAY", "LEOCAD_LIB", "LIBGL_ALWAYS_SOFTWARE", "PYTHONPATH", "LEOCAD_DATA_DIR")
+# UV_PYTHON_INSTALL_DIR: uv finds the image's Python 3.14 instead of downloading one.
+PASSTHROUGH_ENV = ("DISPLAY", "LEOCAD_LIB", "LIBGL_ALWAYS_SOFTWARE", "PYTHONPATH", "LEOCAD_DATA_DIR",
+                   "UV_PYTHON_INSTALL_DIR")
+# The repo's scripts/ (mpd2glb.sh, ...), on the agents' PATH too.
+SCRIPTS_DIR = os.environ.get("LEOCAD_SCRIPTS_DIR", "/opt/scripts")
 
 
 @dataclass
@@ -73,7 +77,7 @@ async def run(argv: list[str], cwd: Path, timeout: int) -> RunResult:
     account = _agent_account()
     home = Path(account.pw_dir) if account else cwd
     env = {
-        "PATH": "/usr/local/bin:/usr/bin:/bin",
+        "PATH": f"{SCRIPTS_DIR}:/usr/local/bin:/usr/bin:/bin",
         "HOME": str(home),
         "LANG": "C.UTF-8",
         "XDG_RUNTIME_DIR": f"/tmp/runtime-{AGENT_USER}" if account else os.environ.get("XDG_RUNTIME_DIR", "/tmp"),

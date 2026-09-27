@@ -162,33 +162,55 @@ class NewMessage(BaseModel):
 
 # --- model helpers -------------------------------------------------------------
 
+def is_demo(path: Path) -> bool:
+    """A file of the demo models baked into the image."""
+    return path.parent.resolve() == settings.DEMO_MODELS_DIR.resolve()
+
+
 def file_url(path: Path, versioned: bool = False) -> Optional[str]:
-    """/files/... URL of an existing file in a web-visible folder of /data
-    (generated/, chats/), else None. data/output is agent-only: never served.
+    """URL of an existing file the web UI may load, else None: /files/... in a
+    web-visible folder of /data (generated/, chats/), or /demo/... for the demo
+    models. data/output is agent-only: never served.
 
     `versioned` adds the file's mtime, for images that can be re-rendered under
     the same name: browsers reuse an image already on the page by URL alone."""
-    try:
-        rel = rel_to(path, settings.DATA_DIR)
-    except ValueError:
+    if is_demo(path):
+        url = "/demo/" + quote(path.name)
+    else:
+        try:
+            rel = rel_to(path, settings.DATA_DIR)
+        except ValueError:
+            return None
+        if rel.split("/", 1)[0] not in settings.WEB_DIRS:
+            return None
+        url = "/files/" + quote(rel)
+    if not path.is_file():
         return None
-    if rel.split("/", 1)[0] not in settings.WEB_DIRS or not path.is_file():
-        return None
-    url = "/files/" + quote(rel)
     return f"{url}?v={path.stat().st_mtime_ns}" if versioned else url
+
+
+def _status(path: Path, kind: str, demo: bool) -> tuple[str, Optional[str]]:
+    if not demo:
+        return gallery.status_of(path, kind)
+    # demo models come with their siblings: nothing is made for them
+    sibling = snapshot_path_for(path) if kind == "snapshot" else bom_path_for(path)
+    return ("ready", None) if sibling.exists() else ("failed", "none included with this demo model")
 
 
 def model_info(path: Path) -> dict:
     """A model file in the collection, as the UI sees it: its snapshot (status,
-    image_url), BOM (bom_status, bom_url) and part count (from the BOM)."""
+    image_url), BOM (bom_status, bom_url), part count (from the BOM), notes
+    (info_url, its .md) and whether it's one of the demo models."""
     exists = path.is_file()
-    status, error = gallery.status_of(path, "snapshot") if exists else ("missing", None)
-    bom_status, bom_error = gallery.status_of(path, "bom") if exists else ("missing", None)
+    demo = is_demo(path)
+    status, error = _status(path, "snapshot", demo) if exists else ("missing", None)
+    bom_status, bom_error = _status(path, "bom", demo) if exists else ("missing", None)
     stat = path.stat() if exists else None
     return {
         "file": path.name, "name": path.stem, "description": gallery.description_of(path) if exists else "",
         "model_url": file_url(path), "image_url": file_url(snapshot_path_for(path), versioned=True),
         "bom_url": file_url(bom_path_for(path), versioned=True), "parts": gallery.part_count(path) if exists else None,
+        "info_url": file_url(gallery.info_path_for(path), versioned=True), "demo": demo,
         "size": stat.st_size if stat else 0, "mtime": stat.st_mtime if stat else 0,
         "status": status, "error": error, "bom_status": bom_status, "bom_error": bom_error,
     }
@@ -299,23 +321,31 @@ async def chats_stream(chat_id: str):
                              headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"})
 
 
-# --- the model collection (data/generated) ---------------------------------------
+# --- the model collection (data/generated, plus the demo models) ---------------------
+
+def gallery_models() -> list[Path]:
+    """data/generated (newest first), then the demo models it doesn't override."""
+    return gallery.with_demos(gallery.collection(settings.GENERATED_DIR), settings.DEMO_MODELS_DIR)
+
 
 @app.get("/api/models")
 async def models_list():
-    """Every model in data/generated, newest first. Models without a snapshot
-    or BOM get them made in the background; poll until `pending` is 0."""
-    models = gallery.collection(settings.GENERATED_DIR)
-    gallery.ensure_artifacts(models)
+    """Every model in data/generated, newest first, then the demo models (a
+    model in data/generated overrides a demo model of the same name). Models
+    without a snapshot or BOM get them made in the background; poll until
+    `pending` is 0."""
+    models = gallery_models()
+    gallery.ensure_artifacts(m for m in models if not is_demo(m))   # demo models ship with theirs
     index = model_chat_index(get_store())
     items = [{**model_info(path), "chats": index.get(path, [])} for path in models]
     return {"models": items, "pending": sum(1 for i in items if _pending(i))}
 
 
 def model_from_url(url: str) -> Optional[Path]:
-    """The model file behind a viewer URL: /files/generated/<name> or /ref/<name>."""
+    """The model file behind a viewer URL: /files/generated/<name>, /demo/<name> or /ref/<name>."""
     path = unquote(urlsplit(url).path)
     for prefix, root, case_insensitive in (("/files/generated/", settings.GENERATED_DIR, False),
+                                           ("/demo/", settings.DEMO_MODELS_DIR, False),
                                            ("/ref/", settings.REF_MODELS_DIR, True)):
         if path.startswith(prefix):
             model = safe_join(root, path[len(prefix):], case_insensitive=case_insensitive)
@@ -329,7 +359,7 @@ def model_from_url(url: str) -> Optional[Path]:
 async def model_glb(url: str):
     """The model at `url` (as the viewer loads it) as an uncompressed .glb, made
     with mpd2glb. Can take a minute for big models; cached per model version."""
-    model = model_from_url(url) or _not_found("not a model in data/generated or the reference models")
+    model = model_from_url(url) or _not_found("not a model in data/generated, the demo models or the reference models")
     try:
         out = await glb.export_glb(model)
     except glb.GlbError as exc:
@@ -340,12 +370,19 @@ async def model_glb(url: str):
 
 @app.get("/api/models/zip")
 def models_zip():
-    """data/generated as a zip: every model with its snapshot and BOM."""
+    """Everything on the Models page as a zip: data/generated (every model with
+    its snapshot, BOM and notes), plus the demo models shown with it."""
+    demos = {m.stem for m in gallery_models() if is_demo(m)}
+    files = [p for p in sorted(settings.GENERATED_DIR.iterdir()) if p.is_file() and not p.name.startswith(".")]
+    if settings.DEMO_MODELS_DIR.is_dir():
+        files += [p for p in sorted(settings.DEMO_MODELS_DIR.iterdir()) if p.is_file() and p.stem in demos]
     tmp = tempfile.NamedTemporaryFile(suffix=".zip", delete=False)
     with zipfile.ZipFile(tmp, "w", zipfile.ZIP_DEFLATED) as zf:
-        for path in sorted(settings.GENERATED_DIR.iterdir()):
-            if path.is_file() and not path.name.startswith("."):
+        written = set()
+        for path in files:
+            if path.name not in written:
                 zf.write(path, path.name)
+                written.add(path.name)
     tmp.close()
     return FileResponse(tmp.name, filename="generated.zip", media_type="application/zip",
                         background=BackgroundTask(Path(tmp.name).unlink, missing_ok=True))
@@ -361,6 +398,8 @@ def _serve(root: Path, path: str, *, download: bool = False, case_insensitive: b
         _not_found()
     if media_type is None and file.suffix.lower() in (".dat", ".ldr", ".mpd"):
         media_type = "text/plain; charset=utf-8"
+    elif media_type is None and file.suffix.lower() == ".md":
+        media_type = "text/markdown; charset=utf-8"
     return FileResponse(file, media_type=media_type, headers={"Cache-Control": cache, **(headers or {})},
                         filename=file.name if download else None)
 
@@ -373,6 +412,12 @@ def files(path: str, download: bool = False):
     if file is None or file_url(file) is None:
         _not_found()
     return _serve(settings.DATA_DIR, path, download=download)
+
+
+@app.get("/demo/{path:path}")
+def demo_models(path: str, download: bool = False):
+    """The demo models baked into the image, with their snapshots, BOMs and notes."""
+    return _serve(settings.DEMO_MODELS_DIR, path, download=download)
 
 
 @app.get("/ref/{path:path}")
@@ -405,22 +450,35 @@ def ldraw_by_id(part_id: str):
 
 # --- viewer + SPA ------------------------------------------------------------
 
+class RevalidatedStaticFiles(StaticFiles):
+    """Static files browsers must check with us before reusing a cached copy (a
+    quick 304 while unchanged). Without Cache-Control, browsers reuse one for a
+    while without asking, so after an image rebuild a page can run the previous
+    version: e.g. an old player's .js and .wasm, whose URLs never change."""
+
+    async def get_response(self, path: str, scope):
+        response = await super().get_response(path, scope)
+        response.headers.setdefault("Cache-Control", "no-cache")
+        return response
+
+
 # Vendored viewer and player libraries (added at build time) and our own pages
 # (viewer.html, player.html) live in separate folders, so development can mount
 # web/viewer/ over the pages.
 if settings.VIEWER_VENDOR_DIR.is_dir():
-    app.mount("/viewer/vendor", StaticFiles(directory=settings.VIEWER_VENDOR_DIR), name="viewer-vendor")
+    app.mount("/viewer/vendor", RevalidatedStaticFiles(directory=settings.VIEWER_VENDOR_DIR), name="viewer-vendor")
 if settings.PLAYER_VENDOR_DIR.is_dir():
-    app.mount("/viewer/player-vendor", StaticFiles(directory=settings.PLAYER_VENDOR_DIR), name="player-vendor")
+    app.mount("/viewer/player-vendor", RevalidatedStaticFiles(directory=settings.PLAYER_VENDOR_DIR),
+              name="player-vendor")
 if settings.VIEWER_DIR.is_dir():
-    app.mount("/viewer", StaticFiles(directory=settings.VIEWER_DIR, html=True), name="viewer")
+    app.mount("/viewer", RevalidatedStaticFiles(directory=settings.VIEWER_DIR, html=True), name="viewer")
 # The mixed-reality viewer (web/xr, built in the image): /xr/?model=<url>
 if settings.XR_DIR.is_dir():
-    app.mount("/xr", StaticFiles(directory=settings.XR_DIR, html=True), name="xr")
+    app.mount("/xr", RevalidatedStaticFiles(directory=settings.XR_DIR, html=True), name="xr")
 if (settings.STATIC_DIR / "assets").is_dir():
     app.mount("/assets", StaticFiles(directory=settings.STATIC_DIR / "assets"), name="assets")
 
-RESERVED_PREFIXES = ("api/", "files/", "ref/", "ldraw/", "ldraw-id/", "viewer/", "xr/", "assets/")
+RESERVED_PREFIXES = ("api/", "files/", "demo/", "ref/", "ldraw/", "ldraw-id/", "viewer/", "xr/", "assets/")
 
 
 @app.get("/{full_path:path}", include_in_schema=False)
