@@ -253,6 +253,18 @@ input:focus, select:focus, textarea:focus, button:focus-visible {
 
 /* --- settings --- */
 .settings { max-width: 900px; }
+.environment-settings { margin-bottom: 24px; }
+.environment-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.environment-heading h2 { margin: 0; }
+.environment-rows { display: flex; flex-direction: column; gap: 12px; }
+.environment-row { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto; align-items: end; gap: 10px; }
+.environment-row label { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.environment-row label > span { font-size: 13px; font-weight: 500; }
+.environment-row input { width: 100%; min-width: 0; }
+@media (max-width: 560px) {
+  .environment-row { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+  .environment-row > button { grid-column: 2; justify-self: end; }
+}
 .llm-form { display: flex; flex-direction: column; gap: 12px; margin-bottom: 18px; }
 .llm-form label { display: flex; flex-direction: column; gap: 4px; flex: 1; }
 .llm-form label > span { font-weight: 500; font-size: 13px; }

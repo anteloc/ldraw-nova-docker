@@ -14,6 +14,10 @@ from pathlib import Path
 from typing import Any, Optional
 from urllib.parse import quote, unquote, urlsplit
 
+import environment_config
+
+environment_config.initialize()
+
 import litellm
 import yaml
 from fastapi import FastAPI, HTTPException, Request
@@ -73,6 +77,28 @@ async def same_origin_api(request: Request, call_next):
 
 def _not_found(what: str = "not found"):
     raise HTTPException(status_code=404, detail=what)
+
+
+# --- environment overrides --------------------------------------------------
+
+@app.get("/api/environment")
+def environment_get():
+    return {"variables": environment_config.public()}
+
+
+@app.put("/api/environment")
+async def environment_save(request: Request):
+    # Validate without echoing secret input values in Pydantic error responses.
+    try:
+        body = await request.json()
+    except ValueError:
+        raise HTTPException(400, "Expected environment variables as JSON") from None
+    if not isinstance(body, dict) or not isinstance(body.get("variables"), list):
+        raise HTTPException(400, "Expected a list of environment variables")
+    try:
+        return {"variables": environment_config.save(body["variables"])}
+    except ValueError as exc:
+        raise HTTPException(400, str(exc)) from None
 
 
 # --- LLM models --------------------------------------------------------------

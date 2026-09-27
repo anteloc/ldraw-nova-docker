@@ -195,6 +195,24 @@ open http://localhost:8765                # port: LDRAW_ASTRA_WEB_PORT in .env
    An eligible subscription and model entitlement
    are required; signing into the provider website alone does not connect this app.
 
+   **Settings → Environment variables.** Click **Add** for a row with a name
+   and value, then **Save environment variables**. Saved variables override
+   the backend's inherited Docker / `.env` values and become available to new
+   requests immediately. For example, save `OPENROUTER_LDRAW_ASTRA_API_KEY`
+   here and existing models using `os.environ/OPENROUTER_LDRAW_ASTRA_API_KEY`
+   automatically use the saved key. Nested parameter references work too.
+   Empty values override inherited values with empty text. Removing a row
+   restores its inherited value, or removes the variable if none existed.
+
+   Values persist privately in `/config/environment.json` (0600) and are
+   loaded before backend configuration and provider libraries at startup.
+   Saved values are hidden in the editor; select a value field to replace or
+   clear it. API responses include names and saved-value indicators only.
+   These are backend environment overrides: settings read only at startup
+   take effect on backend restart, and Docker ports and other container
+   settings remain managed by Compose. Tool subprocesses keep their restricted
+   environment, so adding API keys here does not expose them to agent scripts.
+
    For **OpenRouter**, use **Add model → OpenRouter** or select an OpenRouter
    model preset. The presets include GPT-6 Astra, Sol and Luna, GPT-5.6 Terra,
    Claude Opus 5.5 and 5, Sonnet 5, and Haiku 4.5 with their OpenRouter model
@@ -203,9 +221,10 @@ open http://localhost:8765                # port: LDRAW_ASTRA_WEB_PORT in .env
    key authentication and its own billing, separate from browser subscriptions.
 
    The OpenRouter preset uses `os.environ/OPENROUTER_LDRAW_ASTRA_API_KEY`.
-   Docker Compose passes this variable from the host shell or `.env` into the
-   backend. After changing the value, run `docker compose up -d` to recreate
-   the container with the updated environment. The key is excluded from tool
+   Set it in **Environment variables** above for immediate updates, or let
+   Docker Compose pass it from the host shell or `.env`. Changes to those
+   inherited sources require `docker compose up -d` to recreate the container;
+   a saved Settings override still takes precedence. The key is excluded from tool
    subprocesses and only its environment reference appears in model exports.
    Alternatively, paste a key in the API key field; it is stored privately in
    `/config` and masked in API responses. Leave the API base URL empty to use

@@ -22,6 +22,7 @@ from typing import Any, Optional
 
 import settings
 import model_catalog
+import environment_config
 
 SECRET_MARKERS = ("key", "secret", "token", "password", "credential")
 MASK_PREFIX = "••••"
@@ -184,16 +185,22 @@ def import_model_list(model_list: list[dict]) -> list[dict]:
 
 
 def resolve_params(entry: dict) -> dict:
-    """litellm_params with os.environ/NAME references resolved."""
-    resolved = {}
-    for k, v in entry["litellm_params"].items():
-        if isinstance(v, str) and v.startswith("os.environ/"):
-            env_name = v.split("/", 1)[1]
-            if not os.environ.get(env_name, "").strip():
-                raise ValueError(f"{k} refers to environment variable {env_name}, which is not set or is empty")
-            v = os.environ[env_name]
-        resolved[k] = v
-    return resolved
+    """Resolve references, including nested params, with saved overrides first."""
+    environment = environment_config.snapshot()
+
+    def resolve(value):
+        if isinstance(value, dict):
+            return {k: resolve(v) for k, v in value.items()}
+        if isinstance(value, list):
+            return [resolve(v) for v in value]
+        if isinstance(value, str) and value.startswith("os.environ/"):
+            name = value.split("/", 1)[1]
+            if not environment.get(name, "").strip():
+                raise ValueError(f"Environment variable {name} is not set or is empty")
+            return environment[name]
+        return value
+
+    return resolve(entry["litellm_params"])
 
 
 def capabilities(entry: dict) -> dict[str, Optional[bool]]:

@@ -58,6 +58,8 @@ export type Message = {
 export type ChatDetail = { chat: Chat; messages: Message[]; models: Record<string, ChatModel> };
 
 export type Capability = boolean | "auto";
+export type EnvironmentVariable = { id: string; name: string; has_value: boolean };
+export type EnvironmentUpdate = { id?: string; name: string; value: string | null };
 export type TurnOptions = { mode: "chat" | "plan" | "agent"; permissions: "ask" | "full" | "read_only"; effort?: string | null; context_tokens?: number | null };
 export type ModelProfile = { model: string; name: string; context_window: number | null; efforts: string[]; context_budgets: number[] };
 export type AuthStatus = { status: "starting" | "pending" | "connected" | "disconnected" | "error" | "expired"; flow?: "browser" | "device"; url?: string; code?: string; message?: string; expires_at?: number };
@@ -94,6 +96,8 @@ async function request<T>(url: string, init?: RequestInit): Promise<T> {
 const json = (body: unknown) => JSON.stringify(body);
 
 export const api = {
+  environment: () => request<{ variables: EnvironmentVariable[] }>("/api/environment"),
+  saveEnvironment: (variables: EnvironmentUpdate[]) => request<{ variables: EnvironmentVariable[] }>("/api/environment", { method: "PUT", body: json({ variables }) }),
   chats: () => request<{ chats: Chat[] }>("/api/chats"),
   createChat: (llm_model_id?: string | null) =>
     request<Chat>("/api/chats", { method: "POST", body: json({ llm_model_id }) }),

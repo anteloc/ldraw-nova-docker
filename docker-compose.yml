@@ -26,6 +26,7 @@ services:
     environment:
       # Read the host shell or .env value; never put the key in this file.
       OPENROUTER_LDRAW_ASTRA_API_KEY: ${OPENROUTER_LDRAW_ASTRA_API_KEY:-}
+      TYPESAFE_API_KEY: ${TYPESAFE_API_KEY:-}
     # Lets entries like api_base: http://host.docker.internal:11434 reach Ollama /
     # LM Studio on the host (Docker Desktop has this built in; Linux needs it).
     extra_hosts:

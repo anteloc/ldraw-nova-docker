@@ -1,6 +1,7 @@
 import { useEffect, useState, type FormEvent } from "react";
 import { api, type Capability, type LlmEntry, type ModelProfile } from "../api";
 import ProviderLogin from "../components/ProviderLogin";
+import EnvironmentSettings from "../components/EnvironmentSettings";
 import { useApp } from "../context";
 
 type CapChoice = "auto" | "yes" | "no";
@@ -162,6 +163,7 @@ export default function Settings() {
     <div className="page settings">
       <h2>Provider accounts</h2>
       <div className="provider-logins"><ProviderLogin provider="openai" /><ProviderLogin provider="anthropic" /></div>
+      <EnvironmentSettings />
       <header className="page-head">
         <div>
           <h1>Settings</h1>
@@ -231,7 +233,7 @@ export default function Settings() {
           {form.auth_mode === "api_key" && <>
           {provider === "openrouter" && <p className="muted small">
             Choose an OpenRouter model preset above, or enter <code>openrouter/vendor/model</code>.
-            The supplied environment key is selected by default; you can also paste a key below.
+            The environment key is selected by default; set it in Environment variables above or paste a key below.
             OpenRouter uses its own API key and billing. Leave the API base URL empty for the standard service.
           </p>}
           <label>
@@ -244,8 +246,8 @@ export default function Settings() {
               onChange={(e) => set({ api_key: e.target.value })}
             />
             <small className="muted">
-              Leave the masked value to keep the stored key. <code>os.environ/NAME</code> reads it from the container's
-              environment (e.g. a <code>.env</code> file next to docker-compose.yml).
+              Leave the masked value to keep the stored key. <code>os.environ/NAME</code> uses the saved Environment variables above first,
+              then the container's environment (e.g. a <code>.env</code> file next to docker-compose.yml).
             </small>
           </label>
           <div className="row">
