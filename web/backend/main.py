@@ -374,6 +374,7 @@ async def chats_get(chat_id: str):
     chat = store.get_chat(chat_id) or _not_found("no such chat")
     messages = store.messages(chat_id)
     for m in messages:
+        m.pop("_reasoning_details", None)  # opaque provider state belongs only in server-side history
         if m.get("_images"):
             m["_image_urls"] = [u for u in (file_url(store.resolve(chat_id, r), versioned=True) for r in m["_images"]) if u]
     models = chat_models(store, chat_id)

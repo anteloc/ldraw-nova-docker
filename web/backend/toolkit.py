@@ -8,6 +8,18 @@ import sandbox
 import environment_config
 
 
+# Mandatory, category-independent foundations. Supply these in full before the
+# first model call; partial tool reads were skipping design and review rules.
+# Subject-specific guides and the CLI reference remain available through tools.
+BUILDER_GUIDES = (
+    "docs/agent/ldraw-reference.md",
+    "docs/agent/geometry.md",
+    "docs/agent/visual-design.md",
+    "docs/agent/reference-discovery.md",
+    "docs/agent/validation.md",
+)
+
+
 def root() -> Path:
     path = settings.TOOLKIT_DIR
     if not (path / "instructions.md").is_file() or not (path / ".venv/bin/python").exists():
@@ -56,3 +68,8 @@ def environment() -> dict[str, str]:
 
 def instructions() -> str:
     return (root() / "instructions.md").read_text()
+
+
+def builder_guides() -> str:
+    source = root()
+    return "\n\n".join(f"--- {path} (complete) ---\n{(source / path).read_text()}" for path in BUILDER_GUIDES)

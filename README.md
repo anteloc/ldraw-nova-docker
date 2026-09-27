@@ -550,7 +550,16 @@ work without a TypeSafe key.
 The container-specific adapter is `web/backend/toolkit.py`; app tools are in
 `web/backend/tools.py`. `web/backend/prompts/system.md` adds paths, progress
 and publication instructions to the full sibling `instructions.md`, loaded
-fresh each model round. LEGO construction rules remain owned by the sibling.
+fresh each model round, followed by the complete LDraw, geometry, visual-design,
+reference-discovery and validation guides. Category guides and CLI/spec references
+are read through tools as needed. Open-ended builds start with a design brief;
+examples supply techniques and modules, with substantive design changes recorded
+before delivery. LEGO construction rules remain owned by the sibling.
+
+OpenRouter reasoning blocks are preserved across tool calls and chat reloads for
+the same model, including encrypted blocks. They are not shown as progress text
+or forwarded when switching models. Reasoning effort still follows the selected
+model configuration or provider default; the app does not force a temperature.
 
 ## The parts library
 

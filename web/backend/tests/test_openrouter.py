@@ -10,7 +10,10 @@ from fastapi.testclient import TestClient
 import inference
 import llm_config
 import model_catalog
+import agent
+import settings
 from main import app
+from store import ChatStore
 
 
 def test_openrouter_presets_and_capabilities():
@@ -62,7 +65,12 @@ def test_openrouter_key_reference_and_private_key_roundtrip(monkeypatch):
 
 
 @pytest.fixture
-def endpoint():
+def stream_deltas():
+    return []
+
+
+@pytest.fixture
+def endpoint(stream_deltas):
     requests = []
 
     class Handler(BaseHTTPRequestHandler):
@@ -74,11 +82,13 @@ def endpoint():
             requests.append((self.path, body, self.headers.get("Authorization")))
             base = {"id": "test", "created": 1, "model": body["model"]}
             if body.get("stream"):
+                deltas = stream_deltas.pop(0) if stream_deltas else [{"role": "assistant", "content": "OK"}]
                 chunks = [
                     {**base, "object": "chat.completion.chunk", "choices": [{"index": 0,
-                     "delta": {"role": "assistant", "content": "OK"}, "finish_reason": None}]},
+                     "delta": delta, "finish_reason": None}]} for delta in deltas
+                ] + [
                     {**base, "object": "chat.completion.chunk", "choices": [{"index": 0,
-                     "delta": {}, "finish_reason": "stop"}]},
+                     "delta": {}, "finish_reason": "tool_calls" if any(d.get("tool_calls") for d in deltas) else "stop"}]},
                 ]
                 payload = ("".join(f"data: {json.dumps(c)}\n\n" for c in chunks) + "data: [DONE]\n\n").encode()
                 content_type = "text/event-stream"
@@ -135,3 +145,55 @@ def test_openrouter_http_preserves_model_key_effort_tools_and_images(endpoint, m
     assert body["provider"] == {"require_parameters": True}
     assert body["messages"][0]["content"][1]["image_url"]["url"] == image
     assert body["tools"][0]["function"]["name"] == "list_files"
+
+
+def test_agent_roundtrips_streamed_reasoning_through_tools_storage_and_http(endpoint, stream_deltas):
+    base, requests = endpoint
+    model = "openrouter/openai/gpt-6-sol"
+    details = [
+        {"type": "reasoning.summary", "summary": "Synthetic test summary.", "id": "rs_test", "index": 0,
+         "format": "openai-responses-v1"},
+        {"type": "reasoning.encrypted", "data": "opaque-test-block-a", "id": "rs_test", "index": 0,
+         "format": "openai-responses-v1"},
+        {"type": "reasoning.encrypted", "data": "opaque-test-block-b", "id": "rs_next", "index": 1,
+         "format": "openai-responses-v1"},
+    ]
+    stream_deltas.append([
+        {"role": "assistant", "reasoning": "Synthetic plain reasoning.", "reasoning_details": details[:1]},
+        {"reasoning_details": details[1:]},
+        {"tool_calls": [{"index": 0, "id": "call_test", "type": "function", "function": {
+            "name": "report_progress", "arguments": json.dumps({"summary": "Designing the model."})}}]},
+    ])
+    entry = {"auth_mode": "api_key", "litellm_params": {
+        "model": model, "api_key": "private-test-key", "api_base": base}}
+    store = ChatStore(settings.CHATS_DIR, settings.OUTPUT_DIR)
+    chat_id = store.create_chat()["id"]
+    store.add_message(chat_id, {"role": "user", "content": "Build me a car"})
+    run = agent.Run(chat_id, options={"mode": "agent", "permissions": "full"})
+    events = []
+    run.emit = lambda event, data: events.append((event, data))
+
+    asyncio.run(agent._run_turn(store, run, entry))
+
+    assert len(requests) == 2, store.messages(chat_id)[-1]
+    continued = next(m for m in requests[1][1]["messages"] if m["role"] == "assistant")
+    assert continued["reasoning_details"] == details
+    assert continued["tool_calls"][0]["id"] == "call_test"
+    assert any(m["role"] == "tool" and m["tool_call_id"] == "call_test" for m in requests[1][1]["messages"])
+    assert not any(k.startswith("_") for k in continued)
+    stored = ChatStore(settings.CHATS_DIR, settings.OUTPUT_DIR).messages(chat_id)
+    assert stored[1]["_reasoning_details"] == details
+    assert stored[-1]["content"] == "OK"
+    assert "opaque-test" not in json.dumps(events)
+    assert "opaque-test" not in TestClient(app).get(f"/api/chats/{chat_id}").text
+    assert agent.llm_history(stored, False, lambda _: None, model)[1]["reasoning_details"] == details
+    for other in ("openrouter/openai/gpt-6-astra", "openai/gpt-6-sol", "anthropic/claude-opus-5.5"):
+        assert "reasoning_details" not in agent.llm_history(stored, False, lambda _: None, other)[1]
+
+
+def test_old_openrouter_history_preserves_plain_reasoning_only_for_same_model():
+    model = "openrouter/openai/gpt-6-sol"
+    stored = [{"role": "assistant", "content": "Working.", "_llm_model": model,
+               "_reasoning": "Synthetic legacy reasoning."}]
+    assert agent.llm_history(stored, False, lambda _: None, model)[0]["reasoning_content"] == stored[0]["_reasoning"]
+    assert "reasoning_content" not in agent.llm_history(stored, False, lambda _: None, "openai/gpt-6-sol")[0]

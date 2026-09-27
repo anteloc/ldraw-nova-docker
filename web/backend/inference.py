@@ -8,6 +8,29 @@ import browser_auth
 import llm_config
 
 
+def preserve_openrouter_reasoning_chunks(stream, model: str) -> None:
+    """Work around LiteLLM 1.102.1 dropping reasoning-details-only chunks.
+
+    Its generic stream wrapper doesn't count this OpenRouter field as content.
+    Extend the predicate on this request only, without changing the payload,
+    synthesizing text, or patching other providers. Covered by an HTTP wire test.
+    """
+    from litellm.litellm_core_utils.streaming_handler import CustomStreamWrapper
+
+    if not model.startswith("openrouter/") or not isinstance(stream, CustomStreamWrapper):
+        return
+    original = stream.is_chunk_non_empty
+
+    def has_content(completion_obj, model_response, response_obj):
+        upstream = response_obj.get("original_chunk")
+        if any(getattr(getattr(c, "delta", None), "reasoning_details", None)
+               for c in getattr(upstream, "choices", [])):
+            return True
+        return original(completion_obj, model_response, response_obj)
+
+    stream.is_chunk_non_empty = has_content
+
+
 async def params_for(entry: dict, options: dict) -> dict:
     params = llm_config.resolve_params(entry)
     model = params["model"]

@@ -116,7 +116,8 @@ def system_prompt(store: ChatStore, chat_id: str) -> str:
                 .replace("{generated_dir}", str(settings.GENERATED_DIR))
                 .replace("{ldraw_dir}", str(settings.LDRAW_DIR))
                 .replace("{artifact_base}", f"/api/chats/{chat_id}/artifacts")
-                .replace("{toolkit_instructions}", toolkit.instructions()))
+                .replace("{toolkit_instructions}", toolkit.instructions())
+                .replace("{toolkit_guides}", toolkit.builder_guides()))
     notes = work_dir / "NOTES.md"
     if notes.is_file() and not notes.is_symlink():
         with notes.open(errors="replace") as handle:
@@ -171,6 +172,16 @@ def llm_history(messages: list[dict], vision: bool, resolve: Callable[[str], Pat
         if model and m.get("_llm_model") != model:
             clean.pop("thinking_blocks", None)  # Claude signatures are model-bound
             clean.pop("provider_specific_fields", None)
+            clean.pop("reasoning_details", None)
+            clean.pop("reasoning_content", None)
+        if model and model.startswith("openrouter/") and m.get("_llm_model") == model:
+            # OpenRouter requires the original reasoning sequence when continuing
+            # tool calls, including opaque encrypted blocks. Keep it out of the UI
+            # and never forward it to a different model/provider.
+            if m.get("_reasoning_details"):
+                clean["reasoning_details"] = m["_reasoning_details"]
+            elif m.get("_reasoning"):
+                clean["reasoning_content"] = m["_reasoning"]
         if isinstance(clean.get("content"), list) and not vision:
             clean["content"] = "\n".join(b["text"] for b in clean["content"] if b.get("type") == "text")
         if mark_turns and m["role"] == "user":
@@ -285,6 +296,7 @@ async def _run_turn(store: ChatStore, run: Run, entry: dict) -> None:
             kwargs = {"tools": available_tools(run.options)} if use_tools else {}
             run.emit("progress", {"summary": "Agent is reviewing the request and choosing the next step."})
             stream = await litellm.acompletion(**params, messages=messages, stream=True, num_retries=2, **kwargs)
+            inference.preserve_openrouter_reasoning_chunks(stream, params["model"])
 
             run.draft = ""
             chunks = []
@@ -313,6 +325,14 @@ async def _run_turn(store: ChatStore, run: Run, entry: dict) -> None:
                 message["provider_specific_fields"] = reply.provider_specific_fields
             if getattr(reply, "reasoning_content", None):
                 message["_reasoning"] = reply.reasoning_content
+            if message["_llm_model"].startswith("openrouter/"):
+                # LiteLLM 1.102.1 retains delta.reasoning_details but loses them
+                # in stream_chunk_builder. OpenRouter specifies concatenation in
+                # received order; do not merge/reorder blocks by id or index.
+                details = [detail for chunk in chunks if chunk.choices
+                           for detail in (getattr(chunk.choices[0].delta, "reasoning_details", None) or [])]
+                if details:
+                    message["_reasoning_details"] = details
             if not message["content"] and not tool_calls:
                 break                                              # nothing to save or do
             save(message)
