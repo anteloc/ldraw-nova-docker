@@ -18,7 +18,7 @@ export default function Sidebar() {
     <aside className="sidebar">
       <div className="brand">
         <span className="brand-mark" aria-hidden />
-        LeoCAD Agent
+        LDraw Astra
       </div>
       <button className="new-chat" onClick={() => navigate("/")}>
         + New chat

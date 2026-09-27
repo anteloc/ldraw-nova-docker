@@ -8,7 +8,7 @@
 # Only directories are mounted: Docker Desktop keeps serving a stale copy of a
 # single-file mount once an editor replaces that file.
 services:
-  leocad-app:
+  ldraw-astra-app:
     volumes:
       - .:/app                          # leocad_render.py, example.py, web/backend
       - ./web/viewer:/opt/web/viewer    # viewer.html, player.html

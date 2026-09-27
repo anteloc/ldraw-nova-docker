@@ -27,19 +27,19 @@ WEB_DIRS = ("generated", "chats")
 
 # LLM entries + API keys. A named volume, deliberately NOT under /data: agent
 # code runs as another user and could otherwise read them.
-CONFIG_DIR = Path(os.environ.get("LEOCAD_WEB_CONFIG_DIR", "/config"))
+CONFIG_DIR = Path(os.environ.get("LDRAW_ASTRA_WEB_CONFIG_DIR", "/config"))
 
 # Baked into the image.
 LDRAW_DIR = Path(os.environ.get("LEOCAD_LIB", "/opt/ldraw/ldraw"))
-REF_MODELS_DIR = Path(os.environ.get("LEOCAD_REF_MODELS_DIR", "/opt/models-annotated"))
+REF_MODELS_DIR = Path(os.environ.get("LDRAW_ASTRA_REF_MODELS_DIR", "/opt/models-annotated"))
 # Demo models (models-demo/ in the repo), shown with the collection. Each ships
 # with its snapshot (.png) and BOM (.csv): nothing is made or written there.
-DEMO_MODELS_DIR = Path(os.environ.get("LEOCAD_DEMO_MODELS_DIR", "/opt/models-demo"))
-INDEX_DIR = Path(os.environ.get("LEOCAD_INDEX_DIR", "/opt/index"))
-STATIC_DIR = Path(os.environ.get("LEOCAD_WEB_STATIC_DIR", "/opt/web/static"))
-VIEWER_DIR = Path(os.environ.get("LEOCAD_WEB_VIEWER_DIR", "/opt/web/viewer"))                   # viewer.html
-VIEWER_VENDOR_DIR = Path(os.environ.get("LEOCAD_WEB_VIEWER_VENDOR_DIR", "/opt/web/viewer-vendor"))  # ldbi etc.
-PLAYER_VENDOR_DIR = Path(os.environ.get("LEOCAD_WEB_PLAYER_VENDOR_DIR", "/opt/web/player-vendor"))  # ldraw-player
-XR_DIR = Path(os.environ.get("LEOCAD_WEB_XR_DIR", "/opt/web/xr"))                                # web/xr build
+DEMO_MODELS_DIR = Path(os.environ.get("LDRAW_ASTRA_DEMO_MODELS_DIR", "/opt/models-demo"))
+INDEX_DIR = Path(os.environ.get("LDRAW_ASTRA_INDEX_DIR", "/opt/index"))
+STATIC_DIR = Path(os.environ.get("LDRAW_ASTRA_WEB_STATIC_DIR", "/opt/web/static"))
+VIEWER_DIR = Path(os.environ.get("LDRAW_ASTRA_WEB_VIEWER_DIR", "/opt/web/viewer"))                   # viewer.html
+VIEWER_VENDOR_DIR = Path(os.environ.get("LDRAW_ASTRA_WEB_VIEWER_VENDOR_DIR", "/opt/web/viewer-vendor"))  # ldbi etc.
+PLAYER_VENDOR_DIR = Path(os.environ.get("LDRAW_ASTRA_WEB_PLAYER_VENDOR_DIR", "/opt/web/player-vendor"))  # ldraw-player
+XR_DIR = Path(os.environ.get("LDRAW_ASTRA_WEB_XR_DIR", "/opt/web/xr"))                                # web/xr build
 
 PROMPTS_DIR = Path(__file__).parent / "prompts"

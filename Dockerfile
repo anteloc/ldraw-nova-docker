@@ -1,5 +1,5 @@
 # check=skip=FromPlatformFlagConstDisallowed
-# LeoCAD (pinned released AppImage) + Python + full LDraw parts library,
+# ldraw-astra-docker: LeoCAD (pinned released AppImage) + Python + full LDraw parts library,
 # plus a web app (chat with LLM agents that build and render LDraw models).
 #
 # No compiling: downloads an official, tagged LeoCAD-Linux-*.AppImage release
@@ -8,10 +8,10 @@
 #
 # Build and run (see docker-compose.yml / README.md):
 #   docker compose up -d --build        # web app on http://localhost:8765
-#   docker compose exec leocad-app bash # log in
+#   docker compose exec ldraw-astra-app bash # log in
 #
 # Pin versions explicitly:
-#   docker build --build-arg LEOCAD_TAG=v25.09 -t leocad-app .
+#   docker build --build-arg LEOCAD_TAG=v25.09 -t ldraw-astra-app .
 
 # --- Stage 1: the web UI (React + Vite) --------------------------------------
 # Runs on the build host's own architecture (fast, no emulation); its output is

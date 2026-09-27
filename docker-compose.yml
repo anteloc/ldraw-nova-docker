@@ -1,17 +1,19 @@
+name: ldraw-astra-docker
+
 services:
-  leocad-app:
+  ldraw-astra-app:
     build: .
-    image: leocad-app
+    image: ldraw-astra-app
     platform: linux/amd64  # LeoCAD ships x86_64-only AppImages (emulated on Apple Silicon)
-    container_name: leocad-app
+    container_name: ldraw-astra-app
     init: true            # proper signal handling / zombie reaping (Xvfb + your process)
     # The web app is available on localhost and the host's LAN IP at this port
-    # (change with LEOCAD_WEB_PORT in .env). It has no login, so restrict access
+    # (change with LDRAW_ASTRA_WEB_PORT in .env). It has no login, so restrict access
     # with your host firewall on untrusted networks.
     ports:
-      - "${LEOCAD_WEB_PORT:-8765}:8000"
+      - "${LDRAW_ASTRA_WEB_PORT:-8765}:8000"
       # HTTPS (self-signed), for headsets: WebXR needs HTTPS or localhost.
-      - "${LEOCAD_WEB_HTTPS_PORT:-8443}:8443"
+      - "${LDRAW_ASTRA_WEB_HTTPS_PORT:-8443}:8443"
     volumes:
       - ./data:/data       # host ./data <-> container /data (input: everything under it, output: output/)
       - config:/config     # LLM settings + API keys; kept out of ./data on purpose
@@ -26,7 +28,7 @@ services:
     # The container's main process is the web server, so it stays up and you can
     # log in any time:
     #   docker compose up -d --build
-    #   docker compose exec leocad-app bash
+    #   docker compose exec ldraw-astra-app bash
     # Then, inside:
     #   python3 /app/leocad_render.py /opt/models-annotated/8303-1.mpd
     #   python3 /app/example.py
@@ -34,3 +36,5 @@ services:
 
 volumes:
   config:
+    # Created as leocad-docker_config before the rename: keeps LLM settings and API keys.
+    name: leocad-docker_config

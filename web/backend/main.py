@@ -44,7 +44,7 @@ async def lifespan(_app: FastAPI):
     yield
 
 
-app = FastAPI(title="LeoCAD agent chat", lifespan=lifespan)
+app = FastAPI(title="LDraw Astra agent chat", lifespan=lifespan)
 
 
 def _not_found(what: str = "not found"):

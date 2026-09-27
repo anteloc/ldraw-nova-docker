@@ -1,4 +1,4 @@
-# LeoCAD + Python in one container (headless LDraw rendering)
+# LDraw Astra + Python in one container (headless LDraw rendering)
 
 A single image containing:
 - **A web app** on http://localhost:8765: chat with LLM agents (Claude,
@@ -101,10 +101,10 @@ A single image containing:
 ## Build
 
 ```bash
-docker build -t leocad-app .
+docker build -t ldraw-astra-app .
 # pin a specific stable release explicitly (check
 # https://github.com/leozide/leocad/releases for available tags):
-docker build --build-arg LEOCAD_TAG=v25.09 -t leocad-app .
+docker build --build-arg LEOCAD_TAG=v25.09 -t ldraw-astra-app .
 ```
 
 The build script resolves the AppImage's exact asset URL from the GitHub API
@@ -124,7 +124,7 @@ emulation. It works, but renders are slower than on a native x86_64 host.
 
 ```bash
 docker compose up -d --build              # start it (the web server keeps it up)
-docker compose exec leocad-app bash       # log in — repeat as often as you like
+docker compose exec ldraw-astra-app bash       # log in — repeat as often as you like
 ```
 
 Inside the container:
@@ -150,9 +150,9 @@ docker compose down
 ### One-off runs
 
 ```bash
-docker run --rm -it --init -v "$PWD/data:/data" leocad-app bash
-docker run --rm --init -v "$PWD/data:/data" leocad-app python3 /app/example.py
-docker compose run --rm leocad-app python3 /app/example.py
+docker run --rm -it --init -v "$PWD/data:/data" ldraw-astra-app bash
+docker run --rm --init -v "$PWD/data:/data" ldraw-astra-app python3 /app/example.py
+docker compose run --rm ldraw-astra-app python3 /app/example.py
 ```
 
 `example.py` makes, for every model in `data/generated`, whatever is missing
@@ -167,7 +167,7 @@ zombies and forward signals correctly.
 Raw `leocad` calls still work directly (no `--libpath` needed — see below):
 
 ```bash
-docker run --rm --init -v "$PWD/data:/data" leocad-app \
+docker run --rm --init -v "$PWD/data:/data" ldraw-astra-app \
     leocad /data/car.ldr -i /data/output/car.png -w 1280 -h 720 --camera-angles 30 40
 ```
 
@@ -175,7 +175,7 @@ docker run --rm --init -v "$PWD/data:/data" leocad-app \
 
 ```bash
 docker compose up -d --build
-open http://localhost:8765                # port: LEOCAD_WEB_PORT in .env
+open http://localhost:8765                # port: LDRAW_ASTRA_WEB_PORT in .env
 ```
 
 1. **Settings → Add model.** Pick a preset or type any LiteLLM model string
@@ -305,7 +305,7 @@ or `localhost`. A plain `http://<your computer's IP>:8765` page loads, but
 Two ways:
 
 * **HTTPS over Wi-Fi:** open `https://<your computer's IP>:8443` in the Quest
-  browser (the app's HTTPS port, `LEOCAD_WEB_HTTPS_PORT`). The certificate is
+  browser (the app's HTTPS port, `LDRAW_ASTRA_WEB_HTTPS_PORT`). The certificate is
   self-signed, made once and kept in the `config` volume: the first time, the
   browser warns, choose Advanced → Proceed. This needs the ports reachable
   from the network, which also exposes the app (it has no login) to
@@ -354,7 +354,7 @@ Studs are about 80% of the triangles (the cathedral: 2.39M, 0.47M without);
 if a large model doesn't hold its frame rate, the next step is to draw studs
 separately and drop the ones covered by other parts.
 
-**mpd2glb by hand**, from a `docker compose exec leocad-app bash` shell:
+**mpd2glb by hand**, from a `docker compose exec ldraw-astra-app bash` shell:
 
 ```bash
 mpd2glb.sh -c none -l /opt/ldraw/ldraw -o /data/output/cathedral.glb /data/generated/cathedral.mpd
@@ -391,7 +391,7 @@ cd web/xr && npm install && npm run dev      # mixed-reality viewer: /xr/?model=
 cd web/xr && npm test                        # its batching tests
 
 # backend tests (inside the container: they use LeoCAD and the real library)
-docker compose exec leocad-app bash -c \
+docker compose exec ldraw-astra-app bash -c \
   "pip install -q --break-system-packages -r /app/web/backend/requirements-dev.txt && cd /app/web/backend && pytest -q"
 ```
 
@@ -451,7 +451,7 @@ them.
 | `-ss, --stud-style <0-7>` | Stud rendering style |
 | `-f, --from <step>` / `-t, --to <step>` | Render a range of build steps |
 
-Full reference: `docker run --rm leocad-app leocad --help`, or
+Full reference: `docker run --rm ldraw-astra-app leocad --help`, or
 https://www.leocad.org/docs/cli.html
 
 ## Notes

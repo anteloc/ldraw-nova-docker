@@ -49,7 +49,7 @@ async function installEmulator() {
   (window as unknown as { xrDevice: unknown }).xrDevice = device; // tests drive it
 }
 
-/** HTTPS port of the app (docker-compose.yml: LEOCAD_WEB_HTTPS_PORT). */
+/** HTTPS port of the app (docker-compose.yml: LDRAW_ASTRA_WEB_HTTPS_PORT). */
 const HTTPS_PORT = 8443;
 
 /** The session mode to offer, or why none can be. */
