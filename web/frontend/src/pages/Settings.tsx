@@ -1,5 +1,6 @@
 import { useEffect, useState, type FormEvent } from "react";
-import { api, type Capability, type LlmEntry } from "../api";
+import { api, type Capability, type LlmEntry, type ModelProfile } from "../api";
+import ProviderLogin from "../components/ProviderLogin";
 import { useApp } from "../context";
 
 type CapChoice = "auto" | "yes" | "no";
@@ -13,12 +14,13 @@ type Form = {
   extra: { key: string; value: string }[];
   tools: CapChoice;
   vision: CapChoice;
+  auth_mode: "browser" | "api_key";
 };
 
 const BASIC = ["model", "api_key", "api_base", "api_version"];
 
 const EMPTY: Form = {
-  model_name: "", model: "", api_key: "", api_base: "", api_version: "", extra: [], tools: "auto", vision: "auto",
+  model_name: "", model: "", api_key: "", api_base: "", api_version: "", extra: [], tools: "auto", vision: "auto", auth_mode: "api_key",
 };
 
 // Starting points only: any LiteLLM model string works (https://docs.litellm.ai/docs/providers).
@@ -55,6 +57,7 @@ function toForm(e: LlmEntry): Form {
       .map(([key, v]) => ({ key, value: typeof v === "string" ? v : JSON.stringify(v) })),
     tools: toChoice(e.capabilities.tools),
     vision: toChoice(e.capabilities.vision),
+    auth_mode: e.auth_mode ?? "api_key",
   };
 }
 
@@ -76,6 +79,7 @@ function fromForm(f: Form): Partial<LlmEntry> {
     model_name: f.model_name.trim() || f.model.trim(),
     litellm_params: params,
     capabilities: { tools: fromChoice(f.tools), vision: fromChoice(f.vision) },
+    auth_mode: f.auth_mode,
   };
 }
 
@@ -99,9 +103,11 @@ export default function Settings() {
   const [error, setError] = useState<string | null>(null);
   const [yaml, setYaml] = useState("");
   const [importMsg, setImportMsg] = useState<string | null>(null);
+  const [catalog, setCatalog] = useState<ModelProfile[]>([]);
 
   useEffect(() => {
     api.providers().then((r) => setProviders(r.providers)).catch(() => {});
+    api.catalog().then(r => setCatalog(r.models)).catch(e => setError(e.message));
   }, []);
 
   const provider = form?.model.includes("/") ? form.model.split("/")[0] : "";
@@ -153,6 +159,8 @@ export default function Settings() {
 
   return (
     <div className="page settings">
+      <h2>Provider accounts</h2>
+      <div className="provider-logins"><ProviderLogin provider="openai" /><ProviderLogin provider="anthropic" /></div>
       <header className="page-head">
         <div>
           <h1>Settings</h1>
@@ -171,6 +179,10 @@ export default function Settings() {
       {form && (
         <form className="panel llm-form" onSubmit={save}>
           <h3>{form.id ? "Edit model" : "Add model"}</h3>
+          <label><span>Model presets</span><select value="" onChange={e => {
+            const preset = catalog.find(m => m.model === e.target.value);
+            if (preset) set({ model: preset.model, model_name: preset.name, auth_mode: "browser", extra: [], tools: "auto", vision: "auto" });
+          }}><option value="">Choose a model…</option>{catalog.map(m => <option key={m.model} value={m.model}>{m.name}</option>)}</select></label>
           {!form.id && (
             <div className="presets">
               {PRESETS.map((p) => (
@@ -187,7 +199,7 @@ export default function Settings() {
               list="model-suggestions"
               placeholder="provider/model, e.g. anthropic/claude-sonnet-5"
               value={form.model}
-              onChange={(e) => set({ model: e.target.value })}
+              onChange={(e) => set({ model: e.target.value, ...(!["openai", "anthropic", "chatgpt"].includes(e.target.value.split("/")[0]) ? { auth_mode: "api_key" as const } : {}) })}
             />
             <datalist id="model-suggestions">
               {suggestions.slice(0, 300).map((m) => (
@@ -205,6 +217,12 @@ export default function Settings() {
             <span>Display name</span>
             <input value={form.model_name} placeholder="Shown in the model picker" onChange={(e) => set({ model_name: e.target.value })} />
           </label>
+          <label><span>Authentication</span><select value={form.auth_mode} onChange={e => set({ auth_mode: e.target.value as Form["auth_mode"] })}>
+            {["openai", "anthropic", "chatgpt"].includes(provider) && <option value="browser">Browser login</option>}
+            <option value="api_key">API key</option>
+          </select></label>
+          {form.auth_mode === "browser" && <p className="muted small">Uses the provider account connected above.</p>}
+          {form.auth_mode === "api_key" && <>
           <label>
             <span>API key</span>
             <input
@@ -256,6 +274,7 @@ export default function Settings() {
               + Parameter
             </button>
           </fieldset>
+          </>}
           <div className="row">
             <label>
               <span>Tool calling</span>
@@ -296,6 +315,7 @@ export default function Settings() {
                 <div className="llm-title">
                   <strong>{m.model_name}</strong>
                   {m.id === defaultLlmId && <span className="badge">default</span>}
+                  <span className="badge">{m.auth_mode === "browser" ? "browser login" : "API key"}</span>
                   <CapBadge label="tools" value={m.resolved_capabilities.tools} />
                   <CapBadge label="images" value={m.resolved_capabilities.vision} />
                 </div>

@@ -46,4 +46,8 @@ if [ -s "${TLS_DIR}/cert.pem" ] && command -v socat >/dev/null; then
         TCP:127.0.0.1:8000 &
 fi
 
+# OpenAI's login runtime listens on container loopback. Relay the browser's
+# localhost:1455 callback through a separate container port. No URL logging.
+socat TCP-LISTEN:1456,bind=0.0.0.0,fork,reuseaddr TCP:127.0.0.1:1455 &
+
 exec "$@"

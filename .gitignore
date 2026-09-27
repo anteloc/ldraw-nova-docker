@@ -3,3 +3,6 @@ node_modules/
 dist/
 npm-debug.log
 .vscode/
+__pycache__/
+*.py[cod]
+.pytest_cache/

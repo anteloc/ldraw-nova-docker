@@ -175,11 +175,32 @@ docker compose up -d --build
 open http://localhost:8765                # port: LDRAW_ASTRA_WEB_PORT in .env
 ```
 
-1. **Settings → Add model.** Pick a preset or type any LiteLLM model string
+1. **Settings → Provider accounts.** Click **Sign in with ChatGPT** or
+   **Sign in with Claude**. Complete the provider's login in your browser.
+   ChatGPT uses browser authorization and returns automatically through
+   `http://localhost:1455`; complete this on the computer running Docker.
+   No device code, account security change, or terminal command is required
+   for this default flow. The callback is bound only to host loopback; Docker
+   relays it to the official OpenAI runtime's internal callback listener.
+   Keep host port 1455 free while running this compose stack. Claude may
+   display an authorization code: paste that into the app's **Complete login**
+   form (the container cannot receive your browser's localhost callback).
+   Settings polls until the provider confirms the login; you can cancel,
+   retry, or disconnect. For a browser on a different machine, expand
+   **Signing in from another computer?** and use the optional device flow.
+   That fallback requires enabling device code sign-in in ChatGPT Security
+   Settings first. Start it again in this app afterwards; you do not need
+   to run the terminal command mentioned on OpenAI's device page.
+   An eligible subscription and model entitlement
+   are required; signing into the provider website alone does not connect this app.
+
+   **Settings → Add model.** Choose a model preset and **Browser login**, or
+   choose **API key** and enter your provider key. You can also type any LiteLLM model string
    (`anthropic/claude-sonnet-5`, `openai/<model>`, `gemini/<model>`,
    `ollama_chat/<model>` with API base `http://host.docker.internal:11434`,
    any OpenAI-compatible server, …), an API key, and optionally extra LiteLLM
-   parameters. **Test** sends a one-word request. Keys can also stay out of
+   parameters. **Test** sends a small request (Claude browser entries check login
+   readiness; send a chat to test model access). Keys can also stay out of
    the UI: put `ANTHROPIC_API_KEY=...` in a `.env` file next to
    `docker-compose.yml` and enter `os.environ/ANTHROPIC_API_KEY` as the key.
    Existing LiteLLM proxy `model_list` YAML can be imported.
@@ -189,6 +210,19 @@ open http://localhost:8765                # port: LDRAW_ASTRA_WEB_PORT in .env
    if the model accepts images — looks at the snapshot to fix problems. It can
    also run Python or shell in its work folder (e.g. to generate a model with
    a script); anything it writes into `data/generated` is published too.
+   The composer offers **Agent**, **Plan** (read-only inspection), and **Chat**
+   (no tools). **Ask before changes** is the default: approve or deny each write,
+   render, or command in the chat. **Full access (container)** skips those prompts
+   while retaining the unprivileged tool runner; it does not grant host/root access.
+   **Read only** blocks all mutating tools. Approvals expire after ten minutes;
+   Stop cancels pending approvals and running work. Reloading restores pending
+   approval cards while the backend remains running.
+
+   Effort choices follow the selected model's documented capabilities. Context
+   budget limits the history sent on a turn, preserving complete tool exchanges
+   and the latest user turn; older turns may be omitted, but saved history stays
+   intact. It does not enlarge the provider's context window. Attach up to four
+   PNG/JPEG/WebP images (5 MB each, 12 MB total) for models with vision.
 3. **Snapshots** appear in the chat. Click one for the 3D viewer, or download
    the model (`.mpd`), a glTF version of it (`.glb`) or its bill of materials
    (**BOM**). The sidebar keeps the chat history with thumbnails.
@@ -223,7 +257,7 @@ Where things live:
 | Demo models | `models-demo/` in the repo (`/opt/models-demo/` in the image): each with its `.png`, `.csv` and optional `.md`, all made beforehand |
 | A chat | `data/chats/<chat>/`: `chat.json` (title, model), `messages.jsonl` (history), `models.jsonl` (references to its models, e.g. `../../generated/red-car-v1.mpd`), `renders/` (extra renders shown in the chat) |
 | A chat's work folder | `data/output/<chat>/`: the agents' notes (`NOTES.md`), plans, drafts, scripts (`.scripts/`) — never served by the web app |
-| LLM settings, API keys | `/config` volume (`docker compose down -v` deletes it) |
+| LLM settings, API keys, browser sessions | `/config` volume (`docker compose down -v` deletes it); tokens under `/config/browser/{openai,anthropic}` |
 
 **Switching models mid-chat.** Pick another model in the composer at any
 time. The whole history is in the chat folder, and the agent keeps its plan
@@ -231,6 +265,40 @@ and progress in `NOTES.md` in the chat's work folder; every turn's system
 prompt lists that folder, so the next model picks up where the last one left
 off. Deleting a chat removes its chat and work folders; its models stay in
 `data/generated`.
+
+**Provider adapters and model availability.** API-key inference uses LiteLLM.
+ChatGPT browser authorization uses the pinned official
+[OpenAI app-server login protocol](https://learn.chatgpt.com/docs/app-server).
+It owns OAuth state and PKCE verification; its session is then imported into
+LiteLLM's protected cache. The temporary OpenAI credential file is removed so
+only LiteLLM refreshes the session. ChatGPT inference uses LiteLLM's
+[subscription provider](https://docs.litellm.ai/docs/providers/chatgpt), including
+token refresh. GPT-6 API calls are explicitly bridged to Responses for function
+calling. Claude browser sessions use the pinned official
+[Claude Agent SDK](https://code.claude.com/docs/en/agent-sdk/python) and its bundled
+Claude Code login. That adapter reconstructs the shared conversation each turn
+and exposes only this app's tools through an in-process MCP server. Both adapters
+use the same permission gate and container tool runner. This MVP does not expose
+the complete Codex/Claude Code plugin or agent ecosystem.
+
+Presets verified on 2026-09-27 include GPT-6 Astra, Sol and Luna, GPT-5.6 Terra,
+Claude Opus 5.5 and 5, Sonnet 5, and Haiku 4.5. The
+[OpenAI catalog](https://developers.openai.com/api/docs/guides/latest-model) has
+no GPT-6 Terra, and the
+[Claude catalog](https://platform.claude.com/docs/en/models/overview) still lists
+Haiku 4.5 as the released Haiku. Future IDs can be entered manually; unknown
+models do not receive guessed effort/context controls. Update `model_catalog.py`
+as capabilities become documented. Presets describe capabilities, not a guarantee
+that your account can access a model.
+
+The app remains a single-user service on the configured host/LAN ports. Its
+provider connections are shared by everyone who can reach it. Restrict access
+to trusted users; browser cross-origin API requests are rejected. OAuth tokens
+and API keys remain in the root-only config volume, outside tool workspaces;
+disconnecting ChatGPT deletes the local session (revoke account-wide access in
+the provider's account settings if needed). Login subprocesses expire after
+15 minutes and are stopped on server shutdown. Backend restart ends active turns
+and pending approvals; the conversation history remains available.
 
 **The 3D viewer** is `/viewer/viewer.html?model=<url>` — e.g.
 http://localhost:8765/viewer/viewer.html?model=/demo/copper-bean.mpd for a

@@ -90,7 +90,7 @@ def test_turn_runs_tool_saves_renders_and_answers(monkeypatch, entry, store: Cha
     (store.work_dir(chat["id"]) / "NOTES.md").write_text("plan: tiny car")
 
     async def run():
-        await agent.start_turn(store, chat["id"], "build a tiny car", entry["id"])
+        await agent.start_turn(store, chat["id"], "build a tiny car", entry["id"], {"permissions": "full"})
         await agent._runs[chat["id"]].task
 
     asyncio.run(run())
@@ -129,5 +129,5 @@ def test_provider_error_ends_turn_but_not_chat(monkeypatch, entry, store: ChatSt
 
     asyncio.run(run())
     last = store.messages(chat["id"])[-1]
-    assert last["_error"] and "invalid api key" in last["content"]
+    assert last["_error"] and "Provider request failed" in last["content"]
     assert not agent.is_running(chat["id"])

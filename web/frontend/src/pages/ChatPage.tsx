@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react";
 import { useParams } from "react-router-dom";
-import { api, isPending, type ChatDetail, type ChatModel, type Message } from "../api";
+import { api, isPending, type ChatDetail, type ChatModel, type Message, type Approval, type TurnOptions } from "../api";
 import Composer from "../components/Composer";
 import Markdown from "../components/Markdown";
 import ToolCard from "../components/ToolCard";
@@ -8,7 +8,8 @@ import { useApp } from "../context";
 
 type RunningTool = { id: string; name: string; arguments: string };
 
-const text = (m: Message) => (typeof m.content === "string" ? m.content : "");
+type ContentBlock = { type: string; text?: string; image_url?: { url: string } };
+const text = (m: Message) => typeof m.content === "string" ? m.content : Array.isArray(m.content) ? (m.content as ContentBlock[]).filter(b => b.type === "text").map(b => b.text).join("\n") : "";
 
 export default function ChatPage() {
   const { id = "" } = useParams();
@@ -21,6 +22,8 @@ export default function ChatPage() {
   const [tools, setTools] = useState<RunningTool[]>([]);
   const [error, setError] = useState<string | null>(null);
   const [llmId, setLlmId] = useState<string | null>(null);
+  const [approvals, setApprovals] = useState<Approval[]>([]);
+  const [contextNotice, setContextNotice] = useState("");
   const draftRef = useRef("");
   const sourceRef = useRef<EventSource | null>(null);
   const bottomRef = useRef<HTMLDivElement>(null);
@@ -57,6 +60,7 @@ export default function ChatPage() {
       }
       updateDraft(d.draft);
       setTools(d.tools);
+      setApprovals(d.approvals ?? []);
     });
     es.addEventListener("text", (e) => updateDraft(draftRef.current + data(e).delta));
     es.addEventListener("tool_start", (e) => {
@@ -72,10 +76,14 @@ export default function ChatPage() {
     });
     es.addEventListener("model", () => refreshChats());
     es.addEventListener("turn_error", (e) => setError(data(e).message));
+    es.addEventListener("approval", e => setApprovals(all => [...all.filter(a => a.id !== data(e).id), data(e)]));
+    es.addEventListener("approval_resolved", e => setApprovals(all => all.filter(a => a.id !== data(e).id)));
+    es.addEventListener("context", () => setContextNotice("Older turns were omitted to fit the selected context budget. Your saved history is unchanged."));
     es.addEventListener("done", () => {
       es.close();
       setRunning(false);
       setTools([]);
+      setApprovals([]);
       updateDraft("");
       reload();
       refreshChats();
@@ -87,6 +95,8 @@ export default function ChatPage() {
     setNotFound(false);
     setError(null);
     setTools([]);
+    setApprovals([]);
+    setContextNotice("");
     updateDraft("");
     setPersisting("");
     stickToBottom.current = true;
@@ -122,11 +132,11 @@ export default function ChatPage() {
     if (el) stickToBottom.current = el.scrollHeight - el.scrollTop - el.clientHeight < 80;
   }
 
-  async function send(value: string) {
+  async function send(value: string, options: TurnOptions, images: string[]) {
     setError(null);
     stickToBottom.current = true;
     try {
-      await api.send(id, value, llmId);
+      await api.send(id, value, llmId, options, images);
     } catch (e) {
       setError((e as Error).message);
       throw e;
@@ -163,7 +173,9 @@ export default function ChatPage() {
           if (m.role === "user") {
             return (
               <div key={m.id} className="msg user">
-                <div className="bubble">{text(m)}</div>
+                <div className="bubble">{text(m)}
+                  {Array.isArray(m.content) && <div className="attachments">{(m.content as ContentBlock[]).filter(b => b.type === "image_url").map((b, i) => <img key={i} src={b.image_url?.url} alt={`Attached image ${i + 1}`} />)}</div>}
+                </div>
               </div>
             );
           }
@@ -204,7 +216,15 @@ export default function ChatPage() {
         <div ref={bottomRef} />
       </div>
       <div className="composer-wrap">
+        {contextNotice && <p className="muted small">{contextNotice}</p>}
+        {approvals.map(a => <div className="panel approval" key={a.id}>
+          <strong>Allow {a.name}?</strong><pre>{a.arguments}</pre>
+          <button type="button" onClick={() => api.approve(id, a.id, false).catch(e => setError(e.message))}>Deny</button>{" "}
+          <button type="button" className="primary" onClick={() => api.approve(id, a.id, true).catch(e => setError(e.message))}>Allow once</button>
+        </div>)}
         <Composer
+          key={id}
+          initialOptions={detail.chat.options}
           llmId={llmId}
           onLlmChange={setLlmId}
           onSend={send}

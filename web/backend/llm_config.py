@@ -21,6 +21,7 @@ import uuid
 from typing import Any, Optional
 
 import settings
+import model_catalog
 
 SECRET_MARKERS = ("key", "secret", "token", "password", "credential")
 MASK_PREFIX = "••••"
@@ -63,8 +64,28 @@ def _mask(value: Any) -> Any:
 
 def public(entry: dict) -> dict:
     """An entry as the UI may see it: secrets masked, capabilities resolved."""
-    params = {k: (_mask(v) if is_secret(k) else v) for k, v in entry["litellm_params"].items()}
-    return {**entry, "litellm_params": params, "resolved_capabilities": capabilities(entry)}
+    params = mask_secrets(entry["litellm_params"])
+    return {**entry, "litellm_params": params, "resolved_capabilities": capabilities(entry),
+            "profile": model_catalog.profile(entry["litellm_params"]["model"])}
+
+
+def mask_secrets(value, secret=False):
+    if isinstance(value, dict):
+        return {k: mask_secrets(v, secret or is_secret(k) or k.lower() in ("authorization", "extra_headers")) for k, v in value.items()}
+    if isinstance(value, list):
+        return [mask_secrets(v, secret) for v in value]
+    return _mask(value) if secret else value
+
+
+def restore_secrets(value, previous):
+    if isinstance(value, dict):
+        old = previous if isinstance(previous, dict) else {}
+        return {k: restore_secrets(v, old.get(k)) for k, v in value.items()}
+    if isinstance(value, str) and value.startswith(MASK_PREFIX):
+        if previous is None:
+            raise ValueError("Masked credentials cannot be imported. Enter a key or environment reference.")
+        return previous
+    return value
 
 
 def list_entries() -> tuple[list[dict], Optional[str]]:
@@ -77,7 +98,7 @@ def get(entry_id: str) -> Optional[dict]:
 
 
 def _clean(entry: dict, previous: Optional[dict]) -> dict:
-    params = dict(entry.get("litellm_params") or {})
+    params = restore_secrets(dict(entry.get("litellm_params") or {}), (previous or {}).get("litellm_params"))
     if not str(params.get("model", "")).strip():
         raise ValueError("litellm_params.model is required, e.g. 'anthropic/claude-sonnet-5'")
     old = (previous or {}).get("litellm_params", {})
@@ -91,11 +112,24 @@ def _clean(entry: dict, previous: Optional[dict]) -> dict:
             else:
                 params.pop(k)
     caps = {"tools": "auto", "vision": "auto", **(entry.get("capabilities") or {})}
+    auth_mode = entry.get("auth_mode") or "api_key"
+    if params["model"].startswith("chatgpt/"):
+        auth_mode = "browser"
+    if auth_mode not in ("api_key", "browser"):
+        raise ValueError("Unknown authentication method")
+    if auth_mode == "browser":
+        if params["model"].split("/", 1)[0] not in ("openai", "anthropic", "chatgpt"):
+            raise ValueError("Browser login is supported for OpenAI and Anthropic")
+        params = {"model": params["model"]}
+    for cap in ("tools", "vision"):
+        if caps[cap] not in (True, False, "auto"):
+            raise ValueError("Capabilities must be true, false or auto")
     return {
         "id": (previous or {}).get("id") or uuid.uuid4().hex[:12],
         "model_name": (entry.get("model_name") or params["model"]).strip(),
         "litellm_params": params,
         "capabilities": {k: caps[k] for k in ("tools", "vision")},
+        "auth_mode": auth_mode,
     }
 
 
@@ -143,7 +177,7 @@ def set_default(entry_id: str) -> None:
 def import_model_list(model_list: list[dict]) -> list[dict]:
     """Import LiteLLM proxy-style entries ({model_name, litellm_params})."""
     return [create({"model_name": m.get("model_name"), "litellm_params": m.get("litellm_params", {}),
-                    "capabilities": m.get("capabilities")}) for m in model_list]
+                    "capabilities": m.get("capabilities"), "auth_mode": m.get("auth_mode")}) for m in model_list]
 
 
 def resolve_params(entry: dict) -> dict:
@@ -164,6 +198,7 @@ def capabilities(entry: dict) -> dict[str, Optional[bool]]:
     import litellm
 
     model = entry["litellm_params"]["model"]
+    spec = model_catalog.profile(model)
     try:
         litellm.get_model_info(model)
         known = True
@@ -175,6 +210,8 @@ def capabilities(entry: dict) -> dict[str, Optional[bool]]:
         configured = entry.get("capabilities", {}).get(cap, "auto")
         if isinstance(configured, bool):
             result[cap] = configured
+        elif cap in spec:
+            result[cap] = spec[cap]
         elif not known:
             result[cap] = None       # LiteLLM would answer False for anything it doesn't know
         else:

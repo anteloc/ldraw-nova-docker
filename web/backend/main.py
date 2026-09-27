@@ -19,13 +19,17 @@ import yaml
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.responses import FileResponse, JSONResponse, PlainTextResponse, StreamingResponse
 from fastapi.staticfiles import StaticFiles
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 from starlette.background import BackgroundTask
 
 import agent
 import gallery
 import glb
 import llm_config
+import model_catalog
+import browser_auth
+import inference
+from attachments import validate_images
 import sandbox
 import settings
 from leocad_render import MODEL_SUFFIXES, bom_path_for, snapshot_path_for
@@ -42,9 +46,29 @@ async def lifespan(_app: FastAPI):
     sandbox.give_to_agent(settings.GENERATED_DIR)      # agent scripts may publish models there
     get_store()
     yield
+    await browser_auth.shutdown()
+    for chat_id in list(agent._runs):
+        await agent.cancel(chat_id)
 
 
 app = FastAPI(title="LDraw Astra agent chat", lifespan=lifespan)
+
+
+@app.middleware("http")
+async def same_origin_api(request: Request, call_next):
+    if request.url.path.startswith("/api/"):
+        origin = request.headers.get("origin")
+        if request.headers.get("sec-fetch-site") == "cross-site" or (
+            origin and urlsplit(origin).netloc != request.headers.get("host")
+        ):
+            return JSONResponse({"detail": "Cross-origin API requests are not allowed"}, status_code=403)
+        try:
+            size = int(request.headers.get("content-length", "0"))
+        except ValueError:
+            return JSONResponse({"detail": "Invalid Content-Length"}, status_code=400)
+        if size > 18 * 1024 * 1024:
+            return JSONResponse({"detail": "Request exceeds 18 MB"}, status_code=413)
+    return await call_next(request)
 
 
 def _not_found(what: str = "not found"):
@@ -57,6 +81,57 @@ class LlmEntry(BaseModel):
     model_name: Optional[str] = None
     litellm_params: dict[str, Any]
     capabilities: Optional[dict[str, Any]] = None
+    auth_mode: str = "api_key"
+
+
+@app.get("/api/model-catalog")
+def model_catalog_list():
+    return {"models": [model_catalog.profile(m["model"]) for m in model_catalog.CATALOG]}
+
+
+@app.get("/api/auth/{provider}")
+async def auth_status(provider: str):
+    try:
+        return await browser_auth.status(provider)
+    except ValueError as exc:
+        raise HTTPException(400, str(exc)) from None
+
+
+class LoginRequest(BaseModel):
+    flow: str = "browser"
+    restart: bool = False
+
+
+@app.post("/api/auth/{provider}/login")
+async def auth_login(provider: str, body: Optional[LoginRequest] = None):
+    try:
+        return await browser_auth.start(provider, body.flow if body else "browser", body.restart if body else False)
+    except ValueError as exc:
+        raise HTTPException(400, str(exc)) from None
+
+
+class AuthCode(BaseModel):
+    code: str = Field(max_length=4096)
+
+
+@app.post("/api/auth/{provider}/code")
+async def auth_code(provider: str, body: AuthCode):
+    try:
+        await browser_auth.submit_code(provider, body.code)
+        return {"submitted": True}
+    except ValueError as exc:
+        raise HTTPException(400, str(exc)) from None
+
+
+@app.delete("/api/auth/{provider}")
+async def auth_disconnect(provider: str):
+    if any(agent.is_running(chat_id) for chat_id in agent._runs):
+        raise HTTPException(409, "Stop active turns before disconnecting a provider")
+    try:
+        await browser_auth.disconnect(provider)
+        return {"status": "disconnected"}
+    except ValueError as exc:
+        raise HTTPException(400, str(exc)) from None
 
 
 @app.get("/api/llm-models")
@@ -97,15 +172,21 @@ def llm_models_default(entry_id: str):
 async def llm_models_test(entry_id: str):
     entry = llm_config.get(entry_id) or _not_found()
     try:
+        if entry.get("auth_mode") == "browser" and entry["litellm_params"]["model"].startswith("anthropic/"):
+            ready = await browser_auth.connected("anthropic")
+            return {"ok": ready, "reply": "Claude login is ready. Send a chat to verify model access." if ready else None,
+                    "error": None if ready else "Sign in to Claude in Settings first"}
+        params = await inference.params_for(entry, {})
+        params.setdefault("max_tokens", 4096)
+        params.setdefault("timeout", 60)
         response = await litellm.acompletion(
-            **llm_config.resolve_params(entry),
+            **params,
             messages=[{"role": "user", "content": "Reply with the single word: OK"}],
-            max_tokens=20, timeout=60,
         )
         return {"ok": True, "reply": response.choices[0].message.content,
                 "capabilities": llm_config.capabilities(entry)}
     except Exception as exc:  # noqa: BLE001 - shown to the user as the test result
-        return {"ok": False, "error": f"{exc.__class__.__name__}: {exc}"}
+        return {"ok": False, "error": str(exc) if isinstance(exc, ValueError) else f"{exc.__class__.__name__}: Check credentials, model access and settings."}
 
 
 @app.get("/api/llm-models/export", response_class=PlainTextResponse)
@@ -113,7 +194,7 @@ def llm_models_export():
     entries, _default = llm_config.list_entries()
     model_list = [{"model_name": e["model_name"],
                    "litellm_params": llm_config.public(e)["litellm_params"],
-                   "capabilities": e["capabilities"]} for e in entries]
+                   "capabilities": e["capabilities"], "auth_mode": e.get("auth_mode", "api_key")} for e in entries]
     return yaml.safe_dump({"model_list": model_list}, sort_keys=False, allow_unicode=True)
 
 
@@ -156,8 +237,10 @@ class ChatPatch(BaseModel):
 
 
 class NewMessage(BaseModel):
-    text: str
+    text: str = Field(max_length=200_000)
     llm_model_id: Optional[str] = None
+    options: dict[str, Any] = Field(default_factory=dict)
+    images: list[str] = Field(default_factory=list, max_length=4)
 
 
 # --- model helpers -------------------------------------------------------------
@@ -298,12 +381,23 @@ async def chats_send(chat_id: str, body: NewMessage):
     if not body.text.strip():
         raise HTTPException(400, "empty message")
     try:
-        await agent.start_turn(store, chat_id, body.text, body.llm_model_id)
+        await agent.start_turn(store, chat_id, body.text, body.llm_model_id, body.options, validate_images(body.images))
     except RuntimeError as exc:
         raise HTTPException(409, str(exc)) from None
     except ValueError as exc:
         raise HTTPException(400, str(exc)) from None
     return {"started": True}
+
+
+class ApprovalDecision(BaseModel):
+    approved: bool
+
+
+@app.post("/api/chats/{chat_id}/approvals/{approval_id}")
+async def chats_approve(chat_id: str, approval_id: str, body: ApprovalDecision):
+    if not agent.decide(chat_id, approval_id, body.approved):
+        raise HTTPException(409, "This approval is no longer pending")
+    return {"accepted": True}
 
 
 @app.post("/api/chats/{chat_id}/cancel")

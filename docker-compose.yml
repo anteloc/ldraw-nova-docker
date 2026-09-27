@@ -14,9 +14,11 @@ services:
       - "${LDRAW_ASTRA_WEB_PORT:-8765}:8000"
       # HTTPS (self-signed), for headsets: WebXR needs HTTPS or localhost.
       - "${LDRAW_ASTRA_WEB_HTTPS_PORT:-8443}:8443"
+      # OpenAI browser OAuth callback, reachable only on the Docker host.
+      - "127.0.0.1:1455:1456"
     volumes:
       - ./data:/data       # host ./data <-> container /data (input: everything under it, output: output/)
-      - config:/config     # LLM settings + API keys; kept out of ./data on purpose
+      - config:/config     # LLM settings, API keys and browser sessions; kept out of ./data
     # Optional: keys referenced from the UI as "os.environ/NAME" (e.g. ANTHROPIC_API_KEY=...)
     env_file:
       - path: .env

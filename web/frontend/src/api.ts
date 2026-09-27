@@ -32,6 +32,7 @@ export type Chat = {
   created_at: number;
   updated_at: number;
   running?: boolean;
+  options?: TurnOptions;
   models?: ChatModel[];
 };
 
@@ -57,12 +58,18 @@ export type Message = {
 export type ChatDetail = { chat: Chat; messages: Message[]; models: Record<string, ChatModel> };
 
 export type Capability = boolean | "auto";
+export type TurnOptions = { mode: "chat" | "plan" | "agent"; permissions: "ask" | "full" | "read_only"; effort?: string | null; context_tokens?: number | null };
+export type ModelProfile = { model: string; name: string; context_window: number | null; efforts: string[]; context_budgets: number[] };
+export type AuthStatus = { status: "starting" | "pending" | "connected" | "disconnected" | "error" | "expired"; flow?: "browser" | "device"; url?: string; code?: string; message?: string; expires_at?: number };
+export type Approval = { id: string; call_id: string; name: string; arguments: string };
 export type LlmEntry = {
   id: string;
   model_name: string;
   litellm_params: Record<string, unknown>;
   capabilities: { tools: Capability; vision: Capability };
   resolved_capabilities: { tools: boolean | null; vision: boolean | null };
+  auth_mode: "api_key" | "browser";
+  profile: ModelProfile;
 };
 
 async function request<T>(url: string, init?: RequestInit): Promise<T> {
@@ -94,8 +101,14 @@ export const api = {
   renameChat: (id: string, title: string) =>
     request<Chat>(`/api/chats/${id}`, { method: "PATCH", body: json({ title }) }),
   deleteChat: (id: string) => request(`/api/chats/${id}`, { method: "DELETE" }),
-  send: (id: string, text: string, llm_model_id?: string | null) =>
-    request(`/api/chats/${id}/messages`, { method: "POST", body: json({ text, llm_model_id }) }),
+  send: (id: string, text: string, llm_model_id?: string | null, options?: TurnOptions, images?: string[]) =>
+    request(`/api/chats/${id}/messages`, { method: "POST", body: json({ text, llm_model_id, options, images }) }),
+  approve: (id: string, approval: string, approved: boolean) => request(`/api/chats/${id}/approvals/${approval}`, { method: "POST", body: json({ approved }) }),
+  catalog: () => request<{ models: ModelProfile[] }>("/api/model-catalog"),
+  authStatus: (provider: string) => request<AuthStatus>(`/api/auth/${provider}`),
+  login: (provider: string, flow: "browser" | "device" = "browser") => request<AuthStatus>(`/api/auth/${provider}/login`, { method: "POST", body: json({ flow, restart: true }) }),
+  loginCode: (provider: string, code: string) => request(`/api/auth/${provider}/code`, { method: "POST", body: json({ code }) }),
+  logout: (provider: string) => request(`/api/auth/${provider}`, { method: "DELETE" }),
   cancel: (id: string) => request(`/api/chats/${id}/cancel`, { method: "POST" }),
   models: () => request<{ models: ModelFile[]; pending: number }>("/api/models"),
 

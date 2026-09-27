@@ -94,7 +94,7 @@ class ChatStore:
             chat = self.get_chat(chat_id)
             if chat is None:
                 return
-            chat.update({k: v for k, v in fields.items() if k in ("title", "llm_model_id")})
+            chat.update({k: v for k, v in fields.items() if k in ("title", "llm_model_id", "options")})
             chat["updated_at"] = time.time()
             self._write_chat(chat)
 

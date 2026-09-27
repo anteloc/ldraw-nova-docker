@@ -1,0 +1,13 @@
+{
+  "id": "20260927-190100-35a587",
+  "title": "again identify yourself",
+  "llm_model_id": "6c2d091b9c22",
+  "created_at": 1790535660.3625,
+  "updated_at": 1790535743.4887054,
+  "options": {
+    "mode": "agent",
+    "permissions": "ask",
+    "effort": null,
+    "context_tokens": null
+  }
+}

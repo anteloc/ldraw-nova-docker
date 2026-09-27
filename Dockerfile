@@ -23,6 +23,13 @@ RUN npm ci --no-audit --no-fund
 COPY web/frontend/ ./
 RUN npm run build
 
+# Official OpenAI login runtime; no Node runtime or host credentials needed.
+FROM --platform=$BUILDPLATFORM node:24-slim AS openai-login
+ARG CODEX_VERSION=0.157.1
+WORKDIR /opt/codex
+RUN npm pack "@openai/codex@${CODEX_VERSION}-linux-x64" \
+    && tar -xzf "openai-codex-${CODEX_VERSION}-linux-x64.tgz"
+
 # --- Stage 1b: the mixed-reality viewer (web/xr: Vite + Meta's IWSDK) ---------
 # Same idea, its own stage so SPA edits don't re-install its dependencies.
 FROM --platform=$BUILDPLATFORM node:24-slim AS xr
@@ -207,7 +214,12 @@ RUN useradd --system --create-home --shell /bin/bash agent \
 WORKDIR /app
 COPY requirements.txt /app/requirements.txt
 RUN pip install --no-cache-dir --break-system-packages -r requirements.txt
+# The pinned Claude Agent SDK includes its matching native Claude Code runtime.
+# Browser login and inference use that same binary; no host credentials mounted.
+RUN python3 -c "import pathlib, subprocess, claude_agent_sdk; subprocess.run([str(pathlib.Path(claude_agent_sdk.__file__).parent / '_bundled' / 'claude'), '--version'], check=True)"
 ENV PYTHONPATH=/app
+COPY --from=openai-login /opt/codex/package/vendor/x86_64-unknown-linux-musl/ /opt/codex/
+RUN ln -s /opt/codex/bin/codex /usr/local/bin/codex && codex --version
 
 # --- The 3D player: ldraw-player (Rust -> WebAssembly) ------------------------
 # https://github.com/anteloc/ldraw.rs-astra (tools/player), its release zip,

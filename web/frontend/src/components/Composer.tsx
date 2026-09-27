@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState, type FormEvent, type KeyboardEvent } from "react";
 import { Link } from "react-router-dom";
 import { useApp } from "../context";
+import type { TurnOptions } from "../api";
 
 export default function Composer({
   llmId,
@@ -10,19 +11,32 @@ export default function Composer({
   running,
   autoFocus,
   initialText = "",
+  initialOptions,
 }: {
   llmId: string | null;
   onLlmChange: (id: string) => void;
-  onSend: (text: string) => Promise<void> | void;
+  onSend: (text: string, options: TurnOptions, images: string[]) => Promise<void> | void;
   onStop?: () => void;
   running: boolean;
   autoFocus?: boolean;
   initialText?: string;
+  initialOptions?: TurnOptions;
 }) {
   const { llms } = useApp();
   const [text, setText] = useState(initialText);
   const [busy, setBusy] = useState(false);
   const ref = useRef<HTMLTextAreaElement>(null);
+  const [options, setOptions] = useState<TurnOptions>(initialOptions ?? { mode: "agent", permissions: "ask" });
+  const [images, setImages] = useState<{ name: string; url: string }[]>([]);
+  const [error, setError] = useState("");
+  const model = llms.find(m => m.id === llmId);
+  const profile = model?.profile;
+  useEffect(() => {
+    setOptions(o => ({ ...o,
+      effort: o.effort && profile?.efforts.includes(o.effort) ? o.effort : null,
+      context_tokens: o.context_tokens && profile?.context_budgets.includes(o.context_tokens) ? o.context_tokens : null,
+    }));
+  }, [llmId, profile]);
 
   useEffect(() => setText(initialText), [initialText]);
 
@@ -39,8 +53,13 @@ export default function Composer({
     if (!value || running || busy || llms.length === 0) return;
     setBusy(true);
     try {
-      await onSend(value);
+      setError("");
+      if (images.length && model?.resolved_capabilities.vision !== true) throw new Error("Choose a model that supports images or remove the attachments.");
+      await onSend(value, options, images.map(i => i.url));
       setText("");
+      setImages([]);
+    } catch (e) {
+      setError((e as Error).message);
     } finally {
       setBusy(false);
     }
@@ -69,11 +88,43 @@ export default function Composer({
         onChange={(e) => setText(e.target.value)}
         onKeyDown={onKeyDown}
       />
+      {images.length > 0 && <div className="attachments">{images.map((img, index) => <div key={index}>
+        <img src={img.url} alt={img.name} /><button type="button" aria-label={`Remove ${img.name}`} onClick={() => setImages(images.filter((_, i) => i !== index))}>✕</button>
+      </div>)}</div>}
+      {error && <div className="banner error" role="alert">{error}</div>}
+      <div className="turn-options">
+        <label><span>Mode</span><select aria-label="Mode" disabled={running} value={options.mode} onChange={e => setOptions({ ...options, mode: e.target.value as TurnOptions["mode"] })}>
+          <option value="agent">Agent</option><option value="plan">Plan (read only)</option><option value="chat">Chat</option>
+        </select></label>
+        {options.mode === "agent" && <label><span>Permissions</span><select aria-label="Permissions" disabled={running} value={options.permissions} onChange={e => setOptions({ ...options, permissions: e.target.value as TurnOptions["permissions"] })}>
+          <option value="ask">Ask before changes</option><option value="full">Full access (container)</option><option value="read_only">Read only</option>
+        </select></label>}
+        {!!profile?.efforts.length && <label><span>Effort</span><select aria-label="Effort" disabled={running} value={options.effort ?? ""} onChange={e => setOptions({ ...options, effort: e.target.value || null })}>
+          <option value="">Provider default</option>{profile.efforts.map(e => <option key={e}>{e}</option>)}
+        </select></label>}
+        {!!profile?.context_budgets.length && <label><span>Context budget</span><select aria-label="Context budget" disabled={running} value={options.context_tokens ?? ""} onChange={e => setOptions({ ...options, context_tokens: e.target.value ? Number(e.target.value) : null })}>
+          <option value="">Auto ({profile.context_window?.toLocaleString()})</option>{profile.context_budgets.map(n => <option value={n} key={n}>{n.toLocaleString()} tokens</option>)}
+        </select></label>}
+        {model?.resolved_capabilities.vision === true && <label className="image-upload"><span>Attach images</span><input aria-label="Attach images" type="file" accept="image/png,image/jpeg,image/webp" multiple disabled={running || busy} onChange={async e => {
+          const files = Array.from(e.target.files ?? []); e.target.value = "";
+          setError("");
+          if (files.length + images.length > 4 || files.some(f => f.size > 5 * 1024 * 1024)) { setError("Attach up to 4 images, at most 5 MB each."); return; }
+          setBusy(true);
+          try {
+            const added = await Promise.all(files.map(file => new Promise<{ name: string; url: string }>((resolve, reject) => {
+              const reader = new FileReader(); reader.onload = () => resolve({ name: file.name, url: String(reader.result) });
+              reader.onerror = () => reject(new Error("Cannot read image")); reader.readAsDataURL(file);
+            })));
+            setImages(current => [...current, ...added]);
+          } catch (e) { setError((e as Error).message); }
+          finally { setBusy(false); }
+        }} /></label>}
+      </div>
       <div className="composer-bar">
         <select
           value={llmId ?? ""}
           onChange={(e) => onLlmChange(e.target.value)}
-          disabled={llms.length === 0}
+          disabled={llms.length === 0 || running || busy}
           aria-label="Model"
         >
           {llms.map((m) => (
