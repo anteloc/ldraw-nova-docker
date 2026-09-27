@@ -17,6 +17,19 @@ CATALOG = [
     {"model": "anthropic/claude-haiku-4-5-20251001", "name": "Claude Haiku 4.5 (latest released Haiku)", "context_window": 200_000, "efforts": []},
 ]
 
+# OpenRouter slugs, capabilities, context and reasoning.supported_efforts
+# checked against https://openrouter.ai/api/v1/models on 2026-09-27.
+_OPENROUTER_SLUGS = {
+    "anthropic/claude-opus-5-5": "anthropic/claude-opus-5.5",
+    "anthropic/claude-haiku-4-5-20251001": "anthropic/claude-haiku-4.5",
+}
+OPENROUTER_CATALOG = [
+    {**entry, "model": "openrouter/" + _OPENROUTER_SLUGS.get(entry["model"], entry["model"]),
+     "name": entry["name"].replace(" (latest released Haiku)", "") + " (OpenRouter)"}
+    for entry in CATALOG
+]
+CATALOG += OPENROUTER_CATALOG
+
 
 def profile(model: str) -> dict:
     canonical = model.replace("chatgpt/", "openai/", 1).replace("responses/", "")

@@ -2,6 +2,7 @@
 # (data/ is bind-mounted at runtime, never baked in.)
 data
 .env
+.env.*
 .DS_Store
 **/.DS_Store
 .git

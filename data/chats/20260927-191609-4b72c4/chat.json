@@ -3,7 +3,7 @@
   "title": "identify yourself",
   "llm_model_id": "873e0ea95536",
   "created_at": 1790536569.816391,
-  "updated_at": 1790536576.9328313,
+  "updated_at": 1790536797.1632876,
   "options": {
     "mode": "agent",
     "permissions": "ask",

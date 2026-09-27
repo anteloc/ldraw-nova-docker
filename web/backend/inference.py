@@ -31,7 +31,13 @@ async def params_for(entry: dict, options: dict) -> dict:
         # GPT-6 function calling requires Responses; LiteLLM bridges the stream.
         params["model"] = model.replace("openai/", "openai/responses/", 1)
     if options.get("effort"):
-        if model.startswith("anthropic/"):
+        if model.startswith("openrouter/"):
+            # Use the gateway's native field. LiteLLM's older reasoning_effort
+            # mapping silently changes max to xhigh and misses newer models.
+            params.pop("reasoning_effort", None)
+            params["extra_body"] = {**params.get("extra_body", {}),
+                                    "reasoning": {"effort": options["effort"]}}
+        elif model.startswith("anthropic/"):
             params["thinking"] = {"type": "adaptive"}
             params["output_config"] = {"effort": options["effort"]}
         else:

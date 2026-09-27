@@ -222,7 +222,8 @@ def llm_providers():
 @app.get("/api/llm-providers/{provider}/models")
 def llm_provider_models(provider: str):
     models = litellm.models_by_provider.get(provider, [])
-    return {"models": sorted(models)}
+    presets = [m["model"] for m in model_catalog.CATALOG if m["model"].startswith(provider + "/")]
+    return {"models": sorted(set(models) | set(presets))}
 
 
 # --- chats -------------------------------------------------------------------

@@ -101,6 +101,9 @@ def _clean(entry: dict, previous: Optional[dict]) -> dict:
     params = restore_secrets(dict(entry.get("litellm_params") or {}), (previous or {}).get("litellm_params"))
     if not str(params.get("model", "")).strip():
         raise ValueError("litellm_params.model is required, e.g. 'anthropic/claude-sonnet-5'")
+    params["model"] = params["model"].strip()
+    if params["model"] == "openrouter/":
+        raise ValueError("Choose an OpenRouter model, e.g. openrouter/openai/gpt-6-luna")
     old = (previous or {}).get("litellm_params", {})
     for k, v in list(params.items()):
         if v is None or v == "":
@@ -186,8 +189,8 @@ def resolve_params(entry: dict) -> dict:
     for k, v in entry["litellm_params"].items():
         if isinstance(v, str) and v.startswith("os.environ/"):
             env_name = v.split("/", 1)[1]
-            if env_name not in os.environ:
-                raise ValueError(f"{k} refers to environment variable {env_name}, which is not set")
+            if not os.environ.get(env_name, "").strip():
+                raise ValueError(f"{k} refers to environment variable {env_name}, which is not set or is empty")
             v = os.environ[env_name]
         resolved[k] = v
     return resolved

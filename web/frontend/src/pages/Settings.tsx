@@ -18,6 +18,7 @@ type Form = {
 };
 
 const BASIC = ["model", "api_key", "api_base", "api_version"];
+const OPENROUTER_KEY = "os.environ/OPENROUTER_LDRAW_ASTRA_API_KEY";
 
 const EMPTY: Form = {
   model_name: "", model: "", api_key: "", api_base: "", api_version: "", extra: [], tools: "auto", vision: "auto", auth_mode: "api_key",
@@ -28,7 +29,7 @@ const PRESETS: { label: string; form: Partial<Form> }[] = [
   { label: "Anthropic", form: { model_name: "Claude Sonnet 5", model: "anthropic/claude-sonnet-5" } },
   { label: "OpenAI", form: { model_name: "", model: "openai/" } },
   { label: "Gemini", form: { model_name: "", model: "gemini/" } },
-  { label: "OpenRouter", form: { model_name: "", model: "openrouter/" } },
+  { label: "OpenRouter", form: { model_name: "GPT-6 Luna (OpenRouter)", model: "openrouter/openai/gpt-6-luna", api_key: OPENROUTER_KEY } },
   {
     label: "Ollama (on this computer)",
     form: { model_name: "", model: "ollama_chat/", api_base: "http://host.docker.internal:11434" },
@@ -181,7 +182,12 @@ export default function Settings() {
           <h3>{form.id ? "Edit model" : "Add model"}</h3>
           <label><span>Model presets</span><select value="" onChange={e => {
             const preset = catalog.find(m => m.model === e.target.value);
-            if (preset) set({ model: preset.model, model_name: preset.name, auth_mode: "browser", extra: [], tools: "auto", vision: "auto" });
+            if (preset) {
+              const router = preset.model.startsWith("openrouter/");
+              set({ model: preset.model, model_name: preset.name, auth_mode: router ? "api_key" : "browser",
+                api_key: router ? (provider === "openrouter" && form.api_key ? form.api_key : OPENROUTER_KEY) : "",
+                api_base: "", api_version: "", extra: [], tools: "auto", vision: "auto" });
+            }
           }}><option value="">Choose a model…</option>{catalog.map(m => <option key={m.model} value={m.model}>{m.name}</option>)}</select></label>
           {!form.id && (
             <div className="presets">
@@ -223,13 +229,18 @@ export default function Settings() {
           </select></label>
           {form.auth_mode === "browser" && <p className="muted small">Uses the provider account connected above.</p>}
           {form.auth_mode === "api_key" && <>
+          {provider === "openrouter" && <p className="muted small">
+            Choose an OpenRouter model preset above, or enter <code>openrouter/vendor/model</code>.
+            The supplied environment key is selected by default; you can also paste a key below.
+            OpenRouter uses its own API key and billing. Leave the API base URL empty for the standard service.
+          </p>}
           <label>
             <span>API key</span>
             <input
               type="password"
               autoComplete="off"
               value={form.api_key}
-              placeholder="sk-…  or  os.environ/ANTHROPIC_API_KEY"
+              placeholder={provider === "openrouter" ? "sk-or-…  or  " + OPENROUTER_KEY : "sk-…  or  os.environ/ANTHROPIC_API_KEY"}
               onChange={(e) => set({ api_key: e.target.value })}
             />
             <small className="muted">
