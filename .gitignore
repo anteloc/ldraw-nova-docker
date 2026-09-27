@@ -9,3 +9,6 @@ __pycache__/
 .env
 .env.*
 !.env.example
+data/output/
+data/generated/
+data/chats/
