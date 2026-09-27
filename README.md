@@ -182,9 +182,10 @@ open http://localhost:8765                # port: LDRAW_ASTRA_WEB_PORT in .env
    No device code, account security change, or terminal command is required
    for this default flow. The callback is bound only to host loopback; Docker
    relays it to the official OpenAI runtime's internal callback listener.
-   Keep host port 1455 free while running this compose stack. Claude may
-   display an authorization code: paste that into the app's **Complete login**
-   form (the container cannot receive your browser's localhost callback).
+   Keep host port 1455 free while running this compose stack. Claude opens its
+   authorization page on `claude.com` and displays a code after sign-in. Copy
+   the full code into **Claude authorization code** in this app and click
+   **Complete login**. No terminal command or additional callback port is needed.
    Settings polls until the provider confirms the login; you can cancel,
    retry, or disconnect. For a browser on a different machine, expand
    **Signing in from another computer?** and use the optional device flow.

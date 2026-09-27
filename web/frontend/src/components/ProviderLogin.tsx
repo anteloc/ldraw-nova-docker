@@ -35,7 +35,7 @@ export default function ProviderLogin({ provider }: { provider: "openai" | "anth
     popup.current = window.open("about:blank", "_blank");
     if (popup.current) { popup.current.opener = null; popup.current.document.title = `Connecting to ${name}…`; }
     opened.current = "";
-    setBusy(true); setError("");
+    setBusy(true); setError(""); setCode("");
     try { setState(await api.login(provider, flow)); }
     catch (e) { popup.current?.close(); setError((e as Error).message); }
     finally { setBusy(false); }
@@ -50,7 +50,7 @@ export default function ProviderLogin({ provider }: { provider: "openai" | "anth
 
   return <section className="panel provider-login">
     <div className="llm-title"><strong>{name}</strong><span className={`badge ${state.status === "connected" ? "ok" : ""}`}>{state.status}</span></div>
-    <p className="muted small">{provider === "openai" ? "Sign in to ChatGPT in your browser, then return here. No device code or terminal command is needed." : "Sign in with your Claude account through Claude Code."} Model access depends on your account.</p>
+    <p className="muted small">{provider === "openai" ? "Sign in to ChatGPT in your browser, then return here. No device code or terminal command is needed." : "Sign in to Claude in your browser, then copy Claude's authorization code into this page to connect your account."} Model access depends on your account.</p>
     {state.status !== "connected" && !pending && <button type="button" className="primary" disabled={busy} onClick={() => login()}>Sign in with {name}</button>}
     {(pending || state.status === "connected") && <button type="button" disabled={busy} onClick={logout}>{pending ? "Cancel login" : "Disconnect"}</button>}
     {state.url && pending && <p><a href={state.url} target="_blank" rel="noreferrer">Open {name} sign-in</a></p>}
@@ -62,13 +62,14 @@ export default function ProviderLogin({ provider }: { provider: "openai" | "anth
       <p>If OpenAI mentions a terminal command, use this button instead. The app runs the login and shows the code for you.</p>
       <button type="button" disabled={busy} onClick={() => login("device")}>Start device sign-in</button>
     </details>}
-    {pending && provider === "anthropic" && <form onSubmit={async e => {
+    {state.status === "pending" && provider === "anthropic" && <form onSubmit={async e => {
       e.preventDefault(); setError(""); setBusy(true);
       try { await api.loginCode(provider, code); setCode(""); }
       catch (e) { setError((e as Error).message); }
       finally { setBusy(false); }
     }}>
-      <label><span>If Claude displays a code, paste it here</span><input type="password" autoComplete="off" value={code} onChange={e => setCode(e.target.value)} /></label>
+      <p className="muted small">Finish sign-in in the Claude tab, copy the full code it displays, then paste it below. You do not need a terminal.</p>
+      <label><span>Claude authorization code</span><input type="password" autoComplete="off" spellCheck={false} value={code} onChange={e => setCode(e.target.value)} /></label>
       <button type="submit" disabled={!code.trim() || busy}>Complete login</button>
     </form>}
     {pending && <p className="muted small">Waiting for browser authentication. This page updates automatically.</p>}

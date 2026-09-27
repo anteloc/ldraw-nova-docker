@@ -1,0 +1,13 @@
+{
+  "id": "20260927-191609-4b72c4",
+  "title": "identify yourself",
+  "llm_model_id": "873e0ea95536",
+  "created_at": 1790536569.816391,
+  "updated_at": 1790536576.9328313,
+  "options": {
+    "mode": "agent",
+    "permissions": "ask",
+    "effort": null,
+    "context_tokens": null
+  }
+}

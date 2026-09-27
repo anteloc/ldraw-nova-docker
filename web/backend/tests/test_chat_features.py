@@ -173,15 +173,32 @@ def test_expired_chatgpt_never_starts_interactive_login(monkeypatch):
         asyncio.run(browser_auth.openai_ready())
 
 
-def test_claude_login_extracts_complete_url_and_confirms_provider(monkeypatch):
+@pytest.mark.parametrize("address", ["claude.com/cai", "claude.ai", "platform.claude.com", "console.anthropic.com"])
+def test_claude_login_extracts_complete_url_and_confirms_provider(monkeypatch, address):
+    url = f"https://{address}/oauth/authorize?code=true&state=opaque&code_challenge=pkce"
+    waiting, submitted = asyncio.Event(), asyncio.Event()
+    written = []
+
     class Reader:
         def __init__(self):
-            self.chunks = iter([b"Open https://claude.ai/oauth/", b"authorize?state=opaque\n", b"Login successful\n", b""])
-        async def read(self, size): return next(self.chunks)
+            self.chunks = [b"Opening browser to sign in\n", url[:25].encode(), url[25:].encode(), b"\nPaste code here if prompted > "]
+        async def read(self, size):
+            if self.chunks:
+                return self.chunks.pop(0)
+            waiting.set()
+            await submitted.wait()
+            return b""
+
+    class Writer:
+        def write(self, value): written.append(value)
+        async def drain(self): submitted.set()
+
     class Process:
         stdout = Reader()
-        returncode = 0
-        async def wait(self): return 0
+        stdin = Writer()
+        returncode = None
+        async def wait(self): self.returncode = 0
+
     recorded = {}
     async def spawn(*args, **kwargs):
         recorded.update(argv=args, env=kwargs["env"])
@@ -192,11 +209,49 @@ def test_claude_login_extracts_complete_url_and_confirms_provider(monkeypatch):
     monkeypatch.setattr(browser_auth.asyncio, "create_subprocess_exec", spawn)
     monkeypatch.setattr(browser_auth, "connected", connected)
     state = {"status": "starting"}
-    asyncio.run(browser_auth._login("anthropic", state))
+    monkeypatch.setitem(browser_auth._sessions, "anthropic", state)
+
+    async def check():
+        task = asyncio.create_task(browser_auth._login("anthropic", state))
+        try:
+            await asyncio.wait_for(waiting.wait(), 2)
+            assert await browser_auth.status("anthropic") == {"status": "pending", "url": url}
+            await browser_auth.submit_code("anthropic", "  private-code#state\n")
+            assert written == [b"private-code#state\n"]
+            await task
+        finally:
+            if not task.done():
+                task.cancel()
+                await asyncio.gather(task, return_exceptions=True)
+
+    asyncio.run(check())
     assert state == {"status": "connected"}
     assert recorded["argv"][-3:] == ("auth", "login", "--claudeai")
     assert recorded["env"]["ANTHROPIC_API_KEY"] == ""
     assert recorded["env"]["CLAUDE_CONFIG_DIR"].startswith(str(settings.CONFIG_DIR))
+
+
+@pytest.mark.parametrize("output", [
+    "https://claude.com/cai/oauth/auth",  # incomplete stdout chunk
+    "https://claude.com/cai/oauth/authorize?state=partial",  # no delimiter yet
+    "https://claude.com/privacy\n",  # unrelated provider URL
+    "https://claude.com.attacker.example/cai/oauth/authorize\n",
+    "https://claude.com@attacker.example/cai/oauth/authorize\n",
+    "http://claude.com/cai/oauth/authorize\n",
+])
+def test_claude_login_ignores_incomplete_and_unrelated_urls(output):
+    assert browser_auth.claude_login_url(output) is None
+
+
+def test_claude_code_submission_handles_closed_login(monkeypatch):
+    class Writer:
+        def write(self, value): raise BrokenPipeError()
+    class Process:
+        returncode = None
+        stdin = Writer()
+    monkeypatch.setitem(browser_auth._sessions, "anthropic", {"status": "pending", "process": Process()})
+    with pytest.raises(ValueError, match="fresh login"):
+        asyncio.run(browser_auth.submit_code("anthropic", "private-code#state"))
 
 
 def test_login_cancellation_terminates_process_group(monkeypatch):

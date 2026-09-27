@@ -22,6 +22,19 @@ _sessions: dict[str, dict] = {}
 _locks: dict[str, asyncio.Lock] = {}
 
 
+def claude_login_url(output: str) -> str | None:
+    """Read complete authorization URLs from CLI output, including split reads."""
+    for url in re.findall(r"https://[^\s\x1b]+(?=\s)", output):
+        parsed = urlsplit(url)
+        # Current Claude Code uses claude.com/cai/oauth/authorize. Keep the
+        # older provider addresses, but never open unrelated links in output.
+        if (parsed.hostname in ("claude.com", "claude.ai", "platform.claude.com", "console.anthropic.com")
+                and parsed.path in ("/cai/oauth/authorize", "/oauth/authorize")
+                and not parsed.username and not parsed.password):
+            return url
+    return None
+
+
 def auth_dir(provider: str) -> Path:
     if provider not in PROVIDERS:
         raise ValueError("Unknown login provider")
@@ -152,9 +165,8 @@ async def _login(provider: str, state: dict):
                         elif event.get("type") == "login_error":
                             state.update(status="error", message=event["message"])
                 else:
-                    for url in re.findall(r"https://[^\s\x1b]+(?=\s)", clean):
-                        if urlsplit(url).hostname in ("claude.ai", "platform.claude.com", "console.anthropic.com"):
-                            state.update(status="pending", url=url)
+                    if url := claude_login_url(clean):
+                        state.update(status="pending", url=url)
             await proc.wait()
             if proc.returncode == 0 and await connected(provider):
                 state.clear()
@@ -187,10 +199,14 @@ async def submit_code(provider: str, code: str):
     proc = state.get("process")
     if provider != "anthropic" or state.get("status") != "pending" or not proc or proc.returncode is not None:
         raise ValueError("No Claude login is awaiting a code")
-    if not code.strip() or len(code) > 4096 or "\n" in code or "\r" in code:
+    code = code.strip()
+    if not code or len(code) > 4096 or "\n" in code or "\r" in code:
         raise ValueError("Invalid authorization code")
-    proc.stdin.write((code.strip() + "\n").encode())
-    await proc.stdin.drain()
+    try:
+        proc.stdin.write((code + "\n").encode())
+        await proc.stdin.drain()
+    except (BrokenPipeError, ConnectionResetError):
+        raise ValueError("Claude sign-in closed. Start a fresh login and use its new code.") from None
 
 
 async def disconnect(provider: str):
