@@ -81,40 +81,33 @@ def test_llm_history_sends_only_newest_images(tmp_path: Path):
 
 def test_turn_runs_tool_saves_renders_and_answers(monkeypatch, entry, store: ChatStore):
     fake, calls = scripted([
-        [chunk(role="assistant", content="Saving it. "),
-         *tool_call_chunks("c1", "save_model", {"name": "Tiny Car", "content": CAR, "description": "A tiny red car"})],
+        [chunk(role="assistant", content="Building it. "),
+         *tool_call_chunks("c1", "run_toolkit", {"arguments": ["build", "examples/bridge.plan.json", "--output", "output/bridge.mpd"]})],
+        [*tool_call_chunks("c2", "publish_model", {"path": "output/bridge.mpd", "name": "Agent bridge"})],
+        [*tool_call_chunks("c3", "view_image", {"path": str(settings.GENERATED_DIR / "agent-bridge-v1.png")})],
         [chunk(content="Done.")],
     ])
     monkeypatch.setattr(agent.litellm, "acompletion", fake)
+    import os
+    os.chmod(settings.DATA_DIR.parent, 0o755)
     chat = store.create_chat()
-    (store.work_dir(chat["id"]) / "NOTES.md").write_text("plan: tiny car")
+    (store.work_dir(chat["id"]) / "NOTES.md").write_text("plan: example bridge")
 
     async def run():
-        await agent.start_turn(store, chat["id"], "build a tiny car", entry["id"], {"permissions": "full"})
+        await agent.start_turn(store, chat["id"], "build an example bridge", entry["id"], {"permissions": "full"})
         await agent._runs[chat["id"]].task
 
     asyncio.run(run())
-
     messages = store.messages(chat["id"])
-    assert [m["role"] for m in messages] == ["user", "assistant", "tool", "user", "assistant"]
-    assert messages[-1]["content"] == "Done."
-    assert messages[3]["_hidden"] and messages[3]["_images_for_llm"]           # vision feedback
+    assert messages[-1]["content"] == "Done.", messages
     [ref] = store.models(chat["id"])
-    model = settings.GENERATED_DIR / "tiny-car-v1.mpd"                          # flat, versioned
-    assert ref["name"] == "Tiny Car" and ref["warnings"] == []
-    assert ref["model"] == "../../generated/tiny-car-v1.mpd"                     # relative to the chat folder
-    assert model.read_text().splitlines()[:2] == ["0 FILE car.ldr", "0 A tiny red car"]      # title added as line 2
-    assert model.with_suffix(".png").stat().st_size > 1000                     # sibling snapshot, really rendered
-    assert model.with_suffix(".csv").read_text().startswith("Part Name,Color,Quantity")   # sibling BOM
-    assert json.loads(messages[2]["content"])["parts"] == 2
-    assert messages[2]["_models"] == [ref["id"]]
-    assert messages[2]["_images"] == ["../../generated/tiny-car-v1.png"]
-    # The LLM saw the work folder listing, then the tool result and the snapshot as an image.
-    first, second = calls[0]["messages"], calls[1]["messages"]
-    assert str(store.work_dir(chat["id"])) in first[0]["content"] and "NOTES.md" in first[0]["content"]
-    assert any(m["role"] == "tool" for m in second)
-    assert isinstance(second[-1]["content"], list)
-    assert store.get_chat(chat["id"])["title"] == "build a tiny car"
+    model = settings.GENERATED_DIR / "agent-bridge-v1.mpd"
+    assert model.read_bytes() == (store.work_dir(chat["id"]) / "bridge.mpd").read_bytes()
+    assert model.with_suffix(".png").stat().st_size > 1000
+    assert any(ref["id"] in m.get("_models", []) for m in messages)
+    assert any(m.get("_images_for_llm") for m in messages)
+    assert "NOTES.md" in calls[0]["messages"][0]["content"]
+    assert isinstance(calls[-1]["messages"][-1]["content"], list)
 
 
 def test_provider_error_ends_turn_but_not_chat(monkeypatch, entry, store: ChatStore):

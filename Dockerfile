@@ -11,7 +11,7 @@
 #   docker compose exec ldraw-astra-app bash # log in
 #
 # Pin versions explicitly:
-#   docker build --build-arg LEOCAD_TAG=v25.09 -t ldraw-astra-app .
+#   docker build --build-context astra=../ldraw-astra --build-arg LEOCAD_TAG=v25.09 -t ldraw-astra-app .
 
 # --- Stage 1: the web UI (React + Vite) --------------------------------------
 # Runs on the build host's own architecture (fast, no emulation); its output is
@@ -218,6 +218,23 @@ RUN pip install --no-cache-dir --break-system-packages -r requirements.txt
 # Browser login and inference use that same binary; no host credentials mounted.
 RUN python3 -c "import pathlib, subprocess, claude_agent_sdk; subprocess.run([str(pathlib.Path(claude_agent_sdk.__file__).parent / '_bundled' / 'claude'), '--version'], check=True)"
 ENV PYTHONPATH=/app
+# Keep the standalone builder intact. Only its distributable inputs enter the
+# image: never the sibling checkout's output, virtualenv, credentials or cache.
+COPY --from=astra pyproject.toml uv.lock /opt/ldraw-astra/
+RUN cd /opt/ldraw-astra && uv sync --frozen --no-dev --no-install-project --python "${PYTHON_VERSION}"
+COPY --from=astra ldraw_tools/ /opt/ldraw-astra/ldraw_tools/
+COPY --from=astra data/ /opt/ldraw-astra/data/
+COPY --from=astra docs/ /opt/ldraw-astra/docs/
+COPY --from=astra examples/ /opt/ldraw-astra/examples/
+COPY --from=astra prompts/ /opt/ldraw-astra/prompts/
+COPY --from=astra *.md *.py *.sh LICENSE CC-BY-SA-4.0 ldraw-agent /opt/ldraw-astra/
+RUN cd /opt/ldraw-astra && uv sync --locked --no-dev --python "${PYTHON_VERSION}" \
+    && mkdir -p .cache && chown agent:agent .cache \
+    && ln -s /data/output output \
+    && chmod -R a+rX /opt/ldraw-astra \
+    && chmod a+x ldraw-agent setup.sh check-model.sh prepare-glb.sh \
+    && uv cache clean
+ENV LDRAW_DIR=/opt/ldraw/ldraw LDRAW_ASTRA_TOOLKIT_DIR=/opt/ldraw-astra
 COPY --from=openai-login /opt/codex/package/vendor/x86_64-unknown-linux-musl/ /opt/codex/
 RUN ln -s /opt/codex/bin/codex /usr/local/bin/codex && codex --version
 

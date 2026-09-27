@@ -1,0 +1,39 @@
+{
+  "query": "brick",
+  "db": "/opt/ldraw-astra/data/ldraw-info.db",
+  "table_fields": [
+    "PARTS_DESCRIPTIONS_JEV.full_description"
+  ],
+  "model": "jev-1.13.0",
+  "exhaustive": false,
+  "results": [
+    {
+      "rank": 1,
+      "path": "sqlite://PARTS_DESCRIPTIONS_JEV/full_description?key=%7B%22_row_number_%22%3A%2012358%7D",
+      "score": 0.45,
+      "passage": 0,
+      "source": {
+        "database": "/opt/ldraw-astra/data/ldraw-info.db",
+        "field": "full_description",
+        "key": {
+          "_row_number_": 12358
+        },
+        "table": "PARTS_DESCRIPTIONS_JEV",
+        "type": "sqlite"
+      }
+    }
+  ],
+  "stats": {
+    "documents": 35257,
+    "passages": 35257,
+    "updated": 35257,
+    "skipped": 0,
+    "removed": 0,
+    "scored": 1,
+    "cache_hits": 0,
+    "api_calls": 1,
+    "input_tokens": 501,
+    "output_tokens": 22,
+    "elapsed_seconds": 2.213339833979262
+  }
+}

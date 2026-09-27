@@ -9,6 +9,31 @@
 # single-file mount once an editor replaces that file.
 services:
   ldraw-astra-app:
+    # With `up --watch`, edits in the standalone builder are copied into the
+    # Linux runtime. Its host .venv, output and cache never enter the container.
+    develop:
+      watch:
+        - action: sync
+          path: ../ldraw-astra
+          target: /opt/ldraw-astra
+          ignore:
+            - .git/
+            - .venv/
+            - .cache/
+            - .claude/
+            - .vscode/
+            - .pytest_cache/
+            - '**/__pycache__/'
+            - '*.egg-info/'
+            - output/
+            - .env
+            - .env.*
+            - pyproject.toml
+            - uv.lock
+        - action: rebuild
+          path: ../ldraw-astra/pyproject.toml
+        - action: rebuild
+          path: ../ldraw-astra/uv.lock
     volumes:
       - .:/app                          # leocad_render.py, example.py, web/backend
       - ./web/viewer:/opt/web/viewer    # viewer.html, player.html

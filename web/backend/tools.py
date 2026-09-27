@@ -9,18 +9,21 @@ Where things go:
 from __future__ import annotations
 
 import inspect
+import hashlib
 import json
 import re
+import shutil
 import time
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any, Awaitable, Callable
+from urllib.parse import quote
 
-import ldraw
-import render
 import sandbox
 import settings
-from leocad_render import bom_part_count, bom_path_for, list_models, snapshot_path_for
+import toolkit
+import environment_config
+from leocad_render import bom_path_for, list_models, snapshot_path_for
 from paths import safe_join
 from store import ChatStore
 
@@ -70,7 +73,13 @@ def resolve_path(ctx: ToolContext, path: str, *, write: bool = False) -> Path:
     folder. Writing (write_file): only its work folder.
     Relative paths are relative to the work folder."""
     path = (path or "").strip()
-    roots = [ctx.work_dir] if write else [ctx.work_dir, settings.GENERATED_DIR]
+    roots = [ctx.work_dir] if write else [ctx.work_dir, settings.GENERATED_DIR, settings.TOOLKIT_DIR]
+    if any(p.startswith(".") for p in Path(path).parts if p not in (".", "..")):
+        raise ToolError("Hidden configuration and runtime files are not accessible through file tools")
+    if path.startswith("output/") or path == "output":
+        path = str(ctx.work_dir / path.removeprefix("output").lstrip("/"))
+    elif not write and not path.startswith("/") and (settings.TOOLKIT_DIR / path).exists():
+        path = str(settings.TOOLKIT_DIR / path)
     if path.startswith("/"):
         for root in roots:
             if path == str(root) or path.startswith(str(root) + "/"):
@@ -85,115 +94,124 @@ def resolve_path(ctx: ToolContext, path: str, *, write: bool = False) -> Path:
     return resolved
 
 
-async def publish(ctx: ToolContext, model_path: Path, name: str, warnings: list[str]) -> tuple[dict, str | None]:
-    """A model in /data/generated: (re)make its snapshot and BOM, and link it to the chat."""
-    render_error = None
-    try:
-        await render.render_snapshot(model_path)
-    except Exception as exc:  # noqa: BLE001 - reported to the agent and the UI
-        render_error = render.describe_error(exc)
-    try:
-        await render.export_bom(model_path)
-    except Exception as exc:  # noqa: BLE001 - the Models page retries once the model changes
-        warnings = [*warnings, f"BOM export failed: {render.describe_error(exc)}"]
-    ref = ctx.store.add_model(ctx.chat_id, name, model_path, warnings)
-    ctx.emit("model", {"id": ref["id"], "name": name})
-    return ref, render_error
-
-
-def _collection_state() -> dict[Path, float]:
-    return {p: p.stat().st_mtime for p in list_models(settings.GENERATED_DIR)}
-
-
-# --- tools -----------------------------------------------------------------
-
-async def t_find_parts(ctx: ToolContext, query: str, limit: int = 15) -> ToolResult:
-    rows = ldraw.find_parts(query, limit=max(1, min(limit, 50)))
-    if not rows:
-        return ToolResult(f"No parts match {query!r}. Try fewer or more general words (e.g. 'plate 2 x 4', 'wheel', 'slope 45').")
-    return ToolResult("\n".join(f'{r["id"]}\t{r["description"]}' for r in rows))
-
-
-async def t_save_model(ctx: ToolContext, name: str, content: str, description: str | None = None) -> ToolResult:
-    slug = _slug(name)
-    settings.GENERATED_DIR.mkdir(parents=True, exist_ok=True)
-    version = _next_version(slug)
-    path = settings.GENERATED_DIR / f"{slug}-v{version}.mpd"
-
-    checked = ldraw.validate_model(content, main_name=f"{slug}.ldr", description=description or name)
-    path.write_text(checked.content)
-    sandbox.give_to_agent(path)
-    ref, render_error = await publish(ctx, path, name, checked.warnings)
-
-    report: dict[str, Any] = {
-        "saved": str(path),
-        "version": version,
-        "description": checked.title,
-        "part_lines": checked.part_count,
-        "parts": bom_part_count(bom_path_for(path)) if bom_path_for(path).exists() else "unknown (no BOM)",
-        "bom": str(bom_path_for(path)),
-        "submodels": checked.submodels,
-        "warnings": ref["warnings"] or "none",
-    }
-    png = snapshot_path_for(path)
-    if render_error:
-        report["render_error"] = render_error
-    else:
-        report["snapshot"] = str(png)
-    return ToolResult(json.dumps(report, indent=1), models=[ref], images=[png] if png.exists() else [])
-
-
-async def t_render_model(ctx: ToolContext, path: str, latitude: float = 30, longitude: float = 40,
-                         width: int = 1024, height: int = 768, submodel: str | None = None,
-                         step: int | None = None) -> ToolResult:
-    model = resolve_path(ctx, path)
-    if not model.is_file():
-        raise ToolError(f"{path} does not exist")
-    suffix = f"{int(latitude)}_{int(longitude)}" + (f"-step{step}" if step else "") + (f"-{_slug(submodel)}" if submodel else "")
-    png = ctx.chat_dir / "renders" / f"{model.stem}-{suffix}.png"
-    try:
-        await render.render(model, png, width=max(64, min(width, 2048)), height=max(64, min(height, 2048)),
-                            camera_angles=(latitude, longitude), submodel=submodel, step=step)
-    except Exception as exc:  # noqa: BLE001
-        raise ToolError(f"render failed: {render.describe_error(exc)}") from None
-    return ToolResult(f"Rendered {model} -> {png} (shown to the user)", images=[png])
-
-
 async def _run_and_collect(ctx: ToolContext, argv: list[str], timeout: int) -> ToolResult:
-    before = _collection_state()
-    result = await sandbox.run(argv, ctx.work_dir, timeout=max(1, min(timeout, 300)))
-    text = result.as_text()
-    models, images = [], []
-    for path, mtime in sorted(_collection_state().items()):
-        if before.get(path) == mtime:
-            continue
-        checked = ldraw.validate_model(path.read_text(errors="replace"), main_name=path.name)
-        ref, render_error = await publish(ctx, path, path.stem, checked.warnings)
-        models.append(ref)
-        png = snapshot_path_for(path)
-        if png.exists() and not render_error:
-            images.append(png)
-        text += f"\n[published {path}: {checked.part_count} parts"
-        text += f", snapshot failed: {render_error}]" if render_error else f", snapshot {png}]"
-        if checked.warnings:
-            text += "\n  warnings: " + "; ".join(checked.warnings[:10])
-    return ToolResult(text, models=models, images=images)
+    result = await run_command(ctx, argv, timeout)
+    return ToolResult(result.as_text())
+
+
+async def run_command(ctx: ToolContext, argv: list[str], timeout: int) -> sandbox.RunResult:
+    env = toolkit.environment()
+    key = environment_config.snapshot().get("TYPESAFE_API_KEY", "")
+    if key:
+        env["TYPESAFE_API_KEY"] = key
+    return await sandbox.run(argv, toolkit.workspace(ctx.store, ctx.chat_id), timeout=max(1, min(timeout, 1800)),
+                             env_extra=env, secrets=(key,),
+                             on_output=lambda channel, text: ctx.emit("tool_output", {"channel": channel, "delta": text}))
 
 
 async def t_run_python(ctx: ToolContext, code: str, timeout: int = 60) -> ToolResult:
-    scripts = ctx.work_dir / ".scripts"
+    scripts = ctx.work_dir / "generators"
     scripts.mkdir(parents=True, exist_ok=True)
     script = scripts / f"run-{time.strftime('%Y%m%d-%H%M%S')}-{int(time.time() * 1000) % 1000:03d}.py"
     script.write_text(code)
-    return await _run_and_collect(ctx, ["python3", str(script)], timeout)
+    sandbox.give_to_agent(scripts)
+    sandbox.give_to_agent(script)
+    result = await _run_and_collect(ctx, ["python3", str(script)], timeout)
+    result.content += f"\nSaved generator: {artifact_url(ctx, script)}"
+    return result
 
 
 async def t_run_shell(ctx: ToolContext, command: str, timeout: int = 60) -> ToolResult:
-    return await _run_and_collect(ctx, ["bash", "-c", command], timeout)
+    return await _run_and_collect(ctx, ["bash", "-o", "pipefail", "-c", command], timeout)
+
+
+async def t_run_toolkit(ctx: ToolContext, arguments: list[str], timeout: int = 300) -> ToolResult:
+    if not arguments or not all(isinstance(a, str) and "\0" not in a for a in arguments):
+        raise ToolError("arguments must be a nonempty array of CLI argument strings")
+    return await _run_and_collect(ctx, ["./ldraw-agent", *arguments], timeout)
+
+
+async def t_report_progress(ctx: ToolContext, summary: str) -> ToolResult:
+    summary = summary.strip()[:2000]
+    ctx.emit("progress", {"summary": summary})
+    return ToolResult(summary)
+
+
+async def t_view_image(ctx: ToolContext, path: str) -> ToolResult:
+    source = resolve_path(ctx, path)
+    if not source.is_file() or source.stat().st_size > 16 * 1024 * 1024:
+        raise ToolError("Choose an existing PNG smaller than 16 MB")
+    data = source.read_bytes()
+    if not data.startswith(b"\x89PNG\r\n\x1a\n"):
+        raise ToolError("view_image accepts PNG renders")
+    target = ctx.chat_dir / "renders" / (hashlib.sha256(data).hexdigest()[:24] + ".png")
+    target.parent.mkdir(parents=True, exist_ok=True)
+    target.write_bytes(data)
+    return ToolResult(f"Opened {path} for visual review.", images=[target])
+
+
+def artifact_url(ctx: ToolContext, path: Path) -> str:
+    return f"/api/chats/{ctx.chat_id}/artifacts/" + quote(path.relative_to(ctx.work_dir).as_posix())
+
+
+async def t_publish_model(ctx: ToolContext, path: str, name: str | None = None) -> ToolResult:
+    source = resolve_path(ctx, path, write=True)
+    if not source.is_file() or source.suffix.lower() not in {".mpd", ".ldr"}:
+        raise ToolError("Publish a self-contained .mpd or .ldr from this chat's output folder")
+    if source.stat().st_size > 32 * 1024 * 1024:
+        raise ToolError("Model exceeds the 32 MB publication limit")
+    import uuid
+    review = ctx.work_dir / "publication" / uuid.uuid4().hex[:12]
+    review.mkdir(parents=True)
+    sandbox.give_to_agent(review.parent)
+    sandbox.give_to_agent(review)
+    # Validate and render the same captured revision even if another tool or
+    # the user edits the working source while publication is running.
+    source_bytes = source.read_bytes()
+    revision = review / "model.mpd"
+    revision.write_bytes(source_bytes)
+    report = review / "validation.json"
+    ctx.emit("progress", {"summary": "Checking the model with LDraw Astra before publication."})
+    validation = await run_command(ctx, ["./ldraw-agent", "validate", str(revision), "--geometry",
+                                         "--detail", "summary", "--report", str(report)], 1800)
+    if validation.exit_code not in (0, 1) or not report.is_file():
+        return ToolResult("Error: toolkit validation could not finish; model was not published.\n" + validation.as_text())
+    warnings = ["Physical buildability is not proven; read the validation and visual review reports."]
+    if validation.exit_code == 1:
+        warnings.append("Toolkit validation failed. This revision is for inspection and needs repair.")
+    slug = _slug(name or source.stem)
+    settings.GENERATED_DIR.mkdir(parents=True, exist_ok=True)
+    # Reserve synchronously before the next await, including concurrent chats.
+    target = settings.GENERATED_DIR / f"{slug}-v{_next_version(slug)}.mpd"
+    target.write_bytes(source_bytes)
+    ctx.emit("progress", {"summary": "Rendering the published model and exporting its parts list."})
+    rendered = await run_command(ctx, ["./ldraw-agent", "render", str(target), "--outdir", str(review),
+                                      "--views", "home"], 600)
+    image, bom = review / "home.png", review / "leocad-bom.csv"
+    if rendered.exit_code == 0 and image.exists() and bom.exists():
+        shutil.copyfile(image, snapshot_path_for(target))
+        shutil.copyfile(bom, bom_path_for(target))
+    else:
+        warnings.append("Preview/BOM rendering failed; the model can still be opened in 3D.")
+    ref = ctx.store.add_model(ctx.chat_id, name or source.stem, target, warnings)
+    ctx.emit("model", {"id": ref["id"], "name": ref["name"]})
+    result = {"model_url": "/files/generated/" + quote(target.name), "source": artifact_url(ctx, source),
+              "sha256": hashlib.sha256(source_bytes).hexdigest(),
+              "validation": artifact_url(ctx, report), "checks_passed": validation.exit_code == 0,
+              "validation_path": str(report),
+              "physical_validity": "not_proven", "warnings": warnings,
+              "note": "Open the preview with view_image and complete visual review and compare-bom before final delivery."}
+    if image.exists():
+        result["preview"] = artifact_url(ctx, image)
+        result["preview_path"] = str(image)
+    if bom.exists():
+        result["bom"] = artifact_url(ctx, bom)
+        result["bom_path"] = str(bom)
+    return ToolResult(json.dumps(result, indent=2), models=[ref])
 
 
 async def t_list_files(ctx: ToolContext, path: str = "") -> ToolResult:
-    folder = resolve_path(ctx, path) if path else ctx.work_dir
+    folder = resolve_path(ctx, path) if path else toolkit.workspace(ctx.store, ctx.chat_id)
     if not folder.is_dir():
         raise ToolError(f"{path or folder} is not a folder")
     entries = sorted(folder.iterdir(), key=lambda p: (not p.is_dir(), p.name.lower()))
@@ -203,17 +221,22 @@ async def t_list_files(ctx: ToolContext, path: str = "") -> ToolResult:
     return ToolResult(f"{folder}:\n" + ("\n".join(lines) or "(empty)"))
 
 
-async def t_read_file(ctx: ToolContext, path: str, max_chars: int = 40_000) -> ToolResult:
+async def t_read_file(ctx: ToolContext, path: str, max_chars: int = 40_000, offset: int = 0) -> ToolResult:
     file = resolve_path(ctx, path)
     if not file.is_file():
         raise ToolError(f"{path} is not a file")
+    if file.stat().st_size > 8 * 1024 * 1024:
+        raise ToolError("File exceeds 8 MB; inspect it with a bounded toolkit or shell command")
     data = file.read_bytes()
     if b"\0" in data[:4096]:
         raise ToolError(f"{path} is a binary file ({len(data)} bytes)")
     text = data.decode(errors="replace")
     limit = max(1000, min(max_chars, 200_000))
-    if len(text) > limit:
-        text = text[:limit] + f"\n... [truncated: {len(text)} characters total]"
+    total = len(text)
+    offset = max(0, offset)
+    text = text[offset:offset + limit]
+    if offset + limit < total:
+        text += f"\n... [truncated: {total} characters total; continue at offset {offset + limit}]"
     return ToolResult(text)
 
 
@@ -241,63 +264,46 @@ def _fn(name: str, description: str, properties: dict, required: list[str]) -> d
 
 
 TOOLS: dict[str, tuple[dict, Callable[..., Awaitable[ToolResult]]]] = {
-    "find_parts": (_fn(
-        "find_parts",
-        "Search the official LDraw parts library by description or part number. "
-        "Returns part ids (e.g. 3001.dat) with descriptions. Use it to find real part ids before writing a model.",
-        {"query": {"type": "string", "description": "e.g. 'brick 2 x 4', 'plate 1 x 2', 'wheel', '3001'"},
-         "limit": {"type": "integer", "description": "max results (default 15)"}},
-        ["query"]), t_find_parts),
-    "save_model": (_fn(
-        "save_model",
-        "Publish a finished LDraw model (.mpd/.ldr text) to the model collection (/data/generated), validate it "
-        "and render its snapshot. Each call creates a new version (name-v1.mpd, name-v2.mpd, ...). Returns "
-        "validation warnings (unknown parts, bad colours) and the snapshot path. The user sees the snapshot in "
-        "the chat and on the Models page, and can open it in 3D.",
-        {"name": {"type": "string", "description": "short model name, e.g. 'red car'"},
-         "content": {"type": "string", "description": "full LDraw file content"},
-         "description": {"type": "string", "description": "one-line description, written as the model's title "
-                         "line (line 2 of the .mpd) if the content doesn't have one; shown on the Models page"}},
-        ["name", "content"]), t_save_model),
-    "render_model": (_fn(
-        "render_model",
-        "Render any model file (in /data/generated or your work folder) from a chosen "
-        "camera angle, e.g. to check the back or underside of a build. The image is shown in the chat.",
-        {"path": {"type": "string"},
-         "latitude": {"type": "number", "description": "degrees above the horizon (default 30)"},
-         "longitude": {"type": "number", "description": "degrees around the model (default 40)"},
-         "width": {"type": "integer"}, "height": {"type": "integer"},
-         "submodel": {"type": "string"}, "step": {"type": "integer", "description": "render up to this build step"}},
-        ["path"]), t_render_model),
-    "run_python": (_fn(
-        "run_python",
-        "Run a Python 3 script with your work folder as the current directory. Useful for generating models "
-        "programmatically. `from leocad_render import render_image` is available. Keep drafts in the work folder; "
-        "a .mpd/.ldr/.dat the script writes (or changes) in /data/generated is published: snapshotted and shown "
-        "to the user.",
-        {"code": {"type": "string"}, "timeout": {"type": "integer", "description": "seconds, default 60, max 300"}},
+    "run_toolkit": (_fn("run_toolkit",
+        "Run the standalone LDraw Astra CLI. All commands are available: doctor, spec, discover, catalog, "
+        "study, extract, examples, build, validate, inspect, render, compare-bom, manual, vehicle, spaceship, "
+        "technic, mechanism and more. Read instructions.md and relevant docs first. Output goes under output/. "
+        "Arguments are an array, without shell quoting or the executable. Use --help to inspect subcommands.",
+        {"arguments": {"type": "array", "items": {"type": "string"}},
+         "timeout": {"type": "integer", "description": "Seconds, default 300, maximum 1800"}},
+        ["arguments"]), t_run_toolkit),
+    "publish_model": (_fn("publish_model",
+        "Publish an output MPD revision as an interactive model card in this chat and the Models collection. "
+        "Preserves source bytes, runs toolkit geometry validation, renders a snapshot and BOM. Failed checks "
+        "are flagged for repair. Use after generating a model and again after final visual review. "
+        "Return links to plans, generator, manifests, reports and reviews alongside the card.",
+        {"path": {"type": "string"}, "name": {"type": "string"}}, ["path"]), t_publish_model),
+    "view_image": (_fn("view_image", "Open a PNG from the toolkit examples or output for actual visual review. "
+        "The image is shown to you and the user. Use on rendered views before recording a visual review.",
+        {"path": {"type": "string"}}, ["path"]), t_view_image),
+    "report_progress": (_fn("report_progress", "Show a concise progress update: current phase, design decisions, "
+        "completed checks, remaining work. Use throughout substantial builds, without private internal reasoning.",
+        {"summary": {"type": "string"}}, ["summary"]), t_report_progress),
+    "run_python": (_fn("run_python", "Run Python with the LDraw Astra virtualenv (pyldraw3, numpy, jsonschema). "
+        "Working directory has the toolkit repository layout. Use its builder/serializer; write under output/. "
+        "Code is saved for reproducibility. Call publish_model for user-visible model cards.",
+        {"code": {"type": "string"}, "timeout": {"type": "integer", "description": "Seconds, default 60, max 1800"}},
         ["code"]), t_run_python),
-    "run_shell": (_fn(
-        "run_shell",
-        "Run a bash command in your work folder. `leocad` is on PATH. Models written to /data/generated are "
-        "published like with run_python.",
-        {"command": {"type": "string"}, "timeout": {"type": "integer"}},
+    "run_shell": (_fn("run_shell", "Run bash in the toolkit workspace, with pipefail and live output. "
+        "./ldraw-agent, ./check-model.sh, ./prepare-glb.sh and global CLIs are available. "
+        "TYPESAFE_API_KEY comes from Settings; never print it. Write under output/. "
+        "Call publish_model to show a generated model in the chat.",
+        {"command": {"type": "string"}, "timeout": {"type": "integer", "description": "Seconds, default 60, max 1800"}},
         ["command"]), t_run_shell),
-    "list_files": (_fn(
-        "list_files",
-        "List a folder: your work folder (default) or /data/generated.",
+    "list_files": (_fn("list_files", "List toolkit resources or this chat's output/ (default: repository root).",
         {"path": {"type": "string"}}, []), t_list_files),
-    "read_file": (_fn(
-        "read_file",
-        "Read a text file from your work folder or /data/generated.",
-        {"path": {"type": "string"}, "max_chars": {"type": "integer"}},
+    "read_file": (_fn("read_file", "Read toolkit instructions, documentation, examples or your output files. "
+        "Use offset to continue a truncated file. Query PDFs through run_toolkit spec.",
+        {"path": {"type": "string"}, "max_chars": {"type": "integer"}, "offset": {"type": "integer"}},
         ["path"]), t_read_file),
-    "write_file": (_fn(
-        "write_file",
-        "Write (or append to) a text file in your work folder, e.g. NOTES.md with the plan and progress, or a "
-        "draft model. Relative paths are relative to the work folder.",
-        {"path": {"type": "string"}, "content": {"type": "string"},
-         "append": {"type": "boolean", "description": "append instead of overwrite (default false)"}},
+    "write_file": (_fn("write_file", "Write a plan, generator, notes or report in output/. "
+        "Bare relative paths also resolve under output/. Shared toolkit resources cannot be changed.",
+        {"path": {"type": "string"}, "content": {"type": "string"}, "append": {"type": "boolean"}},
         ["path", "content"]), t_write_file),
 }
 

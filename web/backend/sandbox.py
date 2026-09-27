@@ -8,12 +8,14 @@ them. This is meant for a local single-user tool, not hostile multi-tenancy.
 from __future__ import annotations
 
 import asyncio
+import codecs
 import os
 import pwd
 import signal
 import time
 from dataclasses import dataclass
 from pathlib import Path
+from typing import Callable
 
 AGENT_USER = os.environ.get("LDRAW_ASTRA_AGENT_USER", "agent")
 MAX_OUTPUT_CHARS = 20_000
@@ -72,7 +74,10 @@ def _truncate(text: str) -> str:
     return f"{text[:half]}\n... [{len(text) - MAX_OUTPUT_CHARS} characters omitted] ...\n{text[-half:]}"
 
 
-async def run(argv: list[str], cwd: Path, timeout: int) -> RunResult:
+async def run(argv: list[str], cwd: Path, timeout: int, *,
+              env_extra: dict[str, str] | None = None,
+              on_output: Callable[[str, str], None] | None = None,
+              secrets: tuple[str, ...] = ()) -> RunResult:
     cwd.mkdir(parents=True, exist_ok=True)
     account = _agent_account()
     home = Path(account.pw_dir) if account else cwd
@@ -82,6 +87,7 @@ async def run(argv: list[str], cwd: Path, timeout: int) -> RunResult:
         "LANG": "C.UTF-8",
         "XDG_RUNTIME_DIR": f"/tmp/runtime-{AGENT_USER}" if account else os.environ.get("XDG_RUNTIME_DIR", "/tmp"),
         **{k: os.environ[k] for k in PASSTHROUGH_ENV if k in os.environ},
+        **(env_extra or {}),
     }
     # Limits via the shell rather than preexec_fn (unsafe in a threaded server).
     command = [
@@ -101,21 +107,65 @@ async def run(argv: list[str], cwd: Path, timeout: int) -> RunResult:
         start_new_session=True,
     )
     timed_out = False
+    # Drain both pipes continuously, but retain bounded head/tail buffers. Long
+    # renders and index builds must neither block the event loop nor exhaust RAM.
+    async def drain(pipe, channel):
+        head, tail, total, pending = "", "", 0, ""
+        decoder = codecs.getincrementaldecoder("utf-8")("replace")
+        keep = max((len(s) for s in secrets if s), default=1) - 1
+
+        def accept(text):
+            nonlocal head, tail, total
+            total += len(text)
+            half = MAX_OUTPUT_CHARS // 2
+            if len(head) < half:
+                take = min(half - len(head), len(text))
+                head += text[:take]
+                text = text[take:]
+            tail = (tail + text)[-MAX_OUTPUT_CHARS:]
+
+        while True:
+            block = await pipe.read(4096)
+            pending += decoder.decode(block, final=not block)
+            # Replace complete secrets before splitting, retaining enough suffix
+            # to catch a credential split across adjacent pipe reads.
+            for secret in secrets:
+                if secret:
+                    pending = pending.replace(secret, "[redacted]")
+            n = len(pending) if not block else max(0, len(pending) - keep)
+            text, pending = pending[:n], pending[n:]
+            accept(text)
+            if text and on_output:
+                on_output(channel, text)
+            if not block:
+                break
+        if total <= MAX_OUTPUT_CHARS:
+            return head + tail
+        return f"{head}\n... [{total - MAX_OUTPUT_CHARS} characters omitted] ...\n{tail[-MAX_OUTPUT_CHARS // 2:]}"
+
+    readers = [asyncio.create_task(drain(proc.stdout, "stdout")), asyncio.create_task(drain(proc.stderr, "stderr"))]
+
+    async def finish():
+        await proc.wait()
+        return await asyncio.gather(*readers)
+
+    completion = asyncio.create_task(finish())
     try:
-        out, err = await asyncio.wait_for(proc.communicate(), timeout)
+        await asyncio.wait_for(asyncio.shield(completion), timeout)
     except (asyncio.TimeoutError, asyncio.CancelledError) as exc:
         timed_out = isinstance(exc, asyncio.TimeoutError)
         try:
             os.killpg(proc.pid, signal.SIGKILL)   # the whole group: shells spawn children
         except ProcessLookupError:
             pass
-        out, err = await proc.communicate()
+        await completion
         if not timed_out:
             raise
+    out, err = await completion
     return RunResult(
         exit_code=None if timed_out else proc.returncode,
-        stdout=_truncate(out.decode(errors="replace")),
-        stderr=_truncate(err.decode(errors="replace")),
+        stdout=out,
+        stderr=err,
         timed_out=timed_out,
         seconds=time.monotonic() - started,
     )

@@ -42,3 +42,4 @@ PLAYER_VENDOR_DIR = Path(os.environ.get("LDRAW_ASTRA_WEB_PLAYER_VENDOR_DIR", "/o
 XR_DIR = Path(os.environ.get("LDRAW_ASTRA_WEB_XR_DIR", "/opt/web/xr"))                                # web/xr build
 
 PROMPTS_DIR = Path(__file__).parent / "prompts"
+TOOLKIT_DIR = Path(os.environ.get("LDRAW_ASTRA_TOOLKIT_DIR", "/opt/ldraw-astra"))

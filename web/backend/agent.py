@@ -11,7 +11,8 @@ import asyncio
 import base64
 import json
 import logging
-from dataclasses import dataclass, field
+import time
+from dataclasses import dataclass, field, replace
 from pathlib import Path
 from typing import AsyncIterator, Callable, Optional
 
@@ -22,6 +23,7 @@ import browser_auth
 import inference
 import model_catalog
 import settings
+import toolkit
 from store import ChatStore
 from tools import TOOL_SCHEMAS, ToolContext, ToolResult, dispatch
 
@@ -30,7 +32,7 @@ log = logging.getLogger("agent")
 litellm.drop_params = False           # unsupported settings must fail visibly
 litellm.suppress_debug_info = True
 
-MAX_STEPS = 30
+MAX_STEPS = 150
 KEEP_IMAGE_MESSAGES = 2               # only the newest renders are re-sent to vision models
 WORK_LISTING_LIMIT = 60               # files of the work folder listed in the system prompt
 
@@ -44,10 +46,43 @@ class Run:
     subscribers: set[asyncio.Queue] = field(default_factory=set)
     options: dict = field(default_factory=dict)
     approvals: dict[str, tuple[dict, asyncio.Future]] = field(default_factory=dict)
+    started_at: float = field(default_factory=time.time)
+    last_event_at: float = field(default_factory=time.time)
+    phase: str = "Preparing the build workspace"
 
     def emit(self, event: str, data: dict) -> None:
+        self.last_event_at = time.time()
+        if event == "progress":
+            self.phase = data["summary"]
+        elif event == "tool_start":
+            data.setdefault("started_at", time.time())
+            self.phase = {
+                "run_toolkit": "Running LDraw Astra",
+                "run_python": "Running the model generator",
+                "run_shell": "Running a build command",
+                "publish_model": "Checking and publishing the model",
+                "view_image": "Reviewing a rendered image",
+                "read_file": "Reading build instructions or reports",
+                "write_file": "Saving build files",
+                "list_files": "Inspecting available files",
+            }.get(data.get("name"), self.phase)
+        elif event == "tool_output":
+            tool = self.tools_running.get(data.get("id"))
+            if tool is not None:
+                tool["output"] = (tool.get("output", "") + data.get("delta", ""))[-12000:]
         for queue in list(self.subscribers):
-            queue.put_nowait((event, data))
+            if queue.full():
+                # Disconnect slow consumers; their reconnection receives a fresh
+                # state snapshot rather than an unbounded backlog of command logs.
+                while not queue.empty():
+                    queue.get_nowait()
+                queue.put_nowait(("reconnect", {}))
+                self.subscribers.discard(queue)
+            else:
+                queue.put_nowait((event, dict(data)))
+
+    def activity(self) -> dict:
+        return {"started_at": self.started_at, "last_event_at": self.last_event_at, "phase": self.phase}
 
 
 _runs: dict[str, Run] = {}
@@ -76,10 +111,17 @@ def work_listing(work_dir: Path) -> str:
 def system_prompt(store: ChatStore, chat_id: str) -> str:
     work_dir = store.work_dir(chat_id)
     text = (settings.PROMPTS_DIR / "system.md").read_text()
-    return (text.replace("{work_dir}", str(work_dir))
+    prompt = (text.replace("{work_dir}", str(work_dir))
                 .replace("{work_listing}", work_listing(work_dir))
                 .replace("{generated_dir}", str(settings.GENERATED_DIR))
-                .replace("{ldraw_dir}", str(settings.LDRAW_DIR)))
+                .replace("{ldraw_dir}", str(settings.LDRAW_DIR))
+                .replace("{artifact_base}", f"/api/chats/{chat_id}/artifacts")
+                .replace("{toolkit_instructions}", toolkit.instructions()))
+    notes = work_dir / "NOTES.md"
+    if notes.is_file() and not notes.is_symlink():
+        with notes.open(errors="replace") as handle:
+            prompt += "\n\nCurrent hand-over notes (workspace data):\n" + handle.read(16000)
+    return prompt
 
 
 def _image_data_url(path: Path) -> Optional[str]:
@@ -174,6 +216,8 @@ async def start_turn(store: ChatStore, chat_id: str, text: str, llm_model_id: Op
     _runs[chat_id] = run
     run.draft, run.tools_running = "", {}
     run.options, run.approvals = options, {}
+    run.started_at = run.last_event_at = time.time()
+    run.phase = "Preparing the build workspace"
     run.task = asyncio.create_task(_run_turn(store, run, entry))
 
 
@@ -194,19 +238,19 @@ async def subscribe(chat_id: str) -> AsyncIterator[tuple[str, dict]]:
     if run is None or not is_running(chat_id):
         yield "snapshot", {"running": False, "draft": "", "tools": []}
         return
-    queue: asyncio.Queue = asyncio.Queue()
+    queue: asyncio.Queue = asyncio.Queue(maxsize=256)
     run.subscribers.add(queue)
     try:
         yield "snapshot", {"running": True, "draft": run.draft, "tools": list(run.tools_running.values()),
-                           "approvals": [a for a, _ in run.approvals.values()]}
+                           "approvals": [a for a, _ in run.approvals.values()], "activity": run.activity()}
         while True:
             try:
-                event, data = await asyncio.wait_for(queue.get(), timeout=15)
+                event, data = await asyncio.wait_for(queue.get(), timeout=5)
             except asyncio.TimeoutError:
-                yield "ping", {}                  # keeps proxies/browsers from timing out
+                yield "activity", run.activity()
                 continue
             yield event, data
-            if event == "done":
+            if event in {"done", "reconnect"}:
                 return
     finally:
         run.subscribers.discard(queue)
@@ -239,6 +283,7 @@ async def _run_turn(store: ChatStore, run: Run, entry: dict) -> None:
             if removed:
                 run.emit("context", {"removed": removed})
             kwargs = {"tools": available_tools(run.options)} if use_tools else {}
+            run.emit("progress", {"summary": "Agent is reviewing the request and choosing the next step."})
             stream = await litellm.acompletion(**params, messages=messages, stream=True, num_retries=2, **kwargs)
 
             run.draft = ""
@@ -313,7 +358,7 @@ async def _run_turn(store: ChatStore, run: Run, entry: dict) -> None:
         run.emit("done", {})
 
 
-READ_TOOLS = {"find_parts", "list_files", "read_file"}
+READ_TOOLS = {"list_files", "read_file", "view_image", "report_progress"}
 
 
 def mode_prompt(options: dict) -> str:
@@ -353,7 +398,8 @@ async def execute_tool(run: Run, ctx: ToolContext, call_id: str, name: str, argu
             run.emit("approval_resolved", {"id": approval_id})
         if not approved:
             return ToolResult("Tool denied by the user or approval timed out. Do not retry without a new user instruction.")
-    return await dispatch(ctx, name, arguments)
+    scoped = replace(ctx, emit=lambda event, data: run.emit(event, {**data, "id": call_id} if event == "tool_output" else data))
+    return await dispatch(scoped, name, arguments)
 
 
 def decide(chat_id: str, approval_id: str, approved: bool) -> bool:

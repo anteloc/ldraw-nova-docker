@@ -285,8 +285,8 @@ def test_claude_adapter_exposes_only_app_tools_and_runs_gate(monkeypatch):
         async def __aexit__(self, *args): pass
         async def query(self, message): recorded["input"] = [m async for m in message]
         async def receive_response(self):
-            tool = recorded["tools"][0]
-            await tool.handler({"query": "brick"})
+            tool = next(t for t in recorded["tools"] if t.name == "read_file")
+            await tool.handler({"path": "docs/agent/geometry.md"})
             yield AssistantMessage(content=[TextBlock(text="answer")], model="claude-opus-5-5")
     def server(**kwargs):
         recorded["tools"] = kwargs["tools"]
@@ -307,5 +307,5 @@ def test_claude_adapter_exposes_only_app_tools_and_runs_gate(monkeypatch):
     assert options.tools == [] and options.strict_mcp_config and options.setting_sources == []
     assert options.permission_mode == "dontAsk"
     assert set(t.name for t in recorded["tools"]) == agent.READ_TOOLS
-    assert recorded["executed"][3] == "find_parts"
+    assert recorded["executed"][3] == "read_file"
     assert [m["role"] for m in saved] == ["assistant", "tool", "assistant"]

@@ -64,7 +64,7 @@ A single image containing:
 └── data/                  # mounted at /data (not baked in)
     ├── generated/         # the model collection, flat: car.mpd + car.png (snapshot) + car.csv (BOM), ...
     ├── chats/<chat>/      # one folder per chat: history, model references, renders
-    └── output/<chat>/     # one work folder per chat, for the agents (not shown in the UI)
+    └── output/<chat>/     # editable sources, plans, reports and previews per chat
 ```
 
 | Host | Container | |
@@ -98,10 +98,10 @@ A single image containing:
 ## Build
 
 ```bash
-docker build -t ldraw-astra-app .
+docker build --build-context astra=../ldraw-astra -t ldraw-astra-app .
 # pin a specific stable release explicitly (check
 # https://github.com/leozide/leocad/releases for available tags):
-docker build --build-arg LEOCAD_TAG=v25.09 -t ldraw-astra-app .
+docker build --build-context astra=../ldraw-astra --build-arg LEOCAD_TAG=v25.09 -t ldraw-astra-app .
 ```
 
 The build script resolves the AppImage's exact asset URL from the GitHub API
@@ -211,7 +211,9 @@ open http://localhost:8765                # port: LDRAW_ASTRA_WEB_PORT in .env
    These are backend environment overrides: settings read only at startup
    take effect on backend restart, and Docker ports and other container
    settings remain managed by Compose. Tool subprocesses keep their restricted
-   environment, so adding API keys here does not expose them to agent scripts.
+   environment. Only `TYPESAFE_API_KEY` is deliberately passed to builder commands for Jev;
+   provider API keys and browser credentials remain private. The TypeSafe value is
+   redacted from command logs and uses the Settings override immediately.
 
    For **OpenRouter**, use **Add model → OpenRouter** or select an OpenRouter
    model preset. The presets include GPT-6 Astra, Sol and Luna, GPT-5.6 Terra,
@@ -240,12 +242,20 @@ open http://localhost:8765                # port: LDRAW_ASTRA_WEB_PORT in .env
    the UI: put `ANTHROPIC_API_KEY=...` in a `.env` file next to
    `docker-compose.yml` and enter `os.environ/ANTHROPIC_API_KEY` as the key.
    Existing LiteLLM proxy `model_list` YAML can be imported.
-2. **Chat.** Ask for a model. The agent searches the parts library, writes
-   an `.mpd`, validates it (unknown
-   parts, bad colours), publishes it to `data/generated` with a snapshot and —
-   if the model accepts images — looks at the snapshot to fix problems. It can
-   also run Python or shell in its work folder (e.g. to generate a model with
-   a script); anything it writes into `data/generated` is published too.
+2. **Chat.** Ask for a model. The agent follows the standalone `ldraw-astra`
+   instructions, studies references, builds editable plans/modules, validates
+   geometry, renders and opens images for visual review. `publish_model`
+   preserves the MPD and adds the same interactive model card used on Models:
+   3D view, step player, VR and downloads. Validation failures remain visible;
+   successful checks do not prove physical buildability. Editable sources,
+   attribution, check reports, BOM comparisons and reviews stay under the
+   chat's output folder and can be linked for download.
+
+   Long builds show the current activity, elapsed time, command output and
+   progress summaries. Reloading reconnects to the active command and its
+   recent output. Stop terminates the running process group. Commands have a
+   30-minute maximum; a turn permits up to 150 model/tool rounds. At that limit,
+   send a message to continue from the saved work and `NOTES.md`.
    The composer offers **Agent**, **Plan** (read-only inspection), and **Chat**
    (no tools). **Ask before changes** is the default: approve or deny each write,
    render, or command in the chat. **Full access (container)** skips those prompts
@@ -256,7 +266,8 @@ open http://localhost:8765                # port: LDRAW_ASTRA_WEB_PORT in .env
 
    Effort choices follow the selected model's documented capabilities. Context
    budget limits the history sent on a turn, preserving complete tool exchanges
-   and the latest user turn; older turns may be omitted, but saved history stays
+   and the latest user request; older turns and completed tool rounds may be omitted,
+   with current hand-over notes retained, but saved history stays
    intact. It does not enlarge the provider's context window. Attach up to four
    PNG/JPEG/WebP images (5 MB each, 12 MB total) for models with vision.
 3. **Snapshots** appear in the chat. Click one for the 3D viewer, or download
@@ -292,7 +303,7 @@ Where things live:
 | Notes on a model (Info) | `data/generated/<name>.md`, optional: Markdown, written by hand |
 | Demo models | `models-demo/` in the repo (`/opt/models-demo/` in the image): each with its `.png`, `.csv` and optional `.md`, all made beforehand |
 | A chat | `data/chats/<chat>/`: `chat.json` (title, model), `messages.jsonl` (history), `models.jsonl` (references to its models, e.g. `../../generated/red-car-v1.mpd`), `renders/` (extra renders shown in the chat) |
-| A chat's work folder | `data/output/<chat>/`: the agents' notes (`NOTES.md`), plans, drafts, scripts (`.scripts/`) — never served by the web app |
+| A chat's work folder | `data/output/<chat>/`: the agents' notes (`NOTES.md`), plans, drafts, scripts (`generators/`); explicit artifact downloads are available in chat |
 | LLM settings, API keys, browser sessions | `/config` volume (`docker compose down -v` deletes it); tokens under `/config/browser/{openai,anthropic}` |
 
 **Switching models mid-chat.** Pick another model in the composer at any
@@ -477,7 +488,9 @@ x64 build, since the emulated CPU on Apple Silicon has no AVX2.
   can reach it can spend your API keys and run code in the container.
 * Agent code runs as the unprivileged `agent` user with a scrubbed environment
   and CPU/file-size limits. It can't read `/config` (API keys) and its tools
-  only reach `data/generated` and its own work folder, but code it runs can
+  can read the toolkit resources and generated models and write its own work folder.
+  Builder processes receive the configured TypeSafe key for Jev (other provider
+  secrets are excluded). Code it runs can
   write anywhere in `/data` on Docker Desktop (Mac/Windows bind mounts don't
   enforce ownership) — including `data/chats` — and it has network access.
 * For stronger isolation, move `web/backend/sandbox.py`'s execution into a
@@ -496,8 +509,48 @@ docker compose exec ldraw-astra-app bash -c \
   "pip install -q --break-system-packages -r /app/web/backend/requirements-dev.txt && cd /app/web/backend && pytest -q"
 ```
 
-The agent's instructions are in `web/backend/prompts/system.md` and its tools
-in `web/backend/tools.py`.
+### Developing the standalone builder
+
+Keep `ldraw-astra/` and `ldraw-astra-docker/` beside each other. Compose passes
+`../ldraw-astra` as a named build context. To incorporate any sibling changes:
+
+```bash
+docker compose up -d --build
+```
+
+The image installs the sibling's locked dependencies in its own Linux virtualenv
+and copies its code, instructions, documentation, examples, database, categories
+and connection metadata. It excludes the sibling's output, host virtualenv,
+cache and private configuration. Nothing is written to the sibling checkout.
+The standalone project requires no Docker files or awareness of this app.
+
+For live edits, use Compose Watch with the development configuration:
+
+```bash
+docker compose -f docker-compose.yml -f docker-compose.dev.yml up --watch
+```
+
+Watch syncs builder files into `/opt/ldraw-astra`; changes to its dependency
+manifest/lock rebuild the image. Existing long-running commands finish with
+the code they loaded; new commands load changes. Rebuilds/restarts interrupt
+active turns, so finish or stop them first.
+
+`/opt/ldraw-astra/output` maps to `/data/output` (`./data/output` on the host).
+Each chat receives a repository-shaped working directory whose `output/` maps
+to `/data/output/<chat-id>`. The source repository and reference resources stay
+shared and read-only to tool processes; its derived `.cache` is writable and
+rebuildable. Commands run in the toolkit's Python environment, so its `ldraw`
+package cannot collide with the web app's older parser.
+
+Save `TYPESAFE_API_KEY` in **Settings → Environment variables**. Agents follow
+the sibling's bounded live availability check before semantic discovery, then
+explicitly use offline FTS if Jev is unavailable. Builds and validation also
+work without a TypeSafe key.
+
+The container-specific adapter is `web/backend/toolkit.py`; app tools are in
+`web/backend/tools.py`. `web/backend/prompts/system.md` adds paths, progress
+and publication instructions to the full sibling `instructions.md`, loaded
+fresh each model round. LEGO construction rules remain owned by the sibling.
 
 ## The parts library
 

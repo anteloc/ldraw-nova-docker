@@ -4,9 +4,11 @@ import { api, isPending, type ChatDetail, type ChatModel, type Message, type App
 import Composer from "../components/Composer";
 import Markdown from "../components/Markdown";
 import ToolCard from "../components/ToolCard";
+import ModelCard from "../components/ModelCard";
 import { useApp } from "../context";
 
-type RunningTool = { id: string; name: string; arguments: string };
+type RunningTool = { id: string; name: string; arguments: string; output?: string; started_at?: number };
+type Activity = { started_at: number; last_event_at: number; phase: string };
 
 type ContentBlock = { type: string; text?: string; image_url?: { url: string } };
 const text = (m: Message) => typeof m.content === "string" ? m.content : Array.isArray(m.content) ? (m.content as ContentBlock[]).filter(b => b.type === "text").map(b => b.text).join("\n") : "";
@@ -24,6 +26,9 @@ export default function ChatPage() {
   const [llmId, setLlmId] = useState<string | null>(null);
   const [approvals, setApprovals] = useState<Approval[]>([]);
   const [contextNotice, setContextNotice] = useState("");
+  const [activity, setActivity] = useState<Activity | null>(null);
+  const [connected, setConnected] = useState(true);
+  const [now, setNow] = useState(Date.now());
   const draftRef = useRef("");
   const sourceRef = useRef<EventSource | null>(null);
   const bottomRef = useRef<HTMLDivElement>(null);
@@ -49,6 +54,9 @@ export default function ChatPage() {
     sourceRef.current = es;
     setRunning(true);
     const data = (e: Event) => JSON.parse((e as MessageEvent).data);
+    es.onopen = () => setConnected(true);
+    es.onerror = () => setConnected(false);
+    es.addEventListener("reconnect", () => { es.close(); subscribe(); });
 
     es.addEventListener("snapshot", (e) => {
       const d = data(e);
@@ -61,6 +69,16 @@ export default function ChatPage() {
       updateDraft(d.draft);
       setTools(d.tools);
       setApprovals(d.approvals ?? []);
+      setActivity(d.activity ?? null);
+    });
+    es.addEventListener("activity", e => setActivity(data(e)));
+    es.addEventListener("progress", e => setActivity(a => ({
+      started_at: a?.started_at ?? Date.now() / 1000,
+      last_event_at: Date.now() / 1000, phase: data(e).summary,
+    })));
+    es.addEventListener("tool_output", e => {
+      const d = data(e);
+      setTools(all => all.map(t => t.id === d.id ? { ...t, output: ((t.output ?? "") + d.delta).slice(-12000) } : t));
     });
     es.addEventListener("text", (e) => updateDraft(draftRef.current + data(e).delta));
     es.addEventListener("tool_start", (e) => {
@@ -74,11 +92,11 @@ export default function ChatPage() {
       updateDraft("");
       reload().then(() => setPersisting(""));
     });
-    es.addEventListener("model", () => refreshChats());
+    es.addEventListener("model", () => { reload(); refreshChats(); });
     es.addEventListener("turn_error", (e) => setError(data(e).message));
     es.addEventListener("approval", e => setApprovals(all => [...all.filter(a => a.id !== data(e).id), data(e)]));
     es.addEventListener("approval_resolved", e => setApprovals(all => all.filter(a => a.id !== data(e).id)));
-    es.addEventListener("context", () => setContextNotice("Older turns were omitted to fit the selected context budget. Your saved history is unchanged."));
+    es.addEventListener("context", () => setContextNotice("Earlier conversation or completed tool steps were omitted to fit the context budget. Saved history and build files are unchanged."));
     es.addEventListener("done", () => {
       es.close();
       setRunning(false);
@@ -97,6 +115,8 @@ export default function ChatPage() {
     setTools([]);
     setApprovals([]);
     setContextNotice("");
+    setActivity(null);
+    setConnected(true);
     updateDraft("");
     setPersisting("");
     stickToBottom.current = true;
@@ -109,6 +129,12 @@ export default function ChatPage() {
       .catch(() => setNotFound(true));
     return () => sourceRef.current?.close();
   }, [id, reload, subscribe]);
+
+  useEffect(() => {
+    if (!running) return;
+    const timer = setInterval(() => setNow(Date.now()), 1000);
+    return () => clearInterval(timer);
+  }, [running]);
 
   // Snapshots/BOMs of this chat's models still being made (e.g. a deleted .png): refetch until done.
   const snapshotsPending = !running && !!detail && Object.values(detail.models).some(isPending);
@@ -154,6 +180,8 @@ export default function ChatPage() {
   const runningIds = new Set(tools.map((t) => t.id));
   const modelsFor = (m?: Message): ChatModel[] => (m?._models ?? []).map((id) => detail.models[id]).filter(Boolean);
   const idle = running && !draft && !persisting && tools.length === 0;
+  const linkedModels = new Set(messages.flatMap(m => m._models ?? []));
+  const elapsed = activity ? Math.max(0, Math.floor(now / 1000 - activity.started_at)) : 0;
 
   return (
     <div className="chat-page">
@@ -192,12 +220,16 @@ export default function ChatPage() {
                       ? "queued"
                       : "interrupted";
                 return (
-                  <ToolCard key={call.id} call={call} result={result} status={status} models={modelsFor(result)} />
+                  <ToolCard key={call.id} call={call} result={result} status={status} models={modelsFor(result)}
+                    live={tools.find(t => t.id === call.id)} now={now} />
                 );
               })}
             </div>
           );
         })}
+        {Object.values(detail.models).filter(m => !linkedModels.has(m.id)).map(m => (
+          <div className="msg assistant" key={m.id}><ModelCard model={m} /></div>
+        ))}
         {(persisting || draft) && (
           <div className="msg assistant">
             <Markdown>{persisting || draft}</Markdown>
@@ -216,6 +248,12 @@ export default function ChatPage() {
         <div ref={bottomRef} />
       </div>
       <div className="composer-wrap">
+        {running && <div className="build-activity" role="status" aria-live="polite">
+          <span className="spinner" aria-hidden />
+          <span>{!connected ? "Reconnecting to live updates… Your build continues on the server." :
+            approvals.length ? "Waiting for your approval" : activity?.phase || "Agent is working…"}</span>
+          <time>{Math.floor(elapsed / 60)}:{String(elapsed % 60).padStart(2, "0")}</time>
+        </div>}
         {contextNotice && <p className="muted small">{contextNotice}</p>}
         {approvals.map(a => <div className="panel approval" key={a.id}>
           <strong>Allow {a.name}?</strong><pre>{a.arguments}</pre>

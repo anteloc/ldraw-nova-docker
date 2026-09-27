@@ -340,3 +340,9 @@ input:focus, select:focus, textarea:focus, button:focus-visible {
 .attachments button { position: absolute; top: 2px; right: 2px; padding: 2px 7px; }
 .approval { padding: 14px; margin-bottom: 10px; }
 .approval pre { max-height: 200px; overflow: auto; white-space: pre-wrap; overflow-wrap: anywhere; font-size: 12px; }
+/* Long builds: visible stage, elapsed time and bounded streaming command logs. */
+.build-activity { display: flex; align-items: center; gap: .65rem; padding: .6rem .8rem; margin-bottom: .6rem; border: 1px solid var(--border); border-radius: 8px; font-size: .85rem; }
+.build-activity > span:nth-child(2) { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+.build-activity time { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.live-tool-output { max-height: 180px; overflow: auto; white-space: pre-wrap; overflow-wrap: anywhere; font-size: .75rem; padding: .65rem; }
+.progress-summary { margin: .4rem .7rem; font-size: .9rem; }

@@ -2,7 +2,10 @@ name: ldraw-astra-docker
 
 services:
   ldraw-astra-app:
-    build: .
+    build:
+      context: .
+      additional_contexts:
+        astra: ../ldraw-astra
     image: ldraw-astra-app
     platform: linux/amd64  # LeoCAD ships x86_64-only AppImages (emulated on Apple Silicon)
     container_name: ldraw-astra-app

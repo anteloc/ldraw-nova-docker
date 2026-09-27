@@ -49,7 +49,11 @@ async def params_for(entry: dict, options: dict) -> dict:
 
 
 def bounded_history(messages: list[dict], model: str, budget: int | None) -> tuple[list[dict], int]:
-    """Drop complete old user turns, never half a tool exchange or latest input."""
+    """Trim old turns, then completed tool rounds in a long build.
+
+    Keep the user's task and the last two complete tool rounds. Full history
+    stays on disk; the system prompt carries the build's latest NOTES.md.
+    """
     result = copy.deepcopy(messages)
     removed = 0
 
@@ -62,7 +66,16 @@ def bounded_history(messages: list[dict], model: str, budget: int | None) -> tup
     while budget and count() > budget - 4096:
         starts = [i for i, m in enumerate(result) if m.get("_turn_start", m["role"] == "user")]
         if len(starts) < 2:
-            raise ValueError("The latest turn exceeds the context budget. Increase it or start a new chat.")
+            rounds = [i for i, m in enumerate(result) if m.get("tool_calls")]
+            if len(rounds) <= 2:
+                raise ValueError("The latest turn exceeds the context budget. Increase it or start a new chat.")
+            begin, end = rounds[0], rounds[1]
+            removed += end - begin
+            result[begin:end] = []
+            note = "\nEarlier completed tool rounds were omitted to fit context. Consult the current NOTES.md and saved output reports; do not assume omitted checks passed."
+            if note not in result[0]["content"]:
+                result[0]["content"] += note
+            continue
         end = starts[1]
         removed += end - 1
         result = [result[0], *result[end:]]

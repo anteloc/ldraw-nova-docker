@@ -442,6 +442,25 @@ async def chats_stream(chat_id: str):
                              headers={"Cache-Control": "no-cache", "X-Accel-Buffering": "no"})
 
 
+@app.get("/api/chats/{chat_id}/artifacts/{path:path}")
+def chat_artifact(chat_id: str, path: str):
+    """Explicit downloads from one chat's output; never expose runtime/config.
+
+    HTML catalogs are downloadable, but are not executed with app privileges.
+    """
+    store = get_store()
+    store.get_chat(chat_id) or _not_found("no such chat")
+    if any(part.startswith(".") for part in Path(path).parts):
+        _not_found()
+    file = safe_join(store.work_dir(chat_id), path)
+    if not file or not file.is_file():
+        _not_found()
+    return FileResponse(file, filename=file.name, headers={
+        "Cache-Control": "no-cache", "X-Content-Type-Options": "nosniff",
+        "Content-Security-Policy": "sandbox; default-src 'none'",
+    })
+
+
 # --- the model collection (data/generated, plus the demo models) ---------------------
 
 def gallery_models() -> list[Path]:

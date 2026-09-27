@@ -41,3 +41,26 @@ def test_agent_can_render_with_leocad(tmp_path: Path):
     result = asyncio.run(sandbox.run(["leocad", "m.ldr", "-i", "m.png", "-w", "200", "-h", "150"], ws, timeout=120))
     assert result.exit_code == 0, result.as_text()
     assert (ws / "m.png").stat().st_size > 500
+
+
+def test_output_arrives_before_command_finishes_and_redacts_split_secret(tmp_path):
+    async def check():
+        output = []
+        seen = asyncio.Event()
+        def receive(channel, text):
+            output.append(text)
+            seen.set()
+        code = "import sys,time; print('started', flush=True); time.sleep(.2); sys.stdout.write('private-'); sys.stdout.flush(); time.sleep(.2); print('test-value', flush=True); time.sleep(2)"
+        task = asyncio.create_task(sandbox.run(["python3", "-u", "-c", code], tmp_path / "live", 10,
+            on_output=receive, secrets=("private-test-value",)))
+        await asyncio.wait_for(seen.wait(), 2)
+        assert not task.done()
+        result = await task
+        assert "private-test-value" not in result.stdout + "".join(output)
+        assert "[redacted]" in result.stdout
+    asyncio.run(check())
+
+
+def test_orphan_child_holding_stdout_is_also_bounded(tmp_path):
+    result = asyncio.run(sandbox.run(["bash", "-c", "sleep 30 & exit 0"], tmp_path / "orphan", 1))
+    assert result.timed_out and result.seconds < 10
