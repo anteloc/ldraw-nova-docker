@@ -172,15 +172,12 @@ RUN pip install --no-cache-dir --break-system-packages -r requirements.txt
 ENV PYTHONPATH=/app
 
 # --- The 3D player: ldraw-player (Rust -> WebAssembly) ------------------------
-# The release zip of tools/player in the ldraw.rs-astra fork (its build.sh),
+# https://github.com/anteloc/ldraw.rs-astra (tools/player) — pinned release,
 # checksum-verified -> /opt/web/player-vendor/{ldraw_player.js,ldraw_player_bg.wasm,...}
-# It comes from vendor/ in this repo for now; once releases are on GitHub, only
-# the COPY changes, to:
-#   RUN curl -fsSL "https://github.com/anteloc/ldraw.rs-astra/releases/download/<tag>/ldraw-player-${LDRAW_PLAYER_VERSION}.zip" -o /tmp/ldraw-player.zip
-ARG LDRAW_PLAYER_VERSION=0.1.0
-ARG LDRAW_PLAYER_SHA256=62163a017141b9c0f0ee1a48d1ade1a0b9cbf4fd22f6c7167c6d0b7be7efd78f
-COPY vendor/ldraw-player-${LDRAW_PLAYER_VERSION}.zip /tmp/ldraw-player.zip
+ARG LDRAW_PLAYER_VERSION=0.8.0
+ARG LDRAW_PLAYER_SHA256=a50f0feffc04940ac5ddf7b65078d77658a96a1fc299f1bef74d4b2b4be8d62a
 RUN set -eux; \
+    curl -fsSL "https://github.com/anteloc/ldraw.rs-astra/releases/download/v${LDRAW_PLAYER_VERSION}/ldraw-player-${LDRAW_PLAYER_VERSION}.zip" -o /tmp/ldraw-player.zip; \
     echo "${LDRAW_PLAYER_SHA256}  /tmp/ldraw-player.zip" | sha256sum -c -; \
     unzip -q /tmp/ldraw-player.zip -d /tmp/ldraw-player; \
     mv "/tmp/ldraw-player/ldraw-player-${LDRAW_PLAYER_VERSION}" /opt/web/player-vendor; \

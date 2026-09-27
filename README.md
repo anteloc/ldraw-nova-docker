@@ -46,7 +46,6 @@ A single image containing:
 │   ├── frontend/          # React + Vite UI (built in a Docker build stage)
 │   ├── xr/                # mixed-reality viewer: Vite + Meta's Immersive Web SDK (own build stage)
 │   └── viewer/            # viewer.html (three.js 3D viewer), player.html (3D player)
-├── vendor/                # ldraw-player-<version>.zip (+ .sha256): the 3D player's release
 └── data/                  # mounted at /data (not baked in)
     ├── generated/         # the model collection, flat: car.mpd + car.png (snapshot) + car.csv (BOM), ...
     ├── chats/<chat>/      # one folder per chat: history, model references, renders
@@ -257,16 +256,12 @@ WebGPU where the browser has it, WebGL2 otherwise.
 It's ldraw-player, `tools/player` in the
 [ldraw.rs-astra](https://github.com/anteloc/ldraw.rs-astra) fork, which
 adds it next to the ldraw.rs demo viewer (unchanged); see its README for the
-JavaScript API. The image gets its release zip, pinned by version and SHA-256
-(`LDRAW_PLAYER_VERSION`, `LDRAW_PLAYER_SHA256`): from `vendor/` for now,
-from the fork's GitHub releases later (the Dockerfile has the `curl` line that
-replaces the `COPY`). To update it:
-
-```bash
-cd ../ldraw.rs-astra && tools/player/build.sh          # -> tools/player/dist/ldraw-player-<version>.zip
-cp tools/player/dist/ldraw-player-*.zip* ../leocad-docker/vendor/
-# then set LDRAW_PLAYER_VERSION / LDRAW_PLAYER_SHA256 (from the .sha256) in the Dockerfile and rebuild
-```
+JavaScript API. The image downloads `ldraw-player-<version>.zip` from the
+fork's [GitHub releases](https://github.com/anteloc/ldraw.rs-astra/releases),
+pinned by version and SHA-256 (`LDRAW_PLAYER_VERSION`, `LDRAW_PLAYER_SHA256`
+in the Dockerfile). To update it, set both from the new release (the checksum
+is in its `ldraw-player-<version>.zip.sha256`, or `SHA256SUMS.txt`) and
+rebuild.
 
 While working on the player itself, `docker-compose.dev.yml` can mount your
 local build over the baked-in one (see the commented line there).
