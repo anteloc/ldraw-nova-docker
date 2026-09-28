@@ -33,7 +33,7 @@ def test_override_add_update_rename_remove_and_empty_values(monkeypatch):
     ])
     assert os.environ["LDRAW_TEST_INHERITED"] == "settings-value"
     assert os.environ["LDRAW_TEST_NEW"] == "  exact value  "
-    assert "settings-value" not in json.dumps(rows)
+    assert rows[0]["value"] == "settings-value"
     rows = environment_config.save([
         {**rows[0], "value": ""},
         {**rows[1], "name": "LDRAW_TEST_RENAMED", "value": None},
@@ -48,11 +48,11 @@ def test_override_add_update_rename_remove_and_empty_values(monkeypatch):
 
 
 def test_references_and_provider_requests_use_override_immediately(monkeypatch):
-    monkeypatch.setenv("OPENROUTER_LDRAW_ASTRA_API_KEY", "inherited-key")
+    monkeypatch.setenv("OPENROUTER_API_KEY", "inherited-key")
     client = TestClient(main.app)
     entry = llm_config.create({"litellm_params": {
         "model": "openrouter/openai/gpt-6-luna",
-        "api_key": "os.environ/OPENROUTER_LDRAW_ASTRA_API_KEY"}})
+        "api_key": "os.environ/OPENROUTER_API_KEY"}})
     received = []
 
     async def completion(**params):
@@ -61,9 +61,10 @@ def test_references_and_provider_requests_use_override_immediately(monkeypatch):
 
     monkeypatch.setattr(main.litellm, "acompletion", completion)
     response = client.put("/api/environment", json={"variables": [
-        {"name": "OPENROUTER_LDRAW_ASTRA_API_KEY", "value": "private-override"}]})
-    assert response.status_code == 200 and "private-override" not in response.text
-    assert "private-override" not in client.get("/api/environment").text
+        {"name": "OPENROUTER_API_KEY", "value": "private-override"}]})
+    assert response.status_code == 200 and response.json()["variables"][0]["value"] == "private-override"
+    assert client.get("/api/environment").json()["variables"][0]["value"] == "private-override"
+    assert response.headers["cache-control"] == "no-store"
     assert client.post(f"/api/llm-models/{entry['id']}/test").json()["ok"]
     rows = response.json()["variables"]
     client.put("/api/environment", json={"variables": [{**rows[0], "value": "replacement-key"}]})
@@ -144,3 +145,20 @@ def test_environment_rejects_cross_origin_changes():
         json={"variables": [{"name": "LDRAW_TEST_CROSS", "value": "private-value"}]})
     assert response.status_code == 403
     assert "LDRAW_TEST_CROSS" not in os.environ
+
+
+def test_old_openrouter_name_migrates_and_standard_override_wins(monkeypatch):
+    monkeypatch.delenv("OPENROUTER_API_KEY", raising=False)
+    monkeypatch.setenv("OPENROUTER_LDRAW_ASTRA_API_KEY", "legacy-inherited")
+    entry = {"litellm_params": {"model": "openrouter/openai/gpt-6-sol", "api_key": "os.environ/OPENROUTER_LDRAW_ASTRA_API_KEY"}}
+    assert llm_config.resolve_params(entry)["api_key"] == "legacy-inherited"
+    rows = environment_config.save([{"name": "OPENROUTER_LDRAW_ASTRA_API_KEY", "value": "saved-legacy"}])
+    assert rows[0]["name"] == "OPENROUTER_API_KEY"
+    assert llm_config.resolve_params(entry)["api_key"] == "saved-legacy"
+    rows = environment_config.save([{**rows[0], "value": "standard-override"}])
+    assert llm_config.resolve_params(entry)["api_key"] == "standard-override"
+    # An intentionally empty new key must not fall back to an old credential.
+    environment_config.save([{**rows[0], "value": ""}])
+    with pytest.raises(ValueError, match="empty"):
+        llm_config.resolve_params(entry)
+    assert llm_config.create(entry)["litellm_params"]["api_key"] == "os.environ/OPENROUTER_API_KEY"

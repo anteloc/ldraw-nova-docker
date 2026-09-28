@@ -20,9 +20,9 @@ export default function Sidebar() {
         <span className="brand-mark" aria-hidden />
         LDraw Astra
       </div>
-      <button className="new-chat" onClick={() => navigate("/")}>
+      <NavLink className="button new-chat" to="/new">
         + New chat
-      </button>
+      </NavLink>
       <nav className="nav">
         <NavLink to="/models">Models</NavLink>
         <NavLink to="/settings">Settings</NavLink>

@@ -30,7 +30,7 @@ def test_catalog_and_model_specific_validation():
 
 
 def test_nested_keys_mask_and_roundtrip():
-    entry = llm_config.create({"litellm_params": {"model": "openai/fake", "extra_headers": {"Authorization": "Bearer secret-value-1234"}}})
+    entry = llm_config.create({"litellm_params": {"model": "openai/gpt-6-luna", "extra_headers": {"Authorization": "Bearer secret-value-1234"}}})
     public = llm_config.public(entry)
     assert "secret-value" not in json.dumps(public)
     updated = llm_config.update(entry["id"], public)

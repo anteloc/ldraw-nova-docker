@@ -198,10 +198,12 @@ async def start_turn(store: ChatStore, chat_id: str, text: str, llm_model_id: Op
         raise RuntimeError("this chat is already running a turn")
     entry = llm_config.get(llm_model_id) if llm_model_id else None
     if entry is None:
-        _entries, default_id = llm_config.list_entries()
+        _entries, default_id = llm_config.builder_entries()
         entry = llm_config.get(default_id) if default_id else None
     if entry is None:
         raise ValueError("no LLM model configured — add one in Settings")
+    if not model_catalog.builder_supported(entry["litellm_params"]["model"]):
+        raise ValueError("Choose a model with tool calling and image input support in Settings")
 
     options = model_catalog.validate_options(entry, options)
     if images and llm_config.capabilities(entry)["vision"] is not True:

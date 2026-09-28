@@ -48,7 +48,7 @@ def store() -> ChatStore:
 
 @pytest.fixture
 def entry():
-    return llm_config.create({"model_name": "fake", "litellm_params": {"model": "openai/fake", "api_key": "sk-x"},
+    return llm_config.create({"model_name": "fake", "litellm_params": {"model": "openai/gpt-6-luna", "api_key": "sk-x"},
                               "capabilities": {"tools": True, "vision": True}})
 
 

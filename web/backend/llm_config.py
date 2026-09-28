@@ -40,6 +40,10 @@ def _load() -> dict:
         data = {}
     data.setdefault("models", [])
     data.setdefault("default_id", None)
+    for entry in data["models"]:
+        params = entry.get("litellm_params", {})
+        if params.get("api_key") == "os.environ/OPENROUTER_LDRAW_ASTRA_API_KEY":
+            params["api_key"] = "os.environ/OPENROUTER_API_KEY"
     return data
 
 
@@ -67,7 +71,7 @@ def public(entry: dict) -> dict:
     """An entry as the UI may see it: secrets masked, capabilities resolved."""
     params = mask_secrets(entry["litellm_params"])
     return {**entry, "litellm_params": params, "resolved_capabilities": capabilities(entry),
-            "profile": model_catalog.profile(entry["litellm_params"]["model"])}
+            "profile": model_catalog.entry_profile(entry)}
 
 
 def mask_secrets(value, secret=False):
@@ -94,6 +98,12 @@ def list_entries() -> tuple[list[dict], Optional[str]]:
     return data["models"], data["default_id"]
 
 
+def builder_entries() -> tuple[list[dict], Optional[str]]:
+    entries, default = list_entries()
+    entries = [e for e in entries if model_catalog.builder_supported(e["litellm_params"]["model"])]
+    return entries, default if any(e["id"] == default for e in entries) else (entries[0]["id"] if entries else None)
+
+
 def get(entry_id: str) -> Optional[dict]:
     return next((m for m in _load()["models"] if m["id"] == entry_id), None)
 
@@ -103,6 +113,8 @@ def _clean(entry: dict, previous: Optional[dict]) -> dict:
     if not str(params.get("model", "")).strip():
         raise ValueError("litellm_params.model is required, e.g. 'anthropic/claude-sonnet-5'")
     params["model"] = params["model"].strip()
+    if params.get("api_key") == "os.environ/OPENROUTER_LDRAW_ASTRA_API_KEY":
+        params["api_key"] = "os.environ/OPENROUTER_API_KEY"
     if params["model"] == "openrouter/":
         raise ValueError("Choose an OpenRouter model, e.g. openrouter/openai/gpt-6-luna")
     old = (previous or {}).get("litellm_params", {})
@@ -128,11 +140,13 @@ def _clean(entry: dict, previous: Optional[dict]) -> dict:
     for cap in ("tools", "vision"):
         if caps[cap] not in (True, False, "auto"):
             raise ValueError("Capabilities must be true, false or auto")
+    if not model_catalog.builder_supported(params["model"]):
+        raise ValueError("Choose a model with verified tool calling and image input support")
     return {
         "id": (previous or {}).get("id") or uuid.uuid4().hex[:12],
         "model_name": (entry.get("model_name") or params["model"]).strip(),
         "litellm_params": params,
-        "capabilities": {k: caps[k] for k in ("tools", "vision")},
+        "capabilities": {"tools": "auto", "vision": "auto"},
         "auth_mode": auth_mode,
     }
 
@@ -180,8 +194,18 @@ def set_default(entry_id: str) -> None:
 
 def import_model_list(model_list: list[dict]) -> list[dict]:
     """Import LiteLLM proxy-style entries ({model_name, litellm_params})."""
-    return [create({"model_name": m.get("model_name"), "litellm_params": m.get("litellm_params", {}),
-                    "capabilities": m.get("capabilities"), "auth_mode": m.get("auth_mode")}) for m in model_list]
+    if not isinstance(model_list, list) or any(not isinstance(m, dict) for m in model_list):
+        raise ValueError("model_list must be a list of models")
+    with _lock:
+        # Validate the entire batch first; one unsupported model must not leave
+        # a half-imported list or duplicate entries on the user's next attempt.
+        imported = [_clean(m, None) for m in model_list]
+        data = _load()
+        data["models"].extend(imported)
+        if not data["default_id"] and imported:
+            data["default_id"] = imported[0]["id"]
+        _save(data)
+        return imported
 
 
 def resolve_params(entry: dict) -> dict:
@@ -195,6 +219,8 @@ def resolve_params(entry: dict) -> dict:
             return [resolve(v) for v in value]
         if isinstance(value, str) and value.startswith("os.environ/"):
             name = value.split("/", 1)[1]
+            if name == "OPENROUTER_LDRAW_ASTRA_API_KEY":
+                name = "OPENROUTER_API_KEY"
             if not environment.get(name, "").strip():
                 raise ValueError(f"Environment variable {name} is not set or is empty")
             return environment[name]
@@ -203,30 +229,7 @@ def resolve_params(entry: dict) -> dict:
     return resolve(entry["litellm_params"])
 
 
-def capabilities(entry: dict) -> dict[str, Optional[bool]]:
-    """True/False when known (configured, or LiteLLM's model map knows), None when unknown."""
-    import litellm
-
-    model = entry["litellm_params"]["model"]
-    spec = model_catalog.profile(model)
-    try:
-        litellm.get_model_info(model)
-        known = True
-    except Exception:  # noqa: BLE001 - not in LiteLLM's model map (Ollama, custom servers, new models)
-        known = False
-    checks = {"tools": litellm.supports_function_calling, "vision": litellm.supports_vision}
-    result = {}
-    for cap, check in checks.items():
-        configured = entry.get("capabilities", {}).get(cap, "auto")
-        if isinstance(configured, bool):
-            result[cap] = configured
-        elif cap in spec:
-            result[cap] = spec[cap]
-        elif not known:
-            result[cap] = None       # LiteLLM would answer False for anything it doesn't know
-        else:
-            try:
-                result[cap] = bool(check(model=model))
-            except Exception:  # noqa: BLE001
-                result[cap] = None
-    return result
+def capabilities(entry: dict) -> dict[str, bool]:
+    """Only advertise capabilities verified by the model catalog/provider metadata."""
+    spec = model_catalog.profile(entry["litellm_params"]["model"])
+    return {"tools": spec["tools"], "vision": spec["vision"]}

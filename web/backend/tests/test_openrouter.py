@@ -38,8 +38,8 @@ def test_openrouter_presets_and_capabilities():
 
 def test_openrouter_key_reference_and_private_key_roundtrip(monkeypatch):
     client = TestClient(app)
-    reference = "os.environ/OPENROUTER_LDRAW_ASTRA_API_KEY"
-    monkeypatch.setenv("OPENROUTER_LDRAW_ASTRA_API_KEY", "private-test-key")
+    reference = "os.environ/OPENROUTER_API_KEY"
+    monkeypatch.setenv("OPENROUTER_API_KEY", "private-test-key")
     response = client.post("/api/llm-models", json={"litellm_params": {
         "model": "openrouter/openai/gpt-6-luna", "api_key": reference}})
     assert response.status_code == 200
@@ -48,10 +48,10 @@ def test_openrouter_key_reference_and_private_key_roundtrip(monkeypatch):
     assert public["litellm_params"]["api_key"] == reference
     entry = llm_config.get(public["id"])
     assert llm_config.resolve_params(entry)["api_key"] == "private-test-key"
-    monkeypatch.setenv("OPENROUTER_LDRAW_ASTRA_API_KEY", "")
+    monkeypatch.setenv("OPENROUTER_API_KEY", "")
     with pytest.raises(ValueError, match="not set or is empty"):
         llm_config.resolve_params(entry)
-    monkeypatch.delenv("OPENROUTER_LDRAW_ASTRA_API_KEY")
+    monkeypatch.delenv("OPENROUTER_API_KEY")
     assert not client.post(f"/api/llm-models/{entry['id']}/test").json()["ok"]
     public["litellm_params"]["api_key"] = "sk-or-private-test-key"
     public = client.put(f"/api/llm-models/{entry['id']}", json=public).json()

@@ -13,7 +13,7 @@ needs_agent_user = pytest.mark.skipif(sandbox._agent_account() is None, reason="
 
 @needs_agent_user
 def test_runs_as_agent_without_access_to_keys(tmp_path: Path):
-    llm_config.create({"litellm_params": {"model": "openai/x", "api_key": "sk-top-secret"}})
+    llm_config.create({"litellm_params": {"model": "openai/gpt-6-luna", "api_key": "sk-top-secret"}})
     result = asyncio.run(sandbox.run(
         ["bash", "-c", f"id -un; env; cat {settings.CONFIG_DIR / 'models.json'}"], tmp_path / "ws", timeout=20))
     assert result.stdout.splitlines()[0] == "agent"

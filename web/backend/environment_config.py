@@ -21,6 +21,10 @@ _initialized = False
 def _clean(rows: list, previous: list) -> list[dict]:
     if not isinstance(rows, list) or len(rows) > 256:
         raise ValueError("Provide at most 256 environment variables")
+    # Read older installations using the new standard name without losing their
+    # saved value. An explicitly configured standard name wins if both exist.
+    if not any(isinstance(row, dict) and row.get("name") == "OPENROUTER_API_KEY" for row in rows):
+        rows = [{**row, "name": "OPENROUTER_API_KEY"} if isinstance(row, dict) and row.get("name") == "OPENROUTER_LDRAW_ASTRA_API_KEY" else row for row in rows]
     old = {row["id"]: row for row in previous}
     names, ids, result = set(), set(), []
     for row in rows:
@@ -87,10 +91,10 @@ def initialize() -> None:
 
 
 def public() -> list[dict]:
-    """Values are write-only; null on save means keep the existing value."""
+    """Settings explicitly exposes editable values; null still preserves a value."""
     initialize()
     with _lock:
-        return [{"id": row["id"], "name": row["name"], "has_value": bool(row["value"])} for row in _rows]
+        return [{**row, "has_value": bool(row["value"])} for row in _rows]
 
 
 def save(rows: list) -> list[dict]:
@@ -115,4 +119,7 @@ def snapshot() -> dict[str, str]:
     with _lock:
         # Explicit references retain saved precedence even if another library
         # has subsequently changed a process environment variable.
-        return {**os.environ, **{row["name"]: row["value"] for row in _rows}}
+        env = {**os.environ, **{row["name"]: row["value"] for row in _rows}}
+        if "OPENROUTER_API_KEY" not in env and "OPENROUTER_LDRAW_ASTRA_API_KEY" in env:
+            env["OPENROUTER_API_KEY"] = env["OPENROUTER_LDRAW_ASTRA_API_KEY"]
+        return env

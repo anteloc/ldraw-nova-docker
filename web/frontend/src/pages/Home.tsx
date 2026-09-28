@@ -7,8 +7,8 @@ import { useApp } from "../context";
 const EXAMPLES = [
   "Build a small red car with four black wheels",
   "A 6 x 8 cottage with a door, two windows and a sloped roof",
-  "Generate a spiral staircase with a Python script",
-  "Which parts would make a crane's hook and boom? Show me the part ids",
+  "Build a spiral staircase around a tall stone tower",
+  "Design a harbour crane with a long boom and a cargo dock",
 ];
 
 export default function Home() {
@@ -40,8 +40,8 @@ export default function Home() {
       <div className="home-hero">
         <h1>What should we build?</h1>
         <p className="muted">
-          Agents design LDraw models, render them with LeoCAD and show you the result. Click any screenshot to explore it
-          in 3D. Everything is saved under <code>data/</code>.
+          Turn your ideas into LEGO models you can explore in 3D. Start building with an agent,
+          or use Plan mode to work out your design.
         </p>
       </div>
       <div className="examples">

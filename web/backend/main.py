@@ -72,7 +72,10 @@ async def same_origin_api(request: Request, call_next):
             return JSONResponse({"detail": "Invalid Content-Length"}, status_code=400)
         if size > 18 * 1024 * 1024:
             return JSONResponse({"detail": "Request exceeds 18 MB"}, status_code=413)
-    return await call_next(request)
+    response = await call_next(request)
+    if request.url.path == "/api/environment" or request.url.path.endswith("/edit"):
+        response.headers["Cache-Control"] = "no-store"
+    return response
 
 
 def _not_found(what: str = "not found"):
@@ -162,8 +165,19 @@ async def auth_disconnect(provider: str):
 
 @app.get("/api/llm-models")
 def llm_models_list():
-    entries, default_id = llm_config.list_entries()
+    entries, default_id = llm_config.builder_entries()
     return {"models": [llm_config.public(e) for e in entries], "default_id": default_id}
+
+
+@app.get("/api/llm-models/{entry_id}/edit")
+def llm_models_edit(entry_id: str):
+    entry = llm_config.get(entry_id) or _not_found()
+    result = llm_config.public(entry)
+    # The Settings editor explicitly shows the entered key. Lists and exports
+    # remain masked; environment references are shown by name, not resolved.
+    if "api_key" in entry["litellm_params"]:
+        result["litellm_params"]["api_key"] = entry["litellm_params"]["api_key"]
+    return result
 
 
 @app.post("/api/llm-models")
@@ -217,7 +231,7 @@ async def llm_models_test(entry_id: str):
 
 @app.get("/api/llm-models/export", response_class=PlainTextResponse)
 def llm_models_export():
-    entries, _default = llm_config.list_entries()
+    entries, _default = llm_config.builder_entries()
     model_list = [{"model_name": e["model_name"],
                    "litellm_params": llm_config.public(e)["litellm_params"],
                    "capabilities": e["capabilities"], "auth_mode": e.get("auth_mode", "api_key")} for e in entries]
@@ -249,7 +263,8 @@ def llm_providers():
 def llm_provider_models(provider: str):
     models = litellm.models_by_provider.get(provider, [])
     presets = [m["model"] for m in model_catalog.CATALOG if m["model"].startswith(provider + "/")]
-    return {"models": sorted(set(models) | set(presets))}
+    candidates = {m if m.startswith(provider + "/") else provider + "/" + m for m in models} | set(presets)
+    return {"models": sorted(m for m in candidates if model_catalog.builder_supported(m))}
 
 
 # --- chats -------------------------------------------------------------------

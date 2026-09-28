@@ -2,7 +2,7 @@ import { useEffect, useRef, useState, type FormEvent } from "react";
 import { api, type EnvironmentVariable } from "../api";
 
 type Row = { key: string; id?: string; name: string; value: string | null; has_value: boolean };
-const toRows = (variables: EnvironmentVariable[]): Row[] => variables.map(v => ({ ...v, key: v.id, value: null }));
+const toRows = (variables: EnvironmentVariable[]): Row[] => variables.map(v => ({ ...v, key: v.id }));
 
 export default function EnvironmentSettings() {
   const [rows, setRows] = useState<Row[]>([]);
@@ -45,23 +45,21 @@ export default function EnvironmentSettings() {
         setDirty(true); setMessage(""); setError("");
       }}>Add</button>
     </div>
-    <p className="muted small">Saved values take precedence over Docker and .env values for the backend.
-      Models can reference them with <code>os.environ/NAME</code>. Changes apply after saving.</p>
+    <p className="muted small">Saved values override inherited values. Choose “API key (env var)” in a model’s settings to use one. Changes apply after saving.</p>
     <form onSubmit={save}>
       <div className="environment-rows">
         {rows.map((row, index) => <div className="environment-row" key={row.key}>
           <label>
             <span>Name</span>
             <input aria-label={`Variable name ${index + 1}`} required pattern="[A-Za-z_][A-Za-z0-9_]*" maxLength={255}
-              autoComplete="off" spellCheck={false} placeholder="OPENROUTER_LDRAW_ASTRA_API_KEY" disabled={busy}
+              autoComplete="off" spellCheck={false} placeholder="OPENROUTER_API_KEY" disabled={busy}
               value={row.name} onChange={e => change(row.key, { name: e.target.value })} />
           </label>
           <label>
             <span>Value</span>
-            <input aria-label={`Variable value ${index + 1}`} type="password" autoComplete="new-password" maxLength={65536}
+            <input aria-label={`Variable value ${index + 1}`} type="text" autoComplete="off" spellCheck={false} maxLength={65536}
               placeholder="Value (may be empty)" disabled={busy}
-              value={row.value === null ? (row.has_value ? "••••••••" : "") : row.value}
-              onFocus={e => { if (row.value === null) e.currentTarget.select(); }}
+              value={row.value ?? ""}
               onChange={e => change(row.key, { value: e.target.value })} />
           </label>
           <button type="button" className="danger-text" aria-label={`Remove variable ${index + 1}`} disabled={busy} onClick={() => {
@@ -71,8 +69,7 @@ export default function EnvironmentSettings() {
       </div>
       {loaded && !rows.length && <p className="muted small">No environment overrides configured.</p>}
       {!loaded && !error && <p className="muted small">Loading environment variables…</p>}
-      {rows.length > 0 && <p className="muted small">Saved values are hidden. Select a value to replace it, or clear the field to save an empty value.
-        Removing a row restores the inherited value, if one exists.</p>}
+      {rows.length > 0 && <p className="muted small">Removing a row restores the inherited value, if one exists.</p>}
       {error && <p className="warn-text" role="alert">{error}</p>}
       {message && <p className="ok-text small" role="status">{message}</p>}
       <div className="form-actions">

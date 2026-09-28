@@ -175,7 +175,7 @@ docker compose up -d --build
 open http://localhost:8765                # port: LDRAW_ASTRA_WEB_PORT in .env
 ```
 
-1. **Settings → Provider accounts.** Click **Sign in with ChatGPT** or
+1. **Settings → Browser login.** Click **Sign in with ChatGPT** or
    **Sign in with Claude**. Complete the provider's login in your browser.
    ChatGPT uses browser authorization and returns automatically through
    `http://localhost:1455`; complete this on the computer running Docker.
@@ -198,16 +198,16 @@ open http://localhost:8765                # port: LDRAW_ASTRA_WEB_PORT in .env
    **Settings → Environment variables.** Click **Add** for a row with a name
    and value, then **Save environment variables**. Saved variables override
    the backend's inherited Docker / `.env` values and become available to new
-   requests immediately. For example, save `OPENROUTER_LDRAW_ASTRA_API_KEY`
-   here and existing models using `os.environ/OPENROUTER_LDRAW_ASTRA_API_KEY`
+   requests immediately. For example, save `OPENROUTER_API_KEY`
+   here and existing models using `os.environ/OPENROUTER_API_KEY`
    automatically use the saved key. Nested parameter references work too.
    Empty values override inherited values with empty text. Removing a row
    restores its inherited value, or removes the variable if none existed.
 
    Values persist privately in `/config/environment.json` (0600) and are
    loaded before backend configuration and provider libraries at startup.
-   Saved values are hidden in the editor; select a value field to replace or
-   clear it. API responses include names and saved-value indicators only.
+   Saved values are visible and editable in Settings. Settings responses use
+   `Cache-Control: no-store`. Clear a field to save an empty value.
    These are backend environment overrides: settings read only at startup
    take effect on backend restart, and Docker ports and other container
    settings remain managed by Compose. Tool subprocesses keep their restricted
@@ -222,26 +222,32 @@ open http://localhost:8765                # port: LDRAW_ASTRA_WEB_PORT in .env
    You can also enter another `openrouter/vendor/model` ID. OpenRouter uses API
    key authentication and its own billing, separate from browser subscriptions.
 
-   The OpenRouter preset uses `os.environ/OPENROUTER_LDRAW_ASTRA_API_KEY`.
+   The OpenRouter preset uses `os.environ/OPENROUTER_API_KEY`.
    Set it in **Environment variables** above for immediate updates, or let
    Docker Compose pass it from the host shell or `.env`. Changes to those
    inherited sources require `docker compose up -d` to recreate the container;
    a saved Settings override still takes precedence. The key is excluded from tool
    subprocesses and only its environment reference appears in model exports.
    Alternatively, paste a key in the API key field; it is stored privately in
-   `/config` and masked in API responses. Leave the API base URL empty to use
+   `/config` and visible when editing the model. Lists and YAML exports mask
+   literal API keys. Leave the API base URL empty to use
    OpenRouter's standard endpoint, then click **Test** beside the saved model.
 
    **Settings → Add model.** Choose a model preset and **Browser login**, or
-   choose **API key** and enter your provider key. You can also type any LiteLLM model string
+   choose **API key (value)** or **API key (env var)**. The latter takes a variable
+   name such as `OPENROUTER_API_KEY`. You can also type a supported LiteLLM model ID
    (`anthropic/claude-sonnet-5`, `openai/<model>`, `gemini/<model>`,
    `ollama_chat/<model>` with API base `http://host.docker.internal:11434`,
    any OpenAI-compatible server, …), an API key, and optionally extra LiteLLM
    parameters. **Test** sends a small request (Claude browser entries check login
    readiness; send a chat to test model access). Keys can also stay out of
    the UI: put `ANTHROPIC_API_KEY=...` in a `.env` file next to
-   `docker-compose.yml` and enter `os.environ/ANTHROPIC_API_KEY` as the key.
-   Existing LiteLLM proxy `model_list` YAML can be imported.
+   `docker-compose.yml` and select **API key (env var)** with `ANTHROPIC_API_KEY`.
+   Only models with verified tool calling and image input are available. **Import /
+   export**, beside **Add model**, accepts a LiteLLM `model_list` YAML file or pasted
+   text; a batch is validated before any models are added. Older OpenRouter key
+   references and saved overrides are read using the standard `OPENROUTER_API_KEY`
+   name; Compose also accepts the old shell variable as a migration fallback.
 2. **Chat.** Ask for a model. The agent follows the standalone `ldraw-astra`
    instructions, studies references, builds editable plans/modules, validates
    geometry, renders and opens images for visual review. `publish_model`
@@ -256,8 +262,12 @@ open http://localhost:8765                # port: LDRAW_ASTRA_WEB_PORT in .env
    recent output. Stop terminates the running process group. Commands have a
    30-minute maximum; a turn permits up to 150 model/tool rounds. At that limit,
    send a message to continue from the saved work and `NOTES.md`.
-   The composer offers **Agent**, **Plan** (read-only inspection), and **Chat**
-   (no tools). **Ask before changes** is the default: approve or deny each write,
+   The app opens on **Models**; **New chat** opens the builder. Its compact composer
+   offers **Agent** and **Plan** (read-only inspection). The model picker groups
+   models by provider and remembers recent choices in this browser. Effort shows
+   the configured value or the actual provider default and sends it explicitly;
+   context choices show the model's supported window in K/M units.
+   **Ask first** is the default: approve or deny each write,
    render, or command in the chat. **Full access (container)** skips those prompts
    while retaining the unprivileged tool runner; it does not grant host/root access.
    **Read only** blocks all mutating tools. Approvals expire after ten minutes;

@@ -58,10 +58,10 @@ export type Message = {
 export type ChatDetail = { chat: Chat; messages: Message[]; models: Record<string, ChatModel> };
 
 export type Capability = boolean | "auto";
-export type EnvironmentVariable = { id: string; name: string; has_value: boolean };
+export type EnvironmentVariable = { id: string; name: string; value: string; has_value: boolean };
 export type EnvironmentUpdate = { id?: string; name: string; value: string | null };
-export type TurnOptions = { mode: "chat" | "plan" | "agent"; permissions: "ask" | "full" | "read_only"; effort?: string | null; context_tokens?: number | null };
-export type ModelProfile = { model: string; name: string; context_window: number | null; efforts: string[]; context_budgets: number[] };
+export type TurnOptions = { mode: "plan" | "agent"; permissions: "ask" | "full" | "read_only"; effort?: string | null; context_tokens?: number | null };
+export type ModelProfile = { model: string; name: string; context_window: number | null; efforts: string[]; default_effort: string | null; context_budgets: number[] };
 export type AuthStatus = { status: "starting" | "pending" | "connected" | "disconnected" | "error" | "expired"; flow?: "browser" | "device"; url?: string; code?: string; message?: string; expires_at?: number };
 export type Approval = { id: string; call_id: string; name: string; arguments: string };
 export type LlmEntry = {
@@ -117,6 +117,7 @@ export const api = {
   models: () => request<{ models: ModelFile[]; pending: number }>("/api/models"),
 
   llmModels: () => request<{ models: LlmEntry[]; default_id: string | null }>("/api/llm-models"),
+  editLlm: (id: string) => request<LlmEntry>(`/api/llm-models/${id}/edit`),
   createLlm: (entry: Partial<LlmEntry>) => request<LlmEntry>("/api/llm-models", { method: "POST", body: json(entry) }),
   updateLlm: (id: string, entry: Partial<LlmEntry>) =>
     request<LlmEntry>(`/api/llm-models/${id}`, { method: "PUT", body: json(entry) }),
