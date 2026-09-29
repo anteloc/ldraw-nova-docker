@@ -8,6 +8,6 @@ const backend = "http://localhost:8765"; // LDRAW_ASTRA_WEB_PORT in docker-compo
 export default defineConfig({
   plugins: [react()],
   server: {
-    proxy: Object.fromEntries(["/api", "/files", "/ref", "/ldraw", "/ldraw-id", "/viewer"].map((p) => [p, backend])),
+    proxy: Object.fromEntries(["/api", "/files", "/gallery-files", "/demo", "/ref", "/ldraw", "/ldraw-id", "/viewer", "/xr"].map((p) => [p, backend])),
   },
 });

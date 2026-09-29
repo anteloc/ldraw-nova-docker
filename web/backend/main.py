@@ -287,20 +287,20 @@ class NewMessage(BaseModel):
 
 # --- model helpers -------------------------------------------------------------
 
-def is_demo(path: Path) -> bool:
-    """A file of the demo models baked into the image."""
-    return path.parent.resolve() == settings.DEMO_MODELS_DIR.resolve()
+def is_gallery(path: Path) -> bool:
+    """A file from the gallery baked into the image."""
+    return path.parent.resolve() == settings.GALLERY_MODELS_DIR.resolve()
 
 
 def file_url(path: Path, versioned: bool = False) -> Optional[str]:
     """URL of an existing file the web UI may load, else None: /files/... in a
-    web-visible folder of /data (generated/, chats/), or /demo/... for the demo
+    web-visible folder of /data (generated/, chats/), or /gallery-files/... for gallery
     models. data/output is agent-only: never served.
 
     `versioned` adds the file's mtime, for images that can be re-rendered under
     the same name: browsers reuse an image already on the page by URL alone."""
-    if is_demo(path):
-        url = "/demo/" + quote(path.name)
+    if is_gallery(path):
+        url = "/gallery-files/" + quote(path.name)
     else:
         try:
             rel = rel_to(path, settings.DATA_DIR)
@@ -314,28 +314,29 @@ def file_url(path: Path, versioned: bool = False) -> Optional[str]:
     return f"{url}?v={path.stat().st_mtime_ns}" if versioned else url
 
 
-def _status(path: Path, kind: str, demo: bool) -> tuple[str, Optional[str]]:
-    if not demo:
+def _status(path: Path, kind: str, in_gallery: bool) -> tuple[str, Optional[str]]:
+    if not in_gallery:
         return gallery.status_of(path, kind)
-    # demo models come with their siblings: nothing is made for them
+    # Gallery models come with their siblings: nothing is made for them.
     sibling = snapshot_path_for(path) if kind == "snapshot" else bom_path_for(path)
-    return ("ready", None) if sibling.exists() else ("failed", "none included with this demo model")
+    return ("ready", None) if sibling.exists() else ("failed", "none included with this gallery model")
 
 
 def model_info(path: Path) -> dict:
     """A model file in the collection, as the UI sees it: its snapshot (status,
     image_url), BOM (bom_status, bom_url), part count (from the BOM), notes
-    (info_url, its .md) and whether it's one of the demo models."""
+    (info_url and info_heading, from its .md) and its collection."""
     exists = path.is_file()
-    demo = is_demo(path)
-    status, error = _status(path, "snapshot", demo) if exists else ("missing", None)
-    bom_status, bom_error = _status(path, "bom", demo) if exists else ("missing", None)
+    in_gallery = is_gallery(path)
+    status, error = _status(path, "snapshot", in_gallery) if exists else ("missing", None)
+    bom_status, bom_error = _status(path, "bom", in_gallery) if exists else ("missing", None)
     stat = path.stat() if exists else None
     return {
         "file": path.name, "name": path.stem, "description": gallery.description_of(path) if exists else "",
         "model_url": file_url(path), "image_url": file_url(snapshot_path_for(path), versioned=True),
         "bom_url": file_url(bom_path_for(path), versioned=True), "parts": gallery.part_count(path) if exists else None,
-        "info_url": file_url(gallery.info_path_for(path), versioned=True), "demo": demo,
+        "info_url": file_url(gallery.info_path_for(path), versioned=True), "gallery": in_gallery,
+        "info_heading": gallery.info_heading_of(path) if exists else None,
         "size": stat.st_size if stat else 0, "mtime": stat.st_mtime if stat else 0,
         "status": status, "error": error, "bom_status": bom_status, "bom_error": bom_error,
     }
@@ -477,30 +478,33 @@ def chat_artifact(chat_id: str, path: str):
     })
 
 
-# --- the model collection (data/generated, plus the demo models) ---------------------
-
-def gallery_models() -> list[Path]:
-    """data/generated (newest first), then the demo models it doesn't override."""
-    return gallery.with_demos(gallery.collection(settings.GENERATED_DIR), settings.DEMO_MODELS_DIR)
+# --- model collections (My Models and Gallery) ---------------------------------
 
 
 @app.get("/api/models")
 async def models_list():
-    """Every model in data/generated, newest first, then the demo models (a
-    model in data/generated overrides a demo model of the same name). Models
-    without a snapshot or BOM get them made in the background; poll until
+    """Every model in data/generated, newest first. Models without a snapshot
+    or BOM get them made in the background; poll until
     `pending` is 0."""
-    models = gallery_models()
-    gallery.ensure_artifacts(m for m in models if not is_demo(m))   # demo models ship with theirs
+    models = gallery.collection(settings.GENERATED_DIR)
+    gallery.ensure_artifacts(models)
     index = model_chat_index(get_store())
     items = [{**model_info(path), "chats": index.get(path, [])} for path in models]
     return {"models": items, "pending": sum(1 for i in items if _pending(i))}
 
 
+@app.get("/api/gallery")
+def gallery_list():
+    """The bundled gallery, independent of generated models with the same name."""
+    return {"models": [model_info(path) for path in gallery.collection(settings.GALLERY_MODELS_DIR)], "pending": 0}
+
+
 def model_from_url(url: str) -> Optional[Path]:
-    """The model file behind a viewer URL: /files/generated/<name> or /demo/<name>."""
+    """Resolve generated and gallery viewer URLs, including old /demo/ links."""
     path = unquote(urlsplit(url).path)
-    for prefix, root in (("/files/generated/", settings.GENERATED_DIR), ("/demo/", settings.DEMO_MODELS_DIR)):
+    for prefix, root in (("/files/generated/", settings.GENERATED_DIR),
+                         ("/gallery-files/", settings.GALLERY_MODELS_DIR),
+                         ("/demo/", settings.GALLERY_MODELS_DIR)):
         if path.startswith(prefix):
             model = safe_join(root, path[len(prefix):])
             if (model is not None and model.is_file() and model.parent == root.resolve()
@@ -513,7 +517,7 @@ def model_from_url(url: str) -> Optional[Path]:
 async def model_glb(url: str):
     """The model at `url` (as the viewer loads it) as an uncompressed .glb, made
     with mpd2glb. Can take a minute for big models; cached per model version."""
-    model = model_from_url(url) or _not_found("not a model in data/generated or the demo models")
+    model = model_from_url(url) or _not_found("not a model in My Models or Gallery")
     try:
         out = await glb.export_glb(model)
     except glb.GlbError as exc:
@@ -522,24 +526,26 @@ async def model_glb(url: str):
                         headers={"Cache-Control": "no-cache"})
 
 
-@app.get("/api/models/zip")
-def models_zip():
-    """Everything on the Models page as a zip: data/generated (every model with
-    its snapshot, BOM and notes), plus the demo models shown with it."""
-    demos = {m.stem for m in gallery_models() if is_demo(m)}
-    files = [p for p in sorted(settings.GENERATED_DIR.iterdir()) if p.is_file() and not p.name.startswith(".")]
-    if settings.DEMO_MODELS_DIR.is_dir():
-        files += [p for p in sorted(settings.DEMO_MODELS_DIR.iterdir()) if p.is_file() and p.stem in demos]
+def collection_zip(folder: Path, filename: str):
+    """Download one collection with its snapshots, BOMs and notes."""
+    files = [p for p in sorted(folder.iterdir()) if p.is_file() and not p.name.startswith(".")] if folder.is_dir() else []
     tmp = tempfile.NamedTemporaryFile(suffix=".zip", delete=False)
     with zipfile.ZipFile(tmp, "w", zipfile.ZIP_DEFLATED) as zf:
-        written = set()
         for path in files:
-            if path.name not in written:
-                zf.write(path, path.name)
-                written.add(path.name)
+            zf.write(path, path.name)
     tmp.close()
-    return FileResponse(tmp.name, filename="generated.zip", media_type="application/zip",
+    return FileResponse(tmp.name, filename=filename, media_type="application/zip",
                         background=BackgroundTask(Path(tmp.name).unlink, missing_ok=True))
+
+
+@app.get("/api/models/zip")
+def models_zip():
+    return collection_zip(settings.GENERATED_DIR, "generated.zip")
+
+
+@app.get("/api/gallery/zip")
+def gallery_zip():
+    return collection_zip(settings.GALLERY_MODELS_DIR, "gallery.zip")
 
 
 # --- files -------------------------------------------------------------------
@@ -568,10 +574,11 @@ def files(path: str, download: bool = False):
     return _serve(settings.DATA_DIR, path, download=download)
 
 
-@app.get("/demo/{path:path}")
-def demo_models(path: str, download: bool = False):
-    """The demo models baked into the image, with their snapshots, BOMs and notes."""
-    return _serve(settings.DEMO_MODELS_DIR, path, download=download)
+@app.get("/demo/{path:path}", include_in_schema=False)  # preserve existing viewer links
+@app.get("/gallery-files/{path:path}")
+def gallery_files(path: str, download: bool = False):
+    """The gallery models baked into the image, with their snapshots, BOMs and notes."""
+    return _serve(settings.GALLERY_MODELS_DIR, path, download=download)
 
 
 LIBRARY_CACHE = "public, max-age=31536000, immutable"   # baked into the image, never changes
@@ -626,7 +633,7 @@ if settings.XR_DIR.is_dir():
 if (settings.STATIC_DIR / "assets").is_dir():
     app.mount("/assets", StaticFiles(directory=settings.STATIC_DIR / "assets"), name="assets")
 
-RESERVED_PREFIXES = ("api/", "files/", "demo/", "ldraw/", "ldraw-id/", "viewer/", "xr/", "assets/")
+RESERVED_PREFIXES = ("api/", "files/", "gallery-files/", "demo/", "ldraw/", "ldraw-id/", "viewer/", "xr/", "assets/")
 
 
 @app.get("/{full_path:path}", include_in_schema=False)

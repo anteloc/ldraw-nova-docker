@@ -4,20 +4,20 @@ Each model has two siblings with the same base name, both made with LeoCAD:
   <name>.png  its snapshot, rendered from the home view
   <name>.csv  its bill of materials (BOM), which also gives the part count
 Missing ones are made in the background, one model at a time, whenever
-something asks for them (the Models page, a chat that references the model).
+something asks for them (the My Models page, a chat that references the model).
 A failed one isn't retried until the model file changes.
 
 An optional third sibling, <name>.md, is whatever its author wants to say
 about the model (the prompt that made it, say), shown under Info.
 
-The Models page also shows the demo models baked into the image (models-demo/
-in the repo), which ship with their siblings. A model in data/generated with
-the same base name overrides a demo model, siblings and all.
+The separate Gallery page shows models baked into the image (models-gallery/
+in the repo), which ship with their siblings. The collections are independent.
 """
 from __future__ import annotations
 
 import asyncio
 import logging
+import re
 from pathlib import Path
 from typing import Iterable, Optional
 
@@ -51,6 +51,29 @@ def description_of(path: Path) -> str:
 def info_path_for(model: Path) -> Path:
     """A model's notes: the sibling .md with the same base name (car.mpd -> car.md)."""
     return model.with_suffix(".md")
+
+
+def info_heading_of(model: Path) -> Optional[str]:
+    """Text of the first ATX H2 in a model's notes, excluding fenced code."""
+    fence = ""
+    try:
+        with info_path_for(model).open(encoding="utf-8-sig", errors="replace") as fh:
+            for line in fh:
+                marker = re.match(r"^ {0,3}(`{3,}|~{3,})(.*)$", line)
+                if fence:
+                    if (marker and marker[1][0] == fence[0] and len(marker[1]) >= len(fence)
+                            and not marker[2].strip()):
+                        fence = ""
+                    continue
+                if marker and (marker[1][0] != "`" or "`" not in marker[2]):
+                    fence = marker[1]
+                    continue
+                heading = re.match(r"^ {0,3}##(?:[ \t]+(.*)|[ \r\n]*$)", line)
+                if heading:
+                    return re.sub(r"[ \t]+#+[ \t]*$", "", heading[1] or "").strip() or None
+    except OSError:
+        pass
+    return None
 
 
 def part_count(model: Path) -> Optional[int]:
@@ -99,7 +122,7 @@ async def _work_queue() -> None:
                     log.info("making %s for %s", kind, model.name)
                     await ARTIFACTS[kind][1](model)
                     _failed.pop((model, kind), None)
-                except Exception as exc:  # noqa: BLE001 - shown on the Models page
+                except Exception as exc:  # noqa: BLE001 - shown on the My Models page
                     _failed[(model, kind)] = (_mtime(model), render.describe_error(exc))
                     log.warning("%s of %s failed: %s", kind, model.name, _failed[(model, kind)][1])
         finally:
@@ -120,11 +143,3 @@ def status_of(model: Path, kind: str = "snapshot") -> tuple[str, Optional[str]]:
 def collection(folder: Path) -> list[Path]:
     """The models in the collection, newest first."""
     return sorted(list_models(folder), key=_mtime, reverse=True)
-
-
-def with_demos(models: list[Path], demo_folder: Path) -> list[Path]:
-    """The collection, then the demo models it doesn't override: a model in the
-    collection with the same base name (any extension, any case) replaces the
-    demo model and all of its siblings."""
-    names = {model.stem.casefold() for model in models}
-    return models + [demo for demo in collection(demo_folder) if demo.stem.casefold() not in names]

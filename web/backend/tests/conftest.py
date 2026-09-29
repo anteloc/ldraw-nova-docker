@@ -15,9 +15,9 @@ _tmp = Path(tempfile.mkdtemp(prefix="ldraw-astra-web-tests-"))
 os.environ["LDRAW_ASTRA_DATA_DIR"] = str(_tmp / "data")
 os.environ["LDRAW_ASTRA_WEB_CONFIG_DIR"] = str(_tmp / "config")
 os.environ["LDRAW_ASTRA_GLB_CACHE_DIR"] = str(_tmp / "glb-cache")
-os.environ["LDRAW_ASTRA_DEMO_MODELS_DIR"] = str(_tmp / "models-demo")     # not the image's demo models
+os.environ["LDRAW_ASTRA_GALLERY_MODELS_DIR"] = str(_tmp / "models-gallery")     # not the image's gallery models
 (_tmp / "data" / "output").mkdir(parents=True)
-(_tmp / "models-demo").mkdir()
+(_tmp / "models-gallery").mkdir()
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))          # web/backend
 sys.path.insert(0, str(Path(__file__).resolve().parents[3]))          # repo root: leocad_render
@@ -31,5 +31,5 @@ def data_dir() -> Path:
 
 
 @pytest.fixture
-def demo_dir() -> Path:
-    return _tmp / "models-demo"
+def gallery_dir() -> Path:
+    return _tmp / "models-gallery"

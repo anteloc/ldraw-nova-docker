@@ -6,7 +6,8 @@ import ModelCard from "../components/ModelCard";
 // that have none, and we poll until they're all rendered.
 const POLL_MS = 1500;
 
-export default function Models() {
+export default function Models({ collection }: { collection: "models" | "gallery" }) {
+  const isGallery = collection === "gallery";
   const [models, setModels] = useState<ModelFile[] | null>(null);
   const [pending, setPending] = useState(0);
   const [error, setError] = useState<string | null>(null);
@@ -17,7 +18,7 @@ export default function Models() {
     let timer: ReturnType<typeof setTimeout> | undefined;
     const load = async () => {
       try {
-        const r = await api.models();
+        const r = await api.models(collection);
         if (!alive) return;
         setModels(r.models);
         setPending(r.pending);
@@ -32,13 +33,14 @@ export default function Models() {
       alive = false;
       clearTimeout(timer);
     };
-  }, []);
+  }, [collection]);
 
   const q = query.trim().toLowerCase();
   const shown = (models ?? []).filter(
     (m) =>
       !q ||
       m.file.toLowerCase().includes(q) ||
+      (m.info_heading ?? "").toLowerCase().includes(q) ||
       m.description.toLowerCase().includes(q) ||
       (m.chats ?? []).some((c) => c.title.toLowerCase().includes(q)),
   );
@@ -47,12 +49,11 @@ export default function Models() {
     <div className="page">
       <header className="page-head">
         <div>
-          <h1>Models</h1>
+          <h1>{isGallery ? "Gallery" : "My Models"}</h1>
           <p className="muted">
-            Everything in <code>data/generated</code> — from chats or added by hand — then the demo models that come
-            with the app (one with the same name in <code>data/generated</code> replaces it). Each model's snapshot (
-            <code>.png</code>) and bill of materials (<code>.csv</code>) sit next to it; missing ones are made with
-            LeoCAD. A <code>.md</code> with the same name, if any, is shown under Info.
+            {isGallery
+              ? "Explore the models included with LDraw Astra. Inspect them in 3D, watch them build, or download them."
+              : "Your generated models and models you’ve added. Open a model to explore it in 3D."}
             {pending > 0 && (
               <>
                 {" "}
@@ -64,22 +65,25 @@ export default function Models() {
           </p>
         </div>
         <div className="head-actions">
-          <input type="search" placeholder="Filter by name, description or chat" value={query} onChange={(e) => setQuery(e.target.value)} />
+          <input type="search" aria-label="Filter models" placeholder={isGallery ? "Filter by name or description" : "Filter by name, description or chat"} value={query} onChange={(e) => setQuery(e.target.value)} />
           {models && models.length > 0 && (
-            <a className="button" href="/api/models/zip">
+            <a className="button" href={`/api/${collection}/zip`}>
               Download all (.zip)
             </a>
           )}
         </div>
       </header>
       {error && <div className="banner error">{error}</div>}
-      {models === null && !error && <p className="muted">Scanning data/generated…</p>}
+      {models === null && !error && <p className="muted">Loading models…</p>}
       {models?.length === 0 && (
-        <p className="muted">No models yet. Ask for one in a chat, or drop .mpd/.ldr/.dat files into data/generated.</p>
+        <p className="muted">{isGallery
+          ? "No gallery models yet. Add models to models-gallery to include them here."
+          : "No models yet. Ask for one in a chat, or drop .mpd/.ldr/.dat files into data/generated."}</p>
       )}
+      {models && models.length > 0 && shown.length === 0 && <p className="muted">No models match your search.</p>}
       <div className="card-grid">
         {shown.map((m) => (
-          <ModelCard key={m.file} model={m} showChats />
+          <ModelCard key={m.file} model={m} showChats={!isGallery} />
         ))}
       </div>
     </div>

@@ -9,6 +9,14 @@ type Props = {
   showChats?: boolean;
 };
 
+function DownloadIcon() {
+  return (
+    <svg viewBox="0 0 16 16" width="13" height="13" fill="none" stroke="currentColor" strokeWidth="1.4" aria-hidden="true">
+      <path d="M8 2v8m-3-3 3 3 3-3M3 11v3h10v-3" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
 export default function ModelCard({ model, showChats = false }: Props) {
   const { openViewer } = useApp();
   const open = (mode: ViewerMode = "viewer") =>
@@ -54,28 +62,24 @@ export default function ModelCard({ model, showChats = false }: Props) {
       </button>
       <div className="model-meta">
         <div className="model-title">
-          <span className="ellipsis">
-            <strong>{model.file}</strong>
+          <span className="model-file">
+            <strong className="ellipsis" title={model.file}>{model.file}</strong>
             {model.parts != null ? (
               <span className="muted">, {partsLabel(model.parts)}</span>
             ) : bomBusy ? (
               <span className="muted">, counting parts…</span>
             ) : null}
           </span>
-          {model.demo && (
-            <span className="badge demo" title="A demo model, included with the app. A model with the same name in data/generated replaces it.">
-              Demo
-            </span>
-          )}
           {warnings.length > 0 && (
             <span className="badge warn" title={warnings.join("\n")}>
               {warnings.length} warning{warnings.length > 1 ? "s" : ""}
             </span>
           )}
         </div>
+        {model.info_heading && <p className="model-info-heading"><strong>{model.info_heading}</strong></p>}
         {model.description && <p className="model-description">{model.description}</p>}
         <div className="muted small ellipsis">
-          {model.demo ? "Demo model, included with the app" : timeAgo(model.created_at ?? model.mtime)}
+          {model.gallery ? "From the gallery" : timeAgo(model.created_at ?? model.mtime)}
           {showChats && model.chats && model.chats.length > 0 && (
             <>
               {" · from "}
@@ -89,26 +93,31 @@ export default function ModelCard({ model, showChats = false }: Props) {
           )}
         </div>
         <div className="model-actions">
-          <button onClick={() => open()} disabled={!model.model_url}>
-            3D view
-          </button>
-          <button onClick={() => open("player")} disabled={!model.model_url} title="Watch the model being built, step by step">
-            3D player
-          </button>
-          {model.model_url && (
-            <a className="button" href={xrUrl(model.model_url, model.parts)} title={XR_TITLE}>
-              VR
-            </a>
-          )}
           {model.info_url && (
-            <button onClick={() => setInfo(true)} title="About this model, from its author (e.g. the prompt that made it)">
+            <button className="model-info-action" onClick={() => setInfo(true)} title="About this model, from its author (e.g. the prompt that made it)">
+              <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1.4" aria-hidden="true">
+                <circle cx="8" cy="8" r="6" /><path d="M8 7v4M8 4.5v1" strokeLinecap="round" />
+              </svg>
               Info
             </button>
           )}
-          <span className="button-group" role="group" aria-label="Download">
+          <span className="model-viewer-actions" role="group" aria-label="View model">
+            <button onClick={() => open()} disabled={!model.model_url}>
+              3D View
+            </button>
+            <button onClick={() => open("player")} disabled={!model.model_url} title="Watch the model being built, step by step">
+              3D Player
+            </button>
+            {model.model_url && (
+              <a className="button" href={xrUrl(model.model_url, model.parts)} title={XR_TITLE}>
+                VR
+              </a>
+            )}
+          </span>
+          <span className="button-group model-download-actions" role="group" aria-label="Download">
             {model.model_url && (
               <a className="button" href={downloadUrl(model.model_url)} title={`Download ${model.file}`}>
-                {extension}
+                <DownloadIcon /> {extension}
               </a>
             )}
             {model.model_url && (
@@ -125,17 +134,17 @@ export default function ModelCard({ model, showChats = false }: Props) {
                 aria-label={glb.busy ? "Converting to .glb" : undefined}
                 className={glb.error ? "danger-text" : undefined}
               >
-                {glb.busy && <span className="spinner" aria-hidden />}
+                {glb.busy ? <span className="spinner" aria-hidden /> : <DownloadIcon />}
                 .glb
               </button>
             )}
             {model.bom_url ? (
               <a className="button" href={downloadUrl(model.bom_url)} title="Download the bill of materials (CSV)">
-                BOM
+                <DownloadIcon /> BOM
               </a>
             ) : model.model_url ? (
               <button disabled title={bomBusy ? "Generating the bill of materials…" : (model.bom_error ?? "No bill of materials")}>
-                BOM
+                <DownloadIcon /> BOM
               </button>
             ) : null}
           </span>

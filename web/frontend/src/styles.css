@@ -8,6 +8,9 @@
   --accent: #d9382e;
   --accent-fg: #ffffff;
   --accent-soft: #fdecea;
+  --info: #285fa3;
+  --info-border: #aec8e7;
+  --info-soft: #edf4fd;
   --ok: #15803d;
   --warn: #b45309;
   --warn-soft: #fef3c7;
@@ -31,6 +34,9 @@
     --accent: #ef5a4f;
     --accent-fg: #ffffff;
     --accent-soft: #3a1a18;
+    --info: #9fc6ff;
+    --info-border: #405d80;
+    --info-soft: #1d2c41;
     --ok: #4ade80;
     --warn: #fbbf24;
     --warn-soft: #3a2e10;
@@ -91,7 +97,6 @@ input:focus, select:focus, textarea:focus, button:focus-visible {
 }
 .badge.ok { color: var(--ok); }
 .badge.warn { color: var(--warn); background: var(--warn-soft); border-color: transparent; }
-.badge.demo { color: var(--accent); background: var(--accent-soft); border-color: transparent; }
 .banner {
   background: var(--surface-2); border: 1px solid var(--border); border-radius: var(--radius);
   padding: 8px 12px; margin: 8px 0; color: var(--muted); white-space: pre-wrap;
@@ -267,10 +272,23 @@ input:focus, select:focus, textarea:focus, button:focus-visible {
   margin: 1px 0 2px; font-size: 13px; line-height: 1.4;
   display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
 }
-.model-meta { padding: 9px 12px 11px; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.model-info-heading { margin: 3px 0 2px; font-size: 13px; line-height: 1.45; overflow-wrap: anywhere; }
+.model-meta { padding: 9px 12px 11px; display: flex; flex: 1; flex-direction: column; gap: 2px; min-width: 0; }
 .model-title { display: flex; align-items: center; gap: 6px; min-width: 0; }
-.model-actions { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 7px; }
-.model-actions button, .model-actions .button { padding: 3px 8px; font-size: 12.5px; }
+.model-file { display: flex; align-items: baseline; min-width: 0; }
+.model-file > .muted { flex-shrink: 0; white-space: nowrap; }
+.model-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; margin-top: auto; padding-top: 8px; }
+.model-actions button, .model-actions .button { padding: 5px 8px; font-size: 12px; min-height: 29px; }
+.model-actions svg { flex-shrink: 0; }
+.model-actions :is(button, a):focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+/* Info: an outlined pill. Viewers: tinted buttons. Downloads: a joined neutral strip. */
+.model-actions .model-info-action { border-radius: 99px; border-color: var(--info-border); color: var(--info); }
+.model-actions .model-info-action:hover { background: var(--info-soft); }
+.model-viewer-actions { display: inline-flex; gap: 4px; }
+.model-viewer-actions :is(button, .button) { background: var(--accent-soft); border-color: transparent; color: var(--accent); font-weight: 550; }
+.model-viewer-actions :is(button, .button):hover { background: color-mix(in srgb, var(--accent) 20%, var(--surface)); }
+.model-download-actions :is(button, .button) { background: var(--surface-2); font-size: 11.5px; }
+.model-download-actions :is(button, .button):hover { background: var(--border); }
 /* Joined buttons (the downloads): wraps as one piece. */
 .button-group { display: inline-flex; }
 .button-group > button, .button-group > .button { border-radius: 0; }

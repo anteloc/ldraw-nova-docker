@@ -38,7 +38,7 @@ services:
       - .:/app                          # leocad_render.py, example.py, web/backend
       - ./web/viewer:/opt/web/viewer    # viewer.html, player.html
       - ./scripts:/opt/scripts          # command-line helpers (on the PATH)
-      - ./models-demo:/opt/models-demo  # demo models on the Models page
+      - ./models-gallery:/opt/models-gallery  # bundled models on the Gallery page
       # The mixed-reality viewer (web/xr) has its own dev server instead:
       #   cd web/xr && npm install && npm run dev   # http://localhost:5173/xr/?model=...&emulate=quest3
       # Iterating on the 3D player (ldraw.rs-astra, tools/player/build.sh): use

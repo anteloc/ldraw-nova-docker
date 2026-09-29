@@ -2,7 +2,7 @@
 which LiteLLM translates for every provider.
 
 Where things go:
-  /data/generated/        finished models (flat) + their .png snapshots: the Models page
+  /data/generated/        finished models (flat) + their .png snapshots: the My Models page
   /data/output/<chat>/    the chat's work folder: scripts' cwd, notes, plans, scratch files
   /data/chats/<chat>/renders/   extra renders shown in the chat
 """

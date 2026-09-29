@@ -2,7 +2,7 @@
 
 export type SnapshotStatus = "ready" | "queued" | "rendering" | "failed" | "missing";
 
-/** A model file in data/generated, or one of the demo models baked into the image. */
+/** A model file in data/generated, or in the bundled gallery. */
 export type ModelFile = {
   file: string;
   name: string;
@@ -12,14 +12,15 @@ export type ModelFile = {
   bom_url: string | null; // the sibling .csv bill of materials, once it exists
   parts: number | null; // total parts, from the BOM
   info_url: string | null; // the sibling .md: notes about the model (its prompt, say), if any
-  demo: boolean; // a demo model (models-demo/), unless data/generated has one of the same name
+  info_heading: string | null; // the first H2 in the sibling .md, without the heading markers
+  gallery: boolean; // a bundled model from models-gallery/
   size: number;
   mtime: number;
   status: SnapshotStatus; // of the snapshot
   error: string | null;
   bom_status: SnapshotStatus;
   bom_error: string | null;
-  chats?: { id: string; title: string }[]; // chats that produced it (Models page)
+  chats?: { id: string; title: string }[]; // chats that produced it (My Models page)
 };
 
 /** A model a chat produced: a reference into data/generated. */
@@ -114,7 +115,7 @@ export const api = {
   loginCode: (provider: string, code: string) => request(`/api/auth/${provider}/code`, { method: "POST", body: json({ code }) }),
   logout: (provider: string) => request(`/api/auth/${provider}`, { method: "DELETE" }),
   cancel: (id: string) => request(`/api/chats/${id}/cancel`, { method: "POST" }),
-  models: () => request<{ models: ModelFile[]; pending: number }>("/api/models"),
+  models: (collection: "models" | "gallery" = "models") => request<{ models: ModelFile[]; pending: number }>(`/api/${collection}`),
 
   llmModels: () => request<{ models: LlmEntry[]; default_id: string | null }>("/api/llm-models"),
   editLlm: (id: string) => request<LlmEntry>(`/api/llm-models/${id}/edit`),

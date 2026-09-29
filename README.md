@@ -13,8 +13,8 @@ A single image containing:
   library.ldraw.org and baked into the image
 - **Python 3**, so your own scripts run in the same container and call
   `leocad` as a subprocess (see `leocad_render.py`)
-- **The demo models** from `models-demo/`, baked into the image at
-  `/opt/models-demo/` and shown on the Models page
+- **The Gallery** from `models-gallery/`, baked into the image at
+  `/opt/models-gallery/` and shown separately from your generated models
 - **[mpd2glb](https://github.com/anteloc/mpd2glb)** (pinned release, run with
   a pinned [Bun](https://bun.com/) through `scripts/mpd2glb.sh`), which converts LDraw models to glTF `.glb` while keeping
   the LDraw metadata (descriptions, part files, colours, building steps) on
@@ -53,7 +53,7 @@ A single image containing:
 ├── requirements.txt
 ├── leocad_render.py       # render_image() + a CLI — wrapper around leocad
 ├── example.py             # batch worker: makes missing snapshots + BOMs in data/generated/
-├── models-demo/           # demo models (+ .png, .csv, .md), baked in at /opt/models-demo/
+├── models-gallery/        # gallery models (+ .png, .csv, .md), baked in at /opt/models-gallery/
 ├── scripts/               # command-line helpers, baked in at /opt/scripts/: all on the PATH
 ├── web/
 │   ├── backend/           # FastAPI: chat API, agent loop (LiteLLM), tools, file routes
@@ -72,7 +72,7 @@ A single image containing:
 | `./data/generated/` | `/data/generated/` | models (`.mpd`/`.ldr`/`.dat`) + same-named `.png` snapshots and `.csv` BOMs; drop your own models here |
 | `./data/chats/` | `/data/chats/` | chat history, one folder per chat |
 | `./data/output/` | `/data/output/` | agents' work folders (one per chat); also the CLI's default render folder |
-| `./models-demo/` | `/opt/models-demo/` | demo models, baked in at build time (rebuild to update) |
+| `./models-gallery/` | `/opt/models-gallery/` | gallery models, baked in at build time (rebuild to update; live-mounted in development) |
 | `./scripts/` | `/opt/scripts/` | command-line helpers, on the `PATH`; baked in at build time (rebuild to update) |
 | named volume `config` | `/config/` | LLM settings and API keys (not on the host, on purpose) |
 
@@ -127,10 +127,10 @@ docker compose exec ldraw-astra-app bash       # log in — repeat as often as y
 Inside the container:
 
 ```bash
-python3 /app/leocad_render.py /opt/models-demo/copper-bean.mpd
+python3 /app/leocad_render.py /opt/models-gallery/copper-bean.mpd
 #   -> /data/output/copper-bean.png, i.e. ./data/output/copper-bean.png on the host
 
-python3 /app/leocad_render.py /opt/models-demo/cathedral.mpd /opt/models-demo/sakura-garden.mpd \
+python3 /app/leocad_render.py /opt/models-gallery/cathedral.mpd /opt/models-gallery/sakura-garden.mpd \
     --width 1920 --height 1080 --camera-angles 20 60
 python3 /app/leocad_render.py /data/my-model.ldr -o /data/output/tests
 python3 /app/leocad_render.py --help
@@ -155,7 +155,7 @@ docker compose run --rm ldraw-astra-app python3 /app/example.py
 `example.py` makes, for every model in `data/generated`, whatever is missing
 of its snapshot (`car.mpd` → `car.png`, from LeoCAD's home view) and its bill
 of materials (`car.csv`, LeoCAD's CSV parts list) — the same thing the web
-app's Models page does when you open it.
+app's My Models page does when you open it.
 
 `--init` matters: the entrypoint runs Xvfb in the background *and* your main
 process in the foreground, so you want Docker's built-in init to reap
@@ -262,7 +262,7 @@ open http://localhost:8765                # port: LDRAW_ASTRA_WEB_PORT in .env
    recent output. Stop terminates the running process group. Commands have a
    30-minute maximum; a turn permits up to 150 model/tool rounds. At that limit,
    send a message to continue from the saved work and `NOTES.md`.
-   The app opens on **Models**; **New chat** opens the builder. Its compact composer
+   The app opens on **My Models**; **New chat** opens the builder. Its compact composer
    offers **Agent** and **Plan** (read-only inspection). The model picker groups
    models by provider and remembers recent choices in this browser. Effort shows
    the configured value or the actual provider default and sends it explicitly;
@@ -283,17 +283,19 @@ open http://localhost:8765                # port: LDRAW_ASTRA_WEB_PORT in .env
 3. **Snapshots** appear in the chat. Click one for the 3D viewer, or download
    the model (`.mpd`), a glTF version of it (`.glb`) or its bill of materials
    (**BOM**). The sidebar keeps the chat history with thumbnails.
-4. **Models** shows everything in `data/generated` — from chats or copied in by
+4. **My Models** (the landing page) shows everything in `data/generated` — from chats or copied in by
    hand — as "`name.mpd`, N parts", with the description from each file's
    title line (line 2 of an `.mpd`). When you open the page, models without a
    snapshot (`.png`, rendered from LeoCAD's home view) or BOM (`.csv`, LeoCAD's
    parts list, which also gives the part count) get them; delete either to
-   have it regenerated. After them come the **demo models** that ship with the
-   app (marked *Demo*); a model in `data/generated` with the same base name
-   replaces a demo model, with all its files. A model with a Markdown file of
+   have it regenerated. **Gallery** shows only the models in `models-gallery/`
+   that ship with the app, with their existing snapshots and BOMs. The two
+   collections are independent, even when models share a filename.
+   A model in either collection with a Markdown file of
    the same base name (`atlas-crane.md` next to `atlas-crane.mpd`: the prompt
-   that made it, say) gets an **Info** button that shows it. **Download all**
-   zips all of it.
+   that made it, say) gets an **Info** button that shows it. Its first `##` heading
+   also appears in bold below the filename and part count, above the model's
+   description. **Download all** zips only the current collection and its files.
 5. **3D view / 3D player** on each card open the model in the three.js viewer
    or in the player, which plays back how it's built; the window's header
    switches between the two. **VR** opens it in mixed reality on a Meta
@@ -308,10 +310,10 @@ Where things live:
 
 | What | Where |
 |---|---|
-| Models | `data/generated/<name>.mpd` (chat models: `<name>-v<N>.mpd`, never overwritten) |
+| My Models | `data/generated/<name>.mpd` (chat models: `<name>-v<N>.mpd`, never overwritten) |
 | Their snapshots and BOMs | `data/generated/<name>.png`, `data/generated/<name>.csv` — same base name, same folder |
 | Notes on a model (Info) | `data/generated/<name>.md`, optional: Markdown, written by hand |
-| Demo models | `models-demo/` in the repo (`/opt/models-demo/` in the image): each with its `.png`, `.csv` and optional `.md`, all made beforehand |
+| Gallery | `models-gallery/` in the repo (`/opt/models-gallery/` in the image): each with its `.png`, `.csv` and optional `.md`, all made beforehand |
 | A chat | `data/chats/<chat>/`: `chat.json` (title, model), `messages.jsonl` (history), `models.jsonl` (references to its models, e.g. `../../generated/red-car-v1.mpd`), `renders/` (extra renders shown in the chat) |
 | A chat's work folder | `data/output/<chat>/`: the agents' notes (`NOTES.md`), plans, drafts, scripts (`generators/`); explicit artifact downloads are available in chat |
 | LLM settings, API keys, browser sessions | `/config` volume (`docker compose down -v` deletes it); tokens under `/config/browser/{openai,anthropic}` |
@@ -358,7 +360,7 @@ the provider's account settings if needed). Login subprocesses expire after
 and pending approvals; the conversation history remains available.
 
 **The 3D viewer** is `/viewer/viewer.html?model=<url>` — e.g.
-http://localhost:8765/viewer/viewer.html?model=/demo/copper-bean.mpd for a
+http://localhost:8765/viewer/viewer.html?model=/gallery-files/copper-bean.mpd for a
 demo model. Rendering:
 
 * **High** (the default): realistic plastic/metal/rubber/transparent
@@ -389,7 +391,7 @@ parts served from the baked-in library instead of ldraw.org, and a perspective
 camera instead of its orthographic one (which can't go inside a model).
 
 **The 3D player** is `/viewer/player.html?model=<url>` — e.g.
-http://localhost:8765/viewer/player.html?model=/demo/copper-bean.mpd. Parts drop
+http://localhost:8765/viewer/player.html?model=/gallery-files/copper-bean.mpd. Parts drop
 into place step by step while the camera slowly turns (in Inspect); that's
 what **play** does, and **pause** stops both. **|◀ / ▶|** jump to the previous / next step,
 and the time slider is cut into the steps like the chapters of a video (hover
