@@ -1,4 +1,4 @@
-# LDraw Astra + Python in one container (headless LDraw rendering)
+# LDraw Nova + Python in one container (headless LDraw rendering)
 
 A single image containing:
 - **A web app** on http://localhost:8765: chat with LLM agents (Claude,
@@ -33,7 +33,7 @@ A single image containing:
   when it runs
 - **poppler-utils** (`pdftotext`, …), **ripgrep** (`rg`) and **git**
 - **The 3D player**, ldraw-player: Rust + WebAssembly (tools/player in the
-  [ldraw.rs-astra](https://github.com/anteloc/ldraw.rs-astra) fork of
+  [ldraw.rs-nova](https://github.com/anteloc/ldraw.rs-nova) fork of
   ldraw.rs), added from a pinned release zip
 - **A persistent virtual display** (Xvfb), started once by the entrypoint for
   the life of the container, since LeoCAD's render mode needs a real
@@ -98,10 +98,10 @@ A single image containing:
 ## Build
 
 ```bash
-docker build --build-context astra=../ldraw-astra -t ldraw-astra-app .
+docker build --build-context nova=../ldraw-nova -t ldraw-nova-app .
 # pin a specific stable release explicitly (check
 # https://github.com/leozide/leocad/releases for available tags):
-docker build --build-context astra=../ldraw-astra --build-arg LEOCAD_TAG=v25.09 -t ldraw-astra-app .
+docker build --build-context nova=../ldraw-nova --build-arg LEOCAD_TAG=v25.09 -t ldraw-nova-app .
 ```
 
 The build script resolves the AppImage's exact asset URL from the GitHub API
@@ -121,7 +121,7 @@ emulation. It works, but renders are slower than on a native x86_64 host.
 
 ```bash
 docker compose up -d --build              # start it (the web server keeps it up)
-docker compose exec ldraw-astra-app bash       # log in — repeat as often as you like
+docker compose exec ldraw-nova-app bash       # log in — repeat as often as you like
 ```
 
 Inside the container:
@@ -147,9 +147,9 @@ docker compose down
 ### One-off runs
 
 ```bash
-docker run --rm -it --init -v "$PWD/data:/data" ldraw-astra-app bash
-docker run --rm --init -v "$PWD/data:/data" ldraw-astra-app python3 /app/example.py
-docker compose run --rm ldraw-astra-app python3 /app/example.py
+docker run --rm -it --init -v "$PWD/data:/data" ldraw-nova-app bash
+docker run --rm --init -v "$PWD/data:/data" ldraw-nova-app python3 /app/example.py
+docker compose run --rm ldraw-nova-app python3 /app/example.py
 ```
 
 `example.py` makes, for every model in `data/generated`, whatever is missing
@@ -164,7 +164,7 @@ zombies and forward signals correctly.
 Raw `leocad` calls still work directly (no `--libpath` needed — see below):
 
 ```bash
-docker run --rm --init -v "$PWD/data:/data" ldraw-astra-app \
+docker run --rm --init -v "$PWD/data:/data" ldraw-nova-app \
     leocad /data/car.ldr -i /data/output/car.png -w 1280 -h 720 --camera-angles 30 40
 ```
 
@@ -172,7 +172,7 @@ docker run --rm --init -v "$PWD/data:/data" ldraw-astra-app \
 
 ```bash
 docker compose up -d --build
-open http://localhost:8765                # port: LDRAW_ASTRA_WEB_PORT in .env
+open http://localhost:8765                # port: LDRAW_NOVA_WEB_PORT in .env
 ```
 
 1. **Settings → Browser login.** Click **Sign in with ChatGPT** or
@@ -277,10 +277,10 @@ open http://localhost:8765                # port: LDRAW_ASTRA_WEB_PORT in .env
    endpoints have unknown limits/prices rather than assuming the public provider's
    values. Browser subscriptions show API pricing only as a reference, not as the
    subscription's charges. New-chat controls also warn that building may incur costs.
-   Older OpenRouter key
-   references and saved overrides are read using the standard `OPENROUTER_API_KEY`
-   name; Compose also accepts the old shell variable as a migration fallback.
-2. **Chat.** Ask for a model. The agent follows the standalone `ldraw-astra`
+   `OPENROUTER_API_KEY` is the standard OpenRouter variable. The optional
+   `OPENROUTER_LDRAW_NOVA_API_KEY` alias is also accepted by Compose and normalized
+   to the standard name in saved settings.
+2. **Chat.** Ask for a model. The agent follows the standalone `ldraw-nova`
    instructions, studies references, builds editable plans/modules, validates
    geometry, renders and opens images for visual review. `publish_model`
    preserves the MPD and adds the same interactive model card used on Models:
@@ -446,13 +446,13 @@ button (bottom right) brings back the whole model. It renders with ldraw.rs's ow
 WebGPU where the browser has it, WebGL2 otherwise.
 
 It's ldraw-player, `tools/player` in the
-[ldraw.rs-astra](https://github.com/anteloc/ldraw.rs-astra) fork, which
+[ldraw.rs-nova](https://github.com/anteloc/ldraw.rs-nova) fork, which
 adds it next to the ldraw.rs demo viewer (unchanged); see its README for the
 JavaScript API. The image takes `ldraw-player-<version>.zip`, pinned by
 version and SHA-256 (`LDRAW_PLAYER_VERSION`, `LDRAW_PLAYER_SHA256` in the
 Dockerfile), from `vendor/` for now: a local build (`VERSION=0.8.1
 tools/player/build.sh` in the fork), because the v0.8.0 release on
-[GitHub](https://github.com/anteloc/ldraw.rs-astra/releases) doesn't start in
+[GitHub](https://github.com/anteloc/ldraw.rs-nova/releases) doesn't start in
 any browser. Once a fixed release is published, the Dockerfile's `COPY` goes
 back to the commented `curl` line next to it.
 
@@ -471,7 +471,7 @@ or `localhost`. A plain `http://<your computer's IP>:8765` page loads, but
 Two ways:
 
 * **HTTPS over Wi-Fi:** open `https://<your computer's IP>:8443` in the Quest
-  browser (the app's HTTPS port, `LDRAW_ASTRA_WEB_HTTPS_PORT`). The certificate is
+  browser (the app's HTTPS port, `LDRAW_NOVA_WEB_HTTPS_PORT`). The certificate is
   self-signed, made once and kept in the `config` volume: the first time, the
   browser warns, choose Advanced → Proceed. This needs the ports reachable
   from the network, which also exposes the app (it has no login) to
@@ -520,7 +520,7 @@ Studs are about 80% of the triangles (the cathedral: 2.39M, 0.47M without);
 if a large model doesn't hold its frame rate, the next step is to draw studs
 separately and drop the ones covered by other parts.
 
-**mpd2glb by hand**, from a `docker compose exec ldraw-astra-app bash` shell:
+**mpd2glb by hand**, from a `docker compose exec ldraw-nova-app bash` shell:
 
 ```bash
 mpd2glb.sh -c none -l /opt/ldraw/ldraw -o /data/output/cathedral.glb /data/generated/cathedral.mpd
@@ -559,14 +559,14 @@ cd web/xr && npm install && npm run dev      # mixed-reality viewer: /xr/?model=
 cd web/xr && npm test                        # its batching tests
 
 # backend tests (inside the container: they use LeoCAD and the real library)
-docker compose exec ldraw-astra-app bash -c \
+docker compose exec ldraw-nova-app bash -c \
   "pip install -q --break-system-packages -r /app/web/backend/requirements-dev.txt && cd /app/web/backend && pytest -q"
 ```
 
 ### Developing the standalone builder
 
-Keep `ldraw-astra/` and `ldraw-astra-docker/` beside each other. Compose passes
-`../ldraw-astra` as a named build context. To incorporate any sibling changes:
+Keep `ldraw-nova/` and `ldraw-nova-docker/` beside each other. Compose passes
+`../ldraw-nova` as a named build context. To incorporate any sibling changes:
 
 ```bash
 docker compose up -d --build
@@ -584,12 +584,12 @@ For live edits, use Compose Watch with the development configuration:
 docker compose -f docker-compose.yml -f docker-compose.dev.yml up --watch
 ```
 
-Watch syncs builder files into `/opt/ldraw-astra`; changes to its dependency
+Watch syncs builder files into `/opt/ldraw-nova`; changes to its dependency
 manifest/lock rebuild the image. Existing long-running commands finish with
 the code they loaded; new commands load changes. Rebuilds/restarts interrupt
 active turns, so finish or stop them first.
 
-`/opt/ldraw-astra/output` maps to `/data/output` (`./data/output` on the host).
+`/opt/ldraw-nova/output` maps to `/data/output` (`./data/output` on the host).
 Each chat receives a repository-shaped working directory whose `output/` maps
 to `/data/output/<chat-id>`. The source repository and reference resources stay
 shared and read-only to tool processes; its derived `.cache` is writable and
@@ -668,7 +668,7 @@ them.
 | `-ss, --stud-style <0-7>` | Stud rendering style |
 | `-f, --from <step>` / `-t, --to <step>` | Render a range of build steps |
 
-Full reference: `docker run --rm ldraw-astra-app leocad --help`, or
+Full reference: `docker run --rm ldraw-nova-app leocad --help`, or
 https://www.leocad.org/docs/cli.html
 
 ## Notes

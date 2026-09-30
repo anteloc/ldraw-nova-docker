@@ -17,16 +17,16 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import Callable
 
-AGENT_USER = os.environ.get("LDRAW_ASTRA_AGENT_USER", "agent")
+AGENT_USER = os.environ.get("LDRAW_NOVA_AGENT_USER", "agent")
 MAX_OUTPUT_CHARS = 20_000
 MAX_FILE_BYTES = 512 * 1024 * 1024
 
 # Only what renders and Python need; notably nothing from the server's env.
 # UV_PYTHON_INSTALL_DIR: uv finds the image's Python 3.14 instead of downloading one.
-PASSTHROUGH_ENV = ("DISPLAY", "LEOCAD_LIB", "LIBGL_ALWAYS_SOFTWARE", "PYTHONPATH", "LDRAW_ASTRA_DATA_DIR",
+PASSTHROUGH_ENV = ("DISPLAY", "LEOCAD_LIB", "LIBGL_ALWAYS_SOFTWARE", "PYTHONPATH", "LDRAW_NOVA_DATA_DIR",
                    "UV_PYTHON_INSTALL_DIR")
 # The repo's scripts/ (mpd2glb.sh, ...), on the agents' PATH too.
-SCRIPTS_DIR = os.environ.get("LDRAW_ASTRA_SCRIPTS_DIR", "/opt/scripts")
+SCRIPTS_DIR = os.environ.get("LDRAW_NOVA_SCRIPTS_DIR", "/opt/scripts")
 
 
 @dataclass

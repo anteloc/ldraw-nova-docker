@@ -102,7 +102,7 @@ def test_private_persistence_is_loaded_before_backend_configuration(tmp_path, mo
     monkeypatch.setenv("LDRAW_TEST_RESTART", "inherited")
     rows = save_overrides([
         {"name": "LDRAW_TEST_RESTART", "value": "persisted-override"},
-        {"name": "LDRAW_ASTRA_DATA_DIR", "value": str(tmp_path / "startup-data")},
+        {"name": "LDRAW_NOVA_DATA_DIR", "value": str(tmp_path / "startup-data")},
     ])
     path = environment_config._directory / "environment.json"
     assert path.stat().st_mode & 0o077 == 0
@@ -111,7 +111,7 @@ def test_private_persistence_is_loaded_before_backend_configuration(tmp_path, mo
     environment_config._apply([])
     result = subprocess.run([sys.executable, "-c", "import main, os, settings; "
         "print(os.environ['LDRAW_TEST_RESTART']); print(settings.DATA_DIR)"],
-        env={**os.environ, "LDRAW_ASTRA_WEB_CONFIG_DIR": str(path.parent),
+        env={**os.environ, "LDRAW_NOVA_WEB_CONFIG_DIR": str(path.parent),
              "PYTHONPATH": str(Path(main.__file__).parent) + os.pathsep + str(Path(main.__file__).parents[2])},
         capture_output=True, text=True, check=True, timeout=30)
     assert result.stdout.splitlines() == ["persisted-override", str(tmp_path / "startup-data")]
@@ -156,12 +156,12 @@ def test_environment_rejects_cross_origin_changes():
     assert "LDRAW_TEST_CROSS" not in os.environ
 
 
-def test_old_openrouter_name_migrates_and_standard_override_wins(monkeypatch):
+def test_project_openrouter_alias_maps_to_standard_name(monkeypatch):
     monkeypatch.delenv("OPENROUTER_API_KEY", raising=False)
-    monkeypatch.setenv("OPENROUTER_LDRAW_ASTRA_API_KEY", "legacy-inherited")
-    entry = {"litellm_params": {"model": "openrouter/openai/gpt-6-sol", "api_key": "os.environ/OPENROUTER_LDRAW_ASTRA_API_KEY"}}
+    monkeypatch.setenv("OPENROUTER_LDRAW_NOVA_API_KEY", "legacy-inherited")
+    entry = {"litellm_params": {"model": "openrouter/openai/gpt-6-sol", "api_key": "os.environ/OPENROUTER_LDRAW_NOVA_API_KEY"}}
     assert llm_config.resolve_params(entry)["api_key"] == "legacy-inherited"
-    rows = save_overrides([{"name": "OPENROUTER_LDRAW_ASTRA_API_KEY", "value": "saved-legacy"}])
+    rows = save_overrides([{"name": "OPENROUTER_LDRAW_NOVA_API_KEY", "value": "saved-legacy"}])
     assert rows[0]["name"] == "OPENROUTER_API_KEY"
     assert llm_config.resolve_params(entry)["api_key"] == "saved-legacy"
     rows = save_overrides([{**rows[0], "value": "standard-override"}])

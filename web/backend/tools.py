@@ -172,7 +172,7 @@ async def t_publish_model(ctx: ToolContext, path: str, name: str | None = None) 
     revision = review / "model.mpd"
     revision.write_bytes(source_bytes)
     report = review / "validation.json"
-    ctx.emit("progress", {"summary": "Checking the model with LDraw Astra before publication."})
+    ctx.emit("progress", {"summary": "Checking the model with LDraw Nova before publication."})
     validation = await run_command(ctx, ["./ldraw-agent", "validate", str(revision), "--geometry",
                                          "--detail", "summary", "--report", str(report)], 1800)
     if validation.exit_code not in (0, 1) or not report.is_file():
@@ -274,7 +274,7 @@ def _fn(name: str, description: str, properties: dict, required: list[str]) -> d
 
 TOOLS: dict[str, tuple[dict, Callable[..., Awaitable[ToolResult]]]] = {
     "run_toolkit": (_fn("run_toolkit",
-        "Run the standalone LDraw Astra CLI. All commands are available: doctor, spec, discover, catalog, "
+        "Run the standalone LDraw Nova CLI. All commands are available: doctor, spec, discover, catalog, "
         "study, extract, examples, build, validate, inspect, render, compare-bom, manual, vehicle, spaceship, "
         "technic, mechanism and more. Read instructions.md and relevant docs first. Output goes under output/. "
         "Arguments are an array, without shell quoting or the executable. Use --help to inspect subcommands.",
@@ -294,7 +294,7 @@ TOOLS: dict[str, tuple[dict, Callable[..., Awaitable[ToolResult]]]] = {
     "report_progress": (_fn("report_progress", "Show a concise progress update: current phase, design decisions, "
         "completed checks, remaining work. Use throughout substantial builds, without private internal reasoning.",
         {"summary": {"type": "string"}}, ["summary"]), t_report_progress),
-    "run_python": (_fn("run_python", "Run Python with the LDraw Astra virtualenv (pyldraw3, numpy, jsonschema). "
+    "run_python": (_fn("run_python", "Run Python with the LDraw Nova virtualenv (pyldraw3, numpy, jsonschema). "
         "Working directory has the toolkit repository layout. Use its builder/serializer; write under output/. "
         "Code is saved for reproducibility. Call publish_model for user-visible model cards.",
         {"code": {"type": "string"}, "timeout": {"type": "integer", "description": "Seconds, default 60, max 1800"}},

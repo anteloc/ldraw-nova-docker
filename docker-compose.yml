@@ -1,22 +1,22 @@
-name: ldraw-astra-docker
+name: ldraw-nova-docker
 
 services:
-  ldraw-astra-app:
+  ldraw-nova-app:
     build:
       context: .
       additional_contexts:
-        astra: ../ldraw-astra
-    image: ldraw-astra-app
+        nova: ../ldraw-nova
+    image: ldraw-nova-app
     platform: linux/amd64  # LeoCAD ships x86_64-only AppImages (emulated on Apple Silicon)
-    container_name: ldraw-astra-app
+    container_name: ldraw-nova-app
     init: true            # proper signal handling / zombie reaping (Xvfb + your process)
     # The web app is available on localhost and the host's LAN IP at this port
-    # (change with LDRAW_ASTRA_WEB_PORT in .env). It has no login, so restrict access
+    # (change with LDRAW_NOVA_WEB_PORT in .env). It has no login, so restrict access
     # with your host firewall on untrusted networks.
     ports:
-      - "${LDRAW_ASTRA_WEB_PORT:-8765}:8000"
+      - "${LDRAW_NOVA_WEB_PORT:-8765}:8000"
       # HTTPS (self-signed), for headsets: WebXR needs HTTPS or localhost.
-      - "${LDRAW_ASTRA_WEB_HTTPS_PORT:-8443}:8443"
+      - "${LDRAW_NOVA_WEB_HTTPS_PORT:-8443}:8443"
       # OpenAI browser OAuth callback, reachable only on the Docker host.
       - "127.0.0.1:1455:1456"
     volumes:
@@ -28,7 +28,7 @@ services:
         required: false
     environment:
       # Read the host shell or .env value; never put the key in this file.
-      OPENROUTER_API_KEY: ${OPENROUTER_API_KEY:-${OPENROUTER_LDRAW_ASTRA_API_KEY:-}}
+      OPENROUTER_API_KEY: ${OPENROUTER_API_KEY:-${OPENROUTER_LDRAW_NOVA_API_KEY:-}}
       TYPESAFE_API_KEY: ${TYPESAFE_API_KEY:-}
     # Lets entries like api_base: http://host.docker.internal:11434 reach Ollama /
     # LM Studio on the host (Docker Desktop has this built in; Linux needs it).
@@ -37,7 +37,7 @@ services:
     # The container's main process is the web server, so it stays up and you can
     # log in any time:
     #   docker compose up -d --build
-    #   docker compose exec ldraw-astra-app bash
+    #   docker compose exec ldraw-nova-app bash
     # Then, inside:
     #   python3 /app/leocad_render.py /opt/models-gallery/copper-bean.mpd
     #   python3 /app/example.py
@@ -45,5 +45,5 @@ services:
 
 volumes:
   config:
-    # Created as leocad-docker_config before the rename: keeps LLM settings and API keys.
-    name: leocad-docker_config
+    # Persist this project's LLM settings and API keys.
+    name: ldraw-nova-docker_config

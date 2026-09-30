@@ -23,10 +23,10 @@ import sys
 from pathlib import Path
 from typing import Optional, Sequence, Tuple
 
-# Host ./data is mounted here. (LDRAW_ASTRA_DATA_DIR only exists to point tests elsewhere.)
+# Host ./data is mounted here. (LDRAW_NOVA_DATA_DIR only exists to point tests elsewhere.)
 #   generated/  the model collection: flat, each model next to its .png snapshot and .csv BOM
 #   output/     work area: agents keep one folder per chat here; CLI renders default here
-DATA_DIR = Path(os.environ.get("LDRAW_ASTRA_DATA_DIR", "/data"))
+DATA_DIR = Path(os.environ.get("LDRAW_NOVA_DATA_DIR", "/data"))
 GENERATED_DIR = DATA_DIR / "generated"
 OUTPUT_DIR = DATA_DIR / "output"
 

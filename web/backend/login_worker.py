@@ -67,7 +67,7 @@ def browser_login():
 
     try:
         send({"id": 1, "method": "initialize", "params": {
-            "clientInfo": {"name": "ldraw_astra", "title": "LDraw Astra", "version": "0.1.0"},
+            "clientInfo": {"name": "ldraw_nova", "title": "LDraw Nova", "version": "0.1.0"},
             "capabilities": {"experimentalApi": False}}})
         receive(1)
         send({"method": "initialized", "params": {}})

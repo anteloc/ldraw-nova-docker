@@ -4,7 +4,7 @@ import { defineConfig } from "vitest/config";
 // `npm run dev` serves it with hot reload and forwards the model routes to the
 // backend running in the container (docker compose up -d); add ?emulate=quest3
 // to try it without a headset.
-const backend = "http://localhost:8765"; // LDRAW_ASTRA_WEB_PORT in docker-compose.yml
+const backend = "http://localhost:8765"; // LDRAW_NOVA_WEB_PORT in docker-compose.yml
 
 export default defineConfig({
   base: "/xr/",

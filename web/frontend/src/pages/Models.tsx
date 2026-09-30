@@ -53,7 +53,7 @@ export default function Models({ collection }: { collection: "models" | "gallery
           <h1>{isGallery ? "Gallery" : "My Models"}</h1>
           <p className="muted">
             {isGallery
-              ? "Explore the models included with LDraw Astra. Inspect them in 3D, watch them build, or download them."
+              ? "Explore the models included with LDraw Nova. Inspect them in 3D, watch them build, or download them."
               : "Your generated models and models you’ve added. Open a model to explore it in 3D."}
             {pending > 0 && (
               <>

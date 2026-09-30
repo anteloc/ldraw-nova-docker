@@ -18,8 +18,8 @@ import settings
 
 # scripts/mpd2glb.sh, on PATH in the image: the one way to run mpd2glb, so how
 # it runs (runtime, install location) can change without touching callers.
-MPD2GLB = os.environ.get("LDRAW_ASTRA_MPD2GLB", "mpd2glb.sh")
-CACHE_DIR = Path(os.environ.get("LDRAW_ASTRA_GLB_CACHE_DIR", "/tmp/glb-cache"))
+MPD2GLB = os.environ.get("LDRAW_NOVA_MPD2GLB", "mpd2glb.sh")
+CACHE_DIR = Path(os.environ.get("LDRAW_NOVA_GLB_CACHE_DIR", "/tmp/glb-cache"))
 TIMEOUT_SECONDS = 900
 
 _limit = asyncio.Semaphore(2)                 # node is CPU- and memory-hungry on big models

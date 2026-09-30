@@ -37,7 +37,7 @@ done
 # headset's browser warns once, then remembers the exception.
 TLS_DIR=/config/tls
 if [ ! -s "${TLS_DIR}/cert.pem" ] && mkdir -p "${TLS_DIR}" 2>/dev/null; then
-    openssl req -x509 -newkey rsa:2048 -nodes -days 3650 -subj "/CN=ldraw-astra-app" \
+    openssl req -x509 -newkey rsa:2048 -nodes -days 3650 -subj "/CN=ldraw-nova-app" \
         -addext "subjectAltName=DNS:localhost,IP:127.0.0.1" \
         -keyout "${TLS_DIR}/key.pem" -out "${TLS_DIR}/cert.pem" 2>/dev/null || true
 fi

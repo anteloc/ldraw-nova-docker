@@ -1,5 +1,5 @@
 # check=skip=FromPlatformFlagConstDisallowed
-# ldraw-astra-docker: LeoCAD (pinned released AppImage) + Python + full LDraw parts library,
+# ldraw-nova-docker: LeoCAD (pinned released AppImage) + Python + full LDraw parts library,
 # plus a web app (chat with LLM agents that build and render LDraw models).
 #
 # No compiling: downloads an official, tagged LeoCAD-Linux-*.AppImage release
@@ -8,10 +8,10 @@
 #
 # Build and run (see docker-compose.yml / README.md):
 #   docker compose up -d --build        # web app on http://localhost:8765
-#   docker compose exec ldraw-astra-app bash # log in
+#   docker compose exec ldraw-nova-app bash # log in
 #
 # Pin versions explicitly:
-#   docker build --build-context astra=../ldraw-astra --build-arg LEOCAD_TAG=v25.09 -t ldraw-astra-app .
+#   docker build --build-context nova=../ldraw-nova --build-arg LEOCAD_TAG=v25.09 -t ldraw-nova-app .
 
 # --- Stage 1: the web UI (React + Vite) --------------------------------------
 # Runs on the build host's own architecture (fast, no emulation); its output is
@@ -220,31 +220,31 @@ RUN python3 -c "import pathlib, subprocess, claude_agent_sdk; subprocess.run([st
 ENV PYTHONPATH=/app
 # Keep the standalone builder intact. Only its distributable inputs enter the
 # image: never the sibling checkout's output, virtualenv, credentials or cache.
-COPY --from=astra pyproject.toml uv.lock /opt/ldraw-astra/
-RUN cd /opt/ldraw-astra && uv sync --frozen --no-dev --no-install-project --python "${PYTHON_VERSION}"
-COPY --from=astra ldraw_tools/ /opt/ldraw-astra/ldraw_tools/
-COPY --from=astra data/ /opt/ldraw-astra/data/
-COPY --from=astra docs/ /opt/ldraw-astra/docs/
-COPY --from=astra examples/ /opt/ldraw-astra/examples/
-COPY --from=astra prompts/ /opt/ldraw-astra/prompts/
-COPY --from=astra *.md *.py *.sh LICENSE CC-BY-SA-4.0 ldraw-agent /opt/ldraw-astra/
-RUN cd /opt/ldraw-astra && uv sync --locked --no-dev --python "${PYTHON_VERSION}" \
+COPY --from=nova pyproject.toml uv.lock /opt/ldraw-nova/
+RUN cd /opt/ldraw-nova && uv sync --frozen --no-dev --no-install-project --python "${PYTHON_VERSION}"
+COPY --from=nova ldraw_tools/ /opt/ldraw-nova/ldraw_tools/
+COPY --from=nova data/ /opt/ldraw-nova/data/
+COPY --from=nova docs/ /opt/ldraw-nova/docs/
+COPY --from=nova examples/ /opt/ldraw-nova/examples/
+COPY --from=nova prompts/ /opt/ldraw-nova/prompts/
+COPY --from=nova *.md *.py *.sh LICENSE CC-BY-SA-4.0 ldraw-agent /opt/ldraw-nova/
+RUN cd /opt/ldraw-nova && uv sync --locked --no-dev --python "${PYTHON_VERSION}" \
     && mkdir -p .cache && chown agent:agent .cache \
     && ln -s /data/output output \
-    && chmod -R a+rX /opt/ldraw-astra \
+    && chmod -R a+rX /opt/ldraw-nova \
     && chmod a+x ldraw-agent setup.sh check-model.sh prepare-glb.sh \
     && uv cache clean
-ENV LDRAW_DIR=/opt/ldraw/ldraw LDRAW_ASTRA_TOOLKIT_DIR=/opt/ldraw-astra
+ENV LDRAW_DIR=/opt/ldraw/ldraw LDRAW_NOVA_TOOLKIT_DIR=/opt/ldraw-nova
 COPY --from=openai-login /opt/codex/package/vendor/x86_64-unknown-linux-musl/ /opt/codex/
 RUN ln -s /opt/codex/bin/codex /usr/local/bin/codex && codex --version
 
 # --- The 3D player: ldraw-player (Rust -> WebAssembly) ------------------------
-# https://github.com/anteloc/ldraw.rs-astra (tools/player), its release zip,
+# https://github.com/anteloc/ldraw.rs-nova (tools/player), its release zip,
 # checksum-verified -> /opt/web/player-vendor/{ldraw_player.js,ldraw_player_bg.wasm,...}
 # For now a local build from vendor/: the v0.8.0 release doesn't start in any
 # browser (its CI's old wasm-opt exported the wrong table; fixed in the fork's
 # build). Once a fixed release is on GitHub, the COPY goes back to:
-#   RUN curl -fsSL "https://github.com/anteloc/ldraw.rs-astra/releases/download/v${LDRAW_PLAYER_VERSION}/ldraw-player-${LDRAW_PLAYER_VERSION}.zip" -o /tmp/ldraw-player.zip
+#   RUN curl -fsSL "https://github.com/anteloc/ldraw.rs-nova/releases/download/v${LDRAW_PLAYER_VERSION}/ldraw-player-${LDRAW_PLAYER_VERSION}.zip" -o /tmp/ldraw-player.zip
 ARG LDRAW_PLAYER_VERSION=0.8.1
 ARG LDRAW_PLAYER_SHA256=1c96d79764393ec702106b5da7a9131594510135704ff02cb808f1ec77a1154f
 COPY vendor/ldraw-player-${LDRAW_PLAYER_VERSION}.zip /tmp/ldraw-player.zip

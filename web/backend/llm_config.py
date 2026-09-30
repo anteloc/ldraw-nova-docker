@@ -44,7 +44,7 @@ def _load() -> dict:
     data.setdefault("default_id", None)
     for entry in data["models"]:
         params = entry.get("litellm_params", {})
-        if params.get("api_key") == "os.environ/OPENROUTER_LDRAW_ASTRA_API_KEY":
+        if params.get("api_key") == "os.environ/OPENROUTER_LDRAW_NOVA_API_KEY":
             params["api_key"] = "os.environ/OPENROUTER_API_KEY"
     return data
 
@@ -158,7 +158,7 @@ def _clean(entry: dict, previous: Optional[dict]) -> dict:
     if not str(params.get("model", "")).strip():
         raise ValueError("litellm_params.model is required, e.g. 'anthropic/claude-sonnet-5'")
     params["model"] = params["model"].strip()
-    if params.get("api_key") == "os.environ/OPENROUTER_LDRAW_ASTRA_API_KEY":
+    if params.get("api_key") == "os.environ/OPENROUTER_LDRAW_NOVA_API_KEY":
         params["api_key"] = "os.environ/OPENROUTER_API_KEY"
     if params["model"] == "openrouter/":
         raise ValueError("Choose an OpenRouter model, e.g. openrouter/openai/gpt-6-luna")
@@ -268,7 +268,7 @@ def resolve_params(entry: dict) -> dict:
             return [resolve(v) for v in value]
         if isinstance(value, str) and value.startswith("os.environ/"):
             name = value.split("/", 1)[1]
-            if name == "OPENROUTER_LDRAW_ASTRA_API_KEY":
+            if name == "OPENROUTER_LDRAW_NOVA_API_KEY":
                 name = "OPENROUTER_API_KEY"
             if not environment.get(name, "").strip():
                 raise ValueError(f"Environment variable {name} is not set or is empty")

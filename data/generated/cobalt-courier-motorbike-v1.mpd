@@ -1,7 +1,7 @@
 0 FILE cobalt-courier.ldr
 0 Cobalt Courier small touring motorcycle; front -Z, ground Y=0; cargo box is fixed
 0 Name: cobalt-courier.ldr
-0 Author: LDraw Astra assistant; measured motorcycle frame and wheel placements adapted from ldraw-astra vehicle examples
+0 Author: LDraw Nova assistant; measured motorcycle frame and wheel placements adapted from ldraw-nova vehicle examples
 0 !LDRAW_ORG Model
 0 // frame-and-handlebars: 50859b.dat
 1 0 0 -22.914 -10 1 0 0 0 1 0 0 0 1 50859b.dat

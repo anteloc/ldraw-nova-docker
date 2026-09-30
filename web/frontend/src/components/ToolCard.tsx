@@ -11,7 +11,7 @@ const LABELS: Record<string, string> = {
   run_shell: "Ran shell",
   list_files: "Listed files",
   read_file: "Read file",
-  run_toolkit: "LDraw Astra",
+  run_toolkit: "LDraw Nova",
   publish_model: "Published model",
   view_image: "Reviewed image",
   report_progress: "Progress",

@@ -10,7 +10,7 @@ Models that already have them are skipped, so it's cheap to re-run; delete a
 thing automatically when you open it.
 
 Run:
-    docker compose exec ldraw-astra-app python3 /app/example.py
+    docker compose exec ldraw-nova-app python3 /app/example.py
 """
 from leocad_render import (GENERATED_DIR, bom_part_count, bom_path_for, export_bom, list_models,
                            render_snapshot, snapshot_path_for)

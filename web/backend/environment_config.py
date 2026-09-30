@@ -11,7 +11,7 @@ from pathlib import Path
 
 # Locate the override file before applying it, so an override cannot relocate
 # its own storage. Import this module before settings and provider libraries.
-_directory = Path(os.environ.get("LDRAW_ASTRA_WEB_CONFIG_DIR", "/config"))
+_directory = Path(os.environ.get("LDRAW_NOVA_WEB_CONFIG_DIR", "/config"))
 _lock = threading.RLock()
 _rows: list[dict] = []
 _inherited: dict[str, str | None] = {}
@@ -23,10 +23,10 @@ REQUIRED_ID = "typesafe-api-key"
 def _clean(rows: list, previous: list) -> list[dict]:
     if not isinstance(rows, list) or len(rows) > 256:
         raise ValueError("Provide at most 256 environment variables")
-    # Read older installations using the new standard name without losing their
-    # saved value. An explicitly configured standard name wins if both exist.
+    # Normalize the project-specific alias to the standard name. An explicitly
+    # configured standard name wins if both exist.
     if not any(isinstance(row, dict) and row.get("name") == "OPENROUTER_API_KEY" for row in rows):
-        rows = [{**row, "name": "OPENROUTER_API_KEY"} if isinstance(row, dict) and row.get("name") == "OPENROUTER_LDRAW_ASTRA_API_KEY" else row for row in rows]
+        rows = [{**row, "name": "OPENROUTER_API_KEY"} if isinstance(row, dict) and row.get("name") == "OPENROUTER_LDRAW_NOVA_API_KEY" else row for row in rows]
     old = {row["id"]: row for row in previous}
     required = next((row for row in previous if row["name"] == REQUIRED_NAME), None)
     required_id = required["id"] if required else REQUIRED_ID
@@ -151,6 +151,6 @@ def snapshot() -> dict[str, str]:
         # Explicit references retain saved precedence even if another library
         # has subsequently changed a process environment variable.
         env = {**os.environ, **{row["name"]: row["value"] for row in _rows}}
-        if "OPENROUTER_API_KEY" not in env and "OPENROUTER_LDRAW_ASTRA_API_KEY" in env:
-            env["OPENROUTER_API_KEY"] = env["OPENROUTER_LDRAW_ASTRA_API_KEY"]
+        if "OPENROUTER_API_KEY" not in env and "OPENROUTER_LDRAW_NOVA_API_KEY" in env:
+            env["OPENROUTER_API_KEY"] = env["OPENROUTER_LDRAW_NOVA_API_KEY"]
         return env

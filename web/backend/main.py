@@ -59,7 +59,7 @@ async def lifespan(_app: FastAPI):
         await agent.cancel(chat_id)
 
 
-app = FastAPI(title="LDraw Astra agent chat", lifespan=lifespan)
+app = FastAPI(title="LDraw Nova agent chat", lifespan=lifespan)
 
 
 @app.exception_handler(RequestValidationError)

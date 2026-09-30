@@ -8,14 +8,14 @@
 # Only directories are mounted: Docker Desktop keeps serving a stale copy of a
 # single-file mount once an editor replaces that file.
 services:
-  ldraw-astra-app:
+  ldraw-nova-app:
     # With `up --watch`, edits in the standalone builder are copied into the
     # Linux runtime. Its host .venv, output and cache never enter the container.
     develop:
       watch:
         - action: sync
-          path: ../ldraw-astra
-          target: /opt/ldraw-astra
+          path: ../ldraw-nova
+          target: /opt/ldraw-nova
           ignore:
             - .git/
             - .venv/
@@ -31,9 +31,9 @@ services:
             - pyproject.toml
             - uv.lock
         - action: rebuild
-          path: ../ldraw-astra/pyproject.toml
+          path: ../ldraw-nova/pyproject.toml
         - action: rebuild
-          path: ../ldraw-astra/uv.lock
+          path: ../ldraw-nova/uv.lock
     volumes:
       - .:/app                          # leocad_render.py, example.py, web/backend
       - ./web/viewer:/opt/web/viewer    # viewer.html, player.html
@@ -41,9 +41,9 @@ services:
       - ./models-gallery:/opt/models-gallery  # bundled models on the Gallery page
       # The mixed-reality viewer (web/xr) has its own dev server instead:
       #   cd web/xr && npm install && npm run dev   # http://localhost:5173/xr/?model=...&emulate=quest3
-      # Iterating on the 3D player (ldraw.rs-astra, tools/player/build.sh): use
+      # Iterating on the 3D player (ldraw.rs-nova, tools/player/build.sh): use
       # your local build instead of the release zip baked into the image.
-      # - ../ldraw.rs-astra/tools/player/dist/ldraw-player-<version>:/opt/web/player-vendor
+      # - ../ldraw.rs-nova/tools/player/dist/ldraw-player-<version>:/opt/web/player-vendor
     environment:
       PYTHONDONTWRITEBYTECODE: "1"      # no __pycache__ written into your checkout
     command: ["uvicorn", "main:app", "--app-dir", "/app/web/backend", "--host", "0.0.0.0", "--port", "8000",
