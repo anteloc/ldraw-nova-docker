@@ -87,6 +87,9 @@ def test_real_doctor_build_publish_review_bom_and_download(ctx):
     assert client.get(info["model_url"]).status_code == 200
     response = client.get(f"/api/chats/{ctx.chat_id}")
     [model] = response.json()["models"].values()
+    assert info["card_url"] == f"/chat/{ctx.chat_id}#model-{model['id']}"
+    assert info["viewer_url"].startswith("/viewer/viewer.html?model=%2Ffiles%2Fgenerated%2F")
+    assert client.get(info["download_url"]).headers["content-disposition"].startswith("attachment")
     assert model["model_url"] == info["model_url"] and model["image_url"] and model["bom_url"]
     assert model["parts"] == 5
     assert "instructions.md" in asyncio.run(tools.t_list_files(ctx)).content

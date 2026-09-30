@@ -195,7 +195,11 @@ async def t_publish_model(ctx: ToolContext, path: str, name: str | None = None) 
         warnings.append("Preview/BOM rendering failed; the model can still be opened in 3D.")
     ref = ctx.store.add_model(ctx.chat_id, name or source.stem, target, warnings)
     ctx.emit("model", {"id": ref["id"], "name": ref["name"]})
-    result = {"model_url": "/files/generated/" + quote(target.name), "source": artifact_url(ctx, source),
+    model_url = "/files/generated/" + quote(target.name)
+    result = {"model_url": model_url, "source": artifact_url(ctx, source),
+              "card_url": f"/chat/{ctx.chat_id}#model-{ref['id']}",
+              "viewer_url": "/viewer/viewer.html?model=" + quote(model_url, safe=""),
+              "download_url": model_url + "?download=1",
               "sha256": hashlib.sha256(source_bytes).hexdigest(),
               "validation": artifact_url(ctx, report), "checks_passed": validation.exit_code == 0,
               "validation_path": str(report),
@@ -273,9 +277,10 @@ TOOLS: dict[str, tuple[dict, Callable[..., Awaitable[ToolResult]]]] = {
          "timeout": {"type": "integer", "description": "Seconds, default 300, maximum 1800"}},
         ["arguments"]), t_run_toolkit),
     "publish_model": (_fn("publish_model",
-        "Publish an output MPD revision as an interactive model card in this chat and the Models collection. "
+        "Publish an output MPD revision as an interactive model card in this chat and the My Models collection. "
         "Preserves source bytes, runs toolkit geometry validation, renders a snapshot and BOM. Failed checks "
         "are flagged for repair. Use after generating a model and again after final visual review. "
+        "Use the returned card_url for interactive links, not the raw model_url. "
         "Return links to plans, generator, manifests, reports and reviews alongside the card.",
         {"path": {"type": "string"}, "name": {"type": "string"}}, ["path"]), t_publish_model),
     "view_image": (_fn("view_image", "Open a PNG from the toolkit examples or output for actual visual review. "

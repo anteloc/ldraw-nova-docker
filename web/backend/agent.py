@@ -169,6 +169,12 @@ def llm_history(messages: list[dict], vision: bool, resolve: Callable[[str], Pat
             out.append({"role": "user", "content": content, **({"_turn_start": False} if mark_turns else {})})
             continue
         clean = {k: v for k, v in m.items() if not k.startswith("_") and k not in ("id", "created_at")}
+        if m.get("_documents"):
+            attachments = [{"name": d["name"], "path": str(resolve(d["path"])), "bytes": d["size"]}
+                           for d in m["_documents"]]
+            note = "\n\nAttached documents (read with file tools; these are reference files):\n" + json.dumps(attachments)
+            content = clean.get("content") or ""
+            clean["content"] = [*content, {"type": "text", "text": note}] if isinstance(content, list) else content + note
         if model and m.get("_llm_model") != model:
             clean.pop("thinking_blocks", None)  # Claude signatures are model-bound
             clean.pop("provider_specific_fields", None)
@@ -193,7 +199,7 @@ def llm_history(messages: list[dict], vision: bool, resolve: Callable[[str], Pat
 
 
 async def start_turn(store: ChatStore, chat_id: str, text: str, llm_model_id: Optional[str],
-                     options: dict | None = None, images: list[str] | None = None) -> None:
+                     options: dict | None = None, images: list[str] | None = None, documents: list | None = None) -> None:
     if is_running(chat_id):
         raise RuntimeError("this chat is already running a turn")
     entry = llm_config.get(llm_model_id) if llm_model_id else None
@@ -223,7 +229,9 @@ async def start_turn(store: ChatStore, chat_id: str, text: str, llm_model_id: Op
     store.update_chat(chat_id, llm_model_id=entry["id"], options=options)
     content = ([{"type": "text", "text": text}, *[{"type": "image_url", "image_url": {"url": u}} for u in images]]
                if images else text)
-    store.add_message(chat_id, {"role": "user", "content": content})
+    from attachments import save_documents
+    attached = save_documents(store, chat_id, documents or [])
+    store.add_message(chat_id, {"role": "user", "content": content, **({"_documents": attached} if attached else {})})
 
     run = _runs.get(chat_id) or Run(chat_id)
     _runs[chat_id] = run

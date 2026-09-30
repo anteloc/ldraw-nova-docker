@@ -1,2 +1,0 @@
-{"id": 1, "created_at": 1790534748.979342, "role": "user", "content": "Identify yourself"}
-{"id": 2, "created_at": 1790534749.8951697, "role": "assistant", "_ui_only": true, "_error": true, "content": "APIError: Provider request failed. Check login, model access and settings."}

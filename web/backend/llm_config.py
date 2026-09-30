@@ -15,8 +15,10 @@ can write to and the host can read.
 from __future__ import annotations
 
 import json
+import hashlib
 import os
 import threading
+import time
 import uuid
 from typing import Any, Optional
 
@@ -64,14 +66,54 @@ def is_secret(name: str) -> bool:
 def _mask(value: Any) -> Any:
     if not isinstance(value, str) or not value or value.startswith("os.environ/"):
         return value
-    return MASK_PREFIX + value[-4:] if len(value) > 8 else MASK_PREFIX
+    return MASK_PREFIX
 
 
 def public(entry: dict) -> dict:
     """An entry as the UI may see it: secrets masked, capabilities resolved."""
     params = mask_secrets(entry["litellm_params"])
-    return {**entry, "litellm_params": params, "resolved_capabilities": capabilities(entry),
+    return {**{k: v for k, v in entry.items() if k != "_connection_test"},
+            "connection_status": connection_status(entry),
+            "litellm_params": params, "resolved_capabilities": capabilities(entry),
             "profile": model_catalog.entry_profile(entry)}
+
+
+def connection_fingerprint(entry: dict) -> str:
+    """Bind test results to the exact saved settings and referenced credentials."""
+    environment = environment_config.snapshot()
+    def effective(value):
+        if isinstance(value, dict):
+            return {k: effective(v) for k, v in value.items()}
+        if isinstance(value, list):
+            return [effective(v) for v in value]
+        if isinstance(value, str) and value.startswith("os.environ/"):
+            return environment.get(value.split("/", 1)[1])
+        return value
+    params = effective(entry["litellm_params"])
+    provider = params.get("model", "").split("/")[0]
+    default_key = {"openai": "OPENAI_API_KEY", "anthropic": "ANTHROPIC_API_KEY", "openrouter": "OPENROUTER_API_KEY"}.get(provider)
+    if not params.get("api_key") and entry.get("auth_mode") != "browser" and default_key:
+        params["api_key"] = environment.get(default_key)
+    value = {"params": params, "auth": entry.get("auth_mode"), "name": entry.get("model_name")}
+    return hashlib.sha256(json.dumps(value, sort_keys=True).encode()).hexdigest()
+
+
+def connection_status(entry: dict) -> str:
+    test = entry.get("_connection_test") or {}
+    if test.get("fingerprint") != connection_fingerprint(entry):
+        return "not_tested"
+    return "connected" if test.get("ok") else "not_connected"
+
+
+def record_connection_test(entry_id: str, fingerprint: str, ok: bool) -> str:
+    with _lock:
+        data = _load()
+        entry = next((m for m in data["models"] if m["id"] == entry_id), None)
+        if entry is None or connection_fingerprint(entry) != fingerprint:
+            return "not_tested"  # credentials changed while the test was in flight
+        entry["_connection_test"] = {"fingerprint": fingerprint, "ok": ok, "checked_at": time.time()}
+        _save(data)
+        return connection_status(entry)
 
 
 def mask_secrets(value, secret=False):
@@ -86,6 +128,9 @@ def restore_secrets(value, previous):
     if isinstance(value, dict):
         old = previous if isinstance(previous, dict) else {}
         return {k: restore_secrets(v, old.get(k)) for k, v in value.items()}
+    if isinstance(value, list):
+        old = previous if isinstance(previous, list) else []
+        return [restore_secrets(v, old[i] if i < len(old) else None) for i, v in enumerate(value)]
     if isinstance(value, str) and value.startswith(MASK_PREFIX):
         if previous is None:
             raise ValueError("Masked credentials cannot be imported. Enter a key or environment reference.")
@@ -142,13 +187,17 @@ def _clean(entry: dict, previous: Optional[dict]) -> dict:
             raise ValueError("Capabilities must be true, false or auto")
     if not model_catalog.builder_supported(params["model"]):
         raise ValueError("Choose a model with verified tool calling and image input support")
-    return {
+    cleaned = {
         "id": (previous or {}).get("id") or uuid.uuid4().hex[:12],
         "model_name": (entry.get("model_name") or params["model"]).strip(),
         "litellm_params": params,
         "capabilities": {"tools": "auto", "vision": "auto"},
         "auth_mode": auth_mode,
     }
+    if previous and all(cleaned[k] == previous.get(k) for k in cleaned):
+        if previous.get("_connection_test"):
+            cleaned["_connection_test"] = previous["_connection_test"]
+    return cleaned
 
 
 def create(entry: dict) -> dict:

@@ -1,14 +1,17 @@
 import { useEffect, useRef, useState, type FormEvent, type KeyboardEvent } from "react";
 import { Link } from "react-router-dom";
 import { useApp } from "../context";
-import type { TurnOptions } from "../api";
+import type { TurnOptions, DocumentUpload } from "../api";
 import ModelPicker from "./ModelPicker";
 import { rememberModel, tokenLabel } from "../modelChoices";
+import DocumentIcon from "./DocumentIcon";
+
+const DOCUMENT_TYPES = ".pdf,.txt,.md,.csv,.json,.yaml,.yml,.xml,.html,.rtf,.docx,.xlsx,.pptx,.mpd,.ldr,.dat";
 
 export default function Composer({ llmId, onLlmChange, onSend, onStop, running, autoFocus, initialText = "", initialOptions }: {
   llmId: string | null;
   onLlmChange: (id: string) => void;
-  onSend: (text: string, options: TurnOptions, images: string[]) => Promise<void> | void;
+  onSend: (text: string, options: TurnOptions, images: string[], documents: DocumentUpload[]) => Promise<void> | void;
   onStop?: () => void;
   running: boolean;
   autoFocus?: boolean;
@@ -20,9 +23,11 @@ export default function Composer({ llmId, onLlmChange, onSend, onStop, running, 
   const [busy, setBusy] = useState(false);
   const ref = useRef<HTMLTextAreaElement>(null);
   const upload = useRef<HTMLInputElement>(null);
+  const documentUpload = useRef<HTMLInputElement>(null);
   const [selection, setSelection] = useState<{ modelId: string | null; options: TurnOptions }>({ modelId: llmId,
     options: { ...initialOptions, mode: initialOptions && initialOptions.mode !== "agent" ? "plan" : "agent", permissions: initialOptions?.permissions ?? "ask" } });
-  const [images, setImages] = useState<{ name: string; url: string }[]>([]);
+  const [images, setImages] = useState<{ name: string; url: string; size: number }[]>([]);
+  const [documents, setDocuments] = useState<(DocumentUpload & { size: number })[]>([]);
   const [error, setError] = useState("");
   const model = llms.find(m => m.id === llmId);
   const profile = model?.profile;
@@ -56,30 +61,38 @@ export default function Composer({ llmId, onLlmChange, onSend, onStop, running, 
     setBusy(true);
     try {
       setError("");
-      await onSend(value, options, images.map(i => i.url));
+      await onSend(value, options, images.map(i => i.url), documents.map(({ name, data }) => ({ name, data })));
       rememberModel(model.id);
-      setText(""); setImages([]);
+      setText(""); setImages([]); setDocuments([]);
     } catch (e) { setError((e as Error).message); }
     finally { setBusy(false); }
   }
   function onKeyDown(e: KeyboardEvent<HTMLTextAreaElement>) {
     if (e.key === "Enter" && !e.shiftKey && !e.nativeEvent.isComposing) { e.preventDefault(); submit(); }
   }
-  async function attach(files: File[]) {
+  async function attach(files: File[], kind: "image" | "document" = "image") {
+    if (!files.length) return;
     setError("");
-    if (files.length + images.length > 4 || files.some(f => f.size > 5 * 1024 * 1024)) {
-      setError("Attach up to 4 images, at most 5 MB each."); return;
+    if (files.length + (kind === "image" ? images.length : documents.length) > 4 || files.some(f => f.size > 5 * 1024 * 1024)) {
+      setError(`Attach up to 4 ${kind === "image" ? "images" : "documents"}, at most 5 MB each.`); return;
     }
-    if (files.some(f => !["image/png", "image/jpeg", "image/webp"].includes(f.type))) {
+    if ([...images, ...documents, ...files].reduce((total, f) => total + f.size, 0) > 12 * 1024 * 1024) {
+      setError("Images and documents must total at most 12 MB."); return;
+    }
+    if (kind === "image" && files.some(f => !["image/png", "image/jpeg", "image/webp"].includes(f.type))) {
       setError("Choose PNG, JPEG or WebP images."); return;
+    }
+    if (kind === "document" && files.some(f => !DOCUMENT_TYPES.split(",").includes("." + f.name.split(".").pop()?.toLowerCase()))) {
+      setError("Choose a PDF, text, Office or LDraw document. Use the image button for images."); return;
     }
     setBusy(true);
     try {
-      const added = await Promise.all(files.map(file => new Promise<{ name: string; url: string }>((resolve, reject) => {
-        const reader = new FileReader(); reader.onload = () => resolve({ name: file.name, url: String(reader.result) });
-        reader.onerror = () => reject(new Error("Cannot read image")); reader.readAsDataURL(file);
+      const added = await Promise.all(files.map(file => new Promise<{ name: string; url: string; size: number }>((resolve, reject) => {
+        const reader = new FileReader(); reader.onload = () => resolve({ name: file.name, url: String(reader.result), size: file.size });
+        reader.onerror = () => reject(new Error("Cannot read attachment")); reader.readAsDataURL(file);
       })));
-      setImages(current => [...current, ...added]);
+      if (kind === "image") setImages(current => [...current, ...added]);
+      else setDocuments(current => [...current, ...added.map(({ name, url, size }) => ({ name, data: url, size }))]);
     } catch (e) { setError((e as Error).message); }
     finally { setBusy(false); }
   }
@@ -93,6 +106,14 @@ export default function Composer({ llmId, onLlmChange, onSend, onStop, running, 
           <rect x="3" y="3" width="18" height="18" rx="3" /><circle cx="8" cy="8" r="1.5" /><path d="m3 16 5-5 4 4 4-5 5 6" />
         </svg>
       </button>
+      <button type="button" className="attach-button" aria-label="Attach documents" title="Attach documents (up to 4)" disabled={disabled || !model} onClick={() => documentUpload.current?.click()}>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" aria-hidden="true">
+          <path d="m8 13 7-7a3 3 0 0 1 4 4L9 20a5 5 0 0 1-7-7L13 2a2 2 0 0 1 3 3L5 16" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      </button>
+      <input ref={documentUpload} hidden type="file" aria-label="Document files" accept={DOCUMENT_TYPES} multiple disabled={disabled} onChange={e => {
+        const files = Array.from(e.target.files ?? []); e.target.value = ""; void attach(files, "document");
+      }} />
       <input ref={upload} hidden type="file" aria-label="Image files" accept="image/png,image/jpeg,image/webp" multiple disabled={disabled} onChange={e => {
         const files = Array.from(e.target.files ?? []); e.target.value = ""; void attach(files);
       }} />
@@ -101,6 +122,9 @@ export default function Composer({ llmId, onLlmChange, onSend, onStop, running, 
     </div>
     {!!images.length && <div className="attachments">{images.map((img, index) => <div key={index}>
       <img src={img.url} alt={img.name} /><button type="button" aria-label={`Remove ${img.name}`} disabled={disabled} onClick={() => setImages(images.filter((_, i) => i !== index))}>✕</button>
+    </div>)}</div>}
+    {!!documents.length && <div className="document-attachments">{documents.map((doc, index) => <div className="document-chip" key={index}>
+      <DocumentIcon /><span>{doc.name}</span><button type="button" className="icon-button" aria-label={`Remove ${doc.name}`} disabled={disabled} onClick={() => setDocuments(documents.filter((_, i) => i !== index))}>✕</button>
     </div>)}</div>}
     {error && <div className="banner error" role="alert">{error}</div>}
     <div className="composer-toolbar">

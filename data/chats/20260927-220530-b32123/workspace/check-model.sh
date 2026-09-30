@@ -1,1 +1,0 @@
-/opt/ldraw-astra/check-model.sh

@@ -1,1 +1,0 @@
-/opt/ldraw-astra/verify_endplate.py

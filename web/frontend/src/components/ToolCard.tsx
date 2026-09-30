@@ -1,5 +1,4 @@
 import { type ChatModel, type Message, type ToolCall } from "../api";
-import ModelCard from "./ModelCard";
 
 type Status = "running" | "queued" | "done" | "interrupted";
 
@@ -105,9 +104,6 @@ export default function ToolCard({
       </details>
       {name === "report_progress" && <p className="progress-summary">{summary(name, args)}</p>}
       {status === "running" && live?.output && <pre className="live-tool-output">{live.output.slice(-4000)}</pre>}
-      {models.map((m) => (
-        <ModelCard key={m.id} model={m} />
-      ))}
       {extraImages.map((url) => (
         <a key={url} className="tool-image" href={url} target="_blank" rel="noreferrer">
           <img src={url} alt="render" loading="lazy" />

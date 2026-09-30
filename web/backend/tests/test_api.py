@@ -81,7 +81,7 @@ def test_api_404s_are_json_not_the_spa(client):
 def test_llm_keys_are_masked_and_kept(client):
     created = client.post("/api/llm-models", json={
         "model_name": "t", "litellm_params": {"model": "anthropic/claude-sonnet-5", "api_key": "sk-ant-secret-1234"}}).json()
-    assert created["litellm_params"]["api_key"] == "••••1234"
+    assert created["litellm_params"]["api_key"] == "••••"
     updated = client.put(f"/api/llm-models/{created['id']}", json={
         "model_name": "renamed", "litellm_params": {"model": "anthropic/claude-sonnet-5", "api_key": "••••1234"}}).json()
     assert updated["model_name"] == "renamed"

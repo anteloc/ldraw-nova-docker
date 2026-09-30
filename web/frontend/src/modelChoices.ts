@@ -1,5 +1,9 @@
 import type { LlmEntry } from "./api";
 
+export const agentProvider = (model: string) => model.startsWith("chatgpt/") ? "openai" : model.split("/")[0];
+export const providerLabel = (provider: string) => ({ openai: "OpenAI", anthropic: "Claude", openrouter: "OpenRouter",
+  gemini: "Gemini", ollama: "Ollama", ollama_chat: "Ollama", azure: "Azure OpenAI" } as Record<string, string>)[provider] ?? provider;
+
 const RECENTS_KEY = "ldraw-astra.recent-models";
 export function recentModels(): string[] {
   try {

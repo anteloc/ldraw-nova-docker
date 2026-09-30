@@ -212,6 +212,11 @@ input:focus, select:focus, textarea:focus, button:focus-visible {
 .tool-body pre { margin: 0 0 6px; max-height: 320px; overflow: auto; white-space: pre-wrap; word-break: break-word; background: var(--surface-2); padding: 8px 10px; border-radius: 6px; }
 .tool-body pre.failed { color: var(--danger); }
 .tool-image img { max-width: 360px; width: 100%; border-radius: 8px; border: 1px solid var(--border); display: block; background: #f2f2f2; }
+.chat-model { margin-top: 16px; scroll-margin: 20px; }
+.document-attachments { display: flex; gap: 8px; flex-wrap: wrap; margin: 8px 0; }
+.document-chip { display: inline-flex; align-items: center; gap: 8px; min-width: 0; max-width: 100%; padding: 7px 10px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface-2); color: var(--fg); font-size: 12px; }
+.document-chip svg, .document-chip button { flex-shrink: 0; }
+.document-chip > span { overflow-wrap: anywhere; }
 
 .composer-wrap { padding: 8px 32px 18px; }
 .composer-wrap .composer { max-width: 820px; margin: 0 auto; }
@@ -302,7 +307,6 @@ input:focus, select:focus, textarea:focus, button:focus-visible {
 .settings-heading { margin: 0 0 12px; }
 .settings-models-head { align-items: center; }
 .settings-models-head p { margin-top: 5px; }
-.settings .import { margin-bottom: 18px; }
 .advanced-model-settings summary { cursor: pointer; color: var(--muted); font-size: 13px; }
 .advanced-model-settings[open] summary { margin-bottom: 12px; }
 .advanced-model-settings fieldset { margin-top: 12px; }
@@ -316,14 +320,32 @@ input:focus, select:focus, textarea:focus, button:focus-visible {
 .environment-row label { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
 .environment-row label > span { font-size: 13px; font-weight: 500; }
 .environment-row input { width: 100%; min-width: 0; }
+.required-environment { padding-bottom: 12px; border-bottom: 1px solid var(--border); }
+.required-environment-row { display: flex; align-items: center; gap: 12px; }
+.required-environment-row > span { font-weight: 600; white-space: nowrap; }
+.required-environment-row > input { min-width: 0; }
+.typesafe-hint { display: block; margin-top: 5px; font-variant: small-caps; }
 @media (max-width: 560px) {
   .environment-row { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
   .environment-row > button { grid-column: 2; justify-self: end; }
 }
-.llm-form { display: flex; flex-direction: column; gap: 12px; margin-bottom: 18px; }
+.llm-form { display: flex; flex-direction: column; gap: 12px; margin: 0; scroll-margin: 20px; }
+.agent-providers { display: flex; flex-direction: column; gap: 12px; }
+.agent-provider { border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; background: var(--surface); }
+.agent-provider-head { display: flex; align-items: center; gap: 8px; padding: 10px 12px; }
+.provider-toggle { border: 0; background: transparent; flex: 1; min-width: 0; text-align: left; gap: 9px; padding: 6px 0; }
+.provider-toggle:hover { background: transparent; color: var(--accent); }
+.provider-chevron { width: 12px; color: var(--muted); }
+.agent-provider-body { padding: 0 12px 12px; }
+.agent-provider-body > .llm-form { margin-bottom: 10px; }
+.agent-provider .llm-list { margin: 0; }
+.agent-form-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+.agent-form-head h3 { margin-bottom: 5px; overflow-wrap: anywhere; }
+.agent-test-row { display: flex; align-items: center; gap: 10px; }
 .llm-form label { display: flex; flex-direction: column; gap: 4px; flex: 1; }
 .llm-form label > span { font-weight: 500; font-size: 13px; }
 .llm-form fieldset { border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px; display: flex; flex-direction: column; gap: 8px; align-items: flex-start; }
+.llm-form fieldset.agent-fields { border: 0; padding: 0; margin: 0; gap: 12px; min-width: 0; align-items: stretch; }
 .llm-form legend { font-weight: 500; font-size: 13px; padding: 0 4px; }
 .row { display: flex; gap: 12px; width: 100%; }
 .extra-row input { flex: 1; }
@@ -335,8 +357,6 @@ input:focus, select:focus, textarea:focus, button:focus-visible {
 .llm-info { display: flex; flex-direction: column; gap: 3px; min-width: 0; }
 .llm-title { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
 .llm-actions { display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end; }
-.import summary { cursor: pointer; font-weight: 500; }
-.import textarea { font-family: ui-monospace, Menlo, monospace; font-size: 12.5px; margin: 8px 0; }
 
 /* --- viewer modal --- */
 .modal-backdrop { position: fixed; inset: 0; background: rgb(0 0 0 / 0.55); display: grid; place-items: center; z-index: 50; padding: 24px; }

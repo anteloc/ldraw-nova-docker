@@ -49,6 +49,7 @@ export type Message = {
   name?: string;
   _models?: string[];
   _image_urls?: string[];
+  _documents?: { name: string; size: number; url: string | null }[];
   _hidden?: boolean;
   _ui_only?: boolean;
   _error?: boolean;
@@ -59,13 +60,16 @@ export type Message = {
 export type ChatDetail = { chat: Chat; messages: Message[]; models: Record<string, ChatModel> };
 
 export type Capability = boolean | "auto";
-export type EnvironmentVariable = { id: string; name: string; value: string; has_value: boolean };
+export type EnvironmentVariable = { id: string; name: string; value: null; has_value: boolean; fixed: boolean };
 export type EnvironmentUpdate = { id?: string; name: string; value: string | null };
+export type DocumentUpload = { name: string; data: string };
+export type ConnectionStatus = "not_tested" | "connected" | "not_connected";
 export type TurnOptions = { mode: "plan" | "agent"; permissions: "ask" | "full" | "read_only"; effort?: string | null; context_tokens?: number | null };
 export type ModelProfile = { model: string; name: string; context_window: number | null; efforts: string[]; default_effort: string | null; context_budgets: number[] };
 export type AuthStatus = { status: "starting" | "pending" | "connected" | "disconnected" | "error" | "expired"; flow?: "browser" | "device"; url?: string; code?: string; message?: string; expires_at?: number };
 export type Approval = { id: string; call_id: string; name: string; arguments: string };
 export type LlmEntry = {
+  connection_status: ConnectionStatus;
   id: string;
   model_name: string;
   litellm_params: Record<string, unknown>;
@@ -106,8 +110,8 @@ export const api = {
   renameChat: (id: string, title: string) =>
     request<Chat>(`/api/chats/${id}`, { method: "PATCH", body: json({ title }) }),
   deleteChat: (id: string) => request(`/api/chats/${id}`, { method: "DELETE" }),
-  send: (id: string, text: string, llm_model_id?: string | null, options?: TurnOptions, images?: string[]) =>
-    request(`/api/chats/${id}/messages`, { method: "POST", body: json({ text, llm_model_id, options, images }) }),
+  send: (id: string, text: string, llm_model_id?: string | null, options?: TurnOptions, images?: string[], documents?: DocumentUpload[]) =>
+    request(`/api/chats/${id}/messages`, { method: "POST", body: json({ text, llm_model_id, options, images, documents }) }),
   approve: (id: string, approval: string, approved: boolean) => request(`/api/chats/${id}/approvals/${approval}`, { method: "POST", body: json({ approved }) }),
   catalog: () => request<{ models: ModelProfile[] }>("/api/model-catalog"),
   authStatus: (provider: string) => request<AuthStatus>(`/api/auth/${provider}`),
@@ -125,7 +129,7 @@ export const api = {
   deleteLlm: (id: string) => request(`/api/llm-models/${id}`, { method: "DELETE" }),
   defaultLlm: (id: string) => request(`/api/llm-models/${id}/default`, { method: "POST" }),
   testLlm: (id: string) =>
-    request<{ ok: boolean; reply?: string; error?: string; capabilities?: LlmEntry["resolved_capabilities"] }>(
+    request<{ ok: boolean; reply?: string; error?: string; connection_status: ConnectionStatus; capabilities?: LlmEntry["resolved_capabilities"] }>(
       `/api/llm-models/${id}/test`,
       { method: "POST" },
     ),

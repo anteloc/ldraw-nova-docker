@@ -203,11 +203,15 @@ open http://localhost:8765                # port: LDRAW_ASTRA_WEB_PORT in .env
    automatically use the saved key. Nested parameter references work too.
    Empty values override inherited values with empty text. Removing a row
    restores its inherited value, or removes the variable if none existed.
+   `TYPESAFE_API_KEY` has a fixed first row for Jev semantic part search; its name
+   cannot be edited and the row cannot be removed.
 
    Values persist privately in `/config/environment.json` (0600) and are
    loaded before backend configuration and provider libraries at startup.
-   Saved values are visible and editable in Settings. Settings responses use
-   `Cache-Control: no-store`. Clear a field to save an empty value.
+   Saved values are never returned to the browser. Inputs are masked; leave a
+   field untouched to preserve its value, or edit it to replace it. Settings
+   responses use `Cache-Control: no-store`. An explicitly edited empty field
+   saves an empty override.
    These are backend environment overrides: settings read only at startup
    take effect on backend restart, and Docker ports and other container
    settings remain managed by Compose. Tool subprocesses keep their restricted
@@ -215,8 +219,8 @@ open http://localhost:8765                # port: LDRAW_ASTRA_WEB_PORT in .env
    provider API keys and browser credentials remain private. The TypeSafe value is
    redacted from command logs and uses the Settings override immediately.
 
-   For **OpenRouter**, use **Add model → OpenRouter** or select an OpenRouter
-   model preset. The presets include GPT-6 Astra, Sol and Luna, GPT-5.6 Terra,
+   For **OpenRouter**, use **Settings → Agents → OpenRouter → Add agent** and
+   choose an agent preset. The presets include GPT-6 Astra, Sol and Luna, GPT-5.6 Terra,
    Claude Opus 5.5 and 5, Sonnet 5, and Haiku 4.5 with their OpenRouter model
    IDs, vision/tool capabilities, context budgets and supported effort levels.
    You can also enter another `openrouter/vendor/model` ID. OpenRouter uses API
@@ -227,25 +231,31 @@ open http://localhost:8765                # port: LDRAW_ASTRA_WEB_PORT in .env
    Docker Compose pass it from the host shell or `.env`. Changes to those
    inherited sources require `docker compose up -d` to recreate the container;
    a saved Settings override still takes precedence. The key is excluded from tool
-   subprocesses and only its environment reference appears in model exports.
+   subprocesses and only its environment reference appears in Settings.
    Alternatively, paste a key in the API key field; it is stored privately in
-   `/config` and visible when editing the model. Lists and YAML exports mask
-   literal API keys. Leave the API base URL empty to use
-   OpenRouter's standard endpoint, then click **Test** beside the saved model.
+   `/config` and remains masked, including in edit responses. Leave the API
+   base URL empty to use OpenRouter's standard endpoint, then click **Test**
+   inside the expanded agent form.
 
-   **Settings → Add model.** Choose a model preset and **Browser login**, or
+   **Settings → Agents.** Expand a provider group (Claude, OpenAI or OpenRouter)
+   and choose **Add agent**, or **Edit** to expand an existing entry in place.
+   Only one provider group can be open. Its **Agent presets** menu contains
+   only that provider's models. Choose **Browser login**, or
    choose **API key (value)** or **API key (env var)**. The latter takes a variable
    name such as `OPENROUTER_API_KEY`. You can also type a supported LiteLLM model ID
-   (`anthropic/claude-sonnet-5`, `openai/<model>`, `gemini/<model>`,
-   `ollama_chat/<model>` with API base `http://host.docker.internal:11434`,
-   any OpenAI-compatible server, …), an API key, and optionally extra LiteLLM
-   parameters. **Test** sends a small request (Claude browser entries check login
+   for that provider (`anthropic/claude-sonnet-5`, `openai/<model>`,
+   `openrouter/<provider>/<model>`), an API key, and optionally extra LiteLLM
+   parameters. **Test** saves the current settings and sends a small request
+   (Claude browser entries check login
    readiness; send a chat to test model access). Keys can also stay out of
    the UI: put `ANTHROPIC_API_KEY=...` in a `.env` file next to
    `docker-compose.yml` and select **API key (env var)** with `ANTHROPIC_API_KEY`.
-   Only models with verified tool calling and image input are available. **Import /
-   export**, beside **Add model**, accepts a LiteLLM `model_list` YAML file or pasted
-   text; a batch is validated before any models are added. Older OpenRouter key
+   Only models with verified tool calling and image input are available.
+   Collapsed entries have **Edit** and status pills; **Test**, **Delete** and
+   **Make default** are inside the expanded editor. Test results persist as
+   **Connected**, **Not connected** or **Not tested**; changing the saved settings
+   or referenced environment credentials invalidates the previous result.
+   Older OpenRouter key
    references and saved overrides are read using the standard `OPENROUTER_API_KEY`
    name; Compose also accepts the old shell variable as a migration fallback.
 2. **Chat.** Ask for a model. The agent follows the standalone `ldraw-astra`
@@ -262,7 +272,7 @@ open http://localhost:8765                # port: LDRAW_ASTRA_WEB_PORT in .env
    recent output. Stop terminates the running process group. Commands have a
    30-minute maximum; a turn permits up to 150 model/tool rounds. At that limit,
    send a message to continue from the saved work and `NOTES.md`.
-   The app opens on **My Models**; **New chat** opens the builder. Its compact composer
+   The app opens on **Gallery**; **New chat** opens the builder. Its compact composer
    offers **Agent** and **Plan** (read-only inspection). The model picker groups
    models by provider and remembers recent choices in this browser. Effort shows
    the configured value or the actual provider default and sends it explicitly;
@@ -279,11 +289,17 @@ open http://localhost:8765                # port: LDRAW_ASTRA_WEB_PORT in .env
    and the latest user request; older turns and completed tool rounds may be omitted,
    with current hand-over notes retained, but saved history stays
    intact. It does not enlarge the provider's context window. Attach up to four
-   PNG/JPEG/WebP images (5 MB each, 12 MB total) for models with vision.
-3. **Snapshots** appear in the chat. Click one for the 3D viewer, or download
+   PNG/JPEG/WebP images using the image icon. The paperclip attaches up to four
+   documents (PDF, text/Markdown, CSV, JSON/YAML/XML/HTML, RTF, DOCX/XLSX/PPTX or
+   LDraw). Each file is limited to 5 MB, with 12 MB total across images and
+   documents. Images remain embedded; documents appear as downloadable filename
+   chips and are available to the agent in this chat's `output/uploads/`.
+3. **Model cards** appear after the final assistant response of each build turn,
+   including in saved conversations. Links to a published MPD open its 3D viewer;
+   explicit download links still download. Click a snapshot for the viewer, or download
    the model (`.mpd`), a glTF version of it (`.glb`) or its bill of materials
    (**BOM**). The sidebar keeps the chat history with thumbnails.
-4. **My Models** (the landing page) shows everything in `data/generated` — from chats or copied in by
+4. **My Models** shows everything in `data/generated` — from chats or copied in by
    hand — as "`name.mpd`, N parts", with the description from each file's
    title line (line 2 of an `.mpd`). When you open the page, models without a
    snapshot (`.png`, rendered from LeoCAD's home view) or BOM (`.csv`, LeoCAD's

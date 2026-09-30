@@ -16,6 +16,8 @@ _lock = threading.RLock()
 _rows: list[dict] = []
 _inherited: dict[str, str | None] = {}
 _initialized = False
+REQUIRED_NAME = "TYPESAFE_API_KEY"
+REQUIRED_ID = "typesafe-api-key"
 
 
 def _clean(rows: list, previous: list) -> list[dict]:
@@ -26,6 +28,8 @@ def _clean(rows: list, previous: list) -> list[dict]:
     if not any(isinstance(row, dict) and row.get("name") == "OPENROUTER_API_KEY" for row in rows):
         rows = [{**row, "name": "OPENROUTER_API_KEY"} if isinstance(row, dict) and row.get("name") == "OPENROUTER_LDRAW_ASTRA_API_KEY" else row for row in rows]
     old = {row["id"]: row for row in previous}
+    required = next((row for row in previous if row["name"] == REQUIRED_NAME), None)
+    required_id = required["id"] if required else REQUIRED_ID
     names, ids, result = set(), set(), []
     for row in rows:
         if not isinstance(row, dict):
@@ -37,6 +41,14 @@ def _clean(rows: list, previous: list) -> list[dict]:
         if name in names:
             raise ValueError("Each environment variable name must be unique")
         row_id = row.get("id")
+        if row_id == required_id and name != REQUIRED_NAME:
+            raise ValueError("TYPESAFE_API_KEY cannot be renamed")
+        if name == REQUIRED_NAME and not row_id:
+            row_id = required_id
+        if name == REQUIRED_NAME and row_id == required_id and required is None:
+            if row.get("value") is None:
+                continue  # untouched fixed row: retain the inherited environment
+            row_id = None
         if row_id is not None and (not isinstance(row_id, str) or row_id not in old or row_id in ids):
             raise ValueError("An environment variable changed elsewhere. Reload Settings and try again.")
         value = row.get("value")
@@ -52,6 +64,8 @@ def _clean(rows: list, previous: list) -> list[dict]:
         names.add(name)
         ids.add(row_id)
         result.append({"id": row_id, "name": name, "value": value})
+    if required and REQUIRED_NAME not in names:
+        result.insert(0, required.copy())  # the fixed variable cannot be removed
     return result
 
 
@@ -91,10 +105,15 @@ def initialize() -> None:
 
 
 def public() -> list[dict]:
-    """Settings explicitly exposes editable values; null still preserves a value."""
+    """Write-only values: null preserves a secret without sending it to the UI."""
     initialize()
     with _lock:
-        return [{**row, "has_value": bool(row["value"])} for row in _rows]
+        rows = [{"id": row["id"], "name": row["name"], "value": None,
+                 "has_value": bool(row["value"]), "fixed": row["name"] == REQUIRED_NAME} for row in _rows]
+        if not any(row["fixed"] for row in rows):
+            rows.insert(0, {"id": REQUIRED_ID, "name": REQUIRED_NAME, "value": None,
+                            "has_value": bool(os.environ.get(REQUIRED_NAME)), "fixed": True})
+        return sorted(rows, key=lambda row: not row["fixed"])
 
 
 def save(rows: list) -> list[dict]:

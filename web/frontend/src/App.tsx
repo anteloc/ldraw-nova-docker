@@ -59,13 +59,13 @@ export default function App() {
             ☰
           </button>
           <Routes>
-            <Route path="/" element={<Navigate to="/models" replace />} />
+            <Route path="/" element={<Navigate to="/gallery" replace />} />
             <Route path="/new" element={<Home />} />
             <Route path="/chat/:id" element={<ChatPage />} />
             <Route path="/models" element={<Models key="models" collection="models" />} />
             <Route path="/gallery" element={<Models key="gallery" collection="gallery" />} />
             <Route path="/settings" element={<Settings />} />
-            <Route path="*" element={<Navigate to="/models" replace />} />
+            <Route path="*" element={<Navigate to="/gallery" replace />} />
           </Routes>
         </main>
       </div>

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { api, type TurnOptions } from "../api";
+import { api, type TurnOptions, type DocumentUpload } from "../api";
 import Composer from "../components/Composer";
 import { useApp } from "../context";
 
@@ -22,11 +22,11 @@ export default function Home() {
     if (!llmId || !llms.some((m) => m.id === llmId)) setLlmId(defaultLlmId ?? llms[0]?.id ?? null);
   }, [llms, defaultLlmId, llmId]);
 
-  async function start(text: string, options: TurnOptions, images: string[]) {
+  async function start(text: string, options: TurnOptions, images: string[], documents: DocumentUpload[]) {
     setError(null);
     try {
       const chat = await api.createChat(llmId);
-      await api.send(chat.id, text, llmId, options, images);
+      await api.send(chat.id, text, llmId, options, images, documents);
       refreshChats();
       navigate(`/chat/${chat.id}`);
     } catch (e) {

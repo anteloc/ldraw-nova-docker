@@ -1,11 +1,13 @@
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react";
-import { useParams } from "react-router-dom";
-import { api, isPending, type ChatDetail, type ChatModel, type Message, type Approval, type TurnOptions } from "../api";
+import { useLocation, useParams } from "react-router-dom";
+import { api, isPending, type ChatDetail, type ChatModel, type Message, type Approval, type TurnOptions, type DocumentUpload } from "../api";
 import Composer from "../components/Composer";
 import Markdown from "../components/Markdown";
 import ToolCard from "../components/ToolCard";
 import ModelCard from "../components/ModelCard";
 import { useApp } from "../context";
+import { placeChatModels } from "../chatModels";
+import DocumentIcon from "../components/DocumentIcon";
 
 type RunningTool = { id: string; name: string; arguments: string; output?: string; started_at?: number };
 type Activity = { started_at: number; last_event_at: number; phase: string };
@@ -15,6 +17,8 @@ const text = (m: Message) => typeof m.content === "string" ? m.content : Array.i
 
 export default function ChatPage() {
   const { id = "" } = useParams();
+  const { hash } = useLocation();
+  const anchored = useRef("");
   const { llms, defaultLlmId, refreshChats } = useApp();
   const [detail, setDetail] = useState<ChatDetail | null>(null);
   const [notFound, setNotFound] = useState(false);
@@ -153,16 +157,26 @@ export default function ChatPage() {
     if (stickToBottom.current) bottomRef.current?.scrollIntoView({ block: "end" });
   }, [detail, draft, persisting, tools]);
 
+  useEffect(() => {
+    if (!hash.startsWith("#model-") || anchored.current === id + hash) return;
+    const card = document.getElementById(hash.slice(1));
+    if (card) {
+      stickToBottom.current = false;
+      card.scrollIntoView({ block: "center" });
+      anchored.current = id + hash;
+    }
+  }, [id, hash, detail]);
+
   function onScroll() {
     const el = scrollerRef.current;
     if (el) stickToBottom.current = el.scrollHeight - el.scrollTop - el.clientHeight < 80;
   }
 
-  async function send(value: string, options: TurnOptions, images: string[]) {
+  async function send(value: string, options: TurnOptions, images: string[], documents: DocumentUpload[]) {
     setError(null);
     stickToBottom.current = true;
     try {
-      await api.send(id, value, llmId, options, images);
+      await api.send(id, value, llmId, options, images, documents);
     } catch (e) {
       setError((e as Error).message);
       throw e;
@@ -180,7 +194,9 @@ export default function ChatPage() {
   const runningIds = new Set(tools.map((t) => t.id));
   const modelsFor = (m?: Message): ChatModel[] => (m?._models ?? []).map((id) => detail.models[id]).filter(Boolean);
   const idle = running && !draft && !persisting && tools.length === 0;
-  const linkedModels = new Set(messages.flatMap(m => m._models ?? []));
+  const cards = placeChatModels(messages, detail.models);
+  const publishedModels = Object.values(detail.models);
+  const modelCard = (m: ChatModel) => <div id={`model-${m.id}`} className="chat-model" key={m.id}><ModelCard model={m} /></div>;
   const elapsed = activity ? Math.max(0, Math.floor(now / 1000 - activity.started_at)) : 0;
 
   return (
@@ -203,13 +219,16 @@ export default function ChatPage() {
               <div key={m.id} className="msg user">
                 <div className="bubble">{text(m)}
                   {Array.isArray(m.content) && <div className="attachments">{(m.content as ContentBlock[]).filter(b => b.type === "image_url").map((b, i) => <img key={i} src={b.image_url?.url} alt={`Attached image ${i + 1}`} />)}</div>}
+                  {!!m._documents?.length && <div className="document-attachments">{m._documents.map((d, i) =>
+                    <a className="document-chip" key={i} href={d.url ?? undefined} download={d.name}><DocumentIcon /><span>{d.name}</span></a>
+                  )}</div>}
                 </div>
               </div>
             );
           }
           return (
             <div key={m.id} className="msg assistant">
-              {text(m) && <Markdown>{text(m)}</Markdown>}
+              {text(m) && <Markdown models={publishedModels}>{text(m)}</Markdown>}
               {(m.tool_calls ?? []).map((call) => {
                 const result = results.get(call.id);
                 const status = result
@@ -224,15 +243,16 @@ export default function ChatPage() {
                     live={tools.find(t => t.id === call.id)} now={now} />
                 );
               })}
+              {(cards.byMessage.get(m.id) ?? []).map(modelCard)}
             </div>
           );
         })}
-        {Object.values(detail.models).filter(m => !linkedModels.has(m.id)).map(m => (
-          <div className="msg assistant" key={m.id}><ModelCard model={m} /></div>
+        {cards.unplaced.map(m => (
+          <div className="msg assistant" key={m.id}>{modelCard(m)}</div>
         ))}
         {(persisting || draft) && (
           <div className="msg assistant">
-            <Markdown>{persisting || draft}</Markdown>
+            <Markdown models={publishedModels}>{persisting || draft}</Markdown>
           </div>
         )}
         {idle && (

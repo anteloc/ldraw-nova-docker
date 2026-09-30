@@ -1,10 +1,12 @@
 import { useEffect, useRef, useState, type FormEvent } from "react";
 import { api, type EnvironmentVariable } from "../api";
+import { useApp } from "../context";
 
-type Row = { key: string; id?: string; name: string; value: string | null; has_value: boolean };
+type Row = { key: string; id?: string; name: string; value: string | null; has_value: boolean; fixed: boolean };
 const toRows = (variables: EnvironmentVariable[]): Row[] => variables.map(v => ({ ...v, key: v.id }));
 
 export default function EnvironmentSettings() {
+  const { refreshLlms } = useApp();
   const [rows, setRows] = useState<Row[]>([]);
   const [loaded, setLoaded] = useState(false);
   const [dirty, setDirty] = useState(false);
@@ -31,6 +33,7 @@ export default function EnvironmentSettings() {
     try {
       const result = await api.saveEnvironment(rows.map(({ id, name, value }) => ({ id, name: name.trim(), value })));
       setRows(toRows(result.variables)); setDirty(false);
+      refreshLlms();
       setMessage("Environment variables saved. New requests use these values.");
     } catch (e) { setError((e as Error).message); }
     finally { setBusy(false); }
@@ -41,14 +44,21 @@ export default function EnvironmentSettings() {
       <h2 id="environment-heading">Environment variables</h2>
       <button type="button" disabled={!loaded || busy} onClick={() => {
         const key = `new-${nextKey.current++}`;
-        setRows(current => [...current, { key, name: "", value: "", has_value: false }]);
+        setRows(current => [...current, { key, name: "", value: "", has_value: false, fixed: false }]);
         setDirty(true); setMessage(""); setError("");
       }}>Add</button>
     </div>
-    <p className="muted small">Saved values override inherited values. Choose “API key (env var)” in a model’s settings to use one. Changes apply after saving.</p>
+    <p className="muted small">Saved values override inherited values. Values stay private on the server; leave a field unchanged to keep its saved value.</p>
     <form onSubmit={save}>
       <div className="environment-rows">
-        {rows.map((row, index) => <div className="environment-row" key={row.key}>
+        {rows.map((row, index) => row.fixed ? <div className="required-environment" key={row.key}>
+          <label className="required-environment-row"><span>{row.name}:</span>
+            <input aria-label={`${row.name} value`} aria-describedby="typesafe-hint" type="password" autoComplete="new-password" maxLength={65536} disabled={busy}
+              placeholder={row.has_value ? "Saved value (leave unchanged to keep)" : "Enter value"} value={row.value ?? ""}
+              onChange={e => change(row.key, { value: e.target.value })} />
+          </label>
+          <small id="typesafe-hint" className="muted typesafe-hint"><em>This is required for finding required parts via Jev's semantic search</em></small>
+        </div> : <div className="environment-row" key={row.key}>
           <label>
             <span>Name</span>
             <input aria-label={`Variable name ${index + 1}`} required pattern="[A-Za-z_][A-Za-z0-9_]*" maxLength={255}
@@ -57,8 +67,8 @@ export default function EnvironmentSettings() {
           </label>
           <label>
             <span>Value</span>
-            <input aria-label={`Variable value ${index + 1}`} type="text" autoComplete="off" spellCheck={false} maxLength={65536}
-              placeholder="Value (may be empty)" disabled={busy}
+            <input aria-label={`Variable value ${index + 1}`} type="password" autoComplete="new-password" spellCheck={false} maxLength={65536}
+              placeholder={row.has_value ? "Saved value (leave unchanged to keep)" : "Value (may be empty)"} disabled={busy}
               value={row.value ?? ""}
               onChange={e => change(row.key, { value: e.target.value })} />
           </label>

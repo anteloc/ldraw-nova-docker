@@ -21,6 +21,7 @@ environment_config.initialize()
 import litellm
 import yaml
 from fastapi import FastAPI, HTTPException, Request
+from fastapi.exceptions import RequestValidationError
 from fastapi.responses import FileResponse, JSONResponse, PlainTextResponse, StreamingResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
@@ -33,7 +34,7 @@ import llm_config
 import model_catalog
 import browser_auth
 import inference
-from attachments import validate_images
+from attachments import validate_documents, validate_images
 import sandbox
 import settings
 from leocad_render import MODEL_SUFFIXES, bom_path_for, snapshot_path_for
@@ -56,6 +57,14 @@ async def lifespan(_app: FastAPI):
 
 
 app = FastAPI(title="LDraw Astra agent chat", lifespan=lifespan)
+
+
+@app.exception_handler(RequestValidationError)
+async def invalid_request(_request: Request, exc: RequestValidationError):
+    # Pydantic includes submitted values by default, including credentials.
+    return JSONResponse(status_code=422, content={"detail": [
+        {"loc": error["loc"], "msg": error["msg"], "type": error["type"]} for error in exc.errors()
+    ]})
 
 
 @app.middleware("http")
@@ -172,12 +181,7 @@ def llm_models_list():
 @app.get("/api/llm-models/{entry_id}/edit")
 def llm_models_edit(entry_id: str):
     entry = llm_config.get(entry_id) or _not_found()
-    result = llm_config.public(entry)
-    # The Settings editor explicitly shows the entered key. Lists and exports
-    # remain masked; environment references are shown by name, not resolved.
-    if "api_key" in entry["litellm_params"]:
-        result["litellm_params"]["api_key"] = entry["litellm_params"]["api_key"]
-    return result
+    return llm_config.public(entry)
 
 
 @app.post("/api/llm-models")
@@ -211,11 +215,15 @@ def llm_models_default(entry_id: str):
 @app.post("/api/llm-models/{entry_id}/test")
 async def llm_models_test(entry_id: str):
     entry = llm_config.get(entry_id) or _not_found()
+    fingerprint = llm_config.connection_fingerprint(entry)
+    def tested(result):
+        result["connection_status"] = llm_config.record_connection_test(entry_id, fingerprint, result["ok"])
+        return result
     try:
         if entry.get("auth_mode") == "browser" and entry["litellm_params"]["model"].startswith("anthropic/"):
             ready = await browser_auth.connected("anthropic")
-            return {"ok": ready, "reply": "Claude login is ready. Send a chat to verify model access." if ready else None,
-                    "error": None if ready else "Sign in to Claude in Settings first"}
+            return tested({"ok": ready, "reply": "Claude login is ready. Send a chat to verify model access." if ready else None,
+                           "error": None if ready else "Sign in to Claude in Settings first"})
         params = await inference.params_for(entry, {})
         params.setdefault("max_tokens", 4096)
         params.setdefault("timeout", 60)
@@ -223,10 +231,10 @@ async def llm_models_test(entry_id: str):
             **params,
             messages=[{"role": "user", "content": "Reply with the single word: OK"}],
         )
-        return {"ok": True, "reply": response.choices[0].message.content,
-                "capabilities": llm_config.capabilities(entry)}
+        return tested({"ok": True, "reply": response.choices[0].message.content,
+                       "capabilities": llm_config.capabilities(entry)})
     except Exception as exc:  # noqa: BLE001 - shown to the user as the test result
-        return {"ok": False, "error": str(exc) if isinstance(exc, ValueError) else f"{exc.__class__.__name__}: Check credentials, model access and settings."}
+        return tested({"ok": False, "error": f"{exc.__class__.__name__}: Check credentials, model access and settings."})
 
 
 @app.get("/api/llm-models/export", response_class=PlainTextResponse)
@@ -283,6 +291,7 @@ class NewMessage(BaseModel):
     llm_model_id: Optional[str] = None
     options: dict[str, Any] = Field(default_factory=dict)
     images: list[str] = Field(default_factory=list, max_length=4)
+    documents: list[dict[str, Any]] = Field(default_factory=list, max_length=4)
 
 
 # --- model helpers -------------------------------------------------------------
@@ -393,6 +402,14 @@ async def chats_get(chat_id: str):
         m.pop("_reasoning_details", None)  # opaque provider state belongs only in server-side history
         if m.get("_images"):
             m["_image_urls"] = [u for u in (file_url(store.resolve(chat_id, r), versioned=True) for r in m["_images"]) if u]
+        if m.get("_documents"):
+            for document in m["_documents"]:
+                path = store.resolve(chat_id, document["path"])
+                try:
+                    relative = path.relative_to(store.work_dir(chat_id))
+                    document["url"] = f"/api/chats/{chat_id}/artifacts/" + quote(relative.as_posix())
+                except ValueError:
+                    document["url"] = None
     models = chat_models(store, chat_id)
     gallery.ensure_artifacts(store.resolve(chat_id, ref["model"]) for ref in store.models(chat_id)
                              if store.resolve(chat_id, ref["model"]).is_file())
@@ -425,7 +442,9 @@ async def chats_send(chat_id: str, body: NewMessage):
     if not body.text.strip():
         raise HTTPException(400, "empty message")
     try:
-        await agent.start_turn(store, chat_id, body.text, body.llm_model_id, body.options, validate_images(body.images))
+        images = validate_images(body.images)
+        documents = validate_documents(body.documents, images)
+        await agent.start_turn(store, chat_id, body.text, body.llm_model_id, body.options, images, documents)
     except RuntimeError as exc:
         raise HTTPException(409, str(exc)) from None
     except ValueError as exc:
