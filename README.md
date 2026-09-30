@@ -184,12 +184,13 @@ open http://localhost:8765                # port: LDRAW_ASTRA_WEB_PORT in .env
    relays it to the official OpenAI runtime's internal callback listener.
    Keep host port 1455 free while running this compose stack. Claude opens its
    authorization page on `claude.com` and displays a code after sign-in. Copy
-   the full code into **Claude authorization code** in this app and click
+   the full code into **Claude sign-in code** in this app and click
    **Complete login**. No terminal command or additional callback port is needed.
    Settings polls until the provider confirms the login; you can cancel,
-   retry, or disconnect. For a browser on a different machine, expand
-   **Signing in from another computer?** and use the optional device flow.
-   That fallback requires enabling device code sign-in in ChatGPT Security
+   retry, or disconnect. When the app is opened through a non-loopback hostname,
+   ChatGPT defaults to device sign-in so users on another computer can connect.
+   For localhost, **Sign-in doesn’t return here?** also offers that flow.
+   Device sign-in requires enabling device code sign-in in ChatGPT Security
    Settings first. Start it again in this app afterwards; you do not need
    to run the terminal command mentioned on OpenAI's device page.
    An eligible subscription and model entitlement
@@ -205,6 +206,9 @@ open http://localhost:8765                # port: LDRAW_ASTRA_WEB_PORT in .env
    restores its inherited value, or removes the variable if none existed.
    `TYPESAFE_API_KEY` has a fixed first row for Jev semantic part search; its name
    cannot be edited and the row cannot be removed.
+   Entering a preconfigured name displays a warning beside the value; hover or
+   focus it to read the precedence explanation. The lookup returns only whether
+   the name exists, never the existing value.
 
    Values persist privately in `/config/environment.json` (0600) and are
    loaded before backend configuration and provider libraries at startup.
@@ -220,9 +224,16 @@ open http://localhost:8765                # port: LDRAW_ASTRA_WEB_PORT in .env
    redacted from command logs and uses the Settings override immediately.
 
    For **OpenRouter**, use **Settings → Agents → OpenRouter → Add agent** and
-   choose an agent preset. The presets include GPT-6 Astra, Sol and Luna, GPT-5.6 Terra,
-   Claude Opus 5.5 and 5, Sonnet 5, and Haiku 4.5 with their OpenRouter model
-   IDs, vision/tool capabilities, context budgets and supported effort levels.
+   choose an agent preset. The shortlist is Grok 4.20 (2M context), Gemini 3.1
+   Flash Lite, Amazon Nova 2 Lite, Gemini 3.8 Flash, and Muse Spark 1.3 (about 1M).
+   It favors larger contexts and lower API prices among models advertising text,
+   file and image input, reasoning, and tools in the
+   [OpenRouter catalogue](https://openrouter.ai/api/v1/models), checked September 30,
+   2026. It excludes routers, OpenAI and Claude, and contributor/data-sharing
+   variants. It is a comparison shortlist, not a LEGO quality benchmark.
+   Direct Claude presets are Opus 5.5, Opus 5, Sonnet 5, Fable 5 and Fable 5.1.
+   Direct OpenAI presets are GPT-6 Astra, GPT-6 Sol, GPT-5.6 Sol, GPT-5.6 Terra and
+   GPT-5.5. Previously configured agents remain available.
    You can also enter another `openrouter/vendor/model` ID. OpenRouter uses API
    key authentication and its own billing, separate from browser subscriptions.
 
@@ -255,6 +266,17 @@ open http://localhost:8765                # port: LDRAW_ASTRA_WEB_PORT in .env
    **Make default** are inside the expanded editor. Test results persist as
    **Connected**, **Not connected** or **Not tested**; changing the saved settings
    or referenced environment credentials invalidates the previous result.
+   Both collapsed and expanded entries show context, reasoning levels, vision,
+   tools, output limits, and input/output prices per million tokens. **Test** also
+   refreshes OpenRouter metadata and, for direct Claude API keys, the Models API.
+   OpenAI's Models API does not return these specifications; sourced published
+   details are bundled in `web/backend/model_catalog_data.json`. Each entry links
+   its source and check date. Catalogue failures preserve known published details
+   and identify the failed refresh. Unavailable features show **Unknown**; a
+   successful text probe is never treated as proof of those features. Custom API
+   endpoints have unknown limits/prices rather than assuming the public provider's
+   values. Browser subscriptions show API pricing only as a reference, not as the
+   subscription's charges. New-chat controls also warn that building may incur costs.
    Older OpenRouter key
    references and saved overrides are read using the standard `OPENROUTER_API_KEY`
    name; Compose also accepts the old shell variable as a migration fallback.
@@ -307,6 +329,10 @@ open http://localhost:8765                # port: LDRAW_ASTRA_WEB_PORT in .env
    have it regenerated. **Gallery** shows only the models in `models-gallery/`
    that ship with the app, with their existing snapshots and BOMs. The two
    collections are independent, even when models share a filename.
+   The **×** at the top-right of a My Models card asks before deleting its model,
+   snapshot, BOM, notes and cached GLB exports. It preserves original chat work
+   files and any artifacts shared by another model with the same stem. Busy
+   models must finish processing before deletion. Gallery cards cannot be deleted.
    A model in either collection with a Markdown file of
    the same base name (`atlas-crane.md` next to `atlas-crane.mpd`: the prompt
    that made it, say) gets an **Info** button that shows it. Its first `##` heading

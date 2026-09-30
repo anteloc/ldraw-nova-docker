@@ -256,6 +256,7 @@ input:focus, select:focus, textarea:focus, button:focus-visible {
 
 /* --- model cards --- */
 .model-card {
+  position: relative;
   background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden;
   display: flex; flex-direction: column; box-shadow: var(--shadow); max-width: 420px;
 }
@@ -357,6 +358,23 @@ input:focus, select:focus, textarea:focus, button:focus-visible {
 .llm-info { display: flex; flex-direction: column; gap: 3px; min-width: 0; }
 .llm-title { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
 .llm-actions { display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end; }
+.model-delete { position: absolute; top: 8px; right: 8px; z-index: 1; display: grid; place-items: center; width: 30px; height: 30px; padding: 0; border-radius: 50%; background: var(--surface); font-size: 22px; box-shadow: var(--shadow); }
+.model-delete:hover { color: var(--danger); border-color: currentColor; }
+.generation-cost-warning { color: #855600; background: #fff3bf; padding: 4px 7px; border-radius: 6px; font-size: 11px; line-height: 1.4; }
+.agent-details { display: flex; flex-direction: column; gap: 5px; padding: 10px 0 4px; }
+.agent-facts { display: flex; flex-wrap: wrap; gap: 8px 22px; margin: 0; }
+.agent-facts dt { font-size: 11px; color: var(--muted); }
+.agent-facts dd { font-size: 13px; font-weight: 600; margin: 1px 0 0; }
+.agent-source { font-size: 11px; }
+.login-steps { padding-left: 20px; line-height: 1.6; }
+.login-steps li + li { margin-top: 5px; }
+.login-help { margin-top: 12px; }
+.environment-value { display: flex; align-items: center; gap: 8px; min-width: 0; width: 100%; }
+.required-environment-row > .environment-value { font-weight: normal; white-space: normal; }
+.environment-value input { min-width: 0; flex: 1; }
+.environment-warning { position: relative; color: var(--warn); display: inline-flex; flex-shrink: 0; cursor: help; }
+.environment-tooltip { display: none; position: absolute; right: 0; bottom: calc(100% + 8px); width: 240px; max-width: 65vw; padding: 8px 10px; font-size: 12px; font-weight: normal; color: var(--fg); background: var(--surface); border: 1px solid var(--border); box-shadow: var(--shadow); border-radius: 6px; z-index: 3; }
+.environment-warning:hover .environment-tooltip, .environment-warning:focus .environment-tooltip { display: block; }
 
 /* --- viewer modal --- */
 .modal-backdrop { position: fixed; inset: 0; background: rgb(0 0 0 / 0.55); display: grid; place-items: center; z-index: 50; padding: 24px; }

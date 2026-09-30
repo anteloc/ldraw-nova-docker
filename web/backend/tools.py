@@ -23,6 +23,7 @@ import sandbox
 import settings
 import toolkit
 import environment_config
+import gallery
 from leocad_render import bom_path_for, list_models, snapshot_path_for
 from paths import safe_join
 from store import ChatStore
@@ -185,8 +186,12 @@ async def t_publish_model(ctx: ToolContext, path: str, name: str | None = None) 
     target = settings.GENERATED_DIR / f"{slug}-v{_next_version(slug)}.mpd"
     target.write_bytes(source_bytes)
     ctx.emit("progress", {"summary": "Rendering the published model and exporting its parts list."})
-    rendered = await run_command(ctx, ["./ldraw-agent", "render", str(target), "--outdir", str(review),
-                                      "--views", "home"], 600)
+    gallery.publishing.add(target.resolve())
+    try:
+        rendered = await run_command(ctx, ["./ldraw-agent", "render", str(target), "--outdir", str(review),
+                                          "--views", "home"], 600)
+    finally:
+        gallery.publishing.discard(target.resolve())
     image, bom = review / "home.png", review / "leocad-bom.csv"
     if rendered.exit_code == 0 and image.exists() and bom.exists():
         shutil.copyfile(image, snapshot_path_for(target))

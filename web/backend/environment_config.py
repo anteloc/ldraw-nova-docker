@@ -104,6 +104,18 @@ def initialize() -> None:
         _initialized = True
 
 
+def check_name(name: str, exclude_id: str = "") -> dict:
+    """Only reveal whether a supplied name collides; never return its value."""
+    initialize()
+    name = name.strip()
+    if not re.fullmatch(r"[A-Za-z_][A-Za-z0-9_]{0,254}", name):
+        return {"preconfigured": False, "saved": False}
+    with _lock:
+        original = _inherited.get(name) if name in _inherited else os.environ.get(name)
+        return {"preconfigured": original is not None,
+                "saved": any(row["name"] == name and row["id"] != exclude_id for row in _rows)}
+
+
 def public() -> list[dict]:
     """Write-only values: null preserves a secret without sending it to the UI."""
     initialize()

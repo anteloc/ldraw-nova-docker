@@ -30,6 +30,16 @@ class GlbError(Exception):
     pass
 
 
+def cache_files(model: Path) -> list[Path]:
+    prefix = hashlib.sha1(str(model.resolve()).encode()).hexdigest()[:16]
+    return list(CACHE_DIR.glob(f"{prefix}-*.glb"))
+
+
+def is_converting(model: Path) -> bool:
+    prefix = hashlib.sha1(str(model.resolve()).encode()).hexdigest()[:16] + "-"
+    return any(path.name.startswith(prefix) and not task.done() for path, task in _inflight.items())
+
+
 def _cached_path(model: Path) -> Path:
     stat = model.stat()
     key = hashlib.sha1(str(model.resolve()).encode()).hexdigest()[:16]

@@ -208,7 +208,8 @@ async def start_turn(store: ChatStore, chat_id: str, text: str, llm_model_id: Op
         entry = llm_config.get(default_id) if default_id else None
     if entry is None:
         raise ValueError("no LLM model configured — add one in Settings")
-    if not model_catalog.builder_supported(entry["litellm_params"]["model"]):
+    if (not model_catalog.builder_supported(entry["litellm_params"]["model"])
+            or any(value is False for value in llm_config.capabilities(entry).values())):
         raise ValueError("Choose a model with tool calling and image input support in Settings")
 
     options = model_catalog.validate_options(entry, options)

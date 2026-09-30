@@ -194,3 +194,23 @@ def test_typesafe_row_is_fixed_private_and_preserves_inherited_value(monkeypatch
     assert client.get("/api/environment").json()["variables"][0] == row
     client.put("/api/environment", json={"variables": [{**row, "value": ""}]})
     assert environment_config.snapshot()["TYPESAFE_API_KEY"] == ""
+
+
+def test_name_collision_checks_preserve_private_values_and_original_environment(monkeypatch):
+    monkeypatch.setenv("LDRAW_TEST_EXISTING", "original-private-value")
+    monkeypatch.setenv("LDRAW_TEST_EMPTY", "")
+    monkeypatch.delenv("LDRAW_TEST_NEW", raising=False)
+    client = TestClient(main.app)
+    def check(name, row_id=""):
+        response = client.get("/api/environment/check", params={"name": name, "exclude_id": row_id})
+        assert response.headers["cache-control"] == "no-store"
+        assert "private-value" not in response.text
+        return response.json()
+    assert check("LDRAW_TEST_EXISTING") == {"preconfigured": True, "saved": False}
+    assert check("LDRAW_TEST_EMPTY")["preconfigured"] is True
+    assert check("LDRAW_TEST_NEW") == {"preconfigured": False, "saved": False}
+    rows = save_overrides([{"name": "LDRAW_TEST_EXISTING", "value": "new-private-value"}, {"name": "LDRAW_TEST_NEW", "value": "saved-private-value"}])
+    assert check(rows[0]["name"], rows[0]["id"]) == {"preconfigured": True, "saved": False}
+    assert check(rows[1]["name"], rows[1]["id"]) == {"preconfigured": False, "saved": False}
+    assert check(rows[1]["name"])["saved"] is True
+    assert check("invalid-name") == {"preconfigured": False, "saved": False}

@@ -6,6 +6,7 @@ import litellm
 
 import browser_auth
 import llm_config
+import model_catalog
 
 
 def preserve_openrouter_reasoning_chunks(stream, model: str) -> None:
@@ -65,6 +66,11 @@ async def params_for(entry: dict, options: dict) -> dict:
             params["output_config"] = {"effort": options["effort"]}
         else:
             params["reasoning_effort"] = options["effort"]
+    elif model.startswith("openrouter/") and model_catalog.entry_profile(entry).get("reasoning") is True:
+        # Some providers expose only an on/off switch, not effort levels. A
+        # builder still needs reasoning (e.g. Grok 4.20 disables it by default).
+        extra = params.setdefault("extra_body", {})
+        extra.setdefault("reasoning", {"enabled": True})
     # App-owned fields cannot be overridden with arbitrary settings parameters.
     for key in ("messages", "stream", "tools", "tool_choice", "num_retries"):
         params.pop(key, None)

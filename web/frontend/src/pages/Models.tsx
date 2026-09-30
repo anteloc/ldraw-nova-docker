@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { api, type ModelFile } from "../api";
 import ModelCard from "../components/ModelCard";
 
@@ -12,6 +12,7 @@ export default function Models({ collection }: { collection: "models" | "gallery
   const [pending, setPending] = useState(0);
   const [error, setError] = useState<string | null>(null);
   const [query, setQuery] = useState("");
+  const deleted = useRef(new Set<string>());
 
   useEffect(() => {
     let alive = true;
@@ -20,7 +21,7 @@ export default function Models({ collection }: { collection: "models" | "gallery
       try {
         const r = await api.models(collection);
         if (!alive) return;
-        setModels(r.models);
+        setModels(r.models.filter(model => !deleted.current.has(model.file)));
         setPending(r.pending);
         setError(null);
         if (r.pending > 0) timer = setTimeout(load, POLL_MS);
@@ -83,7 +84,11 @@ export default function Models({ collection }: { collection: "models" | "gallery
       {models && models.length > 0 && shown.length === 0 && <p className="muted">No models match your search.</p>}
       <div className="card-grid">
         {shown.map((m) => (
-          <ModelCard key={m.file} model={m} showChats={!isGallery} />
+          <ModelCard key={m.file} model={m} showChats={!isGallery} onDelete={isGallery ? undefined : async () => {
+            await api.deleteModel(m.file);
+            deleted.current.add(m.file);
+            setModels(current => current?.filter(model => model.file !== m.file) ?? null);
+          }} />
         ))}
       </div>
     </div>

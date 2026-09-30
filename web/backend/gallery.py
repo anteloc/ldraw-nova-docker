@@ -37,6 +37,7 @@ _queue: list[Path] = []
 _current: Optional[Path] = None
 _failed: dict[tuple[Path, str], tuple[float, str]] = {}   # (model, kind) -> (model mtime when it failed, error)
 _task: Optional[asyncio.Task] = None
+publishing: set[Path] = set()
 
 
 def description_of(path: Path) -> str:
@@ -143,3 +144,11 @@ def status_of(model: Path, kind: str = "snapshot") -> tuple[str, Optional[str]]:
 def collection(folder: Path) -> list[Path]:
     """The models in the collection, newest first."""
     return sorted(list_models(folder), key=_mtime, reverse=True)
+
+
+def forget(model: Path) -> None:
+    """Remove a deleted model from pending preview work and error state."""
+    _queue[:] = [path for path in _queue if path != model]
+    for key in list(_failed):
+        if key[0] == model:
+            _failed.pop(key)

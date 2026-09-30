@@ -10,6 +10,9 @@ export default function ProviderLogin({ provider }: { provider: "openai" | "anth
   const opened = useRef("");
   const pending = state.status === "starting" || state.status === "pending";
   const name = provider === "openai" ? "ChatGPT" : "Claude";
+  const remote = !["localhost", "127.0.0.1", "[::1]"].includes(window.location.hostname);
+  const device = provider === "openai" && (pending ? state.flow === "device" : remote);
+  const statusText = { disconnected: "Not connected", connected: "Connected", starting: "Opening sign-in…", pending: "Waiting for sign-in", error: "Sign-in failed", expired: "Sign-in expired" }[state.status];
 
   useEffect(() => {
     let active = true;
@@ -49,17 +52,23 @@ export default function ProviderLogin({ provider }: { provider: "openai" | "anth
   }
 
   return <section className="panel provider-login">
-    <div className="llm-title"><strong>{name}</strong><span className={`badge ${state.status === "connected" ? "ok" : ""}`}>{state.status}</span></div>
-    <p className="muted small">{provider === "openai" ? "Sign in to ChatGPT in your browser, then return here. No device code or terminal command is needed." : "Sign in to Claude in your browser, then copy Claude's authorization code into this page to connect your account."} Model access depends on your account.</p>
-    {state.status !== "connected" && !pending && <button type="button" className="primary" disabled={busy} onClick={() => login()}>Sign in with {name}</button>}
+    <div className="llm-title"><strong>{name}</strong><span className={`badge ${state.status === "connected" ? "ok" : ""}`}>{statusText}</span></div>
+    {state.status !== "connected" ? <ol className="login-steps muted small">
+      {device && <li>Enable <strong>device code sign-in</strong> in <a href="https://chatgpt.com/#settings/Security" target="_blank" rel="noreferrer">ChatGPT Security Settings</a>.</li>}
+      <li>Click <strong>Sign in with {name}</strong> and sign in on the page that opens.</li>
+      {provider === "anthropic" ? <li>Copy the code Claude gives you, paste it below, and click <strong>Complete login</strong>.</li>
+        : device ? <li>Enter the code shown here on the ChatGPT sign-in page.</li> : <li>Finish sign-in and return to this page.</li>}
+      <li>Wait for <strong>Connected</strong>, then select <strong>Browser login</strong> when adding an agent from this provider below.</li>
+    </ol> : <p className="muted small">Ready to use with agents set to Browser login. Available models depend on this account’s plan.</p>}
+    {state.status !== "connected" && !pending && <button type="button" className="primary" disabled={busy} onClick={() => login(device ? "device" : "browser")}>Sign in with {name}</button>}
     {(pending || state.status === "connected") && <button type="button" disabled={busy} onClick={logout}>{pending ? "Cancel login" : "Disconnect"}</button>}
     {state.url && pending && <p><a href={state.url} target="_blank" rel="noreferrer">Open {name} sign-in</a></p>}
     {state.code && pending && state.flow === "device" && <p>After signing in, enter this code on OpenAI's device page: <strong className="device-code">{state.code}</strong></p>}
-    {pending && provider === "openai" && state.flow !== "device" && <p className="muted small">Complete sign-in on the same computer that runs Docker. The browser returns automatically through localhost:1455.</p>}
-    {provider === "openai" && state.status !== "connected" && <details className="small" style={{ marginTop: 12 }}>
-      <summary>Signing in from another computer?</summary>
-      <p>Use device sign-in when the browser is on a different computer from Docker. First enable <strong>device code sign-in</strong> in <a href="https://chatgpt.com/#settings/Security" target="_blank" rel="noreferrer">ChatGPT Security Settings</a>. Then start a fresh device login here.</p>
-      <p>If OpenAI mentions a terminal command, use this button instead. The app runs the login and shows the code for you.</p>
+    {provider === "openai" && state.status !== "connected" && !device && <details className="small login-help">
+      <summary>Sign-in doesn’t return here?</summary>
+      <ol className="login-steps"><li>Enable <strong>device code sign-in</strong> in <a href="https://chatgpt.com/#settings/Security" target="_blank" rel="noreferrer">ChatGPT Security Settings</a>.</li>
+        <li>Click <strong>Start device sign-in</strong> below.</li><li>Sign in, then enter the code shown here on the ChatGPT page.</li></ol>
+      <p>If ChatGPT asks you to run a command, click this button to start again.</p>
       <button type="button" disabled={busy} onClick={() => login("device")}>Start device sign-in</button>
     </details>}
     {state.status === "pending" && provider === "anthropic" && <form onSubmit={async e => {
@@ -68,11 +77,10 @@ export default function ProviderLogin({ provider }: { provider: "openai" | "anth
       catch (e) { setError((e as Error).message); }
       finally { setBusy(false); }
     }}>
-      <p className="muted small">Finish sign-in in the Claude tab, copy the full code it displays, then paste it below. You do not need a terminal.</p>
-      <label><span>Claude authorization code</span><input type="password" autoComplete="off" spellCheck={false} value={code} onChange={e => setCode(e.target.value)} /></label>
+      <label><span>Claude sign-in code</span><input type="password" placeholder="Paste the full code from Claude" autoComplete="off" spellCheck={false} value={code} onChange={e => setCode(e.target.value)} /></label>
       <button type="submit" disabled={!code.trim() || busy}>Complete login</button>
     </form>}
-    {pending && <p className="muted small">Waiting for browser authentication. This page updates automatically.</p>}
+    {pending && <p className="muted small">This page updates when sign-in is complete.</p>}
     {(error || state.message) && <p role="alert" className="warn-text">{error || state.message}</p>}
   </section>;
 }

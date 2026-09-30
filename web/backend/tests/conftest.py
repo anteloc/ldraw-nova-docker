@@ -25,6 +25,15 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[3]))          # repo roo
 import pytest  # noqa: E402
 
 
+@pytest.fixture(autouse=True)
+def offline_model_details(monkeypatch):
+    """Unit tests never depend on live catalogues or send provider credentials."""
+    import model_discovery
+    async def unavailable(*args, **kwargs):
+        raise RuntimeError("Catalogue offline in tests")
+    monkeypatch.setattr(model_discovery, "_fetch_json", unavailable)
+
+
 @pytest.fixture
 def data_dir() -> Path:
     return _tmp / "data"

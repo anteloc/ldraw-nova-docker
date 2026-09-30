@@ -3,6 +3,7 @@ import { api, type ModelProfile } from "../api";
 import ProviderLogin from "../components/ProviderLogin";
 import EnvironmentSettings from "../components/EnvironmentSettings";
 import AgentForm, { ConnectionPill } from "../components/AgentForm";
+import AgentDetails from "../components/AgentDetails";
 import { useApp } from "../context";
 import { agentProvider, providerLabel } from "../modelChoices";
 
@@ -25,7 +26,10 @@ export default function Settings() {
     </section>
     <EnvironmentSettings />
     <section aria-labelledby="agents-heading">
-      <header className="page-head settings-models-head"><div><h2 id="agents-heading">Agents</h2><p className="muted small">Agents with tools and vision for planning, building and reviewing your creations.</p></div></header>
+      <header className="page-head settings-models-head"><div><h2 id="agents-heading">Agents</h2>
+        <p className="muted small">Building LDraw models needs image input to inspect designs, reasoning to plan builds, and tool calling to run the app’s building tools.</p>
+        <p className="muted small">Choose a provider, click Add agent, and select a preset. Connect a browser account or add an API key, then click Test to check the connection and available model details.</p>
+      </div></header>
       {error && <div className="banner error" role="alert">{error}</div>}
       <div className="agent-providers">{providers.map(provider => {
         const entries = llms.filter(m => agentProvider(String(m.litellm_params.model)) === provider);
@@ -47,7 +51,9 @@ export default function Settings() {
                     {m.id === defaultLlmId && <span className="badge">Default</span>}
                     <span className="badge">{m.auth_mode === "browser" ? "Browser login" : String(m.litellm_params.api_key ?? "").startsWith("os.environ/") ? "API key · env var" : "API key · value"}</span>
                     <ConnectionPill status={m.connection_status ?? "not_tested"} />
-                  </div><div className="muted small model-id">{String(m.litellm_params.model)}</div></div>
+                  </div><div className="muted small model-id">{String(m.litellm_params.model)}</div>
+                    <AgentDetails profile={m.profile} browser={m.auth_mode === "browser"} />
+                  </div>
                   <div className="llm-actions"><button type="button" disabled={busy} onClick={() => { setEditing(m.id); setNewId(null); }}>Edit</button></div>
                 </div>
               )}

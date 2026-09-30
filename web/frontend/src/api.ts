@@ -65,7 +65,13 @@ export type EnvironmentUpdate = { id?: string; name: string; value: string | nul
 export type DocumentUpload = { name: string; data: string };
 export type ConnectionStatus = "not_tested" | "connected" | "not_connected";
 export type TurnOptions = { mode: "plan" | "agent"; permissions: "ask" | "full" | "read_only"; effort?: string | null; context_tokens?: number | null };
-export type ModelProfile = { model: string; name: string; context_window: number | null; efforts: string[]; default_effort: string | null; context_budgets: number[] };
+export type ModelProfile = {
+  model: string; name: string; context_window: number | null; efforts: string[]; default_effort: string | null; context_budgets: number[];
+  max_output_tokens?: number | null; tools?: boolean | null; vision?: boolean | null; reasoning?: boolean | null;
+  pricing?: { input: number | null; output: number | null; currency: string; note?: string } | null;
+  source_url?: string | null; source_label?: string | null; verified_at?: string | null;
+  lookup_status?: "live" | "published" | "unavailable"; recommendation?: string | null;
+};
 export type AuthStatus = { status: "starting" | "pending" | "connected" | "disconnected" | "error" | "expired"; flow?: "browser" | "device"; url?: string; code?: string; message?: string; expires_at?: number };
 export type Approval = { id: string; call_id: string; name: string; arguments: string };
 export type LlmEntry = {
@@ -102,6 +108,7 @@ const json = (body: unknown) => JSON.stringify(body);
 
 export const api = {
   environment: () => request<{ variables: EnvironmentVariable[] }>("/api/environment"),
+  checkEnvironment: (name: string, id?: string) => request<{ preconfigured: boolean; saved: boolean }>(`/api/environment/check?name=${encodeURIComponent(name)}&exclude_id=${encodeURIComponent(id ?? "")}`),
   saveEnvironment: (variables: EnvironmentUpdate[]) => request<{ variables: EnvironmentVariable[] }>("/api/environment", { method: "PUT", body: json({ variables }) }),
   chats: () => request<{ chats: Chat[] }>("/api/chats"),
   createChat: (llm_model_id?: string | null) =>
@@ -120,6 +127,7 @@ export const api = {
   logout: (provider: string) => request(`/api/auth/${provider}`, { method: "DELETE" }),
   cancel: (id: string) => request(`/api/chats/${id}/cancel`, { method: "POST" }),
   models: (collection: "models" | "gallery" = "models") => request<{ models: ModelFile[]; pending: number }>(`/api/${collection}`),
+  deleteModel: (filename: string) => request<{ deleted: string[] }>(`/api/models/${encodeURIComponent(filename)}`, { method: "DELETE" }),
 
   llmModels: () => request<{ models: LlmEntry[]; default_id: string | null }>("/api/llm-models"),
   editLlm: (id: string) => request<LlmEntry>(`/api/llm-models/${id}/edit`),
@@ -129,7 +137,7 @@ export const api = {
   deleteLlm: (id: string) => request(`/api/llm-models/${id}`, { method: "DELETE" }),
   defaultLlm: (id: string) => request(`/api/llm-models/${id}/default`, { method: "POST" }),
   testLlm: (id: string) =>
-    request<{ ok: boolean; reply?: string; error?: string; connection_status: ConnectionStatus; capabilities?: LlmEntry["resolved_capabilities"] }>(
+    request<{ ok: boolean; reply?: string; error?: string; connection_status: ConnectionStatus; profile: ModelProfile; capabilities?: LlmEntry["resolved_capabilities"] }>(
       `/api/llm-models/${id}/test`,
       { method: "POST" },
     ),

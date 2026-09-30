@@ -18,14 +18,15 @@ from store import ChatStore
 
 def test_openrouter_presets_and_capabilities():
     presets = model_catalog.OPENROUTER_CATALOG
-    assert len(presets) == 8
-    assert {p["model"] for p in presets} >= {
-        "openrouter/openai/gpt-6-astra", "openrouter/anthropic/claude-opus-5.5",
-        "openrouter/anthropic/claude-haiku-4.5"}
+    assert len(presets) == 5
+    assert all(not p["model"].startswith(("openrouter/openai/", "openrouter/anthropic/", "openrouter/openrouter/", "openrouter/~")) for p in presets)
+    assert max(p["context_window"] for p in presets) == 2_000_000
     for preset in presets:
         entry = {"litellm_params": {"model": preset["model"]}}
         assert llm_config.capabilities(entry) == {"tools": True, "vision": True}
         assert model_catalog.profile(preset["model"])["context_budgets"]
+        assert preset["reasoning"] is True
+        assert preset["pricing"]["input"] is not None
     astra = {"litellm_params": {"model": "openrouter/openai/gpt-6-astra"}}
     assert model_catalog.validate_options(astra, {"effort": "max"})["effort"] == "max"
     with pytest.raises(ValueError, match="effort"):

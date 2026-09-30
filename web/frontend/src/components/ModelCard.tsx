@@ -7,6 +7,7 @@ import InfoModal from "./InfoModal";
 type Props = {
   model: ModelFile & { warnings?: string[]; created_at?: number };
   showChats?: boolean;
+  onDelete?: () => Promise<void>;
 };
 
 function DownloadIcon() {
@@ -17,7 +18,7 @@ function DownloadIcon() {
   );
 }
 
-export default function ModelCard({ model, showChats = false }: Props) {
+export default function ModelCard({ model, showChats = false, onDelete }: Props) {
   const { openViewer } = useApp();
   const open = (mode: ViewerMode = "viewer") =>
     model.model_url &&
@@ -27,6 +28,15 @@ export default function ModelCard({ model, showChats = false }: Props) {
   const bomBusy = model.bom_status === "queued" || model.bom_status === "rendering";
   const [glb, setGlb] = useState<{ busy: boolean; error?: string }>({ busy: false });
   const [info, setInfo] = useState(false);
+  const [deleting, setDeleting] = useState(false);
+  const [deleteError, setDeleteError] = useState("");
+  async function remove() {
+    if (!onDelete || !confirm(`Delete “${model.file}” and its preview, parts list and notes from My Models? This cannot be undone. Original chat work files are kept.`)) return;
+    setDeleting(true); setDeleteError("");
+    try { await onDelete(); }
+    catch (e) { setDeleteError((e as Error).message); }
+    finally { setDeleting(false); }
+  }
 
   async function saveGlb() {
     if (!model.model_url) return;
@@ -51,16 +61,20 @@ export default function ModelCard({ model, showChats = false }: Props) {
   } else if (model.status === "failed") {
     thumb = <span className="thumb-missing" title={model.error ?? ""}>Snapshot failed — open in 3D</span>;
   } else {
-    thumb = <span className="thumb-missing">No longer in data/generated</span>;
+    thumb = <span className="thumb-missing">This model was deleted from My Models</span>;
   }
 
   return (
     <div className="model-card">
+      {onDelete && !model.gallery && <button type="button" className="model-delete" aria-label={`Delete ${model.file}`} title="Delete model" disabled={deleting} onClick={remove}>
+        {deleting ? <span className="spinner" aria-hidden="true" /> : "×"}
+      </button>}
       <button className="model-thumb" onClick={() => open()} disabled={!model.model_url} title="Open in the 3D viewer">
         {thumb}
         {model.model_url && <span className="thumb-hint">View in 3D</span>}
       </button>
       <div className="model-meta">
+        {deleteError && <p className="warn-text small" role="alert">{deleteError}</p>}
         <div className="model-title">
           <span className="model-file">
             <strong className="ellipsis" title={model.file}>{model.file}</strong>

@@ -5,6 +5,7 @@ Run (the image's default CMD):
 """
 from __future__ import annotations
 
+import asyncio
 import json
 import logging
 import tempfile
@@ -32,8 +33,10 @@ import gallery
 import glb
 import llm_config
 import model_catalog
+import model_discovery
 import browser_auth
 import inference
+import render
 from attachments import validate_documents, validate_images
 import sandbox
 import settings
@@ -82,7 +85,7 @@ async def same_origin_api(request: Request, call_next):
         if size > 18 * 1024 * 1024:
             return JSONResponse({"detail": "Request exceeds 18 MB"}, status_code=413)
     response = await call_next(request)
-    if request.url.path == "/api/environment" or request.url.path.endswith("/edit"):
+    if request.url.path.startswith("/api/environment") or request.url.path.endswith("/edit"):
         response.headers["Cache-Control"] = "no-store"
     return response
 
@@ -96,6 +99,11 @@ def _not_found(what: str = "not found"):
 @app.get("/api/environment")
 def environment_get():
     return {"variables": environment_config.public()}
+
+
+@app.get("/api/environment/check")
+def environment_check(name: str = "", exclude_id: str = ""):
+    return environment_config.check_name(name, exclude_id)
 
 
 @app.put("/api/environment")
@@ -216,13 +224,16 @@ def llm_models_default(entry_id: str):
 async def llm_models_test(entry_id: str):
     entry = llm_config.get(entry_id) or _not_found()
     fingerprint = llm_config.connection_fingerprint(entry)
-    def tested(result):
-        result["connection_status"] = llm_config.record_connection_test(entry_id, fingerprint, result["ok"])
+    discovery = asyncio.create_task(model_discovery.discover(entry))
+    async def tested(result):
+        metadata = await discovery
+        result["connection_status"] = llm_config.record_connection_test(entry_id, fingerprint, result["ok"], metadata)
+        result["profile"] = model_catalog.entry_profile(llm_config.get(entry_id) or entry)
         return result
     try:
         if entry.get("auth_mode") == "browser" and entry["litellm_params"]["model"].startswith("anthropic/"):
             ready = await browser_auth.connected("anthropic")
-            return tested({"ok": ready, "reply": "Claude login is ready. Send a chat to verify model access." if ready else None,
+            return await tested({"ok": ready, "reply": "Claude login is ready. Send a chat to verify model access." if ready else None,
                            "error": None if ready else "Sign in to Claude in Settings first"})
         params = await inference.params_for(entry, {})
         params.setdefault("max_tokens", 4096)
@@ -231,10 +242,10 @@ async def llm_models_test(entry_id: str):
             **params,
             messages=[{"role": "user", "content": "Reply with the single word: OK"}],
         )
-        return tested({"ok": True, "reply": response.choices[0].message.content,
+        return await tested({"ok": True, "reply": "Connection successful.",
                        "capabilities": llm_config.capabilities(entry)})
     except Exception as exc:  # noqa: BLE001 - shown to the user as the test result
-        return tested({"ok": False, "error": f"{exc.__class__.__name__}: Check credentials, model access and settings."})
+        return await tested({"ok": False, "error": f"{exc.__class__.__name__}: Check credentials, model access and settings."})
 
 
 @app.get("/api/llm-models/export", response_class=PlainTextResponse)
@@ -516,6 +527,33 @@ async def models_list():
 def gallery_list():
     """The bundled gallery, independent of generated models with the same name."""
     return {"models": [model_info(path) for path in gallery.collection(settings.GALLERY_MODELS_DIR)], "pending": 0}
+
+
+@app.delete("/api/models/{filename}")
+async def models_delete(filename: str):
+    root = settings.GENERATED_DIR.resolve()
+    # Delete only a direct, regular model file. Never follow a link or accept a
+    # URL/path supplied by a card, including links into the read-only Gallery.
+    model = root / filename
+    if (Path(filename).name != filename or filename.startswith(".")
+            or model.suffix.lower() not in MODEL_SUFFIXES or model.is_symlink()
+            or not model.is_file()):
+        _not_found("Model not found")
+    if model in gallery.publishing or gallery._current == model or render.is_busy(model) or glb.is_converting(model):
+        raise HTTPException(409, "This model is still being processed. Try deleting it again when processing finishes.")
+    # Notes/previews are shared if car.mpd and car.ldr both exist: retain those.
+    shared = any(p != model and p.stem == model.stem for p in gallery.collection(root))
+    artifacts = [] if shared else [model.with_suffix(ext) for ext in (".png", ".csv", ".md", ".glb")]
+    targets = [model, *artifacts, *glb.cache_files(model)]
+    deleted = []
+    for path in targets:
+        if path.is_file() and not path.is_symlink():
+            path.unlink()
+            deleted.append(path.name)
+    gallery.forget(model)
+    # Keep chat records as history. Their existing missing-model state explains
+    # that a model is gone, while the agent's original work files remain intact.
+    return {"deleted": deleted}
 
 
 def model_from_url(url: str) -> Optional[Path]:

@@ -105,13 +105,13 @@ def connection_status(entry: dict) -> str:
     return "connected" if test.get("ok") else "not_connected"
 
 
-def record_connection_test(entry_id: str, fingerprint: str, ok: bool) -> str:
+def record_connection_test(entry_id: str, fingerprint: str, ok: bool, metadata: dict | None = None) -> str:
     with _lock:
         data = _load()
         entry = next((m for m in data["models"] if m["id"] == entry_id), None)
         if entry is None or connection_fingerprint(entry) != fingerprint:
             return "not_tested"  # credentials changed while the test was in flight
-        entry["_connection_test"] = {"fingerprint": fingerprint, "ok": ok, "checked_at": time.time()}
+        entry["_connection_test"] = {"fingerprint": fingerprint, "ok": ok, "checked_at": time.time(), "metadata": metadata}
         _save(data)
         return connection_status(entry)
 
@@ -281,4 +281,8 @@ def resolve_params(entry: dict) -> dict:
 def capabilities(entry: dict) -> dict[str, bool]:
     """Only advertise capabilities verified by the model catalog/provider metadata."""
     spec = model_catalog.profile(entry["litellm_params"]["model"])
+    metadata = (entry.get("_connection_test") or {}).get("metadata") or {}
+    for cap in ("tools", "vision"):
+        if isinstance(metadata.get(cap), bool):
+            spec[cap] = metadata[cap]
     return {"tools": spec["tools"], "vision": spec["vision"]}

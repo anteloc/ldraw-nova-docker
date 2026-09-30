@@ -2,6 +2,8 @@ import { useEffect, useRef, useState, type FormEvent } from "react";
 import { api, type LlmEntry, type ModelProfile, type ConnectionStatus } from "../api";
 import { useApp } from "../context";
 import { agentProvider, providerLabel } from "../modelChoices";
+import { tokenLabel } from "../modelChoices";
+import AgentDetails from "./AgentDetails";
 
 type AuthMethod = "browser" | "api_value" | "api_env";
 type Form = {
@@ -11,6 +13,11 @@ type Form = {
 const BASIC = ["model", "api_key", "api_base", "api_version"];
 const EMPTY: Form = { model_name: "", model: "", api_key: "", env_var: "", api_base: "", api_version: "", extra: [], auth: "api_value" };
 const envName = (provider: string) => ({ openai: "OPENAI_API_KEY", anthropic: "ANTHROPIC_API_KEY", openrouter: "OPENROUTER_API_KEY", gemini: "GEMINI_API_KEY" }[provider] ?? "");
+const providerHelp: Record<string, { models: string; keys: string }> = {
+  openai: { models: "https://developers.openai.com/api/docs/models", keys: "https://platform.openai.com/api-keys" },
+  anthropic: { models: "https://platform.claude.com/docs/en/models/overview", keys: "https://platform.claude.com/settings/keys" },
+  openrouter: { models: "https://openrouter.ai/models?order=context-high-to-low&input_modalities=text,file,image", keys: "https://openrouter.ai/settings/keys" },
+};
 
 function toForm(e: LlmEntry): Form {
   const p = e.litellm_params;
@@ -52,6 +59,7 @@ export default function AgentForm({ entry, provider, catalog, onClose, onSaved, 
     auth: ["openai", "anthropic"].includes(provider) ? "browser" : "api_env",
   });
   const [status, setStatus] = useState<ConnectionStatus>(entry?.connection_status ?? "not_tested");
+  const [testedProfile, setTestedProfile] = useState<ModelProfile | undefined>(entry?.profile);
   const [message, setMessage] = useState("");
   const [error, setError] = useState("");
   const [busy, setBusy] = useState(false);
@@ -68,6 +76,7 @@ export default function AgentForm({ entry, provider, catalog, onClose, onSaved, 
   useEffect(() => { formRef.current?.scrollIntoView({ block: "nearest" }); }, []);
   const set = (patch: Partial<Form>) => {
     setForm(f => ({ ...f, ...patch })); setStatus("not_tested"); setMessage(""); setError("");
+    if (patch.model !== undefined || patch.api_base !== undefined) setTestedProfile(undefined);
   };
   const lock = (value: boolean) => { setBusy(value); onBusy(value); };
   async function persist() {
@@ -89,6 +98,7 @@ export default function AgentForm({ entry, provider, catalog, onClose, onSaved, 
       const saved = await persist();
       const result = await api.testLlm(saved.id);
       setStatus(result.connection_status);
+      setTestedProfile(result.profile);
       setMessage(result.ok ? result.reply || "Connection successful." : result.error || "Connection failed.");
       refreshLlms();
     } catch (e) { setStatus("not_tested"); setError((e as Error).message); }
@@ -112,11 +122,14 @@ export default function AgentForm({ entry, provider, catalog, onClose, onSaved, 
     <fieldset className="agent-fields" disabled={busy}>
       <label><span>Agent presets</span><select aria-label="Agent presets" value={presets.some(p => p.model === form.model) ? form.model : ""} onChange={e => preset(e.target.value)}>
         <option value="">{form.model !== provider + "/" ? "Custom agent" : "Choose an agent…"}</option>
-        {presets.map(m => <option key={m.model} value={m.model}>{m.name}</option>)}
+        {presets.map(m => <option key={m.model} value={m.model}>{m.name}{m.context_window ? ` · ${tokenLabel(m.context_window)}` : ""}{provider === "openrouter" && m.pricing ? ` · $${m.pricing.input} in / $${m.pricing.output} out per 1M` : ""}</option>)}
       </select></label>
+      {provider === "openrouter" && <small className="muted">A shortlist of models with large contexts, image input, reasoning and tools. Compare context and API prices below.</small>}
+      <AgentDetails profile={testedProfile ?? presets.find(m => m.model === form.model)} browser={form.auth === "browser"} />
+      {presets.find(m => m.model === form.model)?.recommendation && <small className="muted">{presets.find(m => m.model === form.model)?.recommendation}</small>}
       <label><span>Model ID</span><input aria-label="Model ID" required list="model-suggestions" value={form.model} onChange={e => set({ model: e.target.value })} />
         <datalist id="model-suggestions">{suggestions.map(m => <option key={m} value={m} />)}</datalist>
-        <small className="muted">Only {providerLabel(provider)} models with tools and image input are supported.</small>
+        <small className="muted">Presets fill this in. For another model, copy its ID from {providerHelp[provider] ? <a href={providerHelp[provider].models} target="_blank" rel="noreferrer">{providerLabel(provider)}’s model list</a> : "your provider’s model list"} and keep the <code>{provider}/</code> prefix. It must support images and tools.</small>
       </label>
       <label><span>Display name</span><input value={form.model_name} placeholder="Shown in the agent picker" onChange={e => set({ model_name: e.target.value })} /></label>
       <label><span>Authentication</span><select aria-label="Authentication" value={form.auth} onChange={e => set({ auth: e.target.value as AuthMethod, env_var: form.env_var || envName(provider) })}>
@@ -128,10 +141,11 @@ export default function AgentForm({ entry, provider, catalog, onClose, onSaved, 
           <input aria-label="Environment variable" required list="environment-names" pattern="[A-Za-z_][A-Za-z0-9_]*" autoComplete="off" spellCheck={false} value={form.env_var}
             placeholder={envName(provider) || "MY_API_KEY"} onChange={e => set({ env_var: e.target.value })} />
           <datalist id="environment-names">{environmentNames.map(name => <option key={name}>{name}</option>)}</datalist>
-          <small className="muted">Uses the saved environment value first, then the container’s environment.</small>
+          <small className="muted">Enter the variable name only. A value saved in Environment variables above takes precedence over a preconfigured value.</small>
         </label> : <label><span>API key value</span><input aria-label="API key value" type="password" autoComplete="new-password" spellCheck={false} value={form.api_key} placeholder="Paste your API key" onChange={e => set({ api_key: e.target.value })} />
-          <small className="muted">Leave the masked value unchanged to keep the saved key.</small>
+          <small className="muted">Leave the hidden value untouched to keep the saved key.</small>
         </label>}
+        {providerHelp[provider] && <small className="muted"><a href={providerHelp[provider].keys} target="_blank" rel="noreferrer">Get an API key from {providerLabel(provider)}</a>. {form.auth === "api_env" ? "Save it in Environment variables above under the name you entered." : "Copy the key and paste it above."}</small>}
         <details className="advanced-model-settings"><summary>Connection and advanced parameters</summary>
           <div className="row">
             <label><span>API base URL</span><input value={form.api_base} placeholder="Optional" onChange={e => set({ api_base: e.target.value })} /></label>
@@ -151,7 +165,7 @@ export default function AgentForm({ entry, provider, catalog, onClose, onSaved, 
     </fieldset>
     {error && <div className="banner error" role="alert">{error}</div>}
     {message && <p className={`small ${status === "connected" ? "ok-text" : "warn-text"}`} role="status">{message}</p>}
-    <div className="agent-test-row"><button type="button" disabled={busy} onClick={test}>{testing ? "Testing…" : "Test"}</button><small className="muted">Saves these settings before testing the connection.</small></div>
+    <div className="agent-test-row"><button type="button" disabled={busy} onClick={test}>{testing ? "Testing…" : "Test"}</button><small className="muted">Saves the agent, checks the connection and looks up model details. A small test request may incur a charge.</small></div>
     <div className="form-actions">
       {form.id && form.id !== defaultLlmId && <button type="button" disabled={busy} onClick={() => {
         lock(true); api.defaultLlm(form.id!).then(refreshLlms).catch(e => setError(e.message)).finally(() => lock(false));

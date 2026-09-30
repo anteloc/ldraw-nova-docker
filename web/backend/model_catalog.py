@@ -1,66 +1,58 @@
-"""Verified builder models and their actual context windows and effort defaults.
+"""Builder presets and published capabilities; no network work on UI reads.
 
-Defaults checked 2026-09-29 against OpenRouter's /api/v1/models, OpenAI's
-model docs and https://platform.claude.com/docs/en/build-with-claude/effort.
-OpenRouter currently advertises high for Opus 5.5; Anthropic defaults to medium.
+The bundled snapshot has per-model sources and verification dates. Test refreshes
+provider metadata when available, without mistaking a successful text response
+for proof of vision, tool use, or a particular context limit.
 """
+import copy
+import json
+import math
+from pathlib import Path
+
 import litellm
 
 EFFORTS = ["low", "medium", "high", "xhigh", "max"]
-CATALOG = [
-    {"model": "openai/gpt-6-astra", "name": "GPT-6 Astra", "context_window": 1_050_000, "efforts": EFFORTS},
-    {"model": "openai/gpt-6-sol", "name": "GPT-6 Sol", "context_window": 1_050_000, "efforts": ["none", *EFFORTS]},
-    {"model": "openai/gpt-6-luna", "name": "GPT-6 Luna", "context_window": 1_050_000, "efforts": ["none", *EFFORTS]},
-    {"model": "openai/gpt-5.6-terra", "name": "GPT-5.6 Terra", "context_window": 1_050_000, "efforts": ["none", *EFFORTS]},
-    {"model": "anthropic/claude-opus-5-5", "name": "Claude Opus 5.5", "context_window": 1_000_000, "efforts": EFFORTS},
-    {"model": "anthropic/claude-opus-5", "name": "Claude Opus 5", "context_window": 1_000_000, "efforts": EFFORTS},
-    {"model": "anthropic/claude-sonnet-5", "name": "Claude Sonnet 5", "context_window": 1_000_000, "efforts": EFFORTS},
-    {"model": "anthropic/claude-haiku-4-5-20251001", "name": "Claude Haiku 4.5 (latest released Haiku)", "context_window": 200_000, "efforts": []},
-]
-for entry in CATALOG:
-    entry["default_effort"] = (None if not entry["efforts"] else
-                               "medium" if entry["model"].startswith("openai/") or entry["model"] == "anthropic/claude-opus-5-5" else "high")
-
-# OpenRouter slugs, capabilities, context and reasoning.supported_efforts
-# checked against https://openrouter.ai/api/v1/models on 2026-09-27.
-_OPENROUTER_SLUGS = {
-    "anthropic/claude-opus-5-5": "anthropic/claude-opus-5.5",
-    "anthropic/claude-haiku-4-5-20251001": "anthropic/claude-haiku-4.5",
-}
-OPENROUTER_CATALOG = [
-    {**entry, "model": "openrouter/" + _OPENROUTER_SLUGS.get(entry["model"], entry["model"]),
-     "name": entry["name"].replace(" (latest released Haiku)", "") + " (OpenRouter)",
-     "default_effort": "high" if entry["model"] == "anthropic/claude-opus-5-5" else entry["default_effort"]}
-    for entry in CATALOG
-]
-CATALOG += OPENROUTER_CATALOG
+_PROFILES = json.loads(Path(__file__).with_name("model_catalog_data.json").read_text())
+CATALOG = [entry for entry in _PROFILES if entry["preset"]]
+OPENROUTER_CATALOG = [entry for entry in CATALOG if entry["model"].startswith("openrouter/")]
 
 
 def profile(model: str) -> dict:
     canonical = model.replace("chatgpt/", "openai/", 1).replace("responses/", "")
-    known = next((m for m in CATALOG if m["model"] == canonical), None)
+    known = next((m for m in _PROFILES if m["model"] == canonical), None)
     if known:
-        return {**known, "tools": True, "vision": True,
-                "context_budgets": [known["context_window"]]}
+        return {**copy.deepcopy(known), "context_budgets": [known["context_window"]]}
     try:
         info = litellm.get_model_info(model)
     except Exception:
         info = {}
-    window = info.get("max_input_tokens")
+    window = info.get("max_input_tokens") or None
+    def support(key):
+        return info.get(key) if isinstance(info.get(key), bool) else None
+    def rate(key):
+        value = info.get(key)
+        return round(value * 1_000_000, 8) if isinstance(value, (float, int)) and math.isfinite(value) and value >= 0 else None
     return {"model": model, "name": model, "context_window": window,
+            "max_output_tokens": info.get("max_output_tokens"),
             "context_budgets": [window] if window else [], "default_effort": None,
-            "tools": info.get("supports_function_calling") is True,
-            "vision": info.get("supports_vision") is True, "efforts": []}
+            "tools": support("supports_function_calling"), "vision": support("supports_vision"),
+            "reasoning": support("supports_reasoning"), "efforts": [],
+            "pricing": {"input": rate("input_cost_per_token"), "output": rate("output_cost_per_token"), "currency": "USD"} if info else None,
+            "source_label": "LiteLLM catalogue" if info else None,
+            "source_url": None, "verified_at": None}
 
 
 def builder_supported(model: str) -> bool:
     spec = profile(model)
-    return spec["tools"] and spec["vision"]
+    return spec["tools"] is True and spec["vision"] is True
 
 
 def entry_profile(entry: dict) -> dict:
     params = entry["litellm_params"]
     spec = profile(params["model"])
+    metadata = (entry.get("_connection_test") or {}).get("metadata")
+    if metadata:
+        spec.update(copy.deepcopy(metadata))
     extra = params.get("extra_body") or {}
     configured = (extra.get("reasoning", {}).get("effort") or params.get("reasoning_effort")
                   or params.get("output_config", {}).get("effort"))
