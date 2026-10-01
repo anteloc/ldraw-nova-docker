@@ -500,6 +500,10 @@ Two ways:
   walk and turn you as usual.
 * Its size goes from real size (smaller, it would be hard to find and to
   grab) up to ×43.75, where a 4 cm minifig stands 1.75 m tall.
+* Real things in front of the model hide it (the Quest 3's depth sensing),
+  so a model scaled up around you doesn't hide the chair or table in front
+  of it. Hard edges (one depth sample per pixel, the cheapest); a little
+  jagged around fingers. Without depth sensing, it simply isn't occluded.
 * The menu follows your view. It's open when you enter, closes once you've
   put the model somewhere or picked a size, and **B** or **Y** (the upper
   buttons) show or hide it; while it's hidden, a **Menu** tag floats over
@@ -521,8 +525,9 @@ headset and cost up to a third of the vertices), PBR materials, environment
 maps and shadows (instead: glossy Blinn-Phong plastic, lit by the sky, a key
 light and a headlight that follows your view). Page options: `&stats=1`,
 `&fps=90`, `&scale=0.8` (render resolution), `&light=1.3` (brighter, or
-`0.8` darker), `&emulate=quest3` (an emulated headset, to try it on a
-computer).
+`0.8` darker), `&occlusion=soft`, `minmax` or `off` (softer occlusion edges,
+at a cost, or none; **Stats** shows which is on and whether the headset gave
+depth), `&emulate=quest3` (an emulated headset, to try it on a computer).
 
 Studs are about 80% of the triangles (the cathedral: 2.39M, 0.47M without);
 if a large model doesn't hold its frame rate, the next step is to draw studs

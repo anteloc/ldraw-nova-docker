@@ -1,4 +1,5 @@
-// LDraw mixed-reality viewer: /xr/?model=<url>[&parts=N][&stats=1][&fps=72|90][&scale=1][&light=1][&emulate=quest3]
+// LDraw mixed-reality viewer: /xr/?model=<url>[&parts=N][&stats=1][&fps=72|90][&scale=1][&light=1]
+//   [&occlusion=hard|soft|minmax|off][&emulate=quest3]
 //
 // Loads the model as GLB (converted by the backend with mpd2glb), batches it
 // into a few draw calls (batching.ts) and shows it with Meta's Immersive Web
@@ -26,6 +27,7 @@ import { formatSample, PerfMeter, type Sample } from "./hud";
 import { createFloor, PlacedModel, PlacementSystem } from "./interaction";
 import { MenuCues } from "./menu-cue";
 import { loadModel } from "./model";
+import { DEPTH_SENSING, enableOcclusion, occlude, occlusionMode } from "./occlusion";
 
 const params = new URLSearchParams(location.search);
 const $ = (id: string) => document.getElementById(id)!;
@@ -136,12 +138,14 @@ async function main() {
   const { mode, why } = await xrSupport();
   if (why) explainNoXR(why);
   const targetFps = Number(params.get("fps")) || 72;
+  // Real things in front of the model hide it (occlusion.ts): hard by default.
+  const occlusion = occlusionMode(params.get("occlusion"));
 
   const world = await World.create($("scene-container"), {
     xr: {
       sessionMode: mode ?? SessionMode.ImmersiveAR,
       referenceSpace: ReferenceSpaceType.LocalFloor,
-      features: { handTracking: true, hitTest: true },
+      features: { handTracking: true, hitTest: true, ...(occlusion !== "off" ? { depthSensing: DEPTH_SENSING } : {}) },
       offer: "none",
     },
     // near 1 cm: real-size models can be looked at from up close, and from inside
@@ -149,6 +153,7 @@ async function main() {
     features: { grabbing: true, environmentRaycast: true, locomotion: { enableJumping: false }, spatialUI: true },
   });
   fixShaderExtensions(world.renderer.getContext() as WebGL2RenderingContext);
+  enableOcclusion(world, occlusion);
   let showStats = Boolean(params.get("stats"));
   const setStats = (show: boolean) => {
     showStats = show;
@@ -198,6 +203,7 @@ async function main() {
   if (!(knownParts > 0)) $("parts").textContent = `, ${plural(stats.parts, "part")}`;
 
   const placed = new PlacedModel(world, model);
+  occlude(placed.entity, occlusion);
   MenuSystem.cues = new MenuCues(world);
   const preview = () => {
     placed.tabletop();
@@ -244,6 +250,8 @@ async function main() {
   MenuSystem.isOpen = () => menuOpen;
   PlacementSystem.onPlaced = () => showMenu(false);
 
+  /** What the session's depth sensing gave (for Stats). */
+  let depth = "";
   world.visibilityState.subscribe((state) => {
     const immersive = state !== VisibilityState.NonImmersive;
     if (!immersive) {
@@ -261,6 +269,10 @@ async function main() {
     }) | null;
     if (session?.supportedFrameRates?.includes(targetFps)) session.updateTargetFrameRate?.(targetFps).catch(() => {});
     world.scene.background = mode === SessionMode.ImmersiveVR ? VR_BACKGROUND : null; // passthrough in MR
+    depth = !session?.enabledFeatures?.includes("depth-sensing")
+      ? occlusion === "off" ? "occlusion off" : "occlusion: no depth"
+      : `occlusion ${occlusion} (${(session as { depthUsage?: string }).depthUsage}, ${(session as { depthDataFormat?: string }).depthDataFormat})`;
+    console.info(`[xr] ${depth}`);
     PlacementSystem.placeAfter = 3; // a few frames, so the head pose is real
     showMenu(true);
   });
@@ -270,7 +282,7 @@ async function main() {
   setInterval(() => {
     const sample: Sample | null = meter.latest;
     if (!sample) return;
-    const text = [shaderError, formatSample(sample)].filter(Boolean).join(" · ");
+    const text = [shaderError, formatSample(sample), world.session && depth].filter(Boolean).join(" · ");
     if (showStats) statsEl.textContent = text;
     // the panel's font has no "·"
     if (showStats) {
