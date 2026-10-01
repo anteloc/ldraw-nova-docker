@@ -1,58 +1,142 @@
 <!--
-  The in-headset menu (IWSDK spatial UI, Horizon kit). It follows your view,
-  lower left: open when you enter, closed once the model is placed, B or Y
-  toggle it. Wired up in src/main.ts by element id.
+  The in-headset menu (IWSDK spatial UI, Horizon kit): how the controls work,
+  and sizes. It follows your view, lower left: open when you enter, closed
+  once the model is placed, B or Y toggle it. Wired up in src/main.ts by
+  element id. The font has no arrows or bullets (ASCII only): icons are Lucide.
 -->
 <style>
   .panel-root {
     flex-direction: column;
-    width: 300px;
-    padding-bottom: 12px;
+    width: 540px;
+    padding-bottom: 18px;
   }
 
   .heading {
-    padding-top: 14px;
-    padding-left: 18px;
-    padding-right: 18px;
-    font-size: 16px;
+    padding-top: 16px;
+    padding-left: 22px;
+    padding-right: 22px;
+    font-size: 20px;
     font-weight: 700;
-    color: #272727;
+    color: #1d1d1f;
   }
 
   .heading:dark {
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 0.95);
   }
 
-  .hint {
-    padding-left: 18px;
-    padding-right: 18px;
-    padding-top: 4px;
-    font-size: 11px;
+  .columns {
+    flex-direction: row;
+    gap: 22px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 6px;
+  }
+
+  .controls {
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+
+  .side {
+    flex-direction: column;
+    width: 150px;
+  }
+
+  .section {
+    padding-top: 10px;
+    padding-bottom: 2px;
+    font-size: 13px;
+    font-weight: 700;
     color: #5c5c5c;
   }
 
-  .hint:dark {
-    color: rgba(255, 255, 255, 0.65);
+  .section:dark {
+    color: rgba(255, 255, 255, 0.6);
   }
 
-  .row {
+  .control {
     flex-direction: row;
-    gap: 8px;
-    padding-left: 18px;
-    padding-right: 18px;
-    padding-top: 10px;
+    align-items: center;
+    padding-top: 9px;
+  }
+
+  .keys {
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    width: 152px;
+  }
+
+  .key {
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.08);
+    font-size: 15px;
+    font-weight: 700;
+    color: #1d1d1f;
+  }
+
+  .key:dark {
+    background-color: rgba(255, 255, 255, 0.16);
+    color: #ffffff;
+  }
+
+  .or {
+    font-size: 14px;
+    color: #5c5c5c;
+  }
+
+  .or:dark {
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .icon {
+    width: 16px;
+    height: 16px;
+    color: #1d1d1f;
+  }
+
+  .icon:dark {
+    color: #ffffff;
+  }
+
+  .action {
+    font-size: 17px;
+    font-weight: 700;
+    color: #1d1d1f;
+  }
+
+  .action:dark {
+    color: rgba(255, 255, 255, 0.95);
+  }
+
+  .note {
+    padding-top: 12px;
+    font-size: 14px;
+    color: #5c5c5c;
+  }
+
+  .note:dark {
+    color: rgba(255, 255, 255, 0.7);
   }
 
   .button {
-    flex-grow: 1;
+    margin-top: 8px;
     justify-content: center;
   }
 
   .stats {
-    padding-left: 18px;
-    padding-right: 18px;
-    padding-top: 10px;
-    font-size: 11px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 12px;
+    font-size: 12px;
     color: #272727;
   }
 
@@ -62,16 +146,39 @@
 </style>
 <Panel class="panel-root">
   <div id="title" class="heading">LDraw model</div>
-  <div class="hint">Trigger (or pinch) on a table or the floor: put it there. Hold it on the model: move it. Point at the model, stick up or down: scale; left or right: turn. B or Y: show or hide this menu.</div>
-  <Divider></Divider>
-  <div class="row">
-    <Button id="real-size" class="button"><ButtonLabel>Real size</ButtonLabel></Button>
-    <Button id="tabletop" class="button"><ButtonLabel>Tabletop</ButtonLabel></Button>
-    <Button id="walk-in" class="button"><ButtonLabel>Walk-in</ButtonLabel></Button>
-  </div>
-  <div class="row">
-    <Button id="stats-button" class="button"><ButtonLabel>Stats</ButtonLabel></Button>
-    <Button id="exit" class="button"><ButtonLabel>Exit</ButtonLabel></Button>
+  <div class="columns">
+    <div class="controls">
+      <div class="section">CONTROLS</div>
+      <div class="control">
+        <div class="keys"><div class="key">Trigger</div></div>
+        <div class="action">Place</div>
+      </div>
+      <div class="control">
+        <div class="keys"><div class="key">Hold trigger</div></div>
+        <div class="action">Move</div>
+      </div>
+      <div class="control">
+        <div class="keys"><div class="key"><ArrowUpDown class="icon"></ArrowUpDown>Stick</div></div>
+        <div class="action">Resize</div>
+      </div>
+      <div class="control">
+        <div class="keys"><div class="key"><ArrowLeftRight class="icon"></ArrowLeftRight>Stick</div></div>
+        <div class="action">Rotate</div>
+      </div>
+      <div class="control">
+        <div class="keys"><div class="key">Y</div><div class="or">or</div><div class="key">B</div></div>
+        <div class="action">Menu</div>
+      </div>
+      <div class="note">Aim at a table or the floor to place it. Aim at the model to move, resize or rotate it.</div>
+    </div>
+    <div class="side">
+      <div class="section">SIZE</div>
+      <Button id="real-size" class="button"><ButtonLabel>Real size</ButtonLabel></Button>
+      <Button id="tabletop" class="button"><ButtonLabel>Tabletop</ButtonLabel></Button>
+      <div class="section">MORE</div>
+      <Button id="stats-button" class="button"><ButtonLabel>Stats</ButtonLabel></Button>
+      <Button id="exit" class="button"><ButtonLabel>Exit</ButtonLabel></Button>
+    </div>
   </div>
   <div id="stats" class="stats" style="display: none">...</div>
 </Panel>

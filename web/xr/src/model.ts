@@ -14,14 +14,14 @@ export interface LoadTimes {
 
 /** The model as GLB, from the backend (`/api/glb`, converted with mpd2glb and cached). */
 export async function fetchGlb(modelUrl: string, progress: Progress): Promise<ArrayBuffer> {
-  progress("Converting to .glb… big models take up to a minute the first time");
+  progress("Preparing the model… The first time can take a minute.");
   const response = await fetch(`/api/glb?url=${encodeURIComponent(modelUrl)}`);
   if (!response.ok) {
     const detail = await response
       .json()
       .then((body) => body.detail)
       .catch(() => response.statusText);
-    throw new Error(`Could not convert the model: ${detail}`);
+    throw new Error(`Couldn't load the model: ${detail}`);
   }
   const total = Number(response.headers.get("content-length")) || 0;
   if (!response.body || !total) return response.arrayBuffer();
@@ -50,11 +50,10 @@ export async function loadModel(modelUrl: string, progress: Progress): Promise<{
   const t0 = performance.now();
   const buffer = await fetchGlb(modelUrl, progress);
   const t1 = performance.now();
-  progress("Reading the model…");
+  progress("Almost ready…");
   await nextFrame();
   const gltf = await new GLTFLoader().parseAsync(buffer, "");
   const t2 = performance.now();
-  progress("Batching…");
   await nextFrame();
   const model = batchModel(gltf.scene);
   disposeScene(gltf.scene);

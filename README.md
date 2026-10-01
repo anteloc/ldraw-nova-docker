@@ -463,7 +463,9 @@ local build over the baked-in one (see the commented line there).
 
 **VR** (on each model card, and in the viewer window's header) opens
 `/xr/?model=<url>`: the model in passthrough mixed reality, through WebXR in
-the Quest browser. It shows the model's size and draw calls, then **Enter MR**.
+the Quest browser. The page says when the model is ready, lists the controls,
+and has **Enter MR**; the load details (parts, draw calls, triangles, load
+time) are in the console and the status's tooltip.
 
 **Reaching the app from the Quest.** WebXR only runs on secure pages: HTTPS,
 or `localhost`. A plain `http://<your computer's IP>:8765` page loads, but
@@ -491,17 +493,18 @@ Two ways:
 * Point at a table or the floor and press: the model is put there (a ring
   shows the spot). At first it stands in front of you at tabletop size.
 * Point at the model and hold: move it.
-* Point at the model and push that hand's **thumbstick**: up or down scales
-  it (from its base, so it stays standing where it is), left or right turns
-  it clockwise or anticlockwise. Pointing anywhere else, the thumbsticks walk
-  and turn you as usual.
+* Point at the model and push that hand's **thumbstick**, holding the model
+  or not: up or down scales it (from its base, so it stays standing where it
+  is), left or right turns it clockwise or anticlockwise. A push does one of
+  the two, whichever it starts as. Pointing anywhere else, the thumbsticks
+  walk and turn you as usual.
 * The menu follows your view. It's open when you enter, closes once you've
   put the model somewhere or picked a size, and **B** or **Y** (the upper
-  buttons) show or hide it: **Real size** (actual LEGO size), **Tabletop**
-  (60 cm), **Walk-in** (minifig scale, ×45, on the floor: walk in, or use the
-  thumbsticks), **Stats** (frame rate, frame time, draw calls, triangles, and
-  any shader error; also logged to the console every 5 s, readable with
-  `chrome://inspect` over adb), **Exit**.
+  buttons) show or hide it; while it's hidden, a **Menu** tag floats over
+  each of them. It lists the controls, and has **Real size** (actual LEGO
+  size), **Tabletop** (60 cm), **Stats** (frame rate, frame time, draw calls,
+  triangles, and any shader error; also logged to the console every 5 s,
+  readable with `chrome://inspect` over adb), **Exit**.
 
 **Why it's fast.** The model is loaded as the same `.glb` as above, then its
 thousands of parts are batched into at most 4 draw calls (three.js

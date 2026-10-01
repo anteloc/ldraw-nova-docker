@@ -24,6 +24,7 @@ import {
 import { fixShaderExtensions } from "./batching";
 import { formatSample, PerfMeter, type Sample } from "./hud";
 import { createFloor, PlacedModel, PlacementSystem } from "./interaction";
+import { MenuCues } from "./menu-cue";
 import { loadModel } from "./model";
 
 const params = new URLSearchParams(location.search);
@@ -57,22 +58,26 @@ async function xrSupport(): Promise<{ mode: SessionMode | null; why?: string }> 
   // Browsers only expose WebXR on secure pages: HTTPS, or localhost.
   if (!window.isSecureContext) return { mode: null, why: "insecure" };
   const xr = navigator.xr;
-  if (!xr) return { mode: null, why: "This browser has no WebXR: open this page in the Meta Quest browser." };
+  if (!xr) return { mode: null, why: "To see it in mixed reality, open this page in the Quest browser." };
   const supported = (mode: XRSessionMode) => xr.isSessionSupported(mode).catch(() => false);
   if (await supported("immersive-ar")) return { mode: SessionMode.ImmersiveAR };
   if (await supported("immersive-vr")) return { mode: SessionMode.ImmersiveVR };
-  return { mode: null, why: "No mixed or virtual reality here: open this page on a Meta Quest 3." };
+  return { mode: null, why: "This device can't show mixed reality. Open this page on a Meta Quest 3." };
 }
 
 /** Why Enter is off, with the way out: the same page over HTTPS. */
 function explainNoXR(why: string) {
   const hint = $("xr-hint");
   if (why === "insecure") {
+    // Mixed reality needs a secure page (HTTPS, or localhost): the same page over HTTPS.
     const url = `https://${location.hostname}:${HTTPS_PORT}${location.pathname}${location.search}`;
     hint.append(
-      "Mixed reality needs a secure page (HTTPS or localhost), and this one is plain http. Open it over HTTPS: ",
-      Object.assign(document.createElement("a"), { href: url, textContent: url }),
-      " (the first time, the browser warns about the certificate: Advanced → Proceed).",
+      "Mixed reality needs the secure page: ",
+      Object.assign(document.createElement("a"), { href: url, textContent: "open it here" }),
+      Object.assign(document.createElement("span"), {
+        className: "aside",
+        textContent: "If the browser warns you, choose Advanced, then Proceed.",
+      }),
     );
   } else {
     hint.textContent = why;
@@ -82,17 +87,20 @@ function explainNoXR(why: string) {
 
 /**
  * Wires the menu's buttons (public/ui/menu.uikitml) once IWSDK has loaded it;
- * B or Y (the upper face buttons) toggle the menu.
+ * B or Y (the upper face buttons) toggle the menu, and while it's hidden a
+ * "Menu" tag over each says so (MenuCues).
  */
 class MenuSystem extends createSystem({ panels: { required: [PanelUI, PanelDocument] } }) {
   static actions: Record<string, () => void> = {};
   static document: UIKitDocument | null = null;
   static toggle = () => {};
+  static isOpen = () => false;
+  static cues: MenuCues | null = null;
 
   init() {
     this.queries.panels.subscribe("qualify", (entity) => {
       const doc = entity.getValue(PanelDocument, "document") as UIKitDocument;
-      doc.setTargetDimensions(0.36, 0.36); // metres: big enough to aim at comfortably
+      doc.setTargetDimensions(0.46, 0.4); // metres, to fit: big enough to read and aim at comfortably
       // The menu can end up inside the model (it's grabbable by ray, from its
       // bounds): draw it on top, and let it win when a ray hits both.
       doc.rootElement.setProperties({ depthTest: false, renderOrder: 1000, pointerEventsOrder: 1 });
@@ -108,13 +116,14 @@ class MenuSystem extends createSystem({ panels: { required: [PanelUI, PanelDocum
     if (left?.getButtonDown(InputComponent.Y_Button) || right?.getButtonDown(InputComponent.B_Button)) {
       MenuSystem.toggle();
     }
+    MenuSystem.cues?.update(!MenuSystem.isOpen());
   }
 }
 
 async function main() {
   const modelUrl = params.get("model");
   if (!modelUrl) {
-    setStatus("No model given: add ?model=<url of an .ldr/.mpd file>", true);
+    setStatus("No model to show: add ?model=<url of an .ldr/.mpd file>", true);
     return;
   }
   const fileName = decodeURIComponent(modelUrl.split("/").pop()!.split("?")[0]);
@@ -189,6 +198,7 @@ async function main() {
   if (!(knownParts > 0)) $("parts").textContent = `, ${plural(stats.parts, "part")}`;
 
   const placed = new PlacedModel(world, model);
+  MenuSystem.cues = new MenuCues(world);
   const preview = () => {
     placed.tabletop();
     placed.holder.position.set(0, 0.75, -0.45);
@@ -198,13 +208,12 @@ async function main() {
   PlacementSystem.model = placed;
   world.registerSystem(PlacementSystem);
 
-  // The in-headset menu, following the view (lower left). Open when you enter,
-  // closed once the model is in place (so it's out of the way of the view and
-  // the lasers), B or Y bring it back.
+  // The in-headset menu, following the view (lower left): how the controls
+  // work, and sizes. Open when you enter, closed once the model is in place (so
+  // it's out of the way of the view and the lasers), B or Y bring it back.
   MenuSystem.actions = {
     "real-size": () => (placed.realSize(), showMenu(false)),
     tabletop: () => (placed.tabletop(), showMenu(false)),
-    "walk-in": () => (placed.walkIn(), showMenu(false)),
     "stats-button": () => setStats(!showStats),
     exit: () => world.exitXR(),
   };
@@ -216,7 +225,7 @@ async function main() {
   // once you turn away.
   menu.addComponent(Follower, {
     target: world.player.head,
-    offsetPosition: [-0.22, -0.2, -0.6],
+    offsetPosition: [-0.2, -0.18, -0.62],
     behavior: FollowBehavior.FaceTarget,
     maxAngle: 45,
     speed: 2,
@@ -232,6 +241,7 @@ async function main() {
   }
   showMenu(false);
   MenuSystem.toggle = () => world.session && showMenu(!menuOpen);
+  MenuSystem.isOpen = () => menuOpen;
   PlacementSystem.onPlaced = () => showMenu(false);
 
   world.visibilityState.subscribe((state) => {
@@ -272,15 +282,18 @@ async function main() {
     }
   }, 500);
 
+  // Short for the page (read in the headset); the numbers for whoever tunes it.
   const loadedIn = times.fetch + times.parse + times.batch;
-  setStatus(
+  const details =
     `${plural(stats.parts, "part")} · ${stats.batches} draw call${stats.batches === 1 ? "" : "s"} · ` +
-      `${millions(stats.triangles)} triangles · ready in ${loadedIn.toFixed(1)} s`,
-  );
+    `${millions(stats.triangles)} triangles · ready in ${loadedIn.toFixed(1)} s`;
+  console.info(`[xr] ${fileName}: ${details}`);
+  statusEl.title = details;
+  setStatus("Ready");
   enter.textContent = mode === SessionMode.ImmersiveVR ? "Enter VR" : "Enter MR";
   enter.disabled = !mode;
   enter.addEventListener("click", () => world.launchXR({ sessionMode: mode ?? SessionMode.ImmersiveAR }));
   Object.assign(window, { xrApp: { world, model, placed, meter, menu: () => MenuSystem.document } }); // for tests and the console
 }
 
-main().catch((e) => setStatus(`Could not start: ${(e as Error).message}`, true));
+main().catch((e) => setStatus(`Couldn't start: ${(e as Error).message}`, true));
