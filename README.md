@@ -498,11 +498,13 @@ Two ways:
   is), left or right turns it clockwise or anticlockwise. A push does one of
   the two, whichever it starts as. Pointing anywhere else, the thumbsticks
   walk and turn you as usual.
+* Its size goes from real size (smaller, it would be hard to find and to
+  grab) up to ×43.75, where a 4 cm minifig stands 1.75 m tall.
 * The menu follows your view. It's open when you enter, closes once you've
   put the model somewhere or picked a size, and **B** or **Y** (the upper
   buttons) show or hide it; while it's hidden, a **Menu** tag floats over
   each of them. It lists the controls, and has **Real size** (actual LEGO
-  size), **Tabletop** (60 cm), **Stats** (frame rate, frame time, draw calls,
+  size), **Tabletop** (60 cm across, within those limits), **Stats** (frame rate, frame time, draw calls,
   triangles, and any shader error; also logged to the console every 5 s,
   readable with `chrome://inspect` over adb), **Exit**.
 

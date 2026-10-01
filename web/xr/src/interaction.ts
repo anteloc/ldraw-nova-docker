@@ -38,8 +38,12 @@ import type { BatchedModel } from "./batching";
 
 /** Tabletop preset: the model's longest side, metres. */
 const TABLETOP_SIZE = 0.6;
-const SCALE_MIN = 0.02;
-const SCALE_MAX = 60;
+/** Smallest: real LEGO size. Any smaller is hard to find, and to point at and grab. */
+const SCALE_MIN = 1;
+/** A standing minifig, about 4 cm tall... */
+const MINIFIG_HEIGHT = 0.04;
+/** ...at its biggest, as tall as a person: ×43.75. */
+const SCALE_MAX = 1.75 / MINIFIG_HEIGHT;
 
 /** Marks a geometry as having a BVH already (see PlacedModel). */
 const NO_BOUNDS_TREE = Object.freeze({ placeholder: true });
@@ -95,7 +99,7 @@ export class PlacedModel {
     return this.holder.scale.x;
   }
 
-  /** Scales it from its base centre, by `factor`, within the limits (also while it's held). */
+  /** Scales it from its base centre, by `factor`, within the limits (real size to minifig as tall as you), also while it's held. */
   scaleBy(factor: number) {
     this.setScale(this.scale * factor);
     this.keepWhileHeld();
@@ -140,6 +144,7 @@ export class PlacedModel {
     this.upright();
   }
 
+  /** About 60 cm across, within the scale limits: bigger models stay at real size, the tiniest grow only so far. */
   tabletop() {
     this.setScale(TABLETOP_SIZE / Math.max(this.size.x, this.size.y, this.size.z, 1e-3));
     this.upright();
