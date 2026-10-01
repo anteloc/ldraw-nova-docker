@@ -62,7 +62,7 @@
 </style>
 <Panel class="panel-root">
   <div id="title" class="heading">LDraw model</div>
-  <div class="hint">Trigger (or pinch) on a table or the floor: put it there. Hold it on the model: move and turn; with both hands: scale. B or Y: show or hide this menu.</div>
+  <div class="hint">Trigger (or pinch) on a table or the floor: put it there. Hold it on the model: move it. Point at the model, stick up or down: scale; left or right: turn. B or Y: show or hide this menu.</div>
   <Divider></Divider>
   <div class="row">
     <Button id="real-size" class="button"><ButtonLabel>Real size</ButtonLabel></Button>

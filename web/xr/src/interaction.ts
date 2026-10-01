@@ -1,12 +1,14 @@
 // Moving the model around in mixed reality, with IWSDK's built-ins:
 //
 // * Point at it and hold the trigger (or pinch) to move and turn it from where
-//   you are; with both hands on it, pull apart or together to scale it
-//   (DistanceGrabbable: IWSDK's near grabs don't take rays, far ones do).
+//   you are (DistanceGrabbable: IWSDK's near grabs don't take rays, far ones do).
+// * Point at it and push that hand's thumbstick: up or down scales it, left or
+//   right turns it (StickControl).
 // * Point at a real table or floor with either hand and press the trigger (or
 //   pinch) to put it there: a laser and a ring show where (SurfacePointer).
 // * Presets: real LEGO size, tabletop, and walk-in (minifig scale, on the floor).
-// * Locomotion (thumbsticks) over an invisible floor, handy at walk-in scale.
+// * Locomotion (thumbsticks, when not pointing at the model) over an invisible
+//   floor, handy at walk-in scale.
 import {
   BoxGeometry,
   createSystem,
@@ -18,6 +20,8 @@ import {
   Grabbed,
   Group,
   Hovered,
+  type InputActionBinding,
+  InputComponent,
   LocomotionEnvironment,
   Mesh,
   MeshBasicMaterial,
@@ -47,18 +51,15 @@ const _up = new Vector3(0, 1, 0);
 const _head = new Vector3();
 const _forward = new Vector3();
 const _euler = new Euler(0, 0, 0, "YXZ");
-
-/** The part of @pmndrs/handle's HandleStore that uniformScale() changes. */
-interface GrabHandle {
-  getOptions: () => { scale?: boolean | Record<string, unknown> };
-}
+const _turn = new Quaternion();
 
 /** The model in the world: a holder whose origin is the centre of the model's base. */
 export class PlacedModel {
   readonly holder = new Group();
   readonly entity: Entity;
   private readonly size: Vector3;
-  private uniformHandle: GrabHandle | null = null;
+  /** What pointers and hands hit: a plain box, not the model's thousands of parts. */
+  private readonly proxy: Mesh;
 
   constructor(world: World, model: BatchedModel) {
     const { bounds } = model;
@@ -68,14 +69,10 @@ export class PlacedModel {
     model.root.position.set(-(bounds.min.x + bounds.max.x) / 2, -bounds.min.y, -(bounds.min.z + bounds.max.z) / 2);
     this.holder.name = "model";
     this.holder.add(model.root);
-    // What pointers and hands hit: a plain box, not the model's thousands of
-    // parts (their raycast is disabled in batching.ts).
-    const proxy = new Mesh(
-      new BoxGeometry(this.size.x, this.size.y, this.size.z),
-      new MeshBasicMaterial({ visible: false }),
-    );
-    proxy.position.y = this.size.y / 2;
-    this.holder.add(proxy);
+    // The parts' raycast is disabled in batching.ts.
+    this.proxy = new Mesh(new BoxGeometry(this.size.x, this.size.y, this.size.z), new MeshBasicMaterial({ visible: false }));
+    this.proxy.position.y = this.size.y / 2;
+    this.holder.add(this.proxy);
 
     // IWSDK builds a three-mesh-bvh BVH for every mesh under an interactable
     // entity, reordering the geometry's index in place. On a BatchedMesh that
@@ -92,9 +89,8 @@ export class PlacedModel {
     this.entity = world.createTransformEntity(this.holder, { persistent: true });
     this.entity.addComponent(RayInteractable);
     this.entity.addComponent(DistanceGrabbable, {
-      movementMode: MovementMode.MoveFromTarget, // follows the ray; two rays scale
-      scaleMin: [SCALE_MIN, SCALE_MIN, SCALE_MIN],
-      scaleMax: [SCALE_MAX, SCALE_MAX, SCALE_MAX],
+      movementMode: MovementMode.MoveFromTarget, // follows the ray
+      scale: false, // the thumbsticks scale it (StickControl), not two rays
     });
   }
 
@@ -104,6 +100,11 @@ export class PlacedModel {
 
   setScale(scale: number) {
     this.holder.scale.setScalar(Math.min(SCALE_MAX, Math.max(SCALE_MIN, scale)));
+  }
+
+  /** Turns it about the vertical through its base centre; positive is anticlockwise seen from above. */
+  turn(angle: number) {
+    this.holder.quaternion.premultiply(_turn.setFromAxisAngle(_up, angle));
   }
 
   /** Stands the model upright, keeping only its turn about the vertical. */
@@ -153,26 +154,9 @@ export class PlacedModel {
     return this.entity.hasComponent(Grabbed);
   }
 
-  /** Every frame (cheap): keeps two-hand scaling in proportion. */
-  update() {
-    this.uniformScale();
-  }
-
-  // IWSDK gives the grab handle per-axis scale limits but no `uniform` flag, and
-  // @pmndrs/handle then scales along the line between the two hands (pull apart
-  // sideways: only wider). With `uniform`, it scales by how much the distance
-  // between the hands changed, on all axes. IWSDK doesn't export its Handle
-  // component: find it by id, once the grab system has made it.
-  private uniformScale() {
-    const component = this.entity.getComponents().find((c) => c.id === "Handle");
-    const handle = component && (this.entity.getValue(component, "instance" as never) as GrabHandle | null);
-    if (!handle || handle === this.uniformHandle) return;
-    const options = handle.getOptions;
-    handle.getOptions = () => {
-      const o = options();
-      return typeof o.scale === "object" ? { ...o, scale: { ...o.scale, uniform: true } } : o;
-    };
-    this.uniformHandle = handle;
+  /** `hand`'s laser is on it (and not on the menu in front of it). */
+  pointedAt(world: World, hand: Hand) {
+    return world.input.multiPointers[hand].getPointer("ray").getIntersection()?.object === this.proxy;
   }
 
   /** A pointer is on it, or it's held. */
@@ -274,6 +258,81 @@ class SurfacePointer {
   }
 }
 
+/** Thumbstick dead zone (sticks drift a little); full tilt is 1. */
+const STICK_DEAD_ZONE = 0.2;
+/** Full tilt up or down: the model doubles or halves in size every second. */
+const SCALE_RATE = 2;
+/** Full tilt left or right, radians per second. */
+const TURN_RATE = Math.PI / 2;
+
+/**
+ * One hand's thumbstick on the model: point at it, then up or down scales it
+ * (from its base, so it stays standing where it is), left or right turns it
+ * clockwise or anticlockwise seen from above (the side facing you follows the
+ * stick). Elsewhere the stick walks and turns you, as before (IWSDK's
+ * locomotion).
+ *
+ * Who gets a push is decided when the stick leaves the centre, until it's back:
+ * scaling down doesn't turn into walking once the shrinking model slips off the
+ * laser, and sweeping the laser across the model doesn't stop you mid-walk.
+ * Locomotion reads the sticks through input actions, so while this laser is on
+ * the model (stick centred), or the model has the stick, this hand's stick
+ * bindings are taken out: locomotion never sees the push (no stray snap
+ * turns), and they only come back with the stick centred.
+ */
+class StickControl {
+  private readonly bindings: InputActionBinding[];
+  /** This hand's stick bindings are out: a push now goes to the model. */
+  private detached = false;
+  /** Who has the stick until it's back in the centre. */
+  private owner: "model" | "locomotion" | null = null;
+
+  constructor(private readonly world: World, readonly hand: Hand) {
+    this.bindings = world.input.actions
+      .getBindings()
+      .filter(
+        (b) => "handedness" in b && b.handedness === hand && "componentId" in b && b.componentId === InputComponent.Thumbstick,
+      );
+  }
+
+  update(model: PlacedModel, delta: number) {
+    const axes = this.world.input.xr.gamepads[this.hand]?.getAxesValues(InputComponent.Thumbstick);
+    const x = stickValue(axes?.x ?? 0);
+    const y = stickValue(axes?.y ?? 0);
+    if (x === 0 && y === 0) this.owner = null;
+    else this.owner ??= this.detached ? "model" : "locomotion";
+    // Not while it's held: the grab sets its pose from the grab's start, every frame.
+    if (this.owner === "model" && !model.grabbed) {
+      const dt = Math.min(delta, 0.1); // a hitch doesn't make it jump
+      if (Math.abs(y) >= Math.abs(x)) model.setScale(model.scale * SCALE_RATE ** (-y * dt)); // stick up is -y
+      else model.turn(x * TURN_RATE * dt); // left: clockwise seen from above
+    }
+    this.detach(this.owner === "model" || (this.owner === null && model.pointedAt(this.world, this.hand)));
+  }
+
+  /** No model or no session: the stick is locomotion's again. */
+  reset() {
+    this.owner = null;
+    this.detach(false);
+  }
+
+  private detach(detach: boolean) {
+    if (detach === this.detached) return;
+    this.detached = detach;
+    const { actions } = this.world.input;
+    for (const binding of this.bindings) {
+      if (detach) actions.removeBinding(binding);
+      else actions.addBinding(binding);
+    }
+  }
+}
+
+/** Past the dead zone, rescaled to 0..1 and squared: fine control near the centre. */
+function stickValue(value: number) {
+  const t = (Math.abs(value) - STICK_DEAD_ZONE) / (1 - STICK_DEAD_ZONE);
+  return t > 0 ? Math.sign(value) * Math.min(1, t) ** 2 : 0;
+}
+
 /**
  * IWSDK's own ray (for the menu and grabbing) is only drawn while it touches
  * something. Keep it on, so you always see where each hand points, except
@@ -288,7 +347,8 @@ function setRayAlwaysVisible(world: World, hand: Hand, always: boolean) {
 
 /**
  * Per-frame placement, for both hands: aim at a surface, trigger (or pinch)
- * to put the model there. Configured through `PlacementSystem.model`.
+ * to put the model there; and their thumbsticks on the model (StickControl).
+ * Configured through `PlacementSystem.model`.
  */
 export class PlacementSystem extends createSystem({}) {
   static model: PlacedModel | null = null;
@@ -297,6 +357,7 @@ export class PlacementSystem extends createSystem({}) {
   /** After you put the model somewhere with the trigger (or a pinch). */
   static onPlaced: () => void = () => {};
   private pointers: SurfacePointer[] = [];
+  private sticks: StickControl[] = [];
   private session: XRSession | undefined;
   private readonly selected = new Set<Hand>();
   private readonly onSelectStart = (event: XRInputSourceEvent) => {
@@ -306,11 +367,11 @@ export class PlacementSystem extends createSystem({}) {
 
   init() {
     this.pointers = HANDS.map((hand) => new SurfacePointer(this.world, hand));
+    this.sticks = HANDS.map((hand) => new StickControl(this.world, hand));
   }
 
-  update() {
+  update(delta: number) {
     const model = PlacementSystem.model;
-    model?.update();
     const session = this.world.session;
     if (session !== this.session) {
       // Session select events: the same for controllers (trigger) and hands (pinch).
@@ -321,11 +382,13 @@ export class PlacementSystem extends createSystem({}) {
     }
     if (!model || !session) {
       this.pointers.forEach((p) => p.hide());
+      this.sticks.forEach((s) => s.reset());
       return;
     }
     if (PlacementSystem.placeAfter >= 0 && PlacementSystem.placeAfter-- === 0) {
       model.placeInFront(this.world.camera);
     }
+    for (const stick of this.sticks) stick.update(model, delta);
     const floorY = this.world.player.getWorldPosition(_floor).y; // the real floor (locomotion moves it)
     for (const pointer of this.pointers) {
       const connected = !!this.world.input.getPrimaryInputSource(pointer.hand);

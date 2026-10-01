@@ -490,8 +490,11 @@ Two ways:
   laser, so you see what it points at.
 * Point at a table or the floor and press: the model is put there (a ring
   shows the spot). At first it stands in front of you at tabletop size.
-* Point at the model and hold: move and turn it; hold it with **both hands**
-  and pull apart or together: scale it (evenly, around where you hold it).
+* Point at the model and hold: move it.
+* Point at the model and push that hand's **thumbstick**: up or down scales
+  it (from its base, so it stays standing where it is), left or right turns
+  it clockwise or anticlockwise. Pointing anywhere else, the thumbsticks walk
+  and turn you as usual.
 * The menu follows your view. It's open when you enter, closes once you've
   put the model somewhere or picked a size, and **B** or **Y** (the upper
   buttons) show or hide it: **Real size** (actual LEGO size), **Tabletop**
