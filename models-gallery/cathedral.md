@@ -15,3 +15,5 @@ notice that: query should be written as if trying to find a single part, but it 
 (Astra gave it a try... and then...)
 
 **Prompt:** ok, now: build me a cathedral
+
+**NOTE:** Generated in Visual Studio Code, with `ldraw-nova` project open.

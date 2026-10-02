@@ -2,3 +2,5 @@
 
 **Prompt:** read instructions.md
 then, build me 3-storey appartments building, with a coffee shop at the base floor, with three people having coffee under an umbrella, outside the shop
+
+**NOTE:** Generated in Visual Studio Code, with `ldraw-nova` project open.
