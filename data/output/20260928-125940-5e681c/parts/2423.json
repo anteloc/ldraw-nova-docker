@@ -1,0 +1,265 @@
+{
+  "code": "2423.dat",
+  "path": "/opt/ldraw/ldraw/parts/2423.dat",
+  "metadata": {
+    "description": "Plant Leaves 4 x 3",
+    "name": "2423.dat",
+    "author": "James Jessiman",
+    "author_username": null,
+    "file_kind": "part",
+    "origin": "official",
+    "qualifiers": [],
+    "release": "2020-03",
+    "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+    "bfc": "ccw",
+    "history": [
+      {
+        "date": "1999-05-17",
+        "contributor": "PTadmin",
+        "text": "Official Update 1999-03",
+        "raw": "1999-05-17 [PTadmin] Official Update 1999-03"
+      },
+      {
+        "date": "1999-05-24",
+        "contributor": "PTadmin",
+        "text": "Official Update 1999-04",
+        "raw": "1999-05-24 [PTadmin] Official Update 1999-04"
+      },
+      {
+        "date": "2003-01-20",
+        "contributor": "sbliss",
+        "text": "Completed header, BFC'ed",
+        "raw": "2003-01-20 [sbliss] Completed header, BFC'ed"
+      },
+      {
+        "date": "2003-08-01",
+        "contributor": "PTadmin",
+        "text": "Official Update 2003-02",
+        "raw": "2003-08-01 [PTadmin] Official Update 2003-02"
+      },
+      {
+        "date": "2007-05-08",
+        "contributor": "PTadmin",
+        "text": "Header formatted for Contributor Agreement",
+        "raw": "2007-05-08 [PTadmin] Header formatted for Contributor Agreement"
+      },
+      {
+        "date": "2008-07-01",
+        "contributor": "PTadmin",
+        "text": "Official Update 2008-01",
+        "raw": "2008-07-01 [PTadmin] Official Update 2008-01"
+      },
+      {
+        "date": "2020-06-04",
+        "contributor": "Sirio",
+        "text": "Updated the use of primitives: removed ringr.dat or ringrr.dat, closed gaps and upgrade intersections",
+        "raw": "2020-06-04 [Sirio] Updated the use of primitives: removed ringr.dat or ringrr.dat, closed gaps and upgrade intersections"
+      },
+      {
+        "date": "2020-12-29",
+        "contributor": "PTadmin",
+        "text": "Official Update 2020-03",
+        "raw": "2020-12-29 [PTadmin] Official Update 2020-03"
+      }
+    ],
+    "category": null,
+    "keywords": [],
+    "status": "current",
+    "replacement": null,
+    "preview": null
+  },
+  "complete": true,
+  "bounds": {
+    "min": [
+      -26.0,
+      -4.0,
+      -68.0
+    ],
+    "max": [
+      26.0,
+      8.0,
+      10.0
+    ]
+  },
+  "size": [
+    52.0,
+    12.0,
+    78.0
+  ],
+  "stud_positions": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      -20.0,
+      0.0,
+      -20.0
+    ],
+    [
+      20.0,
+      0.0,
+      -20.0
+    ],
+    [
+      -20.0,
+      0.0,
+      -40.0
+    ],
+    [
+      20.0,
+      0.0,
+      -40.0
+    ],
+    [
+      0.0,
+      0.0,
+      -60.0
+    ]
+  ],
+  "connector_count": 13,
+  "connectors": [
+    {
+      "kind": "stud",
+      "role": "male",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 6.0,
+            "length": 4.0,
+            "flexible": false
+          }
+        ],
+        "centered": false,
+        "friction": true,
+        "caps": "one"
+      },
+      "name": "studO",
+      "feature_id": "stud2a@R0/studO",
+      "group": null,
+      "freedoms": [
+        "rotate"
+      ],
+      "source": "ldcad_shadow",
+      "confidence": 1.0,
+      "owner_code": "2423",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "/opt/ldraw-astra/data/offLibShadow/p/stud2a.dat:11"
+      ],
+      "metadata_id": "studO",
+      "connection_provenance": {
+        "source": "ldcad_shadow",
+        "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2a.dat",
+        "archive_member": null,
+        "line_number": 11,
+        "command": "0 !LDCAD SNAP_CYL [ID=studO] [gender=M] [caps=one] [secs=R 6 4]",
+        "include_chain": []
+      },
+      "scale_inheritance": "none",
+      "mirror_inheritance": "cor"
+    },
+    {
+      "kind": "stud_receptacle",
+      "role": "female",
+      "position": [
+        0.0,
+        8.0,
+        0.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 6.0,
+            "length": 5.0,
+            "flexible": false
+          }
+        ],
+        "centered": true,
+        "friction": false,
+        "caps": "none"
+      },
+      "name": "Stud Tube Open",
+      "feature_id": "stud4@R1/stud4",
+      "group": null,
+      "freedoms": [],
+      "source": "primitive",
+      "confidence": 1.0,
+      "owner_code": "2423",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "stud4",
+        "derived:stud-socket"
+      ],
+      "metadata_id": null,
+      "connection_provenance": {
+        "source": "primitive",
+        "path": null,
+        "archive_member": null,
+        "line_number": null,
+        "command": "stud4",
+        "include_chain": []
+      },
+      "scale_inheritance": "yandr",
+      "mirror_inheritance": "none"
+    }
+  ],
+  "connectors_truncated": true,
+  "diagnostics": [],
+  "connection_metadata": {
+    "coverage": "complete",
+    "source_count": 3,
+    "recognized_record_count": 7,
+    "unsupported_record_count": 0,
+    "invalid_record_count": 0,
+    "diagnostics": []
+  },
+  "rectangular_profile": null,
+  "note": "All coordinates are local LDU. Connector inference is evidence; inspect uncertain fits."
+}

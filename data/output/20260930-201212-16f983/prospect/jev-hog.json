@@ -1,0 +1,642 @@
+{
+  "query": "a steering column with a top-mounted steering knob and steering wheel linked to a Technic steering rack",
+  "kind": "submodels",
+  "engine": "jev",
+  "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+  "index_signature": "c3c851bfa92aff4ac3ef5a120b8f489e4ab5d77fdc22391703b3eefb3040ce85",
+  "results": [
+    {
+      "kind": "submodels",
+      "description": "Steering column top consisting of a steering top piece and gear holder.",
+      "model": "8820-1.mpd",
+      "section": "8820 - Steering-Top.ldr",
+      "id": "submodel-bebdc0e97203ace9d0b1c64e",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "Steering column top consisting of a steering top piece and gear holder.",
+      "original_full_description": "8820-1.mpd|8820 - Steering-Top.ldr|Steering column top consisting of a steering top piece and gear holder.",
+      "source_exists": true,
+      "path": "/opt/ldraw-astra/data/models-annotated/8820-1.mpd",
+      "source_sha256": "bd8448437c6356a1708d435b354e5814199c7f1f4408f6bffdd4a00e3977afe6",
+      "source_section": "8820 - Steering-Top.ldr",
+      "start_line": 193,
+      "parent_description": "Technic mountain buggy vehicle with steering, suspension, seat, and drivetrain built from multiple submodels.",
+      "theme": "",
+      "direct_placements": 2,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "8820-1.mpd|8820 - Steering-Top.ldr|Steering column top consisting of a steering top piece and gear holder.",
+      "score": 0.56,
+      "retrieval_rank": 2,
+      "inventory": {
+        "source_sha256": "bd8448437c6356a1708d435b354e5814199c7f1f4408f6bffdd4a00e3977afe6",
+        "parser_section": "8820 - Steering-Top.ldr",
+        "physical_placements": 2,
+        "expanded_leaf_count": 2,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "2791a.dat",
+            "count": 1,
+            "description": "Technic Steering Gear Holder",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2792.dat",
+            "count": 1,
+            "description": "Technic Steering Top",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 2,
+        "technic_share": 1.0,
+        "legacy_parts": [],
+        "shape_fingerprint": "946e66bb0d78c6328bb6692de7ef49a3cb238ea1535b2f15d7db2ae0b14e77f3",
+        "recipe_fingerprint": "0f8a2427ff999819acf3b701b374dbe92988f67c21e65f45998058a8db6524ba",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "8820 - Mountain Rambler.ldr",
+            "at": [
+              0.0,
+              -32.0,
+              -130.0
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "colour": 7
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "8820 - Steering-Top.ldr",
+            "kind": "assembly",
+            "author": "Max Martin Richter [MMR1988]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      },
+      "mechanism_study": "inspect source steps, parts and parent context; analytical mechanism verification is deferred"
+    },
+    {
+      "kind": "submodels",
+      "description": "Rack-and-pinion steering assembly using a gear rack, beam, and cross blocks to link the steering column to the wheels.",
+      "model": "9393-1.mpd",
+      "section": "9393 - steering.ldr",
+      "id": "submodel-80d4f1e5bc91b3c6682b1ccd",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "Rack-and-pinion steering assembly using a gear rack, beam, and cross blocks to link the steering column to the wheels.",
+      "original_full_description": "9393-1.mpd|9393 - steering.ldr|Rack-and-pinion steering assembly using a gear rack, beam, and cross blocks to link the steering column to the wheels.",
+      "source_exists": true,
+      "path": "/opt/ldraw-astra/data/models-annotated/9393-1.mpd",
+      "source_sha256": "6f62ffdb2eb3fd4d2ff8d4a2faba218ae2a435db83151cdbe14b6b85e936f19a",
+      "source_section": "9393 - steering.ldr",
+      "start_line": 469,
+      "parent_description": "Complete Technic tractor model combining a chassis, steering, power-takeoff drivetrain, hubs, steps, front weight, and a gear-driven attachment mechanism.",
+      "theme": "",
+      "direct_placements": 10,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "9393-1.mpd|9393 - steering.ldr|Rack-and-pinion steering assembly using a gear rack, beam, and cross blocks to link the steering column to the wheels.",
+      "score": 0.53,
+      "retrieval_rank": 3,
+      "inventory": {
+        "source_sha256": "6f62ffdb2eb3fd4d2ff8d4a2faba218ae2a435db83151cdbe14b6b85e936f19a",
+        "parser_section": "9393 - steering.ldr",
+        "physical_placements": 10,
+        "expanded_leaf_count": 10,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "2780.dat",
+            "count": 2,
+            "description": "Technic Pin with Friction and Slots",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32524.dat",
+            "count": 1,
+            "description": "Technic Beam  7",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3713.dat",
+            "count": 2,
+            "description": "Technic Bush with Two Flanges",
+            "physical_index_entry": true
+          },
+          {
+            "part": "48989.dat",
+            "count": 2,
+            "description": "Technic Cross Block 1 x 3 (Pin/Pin/Pin) with 4 Pins",
+            "physical_index_entry": true
+          },
+          {
+            "part": "87083.dat",
+            "count": 2,
+            "description": "Technic Axle  4 with Stop",
+            "physical_index_entry": true
+          },
+          {
+            "part": "87761.dat",
+            "count": 1,
+            "description": "Technic Gear Rack  1 x  7 with Pegholes and Axleholes",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 10,
+        "technic_share": 1.0,
+        "legacy_parts": [],
+        "shape_fingerprint": "bb0f4353794b0359cc039edca0e1baefc6c463be73ec3c05274b77fffc1f55d4",
+        "recipe_fingerprint": "cb8c5daf99ff6367c7a58cc5b284af9fd4152fb3a1066f93be13a813f7a1d2f1",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "9393 - vehicle.ldr",
+            "at": [
+              0.0,
+              -20.0,
+              -140.0
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "colour": 0
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "9393 - steering.ldr",
+            "kind": "assembly",
+            "author": "Tomas Kralicek [RabbiT_CZ]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      },
+      "mechanism_study": "inspect source steps, parts and parent context; analytical mechanism verification is deferred"
+    },
+    {
+      "kind": "submodels",
+      "description": "A vertical Technic steering column assembly with bevel gear, axle, bushes, and mounting plates for transferring steering motion.",
+      "model": "5767-1.mpd",
+      "section": "5767 - Steering shaft vertical.ldr",
+      "id": "submodel-681f86f857b0e84ab3c404b2",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "A vertical Technic steering column assembly with bevel gear, axle, bushes, and mounting plates for transferring steering motion.",
+      "original_full_description": "5767-1.mpd|5767 - Steering shaft vertical.ldr|A vertical Technic steering column assembly with bevel gear, axle, bushes, and mounting plates for transferring steering motion.",
+      "source_exists": true,
+      "path": "/opt/ldraw-astra/data/models-annotated/5767-1.mpd",
+      "source_sha256": "de457e3c35b4ccb79309f999d0638d72d21108ff2d9f2044f3809b589572241c",
+      "source_section": "5767 - Steering shaft vertical.ldr",
+      "start_line": 940,
+      "parent_description": "A yellow and black vehicle featuring a steering mechanism, opening doors, hinged windscreen, engine hood, instrument panel with steering wheel, and front seats, built on a Technic chassis with plates and bricks.",
+      "theme": "",
+      "direct_placements": 8,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "5767-1.mpd|5767 - Steering shaft vertical.ldr|A vertical Technic steering column assembly with bevel gear, axle, bushes, and mounting plates for transferring steering motion.",
+      "score": 0.48,
+      "retrieval_rank": 5,
+      "inventory": {
+        "source_sha256": "de457e3c35b4ccb79309f999d0638d72d21108ff2d9f2044f3809b589572241c",
+        "parser_section": "5767 - Steering shaft vertical.ldr",
+        "physical_placements": 8,
+        "expanded_leaf_count": 8,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "3004.dat",
+            "count": 2,
+            "description": "Brick  1 x  2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32123a.dat",
+            "count": 1,
+            "description": "Technic Bush  1/2 Smooth with Axle Hole Reduced",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32209.dat",
+            "count": 1,
+            "description": "Technic Axle  5.5 with Stop Type 1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3709b.dat",
+            "count": 2,
+            "description": "Technic Plate  2 x  4 with Holes",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3713.dat",
+            "count": 1,
+            "description": "Technic Bush with Two Flanges",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6589.dat",
+            "count": 1,
+            "description": "Technic Gear 12 Tooth Bevel",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 6,
+        "technic_share": 0.75,
+        "legacy_parts": [],
+        "shape_fingerprint": "bd09686f6ee78307efa13b83d4090f52a0682cebc7f05bb58e080382ff4d4dd1",
+        "recipe_fingerprint": "e2d891d13ea6cbd259d7b2c45dba84b951d483fb5c186f347f03bc49af34f2b7",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "5767 - main.ldr",
+            "at": [
+              160.0,
+              -56.0,
+              0.0
+            ],
+            "matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0
+              ]
+            ],
+            "colour": 16
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "5767 - Steering shaft vertical.ldr",
+            "kind": "assembly",
+            "author": "Takeshi Takahashi [RainbowDolphin]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      },
+      "mechanism_study": "inspect source steps, parts and parent context; analytical mechanism verification is deferred"
+    },
+    {
+      "kind": "submodels",
+      "description": "Steering linkage variant with a knob gear, axles, joiner, and a blue Technic plate.",
+      "model": "5893-1_Truck.mpd",
+      "section": "5893 - Truck steering V.ldr",
+      "id": "submodel-e1513a023f96f1727e3b0bfe",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "Steering linkage variant with a knob gear, axles, joiner, and a blue Technic plate.",
+      "original_full_description": "5893-1_Truck.mpd|5893 - Truck steering V.ldr|Steering linkage variant with a knob gear, axles, joiner, and a blue Technic plate.",
+      "source_exists": true,
+      "path": "/opt/ldraw-astra/data/models-annotated/5893-1_Truck.mpd",
+      "source_sha256": "509df3fba4275c2d450d012ef3119471704f31d7cec62db0a322f2642216efa1",
+      "source_section": "5893 - Truck steering V.ldr",
+      "start_line": 1727,
+      "parent_description": "Complete off-road recovery truck with a front loader, motorized winch, functional steering, detailed cab with doors and lights, and rugged bodywork.",
+      "theme": "",
+      "direct_placements": 5,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "5893-1_Truck.mpd|5893 - Truck steering V.ldr|Steering linkage variant with a knob gear, axles, joiner, and a blue Technic plate.",
+      "score": 0.47,
+      "retrieval_rank": 6,
+      "inventory": {
+        "source_sha256": "509df3fba4275c2d450d012ef3119471704f31d7cec62db0a322f2642216efa1",
+        "parser_section": "5893 - Truck steering V.ldr",
+        "physical_placements": 5,
+        "expanded_leaf_count": 5,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "32072.dat",
+            "count": 1,
+            "description": "Technic Gear  4 Knob",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3705.dat",
+            "count": 2,
+            "description": "Technic Axle  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3738.dat",
+            "count": 1,
+            "description": "Technic Plate  2 x  8 with Holes",
+            "physical_index_entry": true
+          },
+          {
+            "part": "59443.dat",
+            "count": 1,
+            "description": "Technic Axle Joiner Inline Smooth",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 5,
+        "technic_share": 1.0,
+        "legacy_parts": [],
+        "shape_fingerprint": "3d8c9b3af5778a761832af29645839d2f389f1a275a1dc94eb47312e31fb656e",
+        "recipe_fingerprint": "1e363229dad356a60f372ec9d28c84a0d85932e4999d220c3b20e5728223cbc2",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "5893 - Truck.ldr",
+            "at": [
+              0.0,
+              -72.0,
+              -200.0
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "colour": 0
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "5893 - Truck steering V.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      },
+      "mechanism_study": "inspect source steps, parts and parent context; analytical mechanism verification is deferred"
+    },
+    {
+      "kind": "submodels",
+      "description": "Steering control subassembly with pins, a joiner, a steering wheel, and a grooved round tile forming a control stick/dial.",
+      "model": "10262-1.mpd",
+      "section": "10262 - step109.ldr",
+      "id": "submodel-fc2aa0076297da1b002052aa",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "Steering control subassembly with pins, a joiner, a steering wheel, and a grooved round tile forming a control stick/dial.",
+      "original_full_description": "10262-1.mpd|10262 - step109.ldr|Steering control subassembly with pins, a joiner, a steering wheel, and a grooved round tile forming a control stick/dial.",
+      "source_exists": true,
+      "path": "/opt/ldraw-astra/data/models-annotated/10262-1.mpd",
+      "source_sha256": "df96f84093c67b4f25e5d596402de8750e56f139b615cf44ae692a35d295b77f",
+      "source_section": "10262 - step109.ldr",
+      "start_line": 2769,
+      "parent_description": "Main Lunar Lander assembly combining technic chassis, black/white body panels, log bricks, arches, slopes, windows, and detailed mechanical submodels into the complete descent and ascent stages.",
+      "theme": "",
+      "direct_placements": 6,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "10262-1.mpd|10262 - step109.ldr|Steering control subassembly with pins, a joiner, a steering wheel, and a grooved round tile forming a control stick/dial.",
+      "score": 0.45,
+      "retrieval_rank": 7,
+      "inventory": {
+        "source_sha256": "df96f84093c67b4f25e5d596402de8750e56f139b615cf44ae692a35d295b77f",
+        "parser_section": "10262 - step109.ldr",
+        "physical_placements": 6,
+        "expanded_leaf_count": 6,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "15100.dat",
+            "count": 1,
+            "description": "Technic Pin with Friction with Perpendicular Pin Hole Type 1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "18651.dat",
+            "count": 1,
+            "description": "Technic Axle Pin Long with Friction with  2L Axle",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2780.dat",
+            "count": 1,
+            "description": "Technic Pin with Friction and Slots",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2819.dat",
+            "count": 1,
+            "description": "Technic Steering Wheel Small",
+            "physical_index_entry": true
+          },
+          {
+            "part": "62462.dat",
+            "count": 1,
+            "description": "Technic Pin Joiner Round with Slot",
+            "physical_index_entry": true
+          },
+          {
+            "part": "98138.dat",
+            "count": 1,
+            "description": "Tile  1 x  1 Round with Groove",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 5,
+        "technic_share": 0.8333333333333334,
+        "legacy_parts": [],
+        "shape_fingerprint": "0ccf40506653229e93e2e02045996f78bc18dbb4af31dc8b34f58fcb9bd37ded",
+        "recipe_fingerprint": "8972cd22d80050439d49523680d4e58d37b23cbc2eab197bde722d36ea1aeaaa",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "10262 - main.ldr",
+            "at": [
+              40.0,
+              -62.0,
+              -90.0
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.866,
+                0.5
+              ],
+              [
+                0.0,
+                -0.5,
+                0.866
+              ]
+            ],
+            "colour": 71
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "10262 - step109.ldr",
+            "kind": "assembly",
+            "author": "Orion Pobursky [OrionP]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      },
+      "mechanism_study": "inspect source steps, parts and parent context; analytical mechanism verification is deferred"
+    }
+  ],
+  "eligible_after_measurement": 45,
+  "rejected": [
+    {
+      "id": "submodel-f03b5c59b16ca082be5fd8dd",
+      "reason": "no_mechanism_parts_identified",
+      "retrieval_rank": 1
+    },
+    {
+      "id": "submodel-4b19063425308aa9a3b64f77",
+      "reason": "no_mechanism_parts_identified",
+      "retrieval_rank": 4
+    },
+    {
+      "id": "submodel-e9f3fc014613aef9cf0b6d74",
+      "reason": "no_mechanism_parts_identified",
+      "retrieval_rank": 11
+    },
+    {
+      "id": "submodel-dabe53e2a7967b2e21c784f4",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 16
+    },
+    {
+      "id": "submodel-226d4162db4cb648f5c95e31",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 30
+    },
+    {
+      "id": "submodel-2a96effc868d1c4ba4c510cf",
+      "reason": "no_mechanism_parts_identified",
+      "retrieval_rank": 31
+    },
+    {
+      "id": "submodel-04c93b2285e729e639b0586f",
+      "reason": "no_mechanism_parts_identified",
+      "retrieval_rank": 49
+    },
+    {
+      "id": "submodel-734f6003cbb3dcd8d4f80e90",
+      "reason": "no_mechanism_parts_identified",
+      "retrieval_rank": 50
+    },
+    {
+      "id": "submodel-8dbc5e104dcc40cb8574d865",
+      "reason": "no_mechanism_parts_identified",
+      "retrieval_rank": 55
+    },
+    {
+      "id": "submodel-2c61aa470798773727531597",
+      "reason": "no_mechanism_parts_identified",
+      "retrieval_rank": 58
+    }
+  ],
+  "stats": {
+    "documents": 3386,
+    "passages": 3386,
+    "updated": 0,
+    "skipped": 0,
+    "removed": 0,
+    "scored": 500,
+    "cache_hits": 0,
+    "api_calls": 500,
+    "input_tokens": 269580,
+    "output_tokens": 11000,
+    "elapsed_seconds": 8.611543920997065,
+    "exhaustive": false,
+    "command": [
+      "jev-rerank",
+      "--db",
+      "/opt/ldraw-astra/.cache/discovery/619d5aafe8290fcc/queries/0e478e71cd8ced3d323c3e66f62add7f65cd214089238c7a11d03ab427237828.sqlite",
+      "--table-field",
+      "candidates.full_description",
+      "--query",
+      "a steering column with a top-mounted steering knob and steering wheel linked to a Technic steering rack",
+      "--top",
+      "60",
+      "--candidates",
+      "500",
+      "--model",
+      "jev-1.13.0",
+      "--json",
+      "--show"
+    ],
+    "eligible_records": 3386
+  },
+  "filters": {
+    "system": false,
+    "construction": "mechanism",
+    "min_parts": 2,
+    "max_parts": 200,
+    "max_technic_share": 0.5,
+    "parent_cap": 2
+  },
+  "note": "Scores describe textual relevance. Results still require geometry, scale and visual review; no hidden fallback or automatic import approval."
+}

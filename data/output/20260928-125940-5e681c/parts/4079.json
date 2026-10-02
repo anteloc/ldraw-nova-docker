@@ -1,0 +1,309 @@
+{
+  "code": "4079.dat",
+  "path": "/opt/ldraw/ldraw/parts/4079.dat",
+  "metadata": {
+    "description": "Minifig Seat 2 x 2",
+    "name": "4079.dat",
+    "author": "James Jessiman",
+    "author_username": null,
+    "file_kind": "part",
+    "origin": "official",
+    "qualifiers": [],
+    "release": "2025-09",
+    "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+    "bfc": "ccw",
+    "history": [
+      {
+        "date": "2001-10-26",
+        "contributor": "PTadmin",
+        "text": "Official Update 2001-01",
+        "raw": "2001-10-26 [PTadmin] Official Update 2001-01"
+      },
+      {
+        "date": "2003-11-28",
+        "contributor": "Steffen",
+        "text": "removed L3P errors, BFCed",
+        "raw": "2003-11-28 [Steffen] removed L3P errors, BFCed"
+      },
+      {
+        "date": "2004-03-02",
+        "contributor": "PTadmin",
+        "text": "Official Update 2004-01",
+        "raw": "2004-03-02 [PTadmin] Official Update 2004-01"
+      },
+      {
+        "date": "2007-06-30",
+        "contributor": "PTadmin",
+        "text": "Header formatted for Contributor Agreement",
+        "raw": "2007-06-30 [PTadmin] Header formatted for Contributor Agreement"
+      },
+      {
+        "date": "2008-07-01",
+        "contributor": "PTadmin",
+        "text": "Official Update 2008-01",
+        "raw": "2008-07-01 [PTadmin] Official Update 2008-01"
+      },
+      {
+        "date": "2025-09-27",
+        "contributor": "OrionP",
+        "text": "Changed winding to CCW",
+        "raw": "2025-09-27 [OrionP] Changed winding to CCW"
+      },
+      {
+        "date": "2025-09-29",
+        "contributor": "OrionP",
+        "text": "Official Update 2025-09",
+        "raw": "2025-09-29 [OrionP] Official Update 2025-09"
+      }
+    ],
+    "category": "Minifig Accessory",
+    "keywords": [
+      "Car",
+      "chair",
+      "town"
+    ],
+    "status": "current",
+    "replacement": null,
+    "preview": null
+  },
+  "complete": true,
+  "bounds": {
+    "min": [
+      -20.0,
+      -40.0,
+      -20.0
+    ],
+    "max": [
+      20.0,
+      8.0,
+      25.0
+    ]
+  },
+  "size": [
+    40.0,
+    48.0,
+    45.0
+  ],
+  "stud_positions": [
+    [
+      10.0,
+      0.0,
+      -10.0
+    ],
+    [
+      -10.0,
+      0.0,
+      -10.0
+    ]
+  ],
+  "connector_count": 6,
+  "connectors": [
+    {
+      "kind": "stud",
+      "role": "male",
+      "position": [
+        10.0,
+        0.0,
+        -10.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 6.0,
+            "length": 4.0,
+            "flexible": false
+          }
+        ],
+        "centered": false,
+        "friction": true,
+        "caps": "one"
+      },
+      "name": "studC",
+      "feature_id": "stud@R35/studC",
+      "group": null,
+      "freedoms": [
+        "rotate"
+      ],
+      "source": "ldcad_shadow",
+      "confidence": 1.0,
+      "owner_code": "4079",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "/opt/ldraw-astra/data/offLibShadow/p/stud.dat:8"
+      ],
+      "metadata_id": "studC",
+      "connection_provenance": {
+        "source": "ldcad_shadow",
+        "path": "/opt/ldraw-astra/data/offLibShadow/p/stud.dat",
+        "archive_member": null,
+        "line_number": 8,
+        "command": "0 !LDCAD SNAP_CYL [ID=studC] [gender=M] [caps=one] [secs=R 6 4]",
+        "include_chain": []
+      },
+      "scale_inheritance": "none",
+      "mirror_inheritance": "cor"
+    },
+    {
+      "kind": "stud",
+      "role": "male",
+      "position": [
+        -10.0,
+        0.0,
+        -10.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 6.0,
+            "length": 4.0,
+            "flexible": false
+          }
+        ],
+        "centered": false,
+        "friction": true,
+        "caps": "one"
+      },
+      "name": "studC",
+      "feature_id": "stud@R36/studC",
+      "group": null,
+      "freedoms": [
+        "rotate"
+      ],
+      "source": "ldcad_shadow",
+      "confidence": 1.0,
+      "owner_code": "4079",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "/opt/ldraw-astra/data/offLibShadow/p/stud.dat:8"
+      ],
+      "metadata_id": "studC",
+      "connection_provenance": {
+        "source": "ldcad_shadow",
+        "path": "/opt/ldraw-astra/data/offLibShadow/p/stud.dat",
+        "archive_member": null,
+        "line_number": 8,
+        "command": "0 !LDCAD SNAP_CYL [ID=studC] [gender=M] [caps=one] [secs=R 6 4]",
+        "include_chain": []
+      },
+      "scale_inheritance": "none",
+      "mirror_inheritance": "cor"
+    },
+    {
+      "kind": "stud_receptacle",
+      "role": "female",
+      "position": [
+        -10.0,
+        8.0,
+        -10.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 6.0,
+            "length": 4.0,
+            "flexible": false
+          }
+        ],
+        "centered": false,
+        "friction": true,
+        "caps": "one"
+      },
+      "name": "LDCad cylinder",
+      "feature_id": "snap_cyl@L8:I0",
+      "group": null,
+      "freedoms": [
+        "rotate"
+      ],
+      "source": "ldcad_shadow",
+      "confidence": 1.0,
+      "owner_code": "4079",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "/opt/ldraw-astra/data/offLibShadow/parts/4079.dat:8"
+      ],
+      "metadata_id": null,
+      "connection_provenance": {
+        "source": "ldcad_shadow",
+        "path": "/opt/ldraw-astra/data/offLibShadow/parts/4079.dat",
+        "archive_member": null,
+        "line_number": 8,
+        "command": "0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=R 6 4] [pos=0 8 0] [grid=C 2 C 2 20 20]",
+        "include_chain": []
+      },
+      "scale_inheritance": "none",
+      "mirror_inheritance": "cor"
+    }
+  ],
+  "connectors_truncated": true,
+  "diagnostics": [],
+  "connection_metadata": {
+    "coverage": "complete",
+    "source_count": 3,
+    "recognized_record_count": 2,
+    "unsupported_record_count": 0,
+    "invalid_record_count": 0,
+    "diagnostics": []
+  },
+  "rectangular_profile": null,
+  "note": "All coordinates are local LDU. Connector inference is evidence; inspect uncertain fits."
+}

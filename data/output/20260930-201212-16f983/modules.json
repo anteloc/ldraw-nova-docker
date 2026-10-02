@@ -1,0 +1,551 @@
+{
+ "version": 1,
+ "frame": "Car frame: X across (+X = driver/left side), -Z forward, Y=0 road, negative Y up, Z=0 front-axle centreline; units LDU",
+ "analytical_mechanism_verification": "deferred",
+ "budget_total": 911,
+ "modules": [
+  {
+   "id": "M1",
+   "name": "Frame / tub",
+   "route": "redesign (pattern: 42039 main steps 8-33)",
+   "source": "42039-1.mpd main steps 8-33 (study only)",
+   "features": [],
+   "parts_budget": 120,
+   "local_origin": "car frame (placed at identity)",
+   "envelope_car_frame": {
+    "x": [
+     -200,
+     200
+    ],
+    "y": [
+     -200,
+     -40
+    ],
+    "z": [
+     -240,
+     900
+    ]
+   },
+   "interfaces": {
+    "provides": [
+     "front-axle mount holes (from donor frontaxle study)",
+     "rear-axle mount holes (donor steps 1-7)",
+     "raised engine cradle (crank y=-100)",
+     "gearbox bearing beams (shafts y=-60/-100, z 570-710)",
+     "seat mounts x=+-80",
+     "console / shift pivot",
+     "door hinge hoop z~90",
+     "firewall hoop z~380",
+     "sill body rails y~-60..-100 x~+-200",
+     "rear subframe z 800-900 for wing supports and diffuser"
+    ]
+   },
+   "depends_on": [],
+   "checks": [
+    "build --detail summary",
+    "validate --geometry --contacts all",
+    "technic check --contract (fixed members)",
+    "render home top front bottom",
+    "compare-bom"
+   ],
+   "notes": "Mount-hole list is filled from the donor-unit interfaces during Phase 3 study before M1 is generated.",
+   "status": "planned"
+  },
+  {
+   "id": "M2",
+   "name": "Rear axle + differential + independent suspension",
+   "route": "adapt",
+   "source": "42039-1.mpd main steps 1-7 (81 lines incl. 2 shock submodels)",
+   "features": [
+    "differential",
+    "independent suspension"
+   ],
+   "parts_budget": 85,
+   "local_origin": "donor 42039 world + layout.donor_transform",
+   "envelope_car_frame": {
+    "x": [
+     -274,
+     274
+    ],
+    "y": [
+     -212,
+     -20
+    ],
+    "z": [
+     630,
+     850
+    ]
+   },
+   "interfaces": {
+    "shafts": [
+     {
+      "id": "S1",
+      "axis": "Z",
+      "x": 0,
+      "y": -60,
+      "to": "M3 ring shaft",
+      "note": "diff pinion shaft"
+     }
+    ],
+    "mounts": "pins into M1 rear subframe (list from study)"
+   },
+   "depends_on": [
+    "M1"
+   ],
+   "checks": [
+    "build --contacts none",
+    "validate --geometry --contacts none",
+    "render home top front bottom",
+    "compare-bom",
+    "align_check.py shafts"
+   ],
+   "notes": "Replace shock-06_5L-hard-1 spring mesh with library shock 73129 (6.5L complete); remove donor crank direct-drive link.",
+   "status": "planned"
+  },
+  {
+   "id": "M3",
+   "name": "2-speed gearbox + shift linkage",
+   "route": "adapt",
+   "source": "42112-1.mpd '42112 - gearshift.ldr' (17 parts) + new linkage",
+   "features": [
+    "gearbox + shift lever"
+   ],
+   "parts_budget": 35,
+   "local_origin": "gearshift local frame rolled 90 deg about Z (local X -> car +Y), origin at (0,-80,700)",
+   "envelope_car_frame": {
+    "x": [
+     -40,
+     120
+    ],
+    "y": [
+     -130,
+     -30
+    ],
+    "z": [
+     560,
+     720
+    ]
+   },
+   "interfaces": {
+    "shafts": [
+     {
+      "id": "S1",
+      "from": "M2"
+     },
+     {
+      "id": "S2",
+      "axis": "Z",
+      "x": 0,
+      "y": -100,
+      "to": "M4 crank"
+     },
+     {
+      "id": "S3",
+      "kind": "shift rod",
+      "path": "console lever (z~300) -> along x~+100 beside engine -> fork at z~640"
+     }
+    ]
+   },
+   "depends_on": [
+    "M1",
+    "M2"
+   ],
+   "checks": [
+    "build --contacts none",
+    "validate --geometry --contacts none",
+    "render home top front bottom",
+    "compare-bom",
+    "align_check.py shafts"
+   ],
+   "notes": "",
+   "status": "planned"
+  },
+  {
+   "id": "M4",
+   "name": "V8 engine",
+   "route": "reuse (shortened rear shaft)",
+   "source": "42039-1.mpd '42039 - motor.ldr' (66 parts)",
+   "features": [
+    "V8 piston engine"
+   ],
+   "parts_budget": 66,
+   "local_origin": "donor transform + offset (0,-40,-20)",
+   "envelope_car_frame": {
+    "x": [
+     -74,
+     74
+    ],
+    "y": [
+     -166,
+     -75
+    ],
+    "z": [
+     410,
+     590
+    ]
+   },
+   "interfaces": {
+    "shafts": [
+     {
+      "id": "S2",
+      "from": "M3"
+     }
+    ],
+    "mounts": "engine cradle on M1 (raised 2 studs)"
+   },
+   "depends_on": [
+    "M1",
+    "M3"
+   ],
+   "checks": [
+    "build --contacts none",
+    "validate --geometry --contacts none",
+    "render home top front bottom",
+    "compare-bom",
+    "align_check.py shafts"
+   ],
+   "notes": "Recolour heads/accents per palette; replace donor 7L rear axle with length ending in gearbox joiner.",
+   "status": "planned"
+  },
+  {
+   "id": "M5",
+   "name": "Front axle: double wishbones, portal hubs, shocks",
+   "route": "adapt",
+   "source": "42039-1.mpd '42039 - frontaxle.ldr' (84) + '42039 - frontaxletop.ldr' (21)",
+   "features": [
+    "independent suspension"
+   ],
+   "parts_budget": 105,
+   "local_origin": "donor transform",
+   "envelope_car_frame": {
+    "x": [
+     -274,
+     274
+    ],
+    "y": [
+     -189,
+     -20
+    ],
+    "z": [
+     -116,
+     330
+    ]
+   },
+   "interfaces": {
+    "pairs_with": "M6 rack (donor pairing preserved)",
+    "mounts": "front frame rails (15L beams in frontaxle) -> M1"
+   },
+   "depends_on": [
+    "M1"
+   ],
+   "checks": [
+    "build --contacts none",
+    "validate --geometry --contacts none",
+    "render home top front bottom",
+    "compare-bom",
+    "align_check.py shafts"
+   ],
+   "notes": "Replace spring meshes with 73129; re-pose arms to lower front wheel centre by 8 LDU if the linkage allows.",
+   "status": "planned"
+  },
+  {
+   "id": "M6",
+   "name": "Steering: rack, pinion extension, HOG, steering wheel",
+   "route": "adapt + redesign",
+   "source": "42039 '42039 - steeringrack.ldr' (22) + new HOG/column",
+   "features": [
+    "rack steering",
+    "HOG knob",
+    "steering wheel"
+   ],
+   "parts_budget": 42,
+   "local_origin": "donor transform (rack) / car frame (new)",
+   "envelope_car_frame": {
+    "x": [
+     -120,
+     120
+    ],
+    "y": [
+     -200,
+     -60
+    ],
+    "z": [
+     -80,
+     200
+    ]
+   },
+   "interfaces": {
+    "shafts": [
+     {
+      "id": "S4a",
+      "axis": "Y",
+      "x": 0,
+      "z": -60,
+      "role": "HOG vertical shaft -> bevel pair -> pinion axle"
+     },
+     {
+      "id": "S4b",
+      "axis": "Z",
+      "x": 0,
+      "y": -100,
+      "role": "longitudinal steering shaft z 60->150"
+     },
+     {
+      "id": "S4c",
+      "role": "transfer gears x 0->80 at z~150 then UJ column to wheel (80,-190,170)"
+     }
+    ]
+   },
+   "depends_on": [
+    "M5",
+    "M1"
+   ],
+   "checks": [
+    "build --contacts none",
+    "validate --geometry --contacts none",
+    "render home top front bottom",
+    "compare-bom",
+    "align_check.py shafts"
+   ],
+   "notes": "",
+   "status": "planned"
+  },
+  {
+   "id": "M7",
+   "name": "Cockpit: 2 seats, dashboard, console with shift lever",
+   "route": "adapt",
+   "source": "42039 '42039 - seat.ldr' x2 (12 each) + new dashboard/console",
+   "features": [],
+   "parts_budget": 40,
+   "local_origin": "car frame",
+   "envelope_car_frame": {
+    "x": [
+     -160,
+     160
+    ],
+    "y": [
+     -270,
+     -60
+    ],
+    "z": [
+     120,
+     380
+    ]
+   },
+   "interfaces": {
+    "shift_lever": "drives S3",
+    "mounts": "seat rails on M1"
+   },
+   "depends_on": [
+    "M1",
+    "M3",
+    "M6"
+   ],
+   "checks": [
+    "build --detail summary",
+    "validate --geometry --contacts all",
+    "technic check --contract (fixed members)",
+    "render home top front bottom",
+    "compare-bom"
+   ],
+   "notes": "Seats recoloured black.",
+   "status": "planned"
+  },
+  {
+   "id": "M8",
+   "name": "Butterfly doors x2",
+   "route": "redesign (idea: 42039 doorlift hinge, skin like 42099 door1)",
+   "source": "42039 doorlift/doorlift2; 42099 door1",
+   "features": [
+    "2 opening doors"
+   ],
+   "parts_budget": 60,
+   "local_origin": "per-door hinge frame at A-pillar hoop",
+   "envelope_car_frame": {
+    "x": [
+     -290,
+     290
+    ],
+    "y": [
+     -260,
+     -50
+    ],
+    "z": [
+     100,
+     410
+    ]
+   },
+   "interfaces": {
+    "hinge": "M1 door hoop z~90, y~-210"
+   },
+   "depends_on": [
+    "M1",
+    "M9"
+   ],
+   "checks": [
+    "build --detail summary",
+    "validate --geometry --contacts all",
+    "technic check --contract (fixed members)",
+    "render home top front bottom",
+    "compare-bom",
+    "render doors-open pose"
+   ],
+   "notes": "",
+   "status": "planned"
+  },
+  {
+   "id": "M9",
+   "name": "Body panels: nose, wings, flanks, roof, screen frame, engine cover slats",
+   "route": "redesign",
+   "source": "own design",
+   "features": [],
+   "parts_budget": 250,
+   "local_origin": "car frame",
+   "envelope_car_frame": {
+    "x": [
+     -290,
+     290
+    ],
+    "y": [
+     -275,
+     -30
+    ],
+    "z": [
+     -250,
+     970
+    ]
+   },
+   "interfaces": {
+    "mounts": "M1 sill rails, hoops, rear subframe"
+   },
+   "depends_on": [
+    "M1",
+    "M5",
+    "M2"
+   ],
+   "checks": [
+    "build --detail summary",
+    "validate --geometry --contacts all",
+    "technic check --contract (fixed members)",
+    "render home top front bottom",
+    "compare-bom"
+   ],
+   "notes": "",
+   "status": "planned"
+  },
+  {
+   "id": "M10",
+   "name": "Front & rear ends: light bars, splitter, diffuser, exhausts",
+   "route": "redesign",
+   "source": "own design",
+   "features": [],
+   "parts_budget": 70,
+   "local_origin": "car frame",
+   "envelope_car_frame": {
+    "x": [
+     -290,
+     290
+    ],
+    "y": [
+     -190,
+     -15
+    ],
+    "z": [
+     -260,
+     975
+    ]
+   },
+   "interfaces": {
+    "mounts": "M9 nose / M1 rear subframe"
+   },
+   "depends_on": [
+    "M9"
+   ],
+   "checks": [
+    "build --detail summary",
+    "validate --geometry --contacts all",
+    "technic check --contract (fixed members)",
+    "render home top front bottom",
+    "compare-bom"
+   ],
+   "notes": "",
+   "status": "planned"
+  },
+  {
+   "id": "M11",
+   "name": "Rear wing on swan-neck supports",
+   "route": "adapt (blade pattern 42093 spoiler, widened)",
+   "source": "42093-1.mpd '42093 - spoiler.ldr' (11)",
+   "features": [
+    "rear wing"
+   ],
+   "parts_budget": 30,
+   "local_origin": "car frame",
+   "envelope_car_frame": {
+    "x": [
+     -235,
+     235
+    ],
+    "y": [
+     -320,
+     -180
+    ],
+    "z": [
+     880,
+     970
+    ]
+   },
+   "interfaces": {
+    "mounts": "two supports into M1 rear subframe x=+-60"
+   },
+   "depends_on": [
+    "M1",
+    "M9"
+   ],
+   "checks": [
+    "build --detail summary",
+    "validate --geometry --contacts all",
+    "technic check --contract (fixed members)",
+    "render home top front bottom",
+    "compare-bom"
+   ],
+   "notes": "",
+   "status": "planned"
+  },
+  {
+   "id": "M12",
+   "name": "Wheels x4",
+   "route": "reuse",
+   "source": "42039 wheel placements (15038 + 44771)",
+   "features": [],
+   "parts_budget": 8,
+   "local_origin": "donor transform",
+   "envelope_car_frame": {
+    "x": [
+     -274,
+     274
+    ],
+    "y": [
+     -172,
+     0
+    ],
+    "z": [
+     -86,
+     826
+    ]
+   },
+   "interfaces": {
+    "hubs": "M5 portal hubs / M2 rear hubs (donor pairing)"
+   },
+   "depends_on": [
+    "M2",
+    "M5"
+   ],
+   "checks": [
+    "vehicle stance script: ground contact, symmetry, transverse axes"
+   ],
+   "notes": "",
+   "status": "planned"
+  }
+ ]
+}

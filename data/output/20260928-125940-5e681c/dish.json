@@ -1,0 +1,85 @@
+{
+  "total": 78,
+  "results": [
+    {
+      "ref": "@dishes.Dish4X4Inverted",
+      "filename": "3960.dat",
+      "description": "Dish  4 x  4 Inverted",
+      "category": "dishes",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 80.0,
+        "ldu_y": 20.0,
+        "ldu_z": 80.0,
+        "studs_x": 4,
+        "studs_y": 1,
+        "plates_y": 3,
+        "studs_z": 4
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/dishes.py",
+      "line": 67,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        80.0,
+        20.0,
+        80.0
+      ],
+      "dimensions_disagree": false
+    },
+    {
+      "ref": "@others.Bracket1X2_Dish4X4",
+      "filename": "30209.dat",
+      "description": "Bracket  1 x  2 - Dish  4 x  4",
+      "category": "others",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 80.0,
+        "ldu_y": 80.0,
+        "ldu_z": 44.0,
+        "studs_x": 4,
+        "studs_y": 4,
+        "plates_y": 10,
+        "studs_z": 3
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/others.py",
+      "line": 105,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        80.0,
+        80.0,
+        44.0
+      ],
+      "dimensions_disagree": false
+    },
+    {
+      "ref": "@dishes.Dish4X4InvertedWithHollowStud",
+      "filename": "35394.dat",
+      "description": "Dish  4 x  4 Inverted with Hollow Stud",
+      "category": "dishes",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 80.0,
+        "ldu_y": 20.0,
+        "ldu_z": 80.0,
+        "studs_x": 4,
+        "studs_y": 1,
+        "plates_y": 3,
+        "studs_z": 4
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/dishes.py",
+      "line": 84,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        80.0,
+        20.0,
+        80.0
+      ],
+      "dimensions_disagree": false
+    }
+  ],
+  "truncated": true,
+  "note": "Source categories are discovery metadata. Dimensions include studs/decorations and are not stacking heights or connection frames. Inspect selected parts; colour/part manufacture combinations are not known."
+}

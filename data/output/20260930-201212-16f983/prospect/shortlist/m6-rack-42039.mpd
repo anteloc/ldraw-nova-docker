@@ -1,0 +1,56 @@
+0 FILE m6-rack-42039-00-42039---steeringrack.ldr
+0 A steering rack mechanism with gear rack, steering links, towball pins, and a drive gear.
+0 Name: m6-rack-42039-00-42039---steeringrack.ldr
+0 Author: Philippe Hurbain [Philo]
+0 !LDRAW_ORG Model
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 !THEME Technic
+0 // Technic Beam  7 (light_bluish_grey)
+1 71 0 0 0 0 0 1 1 0 0 0 1 0 32524.dat
+0 // Technic Pin Long with Friction and Slot (blue)
+1 1 -20 0 0 0 1 0 0 0 1 1 0 0 6558.dat
+0 // Technic Pin Long with Friction and Slot (blue)
+1 1 20 0 0 0 1 0 0 0 1 1 0 0 6558.dat
+0 // Technic Pin Long with Friction and Slot (blue)
+1 1 -60 0 -20 0 -1 0 0 0 1 -1 0 0 6558.dat
+0 // Technic Pin Long with Friction and Slot (blue)
+1 1 60 0 -20 0 -1 0 0 0 1 -1 0 0 6558.dat
+0 // Technic Pin with Friction and Slots (black)
+1 0 40 0 -10 0 -1 0 0 0 1 -1 0 0 2780.dat
+0 // Technic Pin with Friction and Slots (black)
+1 0 -40 0 -10 0 -1 0 0 0 1 -1 0 0 2780.dat
+0 STEP
+0 // Technic Beam  5 (light_bluish_grey)
+1 71 80 0 -20 0 0 -1 -1 0 0 0 1 0 32316.dat
+0 // Technic Beam  5 (light_bluish_grey)
+1 71 -80 0 -20 0 0 -1 -1 0 0 0 1 0 32316.dat
+0 // Technic Beam  3 x  3 T-shaped (black)
+1 0 0 -40 -20 1 0 0 0 0 1 0 -1 0 60484.dat
+0 // Technic Beam  3 x  3 T-shaped (black)
+1 0 0 -40 20 1 0 0 0 0 1 0 -1 0 60484.dat
+0 // Technic Gear Rack  1 x  7 with Pegholes and Axleholes (black)
+1 0 0 -20 0 1 0 0 0 1 0 0 0 1 87761.dat
+0 // Technic Axle  2 Notched (red)
+1 4 40 -20 -10 0 0 1 0 1 0 -1 0 0 32062.dat
+0 // Technic Axle  2 Notched (red)
+1 4 -40 -20 -10 0 0 1 0 1 0 -1 0 0 32062.dat
+0 // Technic Cross Block 1 x 3 (Axle/Pin/Pin) (bright_green)
+1 10 -60 -20 -20 0 -1 0 0 0 -1 1 0 0 42003.dat
+0 // Technic Cross Block 1 x 3 (Axle/Pin/Pin) (bright_green)
+1 10 60 -20 -20 0 1 0 0 0 1 1 0 0 42003.dat
+0 // Technic Pin Towball with Friction (black)
+1 0 80 -30 -20 0 1 0 1 0 0 0 0 -1 6628.dat
+0 // Technic Pin Towball with Friction (black)
+1 0 -80 -30 -20 0 1 0 1 0 0 0 0 -1 6628.dat
+0 // Technic Steering Link  6L Type 2 (black)
+1 0 -80 -40 -20 0 -0.0523 -0.9986 0 -0.9986 0.0523 -1 0 0 32005.dat
+0 // Technic Steering Link  6L Type 2 (black)
+1 0 80 -40 -20 0 -0.0523 0.9986 0 0.9986 0.0523 -1 0 0 32005.dat
+0 // Technic Axle  4 with Stop (dark_bluish_grey)
+1 72 0 -40 10 0 0 -1 0 -1 0 -1 0 0 87083.dat
+0 // Technic Gear 12 Tooth Double Bevel (black)
+1 0 0 -40 0 0 1 0 -1 0 0 0 0 1 32270.dat
+
+
+0 STEP
+0 NOFILE

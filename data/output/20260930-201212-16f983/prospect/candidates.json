@@ -1,0 +1,748 @@
+{
+ "rear axle + differential": [
+  {
+   "car": "8865",
+   "file": "8865-1.mpd",
+   "section": "8865 - Vehicle.ldr",
+   "steps": [
+    6,
+    6
+   ],
+   "physical": 21,
+   "station": 0.61,
+   "db_description": "A large Technic chassis built from long beams, pins, axles, bushes, and suspension arms forming the vehicle's main frame."
+  },
+  {
+   "car": "8880",
+   "file": "8880-1.mpd",
+   "section": "8880 - main.ldr",
+   "steps": [
+    3,
+    6
+   ],
+   "physical": 19,
+   "station": 0.51,
+   "db_description": null
+  },
+  {
+   "car": "8880",
+   "file": "8880-1.mpd",
+   "section": "8880 - step15.ldr",
+   "steps": null,
+   "physical": 18,
+   "station": 0.23,
+   "db_description": "Rear differential assembly with universal joints, bevel gears, and axle joiners for drivetrain power delivery."
+  },
+  {
+   "car": "8880",
+   "file": "8880-1.mpd",
+   "section": "8880 - step15.ldr",
+   "steps": null,
+   "physical": 18,
+   "station": 0.81,
+   "db_description": "Rear differential assembly with universal joints, bevel gears, and axle joiners for drivetrain power delivery."
+  },
+  {
+   "car": "8865",
+   "file": "8865-1.mpd",
+   "section": "8865 - Rear Axis Mounting.ldr",
+   "steps": null,
+   "physical": 16,
+   "station": 0.81,
+   "db_description": "A rear axle mounting bracket made of blue technic bricks, pins, and plates that secures the rear axle."
+  },
+  {
+   "car": "8865",
+   "file": "8865-1.mpd",
+   "section": "8865 - Rear Axis Mounting.ldr",
+   "steps": null,
+   "physical": 16,
+   "station": 0.81,
+   "db_description": "A rear axle mounting bracket made of blue technic bricks, pins, and plates that secures the rear axle."
+  },
+  {
+   "car": "42039",
+   "file": "42039-1.mpd",
+   "section": "42039 - 24 Hours Race Car.ldr",
+   "steps": [
+    2,
+    2
+   ],
+   "physical": 14,
+   "station": 0.85,
+   "db_description": null
+  },
+  {
+   "car": "42096",
+   "file": "42096-1.mpd",
+   "section": "42096 - porsche.ldr",
+   "steps": [
+    1,
+    1
+   ],
+   "physical": 10,
+   "station": 0.78,
+   "db_description": "The main Porsche chassis submodel featuring beams, gears, a differential, CV joints, steering bearings, and heavy use of pins and cross blocks for structural assembly."
+  }
+ ],
+ "axle suspension / knuckles": [
+  {
+   "car": "8865",
+   "file": "8865-1.mpd",
+   "section": "8865 - Vehicle.ldr",
+   "steps": [
+    19,
+    22
+   ],
+   "physical": 80,
+   "station": 0.38,
+   "db_description": "A large Technic chassis built from long beams, pins, axles, bushes, and suspension arms forming the vehicle's main frame."
+  },
+  {
+   "car": "42096",
+   "file": "42096-1.mpd",
+   "section": "42096 - frontaxle.ldr",
+   "steps": null,
+   "physical": 71,
+   "station": 0.27,
+   "db_description": "Front axle assembly with suspension arms, steering hubs, portal axle hubs, towball joints, and half-bushes."
+  },
+  {
+   "car": "42039",
+   "file": "42039-1.mpd",
+   "section": "42039 - frontaxle.ldr",
+   "steps": null,
+   "physical": 62,
+   "station": 0.24,
+   "db_description": "A front axle assembly with independent suspension arms, steering bearings, towball joints, and shock mounting points."
+  },
+  {
+   "car": "8865",
+   "file": "8865-1.mpd",
+   "section": "8865 - Vehicle.ldr",
+   "steps": [
+    11,
+    12
+   ],
+   "physical": 43,
+   "station": 0.57,
+   "db_description": "A large Technic chassis built from long beams, pins, axles, bushes, and suspension arms forming the vehicle's main frame."
+  },
+  {
+   "car": "8880",
+   "file": "8880-1.mpd",
+   "section": "8880 - main.ldr",
+   "steps": [
+    24,
+    24
+   ],
+   "physical": 40,
+   "station": 0.42,
+   "db_description": null
+  },
+  {
+   "car": "8865",
+   "file": "8865-1.mpd",
+   "section": "8865 - Vehicle.ldr",
+   "steps": [
+    3,
+    4
+   ],
+   "physical": 37,
+   "station": 0.49,
+   "db_description": "A large Technic chassis built from long beams, pins, axles, bushes, and suspension arms forming the vehicle's main frame."
+  },
+  {
+   "car": "8865",
+   "file": "8865-1.mpd",
+   "section": "8865 - Vehicle.ldr",
+   "steps": [
+    1,
+    1
+   ],
+   "physical": 35,
+   "station": 0.61,
+   "db_description": "A large Technic chassis built from long beams, pins, axles, bushes, and suspension arms forming the vehicle's main frame."
+  },
+  {
+   "car": "8865",
+   "file": "8865-1.mpd",
+   "section": "8865 - Vehicle.ldr",
+   "steps": [
+    9,
+    9
+   ],
+   "physical": 35,
+   "station": 0.4,
+   "db_description": "A large Technic chassis built from long beams, pins, axles, bushes, and suspension arms forming the vehicle's main frame."
+  }
+ ],
+ "steering (rack/column/input)": [
+  {
+   "car": "42096",
+   "file": "42096-1.mpd",
+   "section": "42096 - porsche.ldr",
+   "steps": [
+    40,
+    107
+   ],
+   "physical": 385,
+   "station": 0.46,
+   "db_description": "The main Porsche chassis submodel featuring beams, gears, a differential, CV joints, steering bearings, and heavy use of pins and cross blocks for structural assembly."
+  },
+  {
+   "car": "42096",
+   "file": "42096-1.mpd",
+   "section": "42096 - porsche.ldr",
+   "steps": [
+    12,
+    36
+   ],
+   "physical": 155,
+   "station": 0.54,
+   "db_description": "The main Porsche chassis submodel featuring beams, gears, a differential, CV joints, steering bearings, and heavy use of pins and cross blocks for structural assembly."
+  },
+  {
+   "car": "8880",
+   "file": "8880-1.mpd",
+   "section": "8880 - step28.ldr",
+   "steps": null,
+   "physical": 52,
+   "station": 0.35,
+   "db_description": "Large grey and white chassis plate assembly with technic bricks, gears, and structural corner plates."
+  },
+  {
+   "car": "8865",
+   "file": "8865-1.mpd",
+   "section": "8865 - Vehicle.ldr",
+   "steps": [
+    8,
+    8
+   ],
+   "physical": 39,
+   "station": 0.52,
+   "db_description": "A large Technic chassis built from long beams, pins, axles, bushes, and suspension arms forming the vehicle's main frame."
+  },
+  {
+   "car": "42096",
+   "file": "42096-1.mpd",
+   "section": "42096 - steering.ldr",
+   "steps": null,
+   "physical": 25,
+   "station": 0.31,
+   "db_description": "Steering linkage with gear rack, bevel gear, cross blocks, towball pins, and connecting liftarms."
+  },
+  {
+   "car": "42039",
+   "file": "42039-1.mpd",
+   "section": "42039 - steeringrack.ldr",
+   "steps": null,
+   "physical": 22,
+   "station": 0.27,
+   "db_description": "A steering rack mechanism with gear rack, steering links, towball pins, and a drive gear."
+  },
+  {
+   "car": "42096",
+   "file": "42096-1.mpd",
+   "section": "42096 - porsche.ldr",
+   "steps": [
+    2,
+    3
+   ],
+   "physical": 18,
+   "station": 0.79,
+   "db_description": "The main Porsche chassis submodel featuring beams, gears, a differential, CV joints, steering bearings, and heavy use of pins and cross blocks for structural assembly."
+  },
+  {
+   "car": "42096",
+   "file": "42096-1.mpd",
+   "section": "42096 - porsche.ldr",
+   "steps": [
+    110,
+    111
+   ],
+   "physical": 18,
+   "station": 0.8,
+   "db_description": "The main Porsche chassis submodel featuring beams, gears, a differential, CV joints, steering bearings, and heavy use of pins and cross blocks for structural assembly."
+  }
+ ],
+ "piston engine": [
+  {
+   "car": "42096",
+   "file": "42096-1.mpd",
+   "section": "42096 - engine.ldr",
+   "steps": null,
+   "physical": 69,
+   "station": 0.68,
+   "db_description": "Inline engine assembly with six cylinders, pistons, connecting rods, crankshaft, and cross blocks."
+  },
+  {
+   "car": "42039",
+   "file": "42039-1.mpd",
+   "section": "42039 - motor.ldr",
+   "steps": null,
+   "physical": 66,
+   "station": 0.66,
+   "db_description": "A Technic V8 engine assembly with 8 cylinders, pistons, connecting rods, and dual crankshafts."
+  },
+  {
+   "car": "8865",
+   "file": "8865-1.mpd",
+   "section": "8865 - Motor Block.ldr",
+   "steps": null,
+   "physical": 53,
+   "station": 0.78,
+   "db_description": "An engine motor block with four pistons, gears, axles, and technic bricks forming the drivetrain power unit."
+  },
+  {
+   "car": "8865",
+   "file": "8865-1.mpd",
+   "section": "8865 - Cylinder Block.ldr",
+   "steps": null,
+   "physical": 34,
+   "station": 0.79,
+   "db_description": "An engine cylinder block of stacked black bricks and technic bricks with transparent red detail pieces."
+  },
+  {
+   "car": "8865",
+   "file": "8865-1.mpd",
+   "section": "8865 - Cylinder Block.ldr",
+   "steps": null,
+   "physical": 34,
+   "station": 0.79,
+   "db_description": "An engine cylinder block of stacked black bricks and technic bricks with transparent red detail pieces."
+  },
+  {
+   "car": "8880",
+   "file": "8880-1.mpd",
+   "section": "8880 - step27-1-5.ldr",
+   "steps": null,
+   "physical": 25,
+   "station": 0.81,
+   "db_description": "Engine assembly with crankshafts, connecting rods, and pistons for a multi-cylinder block."
+  },
+  {
+   "car": "42096",
+   "file": "42096-1.mpd",
+   "section": "42096 - roof3.ldr",
+   "steps": null,
+   "physical": 24,
+   "station": 0.79,
+   "db_description": "A roof sub-assembly with a large black engine-panel, towball pins, and pin joiners."
+  },
+  {
+   "car": "8880",
+   "file": "8880-1.mpd",
+   "section": "8880 - step23.ldr",
+   "steps": null,
+   "physical": 22,
+   "station": 0.03,
+   "db_description": "Rear body panel assembly with hinged plates in black and yellow forming opening engine-cover sections."
+  }
+ ],
+ "gearbox": [
+  {
+   "car": "42096",
+   "file": "42096-1.mpd",
+   "section": "42096 - front.ldr",
+   "steps": null,
+   "physical": 39,
+   "station": 0.05,
+   "db_description": "A front-end structure featuring angle connectors, cross blocks, a black front panel, and red round indicator tiles."
+  },
+  {
+   "car": "8880",
+   "file": "8880-1.mpd",
+   "section": "8880 - step13.ldr",
+   "steps": null,
+   "physical": 26,
+   "station": 0.45,
+   "db_description": "Multi-speed gearbox assembly with clutch gears, driving rings, bevel gears, and axles forming a transmission mechanism."
+  },
+  {
+   "car": "8880",
+   "file": "8880-1.mpd",
+   "section": "8880 - main.ldr",
+   "steps": [
+    22,
+    22
+   ],
+   "physical": 19,
+   "station": 0.41,
+   "db_description": null
+  },
+  {
+   "car": "42039",
+   "file": "42039-1.mpd",
+   "section": "42039 - 24 Hours Race Car.ldr",
+   "steps": [
+    34,
+    35
+   ],
+   "physical": 17,
+   "station": 0.51,
+   "db_description": null
+  },
+  {
+   "car": "8880",
+   "file": "8880-1.mpd",
+   "section": "8880 - main.ldr",
+   "steps": [
+    36,
+    36
+   ],
+   "physical": 12,
+   "station": 0.52,
+   "db_description": null
+  },
+  {
+   "car": "42039",
+   "file": "42039-1.mpd",
+   "section": "42039 - 24 Hours Race Car.ldr",
+   "steps": [
+    43,
+    43
+   ],
+   "physical": 8,
+   "station": 0.47,
+   "db_description": null
+  }
+ ],
+ "driveline (UJ/CV shafts)": [
+  {
+   "car": "8865",
+   "file": "8865-1.mpd",
+   "section": "8865 - Vehicle.ldr",
+   "steps": [
+    16,
+    18
+   ],
+   "physical": 78,
+   "station": 0.21,
+   "db_description": "A large Technic chassis built from long beams, pins, axles, bushes, and suspension arms forming the vehicle's main frame."
+  },
+  {
+   "car": "8865",
+   "file": "8865-1.mpd",
+   "section": "8865 - Vehicle.ldr",
+   "steps": [
+    7,
+    7
+   ],
+   "physical": 36,
+   "station": 0.67,
+   "db_description": "A large Technic chassis built from long beams, pins, axles, bushes, and suspension arms forming the vehicle's main frame."
+  },
+  {
+   "car": "8865",
+   "file": "8865-1.mpd",
+   "section": "8865 - Vehicle.ldr",
+   "steps": [
+    5,
+    5
+   ],
+   "physical": 32,
+   "station": 0.36,
+   "db_description": "A large Technic chassis built from long beams, pins, axles, bushes, and suspension arms forming the vehicle's main frame."
+  },
+  {
+   "car": "8865",
+   "file": "8865-1.mpd",
+   "section": "8865 - Vehicle.ldr",
+   "steps": [
+    14,
+    14
+   ],
+   "physical": 30,
+   "station": 0.59,
+   "db_description": "A large Technic chassis built from long beams, pins, axles, bushes, and suspension arms forming the vehicle's main frame."
+  },
+  {
+   "car": "42096",
+   "file": "42096-1.mpd",
+   "section": "42096 - porsche.ldr",
+   "steps": [
+    37,
+    37
+   ],
+   "physical": 10,
+   "station": 0.4,
+   "db_description": "The main Porsche chassis submodel featuring beams, gears, a differential, CV joints, steering bearings, and heavy use of pins and cross blocks for structural assembly."
+  },
+  {
+   "car": "8880",
+   "file": "8880-1.mpd",
+   "section": "8880 - step21sub1.ldr",
+   "steps": null,
+   "physical": 9,
+   "station": 0.25,
+   "db_description": "Driveshaft segment with universal joint, gears, and technic bricks transmitting rotational power."
+  },
+  {
+   "car": "8880",
+   "file": "8880-1.mpd",
+   "section": "8880 - step21sub2.ldr",
+   "steps": null,
+   "physical": 9,
+   "station": 0.29,
+   "db_description": "Driveshaft segment with universal joint, 8-tooth and 24-tooth crown gears for angled power transfer."
+  }
+ ],
+ "cockpit / seats": [
+  {
+   "car": "42096",
+   "file": "42096-1.mpd",
+   "section": "42096 - dashboard.ldr",
+   "steps": null,
+   "physical": 43,
+   "station": 0.38,
+   "db_description": "A dashboard module using bent liftarms, fairing panels, an angled elbow cylinder, and a technic brick."
+  },
+  {
+   "car": "42096",
+   "file": "42096-1.mpd",
+   "section": "42096 - headlight1.ldr",
+   "steps": null,
+   "physical": 33,
+   "station": 0.28,
+   "db_description": "Front headlight assembly with white liftarms, beams, angle connector, and mounting pins."
+  },
+  {
+   "car": "42096",
+   "file": "42096-1.mpd",
+   "section": "42096 - headlight2.ldr",
+   "steps": null,
+   "physical": 33,
+   "station": 0.28,
+   "db_description": "A headlight assembly built from white liftarms, axles, and angle connectors with cross blocks for mounting."
+  },
+  {
+   "car": "42096",
+   "file": "42096-1.mpd",
+   "section": "42096 - seat1.ldr",
+   "steps": null,
+   "physical": 26,
+   "station": 0.57,
+   "db_description": "Driver seat assembly built from bent liftarms and cross blocks forming the backrest and base."
+  },
+  {
+   "car": "8865",
+   "file": "8865-1.mpd",
+   "section": "8865 - Seat.ldr",
+   "steps": null,
+   "physical": 23,
+   "station": 0.56,
+   "db_description": "A driver's seat built from blue plates and hinge pieces forming a backrest and base."
+  },
+  {
+   "car": "8865",
+   "file": "8865-1.mpd",
+   "section": "8865 - Seat.ldr",
+   "steps": null,
+   "physical": 23,
+   "station": 0.56,
+   "db_description": "A driver's seat built from blue plates and hinge pieces forming a backrest and base."
+  },
+  {
+   "car": "42039",
+   "file": "42039-1.mpd",
+   "section": "42039 - seat.ldr",
+   "steps": null,
+   "physical": 12,
+   "station": 0.48,
+   "db_description": "A racing seat assembly built from bent red liftarms forming a backrest and base."
+  }
+ ],
+ "doors": [
+  {
+   "car": "42096",
+   "file": "42096-1.mpd",
+   "section": "42096 - door1.ldr",
+   "steps": null,
+   "physical": 32,
+   "station": 0.45,
+   "db_description": "Driver side door assembly with panel fairings, smooth panels, liftarms, and hinge pins."
+  },
+  {
+   "car": "42096",
+   "file": "42096-1.mpd",
+   "section": "42096 - door2.ldr",
+   "steps": null,
+   "physical": 32,
+   "station": 0.45,
+   "db_description": "A car door section with white fairing panels, smooth liftarms, and axle-pin connectors."
+  },
+  {
+   "car": "42039",
+   "file": "42039-1.mpd",
+   "section": "42039 - doorlift2.ldr",
+   "steps": null,
+   "physical": 16,
+   "station": 0.67,
+   "db_description": "A worm-gear-driven door-lift reduction mechanism with an 8-tooth output gear."
+  },
+  {
+   "car": "42039",
+   "file": "42039-1.mpd",
+   "section": "42039 - doorlift.ldr",
+   "steps": null,
+   "physical": 10,
+   "station": 0.57,
+   "db_description": "A door-lift mechanism using bevel gears, a toggle joint connector, and axles."
+  }
+ ],
+ "rear wing / spoiler": [
+  {
+   "car": "8880",
+   "file": "8880-1.mpd",
+   "section": "8880 - step30sub2.ldr",
+   "steps": null,
+   "physical": 29,
+   "station": 0.26,
+   "db_description": "Adjustable hinged plate assembly with technic bricks for a movable spoiler or wing component."
+  },
+  {
+   "car": "8880",
+   "file": "8880-1.mpd",
+   "section": "8880 - step31sub2.ldr",
+   "steps": null,
+   "physical": 26,
+   "station": 0.63,
+   "db_description": "Hinged panel assembly with long technic bricks and axle, mirroring the opposite wing element."
+  },
+  {
+   "car": "8880",
+   "file": "8880-1.mpd",
+   "section": "8880 - step31sub1.ldr",
+   "steps": null,
+   "physical": 26,
+   "station": 0.63,
+   "db_description": "Hinged panel assembly with long technic bricks and axle for an adjustable rear wing element."
+  },
+  {
+   "car": "8880",
+   "file": "8880-1.mpd",
+   "section": "8880 - step10sub2.ldr",
+   "steps": null,
+   "physical": 20,
+   "station": 0.09,
+   "db_description": "Aerodynamic body side panel with wings, plates, and 45-degree slopes forming a contoured fairing."
+  },
+  {
+   "car": "42096",
+   "file": "42096-1.mpd",
+   "section": "42096 - rear2.ldr",
+   "steps": null,
+   "physical": 19,
+   "station": 0.97,
+   "db_description": "Rear wing or spoiler assembly with liftarms, connector hubs, a plate, and a rounded thin-wall panel."
+  },
+  {
+   "car": "42096",
+   "file": "42096-1.mpd",
+   "section": "42096 - rear3.ldr",
+   "steps": null,
+   "physical": 19,
+   "station": 0.97,
+   "db_description": "Mirror rear wing or spoiler assembly with liftarms, connector hubs, a plate, and a rounded thin-wall panel."
+  },
+  {
+   "car": "8880",
+   "file": "8880-1.mpd",
+   "section": "8880 - step35.ldr",
+   "steps": null,
+   "physical": 17,
+   "station": 0.92,
+   "db_description": "Rear wing assembly built from large left and right wings, hinge plates, and structural plates."
+  },
+  {
+   "car": "42096",
+   "file": "42096-1.mpd",
+   "section": "42096 - spoiler.ldr",
+   "steps": null,
+   "physical": 15,
+   "station": 0.97,
+   "db_description": "A rear spoiler made from two large black 3x11 panels supported by beams and pins."
+  }
+ ],
+ "frame / chassis": [
+  {
+   "car": "42039",
+   "file": "42039-1.mpd",
+   "section": "42039 - 24 Hours Race Car.ldr",
+   "steps": [
+    8,
+    33
+   ],
+   "physical": 239,
+   "station": 0.52,
+   "db_description": null
+  },
+  {
+   "car": "8865",
+   "file": "8865-1.mpd",
+   "section": "8865 - Front Frame.ldr",
+   "steps": null,
+   "physical": 63,
+   "station": 0.31,
+   "db_description": "The front chassis frame of red technic beams, plates, pins, and a central black reinforcement beam."
+  },
+  {
+   "car": "8880",
+   "file": "8880-1.mpd",
+   "section": "8880 - step30sub1.ldr",
+   "steps": null,
+   "physical": 45,
+   "station": 0.59,
+   "db_description": "Large black structural frame assembly with long technic bricks, plates, and grille tiles."
+  },
+  {
+   "car": "8880",
+   "file": "8880-1.mpd",
+   "section": "8880 - main.ldr",
+   "steps": [
+    20,
+    21
+   ],
+   "physical": 45,
+   "station": 0.51,
+   "db_description": null
+  },
+  {
+   "car": "42039",
+   "file": "42039-1.mpd",
+   "section": "42039 - hood.ldr",
+   "steps": null,
+   "physical": 43,
+   "station": 0.96,
+   "db_description": "Hood structure composed of multiple liftarms, bent beams, and long pins forming the front bodywork framework."
+  },
+  {
+   "car": "42039",
+   "file": "42039-1.mpd",
+   "section": "42039 - frontfloor.ldr",
+   "steps": null,
+   "physical": 28,
+   "station": 0.07,
+   "db_description": "A front floor panel section using curved panels, beams, and cross blocks."
+  },
+  {
+   "car": "8880",
+   "file": "8880-1.mpd",
+   "section": "8880 - step33.ldr",
+   "steps": null,
+   "physical": 27,
+   "station": 0.81,
+   "db_description": "Pair of long Technic brick rails joined by friction pins and flanged bushes forming a structural beam."
+  },
+  {
+   "car": "42039",
+   "file": "42039-1.mpd",
+   "section": "42039 - frontchassis.ldr",
+   "steps": null,
+   "physical": 26,
+   "station": 0.38,
+   "db_description": "A front chassis substructure built from long liftarms, cross blocks, and an open-center beam."
+  }
+ ]
+}

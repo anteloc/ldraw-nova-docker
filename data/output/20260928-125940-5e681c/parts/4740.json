@@ -1,0 +1,256 @@
+{
+  "code": "4740.dat",
+  "path": "/opt/ldraw/ldraw/parts/4740.dat",
+  "metadata": {
+    "description": "Dish 2 x 2 Inverted",
+    "name": "4740.dat",
+    "author": "James Jessiman",
+    "author_username": null,
+    "file_kind": "part",
+    "origin": "official",
+    "qualifiers": [],
+    "release": "2014-02",
+    "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+    "bfc": "ccw",
+    "history": [
+      {
+        "date": "1998-06-20",
+        "contributor": "PTadmin",
+        "text": "Official Update 1998-06",
+        "raw": "1998-06-20 [PTadmin] Official Update 1998-06"
+      },
+      {
+        "date": "2003-06-08",
+        "contributor": "jriley",
+        "text": "BFC compliant, cone & ring substitutions",
+        "raw": "2003-06-08 [jriley] BFC compliant, cone & ring substitutions"
+      },
+      {
+        "date": "2003-12-19",
+        "contributor": "PTadmin",
+        "text": "Official Update 2003-03",
+        "raw": "2003-12-19 [PTadmin] Official Update 2003-03"
+      },
+      {
+        "date": "2004-09-15",
+        "contributor": "PTadmin",
+        "text": "Official Update 2004-03",
+        "raw": "2004-09-15 [PTadmin] Official Update 2004-03"
+      },
+      {
+        "date": "2007-07-08",
+        "contributor": "PTadmin",
+        "text": "Header formatted for Contributor Agreement",
+        "raw": "2007-07-08 [PTadmin] Header formatted for Contributor Agreement"
+      },
+      {
+        "date": "2008-07-01",
+        "contributor": "PTadmin",
+        "text": "Official Update 2008-01",
+        "raw": "2008-07-01 [PTadmin] Official Update 2008-01"
+      },
+      {
+        "date": "2010-05-09",
+        "contributor": "cwdee",
+        "text": "Remove CATEGORY Round",
+        "raw": "2010-05-09 [cwdee] Remove CATEGORY Round"
+      },
+      {
+        "date": "2010-07-05",
+        "contributor": "PTadmin",
+        "text": "Official Update 2010-02",
+        "raw": "2010-07-05 [PTadmin] Official Update 2010-02"
+      },
+      {
+        "date": "2014-09-03",
+        "contributor": "Philo",
+        "text": "Improved part shape, subparted for patterns",
+        "raw": "2014-09-03 [Philo] Improved part shape, subparted for patterns"
+      },
+      {
+        "date": "2014-12-23",
+        "contributor": "PTadmin",
+        "text": "Official Update 2014-02",
+        "raw": "2014-12-23 [PTadmin] Official Update 2014-02"
+      }
+    ],
+    "category": null,
+    "keywords": [
+      "Radar Dish",
+      "Round",
+      "Space"
+    ],
+    "status": "current",
+    "replacement": null,
+    "preview": null
+  },
+  "complete": true,
+  "bounds": {
+    "min": [
+      -20.0,
+      -4.0,
+      -20.0
+    ],
+    "max": [
+      20.0,
+      8.0,
+      20.0
+    ]
+  },
+  "size": [
+    40.0,
+    12.0,
+    40.0
+  ],
+  "stud_positions": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "connector_count": 4,
+  "connectors": [
+    {
+      "kind": "stud",
+      "role": "male",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 6.0,
+            "length": 4.0,
+            "flexible": false
+          }
+        ],
+        "centered": false,
+        "friction": true,
+        "caps": "one"
+      },
+      "name": "studO",
+      "feature_id": "s/4740s01@R0/stud2a@R0/studO",
+      "group": null,
+      "freedoms": [
+        "rotate"
+      ],
+      "source": "ldcad_shadow",
+      "confidence": 1.0,
+      "owner_code": "4740",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "/opt/ldraw-astra/data/offLibShadow/p/stud2a.dat:11"
+      ],
+      "metadata_id": "studO",
+      "connection_provenance": {
+        "source": "ldcad_shadow",
+        "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2a.dat",
+        "archive_member": null,
+        "line_number": 11,
+        "command": "0 !LDCAD SNAP_CYL [ID=studO] [gender=M] [caps=one] [secs=R 6 4]",
+        "include_chain": []
+      },
+      "scale_inheritance": "none",
+      "mirror_inheritance": "cor"
+    },
+    {
+      "kind": "stud_receptacle",
+      "role": "female",
+      "position": [
+        0.0,
+        8.0,
+        0.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 6.0,
+            "length": 4.0,
+            "flexible": false
+          }
+        ],
+        "centered": true,
+        "friction": false,
+        "caps": "none"
+      },
+      "name": "Stud Tube Open without Base Edges",
+      "feature_id": "s/4740s01@R0/stud4a@R1/stud4a",
+      "group": null,
+      "freedoms": [],
+      "source": "primitive",
+      "confidence": 1.0,
+      "owner_code": "4740",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "stud4a",
+        "derived:stud-socket"
+      ],
+      "metadata_id": null,
+      "connection_provenance": {
+        "source": "primitive",
+        "path": null,
+        "archive_member": null,
+        "line_number": null,
+        "command": "stud4a",
+        "include_chain": []
+      },
+      "scale_inheritance": "yandr",
+      "mirror_inheritance": "none"
+    }
+  ],
+  "connectors_truncated": true,
+  "diagnostics": [],
+  "connection_metadata": {
+    "coverage": "complete",
+    "source_count": 2,
+    "recognized_record_count": 3,
+    "unsupported_record_count": 0,
+    "invalid_record_count": 0,
+    "diagnostics": []
+  },
+  "rectangular_profile": null,
+  "note": "All coordinates are local LDU. Connector inference is evidence; inspect uncertain fits."
+}

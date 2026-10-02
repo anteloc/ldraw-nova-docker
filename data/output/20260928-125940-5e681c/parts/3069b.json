@@ -1,0 +1,201 @@
+{
+  "code": "3069b.dat",
+  "path": "/opt/ldraw/ldraw/parts/3069b.dat",
+  "metadata": {
+    "description": "Tile 1 x 2 with Groove",
+    "name": "3069b.dat",
+    "author": "Santeri Piippo",
+    "author_username": "arezey",
+    "file_kind": "part",
+    "origin": "official",
+    "qualifiers": [],
+    "release": "2010-02",
+    "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+    "bfc": "ccw",
+    "history": [
+      {
+        "date": "2010-07-05",
+        "contributor": "PTadmin",
+        "text": "Official Update 2010-02",
+        "raw": "2010-07-05 [PTadmin] Official Update 2010-02"
+      }
+    ],
+    "category": null,
+    "keywords": [
+      "BrickLink 3069"
+    ],
+    "status": "current",
+    "replacement": null,
+    "preview": null
+  },
+  "complete": true,
+  "bounds": {
+    "min": [
+      -20.0,
+      0.0,
+      -10.0
+    ],
+    "max": [
+      20.0,
+      8.0,
+      10.0
+    ]
+  },
+  "size": [
+    40.0,
+    8.0,
+    20.0
+  ],
+  "stud_positions": [],
+  "connector_count": 2,
+  "connectors": [
+    {
+      "kind": "stud_receptacle",
+      "role": "female",
+      "position": [
+        -10.0,
+        8.0,
+        0.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "square",
+            "radius": 6.0,
+            "length": 4.0,
+            "flexible": false
+          }
+        ],
+        "centered": false,
+        "friction": true,
+        "caps": "one"
+      },
+      "name": "LDCad cylinder",
+      "feature_id": "s/3069bs01@R0/snap_cyl@L8:I0",
+      "group": null,
+      "freedoms": [
+        "rotate"
+      ],
+      "source": "ldcad_shadow",
+      "confidence": 1.0,
+      "owner_code": "3069b",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "/opt/ldraw-astra/data/offLibShadow/parts/s/3069bs01.dat:8"
+      ],
+      "metadata_id": null,
+      "connection_provenance": {
+        "source": "ldcad_shadow",
+        "path": "/opt/ldraw-astra/data/offLibShadow/parts/s/3069bs01.dat",
+        "archive_member": null,
+        "line_number": 8,
+        "command": "0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=S 6 4] [pos=0 8 0] [grid=C 2 1 20 0]",
+        "include_chain": []
+      },
+      "scale_inheritance": "none",
+      "mirror_inheritance": "cor"
+    },
+    {
+      "kind": "stud_receptacle",
+      "role": "female",
+      "position": [
+        10.0,
+        8.0,
+        0.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "square",
+            "radius": 6.0,
+            "length": 4.0,
+            "flexible": false
+          }
+        ],
+        "centered": false,
+        "friction": true,
+        "caps": "one"
+      },
+      "name": "LDCad cylinder",
+      "feature_id": "s/3069bs01@R0/snap_cyl@L8:I1",
+      "group": null,
+      "freedoms": [
+        "rotate"
+      ],
+      "source": "ldcad_shadow",
+      "confidence": 1.0,
+      "owner_code": "3069b",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "/opt/ldraw-astra/data/offLibShadow/parts/s/3069bs01.dat:8"
+      ],
+      "metadata_id": null,
+      "connection_provenance": {
+        "source": "ldcad_shadow",
+        "path": "/opt/ldraw-astra/data/offLibShadow/parts/s/3069bs01.dat",
+        "archive_member": null,
+        "line_number": 8,
+        "command": "0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=S 6 4] [pos=0 8 0] [grid=C 2 1 20 0]",
+        "include_chain": []
+      },
+      "scale_inheritance": "none",
+      "mirror_inheritance": "cor"
+    }
+  ],
+  "connectors_truncated": false,
+  "diagnostics": [],
+  "connection_metadata": {
+    "coverage": "complete",
+    "source_count": 1,
+    "recognized_record_count": 1,
+    "unsupported_record_count": 0,
+    "invalid_record_count": 0,
+    "diagnostics": []
+  },
+  "rectangular_profile": {
+    "description": "Tile  1 x  2 with Groove",
+    "x_studs": 2,
+    "z_studs": 1,
+    "height": 8.0,
+    "studs": false
+  },
+  "note": "All coordinates are local LDU. Connector inference is evidence; inspect uncertain fits."
+}

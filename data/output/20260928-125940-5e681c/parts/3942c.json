@@ -1,0 +1,366 @@
+{
+  "code": "3942c.dat",
+  "path": "/opt/ldraw/ldraw/parts/3942c.dat",
+  "metadata": {
+    "description": "Cone 2 x 2 x 2 with Hollow Stud Open",
+    "name": "3942c.dat",
+    "author": "Michael Heidemann",
+    "author_username": "mikeheide",
+    "file_kind": "part",
+    "origin": "official",
+    "qualifiers": [],
+    "release": "2025-09",
+    "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+    "bfc": "ccw",
+    "history": [
+      {
+        "date": "2010-07-05",
+        "contributor": "PTadmin",
+        "text": "Official Update 2010-02",
+        "raw": "2010-07-05 [PTadmin] Official Update 2010-02"
+      },
+      {
+        "date": "2025-09-27",
+        "contributor": "OrionP",
+        "text": "Changed winding to CCW",
+        "raw": "2025-09-27 [OrionP] Changed winding to CCW"
+      },
+      {
+        "date": "2025-09-29",
+        "contributor": "OrionP",
+        "text": "Official Update 2025-09",
+        "raw": "2025-09-29 [OrionP] Official Update 2025-09"
+      }
+    ],
+    "category": null,
+    "keywords": [],
+    "status": "current",
+    "replacement": null,
+    "preview": null
+  },
+  "complete": true,
+  "bounds": {
+    "min": [
+      -20.0,
+      -4.0,
+      -20.0
+    ],
+    "max": [
+      20.0,
+      48.0,
+      20.0
+    ]
+  },
+  "size": [
+    40.0,
+    52.0,
+    40.0
+  ],
+  "stud_positions": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "connector_count": 7,
+  "connectors": [
+    {
+      "kind": "stud",
+      "role": "male",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 6.0,
+            "length": 4.0,
+            "flexible": false
+          }
+        ],
+        "centered": false,
+        "friction": true,
+        "caps": "one"
+      },
+      "name": "studO",
+      "feature_id": "stud2a@R8/studO",
+      "group": null,
+      "freedoms": [
+        "rotate"
+      ],
+      "source": "ldcad_shadow",
+      "confidence": 1.0,
+      "owner_code": "3942c",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "/opt/ldraw-astra/data/offLibShadow/p/stud2a.dat:11"
+      ],
+      "metadata_id": "studO",
+      "connection_provenance": {
+        "source": "ldcad_shadow",
+        "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2a.dat",
+        "archive_member": null,
+        "line_number": 11,
+        "command": "0 !LDCAD SNAP_CYL [ID=studO] [gender=M] [caps=one] [secs=R 6 4]",
+        "include_chain": []
+      },
+      "scale_inheritance": "none",
+      "mirror_inheritance": "cor"
+    },
+    {
+      "kind": "axle_hole",
+      "role": "female",
+      "position": [
+        0.0,
+        48.0,
+        0.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 6.0,
+            "length": 36.0,
+            "flexible": false
+          },
+          {
+            "shape": "axle",
+            "radius": 6.0,
+            "length": 8.0,
+            "flexible": false
+          },
+          {
+            "shape": "round",
+            "radius": 4.0,
+            "length": 8.0,
+            "flexible": false
+          }
+        ],
+        "centered": false,
+        "friction": false,
+        "caps": "none"
+      },
+      "name": "LDCad cylinder",
+      "feature_id": "snap_incl@L8:I0/snap_cyl@L9:I0",
+      "group": null,
+      "freedoms": [
+        "rotate",
+        "slide"
+      ],
+      "source": "ldcad_shadow",
+      "confidence": 1.0,
+      "owner_code": "3942c",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "/opt/ldraw-astra/data/offLibShadow/parts/3942a.dat:9 via snap_incl@L8 > snap_incl@L8:I0 > 3942a"
+      ],
+      "metadata_id": null,
+      "connection_provenance": {
+        "source": "ldcad_shadow",
+        "path": "/opt/ldraw-astra/data/offLibShadow/parts/3942a.dat",
+        "archive_member": null,
+        "line_number": 9,
+        "command": "0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 6 36   A 6 8   R 4 8] [slide=true] [pos=0 48 0]",
+        "include_chain": [
+          "snap_incl@L8",
+          "snap_incl@L8:I0",
+          "3942a"
+        ]
+      },
+      "scale_inheritance": "none",
+      "mirror_inheritance": "cor"
+    },
+    {
+      "kind": "stud_receptacle",
+      "role": "female",
+      "position": [
+        -10.0,
+        48.0,
+        -10.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 6.0,
+            "length": 4.0,
+            "flexible": false
+          }
+        ],
+        "centered": false,
+        "friction": true,
+        "caps": "one"
+      },
+      "name": "LDCad cylinder",
+      "feature_id": "snap_incl@L8:I0/snap_cyl@L10:I0",
+      "group": null,
+      "freedoms": [
+        "rotate"
+      ],
+      "source": "ldcad_shadow",
+      "confidence": 1.0,
+      "owner_code": "3942c",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "/opt/ldraw-astra/data/offLibShadow/parts/3942a.dat:10 via snap_incl@L8 > snap_incl@L8:I0 > 3942a"
+      ],
+      "metadata_id": null,
+      "connection_provenance": {
+        "source": "ldcad_shadow",
+        "path": "/opt/ldraw-astra/data/offLibShadow/parts/3942a.dat",
+        "archive_member": null,
+        "line_number": 10,
+        "command": "0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=R 6 4] [pos=0 48 0] [grid=C 2 C 2 20 20]",
+        "include_chain": [
+          "snap_incl@L8",
+          "snap_incl@L8:I0",
+          "3942a"
+        ]
+      },
+      "scale_inheritance": "none",
+      "mirror_inheritance": "cor"
+    },
+    {
+      "kind": "stud_receptacle",
+      "role": "female",
+      "position": [
+        -10.0,
+        48.0,
+        10.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 6.0,
+            "length": 4.0,
+            "flexible": false
+          }
+        ],
+        "centered": false,
+        "friction": true,
+        "caps": "one"
+      },
+      "name": "LDCad cylinder",
+      "feature_id": "snap_incl@L8:I0/snap_cyl@L10:I1",
+      "group": null,
+      "freedoms": [
+        "rotate"
+      ],
+      "source": "ldcad_shadow",
+      "confidence": 1.0,
+      "owner_code": "3942c",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "/opt/ldraw-astra/data/offLibShadow/parts/3942a.dat:10 via snap_incl@L8 > snap_incl@L8:I0 > 3942a"
+      ],
+      "metadata_id": null,
+      "connection_provenance": {
+        "source": "ldcad_shadow",
+        "path": "/opt/ldraw-astra/data/offLibShadow/parts/3942a.dat",
+        "archive_member": null,
+        "line_number": 10,
+        "command": "0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=R 6 4] [pos=0 48 0] [grid=C 2 C 2 20 20]",
+        "include_chain": [
+          "snap_incl@L8",
+          "snap_incl@L8:I0",
+          "3942a"
+        ]
+      },
+      "scale_inheritance": "none",
+      "mirror_inheritance": "cor"
+    }
+  ],
+  "connectors_truncated": true,
+  "diagnostics": [],
+  "connection_metadata": {
+    "coverage": "complete",
+    "source_count": 3,
+    "recognized_record_count": 6,
+    "unsupported_record_count": 0,
+    "invalid_record_count": 0,
+    "diagnostics": []
+  },
+  "rectangular_profile": null,
+  "note": "All coordinates are local LDU. Connector inference is evidence; inspect uncertain fits."
+}

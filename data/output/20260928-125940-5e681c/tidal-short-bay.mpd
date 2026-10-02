@@ -1,0 +1,38 @@
+0 FILE test-short-bay.ldr
+0 Local detail review
+0 Name: test-short-bay.ldr
+0 Author: OpenAI - original Tidal Observatory design
+0 !LDRAW_ORG Model
+0 // test: test
+1 19 0 0 0 1 0 0 0 1 0 0 0 1 tidal-short-bay.ldr
+0 NOFILE
+0 FILE tidal-short-bay.ldr
+0 Recessed blue glazing, limestone arch and projecting white sill
+0 Name: tidal-short-bay.ldr
+0 Author: OpenAI - original Tidal Observatory design
+0 !LDRAW_ORG Model
+0 // sill: sill
+1 15 0 -8 -10 1 0 0 0 1 0 0 0 1 3795.dat
+0 STEP
+0 // pier--1-0: pier  1 0
+1 19 -50 -32 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier--1-1: pier  1 1
+1 19 -50 -56 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier--1-2: pier  1 2
+1 19 -50 -80 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier-1-0: pier 1 0
+1 19 50 -32 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier-1-1: pier 1 1
+1 19 50 -56 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier-1-2: pier 1 2
+1 19 50 -80 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // frame: frame
+1 272 0 -80 0 1 0 0 0 1 0 0 0 1 60594.dat
+0 // pane-left: pane left
+1 47 -32 -76 4 0 0 -1 0 1 0 1 0 0 60608.dat
+0 // pane-right: pane right
+1 47 32 -76 4 0 0 1 0 1 0 -1 0 0 60608.dat
+0 STEP
+0 // arch: arch
+1 19 0 -128 0 1 0 0 0 1 0 0 0 1 3307.dat
+0 NOFILE

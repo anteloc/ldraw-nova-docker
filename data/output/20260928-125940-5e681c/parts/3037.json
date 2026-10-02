@@ -1,0 +1,236 @@
+{
+  "code": "3037.dat",
+  "path": "/opt/ldraw/ldraw/parts/3037.dat",
+  "metadata": {
+    "description": "Slope Brick 45 2 x 4",
+    "name": "3037.dat",
+    "author": "James Jessiman",
+    "author_username": null,
+    "file_kind": "part",
+    "origin": "official",
+    "qualifiers": [],
+    "release": "2009-01",
+    "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+    "bfc": "ccw",
+    "history": [
+      {
+        "date": "2007-06-07",
+        "contributor": "PTadmin",
+        "text": "Header formatted for Contributor Agreement",
+        "raw": "2007-06-07 [PTadmin] Header formatted for Contributor Agreement"
+      },
+      {
+        "date": "2008-07-01",
+        "contributor": "PTadmin",
+        "text": "Official Update 2008-01",
+        "raw": "2008-07-01 [PTadmin] Official Update 2008-01"
+      },
+      {
+        "date": "2008-07-07",
+        "contributor": "izanette",
+        "text": "Made BFC compliant (2003-03-08)",
+        "raw": "2008-07-07 [izanette] Made BFC compliant (2003-03-08)"
+      },
+      {
+        "date": "2008-07-08",
+        "contributor": "OrionP",
+        "text": "Fixed L3P errors, moved guts to subpart (2003-10-05)",
+        "raw": "2008-07-08 [OrionP] Fixed L3P errors, moved guts to subpart (2003-10-05)"
+      },
+      {
+        "date": "2009-05-02",
+        "contributor": "PTadmin",
+        "text": "Official Update 2009-01",
+        "raw": "2009-05-02 [PTadmin] Official Update 2009-01"
+      }
+    ],
+    "category": null,
+    "keywords": [],
+    "status": "current",
+    "replacement": null,
+    "preview": null
+  },
+  "complete": true,
+  "bounds": {
+    "min": [
+      -40.0,
+      -4.0,
+      -30.0
+    ],
+    "max": [
+      40.0,
+      24.0,
+      10.0
+    ]
+  },
+  "size": [
+    80.0,
+    28.0,
+    40.0
+  ],
+  "stud_positions": [
+    [
+      -30.0,
+      0.0,
+      0.0
+    ],
+    [
+      -10.0,
+      0.0,
+      0.0
+    ],
+    [
+      10.0,
+      0.0,
+      0.0
+    ],
+    [
+      30.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "connector_count": 19,
+  "connectors": [
+    {
+      "kind": "stud_receptacle",
+      "role": "female",
+      "position": [
+        20.0,
+        24.0,
+        -10.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 6.0,
+            "length": 4.0,
+            "flexible": false
+          }
+        ],
+        "centered": true,
+        "friction": false,
+        "caps": "none"
+      },
+      "name": "Stud Tube Open without Base Edges",
+      "feature_id": "s/3037s01@R0/stud4a@R0/stud4a",
+      "group": null,
+      "freedoms": [],
+      "source": "primitive",
+      "confidence": 1.0,
+      "owner_code": "3037",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "stud4a",
+        "derived:stud-socket"
+      ],
+      "metadata_id": null,
+      "connection_provenance": {
+        "source": "primitive",
+        "path": null,
+        "archive_member": null,
+        "line_number": null,
+        "command": "stud4a",
+        "include_chain": []
+      },
+      "scale_inheritance": "yandr",
+      "mirror_inheritance": "none"
+    },
+    {
+      "kind": "stud_receptacle",
+      "role": "female",
+      "position": [
+        10.0,
+        24.0,
+        0.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 6.0,
+            "length": 4.0,
+            "flexible": false
+          }
+        ],
+        "centered": true,
+        "friction": false,
+        "caps": "none"
+      },
+      "name": "Stud Socket",
+      "feature_id": "s/3037s01@R0/stud4a@R0/stud4a:socket:-1-1",
+      "group": null,
+      "freedoms": [],
+      "source": "primitive",
+      "confidence": 1.0,
+      "owner_code": "3037",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "stud4a",
+        "derived:stud-socket"
+      ],
+      "metadata_id": null,
+      "connection_provenance": {
+        "source": "primitive",
+        "path": null,
+        "archive_member": null,
+        "line_number": null,
+        "command": "stud4a",
+        "include_chain": []
+      },
+      "scale_inheritance": "yandr",
+      "mirror_inheritance": "none"
+    }
+  ],
+  "connectors_truncated": true,
+  "diagnostics": [],
+  "connection_metadata": {
+    "coverage": "complete",
+    "source_count": 2,
+    "recognized_record_count": 3,
+    "unsupported_record_count": 0,
+    "invalid_record_count": 0,
+    "diagnostics": []
+  },
+  "rectangular_profile": null,
+  "note": "All coordinates are local LDU. Connector inference is evidence; inspect uncertain fits."
+}

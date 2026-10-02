@@ -1,0 +1,223 @@
+{
+ "version": 1,
+ "author": "carlos.antelo@gmail.com via LDraw Astra agent",
+ "sections": [
+  {
+   "name": "bradbury.ldr",
+   "description": "The Bradbury Building, Broadway at 3rd Street, Los Angeles: brick corner block with a chamfered corner, round-arch arcade, glazed light court and street furniture",
+   "steps": [
+    [
+     {
+      "id": "site",
+      "ref": "brad-base.ldr",
+      "colour": 72,
+      "at": [
+       0.0,
+       0.0,
+       0.0
+      ],
+      "purpose": "Street, kerb and sidewalk"
+     }
+    ],
+    [
+     {
+      "id": "ground",
+      "ref": "brad-ground.ldr",
+      "colour": 19,
+      "at": [
+       0.0,
+       -8.0,
+       0.0
+      ],
+      "purpose": "Stone ground storey with shopfronts and the Broadway entrance"
+     },
+     {
+      "id": "storey-1",
+      "ref": "brad-storey.ldr",
+      "colour": 19,
+      "attach": {
+       "to": "ground",
+       "anchor": "next",
+       "using": "base"
+      }
+     },
+     {
+      "id": "storey-2",
+      "ref": "brad-storey.ldr",
+      "colour": 19,
+      "attach": {
+       "to": "storey-1",
+       "anchor": "next",
+       "using": "base"
+      }
+     },
+     {
+      "id": "storey-3",
+      "ref": "brad-storey.ldr",
+      "colour": 19,
+      "attach": {
+       "to": "storey-2",
+       "anchor": "next",
+       "using": "base"
+      }
+     },
+     {
+      "id": "arcade",
+      "ref": "brad-arcade.ldr",
+      "colour": 19,
+      "attach": {
+       "to": "storey-3",
+       "anchor": "next",
+       "using": "base"
+      },
+      "purpose": "Top-floor round-arch arcade"
+     },
+     {
+      "id": "roof",
+      "ref": "brad-roof.ldr",
+      "colour": 72,
+      "attach": {
+       "to": "arcade",
+       "anchor": "next",
+       "using": "base"
+      },
+      "purpose": "Roof bed, skylight and bulkhead"
+     },
+     {
+      "id": "cornice",
+      "ref": "brad-cornice.ldr",
+      "colour": 70,
+      "attach": {
+       "to": "roof",
+       "anchor": "next",
+       "using": "base"
+      }
+     }
+    ],
+    [
+     {
+      "id": "lift-a",
+      "ref": "brad-elevator.ldr",
+      "colour": 0,
+      "at": [
+       0.0,
+       -24.0,
+       60.0
+      ],
+      "purpose": "Two open-cage elevators stand in the light court"
+     },
+     {
+      "id": "lift-b",
+      "ref": "brad-elevator.ldr",
+      "colour": 0,
+      "at": [
+       0.0,
+       -24.0,
+       260.0
+      ]
+     },
+     {
+      "id": "stair-1",
+      "ref": "brad-stair.ldr",
+      "colour": 70,
+      "at": [
+       -140.0,
+       -24.0,
+       140.0
+      ]
+     }
+    ],
+    [
+     {
+      "id": "escape",
+      "ref": "brad-fire-escape.ldr",
+      "colour": 0,
+      "at": [
+       200.0,
+       -16.0,
+       220.0
+      ],
+      "purpose": "Fire escape on the 3rd Street elevation"
+     }
+    ],
+    [
+     {
+      "id": "sign",
+      "ref": "brad-blade-sign.ldr",
+      "colour": 0,
+      "at": [
+       240.0,
+       -8.0,
+       -160.0
+      ],
+      "purpose": "Vertical BRADBURY BLDG sign right on the street corner"
+     },
+     {
+      "id": "lamp-a",
+      "ref": "brad-lamp.ldr",
+      "colour": 0,
+      "at": [
+       280.0,
+       -8.0,
+       60.0
+      ]
+     },
+     {
+      "id": "lamp-b",
+      "ref": "brad-lamp.ldr",
+      "colour": 0,
+      "at": [
+       -120.0,
+       -8.0,
+       -180.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "signal",
+      "ref": "brad-signal.ldr",
+      "colour": 0,
+      "at": [
+       280.0,
+       -8.0,
+       -200.0
+      ]
+     },
+     {
+      "id": "planter-a",
+      "ref": "brad-planter.ldr",
+      "colour": 2,
+      "at": [
+       -420.0,
+       -8.0,
+       -180.0
+      ]
+     },
+     {
+      "id": "planter-b",
+      "ref": "brad-planter.ldr",
+      "colour": 2,
+      "at": [
+       260.0,
+       -8.0,
+       300.0
+      ]
+     },
+     {
+      "id": "hydrant",
+      "ref": "brad-hydrant.ldr",
+      "colour": 4,
+      "at": [
+       70.0,
+       -8.0,
+       -170.0
+      ]
+     }
+    ]
+   ]
+  }
+ ],
+ "includes": [
+  "building.plan.json"
+ ]
+}

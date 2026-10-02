@@ -1,0 +1,404 @@
+{
+  "code": "3958.dat",
+  "path": "/opt/ldraw/ldraw/parts/3958.dat",
+  "metadata": {
+    "description": "Plate 6 x 6",
+    "name": "3958.dat",
+    "author": "James Jessiman",
+    "author_username": null,
+    "file_kind": "part",
+    "origin": "official",
+    "qualifiers": [],
+    "release": "2017-01",
+    "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+    "bfc": "ccw",
+    "history": [
+      {
+        "date": "2007-06-30",
+        "contributor": "PTadmin",
+        "text": "Header formatted for Contributor Agreement",
+        "raw": "2007-06-30 [PTadmin] Header formatted for Contributor Agreement"
+      },
+      {
+        "date": "2008-07-01",
+        "contributor": "PTadmin",
+        "text": "Official Update 2008-01",
+        "raw": "2008-07-01 [PTadmin] Official Update 2008-01"
+      },
+      {
+        "date": "2008-07-07",
+        "contributor": "guyvivan",
+        "text": "Made BFC compliant (2005-05-17)",
+        "raw": "2008-07-07 [guyvivan] Made BFC compliant (2005-05-17)"
+      },
+      {
+        "date": "2009-05-02",
+        "contributor": "PTadmin",
+        "text": "Official Update 2009-01",
+        "raw": "2009-05-02 [PTadmin] Official Update 2009-01"
+      },
+      {
+        "date": "2017-01-09",
+        "contributor": "Steffen",
+        "text": "used more stugs",
+        "raw": "2017-01-09 [Steffen] used more stugs"
+      },
+      {
+        "date": "2017-12-30",
+        "contributor": "PTadmin",
+        "text": "Official Update 2017-01",
+        "raw": "2017-12-30 [PTadmin] Official Update 2017-01"
+      }
+    ],
+    "category": null,
+    "keywords": [],
+    "status": "current",
+    "replacement": null,
+    "preview": null
+  },
+  "complete": true,
+  "bounds": {
+    "min": [
+      -60.0,
+      -4.0,
+      -60.0
+    ],
+    "max": [
+      60.0,
+      8.0,
+      60.0
+    ]
+  },
+  "size": [
+    120.0,
+    12.0,
+    120.0
+  ],
+  "stud_positions": [
+    [
+      -50.0,
+      0.0,
+      -50.0
+    ],
+    [
+      -50.0,
+      0.0,
+      -30.0
+    ],
+    [
+      -50.0,
+      0.0,
+      -10.0
+    ],
+    [
+      -30.0,
+      0.0,
+      -50.0
+    ],
+    [
+      -30.0,
+      0.0,
+      -30.0
+    ],
+    [
+      -30.0,
+      0.0,
+      -10.0
+    ],
+    [
+      -10.0,
+      0.0,
+      -50.0
+    ],
+    [
+      -10.0,
+      0.0,
+      -30.0
+    ],
+    [
+      -10.0,
+      0.0,
+      -10.0
+    ],
+    [
+      -50.0,
+      0.0,
+      10.0
+    ],
+    [
+      -50.0,
+      0.0,
+      30.0
+    ],
+    [
+      -50.0,
+      0.0,
+      50.0
+    ],
+    [
+      -30.0,
+      0.0,
+      10.0
+    ],
+    [
+      -30.0,
+      0.0,
+      30.0
+    ],
+    [
+      -30.0,
+      0.0,
+      50.0
+    ],
+    [
+      -10.0,
+      0.0,
+      10.0
+    ],
+    [
+      -10.0,
+      0.0,
+      30.0
+    ],
+    [
+      -10.0,
+      0.0,
+      50.0
+    ],
+    [
+      10.0,
+      0.0,
+      10.0
+    ],
+    [
+      10.0,
+      0.0,
+      30.0
+    ],
+    [
+      10.0,
+      0.0,
+      50.0
+    ],
+    [
+      30.0,
+      0.0,
+      10.0
+    ],
+    [
+      30.0,
+      0.0,
+      30.0
+    ],
+    [
+      30.0,
+      0.0,
+      50.0
+    ],
+    [
+      50.0,
+      0.0,
+      10.0
+    ],
+    [
+      50.0,
+      0.0,
+      30.0
+    ],
+    [
+      50.0,
+      0.0,
+      50.0
+    ],
+    [
+      10.0,
+      0.0,
+      -50.0
+    ],
+    [
+      10.0,
+      0.0,
+      -30.0
+    ],
+    [
+      10.0,
+      0.0,
+      -10.0
+    ],
+    [
+      30.0,
+      0.0,
+      -50.0
+    ],
+    [
+      30.0,
+      0.0,
+      -30.0
+    ],
+    [
+      30.0,
+      0.0,
+      -10.0
+    ],
+    [
+      50.0,
+      0.0,
+      -50.0
+    ],
+    [
+      50.0,
+      0.0,
+      -30.0
+    ],
+    [
+      50.0,
+      0.0,
+      -10.0
+    ]
+  ],
+  "connector_count": 97,
+  "connectors": [
+    {
+      "kind": "stud",
+      "role": "male",
+      "position": [
+        -50.0,
+        0.0,
+        -50.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 6.0,
+            "length": 4.0,
+            "flexible": false
+          }
+        ],
+        "centered": false,
+        "friction": true,
+        "caps": "one"
+      },
+      "name": "studC",
+      "feature_id": "stug-6x6@R0/stug-3x3@R0/stud@R0/studC",
+      "group": null,
+      "freedoms": [
+        "rotate"
+      ],
+      "source": "ldcad_shadow",
+      "confidence": 1.0,
+      "owner_code": "3958",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "/opt/ldraw-astra/data/offLibShadow/p/stud.dat:8"
+      ],
+      "metadata_id": "studC",
+      "connection_provenance": {
+        "source": "ldcad_shadow",
+        "path": "/opt/ldraw-astra/data/offLibShadow/p/stud.dat",
+        "archive_member": null,
+        "line_number": 8,
+        "command": "0 !LDCAD SNAP_CYL [ID=studC] [gender=M] [caps=one] [secs=R 6 4]",
+        "include_chain": []
+      },
+      "scale_inheritance": "none",
+      "mirror_inheritance": "cor"
+    },
+    {
+      "kind": "stud",
+      "role": "male",
+      "position": [
+        -50.0,
+        0.0,
+        -30.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 6.0,
+            "length": 4.0,
+            "flexible": false
+          }
+        ],
+        "centered": false,
+        "friction": true,
+        "caps": "one"
+      },
+      "name": "studC",
+      "feature_id": "stug-6x6@R0/stug-3x3@R0/stud@R1/studC",
+      "group": null,
+      "freedoms": [
+        "rotate"
+      ],
+      "source": "ldcad_shadow",
+      "confidence": 1.0,
+      "owner_code": "3958",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "/opt/ldraw-astra/data/offLibShadow/p/stud.dat:8"
+      ],
+      "metadata_id": "studC",
+      "connection_provenance": {
+        "source": "ldcad_shadow",
+        "path": "/opt/ldraw-astra/data/offLibShadow/p/stud.dat",
+        "archive_member": null,
+        "line_number": 8,
+        "command": "0 !LDCAD SNAP_CYL [ID=studC] [gender=M] [caps=one] [secs=R 6 4]",
+        "include_chain": []
+      },
+      "scale_inheritance": "none",
+      "mirror_inheritance": "cor"
+    }
+  ],
+  "connectors_truncated": true,
+  "diagnostics": [],
+  "connection_metadata": {
+    "coverage": "complete",
+    "source_count": 3,
+    "recognized_record_count": 2,
+    "unsupported_record_count": 0,
+    "invalid_record_count": 0,
+    "diagnostics": []
+  },
+  "rectangular_profile": null,
+  "note": "All coordinates are local LDU. Connector inference is evidence; inspect uncertain fits."
+}

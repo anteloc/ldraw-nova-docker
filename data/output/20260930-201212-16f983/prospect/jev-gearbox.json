@@ -1,0 +1,1043 @@
+{
+  "query": "a compact two-speed Technic gearbox with a driving ring, clutch gears and a shift lever for a sports car",
+  "kind": "submodels",
+  "engine": "jev",
+  "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+  "index_signature": "c3c851bfa92aff4ac3ef5a120b8f489e4ab5d77fdc22391703b3eefb3040ce85",
+  "results": [
+    {
+      "kind": "submodels",
+      "description": "Gearbox stage with transmission driving rings, clutch gears, and axles for gear selection.",
+      "model": "8110-1.mpd",
+      "section": "8110 - gearBox-1.ldr",
+      "id": "submodel-260f424c2e93bf9a7f215202",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "Gearbox stage with transmission driving rings, clutch gears, and axles for gear selection.",
+      "original_full_description": "8110-1.mpd|8110 - gearBox-1.ldr|Gearbox stage with transmission driving rings, clutch gears, and axles for gear selection.",
+      "source_exists": true,
+      "path": "/opt/ldraw-astra/data/models-annotated/8110-1.mpd",
+      "source_sha256": "cde628b1144c310a3433ab97f2abb4c5dada83ee0168707e7619311d513690e4",
+      "source_section": "8110 - gearBox-1.ldr",
+      "start_line": 9250,
+      "parent_description": "Technic chassis and drivetrain assembly featuring beams, pins, differential gears, universal joints, pneumatics, and Power Functions motor components forming the Mercedes-Benz Unimog U 400.",
+      "theme": "",
+      "direct_placements": 10,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "8110-1.mpd|8110 - gearBox-1.ldr|Gearbox stage with transmission driving rings, clutch gears, and axles for gear selection.",
+      "score": 0.74,
+      "retrieval_rank": 2,
+      "inventory": {
+        "source_sha256": "cde628b1144c310a3433ab97f2abb4c5dada83ee0168707e7619311d513690e4",
+        "parser_section": "8110 - gearBox-1.ldr",
+        "physical_placements": 10,
+        "expanded_leaf_count": 10,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "32187.dat",
+            "count": 2,
+            "description": "Technic Transmission Driving Ring Extension",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3705.dat",
+            "count": 1,
+            "description": "Technic Axle  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3713.dat",
+            "count": 1,
+            "description": "Technic Bush with Two Flanges",
+            "physical_index_entry": true
+          },
+          {
+            "part": "44294.dat",
+            "count": 1,
+            "description": "Technic Axle  7",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6538a.dat",
+            "count": 1,
+            "description": "Technic Axle Joiner",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6539.dat",
+            "count": 1,
+            "description": "Technic Transmission Driving Ring",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6542a.dat",
+            "count": 2,
+            "description": "Technic Gear 16 Tooth with Clutch",
+            "physical_index_entry": true
+          },
+          {
+            "part": "94925.dat",
+            "count": 1,
+            "description": "Technic Gear 16 Tooth Reinforced",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 10,
+        "technic_share": 1.0,
+        "legacy_parts": [],
+        "shape_fingerprint": "13c6ed3ed30277a619e3f6e9bea3a9d7e1eb256f30a79e464a9ec1736d278162",
+        "recipe_fingerprint": "7a8be8aa64a3a294d245b0eadaf3383afb2a3e7f6059b0ed6df4703d935e9472",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "8110 - Mercedes-Benz Unimog U 400.ldr",
+            "at": [
+              100.0,
+              -20.0,
+              -120.0
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "colour": 16
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "8110 - gearBox-1.ldr",
+            "kind": "assembly",
+            "author": "Tomas Kralicek [RabbiT_CZ]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      },
+      "mechanism_study": "inspect source steps, parts and parent context; analytical mechanism verification is deferred"
+    },
+    {
+      "kind": "submodels",
+      "description": "Gearbox assembly with multiple gear ratios using clutch gears, bevel gears, a transmission driving ring, and technic brick framework.",
+      "model": "8448-1_Racer.mpd",
+      "section": "8448 - box4.ldr",
+      "id": "submodel-1ed8c4c35813783495651c4a",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "Gearbox assembly with multiple gear ratios using clutch gears, bevel gears, a transmission driving ring, and technic brick framework.",
+      "original_full_description": "8448-1_Racer.mpd|8448 - box4.ldr|Gearbox assembly with multiple gear ratios using clutch gears, bevel gears, a transmission driving ring, and technic brick framework.",
+      "source_exists": true,
+      "path": "/opt/ldraw-astra/data/models-annotated/8448-1_Racer.mpd",
+      "source_sha256": "38c43217ae5a27924d214cca109a2927b45dc5aa4caccc82ffeace136f1cf1c7",
+      "source_section": "8448 - box4.ldr",
+      "start_line": 10155,
+      "parent_description": "Complete LEGO Technic race car model assembled from the chassis, gearbox, rear drivetrain, and suspension submodels.",
+      "theme": "Technic",
+      "direct_placements": 52,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "8448-1_Racer.mpd|8448 - box4.ldr|Gearbox assembly with multiple gear ratios using clutch gears, bevel gears, a transmission driving ring, and technic brick framework.",
+      "score": 0.73,
+      "retrieval_rank": 3,
+      "inventory": {
+        "source_sha256": "38c43217ae5a27924d214cca109a2927b45dc5aa4caccc82ffeace136f1cf1c7",
+        "parser_section": "8448 - box4.ldr",
+        "physical_placements": 78,
+        "expanded_leaf_count": 78,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "2431.dat",
+            "count": 2,
+            "description": "Tile  1 x  4 with Groove",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2780.dat",
+            "count": 3,
+            "description": "Technic Pin with Friction and Slots",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3002.dat",
+            "count": 1,
+            "description": "Brick  2 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3022.dat",
+            "count": 2,
+            "description": "Plate  2 x  2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3023.dat",
+            "count": 1,
+            "description": "~Moved to 3023b",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32000.dat",
+            "count": 5,
+            "description": "Technic Brick  1 x  2 with Holes",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32017.dat",
+            "count": 4,
+            "description": "Technic Beam  5 x  0.5",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32073.dat",
+            "count": 1,
+            "description": "Technic Axle  5",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32187.dat",
+            "count": 1,
+            "description": "Technic Transmission Driving Ring Extension",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32269.dat",
+            "count": 2,
+            "description": "Technic Gear 20 Tooth Double Bevel",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32270.dat",
+            "count": 2,
+            "description": "Technic Gear 12 Tooth Double Bevel",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3648b.dat",
+            "count": 2,
+            "description": "Technic Gear 24 Tooth with Single Axle Hole",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3665a.dat",
+            "count": 2,
+            "description": "Slope Brick 45  2 x  1 Inverted without Inner Stopper Ring",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3673.dat",
+            "count": 1,
+            "description": "Technic Pin",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3702.dat",
+            "count": 2,
+            "description": "Technic Brick  1 x  8 with Holes",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3705.dat",
+            "count": 2,
+            "description": "Technic Axle  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3707.dat",
+            "count": 3,
+            "description": "Technic Axle  8",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3710.dat",
+            "count": 1,
+            "description": "Plate  1 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3713.dat",
+            "count": 2,
+            "description": "Technic Bush with Two Flanges",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3794a.dat",
+            "count": 9,
+            "description": "Plate  1 x  2 without Groove with 1 Centre Stud",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3832.dat",
+            "count": 1,
+            "description": "Plate  2 x 10",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3894.dat",
+            "count": 2,
+            "description": "Technic Brick  1 x  6 with Holes",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4019.dat",
+            "count": 1,
+            "description": "Technic Gear 16 Tooth",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4287a.dat",
+            "count": 2,
+            "description": "Slope Brick 33  3 x  1 Inverted with Notch and Thick Front",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4477.dat",
+            "count": 2,
+            "description": "Plate  1 x 10",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4519.dat",
+            "count": 1,
+            "description": "Technic Axle  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6538b.dat",
+            "count": 4,
+            "description": "Technic Axle Joiner Offset",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6539.dat",
+            "count": 3,
+            "description": "Technic Transmission Driving Ring",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6541.dat",
+            "count": 3,
+            "description": "Technic Brick  1 x  1 with Hole",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6542a.dat",
+            "count": 6,
+            "description": "Technic Gear 16 Tooth with Clutch",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6558.dat",
+            "count": 3,
+            "description": "Technic Pin Long with Friction and Slot",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6631.dat",
+            "count": 2,
+            "description": "Technic Plate  2 x  6 with 2 Position Gear Shift Gate",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 55,
+        "technic_share": 0.7051282051282052,
+        "legacy_parts": [
+          {
+            "part": "3023.dat",
+            "count": 1,
+            "description": "~Moved to 3023b",
+            "physical_index_entry": true
+          }
+        ],
+        "shape_fingerprint": "69137179e3dd2cf3c1d631378e0447f34ecfdedeb7c76c3355f87a3132adf355",
+        "recipe_fingerprint": "303439759d30acc38b6a81789d0644c485f7b5539a80b01c7e89c1132b45dd16",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "8448 - chassis.ldr",
+            "at": [
+              0.0,
+              -30.0,
+              50.0
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "colour": 7
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "8448 - box4.ldr",
+            "kind": "assembly",
+            "author": "Orion Pobursky [OrionP]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "8448 - box4step6.ldr",
+            "kind": "assembly",
+            "author": "Orion Pobursky [OrionP]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "8448 - box4step7.ldr",
+            "kind": "assembly",
+            "author": "Orion Pobursky [OrionP]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "8448 - box4step17.ldr",
+            "kind": "assembly",
+            "author": "Orion Pobursky [OrionP]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "8448 - box4step18.ldr",
+            "kind": "assembly",
+            "author": "Orion Pobursky [OrionP]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      },
+      "mechanism_study": "inspect source steps, parts and parent context; analytical mechanism verification is deferred",
+      "variants": [
+        {
+          "id": "submodel-7d510ffeb37318640ba8f5b1",
+          "model": "8448-1.mpd",
+          "section": "8448 - box4.ldr",
+          "score": 0.69
+        },
+        {
+          "id": "submodel-b8e13ee599b6178482a0f614",
+          "model": "8448-1_Hot-Rod.mpd",
+          "section": "8448 - box4.ldr",
+          "score": 0.65
+        },
+        {
+          "id": "submodel-6f10716aab1b1868f6abdee0",
+          "model": "8448-1_Wing-Doors.mpd",
+          "section": "8448 - box4.ldr",
+          "score": 0.58
+        },
+        {
+          "id": "submodel-f5bccc9deb13b5315545a368",
+          "model": "8448-1_Concept-Car.mpd",
+          "section": "8448 - box4.ldr",
+          "score": 0.51
+        }
+      ]
+    },
+    {
+      "kind": "submodels",
+      "description": "A gear-shifting subassembly with two clutch gears, a transmission driving ring, and joining axles.",
+      "model": "8448-1_Hot-Rod.mpd",
+      "section": "8448 - box4step6.ldr",
+      "id": "submodel-376496d11b362401f3410ae4",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "A gear-shifting subassembly with two clutch gears, a transmission driving ring, and joining axles.",
+      "original_full_description": "8448-1_Hot-Rod.mpd|8448 - box4step6.ldr|A gear-shifting subassembly with two clutch gears, a transmission driving ring, and joining axles.",
+      "source_exists": true,
+      "path": "/opt/ldraw-astra/data/models-annotated/8448-1_Hot-Rod.mpd",
+      "source_sha256": "78a5b7ac24410beb91db894203a43415b0932769505ef1064dfa53924e8b94b9",
+      "source_section": "8448 - box4step6.ldr",
+      "start_line": 10259,
+      "parent_description": "Top-level assembly linking the chassis and body submodels into the complete Hot Rod model.",
+      "theme": "Technic",
+      "direct_placements": 6,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "8448-1_Hot-Rod.mpd|8448 - box4step6.ldr|A gear-shifting subassembly with two clutch gears, a transmission driving ring, and joining axles.",
+      "score": 0.73,
+      "retrieval_rank": 4,
+      "inventory": {
+        "source_sha256": "78a5b7ac24410beb91db894203a43415b0932769505ef1064dfa53924e8b94b9",
+        "parser_section": "8448 - box4step6.ldr",
+        "physical_placements": 6,
+        "expanded_leaf_count": 6,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "3705.dat",
+            "count": 1,
+            "description": "Technic Axle  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3707.dat",
+            "count": 1,
+            "description": "Technic Axle  8",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6538b.dat",
+            "count": 1,
+            "description": "Technic Axle Joiner Offset",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6539.dat",
+            "count": 1,
+            "description": "Technic Transmission Driving Ring",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6542a.dat",
+            "count": 2,
+            "description": "Technic Gear 16 Tooth with Clutch",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 6,
+        "technic_share": 1.0,
+        "legacy_parts": [],
+        "shape_fingerprint": "f4d4c64f581e90c31553a3656ceaedb9c8b0fac8a7fd6c301190055366a9d6e4",
+        "recipe_fingerprint": "982fbf9546d4e6dd5394fa71511d53103732fcc81d904d734d4dee3a3a9c9a89",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "8448 - box4.ldr",
+            "at": [
+              -40.0,
+              0.0,
+              -50.0
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "colour": 8
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "8448 - box4step6.ldr",
+            "kind": "assembly",
+            "author": "Orion Pobursky [OrionP]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      },
+      "mechanism_study": "inspect source steps, parts and parent context; analytical mechanism verification is deferred",
+      "variants": [
+        {
+          "id": "submodel-686850f150dabbdebf83ece5",
+          "model": "8448-1.mpd",
+          "section": "8448 - box4step6.ldr",
+          "score": 0.61
+        },
+        {
+          "id": "submodel-721bcdf4e3bd97446a4db0c7",
+          "model": "8448-1_Racer.mpd",
+          "section": "8448 - box4step6.ldr",
+          "score": 0.61
+        },
+        {
+          "id": "submodel-26d0df4a3610c77ac5f341b3",
+          "model": "8448-1_Concept-Car.mpd",
+          "section": "8448 - box4step6.ldr",
+          "score": 0.57
+        },
+        {
+          "id": "submodel-4108a877bb2e66666fb8c6b9",
+          "model": "8448-1_Wing-Doors.mpd",
+          "section": "8448 - box4step6.ldr",
+          "score": 0.56
+        }
+      ]
+    },
+    {
+      "kind": "submodels",
+      "description": "Gearbox shifter assembly with a transmission driving ring, clutch gears, and bevel gears on a beam framework.",
+      "model": "42112-1.mpd",
+      "section": "42112 - gearshift.ldr",
+      "id": "submodel-e7c5a861538e73cd341291bc",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "Gearbox shifter assembly with a transmission driving ring, clutch gears, and bevel gears on a beam framework.",
+      "original_full_description": "42112-1.mpd|42112 - gearshift.ldr|Gearbox shifter assembly with a transmission driving ring, clutch gears, and bevel gears on a beam framework.",
+      "source_exists": true,
+      "path": "/opt/ldraw-astra/data/models-annotated/42112-1.mpd",
+      "source_sha256": "3b1924ffa2bf869eebb1d8b8c6c6c82eb0dd30638f6337bb64ba0fa63fa19575",
+      "source_section": "42112 - gearshift.ldr",
+      "start_line": 1633,
+      "parent_description": "Main assembly of a concrete mixer truck featuring a heavy Technic beam framework with steering, gearshift, drivetrain, rear axles with differentials, rotating mixer drum support, loading chute, and detailed cab with body panels.",
+      "theme": "",
+      "direct_placements": 17,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "42112-1.mpd|42112 - gearshift.ldr|Gearbox shifter assembly with a transmission driving ring, clutch gears, and bevel gears on a beam framework.",
+      "score": 0.7,
+      "retrieval_rank": 5,
+      "inventory": {
+        "source_sha256": "3b1924ffa2bf869eebb1d8b8c6c6c82eb0dd30638f6337bb64ba0fa63fa19575",
+        "parser_section": "42112 - gearshift.ldr",
+        "physical_placements": 17,
+        "expanded_leaf_count": 17,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "18654.dat",
+            "count": 1,
+            "description": "Technic Beam  1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "18946.dat",
+            "count": 1,
+            "description": "Technic Gear 16 Tooth with Clutch on Both Sides",
+            "physical_index_entry": true
+          },
+          {
+            "part": "18947.dat",
+            "count": 1,
+            "description": "Technic Transmission Driving Ring  3L",
+            "physical_index_entry": true
+          },
+          {
+            "part": "18948.dat",
+            "count": 1,
+            "description": "Technic Axle Joiner  3L with Ridges for Driving Ring",
+            "physical_index_entry": true
+          },
+          {
+            "part": "24316.dat",
+            "count": 1,
+            "description": "Technic Axle  3 with Stop",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32062.dat",
+            "count": 1,
+            "description": "Technic Axle  2 Notched",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32073.dat",
+            "count": 1,
+            "description": "Technic Axle  5",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32270.dat",
+            "count": 1,
+            "description": "Technic Gear 12 Tooth Double Bevel",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32524.dat",
+            "count": 1,
+            "description": "Technic Beam  7",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3713.dat",
+            "count": 1,
+            "description": "Technic Bush with Two Flanges",
+            "physical_index_entry": true
+          },
+          {
+            "part": "42112 - 35185.dat",
+            "count": 1,
+            "description": "Primitive subpart defining a Technic connector hole with rings and open cylinders.",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4519.dat",
+            "count": 1,
+            "description": "Technic Axle  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "55013.dat",
+            "count": 1,
+            "description": "Technic Axle  8 with Stop",
+            "physical_index_entry": true
+          },
+          {
+            "part": "59443.dat",
+            "count": 1,
+            "description": "Technic Axle Joiner Inline Smooth",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6589.dat",
+            "count": 1,
+            "description": "Technic Gear 12 Tooth Bevel",
+            "physical_index_entry": true
+          },
+          {
+            "part": "87408.dat",
+            "count": 1,
+            "description": "Technic Connector Toggle Joint Double with Axle and Pin Holes",
+            "physical_index_entry": true
+          },
+          {
+            "part": "94925.dat",
+            "count": 1,
+            "description": "Technic Gear 16 Tooth Reinforced",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 16,
+        "technic_share": 0.9411764705882353,
+        "legacy_parts": [],
+        "shape_fingerprint": "609b5bd089659e88b83c98c9b3c3947c37ccb3f934d6f17dc341f922d6e88ea4",
+        "recipe_fingerprint": "c7c78a0618645d9f7947047df73887a324c93a38edebc08b27a0a36732d40324",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "42112 - main.ldr",
+            "at": [
+              20.0,
+              -40.0,
+              24.0
+            ],
+            "matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0
+              ]
+            ],
+            "colour": 1
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "42112 - gearshift.ldr",
+            "kind": "assembly",
+            "author": "Philippe Hurbain [Philo]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "42112 - 35185.dat",
+            "kind": "part_definition",
+            "author": "Philippe Hurbain [Philo]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "s\\42112 - 32269s01.dat",
+            "kind": "part_definition",
+            "author": "Philippe Hurbain [Philo]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "s\\42112 - 35185s01.dat",
+            "kind": "part_definition",
+            "author": "Philippe Hurbain [Philo]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      },
+      "mechanism_study": "inspect source steps, parts and parent context; analytical mechanism verification is deferred"
+    },
+    {
+      "kind": "submodels",
+      "description": "Gearbox sub-assembly using a 13-stud beam, bent 2x4 lime liftarm, transmission driving ring, and 16-tooth clutch gear for an additional gear stage.",
+      "model": "42115-1.mpd",
+      "section": "42115 - 1-2-2.ldr",
+      "id": "submodel-06e0328cd1291901c9fab58b",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "Gearbox sub-assembly using a 13-stud beam, bent 2x4 lime liftarm, transmission driving ring, and 16-tooth clutch gear for an additional gear stage.",
+      "original_full_description": "42115-1.mpd|42115 - 1-2-2.ldr|Gearbox sub-assembly using a 13-stud beam, bent 2x4 lime liftarm, transmission driving ring, and 16-tooth clutch gear for an additional gear stage.",
+      "source_exists": true,
+      "path": "/opt/ldraw-astra/data/models-annotated/42115-1.mpd",
+      "source_sha256": "09d7384202bd35f2ea40b6c62ffd075b0eafdb4558e56cf1fbbac88a0c43f0a3",
+      "source_section": "42115 - 1-2-2.ldr",
+      "start_line": 8830,
+      "parent_description": "Main chassis assembly of the Lamborghini Sián supercar, integrating rear differential, suspension, 8-speed gearbox, V12 engine, front steering axle, and body framework with extensive beams, pins, and axles.",
+      "theme": "Technic",
+      "direct_placements": 8,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "42115-1.mpd|42115 - 1-2-2.ldr|Gearbox sub-assembly using a 13-stud beam, bent 2x4 lime liftarm, transmission driving ring, and 16-tooth clutch gear for an additional gear stage.",
+      "score": 0.69,
+      "retrieval_rank": 6,
+      "inventory": {
+        "source_sha256": "09d7384202bd35f2ea40b6c62ffd075b0eafdb4558e56cf1fbbac88a0c43f0a3",
+        "parser_section": "42115 - 1-2-2.ldr",
+        "physical_placements": 8,
+        "expanded_leaf_count": 8,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "18946.dat",
+            "count": 1,
+            "description": "Technic Gear 16 Tooth with Clutch on Both Sides",
+            "physical_index_entry": true
+          },
+          {
+            "part": "18947.dat",
+            "count": 1,
+            "description": "Technic Transmission Driving Ring  3L",
+            "physical_index_entry": true
+          },
+          {
+            "part": "24316.dat",
+            "count": 1,
+            "description": "Technic Axle  3 with Stop",
+            "physical_index_entry": true
+          },
+          {
+            "part": "26287.dat",
+            "count": 1,
+            "description": "Technic Axle Joiner  3L",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2780.dat",
+            "count": 2,
+            "description": "Technic Pin with Friction and Slots",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32140.dat",
+            "count": 1,
+            "description": "Technic Beam  2 x  4 Liftarm Bent 90",
+            "physical_index_entry": true
+          },
+          {
+            "part": "41239.dat",
+            "count": 1,
+            "description": "Technic Beam 13",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 8,
+        "technic_share": 1.0,
+        "legacy_parts": [],
+        "shape_fingerprint": "58ef7413c3a75e26cd0cfe66557c131894de7472db35ba05fc3f23988919fba9",
+        "recipe_fingerprint": "98de2aaea9d64e74b0acec12a08ef81040a54b236cab669a354d40878f3606f0",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "42115 - 1-2-0-gearbox.ldr",
+            "at": [
+              0.0,
+              -60.0,
+              80.0
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "colour": 72
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "42115 - 1-2-2.ldr",
+            "kind": "assembly",
+            "author": "Jens Brühl [jb70]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      },
+      "mechanism_study": "inspect source steps, parts and parent context; analytical mechanism verification is deferred"
+    }
+  ],
+  "eligible_after_measurement": 36,
+  "rejected": [
+    {
+      "id": "submodel-49c053f89bb391bf1fe567ca",
+      "reason": "no_mechanism_parts_identified",
+      "retrieval_rank": 1
+    },
+    {
+      "id": "submodel-6a885e71695e1978774ef412",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 9
+    },
+    {
+      "id": "submodel-47e4f191b12b1da80e51c377",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 16
+    },
+    {
+      "id": "submodel-c8764cd39a1b684a9f8ef7ce",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 19
+    },
+    {
+      "id": "submodel-364ed600862aa55fecb410c7",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 21
+    },
+    {
+      "id": "submodel-5741196f3e035446b0f9e0f0",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 24
+    },
+    {
+      "id": "submodel-b2a9894071e0e3bc36159f1f",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 29
+    },
+    {
+      "id": "submodel-4eae8cb31f3d92276edaba23",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 36
+    },
+    {
+      "id": "submodel-d4ddc1515a501d84cc75aa94",
+      "reason": "too_many_parts",
+      "retrieval_rank": 38
+    },
+    {
+      "id": "submodel-85227ab350839cd862166e2d",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 44
+    },
+    {
+      "id": "submodel-ee494544d781627dabb4ea57",
+      "reason": "no_mechanism_parts_identified",
+      "retrieval_rank": 48
+    },
+    {
+      "id": "submodel-f5ff5298e48a25cc97fc6a7a",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 50
+    },
+    {
+      "id": "submodel-9e0859ff4292e728e73a5b9d",
+      "reason": "no_mechanism_parts_identified",
+      "retrieval_rank": 51
+    },
+    {
+      "id": "submodel-cf2341ec9c16a158e0a1c61b",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 52
+    },
+    {
+      "id": "submodel-cd8e4973277ea97461c11203",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 55
+    },
+    {
+      "id": "submodel-f299e2e830d673431daa12e4",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 56
+    }
+  ],
+  "stats": {
+    "documents": 3386,
+    "passages": 3386,
+    "updated": 3386,
+    "skipped": 0,
+    "removed": 0,
+    "scored": 500,
+    "cache_hits": 0,
+    "api_calls": 500,
+    "input_tokens": 271343,
+    "output_tokens": 11000,
+    "elapsed_seconds": 8.479527794988826,
+    "exhaustive": false,
+    "command": [
+      "jev-rerank",
+      "--db",
+      "/opt/ldraw-astra/.cache/discovery/619d5aafe8290fcc/queries/0e478e71cd8ced3d323c3e66f62add7f65cd214089238c7a11d03ab427237828.sqlite",
+      "--table-field",
+      "candidates.full_description",
+      "--query",
+      "a compact two-speed Technic gearbox with a driving ring, clutch gears and a shift lever for a sports car",
+      "--top",
+      "60",
+      "--candidates",
+      "500",
+      "--model",
+      "jev-1.13.0",
+      "--json",
+      "--show"
+    ],
+    "eligible_records": 3386
+  },
+  "filters": {
+    "system": false,
+    "construction": "mechanism",
+    "min_parts": 2,
+    "max_parts": 200,
+    "max_technic_share": 0.5,
+    "parent_cap": 2
+  },
+  "note": "Scores describe textual relevance. Results still require geometry, scale and visual review; no hidden fallback or automatic import approval."
+}

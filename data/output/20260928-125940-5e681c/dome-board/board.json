@@ -1,0 +1,80 @@
+[
+  {
+    "ref": "87559.dat",
+    "filename": "87559.dat",
+    "description": "Brick  6 x  6 x  2 Corner Round with Curved Top",
+    "size_ldu": [
+      120.0,
+      52.0,
+      120.0
+    ],
+    "colour": 378,
+    "bounds": {
+      "min": [
+        0.0,
+        -4.0,
+        -120.0
+      ],
+      "max": [
+        120.0,
+        48.0,
+        0.0
+      ]
+    },
+    "image": "00/home.png",
+    "source": "00/part.mpd",
+    "diagnostics": []
+  },
+  {
+    "ref": "88293.dat",
+    "filename": "88293.dat",
+    "description": "Brick  3 x  3 x  2 Round Corner with Dome Top",
+    "size_ldu": [
+      60.0,
+      52.0,
+      60.0
+    ],
+    "colour": 378,
+    "bounds": {
+      "min": [
+        -10.0,
+        -4.0,
+        -50.0
+      ],
+      "max": [
+        50.0,
+        48.0,
+        10.0
+      ]
+    },
+    "image": "01/home.png",
+    "source": "01/part.mpd",
+    "diagnostics": []
+  },
+  {
+    "ref": "48092.dat",
+    "filename": "48092.dat",
+    "description": "Brick  4 x  4 Corner Round",
+    "size_ldu": [
+      80.0,
+      28.0,
+      80.00046466
+    ],
+    "colour": 378,
+    "bounds": {
+      "min": [
+        0.0,
+        -4.0,
+        -80.0
+      ],
+      "max": [
+        80.0,
+        24.0,
+        0.00046465999999867336
+      ]
+    },
+    "image": "02/home.png",
+    "source": "02/part.mpd",
+    "diagnostics": []
+  }
+]

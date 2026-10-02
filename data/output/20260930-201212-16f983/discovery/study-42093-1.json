@@ -1,0 +1,520 @@
+{
+  "source": "/opt/ldraw-astra/data/models-annotated/42093-1.mpd",
+  "source_sha256": "e8e7e61dc342bef2284e7b5586fe6a7b47ae372454c10dd72d891d479f02d981",
+  "main": "42093 - main.ldr",
+  "section_count": 37,
+  "assembly_count": 22,
+  "embedded_definition_count": 15,
+  "physical_placements": 575,
+  "reachable_section_count": 28,
+  "unreachable_sections": [
+    "42093 - ldcFlexAxleEndA.dat",
+    "42093 - ldcFlexAxleEndB.dat",
+    "42093 - ldcFlexAxleEndC.dat",
+    "42093 - ldcFlexAxleEndD.dat",
+    "42093 - ldcFlexAxleEndE.dat",
+    "42093 - ldcFlexAxleEndF.dat",
+    "42093 - ldcFlexAxleEndG.dat",
+    "42093 - ldcFlexAxleMid.dat",
+    "s\\42093 - 32269s02.dat"
+  ],
+  "unique_parts": 89,
+  "max_assembly_depth": 3,
+  "sections": [
+    {
+      "name": "42093 - main.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 1,
+      "physical_placements": 575,
+      "steps": 1
+    },
+    {
+      "name": "42093 - chassis2.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 35,
+      "physical_placements": 35,
+      "steps": 5
+    },
+    {
+      "name": "42093 - chassis3.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 12,
+      "physical_placements": 12,
+      "steps": 2
+    },
+    {
+      "name": "42093 - engine.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 42,
+      "physical_placements": 42,
+      "steps": 6
+    },
+    {
+      "name": "42093 - chassis4.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 9,
+      "physical_placements": 9,
+      "steps": 2
+    },
+    {
+      "name": "42093 - chassis5.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 9,
+      "physical_placements": 9,
+      "steps": 2
+    },
+    {
+      "name": "42093 - front.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 13,
+      "physical_placements": 13,
+      "steps": 2
+    },
+    {
+      "name": "42093 - front2.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 22,
+      "physical_placements": 22,
+      "steps": 3
+    },
+    {
+      "name": "42093 - front3.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 8,
+      "physical_placements": 8,
+      "steps": 2
+    },
+    {
+      "name": "42093 - front4.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 8,
+      "physical_placements": 8,
+      "steps": 2
+    },
+    {
+      "name": "42093 - dashboard.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 13,
+      "physical_placements": 13,
+      "steps": 2
+    },
+    {
+      "name": "42093 - headlights.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 13,
+      "physical_placements": 13,
+      "steps": 2
+    },
+    {
+      "name": "42093 - technicFlexAxle-1.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 0,
+      "physical_placements": 0,
+      "steps": 1
+    },
+    {
+      "name": "42093 - side.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 10,
+      "physical_placements": 10,
+      "steps": 2
+    },
+    {
+      "name": "42093 - door1.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 14,
+      "physical_placements": 14,
+      "steps": 2
+    },
+    {
+      "name": "42093 - door2.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 14,
+      "physical_placements": 14,
+      "steps": 2
+    },
+    {
+      "name": "42093 - top.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 24,
+      "physical_placements": 24,
+      "steps": 4
+    },
+    {
+      "name": "42093 - back1.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 29,
+      "physical_placements": 29,
+      "steps": 4
+    },
+    {
+      "name": "42093 - back2.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 27,
+      "physical_placements": 27,
+      "steps": 4
+    },
+    {
+      "name": "42093 - exhaust.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 14,
+      "physical_placements": 14,
+      "steps": 2
+    },
+    {
+      "name": "42093 - spoiler.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 11,
+      "physical_placements": 11,
+      "steps": 3
+    },
+    {
+      "name": "42093 - corvette.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 268,
+      "physical_placements": 575,
+      "steps": 46
+    },
+    {
+      "name": "42093 - 35185.dat",
+      "kind": "part_definition",
+      "reachable": true,
+      "scene_instances": null,
+      "direct_placements": 21,
+      "physical_placements": null,
+      "steps": 1
+    },
+    {
+      "name": "42093 - ldcFlexAxleEndA.dat",
+      "kind": "part_definition",
+      "reachable": false,
+      "scene_instances": null,
+      "direct_placements": 1,
+      "physical_placements": null,
+      "steps": 1
+    },
+    {
+      "name": "42093 - ldcFlexAxleEndB.dat",
+      "kind": "part_definition",
+      "reachable": false,
+      "scene_instances": null,
+      "direct_placements": 1,
+      "physical_placements": null,
+      "steps": 1
+    },
+    {
+      "name": "42093 - ldcFlexAxleEndC.dat",
+      "kind": "part_definition",
+      "reachable": false,
+      "scene_instances": null,
+      "direct_placements": 1,
+      "physical_placements": null,
+      "steps": 1
+    },
+    {
+      "name": "42093 - ldcFlexAxleEndD.dat",
+      "kind": "part_definition",
+      "reachable": false,
+      "scene_instances": null,
+      "direct_placements": 1,
+      "physical_placements": null,
+      "steps": 1
+    },
+    {
+      "name": "42093 - ldcFlexAxleEndE.dat",
+      "kind": "part_definition",
+      "reachable": false,
+      "scene_instances": null,
+      "direct_placements": 1,
+      "physical_placements": null,
+      "steps": 1
+    },
+    {
+      "name": "42093 - ldcFlexAxleEndF.dat",
+      "kind": "part_definition",
+      "reachable": false,
+      "scene_instances": null,
+      "direct_placements": 1,
+      "physical_placements": null,
+      "steps": 1
+    },
+    {
+      "name": "42093 - ldcFlexAxleEndG.dat",
+      "kind": "part_definition",
+      "reachable": false,
+      "scene_instances": null,
+      "direct_placements": 1,
+      "physical_placements": null,
+      "steps": 1
+    }
+  ],
+  "source_checks_passed": false,
+  "diagnostic_counts": {
+    "encoding.line_endings": 1,
+    "bfc.invertnext": 3,
+    "assembly.nonrigid": 125,
+    "part.alias_or_internal": 24,
+    "coverage.raw_geometry": 2320,
+    "geometry.nonplanar": 208,
+    "part.missing_classification": 8
+  },
+  "diagnostics": [
+    {
+      "code": "encoding.line_endings",
+      "severity": "warning",
+      "message": "Use CRLF when delivering new files (PDF p.62).",
+      "line_number": null,
+      "section": null
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 4328,
+      "section": "s\\42093 - 32269s02.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 4627,
+      "section": "s\\42093 - 42531s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 4630,
+      "section": "s\\42093 - 42531s01.dat"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 55,
+      "section": "42093 - chassis2.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 118,
+      "section": "42093 - chassis3.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 142,
+      "section": "42093 - engine.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 144,
+      "section": "42093 - engine.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 194,
+      "section": "42093 - engine.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 196,
+      "section": "42093 - engine.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 202,
+      "section": "42093 - engine.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 204,
+      "section": "42093 - engine.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 206,
+      "section": "42093 - engine.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 208,
+      "section": "42093 - engine.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 210,
+      "section": "42093 - engine.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 212,
+      "section": "42093 - engine.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 215,
+      "section": "42093 - engine.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 219,
+      "section": "42093 - engine.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 335,
+      "section": "42093 - front2.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 356,
+      "section": "42093 - front2.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 360,
+      "section": "42093 - front2.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 362,
+      "section": "42093 - front2.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 362,
+      "section": "42093 - front2.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 463,
+      "section": "42093 - headlights.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 465,
+      "section": "42093 - headlights.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 468,
+      "section": "42093 - headlights.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 470,
+      "section": "42093 - headlights.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 472,
+      "section": "42093 - headlights.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 474,
+      "section": "42093 - headlights.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 476,
+      "section": "42093 - headlights.ldr"
+    }
+  ],
+  "detail": "summary",
+  "sections_truncated": true,
+  "diagnostics_truncated": true
+}

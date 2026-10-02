@@ -1,0 +1,151 @@
+{
+  "code": "60601.dat",
+  "path": "/opt/ldraw/ldraw/parts/60601.dat",
+  "metadata": {
+    "description": "Glass for Window 1 x 2 x 2 without Sill",
+    "name": "60601.dat",
+    "author": "Michael Heidemann",
+    "author_username": "mikeheide",
+    "file_kind": "part",
+    "origin": "official",
+    "qualifiers": [],
+    "release": "2019-01",
+    "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+    "bfc": "ccw",
+    "history": [
+      {
+        "date": "2010-12-31",
+        "contributor": "PTadmin",
+        "text": "Official Update 2010-03",
+        "raw": "2010-12-31 [PTadmin] Official Update 2010-03"
+      },
+      {
+        "date": "2012-03-06",
+        "contributor": "gregteft",
+        "text": "Updated to increase primitive use and correct inset for glass.",
+        "raw": "2012-03-06 [gregteft] Updated to increase primitive use and correct inset for glass."
+      },
+      {
+        "date": "2012-03-30",
+        "contributor": "PTadmin",
+        "text": "Official Update 2012-01",
+        "raw": "2012-03-30 [PTadmin] Official Update 2012-01"
+      },
+      {
+        "date": "2018-10-02",
+        "contributor": "UR",
+        "text": "Updated to insert Subfile",
+        "raw": "2018-10-02 [UR] Updated to insert Subfile"
+      },
+      {
+        "date": "2019-06-28",
+        "contributor": "PTadmin",
+        "text": "Official Update 2019-01",
+        "raw": "2019-06-28 [PTadmin] Official Update 2019-01"
+      }
+    ],
+    "category": null,
+    "keywords": [],
+    "status": "current",
+    "replacement": null,
+    "preview": null
+  },
+  "complete": true,
+  "bounds": {
+    "min": [
+      -16.5,
+      2.0,
+      -7.0
+    ],
+    "max": [
+      16.5,
+      41.0,
+      -3.0
+    ]
+  },
+  "size": [
+    33.0,
+    39.0,
+    4.0
+  ],
+  "stud_positions": [],
+  "connector_count": 1,
+  "connectors": [
+    {
+      "kind": "generic",
+      "role": "male",
+      "position": [
+        0.0,
+        21.5,
+        -5.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "name": "win-1-2-2",
+        "length": 35.0,
+        "bounds": {
+          "kind": "box",
+          "dimensions": [
+            16.5,
+            17.5,
+            2.0
+          ]
+        },
+        "match": "group",
+        "placement": "aligned"
+      },
+      "name": "win-1-2-2",
+      "feature_id": "s/60601s01@R0/snap_gen@L8:I0",
+      "group": "win-1-2-2",
+      "freedoms": [],
+      "source": "ldcad_shadow",
+      "confidence": 1.0,
+      "owner_code": "60601",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "/opt/ldraw-astra/data/offLibShadow/parts/s/60601s01.dat:8"
+      ],
+      "metadata_id": null,
+      "connection_provenance": {
+        "source": "ldcad_shadow",
+        "path": "/opt/ldraw-astra/data/offLibShadow/parts/s/60601s01.dat",
+        "archive_member": null,
+        "line_number": 8,
+        "command": "0 !LDCAD SNAP_GEN [group=win-1-2-2] [gender=M] [bounding=box 16.5 17.5 2] [match=group] [pos=0 21.5 -5]",
+        "include_chain": []
+      },
+      "scale_inheritance": "none",
+      "mirror_inheritance": "none"
+    }
+  ],
+  "connectors_truncated": false,
+  "diagnostics": [],
+  "connection_metadata": {
+    "coverage": "complete",
+    "source_count": 1,
+    "recognized_record_count": 1,
+    "unsupported_record_count": 0,
+    "invalid_record_count": 0,
+    "diagnostics": []
+  },
+  "rectangular_profile": null,
+  "note": "All coordinates are local LDU. Connector inference is evidence; inspect uncertain fits."
+}

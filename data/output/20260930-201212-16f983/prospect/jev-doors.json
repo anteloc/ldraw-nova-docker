@@ -1,0 +1,967 @@
+{
+  "query": "an upward-opening butterfly door for a Technic supercar built from panels and liftarms on a hinge",
+  "kind": "submodels",
+  "engine": "jev",
+  "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+  "index_signature": "c3c851bfa92aff4ac3ef5a120b8f489e4ab5d77fdc22391703b3eefb3040ce85",
+  "results": [
+    {
+      "kind": "submodels",
+      "description": "Driver side door assembly with panel fairings, smooth panels, liftarms, and hinge pins.",
+      "model": "42096-1.mpd",
+      "section": "42096 - door1.ldr",
+      "id": "submodel-5ba652a1b00908f9f24e5871",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "Driver side door assembly with panel fairings, smooth panels, liftarms, and hinge pins.",
+      "original_full_description": "42096-1.mpd|42096 - door1.ldr|Driver side door assembly with panel fairings, smooth panels, liftarms, and hinge pins.",
+      "source_exists": true,
+      "path": "/opt/ldraw-astra/data/models-annotated/42096-1.mpd",
+      "source_sha256": "3e40cdbbe29ae5a1154d5aa39b4d4b0a84d0ad8bfb1248baf13d5ae0c0c476d3",
+      "source_section": "42096 - door1.ldr",
+      "start_line": 6899,
+      "parent_description": "Complete Porsche 911 RSR Technic supercar model featuring chassis, suspension, steering, engine, bodywork, doors, and headlights.",
+      "theme": "",
+      "direct_placements": 32,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "42096-1.mpd|42096 - door1.ldr|Driver side door assembly with panel fairings, smooth panels, liftarms, and hinge pins.",
+      "score": 0.87,
+      "retrieval_rank": 1,
+      "inventory": {
+        "source_sha256": "3e40cdbbe29ae5a1154d5aa39b4d4b0a84d0ad8bfb1248baf13d5ae0c0c476d3",
+        "parser_section": "42096 - door1.ldr",
+        "physical_placements": 32,
+        "expanded_leaf_count": 32,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "11214.dat",
+            "count": 1,
+            "description": "Technic Axle Pin Long with Friction with  2L Pin",
+            "physical_index_entry": true
+          },
+          {
+            "part": "11477.dat",
+            "count": 1,
+            "description": "Slope Brick Curved  2 x  1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "18651.dat",
+            "count": 1,
+            "description": "Technic Axle Pin Long with Friction with  2L Axle",
+            "physical_index_entry": true
+          },
+          {
+            "part": "18654.dat",
+            "count": 1,
+            "description": "Technic Beam  1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2420.dat",
+            "count": 1,
+            "description": "Plate  2 x  2 Corner",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2780.dat",
+            "count": 2,
+            "description": "Technic Pin with Friction and Slots",
+            "physical_index_entry": true
+          },
+          {
+            "part": "29120.dat",
+            "count": 1,
+            "description": "Slope Brick Curved  2 x  1 with Cutout Left",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3023.dat",
+            "count": 1,
+            "description": "~Moved to 3023b",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32054.dat",
+            "count": 2,
+            "description": "Technic Pin Long with Stop Bush",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32062.dat",
+            "count": 2,
+            "description": "Technic Axle  2 Notched",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32123b.dat",
+            "count": 1,
+            "description": "Technic Bush 1/2 Smooth with Axle Hole Semi-Reduced",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32291.dat",
+            "count": 1,
+            "description": "Technic Cross Block 2 x 2 (Axle/Twin Pin)",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32316.dat",
+            "count": 1,
+            "description": "Technic Beam  5",
+            "physical_index_entry": true
+          },
+          {
+            "part": "41239.dat",
+            "count": 1,
+            "description": "Technic Beam 13",
+            "physical_index_entry": true
+          },
+          {
+            "part": "41669.dat",
+            "count": 1,
+            "description": "Technic Tooth  1 x  3 with Axlehole with Rounded Bottom Cavity",
+            "physical_index_entry": true
+          },
+          {
+            "part": "41677.dat",
+            "count": 1,
+            "description": "Technic Beam  2 x  0.5 Liftarm",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4274.dat",
+            "count": 2,
+            "description": "Technic Pin  1/2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "43093.dat",
+            "count": 1,
+            "description": "Technic Axle Pin with Friction",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4519.dat",
+            "count": 1,
+            "description": "Technic Axle  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "62531.dat",
+            "count": 1,
+            "description": "Technic Panel Smooth 11 x  2 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "64682.dat",
+            "count": 1,
+            "description": "Technic Panel Fairing Smooth #18 (Wide Long)",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6553.dat",
+            "count": 2,
+            "description": "Technic Connector (Axle) with Axle 1.5",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6558.dat",
+            "count": 1,
+            "description": "Technic Pin Long with Friction and Slot",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6632.dat",
+            "count": 4,
+            "description": "Technic Beam  3 x  0.5 Liftarm",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 28,
+        "technic_share": 0.875,
+        "legacy_parts": [
+          {
+            "part": "3023.dat",
+            "count": 1,
+            "description": "~Moved to 3023b",
+            "physical_index_entry": true
+          }
+        ],
+        "shape_fingerprint": "8a41637d4a33189984ebfef0c654a688e47e903f360ab67bc9252538972838bc",
+        "recipe_fingerprint": "c2740fce2c621237948c3cb5e3d04d26414929747f81b71fc07584b4037270ec",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "42096 - porsche.ldr",
+            "at": [
+              180.0,
+              -60.0,
+              -420.0
+            ],
+            "matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0
+              ]
+            ],
+            "colour": 4
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "42096 - door1.ldr",
+            "kind": "assembly",
+            "author": "Philippe Hurbain [Philo]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      }
+    },
+    {
+      "kind": "submodels",
+      "description": "Right door assembly with orange trapezium panel and fairing panels mounted on a liftarm frame.",
+      "model": "42099-1.mpd",
+      "section": "42099 - door1.ldr",
+      "id": "submodel-abe8efaf4dbab31f4a6cc882",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "Right door assembly with orange trapezium panel and fairing panels mounted on a liftarm frame.",
+      "original_full_description": "42099-1.mpd|42099 - door1.ldr|Right door assembly with orange trapezium panel and fairing panels mounted on a liftarm frame.",
+      "source_exists": true,
+      "path": "/opt/ldraw-astra/data/models-annotated/42099-1.mpd",
+      "source_sha256": "933839a5724331bc545a12a85348df030db27c5fe963e9932c949990e605b17a",
+      "source_section": "42099 - door1.ldr",
+      "start_line": 2719,
+      "parent_description": "Main assembly of a 4x4 RC crawler featuring four large tractor wheels and tyres mounted on stopped axles and bushings.",
+      "theme": "",
+      "direct_placements": 14,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "42099-1.mpd|42099 - door1.ldr|Right door assembly with orange trapezium panel and fairing panels mounted on a liftarm frame.",
+      "score": 0.84,
+      "retrieval_rank": 2,
+      "inventory": {
+        "source_sha256": "933839a5724331bc545a12a85348df030db27c5fe963e9932c949990e605b17a",
+        "parser_section": "42099 - door1.ldr",
+        "physical_placements": 14,
+        "expanded_leaf_count": 14,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "11946.dat",
+            "count": 1,
+            "description": "Technic Panel Fairing Smooth #21 (Thin Short)",
+            "physical_index_entry": true
+          },
+          {
+            "part": "18945.dat",
+            "count": 1,
+            "description": "Technic Panel  5 x 11 Trapezium",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2780.dat",
+            "count": 6,
+            "description": "Technic Pin with Friction and Slots",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32062.dat",
+            "count": 1,
+            "description": "Technic Axle  2 Notched",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32278.dat",
+            "count": 1,
+            "description": "Technic Beam 15",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32523.dat",
+            "count": 1,
+            "description": "Technic Beam  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6558.dat",
+            "count": 2,
+            "description": "Technic Pin Long with Friction and Slot",
+            "physical_index_entry": true
+          },
+          {
+            "part": "87086.dat",
+            "count": 1,
+            "description": "Technic Panel Fairing Smooth #2 (Short)",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 14,
+        "technic_share": 1.0,
+        "legacy_parts": [],
+        "shape_fingerprint": "83f44f8dfa702c4cb1473c8787a32a9eb61909453df6fc55cc3f59aca937d654",
+        "recipe_fingerprint": "114ba30f38737445245ce90f60e98964c676377ec743a8645abf4ed1f49352cb",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "42099 - bodywork.ldr",
+            "at": [
+              140.0,
+              40.0,
+              -500.0
+            ],
+            "matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0
+              ]
+            ],
+            "colour": 0
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "42099 - door1.ldr",
+            "kind": "assembly",
+            "author": "Philippe Hurbain [Philo]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      }
+    },
+    {
+      "kind": "submodels",
+      "description": "Left door assembly with mirrored orange trapezium panel and fairing panels mounted on a liftarm frame.",
+      "model": "42099-1.mpd",
+      "section": "42099 - door1b.ldr",
+      "id": "submodel-e8fc4022866854d171ea7843",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "Left door assembly with mirrored orange trapezium panel and fairing panels mounted on a liftarm frame.",
+      "original_full_description": "42099-1.mpd|42099 - door1b.ldr|Left door assembly with mirrored orange trapezium panel and fairing panels mounted on a liftarm frame.",
+      "source_exists": true,
+      "path": "/opt/ldraw-astra/data/models-annotated/42099-1.mpd",
+      "source_sha256": "933839a5724331bc545a12a85348df030db27c5fe963e9932c949990e605b17a",
+      "source_section": "42099 - door1b.ldr",
+      "start_line": 2815,
+      "parent_description": "Main assembly of a 4x4 RC crawler featuring four large tractor wheels and tyres mounted on stopped axles and bushings.",
+      "theme": "",
+      "direct_placements": 14,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "42099-1.mpd|42099 - door1b.ldr|Left door assembly with mirrored orange trapezium panel and fairing panels mounted on a liftarm frame.",
+      "score": 0.84,
+      "retrieval_rank": 3,
+      "inventory": {
+        "source_sha256": "933839a5724331bc545a12a85348df030db27c5fe963e9932c949990e605b17a",
+        "parser_section": "42099 - door1b.ldr",
+        "physical_placements": 14,
+        "expanded_leaf_count": 14,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "11947.dat",
+            "count": 1,
+            "description": "Technic Panel Fairing Smooth #22 (Thin Short)",
+            "physical_index_entry": true
+          },
+          {
+            "part": "18945.dat",
+            "count": 1,
+            "description": "Technic Panel  5 x 11 Trapezium",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2780.dat",
+            "count": 6,
+            "description": "Technic Pin with Friction and Slots",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32062.dat",
+            "count": 1,
+            "description": "Technic Axle  2 Notched",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32278.dat",
+            "count": 1,
+            "description": "Technic Beam 15",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32523.dat",
+            "count": 1,
+            "description": "Technic Beam  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6558.dat",
+            "count": 2,
+            "description": "Technic Pin Long with Friction and Slot",
+            "physical_index_entry": true
+          },
+          {
+            "part": "87080.dat",
+            "count": 1,
+            "description": "Technic Panel Fairing Smooth #1 (Short)",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 14,
+        "technic_share": 1.0,
+        "legacy_parts": [],
+        "shape_fingerprint": "eab12a986a32f0c7374d9ab4a3120f9c473786fd26c65aeb8f73b8810483971c",
+        "recipe_fingerprint": "87f5dc8cf1177e8e1258cc28e649edf919c56a7b6f072a764b306dc5c7abee92",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "42099 - bodywork.ldr",
+            "at": [
+              -140.0,
+              40.0,
+              -500.0
+            ],
+            "matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0
+              ]
+            ],
+            "colour": 0
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "42099 - door1b.ldr",
+            "kind": "assembly",
+            "author": "Philippe Hurbain [Philo]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      }
+    },
+    {
+      "kind": "submodels",
+      "description": "Left door in bright light yellow with hinge plates, dark red window trim, and locking hinge mechanisms.",
+      "model": "10271-1.mpd",
+      "section": "10271 - left door-1.ldr",
+      "id": "submodel-b5bf6a699aa802f43fa744ae",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "Left door in bright light yellow with hinge plates, dark red window trim, and locking hinge mechanisms.",
+      "original_full_description": "10271-1.mpd|10271 - left door-1.ldr|Left door in bright light yellow with hinge plates, dark red window trim, and locking hinge mechanisms.",
+      "source_exists": true,
+      "path": "/opt/ldraw-astra/data/models-annotated/10271-1.mpd",
+      "source_sha256": "9d04819cf5b65835ed94bd6ba60113505da868ac891199d6ac9a6b302b70714f",
+      "source_section": "10271 - left door-1.ldr",
+      "start_line": 1562,
+      "parent_description": "Complete Fiat 500 model assembling the body, engine, doors, seats, dashboard, wheels, roof, and accessories like a suitcase and easel.",
+      "theme": "",
+      "direct_placements": 51,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "10271-1.mpd|10271 - left door-1.ldr|Left door in bright light yellow with hinge plates, dark red window trim, and locking hinge mechanisms.",
+      "score": 0.83,
+      "retrieval_rank": 4,
+      "inventory": {
+        "source_sha256": "9d04819cf5b65835ed94bd6ba60113505da868ac891199d6ac9a6b302b70714f",
+        "parser_section": "10271 - left door-1.ldr",
+        "physical_placements": 51,
+        "expanded_leaf_count": 51,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "10271 - 44567a.dat",
+            "count": 3,
+            "description": "Click-lock hinge subpart with box faces and a single finger locking element.",
+            "physical_index_entry": true
+          },
+          {
+            "part": "11203.dat",
+            "count": 3,
+            "description": "Tile  2 x  2 Inverted",
+            "physical_index_entry": true
+          },
+          {
+            "part": "15068.dat",
+            "count": 3,
+            "description": "Slope Brick Curved  2 x  2 x  0.667",
+            "physical_index_entry": true
+          },
+          {
+            "part": "20482.dat",
+            "count": 1,
+            "description": "Tile  1 x  1 Round with Pin and Pin Hole",
+            "physical_index_entry": true
+          },
+          {
+            "part": "24246.dat",
+            "count": 1,
+            "description": "Tile  1 x  1 with Rounded End",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2429.dat",
+            "count": 2,
+            "description": "Hinge Plate  1 x  4 Base",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2653.dat",
+            "count": 1,
+            "description": "Brick  1 x  4 with Groove",
+            "physical_index_entry": true
+          },
+          {
+            "part": "26601.dat",
+            "count": 1,
+            "description": "Plate  2 x  2 without Corner",
+            "physical_index_entry": true
+          },
+          {
+            "part": "29120.dat",
+            "count": 1,
+            "description": "Slope Brick Curved  2 x  1 with Cutout Left",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3005.dat",
+            "count": 3,
+            "description": "Brick  1 x  1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3023.dat",
+            "count": 2,
+            "description": "~Moved to 3023b",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3024.dat",
+            "count": 1,
+            "description": "Plate  1 x  1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3460.dat",
+            "count": 2,
+            "description": "Plate  1 x  8",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3623.dat",
+            "count": 4,
+            "description": "Plate  1 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3666.dat",
+            "count": 1,
+            "description": "Plate  1 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3710.dat",
+            "count": 2,
+            "description": "Plate  1 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "37352.dat",
+            "count": 4,
+            "description": "Brick  1 x  2 with Curved Top",
+            "physical_index_entry": true
+          },
+          {
+            "part": "44302a.dat",
+            "count": 3,
+            "description": "Hinge Plate  1 x  2 Locking with Dual Finger on End Vertical with Groove on Short Side",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4592.dat",
+            "count": 1,
+            "description": "Hinge Control Stick Base",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4593.dat",
+            "count": 1,
+            "description": "Hinge Control Stick",
+            "physical_index_entry": true
+          },
+          {
+            "part": "54200.dat",
+            "count": 1,
+            "description": "Slope Brick 31  1 x  1 x  0.667",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6190.dat",
+            "count": 1,
+            "description": "~Bar  1 x  3 (Obsolete)",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6636.dat",
+            "count": 2,
+            "description": "Tile  1 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "93555.dat",
+            "count": 1,
+            "description": "Minifig Skate",
+            "physical_index_entry": true
+          },
+          {
+            "part": "99780.dat",
+            "count": 3,
+            "description": "Bracket  1 x  2 -  1 x  2 Up",
+            "physical_index_entry": true
+          },
+          {
+            "part": "99781.dat",
+            "count": 3,
+            "description": "Bracket  1 x  2 -  1 x  2 Down",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 0,
+        "technic_share": 0.0,
+        "legacy_parts": [
+          {
+            "part": "3023.dat",
+            "count": 2,
+            "description": "~Moved to 3023b",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6190.dat",
+            "count": 1,
+            "description": "~Bar  1 x  3 (Obsolete)",
+            "physical_index_entry": true
+          }
+        ],
+        "shape_fingerprint": "4d0730762571470c7026ede22be1190953ba8e46477f1d788b47bc82ad25b416",
+        "recipe_fingerprint": "72ab0f31250e9ab2037bb41310a6b3e6e9726a30776ebac4ac0d14ffb927680e",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "10271 - main.ldr",
+            "at": [
+              100.0,
+              -18.0,
+              140.0
+            ],
+            "matrix": [
+              [
+                0.906,
+                0.0,
+                -0.423
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.423,
+                0.0,
+                0.907
+              ]
+            ],
+            "colour": 16
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "10271 - left door-1.ldr",
+            "kind": "assembly",
+            "author": "Magnus Forsberg [MagFors]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "10271 - 44567a.dat",
+            "kind": "part_definition",
+            "author": "Orion Pobursky [OrionP]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      }
+    },
+    {
+      "kind": "submodels",
+      "description": "Left door exterior skin of large smooth orange panels mounted on liftarms with a toothed fairing accent.",
+      "model": "42056-1.mpd",
+      "section": "42056 - doorleft3.ldr",
+      "id": "submodel-6c193f258c47a71617a81138",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "Left door exterior skin of large smooth orange panels mounted on liftarms with a toothed fairing accent.",
+      "original_full_description": "42056-1.mpd|42056 - doorleft3.ldr|Left door exterior skin of large smooth orange panels mounted on liftarms with a toothed fairing accent.",
+      "source_exists": true,
+      "path": "/opt/ldraw-astra/data/models-annotated/42056-1.mpd",
+      "source_sha256": "8a681b739651f153dc6af9d62d3e3b237b27fee937694326c0f610052489957b",
+      "source_section": "42056 - doorleft3.ldr",
+      "start_line": 18310,
+      "parent_description": "Main chassis assembly integrating the gearbox, drivetrain axles, engine, body frame, and suspension of the Porsche 911 GT3 RS supercar.",
+      "theme": "Technic",
+      "direct_placements": 16,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "42056-1.mpd|42056 - doorleft3.ldr|Left door exterior skin of large smooth orange panels mounted on liftarms with a toothed fairing accent.",
+      "score": 0.82,
+      "retrieval_rank": 5,
+      "inventory": {
+        "source_sha256": "8a681b739651f153dc6af9d62d3e3b237b27fee937694326c0f610052489957b",
+        "parser_section": "42056 - doorleft3.ldr",
+        "physical_placements": 16,
+        "expanded_leaf_count": 16,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "11478.dat",
+            "count": 2,
+            "description": "Technic Beam  5 x  0.5 Liftarm with Axle Holes at Both Ends",
+            "physical_index_entry": true
+          },
+          {
+            "part": "24119.dat",
+            "count": 1,
+            "description": "Technic Panel Smooth  7 x  2 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2780.dat",
+            "count": 4,
+            "description": "Technic Pin with Friction and Slots",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32013.dat",
+            "count": 1,
+            "description": "Technic Angle Connector #1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32054.dat",
+            "count": 1,
+            "description": "Technic Pin Long with Stop Bush",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32062.dat",
+            "count": 1,
+            "description": "Technic Axle  2 Notched",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32525.dat",
+            "count": 1,
+            "description": "Technic Beam 11",
+            "physical_index_entry": true
+          },
+          {
+            "part": "41669.dat",
+            "count": 1,
+            "description": "Technic Tooth  1 x  3 with Axlehole with Rounded Bottom Cavity",
+            "physical_index_entry": true
+          },
+          {
+            "part": "43093.dat",
+            "count": 1,
+            "description": "Technic Axle Pin with Friction",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4519.dat",
+            "count": 1,
+            "description": "Technic Axle  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "62531.dat",
+            "count": 1,
+            "description": "Technic Panel Smooth 11 x  2 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "87086.dat",
+            "count": 1,
+            "description": "Technic Panel Fairing Smooth #2 (Short)",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 16,
+        "technic_share": 1.0,
+        "legacy_parts": [],
+        "shape_fingerprint": "34dd7b88ace74a94f4cf5f66725f60bf3c0e182a2ced20782a64e4c473beaab5",
+        "recipe_fingerprint": "abacf0631cd73378bce17716a09cd95314a47d84f7d49f3699d2210e4accd0ae",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "42056 - main.ldr",
+            "at": [
+              259.433,
+              -160.0,
+              -250.567
+            ],
+            "matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0
+              ]
+            ],
+            "colour": 25
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "42056 - doorleft3.ldr",
+            "kind": "assembly",
+            "author": "Philippe Hurbain [Philo]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      }
+    }
+  ],
+  "eligible_after_measurement": 52,
+  "rejected": [
+    {
+      "id": "submodel-779d81b8071e9784880a7b37",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 15
+    },
+    {
+      "id": "submodel-7ca46e9e1724fd9402fffcdd",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 24
+    },
+    {
+      "id": "submodel-3c2dad93f5364ef2d24f1df8",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 34
+    },
+    {
+      "id": "submodel-31a2111a2f6c5ad9b7d59331",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 49
+    },
+    {
+      "id": "submodel-1826c4109ffc3fc7d422b2c7",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 58
+    },
+    {
+      "id": "submodel-dab42bf09a2264e528cc710f",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 59
+    }
+  ],
+  "stats": {
+    "documents": 22713,
+    "passages": 22713,
+    "updated": 22713,
+    "skipped": 0,
+    "removed": 0,
+    "scored": 500,
+    "cache_hits": 0,
+    "api_calls": 500,
+    "input_tokens": 271120,
+    "output_tokens": 11000,
+    "elapsed_seconds": 9.926724627963267,
+    "exhaustive": false,
+    "command": [
+      "jev-rerank",
+      "--db",
+      "/opt/ldraw-astra/.cache/discovery/619d5aafe8290fcc/queries/0d38dcd2dc3a19d0e7190f52214006985bda36221304b493ae43e44f493a2c53.sqlite",
+      "--table-field",
+      "candidates.full_description",
+      "--query",
+      "an upward-opening butterfly door for a Technic supercar built from panels and liftarms on a hinge",
+      "--top",
+      "60",
+      "--candidates",
+      "500",
+      "--model",
+      "jev-1.13.0",
+      "--json",
+      "--show"
+    ],
+    "eligible_records": 22713
+  },
+  "filters": {
+    "system": false,
+    "construction": "all",
+    "min_parts": 2,
+    "max_parts": 200,
+    "max_technic_share": 0.5,
+    "parent_cap": 2
+  },
+  "note": "Scores describe textual relevance. Results still require geometry, scale and visual review; no hidden fallback or automatic import approval."
+}

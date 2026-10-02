@@ -1,0 +1,2702 @@
+{
+ "version": 1,
+ "author": "carlos.antelo@gmail.com via LDraw Astra agent",
+ "sections": [
+  {
+   "name": "brad-fire-escape.ldr",
+   "description": "Black fire escape on the 3rd Street elevation: posts, grille landings, latticed outboard guards",
+   "steps": [
+    [
+     {
+      "id": "pa0-b0",
+      "ref": "3062b.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -16.0,
+       -50.0
+      ],
+      "purpose": "Free-standing steel posts carry the fire-escape landings"
+     },
+     {
+      "id": "pa0-b1",
+      "ref": "3062b.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -40.0,
+       -50.0
+      ]
+     },
+     {
+      "id": "pa0-b2",
+      "ref": "3062b.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -64.0,
+       -50.0
+      ]
+     },
+     {
+      "id": "pa0-b3",
+      "ref": "3062b.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -88.0,
+       -50.0
+      ]
+     },
+     {
+      "id": "pa0-b4",
+      "ref": "3062b.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -112.0,
+       -50.0
+      ]
+     },
+     {
+      "id": "pa0-p5",
+      "ref": "3024.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -120.0,
+       -50.0
+      ]
+     },
+     {
+      "id": "pb0-b0",
+      "ref": "3062b.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -16.0,
+       50.0
+      ]
+     },
+     {
+      "id": "pb0-b1",
+      "ref": "3062b.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -40.0,
+       50.0
+      ]
+     },
+     {
+      "id": "pb0-b2",
+      "ref": "3062b.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -64.0,
+       50.0
+      ]
+     },
+     {
+      "id": "pb0-b3",
+      "ref": "3062b.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -88.0,
+       50.0
+      ]
+     },
+     {
+      "id": "pb0-b4",
+      "ref": "3062b.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -112.0,
+       50.0
+      ]
+     },
+     {
+      "id": "pb0-p5",
+      "ref": "3024.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -120.0,
+       50.0
+      ]
+     },
+     {
+      "id": "pa1-b0",
+      "ref": "3062b.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -160.0,
+       -50.0
+      ]
+     },
+     {
+      "id": "pa1-b1",
+      "ref": "3062b.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -184.0,
+       -50.0
+      ]
+     },
+     {
+      "id": "pa1-b2",
+      "ref": "3062b.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -208.0,
+       -50.0
+      ]
+     },
+     {
+      "id": "pa1-b3",
+      "ref": "3062b.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -232.0,
+       -50.0
+      ]
+     },
+     {
+      "id": "pb1-b0",
+      "ref": "3062b.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -160.0,
+       50.0
+      ]
+     },
+     {
+      "id": "pb1-b1",
+      "ref": "3062b.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -184.0,
+       50.0
+      ]
+     },
+     {
+      "id": "pb1-b2",
+      "ref": "3062b.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -208.0,
+       50.0
+      ]
+     },
+     {
+      "id": "pb1-b3",
+      "ref": "3062b.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -232.0,
+       50.0
+      ]
+     },
+     {
+      "id": "pa2-b0",
+      "ref": "3062b.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -272.0,
+       -50.0
+      ]
+     },
+     {
+      "id": "pa2-b1",
+      "ref": "3062b.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -296.0,
+       -50.0
+      ]
+     },
+     {
+      "id": "pa2-b2",
+      "ref": "3062b.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -320.0,
+       -50.0
+      ]
+     },
+     {
+      "id": "pa2-b3",
+      "ref": "3062b.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -344.0,
+       -50.0
+      ]
+     },
+     {
+      "id": "pb2-b0",
+      "ref": "3062b.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -272.0,
+       50.0
+      ]
+     },
+     {
+      "id": "pb2-b1",
+      "ref": "3062b.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -296.0,
+       50.0
+      ]
+     },
+     {
+      "id": "pb2-b2",
+      "ref": "3062b.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -320.0,
+       50.0
+      ]
+     },
+     {
+      "id": "pb2-b3",
+      "ref": "3062b.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -344.0,
+       50.0
+      ]
+     },
+     {
+      "id": "pa3-b0",
+      "ref": "3062b.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -384.0,
+       -50.0
+      ]
+     },
+     {
+      "id": "pa3-b1",
+      "ref": "3062b.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -408.0,
+       -50.0
+      ]
+     },
+     {
+      "id": "pa3-b2",
+      "ref": "3062b.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -432.0,
+       -50.0
+      ]
+     },
+     {
+      "id": "pa3-b3",
+      "ref": "3062b.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -456.0,
+       -50.0
+      ]
+     },
+     {
+      "id": "pb3-b0",
+      "ref": "3062b.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -384.0,
+       50.0
+      ]
+     },
+     {
+      "id": "pb3-b1",
+      "ref": "3062b.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -408.0,
+       50.0
+      ]
+     },
+     {
+      "id": "pb3-b2",
+      "ref": "3062b.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -432.0,
+       50.0
+      ]
+     },
+     {
+      "id": "pb3-b3",
+      "ref": "3062b.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -456.0,
+       50.0
+      ]
+     }
+    ],
+    [
+     {
+      "id": "land0-0-0",
+      "ref": "3020.dat",
+      "colour": 0,
+      "at": [
+       60.0,
+       -128.0,
+       -40.0
+      ],
+      "purpose": "Two staggered plate layers bond each landing to both posts"
+     },
+     {
+      "id": "land0-0-1",
+      "ref": "3020.dat",
+      "colour": 0,
+      "at": [
+       60.0,
+       -128.0,
+       0.0
+      ]
+     },
+     {
+      "id": "land0-0-2",
+      "ref": "3020.dat",
+      "colour": 0,
+      "at": [
+       60.0,
+       -128.0,
+       40.0
+      ]
+     },
+     {
+      "id": "land0-1-0",
+      "ref": "3020.dat",
+      "colour": 0,
+      "at": [
+       60.0,
+       -136.0,
+       40.0
+      ]
+     },
+     {
+      "id": "land0-1-1",
+      "ref": "3020.dat",
+      "colour": 0,
+      "at": [
+       60.0,
+       -136.0,
+       0.0
+      ]
+     },
+     {
+      "id": "land0-1-2",
+      "ref": "3020.dat",
+      "colour": 0,
+      "at": [
+       60.0,
+       -136.0,
+       -40.0
+      ]
+     },
+     {
+      "id": "grille0-0",
+      "ref": "2412b.dat",
+      "colour": 0,
+      "at": [
+       30.0,
+       -144.0,
+       -20.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "grille0-1",
+      "ref": "2412b.dat",
+      "colour": 0,
+      "at": [
+       30.0,
+       -144.0,
+       20.0
+      ],
+      "yaw": 90
+     }
+    ],
+    [
+     {
+      "id": "land1-0-0",
+      "ref": "3021.dat",
+      "colour": 0,
+      "at": [
+       50.0,
+       -240.0,
+       -40.0
+      ]
+     },
+     {
+      "id": "land1-0-1",
+      "ref": "3021.dat",
+      "colour": 0,
+      "at": [
+       50.0,
+       -240.0,
+       0.0
+      ]
+     },
+     {
+      "id": "land1-0-2",
+      "ref": "3021.dat",
+      "colour": 0,
+      "at": [
+       50.0,
+       -240.0,
+       40.0
+      ]
+     },
+     {
+      "id": "land1-1-0",
+      "ref": "3021.dat",
+      "colour": 0,
+      "at": [
+       50.0,
+       -248.0,
+       40.0
+      ]
+     },
+     {
+      "id": "land1-1-1",
+      "ref": "3021.dat",
+      "colour": 0,
+      "at": [
+       50.0,
+       -248.0,
+       0.0
+      ]
+     },
+     {
+      "id": "land1-1-2",
+      "ref": "3021.dat",
+      "colour": 0,
+      "at": [
+       50.0,
+       -248.0,
+       -40.0
+      ]
+     },
+     {
+      "id": "grille1-0",
+      "ref": "2412b.dat",
+      "colour": 0,
+      "at": [
+       30.0,
+       -256.0,
+       -20.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "grille1-1",
+      "ref": "2412b.dat",
+      "colour": 0,
+      "at": [
+       30.0,
+       -256.0,
+       20.0
+      ],
+      "yaw": 90
+     }
+    ],
+    [
+     {
+      "id": "land2-0-0",
+      "ref": "3021.dat",
+      "colour": 0,
+      "at": [
+       50.0,
+       -352.0,
+       -40.0
+      ]
+     },
+     {
+      "id": "land2-0-1",
+      "ref": "3021.dat",
+      "colour": 0,
+      "at": [
+       50.0,
+       -352.0,
+       0.0
+      ]
+     },
+     {
+      "id": "land2-0-2",
+      "ref": "3021.dat",
+      "colour": 0,
+      "at": [
+       50.0,
+       -352.0,
+       40.0
+      ]
+     },
+     {
+      "id": "land2-1-0",
+      "ref": "3021.dat",
+      "colour": 0,
+      "at": [
+       50.0,
+       -360.0,
+       40.0
+      ]
+     },
+     {
+      "id": "land2-1-1",
+      "ref": "3021.dat",
+      "colour": 0,
+      "at": [
+       50.0,
+       -360.0,
+       0.0
+      ]
+     },
+     {
+      "id": "land2-1-2",
+      "ref": "3021.dat",
+      "colour": 0,
+      "at": [
+       50.0,
+       -360.0,
+       -40.0
+      ]
+     },
+     {
+      "id": "grille2-0",
+      "ref": "2412b.dat",
+      "colour": 0,
+      "at": [
+       30.0,
+       -368.0,
+       -20.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "grille2-1",
+      "ref": "2412b.dat",
+      "colour": 0,
+      "at": [
+       30.0,
+       -368.0,
+       20.0
+      ],
+      "yaw": 90
+     }
+    ],
+    [
+     {
+      "id": "land3-0-0",
+      "ref": "3021.dat",
+      "colour": 0,
+      "at": [
+       50.0,
+       -464.0,
+       -40.0
+      ]
+     },
+     {
+      "id": "land3-0-1",
+      "ref": "3021.dat",
+      "colour": 0,
+      "at": [
+       50.0,
+       -464.0,
+       0.0
+      ]
+     },
+     {
+      "id": "land3-0-2",
+      "ref": "3021.dat",
+      "colour": 0,
+      "at": [
+       50.0,
+       -464.0,
+       40.0
+      ]
+     },
+     {
+      "id": "land3-1-0",
+      "ref": "3021.dat",
+      "colour": 0,
+      "at": [
+       50.0,
+       -472.0,
+       40.0
+      ]
+     },
+     {
+      "id": "land3-1-1",
+      "ref": "3021.dat",
+      "colour": 0,
+      "at": [
+       50.0,
+       -472.0,
+       0.0
+      ]
+     },
+     {
+      "id": "land3-1-2",
+      "ref": "3021.dat",
+      "colour": 0,
+      "at": [
+       50.0,
+       -472.0,
+       -40.0
+      ]
+     },
+     {
+      "id": "grille3-0",
+      "ref": "2412b.dat",
+      "colour": 0,
+      "at": [
+       30.0,
+       -480.0,
+       -20.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "grille3-1",
+      "ref": "2412b.dat",
+      "colour": 0,
+      "at": [
+       30.0,
+       -480.0,
+       20.0
+      ],
+      "yaw": 90
+     }
+    ],
+    [
+     {
+      "id": "cage-0",
+      "ref": "3185.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -184.0,
+       0.0
+      ],
+      "yaw": 90,
+      "purpose": "Latticed outboard guard; its four underside receptacles land on the landing's stud row"
+     },
+     {
+      "id": "cage-1",
+      "ref": "3185.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -296.0,
+       0.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "cage-2",
+      "ref": "3185.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -408.0,
+       0.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "cage-3",
+      "ref": "3185.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -520.0,
+       0.0
+      ],
+      "yaw": 90
+     }
+    ]
+   ],
+   "anchors": {
+    "base": {
+     "at": [
+      0,
+      8,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "name": "brad-blade-sign.ldr",
+   "description": "Vertical BRADBURY BLDG blade sign on a kerbside pylon",
+   "steps": [
+    [
+     {
+      "id": "foot",
+      "ref": "3020.dat",
+      "colour": 72,
+      "at": [
+       0.0,
+       -8.0,
+       0.0
+      ],
+      "purpose": "Kerbside pylon carrying the vertical blade sign"
+     },
+     {
+      "id": "post-0",
+      "ref": "3004.dat",
+      "colour": 0,
+      "at": [
+       0.0,
+       -32.0,
+       -10.0
+      ]
+     },
+     {
+      "id": "post-1",
+      "ref": "3004.dat",
+      "colour": 0,
+      "at": [
+       0.0,
+       -56.0,
+       -10.0
+      ]
+     },
+     {
+      "id": "post-2",
+      "ref": "3004.dat",
+      "colour": 0,
+      "at": [
+       0.0,
+       -80.0,
+       -10.0
+      ]
+     },
+     {
+      "id": "post-3",
+      "ref": "3004.dat",
+      "colour": 0,
+      "at": [
+       0.0,
+       -104.0,
+       -10.0
+      ]
+     },
+     {
+      "id": "post-4",
+      "ref": "3004.dat",
+      "colour": 0,
+      "at": [
+       0.0,
+       -128.0,
+       -10.0
+      ]
+     },
+     {
+      "id": "post-5",
+      "ref": "3004.dat",
+      "colour": 0,
+      "at": [
+       0.0,
+       -152.0,
+       -10.0
+      ]
+     }
+    ],
+    [
+     {
+      "id": "blade-0",
+      "ref": "3004.dat",
+      "colour": 15,
+      "at": [
+       0.0,
+       -176.0,
+       -10.0
+      ],
+      "purpose": "Pale sign board with dark bands reading as the stacked BRADBURY BLDG lettering"
+     },
+     {
+      "id": "line-0",
+      "ref": "3023b.dat",
+      "colour": 0,
+      "at": [
+       0.0,
+       -184.0,
+       -10.0
+      ]
+     },
+     {
+      "id": "blade-1",
+      "ref": "3004.dat",
+      "colour": 15,
+      "at": [
+       0.0,
+       -208.0,
+       -10.0
+      ]
+     },
+     {
+      "id": "line-1",
+      "ref": "3023b.dat",
+      "colour": 0,
+      "at": [
+       0.0,
+       -216.0,
+       -10.0
+      ]
+     },
+     {
+      "id": "blade-2",
+      "ref": "3004.dat",
+      "colour": 15,
+      "at": [
+       0.0,
+       -240.0,
+       -10.0
+      ]
+     },
+     {
+      "id": "line-2",
+      "ref": "3023b.dat",
+      "colour": 0,
+      "at": [
+       0.0,
+       -248.0,
+       -10.0
+      ]
+     },
+     {
+      "id": "blade-3",
+      "ref": "3004.dat",
+      "colour": 15,
+      "at": [
+       0.0,
+       -272.0,
+       -10.0
+      ]
+     },
+     {
+      "id": "line-3",
+      "ref": "3023b.dat",
+      "colour": 0,
+      "at": [
+       0.0,
+       -280.0,
+       -10.0
+      ]
+     },
+     {
+      "id": "blade-4",
+      "ref": "3004.dat",
+      "colour": 15,
+      "at": [
+       0.0,
+       -304.0,
+       -10.0
+      ]
+     },
+     {
+      "id": "line-4",
+      "ref": "3023b.dat",
+      "colour": 0,
+      "at": [
+       0.0,
+       -312.0,
+       -10.0
+      ]
+     },
+     {
+      "id": "blade-5",
+      "ref": "3004.dat",
+      "colour": 15,
+      "at": [
+       0.0,
+       -336.0,
+       -10.0
+      ]
+     },
+     {
+      "id": "line-5",
+      "ref": "3023b.dat",
+      "colour": 0,
+      "at": [
+       0.0,
+       -344.0,
+       -10.0
+      ]
+     },
+     {
+      "id": "blade-6",
+      "ref": "3004.dat",
+      "colour": 15,
+      "at": [
+       0.0,
+       -368.0,
+       -10.0
+      ]
+     },
+     {
+      "id": "line-6",
+      "ref": "3023b.dat",
+      "colour": 0,
+      "at": [
+       0.0,
+       -376.0,
+       -10.0
+      ]
+     }
+    ],
+    [
+     {
+      "id": "cap",
+      "ref": "3069b.dat",
+      "colour": 0,
+      "at": [
+       0.0,
+       -384.0,
+       -10.0
+      ]
+     }
+    ]
+   ],
+   "anchors": {
+    "base": {
+     "at": [
+      0,
+      0,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "name": "brad-lamp.ldr",
+   "description": "Fluted street lamp with a brass collar and a glowing globe",
+   "steps": [
+    [
+     {
+      "id": "foot",
+      "ref": "3022.dat",
+      "colour": 72,
+      "at": [
+       0.0,
+       -8.0,
+       0.0
+      ],
+      "purpose": "Plate foot: Support 2 x 2 x 7 needs four studs beneath it"
+     },
+     {
+      "id": "column",
+      "ref": "2039.dat",
+      "colour": 0,
+      "at": [
+       0.0,
+       -176.0,
+       0.0
+      ]
+     },
+     {
+      "id": "collar",
+      "ref": "3024.dat",
+      "colour": 297,
+      "at": [
+       0.0,
+       -184.0,
+       0.0
+      ]
+     },
+     {
+      "id": "shaft",
+      "ref": "3062b.dat",
+      "colour": 0,
+      "at": [
+       0.0,
+       -208.0,
+       0.0
+      ]
+     },
+     {
+      "id": "globe",
+      "ref": "3062b.dat",
+      "colour": 47,
+      "at": [
+       0.0,
+       -232.0,
+       0.0
+      ]
+     },
+     {
+      "id": "finial",
+      "ref": "98138.dat",
+      "colour": 0,
+      "at": [
+       0.0,
+       -240.0,
+       0.0
+      ]
+     }
+    ]
+   ],
+   "anchors": {
+    "base": {
+     "at": [
+      0,
+      0,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "name": "brad-signal.ldr",
+   "description": "Corner traffic signal with a compact three-lens head",
+   "steps": [
+    [
+     {
+      "id": "foot",
+      "ref": "3022.dat",
+      "colour": 72,
+      "at": [
+       0.0,
+       -8.0,
+       0.0
+      ],
+      "purpose": "Compact lens stack keeps the signal below the lamps"
+     },
+     {
+      "id": "post",
+      "ref": "2039.dat",
+      "colour": 0,
+      "at": [
+       0.0,
+       -176.0,
+       0.0
+      ]
+     },
+     {
+      "id": "neck",
+      "ref": "3024.dat",
+      "colour": 0,
+      "at": [
+       0.0,
+       -184.0,
+       0.0
+      ]
+     },
+     {
+      "id": "green",
+      "ref": "3024.dat",
+      "colour": 2,
+      "at": [
+       0.0,
+       -192.0,
+       0.0
+      ]
+     },
+     {
+      "id": "amber",
+      "ref": "3024.dat",
+      "colour": 14,
+      "at": [
+       0.0,
+       -200.0,
+       0.0
+      ]
+     },
+     {
+      "id": "red",
+      "ref": "3024.dat",
+      "colour": 4,
+      "at": [
+       0.0,
+       -208.0,
+       0.0
+      ]
+     },
+     {
+      "id": "hood",
+      "ref": "3070b.dat",
+      "colour": 0,
+      "at": [
+       0.0,
+       -216.0,
+       0.0
+      ]
+     }
+    ]
+   ],
+   "anchors": {
+    "base": {
+     "at": [
+      0,
+      0,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "name": "brad-planter.ldr",
+   "description": "Sidewalk planter with a small street tree",
+   "steps": [
+    [
+     {
+      "id": "tub-a",
+      "ref": "3031.dat",
+      "colour": 72,
+      "at": [
+       0.0,
+       -8.0,
+       0.0
+      ],
+      "purpose": "Sidewalk planter"
+     },
+     {
+      "id": "tub-b",
+      "ref": "3031.dat",
+      "colour": 71,
+      "at": [
+       0.0,
+       -16.0,
+       0.0
+      ]
+     }
+    ],
+    [
+     {
+      "id": "trunk-0",
+      "ref": "3062b.dat",
+      "colour": 70,
+      "at": [
+       10.0,
+       -40.0,
+       10.0
+      ]
+     },
+     {
+      "id": "trunk-1",
+      "ref": "3062b.dat",
+      "colour": 70,
+      "at": [
+       10.0,
+       -64.0,
+       10.0
+      ]
+     },
+     {
+      "id": "trunk-2",
+      "ref": "3062b.dat",
+      "colour": 70,
+      "at": [
+       10.0,
+       -88.0,
+       10.0
+      ]
+     },
+     {
+      "id": "trunk-3",
+      "ref": "3062b.dat",
+      "colour": 70,
+      "at": [
+       10.0,
+       -112.0,
+       10.0
+      ]
+     },
+     {
+      "id": "trunk-4",
+      "ref": "3062b.dat",
+      "colour": 70,
+      "at": [
+       10.0,
+       -136.0,
+       10.0
+      ]
+     }
+    ],
+    [
+     {
+      "id": "leaf-a",
+      "ref": "2417.dat",
+      "colour": 2,
+      "at": [
+       10.0,
+       -144.0,
+       10.0
+      ],
+      "purpose": "Three layers of Plant Leaves 6 x 5, each turned a quarter, make a real canopy"
+     },
+     {
+      "id": "leaf-b",
+      "ref": "2417.dat",
+      "colour": 2,
+      "at": [
+       10.0,
+       -152.0,
+       10.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "leaf-c",
+      "ref": "2417.dat",
+      "colour": 2,
+      "at": [
+       10.0,
+       -160.0,
+       10.0
+      ],
+      "yaw": 180
+     },
+     {
+      "id": "crown",
+      "ref": "3062b.dat",
+      "colour": 2,
+      "at": [
+       10.0,
+       -184.0,
+       10.0
+      ]
+     }
+    ]
+   ],
+   "anchors": {
+    "base": {
+     "at": [
+      0,
+      0,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "name": "brad-hydrant.ldr",
+   "description": "Fire hydrant at the kerb",
+   "steps": [
+    [
+     {
+      "id": "base",
+      "ref": "3062b.dat",
+      "colour": 4,
+      "at": [
+       0.0,
+       -24.0,
+       0.0
+      ]
+     },
+     {
+      "id": "body",
+      "ref": "3062b.dat",
+      "colour": 4,
+      "at": [
+       0.0,
+       -48.0,
+       0.0
+      ]
+     },
+     {
+      "id": "cap",
+      "ref": "98138.dat",
+      "colour": 4,
+      "at": [
+       0.0,
+       -56.0,
+       0.0
+      ]
+     }
+    ]
+   ],
+   "anchors": {
+    "base": {
+     "at": [
+      0,
+      0,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "name": "brad-elevator.ldr",
+   "description": "Open-cage elevator: ornamental black ironwork shaft, tied every level, with a gilded car",
+   "steps": [
+    [
+     {
+      "id": "cage-s0",
+      "ref": "19121.dat",
+      "colour": 0,
+      "at": [
+       40.0,
+       -40.0,
+       -50.0
+      ],
+      "purpose": "Open ironwork elevator shaft, the signature of the light court"
+     },
+     {
+      "id": "cage-n0",
+      "ref": "19121.dat",
+      "colour": 0,
+      "at": [
+       40.0,
+       -40.0,
+       50.0
+      ],
+      "yaw": 180
+     },
+     {
+      "id": "cage-w0",
+      "ref": "19121.dat",
+      "colour": 0,
+      "at": [
+       10.0,
+       -40.0,
+       0.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "cage-e0",
+      "ref": "19121.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -40.0,
+       0.0
+      ],
+      "yaw": -90
+     },
+     {
+      "id": "tie0-0",
+      "ref": "3666.dat",
+      "colour": 0,
+      "at": [
+       10.0,
+       -48.0,
+       0.0
+      ],
+      "yaw": 90,
+      "purpose": "Plate course ties the four cage panels into one shaft"
+     },
+     {
+      "id": "tie0-1",
+      "ref": "3623.dat",
+      "colour": 0,
+      "at": [
+       50.0,
+       -48.0,
+       -50.0
+      ]
+     },
+     {
+      "id": "tie0-2",
+      "ref": "3710.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -48.0,
+       0.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "tie0-3",
+      "ref": "3623.dat",
+      "colour": 0,
+      "at": [
+       50.0,
+       -48.0,
+       50.0
+      ]
+     }
+    ],
+    [
+     {
+      "id": "cage-s1",
+      "ref": "19121.dat",
+      "colour": 0,
+      "at": [
+       40.0,
+       -96.0,
+       -50.0
+      ]
+     },
+     {
+      "id": "cage-n1",
+      "ref": "19121.dat",
+      "colour": 0,
+      "at": [
+       40.0,
+       -96.0,
+       50.0
+      ],
+      "yaw": 180
+     },
+     {
+      "id": "cage-w1",
+      "ref": "19121.dat",
+      "colour": 0,
+      "at": [
+       10.0,
+       -96.0,
+       0.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "cage-e1",
+      "ref": "19121.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -96.0,
+       0.0
+      ],
+      "yaw": -90
+     },
+     {
+      "id": "tie1-0",
+      "ref": "3666.dat",
+      "colour": 0,
+      "at": [
+       10.0,
+       -104.0,
+       0.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "tie1-1",
+      "ref": "3623.dat",
+      "colour": 0,
+      "at": [
+       50.0,
+       -104.0,
+       -50.0
+      ]
+     },
+     {
+      "id": "tie1-2",
+      "ref": "3710.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -104.0,
+       0.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "tie1-3",
+      "ref": "3623.dat",
+      "colour": 0,
+      "at": [
+       50.0,
+       -104.0,
+       50.0
+      ]
+     }
+    ],
+    [
+     {
+      "id": "cage-s2",
+      "ref": "19121.dat",
+      "colour": 0,
+      "at": [
+       40.0,
+       -152.0,
+       -50.0
+      ]
+     },
+     {
+      "id": "cage-n2",
+      "ref": "19121.dat",
+      "colour": 0,
+      "at": [
+       40.0,
+       -152.0,
+       50.0
+      ],
+      "yaw": 180
+     },
+     {
+      "id": "cage-w2",
+      "ref": "19121.dat",
+      "colour": 0,
+      "at": [
+       10.0,
+       -152.0,
+       0.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "cage-e2",
+      "ref": "19121.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -152.0,
+       0.0
+      ],
+      "yaw": -90
+     },
+     {
+      "id": "tie2-0",
+      "ref": "3666.dat",
+      "colour": 0,
+      "at": [
+       10.0,
+       -160.0,
+       0.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "tie2-1",
+      "ref": "3623.dat",
+      "colour": 0,
+      "at": [
+       50.0,
+       -160.0,
+       -50.0
+      ]
+     },
+     {
+      "id": "tie2-2",
+      "ref": "3710.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -160.0,
+       0.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "tie2-3",
+      "ref": "3623.dat",
+      "colour": 0,
+      "at": [
+       50.0,
+       -160.0,
+       50.0
+      ]
+     }
+    ],
+    [
+     {
+      "id": "cage-s3",
+      "ref": "19121.dat",
+      "colour": 0,
+      "at": [
+       40.0,
+       -208.0,
+       -50.0
+      ]
+     },
+     {
+      "id": "cage-n3",
+      "ref": "19121.dat",
+      "colour": 0,
+      "at": [
+       40.0,
+       -208.0,
+       50.0
+      ],
+      "yaw": 180
+     },
+     {
+      "id": "cage-w3",
+      "ref": "19121.dat",
+      "colour": 0,
+      "at": [
+       10.0,
+       -208.0,
+       0.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "cage-e3",
+      "ref": "19121.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -208.0,
+       0.0
+      ],
+      "yaw": -90
+     },
+     {
+      "id": "tie3-0",
+      "ref": "3666.dat",
+      "colour": 0,
+      "at": [
+       10.0,
+       -216.0,
+       0.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "tie3-1",
+      "ref": "3623.dat",
+      "colour": 0,
+      "at": [
+       50.0,
+       -216.0,
+       -50.0
+      ]
+     },
+     {
+      "id": "tie3-2",
+      "ref": "3710.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -216.0,
+       0.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "tie3-3",
+      "ref": "3623.dat",
+      "colour": 0,
+      "at": [
+       50.0,
+       -216.0,
+       50.0
+      ]
+     }
+    ],
+    [
+     {
+      "id": "cage-s4",
+      "ref": "19121.dat",
+      "colour": 0,
+      "at": [
+       40.0,
+       -264.0,
+       -50.0
+      ]
+     },
+     {
+      "id": "cage-n4",
+      "ref": "19121.dat",
+      "colour": 0,
+      "at": [
+       40.0,
+       -264.0,
+       50.0
+      ],
+      "yaw": 180
+     },
+     {
+      "id": "cage-w4",
+      "ref": "19121.dat",
+      "colour": 0,
+      "at": [
+       10.0,
+       -264.0,
+       0.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "cage-e4",
+      "ref": "19121.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -264.0,
+       0.0
+      ],
+      "yaw": -90
+     },
+     {
+      "id": "car-floor-0",
+      "ref": "3032.dat",
+      "colour": 297,
+      "at": [
+       40.0,
+       -272.0,
+       0.0
+      ],
+      "yaw": 90,
+      "purpose": "The gilded car floor doubles as this level's tie course"
+     },
+     {
+      "id": "car-w",
+      "ref": "19121.dat",
+      "colour": 297,
+      "at": [
+       30.0,
+       -320.0,
+       0.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "car-e",
+      "ref": "19121.dat",
+      "colour": 297,
+      "at": [
+       50.0,
+       -320.0,
+       0.0
+      ],
+      "yaw": -90
+     },
+     {
+      "id": "car-roof-0",
+      "ref": "3020.dat",
+      "colour": 297,
+      "at": [
+       40.0,
+       -328.0,
+       0.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "car-lamp",
+      "ref": "3062b.dat",
+      "colour": 47,
+      "at": [
+       50.0,
+       -352.0,
+       -10.0
+      ]
+     }
+    ],
+    [
+     {
+      "id": "cage-s5",
+      "ref": "19121.dat",
+      "colour": 0,
+      "at": [
+       40.0,
+       -320.0,
+       -50.0
+      ]
+     },
+     {
+      "id": "cage-n5",
+      "ref": "19121.dat",
+      "colour": 0,
+      "at": [
+       40.0,
+       -320.0,
+       50.0
+      ],
+      "yaw": 180
+     },
+     {
+      "id": "cage-w5",
+      "ref": "19121.dat",
+      "colour": 0,
+      "at": [
+       10.0,
+       -320.0,
+       0.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "cage-e5",
+      "ref": "19121.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -320.0,
+       0.0
+      ],
+      "yaw": -90
+     },
+     {
+      "id": "tie5-0",
+      "ref": "3666.dat",
+      "colour": 0,
+      "at": [
+       10.0,
+       -328.0,
+       0.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "tie5-1",
+      "ref": "3623.dat",
+      "colour": 0,
+      "at": [
+       50.0,
+       -328.0,
+       -50.0
+      ]
+     },
+     {
+      "id": "tie5-2",
+      "ref": "3710.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -328.0,
+       0.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "tie5-3",
+      "ref": "3623.dat",
+      "colour": 0,
+      "at": [
+       50.0,
+       -328.0,
+       50.0
+      ]
+     }
+    ],
+    [
+     {
+      "id": "cage-s6",
+      "ref": "19121.dat",
+      "colour": 0,
+      "at": [
+       40.0,
+       -376.0,
+       -50.0
+      ]
+     },
+     {
+      "id": "cage-n6",
+      "ref": "19121.dat",
+      "colour": 0,
+      "at": [
+       40.0,
+       -376.0,
+       50.0
+      ],
+      "yaw": 180
+     },
+     {
+      "id": "cage-w6",
+      "ref": "19121.dat",
+      "colour": 0,
+      "at": [
+       10.0,
+       -376.0,
+       0.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "cage-e6",
+      "ref": "19121.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -376.0,
+       0.0
+      ],
+      "yaw": -90
+     },
+     {
+      "id": "tie6-0",
+      "ref": "3666.dat",
+      "colour": 0,
+      "at": [
+       10.0,
+       -384.0,
+       0.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "tie6-1",
+      "ref": "3623.dat",
+      "colour": 0,
+      "at": [
+       50.0,
+       -384.0,
+       -50.0
+      ]
+     },
+     {
+      "id": "tie6-2",
+      "ref": "3710.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -384.0,
+       0.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "tie6-3",
+      "ref": "3623.dat",
+      "colour": 0,
+      "at": [
+       50.0,
+       -384.0,
+       50.0
+      ]
+     }
+    ],
+    [
+     {
+      "id": "cage-s7",
+      "ref": "19121.dat",
+      "colour": 0,
+      "at": [
+       40.0,
+       -432.0,
+       -50.0
+      ]
+     },
+     {
+      "id": "cage-n7",
+      "ref": "19121.dat",
+      "colour": 0,
+      "at": [
+       40.0,
+       -432.0,
+       50.0
+      ],
+      "yaw": 180
+     },
+     {
+      "id": "cage-w7",
+      "ref": "19121.dat",
+      "colour": 0,
+      "at": [
+       10.0,
+       -432.0,
+       0.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "cage-e7",
+      "ref": "19121.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -432.0,
+       0.0
+      ],
+      "yaw": -90
+     },
+     {
+      "id": "tie7-0",
+      "ref": "3666.dat",
+      "colour": 0,
+      "at": [
+       10.0,
+       -440.0,
+       0.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "tie7-1",
+      "ref": "3623.dat",
+      "colour": 0,
+      "at": [
+       50.0,
+       -440.0,
+       -50.0
+      ]
+     },
+     {
+      "id": "tie7-2",
+      "ref": "3710.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -440.0,
+       0.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "tie7-3",
+      "ref": "3623.dat",
+      "colour": 0,
+      "at": [
+       50.0,
+       -440.0,
+       50.0
+      ]
+     }
+    ],
+    [
+     {
+      "id": "cage-s8",
+      "ref": "19121.dat",
+      "colour": 0,
+      "at": [
+       40.0,
+       -488.0,
+       -50.0
+      ]
+     },
+     {
+      "id": "cage-n8",
+      "ref": "19121.dat",
+      "colour": 0,
+      "at": [
+       40.0,
+       -488.0,
+       50.0
+      ],
+      "yaw": 180
+     },
+     {
+      "id": "cage-w8",
+      "ref": "19121.dat",
+      "colour": 0,
+      "at": [
+       10.0,
+       -488.0,
+       0.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "cage-e8",
+      "ref": "19121.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -488.0,
+       0.0
+      ],
+      "yaw": -90
+     },
+     {
+      "id": "tie8-0",
+      "ref": "3666.dat",
+      "colour": 0,
+      "at": [
+       10.0,
+       -496.0,
+       0.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "tie8-1",
+      "ref": "3623.dat",
+      "colour": 0,
+      "at": [
+       50.0,
+       -496.0,
+       -50.0
+      ]
+     },
+     {
+      "id": "tie8-2",
+      "ref": "3710.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -496.0,
+       0.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "tie8-3",
+      "ref": "3623.dat",
+      "colour": 0,
+      "at": [
+       50.0,
+       -496.0,
+       50.0
+      ]
+     }
+    ],
+    [
+     {
+      "id": "cage-s9",
+      "ref": "19121.dat",
+      "colour": 0,
+      "at": [
+       40.0,
+       -544.0,
+       -50.0
+      ]
+     },
+     {
+      "id": "cage-n9",
+      "ref": "19121.dat",
+      "colour": 0,
+      "at": [
+       40.0,
+       -544.0,
+       50.0
+      ],
+      "yaw": 180
+     },
+     {
+      "id": "cage-w9",
+      "ref": "19121.dat",
+      "colour": 0,
+      "at": [
+       10.0,
+       -544.0,
+       0.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "cage-e9",
+      "ref": "19121.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -544.0,
+       0.0
+      ],
+      "yaw": -90
+     },
+     {
+      "id": "tie9-0",
+      "ref": "3666.dat",
+      "colour": 0,
+      "at": [
+       10.0,
+       -552.0,
+       0.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "tie9-1",
+      "ref": "3623.dat",
+      "colour": 0,
+      "at": [
+       50.0,
+       -552.0,
+       -50.0
+      ]
+     },
+     {
+      "id": "tie9-2",
+      "ref": "3710.dat",
+      "colour": 0,
+      "at": [
+       70.0,
+       -552.0,
+       0.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "tie9-3",
+      "ref": "3623.dat",
+      "colour": 0,
+      "at": [
+       50.0,
+       -552.0,
+       50.0
+      ]
+     }
+    ]
+   ],
+   "anchors": {
+    "base": {
+     "at": [
+      0,
+      8,
+      0
+     ]
+    }
+   }
+  },
+  {
+   "name": "brad-stair.ldr",
+   "description": "Oak stair with tiled treads rising from the court floor to the first gallery",
+   "steps": [
+    [
+     {
+      "id": "lay0-0",
+      "ref": "3035.dat",
+      "colour": 70,
+      "at": [
+       40.0,
+       0.0,
+       80.0
+      ],
+      "yaw": 90,
+      "purpose": "Each plate layer runs from its riser to the landing, so the flight is bonded"
+     },
+     {
+      "id": "lay0-1",
+      "ref": "3031.dat",
+      "colour": 70,
+      "at": [
+       40.0,
+       0.0,
+       200.0
+      ]
+     }
+    ],
+    [
+     {
+      "id": "lay1-0",
+      "ref": "3035.dat",
+      "colour": 70,
+      "at": [
+       40.0,
+       -8.0,
+       120.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "lay1-1",
+      "ref": "3020.dat",
+      "colour": 70,
+      "at": [
+       40.0,
+       -8.0,
+       220.0
+      ]
+     }
+    ],
+    [
+     {
+      "id": "lay2-0",
+      "ref": "3035.dat",
+      "colour": 70,
+      "at": [
+       40.0,
+       -16.0,
+       120.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "lay2-1",
+      "ref": "3020.dat",
+      "colour": 70,
+      "at": [
+       40.0,
+       -16.0,
+       220.0
+      ]
+     }
+    ],
+    [
+     {
+      "id": "lay3-0",
+      "ref": "3035.dat",
+      "colour": 70,
+      "at": [
+       40.0,
+       -24.0,
+       140.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "lay3-1",
+      "ref": "3710.dat",
+      "colour": 70,
+      "at": [
+       40.0,
+       -24.0,
+       230.0
+      ]
+     }
+    ],
+    [
+     {
+      "id": "lay4-0",
+      "ref": "3035.dat",
+      "colour": 70,
+      "at": [
+       40.0,
+       -32.0,
+       140.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "lay4-1",
+      "ref": "3710.dat",
+      "colour": 70,
+      "at": [
+       40.0,
+       -32.0,
+       230.0
+      ]
+     }
+    ],
+    [
+     {
+      "id": "lay5-0",
+      "ref": "3035.dat",
+      "colour": 70,
+      "at": [
+       40.0,
+       -40.0,
+       160.0
+      ],
+      "yaw": 90
+     }
+    ],
+    [
+     {
+      "id": "lay6-0",
+      "ref": "3035.dat",
+      "colour": 70,
+      "at": [
+       40.0,
+       -48.0,
+       160.0
+      ],
+      "yaw": 90
+     }
+    ],
+    [
+     {
+      "id": "lay7-0",
+      "ref": "3032.dat",
+      "colour": 70,
+      "at": [
+       40.0,
+       -56.0,
+       160.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "lay7-1",
+      "ref": "3710.dat",
+      "colour": 70,
+      "at": [
+       40.0,
+       -56.0,
+       230.0
+      ]
+     }
+    ],
+    [
+     {
+      "id": "lay8-0",
+      "ref": "3032.dat",
+      "colour": 70,
+      "at": [
+       40.0,
+       -64.0,
+       160.0
+      ],
+      "yaw": 90
+     },
+     {
+      "id": "lay8-1",
+      "ref": "3710.dat",
+      "colour": 70,
+      "at": [
+       40.0,
+       -64.0,
+       230.0
+      ]
+     }
+    ],
+    [
+     {
+      "id": "lay9-0",
+      "ref": "3032.dat",
+      "colour": 70,
+      "at": [
+       40.0,
+       -72.0,
+       180.0
+      ],
+      "yaw": 90
+     }
+    ],
+    [
+     {
+      "id": "lay10-0",
+      "ref": "3032.dat",
+      "colour": 70,
+      "at": [
+       40.0,
+       -80.0,
+       180.0
+      ],
+      "yaw": 90
+     }
+    ],
+    [
+     {
+      "id": "lay11-0",
+      "ref": "3031.dat",
+      "colour": 70,
+      "at": [
+       40.0,
+       -88.0,
+       180.0
+      ]
+     },
+     {
+      "id": "lay11-1",
+      "ref": "3710.dat",
+      "colour": 70,
+      "at": [
+       40.0,
+       -88.0,
+       230.0
+      ]
+     }
+    ],
+    [
+     {
+      "id": "lay12-0",
+      "ref": "3031.dat",
+      "colour": 70,
+      "at": [
+       40.0,
+       -96.0,
+       180.0
+      ]
+     },
+     {
+      "id": "lay12-1",
+      "ref": "3710.dat",
+      "colour": 70,
+      "at": [
+       40.0,
+       -96.0,
+       230.0
+      ]
+     }
+    ],
+    [
+     {
+      "id": "lay13-0",
+      "ref": "3031.dat",
+      "colour": 70,
+      "at": [
+       40.0,
+       -104.0,
+       200.0
+      ]
+     }
+    ],
+    [
+     {
+      "id": "lay14-0",
+      "ref": "3031.dat",
+      "colour": 70,
+      "at": [
+       40.0,
+       -112.0,
+       200.0
+      ]
+     }
+    ],
+    [
+     {
+      "id": "lay15-0",
+      "ref": "3020.dat",
+      "colour": 70,
+      "at": [
+       40.0,
+       -120.0,
+       200.0
+      ]
+     },
+     {
+      "id": "lay15-1",
+      "ref": "3710.dat",
+      "colour": 70,
+      "at": [
+       40.0,
+       -120.0,
+       230.0
+      ]
+     }
+    ],
+    [
+     {
+      "id": "lay16-0",
+      "ref": "3020.dat",
+      "colour": 70,
+      "at": [
+       40.0,
+       -128.0,
+       200.0
+      ]
+     },
+     {
+      "id": "lay16-1",
+      "ref": "3710.dat",
+      "colour": 70,
+      "at": [
+       40.0,
+       -128.0,
+       230.0
+      ]
+     }
+    ],
+    [
+     {
+      "id": "tread-2",
+      "ref": "2431.dat",
+      "colour": 28,
+      "at": [
+       40.0,
+       -24.0,
+       50.0
+      ]
+     },
+     {
+      "id": "tread-3",
+      "ref": "2431.dat",
+      "colour": 28,
+      "at": [
+       40.0,
+       -40.0,
+       70.0
+      ]
+     },
+     {
+      "id": "tread-4",
+      "ref": "2431.dat",
+      "colour": 28,
+      "at": [
+       40.0,
+       -56.0,
+       90.0
+      ]
+     },
+     {
+      "id": "tread-5",
+      "ref": "2431.dat",
+      "colour": 28,
+      "at": [
+       40.0,
+       -72.0,
+       110.0
+      ]
+     },
+     {
+      "id": "tread-6",
+      "ref": "2431.dat",
+      "colour": 28,
+      "at": [
+       40.0,
+       -88.0,
+       130.0
+      ]
+     },
+     {
+      "id": "tread-7",
+      "ref": "2431.dat",
+      "colour": 28,
+      "at": [
+       40.0,
+       -104.0,
+       150.0
+      ]
+     },
+     {
+      "id": "tread-8",
+      "ref": "2431.dat",
+      "colour": 28,
+      "at": [
+       40.0,
+       -120.0,
+       170.0
+      ]
+     },
+     {
+      "id": "tread-9",
+      "ref": "2431.dat",
+      "colour": 28,
+      "at": [
+       40.0,
+       -136.0,
+       190.0
+      ]
+     },
+     {
+      "id": "tread-top",
+      "ref": "87079.dat",
+      "colour": 28,
+      "at": [
+       40.0,
+       -136.0,
+       220.0
+      ]
+     },
+     {
+      "id": "tread-pod",
+      "ref": "87079.dat",
+      "colour": 28,
+      "at": [
+       40.0,
+       -8.0,
+       20.0
+      ]
+     }
+    ]
+   ],
+   "anchors": {
+    "base": {
+     "at": [
+      0,
+      8,
+      0
+     ]
+    }
+   }
+  }
+ ]
+}

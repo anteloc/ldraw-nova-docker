@@ -1,0 +1,270 @@
+{
+  "code": "2456.dat",
+  "path": "/opt/ldraw/ldraw/parts/2456.dat",
+  "metadata": {
+    "description": "Brick 2 x 6",
+    "name": "2456.dat",
+    "author": "James Jessiman",
+    "author_username": null,
+    "file_kind": "part",
+    "origin": "official",
+    "qualifiers": [],
+    "release": "2009-02",
+    "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+    "bfc": "ccw",
+    "history": [
+      {
+        "date": "2007-12-20",
+        "contributor": "PTadmin",
+        "text": "Header formatted for Contributor Agreement",
+        "raw": "2007-12-20 [PTadmin] Header formatted for Contributor Agreement"
+      },
+      {
+        "date": "2008-07-01",
+        "contributor": "PTadmin",
+        "text": "Official Update 2008-01",
+        "raw": "2008-07-01 [PTadmin] Official Update 2008-01"
+      },
+      {
+        "date": "2009-04-05",
+        "contributor": "tchang",
+        "text": "Add BFC, file DOS format",
+        "raw": "2009-04-05 [tchang] Add BFC, file DOS format"
+      },
+      {
+        "date": "2009-09-03",
+        "contributor": "PTadmin",
+        "text": "Official Update 2009-02",
+        "raw": "2009-09-03 [PTadmin] Official Update 2009-02"
+      }
+    ],
+    "category": null,
+    "keywords": [],
+    "status": "current",
+    "replacement": null,
+    "preview": null
+  },
+  "complete": true,
+  "bounds": {
+    "min": [
+      -60.0,
+      -4.0,
+      -20.0
+    ],
+    "max": [
+      60.0,
+      24.0,
+      20.0
+    ]
+  },
+  "size": [
+    120.0,
+    28.0,
+    40.0
+  ],
+  "stud_positions": [
+    [
+      50.0,
+      0.0,
+      10.0
+    ],
+    [
+      30.0,
+      0.0,
+      10.0
+    ],
+    [
+      10.0,
+      0.0,
+      10.0
+    ],
+    [
+      -10.0,
+      0.0,
+      10.0
+    ],
+    [
+      -30.0,
+      0.0,
+      10.0
+    ],
+    [
+      -50.0,
+      0.0,
+      10.0
+    ],
+    [
+      50.0,
+      0.0,
+      -10.0
+    ],
+    [
+      30.0,
+      0.0,
+      -10.0
+    ],
+    [
+      10.0,
+      0.0,
+      -10.0
+    ],
+    [
+      -10.0,
+      0.0,
+      -10.0
+    ],
+    [
+      -30.0,
+      0.0,
+      -10.0
+    ],
+    [
+      -50.0,
+      0.0,
+      -10.0
+    ]
+  ],
+  "connector_count": 41,
+  "connectors": [
+    {
+      "kind": "stud_receptacle",
+      "role": "female",
+      "position": [
+        40.0,
+        24.0,
+        0.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 6.0,
+            "length": 20.0,
+            "flexible": false
+          }
+        ],
+        "centered": true,
+        "friction": false,
+        "caps": "none"
+      },
+      "name": "Stud Tube Open",
+      "feature_id": "stud4@R0/stud4",
+      "group": null,
+      "freedoms": [],
+      "source": "primitive",
+      "confidence": 1.0,
+      "owner_code": "2456",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "stud4",
+        "derived:stud-socket"
+      ],
+      "metadata_id": null,
+      "connection_provenance": {
+        "source": "primitive",
+        "path": null,
+        "archive_member": null,
+        "line_number": null,
+        "command": "stud4",
+        "include_chain": []
+      },
+      "scale_inheritance": "yandr",
+      "mirror_inheritance": "none"
+    },
+    {
+      "kind": "stud_receptacle",
+      "role": "female",
+      "position": [
+        30.0,
+        24.0,
+        10.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 6.0,
+            "length": 20.0,
+            "flexible": false
+          }
+        ],
+        "centered": true,
+        "friction": false,
+        "caps": "none"
+      },
+      "name": "Stud Socket",
+      "feature_id": "stud4@R0/stud4:socket:-1-1",
+      "group": null,
+      "freedoms": [],
+      "source": "primitive",
+      "confidence": 1.0,
+      "owner_code": "2456",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "stud4",
+        "derived:stud-socket"
+      ],
+      "metadata_id": null,
+      "connection_provenance": {
+        "source": "primitive",
+        "path": null,
+        "archive_member": null,
+        "line_number": null,
+        "command": "stud4",
+        "include_chain": []
+      },
+      "scale_inheritance": "yandr",
+      "mirror_inheritance": "none"
+    }
+  ],
+  "connectors_truncated": true,
+  "diagnostics": [],
+  "connection_metadata": {
+    "coverage": "complete",
+    "source_count": 3,
+    "recognized_record_count": 2,
+    "unsupported_record_count": 0,
+    "invalid_record_count": 0,
+    "diagnostics": []
+  },
+  "rectangular_profile": null,
+  "note": "All coordinates are local LDU. Connector inference is evidence; inspect uncertain fits."
+}

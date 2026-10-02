@@ -1,0 +1,156 @@
+{
+  "code": "48092.dat",
+  "path": "/opt/ldraw/ldraw/parts/48092.dat",
+  "metadata": {
+    "description": "Brick 4 x 4 Corner Round",
+    "name": "48092.dat",
+    "author": "Guy Vivan",
+    "author_username": "guyvivan",
+    "file_kind": "part",
+    "origin": "official",
+    "qualifiers": [],
+    "release": "2022-01",
+    "license": "Licensed under CC BY 2.0 and CC BY 4.0 : see CAreadme.txt",
+    "bfc": "ccw",
+    "history": [
+      {
+        "date": "2009-05-02",
+        "contributor": "PTadmin",
+        "text": "Official Update 2009-01",
+        "raw": "2009-05-02 [PTadmin] Official Update 2009-01"
+      },
+      {
+        "date": "2021-01-03",
+        "contributor": "cwdee",
+        "text": "Update description",
+        "raw": "2021-01-03 [cwdee] Update description"
+      },
+      {
+        "date": "2022-01-14",
+        "contributor": "PTadmin",
+        "text": "Official Update 2022-01",
+        "raw": "2022-01-14 [PTadmin] Official Update 2022-01"
+      }
+    ],
+    "category": null,
+    "keywords": [],
+    "status": "current",
+    "replacement": null,
+    "preview": null
+  },
+  "complete": true,
+  "bounds": {
+    "min": [
+      0.0,
+      -4.0,
+      -80.0
+    ],
+    "max": [
+      80.0,
+      24.0,
+      0.00046465999999867336
+    ]
+  },
+  "size": [
+    80.0,
+    28.0,
+    80.00046466
+  ],
+  "stud_positions": [
+    [
+      70.0,
+      0.0,
+      -10.0
+    ],
+    [
+      50.0,
+      0.0,
+      -50.0
+    ],
+    [
+      10.0,
+      0.0,
+      -70.0
+    ]
+  ],
+  "connector_count": 6,
+  "connectors": [
+    {
+      "kind": "stud",
+      "role": "male",
+      "position": [
+        70.0,
+        0.0,
+        -10.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 6.0,
+            "length": 4.0,
+            "flexible": false
+          }
+        ],
+        "centered": false,
+        "friction": true,
+        "caps": "one"
+      },
+      "name": "studC",
+      "feature_id": "stud@R22/studC",
+      "group": null,
+      "freedoms": [
+        "rotate"
+      ],
+      "source": "ldcad_shadow",
+      "confidence": 1.0,
+      "owner_code": "48092",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "/opt/ldraw-astra/data/offLibShadow/p/stud.dat:8"
+      ],
+      "metadata_id": "studC",
+      "connection_provenance": {
+        "source": "ldcad_shadow",
+        "path": "/opt/ldraw-astra/data/offLibShadow/p/stud.dat",
+        "archive_member": null,
+        "line_number": 8,
+        "command": "0 !LDCAD SNAP_CYL [ID=studC] [gender=M] [caps=one] [secs=R 6 4]",
+        "include_chain": []
+      },
+      "scale_inheritance": "none",
+      "mirror_inheritance": "cor"
+    }
+  ],
+  "connectors_truncated": true,
+  "diagnostics": [],
+  "connection_metadata": {
+    "coverage": "complete",
+    "source_count": 2,
+    "recognized_record_count": 4,
+    "unsupported_record_count": 0,
+    "invalid_record_count": 0,
+    "diagnostics": []
+  },
+  "rectangular_profile": null,
+  "note": "All coordinates are local LDU. Connector inference is evidence; inspect uncertain fits."
+}

@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "title": "a historic building with a domed observatory and a tall lighthouse tower",
+  "count": 1,
+  "requested": 1,
+  "results": [
+    {
+      "id": "model-e00b558893c77e962a0c3b4c",
+      "role": "a historic building with a domed observatory and a tall lighthouse tower",
+      "card": "model-e00b558893c77e962a0c3b4c/card.json",
+      "preview": "model-e00b558893c77e962a0c3b4c/renders/home.png",
+      "status": "reference",
+      "description": "Complete lighthouse island model featuring a minifigure, a white and yellow boat, a detailed coastal building with slopes and blue base plates, and a black lighthouse top with clear windows.",
+      "kind": "models"
+    }
+  ],
+  "failures": []
+}

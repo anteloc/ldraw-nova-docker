@@ -1,0 +1,22 @@
+{
+  "source": "/opt/ldraw-astra/data/models-annotated/42096-1.mpd",
+  "source_sha256": "3e40cdbbe29ae5a1154d5aa39b4d4b0a84d0ad8bfb1248baf13d5ae0c0c476d3",
+  "source_section": "42096 - steering.ldr",
+  "parser_section": "42096 - steering.ldr",
+  "root": "m6-steer-42096-00-42096---steering.ldr",
+  "renames": {
+    "42096 - steering.ldr": "m6-steer-42096-00-42096---steering.ldr"
+  },
+  "attribution": [
+    {
+      "section": "42096 - steering.ldr",
+      "author": "Philippe Hurbain [Philo]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    }
+  ],
+  "changes": [],
+  "output_sha256": "82f1010299a0e2439eba95021ab33b19db9b2cac6c308c8b10c77b3f89b11243",
+  "note": "Original authors and licences retained. Source bytes unchanged. Extraction is not validation or permission to relicense.",
+  "syntax_checks_passed": true,
+  "diagnostics": []
+}

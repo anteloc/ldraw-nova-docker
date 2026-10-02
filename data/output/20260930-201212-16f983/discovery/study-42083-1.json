@@ -1,0 +1,538 @@
+{
+  "source": "/opt/ldraw-astra/data/models-annotated/42083-1.mpd",
+  "source_sha256": "72df8a1a852d6584eeba935320de411b9dc9dc23582177336341af68156469db",
+  "main": "42083 - main.ldr",
+  "section_count": 158,
+  "assembly_count": 106,
+  "embedded_definition_count": 52,
+  "physical_placements": 3692,
+  "reachable_section_count": 133,
+  "unreachable_sections": [
+    "42083 - frontchassis5.ldr",
+    "42083 - ldcRubberBandRndSeg.dat",
+    "42083 - ldcTechFlexSysHoseSeg.dat",
+    "42083 - ldcRigid3mmHoseCap.dat",
+    "42083 - ldcRigid3mmHoseSeg.dat",
+    "42083 - ldcFlexAxleEndA.dat",
+    "42083 - ldcFlexAxleEndB.dat",
+    "42083 - ldcFlexAxleEndC.dat",
+    "42083 - ldcFlexAxleEndD.dat",
+    "42083 - ldcFlexAxleEndE.dat",
+    "42083 - ldcFlexAxleEndF.dat",
+    "42083 - ldcFlexAxleEndG.dat",
+    "42083 - ldcFlexAxleMid.dat",
+    "42083 - ldcLQRopeSeg.dat",
+    "42083 - ldcRopeEnd.dat",
+    "42083 - ldcCyli8.dat",
+    "42083 - ldcConRing8.dat",
+    "42083 - npeghol3.dat",
+    "s\\42083 - 57515s01.dat",
+    "42083 - ldcConRing-4-4.dat",
+    "s\\42083 - faxle1.dat",
+    "s\\42083 - faxle2.dat",
+    "s\\42083 - faxle3.dat",
+    "s\\42083 - faxle4.dat",
+    "s\\42083 - faxle5.dat"
+  ],
+  "unique_parts": 200,
+  "max_assembly_depth": 6,
+  "sections": [
+    {
+      "name": "42083 - main.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 3,
+      "physical_placements": 3692,
+      "steps": 1
+    },
+    {
+      "name": "42083 - chassisrear.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 178,
+      "physical_placements": 811,
+      "steps": 23
+    },
+    {
+      "name": "42083 - rearaxle.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 130,
+      "physical_placements": 228,
+      "steps": 16
+    },
+    {
+      "name": "42083 - rearwheelsupport.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 2,
+      "direct_placements": 48,
+      "physical_placements": 50,
+      "steps": 8
+    },
+    {
+      "name": "42083 - shock-06_5L-hard-1.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 4,
+      "direct_placements": 3,
+      "physical_placements": 2,
+      "steps": 1
+    },
+    {
+      "name": "42083 - shock-06_5L-hard-1_springMesh.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 4,
+      "direct_placements": 0,
+      "physical_placements": 0,
+      "steps": 1
+    },
+    {
+      "name": "42083 - gearbox.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 159,
+      "physical_placements": 186,
+      "steps": 22
+    },
+    {
+      "name": "42083 - gearbox2.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 28,
+      "physical_placements": 28,
+      "steps": 4
+    },
+    {
+      "name": "42083 - rubberBandRound-1.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 0,
+      "physical_placements": 0,
+      "steps": 1
+    },
+    {
+      "name": "42083 - engine.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 112,
+      "physical_placements": 223,
+      "steps": 13
+    },
+    {
+      "name": "42083 - enginelower.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 2,
+      "direct_placements": 34,
+      "physical_placements": 34,
+      "steps": 4
+    },
+    {
+      "name": "42083 - enginebeam.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 46,
+      "physical_placements": 46,
+      "steps": 5
+    },
+    {
+      "name": "42083 - chassisfront.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 411,
+      "physical_placements": 934,
+      "steps": 59
+    },
+    {
+      "name": "42083 - chassisfront2.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 35,
+      "physical_placements": 35,
+      "steps": 6
+    },
+    {
+      "name": "42083 - chassisfront3.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 2,
+      "direct_placements": 12,
+      "physical_placements": 12,
+      "steps": 2
+    },
+    {
+      "name": "42083 - frontaxle.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 135,
+      "physical_placements": 179,
+      "steps": 15
+    },
+    {
+      "name": "42083 - frontaxlediff.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 29,
+      "physical_placements": 29,
+      "steps": 4
+    },
+    {
+      "name": "42083 - frontwheelsupport.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 2,
+      "direct_placements": 7,
+      "physical_placements": 7,
+      "steps": 2
+    },
+    {
+      "name": "42083 - shock-06_5L-hard-2.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 4,
+      "direct_placements": 3,
+      "physical_placements": 2,
+      "steps": 1
+    },
+    {
+      "name": "42083 - shock-06_5L-hard-2_springMesh.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 4,
+      "direct_placements": 0,
+      "physical_placements": 0,
+      "steps": 1
+    },
+    {
+      "name": "42083 - chassisfront4.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 24,
+      "physical_placements": 24,
+      "steps": 3
+    },
+    {
+      "name": "42083 - frontchassis5.ldr",
+      "kind": "assembly",
+      "reachable": false,
+      "scene_instances": 0,
+      "direct_placements": 10,
+      "physical_placements": 10,
+      "steps": 2
+    },
+    {
+      "name": "42083 - chassisfront5.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 62,
+      "physical_placements": 62,
+      "steps": 8
+    },
+    {
+      "name": "42083 - stepper.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 63,
+      "physical_placements": 61,
+      "steps": 8
+    },
+    {
+      "name": "42083 - rubberBandRound-2.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 0,
+      "physical_placements": 0,
+      "steps": 1
+    },
+    {
+      "name": "42083 - rubberBandRound-3.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 0,
+      "physical_placements": 0,
+      "steps": 1
+    },
+    {
+      "name": "42083 - chassisfront6.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 26,
+      "physical_placements": 26,
+      "steps": 3
+    },
+    {
+      "name": "42083 - chassisfront7.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 24,
+      "physical_placements": 24,
+      "steps": 4
+    },
+    {
+      "name": "42083 - chassisfront8.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 31,
+      "physical_placements": 31,
+      "steps": 4
+    },
+    {
+      "name": "42083 - bottom1.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 26,
+      "physical_placements": 26,
+      "steps": 3
+    }
+  ],
+  "source_checks_passed": false,
+  "diagnostic_counts": {
+    "encoding.line_endings": 1,
+    "bfc.invertnext": 56,
+    "assembly.nonrigid": 367,
+    "part.alias_or_internal": 117,
+    "coverage.raw_geometry": 56384,
+    "geometry.nonplanar": 14254,
+    "assembly.library_internal": 61,
+    "part.missing_classification": 17,
+    "geometry.quad_warp_review": 3
+  },
+  "diagnostics": [
+    {
+      "code": "encoding.line_endings",
+      "severity": "warning",
+      "message": "Use CRLF when delivering new files (PDF p.62).",
+      "line_number": null,
+      "section": null
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 69321,
+      "section": "42083 - 35189.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 69333,
+      "section": "42083 - 35189.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 69340,
+      "section": "42083 - 35189.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 69343,
+      "section": "42083 - 35189.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 69346,
+      "section": "42083 - 35189.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 69349,
+      "section": "42083 - 35189.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 69378,
+      "section": "42083 - 35189.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 69381,
+      "section": "42083 - 35189.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 69424,
+      "section": "42083 - 35189.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 69435,
+      "section": "42083 - 35189.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 69438,
+      "section": "42083 - 35189.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 69781,
+      "section": "42083 - 35186.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 69881,
+      "section": "42083 - 23801.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 69884,
+      "section": "42083 - 23801.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 69956,
+      "section": "42083 - 23801.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 70215,
+      "section": "42083 - ldcRigid3mmHoseCap.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 70585,
+      "section": "s\\42083 - 35189s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 70606,
+      "section": "s\\42083 - 35189s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 70617,
+      "section": "s\\42083 - 35189s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 70628,
+      "section": "s\\42083 - 35189s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 70639,
+      "section": "s\\42083 - 35189s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 70650,
+      "section": "s\\42083 - 35189s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 70661,
+      "section": "s\\42083 - 35189s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 70672,
+      "section": "s\\42083 - 35189s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 70683,
+      "section": "s\\42083 - 35189s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 70694,
+      "section": "s\\42083 - 35189s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 70908,
+      "section": "s\\42083 - 35188s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 71390,
+      "section": "s\\42083 - 23801s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 71395,
+      "section": "s\\42083 - 23801s01.dat"
+    }
+  ],
+  "detail": "summary",
+  "sections_truncated": true,
+  "diagnostics_truncated": true
+}

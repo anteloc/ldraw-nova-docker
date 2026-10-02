@@ -1,0 +1,22 @@
+{
+  "source": "/opt/ldraw-astra/data/models-annotated/8880-1.mpd",
+  "source_sha256": "66e871ea668099537532fa01272e1f8f6112853b9c9655b03d821295c57fb3ab",
+  "source_section": "8880 - step15.ldr",
+  "parser_section": "8880 - step15.ldr",
+  "root": "m2-diff-8880-00-8880---step15.ldr",
+  "renames": {
+    "8880 - step15.ldr": "m2-diff-8880-00-8880---step15.ldr"
+  },
+  "attribution": [
+    {
+      "section": "8880 - step15.ldr",
+      "author": "Orion Pobursky [OrionP]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    }
+  ],
+  "changes": [],
+  "output_sha256": "4841297c49ab62e59e98c22961dacd51a92ef169b5567418eb745a66f2ede2c5",
+  "note": "Original authors and licences retained. Source bytes unchanged. Extraction is not validation or permission to relicense.",
+  "syntax_checks_passed": true,
+  "diagnostics": []
+}

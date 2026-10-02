@@ -1,0 +1,213 @@
+{
+  "version": 1,
+  "author": "OpenAI - original Tidal Observatory design",
+  "sections": [
+    {
+      "name": "test-tall-bay.ldr",
+      "description": "Local detail review",
+      "steps": [
+        [
+          {
+            "id": "test",
+            "ref": "tidal-tall-bay.ldr",
+            "colour": 19,
+            "at": [
+              0,
+              0,
+              0
+            ],
+            "purpose": "test"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "tidal-tall-bay.ldr",
+      "description": "Recessed blue glazing, limestone arch and projecting white sill",
+      "steps": [
+        [
+          {
+            "id": "sill",
+            "ref": "3795.dat",
+            "colour": 15,
+            "at": [
+              0,
+              -8,
+              -10
+            ],
+            "purpose": "sill"
+          }
+        ],
+        [
+          {
+            "id": "pier--1-0",
+            "ref": "3005.dat",
+            "colour": 19,
+            "at": [
+              -50,
+              -32,
+              0
+            ],
+            "purpose": "pier  1 0"
+          },
+          {
+            "id": "pier--1-1",
+            "ref": "3005.dat",
+            "colour": 19,
+            "at": [
+              -50,
+              -56,
+              0
+            ],
+            "purpose": "pier  1 1"
+          },
+          {
+            "id": "pier--1-2",
+            "ref": "3005.dat",
+            "colour": 19,
+            "at": [
+              -50,
+              -80,
+              0
+            ],
+            "purpose": "pier  1 2"
+          },
+          {
+            "id": "pier--1-3",
+            "ref": "3005.dat",
+            "colour": 19,
+            "at": [
+              -50,
+              -104,
+              0
+            ],
+            "purpose": "pier  1 3"
+          },
+          {
+            "id": "pier--1-4",
+            "ref": "3005.dat",
+            "colour": 19,
+            "at": [
+              -50,
+              -128,
+              0
+            ],
+            "purpose": "pier  1 4"
+          },
+          {
+            "id": "pier--1-5",
+            "ref": "3005.dat",
+            "colour": 19,
+            "at": [
+              -50,
+              -152,
+              0
+            ],
+            "purpose": "pier  1 5"
+          },
+          {
+            "id": "pier-1-0",
+            "ref": "3005.dat",
+            "colour": 19,
+            "at": [
+              50,
+              -32,
+              0
+            ],
+            "purpose": "pier 1 0"
+          },
+          {
+            "id": "pier-1-1",
+            "ref": "3005.dat",
+            "colour": 19,
+            "at": [
+              50,
+              -56,
+              0
+            ],
+            "purpose": "pier 1 1"
+          },
+          {
+            "id": "pier-1-2",
+            "ref": "3005.dat",
+            "colour": 19,
+            "at": [
+              50,
+              -80,
+              0
+            ],
+            "purpose": "pier 1 2"
+          },
+          {
+            "id": "pier-1-3",
+            "ref": "3005.dat",
+            "colour": 19,
+            "at": [
+              50,
+              -104,
+              0
+            ],
+            "purpose": "pier 1 3"
+          },
+          {
+            "id": "pier-1-4",
+            "ref": "3005.dat",
+            "colour": 19,
+            "at": [
+              50,
+              -128,
+              0
+            ],
+            "purpose": "pier 1 4"
+          },
+          {
+            "id": "pier-1-5",
+            "ref": "3005.dat",
+            "colour": 19,
+            "at": [
+              50,
+              -152,
+              0
+            ],
+            "purpose": "pier 1 5"
+          },
+          {
+            "id": "frame",
+            "ref": "60596.dat",
+            "colour": 272,
+            "at": [
+              0,
+              -152,
+              0
+            ],
+            "purpose": "frame"
+          },
+          {
+            "id": "glass",
+            "ref": "57895.dat",
+            "colour": 47,
+            "at": [
+              0,
+              -147,
+              5
+            ],
+            "purpose": "glass"
+          }
+        ],
+        [
+          {
+            "id": "arch",
+            "ref": "3307.dat",
+            "colour": 19,
+            "at": [
+              0,
+              -200,
+              0
+            ],
+            "purpose": "arch"
+          }
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,516 @@
+{
+  "source": "/opt/ldraw-astra/data/models-annotated/42125-1.mpd",
+  "source_sha256": "aaa45d96d786452ad674f303fb331c6fbf226001a38009281d4f296a774d746b",
+  "main": "42125 - main.ldr",
+  "section_count": 131,
+  "assembly_count": 68,
+  "embedded_definition_count": 63,
+  "physical_placements": 6169,
+  "reachable_section_count": 126,
+  "unreachable_sections": [
+    "42125 - confric3.dat",
+    "42125 - connectcollar4.dat",
+    "42125 - connectslit2.dat",
+    "42125 - npeghol5.dat",
+    "42125 - npeghol3.dat"
+  ],
+  "unique_parts": 184,
+  "max_assembly_depth": 5,
+  "sections": [
+    {
+      "name": "42125 - main.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 1,
+      "physical_placements": 6169,
+      "steps": 1
+    },
+    {
+      "name": "42125 - chassisrear.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 217,
+      "physical_placements": 303,
+      "steps": 30
+    },
+    {
+      "name": "42125 - engine.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 48,
+      "physical_placements": 71,
+      "steps": 8
+    },
+    {
+      "name": "42125 - camshaft.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 24,
+      "physical_placements": 24,
+      "steps": 3
+    },
+    {
+      "name": "42125 - chassisrear2.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 17,
+      "physical_placements": 17,
+      "steps": 3
+    },
+    {
+      "name": "42125 - chassisfront.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 208,
+      "physical_placements": 228,
+      "steps": 30
+    },
+    {
+      "name": "42125 - chassisfront2.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 21,
+      "physical_placements": 21,
+      "steps": 3
+    },
+    {
+      "name": "42125 - ferrari.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 242,
+      "physical_placements": 6169,
+      "steps": 74
+    },
+    {
+      "name": "42125 - chassisside1.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 15,
+      "physical_placements": 15,
+      "steps": 3
+    },
+    {
+      "name": "42125 - chassisside2.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 15,
+      "physical_placements": 15,
+      "steps": 3
+    },
+    {
+      "name": "42125 - seat1.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 26,
+      "physical_placements": 26,
+      "steps": 5
+    },
+    {
+      "name": "42125 - frontside1.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 13,
+      "physical_placements": 13,
+      "steps": 2
+    },
+    {
+      "name": "42125 - frontside1b.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 14,
+      "physical_placements": 14,
+      "steps": 4
+    },
+    {
+      "name": "42125 - frontside2.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 13,
+      "physical_placements": 13,
+      "steps": 2
+    },
+    {
+      "name": "42125 - frontside2b.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 14,
+      "physical_placements": 14,
+      "steps": 4
+    },
+    {
+      "name": "42125 - frontside2c.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 12,
+      "physical_placements": 12,
+      "steps": 4
+    },
+    {
+      "name": "42125 - frontside1c.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 12,
+      "physical_placements": 12,
+      "steps": 4
+    },
+    {
+      "name": "42125 - front1.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 26,
+      "physical_placements": 56,
+      "steps": 8
+    },
+    {
+      "name": "42125 - front1b.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 31,
+      "physical_placements": 31,
+      "steps": 5
+    },
+    {
+      "name": "42125 - front1c.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 26,
+      "physical_placements": 26,
+      "steps": 3
+    },
+    {
+      "name": "42125 - headlight1.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 11,
+      "physical_placements": 11,
+      "steps": 3
+    },
+    {
+      "name": "42125 - headlight2.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 11,
+      "physical_placements": 11,
+      "steps": 3
+    },
+    {
+      "name": "42125 - frontbump.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 26,
+      "physical_placements": 417,
+      "steps": 6
+    },
+    {
+      "name": "42125 - frontbumper2.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 16,
+      "physical_placements": 16,
+      "steps": 3
+    },
+    {
+      "name": "42125 - technicFlexAxle-studio-1.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 189,
+      "physical_placements": 189,
+      "steps": 1
+    },
+    {
+      "name": "42125 - technicFlexAxle-studio-2.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 189,
+      "physical_placements": 189,
+      "steps": 1
+    },
+    {
+      "name": "42125 - windscreenbase.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 35,
+      "physical_placements": 998,
+      "steps": 7
+    },
+    {
+      "name": "42125 - technicFlexAxle-studio-3.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 410,
+      "physical_placements": 410,
+      "steps": 1
+    },
+    {
+      "name": "42125 - technicFlexAxle-studio-4.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 555,
+      "physical_placements": 555,
+      "steps": 1
+    },
+    {
+      "name": "42125 - frontwheelarch1.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 13,
+      "physical_placements": 388,
+      "steps": 3
+    }
+  ],
+  "source_checks_passed": false,
+  "diagnostic_counts": {
+    "encoding.line_endings": 1,
+    "bfc.invertnext": 60,
+    "assembly.nonrigid": 3951,
+    "part.alias_or_internal": 1342,
+    "assembly.library_internal": 2993,
+    "matrix.singular": 4,
+    "geometry.quad_warp_review": 5
+  },
+  "diagnostics": [
+    {
+      "code": "encoding.line_endings",
+      "severity": "warning",
+      "message": "Use CRLF when delivering new files (PDF p.62).",
+      "line_number": null,
+      "section": null
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 13520,
+      "section": "42125 - 42924.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 13523,
+      "section": "42125 - 42924.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 13526,
+      "section": "42125 - 42924.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 13529,
+      "section": "42125 - 42924.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 13585,
+      "section": "42125 - 92909.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 13601,
+      "section": "42125 - 92909.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 13608,
+      "section": "42125 - 92909.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 13611,
+      "section": "42125 - 92909.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 13614,
+      "section": "42125 - 92909.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 13617,
+      "section": "42125 - 92909.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 13648,
+      "section": "42125 - 92909.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 13651,
+      "section": "42125 - 92909.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 13796,
+      "section": "42125 - 92909.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 14001,
+      "section": "42125 - 62462.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 14012,
+      "section": "42125 - 62462.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 14033,
+      "section": "42125 - 62462.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 14120,
+      "section": "42125 - 23801.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 14123,
+      "section": "42125 - 23801.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 14195,
+      "section": "42125 - 23801.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 15062,
+      "section": "42125 - 67142.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 15065,
+      "section": "42125 - 67142.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 15108,
+      "section": "42125 - 67142.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 15111,
+      "section": "42125 - 67142.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 17289,
+      "section": "42125 - 71682.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 17338,
+      "section": "42125 - 71682.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 17568,
+      "section": "42125 - 71709.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 17759,
+      "section": "s\\42125 - 32269s02.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 17837,
+      "section": "42125 - connectcollar3.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 18039,
+      "section": "42125 - connectslit1.dat"
+    }
+  ],
+  "detail": "summary",
+  "sections_truncated": true,
+  "diagnostics_truncated": true
+}

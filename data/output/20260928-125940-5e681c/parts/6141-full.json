@@ -1,0 +1,322 @@
+{
+  "code": "6141.dat",
+  "path": "/opt/ldraw/ldraw/parts/6141.dat",
+  "metadata": {
+    "description": "Plate 1 x 1 Round",
+    "name": "6141.dat",
+    "author": "James Jessiman",
+    "author_username": null,
+    "file_kind": "part",
+    "origin": "official",
+    "qualifiers": [],
+    "release": "2015-01",
+    "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+    "bfc": "ccw",
+    "history": [
+      {
+        "date": "1998-06-20",
+        "contributor": "PTadmin",
+        "text": "Official Update 1998-06",
+        "raw": "1998-06-20 [PTadmin] Official Update 1998-06"
+      },
+      {
+        "date": "2003-01-29",
+        "contributor": "sbliss",
+        "text": "Completed header; BFC'ed; misc cleanup",
+        "raw": "2003-01-29 [sbliss] Completed header; BFC'ed; misc cleanup"
+      },
+      {
+        "date": "2003-08-01",
+        "contributor": "PTadmin",
+        "text": "Official Update 2003-02",
+        "raw": "2003-08-01 [PTadmin] Official Update 2003-02"
+      },
+      {
+        "date": "2007-10-26",
+        "contributor": "PTadmin",
+        "text": "Header formatted for Contributor Agreement",
+        "raw": "2007-10-26 [PTadmin] Header formatted for Contributor Agreement"
+      },
+      {
+        "date": "2008-07-01",
+        "contributor": "PTadmin",
+        "text": "Official Update 2008-01",
+        "raw": "2008-07-01 [PTadmin] Official Update 2008-01"
+      },
+      {
+        "date": "2014-11-29",
+        "contributor": "Steffen",
+        "text": "Renamed from 4073",
+        "raw": "2014-11-29 [Steffen] Renamed from 4073"
+      },
+      {
+        "date": "2014-12-28",
+        "contributor": "MagFors",
+        "text": "Primitive substitution",
+        "raw": "2014-12-28 [MagFors] Primitive substitution"
+      },
+      {
+        "date": "2015-10-11",
+        "contributor": "PTadmin",
+        "text": "Official Update 2015-01",
+        "raw": "2015-10-11 [PTadmin] Official Update 2015-01"
+      }
+    ],
+    "category": null,
+    "keywords": [
+      "BrickLink 4073"
+    ],
+    "status": "current",
+    "replacement": null,
+    "preview": null
+  },
+  "complete": true,
+  "bounds": {
+    "min": [
+      -10.0,
+      -4.0,
+      -10.0
+    ],
+    "max": [
+      10.0,
+      8.0,
+      10.0
+    ]
+  },
+  "size": [
+    20.0,
+    12.0,
+    20.0
+  ],
+  "stud_positions": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "connector_count": 3,
+  "connectors": [
+    {
+      "kind": "pin_hole",
+      "role": "female",
+      "position": [
+        0.0,
+        8.0,
+        0.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 6.0,
+            "length": 5.0,
+            "flexible": false
+          }
+        ],
+        "centered": false,
+        "friction": true,
+        "caps": "one"
+      },
+      "name": "LDCad cylinder",
+      "feature_id": "snap_cyl@L10:I0",
+      "group": null,
+      "freedoms": [
+        "rotate"
+      ],
+      "source": "ldcad_shadow",
+      "confidence": 1.0,
+      "owner_code": "6141",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "/opt/ldraw-astra/data/offLibShadow/parts/6141.dat:10"
+      ],
+      "metadata_id": null,
+      "connection_provenance": {
+        "source": "ldcad_shadow",
+        "path": "/opt/ldraw-astra/data/offLibShadow/parts/6141.dat",
+        "archive_member": null,
+        "line_number": 10,
+        "command": "0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=R 6 5] [pos=0 8 0]",
+        "include_chain": []
+      },
+      "scale_inheritance": "none",
+      "mirror_inheritance": "cor"
+    },
+    {
+      "kind": "pin",
+      "role": "male",
+      "position": [
+        0.0,
+        3.0,
+        0.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 10.0,
+            "length": 3.0,
+            "flexible": false
+          },
+          {
+            "shape": "round",
+            "radius": 6.0,
+            "length": 4.0,
+            "flexible": false
+          }
+        ],
+        "centered": false,
+        "friction": false,
+        "caps": "none"
+      },
+      "name": "LDCad cylinder",
+      "feature_id": "snap_cyl@L11:I0",
+      "group": null,
+      "freedoms": [
+        "rotate",
+        "slide"
+      ],
+      "source": "ldcad_shadow",
+      "confidence": 1.0,
+      "owner_code": "6141",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "/opt/ldraw-astra/data/offLibShadow/parts/6141.dat:11"
+      ],
+      "metadata_id": null,
+      "connection_provenance": {
+        "source": "ldcad_shadow",
+        "path": "/opt/ldraw-astra/data/offLibShadow/parts/6141.dat",
+        "archive_member": null,
+        "line_number": 11,
+        "command": "0 !LDCAD SNAP_CYL [gender=M] [caps=none] [secs=R 10 3   R 6 4] [slide=true] [pos=0 3 0]",
+        "include_chain": []
+      },
+      "scale_inheritance": "none",
+      "mirror_inheritance": "cor"
+    },
+    {
+      "kind": "pin",
+      "role": "male",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frame": [
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 10.0,
+            "length": 3.0,
+            "flexible": false
+          },
+          {
+            "shape": "round",
+            "radius": 8.0,
+            "length": 5.0,
+            "flexible": false
+          }
+        ],
+        "centered": false,
+        "friction": false,
+        "caps": "none"
+      },
+      "name": "LDCad cylinder",
+      "feature_id": "snap_cyl@L12:I0",
+      "group": null,
+      "freedoms": [
+        "rotate",
+        "slide"
+      ],
+      "source": "ldcad_shadow",
+      "confidence": 1.0,
+      "owner_code": "6141",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "/opt/ldraw-astra/data/offLibShadow/parts/6141.dat:12"
+      ],
+      "metadata_id": null,
+      "connection_provenance": {
+        "source": "ldcad_shadow",
+        "path": "/opt/ldraw-astra/data/offLibShadow/parts/6141.dat",
+        "archive_member": null,
+        "line_number": 12,
+        "command": "0 !LDCAD SNAP_CYL [gender=M] [caps=none] [secs=R 10 3   R 8 5] [slide=true] [ori=-1 0 0 0 -1 0 0 0 1]",
+        "include_chain": []
+      },
+      "scale_inheritance": "none",
+      "mirror_inheritance": "cor"
+    }
+  ],
+  "connectors_truncated": false,
+  "diagnostics": [],
+  "connection_metadata": {
+    "coverage": "complete",
+    "source_count": 3,
+    "recognized_record_count": 5,
+    "unsupported_record_count": 0,
+    "invalid_record_count": 0,
+    "diagnostics": []
+  },
+  "rectangular_profile": null,
+  "note": "All coordinates are local LDU. Connector inference is evidence; inspect uncertain fits."
+}

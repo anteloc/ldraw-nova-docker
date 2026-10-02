@@ -1,0 +1,33 @@
+0 FILE m11-spoiler-42093-00-42093---spoiler.ldr
+0 Rear wing assembly using a long axle, two thin fairing panels, short liftarms, and connectors forming the rear aero element.
+0 Name: m11-spoiler-42093-00-42093---spoiler.ldr
+0 Author: Philippe Hurbain [Philo]
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+
+0 // Technic Axle  7 (yellow)
+1 14 0 0 0 1 0 0 0 1 0 0 0 1 44294.dat
+0 // Technic Panel Fairing Smooth #22 (Thin Short) (black)
+1 0 -60 0 0 0 0 -1 -1 0 0 0 1 0 11947.dat
+0 // =Technic Beam  2 Liftarm (black)
+1 0 -40 0 0 0 1 0 0 0 1 1 0 0 74695.dat
+0 // =Technic Beam  2 Liftarm (black)
+1 0 -20 0 0 0 1 0 1 0 0 0 0 -1 74695.dat
+0 // Technic Axle  5 (light_bluish_grey)
+1 71 0 0 -20 1 0 0 0 0 1 0 -1 0 32073.dat
+0 // Technic Connector (Axle) with Axle 1.5 (black)
+1 0 -40 0 -20 1 0 0 0 1 0 0 0 1 6553.dat
+0 STEP
+0 // =Technic Beam  2 Liftarm (black)
+1 0 0 0 0 0 1 0 1 0 0 0 0 -1 74695.dat
+0 // =Technic Beam  2 Liftarm (black)
+1 0 20 0 0 0 1 0 1 0 0 0 0 -1 74695.dat
+0 // Technic Connector (Axle) with Axle 1.5 (black)
+1 0 40 0 -20 1 0 0 0 1 0 0 0 1 6553.dat
+0 // =Technic Beam  2 Liftarm (black)
+1 0 40 0 0 0 1 0 0 0 1 1 0 0 74695.dat
+0 STEP
+0 // Technic Panel Fairing Smooth #21 (Thin Short) (black)
+1 0 60 0 0 0 0 1 1 0 0 0 1 0 11946.dat
+
+0 STEP
+0 NOFILE

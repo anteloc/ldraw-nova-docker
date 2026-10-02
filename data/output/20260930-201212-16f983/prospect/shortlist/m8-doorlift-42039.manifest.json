@@ -1,0 +1,57 @@
+{
+  "source": "/opt/ldraw-astra/data/models-annotated/42039-1.mpd",
+  "source_sha256": "7fde2504708675be12c4a1e4a1cb1ba318a05a340bf5505b388750f9e744b12e",
+  "source_section": "42039 - doorlift2.ldr",
+  "parser_section": "42039 - doorlift2.ldr",
+  "root": "m8-doorlift-42039-00-42039---doorlift2.ldr",
+  "renames": {
+    "42039 - doorlift2.ldr": "m8-doorlift-42039-00-42039---doorlift2.ldr",
+    "42039 - 33299b.dat": "m8-doorlift-42039-01-42039---33299b.dat",
+    "s\\42039 - 33299s01.dat": "m8-doorlift-42039-02-42039---33299s01.dat",
+    "42039 - doorlift.ldr": "m8-doorlift-42039-03-42039---doorlift.ldr"
+  },
+  "attribution": [
+    {
+      "section": "42039 - doorlift2.ldr",
+      "author": "Philippe Hurbain [Philo]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "42039 - 33299b.dat",
+      "author": "Santeri Piippo [arezey]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "s\\42039 - 33299s01.dat",
+      "author": "Orion Pobursky [OrionP]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "42039 - doorlift.ldr",
+      "author": "Philippe Hurbain [Philo]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    }
+  ],
+  "changes": [
+    {
+      "kind": "move_comments_before_invertnext",
+      "section": "s\\42039 - 33299s01.dat",
+      "source_line": 28186,
+      "comment_lines": [
+        28187
+      ]
+    },
+    {
+      "kind": "move_comments_before_invertnext",
+      "section": "s\\42039 - 33299s01.dat",
+      "source_line": 28201,
+      "comment_lines": [
+        28202
+      ]
+    }
+  ],
+  "output_sha256": "43a65b18b74671a3460f2dbeaa922996a18ff93c70007e3ff1ef2c4e978fff96",
+  "note": "Original authors and licences retained. Source bytes unchanged. Extraction is not validation or permission to relicense.",
+  "syntax_checks_passed": true,
+  "diagnostics": []
+}

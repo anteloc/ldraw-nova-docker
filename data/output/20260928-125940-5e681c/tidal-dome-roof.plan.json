@@ -1,0 +1,3957 @@
+{
+  "version": 1,
+  "author": "OpenAI - original Tidal Observatory design",
+  "sections": [
+    {
+      "name": "test-dome-roof.ldr",
+      "description": "Local detail review",
+      "steps": [
+        [
+          {
+            "id": "test",
+            "ref": "tidal-dome-roof.ldr",
+            "colour": 19,
+            "at": [
+              0,
+              0,
+              0
+            ],
+            "purpose": "test"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "tidal-dome-roof.ldr",
+      "description": "Patinated round observatory dome above an octagonal masonry drum and quiet roof terrace",
+      "steps": [
+        [
+          {
+            "id": "deck-under-0",
+            "ref": "3028.dat",
+            "colour": 72,
+            "at": [
+              -160,
+              8,
+              -140
+            ],
+            "purpose": "deck under 0",
+            "yaw": 0
+          },
+          {
+            "id": "deck-under-1",
+            "ref": "3028.dat",
+            "colour": 72,
+            "at": [
+              80,
+              8,
+              -140
+            ],
+            "purpose": "deck under 1",
+            "yaw": 0
+          },
+          {
+            "id": "deck-under-2",
+            "ref": "3029.dat",
+            "colour": 72,
+            "at": [
+              240,
+              8,
+              -80
+            ],
+            "purpose": "deck under 2",
+            "yaw": 90
+          },
+          {
+            "id": "deck-under-3",
+            "ref": "3028.dat",
+            "colour": 72,
+            "at": [
+              -160,
+              8,
+              -20
+            ],
+            "purpose": "deck under 3",
+            "yaw": 0
+          },
+          {
+            "id": "deck-under-4",
+            "ref": "3028.dat",
+            "colour": 72,
+            "at": [
+              80,
+              8,
+              -20
+            ],
+            "purpose": "deck under 4",
+            "yaw": 0
+          },
+          {
+            "id": "deck-under-5",
+            "ref": "3028.dat",
+            "colour": 72,
+            "at": [
+              -160,
+              8,
+              100
+            ],
+            "purpose": "deck under 5",
+            "yaw": 0
+          },
+          {
+            "id": "deck-under-6",
+            "ref": "3028.dat",
+            "colour": 72,
+            "at": [
+              80,
+              8,
+              100
+            ],
+            "purpose": "deck under 6",
+            "yaw": 0
+          },
+          {
+            "id": "deck-under-7",
+            "ref": "3035.dat",
+            "colour": 72,
+            "at": [
+              240,
+              8,
+              120
+            ],
+            "purpose": "deck under 7",
+            "yaw": 90
+          },
+          {
+            "id": "deck-under-8",
+            "ref": "3034.dat",
+            "colour": 72,
+            "at": [
+              -200,
+              8,
+              180
+            ],
+            "purpose": "deck under 8",
+            "yaw": 0
+          },
+          {
+            "id": "deck-under-9",
+            "ref": "3034.dat",
+            "colour": 72,
+            "at": [
+              -40,
+              8,
+              180
+            ],
+            "purpose": "deck under 9",
+            "yaw": 0
+          },
+          {
+            "id": "deck-under-10",
+            "ref": "3034.dat",
+            "colour": 72,
+            "at": [
+              120,
+              8,
+              180
+            ],
+            "purpose": "deck under 10",
+            "yaw": 0
+          }
+        ],
+        [
+          {
+            "id": "deck-top-0-0-0",
+            "ref": "3022.dat",
+            "colour": 28,
+            "at": [
+              -260,
+              0,
+              -180
+            ],
+            "purpose": "deck top 0 0 0",
+            "yaw": 0
+          },
+          {
+            "id": "deck-top-0-1-0",
+            "ref": "3034.dat",
+            "colour": 28,
+            "at": [
+              -260,
+              0,
+              -80
+            ],
+            "purpose": "deck top 0 1 0",
+            "yaw": 90
+          },
+          {
+            "id": "deck-top-0-1-1",
+            "ref": "3034.dat",
+            "colour": 28,
+            "at": [
+              -260,
+              0,
+              80
+            ],
+            "purpose": "deck top 0 1 1",
+            "yaw": 90
+          },
+          {
+            "id": "deck-top-0-2-0",
+            "ref": "3022.dat",
+            "colour": 28,
+            "at": [
+              -260,
+              0,
+              180
+            ],
+            "purpose": "deck top 0 2 0",
+            "yaw": 0
+          },
+          {
+            "id": "deck-top-1-0-0",
+            "ref": "3034.dat",
+            "colour": 28,
+            "at": [
+              -160,
+              0,
+              -180
+            ],
+            "purpose": "deck top 1 0 0",
+            "yaw": 0
+          },
+          {
+            "id": "deck-top-1-0-1",
+            "ref": "3034.dat",
+            "colour": 28,
+            "at": [
+              0,
+              0,
+              -180
+            ],
+            "purpose": "deck top 1 0 1",
+            "yaw": 0
+          },
+          {
+            "id": "deck-top-1-0-2",
+            "ref": "3034.dat",
+            "colour": 28,
+            "at": [
+              160,
+              0,
+              -180
+            ],
+            "purpose": "deck top 1 0 2",
+            "yaw": 0
+          },
+          {
+            "id": "deck-top-1-1-0",
+            "ref": "3028.dat",
+            "colour": 28,
+            "at": [
+              -120,
+              0,
+              -100
+            ],
+            "purpose": "deck top 1 1 0",
+            "yaw": 0
+          },
+          {
+            "id": "deck-top-1-1-1",
+            "ref": "3028.dat",
+            "colour": 28,
+            "at": [
+              120,
+              0,
+              -100
+            ],
+            "purpose": "deck top 1 1 1",
+            "yaw": 0
+          },
+          {
+            "id": "deck-top-1-1-2",
+            "ref": "3028.dat",
+            "colour": 28,
+            "at": [
+              -120,
+              0,
+              20
+            ],
+            "purpose": "deck top 1 1 2",
+            "yaw": 0
+          },
+          {
+            "id": "deck-top-1-1-3",
+            "ref": "3028.dat",
+            "colour": 28,
+            "at": [
+              120,
+              0,
+              20
+            ],
+            "purpose": "deck top 1 1 3",
+            "yaw": 0
+          },
+          {
+            "id": "deck-top-1-1-4",
+            "ref": "3029.dat",
+            "colour": 28,
+            "at": [
+              -120,
+              0,
+              120
+            ],
+            "purpose": "deck top 1 1 4",
+            "yaw": 0
+          },
+          {
+            "id": "deck-top-1-1-5",
+            "ref": "3029.dat",
+            "colour": 28,
+            "at": [
+              120,
+              0,
+              120
+            ],
+            "purpose": "deck top 1 1 5",
+            "yaw": 0
+          },
+          {
+            "id": "deck-top-1-2-0",
+            "ref": "3034.dat",
+            "colour": 28,
+            "at": [
+              -160,
+              0,
+              180
+            ],
+            "purpose": "deck top 1 2 0",
+            "yaw": 0
+          },
+          {
+            "id": "deck-top-1-2-1",
+            "ref": "3034.dat",
+            "colour": 28,
+            "at": [
+              0,
+              0,
+              180
+            ],
+            "purpose": "deck top 1 2 1",
+            "yaw": 0
+          },
+          {
+            "id": "deck-top-1-2-2",
+            "ref": "3034.dat",
+            "colour": 28,
+            "at": [
+              160,
+              0,
+              180
+            ],
+            "purpose": "deck top 1 2 2",
+            "yaw": 0
+          },
+          {
+            "id": "deck-top-2-0-0",
+            "ref": "3022.dat",
+            "colour": 28,
+            "at": [
+              260,
+              0,
+              -180
+            ],
+            "purpose": "deck top 2 0 0",
+            "yaw": 0
+          },
+          {
+            "id": "deck-top-2-1-0",
+            "ref": "3034.dat",
+            "colour": 28,
+            "at": [
+              260,
+              0,
+              -80
+            ],
+            "purpose": "deck top 2 1 0",
+            "yaw": 90
+          },
+          {
+            "id": "deck-top-2-1-1",
+            "ref": "3034.dat",
+            "colour": 28,
+            "at": [
+              260,
+              0,
+              80
+            ],
+            "purpose": "deck top 2 1 1",
+            "yaw": 90
+          },
+          {
+            "id": "deck-top-2-2-0",
+            "ref": "3022.dat",
+            "colour": 28,
+            "at": [
+              260,
+              0,
+              180
+            ],
+            "purpose": "deck top 2 2 0",
+            "yaw": 0
+          }
+        ],
+        [
+          {
+            "id": "drum-0--120-0",
+            "ref": "3007.dat",
+            "colour": 19,
+            "at": [
+              0,
+              -24,
+              -100
+            ],
+            "purpose": "drum 0  120 0",
+            "yaw": 0
+          }
+        ],
+        [
+          {
+            "id": "drum-0--80-0",
+            "ref": "3007.dat",
+            "colour": 19,
+            "at": [
+              -40,
+              -24,
+              -60
+            ],
+            "purpose": "drum 0  80 0",
+            "yaw": 0
+          },
+          {
+            "id": "drum-0--80-1",
+            "ref": "3001.dat",
+            "colour": 19,
+            "at": [
+              80,
+              -24,
+              -60
+            ],
+            "purpose": "drum 0  80 1",
+            "yaw": 0
+          }
+        ],
+        [
+          {
+            "id": "drum-0--40-0",
+            "ref": "3007.dat",
+            "colour": 19,
+            "at": [
+              -60,
+              -24,
+              -20
+            ],
+            "purpose": "drum 0  40 0",
+            "yaw": 0
+          },
+          {
+            "id": "drum-0--40-1",
+            "ref": "2456.dat",
+            "colour": 19,
+            "at": [
+              80,
+              -24,
+              -20
+            ],
+            "purpose": "drum 0  40 1",
+            "yaw": 0
+          }
+        ],
+        [
+          {
+            "id": "drum-0-0-0",
+            "ref": "3007.dat",
+            "colour": 19,
+            "at": [
+              -60,
+              -24,
+              20
+            ],
+            "purpose": "drum 0 0 0",
+            "yaw": 0
+          },
+          {
+            "id": "drum-0-0-1",
+            "ref": "2456.dat",
+            "colour": 19,
+            "at": [
+              80,
+              -24,
+              20
+            ],
+            "purpose": "drum 0 0 1",
+            "yaw": 0
+          }
+        ],
+        [
+          {
+            "id": "drum-0-40-0",
+            "ref": "3007.dat",
+            "colour": 19,
+            "at": [
+              -40,
+              -24,
+              60
+            ],
+            "purpose": "drum 0 40 0",
+            "yaw": 0
+          },
+          {
+            "id": "drum-0-40-1",
+            "ref": "3001.dat",
+            "colour": 19,
+            "at": [
+              80,
+              -24,
+              60
+            ],
+            "purpose": "drum 0 40 1",
+            "yaw": 0
+          }
+        ],
+        [
+          {
+            "id": "drum-0-80-0",
+            "ref": "3007.dat",
+            "colour": 19,
+            "at": [
+              0,
+              -24,
+              100
+            ],
+            "purpose": "drum 0 80 0",
+            "yaw": 0
+          }
+        ],
+        [
+          {
+            "id": "drum-1--120-0",
+            "ref": "3007.dat",
+            "colour": 15,
+            "at": [
+              0,
+              -48,
+              -100
+            ],
+            "purpose": "drum 1  120 0",
+            "yaw": 0
+          }
+        ],
+        [
+          {
+            "id": "drum-1--80-0",
+            "ref": "3007.dat",
+            "colour": 15,
+            "at": [
+              -40,
+              -48,
+              -60
+            ],
+            "purpose": "drum 1  80 0",
+            "yaw": 0
+          },
+          {
+            "id": "drum-1--80-1",
+            "ref": "3001.dat",
+            "colour": 15,
+            "at": [
+              80,
+              -48,
+              -60
+            ],
+            "purpose": "drum 1  80 1",
+            "yaw": 0
+          }
+        ],
+        [
+          {
+            "id": "drum-1--40-0",
+            "ref": "3007.dat",
+            "colour": 15,
+            "at": [
+              -60,
+              -48,
+              -20
+            ],
+            "purpose": "drum 1  40 0",
+            "yaw": 0
+          },
+          {
+            "id": "drum-1--40-1",
+            "ref": "2456.dat",
+            "colour": 15,
+            "at": [
+              80,
+              -48,
+              -20
+            ],
+            "purpose": "drum 1  40 1",
+            "yaw": 0
+          }
+        ],
+        [
+          {
+            "id": "drum-1-0-0",
+            "ref": "3007.dat",
+            "colour": 15,
+            "at": [
+              -60,
+              -48,
+              20
+            ],
+            "purpose": "drum 1 0 0",
+            "yaw": 0
+          },
+          {
+            "id": "drum-1-0-1",
+            "ref": "2456.dat",
+            "colour": 15,
+            "at": [
+              80,
+              -48,
+              20
+            ],
+            "purpose": "drum 1 0 1",
+            "yaw": 0
+          }
+        ],
+        [
+          {
+            "id": "drum-1-40-0",
+            "ref": "3007.dat",
+            "colour": 15,
+            "at": [
+              -40,
+              -48,
+              60
+            ],
+            "purpose": "drum 1 40 0",
+            "yaw": 0
+          },
+          {
+            "id": "drum-1-40-1",
+            "ref": "3001.dat",
+            "colour": 15,
+            "at": [
+              80,
+              -48,
+              60
+            ],
+            "purpose": "drum 1 40 1",
+            "yaw": 0
+          }
+        ],
+        [
+          {
+            "id": "drum-1-80-0",
+            "ref": "3007.dat",
+            "colour": 15,
+            "at": [
+              0,
+              -48,
+              100
+            ],
+            "purpose": "drum 1 80 0",
+            "yaw": 0
+          }
+        ],
+        [
+          {
+            "id": "copper-skirt-0",
+            "ref": "87559.dat",
+            "colour": 378,
+            "at": [
+              0,
+              -96,
+              0
+            ],
+            "purpose": "copper skirt 0",
+            "yaw": 0
+          },
+          {
+            "id": "raised-collar-0",
+            "ref": "48092.dat",
+            "colour": 378,
+            "at": [
+              0,
+              -120,
+              0
+            ],
+            "purpose": "raised collar 0",
+            "yaw": 0
+          }
+        ],
+        [
+          {
+            "id": "copper-skirt-90",
+            "ref": "87559.dat",
+            "colour": 378,
+            "at": [
+              0,
+              -96,
+              0
+            ],
+            "purpose": "copper skirt 90",
+            "yaw": 90
+          },
+          {
+            "id": "raised-collar-90",
+            "ref": "48092.dat",
+            "colour": 378,
+            "at": [
+              0,
+              -120,
+              0
+            ],
+            "purpose": "raised collar 90",
+            "yaw": 90
+          }
+        ],
+        [
+          {
+            "id": "copper-skirt-180",
+            "ref": "87559.dat",
+            "colour": 378,
+            "at": [
+              0,
+              -96,
+              0
+            ],
+            "purpose": "copper skirt 180",
+            "yaw": 180
+          },
+          {
+            "id": "raised-collar-180",
+            "ref": "48092.dat",
+            "colour": 378,
+            "at": [
+              0,
+              -120,
+              0
+            ],
+            "purpose": "raised collar 180",
+            "yaw": 180
+          }
+        ],
+        [
+          {
+            "id": "copper-skirt-270",
+            "ref": "87559.dat",
+            "colour": 378,
+            "at": [
+              0,
+              -96,
+              0
+            ],
+            "purpose": "copper skirt 270",
+            "yaw": 270
+          },
+          {
+            "id": "raised-collar-270",
+            "ref": "48092.dat",
+            "colour": 378,
+            "at": [
+              0,
+              -120,
+              0
+            ],
+            "purpose": "raised collar 270",
+            "yaw": 270
+          }
+        ],
+        [
+          {
+            "id": "dome-core-0-0",
+            "ref": "3001.dat",
+            "colour": 378,
+            "at": [
+              0,
+              -72,
+              -20
+            ],
+            "purpose": "dome core 0 0",
+            "yaw": 0
+          },
+          {
+            "id": "dome-core-0-1",
+            "ref": "3001.dat",
+            "colour": 378,
+            "at": [
+              0,
+              -72,
+              20
+            ],
+            "purpose": "dome core 0 1",
+            "yaw": 0
+          }
+        ],
+        [
+          {
+            "id": "dome-core-1-0",
+            "ref": "3001.dat",
+            "colour": 378,
+            "at": [
+              0,
+              -96,
+              -20
+            ],
+            "purpose": "dome core 1 0",
+            "yaw": 0
+          },
+          {
+            "id": "dome-core-1-1",
+            "ref": "3001.dat",
+            "colour": 378,
+            "at": [
+              0,
+              -96,
+              20
+            ],
+            "purpose": "dome core 1 1",
+            "yaw": 0
+          }
+        ],
+        [
+          {
+            "id": "dome-core-2-0",
+            "ref": "3001.dat",
+            "colour": 378,
+            "at": [
+              0,
+              -120,
+              -20
+            ],
+            "purpose": "dome core 2 0",
+            "yaw": 0
+          },
+          {
+            "id": "dome-core-2-1",
+            "ref": "3001.dat",
+            "colour": 378,
+            "at": [
+              0,
+              -120,
+              20
+            ],
+            "purpose": "dome core 2 1",
+            "yaw": 0
+          }
+        ],
+        [
+          {
+            "id": "crown-0",
+            "ref": "88293.dat",
+            "colour": 378,
+            "at": [
+              10,
+              -168,
+              -10
+            ],
+            "purpose": "crown 0",
+            "yaw": 0
+          }
+        ],
+        [
+          {
+            "id": "crown-90",
+            "ref": "88293.dat",
+            "colour": 378,
+            "at": [
+              -10,
+              -168,
+              -10
+            ],
+            "purpose": "crown 90",
+            "yaw": 90
+          }
+        ],
+        [
+          {
+            "id": "crown-180",
+            "ref": "88293.dat",
+            "colour": 378,
+            "at": [
+              -10,
+              -168,
+              10
+            ],
+            "purpose": "crown 180",
+            "yaw": 180
+          }
+        ],
+        [
+          {
+            "id": "crown-270",
+            "ref": "88293.dat",
+            "colour": 378,
+            "at": [
+              10,
+              -168,
+              10
+            ],
+            "purpose": "crown 270",
+            "yaw": 270
+          }
+        ],
+        [
+          {
+            "id": "crown-cap",
+            "ref": "3022.dat",
+            "colour": 297,
+            "at": [
+              0,
+              -176,
+              0
+            ],
+            "purpose": "crown cap"
+          },
+          {
+            "id": "crown-jumper",
+            "ref": "3794b.dat",
+            "colour": 297,
+            "at": [
+              0,
+              -184,
+              -10
+            ],
+            "purpose": "crown jumper"
+          },
+          {
+            "id": "crown-finial",
+            "ref": "4589.dat",
+            "colour": 297,
+            "at": [
+              0,
+              -208,
+              -10
+            ],
+            "purpose": "crown finial"
+          }
+        ],
+        [
+          {
+            "id": "roof-paving--250--170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -250,
+              -8,
+              -170
+            ],
+            "purpose": "roof paving  250  170"
+          },
+          {
+            "id": "roof-paving--250--150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -250,
+              -8,
+              -150
+            ],
+            "purpose": "roof paving  250  150"
+          },
+          {
+            "id": "roof-paving--250--130",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -250,
+              -8,
+              -130
+            ],
+            "purpose": "roof paving  250  130"
+          },
+          {
+            "id": "roof-paving--250--110",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -250,
+              -8,
+              -110
+            ],
+            "purpose": "roof paving  250  110"
+          },
+          {
+            "id": "roof-paving--250--90",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -250,
+              -8,
+              -90
+            ],
+            "purpose": "roof paving  250  90"
+          },
+          {
+            "id": "roof-paving--250--70",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -250,
+              -8,
+              -70
+            ],
+            "purpose": "roof paving  250  70"
+          },
+          {
+            "id": "roof-paving--250--50",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -250,
+              -8,
+              -50
+            ],
+            "purpose": "roof paving  250  50"
+          },
+          {
+            "id": "roof-paving--250--30",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -250,
+              -8,
+              -30
+            ],
+            "purpose": "roof paving  250  30"
+          },
+          {
+            "id": "roof-paving--250--10",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -250,
+              -8,
+              -10
+            ],
+            "purpose": "roof paving  250  10"
+          },
+          {
+            "id": "roof-paving--250-10",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -250,
+              -8,
+              10
+            ],
+            "purpose": "roof paving  250 10"
+          },
+          {
+            "id": "roof-paving--250-30",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -250,
+              -8,
+              30
+            ],
+            "purpose": "roof paving  250 30"
+          },
+          {
+            "id": "roof-paving--250-50",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -250,
+              -8,
+              50
+            ],
+            "purpose": "roof paving  250 50"
+          },
+          {
+            "id": "roof-paving--250-70",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -250,
+              -8,
+              70
+            ],
+            "purpose": "roof paving  250 70"
+          },
+          {
+            "id": "roof-paving--250-90",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -250,
+              -8,
+              90
+            ],
+            "purpose": "roof paving  250 90"
+          },
+          {
+            "id": "roof-paving--250-110",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -250,
+              -8,
+              110
+            ],
+            "purpose": "roof paving  250 110"
+          },
+          {
+            "id": "roof-paving--250-130",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -250,
+              -8,
+              130
+            ],
+            "purpose": "roof paving  250 130"
+          },
+          {
+            "id": "roof-paving--250-150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -250,
+              -8,
+              150
+            ],
+            "purpose": "roof paving  250 150"
+          },
+          {
+            "id": "roof-paving--250-170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -250,
+              -8,
+              170
+            ],
+            "purpose": "roof paving  250 170"
+          },
+          {
+            "id": "roof-paving--230--170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -230,
+              -8,
+              -170
+            ],
+            "purpose": "roof paving  230  170"
+          },
+          {
+            "id": "roof-paving--230--150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -230,
+              -8,
+              -150
+            ],
+            "purpose": "roof paving  230  150"
+          },
+          {
+            "id": "roof-paving--230--130",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -230,
+              -8,
+              -130
+            ],
+            "purpose": "roof paving  230  130"
+          },
+          {
+            "id": "roof-paving--230--110",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -230,
+              -8,
+              -110
+            ],
+            "purpose": "roof paving  230  110"
+          },
+          {
+            "id": "roof-paving--230--90",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -230,
+              -8,
+              -90
+            ],
+            "purpose": "roof paving  230  90"
+          },
+          {
+            "id": "roof-paving--230--70",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -230,
+              -8,
+              -70
+            ],
+            "purpose": "roof paving  230  70"
+          },
+          {
+            "id": "roof-paving--230--50",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -230,
+              -8,
+              -50
+            ],
+            "purpose": "roof paving  230  50"
+          },
+          {
+            "id": "roof-paving--230--30",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -230,
+              -8,
+              -30
+            ],
+            "purpose": "roof paving  230  30"
+          },
+          {
+            "id": "roof-paving--230--10",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -230,
+              -8,
+              -10
+            ],
+            "purpose": "roof paving  230  10"
+          },
+          {
+            "id": "roof-paving--230-10",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -230,
+              -8,
+              10
+            ],
+            "purpose": "roof paving  230 10"
+          },
+          {
+            "id": "roof-paving--230-70",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -230,
+              -8,
+              70
+            ],
+            "purpose": "roof paving  230 70"
+          },
+          {
+            "id": "roof-paving--230-90",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -230,
+              -8,
+              90
+            ],
+            "purpose": "roof paving  230 90"
+          },
+          {
+            "id": "roof-paving--230-110",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -230,
+              -8,
+              110
+            ],
+            "purpose": "roof paving  230 110"
+          },
+          {
+            "id": "roof-paving--230-130",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -230,
+              -8,
+              130
+            ],
+            "purpose": "roof paving  230 130"
+          },
+          {
+            "id": "roof-paving--230-150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -230,
+              -8,
+              150
+            ],
+            "purpose": "roof paving  230 150"
+          },
+          {
+            "id": "roof-paving--230-170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -230,
+              -8,
+              170
+            ],
+            "purpose": "roof paving  230 170"
+          },
+          {
+            "id": "roof-paving--210--170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -210,
+              -8,
+              -170
+            ],
+            "purpose": "roof paving  210  170"
+          },
+          {
+            "id": "roof-paving--210--150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -210,
+              -8,
+              -150
+            ],
+            "purpose": "roof paving  210  150"
+          },
+          {
+            "id": "roof-paving--210--130",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -210,
+              -8,
+              -130
+            ],
+            "purpose": "roof paving  210  130"
+          },
+          {
+            "id": "roof-paving--210--110",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -210,
+              -8,
+              -110
+            ],
+            "purpose": "roof paving  210  110"
+          },
+          {
+            "id": "roof-paving--210--90",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -210,
+              -8,
+              -90
+            ],
+            "purpose": "roof paving  210  90"
+          },
+          {
+            "id": "roof-paving--210--70",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -210,
+              -8,
+              -70
+            ],
+            "purpose": "roof paving  210  70"
+          },
+          {
+            "id": "roof-paving--210--50",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -210,
+              -8,
+              -50
+            ],
+            "purpose": "roof paving  210  50"
+          },
+          {
+            "id": "roof-paving--210--30",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -210,
+              -8,
+              -30
+            ],
+            "purpose": "roof paving  210  30"
+          },
+          {
+            "id": "roof-paving--210--10",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -210,
+              -8,
+              -10
+            ],
+            "purpose": "roof paving  210  10"
+          },
+          {
+            "id": "roof-paving--210-10",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -210,
+              -8,
+              10
+            ],
+            "purpose": "roof paving  210 10"
+          },
+          {
+            "id": "roof-paving--210-70",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -210,
+              -8,
+              70
+            ],
+            "purpose": "roof paving  210 70"
+          },
+          {
+            "id": "roof-paving--210-90",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -210,
+              -8,
+              90
+            ],
+            "purpose": "roof paving  210 90"
+          },
+          {
+            "id": "roof-paving--210-110",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -210,
+              -8,
+              110
+            ],
+            "purpose": "roof paving  210 110"
+          },
+          {
+            "id": "roof-paving--210-130",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -210,
+              -8,
+              130
+            ],
+            "purpose": "roof paving  210 130"
+          },
+          {
+            "id": "roof-paving--210-150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -210,
+              -8,
+              150
+            ],
+            "purpose": "roof paving  210 150"
+          },
+          {
+            "id": "roof-paving--210-170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -210,
+              -8,
+              170
+            ],
+            "purpose": "roof paving  210 170"
+          },
+          {
+            "id": "roof-paving--190--170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -190,
+              -8,
+              -170
+            ],
+            "purpose": "roof paving  190  170"
+          },
+          {
+            "id": "roof-paving--190--150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -190,
+              -8,
+              -150
+            ],
+            "purpose": "roof paving  190  150"
+          },
+          {
+            "id": "roof-paving--190--130",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -190,
+              -8,
+              -130
+            ],
+            "purpose": "roof paving  190  130"
+          },
+          {
+            "id": "roof-paving--190--110",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -190,
+              -8,
+              -110
+            ],
+            "purpose": "roof paving  190  110"
+          },
+          {
+            "id": "roof-paving--190--90",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -190,
+              -8,
+              -90
+            ],
+            "purpose": "roof paving  190  90"
+          },
+          {
+            "id": "roof-paving--190--70",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -190,
+              -8,
+              -70
+            ],
+            "purpose": "roof paving  190  70"
+          },
+          {
+            "id": "roof-paving--190--50",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -190,
+              -8,
+              -50
+            ],
+            "purpose": "roof paving  190  50"
+          },
+          {
+            "id": "roof-paving--190--30",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -190,
+              -8,
+              -30
+            ],
+            "purpose": "roof paving  190  30"
+          },
+          {
+            "id": "roof-paving--190--10",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -190,
+              -8,
+              -10
+            ],
+            "purpose": "roof paving  190  10"
+          },
+          {
+            "id": "roof-paving--190-10",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -190,
+              -8,
+              10
+            ],
+            "purpose": "roof paving  190 10"
+          },
+          {
+            "id": "roof-paving--190-30",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -190,
+              -8,
+              30
+            ],
+            "purpose": "roof paving  190 30"
+          },
+          {
+            "id": "roof-paving--190-50",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -190,
+              -8,
+              50
+            ],
+            "purpose": "roof paving  190 50"
+          },
+          {
+            "id": "roof-paving--190-70",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -190,
+              -8,
+              70
+            ],
+            "purpose": "roof paving  190 70"
+          },
+          {
+            "id": "roof-paving--190-90",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -190,
+              -8,
+              90
+            ],
+            "purpose": "roof paving  190 90"
+          },
+          {
+            "id": "roof-paving--190-110",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -190,
+              -8,
+              110
+            ],
+            "purpose": "roof paving  190 110"
+          },
+          {
+            "id": "roof-paving--190-130",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -190,
+              -8,
+              130
+            ],
+            "purpose": "roof paving  190 130"
+          },
+          {
+            "id": "roof-paving--190-150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -190,
+              -8,
+              150
+            ],
+            "purpose": "roof paving  190 150"
+          },
+          {
+            "id": "roof-paving--190-170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -190,
+              -8,
+              170
+            ],
+            "purpose": "roof paving  190 170"
+          },
+          {
+            "id": "roof-paving--170--170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -170,
+              -8,
+              -170
+            ],
+            "purpose": "roof paving  170  170"
+          },
+          {
+            "id": "roof-paving--170--150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -170,
+              -8,
+              -150
+            ],
+            "purpose": "roof paving  170  150"
+          },
+          {
+            "id": "roof-paving--170--130",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -170,
+              -8,
+              -130
+            ],
+            "purpose": "roof paving  170  130"
+          },
+          {
+            "id": "roof-paving--170--110",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -170,
+              -8,
+              -110
+            ],
+            "purpose": "roof paving  170  110"
+          },
+          {
+            "id": "roof-paving--170--90",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -170,
+              -8,
+              -90
+            ],
+            "purpose": "roof paving  170  90"
+          },
+          {
+            "id": "roof-paving--170--70",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -170,
+              -8,
+              -70
+            ],
+            "purpose": "roof paving  170  70"
+          },
+          {
+            "id": "roof-paving--170--50",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -170,
+              -8,
+              -50
+            ],
+            "purpose": "roof paving  170  50"
+          },
+          {
+            "id": "roof-paving--170--30",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -170,
+              -8,
+              -30
+            ],
+            "purpose": "roof paving  170  30"
+          },
+          {
+            "id": "roof-paving--170--10",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -170,
+              -8,
+              -10
+            ],
+            "purpose": "roof paving  170  10"
+          },
+          {
+            "id": "roof-paving--170-10",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -170,
+              -8,
+              10
+            ],
+            "purpose": "roof paving  170 10"
+          },
+          {
+            "id": "roof-paving--170-30",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -170,
+              -8,
+              30
+            ],
+            "purpose": "roof paving  170 30"
+          },
+          {
+            "id": "roof-paving--170-50",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -170,
+              -8,
+              50
+            ],
+            "purpose": "roof paving  170 50"
+          },
+          {
+            "id": "roof-paving--170-70",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -170,
+              -8,
+              70
+            ],
+            "purpose": "roof paving  170 70"
+          },
+          {
+            "id": "roof-paving--170-90",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -170,
+              -8,
+              90
+            ],
+            "purpose": "roof paving  170 90"
+          },
+          {
+            "id": "roof-paving--170-110",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -170,
+              -8,
+              110
+            ],
+            "purpose": "roof paving  170 110"
+          },
+          {
+            "id": "roof-paving--170-130",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -170,
+              -8,
+              130
+            ],
+            "purpose": "roof paving  170 130"
+          },
+          {
+            "id": "roof-paving--170-150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -170,
+              -8,
+              150
+            ],
+            "purpose": "roof paving  170 150"
+          },
+          {
+            "id": "roof-paving--170-170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -170,
+              -8,
+              170
+            ],
+            "purpose": "roof paving  170 170"
+          },
+          {
+            "id": "roof-paving--150--170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -150,
+              -8,
+              -170
+            ],
+            "purpose": "roof paving  150  170"
+          },
+          {
+            "id": "roof-paving--150--150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -150,
+              -8,
+              -150
+            ],
+            "purpose": "roof paving  150  150"
+          },
+          {
+            "id": "roof-paving--150-150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -150,
+              -8,
+              150
+            ],
+            "purpose": "roof paving  150 150"
+          },
+          {
+            "id": "roof-paving--150-170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -150,
+              -8,
+              170
+            ],
+            "purpose": "roof paving  150 170"
+          },
+          {
+            "id": "roof-paving--130--170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -130,
+              -8,
+              -170
+            ],
+            "purpose": "roof paving  130  170"
+          },
+          {
+            "id": "roof-paving--130--150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -130,
+              -8,
+              -150
+            ],
+            "purpose": "roof paving  130  150"
+          },
+          {
+            "id": "roof-paving--130-150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -130,
+              -8,
+              150
+            ],
+            "purpose": "roof paving  130 150"
+          },
+          {
+            "id": "roof-paving--130-170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -130,
+              -8,
+              170
+            ],
+            "purpose": "roof paving  130 170"
+          },
+          {
+            "id": "roof-paving--110--170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -110,
+              -8,
+              -170
+            ],
+            "purpose": "roof paving  110  170"
+          },
+          {
+            "id": "roof-paving--110--150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -110,
+              -8,
+              -150
+            ],
+            "purpose": "roof paving  110  150"
+          },
+          {
+            "id": "roof-paving--110-150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -110,
+              -8,
+              150
+            ],
+            "purpose": "roof paving  110 150"
+          },
+          {
+            "id": "roof-paving--110-170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -110,
+              -8,
+              170
+            ],
+            "purpose": "roof paving  110 170"
+          },
+          {
+            "id": "roof-paving--90--170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -90,
+              -8,
+              -170
+            ],
+            "purpose": "roof paving  90  170"
+          },
+          {
+            "id": "roof-paving--90--150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -90,
+              -8,
+              -150
+            ],
+            "purpose": "roof paving  90  150"
+          },
+          {
+            "id": "roof-paving--90-150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -90,
+              -8,
+              150
+            ],
+            "purpose": "roof paving  90 150"
+          },
+          {
+            "id": "roof-paving--90-170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -90,
+              -8,
+              170
+            ],
+            "purpose": "roof paving  90 170"
+          },
+          {
+            "id": "roof-paving--70--170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -70,
+              -8,
+              -170
+            ],
+            "purpose": "roof paving  70  170"
+          },
+          {
+            "id": "roof-paving--70--150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -70,
+              -8,
+              -150
+            ],
+            "purpose": "roof paving  70  150"
+          },
+          {
+            "id": "roof-paving--70-150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -70,
+              -8,
+              150
+            ],
+            "purpose": "roof paving  70 150"
+          },
+          {
+            "id": "roof-paving--70-170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -70,
+              -8,
+              170
+            ],
+            "purpose": "roof paving  70 170"
+          },
+          {
+            "id": "roof-paving--50--170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -50,
+              -8,
+              -170
+            ],
+            "purpose": "roof paving  50  170"
+          },
+          {
+            "id": "roof-paving--50--150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -50,
+              -8,
+              -150
+            ],
+            "purpose": "roof paving  50  150"
+          },
+          {
+            "id": "roof-paving--50-150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -50,
+              -8,
+              150
+            ],
+            "purpose": "roof paving  50 150"
+          },
+          {
+            "id": "roof-paving--50-170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -50,
+              -8,
+              170
+            ],
+            "purpose": "roof paving  50 170"
+          },
+          {
+            "id": "roof-paving--30--170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -30,
+              -8,
+              -170
+            ],
+            "purpose": "roof paving  30  170"
+          },
+          {
+            "id": "roof-paving--30--150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -30,
+              -8,
+              -150
+            ],
+            "purpose": "roof paving  30  150"
+          },
+          {
+            "id": "roof-paving--30-150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -30,
+              -8,
+              150
+            ],
+            "purpose": "roof paving  30 150"
+          },
+          {
+            "id": "roof-paving--30-170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -30,
+              -8,
+              170
+            ],
+            "purpose": "roof paving  30 170"
+          },
+          {
+            "id": "roof-paving--10--170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -10,
+              -8,
+              -170
+            ],
+            "purpose": "roof paving  10  170"
+          },
+          {
+            "id": "roof-paving--10--150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -10,
+              -8,
+              -150
+            ],
+            "purpose": "roof paving  10  150"
+          },
+          {
+            "id": "roof-paving--10-150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -10,
+              -8,
+              150
+            ],
+            "purpose": "roof paving  10 150"
+          },
+          {
+            "id": "roof-paving--10-170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              -10,
+              -8,
+              170
+            ],
+            "purpose": "roof paving  10 170"
+          },
+          {
+            "id": "roof-paving-10--170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              10,
+              -8,
+              -170
+            ],
+            "purpose": "roof paving 10  170"
+          },
+          {
+            "id": "roof-paving-10--150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              10,
+              -8,
+              -150
+            ],
+            "purpose": "roof paving 10  150"
+          },
+          {
+            "id": "roof-paving-10-150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              10,
+              -8,
+              150
+            ],
+            "purpose": "roof paving 10 150"
+          },
+          {
+            "id": "roof-paving-10-170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              10,
+              -8,
+              170
+            ],
+            "purpose": "roof paving 10 170"
+          },
+          {
+            "id": "roof-paving-30--170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              30,
+              -8,
+              -170
+            ],
+            "purpose": "roof paving 30  170"
+          },
+          {
+            "id": "roof-paving-30--150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              30,
+              -8,
+              -150
+            ],
+            "purpose": "roof paving 30  150"
+          },
+          {
+            "id": "roof-paving-30-150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              30,
+              -8,
+              150
+            ],
+            "purpose": "roof paving 30 150"
+          },
+          {
+            "id": "roof-paving-30-170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              30,
+              -8,
+              170
+            ],
+            "purpose": "roof paving 30 170"
+          },
+          {
+            "id": "roof-paving-50--170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              50,
+              -8,
+              -170
+            ],
+            "purpose": "roof paving 50  170"
+          },
+          {
+            "id": "roof-paving-50--150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              50,
+              -8,
+              -150
+            ],
+            "purpose": "roof paving 50  150"
+          },
+          {
+            "id": "roof-paving-50-150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              50,
+              -8,
+              150
+            ],
+            "purpose": "roof paving 50 150"
+          },
+          {
+            "id": "roof-paving-50-170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              50,
+              -8,
+              170
+            ],
+            "purpose": "roof paving 50 170"
+          },
+          {
+            "id": "roof-paving-70--170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              70,
+              -8,
+              -170
+            ],
+            "purpose": "roof paving 70  170"
+          },
+          {
+            "id": "roof-paving-70--150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              70,
+              -8,
+              -150
+            ],
+            "purpose": "roof paving 70  150"
+          },
+          {
+            "id": "roof-paving-70-150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              70,
+              -8,
+              150
+            ],
+            "purpose": "roof paving 70 150"
+          },
+          {
+            "id": "roof-paving-70-170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              70,
+              -8,
+              170
+            ],
+            "purpose": "roof paving 70 170"
+          },
+          {
+            "id": "roof-paving-90--170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              90,
+              -8,
+              -170
+            ],
+            "purpose": "roof paving 90  170"
+          },
+          {
+            "id": "roof-paving-90--150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              90,
+              -8,
+              -150
+            ],
+            "purpose": "roof paving 90  150"
+          },
+          {
+            "id": "roof-paving-90-150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              90,
+              -8,
+              150
+            ],
+            "purpose": "roof paving 90 150"
+          },
+          {
+            "id": "roof-paving-90-170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              90,
+              -8,
+              170
+            ],
+            "purpose": "roof paving 90 170"
+          },
+          {
+            "id": "roof-paving-110--170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              110,
+              -8,
+              -170
+            ],
+            "purpose": "roof paving 110  170"
+          },
+          {
+            "id": "roof-paving-110--150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              110,
+              -8,
+              -150
+            ],
+            "purpose": "roof paving 110  150"
+          },
+          {
+            "id": "roof-paving-110-150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              110,
+              -8,
+              150
+            ],
+            "purpose": "roof paving 110 150"
+          },
+          {
+            "id": "roof-paving-110-170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              110,
+              -8,
+              170
+            ],
+            "purpose": "roof paving 110 170"
+          },
+          {
+            "id": "roof-paving-130--170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              130,
+              -8,
+              -170
+            ],
+            "purpose": "roof paving 130  170"
+          },
+          {
+            "id": "roof-paving-130--150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              130,
+              -8,
+              -150
+            ],
+            "purpose": "roof paving 130  150"
+          },
+          {
+            "id": "roof-paving-130-150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              130,
+              -8,
+              150
+            ],
+            "purpose": "roof paving 130 150"
+          },
+          {
+            "id": "roof-paving-130-170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              130,
+              -8,
+              170
+            ],
+            "purpose": "roof paving 130 170"
+          },
+          {
+            "id": "roof-paving-150--170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              150,
+              -8,
+              -170
+            ],
+            "purpose": "roof paving 150  170"
+          },
+          {
+            "id": "roof-paving-150--150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              150,
+              -8,
+              -150
+            ],
+            "purpose": "roof paving 150  150"
+          },
+          {
+            "id": "roof-paving-150-150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              150,
+              -8,
+              150
+            ],
+            "purpose": "roof paving 150 150"
+          },
+          {
+            "id": "roof-paving-150-170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              150,
+              -8,
+              170
+            ],
+            "purpose": "roof paving 150 170"
+          },
+          {
+            "id": "roof-paving-170--170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              170,
+              -8,
+              -170
+            ],
+            "purpose": "roof paving 170  170"
+          },
+          {
+            "id": "roof-paving-170--150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              170,
+              -8,
+              -150
+            ],
+            "purpose": "roof paving 170  150"
+          },
+          {
+            "id": "roof-paving-170--130",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              170,
+              -8,
+              -130
+            ],
+            "purpose": "roof paving 170  130"
+          },
+          {
+            "id": "roof-paving-170--110",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              170,
+              -8,
+              -110
+            ],
+            "purpose": "roof paving 170  110"
+          },
+          {
+            "id": "roof-paving-170--90",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              170,
+              -8,
+              -90
+            ],
+            "purpose": "roof paving 170  90"
+          },
+          {
+            "id": "roof-paving-170--70",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              170,
+              -8,
+              -70
+            ],
+            "purpose": "roof paving 170  70"
+          },
+          {
+            "id": "roof-paving-170--50",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              170,
+              -8,
+              -50
+            ],
+            "purpose": "roof paving 170  50"
+          },
+          {
+            "id": "roof-paving-170--30",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              170,
+              -8,
+              -30
+            ],
+            "purpose": "roof paving 170  30"
+          },
+          {
+            "id": "roof-paving-170--10",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              170,
+              -8,
+              -10
+            ],
+            "purpose": "roof paving 170  10"
+          },
+          {
+            "id": "roof-paving-170-10",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              170,
+              -8,
+              10
+            ],
+            "purpose": "roof paving 170 10"
+          },
+          {
+            "id": "roof-paving-170-30",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              170,
+              -8,
+              30
+            ],
+            "purpose": "roof paving 170 30"
+          },
+          {
+            "id": "roof-paving-170-50",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              170,
+              -8,
+              50
+            ],
+            "purpose": "roof paving 170 50"
+          },
+          {
+            "id": "roof-paving-170-70",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              170,
+              -8,
+              70
+            ],
+            "purpose": "roof paving 170 70"
+          },
+          {
+            "id": "roof-paving-170-90",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              170,
+              -8,
+              90
+            ],
+            "purpose": "roof paving 170 90"
+          },
+          {
+            "id": "roof-paving-170-110",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              170,
+              -8,
+              110
+            ],
+            "purpose": "roof paving 170 110"
+          },
+          {
+            "id": "roof-paving-170-130",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              170,
+              -8,
+              130
+            ],
+            "purpose": "roof paving 170 130"
+          },
+          {
+            "id": "roof-paving-170-150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              170,
+              -8,
+              150
+            ],
+            "purpose": "roof paving 170 150"
+          },
+          {
+            "id": "roof-paving-170-170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              170,
+              -8,
+              170
+            ],
+            "purpose": "roof paving 170 170"
+          },
+          {
+            "id": "roof-paving-190--170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              190,
+              -8,
+              -170
+            ],
+            "purpose": "roof paving 190  170"
+          },
+          {
+            "id": "roof-paving-190--150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              190,
+              -8,
+              -150
+            ],
+            "purpose": "roof paving 190  150"
+          },
+          {
+            "id": "roof-paving-190--130",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              190,
+              -8,
+              -130
+            ],
+            "purpose": "roof paving 190  130"
+          },
+          {
+            "id": "roof-paving-190--110",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              190,
+              -8,
+              -110
+            ],
+            "purpose": "roof paving 190  110"
+          },
+          {
+            "id": "roof-paving-190--90",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              190,
+              -8,
+              -90
+            ],
+            "purpose": "roof paving 190  90"
+          },
+          {
+            "id": "roof-paving-190--70",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              190,
+              -8,
+              -70
+            ],
+            "purpose": "roof paving 190  70"
+          },
+          {
+            "id": "roof-paving-190--50",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              190,
+              -8,
+              -50
+            ],
+            "purpose": "roof paving 190  50"
+          },
+          {
+            "id": "roof-paving-190--30",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              190,
+              -8,
+              -30
+            ],
+            "purpose": "roof paving 190  30"
+          },
+          {
+            "id": "roof-paving-190--10",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              190,
+              -8,
+              -10
+            ],
+            "purpose": "roof paving 190  10"
+          },
+          {
+            "id": "roof-paving-190-10",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              190,
+              -8,
+              10
+            ],
+            "purpose": "roof paving 190 10"
+          },
+          {
+            "id": "roof-paving-190-30",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              190,
+              -8,
+              30
+            ],
+            "purpose": "roof paving 190 30"
+          },
+          {
+            "id": "roof-paving-190-50",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              190,
+              -8,
+              50
+            ],
+            "purpose": "roof paving 190 50"
+          },
+          {
+            "id": "roof-paving-190-70",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              190,
+              -8,
+              70
+            ],
+            "purpose": "roof paving 190 70"
+          },
+          {
+            "id": "roof-paving-190-90",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              190,
+              -8,
+              90
+            ],
+            "purpose": "roof paving 190 90"
+          },
+          {
+            "id": "roof-paving-190-110",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              190,
+              -8,
+              110
+            ],
+            "purpose": "roof paving 190 110"
+          },
+          {
+            "id": "roof-paving-190-130",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              190,
+              -8,
+              130
+            ],
+            "purpose": "roof paving 190 130"
+          },
+          {
+            "id": "roof-paving-190-150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              190,
+              -8,
+              150
+            ],
+            "purpose": "roof paving 190 150"
+          },
+          {
+            "id": "roof-paving-190-170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              190,
+              -8,
+              170
+            ],
+            "purpose": "roof paving 190 170"
+          },
+          {
+            "id": "roof-paving-210--170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              210,
+              -8,
+              -170
+            ],
+            "purpose": "roof paving 210  170"
+          },
+          {
+            "id": "roof-paving-210--150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              210,
+              -8,
+              -150
+            ],
+            "purpose": "roof paving 210  150"
+          },
+          {
+            "id": "roof-paving-210--130",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              210,
+              -8,
+              -130
+            ],
+            "purpose": "roof paving 210  130"
+          },
+          {
+            "id": "roof-paving-210--110",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              210,
+              -8,
+              -110
+            ],
+            "purpose": "roof paving 210  110"
+          },
+          {
+            "id": "roof-paving-210--90",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              210,
+              -8,
+              -90
+            ],
+            "purpose": "roof paving 210  90"
+          },
+          {
+            "id": "roof-paving-210--70",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              210,
+              -8,
+              -70
+            ],
+            "purpose": "roof paving 210  70"
+          },
+          {
+            "id": "roof-paving-210--50",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              210,
+              -8,
+              -50
+            ],
+            "purpose": "roof paving 210  50"
+          },
+          {
+            "id": "roof-paving-210--30",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              210,
+              -8,
+              -30
+            ],
+            "purpose": "roof paving 210  30"
+          },
+          {
+            "id": "roof-paving-210--10",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              210,
+              -8,
+              -10
+            ],
+            "purpose": "roof paving 210  10"
+          },
+          {
+            "id": "roof-paving-210-10",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              210,
+              -8,
+              10
+            ],
+            "purpose": "roof paving 210 10"
+          },
+          {
+            "id": "roof-paving-210-30",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              210,
+              -8,
+              30
+            ],
+            "purpose": "roof paving 210 30"
+          },
+          {
+            "id": "roof-paving-210-50",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              210,
+              -8,
+              50
+            ],
+            "purpose": "roof paving 210 50"
+          },
+          {
+            "id": "roof-paving-210-70",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              210,
+              -8,
+              70
+            ],
+            "purpose": "roof paving 210 70"
+          },
+          {
+            "id": "roof-paving-210-90",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              210,
+              -8,
+              90
+            ],
+            "purpose": "roof paving 210 90"
+          },
+          {
+            "id": "roof-paving-210-110",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              210,
+              -8,
+              110
+            ],
+            "purpose": "roof paving 210 110"
+          },
+          {
+            "id": "roof-paving-210-130",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              210,
+              -8,
+              130
+            ],
+            "purpose": "roof paving 210 130"
+          },
+          {
+            "id": "roof-paving-210-150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              210,
+              -8,
+              150
+            ],
+            "purpose": "roof paving 210 150"
+          },
+          {
+            "id": "roof-paving-210-170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              210,
+              -8,
+              170
+            ],
+            "purpose": "roof paving 210 170"
+          },
+          {
+            "id": "roof-paving-230--170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              230,
+              -8,
+              -170
+            ],
+            "purpose": "roof paving 230  170"
+          },
+          {
+            "id": "roof-paving-230--150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              230,
+              -8,
+              -150
+            ],
+            "purpose": "roof paving 230  150"
+          },
+          {
+            "id": "roof-paving-230--130",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              230,
+              -8,
+              -130
+            ],
+            "purpose": "roof paving 230  130"
+          },
+          {
+            "id": "roof-paving-230--110",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              230,
+              -8,
+              -110
+            ],
+            "purpose": "roof paving 230  110"
+          },
+          {
+            "id": "roof-paving-230--90",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              230,
+              -8,
+              -90
+            ],
+            "purpose": "roof paving 230  90"
+          },
+          {
+            "id": "roof-paving-230--70",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              230,
+              -8,
+              -70
+            ],
+            "purpose": "roof paving 230  70"
+          },
+          {
+            "id": "roof-paving-230--50",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              230,
+              -8,
+              -50
+            ],
+            "purpose": "roof paving 230  50"
+          },
+          {
+            "id": "roof-paving-230--30",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              230,
+              -8,
+              -30
+            ],
+            "purpose": "roof paving 230  30"
+          },
+          {
+            "id": "roof-paving-230--10",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              230,
+              -8,
+              -10
+            ],
+            "purpose": "roof paving 230  10"
+          },
+          {
+            "id": "roof-paving-230-10",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              230,
+              -8,
+              10
+            ],
+            "purpose": "roof paving 230 10"
+          },
+          {
+            "id": "roof-paving-230-30",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              230,
+              -8,
+              30
+            ],
+            "purpose": "roof paving 230 30"
+          },
+          {
+            "id": "roof-paving-230-50",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              230,
+              -8,
+              50
+            ],
+            "purpose": "roof paving 230 50"
+          },
+          {
+            "id": "roof-paving-230-70",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              230,
+              -8,
+              70
+            ],
+            "purpose": "roof paving 230 70"
+          },
+          {
+            "id": "roof-paving-230-90",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              230,
+              -8,
+              90
+            ],
+            "purpose": "roof paving 230 90"
+          },
+          {
+            "id": "roof-paving-230-110",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              230,
+              -8,
+              110
+            ],
+            "purpose": "roof paving 230 110"
+          },
+          {
+            "id": "roof-paving-230-130",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              230,
+              -8,
+              130
+            ],
+            "purpose": "roof paving 230 130"
+          },
+          {
+            "id": "roof-paving-230-150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              230,
+              -8,
+              150
+            ],
+            "purpose": "roof paving 230 150"
+          },
+          {
+            "id": "roof-paving-230-170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              230,
+              -8,
+              170
+            ],
+            "purpose": "roof paving 230 170"
+          },
+          {
+            "id": "roof-paving-250--170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              250,
+              -8,
+              -170
+            ],
+            "purpose": "roof paving 250  170"
+          },
+          {
+            "id": "roof-paving-250--150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              250,
+              -8,
+              -150
+            ],
+            "purpose": "roof paving 250  150"
+          },
+          {
+            "id": "roof-paving-250--130",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              250,
+              -8,
+              -130
+            ],
+            "purpose": "roof paving 250  130"
+          },
+          {
+            "id": "roof-paving-250--110",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              250,
+              -8,
+              -110
+            ],
+            "purpose": "roof paving 250  110"
+          },
+          {
+            "id": "roof-paving-250--90",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              250,
+              -8,
+              -90
+            ],
+            "purpose": "roof paving 250  90"
+          },
+          {
+            "id": "roof-paving-250--70",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              250,
+              -8,
+              -70
+            ],
+            "purpose": "roof paving 250  70"
+          },
+          {
+            "id": "roof-paving-250--50",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              250,
+              -8,
+              -50
+            ],
+            "purpose": "roof paving 250  50"
+          },
+          {
+            "id": "roof-paving-250--30",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              250,
+              -8,
+              -30
+            ],
+            "purpose": "roof paving 250  30"
+          },
+          {
+            "id": "roof-paving-250--10",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              250,
+              -8,
+              -10
+            ],
+            "purpose": "roof paving 250  10"
+          },
+          {
+            "id": "roof-paving-250-10",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              250,
+              -8,
+              10
+            ],
+            "purpose": "roof paving 250 10"
+          },
+          {
+            "id": "roof-paving-250-30",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              250,
+              -8,
+              30
+            ],
+            "purpose": "roof paving 250 30"
+          },
+          {
+            "id": "roof-paving-250-50",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              250,
+              -8,
+              50
+            ],
+            "purpose": "roof paving 250 50"
+          },
+          {
+            "id": "roof-paving-250-70",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              250,
+              -8,
+              70
+            ],
+            "purpose": "roof paving 250 70"
+          },
+          {
+            "id": "roof-paving-250-90",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              250,
+              -8,
+              90
+            ],
+            "purpose": "roof paving 250 90"
+          },
+          {
+            "id": "roof-paving-250-110",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              250,
+              -8,
+              110
+            ],
+            "purpose": "roof paving 250 110"
+          },
+          {
+            "id": "roof-paving-250-130",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              250,
+              -8,
+              130
+            ],
+            "purpose": "roof paving 250 130"
+          },
+          {
+            "id": "roof-paving-250-150",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              250,
+              -8,
+              150
+            ],
+            "purpose": "roof paving 250 150"
+          },
+          {
+            "id": "roof-paving-250-170",
+            "ref": "3070b.dat",
+            "colour": 72,
+            "at": [
+              250,
+              -8,
+              170
+            ],
+            "purpose": "roof paving 250 170"
+          }
+        ],
+        [
+          {
+            "id": "roof-telescope",
+            "ref": "tidal-instrument.ldr",
+            "colour": 297,
+            "at": [
+              -220,
+              0,
+              40
+            ],
+            "purpose": "roof telescope"
+          }
+        ],
+        [
+          {
+            "id": "roof-rim-f-0",
+            "ref": "3460.dat",
+            "colour": 15,
+            "at": [
+              -200,
+              -8,
+              -190
+            ],
+            "purpose": "roof rim f 0",
+            "yaw": 0
+          },
+          {
+            "id": "roof-rim-f-1",
+            "ref": "3460.dat",
+            "colour": 15,
+            "at": [
+              -40,
+              -8,
+              -190
+            ],
+            "purpose": "roof rim f 1",
+            "yaw": 0
+          },
+          {
+            "id": "roof-rim-f-2",
+            "ref": "3460.dat",
+            "colour": 15,
+            "at": [
+              120,
+              -8,
+              -190
+            ],
+            "purpose": "roof rim f 2",
+            "yaw": 0
+          },
+          {
+            "id": "roof-rim-f-3",
+            "ref": "3710.dat",
+            "colour": 15,
+            "at": [
+              240,
+              -8,
+              -190
+            ],
+            "purpose": "roof rim f 3",
+            "yaw": 0
+          },
+          {
+            "id": "roof-rim-b-0",
+            "ref": "3460.dat",
+            "colour": 15,
+            "at": [
+              -200,
+              -8,
+              190
+            ],
+            "purpose": "roof rim b 0",
+            "yaw": 0
+          },
+          {
+            "id": "roof-rim-b-1",
+            "ref": "3460.dat",
+            "colour": 15,
+            "at": [
+              -40,
+              -8,
+              190
+            ],
+            "purpose": "roof rim b 1",
+            "yaw": 0
+          },
+          {
+            "id": "roof-rim-b-2",
+            "ref": "3460.dat",
+            "colour": 15,
+            "at": [
+              120,
+              -8,
+              190
+            ],
+            "purpose": "roof rim b 2",
+            "yaw": 0
+          },
+          {
+            "id": "roof-rim-b-3",
+            "ref": "3710.dat",
+            "colour": 15,
+            "at": [
+              240,
+              -8,
+              190
+            ],
+            "purpose": "roof rim b 3",
+            "yaw": 0
+          },
+          {
+            "id": "roof-rim-l-0",
+            "ref": "3460.dat",
+            "colour": 15,
+            "at": [
+              -270,
+              -8,
+              -100
+            ],
+            "purpose": "roof rim l 0",
+            "yaw": 90
+          },
+          {
+            "id": "roof-rim-l-1",
+            "ref": "3460.dat",
+            "colour": 15,
+            "at": [
+              -270,
+              -8,
+              60
+            ],
+            "purpose": "roof rim l 1",
+            "yaw": 90
+          },
+          {
+            "id": "roof-rim-l-2",
+            "ref": "3023b.dat",
+            "colour": 15,
+            "at": [
+              -270,
+              -8,
+              160
+            ],
+            "purpose": "roof rim l 2",
+            "yaw": 90
+          },
+          {
+            "id": "roof-rim-r-0",
+            "ref": "3460.dat",
+            "colour": 15,
+            "at": [
+              270,
+              -8,
+              -100
+            ],
+            "purpose": "roof rim r 0",
+            "yaw": 90
+          },
+          {
+            "id": "roof-rim-r-1",
+            "ref": "3460.dat",
+            "colour": 15,
+            "at": [
+              270,
+              -8,
+              60
+            ],
+            "purpose": "roof rim r 1",
+            "yaw": 90
+          },
+          {
+            "id": "roof-rim-r-2",
+            "ref": "3023b.dat",
+            "colour": 15,
+            "at": [
+              270,
+              -8,
+              160
+            ],
+            "purpose": "roof rim r 2",
+            "yaw": 90
+          }
+        ]
+      ],
+      "anchors": {
+        "base": {
+          "at": [
+            0,
+            16,
+            0
+          ]
+        }
+      }
+    },
+    {
+      "name": "tidal-instrument.ldr",
+      "description": "Static brass telescope on a pedestal with a dark-blue objective lens",
+      "steps": [
+        [
+          {
+            "id": "plinth",
+            "ref": "3022.dat",
+            "colour": 15,
+            "at": [
+              0,
+              -8,
+              0
+            ],
+            "purpose": "plinth"
+          },
+          {
+            "id": "shaft",
+            "ref": "3003.dat",
+            "colour": 19,
+            "at": [
+              0,
+              -32,
+              0
+            ],
+            "purpose": "shaft"
+          },
+          {
+            "id": "shaft2",
+            "ref": "3003.dat",
+            "colour": 19,
+            "at": [
+              0,
+              -56,
+              0
+            ],
+            "purpose": "shaft2"
+          },
+          {
+            "id": "mount",
+            "ref": "4733.dat",
+            "colour": 297,
+            "at": [
+              10,
+              -80,
+              10
+            ],
+            "purpose": "mount"
+          },
+          {
+            "id": "mount-cap",
+            "ref": "3070b.dat",
+            "colour": 297,
+            "at": [
+              10,
+              -88,
+              10
+            ],
+            "purpose": "mount cap"
+          }
+        ],
+        [
+          {
+            "id": "telescope-tube-0",
+            "ref": "3062b.dat",
+            "colour": 297,
+            "at": [
+              10,
+              -70,
+              -24
+            ],
+            "purpose": "telescope tube 0",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          },
+          {
+            "id": "telescope-tube-1",
+            "ref": "3062b.dat",
+            "colour": 297,
+            "at": [
+              10,
+              -70,
+              -48
+            ],
+            "purpose": "telescope tube 1",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          },
+          {
+            "id": "telescope-tube-2",
+            "ref": "3062b.dat",
+            "colour": 297,
+            "at": [
+              10,
+              -70,
+              -72
+            ],
+            "purpose": "telescope tube 2",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        ],
+        [
+          {
+            "id": "objective",
+            "ref": "98138.dat",
+            "colour": 41,
+            "at": [
+              10,
+              -70,
+              -80
+            ],
+            "purpose": "objective",
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          }
+        ]
+      ]
+    }
+  ]
+}

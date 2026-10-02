@@ -1,0 +1,268 @@
+{
+  "code": "3001.dat",
+  "path": "/opt/ldraw/ldraw/parts/3001.dat",
+  "metadata": {
+    "description": "Brick 2 x 4",
+    "name": "3001.dat",
+    "author": "James Jessiman",
+    "author_username": null,
+    "file_kind": "part",
+    "origin": "official",
+    "qualifiers": [],
+    "release": "2004-03",
+    "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+    "bfc": "ccw",
+    "history": [
+      {
+        "date": "2002-05-07",
+        "contributor": "unknown",
+        "text": "BFC Certification",
+        "raw": "2002-05-07 {unknown} BFC Certification"
+      },
+      {
+        "date": "2002-06-11",
+        "contributor": "PTadmin",
+        "text": "Official Update 2002-03",
+        "raw": "2002-06-11 [PTadmin] Official Update 2002-03"
+      },
+      {
+        "date": "2004-02-08",
+        "contributor": "Steffen",
+        "text": "used s\\3001s01.dat",
+        "raw": "2004-02-08 [Steffen] used s\\3001s01.dat"
+      },
+      {
+        "date": "2004-09-15",
+        "contributor": "PTadmin",
+        "text": "Official Update 2004-03",
+        "raw": "2004-09-15 [PTadmin] Official Update 2004-03"
+      },
+      {
+        "date": "2007-05-07",
+        "contributor": "PTadmin",
+        "text": "Header formatted for Contributor Agreement",
+        "raw": "2007-05-07 [PTadmin] Header formatted for Contributor Agreement"
+      },
+      {
+        "date": "2008-07-01",
+        "contributor": "PTadmin",
+        "text": "Official Update 2008-01",
+        "raw": "2008-07-01 [PTadmin] Official Update 2008-01"
+      }
+    ],
+    "category": null,
+    "keywords": [],
+    "status": "current",
+    "replacement": null,
+    "preview": null
+  },
+  "complete": true,
+  "bounds": {
+    "min": [
+      -40.0,
+      -4.0,
+      -20.0
+    ],
+    "max": [
+      40.0,
+      24.0,
+      20.0
+    ]
+  },
+  "size": [
+    80.0,
+    28.0,
+    40.0
+  ],
+  "stud_positions": [
+    [
+      30.0,
+      0.0,
+      10.0
+    ],
+    [
+      10.0,
+      0.0,
+      10.0
+    ],
+    [
+      -10.0,
+      0.0,
+      10.0
+    ],
+    [
+      -30.0,
+      0.0,
+      10.0
+    ],
+    [
+      30.0,
+      0.0,
+      -10.0
+    ],
+    [
+      10.0,
+      0.0,
+      -10.0
+    ],
+    [
+      -10.0,
+      0.0,
+      -10.0
+    ],
+    [
+      -30.0,
+      0.0,
+      -10.0
+    ]
+  ],
+  "connector_count": 27,
+  "connectors": [
+    {
+      "kind": "stud_receptacle",
+      "role": "female",
+      "position": [
+        20.0,
+        24.0,
+        0.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 6.0,
+            "length": 20.0,
+            "flexible": false
+          }
+        ],
+        "centered": true,
+        "friction": false,
+        "caps": "none"
+      },
+      "name": "Stud Tube Open",
+      "feature_id": "s/3001s01@R0/stud4@R0/stud4",
+      "group": null,
+      "freedoms": [],
+      "source": "primitive",
+      "confidence": 1.0,
+      "owner_code": "3001",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "stud4",
+        "derived:stud-socket"
+      ],
+      "metadata_id": null,
+      "connection_provenance": {
+        "source": "primitive",
+        "path": null,
+        "archive_member": null,
+        "line_number": null,
+        "command": "stud4",
+        "include_chain": []
+      },
+      "scale_inheritance": "yandr",
+      "mirror_inheritance": "none"
+    },
+    {
+      "kind": "stud_receptacle",
+      "role": "female",
+      "position": [
+        10.0,
+        24.0,
+        10.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 6.0,
+            "length": 20.0,
+            "flexible": false
+          }
+        ],
+        "centered": true,
+        "friction": false,
+        "caps": "none"
+      },
+      "name": "Stud Socket",
+      "feature_id": "s/3001s01@R0/stud4@R0/stud4:socket:-1-1",
+      "group": null,
+      "freedoms": [],
+      "source": "primitive",
+      "confidence": 1.0,
+      "owner_code": "3001",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "stud4",
+        "derived:stud-socket"
+      ],
+      "metadata_id": null,
+      "connection_provenance": {
+        "source": "primitive",
+        "path": null,
+        "archive_member": null,
+        "line_number": null,
+        "command": "stud4",
+        "include_chain": []
+      },
+      "scale_inheritance": "yandr",
+      "mirror_inheritance": "none"
+    }
+  ],
+  "connectors_truncated": true,
+  "diagnostics": [],
+  "connection_metadata": {
+    "coverage": "complete",
+    "source_count": 3,
+    "recognized_record_count": 2,
+    "unsupported_record_count": 0,
+    "invalid_record_count": 0,
+    "diagnostics": []
+  },
+  "rectangular_profile": {
+    "description": "Brick  2 x  4",
+    "x_studs": 4,
+    "z_studs": 2,
+    "height": 24.0,
+    "studs": true
+  },
+  "note": "All coordinates are local LDU. Connector inference is evidence; inspect uncertain fits."
+}

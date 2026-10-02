@@ -1,0 +1,144 @@
+{
+ "version": 1,
+ "author": "joint test",
+ "sections": [
+  {
+   "name": "jt3.ldr",
+   "description": "Round plate and tile stacking evidence",
+   "steps": [
+    [
+     {
+      "id": "a0",
+      "ref": "3024.dat",
+      "colour": 71,
+      "at": [
+       0,
+       -8,
+       0
+      ]
+     },
+     {
+      "id": "a1",
+      "ref": "6141.dat",
+      "colour": 4,
+      "at": [
+       0,
+       -16,
+       0
+      ]
+     },
+     {
+      "id": "a2",
+      "ref": "6141.dat",
+      "colour": 14,
+      "at": [
+       0,
+       -24,
+       0
+      ]
+     },
+     {
+      "id": "b0",
+      "ref": "3024.dat",
+      "colour": 71,
+      "at": [
+       200,
+       -8,
+       0
+      ]
+     },
+     {
+      "id": "b1",
+      "ref": "3062b.dat",
+      "colour": 4,
+      "at": [
+       200,
+       -32,
+       0
+      ]
+     },
+     {
+      "id": "b2",
+      "ref": "6141.dat",
+      "colour": 14,
+      "at": [
+       200,
+       -40,
+       0
+      ]
+     },
+     {
+      "id": "c0",
+      "ref": "3022.dat",
+      "colour": 71,
+      "at": [
+       400,
+       -8,
+       0
+      ]
+     },
+     {
+      "id": "c1",
+      "ref": "6141.dat",
+      "colour": 4,
+      "at": [
+       410,
+       -16,
+       10
+      ]
+     },
+     {
+      "id": "d0",
+      "ref": "3024.dat",
+      "colour": 71,
+      "at": [
+       600,
+       -8,
+       0
+      ]
+     },
+     {
+      "id": "d1",
+      "ref": "3024.dat",
+      "colour": 4,
+      "at": [
+       600,
+       -16,
+       0
+      ]
+     },
+     {
+      "id": "e0",
+      "ref": "3024.dat",
+      "colour": 71,
+      "at": [
+       800,
+       -8,
+       0
+      ]
+     },
+     {
+      "id": "e1",
+      "ref": "3062b.dat",
+      "colour": 4,
+      "at": [
+       800,
+       -32,
+       0
+      ]
+     },
+     {
+      "id": "e2",
+      "ref": "98138.dat",
+      "colour": 0,
+      "at": [
+       800,
+       -40,
+       0
+      ]
+     }
+    ]
+   ]
+  }
+ ]
+}

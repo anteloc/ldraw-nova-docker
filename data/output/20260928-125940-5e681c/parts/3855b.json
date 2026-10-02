@@ -1,0 +1,193 @@
+{
+  "code": "3855b.dat",
+  "path": "/opt/ldraw/ldraw/parts/3855b.dat",
+  "metadata": {
+    "description": "Glass for Window 1 x 4 x 3 without Handle",
+    "name": "3855b.dat",
+    "author": "James Jessiman",
+    "author_username": null,
+    "file_kind": "part",
+    "origin": "official",
+    "qualifiers": [],
+    "release": "2016-01",
+    "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+    "bfc": "ccw",
+    "history": [
+      {
+        "date": "1998-06-20",
+        "contributor": "PTadmin",
+        "text": "Official Update 1998-06",
+        "raw": "1998-06-20 [PTadmin] Official Update 1998-06"
+      },
+      {
+        "date": "1999-02-01",
+        "contributor": "PTadmin",
+        "text": "Official Update 1999-01",
+        "raw": "1999-02-01 [PTadmin] Official Update 1999-01"
+      },
+      {
+        "date": "2003-01-28",
+        "contributor": "sbliss",
+        "text": "Completed header, added bumps",
+        "raw": "2003-01-28 [sbliss] Completed header, added bumps"
+      },
+      {
+        "date": "2003-12-19",
+        "contributor": "PTadmin",
+        "text": "Official Update 2003-03",
+        "raw": "2003-12-19 [PTadmin] Official Update 2003-03"
+      },
+      {
+        "date": "2007-06-30",
+        "contributor": "PTadmin",
+        "text": "Header formatted for Contributor Agreement",
+        "raw": "2007-06-30 [PTadmin] Header formatted for Contributor Agreement"
+      },
+      {
+        "date": "2008-07-01",
+        "contributor": "PTadmin",
+        "text": "Official Update 2008-01",
+        "raw": "2008-07-01 [PTadmin] Official Update 2008-01"
+      },
+      {
+        "date": "2008-07-07",
+        "contributor": "anathema",
+        "text": "Added missing edge-lines around bumps (2008-02-08)",
+        "raw": "2008-07-07 [anathema] Added missing edge-lines around bumps (2008-02-08)"
+      },
+      {
+        "date": "2009-09-03",
+        "contributor": "PTadmin",
+        "text": "Official Update 2009-02",
+        "raw": "2009-09-03 [PTadmin] Official Update 2009-02"
+      },
+      {
+        "date": "2013-03-11",
+        "contributor": "mikeheide",
+        "text": "Changed origin",
+        "raw": "2013-03-11 [mikeheide] Changed origin"
+      },
+      {
+        "date": "2013-03-12",
+        "contributor": "PTadmin",
+        "text": "Renamed from 3855",
+        "raw": "2013-03-12 [PTadmin] Renamed from 3855"
+      },
+      {
+        "date": "2016-06-07",
+        "contributor": "mikeheide",
+        "text": "Changed origin to rotation axes, fixed scaled flat prims",
+        "raw": "2016-06-07 [mikeheide] Changed origin to rotation axes, fixed scaled flat prims"
+      },
+      {
+        "date": "2016-12-31",
+        "contributor": "PTadmin",
+        "text": "Official Update 2016-01",
+        "raw": "2016-12-31 [PTadmin] Official Update 2016-01"
+      }
+    ],
+    "category": null,
+    "keywords": [
+      "BrickLink 3855",
+      "Rebrickable 3855"
+    ],
+    "status": "current",
+    "replacement": null,
+    "preview": null
+  },
+  "complete": true,
+  "bounds": {
+    "min": [
+      -37.5,
+      -30.0,
+      -2.0
+    ],
+    "max": [
+      37.5,
+      30.0,
+      2.0
+    ]
+  },
+  "size": [
+    75.0,
+    60.0,
+    4.0
+  ],
+  "stud_positions": [],
+  "connector_count": 1,
+  "connectors": [
+    {
+      "kind": "hinge",
+      "role": "neutral",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frame": [
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sequence": [
+          72.0
+        ],
+        "radius": 2.0,
+        "first_role": "male",
+        "detents": [],
+        "centered": true
+      },
+      "name": "win-1-4-3",
+      "feature_id": "snap_fgr@L9:I0",
+      "group": "win-1-4-3",
+      "freedoms": [
+        "rotate"
+      ],
+      "source": "ldcad_shadow",
+      "confidence": 1.0,
+      "owner_code": "3855b",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "/opt/ldraw-astra/data/offLibShadow/parts/3855b.dat:9"
+      ],
+      "metadata_id": null,
+      "connection_provenance": {
+        "source": "ldcad_shadow",
+        "path": "/opt/ldraw-astra/data/offLibShadow/parts/3855b.dat",
+        "archive_member": null,
+        "line_number": 9,
+        "command": "0 !LDCAD SNAP_FGR [group=win-1-4-3] [genderOfs=M] [seq=72] [radius=2] [ori=0 -1 0 1 0 0 0 0 1]",
+        "include_chain": []
+      },
+      "scale_inheritance": "none",
+      "mirror_inheritance": "none"
+    }
+  ],
+  "connectors_truncated": false,
+  "diagnostics": [],
+  "connection_metadata": {
+    "coverage": "complete",
+    "source_count": 1,
+    "recognized_record_count": 1,
+    "unsupported_record_count": 0,
+    "invalid_record_count": 0,
+    "diagnostics": []
+  },
+  "rectangular_profile": null,
+  "note": "All coordinates are local LDU. Connector inference is evidence; inspect uncertain fits."
+}

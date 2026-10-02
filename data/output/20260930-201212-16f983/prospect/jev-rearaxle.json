@@ -1,0 +1,1215 @@
+{
+  "query": "a Technic rear axle with a differential, CV-jointed drive shafts and independent suspension with shock absorbers",
+  "kind": "submodels",
+  "engine": "jev",
+  "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+  "index_signature": "c3c851bfa92aff4ac3ef5a120b8f489e4ab5d77fdc22391703b3eefb3040ce85",
+  "results": [
+    {
+      "kind": "submodels",
+      "description": "A Technic quad bike drivetrain and suspension unit with shock absorbers, gears, axles, beams, and pin connectors.",
+      "model": "9392-1.mpd",
+      "section": "9392 - 9392-1.ldr",
+      "id": "submodel-8b4c377d11859c3a027eea16",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "A Technic quad bike drivetrain and suspension unit with shock absorbers, gears, axles, beams, and pin connectors.",
+      "original_full_description": "9392-1.mpd|9392 - 9392-1.ldr|A Technic quad bike drivetrain and suspension unit with shock absorbers, gears, axles, beams, and pin connectors.",
+      "source_exists": true,
+      "path": "/opt/ldraw-astra/data/models-annotated/9392-1.mpd",
+      "source_sha256": "9c5caaa4492163ce94e4516c0c9274695e123b883311caacf8b90794a2f6705e",
+      "source_section": "9392 - 9392-1.ldr",
+      "start_line": 18,
+      "parent_description": "A quad bike chassis assembly referencing a single Technic submodel.",
+      "theme": "",
+      "direct_placements": 198,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "9392-1.mpd|9392 - 9392-1.ldr|A Technic quad bike drivetrain and suspension unit with shock absorbers, gears, axles, beams, and pin connectors.",
+      "score": 0.62,
+      "retrieval_rank": 4,
+      "inventory": {
+        "source_sha256": "9c5caaa4492163ce94e4516c0c9274695e123b883311caacf8b90794a2f6705e",
+        "parser_section": "9392 - 9392-1.ldr",
+        "physical_placements": 198,
+        "expanded_leaf_count": 198,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "2739a.dat",
+            "count": 2,
+            "description": "Technic Steering Link  6L Type 1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2850a.dat",
+            "count": 1,
+            "description": "Technic Engine Cylinder Head with Side Slots",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2851.dat",
+            "count": 1,
+            "description": "Technic Engine Piston Round",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2852.dat",
+            "count": 1,
+            "description": "Technic Engine Connecting Rod",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2853.dat",
+            "count": 2,
+            "description": "~Moved to 2853a",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2905.dat",
+            "count": 2,
+            "description": "Technic Beam  5 x  3 x  0.5 Liftarm Triangle",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32002.dat",
+            "count": 4,
+            "description": "Technic Pin  3/4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32013.dat",
+            "count": 2,
+            "description": "Technic Angle Connector #1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32015.dat",
+            "count": 2,
+            "description": "Technic Angle Connector #5 (112.5 degree)",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32016.dat",
+            "count": 2,
+            "description": "Technic Angle Connector #3 (157.5 degree)",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32039.dat",
+            "count": 2,
+            "description": "Technic Connector (Axle/Bush) Type 1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32054.dat",
+            "count": 2,
+            "description": "Technic Pin Long with Stop Bush",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32062.dat",
+            "count": 2,
+            "description": "Technic Axle  2 Notched",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32073.dat",
+            "count": 4,
+            "description": "Technic Axle  5",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32123a.dat",
+            "count": 13,
+            "description": "Technic Bush  1/2 Smooth with Axle Hole Reduced",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32140.dat",
+            "count": 2,
+            "description": "Technic Beam  2 x  4 Liftarm Bent 90",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32209.dat",
+            "count": 2,
+            "description": "Technic Axle  5.5 with Stop Type 1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32271.dat",
+            "count": 7,
+            "description": "Technic Beam  3 x  7 Liftarm Bent 53.13",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32291.dat",
+            "count": 1,
+            "description": "Technic Cross Block 2 x 2 (Axle/Twin Pin)",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32316.dat",
+            "count": 4,
+            "description": "Technic Beam  5",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32348.dat",
+            "count": 4,
+            "description": "Technic Beam  4 x  4 Liftarm Bent 53.13",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32523.dat",
+            "count": 1,
+            "description": "Technic Beam  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32556.dat",
+            "count": 11,
+            "description": "~Moved to 32556a",
+            "physical_index_entry": true
+          },
+          {
+            "part": "33299.dat",
+            "count": 2,
+            "description": "~Moved to 33299a",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3673.dat",
+            "count": 3,
+            "description": "Technic Pin",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3705.dat",
+            "count": 1,
+            "description": "Technic Axle  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3711.dat",
+            "count": 26,
+            "description": "Technic Chain Link",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3713.dat",
+            "count": 5,
+            "description": "Technic Bush with Two Flanges",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3737.dat",
+            "count": 2,
+            "description": "Technic Axle 10",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3749.dat",
+            "count": 6,
+            "description": "Technic Axle Pin",
+            "physical_index_entry": true
+          },
+          {
+            "part": "40490.dat",
+            "count": 1,
+            "description": "Technic Beam  9",
+            "physical_index_entry": true
+          },
+          {
+            "part": "41677.dat",
+            "count": 2,
+            "description": "Technic Beam  2 x  0.5 Liftarm",
+            "physical_index_entry": true
+          },
+          {
+            "part": "41838.dat",
+            "count": 3,
+            "description": "Technic Shock Absorber  6.5L Soft (Complete)",
+            "physical_index_entry": true
+          },
+          {
+            "part": "43857.dat",
+            "count": 2,
+            "description": "Technic Beam  2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "44294.dat",
+            "count": 2,
+            "description": "Technic Axle  7",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4519.dat",
+            "count": 19,
+            "description": "Technic Axle  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "55976.dat",
+            "count": 4,
+            "description": "Tyre 26/ 52 x 30 Off Road",
+            "physical_index_entry": true
+          },
+          {
+            "part": "56145.dat",
+            "count": 4,
+            "description": "Wheel Rim 20 x 30 with  6 Dual Spokes and External Ribs",
+            "physical_index_entry": true
+          },
+          {
+            "part": "59443.dat",
+            "count": 2,
+            "description": "Technic Axle Joiner Inline Smooth",
+            "physical_index_entry": true
+          },
+          {
+            "part": "60483.dat",
+            "count": 2,
+            "description": "Technic Beam  2 Liftarm",
+            "physical_index_entry": true
+          },
+          {
+            "part": "60484.dat",
+            "count": 3,
+            "description": "Technic Beam  3 x  3 T-shaped",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6141.dat",
+            "count": 2,
+            "description": "Plate  1 x  1 Round",
+            "physical_index_entry": true
+          },
+          {
+            "part": "62462.dat",
+            "count": 2,
+            "description": "Technic Pin Joiner Round with Slot",
+            "physical_index_entry": true
+          },
+          {
+            "part": "63869.dat",
+            "count": 1,
+            "description": "Technic Cross Block 3 x 2 (Axle/Triple Pin)",
+            "physical_index_entry": true
+          },
+          {
+            "part": "64391.dat",
+            "count": 1,
+            "description": "Technic Panel Fairing Smooth #4 (Medium)",
+            "physical_index_entry": true
+          },
+          {
+            "part": "64683.dat",
+            "count": 1,
+            "description": "Technic Panel Fairing Smooth #3 (Medium)",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6536.dat",
+            "count": 3,
+            "description": "Technic Cross Block 1 x 2 (Axle/Pin)",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6553.dat",
+            "count": 2,
+            "description": "Technic Connector (Axle) with Axle 1.5",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6571.dat",
+            "count": 2,
+            "description": "Technic Steering Arm 3H with Towball Sockets",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6572.dat",
+            "count": 4,
+            "description": "Technic Suspension Arm  2 x  4.8 with Towball",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6587.dat",
+            "count": 2,
+            "description": "Technic Axle  3 with Stud",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6628.dat",
+            "count": 2,
+            "description": "Technic Pin Towball with Friction",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6629.dat",
+            "count": 1,
+            "description": "Technic Beam  4 x  6 Liftarm Bent 53.13",
+            "physical_index_entry": true
+          },
+          {
+            "part": "87080.dat",
+            "count": 1,
+            "description": "Technic Panel Fairing Smooth #1 (Short)",
+            "physical_index_entry": true
+          },
+          {
+            "part": "87082.dat",
+            "count": 2,
+            "description": "Technic Pin Long with Pin Hole Type 1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "87083.dat",
+            "count": 2,
+            "description": "Technic Axle  4 with Stop",
+            "physical_index_entry": true
+          },
+          {
+            "part": "87086.dat",
+            "count": 1,
+            "description": "Technic Panel Fairing Smooth #2 (Short)",
+            "physical_index_entry": true
+          },
+          {
+            "part": "92907.dat",
+            "count": 2,
+            "description": "Technic Cross Block  2 x  2 x  2 Bent 90 Split (Pin/Twin Axle)",
+            "physical_index_entry": true
+          },
+          {
+            "part": "94925.dat",
+            "count": 4,
+            "description": "Technic Gear 16 Tooth Reinforced",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 173,
+        "technic_share": 0.8737373737373737,
+        "legacy_parts": [
+          {
+            "part": "2853.dat",
+            "count": 2,
+            "description": "~Moved to 2853a",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32556.dat",
+            "count": 11,
+            "description": "~Moved to 32556a",
+            "physical_index_entry": true
+          },
+          {
+            "part": "33299.dat",
+            "count": 2,
+            "description": "~Moved to 33299a",
+            "physical_index_entry": true
+          }
+        ],
+        "shape_fingerprint": "0d41330b0defdbd51008ddd32aa989d0767f53af4c09cd8532032431387de673",
+        "recipe_fingerprint": "70951c218dfa9d2df99545d7a1916d468a5f9eefe5797e8b91d8833f180ba2a0",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "9392 - Main.ldr",
+            "at": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "colour": 0
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "9392 - 9392-1.ldr",
+            "kind": "assembly",
+            "author": "Oh-Seong KWON",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      },
+      "mechanism_study": "inspect source steps, parts and parent context; analytical mechanism verification is deferred"
+    },
+    {
+      "kind": "submodels",
+      "description": "Upper rear axle structure of beams, gears, angle connectors, and axle joiners linking to the drivetrain.",
+      "model": "42037-1.mpd",
+      "section": "42037 - rearaxletop.ldr",
+      "id": "submodel-e47ac22c6e0a63e70f70dc82",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "Upper rear axle structure of beams, gears, angle connectors, and axle joiners linking to the drivetrain.",
+      "original_full_description": "42037-1.mpd|42037 - rearaxletop.ldr|Upper rear axle structure of beams, gears, angle connectors, and axle joiners linking to the drivetrain.",
+      "source_exists": true,
+      "path": "/opt/ldraw-astra/data/models-annotated/42037-1.mpd",
+      "source_sha256": "8c1d538c8bf99982c52ca65113f97c15a5fa0860d4539ef65c40bd96242340f8",
+      "source_section": "42037 - rearaxletop.ldr",
+      "start_line": 6763,
+      "parent_description": "Technic frame assembly with liftarms, axles, and connectors forming the main body of the Formula Off Roader, integrating the steering, motor, chassis, suspension, and body panels.",
+      "theme": "Technic",
+      "direct_placements": 23,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "42037-1.mpd|42037 - rearaxletop.ldr|Upper rear axle structure of beams, gears, angle connectors, and axle joiners linking to the drivetrain.",
+      "score": 0.54,
+      "retrieval_rank": 6,
+      "inventory": {
+        "source_sha256": "8c1d538c8bf99982c52ca65113f97c15a5fa0860d4539ef65c40bd96242340f8",
+        "parser_section": "42037 - rearaxletop.ldr",
+        "physical_placements": 23,
+        "expanded_leaf_count": 23,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "11214.dat",
+            "count": 2,
+            "description": "Technic Axle Pin Long with Friction with  2L Pin",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2780.dat",
+            "count": 2,
+            "description": "Technic Pin with Friction and Slots",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32034.dat",
+            "count": 4,
+            "description": "Technic Angle Connector #2 (180 degree)",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32039.dat",
+            "count": 2,
+            "description": "Technic Connector (Axle/Bush) Type 1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32270.dat",
+            "count": 1,
+            "description": "Technic Gear 12 Tooth Double Bevel",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32525.dat",
+            "count": 2,
+            "description": "Technic Beam 11",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3705.dat",
+            "count": 1,
+            "description": "Technic Axle  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3713.dat",
+            "count": 1,
+            "description": "Technic Bush with Two Flanges",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3749.dat",
+            "count": 1,
+            "description": "Technic Axle Pin",
+            "physical_index_entry": true
+          },
+          {
+            "part": "44294.dat",
+            "count": 1,
+            "description": "Technic Axle  7",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4519.dat",
+            "count": 2,
+            "description": "Technic Axle  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "59443.dat",
+            "count": 2,
+            "description": "Technic Axle Joiner Inline Smooth",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6589.dat",
+            "count": 1,
+            "description": "Technic Gear 12 Tooth Bevel",
+            "physical_index_entry": true
+          },
+          {
+            "part": "87408.dat",
+            "count": 1,
+            "description": "Technic Connector Toggle Joint Double with Axle and Pin Holes",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 23,
+        "technic_share": 1.0,
+        "legacy_parts": [],
+        "shape_fingerprint": "070719515624ddda093a87df2ce9d663fafd2e91de922c3191fcf55ee5aa2ba3",
+        "recipe_fingerprint": "8f05915967124aa864eee4bd241daf552b863775004eab8d983cb90a8e506a68",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "42037 - rearaxle.ldr",
+            "at": [
+              50.0,
+              -40.0,
+              0.0
+            ],
+            "matrix": [
+              [
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0
+              ]
+            ],
+            "colour": 71
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "42037 - rearaxletop.ldr",
+            "kind": "assembly",
+            "author": "Philippe Hurbain [Philo]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      },
+      "mechanism_study": "inspect source steps, parts and parent context; analytical mechanism verification is deferred"
+    },
+    {
+      "kind": "submodels",
+      "description": "Differential gear assembly with bevel gears and a 16/24 tooth differential casing for the drivetrain.",
+      "model": "8063-1_Sower.mpd",
+      "section": "8063 - Differential.ldr",
+      "id": "submodel-a5adfccaab661f9a63d88d76",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "Differential gear assembly with bevel gears and a 16/24 tooth differential casing for the drivetrain.",
+      "original_full_description": "8063-1_Sower.mpd|8063 - Differential.ldr|Differential gear assembly with bevel gears and a 16/24 tooth differential casing for the drivetrain.",
+      "source_exists": true,
+      "path": "/opt/ldraw-astra/data/models-annotated/8063-1_Sower.mpd",
+      "source_sha256": "9fa16ae3f9b7aad8f94dc55fbb47c624a8a73d73ed1a09720c20e45b9515e509",
+      "source_section": "8063 - Differential.ldr",
+      "start_line": 1219,
+      "parent_description": "Complete Technic tractor model with functional drivetrain, steering, engine, wheels, and an attached sowing machine implement.",
+      "theme": "",
+      "direct_placements": 25,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "8063-1_Sower.mpd|8063 - Differential.ldr|Differential gear assembly with bevel gears and a 16/24 tooth differential casing for the drivetrain.",
+      "score": 0.52,
+      "retrieval_rank": 9,
+      "inventory": {
+        "source_sha256": "9fa16ae3f9b7aad8f94dc55fbb47c624a8a73d73ed1a09720c20e45b9515e509",
+        "parser_section": "8063 - Differential.ldr",
+        "physical_placements": 25,
+        "expanded_leaf_count": 25,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "2905.dat",
+            "count": 4,
+            "description": "Technic Beam  5 x  3 x  0.5 Liftarm Triangle",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32054.dat",
+            "count": 4,
+            "description": "Technic Pin Long with Stop Bush",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32073.dat",
+            "count": 1,
+            "description": "Technic Axle  5",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3705.dat",
+            "count": 2,
+            "description": "Technic Axle  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3706.dat",
+            "count": 1,
+            "description": "Technic Axle  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3713.dat",
+            "count": 3,
+            "description": "Technic Bush with Two Flanges",
+            "physical_index_entry": true
+          },
+          {
+            "part": "43093.dat",
+            "count": 4,
+            "description": "Technic Axle Pin with Friction",
+            "physical_index_entry": true
+          },
+          {
+            "part": "59443.dat",
+            "count": 2,
+            "description": "Technic Axle Joiner Inline Smooth",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6573.dat",
+            "count": 1,
+            "description": "Technic Differential with Gear 16 Tooth and 24 Tooth",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6589.dat",
+            "count": 3,
+            "description": "Technic Gear 12 Tooth Bevel",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 25,
+        "technic_share": 1.0,
+        "legacy_parts": [],
+        "shape_fingerprint": "f71a1be2c3f12fb60f947f2479a3c526b9605ac67e8e7386d74f9476be13a89c",
+        "recipe_fingerprint": "4c14e44f246fcac5665cfb0a9f4403f1b074a1d16834b8da8b732fff2f0cd17a",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "8063 - Tractor.ldr",
+            "at": [
+              50.0,
+              20.0,
+              60.0
+            ],
+            "matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                -1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "colour": 0
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "8063 - Differential.ldr",
+            "kind": "assembly",
+            "author": "Tomas Kralicek [RabbiT_CZ]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      },
+      "mechanism_study": "inspect source steps, parts and parent context; analytical mechanism verification is deferred",
+      "variants": [
+        {
+          "id": "submodel-6e5e2a5f3004e785ae06f1d3",
+          "model": "8063-1.mpd",
+          "section": "8063 - Differential.ldr",
+          "score": 0.37
+        }
+      ]
+    },
+    {
+      "kind": "submodels",
+      "description": "Differential and universal joint assembly with bevel gears forming the driven axle drivetrain.",
+      "model": "8448-1_Wing-Doors.mpd",
+      "section": "8448 - box2step9.ldr",
+      "id": "submodel-0cc31f003738b62ec37d4595",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "Differential and universal joint assembly with bevel gears forming the driven axle drivetrain.",
+      "original_full_description": "8448-1_Wing-Doors.mpd|8448 - box2step9.ldr|Differential and universal joint assembly with bevel gears forming the driven axle drivetrain.",
+      "source_exists": true,
+      "path": "/opt/ldraw-astra/data/models-annotated/8448-1_Wing-Doors.mpd",
+      "source_sha256": "63ed07dd3cf07c97f5041afc603045e8a1eeaa388017ca9b60e67db5b253cbe6",
+      "source_section": "8448 - box2step9.ldr",
+      "start_line": 1173,
+      "parent_description": "Main assembly with gear rack, liftarms, and cross blocks forming the central structural and mechanical linkage of the wing-door supercar model.",
+      "theme": "Technic",
+      "direct_placements": 16,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "8448-1_Wing-Doors.mpd|8448 - box2step9.ldr|Differential and universal joint assembly with bevel gears forming the driven axle drivetrain.",
+      "score": 0.48,
+      "retrieval_rank": 12,
+      "inventory": {
+        "source_sha256": "63ed07dd3cf07c97f5041afc603045e8a1eeaa388017ca9b60e67db5b253cbe6",
+        "parser_section": "8448 - box2step9.ldr",
+        "physical_placements": 16,
+        "expanded_leaf_count": 16,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "32034.dat",
+            "count": 2,
+            "description": "Technic Angle Connector #2 (180 degree)",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32062.dat",
+            "count": 2,
+            "description": "Technic Axle  2 Notched",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3705.dat",
+            "count": 4,
+            "description": "Technic Axle  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3712c01.dat",
+            "count": 4,
+            "description": "Technic Universal Joint 4L with Bush Ends with Centre Type 2 (Complete)",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6573.dat",
+            "count": 1,
+            "description": "Technic Differential with Gear 16 Tooth and 24 Tooth",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6589.dat",
+            "count": 3,
+            "description": "Technic Gear 12 Tooth Bevel",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 16,
+        "technic_share": 1.0,
+        "legacy_parts": [],
+        "shape_fingerprint": "6aa4516274a33f95a844e3648ba081e7ff09ffd4c7e28a1314d0d91d79ca1190",
+        "recipe_fingerprint": "902e53d65f40a62374cea5723179d54b9cc3acd3ac1acd14478ac0ce531ea6ec",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "8448 - box2.ldr",
+            "at": [
+              0.0,
+              -22.0,
+              -40.0
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "colour": 0
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "8448 - box2step9.ldr",
+            "kind": "assembly",
+            "author": null,
+            "license": null
+          }
+        ],
+        "reachable": true
+      },
+      "mechanism_study": "inspect source steps, parts and parent context; analytical mechanism verification is deferred",
+      "variants": [
+        {
+          "id": "submodel-7557b43e8939bbc429d09b32",
+          "model": "8448-1_Hot-Rod.mpd",
+          "section": "8448 - box2step9.ldr",
+          "score": 0.42
+        },
+        {
+          "id": "submodel-38d4fa51b31a2fe5320be480",
+          "model": "8448-1_Concept-Car.mpd",
+          "section": "8448 - box2step9.ldr",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "kind": "submodels",
+      "description": "A differential gear unit with a 28-tooth bevel carrier and three 12-tooth bevel gears.",
+      "model": "42079-1.mpd",
+      "section": "42079 - Differential.ldr",
+      "id": "submodel-90cc82f13b4e16a9ff5312d0",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "A differential gear unit with a 28-tooth bevel carrier and three 12-tooth bevel gears.",
+      "original_full_description": "42079-1.mpd|42079 - Differential.ldr|A differential gear unit with a 28-tooth bevel carrier and three 12-tooth bevel gears.",
+      "source_exists": true,
+      "path": "/opt/ldraw-astra/data/models-annotated/42079-1.mpd",
+      "source_sha256": "e0f50b1ce0dd081d94573827596932dae0b757f4b1a10cf9e11cb00b581ed5c9",
+      "source_section": "42079 - Differential.ldr",
+      "start_line": 454,
+      "parent_description": "A heavy-duty Technic forklift model with steering, drivetrain, lifting forks, and a flexible mechanism.",
+      "theme": "",
+      "direct_placements": 4,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "42079-1.mpd|42079 - Differential.ldr|A differential gear unit with a 28-tooth bevel carrier and three 12-tooth bevel gears.",
+      "score": 0.47,
+      "retrieval_rank": 15,
+      "inventory": {
+        "source_sha256": "e0f50b1ce0dd081d94573827596932dae0b757f4b1a10cf9e11cb00b581ed5c9",
+        "parser_section": "42079 - Differential.ldr",
+        "physical_placements": 4,
+        "expanded_leaf_count": 4,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "62821.dat",
+            "count": 1,
+            "description": "Technic Differential with One Gear 28 Tooth Bevel",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6589.dat",
+            "count": 3,
+            "description": "Technic Gear 12 Tooth Bevel",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 4,
+        "technic_share": 1.0,
+        "legacy_parts": [],
+        "shape_fingerprint": "bc554fed301ef6bf8566058df4a0046bcde1d77178f3246d7022be152cbcc683",
+        "recipe_fingerprint": "53568afdab0c5c80c7dceb90d0f99704be485dada7a303d8a2624549a9826001",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "42079 - Differential_Unit.ldr",
+            "at": [
+              0.0,
+              12.742,
+              176.136
+            ],
+            "matrix": [
+              [
+                0.0,
+                0.0,
+                1.0
+              ],
+              [
+                -0.33,
+                0.944,
+                0.0
+              ],
+              [
+                -0.944,
+                -0.33,
+                0.0
+              ]
+            ],
+            "colour": 19
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "42079 - Differential.ldr",
+            "kind": "assembly",
+            "author": "Max Martin Richter [MMR1988]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      },
+      "mechanism_study": "inspect source steps, parts and parent context; analytical mechanism verification is deferred"
+    }
+  ],
+  "eligible_after_measurement": 21,
+  "rejected": [
+    {
+      "id": "submodel-072a3499228e18252659d85e",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 1
+    },
+    {
+      "id": "submodel-2fc2de357a204ef9af77487e",
+      "reason": "too_many_parts",
+      "retrieval_rank": 2
+    },
+    {
+      "id": "submodel-67dd55a235aa908d73e30a31",
+      "reason": "too_many_parts",
+      "retrieval_rank": 3
+    },
+    {
+      "id": "submodel-5d5f6a8c637a97bb30a05ccd",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 5
+    },
+    {
+      "id": "submodel-37a2180da59bd25208ff008d",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 7
+    },
+    {
+      "id": "submodel-8e8dcb355a3efe43a7d48083",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 8
+    },
+    {
+      "id": "submodel-951fd5bfc369c04b4944df8e",
+      "reason": "too_many_parts",
+      "retrieval_rank": 10
+    },
+    {
+      "id": "submodel-6984bada0d196ea758a220ea",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 11
+    },
+    {
+      "id": "submodel-681617f5b253cefbdf6a1c1c",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 13
+    },
+    {
+      "id": "submodel-8ce5220a88a8c5361062f252",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 14
+    },
+    {
+      "id": "submodel-a3d993e0ab657c8c3c0600ed",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 16
+    },
+    {
+      "id": "submodel-d49c6d2bbc920c1e96e23b5a",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 17
+    },
+    {
+      "id": "submodel-8f7438a97562be6b9c54457b",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 19
+    },
+    {
+      "id": "submodel-a6ae0a0fca56420448522444",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 21
+    },
+    {
+      "id": "submodel-08d22be8788437b29e93ba66",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 23
+    },
+    {
+      "id": "submodel-126dbc848800c6acddd9f6c2",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 24
+    },
+    {
+      "id": "submodel-5cd2308057bb6c0813a5b26e",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 25
+    },
+    {
+      "id": "submodel-29853292e143ca557e3c08b5",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 29
+    },
+    {
+      "id": "submodel-312251f99cbe33ce26eff969",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 30
+    },
+    {
+      "id": "submodel-4117cf3b67c213b18f76db12",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 31
+    },
+    {
+      "id": "submodel-8b15ed791a88c5412a1a62b8",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 32
+    },
+    {
+      "id": "submodel-9130d5bd99a54e18a86d6715",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 36
+    },
+    {
+      "id": "submodel-cf3b5e69b07c98f6ad9d976b",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 39
+    },
+    {
+      "id": "submodel-587616606746fcc0a83e2c19",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 41
+    },
+    {
+      "id": "submodel-ac0e7e725487c659eba78bb3",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 43
+    },
+    {
+      "id": "submodel-b362d8925c6fb8552f03e232",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 44
+    },
+    {
+      "id": "submodel-9c689c5c25300c16857d50cb",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 46
+    },
+    {
+      "id": "submodel-bb9a8c94e357a955d0e820f1",
+      "reason": "too_many_parts",
+      "retrieval_rank": 48
+    },
+    {
+      "id": "submodel-551d1df4c2db74187f77bff1",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 50
+    },
+    {
+      "id": "submodel-95d4606e40465dbff4edddb0",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 51
+    },
+    {
+      "id": "submodel-c418163c2789caf6880af071",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 54
+    },
+    {
+      "id": "submodel-e345b640f2cc4aaf09770a87",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 55
+    },
+    {
+      "id": "submodel-5a4f7d250f85a6f72a9866b1",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 56
+    },
+    {
+      "id": "submodel-77ae4d9251314da59398c079",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 58
+    },
+    {
+      "id": "submodel-a8e82e16270553c15184c262",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 59
+    },
+    {
+      "id": "submodel-b833d3a1ec72708f75e2e44b",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 60
+    }
+  ],
+  "stats": {
+    "documents": 3386,
+    "passages": 3386,
+    "updated": 0,
+    "skipped": 0,
+    "removed": 0,
+    "scored": 500,
+    "cache_hits": 0,
+    "api_calls": 500,
+    "input_tokens": 272827,
+    "output_tokens": 11000,
+    "elapsed_seconds": 8.673209461965598,
+    "exhaustive": false,
+    "command": [
+      "jev-rerank",
+      "--db",
+      "/opt/ldraw-astra/.cache/discovery/619d5aafe8290fcc/queries/0e478e71cd8ced3d323c3e66f62add7f65cd214089238c7a11d03ab427237828.sqlite",
+      "--table-field",
+      "candidates.full_description",
+      "--query",
+      "a Technic rear axle with a differential, CV-jointed drive shafts and independent suspension with shock absorbers",
+      "--top",
+      "60",
+      "--candidates",
+      "500",
+      "--model",
+      "jev-1.13.0",
+      "--json",
+      "--show"
+    ],
+    "eligible_records": 3386
+  },
+  "filters": {
+    "system": false,
+    "construction": "mechanism",
+    "min_parts": 2,
+    "max_parts": 200,
+    "max_technic_share": 0.5,
+    "parent_cap": 2
+  },
+  "note": "Scores describe textual relevance. Results still require geometry, scale and visual review; no hidden fallback or automatic import approval."
+}

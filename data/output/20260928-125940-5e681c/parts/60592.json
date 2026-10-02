@@ -1,0 +1,163 @@
+{
+  "code": "60592.dat",
+  "path": "/opt/ldraw/ldraw/parts/60592.dat",
+  "metadata": {
+    "description": "Window 1 x 2 x 2 without Sill",
+    "name": "60592.dat",
+    "author": "Michael Heidemann",
+    "author_username": "mikeheide",
+    "file_kind": "part",
+    "origin": "official",
+    "qualifiers": [],
+    "release": "2012-01",
+    "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+    "bfc": "ccw",
+    "history": [
+      {
+        "date": "2008-12-20",
+        "contributor": "LEGO Universe Team",
+        "text": "Original part shape",
+        "raw": "2008-12-20 {LEGO Universe Team} Original part shape"
+      },
+      {
+        "date": "2009-01-16",
+        "contributor": "mikeheide",
+        "text": "File preparation for LDraw Parts Tracker",
+        "raw": "2009-01-16 [mikeheide] File preparation for LDraw Parts Tracker"
+      },
+      {
+        "date": "2010-07-05",
+        "contributor": "PTadmin",
+        "text": "Official Update 2010-02",
+        "raw": "2010-07-05 [PTadmin] Official Update 2010-02"
+      },
+      {
+        "date": "2012-03-06",
+        "contributor": "gregteft",
+        "text": "Updated to increase primitive use and correct inset for glass.",
+        "raw": "2012-03-06 [gregteft] Updated to increase primitive use and correct inset for glass."
+      },
+      {
+        "date": "2012-03-30",
+        "contributor": "PTadmin",
+        "text": "Official Update 2012-01",
+        "raw": "2012-03-30 [PTadmin] Official Update 2012-01"
+      }
+    ],
+    "category": null,
+    "keywords": [],
+    "status": "current",
+    "replacement": null,
+    "preview": null
+  },
+  "complete": true,
+  "bounds": {
+    "min": [
+      -20.0,
+      -4.0,
+      -10.0
+    ],
+    "max": [
+      20.0,
+      48.0,
+      10.0
+    ]
+  },
+  "size": [
+    40.0,
+    52.0,
+    20.0
+  ],
+  "stud_positions": [
+    [
+      -10.0,
+      0.0,
+      0.0
+    ],
+    [
+      10.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "connector_count": 7,
+  "connectors": [
+    {
+      "kind": "stud",
+      "role": "male",
+      "position": [
+        -10.0,
+        0.0,
+        0.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 6.0,
+            "length": 4.0,
+            "flexible": false
+          }
+        ],
+        "centered": false,
+        "friction": true,
+        "caps": "one"
+      },
+      "name": "studO",
+      "feature_id": "stug2-1x2@R0/stud2@R0/studO@L9:I0",
+      "group": null,
+      "freedoms": [
+        "rotate"
+      ],
+      "source": "ldcad_shadow",
+      "confidence": 1.0,
+      "owner_code": "60592",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "/opt/ldraw-astra/data/offLibShadow/p/stud2.dat:9"
+      ],
+      "metadata_id": "studO",
+      "connection_provenance": {
+        "source": "ldcad_shadow",
+        "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2.dat",
+        "archive_member": null,
+        "line_number": 9,
+        "command": "0 !LDCAD SNAP_CYL [ID=studO] [gender=M] [caps=one] [secs=R 6 4]",
+        "include_chain": []
+      },
+      "scale_inheritance": "none",
+      "mirror_inheritance": "cor"
+    }
+  ],
+  "connectors_truncated": true,
+  "diagnostics": [],
+  "connection_metadata": {
+    "coverage": "complete",
+    "source_count": 2,
+    "recognized_record_count": 4,
+    "unsupported_record_count": 0,
+    "invalid_record_count": 0,
+    "diagnostics": []
+  },
+  "rectangular_profile": null,
+  "note": "All coordinates are local LDU. Connector inference is evidence; inspect uncertain fits."
+}

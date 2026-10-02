@@ -1,0 +1,455 @@
+{
+  "code": "3062b.dat",
+  "path": "/opt/ldraw/ldraw/parts/3062b.dat",
+  "metadata": {
+    "description": "Brick 1 x 1 Round with Hollow Stud",
+    "name": "3062b.dat",
+    "author": "James Jessiman",
+    "author_username": null,
+    "file_kind": "part",
+    "origin": "official",
+    "qualifiers": [],
+    "release": "2022-02",
+    "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+    "bfc": "ccw",
+    "history": [
+      {
+        "date": "1998-06-20",
+        "contributor": "PTadmin",
+        "text": "Official Update 1998-06",
+        "raw": "1998-06-20 [PTadmin] Official Update 1998-06"
+      },
+      {
+        "date": "2003-08-02",
+        "contributor": "OrionP",
+        "text": "Made some primitive subs",
+        "raw": "2003-08-02 [OrionP] Made some primitive subs"
+      },
+      {
+        "date": "2003-08-04",
+        "contributor": "Steffen",
+        "text": "replaced peghole.dat by stud4a.dat",
+        "raw": "2003-08-04 [Steffen] replaced peghole.dat by stud4a.dat"
+      },
+      {
+        "date": "2003-12-19",
+        "contributor": "PTadmin",
+        "text": "Official Update 2003-03",
+        "raw": "2003-12-19 [PTadmin] Official Update 2003-03"
+      },
+      {
+        "date": "2007-06-10",
+        "contributor": "PTadmin",
+        "text": "Header formatted for Contributor Agreement",
+        "raw": "2007-06-10 [PTadmin] Header formatted for Contributor Agreement"
+      },
+      {
+        "date": "2008-07-01",
+        "contributor": "PTadmin",
+        "text": "Official Update 2008-01",
+        "raw": "2008-07-01 [PTadmin] Official Update 2008-01"
+      },
+      {
+        "date": "2009-03-19",
+        "contributor": "tchang",
+        "text": "Add missing <CR>",
+        "raw": "2009-03-19 [tchang] Add missing <CR>"
+      },
+      {
+        "date": "2009-09-03",
+        "contributor": "PTadmin",
+        "text": "Official Update 2009-02",
+        "raw": "2009-09-03 [PTadmin] Official Update 2009-02"
+      },
+      {
+        "date": "2020-12-12",
+        "contributor": "RainbowDolphin",
+        "text": "Subparted for patterns",
+        "raw": "2020-12-12 [RainbowDolphin] Subparted for patterns"
+      },
+      {
+        "date": "2022-03-06",
+        "contributor": "PTadmin",
+        "text": "Official Update 2022-02",
+        "raw": "2022-03-06 [PTadmin] Official Update 2022-02"
+      }
+    ],
+    "category": null,
+    "keywords": [
+      "BrickLink 3062"
+    ],
+    "status": "current",
+    "replacement": null,
+    "preview": null
+  },
+  "complete": true,
+  "bounds": {
+    "min": [
+      -10.0,
+      -4.0,
+      -10.0
+    ],
+    "max": [
+      10.0,
+      24.0,
+      10.0
+    ]
+  },
+  "size": [
+    20.0,
+    28.0,
+    20.0
+  ],
+  "stud_positions": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "connector_count": 5,
+  "connectors": [
+    {
+      "kind": "stud",
+      "role": "male",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 6.0,
+            "length": 4.0,
+            "flexible": false
+          }
+        ],
+        "centered": false,
+        "friction": true,
+        "caps": "one"
+      },
+      "name": "studO",
+      "feature_id": "s/3062bs01@R0/stud2a@R5/studO",
+      "group": null,
+      "freedoms": [
+        "rotate"
+      ],
+      "source": "ldcad_shadow",
+      "confidence": 1.0,
+      "owner_code": "3062b",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "/opt/ldraw-astra/data/offLibShadow/p/stud2a.dat:11"
+      ],
+      "metadata_id": "studO",
+      "connection_provenance": {
+        "source": "ldcad_shadow",
+        "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2a.dat",
+        "archive_member": null,
+        "line_number": 11,
+        "command": "0 !LDCAD SNAP_CYL [ID=studO] [gender=M] [caps=one] [secs=R 6 4]",
+        "include_chain": []
+      },
+      "scale_inheritance": "none",
+      "mirror_inheritance": "cor"
+    },
+    {
+      "kind": "stud_receptacle",
+      "role": "female",
+      "position": [
+        0.0,
+        24.0,
+        0.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 6.0,
+            "length": 20.0,
+            "flexible": false
+          }
+        ],
+        "centered": true,
+        "friction": false,
+        "caps": "none"
+      },
+      "name": "Stud Tube Open without Outer Cylinder and Top Surface",
+      "feature_id": "s/3062bs01@R0/stud4od@R11/stud4od",
+      "group": null,
+      "freedoms": [],
+      "source": "primitive",
+      "confidence": 1.0,
+      "owner_code": "3062b",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "stud4od",
+        "derived:stud-socket"
+      ],
+      "metadata_id": null,
+      "connection_provenance": {
+        "source": "primitive",
+        "path": null,
+        "archive_member": null,
+        "line_number": null,
+        "command": "stud4od",
+        "include_chain": []
+      },
+      "scale_inheritance": "yandr",
+      "mirror_inheritance": "none"
+    },
+    {
+      "kind": "stud_receptacle",
+      "role": "female",
+      "position": [
+        0.0,
+        4.0,
+        0.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 6.0,
+            "length": 20.0,
+            "flexible": false
+          }
+        ],
+        "centered": false,
+        "friction": true,
+        "caps": "a"
+      },
+      "name": "aStud",
+      "feature_id": "s/3062bs01@R0/stud4od@R11/aStud",
+      "group": null,
+      "freedoms": [
+        "rotate"
+      ],
+      "source": "ldcad_shadow",
+      "confidence": 1.0,
+      "owner_code": "3062b",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "/opt/ldraw-astra/data/offLibShadow/p/stud4od.dat:8"
+      ],
+      "metadata_id": "aStud",
+      "connection_provenance": {
+        "source": "ldcad_shadow",
+        "path": "/opt/ldraw-astra/data/offLibShadow/p/stud4od.dat",
+        "archive_member": null,
+        "line_number": 8,
+        "command": "0 !LDCAD SNAP_CYL [ID=aStud] [gender=F] [caps=A] [secs=R 6 4] [scale=YOnly]",
+        "include_chain": []
+      },
+      "scale_inheritance": "yonly",
+      "mirror_inheritance": "cor"
+    },
+    {
+      "kind": "pin_hole",
+      "role": "female",
+      "position": [
+        0.0,
+        24.0,
+        0.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 6.0,
+            "length": 20.0,
+            "flexible": false
+          },
+          {
+            "shape": "round",
+            "radius": 4.0,
+            "length": 8.0,
+            "flexible": false
+          }
+        ],
+        "centered": false,
+        "friction": true,
+        "caps": "none"
+      },
+      "name": "LDCad cylinder",
+      "feature_id": "snap_cyl@L9:I0",
+      "group": null,
+      "freedoms": [
+        "rotate"
+      ],
+      "source": "ldcad_shadow",
+      "confidence": 1.0,
+      "owner_code": "3062b",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "/opt/ldraw-astra/data/offLibShadow/parts/3062b.dat:9"
+      ],
+      "metadata_id": null,
+      "connection_provenance": {
+        "source": "ldcad_shadow",
+        "path": "/opt/ldraw-astra/data/offLibShadow/parts/3062b.dat",
+        "archive_member": null,
+        "line_number": 9,
+        "command": "0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=R 6 20   R 4 8] [pos=0 24 0]",
+        "include_chain": []
+      },
+      "scale_inheritance": "none",
+      "mirror_inheritance": "cor"
+    },
+    {
+      "kind": "pin",
+      "role": "male",
+      "position": [
+        0.0,
+        21.5,
+        0.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 8.0,
+            "length": 5.0,
+            "flexible": false
+          }
+        ],
+        "centered": true,
+        "friction": true,
+        "caps": "none"
+      },
+      "name": "LDCad cylinder",
+      "feature_id": "snap_cyl@L10:I0",
+      "group": null,
+      "freedoms": [
+        "rotate"
+      ],
+      "source": "ldcad_shadow",
+      "confidence": 1.0,
+      "owner_code": "3062b",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "/opt/ldraw-astra/data/offLibShadow/parts/3062b.dat:10"
+      ],
+      "metadata_id": null,
+      "connection_provenance": {
+        "source": "ldcad_shadow",
+        "path": "/opt/ldraw-astra/data/offLibShadow/parts/3062b.dat",
+        "archive_member": null,
+        "line_number": 10,
+        "command": "0 !LDCAD SNAP_CYL [gender=M] [caps=none] [secs=R 8 5] [center=true] [pos=0 21.5 0]",
+        "include_chain": []
+      },
+      "scale_inheritance": "none",
+      "mirror_inheritance": "cor"
+    }
+  ],
+  "connectors_truncated": false,
+  "diagnostics": [],
+  "connection_metadata": {
+    "coverage": "complete",
+    "source_count": 3,
+    "recognized_record_count": 4,
+    "unsupported_record_count": 0,
+    "invalid_record_count": 0,
+    "diagnostics": []
+  },
+  "rectangular_profile": null,
+  "note": "All coordinates are local LDU. Connector inference is evidence; inspect uncertain fits."
+}

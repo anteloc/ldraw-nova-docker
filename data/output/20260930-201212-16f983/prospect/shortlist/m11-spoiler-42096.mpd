@@ -1,0 +1,42 @@
+0 FILE m11-spoiler-42096-00-42096---spoiler.ldr
+0 A rear spoiler made from two large black 3x11 panels supported by beams and pins.
+0 Name: m11-spoiler-42096-00-42096---spoiler.ldr
+0 Author: Philippe Hurbain [Philo]
+0 !LDRAW_ORG Model
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+
+0 // Technic Panel  3 x 11 (black)
+1 0 -120 0 20 1 0 0 0 1 0 0 0 1 15458.dat
+0 // Technic Pin Long with Friction and Slot (blue)
+1 1 0 0 40 1 0 0 0 1 0 0 0 1 6558.dat
+0 // Technic Pin Long with Friction and Slot (blue)
+1 1 0 0 0 1 0 0 0 1 0 0 0 1 6558.dat
+0 // Technic Beam  3 (black)
+1 0 0 0 20 0 1 0 1 0 0 0 0 -1 32523.dat
+0 // Technic Pin  1/2 (light_bluish_grey)
+1 71 -230 0 20 -1 0 0 0 -1 0 0 0 1 4274.dat
+0 // Technic Pin  1/2 (light_bluish_grey)
+1 71 -230 0 0 -1 0 0 0 -1 0 0 0 1 4274.dat
+0 STEP
+0 // Technic Pin  1/2 (light_bluish_grey)
+1 71 230 0 20 1 0 0 0 -1 0 0 0 -1 4274.dat
+0 // Technic Panel  3 x 11 (black)
+1 0 120 0 20 -1 0 0 0 1 0 0 0 -1 15458.dat
+0 // Technic Pin  1/2 (light_bluish_grey)
+1 71 230 0 0 1 0 0 0 -1 0 0 0 -1 4274.dat
+0 // Technic Pin with Friction and Slots (black)
+1 0 -180 0 -10 0 0 1 0 -1 0 1 0 0 2780.dat
+0 // Technic Pin with Friction and Slots (black)
+1 0 -140 0 -10 0 0 1 0 -1 0 1 0 0 2780.dat
+0 // Technic Pin with Friction and Slots (black)
+1 0 180 0 -10 0 0 1 0 -1 0 1 0 0 2780.dat
+0 // Technic Pin with Friction and Slots (black)
+1 0 140 0 -10 0 0 1 0 -1 0 1 0 0 2780.dat
+0 // Technic Beam  5 (black)
+1 0 180 0 -20 0 0 1 -1 0 0 0 -1 0 32316.dat
+0 // Technic Beam  5 (black)
+1 0 -180 0 -20 0 0 1 -1 0 0 0 -1 0 32316.dat
+
+
+0 STEP
+0 NOFILE

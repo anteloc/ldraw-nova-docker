@@ -1,0 +1,137 @@
+{
+  "total": 14,
+  "results": [
+    {
+      "ref": "@others.GlassForWindow1X4X6",
+      "filename": "57895.dat",
+      "description": "Glass for Window  1 x  4 x  6",
+      "category": "others",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 72.5,
+        "ldu_y": 133.5,
+        "ldu_z": 4.0,
+        "studs_x": 4,
+        "studs_y": 7,
+        "plates_y": 17,
+        "studs_z": 1
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/others.py",
+      "line": 446,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        72.5,
+        133.5,
+        4.0
+      ],
+      "dimensions_disagree": false
+    },
+    {
+      "ref": "@windows.MurstenWindow1X6X4PanoramaWithGlass",
+      "filename": "u8029c01.dat",
+      "description": "Mursten Window  1 x  6 x  4 Panorama with Glass",
+      "category": "windows",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 128.0,
+        "ldu_y": 96.0,
+        "ldu_z": 22.0,
+        "studs_x": 7,
+        "studs_y": 5,
+        "plates_y": 12,
+        "studs_z": 2
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/windows.py",
+      "line": 47,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        128.0,
+        96.0,
+        22.0
+      ],
+      "dimensions_disagree": false
+    },
+    {
+      "ref": "@windows.Window1X4X6WithFixedTransBrownGlass",
+      "filename": "6160c04.dat",
+      "description": "Window  1 x  4 x  6 with Fixed Trans Brown Glass",
+      "category": "windows",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 80.0,
+        "ldu_y": 148.0,
+        "ldu_z": 20.0,
+        "studs_x": 4,
+        "studs_y": 8,
+        "plates_y": 19,
+        "studs_z": 1
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/windows.py",
+      "line": 112,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        80.0,
+        148.0,
+        20.0
+      ],
+      "dimensions_disagree": false
+    },
+    {
+      "ref": "@windows.Window1X4X6WithFixedTransparentGreenGlass",
+      "filename": "6160c02.dat",
+      "description": "Window  1 x  4 x  6 with Fixed Transparent Green Glass",
+      "category": "windows",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 80.0,
+        "ldu_y": 148.0,
+        "ldu_z": 20.0,
+        "studs_x": 4,
+        "studs_y": 8,
+        "plates_y": 19,
+        "studs_z": 1
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/windows.py",
+      "line": 114,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        80.0,
+        148.0,
+        20.0
+      ],
+      "dimensions_disagree": false
+    },
+    {
+      "ref": "@windows.Window1X4X6WithFixedTransparentDarkBlueGlass",
+      "filename": "6160c03.dat",
+      "description": "Window  1 x  4 x  6 with Fixed Transparent Dark Blue Glass",
+      "category": "windows",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 80.0,
+        "ldu_y": 148.0,
+        "ldu_z": 20.0,
+        "studs_x": 4,
+        "studs_y": 8,
+        "plates_y": 19,
+        "studs_z": 1
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/windows.py",
+      "line": 113,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        80.0,
+        148.0,
+        20.0
+      ],
+      "dimensions_disagree": false
+    }
+  ],
+  "truncated": true,
+  "note": "Source categories are discovery metadata. Dimensions include studs/decorations and are not stacking heights or connection frames. Inspect selected parts; colour/part manufacture combinations are not known."
+}

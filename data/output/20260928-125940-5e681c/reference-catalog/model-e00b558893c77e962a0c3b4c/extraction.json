@@ -1,0 +1,246 @@
+{
+  "source": "/opt/ldraw-astra/data/models-annotated/5770-1.mpd",
+  "source_sha256": "7d8c422daf50e954f9e1225048bdeef110c53e838f977ac9810755fb9d9337ad",
+  "source_section": "5770 - main.ldr",
+  "parser_section": "5770 - main.ldr",
+  "root": "ref-e00b558893c77e96-00-5770---main.ldr",
+  "renames": {
+    "5770 - main.ldr": "ref-e00b558893c77e96-00-5770---main.ldr",
+    "5770 - Building.ldr": "ref-e00b558893c77e96-01-5770---Building.ldr",
+    "5770 - 3039d01.dat": "ref-e00b558893c77e96-02-5770---3039d01.dat",
+    "5770 - 4629791a.dat": "ref-e00b558893c77e96-03-5770---4629791a.dat",
+    "5770 - 85984d08.dat": "ref-e00b558893c77e96-04-5770---85984d08.dat",
+    "5770 - 4629791b.dat": "ref-e00b558893c77e96-05-5770---4629791b.dat",
+    "5770 - Lighthouse top.ldr": "ref-e00b558893c77e96-06-5770---Lighthouse-top.ldr",
+    "5770 - Minifig.ldr": "ref-e00b558893c77e96-07-5770---Minifig.ldr",
+    "5770 - 3626bp8l.dat": "ref-e00b558893c77e96-08-5770---3626bp8l.dat",
+    "5770 - 973pu7.dat": "ref-e00b558893c77e96-09-5770---973pu7.dat",
+    "5770 - Boat.ldr": "ref-e00b558893c77e96-10-5770---Boat.ldr"
+  },
+  "attribution": [
+    {
+      "section": "5770 - main.ldr",
+      "author": "Takeshi Takahashi [RainbowDolphin]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "5770 - Building.ldr",
+      "author": "Takeshi Takahashi [RainbowDolphin]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "5770 - 3039d01.dat",
+      "author": "Takeshi Takahashi [RainbowDolphin]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "5770 - 4629791a.dat",
+      "author": "Takeshi Takahashi [RainbowDolphin]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "5770 - 85984d08.dat",
+      "author": "Takeshi Takahashi [RainbowDolphin]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "5770 - 4629791b.dat",
+      "author": "Takeshi Takahashi [RainbowDolphin]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "5770 - Lighthouse top.ldr",
+      "author": "Takeshi Takahashi [RainbowDolphin]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "5770 - Minifig.ldr",
+      "author": "Takeshi Takahashi [RainbowDolphin]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "5770 - 3626bp8l.dat",
+      "author": "Evert-Jan Boer [ejboer]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "5770 - 973pu7.dat",
+      "author": "Takeshi Takahashi [RainbowDolphin]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "5770 - Boat.ldr",
+      "author": "Takeshi Takahashi [RainbowDolphin]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    }
+  ],
+  "changes": [
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "5770 - Minifig.ldr",
+      "source_line": 35,
+      "before": [
+        [
+          0.985,
+          -0.17,
+          0.0
+        ],
+        [
+          0.17,
+          0.985,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "after": [
+        [
+          0.985431221,
+          -0.170074424,
+          0.0
+        ],
+        [
+          0.170074424,
+          0.985431221,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "max_coefficient_change": 0.00043122050910271437
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "5770 - Minifig.ldr",
+      "source_line": 37,
+      "before": [
+        [
+          0.985,
+          0.17,
+          0.0
+        ],
+        [
+          -0.17,
+          0.985,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "after": [
+        [
+          0.985431221,
+          0.170074424,
+          0.0
+        ],
+        [
+          -0.170074424,
+          0.985431221,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "max_coefficient_change": 0.00043122050910271437
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "5770 - Minifig.ldr",
+      "source_line": 39,
+      "before": [
+        [
+          0.985,
+          -0.12019,
+          0.12019
+        ],
+        [
+          0.17,
+          0.696395,
+          -0.696395
+        ],
+        [
+          0.0,
+          0.707,
+          0.707
+        ]
+      ],
+      "after": [
+        [
+          0.985431221,
+          -0.120260778,
+          0.120260778
+        ],
+        [
+          0.170074424,
+          0.696805098,
+          -0.696805098
+        ],
+        [
+          0.0,
+          0.707106781,
+          0.707106781
+        ]
+      ],
+      "max_coefficient_change": 0.0004312205091024923
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "5770 - Minifig.ldr",
+      "source_line": 41,
+      "before": [
+        [
+          0.985,
+          0.12019,
+          -0.12019
+        ],
+        [
+          -0.17,
+          0.696395,
+          -0.696395
+        ],
+        [
+          0.0,
+          0.707,
+          0.707
+        ]
+      ],
+      "after": [
+        [
+          0.985431221,
+          0.120260778,
+          -0.120260778
+        ],
+        [
+          -0.170074424,
+          0.696805098,
+          -0.696805098
+        ],
+        [
+          0.0,
+          0.707106781,
+          0.707106781
+        ]
+      ],
+      "max_coefficient_change": 0.0004312205091024923
+    }
+  ],
+  "output_sha256": "344b7a82aef8f5b1c38ddc8eed06172db60b2c4019a19939264e6a61aa54206f",
+  "note": "Original authors and licences retained. Source bytes unchanged. Extraction is not validation or permission to relicense.",
+  "requested_identity": {
+    "id": "model-e00b558893c77e962a0c3b4c",
+    "kind": "models",
+    "model": "5770-1.mpd"
+  }
+}

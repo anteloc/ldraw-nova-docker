@@ -1,0 +1,48 @@
+0 FILE test-tall-bay.ldr
+0 Local detail review
+0 Name: test-tall-bay.ldr
+0 Author: OpenAI - original Tidal Observatory design
+0 !LDRAW_ORG Model
+0 // test: test
+1 19 0 0 0 1 0 0 0 1 0 0 0 1 tidal-tall-bay.ldr
+0 NOFILE
+0 FILE tidal-tall-bay.ldr
+0 Recessed blue glazing, limestone arch and projecting white sill
+0 Name: tidal-tall-bay.ldr
+0 Author: OpenAI - original Tidal Observatory design
+0 !LDRAW_ORG Model
+0 // sill: sill
+1 15 0 -8 -10 1 0 0 0 1 0 0 0 1 3795.dat
+0 STEP
+0 // pier--1-0: pier  1 0
+1 19 -50 -32 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier--1-1: pier  1 1
+1 19 -50 -56 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier--1-2: pier  1 2
+1 19 -50 -80 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier--1-3: pier  1 3
+1 19 -50 -104 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier--1-4: pier  1 4
+1 19 -50 -128 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier--1-5: pier  1 5
+1 19 -50 -152 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier-1-0: pier 1 0
+1 19 50 -32 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier-1-1: pier 1 1
+1 19 50 -56 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier-1-2: pier 1 2
+1 19 50 -80 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier-1-3: pier 1 3
+1 19 50 -104 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier-1-4: pier 1 4
+1 19 50 -128 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier-1-5: pier 1 5
+1 19 50 -152 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // frame: frame
+1 272 0 -152 0 1 0 0 0 1 0 0 0 1 60596.dat
+0 // glass: glass
+1 47 0 -147 5 1 0 0 0 1 0 0 0 1 57895.dat
+0 STEP
+0 // arch: arch
+1 19 0 -200 0 1 0 0 0 1 0 0 0 1 3307.dat
+0 NOFILE

@@ -1,0 +1,139 @@
+{
+  "code": "60596.dat",
+  "path": "/opt/ldraw/ldraw/parts/60596.dat",
+  "metadata": {
+    "description": "Door 1 x 4 x 6 Frame",
+    "name": "60596.dat",
+    "author": "J.C. Tchang",
+    "author_username": "tchang",
+    "file_kind": "part",
+    "origin": "official",
+    "qualifiers": [],
+    "release": "2011-02",
+    "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+    "bfc": "unknown",
+    "history": [
+      {
+        "date": "2011-12-29",
+        "contributor": "PTadmin",
+        "text": "Official Update 2011-02",
+        "raw": "2011-12-29 [PTadmin] Official Update 2011-02"
+      }
+    ],
+    "category": null,
+    "keywords": [],
+    "status": "current",
+    "replacement": null,
+    "preview": null
+  },
+  "complete": true,
+  "bounds": {
+    "min": [
+      -40.0,
+      -4.0,
+      -10.0
+    ],
+    "max": [
+      40.0,
+      144.0,
+      10.0
+    ]
+  },
+  "size": [
+    80.0,
+    148.0,
+    20.0
+  ],
+  "stud_positions": [
+    [
+      10.0,
+      0.0,
+      0.0
+    ],
+    [
+      -10.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "connector_count": 16,
+  "connectors": [
+    {
+      "kind": "stud",
+      "role": "male",
+      "position": [
+        20.0,
+        140.0,
+        0.0
+      ],
+      "frame": [
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 4.0,
+            "length": 4.0,
+            "flexible": false
+          }
+        ],
+        "centered": false,
+        "friction": true,
+        "caps": "one"
+      },
+      "name": "stud3",
+      "feature_id": "stud3@R9/stud3",
+      "group": null,
+      "freedoms": [
+        "rotate"
+      ],
+      "source": "ldcad_shadow",
+      "confidence": 1.0,
+      "owner_code": "60596",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "/opt/ldraw-astra/data/offLibShadow/p/stud3.dat:8"
+      ],
+      "metadata_id": "stud3",
+      "connection_provenance": {
+        "source": "ldcad_shadow",
+        "path": "/opt/ldraw-astra/data/offLibShadow/p/stud3.dat",
+        "archive_member": null,
+        "line_number": 8,
+        "command": "0 !LDCAD SNAP_CYL [id=stud3] [gender=M] [caps=one] [secs=R 4 4] [scale=YOnly]",
+        "include_chain": []
+      },
+      "scale_inheritance": "yonly",
+      "mirror_inheritance": "cor"
+    }
+  ],
+  "connectors_truncated": true,
+  "diagnostics": [],
+  "connection_metadata": {
+    "coverage": "complete",
+    "source_count": 3,
+    "recognized_record_count": 8,
+    "unsupported_record_count": 0,
+    "invalid_record_count": 0,
+    "diagnostics": []
+  },
+  "rectangular_profile": null,
+  "note": "All coordinates are local LDU. Connector inference is evidence; inspect uncertain fits."
+}

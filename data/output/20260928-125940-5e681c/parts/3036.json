@@ -1,0 +1,476 @@
+{
+  "code": "3036.dat",
+  "path": "/opt/ldraw/ldraw/parts/3036.dat",
+  "metadata": {
+    "description": "Plate 6 x 8",
+    "name": "3036.dat",
+    "author": "James Jessiman",
+    "author_username": null,
+    "file_kind": "part",
+    "origin": "official",
+    "qualifiers": [],
+    "release": "2025-09",
+    "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+    "bfc": "ccw",
+    "history": [
+      {
+        "date": "2001-10-26",
+        "contributor": "PTadmin",
+        "text": "Official Update 2001-01",
+        "raw": "2001-10-26 [PTadmin] Official Update 2001-01"
+      },
+      {
+        "date": "2004-07-26",
+        "contributor": "guyvivan",
+        "text": "Made BFC Compliant",
+        "raw": "2004-07-26 [guyvivan] Made BFC Compliant"
+      },
+      {
+        "date": "2004-11-06",
+        "contributor": "PTadmin",
+        "text": "Official Update 2004-04",
+        "raw": "2004-11-06 [PTadmin] Official Update 2004-04"
+      },
+      {
+        "date": "2007-06-07",
+        "contributor": "PTadmin",
+        "text": "Header formatted for Contributor Agreement",
+        "raw": "2007-06-07 [PTadmin] Header formatted for Contributor Agreement"
+      },
+      {
+        "date": "2008-07-01",
+        "contributor": "PTadmin",
+        "text": "Official Update 2008-01",
+        "raw": "2008-07-01 [PTadmin] Official Update 2008-01"
+      },
+      {
+        "date": "2025-09-27",
+        "contributor": "OrionP",
+        "text": "Changed winding to CCW",
+        "raw": "2025-09-27 [OrionP] Changed winding to CCW"
+      },
+      {
+        "date": "2025-09-29",
+        "contributor": "OrionP",
+        "text": "Official Update 2025-09",
+        "raw": "2025-09-29 [OrionP] Official Update 2025-09"
+      }
+    ],
+    "category": null,
+    "keywords": [],
+    "status": "current",
+    "replacement": null,
+    "preview": null
+  },
+  "complete": true,
+  "bounds": {
+    "min": [
+      -80.0,
+      -4.0,
+      -60.0
+    ],
+    "max": [
+      80.0,
+      8.0,
+      60.0
+    ]
+  },
+  "size": [
+    160.0,
+    12.0,
+    120.0
+  ],
+  "stud_positions": [
+    [
+      70.0,
+      0.0,
+      50.0
+    ],
+    [
+      50.0,
+      0.0,
+      50.0
+    ],
+    [
+      30.0,
+      0.0,
+      50.0
+    ],
+    [
+      10.0,
+      0.0,
+      50.0
+    ],
+    [
+      -10.0,
+      0.0,
+      50.0
+    ],
+    [
+      -30.0,
+      0.0,
+      50.0
+    ],
+    [
+      -50.0,
+      0.0,
+      50.0
+    ],
+    [
+      -70.0,
+      0.0,
+      50.0
+    ],
+    [
+      70.0,
+      0.0,
+      30.0
+    ],
+    [
+      50.0,
+      0.0,
+      30.0
+    ],
+    [
+      30.0,
+      0.0,
+      30.0
+    ],
+    [
+      10.0,
+      0.0,
+      30.0
+    ],
+    [
+      -10.0,
+      0.0,
+      30.0
+    ],
+    [
+      -30.0,
+      0.0,
+      30.0
+    ],
+    [
+      -50.0,
+      0.0,
+      30.0
+    ],
+    [
+      -70.0,
+      0.0,
+      30.0
+    ],
+    [
+      70.0,
+      0.0,
+      10.0
+    ],
+    [
+      50.0,
+      0.0,
+      10.0
+    ],
+    [
+      30.0,
+      0.0,
+      10.0
+    ],
+    [
+      10.0,
+      0.0,
+      10.0
+    ],
+    [
+      -10.0,
+      0.0,
+      10.0
+    ],
+    [
+      -30.0,
+      0.0,
+      10.0
+    ],
+    [
+      -50.0,
+      0.0,
+      10.0
+    ],
+    [
+      -70.0,
+      0.0,
+      10.0
+    ],
+    [
+      70.0,
+      0.0,
+      -10.0
+    ],
+    [
+      50.0,
+      0.0,
+      -10.0
+    ],
+    [
+      30.0,
+      0.0,
+      -10.0
+    ],
+    [
+      10.0,
+      0.0,
+      -10.0
+    ],
+    [
+      -10.0,
+      0.0,
+      -10.0
+    ],
+    [
+      -30.0,
+      0.0,
+      -10.0
+    ],
+    [
+      -50.0,
+      0.0,
+      -10.0
+    ],
+    [
+      -70.0,
+      0.0,
+      -10.0
+    ],
+    [
+      70.0,
+      0.0,
+      -30.0
+    ],
+    [
+      50.0,
+      0.0,
+      -30.0
+    ],
+    [
+      30.0,
+      0.0,
+      -30.0
+    ],
+    [
+      10.0,
+      0.0,
+      -30.0
+    ],
+    [
+      -10.0,
+      0.0,
+      -30.0
+    ],
+    [
+      -30.0,
+      0.0,
+      -30.0
+    ],
+    [
+      -50.0,
+      0.0,
+      -30.0
+    ],
+    [
+      -70.0,
+      0.0,
+      -30.0
+    ],
+    [
+      70.0,
+      0.0,
+      -50.0
+    ],
+    [
+      50.0,
+      0.0,
+      -50.0
+    ],
+    [
+      30.0,
+      0.0,
+      -50.0
+    ],
+    [
+      10.0,
+      0.0,
+      -50.0
+    ],
+    [
+      -10.0,
+      0.0,
+      -50.0
+    ],
+    [
+      -30.0,
+      0.0,
+      -50.0
+    ],
+    [
+      -50.0,
+      0.0,
+      -50.0
+    ],
+    [
+      -70.0,
+      0.0,
+      -50.0
+    ]
+  ],
+  "connector_count": 96,
+  "connectors": [
+    {
+      "kind": "stud",
+      "role": "male",
+      "position": [
+        70.0,
+        0.0,
+        50.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 6.0,
+            "length": 4.0,
+            "flexible": false
+          }
+        ],
+        "centered": false,
+        "friction": true,
+        "caps": "one"
+      },
+      "name": "studC",
+      "feature_id": "stud@R37/studC",
+      "group": null,
+      "freedoms": [
+        "rotate"
+      ],
+      "source": "ldcad_shadow",
+      "confidence": 1.0,
+      "owner_code": "3036",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "/opt/ldraw-astra/data/offLibShadow/p/stud.dat:8"
+      ],
+      "metadata_id": "studC",
+      "connection_provenance": {
+        "source": "ldcad_shadow",
+        "path": "/opt/ldraw-astra/data/offLibShadow/p/stud.dat",
+        "archive_member": null,
+        "line_number": 8,
+        "command": "0 !LDCAD SNAP_CYL [ID=studC] [gender=M] [caps=one] [secs=R 6 4]",
+        "include_chain": []
+      },
+      "scale_inheritance": "none",
+      "mirror_inheritance": "cor"
+    },
+    {
+      "kind": "stud",
+      "role": "male",
+      "position": [
+        50.0,
+        0.0,
+        50.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 6.0,
+            "length": 4.0,
+            "flexible": false
+          }
+        ],
+        "centered": false,
+        "friction": true,
+        "caps": "one"
+      },
+      "name": "studC",
+      "feature_id": "stud@R38/studC",
+      "group": null,
+      "freedoms": [
+        "rotate"
+      ],
+      "source": "ldcad_shadow",
+      "confidence": 1.0,
+      "owner_code": "3036",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "/opt/ldraw-astra/data/offLibShadow/p/stud.dat:8"
+      ],
+      "metadata_id": "studC",
+      "connection_provenance": {
+        "source": "ldcad_shadow",
+        "path": "/opt/ldraw-astra/data/offLibShadow/p/stud.dat",
+        "archive_member": null,
+        "line_number": 8,
+        "command": "0 !LDCAD SNAP_CYL [ID=studC] [gender=M] [caps=one] [secs=R 6 4]",
+        "include_chain": []
+      },
+      "scale_inheritance": "none",
+      "mirror_inheritance": "cor"
+    }
+  ],
+  "connectors_truncated": true,
+  "diagnostics": [],
+  "connection_metadata": {
+    "coverage": "complete",
+    "source_count": 3,
+    "recognized_record_count": 2,
+    "unsupported_record_count": 0,
+    "invalid_record_count": 0,
+    "diagnostics": []
+  },
+  "rectangular_profile": {
+    "description": "Plate  6 x  8",
+    "x_studs": 8,
+    "z_studs": 6,
+    "height": 8.0,
+    "studs": true
+  },
+  "note": "All coordinates are local LDU. Connector inference is evidence; inspect uncertain fits."
+}

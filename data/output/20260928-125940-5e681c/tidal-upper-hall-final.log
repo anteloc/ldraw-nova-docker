@@ -1,0 +1,13 @@
+{
+  "images": [
+    "/data/output/20260928-125940-5e681c/tidal-upper-hall-final/home.png",
+    "/data/output/20260928-125940-5e681c/tidal-upper-hall-final/top.png",
+    "/data/output/20260928-125940-5e681c/tidal-upper-hall-final/back.png"
+  ],
+  "bom": "/data/output/20260928-125940-5e681c/tidal-upper-hall-final/leocad-bom.csv",
+  "embedded_definitions_materialized": 0,
+  "visual_review": "required: open and inspect the images",
+  "source": "output/tidal-observatory.mpd",
+  "section": "tidal-upper-hall.ldr",
+  "source_diagnostics": []
+}

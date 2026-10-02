@@ -1,0 +1,22 @@
+{
+  "source": "/opt/ldraw-astra/data/models-annotated/42096-1.mpd",
+  "source_sha256": "3e40cdbbe29ae5a1154d5aa39b4d4b0a84d0ad8bfb1248baf13d5ae0c0c476d3",
+  "source_section": "42096 - spoiler.ldr",
+  "parser_section": "42096 - spoiler.ldr",
+  "root": "m11-spoiler-42096-00-42096---spoiler.ldr",
+  "renames": {
+    "42096 - spoiler.ldr": "m11-spoiler-42096-00-42096---spoiler.ldr"
+  },
+  "attribution": [
+    {
+      "section": "42096 - spoiler.ldr",
+      "author": "Philippe Hurbain [Philo]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    }
+  ],
+  "changes": [],
+  "output_sha256": "9df547e2fad2877cb84f12ab27969e55a3f03d155c9ae93e5bb2d429869d03cd",
+  "note": "Original authors and licences retained. Source bytes unchanged. Extraction is not validation or permission to relicense.",
+  "syntax_checks_passed": true,
+  "diagnostics": []
+}

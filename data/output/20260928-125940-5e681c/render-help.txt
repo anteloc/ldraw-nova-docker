@@ -1,0 +1,17 @@
+usage: python -m ldraw_tools.cli render [-h] --outdir OUTDIR
+                                        [--views VIEWS [VIEWS ...]]
+                                        [--timeout TIMEOUT]
+                                        [--section SECTION] [--colour COLOUR]
+                                        file
+
+positional arguments:
+  file
+
+options:
+  -h, --help            show this help message and exit
+  --outdir OUTDIR
+  --views VIEWS [VIEWS ...]
+  --timeout TIMEOUT
+  --section SECTION     Inspect only this FILE block and its dependency
+                        closure; indices become section-local
+  --colour COLOUR       Explicit inherited colour for a selected subassembly

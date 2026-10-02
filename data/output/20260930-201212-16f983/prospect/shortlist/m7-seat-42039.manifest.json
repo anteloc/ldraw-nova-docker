@@ -1,0 +1,22 @@
+{
+  "source": "/opt/ldraw-astra/data/models-annotated/42039-1.mpd",
+  "source_sha256": "7fde2504708675be12c4a1e4a1cb1ba318a05a340bf5505b388750f9e744b12e",
+  "source_section": "42039 - seat.ldr",
+  "parser_section": "42039 - seat.ldr",
+  "root": "m7-seat-42039-00-42039---seat.ldr",
+  "renames": {
+    "42039 - seat.ldr": "m7-seat-42039-00-42039---seat.ldr"
+  },
+  "attribution": [
+    {
+      "section": "42039 - seat.ldr",
+      "author": "Philippe Hurbain [Philo]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    }
+  ],
+  "changes": [],
+  "output_sha256": "f986f872ecc6d43659131fc209005e4cd299925a1325534bb591435a04519d11",
+  "note": "Original authors and licences retained. Source bytes unchanged. Extraction is not validation or permission to relicense.",
+  "syntax_checks_passed": true,
+  "diagnostics": []
+}

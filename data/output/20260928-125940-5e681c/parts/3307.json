@@ -1,0 +1,201 @@
+{
+  "code": "3307.dat",
+  "path": "/opt/ldraw/ldraw/parts/3307.dat",
+  "metadata": {
+    "description": "Arch 1 x 6 x 2 with Thick Top and Reinforced Underside",
+    "name": "3307.dat",
+    "author": "James Jessiman",
+    "author_username": null,
+    "file_kind": "part",
+    "origin": "official",
+    "qualifiers": [],
+    "release": "2025-09",
+    "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+    "bfc": "ccw",
+    "history": [
+      {
+        "date": "2003-07-22",
+        "contributor": "Steffen",
+        "text": "BFCed, 48ed",
+        "raw": "2003-07-22 [Steffen] BFCed, 48ed"
+      },
+      {
+        "date": "2003-12-19",
+        "contributor": "PTadmin",
+        "text": "Official Update 2003-03",
+        "raw": "2003-12-19 [PTadmin] Official Update 2003-03"
+      },
+      {
+        "date": "2007-06-25",
+        "contributor": "PTadmin",
+        "text": "Header formatted for Contributor Agreement",
+        "raw": "2007-06-25 [PTadmin] Header formatted for Contributor Agreement"
+      },
+      {
+        "date": "2008-07-01",
+        "contributor": "PTadmin",
+        "text": "Official Update 2008-01",
+        "raw": "2008-07-01 [PTadmin] Official Update 2008-01"
+      },
+      {
+        "date": "2013-09-06",
+        "contributor": "theJudeAbides",
+        "text": "Corrected bad geometry, used more prims, renamed",
+        "raw": "2013-09-06 [theJudeAbides] Corrected bad geometry, used more prims, renamed"
+      },
+      {
+        "date": "2013-12-23",
+        "contributor": "PTadmin",
+        "text": "Official Update 2013-02",
+        "raw": "2013-12-23 [PTadmin] Official Update 2013-02"
+      },
+      {
+        "date": "2025-09-27",
+        "contributor": "OrionP",
+        "text": "Changed winding to CCW",
+        "raw": "2025-09-27 [OrionP] Changed winding to CCW"
+      },
+      {
+        "date": "2025-09-29",
+        "contributor": "OrionP",
+        "text": "Official Update 2025-09",
+        "raw": "2025-09-29 [OrionP] Official Update 2025-09"
+      }
+    ],
+    "category": null,
+    "keywords": [],
+    "status": "current",
+    "replacement": null,
+    "preview": null
+  },
+  "complete": true,
+  "bounds": {
+    "min": [
+      -60.0,
+      -4.0,
+      -10.0
+    ],
+    "max": [
+      60.0,
+      48.0,
+      10.0
+    ]
+  },
+  "size": [
+    120.0,
+    52.0,
+    20.0
+  ],
+  "stud_positions": [
+    [
+      -50.0,
+      0.0,
+      0.0
+    ],
+    [
+      -30.0,
+      0.0,
+      0.0
+    ],
+    [
+      -10.0,
+      0.0,
+      0.0
+    ],
+    [
+      10.0,
+      0.0,
+      0.0
+    ],
+    [
+      30.0,
+      0.0,
+      0.0
+    ],
+    [
+      50.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "connector_count": 8,
+  "connectors": [
+    {
+      "kind": "stud",
+      "role": "male",
+      "position": [
+        -50.0,
+        0.0,
+        0.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 6.0,
+            "length": 4.0,
+            "flexible": false
+          }
+        ],
+        "centered": false,
+        "friction": true,
+        "caps": "one"
+      },
+      "name": "studC",
+      "feature_id": "stug-1x6@R13/stud@R0/studC",
+      "group": null,
+      "freedoms": [
+        "rotate"
+      ],
+      "source": "ldcad_shadow",
+      "confidence": 1.0,
+      "owner_code": "3307",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "/opt/ldraw-astra/data/offLibShadow/p/stud.dat:8"
+      ],
+      "metadata_id": "studC",
+      "connection_provenance": {
+        "source": "ldcad_shadow",
+        "path": "/opt/ldraw-astra/data/offLibShadow/p/stud.dat",
+        "archive_member": null,
+        "line_number": 8,
+        "command": "0 !LDCAD SNAP_CYL [ID=studC] [gender=M] [caps=one] [secs=R 6 4]",
+        "include_chain": []
+      },
+      "scale_inheritance": "none",
+      "mirror_inheritance": "cor"
+    }
+  ],
+  "connectors_truncated": true,
+  "diagnostics": [],
+  "connection_metadata": {
+    "coverage": "complete",
+    "source_count": 2,
+    "recognized_record_count": 2,
+    "unsupported_record_count": 0,
+    "invalid_record_count": 0,
+    "diagnostics": []
+  },
+  "rectangular_profile": null,
+  "note": "All coordinates are local LDU. Connector inference is evidence; inspect uncertain fits."
+}

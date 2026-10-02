@@ -1,0 +1,837 @@
+{
+  "file": "output/tidal-observatory.mpd",
+  "section": null,
+  "profile": "syntax",
+  "checks_passed": true,
+  "physical_validity": "not_proven",
+  "diagnostics": [],
+  "bom": [
+    {
+      "part": "2423",
+      "description": "Plant Leaves  4 x  3",
+      "colour_code": 2,
+      "colour_name": "Green",
+      "quantity": 3
+    },
+    {
+      "part": "2423",
+      "description": "Plant Leaves  4 x  3",
+      "colour_code": 288,
+      "colour_name": "Dark_Green",
+      "quantity": 3
+    },
+    {
+      "part": "2456",
+      "description": "Brick  2 x  6",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 3
+    },
+    {
+      "part": "2456",
+      "description": "Brick  2 x  6",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 2
+    },
+    {
+      "part": "2456",
+      "description": "Brick  2 x  6",
+      "colour_code": 19,
+      "colour_name": "Tan",
+      "quantity": 2
+    },
+    {
+      "part": "24866",
+      "description": "Plate  1 x  1 with  5 Petals",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 3
+    },
+    {
+      "part": "24866",
+      "description": "Plate  1 x  1 with  5 Petals",
+      "colour_code": 25,
+      "colour_name": "Orange",
+      "quantity": 3
+    },
+    {
+      "part": "3001",
+      "description": "Brick  2 x  4",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 2
+    },
+    {
+      "part": "3001",
+      "description": "Brick  2 x  4",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 2
+    },
+    {
+      "part": "3001",
+      "description": "Brick  2 x  4",
+      "colour_code": 19,
+      "colour_name": "Tan",
+      "quantity": 3
+    },
+    {
+      "part": "3001",
+      "description": "Brick  2 x  4",
+      "colour_code": 378,
+      "colour_name": "Sand_Green",
+      "quantity": 6
+    },
+    {
+      "part": "3003",
+      "description": "Brick  2 x  2",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 1
+    },
+    {
+      "part": "3003",
+      "description": "Brick  2 x  2",
+      "colour_code": 19,
+      "colour_name": "Tan",
+      "quantity": 6
+    },
+    {
+      "part": "3003",
+      "description": "Brick  2 x  2",
+      "colour_code": 28,
+      "colour_name": "Dark_Tan",
+      "quantity": 6
+    },
+    {
+      "part": "3003",
+      "description": "Brick  2 x  2",
+      "colour_code": 46,
+      "colour_name": "Trans_Yellow",
+      "quantity": 2
+    },
+    {
+      "part": "3003",
+      "description": "Brick  2 x  2",
+      "colour_code": 297,
+      "colour_name": "Pearl_Gold",
+      "quantity": 1
+    },
+    {
+      "part": "3003p0b",
+      "description": "Brick  2 x  2 with Gold and White Big Ben Clock Face Pattern",
+      "colour_code": 19,
+      "colour_name": "Tan",
+      "quantity": 2
+    },
+    {
+      "part": "3004",
+      "description": "Brick  1 x  2",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 2
+    },
+    {
+      "part": "3004",
+      "description": "Brick  1 x  2",
+      "colour_code": 19,
+      "colour_name": "Tan",
+      "quantity": 71
+    },
+    {
+      "part": "3004",
+      "description": "Brick  1 x  2",
+      "colour_code": 28,
+      "colour_name": "Dark_Tan",
+      "quantity": 18
+    },
+    {
+      "part": "3005",
+      "description": "Brick  1 x  1",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 72
+    },
+    {
+      "part": "3005",
+      "description": "Brick  1 x  1",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 14
+    },
+    {
+      "part": "3005",
+      "description": "Brick  1 x  1",
+      "colour_code": 19,
+      "colour_name": "Tan",
+      "quantity": 74
+    },
+    {
+      "part": "3005",
+      "description": "Brick  1 x  1",
+      "colour_code": 28,
+      "colour_name": "Dark_Tan",
+      "quantity": 13
+    },
+    {
+      "part": "3005",
+      "description": "Brick  1 x  1",
+      "colour_code": 70,
+      "colour_name": "Reddish_Brown",
+      "quantity": 39
+    },
+    {
+      "part": "3005",
+      "description": "Brick  1 x  1",
+      "colour_code": 272,
+      "colour_name": "Dark_Blue",
+      "quantity": 6
+    },
+    {
+      "part": "3005",
+      "description": "Brick  1 x  1",
+      "colour_code": 378,
+      "colour_name": "Sand_Green",
+      "quantity": 6
+    },
+    {
+      "part": "3007",
+      "description": "Brick  2 x  8",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 6
+    },
+    {
+      "part": "3007",
+      "description": "Brick  2 x  8",
+      "colour_code": 19,
+      "colour_name": "Tan",
+      "quantity": 6
+    },
+    {
+      "part": "3007",
+      "description": "Brick  2 x  8",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 102
+    },
+    {
+      "part": "3008",
+      "description": "Brick  1 x  8",
+      "colour_code": 19,
+      "colour_name": "Tan",
+      "quantity": 41
+    },
+    {
+      "part": "3008",
+      "description": "Brick  1 x  8",
+      "colour_code": 28,
+      "colour_name": "Dark_Tan",
+      "quantity": 19
+    },
+    {
+      "part": "3009",
+      "description": "Brick  1 x  6",
+      "colour_code": 19,
+      "colour_name": "Tan",
+      "quantity": 32
+    },
+    {
+      "part": "3009",
+      "description": "Brick  1 x  6",
+      "colour_code": 28,
+      "colour_name": "Dark_Tan",
+      "quantity": 6
+    },
+    {
+      "part": "3010",
+      "description": "Brick  1 x  4",
+      "colour_code": 19,
+      "colour_name": "Tan",
+      "quantity": 47
+    },
+    {
+      "part": "3020",
+      "description": "Plate  2 x  4",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 8
+    },
+    {
+      "part": "3020",
+      "description": "Plate  2 x  4",
+      "colour_code": 28,
+      "colour_name": "Dark_Tan",
+      "quantity": 1
+    },
+    {
+      "part": "3020",
+      "description": "Plate  2 x  4",
+      "colour_code": 272,
+      "colour_name": "Dark_Blue",
+      "quantity": 5
+    },
+    {
+      "part": "3022",
+      "description": "Plate  2 x  2",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 2
+    },
+    {
+      "part": "3022",
+      "description": "Plate  2 x  2",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 13
+    },
+    {
+      "part": "3022",
+      "description": "Plate  2 x  2",
+      "colour_code": 28,
+      "colour_name": "Dark_Tan",
+      "quantity": 26
+    },
+    {
+      "part": "3022",
+      "description": "Plate  2 x  2",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 1
+    },
+    {
+      "part": "3022",
+      "description": "Plate  2 x  2",
+      "colour_code": 272,
+      "colour_name": "Dark_Blue",
+      "quantity": 4
+    },
+    {
+      "part": "3022",
+      "description": "Plate  2 x  2",
+      "colour_code": 297,
+      "colour_name": "Pearl_Gold",
+      "quantity": 3
+    },
+    {
+      "part": "3023b",
+      "description": "Plate  1 x  2",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 27
+    },
+    {
+      "part": "3024",
+      "description": "Plate  1 x  1",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 20
+    },
+    {
+      "part": "3028",
+      "description": "Plate  6 x 12",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 2
+    },
+    {
+      "part": "3028",
+      "description": "Plate  6 x 12",
+      "colour_code": 28,
+      "colour_name": "Dark_Tan",
+      "quantity": 12
+    },
+    {
+      "part": "3028",
+      "description": "Plate  6 x 12",
+      "colour_code": 71,
+      "colour_name": "Light_Bluish_Grey",
+      "quantity": 20
+    },
+    {
+      "part": "3028",
+      "description": "Plate  6 x 12",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 45
+    },
+    {
+      "part": "3028",
+      "description": "Plate  6 x 12",
+      "colour_code": 272,
+      "colour_name": "Dark_Blue",
+      "quantity": 21
+    },
+    {
+      "part": "3029",
+      "description": "Plate  4 x 12",
+      "colour_code": 28,
+      "colour_name": "Dark_Tan",
+      "quantity": 6
+    },
+    {
+      "part": "3029",
+      "description": "Plate  4 x 12",
+      "colour_code": 71,
+      "colour_name": "Light_Bluish_Grey",
+      "quantity": 4
+    },
+    {
+      "part": "3029",
+      "description": "Plate  4 x 12",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 10
+    },
+    {
+      "part": "3031",
+      "description": "Plate  4 x  4",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 1
+    },
+    {
+      "part": "3031",
+      "description": "Plate  4 x  4",
+      "colour_code": 19,
+      "colour_name": "Tan",
+      "quantity": 3
+    },
+    {
+      "part": "3031",
+      "description": "Plate  4 x  4",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 3
+    },
+    {
+      "part": "3034",
+      "description": "Plate  2 x  8",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 38
+    },
+    {
+      "part": "3034",
+      "description": "Plate  2 x  8",
+      "colour_code": 28,
+      "colour_name": "Dark_Tan",
+      "quantity": 37
+    },
+    {
+      "part": "3034",
+      "description": "Plate  2 x  8",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 11
+    },
+    {
+      "part": "3034",
+      "description": "Plate  2 x  8",
+      "colour_code": 272,
+      "colour_name": "Dark_Blue",
+      "quantity": 22
+    },
+    {
+      "part": "3035",
+      "description": "Plate  4 x  8",
+      "colour_code": 28,
+      "colour_name": "Dark_Tan",
+      "quantity": 1
+    },
+    {
+      "part": "3035",
+      "description": "Plate  4 x  8",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 4
+    },
+    {
+      "part": "3036",
+      "description": "Plate  6 x  8",
+      "colour_code": 28,
+      "colour_name": "Dark_Tan",
+      "quantity": 4
+    },
+    {
+      "part": "3036",
+      "description": "Plate  6 x  8",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 2
+    },
+    {
+      "part": "3039",
+      "description": "Slope Brick 45  2 x  2",
+      "colour_code": 272,
+      "colour_name": "Dark_Blue",
+      "quantity": 24
+    },
+    {
+      "part": "3045",
+      "description": "Slope Brick 45  2 x  2 Double Convex",
+      "colour_code": 272,
+      "colour_name": "Dark_Blue",
+      "quantity": 16
+    },
+    {
+      "part": "3062b",
+      "description": "Brick  1 x  1 Round with Hollow Stud",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 8
+    },
+    {
+      "part": "3062b",
+      "description": "Brick  1 x  1 Round with Hollow Stud",
+      "colour_code": 46,
+      "colour_name": "Trans_Yellow",
+      "quantity": 2
+    },
+    {
+      "part": "3062b",
+      "description": "Brick  1 x  1 Round with Hollow Stud",
+      "colour_code": 70,
+      "colour_name": "Reddish_Brown",
+      "quantity": 3
+    },
+    {
+      "part": "3062b",
+      "description": "Brick  1 x  1 Round with Hollow Stud",
+      "colour_code": 297,
+      "colour_name": "Pearl_Gold",
+      "quantity": 12
+    },
+    {
+      "part": "3068b",
+      "description": "Tile  2 x  2 with Groove",
+      "colour_code": 19,
+      "colour_name": "Tan",
+      "quantity": 142
+    },
+    {
+      "part": "3068b",
+      "description": "Tile  2 x  2 with Groove",
+      "colour_code": 23,
+      "colour_name": "Dark_Blue_Violet",
+      "quantity": 7
+    },
+    {
+      "part": "3068b",
+      "description": "Tile  2 x  2 with Groove",
+      "colour_code": 28,
+      "colour_name": "Dark_Tan",
+      "quantity": 45
+    },
+    {
+      "part": "3068b",
+      "description": "Tile  2 x  2 with Groove",
+      "colour_code": 272,
+      "colour_name": "Dark_Blue",
+      "quantity": 65
+    },
+    {
+      "part": "3068bp32",
+      "description": "Tile  2 x  2 with Map Nautical Pattern",
+      "colour_code": 19,
+      "colour_name": "Tan",
+      "quantity": 3
+    },
+    {
+      "part": "3070b",
+      "description": "Tile  1 x  1 with Groove",
+      "colour_code": 19,
+      "colour_name": "Tan",
+      "quantity": 440
+    },
+    {
+      "part": "3070b",
+      "description": "Tile  1 x  1 with Groove",
+      "colour_code": 28,
+      "colour_name": "Dark_Tan",
+      "quantity": 292
+    },
+    {
+      "part": "3070b",
+      "description": "Tile  1 x  1 with Groove",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 240
+    },
+    {
+      "part": "3070b",
+      "description": "Tile  1 x  1 with Groove",
+      "colour_code": 272,
+      "colour_name": "Dark_Blue",
+      "quantity": 58
+    },
+    {
+      "part": "3070b",
+      "description": "Tile  1 x  1 with Groove",
+      "colour_code": 297,
+      "colour_name": "Pearl_Gold",
+      "quantity": 3
+    },
+    {
+      "part": "3070b",
+      "description": "Tile  1 x  1 with Groove",
+      "colour_code": 378,
+      "colour_name": "Sand_Green",
+      "quantity": 60
+    },
+    {
+      "part": "3307",
+      "description": "Arch  1 x  6 x  2 with Thick Top and Reinforced Underside",
+      "colour_code": 19,
+      "colour_name": "Tan",
+      "quantity": 6
+    },
+    {
+      "part": "3460",
+      "description": "Plate  1 x  8",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 2
+    },
+    {
+      "part": "3460",
+      "description": "Plate  1 x  8",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 64
+    },
+    {
+      "part": "3622",
+      "description": "Brick  1 x  3",
+      "colour_code": 19,
+      "colour_name": "Tan",
+      "quantity": 88
+    },
+    {
+      "part": "3622",
+      "description": "Brick  1 x  3",
+      "colour_code": 28,
+      "colour_name": "Dark_Tan",
+      "quantity": 6
+    },
+    {
+      "part": "3666",
+      "description": "Plate  1 x  6",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 2
+    },
+    {
+      "part": "3666",
+      "description": "Plate  1 x  6",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 1
+    },
+    {
+      "part": "3666",
+      "description": "Plate  1 x  6",
+      "colour_code": 70,
+      "colour_name": "Reddish_Brown",
+      "quantity": 9
+    },
+    {
+      "part": "3710",
+      "description": "Plate  1 x  4",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 8
+    },
+    {
+      "part": "3794b",
+      "description": "Plate  1 x  2 with Groove with 1 Centre Stud",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 2
+    },
+    {
+      "part": "3794b",
+      "description": "Plate  1 x  2 with Groove with 1 Centre Stud",
+      "colour_code": 297,
+      "colour_name": "Pearl_Gold",
+      "quantity": 2
+    },
+    {
+      "part": "3795",
+      "description": "Plate  2 x  6",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 10
+    },
+    {
+      "part": "3795",
+      "description": "Plate  2 x  6",
+      "colour_code": 28,
+      "colour_name": "Dark_Tan",
+      "quantity": 9
+    },
+    {
+      "part": "3795",
+      "description": "Plate  2 x  6",
+      "colour_code": 70,
+      "colour_name": "Reddish_Brown",
+      "quantity": 4
+    },
+    {
+      "part": "3958",
+      "description": "Plate  6 x  6",
+      "colour_code": 28,
+      "colour_name": "Dark_Tan",
+      "quantity": 1
+    },
+    {
+      "part": "4079",
+      "description": "Minifig Seat  2 x  2",
+      "colour_code": 272,
+      "colour_name": "Dark_Blue",
+      "quantity": 3
+    },
+    {
+      "part": "4589",
+      "description": "Cone  1 x  1",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 2
+    },
+    {
+      "part": "4589",
+      "description": "Cone  1 x  1",
+      "colour_code": 297,
+      "colour_name": "Pearl_Gold",
+      "quantity": 2
+    },
+    {
+      "part": "4733",
+      "description": "Brick  1 x  1 with Studs on Four Sides",
+      "colour_code": 297,
+      "colour_name": "Pearl_Gold",
+      "quantity": 3
+    },
+    {
+      "part": "4740",
+      "description": "Dish  2 x  2 Inverted",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 2
+    },
+    {
+      "part": "4740",
+      "description": "Dish  2 x  2 Inverted",
+      "colour_code": 378,
+      "colour_name": "Sand_Green",
+      "quantity": 3
+    },
+    {
+      "part": "48092",
+      "description": "Brick  4 x  4 Corner Round",
+      "colour_code": 378,
+      "colour_name": "Sand_Green",
+      "quantity": 4
+    },
+    {
+      "part": "4865b",
+      "description": "Panel  1 x  2 x  1 with Rounded Corners",
+      "colour_code": 70,
+      "colour_name": "Reddish_Brown",
+      "quantity": 3
+    },
+    {
+      "part": "57895",
+      "description": "Glass for Window  1 x  4 x  6",
+      "colour_code": 47,
+      "colour_name": "Trans_Clear",
+      "quantity": 6
+    },
+    {
+      "part": "60592",
+      "description": "Window  1 x  2 x  2 without Sill",
+      "colour_code": 272,
+      "colour_name": "Dark_Blue",
+      "quantity": 28
+    },
+    {
+      "part": "60594",
+      "description": "Window  1 x  4 x  3 without Shutter Tabs",
+      "colour_code": 272,
+      "colour_name": "Dark_Blue",
+      "quantity": 3
+    },
+    {
+      "part": "60596",
+      "description": "Door  1 x  4 x  6 Frame",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 4
+    },
+    {
+      "part": "60596",
+      "description": "Door  1 x  4 x  6 Frame",
+      "colour_code": 272,
+      "colour_name": "Dark_Blue",
+      "quantity": 3
+    },
+    {
+      "part": "60601",
+      "description": "Glass for Window  1 x  2 x  2 without Sill",
+      "colour_code": 47,
+      "colour_name": "Trans_Clear",
+      "quantity": 28
+    },
+    {
+      "part": "60608",
+      "description": "Window  1 x  2 x  3 Pane with Thick Corner Tabs",
+      "colour_code": 47,
+      "colour_name": "Trans_Clear",
+      "quantity": 6
+    },
+    {
+      "part": "60623",
+      "description": "Door  1 x  4 x  6 with 4 Panes and Stud Handle",
+      "colour_code": 272,
+      "colour_name": "Dark_Blue",
+      "quantity": 1
+    },
+    {
+      "part": "6141",
+      "description": "Plate  1 x  1 Round",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 3
+    },
+    {
+      "part": "6141",
+      "description": "Plate  1 x  1 Round",
+      "colour_code": 297,
+      "colour_name": "Pearl_Gold",
+      "quantity": 5
+    },
+    {
+      "part": "87559",
+      "description": "Brick  6 x  6 x  2 Corner Round with Curved Top",
+      "colour_code": 378,
+      "colour_name": "Sand_Green",
+      "quantity": 4
+    },
+    {
+      "part": "88293",
+      "description": "Brick  3 x  3 x  2 Round Corner with Dome Top",
+      "colour_code": 378,
+      "colour_name": "Sand_Green",
+      "quantity": 4
+    },
+    {
+      "part": "98138",
+      "description": "Tile  1 x  1 Round with Groove",
+      "colour_code": 41,
+      "colour_name": "Trans_Medium_Blue",
+      "quantity": 3
+    }
+  ],
+  "physical_placements": 2734
+}

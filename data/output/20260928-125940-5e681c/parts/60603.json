@@ -1,0 +1,138 @@
+{
+  "code": "60603.dat",
+  "path": "/opt/ldraw/ldraw/parts/60603.dat",
+  "metadata": {
+    "description": "=Glass for Window 1 x 4 x 3 Opening",
+    "name": "60603.dat",
+    "author": "Magnus Forsberg",
+    "author_username": "MagFors",
+    "file_kind": "part",
+    "origin": "official",
+    "qualifiers": [
+      "Alias"
+    ],
+    "release": "2013-02",
+    "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+    "bfc": "ccw",
+    "history": [
+      {
+        "date": "2011-12-29",
+        "contributor": "PTadmin",
+        "text": "Official Update 2011-02",
+        "raw": "2011-12-29 [PTadmin] Official Update 2011-02"
+      },
+      {
+        "date": "2013-12-14",
+        "contributor": "cwdee",
+        "text": "Add = prefix",
+        "raw": "2013-12-14 [cwdee] Add = prefix"
+      },
+      {
+        "date": "2013-12-23",
+        "contributor": "PTadmin",
+        "text": "Official Update 2013-02",
+        "raw": "2013-12-23 [PTadmin] Official Update 2013-02"
+      }
+    ],
+    "category": null,
+    "keywords": [],
+    "status": "alias",
+    "replacement": "86210.dat",
+    "preview": null
+  },
+  "complete": true,
+  "bounds": {
+    "min": [
+      -37.0,
+      -4.0,
+      -4.0
+    ],
+    "max": [
+      37.0,
+      56.0,
+      4.0
+    ]
+  },
+  "size": [
+    74.0,
+    60.0,
+    8.0
+  ],
+  "stud_positions": [],
+  "connector_count": 1,
+  "connectors": [
+    {
+      "kind": "hinge",
+      "role": "neutral",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "frame": [
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sequence": [
+          72.0
+        ],
+        "radius": 2.0,
+        "first_role": "male",
+        "detents": [],
+        "centered": true
+      },
+      "name": "LDCad fingers",
+      "feature_id": "86210@R0/s/86210s01@R0/snap_fgr@L8:I0",
+      "group": null,
+      "freedoms": [
+        "rotate"
+      ],
+      "source": "ldcad_shadow",
+      "confidence": 1.0,
+      "owner_code": "86210",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "/opt/ldraw-astra/data/offLibShadow/parts/s/86210s01.dat:8"
+      ],
+      "metadata_id": null,
+      "connection_provenance": {
+        "source": "ldcad_shadow",
+        "path": "/opt/ldraw-astra/data/offLibShadow/parts/s/86210s01.dat",
+        "archive_member": null,
+        "line_number": 8,
+        "command": "0 !LDCAD SNAP_FGR [genderOfs=M] [seq=72] [radius=2] [ori=0 -1 0 1 0 0 0 0 1]",
+        "include_chain": []
+      },
+      "scale_inheritance": "none",
+      "mirror_inheritance": "none"
+    }
+  ],
+  "connectors_truncated": false,
+  "diagnostics": [],
+  "connection_metadata": {
+    "coverage": "complete",
+    "source_count": 1,
+    "recognized_record_count": 1,
+    "unsupported_record_count": 0,
+    "invalid_record_count": 0,
+    "diagnostics": []
+  },
+  "rectangular_profile": null,
+  "note": "All coordinates are local LDU. Connector inference is evidence; inspect uncertain fits."
+}

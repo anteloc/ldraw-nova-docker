@@ -1,0 +1,13 @@
+{
+  "images": [
+    "/data/output/20260928-125940-5e681c/tidal-roof-review/home.png",
+    "/data/output/20260928-125940-5e681c/tidal-roof-review/top.png",
+    "/data/output/20260928-125940-5e681c/tidal-roof-review/bottom.png"
+  ],
+  "bom": "/data/output/20260928-125940-5e681c/tidal-roof-review/leocad-bom.csv",
+  "embedded_definitions_materialized": 0,
+  "visual_review": "required: open and inspect the images",
+  "source": "output/tidal-observatory.mpd",
+  "section": "tidal-dome-roof.ldr",
+  "source_diagnostics": []
+}

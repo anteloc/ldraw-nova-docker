@@ -1,0 +1,55 @@
+0 FILE rl-ftop-00-42039---frontaxletop.ldr
+0 An upper front axle support structure using bent liftarms, cross blocks, and T-beams.
+0 Name: rl-ftop-00-42039---frontaxletop.ldr
+0 Author: Philippe Hurbain [Philo]
+0 !LDRAW_ORG Model
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 !THEME Technic
+0 // Technic Beam  2 x  4 Liftarm Bent 90 (black)
+1 0 0 0 0 0 -1 0 -1 0 0 0 0 -1 32140.dat
+0 // Technic Axle  7 (light_bluish_grey)
+1 71 0 0 0 1 0 0 0 -1 0 0 0 -1 44294.dat
+0 // Technic Pin Long with Friction and Slot (blue)
+1 1 0 0 -40 1 0 0 0 -1 0 0 0 -1 6558.dat
+0 // Technic Beam  3 x  3 T-shaped (black)
+1 0 -20 -40 -20 0 1 0 0 0 1 1 0 0 60484.dat
+0 // Technic Pin Long with Friction and Slot (blue)
+1 1 -40 0 -20 -1 0 0 0 -1 0 0 0 1 6558.dat
+0 // Technic Cross Block 3 x 2 (Axle/Triple Pin) (black)
+1 0 -40 20 0 0 0 -1 0 -1 0 -1 0 0 63869.dat
+0 STEP
+0 // Technic Beam  9 (black)
+1 0 -60 0 60 0 -1 0 1 0 0 0 0 1 40490.dat
+0 // Technic Pin with Friction and Slots (black)
+1 0 -50 0 20 -1 0 0 0 -1 0 0 0 1 2780.dat
+0 // Technic Pin with Friction and Slots (black)
+1 0 -50 0 40 -1 0 0 0 -1 0 0 0 1 2780.dat
+0 // Technic Cross Block 1 x 2 (Axle/Pin) (bright_green)
+1 10 -40 20 40 0 0 1 0 -1 0 1 0 0 6536.dat
+0 STEP
+0 // Technic Beam  3 x  3 T-shaped (black)
+1 0 20 -40 -20 0 1 0 0 0 1 1 0 0 60484.dat
+0 // Technic Pin Long with Friction and Slot (blue)
+1 1 40 0 -20 1 0 0 0 -1 0 0 0 -1 6558.dat
+0 // Technic Cross Block 3 x 2 (Axle/Triple Pin) (black)
+1 0 40 20 0 0 0 -1 0 -1 0 -1 0 0 63869.dat
+0 STEP
+0 // Technic Beam  9 (black)
+1 0 60 0 60 0 -1 0 1 0 0 0 0 1 40490.dat
+0 // Technic Pin with Friction and Slots (black)
+1 0 50 0 20 -1 0 0 0 -1 0 0 0 1 2780.dat
+0 // Technic Pin with Friction and Slots (black)
+1 0 50 0 40 -1 0 0 0 -1 0 0 0 1 2780.dat
+0 // Technic Pin Long with Friction and Slot (blue)
+1 1 0 -20 -60 1 0 0 0 0.3256 0.9455 0 -0.9455 0.3256 6558.dat
+0 // Technic Cross Block 1 x 2 (Axle/Pin) (black)
+1 0 -20 -13.4886 -78.9104 0 0 1 0.9455 -0.3256 0 0.3256 0.9455 0 6536.dat
+0 // Technic Cross Block 1 x 2 (Axle/Pin) (black)
+1 0 20 -13.4886 -78.9104 0 0 1 0.9455 -0.3256 0 0.3256 0.9455 0 6536.dat
+0 // Technic Axle Pin with Friction (blue)
+1 1 -20 -22.9438 -82.1661 0 0 1 0.9455 -0.3256 0 0.3256 0.9455 0 43093.dat
+0 // Technic Axle Pin with Friction (blue)
+1 1 20 -22.9438 -82.1661 0 0 1 0.9455 -0.3256 0 0.3256 0.9455 0 43093.dat
+
+0 STEP
+0 NOFILE

@@ -1,0 +1,1146 @@
+{
+  "query": "a repeating brick facade wall panel with window openings for a city building",
+  "kind": "submodels",
+  "engine": "jev",
+  "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+  "index_signature": "81469ed88c1812d04765e293fa4e8948a3a37c8ae407a42848440ae31cdfc709",
+  "results": [
+    {
+      "kind": "submodels",
+      "description": "Narrow facade section with a base plate, sloped 0.667-height bricks, and rows of grooved window tiles in tan, dark-tan, and trans-brown.",
+      "model": "21023-1.mpd",
+      "section": "21023 - 1 - 5.ldr",
+      "id": "submodel-07a63b4c82868777c44325ee",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "Narrow facade section with a base plate, sloped 0.667-height bricks, and rows of grooved window tiles in tan, dark-tan, and trans-brown.",
+      "original_full_description": "21023-1.mpd|21023 - 1 - 5.ldr|Narrow facade section with a base plate, sloped 0.667-height bricks, and rows of grooved window tiles in tan, dark-tan, and trans-brown.",
+      "source_exists": true,
+      "path": "/opt/ldraw-astra/data/models-annotated/21023-1.mpd",
+      "source_sha256": "d731b0b34659e141483a446bf4aca8a85a1e71266889b1c56b6ac4b872a2ed50",
+      "source_section": "21023 - 1 - 5.ldr",
+      "start_line": 985,
+      "parent_description": "Main assembly of the Flatiron Building landmark, featuring a printed nameplate tile, black base plates and tiles, and a tan and grey triangular facade with hinged angular sections.",
+      "theme": "Architecture",
+      "direct_placements": 32,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "21023-1.mpd|21023 - 1 - 5.ldr|Narrow facade section with a base plate, sloped 0.667-height bricks, and rows of grooved window tiles in tan, dark-tan, and trans-brown.",
+      "score": 0.84,
+      "retrieval_rank": 1,
+      "inventory": {
+        "source_sha256": "d731b0b34659e141483a446bf4aca8a85a1e71266889b1c56b6ac4b872a2ed50",
+        "parser_section": "21023 - 1 - 5.ldr",
+        "physical_placements": 39,
+        "expanded_leaf_count": 39,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "11477.dat",
+            "count": 3,
+            "description": "Slope Brick Curved  2 x  1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "15068.dat",
+            "count": 1,
+            "description": "Slope Brick Curved  2 x  2 x  0.667",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3023.dat",
+            "count": 3,
+            "description": "~Moved to 3023b",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3024.dat",
+            "count": 2,
+            "description": "Plate  1 x  1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3035.dat",
+            "count": 1,
+            "description": "Plate  4 x  8",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3069b.dat",
+            "count": 16,
+            "description": "Tile  1 x  2 with Groove",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3070b.dat",
+            "count": 1,
+            "description": "Tile  1 x  1 with Groove",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3460.dat",
+            "count": 1,
+            "description": "Plate  1 x  8",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3623.dat",
+            "count": 1,
+            "description": "Plate  1 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3666.dat",
+            "count": 1,
+            "description": "Plate  1 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3710.dat",
+            "count": 5,
+            "description": "Plate  1 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "50746.dat",
+            "count": 4,
+            "description": "=Slope Brick 31  1 x  1 x  0.667",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 0,
+        "technic_share": 0.0,
+        "legacy_parts": [
+          {
+            "part": "3023.dat",
+            "count": 3,
+            "description": "~Moved to 3023b",
+            "physical_index_entry": true
+          },
+          {
+            "part": "50746.dat",
+            "count": 4,
+            "description": "=Slope Brick 31  1 x  1 x  0.667",
+            "physical_index_entry": true
+          }
+        ],
+        "shape_fingerprint": "fca51cd32e609011c088092c494fa79b12229e893c6ed722e08852ff6f68be79",
+        "recipe_fingerprint": "0570ef13c30144f816e3135de7ef326c0ef5dd75cbd1349fb6c49a97ea36c10d",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "21023 - 1.ldr",
+            "at": [
+              20.0,
+              -292.0,
+              -52.0
+            ],
+            "matrix": [
+              [
+                0.0,
+                0.0,
+                1.0
+              ],
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ],
+            "colour": 0
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "21023 - 1 - 5.ldr",
+            "kind": "assembly",
+            "author": "Damien Roux [Darats]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "21023 - 1 - 5 - 1.ldr",
+            "kind": "assembly",
+            "author": "Damien Roux [Darats]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      }
+    },
+    {
+      "kind": "submodels",
+      "description": "White detailed section combining patterned window bricks, inverted tiles with bar holes, and a long tile to form a windowed wall segment.",
+      "model": "21043-1.mpd",
+      "section": "21043 - step54.ldr",
+      "id": "submodel-bba372812ea8d298fd41ef04",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "White detailed section combining patterned window bricks, inverted tiles with bar holes, and a long tile to form a windowed wall segment.",
+      "original_full_description": "21043-1.mpd|21043 - step54.ldr|White detailed section combining patterned window bricks, inverted tiles with bar holes, and a long tile to form a windowed wall segment.",
+      "source_exists": true,
+      "path": "/opt/ldraw-astra/data/models-annotated/21043-1.mpd",
+      "source_sha256": "252870db30e1a950fee2035bf5d384dc895f81b5b557db290643a3ccfd210aeb",
+      "source_section": "21043 - step54.ldr",
+      "start_line": 1076,
+      "parent_description": "Foundation and structural base for a large multi-section architectural skyline model, built predominantly from black and blue plates of various sizes.",
+      "theme": "Architecture",
+      "direct_placements": 7,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "21043-1.mpd|21043 - step54.ldr|White detailed section combining patterned window bricks, inverted tiles with bar holes, and a long tile to form a windowed wall segment.",
+      "score": 0.84,
+      "retrieval_rank": 2,
+      "inventory": {
+        "source_sha256": "252870db30e1a950fee2035bf5d384dc895f81b5b557db290643a3ccfd210aeb",
+        "parser_section": "21043 - step54.ldr",
+        "physical_placements": 7,
+        "expanded_leaf_count": 7,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "21043 - 3004p0d.dat",
+            "count": 2,
+            "description": "Patterned 1x2 brick with a printed decoration, defined as an external pattern reference.",
+            "physical_index_entry": true
+          },
+          {
+            "part": "21043 - 35459.dat",
+            "count": 2,
+            "description": "Small custom-moulded part composed of boxes, cylinders, and circles forming a shaped structural element.",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2921.dat",
+            "count": 1,
+            "description": "Brick  1 x  1 with Handle",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3005.dat",
+            "count": 1,
+            "description": "Brick  1 x  1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6636.dat",
+            "count": 1,
+            "description": "Tile  1 x  6",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 0,
+        "technic_share": 0.0,
+        "legacy_parts": [],
+        "shape_fingerprint": "39978a520d91767cd10ee357f038414752624bc3c88943814d0e750ff4c28c4d",
+        "recipe_fingerprint": "770c5ea786247cfde364f69ef3ca7a2fd84a8b7ef410afbd852a2534b235f00b",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "21043 - main.ldr",
+            "at": [
+              -470.0,
+              -122.0,
+              60.0
+            ],
+            "matrix": [
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "colour": 15
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "21043 - step54.ldr",
+            "kind": "assembly",
+            "author": "Orion Pobursky [OrionP]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "21043 - 35459.dat",
+            "kind": "part_definition",
+            "author": "Philippe Hurbain [Philo]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "21043 - 3004p0d.dat",
+            "kind": "part_definition",
+            "author": "Orion Pobursky [OrionP]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      }
+    },
+    {
+      "kind": "submodels",
+      "description": "A green brick wall module fitted with a tall white-framed three-pane window on grey support plates.",
+      "model": "7632-1.mpd",
+      "section": "7632 - Window.ldr",
+      "id": "submodel-f1a02300d970e38dd28c6c12",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "A green brick wall module fitted with a tall white-framed three-pane window on grey support plates.",
+      "original_full_description": "7632-1.mpd|7632 - Window.ldr|A green brick wall module fitted with a tall white-framed three-pane window on grey support plates.",
+      "source_exists": true,
+      "path": "/opt/ldraw-astra/data/models-annotated/7632-1.mpd",
+      "source_sha256": "697222c42dcf8680951e764639d06178556375d78d243220c4b9c288b3f374e9",
+      "source_section": "7632 - Window.ldr",
+      "start_line": 1066,
+      "parent_description": "A construction site set featuring a yellow and black crane, two worker minifigures, site fencing, a chain-and-string rigging system, and modular door and window wall sections.",
+      "theme": "",
+      "direct_placements": 22,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "7632-1.mpd|7632 - Window.ldr|A green brick wall module fitted with a tall white-framed three-pane window on grey support plates.",
+      "score": 0.82,
+      "retrieval_rank": 3,
+      "inventory": {
+        "source_sha256": "697222c42dcf8680951e764639d06178556375d78d243220c4b9c288b3f374e9",
+        "parser_section": "7632 - Window.ldr",
+        "physical_placements": 22,
+        "expanded_leaf_count": 22,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "2780.dat",
+            "count": 2,
+            "description": "Technic Pin with Friction and Slots",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3004.dat",
+            "count": 8,
+            "description": "Brick  1 x  2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3460.dat",
+            "count": 2,
+            "description": "Plate  1 x  8",
+            "physical_index_entry": true
+          },
+          {
+            "part": "57894.dat",
+            "count": 1,
+            "description": "Window  1 x  4 x  6 Frame with Three Panes",
+            "physical_index_entry": true
+          },
+          {
+            "part": "57895.dat",
+            "count": 1,
+            "description": "Glass for Window  1 x  4 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6541.dat",
+            "count": 8,
+            "description": "Technic Brick  1 x  1 with Hole",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 10,
+        "technic_share": 0.45454545454545453,
+        "legacy_parts": [],
+        "shape_fingerprint": "ed71ebf072f5404b9e6ad54cdc55e7652ac24d5eff96d12c2583a96c15e0cca9",
+        "recipe_fingerprint": "8966cb1aefa1371266d3b478e5ebb38e521b4c25e8b4e4a9d69d8f2a53dbb048",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "7632 - Modular.ldr",
+            "at": [
+              80.0,
+              0.0,
+              0.0
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "colour": 0
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "7632 - Window.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      }
+    },
+    {
+      "kind": "submodels",
+      "description": "Large structural layer combining the base platform with windows, headlight bricks, arches, hinge plates, and grille tiles to form the main building walls with openings and detailing.",
+      "model": "10256-1.mpd",
+      "section": "10256 - step42-59.ldr",
+      "id": "submodel-5548f42925d7149816cbae9b",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "Large structural layer combining the base platform with windows, headlight bricks, arches, hinge plates, and grille tiles to form the main building walls with openings and detailing.",
+      "original_full_description": "10256-1.mpd|10256 - step42-59.ldr|Large structural layer combining the base platform with windows, headlight bricks, arches, hinge plates, and grille tiles to form the main building walls with openings and detailing.",
+      "source_exists": true,
+      "path": "/opt/ldraw-astra/data/models-annotated/10256-1.mpd",
+      "source_sha256": "b0ac020c23488637e9a8210fa5b69959974719eca2df83ee5867f57309f547ad",
+      "source_section": "10256 - step42-59.ldr",
+      "start_line": 1344,
+      "parent_description": "The main assembly file for the Taj Mahal (10256), a large-scale Creator Expert set; it coordinates all submodel build steps into the complete monument with its base, dome, minarets, and ancillary buildings.",
+      "theme": "",
+      "direct_placements": 301,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "10256-1.mpd|10256 - step42-59.ldr|Large structural layer combining the base platform with windows, headlight bricks, arches, hinge plates, and grille tiles to form the main building walls with openings and detailing.",
+      "score": 0.81,
+      "retrieval_rank": 4,
+      "inventory": {
+        "source_sha256": "b0ac020c23488637e9a8210fa5b69959974719eca2df83ee5867f57309f547ad",
+        "parser_section": "10256 - step42-59.ldr",
+        "physical_placements": 301,
+        "expanded_leaf_count": 301,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "2357.dat",
+            "count": 2,
+            "description": "Brick  2 x  2 Corner",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2420.dat",
+            "count": 1,
+            "description": "Plate  2 x  2 Corner",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2429.dat",
+            "count": 12,
+            "description": "Hinge Plate  1 x  4 Base",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2430.dat",
+            "count": 12,
+            "description": "Hinge Plate  1 x  4 Top",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2431.dat",
+            "count": 4,
+            "description": "Tile  1 x  4 with Groove",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2450.dat",
+            "count": 3,
+            "description": "Plate  3 x  3 without Corner",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2577.dat",
+            "count": 1,
+            "description": "Brick  4 x  4 Corner Round",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2730.dat",
+            "count": 4,
+            "description": "Technic Brick  1 x 10 with Holes",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2780.dat",
+            "count": 4,
+            "description": "Technic Pin with Friction and Slots",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3001.dat",
+            "count": 1,
+            "description": "Brick  2 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3002.dat",
+            "count": 2,
+            "description": "Brick  2 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3003.dat",
+            "count": 11,
+            "description": "Brick  2 x  2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3004.dat",
+            "count": 13,
+            "description": "Brick  1 x  2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3005.dat",
+            "count": 11,
+            "description": "Brick  1 x  1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3006.dat",
+            "count": 1,
+            "description": "Brick  2 x 10",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3008.dat",
+            "count": 3,
+            "description": "Brick  1 x  8",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3021.dat",
+            "count": 1,
+            "description": "Plate  2 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3023.dat",
+            "count": 10,
+            "description": "~Moved to 3023b",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3024.dat",
+            "count": 29,
+            "description": "Plate  1 x  1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3031.dat",
+            "count": 1,
+            "description": "Plate  4 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3032.dat",
+            "count": 1,
+            "description": "Plate  4 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3033.dat",
+            "count": 4,
+            "description": "Plate  6 x 10",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3062b.dat",
+            "count": 6,
+            "description": "Brick  1 x  1 Round with Hollow Stud",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3068b.dat",
+            "count": 1,
+            "description": "Tile  2 x  2 with Groove",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32028.dat",
+            "count": 6,
+            "description": "Plate  1 x  2 with Door Rail",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3460.dat",
+            "count": 9,
+            "description": "Plate  1 x  8",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3622.dat",
+            "count": 2,
+            "description": "Brick  1 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3623.dat",
+            "count": 7,
+            "description": "Plate  1 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3660.dat",
+            "count": 2,
+            "description": "~Moved to 3660a",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3666.dat",
+            "count": 4,
+            "description": "Plate  1 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3680.dat",
+            "count": 39,
+            "description": "Turntable  2 x  2 Plate Base",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3710.dat",
+            "count": 1,
+            "description": "Plate  1 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3857.dat",
+            "count": 1,
+            "description": "Baseplate 16 x 32 with Square Corners",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4070.dat",
+            "count": 28,
+            "description": "Brick  1 x  1 with Headlight",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4162.dat",
+            "count": 2,
+            "description": "Tile  1 x  8",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4490.dat",
+            "count": 14,
+            "description": "Arch  1 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4510.dat",
+            "count": 2,
+            "description": "Plate  1 x  8 with Door Rail",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6141.dat",
+            "count": 30,
+            "description": "Plate  1 x  1 Round",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6182.dat",
+            "count": 2,
+            "description": "Arch  1 x  4 x  2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6231.dat",
+            "count": 14,
+            "description": "Panel  1 x  1 x  1 Corner with Rounded Corners",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 8,
+        "technic_share": 0.026578073089700997,
+        "legacy_parts": [
+          {
+            "part": "3023.dat",
+            "count": 10,
+            "description": "~Moved to 3023b",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3660.dat",
+            "count": 2,
+            "description": "~Moved to 3660a",
+            "physical_index_entry": true
+          }
+        ],
+        "shape_fingerprint": "bd611a8c66e68193323dd687224e0cc8425d3842a011b7bb1acb50ee301a62e6",
+        "recipe_fingerprint": "d3c2da24e983fbc0cd823d31fc156ae2eeeccedf64e3b497a9532a13ecc5e0dd",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "10256 - main.ldr",
+            "at": [
+              320.0,
+              0.0,
+              480.0
+            ],
+            "matrix": [
+              [
+                0.0,
+                0.0,
+                -1.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                1.0,
+                0.0,
+                0.0
+              ]
+            ],
+            "colour": 15
+          },
+          {
+            "section": "10256 - main.ldr",
+            "at": [
+              -320.0,
+              0.0,
+              -480.0
+            ],
+            "matrix": [
+              [
+                0.0,
+                0.0,
+                1.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                -1.0,
+                0.0,
+                0.0
+              ]
+            ],
+            "colour": 15
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "10256 - step42-59.ldr",
+            "kind": "assembly",
+            "author": "Orion Pobursky [OrionP]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      }
+    },
+    {
+      "kind": "submodels",
+      "description": "Lower building section with light bluish grey plates, blue bricks, and a large array of tan grille tiles forming windowed facade detailing.",
+      "model": "21046-1.mpd",
+      "section": "21046 - step146-155.ldr",
+      "id": "submodel-3ac799eb352c42ee5d604b9b",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "Lower building section with light bluish grey plates, blue bricks, and a large array of tan grille tiles forming windowed facade detailing.",
+      "original_full_description": "21046-1.mpd|21046 - step146-155.ldr|Lower building section with light bluish grey plates, blue bricks, and a large array of tan grille tiles forming windowed facade detailing.",
+      "source_exists": true,
+      "path": "/opt/ldraw-astra/data/models-annotated/21046-1.mpd",
+      "source_sha256": "cd8131b740b424668ae6fd447d4069bfb3c58e0db8f4968b265acc83d55f68c5",
+      "source_section": "21046 - step146-155.ldr",
+      "start_line": 2085,
+      "parent_description": "Empire State Building model base with large black and dark bluish grey plates and tiles forming the foundation and surrounding street plate.",
+      "theme": "Architecture",
+      "direct_placements": 57,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "21046-1.mpd|21046 - step146-155.ldr|Lower building section with light bluish grey plates, blue bricks, and a large array of tan grille tiles forming windowed facade detailing.",
+      "score": 0.8,
+      "retrieval_rank": 5,
+      "inventory": {
+        "source_sha256": "cd8131b740b424668ae6fd447d4069bfb3c58e0db8f4968b265acc83d55f68c5",
+        "parser_section": "21046 - step146-155.ldr",
+        "physical_placements": 57,
+        "expanded_leaf_count": 57,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "11212.dat",
+            "count": 2,
+            "description": "Plate  3 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2412b.dat",
+            "count": 36,
+            "description": "Tile  1 x  2 Grille with Groove",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3002.dat",
+            "count": 1,
+            "description": "Brick  2 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3003.dat",
+            "count": 1,
+            "description": "Brick  2 x  2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3009.dat",
+            "count": 2,
+            "description": "Brick  1 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3021.dat",
+            "count": 1,
+            "description": "Plate  2 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3023.dat",
+            "count": 1,
+            "description": "~Moved to 3023b",
+            "physical_index_entry": true
+          },
+          {
+            "part": "30414.dat",
+            "count": 4,
+            "description": "Brick  1 x  4 with Studs on Side",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3622.dat",
+            "count": 1,
+            "description": "Brick  1 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "99206.dat",
+            "count": 8,
+            "description": "Plate  2 x  2 x  0.667 with Two Studs On Side and Two Raised with Closed Understud",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 0,
+        "technic_share": 0.0,
+        "legacy_parts": [
+          {
+            "part": "3023.dat",
+            "count": 1,
+            "description": "~Moved to 3023b",
+            "physical_index_entry": true
+          }
+        ],
+        "shape_fingerprint": "5a62879289268dc0ab6833455cfc61e4f81a7e083a39c9e6fbe1d2d7550cbd15",
+        "recipe_fingerprint": "21f222ab5e40eb0a538f808c29c8291d77fb774e7641d2b8945439c90f4f87dc",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "21046 - main.ldr",
+            "at": [
+              0.0,
+              -180.0,
+              144.0
+            ],
+            "matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0
+              ],
+              [
+                0.0,
+                -1.0,
+                0.0
+              ]
+            ],
+            "colour": 19
+          },
+          {
+            "section": "21046 - main.ldr",
+            "at": [
+              0.0,
+              -180.0,
+              -144.0
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ],
+            "colour": 19
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "21046 - step146-155.ldr",
+            "kind": "assembly",
+            "author": "Orion Pobursky [OrionP]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      }
+    },
+    {
+      "kind": "submodels",
+      "description": "Vertical wall section with headlight bricks and centre-stud plates forming window openings.",
+      "model": "21017-1.mpd",
+      "section": "21017 - 12.ldr",
+      "id": "submodel-5547706e4bb8245b0e729705",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "Vertical wall section with headlight bricks and centre-stud plates forming window openings.",
+      "original_full_description": "21017-1.mpd|21017 - 12.ldr|Vertical wall section with headlight bricks and centre-stud plates forming window openings.",
+      "source_exists": true,
+      "path": "/opt/ldraw-astra/data/models-annotated/21017-1.mpd",
+      "source_sha256": "5f6130b8bdb8b156381e78feb5420241ac65357e202e60b52eedd32161b01beb",
+      "source_section": "21017 - 12.ldr",
+      "start_line": 1508,
+      "parent_description": "Complete architectural model of Frank Lloyd Wright's Imperial Hotel, featuring a black base, tiled facades, louvered windows, and decorative panels.",
+      "theme": "Architecture",
+      "direct_placements": 19,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "21017-1.mpd|21017 - 12.ldr|Vertical wall section with headlight bricks and centre-stud plates forming window openings.",
+      "score": 0.79,
+      "retrieval_rank": 6,
+      "inventory": {
+        "source_sha256": "5f6130b8bdb8b156381e78feb5420241ac65357e202e60b52eedd32161b01beb",
+        "parser_section": "21017 - 12.ldr",
+        "physical_placements": 19,
+        "expanded_leaf_count": 19,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "3024.dat",
+            "count": 7,
+            "description": "Plate  1 x  1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3460.dat",
+            "count": 1,
+            "description": "Plate  1 x  8",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3794b.dat",
+            "count": 3,
+            "description": "Plate  1 x  2 with Groove with 1 Centre Stud",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4070.dat",
+            "count": 8,
+            "description": "Brick  1 x  1 with Headlight",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 0,
+        "technic_share": 0.0,
+        "legacy_parts": [],
+        "shape_fingerprint": "7fbf7ad88eecdedc086ef03108295849330d969b964d95cc13cd7462c75df919",
+        "recipe_fingerprint": "38b0f3576da28b5ee2f373bbcee9812851bb8027956aa848f06a74d42d43dffc",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "21017 - Imperial Hotel.ldr",
+            "at": [
+              60.0,
+              -134.0,
+              246.0
+            ],
+            "matrix": [
+              [
+                0.0,
+                0.0,
+                1.0
+              ],
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ]
+            ],
+            "colour": 0
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "21017 - 12.ldr",
+            "kind": "assembly",
+            "author": "Damien Roux [Darats]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      }
+    }
+  ],
+  "eligible_after_measurement": 46,
+  "rejected": [
+    {
+      "id": "submodel-91034f18cfe58bda548343fa",
+      "reason": "too_many_parts",
+      "retrieval_rank": 12
+    },
+    {
+      "id": "submodel-195eb93163640eadefc0300b",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 19
+    },
+    {
+      "id": "submodel-07f437daa012ec91a38e5175",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 31
+    },
+    {
+      "id": "submodel-a862f4dd94ba6e6e64c2db72",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 35
+    },
+    {
+      "id": "submodel-aec0f7a6b734e307fc47b68a",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 36
+    },
+    {
+      "id": "submodel-1bdea4276466032d701e770b",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 37
+    },
+    {
+      "id": "submodel-916fe02ebb6e7a9332e87193",
+      "reason": "too_many_parts",
+      "retrieval_rank": 39
+    },
+    {
+      "id": "submodel-2f7ba84ea2b326e2b0c67412",
+      "reason": "too_many_parts",
+      "retrieval_rank": 41
+    },
+    {
+      "id": "submodel-5126653273fe73c84a2695a7",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 42
+    },
+    {
+      "id": "submodel-f288e719b683a34c559f22cb",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 43
+    },
+    {
+      "id": "submodel-44f2ef8fbcf02c69c2081be9",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 44
+    },
+    {
+      "id": "submodel-6f7b4658bd2bddeb4e7427a6",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 48
+    }
+  ],
+  "stats": {
+    "documents": 20823,
+    "passages": 20823,
+    "updated": 20823,
+    "skipped": 0,
+    "removed": 0,
+    "scored": 500,
+    "cache_hits": 0,
+    "api_calls": 500,
+    "input_tokens": 267133,
+    "output_tokens": 11000,
+    "elapsed_seconds": 9.276977919973433,
+    "exhaustive": false,
+    "command": [
+      "jev-rerank",
+      "--db",
+      "/opt/ldraw-astra/.cache/discovery/619d5aafe8290fcc/queries/5be5dce368d887093f148c4442726d3fd9500dc1084653422d6c23eb8e663152.sqlite",
+      "--table-field",
+      "candidates.full_description",
+      "--query",
+      "a repeating brick facade wall panel with window openings for a city building",
+      "--top",
+      "60",
+      "--candidates",
+      "500",
+      "--model",
+      "jev-1.13.0",
+      "--json",
+      "--show"
+    ],
+    "eligible_records": 20823
+  },
+  "filters": {
+    "system": true,
+    "construction": "system",
+    "min_parts": 2,
+    "max_parts": 400,
+    "max_technic_share": 0.5,
+    "parent_cap": 2
+  },
+  "note": "Scores describe textual relevance. Results still require geometry, scale and visual review; no hidden fallback or automatic import approval."
+}

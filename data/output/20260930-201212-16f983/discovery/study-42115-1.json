@@ -1,0 +1,523 @@
+{
+  "source": "/opt/ldraw-astra/data/models-annotated/42115-1.mpd",
+  "source_sha256": "09d7384202bd35f2ea40b6c62ffd075b0eafdb4558e56cf1fbbac88a0c43f0a3",
+  "main": "42115 - 0-main.ldr",
+  "section_count": 163,
+  "assembly_count": 116,
+  "embedded_definition_count": 47,
+  "physical_placements": 3914,
+  "reachable_section_count": 152,
+  "unreachable_sections": [
+    "42115 - ldcRubberBandRndSeg.dat",
+    "42115 - ldcFlexAxleEndD.dat",
+    "42115 - ldcFlexAxleEndE.dat",
+    "42115 - ldcFlexAxleEndF.dat",
+    "42115 - ldcFlexAxleEndG.dat",
+    "42115 - ldcFlexAxleMid.dat",
+    "42115 - ldcFlexAxleCap.dat",
+    "42115 - ldcLQRopeSeg.dat",
+    "42115 - ldcRopeEnd.dat",
+    "42115 - ldcCyli8.dat",
+    "42115 - ldcConRing8.dat"
+  ],
+  "unique_parts": 203,
+  "max_assembly_depth": 4,
+  "sections": [
+    {
+      "name": "42115 - 0-main.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 1125,
+      "physical_placements": 3914,
+      "steps": 199
+    },
+    {
+      "name": "42115 - 1-1-1-rear-differential.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 14,
+      "physical_placements": 14,
+      "steps": 3
+    },
+    {
+      "name": "42115 - 1-1-2-rear-whisbones.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 4,
+      "direct_placements": 10,
+      "physical_placements": 10,
+      "steps": 3
+    },
+    {
+      "name": "42115 - 1-1-3-rear-suspension.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 24,
+      "physical_placements": 24,
+      "steps": 3
+    },
+    {
+      "name": "42115 - shock-06_5L-hard-1.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 8,
+      "direct_placements": 3,
+      "physical_placements": 2,
+      "steps": 1
+    },
+    {
+      "name": "42115 - shock-06_5L-hard-1_springMesh.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 8,
+      "direct_placements": 0,
+      "physical_placements": 0,
+      "steps": 1
+    },
+    {
+      "name": "42115 - 1-2-0-gearbox.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 161,
+      "physical_placements": 191,
+      "steps": 24
+    },
+    {
+      "name": "42115 - 1-2-1.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 15,
+      "physical_placements": 15,
+      "steps": 3
+    },
+    {
+      "name": "42115 - 1-2-2.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 8,
+      "physical_placements": 8,
+      "steps": 2
+    },
+    {
+      "name": "42115 - 1-2-3.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 10,
+      "physical_placements": 10,
+      "steps": 2
+    },
+    {
+      "name": "42115 - rubberBandRound-1.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 0,
+      "physical_placements": 0,
+      "steps": 1
+    },
+    {
+      "name": "42115 - 1-3-bottom-plate.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 60,
+      "physical_placements": 60,
+      "steps": 5
+    },
+    {
+      "name": "42115 - 1-4-paddle-shifter.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 31,
+      "physical_placements": 30,
+      "steps": 4
+    },
+    {
+      "name": "42115 - rubberBandRound-2.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 0,
+      "physical_placements": 0,
+      "steps": 1
+    },
+    {
+      "name": "42115 - 2-1.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 2,
+      "direct_placements": 11,
+      "physical_placements": 11,
+      "steps": 3
+    },
+    {
+      "name": "42115 - 2-2-0-v12-engine.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 22,
+      "physical_placements": 91,
+      "steps": 5
+    },
+    {
+      "name": "42115 - 2-2-1-engine-block.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 2,
+      "direct_placements": 18,
+      "physical_placements": 18,
+      "steps": 1
+    },
+    {
+      "name": "42115 - 2-2-2-crank-shaft.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 36,
+      "physical_placements": 36,
+      "steps": 2
+    },
+    {
+      "name": "42115 - 2-3-front-axle.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 221,
+      "physical_placements": 243,
+      "steps": 19
+    },
+    {
+      "name": "42115 - 2-4-steering-rack.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 22,
+      "physical_placements": 22,
+      "steps": 2
+    },
+    {
+      "name": "42115 - rubberBandRound-3.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 0,
+      "physical_placements": 0,
+      "steps": 1
+    },
+    {
+      "name": "42115 - 2-5.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 10,
+      "physical_placements": 10,
+      "steps": 2
+    },
+    {
+      "name": "42115 - 2-6-1.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 16,
+      "physical_placements": 16,
+      "steps": 2
+    },
+    {
+      "name": "42115 - 2-7-1.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 15,
+      "physical_placements": 25,
+      "steps": 2
+    },
+    {
+      "name": "42115 - technicRibHose-LQ-1.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 2,
+      "direct_placements": 11,
+      "physical_placements": 11,
+      "steps": 1
+    },
+    {
+      "name": "42115 - 2-8-1.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 15,
+      "physical_placements": 15,
+      "steps": 2
+    },
+    {
+      "name": "42115 - 2-6-2.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 16,
+      "physical_placements": 16,
+      "steps": 2
+    },
+    {
+      "name": "42115 - 2-7-2.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 15,
+      "physical_placements": 25,
+      "steps": 2
+    },
+    {
+      "name": "42115 - 2-8-2.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 15,
+      "physical_placements": 15,
+      "steps": 2
+    },
+    {
+      "name": "42115 - 2-9-engine-cover.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 52,
+      "physical_placements": 52,
+      "steps": 4
+    }
+  ],
+  "source_checks_passed": false,
+  "diagnostic_counts": {
+    "encoding.line_endings": 1,
+    "bfc.invertnext": 21,
+    "assembly.nonrigid": 669,
+    "part.alias_or_internal": 88,
+    "coverage.raw_geometry": 30936,
+    "geometry.nonplanar": 7795,
+    "assembly.library_internal": 117,
+    "part.missing_classification": 11
+  },
+  "diagnostics": [
+    {
+      "code": "encoding.line_endings",
+      "severity": "warning",
+      "message": "Use CRLF when delivering new files (PDF p.62).",
+      "line_number": null,
+      "section": null
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 44298,
+      "section": "42115 - 23801.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 44301,
+      "section": "42115 - 23801.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 44373,
+      "section": "42115 - 23801.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 45116,
+      "section": "42115 - 67142.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 45119,
+      "section": "42115 - 67142.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 45162,
+      "section": "42115 - 67142.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 45165,
+      "section": "42115 - 67142.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 45872,
+      "section": "s\\42115 - 23801s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 45877,
+      "section": "s\\42115 - 23801s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 45880,
+      "section": "s\\42115 - 23801s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 45883,
+      "section": "s\\42115 - 23801s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 45886,
+      "section": "s\\42115 - 23801s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 45899,
+      "section": "s\\42115 - 23801s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 45904,
+      "section": "s\\42115 - 23801s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 45907,
+      "section": "s\\42115 - 23801s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 46642,
+      "section": "s\\42115 - 52731s02.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 50259,
+      "section": "s\\42115 - 65422s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 50264,
+      "section": "s\\42115 - 65422s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 50403,
+      "section": "s\\42115 - 67142s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 50599,
+      "section": "s\\42115 - 67142s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 50602,
+      "section": "s\\42115 - 67142s01.dat"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 72,
+      "section": "42115 - 0-main.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 74,
+      "section": "42115 - 0-main.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 98,
+      "section": "42115 - 0-main.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 104,
+      "section": "42115 - 0-main.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 106,
+      "section": "42115 - 0-main.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 108,
+      "section": "42115 - 0-main.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 115,
+      "section": "42115 - 0-main.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 117,
+      "section": "42115 - 0-main.ldr"
+    }
+  ],
+  "detail": "summary",
+  "sections_truncated": true,
+  "diagnostics_truncated": true
+}

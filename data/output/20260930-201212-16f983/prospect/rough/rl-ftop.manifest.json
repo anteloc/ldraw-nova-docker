@@ -1,0 +1,22 @@
+{
+  "source": "/opt/ldraw-astra/data/models-annotated/42039-1.mpd",
+  "source_sha256": "7fde2504708675be12c4a1e4a1cb1ba318a05a340bf5505b388750f9e744b12e",
+  "source_section": "42039 - frontaxletop.ldr",
+  "parser_section": "42039 - frontaxletop.ldr",
+  "root": "rl-ftop-00-42039---frontaxletop.ldr",
+  "renames": {
+    "42039 - frontaxletop.ldr": "rl-ftop-00-42039---frontaxletop.ldr"
+  },
+  "attribution": [
+    {
+      "section": "42039 - frontaxletop.ldr",
+      "author": "Philippe Hurbain [Philo]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    }
+  ],
+  "changes": [],
+  "output_sha256": "dc940dd4eff71437efd024d2aac29fdb54ea652547a28b26589b04a38f4c2d4c",
+  "note": "Original authors and licences retained. Source bytes unchanged. Extraction is not validation or permission to relicense.",
+  "syntax_checks_passed": true,
+  "diagnostics": []
+}

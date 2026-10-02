@@ -1,0 +1,160 @@
+{
+  "version": 1,
+  "author": "OpenAI - original Tidal Observatory design",
+  "sections": [
+    {
+      "name": "test-short-bay.ldr",
+      "description": "Local detail review",
+      "steps": [
+        [
+          {
+            "id": "test",
+            "ref": "tidal-short-bay.ldr",
+            "colour": 19,
+            "at": [
+              0,
+              0,
+              0
+            ],
+            "purpose": "test"
+          }
+        ]
+      ]
+    },
+    {
+      "name": "tidal-short-bay.ldr",
+      "description": "Recessed blue glazing, limestone arch and projecting white sill",
+      "steps": [
+        [
+          {
+            "id": "sill",
+            "ref": "3795.dat",
+            "colour": 15,
+            "at": [
+              0,
+              -8,
+              -10
+            ],
+            "purpose": "sill"
+          }
+        ],
+        [
+          {
+            "id": "pier--1-0",
+            "ref": "3005.dat",
+            "colour": 19,
+            "at": [
+              -50,
+              -32,
+              0
+            ],
+            "purpose": "pier  1 0"
+          },
+          {
+            "id": "pier--1-1",
+            "ref": "3005.dat",
+            "colour": 19,
+            "at": [
+              -50,
+              -56,
+              0
+            ],
+            "purpose": "pier  1 1"
+          },
+          {
+            "id": "pier--1-2",
+            "ref": "3005.dat",
+            "colour": 19,
+            "at": [
+              -50,
+              -80,
+              0
+            ],
+            "purpose": "pier  1 2"
+          },
+          {
+            "id": "pier-1-0",
+            "ref": "3005.dat",
+            "colour": 19,
+            "at": [
+              50,
+              -32,
+              0
+            ],
+            "purpose": "pier 1 0"
+          },
+          {
+            "id": "pier-1-1",
+            "ref": "3005.dat",
+            "colour": 19,
+            "at": [
+              50,
+              -56,
+              0
+            ],
+            "purpose": "pier 1 1"
+          },
+          {
+            "id": "pier-1-2",
+            "ref": "3005.dat",
+            "colour": 19,
+            "at": [
+              50,
+              -80,
+              0
+            ],
+            "purpose": "pier 1 2"
+          },
+          {
+            "id": "frame",
+            "ref": "60594.dat",
+            "colour": 272,
+            "at": [
+              0,
+              -80,
+              0
+            ],
+            "purpose": "frame"
+          },
+          {
+            "id": "pane-left",
+            "ref": "60608.dat",
+            "colour": 47,
+            "at": [
+              -32,
+              -76,
+              4
+            ],
+            "purpose": "pane left",
+            "yaw": -90
+          },
+          {
+            "id": "pane-right",
+            "ref": "60608.dat",
+            "colour": 47,
+            "at": [
+              32,
+              -76,
+              4
+            ],
+            "purpose": "pane right",
+            "yaw": 90
+          }
+        ],
+        [
+          {
+            "id": "arch",
+            "ref": "3307.dat",
+            "colour": 19,
+            "at": [
+              0,
+              -128,
+              0
+            ],
+            "purpose": "arch"
+          }
+        ]
+      ]
+    }
+  ]
+}

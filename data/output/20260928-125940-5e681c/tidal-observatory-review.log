@@ -1,0 +1,16 @@
+{
+  "images": [
+    "/data/output/20260928-125940-5e681c/tidal-observatory-review/home.png",
+    "/data/output/20260928-125940-5e681c/tidal-observatory-review/front.png",
+    "/data/output/20260928-125940-5e681c/tidal-observatory-review/back.png",
+    "/data/output/20260928-125940-5e681c/tidal-observatory-review/right.png",
+    "/data/output/20260928-125940-5e681c/tidal-observatory-review/top.png",
+    "/data/output/20260928-125940-5e681c/tidal-observatory-review/bottom.png"
+  ],
+  "bom": "/data/output/20260928-125940-5e681c/tidal-observatory-review/leocad-bom.csv",
+  "embedded_definitions_materialized": 0,
+  "visual_review": "required: open and inspect the images",
+  "source": "output/tidal-observatory.mpd",
+  "section": null,
+  "source_diagnostics": []
+}

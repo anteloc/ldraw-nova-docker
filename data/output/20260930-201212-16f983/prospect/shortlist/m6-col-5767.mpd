@@ -1,0 +1,30 @@
+0 FILE m6-col-5767-00-5767---Steering-shaft-vertical.ldr
+0 A vertical Technic steering column assembly with bevel gear, axle, bushes, and mounting plates for transferring steering motion.
+0 Name: m6-col-5767-00-5767---Steering-shaft-vertical.ldr
+0 Author: Takeshi Takahashi [RainbowDolphin]
+0 !LDRAW_ORG Model
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 ROTATION CENTER 0 0 0 1 "Custom"
+0 ROTATION CONFIG 0 0
+0 // Technic Plate  2 x  4 with Holes (black)
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 3709b.dat
+0 // Brick  1 x  2 (yellow)
+1 14 -30 -24 0 0 0 1 0 1 0 -1 0 0 3004.dat
+0 // Brick  1 x  2 (yellow)
+1 14 30 -24 0 0 0 1 0 1 0 -1 0 0 3004.dat
+0 // Technic Plate  2 x  4 with Holes (black)
+1 0 0 -32 0 1 0 0 0 1 0 0 0 1 3709b.dat
+0 // Technic Axle  5.5 with Stop Type 1 (dark_bluish_grey)
+1 72 0 -19 0 0 -1 0 1 0 0 0 0 1 32209.dat
+0 // Technic Bush  1/2 Smooth with Axle Hole Reduced (light_bluish_grey)
+1 71 0 -41 0 0 -1 0 0 0 1 -1 0 0 32123a.dat
+0 // Technic Gear 12 Tooth Bevel (tan)
+1 19 0 10 0 0 -1 0 0 0 1 -1 0 0 6589.dat
+0 // Technic Bush with Two Flanges (red)
+1 4 0 27 0 0 -1 0 0 0 -1 1 0 0 3713.dat
+
+
+
+
+0 STEP
+0 NOFILE

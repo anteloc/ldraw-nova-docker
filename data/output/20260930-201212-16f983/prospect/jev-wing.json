@@ -1,0 +1,756 @@
+{
+  "query": "a raised rear wing spoiler on two supports for a Technic sports car",
+  "kind": "submodels",
+  "engine": "jev",
+  "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+  "index_signature": "c3c851bfa92aff4ac3ef5a120b8f489e4ab5d77fdc22391703b3eefb3040ce85",
+  "results": [
+    {
+      "kind": "submodels",
+      "description": "Rear wing spoiler with dark blue plates, tiles, hinge plates and round-corner tiles mounted on supports.",
+      "model": "10265-1_B-Model.mpd",
+      "section": "10265 - Spoiler.ldr",
+      "id": "submodel-e54f3d0e1aff703449d12be9",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "Rear wing spoiler with dark blue plates, tiles, hinge plates and round-corner tiles mounted on supports.",
+      "original_full_description": "10265-1_B-Model.mpd|10265 - Spoiler.ldr|Rear wing spoiler with dark blue plates, tiles, hinge plates and round-corner tiles mounted on supports.",
+      "source_exists": true,
+      "path": "/opt/ldraw-astra/data/models-annotated/10265-1_B-Model.mpd",
+      "source_sha256": "566c4eebc488c0311ae15e9ae1fc32641d7e5174d15852e720626440b44d1155",
+      "source_section": "10265 - Spoiler.ldr",
+      "start_line": 12625,
+      "parent_description": "Master assembly of a customized Ford Mustang B-model, integrating chassis, bodywork, drivetrain, engine with supercharger and nitrous, and racing accessories.",
+      "theme": "",
+      "direct_placements": 21,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "10265-1_B-Model.mpd|10265 - Spoiler.ldr|Rear wing spoiler with dark blue plates, tiles, hinge plates and round-corner tiles mounted on supports.",
+      "score": 0.94,
+      "retrieval_rank": 1,
+      "inventory": {
+        "source_sha256": "566c4eebc488c0311ae15e9ae1fc32641d7e5174d15852e720626440b44d1155",
+        "parser_section": "10265 - Spoiler.ldr",
+        "physical_placements": 21,
+        "expanded_leaf_count": 21,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "10265 - 44301b.dat",
+            "count": 2,
+            "description": "Hinge plate locking single-finger primitive, composed of a box sub-part.",
+            "physical_index_entry": true
+          },
+          {
+            "part": "25269.dat",
+            "count": 2,
+            "description": "Tile  1 x  1 Corner Round",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2654a.dat",
+            "count": 2,
+            "description": "Dish  2 x  2 with Rim",
+            "physical_index_entry": true
+          },
+          {
+            "part": "27925.dat",
+            "count": 2,
+            "description": "Tile  2 x  2 Corner Round",
+            "physical_index_entry": true
+          },
+          {
+            "part": "30357.dat",
+            "count": 2,
+            "description": "Plate  3 x  3 with  2 x  2 Corner Round",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3068b.dat",
+            "count": 1,
+            "description": "Tile  2 x  2 with Groove",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3666.dat",
+            "count": 1,
+            "description": "Plate  1 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3795.dat",
+            "count": 1,
+            "description": "Plate  2 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "44302a.dat",
+            "count": 2,
+            "description": "Hinge Plate  1 x  2 Locking with Dual Finger on End Vertical with Groove on Short Side",
+            "physical_index_entry": true
+          },
+          {
+            "part": "63864.dat",
+            "count": 4,
+            "description": "Tile  1 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "87079.dat",
+            "count": 2,
+            "description": "Tile  2 x  4",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 0,
+        "technic_share": 0.0,
+        "legacy_parts": [],
+        "shape_fingerprint": "a9c387b38604fec1aaffb15681e94a5c39e12362137e4d2579288db537d5ba47",
+        "recipe_fingerprint": "f571418f81bdf1c0ae24fa77a83921b2e7156b5d8e92f4cacf1b58085f6b497d",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "10265 - Trunk Lid.ldr",
+            "at": [
+              0.0,
+              6.0,
+              150.0
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "colour": 0
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "10265 - Spoiler.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "10265 - 44301b.dat",
+            "kind": "part_definition",
+            "author": "Vincent Messenet [Cheenzo]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "10265 - s_44301s01.dat",
+            "kind": "part_definition",
+            "author": "Vincent Messenet [Cheenzo]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      }
+    },
+    {
+      "kind": "submodels",
+      "description": "Rear wing spoiler assembly using a long plate, mechanical arms as supports, triangular tiles, brackets, and stickered elements for the wing surface.",
+      "model": "75892-1.mpd",
+      "section": "75892 - Spoiler.ldr",
+      "id": "submodel-2de7835ac3233c92c8516ada",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "Rear wing spoiler assembly using a long plate, mechanical arms as supports, triangular tiles, brackets, and stickered elements for the wing surface.",
+      "original_full_description": "75892-1.mpd|75892 - Spoiler.ldr|Rear wing spoiler assembly using a long plate, mechanical arms as supports, triangular tiles, brackets, and stickered elements for the wing surface.",
+      "source_exists": true,
+      "path": "/opt/ldraw-astra/data/models-annotated/75892-1.mpd",
+      "source_sha256": "5d832739a4179fa8cf63b3255fc8ca01c9281aba7ce775325ca7749d901677d4",
+      "source_section": "75892 - Spoiler.ldr",
+      "start_line": 502,
+      "parent_description": "Complete Speed Champions car model featuring a wind tunnel test rig with a rotating fan, a detailed McLaren-style race car with chassis, bodywork, spoiler, rear bumper, wheels, and a pilot minifigure.",
+      "theme": "",
+      "direct_placements": 14,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "75892-1.mpd|75892 - Spoiler.ldr|Rear wing spoiler assembly using a long plate, mechanical arms as supports, triangular tiles, brackets, and stickered elements for the wing surface.",
+      "score": 0.92,
+      "retrieval_rank": 2,
+      "inventory": {
+        "source_sha256": "5d832739a4179fa8cf63b3255fc8ca01c9281aba7ce775325ca7749d901677d4",
+        "parser_section": "75892 - Spoiler.ldr",
+        "physical_placements": 14,
+        "expanded_leaf_count": 14,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "20482.dat",
+            "count": 2,
+            "description": "Tile  1 x  1 Round with Pin and Pin Hole",
+            "physical_index_entry": true
+          },
+          {
+            "part": "26047.dat",
+            "count": 2,
+            "description": "Plate  1 x  1 Round with Horizontal Handle on Side",
+            "physical_index_entry": true
+          },
+          {
+            "part": "27263.dat",
+            "count": 2,
+            "description": "Tile  2 x  2 Corner without Corner",
+            "physical_index_entry": true
+          },
+          {
+            "part": "35787.dat",
+            "count": 2,
+            "description": "Tile  2 x  2 Triangular",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3666.dat",
+            "count": 1,
+            "description": "Plate  1 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "75892 - 98313.dat",
+            "count": 2,
+            "description": "Primitive-based part definition built from circles, cylinders, spheres, and rectangles forming a complex molded element.",
+            "physical_index_entry": true
+          },
+          {
+            "part": "85984.dat",
+            "count": 1,
+            "description": "Slope Brick 31  1 x  2 x  0.667",
+            "physical_index_entry": true
+          },
+          {
+            "part": "99780.dat",
+            "count": 2,
+            "description": "Bracket  1 x  2 -  1 x  2 Up",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 0,
+        "technic_share": 0.0,
+        "legacy_parts": [],
+        "shape_fingerprint": "d0b8eaff8ac0819ab1dc51ef3cf631880130467069bbf3d62e982ddbdffbc515",
+        "recipe_fingerprint": "2984a9a4f4eb7dbd7d61e42f317710d1ddb904a68a00bd79dcd17952a3c0b98e",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "75892 - Car.ldr",
+            "at": [
+              4.0,
+              -72.0,
+              304.0
+            ],
+            "matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0
+              ]
+            ],
+            "colour": 0
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "75892 - Spoiler.ldr",
+            "kind": "assembly",
+            "author": "Adrien Pennamen [AdrienPennamen]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "75892 - 98313.dat",
+            "kind": "part_definition",
+            "author": "Philippe Hurbain [Philo]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      }
+    },
+    {
+      "kind": "submodels",
+      "description": "A rear spoiler made from two large black 3x11 panels supported by beams and pins.",
+      "model": "42096-1.mpd",
+      "section": "42096 - spoiler.ldr",
+      "id": "submodel-15ab2236b12e1f3acc5aefb1",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "A rear spoiler made from two large black 3x11 panels supported by beams and pins.",
+      "original_full_description": "42096-1.mpd|42096 - spoiler.ldr|A rear spoiler made from two large black 3x11 panels supported by beams and pins.",
+      "source_exists": true,
+      "path": "/opt/ldraw-astra/data/models-annotated/42096-1.mpd",
+      "source_sha256": "3e40cdbbe29ae5a1154d5aa39b4d4b0a84d0ad8bfb1248baf13d5ae0c0c476d3",
+      "source_section": "42096 - spoiler.ldr",
+      "start_line": 33003,
+      "parent_description": "Complete Porsche 911 RSR Technic supercar model featuring chassis, suspension, steering, engine, bodywork, doors, and headlights.",
+      "theme": "",
+      "direct_placements": 15,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "42096-1.mpd|42096 - spoiler.ldr|A rear spoiler made from two large black 3x11 panels supported by beams and pins.",
+      "score": 0.9,
+      "retrieval_rank": 3,
+      "inventory": {
+        "source_sha256": "3e40cdbbe29ae5a1154d5aa39b4d4b0a84d0ad8bfb1248baf13d5ae0c0c476d3",
+        "parser_section": "42096 - spoiler.ldr",
+        "physical_placements": 15,
+        "expanded_leaf_count": 15,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "15458.dat",
+            "count": 2,
+            "description": "Technic Panel  3 x 11",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2780.dat",
+            "count": 4,
+            "description": "Technic Pin with Friction and Slots",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32316.dat",
+            "count": 2,
+            "description": "Technic Beam  5",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32523.dat",
+            "count": 1,
+            "description": "Technic Beam  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4274.dat",
+            "count": 4,
+            "description": "Technic Pin  1/2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6558.dat",
+            "count": 2,
+            "description": "Technic Pin Long with Friction and Slot",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 15,
+        "technic_share": 1.0,
+        "legacy_parts": [],
+        "shape_fingerprint": "cd27e1079682d4207750823c75de9761fbc5dbf6597284d66f7d9afa060139b8",
+        "recipe_fingerprint": "1dde48bb50e058e5d6e8b3a62b01b898d65f323c80816bb06c52cde4f32ed021",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "42096 - porsche.ldr",
+            "at": [
+              0.07,
+              -203.608,
+              226.575
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.996,
+                -0.087
+              ],
+              [
+                0.001,
+                0.087,
+                0.996
+              ]
+            ],
+            "colour": 1
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "42096 - spoiler.ldr",
+            "kind": "assembly",
+            "author": "Philippe Hurbain [Philo]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      }
+    },
+    {
+      "kind": "submodels",
+      "description": "Rear wing or spoiler assembly with liftarms, connector hubs, a plate, and a rounded thin-wall panel.",
+      "model": "42096-1.mpd",
+      "section": "42096 - rear2.ldr",
+      "id": "submodel-72c6bf5c8752988eda3eaed1",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "Rear wing or spoiler assembly with liftarms, connector hubs, a plate, and a rounded thin-wall panel.",
+      "original_full_description": "42096-1.mpd|42096 - rear2.ldr|Rear wing or spoiler assembly with liftarms, connector hubs, a plate, and a rounded thin-wall panel.",
+      "source_exists": true,
+      "path": "/opt/ldraw-astra/data/models-annotated/42096-1.mpd",
+      "source_sha256": "3e40cdbbe29ae5a1154d5aa39b4d4b0a84d0ad8bfb1248baf13d5ae0c0c476d3",
+      "source_section": "42096 - rear2.ldr",
+      "start_line": 6713,
+      "parent_description": "Complete Porsche 911 RSR Technic supercar model featuring chassis, suspension, steering, engine, bodywork, doors, and headlights.",
+      "theme": "",
+      "direct_placements": 19,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "42096-1.mpd|42096 - rear2.ldr|Rear wing or spoiler assembly with liftarms, connector hubs, a plate, and a rounded thin-wall panel.",
+      "score": 0.9,
+      "retrieval_rank": 4,
+      "inventory": {
+        "source_sha256": "3e40cdbbe29ae5a1154d5aa39b4d4b0a84d0ad8bfb1248baf13d5ae0c0c476d3",
+        "parser_section": "42096 - rear2.ldr",
+        "physical_placements": 19,
+        "expanded_leaf_count": 19,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "10197.dat",
+            "count": 2,
+            "description": "Technic Axle and Pin Connector Hub with 2 Axles at 90 Degrees",
+            "physical_index_entry": true
+          },
+          {
+            "part": "11478.dat",
+            "count": 4,
+            "description": "Technic Beam  5 x  0.5 Liftarm with Axle Holes at Both Ends",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2780.dat",
+            "count": 2,
+            "description": "Technic Pin with Friction and Slots",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32062.dat",
+            "count": 1,
+            "description": "Technic Axle  2 Notched",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32140.dat",
+            "count": 1,
+            "description": "Technic Beam  2 x  4 Liftarm Bent 90",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32523.dat",
+            "count": 1,
+            "description": "Technic Beam  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "42096 - 15207.dat",
+            "count": 1,
+            "description": "A small geometric primitive part built from boxes, discs, and open cylinders.",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4274.dat",
+            "count": 4,
+            "description": "Technic Pin  1/2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "43093.dat",
+            "count": 1,
+            "description": "Technic Axle Pin with Friction",
+            "physical_index_entry": true
+          },
+          {
+            "part": "59443.dat",
+            "count": 1,
+            "description": "Technic Axle Joiner Inline Smooth",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6179.dat",
+            "count": 1,
+            "description": "Plate  4 x  4 with 4 Studs on One Edge",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 17,
+        "technic_share": 0.8947368421052632,
+        "legacy_parts": [],
+        "shape_fingerprint": "00f29903ff0f03a11b75366b9c3f1fb9cc315441d86f73f610ed6d22f53c514a",
+        "recipe_fingerprint": "e335d7796d1d0029bcf0f5b868ee83817262dc7ba86eff962c615ae6a0a5b8ff",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "42096 - porsche.ldr",
+            "at": [
+              120.0,
+              35.0,
+              220.0
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "colour": 0
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "42096 - rear2.ldr",
+            "kind": "assembly",
+            "author": "Philippe Hurbain [Philo]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "42096 - 15207.dat",
+            "kind": "part_definition",
+            "author": "Gerald Lasser [GeraldLasser]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      }
+    },
+    {
+      "kind": "submodels",
+      "description": "Rear wing assembly using a long axle, two thin fairing panels, short liftarms, and connectors forming the rear aero element.",
+      "model": "42093-1.mpd",
+      "section": "42093 - spoiler.ldr",
+      "id": "submodel-a6f262ba27cb2417a1c8b32f",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "Rear wing assembly using a long axle, two thin fairing panels, short liftarms, and connectors forming the rear aero element.",
+      "original_full_description": "42093-1.mpd|42093 - spoiler.ldr|Rear wing assembly using a long axle, two thin fairing panels, short liftarms, and connectors forming the rear aero element.",
+      "source_exists": true,
+      "path": "/opt/ldraw-astra/data/models-annotated/42093-1.mpd",
+      "source_sha256": "e8e7e61dc342bef2284e7b5586fe6a7b47ae372454c10dd72d891d479f02d981",
+      "source_section": "42093 - spoiler.ldr",
+      "start_line": 3418,
+      "parent_description": "Complete Technic supercar model (set 42093) integrating chassis, drivetrain, engine, bodywork panels, doors, spoiler, and wheels into a fully functional vehicle.",
+      "theme": "",
+      "direct_placements": 11,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "42093-1.mpd|42093 - spoiler.ldr|Rear wing assembly using a long axle, two thin fairing panels, short liftarms, and connectors forming the rear aero element.",
+      "score": 0.85,
+      "retrieval_rank": 6,
+      "inventory": {
+        "source_sha256": "e8e7e61dc342bef2284e7b5586fe6a7b47ae372454c10dd72d891d479f02d981",
+        "parser_section": "42093 - spoiler.ldr",
+        "physical_placements": 11,
+        "expanded_leaf_count": 11,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "11946.dat",
+            "count": 1,
+            "description": "Technic Panel Fairing Smooth #21 (Thin Short)",
+            "physical_index_entry": true
+          },
+          {
+            "part": "11947.dat",
+            "count": 1,
+            "description": "Technic Panel Fairing Smooth #22 (Thin Short)",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32073.dat",
+            "count": 1,
+            "description": "Technic Axle  5",
+            "physical_index_entry": true
+          },
+          {
+            "part": "44294.dat",
+            "count": 1,
+            "description": "Technic Axle  7",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6553.dat",
+            "count": 2,
+            "description": "Technic Connector (Axle) with Axle 1.5",
+            "physical_index_entry": true
+          },
+          {
+            "part": "74695.dat",
+            "count": 5,
+            "description": "=Technic Beam  2 Liftarm",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 6,
+        "technic_share": 0.5454545454545454,
+        "legacy_parts": [
+          {
+            "part": "74695.dat",
+            "count": 5,
+            "description": "=Technic Beam  2 Liftarm",
+            "physical_index_entry": true
+          }
+        ],
+        "shape_fingerprint": "72418295f93b73d3cb6495f6d0ef1ad1b41227e38d1977c0bbe807956bea30d3",
+        "recipe_fingerprint": "0daf3354e0d500284d34b720ef6432a717ff2d5feccbb3ab05e5bb2b34b0fa41",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "42093 - corvette.ldr",
+            "at": [
+              -2.0,
+              -154.755,
+              153.96
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.997,
+                -0.083
+              ],
+              [
+                0.0,
+                0.083,
+                0.997
+              ]
+            ],
+            "colour": 0
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "42093 - spoiler.ldr",
+            "kind": "assembly",
+            "author": "Philippe Hurbain [Philo]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      }
+    }
+  ],
+  "eligible_after_measurement": 54,
+  "rejected": [
+    {
+      "id": "submodel-e820613b06da9a5c5819e9ac",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 5
+    },
+    {
+      "id": "submodel-b3775e3a92943e057c28b0d2",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 9
+    },
+    {
+      "id": "submodel-f24e68c4142d324ce34700f8",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 34
+    },
+    {
+      "id": "submodel-27aa9c1eb9dd34f39be80e20",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 41
+    },
+    {
+      "id": "submodel-a16d691620218b4ef9f4946d",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 53
+    },
+    {
+      "id": "submodel-f2b5f3fbd88c550ed16b8eed",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 54
+    }
+  ],
+  "stats": {
+    "documents": 22713,
+    "passages": 22713,
+    "updated": 0,
+    "skipped": 0,
+    "removed": 0,
+    "scored": 500,
+    "cache_hits": 0,
+    "api_calls": 500,
+    "input_tokens": 267557,
+    "output_tokens": 11000,
+    "elapsed_seconds": 9.00722237903392,
+    "exhaustive": false,
+    "command": [
+      "jev-rerank",
+      "--db",
+      "/opt/ldraw-astra/.cache/discovery/619d5aafe8290fcc/queries/0d38dcd2dc3a19d0e7190f52214006985bda36221304b493ae43e44f493a2c53.sqlite",
+      "--table-field",
+      "candidates.full_description",
+      "--query",
+      "a raised rear wing spoiler on two supports for a Technic sports car",
+      "--top",
+      "60",
+      "--candidates",
+      "500",
+      "--model",
+      "jev-1.13.0",
+      "--json",
+      "--show"
+    ],
+    "eligible_records": 22713
+  },
+  "filters": {
+    "system": false,
+    "construction": "all",
+    "min_parts": 2,
+    "max_parts": 200,
+    "max_technic_share": 0.5,
+    "parent_cap": 2
+  },
+  "note": "Scores describe textual relevance. Results still require geometry, scale and visual review; no hidden fallback or automatic import approval."
+}

@@ -1,0 +1,107 @@
+[
+ {
+  "label": "M2 diff+UJ (8880)",
+  "row": 0,
+  "col": 0,
+  "x": -960,
+  "z": -480
+ },
+ {
+  "label": "M3 4-speed gearbox (8880)",
+  "row": 0,
+  "col": 1,
+  "x": -480,
+  "z": -480
+ },
+ {
+  "label": "M3 gearshift (42112)",
+  "row": 0,
+  "col": 2,
+  "x": 0,
+  "z": -480
+ },
+ {
+  "label": "M4 V8 motor (42039)",
+  "row": 0,
+  "col": 3,
+  "x": 480,
+  "z": -480
+ },
+ {
+  "label": "M4 V8 block (8880)",
+  "row": 0,
+  "col": 4,
+  "x": 960,
+  "z": -480
+ },
+ {
+  "label": "M5 front axle (42039)",
+  "row": 1,
+  "col": 0,
+  "x": -960,
+  "z": 0
+ },
+ {
+  "label": "M5 front axle (42096)",
+  "row": 1,
+  "col": 1,
+  "x": -480,
+  "z": 0
+ },
+ {
+  "label": "M6 rack (42039)",
+  "row": 1,
+  "col": 2,
+  "x": 0,
+  "z": 0
+ },
+ {
+  "label": "M6 steering (42096)",
+  "row": 1,
+  "col": 3,
+  "x": 480,
+  "z": 0
+ },
+ {
+  "label": "M6 column (5767)",
+  "row": 1,
+  "col": 4,
+  "x": 960,
+  "z": 0
+ },
+ {
+  "label": "M7 seat (42039)",
+  "row": 2,
+  "col": 0,
+  "x": -960,
+  "z": 480
+ },
+ {
+  "label": "M8 door lift (42039)",
+  "row": 2,
+  "col": 1,
+  "x": -480,
+  "z": 480
+ },
+ {
+  "label": "M8 door (42099)",
+  "row": 2,
+  "col": 2,
+  "x": 0,
+  "z": 480
+ },
+ {
+  "label": "M11 spoiler (42096)",
+  "row": 2,
+  "col": 3,
+  "x": 480,
+  "z": 480
+ },
+ {
+  "label": "M11 spoiler (42093)",
+  "row": 2,
+  "col": 4,
+  "x": 960,
+  "z": 480
+ }
+]

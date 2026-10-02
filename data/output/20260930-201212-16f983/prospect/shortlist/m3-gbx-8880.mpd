@@ -1,0 +1,69 @@
+0 FILE m3-gbx-8880-00-8880---step13.ldr
+0 Multi-speed gearbox assembly with clutch gears, driving rings, bevel gears, and axles forming a transmission mechanism.
+0 Author: Orion Pobursky [OrionP]
+0 !LDRAW_ORG Model
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 !THEME Technic
+0 Name: m3-gbx-8880-00-8880---step13.ldr
+0 // Technic Axle  4 (black)
+1 0 -20 10 10 0 0 1 0 1 0 -1 0 0 3705.dat
+0 // Technic Axle  4 (black)
+1 0 20 10 10 0 0 1 0 1 0 -1 0 0 3705.dat
+0 // Technic Axle Joiner (light_grey)
+1 7 -20 10 50 1 0 0 0 1 0 0 0 1 6538a.dat
+0 // Technic Axle Joiner (light_grey)
+1 7 20 10 50 1 0 0 0 1 0 0 0 1 6538a.dat
+0 // Technic Axle  3 (black)
+1 0 -20 10 80 0 0 1 0 1 0 -1 0 0 4519.dat
+0 // Technic Axle 12 (black)
+1 0 20 10 170 0 0 1 0 1 0 -1 0 0 3708.dat
+0 STEP
+0 // Technic Transmission Driving Ring (light_grey)
+1 7 -20 10 50 1 0 0 0 1 0 0 0 1 6539.dat
+0 // Technic Transmission Driving Ring (light_grey)
+1 7 20 10 50 1 0 0 0 1 0 0 0 1 6539.dat
+0 STEP
+0 // Technic Gear 16 Tooth with Clutch (dark_grey)
+1 8 20 10 20 1 0 0 0 1 0 0 0 1 6542a.dat
+0 // Technic Gear 16 Tooth with Clutch (dark_grey)
+1 8 -20 10 20 1 0 0 0 1 0 0 0 1 6542a.dat
+0 // Technic Gear 16 Tooth with Clutch (dark_grey)
+1 8 -20 10 80 -1 0 0 0 1 0 0 0 -1 6542a.dat
+0 // Technic Gear 16 Tooth with Clutch (dark_grey)
+1 8 20 10 80 -1 0 0 0 1 0 0 0 -1 6542a.dat
+0 STEP
+0 // Technic Brick  1 x 10 with Holes (light_grey)
+1 7 0 0 0 1 0 0 0 1 0 0 0 1 2730.dat
+0 // Technic Axle  4 (black)
+1 0 -60 10 -10 0 0 1 0 1 0 -1 0 0 3705.dat
+0 // Technic Gear 16 Tooth (light_grey)
+1 7 -60 10 20 1 0 0 0 1 0 0 0 1 4019.dat
+0 // Technic Bush with Two Flanges (light_grey)
+1 7 -60 10 -20 -1 0 0 0 1 0 0 0 -1 3713.dat
+0 // Technic Brick  1 x  4 with Holes (light_grey)
+1 7 0 0 100 -1 0 0 0 1 0 0 0 -1 3701.dat
+0 // Technic Brick  1 x  4 with Holes (light_grey)
+1 7 0 0 260 -1 0 0 0 1 0 0 0 -1 3701.dat
+0 STEP
+0 // Technic Axle Joiner (light_grey)
+1 7 -60 10 -50 -1 0 0 0 1 0 0 0 -1 6538a.dat
+0 // Technic Axle  3 (black)
+1 0 -60 10 -80 0 0 1 0 1 0 -1 0 0 4519.dat
+0 // Technic Gear 24 Tooth with 3 Axleholes (light_grey)
+1 7 -60 10 -80 1 0 0 0 1 0 0 0 1 3648a.dat
+0 // Technic Gear 24 Tooth with 3 Axleholes (light_grey)
+1 7 -20 10 -20 1 0 0 0 1 0 0 0 1 3648a.dat
+0 // Technic Gear  8 Tooth (light_grey)
+1 7 20 10 -20 1 0 0 0 1 0 0 0 1 3647.dat
+0 // Technic Axle Joiner (light_grey)
+1 7 20 10 290 1 0 0 0 1 0 0 0 1 6538a.dat
+0 // Technic Axle  6 (black)
+1 0 20 10 350 0 0 1 0 1 0 -1 0 0 3706.dat
+0 // Technic Gear 16 Tooth (light_grey)
+1 7 20 10 380 1 0 0 0 1 0 0 0 1 4019.dat
+
+
+
+
+0 STEP
+0 NOFILE

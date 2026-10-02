@@ -1,0 +1,155 @@
+{
+  "code": "87559.dat",
+  "path": "/opt/ldraw/ldraw/parts/87559.dat",
+  "metadata": {
+    "description": "Brick 6 x 6 x 2 Corner Round with Curved Top",
+    "name": "87559.dat",
+    "author": "Philippe Hurbain",
+    "author_username": "Philo",
+    "file_kind": "part",
+    "origin": "official",
+    "qualifiers": [],
+    "release": "2020-01",
+    "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+    "bfc": "ccw",
+    "history": [
+      {
+        "date": "2017-12-30",
+        "contributor": "PTadmin",
+        "text": "Official Update 2017-01",
+        "raw": "2017-12-30 [PTadmin] Official Update 2017-01"
+      },
+      {
+        "date": "2020-03-21",
+        "contributor": "cwdee",
+        "text": "Update description",
+        "raw": "2020-03-21 [cwdee] Update description"
+      },
+      {
+        "date": "2020-06-28",
+        "contributor": "PTadmin",
+        "text": "Official Update 2020-01",
+        "raw": "2020-06-28 [PTadmin] Official Update 2020-01"
+      }
+    ],
+    "category": null,
+    "keywords": [],
+    "status": "current",
+    "replacement": null,
+    "preview": null
+  },
+  "complete": true,
+  "bounds": {
+    "min": [
+      0.0,
+      -4.0,
+      -120.0
+    ],
+    "max": [
+      120.0,
+      48.0,
+      0.0
+    ]
+  },
+  "size": [
+    120.0,
+    52.0,
+    120.0
+  ],
+  "stud_positions": [
+    [
+      50.0,
+      0.0,
+      -50.0
+    ],
+    [
+      70.0,
+      0.0,
+      -10.0
+    ],
+    [
+      10.0,
+      0.0,
+      -70.0
+    ]
+  ],
+  "connector_count": 35,
+  "connectors": [
+    {
+      "kind": "stud_receptacle",
+      "role": "female",
+      "position": [
+        20.0,
+        48.0,
+        -80.0
+      ],
+      "frame": [
+        [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          -0.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 6.0,
+            "length": 4.0,
+            "flexible": false
+          }
+        ],
+        "centered": true,
+        "friction": false,
+        "caps": "none"
+      },
+      "name": "Stud Tube Open without Base Edges",
+      "feature_id": "s/87559s01@R0/stud4a@R1/stud4a",
+      "group": null,
+      "freedoms": [],
+      "source": "primitive",
+      "confidence": 1.0,
+      "owner_code": "87559",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "stud4a",
+        "derived:stud-socket"
+      ],
+      "metadata_id": null,
+      "connection_provenance": {
+        "source": "primitive",
+        "path": null,
+        "archive_member": null,
+        "line_number": null,
+        "command": "stud4a",
+        "include_chain": []
+      },
+      "scale_inheritance": "yandr",
+      "mirror_inheritance": "none"
+    }
+  ],
+  "connectors_truncated": true,
+  "diagnostics": [],
+  "connection_metadata": {
+    "coverage": "complete",
+    "source_count": 2,
+    "recognized_record_count": 7,
+    "unsupported_record_count": 0,
+    "invalid_record_count": 0,
+    "diagnostics": []
+  },
+  "rectangular_profile": null,
+  "note": "All coordinates are local LDU. Connector inference is evidence; inspect uncertain fits."
+}

@@ -1,0 +1,121 @@
+{
+  "total": 19,
+  "results": [
+    {
+      "ref": "@tiles.Tile2X2WithMapNauticalPattern",
+      "filename": "3068bp32.dat",
+      "description": "Tile  2 x  2 with Map Nautical Pattern",
+      "category": "tiles",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 40.0,
+        "ldu_y": 8.0,
+        "ldu_z": 40.0,
+        "studs_x": 2,
+        "studs_y": 1,
+        "plates_y": 1,
+        "studs_z": 2
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/tiles.py",
+      "line": 1243
+    },
+    {
+      "ref": "@tiles.Tile2X2WithHpMarauder_SMapPattern",
+      "filename": "3068bp59.dat",
+      "description": "Tile  2 x  2 with HP Marauder's Map Pattern",
+      "category": "tiles",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 40.0,
+        "ldu_y": 8.0,
+        "ldu_z": 40.0,
+        "studs_x": 2,
+        "studs_y": 1,
+        "plates_y": 1,
+        "studs_z": 2
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/tiles.py",
+      "line": 1228
+    },
+    {
+      "ref": "@tiles.Tile2X2WithMapHeartlakeParkPattern",
+      "filename": "3068bp35.dat",
+      "description": "Tile  2 x  2 with Map Heartlake Park Pattern",
+      "category": "tiles",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 40.0,
+        "ldu_y": 8.0,
+        "ldu_z": 40.0,
+        "studs_x": 2,
+        "studs_y": 1,
+        "plates_y": 1,
+        "studs_z": 2
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/tiles.py",
+      "line": 1242
+    },
+    {
+      "ref": "@tiles.Tile2X2WithBlueAndYellowMapPattern",
+      "filename": "3068bp30.dat",
+      "description": "Tile  2 x  2 with Blue and Yellow Map Pattern",
+      "category": "tiles",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 40.0,
+        "ldu_y": 8.0,
+        "ldu_z": 40.0,
+        "studs_x": 2,
+        "studs_y": 1,
+        "plates_y": 1,
+        "studs_z": 2
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/tiles.py",
+      "line": 1142
+    },
+    {
+      "ref": "@tiles.Tile2X2WithMap_WithElvesKeyPattern",
+      "filename": "3068bpm0.dat",
+      "description": "Tile  2 x  2 with Map, with Elves Key Pattern",
+      "category": "tiles",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 40.0,
+        "ldu_y": 8.0,
+        "ldu_z": 40.0,
+        "studs_x": 2,
+        "studs_y": 1,
+        "plates_y": 1,
+        "studs_z": 2
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/tiles.py",
+      "line": 1253
+    },
+    {
+      "ref": "@tiles.Tile2X2WithMap_PagodaAndShipPattern",
+      "filename": "3068bpn1.dat",
+      "description": "Tile  2 x  2 with Map, Pagoda and Ship Pattern",
+      "category": "tiles",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 40.0,
+        "ldu_y": 8.0,
+        "ldu_z": 40.0,
+        "studs_x": 2,
+        "studs_y": 1,
+        "plates_y": 1,
+        "studs_z": 2
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/tiles.py",
+      "line": 1251
+    }
+  ],
+  "truncated": true,
+  "note": "Source categories are discovery metadata. Dimensions include studs/decorations and are not stacking heights or connection frames. Inspect selected parts; colour/part manufacture combinations are not known."
+}

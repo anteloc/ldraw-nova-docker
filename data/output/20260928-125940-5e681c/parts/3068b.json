@@ -1,0 +1,236 @@
+{
+  "code": "3068b.dat",
+  "path": "/opt/ldraw/ldraw/parts/3068b.dat",
+  "metadata": {
+    "description": "Tile 2 x 2 with Groove",
+    "name": "3068b.dat",
+    "author": "Takeshi Takahashi",
+    "author_username": "RainbowDolphin",
+    "file_kind": "part",
+    "origin": "official",
+    "qualifiers": [],
+    "release": "2024-06",
+    "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+    "bfc": "ccw",
+    "history": [
+      {
+        "date": "2002-04-25",
+        "contributor": "PTadmin",
+        "text": "Official Update 2002-02",
+        "raw": "2002-04-25 [PTadmin] Official Update 2002-02"
+      },
+      {
+        "date": "2004-07-26",
+        "contributor": "guyvivan",
+        "text": "Made BFC Compliant",
+        "raw": "2004-07-26 [guyvivan] Made BFC Compliant"
+      },
+      {
+        "date": "2004-11-06",
+        "contributor": "PTadmin",
+        "text": "Official Update 2004-04",
+        "raw": "2004-11-06 [PTadmin] Official Update 2004-04"
+      },
+      {
+        "date": "2007-06-13",
+        "contributor": "PTadmin",
+        "text": "Header formatted for Contributor Agreement",
+        "raw": "2007-06-13 [PTadmin] Header formatted for Contributor Agreement"
+      },
+      {
+        "date": "2008-07-01",
+        "contributor": "PTadmin",
+        "text": "Official Update 2008-01",
+        "raw": "2008-07-01 [PTadmin] Official Update 2008-01"
+      },
+      {
+        "date": "2024-05-29",
+        "contributor": "RainbowDolphin",
+        "text": "Total rewrite, original by Damien Guichard [BrickCaster]",
+        "raw": "2024-05-29 [RainbowDolphin] Total rewrite, original by Damien Guichard [BrickCaster]"
+      },
+      {
+        "date": "2024-07-29",
+        "contributor": "OrionP",
+        "text": "Official Update 2024-06",
+        "raw": "2024-07-29 [OrionP] Official Update 2024-06"
+      }
+    ],
+    "category": null,
+    "keywords": [
+      "BrickLink 3068"
+    ],
+    "status": "current",
+    "replacement": null,
+    "preview": null
+  },
+  "complete": true,
+  "bounds": {
+    "min": [
+      -20.0,
+      0.0,
+      -20.0
+    ],
+    "max": [
+      20.0,
+      8.0,
+      20.0
+    ]
+  },
+  "size": [
+    40.0,
+    8.0,
+    40.0
+  ],
+  "stud_positions": [],
+  "connector_count": 6,
+  "connectors": [
+    {
+      "kind": "stud_receptacle",
+      "role": "female",
+      "position": [
+        0.0,
+        8.0,
+        0.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 6.0,
+            "length": 4.0,
+            "flexible": false
+          }
+        ],
+        "centered": true,
+        "friction": false,
+        "caps": "none"
+      },
+      "name": "Stud Tube Open",
+      "feature_id": "s/3068bs01@R0/stud4@R3/stud4",
+      "group": null,
+      "freedoms": [],
+      "source": "primitive",
+      "confidence": 1.0,
+      "owner_code": "3068b",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "stud4",
+        "derived:stud-socket"
+      ],
+      "metadata_id": null,
+      "connection_provenance": {
+        "source": "primitive",
+        "path": null,
+        "archive_member": null,
+        "line_number": null,
+        "command": "stud4",
+        "include_chain": []
+      },
+      "scale_inheritance": "yandr",
+      "mirror_inheritance": "none"
+    },
+    {
+      "kind": "stud_receptacle",
+      "role": "female",
+      "position": [
+        -10.0,
+        8.0,
+        -10.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 6.0,
+            "length": 4.0,
+            "flexible": false
+          }
+        ],
+        "centered": false,
+        "friction": true,
+        "caps": "one"
+      },
+      "name": "LDCad cylinder",
+      "feature_id": "s/3068bs01@R0/snap_cyl@L8:I0",
+      "group": null,
+      "freedoms": [
+        "rotate"
+      ],
+      "source": "ldcad_shadow",
+      "confidence": 1.0,
+      "owner_code": "3068b",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "/opt/ldraw-astra/data/offLibShadow/parts/s/3068bs01.dat:8"
+      ],
+      "metadata_id": null,
+      "connection_provenance": {
+        "source": "ldcad_shadow",
+        "path": "/opt/ldraw-astra/data/offLibShadow/parts/s/3068bs01.dat",
+        "archive_member": null,
+        "line_number": 8,
+        "command": "0 !LDCAD SNAP_CYL [gender=F] [caps=one] [secs=R 6 4] [pos=0 8 0] [grid=C 2 C 2 20 20]",
+        "include_chain": []
+      },
+      "scale_inheritance": "none",
+      "mirror_inheritance": "cor"
+    }
+  ],
+  "connectors_truncated": true,
+  "diagnostics": [],
+  "connection_metadata": {
+    "coverage": "complete",
+    "source_count": 2,
+    "recognized_record_count": 2,
+    "unsupported_record_count": 0,
+    "invalid_record_count": 0,
+    "diagnostics": []
+  },
+  "rectangular_profile": {
+    "description": "Tile  2 x  2 with Groove",
+    "x_studs": 2,
+    "z_studs": 2,
+    "height": 8.0,
+    "studs": false
+  },
+  "note": "All coordinates are local LDU. Connector inference is evidence; inspect uncertain fits."
+}

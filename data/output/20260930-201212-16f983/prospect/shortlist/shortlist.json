@@ -1,0 +1,152 @@
+[
+ {
+  "ns": "m2-diff-8880",
+  "file": "8880-1.mpd",
+  "section": "8880 - step15.ldr",
+  "label": "M2 diff+UJ (8880)",
+  "exit": 0,
+  "root": "m2-diff-8880-00-8880---step15.ldr",
+  "diag": null,
+  "err": ""
+ },
+ {
+  "ns": "m3-gbx-8880",
+  "file": "8880-1.mpd",
+  "section": "8880 - step13.ldr",
+  "label": "M3 4-speed gearbox (8880)",
+  "exit": 0,
+  "root": "m3-gbx-8880-00-8880---step13.ldr",
+  "diag": null,
+  "err": ""
+ },
+ {
+  "ns": "m3-gbx-42112",
+  "file": "42112-1.mpd",
+  "section": "42112 - gearshift.ldr",
+  "label": "M3 gearshift (42112)",
+  "exit": 0,
+  "root": "m3-gbx-42112-00-42112---gearshift.ldr",
+  "diag": null,
+  "err": ""
+ },
+ {
+  "ns": "m4-v8-42039",
+  "file": "42039-1.mpd",
+  "section": "42039 - motor.ldr",
+  "label": "M4 V8 motor (42039)",
+  "exit": 0,
+  "root": "m4-v8-42039-00-42039---motor.ldr",
+  "diag": null,
+  "err": ""
+ },
+ {
+  "ns": "m4-v8-8880",
+  "file": "8880-1.mpd",
+  "section": "8880 - step27-1-5.ldr",
+  "label": "M4 V8 block (8880)",
+  "exit": 0,
+  "root": "m4-v8-8880-00-8880---step27-1-5.ldr",
+  "diag": null,
+  "err": ""
+ },
+ {
+  "ns": "m5-fa-42039",
+  "file": "42039-1.mpd",
+  "section": "42039 - frontaxle.ldr",
+  "label": "M5 front axle (42039)",
+  "exit": 1,
+  "root": "m5-fa-42039-00-42039---frontaxle.ldr",
+  "diag": null,
+  "err": ""
+ },
+ {
+  "ns": "m5-fa-42096",
+  "file": "42096-1.mpd",
+  "section": "42096 - frontaxle.ldr",
+  "label": "M5 front axle (42096)",
+  "exit": 0,
+  "root": "m5-fa-42096-00-42096---frontaxle.ldr",
+  "diag": null,
+  "err": ""
+ },
+ {
+  "ns": "m6-rack-42039",
+  "file": "42039-1.mpd",
+  "section": "42039 - steeringrack.ldr",
+  "label": "M6 rack (42039)",
+  "exit": 0,
+  "root": "m6-rack-42039-00-42039---steeringrack.ldr",
+  "diag": null,
+  "err": ""
+ },
+ {
+  "ns": "m6-steer-42096",
+  "file": "42096-1.mpd",
+  "section": "42096 - steering.ldr",
+  "label": "M6 steering (42096)",
+  "exit": 0,
+  "root": "m6-steer-42096-00-42096---steering.ldr",
+  "diag": null,
+  "err": ""
+ },
+ {
+  "ns": "m6-col-5767",
+  "file": "5767-1.mpd",
+  "section": "5767 - Steering shaft vertical.ldr",
+  "label": "M6 column (5767)",
+  "exit": 0,
+  "root": "m6-col-5767-00-5767---Steering-shaft-vertical.ldr",
+  "diag": null,
+  "err": ""
+ },
+ {
+  "ns": "m7-seat-42039",
+  "file": "42039-1.mpd",
+  "section": "42039 - seat.ldr",
+  "label": "M7 seat (42039)",
+  "exit": 0,
+  "root": "m7-seat-42039-00-42039---seat.ldr",
+  "diag": null,
+  "err": ""
+ },
+ {
+  "ns": "m8-doorlift-42039",
+  "file": "42039-1.mpd",
+  "section": "42039 - doorlift2.ldr",
+  "label": "M8 door lift (42039)",
+  "exit": 0,
+  "root": "m8-doorlift-42039-00-42039---doorlift2.ldr",
+  "diag": null,
+  "err": ""
+ },
+ {
+  "ns": "m8-door-42099",
+  "file": "42099-1.mpd",
+  "section": "42099 - door1.ldr",
+  "label": "M8 door (42099)",
+  "exit": 0,
+  "root": "m8-door-42099-00-42099---door1.ldr",
+  "diag": null,
+  "err": ""
+ },
+ {
+  "ns": "m11-spoiler-42096",
+  "file": "42096-1.mpd",
+  "section": "42096 - spoiler.ldr",
+  "label": "M11 spoiler (42096)",
+  "exit": 0,
+  "root": "m11-spoiler-42096-00-42096---spoiler.ldr",
+  "diag": null,
+  "err": ""
+ },
+ {
+  "ns": "m11-spoiler-42093",
+  "file": "42093-1.mpd",
+  "section": "42093 - spoiler.ldr",
+  "label": "M11 spoiler (42093)",
+  "exit": 0,
+  "root": "m11-spoiler-42093-00-42093---spoiler.ldr",
+  "diag": null,
+  "err": ""
+ }
+]

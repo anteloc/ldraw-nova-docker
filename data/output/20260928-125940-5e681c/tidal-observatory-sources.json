@@ -1,0 +1,31 @@
+{
+  "model": "tidal-observatory.mpd",
+  "author": "OpenAI - original Tidal Observatory design",
+  "copied_reference_assemblies": [],
+  "studies": [
+    {
+      "source": "5770-1.mpd",
+      "source_sha256": "7d8c422daf50e954f9e1225048bdeef110c53e838f977ac9810755fb9d9337ad",
+      "use": "Silhouette and lantern technique only; no source placements imported",
+      "local_catalog": "reference-catalog/model-e00b558893c77e962a0c3b4c/card.json",
+      "extraction_manifest": "reference-catalog/model-e00b558893c77e962a0c3b4c/extraction.json"
+    },
+    {
+      "source": "examples/modular-street/generate.py",
+      "use": "Window/pane alignment, reserved openings, shelving and module-interface techniques; original footprint and geometry generator, not complete-plan adaptation"
+    }
+  ],
+  "discovery": {
+    "engine": "jev",
+    "availability": "jev-availability.json",
+    "queries": [
+      "observatory-references.json",
+      "dome-parts.json",
+      "window-parts.json"
+    ],
+    "offline_fallback": false
+  },
+  "physical_placements": 2734,
+  "assembly_sections": 20,
+  "final_sha256": "4ac1340f73cbba19eaa69f3995dfde0e75427137bad11b5e197dc782aeaccccc"
+}

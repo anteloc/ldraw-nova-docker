@@ -1,0 +1,209 @@
+{
+  "code": "57895.dat",
+  "path": "/opt/ldraw/ldraw/parts/57895.dat",
+  "metadata": {
+    "description": "Glass for Window 1 x 4 x 6",
+    "name": "57895.dat",
+    "author": "Michael Heidemann",
+    "author_username": "mikeheide",
+    "file_kind": "part",
+    "origin": "official",
+    "qualifiers": [],
+    "release": "2012-03",
+    "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+    "bfc": "ccw",
+    "history": [
+      {
+        "date": "2008-08-25",
+        "contributor": "LEGO Universe Team",
+        "text": "Original part shape",
+        "raw": "2008-08-25 {LEGO Universe Team} Original part shape"
+      },
+      {
+        "date": "2009-01-24",
+        "contributor": "mikeheide",
+        "text": "File preparation for LDraw Parts Tracker",
+        "raw": "2009-01-24 [mikeheide] File preparation for LDraw Parts Tracker"
+      },
+      {
+        "date": "2011-12-29",
+        "contributor": "PTadmin",
+        "text": "Official Update 2011-02",
+        "raw": "2011-12-29 [PTadmin] Official Update 2011-02"
+      },
+      {
+        "date": "2012-10-06",
+        "contributor": "Philo",
+        "text": "Subparted for patterns",
+        "raw": "2012-10-06 [Philo] Subparted for patterns"
+      },
+      {
+        "date": "2012-12-28",
+        "contributor": "PTadmin",
+        "text": "Official Update 2012-03",
+        "raw": "2012-12-28 [PTadmin] Official Update 2012-03"
+      }
+    ],
+    "category": null,
+    "keywords": [],
+    "status": "current",
+    "replacement": null,
+    "preview": null
+  },
+  "complete": true,
+  "bounds": {
+    "min": [
+      -36.25,
+      -1.0,
+      -2.0
+    ],
+    "max": [
+      36.25,
+      132.5,
+      2.0
+    ]
+  },
+  "size": [
+    72.5,
+    133.5,
+    4.0
+  ],
+  "stud_positions": [],
+  "connector_count": 2,
+  "connectors": [
+    {
+      "kind": "hinge",
+      "role": "neutral",
+      "position": [
+        -32.5,
+        66.0,
+        0.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sequence": [
+          132.0
+        ],
+        "radius": 4.0,
+        "first_role": "male",
+        "detents": [],
+        "centered": true
+      },
+      "name": "door",
+      "feature_id": "s/57895s01@R0/snap_fgr@L8:I0",
+      "group": "door",
+      "freedoms": [
+        "rotate"
+      ],
+      "source": "ldcad_shadow",
+      "confidence": 1.0,
+      "owner_code": "57895",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "/opt/ldraw-astra/data/offLibShadow/parts/s/57895s01.dat:8"
+      ],
+      "metadata_id": null,
+      "connection_provenance": {
+        "source": "ldcad_shadow",
+        "path": "/opt/ldraw-astra/data/offLibShadow/parts/s/57895s01.dat",
+        "archive_member": null,
+        "line_number": 8,
+        "command": "0 !LDCAD SNAP_FGR [group=door] [genderOfs=M] [seq=132] [radius=4] [pos=-32.5 66 0]",
+        "include_chain": []
+      },
+      "scale_inheritance": "none",
+      "mirror_inheritance": "none"
+    },
+    {
+      "kind": "hinge",
+      "role": "neutral",
+      "position": [
+        32.5,
+        66.0,
+        0.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sequence": [
+          132.0
+        ],
+        "radius": 4.0,
+        "first_role": "male",
+        "detents": [],
+        "centered": true
+      },
+      "name": "door",
+      "feature_id": "s/57895s01@R0/snap_fgr@L9:I0",
+      "group": "door",
+      "freedoms": [
+        "rotate"
+      ],
+      "source": "ldcad_shadow",
+      "confidence": 1.0,
+      "owner_code": "57895",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "/opt/ldraw-astra/data/offLibShadow/parts/s/57895s01.dat:9"
+      ],
+      "metadata_id": null,
+      "connection_provenance": {
+        "source": "ldcad_shadow",
+        "path": "/opt/ldraw-astra/data/offLibShadow/parts/s/57895s01.dat",
+        "archive_member": null,
+        "line_number": 9,
+        "command": "0 !LDCAD SNAP_FGR [group=door] [genderOfs=M] [seq=132] [radius=4] [pos=32.5 66 0]",
+        "include_chain": []
+      },
+      "scale_inheritance": "none",
+      "mirror_inheritance": "none"
+    }
+  ],
+  "connectors_truncated": false,
+  "diagnostics": [],
+  "connection_metadata": {
+    "coverage": "complete",
+    "source_count": 1,
+    "recognized_record_count": 2,
+    "unsupported_record_count": 0,
+    "invalid_record_count": 0,
+    "diagnostics": []
+  },
+  "rectangular_profile": null,
+  "note": "All coordinates are local LDU. Connector inference is evidence; inspect uncertain fits."
+}

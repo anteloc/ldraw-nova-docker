@@ -1,0 +1,262 @@
+{
+  "code": "6041.dat",
+  "path": "/opt/ldraw/ldraw/parts/6041.dat",
+  "metadata": {
+    "description": "Propeller 3 Blade 3.5 Diameter with Axlehole",
+    "name": "6041.dat",
+    "author": "Paul Easter",
+    "author_username": "pneaster",
+    "file_kind": "part",
+    "origin": "official",
+    "qualifiers": [],
+    "release": "2022-02",
+    "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+    "bfc": "ccw",
+    "history": [
+      {
+        "date": "2000-05-07",
+        "contributor": "PTadmin",
+        "text": "Official Update 2000-01",
+        "raw": "2000-05-07 [PTadmin] Official Update 2000-01"
+      },
+      {
+        "date": "2001-05-04",
+        "contributor": "pneaster",
+        "text": "Total Revision, made better use of primitive files.",
+        "raw": "2001-05-04 [pneaster] Total Revision, made better use of primitive files."
+      },
+      {
+        "date": "2001-11-23",
+        "contributor": "pneaster",
+        "text": "corrected BFC use of primitive files.",
+        "raw": "2001-11-23 [pneaster] corrected BFC use of primitive files."
+      },
+      {
+        "date": "2002-04-25",
+        "contributor": "PTadmin",
+        "text": "Official Update 2002-02",
+        "raw": "2002-04-25 [PTadmin] Official Update 2002-02"
+      },
+      {
+        "date": "2007-07-09",
+        "contributor": "PTadmin",
+        "text": "Header formatted for Contributor Agreement",
+        "raw": "2007-07-09 [PTadmin] Header formatted for Contributor Agreement"
+      },
+      {
+        "date": "2008-07-01",
+        "contributor": "PTadmin",
+        "text": "Official Update 2008-01",
+        "raw": "2008-07-01 [PTadmin] Official Update 2008-01"
+      },
+      {
+        "date": "2020-06-04",
+        "contributor": "Sirio",
+        "text": "Updated the use of primitives",
+        "raw": "2020-06-04 [Sirio] Updated the use of primitives"
+      },
+      {
+        "date": "2021-11-21",
+        "contributor": "MagFors",
+        "text": "made ccw, further clean up",
+        "raw": "2021-11-21 [MagFors] made ccw, further clean up"
+      },
+      {
+        "date": "2022-03-06",
+        "contributor": "PTadmin",
+        "text": "Official Update 2022-02",
+        "raw": "2022-03-06 [PTadmin] Official Update 2022-02"
+      }
+    ],
+    "category": null,
+    "keywords": [
+      "Aquazone",
+      "Divers"
+    ],
+    "status": "current",
+    "replacement": null,
+    "preview": null
+  },
+  "complete": true,
+  "bounds": {
+    "min": [
+      -32.197822985,
+      -34.0,
+      -12.0
+    ],
+    "max": [
+      32.197822985,
+      23.412822985,
+      12.0
+    ]
+  },
+  "size": [
+    64.39564597,
+    57.412822985,
+    24.0
+  ],
+  "stud_positions": [],
+  "connector_count": 2,
+  "connectors": [
+    {
+      "kind": "pin_hole",
+      "role": "female",
+      "position": [
+        0.0,
+        0.0,
+        2.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 8.0,
+            "length": 2.0,
+            "flexible": false
+          },
+          {
+            "shape": "round",
+            "radius": 6.0,
+            "length": 16.0,
+            "flexible": false
+          },
+          {
+            "shape": "round",
+            "radius": 8.0,
+            "length": 2.0,
+            "flexible": false
+          }
+        ],
+        "centered": true,
+        "friction": false,
+        "caps": "none"
+      },
+      "name": "connhole",
+      "feature_id": "snap_incl@L8:I0/connhole",
+      "group": null,
+      "freedoms": [
+        "slide",
+        "rotate"
+      ],
+      "source": "ldcad_shadow",
+      "confidence": 1.0,
+      "owner_code": "6041",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "/opt/ldraw-astra/data/offLibShadow/p/connhole.dat:8 via snap_incl@L8 > snap_incl@L8:I0 > connhole"
+      ],
+      "metadata_id": "connhole",
+      "connection_provenance": {
+        "source": "ldcad_shadow",
+        "path": "/opt/ldraw-astra/data/offLibShadow/p/connhole.dat",
+        "archive_member": null,
+        "line_number": 8,
+        "command": "0 !LDCAD SNAP_CYL [id=connhole] [gender=F] [caps=none] [secs=R 8 2   R 6 16   R 8 2] [center=true] [slide=true]",
+        "include_chain": [
+          "snap_incl@L8",
+          "snap_incl@L8:I0",
+          "connhole"
+        ]
+      },
+      "scale_inheritance": "none",
+      "mirror_inheritance": "cor"
+    },
+    {
+      "kind": "axle_hole",
+      "role": "female",
+      "position": [
+        0.0,
+        0.0,
+        10.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "axle",
+            "radius": 6.0,
+            "length": 22.0,
+            "flexible": false
+          }
+        ],
+        "centered": false,
+        "friction": false,
+        "caps": "none"
+      },
+      "name": "LDCad cylinder",
+      "feature_id": "snap_cyl@L9:I0",
+      "group": null,
+      "freedoms": [
+        "slide",
+        "rotate"
+      ],
+      "source": "ldcad_shadow",
+      "confidence": 1.0,
+      "owner_code": "6041",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "/opt/ldraw-astra/data/offLibShadow/parts/6041.dat:9"
+      ],
+      "metadata_id": null,
+      "connection_provenance": {
+        "source": "ldcad_shadow",
+        "path": "/opt/ldraw-astra/data/offLibShadow/parts/6041.dat",
+        "archive_member": null,
+        "line_number": 9,
+        "command": "0 !LDCAD SNAP_CYL [gender=F] [caps=none] [secs=A 6 22] [slide=true] [pos=0 0 10] [ori=1 0 0 0 0 -1 0 1 0]",
+        "include_chain": []
+      },
+      "scale_inheritance": "none",
+      "mirror_inheritance": "cor"
+    }
+  ],
+  "connectors_truncated": false,
+  "diagnostics": [],
+  "connection_metadata": {
+    "coverage": "complete",
+    "source_count": 2,
+    "recognized_record_count": 3,
+    "unsupported_record_count": 0,
+    "invalid_record_count": 0,
+    "diagnostics": []
+  },
+  "rectangular_profile": null,
+  "note": "All coordinates are local LDU. Connector inference is evidence; inspect uncertain fits."
+}

@@ -1,0 +1,12 @@
+{
+  "images": [
+    "/data/output/20260928-125940-5e681c/tidal-lantern-cap-review/home.png",
+    "/data/output/20260928-125940-5e681c/tidal-lantern-cap-review/top.png"
+  ],
+  "bom": "/data/output/20260928-125940-5e681c/tidal-lantern-cap-review/leocad-bom.csv",
+  "embedded_definitions_materialized": 0,
+  "visual_review": "required: open and inspect the images",
+  "source": "output/tidal-observatory.mpd",
+  "section": "tidal-lantern-roof.ldr",
+  "source_diagnostics": []
+}

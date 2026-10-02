@@ -1,0 +1,13 @@
+{
+  "images": [
+    "/data/output/20260930-201212-16f983/review/revA/home.png",
+    "/data/output/20260930-201212-16f983/review/revA/top.png",
+    "/data/output/20260930-201212-16f983/review/revA/right.png"
+  ],
+  "bom": "/data/output/20260930-201212-16f983/review/revA/leocad-bom.csv",
+  "embedded_definitions_materialized": 0,
+  "visual_review": "required: open and inspect the images",
+  "source": "output/fiamma-v8.mpd",
+  "section": null,
+  "source_diagnostics": []
+}

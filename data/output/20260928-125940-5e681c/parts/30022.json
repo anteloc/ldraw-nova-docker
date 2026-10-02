@@ -1,0 +1,593 @@
+{
+  "code": "30022.dat",
+  "path": "/opt/ldraw/ldraw/parts/30022.dat",
+  "metadata": {
+    "description": "Tipper End Type 2",
+    "name": "30022.dat",
+    "author": "Thomas Burger",
+    "author_username": "grapeape",
+    "file_kind": "part",
+    "origin": "official",
+    "qualifiers": [],
+    "release": "2025-09",
+    "license": "Licensed under CC BY 2.0 and CC BY 4.0 : see CAreadme.txt",
+    "bfc": "ccw",
+    "history": [
+      {
+        "date": "1997-12-04",
+        "contributor": "grapeape",
+        "text": "modified from 3145.dat (was 62.dat)",
+        "raw": "1997-12-04 [grapeape] modified from 3145.dat (was 62.dat)"
+      },
+      {
+        "date": "1997-12-05",
+        "contributor": "PTadmin",
+        "text": "Official Update 1997-17",
+        "raw": "1997-12-05 [PTadmin] Official Update 1997-17"
+      },
+      {
+        "date": "2007-05-25",
+        "contributor": "PTadmin",
+        "text": "Header formatted for Contributor Agreement",
+        "raw": "2007-05-25 [PTadmin] Header formatted for Contributor Agreement"
+      },
+      {
+        "date": "2008-07-01",
+        "contributor": "PTadmin",
+        "text": "Official Update 2008-01",
+        "raw": "2008-07-01 [PTadmin] Official Update 2008-01"
+      },
+      {
+        "date": "2009-06-14",
+        "contributor": "Steffen",
+        "text": "Un-mirrored studs, BFCed, closed gaps",
+        "raw": "2009-06-14 [Steffen] Un-mirrored studs, BFCed, closed gaps"
+      },
+      {
+        "date": "2010-11-22",
+        "contributor": "Steffen",
+        "text": "ran through philo's rectifier",
+        "raw": "2010-11-22 [Steffen] ran through philo's rectifier"
+      },
+      {
+        "date": "2010-12-31",
+        "contributor": "PTadmin",
+        "text": "Official Update 2010-03",
+        "raw": "2010-12-31 [PTadmin] Official Update 2010-03"
+      },
+      {
+        "date": "2025-09-27",
+        "contributor": "OrionP",
+        "text": "Changed winding to CCW",
+        "raw": "2025-09-27 [OrionP] Changed winding to CCW"
+      },
+      {
+        "date": "2025-09-29",
+        "contributor": "OrionP",
+        "text": "Official Update 2025-09",
+        "raw": "2025-09-29 [OrionP] Official Update 2025-09"
+      }
+    ],
+    "category": null,
+    "keywords": [],
+    "status": "current",
+    "replacement": null,
+    "preview": null
+  },
+  "complete": false,
+  "bounds": {
+    "min": [
+      -61.480000000000004,
+      0.0,
+      -14.0
+    ],
+    "max": [
+      61.480000000000004,
+      69.28,
+      10.0
+    ]
+  },
+  "size": [
+    122.96000000000001,
+    69.28,
+    24.0
+  ],
+  "stud_positions": [],
+  "connector_count": 34,
+  "connectors": [
+    {
+      "kind": "stud_receptacle",
+      "role": "female",
+      "position": [
+        -10.0,
+        69.28,
+        0.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 6.0,
+            "length": 4.0,
+            "flexible": false
+          }
+        ],
+        "centered": true,
+        "friction": false,
+        "caps": "none"
+      },
+      "name": "Stud Socket",
+      "feature_id": "stud3@R0/stud3:socket:-1+0",
+      "group": null,
+      "freedoms": [],
+      "source": "primitive",
+      "confidence": 1.0,
+      "owner_code": "30022",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "stud3",
+        "derived:stud-socket"
+      ],
+      "metadata_id": null,
+      "connection_provenance": {
+        "source": "primitive",
+        "path": null,
+        "archive_member": null,
+        "line_number": null,
+        "command": "stud3",
+        "include_chain": []
+      },
+      "scale_inheritance": "yandr",
+      "mirror_inheritance": "none"
+    },
+    {
+      "kind": "stud_receptacle",
+      "role": "female",
+      "position": [
+        10.0,
+        69.28,
+        0.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          -0.0
+        ],
+        [
+          0.0,
+          1.0,
+          -0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 6.0,
+            "length": 4.0,
+            "flexible": false
+          }
+        ],
+        "centered": true,
+        "friction": false,
+        "caps": "none"
+      },
+      "name": "Stud Socket",
+      "feature_id": "stud3@R0/stud3:socket:+1+0",
+      "group": null,
+      "freedoms": [],
+      "source": "primitive",
+      "confidence": 1.0,
+      "owner_code": "30022",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "stud3",
+        "derived:stud-socket"
+      ],
+      "metadata_id": null,
+      "connection_provenance": {
+        "source": "primitive",
+        "path": null,
+        "archive_member": null,
+        "line_number": null,
+        "command": "stud3",
+        "include_chain": []
+      },
+      "scale_inheritance": "yandr",
+      "mirror_inheritance": "none"
+    }
+  ],
+  "connectors_truncated": true,
+  "diagnostics": [
+    {
+      "code": "connection.invalid_transform",
+      "message": "connection feature 'studO@L9:I0' from /opt/ldraw-astra/data/offLibShadow/p/stud2.dat:9 rejected under invalid scale or reflection",
+      "severity": "warning",
+      "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2.dat",
+      "section": null,
+      "line_number": 9,
+      "offending_value": "studO@L9:I0",
+      "suggestions": [],
+      "cause": null
+    },
+    {
+      "code": "connection.invalid_transform",
+      "message": "connection feature 'studO@L10:I0' from /opt/ldraw-astra/data/offLibShadow/p/stud2.dat:10 rejected under invalid scale or reflection",
+      "severity": "warning",
+      "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2.dat",
+      "section": null,
+      "line_number": 10,
+      "offending_value": "studO@L10:I0",
+      "suggestions": [],
+      "cause": null
+    },
+    {
+      "code": "connection.invalid_transform",
+      "message": "connection feature 'studO@L9:I0' from /opt/ldraw-astra/data/offLibShadow/p/stud2.dat:9 rejected under invalid scale or reflection",
+      "severity": "warning",
+      "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2.dat",
+      "section": null,
+      "line_number": 9,
+      "offending_value": "studO@L9:I0",
+      "suggestions": [],
+      "cause": null
+    },
+    {
+      "code": "connection.invalid_transform",
+      "message": "connection feature 'studO@L10:I0' from /opt/ldraw-astra/data/offLibShadow/p/stud2.dat:10 rejected under invalid scale or reflection",
+      "severity": "warning",
+      "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2.dat",
+      "section": null,
+      "line_number": 10,
+      "offending_value": "studO@L10:I0",
+      "suggestions": [],
+      "cause": null
+    },
+    {
+      "code": "connection.invalid_transform",
+      "message": "connection feature 'studO@L9:I0' from /opt/ldraw-astra/data/offLibShadow/p/stud2.dat:9 rejected under invalid scale or reflection",
+      "severity": "warning",
+      "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2.dat",
+      "section": null,
+      "line_number": 9,
+      "offending_value": "studO@L9:I0",
+      "suggestions": [],
+      "cause": null
+    },
+    {
+      "code": "connection.invalid_transform",
+      "message": "connection feature 'studO@L10:I0' from /opt/ldraw-astra/data/offLibShadow/p/stud2.dat:10 rejected under invalid scale or reflection",
+      "severity": "warning",
+      "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2.dat",
+      "section": null,
+      "line_number": 10,
+      "offending_value": "studO@L10:I0",
+      "suggestions": [],
+      "cause": null
+    },
+    {
+      "code": "connection.invalid_transform",
+      "message": "connection feature 'studO@L9:I0' from /opt/ldraw-astra/data/offLibShadow/p/stud2.dat:9 rejected under invalid scale or reflection",
+      "severity": "warning",
+      "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2.dat",
+      "section": null,
+      "line_number": 9,
+      "offending_value": "studO@L9:I0",
+      "suggestions": [],
+      "cause": null
+    },
+    {
+      "code": "connection.invalid_transform",
+      "message": "connection feature 'studO@L10:I0' from /opt/ldraw-astra/data/offLibShadow/p/stud2.dat:10 rejected under invalid scale or reflection",
+      "severity": "warning",
+      "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2.dat",
+      "section": null,
+      "line_number": 10,
+      "offending_value": "studO@L10:I0",
+      "suggestions": [],
+      "cause": null
+    },
+    {
+      "code": "connection.invalid_transform",
+      "message": "connection feature 'studO@L9:I0' from /opt/ldraw-astra/data/offLibShadow/p/stud2.dat:9 rejected under invalid scale or reflection",
+      "severity": "warning",
+      "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2.dat",
+      "section": null,
+      "line_number": 9,
+      "offending_value": "studO@L9:I0",
+      "suggestions": [],
+      "cause": null
+    },
+    {
+      "code": "connection.invalid_transform",
+      "message": "connection feature 'studO@L10:I0' from /opt/ldraw-astra/data/offLibShadow/p/stud2.dat:10 rejected under invalid scale or reflection",
+      "severity": "warning",
+      "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2.dat",
+      "section": null,
+      "line_number": 10,
+      "offending_value": "studO@L10:I0",
+      "suggestions": [],
+      "cause": null
+    },
+    {
+      "code": "connection.invalid_transform",
+      "message": "connection feature 'studO@L9:I0' from /opt/ldraw-astra/data/offLibShadow/p/stud2.dat:9 rejected under invalid scale or reflection",
+      "severity": "warning",
+      "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2.dat",
+      "section": null,
+      "line_number": 9,
+      "offending_value": "studO@L9:I0",
+      "suggestions": [],
+      "cause": null
+    },
+    {
+      "code": "connection.invalid_transform",
+      "message": "connection feature 'studO@L10:I0' from /opt/ldraw-astra/data/offLibShadow/p/stud2.dat:10 rejected under invalid scale or reflection",
+      "severity": "warning",
+      "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2.dat",
+      "section": null,
+      "line_number": 10,
+      "offending_value": "studO@L10:I0",
+      "suggestions": [],
+      "cause": null
+    },
+    {
+      "code": "connection.invalid_transform",
+      "message": "connection feature 'studO@L9:I0' from /opt/ldraw-astra/data/offLibShadow/p/stud2.dat:9 rejected under invalid scale or reflection",
+      "severity": "warning",
+      "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2.dat",
+      "section": null,
+      "line_number": 9,
+      "offending_value": "studO@L9:I0",
+      "suggestions": [],
+      "cause": null
+    },
+    {
+      "code": "connection.invalid_transform",
+      "message": "connection feature 'studO@L10:I0' from /opt/ldraw-astra/data/offLibShadow/p/stud2.dat:10 rejected under invalid scale or reflection",
+      "severity": "warning",
+      "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2.dat",
+      "section": null,
+      "line_number": 10,
+      "offending_value": "studO@L10:I0",
+      "suggestions": [],
+      "cause": null
+    },
+    {
+      "code": "connection.invalid_transform",
+      "message": "connection feature 'studO@L9:I0' from /opt/ldraw-astra/data/offLibShadow/p/stud2.dat:9 rejected under invalid scale or reflection",
+      "severity": "warning",
+      "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2.dat",
+      "section": null,
+      "line_number": 9,
+      "offending_value": "studO@L9:I0",
+      "suggestions": [],
+      "cause": null
+    },
+    {
+      "code": "connection.invalid_transform",
+      "message": "connection feature 'studO@L10:I0' from /opt/ldraw-astra/data/offLibShadow/p/stud2.dat:10 rejected under invalid scale or reflection",
+      "severity": "warning",
+      "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2.dat",
+      "section": null,
+      "line_number": 10,
+      "offending_value": "studO@L10:I0",
+      "suggestions": [],
+      "cause": null
+    }
+  ],
+  "connection_metadata": {
+    "coverage": "partial",
+    "source_count": 4,
+    "recognized_record_count": 4,
+    "unsupported_record_count": 0,
+    "invalid_record_count": 16,
+    "diagnostics": [
+      {
+        "code": "connection.invalid_transform",
+        "message": "connection feature 'studO@L9:I0' from /opt/ldraw-astra/data/offLibShadow/p/stud2.dat:9 rejected under invalid scale or reflection",
+        "severity": "warning",
+        "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2.dat",
+        "section": null,
+        "line_number": 9,
+        "offending_value": "studO@L9:I0",
+        "suggestions": [],
+        "cause": null
+      },
+      {
+        "code": "connection.invalid_transform",
+        "message": "connection feature 'studO@L10:I0' from /opt/ldraw-astra/data/offLibShadow/p/stud2.dat:10 rejected under invalid scale or reflection",
+        "severity": "warning",
+        "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2.dat",
+        "section": null,
+        "line_number": 10,
+        "offending_value": "studO@L10:I0",
+        "suggestions": [],
+        "cause": null
+      },
+      {
+        "code": "connection.invalid_transform",
+        "message": "connection feature 'studO@L9:I0' from /opt/ldraw-astra/data/offLibShadow/p/stud2.dat:9 rejected under invalid scale or reflection",
+        "severity": "warning",
+        "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2.dat",
+        "section": null,
+        "line_number": 9,
+        "offending_value": "studO@L9:I0",
+        "suggestions": [],
+        "cause": null
+      },
+      {
+        "code": "connection.invalid_transform",
+        "message": "connection feature 'studO@L10:I0' from /opt/ldraw-astra/data/offLibShadow/p/stud2.dat:10 rejected under invalid scale or reflection",
+        "severity": "warning",
+        "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2.dat",
+        "section": null,
+        "line_number": 10,
+        "offending_value": "studO@L10:I0",
+        "suggestions": [],
+        "cause": null
+      },
+      {
+        "code": "connection.invalid_transform",
+        "message": "connection feature 'studO@L9:I0' from /opt/ldraw-astra/data/offLibShadow/p/stud2.dat:9 rejected under invalid scale or reflection",
+        "severity": "warning",
+        "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2.dat",
+        "section": null,
+        "line_number": 9,
+        "offending_value": "studO@L9:I0",
+        "suggestions": [],
+        "cause": null
+      },
+      {
+        "code": "connection.invalid_transform",
+        "message": "connection feature 'studO@L10:I0' from /opt/ldraw-astra/data/offLibShadow/p/stud2.dat:10 rejected under invalid scale or reflection",
+        "severity": "warning",
+        "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2.dat",
+        "section": null,
+        "line_number": 10,
+        "offending_value": "studO@L10:I0",
+        "suggestions": [],
+        "cause": null
+      },
+      {
+        "code": "connection.invalid_transform",
+        "message": "connection feature 'studO@L9:I0' from /opt/ldraw-astra/data/offLibShadow/p/stud2.dat:9 rejected under invalid scale or reflection",
+        "severity": "warning",
+        "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2.dat",
+        "section": null,
+        "line_number": 9,
+        "offending_value": "studO@L9:I0",
+        "suggestions": [],
+        "cause": null
+      },
+      {
+        "code": "connection.invalid_transform",
+        "message": "connection feature 'studO@L10:I0' from /opt/ldraw-astra/data/offLibShadow/p/stud2.dat:10 rejected under invalid scale or reflection",
+        "severity": "warning",
+        "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2.dat",
+        "section": null,
+        "line_number": 10,
+        "offending_value": "studO@L10:I0",
+        "suggestions": [],
+        "cause": null
+      },
+      {
+        "code": "connection.invalid_transform",
+        "message": "connection feature 'studO@L9:I0' from /opt/ldraw-astra/data/offLibShadow/p/stud2.dat:9 rejected under invalid scale or reflection",
+        "severity": "warning",
+        "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2.dat",
+        "section": null,
+        "line_number": 9,
+        "offending_value": "studO@L9:I0",
+        "suggestions": [],
+        "cause": null
+      },
+      {
+        "code": "connection.invalid_transform",
+        "message": "connection feature 'studO@L10:I0' from /opt/ldraw-astra/data/offLibShadow/p/stud2.dat:10 rejected under invalid scale or reflection",
+        "severity": "warning",
+        "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2.dat",
+        "section": null,
+        "line_number": 10,
+        "offending_value": "studO@L10:I0",
+        "suggestions": [],
+        "cause": null
+      },
+      {
+        "code": "connection.invalid_transform",
+        "message": "connection feature 'studO@L9:I0' from /opt/ldraw-astra/data/offLibShadow/p/stud2.dat:9 rejected under invalid scale or reflection",
+        "severity": "warning",
+        "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2.dat",
+        "section": null,
+        "line_number": 9,
+        "offending_value": "studO@L9:I0",
+        "suggestions": [],
+        "cause": null
+      },
+      {
+        "code": "connection.invalid_transform",
+        "message": "connection feature 'studO@L10:I0' from /opt/ldraw-astra/data/offLibShadow/p/stud2.dat:10 rejected under invalid scale or reflection",
+        "severity": "warning",
+        "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2.dat",
+        "section": null,
+        "line_number": 10,
+        "offending_value": "studO@L10:I0",
+        "suggestions": [],
+        "cause": null
+      },
+      {
+        "code": "connection.invalid_transform",
+        "message": "connection feature 'studO@L9:I0' from /opt/ldraw-astra/data/offLibShadow/p/stud2.dat:9 rejected under invalid scale or reflection",
+        "severity": "warning",
+        "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2.dat",
+        "section": null,
+        "line_number": 9,
+        "offending_value": "studO@L9:I0",
+        "suggestions": [],
+        "cause": null
+      },
+      {
+        "code": "connection.invalid_transform",
+        "message": "connection feature 'studO@L10:I0' from /opt/ldraw-astra/data/offLibShadow/p/stud2.dat:10 rejected under invalid scale or reflection",
+        "severity": "warning",
+        "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2.dat",
+        "section": null,
+        "line_number": 10,
+        "offending_value": "studO@L10:I0",
+        "suggestions": [],
+        "cause": null
+      },
+      {
+        "code": "connection.invalid_transform",
+        "message": "connection feature 'studO@L9:I0' from /opt/ldraw-astra/data/offLibShadow/p/stud2.dat:9 rejected under invalid scale or reflection",
+        "severity": "warning",
+        "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2.dat",
+        "section": null,
+        "line_number": 9,
+        "offending_value": "studO@L9:I0",
+        "suggestions": [],
+        "cause": null
+      },
+      {
+        "code": "connection.invalid_transform",
+        "message": "connection feature 'studO@L10:I0' from /opt/ldraw-astra/data/offLibShadow/p/stud2.dat:10 rejected under invalid scale or reflection",
+        "severity": "warning",
+        "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2.dat",
+        "section": null,
+        "line_number": 10,
+        "offending_value": "studO@L10:I0",
+        "suggestions": [],
+        "cause": null
+      }
+    ]
+  },
+  "rectangular_profile": null,
+  "note": "All coordinates are local LDU. Connector inference is evidence; inspect uncertain fits."
+}

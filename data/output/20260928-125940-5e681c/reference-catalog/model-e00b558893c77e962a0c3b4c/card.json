@@ -1,0 +1,1318 @@
+{
+  "version": 1,
+  "cache_key": "7f1ad538b58e64955b55830f35f65269ee277a2eb9dc4d5854ac6cd60023a4ab",
+  "id": "model-e00b558893c77e962a0c3b4c",
+  "kind": "models",
+  "model": "5770-1.mpd",
+  "section": null,
+  "parser_section": "5770 - main.ldr",
+  "description": "Complete lighthouse island model featuring a minifigure, a white and yellow boat, a detailed coastal building with slopes and blue base plates, and a black lighthouse top with clear windows.",
+  "parent_description": "Complete lighthouse island model featuring a minifigure, a white and yellow boat, a detailed coastal building with slopes and blue base plates, and a black lighthouse top with clear windows.",
+  "theme": "",
+  "source": {
+    "path": "/opt/ldraw-astra/data/models-annotated/5770-1.mpd",
+    "sha256": "7d8c422daf50e954f9e1225048bdeef110c53e838f977ac9810755fb9d9337ad",
+    "field": "MODELS_DESCRIPTIONS_JEV.full_description",
+    "start_line": 1
+  },
+  "source_root": "ref-e00b558893c77e96-00-5770---main.ldr",
+  "preview_colour": 7,
+  "inventory": {
+    "source_sha256": "7d8c422daf50e954f9e1225048bdeef110c53e838f977ac9810755fb9d9337ad",
+    "parser_section": "5770 - main.ldr",
+    "physical_placements": 516,
+    "expanded_leaf_count": 516,
+    "physical_accounting_complete": true,
+    "nonphysical_or_unresolved_leaves": [],
+    "raw_geometry_sections": [],
+    "bom": [
+      {
+        "part": "2357.dat",
+        "count": 8,
+        "description": "Brick  2 x  2 Corner",
+        "physical_index_entry": true
+      },
+      {
+        "part": "2412b.dat",
+        "count": 3,
+        "description": "Tile  1 x  2 Grille with Groove",
+        "physical_index_entry": true
+      },
+      {
+        "part": "2420.dat",
+        "count": 6,
+        "description": "Plate  2 x  2 Corner",
+        "physical_index_entry": true
+      },
+      {
+        "part": "2431.dat",
+        "count": 4,
+        "description": "Tile  1 x  4 with Groove",
+        "physical_index_entry": true
+      },
+      {
+        "part": "2453a.dat",
+        "count": 2,
+        "description": "Brick  1 x  1 x  5 with Hollow Stud",
+        "physical_index_entry": true
+      },
+      {
+        "part": "2555.dat",
+        "count": 1,
+        "description": "Tile  1 x  1 with Clip",
+        "physical_index_entry": true
+      },
+      {
+        "part": "2654b.dat",
+        "count": 1,
+        "description": "Dish  2 x  2 without Rim",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3001.dat",
+        "count": 4,
+        "description": "Brick  2 x  4",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3004.dat",
+        "count": 17,
+        "description": "Brick  1 x  2",
+        "physical_index_entry": true
+      },
+      {
+        "part": "30046.dat",
+        "count": 1,
+        "description": "Window  1 x  2 x  2.667 Pane Lattice Diamond with Rounded Top",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3005.dat",
+        "count": 28,
+        "description": "Brick  1 x  1",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3008.dat",
+        "count": 1,
+        "description": "Brick  1 x  8",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3009.dat",
+        "count": 10,
+        "description": "Brick  1 x  6",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3010.dat",
+        "count": 10,
+        "description": "Brick  1 x  4",
+        "physical_index_entry": true
+      },
+      {
+        "part": "30162.dat",
+        "count": 1,
+        "description": "Minifig Binoculars with Round Eyepiece",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3020.dat",
+        "count": 1,
+        "description": "Plate  2 x  4",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3021.dat",
+        "count": 7,
+        "description": "Plate  2 x  3",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3022.dat",
+        "count": 10,
+        "description": "Plate  2 x  2",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3023.dat",
+        "count": 12,
+        "description": "~Moved to 3023b",
+        "physical_index_entry": true
+      },
+      {
+        "part": "30237.dat",
+        "count": 3,
+        "description": "Brick  1 x  2 with Clip Vertical (Thick U-Clip) with Centre Notch",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3024.dat",
+        "count": 16,
+        "description": "Plate  1 x  1",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3027.dat",
+        "count": 1,
+        "description": "Plate  6 x 16",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3029.dat",
+        "count": 1,
+        "description": "Plate  4 x 12",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3034.dat",
+        "count": 1,
+        "description": "Plate  2 x  8",
+        "physical_index_entry": true
+      },
+      {
+        "part": "30340.dat",
+        "count": 1,
+        "description": "Minifig Life Ring",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3035.dat",
+        "count": 1,
+        "description": "Plate  4 x  8",
+        "physical_index_entry": true
+      },
+      {
+        "part": "30357.dat",
+        "count": 15,
+        "description": "Plate  3 x  3 with  2 x  2 Corner Round",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3036.dat",
+        "count": 2,
+        "description": "Plate  6 x  8",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3037.dat",
+        "count": 3,
+        "description": "Slope Brick 45  2 x  4",
+        "physical_index_entry": true
+      },
+      {
+        "part": "30374.dat",
+        "count": 4,
+        "description": "Bar  4L Lightsaber Blade",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3038.dat",
+        "count": 2,
+        "description": "Slope Brick 45  2 x  3",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3039.dat",
+        "count": 10,
+        "description": "Slope Brick 45  2 x  2",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3040b.dat",
+        "count": 4,
+        "description": "Slope Brick 45  2 x  1",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3043.dat",
+        "count": 1,
+        "description": "Slope Brick 45  2 x  2 Double",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3062b.dat",
+        "count": 8,
+        "description": "Brick  1 x  1 Round with Hollow Stud",
+        "physical_index_entry": true
+      },
+      {
+        "part": "30663.dat",
+        "count": 1,
+        "description": "Car Steering Wheel 2L",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3070b.dat",
+        "count": 4,
+        "description": "Tile  1 x  1 with Groove",
+        "physical_index_entry": true
+      },
+      {
+        "part": "32000.dat",
+        "count": 1,
+        "description": "Technic Brick  1 x  2 with Holes",
+        "physical_index_entry": true
+      },
+      {
+        "part": "32001.dat",
+        "count": 2,
+        "description": "Technic Plate  2 x  6 with Holes",
+        "physical_index_entry": true
+      },
+      {
+        "part": "32028.dat",
+        "count": 1,
+        "description": "Plate  1 x  2 with Door Rail",
+        "physical_index_entry": true
+      },
+      {
+        "part": "32034.dat",
+        "count": 2,
+        "description": "Technic Angle Connector #2 (180 degree)",
+        "physical_index_entry": true
+      },
+      {
+        "part": "32123a.dat",
+        "count": 2,
+        "description": "Technic Bush  1/2 Smooth with Axle Hole Reduced",
+        "physical_index_entry": true
+      },
+      {
+        "part": "32209.dat",
+        "count": 1,
+        "description": "Technic Axle  5.5 with Stop Type 1",
+        "physical_index_entry": true
+      },
+      {
+        "part": "32270.dat",
+        "count": 2,
+        "description": "Technic Gear 12 Tooth Double Bevel",
+        "physical_index_entry": true
+      },
+      {
+        "part": "32529.dat",
+        "count": 1,
+        "description": "Technic Pin Joiner Plate  1 x  2 x  1 & 1/2",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3298.dat",
+        "count": 7,
+        "description": "Slope Brick 33  3 x  2",
+        "physical_index_entry": true
+      },
+      {
+        "part": "33299a.dat",
+        "count": 1,
+        "description": "Technic Beam  3 x  0.5 Liftarm with Boss and Pin with Closed Central Axle Hole",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3460.dat",
+        "count": 1,
+        "description": "Plate  1 x  8",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3622.dat",
+        "count": 21,
+        "description": "Brick  1 x  3",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3623.dat",
+        "count": 13,
+        "description": "Plate  1 x  3",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3659.dat",
+        "count": 1,
+        "description": "Arch  1 x  4",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3665b.dat",
+        "count": 12,
+        "description": "Slope Brick 45  2 x  1 Inverted with Inner Stopper Ring",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3666.dat",
+        "count": 2,
+        "description": "Plate  1 x  6",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3673.dat",
+        "count": 1,
+        "description": "Technic Pin",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3707.dat",
+        "count": 1,
+        "description": "Technic Axle  8",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3710.dat",
+        "count": 16,
+        "description": "Plate  1 x  4",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3713.dat",
+        "count": 6,
+        "description": "Technic Bush with Two Flanges",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3794a.dat",
+        "count": 1,
+        "description": "Plate  1 x  2 without Groove with 1 Centre Stud",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3795.dat",
+        "count": 1,
+        "description": "Plate  2 x  6",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3815b.dat",
+        "count": 1,
+        "description": "Minifig Hips",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3816b.dat",
+        "count": 1,
+        "description": "~Minifig Leg Right (Obsolete)",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3817b.dat",
+        "count": 1,
+        "description": "~Minifig Leg Left (Obsolete)",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3818.dat",
+        "count": 1,
+        "description": "Minifig Arm Right",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3819.dat",
+        "count": 1,
+        "description": "Minifig Arm Left",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3820.dat",
+        "count": 2,
+        "description": "Minifig Hand",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3830.dat",
+        "count": 2,
+        "description": "Hinge Brick  1 x  4 Top",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3831.dat",
+        "count": 2,
+        "description": "Hinge Brick  1 x  4 Base",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3832.dat",
+        "count": 2,
+        "description": "Plate  2 x 10",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3899.dat",
+        "count": 1,
+        "description": "Minifig Cup",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3937.dat",
+        "count": 1,
+        "description": "Hinge  1 x  2 Base",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3938.dat",
+        "count": 1,
+        "description": "Hinge  1 x  2 Top",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3941.dat",
+        "count": 5,
+        "description": "Brick  2 x  2 Round without Reinforcement",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3961.dat",
+        "count": 1,
+        "description": "Dish  8 x  8 Inverted with Solid Studs",
+        "physical_index_entry": true
+      },
+      {
+        "part": "4032a.dat",
+        "count": 2,
+        "description": "Plate  2 x  2 Round with Axlehole",
+        "physical_index_entry": true
+      },
+      {
+        "part": "4070.dat",
+        "count": 1,
+        "description": "Brick  1 x  1 with Headlight",
+        "physical_index_entry": true
+      },
+      {
+        "part": "41334.dat",
+        "count": 1,
+        "description": "Minifig Hat Knit Cap",
+        "physical_index_entry": true
+      },
+      {
+        "part": "4161.dat",
+        "count": 4,
+        "description": "Slope Brick 33  3 x  3",
+        "physical_index_entry": true
+      },
+      {
+        "part": "43722.dat",
+        "count": 2,
+        "description": "~Moved to 43722a",
+        "physical_index_entry": true
+      },
+      {
+        "part": "43723.dat",
+        "count": 2,
+        "description": "~Moved to 43723a",
+        "physical_index_entry": true
+      },
+      {
+        "part": "4445.dat",
+        "count": 1,
+        "description": "Slope Brick 45  2 x  8",
+        "physical_index_entry": true
+      },
+      {
+        "part": "44728.dat",
+        "count": 1,
+        "description": "Bracket  1 x  2 -  2 x  2 Down",
+        "physical_index_entry": true
+      },
+      {
+        "part": "4477.dat",
+        "count": 1,
+        "description": "Plate  1 x 10",
+        "physical_index_entry": true
+      },
+      {
+        "part": "4599b.dat",
+        "count": 8,
+        "description": "Tap  1 x  1 without Hole in Spout",
+        "physical_index_entry": true
+      },
+      {
+        "part": "46212a.dat",
+        "count": 4,
+        "description": "Brick  1 x  2 x  5 with Hollow Studs without Inner Ridges",
+        "physical_index_entry": true
+      },
+      {
+        "part": "47905.dat",
+        "count": 2,
+        "description": "Brick  1 x  1 with Studs on Two Opposite Sides",
+        "physical_index_entry": true
+      },
+      {
+        "part": "48336.dat",
+        "count": 1,
+        "description": "Plate  1 x  2 with Handle Type 2",
+        "physical_index_entry": true
+      },
+      {
+        "part": "4854.dat",
+        "count": 1,
+        "description": "Slope Brick 45  4 x  4 Double Inverted with Open Centre",
+        "physical_index_entry": true
+      },
+      {
+        "part": "4855.dat",
+        "count": 1,
+        "description": "Wedge  4 x  4 Triple Inverted without Ribs between Studs",
+        "physical_index_entry": true
+      },
+      {
+        "part": "4865b.dat",
+        "count": 1,
+        "description": "Panel  1 x  2 x  1 with Rounded Corners",
+        "physical_index_entry": true
+      },
+      {
+        "part": "49668.dat",
+        "count": 2,
+        "description": "Plate  1 x  1 with Tooth In-line",
+        "physical_index_entry": true
+      },
+      {
+        "part": "51739.dat",
+        "count": 2,
+        "description": "Wing  2 x  4",
+        "physical_index_entry": true
+      },
+      {
+        "part": "54200.dat",
+        "count": 10,
+        "description": "Slope Brick 31  1 x  1 x  0.667",
+        "physical_index_entry": true
+      },
+      {
+        "part": "5770 - 3039d01.dat",
+        "count": 1,
+        "description": "A 2x2 sloped brick decorated with a chrome silver mirror sticker.",
+        "physical_index_entry": true
+      },
+      {
+        "part": "5770 - 3626bp8l.dat",
+        "count": 1,
+        "description": "A decorated minifig head submodel consisting of two cylindrical detail elements forming facial features.",
+        "physical_index_entry": true
+      },
+      {
+        "part": "5770 - 85984d08.dat",
+        "count": 1,
+        "description": "85984d08",
+        "physical_index_entry": true
+      },
+      {
+        "part": "5770 - 973pu7.dat",
+        "count": 1,
+        "description": "A patterned minifig torso submodel with four white disc buttons and black detailing on an orange jacket.",
+        "physical_index_entry": true
+      },
+      {
+        "part": "59900.dat",
+        "count": 5,
+        "description": "Cone  1 x  1 with Stop",
+        "physical_index_entry": true
+      },
+      {
+        "part": "6019.dat",
+        "count": 2,
+        "description": "Plate  1 x  1 with Clip Horizontal (Thick U-Clip)",
+        "physical_index_entry": true
+      },
+      {
+        "part": "6041.dat",
+        "count": 1,
+        "description": "Propeller  3 Blade  3.5 Diameter with Axlehole",
+        "physical_index_entry": true
+      },
+      {
+        "part": "60470a.dat",
+        "count": 1,
+        "description": "Plate  1 x  2 with  2 Clips Horizontal (Thick U-Clips)",
+        "physical_index_entry": true
+      },
+      {
+        "part": "60478.dat",
+        "count": 2,
+        "description": "Plate  1 x  2 with Handle on End",
+        "physical_index_entry": true
+      },
+      {
+        "part": "60479.dat",
+        "count": 1,
+        "description": "Plate  1 x 12",
+        "physical_index_entry": true
+      },
+      {
+        "part": "60592c01.dat",
+        "count": 4,
+        "description": "Window  1 x  2 x  2 without Sill w/ Trans-Clear Glass (Complete)",
+        "physical_index_entry": true
+      },
+      {
+        "part": "60594.dat",
+        "count": 1,
+        "description": "Window  1 x  4 x  3 without Shutter Tabs",
+        "physical_index_entry": true
+      },
+      {
+        "part": "60596.dat",
+        "count": 1,
+        "description": "Door  1 x  4 x  6 Frame",
+        "physical_index_entry": true
+      },
+      {
+        "part": "60607.dat",
+        "count": 2,
+        "description": "Window  1 x  2 x  3 Pane Latticed with Reinforced Joints",
+        "physical_index_entry": true
+      },
+      {
+        "part": "6091.dat",
+        "count": 2,
+        "description": "Brick  2 x  1 x  1.333 with Curved Top",
+        "physical_index_entry": true
+      },
+      {
+        "part": "61409.dat",
+        "count": 2,
+        "description": "~Slope Brick 18  2 x  1 x  0.667 Grille (Obsolete)",
+        "physical_index_entry": true
+      },
+      {
+        "part": "6141.dat",
+        "count": 37,
+        "description": "Plate  1 x  1 Round",
+        "physical_index_entry": true
+      },
+      {
+        "part": "6266.dat",
+        "count": 8,
+        "description": "Minifig Skeleton Leg",
+        "physical_index_entry": true
+      },
+      {
+        "part": "63868.dat",
+        "count": 1,
+        "description": "Plate  1 x  2 with Clip Horizontal on End (Thick C-Clip)",
+        "physical_index_entry": true
+      },
+      {
+        "part": "64390.dat",
+        "count": 1,
+        "description": "Door  1 x  4 x  6 with Window and Reinforced Edge",
+        "physical_index_entry": true
+      },
+      {
+        "part": "64648.dat",
+        "count": 2,
+        "description": "Animal Fish Straight",
+        "physical_index_entry": true
+      },
+      {
+        "part": "6541.dat",
+        "count": 5,
+        "description": "Technic Brick  1 x  1 with Hole",
+        "physical_index_entry": true
+      },
+      {
+        "part": "6587.dat",
+        "count": 4,
+        "description": "Technic Axle  3 with Stud",
+        "physical_index_entry": true
+      },
+      {
+        "part": "6636.dat",
+        "count": 7,
+        "description": "Tile  1 x  6",
+        "physical_index_entry": true
+      },
+      {
+        "part": "85080.dat",
+        "count": 41,
+        "description": "Brick  2 x  2 Corner Round w Stud Notch and Reinforced Underside",
+        "physical_index_entry": true
+      },
+      {
+        "part": "85984.dat",
+        "count": 1,
+        "description": "Slope Brick 31  1 x  2 x  0.667",
+        "physical_index_entry": true
+      },
+      {
+        "part": "87083.dat",
+        "count": 1,
+        "description": "Technic Axle  4 with Stop",
+        "physical_index_entry": true
+      },
+      {
+        "part": "87580.dat",
+        "count": 4,
+        "description": "Plate  2 x  2 with Groove with 1 Centre Stud",
+        "physical_index_entry": true
+      },
+      {
+        "part": "87747.dat",
+        "count": 4,
+        "description": "Bar  0.5L with Curved Blade 2L",
+        "physical_index_entry": true
+      },
+      {
+        "part": "91405.dat",
+        "count": 1,
+        "description": "Plate 16 x 16 with Underside Ribs",
+        "physical_index_entry": true
+      },
+      {
+        "part": "u9158.dat",
+        "count": 1,
+        "description": "Electric Light Brick  2 x  3 x  1.333",
+        "physical_index_entry": true
+      }
+    ],
+    "technic_named_placements": 30,
+    "technic_share": 0.05813953488372093,
+    "legacy_parts": [
+      {
+        "part": "3023.dat",
+        "count": 12,
+        "description": "~Moved to 3023b",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3816b.dat",
+        "count": 1,
+        "description": "~Minifig Leg Right (Obsolete)",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3817b.dat",
+        "count": 1,
+        "description": "~Minifig Leg Left (Obsolete)",
+        "physical_index_entry": true
+      },
+      {
+        "part": "43722.dat",
+        "count": 2,
+        "description": "~Moved to 43722a",
+        "physical_index_entry": true
+      },
+      {
+        "part": "43723.dat",
+        "count": 2,
+        "description": "~Moved to 43723a",
+        "physical_index_entry": true
+      },
+      {
+        "part": "61409.dat",
+        "count": 2,
+        "description": "~Slope Brick 18  2 x  1 x  0.667 Grille (Obsolete)",
+        "physical_index_entry": true
+      }
+    ],
+    "shape_fingerprint": "63de312f107f8e305ec06b7e294b6d1c8d19fa4d3aad47301de797131639a0bc",
+    "recipe_fingerprint": "142b6f43d03ace5c582cb5710a36acdd6c8d952fceb180f474629fb6bf6e5665",
+    "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+    "parents": [],
+    "dependencies": [
+      {
+        "section": "5770 - main.ldr",
+        "kind": "assembly",
+        "author": "Takeshi Takahashi [RainbowDolphin]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "5770 - Building.ldr",
+        "kind": "assembly",
+        "author": "Takeshi Takahashi [RainbowDolphin]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "5770 - 3039d01.dat",
+        "kind": "part_definition",
+        "author": "Takeshi Takahashi [RainbowDolphin]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "5770 - 4629791a.dat",
+        "kind": "part_definition",
+        "author": "Takeshi Takahashi [RainbowDolphin]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "5770 - 85984d08.dat",
+        "kind": "part_definition",
+        "author": "Takeshi Takahashi [RainbowDolphin]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "5770 - 4629791b.dat",
+        "kind": "part_definition",
+        "author": "Takeshi Takahashi [RainbowDolphin]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "5770 - Lighthouse top.ldr",
+        "kind": "assembly",
+        "author": "Takeshi Takahashi [RainbowDolphin]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "5770 - Minifig.ldr",
+        "kind": "assembly",
+        "author": "Takeshi Takahashi [RainbowDolphin]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "5770 - 3626bp8l.dat",
+        "kind": "part_definition",
+        "author": "Evert-Jan Boer [ejboer]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "5770 - 973pu7.dat",
+        "kind": "part_definition",
+        "author": "Takeshi Takahashi [RainbowDolphin]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "5770 - Boat.ldr",
+        "kind": "assembly",
+        "author": "Takeshi Takahashi [RainbowDolphin]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      }
+    ],
+    "reachable": true
+  },
+  "attribution": [
+    {
+      "section": "5770 - main.ldr",
+      "author": "Takeshi Takahashi [RainbowDolphin]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "5770 - Building.ldr",
+      "author": "Takeshi Takahashi [RainbowDolphin]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "5770 - 3039d01.dat",
+      "author": "Takeshi Takahashi [RainbowDolphin]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "5770 - 4629791a.dat",
+      "author": "Takeshi Takahashi [RainbowDolphin]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "5770 - 85984d08.dat",
+      "author": "Takeshi Takahashi [RainbowDolphin]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "5770 - 4629791b.dat",
+      "author": "Takeshi Takahashi [RainbowDolphin]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "5770 - Lighthouse top.ldr",
+      "author": "Takeshi Takahashi [RainbowDolphin]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "5770 - Minifig.ldr",
+      "author": "Takeshi Takahashi [RainbowDolphin]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "5770 - 3626bp8l.dat",
+      "author": "Evert-Jan Boer [ejboer]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "5770 - 973pu7.dat",
+      "author": "Takeshi Takahashi [RainbowDolphin]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "5770 - Boat.ldr",
+      "author": "Takeshi Takahashi [RainbowDolphin]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    }
+  ],
+  "bounds": {
+    "min": [
+      -500.0,
+      -655.5,
+      -160.0
+    ],
+    "max": [
+      180.0,
+      25.412822985,
+      160.0
+    ]
+  },
+  "size_ldu": [
+    680.0,
+    680.912822985,
+    320.0
+  ],
+  "size_studs_plates_studs": [
+    34.0,
+    85.114102873125,
+    16.0
+  ],
+  "mesh_complete": true,
+  "mesh_diagnostics": [],
+  "raw_assembly_checks_passed": false,
+  "raw_diagnostic_counts": {
+    "header.missing": 1,
+    "part.alias_or_internal": 20,
+    "assembly.nonrigid": 4
+  },
+  "assembly_checks_passed": true,
+  "diagnostics": [
+    {
+      "code": "header.missing",
+      "severity": "warning",
+      "message": "Add a descriptive Name: header.",
+      "line_number": null,
+      "section": "preview-model-e00b558893c77e962a0c3b4c.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 288,
+      "section": "ref-e00b558893c77e96-01-5770---Building.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 408,
+      "section": "ref-e00b558893c77e96-01-5770---Building.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 410,
+      "section": "ref-e00b558893c77e96-01-5770---Building.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 460,
+      "section": "ref-e00b558893c77e96-01-5770---Building.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 476,
+      "section": "ref-e00b558893c77e96-01-5770---Building.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 959,
+      "section": "ref-e00b558893c77e96-06-5770---Lighthouse-top.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 967,
+      "section": "ref-e00b558893c77e96-06-5770---Lighthouse-top.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 969,
+      "section": "ref-e00b558893c77e96-06-5770---Lighthouse-top.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 979,
+      "section": "ref-e00b558893c77e96-06-5770---Lighthouse-top.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 1091,
+      "section": "ref-e00b558893c77e96-07-5770---Minifig.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 1093,
+      "section": "ref-e00b558893c77e96-07-5770---Minifig.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 2559,
+      "section": "ref-e00b558893c77e96-10-5770---Boat.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 2565,
+      "section": "ref-e00b558893c77e96-10-5770---Boat.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 2567,
+      "section": "ref-e00b558893c77e96-10-5770---Boat.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 2571,
+      "section": "ref-e00b558893c77e96-10-5770---Boat.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 2575,
+      "section": "ref-e00b558893c77e96-10-5770---Boat.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 2577,
+      "section": "ref-e00b558893c77e96-10-5770---Boat.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 2603,
+      "section": "ref-e00b558893c77e96-10-5770---Boat.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 2605,
+      "section": "ref-e00b558893c77e96-10-5770---Boat.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 2611,
+      "section": "ref-e00b558893c77e96-10-5770---Boat.ldr"
+    }
+  ],
+  "repairs": [
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "5770 - Minifig.ldr",
+      "source_line": 35,
+      "before": [
+        [
+          0.985,
+          -0.17,
+          0.0
+        ],
+        [
+          0.17,
+          0.985,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "after": [
+        [
+          0.985431221,
+          -0.170074424,
+          0.0
+        ],
+        [
+          0.170074424,
+          0.985431221,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "max_coefficient_change": 0.00043122050910271437
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "5770 - Minifig.ldr",
+      "source_line": 37,
+      "before": [
+        [
+          0.985,
+          0.17,
+          0.0
+        ],
+        [
+          -0.17,
+          0.985,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "after": [
+        [
+          0.985431221,
+          0.170074424,
+          0.0
+        ],
+        [
+          -0.170074424,
+          0.985431221,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "max_coefficient_change": 0.00043122050910271437
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "5770 - Minifig.ldr",
+      "source_line": 39,
+      "before": [
+        [
+          0.985,
+          -0.12019,
+          0.12019
+        ],
+        [
+          0.17,
+          0.696395,
+          -0.696395
+        ],
+        [
+          0.0,
+          0.707,
+          0.707
+        ]
+      ],
+      "after": [
+        [
+          0.985431221,
+          -0.120260778,
+          0.120260778
+        ],
+        [
+          0.170074424,
+          0.696805098,
+          -0.696805098
+        ],
+        [
+          0.0,
+          0.707106781,
+          0.707106781
+        ]
+      ],
+      "max_coefficient_change": 0.0004312205091024923
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "5770 - Minifig.ldr",
+      "source_line": 41,
+      "before": [
+        [
+          0.985,
+          0.12019,
+          -0.12019
+        ],
+        [
+          -0.17,
+          0.696395,
+          -0.696395
+        ],
+        [
+          0.0,
+          0.707,
+          0.707
+        ]
+      ],
+      "after": [
+        [
+          0.985431221,
+          0.120260778,
+          -0.120260778
+        ],
+        [
+          -0.170074424,
+          0.696805098,
+          -0.696805098
+        ],
+        [
+          0.0,
+          0.707106781,
+          0.707106781
+        ]
+      ],
+      "max_coefficient_change": 0.0004312205091024923
+    }
+  ],
+  "geometry": null,
+  "contacts_checked": false,
+  "bom_comparison": {
+    "matches": true,
+    "physical_placements": 516,
+    "leocad_placements": 516,
+    "differences": []
+  },
+  "views": [
+    "home",
+    "front",
+    "right",
+    "top"
+  ],
+  "artifacts": {
+    "source": "source.mpd",
+    "preview": "preview.mpd",
+    "manifest": "extraction.json"
+  },
+  "status": "reference",
+  "visual_review": "pending",
+  "physical_validity": "not_proven",
+  "limitations": [
+    "Bounds describe the source local axes, including protrusions; they are not connection frames.",
+    "Preview colour resolves inherited 16; extraction retains original colours and authorship.",
+    "Passing checks or matching a BOM does not prove connectivity, stability or fit in a new model."
+  ],
+  "artifact_hashes": {
+    "source.mpd": "344b7a82aef8f5b1c38ddc8eed06172db60b2c4019a19939264e6a61aa54206f",
+    "preview.mpd": "9f5a056c5ee188ff5095e467b2f83af5a0c951f55a31865673f0e83d385c609b",
+    "extraction.json": "c7cafe3cb0d7f48f16a00ebf9de5a2aee639e0a26f44288c1812bc52e369bb56",
+    "renders/leocad-bom.csv": "390bc759ce672d598e3961d7cf3d7308a888f88ba3ca2f7528332083f0412863",
+    "renders/home.png": "895ad3e9bc6c56ed42faed8f6dd110013d88a18197880446d66c663c6cc89d31",
+    "renders/front.png": "92fc6a8d30db233db521a94a2602f06d0948619cf83926f93c13b07a9ede67cf",
+    "renders/right.png": "ad2eba7e5303914d6d18f10aee2049c24a1cef21cc9b7190717551c7063aa752",
+    "renders/top.png": "8879b17eee0b38aae0bec8699d68d01a5701d06cd4d71544a2060896a495798d"
+  }
+}

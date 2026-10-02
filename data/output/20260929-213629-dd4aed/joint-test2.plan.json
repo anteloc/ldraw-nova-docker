@@ -1,0 +1,254 @@
+{
+ "version": 1,
+ "author": "joint test",
+ "sections": [
+  {
+   "name": "jt2.ldr",
+   "description": "Lattice fence stacking evidence test",
+   "steps": [
+    [
+     {
+      "id": "dy48dx0-base",
+      "ref": "3710.dat",
+      "colour": 71,
+      "at": [
+       0,
+       -8,
+       0
+      ]
+     },
+     {
+      "id": "dy48dx0-f1",
+      "ref": "3185.dat",
+      "colour": 0,
+      "at": [
+       0,
+       -56,
+       0
+      ]
+     },
+     {
+      "id": "dy48dx0-f2",
+      "ref": "3185.dat",
+      "colour": 0,
+      "at": [
+       0,
+       -104,
+       0
+      ]
+     },
+     {
+      "id": "dy48dx10-base",
+      "ref": "3710.dat",
+      "colour": 71,
+      "at": [
+       200,
+       -8,
+       0
+      ]
+     },
+     {
+      "id": "dy48dx10-f1",
+      "ref": "3185.dat",
+      "colour": 0,
+      "at": [
+       200,
+       -56,
+       0
+      ]
+     },
+     {
+      "id": "dy48dx10-f2",
+      "ref": "3185.dat",
+      "colour": 0,
+      "at": [
+       210,
+       -104,
+       0
+      ]
+     },
+     {
+      "id": "dy44dx0-base",
+      "ref": "3710.dat",
+      "colour": 71,
+      "at": [
+       400,
+       -8,
+       0
+      ]
+     },
+     {
+      "id": "dy44dx0-f1",
+      "ref": "3185.dat",
+      "colour": 0,
+      "at": [
+       400,
+       -56,
+       0
+      ]
+     },
+     {
+      "id": "dy44dx0-f2",
+      "ref": "3185.dat",
+      "colour": 0,
+      "at": [
+       400,
+       -100,
+       0
+      ]
+     },
+     {
+      "id": "dy44dx10-base",
+      "ref": "3710.dat",
+      "colour": 71,
+      "at": [
+       600,
+       -8,
+       0
+      ]
+     },
+     {
+      "id": "dy44dx10-f1",
+      "ref": "3185.dat",
+      "colour": 0,
+      "at": [
+       600,
+       -56,
+       0
+      ]
+     },
+     {
+      "id": "dy44dx10-f2",
+      "ref": "3185.dat",
+      "colour": 0,
+      "at": [
+       610,
+       -100,
+       0
+      ]
+     },
+     {
+      "id": "dy40dx0-base",
+      "ref": "3710.dat",
+      "colour": 71,
+      "at": [
+       800,
+       -8,
+       0
+      ]
+     },
+     {
+      "id": "dy40dx0-f1",
+      "ref": "3185.dat",
+      "colour": 0,
+      "at": [
+       800,
+       -56,
+       0
+      ]
+     },
+     {
+      "id": "dy40dx0-f2",
+      "ref": "3185.dat",
+      "colour": 0,
+      "at": [
+       800,
+       -96,
+       0
+      ]
+     },
+     {
+      "id": "dy52dx0-base",
+      "ref": "3710.dat",
+      "colour": 71,
+      "at": [
+       1000,
+       -8,
+       0
+      ]
+     },
+     {
+      "id": "dy52dx0-f1",
+      "ref": "3185.dat",
+      "colour": 0,
+      "at": [
+       1000,
+       -56,
+       0
+      ]
+     },
+     {
+      "id": "dy52dx0-f2",
+      "ref": "3185.dat",
+      "colour": 0,
+      "at": [
+       1000,
+       -108,
+       0
+      ]
+     },
+     {
+      "id": "cap-base",
+      "ref": "3710.dat",
+      "colour": 71,
+      "at": [
+       1200,
+       -8,
+       0
+      ]
+     },
+     {
+      "id": "cap-f",
+      "ref": "3185.dat",
+      "colour": 0,
+      "at": [
+       1200,
+       -56,
+       0
+      ]
+     },
+     {
+      "id": "cap-plate",
+      "ref": "3710.dat",
+      "colour": 15,
+      "at": [
+       1200,
+       -100,
+       0
+      ]
+     },
+     {
+      "id": "cap2-base",
+      "ref": "3710.dat",
+      "colour": 71,
+      "at": [
+       1400,
+       -8,
+       0
+      ]
+     },
+     {
+      "id": "cap2-f",
+      "ref": "3185.dat",
+      "colour": 0,
+      "at": [
+       1400,
+       -56,
+       0
+      ]
+     },
+     {
+      "id": "cap2-plate",
+      "ref": "3710.dat",
+      "colour": 15,
+      "at": [
+       1400,
+       -104,
+       0
+      ]
+     }
+    ]
+   ]
+  }
+ ]
+}

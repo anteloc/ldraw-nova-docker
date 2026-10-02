@@ -1,0 +1,38 @@
+0 FILE m7-seat-42039-00-42039---seat.ldr
+0 A racing seat assembly built from bent red liftarms forming a backrest and base.
+0 Name: m7-seat-42039-00-42039---seat.ldr
+0 Author: Philippe Hurbain [Philo]
+0 !LDRAW_ORG Model
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 !THEME Technic
+0 // Technic Beam  4 x  6 Liftarm Bent 53.13 (red)
+1 4 -150 0 90 0 -1 0 -0.5 0 0.866 -0.866 0 -0.5 6629.dat
+0 // Technic Axle  5 (light_bluish_grey)
+1 71 -110 0 90 1 0 0 0 -0.5 0.866 0 -0.866 -0.5 32073.dat
+0 // Technic Pin with Friction and Slots (black)
+1 0 -140 86.6025 40 1 0 0 0 -0.5 0.866 0 -0.866 -0.5 2780.dat
+0 // Technic Beam  3 x  3.8 x  7 Liftarm Bent 45 Double (red)
+1 4 -130 112.7631 48.9576 0 -1 0 -0.342 0 0.9397 -0.9397 0 -0.342 32009.dat
+0 STEP
+0 // Technic Bush with Two Flanges (light_bluish_grey)
+1 71 -110 0 90 0 0 -1 -0.5 -0.866 0 -0.866 0.5 0 3713.dat
+0 // Technic Axle  3 (light_bluish_grey)
+1 71 -110 85.4015 -26.2178 1 0 0 0 -0.9397 -0.342 0 0.342 -0.9397 4519.dat
+0 // Technic Bush with Two Flanges (light_bluish_grey)
+1 71 -110 85.4015 -26.2178 0 0 -1 -0.342 -0.9397 0 -0.9397 0.342 0 3713.dat
+0 STEP
+0 // Technic Beam  3 x  3.8 x  7 Liftarm Bent 45 Double (red)
+1 4 -90 112.7631 48.9576 0 -1 0 -0.342 0 0.9397 -0.9397 0 -0.342 32009.dat
+0 // Technic Beam  4 x  6 Liftarm Bent 53.13 (red)
+1 4 -70 0 90 0 -1 0 -0.5 0 0.866 -0.866 0 -0.5 6629.dat
+0 // Technic Pin with Friction and Slots (black)
+1 0 -80 86.6025 40 1 0 0 0 -0.5 0.866 0 -0.866 -0.5 2780.dat
+0 // Technic Axle  4 (black)
+1 0 -120 -37.5877 103.6808 1 0 0 0 -0.342 0.9397 0 -0.9397 -0.342 3705.dat
+0 // Technic Beam  2 Liftarm (light_bluish_grey)
+1 71 -150 -37.5877 103.6808 0 -1 0 0.342 0 -0.9397 0.9397 0 0.342 60483.dat
+
+
+
+0 STEP
+0 NOFILE

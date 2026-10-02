@@ -1,0 +1,137 @@
+{
+  "total": 18,
+  "results": [
+    {
+      "ref": "@plates.Plate4X8RoundSemicircle",
+      "filename": "22888.dat",
+      "description": "Plate  4 x  8 Round Semicircle",
+      "category": "plates",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 160.0,
+        "ldu_y": 12.0,
+        "ldu_z": 80.0,
+        "studs_x": 8,
+        "studs_y": 1,
+        "plates_y": 2,
+        "studs_z": 4
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/plates.py",
+      "line": 412,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        160.0,
+        12.0,
+        80.0
+      ],
+      "dimensions_disagree": false
+    },
+    {
+      "ref": "@plates.Plate8X8WithRoundedEnd",
+      "filename": "41948.dat",
+      "description": "Plate  8 x  8 with Rounded End",
+      "category": "plates",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 160.0,
+        "ldu_y": 12.0,
+        "ldu_z": 160.0,
+        "studs_x": 8,
+        "studs_y": 1,
+        "plates_y": 2,
+        "studs_z": 8
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/plates.py",
+      "line": 464,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        160.0,
+        12.0,
+        160.0
+      ],
+      "dimensions_disagree": false
+    },
+    {
+      "ref": "@plates.Plate8X8WithRoundedCorners",
+      "filename": "65140.dat",
+      "description": "Plate  8 x  8 with Rounded Corners",
+      "category": "plates",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 160.0,
+        "ldu_y": 12.0,
+        "ldu_z": 160.0,
+        "studs_x": 8,
+        "studs_y": 1,
+        "plates_y": 2,
+        "studs_z": 8
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/plates.py",
+      "line": 463,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        160.0,
+        12.0,
+        160.0
+      ],
+      "dimensions_disagree": false
+    },
+    {
+      "ref": "@plates.DuploPlate4X8RoundSemicircle",
+      "filename": "29304.dat",
+      "description": "Duplo Plate  4 x  8 Round Semicircle",
+      "category": "plates",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 320.0,
+        "ldu_y": 35.0,
+        "ldu_z": 160.0,
+        "studs_x": 16,
+        "studs_y": 2,
+        "plates_y": 5,
+        "studs_z": 8
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/plates.py",
+      "line": 59,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        320.0,
+        35.0,
+        160.0
+      ],
+      "dimensions_disagree": false
+    },
+    {
+      "ref": "@plates.Plate8X8RoundWithHoleAndSnapstud",
+      "filename": "74611.dat",
+      "description": "Plate  8 x  8 Round with Hole and Snapstud",
+      "category": "plates",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 160.0,
+        "ldu_y": 12.000299,
+        "ldu_z": 160.0,
+        "studs_x": 8,
+        "studs_y": 1,
+        "plates_y": 2,
+        "studs_z": 8
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/plates.py",
+      "line": 459,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        160.0,
+        12.0003,
+        160.0
+      ],
+      "dimensions_disagree": false
+    }
+  ],
+  "truncated": true,
+  "note": "Source categories are discovery metadata. Dimensions include studs/decorations and are not stacking heights or connection frames. Inspect selected parts; colour/part manufacture combinations are not known."
+}

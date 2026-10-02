@@ -1,0 +1,32 @@
+0 FILE jt-main.ldr
+0 Joint evidence test for the lamppost support
+0 Name: jt-main.ldr
+0 Author: joint test
+0 !LDRAW_ORG Model
+0 // a-foot: plate foot
+1 71 0 -8 0 1 0 0 0 1 0 0 0 1 3022.dat
+0 // a-mast: support on plate
+1 0 0 -176 0 1 0 0 0 1 0 0 0 1 2039.dat
+0 // a-collar: round plate on mast stud
+1 297 0 -184 0 1 0 0 0 1 0 0 0 1 6141.dat
+0 // b-foot: 3022.dat
+1 71 200 -8 0 1 0 0 0 1 0 0 0 1 3022.dat
+0 // b-mast: 2039.dat
+1 0 200 -176 0 1 0 0 0 1 0 0 0 1 2039.dat
+0 // b-cap: square 1x1 plate on mast stud
+1 297 200 -184 0 1 0 0 0 1 0 0 0 1 3024.dat
+0 // c-foot: 3022.dat
+1 71 400 -8 0 1 0 0 0 1 0 0 0 1 3022.dat
+0 // c-mast: 2039.dat
+1 0 400 -176 0 1 0 0 0 1 0 0 0 1 2039.dat
+0 // c-brick: 1x1 brick on mast stud
+1 0 400 -200 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // d-foot: 3022.dat
+1 71 600 -8 0 1 0 0 0 1 0 0 0 1 3022.dat
+0 // d-mast: 2039.dat
+1 0 600 -176 0 1 0 0 0 1 0 0 0 1 2039.dat
+0 // d-plate: 2x2 plate on mast stud
+1 0 600 -184 0 1 0 0 0 1 0 0 0 1 3022.dat
+0 // d-brick: 1x2 brick on the 2x2 plate
+1 0 600 -208 0 1 0 0 0 1 0 0 0 1 3004.dat
+0 NOFILE

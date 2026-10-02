@@ -1,0 +1,508 @@
+{
+  "source": "/opt/ldraw-astra/data/models-annotated/8880-1.mpd",
+  "source_sha256": "66e871ea668099537532fa01272e1f8f6112853b9c9655b03d821295c57fb3ab",
+  "main": "8880 - main.ldr",
+  "section_count": 71,
+  "assembly_count": 70,
+  "embedded_definition_count": 1,
+  "physical_placements": 1410,
+  "reachable_section_count": 71,
+  "unreachable_sections": [],
+  "unique_parts": 130,
+  "max_assembly_depth": 4,
+  "sections": [
+    {
+      "name": "8880 - main.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 489,
+      "physical_placements": 1410,
+      "steps": 36
+    },
+    {
+      "name": "8880 - step4sub1.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 10,
+      "physical_placements": 10,
+      "steps": 2
+    },
+    {
+      "name": "8880 - step4sub2.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 10,
+      "physical_placements": 10,
+      "steps": 2
+    },
+    {
+      "name": "8880 - step5.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 10,
+      "physical_placements": 10,
+      "steps": 2
+    },
+    {
+      "name": "8880 - step6.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 10,
+      "physical_placements": 10,
+      "steps": 2
+    },
+    {
+      "name": "8880 - step8sub1.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 6,
+      "physical_placements": 6,
+      "steps": 2
+    },
+    {
+      "name": "8880 - step8sub2.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 6,
+      "physical_placements": 6,
+      "steps": 2
+    },
+    {
+      "name": "8880 - step9.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 4,
+      "direct_placements": 8,
+      "physical_placements": 8,
+      "steps": 2
+    },
+    {
+      "name": "8880 - step10sub1.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 17,
+      "physical_placements": 17,
+      "steps": 3
+    },
+    {
+      "name": "8880 - step10sub2.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 20,
+      "physical_placements": 20,
+      "steps": 4
+    },
+    {
+      "name": "8880 - step12.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 5,
+      "physical_placements": 5,
+      "steps": 1
+    },
+    {
+      "name": "8880 - step13.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 26,
+      "physical_placements": 26,
+      "steps": 5
+    },
+    {
+      "name": "8880 - step15.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 2,
+      "direct_placements": 18,
+      "physical_placements": 18,
+      "steps": 5
+    },
+    {
+      "name": "8880 - step16.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 4,
+      "direct_placements": 3,
+      "physical_placements": 3,
+      "steps": 1
+    },
+    {
+      "name": "8880 - step17sub1.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 4,
+      "physical_placements": 4,
+      "steps": 1
+    },
+    {
+      "name": "8880 - step17sub2.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 4,
+      "physical_placements": 4,
+      "steps": 1
+    },
+    {
+      "name": "8880 - step18sub1.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 2,
+      "direct_placements": 3,
+      "physical_placements": 3,
+      "steps": 1
+    },
+    {
+      "name": "8880 - step18sub2.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 2,
+      "direct_placements": 3,
+      "physical_placements": 3,
+      "steps": 1
+    },
+    {
+      "name": "8880 - step19.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 2,
+      "direct_placements": 9,
+      "physical_placements": 9,
+      "steps": 2
+    },
+    {
+      "name": "8880 - step20.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 14,
+      "physical_placements": 14,
+      "steps": 3
+    },
+    {
+      "name": "8880 - step21sub1.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 9,
+      "physical_placements": 9,
+      "steps": 2
+    },
+    {
+      "name": "8880 - step21sub2.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 9,
+      "physical_placements": 9,
+      "steps": 3
+    },
+    {
+      "name": "8880 - step23.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 22,
+      "physical_placements": 22,
+      "steps": 4
+    },
+    {
+      "name": "8880 - step23sub2.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 4,
+      "physical_placements": 4,
+      "steps": 1
+    },
+    {
+      "name": "8880 - step24shock.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 8,
+      "direct_placements": 3,
+      "physical_placements": 2,
+      "steps": 1
+    },
+    {
+      "name": "8880 - step24shock_springMesh.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 8,
+      "direct_placements": 0,
+      "physical_placements": 0,
+      "steps": 1
+    },
+    {
+      "name": "8880 - step25.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 4,
+      "direct_placements": 4,
+      "physical_placements": 4,
+      "steps": 1
+    },
+    {
+      "name": "8880 - step26.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 6,
+      "physical_placements": 6,
+      "steps": 1
+    },
+    {
+      "name": "8880 - step27-1-5.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 25,
+      "physical_placements": 25,
+      "steps": 5
+    },
+    {
+      "name": "8880 - step27-6.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 14,
+      "physical_placements": 14,
+      "steps": 1
+    }
+  ],
+  "source_checks_passed": false,
+  "diagnostic_counts": {
+    "encoding.line_endings": 1,
+    "part.alias_or_internal": 115,
+    "assembly.nonrigid": 191,
+    "coverage.raw_geometry": 6184,
+    "geometry.nonplanar": 2048
+  },
+  "diagnostics": [
+    {
+      "code": "encoding.line_endings",
+      "severity": "warning",
+      "message": "Use CRLF when delivering new files (PDF p.62).",
+      "line_number": null,
+      "section": null
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 66,
+      "section": "8880 - main.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 77,
+      "section": "8880 - main.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 99,
+      "section": "8880 - main.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 175,
+      "section": "8880 - main.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 177,
+      "section": "8880 - main.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 198,
+      "section": "8880 - main.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 200,
+      "section": "8880 - main.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 218,
+      "section": "8880 - main.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 220,
+      "section": "8880 - main.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 282,
+      "section": "8880 - main.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 284,
+      "section": "8880 - main.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 343,
+      "section": "8880 - main.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 345,
+      "section": "8880 - main.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 347,
+      "section": "8880 - main.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 349,
+      "section": "8880 - main.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 351,
+      "section": "8880 - main.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 353,
+      "section": "8880 - main.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 355,
+      "section": "8880 - main.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 357,
+      "section": "8880 - main.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 358,
+      "section": "8880 - main.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 359,
+      "section": "8880 - main.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 360,
+      "section": "8880 - main.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 361,
+      "section": "8880 - main.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 388,
+      "section": "8880 - main.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 390,
+      "section": "8880 - main.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 406,
+      "section": "8880 - main.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 408,
+      "section": "8880 - main.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 410,
+      "section": "8880 - main.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 412,
+      "section": "8880 - main.ldr"
+    }
+  ],
+  "detail": "summary",
+  "sections_truncated": true,
+  "diagnostics_truncated": true
+}

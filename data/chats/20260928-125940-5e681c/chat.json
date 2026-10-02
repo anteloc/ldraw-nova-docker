@@ -1,0 +1,13 @@
+{
+  "id": "20260928-125940-5e681c",
+  "title": "build me the best building model you can think of; you are t\u2026",
+  "llm_model_id": "6c2d091b9c22",
+  "created_at": 1790600380.2215383,
+  "updated_at": 1790603292.058981,
+  "options": {
+    "mode": "agent",
+    "permissions": "full",
+    "effort": "xhigh",
+    "context_tokens": null
+  }
+}

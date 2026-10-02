@@ -1,0 +1,22 @@
+{
+  "source": "/opt/ldraw-astra/data/models-annotated/42039-1.mpd",
+  "source_sha256": "7fde2504708675be12c4a1e4a1cb1ba318a05a340bf5505b388750f9e744b12e",
+  "source_section": "42039 - steeringrack.ldr",
+  "parser_section": "42039 - steeringrack.ldr",
+  "root": "m6-rack-42039-00-42039---steeringrack.ldr",
+  "renames": {
+    "42039 - steeringrack.ldr": "m6-rack-42039-00-42039---steeringrack.ldr"
+  },
+  "attribution": [
+    {
+      "section": "42039 - steeringrack.ldr",
+      "author": "Philippe Hurbain [Philo]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    }
+  ],
+  "changes": [],
+  "output_sha256": "59c6ebdda71c0d953a42e1115492d628dd6c235f27e78a663949ad7197fb2558",
+  "note": "Original authors and licences retained. Source bytes unchanged. Extraction is not validation or permission to relicense.",
+  "syntax_checks_passed": true,
+  "diagnostics": []
+}

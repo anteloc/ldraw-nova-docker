@@ -1,0 +1,4386 @@
+0 FILE tidal-observatory.ldr
+0 The Tidal Observatory - limestone marine institute, copper dome and weather lantern on a harbor quay
+0 Name: tidal-observatory.ldr
+0 Author: OpenAI - original Tidal Observatory design
+0 !LDRAW_ORG Model
+0 // quay: quay
+1 19 0 0 0 1 0 0 0 1 0 0 0 1 tidal-quay.ldr
+0 STEP
+0 // hall-ground: hall ground
+1 19 -120 -48 80 1 0 0 0 1 0 0 0 1 tidal-ground-hall.ldr
+0 // hall-upper: hall upper
+1 19 -120 -280 80 1 0 0 0 1 0 0 0 1 tidal-upper-hall.ldr
+0 // observatory-roof: observatory roof
+1 19 -120 -464 80 1 0 0 0 1 0 0 0 1 tidal-dome-roof.ldr
+0 STEP
+0 // tower-base: tower base
+1 19 300 -48 100 1 0 0 0 1 0 0 0 1 tidal-tower-base.ldr
+0 // tower-middle: tower middle
+1 19 300 -280 100 1 0 0 0 1 0 0 0 1 tidal-tower-middle.ldr
+0 // tower-collar: tower collar
+1 19 300 -464 100 1 0 0 0 1 0 0 0 1 tidal-tower-collar.ldr
+0 // lantern: lantern
+1 19 300 -568 100 1 0 0 0 1 0 0 0 1 tidal-lantern.ldr
+0 // lantern-roof: lantern roof
+1 19 300 -736 100 1 0 0 0 1 0 0 0 1 tidal-lantern-roof.ldr
+0 NOFILE
+0 FILE tidal-tall-bay.ldr
+0 Recessed blue glazing, limestone arch and projecting white sill
+0 Name: tidal-tall-bay.ldr
+0 Author: OpenAI - original Tidal Observatory design
+0 !LDRAW_ORG Model
+0 // sill: sill
+1 15 0 -8 -10 1 0 0 0 1 0 0 0 1 3795.dat
+0 STEP
+0 // pier--1-0: pier  1 0
+1 19 -50 -32 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier--1-1: pier  1 1
+1 19 -50 -56 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier--1-2: pier  1 2
+1 19 -50 -80 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier--1-3: pier  1 3
+1 19 -50 -104 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier--1-4: pier  1 4
+1 19 -50 -128 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier--1-5: pier  1 5
+1 19 -50 -152 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier-1-0: pier 1 0
+1 19 50 -32 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier-1-1: pier 1 1
+1 19 50 -56 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier-1-2: pier 1 2
+1 19 50 -80 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier-1-3: pier 1 3
+1 19 50 -104 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier-1-4: pier 1 4
+1 19 50 -128 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier-1-5: pier 1 5
+1 19 50 -152 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // frame: frame
+1 272 0 -152 0 1 0 0 0 1 0 0 0 1 60596.dat
+0 // glass: glass
+1 47 0 -147 5 1 0 0 0 1 0 0 0 1 57895.dat
+0 STEP
+0 // arch: arch
+1 19 0 -200 0 1 0 0 0 1 0 0 0 1 3307.dat
+0 NOFILE
+0 FILE tidal-short-bay.ldr
+0 Recessed blue glazing, limestone arch and projecting white sill
+0 Name: tidal-short-bay.ldr
+0 Author: OpenAI - original Tidal Observatory design
+0 !LDRAW_ORG Model
+0 // sill: sill
+1 15 0 -8 -10 1 0 0 0 1 0 0 0 1 3795.dat
+0 STEP
+0 // pier--1-0: pier  1 0
+1 19 -50 -32 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier--1-1: pier  1 1
+1 19 -50 -56 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier--1-2: pier  1 2
+1 19 -50 -80 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier-1-0: pier 1 0
+1 19 50 -32 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier-1-1: pier 1 1
+1 19 50 -56 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier-1-2: pier 1 2
+1 19 50 -80 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // frame: frame
+1 272 0 -80 0 1 0 0 0 1 0 0 0 1 60594.dat
+0 // pane-left: pane left
+1 47 -32 -76 4 0 0 -1 0 1 0 1 0 0 60608.dat
+0 // pane-right: pane right
+1 47 32 -76 4 0 0 1 0 1 0 -1 0 0 60608.dat
+0 STEP
+0 // arch: arch
+1 19 0 -128 0 1 0 0 0 1 0 0 0 1 3307.dat
+0 NOFILE
+0 FILE tidal-door-bay.ldr
+0 Recessed blue glazing, limestone arch and projecting white sill
+0 Name: tidal-door-bay.ldr
+0 Author: OpenAI - original Tidal Observatory design
+0 !LDRAW_ORG Model
+0 // sill: sill
+1 15 0 -8 -10 1 0 0 0 1 0 0 0 1 3795.dat
+0 STEP
+0 // pier--1-0: pier  1 0
+1 19 -50 -32 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier--1-1: pier  1 1
+1 19 -50 -56 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier--1-2: pier  1 2
+1 19 -50 -80 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier--1-3: pier  1 3
+1 19 -50 -104 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier--1-4: pier  1 4
+1 19 -50 -128 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier--1-5: pier  1 5
+1 19 -50 -152 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier-1-0: pier 1 0
+1 19 50 -32 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier-1-1: pier 1 1
+1 19 50 -56 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier-1-2: pier 1 2
+1 19 50 -80 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier-1-3: pier 1 3
+1 19 50 -104 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier-1-4: pier 1 4
+1 19 50 -128 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // pier-1-5: pier 1 5
+1 19 50 -152 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // frame: frame
+1 272 0 -152 0 1 0 0 0 1 0 0 0 1 60596.dat
+0 // door: door
+1 272 -32 -152 5 1 0 0 0 1 0 0 0 1 60623.dat
+0 STEP
+0 // arch: arch
+1 19 0 -200 0 1 0 0 0 1 0 0 0 1 3307.dat
+0 NOFILE
+0 FILE tidal-slit-window.ldr
+0 Two two-stud frames stacked with matching panes
+0 Name: tidal-slit-window.ldr
+0 Author: OpenAI - original Tidal Observatory design
+0 !LDRAW_ORG Model
+0 // frame: frame
+1 272 0 -48 0 1 0 0 0 1 0 0 0 1 60592.dat
+0 // glass: glass
+1 47 0 -48 0 1 0 0 0 1 0 0 0 1 60601.dat
+0 // frame-upper: frame upper
+1 272 0 -96 0 1 0 0 0 1 0 0 0 1 60592.dat
+0 // glass-upper: glass upper
+1 47 0 -96 0 1 0 0 0 1 0 0 0 1 60601.dat
+0 NOFILE
+0 FILE tidal-bookcase.ldr
+0 Marine archive with three shelves and individually colored volumes
+0 Name: tidal-bookcase.ldr
+0 Author: OpenAI - original Tidal Observatory design
+0 !LDRAW_ORG Model
+0 // leg--50-0: leg  50 0
+1 70 -50 -24 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // leg--50-1: leg  50 1
+1 70 -50 -56 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // leg--50-2: leg  50 2
+1 70 -50 -88 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // leg-50-0: leg 50 0
+1 70 50 -24 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // leg-50-1: leg 50 1
+1 70 50 -56 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // leg-50-2: leg 50 2
+1 70 50 -88 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 STEP
+0 // shelf-0: shelf 0
+1 70 0 -32 0 1 0 0 0 1 0 0 0 1 3666.dat
+0 // shelf-1: shelf 1
+1 70 0 -64 0 1 0 0 0 1 0 0 0 1 3666.dat
+0 // shelf-2: shelf 2
+1 70 0 -96 0 1 0 0 0 1 0 0 0 1 3666.dat
+0 STEP
+0 // volume-0-0: volume 0 0
+1 272 -30 -24 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // volume-0-1: volume 0 1
+1 378 -10 -24 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // volume-0-2: volume 0 2
+1 320 10 -24 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // volume-0-3: volume 0 3
+1 70 30 -24 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // volume-1-0: volume 1 0
+1 378 -30 -56 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // volume-1-1: volume 1 1
+1 320 -10 -56 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // volume-1-2: volume 1 2
+1 70 10 -56 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // volume-1-3: volume 1 3
+1 19 30 -56 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // volume-2-0: volume 2 0
+1 320 -30 -88 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // volume-2-1: volume 2 1
+1 70 -10 -88 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // volume-2-2: volume 2 2
+1 19 10 -88 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 // volume-2-3: volume 2 3
+1 272 30 -88 0 1 0 0 0 1 0 0 0 1 3005.dat
+0 NOFILE
+0 FILE tidal-chart-table.ldr
+0 Nautical chart desk with brass lamp
+0 Name: tidal-chart-table.ldr
+0 Author: OpenAI - original Tidal Observatory design
+0 !LDRAW_ORG Model
+0 // leg--50--10: leg  50  10
+1 70 -50 -24 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // leg--50-10: leg  50 10
+1 70 -50 -24 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // leg-50--10: leg 50  10
+1 70 50 -24 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // leg-50-10: leg 50 10
+1 70 50 -24 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 STEP
+0 // tabletop: tabletop
+1 70 0 -32 0 1 0 0 0 1 0 0 0 1 3795.dat
+0 STEP
+0 // nautical-chart: nautical chart
+1 19 -20 -40 0 1 0 0 0 1 0 0 0 1 3068bp32.dat
+0 // inkwell: inkwell
+1 0 30 -40 10 1 0 0 0 1 0 0 0 1 6141.dat
+0 // lamp-foot: lamp foot
+1 297 50 -40 -10 1 0 0 0 1 0 0 0 1 6141.dat
+0 // lamp-stem: lamp stem
+1 297 50 -64 -10 1 0 0 0 1 0 0 0 1 3062b.dat
+0 // lamp-shade: lamp shade
+1 378 50 -72 -10 1 0 0 0 1 0 0 0 1 4740.dat
+0 NOFILE
+0 FILE tidal-bench.ldr
+0 Teak harbor bench with backrest
+0 Name: tidal-bench.ldr
+0 Author: OpenAI - original Tidal Observatory design
+0 !LDRAW_ORG Model
+0 // leg-left: leg left
+1 0 -50 -24 0 0 0 1 0 1 0 -1 0 0 3004.dat
+0 // leg-right: leg right
+1 0 50 -24 0 0 0 1 0 1 0 -1 0 0 3004.dat
+0 STEP
+0 // seat: seat
+1 70 0 -32 0 1 0 0 0 1 0 0 0 1 3795.dat
+0 STEP
+0 // back-l: back l
+1 70 -40 -56 10 1 0 0 0 1 0 0 0 1 4865b.dat
+0 // back-m: back m
+1 70 0 -56 10 1 0 0 0 1 0 0 0 1 4865b.dat
+0 // back-r: back r
+1 70 40 -56 10 1 0 0 0 1 0 0 0 1 4865b.dat
+0 NOFILE
+0 FILE tidal-planter.ldr
+0 Stone coastal planter with layered windswept leaves and pale flowers
+0 Name: tidal-planter.ldr
+0 Author: OpenAI - original Tidal Observatory design
+0 !LDRAW_ORG Model
+0 // foot: foot
+1 72 0 -8 0 1 0 0 0 1 0 0 0 1 3031.dat
+0 // soil: soil
+1 320 -20 -32 0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // soil-r: soil r
+1 320 20 -32 0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // cap: cap
+1 19 0 -40 0 1 0 0 0 1 0 0 0 1 3031.dat
+0 STEP
+0 // trunk: trunk
+1 70 -10 -64 10 1 0 0 0 1 0 0 0 1 3062b.dat
+0 // leaves-low: leaves low
+1 288 -10 -72 10 0.866025403784 0 -0.5 0 1 0 0.5 0 0.866025403784 2423.dat
+0 // leaves-high: leaves high
+1 2 -10 -80 10 -0.766044443119 0 0.642787609687 0 1 0 -0.642787609687 0 -0.766044443119 2423.dat
+0 // flower-a: flower a
+1 15 -10 -88 10 1 0 0 0 1 0 0 0 1 24866.dat
+0 // flower-b: flower b
+1 25 10 -48 -10 1 0 0 0 1 0 0 0 1 24866.dat
+0 NOFILE
+0 FILE tidal-lamp.ldr
+0 Slender brass-collared quay light with an amber lantern
+0 Name: tidal-lamp.ldr
+0 Author: OpenAI - original Tidal Observatory design
+0 !LDRAW_ORG Model
+0 // base: base
+1 0 0 -8 0 1 0 0 0 1 0 0 0 1 3022.dat
+0 // jumper: jumper
+1 0 0 -16 -10 1 0 0 0 1 0 0 0 1 3794b.dat
+0 STEP
+0 // post-0: post 0
+1 0 0 -40 -10 1 0 0 0 1 0 0 0 1 3062b.dat
+0 // post-1: post 1
+1 0 0 -64 -10 1 0 0 0 1 0 0 0 1 3062b.dat
+0 // post-2: post 2
+1 0 0 -88 -10 1 0 0 0 1 0 0 0 1 3062b.dat
+0 // post-3: post 3
+1 0 0 -112 -10 1 0 0 0 1 0 0 0 1 3062b.dat
+0 STEP
+0 // collar: collar
+1 297 0 -120 -10 1 0 0 0 1 0 0 0 1 6141.dat
+0 // light: light
+1 46 0 -144 -10 1 0 0 0 1 0 0 0 1 3062b.dat
+0 // shade: shade
+1 0 0 -152 -10 1 0 0 0 1 0 0 0 1 4740.dat
+0 // finial: finial
+1 0 0 -176 -10 1 0 0 0 1 0 0 0 1 4589.dat
+0 NOFILE
+0 FILE tidal-instrument.ldr
+0 Static brass zenith instrument on a pedestal, with blue circular lens
+0 Name: tidal-instrument.ldr
+0 Author: OpenAI - original Tidal Observatory design
+0 !LDRAW_ORG Model
+0 // plinth: plinth
+1 15 0 -8 0 1 0 0 0 1 0 0 0 1 3022.dat
+0 // shaft: shaft
+1 297 0 -32 0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // shaft2: shaft2
+1 297 0 -56 0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // head: head
+1 0 0 -64 0 1 0 0 0 1 0 0 0 1 3022.dat
+0 // optic: optic
+1 41 0 -72 0 1 0 0 0 1 0 0 0 1 4150.dat
+0 NOFILE
+0 FILE tidal-ground-hall.ldr
+0 Furnished limestone marine chart hall with broad rear exhibit cutaway
+0 Name: tidal-ground-hall.ldr
+0 Author: OpenAI - original Tidal Observatory design
+0 !LDRAW_ORG Model
+0 // deck-under-0: deck under 0
+1 72 -160 8 -140 1 0 0 0 1 0 0 0 1 3028.dat
+0 // deck-under-1: deck under 1
+1 72 80 8 -140 1 0 0 0 1 0 0 0 1 3028.dat
+0 // deck-under-2: deck under 2
+1 72 240 8 -80 0 0 1 0 1 0 -1 0 0 3029.dat
+0 // deck-under-3: deck under 3
+1 72 -160 8 -20 1 0 0 0 1 0 0 0 1 3028.dat
+0 // deck-under-4: deck under 4
+1 72 80 8 -20 1 0 0 0 1 0 0 0 1 3028.dat
+0 // deck-under-5: deck under 5
+1 72 -160 8 100 1 0 0 0 1 0 0 0 1 3028.dat
+0 // deck-under-6: deck under 6
+1 72 80 8 100 1 0 0 0 1 0 0 0 1 3028.dat
+0 // deck-under-7: deck under 7
+1 72 240 8 120 0 0 1 0 1 0 -1 0 0 3035.dat
+0 // deck-under-8: deck under 8
+1 72 -200 8 180 1 0 0 0 1 0 0 0 1 3034.dat
+0 // deck-under-9: deck under 9
+1 72 -40 8 180 1 0 0 0 1 0 0 0 1 3034.dat
+0 // deck-under-10: deck under 10
+1 72 120 8 180 1 0 0 0 1 0 0 0 1 3034.dat
+0 STEP
+0 // deck-top-0-0-0: deck top 0 0 0
+1 320 -260 0 -180 1 0 0 0 1 0 0 0 1 3022.dat
+0 // deck-top-0-1-0: deck top 0 1 0
+1 320 -260 0 -80 0 0 1 0 1 0 -1 0 0 3034.dat
+0 // deck-top-0-1-1: deck top 0 1 1
+1 320 -260 0 80 0 0 1 0 1 0 -1 0 0 3034.dat
+0 // deck-top-0-2-0: deck top 0 2 0
+1 320 -260 0 180 1 0 0 0 1 0 0 0 1 3022.dat
+0 // deck-top-1-0-0: deck top 1 0 0
+1 320 -160 0 -180 1 0 0 0 1 0 0 0 1 3034.dat
+0 // deck-top-1-0-1: deck top 1 0 1
+1 320 0 0 -180 1 0 0 0 1 0 0 0 1 3034.dat
+0 // deck-top-1-0-2: deck top 1 0 2
+1 320 160 0 -180 1 0 0 0 1 0 0 0 1 3034.dat
+0 // deck-top-1-1-0: deck top 1 1 0
+1 320 -120 0 -100 1 0 0 0 1 0 0 0 1 3028.dat
+0 // deck-top-1-1-1: deck top 1 1 1
+1 320 120 0 -100 1 0 0 0 1 0 0 0 1 3028.dat
+0 // deck-top-1-1-2: deck top 1 1 2
+1 320 -120 0 20 1 0 0 0 1 0 0 0 1 3028.dat
+0 // deck-top-1-1-3: deck top 1 1 3
+1 320 120 0 20 1 0 0 0 1 0 0 0 1 3028.dat
+0 // deck-top-1-1-4: deck top 1 1 4
+1 320 -120 0 120 1 0 0 0 1 0 0 0 1 3029.dat
+0 // deck-top-1-1-5: deck top 1 1 5
+1 320 120 0 120 1 0 0 0 1 0 0 0 1 3029.dat
+0 // deck-top-1-2-0: deck top 1 2 0
+1 320 -160 0 180 1 0 0 0 1 0 0 0 1 3034.dat
+0 // deck-top-1-2-1: deck top 1 2 1
+1 320 0 0 180 1 0 0 0 1 0 0 0 1 3034.dat
+0 // deck-top-1-2-2: deck top 1 2 2
+1 320 160 0 180 1 0 0 0 1 0 0 0 1 3034.dat
+0 // deck-top-2-0-0: deck top 2 0 0
+1 320 260 0 -180 1 0 0 0 1 0 0 0 1 3022.dat
+0 // deck-top-2-1-0: deck top 2 1 0
+1 320 260 0 -80 0 0 1 0 1 0 -1 0 0 3034.dat
+0 // deck-top-2-1-1: deck top 2 1 1
+1 320 260 0 80 0 0 1 0 1 0 -1 0 0 3034.dat
+0 // deck-top-2-2-0: deck top 2 2 0
+1 320 260 0 180 1 0 0 0 1 0 0 0 1 3022.dat
+0 STEP
+0 // wall-0-0: wall 0 0
+1 320 -260 -24 -190 1 0 0 0 1 0 0 0 1 3004.dat
+0 // wall-0-1: wall 0 1
+1 320 -90 -24 -190 1 0 0 0 1 0 0 0 1 3622.dat
+0 // wall-0-2: wall 0 2
+1 320 90 -24 -190 1 0 0 0 1 0 0 0 1 3622.dat
+0 // wall-0-3: wall 0 3
+1 320 260 -24 -190 1 0 0 0 1 0 0 0 1 3004.dat
+0 // wall-0-4: wall 0 4
+1 320 -270 -24 -170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-5: wall 0 5
+1 320 270 -24 -170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-6: wall 0 6
+1 320 -270 -24 -150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-7: wall 0 7
+1 320 270 -24 -150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-8: wall 0 8
+1 320 -270 -24 -130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-9: wall 0 9
+1 320 270 -24 -130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-10: wall 0 10
+1 320 -270 -24 -110 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-11: wall 0 11
+1 320 270 -24 -110 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-12: wall 0 12
+1 320 -270 -24 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-13: wall 0 13
+1 320 270 -24 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-14: wall 0 14
+1 320 -270 -24 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-15: wall 0 15
+1 320 270 -24 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-16: wall 0 16
+1 320 -270 -24 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-17: wall 0 17
+1 320 270 -24 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-18: wall 0 18
+1 320 -270 -24 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-19: wall 0 19
+1 320 270 -24 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-20: wall 0 20
+1 320 -270 -24 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-21: wall 0 21
+1 320 270 -24 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-22: wall 0 22
+1 320 -270 -24 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-23: wall 0 23
+1 320 270 -24 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-24: wall 0 24
+1 320 -270 -24 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-25: wall 0 25
+1 320 270 -24 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-26: wall 0 26
+1 320 -270 -24 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-27: wall 0 27
+1 320 270 -24 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-28: wall 0 28
+1 320 -270 -24 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-29: wall 0 29
+1 320 270 -24 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-30: wall 0 30
+1 320 -270 -24 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-31: wall 0 31
+1 320 270 -24 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-32: wall 0 32
+1 320 -270 -24 110 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-33: wall 0 33
+1 320 270 -24 110 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-34: wall 0 34
+1 320 -270 -24 130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-35: wall 0 35
+1 320 270 -24 130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-36: wall 0 36
+1 320 -270 -24 150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-37: wall 0 37
+1 320 270 -24 150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-38: wall 0 38
+1 320 -270 -24 170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-39: wall 0 39
+1 320 270 -24 170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-40: wall 0 40
+1 320 -200 -24 190 1 0 0 0 1 0 0 0 1 3008.dat
+0 // wall-0-41: wall 0 41
+1 320 -40 -24 190 1 0 0 0 1 0 0 0 1 3008.dat
+0 // wall-0-42: wall 0 42
+1 320 120 -24 190 1 0 0 0 1 0 0 0 1 3008.dat
+0 // wall-0-43: wall 0 43
+1 320 240 -24 190 1 0 0 0 1 0 0 0 1 3010.dat
+0 STEP
+0 // wall-1-0: wall 1 0
+1 19 -260 -48 -190 1 0 0 0 1 0 0 0 1 3004.dat
+0 // wall-1-1: wall 1 1
+1 19 -90 -48 -190 1 0 0 0 1 0 0 0 1 3622.dat
+0 // wall-1-2: wall 1 2
+1 19 90 -48 -190 1 0 0 0 1 0 0 0 1 3622.dat
+0 // wall-1-3: wall 1 3
+1 19 260 -48 -190 1 0 0 0 1 0 0 0 1 3004.dat
+0 // wall-1-4: wall 1 4
+1 19 -270 -48 -170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-5: wall 1 5
+1 19 270 -48 -170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-6: wall 1 6
+1 19 -270 -48 -150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-7: wall 1 7
+1 19 270 -48 -150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-8: wall 1 8
+1 19 -270 -48 -130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-9: wall 1 9
+1 19 270 -48 -130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-10: wall 1 10
+1 19 -270 -48 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-11: wall 1 11
+1 19 270 -48 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-12: wall 1 12
+1 19 -270 -48 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-13: wall 1 13
+1 19 270 -48 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-14: wall 1 14
+1 19 -270 -48 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-15: wall 1 15
+1 19 270 -48 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-16: wall 1 16
+1 19 -270 -48 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-17: wall 1 17
+1 19 270 -48 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-18: wall 1 18
+1 19 -270 -48 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-19: wall 1 19
+1 19 270 -48 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-20: wall 1 20
+1 19 -270 -48 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-21: wall 1 21
+1 19 270 -48 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-22: wall 1 22
+1 19 -270 -48 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-23: wall 1 23
+1 19 270 -48 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-24: wall 1 24
+1 19 -270 -48 110 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-25: wall 1 25
+1 19 270 -48 110 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-26: wall 1 26
+1 19 -270 -48 130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-27: wall 1 27
+1 19 270 -48 130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-28: wall 1 28
+1 19 -270 -48 150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-29: wall 1 29
+1 19 270 -48 150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-30: wall 1 30
+1 19 -270 -48 170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-31: wall 1 31
+1 19 270 -48 170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-32: wall 1 32
+1 19 -240 -48 190 1 0 0 0 1 0 0 0 1 3010.dat
+0 // wall-1-33: wall 1 33
+1 19 240 -48 190 1 0 0 0 1 0 0 0 1 3010.dat
+0 STEP
+0 // wall-2-0: wall 2 0
+1 19 -260 -72 -190 1 0 0 0 1 0 0 0 1 3004.dat
+0 // wall-2-1: wall 2 1
+1 19 -90 -72 -190 1 0 0 0 1 0 0 0 1 3622.dat
+0 // wall-2-2: wall 2 2
+1 19 90 -72 -190 1 0 0 0 1 0 0 0 1 3622.dat
+0 // wall-2-3: wall 2 3
+1 19 260 -72 -190 1 0 0 0 1 0 0 0 1 3004.dat
+0 // wall-2-4: wall 2 4
+1 19 -270 -72 -170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-5: wall 2 5
+1 19 270 -72 -170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-6: wall 2 6
+1 19 -270 -72 -150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-7: wall 2 7
+1 19 270 -72 -150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-8: wall 2 8
+1 19 -270 -72 -130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-9: wall 2 9
+1 19 270 -72 -130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-10: wall 2 10
+1 19 -270 -72 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-11: wall 2 11
+1 19 270 -72 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-12: wall 2 12
+1 19 -270 -72 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-13: wall 2 13
+1 19 270 -72 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-14: wall 2 14
+1 19 -270 -72 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-15: wall 2 15
+1 19 270 -72 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-16: wall 2 16
+1 19 -270 -72 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-17: wall 2 17
+1 19 270 -72 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-18: wall 2 18
+1 19 -270 -72 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-19: wall 2 19
+1 19 270 -72 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-20: wall 2 20
+1 19 -270 -72 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-21: wall 2 21
+1 19 270 -72 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-22: wall 2 22
+1 19 -270 -72 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-23: wall 2 23
+1 19 270 -72 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-24: wall 2 24
+1 19 -270 -72 110 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-25: wall 2 25
+1 19 270 -72 110 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-26: wall 2 26
+1 19 -270 -72 130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-27: wall 2 27
+1 19 270 -72 130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-28: wall 2 28
+1 19 -270 -72 150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-29: wall 2 29
+1 19 270 -72 150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-30: wall 2 30
+1 19 -270 -72 170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-31: wall 2 31
+1 19 270 -72 170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-32: wall 2 32
+1 19 -240 -72 190 1 0 0 0 1 0 0 0 1 3010.dat
+0 // wall-2-33: wall 2 33
+1 19 240 -72 190 1 0 0 0 1 0 0 0 1 3010.dat
+0 STEP
+0 // wall-3-0: wall 3 0
+1 19 -260 -96 -190 1 0 0 0 1 0 0 0 1 3004.dat
+0 // wall-3-1: wall 3 1
+1 19 -90 -96 -190 1 0 0 0 1 0 0 0 1 3622.dat
+0 // wall-3-2: wall 3 2
+1 19 90 -96 -190 1 0 0 0 1 0 0 0 1 3622.dat
+0 // wall-3-3: wall 3 3
+1 19 260 -96 -190 1 0 0 0 1 0 0 0 1 3004.dat
+0 // wall-3-4: wall 3 4
+1 19 -270 -96 -170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-5: wall 3 5
+1 19 270 -96 -170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-6: wall 3 6
+1 19 -270 -96 -150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-7: wall 3 7
+1 19 270 -96 -150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-8: wall 3 8
+1 19 -270 -96 -130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-9: wall 3 9
+1 19 270 -96 -130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-10: wall 3 10
+1 19 -270 -96 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-11: wall 3 11
+1 19 270 -96 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-12: wall 3 12
+1 19 -270 -96 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-13: wall 3 13
+1 19 270 -96 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-14: wall 3 14
+1 19 -270 -96 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-15: wall 3 15
+1 19 270 -96 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-16: wall 3 16
+1 19 -270 -96 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-17: wall 3 17
+1 19 270 -96 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-18: wall 3 18
+1 19 -270 -96 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-19: wall 3 19
+1 19 270 -96 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-20: wall 3 20
+1 19 -270 -96 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-21: wall 3 21
+1 19 270 -96 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-22: wall 3 22
+1 19 -270 -96 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-23: wall 3 23
+1 19 270 -96 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-24: wall 3 24
+1 19 -270 -96 110 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-25: wall 3 25
+1 19 270 -96 110 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-26: wall 3 26
+1 19 -270 -96 130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-27: wall 3 27
+1 19 270 -96 130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-28: wall 3 28
+1 19 -270 -96 150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-29: wall 3 29
+1 19 270 -96 150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-30: wall 3 30
+1 19 -270 -96 170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-31: wall 3 31
+1 19 270 -96 170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-32: wall 3 32
+1 19 -240 -96 190 1 0 0 0 1 0 0 0 1 3010.dat
+0 // wall-3-33: wall 3 33
+1 19 240 -96 190 1 0 0 0 1 0 0 0 1 3010.dat
+0 STEP
+0 // wall-4-0: wall 4 0
+1 19 -260 -120 -190 1 0 0 0 1 0 0 0 1 3004.dat
+0 // wall-4-1: wall 4 1
+1 19 -90 -120 -190 1 0 0 0 1 0 0 0 1 3622.dat
+0 // wall-4-2: wall 4 2
+1 19 90 -120 -190 1 0 0 0 1 0 0 0 1 3622.dat
+0 // wall-4-3: wall 4 3
+1 19 260 -120 -190 1 0 0 0 1 0 0 0 1 3004.dat
+0 // wall-4-4: wall 4 4
+1 19 -270 -120 -170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-5: wall 4 5
+1 19 270 -120 -170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-6: wall 4 6
+1 19 -270 -120 -150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-7: wall 4 7
+1 19 270 -120 -150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-8: wall 4 8
+1 19 -270 -120 -130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-9: wall 4 9
+1 19 270 -120 -130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-10: wall 4 10
+1 19 -270 -120 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-11: wall 4 11
+1 19 270 -120 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-12: wall 4 12
+1 19 -270 -120 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-13: wall 4 13
+1 19 270 -120 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-14: wall 4 14
+1 19 -270 -120 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-15: wall 4 15
+1 19 270 -120 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-16: wall 4 16
+1 19 -270 -120 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-17: wall 4 17
+1 19 270 -120 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-18: wall 4 18
+1 19 -270 -120 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-19: wall 4 19
+1 19 270 -120 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-20: wall 4 20
+1 19 -270 -120 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-21: wall 4 21
+1 19 270 -120 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-22: wall 4 22
+1 19 -270 -120 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-23: wall 4 23
+1 19 270 -120 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-24: wall 4 24
+1 19 -270 -120 110 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-25: wall 4 25
+1 19 270 -120 110 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-26: wall 4 26
+1 19 -270 -120 130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-27: wall 4 27
+1 19 270 -120 130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-28: wall 4 28
+1 19 -270 -120 150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-29: wall 4 29
+1 19 270 -120 150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-30: wall 4 30
+1 19 -270 -120 170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-31: wall 4 31
+1 19 270 -120 170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-32: wall 4 32
+1 19 -240 -120 190 1 0 0 0 1 0 0 0 1 3010.dat
+0 // wall-4-33: wall 4 33
+1 19 240 -120 190 1 0 0 0 1 0 0 0 1 3010.dat
+0 STEP
+0 // wall-5-0: wall 5 0
+1 19 -260 -144 -190 1 0 0 0 1 0 0 0 1 3004.dat
+0 // wall-5-1: wall 5 1
+1 19 -90 -144 -190 1 0 0 0 1 0 0 0 1 3622.dat
+0 // wall-5-2: wall 5 2
+1 19 90 -144 -190 1 0 0 0 1 0 0 0 1 3622.dat
+0 // wall-5-3: wall 5 3
+1 19 260 -144 -190 1 0 0 0 1 0 0 0 1 3004.dat
+0 // wall-5-4: wall 5 4
+1 19 -270 -144 -170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-5: wall 5 5
+1 19 270 -144 -170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-6: wall 5 6
+1 19 -270 -144 -150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-7: wall 5 7
+1 19 270 -144 -150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-8: wall 5 8
+1 19 -270 -144 -130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-9: wall 5 9
+1 19 270 -144 -130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-10: wall 5 10
+1 19 -270 -144 -110 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-11: wall 5 11
+1 19 270 -144 -110 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-12: wall 5 12
+1 19 -270 -144 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-13: wall 5 13
+1 19 270 -144 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-14: wall 5 14
+1 19 -270 -144 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-15: wall 5 15
+1 19 270 -144 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-16: wall 5 16
+1 19 -270 -144 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-17: wall 5 17
+1 19 270 -144 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-18: wall 5 18
+1 19 -270 -144 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-19: wall 5 19
+1 19 270 -144 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-20: wall 5 20
+1 19 -270 -144 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-21: wall 5 21
+1 19 270 -144 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-22: wall 5 22
+1 19 -270 -144 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-23: wall 5 23
+1 19 270 -144 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-24: wall 5 24
+1 19 -270 -144 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-25: wall 5 25
+1 19 270 -144 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-26: wall 5 26
+1 19 -270 -144 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-27: wall 5 27
+1 19 270 -144 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-28: wall 5 28
+1 19 -270 -144 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-29: wall 5 29
+1 19 270 -144 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-30: wall 5 30
+1 19 -270 -144 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-31: wall 5 31
+1 19 270 -144 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-32: wall 5 32
+1 19 -270 -144 110 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-33: wall 5 33
+1 19 270 -144 110 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-34: wall 5 34
+1 19 -270 -144 130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-35: wall 5 35
+1 19 270 -144 130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-36: wall 5 36
+1 19 -270 -144 150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-37: wall 5 37
+1 19 270 -144 150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-38: wall 5 38
+1 19 -270 -144 170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-39: wall 5 39
+1 19 270 -144 170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-40: wall 5 40
+1 19 -240 -144 190 1 0 0 0 1 0 0 0 1 3010.dat
+0 // wall-5-41: wall 5 41
+1 19 240 -144 190 1 0 0 0 1 0 0 0 1 3010.dat
+0 STEP
+0 // wall-6-0: wall 6 0
+1 19 -260 -168 -190 1 0 0 0 1 0 0 0 1 3004.dat
+0 // wall-6-1: wall 6 1
+1 19 -90 -168 -190 1 0 0 0 1 0 0 0 1 3622.dat
+0 // wall-6-2: wall 6 2
+1 19 90 -168 -190 1 0 0 0 1 0 0 0 1 3622.dat
+0 // wall-6-3: wall 6 3
+1 19 260 -168 -190 1 0 0 0 1 0 0 0 1 3004.dat
+0 // wall-6-4: wall 6 4
+1 19 -270 -168 -170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-6-5: wall 6 5
+1 19 270 -168 -170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-6-6: wall 6 6
+1 19 -270 -168 -150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-6-7: wall 6 7
+1 19 270 -168 -150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-6-8: wall 6 8
+1 19 -270 -168 -130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-6-9: wall 6 9
+1 19 270 -168 -130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-6-10: wall 6 10
+1 19 -270 -168 -110 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-6-11: wall 6 11
+1 19 270 -168 -110 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-6-12: wall 6 12
+1 19 -270 -168 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-6-13: wall 6 13
+1 19 270 -168 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-6-14: wall 6 14
+1 19 -270 -168 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-6-15: wall 6 15
+1 19 270 -168 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-6-16: wall 6 16
+1 19 -270 -168 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-6-17: wall 6 17
+1 19 270 -168 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-6-18: wall 6 18
+1 19 -270 -168 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-6-19: wall 6 19
+1 19 270 -168 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-6-20: wall 6 20
+1 19 -270 -168 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-6-21: wall 6 21
+1 19 270 -168 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-6-22: wall 6 22
+1 19 -270 -168 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-6-23: wall 6 23
+1 19 270 -168 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-6-24: wall 6 24
+1 19 -270 -168 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-6-25: wall 6 25
+1 19 270 -168 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-6-26: wall 6 26
+1 19 -270 -168 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-6-27: wall 6 27
+1 19 270 -168 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-6-28: wall 6 28
+1 19 -270 -168 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-6-29: wall 6 29
+1 19 270 -168 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-6-30: wall 6 30
+1 19 -270 -168 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-6-31: wall 6 31
+1 19 270 -168 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-6-32: wall 6 32
+1 19 -270 -168 110 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-6-33: wall 6 33
+1 19 270 -168 110 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-6-34: wall 6 34
+1 19 -270 -168 130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-6-35: wall 6 35
+1 19 270 -168 130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-6-36: wall 6 36
+1 19 -270 -168 150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-6-37: wall 6 37
+1 19 270 -168 150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-6-38: wall 6 38
+1 19 -270 -168 170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-6-39: wall 6 39
+1 19 270 -168 170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-6-40: wall 6 40
+1 19 -240 -168 190 1 0 0 0 1 0 0 0 1 3010.dat
+0 // wall-6-41: wall 6 41
+1 19 240 -168 190 1 0 0 0 1 0 0 0 1 3010.dat
+0 STEP
+0 // wall-7-0: wall 7 0
+1 19 -260 -192 -190 1 0 0 0 1 0 0 0 1 3004.dat
+0 // wall-7-1: wall 7 1
+1 19 -90 -192 -190 1 0 0 0 1 0 0 0 1 3622.dat
+0 // wall-7-2: wall 7 2
+1 19 90 -192 -190 1 0 0 0 1 0 0 0 1 3622.dat
+0 // wall-7-3: wall 7 3
+1 19 260 -192 -190 1 0 0 0 1 0 0 0 1 3004.dat
+0 // wall-7-4: wall 7 4
+1 19 -270 -192 -170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-7-5: wall 7 5
+1 19 270 -192 -170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-7-6: wall 7 6
+1 19 -270 -192 -150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-7-7: wall 7 7
+1 19 270 -192 -150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-7-8: wall 7 8
+1 19 -270 -192 -130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-7-9: wall 7 9
+1 19 270 -192 -130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-7-10: wall 7 10
+1 19 -270 -192 -110 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-7-11: wall 7 11
+1 19 270 -192 -110 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-7-12: wall 7 12
+1 19 -270 -192 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-7-13: wall 7 13
+1 19 270 -192 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-7-14: wall 7 14
+1 19 -270 -192 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-7-15: wall 7 15
+1 19 270 -192 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-7-16: wall 7 16
+1 19 -270 -192 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-7-17: wall 7 17
+1 19 270 -192 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-7-18: wall 7 18
+1 19 -270 -192 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-7-19: wall 7 19
+1 19 270 -192 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-7-20: wall 7 20
+1 19 -270 -192 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-7-21: wall 7 21
+1 19 270 -192 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-7-22: wall 7 22
+1 19 -270 -192 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-7-23: wall 7 23
+1 19 270 -192 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-7-24: wall 7 24
+1 19 -270 -192 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-7-25: wall 7 25
+1 19 270 -192 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-7-26: wall 7 26
+1 19 -270 -192 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-7-27: wall 7 27
+1 19 270 -192 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-7-28: wall 7 28
+1 19 -270 -192 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-7-29: wall 7 29
+1 19 270 -192 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-7-30: wall 7 30
+1 19 -270 -192 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-7-31: wall 7 31
+1 19 270 -192 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-7-32: wall 7 32
+1 19 -270 -192 110 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-7-33: wall 7 33
+1 19 270 -192 110 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-7-34: wall 7 34
+1 19 -270 -192 130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-7-35: wall 7 35
+1 19 270 -192 130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-7-36: wall 7 36
+1 19 -270 -192 150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-7-37: wall 7 37
+1 19 270 -192 150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-7-38: wall 7 38
+1 19 -270 -192 170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-7-39: wall 7 39
+1 19 270 -192 170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-7-40: wall 7 40
+1 19 -240 -192 190 1 0 0 0 1 0 0 0 1 3010.dat
+0 // wall-7-41: wall 7 41
+1 19 240 -192 190 1 0 0 0 1 0 0 0 1 3010.dat
+0 STEP
+0 // facade--180: facade  180
+1 19 -180 0 -190 1 0 0 0 1 0 0 0 1 tidal-tall-bay.ldr
+0 // facade-0: facade 0
+1 19 0 0 -190 1 0 0 0 1 0 0 0 1 tidal-door-bay.ldr
+0 // facade-180: facade 180
+1 19 180 0 -190 1 0 0 0 1 0 0 0 1 tidal-tall-bay.ldr
+0 // side-window--270--100: side window  270  100
+1 19 -270 -24 -100 0 0 1 0 1 0 -1 0 0 tidal-slit-window.ldr
+0 // side-window--270-60: side window  270 60
+1 19 -270 -24 60 0 0 1 0 1 0 -1 0 0 tidal-slit-window.ldr
+0 // side-window-270--100: side window 270  100
+1 19 270 -24 -100 0 0 -1 0 1 0 1 0 0 tidal-slit-window.ldr
+0 // side-window-270-60: side window 270 60
+1 19 270 -24 60 0 0 -1 0 1 0 1 0 0 tidal-slit-window.ldr
+0 STEP
+0 // shim-b-0: shim b 0
+1 15 -200 -200 190 1 0 0 0 1 0 0 0 1 3460.dat
+0 // shim-b-1: shim b 1
+1 15 -40 -200 190 1 0 0 0 1 0 0 0 1 3460.dat
+0 // shim-b-2: shim b 2
+1 15 120 -200 190 1 0 0 0 1 0 0 0 1 3460.dat
+0 // shim-b-3: shim b 3
+1 15 240 -200 190 1 0 0 0 1 0 0 0 1 3710.dat
+0 // shim-l-0: shim l 0
+1 15 -270 -200 -100 0 0 1 0 1 0 -1 0 0 3460.dat
+0 // shim-l-1: shim l 1
+1 15 -270 -200 60 0 0 1 0 1 0 -1 0 0 3460.dat
+0 // shim-l-2: shim l 2
+1 15 -270 -200 160 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 // shim-r-0: shim r 0
+1 15 270 -200 -100 0 0 1 0 1 0 -1 0 0 3460.dat
+0 // shim-r-1: shim r 1
+1 15 270 -200 60 0 0 1 0 1 0 -1 0 0 3460.dat
+0 // shim-r-2: shim r 2
+1 15 270 -200 160 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 // shim-front--270: shim front  270
+1 15 -270 -200 -190 1 0 0 0 1 0 0 0 1 3024.dat
+0 // shim-front--250: shim front  250
+1 15 -250 -200 -190 1 0 0 0 1 0 0 0 1 3024.dat
+0 // shim-front--110: shim front  110
+1 15 -110 -200 -190 1 0 0 0 1 0 0 0 1 3024.dat
+0 // shim-front--90: shim front  90
+1 15 -90 -200 -190 1 0 0 0 1 0 0 0 1 3024.dat
+0 // shim-front--70: shim front  70
+1 15 -70 -200 -190 1 0 0 0 1 0 0 0 1 3024.dat
+0 // shim-front-70: shim front 70
+1 15 70 -200 -190 1 0 0 0 1 0 0 0 1 3024.dat
+0 // shim-front-90: shim front 90
+1 15 90 -200 -190 1 0 0 0 1 0 0 0 1 3024.dat
+0 // shim-front-110: shim front 110
+1 15 110 -200 -190 1 0 0 0 1 0 0 0 1 3024.dat
+0 // shim-front-250: shim front 250
+1 15 250 -200 -190 1 0 0 0 1 0 0 0 1 3024.dat
+0 // shim-front-270: shim front 270
+1 15 270 -200 -190 1 0 0 0 1 0 0 0 1 3024.dat
+0 STEP
+0 // band-f-0: band f 0
+1 15 -200 -208 -190 1 0 0 0 1 0 0 0 1 3460.dat
+0 // band-f-1: band f 1
+1 15 -40 -208 -190 1 0 0 0 1 0 0 0 1 3460.dat
+0 // band-f-2: band f 2
+1 15 120 -208 -190 1 0 0 0 1 0 0 0 1 3460.dat
+0 // band-f-3: band f 3
+1 15 240 -208 -190 1 0 0 0 1 0 0 0 1 3710.dat
+0 // band-b-0: band b 0
+1 15 -200 -208 190 1 0 0 0 1 0 0 0 1 3460.dat
+0 // band-b-1: band b 1
+1 15 -40 -208 190 1 0 0 0 1 0 0 0 1 3460.dat
+0 // band-b-2: band b 2
+1 15 120 -208 190 1 0 0 0 1 0 0 0 1 3460.dat
+0 // band-b-3: band b 3
+1 15 240 -208 190 1 0 0 0 1 0 0 0 1 3710.dat
+0 // band-l-0: band l 0
+1 15 -270 -208 -100 0 0 1 0 1 0 -1 0 0 3460.dat
+0 // band-l-1: band l 1
+1 15 -270 -208 60 0 0 1 0 1 0 -1 0 0 3460.dat
+0 // band-l-2: band l 2
+1 15 -270 -208 160 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 // band-r-0: band r 0
+1 15 270 -208 -100 0 0 1 0 1 0 -1 0 0 3460.dat
+0 // band-r-1: band r 1
+1 15 270 -208 60 0 0 1 0 1 0 -1 0 0 3460.dat
+0 // band-r-2: band r 2
+1 15 270 -208 160 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 STEP
+0 // projected-f-0: projected f 0
+1 15 -220 -216 -200 1 0 0 0 1 0 0 0 1 3034.dat
+0 // projected-f-1: projected f 1
+1 15 -60 -216 -200 1 0 0 0 1 0 0 0 1 3034.dat
+0 // projected-f-2: projected f 2
+1 15 100 -216 -200 1 0 0 0 1 0 0 0 1 3034.dat
+0 // projected-f-3: projected f 3
+1 15 240 -216 -200 1 0 0 0 1 0 0 0 1 3795.dat
+0 // projected-b-0: projected b 0
+1 15 -220 -216 200 1 0 0 0 1 0 0 0 1 3034.dat
+0 // projected-b-1: projected b 1
+1 15 -60 -216 200 1 0 0 0 1 0 0 0 1 3034.dat
+0 // projected-b-2: projected b 2
+1 15 100 -216 200 1 0 0 0 1 0 0 0 1 3034.dat
+0 // projected-b-3: projected b 3
+1 15 240 -216 200 1 0 0 0 1 0 0 0 1 3795.dat
+0 // projected-l-0: projected l 0
+1 15 -280 -216 -100 0 0 1 0 1 0 -1 0 0 3034.dat
+0 // projected-l-1: projected l 1
+1 15 -280 -216 60 0 0 1 0 1 0 -1 0 0 3034.dat
+0 // projected-l-2: projected l 2
+1 15 -280 -216 160 1 0 0 0 1 0 0 0 1 3022.dat
+0 // projected-r-0: projected r 0
+1 15 280 -216 -100 0 0 1 0 1 0 -1 0 0 3034.dat
+0 // projected-r-1: projected r 1
+1 15 280 -216 60 0 0 1 0 1 0 -1 0 0 3034.dat
+0 // projected-r-2: projected r 2
+1 15 280 -216 160 1 0 0 0 1 0 0 0 1 3022.dat
+0 STEP
+0 // west-chart-desk: west chart desk
+1 70 -140 0 -10 1 0 0 0 1 0 0 0 1 tidal-chart-table.ldr
+0 // east-chart-desk: east chart desk
+1 70 140 0 -10 1 0 0 0 1 0 0 0 1 tidal-chart-table.ldr
+0 // west-chair: west chair
+1 272 -140 -8 50 1 0 0 0 1 0 0 0 1 4079.dat
+0 // east-chair: east chair
+1 272 140 -8 50 1 0 0 0 1 0 0 0 1 4079.dat
+0 // archive: archive
+1 70 -140 0 150 1 0 0 0 1 0 0 0 1 tidal-bookcase.ldr
+0 // specimen: specimen
+1 15 120 0 140 1 0 0 0 1 0 0 0 1 tidal-instrument.ldr
+0 NOFILE
+0 FILE tidal-upper-hall.ldr
+0 Furnished limestone upper archive and reading room with broad rear exhibit cutaway
+0 Name: tidal-upper-hall.ldr
+0 Author: OpenAI - original Tidal Observatory design
+0 !LDRAW_ORG Model
+0 // deck-under-0: deck under 0
+1 72 -160 8 -140 1 0 0 0 1 0 0 0 1 3028.dat
+0 // deck-under-1: deck under 1
+1 72 80 8 -140 1 0 0 0 1 0 0 0 1 3028.dat
+0 // deck-under-2: deck under 2
+1 72 240 8 -80 0 0 1 0 1 0 -1 0 0 3029.dat
+0 // deck-under-3: deck under 3
+1 72 -160 8 -20 1 0 0 0 1 0 0 0 1 3028.dat
+0 // deck-under-4: deck under 4
+1 72 80 8 -20 1 0 0 0 1 0 0 0 1 3028.dat
+0 // deck-under-5: deck under 5
+1 72 -160 8 100 1 0 0 0 1 0 0 0 1 3028.dat
+0 // deck-under-6: deck under 6
+1 72 80 8 100 1 0 0 0 1 0 0 0 1 3028.dat
+0 // deck-under-7: deck under 7
+1 72 240 8 120 0 0 1 0 1 0 -1 0 0 3035.dat
+0 // deck-under-8: deck under 8
+1 72 -200 8 180 1 0 0 0 1 0 0 0 1 3034.dat
+0 // deck-under-9: deck under 9
+1 72 -40 8 180 1 0 0 0 1 0 0 0 1 3034.dat
+0 // deck-under-10: deck under 10
+1 72 120 8 180 1 0 0 0 1 0 0 0 1 3034.dat
+0 STEP
+0 // deck-top-0-0-0: deck top 0 0 0
+1 320 -260 0 -180 1 0 0 0 1 0 0 0 1 3022.dat
+0 // deck-top-0-1-0: deck top 0 1 0
+1 320 -260 0 -80 0 0 1 0 1 0 -1 0 0 3034.dat
+0 // deck-top-0-1-1: deck top 0 1 1
+1 320 -260 0 80 0 0 1 0 1 0 -1 0 0 3034.dat
+0 // deck-top-0-2-0: deck top 0 2 0
+1 320 -260 0 180 1 0 0 0 1 0 0 0 1 3022.dat
+0 // deck-top-1-0-0: deck top 1 0 0
+1 320 -160 0 -180 1 0 0 0 1 0 0 0 1 3034.dat
+0 // deck-top-1-0-1: deck top 1 0 1
+1 320 0 0 -180 1 0 0 0 1 0 0 0 1 3034.dat
+0 // deck-top-1-0-2: deck top 1 0 2
+1 320 160 0 -180 1 0 0 0 1 0 0 0 1 3034.dat
+0 // deck-top-1-1-0: deck top 1 1 0
+1 320 -120 0 -100 1 0 0 0 1 0 0 0 1 3028.dat
+0 // deck-top-1-1-1: deck top 1 1 1
+1 320 120 0 -100 1 0 0 0 1 0 0 0 1 3028.dat
+0 // deck-top-1-1-2: deck top 1 1 2
+1 320 -120 0 20 1 0 0 0 1 0 0 0 1 3028.dat
+0 // deck-top-1-1-3: deck top 1 1 3
+1 320 120 0 20 1 0 0 0 1 0 0 0 1 3028.dat
+0 // deck-top-1-1-4: deck top 1 1 4
+1 320 -120 0 120 1 0 0 0 1 0 0 0 1 3029.dat
+0 // deck-top-1-1-5: deck top 1 1 5
+1 320 120 0 120 1 0 0 0 1 0 0 0 1 3029.dat
+0 // deck-top-1-2-0: deck top 1 2 0
+1 320 -160 0 180 1 0 0 0 1 0 0 0 1 3034.dat
+0 // deck-top-1-2-1: deck top 1 2 1
+1 320 0 0 180 1 0 0 0 1 0 0 0 1 3034.dat
+0 // deck-top-1-2-2: deck top 1 2 2
+1 320 160 0 180 1 0 0 0 1 0 0 0 1 3034.dat
+0 // deck-top-2-0-0: deck top 2 0 0
+1 320 260 0 -180 1 0 0 0 1 0 0 0 1 3022.dat
+0 // deck-top-2-1-0: deck top 2 1 0
+1 320 260 0 -80 0 0 1 0 1 0 -1 0 0 3034.dat
+0 // deck-top-2-1-1: deck top 2 1 1
+1 320 260 0 80 0 0 1 0 1 0 -1 0 0 3034.dat
+0 // deck-top-2-2-0: deck top 2 2 0
+1 320 260 0 180 1 0 0 0 1 0 0 0 1 3022.dat
+0 STEP
+0 // wall-0-0: wall 0 0
+1 320 -200 -24 -190 1 0 0 0 1 0 0 0 1 3008.dat
+0 // wall-0-1: wall 0 1
+1 320 -40 -24 -190 1 0 0 0 1 0 0 0 1 3008.dat
+0 // wall-0-2: wall 0 2
+1 320 120 -24 -190 1 0 0 0 1 0 0 0 1 3008.dat
+0 // wall-0-3: wall 0 3
+1 320 240 -24 -190 1 0 0 0 1 0 0 0 1 3010.dat
+0 // wall-0-4: wall 0 4
+1 320 -270 -24 -170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-5: wall 0 5
+1 320 270 -24 -170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-6: wall 0 6
+1 320 -270 -24 -150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-7: wall 0 7
+1 320 270 -24 -150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-8: wall 0 8
+1 320 -270 -24 -130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-9: wall 0 9
+1 320 270 -24 -130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-10: wall 0 10
+1 320 -270 -24 -110 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-11: wall 0 11
+1 320 270 -24 -110 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-12: wall 0 12
+1 320 -270 -24 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-13: wall 0 13
+1 320 270 -24 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-14: wall 0 14
+1 320 -270 -24 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-15: wall 0 15
+1 320 270 -24 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-16: wall 0 16
+1 320 -270 -24 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-17: wall 0 17
+1 320 270 -24 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-18: wall 0 18
+1 320 -270 -24 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-19: wall 0 19
+1 320 270 -24 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-20: wall 0 20
+1 320 -270 -24 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-21: wall 0 21
+1 320 270 -24 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-22: wall 0 22
+1 320 -270 -24 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-23: wall 0 23
+1 320 270 -24 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-24: wall 0 24
+1 320 -270 -24 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-25: wall 0 25
+1 320 270 -24 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-26: wall 0 26
+1 320 -270 -24 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-27: wall 0 27
+1 320 270 -24 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-28: wall 0 28
+1 320 -270 -24 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-29: wall 0 29
+1 320 270 -24 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-30: wall 0 30
+1 320 -270 -24 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-31: wall 0 31
+1 320 270 -24 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-32: wall 0 32
+1 320 -270 -24 110 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-33: wall 0 33
+1 320 270 -24 110 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-34: wall 0 34
+1 320 -270 -24 130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-35: wall 0 35
+1 320 270 -24 130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-36: wall 0 36
+1 320 -270 -24 150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-37: wall 0 37
+1 320 270 -24 150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-38: wall 0 38
+1 320 -270 -24 170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-39: wall 0 39
+1 320 270 -24 170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-0-40: wall 0 40
+1 320 -200 -24 190 1 0 0 0 1 0 0 0 1 3008.dat
+0 // wall-0-41: wall 0 41
+1 320 -40 -24 190 1 0 0 0 1 0 0 0 1 3008.dat
+0 // wall-0-42: wall 0 42
+1 320 120 -24 190 1 0 0 0 1 0 0 0 1 3008.dat
+0 // wall-0-43: wall 0 43
+1 320 240 -24 190 1 0 0 0 1 0 0 0 1 3010.dat
+0 STEP
+0 // wall-1-0: wall 1 0
+1 19 -260 -48 -190 1 0 0 0 1 0 0 0 1 3004.dat
+0 // wall-1-1: wall 1 1
+1 19 -90 -48 -190 1 0 0 0 1 0 0 0 1 3622.dat
+0 // wall-1-2: wall 1 2
+1 19 90 -48 -190 1 0 0 0 1 0 0 0 1 3622.dat
+0 // wall-1-3: wall 1 3
+1 19 260 -48 -190 1 0 0 0 1 0 0 0 1 3004.dat
+0 // wall-1-4: wall 1 4
+1 19 -270 -48 -170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-5: wall 1 5
+1 19 270 -48 -170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-6: wall 1 6
+1 19 -270 -48 -150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-7: wall 1 7
+1 19 270 -48 -150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-8: wall 1 8
+1 19 -270 -48 -130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-9: wall 1 9
+1 19 270 -48 -130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-10: wall 1 10
+1 19 -270 -48 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-11: wall 1 11
+1 19 270 -48 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-12: wall 1 12
+1 19 -270 -48 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-13: wall 1 13
+1 19 270 -48 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-14: wall 1 14
+1 19 -270 -48 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-15: wall 1 15
+1 19 270 -48 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-16: wall 1 16
+1 19 -270 -48 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-17: wall 1 17
+1 19 270 -48 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-18: wall 1 18
+1 19 -270 -48 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-19: wall 1 19
+1 19 270 -48 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-20: wall 1 20
+1 19 -270 -48 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-21: wall 1 21
+1 19 270 -48 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-22: wall 1 22
+1 19 -270 -48 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-23: wall 1 23
+1 19 270 -48 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-24: wall 1 24
+1 19 -270 -48 110 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-25: wall 1 25
+1 19 270 -48 110 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-26: wall 1 26
+1 19 -270 -48 130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-27: wall 1 27
+1 19 270 -48 130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-28: wall 1 28
+1 19 -270 -48 150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-29: wall 1 29
+1 19 270 -48 150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-30: wall 1 30
+1 19 -270 -48 170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-31: wall 1 31
+1 19 270 -48 170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-1-32: wall 1 32
+1 19 -240 -48 190 1 0 0 0 1 0 0 0 1 3010.dat
+0 // wall-1-33: wall 1 33
+1 19 240 -48 190 1 0 0 0 1 0 0 0 1 3010.dat
+0 STEP
+0 // wall-2-0: wall 2 0
+1 19 -260 -72 -190 1 0 0 0 1 0 0 0 1 3004.dat
+0 // wall-2-1: wall 2 1
+1 19 -90 -72 -190 1 0 0 0 1 0 0 0 1 3622.dat
+0 // wall-2-2: wall 2 2
+1 19 90 -72 -190 1 0 0 0 1 0 0 0 1 3622.dat
+0 // wall-2-3: wall 2 3
+1 19 260 -72 -190 1 0 0 0 1 0 0 0 1 3004.dat
+0 // wall-2-4: wall 2 4
+1 19 -270 -72 -170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-5: wall 2 5
+1 19 270 -72 -170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-6: wall 2 6
+1 19 -270 -72 -150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-7: wall 2 7
+1 19 270 -72 -150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-8: wall 2 8
+1 19 -270 -72 -130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-9: wall 2 9
+1 19 270 -72 -130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-10: wall 2 10
+1 19 -270 -72 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-11: wall 2 11
+1 19 270 -72 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-12: wall 2 12
+1 19 -270 -72 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-13: wall 2 13
+1 19 270 -72 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-14: wall 2 14
+1 19 -270 -72 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-15: wall 2 15
+1 19 270 -72 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-16: wall 2 16
+1 19 -270 -72 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-17: wall 2 17
+1 19 270 -72 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-18: wall 2 18
+1 19 -270 -72 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-19: wall 2 19
+1 19 270 -72 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-20: wall 2 20
+1 19 -270 -72 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-21: wall 2 21
+1 19 270 -72 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-22: wall 2 22
+1 19 -270 -72 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-23: wall 2 23
+1 19 270 -72 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-24: wall 2 24
+1 19 -270 -72 110 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-25: wall 2 25
+1 19 270 -72 110 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-26: wall 2 26
+1 19 -270 -72 130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-27: wall 2 27
+1 19 270 -72 130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-28: wall 2 28
+1 19 -270 -72 150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-29: wall 2 29
+1 19 270 -72 150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-30: wall 2 30
+1 19 -270 -72 170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-31: wall 2 31
+1 19 270 -72 170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-2-32: wall 2 32
+1 19 -240 -72 190 1 0 0 0 1 0 0 0 1 3010.dat
+0 // wall-2-33: wall 2 33
+1 19 240 -72 190 1 0 0 0 1 0 0 0 1 3010.dat
+0 STEP
+0 // wall-3-0: wall 3 0
+1 19 -260 -96 -190 1 0 0 0 1 0 0 0 1 3004.dat
+0 // wall-3-1: wall 3 1
+1 19 -90 -96 -190 1 0 0 0 1 0 0 0 1 3622.dat
+0 // wall-3-2: wall 3 2
+1 19 90 -96 -190 1 0 0 0 1 0 0 0 1 3622.dat
+0 // wall-3-3: wall 3 3
+1 19 260 -96 -190 1 0 0 0 1 0 0 0 1 3004.dat
+0 // wall-3-4: wall 3 4
+1 19 -270 -96 -170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-5: wall 3 5
+1 19 270 -96 -170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-6: wall 3 6
+1 19 -270 -96 -150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-7: wall 3 7
+1 19 270 -96 -150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-8: wall 3 8
+1 19 -270 -96 -130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-9: wall 3 9
+1 19 270 -96 -130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-10: wall 3 10
+1 19 -270 -96 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-11: wall 3 11
+1 19 270 -96 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-12: wall 3 12
+1 19 -270 -96 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-13: wall 3 13
+1 19 270 -96 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-14: wall 3 14
+1 19 -270 -96 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-15: wall 3 15
+1 19 270 -96 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-16: wall 3 16
+1 19 -270 -96 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-17: wall 3 17
+1 19 270 -96 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-18: wall 3 18
+1 19 -270 -96 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-19: wall 3 19
+1 19 270 -96 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-20: wall 3 20
+1 19 -270 -96 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-21: wall 3 21
+1 19 270 -96 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-22: wall 3 22
+1 19 -270 -96 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-23: wall 3 23
+1 19 270 -96 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-24: wall 3 24
+1 19 -270 -96 110 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-25: wall 3 25
+1 19 270 -96 110 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-26: wall 3 26
+1 19 -270 -96 130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-27: wall 3 27
+1 19 270 -96 130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-28: wall 3 28
+1 19 -270 -96 150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-29: wall 3 29
+1 19 270 -96 150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-30: wall 3 30
+1 19 -270 -96 170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-31: wall 3 31
+1 19 270 -96 170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-3-32: wall 3 32
+1 19 -240 -96 190 1 0 0 0 1 0 0 0 1 3010.dat
+0 // wall-3-33: wall 3 33
+1 19 240 -96 190 1 0 0 0 1 0 0 0 1 3010.dat
+0 STEP
+0 // wall-4-0: wall 4 0
+1 19 -260 -120 -190 1 0 0 0 1 0 0 0 1 3004.dat
+0 // wall-4-1: wall 4 1
+1 19 -90 -120 -190 1 0 0 0 1 0 0 0 1 3622.dat
+0 // wall-4-2: wall 4 2
+1 19 90 -120 -190 1 0 0 0 1 0 0 0 1 3622.dat
+0 // wall-4-3: wall 4 3
+1 19 260 -120 -190 1 0 0 0 1 0 0 0 1 3004.dat
+0 // wall-4-4: wall 4 4
+1 19 -270 -120 -170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-5: wall 4 5
+1 19 270 -120 -170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-6: wall 4 6
+1 19 -270 -120 -150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-7: wall 4 7
+1 19 270 -120 -150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-8: wall 4 8
+1 19 -270 -120 -130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-9: wall 4 9
+1 19 270 -120 -130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-10: wall 4 10
+1 19 -270 -120 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-11: wall 4 11
+1 19 270 -120 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-12: wall 4 12
+1 19 -270 -120 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-13: wall 4 13
+1 19 270 -120 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-14: wall 4 14
+1 19 -270 -120 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-15: wall 4 15
+1 19 270 -120 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-16: wall 4 16
+1 19 -270 -120 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-17: wall 4 17
+1 19 270 -120 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-18: wall 4 18
+1 19 -270 -120 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-19: wall 4 19
+1 19 270 -120 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-20: wall 4 20
+1 19 -270 -120 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-21: wall 4 21
+1 19 270 -120 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-22: wall 4 22
+1 19 -270 -120 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-23: wall 4 23
+1 19 270 -120 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-24: wall 4 24
+1 19 -270 -120 110 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-25: wall 4 25
+1 19 270 -120 110 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-26: wall 4 26
+1 19 -270 -120 130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-27: wall 4 27
+1 19 270 -120 130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-28: wall 4 28
+1 19 -270 -120 150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-29: wall 4 29
+1 19 270 -120 150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-30: wall 4 30
+1 19 -270 -120 170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-31: wall 4 31
+1 19 270 -120 170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-4-32: wall 4 32
+1 19 -240 -120 190 1 0 0 0 1 0 0 0 1 3010.dat
+0 // wall-4-33: wall 4 33
+1 19 240 -120 190 1 0 0 0 1 0 0 0 1 3010.dat
+0 STEP
+0 // wall-5-0: wall 5 0
+1 19 -260 -144 -190 1 0 0 0 1 0 0 0 1 3004.dat
+0 // wall-5-1: wall 5 1
+1 19 -90 -144 -190 1 0 0 0 1 0 0 0 1 3622.dat
+0 // wall-5-2: wall 5 2
+1 19 90 -144 -190 1 0 0 0 1 0 0 0 1 3622.dat
+0 // wall-5-3: wall 5 3
+1 19 260 -144 -190 1 0 0 0 1 0 0 0 1 3004.dat
+0 // wall-5-4: wall 5 4
+1 19 -270 -144 -170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-5: wall 5 5
+1 19 270 -144 -170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-6: wall 5 6
+1 19 -270 -144 -150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-7: wall 5 7
+1 19 270 -144 -150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-8: wall 5 8
+1 19 -270 -144 -130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-9: wall 5 9
+1 19 270 -144 -130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-10: wall 5 10
+1 19 -270 -144 -110 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-11: wall 5 11
+1 19 270 -144 -110 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-12: wall 5 12
+1 19 -270 -144 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-13: wall 5 13
+1 19 270 -144 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-14: wall 5 14
+1 19 -270 -144 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-15: wall 5 15
+1 19 270 -144 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-16: wall 5 16
+1 19 -270 -144 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-17: wall 5 17
+1 19 270 -144 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-18: wall 5 18
+1 19 -270 -144 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-19: wall 5 19
+1 19 270 -144 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-20: wall 5 20
+1 19 -270 -144 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-21: wall 5 21
+1 19 270 -144 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-22: wall 5 22
+1 19 -270 -144 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-23: wall 5 23
+1 19 270 -144 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-24: wall 5 24
+1 19 -270 -144 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-25: wall 5 25
+1 19 270 -144 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-26: wall 5 26
+1 19 -270 -144 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-27: wall 5 27
+1 19 270 -144 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-28: wall 5 28
+1 19 -270 -144 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-29: wall 5 29
+1 19 270 -144 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-30: wall 5 30
+1 19 -270 -144 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-31: wall 5 31
+1 19 270 -144 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-32: wall 5 32
+1 19 -270 -144 110 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-33: wall 5 33
+1 19 270 -144 110 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-34: wall 5 34
+1 19 -270 -144 130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-35: wall 5 35
+1 19 270 -144 130 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-36: wall 5 36
+1 19 -270 -144 150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-37: wall 5 37
+1 19 270 -144 150 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-38: wall 5 38
+1 19 -270 -144 170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-39: wall 5 39
+1 19 270 -144 170 1 0 0 0 1 0 0 0 1 3005.dat
+0 // wall-5-40: wall 5 40
+1 19 -240 -144 190 1 0 0 0 1 0 0 0 1 3010.dat
+0 // wall-5-41: wall 5 41
+1 19 240 -144 190 1 0 0 0 1 0 0 0 1 3010.dat
+0 STEP
+0 // facade--180: facade  180
+1 19 -180 -24 -190 1 0 0 0 1 0 0 0 1 tidal-short-bay.ldr
+0 // facade-0: facade 0
+1 19 0 -24 -190 1 0 0 0 1 0 0 0 1 tidal-short-bay.ldr
+0 // facade-180: facade 180
+1 19 180 -24 -190 1 0 0 0 1 0 0 0 1 tidal-short-bay.ldr
+0 // side-window--270--100: side window  270  100
+1 19 -270 -24 -100 0 0 1 0 1 0 -1 0 0 tidal-slit-window.ldr
+0 // side-window--270-60: side window  270 60
+1 19 -270 -24 60 0 0 1 0 1 0 -1 0 0 tidal-slit-window.ldr
+0 // side-window-270--100: side window 270  100
+1 19 270 -24 -100 0 0 -1 0 1 0 1 0 0 tidal-slit-window.ldr
+0 // side-window-270-60: side window 270 60
+1 19 270 -24 60 0 0 -1 0 1 0 1 0 0 tidal-slit-window.ldr
+0 STEP
+0 // shim-b-0: shim b 0
+1 15 -200 -152 190 1 0 0 0 1 0 0 0 1 3460.dat
+0 // shim-b-1: shim b 1
+1 15 -40 -152 190 1 0 0 0 1 0 0 0 1 3460.dat
+0 // shim-b-2: shim b 2
+1 15 120 -152 190 1 0 0 0 1 0 0 0 1 3460.dat
+0 // shim-b-3: shim b 3
+1 15 240 -152 190 1 0 0 0 1 0 0 0 1 3710.dat
+0 // shim-l-0: shim l 0
+1 15 -270 -152 -100 0 0 1 0 1 0 -1 0 0 3460.dat
+0 // shim-l-1: shim l 1
+1 15 -270 -152 60 0 0 1 0 1 0 -1 0 0 3460.dat
+0 // shim-l-2: shim l 2
+1 15 -270 -152 160 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 // shim-r-0: shim r 0
+1 15 270 -152 -100 0 0 1 0 1 0 -1 0 0 3460.dat
+0 // shim-r-1: shim r 1
+1 15 270 -152 60 0 0 1 0 1 0 -1 0 0 3460.dat
+0 // shim-r-2: shim r 2
+1 15 270 -152 160 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 // shim-front--270: shim front  270
+1 15 -270 -152 -190 1 0 0 0 1 0 0 0 1 3024.dat
+0 // shim-front--250: shim front  250
+1 15 -250 -152 -190 1 0 0 0 1 0 0 0 1 3024.dat
+0 // shim-front--110: shim front  110
+1 15 -110 -152 -190 1 0 0 0 1 0 0 0 1 3024.dat
+0 // shim-front--90: shim front  90
+1 15 -90 -152 -190 1 0 0 0 1 0 0 0 1 3024.dat
+0 // shim-front--70: shim front  70
+1 15 -70 -152 -190 1 0 0 0 1 0 0 0 1 3024.dat
+0 // shim-front-70: shim front 70
+1 15 70 -152 -190 1 0 0 0 1 0 0 0 1 3024.dat
+0 // shim-front-90: shim front 90
+1 15 90 -152 -190 1 0 0 0 1 0 0 0 1 3024.dat
+0 // shim-front-110: shim front 110
+1 15 110 -152 -190 1 0 0 0 1 0 0 0 1 3024.dat
+0 // shim-front-250: shim front 250
+1 15 250 -152 -190 1 0 0 0 1 0 0 0 1 3024.dat
+0 // shim-front-270: shim front 270
+1 15 270 -152 -190 1 0 0 0 1 0 0 0 1 3024.dat
+0 STEP
+0 // band-f-0: band f 0
+1 15 -200 -160 -190 1 0 0 0 1 0 0 0 1 3460.dat
+0 // band-f-1: band f 1
+1 15 -40 -160 -190 1 0 0 0 1 0 0 0 1 3460.dat
+0 // band-f-2: band f 2
+1 15 120 -160 -190 1 0 0 0 1 0 0 0 1 3460.dat
+0 // band-f-3: band f 3
+1 15 240 -160 -190 1 0 0 0 1 0 0 0 1 3710.dat
+0 // band-b-0: band b 0
+1 15 -200 -160 190 1 0 0 0 1 0 0 0 1 3460.dat
+0 // band-b-1: band b 1
+1 15 -40 -160 190 1 0 0 0 1 0 0 0 1 3460.dat
+0 // band-b-2: band b 2
+1 15 120 -160 190 1 0 0 0 1 0 0 0 1 3460.dat
+0 // band-b-3: band b 3
+1 15 240 -160 190 1 0 0 0 1 0 0 0 1 3710.dat
+0 // band-l-0: band l 0
+1 15 -270 -160 -100 0 0 1 0 1 0 -1 0 0 3460.dat
+0 // band-l-1: band l 1
+1 15 -270 -160 60 0 0 1 0 1 0 -1 0 0 3460.dat
+0 // band-l-2: band l 2
+1 15 -270 -160 160 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 // band-r-0: band r 0
+1 15 270 -160 -100 0 0 1 0 1 0 -1 0 0 3460.dat
+0 // band-r-1: band r 1
+1 15 270 -160 60 0 0 1 0 1 0 -1 0 0 3460.dat
+0 // band-r-2: band r 2
+1 15 270 -160 160 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 STEP
+0 // projected-f-0: projected f 0
+1 15 -220 -168 -200 1 0 0 0 1 0 0 0 1 3034.dat
+0 // projected-f-1: projected f 1
+1 15 -60 -168 -200 1 0 0 0 1 0 0 0 1 3034.dat
+0 // projected-f-2: projected f 2
+1 15 100 -168 -200 1 0 0 0 1 0 0 0 1 3034.dat
+0 // projected-f-3: projected f 3
+1 15 240 -168 -200 1 0 0 0 1 0 0 0 1 3795.dat
+0 // projected-b-0: projected b 0
+1 15 -220 -168 200 1 0 0 0 1 0 0 0 1 3034.dat
+0 // projected-b-1: projected b 1
+1 15 -60 -168 200 1 0 0 0 1 0 0 0 1 3034.dat
+0 // projected-b-2: projected b 2
+1 15 100 -168 200 1 0 0 0 1 0 0 0 1 3034.dat
+0 // projected-b-3: projected b 3
+1 15 240 -168 200 1 0 0 0 1 0 0 0 1 3795.dat
+0 // projected-l-0: projected l 0
+1 15 -280 -168 -100 0 0 1 0 1 0 -1 0 0 3034.dat
+0 // projected-l-1: projected l 1
+1 15 -280 -168 60 0 0 1 0 1 0 -1 0 0 3034.dat
+0 // projected-l-2: projected l 2
+1 15 -280 -168 160 1 0 0 0 1 0 0 0 1 3022.dat
+0 // projected-r-0: projected r 0
+1 15 280 -168 -100 0 0 1 0 1 0 -1 0 0 3034.dat
+0 // projected-r-1: projected r 1
+1 15 280 -168 60 0 0 1 0 1 0 -1 0 0 3034.dat
+0 // projected-r-2: projected r 2
+1 15 280 -168 160 1 0 0 0 1 0 0 0 1 3022.dat
+0 STEP
+0 // archive-west: archive west
+1 70 -180 0 150 1 0 0 0 1 0 0 0 1 tidal-bookcase.ldr
+0 // archive-middle: archive middle
+1 70 -20 0 150 1 0 0 0 1 0 0 0 1 tidal-bookcase.ldr
+0 // reading-desk: reading desk
+1 70 -80 0 -20 1 0 0 0 1 0 0 0 1 tidal-chart-table.ldr
+0 // reading-chair: reading chair
+1 272 -80 -8 40 1 0 0 0 1 0 0 0 1 4079.dat
+0 // observation-dais: observation dais
+1 15 140 0 60 1 0 0 0 1 0 0 0 1 tidal-instrument.ldr
+0 NOFILE
+0 FILE tidal-tower-base.ldr
+0 Offset lantern tower masonry stage with glazed slits and open rear
+0 Name: tidal-tower-base.ldr
+0 Author: OpenAI - original Tidal Observatory design
+0 !LDRAW_ORG Model
+0 // deck-under-0: deck under 0
+1 72 -40 8 0 0 0 1 0 1 0 -1 0 0 3028.dat
+0 // deck-under-1: deck under 1
+1 72 60 8 0 0 0 1 0 1 0 -1 0 0 3029.dat
+0 STEP
+0 // deck-top-0-0-0: deck top 0 0 0
+1 320 -80 0 -100 1 0 0 0 1 0 0 0 1 3022.dat
+0 // deck-top-0-1-0: deck top 0 1 0
+1 320 -80 0 0 0 0 1 0 1 0 -1 0 0 3034.dat
+0 // deck-top-0-2-0: deck top 0 2 0
+1 320 -80 0 100 1 0 0 0 1 0 0 0 1 3022.dat
+0 // deck-top-1-0-0: deck top 1 0 0
+1 320 0 0 -100 1 0 0 0 1 0 0 0 1 3795.dat
+0 // deck-top-1-1-0: deck top 1 1 0
+1 320 0 0 0 0 0 1 0 1 0 -1 0 0 3036.dat
+0 // deck-top-1-2-0: deck top 1 2 0
+1 320 0 0 100 1 0 0 0 1 0 0 0 1 3795.dat
+0 // deck-top-2-0-0: deck top 2 0 0
+1 320 80 0 -100 1 0 0 0 1 0 0 0 1 3022.dat
+0 // deck-top-2-1-0: deck top 2 1 0
+1 320 80 0 0 0 0 1 0 1 0 -1 0 0 3034.dat
+0 // deck-top-2-2-0: deck top 2 2 0
+1 320 80 0 100 1 0 0 0 1 0 0 0 1 3022.dat
+0 STEP
+0 // towerwall-0-0: towerwall 0 0
+1 320 -20 -24 -110 1 0 0 0 1 0 0 0 1 3008.dat
+0 // towerwall-0-1: towerwall 0 1
+1 320 80 -24 -110 1 0 0 0 1 0 0 0 1 3004.dat
+0 // towerwall-0-2: towerwall 0 2
+1 320 -90 -24 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-0-3: towerwall 0 3
+1 320 90 -24 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-0-4: towerwall 0 4
+1 320 -90 -24 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-0-5: towerwall 0 5
+1 320 90 -24 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-0-6: towerwall 0 6
+1 320 -90 -24 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-0-7: towerwall 0 7
+1 320 90 -24 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-0-8: towerwall 0 8
+1 320 -90 -24 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-0-9: towerwall 0 9
+1 320 90 -24 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-0-10: towerwall 0 10
+1 320 -90 -24 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-0-11: towerwall 0 11
+1 320 90 -24 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-0-12: towerwall 0 12
+1 320 -90 -24 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-0-13: towerwall 0 13
+1 320 90 -24 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-0-14: towerwall 0 14
+1 320 -90 -24 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-0-15: towerwall 0 15
+1 320 90 -24 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-0-16: towerwall 0 16
+1 320 -90 -24 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-0-17: towerwall 0 17
+1 320 90 -24 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-0-18: towerwall 0 18
+1 320 -90 -24 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-0-19: towerwall 0 19
+1 320 90 -24 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-0-20: towerwall 0 20
+1 320 -90 -24 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-0-21: towerwall 0 21
+1 320 90 -24 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-0-22: towerwall 0 22
+1 320 -20 -24 110 1 0 0 0 1 0 0 0 1 3008.dat
+0 // towerwall-0-23: towerwall 0 23
+1 320 80 -24 110 1 0 0 0 1 0 0 0 1 3004.dat
+0 STEP
+0 // towerwall-1-0: towerwall 1 0
+1 19 -60 -48 -110 1 0 0 0 1 0 0 0 1 3010.dat
+0 // towerwall-1-1: towerwall 1 1
+1 19 60 -48 -110 1 0 0 0 1 0 0 0 1 3010.dat
+0 // towerwall-1-2: towerwall 1 2
+1 19 -90 -48 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-1-3: towerwall 1 3
+1 19 90 -48 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-1-4: towerwall 1 4
+1 19 -90 -48 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-1-5: towerwall 1 5
+1 19 90 -48 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-1-6: towerwall 1 6
+1 19 -90 -48 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-1-7: towerwall 1 7
+1 19 90 -48 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-1-8: towerwall 1 8
+1 19 -90 -48 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-1-9: towerwall 1 9
+1 19 90 -48 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-1-10: towerwall 1 10
+1 19 -90 -48 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-1-11: towerwall 1 11
+1 19 90 -48 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-1-12: towerwall 1 12
+1 19 -90 -48 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-1-13: towerwall 1 13
+1 19 90 -48 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-1-14: towerwall 1 14
+1 19 -90 -48 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-1-15: towerwall 1 15
+1 19 90 -48 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-1-16: towerwall 1 16
+1 19 -90 -48 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-1-17: towerwall 1 17
+1 19 90 -48 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-1-18: towerwall 1 18
+1 19 -70 -48 110 1 0 0 0 1 0 0 0 1 3622.dat
+0 // towerwall-1-19: towerwall 1 19
+1 19 70 -48 110 1 0 0 0 1 0 0 0 1 3622.dat
+0 STEP
+0 // towerwall-2-0: towerwall 2 0
+1 19 -60 -72 -110 1 0 0 0 1 0 0 0 1 3010.dat
+0 // towerwall-2-1: towerwall 2 1
+1 19 60 -72 -110 1 0 0 0 1 0 0 0 1 3010.dat
+0 // towerwall-2-2: towerwall 2 2
+1 19 -90 -72 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-2-3: towerwall 2 3
+1 19 90 -72 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-2-4: towerwall 2 4
+1 19 -90 -72 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-2-5: towerwall 2 5
+1 19 90 -72 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-2-6: towerwall 2 6
+1 19 -90 -72 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-2-7: towerwall 2 7
+1 19 90 -72 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-2-8: towerwall 2 8
+1 19 -90 -72 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-2-9: towerwall 2 9
+1 19 90 -72 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-2-10: towerwall 2 10
+1 19 -90 -72 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-2-11: towerwall 2 11
+1 19 90 -72 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-2-12: towerwall 2 12
+1 19 -90 -72 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-2-13: towerwall 2 13
+1 19 90 -72 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-2-14: towerwall 2 14
+1 19 -90 -72 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-2-15: towerwall 2 15
+1 19 90 -72 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-2-16: towerwall 2 16
+1 19 -90 -72 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-2-17: towerwall 2 17
+1 19 90 -72 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-2-18: towerwall 2 18
+1 19 -70 -72 110 1 0 0 0 1 0 0 0 1 3622.dat
+0 // towerwall-2-19: towerwall 2 19
+1 19 70 -72 110 1 0 0 0 1 0 0 0 1 3622.dat
+0 STEP
+0 // towerwall-3-0: towerwall 3 0
+1 19 -60 -96 -110 1 0 0 0 1 0 0 0 1 3010.dat
+0 // towerwall-3-1: towerwall 3 1
+1 19 60 -96 -110 1 0 0 0 1 0 0 0 1 3010.dat
+0 // towerwall-3-2: towerwall 3 2
+1 19 -90 -96 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-3-3: towerwall 3 3
+1 19 90 -96 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-3-4: towerwall 3 4
+1 19 -90 -96 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-3-5: towerwall 3 5
+1 19 90 -96 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-3-6: towerwall 3 6
+1 19 -90 -96 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-3-7: towerwall 3 7
+1 19 90 -96 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-3-8: towerwall 3 8
+1 19 -90 -96 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-3-9: towerwall 3 9
+1 19 90 -96 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-3-10: towerwall 3 10
+1 19 -90 -96 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-3-11: towerwall 3 11
+1 19 90 -96 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-3-12: towerwall 3 12
+1 19 -90 -96 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-3-13: towerwall 3 13
+1 19 90 -96 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-3-14: towerwall 3 14
+1 19 -90 -96 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-3-15: towerwall 3 15
+1 19 90 -96 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-3-16: towerwall 3 16
+1 19 -90 -96 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-3-17: towerwall 3 17
+1 19 90 -96 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-3-18: towerwall 3 18
+1 19 -70 -96 110 1 0 0 0 1 0 0 0 1 3622.dat
+0 // towerwall-3-19: towerwall 3 19
+1 19 70 -96 110 1 0 0 0 1 0 0 0 1 3622.dat
+0 STEP
+0 // towerwall-4-0: towerwall 4 0
+1 19 -60 -120 -110 1 0 0 0 1 0 0 0 1 3010.dat
+0 // towerwall-4-1: towerwall 4 1
+1 19 60 -120 -110 1 0 0 0 1 0 0 0 1 3010.dat
+0 // towerwall-4-2: towerwall 4 2
+1 19 -90 -120 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-4-3: towerwall 4 3
+1 19 90 -120 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-4-4: towerwall 4 4
+1 19 -90 -120 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-4-5: towerwall 4 5
+1 19 90 -120 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-4-6: towerwall 4 6
+1 19 -90 -120 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-4-7: towerwall 4 7
+1 19 90 -120 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-4-8: towerwall 4 8
+1 19 -90 -120 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-4-9: towerwall 4 9
+1 19 90 -120 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-4-10: towerwall 4 10
+1 19 -90 -120 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-4-11: towerwall 4 11
+1 19 90 -120 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-4-12: towerwall 4 12
+1 19 -90 -120 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-4-13: towerwall 4 13
+1 19 90 -120 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-4-14: towerwall 4 14
+1 19 -90 -120 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-4-15: towerwall 4 15
+1 19 90 -120 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-4-16: towerwall 4 16
+1 19 -90 -120 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-4-17: towerwall 4 17
+1 19 90 -120 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-4-18: towerwall 4 18
+1 19 -70 -120 110 1 0 0 0 1 0 0 0 1 3622.dat
+0 // towerwall-4-19: towerwall 4 19
+1 19 70 -120 110 1 0 0 0 1 0 0 0 1 3622.dat
+0 STEP
+0 // towerwall-5-0: towerwall 5 0
+1 19 -20 -144 -110 1 0 0 0 1 0 0 0 1 3008.dat
+0 // towerwall-5-1: towerwall 5 1
+1 19 80 -144 -110 1 0 0 0 1 0 0 0 1 3004.dat
+0 // towerwall-5-2: towerwall 5 2
+1 19 -90 -144 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-5-3: towerwall 5 3
+1 19 90 -144 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-5-4: towerwall 5 4
+1 19 -90 -144 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-5-5: towerwall 5 5
+1 19 90 -144 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-5-6: towerwall 5 6
+1 19 -90 -144 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-5-7: towerwall 5 7
+1 19 90 -144 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-5-8: towerwall 5 8
+1 19 -90 -144 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-5-9: towerwall 5 9
+1 19 90 -144 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-5-10: towerwall 5 10
+1 19 -90 -144 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-5-11: towerwall 5 11
+1 19 90 -144 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-5-12: towerwall 5 12
+1 19 -90 -144 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-5-13: towerwall 5 13
+1 19 90 -144 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-5-14: towerwall 5 14
+1 19 -90 -144 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-5-15: towerwall 5 15
+1 19 90 -144 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-5-16: towerwall 5 16
+1 19 -90 -144 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-5-17: towerwall 5 17
+1 19 90 -144 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-5-18: towerwall 5 18
+1 19 -90 -144 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-5-19: towerwall 5 19
+1 19 90 -144 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-5-20: towerwall 5 20
+1 19 -90 -144 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-5-21: towerwall 5 21
+1 19 90 -144 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-5-22: towerwall 5 22
+1 19 -70 -144 110 1 0 0 0 1 0 0 0 1 3622.dat
+0 // towerwall-5-23: towerwall 5 23
+1 19 70 -144 110 1 0 0 0 1 0 0 0 1 3622.dat
+0 STEP
+0 // towerwall-6-0: towerwall 6 0
+1 19 -20 -168 -110 1 0 0 0 1 0 0 0 1 3008.dat
+0 // towerwall-6-1: towerwall 6 1
+1 19 80 -168 -110 1 0 0 0 1 0 0 0 1 3004.dat
+0 // towerwall-6-2: towerwall 6 2
+1 19 -90 -168 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-6-3: towerwall 6 3
+1 19 90 -168 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-6-4: towerwall 6 4
+1 19 -90 -168 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-6-5: towerwall 6 5
+1 19 90 -168 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-6-6: towerwall 6 6
+1 19 -90 -168 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-6-7: towerwall 6 7
+1 19 90 -168 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-6-8: towerwall 6 8
+1 19 -90 -168 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-6-9: towerwall 6 9
+1 19 90 -168 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-6-10: towerwall 6 10
+1 19 -90 -168 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-6-11: towerwall 6 11
+1 19 90 -168 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-6-12: towerwall 6 12
+1 19 -90 -168 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-6-13: towerwall 6 13
+1 19 90 -168 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-6-14: towerwall 6 14
+1 19 -90 -168 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-6-15: towerwall 6 15
+1 19 90 -168 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-6-16: towerwall 6 16
+1 19 -90 -168 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-6-17: towerwall 6 17
+1 19 90 -168 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-6-18: towerwall 6 18
+1 19 -90 -168 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-6-19: towerwall 6 19
+1 19 90 -168 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-6-20: towerwall 6 20
+1 19 -90 -168 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-6-21: towerwall 6 21
+1 19 90 -168 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-6-22: towerwall 6 22
+1 19 -70 -168 110 1 0 0 0 1 0 0 0 1 3622.dat
+0 // towerwall-6-23: towerwall 6 23
+1 19 70 -168 110 1 0 0 0 1 0 0 0 1 3622.dat
+0 STEP
+0 // towerwall-7-0: towerwall 7 0
+1 19 -20 -192 -110 1 0 0 0 1 0 0 0 1 3008.dat
+0 // towerwall-7-1: towerwall 7 1
+1 19 80 -192 -110 1 0 0 0 1 0 0 0 1 3004.dat
+0 // towerwall-7-2: towerwall 7 2
+1 19 -90 -192 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-7-3: towerwall 7 3
+1 19 90 -192 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-7-4: towerwall 7 4
+1 19 -90 -192 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-7-5: towerwall 7 5
+1 19 90 -192 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-7-6: towerwall 7 6
+1 19 -90 -192 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-7-7: towerwall 7 7
+1 19 90 -192 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-7-8: towerwall 7 8
+1 19 -90 -192 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-7-9: towerwall 7 9
+1 19 90 -192 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-7-10: towerwall 7 10
+1 19 -90 -192 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-7-11: towerwall 7 11
+1 19 90 -192 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-7-12: towerwall 7 12
+1 19 -90 -192 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-7-13: towerwall 7 13
+1 19 90 -192 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-7-14: towerwall 7 14
+1 19 -90 -192 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-7-15: towerwall 7 15
+1 19 90 -192 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-7-16: towerwall 7 16
+1 19 -90 -192 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-7-17: towerwall 7 17
+1 19 90 -192 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-7-18: towerwall 7 18
+1 19 -90 -192 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-7-19: towerwall 7 19
+1 19 90 -192 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-7-20: towerwall 7 20
+1 19 -90 -192 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-7-21: towerwall 7 21
+1 19 90 -192 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-7-22: towerwall 7 22
+1 19 -70 -192 110 1 0 0 0 1 0 0 0 1 3622.dat
+0 // towerwall-7-23: towerwall 7 23
+1 19 70 -192 110 1 0 0 0 1 0 0 0 1 3622.dat
+0 STEP
+0 // front-slit: front slit
+1 272 0 -24 -110 1 0 0 0 1 0 0 0 1 tidal-slit-window.ldr
+0 // east-slit: east slit
+1 272 90 -24 0 0 0 -1 0 1 0 1 0 0 tidal-slit-window.ldr
+0 // west-slit: west slit
+1 272 -90 -24 0 0 0 1 0 1 0 -1 0 0 tidal-slit-window.ldr
+0 STEP
+0 // cornice-8-f-0: cornice 8 f 0
+1 15 -20 -200 -110 1 0 0 0 1 0 0 0 1 3460.dat
+0 // cornice-8-f-1: cornice 8 f 1
+1 15 80 -200 -110 1 0 0 0 1 0 0 0 1 3023b.dat
+0 // cornice-8-b-0: cornice 8 b 0
+1 15 -20 -200 110 1 0 0 0 1 0 0 0 1 3460.dat
+0 // cornice-8-b-1: cornice 8 b 1
+1 15 80 -200 110 1 0 0 0 1 0 0 0 1 3023b.dat
+0 // cornice-8-l-0: cornice 8 l 0
+1 15 -90 -200 -20 0 0 1 0 1 0 -1 0 0 3460.dat
+0 // cornice-8-l-1: cornice 8 l 1
+1 15 -90 -200 80 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 // cornice-8-r-0: cornice 8 r 0
+1 15 90 -200 -20 0 0 1 0 1 0 -1 0 0 3460.dat
+0 // cornice-8-r-1: cornice 8 r 1
+1 15 90 -200 80 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 STEP
+0 // cornice-16-f-0: cornice 16 f 0
+1 15 -20 -208 -110 1 0 0 0 1 0 0 0 1 3460.dat
+0 // cornice-16-f-1: cornice 16 f 1
+1 15 80 -208 -110 1 0 0 0 1 0 0 0 1 3023b.dat
+0 // cornice-16-b-0: cornice 16 b 0
+1 15 -20 -208 110 1 0 0 0 1 0 0 0 1 3460.dat
+0 // cornice-16-b-1: cornice 16 b 1
+1 15 80 -208 110 1 0 0 0 1 0 0 0 1 3023b.dat
+0 // cornice-16-l-0: cornice 16 l 0
+1 15 -90 -208 -20 0 0 1 0 1 0 -1 0 0 3460.dat
+0 // cornice-16-l-1: cornice 16 l 1
+1 15 -90 -208 80 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 // cornice-16-r-0: cornice 16 r 0
+1 15 90 -208 -20 0 0 1 0 1 0 -1 0 0 3460.dat
+0 // cornice-16-r-1: cornice 16 r 1
+1 15 90 -208 80 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 STEP
+0 // cornice-24-f-0: cornice 24 f 0
+1 15 -40 -216 -120 1 0 0 0 1 0 0 0 1 3034.dat
+0 // cornice-24-f-1: cornice 24 f 1
+1 15 80 -216 -120 1 0 0 0 1 0 0 0 1 3020.dat
+0 // cornice-24-b-0: cornice 24 b 0
+1 15 -40 -216 120 1 0 0 0 1 0 0 0 1 3034.dat
+0 // cornice-24-b-1: cornice 24 b 1
+1 15 80 -216 120 1 0 0 0 1 0 0 0 1 3020.dat
+0 // cornice-24-l-0: cornice 24 l 0
+1 15 -100 -216 -20 0 0 1 0 1 0 -1 0 0 3034.dat
+0 // cornice-24-l-1: cornice 24 l 1
+1 15 -100 -216 80 1 0 0 0 1 0 0 0 1 3022.dat
+0 // cornice-24-r-0: cornice 24 r 0
+1 15 100 -216 -20 0 0 1 0 1 0 -1 0 0 3034.dat
+0 // cornice-24-r-1: cornice 24 r 1
+1 15 100 -216 80 1 0 0 0 1 0 0 0 1 3022.dat
+0 NOFILE
+0 FILE tidal-tower-middle.ldr
+0 Offset lantern tower masonry stage with glazed slits and open rear
+0 Name: tidal-tower-middle.ldr
+0 Author: OpenAI - original Tidal Observatory design
+0 !LDRAW_ORG Model
+0 // deck-under-0: deck under 0
+1 72 -40 8 0 0 0 1 0 1 0 -1 0 0 3028.dat
+0 // deck-under-1: deck under 1
+1 72 60 8 0 0 0 1 0 1 0 -1 0 0 3029.dat
+0 STEP
+0 // deck-top-0-0-0: deck top 0 0 0
+1 320 -80 0 -100 1 0 0 0 1 0 0 0 1 3022.dat
+0 // deck-top-0-1-0: deck top 0 1 0
+1 320 -80 0 0 0 0 1 0 1 0 -1 0 0 3034.dat
+0 // deck-top-0-2-0: deck top 0 2 0
+1 320 -80 0 100 1 0 0 0 1 0 0 0 1 3022.dat
+0 // deck-top-1-0-0: deck top 1 0 0
+1 320 0 0 -100 1 0 0 0 1 0 0 0 1 3795.dat
+0 // deck-top-1-1-0: deck top 1 1 0
+1 320 0 0 0 0 0 1 0 1 0 -1 0 0 3036.dat
+0 // deck-top-1-2-0: deck top 1 2 0
+1 320 0 0 100 1 0 0 0 1 0 0 0 1 3795.dat
+0 // deck-top-2-0-0: deck top 2 0 0
+1 320 80 0 -100 1 0 0 0 1 0 0 0 1 3022.dat
+0 // deck-top-2-1-0: deck top 2 1 0
+1 320 80 0 0 0 0 1 0 1 0 -1 0 0 3034.dat
+0 // deck-top-2-2-0: deck top 2 2 0
+1 320 80 0 100 1 0 0 0 1 0 0 0 1 3022.dat
+0 STEP
+0 // towerwall-0-0: towerwall 0 0
+1 320 -20 -24 -110 1 0 0 0 1 0 0 0 1 3008.dat
+0 // towerwall-0-1: towerwall 0 1
+1 320 80 -24 -110 1 0 0 0 1 0 0 0 1 3004.dat
+0 // towerwall-0-2: towerwall 0 2
+1 320 -90 -24 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-0-3: towerwall 0 3
+1 320 90 -24 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-0-4: towerwall 0 4
+1 320 -90 -24 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-0-5: towerwall 0 5
+1 320 90 -24 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-0-6: towerwall 0 6
+1 320 -90 -24 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-0-7: towerwall 0 7
+1 320 90 -24 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-0-8: towerwall 0 8
+1 320 -90 -24 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-0-9: towerwall 0 9
+1 320 90 -24 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-0-10: towerwall 0 10
+1 320 -90 -24 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-0-11: towerwall 0 11
+1 320 90 -24 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-0-12: towerwall 0 12
+1 320 -90 -24 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-0-13: towerwall 0 13
+1 320 90 -24 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-0-14: towerwall 0 14
+1 320 -90 -24 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-0-15: towerwall 0 15
+1 320 90 -24 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-0-16: towerwall 0 16
+1 320 -90 -24 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-0-17: towerwall 0 17
+1 320 90 -24 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-0-18: towerwall 0 18
+1 320 -90 -24 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-0-19: towerwall 0 19
+1 320 90 -24 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-0-20: towerwall 0 20
+1 320 -90 -24 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-0-21: towerwall 0 21
+1 320 90 -24 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-0-22: towerwall 0 22
+1 320 -20 -24 110 1 0 0 0 1 0 0 0 1 3008.dat
+0 // towerwall-0-23: towerwall 0 23
+1 320 80 -24 110 1 0 0 0 1 0 0 0 1 3004.dat
+0 STEP
+0 // towerwall-1-0: towerwall 1 0
+1 19 -60 -48 -110 1 0 0 0 1 0 0 0 1 3010.dat
+0 // towerwall-1-1: towerwall 1 1
+1 19 60 -48 -110 1 0 0 0 1 0 0 0 1 3010.dat
+0 // towerwall-1-2: towerwall 1 2
+1 19 -90 -48 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-1-3: towerwall 1 3
+1 19 90 -48 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-1-4: towerwall 1 4
+1 19 -90 -48 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-1-5: towerwall 1 5
+1 19 90 -48 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-1-6: towerwall 1 6
+1 19 -90 -48 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-1-7: towerwall 1 7
+1 19 90 -48 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-1-8: towerwall 1 8
+1 19 -90 -48 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-1-9: towerwall 1 9
+1 19 90 -48 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-1-10: towerwall 1 10
+1 19 -90 -48 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-1-11: towerwall 1 11
+1 19 90 -48 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-1-12: towerwall 1 12
+1 19 -90 -48 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-1-13: towerwall 1 13
+1 19 90 -48 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-1-14: towerwall 1 14
+1 19 -90 -48 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-1-15: towerwall 1 15
+1 19 90 -48 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-1-16: towerwall 1 16
+1 19 -90 -48 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-1-17: towerwall 1 17
+1 19 90 -48 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-1-18: towerwall 1 18
+1 19 -70 -48 110 1 0 0 0 1 0 0 0 1 3622.dat
+0 // towerwall-1-19: towerwall 1 19
+1 19 70 -48 110 1 0 0 0 1 0 0 0 1 3622.dat
+0 STEP
+0 // towerwall-2-0: towerwall 2 0
+1 19 -60 -72 -110 1 0 0 0 1 0 0 0 1 3010.dat
+0 // towerwall-2-1: towerwall 2 1
+1 19 60 -72 -110 1 0 0 0 1 0 0 0 1 3010.dat
+0 // towerwall-2-2: towerwall 2 2
+1 19 -90 -72 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-2-3: towerwall 2 3
+1 19 90 -72 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-2-4: towerwall 2 4
+1 19 -90 -72 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-2-5: towerwall 2 5
+1 19 90 -72 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-2-6: towerwall 2 6
+1 19 -90 -72 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-2-7: towerwall 2 7
+1 19 90 -72 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-2-8: towerwall 2 8
+1 19 -90 -72 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-2-9: towerwall 2 9
+1 19 90 -72 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-2-10: towerwall 2 10
+1 19 -90 -72 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-2-11: towerwall 2 11
+1 19 90 -72 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-2-12: towerwall 2 12
+1 19 -90 -72 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-2-13: towerwall 2 13
+1 19 90 -72 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-2-14: towerwall 2 14
+1 19 -90 -72 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-2-15: towerwall 2 15
+1 19 90 -72 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-2-16: towerwall 2 16
+1 19 -90 -72 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-2-17: towerwall 2 17
+1 19 90 -72 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-2-18: towerwall 2 18
+1 19 -70 -72 110 1 0 0 0 1 0 0 0 1 3622.dat
+0 // towerwall-2-19: towerwall 2 19
+1 19 70 -72 110 1 0 0 0 1 0 0 0 1 3622.dat
+0 STEP
+0 // towerwall-3-0: towerwall 3 0
+1 19 -60 -96 -110 1 0 0 0 1 0 0 0 1 3010.dat
+0 // towerwall-3-1: towerwall 3 1
+1 19 60 -96 -110 1 0 0 0 1 0 0 0 1 3010.dat
+0 // towerwall-3-2: towerwall 3 2
+1 19 -90 -96 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-3-3: towerwall 3 3
+1 19 90 -96 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-3-4: towerwall 3 4
+1 19 -90 -96 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-3-5: towerwall 3 5
+1 19 90 -96 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-3-6: towerwall 3 6
+1 19 -90 -96 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-3-7: towerwall 3 7
+1 19 90 -96 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-3-8: towerwall 3 8
+1 19 -90 -96 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-3-9: towerwall 3 9
+1 19 90 -96 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-3-10: towerwall 3 10
+1 19 -90 -96 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-3-11: towerwall 3 11
+1 19 90 -96 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-3-12: towerwall 3 12
+1 19 -90 -96 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-3-13: towerwall 3 13
+1 19 90 -96 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-3-14: towerwall 3 14
+1 19 -90 -96 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-3-15: towerwall 3 15
+1 19 90 -96 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-3-16: towerwall 3 16
+1 19 -90 -96 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-3-17: towerwall 3 17
+1 19 90 -96 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-3-18: towerwall 3 18
+1 19 -70 -96 110 1 0 0 0 1 0 0 0 1 3622.dat
+0 // towerwall-3-19: towerwall 3 19
+1 19 70 -96 110 1 0 0 0 1 0 0 0 1 3622.dat
+0 STEP
+0 // towerwall-4-0: towerwall 4 0
+1 19 -60 -120 -110 1 0 0 0 1 0 0 0 1 3010.dat
+0 // towerwall-4-1: towerwall 4 1
+1 19 60 -120 -110 1 0 0 0 1 0 0 0 1 3010.dat
+0 // towerwall-4-2: towerwall 4 2
+1 19 -90 -120 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-4-3: towerwall 4 3
+1 19 90 -120 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-4-4: towerwall 4 4
+1 19 -90 -120 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-4-5: towerwall 4 5
+1 19 90 -120 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-4-6: towerwall 4 6
+1 19 -90 -120 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-4-7: towerwall 4 7
+1 19 90 -120 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-4-8: towerwall 4 8
+1 19 -90 -120 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-4-9: towerwall 4 9
+1 19 90 -120 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-4-10: towerwall 4 10
+1 19 -90 -120 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-4-11: towerwall 4 11
+1 19 90 -120 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-4-12: towerwall 4 12
+1 19 -90 -120 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-4-13: towerwall 4 13
+1 19 90 -120 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-4-14: towerwall 4 14
+1 19 -90 -120 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-4-15: towerwall 4 15
+1 19 90 -120 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-4-16: towerwall 4 16
+1 19 -90 -120 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-4-17: towerwall 4 17
+1 19 90 -120 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-4-18: towerwall 4 18
+1 19 -70 -120 110 1 0 0 0 1 0 0 0 1 3622.dat
+0 // towerwall-4-19: towerwall 4 19
+1 19 70 -120 110 1 0 0 0 1 0 0 0 1 3622.dat
+0 STEP
+0 // towerwall-5-0: towerwall 5 0
+1 19 -20 -144 -110 1 0 0 0 1 0 0 0 1 3008.dat
+0 // towerwall-5-1: towerwall 5 1
+1 19 80 -144 -110 1 0 0 0 1 0 0 0 1 3004.dat
+0 // towerwall-5-2: towerwall 5 2
+1 19 -90 -144 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-5-3: towerwall 5 3
+1 19 90 -144 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-5-4: towerwall 5 4
+1 19 -90 -144 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-5-5: towerwall 5 5
+1 19 90 -144 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-5-6: towerwall 5 6
+1 19 -90 -144 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-5-7: towerwall 5 7
+1 19 90 -144 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-5-8: towerwall 5 8
+1 19 -90 -144 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-5-9: towerwall 5 9
+1 19 90 -144 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-5-10: towerwall 5 10
+1 19 -90 -144 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-5-11: towerwall 5 11
+1 19 90 -144 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-5-12: towerwall 5 12
+1 19 -90 -144 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-5-13: towerwall 5 13
+1 19 90 -144 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-5-14: towerwall 5 14
+1 19 -90 -144 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-5-15: towerwall 5 15
+1 19 90 -144 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-5-16: towerwall 5 16
+1 19 -90 -144 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-5-17: towerwall 5 17
+1 19 90 -144 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-5-18: towerwall 5 18
+1 19 -90 -144 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-5-19: towerwall 5 19
+1 19 90 -144 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-5-20: towerwall 5 20
+1 19 -90 -144 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-5-21: towerwall 5 21
+1 19 90 -144 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // towerwall-5-22: towerwall 5 22
+1 19 -70 -144 110 1 0 0 0 1 0 0 0 1 3622.dat
+0 // towerwall-5-23: towerwall 5 23
+1 19 70 -144 110 1 0 0 0 1 0 0 0 1 3622.dat
+0 STEP
+0 // front-slit: front slit
+1 272 0 -24 -110 1 0 0 0 1 0 0 0 1 tidal-slit-window.ldr
+0 // east-slit: east slit
+1 272 90 -24 0 0 0 -1 0 1 0 1 0 0 tidal-slit-window.ldr
+0 // west-slit: west slit
+1 272 -90 -24 0 0 0 1 0 1 0 -1 0 0 tidal-slit-window.ldr
+0 STEP
+0 // cornice-8-f-0: cornice 8 f 0
+1 15 -20 -152 -110 1 0 0 0 1 0 0 0 1 3460.dat
+0 // cornice-8-f-1: cornice 8 f 1
+1 15 80 -152 -110 1 0 0 0 1 0 0 0 1 3023b.dat
+0 // cornice-8-b-0: cornice 8 b 0
+1 15 -20 -152 110 1 0 0 0 1 0 0 0 1 3460.dat
+0 // cornice-8-b-1: cornice 8 b 1
+1 15 80 -152 110 1 0 0 0 1 0 0 0 1 3023b.dat
+0 // cornice-8-l-0: cornice 8 l 0
+1 15 -90 -152 -20 0 0 1 0 1 0 -1 0 0 3460.dat
+0 // cornice-8-l-1: cornice 8 l 1
+1 15 -90 -152 80 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 // cornice-8-r-0: cornice 8 r 0
+1 15 90 -152 -20 0 0 1 0 1 0 -1 0 0 3460.dat
+0 // cornice-8-r-1: cornice 8 r 1
+1 15 90 -152 80 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 STEP
+0 // cornice-16-f-0: cornice 16 f 0
+1 15 -20 -160 -110 1 0 0 0 1 0 0 0 1 3460.dat
+0 // cornice-16-f-1: cornice 16 f 1
+1 15 80 -160 -110 1 0 0 0 1 0 0 0 1 3023b.dat
+0 // cornice-16-b-0: cornice 16 b 0
+1 15 -20 -160 110 1 0 0 0 1 0 0 0 1 3460.dat
+0 // cornice-16-b-1: cornice 16 b 1
+1 15 80 -160 110 1 0 0 0 1 0 0 0 1 3023b.dat
+0 // cornice-16-l-0: cornice 16 l 0
+1 15 -90 -160 -20 0 0 1 0 1 0 -1 0 0 3460.dat
+0 // cornice-16-l-1: cornice 16 l 1
+1 15 -90 -160 80 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 // cornice-16-r-0: cornice 16 r 0
+1 15 90 -160 -20 0 0 1 0 1 0 -1 0 0 3460.dat
+0 // cornice-16-r-1: cornice 16 r 1
+1 15 90 -160 80 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 STEP
+0 // cornice-24-f-0: cornice 24 f 0
+1 15 -40 -168 -120 1 0 0 0 1 0 0 0 1 3034.dat
+0 // cornice-24-f-1: cornice 24 f 1
+1 15 80 -168 -120 1 0 0 0 1 0 0 0 1 3020.dat
+0 // cornice-24-b-0: cornice 24 b 0
+1 15 -40 -168 120 1 0 0 0 1 0 0 0 1 3034.dat
+0 // cornice-24-b-1: cornice 24 b 1
+1 15 80 -168 120 1 0 0 0 1 0 0 0 1 3020.dat
+0 // cornice-24-l-0: cornice 24 l 0
+1 15 -100 -168 -20 0 0 1 0 1 0 -1 0 0 3034.dat
+0 // cornice-24-l-1: cornice 24 l 1
+1 15 -100 -168 80 1 0 0 0 1 0 0 0 1 3022.dat
+0 // cornice-24-r-0: cornice 24 r 0
+1 15 100 -168 -20 0 0 1 0 1 0 -1 0 0 3034.dat
+0 // cornice-24-r-1: cornice 24 r 1
+1 15 100 -168 80 1 0 0 0 1 0 0 0 1 3022.dat
+0 NOFILE
+0 FILE tidal-tower-collar.ldr
+0 Projected lantern balcony and twin tide/time dials
+0 Name: tidal-tower-collar.ldr
+0 Author: OpenAI - original Tidal Observatory design
+0 !LDRAW_ORG Model
+0 // deck-under-0: deck under 0
+1 72 -40 8 0 0 0 1 0 1 0 -1 0 0 3028.dat
+0 // deck-under-1: deck under 1
+1 72 60 8 0 0 0 1 0 1 0 -1 0 0 3029.dat
+0 STEP
+0 // deck-top-0-0-0: deck top 0 0 0
+1 320 -80 0 -100 1 0 0 0 1 0 0 0 1 3022.dat
+0 // deck-top-0-1-0: deck top 0 1 0
+1 320 -80 0 0 0 0 1 0 1 0 -1 0 0 3034.dat
+0 // deck-top-0-2-0: deck top 0 2 0
+1 320 -80 0 100 1 0 0 0 1 0 0 0 1 3022.dat
+0 // deck-top-1-0-0: deck top 1 0 0
+1 320 0 0 -100 1 0 0 0 1 0 0 0 1 3795.dat
+0 // deck-top-1-1-0: deck top 1 1 0
+1 320 0 0 0 0 0 1 0 1 0 -1 0 0 3036.dat
+0 // deck-top-1-2-0: deck top 1 2 0
+1 320 0 0 100 1 0 0 0 1 0 0 0 1 3795.dat
+0 // deck-top-2-0-0: deck top 2 0 0
+1 320 80 0 -100 1 0 0 0 1 0 0 0 1 3022.dat
+0 // deck-top-2-1-0: deck top 2 1 0
+1 320 80 0 0 0 0 1 0 1 0 -1 0 0 3034.dat
+0 // deck-top-2-2-0: deck top 2 2 0
+1 320 80 0 100 1 0 0 0 1 0 0 0 1 3022.dat
+0 STEP
+0 // collarwall-0-0: collarwall 0 0
+1 19 -20 -24 -110 1 0 0 0 1 0 0 0 1 3008.dat
+0 // collarwall-0-1: collarwall 0 1
+1 19 80 -24 -110 1 0 0 0 1 0 0 0 1 3004.dat
+0 // collarwall-0-2: collarwall 0 2
+1 19 -90 -24 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-0-3: collarwall 0 3
+1 19 90 -24 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-0-4: collarwall 0 4
+1 19 -90 -24 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-0-5: collarwall 0 5
+1 19 90 -24 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-0-6: collarwall 0 6
+1 19 -90 -24 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-0-7: collarwall 0 7
+1 19 90 -24 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-0-8: collarwall 0 8
+1 19 -90 -24 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-0-9: collarwall 0 9
+1 19 90 -24 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-0-10: collarwall 0 10
+1 19 -90 -24 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-0-11: collarwall 0 11
+1 19 90 -24 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-0-12: collarwall 0 12
+1 19 -90 -24 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-0-13: collarwall 0 13
+1 19 90 -24 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-0-14: collarwall 0 14
+1 19 -90 -24 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-0-15: collarwall 0 15
+1 19 90 -24 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-0-16: collarwall 0 16
+1 19 -90 -24 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-0-17: collarwall 0 17
+1 19 90 -24 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-0-18: collarwall 0 18
+1 19 -90 -24 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-0-19: collarwall 0 19
+1 19 90 -24 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-0-20: collarwall 0 20
+1 19 -90 -24 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-0-21: collarwall 0 21
+1 19 90 -24 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-0-22: collarwall 0 22
+1 19 -20 -24 110 1 0 0 0 1 0 0 0 1 3008.dat
+0 // collarwall-0-23: collarwall 0 23
+1 19 80 -24 110 1 0 0 0 1 0 0 0 1 3004.dat
+0 STEP
+0 // collarwall-1-0: collarwall 1 0
+1 19 -20 -48 -110 1 0 0 0 1 0 0 0 1 3008.dat
+0 // collarwall-1-1: collarwall 1 1
+1 19 80 -48 -110 1 0 0 0 1 0 0 0 1 3004.dat
+0 // collarwall-1-2: collarwall 1 2
+1 19 -90 -48 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-1-3: collarwall 1 3
+1 19 90 -48 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-1-4: collarwall 1 4
+1 19 -90 -48 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-1-5: collarwall 1 5
+1 19 90 -48 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-1-6: collarwall 1 6
+1 19 -90 -48 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-1-7: collarwall 1 7
+1 19 90 -48 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-1-8: collarwall 1 8
+1 19 -90 -48 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-1-9: collarwall 1 9
+1 19 90 -48 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-1-10: collarwall 1 10
+1 19 -90 -48 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-1-11: collarwall 1 11
+1 19 90 -48 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-1-12: collarwall 1 12
+1 19 -90 -48 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-1-13: collarwall 1 13
+1 19 90 -48 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-1-14: collarwall 1 14
+1 19 -90 -48 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-1-15: collarwall 1 15
+1 19 90 -48 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-1-16: collarwall 1 16
+1 19 -90 -48 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-1-17: collarwall 1 17
+1 19 90 -48 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-1-18: collarwall 1 18
+1 19 -90 -48 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-1-19: collarwall 1 19
+1 19 90 -48 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-1-20: collarwall 1 20
+1 19 -90 -48 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-1-21: collarwall 1 21
+1 19 90 -48 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-1-22: collarwall 1 22
+1 19 -20 -48 110 1 0 0 0 1 0 0 0 1 3008.dat
+0 // collarwall-1-23: collarwall 1 23
+1 19 80 -48 110 1 0 0 0 1 0 0 0 1 3004.dat
+0 STEP
+0 // collarwall-2-0: collarwall 2 0
+1 19 -20 -72 -110 1 0 0 0 1 0 0 0 1 3008.dat
+0 // collarwall-2-1: collarwall 2 1
+1 19 80 -72 -110 1 0 0 0 1 0 0 0 1 3004.dat
+0 // collarwall-2-2: collarwall 2 2
+1 19 -90 -72 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-2-3: collarwall 2 3
+1 19 90 -72 -90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-2-4: collarwall 2 4
+1 19 -90 -72 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-2-5: collarwall 2 5
+1 19 90 -72 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-2-6: collarwall 2 6
+1 19 -90 -72 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-2-7: collarwall 2 7
+1 19 90 -72 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-2-8: collarwall 2 8
+1 19 -90 -72 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-2-9: collarwall 2 9
+1 19 90 -72 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-2-10: collarwall 2 10
+1 19 -90 -72 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-2-11: collarwall 2 11
+1 19 90 -72 -10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-2-12: collarwall 2 12
+1 19 -90 -72 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-2-13: collarwall 2 13
+1 19 90 -72 10 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-2-14: collarwall 2 14
+1 19 -90 -72 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-2-15: collarwall 2 15
+1 19 90 -72 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-2-16: collarwall 2 16
+1 19 -90 -72 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-2-17: collarwall 2 17
+1 19 90 -72 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-2-18: collarwall 2 18
+1 19 -90 -72 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-2-19: collarwall 2 19
+1 19 90 -72 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-2-20: collarwall 2 20
+1 19 -90 -72 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-2-21: collarwall 2 21
+1 19 90 -72 90 1 0 0 0 1 0 0 0 1 3005.dat
+0 // collarwall-2-22: collarwall 2 22
+1 19 -20 -72 110 1 0 0 0 1 0 0 0 1 3008.dat
+0 // collarwall-2-23: collarwall 2 23
+1 19 80 -72 110 1 0 0 0 1 0 0 0 1 3004.dat
+0 STEP
+0 // collar-rim-f-0: collar rim f 0
+1 15 -40 -80 -120 1 0 0 0 1 0 0 0 1 3034.dat
+0 // collar-rim-f-1: collar rim f 1
+1 15 80 -80 -120 1 0 0 0 1 0 0 0 1 3020.dat
+0 // collar-rim-b-0: collar rim b 0
+1 15 -40 -80 120 1 0 0 0 1 0 0 0 1 3034.dat
+0 // collar-rim-b-1: collar rim b 1
+1 15 80 -80 120 1 0 0 0 1 0 0 0 1 3020.dat
+0 // collar-rim-l-0: collar rim l 0
+1 15 -100 -80 -20 0 0 1 0 1 0 -1 0 0 3034.dat
+0 // collar-rim-l-1: collar rim l 1
+1 15 -100 -80 80 1 0 0 0 1 0 0 0 1 3022.dat
+0 // collar-rim-r-0: collar rim r 0
+1 15 100 -80 -20 0 0 1 0 1 0 -1 0 0 3034.dat
+0 // collar-rim-r-1: collar rim r 1
+1 15 100 -80 80 1 0 0 0 1 0 0 0 1 3022.dat
+0 STEP
+0 // balcony-floor-0: balcony floor 0
+1 15 0 -88 -80 1 0 0 0 1 0 0 0 1 3028.dat
+0 // balcony-floor-1: balcony floor 1
+1 15 0 -88 40 1 0 0 0 1 0 0 0 1 3028.dat
+0 // balcony-floor-2: balcony floor 2
+1 15 -40 -88 120 1 0 0 0 1 0 0 0 1 3034.dat
+0 // balcony-floor-3: balcony floor 3
+1 15 80 -88 120 1 0 0 0 1 0 0 0 1 3020.dat
+0 STEP
+0 // clock-left: clock left
+1 19 -20 -56 -140 1 0 0 0 1 0 0 0 1 3003p0b.dat
+0 // clock-right: clock right
+1 19 20 -56 -140 1 0 0 0 1 0 0 0 1 3003p0b.dat
+0 STEP
+0 // clock-base-plate: clock base plate
+1 19 0 0 -140 1 0 0 0 1 0 0 0 1 3020.dat
+0 STEP
+0 // clock-shelf: clock shelf
+1 15 0 -32 -140 1 0 0 0 1 0 0 0 1 3020.dat
+0 // clock-back-support: clock back support
+1 19 0 -24 -140 1 0 0 0 1 0 0 0 1 3001.dat
+0 NOFILE
+0 FILE tidal-lantern.ldr
+0 Four glazed sides around a warm amber weather beacon
+0 Name: tidal-lantern.ldr
+0 Author: OpenAI - original Tidal Observatory design
+0 !LDRAW_ORG Model
+0 // deck-under-0: deck under 0
+1 72 0 8 -20 1 0 0 0 1 0 0 0 1 3036.dat
+0 // deck-under-1: deck under 1
+1 72 0 8 60 1 0 0 0 1 0 0 0 1 3034.dat
+0 STEP
+0 // deck-top-0-0-0: deck top 0 0 0
+1 320 0 0 -20 1 0 0 0 1 0 0 0 1 3036.dat
+0 // deck-top-0-0-1: deck top 0 0 1
+1 320 0 0 60 1 0 0 0 1 0 0 0 1 3034.dat
+0 STEP
+0 // corner-0--70--70: corner 0  70  70
+1 0 -70 -24 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // corner-0--70-70: corner 0  70 70
+1 0 -70 -24 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // corner-0-70--70: corner 0 70  70
+1 0 70 -24 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // corner-0-70-70: corner 0 70 70
+1 0 70 -24 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 STEP
+0 // edge-0--50--70: edge 0  50  70
+1 0 -50 -24 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-0-50--70: edge 0 50  70
+1 0 50 -24 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-0--50-70: edge 0  50 70
+1 0 -50 -24 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-0-50-70: edge 0 50 70
+1 0 50 -24 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-0--70--50: edge 0  70  50
+1 0 -70 -24 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-0--70-50: edge 0  70 50
+1 0 -70 -24 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-0-70--50: edge 0 70  50
+1 0 70 -24 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-0-70-50: edge 0 70 50
+1 0 70 -24 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 STEP
+0 // corner-1--70--70: corner 1  70  70
+1 0 -70 -48 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // corner-1--70-70: corner 1  70 70
+1 0 -70 -48 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // corner-1-70--70: corner 1 70  70
+1 0 70 -48 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // corner-1-70-70: corner 1 70 70
+1 0 70 -48 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 STEP
+0 // edge-1--50--70: edge 1  50  70
+1 0 -50 -48 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-1-50--70: edge 1 50  70
+1 0 50 -48 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-1--50-70: edge 1  50 70
+1 0 -50 -48 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-1-50-70: edge 1 50 70
+1 0 50 -48 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-1--70--50: edge 1  70  50
+1 0 -70 -48 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-1--70-50: edge 1  70 50
+1 0 -70 -48 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-1-70--50: edge 1 70  50
+1 0 70 -48 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-1-70-50: edge 1 70 50
+1 0 70 -48 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 STEP
+0 // corner-2--70--70: corner 2  70  70
+1 0 -70 -72 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // corner-2--70-70: corner 2  70 70
+1 0 -70 -72 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // corner-2-70--70: corner 2 70  70
+1 0 70 -72 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // corner-2-70-70: corner 2 70 70
+1 0 70 -72 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 STEP
+0 // edge-2--50--70: edge 2  50  70
+1 0 -50 -72 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-2-50--70: edge 2 50  70
+1 0 50 -72 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-2--50-70: edge 2  50 70
+1 0 -50 -72 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-2-50-70: edge 2 50 70
+1 0 50 -72 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-2--70--50: edge 2  70  50
+1 0 -70 -72 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-2--70-50: edge 2  70 50
+1 0 -70 -72 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-2-70--50: edge 2 70  50
+1 0 70 -72 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-2-70-50: edge 2 70 50
+1 0 70 -72 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 STEP
+0 // corner-3--70--70: corner 3  70  70
+1 0 -70 -96 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // corner-3--70-70: corner 3  70 70
+1 0 -70 -96 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // corner-3-70--70: corner 3 70  70
+1 0 70 -96 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // corner-3-70-70: corner 3 70 70
+1 0 70 -96 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 STEP
+0 // edge-3--50--70: edge 3  50  70
+1 0 -50 -96 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-3-50--70: edge 3 50  70
+1 0 50 -96 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-3--50-70: edge 3  50 70
+1 0 -50 -96 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-3-50-70: edge 3 50 70
+1 0 50 -96 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-3--70--50: edge 3  70  50
+1 0 -70 -96 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-3--70-50: edge 3  70 50
+1 0 -70 -96 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-3-70--50: edge 3 70  50
+1 0 70 -96 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-3-70-50: edge 3 70 50
+1 0 70 -96 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 STEP
+0 // corner-4--70--70: corner 4  70  70
+1 0 -70 -120 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // corner-4--70-70: corner 4  70 70
+1 0 -70 -120 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // corner-4-70--70: corner 4 70  70
+1 0 70 -120 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // corner-4-70-70: corner 4 70 70
+1 0 70 -120 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 STEP
+0 // edge-4--50--70: edge 4  50  70
+1 0 -50 -120 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-4-50--70: edge 4 50  70
+1 0 50 -120 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-4--50-70: edge 4  50 70
+1 0 -50 -120 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-4-50-70: edge 4 50 70
+1 0 50 -120 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-4--70--50: edge 4  70  50
+1 0 -70 -120 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-4--70-50: edge 4  70 50
+1 0 -70 -120 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-4-70--50: edge 4 70  50
+1 0 70 -120 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-4-70-50: edge 4 70 50
+1 0 70 -120 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 STEP
+0 // corner-5--70--70: corner 5  70  70
+1 0 -70 -144 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // corner-5--70-70: corner 5  70 70
+1 0 -70 -144 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // corner-5-70--70: corner 5 70  70
+1 0 70 -144 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // corner-5-70-70: corner 5 70 70
+1 0 70 -144 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 STEP
+0 // edge-5--50--70: edge 5  50  70
+1 0 -50 -144 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-5-50--70: edge 5 50  70
+1 0 50 -144 -70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-5--50-70: edge 5  50 70
+1 0 -50 -144 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-5-50-70: edge 5 50 70
+1 0 50 -144 70 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-5--70--50: edge 5  70  50
+1 0 -70 -144 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-5--70-50: edge 5  70 50
+1 0 -70 -144 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-5-70--50: edge 5 70  50
+1 0 70 -144 -50 1 0 0 0 1 0 0 0 1 3005.dat
+0 // edge-5-70-50: edge 5 70 50
+1 0 70 -144 50 1 0 0 0 1 0 0 0 1 3005.dat
+0 STEP
+0 // frame-0: frame 0
+1 0 0 -144 -70 1 0 0 0 1 0 0 0 1 60596.dat
+0 // glass-0: glass 0
+1 47 0 -139 -65 1 0 0 0 1 0 0 0 1 57895.dat
+0 // frame-1: frame 1
+1 0 0 -144 70 -1 0 0 0 1 0 0 0 -1 60596.dat
+0 // glass-1: glass 1
+1 47 0 -139 65 -1 0 0 0 1 0 0 0 -1 57895.dat
+0 // frame-2: frame 2
+1 0 -70 -144 0 0 0 1 0 1 0 -1 0 0 60596.dat
+0 // glass-2: glass 2
+1 47 -65 -139 0 0 0 1 0 1 0 -1 0 0 57895.dat
+0 // frame-3: frame 3
+1 0 70 -144 0 0 0 -1 0 1 0 1 0 0 60596.dat
+0 // glass-3: glass 3
+1 47 65 -139 0 0 0 -1 0 1 0 1 0 0 57895.dat
+0 STEP
+0 // beacon-base: beacon base
+1 0 0 -8 0 1 0 0 0 1 0 0 0 1 3031.dat
+0 // beacon-pedestal: beacon pedestal
+1 297 0 -32 0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // beacon-core: beacon core
+1 46 0 -56 0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // beacon-upper: beacon upper
+1 46 0 -80 0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // beacon-cap: beacon cap
+1 297 0 -88 0 1 0 0 0 1 0 0 0 1 3022.dat
+0 STEP
+0 // lantern-lintel-f-0: lantern lintel f 0
+1 0 0 -152 -70 1 0 0 0 1 0 0 0 1 3460.dat
+0 // lantern-lintel-b-0: lantern lintel b 0
+1 0 0 -152 70 1 0 0 0 1 0 0 0 1 3460.dat
+0 // lantern-lintel-l-0: lantern lintel l 0
+1 0 -70 -152 0 0 0 1 0 1 0 -1 0 0 3666.dat
+0 // lantern-lintel-r-0: lantern lintel r 0
+1 0 70 -152 0 0 0 1 0 1 0 -1 0 0 3666.dat
+0 NOFILE
+0 FILE tidal-lantern-roof.ldr
+0 Dark-blue hipped cap and brass finial
+0 Name: tidal-lantern-roof.ldr
+0 Author: OpenAI - original Tidal Observatory design
+0 !LDRAW_ORG Model
+0 // deck-under-0: deck under 0
+1 72 -20 8 -40 1 0 0 0 1 0 0 0 1 3036.dat
+0 // deck-under-1: deck under 1
+1 72 80 8 -20 0 0 1 0 1 0 -1 0 0 3034.dat
+0 // deck-under-2: deck under 2
+1 72 -20 8 60 1 0 0 0 1 0 0 0 1 3035.dat
+0 // deck-under-3: deck under 3
+1 72 80 8 80 1 0 0 0 1 0 0 0 1 3022.dat
+0 STEP
+0 // deck-top-0-0-0: deck top 0 0 0
+1 320 -80 0 -80 1 0 0 0 1 0 0 0 1 3022.dat
+0 // deck-top-0-1-0: deck top 0 1 0
+1 320 -80 0 0 0 0 1 0 1 0 -1 0 0 3795.dat
+0 // deck-top-0-2-0: deck top 0 2 0
+1 320 -80 0 80 1 0 0 0 1 0 0 0 1 3022.dat
+0 // deck-top-1-0-0: deck top 1 0 0
+1 320 0 0 -80 1 0 0 0 1 0 0 0 1 3795.dat
+0 // deck-top-1-1-0: deck top 1 1 0
+1 320 0 0 0 1 0 0 0 1 0 0 0 1 3958.dat
+0 // deck-top-1-2-0: deck top 1 2 0
+1 320 0 0 80 1 0 0 0 1 0 0 0 1 3795.dat
+0 // deck-top-2-0-0: deck top 2 0 0
+1 320 80 0 -80 1 0 0 0 1 0 0 0 1 3022.dat
+0 // deck-top-2-1-0: deck top 2 1 0
+1 320 80 0 0 0 0 1 0 1 0 -1 0 0 3795.dat
+0 // deck-top-2-2-0: deck top 2 2 0
+1 320 80 0 80 1 0 0 0 1 0 0 0 1 3022.dat
+0 STEP
+0 // cap-core-0-0: cap core 0 0
+1 0 0 -24 -40 1 0 0 0 1 0 0 0 1 2456.dat
+0 // cap-core-0-1: cap core 0 1
+1 0 0 -24 0 1 0 0 0 1 0 0 0 1 2456.dat
+0 // cap-core-0-2: cap core 0 2
+1 0 0 -24 40 1 0 0 0 1 0 0 0 1 2456.dat
+0 STEP
+0 // cap-f-0--80: cap f 0  80
+1 272 -80 -24 -70 1 0 0 0 1 0 0 0 1 3039.dat
+0 // cap-b-0--80: cap b 0  80
+1 272 -80 -24 70 -1 0 0 0 1 0 0 0 -1 3039.dat
+0 // cap-f-0--40: cap f 0  40
+1 272 -40 -24 -70 1 0 0 0 1 0 0 0 1 3039.dat
+0 // cap-b-0--40: cap b 0  40
+1 272 -40 -24 70 -1 0 0 0 1 0 0 0 -1 3039.dat
+0 // cap-f-0-0: cap f 0 0
+1 272 0 -24 -70 1 0 0 0 1 0 0 0 1 3039.dat
+0 // cap-b-0-0: cap b 0 0
+1 272 0 -24 70 -1 0 0 0 1 0 0 0 -1 3039.dat
+0 // cap-f-0-40: cap f 0 40
+1 272 40 -24 -70 1 0 0 0 1 0 0 0 1 3039.dat
+0 // cap-b-0-40: cap b 0 40
+1 272 40 -24 70 -1 0 0 0 1 0 0 0 -1 3039.dat
+0 // cap-f-0-80: cap f 0 80
+1 272 80 -24 -70 1 0 0 0 1 0 0 0 1 3039.dat
+0 // cap-b-0-80: cap b 0 80
+1 272 80 -24 70 -1 0 0 0 1 0 0 0 -1 3039.dat
+0 // cap-l-0--40: cap l 0  40
+1 272 -70 -24 -40 0 0 1 0 1 0 -1 0 0 3039.dat
+0 // cap-r-0--40: cap r 0  40
+1 272 70 -24 -40 0 0 -1 0 1 0 1 0 0 3039.dat
+0 // cap-l-0-0: cap l 0 0
+1 272 -70 -24 0 0 0 1 0 1 0 -1 0 0 3039.dat
+0 // cap-r-0-0: cap r 0 0
+1 272 70 -24 0 0 0 -1 0 1 0 1 0 0 3039.dat
+0 // cap-l-0-40: cap l 0 40
+1 272 -70 -24 40 0 0 1 0 1 0 -1 0 0 3039.dat
+0 // cap-r-0-40: cap r 0 40
+1 272 70 -24 40 0 0 -1 0 1 0 1 0 0 3039.dat
+0 STEP
+0 // cap-core-1-0: cap core 1 0
+1 0 0 -48 -20 1 0 0 0 1 0 0 0 1 3001.dat
+0 // cap-core-1-1: cap core 1 1
+1 0 0 -48 20 1 0 0 0 1 0 0 0 1 3001.dat
+0 STEP
+0 // cap-f-1--60: cap f 1  60
+1 272 -60 -48 -50 1 0 0 0 1 0 0 0 1 3039.dat
+0 // cap-b-1--60: cap b 1  60
+1 272 -60 -48 50 -1 0 0 0 1 0 0 0 -1 3039.dat
+0 // cap-f-1--20: cap f 1  20
+1 272 -20 -48 -50 1 0 0 0 1 0 0 0 1 3039.dat
+0 // cap-b-1--20: cap b 1  20
+1 272 -20 -48 50 -1 0 0 0 1 0 0 0 -1 3039.dat
+0 // cap-f-1-20: cap f 1 20
+1 272 20 -48 -50 1 0 0 0 1 0 0 0 1 3039.dat
+0 // cap-b-1-20: cap b 1 20
+1 272 20 -48 50 -1 0 0 0 1 0 0 0 -1 3039.dat
+0 // cap-f-1-60: cap f 1 60
+1 272 60 -48 -50 1 0 0 0 1 0 0 0 1 3039.dat
+0 // cap-b-1-60: cap b 1 60
+1 272 60 -48 50 -1 0 0 0 1 0 0 0 -1 3039.dat
+0 // cap-l-1--20: cap l 1  20
+1 272 -50 -48 -20 0 0 1 0 1 0 -1 0 0 3039.dat
+0 // cap-r-1--20: cap r 1  20
+1 272 50 -48 -20 0 0 -1 0 1 0 1 0 0 3039.dat
+0 // cap-l-1-20: cap l 1 20
+1 272 -50 -48 20 0 0 1 0 1 0 -1 0 0 3039.dat
+0 // cap-r-1-20: cap r 1 20
+1 272 50 -48 20 0 0 -1 0 1 0 1 0 0 3039.dat
+0 STEP
+0 // cap-core-2-0: cap core 2 0
+1 0 0 -72 0 1 0 0 0 1 0 0 0 1 3003.dat
+0 STEP
+0 // cap-f-2--40: cap f 2  40
+1 272 -40 -72 -30 1 0 0 0 1 0 0 0 1 3039.dat
+0 // cap-b-2--40: cap b 2  40
+1 272 -40 -72 30 -1 0 0 0 1 0 0 0 -1 3039.dat
+0 // cap-f-2-0: cap f 2 0
+1 272 0 -72 -30 1 0 0 0 1 0 0 0 1 3039.dat
+0 // cap-b-2-0: cap b 2 0
+1 272 0 -72 30 -1 0 0 0 1 0 0 0 -1 3039.dat
+0 // cap-f-2-40: cap f 2 40
+1 272 40 -72 -30 1 0 0 0 1 0 0 0 1 3039.dat
+0 // cap-b-2-40: cap b 2 40
+1 272 40 -72 30 -1 0 0 0 1 0 0 0 -1 3039.dat
+0 // cap-l-2-0: cap l 2 0
+1 272 -30 -72 0 0 0 1 0 1 0 -1 0 0 3039.dat
+0 // cap-r-2-0: cap r 2 0
+1 272 30 -72 0 0 0 -1 0 1 0 1 0 0 3039.dat
+0 STEP
+0 // cap-f-3--20: cap f 3  20
+1 272 -20 -96 -10 1 0 0 0 1 0 0 0 1 3039.dat
+0 // cap-b-3--20: cap b 3  20
+1 272 -20 -96 10 -1 0 0 0 1 0 0 0 -1 3039.dat
+0 // cap-f-3-20: cap f 3 20
+1 272 20 -96 -10 1 0 0 0 1 0 0 0 1 3039.dat
+0 // cap-b-3-20: cap b 3 20
+1 272 20 -96 10 -1 0 0 0 1 0 0 0 -1 3039.dat
+0 STEP
+0 // finial-plate: finial plate
+1 297 0 -104 0 1 0 0 0 1 0 0 0 1 3022.dat
+0 // finial-jumper: finial jumper
+1 297 0 -112 -10 1 0 0 0 1 0 0 0 1 3794b.dat
+0 // finial: finial
+1 297 0 -136 -10 1 0 0 0 1 0 0 0 1 4589.dat
+0 NOFILE
+0 FILE tidal-dome-roof.ldr
+0 Patinated round observatory dome above an octagonal masonry drum and quiet roof terrace
+0 Name: tidal-dome-roof.ldr
+0 Author: OpenAI - original Tidal Observatory design
+0 !LDRAW_ORG Model
+0 // deck-under-0: deck under 0
+1 72 -160 8 -140 1 0 0 0 1 0 0 0 1 3028.dat
+0 // deck-under-1: deck under 1
+1 72 80 8 -140 1 0 0 0 1 0 0 0 1 3028.dat
+0 // deck-under-2: deck under 2
+1 72 240 8 -80 0 0 1 0 1 0 -1 0 0 3029.dat
+0 // deck-under-3: deck under 3
+1 72 -160 8 -20 1 0 0 0 1 0 0 0 1 3028.dat
+0 // deck-under-4: deck under 4
+1 72 80 8 -20 1 0 0 0 1 0 0 0 1 3028.dat
+0 // deck-under-5: deck under 5
+1 72 -160 8 100 1 0 0 0 1 0 0 0 1 3028.dat
+0 // deck-under-6: deck under 6
+1 72 80 8 100 1 0 0 0 1 0 0 0 1 3028.dat
+0 // deck-under-7: deck under 7
+1 72 240 8 120 0 0 1 0 1 0 -1 0 0 3035.dat
+0 // deck-under-8: deck under 8
+1 72 -200 8 180 1 0 0 0 1 0 0 0 1 3034.dat
+0 // deck-under-9: deck under 9
+1 72 -40 8 180 1 0 0 0 1 0 0 0 1 3034.dat
+0 // deck-under-10: deck under 10
+1 72 120 8 180 1 0 0 0 1 0 0 0 1 3034.dat
+0 STEP
+0 // deck-top-0-0-0: deck top 0 0 0
+1 320 -260 0 -180 1 0 0 0 1 0 0 0 1 3022.dat
+0 // deck-top-0-1-0: deck top 0 1 0
+1 320 -260 0 -80 0 0 1 0 1 0 -1 0 0 3034.dat
+0 // deck-top-0-1-1: deck top 0 1 1
+1 320 -260 0 80 0 0 1 0 1 0 -1 0 0 3034.dat
+0 // deck-top-0-2-0: deck top 0 2 0
+1 320 -260 0 180 1 0 0 0 1 0 0 0 1 3022.dat
+0 // deck-top-1-0-0: deck top 1 0 0
+1 320 -160 0 -180 1 0 0 0 1 0 0 0 1 3034.dat
+0 // deck-top-1-0-1: deck top 1 0 1
+1 320 0 0 -180 1 0 0 0 1 0 0 0 1 3034.dat
+0 // deck-top-1-0-2: deck top 1 0 2
+1 320 160 0 -180 1 0 0 0 1 0 0 0 1 3034.dat
+0 // deck-top-1-1-0: deck top 1 1 0
+1 320 -120 0 -100 1 0 0 0 1 0 0 0 1 3028.dat
+0 // deck-top-1-1-1: deck top 1 1 1
+1 320 120 0 -100 1 0 0 0 1 0 0 0 1 3028.dat
+0 // deck-top-1-1-2: deck top 1 1 2
+1 320 -120 0 20 1 0 0 0 1 0 0 0 1 3028.dat
+0 // deck-top-1-1-3: deck top 1 1 3
+1 320 120 0 20 1 0 0 0 1 0 0 0 1 3028.dat
+0 // deck-top-1-1-4: deck top 1 1 4
+1 320 -120 0 120 1 0 0 0 1 0 0 0 1 3029.dat
+0 // deck-top-1-1-5: deck top 1 1 5
+1 320 120 0 120 1 0 0 0 1 0 0 0 1 3029.dat
+0 // deck-top-1-2-0: deck top 1 2 0
+1 320 -160 0 180 1 0 0 0 1 0 0 0 1 3034.dat
+0 // deck-top-1-2-1: deck top 1 2 1
+1 320 0 0 180 1 0 0 0 1 0 0 0 1 3034.dat
+0 // deck-top-1-2-2: deck top 1 2 2
+1 320 160 0 180 1 0 0 0 1 0 0 0 1 3034.dat
+0 // deck-top-2-0-0: deck top 2 0 0
+1 320 260 0 -180 1 0 0 0 1 0 0 0 1 3022.dat
+0 // deck-top-2-1-0: deck top 2 1 0
+1 320 260 0 -80 0 0 1 0 1 0 -1 0 0 3034.dat
+0 // deck-top-2-1-1: deck top 2 1 1
+1 320 260 0 80 0 0 1 0 1 0 -1 0 0 3034.dat
+0 // deck-top-2-2-0: deck top 2 2 0
+1 320 260 0 180 1 0 0 0 1 0 0 0 1 3022.dat
+0 STEP
+0 // drum-0--120-0: drum 0  120 0
+1 19 0 -24 -100 1 0 0 0 1 0 0 0 1 3007.dat
+0 STEP
+0 // drum-0--80-0: drum 0  80 0
+1 19 -40 -24 -60 1 0 0 0 1 0 0 0 1 3007.dat
+0 // drum-0--80-1: drum 0  80 1
+1 19 80 -24 -60 1 0 0 0 1 0 0 0 1 3001.dat
+0 STEP
+0 // drum-0--40-0: drum 0  40 0
+1 19 -60 -24 -20 1 0 0 0 1 0 0 0 1 3007.dat
+0 // drum-0--40-1: drum 0  40 1
+1 19 80 -24 -20 1 0 0 0 1 0 0 0 1 2456.dat
+0 STEP
+0 // drum-0-0-0: drum 0 0 0
+1 19 -60 -24 20 1 0 0 0 1 0 0 0 1 3007.dat
+0 // drum-0-0-1: drum 0 0 1
+1 19 80 -24 20 1 0 0 0 1 0 0 0 1 2456.dat
+0 STEP
+0 // drum-0-40-0: drum 0 40 0
+1 19 -40 -24 60 1 0 0 0 1 0 0 0 1 3007.dat
+0 // drum-0-40-1: drum 0 40 1
+1 19 80 -24 60 1 0 0 0 1 0 0 0 1 3001.dat
+0 STEP
+0 // drum-0-80-0: drum 0 80 0
+1 19 0 -24 100 1 0 0 0 1 0 0 0 1 3007.dat
+0 STEP
+0 // drum-1--120-0: drum 1  120 0
+1 15 0 -48 -100 1 0 0 0 1 0 0 0 1 3007.dat
+0 STEP
+0 // drum-1--80-0: drum 1  80 0
+1 15 -40 -48 -60 1 0 0 0 1 0 0 0 1 3007.dat
+0 // drum-1--80-1: drum 1  80 1
+1 15 80 -48 -60 1 0 0 0 1 0 0 0 1 3001.dat
+0 STEP
+0 // drum-1--40-0: drum 1  40 0
+1 15 -60 -48 -20 1 0 0 0 1 0 0 0 1 3007.dat
+0 // drum-1--40-1: drum 1  40 1
+1 15 80 -48 -20 1 0 0 0 1 0 0 0 1 2456.dat
+0 STEP
+0 // drum-1-0-0: drum 1 0 0
+1 15 -60 -48 20 1 0 0 0 1 0 0 0 1 3007.dat
+0 // drum-1-0-1: drum 1 0 1
+1 15 80 -48 20 1 0 0 0 1 0 0 0 1 2456.dat
+0 STEP
+0 // drum-1-40-0: drum 1 40 0
+1 15 -40 -48 60 1 0 0 0 1 0 0 0 1 3007.dat
+0 // drum-1-40-1: drum 1 40 1
+1 15 80 -48 60 1 0 0 0 1 0 0 0 1 3001.dat
+0 STEP
+0 // drum-1-80-0: drum 1 80 0
+1 15 0 -48 100 1 0 0 0 1 0 0 0 1 3007.dat
+0 STEP
+0 // copper-skirt-0: copper skirt 0
+1 378 0 -96 0 1 0 0 0 1 0 0 0 1 87559.dat
+0 // raised-collar-0: raised collar 0
+1 378 0 -120 0 1 0 0 0 1 0 0 0 1 48092.dat
+0 STEP
+0 // copper-skirt-90: copper skirt 90
+1 378 0 -96 0 0 0 1 0 1 0 -1 0 0 87559.dat
+0 // raised-collar-90: raised collar 90
+1 378 0 -120 0 0 0 1 0 1 0 -1 0 0 48092.dat
+0 STEP
+0 // copper-skirt-180: copper skirt 180
+1 378 0 -96 0 -1 0 0 0 1 0 0 0 -1 87559.dat
+0 // raised-collar-180: raised collar 180
+1 378 0 -120 0 -1 0 0 0 1 0 0 0 -1 48092.dat
+0 STEP
+0 // copper-skirt-270: copper skirt 270
+1 378 0 -96 0 0 0 -1 0 1 0 1 0 0 87559.dat
+0 // raised-collar-270: raised collar 270
+1 378 0 -120 0 0 0 -1 0 1 0 1 0 0 48092.dat
+0 STEP
+0 // dome-core-0-0: dome core 0 0
+1 378 0 -72 -20 1 0 0 0 1 0 0 0 1 3001.dat
+0 // dome-core-0-1: dome core 0 1
+1 378 0 -72 20 1 0 0 0 1 0 0 0 1 3001.dat
+0 STEP
+0 // dome-core-1-0: dome core 1 0
+1 378 0 -96 -20 1 0 0 0 1 0 0 0 1 3001.dat
+0 // dome-core-1-1: dome core 1 1
+1 378 0 -96 20 1 0 0 0 1 0 0 0 1 3001.dat
+0 STEP
+0 // dome-core-2-0: dome core 2 0
+1 378 0 -120 -20 1 0 0 0 1 0 0 0 1 3001.dat
+0 // dome-core-2-1: dome core 2 1
+1 378 0 -120 20 1 0 0 0 1 0 0 0 1 3001.dat
+0 STEP
+0 // crown-0: crown 0
+1 378 10 -168 -10 1 0 0 0 1 0 0 0 1 88293.dat
+0 STEP
+0 // crown-90: crown 90
+1 378 -10 -168 -10 0 0 1 0 1 0 -1 0 0 88293.dat
+0 STEP
+0 // crown-180: crown 180
+1 378 -10 -168 10 -1 0 0 0 1 0 0 0 -1 88293.dat
+0 STEP
+0 // crown-270: crown 270
+1 378 10 -168 10 0 0 -1 0 1 0 1 0 0 88293.dat
+0 STEP
+0 // crown-cap: crown cap
+1 297 0 -176 0 1 0 0 0 1 0 0 0 1 3022.dat
+0 // crown-jumper: crown jumper
+1 297 0 -184 -10 1 0 0 0 1 0 0 0 1 3794b.dat
+0 // crown-finial: crown finial
+1 297 0 -208 -10 1 0 0 0 1 0 0 0 1 4589.dat
+0 STEP
+0 // roof-paving--220--140: roof paving  220  140
+1 72 -220 -8 -140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving--220--100: roof paving  220  100
+1 72 -220 -8 -100 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving--220--60: roof paving  220  60
+1 72 -220 -8 -60 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving--220--20: roof paving  220  20
+1 72 -220 -8 -20 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving--220-20: roof paving  220 20
+1 72 -220 -8 20 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving--220-60: roof paving  220 60
+1 72 -220 -8 60 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving--220-100: roof paving  220 100
+1 72 -220 -8 100 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving--220-140: roof paving  220 140
+1 72 -220 -8 140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving--180--140: roof paving  180  140
+1 72 -180 -8 -140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving--180--100: roof paving  180  100
+1 72 -180 -8 -100 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving--180--60: roof paving  180  60
+1 72 -180 -8 -60 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving--180--20: roof paving  180  20
+1 72 -180 -8 -20 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving--180-20: roof paving  180 20
+1 72 -180 -8 20 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving--180-60: roof paving  180 60
+1 72 -180 -8 60 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving--180-100: roof paving  180 100
+1 72 -180 -8 100 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving--180-140: roof paving  180 140
+1 72 -180 -8 140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving-180--140: roof paving 180  140
+1 72 180 -8 -140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving-180--100: roof paving 180  100
+1 72 180 -8 -100 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving-180--60: roof paving 180  60
+1 72 180 -8 -60 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving-180--20: roof paving 180  20
+1 72 180 -8 -20 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving-180-20: roof paving 180 20
+1 72 180 -8 20 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving-180-60: roof paving 180 60
+1 72 180 -8 60 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving-180-100: roof paving 180 100
+1 72 180 -8 100 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving-180-140: roof paving 180 140
+1 72 180 -8 140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving-220--140: roof paving 220  140
+1 72 220 -8 -140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving-220--100: roof paving 220  100
+1 72 220 -8 -100 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving-220--60: roof paving 220  60
+1 72 220 -8 -60 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving-220--20: roof paving 220  20
+1 72 220 -8 -20 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving-220-20: roof paving 220 20
+1 72 220 -8 20 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving-220-60: roof paving 220 60
+1 72 220 -8 60 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving-220-100: roof paving 220 100
+1 72 220 -8 100 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving-220-140: roof paving 220 140
+1 72 220 -8 140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 STEP
+0 // roof-rim-f-0: roof rim f 0
+1 15 -200 -8 -190 1 0 0 0 1 0 0 0 1 3460.dat
+0 // roof-rim-f-1: roof rim f 1
+1 15 -40 -8 -190 1 0 0 0 1 0 0 0 1 3460.dat
+0 // roof-rim-f-2: roof rim f 2
+1 15 120 -8 -190 1 0 0 0 1 0 0 0 1 3460.dat
+0 // roof-rim-f-3: roof rim f 3
+1 15 240 -8 -190 1 0 0 0 1 0 0 0 1 3710.dat
+0 // roof-rim-b-0: roof rim b 0
+1 15 -200 -8 190 1 0 0 0 1 0 0 0 1 3460.dat
+0 // roof-rim-b-1: roof rim b 1
+1 15 -40 -8 190 1 0 0 0 1 0 0 0 1 3460.dat
+0 // roof-rim-b-2: roof rim b 2
+1 15 120 -8 190 1 0 0 0 1 0 0 0 1 3460.dat
+0 // roof-rim-b-3: roof rim b 3
+1 15 240 -8 190 1 0 0 0 1 0 0 0 1 3710.dat
+0 // roof-rim-l-0: roof rim l 0
+1 15 -270 -8 -100 0 0 1 0 1 0 -1 0 0 3460.dat
+0 // roof-rim-l-1: roof rim l 1
+1 15 -270 -8 60 0 0 1 0 1 0 -1 0 0 3460.dat
+0 // roof-rim-l-2: roof rim l 2
+1 15 -270 -8 160 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 // roof-rim-r-0: roof rim r 0
+1 15 270 -8 -100 0 0 1 0 1 0 -1 0 0 3460.dat
+0 // roof-rim-r-1: roof rim r 1
+1 15 270 -8 60 0 0 1 0 1 0 -1 0 0 3460.dat
+0 // roof-rim-r-2: roof rim r 2
+1 15 270 -8 160 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 NOFILE
+0 FILE tidal-quay.ldr
+0 Bonded marine base, tiled water, broad quay, entrance steps, planted terrace and harbor lamps
+0 Name: tidal-quay.ldr
+0 Author: OpenAI - original Tidal Observatory design
+0 !LDRAW_ORG Model
+0 // sea-under-0: sea under 0
+1 72 -360 8 -340 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-under-1: sea under 1
+1 72 -120 8 -340 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-under-2: sea under 2
+1 72 120 8 -340 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-under-3: sea under 3
+1 72 360 8 -340 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-under-4: sea under 4
+1 72 -360 8 -220 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-under-5: sea under 5
+1 72 -120 8 -220 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-under-6: sea under 6
+1 72 120 8 -220 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-under-7: sea under 7
+1 72 360 8 -220 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-under-8: sea under 8
+1 72 -360 8 -100 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-under-9: sea under 9
+1 72 -120 8 -100 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-under-10: sea under 10
+1 72 120 8 -100 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-under-11: sea under 11
+1 72 360 8 -100 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-under-12: sea under 12
+1 72 -360 8 20 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-under-13: sea under 13
+1 72 -120 8 20 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-under-14: sea under 14
+1 72 120 8 20 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-under-15: sea under 15
+1 72 360 8 20 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-under-16: sea under 16
+1 72 -360 8 140 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-under-17: sea under 17
+1 72 -120 8 140 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-under-18: sea under 18
+1 72 120 8 140 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-under-19: sea under 19
+1 72 360 8 140 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-under-20: sea under 20
+1 72 -360 8 260 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-under-21: sea under 21
+1 72 -120 8 260 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-under-22: sea under 22
+1 72 120 8 260 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-under-23: sea under 23
+1 72 360 8 260 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-under-24: sea under 24
+1 72 -360 8 360 1 0 0 0 1 0 0 0 1 3029.dat
+0 // sea-under-25: sea under 25
+1 72 -120 8 360 1 0 0 0 1 0 0 0 1 3029.dat
+0 // sea-under-26: sea under 26
+1 72 120 8 360 1 0 0 0 1 0 0 0 1 3029.dat
+0 // sea-under-27: sea under 27
+1 72 360 8 360 1 0 0 0 1 0 0 0 1 3029.dat
+0 STEP
+0 // sea-top-0: sea top 0
+1 272 -360 0 -340 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-top-1: sea top 1
+1 272 -120 0 -340 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-top-2: sea top 2
+1 272 120 0 -340 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-top-3: sea top 3
+1 272 360 0 -340 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-top-4: sea top 4
+1 272 -360 0 -220 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-top-5: sea top 5
+1 272 -120 0 -220 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-top-6: sea top 6
+1 272 120 0 -220 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-top-7: sea top 7
+1 272 360 0 -220 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-top-8: sea top 8
+1 272 -360 0 -100 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-top-9: sea top 9
+1 272 -120 0 -100 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-top-10: sea top 10
+1 272 120 0 -100 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-top-11: sea top 11
+1 272 360 0 -100 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-top-12: sea top 12
+1 272 -360 0 20 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-top-13: sea top 13
+1 272 -120 0 20 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-top-14: sea top 14
+1 272 120 0 20 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-top-15: sea top 15
+1 272 360 0 20 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-top-16: sea top 16
+1 272 -360 0 140 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-top-17: sea top 17
+1 272 -120 0 140 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-top-18: sea top 18
+1 272 120 0 140 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-top-19: sea top 19
+1 272 360 0 140 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-top-20: sea top 20
+1 272 -360 0 260 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-top-21: sea top 21
+1 272 -120 0 260 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-top-22: sea top 22
+1 272 120 0 260 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-top-23: sea top 23
+1 272 360 0 260 1 0 0 0 1 0 0 0 1 3028.dat
+0 // sea-top-24: sea top 24
+1 272 -360 0 360 1 0 0 0 1 0 0 0 1 3029.dat
+0 // sea-top-25: sea top 25
+1 272 -120 0 360 1 0 0 0 1 0 0 0 1 3029.dat
+0 // sea-top-26: sea top 26
+1 272 120 0 360 1 0 0 0 1 0 0 0 1 3029.dat
+0 // sea-top-27: sea top 27
+1 272 360 0 360 1 0 0 0 1 0 0 0 1 3029.dat
+0 STEP
+0 // quay-core-0: quay core 0
+1 72 -400 -24 -260 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-1: quay core 1
+1 72 -240 -24 -260 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-2: quay core 2
+1 72 -80 -24 -260 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-3: quay core 3
+1 72 80 -24 -260 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-4: quay core 4
+1 72 240 -24 -260 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-5: quay core 5
+1 72 400 -24 -260 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-6: quay core 6
+1 72 -400 -24 -220 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-7: quay core 7
+1 72 -240 -24 -220 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-8: quay core 8
+1 72 -80 -24 -220 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-9: quay core 9
+1 72 80 -24 -220 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-10: quay core 10
+1 72 240 -24 -220 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-11: quay core 11
+1 72 400 -24 -220 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-12: quay core 12
+1 72 -400 -24 -180 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-13: quay core 13
+1 72 -240 -24 -180 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-14: quay core 14
+1 72 -80 -24 -180 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-15: quay core 15
+1 72 80 -24 -180 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-16: quay core 16
+1 72 240 -24 -180 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-17: quay core 17
+1 72 400 -24 -180 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-18: quay core 18
+1 72 -400 -24 -140 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-19: quay core 19
+1 72 -240 -24 -140 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-20: quay core 20
+1 72 -80 -24 -140 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-21: quay core 21
+1 72 80 -24 -140 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-22: quay core 22
+1 72 240 -24 -140 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-23: quay core 23
+1 72 400 -24 -140 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-24: quay core 24
+1 72 -400 -24 -100 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-25: quay core 25
+1 72 -240 -24 -100 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-26: quay core 26
+1 72 -80 -24 -100 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-27: quay core 27
+1 72 80 -24 -100 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-28: quay core 28
+1 72 240 -24 -100 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-29: quay core 29
+1 72 400 -24 -100 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-30: quay core 30
+1 72 -400 -24 -60 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-31: quay core 31
+1 72 -240 -24 -60 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-32: quay core 32
+1 72 -80 -24 -60 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-33: quay core 33
+1 72 80 -24 -60 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-34: quay core 34
+1 72 240 -24 -60 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-35: quay core 35
+1 72 400 -24 -60 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-36: quay core 36
+1 72 -400 -24 -20 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-37: quay core 37
+1 72 -240 -24 -20 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-38: quay core 38
+1 72 -80 -24 -20 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-39: quay core 39
+1 72 80 -24 -20 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-40: quay core 40
+1 72 240 -24 -20 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-41: quay core 41
+1 72 400 -24 -20 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-42: quay core 42
+1 72 -400 -24 20 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-43: quay core 43
+1 72 -240 -24 20 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-44: quay core 44
+1 72 -80 -24 20 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-45: quay core 45
+1 72 80 -24 20 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-46: quay core 46
+1 72 240 -24 20 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-47: quay core 47
+1 72 400 -24 20 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-48: quay core 48
+1 72 -400 -24 60 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-49: quay core 49
+1 72 -240 -24 60 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-50: quay core 50
+1 72 -80 -24 60 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-51: quay core 51
+1 72 80 -24 60 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-52: quay core 52
+1 72 240 -24 60 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-53: quay core 53
+1 72 400 -24 60 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-54: quay core 54
+1 72 -400 -24 100 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-55: quay core 55
+1 72 -240 -24 100 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-56: quay core 56
+1 72 -80 -24 100 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-57: quay core 57
+1 72 80 -24 100 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-58: quay core 58
+1 72 240 -24 100 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-59: quay core 59
+1 72 400 -24 100 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-60: quay core 60
+1 72 -400 -24 140 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-61: quay core 61
+1 72 -240 -24 140 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-62: quay core 62
+1 72 -80 -24 140 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-63: quay core 63
+1 72 80 -24 140 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-64: quay core 64
+1 72 240 -24 140 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-65: quay core 65
+1 72 400 -24 140 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-66: quay core 66
+1 72 -400 -24 180 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-67: quay core 67
+1 72 -240 -24 180 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-68: quay core 68
+1 72 -80 -24 180 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-69: quay core 69
+1 72 80 -24 180 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-70: quay core 70
+1 72 240 -24 180 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-71: quay core 71
+1 72 400 -24 180 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-72: quay core 72
+1 72 -400 -24 220 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-73: quay core 73
+1 72 -240 -24 220 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-74: quay core 74
+1 72 -80 -24 220 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-75: quay core 75
+1 72 80 -24 220 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-76: quay core 76
+1 72 240 -24 220 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-77: quay core 77
+1 72 400 -24 220 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-78: quay core 78
+1 72 -400 -24 260 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-79: quay core 79
+1 72 -240 -24 260 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-80: quay core 80
+1 72 -80 -24 260 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-81: quay core 81
+1 72 80 -24 260 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-82: quay core 82
+1 72 240 -24 260 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-83: quay core 83
+1 72 400 -24 260 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-84: quay core 84
+1 72 -400 -24 300 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-85: quay core 85
+1 72 -240 -24 300 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-86: quay core 86
+1 72 -80 -24 300 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-87: quay core 87
+1 72 80 -24 300 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-88: quay core 88
+1 72 240 -24 300 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-89: quay core 89
+1 72 400 -24 300 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-90: quay core 90
+1 72 -400 -24 340 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-91: quay core 91
+1 72 -240 -24 340 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-92: quay core 92
+1 72 -80 -24 340 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-93: quay core 93
+1 72 80 -24 340 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-94: quay core 94
+1 72 240 -24 340 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-95: quay core 95
+1 72 400 -24 340 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-96: quay core 96
+1 72 -400 -24 380 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-97: quay core 97
+1 72 -240 -24 380 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-98: quay core 98
+1 72 -80 -24 380 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-99: quay core 99
+1 72 80 -24 380 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-100: quay core 100
+1 72 240 -24 380 1 0 0 0 1 0 0 0 1 3007.dat
+0 // quay-core-101: quay core 101
+1 72 400 -24 380 1 0 0 0 1 0 0 0 1 3007.dat
+0 STEP
+0 // quay-deck-0: quay deck 0
+1 71 -360 -32 -220 1 0 0 0 1 0 0 0 1 3028.dat
+0 // quay-deck-1: quay deck 1
+1 71 -120 -32 -220 1 0 0 0 1 0 0 0 1 3028.dat
+0 // quay-deck-2: quay deck 2
+1 71 120 -32 -220 1 0 0 0 1 0 0 0 1 3028.dat
+0 // quay-deck-3: quay deck 3
+1 71 360 -32 -220 1 0 0 0 1 0 0 0 1 3028.dat
+0 // quay-deck-4: quay deck 4
+1 71 -360 -32 -100 1 0 0 0 1 0 0 0 1 3028.dat
+0 // quay-deck-5: quay deck 5
+1 71 -120 -32 -100 1 0 0 0 1 0 0 0 1 3028.dat
+0 // quay-deck-6: quay deck 6
+1 71 120 -32 -100 1 0 0 0 1 0 0 0 1 3028.dat
+0 // quay-deck-7: quay deck 7
+1 71 360 -32 -100 1 0 0 0 1 0 0 0 1 3028.dat
+0 // quay-deck-8: quay deck 8
+1 71 -360 -32 20 1 0 0 0 1 0 0 0 1 3028.dat
+0 // quay-deck-9: quay deck 9
+1 71 -120 -32 20 1 0 0 0 1 0 0 0 1 3028.dat
+0 // quay-deck-10: quay deck 10
+1 71 120 -32 20 1 0 0 0 1 0 0 0 1 3028.dat
+0 // quay-deck-11: quay deck 11
+1 71 360 -32 20 1 0 0 0 1 0 0 0 1 3028.dat
+0 // quay-deck-12: quay deck 12
+1 71 -360 -32 140 1 0 0 0 1 0 0 0 1 3028.dat
+0 // quay-deck-13: quay deck 13
+1 71 -120 -32 140 1 0 0 0 1 0 0 0 1 3028.dat
+0 // quay-deck-14: quay deck 14
+1 71 120 -32 140 1 0 0 0 1 0 0 0 1 3028.dat
+0 // quay-deck-15: quay deck 15
+1 71 360 -32 140 1 0 0 0 1 0 0 0 1 3028.dat
+0 // quay-deck-16: quay deck 16
+1 71 -360 -32 260 1 0 0 0 1 0 0 0 1 3028.dat
+0 // quay-deck-17: quay deck 17
+1 71 -120 -32 260 1 0 0 0 1 0 0 0 1 3028.dat
+0 // quay-deck-18: quay deck 18
+1 71 120 -32 260 1 0 0 0 1 0 0 0 1 3028.dat
+0 // quay-deck-19: quay deck 19
+1 71 360 -32 260 1 0 0 0 1 0 0 0 1 3028.dat
+0 // quay-deck-20: quay deck 20
+1 71 -360 -32 360 1 0 0 0 1 0 0 0 1 3029.dat
+0 // quay-deck-21: quay deck 21
+1 71 -120 -32 360 1 0 0 0 1 0 0 0 1 3029.dat
+0 // quay-deck-22: quay deck 22
+1 71 120 -32 360 1 0 0 0 1 0 0 0 1 3029.dat
+0 // quay-deck-23: quay deck 23
+1 71 360 -32 360 1 0 0 0 1 0 0 0 1 3029.dat
+0 STEP
+0 // sea-tile--460--380: sea tile  460  380
+1 272 -460 -8 -380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile--460--340: sea tile  460  340
+1 23 -460 -8 -340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile--460--300: sea tile  460  300
+1 23 -460 -8 -300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile--420--380: sea tile  420  380
+1 23 -420 -8 -380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile--420--340: sea tile  420  340
+1 23 -420 -8 -340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile--420--300: sea tile  420  300
+1 272 -420 -8 -300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile--380--380: sea tile  380  380
+1 23 -380 -8 -380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile--380--340: sea tile  380  340
+1 272 -380 -8 -340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile--380--300: sea tile  380  300
+1 1 -380 -8 -300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile--340--380: sea tile  340  380
+1 272 -340 -8 -380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile--340--340: sea tile  340  340
+1 1 -340 -8 -340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile--340--300: sea tile  340  300
+1 272 -340 -8 -300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile--300--380: sea tile  300  380
+1 1 -300 -8 -380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile--300--340: sea tile  300  340
+1 272 -300 -8 -340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile--300--300: sea tile  300  300
+1 23 -300 -8 -300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile--260--380: sea tile  260  380
+1 272 -260 -8 -380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile--260--340: sea tile  260  340
+1 23 -260 -8 -340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile--260--300: sea tile  260  300
+1 23 -260 -8 -300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile--220--380: sea tile  220  380
+1 23 -220 -8 -380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile--220--340: sea tile  220  340
+1 23 -220 -8 -340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile--220--300: sea tile  220  300
+1 272 -220 -8 -300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile--180--380: sea tile  180  380
+1 23 -180 -8 -380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile--180--340: sea tile  180  340
+1 272 -180 -8 -340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile--180--300: sea tile  180  300
+1 1 -180 -8 -300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile--140--380: sea tile  140  380
+1 272 -140 -8 -380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile--140--340: sea tile  140  340
+1 1 -140 -8 -340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile--140--300: sea tile  140  300
+1 272 -140 -8 -300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile--100--380: sea tile  100  380
+1 1 -100 -8 -380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile--100--340: sea tile  100  340
+1 272 -100 -8 -340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile--100--300: sea tile  100  300
+1 23 -100 -8 -300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile--60--380: sea tile  60  380
+1 272 -60 -8 -380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile--60--340: sea tile  60  340
+1 23 -60 -8 -340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile--60--300: sea tile  60  300
+1 23 -60 -8 -300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile--20--380: sea tile  20  380
+1 23 -20 -8 -380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile--20--340: sea tile  20  340
+1 23 -20 -8 -340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile--20--300: sea tile  20  300
+1 272 -20 -8 -300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile-20--380: sea tile 20  380
+1 23 20 -8 -380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile-20--340: sea tile 20  340
+1 272 20 -8 -340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile-20--300: sea tile 20  300
+1 1 20 -8 -300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile-60--380: sea tile 60  380
+1 272 60 -8 -380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile-60--340: sea tile 60  340
+1 1 60 -8 -340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile-60--300: sea tile 60  300
+1 272 60 -8 -300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile-100--380: sea tile 100  380
+1 1 100 -8 -380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile-100--340: sea tile 100  340
+1 272 100 -8 -340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile-100--300: sea tile 100  300
+1 23 100 -8 -300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile-140--380: sea tile 140  380
+1 272 140 -8 -380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile-140--340: sea tile 140  340
+1 23 140 -8 -340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile-140--300: sea tile 140  300
+1 23 140 -8 -300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile-180--380: sea tile 180  380
+1 23 180 -8 -380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile-180--340: sea tile 180  340
+1 23 180 -8 -340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile-180--300: sea tile 180  300
+1 272 180 -8 -300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile-220--380: sea tile 220  380
+1 23 220 -8 -380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile-220--340: sea tile 220  340
+1 272 220 -8 -340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile-220--300: sea tile 220  300
+1 1 220 -8 -300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile-260--380: sea tile 260  380
+1 272 260 -8 -380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile-260--340: sea tile 260  340
+1 1 260 -8 -340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile-260--300: sea tile 260  300
+1 272 260 -8 -300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile-300--380: sea tile 300  380
+1 1 300 -8 -380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile-300--340: sea tile 300  340
+1 272 300 -8 -340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile-300--300: sea tile 300  300
+1 23 300 -8 -300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile-340--380: sea tile 340  380
+1 272 340 -8 -380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile-340--340: sea tile 340  340
+1 23 340 -8 -340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile-340--300: sea tile 340  300
+1 23 340 -8 -300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile-380--380: sea tile 380  380
+1 23 380 -8 -380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile-380--340: sea tile 380  340
+1 23 380 -8 -340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile-380--300: sea tile 380  300
+1 272 380 -8 -300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile-420--380: sea tile 420  380
+1 23 420 -8 -380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile-420--340: sea tile 420  340
+1 272 420 -8 -340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile-420--300: sea tile 420  300
+1 1 420 -8 -300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile-460--380: sea tile 460  380
+1 272 460 -8 -380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile-460--340: sea tile 460  340
+1 1 460 -8 -340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // sea-tile-460--300: sea tile 460  300
+1 272 460 -8 -300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 STEP
+0 // paving--460--260: paving  460  260
+1 19 -460 -40 -260 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--460--220: paving  460  220
+1 19 -460 -40 -220 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--460--180: paving  460  180
+1 19 -460 -40 -180 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--460--140: paving  460  140
+1 320 -460 -40 -140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--460--100: paving  460  100
+1 19 -460 -40 -100 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--460--60: paving  460  60
+1 19 -460 -40 -60 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--460--20: paving  460  20
+1 19 -460 -40 -20 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--460-20: paving  460 20
+1 320 -460 -40 20 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--460-60: paving  460 60
+1 19 -460 -40 60 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--460-100: paving  460 100
+1 19 -460 -40 100 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--460-140: paving  460 140
+1 19 -460 -40 140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--460-180: paving  460 180
+1 320 -460 -40 180 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--460-220: paving  460 220
+1 19 -460 -40 220 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--460-260: paving  460 260
+1 19 -460 -40 260 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--460-300: paving  460 300
+1 19 -460 -40 300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--460-340: paving  460 340
+1 320 -460 -40 340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--460-380: paving  460 380
+1 19 -460 -40 380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--420--260: paving  420  260
+1 19 -420 -40 -260 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--420--140: paving  420  140
+1 19 -420 -40 -140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--420--100: paving  420  100
+1 19 -420 -40 -100 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--420--60: paving  420  60
+1 19 -420 -40 -60 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--420--20: paving  420  20
+1 320 -420 -40 -20 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--420-20: paving  420 20
+1 19 -420 -40 20 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--420-60: paving  420 60
+1 19 -420 -40 60 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--420-100: paving  420 100
+1 19 -420 -40 100 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--420-140: paving  420 140
+1 320 -420 -40 140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--420-180: paving  420 180
+1 19 -420 -40 180 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--420-220: paving  420 220
+1 19 -420 -40 220 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--420-260: paving  420 260
+1 19 -420 -40 260 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--420-380: paving  420 380
+1 19 -420 -40 380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--380--260: paving  380  260
+1 19 -380 -40 -260 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--380--140: paving  380  140
+1 19 -380 -40 -140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--380-380: paving  380 380
+1 19 -380 -40 380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--340--260: paving  340  260
+1 320 -340 -40 -260 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--340--220: paving  340  220
+1 19 -340 -40 -220 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--340--180: paving  340  180
+1 19 -340 -40 -180 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--340--140: paving  340  140
+1 19 -340 -40 -140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--340-300: paving  340 300
+1 19 -340 -40 300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--340-340: paving  340 340
+1 19 -340 -40 340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--340-380: paving  340 380
+1 320 -340 -40 380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--300--260: paving  300  260
+1 19 -300 -40 -260 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--300--220: paving  300  220
+1 19 -300 -40 -220 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--300--180: paving  300  180
+1 19 -300 -40 -180 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--300--140: paving  300  140
+1 320 -300 -40 -140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--300-300: paving  300 300
+1 19 -300 -40 300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--300-340: paving  300 340
+1 320 -300 -40 340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--300-380: paving  300 380
+1 19 -300 -40 380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--260--260: paving  260  260
+1 19 -260 -40 -260 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--260--180: paving  260  180
+1 320 -260 -40 -180 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--260--140: paving  260  140
+1 19 -260 -40 -140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--260-300: paving  260 300
+1 320 -260 -40 300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--260-340: paving  260 340
+1 19 -260 -40 340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--260-380: paving  260 380
+1 19 -260 -40 380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--220--260: paving  220  260
+1 19 -220 -40 -260 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--220--220: paving  220  220
+1 320 -220 -40 -220 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--220--180: paving  220  180
+1 19 -220 -40 -180 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--220--140: paving  220  140
+1 19 -220 -40 -140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--220-300: paving  220 300
+1 19 -220 -40 300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--220-340: paving  220 340
+1 19 -220 -40 340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--220-380: paving  220 380
+1 19 -220 -40 380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--180--260: paving  180  260
+1 320 -180 -40 -260 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--180--220: paving  180  220
+1 19 -180 -40 -220 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--180-300: paving  180 300
+1 19 -180 -40 300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--180-340: paving  180 340
+1 19 -180 -40 340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--180-380: paving  180 380
+1 320 -180 -40 380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--140--260: paving  140  260
+1 19 -140 -40 -260 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--140--220: paving  140  220
+1 19 -140 -40 -220 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--140-300: paving  140 300
+1 19 -140 -40 300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--140-340: paving  140 340
+1 320 -140 -40 340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--140-380: paving  140 380
+1 19 -140 -40 380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--100--260: paving  100  260
+1 19 -100 -40 -260 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--100--220: paving  100  220
+1 19 -100 -40 -220 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--100-300: paving  100 300
+1 320 -100 -40 300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--100-340: paving  100 340
+1 19 -100 -40 340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--100-380: paving  100 380
+1 19 -100 -40 380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--60--260: paving  60  260
+1 19 -60 -40 -260 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--60--220: paving  60  220
+1 320 -60 -40 -220 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--60-300: paving  60 300
+1 19 -60 -40 300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--60-340: paving  60 340
+1 19 -60 -40 340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--60-380: paving  60 380
+1 19 -60 -40 380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--20--260: paving  20  260
+1 320 -20 -40 -260 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--20--220: paving  20  220
+1 19 -20 -40 -220 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--20--180: paving  20  180
+1 19 -20 -40 -180 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--20--140: paving  20  140
+1 19 -20 -40 -140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--20-300: paving  20 300
+1 19 -20 -40 300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--20-340: paving  20 340
+1 19 -20 -40 340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving--20-380: paving  20 380
+1 320 -20 -40 380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-20--260: paving 20  260
+1 19 20 -40 -260 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-20--220: paving 20  220
+1 19 20 -40 -220 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-20--180: paving 20  180
+1 19 20 -40 -180 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-20--140: paving 20  140
+1 320 20 -40 -140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-20-300: paving 20 300
+1 19 20 -40 300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-20-340: paving 20 340
+1 320 20 -40 340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-20-380: paving 20 380
+1 19 20 -40 380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-60--260: paving 60  260
+1 19 60 -40 -260 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-60--220: paving 60  220
+1 19 60 -40 -220 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-60--180: paving 60  180
+1 320 60 -40 -180 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-60--140: paving 60  140
+1 19 60 -40 -140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-60-300: paving 60 300
+1 320 60 -40 300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-60-340: paving 60 340
+1 19 60 -40 340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-60-380: paving 60 380
+1 19 60 -40 380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-100--260: paving 100  260
+1 19 100 -40 -260 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-100--220: paving 100  220
+1 320 100 -40 -220 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-100--180: paving 100  180
+1 19 100 -40 -180 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-100--140: paving 100  140
+1 19 100 -40 -140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-100-300: paving 100 300
+1 19 100 -40 300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-100-340: paving 100 340
+1 19 100 -40 340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-100-380: paving 100 380
+1 19 100 -40 380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-140--260: paving 140  260
+1 320 140 -40 -260 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-140--220: paving 140  220
+1 19 140 -40 -220 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-140--180: paving 140  180
+1 19 140 -40 -180 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-140--140: paving 140  140
+1 19 140 -40 -140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-140-300: paving 140 300
+1 19 140 -40 300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-140-340: paving 140 340
+1 19 140 -40 340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-140-380: paving 140 380
+1 320 140 -40 380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-180--260: paving 180  260
+1 19 180 -40 -260 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-180--220: paving 180  220
+1 19 180 -40 -220 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-180--180: paving 180  180
+1 19 180 -40 -180 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-180--140: paving 180  140
+1 320 180 -40 -140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-180--100: paving 180  100
+1 19 180 -40 -100 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-180--60: paving 180  60
+1 19 180 -40 -60 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-180--20: paving 180  20
+1 19 180 -40 -20 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-180-20: paving 180 20
+1 320 180 -40 20 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-180-60: paving 180 60
+1 19 180 -40 60 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-180-100: paving 180 100
+1 19 180 -40 100 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-180-140: paving 180 140
+1 19 180 -40 140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-180-180: paving 180 180
+1 320 180 -40 180 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-180-220: paving 180 220
+1 19 180 -40 220 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-180-260: paving 180 260
+1 19 180 -40 260 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-180-300: paving 180 300
+1 19 180 -40 300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-180-340: paving 180 340
+1 320 180 -40 340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-180-380: paving 180 380
+1 19 180 -40 380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-220--260: paving 220  260
+1 19 220 -40 -260 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-220--180: paving 220  180
+1 320 220 -40 -180 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-220--140: paving 220  140
+1 19 220 -40 -140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-220--100: paving 220  100
+1 19 220 -40 -100 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-220--60: paving 220  60
+1 19 220 -40 -60 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-220-220: paving 220 220
+1 19 220 -40 220 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-220-260: paving 220 260
+1 19 220 -40 260 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-220-340: paving 220 340
+1 19 220 -40 340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-220-380: paving 220 380
+1 19 220 -40 380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-260--260: paving 260  260
+1 19 260 -40 -260 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-260--180: paving 260  180
+1 19 260 -40 -180 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-260--140: paving 260  140
+1 19 260 -40 -140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-260--100: paving 260  100
+1 19 260 -40 -100 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-260--60: paving 260  60
+1 320 260 -40 -60 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-260-220: paving 260 220
+1 19 260 -40 220 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-260-260: paving 260 260
+1 320 260 -40 260 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-260-340: paving 260 340
+1 19 260 -40 340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-260-380: paving 260 380
+1 19 260 -40 380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-300--260: paving 300  260
+1 320 300 -40 -260 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-300--220: paving 300  220
+1 19 300 -40 -220 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-300--180: paving 300  180
+1 19 300 -40 -180 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-300--140: paving 300  140
+1 19 300 -40 -140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-300--100: paving 300  100
+1 320 300 -40 -100 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-300--60: paving 300  60
+1 19 300 -40 -60 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-300-220: paving 300 220
+1 320 300 -40 220 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-300-260: paving 300 260
+1 19 300 -40 260 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-300-340: paving 300 340
+1 19 300 -40 340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-300-380: paving 300 380
+1 320 300 -40 380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-340--140: paving 340  140
+1 320 340 -40 -140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-340--100: paving 340  100
+1 19 340 -40 -100 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-340--60: paving 340  60
+1 19 340 -40 -60 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-340-220: paving 340 220
+1 19 340 -40 220 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-340-260: paving 340 260
+1 19 340 -40 260 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-340-340: paving 340 340
+1 320 340 -40 340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-340-380: paving 340 380
+1 19 340 -40 380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-380--140: paving 380  140
+1 19 380 -40 -140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-380--100: paving 380  100
+1 19 380 -40 -100 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-380--60: paving 380  60
+1 19 380 -40 -60 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-380-220: paving 380 220
+1 19 380 -40 220 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-380-260: paving 380 260
+1 19 380 -40 260 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-380-300: paving 380 300
+1 320 380 -40 300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-380-340: paving 380 340
+1 19 380 -40 340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-380-380: paving 380 380
+1 19 380 -40 380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-420--260: paving 420  260
+1 19 420 -40 -260 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-420--220: paving 420  220
+1 320 420 -40 -220 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-420--180: paving 420  180
+1 19 420 -40 -180 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-420--140: paving 420  140
+1 19 420 -40 -140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-420--100: paving 420  100
+1 19 420 -40 -100 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-420--60: paving 420  60
+1 320 420 -40 -60 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-420--20: paving 420  20
+1 19 420 -40 -20 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-420-20: paving 420 20
+1 19 420 -40 20 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-420-60: paving 420 60
+1 19 420 -40 60 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-420-100: paving 420 100
+1 320 420 -40 100 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-420-140: paving 420 140
+1 19 420 -40 140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-420-180: paving 420 180
+1 19 420 -40 180 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-420-220: paving 420 220
+1 19 420 -40 220 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-420-260: paving 420 260
+1 320 420 -40 260 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-420-300: paving 420 300
+1 19 420 -40 300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-420-340: paving 420 340
+1 19 420 -40 340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-420-380: paving 420 380
+1 19 420 -40 380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-460--260: paving 460  260
+1 320 460 -40 -260 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-460--220: paving 460  220
+1 19 460 -40 -220 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-460--180: paving 460  180
+1 19 460 -40 -180 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-460--140: paving 460  140
+1 19 460 -40 -140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-460--100: paving 460  100
+1 320 460 -40 -100 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-460--60: paving 460  60
+1 19 460 -40 -60 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-460--20: paving 460  20
+1 19 460 -40 -20 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-460-20: paving 460 20
+1 19 460 -40 20 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-460-60: paving 460 60
+1 320 460 -40 60 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-460-100: paving 460 100
+1 19 460 -40 100 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-460-140: paving 460 140
+1 19 460 -40 140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-460-180: paving 460 180
+1 19 460 -40 180 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-460-220: paving 460 220
+1 320 460 -40 220 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-460-260: paving 460 260
+1 19 460 -40 260 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-460-300: paving 460 300
+1 19 460 -40 300 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-460-340: paving 460 340
+1 19 460 -40 340 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // paving-460-380: paving 460 380
+1 320 460 -40 380 1 0 0 0 1 0 0 0 1 3068b.dat
+0 STEP
+0 // entrance-step-0-0: entrance step 0 0
+1 15 -120 -40 -160 1 0 0 0 1 0 0 0 1 3035.dat
+0 STEP
+0 // entrance-step-1-0: entrance step 1 0
+1 15 -120 -48 -160 1 0 0 0 1 0 0 0 1 3034.dat
+0 // entrance-step-1-1: entrance step 1 1
+1 15 -120 -48 -130 1 0 0 0 1 0 0 0 1 3460.dat
+0 STEP
+0 // fixture-0: fixture 0
+1 19 -400 -32 -200 1 0 0 0 1 0 0 0 1 tidal-planter.ldr
+0 // fixture-1: fixture 1
+1 19 360 -32 -220 1 0 0 0 1 0 0 0 1 tidal-planter.ldr
+0 // fixture-2: fixture 2
+1 19 -400 -32 320 1 0 0 0 1 0 0 0 1 tidal-planter.ldr
+0 // fixture-3: fixture 3
+1 19 -260 -32 -220 1 0 0 0 1 0 0 0 1 tidal-lamp.ldr
+0 // fixture-4: fixture 4
+1 19 240 -32 -220 1 0 0 0 1 0 0 0 1 tidal-lamp.ldr
+0 // fixture-5: fixture 5
+1 19 280 -32 300 1 0 0 0 1 0 0 0 1 tidal-bench.ldr
+0 STEP
+0 // sea-wall-0-0: sea wall 0 0
+1 19 -380 -64 -270 1 0 0 0 1 0 0 0 1 3008.dat
+0 // sea-wall-0-1: sea wall 0 1
+1 19 -280 -64 -270 1 0 0 0 1 0 0 0 1 3004.dat
+0 STEP
+0 // sea-wall-cap-0-0: sea wall cap 0 0
+1 15 -380 -72 -270 1 0 0 0 1 0 0 0 1 3460.dat
+0 // sea-wall-cap-0-1: sea wall cap 0 1
+1 15 -280 -72 -270 1 0 0 0 1 0 0 0 1 3023b.dat
+0 STEP
+0 // sea-wall-1-0: sea wall 1 0
+1 19 60 -64 -270 1 0 0 0 1 0 0 0 1 3008.dat
+0 // sea-wall-1-1: sea wall 1 1
+1 19 220 -64 -270 1 0 0 0 1 0 0 0 1 3008.dat
+0 // sea-wall-1-2: sea wall 1 2
+1 19 360 -64 -270 1 0 0 0 1 0 0 0 1 3009.dat
+0 STEP
+0 // sea-wall-cap-1-0: sea wall cap 1 0
+1 15 60 -72 -270 1 0 0 0 1 0 0 0 1 3460.dat
+0 // sea-wall-cap-1-1: sea wall cap 1 1
+1 15 220 -72 -270 1 0 0 0 1 0 0 0 1 3460.dat
+0 // sea-wall-cap-1-2: sea wall cap 1 2
+1 15 360 -72 -270 1 0 0 0 1 0 0 0 1 3666.dat
+0 NOFILE

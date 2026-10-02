@@ -1,0 +1,41 @@
+0 FILE m8-door-42099-00-42099---door1.ldr
+0 Right door assembly with orange trapezium panel and fairing panels mounted on a liftarm frame.
+0 Name: m8-door-42099-00-42099---door1.ldr
+0 Author: Philippe Hurbain [Philo]
+0 !LDRAW_ORG Model
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+
+0 // Technic Panel Fairing Smooth #2 (Short) (bright_light_orange)
+1 191 0 0 0 1 0 0 0 0 1 0 -1 0 87086.dat
+0 // Technic Pin with Friction and Slots (black)
+1 0 0 40 -10 0 -1 0 0 0 1 -1 0 0 2780.dat
+0 // Technic Pin with Friction and Slots (black)
+1 0 0 60 -10 0 -1 0 0 0 1 -1 0 0 2780.dat
+0 STEP
+0 // Technic Panel  5 x 11 Trapezium (bright_light_orange)
+1 191 0 40 -120 0 -1 0 0 0 -1 1 0 0 18945.dat
+0 // Technic Pin with Friction and Slots (black)
+1 0 0 -10 -60 0 -1 0 -1 0 0 0 0 -1 2780.dat
+0 // Technic Beam 15 (bright_light_orange)
+1 191 0 -20 -100 -1 0 0 0 1 0 0 0 -1 32278.dat
+0 // Technic Pin with Friction and Slots (black)
+1 0 0 -30 -40 0 -1 0 -1 0 0 0 0 -1 2780.dat
+0 // Technic Pin Long with Friction and Slot (blue)
+1 1 0 -20 0 0 1 0 1 0 0 0 0 -1 6558.dat
+0 // Technic Beam  3 (bright_light_orange)
+1 191 0 -40 -20 1 0 0 0 -1 0 0 0 -1 32523.dat
+0 STEP
+0 // Technic Pin with Friction and Slots (black)
+1 0 0 -30 -200 0 -1 0 -1 0 0 0 0 -1 2780.dat
+0 // Technic Pin Long with Friction and Slot (blue)
+1 1 0 -20 -180 0 1 0 1 0 0 0 0 -1 6558.dat
+0 // Technic Panel Fairing Smooth #21 (Thin Short) (black)
+1 0 0 -40 -240 1 0 0 0 1 0 0 0 1 11946.dat
+0 // Technic Axle  2 Notched (red)
+1 4 0 -40 -250 0 0 1 0 1 0 -1 0 0 32062.dat
+0 // Technic Pin with Friction and Slots (black)
+1 0 -10 0 -40 -1 0 0 0 1 0 0 0 -1 2780.dat
+
+
+0 STEP
+0 NOFILE

@@ -1,0 +1,22 @@
+{
+  "source": "/opt/ldraw-astra/data/models-annotated/42039-1.mpd",
+  "source_sha256": "7fde2504708675be12c4a1e4a1cb1ba318a05a340bf5505b388750f9e744b12e",
+  "source_section": "42039 - motor.ldr",
+  "parser_section": "42039 - motor.ldr",
+  "root": "m4-v8-42039-00-42039---motor.ldr",
+  "renames": {
+    "42039 - motor.ldr": "m4-v8-42039-00-42039---motor.ldr"
+  },
+  "attribution": [
+    {
+      "section": "42039 - motor.ldr",
+      "author": "Philippe Hurbain [Philo]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    }
+  ],
+  "changes": [],
+  "output_sha256": "68ba2e1b21e42faa813e75d2fe877656555802d9471d5494bd34aa38228d8ce2",
+  "note": "Original authors and licences retained. Source bytes unchanged. Extraction is not validation or permission to relicense.",
+  "syntax_checks_passed": true,
+  "diagnostics": []
+}

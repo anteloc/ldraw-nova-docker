@@ -1,0 +1,230 @@
+{
+  "code": "61487.dat",
+  "path": "/opt/ldraw/ldraw/parts/61487.dat",
+  "metadata": {
+    "description": "Slope Brick Curved 4 x 4 x 2",
+    "name": "61487.dat",
+    "author": "Magnus Forsberg",
+    "author_username": "MagFors",
+    "file_kind": "part",
+    "origin": "official",
+    "qualifiers": [],
+    "release": "2010-02",
+    "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+    "bfc": "ccw",
+    "history": [
+      {
+        "date": "2009-10-13",
+        "contributor": "LEGO Universe Team",
+        "text": "Original part shape",
+        "raw": "2009-10-13 {LEGO Universe Team} Original part shape"
+      },
+      {
+        "date": "2010-05-16",
+        "contributor": "MagFors",
+        "text": "File preparation for LDraw Parts Tracker",
+        "raw": "2010-05-16 [MagFors] File preparation for LDraw Parts Tracker"
+      },
+      {
+        "date": "2010-07-05",
+        "contributor": "PTadmin",
+        "text": "Official Update 2010-02",
+        "raw": "2010-07-05 [PTadmin] Official Update 2010-02"
+      }
+    ],
+    "category": null,
+    "keywords": [],
+    "status": "current",
+    "replacement": null,
+    "preview": null
+  },
+  "complete": true,
+  "bounds": {
+    "min": [
+      -40.0,
+      -4.0,
+      -70.0
+    ],
+    "max": [
+      40.0,
+      48.004999999999995,
+      9.0
+    ]
+  },
+  "size": [
+    80.0,
+    52.004999999999995,
+    79.0
+  ],
+  "stud_positions": [
+    [
+      -10.0,
+      0.0,
+      0.0
+    ],
+    [
+      10.0,
+      0.0,
+      0.0
+    ],
+    [
+      -30.0,
+      0.0,
+      0.0
+    ],
+    [
+      30.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "connector_count": 26,
+  "connectors": [
+    {
+      "kind": "pin_hole",
+      "role": "female",
+      "position": [
+        -30.0,
+        10.0,
+        -10.0
+      ],
+      "frame": [
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 6.0,
+            "length": 20.0,
+            "flexible": false
+          }
+        ],
+        "centered": true,
+        "friction": false,
+        "caps": "none"
+      },
+      "name": "Peg Hole End Extended",
+      "feature_id": "peghole2@R11/peghole2:through",
+      "group": null,
+      "freedoms": [
+        "slide",
+        "rotate"
+      ],
+      "source": "primitive",
+      "confidence": 0.9,
+      "owner_code": "61487",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "peghole2",
+        "peghole"
+      ],
+      "metadata_id": null,
+      "connection_provenance": {
+        "source": "primitive",
+        "path": null,
+        "archive_member": null,
+        "line_number": null,
+        "command": "peghole2",
+        "include_chain": []
+      },
+      "scale_inheritance": "yandr",
+      "mirror_inheritance": "none"
+    },
+    {
+      "kind": "pin_hole",
+      "role": "female",
+      "position": [
+        30.0,
+        10.0,
+        -10.0
+      ],
+      "frame": [
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 6.0,
+            "length": 20.0,
+            "flexible": false
+          }
+        ],
+        "centered": true,
+        "friction": false,
+        "caps": "none"
+      },
+      "name": "Peg Hole End Extended",
+      "feature_id": "peghole2@R74/peghole2:through",
+      "group": null,
+      "freedoms": [
+        "slide",
+        "rotate"
+      ],
+      "source": "primitive",
+      "confidence": 0.9,
+      "owner_code": "61487",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "peghole2",
+        "peghole"
+      ],
+      "metadata_id": null,
+      "connection_provenance": {
+        "source": "primitive",
+        "path": null,
+        "archive_member": null,
+        "line_number": null,
+        "command": "peghole2",
+        "include_chain": []
+      },
+      "scale_inheritance": "yandr",
+      "mirror_inheritance": "none"
+    }
+  ],
+  "connectors_truncated": true,
+  "diagnostics": [],
+  "connection_metadata": {
+    "coverage": "complete",
+    "source_count": 4,
+    "recognized_record_count": 10,
+    "unsupported_record_count": 0,
+    "invalid_record_count": 0,
+    "diagnostics": []
+  },
+  "rectangular_profile": null,
+  "note": "All coordinates are local LDU. Connector inference is evidence; inspect uncertain fits."
+}

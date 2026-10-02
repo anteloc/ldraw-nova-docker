@@ -1,0 +1,231 @@
+{
+ "frame": "Car frame: X across (+X = driver/left side), -Z forward, Y=0 road, negative Y up, Z=0 front-axle centreline; units LDU",
+ "donor_transform": {
+  "42039_world_to_car": {
+   "translate": [
+    0,
+    20,
+    60
+   ]
+  },
+  "derivation": "42039 rear tyre centre Y=-106.118 + tyre radius 86.118 -> road at donor Y=-20; donor front axle Z=-60 -> 0",
+  "note": "all 42039-derived modules keep their donor relative transforms; add this translation (plus listed per-module offsets)"
+ },
+ "wheels": {
+  "rim": "15038.dat (Wheel Rim 34 x 56, 6 spokes, 6 pegholes)",
+  "tyre": "44771.dat (Tyre 35/46 x 56 ZR)",
+  "tyre_radius_measured": 86.118,
+  "tyre_width": 88,
+  "rim_radius": 70,
+  "source": "ldraw-agent part 44771/15038 (installed geometry; DB cache radius 96 was wrong)",
+  "colours": {
+   "tyre": 0,
+   "rim": 179
+  }
+ },
+ "axles": {
+  "front": {
+   "z": 0,
+   "tyre_centre_x": [
+    -229.6,
+    229.6
+   ],
+   "wheel_centre_y_donor_pose": -94.1,
+   "wheel_centre_y_target": -86.1,
+   "open_issue": "front tyres 8 LDU above road in donor pose; resolve in M5 by re-posing arms, else whole-car rake 0.62 deg"
+  },
+  "rear": {
+   "z": 740,
+   "tyre_centre_x": [
+    -229.2,
+    229.2
+   ],
+   "wheel_centre_y": -86.1
+  }
+ },
+ "wheelbase": 740,
+ "track_tyre_centres": 459,
+ "tyre_outer_x": 273.6,
+ "body_planned": {
+  "nose_tip": {
+   "z": -250,
+   "y": -110
+  },
+  "tail": {
+   "z": 970,
+   "y": -190
+  },
+  "length": 1220,
+  "half_width": 290,
+  "roof": {
+   "y": -270,
+   "z": [
+    200,
+    330
+   ]
+  },
+  "windscreen_base": {
+   "z": 60,
+   "y": -170
+  },
+  "beltline_y": -180,
+  "sill_y": [
+   -40,
+   -100
+  ],
+  "front_overhang": 250,
+  "rear_overhang": 230,
+  "arches": {
+   "front_cut_y": -190,
+   "rear_cut_y": -200,
+   "clearance_to_tyre_min": 10
+  }
+ },
+ "ground_clearance": {
+  "frontaxle_bottom_y": -43,
+  "donor_engine_bottom_y": -35,
+  "engine_bottom_after_raise_y": -75,
+  "target_min": 35
+ },
+ "powertrain": {
+  "engine": {
+   "type": "longitudinal V8 (42039 motor)",
+   "crank_axis": {
+    "x": 0,
+    "y": -100
+   },
+   "block_z": [
+    410,
+    570
+   ],
+   "placement_offset_from_donor": [
+    0,
+    -40,
+    -20
+   ],
+   "top_y": -166
+  },
+  "gearbox": {
+   "type": "2-speed driving ring (42112 pattern)",
+   "ring_shaft": {
+    "x": 0,
+    "y": -60,
+    "role": "input from diff pinion"
+   },
+   "lay_shaft": {
+    "x": 0,
+    "y": -100,
+    "role": "output to crank"
+   },
+   "shaft_spacing": 40,
+   "z_window": [
+    570,
+    710
+   ],
+   "ratios": [
+    "16T clutch : 16T (1:1)",
+    "20T dbl-bevel clutch 35185 : 12T 6589/32270 (5:3)"
+   ]
+  },
+  "differential": {
+   "part": "62821.dat",
+   "axle_z": 740,
+   "pinion_shaft": {
+    "x": 0,
+    "y": -60
+   }
+  }
+ },
+ "steering": {
+  "rack": {
+   "part": "87761.dat",
+   "z": 60,
+   "y": -80
+  },
+  "pinion": {
+   "part": "32270.dat",
+   "z": 60,
+   "y": -100,
+   "axis": "Z"
+  },
+  "hog": {
+   "vertical_shaft": {
+    "x": 0,
+    "z": -60
+   },
+   "knob_y": -175,
+   "note": "pinion axle extended forward; 12T bevel pair to vertical shaft"
+  },
+  "wheel": {
+   "centre": [
+    80,
+    -190,
+    170
+   ],
+   "transfer": "gear train x 0->80 at z~150, y=-100, then UJ column"
+  }
+ },
+ "cockpit": {
+  "seat_centres_x": [
+   -80,
+   80
+  ],
+  "seat_z": [
+   195,
+   355
+  ],
+  "driver_x": 80,
+  "console": {
+   "x": [
+    -30,
+    30
+   ],
+   "shift_lever_z": 300
+  },
+  "firewall_z": 380
+ },
+ "doors": {
+  "style": "butterfly",
+  "hinge_zone": {
+   "z": 90,
+   "y": -210
+  },
+  "opening": {
+   "z": [
+    110,
+    400
+   ],
+   "y": [
+    -60,
+    -250
+   ]
+  }
+ },
+ "wing": {
+  "z": [
+   900,
+   960
+  ],
+  "y": -300,
+  "half_span": 230,
+  "supports_x": [
+   -60,
+   60
+  ]
+ },
+ "rough_placement": {
+  "mpd": "prospect/rough/rough-layout.mpd",
+  "renders_opened": [
+   "right.png",
+   "top.png",
+   "home.png"
+  ],
+  "findings": [
+   "no gross clash between donor units at planned transforms",
+   "engine block (raised 40, forward 20) ends ~40-45 LDU behind seat backs -> firewall 1 beam thick",
+   "gearbox fits Z 570-710 under engine rear shaft",
+   "front tyres float ~8 LDU (confirmed visually)",
+   "42093 spoiler placeholder is only ~11 studs wide -> M11 must widen blade"
+  ]
+ }
+}

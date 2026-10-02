@@ -1,0 +1,317 @@
+{
+  "code": "30140.dat",
+  "path": "/opt/ldraw/ldraw/parts/30140.dat",
+  "metadata": {
+    "description": "Panel 2 x 6 x 6 Log Wall",
+    "name": "30140.dat",
+    "author": "Steve Bliss",
+    "author_username": "sbliss",
+    "file_kind": "part",
+    "origin": "official",
+    "qualifiers": [],
+    "release": "2015-01",
+    "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+    "bfc": "ccw",
+    "history": [
+      {
+        "date": "1998-10-15",
+        "contributor": "PTadmin",
+        "text": "Official Update 1998-09",
+        "raw": "1998-10-15 [PTadmin] Official Update 1998-09"
+      },
+      {
+        "date": "1999-07-05",
+        "contributor": "PTadmin",
+        "text": "Official Update 1999-05",
+        "raw": "1999-07-05 [PTadmin] Official Update 1999-05"
+      },
+      {
+        "date": "2002-11-30",
+        "contributor": "PTadmin",
+        "text": "Official Update 2002-05",
+        "raw": "2002-11-30 [PTadmin] Official Update 2002-05"
+      },
+      {
+        "date": "2007-06-06",
+        "contributor": "PTadmin",
+        "text": "Header formatted for Contributor Agreement",
+        "raw": "2007-06-06 [PTadmin] Header formatted for Contributor Agreement"
+      },
+      {
+        "date": "2008-07-01",
+        "contributor": "PTadmin",
+        "text": "Official Update 2008-01",
+        "raw": "2008-07-01 [PTadmin] Official Update 2008-01"
+      },
+      {
+        "date": "2014-11-21",
+        "contributor": "roland",
+        "text": "Auto-corrected with libfix version of LDCad 1.4",
+        "raw": "2014-11-21 [roland] Auto-corrected with libfix version of LDCad 1.4"
+      },
+      {
+        "date": "2014-12-26",
+        "contributor": "Philo",
+        "text": "BFCed with Windz, minor improvements.",
+        "raw": "2014-12-26 [Philo] BFCed with Windz, minor improvements."
+      },
+      {
+        "date": "2015-10-11",
+        "contributor": "PTadmin",
+        "text": "Official Update 2015-01",
+        "raw": "2015-10-11 [PTadmin] Official Update 2015-01"
+      }
+    ],
+    "category": null,
+    "keywords": [
+      "Adventurers",
+      "Ninja",
+      "Pirates",
+      "timber",
+      "wild west"
+    ],
+    "status": "current",
+    "replacement": null,
+    "preview": null
+  },
+  "complete": false,
+  "bounds": {
+    "min": [
+      -60.0,
+      -4.0,
+      -20.0
+    ],
+    "max": [
+      60.0,
+      144.0,
+      20.0
+    ]
+  },
+  "size": [
+    120.0,
+    148.0,
+    40.0
+  ],
+  "stud_positions": [
+    [
+      -30.0,
+      8.0,
+      10.0
+    ],
+    [
+      -10.0,
+      8.0,
+      10.0
+    ],
+    [
+      10.0,
+      8.0,
+      10.0
+    ],
+    [
+      30.0,
+      8.0,
+      10.0
+    ],
+    [
+      -30.0,
+      8.0,
+      -10.0
+    ],
+    [
+      -10.0,
+      8.0,
+      -10.0
+    ],
+    [
+      10.0,
+      8.0,
+      -10.0
+    ],
+    [
+      30.0,
+      8.0,
+      -10.0
+    ],
+    [
+      -50.0,
+      24.0,
+      -10.0
+    ],
+    [
+      50.0,
+      24.0,
+      -10.0
+    ]
+  ],
+  "connector_count": 22,
+  "connectors": [
+    {
+      "kind": "stud",
+      "role": "male",
+      "position": [
+        -30.0,
+        8.0,
+        10.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sections": [
+          {
+            "shape": "round",
+            "radius": 6.0,
+            "length": 4.0,
+            "flexible": false
+          }
+        ],
+        "centered": false,
+        "friction": true,
+        "caps": "one"
+      },
+      "name": "studO",
+      "feature_id": "stug2-1x4@R97/stud2@R0/studO@L9:I0",
+      "group": null,
+      "freedoms": [
+        "rotate"
+      ],
+      "source": "ldcad_shadow",
+      "confidence": 1.0,
+      "owner_code": "30140",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "/opt/ldraw-astra/data/offLibShadow/p/stud2.dat:9"
+      ],
+      "metadata_id": "studO",
+      "connection_provenance": {
+        "source": "ldcad_shadow",
+        "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2.dat",
+        "archive_member": null,
+        "line_number": 9,
+        "command": "0 !LDCAD SNAP_CYL [ID=studO] [gender=M] [caps=one] [secs=R 6 4]",
+        "include_chain": []
+      },
+      "scale_inheritance": "none",
+      "mirror_inheritance": "cor"
+    }
+  ],
+  "connectors_truncated": true,
+  "diagnostics": [
+    {
+      "code": "connection.invalid_transform",
+      "message": "connection feature 'studO' from /opt/ldraw-astra/data/offLibShadow/p/stud2a.dat:11 rejected under invalid scale or reflection",
+      "severity": "warning",
+      "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2a.dat",
+      "section": null,
+      "line_number": 11,
+      "offending_value": "studO",
+      "suggestions": [],
+      "cause": null
+    },
+    {
+      "code": "connection.invalid_transform",
+      "message": "connection feature 'studO' from /opt/ldraw-astra/data/offLibShadow/p/stud2a.dat:11 rejected under invalid scale or reflection",
+      "severity": "warning",
+      "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2a.dat",
+      "section": null,
+      "line_number": 11,
+      "offending_value": "studO",
+      "suggestions": [],
+      "cause": null
+    },
+    {
+      "code": "connection.invalid_transform",
+      "message": "connection feature 'studO' from /opt/ldraw-astra/data/offLibShadow/p/stud2a.dat:11 rejected under invalid scale or reflection",
+      "severity": "warning",
+      "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2a.dat",
+      "section": null,
+      "line_number": 11,
+      "offending_value": "studO",
+      "suggestions": [],
+      "cause": null
+    },
+    {
+      "code": "connection.invalid_transform",
+      "message": "connection feature 'studO' from /opt/ldraw-astra/data/offLibShadow/p/stud2a.dat:11 rejected under invalid scale or reflection",
+      "severity": "warning",
+      "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2a.dat",
+      "section": null,
+      "line_number": 11,
+      "offending_value": "studO",
+      "suggestions": [],
+      "cause": null
+    }
+  ],
+  "connection_metadata": {
+    "coverage": "partial",
+    "source_count": 3,
+    "recognized_record_count": 5,
+    "unsupported_record_count": 0,
+    "invalid_record_count": 4,
+    "diagnostics": [
+      {
+        "code": "connection.invalid_transform",
+        "message": "connection feature 'studO' from /opt/ldraw-astra/data/offLibShadow/p/stud2a.dat:11 rejected under invalid scale or reflection",
+        "severity": "warning",
+        "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2a.dat",
+        "section": null,
+        "line_number": 11,
+        "offending_value": "studO",
+        "suggestions": [],
+        "cause": null
+      },
+      {
+        "code": "connection.invalid_transform",
+        "message": "connection feature 'studO' from /opt/ldraw-astra/data/offLibShadow/p/stud2a.dat:11 rejected under invalid scale or reflection",
+        "severity": "warning",
+        "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2a.dat",
+        "section": null,
+        "line_number": 11,
+        "offending_value": "studO",
+        "suggestions": [],
+        "cause": null
+      },
+      {
+        "code": "connection.invalid_transform",
+        "message": "connection feature 'studO' from /opt/ldraw-astra/data/offLibShadow/p/stud2a.dat:11 rejected under invalid scale or reflection",
+        "severity": "warning",
+        "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2a.dat",
+        "section": null,
+        "line_number": 11,
+        "offending_value": "studO",
+        "suggestions": [],
+        "cause": null
+      },
+      {
+        "code": "connection.invalid_transform",
+        "message": "connection feature 'studO' from /opt/ldraw-astra/data/offLibShadow/p/stud2a.dat:11 rejected under invalid scale or reflection",
+        "severity": "warning",
+        "path": "/opt/ldraw-astra/data/offLibShadow/p/stud2a.dat",
+        "section": null,
+        "line_number": 11,
+        "offending_value": "studO",
+        "suggestions": [],
+        "cause": null
+      }
+    ]
+  },
+  "rectangular_profile": null,
+  "note": "All coordinates are local LDU. Connector inference is evidence; inspect uncertain fits."
+}

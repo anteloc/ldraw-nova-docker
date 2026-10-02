@@ -1,0 +1,524 @@
+{
+  "source": "/opt/ldraw-astra/data/models-annotated/42096-1.mpd",
+  "source_sha256": "3e40cdbbe29ae5a1154d5aa39b4d4b0a84d0ad8bfb1248baf13d5ae0c0c476d3",
+  "main": "42096 - main.ldr",
+  "section_count": 76,
+  "assembly_count": 53,
+  "embedded_definition_count": 23,
+  "physical_placements": 1696,
+  "reachable_section_count": 63,
+  "unreachable_sections": [
+    "42096 - shock-06_5L-hard-2.ldr",
+    "42096 - technicRibHose-1.ldr",
+    "42096 - ldcRibHoseSeg.dat",
+    "42096 - ldcFlexAxleEndA.dat",
+    "42096 - ldcFlexAxleEndB.dat",
+    "42096 - ldcFlexAxleEndC.dat",
+    "42096 - ldcFlexAxleEndD.dat",
+    "42096 - ldcFlexAxleEndE.dat",
+    "42096 - ldcFlexAxleEndF.dat",
+    "42096 - ldcFlexAxleEndG.dat",
+    "42096 - ldcFlexAxleMid.dat",
+    "s\\42096 - 32269s01.dat",
+    "s\\42096 - 32269s02.dat"
+  ],
+  "unique_parts": 147,
+  "max_assembly_depth": 5,
+  "sections": [
+    {
+      "name": "42096 - main.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 1,
+      "physical_placements": 1696,
+      "steps": 1
+    },
+    {
+      "name": "42096 - shock-06_5L-hard-1.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 2,
+      "direct_placements": 3,
+      "physical_placements": 2,
+      "steps": 1
+    },
+    {
+      "name": "42096 - shock-06_5L-hard-1_springMesh.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 2,
+      "direct_placements": 0,
+      "physical_placements": 0,
+      "steps": 1
+    },
+    {
+      "name": "42096 - chassisbottom.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 20,
+      "physical_placements": 20,
+      "steps": 3
+    },
+    {
+      "name": "42096 - frontaxle.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 72,
+      "physical_placements": 96,
+      "steps": 9
+    },
+    {
+      "name": "42096 - steering.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 25,
+      "physical_placements": 25,
+      "steps": 5
+    },
+    {
+      "name": "42096 - shock-06_5L-hard-2.ldr",
+      "kind": "assembly",
+      "reachable": false,
+      "scene_instances": 0,
+      "direct_placements": 1,
+      "physical_placements": 1,
+      "steps": 1
+    },
+    {
+      "name": "42096 - chassisbottomside.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 2,
+      "direct_placements": 12,
+      "physical_placements": 12,
+      "steps": 2
+    },
+    {
+      "name": "42096 - shocksupport.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 13,
+      "physical_placements": 13,
+      "steps": 2
+    },
+    {
+      "name": "42096 - engine.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 69,
+      "physical_placements": 69,
+      "steps": 8
+    },
+    {
+      "name": "42096 - chassis2.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 18,
+      "physical_placements": 18,
+      "steps": 3
+    },
+    {
+      "name": "42096 - seat1.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 26,
+      "physical_placements": 26,
+      "steps": 3
+    },
+    {
+      "name": "42096 - chassis3.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 16,
+      "physical_placements": 16,
+      "steps": 2
+    },
+    {
+      "name": "42096 - chassis4.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 21,
+      "physical_placements": 21,
+      "steps": 3
+    },
+    {
+      "name": "42096 - rear1.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 26,
+      "physical_placements": 26,
+      "steps": 4
+    },
+    {
+      "name": "42096 - rear2.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 19,
+      "physical_placements": 19,
+      "steps": 4
+    },
+    {
+      "name": "42096 - rear3.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 19,
+      "physical_placements": 19,
+      "steps": 4
+    },
+    {
+      "name": "42096 - chassis5.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 15,
+      "physical_placements": 15,
+      "steps": 3
+    },
+    {
+      "name": "42096 - chassis6.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 15,
+      "physical_placements": 15,
+      "steps": 2
+    },
+    {
+      "name": "42096 - door1.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 32,
+      "physical_placements": 32,
+      "steps": 5
+    },
+    {
+      "name": "42096 - headlight1.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 33,
+      "physical_placements": 33,
+      "steps": 5
+    },
+    {
+      "name": "42096 - chassis7.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 12,
+      "physical_placements": 12,
+      "steps": 2
+    },
+    {
+      "name": "42096 - chassis8.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 15,
+      "physical_placements": 15,
+      "steps": 3
+    },
+    {
+      "name": "42096 - chassis9.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 15,
+      "physical_placements": 15,
+      "steps": 2
+    },
+    {
+      "name": "42096 - chassis10.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 12,
+      "physical_placements": 12,
+      "steps": 2
+    },
+    {
+      "name": "42096 - headlight2.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 33,
+      "physical_placements": 33,
+      "steps": 5
+    },
+    {
+      "name": "42096 - door2.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 32,
+      "physical_placements": 32,
+      "steps": 5
+    },
+    {
+      "name": "42096 - front.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 41,
+      "physical_placements": 55,
+      "steps": 5
+    },
+    {
+      "name": "42096 - technicRibHose-1.ldr",
+      "kind": "assembly",
+      "reachable": false,
+      "scene_instances": 0,
+      "direct_placements": 0,
+      "physical_placements": 0,
+      "steps": 1
+    },
+    {
+      "name": "42096 - technicRibHoseLQ-1.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 2,
+      "direct_placements": 8,
+      "physical_placements": 8,
+      "steps": 1
+    }
+  ],
+  "source_checks_passed": false,
+  "diagnostic_counts": {
+    "encoding.line_endings": 1,
+    "bfc.invertnext": 22,
+    "assembly.nonrigid": 255,
+    "part.alias_or_internal": 89,
+    "coverage.raw_geometry": 41944,
+    "geometry.nonplanar": 10654,
+    "part.missing_classification": 9
+  },
+  "diagnostics": [
+    {
+      "code": "encoding.line_endings",
+      "severity": "warning",
+      "message": "Use CRLF when delivering new files (PDF p.62).",
+      "line_number": null,
+      "section": null
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 48815,
+      "section": "42096 - 23801.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 48818,
+      "section": "42096 - 23801.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 48890,
+      "section": "42096 - 23801.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 48911,
+      "section": "42096 - 15207.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 49976,
+      "section": "42096 - 24121.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 50040,
+      "section": "42096 - 24121.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 50085,
+      "section": "42096 - 24121.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 50149,
+      "section": "42096 - 24121.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 50189,
+      "section": "42096 - 24121.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 50259,
+      "section": "42096 - 24121.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 50697,
+      "section": "s\\42096 - 32269s02.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 50767,
+      "section": "s\\42096 - 23801s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 50772,
+      "section": "s\\42096 - 23801s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 50775,
+      "section": "s\\42096 - 23801s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 50778,
+      "section": "s\\42096 - 23801s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 50781,
+      "section": "s\\42096 - 23801s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 50794,
+      "section": "s\\42096 - 23801s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 50799,
+      "section": "s\\42096 - 23801s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 50802,
+      "section": "s\\42096 - 23801s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 51282,
+      "section": "s\\42096 - 42545s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 51412,
+      "section": "s\\42096 - 42545s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 51415,
+      "section": "s\\42096 - 42545s01.dat"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 8,
+      "section": "42096 - main.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 49,
+      "section": "42096 - shock-06_5L-hard-1.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 53,
+      "section": "42096 - shock-06_5L-hard-1.ldr"
+    },
+    {
+      "code": "coverage.raw_geometry",
+      "severity": "error",
+      "message": "Assembly analysis requires library parts; custom type 2–5 geometry needs external review.",
+      "line_number": 83,
+      "section": "42096 - shock-06_5L-hard-1_springMesh.ldr"
+    },
+    {
+      "code": "coverage.raw_geometry",
+      "severity": "error",
+      "message": "Assembly analysis requires library parts; custom type 2–5 geometry needs external review.",
+      "line_number": 84,
+      "section": "42096 - shock-06_5L-hard-1_springMesh.ldr"
+    },
+    {
+      "code": "coverage.raw_geometry",
+      "severity": "error",
+      "message": "Assembly analysis requires library parts; custom type 2–5 geometry needs external review.",
+      "line_number": 85,
+      "section": "42096 - shock-06_5L-hard-1_springMesh.ldr"
+    },
+    {
+      "code": "coverage.raw_geometry",
+      "severity": "error",
+      "message": "Assembly analysis requires library parts; custom type 2–5 geometry needs external review.",
+      "line_number": 86,
+      "section": "42096 - shock-06_5L-hard-1_springMesh.ldr"
+    }
+  ],
+  "detail": "summary",
+  "sections_truncated": true,
+  "diagnostics_truncated": true
+}

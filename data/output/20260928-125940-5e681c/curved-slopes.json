@@ -1,0 +1,311 @@
+{
+  "total": 48,
+  "results": [
+    {
+      "ref": "@slopes.SlopeBrickCurved4X1",
+      "filename": "61678.dat",
+      "description": "Slope Brick Curved  4 x  1",
+      "category": "slopes",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 20.0,
+        "ldu_y": 24.0,
+        "ldu_z": 80.0,
+        "studs_x": 1,
+        "studs_y": 2,
+        "plates_y": 3,
+        "studs_z": 4
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/slopes.py",
+      "line": 467,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        20.0,
+        24.0,
+        80.0
+      ],
+      "dimensions_disagree": false
+    },
+    {
+      "ref": "@slopes.SlopeBrickCurved4X2",
+      "filename": "93606.dat",
+      "description": "Slope Brick Curved  4 x  2",
+      "category": "slopes",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 40.0,
+        "ldu_y": 24.0,
+        "ldu_z": 80.0,
+        "studs_x": 2,
+        "studs_y": 2,
+        "plates_y": 3,
+        "studs_z": 4
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/slopes.py",
+      "line": 483,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        40.0,
+        24.0,
+        80.0
+      ],
+      "dimensions_disagree": false
+    },
+    {
+      "ref": "@slopes.SlopeBrickCurved4X4X2",
+      "filename": "61487.dat",
+      "description": "Slope Brick Curved  4 x  4 x  2",
+      "category": "slopes",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 80.0,
+        "ldu_y": 52.004997,
+        "ldu_z": 79.0,
+        "studs_x": 4,
+        "studs_y": 3,
+        "plates_y": 7,
+        "studs_z": 4
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/slopes.py",
+      "line": 489,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        80.0,
+        52.004999999999995,
+        79.0
+      ],
+      "dimensions_disagree": false
+    },
+    {
+      "ref": "@slopes.SlopeBrickCurved4X1Double",
+      "filename": "93273.dat",
+      "description": "Slope Brick Curved  4 x  1 Double",
+      "category": "slopes",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 20.0,
+        "ldu_y": 57.9438,
+        "ldu_z": 80.0,
+        "studs_x": 1,
+        "studs_y": 3,
+        "plates_y": 8,
+        "studs_z": 4
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/slopes.py",
+      "line": 468,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        20.0,
+        16.00016098,
+        80.0
+      ],
+      "dimensions_disagree": true
+    },
+    {
+      "ref": "@slopes.SlopeBrickCurved6X4Double",
+      "filename": "78522.dat",
+      "description": "Slope Brick Curved  6 x  4 Double",
+      "category": "slopes",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 80.0,
+        "ldu_y": 24.000051,
+        "ldu_z": 120.0,
+        "studs_x": 4,
+        "studs_y": 2,
+        "plates_y": 4,
+        "studs_z": 6
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/slopes.py",
+      "line": 497,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        80.0,
+        24.00005,
+        120.0
+      ],
+      "dimensions_disagree": false
+    },
+    {
+      "ref": "@slopes.SlopeBrickCurved4X1Inverted",
+      "filename": "13547.dat",
+      "description": "Slope Brick Curved  4 x  1 Inverted",
+      "category": "slopes",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 20.0,
+        "ldu_y": 68.2827,
+        "ldu_z": 82.47365,
+        "studs_x": 1,
+        "studs_y": 4,
+        "plates_y": 9,
+        "studs_z": 5
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/slopes.py",
+      "line": 479,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        20.0,
+        28.000000000000007,
+        80.00252062300001
+      ],
+      "dimensions_disagree": true
+    },
+    {
+      "ref": "@slopes.SlopeBrickCurved4X1X1_667",
+      "filename": "7249.dat",
+      "description": "Slope Brick Curved  4 x  1 x  1.667",
+      "category": "slopes",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 80.0,
+        "ldu_y": 40.0,
+        "ldu_z": 80.0,
+        "studs_x": 4,
+        "studs_y": 2,
+        "plates_y": 5,
+        "studs_z": 4
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/slopes.py",
+      "line": 482,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        80.0,
+        40.0,
+        80.0
+      ],
+      "dimensions_disagree": false
+    },
+    {
+      "ref": "@slopes.SlopeBrickCurved4X6X1_667",
+      "filename": "7652.dat",
+      "description": "Slope Brick Curved  4 x  6 x  1.667",
+      "category": "slopes",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": null,
+      "source": "/opt/ldraw-astra/data/categories/parts/slopes.py",
+      "line": 490,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        120.0,
+        40.0,
+        80.0
+      ],
+      "dimensions_disagree": false
+    },
+    {
+      "ref": "@slopes.SlopeBrickCurved3X4X0_667Rounded",
+      "filename": "93604.dat",
+      "description": "Slope Brick Curved  3 x  4 x  0.667 Rounded",
+      "category": "slopes",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 80.0,
+        "ldu_y": 57.9438,
+        "ldu_z": 60.0,
+        "studs_x": 4,
+        "studs_y": 3,
+        "plates_y": 8,
+        "studs_z": 3
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/slopes.py",
+      "line": 465,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        80.0,
+        16.0002,
+        60.0
+      ],
+      "dimensions_disagree": true
+    },
+    {
+      "ref": "@slopes.SlopeBrick454X6X0_667DoubleCurved",
+      "filename": "52031.dat",
+      "description": "Slope Brick 45  4 x  6 x  0.667 Double Curved",
+      "category": "slopes",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 120.0,
+        "ldu_y": 20.000278,
+        "ldu_z": 80.0,
+        "studs_x": 6,
+        "studs_y": 2,
+        "plates_y": 3,
+        "studs_z": 4
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/slopes.py",
+      "line": 347,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        120.0,
+        20.00028,
+        80.0
+      ],
+      "dimensions_disagree": false
+    },
+    {
+      "ref": "@slopes.SlopeBrickCurved4X3_5X1With3Steps",
+      "filename": "66955.dat",
+      "description": "Slope Brick Curved  4 x  3.5 x  1 with 3 Steps",
+      "category": "slopes",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 80.0,
+        "ldu_y": 24.0,
+        "ldu_z": 70.0,
+        "studs_x": 4,
+        "studs_y": 2,
+        "plates_y": 3,
+        "studs_z": 4
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/slopes.py",
+      "line": 488,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        80.0,
+        24.0,
+        70.0
+      ],
+      "dimensions_disagree": false
+    },
+    {
+      "ref": "@slopes.SlopeBrickCurved2X4WithUndersideStuds",
+      "filename": "88930.dat",
+      "description": "Slope Brick Curved  2 x  4 with Underside Studs",
+      "category": "slopes",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 80.0,
+        "ldu_y": 28.9719,
+        "ldu_z": 40.0,
+        "studs_x": 4,
+        "studs_y": 2,
+        "plates_y": 4,
+        "studs_z": 2
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/slopes.py",
+      "line": 445,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        80.0,
+        16.00006098,
+        40.0
+      ],
+      "dimensions_disagree": true
+    }
+  ],
+  "truncated": true,
+  "note": "Source categories are discovery metadata. Dimensions include studs/decorations and are not stacking heights or connection frames. Inspect selected parts; colour/part manufacture combinations are not known."
+}

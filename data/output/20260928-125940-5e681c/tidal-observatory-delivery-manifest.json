@@ -1,0 +1,322 @@
+{
+  "model": "tidal-observatory.mpd",
+  "sha256": "4ac1340f73cbba19eaa69f3995dfde0e75427137bad11b5e197dc782aeaccccc",
+  "physical_placements": 2734,
+  "files": [
+    {
+      "path": "dome-parts.json",
+      "bytes": 5644,
+      "sha256": "b6b03afb1d3023ba5ca4fb66ebcbbad7b247c89747bbc8a13fafdc30ad595234"
+    },
+    {
+      "path": "jev-availability.json",
+      "bytes": 904,
+      "sha256": "997755d37724194990f16d52ea8c48b3dbade5a6abc98249c3e99bc8ea2e8669"
+    },
+    {
+      "path": "observatory-references.json",
+      "bytes": 80280,
+      "sha256": "7d82be3247ef1af7b81461a8d6b099c5d8bbfba91e4c4b756b89ae764f9712aa"
+    },
+    {
+      "path": "reference-catalog/model-e00b558893c77e962a0c3b4c/card.json",
+      "bytes": 37153,
+      "sha256": "0687795f6c269b0121a131bc1f50e2ec7896a2ab0fe8cfc2abf94dcfdf943e61"
+    },
+    {
+      "path": "reference-catalog/model-e00b558893c77e962a0c3b4c/extraction.json",
+      "bytes": 6234,
+      "sha256": "c7cafe3cb0d7f48f16a00ebf9de5a2aee639e0a26f44288c1812bc52e369bb56"
+    },
+    {
+      "path": "reference-catalog/model-e00b558893c77e962a0c3b4c/preview.mpd",
+      "bytes": 139453,
+      "sha256": "9f5a056c5ee188ff5095e467b2f83af5a0c951f55a31865673f0e83d385c609b"
+    },
+    {
+      "path": "reference-catalog/model-e00b558893c77e962a0c3b4c/renders/front.png",
+      "bytes": 67506,
+      "sha256": "92fc6a8d30db233db521a94a2602f06d0948619cf83926f93c13b07a9ede67cf"
+    },
+    {
+      "path": "reference-catalog/model-e00b558893c77e962a0c3b4c/renders/home.png",
+      "bytes": 127846,
+      "sha256": "895ad3e9bc6c56ed42faed8f6dd110013d88a18197880446d66c663c6cc89d31"
+    },
+    {
+      "path": "reference-catalog/model-e00b558893c77e962a0c3b4c/renders/leocad-bom.csv",
+      "bytes": 8906,
+      "sha256": "390bc759ce672d598e3961d7cf3d7308a888f88ba3ca2f7528332083f0412863"
+    },
+    {
+      "path": "reference-catalog/model-e00b558893c77e962a0c3b4c/renders/right.png",
+      "bytes": 49021,
+      "sha256": "ad2eba7e5303914d6d18f10aee2049c24a1cef21cc9b7190717551c7063aa752"
+    },
+    {
+      "path": "reference-catalog/model-e00b558893c77e962a0c3b4c/renders/top.png",
+      "bytes": 63953,
+      "sha256": "8879b17eee0b38aae0bec8699d68d01a5701d06cd4d71544a2060896a495798d"
+    },
+    {
+      "path": "reference-catalog/model-e00b558893c77e962a0c3b4c/source.mpd",
+      "bytes": 139210,
+      "sha256": "344b7a82aef8f5b1c38ddc8eed06172db60b2c4019a19939264e6a61aa54206f"
+    },
+    {
+      "path": "tidal-final-module-checks/dome-roof.json",
+      "bytes": 2747,
+      "sha256": "dae7b47bcd4992531b33fb9e0a9e3324ffa42850a06266f6a171705893fe08df"
+    },
+    {
+      "path": "tidal-final-module-checks/ground-hall.json",
+      "bytes": 2749,
+      "sha256": "0ab71f7600f9e2829a2baa70e8eaa8087ee7f04dddd52d9951c80065e30b6914"
+    },
+    {
+      "path": "tidal-final-module-checks/instrument.json",
+      "bytes": 2732,
+      "sha256": "608038240017d43bc20a60a49213f6454c0ee8448ad6f93aa332973e9cf9ec96"
+    },
+    {
+      "path": "tidal-final-module-checks/lantern-roof.json",
+      "bytes": 2745,
+      "sha256": "e3905208a1e634c001caed6b9ed31b3221448dce977c668ef252478b163305b3"
+    },
+    {
+      "path": "tidal-final-module-checks/lantern.json",
+      "bytes": 2737,
+      "sha256": "51d2a5836fa3ef97545296b1cc271c821090ad1ef350f06f64bbeb30cfc3f7f0"
+    },
+    {
+      "path": "tidal-final-module-checks/quay.json",
+      "bytes": 2754,
+      "sha256": "a4c64c3ef848d0c5aaf7c583a8643f60da2647507a1277096f0e5dcfaf8c4a58"
+    },
+    {
+      "path": "tidal-final-module-checks/tower-base.json",
+      "bytes": 2092,
+      "sha256": "f3d68b3ea7202c707e0b8f902b392cbd5bfed6485c066c1c925e705b59a1d20e"
+    },
+    {
+      "path": "tidal-final-module-checks/tower-collar.json",
+      "bytes": 2090,
+      "sha256": "1186fa23d1db2ec8f98972afe3c98eba718e4a207c29712ca1e90deb39ec1104"
+    },
+    {
+      "path": "tidal-final-module-checks/tower-middle.json",
+      "bytes": 2094,
+      "sha256": "047948110df6660299001e3cf4ec2f49f8f4f17fc14a9a25d21ffaf073a28b3e"
+    },
+    {
+      "path": "tidal-final-module-checks/upper-hall.json",
+      "bytes": 2751,
+      "sha256": "2fd782ea795170c8c3055309d72c0000d71cf264faf0ed81ec000d089b05c9e8"
+    },
+    {
+      "path": "tidal-ground-hall-final/back.png",
+      "bytes": 38527,
+      "sha256": "49e71b6e14f56f2bb6f29cd54d93cf0e268153538eabc6512f47db25836de731"
+    },
+    {
+      "path": "tidal-ground-hall-final/home.png",
+      "bytes": 163896,
+      "sha256": "e5df76241680fcbf8d26483b40e9aefe4aba3de40b6a242f530dfc13583fd737"
+    },
+    {
+      "path": "tidal-ground-hall-final/leocad-bom.csv",
+      "bytes": 2550,
+      "sha256": "5fc45eeaa638da4895497fa13528ce0c7ab9ee98341429309e5afc4fefbffa6d"
+    },
+    {
+      "path": "tidal-ground-hall-final/top.png",
+      "bytes": 77333,
+      "sha256": "3c9a107d1283a3b6579571089e2f45f9e6b843c5911f7c24d34f1802573b8f0d"
+    },
+    {
+      "path": "tidal-lantern-cap-review/home.png",
+      "bytes": 51235,
+      "sha256": "61bd0a49610e0172c784e65880cb87175813f83a2d487e048058c6cbca423099"
+    },
+    {
+      "path": "tidal-lantern-cap-review/leocad-bom.csv",
+      "bytes": 757,
+      "sha256": "1bc31a5c384c27a55fdd9fd22e73cd75a19ffd572a89832e6621b8088b64574a"
+    },
+    {
+      "path": "tidal-lantern-cap-review/top.png",
+      "bytes": 16006,
+      "sha256": "f8ab9e792afc198589f05d06025bea677b913b706702446531b26c6cceaeab91"
+    },
+    {
+      "path": "tidal-observatory-README.md",
+      "bytes": 4133,
+      "sha256": "22425e013e53c410923779505f10b13d46cc4219512f747da33f4a717c013c70"
+    },
+    {
+      "path": "tidal-observatory-design-brief.md",
+      "bytes": 2775,
+      "sha256": "d33ada42532140f06abfffc1c213835941ede879a07d15908367de00f3ecfcfd"
+    },
+    {
+      "path": "tidal-observatory-generate.py",
+      "bytes": 20710,
+      "sha256": "079eed9b13295b44d1e18f268ad7d5492c24894e325d3981eaa74e53d7f0924e"
+    },
+    {
+      "path": "tidal-observatory-module-contracts.md",
+      "bytes": 2387,
+      "sha256": "dfd88cc910262617ead384924e14a15bbf06d0621e25eae41765f77fd5cfcd1c"
+    },
+    {
+      "path": "tidal-observatory-review/back.png",
+      "bytes": 63009,
+      "sha256": "7438bb5da2be571e29f8b08fa3eb5e71179dd57942149011499351fe5e4f03f2"
+    },
+    {
+      "path": "tidal-observatory-review/bottom.png",
+      "bytes": 143042,
+      "sha256": "dece994b1b767abc99667344e58c4c08f7a5ef3d4c3ed35eaa08c85a1ad549a5"
+    },
+    {
+      "path": "tidal-observatory-review/front.png",
+      "bytes": 68395,
+      "sha256": "85958e9b4121d6f96695c0e4204b0f58d16747243d0d373d93e5074afc75dbf9"
+    },
+    {
+      "path": "tidal-observatory-review/home.png",
+      "bytes": 207230,
+      "sha256": "32e823321940ba25c6b9ac149d38aaeb590871c460800dab52267ec9976974a7"
+    },
+    {
+      "path": "tidal-observatory-review/leocad-bom.csv",
+      "bytes": 5815,
+      "sha256": "cb5ab4c4b98d11845dcc637fea08c7d872c53bb5ee16d41249d9edb9932b7ceb"
+    },
+    {
+      "path": "tidal-observatory-review/right.png",
+      "bytes": 46878,
+      "sha256": "23355ee35c0bfe9c73793ff77a38ff9e1ba415bd08aadc693d900720c2cd08a5"
+    },
+    {
+      "path": "tidal-observatory-review/top.png",
+      "bytes": 77249,
+      "sha256": "d903f30ae4d526ff35086e574abcb5f2bb41f0bcafc29e2bd7de82d9dba40926"
+    },
+    {
+      "path": "tidal-observatory-sources.json",
+      "bytes": 1166,
+      "sha256": "2446b0b74591b3bcdd2e666169f90765e59d13d84a56a1648a4ba717a525d384"
+    },
+    {
+      "path": "tidal-observatory-verification.md",
+      "bytes": 5161,
+      "sha256": "2ddd467ba5abb5bbd40a0cca10146a97d4fe0dba1120a68a5a5933d691618b58"
+    },
+    {
+      "path": "tidal-observatory-visual-review.md",
+      "bytes": 4830,
+      "sha256": "898b0dbdab916084fa57f83fbd46c9a92e3673bbb6a6ed2db95eaa7514ae7666"
+    },
+    {
+      "path": "tidal-observatory.bom-comparison.json",
+      "bytes": 300,
+      "sha256": "30e468c024ef46fadb2e0196bfde0c75bed4b295e1988206694e44724229b68a"
+    },
+    {
+      "path": "tidal-observatory.bom.json",
+      "bytes": 18967,
+      "sha256": "895b4692723865f966e327a604529645a66c5f7f00b6c9a30917a5558a49db6b"
+    },
+    {
+      "path": "tidal-observatory.build.json",
+      "bytes": 2659,
+      "sha256": "6a36bc5f18e27f39214c4e20b0da58b0c904702eeb982fccebd52e7cf92f91db"
+    },
+    {
+      "path": "tidal-observatory.cad-check.json",
+      "bytes": 298,
+      "sha256": "f08679de996edd3210fa9ba4091bddd179ffa56d54c1ee0d2a1224a979348259"
+    },
+    {
+      "path": "tidal-observatory.mpd",
+      "bytes": 226207,
+      "sha256": "4ac1340f73cbba19eaa69f3995dfde0e75427137bad11b5e197dc782aeaccccc"
+    },
+    {
+      "path": "tidal-observatory.plan.json",
+      "bytes": 684144,
+      "sha256": "25581f34e228473d86874b5f2c4689b7907acca57075df4e9ff92d7fa2a42852"
+    },
+    {
+      "path": "tidal-observatory.publication-bom-comparison.json",
+      "bytes": 300,
+      "sha256": "30e468c024ef46fadb2e0196bfde0c75bed4b295e1988206694e44724229b68a"
+    },
+    {
+      "path": "tidal-observatory.validation.json",
+      "bytes": 8053815,
+      "sha256": "834b2834a3c091e9ea49d8d0485b3c35a2d2e7949b4b658eb2bd7088e0508dae"
+    },
+    {
+      "path": "tidal-step-review/dome18.png",
+      "bytes": 71320,
+      "sha256": "c269938a8e924c8940297c4efe8021957e7de51da61fd062094dea89b807a276"
+    },
+    {
+      "path": "tidal-step-review/dome19.png",
+      "bytes": 70813,
+      "sha256": "1fd3a8be1c4cc074c91fe86f3772ffc54f0aeb4142bf74ec3025b1a0d71f7128"
+    },
+    {
+      "path": "tidal-step-review/dome20.png",
+      "bytes": 71704,
+      "sha256": "76e801689f8c3e2ab20e187ef4357c7557726a59ddf54b3be53f8081e615a09b"
+    },
+    {
+      "path": "tidal-step-review/dome21.png",
+      "bytes": 73177,
+      "sha256": "4d3313dacdbda926d44c3ab381a9d1017dbac61ddc98ec147299d32afd770b19"
+    },
+    {
+      "path": "tidal-step-review/dome22.png",
+      "bytes": 72752,
+      "sha256": "78e123f6506c9426d2868787af7b7b5b0e6d4d9e020d0099406ee5a7f71bf724"
+    },
+    {
+      "path": "tidal-step-review/instrument01.png",
+      "bytes": 34425,
+      "sha256": "885a7ebb8c898971a407a472b55c2d017597e3cebe2039bdd1e1bf1d5020fa85"
+    },
+    {
+      "path": "tidal-step-review/instrument02.png",
+      "bytes": 52866,
+      "sha256": "f8b49dec3fcc6ca8b434c6688389482ffc1f091fff4d5a7efc3f1e0bcc7f2eb0"
+    },
+    {
+      "path": "tidal-upper-hall-final/back.png",
+      "bytes": 31624,
+      "sha256": "85f078399eeca41725f3558e3041f68190af2040e7b879174df2c260ec433110"
+    },
+    {
+      "path": "tidal-upper-hall-final/home.png",
+      "bytes": 170506,
+      "sha256": "2da95871d17d3e8ee7eaba0a7d7b4cd901bb4932d7bcda85614137ee906228e6"
+    },
+    {
+      "path": "tidal-upper-hall-final/leocad-bom.csv",
+      "bytes": 2468,
+      "sha256": "93297c1cb2737f6507d9e5762b254f360fe101c54459e700a8939d0c5194e644"
+    },
+    {
+      "path": "tidal-upper-hall-final/top.png",
+      "bytes": 71449,
+      "sha256": "079ed0350850a6f978f049077a4679afeb5f2b51cf00c85426cb1ac141aaef6f"
+    },
+    {
+      "path": "window-parts.json",
+      "bytes": 5870,
+      "sha256": "5ab8f0366d9327a8d93fd3cd46d37728842e5cd0b92ffde7af0b927d0a763745"
+    }
+  ]
+}

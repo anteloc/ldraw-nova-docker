@@ -1,0 +1,81 @@
+{
+ "version": 1,
+ "author": "carlos.antelo@gmail.com via LDraw Astra agent",
+ "sections": [
+  {
+   "name": "bradbury-cutaway.ldr",
+   "description": "Cutaway review model: ground storey, first gallery, oak stair and both open-cage elevators in the light court",
+   "steps": [
+    [
+     {
+      "id": "site",
+      "ref": "brad-base.ldr",
+      "colour": 72,
+      "at": [
+       0.0,
+       0.0,
+       0.0
+      ]
+     }
+    ],
+    [
+     {
+      "id": "ground",
+      "ref": "brad-ground.ldr",
+      "colour": 19,
+      "at": [
+       0.0,
+       -8.0,
+       0.0
+      ]
+     },
+     {
+      "id": "storey-1",
+      "ref": "brad-storey.ldr",
+      "colour": 19,
+      "attach": {
+       "to": "ground",
+       "anchor": "next",
+       "using": "base"
+      }
+     }
+    ],
+    [
+     {
+      "id": "lift-a",
+      "ref": "brad-elevator.ldr",
+      "colour": 0,
+      "at": [
+       0.0,
+       -24.0,
+       60.0
+      ]
+     },
+     {
+      "id": "lift-b",
+      "ref": "brad-elevator.ldr",
+      "colour": 0,
+      "at": [
+       0.0,
+       -24.0,
+       260.0
+      ]
+     },
+     {
+      "id": "stair-1",
+      "ref": "brad-stair.ldr",
+      "colour": 70,
+      "at": [
+       -140.0,
+       -24.0,
+       140.0
+      ]
+     }
+    ]
+   ]
+  }
+ ],
+ "includes": [
+  "building.plan.json"
+ ]
+}

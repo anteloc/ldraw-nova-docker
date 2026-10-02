@@ -1,0 +1,319 @@
+{
+  "total": 67,
+  "results": [
+    {
+      "ref": "@spheres.Dome4X4Smooth",
+      "filename": "86500.dat",
+      "description": "Dome  4 x  4 Smooth",
+      "category": "spheres",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 80.0,
+        "ldu_y": 40.0,
+        "ldu_z": 80.0,
+        "studs_x": 4,
+        "studs_y": 2,
+        "plates_y": 5,
+        "studs_z": 4
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/spheres.py",
+      "line": 34,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        80.0,
+        40.0,
+        80.0
+      ],
+      "dimensions_disagree": false
+    },
+    {
+      "ref": "@spheres.Dome1X1X0_667",
+      "filename": "6908.dat",
+      "description": "Dome  1 x  1 x  0.667",
+      "category": "spheres",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 20.0,
+        "ldu_y": 16.0,
+        "ldu_z": 20.0,
+        "studs_x": 1,
+        "studs_y": 1,
+        "plates_y": 2,
+        "studs_z": 1
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/spheres.py",
+      "line": 31,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        20.0,
+        16.0,
+        20.0
+      ],
+      "dimensions_disagree": false
+    },
+    {
+      "ref": "@technic.TechnicDome6X6X7",
+      "filename": "32272.dat",
+      "description": "Technic Dome  6 x  6 x  7",
+      "category": "technic",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 124.0,
+        "ldu_y": 140.0,
+        "ldu_z": 124.0,
+        "studs_x": 7,
+        "studs_y": 7,
+        "plates_y": 18,
+        "studs_z": 7
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/technic.py",
+      "line": 499,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        124.0,
+        140.0,
+        124.0
+      ],
+      "dimensions_disagree": false
+    },
+    {
+      "ref": "@technic.TechnicDome7X7X5",
+      "filename": "57587.dat",
+      "description": "Technic Dome  7 x  7 x  5",
+      "category": "technic",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 138.64713,
+        "ldu_y": 100.0,
+        "ldu_z": 138.64713,
+        "studs_x": 7,
+        "studs_y": 5,
+        "plates_y": 13,
+        "studs_z": 7
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/technic.py",
+      "line": 502,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        138.0,
+        100.0,
+        138.0
+      ],
+      "dimensions_disagree": true
+    },
+    {
+      "ref": "@technic.TechnicDome11X11X5_5",
+      "filename": "4413.dat",
+      "description": "Technic Dome 11 x 11 x  5.5",
+      "category": "technic",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 218.4,
+        "ldu_y": 110.0,
+        "ldu_z": 218.4,
+        "studs_x": 11,
+        "studs_y": 6,
+        "plates_y": 14,
+        "studs_z": 11
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/technic.py",
+      "line": 503,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        218.4,
+        110.0,
+        218.4
+      ],
+      "dimensions_disagree": false
+    },
+    {
+      "ref": "@technic.TechnicDome5X5X2_5",
+      "filename": "4412.dat",
+      "description": "Technic Dome  5 x  5 x  2.5",
+      "category": "technic",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 98.4,
+        "ldu_y": 50.0,
+        "ldu_z": 98.5,
+        "studs_x": 5,
+        "studs_y": 3,
+        "plates_y": 7,
+        "studs_z": 5
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/technic.py",
+      "line": 496,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        98.4,
+        50.0,
+        98.5
+      ],
+      "dimensions_disagree": false
+    },
+    {
+      "ref": "@minifig.accessories.CupTakeOutWithDomeLid",
+      "filename": "20398.dat",
+      "description": "Minifig Cup Take Out with Dome Lid",
+      "category": "minifig.accessories",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 20.0,
+        "ldu_y": 37.0,
+        "ldu_z": 20.0,
+        "studs_x": 1,
+        "studs_y": 2,
+        "plates_y": 5,
+        "studs_z": 1
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/minifig/accessories.py",
+      "line": 278,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        20.0,
+        37.0,
+        20.0
+      ],
+      "dimensions_disagree": false
+    },
+    {
+      "ref": "@animals.AnimalSpiderWithElongatedAbdomen",
+      "filename": "29111.dat",
+      "description": "Animal Spider with Elongated Abdomen",
+      "category": "animals",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 46.846,
+        "ldu_y": 17.495,
+        "ldu_z": 50.821,
+        "studs_x": 3,
+        "studs_y": 1,
+        "plates_y": 3,
+        "studs_z": 3
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/animals.py",
+      "line": 396,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        46.846,
+        17.495,
+        50.821
+      ],
+      "dimensions_disagree": false
+    },
+    {
+      "ref": "@cylinders.Cylinder3X3X3DomeElongated",
+      "filename": "1744.dat",
+      "description": "Cylinder  3 x  3 x  3 Dome Elongated",
+      "category": "cylinders",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 60.0,
+        "ldu_y": 76.0,
+        "ldu_z": 60.0,
+        "studs_x": 3,
+        "studs_y": 4,
+        "plates_y": 10,
+        "studs_z": 3
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/cylinders.py",
+      "line": 85,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        60.0,
+        76.0,
+        60.0
+      ],
+      "dimensions_disagree": false
+    },
+    {
+      "ref": "@stickers.Sticker1_9X1_9RoundSpeedometer",
+      "filename": "4125165a.dat",
+      "description": "Sticker  1.9 x  1.9 Round Speedometer",
+      "category": "stickers",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 38.0,
+        "ldu_y": 0.25,
+        "ldu_z": 38.0,
+        "studs_x": 2,
+        "studs_y": 1,
+        "plates_y": 1,
+        "studs_z": 2
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/stickers.py",
+      "line": 1723,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        38.0,
+        0.25,
+        38.0
+      ],
+      "dimensions_disagree": false
+    },
+    {
+      "ref": "@plates.Plate6X6X0_667CrossWithDome",
+      "filename": "30303.dat",
+      "description": "Plate  6 x  6 x  0.667 Cross with Dome",
+      "category": "plates",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 120.0,
+        "ldu_y": 20.0,
+        "ldu_z": 120.0,
+        "studs_x": 6,
+        "studs_y": 1,
+        "plates_y": 3,
+        "studs_z": 6
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/plates.py",
+      "line": 435,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        120.0,
+        20.0,
+        120.0
+      ],
+      "dimensions_disagree": false
+    },
+    {
+      "ref": "@spheres.Dome2X2InvertedOvoidWithStuds",
+      "filename": "24947.dat",
+      "description": "Dome  2 x  2 Inverted Ovoid with Studs",
+      "category": "spheres",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 40.0,
+        "ldu_y": 36.0,
+        "ldu_z": 40.0,
+        "studs_x": 2,
+        "studs_y": 2,
+        "plates_y": 5,
+        "studs_z": 2
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/spheres.py",
+      "line": 32,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        40.0,
+        36.0,
+        40.0
+      ],
+      "dimensions_disagree": false
+    }
+  ],
+  "truncated": true,
+  "note": "Source categories are discovery metadata. Dimensions include studs/decorations and are not stacking heights or connection frames. Inspect selected parts; colour/part manufacture combinations are not known."
+}

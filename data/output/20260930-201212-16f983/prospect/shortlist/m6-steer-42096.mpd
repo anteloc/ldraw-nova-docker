@@ -1,0 +1,65 @@
+0 FILE m6-steer-42096-00-42096---steering.ldr
+0 Steering linkage with gear rack, bevel gear, cross blocks, towball pins, and connecting liftarms.
+0 Name: m6-steer-42096-00-42096---steering.ldr
+0 Author: Philippe Hurbain [Philo]
+0 !LDRAW_ORG Model
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+
+0 // Technic Axle  5 (light_bluish_grey)
+1 71 0 0 0 1 0 0 0 1 0 0 0 1 32073.dat
+0 // Technic Cross Block 1 x 2 (Axle/Pin) (white)
+1 15 40 0 0 1 0 0 0 -1 0 0 0 -1 6536.dat
+0 // Technic Cross Block 1 x 3 (Axle/Pin/Pin) (black)
+1 0 20 20 0 1 0 0 0 1 0 0 0 1 42003.dat
+0 // Technic Cross Block 1 x 3 (Axle/Pin/Pin) (black)
+1 0 -20 20 0 1 0 0 0 1 0 0 0 1 42003.dat
+0 // Technic Cross Block 1 x 2 (Axle/Pin) (white)
+1 15 0 0 0 1 0 0 0 -1 0 0 0 -1 6536.dat
+0 // Technic Cross Block 1 x 2 (Axle/Pin) (white)
+1 15 -40 0 0 1 0 0 0 -1 0 0 0 -1 6536.dat
+0 // Technic Axle Pin with Friction (blue)
+1 1 -40 -20 -10 0 0 -1 0 -1 0 -1 0 0 43093.dat
+0 // Technic Axle Pin with Friction (blue)
+1 1 40 -20 -10 0 0 -1 0 -1 0 -1 0 0 43093.dat
+0 STEP
+0 // Technic Axle  5 with Stop (reddish_brown)
+1 70 -20 20 40 0 0 -1 0 -1 0 -1 0 0 15462.dat
+0 // Technic Axle  5 with Stop (reddish_brown)
+1 70 20 20 40 0 0 -1 0 -1 0 -1 0 0 15462.dat
+0 // Technic Beam  3 x  0.5 Liftarm (white)
+1 15 20 20 15 0 0 -1 -1 0 0 0 1 0 6632.dat
+0 // Technic Beam  3 x  0.5 Liftarm (white)
+1 15 20 20 25 0 0 -1 -1 0 0 0 1 0 6632.dat
+0 STEP
+0 // Technic Beam  3 x  3 T-shaped (light_bluish_grey)
+1 71 0 -20 40 -1 0 0 0 0 1 0 1 0 60484.dat
+0 // Technic Pin with Friction and Slots (black)
+1 0 0 20 30 0 0 -1 0 1 0 1 0 0 2780.dat
+0 STEP
+0 // Technic Gear Rack  1 x  7 with Pegholes and Axleholes (black)
+1 0 0 0 20 1 0 0 0 1 0 0 0 1 87761.dat
+0 // Technic Pin Towball with Friction (red)
+1 4 60 -10 20 0 -1 0 1 0 0 0 0 1 6628.dat
+0 // Technic Pin Towball with Friction (red)
+1 4 -60 -10 20 0 -1 0 1 0 0 0 0 1 6628.dat
+0 // Technic Axle with Perpendicular Pin Hole (black)
+1 0 40 0 40 0 -1 0 0 0 1 -1 0 0 22961.dat
+0 // Technic Axle with Perpendicular Pin Hole (black)
+1 0 -40 0 40 0 -1 0 0 0 1 -1 0 0 22961.dat
+0 // Technic Pin  1/2 (light_bluish_grey)
+1 71 30 0 40 -1 0 0 0 0 1 0 1 0 4274.dat
+0 // Technic Pin  1/2 (light_bluish_grey)
+1 71 -30 0 40 1 0 0 0 0 1 0 -1 0 4274.dat
+0 // Tile  1 x  1 Round with Groove (red)
+1 4 22 0 40 0 1 0 0 0 1 1 0 0 98138.dat
+0 // Tile  1 x  1 Round with Groove (red)
+1 4 -22 0 40 0 -1 0 0 0 1 -1 0 0 98138.dat
+0 STEP
+0 // Technic Axle  6 (red)
+1 4 0 -20 -10 0 -1 0 0 0 1 -1 0 0 3706.dat
+0 // Technic Gear 12 Tooth Double Bevel (black)
+1 0 0 -20 20 -1 0 0 0 1 0 0 0 -1 32270.dat
+
+
+0 STEP
+0 NOFILE

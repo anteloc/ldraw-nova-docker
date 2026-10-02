@@ -1,0 +1,22 @@
+{
+  "source": "/opt/ldraw-astra/data/models-annotated/5767-1.mpd",
+  "source_sha256": "de457e3c35b4ccb79309f999d0638d72d21108ff2d9f2044f3809b589572241c",
+  "source_section": "5767 - Steering shaft vertical.ldr",
+  "parser_section": "5767 - Steering shaft vertical.ldr",
+  "root": "m6-col-5767-00-5767---Steering-shaft-vertical.ldr",
+  "renames": {
+    "5767 - Steering shaft vertical.ldr": "m6-col-5767-00-5767---Steering-shaft-vertical.ldr"
+  },
+  "attribution": [
+    {
+      "section": "5767 - Steering shaft vertical.ldr",
+      "author": "Takeshi Takahashi [RainbowDolphin]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    }
+  ],
+  "changes": [],
+  "output_sha256": "ebae6d0a0b1c5ee407c42fee9789d53d8988df753014dbed368b41fc048f0666",
+  "note": "Original authors and licences retained. Source bytes unchanged. Extraction is not validation or permission to relicense.",
+  "syntax_checks_passed": true,
+  "diagnostics": []
+}

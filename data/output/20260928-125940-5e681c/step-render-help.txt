@@ -1,0 +1,12 @@
+Usage: ldraw-render-steps.sh [options] [mpd,ldr,dat file]
+  -l, --libpath <path>: Set the Parts Library location to path.
+  -i, --image <basename.ext>: Save a picture for each step in the format specified by ext and exit. Default would be '<basename for the model>.png', or if submodel is present, <basename for the submodel with spaces removed>.png
+  -f, --from <step>: Set the first step to save pictures. Default is 1.
+  -t, --to <step>: Set the last step to save pictures. If omitted, it will render until the last step for the model, or for the submodel if specified. Default is the last step for model or submodel.
+  -s, --submodel <submodel>: Set the active submodel. Main model only, if missing.
+  --viewpoint <viewpoint>: Set the view to one of the preset viewpoints (front, back, left, right, top, bottom, home). Default is 'home'.
+  --fade-steps: Render parts from prior steps faded.
+  --fade-steps-color <#AARRGGBB>: Renderinng color for prior step parts.
+  --highlight: Highlight parts in the steps they appear.
+  --highlight-color <#AARRGGBB>: Rendering color for highlighted parts.
+  --line-width <width>: Set the width of the edge lines.

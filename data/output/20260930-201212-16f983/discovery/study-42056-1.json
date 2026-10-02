@@ -1,0 +1,525 @@
+{
+  "source": "/opt/ldraw-astra/data/models-annotated/42056-1.mpd",
+  "source_sha256": "8a681b739651f153dc6af9d62d3e3b237b27fee937694326c0f610052489957b",
+  "main": "42056 - main.ldr",
+  "section_count": 88,
+  "assembly_count": 72,
+  "embedded_definition_count": 16,
+  "physical_placements": 3089,
+  "reachable_section_count": 76,
+  "unreachable_sections": [
+    "42056 - ldcRubberBandRndSeg.dat",
+    "42056 - ldcFlexAxleEndA.dat",
+    "42056 - ldcFlexAxleEndB.dat",
+    "42056 - ldcFlexAxleEndC.dat",
+    "42056 - ldcFlexAxleEndD.dat",
+    "42056 - ldcFlexAxleEndE.dat",
+    "42056 - ldcFlexAxleEndF.dat",
+    "42056 - ldcFlexAxleEndG.dat",
+    "s\\42056 - 32269s01.dat",
+    "s\\42056 - 32269s02.dat",
+    "42056 - ldcCyli8.dat",
+    "42056 - ldcConRing8.dat"
+  ],
+  "unique_parts": 174,
+  "max_assembly_depth": 4,
+  "sections": [
+    {
+      "name": "42056 - main.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 796,
+      "physical_placements": 3089,
+      "steps": 130
+    },
+    {
+      "name": "42056 - bottom1.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 12,
+      "physical_placements": 12,
+      "steps": 2
+    },
+    {
+      "name": "42056 - bottom2.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 12,
+      "physical_placements": 12,
+      "steps": 2
+    },
+    {
+      "name": "42056 - gearboxout.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 34,
+      "physical_placements": 34,
+      "steps": 6
+    },
+    {
+      "name": "42056 - gearbox1.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 25,
+      "physical_placements": 25,
+      "steps": 4
+    },
+    {
+      "name": "42056 - gearbox2.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 21,
+      "physical_placements": 21,
+      "steps": 4
+    },
+    {
+      "name": "42056 - gearshift.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 77,
+      "physical_placements": 135,
+      "steps": 12
+    },
+    {
+      "name": "42056 - gearshift2.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 38,
+      "physical_placements": 38,
+      "steps": 4
+    },
+    {
+      "name": "42056 - gearshift3.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 26,
+      "physical_placements": 26,
+      "steps": 4
+    },
+    {
+      "name": "42056 - rubberBandRound-1.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 2,
+      "direct_placements": 0,
+      "physical_placements": 0,
+      "steps": 1
+    },
+    {
+      "name": "42056 - rubberBandRound-2.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 2,
+      "direct_placements": 0,
+      "physical_placements": 0,
+      "steps": 1
+    },
+    {
+      "name": "42056 - frontaxle.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 92,
+      "physical_placements": 130,
+      "steps": 12
+    },
+    {
+      "name": "42056 - frontaxle2.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 16,
+      "physical_placements": 16,
+      "steps": 2
+    },
+    {
+      "name": "42056 - frontaxle3.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 22,
+      "physical_placements": 24,
+      "steps": 3
+    },
+    {
+      "name": "42056 - shock-06_5L-hard-1.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 2,
+      "direct_placements": 3,
+      "physical_placements": 2,
+      "steps": 1
+    },
+    {
+      "name": "42056 - shock-06_5L-hard-1_springMesh.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 2,
+      "direct_placements": 0,
+      "physical_placements": 0,
+      "steps": 1
+    },
+    {
+      "name": "42056 - dashboard.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 24,
+      "physical_placements": 24,
+      "steps": 4
+    },
+    {
+      "name": "42056 - rearaxle.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 147,
+      "physical_placements": 151,
+      "steps": 9
+    },
+    {
+      "name": "42056 - shock-06_5L-hard-2.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 4,
+      "direct_placements": 3,
+      "physical_placements": 2,
+      "steps": 1
+    },
+    {
+      "name": "42056 - shock-06_5L-hard-2_springMesh.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 4,
+      "direct_placements": 0,
+      "physical_placements": 0,
+      "steps": 1
+    },
+    {
+      "name": "42056 - engine.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 70,
+      "physical_placements": 70,
+      "steps": 6
+    },
+    {
+      "name": "42056 - engineexhaust.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 37,
+      "physical_placements": 37,
+      "steps": 5
+    },
+    {
+      "name": "42056 - bodyframe.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 253,
+      "physical_placements": 641,
+      "steps": 38
+    },
+    {
+      "name": "42056 - bodyframe2.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 15,
+      "physical_placements": 15,
+      "steps": 2
+    },
+    {
+      "name": "42056 - bodyframe3.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 19,
+      "physical_placements": 19,
+      "steps": 2
+    },
+    {
+      "name": "42056 - bodyframe4.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 40,
+      "physical_placements": 40,
+      "steps": 6
+    },
+    {
+      "name": "42056 - bodyframe5.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 40,
+      "physical_placements": 40,
+      "steps": 6
+    },
+    {
+      "name": "42056 - bodyframe6.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 13,
+      "physical_placements": 13,
+      "steps": 3
+    },
+    {
+      "name": "42056 - bodyframe7.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 30,
+      "physical_placements": 30,
+      "steps": 4
+    },
+    {
+      "name": "42056 - bodyframe8.ldr",
+      "kind": "assembly",
+      "reachable": true,
+      "scene_instances": 1,
+      "direct_placements": 27,
+      "physical_placements": 27,
+      "steps": 4
+    }
+  ],
+  "source_checks_passed": false,
+  "diagnostic_counts": {
+    "encoding.line_endings": 1,
+    "bfc.certification_order": 1,
+    "bfc.invertnext": 14,
+    "assembly.nonrigid": 656,
+    "part.alias_or_internal": 92,
+    "geometry.nonplanar": 5402,
+    "coverage.raw_geometry": 22008,
+    "assembly.library_internal": 308,
+    "part.missing_classification": 10
+  },
+  "diagnostics": [
+    {
+      "code": "encoding.line_endings",
+      "severity": "warning",
+      "message": "Use CRLF when delivering new files (PDF p.62).",
+      "line_number": null,
+      "section": null
+    },
+    {
+      "code": "bfc.certification_order",
+      "severity": "error",
+      "message": "Certification must occur once, before all other BFC/geometry.",
+      "line_number": 7701,
+      "section": "42056 - shock-06_5L-hard-2.ldr"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 31908,
+      "section": "42056 - 23801.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 31911,
+      "section": "42056 - 23801.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 31983,
+      "section": "42056 - 23801.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 32262,
+      "section": "s\\42056 - 32269s02.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 32386,
+      "section": "s\\42056 - 23801s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 32391,
+      "section": "s\\42056 - 23801s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 32394,
+      "section": "s\\42056 - 23801s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 32397,
+      "section": "s\\42056 - 23801s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 32400,
+      "section": "s\\42056 - 23801s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 32413,
+      "section": "s\\42056 - 23801s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 32418,
+      "section": "s\\42056 - 23801s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 32421,
+      "section": "s\\42056 - 23801s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 32927,
+      "section": "s\\42056 - 33299s01.dat"
+    },
+    {
+      "code": "bfc.invertnext",
+      "severity": "error",
+      "message": "Only blank lines may intervene before INVERTNEXT's type 1.",
+      "line_number": 32946,
+      "section": "s\\42056 - 33299s01.dat"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 295,
+      "section": "42056 - main.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 297,
+      "section": "42056 - main.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 337,
+      "section": "42056 - main.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 339,
+      "section": "42056 - main.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 341,
+      "section": "42056 - main.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 343,
+      "section": "42056 - main.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 345,
+      "section": "42056 - main.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 347,
+      "section": "42056 - main.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 350,
+      "section": "42056 - main.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 352,
+      "section": "42056 - main.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 380,
+      "section": "42056 - main.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 507,
+      "section": "42056 - main.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 509,
+      "section": "42056 - main.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 552,
+      "section": "42056 - main.ldr"
+    }
+  ],
+  "detail": "summary",
+  "sections_truncated": true,
+  "diagnostics_truncated": true
+}

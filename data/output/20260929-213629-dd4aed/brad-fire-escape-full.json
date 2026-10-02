@@ -1,0 +1,7739 @@
+{
+  "file": "output/bradbury.mpd",
+  "section": "brad-fire-escape.ldr",
+  "profile": "syntax",
+  "checks_passed": true,
+  "physical_validity": "not_proven",
+  "diagnostics": [
+    {
+      "code": "assembly.disconnected_evidence",
+      "severity": "warning",
+      "message": "Connection analysis finds multiple groups. Investigate floating parts, missing connector metadata, or intentional separate objects.",
+      "line_number": null,
+      "section": null,
+      "component_count": 6
+    },
+    {
+      "code": "coverage.collision_review",
+      "severity": "warning",
+      "message": "Some parts lack rectangular body checks; oriented bounds refine candidates, while remaining overlaps require material review.",
+      "line_number": null,
+      "section": null
+    }
+  ],
+  "geometry": {
+    "complete": true,
+    "connection_coverage": {
+      "complete": 65,
+      "partial": 0,
+      "none": 0
+    },
+    "collision_method": "AABB broad phase, oriented bounds separation, curated rectangular body SAT",
+    "physical_validity": "not_proven",
+    "bounds": {
+      "min": [
+        20.0,
+        -512.0,
+        -60.0
+      ],
+      "max": [
+        80.0,
+        8.0,
+        60.0
+      ]
+    },
+    "occurrence_count": 65,
+    "detail": "full",
+    "instance_offset": 0,
+    "instances": [
+      {
+        "index": 0,
+        "part": "3062b.dat",
+        "description": "Brick 1 x 1 Round with Hollow Stud",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -16.0,
+          -50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -20.0,
+            -60.0
+          ],
+          "max": [
+            80.0,
+            8.0,
+            -40.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2808,
+        "source_path": [
+          null,
+          2808
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 5,
+        "placement_path": [
+          0,
+          0
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 4,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 1,
+        "part": "3062b.dat",
+        "description": "Brick 1 x 1 Round with Hollow Stud",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -40.0,
+          -50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -44.0,
+            -60.0
+          ],
+          "max": [
+            80.0,
+            -16.0,
+            -40.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2810,
+        "source_path": [
+          null,
+          2810
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 5,
+        "placement_path": [
+          0,
+          1
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 4,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 2,
+        "part": "3062b.dat",
+        "description": "Brick 1 x 1 Round with Hollow Stud",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -64.0,
+          -50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -68.0,
+            -60.0
+          ],
+          "max": [
+            80.0,
+            -40.0,
+            -40.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2812,
+        "source_path": [
+          null,
+          2812
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 5,
+        "placement_path": [
+          0,
+          2
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 4,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 3,
+        "part": "3062b.dat",
+        "description": "Brick 1 x 1 Round with Hollow Stud",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -88.0,
+          -50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -92.0,
+            -60.0
+          ],
+          "max": [
+            80.0,
+            -64.0,
+            -40.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2814,
+        "source_path": [
+          null,
+          2814
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 5,
+        "placement_path": [
+          0,
+          3
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 4,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 4,
+        "part": "3062b.dat",
+        "description": "Brick 1 x 1 Round with Hollow Stud",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -112.0,
+          -50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -116.0,
+            -60.0
+          ],
+          "max": [
+            80.0,
+            -88.0,
+            -40.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2816,
+        "source_path": [
+          null,
+          2816
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 5,
+        "placement_path": [
+          0,
+          4
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 4,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 5,
+        "part": "3024.dat",
+        "description": "Plate 1 x 1",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -120.0,
+          -50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -124.0,
+            -60.0
+          ],
+          "max": [
+            80.0,
+            -112.0,
+            -40.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2818,
+        "source_path": [
+          null,
+          2818
+        ],
+        "step": 1,
+        "body_profile": true,
+        "connector_count": 3,
+        "placement_path": [
+          0,
+          5
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 3,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 6,
+        "part": "3062b.dat",
+        "description": "Brick 1 x 1 Round with Hollow Stud",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -16.0,
+          50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -20.0,
+            40.0
+          ],
+          "max": [
+            80.0,
+            8.0,
+            60.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2820,
+        "source_path": [
+          null,
+          2820
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 5,
+        "placement_path": [
+          0,
+          6
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 4,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 7,
+        "part": "3062b.dat",
+        "description": "Brick 1 x 1 Round with Hollow Stud",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -40.0,
+          50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -44.0,
+            40.0
+          ],
+          "max": [
+            80.0,
+            -16.0,
+            60.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2822,
+        "source_path": [
+          null,
+          2822
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 5,
+        "placement_path": [
+          0,
+          7
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 4,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 8,
+        "part": "3062b.dat",
+        "description": "Brick 1 x 1 Round with Hollow Stud",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -64.0,
+          50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -68.0,
+            40.0
+          ],
+          "max": [
+            80.0,
+            -40.0,
+            60.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2824,
+        "source_path": [
+          null,
+          2824
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 5,
+        "placement_path": [
+          0,
+          8
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 4,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 9,
+        "part": "3062b.dat",
+        "description": "Brick 1 x 1 Round with Hollow Stud",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -88.0,
+          50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -92.0,
+            40.0
+          ],
+          "max": [
+            80.0,
+            -64.0,
+            60.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2826,
+        "source_path": [
+          null,
+          2826
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 5,
+        "placement_path": [
+          0,
+          9
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 4,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 10,
+        "part": "3062b.dat",
+        "description": "Brick 1 x 1 Round with Hollow Stud",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -112.0,
+          50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -116.0,
+            40.0
+          ],
+          "max": [
+            80.0,
+            -88.0,
+            60.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2828,
+        "source_path": [
+          null,
+          2828
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 5,
+        "placement_path": [
+          0,
+          10
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 4,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 11,
+        "part": "3024.dat",
+        "description": "Plate 1 x 1",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -120.0,
+          50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -124.0,
+            40.0
+          ],
+          "max": [
+            80.0,
+            -112.0,
+            60.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2830,
+        "source_path": [
+          null,
+          2830
+        ],
+        "step": 1,
+        "body_profile": true,
+        "connector_count": 3,
+        "placement_path": [
+          0,
+          11
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 3,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 12,
+        "part": "3062b.dat",
+        "description": "Brick 1 x 1 Round with Hollow Stud",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -152.0,
+          -50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -156.0,
+            -60.0
+          ],
+          "max": [
+            80.0,
+            -128.0,
+            -40.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2832,
+        "source_path": [
+          null,
+          2832
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 5,
+        "placement_path": [
+          0,
+          12
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 4,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 13,
+        "part": "3062b.dat",
+        "description": "Brick 1 x 1 Round with Hollow Stud",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -176.0,
+          -50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -180.0,
+            -60.0
+          ],
+          "max": [
+            80.0,
+            -152.0,
+            -40.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2834,
+        "source_path": [
+          null,
+          2834
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 5,
+        "placement_path": [
+          0,
+          13
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 4,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 14,
+        "part": "3062b.dat",
+        "description": "Brick 1 x 1 Round with Hollow Stud",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -200.0,
+          -50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -204.0,
+            -60.0
+          ],
+          "max": [
+            80.0,
+            -176.0,
+            -40.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2836,
+        "source_path": [
+          null,
+          2836
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 5,
+        "placement_path": [
+          0,
+          14
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 4,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 15,
+        "part": "3062b.dat",
+        "description": "Brick 1 x 1 Round with Hollow Stud",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -224.0,
+          -50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -228.0,
+            -60.0
+          ],
+          "max": [
+            80.0,
+            -200.0,
+            -40.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2838,
+        "source_path": [
+          null,
+          2838
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 5,
+        "placement_path": [
+          0,
+          15
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 4,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 16,
+        "part": "3024.dat",
+        "description": "Plate 1 x 1",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -232.0,
+          -50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -236.0,
+            -60.0
+          ],
+          "max": [
+            80.0,
+            -224.0,
+            -40.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2840,
+        "source_path": [
+          null,
+          2840
+        ],
+        "step": 1,
+        "body_profile": true,
+        "connector_count": 3,
+        "placement_path": [
+          0,
+          16
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 3,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 17,
+        "part": "3062b.dat",
+        "description": "Brick 1 x 1 Round with Hollow Stud",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -152.0,
+          50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -156.0,
+            40.0
+          ],
+          "max": [
+            80.0,
+            -128.0,
+            60.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2842,
+        "source_path": [
+          null,
+          2842
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 5,
+        "placement_path": [
+          0,
+          17
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 4,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 18,
+        "part": "3062b.dat",
+        "description": "Brick 1 x 1 Round with Hollow Stud",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -176.0,
+          50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -180.0,
+            40.0
+          ],
+          "max": [
+            80.0,
+            -152.0,
+            60.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2844,
+        "source_path": [
+          null,
+          2844
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 5,
+        "placement_path": [
+          0,
+          18
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 4,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 19,
+        "part": "3062b.dat",
+        "description": "Brick 1 x 1 Round with Hollow Stud",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -200.0,
+          50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -204.0,
+            40.0
+          ],
+          "max": [
+            80.0,
+            -176.0,
+            60.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2846,
+        "source_path": [
+          null,
+          2846
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 5,
+        "placement_path": [
+          0,
+          19
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 4,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 20,
+        "part": "3062b.dat",
+        "description": "Brick 1 x 1 Round with Hollow Stud",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -224.0,
+          50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -228.0,
+            40.0
+          ],
+          "max": [
+            80.0,
+            -200.0,
+            60.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2848,
+        "source_path": [
+          null,
+          2848
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 5,
+        "placement_path": [
+          0,
+          20
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 4,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 21,
+        "part": "3024.dat",
+        "description": "Plate 1 x 1",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -232.0,
+          50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -236.0,
+            40.0
+          ],
+          "max": [
+            80.0,
+            -224.0,
+            60.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2850,
+        "source_path": [
+          null,
+          2850
+        ],
+        "step": 1,
+        "body_profile": true,
+        "connector_count": 3,
+        "placement_path": [
+          0,
+          21
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 3,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 22,
+        "part": "3062b.dat",
+        "description": "Brick 1 x 1 Round with Hollow Stud",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -264.0,
+          -50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -268.0,
+            -60.0
+          ],
+          "max": [
+            80.0,
+            -240.0,
+            -40.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2852,
+        "source_path": [
+          null,
+          2852
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 5,
+        "placement_path": [
+          0,
+          22
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 4,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 23,
+        "part": "3062b.dat",
+        "description": "Brick 1 x 1 Round with Hollow Stud",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -288.0,
+          -50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -292.0,
+            -60.0
+          ],
+          "max": [
+            80.0,
+            -264.0,
+            -40.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2854,
+        "source_path": [
+          null,
+          2854
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 5,
+        "placement_path": [
+          0,
+          23
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 4,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 24,
+        "part": "3062b.dat",
+        "description": "Brick 1 x 1 Round with Hollow Stud",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -312.0,
+          -50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -316.0,
+            -60.0
+          ],
+          "max": [
+            80.0,
+            -288.0,
+            -40.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2856,
+        "source_path": [
+          null,
+          2856
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 5,
+        "placement_path": [
+          0,
+          24
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 4,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 25,
+        "part": "3062b.dat",
+        "description": "Brick 1 x 1 Round with Hollow Stud",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -336.0,
+          -50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -340.0,
+            -60.0
+          ],
+          "max": [
+            80.0,
+            -312.0,
+            -40.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2858,
+        "source_path": [
+          null,
+          2858
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 5,
+        "placement_path": [
+          0,
+          25
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 4,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 26,
+        "part": "3024.dat",
+        "description": "Plate 1 x 1",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -344.0,
+          -50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -348.0,
+            -60.0
+          ],
+          "max": [
+            80.0,
+            -336.0,
+            -40.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2860,
+        "source_path": [
+          null,
+          2860
+        ],
+        "step": 1,
+        "body_profile": true,
+        "connector_count": 3,
+        "placement_path": [
+          0,
+          26
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 3,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 27,
+        "part": "3062b.dat",
+        "description": "Brick 1 x 1 Round with Hollow Stud",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -264.0,
+          50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -268.0,
+            40.0
+          ],
+          "max": [
+            80.0,
+            -240.0,
+            60.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2862,
+        "source_path": [
+          null,
+          2862
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 5,
+        "placement_path": [
+          0,
+          27
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 4,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 28,
+        "part": "3062b.dat",
+        "description": "Brick 1 x 1 Round with Hollow Stud",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -288.0,
+          50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -292.0,
+            40.0
+          ],
+          "max": [
+            80.0,
+            -264.0,
+            60.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2864,
+        "source_path": [
+          null,
+          2864
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 5,
+        "placement_path": [
+          0,
+          28
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 4,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 29,
+        "part": "3062b.dat",
+        "description": "Brick 1 x 1 Round with Hollow Stud",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -312.0,
+          50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -316.0,
+            40.0
+          ],
+          "max": [
+            80.0,
+            -288.0,
+            60.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2866,
+        "source_path": [
+          null,
+          2866
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 5,
+        "placement_path": [
+          0,
+          29
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 4,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 30,
+        "part": "3062b.dat",
+        "description": "Brick 1 x 1 Round with Hollow Stud",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -336.0,
+          50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -340.0,
+            40.0
+          ],
+          "max": [
+            80.0,
+            -312.0,
+            60.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2868,
+        "source_path": [
+          null,
+          2868
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 5,
+        "placement_path": [
+          0,
+          30
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 4,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 31,
+        "part": "3024.dat",
+        "description": "Plate 1 x 1",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -344.0,
+          50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -348.0,
+            40.0
+          ],
+          "max": [
+            80.0,
+            -336.0,
+            60.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2870,
+        "source_path": [
+          null,
+          2870
+        ],
+        "step": 1,
+        "body_profile": true,
+        "connector_count": 3,
+        "placement_path": [
+          0,
+          31
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 3,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 32,
+        "part": "3062b.dat",
+        "description": "Brick 1 x 1 Round with Hollow Stud",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -376.0,
+          -50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -380.0,
+            -60.0
+          ],
+          "max": [
+            80.0,
+            -352.0,
+            -40.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2872,
+        "source_path": [
+          null,
+          2872
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 5,
+        "placement_path": [
+          0,
+          32
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 4,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 33,
+        "part": "3062b.dat",
+        "description": "Brick 1 x 1 Round with Hollow Stud",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -400.0,
+          -50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -404.0,
+            -60.0
+          ],
+          "max": [
+            80.0,
+            -376.0,
+            -40.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2874,
+        "source_path": [
+          null,
+          2874
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 5,
+        "placement_path": [
+          0,
+          33
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 4,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 34,
+        "part": "3062b.dat",
+        "description": "Brick 1 x 1 Round with Hollow Stud",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -424.0,
+          -50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -428.0,
+            -60.0
+          ],
+          "max": [
+            80.0,
+            -400.0,
+            -40.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2876,
+        "source_path": [
+          null,
+          2876
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 5,
+        "placement_path": [
+          0,
+          34
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 4,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 35,
+        "part": "3062b.dat",
+        "description": "Brick 1 x 1 Round with Hollow Stud",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -448.0,
+          -50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -452.0,
+            -60.0
+          ],
+          "max": [
+            80.0,
+            -424.0,
+            -40.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2878,
+        "source_path": [
+          null,
+          2878
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 5,
+        "placement_path": [
+          0,
+          35
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 4,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 36,
+        "part": "3024.dat",
+        "description": "Plate 1 x 1",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -456.0,
+          -50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -460.0,
+            -60.0
+          ],
+          "max": [
+            80.0,
+            -448.0,
+            -40.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2880,
+        "source_path": [
+          null,
+          2880
+        ],
+        "step": 1,
+        "body_profile": true,
+        "connector_count": 3,
+        "placement_path": [
+          0,
+          36
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 3,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 37,
+        "part": "3062b.dat",
+        "description": "Brick 1 x 1 Round with Hollow Stud",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -376.0,
+          50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -380.0,
+            40.0
+          ],
+          "max": [
+            80.0,
+            -352.0,
+            60.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2882,
+        "source_path": [
+          null,
+          2882
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 5,
+        "placement_path": [
+          0,
+          37
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 4,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 38,
+        "part": "3062b.dat",
+        "description": "Brick 1 x 1 Round with Hollow Stud",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -400.0,
+          50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -404.0,
+            40.0
+          ],
+          "max": [
+            80.0,
+            -376.0,
+            60.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2884,
+        "source_path": [
+          null,
+          2884
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 5,
+        "placement_path": [
+          0,
+          38
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 4,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 39,
+        "part": "3062b.dat",
+        "description": "Brick 1 x 1 Round with Hollow Stud",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -424.0,
+          50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -428.0,
+            40.0
+          ],
+          "max": [
+            80.0,
+            -400.0,
+            60.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2886,
+        "source_path": [
+          null,
+          2886
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 5,
+        "placement_path": [
+          0,
+          39
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 4,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 40,
+        "part": "3062b.dat",
+        "description": "Brick 1 x 1 Round with Hollow Stud",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -448.0,
+          50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -452.0,
+            40.0
+          ],
+          "max": [
+            80.0,
+            -424.0,
+            60.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2888,
+        "source_path": [
+          null,
+          2888
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 5,
+        "placement_path": [
+          0,
+          40
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 4,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 41,
+        "part": "3024.dat",
+        "description": "Plate 1 x 1",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -456.0,
+          50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -460.0,
+            40.0
+          ],
+          "max": [
+            80.0,
+            -448.0,
+            60.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2890,
+        "source_path": [
+          null,
+          2890
+        ],
+        "step": 1,
+        "body_profile": true,
+        "connector_count": 3,
+        "placement_path": [
+          0,
+          41
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 3,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 42,
+        "part": "3795.dat",
+        "description": "Plate 2 x 6",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          40.0,
+          -128.0,
+          0.0
+        ],
+        "matrix": [
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            20.0,
+            -132.0,
+            -60.0
+          ],
+          "max": [
+            60.0,
+            -120.0,
+            60.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2893,
+        "source_path": [
+          null,
+          2893
+        ],
+        "step": 1,
+        "body_profile": true,
+        "connector_count": 24,
+        "placement_path": [
+          0,
+          42
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 2,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 43,
+        "part": "3666.dat",
+        "description": "Plate 1 x 6",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -128.0,
+          0.0
+        ],
+        "matrix": [
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -132.0,
+            -60.0
+          ],
+          "max": [
+            80.0,
+            -120.0,
+            60.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2895,
+        "source_path": [
+          null,
+          2895
+        ],
+        "step": 1,
+        "body_profile": true,
+        "connector_count": 17,
+        "placement_path": [
+          0,
+          43
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 3,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 44,
+        "part": "2412b.dat",
+        "description": "Tile 1 x 2 Grille with Groove",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          30.0,
+          -136.0,
+          -20.0
+        ],
+        "matrix": [
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            20.0,
+            -136.0,
+            -40.0
+          ],
+          "max": [
+            40.0,
+            -128.0,
+            0.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2897,
+        "source_path": [
+          null,
+          2897
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 3,
+        "placement_path": [
+          0,
+          44
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 1,
+          "recognized_record_count": 2,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 45,
+        "part": "2412b.dat",
+        "description": "Tile 1 x 2 Grille with Groove",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          30.0,
+          -136.0,
+          20.0
+        ],
+        "matrix": [
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            20.0,
+            -136.0,
+            0.0
+          ],
+          "max": [
+            40.0,
+            -128.0,
+            40.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2899,
+        "source_path": [
+          null,
+          2899
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 3,
+        "placement_path": [
+          0,
+          45
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 1,
+          "recognized_record_count": 2,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 46,
+        "part": "6187.dat",
+        "description": "Bar 1 x 4 x 2",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          50.0,
+          -176.0,
+          0.0
+        ],
+        "matrix": [
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            40.0,
+            -176.0,
+            -40.0
+          ],
+          "max": [
+            60.0,
+            -128.0,
+            40.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2901,
+        "source_path": [
+          null,
+          2901
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 6,
+        "placement_path": [
+          0,
+          46
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 2,
+          "recognized_record_count": 4,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 47,
+        "part": "3795.dat",
+        "description": "Plate 2 x 6",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          40.0,
+          -240.0,
+          0.0
+        ],
+        "matrix": [
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            20.0,
+            -244.0,
+            -60.0
+          ],
+          "max": [
+            60.0,
+            -232.0,
+            60.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2904,
+        "source_path": [
+          null,
+          2904
+        ],
+        "step": 1,
+        "body_profile": true,
+        "connector_count": 24,
+        "placement_path": [
+          0,
+          47
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 2,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 48,
+        "part": "3024.dat",
+        "description": "Plate 1 x 1",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -240.0,
+          -50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -244.0,
+            -60.0
+          ],
+          "max": [
+            80.0,
+            -232.0,
+            -40.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2906,
+        "source_path": [
+          null,
+          2906
+        ],
+        "step": 1,
+        "body_profile": true,
+        "connector_count": 3,
+        "placement_path": [
+          0,
+          48
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 3,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 49,
+        "part": "3024.dat",
+        "description": "Plate 1 x 1",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -240.0,
+          50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -244.0,
+            40.0
+          ],
+          "max": [
+            80.0,
+            -232.0,
+            60.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2908,
+        "source_path": [
+          null,
+          2908
+        ],
+        "step": 1,
+        "body_profile": true,
+        "connector_count": 3,
+        "placement_path": [
+          0,
+          49
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 3,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 50,
+        "part": "2412b.dat",
+        "description": "Tile 1 x 2 Grille with Groove",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          30.0,
+          -248.0,
+          -20.0
+        ],
+        "matrix": [
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            20.0,
+            -248.0,
+            -40.0
+          ],
+          "max": [
+            40.0,
+            -240.0,
+            0.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2910,
+        "source_path": [
+          null,
+          2910
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 3,
+        "placement_path": [
+          0,
+          50
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 1,
+          "recognized_record_count": 2,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 51,
+        "part": "2412b.dat",
+        "description": "Tile 1 x 2 Grille with Groove",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          30.0,
+          -248.0,
+          20.0
+        ],
+        "matrix": [
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            20.0,
+            -248.0,
+            0.0
+          ],
+          "max": [
+            40.0,
+            -240.0,
+            40.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2912,
+        "source_path": [
+          null,
+          2912
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 3,
+        "placement_path": [
+          0,
+          51
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 1,
+          "recognized_record_count": 2,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 52,
+        "part": "6187.dat",
+        "description": "Bar 1 x 4 x 2",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          50.0,
+          -288.0,
+          0.0
+        ],
+        "matrix": [
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            40.0,
+            -288.0,
+            -40.0
+          ],
+          "max": [
+            60.0,
+            -240.0,
+            40.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2914,
+        "source_path": [
+          null,
+          2914
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 6,
+        "placement_path": [
+          0,
+          52
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 2,
+          "recognized_record_count": 4,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 53,
+        "part": "3795.dat",
+        "description": "Plate 2 x 6",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          40.0,
+          -352.0,
+          0.0
+        ],
+        "matrix": [
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            20.0,
+            -356.0,
+            -60.0
+          ],
+          "max": [
+            60.0,
+            -344.0,
+            60.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2917,
+        "source_path": [
+          null,
+          2917
+        ],
+        "step": 1,
+        "body_profile": true,
+        "connector_count": 24,
+        "placement_path": [
+          0,
+          53
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 2,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 54,
+        "part": "3024.dat",
+        "description": "Plate 1 x 1",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -352.0,
+          -50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -356.0,
+            -60.0
+          ],
+          "max": [
+            80.0,
+            -344.0,
+            -40.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2919,
+        "source_path": [
+          null,
+          2919
+        ],
+        "step": 1,
+        "body_profile": true,
+        "connector_count": 3,
+        "placement_path": [
+          0,
+          54
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 3,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 55,
+        "part": "3024.dat",
+        "description": "Plate 1 x 1",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -352.0,
+          50.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -356.0,
+            40.0
+          ],
+          "max": [
+            80.0,
+            -344.0,
+            60.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2921,
+        "source_path": [
+          null,
+          2921
+        ],
+        "step": 1,
+        "body_profile": true,
+        "connector_count": 3,
+        "placement_path": [
+          0,
+          55
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 3,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 56,
+        "part": "2412b.dat",
+        "description": "Tile 1 x 2 Grille with Groove",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          30.0,
+          -360.0,
+          -20.0
+        ],
+        "matrix": [
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            20.0,
+            -360.0,
+            -40.0
+          ],
+          "max": [
+            40.0,
+            -352.0,
+            0.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2923,
+        "source_path": [
+          null,
+          2923
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 3,
+        "placement_path": [
+          0,
+          56
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 1,
+          "recognized_record_count": 2,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 57,
+        "part": "2412b.dat",
+        "description": "Tile 1 x 2 Grille with Groove",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          30.0,
+          -360.0,
+          20.0
+        ],
+        "matrix": [
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            20.0,
+            -360.0,
+            0.0
+          ],
+          "max": [
+            40.0,
+            -352.0,
+            40.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2925,
+        "source_path": [
+          null,
+          2925
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 3,
+        "placement_path": [
+          0,
+          57
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 1,
+          "recognized_record_count": 2,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 58,
+        "part": "6187.dat",
+        "description": "Bar 1 x 4 x 2",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          50.0,
+          -400.0,
+          0.0
+        ],
+        "matrix": [
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            40.0,
+            -400.0,
+            -40.0
+          ],
+          "max": [
+            60.0,
+            -352.0,
+            40.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2927,
+        "source_path": [
+          null,
+          2927
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 6,
+        "placement_path": [
+          0,
+          58
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 2,
+          "recognized_record_count": 4,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 59,
+        "part": "3795.dat",
+        "description": "Plate 2 x 6",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          40.0,
+          -464.0,
+          0.0
+        ],
+        "matrix": [
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            20.0,
+            -468.0,
+            -60.0
+          ],
+          "max": [
+            60.0,
+            -456.0,
+            60.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2930,
+        "source_path": [
+          null,
+          2930
+        ],
+        "step": 1,
+        "body_profile": true,
+        "connector_count": 24,
+        "placement_path": [
+          0,
+          59
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 2,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 60,
+        "part": "3666.dat",
+        "description": "Plate 1 x 6",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          70.0,
+          -464.0,
+          0.0
+        ],
+        "matrix": [
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            60.0,
+            -468.0,
+            -60.0
+          ],
+          "max": [
+            80.0,
+            -456.0,
+            60.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2932,
+        "source_path": [
+          null,
+          2932
+        ],
+        "step": 1,
+        "body_profile": true,
+        "connector_count": 17,
+        "placement_path": [
+          0,
+          60
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 3,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 61,
+        "part": "2412b.dat",
+        "description": "Tile 1 x 2 Grille with Groove",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          30.0,
+          -472.0,
+          -20.0
+        ],
+        "matrix": [
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            20.0,
+            -472.0,
+            -40.0
+          ],
+          "max": [
+            40.0,
+            -464.0,
+            0.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2934,
+        "source_path": [
+          null,
+          2934
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 3,
+        "placement_path": [
+          0,
+          61
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 1,
+          "recognized_record_count": 2,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 62,
+        "part": "2412b.dat",
+        "description": "Tile 1 x 2 Grille with Groove",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          30.0,
+          -472.0,
+          20.0
+        ],
+        "matrix": [
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            20.0,
+            -472.0,
+            0.0
+          ],
+          "max": [
+            40.0,
+            -464.0,
+            40.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2936,
+        "source_path": [
+          null,
+          2936
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 3,
+        "placement_path": [
+          0,
+          62
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 1,
+          "recognized_record_count": 2,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 63,
+        "part": "6187.dat",
+        "description": "Bar 1 x 4 x 2",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          50.0,
+          -512.0,
+          0.0
+        ],
+        "matrix": [
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            40.0,
+            -512.0,
+            -40.0
+          ],
+          "max": [
+            60.0,
+            -464.0,
+            40.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2938,
+        "source_path": [
+          null,
+          2938
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 6,
+        "placement_path": [
+          0,
+          63
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 2,
+          "recognized_record_count": 4,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 64,
+        "part": "4207a.dat",
+        "description": "Ladder 2.6 x 14 with Stops",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          80.0,
+          -268.0,
+          0.0
+        ],
+        "matrix": [
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            67.5,
+            -408.0,
+            -26.0
+          ],
+          "max": [
+            80.0,
+            -128.0,
+            26.0
+          ]
+        },
+        "section": "brad-fire-escape.ldr",
+        "line_number": 2941,
+        "source_path": [
+          null,
+          2941
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 28,
+        "placement_path": [
+          0,
+          64
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 1,
+          "recognized_record_count": 5,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      }
+    ],
+    "instances_truncated": false,
+    "contacts_checked": true,
+    "contact_count": 72,
+    "contacts": [
+      {
+        "instances": [
+          0,
+          1
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "primitive"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "s/3062bs01@R0/stud2a@R5/studO",
+          "s/3062bs01@R0/stud4od@R11/stud4od"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 28.0
+        }
+      },
+      {
+        "instances": [
+          1,
+          2
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "primitive"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "s/3062bs01@R0/stud2a@R5/studO",
+          "s/3062bs01@R0/stud4od@R11/stud4od"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 28.0
+        }
+      },
+      {
+        "instances": [
+          2,
+          3
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "primitive"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "s/3062bs01@R0/stud2a@R5/studO",
+          "s/3062bs01@R0/stud4od@R11/stud4od"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 28.0
+        }
+      },
+      {
+        "instances": [
+          3,
+          4
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "primitive"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "s/3062bs01@R0/stud2a@R5/studO",
+          "s/3062bs01@R0/stud4od@R11/stud4od"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 28.0
+        }
+      },
+      {
+        "instances": [
+          4,
+          5
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "s/3062bs01@R0/stud2a@R5/studO",
+          "s/3024s01@R0/snap_cyl@L8:I0"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 12.0
+        }
+      },
+      {
+        "instances": [
+          5,
+          43
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "s/3024s01@R0/stud@R2/studC",
+          "snap_cyl@L8:I5"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 12.0
+        }
+      },
+      {
+        "instances": [
+          6,
+          7
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "primitive"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "s/3062bs01@R0/stud2a@R5/studO",
+          "s/3062bs01@R0/stud4od@R11/stud4od"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 28.0
+        }
+      },
+      {
+        "instances": [
+          7,
+          8
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "primitive"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "s/3062bs01@R0/stud2a@R5/studO",
+          "s/3062bs01@R0/stud4od@R11/stud4od"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 28.0
+        }
+      },
+      {
+        "instances": [
+          8,
+          9
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "primitive"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "s/3062bs01@R0/stud2a@R5/studO",
+          "s/3062bs01@R0/stud4od@R11/stud4od"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 28.0
+        }
+      },
+      {
+        "instances": [
+          9,
+          10
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "primitive"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "s/3062bs01@R0/stud2a@R5/studO",
+          "s/3062bs01@R0/stud4od@R11/stud4od"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 28.0
+        }
+      },
+      {
+        "instances": [
+          10,
+          11
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "s/3062bs01@R0/stud2a@R5/studO",
+          "s/3024s01@R0/snap_cyl@L8:I0"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 12.0
+        }
+      },
+      {
+        "instances": [
+          11,
+          43
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "s/3024s01@R0/stud@R2/studC",
+          "snap_cyl@L8:I0"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 12.0
+        }
+      },
+      {
+        "instances": [
+          12,
+          13
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "primitive"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "s/3062bs01@R0/stud2a@R5/studO",
+          "s/3062bs01@R0/stud4od@R11/stud4od"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 28.0
+        }
+      },
+      {
+        "instances": [
+          12,
+          43
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud_receptacle",
+          "stud"
+        ],
+        "sources": [
+          "primitive",
+          "ldcad_shadow"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "s/3062bs01@R0/stud4od@R11/stud4od",
+          "s/3666s01@R0/stug-1x6@R3/stud@R5/studC"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 28.0
+        }
+      },
+      {
+        "instances": [
+          13,
+          14
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "primitive"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "s/3062bs01@R0/stud2a@R5/studO",
+          "s/3062bs01@R0/stud4od@R11/stud4od"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 28.0
+        }
+      },
+      {
+        "instances": [
+          14,
+          15
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "primitive"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "s/3062bs01@R0/stud2a@R5/studO",
+          "s/3062bs01@R0/stud4od@R11/stud4od"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 28.0
+        }
+      },
+      {
+        "instances": [
+          15,
+          16
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "s/3062bs01@R0/stud2a@R5/studO",
+          "s/3024s01@R0/snap_cyl@L8:I0"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 12.0
+        }
+      },
+      {
+        "instances": [
+          16,
+          48
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "s/3024s01@R0/stud@R2/studC",
+          "s/3024s01@R0/snap_cyl@L8:I0"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 12.0
+        }
+      },
+      {
+        "instances": [
+          17,
+          18
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "primitive"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "s/3062bs01@R0/stud2a@R5/studO",
+          "s/3062bs01@R0/stud4od@R11/stud4od"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 28.0
+        }
+      },
+      {
+        "instances": [
+          17,
+          43
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud_receptacle",
+          "stud"
+        ],
+        "sources": [
+          "primitive",
+          "ldcad_shadow"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "s/3062bs01@R0/stud4od@R11/stud4od",
+          "s/3666s01@R0/stug-1x6@R3/stud@R0/studC"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 28.0
+        }
+      },
+      {
+        "instances": [
+          18,
+          19
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "primitive"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "s/3062bs01@R0/stud2a@R5/studO",
+          "s/3062bs01@R0/stud4od@R11/stud4od"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 28.0
+        }
+      },
+      {
+        "instances": [
+          19,
+          20
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "primitive"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "s/3062bs01@R0/stud2a@R5/studO",
+          "s/3062bs01@R0/stud4od@R11/stud4od"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 28.0
+        }
+      },
+      {
+        "instances": [
+          20,
+          21
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "s/3062bs01@R0/stud2a@R5/studO",
+          "s/3024s01@R0/snap_cyl@L8:I0"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 12.0
+        }
+      },
+      {
+        "instances": [
+          21,
+          49
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "s/3024s01@R0/stud@R2/studC",
+          "s/3024s01@R0/snap_cyl@L8:I0"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 12.0
+        }
+      },
+      {
+        "instances": [
+          22,
+          23
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "primitive"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "s/3062bs01@R0/stud2a@R5/studO",
+          "s/3062bs01@R0/stud4od@R11/stud4od"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 28.0
+        }
+      },
+      {
+        "instances": [
+          22,
+          48
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud_receptacle",
+          "stud"
+        ],
+        "sources": [
+          "primitive",
+          "ldcad_shadow"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "s/3062bs01@R0/stud4od@R11/stud4od",
+          "s/3024s01@R0/stud@R2/studC"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 28.0
+        }
+      },
+      {
+        "instances": [
+          23,
+          24
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "primitive"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "s/3062bs01@R0/stud2a@R5/studO",
+          "s/3062bs01@R0/stud4od@R11/stud4od"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 28.0
+        }
+      },
+      {
+        "instances": [
+          24,
+          25
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "primitive"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "s/3062bs01@R0/stud2a@R5/studO",
+          "s/3062bs01@R0/stud4od@R11/stud4od"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 28.0
+        }
+      },
+      {
+        "instances": [
+          25,
+          26
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "s/3062bs01@R0/stud2a@R5/studO",
+          "s/3024s01@R0/snap_cyl@L8:I0"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 12.0
+        }
+      },
+      {
+        "instances": [
+          26,
+          54
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "s/3024s01@R0/stud@R2/studC",
+          "s/3024s01@R0/snap_cyl@L8:I0"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 12.0
+        }
+      },
+      {
+        "instances": [
+          27,
+          28
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "primitive"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "s/3062bs01@R0/stud2a@R5/studO",
+          "s/3062bs01@R0/stud4od@R11/stud4od"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 28.0
+        }
+      },
+      {
+        "instances": [
+          27,
+          49
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud_receptacle",
+          "stud"
+        ],
+        "sources": [
+          "primitive",
+          "ldcad_shadow"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "s/3062bs01@R0/stud4od@R11/stud4od",
+          "s/3024s01@R0/stud@R2/studC"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 28.0
+        }
+      },
+      {
+        "instances": [
+          28,
+          29
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "primitive"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "s/3062bs01@R0/stud2a@R5/studO",
+          "s/3062bs01@R0/stud4od@R11/stud4od"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 28.0
+        }
+      },
+      {
+        "instances": [
+          29,
+          30
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "primitive"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "s/3062bs01@R0/stud2a@R5/studO",
+          "s/3062bs01@R0/stud4od@R11/stud4od"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 28.0
+        }
+      },
+      {
+        "instances": [
+          30,
+          31
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "s/3062bs01@R0/stud2a@R5/studO",
+          "s/3024s01@R0/snap_cyl@L8:I0"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 12.0
+        }
+      },
+      {
+        "instances": [
+          31,
+          55
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "s/3024s01@R0/stud@R2/studC",
+          "s/3024s01@R0/snap_cyl@L8:I0"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 12.0
+        }
+      },
+      {
+        "instances": [
+          32,
+          33
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "primitive"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "s/3062bs01@R0/stud2a@R5/studO",
+          "s/3062bs01@R0/stud4od@R11/stud4od"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 28.0
+        }
+      },
+      {
+        "instances": [
+          32,
+          54
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud_receptacle",
+          "stud"
+        ],
+        "sources": [
+          "primitive",
+          "ldcad_shadow"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "s/3062bs01@R0/stud4od@R11/stud4od",
+          "s/3024s01@R0/stud@R2/studC"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 28.0
+        }
+      },
+      {
+        "instances": [
+          33,
+          34
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "primitive"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "s/3062bs01@R0/stud2a@R5/studO",
+          "s/3062bs01@R0/stud4od@R11/stud4od"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 28.0
+        }
+      },
+      {
+        "instances": [
+          34,
+          35
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "primitive"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "s/3062bs01@R0/stud2a@R5/studO",
+          "s/3062bs01@R0/stud4od@R11/stud4od"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 28.0
+        }
+      },
+      {
+        "instances": [
+          35,
+          36
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "s/3062bs01@R0/stud2a@R5/studO",
+          "s/3024s01@R0/snap_cyl@L8:I0"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 12.0
+        }
+      },
+      {
+        "instances": [
+          36,
+          60
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "s/3024s01@R0/stud@R2/studC",
+          "snap_cyl@L8:I5"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 12.0
+        }
+      },
+      {
+        "instances": [
+          37,
+          38
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "primitive"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "s/3062bs01@R0/stud2a@R5/studO",
+          "s/3062bs01@R0/stud4od@R11/stud4od"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 28.0
+        }
+      },
+      {
+        "instances": [
+          37,
+          55
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud_receptacle",
+          "stud"
+        ],
+        "sources": [
+          "primitive",
+          "ldcad_shadow"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "s/3062bs01@R0/stud4od@R11/stud4od",
+          "s/3024s01@R0/stud@R2/studC"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 28.0
+        }
+      },
+      {
+        "instances": [
+          38,
+          39
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "primitive"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "s/3062bs01@R0/stud2a@R5/studO",
+          "s/3062bs01@R0/stud4od@R11/stud4od"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 28.0
+        }
+      },
+      {
+        "instances": [
+          39,
+          40
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "primitive"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "s/3062bs01@R0/stud2a@R5/studO",
+          "s/3062bs01@R0/stud4od@R11/stud4od"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 28.0
+        }
+      },
+      {
+        "instances": [
+          40,
+          41
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "s/3062bs01@R0/stud2a@R5/studO",
+          "s/3024s01@R0/snap_cyl@L8:I0"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 12.0
+        }
+      },
+      {
+        "instances": [
+          41,
+          60
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "s/3024s01@R0/stud@R2/studC",
+          "snap_cyl@L8:I0"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 12.0
+        }
+      },
+      {
+        "instances": [
+          42,
+          44
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "stud@R14/studC",
+          "snap_cyl@L9:I1"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 8.0
+        }
+      },
+      {
+        "instances": [
+          42,
+          44
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "stud@R15/studC",
+          "snap_cyl@L9:I0"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 8.0
+        }
+      },
+      {
+        "instances": [
+          42,
+          45
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "stud@R16/studC",
+          "snap_cyl@L9:I1"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 8.0
+        }
+      },
+      {
+        "instances": [
+          42,
+          45
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "stud@R17/studC",
+          "snap_cyl@L9:I0"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 8.0
+        }
+      },
+      {
+        "instances": [
+          42,
+          46
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "stud@R10/studC",
+          "snap_cyl@L8:I0"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 48.0
+        }
+      },
+      {
+        "instances": [
+          42,
+          46
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "stud@R9/studC",
+          "snap_cyl@L8:I1"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 48.0
+        }
+      },
+      {
+        "instances": [
+          47,
+          50
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "stud@R14/studC",
+          "snap_cyl@L9:I1"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 8.0
+        }
+      },
+      {
+        "instances": [
+          47,
+          50
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "stud@R15/studC",
+          "snap_cyl@L9:I0"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 8.0
+        }
+      },
+      {
+        "instances": [
+          47,
+          51
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "stud@R16/studC",
+          "snap_cyl@L9:I1"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 8.0
+        }
+      },
+      {
+        "instances": [
+          47,
+          51
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "stud@R17/studC",
+          "snap_cyl@L9:I0"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 8.0
+        }
+      },
+      {
+        "instances": [
+          47,
+          52
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "stud@R10/studC",
+          "snap_cyl@L8:I0"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 48.0
+        }
+      },
+      {
+        "instances": [
+          47,
+          52
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "stud@R9/studC",
+          "snap_cyl@L8:I1"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 48.0
+        }
+      },
+      {
+        "instances": [
+          53,
+          56
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "stud@R14/studC",
+          "snap_cyl@L9:I1"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 8.0
+        }
+      },
+      {
+        "instances": [
+          53,
+          56
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "stud@R15/studC",
+          "snap_cyl@L9:I0"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 8.0
+        }
+      },
+      {
+        "instances": [
+          53,
+          57
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "stud@R16/studC",
+          "snap_cyl@L9:I1"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 8.0
+        }
+      },
+      {
+        "instances": [
+          53,
+          57
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "stud@R17/studC",
+          "snap_cyl@L9:I0"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 8.0
+        }
+      },
+      {
+        "instances": [
+          53,
+          58
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "stud@R10/studC",
+          "snap_cyl@L8:I0"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 48.0
+        }
+      },
+      {
+        "instances": [
+          53,
+          58
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "stud@R9/studC",
+          "snap_cyl@L8:I1"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 48.0
+        }
+      },
+      {
+        "instances": [
+          59,
+          61
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "stud@R14/studC",
+          "snap_cyl@L9:I1"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 8.0
+        }
+      },
+      {
+        "instances": [
+          59,
+          61
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "stud@R15/studC",
+          "snap_cyl@L9:I0"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 8.0
+        }
+      },
+      {
+        "instances": [
+          59,
+          62
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "stud@R16/studC",
+          "snap_cyl@L9:I1"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 8.0
+        }
+      },
+      {
+        "instances": [
+          59,
+          62
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "stud@R17/studC",
+          "snap_cyl@L9:I0"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 8.0
+        }
+      },
+      {
+        "instances": [
+          59,
+          63
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "stud@R10/studC",
+          "snap_cyl@L8:I0"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 48.0
+        }
+      },
+      {
+        "instances": [
+          59,
+          63
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "stud@R9/studC",
+          "snap_cyl@L8:I1"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 48.0
+        }
+      }
+    ],
+    "contacts_truncated": false,
+    "confirmed_components": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        5
+      ],
+      [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      [
+        11
+      ],
+      [
+        12,
+        13,
+        14,
+        15,
+        17,
+        18,
+        19,
+        20,
+        43
+      ],
+      [
+        16
+      ],
+      [
+        21
+      ],
+      [
+        22,
+        23,
+        24,
+        25,
+        48
+      ],
+      [
+        26
+      ],
+      [
+        27,
+        28,
+        29,
+        30,
+        49
+      ],
+      [
+        31
+      ],
+      [
+        32,
+        33,
+        34,
+        35,
+        54
+      ],
+      [
+        36
+      ],
+      [
+        37,
+        38,
+        39,
+        40,
+        55
+      ],
+      [
+        41
+      ],
+      [
+        42
+      ],
+      [
+        44
+      ],
+      [
+        45
+      ],
+      [
+        46
+      ],
+      [
+        47
+      ],
+      [
+        50
+      ],
+      [
+        51
+      ],
+      [
+        52
+      ],
+      [
+        53
+      ],
+      [
+        56
+      ],
+      [
+        57
+      ],
+      [
+        58
+      ],
+      [
+        59
+      ],
+      [
+        60
+      ],
+      [
+        61
+      ],
+      [
+        62
+      ],
+      [
+        63
+      ],
+      [
+        64
+      ]
+    ],
+    "optimistic_components": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        43,
+        48,
+        49,
+        54,
+        55,
+        60
+      ],
+      [
+        42,
+        44,
+        45,
+        46
+      ],
+      [
+        47,
+        50,
+        51,
+        52
+      ],
+      [
+        53,
+        56,
+        57,
+        58
+      ],
+      [
+        59,
+        61,
+        62,
+        63
+      ],
+      [
+        64
+      ]
+    ],
+    "optimistic_component_count": 6,
+    "confirmed_component_count": 33,
+    "components_truncated": false,
+    "overlap_candidate_count": 61,
+    "overlaps": [
+      {
+        "instances": [
+          42,
+          44
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          40.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 2
+      },
+      {
+        "instances": [
+          42,
+          45
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          40.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 2
+      },
+      {
+        "instances": [
+          42,
+          46
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          80.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 2
+      },
+      {
+        "instances": [
+          47,
+          50
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          40.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 2
+      },
+      {
+        "instances": [
+          47,
+          51
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          40.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 2
+      },
+      {
+        "instances": [
+          47,
+          52
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          80.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 2
+      },
+      {
+        "instances": [
+          53,
+          56
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          40.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 2
+      },
+      {
+        "instances": [
+          53,
+          57
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          40.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 2
+      },
+      {
+        "instances": [
+          53,
+          58
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          80.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 2
+      },
+      {
+        "instances": [
+          59,
+          61
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          40.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 2
+      },
+      {
+        "instances": [
+          59,
+          62
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          40.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 2
+      },
+      {
+        "instances": [
+          59,
+          63
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          80.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 2
+      },
+      {
+        "instances": [
+          0,
+          1
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          1,
+          2
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          2,
+          3
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          3,
+          4
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          4,
+          5
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          5,
+          43
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "stud_zone_overlap_review_connections",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          6,
+          7
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          7,
+          8
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          8,
+          9
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          9,
+          10
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          10,
+          11
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          11,
+          43
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "stud_zone_overlap_review_connections",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          12,
+          13
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          12,
+          43
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          13,
+          14
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          14,
+          15
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          15,
+          16
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          16,
+          48
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "stud_zone_overlap_review_connections",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          17,
+          18
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          17,
+          43
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          18,
+          19
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          19,
+          20
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          20,
+          21
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          21,
+          49
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "stud_zone_overlap_review_connections",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          22,
+          23
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          22,
+          48
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          23,
+          24
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          24,
+          25
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          25,
+          26
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          26,
+          54
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "stud_zone_overlap_review_connections",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          27,
+          28
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          27,
+          49
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          28,
+          29
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          29,
+          30
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          30,
+          31
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          31,
+          55
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "stud_zone_overlap_review_connections",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          32,
+          33
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          32,
+          54
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          33,
+          34
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          34,
+          35
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          35,
+          36
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          36,
+          60
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "stud_zone_overlap_review_connections",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          37,
+          38
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          37,
+          55
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          38,
+          39
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          39,
+          40
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          40,
+          41
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          41,
+          60
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "stud_zone_overlap_review_connections",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          43,
+          64
+        ],
+        "depths": [
+          12.5,
+          4.0,
+          52.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 0
+      }
+    ],
+    "overlaps_truncated": false,
+    "diagnostics": [
+      {
+        "code": "assembly.disconnected_evidence",
+        "severity": "warning",
+        "message": "Connection analysis finds multiple groups. Investigate floating parts, missing connector metadata, or intentional separate objects.",
+        "line_number": null,
+        "section": null,
+        "component_count": 6
+      },
+      {
+        "code": "coverage.collision_review",
+        "severity": "warning",
+        "message": "Some parts lack rectangular body checks; oriented bounds refine candidates, while remaining overlaps require material review.",
+        "line_number": null,
+        "section": null
+      }
+    ],
+    "limitations": [
+      "AABB candidates do not prove collisions; stud/socket bounding boxes normally overlap.",
+      "Connector matches, including 'confirmed', are computational evidence, not buildability certification.",
+      "No material intersection, clutch strength, stability, legal connection stress, or real colour availability proof."
+    ]
+  }
+}

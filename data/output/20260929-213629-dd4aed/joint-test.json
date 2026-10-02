@@ -1,0 +1,1677 @@
+{
+  "file": "output/joint-test.mpd",
+  "section": null,
+  "profile": "syntax",
+  "checks_passed": true,
+  "physical_validity": "not_proven",
+  "diagnostics": [
+    {
+      "code": "assembly.disconnected_evidence",
+      "severity": "warning",
+      "message": "Connection analysis finds multiple groups. Investigate floating parts, missing connector metadata, or intentional separate objects.",
+      "line_number": null,
+      "section": null,
+      "component_count": 7
+    },
+    {
+      "code": "coverage.collision_review",
+      "severity": "warning",
+      "message": "Some parts lack rectangular body checks; oriented bounds refine candidates, while remaining overlaps require material review.",
+      "line_number": null,
+      "section": null
+    }
+  ],
+  "geometry": {
+    "complete": true,
+    "connection_coverage": {
+      "complete": 13,
+      "partial": 0,
+      "none": 0
+    },
+    "collision_method": "AABB broad phase, oriented bounds separation, curated rectangular body SAT",
+    "physical_validity": "not_proven",
+    "bounds": {
+      "min": [
+        -20.0,
+        -212.0,
+        -20.0
+      ],
+      "max": [
+        620.0,
+        0.0,
+        20.0
+      ]
+    },
+    "occurrence_count": 13,
+    "detail": "full",
+    "instance_offset": 0,
+    "instances": [
+      {
+        "index": 0,
+        "part": "3022.dat",
+        "description": "Plate 2 x 2",
+        "colour": {
+          "code": 71,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          0.0,
+          -8.0,
+          0.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            -20.0,
+            -12.0,
+            -20.0
+          ],
+          "max": [
+            20.0,
+            0.0,
+            20.0
+          ]
+        },
+        "section": "jt-main.ldr",
+        "line_number": 7,
+        "source_path": [
+          7
+        ],
+        "step": 1,
+        "body_profile": true,
+        "connector_count": 9,
+        "placement_path": [
+          0
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 3,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 1,
+        "part": "2039.dat",
+        "description": "Support 2 x 2 x 7 Lamppost with 6 Base Flutes",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          0.0,
+          -176.0,
+          0.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            -20.0,
+            -180.0,
+            -20.0
+          ],
+          "max": [
+            20.0,
+            -8.0,
+            20.0
+          ]
+        },
+        "section": "jt-main.ldr",
+        "line_number": 9,
+        "source_path": [
+          9
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 6,
+        "placement_path": [
+          1
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 3,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 2,
+        "part": "6141.dat",
+        "description": "Plate 1 x 1 Round",
+        "colour": {
+          "code": 297,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          0.0,
+          -184.0,
+          0.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            -10.0,
+            -188.0,
+            -10.0
+          ],
+          "max": [
+            10.0,
+            -176.0,
+            10.0
+          ]
+        },
+        "section": "jt-main.ldr",
+        "line_number": 11,
+        "source_path": [
+          11
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 3,
+        "placement_path": [
+          2
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 5,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 3,
+        "part": "3022.dat",
+        "description": "Plate 2 x 2",
+        "colour": {
+          "code": 71,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          200.0,
+          -8.0,
+          0.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            180.0,
+            -12.0,
+            -20.0
+          ],
+          "max": [
+            220.0,
+            0.0,
+            20.0
+          ]
+        },
+        "section": "jt-main.ldr",
+        "line_number": 13,
+        "source_path": [
+          13
+        ],
+        "step": 1,
+        "body_profile": true,
+        "connector_count": 9,
+        "placement_path": [
+          3
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 3,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 4,
+        "part": "2039.dat",
+        "description": "Support 2 x 2 x 7 Lamppost with 6 Base Flutes",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          200.0,
+          -176.0,
+          0.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            180.0,
+            -180.0,
+            -20.0
+          ],
+          "max": [
+            220.0,
+            -8.0,
+            20.0
+          ]
+        },
+        "section": "jt-main.ldr",
+        "line_number": 15,
+        "source_path": [
+          15
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 6,
+        "placement_path": [
+          4
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 3,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 5,
+        "part": "3024.dat",
+        "description": "Plate 1 x 1",
+        "colour": {
+          "code": 297,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          200.0,
+          -184.0,
+          0.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            190.0,
+            -188.0,
+            -10.0
+          ],
+          "max": [
+            210.0,
+            -176.0,
+            10.0
+          ]
+        },
+        "section": "jt-main.ldr",
+        "line_number": 17,
+        "source_path": [
+          17
+        ],
+        "step": 1,
+        "body_profile": true,
+        "connector_count": 3,
+        "placement_path": [
+          5
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 3,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 6,
+        "part": "3022.dat",
+        "description": "Plate 2 x 2",
+        "colour": {
+          "code": 71,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          400.0,
+          -8.0,
+          0.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            380.0,
+            -12.0,
+            -20.0
+          ],
+          "max": [
+            420.0,
+            0.0,
+            20.0
+          ]
+        },
+        "section": "jt-main.ldr",
+        "line_number": 19,
+        "source_path": [
+          19
+        ],
+        "step": 1,
+        "body_profile": true,
+        "connector_count": 9,
+        "placement_path": [
+          6
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 3,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 7,
+        "part": "2039.dat",
+        "description": "Support 2 x 2 x 7 Lamppost with 6 Base Flutes",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          400.0,
+          -176.0,
+          0.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            380.0,
+            -180.0,
+            -20.0
+          ],
+          "max": [
+            420.0,
+            -8.0,
+            20.0
+          ]
+        },
+        "section": "jt-main.ldr",
+        "line_number": 21,
+        "source_path": [
+          21
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 6,
+        "placement_path": [
+          7
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 3,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 8,
+        "part": "3005.dat",
+        "description": "Brick 1 x 1",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          400.0,
+          -200.0,
+          0.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            390.0,
+            -204.0,
+            -10.0
+          ],
+          "max": [
+            410.0,
+            -176.0,
+            10.0
+          ]
+        },
+        "section": "jt-main.ldr",
+        "line_number": 23,
+        "source_path": [
+          23
+        ],
+        "step": 1,
+        "body_profile": true,
+        "connector_count": 2,
+        "placement_path": [
+          8
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 2,
+          "recognized_record_count": 2,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 9,
+        "part": "3022.dat",
+        "description": "Plate 2 x 2",
+        "colour": {
+          "code": 71,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          600.0,
+          -8.0,
+          0.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            580.0,
+            -12.0,
+            -20.0
+          ],
+          "max": [
+            620.0,
+            0.0,
+            20.0
+          ]
+        },
+        "section": "jt-main.ldr",
+        "line_number": 25,
+        "source_path": [
+          25
+        ],
+        "step": 1,
+        "body_profile": true,
+        "connector_count": 9,
+        "placement_path": [
+          9
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 3,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 10,
+        "part": "2039.dat",
+        "description": "Support 2 x 2 x 7 Lamppost with 6 Base Flutes",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          600.0,
+          -176.0,
+          0.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            580.0,
+            -180.0,
+            -20.0
+          ],
+          "max": [
+            620.0,
+            -8.0,
+            20.0
+          ]
+        },
+        "section": "jt-main.ldr",
+        "line_number": 27,
+        "source_path": [
+          27
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 6,
+        "placement_path": [
+          10
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 3,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 11,
+        "part": "3022.dat",
+        "description": "Plate 2 x 2",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          600.0,
+          -184.0,
+          0.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            580.0,
+            -188.0,
+            -20.0
+          ],
+          "max": [
+            620.0,
+            -176.0,
+            20.0
+          ]
+        },
+        "section": "jt-main.ldr",
+        "line_number": 29,
+        "source_path": [
+          29
+        ],
+        "step": 1,
+        "body_profile": true,
+        "connector_count": 9,
+        "placement_path": [
+          11
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 3,
+          "recognized_record_count": 3,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 12,
+        "part": "3004.dat",
+        "description": "Brick 1 x 2",
+        "colour": {
+          "code": 0,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          600.0,
+          -208.0,
+          0.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            580.0,
+            -212.0,
+            -10.0
+          ],
+          "max": [
+            620.0,
+            -184.0,
+            10.0
+          ]
+        },
+        "section": "jt-main.ldr",
+        "line_number": 31,
+        "source_path": [
+          31
+        ],
+        "step": 1,
+        "body_profile": true,
+        "connector_count": 9,
+        "placement_path": [
+          12
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 4,
+          "recognized_record_count": 5,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      }
+    ],
+    "instances_truncated": false,
+    "contacts_checked": true,
+    "contact_count": 18,
+    "contacts": [
+      {
+        "instances": [
+          0,
+          1
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "ldcad_shadow"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "stud@R3/studC",
+          "snap_cyl@L8:I3"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 172.0
+        }
+      },
+      {
+        "instances": [
+          0,
+          1
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "ldcad_shadow"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "stud@R4/studC",
+          "snap_cyl@L8:I1"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 172.0
+        }
+      },
+      {
+        "instances": [
+          0,
+          1
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "ldcad_shadow"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "stud@R5/studC",
+          "snap_cyl@L8:I2"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 172.0
+        }
+      },
+      {
+        "instances": [
+          0,
+          1
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "ldcad_shadow"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "stud@R6/studC",
+          "snap_cyl@L8:I0"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 172.0
+        }
+      },
+      {
+        "instances": [
+          3,
+          4
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "ldcad_shadow"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "stud@R3/studC",
+          "snap_cyl@L8:I3"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 172.0
+        }
+      },
+      {
+        "instances": [
+          3,
+          4
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "ldcad_shadow"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "stud@R4/studC",
+          "snap_cyl@L8:I1"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 172.0
+        }
+      },
+      {
+        "instances": [
+          3,
+          4
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "ldcad_shadow"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "stud@R5/studC",
+          "snap_cyl@L8:I2"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 172.0
+        }
+      },
+      {
+        "instances": [
+          3,
+          4
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "ldcad_shadow"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "stud@R6/studC",
+          "snap_cyl@L8:I0"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 172.0
+        }
+      },
+      {
+        "instances": [
+          4,
+          5
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "stud2@R0/studO@L9:I0",
+          "s/3024s01@R0/snap_cyl@L8:I0"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 12.0
+        }
+      },
+      {
+        "instances": [
+          6,
+          7
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "ldcad_shadow"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "stud@R3/studC",
+          "snap_cyl@L8:I3"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 172.0
+        }
+      },
+      {
+        "instances": [
+          6,
+          7
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "ldcad_shadow"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "stud@R4/studC",
+          "snap_cyl@L8:I1"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 172.0
+        }
+      },
+      {
+        "instances": [
+          6,
+          7
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "ldcad_shadow"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "stud@R5/studC",
+          "snap_cyl@L8:I2"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 172.0
+        }
+      },
+      {
+        "instances": [
+          6,
+          7
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "ldcad_shadow"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "stud@R6/studC",
+          "snap_cyl@L8:I0"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 172.0
+        }
+      },
+      {
+        "instances": [
+          7,
+          8
+        ],
+        "status": "potential",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "heuristic"
+        ],
+        "confidence": [
+          1.0,
+          0.8
+        ],
+        "feature_ids": [
+          "stud2@R0/studO@L9:I0",
+          "s/3005s01@R0/snap_cyl@L8:I0"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 28.0
+        }
+      },
+      {
+        "instances": [
+          9,
+          10
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "ldcad_shadow"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "stud@R3/studC",
+          "snap_cyl@L8:I3"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 172.0
+        }
+      },
+      {
+        "instances": [
+          9,
+          10
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "ldcad_shadow"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "stud@R4/studC",
+          "snap_cyl@L8:I1"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 172.0
+        }
+      },
+      {
+        "instances": [
+          9,
+          10
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "ldcad_shadow"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "stud@R5/studC",
+          "snap_cyl@L8:I2"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 172.0
+        }
+      },
+      {
+        "instances": [
+          9,
+          10
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "ldcad_shadow"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "stud@R6/studC",
+          "snap_cyl@L8:I0"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 172.0
+        }
+      }
+    ],
+    "contacts_truncated": false,
+    "confirmed_components": [
+      [
+        0,
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        5
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        8
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        11
+      ],
+      [
+        12
+      ]
+    ],
+    "optimistic_components": [
+      [
+        0,
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3,
+        4,
+        5
+      ],
+      [
+        6,
+        7,
+        8
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        11
+      ],
+      [
+        12
+      ]
+    ],
+    "optimistic_component_count": 7,
+    "confirmed_component_count": 9,
+    "components_truncated": false,
+    "overlap_candidate_count": 9,
+    "overlaps": [
+      {
+        "instances": [
+          0,
+          1
+        ],
+        "depths": [
+          40.0,
+          4.0,
+          40.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 4
+      },
+      {
+        "instances": [
+          1,
+          2
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 0
+      },
+      {
+        "instances": [
+          3,
+          4
+        ],
+        "depths": [
+          40.0,
+          4.0,
+          40.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 4
+      },
+      {
+        "instances": [
+          4,
+          5
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          6,
+          7
+        ],
+        "depths": [
+          40.0,
+          4.0,
+          40.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 4
+      },
+      {
+        "instances": [
+          7,
+          8
+        ],
+        "depths": [
+          20.0,
+          4.0,
+          20.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          9,
+          10
+        ],
+        "depths": [
+          40.0,
+          4.0,
+          40.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 4
+      },
+      {
+        "instances": [
+          10,
+          11
+        ],
+        "depths": [
+          40.0,
+          4.0,
+          40.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 0
+      },
+      {
+        "instances": [
+          11,
+          12
+        ],
+        "depths": [
+          40.0,
+          4.0,
+          20.0
+        ],
+        "status": "stud_zone_overlap_review_connections",
+        "body_penetration": null,
+        "connection_count": 0
+      }
+    ],
+    "overlaps_truncated": false,
+    "diagnostics": [
+      {
+        "code": "assembly.disconnected_evidence",
+        "severity": "warning",
+        "message": "Connection analysis finds multiple groups. Investigate floating parts, missing connector metadata, or intentional separate objects.",
+        "line_number": null,
+        "section": null,
+        "component_count": 7
+      },
+      {
+        "code": "coverage.collision_review",
+        "severity": "warning",
+        "message": "Some parts lack rectangular body checks; oriented bounds refine candidates, while remaining overlaps require material review.",
+        "line_number": null,
+        "section": null
+      }
+    ],
+    "limitations": [
+      "AABB candidates do not prove collisions; stud/socket bounding boxes normally overlap.",
+      "Connector matches, including 'confirmed', are computational evidence, not buildability certification.",
+      "No material intersection, clutch strength, stability, legal connection stress, or real colour availability proof."
+    ]
+  }
+}

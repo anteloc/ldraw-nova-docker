@@ -1,0 +1,141 @@
+{
+  "version": 1,
+  "author": "ldraw-astra detail recipes",
+  "sections": [
+    {
+      "name": "detail-arched-window.ldr",
+      "description": "Six-stud window bay: projecting sill, contrasting piers, arch and flower accents. Support plane Y=0; highest body plane Y=-128; front is -Z.",
+      "anchors": {
+        "base": {
+          "at": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "steps": [
+        [
+          {
+            "id": "sill",
+            "ref": "@plates.Plate2X6",
+            "colour": "@colours.White",
+            "at": [
+              0,
+              -8,
+              -10
+            ]
+          },
+          {
+            "id": "frame",
+            "ref": "@windows.Window1X4X3WithoutShutterTabs",
+            "colour": "@colours.Dark_Green",
+            "at": [
+              0,
+              -80,
+              0
+            ]
+          },
+          {
+            "id": "left-pane",
+            "ref": "@windows.Window1X2X3PaneWithThickCornerTabs",
+            "colour": "@colours.Trans_Clear",
+            "at": [
+              -32,
+              -76,
+              4
+            ],
+            "yaw": -90
+          },
+          {
+            "id": "right-pane",
+            "ref": "@windows.Window1X2X3PaneWithThickCornerTabs",
+            "colour": "@colours.Trans_Clear",
+            "at": [
+              32,
+              -76,
+              4
+            ],
+            "yaw": 90
+          },
+          {
+            "id": "left-pier",
+            "ref": "3005.dat",
+            "colour": "@colours.White",
+            "at": [
+              -50,
+              -32,
+              0
+            ],
+            "repeat": {
+              "count": 3,
+              "step": [
+                0,
+                -24,
+                0
+              ]
+            }
+          },
+          {
+            "id": "right-pier",
+            "ref": "3005.dat",
+            "colour": "@colours.White",
+            "at": [
+              50,
+              -32,
+              0
+            ],
+            "repeat": {
+              "count": 3,
+              "step": [
+                0,
+                -24,
+                0
+              ]
+            }
+          },
+          {
+            "id": "arch",
+            "ref": "@arches.Arch1X6X2WithThickTopAndReinforcedUnderside",
+            "colour": "@colours.White",
+            "at": [
+              0,
+              -128,
+              0
+            ]
+          },
+          {
+            "id": "flower--30",
+            "ref": "@plates.Plate1X1With5Petals",
+            "colour": "@colours.Dark_Pink",
+            "at": [
+              -30,
+              -16,
+              -20
+            ]
+          },
+          {
+            "id": "flower-10",
+            "ref": "@plates.Plate1X1With5Petals",
+            "colour": "@colours.Dark_Pink",
+            "at": [
+              10,
+              -16,
+              -20
+            ]
+          },
+          {
+            "id": "flower-30",
+            "ref": "@plates.Plate1X1With5Petals",
+            "colour": "@colours.Dark_Pink",
+            "at": [
+              30,
+              -16,
+              -20
+            ]
+          }
+        ]
+      ]
+    }
+  ]
+}

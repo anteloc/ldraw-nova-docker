@@ -1,0 +1,141 @@
+{
+  "code": "60608.dat",
+  "path": "/opt/ldraw/ldraw/parts/60608.dat",
+  "metadata": {
+    "description": "Window 1 x 2 x 3 Pane with Thick Corner Tabs",
+    "name": "60608.dat",
+    "author": "Magnus Forsberg",
+    "author_username": "MagFors",
+    "file_kind": "part",
+    "origin": "official",
+    "qualifiers": [],
+    "release": "2010-02",
+    "license": "Licensed under CC BY 4.0 : see CAreadme.txt",
+    "bfc": "ccw",
+    "history": [
+      {
+        "date": "2009-10-13",
+        "contributor": "LEGO Universe Team",
+        "text": "Original part shape",
+        "raw": "2009-10-13 {LEGO Universe Team} Original part shape"
+      },
+      {
+        "date": "2010-06-06",
+        "contributor": "MagFors",
+        "text": "File preparation for LDraw Parts Tracker",
+        "raw": "2010-06-06 [MagFors] File preparation for LDraw Parts Tracker"
+      },
+      {
+        "date": "2010-07-05",
+        "contributor": "PTadmin",
+        "text": "Official Update 2010-02",
+        "raw": "2010-07-05 [PTadmin] Official Update 2010-02"
+      }
+    ],
+    "category": null,
+    "keywords": [
+      "4132",
+      "60594",
+      "60598",
+      "60806"
+    ],
+    "status": "current",
+    "replacement": null,
+    "preview": null
+  },
+  "complete": true,
+  "bounds": {
+    "min": [
+      -4.0,
+      -1.0,
+      -32.0
+    ],
+    "max": [
+      4.0,
+      61.0,
+      4.0
+    ]
+  },
+  "size": [
+    8.0,
+    62.0,
+    36.0
+  ],
+  "stud_positions": [],
+  "connector_count": 1,
+  "connectors": [
+    {
+      "kind": "hinge",
+      "role": "neutral",
+      "position": [
+        0.0,
+        30.0,
+        0.0
+      ],
+      "frame": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      ],
+      "profile": {
+        "sequence": [
+          60.0
+        ],
+        "radius": 2.0,
+        "first_role": "male",
+        "detents": [],
+        "centered": true
+      },
+      "name": "LDCad fingers",
+      "feature_id": "snap_fgr@L8:I0",
+      "group": null,
+      "freedoms": [
+        "rotate"
+      ],
+      "source": "ldcad_shadow",
+      "confidence": 1.0,
+      "owner_code": "60608",
+      "compatible_parts": [],
+      "occupied": false,
+      "occupied_by": null,
+      "provenance": [
+        "/opt/ldraw-astra/data/offLibShadow/parts/60608.dat:8"
+      ],
+      "metadata_id": null,
+      "connection_provenance": {
+        "source": "ldcad_shadow",
+        "path": "/opt/ldraw-astra/data/offLibShadow/parts/60608.dat",
+        "archive_member": null,
+        "line_number": 8,
+        "command": "0 !LDCAD SNAP_FGR [genderOfs=M] [seq=60] [radius=2] [pos=0 30 0]",
+        "include_chain": []
+      },
+      "scale_inheritance": "none",
+      "mirror_inheritance": "none"
+    }
+  ],
+  "connectors_truncated": false,
+  "diagnostics": [],
+  "connection_metadata": {
+    "coverage": "complete",
+    "source_count": 1,
+    "recognized_record_count": 1,
+    "unsupported_record_count": 0,
+    "invalid_record_count": 0,
+    "diagnostics": []
+  },
+  "rectangular_profile": null,
+  "note": "All coordinates are local LDU. Connector inference is evidence; inspect uncertain fits."
+}

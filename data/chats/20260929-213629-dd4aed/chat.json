@@ -1,0 +1,13 @@
+{
+  "id": "20260929-213629-dd4aed",
+  "title": "build me the building in the attached image",
+  "llm_model_id": "4b268e57b606",
+  "created_at": 1790717789.5917256,
+  "updated_at": 1790749055.9487584,
+  "options": {
+    "mode": "agent",
+    "permissions": "full",
+    "effort": "xhigh",
+    "context_tokens": 1000000
+  }
+}

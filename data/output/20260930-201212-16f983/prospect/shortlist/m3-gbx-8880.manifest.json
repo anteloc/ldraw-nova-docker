@@ -1,0 +1,22 @@
+{
+  "source": "/opt/ldraw-astra/data/models-annotated/8880-1.mpd",
+  "source_sha256": "66e871ea668099537532fa01272e1f8f6112853b9c9655b03d821295c57fb3ab",
+  "source_section": "8880 - step13.ldr",
+  "parser_section": "8880 - step13.ldr",
+  "root": "m3-gbx-8880-00-8880---step13.ldr",
+  "renames": {
+    "8880 - step13.ldr": "m3-gbx-8880-00-8880---step13.ldr"
+  },
+  "attribution": [
+    {
+      "section": "8880 - step13.ldr",
+      "author": "Orion Pobursky [OrionP]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    }
+  ],
+  "changes": [],
+  "output_sha256": "dd61ccab2c6bf33fc1e3221d79c2e6c6d6146e1205f44ab57d75e0d0f72797ab",
+  "note": "Original authors and licences retained. Source bytes unchanged. Extraction is not validation or permission to relicense.",
+  "syntax_checks_passed": true,
+  "diagnostics": []
+}

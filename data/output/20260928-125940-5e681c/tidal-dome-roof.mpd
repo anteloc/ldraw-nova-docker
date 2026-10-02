@@ -1,0 +1,277 @@
+0 FILE test-dome-roof.ldr
+0 Local detail review
+0 Name: test-dome-roof.ldr
+0 Author: OpenAI - original Tidal Observatory design
+0 !LDRAW_ORG Model
+0 // test: test
+1 19 0 0 0 1 0 0 0 1 0 0 0 1 tidal-dome-roof.ldr
+0 NOFILE
+0 FILE tidal-dome-roof.ldr
+0 Patinated round observatory dome above an octagonal masonry drum and quiet roof terrace
+0 Name: tidal-dome-roof.ldr
+0 Author: OpenAI - original Tidal Observatory design
+0 !LDRAW_ORG Model
+0 // deck-under-0: deck under 0
+1 72 -160 8 -140 1 0 0 0 1 0 0 0 1 3028.dat
+0 // deck-under-1: deck under 1
+1 72 80 8 -140 1 0 0 0 1 0 0 0 1 3028.dat
+0 // deck-under-2: deck under 2
+1 72 240 8 -80 0 0 1 0 1 0 -1 0 0 3029.dat
+0 // deck-under-3: deck under 3
+1 72 -160 8 -20 1 0 0 0 1 0 0 0 1 3028.dat
+0 // deck-under-4: deck under 4
+1 72 80 8 -20 1 0 0 0 1 0 0 0 1 3028.dat
+0 // deck-under-5: deck under 5
+1 72 -160 8 100 1 0 0 0 1 0 0 0 1 3028.dat
+0 // deck-under-6: deck under 6
+1 72 80 8 100 1 0 0 0 1 0 0 0 1 3028.dat
+0 // deck-under-7: deck under 7
+1 72 240 8 120 0 0 1 0 1 0 -1 0 0 3035.dat
+0 // deck-under-8: deck under 8
+1 72 -200 8 180 1 0 0 0 1 0 0 0 1 3034.dat
+0 // deck-under-9: deck under 9
+1 72 -40 8 180 1 0 0 0 1 0 0 0 1 3034.dat
+0 // deck-under-10: deck under 10
+1 72 120 8 180 1 0 0 0 1 0 0 0 1 3034.dat
+0 STEP
+0 // deck-top-0-0-0: deck top 0 0 0
+1 320 -260 0 -180 1 0 0 0 1 0 0 0 1 3022.dat
+0 // deck-top-0-1-0: deck top 0 1 0
+1 320 -260 0 -80 0 0 1 0 1 0 -1 0 0 3034.dat
+0 // deck-top-0-1-1: deck top 0 1 1
+1 320 -260 0 80 0 0 1 0 1 0 -1 0 0 3034.dat
+0 // deck-top-0-2-0: deck top 0 2 0
+1 320 -260 0 180 1 0 0 0 1 0 0 0 1 3022.dat
+0 // deck-top-1-0-0: deck top 1 0 0
+1 320 -160 0 -180 1 0 0 0 1 0 0 0 1 3034.dat
+0 // deck-top-1-0-1: deck top 1 0 1
+1 320 0 0 -180 1 0 0 0 1 0 0 0 1 3034.dat
+0 // deck-top-1-0-2: deck top 1 0 2
+1 320 160 0 -180 1 0 0 0 1 0 0 0 1 3034.dat
+0 // deck-top-1-1-0: deck top 1 1 0
+1 320 -120 0 -100 1 0 0 0 1 0 0 0 1 3028.dat
+0 // deck-top-1-1-1: deck top 1 1 1
+1 320 120 0 -100 1 0 0 0 1 0 0 0 1 3028.dat
+0 // deck-top-1-1-2: deck top 1 1 2
+1 320 -120 0 20 1 0 0 0 1 0 0 0 1 3028.dat
+0 // deck-top-1-1-3: deck top 1 1 3
+1 320 120 0 20 1 0 0 0 1 0 0 0 1 3028.dat
+0 // deck-top-1-1-4: deck top 1 1 4
+1 320 -120 0 120 1 0 0 0 1 0 0 0 1 3029.dat
+0 // deck-top-1-1-5: deck top 1 1 5
+1 320 120 0 120 1 0 0 0 1 0 0 0 1 3029.dat
+0 // deck-top-1-2-0: deck top 1 2 0
+1 320 -160 0 180 1 0 0 0 1 0 0 0 1 3034.dat
+0 // deck-top-1-2-1: deck top 1 2 1
+1 320 0 0 180 1 0 0 0 1 0 0 0 1 3034.dat
+0 // deck-top-1-2-2: deck top 1 2 2
+1 320 160 0 180 1 0 0 0 1 0 0 0 1 3034.dat
+0 // deck-top-2-0-0: deck top 2 0 0
+1 320 260 0 -180 1 0 0 0 1 0 0 0 1 3022.dat
+0 // deck-top-2-1-0: deck top 2 1 0
+1 320 260 0 -80 0 0 1 0 1 0 -1 0 0 3034.dat
+0 // deck-top-2-1-1: deck top 2 1 1
+1 320 260 0 80 0 0 1 0 1 0 -1 0 0 3034.dat
+0 // deck-top-2-2-0: deck top 2 2 0
+1 320 260 0 180 1 0 0 0 1 0 0 0 1 3022.dat
+0 STEP
+0 // drum-0--120-0: drum 0  120 0
+1 19 0 -24 -100 1 0 0 0 1 0 0 0 1 3007.dat
+0 STEP
+0 // drum-0--80-0: drum 0  80 0
+1 19 -40 -24 -60 1 0 0 0 1 0 0 0 1 3007.dat
+0 // drum-0--80-1: drum 0  80 1
+1 19 80 -24 -60 1 0 0 0 1 0 0 0 1 3001.dat
+0 STEP
+0 // drum-0--40-0: drum 0  40 0
+1 19 -60 -24 -20 1 0 0 0 1 0 0 0 1 3007.dat
+0 // drum-0--40-1: drum 0  40 1
+1 19 80 -24 -20 1 0 0 0 1 0 0 0 1 2456.dat
+0 STEP
+0 // drum-0-0-0: drum 0 0 0
+1 19 -60 -24 20 1 0 0 0 1 0 0 0 1 3007.dat
+0 // drum-0-0-1: drum 0 0 1
+1 19 80 -24 20 1 0 0 0 1 0 0 0 1 2456.dat
+0 STEP
+0 // drum-0-40-0: drum 0 40 0
+1 19 -40 -24 60 1 0 0 0 1 0 0 0 1 3007.dat
+0 // drum-0-40-1: drum 0 40 1
+1 19 80 -24 60 1 0 0 0 1 0 0 0 1 3001.dat
+0 STEP
+0 // drum-0-80-0: drum 0 80 0
+1 19 0 -24 100 1 0 0 0 1 0 0 0 1 3007.dat
+0 STEP
+0 // drum-1--120-0: drum 1  120 0
+1 15 0 -48 -100 1 0 0 0 1 0 0 0 1 3007.dat
+0 STEP
+0 // drum-1--80-0: drum 1  80 0
+1 15 -40 -48 -60 1 0 0 0 1 0 0 0 1 3007.dat
+0 // drum-1--80-1: drum 1  80 1
+1 15 80 -48 -60 1 0 0 0 1 0 0 0 1 3001.dat
+0 STEP
+0 // drum-1--40-0: drum 1  40 0
+1 15 -60 -48 -20 1 0 0 0 1 0 0 0 1 3007.dat
+0 // drum-1--40-1: drum 1  40 1
+1 15 80 -48 -20 1 0 0 0 1 0 0 0 1 2456.dat
+0 STEP
+0 // drum-1-0-0: drum 1 0 0
+1 15 -60 -48 20 1 0 0 0 1 0 0 0 1 3007.dat
+0 // drum-1-0-1: drum 1 0 1
+1 15 80 -48 20 1 0 0 0 1 0 0 0 1 2456.dat
+0 STEP
+0 // drum-1-40-0: drum 1 40 0
+1 15 -40 -48 60 1 0 0 0 1 0 0 0 1 3007.dat
+0 // drum-1-40-1: drum 1 40 1
+1 15 80 -48 60 1 0 0 0 1 0 0 0 1 3001.dat
+0 STEP
+0 // drum-1-80-0: drum 1 80 0
+1 15 0 -48 100 1 0 0 0 1 0 0 0 1 3007.dat
+0 STEP
+0 // copper-skirt-0: copper skirt 0
+1 378 0 -96 0 1 0 0 0 1 0 0 0 1 87559.dat
+0 // raised-collar-0: raised collar 0
+1 378 0 -120 0 1 0 0 0 1 0 0 0 1 48092.dat
+0 STEP
+0 // copper-skirt-90: copper skirt 90
+1 378 0 -96 0 0 0 1 0 1 0 -1 0 0 87559.dat
+0 // raised-collar-90: raised collar 90
+1 378 0 -120 0 0 0 1 0 1 0 -1 0 0 48092.dat
+0 STEP
+0 // copper-skirt-180: copper skirt 180
+1 378 0 -96 0 -1 0 0 0 1 0 0 0 -1 87559.dat
+0 // raised-collar-180: raised collar 180
+1 378 0 -120 0 -1 0 0 0 1 0 0 0 -1 48092.dat
+0 STEP
+0 // copper-skirt-270: copper skirt 270
+1 378 0 -96 0 0 0 -1 0 1 0 1 0 0 87559.dat
+0 // raised-collar-270: raised collar 270
+1 378 0 -120 0 0 0 -1 0 1 0 1 0 0 48092.dat
+0 STEP
+0 // dome-core-0-0: dome core 0 0
+1 378 0 -72 -20 1 0 0 0 1 0 0 0 1 3001.dat
+0 // dome-core-0-1: dome core 0 1
+1 378 0 -72 20 1 0 0 0 1 0 0 0 1 3001.dat
+0 STEP
+0 // dome-core-1-0: dome core 1 0
+1 378 0 -96 -20 1 0 0 0 1 0 0 0 1 3001.dat
+0 // dome-core-1-1: dome core 1 1
+1 378 0 -96 20 1 0 0 0 1 0 0 0 1 3001.dat
+0 STEP
+0 // dome-core-2-0: dome core 2 0
+1 378 0 -120 -20 1 0 0 0 1 0 0 0 1 3001.dat
+0 // dome-core-2-1: dome core 2 1
+1 378 0 -120 20 1 0 0 0 1 0 0 0 1 3001.dat
+0 STEP
+0 // crown-0: crown 0
+1 378 10 -168 -10 1 0 0 0 1 0 0 0 1 88293.dat
+0 STEP
+0 // crown-90: crown 90
+1 378 -10 -168 -10 0 0 1 0 1 0 -1 0 0 88293.dat
+0 STEP
+0 // crown-180: crown 180
+1 378 -10 -168 10 -1 0 0 0 1 0 0 0 -1 88293.dat
+0 STEP
+0 // crown-270: crown 270
+1 378 10 -168 10 0 0 -1 0 1 0 1 0 0 88293.dat
+0 STEP
+0 // crown-cap: crown cap
+1 297 0 -176 0 1 0 0 0 1 0 0 0 1 3022.dat
+0 // crown-jumper: crown jumper
+1 297 0 -184 -10 1 0 0 0 1 0 0 0 1 3794b.dat
+0 // crown-finial: crown finial
+1 297 0 -208 -10 1 0 0 0 1 0 0 0 1 4589.dat
+0 STEP
+0 // roof-paving--220--140: roof paving  220  140
+1 72 -220 -8 -140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving--220--100: roof paving  220  100
+1 72 -220 -8 -100 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving--220--60: roof paving  220  60
+1 72 -220 -8 -60 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving--220--20: roof paving  220  20
+1 72 -220 -8 -20 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving--220-20: roof paving  220 20
+1 72 -220 -8 20 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving--220-60: roof paving  220 60
+1 72 -220 -8 60 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving--220-100: roof paving  220 100
+1 72 -220 -8 100 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving--220-140: roof paving  220 140
+1 72 -220 -8 140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving--180--140: roof paving  180  140
+1 72 -180 -8 -140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving--180--100: roof paving  180  100
+1 72 -180 -8 -100 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving--180--60: roof paving  180  60
+1 72 -180 -8 -60 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving--180--20: roof paving  180  20
+1 72 -180 -8 -20 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving--180-20: roof paving  180 20
+1 72 -180 -8 20 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving--180-60: roof paving  180 60
+1 72 -180 -8 60 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving--180-100: roof paving  180 100
+1 72 -180 -8 100 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving--180-140: roof paving  180 140
+1 72 -180 -8 140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving-180--140: roof paving 180  140
+1 72 180 -8 -140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving-180--100: roof paving 180  100
+1 72 180 -8 -100 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving-180--60: roof paving 180  60
+1 72 180 -8 -60 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving-180--20: roof paving 180  20
+1 72 180 -8 -20 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving-180-20: roof paving 180 20
+1 72 180 -8 20 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving-180-60: roof paving 180 60
+1 72 180 -8 60 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving-180-100: roof paving 180 100
+1 72 180 -8 100 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving-180-140: roof paving 180 140
+1 72 180 -8 140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving-220--140: roof paving 220  140
+1 72 220 -8 -140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving-220--100: roof paving 220  100
+1 72 220 -8 -100 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving-220--60: roof paving 220  60
+1 72 220 -8 -60 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving-220--20: roof paving 220  20
+1 72 220 -8 -20 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving-220-20: roof paving 220 20
+1 72 220 -8 20 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving-220-60: roof paving 220 60
+1 72 220 -8 60 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving-220-100: roof paving 220 100
+1 72 220 -8 100 1 0 0 0 1 0 0 0 1 3068b.dat
+0 // roof-paving-220-140: roof paving 220 140
+1 72 220 -8 140 1 0 0 0 1 0 0 0 1 3068b.dat
+0 STEP
+0 // roof-rim-f-0: roof rim f 0
+1 15 -200 -8 -190 1 0 0 0 1 0 0 0 1 3460.dat
+0 // roof-rim-f-1: roof rim f 1
+1 15 -40 -8 -190 1 0 0 0 1 0 0 0 1 3460.dat
+0 // roof-rim-f-2: roof rim f 2
+1 15 120 -8 -190 1 0 0 0 1 0 0 0 1 3460.dat
+0 // roof-rim-f-3: roof rim f 3
+1 15 240 -8 -190 1 0 0 0 1 0 0 0 1 3710.dat
+0 // roof-rim-b-0: roof rim b 0
+1 15 -200 -8 190 1 0 0 0 1 0 0 0 1 3460.dat
+0 // roof-rim-b-1: roof rim b 1
+1 15 -40 -8 190 1 0 0 0 1 0 0 0 1 3460.dat
+0 // roof-rim-b-2: roof rim b 2
+1 15 120 -8 190 1 0 0 0 1 0 0 0 1 3460.dat
+0 // roof-rim-b-3: roof rim b 3
+1 15 240 -8 190 1 0 0 0 1 0 0 0 1 3710.dat
+0 // roof-rim-l-0: roof rim l 0
+1 15 -270 -8 -100 0 0 1 0 1 0 -1 0 0 3460.dat
+0 // roof-rim-l-1: roof rim l 1
+1 15 -270 -8 60 0 0 1 0 1 0 -1 0 0 3460.dat
+0 // roof-rim-l-2: roof rim l 2
+1 15 -270 -8 160 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 // roof-rim-r-0: roof rim r 0
+1 15 270 -8 -100 0 0 1 0 1 0 -1 0 0 3460.dat
+0 // roof-rim-r-1: roof rim r 1
+1 15 270 -8 60 0 0 1 0 1 0 -1 0 0 3460.dat
+0 // roof-rim-r-2: roof rim r 2
+1 15 270 -8 160 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 NOFILE

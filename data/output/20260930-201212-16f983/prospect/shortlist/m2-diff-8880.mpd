@@ -1,0 +1,53 @@
+0 FILE m2-diff-8880-00-8880---step15.ldr
+0 Rear differential assembly with universal joints, bevel gears, and axle joiners for drivetrain power delivery.
+0 Author: Orion Pobursky [OrionP]
+0 !LDRAW_ORG Model
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 !THEME Technic
+0 Name: m2-diff-8880-00-8880---step15.ldr
+0 // Technic Differential with Gear 16 Tooth and 24 Tooth (dark_grey)
+1 8 0 0 0 1 0 0 0 1 0 0 0 1 6573.dat
+0 STEP
+0 // Technic Axle  4 (black)
+1 0 0 0 40 0 0 1 0 1 0 -1 0 0 3705.dat
+0 // Technic Gear 14 Tooth Bevel (light_grey)
+1 7 0 0 17 1 0 0 0 1 0 0 0 1 4143.dat
+0 // Technic Gear 14 Tooth Bevel (light_grey)
+1 7 0 17 0 1 0 0 0 0 1 0 -1 0 4143.dat
+0 STEP
+0 // Technic Axle  4 (black)
+1 0 0 0 -40 0 0 1 0 1 0 -1 0 0 3705.dat
+0 // Technic Gear 14 Tooth Bevel (light_grey)
+1 7 0 0 -17 -1 0 0 0 1 0 0 0 -1 4143.dat
+0 STEP
+0 // Technic Brick  1 x  2 with Hole (light_grey)
+1 7 0 -10 50 -1 0 0 0 1 0 0 0 -1 3700.dat
+0 // Technic Brick  1 x  2 with Hole (light_grey)
+1 7 0 -10 -50 -1 0 0 0 1 0 0 0 -1 3700.dat
+0 // Technic Universal Joint 4L with Bush Ends with Centre Type 2 (Complete) (light_grey)
+1 7 0 0 100 -1 0 0 0 1 0 0 0 -1 3712c01.dat
+0 // Technic Universal Joint 4L with Bush Ends with Centre Type 2 (Complete) (light_grey)
+1 7 0 0 -100 -1 0 0 0 1 0 0 0 -1 3712c01.dat
+0 STEP
+0 // Technic Axle  2 (black)
+1 0 0 0 140 0 0 1 0 1 0 -1 0 0 3704.dat
+0 // Technic Axle  2 (black)
+1 0 0 0 -140 0 0 1 0 1 0 -1 0 0 3704.dat
+0 // Technic Axle Joiner (light_grey)
+1 7 0 0 160 -1 0 0 0 1 0 0 0 -1 6538a.dat
+0 // Technic Axle Joiner (light_grey)
+1 7 0 0 -160 -1 0 0 0 1 0 0 0 -1 6538a.dat
+0 // Technic Axle  3 (black)
+1 0 0 0 190 0 0 1 0 1 0 -1 0 0 4519.dat
+0 // Technic Axle  3 (black)
+1 0 0 0 -190 0 0 1 0 1 0 -1 0 0 4519.dat
+0 // Technic Bush with Two Flanges (light_grey)
+1 7 0 0 190 -1 0 0 0 1 0 0 0 -1 3713.dat
+0 // Technic Bush with Two Flanges (light_grey)
+1 7 0 0 -190 1 0 0 0 1 0 0 0 1 3713.dat
+
+
+
+
+0 STEP
+0 NOFILE

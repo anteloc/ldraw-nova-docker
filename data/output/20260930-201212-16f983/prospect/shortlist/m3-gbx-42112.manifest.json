@@ -1,0 +1,81 @@
+{
+  "source": "/opt/ldraw-astra/data/models-annotated/42112-1.mpd",
+  "source_sha256": "3b1924ffa2bf869eebb1d8b8c6c6c82eb0dd30638f6337bb64ba0fa63fa19575",
+  "source_section": "42112 - gearshift.ldr",
+  "parser_section": "42112 - gearshift.ldr",
+  "root": "m3-gbx-42112-00-42112---gearshift.ldr",
+  "renames": {
+    "42112 - gearshift.ldr": "m3-gbx-42112-00-42112---gearshift.ldr",
+    "42112 - 35185.dat": "m3-gbx-42112-01-42112---35185.dat",
+    "s\\42112 - 32269s01.dat": "m3-gbx-42112-02-42112---32269s01.dat",
+    "s\\42112 - 35185s01.dat": "m3-gbx-42112-03-42112---35185s01.dat"
+  },
+  "attribution": [
+    {
+      "section": "42112 - gearshift.ldr",
+      "author": "Philippe Hurbain [Philo]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "42112 - 35185.dat",
+      "author": "Philippe Hurbain [Philo]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "s\\42112 - 32269s01.dat",
+      "author": "Philippe Hurbain [Philo]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "s\\42112 - 35185s01.dat",
+      "author": "Philippe Hurbain [Philo]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    }
+  ],
+  "changes": [
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "42112 - gearshift.ldr",
+      "source_line": 1668,
+      "before": [
+        [
+          0.966,
+          -0.259,
+          0.0
+        ],
+        [
+          0.259,
+          0.966,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "after": [
+        [
+          0.965885549,
+          -0.258969314,
+          0.0
+        ],
+        [
+          0.258969314,
+          0.965885549,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "max_coefficient_change": 0.00011445065679760447
+    }
+  ],
+  "output_sha256": "cb71a042f92ab9aec3b5d1c9c22e0032e459d2b84a48293cdec7f26c7ce5a59f",
+  "note": "Original authors and licences retained. Source bytes unchanged. Extraction is not validation or permission to relicense.",
+  "syntax_checks_passed": true,
+  "diagnostics": []
+}

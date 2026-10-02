@@ -1,0 +1,13 @@
+{
+  "id": "20260930-201212-16f983",
+  "title": "build me an impressive Technic car model!",
+  "llm_model_id": "873e0ea95536",
+  "created_at": 1790799132.2490208,
+  "updated_at": 1790804517.7508285,
+  "options": {
+    "mode": "agent",
+    "permissions": "full",
+    "effort": "xhigh",
+    "context_tokens": 1000000
+  }
+}

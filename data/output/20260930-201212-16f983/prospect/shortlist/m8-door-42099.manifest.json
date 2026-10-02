@@ -1,0 +1,22 @@
+{
+  "source": "/opt/ldraw-astra/data/models-annotated/42099-1.mpd",
+  "source_sha256": "933839a5724331bc545a12a85348df030db27c5fe963e9932c949990e605b17a",
+  "source_section": "42099 - door1.ldr",
+  "parser_section": "42099 - door1.ldr",
+  "root": "m8-door-42099-00-42099---door1.ldr",
+  "renames": {
+    "42099 - door1.ldr": "m8-door-42099-00-42099---door1.ldr"
+  },
+  "attribution": [
+    {
+      "section": "42099 - door1.ldr",
+      "author": "Philippe Hurbain [Philo]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    }
+  ],
+  "changes": [],
+  "output_sha256": "89f563e7fdbd0b30f735dcfbf312b0bd12773c39332fd7d51e2d651ad72b75a0",
+  "note": "Original authors and licences retained. Source bytes unchanged. Extraction is not validation or permission to relicense.",
+  "syntax_checks_passed": true,
+  "diagnostics": []
+}

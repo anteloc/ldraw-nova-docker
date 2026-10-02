@@ -1,0 +1,163 @@
+{
+  "total": 10,
+  "results": [
+    {
+      "ref": "@arches.Arch1X6",
+      "filename": "3455.dat",
+      "description": "Arch  1 x  6",
+      "category": "arches",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 120.0,
+        "ldu_y": 28.0,
+        "ldu_z": 20.0,
+        "studs_x": 6,
+        "studs_y": 2,
+        "plates_y": 4,
+        "studs_z": 1
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/arches.py",
+      "line": 50,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        120.0,
+        28.0,
+        20.0
+      ],
+      "dimensions_disagree": false
+    },
+    {
+      "ref": "@arches.Arch1X8X6",
+      "filename": "30528.dat",
+      "description": "Arch  1 x  8 x  6",
+      "category": "arches",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 160.0,
+        "ldu_y": 148.0,
+        "ldu_z": 20.0,
+        "studs_x": 8,
+        "studs_y": 8,
+        "plates_y": 19,
+        "studs_z": 1
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/arches.py",
+      "line": 62,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        160.0,
+        148.0,
+        20.0
+      ],
+      "dimensions_disagree": false
+    },
+    {
+      "ref": "@arches.Arch1X6Raised",
+      "filename": "92950.dat",
+      "description": "Arch  1 x  6 Raised",
+      "category": "arches",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 120.0,
+        "ldu_y": 28.0,
+        "ldu_z": 20.0,
+        "studs_x": 6,
+        "studs_y": 2,
+        "plates_y": 4,
+        "studs_z": 1
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/arches.py",
+      "line": 51,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        120.0,
+        28.0,
+        20.0
+      ],
+      "dimensions_disagree": false
+    },
+    {
+      "ref": "@arches.Arch1X6X2WithThinTop",
+      "filename": "15254.dat",
+      "description": "Arch  1 x  6 x  2 with Thin Top",
+      "category": "arches",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 120.0,
+        "ldu_y": 52.0,
+        "ldu_z": 20.0,
+        "studs_x": 6,
+        "studs_y": 3,
+        "plates_y": 7,
+        "studs_z": 1
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/arches.py",
+      "line": 56,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        120.0,
+        52.0,
+        20.0
+      ],
+      "dimensions_disagree": false
+    },
+    {
+      "ref": "@arches.Arch1X6X2WithCurvedTop",
+      "filename": "6183.dat",
+      "description": "Arch  1 x  6 x  2 with Curved Top",
+      "category": "arches",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 120.0,
+        "ldu_y": 52.0,
+        "ldu_z": 20.0,
+        "studs_x": 6,
+        "studs_y": 3,
+        "plates_y": 7,
+        "studs_z": 1
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/arches.py",
+      "line": 53,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        120.0,
+        52.0,
+        20.0
+      ],
+      "dimensions_disagree": false
+    },
+    {
+      "ref": "@arches.Arch1X6X2WithVeryThinTop",
+      "filename": "12939.dat",
+      "description": "Arch  1 x  6 x  2 with Very Thin Top",
+      "category": "arches",
+      "available": true,
+      "legacy_or_internal": false,
+      "dimensions_hint": {
+        "ldu_x": 120.0,
+        "ldu_y": 52.0,
+        "ldu_z": 20.0,
+        "studs_x": 6,
+        "studs_y": 3,
+        "plates_y": 7,
+        "studs_z": 1
+      },
+      "source": "/opt/ldraw-astra/data/categories/parts/arches.py",
+      "line": 57,
+      "geometry_complete": true,
+      "measured_size_ldu": [
+        120.0,
+        52.0,
+        20.0
+      ],
+      "dimensions_disagree": false
+    }
+  ],
+  "truncated": true,
+  "note": "Source categories are discovery metadata. Dimensions include studs/decorations and are not stacking heights or connection frames. Inspect selected parts; colour/part manufacture combinations are not known."
+}

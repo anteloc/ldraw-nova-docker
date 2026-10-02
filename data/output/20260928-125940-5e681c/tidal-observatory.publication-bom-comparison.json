@@ -1,0 +1,14 @@
+{
+  "file": "output/tidal-observatory.mpd",
+  "section": null,
+  "profile": "syntax",
+  "checks_passed": true,
+  "physical_validity": "not_proven",
+  "diagnostics": [],
+  "comparison": {
+    "matches": true,
+    "physical_placements": 2734,
+    "leocad_placements": 2734,
+    "differences": []
+  }
+}
