@@ -442,7 +442,7 @@ input:focus, select:focus, textarea:focus, button:focus-visible {
 .sculpture-option { display: inline-flex; align-items: center; gap: 8px; min-height: 32px; font-size: 13px; cursor: pointer; }
 .sculpture-option input { width: 14px; height: 14px; margin: 0; accent-color: var(--accent); }
 .sculpture-option:has(input:disabled) { opacity: .55; cursor: default; }
-.sculpture-info-button { width: 30px; height: 30px; padding: 0; border-radius: 50%; font-size: 13px; font-weight: 600; color: var(--muted); background: var(--surface-2); }
+.sculpture-info-button { display: inline-flex; align-items: center; justify-content: center; flex: 0 0 30px; width: 30px; height: 30px; padding: 0; line-height: 1; border-radius: 50%; color: var(--muted); background: var(--surface-2); }
 .sculpture-help { margin-top: 10px; font-size: 13px; line-height: 1.5; }
 .additional-settings-panel.is-above .sculpture-help { order: -1; margin: 0 0 10px; }
 .sculpture-help img { display: block; width: 100%; height: auto; border-radius: 8px; }

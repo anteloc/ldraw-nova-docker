@@ -72,14 +72,18 @@ export default function AdditionalSettings({ options, onChange, disabled }: {
           aria-expanded={info} aria-controls={info ? helpId : undefined}
           onMouseEnter={() => setInfo(true)}
           onFocus={() => setInfo(true)} onBlur={() => { if (!pinned) setInfo(false); }}
-          onClick={() => { setPinned(!pinned); setInfo(!pinned); }}>i</button>
+          onClick={() => { setPinned(!pinned); setInfo(!pinned); }}>
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+            <circle cx="8" cy="4" r="1" /><path d="M7 7h2v6H7z" />
+          </svg>
+        </button>
       </div>
       {info && <div id={helpId} className="sculpture-help" role="region" aria-label="About 3D sculpture">
-        <img src={sculptureExample} width="1000" height="800" alt="An owl sculpture built from connected brown, white and yellow LEGO bricks on a gray base" />
+        <img src={sculptureExample} width="1000" height="800" alt="An owl sculpture built from connected brown, white and yellow LEGO bricks without a display base" />
         <p>Turn a 3D voxel shape into a LEGO sculpture, with connected bricks and ordered building steps.</p>
         <p>Voxel builds can be quicker than detailed part-by-part builds. Estimated time: around 1–2 minutes for simple sculptures; size and AI model speed affect timing.</p>
         <p>You can also use a voxel editor: export the shape as voxel JSON and attach it to your prompt. The agent can adapt it to the sculpture input format.</p>
-        <small className="muted">Example generated with this mode: an owl with 272 bricks.</small>
+        <small className="muted">Example generated with this mode. No display base is added unless requested.</small>
       </div>}
     </div>, document.body)}
   </>;
