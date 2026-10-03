@@ -64,7 +64,7 @@ export type EnvironmentVariable = { id: string; name: string; value: null; has_v
 export type EnvironmentUpdate = { id?: string; name: string; value: string | null };
 export type DocumentUpload = { name: string; data: string };
 export type ConnectionStatus = "not_tested" | "connected" | "not_connected";
-export type TurnOptions = { mode: "plan" | "agent"; permissions: "ask" | "full" | "read_only"; effort?: string | null; context_tokens?: number | null };
+export type TurnOptions = { build_style?: "parts" | "sculpture"; mode: "plan" | "agent"; permissions: "ask" | "full" | "read_only"; effort?: string | null; context_tokens?: number | null };
 export type ModelProfile = {
   model: string; name: string; context_window: number | null; efforts: string[]; default_effort: string | null; context_budgets: number[];
   max_output_tokens?: number | null; tools?: boolean | null; vision?: boolean | null; reasoning?: boolean | null;

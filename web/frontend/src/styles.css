@@ -436,3 +436,7 @@ input:focus, select:focus, textarea:focus, button:focus-visible {
 .build-activity time { font-variant-numeric: tabular-nums; white-space: nowrap; }
 .live-tool-output { max-height: 180px; overflow: auto; white-space: pre-wrap; overflow-wrap: anywhere; font-size: .75rem; padding: .65rem; }
 .progress-summary { margin: .4rem .7rem; font-size: .9rem; }
+
+.sculpture-option { display: inline-flex; align-items: center; gap: 5px; padding: 5px 7px; min-height: 32px; font-size: 12px; white-space: nowrap; border-radius: 7px; background: var(--surface-2); cursor: pointer; }
+.sculpture-option input { width: 14px; height: 14px; margin: 0; accent-color: var(--accent); }
+.sculpture-option:has(input:disabled) { opacity: .55; cursor: default; }

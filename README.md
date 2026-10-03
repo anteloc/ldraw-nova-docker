@@ -9,6 +9,14 @@
 >
 > 👉 **[Go to ldraw-nova and install the web app](https://github.com/anteloc/ldraw-nova#installation)**
 
+## Optional 3D sculpture
+
+Select **3D sculpture** beside the prompt to generate a voxel sculpture with
+connected bricks and deterministic instruction ordering. It uses the paired
+`ldraw-nova` sculpture toolkit and the existing model cards, viewer and step player;
+ordinary part-based generation remains the default. Build both companion branches
+together until sculpture support is included in a matching release.
+
 ## Overview
 
 COMING SOON
