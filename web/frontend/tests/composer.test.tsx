@@ -98,8 +98,12 @@ test("sculpture info shows an example and sculpture-editor help on hover, focus 
   assert.equal(document.querySelector('.sculpture-help'), null);
   await act(async () => info.dispatchEvent(new window.MouseEvent("mouseover", { bubbles: true })));
   const help = document.querySelector('.sculpture-help')!;
-  assert.match(help.textContent!, /sculpture editor.*completed model/);
-  assert.match(help.textContent!, /Estimated time: around 1–2 minutes for simple sculptures/);
+  assert.equal(help.querySelector('strong')!.textContent, 'Sculpture mode features:');
+  assert.deepEqual([...help.querySelectorAll('li')].map(item => item.textContent), [
+    'Guarantees buildability',
+    'Generates much quicker (1-2 minutes)',
+    'Sets can be opened in the Sculpture Editor to add, paint, or erase bricks.',
+  ]);
   assert.match(help.querySelector('img')!.getAttribute('alt')!, /Pikachu sculpture/);
   assert.match(help.querySelector('img')!.getAttribute('alt')!, /without a display base/);
   assert.ok(info.querySelector('svg[aria-hidden="true"]'));
