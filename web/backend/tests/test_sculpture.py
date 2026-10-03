@@ -86,7 +86,8 @@ def test_sculpture_uses_existing_publish_download_and_step_flow():
     assert TestClient(app).get('/api/models/' + info['model_url'].split('/')[-1] + '/sculpture').status_code == 200
 
 
-def test_editor_rebuilds_current_cells_and_keeps_original():
+@pytest.mark.parametrize('detached_detail', [False, True])
+def test_editor_rebuilds_current_cells_and_keeps_original(detached_detail):
     import asyncio
     import hashlib
     import json
@@ -117,13 +118,19 @@ def test_editor_rebuilds_current_cells_and_keeps_original():
     url = '/api/models/'+filename+'/sculpture'
     data = client.get(url).json()
     edited = [[x,y,z,1 if z==1 else c] for x,y,z,c in data['voxels']]
+    if detached_detail:
+        edited.append([4,0,1,1])
     result = client.post(url,json={'voxels':edited,'revision':data['revision']})
     assert result.status_code==200, result.text
     new = result.json()['model']
     assert new['file'] != filename and new['sculpture']
     assert path.read_bytes()==original
     current = client.get('/api/models/'+new['file']+'/sculpture').json()
+    assert result.json()['voxels'] == current['voxels']
     assert all(row in current['voxels'] for row in edited)
+    if detached_detail:
+        assert result.json()['support_voxels'] > 0
+        assert len(current['voxels']) == len(edited) + result.json()['support_voxels']
     output = client.get(new['model_url']).text
     assert '0 STEP' in output
     assert current['revision'] == hashlib.sha256((settings.GENERATED_DIR / new['file']).read_bytes()).hexdigest()

@@ -111,7 +111,7 @@ export type SculptureData = { voxels: [number, number, number, number][]; revisi
 
 export const api = {
   sculpture: (file: string) => request<SculptureData>(`/api/models/${encodeURIComponent(file)}/sculpture`),
-  saveSculpture: (file: string, voxels: SculptureData["voxels"], revision: string) => request<{ model: ModelFile; chat_id: string; support_voxels: number }>(`/api/models/${encodeURIComponent(file)}/sculpture`, { method: "POST", body: json({ voxels, revision }) }),
+  saveSculpture: (file: string, voxels: SculptureData["voxels"], revision: string) => request<{ model: ModelFile; chat_id: string; voxels: SculptureData["voxels"]; support_voxels: number }>(`/api/models/${encodeURIComponent(file)}/sculpture`, { method: "POST", body: json({ voxels, revision }) }),
   environment: () => request<{ variables: EnvironmentVariable[] }>("/api/environment"),
   checkEnvironment: (name: string, id?: string) => request<{ preconfigured: boolean; saved: boolean }>(`/api/environment/check?name=${encodeURIComponent(name)}&exclude_id=${encodeURIComponent(id ?? "")}`),
   saveEnvironment: (variables: EnvironmentUpdate[]) => request<{ variables: EnvironmentVariable[] }>("/api/environment", { method: "PUT", body: json({ variables }) }),

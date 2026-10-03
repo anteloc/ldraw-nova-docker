@@ -5,7 +5,13 @@ import { useApp } from "../context";
 import { editCells, type Cell, type EditTool } from "../sculpture/cells";
 import { SculptureScene } from "../sculpture/scene";
 
-export default function SculptureEditor({ model, onClose }: { model: ModelFile; onClose: () => void }) {
+type EditorScene = Pick<SculptureScene, "update" | "setTool" | "fit" | "dispose">;
+type SceneFactory = (host: HTMLDivElement, onEdit: (index: number, normal: number[]) => void) => EditorScene;
+const defaultSceneFactory: SceneFactory = (host, onEdit) => new SculptureScene(host, onEdit);
+
+export default function SculptureEditor({ model, onClose, createScene = defaultSceneFactory }: {
+  model: ModelFile; onClose: () => void; createScene?: SceneFactory;
+}) {
   const { openViewer, refreshChats } = useApp();
   const [data, setData] = useState<SculptureData | null>(null);
   const [cells, setCells] = useState<Cell[]>([]);
@@ -17,7 +23,7 @@ export default function SculptureEditor({ model, onClose }: { model: ModelFile; 
   const [saved, setSaved] = useState<{ model: ModelFile; support_voxels: number } | null>(null);
   const host = useRef<HTMLDivElement>(null);
   const dialog = useRef<HTMLDivElement>(null);
-  const scene = useRef<SculptureScene | null>(null);
+  const scene = useRef<EditorScene | null>(null);
   const latest = useRef({ cells, tool, colour, busy, saved }); latest.current = { cells, tool, colour, busy, saved };
   const dirty = history.undo.length > 0;
   const close = () => { if (!busy && (!dirty || saved || confirm("Discard your unsaved sculpture edits?"))) onClose(); };
@@ -52,7 +58,7 @@ export default function SculptureEditor({ model, onClose }: { model: ModelFile; 
   useEffect(() => {
     if (!data || !host.current) return;
     try {
-      scene.current = new SculptureScene(host.current, (index, normal) => {
+      scene.current = createScene(host.current, (index, normal) => {
         const current = latest.current;
         if (current.busy || current.saved) return;
         const next = editCells(current.cells, index, current.tool, current.colour, normal);
@@ -64,7 +70,7 @@ export default function SculptureEditor({ model, onClose }: { model: ModelFile; 
       scene.current.update(data.voxels, data.palette);
     } catch { setError("The 3D editor needs WebGL. Try a browser with hardware acceleration enabled."); }
     return () => { scene.current?.dispose(); scene.current = null; };
-  }, [data]);
+  }, [data, createScene]);
   useEffect(() => { scene.current?.update(cells, data?.palette || []); }, [cells, data]);
   useEffect(() => { scene.current?.setTool(busy || saved ? "orbit" : tool); }, [tool, busy, saved]);
 
@@ -79,6 +85,7 @@ export default function SculptureEditor({ model, onClose }: { model: ModelFile; 
     setBusy(true); setError("");
     try {
       const result = await api.saveSculpture(model.file, cells, data.revision);
+      setCells(result.voxels);
       setSaved(result); setHistory({ undo: [], redo: [] }); refreshChats();
       window.dispatchEvent(new Event("models-changed"));
     } catch (e) { setError((e as Error).message); }

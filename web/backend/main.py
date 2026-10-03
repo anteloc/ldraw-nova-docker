@@ -585,8 +585,13 @@ async def sculpture_save(filename: str, body: SculptureEdit):
     if not published.models:
         raise HTTPException(422, "The edited model could not be published. Your original model is preserved.")
     ref = published.models[0]
-    model = model_info(store.resolve(chat["id"], ref["model"]))
-    return {"model": model, "chat_id": chat["id"], "support_voxels": report.get("interior_support_voxels", 0) + report.get("exterior_support_voxels", 0)}
+    published_path = store.resolve(chat["id"], ref["model"])
+    repaired = sculpture.read(published_path)
+    if repaired is None:
+        raise HTTPException(422, "The saved model has no matching editable voxels. Your original model is preserved.")
+    model = model_info(published_path)
+    return {"model": model, "chat_id": chat["id"], "voxels": repaired["voxels"],
+            "support_voxels": report.get("interior_support_voxels", 0) + report.get("exterior_support_voxels", 0)}
 
 
 @app.delete("/api/models/{filename}")

@@ -20,13 +20,16 @@ test("editor refuses additions exceeding converter bounds", () => {
   assert.equal(editCells(wide,1,"add",4,[1,0,0]),wide);
 });
 const window = new Window({ url: "http://localhost/" });
-Object.assign(globalThis,{window, document: window.document, HTMLElement: window.HTMLElement, IS_REACT_ACT_ENVIRONMENT: true});
+Object.assign(globalThis,{window, document: window.document, HTMLElement: window.HTMLElement,
+  Event: window.Event, MouseEvent: window.MouseEvent, IS_REACT_ACT_ENVIRONMENT: true});
 const React = await import("react");
 const {act} = React;
 const {createRoot} = await import("react-dom/client");
 const {MemoryRouter} = await import("react-router-dom");
 const {AppContext} = await import("../src/context");
 const {default: ModelCard} = await import("../src/components/ModelCard");
+const {default: SculptureEditor} = await import("../src/components/SculptureEditor");
+const {api} = await import("../src/api");
 test("editor action appears only on eligible generated sculpture cards", async () => {
   const el = document.createElement('div'); document.body.append(el); const root=createRoot(el);
   const model: any = {file:'owl.mpd', model_url:'/files/generated/owl.mpd', image_url:null, description:'Owl', warnings:[], mtime:1};
@@ -35,4 +38,46 @@ test("editor action appears only on eligible generated sculpture cards", async (
     assert.equal(Array.from(el.querySelectorAll('button')).some(b=>b.textContent==='Sculpture editor'),expected);
   }
   await act(async()=>root.unmount()); el.remove();
+});
+
+test("saving displays the server's repaired cells and opens that saved model", async (t) => {
+  const element = document.createElement('div'); document.body.append(element);
+  const root = createRoot(element);
+  const model: any = {file:'robot.mpd',description:'Robot'};
+  const edited: Cell[] = [...cells,[1,0,1,4]];
+  const repaired: Cell[] = [...edited,[1,0,0,4]];
+  const updates: Cell[][] = [];
+  const opened: any[] = [];
+  let closed = false;
+  let pick: (index: number, normal: number[]) => void = () => assert.fail('Scene not initialized');
+  t.mock.method(api,'sculpture',async () => ({voxels:cells,revision:'original',palette:[]}));
+  t.mock.method(api,'saveSculpture',async (file: string, voxels: Cell[], revision: string) => {
+    assert.equal(file,'robot.mpd'); assert.equal(revision,'original'); assert.deepEqual(voxels,edited);
+    return {model:{...model,file:'robot-edited.mpd',model_url:'/files/generated/robot-edited.mpd',parts:4},
+      chat_id:'edit',support_voxels:1,voxels:repaired};
+  });
+  const createScene = (_host: HTMLDivElement, onPick: typeof pick) => {
+    pick = onPick;
+    return {update(rows: Cell[]) { updates.push(rows.map(row => [...row] as Cell)); },
+      setTool() {}, fit() {}, dispose() {}};
+  };
+  try {
+    await act(async () => root.render(<AppContext.Provider value={{
+      openViewer(value: unknown) { opened.push(value); }, refreshChats() {},
+    } as any}><SculptureEditor model={model} createScene={createScene} onClose={() => {closed=true;}} /></AppContext.Provider>));
+    const dialog = document.querySelector('[aria-label="Sculpture editor"]')!;
+    const button = (name: string) => [...dialog.querySelectorAll('button')].find(b => b.textContent === name)!;
+    await act(async () => button('Add').click());
+    await act(async () => pick(1,[1,0,0]));
+    assert.deepEqual(updates.at(-1),edited);
+    await act(async () => button('Save model').click());
+    assert.deepEqual(updates.at(-1),repaired);
+    assert.match(dialog.querySelector('[role="status"]')!.textContent!,/Added 1 support cells for connectivity/);
+    assert.equal(button('Add').disabled,true);
+    await act(async () => button('View saved model').click());
+    assert.equal(opened[0].modelUrl,'/files/generated/robot-edited.mpd');
+    assert.equal(closed,true);
+  } finally {
+    await act(async () => root.unmount()); element.remove();
+  }
 });
