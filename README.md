@@ -3,7 +3,11 @@
 ## GLB to LEGO
 
 On **My Models**, choose **Import GLB**, select a colored `.glb`, name the model
-and choose its detail level. **Convert to LEGO** samples embedded texture/material
+and keep the default **Auto · about 3,000 bricks** or choose a manual detail level.
+Auto chooses the voxel world dimensions from the actual repaired, packed brick
+count, aiming within 10% of 3,000. The result shows its count and dimensions;
+if conversion limits prevent reaching the target, it states that explicitly.
+**Convert to LEGO** samples embedded texture/material
 and vertex colors with Python Trimesh, maps them to LDraw colors, and uses the
 existing sculpture packing and connectivity repair. The result saves to My Models
 with a preview, parts list, connected build steps and **Sculpture editor** cells.
@@ -12,8 +16,9 @@ download the MPD. No provider login is needed for an import.
 
 Use an uncompressed, self-contained glTF 2.0 binary with embedded PNG/JPEG textures,
 up to 16 MB, 100,000 instanced triangles and 4 megapixels per texture. The longest
-grid dimension can be 16, 24, 32 or 48 studs; lower detail converts faster and
-uses fewer bricks. Models that exceed bounded voxelization or cannot pass
+manual grid dimension can be 16, 24, 32 or 48 studs; lower detail converts faster
+and uses fewer bricks. Auto tries at most five sizes, bounded to 8–96 cells per
+axis, 262,144 world cells and 65,536 occupied cells. Models that exceed bounded voxelization or cannot pass
 connectivity repair are rejected with an actionable error. Keep the dialog open
 while conversion runs. Only one GLB import runs at a time. Part connectivity is
 checked; physical stability is not certified.

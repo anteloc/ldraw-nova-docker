@@ -5,7 +5,7 @@ import { useApp } from "../context";
 
 // Follow the host's PostHog integration when present; importing a local model
 // never installs an analytics client or sends file names or mesh contents.
-export function trackGlbImport(event: string, properties: Record<string, number> = {}) {
+export function trackGlbImport(event: string, properties: Record<string, number | string> = {}) {
   (window as Window & { posthog?: { capture: (event: string, properties: object) => void } })
     .posthog?.capture(event, properties);
 }
@@ -21,7 +21,7 @@ export default function GlbImport({ onClose, onEdit }: { onClose: () => void; on
   const { openViewer, refreshChats } = useApp();
   const [file, setFile] = useState<File | null>(null);
   const [title, setTitle] = useState("");
-  const [resolution, setResolution] = useState(24);
+  const [resolution, setResolution] = useState<number | "auto">("auto");
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
   const [result, setResult] = useState<Awaited<ReturnType<typeof api.importGlb>> | null>(null);
@@ -70,7 +70,9 @@ export default function GlbImport({ onClose, onEdit }: { onClose: () => void; on
       <div className="glb-import-body">
         {result ? <>
           <div className="glb-import-ready" role="status"><span className="glb-import-symbol" aria-hidden>✓</span><h2>Your sculpture is ready</h2>
-            <p>{result.model.parts ?? ""} bricks · {result.import.palette_colors} colors · {result.import.surface_voxels.toLocaleString()} surface cells</p>
+            <p>{result.import.brick_count.toLocaleString()} bricks · {result.import.palette_colors} colors · {result.import.surface_voxels.toLocaleString()} surface cells</p>
+            <p className="muted">Voxel world: {result.import.dimensions.join(" × ")} cells{result.import.target_bricks ? ` · Target: ~${result.import.target_bricks.toLocaleString()} bricks` : ""}.</p>
+            {result.import.target_reached === false && <p className="muted">Used the closest successfully connected size within the conversion limits. Try a simpler mesh to get closer to the target.</p>}
             <p className="muted">Added {result.support_voxels.toLocaleString()} support cells. Saved to My Models with connected build steps.</p>
           </div>
           <div className="glb-import-actions"><button className="primary" onClick={() => { trackGlbImport("glb_import_editor_opened"); onEdit(result.model); }}>Edit voxels</button>
@@ -85,11 +87,11 @@ export default function GlbImport({ onClose, onEdit }: { onClose: () => void; on
               if (!issue) { setTitle(selected.name.replace(/\.glb$/i, "").slice(0, 120)); trackGlbImport("glb_import_file_selected", { bytes: selected.size }); }
             }} /></label>
           <label>Model name<input value={title} maxLength={120} required disabled={busy} placeholder="My sculpture" onChange={event => setTitle(event.target.value)} /></label>
-          <label>Detail level<select value={resolution} disabled={busy} onChange={event => { const value = Number(event.target.value); setResolution(value); trackGlbImport("glb_import_resolution_changed", { resolution: value }); }}>
-            <option value={16}>Low · 16 studs</option><option value={24}>Balanced · 24 studs</option><option value={32}>Detailed · 32 studs</option><option value={48}>Fine · 48 studs</option></select>
-            <span className="muted small">Longest grid dimension. More detail means more bricks and a longer conversion.</span></label>
+          <label>Detail level<select value={resolution} disabled={busy} onChange={event => { const value = event.target.value === "auto" ? "auto" : Number(event.target.value); setResolution(value); trackGlbImport("glb_import_resolution_changed", { resolution: value }); }}>
+            <option value="auto">Auto · about 3,000 bricks</option><option value={16}>Low · 16 studs</option><option value={24}>Balanced · 24 studs</option><option value={32}>Detailed · 32 studs</option><option value={48}>Fine · 48 studs</option></select>
+            <span className="muted small">Auto chooses the world dimensions from the packed brick count. Manual sizes set the longest grid dimension.</span></label>
           {error && <p className="banner error" role="alert">{error}</p>}
-          {busy && <div className="glb-import-progress" role="status"><span className="spinner" aria-hidden /><div><strong>Building your sculpture…</strong><p className="muted small">Voxelizing colors, repairing connections and rendering. This can take a few minutes. Keep this window open.</p></div></div>}
+          {busy && <div className="glb-import-progress" role="status"><span className="spinner" aria-hidden /><div><strong>Building your sculpture…</strong><p className="muted small">{resolution === "auto" ? "Choosing a size for about 3,000 bricks, " : "Voxelizing colors, "}repairing connections and rendering. This can take several minutes. Keep this window open.</p></div></div>}
           <div className="glb-import-actions"><button type="submit" className="primary" disabled={!file || !title.trim() || busy}>{busy ? "Converting…" : "Convert to LEGO"}</button><button type="button" disabled={busy} onClick={() => closeRef.current()}>Cancel</button></div>
         </form>}
       </div>

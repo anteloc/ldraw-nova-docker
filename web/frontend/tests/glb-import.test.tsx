@@ -56,11 +56,37 @@ test('upload retries failures, blocks dismissal while converting and hands the s
     assert.equal((dialog.querySelector('[aria-label="Close import"]') as HTMLButtonElement).disabled,true);
     await act(async()=>document.dispatchEvent(new window.KeyboardEvent('keydown',{key:'Escape'})));
     assert.equal(closed,0);
-    await act(async()=>finish({model,chat_id:'import',support_voxels:5,import:{surface_voxels:50,palette_colors:2,dimensions:[16,8,8]}}));
+    await act(async()=>finish({model,chat_id:'import',support_voxels:5,import:{surface_voxels:50,palette_colors:2,dimensions:[16,8,8],resolution:16,brick_count:21}}));
     assert.match(dialog.textContent!,/Added 5 support cells/);assert.equal(changed,1);
     await act(async()=>[...dialog.querySelectorAll('button')].find(b=>b.textContent==='Edit voxels')!.click());
     assert.deepEqual(edited,[model]);
   } finally {await act(async()=>root.unmount());host.remove();window.removeEventListener('models-changed',listener);}
+});
+
+test('default auto upload requests the server target and shows measured world dimensions',async t=>{
+  const file=new File(['x'.repeat(20)],'cube.glb');
+  t.mock.method(globalThis,'fetch',async (url:any)=>{
+    assert.equal(url,'/api/models/import-glb?title=cube');
+    return new Response('{}',{headers:{'Content-Type':'application/json'}});
+  });
+  await api.importGlb(file,'auto','cube');
+  const host=document.createElement('div');document.body.append(host);const root=createRoot(host);
+  t.mock.method(api,'importGlb',async (uploaded:File,resolution:any)=>{
+    assert.equal(uploaded.name,'cube.glb');assert.equal(resolution,'auto');
+    return {model:{parts:null},support_voxels:10,import:{brick_count:2986,palette_colors:3,surface_voxels:300,dimensions:[38,38,51],resolution:51,target_bricks:3000,target_reached:true}} as any;
+  });
+  try{
+    await act(async()=>root.render(<AppContext.Provider value={{refreshChats(){},openViewer(){}} as any}><GlbImport onClose={()=>{}} onEdit={()=>{}} /></AppContext.Provider>));
+    const dialog=document.querySelector('[aria-label="GLB to LEGO"]')!;
+    assert.equal(dialog.querySelector('select')!.value,'auto');
+    const input=dialog.querySelector('input[type="file"]')!;
+    Object.defineProperty(input,'files',{value:[file]});
+    await act(async()=>input.dispatchEvent(new Event('change',{bubbles:true})));
+    await act(async()=>dialog.querySelector('form')!.dispatchEvent(new Event('submit',{bubbles:true,cancelable:true})));
+    assert.match(dialog.textContent!,/2,986 bricks/);
+    assert.match(dialog.textContent!,/38 × 38 × 51/);
+    assert.match(dialog.textContent!,/Target: ~3,000 bricks/);
+  }finally{await act(async()=>root.unmount());host.remove();}
 });
 
 test('import action is on My Models and absent from the bundled gallery',async t=>{

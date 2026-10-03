@@ -556,7 +556,7 @@ _glb_import_lock = asyncio.Lock()
 
 
 @app.post("/api/models/import-glb")
-async def import_glb(request: Request, resolution: int = Query(24, ge=8, le=48),
+async def import_glb(request: Request, resolution: int | None = Query(None, ge=8, le=96),
                      title: str = Query("Imported GLB", min_length=1, max_length=120)):
     """Upload a bounded binary GLB and publish through the sculpture pipeline."""
     import struct
@@ -579,7 +579,8 @@ async def import_glb(request: Request, resolution: int = Query(24, ge=8, le=48),
         store = get_store()
         chat = store.create_chat()
         store.update_chat(chat["id"], title=f"Import {title.strip()}", options={"build_style": "sculpture"})
-        store.add_message(chat["id"], {"role": "user", "content": f"Import GLB as LEGO: {title.strip()}. Detail: {resolution} studs."})
+        detail = f"Detail: {resolution} studs" if resolution is not None else "Auto size: about 3,000 bricks"
+        store.add_message(chat["id"], {"role": "user", "content": f"Import GLB as LEGO: {title.strip()}. {detail}."})
         ctx = tools.ToolContext(chat["id"], store, lambda *_: None)
         stem = "glb-" + uuid.uuid4().hex[:12]
         source = ctx.work_dir / (stem + ".glb")
@@ -587,9 +588,10 @@ async def import_glb(request: Request, resolution: int = Query(24, ge=8, le=48),
         source.write_bytes(data)
         sandbox.give_to_agent(source.parent)
         sandbox.give_to_agent(source)
+        size_args = ["--resolution", str(resolution)] if resolution is not None else ["--target-bricks", "3000"]
         await tools.t_run_toolkit(ctx, ["glb-sculpture", "output/" + source.name,
-            "--resolution", str(resolution), "--output", "output/" + stem + ".mpd",
-            "--title", title.strip(), "--report", "output/" + stem + ".checks.json"], timeout=600)
+            *size_args, "--output", "output/" + stem + ".mpd",
+            "--title", title.strip(), "--report", "output/" + stem + ".checks.json"], timeout=1800)
         report_path = ctx.work_dir / (stem + ".checks.json")
         report = json.loads(report_path.read_text()) if report_path.is_file() else {}
         if not report.get("checks_passed"):

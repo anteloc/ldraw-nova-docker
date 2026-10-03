@@ -31,7 +31,7 @@ def upload(client, data=None, query='resolution=8&title=Imported%20cube', header
 
 
 @pytest.mark.parametrize('query,data,headers,status',[
-    ('resolution=49',None,None,422),('resolution=0',None,None,422),
+    ('resolution=97',None,None,422),('resolution=0',None,None,422),
     ('title=%0A',None,None,422),('title=',None,None,422),
     ('resolution=8',b'not a mesh',None,422),
     ('resolution=8',None,{'Content-Type':'text/plain'},415),
@@ -56,6 +56,17 @@ def test_reports_converter_failure_and_publishes_nothing(monkeypatch):
     response=upload(TestClient(app))
     assert response.status_code==422
     assert 'cannot be connected' in response.json()['detail']
+
+
+def test_default_upload_requests_about_3000_actual_bricks(monkeypatch):
+    async def failed(ctx,args,**kwargs):
+        assert '--resolution' not in args
+        assert args[args.index('--target-bricks')+1] == '3000'
+        assert 'Auto size: about 3,000 bricks' in ctx.store.messages(ctx.chat_id)[0]['content']
+        assert kwargs['timeout'] == 1800
+        return tools.ToolResult('failed')
+    monkeypatch.setattr(tools,'t_run_toolkit',failed)
+    assert upload(TestClient(app),query='title=Default%20cube').status_code == 422
 
 
 def test_only_one_glb_import_can_run(monkeypatch):
