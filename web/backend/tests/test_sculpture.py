@@ -82,4 +82,48 @@ def test_sculpture_uses_existing_publish_download_and_step_flow():
     response = TestClient(app).get(info['model_url'])
     assert response.status_code == 200
     assert response.text.count('0 STEP') == report['step_count']
-    assert '3D sculpture' in response.text
+    assert 'Sculpture model' in response.text
+    assert TestClient(app).get('/api/models/' + info['model_url'].split('/')[-1] + '/sculpture').status_code == 200
+
+
+def test_editor_rebuilds_current_cells_and_keeps_original():
+    import asyncio
+    import hashlib
+    import json
+    import os
+    import settings
+    import tools
+    from fastapi.testclient import TestClient
+    from main import app
+    from store import get_store
+    if not (settings.TOOLKIT_DIR / 'docs/agent/sculptures.md').exists():
+        pytest.skip('Requires the paired sculpture toolkit')
+    os.chmod(settings.DATA_DIR.parent, 0o755)
+    store = get_store()
+    chat = store.create_chat()
+    store.update_chat(chat['id'], options={'build_style':'sculpture'})
+    ctx = tools.ToolContext(chat['id'], store, lambda *_: None)
+    rows = [[x,y,z,4] for x in range(2) for y in range(2) for z in range(2)]
+    async def build():
+        await tools.t_write_file(ctx, 'cells.json', json.dumps({'voxels':rows}))
+        converted = await tools.t_run_toolkit(ctx,['sculpture','output/cells.json','--output','output/editor.mpd'])
+        assert 'exit code 0' in converted.content, converted.content
+        return await tools.t_publish_model(ctx,'editor.mpd','Editor roundtrip')
+    published = asyncio.run(build())
+    filename = json.loads(published.content)['model_url'].split('/')[-1]
+    path = settings.GENERATED_DIR / filename
+    original = path.read_bytes()
+    client = TestClient(app)
+    url = '/api/models/'+filename+'/sculpture'
+    data = client.get(url).json()
+    edited = [[x,y,z,1 if z==1 else c] for x,y,z,c in data['voxels']]
+    result = client.post(url,json={'voxels':edited,'revision':data['revision']})
+    assert result.status_code==200, result.text
+    new = result.json()['model']
+    assert new['file'] != filename and new['sculpture']
+    assert path.read_bytes()==original
+    current = client.get('/api/models/'+new['file']+'/sculpture').json()
+    assert all(row in current['voxels'] for row in edited)
+    output = client.get(new['model_url']).text
+    assert '0 STEP' in output
+    assert current['revision'] == hashlib.sha256((settings.GENERATED_DIR / new['file']).read_bytes()).hexdigest()

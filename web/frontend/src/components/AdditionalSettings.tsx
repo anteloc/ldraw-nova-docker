@@ -66,9 +66,9 @@ export default function AdditionalSettings({ options, onChange, disabled }: {
         <label className="sculpture-option">
           <input ref={checkbox} type="checkbox" checked={options.build_style === "sculpture"} disabled={disabled}
             onChange={e => onChange({ ...options, build_style: e.target.checked ? "sculpture" : "parts" })} />
-          3D sculpture
+          Sculpture model
         </label>
-        <button ref={infoButton} type="button" className="sculpture-info-button" aria-label="About 3D sculpture"
+        <button ref={infoButton} type="button" className="sculpture-info-button" aria-label="About Sculpture model"
           aria-expanded={info} aria-controls={info ? helpId : undefined}
           onMouseEnter={() => setInfo(true)}
           onFocus={() => setInfo(true)} onBlur={() => { if (!pinned) setInfo(false); }}
@@ -78,11 +78,11 @@ export default function AdditionalSettings({ options, onChange, disabled }: {
           </svg>
         </button>
       </div>
-      {info && <div id={helpId} className="sculpture-help" role="region" aria-label="About 3D sculpture">
+      {info && <div id={helpId} className="sculpture-help" role="region" aria-label="About Sculpture model">
         <img src={sculptureExample} width="1000" height="800" alt="An owl sculpture built from connected brown, white and yellow LEGO bricks without a display base" />
         <p>Turn a 3D voxel shape into a LEGO sculpture, with connected bricks and ordered building steps.</p>
-        <p>Voxel builds can be quicker than detailed part-by-part builds. Estimated time: around 1–2 minutes for simple sculptures; size and AI model speed affect timing.</p>
-        <p>You can also use a voxel editor: export the shape as voxel JSON and attach it to your prompt. The agent can adapt it to the sculpture input format.</p>
+        <p>Sculpture models can be quicker than detailed part-by-part builds. Estimated time: around 1–2 minutes for simple sculptures; size and AI model speed affect timing.</p>
+        <p>Use the sculpture editor on your completed model to add, paint or erase cells, then rebuild connected bricks and instructions.</p>
         <small className="muted">Example generated with this mode. No display base is added unless requested.</small>
       </div>}
     </div>, document.body)}

@@ -448,3 +448,27 @@ input:focus, select:focus, textarea:focus, button:focus-visible {
 .sculpture-help img { display: block; width: 100%; height: auto; border-radius: 8px; }
 .sculpture-help p { margin: 10px 0; }
 .sculpture-help small { display: block; font-size: 11px; }
+
+/* Optional, lazy-loaded manual sculpture editor. */
+.sculpture-editor { width: min(960px, calc(100vw - 32px)); max-height: calc(100dvh - 32px); display: flex; flex-direction: column; overflow: hidden; }
+.sculpture-editor-tools, .sculpture-editor-colours { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; padding: 10px 16px; }
+.sculpture-editor-tools { border-bottom: 1px solid var(--border); }
+.sculpture-editor button[aria-pressed="true"] { outline: 2px solid var(--accent, #536dfe); outline-offset: 2px; }
+.sculpture-editor-colours { padding-top: 4px; }
+.sculpture-swatch { width: 24px; height: 24px; border: 1px solid #9ca3af; border-radius: 50%; padding: 0; flex: 0 0 auto; }
+.sculpture-editor-colours select { max-width: 160px; }
+.sculpture-canvas { height: min(48dvh, 460px); min-height: 180px; flex: 1 1 auto; position: relative; touch-action: none; background: #f3f4f6; overflow: hidden; }
+.sculpture-canvas canvas { display: block; width: 100%; height: 100%; }
+.sculpture-loading { position: absolute; top: 45%; width: 100%; text-align: center; }
+.sculpture-editor-footer { padding: 12px 16px; overflow-y: auto; }
+.sculpture-editor-footer p { margin: 0 0 10px; }
+.sculpture-save-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.sculpture-save-row button { white-space: nowrap; }
+@media (max-width: 600px) {
+  .sculpture-editor { width: calc(100vw - 16px); max-height: calc(100dvh - 16px); }
+  .sculpture-editor-tools, .sculpture-editor-colours, .sculpture-editor-footer { padding-left: 12px; padding-right: 12px; }
+  .sculpture-editor-tools { gap: 6px; }
+  .sculpture-editor-tools button { padding: 6px 10px; }
+  .sculpture-editor-colours select { max-width: 130px; }
+  .sculpture-save-row { align-items: stretch; flex-direction: column; gap: 8px; }
+}

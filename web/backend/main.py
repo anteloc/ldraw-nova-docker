@@ -25,7 +25,7 @@ from fastapi import FastAPI, HTTPException, Request
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import FileResponse, JSONResponse, PlainTextResponse, StreamingResponse
 from fastapi.staticfiles import StaticFiles
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, StrictInt
 from starlette.background import BackgroundTask
 
 import agent
@@ -40,6 +40,7 @@ import render
 from attachments import validate_documents, validate_images
 import sandbox
 import settings
+import sculpture
 from leocad_render import MODEL_SUFFIXES, bom_path_for, snapshot_path_for
 from paths import rel_to, safe_join
 from store import ChatStore, get_store
@@ -359,6 +360,7 @@ def model_info(path: Path) -> dict:
         "info_heading": gallery.info_heading_of(path) if exists else None,
         "size": stat.st_size if stat else 0, "mtime": stat.st_mtime if stat else 0,
         "status": status, "error": error, "bom_status": bom_status, "bom_error": bom_error,
+        "sculpture": bool(exists and not in_gallery and sculpture.read(path)),
     }
 
 
@@ -529,6 +531,64 @@ def gallery_list():
     return {"models": [model_info(path) for path in gallery.collection(settings.GALLERY_MODELS_DIR)], "pending": 0}
 
 
+def editable_model(filename: str) -> tuple[Path, dict]:
+    path = settings.GENERATED_DIR / filename
+    if Path(filename).name != filename or filename.startswith(".") or path.suffix.lower() not in {".mpd", ".ldr"}:
+        _not_found("Sculpture model not found")
+    data = sculpture.read(path)
+    if data is None:
+        _not_found("No editable sculpture is saved for this model")
+    return path, data
+
+
+@app.get("/api/models/{filename}/sculpture")
+def sculpture_get(filename: str):
+    _, data = editable_model(filename)
+    return {**data, "palette": sculpture.palette()}
+
+
+class SculptureEdit(BaseModel):
+    voxels: list[list[StrictInt]] = Field(min_length=1, max_length=65536)
+    revision: str
+
+
+@app.post("/api/models/{filename}/sculpture")
+async def sculpture_save(filename: str, body: SculptureEdit):
+    import uuid
+    import tools
+    path, original = editable_model(filename)
+    if body.revision != original["revision"]:
+        raise HTTPException(409, "This model changed. Reopen the sculpture editor before saving.")
+    try:
+        sculpture.validate_rows(body.voxels)
+    except ValueError as exc:
+        raise HTTPException(422, str(exc)) from exc
+    store = get_store()
+    # An edit chat keeps generation permissions and in-progress chats independent.
+    chat = store.create_chat()
+    store.update_chat(chat["id"], title=f"Edit {path.stem}", options={"build_style": "sculpture"})
+    ctx = tools.ToolContext(chat["id"], store, lambda *_: None)
+    stem = "sculpture-" + uuid.uuid4().hex[:12]
+    source = ctx.work_dir / (stem + ".voxels.json")
+    source.parent.mkdir(parents=True, exist_ok=True)
+    source.write_text(json.dumps({"voxels": body.voxels}))
+    sandbox.give_to_agent(source.parent)
+    sandbox.give_to_agent(source)
+    await tools.t_run_toolkit(ctx, ["sculpture", "output/" + stem + ".voxels.json",
+        "--output", "output/" + stem + ".mpd", "--title", gallery.description_of(path) or path.stem,
+        "--report", "output/" + stem + ".checks.json"], timeout=300)
+    report_path = ctx.work_dir / (stem + ".checks.json")
+    report = json.loads(report_path.read_text()) if report_path.is_file() else {}
+    if not report.get("checks_passed"):
+        raise HTTPException(422, report.get("error") or "Connectivity repair could not finish. Your original model is preserved; adjust the sculpture and try again.")
+    published = await tools.t_publish_model(ctx, "output/" + stem + ".mpd", path.stem + " edited")
+    if not published.models:
+        raise HTTPException(422, "The edited model could not be published. Your original model is preserved.")
+    ref = published.models[0]
+    model = model_info(store.resolve(chat["id"], ref["model"]))
+    return {"model": model, "chat_id": chat["id"], "support_voxels": report.get("interior_support_voxels", 0) + report.get("exterior_support_voxels", 0)}
+
+
 @app.delete("/api/models/{filename}")
 async def models_delete(filename: str):
     root = settings.GENERATED_DIR.resolve()
@@ -544,7 +604,7 @@ async def models_delete(filename: str):
     # Notes/previews are shared if car.mpd and car.ldr both exist: retain those.
     shared = any(p != model and p.stem == model.stem for p in gallery.collection(root))
     artifacts = [] if shared else [model.with_suffix(ext) for ext in (".png", ".csv", ".md", ".glb")]
-    targets = [model, *artifacts, *glb.cache_files(model)]
+    targets = [model, *artifacts, *sculpture.siblings(model), *glb.cache_files(model)]
     deleted = []
     for path in targets:
         if path.is_file() and not path.is_symlink():

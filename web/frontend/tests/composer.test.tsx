@@ -91,14 +91,14 @@ test("settings dismiss with Escape, outside pointer and focus; Escape returns fo
   await mounted.close();
 });
 
-test("sculpture info shows an example and voxel-editor help on hover, focus and tap", async () => {
+test("sculpture info shows an example and sculpture-editor help on hover, focus and tap", async () => {
   const mounted = await mount();
   await openSettings(mounted.element);
   const info = document.querySelector('.sculpture-info-button') as HTMLButtonElement;
   assert.equal(document.querySelector('.sculpture-help'), null);
   await act(async () => info.dispatchEvent(new window.MouseEvent("mouseover", { bubbles: true })));
   const help = document.querySelector('.sculpture-help')!;
-  assert.match(help.textContent!, /voxel editor.*voxel JSON/);
+  assert.match(help.textContent!, /sculpture editor.*completed model/);
   assert.match(help.textContent!, /Estimated time: around 1–2 minutes for simple sculptures/);
   assert.match(help.querySelector('img')!.getAttribute('alt')!, /owl sculpture/);
   assert.match(help.querySelector('img')!.getAttribute('alt')!, /without a display base/);

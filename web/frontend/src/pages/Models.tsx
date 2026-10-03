@@ -9,10 +9,17 @@ const POLL_MS = 1500;
 export default function Models({ collection }: { collection: "models" | "gallery" }) {
   const isGallery = collection === "gallery";
   const [models, setModels] = useState<ModelFile[] | null>(null);
+  const [revision, setRevision] = useState(0);
   const [pending, setPending] = useState(0);
   const [error, setError] = useState<string | null>(null);
   const [query, setQuery] = useState("");
   const deleted = useRef(new Set<string>());
+
+  useEffect(() => {
+    const changed = () => setRevision(v => v + 1);
+    window.addEventListener("models-changed", changed);
+    return () => window.removeEventListener("models-changed", changed);
+  }, []);
 
   useEffect(() => {
     let alive = true;
@@ -34,7 +41,7 @@ export default function Models({ collection }: { collection: "models" | "gallery
       alive = false;
       clearTimeout(timer);
     };
-  }, [collection]);
+  }, [collection, revision]);
 
   const q = query.trim().toLowerCase();
   const shown = (models ?? []).filter(

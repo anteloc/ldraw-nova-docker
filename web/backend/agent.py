@@ -122,7 +122,7 @@ def system_prompt(store: ChatStore, chat_id: str) -> str:
         guide = toolkit.root() / "docs/agent/sculptures.md"
         if not guide.is_file():
             raise ValueError("This toolkit does not support sculpture mode; update the paired ldraw-nova checkout and rebuild")
-        prompt += "\n\nThe user selected 3D sculpture mode for this turn. Follow this workflow in full:\n" + guide.read_text()
+        prompt += "\n\nThe user selected Sculpture model mode for this turn. Follow this workflow in full:\n" + guide.read_text()
     notes = work_dir / "NOTES.md"
     if notes.is_file() and not notes.is_symlink():
         with notes.open(errors="replace") as handle:

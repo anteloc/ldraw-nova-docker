@@ -9,19 +9,24 @@
 >
 > 👉 **[Go to ldraw-nova and install the web app](https://github.com/anteloc/ldraw-nova#installation)**
 
-## Optional 3D sculpture
+## Optional Sculpture model
 
-Open **Additional settings** beside the prompt and enable **3D sculpture** to
+Open **Additional settings** beside the prompt and enable **Sculpture model** to
 generate a voxel sculpture with connected bricks and deterministic instruction
 ordering. It uses the paired
 `ldraw-nova` sculpture toolkit and the existing model cards, viewer and step player;
 ordinary part-based generation remains the default. Build both companion branches
 together until sculpture support is included in a matching release.
 
-Hover or tap the info icon for an example and voxel-editor workflow. Attach voxel
-JSON exported from an external editor; the agent can adapt it to the toolkit's input format.
+Hover or tap the info icon for an example and sculpture-editor help. Completed
+sculpture outputs offer **Sculpture editor** on their model card: rotate, add, paint
+or erase cells, then **Save model** to rebuild bricks and instructions as a new
+version. The original is kept. Editing and rebuilding need no AI request.
 The example image is rendered from the paired toolkit's reproducible
 [owl generator](https://github.com/jjohnson5253/ldraw-nova/blob/codex/3d-sculpture-mode/examples/sculpture/generate.py).
+
+The editor adapts BrickBuilderAI’s manual voxel viewer; its
+[MIT license](web/frontend/public/licenses/BrickBuilderAI-MIT.txt) is included in the web build.
 
 ## Overview
 
