@@ -22,8 +22,9 @@ Hover or tap the info icon for an example and sculpture-editor help. Completed
 sculpture outputs offer **Sculpture editor** on their model card: rotate, add, paint
 or erase cells, then **Save model** to rebuild bricks and instructions as a new
 version. The original is kept. Editing and rebuilding need no AI request.
-The example image is rendered from the paired toolkit's reproducible
-[owl generator](https://github.com/jjohnson5253/ldraw-nova/blob/codex/3d-sculpture-mode/examples/sculpture/generate.py).
+The example image is rendered from a
+[Pikachu export from BrickBuilderAI](https://brickbuilder.ai/generated-model?id=4121b49f-7e0a-482b-9e4e-7148a5250f04),
+rebuilt with the paired toolkit's [example importer](https://github.com/jjohnson5253/ldraw-nova/blob/codex/3d-sculpture-mode/examples/sculpture/README.md).
 
 The editor adapts BrickBuilderAI’s manual voxel viewer; its
 [MIT license](web/frontend/public/licenses/BrickBuilderAI-MIT.txt) is included in the web build.

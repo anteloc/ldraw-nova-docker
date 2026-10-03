@@ -100,7 +100,7 @@ test("sculpture info shows an example and sculpture-editor help on hover, focus 
   const help = document.querySelector('.sculpture-help')!;
   assert.match(help.textContent!, /sculpture editor.*completed model/);
   assert.match(help.textContent!, /Estimated time: around 1–2 minutes for simple sculptures/);
-  assert.match(help.querySelector('img')!.getAttribute('alt')!, /owl sculpture/);
+  assert.match(help.querySelector('img')!.getAttribute('alt')!, /Pikachu sculpture/);
   assert.match(help.querySelector('img')!.getAttribute('alt')!, /without a display base/);
   assert.ok(info.querySelector('svg[aria-hidden="true"]'));
   assert.equal((document.querySelector('.sculpture-option input') as HTMLInputElement).checked, false);

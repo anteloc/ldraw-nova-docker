@@ -79,11 +79,11 @@ export default function AdditionalSettings({ options, onChange, disabled }: {
         </button>
       </div>
       {info && <div id={helpId} className="sculpture-help" role="region" aria-label="About Sculpture model">
-        <img src={sculptureExample} width="1000" height="800" alt="An owl sculpture built from connected brown, white and yellow LEGO bricks without a display base" />
+        <img src={sculptureExample} width="1000" height="800" alt="A Pikachu sculpture built from connected yellow, black and red LEGO bricks without a display base" />
         <p>Turn a 3D voxel shape into a LEGO sculpture, with connected bricks and ordered building steps.</p>
         <p>Sculpture models can be quicker than detailed part-by-part builds. Estimated time: around 1–2 minutes for simple sculptures; size and AI model speed affect timing.</p>
         <p>Use the sculpture editor on your completed model to add, paint or erase cells, then rebuild connected bricks and instructions.</p>
-        <small className="muted">Example generated with this mode. No display base is added unless requested.</small>
+        <small className="muted">Example rebuilt with Sculpture model. No display base is added unless requested.</small>
       </div>}
     </div>, document.body)}
   </>;
