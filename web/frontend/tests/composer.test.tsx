@@ -100,7 +100,7 @@ test("sculpture info shows an example and sculpture-editor help on hover, focus 
   const help = document.querySelector('.sculpture-help')!;
   assert.equal(help.querySelector('strong')!.textContent, 'Sculpture mode features:');
   assert.deepEqual([...help.querySelectorAll('li')].map(item => item.textContent), [
-    'Guarantees buildability',
+    'Guarantees part connectivity',
     'Generates much quicker (1-2 minutes)',
     'Sets can be opened in the Sculpture Editor to add, paint, or erase bricks.',
   ]);

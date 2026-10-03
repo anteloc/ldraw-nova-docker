@@ -82,7 +82,7 @@ export default function AdditionalSettings({ options, onChange, disabled }: {
         <img src={sculptureExample} width="1000" height="800" alt="A Pikachu sculpture built from connected yellow, black and red LEGO bricks without a display base" />
         <p><strong>Sculpture mode features:</strong></p>
         <ul>
-          <li>Guarantees buildability</li>
+          <li>Guarantees part connectivity</li>
           <li>Generates much quicker (1-2 minutes)</li>
           <li>Sets can be opened in the Sculpture Editor to add, paint, or erase bricks.</li>
         </ul>
