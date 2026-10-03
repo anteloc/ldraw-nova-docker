@@ -11,11 +11,17 @@
 
 ## Optional 3D sculpture
 
-Select **3D sculpture** beside the prompt to generate a voxel sculpture with
-connected bricks and deterministic instruction ordering. It uses the paired
+Open **Additional settings** beside the prompt and enable **3D sculpture** to
+generate a voxel sculpture with connected bricks and deterministic instruction
+ordering. It uses the paired
 `ldraw-nova` sculpture toolkit and the existing model cards, viewer and step player;
 ordinary part-based generation remains the default. Build both companion branches
 together until sculpture support is included in a matching release.
+
+Hover or tap the info icon for an example and voxel-editor workflow. Attach voxel
+JSON exported from an external editor; the agent can adapt it to the toolkit's input format.
+The example image is rendered from the paired toolkit's reproducible
+[owl generator](https://github.com/jjohnson5253/ldraw-nova/blob/codex/3d-sculpture-mode/examples/sculpture/generate.py).
 
 ## Overview
 

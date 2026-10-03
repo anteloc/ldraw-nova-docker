@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useApp } from "../context";
 import type { TurnOptions, DocumentUpload } from "../api";
 import ModelPicker from "./ModelPicker";
+import AdditionalSettings from "./AdditionalSettings";
 import { rememberModel, tokenLabel } from "../modelChoices";
 import DocumentIcon from "./DocumentIcon";
 
@@ -134,11 +135,6 @@ export default function Composer({ llmId, onLlmChange, onSend, onStop, running, 
           onChange={e => setOptions({ ...options, mode: e.target.value as TurnOptions["mode"] })}>
           <option value="agent">Agent</option><option value="plan">Plan</option>
         </select>
-        <label className="sculpture-option" title="Build a voxel sculpture with connected bricks and ordered instructions">
-          <input type="checkbox" checked={options.build_style === "sculpture"} disabled={disabled}
-            onChange={e => setOptions({ ...options, build_style: e.target.checked ? "sculpture" : "parts" })} />
-          3D sculpture
-        </label>
         {options.mode === "agent" && <select className="compact-control" aria-label="Permissions" title="Permissions for tools in the container" disabled={disabled} value={options.permissions}
           onChange={e => setOptions({ ...options, permissions: e.target.value as TurnOptions["permissions"] })}>
           <option value="ask">Ask first</option><option value="full">Full access</option><option value="read_only">Read only</option>
@@ -151,6 +147,7 @@ export default function Composer({ llmId, onLlmChange, onSend, onStop, running, 
           onChange={e => setOptions({ ...options, context_tokens: Number(e.target.value) })}>
           {profile.context_budgets.map(n => <option value={n} key={n}>{tokenLabel(n)}</option>)}
         </select>}
+        <AdditionalSettings options={options} onChange={setOptions} disabled={disabled} />
       </div>
       <span className="generation-cost-warning" role="note">⚠ Building models may incur charges.</span>
       {running ? <button type="button" className="danger send-button" onClick={onStop}>Stop</button> :
