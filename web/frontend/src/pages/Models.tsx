@@ -1,6 +1,9 @@
-import { useEffect, useRef, useState } from "react";
+import { lazy, Suspense, useEffect, useRef, useState } from "react";
 import { api, type ModelFile } from "../api";
 import ModelCard from "../components/ModelCard";
+import GlbImport from "../components/GlbImport";
+
+const SculptureEditor = lazy(() => import("../components/SculptureEditor"));
 
 // Opening the page scans data/generated; the backend queues snapshots for models
 // that have none, and we poll until they're all rendered.
@@ -13,6 +16,8 @@ export default function Models({ collection }: { collection: "models" | "gallery
   const [pending, setPending] = useState(0);
   const [error, setError] = useState<string | null>(null);
   const [query, setQuery] = useState("");
+  const [importing, setImporting] = useState(false);
+  const [editing, setEditing] = useState<ModelFile | null>(null);
   const deleted = useRef(new Set<string>());
 
   useEffect(() => {
@@ -73,6 +78,7 @@ export default function Models({ collection }: { collection: "models" | "gallery
           </p>
         </div>
         <div className="head-actions">
+          {!isGallery && <button className="primary" onClick={() => setImporting(true)}>Import GLB</button>}
           <input type="search" aria-label="Filter models" placeholder={isGallery ? "Filter by name or description" : "Filter by name, description or chat"} value={query} onChange={(e) => setQuery(e.target.value)} />
           {models && models.length > 0 && (
             <a className="button" href={`/api/${collection}/zip`}>
@@ -86,7 +92,7 @@ export default function Models({ collection }: { collection: "models" | "gallery
       {models?.length === 0 && (
         <p className="muted">{isGallery
           ? "No gallery models yet. Add models to models-gallery to include them here."
-          : "No models yet. Ask for one in a chat, or drop .mpd/.ldr/.dat files into data/generated."}</p>
+          : "No models yet. Import a GLB to make a LEGO sculpture, or ask for a model in a chat."}</p>
       )}
       {models && models.length > 0 && shown.length === 0 && <p className="muted">No models match your search.</p>}
       <div className="card-grid">
@@ -98,6 +104,8 @@ export default function Models({ collection }: { collection: "models" | "gallery
           }} />
         ))}
       </div>
+      {importing && <GlbImport onClose={() => setImporting(false)} onEdit={model => { setImporting(false); setEditing(model); }} />}
+      {editing && <Suspense fallback={null}><SculptureEditor model={editing} onClose={() => setEditing(null)} /></Suspense>}
     </div>
   );
 }

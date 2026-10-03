@@ -89,7 +89,7 @@ export type LlmEntry = {
 async function request<T>(url: string, init?: RequestInit): Promise<T> {
   const res = await fetch(url, {
     ...init,
-    headers: init?.body ? { "Content-Type": "application/json", ...init.headers } : init?.headers,
+    headers: init?.body && typeof init.body === "string" ? { "Content-Type": "application/json", ...init.headers } : init?.headers,
   });
   if (!res.ok) {
     let detail = res.statusText;
@@ -110,6 +110,9 @@ const json = (body: unknown) => JSON.stringify(body);
 export type SculptureData = { voxels: [number, number, number, number][]; revision: string; palette: { code: number; name: string; hex: string }[] };
 
 export const api = {
+  importGlb: (file: File, resolution: number, title: string) => request<{ model: ModelFile; chat_id: string; support_voxels: number; import: { surface_voxels: number; palette_colors: number; dimensions: number[] } }>(
+    `/api/models/import-glb?${new URLSearchParams({ resolution: String(resolution), title })}`,
+    { method: "POST", body: file, headers: { "Content-Type": "model/gltf-binary" } }),
   sculpture: (file: string) => request<SculptureData>(`/api/models/${encodeURIComponent(file)}/sculpture`),
   saveSculpture: (file: string, voxels: SculptureData["voxels"], revision: string) => request<{ model: ModelFile; chat_id: string; voxels: SculptureData["voxels"]; support_voxels: number }>(`/api/models/${encodeURIComponent(file)}/sculpture`, { method: "POST", body: json({ voxels, revision }) }),
   environment: () => request<{ variables: EnvironmentVariable[] }>("/api/environment"),

@@ -21,7 +21,7 @@ environment_config.initialize()
 
 import litellm
 import yaml
-from fastapi import FastAPI, HTTPException, Request
+from fastapi import FastAPI, HTTPException, Query, Request
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import FileResponse, JSONResponse, PlainTextResponse, StreamingResponse
 from fastapi.staticfiles import StaticFiles
@@ -550,6 +550,65 @@ def sculpture_get(filename: str):
 class SculptureEdit(BaseModel):
     voxels: list[list[StrictInt]] = Field(min_length=1, max_length=65536)
     revision: str
+
+
+_glb_import_lock = asyncio.Lock()
+
+
+@app.post("/api/models/import-glb")
+async def import_glb(request: Request, resolution: int = Query(24, ge=8, le=48),
+                     title: str = Query("Imported GLB", min_length=1, max_length=120)):
+    """Upload a bounded binary GLB and publish through the sculpture pipeline."""
+    import struct
+    import uuid
+    import tools
+    if request.headers.get("content-type", "").split(";")[0] not in {"model/gltf-binary", "application/octet-stream"}:
+        raise HTTPException(415, "Upload a binary .glb file")
+    if not title.strip() or any(ord(c) < 32 for c in title):
+        raise HTTPException(422, "Use a single-line model name")
+    if _glb_import_lock.locked():
+        raise HTTPException(429, "Another GLB is being converted. Try again when it finishes.")
+    async with _glb_import_lock:
+        data = bytearray()
+        async for chunk in request.stream():
+            if len(data) + len(chunk) > 16 * 1024 * 1024:
+                raise HTTPException(413, "GLB exceeds 16 MB")
+            data.extend(chunk)
+        if len(data) < 20 or struct.unpack_from("<4sII", data) != (b"glTF", 2, len(data)):
+            raise HTTPException(422, "Choose a valid binary glTF 2.0 (.glb) file")
+        store = get_store()
+        chat = store.create_chat()
+        store.update_chat(chat["id"], title=f"Import {title.strip()}", options={"build_style": "sculpture"})
+        store.add_message(chat["id"], {"role": "user", "content": f"Import GLB as LEGO: {title.strip()}. Detail: {resolution} studs."})
+        ctx = tools.ToolContext(chat["id"], store, lambda *_: None)
+        stem = "glb-" + uuid.uuid4().hex[:12]
+        source = ctx.work_dir / (stem + ".glb")
+        source.parent.mkdir(parents=True, exist_ok=True)
+        source.write_bytes(data)
+        sandbox.give_to_agent(source.parent)
+        sandbox.give_to_agent(source)
+        await tools.t_run_toolkit(ctx, ["glb-sculpture", "output/" + source.name,
+            "--resolution", str(resolution), "--output", "output/" + stem + ".mpd",
+            "--title", title.strip(), "--report", "output/" + stem + ".checks.json"], timeout=600)
+        report_path = ctx.work_dir / (stem + ".checks.json")
+        report = json.loads(report_path.read_text()) if report_path.is_file() else {}
+        if not report.get("checks_passed"):
+            error = report.get("error") or "GLB conversion could not finish. Lower the resolution or simplify the mesh and retry."
+            store.add_message(chat["id"], {"role": "assistant", "content": f"GLB import failed: {error}"})
+            raise HTTPException(422, error)
+        published = await tools.t_publish_model(ctx, "output/" + stem + ".mpd", title.strip())
+        if not published.models:
+            raise HTTPException(422, "The imported model could not be published")
+        path = store.resolve(chat["id"], published.models[0]["model"])
+        if sculpture.read(path) is None:
+            raise HTTPException(422, "The imported model has no matching editable voxels")
+        supports = report.get("interior_support_voxels", 0) + report.get("exterior_support_voxels", 0)
+        store.add_message(chat["id"], {"role": "assistant",
+            "content": f"Imported {title.strip()} with {report.get('brick_count', 0)} bricks and {supports} added support cells. "
+                       "The sculpture has one stud-connected component and connected build steps. Open Sculpture editor to edit its voxels.",
+            "_models": [published.models[0]["id"]]})
+        return {"model": model_info(path), "chat_id": chat["id"], "import": report.get("import", {}),
+                "support_voxels": supports}
 
 
 @app.post("/api/models/{filename}/sculpture")

@@ -1,5 +1,27 @@
 # ldraw-nova-docker
 
+## GLB to LEGO
+
+On **My Models**, choose **Import GLB**, select a colored `.glb`, name the model
+and choose its detail level. **Convert to LEGO** samples embedded texture/material
+and vertex colors with Python Trimesh, maps them to LDraw colors, and uses the
+existing sculpture packing and connectivity repair. The result saves to My Models
+with a preview, parts list, connected build steps and **Sculpture editor** cells.
+Choose **Edit voxels** to adjust it, or open it in the existing viewer/player and
+download the MPD. No provider login is needed for an import.
+
+Use an uncompressed, self-contained glTF 2.0 binary with embedded PNG/JPEG textures,
+up to 16 MB, 100,000 instanced triangles and 4 megapixels per texture. The longest
+grid dimension can be 16, 24, 32 or 48 studs; lower detail converts faster and
+uses fewer bricks. Models that exceed bounded voxelization or cannot pass
+connectivity repair are rejected with an actionable error. Keep the dialog open
+while conversion runs. Only one GLB import runs at a time. Part connectivity is
+checked; physical stability is not certified.
+
+Build with the paired `ldraw-nova` **codex/glb-to-lego** branch until the companion
+PR is included in a matching release. The image's sculpture extra now includes
+Trimesh, Pillow and Rtree; it does not use the legacy C++ voxelizer.
+
 > [!IMPORTANT]
 > **Want to try the ldraw-nova web app? Start at the [ldraw-nova repo](https://github.com/anteloc/ldraw-nova#installation).**
 >
