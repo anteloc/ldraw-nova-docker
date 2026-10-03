@@ -1,0 +1,154 @@
+{
+  "source": "/opt/ldraw-nova/data/models-annotated/4956-1_House-with-Arch.mpd",
+  "source_sha256": "09b6fd49d940046b5141ae202b9bde8387f27c64c6bc3df8b616575a35c94873",
+  "source_section": "4956 - Main.ldr",
+  "parser_section": "4956 - Main.ldr",
+  "root": "ref-e8db62395eb7e2b7-00-4956---Main.ldr",
+  "renames": {
+    "4956 - Main.ldr": "ref-e8db62395eb7e2b7-00-4956---Main.ldr",
+    "4956 - House with Arch.ldr": "ref-e8db62395eb7e2b7-01-4956---House-with-Arch.ldr",
+    "4956 - Pilar.ldr": "ref-e8db62395eb7e2b7-02-4956---Pilar.ldr",
+    "4956 - Garage Door.ldr": "ref-e8db62395eb7e2b7-03-4956---Garage-Door.ldr",
+    "4956 - Garage Door Side.ldr": "ref-e8db62395eb7e2b7-04-4956---Garage-Door-Side.ldr",
+    "4956 - Tree.ldr": "ref-e8db62395eb7e2b7-05-4956---Tree.ldr",
+    "4956 - Bush.ldr": "ref-e8db62395eb7e2b7-06-4956---Bush.ldr",
+    "4956 - Mail Box.ldr": "ref-e8db62395eb7e2b7-07-4956---Mail-Box.ldr",
+    "4956 - Roof.ldr": "ref-e8db62395eb7e2b7-08-4956---Roof.ldr"
+  },
+  "attribution": [
+    {
+      "section": "4956 - Main.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "4956 - House with Arch.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "4956 - Pilar.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "4956 - Garage Door.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "4956 - Garage Door Side.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "4956 - Tree.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "4956 - Bush.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "4956 - Mail Box.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "4956 - Roof.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    }
+  ],
+  "changes": [
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "4956 - House with Arch.ldr",
+      "source_line": 611,
+      "before": [
+        [
+          0.707,
+          0.0,
+          -0.707
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.707,
+          0.0,
+          0.707
+        ]
+      ],
+      "after": [
+        [
+          0.707106781,
+          0.0,
+          -0.707106781
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.707106781,
+          0.0,
+          0.707106781
+        ]
+      ],
+      "max_coefficient_change": 0.00010678118654761093
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "4956 - House with Arch.ldr",
+      "source_line": 614,
+      "before": [
+        [
+          0.707,
+          0.0,
+          -0.707
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.707,
+          0.0,
+          0.707
+        ]
+      ],
+      "after": [
+        [
+          0.707106781,
+          0.0,
+          -0.707106781
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.707106781,
+          0.0,
+          0.707106781
+        ]
+      ],
+      "max_coefficient_change": 0.00010678118654761093
+    }
+  ],
+  "output_sha256": "9381dba034b42d435fed76d1404ef56b2b036b7aaa4fc1d1ee3c69a595a77f32",
+  "note": "Original authors and licences retained. Source bytes unchanged. Extraction is not validation or permission to relicense.",
+  "requested_identity": {
+    "id": "model-e8db62395eb7e2b7ff805cd2",
+    "kind": "models",
+    "model": "4956-1_House-with-Arch.mpd"
+  }
+}

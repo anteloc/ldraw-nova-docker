@@ -1,0 +1,49 @@
+{
+  "source": "/opt/ldraw-nova/data/models-annotated/4886-1_Experienced-Build.mpd",
+  "source_sha256": "daf59c3c32872030c101f43c5d4de398610509957deb14b89407a15b18cbcfe6",
+  "source_section": "4886 - main B.ldr",
+  "parser_section": "4886 - main B.ldr",
+  "root": "ref-03b0edc49eb0a3bc-00-4886---main-B.ldr",
+  "renames": {
+    "4886 - main B.ldr": "ref-03b0edc49eb0a3bc-00-4886---main-B.ldr",
+    "4886 - model B - building.ldr": "ref-03b0edc49eb0a3bc-01-4886---model-B---building.ldr",
+    "4886 - model B - lamp.ldr": "ref-03b0edc49eb0a3bc-02-4886---model-B---lamp.ldr",
+    "4886 - model B - tree 2.ldr": "ref-03b0edc49eb0a3bc-03-4886---model-B---tree-2.ldr",
+    "4886 - model B - tree 1.ldr": "ref-03b0edc49eb0a3bc-04-4886---model-B---tree-1.ldr"
+  },
+  "attribution": [
+    {
+      "section": "4886 - main B.ldr",
+      "author": "Robert Paciorek [bercik]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "4886 - model B - building.ldr",
+      "author": "Robert Paciorek [bercik]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "4886 - model B - lamp.ldr",
+      "author": "Robert Paciorek [bercik]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "4886 - model B - tree 2.ldr",
+      "author": "Robert Paciorek [bercik]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "4886 - model B - tree 1.ldr",
+      "author": "Robert Paciorek [bercik]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    }
+  ],
+  "changes": [],
+  "output_sha256": "80dc2a5574020933da283aad4f599640be4255d5f2bde39c1a15d527e104794c",
+  "note": "Original authors and licences retained. Source bytes unchanged. Extraction is not validation or permission to relicense.",
+  "requested_identity": {
+    "id": "model-03b0edc49eb0a3bcd500777b",
+    "kind": "models",
+    "model": "4886-1_Experienced-Build.mpd"
+  }
+}

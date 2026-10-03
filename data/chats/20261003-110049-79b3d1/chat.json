@@ -1,0 +1,13 @@
+{
+  "id": "20261003-110049-79b3d1",
+  "title": "plan first, and then, build me a beautiful cottage, a large \u2026",
+  "llm_model_id": "394a58b9f863",
+  "created_at": 1791025249.3988905,
+  "updated_at": 1791043822.1236422,
+  "options": {
+    "mode": "agent",
+    "permissions": "full",
+    "effort": "xhigh",
+    "context_tokens": 1000000
+  }
+}

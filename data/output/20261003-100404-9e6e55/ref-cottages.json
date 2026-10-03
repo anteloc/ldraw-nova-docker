@@ -1,0 +1,3257 @@
+{
+  "query": "a large country cottage house with a roof and garden",
+  "kind": "models",
+  "engine": "jev",
+  "source_field": "MODELS_DESCRIPTIONS_JEV.full_description",
+  "index_signature": "5a9a5482d9331e226db5209e53ce0f7474d0b24ae53e12dc402f951c917da8d8",
+  "results": [
+    {
+      "kind": "models",
+      "description": "A complete holiday house diorama featuring a furnished house with roof, landscaping, furniture, and decorative elements.",
+      "model": "5891-1_Holiday-House.mpd",
+      "id": "model-38782b38b6aec279cadaa3a8",
+      "source_field": "MODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "A complete holiday house diorama featuring a furnished house with roof, landscaping, furniture, and decorative elements.",
+      "original_full_description": "5891-1_Holiday-House.mpd|A complete holiday house diorama featuring a furnished house with roof, landscaping, furniture, and decorative elements.",
+      "source_exists": true,
+      "path": "/opt/ldraw-nova/data/models-annotated/5891-1_Holiday-House.mpd",
+      "source_sha256": "ff9db961426e24b0569a16cd0d553813c78042c9f865ce8931dec70e9ecdde2e",
+      "source_section": "5891 - Main.ldr",
+      "start_line": 1,
+      "parent_description": "A complete holiday house diorama featuring a furnished house with roof, landscaping, furniture, and decorative elements.",
+      "theme": "",
+      "direct_placements": 1,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "5891-1_Holiday-House.mpd|A complete holiday house diorama featuring a furnished house with roof, landscaping, furniture, and decorative elements.",
+      "score": 0.8,
+      "retrieval_rank": 1,
+      "inventory": {
+        "source_sha256": "ff9db961426e24b0569a16cd0d553813c78042c9f865ce8931dec70e9ecdde2e",
+        "parser_section": "5891 - Main.ldr",
+        "physical_placements": 342,
+        "expanded_leaf_count": 342,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "2357.dat",
+            "count": 1,
+            "description": "Brick  2 x  2 Corner",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2412b.dat",
+            "count": 3,
+            "description": "Tile  1 x  2 Grille with Groove",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2431.dat",
+            "count": 1,
+            "description": "Tile  1 x  4 with Groove",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2780.dat",
+            "count": 2,
+            "description": "Technic Pin with Friction and Slots",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3001.dat",
+            "count": 2,
+            "description": "Brick  2 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3003.dat",
+            "count": 3,
+            "description": "Brick  2 x  2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3004.dat",
+            "count": 23,
+            "description": "Brick  1 x  2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3005.dat",
+            "count": 13,
+            "description": "Brick  1 x  1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3009.dat",
+            "count": 20,
+            "description": "Brick  1 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3010.dat",
+            "count": 6,
+            "description": "Brick  1 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3020.dat",
+            "count": 3,
+            "description": "Plate  2 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3021.dat",
+            "count": 11,
+            "description": "Plate  2 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3022.dat",
+            "count": 5,
+            "description": "Plate  2 x  2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3023.dat",
+            "count": 9,
+            "description": "~Moved to 3023b",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3024.dat",
+            "count": 3,
+            "description": "Plate  1 x  1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3034.dat",
+            "count": 1,
+            "description": "Plate  2 x  8",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3037.dat",
+            "count": 15,
+            "description": "Slope Brick 45  2 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3038.dat",
+            "count": 16,
+            "description": "Slope Brick 45  2 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3039.dat",
+            "count": 19,
+            "description": "Slope Brick 45  2 x  2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3040b.dat",
+            "count": 3,
+            "description": "Slope Brick 45  2 x  1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3041.dat",
+            "count": 7,
+            "description": "Slope Brick 45  2 x  4 Double",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3044a.dat",
+            "count": 4,
+            "description": "Slope Brick 45  2 x  1 Double with Hollow Bottom",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3049c.dat",
+            "count": 1,
+            "description": "Slope Brick 45  1 x  2 Double / Inverted without Centre Stud",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3062b.dat",
+            "count": 9,
+            "description": "Brick  1 x  1 Round with Hollow Stud",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3069b.dat",
+            "count": 20,
+            "description": "Tile  1 x  2 with Groove",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3622.dat",
+            "count": 21,
+            "description": "Brick  1 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3660.dat",
+            "count": 2,
+            "description": "~Moved to 3660a",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3665a.dat",
+            "count": 24,
+            "description": "Slope Brick 45  2 x  1 Inverted without Inner Stopper Ring",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3666.dat",
+            "count": 1,
+            "description": "Plate  1 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3710.dat",
+            "count": 2,
+            "description": "Plate  1 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3857.dat",
+            "count": 1,
+            "description": "Baseplate 16 x 32 with Square Corners",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4070.dat",
+            "count": 3,
+            "description": "Brick  1 x  1 with Headlight",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4286.dat",
+            "count": 2,
+            "description": "Slope Brick 33  3 x  1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "43898.dat",
+            "count": 1,
+            "description": "Dish  3 x  3 Inverted",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4445.dat",
+            "count": 10,
+            "description": "Slope Brick 45  2 x  8",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4599b.dat",
+            "count": 2,
+            "description": "Tap  1 x  1 without Hole in Spout",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4740.dat",
+            "count": 1,
+            "description": "Dish  2 x  2 Inverted",
+            "physical_index_entry": true
+          },
+          {
+            "part": "48336.dat",
+            "count": 1,
+            "description": "Plate  1 x  2 with Handle Type 2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4865a.dat",
+            "count": 3,
+            "description": "Panel  1 x  2 x  1 with Square Corners",
+            "physical_index_entry": true
+          },
+          {
+            "part": "54200.dat",
+            "count": 3,
+            "description": "Slope Brick 31  1 x  1 x  0.667",
+            "physical_index_entry": true
+          },
+          {
+            "part": "59900.dat",
+            "count": 3,
+            "description": "Cone  1 x  1 with Stop",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6019.dat",
+            "count": 2,
+            "description": "Plate  1 x  1 with Clip Horizontal (Thick U-Clip)",
+            "physical_index_entry": true
+          },
+          {
+            "part": "60592.dat",
+            "count": 2,
+            "description": "Window  1 x  2 x  2 without Sill",
+            "physical_index_entry": true
+          },
+          {
+            "part": "60594.dat",
+            "count": 3,
+            "description": "Window  1 x  4 x  3 without Shutter Tabs",
+            "physical_index_entry": true
+          },
+          {
+            "part": "60596.dat",
+            "count": 1,
+            "description": "Door  1 x  4 x  6 Frame",
+            "physical_index_entry": true
+          },
+          {
+            "part": "60601.dat",
+            "count": 2,
+            "description": "Glass for Window  1 x  2 x  2 without Sill",
+            "physical_index_entry": true
+          },
+          {
+            "part": "60623.dat",
+            "count": 1,
+            "description": "Door  1 x  4 x  6 with 4 Panes and Stud Handle",
+            "physical_index_entry": true
+          },
+          {
+            "part": "60806.dat",
+            "count": 1,
+            "description": "Window  4 x  4 x  3 Roof with Bottom Panel",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6111.dat",
+            "count": 6,
+            "description": "Brick  1 x 10",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6141.dat",
+            "count": 34,
+            "description": "Plate  1 x  1 Round",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6143.dat",
+            "count": 2,
+            "description": "Brick  2 x  2 Round Reinforced",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6541.dat",
+            "count": 4,
+            "description": "Technic Brick  1 x  1 with Hole",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6636.dat",
+            "count": 3,
+            "description": "Tile  1 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "86210.dat",
+            "count": 1,
+            "description": "Glass for Window  1 x  4 x  3 Opening",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 6,
+        "technic_share": 0.017543859649122806,
+        "legacy_parts": [
+          {
+            "part": "3023.dat",
+            "count": 9,
+            "description": "~Moved to 3023b",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3660.dat",
+            "count": 2,
+            "description": "~Moved to 3660a",
+            "physical_index_entry": true
+          }
+        ],
+        "shape_fingerprint": "65f6c2cb6680d3200333e49b14752ade1fd677b4c8edbd208872d236fc0cf351",
+        "recipe_fingerprint": "07ac9aec5a686bf959219cb095c67131a1418239adcf2610b90451ffdcba5c98",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [],
+        "dependencies": [
+          {
+            "section": "5891 - Main.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "5891 - Holidays House.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "5891 - Plant.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "5891 - Fire.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "5891 - Roof Hinge.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "5891 - Roof.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "5891 - Chair.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "5891 - Table.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "5891 - Lamp.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      }
+    },
+    {
+      "kind": "models",
+      "description": "A complete house built on a green baseplate, featuring a white-walled main structure with arched elements, a red-sloped roof, garage with black door, a tree, bushes, a mailbox, and a pillar.",
+      "model": "4956-1_House-with-Arch.mpd",
+      "id": "model-e8db62395eb7e2b7ff805cd2",
+      "source_field": "MODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "A complete house built on a green baseplate, featuring a white-walled main structure with arched elements, a red-sloped roof, garage with black door, a tree, bushes, a mailbox, and a pillar.",
+      "original_full_description": "4956-1_House-with-Arch.mpd|A complete house built on a green baseplate, featuring a white-walled main structure with arched elements, a red-sloped roof, garage with black door, a tree, bushes, a mailbox, and a pillar.",
+      "source_exists": true,
+      "path": "/opt/ldraw-nova/data/models-annotated/4956-1_House-with-Arch.mpd",
+      "source_sha256": "09b6fd49d940046b5141ae202b9bde8387f27c64c6bc3df8b616575a35c94873",
+      "source_section": "4956 - Main.ldr",
+      "start_line": 1,
+      "parent_description": "A complete house built on a green baseplate, featuring a white-walled main structure with arched elements, a red-sloped roof, garage with black door, a tree, bushes, a mailbox, and a pillar.",
+      "theme": "",
+      "direct_placements": 2,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "4956-1_House-with-Arch.mpd|A complete house built on a green baseplate, featuring a white-walled main structure with arched elements, a red-sloped roof, garage with black door, a tree, bushes, a mailbox, and a pillar.",
+      "score": 0.77,
+      "retrieval_rank": 2,
+      "inventory": {
+        "source_sha256": "09b6fd49d940046b5141ae202b9bde8387f27c64c6bc3df8b616575a35c94873",
+        "parser_section": "4956 - Main.ldr",
+        "physical_placements": 631,
+        "expanded_leaf_count": 631,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "2357.dat",
+            "count": 17,
+            "description": "Brick  2 x  2 Corner",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2412b.dat",
+            "count": 5,
+            "description": "Tile  1 x  2 Grille with Groove",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2420.dat",
+            "count": 1,
+            "description": "Plate  2 x  2 Corner",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2423.dat",
+            "count": 4,
+            "description": "Plant Leaves  4 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2431.dat",
+            "count": 4,
+            "description": "Tile  1 x  4 with Groove",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2432.dat",
+            "count": 2,
+            "description": "Tile  1 x  2 with Handle",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2445.dat",
+            "count": 2,
+            "description": "Plate  2 x 12",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2454.dat",
+            "count": 2,
+            "description": "~Brick  1 x  2 x  5 (Obsolete)",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2456.dat",
+            "count": 8,
+            "description": "Brick  2 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2465.dat",
+            "count": 2,
+            "description": "Brick  1 x 16",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2780.dat",
+            "count": 2,
+            "description": "Technic Pin with Friction and Slots",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3001.dat",
+            "count": 4,
+            "description": "Brick  2 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3002.dat",
+            "count": 6,
+            "description": "Brick  2 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3003.dat",
+            "count": 11,
+            "description": "Brick  2 x  2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3004.dat",
+            "count": 22,
+            "description": "Brick  1 x  2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3005.dat",
+            "count": 22,
+            "description": "Brick  1 x  1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3007.dat",
+            "count": 9,
+            "description": "Brick  2 x  8",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3008.dat",
+            "count": 37,
+            "description": "Brick  1 x  8",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3009.dat",
+            "count": 15,
+            "description": "Brick  1 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3010.dat",
+            "count": 22,
+            "description": "Brick  1 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "30165.dat",
+            "count": 1,
+            "description": "Brick  2 x  2 with Curved Top and  2 Studs on Top",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3020.dat",
+            "count": 3,
+            "description": "Plate  2 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3021.dat",
+            "count": 1,
+            "description": "Plate  2 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3022.dat",
+            "count": 2,
+            "description": "Plate  2 x  2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3023.dat",
+            "count": 25,
+            "description": "~Moved to 3023b",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3024.dat",
+            "count": 6,
+            "description": "Plate  1 x  1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3031.dat",
+            "count": 1,
+            "description": "Plate  4 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3032.dat",
+            "count": 7,
+            "description": "Plate  4 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3034.dat",
+            "count": 1,
+            "description": "Plate  2 x  8",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3035.dat",
+            "count": 5,
+            "description": "Plate  4 x  8",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3036.dat",
+            "count": 1,
+            "description": "Plate  6 x  8",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3037.dat",
+            "count": 63,
+            "description": "Slope Brick 45  2 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3038.dat",
+            "count": 10,
+            "description": "Slope Brick 45  2 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3039.dat",
+            "count": 12,
+            "description": "Slope Brick 45  2 x  2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3040b.dat",
+            "count": 9,
+            "description": "Slope Brick 45  2 x  1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3045.dat",
+            "count": 2,
+            "description": "Slope Brick 45  2 x  2 Double Convex",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3046.dat",
+            "count": 10,
+            "description": "Slope Brick 45  2 x  2 Double Concave",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3048b.dat",
+            "count": 2,
+            "description": "Slope Brick 45  1 x  2 Triple",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3049c.dat",
+            "count": 2,
+            "description": "Slope Brick 45  1 x  2 Double / Inverted without Centre Stud",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3062b.dat",
+            "count": 21,
+            "description": "Brick  1 x  1 Round with Hollow Stud",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3069b.dat",
+            "count": 1,
+            "description": "Tile  1 x  2 with Groove",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3070b.dat",
+            "count": 60,
+            "description": "Tile  1 x  1 with Groove",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3185.dat",
+            "count": 4,
+            "description": "Fence Lattice  1 x  4 x  2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32000.dat",
+            "count": 4,
+            "description": "Technic Brick  1 x  2 with Holes",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32028.dat",
+            "count": 4,
+            "description": "Plate  1 x  2 with Door Rail",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3455.dat",
+            "count": 5,
+            "description": "Arch  1 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3460.dat",
+            "count": 10,
+            "description": "Plate  1 x  8",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3622.dat",
+            "count": 22,
+            "description": "Brick  1 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3660.dat",
+            "count": 2,
+            "description": "~Moved to 3660a",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3665a.dat",
+            "count": 4,
+            "description": "Slope Brick 45  2 x  1 Inverted without Inner Stopper Ring",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3666.dat",
+            "count": 4,
+            "description": "Plate  1 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3710.dat",
+            "count": 15,
+            "description": "Plate  1 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3794a.dat",
+            "count": 4,
+            "description": "Plate  1 x  2 without Groove with 1 Centre Stud",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3795.dat",
+            "count": 2,
+            "description": "Plate  2 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3811.dat",
+            "count": 1,
+            "description": "Baseplate 32 x 32",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3854.dat",
+            "count": 8,
+            "description": "Window  1 x  2 x  3 Pane",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4070.dat",
+            "count": 5,
+            "description": "Brick  1 x  1 with Headlight",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4085c.dat",
+            "count": 3,
+            "description": "Plate  1 x  1 with Clip Vertical (Thick U-Clip)",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4162.dat",
+            "count": 6,
+            "description": "Tile  1 x  8",
+            "physical_index_entry": true
+          },
+          {
+            "part": "42446.dat",
+            "count": 2,
+            "description": "Bracket  1 x  1 -  1 x  1 Thin with Stud Hole",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4282.dat",
+            "count": 2,
+            "description": "Plate  2 x 16",
+            "physical_index_entry": true
+          },
+          {
+            "part": "44728.dat",
+            "count": 2,
+            "description": "Bracket  1 x  2 -  2 x  2 Down",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4477.dat",
+            "count": 5,
+            "description": "Plate  1 x 10",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4510.dat",
+            "count": 4,
+            "description": "Plate  1 x  8 with Door Rail",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4599a.dat",
+            "count": 2,
+            "description": "Tap  1 x  1 with Hole in Spout",
+            "physical_index_entry": true
+          },
+          {
+            "part": "47899c01.dat",
+            "count": 1,
+            "description": "Door  1 x  4 x  5 Left with Trans Clear Glass",
+            "physical_index_entry": true
+          },
+          {
+            "part": "54200.dat",
+            "count": 1,
+            "description": "Slope Brick 31  1 x  1 x  0.667",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6112.dat",
+            "count": 4,
+            "description": "Brick  1 x 12",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6141.dat",
+            "count": 54,
+            "description": "Plate  1 x  1 Round",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6556.dat",
+            "count": 4,
+            "description": "Train Window  1 x  4 x  3 with Shutter Holes",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6636.dat",
+            "count": 4,
+            "description": "Tile  1 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "73194c01.dat",
+            "count": 1,
+            "description": "Door  1 x  4 x  5 Right with Trans Clear Glass",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 6,
+        "technic_share": 0.009508716323296355,
+        "legacy_parts": [
+          {
+            "part": "2454.dat",
+            "count": 2,
+            "description": "~Brick  1 x  2 x  5 (Obsolete)",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3023.dat",
+            "count": 25,
+            "description": "~Moved to 3023b",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3660.dat",
+            "count": 2,
+            "description": "~Moved to 3660a",
+            "physical_index_entry": true
+          }
+        ],
+        "shape_fingerprint": "8a684c38bee3088d92a5b3c11729e1ef49e2e9167d40b1fa10b03280bc11efc7",
+        "recipe_fingerprint": "88030470b31ce6c41e799ba842e7e8ddb51087b61a1352e07aa9adb7b099a4ed",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [],
+        "dependencies": [
+          {
+            "section": "4956 - Main.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "4956 - House with Arch.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "4956 - Pilar.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "4956 - Garage Door.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "4956 - Garage Door Side.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "4956 - Tree.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "4956 - Bush.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "4956 - Mail Box.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "4956 - Roof.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      }
+    },
+    {
+      "kind": "models",
+      "description": "A complete building set featuring a white-walled house with a green baseplate and a red sloped roof.",
+      "model": "4956-1.mpd",
+      "id": "model-9893c89a9d50f1b132fabcb0",
+      "source_field": "MODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "A complete building set featuring a white-walled house with a green baseplate and a red sloped roof.",
+      "original_full_description": "4956-1.mpd|A complete building set featuring a white-walled house with a green baseplate and a red sloped roof.",
+      "source_exists": true,
+      "path": "/opt/ldraw-nova/data/models-annotated/4956-1.mpd",
+      "source_sha256": "a08e4386880c35c0a091a0b7cf413ad7ea6a018cb530c7c0954067cc2f3bd0a4",
+      "source_section": "4956 - Main.ldr",
+      "start_line": 1,
+      "parent_description": "A complete building set featuring a white-walled house with a green baseplate and a red sloped roof.",
+      "theme": "",
+      "direct_placements": 2,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "4956-1.mpd|A complete building set featuring a white-walled house with a green baseplate and a red sloped roof.",
+      "score": 0.73,
+      "retrieval_rank": 3,
+      "inventory": {
+        "source_sha256": "a08e4386880c35c0a091a0b7cf413ad7ea6a018cb530c7c0954067cc2f3bd0a4",
+        "parser_section": "4956 - Main.ldr",
+        "physical_placements": 629,
+        "expanded_leaf_count": 629,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "2357.dat",
+            "count": 17,
+            "description": "Brick  2 x  2 Corner",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2412b.dat",
+            "count": 3,
+            "description": "Tile  1 x  2 Grille with Groove",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2420.dat",
+            "count": 6,
+            "description": "Plate  2 x  2 Corner",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2423.dat",
+            "count": 4,
+            "description": "Plant Leaves  4 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2431.dat",
+            "count": 9,
+            "description": "Tile  1 x  4 with Groove",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2432.dat",
+            "count": 2,
+            "description": "Tile  1 x  2 with Handle",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2445.dat",
+            "count": 2,
+            "description": "Plate  2 x 12",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2456.dat",
+            "count": 7,
+            "description": "Brick  2 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2465.dat",
+            "count": 2,
+            "description": "Brick  1 x 16",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3001.dat",
+            "count": 4,
+            "description": "Brick  2 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3002.dat",
+            "count": 5,
+            "description": "Brick  2 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3003.dat",
+            "count": 11,
+            "description": "Brick  2 x  2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3004.dat",
+            "count": 19,
+            "description": "Brick  1 x  2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3005.dat",
+            "count": 22,
+            "description": "Brick  1 x  1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3007.dat",
+            "count": 9,
+            "description": "Brick  2 x  8",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3008.dat",
+            "count": 36,
+            "description": "Brick  1 x  8",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3009.dat",
+            "count": 13,
+            "description": "Brick  1 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3010.dat",
+            "count": 23,
+            "description": "Brick  1 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3020.dat",
+            "count": 1,
+            "description": "Plate  2 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3021.dat",
+            "count": 1,
+            "description": "Plate  2 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3022.dat",
+            "count": 1,
+            "description": "Plate  2 x  2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3023.dat",
+            "count": 18,
+            "description": "~Moved to 3023b",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3024.dat",
+            "count": 2,
+            "description": "Plate  1 x  1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3034.dat",
+            "count": 1,
+            "description": "Plate  2 x  8",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3036.dat",
+            "count": 1,
+            "description": "Plate  6 x  8",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3037.dat",
+            "count": 77,
+            "description": "Slope Brick 45  2 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3038.dat",
+            "count": 16,
+            "description": "Slope Brick 45  2 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3039.dat",
+            "count": 20,
+            "description": "Slope Brick 45  2 x  2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3040b.dat",
+            "count": 9,
+            "description": "Slope Brick 45  2 x  1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3041.dat",
+            "count": 8,
+            "description": "Slope Brick 45  2 x  4 Double",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3043.dat",
+            "count": 1,
+            "description": "Slope Brick 45  2 x  2 Double",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3046.dat",
+            "count": 16,
+            "description": "Slope Brick 45  2 x  2 Double Concave",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3048b.dat",
+            "count": 4,
+            "description": "Slope Brick 45  1 x  2 Triple",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3049c.dat",
+            "count": 2,
+            "description": "Slope Brick 45  1 x  2 Double / Inverted without Centre Stud",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3062b.dat",
+            "count": 21,
+            "description": "Brick  1 x  1 Round with Hollow Stud",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3068b.dat",
+            "count": 1,
+            "description": "Tile  2 x  2 with Groove",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3069b.dat",
+            "count": 9,
+            "description": "Tile  1 x  2 with Groove",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3070b.dat",
+            "count": 56,
+            "description": "Tile  1 x  1 with Groove",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3185.dat",
+            "count": 6,
+            "description": "Fence Lattice  1 x  4 x  2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32000.dat",
+            "count": 4,
+            "description": "Technic Brick  1 x  2 with Holes",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32028.dat",
+            "count": 3,
+            "description": "Plate  1 x  2 with Door Rail",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3455.dat",
+            "count": 5,
+            "description": "Arch  1 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3460.dat",
+            "count": 1,
+            "description": "Plate  1 x  8",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3622.dat",
+            "count": 20,
+            "description": "Brick  1 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3660.dat",
+            "count": 2,
+            "description": "~Moved to 3660a",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3665a.dat",
+            "count": 4,
+            "description": "Slope Brick 45  2 x  1 Inverted without Inner Stopper Ring",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3666.dat",
+            "count": 4,
+            "description": "Plate  1 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3710.dat",
+            "count": 15,
+            "description": "Plate  1 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3795.dat",
+            "count": 3,
+            "description": "Plate  2 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3811.dat",
+            "count": 1,
+            "description": "Baseplate 32 x 32",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3854.dat",
+            "count": 8,
+            "description": "Window  1 x  2 x  3 Pane",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4070.dat",
+            "count": 7,
+            "description": "Brick  1 x  1 with Headlight",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4162.dat",
+            "count": 18,
+            "description": "Tile  1 x  8",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4282.dat",
+            "count": 2,
+            "description": "Plate  2 x 16",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4459.dat",
+            "count": 2,
+            "description": "Technic Pin with Friction",
+            "physical_index_entry": true
+          },
+          {
+            "part": "44728.dat",
+            "count": 1,
+            "description": "Bracket  1 x  2 -  2 x  2 Down",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4477.dat",
+            "count": 6,
+            "description": "Plate  1 x 10",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4510.dat",
+            "count": 4,
+            "description": "Plate  1 x  8 with Door Rail",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4599a.dat",
+            "count": 2,
+            "description": "Tap  1 x  1 with Hole in Spout",
+            "physical_index_entry": true
+          },
+          {
+            "part": "47899c01.dat",
+            "count": 1,
+            "description": "Door  1 x  4 x  5 Left with Trans Clear Glass",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6112.dat",
+            "count": 4,
+            "description": "Brick  1 x 12",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6141.dat",
+            "count": 38,
+            "description": "Plate  1 x  1 Round",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6556.dat",
+            "count": 4,
+            "description": "Train Window  1 x  4 x  3 with Shutter Holes",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6636.dat",
+            "count": 4,
+            "description": "Tile  1 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "73194c01.dat",
+            "count": 1,
+            "description": "Door  1 x  4 x  5 Right with Trans Clear Glass",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 6,
+        "technic_share": 0.009538950715421303,
+        "legacy_parts": [
+          {
+            "part": "3023.dat",
+            "count": 18,
+            "description": "~Moved to 3023b",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3660.dat",
+            "count": 2,
+            "description": "~Moved to 3660a",
+            "physical_index_entry": true
+          }
+        ],
+        "shape_fingerprint": "54b0feb3fa58a9da5e1324927c6774e3c2da6edec3e8df9037e1fb365ff4affc",
+        "recipe_fingerprint": "ec5b259fc2818382690eb48037a3f637a773b015bff1ed932caf93a5f7b1b066",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [],
+        "dependencies": [
+          {
+            "section": "4956 - Main.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "4956 - House.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "4956 - Roof.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      }
+    },
+    {
+      "kind": "models",
+      "description": "A building set scene composed of a white brick house with a red sloped roof, accompanied by a green tree and small bushes.",
+      "model": "4886-1_Advanced-Build.mpd",
+      "id": "model-5e535725e6edad053402c964",
+      "source_field": "MODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "A building set scene composed of a white brick house with a red sloped roof, accompanied by a green tree and small bushes.",
+      "original_full_description": "4886-1_Advanced-Build.mpd|A building set scene composed of a white brick house with a red sloped roof, accompanied by a green tree and small bushes.",
+      "source_exists": true,
+      "path": "/opt/ldraw-nova/data/models-annotated/4886-1_Advanced-Build.mpd",
+      "source_sha256": "503488b1729f1e10413c52323d8ddc26e488f95c8ad503c13fd9476f373425aa",
+      "source_section": "4886 - Main.ldr",
+      "start_line": 1,
+      "parent_description": "A building set scene composed of a white brick house with a red sloped roof, accompanied by a green tree and small bushes.",
+      "theme": "",
+      "direct_placements": 4,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "4886-1_Advanced-Build.mpd|A building set scene composed of a white brick house with a red sloped roof, accompanied by a green tree and small bushes.",
+      "score": 0.67,
+      "retrieval_rank": 4,
+      "inventory": {
+        "source_sha256": "503488b1729f1e10413c52323d8ddc26e488f95c8ad503c13fd9476f373425aa",
+        "parser_section": "4886 - Main.ldr",
+        "physical_placements": 615,
+        "expanded_leaf_count": 615,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "2357.dat",
+            "count": 7,
+            "description": "Brick  2 x  2 Corner",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2420.dat",
+            "count": 5,
+            "description": "Plate  2 x  2 Corner",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2453a.dat",
+            "count": 1,
+            "description": "Brick  1 x  1 x  5 with Hollow Stud",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2456.dat",
+            "count": 4,
+            "description": "Brick  2 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2877.dat",
+            "count": 1,
+            "description": "Brick  1 x  2 with Grille",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3001.dat",
+            "count": 26,
+            "description": "Brick  2 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3003.dat",
+            "count": 2,
+            "description": "Brick  2 x  2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3004.dat",
+            "count": 32,
+            "description": "Brick  1 x  2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3005.dat",
+            "count": 15,
+            "description": "Brick  1 x  1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3006.dat",
+            "count": 2,
+            "description": "Brick  2 x 10",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3008.dat",
+            "count": 30,
+            "description": "Brick  1 x  8",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3009.dat",
+            "count": 26,
+            "description": "Brick  1 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3010.dat",
+            "count": 18,
+            "description": "Brick  1 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3020.dat",
+            "count": 8,
+            "description": "Plate  2 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3021.dat",
+            "count": 4,
+            "description": "Plate  2 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3022.dat",
+            "count": 4,
+            "description": "Plate  2 x  2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3023.dat",
+            "count": 15,
+            "description": "~Moved to 3023b",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3024.dat",
+            "count": 1,
+            "description": "Plate  1 x  1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3034.dat",
+            "count": 6,
+            "description": "Plate  2 x  8",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3037.dat",
+            "count": 90,
+            "description": "Slope Brick 45  2 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3038.dat",
+            "count": 20,
+            "description": "Slope Brick 45  2 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3039.dat",
+            "count": 22,
+            "description": "Slope Brick 45  2 x  2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3040b.dat",
+            "count": 24,
+            "description": "Slope Brick 45  2 x  1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3041.dat",
+            "count": 8,
+            "description": "Slope Brick 45  2 x  4 Double",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3043.dat",
+            "count": 2,
+            "description": "Slope Brick 45  2 x  2 Double",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3044b.dat",
+            "count": 2,
+            "description": "Slope Brick 45  2 x  1 Double",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3046.dat",
+            "count": 12,
+            "description": "Slope Brick 45  2 x  2 Double Concave",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3048b.dat",
+            "count": 4,
+            "description": "Slope Brick 45  1 x  2 Triple",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3049c.dat",
+            "count": 2,
+            "description": "Slope Brick 45  1 x  2 Double / Inverted without Centre Stud",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3069b.dat",
+            "count": 45,
+            "description": "Tile  1 x  2 with Groove",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3070b.dat",
+            "count": 43,
+            "description": "Tile  1 x  1 with Groove",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32018.dat",
+            "count": 2,
+            "description": "Technic Brick  1 x 14 with Holes",
+            "physical_index_entry": true
+          },
+          {
+            "part": "33303.dat",
+            "count": 10,
+            "description": "Fence  1 x  4 x  2 Picket",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3460.dat",
+            "count": 5,
+            "description": "Plate  1 x  8",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3622.dat",
+            "count": 37,
+            "description": "Brick  1 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3623.dat",
+            "count": 3,
+            "description": "Plate  1 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3660.dat",
+            "count": 6,
+            "description": "~Moved to 3660a",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3665a.dat",
+            "count": 4,
+            "description": "Slope Brick 45  2 x  1 Inverted without Inner Stopper Ring",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3666.dat",
+            "count": 2,
+            "description": "Plate  1 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3710.dat",
+            "count": 1,
+            "description": "Plate  1 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3747a.dat",
+            "count": 2,
+            "description": "Slope Brick 33  3 x  2 Inverted without Ribs between Studs",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3853.dat",
+            "count": 5,
+            "description": "Window  1 x  4 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3855b.dat",
+            "count": 5,
+            "description": "Glass for Window  1 x  4 x  3 without Handle",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3856.dat",
+            "count": 4,
+            "description": "Window  1 x  2 x  3 Shutter",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3857.dat",
+            "count": 2,
+            "description": "Baseplate 16 x 32 with Square Corners",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3941.dat",
+            "count": 6,
+            "description": "Brick  2 x  2 Round without Reinforcement",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4032a.dat",
+            "count": 1,
+            "description": "Plate  2 x  2 Round with Axlehole",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4070.dat",
+            "count": 10,
+            "description": "Brick  1 x  1 with Headlight",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4162.dat",
+            "count": 2,
+            "description": "Tile  1 x  8",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4282.dat",
+            "count": 2,
+            "description": "Plate  2 x 16",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4486c01.dat",
+            "count": 1,
+            "description": "Door  1 x  4 x  5 Right with 6 Panes with TransClear Glass",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6111.dat",
+            "count": 2,
+            "description": "Brick  1 x 10",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6112.dat",
+            "count": 5,
+            "description": "Brick  1 x 12",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6141.dat",
+            "count": 6,
+            "description": "Plate  1 x  1 Round",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6636.dat",
+            "count": 11,
+            "description": "Tile  1 x  6",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 2,
+        "technic_share": 0.0032520325203252032,
+        "legacy_parts": [
+          {
+            "part": "3023.dat",
+            "count": 15,
+            "description": "~Moved to 3023b",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3660.dat",
+            "count": 6,
+            "description": "~Moved to 3660a",
+            "physical_index_entry": true
+          }
+        ],
+        "shape_fingerprint": "68fdce52d56bdc4a64a6a2038bb7708ed7f679b6653e80634028036f735e6fb5",
+        "recipe_fingerprint": "25e1bd80dec4636001dec23bd8f03577eddce466493642ceebe79fdd165339c8",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [],
+        "dependencies": [
+          {
+            "section": "4886 - Main.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "4886 - House.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "4886 - Roof.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "4886 - Tree.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "4886 - Bush.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      }
+    },
+    {
+      "kind": "models",
+      "description": "A scenic layout on a green baseplate featuring a large white building, two leafy trees, street lamps, and surrounding picket fences.",
+      "model": "4886-1_Experienced-Build.mpd",
+      "id": "model-03b0edc49eb0a3bcd500777b",
+      "source_field": "MODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "A scenic layout on a green baseplate featuring a large white building, two leafy trees, street lamps, and surrounding picket fences.",
+      "original_full_description": "4886-1_Experienced-Build.mpd|A scenic layout on a green baseplate featuring a large white building, two leafy trees, street lamps, and surrounding picket fences.",
+      "source_exists": true,
+      "path": "/opt/ldraw-nova/data/models-annotated/4886-1_Experienced-Build.mpd",
+      "source_sha256": "daf59c3c32872030c101f43c5d4de398610509957deb14b89407a15b18cbcfe6",
+      "source_section": "4886 - main B.ldr",
+      "start_line": 1,
+      "parent_description": "A scenic layout on a green baseplate featuring a large white building, two leafy trees, street lamps, and surrounding picket fences.",
+      "theme": "",
+      "direct_placements": 21,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "4886-1_Experienced-Build.mpd|A scenic layout on a green baseplate featuring a large white building, two leafy trees, street lamps, and surrounding picket fences.",
+      "score": 0.66,
+      "retrieval_rank": 5,
+      "inventory": {
+        "source_sha256": "daf59c3c32872030c101f43c5d4de398610509957deb14b89407a15b18cbcfe6",
+        "parser_section": "4886 - main B.ldr",
+        "physical_placements": 353,
+        "expanded_leaf_count": 353,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "2357.dat",
+            "count": 10,
+            "description": "Brick  2 x  2 Corner",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2420.dat",
+            "count": 2,
+            "description": "Plate  2 x  2 Corner",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2453a.dat",
+            "count": 1,
+            "description": "Brick  1 x  1 x  5 with Hollow Stud",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2456.dat",
+            "count": 2,
+            "description": "Brick  2 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2877.dat",
+            "count": 1,
+            "description": "Brick  1 x  2 with Grille",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3001.dat",
+            "count": 19,
+            "description": "Brick  2 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3003.dat",
+            "count": 2,
+            "description": "Brick  2 x  2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3004.dat",
+            "count": 29,
+            "description": "Brick  1 x  2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3005.dat",
+            "count": 19,
+            "description": "Brick  1 x  1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3006.dat",
+            "count": 1,
+            "description": "Brick  2 x 10",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3008.dat",
+            "count": 24,
+            "description": "Brick  1 x  8",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3009.dat",
+            "count": 22,
+            "description": "Brick  1 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3010.dat",
+            "count": 15,
+            "description": "Brick  1 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3020.dat",
+            "count": 3,
+            "description": "Plate  2 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3021.dat",
+            "count": 1,
+            "description": "Plate  2 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3022.dat",
+            "count": 3,
+            "description": "Plate  2 x  2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3023.dat",
+            "count": 6,
+            "description": "~Moved to 3023b",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3024.dat",
+            "count": 4,
+            "description": "Plate  1 x  1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3034.dat",
+            "count": 5,
+            "description": "Plate  2 x  8",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3037.dat",
+            "count": 21,
+            "description": "Slope Brick 45  2 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3038.dat",
+            "count": 14,
+            "description": "Slope Brick 45  2 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3039.dat",
+            "count": 7,
+            "description": "Slope Brick 45  2 x  2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3040b.dat",
+            "count": 16,
+            "description": "Slope Brick 45  2 x  1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3041.dat",
+            "count": 2,
+            "description": "Slope Brick 45  2 x  4 Double",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3043.dat",
+            "count": 2,
+            "description": "Slope Brick 45  2 x  2 Double",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3046.dat",
+            "count": 14,
+            "description": "Slope Brick 45  2 x  2 Double Concave",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3048b.dat",
+            "count": 3,
+            "description": "Slope Brick 45  1 x  2 Triple",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3062b.dat",
+            "count": 6,
+            "description": "Brick  1 x  1 Round with Hollow Stud",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3069b.dat",
+            "count": 15,
+            "description": "Tile  1 x  2 with Groove",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3070b.dat",
+            "count": 1,
+            "description": "Tile  1 x  1 with Groove",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3297.dat",
+            "count": 2,
+            "description": "Slope Brick 33  3 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "33303.dat",
+            "count": 10,
+            "description": "Fence  1 x  4 x  2 Picket",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3455.dat",
+            "count": 2,
+            "description": "Arch  1 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3460.dat",
+            "count": 4,
+            "description": "Plate  1 x  8",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3622.dat",
+            "count": 9,
+            "description": "Brick  1 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3623.dat",
+            "count": 2,
+            "description": "Plate  1 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3660.dat",
+            "count": 4,
+            "description": "~Moved to 3660a",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3665.dat",
+            "count": 4,
+            "description": "~Moved to 3665a",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3666.dat",
+            "count": 2,
+            "description": "Plate  1 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3675.dat",
+            "count": 3,
+            "description": "Slope Brick 33  3 x  3 Double Convex",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3710.dat",
+            "count": 4,
+            "description": "Plate  1 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3747a.dat",
+            "count": 2,
+            "description": "Slope Brick 33  3 x  2 Inverted without Ribs between Studs",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3795.dat",
+            "count": 1,
+            "description": "Plate  2 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3853.dat",
+            "count": 4,
+            "description": "Window  1 x  4 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3855b.dat",
+            "count": 4,
+            "description": "Glass for Window  1 x  4 x  3 without Handle",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3857.dat",
+            "count": 1,
+            "description": "Baseplate 16 x 32 with Square Corners",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3941.dat",
+            "count": 6,
+            "description": "Brick  2 x  2 Round without Reinforcement",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4070.dat",
+            "count": 8,
+            "description": "Brick  1 x  1 with Headlight",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4343c01.dat",
+            "count": 1,
+            "description": "~Moved to 47899c01",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6111.dat",
+            "count": 2,
+            "description": "Brick  1 x 10",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6112.dat",
+            "count": 5,
+            "description": "Brick  1 x 12",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6141.dat",
+            "count": 2,
+            "description": "Plate  1 x  1 Round",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6636.dat",
+            "count": 1,
+            "description": "Tile  1 x  6",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 0,
+        "technic_share": 0.0,
+        "legacy_parts": [
+          {
+            "part": "3023.dat",
+            "count": 6,
+            "description": "~Moved to 3023b",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3660.dat",
+            "count": 4,
+            "description": "~Moved to 3660a",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3665.dat",
+            "count": 4,
+            "description": "~Moved to 3665a",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4343c01.dat",
+            "count": 1,
+            "description": "~Moved to 47899c01",
+            "physical_index_entry": true
+          }
+        ],
+        "shape_fingerprint": "68b345cf2e13f740c2ab24d76bc4bdb26db66f78441b021275c9eb6579a1d519",
+        "recipe_fingerprint": "5b75749c7c54aa8484b77c55e53bf9ad8352b0d9799c9101457cbd9596d547ed",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [],
+        "dependencies": [
+          {
+            "section": "4886 - main B.ldr",
+            "kind": "assembly",
+            "author": "Robert Paciorek [bercik]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "4886 - model B - building.ldr",
+            "kind": "assembly",
+            "author": "Robert Paciorek [bercik]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "4886 - model B - lamp.ldr",
+            "kind": "assembly",
+            "author": "Robert Paciorek [bercik]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "4886 - model B - tree 2.ldr",
+            "kind": "assembly",
+            "author": "Robert Paciorek [bercik]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "4886 - model B - tree 1.ldr",
+            "kind": "assembly",
+            "author": "Robert Paciorek [bercik]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      }
+    },
+    {
+      "kind": "models",
+      "description": "A Creator 3-in-1 modular house scene combining a furnished cottage with a tree, minifigures, and outdoor accessories including a mailbox, lamp, and lawnmower.",
+      "model": "31038-1.mpd",
+      "id": "model-8045cd5c12b2f56f7d212c9b",
+      "source_field": "MODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "A Creator 3-in-1 modular house scene combining a furnished cottage with a tree, minifigures, and outdoor accessories including a mailbox, lamp, and lawnmower.",
+      "original_full_description": "31038-1.mpd|A Creator 3-in-1 modular house scene combining a furnished cottage with a tree, minifigures, and outdoor accessories including a mailbox, lamp, and lawnmower.",
+      "source_exists": true,
+      "path": "/opt/ldraw-nova/data/models-annotated/31038-1.mpd",
+      "source_sha256": "a9155db95e21c2504f60c4004079c4ee10ef5ccffa60036406eacef9ba14c4ac",
+      "source_section": "31038 - Main.ldr",
+      "start_line": 1,
+      "parent_description": "A Creator 3-in-1 modular house scene combining a furnished cottage with a tree, minifigures, and outdoor accessories including a mailbox, lamp, and lawnmower.",
+      "theme": "",
+      "direct_placements": 1,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "31038-1.mpd|A Creator 3-in-1 modular house scene combining a furnished cottage with a tree, minifigures, and outdoor accessories including a mailbox, lamp, and lawnmower.",
+      "score": 0.63,
+      "retrieval_rank": 6,
+      "inventory": {
+        "source_sha256": "a9155db95e21c2504f60c4004079c4ee10ef5ccffa60036406eacef9ba14c4ac",
+        "parser_section": "31038 - Main.ldr",
+        "physical_placements": 545,
+        "expanded_leaf_count": 545,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "11211.dat",
+            "count": 1,
+            "description": "Brick  1 x  2 with Two Studs on One Side",
+            "physical_index_entry": true
+          },
+          {
+            "part": "11303.dat",
+            "count": 1,
+            "description": "Minifig Cap with Short Arched Peak with Seams and Top Pin Hole",
+            "physical_index_entry": true
+          },
+          {
+            "part": "11477.dat",
+            "count": 6,
+            "description": "Slope Brick Curved  2 x  1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "13965.dat",
+            "count": 3,
+            "description": "Arch  1 x  3 x  3 Pointed",
+            "physical_index_entry": true
+          },
+          {
+            "part": "15068.dat",
+            "count": 3,
+            "description": "Slope Brick Curved  2 x  2 x  0.667",
+            "physical_index_entry": true
+          },
+          {
+            "part": "15208.dat",
+            "count": 1,
+            "description": "Plate  1 x  2 with 3 Teeth In-line",
+            "physical_index_entry": true
+          },
+          {
+            "part": "15210.dat",
+            "count": 1,
+            "description": "Roadsign Clip-on  2 x  2 Square with C-Clip",
+            "physical_index_entry": true
+          },
+          {
+            "part": "15573.dat",
+            "count": 2,
+            "description": "Plate  1 x  2 with Groove with 1 Centre Stud, without Understud",
+            "physical_index_entry": true
+          },
+          {
+            "part": "15712.dat",
+            "count": 2,
+            "description": "Tile  1 x  1 with Clip (Thick C-Clip)",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2357.dat",
+            "count": 5,
+            "description": "Brick  2 x  2 Corner",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2412b.dat",
+            "count": 8,
+            "description": "Tile  1 x  2 Grille with Groove",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2420.dat",
+            "count": 2,
+            "description": "Plate  2 x  2 Corner",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2431.dat",
+            "count": 4,
+            "description": "Tile  1 x  4 with Groove",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2432.dat",
+            "count": 3,
+            "description": "Tile  1 x  2 with Handle",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2437.dat",
+            "count": 1,
+            "description": "Windscreen  3 x  4 x  1.333",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2540.dat",
+            "count": 1,
+            "description": "Plate  1 x  2 with Handle",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2780.dat",
+            "count": 1,
+            "description": "Technic Pin with Friction and Slots",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3003.dat",
+            "count": 5,
+            "description": "Brick  2 x  2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "30031.dat",
+            "count": 1,
+            "description": "Minifig Handlebars",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3004.dat",
+            "count": 43,
+            "description": "Brick  1 x  2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3005.dat",
+            "count": 26,
+            "description": "Brick  1 x  1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3008.dat",
+            "count": 8,
+            "description": "Brick  1 x  8",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3009.dat",
+            "count": 11,
+            "description": "Brick  1 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "30136.dat",
+            "count": 7,
+            "description": "Brick  1 x  2 Log",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3020.dat",
+            "count": 9,
+            "description": "Plate  2 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3021.dat",
+            "count": 2,
+            "description": "Plate  2 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3022.dat",
+            "count": 8,
+            "description": "Plate  2 x  2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3023.dat",
+            "count": 26,
+            "description": "~Moved to 3023b",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3024.dat",
+            "count": 9,
+            "description": "Plate  1 x  1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3034.dat",
+            "count": 2,
+            "description": "Plate  2 x  8",
+            "physical_index_entry": true
+          },
+          {
+            "part": "30340.dat",
+            "count": 1,
+            "description": "Minifig Life Ring",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3035.dat",
+            "count": 2,
+            "description": "Plate  4 x  8",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3036.dat",
+            "count": 3,
+            "description": "Plate  6 x  8",
+            "physical_index_entry": true
+          },
+          {
+            "part": "30367c.dat",
+            "count": 1,
+            "description": "Cylinder  2 x  2 with Dome Top with Axle Hole and Hollow Stud",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3037.dat",
+            "count": 30,
+            "description": "Slope Brick 45  2 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "30377.dat",
+            "count": 1,
+            "description": "Minifig Mechanical Arm with Clips Parallel",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3039.dat",
+            "count": 22,
+            "description": "Slope Brick 45  2 x  2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3040b.dat",
+            "count": 39,
+            "description": "Slope Brick 45  2 x  1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3046.dat",
+            "count": 12,
+            "description": "Slope Brick 45  2 x  2 Double Concave",
+            "physical_index_entry": true
+          },
+          {
+            "part": "30565.dat",
+            "count": 3,
+            "description": "Plate  4 x  4 with Corner Round",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3062b.dat",
+            "count": 15,
+            "description": "Brick  1 x  1 Round with Hollow Stud",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3069b.dat",
+            "count": 1,
+            "description": "Tile  1 x  2 with Groove",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3069bp01.dat",
+            "count": 1,
+            "description": "Tile  1 x  2 with Letter Pattern",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32000.dat",
+            "count": 2,
+            "description": "Technic Brick  1 x  2 with Holes",
+            "physical_index_entry": true
+          },
+          {
+            "part": "33078.dat",
+            "count": 1,
+            "description": "Minifig Food Sausage",
+            "physical_index_entry": true
+          },
+          {
+            "part": "33291.dat",
+            "count": 10,
+            "description": "Plate  1 x  1 Round with Tabs",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3460.dat",
+            "count": 3,
+            "description": "Plate  1 x  8",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3626c.dat",
+            "count": 1,
+            "description": "Minifig Head with Hollow Stud",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3626cp8b.dat",
+            "count": 1,
+            "description": "Minifig Head with Brown Eyebrows, Freckles, Open Smile Pattern (Hollow Stud)",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3626cp8k.dat",
+            "count": 1,
+            "description": "Minifig Head with Brown Eyebrows, Open Lopsided Grin and White Pupils Pattern (Hollow Stud)",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3666.dat",
+            "count": 7,
+            "description": "Plate  1 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3710.dat",
+            "count": 16,
+            "description": "Plate  1 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3795.dat",
+            "count": 4,
+            "description": "Plate  2 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3815b.dat",
+            "count": 1,
+            "description": "Minifig Hips",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3816b.dat",
+            "count": 1,
+            "description": "~Minifig Leg Right (Obsolete)",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3817b.dat",
+            "count": 1,
+            "description": "~Minifig Leg Left (Obsolete)",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3818.dat",
+            "count": 2,
+            "description": "Minifig Arm Right",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3819.dat",
+            "count": 2,
+            "description": "Minifig Arm Left",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3820.dat",
+            "count": 4,
+            "description": "Minifig Hand",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3829c01.dat",
+            "count": 1,
+            "description": "Car Steering Stand and Wheel (Complete)",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3830.dat",
+            "count": 2,
+            "description": "Hinge Brick  1 x  4 Top",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3831.dat",
+            "count": 2,
+            "description": "Hinge Brick  1 x  4 Base",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3832.dat",
+            "count": 1,
+            "description": "Plate  2 x 10",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3836.dat",
+            "count": 1,
+            "description": "Minifig Pushbroom",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3899.dat",
+            "count": 1,
+            "description": "Minifig Cup",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4032a.dat",
+            "count": 7,
+            "description": "Plate  2 x  2 Round with Axlehole",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4070.dat",
+            "count": 4,
+            "description": "Brick  1 x  1 with Headlight",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4081b.dat",
+            "count": 4,
+            "description": "Plate  1 x  1 with Clip Light Type 2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4162.dat",
+            "count": 3,
+            "description": "Tile  1 x  8",
+            "physical_index_entry": true
+          },
+          {
+            "part": "41879a.dat",
+            "count": 1,
+            "description": "Minifig Hips and Legs Short without Hole",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4286.dat",
+            "count": 5,
+            "description": "Slope Brick 33  3 x  1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "43093.dat",
+            "count": 1,
+            "description": "Technic Axle Pin with Friction",
+            "physical_index_entry": true
+          },
+          {
+            "part": "44728.dat",
+            "count": 4,
+            "description": "Bracket  1 x  2 -  2 x  2 Down",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4599b.dat",
+            "count": 1,
+            "description": "Tap  1 x  1 without Hole in Spout",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4600.dat",
+            "count": 3,
+            "description": "Plate  2 x  2 with 2 Wheel Pins",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4624.dat",
+            "count": 6,
+            "description": "Wheel Rim  6.4 x  8",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4733.dat",
+            "count": 1,
+            "description": "Brick  1 x  1 with Studs on Four Sides",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4740.dat",
+            "count": 4,
+            "description": "Dish  2 x  2 Inverted",
+            "physical_index_entry": true
+          },
+          {
+            "part": "48336.dat",
+            "count": 3,
+            "description": "Plate  1 x  2 with Handle Type 2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "48729a.dat",
+            "count": 1,
+            "description": "Bar  1.5L with Clip without Hole in Shaft",
+            "physical_index_entry": true
+          },
+          {
+            "part": "54200.dat",
+            "count": 4,
+            "description": "Slope Brick 31  1 x  1 x  0.667",
+            "physical_index_entry": true
+          },
+          {
+            "part": "54869.dat",
+            "count": 1,
+            "description": "~_Electric Light Brick  2 x  3 x  1.333 - TrRed Top - Red LED (Obsolete)",
+            "physical_index_entry": true
+          },
+          {
+            "part": "59900.dat",
+            "count": 6,
+            "description": "Cone  1 x  1 with Stop",
+            "physical_index_entry": true
+          },
+          {
+            "part": "60470b.dat",
+            "count": 1,
+            "description": "Plate  1 x  2 with  2 Clips Horizontal (Thick C-Clips)",
+            "physical_index_entry": true
+          },
+          {
+            "part": "60592.dat",
+            "count": 4,
+            "description": "Window  1 x  2 x  2 without Sill",
+            "physical_index_entry": true
+          },
+          {
+            "part": "60593.dat",
+            "count": 2,
+            "description": "Window  1 x  2 x  3 without Sill",
+            "physical_index_entry": true
+          },
+          {
+            "part": "60594.dat",
+            "count": 3,
+            "description": "Window  1 x  4 x  3 without Shutter Tabs",
+            "physical_index_entry": true
+          },
+          {
+            "part": "60596.dat",
+            "count": 1,
+            "description": "Door  1 x  4 x  6 Frame",
+            "physical_index_entry": true
+          },
+          {
+            "part": "60601.dat",
+            "count": 4,
+            "description": "Glass for Window  1 x  2 x  2 without Sill",
+            "physical_index_entry": true
+          },
+          {
+            "part": "60602.dat",
+            "count": 2,
+            "description": "Glass for Window  1 x  2 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "60608.dat",
+            "count": 6,
+            "description": "Window  1 x  2 x  3 Pane with Thick Corner Tabs",
+            "physical_index_entry": true
+          },
+          {
+            "part": "60623.dat",
+            "count": 1,
+            "description": "Door  1 x  4 x  6 with 4 Panes and Stud Handle",
+            "physical_index_entry": true
+          },
+          {
+            "part": "60897.dat",
+            "count": 3,
+            "description": "Plate  1 x  1 with Clip Vertical (Thick C-Clip)",
+            "physical_index_entry": true
+          },
+          {
+            "part": "61252.dat",
+            "count": 1,
+            "description": "Plate  1 x  1 with Clip Horizontal (Thick C-Clip)",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6141.dat",
+            "count": 30,
+            "description": "Plate  1 x  1 Round",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6191.dat",
+            "count": 1,
+            "description": "Brick  1 x  4 x  1.333 with Curved Top",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6231.dat",
+            "count": 4,
+            "description": "Panel  1 x  1 x  1 Corner with Rounded Corners",
+            "physical_index_entry": true
+          },
+          {
+            "part": "63965.dat",
+            "count": 1,
+            "description": "~Bar  6L with Thick Stop (Obsolete)",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6636.dat",
+            "count": 3,
+            "description": "Tile  1 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "85984.dat",
+            "count": 3,
+            "description": "Slope Brick 31  1 x  2 x  0.667",
+            "physical_index_entry": true
+          },
+          {
+            "part": "87079.dat",
+            "count": 1,
+            "description": "Tile  2 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "87414.dat",
+            "count": 6,
+            "description": "Tyre  6/ 50 x  8 Offset Tread with Centre Band",
+            "physical_index_entry": true
+          },
+          {
+            "part": "88286.dat",
+            "count": 1,
+            "description": "Minifig Hair Female Ponytail with Long French Braid",
+            "physical_index_entry": true
+          },
+          {
+            "part": "91405.dat",
+            "count": 1,
+            "description": "Plate 16 x 16 with Underside Ribs",
+            "physical_index_entry": true
+          },
+          {
+            "part": "973p7j.dat",
+            "count": 1,
+            "description": "Minifig Torso with Hooded Sweatshirt with Blue Pocket and Drawstring Pattern",
+            "physical_index_entry": true
+          },
+          {
+            "part": "973pdd.dat",
+            "count": 1,
+            "description": "Minifig Torso with Blue Plaid Shirt Pattern",
+            "physical_index_entry": true
+          },
+          {
+            "part": "98138.dat",
+            "count": 5,
+            "description": "Tile  1 x  1 Round with Groove",
+            "physical_index_entry": true
+          },
+          {
+            "part": "98138pc1.dat",
+            "count": 1,
+            "description": "Tile  1 x  1 Round with Groove with Gauge with Red Pointer Pattern",
+            "physical_index_entry": true
+          },
+          {
+            "part": "99781.dat",
+            "count": 1,
+            "description": "Bracket  1 x  2 -  1 x  2 Down",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 4,
+        "technic_share": 0.007339449541284404,
+        "legacy_parts": [
+          {
+            "part": "3023.dat",
+            "count": 26,
+            "description": "~Moved to 3023b",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3816b.dat",
+            "count": 1,
+            "description": "~Minifig Leg Right (Obsolete)",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3817b.dat",
+            "count": 1,
+            "description": "~Minifig Leg Left (Obsolete)",
+            "physical_index_entry": true
+          },
+          {
+            "part": "54869.dat",
+            "count": 1,
+            "description": "~_Electric Light Brick  2 x  3 x  1.333 - TrRed Top - Red LED (Obsolete)",
+            "physical_index_entry": true
+          },
+          {
+            "part": "63965.dat",
+            "count": 1,
+            "description": "~Bar  6L with Thick Stop (Obsolete)",
+            "physical_index_entry": true
+          }
+        ],
+        "shape_fingerprint": "0866f277fdd299038e6da41309fe74e6f99eb951a0807867ad3fc614dd3d8801",
+        "recipe_fingerprint": "564273bc028cfefed0b3d0466e63aed56e315d4456b061cfe32c5b15e28aba9c",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [],
+        "dependencies": [
+          {
+            "section": "31038 - Main.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "31038 - Changing Seasons.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "31038 - Corner.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "31038 - Seat.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "31038 - Lamp.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "31038 - Window bottom.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "31038 - Window bottom LH.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "31038 - Window bottom RH.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "31038 - Ladder.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "31038 - Door.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "31038 - Window RW.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "31038 - Window WR.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "31038 - Window LH.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "31038 - Window RH.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "31038 - Outpost.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "31038 - Top.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "31038 - Basket.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "31038 - Light.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "31038 - Table.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "31038 - Mailbox.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "31038 - Tree.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "31038 - Bird.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "31038 - Adult.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "31038 - Young.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "31038 - Lawnmower.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "31038 - Car.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "31038 - Car front.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      }
+    }
+  ],
+  "eligible_after_measurement": 54,
+  "rejected": [
+    {
+      "id": "model-9d0387cc4fb1539988c0deee",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 27
+    },
+    {
+      "id": "model-5f1f37df32153b66f45c3170",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 38
+    },
+    {
+      "id": "model-7074e37090b5d78de588c67d",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 39
+    },
+    {
+      "id": "model-354d81c4fb54a1116fbb7fd8",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 49
+    },
+    {
+      "id": "model-ce5ab98d8c2f18e26715f95b",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 54
+    },
+    {
+      "id": "model-1347a436425b625d20791f24",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 57
+    }
+  ],
+  "stats": {
+    "documents": 1720,
+    "passages": 1720,
+    "updated": 1720,
+    "skipped": 0,
+    "removed": 0,
+    "scored": 500,
+    "cache_hits": 0,
+    "api_calls": 500,
+    "input_tokens": 266119,
+    "output_tokens": 11000,
+    "elapsed_seconds": 8.65570762900461,
+    "exhaustive": false,
+    "command": [
+      "jev-rerank",
+      "--db",
+      "/opt/ldraw-nova/.cache/discovery/492c349bdc87ce95/queries/01ef8e6151330546e5ba90fc62601ef9c1f8674559080f4f128eb0c3fcaa7794.sqlite",
+      "--table-field",
+      "candidates.full_description",
+      "--query",
+      "a large country cottage house with a roof and garden",
+      "--top",
+      "60",
+      "--candidates",
+      "500",
+      "--model",
+      "jev-1.13.0",
+      "--json",
+      "--show"
+    ],
+    "eligible_records": 1720
+  },
+  "filters": {
+    "system": true,
+    "construction": "system",
+    "min_parts": 2,
+    "max_parts": null,
+    "max_technic_share": 0.5,
+    "parent_cap": 2
+  },
+  "note": "Scores describe textual relevance. Results still require geometry, scale and visual review; no hidden fallback or automatic import approval."
+}

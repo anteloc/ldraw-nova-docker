@@ -1,0 +1,750 @@
+{
+  "file": "output/cottage.mpd",
+  "section": "cottage-ground.ldr",
+  "profile": "syntax",
+  "checks_passed": true,
+  "physical_validity": "not_proven",
+  "diagnostics": [
+    {
+      "code": "coverage.collision_review",
+      "severity": "warning",
+      "message": "Some parts lack rectangular body checks; oriented bounds refine candidates, while remaining overlaps require material review.",
+      "line_number": null,
+      "section": null
+    }
+  ],
+  "geometry": {
+    "complete": true,
+    "connection_coverage": {
+      "complete": 11,
+      "partial": 0,
+      "none": 0
+    },
+    "collision_method": "AABB broad phase, oriented bounds separation, curated rectangular body SAT",
+    "physical_validity": "not_proven",
+    "bounds": {
+      "min": [
+        -320.0,
+        -8.0,
+        -330.0
+      ],
+      "max": [
+        320.0,
+        4.0,
+        320.0
+      ]
+    },
+    "occurrence_count": 11,
+    "detail": "full",
+    "instance_offset": 0,
+    "instances": [
+      {
+        "index": 0,
+        "part": "3811.dat",
+        "description": "Baseplate 32 x 32",
+        "colour": {
+          "code": 2,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            -320.0,
+            -4.0,
+            -320.0
+          ],
+          "max": [
+            320.0,
+            4.0,
+            320.0
+          ]
+        },
+        "section": "cottage-ground.ldr",
+        "line_number": 23,
+        "source_path": [
+          23
+        ],
+        "step": 1,
+        "body_profile": false,
+        "connector_count": 1024,
+        "placement_path": [
+          0
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 1,
+          "recognized_record_count": 1,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 1,
+        "part": "3068b.dat",
+        "description": "Tile 2 x 2 with Groove",
+        "colour": {
+          "code": 71,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          -70.0,
+          -8.0,
+          -150.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            -90.0,
+            -8.0,
+            -170.0
+          ],
+          "max": [
+            -50.0,
+            0.0,
+            -130.0
+          ]
+        },
+        "section": "cottage-ground.ldr",
+        "line_number": 26,
+        "source_path": [
+          26
+        ],
+        "step": 2,
+        "body_profile": true,
+        "connector_count": 6,
+        "placement_path": [
+          1
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 2,
+          "recognized_record_count": 2,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 2,
+        "part": "3068b.dat",
+        "description": "Tile 2 x 2 with Groove",
+        "colour": {
+          "code": 71,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          -70.0,
+          -8.0,
+          -190.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            -90.0,
+            -8.0,
+            -210.0
+          ],
+          "max": [
+            -50.0,
+            0.0,
+            -170.0
+          ]
+        },
+        "section": "cottage-ground.ldr",
+        "line_number": 28,
+        "source_path": [
+          28
+        ],
+        "step": 2,
+        "body_profile": true,
+        "connector_count": 6,
+        "placement_path": [
+          2
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 2,
+          "recognized_record_count": 2,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 3,
+        "part": "3068b.dat",
+        "description": "Tile 2 x 2 with Groove",
+        "colour": {
+          "code": 71,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          -70.0,
+          -8.0,
+          -230.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            -90.0,
+            -8.0,
+            -250.0
+          ],
+          "max": [
+            -50.0,
+            0.0,
+            -210.0
+          ]
+        },
+        "section": "cottage-ground.ldr",
+        "line_number": 30,
+        "source_path": [
+          30
+        ],
+        "step": 2,
+        "body_profile": true,
+        "connector_count": 6,
+        "placement_path": [
+          3
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 2,
+          "recognized_record_count": 2,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 4,
+        "part": "3068b.dat",
+        "description": "Tile 2 x 2 with Groove",
+        "colour": {
+          "code": 71,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          -70.0,
+          -8.0,
+          -270.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            -90.0,
+            -8.0,
+            -290.0
+          ],
+          "max": [
+            -50.0,
+            0.0,
+            -250.0
+          ]
+        },
+        "section": "cottage-ground.ldr",
+        "line_number": 32,
+        "source_path": [
+          32
+        ],
+        "step": 2,
+        "body_profile": true,
+        "connector_count": 6,
+        "placement_path": [
+          4
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 2,
+          "recognized_record_count": 2,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      },
+      {
+        "index": 5,
+        "part": "3068b.dat",
+        "description": "Tile 2 x 2 with Groove",
+        "colour": {
+          "code": 71,
+          "name": null,
+          "rgb": null,
+          "alpha": null,
+          "colour_attributes": null
+        },
+        "position": [
+          -70.0,
+          -8.0,
+          -310.0
+        ],
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "bounds": {
+          "min": [
+            -90.0,
+            -8.0,
+            -330.0
+          ],
+          "max": [
+            -50.0,
+            0.0,
+            -290.0
+          ]
+        },
+        "section": "cottage-ground.ldr",
+        "line_number": 34,
+        "source_path": [
+          34
+        ],
+        "step": 2,
+        "body_profile": true,
+        "connector_count": 6,
+        "placement_path": [
+          5
+        ],
+        "connection_metadata": {
+          "coverage": "complete",
+          "source_count": 2,
+          "recognized_record_count": 2,
+          "unsupported_record_count": 0,
+          "invalid_record_count": 0,
+          "diagnostics": []
+        }
+      }
+    ],
+    "instances_truncated": true,
+    "contacts_checked": true,
+    "contact_count": 10,
+    "contacts": [
+      {
+        "instances": [
+          0,
+          1
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "primitive"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "stug8@R11/stug-8x8@R0/stug-4x4@R2/stug-2x2@R0/stud@R0/studC",
+          "s/3068bs01@R0/stud4@R3/stud4"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 8.0
+        }
+      },
+      {
+        "instances": [
+          0,
+          2
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "primitive"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "stug8@R12/stug-8x8@R0/stug-4x4@R3/stug-2x2@R1/stud@R0/studC",
+          "s/3068bs01@R0/stud4@R3/stud4"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 8.0
+        }
+      },
+      {
+        "instances": [
+          0,
+          3
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "primitive"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "stug8@R12/stug-8x8@R0/stug-4x4@R3/stug-2x2@R0/stud@R0/studC",
+          "s/3068bs01@R0/stud4@R3/stud4"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 8.0
+        }
+      },
+      {
+        "instances": [
+          0,
+          4
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "primitive"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "stug8@R12/stug-8x8@R0/stug-4x4@R2/stug-2x2@R1/stud@R0/studC",
+          "s/3068bs01@R0/stud4@R3/stud4"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 8.0
+        }
+      },
+      {
+        "instances": [
+          0,
+          5
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "primitive"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "stug8@R12/stug-8x8@R0/stug-4x4@R2/stug-2x2@R0/stud@R0/studC",
+          "s/3068bs01@R0/stud4@R3/stud4"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 8.0
+        }
+      },
+      {
+        "instances": [
+          0,
+          6
+        ],
+        "status": "confirmed",
+        "kinds": [
+          "stud",
+          "stud_receptacle"
+        ],
+        "sources": [
+          "ldcad_shadow",
+          "primitive"
+        ],
+        "confidence": [
+          1.0,
+          1.0
+        ],
+        "feature_ids": [
+          "stug8@R11/stug-8x8@R0/stug-4x4@R0/stug-2x2@R2/stud@R0/studC",
+          "s/3068bs01@R0/stud4@R3/stud4"
+        ],
+        "residual": {
+          "distance": 0.0,
+          "axial_gap": 0.0,
+          "alignment": 1.0,
+          "roll_alignment": 1.0,
+          "entry_face_gap": 0.0,
+          "penetration": 8.0
+        }
+      }
+    ],
+    "contacts_truncated": true,
+    "confirmed_components": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    ],
+    "optimistic_components": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    ],
+    "optimistic_component_count": 1,
+    "confirmed_component_count": 1,
+    "components_truncated": true,
+    "overlap_candidate_count": 10,
+    "overlaps": [
+      {
+        "instances": [
+          0,
+          6
+        ],
+        "depths": [
+          40.0,
+          4.0,
+          40.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          0,
+          7
+        ],
+        "depths": [
+          40.0,
+          4.0,
+          40.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          0,
+          8
+        ],
+        "depths": [
+          40.0,
+          4.0,
+          40.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          0,
+          1
+        ],
+        "depths": [
+          40.0,
+          4.0,
+          40.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          0,
+          2
+        ],
+        "depths": [
+          40.0,
+          4.0,
+          40.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      },
+      {
+        "instances": [
+          0,
+          3
+        ],
+        "depths": [
+          40.0,
+          4.0,
+          40.0
+        ],
+        "status": "review_oriented_bounds",
+        "body_penetration": null,
+        "connection_count": 1
+      }
+    ],
+    "overlaps_truncated": true,
+    "diagnostics": [
+      {
+        "code": "coverage.collision_review",
+        "severity": "warning",
+        "message": "Some parts lack rectangular body checks; oriented bounds refine candidates, while remaining overlaps require material review.",
+        "line_number": null,
+        "section": null
+      }
+    ],
+    "limitations": [
+      "AABB candidates do not prove collisions; stud/socket bounding boxes normally overlap.",
+      "Connector matches, including 'confirmed', are computational evidence, not buildability certification.",
+      "No material intersection, clutch strength, stability, legal connection stress, or real colour availability proof."
+    ]
+  }
+}

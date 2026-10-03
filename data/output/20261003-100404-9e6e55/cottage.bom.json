@@ -1,0 +1,235 @@
+{
+  "file": "output/cottage.mpd",
+  "section": null,
+  "profile": "syntax",
+  "checks_passed": true,
+  "physical_validity": "not_proven",
+  "diagnostics": [],
+  "bom": [
+    {
+      "part": "2423",
+      "description": "Plant Leaves  4 x  3",
+      "colour_code": 2,
+      "colour_name": "Green",
+      "quantity": 3
+    },
+    {
+      "part": "2423",
+      "description": "Plant Leaves  4 x  3",
+      "colour_code": 10,
+      "colour_name": "Bright_Green",
+      "quantity": 2
+    },
+    {
+      "part": "2423",
+      "description": "Plant Leaves  4 x  3",
+      "colour_code": 288,
+      "colour_name": "Dark_Green",
+      "quantity": 3
+    },
+    {
+      "part": "3003",
+      "description": "Brick  2 x  2",
+      "colour_code": 19,
+      "colour_name": "Tan",
+      "quantity": 1
+    },
+    {
+      "part": "3003",
+      "description": "Brick  2 x  2",
+      "colour_code": 71,
+      "colour_name": "Light_Bluish_Grey",
+      "quantity": 3
+    },
+    {
+      "part": "3004",
+      "description": "Brick  1 x  2",
+      "colour_code": 19,
+      "colour_name": "Tan",
+      "quantity": 56
+    },
+    {
+      "part": "3004",
+      "description": "Brick  1 x  2",
+      "colour_code": 70,
+      "colour_name": "Reddish_Brown",
+      "quantity": 3
+    },
+    {
+      "part": "3004",
+      "description": "Brick  1 x  2",
+      "colour_code": 71,
+      "colour_name": "Light_Bluish_Grey",
+      "quantity": 18
+    },
+    {
+      "part": "3005",
+      "description": "Brick  1 x  1",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 1
+    },
+    {
+      "part": "3005",
+      "description": "Brick  1 x  1",
+      "colour_code": 19,
+      "colour_name": "Tan",
+      "quantity": 5
+    },
+    {
+      "part": "3005",
+      "description": "Brick  1 x  1",
+      "colour_code": 70,
+      "colour_name": "Reddish_Brown",
+      "quantity": 6
+    },
+    {
+      "part": "3005",
+      "description": "Brick  1 x  1",
+      "colour_code": 71,
+      "colour_name": "Light_Bluish_Grey",
+      "quantity": 2
+    },
+    {
+      "part": "30077",
+      "description": "Fence  1 x  6 x  2",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 2
+    },
+    {
+      "part": "3024",
+      "description": "Plate  1 x  1",
+      "colour_code": 71,
+      "colour_name": "Light_Bluish_Grey",
+      "quantity": 1
+    },
+    {
+      "part": "3037",
+      "description": "Slope Brick 45  2 x  4",
+      "colour_code": 320,
+      "colour_name": "Dark_Red",
+      "quantity": 2
+    },
+    {
+      "part": "3039",
+      "description": "Slope Brick 45  2 x  2",
+      "colour_code": 320,
+      "colour_name": "Dark_Red",
+      "quantity": 32
+    },
+    {
+      "part": "3068b",
+      "description": "Tile  2 x  2 with Groove",
+      "colour_code": 71,
+      "colour_name": "Light_Bluish_Grey",
+      "quantity": 11
+    },
+    {
+      "part": "3068b",
+      "description": "Tile  2 x  2 with Groove",
+      "colour_code": 320,
+      "colour_name": "Dark_Red",
+      "quantity": 8
+    },
+    {
+      "part": "3070b",
+      "description": "Tile  1 x  1 with Groove",
+      "colour_code": 70,
+      "colour_name": "Reddish_Brown",
+      "quantity": 1
+    },
+    {
+      "part": "32607",
+      "description": "Plate  1 x  1 Round with  3 Leaves",
+      "colour_code": 10,
+      "colour_name": "Bright_Green",
+      "quantity": 1
+    },
+    {
+      "part": "33172",
+      "description": "Minifig Food Carrot",
+      "colour_code": 25,
+      "colour_name": "Orange",
+      "quantity": 4
+    },
+    {
+      "part": "33183",
+      "description": "Minifig Food Carrot Top",
+      "colour_code": 10,
+      "colour_name": "Bright_Green",
+      "quantity": 4
+    },
+    {
+      "part": "3358",
+      "description": "Gate  1 x  3 x  2",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 1
+    },
+    {
+      "part": "3795",
+      "description": "Plate  2 x  6",
+      "colour_code": 6,
+      "colour_name": "Brown",
+      "quantity": 4
+    },
+    {
+      "part": "3811",
+      "description": "Baseplate 32 x 32",
+      "colour_code": 2,
+      "colour_name": "Green",
+      "quantity": 1
+    },
+    {
+      "part": "3941",
+      "description": "Brick  2 x  2 Round without Reinforcement",
+      "colour_code": 2,
+      "colour_name": "Green",
+      "quantity": 1
+    },
+    {
+      "part": "3941",
+      "description": "Brick  2 x  2 Round without Reinforcement",
+      "colour_code": 71,
+      "colour_name": "Light_Bluish_Grey",
+      "quantity": 1
+    },
+    {
+      "part": "3941",
+      "description": "Brick  2 x  2 Round without Reinforcement",
+      "colour_code": 288,
+      "colour_name": "Dark_Green",
+      "quantity": 2
+    },
+    {
+      "part": "60592",
+      "description": "Window  1 x  2 x  2 without Sill",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 10
+    },
+    {
+      "part": "6079",
+      "description": "Fence  1 x  8 x  2",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 4
+    },
+    {
+      "part": "6141",
+      "description": "Plate  1 x  1 Round",
+      "colour_code": 2,
+      "colour_name": "Green",
+      "quantity": 2
+    },
+    {
+      "part": "6141",
+      "description": "Plate  1 x  1 Round",
+      "colour_code": 4,
+      "colour_name": "Red",
+      "quantity": 4
+    }
+  ],
+  "physical_placements": 199
+}

@@ -1,0 +1,715 @@
+{
+  "version": 1,
+  "cache_key": "7deba3f5d024d784e8f859dcec1958511e642736785b538d3cfcc3d274d57376",
+  "id": "model-38782b38b6aec279cadaa3a8",
+  "kind": "models",
+  "model": "5891-1_Holiday-House.mpd",
+  "section": null,
+  "parser_section": "5891 - Main.ldr",
+  "description": "A complete holiday house diorama featuring a furnished house with roof, landscaping, furniture, and decorative elements.",
+  "parent_description": "A complete holiday house diorama featuring a furnished house with roof, landscaping, furniture, and decorative elements.",
+  "theme": "",
+  "source": {
+    "path": "/opt/ldraw-nova/data/models-annotated/5891-1_Holiday-House.mpd",
+    "sha256": "ff9db961426e24b0569a16cd0d553813c78042c9f865ce8931dec70e9ecdde2e",
+    "field": "MODELS_DESCRIPTIONS_JEV.full_description",
+    "start_line": 1
+  },
+  "source_root": "ref-38782b38b6aec279-00-5891---Main.ldr",
+  "preview_colour": 7,
+  "inventory": {
+    "source_sha256": "ff9db961426e24b0569a16cd0d553813c78042c9f865ce8931dec70e9ecdde2e",
+    "parser_section": "5891 - Main.ldr",
+    "physical_placements": 342,
+    "expanded_leaf_count": 342,
+    "physical_accounting_complete": true,
+    "nonphysical_or_unresolved_leaves": [],
+    "raw_geometry_sections": [],
+    "bom": [
+      {
+        "part": "2357.dat",
+        "count": 1,
+        "description": "Brick  2 x  2 Corner",
+        "physical_index_entry": true
+      },
+      {
+        "part": "2412b.dat",
+        "count": 3,
+        "description": "Tile  1 x  2 Grille with Groove",
+        "physical_index_entry": true
+      },
+      {
+        "part": "2431.dat",
+        "count": 1,
+        "description": "Tile  1 x  4 with Groove",
+        "physical_index_entry": true
+      },
+      {
+        "part": "2780.dat",
+        "count": 2,
+        "description": "Technic Pin with Friction and Slots",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3001.dat",
+        "count": 2,
+        "description": "Brick  2 x  4",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3003.dat",
+        "count": 3,
+        "description": "Brick  2 x  2",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3004.dat",
+        "count": 23,
+        "description": "Brick  1 x  2",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3005.dat",
+        "count": 13,
+        "description": "Brick  1 x  1",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3009.dat",
+        "count": 20,
+        "description": "Brick  1 x  6",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3010.dat",
+        "count": 6,
+        "description": "Brick  1 x  4",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3020.dat",
+        "count": 3,
+        "description": "Plate  2 x  4",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3021.dat",
+        "count": 11,
+        "description": "Plate  2 x  3",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3022.dat",
+        "count": 5,
+        "description": "Plate  2 x  2",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3023.dat",
+        "count": 9,
+        "description": "~Moved to 3023b",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3024.dat",
+        "count": 3,
+        "description": "Plate  1 x  1",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3034.dat",
+        "count": 1,
+        "description": "Plate  2 x  8",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3037.dat",
+        "count": 15,
+        "description": "Slope Brick 45  2 x  4",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3038.dat",
+        "count": 16,
+        "description": "Slope Brick 45  2 x  3",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3039.dat",
+        "count": 19,
+        "description": "Slope Brick 45  2 x  2",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3040b.dat",
+        "count": 3,
+        "description": "Slope Brick 45  2 x  1",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3041.dat",
+        "count": 7,
+        "description": "Slope Brick 45  2 x  4 Double",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3044a.dat",
+        "count": 4,
+        "description": "Slope Brick 45  2 x  1 Double with Hollow Bottom",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3049c.dat",
+        "count": 1,
+        "description": "Slope Brick 45  1 x  2 Double / Inverted without Centre Stud",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3062b.dat",
+        "count": 9,
+        "description": "Brick  1 x  1 Round with Hollow Stud",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3069b.dat",
+        "count": 20,
+        "description": "Tile  1 x  2 with Groove",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3622.dat",
+        "count": 21,
+        "description": "Brick  1 x  3",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3660.dat",
+        "count": 2,
+        "description": "~Moved to 3660a",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3665a.dat",
+        "count": 24,
+        "description": "Slope Brick 45  2 x  1 Inverted without Inner Stopper Ring",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3666.dat",
+        "count": 1,
+        "description": "Plate  1 x  6",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3710.dat",
+        "count": 2,
+        "description": "Plate  1 x  4",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3857.dat",
+        "count": 1,
+        "description": "Baseplate 16 x 32 with Square Corners",
+        "physical_index_entry": true
+      },
+      {
+        "part": "4070.dat",
+        "count": 3,
+        "description": "Brick  1 x  1 with Headlight",
+        "physical_index_entry": true
+      },
+      {
+        "part": "4286.dat",
+        "count": 2,
+        "description": "Slope Brick 33  3 x  1",
+        "physical_index_entry": true
+      },
+      {
+        "part": "43898.dat",
+        "count": 1,
+        "description": "Dish  3 x  3 Inverted",
+        "physical_index_entry": true
+      },
+      {
+        "part": "4445.dat",
+        "count": 10,
+        "description": "Slope Brick 45  2 x  8",
+        "physical_index_entry": true
+      },
+      {
+        "part": "4599b.dat",
+        "count": 2,
+        "description": "Tap  1 x  1 without Hole in Spout",
+        "physical_index_entry": true
+      },
+      {
+        "part": "4740.dat",
+        "count": 1,
+        "description": "Dish  2 x  2 Inverted",
+        "physical_index_entry": true
+      },
+      {
+        "part": "48336.dat",
+        "count": 1,
+        "description": "Plate  1 x  2 with Handle Type 2",
+        "physical_index_entry": true
+      },
+      {
+        "part": "4865a.dat",
+        "count": 3,
+        "description": "Panel  1 x  2 x  1 with Square Corners",
+        "physical_index_entry": true
+      },
+      {
+        "part": "54200.dat",
+        "count": 3,
+        "description": "Slope Brick 31  1 x  1 x  0.667",
+        "physical_index_entry": true
+      },
+      {
+        "part": "59900.dat",
+        "count": 3,
+        "description": "Cone  1 x  1 with Stop",
+        "physical_index_entry": true
+      },
+      {
+        "part": "6019.dat",
+        "count": 2,
+        "description": "Plate  1 x  1 with Clip Horizontal (Thick U-Clip)",
+        "physical_index_entry": true
+      },
+      {
+        "part": "60592.dat",
+        "count": 2,
+        "description": "Window  1 x  2 x  2 without Sill",
+        "physical_index_entry": true
+      },
+      {
+        "part": "60594.dat",
+        "count": 3,
+        "description": "Window  1 x  4 x  3 without Shutter Tabs",
+        "physical_index_entry": true
+      },
+      {
+        "part": "60596.dat",
+        "count": 1,
+        "description": "Door  1 x  4 x  6 Frame",
+        "physical_index_entry": true
+      },
+      {
+        "part": "60601.dat",
+        "count": 2,
+        "description": "Glass for Window  1 x  2 x  2 without Sill",
+        "physical_index_entry": true
+      },
+      {
+        "part": "60623.dat",
+        "count": 1,
+        "description": "Door  1 x  4 x  6 with 4 Panes and Stud Handle",
+        "physical_index_entry": true
+      },
+      {
+        "part": "60806.dat",
+        "count": 1,
+        "description": "Window  4 x  4 x  3 Roof with Bottom Panel",
+        "physical_index_entry": true
+      },
+      {
+        "part": "6111.dat",
+        "count": 6,
+        "description": "Brick  1 x 10",
+        "physical_index_entry": true
+      },
+      {
+        "part": "6141.dat",
+        "count": 34,
+        "description": "Plate  1 x  1 Round",
+        "physical_index_entry": true
+      },
+      {
+        "part": "6143.dat",
+        "count": 2,
+        "description": "Brick  2 x  2 Round Reinforced",
+        "physical_index_entry": true
+      },
+      {
+        "part": "6541.dat",
+        "count": 4,
+        "description": "Technic Brick  1 x  1 with Hole",
+        "physical_index_entry": true
+      },
+      {
+        "part": "6636.dat",
+        "count": 3,
+        "description": "Tile  1 x  6",
+        "physical_index_entry": true
+      },
+      {
+        "part": "86210.dat",
+        "count": 1,
+        "description": "Glass for Window  1 x  4 x  3 Opening",
+        "physical_index_entry": true
+      }
+    ],
+    "technic_named_placements": 6,
+    "technic_share": 0.017543859649122806,
+    "legacy_parts": [
+      {
+        "part": "3023.dat",
+        "count": 9,
+        "description": "~Moved to 3023b",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3660.dat",
+        "count": 2,
+        "description": "~Moved to 3660a",
+        "physical_index_entry": true
+      }
+    ],
+    "shape_fingerprint": "65f6c2cb6680d3200333e49b14752ade1fd677b4c8edbd208872d236fc0cf351",
+    "recipe_fingerprint": "07ac9aec5a686bf959219cb095c67131a1418239adcf2610b90451ffdcba5c98",
+    "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+    "parents": [],
+    "dependencies": [
+      {
+        "section": "5891 - Main.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "5891 - Holidays House.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "5891 - Plant.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "5891 - Fire.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "5891 - Roof Hinge.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "5891 - Roof.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "5891 - Chair.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "5891 - Table.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "5891 - Lamp.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      }
+    ],
+    "reachable": true
+  },
+  "attribution": [
+    {
+      "section": "5891 - Main.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "5891 - Holidays House.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "5891 - Plant.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "5891 - Fire.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "5891 - Roof Hinge.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "5891 - Roof.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "5891 - Chair.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "5891 - Table.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "5891 - Lamp.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    }
+  ],
+  "bounds": {
+    "min": [
+      -320.0,
+      -320.0,
+      -180.0
+    ],
+    "max": [
+      320.0,
+      4.0,
+      160.0
+    ]
+  },
+  "size_ldu": [
+    640.0,
+    324.0,
+    340.0
+  ],
+  "size_studs_plates_studs": [
+    32.0,
+    40.5,
+    17.0
+  ],
+  "mesh_complete": true,
+  "mesh_diagnostics": [],
+  "raw_assembly_checks_passed": false,
+  "raw_diagnostic_counts": {
+    "header.missing": 1,
+    "part.alias_or_internal": 11,
+    "assembly.nonrigid": 2
+  },
+  "assembly_checks_passed": true,
+  "diagnostics": [
+    {
+      "code": "header.missing",
+      "severity": "warning",
+      "message": "Add a descriptive Name: header.",
+      "line_number": null,
+      "section": "preview-model-38782b38b6aec279cadaa3a8.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 124,
+      "section": "ref-38782b38b6aec279-01-5891---Holidays-House.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 226,
+      "section": "ref-38782b38b6aec279-01-5891---Holidays-House.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 250,
+      "section": "ref-38782b38b6aec279-01-5891---Holidays-House.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 256,
+      "section": "ref-38782b38b6aec279-01-5891---Holidays-House.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 259,
+      "section": "ref-38782b38b6aec279-01-5891---Holidays-House.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 406,
+      "section": "ref-38782b38b6aec279-01-5891---Holidays-House.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 669,
+      "section": "ref-38782b38b6aec279-04-5891---Roof-Hinge.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 701,
+      "section": "ref-38782b38b6aec279-05-5891---Roof.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 703,
+      "section": "ref-38782b38b6aec279-05-5891---Roof.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 708,
+      "section": "ref-38782b38b6aec279-05-5891---Roof.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 710,
+      "section": "ref-38782b38b6aec279-05-5891---Roof.ldr"
+    }
+  ],
+  "repairs": [
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "5891 - Holidays House.ldr",
+      "source_line": 486,
+      "before": [
+        [
+          0.0,
+          0.819,
+          -0.574
+        ],
+        [
+          0.0,
+          0.574,
+          0.819
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "after": [
+        [
+          0.0,
+          0.818902966,
+          -0.573931993
+        ],
+        [
+          0.0,
+          0.573931993,
+          0.818902966
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "max_coefficient_change": 9.703425250207065e-05
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "5891 - Holidays House.ldr",
+      "source_line": 502,
+      "before": [
+        [
+          0.0,
+          0.669,
+          -0.743
+        ],
+        [
+          0.0,
+          0.743,
+          0.669
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "after": [
+        [
+          0.0,
+          0.669130493,
+          -0.743144927
+        ],
+        [
+          0.0,
+          0.743144927,
+          0.669130493
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "max_coefficient_change": 0.00014492739264027055
+    }
+  ],
+  "geometry": null,
+  "contacts_checked": false,
+  "bom_comparison": {
+    "matches": true,
+    "physical_placements": 342,
+    "leocad_placements": 342,
+    "differences": []
+  },
+  "views": [
+    "home",
+    "front",
+    "right",
+    "top"
+  ],
+  "artifacts": {
+    "source": "source.mpd",
+    "preview": "preview.mpd",
+    "manifest": "extraction.json"
+  },
+  "status": "reference",
+  "visual_review": "pending",
+  "physical_validity": "not_proven",
+  "limitations": [
+    "Bounds describe the source local axes, including protrusions; they are not connection frames.",
+    "Preview colour resolves inherited 16; extraction retains original colours and authorship.",
+    "Passing checks or matching a BOM does not prove connectivity, stability or fit in a new model."
+  ],
+  "artifact_hashes": {
+    "source.mpd": "dbe8c71a51cd8aab720ba4fd8f481ac19d8b1c64a56145edc394bfd0f1b31675",
+    "preview.mpd": "80c8685a50ef0aacf91840d9ef1d2bd47c737a291ad1c80fd13765b54830ef78",
+    "extraction.json": "31e39b999cf51f376ef1e2a05b265f74e89fc83601c2486e3d730be7f6d78915",
+    "renders/leocad-bom.csv": "989f433c8b011560c363003f398f3a618eab05f9c34aced90f5f18aa7e61ea0a",
+    "renders/home.png": "4684e347eded26a14eb3802fd1aef61b10ca318158568a4847959d43c0201344",
+    "renders/front.png": "d5ba3e0fbacd3684febfdf584a841c37495123c5913a1821da26b16bbfc6dbf0",
+    "renders/right.png": "86d46faf3531304577beecfb69f3a834e2cba7a7140c106081a0ed4e70cd6cfe",
+    "renders/top.png": "4f58954ea645fab4f78cb5f589a7edcf889093f152220642ecc011c9f5022d09"
+  }
+}

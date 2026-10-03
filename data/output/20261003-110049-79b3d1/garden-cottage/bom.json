@@ -1,0 +1,536 @@
+{
+  "file": "output/garden-cottage/willowbank-cottage.mpd",
+  "section": null,
+  "profile": "syntax",
+  "checks_passed": true,
+  "physical_validity": "not_proven",
+  "diagnostics": [],
+  "bom": [
+    {
+      "part": "15279",
+      "description": "Plant Grass Stem",
+      "colour_code": 2,
+      "colour_name": "Green",
+      "quantity": 4
+    },
+    {
+      "part": "16981",
+      "description": "Plant Vine with 10 Leaves 16L",
+      "colour_code": 10,
+      "colour_name": "Bright_Green",
+      "quantity": 1
+    },
+    {
+      "part": "2417",
+      "description": "Plant Leaves  6 x  5",
+      "colour_code": 2,
+      "colour_name": "Green",
+      "quantity": 2
+    },
+    {
+      "part": "2417",
+      "description": "Plant Leaves  6 x  5",
+      "colour_code": 10,
+      "colour_name": "Bright_Green",
+      "quantity": 1
+    },
+    {
+      "part": "2417",
+      "description": "Plant Leaves  6 x  5",
+      "colour_code": 288,
+      "colour_name": "Dark_Green",
+      "quantity": 2
+    },
+    {
+      "part": "2423",
+      "description": "Plant Leaves  4 x  3",
+      "colour_code": 2,
+      "colour_name": "Green",
+      "quantity": 2
+    },
+    {
+      "part": "2423",
+      "description": "Plant Leaves  4 x  3",
+      "colour_code": 10,
+      "colour_name": "Bright_Green",
+      "quantity": 3
+    },
+    {
+      "part": "2423",
+      "description": "Plant Leaves  4 x  3",
+      "colour_code": 288,
+      "colour_name": "Dark_Green",
+      "quantity": 6
+    },
+    {
+      "part": "24866",
+      "description": "Plate  1 x  1 with  5 Petals",
+      "colour_code": 5,
+      "colour_name": "Dark_Pink",
+      "quantity": 10
+    },
+    {
+      "part": "3003",
+      "description": "Brick  2 x  2",
+      "colour_code": 28,
+      "colour_name": "Dark_Tan",
+      "quantity": 3
+    },
+    {
+      "part": "3003",
+      "description": "Brick  2 x  2",
+      "colour_code": 288,
+      "colour_name": "Dark_Green",
+      "quantity": 1
+    },
+    {
+      "part": "3004",
+      "description": "Brick  1 x  2",
+      "colour_code": 19,
+      "colour_name": "Tan",
+      "quantity": 19
+    },
+    {
+      "part": "3004",
+      "description": "Brick  1 x  2",
+      "colour_code": 28,
+      "colour_name": "Dark_Tan",
+      "quantity": 2
+    },
+    {
+      "part": "3005",
+      "description": "Brick  1 x  1",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 4
+    },
+    {
+      "part": "3005",
+      "description": "Brick  1 x  1",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 28
+    },
+    {
+      "part": "3005",
+      "description": "Brick  1 x  1",
+      "colour_code": 19,
+      "colour_name": "Tan",
+      "quantity": 105
+    },
+    {
+      "part": "3005",
+      "description": "Brick  1 x  1",
+      "colour_code": 28,
+      "colour_name": "Dark_Tan",
+      "quantity": 2
+    },
+    {
+      "part": "3005",
+      "description": "Brick  1 x  1",
+      "colour_code": 70,
+      "colour_name": "Reddish_Brown",
+      "quantity": 16
+    },
+    {
+      "part": "3005",
+      "description": "Brick  1 x  1",
+      "colour_code": 288,
+      "colour_name": "Dark_Green",
+      "quantity": 28
+    },
+    {
+      "part": "3008",
+      "description": "Brick  1 x  8",
+      "colour_code": 19,
+      "colour_name": "Tan",
+      "quantity": 21
+    },
+    {
+      "part": "3008",
+      "description": "Brick  1 x  8",
+      "colour_code": 28,
+      "colour_name": "Dark_Tan",
+      "quantity": 8
+    },
+    {
+      "part": "3008",
+      "description": "Brick  1 x  8",
+      "colour_code": 288,
+      "colour_name": "Dark_Green",
+      "quantity": 44
+    },
+    {
+      "part": "3009",
+      "description": "Brick  1 x  6",
+      "colour_code": 19,
+      "colour_name": "Tan",
+      "quantity": 5
+    },
+    {
+      "part": "3009",
+      "description": "Brick  1 x  6",
+      "colour_code": 28,
+      "colour_name": "Dark_Tan",
+      "quantity": 1
+    },
+    {
+      "part": "3009",
+      "description": "Brick  1 x  6",
+      "colour_code": 288,
+      "colour_name": "Dark_Green",
+      "quantity": 18
+    },
+    {
+      "part": "3010",
+      "description": "Brick  1 x  4",
+      "colour_code": 19,
+      "colour_name": "Tan",
+      "quantity": 60
+    },
+    {
+      "part": "3010",
+      "description": "Brick  1 x  4",
+      "colour_code": 28,
+      "colour_name": "Dark_Tan",
+      "quantity": 4
+    },
+    {
+      "part": "3010",
+      "description": "Brick  1 x  4",
+      "colour_code": 70,
+      "colour_name": "Reddish_Brown",
+      "quantity": 1
+    },
+    {
+      "part": "3010",
+      "description": "Brick  1 x  4",
+      "colour_code": 288,
+      "colour_name": "Dark_Green",
+      "quantity": 76
+    },
+    {
+      "part": "3020",
+      "description": "Plate  2 x  4",
+      "colour_code": 19,
+      "colour_name": "Tan",
+      "quantity": 4
+    },
+    {
+      "part": "3020",
+      "description": "Plate  2 x  4",
+      "colour_code": 70,
+      "colour_name": "Reddish_Brown",
+      "quantity": 8
+    },
+    {
+      "part": "3020",
+      "description": "Plate  2 x  4",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 1
+    },
+    {
+      "part": "3020",
+      "description": "Plate  2 x  4",
+      "colour_code": 288,
+      "colour_name": "Dark_Green",
+      "quantity": 5
+    },
+    {
+      "part": "3022",
+      "description": "Plate  2 x  2",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 1
+    },
+    {
+      "part": "3022",
+      "description": "Plate  2 x  2",
+      "colour_code": 70,
+      "colour_name": "Reddish_Brown",
+      "quantity": 7
+    },
+    {
+      "part": "3023b",
+      "description": "Plate  1 x  2",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 2
+    },
+    {
+      "part": "3024",
+      "description": "Plate  1 x  1",
+      "colour_code": 70,
+      "colour_name": "Reddish_Brown",
+      "quantity": 3
+    },
+    {
+      "part": "3034",
+      "description": "Plate  2 x  8",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 2
+    },
+    {
+      "part": "3034",
+      "description": "Plate  2 x  8",
+      "colour_code": 70,
+      "colour_name": "Reddish_Brown",
+      "quantity": 19
+    },
+    {
+      "part": "3034",
+      "description": "Plate  2 x  8",
+      "colour_code": 288,
+      "colour_name": "Dark_Green",
+      "quantity": 21
+    },
+    {
+      "part": "3039",
+      "description": "Slope Brick 45  2 x  2",
+      "colour_code": 288,
+      "colour_name": "Dark_Green",
+      "quantity": 179
+    },
+    {
+      "part": "3040b",
+      "description": "Slope Brick 45  2 x  1",
+      "colour_code": 288,
+      "colour_name": "Dark_Green",
+      "quantity": 2
+    },
+    {
+      "part": "3062b",
+      "description": "Brick  1 x  1 Round with Hollow Stud",
+      "colour_code": 2,
+      "colour_name": "Green",
+      "quantity": 4
+    },
+    {
+      "part": "3062b",
+      "description": "Brick  1 x  1 Round with Hollow Stud",
+      "colour_code": 70,
+      "colour_name": "Reddish_Brown",
+      "quantity": 16
+    },
+    {
+      "part": "3068b",
+      "description": "Tile  2 x  2 with Groove",
+      "colour_code": 28,
+      "colour_name": "Dark_Tan",
+      "quantity": 20
+    },
+    {
+      "part": "3068b",
+      "description": "Tile  2 x  2 with Groove",
+      "colour_code": 288,
+      "colour_name": "Dark_Green",
+      "quantity": 26
+    },
+    {
+      "part": "3070b",
+      "description": "Tile  1 x  1 with Groove",
+      "colour_code": 19,
+      "colour_name": "Tan",
+      "quantity": 102
+    },
+    {
+      "part": "3070b",
+      "description": "Tile  1 x  1 with Groove",
+      "colour_code": 28,
+      "colour_name": "Dark_Tan",
+      "quantity": 120
+    },
+    {
+      "part": "3460",
+      "description": "Plate  1 x  8",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 10
+    },
+    {
+      "part": "3460",
+      "description": "Plate  1 x  8",
+      "colour_code": 70,
+      "colour_name": "Reddish_Brown",
+      "quantity": 8
+    },
+    {
+      "part": "3622",
+      "description": "Brick  1 x  3",
+      "colour_code": 19,
+      "colour_name": "Tan",
+      "quantity": 17
+    },
+    {
+      "part": "3622",
+      "description": "Brick  1 x  3",
+      "colour_code": 288,
+      "colour_name": "Dark_Green",
+      "quantity": 4
+    },
+    {
+      "part": "3623",
+      "description": "Plate  1 x  3",
+      "colour_code": 70,
+      "colour_name": "Reddish_Brown",
+      "quantity": 1
+    },
+    {
+      "part": "3633",
+      "description": "Fence Lattice  1 x  4 x  1",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 4
+    },
+    {
+      "part": "3710",
+      "description": "Plate  1 x  4",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 4
+    },
+    {
+      "part": "3710",
+      "description": "Plate  1 x  4",
+      "colour_code": 71,
+      "colour_name": "Light_Bluish_Grey",
+      "quantity": 1
+    },
+    {
+      "part": "3742",
+      "description": "Plant Flower",
+      "colour_code": 4,
+      "colour_name": "Red",
+      "quantity": 3
+    },
+    {
+      "part": "3742",
+      "description": "Plant Flower",
+      "colour_code": 5,
+      "colour_name": "Dark_Pink",
+      "quantity": 1
+    },
+    {
+      "part": "3742",
+      "description": "Plant Flower",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 4
+    },
+    {
+      "part": "37681",
+      "description": "Plant Root Vegetable with Stud and Bar",
+      "colour_code": 25,
+      "colour_name": "Orange",
+      "quantity": 6
+    },
+    {
+      "part": "3795",
+      "description": "Plate  2 x  6",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 1
+    },
+    {
+      "part": "3795",
+      "description": "Plate  2 x  6",
+      "colour_code": 288,
+      "colour_name": "Dark_Green",
+      "quantity": 7
+    },
+    {
+      "part": "4186",
+      "description": "Baseplate 48 x 48",
+      "colour_code": 2,
+      "colour_name": "Green",
+      "quantity": 1
+    },
+    {
+      "part": "4727",
+      "description": "Plant Flower  2 x  2 Leaves",
+      "colour_code": 5,
+      "colour_name": "Dark_Pink",
+      "quantity": 2
+    },
+    {
+      "part": "51270",
+      "description": "Plant Pumpkin",
+      "colour_code": 25,
+      "colour_name": "Orange",
+      "quantity": 4
+    },
+    {
+      "part": "60592",
+      "description": "Window  1 x  2 x  2 without Sill",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 2
+    },
+    {
+      "part": "60594",
+      "description": "Window  1 x  4 x  3 without Shutter Tabs",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 18
+    },
+    {
+      "part": "60596",
+      "description": "Door  1 x  4 x  6 Frame",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 2
+    },
+    {
+      "part": "60601",
+      "description": "Glass for Window  1 x  2 x  2 without Sill",
+      "colour_code": 47,
+      "colour_name": "Trans_Clear",
+      "quantity": 2
+    },
+    {
+      "part": "60608",
+      "description": "Window  1 x  2 x  3 Pane with Thick Corner Tabs",
+      "colour_code": 43,
+      "colour_name": "Trans_Light_Blue",
+      "quantity": 36
+    },
+    {
+      "part": "60623",
+      "description": "Door  1 x  4 x  6 with 4 Panes and Stud Handle",
+      "colour_code": 70,
+      "colour_name": "Reddish_Brown",
+      "quantity": 1
+    },
+    {
+      "part": "60797c01",
+      "description": "Door  1 x  4 x  6 with 3 Panes and Stud Handle with TransLightBlue Glass (Complete)",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 1
+    },
+    {
+      "part": "6255",
+      "description": "Plant  1 x  1 x  0.667 Round with 3 Large Leaves",
+      "colour_code": 10,
+      "colour_name": "Bright_Green",
+      "quantity": 2
+    },
+    {
+      "part": "7264",
+      "description": "Plant  3 x  3 with  3  Long Leaves",
+      "colour_code": 10,
+      "colour_name": "Bright_Green",
+      "quantity": 1
+    },
+    {
+      "part": "73828",
+      "description": "Plant Vine with  8 Thorns 10L",
+      "colour_code": 288,
+      "colour_name": "Dark_Green",
+      "quantity": 1
+    }
+  ],
+  "physical_placements": 1163
+}

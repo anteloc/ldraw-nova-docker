@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "title": "a large country cottage house with a roof and garden",
+  "count": 6,
+  "requested": 6,
+  "results": [
+    {
+      "id": "model-38782b38b6aec279cadaa3a8",
+      "role": "a large country cottage house with a roof and garden",
+      "card": "model-38782b38b6aec279cadaa3a8/card.json",
+      "preview": "model-38782b38b6aec279cadaa3a8/renders/home.png",
+      "status": "reference",
+      "description": "A complete holiday house diorama featuring a furnished house with roof, landscaping, furniture, and decorative elements.",
+      "kind": "models"
+    },
+    {
+      "id": "model-e8db62395eb7e2b7ff805cd2",
+      "role": "a large country cottage house with a roof and garden",
+      "card": "model-e8db62395eb7e2b7ff805cd2/card.json",
+      "preview": "model-e8db62395eb7e2b7ff805cd2/renders/home.png",
+      "status": "reference",
+      "description": "A complete house built on a green baseplate, featuring a white-walled main structure with arched elements, a red-sloped roof, garage with black door, a tree, bushes, a mailbox, and a pillar.",
+      "kind": "models"
+    },
+    {
+      "id": "model-9893c89a9d50f1b132fabcb0",
+      "role": "a large country cottage house with a roof and garden",
+      "card": "model-9893c89a9d50f1b132fabcb0/card.json",
+      "preview": "model-9893c89a9d50f1b132fabcb0/renders/home.png",
+      "status": "reference",
+      "description": "A complete building set featuring a white-walled house with a green baseplate and a red sloped roof.",
+      "kind": "models"
+    },
+    {
+      "id": "model-5e535725e6edad053402c964",
+      "role": "a large country cottage house with a roof and garden",
+      "card": "model-5e535725e6edad053402c964/card.json",
+      "preview": "model-5e535725e6edad053402c964/renders/home.png",
+      "status": "reference",
+      "description": "A building set scene composed of a white brick house with a red sloped roof, accompanied by a green tree and small bushes.",
+      "kind": "models"
+    },
+    {
+      "id": "model-03b0edc49eb0a3bcd500777b",
+      "role": "a large country cottage house with a roof and garden",
+      "card": "model-03b0edc49eb0a3bcd500777b/card.json",
+      "preview": "model-03b0edc49eb0a3bcd500777b/renders/home.png",
+      "status": "adaptation_needed",
+      "description": "A scenic layout on a green baseplate featuring a large white building, two leafy trees, street lamps, and surrounding picket fences.",
+      "kind": "models"
+    },
+    {
+      "id": "model-8045cd5c12b2f56f7d212c9b",
+      "role": "a large country cottage house with a roof and garden",
+      "card": "model-8045cd5c12b2f56f7d212c9b/card.json",
+      "preview": "model-8045cd5c12b2f56f7d212c9b/renders/home.png",
+      "status": "reference",
+      "description": "A Creator 3-in-1 modular house scene combining a furnished cottage with a tree, minifigures, and outdoor accessories including a mailbox, lamp, and lawnmower.",
+      "kind": "models"
+    }
+  ],
+  "failures": []
+}

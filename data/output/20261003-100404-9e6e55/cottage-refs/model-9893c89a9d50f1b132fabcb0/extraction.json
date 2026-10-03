@@ -1,0 +1,37 @@
+{
+  "source": "/opt/ldraw-nova/data/models-annotated/4956-1.mpd",
+  "source_sha256": "a08e4386880c35c0a091a0b7cf413ad7ea6a018cb530c7c0954067cc2f3bd0a4",
+  "source_section": "4956 - Main.ldr",
+  "parser_section": "4956 - Main.ldr",
+  "root": "ref-9893c89a9d50f1b1-00-4956---Main.ldr",
+  "renames": {
+    "4956 - Main.ldr": "ref-9893c89a9d50f1b1-00-4956---Main.ldr",
+    "4956 - House.ldr": "ref-9893c89a9d50f1b1-01-4956---House.ldr",
+    "4956 - Roof.ldr": "ref-9893c89a9d50f1b1-02-4956---Roof.ldr"
+  },
+  "attribution": [
+    {
+      "section": "4956 - Main.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "4956 - House.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "4956 - Roof.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    }
+  ],
+  "changes": [],
+  "output_sha256": "551c1e9695459c79ec3ebb0e2b9f15f67d0d5d62d131833d0cc8102b3060e1d0",
+  "note": "Original authors and licences retained. Source bytes unchanged. Extraction is not validation or permission to relicense.",
+  "requested_identity": {
+    "id": "model-9893c89a9d50f1b132fabcb0",
+    "kind": "models",
+    "model": "4956-1.mpd"
+  }
+}

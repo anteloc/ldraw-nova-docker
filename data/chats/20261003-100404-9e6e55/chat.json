@@ -1,0 +1,13 @@
+{
+  "id": "20261003-100404-9e6e55",
+  "title": "build me a beautiful cottage, a large one, with a small fiel\u2026",
+  "llm_model_id": "394a58b9f863",
+  "created_at": 1791021844.8248057,
+  "updated_at": 1791032526.4054074,
+  "options": {
+    "mode": "agent",
+    "permissions": "full",
+    "effort": "xhigh",
+    "context_tokens": 1000000
+  }
+}

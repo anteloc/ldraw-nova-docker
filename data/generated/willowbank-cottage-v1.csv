@@ -1,0 +1,76 @@
+Part Name,Color,Quantity,Part ID,Color Code
+"Plant Grass Stem","Green",4,15279.dat,2
+"Plant Vine with 10 Leaves 16L","Bright Green",1,16981.dat,10
+"Plant Leaves  6 x  5","Green",2,2417.dat,2
+"Plant Leaves  6 x  5","Bright Green",1,2417.dat,10
+"Plant Leaves  6 x  5","Dark Green",2,2417.dat,288
+"Plant Leaves  4 x  3","Green",2,2423.dat,2
+"Plant Leaves  4 x  3","Bright Green",3,2423.dat,10
+"Plant Leaves  4 x  3","Dark Green",6,2423.dat,288
+"Plate  1 x  1 with  5 Petals","Dark Pink",10,24866.dat,5
+"Brick  2 x  2","Dark Tan",3,3003.dat,28
+"Brick  2 x  2","Dark Green",1,3003.dat,288
+"Brick  1 x  2","Tan",19,3004.dat,19
+"Brick  1 x  2","Dark Tan",2,3004.dat,28
+"Brick  1 x  1","Black",4,3005.dat,0
+"Brick  1 x  1","White",28,3005.dat,15
+"Brick  1 x  1","Tan",105,3005.dat,19
+"Brick  1 x  1","Dark Tan",2,3005.dat,28
+"Brick  1 x  1","Reddish Brown",16,3005.dat,70
+"Brick  1 x  1","Dark Green",28,3005.dat,288
+"Brick  1 x  8","Tan",21,3008.dat,19
+"Brick  1 x  8","Dark Tan",8,3008.dat,28
+"Brick  1 x  8","Dark Green",44,3008.dat,288
+"Brick  1 x  6","Tan",5,3009.dat,19
+"Brick  1 x  6","Dark Tan",1,3009.dat,28
+"Brick  1 x  6","Dark Green",18,3009.dat,288
+"Brick  1 x  4","Tan",60,3010.dat,19
+"Brick  1 x  4","Dark Tan",4,3010.dat,28
+"Brick  1 x  4","Reddish Brown",1,3010.dat,70
+"Brick  1 x  4","Dark Green",76,3010.dat,288
+"Plate  2 x  4","Tan",4,3020.dat,19
+"Plate  2 x  4","Reddish Brown",8,3020.dat,70
+"Plate  2 x  4","Dark Bluish Grey",1,3020.dat,72
+"Plate  2 x  4","Dark Green",5,3020.dat,288
+"Plate  2 x  2","White",1,3022.dat,15
+"Plate  2 x  2","Reddish Brown",7,3022.dat,70
+"Plate  1 x  2","White",2,3023b.dat,15
+"Plate  1 x  1","Reddish Brown",3,3024.dat,70
+"Plate  2 x  8","White",2,3034.dat,15
+"Plate  2 x  8","Reddish Brown",19,3034.dat,70
+"Plate  2 x  8","Dark Green",21,3034.dat,288
+"Slope Brick 45  2 x  2","Dark Green",179,3039.dat,288
+"Slope Brick 45  2 x  1","Dark Green",2,3040b.dat,288
+"Brick  1 x  1 Round with Hollow Stud","Green",4,3062b.dat,2
+"Brick  1 x  1 Round with Hollow Stud","Reddish Brown",16,3062b.dat,70
+"Tile  2 x  2 with Groove","Dark Tan",20,3068b.dat,28
+"Tile  2 x  2 with Groove","Dark Green",26,3068b.dat,288
+"Tile  1 x  1 with Groove","Tan",102,3070b.dat,19
+"Tile  1 x  1 with Groove","Dark Tan",120,3070b.dat,28
+"Plate  1 x  8","White",10,3460.dat,15
+"Plate  1 x  8","Reddish Brown",8,3460.dat,70
+"Brick  1 x  3","Tan",17,3622.dat,19
+"Brick  1 x  3","Dark Green",4,3622.dat,288
+"Plate  1 x  3","Reddish Brown",1,3623.dat,70
+"Fence Lattice  1 x  4 x  1","White",4,3633.dat,15
+"Plate  1 x  4","White",4,3710.dat,15
+"Plate  1 x  4","Light Bluish Grey",1,3710.dat,71
+"Plant Flower","Red",3,3742.dat,4
+"Plant Flower","Dark Pink",1,3742.dat,5
+"Plant Flower","Yellow",4,3742.dat,14
+"Plant Root Vegetable with Stud and Bar","Orange",6,37681.dat,25
+"Plate  2 x  6","White",1,3795.dat,15
+"Plate  2 x  6","Dark Green",7,3795.dat,288
+"Baseplate 48 x 48","Green",1,4186.dat,2
+"Plant Flower  2 x  2 Leaves","Dark Pink",2,4727.dat,5
+"Plant Pumpkin","Orange",4,51270.dat,25
+"Window  1 x  2 x  2 without Sill","White",2,60592.dat,15
+"Window  1 x  4 x  3 without Shutter Tabs","White",18,60594.dat,15
+"Door  1 x  4 x  6 Frame","White",2,60596.dat,15
+"Glass for Window  1 x  2 x  2 without Sill","Trans Clear",2,60601.dat,47
+"Window  1 x  2 x  3 Pane with Thick Corner Tabs","Trans Light Blue",36,60608.dat,43
+"Door  1 x  4 x  6 with 4 Panes and Stud Handle","Reddish Brown",1,60623.dat,70
+"Door  1 x  4 x  6 with 3 Panes and Stud Handle with TransLightBlue Glass (Complete)","White",1,60797c01.dat,15
+"Plant  1 x  1 x  0.667 Round with 3 Large Leaves","Bright Green",2,6255.dat,10
+"Plant  3 x  3 with  3  Long Leaves","Bright Green",1,7264.dat,10
+"Plant Vine with  8 Thorns 10L","Dark Green",1,73828.dat,288

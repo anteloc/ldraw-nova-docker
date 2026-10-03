@@ -1,0 +1,1092 @@
+{
+  "query": "a small vegetable garden with raised planting beds and growing plants",
+  "kind": "submodels",
+  "engine": "jev",
+  "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+  "index_signature": "5a9a5482d9331e226db5209e53ce0f7474d0b24ae53e12dc402f951c917da8d8",
+  "results": [
+    {
+      "kind": "submodels",
+      "description": "A dark green and black garden ground scene with leafy lime slopes, brown soil plates, and clipped foliage details on a black base.",
+      "model": "40352-1.mpd",
+      "section": "40352 - Steps 39 to 52.ldr",
+      "id": "submodel-a138e61212a5f3782d008854",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "A dark green and black garden ground scene with leafy lime slopes, brown soil plates, and clipped foliage details on a black base.",
+      "original_full_description": "40352-1.mpd|40352 - Steps 39 to 52.ldr|A dark green and black garden ground scene with leafy lime slopes, brown soil plates, and clipped foliage details on a black base.",
+      "source_exists": true,
+      "path": "/opt/ldraw-nova/data/models-annotated/40352-1.mpd",
+      "source_sha256": "6db948bcee404190ccc9bf8503324e6d931bbe5299f9b157967b86220e4231ce",
+      "source_section": "40352 - Steps 39 to 52.ldr",
+      "start_line": 371,
+      "parent_description": "A blue, orange, and dark green scarecrow figure with a red round brick head, pearl gold claws, and tan clips, complete with a patchwork body, leafy base, and decorative garden details.",
+      "theme": "",
+      "direct_placements": 39,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "40352-1.mpd|40352 - Steps 39 to 52.ldr|A dark green and black garden ground scene with leafy lime slopes, brown soil plates, and clipped foliage details on a black base.",
+      "score": 0.43,
+      "retrieval_rank": 1,
+      "inventory": {
+        "source_sha256": "6db948bcee404190ccc9bf8503324e6d931bbe5299f9b157967b86220e4231ce",
+        "parser_section": "40352 - Steps 39 to 52.ldr",
+        "physical_placements": 47,
+        "expanded_leaf_count": 47,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "14719.dat",
+            "count": 2,
+            "description": "Tile  2 x  2 Corner",
+            "physical_index_entry": true
+          },
+          {
+            "part": "15573.dat",
+            "count": 2,
+            "description": "Plate  1 x  2 with Groove with 1 Centre Stud, without Understud",
+            "physical_index_entry": true
+          },
+          {
+            "part": "15712.dat",
+            "count": 2,
+            "description": "Tile  1 x  1 with Clip (Thick C-Clip)",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2431.dat",
+            "count": 1,
+            "description": "Tile  1 x  4 with Groove",
+            "physical_index_entry": true
+          },
+          {
+            "part": "24866.dat",
+            "count": 1,
+            "description": "Plate  1 x  1 with  5 Petals",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3023.dat",
+            "count": 5,
+            "description": "~Moved to 3023b",
+            "physical_index_entry": true
+          },
+          {
+            "part": "30565.dat",
+            "count": 2,
+            "description": "Plate  4 x  4 with Corner Round",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32607.dat",
+            "count": 1,
+            "description": "Plate  1 x  1 Round with  3 Leaves",
+            "physical_index_entry": true
+          },
+          {
+            "part": "33172.dat",
+            "count": 2,
+            "description": "Minifig Food Carrot",
+            "physical_index_entry": true
+          },
+          {
+            "part": "33183.dat",
+            "count": 2,
+            "description": "Minifig Food Carrot Top",
+            "physical_index_entry": true
+          },
+          {
+            "part": "33303.dat",
+            "count": 2,
+            "description": "Fence  1 x  4 x  2 Picket",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3623.dat",
+            "count": 4,
+            "description": "Plate  1 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3626c.dat",
+            "count": 1,
+            "description": "Minifig Head with Hollow Stud",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3666.dat",
+            "count": 1,
+            "description": "Plate  1 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3710.dat",
+            "count": 1,
+            "description": "Plate  1 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3941.dat",
+            "count": 2,
+            "description": "Brick  2 x  2 Round without Reinforcement",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3958.dat",
+            "count": 1,
+            "description": "Plate  6 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4032a.dat",
+            "count": 2,
+            "description": "Plate  2 x  2 Round with Axlehole",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4477.dat",
+            "count": 1,
+            "description": "Plate  1 x 10",
+            "physical_index_entry": true
+          },
+          {
+            "part": "54200.dat",
+            "count": 8,
+            "description": "Slope Brick 31  1 x  1 x  0.667",
+            "physical_index_entry": true
+          },
+          {
+            "part": "60478.dat",
+            "count": 2,
+            "description": "Plate  1 x  2 with Handle on End",
+            "physical_index_entry": true
+          },
+          {
+            "part": "85861.dat",
+            "count": 2,
+            "description": "Plate  1 x  1 Round with Open Stud",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 0,
+        "technic_share": 0.0,
+        "legacy_parts": [
+          {
+            "part": "3023.dat",
+            "count": 5,
+            "description": "~Moved to 3023b",
+            "physical_index_entry": true
+          }
+        ],
+        "shape_fingerprint": "cbe391e612882d644066eafe1eb5a5df5ed2b9cca9cc79849403c8f86aabd8ab",
+        "recipe_fingerprint": "494746abc5376575bf3a00bbf6d0ecbbe6e8400dfa935fde989c3aaba372af39",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "40352 - Thanksgiving Scarecrow.ldr",
+            "at": [
+              0.0,
+              80.0,
+              0.0
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "colour": 16
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "40352 - Steps 39 to 52.ldr",
+            "kind": "assembly",
+            "author": "Vincent Messenet [Cheenzo]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "40352 - Step 49.ldr",
+            "kind": "assembly",
+            "author": "Vincent Messenet [Cheenzo]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "40352 - Step 50.ldr",
+            "kind": "assembly",
+            "author": "Vincent Messenet [Cheenzo]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "40352 - Step 51.ldr",
+            "kind": "assembly",
+            "author": "Vincent Messenet [Cheenzo]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      }
+    },
+    {
+      "kind": "submodels",
+      "description": "A garden detail with reddish brown and medium nougat plates, grooved tiles, green leaf and flower petal plates, and red flowers, forming a small garden bed with flowers.",
+      "model": "10264-1.mpd",
+      "section": "10264 - 279.ldr",
+      "id": "submodel-32d47f545bc84777f4f91946",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "A garden detail with reddish brown and medium nougat plates, grooved tiles, green leaf and flower petal plates, and red flowers, forming a small garden bed with flowers.",
+      "original_full_description": "10264-1.mpd|10264 - 279.ldr|A garden detail with reddish brown and medium nougat plates, grooved tiles, green leaf and flower petal plates, and red flowers, forming a small garden bed with flowers.",
+      "source_exists": true,
+      "path": "/opt/ldraw-nova/data/models-annotated/10264-1.mpd",
+      "source_sha256": "2bcd018ce9147ace23cd9a4dbdc7ec16444e1ca04b19e383b003c46c7cb0818c",
+      "source_section": "10264 - 279.ldr",
+      "start_line": 7444,
+      "parent_description": "The complete Corner Garage model, featuring a multi-story corner building with white, light bluish grey, and medium nougat walls, dark green accents, windows, doors, a staircase, a baseplate foundation, a German Shepherd dog, and accessories like a broom, hand truck, and D-basket, populated by several minifigures, a scooter, and a tow truck.",
+      "theme": "",
+      "direct_placements": 14,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "10264-1.mpd|10264 - 279.ldr|A garden detail with reddish brown and medium nougat plates, grooved tiles, green leaf and flower petal plates, and red flowers, forming a small garden bed with flowers.",
+      "score": 0.42,
+      "retrieval_rank": 2,
+      "inventory": {
+        "source_sha256": "2bcd018ce9147ace23cd9a4dbdc7ec16444e1ca04b19e383b003c46c7cb0818c",
+        "parser_section": "10264 - 279.ldr",
+        "physical_placements": 14,
+        "expanded_leaf_count": 14,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "24866.dat",
+            "count": 2,
+            "description": "Plate  1 x  1 with  5 Petals",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3069b.dat",
+            "count": 4,
+            "description": "Tile  1 x  2 with Groove",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32606.dat",
+            "count": 3,
+            "description": "Plant Flower with  7 Alternate Petals with Bar and Pin Hole",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32607.dat",
+            "count": 3,
+            "description": "Plate  1 x  1 Round with  3 Leaves",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3710.dat",
+            "count": 1,
+            "description": "Plate  1 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3795.dat",
+            "count": 1,
+            "description": "Plate  2 x  6",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 0,
+        "technic_share": 0.0,
+        "legacy_parts": [],
+        "shape_fingerprint": "6dbfbef2c19f2fce6175d0dcad1186f7f31d32b114a0c8e24fce9595d0465a54",
+        "recipe_fingerprint": "f01fb0f0d555c3fca54434d69e5d20dd643c5b3dde46c7a0dc35e856acfa7636",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "10264 - 263-293.ldr",
+            "at": [
+              -100.0,
+              -16.0,
+              -180.0
+            ],
+            "matrix": [
+              [
+                0.0,
+                0.0,
+                -1.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                1.0,
+                0.0,
+                0.0
+              ]
+            ],
+            "colour": 16
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "10264 - 279.ldr",
+            "kind": "assembly",
+            "author": "Jaco van der Molen [Jaco van der Molen]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      }
+    },
+    {
+      "kind": "submodels",
+      "description": "A small garden detail of green leaves, a bright green carrot top, and orange round plates representing a bamboo or plant accent.",
+      "model": "40466-1.mpd",
+      "section": "40466 - Panda - Step 48.ldr",
+      "id": "submodel-9ab8d21d62538575745f4142",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "A small garden detail of green leaves, a bright green carrot top, and orange round plates representing a bamboo or plant accent.",
+      "original_full_description": "40466-1.mpd|40466 - Panda - Step 48.ldr|A small garden detail of green leaves, a bright green carrot top, and orange round plates representing a bamboo or plant accent.",
+      "source_exists": true,
+      "path": "/opt/ldraw-nova/data/models-annotated/40466-1.mpd",
+      "source_sha256": "383451707f3dc9928e1d69103ad56f1807dfbe2bc0ae244eb577b514c6cf8305",
+      "source_section": "40466 - Panda - Step 48.ldr",
+      "start_line": 397,
+      "parent_description": "A festive Chinese New Year display featuring a large adult panda, two baby pandas, bamboo, and hanging red and gold lantern decorations.",
+      "theme": "",
+      "direct_placements": 5,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "40466-1.mpd|40466 - Panda - Step 48.ldr|A small garden detail of green leaves, a bright green carrot top, and orange round plates representing a bamboo or plant accent.",
+      "score": 0.42,
+      "retrieval_rank": 3,
+      "inventory": {
+        "source_sha256": "383451707f3dc9928e1d69103ad56f1807dfbe2bc0ae244eb577b514c6cf8305",
+        "parser_section": "40466 - Panda - Step 48.ldr",
+        "physical_placements": 5,
+        "expanded_leaf_count": 5,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "2423.dat",
+            "count": 1,
+            "description": "Plant Leaves  4 x  3",
+            "physical_index_entry": true
+          },
+          {
+            "part": "33183.dat",
+            "count": 1,
+            "description": "Minifig Food Carrot Top",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6141.dat",
+            "count": 3,
+            "description": "Plate  1 x  1 Round",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 0,
+        "technic_share": 0.0,
+        "legacy_parts": [],
+        "shape_fingerprint": "1630eefd94d8eadd67289ff19a31e053cc23f2b3f82475e4ec9adba177b62543",
+        "recipe_fingerprint": "643507208d5e752d96a3fdafed74773e16a00bf990ae4e957e3cc149a89e8552",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "40466 - Panda Steps 31 to 52.ldr",
+            "at": [
+              151.3,
+              -87.0,
+              -21.3
+            ],
+            "matrix": [
+              [
+                0.707,
+                0.0,
+                -0.707
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.707,
+                0.0,
+                0.707
+              ]
+            ],
+            "colour": 16
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "40466 - Panda - Step 48.ldr",
+            "kind": "assembly",
+            "author": "Vincent Messenet [Cheenzo]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      }
+    },
+    {
+      "kind": "submodels",
+      "description": "A green baseplate driveway with grey paving tiles, brown path edges, a garden patch with carrots and leaves, and a white storage box.",
+      "model": "3315-1.mpd",
+      "section": "3315 - driveway.ldr",
+      "id": "submodel-9fa0c4ce3778c27cb821b387",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "A green baseplate driveway with grey paving tiles, brown path edges, a garden patch with carrots and leaves, and a white storage box.",
+      "original_full_description": "3315-1.mpd|3315 - driveway.ldr|A green baseplate driveway with grey paving tiles, brown path edges, a garden patch with carrots and leaves, and a white storage box.",
+      "source_exists": true,
+      "path": "/opt/ldraw-nova/data/models-annotated/3315-1.mpd",
+      "source_sha256": "9e3eed1c73d006345c3a07ad0529f83964cb3c9c27485ce9f4a9505edab62dc7",
+      "source_section": "3315 - driveway.ldr",
+      "start_line": 1404,
+      "parent_description": "A large Friends-themed dollhouse model assembling multiple furnished rooms (lounge, kitchen, bedroom, bathroom), outdoor areas (balcony, terrace, garden, driveway), and detailed furniture into a complete two-story home.",
+      "theme": "",
+      "direct_placements": 43,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "3315-1.mpd|3315 - driveway.ldr|A green baseplate driveway with grey paving tiles, brown path edges, a garden patch with carrots and leaves, and a white storage box.",
+      "score": 0.29,
+      "retrieval_rank": 4,
+      "inventory": {
+        "source_sha256": "9e3eed1c73d006345c3a07ad0529f83964cb3c9c27485ce9f4a9505edab62dc7",
+        "parser_section": "3315 - driveway.ldr",
+        "physical_placements": 43,
+        "expanded_leaf_count": 43,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "30165.dat",
+            "count": 1,
+            "description": "Brick  2 x  2 with Curved Top and  2 Studs on Top",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3020.dat",
+            "count": 1,
+            "description": "Plate  2 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3022.dat",
+            "count": 5,
+            "description": "Plate  2 x  2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "30565.dat",
+            "count": 1,
+            "description": "Plate  4 x  4 with Corner Round",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3062b.dat",
+            "count": 2,
+            "description": "Brick  1 x  1 Round with Hollow Stud",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3068b.dat",
+            "count": 4,
+            "description": "Tile  2 x  2 with Groove",
+            "physical_index_entry": true
+          },
+          {
+            "part": "33172.dat",
+            "count": 2,
+            "description": "Minifig Food Carrot",
+            "physical_index_entry": true
+          },
+          {
+            "part": "33183.dat",
+            "count": 2,
+            "description": "Minifig Food Carrot Top",
+            "physical_index_entry": true
+          },
+          {
+            "part": "33291.dat",
+            "count": 2,
+            "description": "Plate  1 x  1 Round with Tabs",
+            "physical_index_entry": true
+          },
+          {
+            "part": "33303.dat",
+            "count": 2,
+            "description": "Fence  1 x  4 x  2 Picket",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3710.dat",
+            "count": 2,
+            "description": "Plate  1 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3741a.dat",
+            "count": 1,
+            "description": "Plant Flower Stem",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3742.dat",
+            "count": 3,
+            "description": "Plant Flower",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3794b.dat",
+            "count": 4,
+            "description": "Plate  1 x  2 with Groove with 1 Centre Stud",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3941.dat",
+            "count": 1,
+            "description": "Brick  2 x  2 Round without Reinforcement",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4345b.dat",
+            "count": 1,
+            "description": "Container Box  2 x  2 x  2 with Hollow Studs",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4346.dat",
+            "count": 1,
+            "description": "Container Box  2 x  2 x  2 Door with Slot",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6141.dat",
+            "count": 6,
+            "description": "Plate  1 x  1 Round",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6255.dat",
+            "count": 1,
+            "description": "Plant  1 x  1 x  0.667 Round with 3 Large Leaves",
+            "physical_index_entry": true
+          },
+          {
+            "part": "92438.dat",
+            "count": 1,
+            "description": "Plate  8 x 16",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 0,
+        "technic_share": 0.0,
+        "legacy_parts": [],
+        "shape_fingerprint": "2d52e0c9a7f715343c89b833bbe492f786b17968c7d1fd0eb4f4219888af2784",
+        "recipe_fingerprint": "d623572b185825f8904a02f9472cc1b94bda6edd57126596b61d004dd172d304",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "3315 - main.ldr",
+            "at": [
+              320.0,
+              0.0,
+              -240.0
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "colour": 5
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "3315 - driveway.ldr",
+            "kind": "assembly",
+            "author": "Philippe Hurbain [Philo]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      }
+    },
+    {
+      "kind": "submodels",
+      "description": "Garden diorama on a black baseplate with green grass plates, lime slopes and stems, colorful round studs, and two white eggs.",
+      "model": "40350-1.mpd",
+      "section": "40350 - Steps 24 to 42.ldr",
+      "id": "submodel-9d6a0741166e5a331215b8d3",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "Garden diorama on a black baseplate with green grass plates, lime slopes and stems, colorful round studs, and two white eggs.",
+      "original_full_description": "40350-1.mpd|40350 - Steps 24 to 42.ldr|Garden diorama on a black baseplate with green grass plates, lime slopes and stems, colorful round studs, and two white eggs.",
+      "source_exists": true,
+      "path": "/opt/ldraw-nova/data/models-annotated/40350-1.mpd",
+      "source_sha256": "76458297cacdf47ee399e7a5713dbbf98e27345b94abce0066217613cc232b4c",
+      "source_section": "40350 - Steps 24 to 42.ldr",
+      "start_line": 245,
+      "parent_description": "Buildable yellow chick sculpture with SNOT brick construction, rounded red features, and bright light orange accents, accompanied by a garden scene submodel with flowers, grass, eggs, and a black baseplate.",
+      "theme": "",
+      "direct_placements": 24,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "40350-1.mpd|40350 - Steps 24 to 42.ldr|Garden diorama on a black baseplate with green grass plates, lime slopes and stems, colorful round studs, and two white eggs.",
+      "score": 0.26,
+      "retrieval_rank": 5,
+      "inventory": {
+        "source_sha256": "76458297cacdf47ee399e7a5713dbbf98e27345b94abce0066217613cc232b4c",
+        "parser_section": "40350 - Steps 24 to 42.ldr",
+        "physical_placements": 42,
+        "expanded_leaf_count": 42,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "11477.dat",
+            "count": 8,
+            "description": "Slope Brick Curved  2 x  1",
+            "physical_index_entry": true
+          },
+          {
+            "part": "15279.dat",
+            "count": 2,
+            "description": "Plant Grass Stem",
+            "physical_index_entry": true
+          },
+          {
+            "part": "15573.dat",
+            "count": 2,
+            "description": "Plate  1 x  2 with Groove with 1 Centre Stud, without Understud",
+            "physical_index_entry": true
+          },
+          {
+            "part": "2431.dat",
+            "count": 1,
+            "description": "Tile  1 x  4 with Groove",
+            "physical_index_entry": true
+          },
+          {
+            "part": "24866.dat",
+            "count": 6,
+            "description": "Plate  1 x  1 with  5 Petals",
+            "physical_index_entry": true
+          },
+          {
+            "part": "24946.dat",
+            "count": 2,
+            "description": "Animal Egg  1.2 x  1.2 x  1.333 with Hole on Top",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3023.dat",
+            "count": 2,
+            "description": "~Moved to 3023b",
+            "physical_index_entry": true
+          },
+          {
+            "part": "30565.dat",
+            "count": 2,
+            "description": "Plate  4 x  4 with Corner Round",
+            "physical_index_entry": true
+          },
+          {
+            "part": "32607.dat",
+            "count": 2,
+            "description": "Plate  1 x  1 Round with  3 Leaves",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3626c.dat",
+            "count": 2,
+            "description": "Minifig Head with Hollow Stud",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3666.dat",
+            "count": 1,
+            "description": "Plate  1 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3958.dat",
+            "count": 1,
+            "description": "Plate  6 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4032a.dat",
+            "count": 2,
+            "description": "Plate  2 x  2 Round with Axlehole",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4477.dat",
+            "count": 1,
+            "description": "Plate  1 x 10",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4733.dat",
+            "count": 2,
+            "description": "Brick  1 x  1 with Studs on Four Sides",
+            "physical_index_entry": true
+          },
+          {
+            "part": "54200.dat",
+            "count": 2,
+            "description": "Slope Brick 31  1 x  1 x  0.667",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6141.dat",
+            "count": 2,
+            "description": "Plate  1 x  1 Round",
+            "physical_index_entry": true
+          },
+          {
+            "part": "87079.dat",
+            "count": 1,
+            "description": "Tile  2 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "92593.dat",
+            "count": 1,
+            "description": "Plate  1 x  4 with Two Studs",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 0,
+        "technic_share": 0.0,
+        "legacy_parts": [
+          {
+            "part": "3023.dat",
+            "count": 2,
+            "description": "~Moved to 3023b",
+            "physical_index_entry": true
+          }
+        ],
+        "shape_fingerprint": "93e2adbf556fc03eb8548c244bf503f4dd44b7f6c7a124aa755e37716cbf06c5",
+        "recipe_fingerprint": "f0ce86a7cb2520bdd0bbf7542c746e10adbaa993b0801f0f1e0e1313895097a4",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "40350 - Chick.ldr",
+            "at": [
+              -40.0,
+              0.0,
+              30.0
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "colour": 16
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "40350 - Steps 24 to 42.ldr",
+            "kind": "assembly",
+            "author": "Vincent Messenet [Cheenzo]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "40350 - Steps 31 to 35.ldr",
+            "kind": "assembly",
+            "author": "Vincent Messenet [Cheenzo]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          },
+          {
+            "section": "40350 - Steps 37 to 41.ldr",
+            "kind": "assembly",
+            "author": "Vincent Messenet [Cheenzo]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      }
+    },
+    {
+      "kind": "submodels",
+      "description": "A small reddish-brown planter with trans-green and red round accents.",
+      "model": "4956-1_Small-Houses.mpd",
+      "section": "4956 - Plant1.ldr",
+      "id": "submodel-1c2248a1f40fe2c430744036",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "A small reddish-brown planter with trans-green and red round accents.",
+      "original_full_description": "4956-1_Small-Houses.mpd|4956 - Plant1.ldr|A small reddish-brown planter with trans-green and red round accents.",
+      "source_exists": true,
+      "path": "/opt/ldraw-nova/data/models-annotated/4956-1_Small-Houses.mpd",
+      "source_sha256": "0171f2d79fd360938fa65de93f7332c21d07879e6f0c4bd4bdbab26d73ba5b39",
+      "source_section": "4956 - Plant1.ldr",
+      "start_line": 985,
+      "parent_description": "A small LEGO house scene assembled on a green baseplate with two story-style houses, decorative plants, a bush, and a tree.",
+      "theme": "",
+      "direct_placements": 14,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "4956-1_Small-Houses.mpd|4956 - Plant1.ldr|A small reddish-brown planter with trans-green and red round accents.",
+      "score": 0.25,
+      "retrieval_rank": 6,
+      "inventory": {
+        "source_sha256": "0171f2d79fd360938fa65de93f7332c21d07879e6f0c4bd4bdbab26d73ba5b39",
+        "parser_section": "4956 - Plant1.ldr",
+        "physical_placements": 14,
+        "expanded_leaf_count": 14,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "3795.dat",
+            "count": 1,
+            "description": "Plate  2 x  6",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6141.dat",
+            "count": 13,
+            "description": "Plate  1 x  1 Round",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 0,
+        "technic_share": 0.0,
+        "legacy_parts": [],
+        "shape_fingerprint": "a7bea1c37c92c7192b4eebea28b0aa24e6c318a23f502b7fae7f6d6e4b6aade6",
+        "recipe_fingerprint": "58670a8bc202b467124fa99984f042d2c68a69548524a2e41eb674bfc3a9a510",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "4956 - Houses.ldr",
+            "at": [
+              240.0,
+              -8.0,
+              -160.0
+            ],
+            "matrix": [
+              [
+                -1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                -1.0
+              ]
+            ],
+            "colour": 4
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "4956 - Plant1.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      }
+    }
+  ],
+  "eligible_after_measurement": 41,
+  "rejected": [
+    {
+      "id": "submodel-1d5641b5c9322e0556dba755",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 16
+    },
+    {
+      "id": "submodel-7552774220e6ff39644248c6",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 19
+    },
+    {
+      "id": "submodel-02ecea6baa33bcaf68e6d960",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 23
+    },
+    {
+      "id": "submodel-8771d96394b99860a7f70205",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 27
+    },
+    {
+      "id": "submodel-24a9d1dbada2f154f9205428",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 28
+    },
+    {
+      "id": "submodel-5adf8a43f45af1971220a753",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 29
+    },
+    {
+      "id": "submodel-24451314b14cc8adffb2f5ca",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 30
+    },
+    {
+      "id": "submodel-339faa1dc4a03f0eaac55274",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 31
+    },
+    {
+      "id": "submodel-6b70bc1a6fd0af0f17cb8b40",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 32
+    },
+    {
+      "id": "submodel-b2433e29a1bf46b03a221e8d",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 34
+    },
+    {
+      "id": "submodel-c2771e02204b7ef54e3a1549",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 35
+    },
+    {
+      "id": "submodel-ff628a818cf5698c9a473f19",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 38
+    },
+    {
+      "id": "submodel-919080a22c9b5d100ef42f2e",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 48
+    },
+    {
+      "id": "submodel-aaedbdbde0d8e7f90359b91c",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 53
+    },
+    {
+      "id": "submodel-d0a2f9e2e645829714feb80b",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 55
+    },
+    {
+      "id": "submodel-f020b3b255c5677af15b3ebe",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 56
+    },
+    {
+      "id": "submodel-f54bcd6a10161daacc80c4e6",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 57
+    },
+    {
+      "id": "submodel-17aa0aa4c7c2d10597e02aed",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 59
+    },
+    {
+      "id": "submodel-34f5a8db131c356d439b5b73",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 60
+    }
+  ],
+  "stats": {
+    "documents": 20823,
+    "passages": 20823,
+    "updated": 20823,
+    "skipped": 0,
+    "removed": 0,
+    "scored": 500,
+    "cache_hits": 0,
+    "api_calls": 500,
+    "input_tokens": 261849,
+    "output_tokens": 11000,
+    "elapsed_seconds": 10.305002129010973,
+    "exhaustive": false,
+    "command": [
+      "jev-rerank",
+      "--db",
+      "/opt/ldraw-nova/.cache/discovery/492c349bdc87ce95/queries/3480fd990b7d75e9cca7ccba1f8a37744ec4129a1191efb9930725628f3dd2e3.sqlite",
+      "--table-field",
+      "candidates.full_description",
+      "--query",
+      "a small vegetable garden with raised planting beds and growing plants",
+      "--top",
+      "60",
+      "--candidates",
+      "500",
+      "--model",
+      "jev-1.13.0",
+      "--json",
+      "--show"
+    ],
+    "eligible_records": 20823
+  },
+  "filters": {
+    "system": true,
+    "construction": "system",
+    "min_parts": 2,
+    "max_parts": null,
+    "max_technic_share": 0.5,
+    "parent_cap": 2
+  },
+  "note": "Scores describe textual relevance. Results still require geometry, scale and visual review; no hidden fallback or automatic import approval."
+}

@@ -1,0 +1,885 @@
+{
+  "version": 1,
+  "cache_key": "d499d1537073655e35fd0e9e56c9a711bd66fe1d7fe2d2f7baa5be1d7641d02a",
+  "id": "model-e8db62395eb7e2b7ff805cd2",
+  "kind": "models",
+  "model": "4956-1_House-with-Arch.mpd",
+  "section": null,
+  "parser_section": "4956 - Main.ldr",
+  "description": "A complete house built on a green baseplate, featuring a white-walled main structure with arched elements, a red-sloped roof, garage with black door, a tree, bushes, a mailbox, and a pillar.",
+  "parent_description": "A complete house built on a green baseplate, featuring a white-walled main structure with arched elements, a red-sloped roof, garage with black door, a tree, bushes, a mailbox, and a pillar.",
+  "theme": "",
+  "source": {
+    "path": "/opt/ldraw-nova/data/models-annotated/4956-1_House-with-Arch.mpd",
+    "sha256": "09b6fd49d940046b5141ae202b9bde8387f27c64c6bc3df8b616575a35c94873",
+    "field": "MODELS_DESCRIPTIONS_JEV.full_description",
+    "start_line": 1
+  },
+  "source_root": "ref-e8db62395eb7e2b7-00-4956---Main.ldr",
+  "preview_colour": 7,
+  "inventory": {
+    "source_sha256": "09b6fd49d940046b5141ae202b9bde8387f27c64c6bc3df8b616575a35c94873",
+    "parser_section": "4956 - Main.ldr",
+    "physical_placements": 631,
+    "expanded_leaf_count": 631,
+    "physical_accounting_complete": true,
+    "nonphysical_or_unresolved_leaves": [],
+    "raw_geometry_sections": [],
+    "bom": [
+      {
+        "part": "2357.dat",
+        "count": 17,
+        "description": "Brick  2 x  2 Corner",
+        "physical_index_entry": true
+      },
+      {
+        "part": "2412b.dat",
+        "count": 5,
+        "description": "Tile  1 x  2 Grille with Groove",
+        "physical_index_entry": true
+      },
+      {
+        "part": "2420.dat",
+        "count": 1,
+        "description": "Plate  2 x  2 Corner",
+        "physical_index_entry": true
+      },
+      {
+        "part": "2423.dat",
+        "count": 4,
+        "description": "Plant Leaves  4 x  3",
+        "physical_index_entry": true
+      },
+      {
+        "part": "2431.dat",
+        "count": 4,
+        "description": "Tile  1 x  4 with Groove",
+        "physical_index_entry": true
+      },
+      {
+        "part": "2432.dat",
+        "count": 2,
+        "description": "Tile  1 x  2 with Handle",
+        "physical_index_entry": true
+      },
+      {
+        "part": "2445.dat",
+        "count": 2,
+        "description": "Plate  2 x 12",
+        "physical_index_entry": true
+      },
+      {
+        "part": "2454.dat",
+        "count": 2,
+        "description": "~Brick  1 x  2 x  5 (Obsolete)",
+        "physical_index_entry": true
+      },
+      {
+        "part": "2456.dat",
+        "count": 8,
+        "description": "Brick  2 x  6",
+        "physical_index_entry": true
+      },
+      {
+        "part": "2465.dat",
+        "count": 2,
+        "description": "Brick  1 x 16",
+        "physical_index_entry": true
+      },
+      {
+        "part": "2780.dat",
+        "count": 2,
+        "description": "Technic Pin with Friction and Slots",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3001.dat",
+        "count": 4,
+        "description": "Brick  2 x  4",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3002.dat",
+        "count": 6,
+        "description": "Brick  2 x  3",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3003.dat",
+        "count": 11,
+        "description": "Brick  2 x  2",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3004.dat",
+        "count": 22,
+        "description": "Brick  1 x  2",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3005.dat",
+        "count": 22,
+        "description": "Brick  1 x  1",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3007.dat",
+        "count": 9,
+        "description": "Brick  2 x  8",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3008.dat",
+        "count": 37,
+        "description": "Brick  1 x  8",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3009.dat",
+        "count": 15,
+        "description": "Brick  1 x  6",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3010.dat",
+        "count": 22,
+        "description": "Brick  1 x  4",
+        "physical_index_entry": true
+      },
+      {
+        "part": "30165.dat",
+        "count": 1,
+        "description": "Brick  2 x  2 with Curved Top and  2 Studs on Top",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3020.dat",
+        "count": 3,
+        "description": "Plate  2 x  4",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3021.dat",
+        "count": 1,
+        "description": "Plate  2 x  3",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3022.dat",
+        "count": 2,
+        "description": "Plate  2 x  2",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3023.dat",
+        "count": 25,
+        "description": "~Moved to 3023b",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3024.dat",
+        "count": 6,
+        "description": "Plate  1 x  1",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3031.dat",
+        "count": 1,
+        "description": "Plate  4 x  4",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3032.dat",
+        "count": 7,
+        "description": "Plate  4 x  6",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3034.dat",
+        "count": 1,
+        "description": "Plate  2 x  8",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3035.dat",
+        "count": 5,
+        "description": "Plate  4 x  8",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3036.dat",
+        "count": 1,
+        "description": "Plate  6 x  8",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3037.dat",
+        "count": 63,
+        "description": "Slope Brick 45  2 x  4",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3038.dat",
+        "count": 10,
+        "description": "Slope Brick 45  2 x  3",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3039.dat",
+        "count": 12,
+        "description": "Slope Brick 45  2 x  2",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3040b.dat",
+        "count": 9,
+        "description": "Slope Brick 45  2 x  1",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3045.dat",
+        "count": 2,
+        "description": "Slope Brick 45  2 x  2 Double Convex",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3046.dat",
+        "count": 10,
+        "description": "Slope Brick 45  2 x  2 Double Concave",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3048b.dat",
+        "count": 2,
+        "description": "Slope Brick 45  1 x  2 Triple",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3049c.dat",
+        "count": 2,
+        "description": "Slope Brick 45  1 x  2 Double / Inverted without Centre Stud",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3062b.dat",
+        "count": 21,
+        "description": "Brick  1 x  1 Round with Hollow Stud",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3069b.dat",
+        "count": 1,
+        "description": "Tile  1 x  2 with Groove",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3070b.dat",
+        "count": 60,
+        "description": "Tile  1 x  1 with Groove",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3185.dat",
+        "count": 4,
+        "description": "Fence Lattice  1 x  4 x  2",
+        "physical_index_entry": true
+      },
+      {
+        "part": "32000.dat",
+        "count": 4,
+        "description": "Technic Brick  1 x  2 with Holes",
+        "physical_index_entry": true
+      },
+      {
+        "part": "32028.dat",
+        "count": 4,
+        "description": "Plate  1 x  2 with Door Rail",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3455.dat",
+        "count": 5,
+        "description": "Arch  1 x  6",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3460.dat",
+        "count": 10,
+        "description": "Plate  1 x  8",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3622.dat",
+        "count": 22,
+        "description": "Brick  1 x  3",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3660.dat",
+        "count": 2,
+        "description": "~Moved to 3660a",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3665a.dat",
+        "count": 4,
+        "description": "Slope Brick 45  2 x  1 Inverted without Inner Stopper Ring",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3666.dat",
+        "count": 4,
+        "description": "Plate  1 x  6",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3710.dat",
+        "count": 15,
+        "description": "Plate  1 x  4",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3794a.dat",
+        "count": 4,
+        "description": "Plate  1 x  2 without Groove with 1 Centre Stud",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3795.dat",
+        "count": 2,
+        "description": "Plate  2 x  6",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3811.dat",
+        "count": 1,
+        "description": "Baseplate 32 x 32",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3854.dat",
+        "count": 8,
+        "description": "Window  1 x  2 x  3 Pane",
+        "physical_index_entry": true
+      },
+      {
+        "part": "4070.dat",
+        "count": 5,
+        "description": "Brick  1 x  1 with Headlight",
+        "physical_index_entry": true
+      },
+      {
+        "part": "4085c.dat",
+        "count": 3,
+        "description": "Plate  1 x  1 with Clip Vertical (Thick U-Clip)",
+        "physical_index_entry": true
+      },
+      {
+        "part": "4162.dat",
+        "count": 6,
+        "description": "Tile  1 x  8",
+        "physical_index_entry": true
+      },
+      {
+        "part": "42446.dat",
+        "count": 2,
+        "description": "Bracket  1 x  1 -  1 x  1 Thin with Stud Hole",
+        "physical_index_entry": true
+      },
+      {
+        "part": "4282.dat",
+        "count": 2,
+        "description": "Plate  2 x 16",
+        "physical_index_entry": true
+      },
+      {
+        "part": "44728.dat",
+        "count": 2,
+        "description": "Bracket  1 x  2 -  2 x  2 Down",
+        "physical_index_entry": true
+      },
+      {
+        "part": "4477.dat",
+        "count": 5,
+        "description": "Plate  1 x 10",
+        "physical_index_entry": true
+      },
+      {
+        "part": "4510.dat",
+        "count": 4,
+        "description": "Plate  1 x  8 with Door Rail",
+        "physical_index_entry": true
+      },
+      {
+        "part": "4599a.dat",
+        "count": 2,
+        "description": "Tap  1 x  1 with Hole in Spout",
+        "physical_index_entry": true
+      },
+      {
+        "part": "47899c01.dat",
+        "count": 1,
+        "description": "Door  1 x  4 x  5 Left with Trans Clear Glass",
+        "physical_index_entry": true
+      },
+      {
+        "part": "54200.dat",
+        "count": 1,
+        "description": "Slope Brick 31  1 x  1 x  0.667",
+        "physical_index_entry": true
+      },
+      {
+        "part": "6112.dat",
+        "count": 4,
+        "description": "Brick  1 x 12",
+        "physical_index_entry": true
+      },
+      {
+        "part": "6141.dat",
+        "count": 54,
+        "description": "Plate  1 x  1 Round",
+        "physical_index_entry": true
+      },
+      {
+        "part": "6556.dat",
+        "count": 4,
+        "description": "Train Window  1 x  4 x  3 with Shutter Holes",
+        "physical_index_entry": true
+      },
+      {
+        "part": "6636.dat",
+        "count": 4,
+        "description": "Tile  1 x  6",
+        "physical_index_entry": true
+      },
+      {
+        "part": "73194c01.dat",
+        "count": 1,
+        "description": "Door  1 x  4 x  5 Right with Trans Clear Glass",
+        "physical_index_entry": true
+      }
+    ],
+    "technic_named_placements": 6,
+    "technic_share": 0.009508716323296355,
+    "legacy_parts": [
+      {
+        "part": "2454.dat",
+        "count": 2,
+        "description": "~Brick  1 x  2 x  5 (Obsolete)",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3023.dat",
+        "count": 25,
+        "description": "~Moved to 3023b",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3660.dat",
+        "count": 2,
+        "description": "~Moved to 3660a",
+        "physical_index_entry": true
+      }
+    ],
+    "shape_fingerprint": "8a684c38bee3088d92a5b3c11729e1ef49e2e9167d40b1fa10b03280bc11efc7",
+    "recipe_fingerprint": "88030470b31ce6c41e799ba842e7e8ddb51087b61a1352e07aa9adb7b099a4ed",
+    "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+    "parents": [],
+    "dependencies": [
+      {
+        "section": "4956 - Main.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "4956 - House with Arch.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "4956 - Pilar.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "4956 - Garage Door.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "4956 - Garage Door Side.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "4956 - Tree.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "4956 - Bush.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "4956 - Mail Box.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "4956 - Roof.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      }
+    ],
+    "reachable": true
+  },
+  "attribution": [
+    {
+      "section": "4956 - Main.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "4956 - House with Arch.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "4956 - Pilar.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "4956 - Garage Door.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "4956 - Garage Door Side.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "4956 - Tree.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "4956 - Bush.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "4956 - Mail Box.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "4956 - Roof.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    }
+  ],
+  "bounds": {
+    "min": [
+      -320.0,
+      -444.0,
+      -320.0
+    ],
+    "max": [
+      336.0,
+      4.0,
+      320.0
+    ]
+  },
+  "size_ldu": [
+    656.0,
+    448.0,
+    640.0
+  ],
+  "size_studs_plates_studs": [
+    32.8,
+    56.0,
+    32.0
+  ],
+  "mesh_complete": true,
+  "mesh_diagnostics": [],
+  "raw_assembly_checks_passed": false,
+  "raw_diagnostic_counts": {
+    "header.missing": 1,
+    "part.alias_or_internal": 19,
+    "assembly.nonrigid": 2
+  },
+  "assembly_checks_passed": true,
+  "diagnostics": [
+    {
+      "code": "header.missing",
+      "severity": "warning",
+      "message": "Add a descriptive Name: header.",
+      "line_number": null,
+      "section": "preview-model-e8db62395eb7e2b7ff805cd2.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 178,
+      "section": "ref-e8db62395eb7e2b7-01-4956---House-with-Arch.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 365,
+      "section": "ref-e8db62395eb7e2b7-01-4956---House-with-Arch.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 367,
+      "section": "ref-e8db62395eb7e2b7-01-4956---House-with-Arch.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 445,
+      "section": "ref-e8db62395eb7e2b7-01-4956---House-with-Arch.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 447,
+      "section": "ref-e8db62395eb7e2b7-01-4956---House-with-Arch.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 497,
+      "section": "ref-e8db62395eb7e2b7-01-4956---House-with-Arch.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 499,
+      "section": "ref-e8db62395eb7e2b7-01-4956---House-with-Arch.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 592,
+      "section": "ref-e8db62395eb7e2b7-01-4956---House-with-Arch.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 616,
+      "section": "ref-e8db62395eb7e2b7-01-4956---House-with-Arch.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 633,
+      "section": "ref-e8db62395eb7e2b7-02-4956---Pilar.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 635,
+      "section": "ref-e8db62395eb7e2b7-02-4956---Pilar.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 648,
+      "section": "ref-e8db62395eb7e2b7-02-4956---Pilar.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 703,
+      "section": "ref-e8db62395eb7e2b7-04-4956---Garage-Door-Side.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 723,
+      "section": "ref-e8db62395eb7e2b7-05-4956---Tree.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 725,
+      "section": "ref-e8db62395eb7e2b7-05-4956---Tree.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 835,
+      "section": "ref-e8db62395eb7e2b7-08-4956---Roof.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 996,
+      "section": "ref-e8db62395eb7e2b7-08-4956---Roof.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 998,
+      "section": "ref-e8db62395eb7e2b7-08-4956---Roof.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 1000,
+      "section": "ref-e8db62395eb7e2b7-08-4956---Roof.ldr"
+    }
+  ],
+  "repairs": [
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "4956 - House with Arch.ldr",
+      "source_line": 611,
+      "before": [
+        [
+          0.707,
+          0.0,
+          -0.707
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.707,
+          0.0,
+          0.707
+        ]
+      ],
+      "after": [
+        [
+          0.707106781,
+          0.0,
+          -0.707106781
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.707106781,
+          0.0,
+          0.707106781
+        ]
+      ],
+      "max_coefficient_change": 0.00010678118654761093
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "4956 - House with Arch.ldr",
+      "source_line": 614,
+      "before": [
+        [
+          0.707,
+          0.0,
+          -0.707
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.707,
+          0.0,
+          0.707
+        ]
+      ],
+      "after": [
+        [
+          0.707106781,
+          0.0,
+          -0.707106781
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.707106781,
+          0.0,
+          0.707106781
+        ]
+      ],
+      "max_coefficient_change": 0.00010678118654761093
+    }
+  ],
+  "geometry": null,
+  "contacts_checked": false,
+  "bom_comparison": {
+    "matches": true,
+    "physical_placements": 631,
+    "leocad_placements": 631,
+    "differences": []
+  },
+  "views": [
+    "home",
+    "front",
+    "right",
+    "top"
+  ],
+  "artifacts": {
+    "source": "source.mpd",
+    "preview": "preview.mpd",
+    "manifest": "extraction.json"
+  },
+  "status": "reference",
+  "visual_review": "pending",
+  "physical_validity": "not_proven",
+  "limitations": [
+    "Bounds describe the source local axes, including protrusions; they are not connection frames.",
+    "Preview colour resolves inherited 16; extraction retains original colours and authorship.",
+    "Passing checks or matching a BOM does not prove connectivity, stability or fit in a new model."
+  ],
+  "artifact_hashes": {
+    "source.mpd": "9381dba034b42d435fed76d1404ef56b2b036b7aaa4fc1d1ee3c69a595a77f32",
+    "preview.mpd": "60ffa4d8fede3ca95061f01a447d9ded463c608179a5a8042b9cb4c371bb5c45",
+    "extraction.json": "2c397dbf33ecdb789f96778b606ac6374ee4b13bca0de4a29525f20e86c2dc2f",
+    "renders/leocad-bom.csv": "a9eadac2ad5cc6512f30167fede5710d9f9e407a72de6bef6a37d4f4593a36d2",
+    "renders/home.png": "2d301d9ab27ec5c5752ca72c10c0c7da73f2290474afdf5dcae6c60ba677923d",
+    "renders/front.png": "7101812fd2e65576c83ffc7d415da1fa7f36627ff9e772ebf9b8dc18e46cf844",
+    "renders/right.png": "43ca83c8428a3fb61126dc9babd14f6eec6ee4f722903def7f50a3c97ab0c9a7",
+    "renders/top.png": "cd378ee3e0d099d13f81a1179d6809b19e5c64fbd6893985263639059769608f"
+  }
+}

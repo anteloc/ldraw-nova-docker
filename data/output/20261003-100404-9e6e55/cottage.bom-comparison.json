@@ -1,0 +1,14 @@
+{
+  "file": "output/cottage.mpd",
+  "section": null,
+  "profile": "syntax",
+  "checks_passed": true,
+  "physical_validity": "not_proven",
+  "diagnostics": [],
+  "comparison": {
+    "matches": true,
+    "physical_placements": 199,
+    "leocad_placements": 199,
+    "differences": []
+  }
+}

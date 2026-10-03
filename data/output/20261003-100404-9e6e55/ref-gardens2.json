@@ -1,0 +1,616 @@
+{
+  "query": "a vegetable garden patch with carrots and picket fence",
+  "kind": "submodels",
+  "engine": "fts",
+  "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+  "index_signature": "5a9a5482d9331e226db5209e53ce0f7474d0b24ae53e12dc402f951c917da8d8",
+  "results": [
+    {
+      "kind": "submodels",
+      "description": "A white picket fence section on green base plates, suitable for enclosing a paddock or garden area.",
+      "model": "3189-1.mpd",
+      "section": "3189 - Fence.ldr",
+      "id": "submodel-6e903f65c3f776cc543bc861",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "A white picket fence section on green base plates, suitable for enclosing a paddock or garden area.",
+      "original_full_description": "3189-1.mpd|3189 - Fence.ldr|A white picket fence section on green base plates, suitable for enclosing a paddock or garden area.",
+      "source_exists": true,
+      "path": "/opt/ldraw-nova/data/models-annotated/3189-1.mpd",
+      "source_sha256": "a0cc01233ee2d222b0da594f846177badf4ad3bc1370f7b0f4f0818095069ce0",
+      "source_section": "3189 - Fence.ldr",
+      "start_line": 133,
+      "parent_description": "A Friends horse-riding stable and barn playset featuring two minidolls (Mia and Katharina), two horses, a barn with windows, two stables, obstacle jumps, a fence, a wheelbarrow, and rope elements.",
+      "theme": "",
+      "direct_placements": 3,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "3189-1.mpd|3189 - Fence.ldr|A white picket fence section on green base plates, suitable for enclosing a paddock or garden area.",
+      "fts_rank": -22.210012790382677,
+      "retrieval_rank": 1,
+      "inventory": {
+        "source_sha256": "a0cc01233ee2d222b0da594f846177badf4ad3bc1370f7b0f4f0818095069ce0",
+        "parser_section": "3189 - Fence.ldr",
+        "physical_placements": 3,
+        "expanded_leaf_count": 3,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "3794a.dat",
+            "count": 2,
+            "description": "Plate  1 x  2 without Groove with 1 Centre Stud",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6079.dat",
+            "count": 1,
+            "description": "Fence  1 x  8 x  2",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 0,
+        "technic_share": 0.0,
+        "legacy_parts": [],
+        "shape_fingerprint": "6f853146f881cd1f06cbdca4d372775c2aeb629a87722fc0b3796ee347619431",
+        "recipe_fingerprint": "5f4de0876a460fdf4babc8db273bb014da25ca448c54fe59154845b93b25e7fe",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "3189 - main.ldr",
+            "at": [
+              -400.0,
+              0.0,
+              -520.0
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "colour": 0
+          },
+          {
+            "section": "3189 - main.ldr",
+            "at": [
+              -240.0,
+              0.0,
+              -520.0
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "colour": 0
+          },
+          {
+            "section": "3189 - main.ldr",
+            "at": [
+              400.0,
+              0.0,
+              -520.0
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "colour": 0
+          },
+          {
+            "section": "3189 - main.ldr",
+            "at": [
+              240.0,
+              0.0,
+              -520.0
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "colour": 0
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "3189 - Fence.ldr",
+            "kind": "assembly",
+            "author": "Takeshi Takahashi [RainbowDolphin]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      }
+    },
+    {
+      "kind": "submodels",
+      "description": "A green baseplate driveway with grey paving tiles, brown path edges, a garden patch with carrots and leaves, and a white storage box.",
+      "model": "3315-1.mpd",
+      "section": "3315 - driveway.ldr",
+      "id": "submodel-9fa0c4ce3778c27cb821b387",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "A green baseplate driveway with grey paving tiles, brown path edges, a garden patch with carrots and leaves, and a white storage box.",
+      "original_full_description": "3315-1.mpd|3315 - driveway.ldr|A green baseplate driveway with grey paving tiles, brown path edges, a garden patch with carrots and leaves, and a white storage box.",
+      "source_exists": true,
+      "path": "/opt/ldraw-nova/data/models-annotated/3315-1.mpd",
+      "source_sha256": "9e3eed1c73d006345c3a07ad0529f83964cb3c9c27485ce9f4a9505edab62dc7",
+      "source_section": "3315 - driveway.ldr",
+      "start_line": 1404,
+      "parent_description": "A large Friends-themed dollhouse model assembling multiple furnished rooms (lounge, kitchen, bedroom, bathroom), outdoor areas (balcony, terrace, garden, driveway), and detailed furniture into a complete two-story home.",
+      "theme": "",
+      "direct_placements": 43,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "3315-1.mpd|3315 - driveway.ldr|A green baseplate driveway with grey paving tiles, brown path edges, a garden patch with carrots and leaves, and a white storage box.",
+      "fts_rank": -18.310924497956567,
+      "retrieval_rank": 2,
+      "inventory": {
+        "source_sha256": "9e3eed1c73d006345c3a07ad0529f83964cb3c9c27485ce9f4a9505edab62dc7",
+        "parser_section": "3315 - driveway.ldr",
+        "physical_placements": 43,
+        "expanded_leaf_count": 43,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "30165.dat",
+            "count": 1,
+            "description": "Brick  2 x  2 with Curved Top and  2 Studs on Top",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3020.dat",
+            "count": 1,
+            "description": "Plate  2 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3022.dat",
+            "count": 5,
+            "description": "Plate  2 x  2",
+            "physical_index_entry": true
+          },
+          {
+            "part": "30565.dat",
+            "count": 1,
+            "description": "Plate  4 x  4 with Corner Round",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3062b.dat",
+            "count": 2,
+            "description": "Brick  1 x  1 Round with Hollow Stud",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3068b.dat",
+            "count": 4,
+            "description": "Tile  2 x  2 with Groove",
+            "physical_index_entry": true
+          },
+          {
+            "part": "33172.dat",
+            "count": 2,
+            "description": "Minifig Food Carrot",
+            "physical_index_entry": true
+          },
+          {
+            "part": "33183.dat",
+            "count": 2,
+            "description": "Minifig Food Carrot Top",
+            "physical_index_entry": true
+          },
+          {
+            "part": "33291.dat",
+            "count": 2,
+            "description": "Plate  1 x  1 Round with Tabs",
+            "physical_index_entry": true
+          },
+          {
+            "part": "33303.dat",
+            "count": 2,
+            "description": "Fence  1 x  4 x  2 Picket",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3710.dat",
+            "count": 2,
+            "description": "Plate  1 x  4",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3741a.dat",
+            "count": 1,
+            "description": "Plant Flower Stem",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3742.dat",
+            "count": 3,
+            "description": "Plant Flower",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3794b.dat",
+            "count": 4,
+            "description": "Plate  1 x  2 with Groove with 1 Centre Stud",
+            "physical_index_entry": true
+          },
+          {
+            "part": "3941.dat",
+            "count": 1,
+            "description": "Brick  2 x  2 Round without Reinforcement",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4345b.dat",
+            "count": 1,
+            "description": "Container Box  2 x  2 x  2 with Hollow Studs",
+            "physical_index_entry": true
+          },
+          {
+            "part": "4346.dat",
+            "count": 1,
+            "description": "Container Box  2 x  2 x  2 Door with Slot",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6141.dat",
+            "count": 6,
+            "description": "Plate  1 x  1 Round",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6255.dat",
+            "count": 1,
+            "description": "Plant  1 x  1 x  0.667 Round with 3 Large Leaves",
+            "physical_index_entry": true
+          },
+          {
+            "part": "92438.dat",
+            "count": 1,
+            "description": "Plate  8 x 16",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 0,
+        "technic_share": 0.0,
+        "legacy_parts": [],
+        "shape_fingerprint": "2d52e0c9a7f715343c89b833bbe492f786b17968c7d1fd0eb4f4219888af2784",
+        "recipe_fingerprint": "d623572b185825f8904a02f9472cc1b94bda6edd57126596b61d004dd172d304",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "3315 - main.ldr",
+            "at": [
+              320.0,
+              0.0,
+              -240.0
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "colour": 5
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "3315 - driveway.ldr",
+            "kind": "assembly",
+            "author": "Philippe Hurbain [Philo]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      }
+    },
+    {
+      "kind": "submodels",
+      "description": "A white picket-style fence section built from plates and a long fence element.",
+      "model": "7631-1.mpd",
+      "section": "7631 - Fence.ldr",
+      "id": "submodel-5a96eff067965865a3042124",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "A white picket-style fence section built from plates and a long fence element.",
+      "original_full_description": "7631-1.mpd|7631 - Fence.ldr|A white picket-style fence section built from plates and a long fence element.",
+      "source_exists": true,
+      "path": "/opt/ldraw-nova/data/models-annotated/7631-1.mpd",
+      "source_sha256": "158015f184bbc7243babbff69db1fb381094f0d24d1513f70948b0b489fb7308",
+      "source_section": "7631 - Fence.ldr",
+      "start_line": 446,
+      "parent_description": "A construction site scene featuring a yellow dump truck, traffic signal, road sign, fence, and a worker minifigure with a shovel.",
+      "theme": "",
+      "direct_placements": 3,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "7631-1.mpd|7631 - Fence.ldr|A white picket-style fence section built from plates and a long fence element.",
+      "fts_rank": -17.796733983529446,
+      "retrieval_rank": 3,
+      "inventory": {
+        "source_sha256": "158015f184bbc7243babbff69db1fb381094f0d24d1513f70948b0b489fb7308",
+        "parser_section": "7631 - Fence.ldr",
+        "physical_placements": 3,
+        "expanded_leaf_count": 3,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "3794a.dat",
+            "count": 2,
+            "description": "Plate  1 x  2 without Groove with 1 Centre Stud",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6079.dat",
+            "count": 1,
+            "description": "Fence  1 x  8 x  2",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 0,
+        "technic_share": 0.0,
+        "legacy_parts": [],
+        "shape_fingerprint": "85b23d53dd9df8bebd7d37989ae8c877ad71b1509cb5a04ee273bf57ee9b408e",
+        "recipe_fingerprint": "5f4de0876a460fdf4babc8db273bb014da25ca448c54fe59154845b93b25e7fe",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "7631 - Main.ldr",
+            "at": [
+              190.0,
+              -8.0,
+              20.0
+            ],
+            "matrix": [
+              [
+                1.0,
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "colour": 0
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "7631 - Fence.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      },
+      "variants": [
+        {
+          "id": "submodel-f482c34799e663a9be31347b",
+          "model": "7635-1.mpd",
+          "section": "7635 - Fence.ldr",
+          "score": null
+        }
+      ]
+    },
+    {
+      "kind": "submodels",
+      "description": "A white picket fence section flanked by two barrels with translucent orange contents.",
+      "model": "4434-1.mpd",
+      "section": "4434 - Fence.ldr",
+      "id": "submodel-e72d21c12df53ec3f22d7a0a",
+      "source_field": "SUBMODELS_DESCRIPTIONS_JEV.full_description",
+      "indexed_description": "A white picket fence section flanked by two barrels with translucent orange contents.",
+      "original_full_description": "4434-1.mpd|4434 - Fence.ldr|A white picket fence section flanked by two barrels with translucent orange contents.",
+      "source_exists": true,
+      "path": "/opt/ldraw-nova/data/models-annotated/4434-1.mpd",
+      "source_sha256": "56efb805e1fa277cf1487f9b16613631f786d33c0fa4c78d0fda357c9ed36e60",
+      "source_section": "4434 - Fence.ldr",
+      "start_line": 128,
+      "parent_description": "A construction-themed set featuring a large dump truck, a wheelbarrow, fenced area with barrels, and two worker minifigures.",
+      "theme": "",
+      "direct_placements": 5,
+      "has_file": true,
+      "record_type": "assembly",
+      "description_corrected": false,
+      "full_description": "4434-1.mpd|4434 - Fence.ldr|A white picket fence section flanked by two barrels with translucent orange contents.",
+      "fts_rank": -16.77942281694128,
+      "retrieval_rank": 4,
+      "inventory": {
+        "source_sha256": "56efb805e1fa277cf1487f9b16613631f786d33c0fa4c78d0fda357c9ed36e60",
+        "parser_section": "4434 - Fence.ldr",
+        "physical_placements": 5,
+        "expanded_leaf_count": 5,
+        "physical_accounting_complete": true,
+        "nonphysical_or_unresolved_leaves": [],
+        "raw_geometry_sections": [],
+        "bom": [
+          {
+            "part": "3794b.dat",
+            "count": 2,
+            "description": "Plate  1 x  2 with Groove with 1 Centre Stud",
+            "physical_index_entry": true
+          },
+          {
+            "part": "58176.dat",
+            "count": 2,
+            "description": "Cylinder Domed  1 x  1 x  1.667 with Bar",
+            "physical_index_entry": true
+          },
+          {
+            "part": "6079.dat",
+            "count": 1,
+            "description": "Fence  1 x  8 x  2",
+            "physical_index_entry": true
+          }
+        ],
+        "technic_named_placements": 0,
+        "technic_share": 0.0,
+        "legacy_parts": [],
+        "shape_fingerprint": "ad2ce71464690066657eb6fe449a757277e5c9eae8d84e1d2aaec466d4bcb07b",
+        "recipe_fingerprint": "f29bce9e4a13690d18e087e021c6b57495007c6826e34dd7898b9e67dd4aa615",
+        "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+        "parents": [
+          {
+            "section": "4434 - Main.ldr",
+            "at": [
+              90.0,
+              0.0,
+              140.0
+            ],
+            "matrix": [
+              [
+                0.707107,
+                0.0,
+                0.707107
+              ],
+              [
+                0.0,
+                1.0,
+                0.0
+              ],
+              [
+                -0.707107,
+                0.0,
+                0.707107
+              ]
+            ],
+            "colour": 16
+          }
+        ],
+        "dependencies": [
+          {
+            "section": "4434 - Fence.ldr",
+            "kind": "assembly",
+            "author": "Marc Giraudet [Mad_Marc]",
+            "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+          }
+        ],
+        "reachable": true
+      }
+    }
+  ],
+  "eligible_after_measurement": 53,
+  "rejected": [
+    {
+      "id": "submodel-9b5d96690a2fb100328d3e36",
+      "reason": "technic_share",
+      "retrieval_rank": 14
+    },
+    {
+      "id": "submodel-0f8b74c87505b87a9265b44e",
+      "reason": "technic_share",
+      "retrieval_rank": 25
+    },
+    {
+      "id": "submodel-02ecea6baa33bcaf68e6d960",
+      "reason": "nonphysical_accounting",
+      "retrieval_rank": 30
+    },
+    {
+      "id": "submodel-a0babcf7bf1ac3dd4a995a5e",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 49
+    },
+    {
+      "id": "submodel-9d92fdccdb881483f6ccec09",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 54
+    },
+    {
+      "id": "submodel-58cf4322fc15fabc5a546496",
+      "reason": "parent_diversity_cap",
+      "retrieval_rank": 59
+    }
+  ],
+  "stats": {
+    "eligible_records": 20823,
+    "shortlisted": 60,
+    "query_language": "token OR with BM25 ordering"
+  },
+  "filters": {
+    "system": true,
+    "construction": "system",
+    "min_parts": 2,
+    "max_parts": null,
+    "max_technic_share": 0.5,
+    "parent_cap": 2
+  },
+  "note": "Scores describe textual relevance. Results still require geometry, scale and visual review; no hidden fallback or automatic import approval."
+}

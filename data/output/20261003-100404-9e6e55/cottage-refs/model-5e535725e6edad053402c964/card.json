@@ -1,0 +1,665 @@
+{
+  "version": 1,
+  "cache_key": "96216f707fc979655be01ce8c6a2d8c3dbf45c59c0db28c26bb277a063031a71",
+  "id": "model-5e535725e6edad053402c964",
+  "kind": "models",
+  "model": "4886-1_Advanced-Build.mpd",
+  "section": null,
+  "parser_section": "4886 - Main.ldr",
+  "description": "A building set scene composed of a white brick house with a red sloped roof, accompanied by a green tree and small bushes.",
+  "parent_description": "A building set scene composed of a white brick house with a red sloped roof, accompanied by a green tree and small bushes.",
+  "theme": "",
+  "source": {
+    "path": "/opt/ldraw-nova/data/models-annotated/4886-1_Advanced-Build.mpd",
+    "sha256": "503488b1729f1e10413c52323d8ddc26e488f95c8ad503c13fd9476f373425aa",
+    "field": "MODELS_DESCRIPTIONS_JEV.full_description",
+    "start_line": 1
+  },
+  "source_root": "ref-5e535725e6edad05-00-4886---Main.ldr",
+  "preview_colour": 7,
+  "inventory": {
+    "source_sha256": "503488b1729f1e10413c52323d8ddc26e488f95c8ad503c13fd9476f373425aa",
+    "parser_section": "4886 - Main.ldr",
+    "physical_placements": 615,
+    "expanded_leaf_count": 615,
+    "physical_accounting_complete": true,
+    "nonphysical_or_unresolved_leaves": [],
+    "raw_geometry_sections": [],
+    "bom": [
+      {
+        "part": "2357.dat",
+        "count": 7,
+        "description": "Brick  2 x  2 Corner",
+        "physical_index_entry": true
+      },
+      {
+        "part": "2420.dat",
+        "count": 5,
+        "description": "Plate  2 x  2 Corner",
+        "physical_index_entry": true
+      },
+      {
+        "part": "2453a.dat",
+        "count": 1,
+        "description": "Brick  1 x  1 x  5 with Hollow Stud",
+        "physical_index_entry": true
+      },
+      {
+        "part": "2456.dat",
+        "count": 4,
+        "description": "Brick  2 x  6",
+        "physical_index_entry": true
+      },
+      {
+        "part": "2877.dat",
+        "count": 1,
+        "description": "Brick  1 x  2 with Grille",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3001.dat",
+        "count": 26,
+        "description": "Brick  2 x  4",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3003.dat",
+        "count": 2,
+        "description": "Brick  2 x  2",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3004.dat",
+        "count": 32,
+        "description": "Brick  1 x  2",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3005.dat",
+        "count": 15,
+        "description": "Brick  1 x  1",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3006.dat",
+        "count": 2,
+        "description": "Brick  2 x 10",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3008.dat",
+        "count": 30,
+        "description": "Brick  1 x  8",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3009.dat",
+        "count": 26,
+        "description": "Brick  1 x  6",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3010.dat",
+        "count": 18,
+        "description": "Brick  1 x  4",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3020.dat",
+        "count": 8,
+        "description": "Plate  2 x  4",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3021.dat",
+        "count": 4,
+        "description": "Plate  2 x  3",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3022.dat",
+        "count": 4,
+        "description": "Plate  2 x  2",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3023.dat",
+        "count": 15,
+        "description": "~Moved to 3023b",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3024.dat",
+        "count": 1,
+        "description": "Plate  1 x  1",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3034.dat",
+        "count": 6,
+        "description": "Plate  2 x  8",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3037.dat",
+        "count": 90,
+        "description": "Slope Brick 45  2 x  4",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3038.dat",
+        "count": 20,
+        "description": "Slope Brick 45  2 x  3",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3039.dat",
+        "count": 22,
+        "description": "Slope Brick 45  2 x  2",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3040b.dat",
+        "count": 24,
+        "description": "Slope Brick 45  2 x  1",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3041.dat",
+        "count": 8,
+        "description": "Slope Brick 45  2 x  4 Double",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3043.dat",
+        "count": 2,
+        "description": "Slope Brick 45  2 x  2 Double",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3044b.dat",
+        "count": 2,
+        "description": "Slope Brick 45  2 x  1 Double",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3046.dat",
+        "count": 12,
+        "description": "Slope Brick 45  2 x  2 Double Concave",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3048b.dat",
+        "count": 4,
+        "description": "Slope Brick 45  1 x  2 Triple",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3049c.dat",
+        "count": 2,
+        "description": "Slope Brick 45  1 x  2 Double / Inverted without Centre Stud",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3069b.dat",
+        "count": 45,
+        "description": "Tile  1 x  2 with Groove",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3070b.dat",
+        "count": 43,
+        "description": "Tile  1 x  1 with Groove",
+        "physical_index_entry": true
+      },
+      {
+        "part": "32018.dat",
+        "count": 2,
+        "description": "Technic Brick  1 x 14 with Holes",
+        "physical_index_entry": true
+      },
+      {
+        "part": "33303.dat",
+        "count": 10,
+        "description": "Fence  1 x  4 x  2 Picket",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3460.dat",
+        "count": 5,
+        "description": "Plate  1 x  8",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3622.dat",
+        "count": 37,
+        "description": "Brick  1 x  3",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3623.dat",
+        "count": 3,
+        "description": "Plate  1 x  3",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3660.dat",
+        "count": 6,
+        "description": "~Moved to 3660a",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3665a.dat",
+        "count": 4,
+        "description": "Slope Brick 45  2 x  1 Inverted without Inner Stopper Ring",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3666.dat",
+        "count": 2,
+        "description": "Plate  1 x  6",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3710.dat",
+        "count": 1,
+        "description": "Plate  1 x  4",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3747a.dat",
+        "count": 2,
+        "description": "Slope Brick 33  3 x  2 Inverted without Ribs between Studs",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3853.dat",
+        "count": 5,
+        "description": "Window  1 x  4 x  3",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3855b.dat",
+        "count": 5,
+        "description": "Glass for Window  1 x  4 x  3 without Handle",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3856.dat",
+        "count": 4,
+        "description": "Window  1 x  2 x  3 Shutter",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3857.dat",
+        "count": 2,
+        "description": "Baseplate 16 x 32 with Square Corners",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3941.dat",
+        "count": 6,
+        "description": "Brick  2 x  2 Round without Reinforcement",
+        "physical_index_entry": true
+      },
+      {
+        "part": "4032a.dat",
+        "count": 1,
+        "description": "Plate  2 x  2 Round with Axlehole",
+        "physical_index_entry": true
+      },
+      {
+        "part": "4070.dat",
+        "count": 10,
+        "description": "Brick  1 x  1 with Headlight",
+        "physical_index_entry": true
+      },
+      {
+        "part": "4162.dat",
+        "count": 2,
+        "description": "Tile  1 x  8",
+        "physical_index_entry": true
+      },
+      {
+        "part": "4282.dat",
+        "count": 2,
+        "description": "Plate  2 x 16",
+        "physical_index_entry": true
+      },
+      {
+        "part": "4486c01.dat",
+        "count": 1,
+        "description": "Door  1 x  4 x  5 Right with 6 Panes with TransClear Glass",
+        "physical_index_entry": true
+      },
+      {
+        "part": "6111.dat",
+        "count": 2,
+        "description": "Brick  1 x 10",
+        "physical_index_entry": true
+      },
+      {
+        "part": "6112.dat",
+        "count": 5,
+        "description": "Brick  1 x 12",
+        "physical_index_entry": true
+      },
+      {
+        "part": "6141.dat",
+        "count": 6,
+        "description": "Plate  1 x  1 Round",
+        "physical_index_entry": true
+      },
+      {
+        "part": "6636.dat",
+        "count": 11,
+        "description": "Tile  1 x  6",
+        "physical_index_entry": true
+      }
+    ],
+    "technic_named_placements": 2,
+    "technic_share": 0.0032520325203252032,
+    "legacy_parts": [
+      {
+        "part": "3023.dat",
+        "count": 15,
+        "description": "~Moved to 3023b",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3660.dat",
+        "count": 6,
+        "description": "~Moved to 3660a",
+        "physical_index_entry": true
+      }
+    ],
+    "shape_fingerprint": "68fdce52d56bdc4a64a6a2038bb7708ed7f679b6653e80634028036f735e6fb5",
+    "recipe_fingerprint": "25e1bd80dec4636001dec23bd8f03577eddce466493642ceebe79fdd165339c8",
+    "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+    "parents": [],
+    "dependencies": [
+      {
+        "section": "4886 - Main.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "4886 - House.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "4886 - Roof.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "4886 - Tree.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "4886 - Bush.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      }
+    ],
+    "reachable": true
+  },
+  "attribution": [
+    {
+      "section": "4886 - Main.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "4886 - House.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "4886 - Roof.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "4886 - Tree.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "4886 - Bush.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    }
+  ],
+  "bounds": {
+    "min": [
+      -160.0,
+      -384.0,
+      -450.0
+    ],
+    "max": [
+      480.0,
+      4.0,
+      450.0
+    ]
+  },
+  "size_ldu": [
+    640.0,
+    388.0,
+    900.0
+  ],
+  "size_studs_plates_studs": [
+    32.0,
+    48.5,
+    45.0
+  ],
+  "mesh_complete": true,
+  "mesh_diagnostics": [],
+  "raw_assembly_checks_passed": true,
+  "raw_diagnostic_counts": {
+    "header.missing": 1,
+    "part.alias_or_internal": 21
+  },
+  "assembly_checks_passed": true,
+  "diagnostics": [
+    {
+      "code": "header.missing",
+      "severity": "warning",
+      "message": "Add a descriptive Name: header.",
+      "line_number": null,
+      "section": "preview-model-5e535725e6edad053402c964.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 279,
+      "section": "ref-5e535725e6edad05-01-4886---House.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 281,
+      "section": "ref-5e535725e6edad05-01-4886---House.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 309,
+      "section": "ref-5e535725e6edad05-01-4886---House.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 311,
+      "section": "ref-5e535725e6edad05-01-4886---House.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 313,
+      "section": "ref-5e535725e6edad05-01-4886---House.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 354,
+      "section": "ref-5e535725e6edad05-01-4886---House.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 356,
+      "section": "ref-5e535725e6edad05-01-4886---House.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 393,
+      "section": "ref-5e535725e6edad05-01-4886---House.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 395,
+      "section": "ref-5e535725e6edad05-01-4886---House.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 490,
+      "section": "ref-5e535725e6edad05-01-4886---House.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 492,
+      "section": "ref-5e535725e6edad05-01-4886---House.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 494,
+      "section": "ref-5e535725e6edad05-01-4886---House.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 553,
+      "section": "ref-5e535725e6edad05-01-4886---House.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 555,
+      "section": "ref-5e535725e6edad05-01-4886---House.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 570,
+      "section": "ref-5e535725e6edad05-01-4886---House.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 622,
+      "section": "ref-5e535725e6edad05-01-4886---House.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 624,
+      "section": "ref-5e535725e6edad05-01-4886---House.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 1259,
+      "section": "ref-5e535725e6edad05-03-4886---Tree.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 1261,
+      "section": "ref-5e535725e6edad05-03-4886---Tree.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 1340,
+      "section": "ref-5e535725e6edad05-04-4886---Bush.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 1342,
+      "section": "ref-5e535725e6edad05-04-4886---Bush.ldr"
+    }
+  ],
+  "repairs": [],
+  "geometry": null,
+  "contacts_checked": false,
+  "bom_comparison": {
+    "matches": true,
+    "physical_placements": 615,
+    "leocad_placements": 615,
+    "differences": []
+  },
+  "views": [
+    "home",
+    "front",
+    "right",
+    "top"
+  ],
+  "artifacts": {
+    "source": "source.mpd",
+    "preview": "preview.mpd",
+    "manifest": "extraction.json"
+  },
+  "status": "reference",
+  "visual_review": "pending",
+  "physical_validity": "not_proven",
+  "limitations": [
+    "Bounds describe the source local axes, including protrusions; they are not connection frames.",
+    "Preview colour resolves inherited 16; extraction retains original colours and authorship.",
+    "Passing checks or matching a BOM does not prove connectivity, stability or fit in a new model."
+  ],
+  "artifact_hashes": {
+    "source.mpd": "294721183be858c42baf67a11611832b075edb68dc6ac192abedb9054c3dd43f",
+    "preview.mpd": "edd810d05783478670dab38db805e638200ffcbd1ce5f87fcb2c7c347ba028d8",
+    "extraction.json": "7b1fae12deaffeb7d02c9cb25bce76d9fc4a5bfab8250417e963ba56f74aed0e",
+    "renders/leocad-bom.csv": "2ef643288eb881ad3b5e1b2b85a3aecb138d3a8d887c6a835190ad74d24b4ad0",
+    "renders/home.png": "b0a52b4f4ea13adfe3f7bdb7f4f496f1949fe6801b950b73679a44c00118152c",
+    "renders/front.png": "937f40197880635be17eff07f457ce412172a78891626eaa571fa0bffe4adb43",
+    "renders/right.png": "0c219f8a601ef7f71c1a3376708f79c126e890b4fcfb0cc0a00ed94c5e0176be",
+    "renders/top.png": "6c7d2037bb6fd0467f4b48bfd0ec20f3058883ff4d7157ef4002c9f78a0b2b91"
+  }
+}

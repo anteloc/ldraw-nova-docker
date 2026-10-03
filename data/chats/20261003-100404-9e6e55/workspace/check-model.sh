@@ -1,0 +1,1 @@
+/opt/ldraw-nova/check-model.sh

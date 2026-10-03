@@ -1,0 +1,68 @@
+{
+  "subject": "Willowbank Cottage — a large two-volume country cottage with a fenced kitchen-garden field of growing vegetables at the back",
+  "style": "Warm English country cottage at minifigure scale; the design is original, studied against the building-atlas cottage/farmstead techniques without copying their massing",
+  "silhouette": "A tall two-storey 20x14 hall with a steep dark-green gable, front dormer and rear chimney, joined to a low one-storey 10x10 kitchen wing with its own gable; a flat vegetable field behind the house, a layered-leaf tree framing the front-left, a second tree at the field's far right",
+  "site": "48x48 green baseplate (4186); front = -Z, X width, Z depth",
+  "dimensions": {
+    "hall": "20 x 14 studs, 12 brick courses (walls ~304 LDU), roof gable 22 x 14 with 6 slope tiers, front dormer",
+    "wing": "10 x 10 studs, 6 courses, gable 12 x 10, back door to the field",
+    "field": "28 x 10 studs of soil beds behind the house, 5 beds x 4 studs, 2-stud grass aisles, fence perimeter with 3-stud gate",
+    "total_height": "~464 LDU at the hall ridge, ~272 LDU at the wing ridge"
+  },
+  "palettes": {
+    "body": "@colours.Tan (19)",
+    "trim": "@colours.White (15)",
+    "roof": "@colours.Dark_Green (288)",
+    "door": "@colours.Reddish_Brown (70)",
+    "wood_fence": "@colours.Reddish_Brown (70)",
+    "stone_soil": "@colours.Dark_Tan (28)",
+    "glass": "@colours.Trans_Light_Blue (43)",
+    "grass": "@colours.Green (2)",
+    "crops": "Orange (25) pumpkins/carrots, Yellow (14) and Red (4) flowers, Bright_Green (10) + Dark_Green (288) leaves, Dark_Pink (5) accents",
+    "path": "Tan (19) tiles on the green plate"
+  },
+  "primary_focus": "The porch and glazed door with flanking white-trimmed windows beneath the tall gable",
+  "supporting_features": [
+    "The fenced vegetable field: five distinct crop beds (pumpkins, carrots, leafy greens, flowers, mixed), a two-tier lattice trellis with a draping vine, and a gate on the path",
+    "The chimney and dormer roofline that gives the hall its vertical mass against the low wing"
+  ],
+  "detail_vocabulary": [
+    "White window trim on every glazed bay, one shuttered window bay for character",
+    "Reddish-brown deck under the walls (visible as the ground floor string course)",
+    "Layered 45-degree slope courses with a tiled ridge",
+    "Garden fence with a matching gate, stepping-stone paths",
+    "Layered-leaf trees, a garden bench, and flower boxes flanking the steps"
+  ],
+  "quiet_surfaces": [
+    "Most of the roof surface",
+    "The upper fields of wall between windows",
+    "The grass margins around the soil beds"
+  ],
+  "modules": [
+    "willowbank-scene.ldr (main): baseplate, module placement, paths, landscaping",
+    "hall-shell.ldr: 20x14 two-storey shell, per-row windows, door at X=+2",
+    "hall-roof.ldr: gable 22x14, 6 tiers, front dormer",
+    "wing-shell.ldr / wing-roof.ldr: 10x10 shell, back door to field, gable 12x10",
+    "porch-15-288-8-4-144.ldr, stairs-4-1.ldr, chimney.ldr: entry and ridge details",
+    "garden-field.ldr: soil beds, crop clusters, trellis + vine, fence + gate, field trees"
+  ],
+  "crop_parts": {
+    "pumpkin": "51270 (Plant Pumpkin, origin near top, bottom local +32)",
+    "root_vegetable": "37681 (Plant Root Vegetable with Stud and Bar)",
+    "cabbage_rosette": "6255 (Plant 1x1 Round with 3 Large Leaves)",
+    "long_leaf": "7264 (Plant 3x3 with 3 Long Leaves)",
+    "leafy_clumps": "2417 / 2423 / 4727 / 32607",
+    "flowers": "3742 (Plant Flower) + 24866 petal plates on 3062b stems",
+    "grass": "15279 (Plant Grass Stem, origin at top)",
+    "trellis_vine": "16981 (16L horizontal vine) on two 3633 lattice tiers; 73828 thorn vine as lower accent"
+  },
+  "constraints": [
+    "Reserve all door/window openings before walling (per-row window lists, no overlaps)",
+    "All ground-level content follows the atlas convention: baseplate at y=0, tiles/plates at h=8, raised beds one plate higher",
+    "Fence must not cross circulation routes; path passes through the gate",
+    "Chimney sits on the ridge tiles at the measured ridge height",
+    "Roof/dormer/chimney interfaces get dedicated section renders",
+    "No minifigures, vehicles or mechanisms"
+  ],
+  "review": "Open home/front/back/right/top renders after the first build; verify silhouette readability at thumbnail, crop-bed legibility, path/gate continuity, chimney-dormer spacing, and palette balance; record findings in visual-review.md."
+}

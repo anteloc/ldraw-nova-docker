@@ -1,0 +1,1142 @@
+{
+  "source": "/opt/ldraw-nova/data/models-annotated/31038-1.mpd",
+  "source_sha256": "a9155db95e21c2504f60c4004079c4ee10ef5ccffa60036406eacef9ba14c4ac",
+  "source_section": "31038 - Main.ldr",
+  "parser_section": "31038 - Main.ldr",
+  "root": "ref-8045cd5c12b2f56f-00-31038---Main.ldr",
+  "renames": {
+    "31038 - Main.ldr": "ref-8045cd5c12b2f56f-00-31038---Main.ldr",
+    "31038 - Changing Seasons.ldr": "ref-8045cd5c12b2f56f-01-31038---Changing-Seasons.ldr",
+    "31038 - Corner.ldr": "ref-8045cd5c12b2f56f-02-31038---Corner.ldr",
+    "31038 - Seat.ldr": "ref-8045cd5c12b2f56f-03-31038---Seat.ldr",
+    "31038 - Lamp.ldr": "ref-8045cd5c12b2f56f-04-31038---Lamp.ldr",
+    "31038 - Window bottom.ldr": "ref-8045cd5c12b2f56f-05-31038---Window-bottom.ldr",
+    "31038 - Window bottom LH.ldr": "ref-8045cd5c12b2f56f-06-31038---Window-bottom-LH.ldr",
+    "31038 - Window bottom RH.ldr": "ref-8045cd5c12b2f56f-07-31038---Window-bottom-RH.ldr",
+    "31038 - Ladder.ldr": "ref-8045cd5c12b2f56f-08-31038---Ladder.ldr",
+    "31038 - Door.ldr": "ref-8045cd5c12b2f56f-09-31038---Door.ldr",
+    "31038 - Window RW.ldr": "ref-8045cd5c12b2f56f-10-31038---Window-RW.ldr",
+    "31038 - Window WR.ldr": "ref-8045cd5c12b2f56f-11-31038---Window-WR.ldr",
+    "31038 - Window LH.ldr": "ref-8045cd5c12b2f56f-12-31038---Window-LH.ldr",
+    "31038 - Window RH.ldr": "ref-8045cd5c12b2f56f-13-31038---Window-RH.ldr",
+    "31038 - Outpost.ldr": "ref-8045cd5c12b2f56f-14-31038---Outpost.ldr",
+    "31038 - Top.ldr": "ref-8045cd5c12b2f56f-15-31038---Top.ldr",
+    "31038 - Basket.ldr": "ref-8045cd5c12b2f56f-16-31038---Basket.ldr",
+    "31038 - Light.ldr": "ref-8045cd5c12b2f56f-17-31038---Light.ldr",
+    "31038 - Table.ldr": "ref-8045cd5c12b2f56f-18-31038---Table.ldr",
+    "31038 - Mailbox.ldr": "ref-8045cd5c12b2f56f-19-31038---Mailbox.ldr",
+    "31038 - Tree.ldr": "ref-8045cd5c12b2f56f-20-31038---Tree.ldr",
+    "31038 - Bird.ldr": "ref-8045cd5c12b2f56f-21-31038---Bird.ldr",
+    "31038 - Adult.ldr": "ref-8045cd5c12b2f56f-22-31038---Adult.ldr",
+    "31038 - Young.ldr": "ref-8045cd5c12b2f56f-23-31038---Young.ldr",
+    "31038 - Lawnmower.ldr": "ref-8045cd5c12b2f56f-24-31038---Lawnmower.ldr",
+    "31038 - Car.ldr": "ref-8045cd5c12b2f56f-25-31038---Car.ldr",
+    "31038 - Car front.ldr": "ref-8045cd5c12b2f56f-26-31038---Car-front.ldr"
+  },
+  "attribution": [
+    {
+      "section": "31038 - Main.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Changing Seasons.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Corner.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Seat.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Lamp.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Window bottom.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Window bottom LH.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Window bottom RH.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Ladder.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Door.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Window RW.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Window WR.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Window LH.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Window RH.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Outpost.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Top.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Basket.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Light.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Table.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Mailbox.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Tree.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Bird.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Adult.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Young.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Lawnmower.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Car.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Car front.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    }
+  ],
+  "changes": [
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Changing Seasons.ldr",
+      "source_line": 221,
+      "before": [
+        [
+          0.0,
+          0.707,
+          0.707
+        ],
+        [
+          0.0,
+          0.707,
+          -0.707
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "after": [
+        [
+          0.0,
+          0.707106781,
+          0.707106781
+        ],
+        [
+          0.0,
+          0.707106781,
+          -0.707106781
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "max_coefficient_change": 0.00010678118654761093
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Changing Seasons.ldr",
+      "source_line": 223,
+      "before": [
+        [
+          0.0,
+          0.707,
+          0.707
+        ],
+        [
+          0.0,
+          0.707,
+          -0.707
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "after": [
+        [
+          0.0,
+          0.707106781,
+          0.707106781
+        ],
+        [
+          0.0,
+          0.707106781,
+          -0.707106781
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "max_coefficient_change": 0.00010678118654761093
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Changing Seasons.ldr",
+      "source_line": 225,
+      "before": [
+        [
+          0.0,
+          0.707,
+          -0.707
+        ],
+        [
+          0.0,
+          0.707,
+          0.707
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "after": [
+        [
+          0.0,
+          0.707106781,
+          -0.707106781
+        ],
+        [
+          0.0,
+          0.707106781,
+          0.707106781
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "max_coefficient_change": 0.00010678118654761093
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Changing Seasons.ldr",
+      "source_line": 271,
+      "before": [
+        [
+          -0.707,
+          0.0,
+          -0.707
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.707,
+          0.0,
+          -0.707
+        ]
+      ],
+      "after": [
+        [
+          -0.707106781,
+          0.0,
+          -0.707106781
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.707106781,
+          0.0,
+          -0.707106781
+        ]
+      ],
+      "max_coefficient_change": 0.00010678118654761093
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Changing Seasons.ldr",
+      "source_line": 275,
+      "before": [
+        [
+          -0.707,
+          0.0,
+          -0.707
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.707,
+          0.0,
+          -0.707
+        ]
+      ],
+      "after": [
+        [
+          -0.707106781,
+          0.0,
+          -0.707106781
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.707106781,
+          0.0,
+          -0.707106781
+        ]
+      ],
+      "max_coefficient_change": 0.00010678118654761093
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Changing Seasons.ldr",
+      "source_line": 330,
+      "before": [
+        [
+          0.707,
+          0.0,
+          0.707
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.707,
+          0.0,
+          0.707
+        ]
+      ],
+      "after": [
+        [
+          0.707106781,
+          0.0,
+          0.707106781
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.707106781,
+          0.0,
+          0.707106781
+        ]
+      ],
+      "max_coefficient_change": 0.00010678118654761093
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Changing Seasons.ldr",
+      "source_line": 332,
+      "before": [
+        [
+          0.707,
+          0.0,
+          0.707
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.707,
+          0.0,
+          0.707
+        ]
+      ],
+      "after": [
+        [
+          0.707106781,
+          0.0,
+          0.707106781
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.707106781,
+          0.0,
+          0.707106781
+        ]
+      ],
+      "max_coefficient_change": 0.00010678118654761093
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Changing Seasons.ldr",
+      "source_line": 334,
+      "before": [
+        [
+          0.707,
+          0.0,
+          0.707
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.707,
+          0.0,
+          0.707
+        ]
+      ],
+      "after": [
+        [
+          0.707106781,
+          0.0,
+          0.707106781
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.707106781,
+          0.0,
+          0.707106781
+        ]
+      ],
+      "max_coefficient_change": 0.00010678118654761093
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Changing Seasons.ldr",
+      "source_line": 336,
+      "before": [
+        [
+          0.707,
+          0.0,
+          0.707
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.707,
+          0.0,
+          0.707
+        ]
+      ],
+      "after": [
+        [
+          0.707106781,
+          0.0,
+          0.707106781
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.707106781,
+          0.0,
+          0.707106781
+        ]
+      ],
+      "max_coefficient_change": 0.00010678118654761093
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Changing Seasons.ldr",
+      "source_line": 750,
+      "before": [
+        [
+          0.0,
+          -0.105,
+          0.995
+        ],
+        [
+          0.0,
+          0.995,
+          0.105
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "after": [
+        [
+          0.0,
+          -0.104944918,
+          0.994478036
+        ],
+        [
+          0.0,
+          0.994478036,
+          0.104944918
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "max_coefficient_change": 0.0005219639893062622
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Window bottom.ldr",
+      "source_line": 921,
+      "before": [
+        [
+          0.707,
+          0.0,
+          0.707
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.707,
+          0.0,
+          0.707
+        ]
+      ],
+      "after": [
+        [
+          0.707106781,
+          0.0,
+          0.707106781
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.707106781,
+          0.0,
+          0.707106781
+        ]
+      ],
+      "max_coefficient_change": 0.00010678118654761093
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Window bottom LH.ldr",
+      "source_line": 963,
+      "before": [
+        [
+          0.707,
+          0.0,
+          0.707
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.707,
+          0.0,
+          0.707
+        ]
+      ],
+      "after": [
+        [
+          0.707106781,
+          0.0,
+          0.707106781
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.707106781,
+          0.0,
+          0.707106781
+        ]
+      ],
+      "max_coefficient_change": 0.00010678118654761093
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Window LH.ldr",
+      "source_line": 1069,
+      "before": [
+        [
+          0.707,
+          0.0,
+          0.707
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.707,
+          0.0,
+          0.707
+        ]
+      ],
+      "after": [
+        [
+          0.707106781,
+          0.0,
+          0.707106781
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.707106781,
+          0.0,
+          0.707106781
+        ]
+      ],
+      "max_coefficient_change": 0.00010678118654761093
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Bird.ldr",
+      "source_line": 1311,
+      "before": [
+        [
+          0.259,
+          0.0,
+          -0.966
+        ],
+        [
+          -0.966,
+          0.0,
+          -0.259
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "after": [
+        [
+          0.258969314,
+          0.0,
+          -0.965885549
+        ],
+        [
+          -0.965885549,
+          0.0,
+          -0.258969314
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "max_coefficient_change": 0.00011445065679738242
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Bird.ldr",
+      "source_line": 1313,
+      "before": [
+        [
+          -0.259,
+          0.0,
+          -0.966
+        ],
+        [
+          0.966,
+          0.0,
+          -0.259
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      ],
+      "after": [
+        [
+          -0.258969314,
+          0.0,
+          -0.965885549
+        ],
+        [
+          0.965885549,
+          0.0,
+          -0.258969314
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      ],
+      "max_coefficient_change": 0.00011445065679738242
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Adult.ldr",
+      "source_line": 796,
+      "before": [
+        [
+          0.985,
+          -0.17,
+          0.0
+        ],
+        [
+          0.17,
+          0.985,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "after": [
+        [
+          0.985431221,
+          -0.170074424,
+          0.0
+        ],
+        [
+          0.170074424,
+          0.985431221,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "max_coefficient_change": 0.00043122050910271437
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Adult.ldr",
+      "source_line": 798,
+      "before": [
+        [
+          0.985,
+          0.17,
+          0.0
+        ],
+        [
+          -0.17,
+          0.985,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "after": [
+        [
+          0.985431221,
+          0.170074424,
+          0.0
+        ],
+        [
+          -0.170074424,
+          0.985431221,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "max_coefficient_change": 0.00043122050910271437
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Adult.ldr",
+      "source_line": 800,
+      "before": [
+        [
+          0.985,
+          -0.12019,
+          0.12019
+        ],
+        [
+          0.17,
+          0.696395,
+          -0.696395
+        ],
+        [
+          0.0,
+          0.707,
+          0.707
+        ]
+      ],
+      "after": [
+        [
+          0.985431221,
+          -0.120260778,
+          0.120260778
+        ],
+        [
+          0.170074424,
+          0.696805098,
+          -0.696805098
+        ],
+        [
+          0.0,
+          0.707106781,
+          0.707106781
+        ]
+      ],
+      "max_coefficient_change": 0.0004312205091024923
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Adult.ldr",
+      "source_line": 802,
+      "before": [
+        [
+          0.985,
+          0.12019,
+          -0.12019
+        ],
+        [
+          -0.17,
+          0.696395,
+          -0.696395
+        ],
+        [
+          0.0,
+          0.707,
+          0.707
+        ]
+      ],
+      "after": [
+        [
+          0.985431221,
+          0.120260778,
+          -0.120260778
+        ],
+        [
+          -0.170074424,
+          0.696805098,
+          -0.696805098
+        ],
+        [
+          0.0,
+          0.707106781,
+          0.707106781
+        ]
+      ],
+      "max_coefficient_change": 0.0004312205091024923
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Young.ldr",
+      "source_line": 771,
+      "before": [
+        [
+          0.985,
+          -0.17,
+          0.0
+        ],
+        [
+          0.17,
+          0.985,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "after": [
+        [
+          0.985431221,
+          -0.170074424,
+          0.0
+        ],
+        [
+          0.170074424,
+          0.985431221,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "max_coefficient_change": 0.00043122050910271437
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Young.ldr",
+      "source_line": 773,
+      "before": [
+        [
+          0.985,
+          0.17,
+          0.0
+        ],
+        [
+          -0.17,
+          0.985,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "after": [
+        [
+          0.985431221,
+          0.170074424,
+          0.0
+        ],
+        [
+          -0.170074424,
+          0.985431221,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "max_coefficient_change": 0.00043122050910271437
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Young.ldr",
+      "source_line": 775,
+      "before": [
+        [
+          0.985,
+          -0.12019,
+          0.12019
+        ],
+        [
+          0.17,
+          0.696395,
+          -0.696395
+        ],
+        [
+          0.0,
+          0.707,
+          0.707
+        ]
+      ],
+      "after": [
+        [
+          0.985431221,
+          -0.120260778,
+          0.120260778
+        ],
+        [
+          0.170074424,
+          0.696805098,
+          -0.696805098
+        ],
+        [
+          0.0,
+          0.707106781,
+          0.707106781
+        ]
+      ],
+      "max_coefficient_change": 0.0004312205091024923
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Young.ldr",
+      "source_line": 777,
+      "before": [
+        [
+          0.985,
+          0.12019,
+          -0.12019
+        ],
+        [
+          -0.17,
+          0.696395,
+          -0.696395
+        ],
+        [
+          0.0,
+          0.707,
+          0.707
+        ]
+      ],
+      "after": [
+        [
+          0.985431221,
+          0.120260778,
+          -0.120260778
+        ],
+        [
+          -0.170074424,
+          0.696805098,
+          -0.696805098
+        ],
+        [
+          0.0,
+          0.707106781,
+          0.707106781
+        ]
+      ],
+      "max_coefficient_change": 0.0004312205091024923
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Lawnmower.ldr",
+      "source_line": 1354,
+      "before": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.707,
+          0.707
+        ],
+        [
+          0.0,
+          -0.707,
+          0.707
+        ]
+      ],
+      "after": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.707106781,
+          0.707106781
+        ],
+        [
+          0.0,
+          -0.707106781,
+          0.707106781
+        ]
+      ],
+      "max_coefficient_change": 0.00010678118654761093
+    }
+  ],
+  "output_sha256": "347c34bc1ee48719f95bf9349f2387a7164cc5e9facdaf4344bd47918cb167a8",
+  "note": "Original authors and licences retained. Source bytes unchanged. Extraction is not validation or permission to relicense.",
+  "requested_identity": {
+    "id": "model-8045cd5c12b2f56f7d212c9b",
+    "kind": "models",
+    "model": "31038-1.mpd"
+  }
+}

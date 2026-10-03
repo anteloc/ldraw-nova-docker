@@ -1,0 +1,2274 @@
+{
+  "version": 1,
+  "cache_key": "22db3ff6f2de1c3d029e16c998b27284f840cd228d27a2921f3cb79635167c3e",
+  "id": "model-8045cd5c12b2f56f7d212c9b",
+  "kind": "models",
+  "model": "31038-1.mpd",
+  "section": null,
+  "parser_section": "31038 - Main.ldr",
+  "description": "A Creator 3-in-1 modular house scene combining a furnished cottage with a tree, minifigures, and outdoor accessories including a mailbox, lamp, and lawnmower.",
+  "parent_description": "A Creator 3-in-1 modular house scene combining a furnished cottage with a tree, minifigures, and outdoor accessories including a mailbox, lamp, and lawnmower.",
+  "theme": "",
+  "source": {
+    "path": "/opt/ldraw-nova/data/models-annotated/31038-1.mpd",
+    "sha256": "a9155db95e21c2504f60c4004079c4ee10ef5ccffa60036406eacef9ba14c4ac",
+    "field": "MODELS_DESCRIPTIONS_JEV.full_description",
+    "start_line": 1
+  },
+  "source_root": "ref-8045cd5c12b2f56f-00-31038---Main.ldr",
+  "preview_colour": 7,
+  "inventory": {
+    "source_sha256": "a9155db95e21c2504f60c4004079c4ee10ef5ccffa60036406eacef9ba14c4ac",
+    "parser_section": "31038 - Main.ldr",
+    "physical_placements": 545,
+    "expanded_leaf_count": 545,
+    "physical_accounting_complete": true,
+    "nonphysical_or_unresolved_leaves": [],
+    "raw_geometry_sections": [],
+    "bom": [
+      {
+        "part": "11211.dat",
+        "count": 1,
+        "description": "Brick  1 x  2 with Two Studs on One Side",
+        "physical_index_entry": true
+      },
+      {
+        "part": "11303.dat",
+        "count": 1,
+        "description": "Minifig Cap with Short Arched Peak with Seams and Top Pin Hole",
+        "physical_index_entry": true
+      },
+      {
+        "part": "11477.dat",
+        "count": 6,
+        "description": "Slope Brick Curved  2 x  1",
+        "physical_index_entry": true
+      },
+      {
+        "part": "13965.dat",
+        "count": 3,
+        "description": "Arch  1 x  3 x  3 Pointed",
+        "physical_index_entry": true
+      },
+      {
+        "part": "15068.dat",
+        "count": 3,
+        "description": "Slope Brick Curved  2 x  2 x  0.667",
+        "physical_index_entry": true
+      },
+      {
+        "part": "15208.dat",
+        "count": 1,
+        "description": "Plate  1 x  2 with 3 Teeth In-line",
+        "physical_index_entry": true
+      },
+      {
+        "part": "15210.dat",
+        "count": 1,
+        "description": "Roadsign Clip-on  2 x  2 Square with C-Clip",
+        "physical_index_entry": true
+      },
+      {
+        "part": "15573.dat",
+        "count": 2,
+        "description": "Plate  1 x  2 with Groove with 1 Centre Stud, without Understud",
+        "physical_index_entry": true
+      },
+      {
+        "part": "15712.dat",
+        "count": 2,
+        "description": "Tile  1 x  1 with Clip (Thick C-Clip)",
+        "physical_index_entry": true
+      },
+      {
+        "part": "2357.dat",
+        "count": 5,
+        "description": "Brick  2 x  2 Corner",
+        "physical_index_entry": true
+      },
+      {
+        "part": "2412b.dat",
+        "count": 8,
+        "description": "Tile  1 x  2 Grille with Groove",
+        "physical_index_entry": true
+      },
+      {
+        "part": "2420.dat",
+        "count": 2,
+        "description": "Plate  2 x  2 Corner",
+        "physical_index_entry": true
+      },
+      {
+        "part": "2431.dat",
+        "count": 4,
+        "description": "Tile  1 x  4 with Groove",
+        "physical_index_entry": true
+      },
+      {
+        "part": "2432.dat",
+        "count": 3,
+        "description": "Tile  1 x  2 with Handle",
+        "physical_index_entry": true
+      },
+      {
+        "part": "2437.dat",
+        "count": 1,
+        "description": "Windscreen  3 x  4 x  1.333",
+        "physical_index_entry": true
+      },
+      {
+        "part": "2540.dat",
+        "count": 1,
+        "description": "Plate  1 x  2 with Handle",
+        "physical_index_entry": true
+      },
+      {
+        "part": "2780.dat",
+        "count": 1,
+        "description": "Technic Pin with Friction and Slots",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3003.dat",
+        "count": 5,
+        "description": "Brick  2 x  2",
+        "physical_index_entry": true
+      },
+      {
+        "part": "30031.dat",
+        "count": 1,
+        "description": "Minifig Handlebars",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3004.dat",
+        "count": 43,
+        "description": "Brick  1 x  2",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3005.dat",
+        "count": 26,
+        "description": "Brick  1 x  1",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3008.dat",
+        "count": 8,
+        "description": "Brick  1 x  8",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3009.dat",
+        "count": 11,
+        "description": "Brick  1 x  6",
+        "physical_index_entry": true
+      },
+      {
+        "part": "30136.dat",
+        "count": 7,
+        "description": "Brick  1 x  2 Log",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3020.dat",
+        "count": 9,
+        "description": "Plate  2 x  4",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3021.dat",
+        "count": 2,
+        "description": "Plate  2 x  3",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3022.dat",
+        "count": 8,
+        "description": "Plate  2 x  2",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3023.dat",
+        "count": 26,
+        "description": "~Moved to 3023b",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3024.dat",
+        "count": 9,
+        "description": "Plate  1 x  1",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3034.dat",
+        "count": 2,
+        "description": "Plate  2 x  8",
+        "physical_index_entry": true
+      },
+      {
+        "part": "30340.dat",
+        "count": 1,
+        "description": "Minifig Life Ring",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3035.dat",
+        "count": 2,
+        "description": "Plate  4 x  8",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3036.dat",
+        "count": 3,
+        "description": "Plate  6 x  8",
+        "physical_index_entry": true
+      },
+      {
+        "part": "30367c.dat",
+        "count": 1,
+        "description": "Cylinder  2 x  2 with Dome Top with Axle Hole and Hollow Stud",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3037.dat",
+        "count": 30,
+        "description": "Slope Brick 45  2 x  4",
+        "physical_index_entry": true
+      },
+      {
+        "part": "30377.dat",
+        "count": 1,
+        "description": "Minifig Mechanical Arm with Clips Parallel",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3039.dat",
+        "count": 22,
+        "description": "Slope Brick 45  2 x  2",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3040b.dat",
+        "count": 39,
+        "description": "Slope Brick 45  2 x  1",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3046.dat",
+        "count": 12,
+        "description": "Slope Brick 45  2 x  2 Double Concave",
+        "physical_index_entry": true
+      },
+      {
+        "part": "30565.dat",
+        "count": 3,
+        "description": "Plate  4 x  4 with Corner Round",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3062b.dat",
+        "count": 15,
+        "description": "Brick  1 x  1 Round with Hollow Stud",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3069b.dat",
+        "count": 1,
+        "description": "Tile  1 x  2 with Groove",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3069bp01.dat",
+        "count": 1,
+        "description": "Tile  1 x  2 with Letter Pattern",
+        "physical_index_entry": true
+      },
+      {
+        "part": "32000.dat",
+        "count": 2,
+        "description": "Technic Brick  1 x  2 with Holes",
+        "physical_index_entry": true
+      },
+      {
+        "part": "33078.dat",
+        "count": 1,
+        "description": "Minifig Food Sausage",
+        "physical_index_entry": true
+      },
+      {
+        "part": "33291.dat",
+        "count": 10,
+        "description": "Plate  1 x  1 Round with Tabs",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3460.dat",
+        "count": 3,
+        "description": "Plate  1 x  8",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3626c.dat",
+        "count": 1,
+        "description": "Minifig Head with Hollow Stud",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3626cp8b.dat",
+        "count": 1,
+        "description": "Minifig Head with Brown Eyebrows, Freckles, Open Smile Pattern (Hollow Stud)",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3626cp8k.dat",
+        "count": 1,
+        "description": "Minifig Head with Brown Eyebrows, Open Lopsided Grin and White Pupils Pattern (Hollow Stud)",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3666.dat",
+        "count": 7,
+        "description": "Plate  1 x  6",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3710.dat",
+        "count": 16,
+        "description": "Plate  1 x  4",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3795.dat",
+        "count": 4,
+        "description": "Plate  2 x  6",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3815b.dat",
+        "count": 1,
+        "description": "Minifig Hips",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3816b.dat",
+        "count": 1,
+        "description": "~Minifig Leg Right (Obsolete)",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3817b.dat",
+        "count": 1,
+        "description": "~Minifig Leg Left (Obsolete)",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3818.dat",
+        "count": 2,
+        "description": "Minifig Arm Right",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3819.dat",
+        "count": 2,
+        "description": "Minifig Arm Left",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3820.dat",
+        "count": 4,
+        "description": "Minifig Hand",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3829c01.dat",
+        "count": 1,
+        "description": "Car Steering Stand and Wheel (Complete)",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3830.dat",
+        "count": 2,
+        "description": "Hinge Brick  1 x  4 Top",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3831.dat",
+        "count": 2,
+        "description": "Hinge Brick  1 x  4 Base",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3832.dat",
+        "count": 1,
+        "description": "Plate  2 x 10",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3836.dat",
+        "count": 1,
+        "description": "Minifig Pushbroom",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3899.dat",
+        "count": 1,
+        "description": "Minifig Cup",
+        "physical_index_entry": true
+      },
+      {
+        "part": "4032a.dat",
+        "count": 7,
+        "description": "Plate  2 x  2 Round with Axlehole",
+        "physical_index_entry": true
+      },
+      {
+        "part": "4070.dat",
+        "count": 4,
+        "description": "Brick  1 x  1 with Headlight",
+        "physical_index_entry": true
+      },
+      {
+        "part": "4081b.dat",
+        "count": 4,
+        "description": "Plate  1 x  1 with Clip Light Type 2",
+        "physical_index_entry": true
+      },
+      {
+        "part": "4162.dat",
+        "count": 3,
+        "description": "Tile  1 x  8",
+        "physical_index_entry": true
+      },
+      {
+        "part": "41879a.dat",
+        "count": 1,
+        "description": "Minifig Hips and Legs Short without Hole",
+        "physical_index_entry": true
+      },
+      {
+        "part": "4286.dat",
+        "count": 5,
+        "description": "Slope Brick 33  3 x  1",
+        "physical_index_entry": true
+      },
+      {
+        "part": "43093.dat",
+        "count": 1,
+        "description": "Technic Axle Pin with Friction",
+        "physical_index_entry": true
+      },
+      {
+        "part": "44728.dat",
+        "count": 4,
+        "description": "Bracket  1 x  2 -  2 x  2 Down",
+        "physical_index_entry": true
+      },
+      {
+        "part": "4599b.dat",
+        "count": 1,
+        "description": "Tap  1 x  1 without Hole in Spout",
+        "physical_index_entry": true
+      },
+      {
+        "part": "4600.dat",
+        "count": 3,
+        "description": "Plate  2 x  2 with 2 Wheel Pins",
+        "physical_index_entry": true
+      },
+      {
+        "part": "4624.dat",
+        "count": 6,
+        "description": "Wheel Rim  6.4 x  8",
+        "physical_index_entry": true
+      },
+      {
+        "part": "4733.dat",
+        "count": 1,
+        "description": "Brick  1 x  1 with Studs on Four Sides",
+        "physical_index_entry": true
+      },
+      {
+        "part": "4740.dat",
+        "count": 4,
+        "description": "Dish  2 x  2 Inverted",
+        "physical_index_entry": true
+      },
+      {
+        "part": "48336.dat",
+        "count": 3,
+        "description": "Plate  1 x  2 with Handle Type 2",
+        "physical_index_entry": true
+      },
+      {
+        "part": "48729a.dat",
+        "count": 1,
+        "description": "Bar  1.5L with Clip without Hole in Shaft",
+        "physical_index_entry": true
+      },
+      {
+        "part": "54200.dat",
+        "count": 4,
+        "description": "Slope Brick 31  1 x  1 x  0.667",
+        "physical_index_entry": true
+      },
+      {
+        "part": "54869.dat",
+        "count": 1,
+        "description": "~_Electric Light Brick  2 x  3 x  1.333 - TrRed Top - Red LED (Obsolete)",
+        "physical_index_entry": true
+      },
+      {
+        "part": "59900.dat",
+        "count": 6,
+        "description": "Cone  1 x  1 with Stop",
+        "physical_index_entry": true
+      },
+      {
+        "part": "60470b.dat",
+        "count": 1,
+        "description": "Plate  1 x  2 with  2 Clips Horizontal (Thick C-Clips)",
+        "physical_index_entry": true
+      },
+      {
+        "part": "60592.dat",
+        "count": 4,
+        "description": "Window  1 x  2 x  2 without Sill",
+        "physical_index_entry": true
+      },
+      {
+        "part": "60593.dat",
+        "count": 2,
+        "description": "Window  1 x  2 x  3 without Sill",
+        "physical_index_entry": true
+      },
+      {
+        "part": "60594.dat",
+        "count": 3,
+        "description": "Window  1 x  4 x  3 without Shutter Tabs",
+        "physical_index_entry": true
+      },
+      {
+        "part": "60596.dat",
+        "count": 1,
+        "description": "Door  1 x  4 x  6 Frame",
+        "physical_index_entry": true
+      },
+      {
+        "part": "60601.dat",
+        "count": 4,
+        "description": "Glass for Window  1 x  2 x  2 without Sill",
+        "physical_index_entry": true
+      },
+      {
+        "part": "60602.dat",
+        "count": 2,
+        "description": "Glass for Window  1 x  2 x  3",
+        "physical_index_entry": true
+      },
+      {
+        "part": "60608.dat",
+        "count": 6,
+        "description": "Window  1 x  2 x  3 Pane with Thick Corner Tabs",
+        "physical_index_entry": true
+      },
+      {
+        "part": "60623.dat",
+        "count": 1,
+        "description": "Door  1 x  4 x  6 with 4 Panes and Stud Handle",
+        "physical_index_entry": true
+      },
+      {
+        "part": "60897.dat",
+        "count": 3,
+        "description": "Plate  1 x  1 with Clip Vertical (Thick C-Clip)",
+        "physical_index_entry": true
+      },
+      {
+        "part": "61252.dat",
+        "count": 1,
+        "description": "Plate  1 x  1 with Clip Horizontal (Thick C-Clip)",
+        "physical_index_entry": true
+      },
+      {
+        "part": "6141.dat",
+        "count": 30,
+        "description": "Plate  1 x  1 Round",
+        "physical_index_entry": true
+      },
+      {
+        "part": "6191.dat",
+        "count": 1,
+        "description": "Brick  1 x  4 x  1.333 with Curved Top",
+        "physical_index_entry": true
+      },
+      {
+        "part": "6231.dat",
+        "count": 4,
+        "description": "Panel  1 x  1 x  1 Corner with Rounded Corners",
+        "physical_index_entry": true
+      },
+      {
+        "part": "63965.dat",
+        "count": 1,
+        "description": "~Bar  6L with Thick Stop (Obsolete)",
+        "physical_index_entry": true
+      },
+      {
+        "part": "6636.dat",
+        "count": 3,
+        "description": "Tile  1 x  6",
+        "physical_index_entry": true
+      },
+      {
+        "part": "85984.dat",
+        "count": 3,
+        "description": "Slope Brick 31  1 x  2 x  0.667",
+        "physical_index_entry": true
+      },
+      {
+        "part": "87079.dat",
+        "count": 1,
+        "description": "Tile  2 x  4",
+        "physical_index_entry": true
+      },
+      {
+        "part": "87414.dat",
+        "count": 6,
+        "description": "Tyre  6/ 50 x  8 Offset Tread with Centre Band",
+        "physical_index_entry": true
+      },
+      {
+        "part": "88286.dat",
+        "count": 1,
+        "description": "Minifig Hair Female Ponytail with Long French Braid",
+        "physical_index_entry": true
+      },
+      {
+        "part": "91405.dat",
+        "count": 1,
+        "description": "Plate 16 x 16 with Underside Ribs",
+        "physical_index_entry": true
+      },
+      {
+        "part": "973p7j.dat",
+        "count": 1,
+        "description": "Minifig Torso with Hooded Sweatshirt with Blue Pocket and Drawstring Pattern",
+        "physical_index_entry": true
+      },
+      {
+        "part": "973pdd.dat",
+        "count": 1,
+        "description": "Minifig Torso with Blue Plaid Shirt Pattern",
+        "physical_index_entry": true
+      },
+      {
+        "part": "98138.dat",
+        "count": 5,
+        "description": "Tile  1 x  1 Round with Groove",
+        "physical_index_entry": true
+      },
+      {
+        "part": "98138pc1.dat",
+        "count": 1,
+        "description": "Tile  1 x  1 Round with Groove with Gauge with Red Pointer Pattern",
+        "physical_index_entry": true
+      },
+      {
+        "part": "99781.dat",
+        "count": 1,
+        "description": "Bracket  1 x  2 -  1 x  2 Down",
+        "physical_index_entry": true
+      }
+    ],
+    "technic_named_placements": 4,
+    "technic_share": 0.007339449541284404,
+    "legacy_parts": [
+      {
+        "part": "3023.dat",
+        "count": 26,
+        "description": "~Moved to 3023b",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3816b.dat",
+        "count": 1,
+        "description": "~Minifig Leg Right (Obsolete)",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3817b.dat",
+        "count": 1,
+        "description": "~Minifig Leg Left (Obsolete)",
+        "physical_index_entry": true
+      },
+      {
+        "part": "54869.dat",
+        "count": 1,
+        "description": "~_Electric Light Brick  2 x  3 x  1.333 - TrRed Top - Red LED (Obsolete)",
+        "physical_index_entry": true
+      },
+      {
+        "part": "63965.dat",
+        "count": 1,
+        "description": "~Bar  6L with Thick Stop (Obsolete)",
+        "physical_index_entry": true
+      }
+    ],
+    "shape_fingerprint": "0866f277fdd299038e6da41309fe74e6f99eb951a0807867ad3fc614dd3d8801",
+    "recipe_fingerprint": "564273bc028cfefed0b3d0466e63aed56e315d4456b061cfe32c5b15e28aba9c",
+    "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+    "parents": [],
+    "dependencies": [
+      {
+        "section": "31038 - Main.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "31038 - Changing Seasons.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "31038 - Corner.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "31038 - Seat.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "31038 - Lamp.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "31038 - Window bottom.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "31038 - Window bottom LH.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "31038 - Window bottom RH.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "31038 - Ladder.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "31038 - Door.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "31038 - Window RW.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "31038 - Window WR.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "31038 - Window LH.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "31038 - Window RH.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "31038 - Outpost.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "31038 - Top.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "31038 - Basket.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "31038 - Light.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "31038 - Table.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "31038 - Mailbox.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "31038 - Tree.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "31038 - Bird.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "31038 - Adult.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "31038 - Young.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "31038 - Lawnmower.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "31038 - Car.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "31038 - Car front.ldr",
+        "kind": "assembly",
+        "author": "Marc Giraudet [Mad_Marc]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      }
+    ],
+    "reachable": true
+  },
+  "attribution": [
+    {
+      "section": "31038 - Main.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Changing Seasons.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Corner.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Seat.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Lamp.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Window bottom.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Window bottom LH.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Window bottom RH.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Ladder.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Door.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Window RW.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Window WR.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Window LH.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Window RH.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Outpost.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Top.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Basket.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Light.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Table.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Mailbox.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Tree.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Bird.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Adult.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Young.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Lawnmower.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Car.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "31038 - Car front.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    }
+  ],
+  "bounds": {
+    "min": [
+      -178.0,
+      -356.0,
+      -420.00052562999997
+    ],
+    "max": [
+      348.0,
+      8.0,
+      70.33653645792
+    ]
+  },
+  "size_ldu": [
+    526.0,
+    364.0,
+    490.33706208792
+  ],
+  "size_studs_plates_studs": [
+    26.3,
+    45.5,
+    24.516853104396
+  ],
+  "mesh_complete": true,
+  "mesh_diagnostics": [],
+  "raw_assembly_checks_passed": false,
+  "raw_diagnostic_counts": {
+    "header.missing": 1,
+    "part.alias_or_internal": 30,
+    "assembly.nonrigid": 24
+  },
+  "assembly_checks_passed": true,
+  "diagnostics": [
+    {
+      "code": "header.missing",
+      "severity": "warning",
+      "message": "Add a descriptive Name: header.",
+      "line_number": null,
+      "section": "preview-model-8045cd5c12b2f56f7d212c9b.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 93,
+      "section": "ref-8045cd5c12b2f56f-01-31038---Changing-Seasons.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 124,
+      "section": "ref-8045cd5c12b2f56f-01-31038---Changing-Seasons.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 163,
+      "section": "ref-8045cd5c12b2f56f-01-31038---Changing-Seasons.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 187,
+      "section": "ref-8045cd5c12b2f56f-01-31038---Changing-Seasons.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 265,
+      "section": "ref-8045cd5c12b2f56f-01-31038---Changing-Seasons.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 269,
+      "section": "ref-8045cd5c12b2f56f-01-31038---Changing-Seasons.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 271,
+      "section": "ref-8045cd5c12b2f56f-01-31038---Changing-Seasons.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 563,
+      "section": "ref-8045cd5c12b2f56f-01-31038---Changing-Seasons.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 565,
+      "section": "ref-8045cd5c12b2f56f-01-31038---Changing-Seasons.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 567,
+      "section": "ref-8045cd5c12b2f56f-01-31038---Changing-Seasons.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 569,
+      "section": "ref-8045cd5c12b2f56f-01-31038---Changing-Seasons.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 828,
+      "section": "ref-8045cd5c12b2f56f-03-31038---Seat.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 833,
+      "section": "ref-8045cd5c12b2f56f-03-31038---Seat.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 835,
+      "section": "ref-8045cd5c12b2f56f-03-31038---Seat.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 898,
+      "section": "ref-8045cd5c12b2f56f-06-31038---Window-bottom-LH.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 903,
+      "section": "ref-8045cd5c12b2f56f-06-31038---Window-bottom-LH.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 924,
+      "section": "ref-8045cd5c12b2f56f-07-31038---Window-bottom-RH.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 927,
+      "section": "ref-8045cd5c12b2f56f-07-31038---Window-bottom-RH.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 1104,
+      "section": "ref-8045cd5c12b2f56f-16-31038---Basket.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 1158,
+      "section": "ref-8045cd5c12b2f56f-19-31038---Mailbox.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 1160,
+      "section": "ref-8045cd5c12b2f56f-19-31038---Mailbox.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 1174,
+      "section": "ref-8045cd5c12b2f56f-19-31038---Mailbox.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 1317,
+      "section": "ref-8045cd5c12b2f56f-22-31038---Adult.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 1319,
+      "section": "ref-8045cd5c12b2f56f-22-31038---Adult.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 1418,
+      "section": "ref-8045cd5c12b2f56f-25-31038---Car.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 1420,
+      "section": "ref-8045cd5c12b2f56f-25-31038---Car.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 1422,
+      "section": "ref-8045cd5c12b2f56f-25-31038---Car.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 1424,
+      "section": "ref-8045cd5c12b2f56f-25-31038---Car.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 1429,
+      "section": "ref-8045cd5c12b2f56f-25-31038---Car.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 1439,
+      "section": "ref-8045cd5c12b2f56f-25-31038---Car.ldr"
+    }
+  ],
+  "repairs": [
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Changing Seasons.ldr",
+      "source_line": 221,
+      "before": [
+        [
+          0.0,
+          0.707,
+          0.707
+        ],
+        [
+          0.0,
+          0.707,
+          -0.707
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "after": [
+        [
+          0.0,
+          0.707106781,
+          0.707106781
+        ],
+        [
+          0.0,
+          0.707106781,
+          -0.707106781
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "max_coefficient_change": 0.00010678118654761093
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Changing Seasons.ldr",
+      "source_line": 223,
+      "before": [
+        [
+          0.0,
+          0.707,
+          0.707
+        ],
+        [
+          0.0,
+          0.707,
+          -0.707
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "after": [
+        [
+          0.0,
+          0.707106781,
+          0.707106781
+        ],
+        [
+          0.0,
+          0.707106781,
+          -0.707106781
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "max_coefficient_change": 0.00010678118654761093
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Changing Seasons.ldr",
+      "source_line": 225,
+      "before": [
+        [
+          0.0,
+          0.707,
+          -0.707
+        ],
+        [
+          0.0,
+          0.707,
+          0.707
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "after": [
+        [
+          0.0,
+          0.707106781,
+          -0.707106781
+        ],
+        [
+          0.0,
+          0.707106781,
+          0.707106781
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "max_coefficient_change": 0.00010678118654761093
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Changing Seasons.ldr",
+      "source_line": 271,
+      "before": [
+        [
+          -0.707,
+          0.0,
+          -0.707
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.707,
+          0.0,
+          -0.707
+        ]
+      ],
+      "after": [
+        [
+          -0.707106781,
+          0.0,
+          -0.707106781
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.707106781,
+          0.0,
+          -0.707106781
+        ]
+      ],
+      "max_coefficient_change": 0.00010678118654761093
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Changing Seasons.ldr",
+      "source_line": 275,
+      "before": [
+        [
+          -0.707,
+          0.0,
+          -0.707
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.707,
+          0.0,
+          -0.707
+        ]
+      ],
+      "after": [
+        [
+          -0.707106781,
+          0.0,
+          -0.707106781
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.707106781,
+          0.0,
+          -0.707106781
+        ]
+      ],
+      "max_coefficient_change": 0.00010678118654761093
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Changing Seasons.ldr",
+      "source_line": 330,
+      "before": [
+        [
+          0.707,
+          0.0,
+          0.707
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.707,
+          0.0,
+          0.707
+        ]
+      ],
+      "after": [
+        [
+          0.707106781,
+          0.0,
+          0.707106781
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.707106781,
+          0.0,
+          0.707106781
+        ]
+      ],
+      "max_coefficient_change": 0.00010678118654761093
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Changing Seasons.ldr",
+      "source_line": 332,
+      "before": [
+        [
+          0.707,
+          0.0,
+          0.707
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.707,
+          0.0,
+          0.707
+        ]
+      ],
+      "after": [
+        [
+          0.707106781,
+          0.0,
+          0.707106781
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.707106781,
+          0.0,
+          0.707106781
+        ]
+      ],
+      "max_coefficient_change": 0.00010678118654761093
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Changing Seasons.ldr",
+      "source_line": 334,
+      "before": [
+        [
+          0.707,
+          0.0,
+          0.707
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.707,
+          0.0,
+          0.707
+        ]
+      ],
+      "after": [
+        [
+          0.707106781,
+          0.0,
+          0.707106781
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.707106781,
+          0.0,
+          0.707106781
+        ]
+      ],
+      "max_coefficient_change": 0.00010678118654761093
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Changing Seasons.ldr",
+      "source_line": 336,
+      "before": [
+        [
+          0.707,
+          0.0,
+          0.707
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.707,
+          0.0,
+          0.707
+        ]
+      ],
+      "after": [
+        [
+          0.707106781,
+          0.0,
+          0.707106781
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.707106781,
+          0.0,
+          0.707106781
+        ]
+      ],
+      "max_coefficient_change": 0.00010678118654761093
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Changing Seasons.ldr",
+      "source_line": 750,
+      "before": [
+        [
+          0.0,
+          -0.105,
+          0.995
+        ],
+        [
+          0.0,
+          0.995,
+          0.105
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "after": [
+        [
+          0.0,
+          -0.104944918,
+          0.994478036
+        ],
+        [
+          0.0,
+          0.994478036,
+          0.104944918
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "max_coefficient_change": 0.0005219639893062622
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Window bottom.ldr",
+      "source_line": 921,
+      "before": [
+        [
+          0.707,
+          0.0,
+          0.707
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.707,
+          0.0,
+          0.707
+        ]
+      ],
+      "after": [
+        [
+          0.707106781,
+          0.0,
+          0.707106781
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.707106781,
+          0.0,
+          0.707106781
+        ]
+      ],
+      "max_coefficient_change": 0.00010678118654761093
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Window bottom LH.ldr",
+      "source_line": 963,
+      "before": [
+        [
+          0.707,
+          0.0,
+          0.707
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.707,
+          0.0,
+          0.707
+        ]
+      ],
+      "after": [
+        [
+          0.707106781,
+          0.0,
+          0.707106781
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.707106781,
+          0.0,
+          0.707106781
+        ]
+      ],
+      "max_coefficient_change": 0.00010678118654761093
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Window LH.ldr",
+      "source_line": 1069,
+      "before": [
+        [
+          0.707,
+          0.0,
+          0.707
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.707,
+          0.0,
+          0.707
+        ]
+      ],
+      "after": [
+        [
+          0.707106781,
+          0.0,
+          0.707106781
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.707106781,
+          0.0,
+          0.707106781
+        ]
+      ],
+      "max_coefficient_change": 0.00010678118654761093
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Bird.ldr",
+      "source_line": 1311,
+      "before": [
+        [
+          0.259,
+          0.0,
+          -0.966
+        ],
+        [
+          -0.966,
+          0.0,
+          -0.259
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "after": [
+        [
+          0.258969314,
+          0.0,
+          -0.965885549
+        ],
+        [
+          -0.965885549,
+          0.0,
+          -0.258969314
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "max_coefficient_change": 0.00011445065679738242
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Bird.ldr",
+      "source_line": 1313,
+      "before": [
+        [
+          -0.259,
+          0.0,
+          -0.966
+        ],
+        [
+          0.966,
+          0.0,
+          -0.259
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      ],
+      "after": [
+        [
+          -0.258969314,
+          0.0,
+          -0.965885549
+        ],
+        [
+          0.965885549,
+          0.0,
+          -0.258969314
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      ],
+      "max_coefficient_change": 0.00011445065679738242
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Adult.ldr",
+      "source_line": 796,
+      "before": [
+        [
+          0.985,
+          -0.17,
+          0.0
+        ],
+        [
+          0.17,
+          0.985,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "after": [
+        [
+          0.985431221,
+          -0.170074424,
+          0.0
+        ],
+        [
+          0.170074424,
+          0.985431221,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "max_coefficient_change": 0.00043122050910271437
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Adult.ldr",
+      "source_line": 798,
+      "before": [
+        [
+          0.985,
+          0.17,
+          0.0
+        ],
+        [
+          -0.17,
+          0.985,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "after": [
+        [
+          0.985431221,
+          0.170074424,
+          0.0
+        ],
+        [
+          -0.170074424,
+          0.985431221,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "max_coefficient_change": 0.00043122050910271437
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Adult.ldr",
+      "source_line": 800,
+      "before": [
+        [
+          0.985,
+          -0.12019,
+          0.12019
+        ],
+        [
+          0.17,
+          0.696395,
+          -0.696395
+        ],
+        [
+          0.0,
+          0.707,
+          0.707
+        ]
+      ],
+      "after": [
+        [
+          0.985431221,
+          -0.120260778,
+          0.120260778
+        ],
+        [
+          0.170074424,
+          0.696805098,
+          -0.696805098
+        ],
+        [
+          0.0,
+          0.707106781,
+          0.707106781
+        ]
+      ],
+      "max_coefficient_change": 0.0004312205091024923
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Adult.ldr",
+      "source_line": 802,
+      "before": [
+        [
+          0.985,
+          0.12019,
+          -0.12019
+        ],
+        [
+          -0.17,
+          0.696395,
+          -0.696395
+        ],
+        [
+          0.0,
+          0.707,
+          0.707
+        ]
+      ],
+      "after": [
+        [
+          0.985431221,
+          0.120260778,
+          -0.120260778
+        ],
+        [
+          -0.170074424,
+          0.696805098,
+          -0.696805098
+        ],
+        [
+          0.0,
+          0.707106781,
+          0.707106781
+        ]
+      ],
+      "max_coefficient_change": 0.0004312205091024923
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Young.ldr",
+      "source_line": 771,
+      "before": [
+        [
+          0.985,
+          -0.17,
+          0.0
+        ],
+        [
+          0.17,
+          0.985,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "after": [
+        [
+          0.985431221,
+          -0.170074424,
+          0.0
+        ],
+        [
+          0.170074424,
+          0.985431221,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "max_coefficient_change": 0.00043122050910271437
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Young.ldr",
+      "source_line": 773,
+      "before": [
+        [
+          0.985,
+          0.17,
+          0.0
+        ],
+        [
+          -0.17,
+          0.985,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "after": [
+        [
+          0.985431221,
+          0.170074424,
+          0.0
+        ],
+        [
+          -0.170074424,
+          0.985431221,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "max_coefficient_change": 0.00043122050910271437
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Young.ldr",
+      "source_line": 775,
+      "before": [
+        [
+          0.985,
+          -0.12019,
+          0.12019
+        ],
+        [
+          0.17,
+          0.696395,
+          -0.696395
+        ],
+        [
+          0.0,
+          0.707,
+          0.707
+        ]
+      ],
+      "after": [
+        [
+          0.985431221,
+          -0.120260778,
+          0.120260778
+        ],
+        [
+          0.170074424,
+          0.696805098,
+          -0.696805098
+        ],
+        [
+          0.0,
+          0.707106781,
+          0.707106781
+        ]
+      ],
+      "max_coefficient_change": 0.0004312205091024923
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Young.ldr",
+      "source_line": 777,
+      "before": [
+        [
+          0.985,
+          0.12019,
+          -0.12019
+        ],
+        [
+          -0.17,
+          0.696395,
+          -0.696395
+        ],
+        [
+          0.0,
+          0.707,
+          0.707
+        ]
+      ],
+      "after": [
+        [
+          0.985431221,
+          0.120260778,
+          -0.120260778
+        ],
+        [
+          -0.170074424,
+          0.696805098,
+          -0.696805098
+        ],
+        [
+          0.0,
+          0.707106781,
+          0.707106781
+        ]
+      ],
+      "max_coefficient_change": 0.0004312205091024923
+    },
+    {
+      "kind": "normalize_rounded_rotation",
+      "section": "31038 - Lawnmower.ldr",
+      "source_line": 1354,
+      "before": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.707,
+          0.707
+        ],
+        [
+          0.0,
+          -0.707,
+          0.707
+        ]
+      ],
+      "after": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.707106781,
+          0.707106781
+        ],
+        [
+          0.0,
+          -0.707106781,
+          0.707106781
+        ]
+      ],
+      "max_coefficient_change": 0.00010678118654761093
+    }
+  ],
+  "geometry": null,
+  "contacts_checked": false,
+  "bom_comparison": {
+    "matches": true,
+    "physical_placements": 545,
+    "leocad_placements": 545,
+    "differences": []
+  },
+  "views": [
+    "home",
+    "front",
+    "right",
+    "top"
+  ],
+  "artifacts": {
+    "source": "source.mpd",
+    "preview": "preview.mpd",
+    "manifest": "extraction.json"
+  },
+  "status": "reference",
+  "visual_review": "pending",
+  "physical_validity": "not_proven",
+  "limitations": [
+    "Bounds describe the source local axes, including protrusions; they are not connection frames.",
+    "Preview colour resolves inherited 16; extraction retains original colours and authorship.",
+    "Passing checks or matching a BOM does not prove connectivity, stability or fit in a new model."
+  ],
+  "artifact_hashes": {
+    "source.mpd": "347c34bc1ee48719f95bf9349f2387a7164cc5e9facdaf4344bd47918cb167a8",
+    "preview.mpd": "1f87a1a63d736eb82ceea8483843f779d7f1d4d583c99e36dfcd1df24fe2be93",
+    "extraction.json": "ab941ca591e4d9bdb0ee1305fbdf0035b5d389ccdc5513d32955e4477bdfd942",
+    "renders/leocad-bom.csv": "fc19852384f27f28cb4b82b5d74d214e0debbe510b236db0d6e24968d93e0df1",
+    "renders/home.png": "e65f01fa64f01c1e2130ef4292fa16502cb31b9812739b58eb602f3d698ad809",
+    "renders/front.png": "edd746850eda01a740b51d3c6264f16403d394e27b5121880af5232bdde49aa3",
+    "renders/right.png": "d05a66de63ec8b5472a13f5fea9d60ee6f3e7dcc20b0398dda5274a18454e1cb",
+    "renders/top.png": "01d12b9abbb74f0fb1bb46dfa971ce1a9cae44d79c66358966d70f07923e9ca1"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "source": "/opt/ldraw-nova/data/models-annotated/4886-1_Advanced-Build.mpd",
+  "source_sha256": "503488b1729f1e10413c52323d8ddc26e488f95c8ad503c13fd9476f373425aa",
+  "source_section": "4886 - Main.ldr",
+  "parser_section": "4886 - Main.ldr",
+  "root": "ref-5e535725e6edad05-00-4886---Main.ldr",
+  "renames": {
+    "4886 - Main.ldr": "ref-5e535725e6edad05-00-4886---Main.ldr",
+    "4886 - House.ldr": "ref-5e535725e6edad05-01-4886---House.ldr",
+    "4886 - Roof.ldr": "ref-5e535725e6edad05-02-4886---Roof.ldr",
+    "4886 - Tree.ldr": "ref-5e535725e6edad05-03-4886---Tree.ldr",
+    "4886 - Bush.ldr": "ref-5e535725e6edad05-04-4886---Bush.ldr"
+  },
+  "attribution": [
+    {
+      "section": "4886 - Main.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "4886 - House.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "4886 - Roof.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "4886 - Tree.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "4886 - Bush.ldr",
+      "author": "Marc Giraudet [Mad_Marc]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    }
+  ],
+  "changes": [],
+  "output_sha256": "294721183be858c42baf67a11611832b075edb68dc6ac192abedb9054c3dd43f",
+  "note": "Original authors and licences retained. Source bytes unchanged. Extraction is not validation or permission to relicense.",
+  "requested_identity": {
+    "id": "model-5e535725e6edad053402c964",
+    "kind": "models",
+    "model": "4886-1_Advanced-Build.mpd"
+  }
+}

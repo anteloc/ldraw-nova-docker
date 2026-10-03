@@ -1,0 +1,1173 @@
+{
+  "profile": "assembly",
+  "checks_passed": false,
+  "physical_validity": "not_proven",
+  "output": "output/cottage-house.mpd",
+  "written": false,
+  "diagnostics": [
+    {
+      "code": "assembly.body_overlap",
+      "severity": "error",
+      "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+      "line_number": null,
+      "section": null,
+      "instances": [
+        110,
+        111
+      ],
+      "penetration": 20.0,
+      "sources": [
+        {
+          "part": "3007.dat",
+          "section": "cottage-house.ldr",
+          "line_number": 270,
+          "source_path": [
+            9,
+            270
+          ]
+        },
+        {
+          "part": "3007.dat",
+          "section": "cottage-house.ldr",
+          "line_number": 272,
+          "source_path": [
+            9,
+            272
+          ]
+        }
+      ]
+    },
+    {
+      "code": "assembly.body_overlap",
+      "severity": "error",
+      "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+      "line_number": null,
+      "section": null,
+      "instances": [
+        111,
+        112
+      ],
+      "penetration": 20.0,
+      "sources": [
+        {
+          "part": "3007.dat",
+          "section": "cottage-house.ldr",
+          "line_number": 272,
+          "source_path": [
+            9,
+            272
+          ]
+        },
+        {
+          "part": "3007.dat",
+          "section": "cottage-house.ldr",
+          "line_number": 274,
+          "source_path": [
+            9,
+            274
+          ]
+        }
+      ]
+    },
+    {
+      "code": "assembly.body_overlap",
+      "severity": "error",
+      "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+      "line_number": null,
+      "section": null,
+      "instances": [
+        112,
+        139
+      ],
+      "penetration": 10.0,
+      "sources": [
+        {
+          "part": "3007.dat",
+          "section": "cottage-house.ldr",
+          "line_number": 274,
+          "source_path": [
+            9,
+            274
+          ]
+        },
+        {
+          "part": "3003.dat",
+          "section": "cottage-house.ldr",
+          "line_number": 335,
+          "source_path": [
+            9,
+            335
+          ]
+        }
+      ]
+    },
+    {
+      "code": "assembly.body_overlap",
+      "severity": "error",
+      "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+      "line_number": null,
+      "section": null,
+      "instances": [
+        121,
+        122
+      ],
+      "penetration": 20.0,
+      "sources": [
+        {
+          "part": "3007.dat",
+          "section": "cottage-house.ldr",
+          "line_number": 294,
+          "source_path": [
+            9,
+            294
+          ]
+        },
+        {
+          "part": "3007.dat",
+          "section": "cottage-house.ldr",
+          "line_number": 296,
+          "source_path": [
+            9,
+            296
+          ]
+        }
+      ]
+    },
+    {
+      "code": "assembly.body_overlap",
+      "severity": "error",
+      "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+      "line_number": null,
+      "section": null,
+      "instances": [
+        122,
+        123
+      ],
+      "penetration": 20.0,
+      "sources": [
+        {
+          "part": "3007.dat",
+          "section": "cottage-house.ldr",
+          "line_number": 296,
+          "source_path": [
+            9,
+            296
+          ]
+        },
+        {
+          "part": "3007.dat",
+          "section": "cottage-house.ldr",
+          "line_number": 298,
+          "source_path": [
+            9,
+            298
+          ]
+        }
+      ]
+    },
+    {
+      "code": "assembly.body_overlap",
+      "severity": "error",
+      "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+      "line_number": null,
+      "section": null,
+      "instances": [
+        123,
+        140
+      ],
+      "penetration": 10.0,
+      "sources": [
+        {
+          "part": "3007.dat",
+          "section": "cottage-house.ldr",
+          "line_number": 298,
+          "source_path": [
+            9,
+            298
+          ]
+        },
+        {
+          "part": "3003.dat",
+          "section": "cottage-house.ldr",
+          "line_number": 337,
+          "source_path": [
+            9,
+            337
+          ]
+        }
+      ]
+    },
+    {
+      "code": "assembly.body_overlap",
+      "severity": "error",
+      "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+      "line_number": null,
+      "section": null,
+      "instances": [
+        135,
+        144
+      ],
+      "penetration": 10.0,
+      "sources": [
+        {
+          "part": "3068b.dat",
+          "section": "cottage-house.ldr",
+          "line_number": 326,
+          "source_path": [
+            9,
+            326
+          ]
+        },
+        {
+          "part": "3003.dat",
+          "section": "cottage-house.ldr",
+          "line_number": 345,
+          "source_path": [
+            9,
+            345
+          ]
+        }
+      ]
+    },
+    {
+      "code": "assembly.body_overlap",
+      "severity": "error",
+      "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+      "line_number": null,
+      "section": null,
+      "instances": [
+        144,
+        136
+      ],
+      "penetration": 10.0,
+      "sources": [
+        {
+          "part": "3003.dat",
+          "section": "cottage-house.ldr",
+          "line_number": 345,
+          "source_path": [
+            9,
+            345
+          ]
+        },
+        {
+          "part": "3068b.dat",
+          "section": "cottage-house.ldr",
+          "line_number": 328,
+          "source_path": [
+            9,
+            328
+          ]
+        }
+      ]
+    },
+    {
+      "code": "assembly.body_overlap",
+      "severity": "error",
+      "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+      "line_number": null,
+      "section": null,
+      "instances": [
+        8,
+        14
+      ],
+      "penetration": 8.0,
+      "sources": [
+        {
+          "part": "3068b.dat",
+          "section": "cottage-ground.ldr",
+          "line_number": 35,
+          "source_path": [
+            7,
+            35
+          ]
+        },
+        {
+          "part": "3005.dat",
+          "section": "cottage-house.ldr",
+          "line_number": 53,
+          "source_path": [
+            9,
+            53
+          ]
+        }
+      ]
+    },
+    {
+      "code": "assembly.body_overlap",
+      "severity": "error",
+      "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+      "line_number": null,
+      "section": null,
+      "instances": [
+        14,
+        7
+      ],
+      "penetration": 5.0,
+      "sources": [
+        {
+          "part": "3005.dat",
+          "section": "cottage-house.ldr",
+          "line_number": 53,
+          "source_path": [
+            9,
+            53
+          ]
+        },
+        {
+          "part": "3068b.dat",
+          "section": "cottage-ground.ldr",
+          "line_number": 33,
+          "source_path": [
+            7,
+            33
+          ]
+        }
+      ]
+    },
+    {
+      "code": "assembly.body_overlap",
+      "severity": "error",
+      "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+      "line_number": null,
+      "section": null,
+      "instances": [
+        1,
+        7
+      ],
+      "penetration": 8.0,
+      "sources": [
+        {
+          "part": "3068b.dat",
+          "section": "cottage-ground.ldr",
+          "line_number": 20,
+          "source_path": [
+            7,
+            20
+          ]
+        },
+        {
+          "part": "3068b.dat",
+          "section": "cottage-ground.ldr",
+          "line_number": 33,
+          "source_path": [
+            7,
+            33
+          ]
+        }
+      ]
+    },
+    {
+      "code": "assembly.body_overlap",
+      "severity": "error",
+      "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+      "line_number": null,
+      "section": null,
+      "instances": [
+        1,
+        10
+      ],
+      "penetration": 8.0,
+      "sources": [
+        {
+          "part": "3068b.dat",
+          "section": "cottage-ground.ldr",
+          "line_number": 20,
+          "source_path": [
+            7,
+            20
+          ]
+        },
+        {
+          "part": "3068b.dat",
+          "section": "cottage-ground.ldr",
+          "line_number": 39,
+          "source_path": [
+            7,
+            39
+          ]
+        }
+      ]
+    },
+    {
+      "code": "assembly.body_overlap",
+      "severity": "error",
+      "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+      "line_number": null,
+      "section": null,
+      "instances": [
+        2,
+        10
+      ],
+      "penetration": 8.0,
+      "sources": [
+        {
+          "part": "3068b.dat",
+          "section": "cottage-ground.ldr",
+          "line_number": 22,
+          "source_path": [
+            7,
+            22
+          ]
+        },
+        {
+          "part": "3068b.dat",
+          "section": "cottage-ground.ldr",
+          "line_number": 39,
+          "source_path": [
+            7,
+            39
+          ]
+        }
+      ]
+    },
+    {
+      "code": "assembly.body_overlap",
+      "severity": "error",
+      "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+      "line_number": null,
+      "section": null,
+      "instances": [
+        43,
+        44
+      ],
+      "penetration": 10.0,
+      "sources": [
+        {
+          "part": "3004.dat",
+          "section": "cottage-house.ldr",
+          "line_number": 117,
+          "source_path": [
+            9,
+            117
+          ]
+        },
+        {
+          "part": "3005.dat",
+          "section": "cottage-house.ldr",
+          "line_number": 119,
+          "source_path": [
+            9,
+            119
+          ]
+        }
+      ]
+    },
+    {
+      "code": "assembly.body_overlap",
+      "severity": "error",
+      "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+      "line_number": null,
+      "section": null,
+      "instances": [
+        47,
+        48
+      ],
+      "penetration": 10.0,
+      "sources": [
+        {
+          "part": "3004.dat",
+          "section": "cottage-house.ldr",
+          "line_number": 126,
+          "source_path": [
+            9,
+            126
+          ]
+        },
+        {
+          "part": "3005.dat",
+          "section": "cottage-house.ldr",
+          "line_number": 128,
+          "source_path": [
+            9,
+            128
+          ]
+        }
+      ]
+    },
+    {
+      "code": "assembly.body_overlap",
+      "severity": "error",
+      "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+      "line_number": null,
+      "section": null,
+      "instances": [
+        9,
+        15
+      ],
+      "penetration": 8.0,
+      "sources": [
+        {
+          "part": "3068b.dat",
+          "section": "cottage-ground.ldr",
+          "line_number": 37,
+          "source_path": [
+            7,
+            37
+          ]
+        },
+        {
+          "part": "3005.dat",
+          "section": "cottage-house.ldr",
+          "line_number": 55,
+          "source_path": [
+            9,
+            55
+          ]
+        }
+      ]
+    },
+    {
+      "code": "assembly.body_overlap",
+      "severity": "error",
+      "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+      "line_number": null,
+      "section": null,
+      "instances": [
+        32,
+        33
+      ],
+      "penetration": 10.0,
+      "sources": [
+        {
+          "part": "3004.dat",
+          "section": "cottage-house.ldr",
+          "line_number": 93,
+          "source_path": [
+            9,
+            93
+          ]
+        },
+        {
+          "part": "3005.dat",
+          "section": "cottage-house.ldr",
+          "line_number": 95,
+          "source_path": [
+            9,
+            95
+          ]
+        }
+      ]
+    },
+    {
+      "code": "assembly.disconnected_evidence",
+      "severity": "warning",
+      "message": "Connection analysis finds multiple groups. Investigate floating parts, missing connector metadata, or intentional separate objects.",
+      "line_number": null,
+      "section": null,
+      "component_count": 71
+    },
+    {
+      "code": "coverage.collision_review",
+      "severity": "warning",
+      "message": "Some parts lack rectangular body checks; oriented bounds refine candidates, while remaining overlaps require material review.",
+      "line_number": null,
+      "section": null
+    }
+  ],
+  "geometry": {
+    "complete": true,
+    "connection_coverage": {
+      "complete": 147,
+      "partial": 0,
+      "none": 0
+    },
+    "collision_method": "AABB broad phase, oriented bounds separation, curated rectangular body SAT",
+    "physical_validity": "not_proven",
+    "bounds": {
+      "min": [
+        -320.0,
+        -276.0,
+        -330.0
+      ],
+      "max": [
+        320.0,
+        8.0,
+        320.0
+      ]
+    },
+    "occurrence_count": 147,
+    "detail": "summary",
+    "instance_offset": 0,
+    "instances": [],
+    "instances_truncated": true,
+    "contacts_checked": true,
+    "contact_count": 197,
+    "contacts": [],
+    "contacts_truncated": true,
+    "confirmed_components": null,
+    "optimistic_components": null,
+    "optimistic_component_count": 71,
+    "confirmed_component_count": 104,
+    "components_truncated": true,
+    "overlap_candidate_count": 274,
+    "overlaps": [],
+    "overlaps_truncated": true,
+    "diagnostics": [
+      {
+        "code": "assembly.body_overlap",
+        "severity": "error",
+        "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+        "line_number": null,
+        "section": null,
+        "instances": [
+          110,
+          111
+        ],
+        "penetration": 20.0,
+        "sources": [
+          {
+            "part": "3007.dat",
+            "section": "cottage-house.ldr",
+            "line_number": 270,
+            "source_path": [
+              9,
+              270
+            ]
+          },
+          {
+            "part": "3007.dat",
+            "section": "cottage-house.ldr",
+            "line_number": 272,
+            "source_path": [
+              9,
+              272
+            ]
+          }
+        ]
+      },
+      {
+        "code": "assembly.body_overlap",
+        "severity": "error",
+        "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+        "line_number": null,
+        "section": null,
+        "instances": [
+          111,
+          112
+        ],
+        "penetration": 20.0,
+        "sources": [
+          {
+            "part": "3007.dat",
+            "section": "cottage-house.ldr",
+            "line_number": 272,
+            "source_path": [
+              9,
+              272
+            ]
+          },
+          {
+            "part": "3007.dat",
+            "section": "cottage-house.ldr",
+            "line_number": 274,
+            "source_path": [
+              9,
+              274
+            ]
+          }
+        ]
+      },
+      {
+        "code": "assembly.body_overlap",
+        "severity": "error",
+        "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+        "line_number": null,
+        "section": null,
+        "instances": [
+          112,
+          139
+        ],
+        "penetration": 10.0,
+        "sources": [
+          {
+            "part": "3007.dat",
+            "section": "cottage-house.ldr",
+            "line_number": 274,
+            "source_path": [
+              9,
+              274
+            ]
+          },
+          {
+            "part": "3003.dat",
+            "section": "cottage-house.ldr",
+            "line_number": 335,
+            "source_path": [
+              9,
+              335
+            ]
+          }
+        ]
+      },
+      {
+        "code": "assembly.body_overlap",
+        "severity": "error",
+        "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+        "line_number": null,
+        "section": null,
+        "instances": [
+          121,
+          122
+        ],
+        "penetration": 20.0,
+        "sources": [
+          {
+            "part": "3007.dat",
+            "section": "cottage-house.ldr",
+            "line_number": 294,
+            "source_path": [
+              9,
+              294
+            ]
+          },
+          {
+            "part": "3007.dat",
+            "section": "cottage-house.ldr",
+            "line_number": 296,
+            "source_path": [
+              9,
+              296
+            ]
+          }
+        ]
+      },
+      {
+        "code": "assembly.body_overlap",
+        "severity": "error",
+        "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+        "line_number": null,
+        "section": null,
+        "instances": [
+          122,
+          123
+        ],
+        "penetration": 20.0,
+        "sources": [
+          {
+            "part": "3007.dat",
+            "section": "cottage-house.ldr",
+            "line_number": 296,
+            "source_path": [
+              9,
+              296
+            ]
+          },
+          {
+            "part": "3007.dat",
+            "section": "cottage-house.ldr",
+            "line_number": 298,
+            "source_path": [
+              9,
+              298
+            ]
+          }
+        ]
+      },
+      {
+        "code": "assembly.body_overlap",
+        "severity": "error",
+        "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+        "line_number": null,
+        "section": null,
+        "instances": [
+          123,
+          140
+        ],
+        "penetration": 10.0,
+        "sources": [
+          {
+            "part": "3007.dat",
+            "section": "cottage-house.ldr",
+            "line_number": 298,
+            "source_path": [
+              9,
+              298
+            ]
+          },
+          {
+            "part": "3003.dat",
+            "section": "cottage-house.ldr",
+            "line_number": 337,
+            "source_path": [
+              9,
+              337
+            ]
+          }
+        ]
+      },
+      {
+        "code": "assembly.body_overlap",
+        "severity": "error",
+        "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+        "line_number": null,
+        "section": null,
+        "instances": [
+          135,
+          144
+        ],
+        "penetration": 10.0,
+        "sources": [
+          {
+            "part": "3068b.dat",
+            "section": "cottage-house.ldr",
+            "line_number": 326,
+            "source_path": [
+              9,
+              326
+            ]
+          },
+          {
+            "part": "3003.dat",
+            "section": "cottage-house.ldr",
+            "line_number": 345,
+            "source_path": [
+              9,
+              345
+            ]
+          }
+        ]
+      },
+      {
+        "code": "assembly.body_overlap",
+        "severity": "error",
+        "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+        "line_number": null,
+        "section": null,
+        "instances": [
+          144,
+          136
+        ],
+        "penetration": 10.0,
+        "sources": [
+          {
+            "part": "3003.dat",
+            "section": "cottage-house.ldr",
+            "line_number": 345,
+            "source_path": [
+              9,
+              345
+            ]
+          },
+          {
+            "part": "3068b.dat",
+            "section": "cottage-house.ldr",
+            "line_number": 328,
+            "source_path": [
+              9,
+              328
+            ]
+          }
+        ]
+      },
+      {
+        "code": "assembly.body_overlap",
+        "severity": "error",
+        "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+        "line_number": null,
+        "section": null,
+        "instances": [
+          8,
+          14
+        ],
+        "penetration": 8.0,
+        "sources": [
+          {
+            "part": "3068b.dat",
+            "section": "cottage-ground.ldr",
+            "line_number": 35,
+            "source_path": [
+              7,
+              35
+            ]
+          },
+          {
+            "part": "3005.dat",
+            "section": "cottage-house.ldr",
+            "line_number": 53,
+            "source_path": [
+              9,
+              53
+            ]
+          }
+        ]
+      },
+      {
+        "code": "assembly.body_overlap",
+        "severity": "error",
+        "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+        "line_number": null,
+        "section": null,
+        "instances": [
+          14,
+          7
+        ],
+        "penetration": 5.0,
+        "sources": [
+          {
+            "part": "3005.dat",
+            "section": "cottage-house.ldr",
+            "line_number": 53,
+            "source_path": [
+              9,
+              53
+            ]
+          },
+          {
+            "part": "3068b.dat",
+            "section": "cottage-ground.ldr",
+            "line_number": 33,
+            "source_path": [
+              7,
+              33
+            ]
+          }
+        ]
+      },
+      {
+        "code": "assembly.body_overlap",
+        "severity": "error",
+        "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+        "line_number": null,
+        "section": null,
+        "instances": [
+          1,
+          7
+        ],
+        "penetration": 8.0,
+        "sources": [
+          {
+            "part": "3068b.dat",
+            "section": "cottage-ground.ldr",
+            "line_number": 20,
+            "source_path": [
+              7,
+              20
+            ]
+          },
+          {
+            "part": "3068b.dat",
+            "section": "cottage-ground.ldr",
+            "line_number": 33,
+            "source_path": [
+              7,
+              33
+            ]
+          }
+        ]
+      },
+      {
+        "code": "assembly.body_overlap",
+        "severity": "error",
+        "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+        "line_number": null,
+        "section": null,
+        "instances": [
+          1,
+          10
+        ],
+        "penetration": 8.0,
+        "sources": [
+          {
+            "part": "3068b.dat",
+            "section": "cottage-ground.ldr",
+            "line_number": 20,
+            "source_path": [
+              7,
+              20
+            ]
+          },
+          {
+            "part": "3068b.dat",
+            "section": "cottage-ground.ldr",
+            "line_number": 39,
+            "source_path": [
+              7,
+              39
+            ]
+          }
+        ]
+      },
+      {
+        "code": "assembly.body_overlap",
+        "severity": "error",
+        "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+        "line_number": null,
+        "section": null,
+        "instances": [
+          2,
+          10
+        ],
+        "penetration": 8.0,
+        "sources": [
+          {
+            "part": "3068b.dat",
+            "section": "cottage-ground.ldr",
+            "line_number": 22,
+            "source_path": [
+              7,
+              22
+            ]
+          },
+          {
+            "part": "3068b.dat",
+            "section": "cottage-ground.ldr",
+            "line_number": 39,
+            "source_path": [
+              7,
+              39
+            ]
+          }
+        ]
+      },
+      {
+        "code": "assembly.body_overlap",
+        "severity": "error",
+        "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+        "line_number": null,
+        "section": null,
+        "instances": [
+          43,
+          44
+        ],
+        "penetration": 10.0,
+        "sources": [
+          {
+            "part": "3004.dat",
+            "section": "cottage-house.ldr",
+            "line_number": 117,
+            "source_path": [
+              9,
+              117
+            ]
+          },
+          {
+            "part": "3005.dat",
+            "section": "cottage-house.ldr",
+            "line_number": 119,
+            "source_path": [
+              9,
+              119
+            ]
+          }
+        ]
+      },
+      {
+        "code": "assembly.body_overlap",
+        "severity": "error",
+        "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+        "line_number": null,
+        "section": null,
+        "instances": [
+          47,
+          48
+        ],
+        "penetration": 10.0,
+        "sources": [
+          {
+            "part": "3004.dat",
+            "section": "cottage-house.ldr",
+            "line_number": 126,
+            "source_path": [
+              9,
+              126
+            ]
+          },
+          {
+            "part": "3005.dat",
+            "section": "cottage-house.ldr",
+            "line_number": 128,
+            "source_path": [
+              9,
+              128
+            ]
+          }
+        ]
+      },
+      {
+        "code": "assembly.body_overlap",
+        "severity": "error",
+        "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+        "line_number": null,
+        "section": null,
+        "instances": [
+          9,
+          15
+        ],
+        "penetration": 8.0,
+        "sources": [
+          {
+            "part": "3068b.dat",
+            "section": "cottage-ground.ldr",
+            "line_number": 37,
+            "source_path": [
+              7,
+              37
+            ]
+          },
+          {
+            "part": "3005.dat",
+            "section": "cottage-house.ldr",
+            "line_number": 55,
+            "source_path": [
+              9,
+              55
+            ]
+          }
+        ]
+      },
+      {
+        "code": "assembly.body_overlap",
+        "severity": "error",
+        "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+        "line_number": null,
+        "section": null,
+        "instances": [
+          32,
+          33
+        ],
+        "penetration": 10.0,
+        "sources": [
+          {
+            "part": "3004.dat",
+            "section": "cottage-house.ldr",
+            "line_number": 93,
+            "source_path": [
+              9,
+              93
+            ]
+          },
+          {
+            "part": "3005.dat",
+            "section": "cottage-house.ldr",
+            "line_number": 95,
+            "source_path": [
+              9,
+              95
+            ]
+          }
+        ]
+      },
+      {
+        "code": "assembly.disconnected_evidence",
+        "severity": "warning",
+        "message": "Connection analysis finds multiple groups. Investigate floating parts, missing connector metadata, or intentional separate objects.",
+        "line_number": null,
+        "section": null,
+        "component_count": 71
+      },
+      {
+        "code": "coverage.collision_review",
+        "severity": "warning",
+        "message": "Some parts lack rectangular body checks; oriented bounds refine candidates, while remaining overlaps require material review.",
+        "line_number": null,
+        "section": null
+      }
+    ],
+    "limitations": [
+      "AABB candidates do not prove collisions; stud/socket bounding boxes normally overlap.",
+      "Connector matches, including 'confirmed', are computational evidence, not buildability certification.",
+      "No material intersection, clutch strength, stability, legal connection stress, or real colour availability proof."
+    ]
+  }
+}

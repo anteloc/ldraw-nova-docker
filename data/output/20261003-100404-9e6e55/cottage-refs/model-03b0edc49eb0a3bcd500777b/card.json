@@ -1,0 +1,680 @@
+{
+  "version": 1,
+  "cache_key": "3e8aa654956f592426d7801f85446a1f9442f2f4da0fda03671bd949402f75ac",
+  "id": "model-03b0edc49eb0a3bcd500777b",
+  "kind": "models",
+  "model": "4886-1_Experienced-Build.mpd",
+  "section": null,
+  "parser_section": "4886 - main B.ldr",
+  "description": "A scenic layout on a green baseplate featuring a large white building, two leafy trees, street lamps, and surrounding picket fences.",
+  "parent_description": "A scenic layout on a green baseplate featuring a large white building, two leafy trees, street lamps, and surrounding picket fences.",
+  "theme": "",
+  "source": {
+    "path": "/opt/ldraw-nova/data/models-annotated/4886-1_Experienced-Build.mpd",
+    "sha256": "daf59c3c32872030c101f43c5d4de398610509957deb14b89407a15b18cbcfe6",
+    "field": "MODELS_DESCRIPTIONS_JEV.full_description",
+    "start_line": 1
+  },
+  "source_root": "ref-03b0edc49eb0a3bc-00-4886---main-B.ldr",
+  "preview_colour": 7,
+  "inventory": {
+    "source_sha256": "daf59c3c32872030c101f43c5d4de398610509957deb14b89407a15b18cbcfe6",
+    "parser_section": "4886 - main B.ldr",
+    "physical_placements": 353,
+    "expanded_leaf_count": 353,
+    "physical_accounting_complete": true,
+    "nonphysical_or_unresolved_leaves": [],
+    "raw_geometry_sections": [],
+    "bom": [
+      {
+        "part": "2357.dat",
+        "count": 10,
+        "description": "Brick  2 x  2 Corner",
+        "physical_index_entry": true
+      },
+      {
+        "part": "2420.dat",
+        "count": 2,
+        "description": "Plate  2 x  2 Corner",
+        "physical_index_entry": true
+      },
+      {
+        "part": "2453a.dat",
+        "count": 1,
+        "description": "Brick  1 x  1 x  5 with Hollow Stud",
+        "physical_index_entry": true
+      },
+      {
+        "part": "2456.dat",
+        "count": 2,
+        "description": "Brick  2 x  6",
+        "physical_index_entry": true
+      },
+      {
+        "part": "2877.dat",
+        "count": 1,
+        "description": "Brick  1 x  2 with Grille",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3001.dat",
+        "count": 19,
+        "description": "Brick  2 x  4",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3003.dat",
+        "count": 2,
+        "description": "Brick  2 x  2",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3004.dat",
+        "count": 29,
+        "description": "Brick  1 x  2",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3005.dat",
+        "count": 19,
+        "description": "Brick  1 x  1",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3006.dat",
+        "count": 1,
+        "description": "Brick  2 x 10",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3008.dat",
+        "count": 24,
+        "description": "Brick  1 x  8",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3009.dat",
+        "count": 22,
+        "description": "Brick  1 x  6",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3010.dat",
+        "count": 15,
+        "description": "Brick  1 x  4",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3020.dat",
+        "count": 3,
+        "description": "Plate  2 x  4",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3021.dat",
+        "count": 1,
+        "description": "Plate  2 x  3",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3022.dat",
+        "count": 3,
+        "description": "Plate  2 x  2",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3023.dat",
+        "count": 6,
+        "description": "~Moved to 3023b",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3024.dat",
+        "count": 4,
+        "description": "Plate  1 x  1",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3034.dat",
+        "count": 5,
+        "description": "Plate  2 x  8",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3037.dat",
+        "count": 21,
+        "description": "Slope Brick 45  2 x  4",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3038.dat",
+        "count": 14,
+        "description": "Slope Brick 45  2 x  3",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3039.dat",
+        "count": 7,
+        "description": "Slope Brick 45  2 x  2",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3040b.dat",
+        "count": 16,
+        "description": "Slope Brick 45  2 x  1",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3041.dat",
+        "count": 2,
+        "description": "Slope Brick 45  2 x  4 Double",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3043.dat",
+        "count": 2,
+        "description": "Slope Brick 45  2 x  2 Double",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3046.dat",
+        "count": 14,
+        "description": "Slope Brick 45  2 x  2 Double Concave",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3048b.dat",
+        "count": 3,
+        "description": "Slope Brick 45  1 x  2 Triple",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3062b.dat",
+        "count": 6,
+        "description": "Brick  1 x  1 Round with Hollow Stud",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3069b.dat",
+        "count": 15,
+        "description": "Tile  1 x  2 with Groove",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3070b.dat",
+        "count": 1,
+        "description": "Tile  1 x  1 with Groove",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3297.dat",
+        "count": 2,
+        "description": "Slope Brick 33  3 x  4",
+        "physical_index_entry": true
+      },
+      {
+        "part": "33303.dat",
+        "count": 10,
+        "description": "Fence  1 x  4 x  2 Picket",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3455.dat",
+        "count": 2,
+        "description": "Arch  1 x  6",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3460.dat",
+        "count": 4,
+        "description": "Plate  1 x  8",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3622.dat",
+        "count": 9,
+        "description": "Brick  1 x  3",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3623.dat",
+        "count": 2,
+        "description": "Plate  1 x  3",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3660.dat",
+        "count": 4,
+        "description": "~Moved to 3660a",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3665.dat",
+        "count": 4,
+        "description": "~Moved to 3665a",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3666.dat",
+        "count": 2,
+        "description": "Plate  1 x  6",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3675.dat",
+        "count": 3,
+        "description": "Slope Brick 33  3 x  3 Double Convex",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3710.dat",
+        "count": 4,
+        "description": "Plate  1 x  4",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3747a.dat",
+        "count": 2,
+        "description": "Slope Brick 33  3 x  2 Inverted without Ribs between Studs",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3795.dat",
+        "count": 1,
+        "description": "Plate  2 x  6",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3853.dat",
+        "count": 4,
+        "description": "Window  1 x  4 x  3",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3855b.dat",
+        "count": 4,
+        "description": "Glass for Window  1 x  4 x  3 without Handle",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3857.dat",
+        "count": 1,
+        "description": "Baseplate 16 x 32 with Square Corners",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3941.dat",
+        "count": 6,
+        "description": "Brick  2 x  2 Round without Reinforcement",
+        "physical_index_entry": true
+      },
+      {
+        "part": "4070.dat",
+        "count": 8,
+        "description": "Brick  1 x  1 with Headlight",
+        "physical_index_entry": true
+      },
+      {
+        "part": "4343c01.dat",
+        "count": 1,
+        "description": "~Moved to 47899c01",
+        "physical_index_entry": true
+      },
+      {
+        "part": "6111.dat",
+        "count": 2,
+        "description": "Brick  1 x 10",
+        "physical_index_entry": true
+      },
+      {
+        "part": "6112.dat",
+        "count": 5,
+        "description": "Brick  1 x 12",
+        "physical_index_entry": true
+      },
+      {
+        "part": "6141.dat",
+        "count": 2,
+        "description": "Plate  1 x  1 Round",
+        "physical_index_entry": true
+      },
+      {
+        "part": "6636.dat",
+        "count": 1,
+        "description": "Tile  1 x  6",
+        "physical_index_entry": true
+      }
+    ],
+    "technic_named_placements": 0,
+    "technic_share": 0.0,
+    "legacy_parts": [
+      {
+        "part": "3023.dat",
+        "count": 6,
+        "description": "~Moved to 3023b",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3660.dat",
+        "count": 4,
+        "description": "~Moved to 3660a",
+        "physical_index_entry": true
+      },
+      {
+        "part": "3665.dat",
+        "count": 4,
+        "description": "~Moved to 3665a",
+        "physical_index_entry": true
+      },
+      {
+        "part": "4343c01.dat",
+        "count": 1,
+        "description": "~Moved to 47899c01",
+        "physical_index_entry": true
+      }
+    ],
+    "shape_fingerprint": "68b345cf2e13f740c2ab24d76bc4bdb26db66f78441b021275c9eb6579a1d519",
+    "recipe_fingerprint": "5b75749c7c54aa8484b77c55e53bf9ad8352b0d9799c9101457cbd9596d547ed",
+    "fingerprint_note": "Shape comparison ignores colour and global translation; rotations and mirrored geometry remain distinct.",
+    "parents": [],
+    "dependencies": [
+      {
+        "section": "4886 - main B.ldr",
+        "kind": "assembly",
+        "author": "Robert Paciorek [bercik]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "4886 - model B - building.ldr",
+        "kind": "assembly",
+        "author": "Robert Paciorek [bercik]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "4886 - model B - lamp.ldr",
+        "kind": "assembly",
+        "author": "Robert Paciorek [bercik]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "4886 - model B - tree 2.ldr",
+        "kind": "assembly",
+        "author": "Robert Paciorek [bercik]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      },
+      {
+        "section": "4886 - model B - tree 1.ldr",
+        "kind": "assembly",
+        "author": "Robert Paciorek [bercik]",
+        "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+      }
+    ],
+    "reachable": true
+  },
+  "attribution": [
+    {
+      "section": "4886 - main B.ldr",
+      "author": "Robert Paciorek [bercik]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "4886 - model B - building.ldr",
+      "author": "Robert Paciorek [bercik]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "4886 - model B - lamp.ldr",
+      "author": "Robert Paciorek [bercik]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "4886 - model B - tree 2.ldr",
+      "author": "Robert Paciorek [bercik]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    },
+    {
+      "section": "4886 - model B - tree 1.ldr",
+      "author": "Robert Paciorek [bercik]",
+      "license": "Redistributable under CCAL version 2.0 : see CAreadme.txt"
+    }
+  ],
+  "bounds": {
+    "min": [
+      -240.0,
+      -664.0,
+      -250.0
+    ],
+    "max": [
+      100.0,
+      -4.0,
+      400.0
+    ]
+  },
+  "size_ldu": [
+    340.0,
+    660.0,
+    650.0
+  ],
+  "size_studs_plates_studs": [
+    17.0,
+    82.5,
+    32.5
+  ],
+  "mesh_complete": true,
+  "mesh_diagnostics": [],
+  "raw_assembly_checks_passed": false,
+  "raw_diagnostic_counts": {
+    "header.missing": 1,
+    "part.alias_or_internal": 15,
+    "assembly.nonrigid": 8
+  },
+  "assembly_checks_passed": false,
+  "diagnostics": [
+    {
+      "code": "header.missing",
+      "severity": "warning",
+      "message": "Add a descriptive Name: header.",
+      "line_number": null,
+      "section": "preview-model-03b0edc49eb0a3bcd500777b.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 204,
+      "section": "ref-03b0edc49eb0a3bc-01-4886---model-B---building.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 206,
+      "section": "ref-03b0edc49eb0a3bc-01-4886---model-B---building.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 216,
+      "section": "ref-03b0edc49eb0a3bc-01-4886---model-B---building.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 240,
+      "section": "ref-03b0edc49eb0a3bc-01-4886---model-B---building.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 242,
+      "section": "ref-03b0edc49eb0a3bc-01-4886---model-B---building.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 284,
+      "section": "ref-03b0edc49eb0a3bc-01-4886---model-B---building.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 303,
+      "section": "ref-03b0edc49eb0a3bc-01-4886---model-B---building.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 305,
+      "section": "ref-03b0edc49eb0a3bc-01-4886---model-B---building.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 305,
+      "section": "ref-03b0edc49eb0a3bc-01-4886---model-B---building.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 307,
+      "section": "ref-03b0edc49eb0a3bc-01-4886---model-B---building.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 311,
+      "section": "ref-03b0edc49eb0a3bc-01-4886---model-B---building.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 313,
+      "section": "ref-03b0edc49eb0a3bc-01-4886---model-B---building.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 313,
+      "section": "ref-03b0edc49eb0a3bc-01-4886---model-B---building.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 330,
+      "section": "ref-03b0edc49eb0a3bc-01-4886---model-B---building.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 332,
+      "section": "ref-03b0edc49eb0a3bc-01-4886---model-B---building.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 559,
+      "section": "ref-03b0edc49eb0a3bc-01-4886---model-B---building.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 561,
+      "section": "ref-03b0edc49eb0a3bc-01-4886---model-B---building.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 747,
+      "section": "ref-03b0edc49eb0a3bc-03-4886---model-B---tree-2.ldr"
+    },
+    {
+      "code": "assembly.nonrigid",
+      "severity": "error",
+      "message": "Use a proper rotation: physical parts must not be scaled, sheared, or mirrored.",
+      "line_number": 752,
+      "section": "ref-03b0edc49eb0a3bc-03-4886---model-B---tree-2.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 755,
+      "section": "ref-03b0edc49eb0a3bc-03-4886---model-B---tree-2.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 757,
+      "section": "ref-03b0edc49eb0a3bc-03-4886---model-B---tree-2.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 829,
+      "section": "ref-03b0edc49eb0a3bc-04-4886---model-B---tree-1.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 831,
+      "section": "ref-03b0edc49eb0a3bc-04-4886---model-B---tree-1.ldr"
+    }
+  ],
+  "repairs": [],
+  "geometry": null,
+  "contacts_checked": false,
+  "bom_comparison": {
+    "matches": true,
+    "physical_placements": 353,
+    "leocad_placements": 353,
+    "differences": []
+  },
+  "views": [
+    "home",
+    "front",
+    "right",
+    "top"
+  ],
+  "artifacts": {
+    "source": "source.mpd",
+    "preview": "preview.mpd",
+    "manifest": "extraction.json"
+  },
+  "status": "adaptation_needed",
+  "visual_review": "pending",
+  "physical_validity": "not_proven",
+  "limitations": [
+    "Bounds describe the source local axes, including protrusions; they are not connection frames.",
+    "Preview colour resolves inherited 16; extraction retains original colours and authorship.",
+    "Passing checks or matching a BOM does not prove connectivity, stability or fit in a new model."
+  ],
+  "artifact_hashes": {
+    "source.mpd": "80dc2a5574020933da283aad4f599640be4255d5f2bde39c1a15d527e104794c",
+    "preview.mpd": "d4bcd77e03aba9d424cc639d7a3d30779cfaa628a795c2eaf82b568167cbb8db",
+    "extraction.json": "cbd11d77e2bd7d83f2bbf2cb631dd9af10ad862ee4ceb2a700c6fe861d82784f",
+    "renders/leocad-bom.csv": "451f34d8ecf581071d754f7a9e9b25b0c58e0047a1e6a36659d44acf0a04ccab",
+    "renders/home.png": "dae9955878359e9799e72bc12fe0b55b8b7d563d44848a1700fd2f9c9dc1672b",
+    "renders/front.png": "237e0915d67b664c513fc4f6c7f68ac27f445c65373a159bb167e61b4efa90df",
+    "renders/right.png": "43dacec7a9376aa2f845c471cdc6d0db1938143022515b942ca91df354d05307",
+    "renders/top.png": "ccfcbf09e6f8665b629fa3e273a08d0ff0b0fbbc7df24a0279885e1e2fc0343d"
+  }
+}
