@@ -173,6 +173,8 @@ async def t_publish_model(ctx: ToolContext, path: str, name: str | None = None) 
     editable = sculpture.read(source)
     selected = (ctx.store.get_chat(ctx.chat_id).get("options") or {}).get("build_style") == "sculpture"
     editable_bytes = [p.read_bytes() for p in sculpture.siblings(source)] if editable and selected else None
+    mesh = sculpture.mesh_source(source) if editable_bytes else None
+    mesh_bytes = mesh.read_bytes() if mesh else None
     revision = review / "model.mpd"
     revision.write_bytes(source_bytes)
     report = review / "validation.json"
@@ -192,6 +194,8 @@ async def t_publish_model(ctx: ToolContext, path: str, name: str | None = None) 
     if editable_bytes:
         for destination, data in zip(sculpture.siblings(target), editable_bytes):
             destination.write_bytes(data)
+        if mesh_bytes is not None:
+            target.with_suffix('.source.glb').write_bytes(mesh_bytes)
     ctx.emit("progress", {"summary": "Rendering the published model and exporting its parts list."})
     gallery.publishing.add(target.resolve())
     try:

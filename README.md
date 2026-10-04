@@ -14,6 +14,13 @@ with a preview, parts list, connected build steps and **Sculpture editor** cells
 Choose **Edit voxels** to adjust it, or open it in the existing viewer/player and
 download the MPD. No provider login is needed for an import.
 
+In the **Sculpture editor**, use **Resize model** to shrink or grow the longest
+voxel world dimension. Imports resize from their retained original GLB, so growing
+again can recover mesh/texture detail. Saved voxel edits resize from their current
+cells and colors. Each resize repacks and checks connectivity, saves a new model
+version and leaves the resized cells editable. Save or undo pending edits before
+resizing. Resize retains the original model; grid and occupied-cell limits apply.
+
 Use an uncompressed, self-contained glTF 2.0 binary with embedded PNG/JPEG textures,
 up to 16 MB, 100,000 instanced triangles and 4 megapixels per texture. The longest
 manual grid dimension can be 16, 24, 32 or 48 studs; lower detail converts faster

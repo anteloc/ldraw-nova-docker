@@ -9,10 +9,24 @@ type EditorScene = Pick<SculptureScene, "update" | "setTool" | "fit" | "dispose"
 type SceneFactory = (host: HTMLDivElement, onEdit: (index: number, normal: number[]) => void) => EditorScene;
 const defaultSceneFactory: SceneFactory = (host, onEdit) => new SculptureScene(host, onEdit);
 
-export default function SculptureEditor({ model, onClose, createScene = defaultSceneFactory }: {
+function trackResize(event: string, properties: Record<string, number | string> = {}) {
+  (window as Window & { posthog?: { capture: (event: string, properties: object) => void } })
+    .posthog?.capture(event, properties);
+}
+
+function longestDimension(cells: Cell[]): number {
+  const lower = [Infinity, Infinity, Infinity], upper = [-Infinity, -Infinity, -Infinity];
+  for (const cell of cells) for (let axis = 0; axis < 3; axis++) {
+    lower[axis] = Math.min(lower[axis], cell[axis]); upper[axis] = Math.max(upper[axis], cell[axis]);
+  }
+  return cells.length ? Math.max(...upper.map((value, axis) => value - lower[axis] + 1)) : 8;
+}
+
+export default function SculptureEditor({ model: initialModel, onClose, createScene = defaultSceneFactory }: {
   model: ModelFile; onClose: () => void; createScene?: SceneFactory;
 }) {
   const { openViewer, refreshChats } = useApp();
+  const [model, setModel] = useState(initialModel);
   const [data, setData] = useState<SculptureData | null>(null);
   const [cells, setCells] = useState<Cell[]>([]);
   const [tool, setTool] = useState<EditTool>("orbit");
@@ -20,6 +34,9 @@ export default function SculptureEditor({ model, onClose, createScene = defaultS
   const [history, setHistory] = useState<{ undo: Cell[][]; redo: Cell[][] }>({ undo: [], redo: [] });
   const [error, setError] = useState("");
   const [busy, setBusy] = useState(false);
+  const [resizing, setResizing] = useState(false);
+  const [resolution, setResolution] = useState(8);
+  const [resizeStatus, setResizeStatus] = useState("");
   const [saved, setSaved] = useState<{ model: ModelFile; support_voxels: number } | null>(null);
   const host = useRef<HTMLDivElement>(null);
   const dialog = useRef<HTMLDivElement>(null);
@@ -31,11 +48,11 @@ export default function SculptureEditor({ model, onClose, createScene = defaultS
 
   useEffect(() => {
     let alive = true;
-    api.sculpture(model.file).then(value => {
-      if (alive) { setData(value); setCells(value.voxels); setColour(value.voxels[0][3]); }
+    api.sculpture(initialModel.file).then(value => {
+      if (alive) { setModel(initialModel); setData(value); setCells(value.voxels); setColour(value.voxels[0][3]); setResolution(Math.max(8, longestDimension(value.voxels))); }
     }, e => { if (alive) setError((e as Error).message); });
     return () => { alive = false; };
-  }, [model.file]);
+  }, [initialModel.file]);
 
   useEffect(() => {
     const previous = document.activeElement as HTMLElement | null;
@@ -45,7 +62,7 @@ export default function SculptureEditor({ model, onClose, createScene = defaultS
     const key = (e: KeyboardEvent) => {
       if (e.key === "Escape") { e.preventDefault(); closeRef.current(); }
       if (e.key === "Tab") {
-        const items = Array.from(dialog.current?.querySelectorAll<HTMLElement>('button:not(:disabled), select:not(:disabled), a[href]') || []);
+        const items = Array.from(dialog.current?.querySelectorAll<HTMLElement>('button:not(:disabled), input:not(:disabled), select:not(:disabled), a[href]') || []);
         const first = items[0], last = items[items.length - 1];
         if (e.shiftKey && (document.activeElement === first || document.activeElement === dialog.current)) { e.preventDefault(); last?.focus(); }
         else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first?.focus(); }
@@ -92,6 +109,22 @@ export default function SculptureEditor({ model, onClose, createScene = defaultS
     finally { setBusy(false); }
   }
   const palette = data?.palette || [];
+  async function resize() {
+    if (!data || busy || dirty) return;
+    setBusy(true); setResizing(true); setError(""); setResizeStatus("");
+    trackResize("sculpture_resize_started", { resolution, source: data.resize_source || "voxels" });
+    try {
+      const result = await api.resizeSculpture(model.file, resolution, data.revision);
+      setModel(result.model); setData({ ...data, voxels: result.voxels, revision: result.revision, resize_source: result.resize_source });
+      setCells(result.voxels); setHistory({ undo: [], redo: [] }); setSaved(null);
+      setResolution(Math.max(8, longestDimension(result.voxels)));
+      setResizeStatus(`Resized to ${longestDimension(result.voxels)} cells · ${result.brick_count.toLocaleString()} bricks. Saved a new version; your original is in My Models.`);
+      refreshChats(); window.dispatchEvent(new Event("models-changed"));
+      trackResize("sculpture_resize_completed", { resolution, bricks: result.brick_count, support_voxels: result.support_voxels });
+    } catch (failure) {
+      setError((failure as Error).message); trackResize("sculpture_resize_failed", { resolution });
+    } finally { setBusy(false); setResizing(false); }
+  }
   const used = new Set(cells.map(c => c[3]));
   const choices = palette.filter(c => used.has(c.code) || [0, 1, 2, 4, 6, 7, 14, 15].includes(c.code));
   const enabled = !!data && !busy && !saved;
@@ -116,6 +149,14 @@ export default function SculptureEditor({ model, onClose, createScene = defaultS
       <div className="sculpture-editor-footer">
         {error && <p className="danger-text" role="alert">{error}</p>}
         {saved ? <><p role="status">Saved a new model version.{saved.support_voxels > 0 ? ` Added ${saved.support_voxels} support cells for connectivity.` : ''} Your original is in My Models.</p><button className="primary" onClick={() => { if (saved.model.model_url) openViewer({ modelUrl: saved.model.model_url, title: saved.model.file, parts: saved.model.parts, mode: 'viewer' }); onClose(); }}>View saved model</button></> : <>
+          <div className="sculpture-resize" role="group" aria-label="Resize model">
+            <div><strong>Resize model</strong><div className="muted small">{dirty ? "Save or undo your edits before resizing." : data?.resize_source === 'mesh' ? "Uses the original GLB to recover detail at larger sizes." : "Resamples this model’s saved voxels and colors."}</div></div>
+            <div className="sculpture-resize-controls"><label className="small" htmlFor="sculpture-size">Longest dimension <output>{resolution} cells</output></label>
+              <input id="sculpture-size" type="range" aria-label="Model size" min={8} max={96} step={1} value={resolution} disabled={!enabled || dirty} onChange={event => { const size = Number(event.target.value); setResolution(size); trackResize("sculpture_resize_size_changed", { resolution: size }); }} />
+              <button disabled={!enabled || dirty || resolution === longestDimension(cells)} onClick={resize}>{resizing ? 'Resizing…' : 'Resize model'}</button></div>
+          </div>
+          {resizeStatus && <p className="small" role="status">{resizeStatus}</p>}
+          {resizing && <p className="muted small" role="status">Rebuilding bricks, repairing connections and rendering. Keep this window open.</p>}
           <p className="muted small">{tool === 'orbit' ? 'Drag to rotate. Scroll or pinch to zoom.' : `Click or tap a cell to ${tool === 'add' ? 'add to its face' : tool === 'paint' ? 'paint it' : 'erase it'}. Right-drag to rotate; use two fingers on touch.`} {cells.length.toLocaleString()} cells.</p>
           <div className="sculpture-save-row"><span className="muted small">Saving repairs connections and rebuilds instructions.</span><button className="primary" disabled={!enabled || !dirty} onClick={save}>{busy ? <><span className="spinner" aria-hidden /> Rebuilding model…</> : 'Save model'}</button></div>
         </>}

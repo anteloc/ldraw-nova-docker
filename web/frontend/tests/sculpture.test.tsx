@@ -9,6 +9,7 @@ test("face additions use integer brick layers and preserve all existing cells", 
   assert.equal(editCells(cells,0,"add",1,[0,0,1]),cells);
   assert.deepEqual(editCells(cells,1,"add",1,[.9,.2,.1]),[...cells,[1,0,1,1]]);
 });
+
 test("paint and erase only the selected cell; orbit does not edit", () => {
   assert.deepEqual(editCells(cells,1,"paint",14,[]),[[0,0,0,4],[0,0,1,14]]);
   assert.deepEqual(editCells(cells,1,"erase",14,[]),[[0,0,0,4]]);
@@ -80,4 +81,53 @@ test("saving displays the server's repaired cells and opens that saved model", a
   } finally {
     await act(async () => root.unmount()); element.remove();
   }
+});
+
+test('resize uses current saved revision, retries failures and keeps the resized model editable',async t=>{
+  const host=document.createElement('div');document.body.append(host);const root=createRoot(host);
+  const initial:Cell[]=[[0,0,0,4],[7,0,1,4]],resized:Cell[]=[[0,0,0,4],[9,0,1,4]];
+  const model:any={file:'import.mpd',description:'Imported model'};
+  let pick:(index:number,normal:number[])=>void=()=>assert.fail('No scene');
+  const updates:Cell[][]=[];let attempts=0,closed=0;
+  let finish:(value:any)=>void=()=>assert.fail('Not resizing');
+  const events:any[]=[];
+  Object.assign(window,{posthog:{capture(event:string,properties:object){events.push({event,properties});}}});
+  t.mock.method(api,'sculpture',async()=>({voxels:initial,revision:'original',resize_source:'mesh',palette:[]}));
+  t.mock.method(api,'resizeSculpture',async(file:string,resolution:number,revision:string)=>{
+    assert.equal(file,'import.mpd');assert.equal(resolution,10);assert.equal(revision,'original');attempts++;
+    if(attempts===1)throw new Error('Choose a smaller size');
+    return new Promise(resolve=>{finish=resolve;});
+  });
+  t.mock.method(api,'saveSculpture',async(file:string,rows:Cell[],revision:string)=>{
+    assert.equal(file,'resized.mpd');assert.equal(revision,'resized-revision');assert.equal(rows.at(-1)![0],10);
+    return {model:{file:'edited.mpd'},voxels:rows,support_voxels:0} as any;
+  });
+  const factory=(_host:HTMLElement,onPick:typeof pick)=>{pick=onPick;return{update(rows:Cell[]){updates.push(rows);},setTool(){},fit(){},dispose(){}};};
+  try{
+    await act(async()=>root.render(<AppContext.Provider value={{refreshChats(){},openViewer(){}} as any}><SculptureEditor model={model} createScene={factory} onClose={()=>closed++}/></AppContext.Provider>));
+    const dialog=document.querySelector('[aria-label="Sculpture editor"]')!;
+    const button=(label:string)=>[...dialog.querySelectorAll('button')].find(b=>b.textContent===label)!;
+    const slider=dialog.querySelector('input[type="range"]') as HTMLInputElement;
+    assert.equal(slider.value,'8');assert.match(dialog.textContent!,/original GLB/);
+    await act(async()=>{
+      Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype,'value')!.set!.call(slider,'10');
+      slider.dispatchEvent(new Event('input',{bubbles:true}));
+    });
+    await act(async()=>button('Resize model').click());
+    assert.match(dialog.querySelector('[role="alert"]')!.textContent!,/smaller size/);
+    await act(async()=>button('Resize model').click());
+    assert.equal(slider.disabled,true);
+    await act(async()=>document.dispatchEvent(new window.KeyboardEvent('keydown',{key:'Escape'})));
+    assert.equal(closed,0);
+    await act(async()=>finish({model:{file:'resized.mpd'},voxels:resized,revision:'resized-revision',resize_source:'mesh',brick_count:30,support_voxels:4}));
+    assert.match(dialog.querySelector('[role="status"]')!.textContent!,/10 cells · 30 bricks/);
+    assert.deepEqual(updates.at(-1),resized);
+    assert.equal(button('Resize model').disabled,true);
+    await act(async()=>button('Add').click());await act(async()=>pick(1,[1,0,0]));
+    assert.match(dialog.textContent!,/Save or undo/);assert.equal(slider.disabled,true);
+    await act(async()=>button('Save model').click());
+    assert.equal(events.filter(e=>e.event==='sculpture_resize_started').length,2);
+    assert(events.some(e=>e.event==='sculpture_resize_completed'&&e.properties.bricks===30));
+    assert(events.every(e=>!('file' in e.properties)&&!('filename' in e.properties)));
+  }finally{await act(async()=>root.unmount());host.remove();delete (window as any).posthog;}
 });

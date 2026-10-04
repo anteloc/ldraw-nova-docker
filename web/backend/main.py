@@ -552,6 +552,14 @@ class SculptureEdit(BaseModel):
     revision: str
 
 
+class SculptureResize(BaseModel):
+    resolution: StrictInt = Field(ge=8, le=96)
+    revision: str
+
+
+_sculpture_resize_lock = asyncio.Lock()
+
+
 _glb_import_lock = asyncio.Lock()
 
 
@@ -655,6 +663,54 @@ async def sculpture_save(filename: str, body: SculptureEdit):
             "support_voxels": report.get("interior_support_voxels", 0) + report.get("exterior_support_voxels", 0)}
 
 
+@app.post("/api/models/{filename}/sculpture/resize")
+async def sculpture_resize(filename: str, body: SculptureResize):
+    import uuid
+    import tools
+    path, original = editable_model(filename)
+    if body.revision != original['revision']:
+        raise HTTPException(409, "This model changed. Reopen the sculpture editor before resizing.")
+    if _sculpture_resize_lock.locked():
+        raise HTTPException(429, "Another sculpture is being resized. Try again when it finishes.")
+    async with _sculpture_resize_lock:
+        mesh = sculpture.mesh_source(path)
+        # Capture the source before awaiting conversion. Edited models have no
+        # mesh binding, so resizing starts from their current saved cells.
+        source_bytes = mesh.read_bytes() if mesh else json.dumps({'voxels': original['voxels']}).encode()
+        store = get_store()
+        chat = store.create_chat()
+        store.update_chat(chat['id'], title=f"Resize {path.stem}", options={'build_style': 'sculpture'})
+        store.add_message(chat['id'], {'role': 'user', 'content': f"Resize {path.stem} to {body.resolution} cells on its longest axis."})
+        ctx = tools.ToolContext(chat['id'], store, lambda *_: None)
+        stem = 'resize-' + uuid.uuid4().hex[:12]
+        source = ctx.work_dir / (stem + ('.glb' if mesh else '.voxels.json'))
+        source.parent.mkdir(parents=True, exist_ok=True)
+        source.write_bytes(source_bytes)
+        sandbox.give_to_agent(source.parent)
+        sandbox.give_to_agent(source)
+        await tools.t_run_toolkit(ctx, ['glb-sculpture' if mesh else 'resize-sculpture', 'output/' + source.name,
+            '--resolution', str(body.resolution), '--output', 'output/' + stem + '.mpd',
+            '--title', gallery.description_of(path) or path.stem, '--report', 'output/' + stem + '.checks.json'], timeout=1800)
+        report_path = ctx.work_dir / (stem + '.checks.json')
+        report = json.loads(report_path.read_text()) if report_path.is_file() else {}
+        if not report.get('checks_passed'):
+            raise HTTPException(422, report.get('error') or "Resize could not finish. Choose a smaller size or adjust the sculpture and retry.")
+        published = await tools.t_publish_model(ctx, 'output/' + stem + '.mpd', path.stem + ' resized')
+        if not published.models:
+            raise HTTPException(422, "The resized model could not be published. Your original is preserved.")
+        target = store.resolve(chat['id'], published.models[0]['model'])
+        repaired = sculpture.read(target)
+        if repaired is None:
+            raise HTTPException(422, "The resized model has no matching editable voxels. Your original is preserved.")
+        supports = report.get('interior_support_voxels', 0) + report.get('exterior_support_voxels', 0)
+        store.add_message(chat['id'], {'role': 'assistant',
+            'content': f"Resized to {body.resolution} cells with {report['brick_count']} bricks and {supports} added support cells. "
+                       "The sculpture has one stud-connected component and connected build steps.",
+            '_models': [published.models[0]['id']]})
+        return {'model': model_info(target), 'chat_id': chat['id'], **repaired,
+                'brick_count': report['brick_count'], 'support_voxels': supports}
+
+
 @app.delete("/api/models/{filename}")
 async def models_delete(filename: str):
     root = settings.GENERATED_DIR.resolve()
@@ -670,7 +726,7 @@ async def models_delete(filename: str):
     # Notes/previews are shared if car.mpd and car.ldr both exist: retain those.
     shared = any(p != model and p.stem == model.stem for p in gallery.collection(root))
     artifacts = [] if shared else [model.with_suffix(ext) for ext in (".png", ".csv", ".md", ".glb")]
-    targets = [model, *artifacts, *sculpture.siblings(model), *glb.cache_files(model)]
+    targets = [model, *artifacts, *sculpture.siblings(model), model.with_suffix('.source.glb'), *glb.cache_files(model)]
     deleted = []
     for path in targets:
         if path.is_file() and not path.is_symlink():

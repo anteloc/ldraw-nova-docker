@@ -11,6 +11,24 @@ def siblings(model: Path) -> tuple[Path, Path]:
     return model.with_suffix('.repaired.voxels.json'), model.with_suffix('.sculpture.json')
 
 
+def mesh_source(model: Path) -> Path | None:
+    """Only use a bounded, hash-bound source beside a matching saved revision."""
+    source = model.with_suffix('.source.glb')
+    marker = model.with_suffix('.sculpture.json')
+    try:
+        if any(p.is_symlink() or not p.is_file() for p in (model, marker, source)):
+            return None
+        if model.stat().st_size > 32 * 1024 * 1024 or marker.stat().st_size > 1024 or source.stat().st_size > 16 * 1024 * 1024:
+            return None
+        meta = json.loads(marker.read_text())
+        if (meta.get('version') != 1 or meta.get('model_sha256') != hashlib.sha256(model.read_bytes()).hexdigest()
+                or meta.get('source_glb_sha256') != hashlib.sha256(source.read_bytes()).hexdigest()):
+            return None
+        return source
+    except (OSError, ValueError, TypeError, AttributeError):
+        return None
+
+
 def validate_rows(rows: object) -> None:
     if not isinstance(rows, list) or not 1 <= len(rows) <= 65536:
         raise ValueError('Keep between 1 and 65,536 cells in the sculpture.')
@@ -45,7 +63,7 @@ def read(model: Path) -> dict | None:
             return None
         data = json.loads(voxels.read_text())
         validate_rows(data.get('voxels'))
-        return {**data, 'revision': meta['model_sha256']}
+        return {**data, 'revision': meta['model_sha256'], 'resize_source': 'mesh' if mesh_source(model) else 'voxels'}
     except (OSError, ValueError, TypeError, AttributeError):
         return None
 
