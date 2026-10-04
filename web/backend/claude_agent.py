@@ -21,9 +21,9 @@ from tools import ToolContext
 
 
 async def run_claude(store, run, entry, save, execute, prompt, use_tools):
-    from agent import MAX_STEPS, available_tools, llm_history, mode_prompt
+    from agent import available_tools, llm_history, mode_prompt, sculpture_mode, step_limit
 
-    ctx = ToolContext(chat_id=run.chat_id, store=store, emit=run.emit)
+    ctx = ToolContext(chat_id=run.chat_id, store=store, emit=run.emit, sculpture=run.sculpture)
     sdk_tools = []
     for schema in available_tools(run.options) if use_tools else []:
         fn = schema["function"]
@@ -91,7 +91,7 @@ async def run_claude(store, run, entry, save, execute, prompt, use_tools):
         strict_mcp_config=True,
         mcp_servers={"ldraw": create_sdk_mcp_server(name="ldraw", tools=sdk_tools)} if sdk_tools else {},
         allowed_tools=[f"mcp__ldraw__{t.name}" for t in sdk_tools],
-        permission_mode="dontAsk", max_turns=MAX_STEPS, effort=run.options.get("effort"),
+        permission_mode="dontAsk", max_turns=step_limit(run.options), effort=run.options.get("effort"),
         include_partial_messages=True, max_buffer_size=32 * 1024 * 1024,
     )
     async with ClaudeSDKClient(options=options) as client:
@@ -110,4 +110,6 @@ async def run_claude(store, run, entry, save, execute, prompt, use_tools):
                     save({"role": "assistant", "content": text, "_llm_model": model})
                     run.draft = ""
             elif isinstance(event, ResultMessage) and event.is_error:
+                if sculpture_mode(run.options) and event.subtype == "error_max_turns" and run.sculpture.get("best"):
+                    break
                 raise RuntimeError("Claude runtime could not complete the turn")

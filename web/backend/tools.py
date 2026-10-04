@@ -14,6 +14,7 @@ import json
 import re
 import shutil
 import time
+from collections import Counter
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any, Awaitable, Callable
@@ -40,6 +41,7 @@ class ToolContext:
     chat_id: str
     store: ChatStore
     emit: Callable[[str, dict], None]
+    sculpture: dict = field(default_factory=dict)
 
     @property
     def work_dir(self) -> Path:
@@ -188,7 +190,12 @@ async def t_publish_model(ctx: ToolContext, path: str, name: str | None = None) 
     ctx.emit("progress", {"summary": "Rendering the published model and exporting its parts list."})
     gallery.publishing.add(target.resolve())
     try:
-        rendered = await run_command(ctx, ["./ldraw-agent", "render", str(target), "--outdir", str(review),
+        render_source = target
+        if ctx.sculpture:
+            render_source = review / "complete-model.mpd"
+            render_source.write_bytes(b"\n".join(line for line in source_bytes.splitlines()
+                                                if line.strip().upper() != b"0 STEP") + b"\n")
+        rendered = await run_command(ctx, ["./ldraw-agent", "render", str(render_source), "--outdir", str(review),
                                           "--views", "home"], 600)
     finally:
         gallery.publishing.discard(target.resolve())
@@ -263,6 +270,87 @@ async def t_write_file(ctx: ToolContext, path: str, content: str, append: bool =
     return ToolResult(f"{'Appended to' if append else 'Wrote'} {file} ({file.stat().st_size} bytes)")
 
 
+# Sculpture turns expose a design submission and acceptance, not arbitrary commands.
+async def t_submit_brick_design(ctx: ToolContext, grid: dict, shapes: list, title: str = "Sculpture model",
+                               layer_unit: str = "brick", hollow: bool = True) -> ToolResult:
+    state = ctx.sculpture
+    if state.get("finished"):
+        return ToolResult("The sculpture is finished. Respond with its model card; do not rebuild it.")
+    if state.get("failed"):
+        raise ToolError("No buildable design remained after three failed attempts. Start a new turn to try another design.")
+    state["submissions"] = state.get("submissions", 0) + 1
+    if state["submissions"] > 6:
+        raise ToolError("The design-attempt limit was reached. Accept the last successful design.")
+    stem = f"sculpture-{state['submissions']}"
+    design = dict(grid=grid, shapes=shapes, title=title, layer_unit=layer_unit, hollow=hollow)
+    await t_write_file(ctx, f"{stem}.design.json", json.dumps(design))
+    report_path = resolve_path(ctx, f"{stem}.preview.json", write=True)
+    argv = ["./ldraw-agent", "sculpture", f"output/{stem}.design.json",
+            "--output", f"output/{stem}.voxels.json", "--preview", f"output/{stem}.png",
+            "--report", f"output/{stem}.preview.json"]
+    ctx.emit("progress", {"summary": "Checking the voxel design and preparing two preview views."})
+    checked = await run_command(ctx, argv, 300)
+    report = json.loads(report_path.read_text()) if report_path.is_file() else {}
+    if checked.exit_code != 0 or not report.get("checks_passed"):
+        state["failures"] = state.get("failures", 0) + 1
+        if state["failures"] < 3:
+            return ToolResult("Error: Build failed: " + report.get("error", checked.as_text()) + " Submit a corrected complete design.")
+        if state.get("best"):
+            return await t_accept_design(ctx)
+        # Last attempt: use the preview builder's recolour/removal fallback.
+        repaired = await run_command(ctx, [*argv, "--repair"], 300)
+        report = json.loads(report_path.read_text()) if report_path.is_file() else {}
+        if repaired.exit_code != 0 or not report.get("checks_passed"):
+            state["failed"] = True
+            raise ToolError(report.get("error", "No buildable voxel design was produced"))
+    state["best"] = dict(voxels=f"{stem}.voxels.json", title=re.sub(r"[\r\n]+", " ", title)[:120])
+    if state.get("reviewed") or state.get("failures", 0) >= 3:
+        return await t_accept_design(ctx)
+    state["reviewed"] = True
+    viewed = await t_view_image(ctx, f"{stem}.png")
+    viewed.content = (json.dumps(report, indent=2) + "\nReview both views against the request. "
+                      "Call accept_design if it looks right, or submit one improved complete design. "
+                      "The preview piece count is an estimate; final packing may differ.")
+    return viewed
+
+
+async def t_accept_design(ctx: ToolContext) -> ToolResult:
+    state = ctx.sculpture
+    if state.get("finished"):
+        return ToolResult("The sculpture is already published. Respond with its model card.")
+    best = state.get("best")
+    if not best:
+        raise ToolError("No successful voxel design to accept yet. Submit a complete design.")
+    ctx.emit("progress", {"summary": "Converting the accepted voxels into rectangular bricks."})
+    if state.get("conversion_error"):
+        raise ToolError(state["conversion_error"])
+    if not state.get("converted"):
+        converted = await run_command(ctx, ["./ldraw-agent", "sculpture", f"output/{best['voxels']}",
+                                           "--output", "output/sculpture.mpd", "--title", best["title"],
+                                           "--report", "output/sculpture-checks.json"], 300)
+        report_path = resolve_path(ctx, "sculpture-checks.json", write=True)
+        report = json.loads(report_path.read_text()) if report_path.is_file() else {}
+        if converted.exit_code != 0 or not report.get("checks_passed") or report.get("brick_count", 0) > 5000:
+            state["conversion_error"] = "Final conversion failed: " + ("Model exceeds 5000 pieces" if report.get("brick_count", 0) > 5000 else report.get("error", converted.as_text()))
+            raise ToolError(state["conversion_error"])
+        state["converted"] = report
+    report = state["converted"]
+    published = await t_publish_model(ctx, "sculpture.mpd", best["title"])
+    if not published.models:
+        return published
+    state["finished"] = True
+    info = json.loads(published.content)
+    report["parts"] = dict(Counter(line.split()[14].lower()
+                                   for line in resolve_path(ctx, "sculpture.mpd").read_text().splitlines()
+                                   if line.startswith("1 ")))
+    info["sculpture"] = report
+    if info.get("preview_path"):
+        published.images = (await t_view_image(ctx, info["preview_path"])).images
+    info["note"] = "The app completed final conversion, validation, preview and parts-list export. Review the returned final image, then reply briefly with the card_url, final brick count and any unmet request."
+    published.content = json.dumps(info, indent=2)
+    return published
+
+
 # --- registry --------------------------------------------------------------
 
 def _fn(name: str, description: str, properties: dict, required: list[str]) -> dict:
@@ -317,24 +405,52 @@ TOOLS: dict[str, tuple[dict, Callable[..., Awaitable[ToolResult]]]] = {
         ["path", "content"]), t_write_file),
 }
 
+SCULPTURE_TOOLS = {
+    "submit_brick_design": (_fn("submit_brick_design",
+        "Submit a complete coloured voxel design for connectivity feedback and two preview views. "
+        "Three failed attempts and one visual revision are allowed; the last successful design is then converted and published automatically.",
+        {"title": {"type": "string", "maxLength": 120},
+         "layer_unit": {"type": "string", "enum": ["brick"]},
+         "grid": {"type": "object", "properties": {
+             "width": {"type": "integer", "minimum": 1, "maximum": 64},
+             "depth": {"type": "integer", "minimum": 1, "maximum": 64},
+             "layers": {"type": "integer", "minimum": 1, "maximum": 96}},
+             "required": ["width", "depth", "layers"]},
+         "hollow": {"type": "boolean"},
+         "shapes": {"type": "array", "items": {"type": "object"},
+                    "description": "Ordered box, ellipsoid, cylinder or layer operations."}},
+        ["grid", "shapes"]), t_submit_brick_design),
+    "accept_design": (_fn("accept_design", "Accept the latest successful voxel design. The app converts it once, validates, renders and publishes its model card.",
+                          {}, []), t_accept_design),
+}
+SCULPTURE_SCHEMAS = [schema for schema, _fn_ in SCULPTURE_TOOLS.values()]
+
 TOOL_SCHEMAS = [schema for schema, _fn_ in TOOLS.values()]
 
 
 async def dispatch(ctx: ToolContext, name: str, arguments: str | dict) -> ToolResult:
-    if name not in TOOLS:
+    registry = {**TOOLS, **SCULPTURE_TOOLS}
+    if name not in registry:
         return ToolResult(f"Error: unknown tool {name!r}. Available: {', '.join(TOOLS)}")
     try:
         args = json.loads(arguments or "{}") if isinstance(arguments, str) else dict(arguments or {})
     except json.JSONDecodeError as exc:
         return ToolResult(f"Error: tool arguments are not valid JSON ({exc}). Call {name} again with valid JSON.")
-    _schema, fn = TOOLS[name]
+    _schema, fn = registry[name]
     try:
         inspect.signature(fn).bind(ctx, **args)
     except TypeError as exc:
         return ToolResult(f"Error: bad arguments for {name}: {exc}")
+    if name in SCULPTURE_TOOLS:
+        if ctx.sculpture.get("busy"):
+            return ToolResult("Error: A sculpture operation is already running. Submit exactly one design and wait for its preview.")
+        ctx.sculpture["busy"] = True
     try:
         return await fn(ctx, **args)
     except ToolError as exc:
         return ToolResult(f"Error: {exc}")
     except Exception as exc:  # noqa: BLE001 - a failing tool must not end the turn
         return ToolResult(f"Error: {name} failed: {exc.__class__.__name__}: {exc}")
+    finally:
+        if name in SCULPTURE_TOOLS:
+            ctx.sculpture.pop("busy", None)

@@ -18,6 +18,12 @@ ordering. It uses the paired
 ordinary part-based generation remains the default. Build both companion branches
 together until sculpture support is included in a matching release.
 
+The selected model submits coloured voxel shapes, receives connectivity feedback and two
+preview views, and accepts or revises the design once. After at most three failed
+designs, the app keeps the last successful design or repairs the final attempt.
+It then converts the accepted solid voxels, validates, renders and publishes a
+model card automatically. Ordinary generation keeps its existing tools and loop.
+
 Hover or tap the info icon for sculpture-mode help.
 
 ## Overview

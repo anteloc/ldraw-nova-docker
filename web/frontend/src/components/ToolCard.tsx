@@ -13,6 +13,8 @@ const LABELS: Record<string, string> = {
   read_file: "Read file",
   run_toolkit: "LDraw Nova",
   publish_model: "Published model",
+  submit_brick_design: "Voxel design",
+  accept_design: "Finished sculpture",
   view_image: "Reviewed image",
   report_progress: "Progress",
 };
@@ -36,6 +38,8 @@ function summary(name: string, args: Record<string, unknown>): string {
       return pick("code").split("\n").find((l) => l.trim() && !l.trim().startsWith("#"))?.trim() ?? "";
     case "run_shell":
       return pick("command");
+    case "submit_brick_design":
+      return pick("title");
     case "save_model":
       return pick("name");
     case "render_model":

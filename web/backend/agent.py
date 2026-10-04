@@ -25,7 +25,7 @@ import model_catalog
 import settings
 import toolkit
 from store import ChatStore
-from tools import TOOL_SCHEMAS, ToolContext, ToolResult, dispatch
+from tools import SCULPTURE_SCHEMAS, TOOL_SCHEMAS, ToolContext, ToolResult, dispatch
 
 log = logging.getLogger("agent")
 
@@ -49,6 +49,7 @@ class Run:
     started_at: float = field(default_factory=time.time)
     last_event_at: float = field(default_factory=time.time)
     phase: str = "Preparing the build workspace"
+    sculpture: dict = field(default_factory=dict)
 
     def emit(self, event: str, data: dict) -> None:
         self.last_event_at = time.time()
@@ -110,6 +111,12 @@ def work_listing(work_dir: Path) -> str:
 
 def system_prompt(store: ChatStore, chat_id: str) -> str:
     work_dir = store.work_dir(chat_id)
+    options = ((store.get_chat(chat_id) or {}).get("options") or {})
+    if options.get("build_style") == "sculpture":
+        guide = toolkit.root() / "docs/agent/sculptures.md"
+        if not guide.is_file():
+            raise ValueError("This toolkit does not support sculpture mode; update the paired ldraw-nova checkout and rebuild")
+        return guide.read_text().split("For standalone CLI use", 1)[0]
     text = (settings.PROMPTS_DIR / "system.md").read_text()
     prompt = (text.replace("{work_dir}", str(work_dir))
                 .replace("{work_listing}", work_listing(work_dir))
@@ -118,11 +125,6 @@ def system_prompt(store: ChatStore, chat_id: str) -> str:
                 .replace("{artifact_base}", f"/api/chats/{chat_id}/artifacts")
                 .replace("{toolkit_instructions}", toolkit.instructions())
                 .replace("{toolkit_guides}", toolkit.builder_guides()))
-    if ((store.get_chat(chat_id) or {}).get("options") or {}).get("build_style") == "sculpture":
-        guide = toolkit.root() / "docs/agent/sculptures.md"
-        if not guide.is_file():
-            raise ValueError("This toolkit does not support sculpture mode; update the paired ldraw-nova checkout and rebuild")
-        prompt += "\n\nThe user selected Sculpture model mode for this turn. Follow this workflow in full:\n" + guide.read_text()
     notes = work_dir / "NOTES.md"
     if notes.is_file() and not notes.is_symlink():
         with notes.open(errors="replace") as handle:
@@ -242,7 +244,7 @@ async def start_turn(store: ChatStore, chat_id: str, text: str, llm_model_id: Op
     run = _runs.get(chat_id) or Run(chat_id)
     _runs[chat_id] = run
     run.draft, run.tools_running = "", {}
-    run.options, run.approvals = options, {}
+    run.options, run.approvals, run.sculpture = options, {}, {}
     run.started_at = run.last_event_at = time.time()
     run.phase = "Preparing the build workspace"
     run.task = asyncio.create_task(_run_turn(store, run, entry))
@@ -288,7 +290,7 @@ async def _run_turn(store: ChatStore, run: Run, entry: dict) -> None:
     caps = llm_config.capabilities(entry)
     vision = caps["vision"] is True
     use_tools = caps["tools"] is not False and run.options.get("mode") != "chat"
-    ctx = ToolContext(chat_id=chat_id, store=store, emit=run.emit)
+    ctx = ToolContext(chat_id=chat_id, store=store, emit=run.emit, sculpture=run.sculpture)
 
     def save(message: dict) -> int:
         msg_id = store.add_message(chat_id, message)
@@ -299,9 +301,10 @@ async def _run_turn(store: ChatStore, run: Run, entry: dict) -> None:
         if entry.get("auth_mode") == "browser" and entry["litellm_params"]["model"].startswith("anthropic/"):
             from claude_agent import run_claude
             await run_claude(store, run, entry, save, execute_tool, system_prompt(store, chat_id), use_tools)
+            await finish_sculpture(run, ctx, save)
             return
         params = await inference.params_for(entry, run.options)
-        for _step in range(MAX_STEPS):
+        for _step in range(step_limit(run.options)):
             prompt = system_prompt(store, chat_id) + mode_prompt(run.options)
             messages = [{"role": "system", "content": prompt},
                         *llm_history(store.messages(chat_id), vision, lambda ref: store.resolve(chat_id, ref), entry["litellm_params"]["model"], mark_turns=True)]
@@ -372,9 +375,13 @@ async def _run_turn(store: ChatStore, run: Run, entry: dict) -> None:
             if images and vision:
                 save({"role": "user", "content": "Renders produced by the tool calls above:",
                       "_images_for_llm": images, "_hidden": True})
+            if run.sculpture.get("finished"):
+                break
         else:
-            save({"role": "assistant", "_ui_only": True, "_notice": True,
-                  "content": f"Stopped after {MAX_STEPS} steps. Send a message to continue."})
+            if not sculpture_mode(run.options):
+                save({"role": "assistant", "_ui_only": True, "_notice": True,
+                      "content": f"Stopped after {MAX_STEPS} steps. Send a message to continue."})
+        await finish_sculpture(run, ctx, save)
     except asyncio.CancelledError:
         if run.draft:
             save({"role": "assistant", "content": run.draft})
@@ -397,6 +404,41 @@ async def _run_turn(store: ChatStore, run: Run, entry: dict) -> None:
 READ_TOOLS = {"list_files", "read_file", "view_image", "report_progress"}
 
 
+def sculpture_mode(options: dict) -> bool:
+    return (options.get("build_style") == "sculpture" and options.get("mode", "agent") == "agent"
+            and options.get("permissions") != "read_only")
+
+
+def step_limit(options: dict) -> int:
+    return 6 if sculpture_mode(options) else MAX_STEPS
+
+
+async def finish_sculpture(run: Run, ctx: ToolContext, save) -> None:
+    """Keep a successful design when a bounded turn ends without explicit acceptance."""
+    if not sculpture_mode(run.options) or run.sculpture.get("finished"):
+        return
+    if not run.sculpture.get("best"):
+        raise ValueError("No successful voxel design was produced within the design-attempt limit")
+    import uuid
+    call_id = uuid.uuid4().hex
+    save({"role": "assistant", "content": None, "tool_calls": [
+        {"id": call_id, "type": "function", "function": {"name": "accept_design", "arguments": "{}"}}]})
+    info = {"id": call_id, "name": "accept_design", "arguments": "{}"}
+    run.tools_running[call_id] = info
+    run.emit("tool_start", info)
+    try:
+        result = await execute_tool(run, ctx, call_id, "accept_design", "{}")
+        save({"role": "tool", "tool_call_id": call_id, "name": "accept_design", "content": result.content,
+              "_models": [m["id"] for m in result.models]})
+        if result.models:
+            info = json.loads(result.content)
+            save({"role": "assistant", "content": f"Finished the sculpture: [{result.models[0]['name']}]({info['card_url']}). "
+                  f"{info['sculpture']['brick_count']} rectangular bricks."})
+    finally:
+        run.tools_running.pop(call_id, None)
+        run.emit("tool_end", {"id": call_id, "name": "accept_design"})
+
+
 def mode_prompt(options: dict) -> str:
     if options.get("mode") == "plan":
         return "\nPLAN MODE: inspect with read-only tools and propose a plan. Do not execute commands or change files."
@@ -410,7 +452,7 @@ def available_tools(options: dict) -> list[dict]:
         return []
     if options.get("mode") == "plan" or options.get("permissions") == "read_only":
         return [t for t in TOOL_SCHEMAS if t["function"]["name"] in READ_TOOLS]
-    return TOOL_SCHEMAS
+    return SCULPTURE_SCHEMAS if sculpture_mode(options) else TOOL_SCHEMAS
 
 
 async def execute_tool(run: Run, ctx: ToolContext, call_id: str, name: str, arguments: str) -> ToolResult:
