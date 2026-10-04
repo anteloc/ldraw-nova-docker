@@ -27,7 +27,7 @@ def test_sculpture_prompt_is_explicit_and_keeps_normal_flow(tmp_path, monkeypatc
     store.update_chat(chat["id"], options={"build_style": "sculpture"})
     sculpture = agent.system_prompt(store, chat["id"])
     assert original in sculpture and guide.read_text() in sculpture
-    store.update_chat(chat["id"], options={"build_style": "parts"})
+    store.update_chat(chat["id"], options={})
     assert agent.system_prompt(store, chat["id"]) == original
 
 

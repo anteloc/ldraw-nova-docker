@@ -63,7 +63,7 @@ export default function AdditionalSettings({ options, onChange, disabled }: {
       <div className="sculpture-setting">
         <label className="sculpture-option">
           <input ref={checkbox} type="checkbox" checked={options.build_style === "sculpture"} disabled={disabled}
-            onChange={e => onChange({ ...options, build_style: e.target.checked ? "sculpture" : "parts" })} />
+            onChange={e => onChange({ ...options, build_style: e.target.checked ? "sculpture" : undefined })} />
           Sculpture model
         </label>
         <button ref={infoButton} type="button" className="sculpture-info-button" aria-label="About Sculpture model"
