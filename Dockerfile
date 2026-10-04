@@ -221,14 +221,14 @@ ENV PYTHONPATH=/app
 # Keep the standalone builder intact. Only its distributable inputs enter the
 # image: never the sibling checkout's output, virtualenv, credentials or cache.
 COPY --from=nova pyproject.toml uv.lock /opt/ldraw-nova/
-RUN cd /opt/ldraw-nova && uv sync --frozen --extra sculpture --no-dev --no-install-project --python "${PYTHON_VERSION}"
+RUN cd /opt/ldraw-nova && uv sync --frozen --no-dev --no-install-project --python "${PYTHON_VERSION}"
 COPY --from=nova ldraw_tools/ /opt/ldraw-nova/ldraw_tools/
 COPY --from=nova data/ /opt/ldraw-nova/data/
 COPY --from=nova docs/ /opt/ldraw-nova/docs/
 COPY --from=nova examples/ /opt/ldraw-nova/examples/
 COPY --from=nova prompts/ /opt/ldraw-nova/prompts/
 COPY --from=nova *.md *.py *.sh LICENSE CC-BY-SA-4.0 ldraw-agent /opt/ldraw-nova/
-RUN cd /opt/ldraw-nova && uv sync --locked --extra sculpture --no-dev --python "${PYTHON_VERSION}" \
+RUN cd /opt/ldraw-nova && uv sync --locked --no-dev --python "${PYTHON_VERSION}" \
     && mkdir -p .cache && chown agent:agent .cache \
     && ln -s /data/output output \
     && chmod -R a+rX /opt/ldraw-nova \
