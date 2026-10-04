@@ -104,7 +104,8 @@ test("sculpture info shows sculpture help on hover, focus and tap", async () => 
     'Uses rectangular bricks only',
     'Cheaper and faster generations',
   ]);
-  assert.equal(help.querySelector('small')!.textContent, '*through deterministic legalization algorithms');
+  assert.equal(help.querySelector('small')!.textContent, '*through deterministic legolization algorithms');
+  assert.equal(help.querySelector('a')!.getAttribute('href'), 'https://dl.acm.org/doi/10.1145/2816795.2818091');
   assert.ok(info.querySelector('svg[aria-hidden="true"]'));
   assert.equal((document.querySelector('.sculpture-option input') as HTMLInputElement).checked, false);
   assert.equal(info.getAttribute('aria-controls'), help.id);
