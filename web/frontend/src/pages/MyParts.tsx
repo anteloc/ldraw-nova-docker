@@ -27,6 +27,7 @@ function LotRow({
     [busy, setBusy] = useState(false);
   async function save() {
     if (color === null) {
+      trackParts("inventory_lot_color_required");
       setError("Choose the LDraw color you own before saving this lot.");
       return;
     }
@@ -69,7 +70,10 @@ function LotRow({
             <select
               aria-label="Map to LDraw color"
               value={color ?? ""}
-              onChange={(e) => setColor(Number(e.target.value))}
+              onChange={(e) => {
+                setColor(Number(e.target.value));
+                trackParts("inventory_color_changed");
+              }}
             >
               <option value="" disabled>
                 Choose color
@@ -89,7 +93,10 @@ function LotRow({
               min={1}
               max={1000000}
               value={quantity}
-              onChange={(e) => setQuantity(Number(e.target.value))}
+              onChange={(e) => {
+                setQuantity(Number(e.target.value));
+                trackParts("inventory_lot_quantity_changed");
+              }}
             />
           </label>
           <div className="button-group">
@@ -313,7 +320,10 @@ export default function MyParts() {
             placeholder="Set number or name, e.g. 10696 or Galaxy Explorer"
             value={query}
             maxLength={160}
-            onChange={(e) => setQuery(e.target.value)}
+            onChange={(e) => {
+              setQuery(e.target.value);
+              trackParts("inventory_set_query_changed");
+            }}
           />
           <label className="small">
             Copies
@@ -477,7 +487,10 @@ export default function MyParts() {
             placeholder="Set number, LEGO / BrickLink URL, or public CSV / XML URL"
             maxLength={2048}
             value={url}
-            onChange={(e) => setUrl(e.target.value)}
+            onChange={(e) => {
+              setUrl(e.target.value);
+              trackParts("inventory_url_changed");
+            }}
           />
           <button disabled={busy || !url.trim()}>Import link</button>
         </form>
@@ -508,7 +521,10 @@ export default function MyParts() {
             <select
               aria-label="Loose part color"
               value={color}
-              onChange={(e) => setColor(Number(e.target.value))}
+              onChange={(e) => {
+                setColor(Number(e.target.value));
+                trackParts("inventory_color_changed");
+              }}
             >
               {palette.map((c) => (
                 <option key={c.code} value={c.code}>
@@ -525,7 +541,10 @@ export default function MyParts() {
               min={1}
               max={1000000}
               value={qty}
-              onChange={(e) => setQty(Number(e.target.value))}
+              onChange={(e) => {
+                setQty(Number(e.target.value));
+                trackParts("inventory_loose_quantity_changed");
+              }}
             />
           </label>
           <button disabled={busy || !part.trim()}>Add pieces</button>

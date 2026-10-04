@@ -392,3 +392,18 @@ test("mapping an unknown color requires an explicit choice instead of assuming b
     /Choose the LDraw color/,
   );
 });
+
+test("a saved fitting report disappears when the backend invalidates its model revision", async () => {
+  await mount(<UseMyParts model={{ ...model, inventory_report: report }} />);
+  assert.match(document.body.textContent!, /1 missing/);
+  await act(async () =>
+    root!.render(
+      <MemoryRouter>
+        <AppContext.Provider value={state}>
+          <UseMyParts model={{ ...model, inventory_report: null }} />
+        </AppContext.Provider>
+      </MemoryRouter>,
+    ),
+  );
+  assert.ok(!document.body.textContent!.includes("1 missing"));
+});

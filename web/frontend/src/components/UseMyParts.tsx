@@ -7,12 +7,16 @@ export default function UseMyParts({ model }: { model: ModelFile }) {
   const { refreshChats, openViewer } = useApp();
   const [busy, setBusy] = useState(false),
     [error, setError] = useState(""),
-    [result, setResult] = useState<{
+    [manualResult, setResult] = useState<{
       model: ModelFile;
       report: FitReport;
-    } | null>(
-      model.inventory_report ? { model, report: model.inventory_report } : null,
-    );
+    } | null>(null);
+  const result = busy
+    ? null
+    : manualResult ||
+      (model.inventory_report
+        ? { model, report: model.inventory_report }
+        : null);
   async function fit() {
     setBusy(true);
     setError("");
