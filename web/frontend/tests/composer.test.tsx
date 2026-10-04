@@ -102,7 +102,7 @@ test("sculpture info shows sculpture help on hover, focus and tap", async () => 
   assert.deepEqual([...help.querySelectorAll('li')].map(item => item.textContent), [
     'Guarantees structure',
     'Uses rectangular bricks only',
-    'Faster generation time (1-2 minutes)',
+    'Cheaper and faster generations',
   ]);
   assert.equal(help.querySelector('small')!.textContent, '*through deterministic legalization algorithms');
   assert.ok(info.querySelector('svg[aria-hidden="true"]'));

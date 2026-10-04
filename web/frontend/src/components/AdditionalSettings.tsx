@@ -81,7 +81,7 @@ export default function AdditionalSettings({ options, onChange, disabled }: {
         <ul>
           <li>Guarantees structure</li>
           <li>Uses rectangular bricks only</li>
-          <li>Faster generation time (1-2 minutes)</li>
+          <li>Cheaper and faster generations</li>
         </ul>
         <small>*through deterministic legalization algorithms</small>
       </div>}
