@@ -2,6 +2,7 @@ import { useEffect, useRef, useState, type FormEvent, type KeyboardEvent } from 
 import { Link } from "react-router-dom";
 import { useApp } from "../context";
 import type { TurnOptions, DocumentUpload } from "../api";
+import { trackParts } from "../inventory";
 import ModelPicker from "./ModelPicker";
 import { rememberModel, tokenLabel } from "../modelChoices";
 import DocumentIcon from "./DocumentIcon";
@@ -129,6 +130,8 @@ export default function Composer({ llmId, onLlmChange, onSend, onStop, running, 
     {error && <div className="banner error" role="alert">{error}</div>}
     <div className="composer-toolbar">
       <div className="turn-options">
+        <label className="use-parts-option"><input type="checkbox" checked={!!options.use_my_parts} disabled={disabled} onChange={e=>{setOptions({...options,use_my_parts:e.target.checked});trackParts('inventory_mode_changed',{enabled:e.target.checked});}} />Use my parts</label>
+        <Link className="small" to="/parts" onClick={()=>trackParts('inventory_manage_opened')}>Manage parts</Link>
         <ModelPicker value={llmId} onChange={chooseModel} disabled={disabled || !llms.length} />
         <select className="compact-control" aria-label="Mode" title="Build with Agent, or work out a design in Plan" disabled={disabled} value={options.mode}
           onChange={e => setOptions({ ...options, mode: e.target.value as TurnOptions["mode"] })}>

@@ -6,6 +6,7 @@ data
 .DS_Store
 **/.DS_Store
 .git
+.local-tools
 README.md
 docker-compose.yml
 docker-compose.override.yml

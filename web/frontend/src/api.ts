@@ -1,6 +1,7 @@
 // Typed client for the FastAPI backend (web/backend/main.py).
 
 export type SnapshotStatus = "ready" | "queued" | "rendering" | "failed" | "missing";
+export type InventoryReport = {total_parts:number;matched_parts:number;missing_parts:number;color_changes:number;splits:number;missing:{part:string;color:number;quantity:number}[]};
 
 /** A model file in data/generated, or in the bundled gallery. */
 export type ModelFile = {
@@ -21,6 +22,7 @@ export type ModelFile = {
   bom_status: SnapshotStatus;
   bom_error: string | null;
   chats?: { id: string; title: string }[]; // chats that produced it (My Models page)
+  inventory_report?: InventoryReport | null;
 };
 
 /** A model a chat produced: a reference into data/generated. */
@@ -64,7 +66,7 @@ export type EnvironmentVariable = { id: string; name: string; value: null; has_v
 export type EnvironmentUpdate = { id?: string; name: string; value: string | null };
 export type DocumentUpload = { name: string; data: string };
 export type ConnectionStatus = "not_tested" | "connected" | "not_connected";
-export type TurnOptions = { mode: "plan" | "agent"; permissions: "ask" | "full" | "read_only"; effort?: string | null; context_tokens?: number | null };
+export type TurnOptions = { use_my_parts?: boolean; mode: "plan" | "agent"; permissions: "ask" | "full" | "read_only"; effort?: string | null; context_tokens?: number | null };
 export type ModelProfile = {
   model: string; name: string; context_window: number | null; efforts: string[]; default_effort: string | null; context_budgets: number[];
   max_output_tokens?: number | null; tools?: boolean | null; vision?: boolean | null; reasoning?: boolean | null;

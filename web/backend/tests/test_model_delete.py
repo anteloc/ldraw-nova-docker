@@ -23,7 +23,7 @@ def collection(tmp_path, monkeypatch):
 
 def test_delete_model_and_only_its_artifacts(collection, tmp_path):
     root, model, client = collection
-    for suffix in (".png", ".csv", ".md", ".glb", ".json"):
+    for suffix in (".png", ".csv", ".md", ".glb", ".inventory.json", ".json"):
         model.with_suffix(suffix).write_text("artifact")
     other = root / "car-other.mpd"
     other.write_text("0 Other")
@@ -35,7 +35,7 @@ def test_delete_model_and_only_its_artifacts(collection, tmp_path):
     result = client.delete("/api/models/car.mpd")
     assert result.status_code == 200
     assert not model.exists() and not cache.exists() and model not in gallery._queue
-    assert all(not model.with_suffix(s).exists() for s in (".png", ".csv", ".md", ".glb"))
+    assert all(not model.with_suffix(s).exists() for s in (".png", ".csv", ".md", ".glb", ".inventory.json"))
     assert other.exists() and original.exists() and model.with_suffix(".json").exists()
     assert client.delete("/api/models/car.mpd").status_code == 404
 

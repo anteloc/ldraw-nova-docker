@@ -132,7 +132,7 @@ RUN set -eux; \
 # Run it through scripts/mpd2glb.sh (below), not bun + the .mjs directly:
 #   mpd2glb.sh -c none -l /opt/ldraw/ldraw -o out.glb model.mpd
 ARG MPD2GLB_VERSION=0.9.1
-ARG MPD2GLB_SHA256=c215485927c8e629e00c7e8d0af9251b9f668e1fe39c22ab39025b786df18a3b
+ARG MPD2GLB_SHA256=381fb275c9f974820620ef4e4ec8b5be84ea8306a9f1ccd95bc75beaa8139f34
 RUN set -eux; \
     curl -fsSL "https://github.com/anteloc/mpd2glb/releases/download/v${MPD2GLB_VERSION}/mpd2glb-${MPD2GLB_VERSION}.zip" -o /tmp/mpd2glb.zip; \
     echo "${MPD2GLB_SHA256}  /tmp/mpd2glb.zip" | sha256sum -c -; \

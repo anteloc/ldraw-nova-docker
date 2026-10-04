@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { downloadGlb, downloadUrl, partsLabel, timeAgo, XR_TITLE, xrUrl, type ModelFile, type ViewerMode } from "../api";
 import { useApp } from "../context";
+import UseMyParts from "./UseMyParts";
 import InfoModal from "./InfoModal";
 
 type Props = {
@@ -164,6 +165,7 @@ export default function ModelCard({ model, showChats = false, onDelete }: Props)
           </span>
         </div>
       </div>
+      {!model.gallery && <UseMyParts model={model} />}
       {info && model.info_url && (
         <InfoModal title={model.description || model.file} url={model.info_url} onClose={() => setInfo(false)} />
       )}

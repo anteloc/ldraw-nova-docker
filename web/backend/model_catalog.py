@@ -67,6 +67,8 @@ def validate_options(entry: dict, options: dict | None) -> dict:
         raise ValueError("Unknown mode")
     if value["permissions"] not in ("ask", "full", "read_only"):
         raise ValueError("Unknown permission setting")
+    if type(value.get("use_my_parts", False)) is not bool:
+        raise ValueError("Use my parts must be a checkbox value")
     spec = entry_profile(entry)
     if value["effort"] is None:
         value["effort"] = spec["default_effort"]

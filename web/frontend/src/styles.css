@@ -436,3 +436,28 @@ input:focus, select:focus, textarea:focus, button:focus-visible {
 .build-activity time { font-variant-numeric: tabular-nums; white-space: nowrap; }
 .live-tool-output { max-height: 180px; overflow: auto; white-space: pre-wrap; overflow-wrap: anywhere; font-size: .75rem; padding: .65rem; }
 .progress-summary { margin: .4rem .7rem; font-size: .9rem; }
+
+/* Owned parts: readable, responsive forms and a local catalogue. */
+.use-parts-option { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; white-space: nowrap; }
+.use-parts-option input { accent-color: var(--accent); }
+.inventory-summary { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 18px 0; }
+.inventory-summary > div { display: flex; flex-direction: column; gap: 6px; padding: 16px; background: #fff; border: 1px solid var(--border); border-radius: 12px; }
+.inventory-summary strong { font-size: 26px; }
+.inventory-summary span { color: var(--muted); font-size: 13px; }
+.inventory-section { padding: 20px; margin-bottom: 18px; border: 1px solid var(--border); border-radius: 12px; background: #fff; min-width: 0; }
+.inventory-section h2 { font-size: 18px; margin: 0 0 10px; }
+.inventory-section-head { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+.inventory-controls { display: flex; flex-wrap: wrap; align-items: end; gap: 10px; margin: 12px 0; }
+.inventory-controls > input { flex: 1 1 240px; min-width: 0; }
+.inventory-controls label { display: flex; flex-direction: column; gap: 5px; font-size: 13px; min-width: 0; }
+.inventory-controls input[type=number] { width: 100px; }
+.inventory-controls select { max-width: 240px; width: 100%; }
+.inventory-set-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%,260px),1fr)); gap: 12px; }
+.inventory-set-grid article { border: 1px solid var(--border); border-radius: 8px; padding: 14px; min-width: 0; }
+.inventory-lot { display: flex; align-items: center; flex-wrap: wrap; gap: 10px 20px; padding: 14px 0; border-top: 1px solid var(--border); }
+.inventory-lot > div:first-child { flex: 1 1 200px; min-width: 0; overflow-wrap: anywhere; }
+.inventory-lot label { display: flex; flex-direction: column; gap: 5px; max-width: 240px; }
+.inventory-lot input,.inventory-lot select { width: 100%; min-width: 0; }
+.inventory-fit { padding: 0 16px 16px; }
+.inventory-fit p { margin: 10px 0; }
+@media (max-width:600px) { .inventory-summary { gap: 6px; } .inventory-summary > div { padding: 10px; } .inventory-summary strong { font-size: 22px; } .inventory-section { padding: 14px; } .inventory-section-head input { width: 100%; } .inventory-controls label { max-width: 100%; } }

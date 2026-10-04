@@ -171,20 +171,45 @@ async def t_publish_model(ctx: ToolContext, path: str, name: str | None = None) 
     source_bytes = source.read_bytes()
     revision = review / "model.mpd"
     revision.write_bytes(source_bytes)
+    fit_report = None
+    if (ctx.store.get_chat(ctx.chat_id).get("options") or {}).get("use_my_parts"):
+        stock = ctx.chat_dir / "owned-parts.snapshot.json"
+        if stock.is_symlink() or not stock.is_file():
+            raise ToolError("Inventory snapshot is missing. Start a new Use my parts turn.")
+        fitted = review / "fitted.mpd"
+        fit_path = review / "owned-parts-report.json"
+        ctx.emit("progress", {"summary": "Matching owned quantities, colors and compatible brick/plate footprints."})
+        worker = Path(__file__).with_name("inventory_fit.py")
+        launcher = "import runpy; runpy.run_path(" + repr(str(worker)) + ", run_name='__main__')"
+        result = await run_command(ctx, ["python3", "-c", launcher,
+            str(revision), str(stock), str(fitted), str(fit_path), str(settings.LDRAW_DIR)], 1800)
+        if result.exit_code != 0 or not fitted.is_file() or not fit_path.is_file():
+            raise ToolError("Parts fitting failed; no version was published. Try a model with standard parts, fewer than 5,000 placements, and explicit colors.")
+        fit_report = json.loads(fit_path.read_text())
+        source_bytes = fitted.read_bytes()
+        revision.write_bytes(source_bytes)
+        (ctx.work_dir / "owned-parts-report.json").write_text(json.dumps(fit_report))
+        ctx.emit("progress", {"summary": f"Matched {fit_report['matched_parts']} of {fit_report['total_parts']} pieces; {fit_report['missing_parts']} still missing."})
     report = review / "validation.json"
     ctx.emit("progress", {"summary": "Checking the model with LDraw Nova before publication."})
     validation = await run_command(ctx, ["./ldraw-agent", "validate", str(revision), "--geometry",
                                          "--detail", "summary", "--report", str(report)], 1800)
     if validation.exit_code not in (0, 1) or not report.is_file():
         return ToolResult("Error: toolkit validation could not finish; model was not published.\n" + validation.as_text())
+    if fit_report is not None and validation.exit_code != 0:
+        return ToolResult("Parts fitting did not pass geometry validation; original model is preserved. Repair the model and try again.")
     warnings = ["Physical buildability is not proven; read the validation and visual review reports."]
     if validation.exit_code == 1:
         warnings.append("Toolkit validation failed. This revision is for inspection and needs repair.")
+    if fit_report is not None and fit_report["missing_parts"]:
+        warnings.append(f"Use my parts: {fit_report['missing_parts']} pieces are still missing; see the inventory report.")
     slug = _slug(name or source.stem)
     settings.GENERATED_DIR.mkdir(parents=True, exist_ok=True)
     # Reserve synchronously before the next await, including concurrent chats.
     target = settings.GENERATED_DIR / f"{slug}-v{_next_version(slug)}.mpd"
     target.write_bytes(source_bytes)
+    if fit_report is not None:
+        target.with_suffix('.inventory.json').write_text(json.dumps({**fit_report, 'model_sha256': hashlib.sha256(source_bytes).hexdigest()}))
     ctx.emit("progress", {"summary": "Rendering the published model and exporting its parts list."})
     gallery.publishing.add(target.resolve())
     try:
@@ -216,6 +241,8 @@ async def t_publish_model(ctx: ToolContext, path: str, name: str | None = None) 
     if bom.exists():
         result["bom"] = artifact_url(ctx, bom)
         result["bom_path"] = str(bom)
+    if fit_report is not None:
+        result["inventory"] = fit_report
     return ToolResult(json.dumps(result, indent=2), models=[ref])
 
 

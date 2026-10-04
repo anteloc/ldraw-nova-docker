@@ -37,6 +37,8 @@ import model_discovery
 import browser_auth
 import inference
 import render
+import owned_parts
+from parts_api import router as parts_router
 from attachments import validate_documents, validate_images
 import sandbox
 import settings
@@ -60,6 +62,7 @@ async def lifespan(_app: FastAPI):
 
 
 app = FastAPI(title="LDraw Nova agent chat", lifespan=lifespan)
+app.include_router(parts_router)
 
 
 @app.exception_handler(RequestValidationError)
@@ -359,6 +362,7 @@ def model_info(path: Path) -> dict:
         "info_heading": gallery.info_heading_of(path) if exists else None,
         "size": stat.st_size if stat else 0, "mtime": stat.st_mtime if stat else 0,
         "status": status, "error": error, "bom_status": bom_status, "bom_error": bom_error,
+        "inventory_report": owned_parts.saved_report(path) if exists and not in_gallery else None,
     }
 
 
@@ -543,7 +547,7 @@ async def models_delete(filename: str):
         raise HTTPException(409, "This model is still being processed. Try deleting it again when processing finishes.")
     # Notes/previews are shared if car.mpd and car.ldr both exist: retain those.
     shared = any(p != model and p.stem == model.stem for p in gallery.collection(root))
-    artifacts = [] if shared else [model.with_suffix(ext) for ext in (".png", ".csv", ".md", ".glb")]
+    artifacts = [] if shared else [model.with_suffix(ext) for ext in (".png", ".csv", ".md", ".glb", ".inventory.json")]
     targets = [model, *artifacts, *glb.cache_files(model)]
     deleted = []
     for path in targets:

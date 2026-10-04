@@ -9,3 +9,7 @@ __pycache__/
 .env
 .env.*
 !.env.example
+
+# Local catalog cache and private owned quantities
+data/parts/
+.local-tools/

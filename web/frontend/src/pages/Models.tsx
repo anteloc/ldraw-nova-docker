@@ -18,6 +18,7 @@ export default function Models({ collection }: { collection: "models" | "gallery
     let alive = true;
     let timer: ReturnType<typeof setTimeout> | undefined;
     const load = async () => {
+      clearTimeout(timer);
       try {
         const r = await api.models(collection);
         if (!alive) return;
@@ -30,7 +31,9 @@ export default function Models({ collection }: { collection: "models" | "gallery
       }
     };
     load();
+    window.addEventListener("models-changed", load);
     return () => {
+      window.removeEventListener("models-changed", load);
       alive = false;
       clearTimeout(timer);
     };
