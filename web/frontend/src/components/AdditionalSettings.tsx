@@ -81,7 +81,7 @@ export default function AdditionalSettings({ options, onChange, disabled }: {
         <ul>
           <li>Guarantees structure</li>
           <li>Uses rectangular bricks only</li>
-          <li>Cheaper and faster generations</li>
+          <li>Faster generation time</li>
         </ul>
         <small>*through deterministic <a href="https://dl.acm.org/doi/10.1145/2816795.2818091" target="_blank" rel="noopener noreferrer">legolization algorithms</a></small>
       </div>}

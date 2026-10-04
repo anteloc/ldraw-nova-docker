@@ -102,7 +102,7 @@ test("sculpture info shows sculpture help on hover, focus and tap", async () => 
   assert.deepEqual([...help.querySelectorAll('li')].map(item => item.textContent), [
     'Guarantees structure',
     'Uses rectangular bricks only',
-    'Cheaper and faster generations',
+    'Faster generation time',
   ]);
   assert.equal(help.querySelector('small')!.textContent, '*through deterministic legolization algorithms');
   assert.equal(help.querySelector('a')!.getAttribute('href'), 'https://dl.acm.org/doi/10.1145/2816795.2818091');
