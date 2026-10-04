@@ -2,8 +2,6 @@ import { useEffect, useId, useLayoutEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import type { TurnOptions } from "../api";
 
-const sculptureExample = new URL("../assets/sculpture-example.png", import.meta.url).href;
-
 export default function AdditionalSettings({ options, onChange, disabled }: {
   options: TurnOptions; onChange: (options: TurnOptions) => void; disabled: boolean;
 }) {
@@ -79,12 +77,13 @@ export default function AdditionalSettings({ options, onChange, disabled }: {
         </button>
       </div>
       {info && <div id={helpId} className="sculpture-help" role="region" aria-label="About Sculpture model">
-        <img src={sculptureExample} width="1000" height="800" alt="A Pikachu sculpture built from connected yellow, black and red LEGO bricks without a display base" />
-        <p><strong>Sculpture mode features:</strong></p>
+        <p><strong>Sculpture Mode:</strong></p>
         <ul>
-          <li>Guarantees part connectivity</li>
-          <li>Generates much quicker (1-2 minutes)</li>
+          <li>Guarantees structure</li>
+          <li>Uses rectangular bricks only</li>
+          <li>Faster generation time (1-2 minutes)</li>
         </ul>
+        <small>*through deterministic legalization algorithms</small>
       </div>}
     </div>, document.body)}
   </>;

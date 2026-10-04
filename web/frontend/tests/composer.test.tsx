@@ -91,20 +91,20 @@ test("settings dismiss with Escape, outside pointer and focus; Escape returns fo
   await mounted.close();
 });
 
-test("sculpture info shows an example and sculpture help on hover, focus and tap", async () => {
+test("sculpture info shows sculpture help on hover, focus and tap", async () => {
   const mounted = await mount();
   await openSettings(mounted.element);
   const info = document.querySelector('.sculpture-info-button') as HTMLButtonElement;
   assert.equal(document.querySelector('.sculpture-help'), null);
   await act(async () => info.dispatchEvent(new window.MouseEvent("mouseover", { bubbles: true })));
   const help = document.querySelector('.sculpture-help')!;
-  assert.equal(help.querySelector('strong')!.textContent, 'Sculpture mode features:');
+  assert.equal(help.querySelector('strong')!.textContent, 'Sculpture Mode:');
   assert.deepEqual([...help.querySelectorAll('li')].map(item => item.textContent), [
-    'Guarantees part connectivity',
-    'Generates much quicker (1-2 minutes)',
+    'Guarantees structure',
+    'Uses rectangular bricks only',
+    'Faster generation time (1-2 minutes)',
   ]);
-  assert.match(help.querySelector('img')!.getAttribute('alt')!, /Pikachu sculpture/);
-  assert.match(help.querySelector('img')!.getAttribute('alt')!, /without a display base/);
+  assert.equal(help.querySelector('small')!.textContent, '*through deterministic legalization algorithms');
   assert.ok(info.querySelector('svg[aria-hidden="true"]'));
   assert.equal((document.querySelector('.sculpture-option input') as HTMLInputElement).checked, false);
   assert.equal(info.getAttribute('aria-controls'), help.id);

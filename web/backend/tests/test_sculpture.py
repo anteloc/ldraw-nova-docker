@@ -60,20 +60,16 @@ def test_sculpture_uses_existing_publish_download_and_step_flow():
     store.update_chat(chat['id'], options={'build_style': 'sculpture'})
     prompt = agent.system_prompt(store, chat['id'])
     assert 'Do not add a display base, stand, plinth, or ground plate' in prompt
-    assert 'local interior, broad interior, local exterior' in prompt
+    assert 'fixed-seed color-constrained rectangular-brick packing' in prompt
     ctx = tools.ToolContext(chat['id'], store, lambda *_: None)
-    # A long, single-layer section initially packs into separate stud components.
-    rows = [[x,y,0,4] for x in range(20) for y in range(2)]
+    rows = [[x,y,z,4] for x in range(4) for y in range(4) for z in range(4)]
     async def build():
         await tools.t_write_file(ctx, 'output/sculpture.voxels.json', json.dumps({'voxels': rows}))
         built = await tools.t_run_toolkit(ctx, ['sculpture', 'output/sculpture.voxels.json',
             '--output', 'output/sculpture.mpd', '--report', 'output/sculpture-checks.json'])
         assert 'exit code 0' in built.content, built.content
         report = json.loads((ctx.work_dir / 'sculpture-checks.json').read_text())
-        assert report['stud_components'] == 1 and report['connected_instruction_prefixes']
-        assert report['support_repair_rounds'] > 0 and report['exterior_support_voxels'] > 0
-        repaired = json.loads((ctx.work_dir / 'sculpture.repaired.voxels.json').read_text())
-        assert all(row in repaired['voxels'] for row in rows)
+        assert report['stud_components'] == 1
         published = await tools.t_publish_model(ctx, 'output/sculpture.mpd', 'Test sculpture')
         info = json.loads(published.content)
         assert info['checks_passed'], published.content

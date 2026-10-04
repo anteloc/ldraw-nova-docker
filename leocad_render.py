@@ -21,7 +21,6 @@ import os
 import subprocess
 import sys
 from pathlib import Path
-from tempfile import NamedTemporaryFile
 from typing import Optional, Sequence, Tuple
 
 # Host ./data is mounted here. (LDRAW_NOVA_DATA_DIR only exists to point tests elsewhere.)
@@ -48,24 +47,9 @@ def snapshot_path_for(model_path: str | Path) -> Path:
 
 
 def render_snapshot(model_path: str | Path, width: int = 1024, height: int = 768, timeout: int = 300) -> Path:
-    """Render the complete model, preserving its original instruction steps.
-
-    LeoCAD's default current step truncates long sculpture instruction sequences.
-    A temporary sibling keeps relative submodel references working in snapshots.
-    """
-    model_path = Path(model_path)
-    lines = model_path.read_text(encoding="utf-8-sig").splitlines()
-    complete = [line for line in lines if line.split()[:2] not in
-                (["0", "STEP"], ["0", "ROTSTEP"])]
-    kwargs = dict(width=width, height=height, camera_angles=None,
-                  extra_args=["--viewpoint", "home"], timeout=timeout)
-    output = snapshot_path_for(model_path)
-    if len(complete) == len(lines):
-        return render_image(model_path, output, **kwargs)
-    with NamedTemporaryFile(dir=model_path.parent, prefix=".snapshot-", suffix=model_path.suffix) as temporary:
-        temporary.write(("\r\n".join(complete) + "\r\n").encode("utf-8"))
-        temporary.flush()
-        return render_image(temporary.name, output, **kwargs)
+    """Render a model's snapshot from LeoCAD's default "home" view."""
+    return render_image(model_path, snapshot_path_for(model_path), width=width, height=height,
+                        camera_angles=None, extra_args=["--viewpoint", "home"], timeout=timeout)
 
 
 def bom_path_for(model_path: str | Path) -> Path:

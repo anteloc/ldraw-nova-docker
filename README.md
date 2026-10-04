@@ -18,10 +18,7 @@ ordering. It uses the paired
 ordinary part-based generation remains the default. Build both companion branches
 together until sculpture support is included in a matching release.
 
-Hover or tap the info icon for an example and sculpture-mode help.
-The example image is rendered from a
-[Pikachu export from BrickBuilderAI](https://brickbuilder.ai/generated-model?id=4121b49f-7e0a-482b-9e4e-7148a5250f04),
-rebuilt with the paired toolkit's [example importer](https://github.com/jjohnson5253/ldraw-nova/blob/codex/3d-sculpture-mode/examples/sculpture/README.md).
+Hover or tap the info icon for sculpture-mode help.
 
 ## Overview
 
