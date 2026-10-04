@@ -351,3 +351,44 @@ test("oversized uploads are rejected before sending any parts data", async () =>
     /exceeds 2 MB/,
   );
 });
+
+test("mapping an unknown color requires an explicit choice instead of assuming black", async () => {
+  inventoryApi.read = async () => ({
+    ...stock,
+    total: 1,
+    unmapped: 1,
+    lots: [
+      {
+        id: "unmapped",
+        part: "3001",
+        color: null,
+        quantity: 1,
+        raw_part: "3001",
+        raw_color: "999",
+        system: "bricklink",
+        label: "Uploaded",
+      },
+    ],
+  });
+  let edited = false;
+  inventoryApi.edit = async () => {
+    edited = true;
+    return stock;
+  };
+  await mount(<MyParts />);
+  await click("Map lot");
+  assert.equal(
+    (
+      document.querySelector(
+        '[aria-label="Map to LDraw color"]',
+      ) as HTMLSelectElement
+    ).value,
+    "",
+  );
+  await click("Save lot");
+  assert.equal(edited, false);
+  assert.match(
+    document.querySelector('[role="alert"]')!.textContent!,
+    /Choose the LDraw color/,
+  );
+});

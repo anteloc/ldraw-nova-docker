@@ -21,11 +21,15 @@ function LotRow({
 }) {
   const [editing, setEditing] = useState(false),
     [part, setPart] = useState(lot.part || lot.raw_part),
-    [color, setColor] = useState(lot.color ?? 0),
+    [color, setColor] = useState<number | null>(lot.color),
     [quantity, setQuantity] = useState(lot.quantity),
     [error, setError] = useState(""),
     [busy, setBusy] = useState(false);
   async function save() {
+    if (color === null) {
+      setError("Choose the LDraw color you own before saving this lot.");
+      return;
+    }
     setBusy(true);
     setError("");
     trackParts("inventory_lot_save_started");
@@ -64,9 +68,12 @@ function LotRow({
             LDraw color
             <select
               aria-label="Map to LDraw color"
-              value={color}
+              value={color ?? ""}
               onChange={(e) => setColor(Number(e.target.value))}
             >
+              <option value="" disabled>
+                Choose color
+              </option>
               {palette.map((c) => (
                 <option key={c.code} value={c.code}>
                   {c.name}
