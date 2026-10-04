@@ -18,11 +18,9 @@ ordering. It uses the paired
 ordinary part-based generation remains the default. Build both companion branches
 together until sculpture support is included in a matching release.
 
-The selected model submits coloured voxel shapes, receives connectivity feedback and two
-preview views, and accepts or revises the design once. After at most three failed
-designs, the app keeps the last successful design or repairs the final attempt.
-It then converts the accepted solid voxels, validates, renders and publishes a
-model card automatically. Ordinary generation keeps its existing tools and loop.
+The agent saves a coloured voxel design and runs the deterministic converter through
+Nova's existing tools. The result uses the normal validation, rendering, publication
+and chat model-card flow, without a separate voxel-preview or visual-revision cycle.
 
 Hover or tap the info icon for sculpture-mode help.
 
