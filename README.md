@@ -9,20 +9,16 @@
 >
 > 👉 **[Go to ldraw-nova and install the web app](https://github.com/anteloc/ldraw-nova#installation)**
 
-## Optional Sculpture model
+## Optional Sculpture Mode
 
-Open **Additional settings** beside the prompt and enable **Sculpture model** to
-generate a voxel sculpture with connected bricks and deterministic instruction
-ordering. It uses the paired
-`ldraw-nova` sculpture toolkit and the existing model cards, viewer and step player;
-ordinary part-based generation remains the default. Build both companion branches
-together until sculpture support is included in a matching release.
+- Can generate models faster and at lower cost.
+- Uses basic rectangular bricks only.
+- Converts voxels into bricks using deterministic [legolization algorithms](https://dl.acm.org/doi/epdf/10.1145/2816795.2818091).
+- Reorders building steps to improve buildability.
 
-The agent saves a coloured voxel design and runs the deterministic converter through
-Nova's existing tools. The result uses the normal validation, rendering, publication
-and chat model-card flow, without a separate voxel-preview or visual-revision cycle.
+**Usage:** Enable **Sculpture model** under **Additional settings**.
 
-Hover or tap the info icon for sculpture-mode help.
+**Requires both PRs:** Pull the [toolkit PR](https://github.com/jjohnson5253/ldraw-nova/pull/1) and [web app PR](https://github.com/jjohnson5253/ldraw-nova-docker/pull/1), then build both repositories together.
 
 ## Overview
 
