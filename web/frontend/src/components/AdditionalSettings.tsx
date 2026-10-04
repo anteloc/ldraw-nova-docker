@@ -84,7 +84,6 @@ export default function AdditionalSettings({ options, onChange, disabled }: {
         <ul>
           <li>Guarantees buildability</li>
           <li>Generates much quicker (1-2 minutes)</li>
-          <li>Sets can be opened in the Sculpture Editor to add, paint, or erase bricks.</li>
         </ul>
       </div>}
     </div>, document.body)}

@@ -1,10 +1,8 @@
-import { lazy, Suspense, useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { downloadGlb, downloadUrl, partsLabel, timeAgo, XR_TITLE, xrUrl, type ModelFile, type ViewerMode } from "../api";
 import { useApp } from "../context";
 import InfoModal from "./InfoModal";
-
-const SculptureEditor = lazy(() => import("./SculptureEditor"));
 
 type Props = {
   model: ModelFile & { warnings?: string[]; created_at?: number };
@@ -29,7 +27,6 @@ export default function ModelCard({ model, showChats = false, onDelete }: Props)
   const extension = "." + (model.file.split(".").pop() ?? "mpd").toLowerCase();
   const bomBusy = model.bom_status === "queued" || model.bom_status === "rendering";
   const [glb, setGlb] = useState<{ busy: boolean; error?: string }>({ busy: false });
-  const [editing, setEditing] = useState(false);
   const [info, setInfo] = useState(false);
   const [deleting, setDeleting] = useState(false);
   const [deleteError, setDeleteError] = useState("");
@@ -131,7 +128,6 @@ export default function ModelCard({ model, showChats = false, onDelete }: Props)
               </a>
             )}
           </span>
-          {model.sculpture && !model.gallery && model.model_url && <button onClick={() => setEditing(true)}>Sculpture editor</button>}
           <span className="button-group model-download-actions" role="group" aria-label="Download">
             {model.model_url && (
               <a className="button" href={downloadUrl(model.model_url)} title={`Download ${model.file}`}>
@@ -168,7 +164,6 @@ export default function ModelCard({ model, showChats = false, onDelete }: Props)
           </span>
         </div>
       </div>
-      {editing && <Suspense fallback={<div className="modal-backdrop" role="status">Loading sculpture editor…</div>}><SculptureEditor model={model} onClose={() => setEditing(false)} /></Suspense>}
       {info && model.info_url && (
         <InfoModal title={model.description || model.file} url={model.info_url} onClose={() => setInfo(false)} />
       )}

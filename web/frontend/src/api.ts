@@ -20,7 +20,6 @@ export type ModelFile = {
   error: string | null;
   bom_status: SnapshotStatus;
   bom_error: string | null;
-  sculpture?: boolean; // checked voxel artifact is available for editing
   chats?: { id: string; title: string }[]; // chats that produced it (My Models page)
 };
 
@@ -107,11 +106,7 @@ async function request<T>(url: string, init?: RequestInit): Promise<T> {
 
 const json = (body: unknown) => JSON.stringify(body);
 
-export type SculptureData = { voxels: [number, number, number, number][]; revision: string; palette: { code: number; name: string; hex: string }[] };
-
 export const api = {
-  sculpture: (file: string) => request<SculptureData>(`/api/models/${encodeURIComponent(file)}/sculpture`),
-  saveSculpture: (file: string, voxels: SculptureData["voxels"], revision: string) => request<{ model: ModelFile; chat_id: string; support_voxels: number }>(`/api/models/${encodeURIComponent(file)}/sculpture`, { method: "POST", body: json({ voxels, revision }) }),
   environment: () => request<{ variables: EnvironmentVariable[] }>("/api/environment"),
   checkEnvironment: (name: string, id?: string) => request<{ preconfigured: boolean; saved: boolean }>(`/api/environment/check?name=${encodeURIComponent(name)}&exclude_id=${encodeURIComponent(id ?? "")}`),
   saveEnvironment: (variables: EnvironmentUpdate[]) => request<{ variables: EnvironmentVariable[] }>("/api/environment", { method: "PUT", body: json({ variables }) }),

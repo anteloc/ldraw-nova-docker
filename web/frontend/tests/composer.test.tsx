@@ -91,7 +91,7 @@ test("settings dismiss with Escape, outside pointer and focus; Escape returns fo
   await mounted.close();
 });
 
-test("sculpture info shows an example and sculpture-editor help on hover, focus and tap", async () => {
+test("sculpture info shows an example and sculpture help on hover, focus and tap", async () => {
   const mounted = await mount();
   await openSettings(mounted.element);
   const info = document.querySelector('.sculpture-info-button') as HTMLButtonElement;
@@ -102,7 +102,6 @@ test("sculpture info shows an example and sculpture-editor help on hover, focus 
   assert.deepEqual([...help.querySelectorAll('li')].map(item => item.textContent), [
     'Guarantees buildability',
     'Generates much quicker (1-2 minutes)',
-    'Sets can be opened in the Sculpture Editor to add, paint, or erase bricks.',
   ]);
   assert.match(help.querySelector('img')!.getAttribute('alt')!, /Pikachu sculpture/);
   assert.match(help.querySelector('img')!.getAttribute('alt')!, /without a display base/);

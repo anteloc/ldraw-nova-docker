@@ -24,7 +24,6 @@ import settings
 import toolkit
 import environment_config
 import gallery
-import sculpture
 from leocad_render import bom_path_for, list_models, snapshot_path_for
 from paths import safe_join
 from store import ChatStore
@@ -170,9 +169,6 @@ async def t_publish_model(ctx: ToolContext, path: str, name: str | None = None) 
     # Validate and render the same captured revision even if another tool or
     # the user edits the working source while publication is running.
     source_bytes = source.read_bytes()
-    editable = sculpture.read(source)
-    selected = (ctx.store.get_chat(ctx.chat_id).get("options") or {}).get("build_style") == "sculpture"
-    editable_bytes = [p.read_bytes() for p in sculpture.siblings(source)] if editable and selected else None
     revision = review / "model.mpd"
     revision.write_bytes(source_bytes)
     report = review / "validation.json"
@@ -189,9 +185,6 @@ async def t_publish_model(ctx: ToolContext, path: str, name: str | None = None) 
     # Reserve synchronously before the next await, including concurrent chats.
     target = settings.GENERATED_DIR / f"{slug}-v{_next_version(slug)}.mpd"
     target.write_bytes(source_bytes)
-    if editable_bytes:
-        for destination, data in zip(sculpture.siblings(target), editable_bytes):
-            destination.write_bytes(data)
     ctx.emit("progress", {"summary": "Rendering the published model and exporting its parts list."})
     gallery.publishing.add(target.resolve())
     try:
