@@ -26,7 +26,7 @@ import settings
 import toolkit
 from store import ChatStore
 from tools import TOOL_SCHEMAS, ToolContext, ToolResult, dispatch
-from sculpture import DESIGN_NAMES, DesignWorkflow, MAX_TURNS, finish_design
+from sculpture import DESIGN_NAMES, DesignWorkflow, MAX_TURNS, design_prompt, finish_design
 
 log = logging.getLogger("agent")
 
@@ -111,12 +111,6 @@ def work_listing(work_dir: Path) -> str:
 
 def system_prompt(store: ChatStore, chat_id: str) -> str:
     work_dir = store.work_dir(chat_id)
-    if ((store.get_chat(chat_id) or {}).get("options") or {}).get("build_style") == "sculpture":
-        # A shape designer needs the focused schema, not Nova's general CAD instructions.
-        guide = toolkit.root() / "docs/agent/sculptures.md"
-        if not guide.is_file():
-            raise ValueError("Update the paired ldraw-nova checkout for Sculpture Mode.")
-        return guide.read_text()
     text = (settings.PROMPTS_DIR / "system.md").read_text()
     prompt = (text.replace("{work_dir}", str(work_dir))
                 .replace("{work_listing}", work_listing(work_dir))
@@ -291,8 +285,6 @@ async def _run_turn(store: ChatStore, run: Run, entry: dict) -> None:
     vision = caps["vision"] is True
     use_tools = caps["tools"] is not False and run.options.get("mode") != "chat"
     ctx = ToolContext(chat_id=chat_id, store=store, emit=run.emit)
-    if use_tools and run.options.get("build_style") == "sculpture" and run.options.get("mode") != "plan" and run.options.get("permissions") != "read_only":
-        ctx.workflow = DesignWorkflow()
 
     def save(message: dict) -> int:
         msg_id = store.add_message(chat_id, message)
@@ -300,22 +292,32 @@ async def _run_turn(store: ChatStore, run: Run, entry: dict) -> None:
         return msg_id
 
     try:
+        # Select the design flow once; both provider adapters share this setup.
+        schemas = available_tools(run.options) if use_tools else []
+        max_steps = MAX_STEPS
+        get_prompt = lambda: system_prompt(store, chat_id)
+        if any(t["function"]["name"] in DESIGN_NAMES for t in schemas):
+            ctx.workflow = DesignWorkflow()
+            design_instructions = design_prompt()
+            get_prompt = lambda: design_instructions
+            max_steps = MAX_TURNS
         if entry.get("auth_mode") == "browser" and entry["litellm_params"]["model"].startswith("anthropic/"):
             from claude_agent import run_claude
-            await run_claude(store, run, entry, save, execute_tool, system_prompt(store, chat_id), use_tools, ctx)
+            await run_claude(store, run, entry, save, execute_tool, get_prompt(), use_tools, ctx,
+                             tool_schemas=schemas, max_turns=max_steps)
             if ctx.workflow:
                 await finish_design(run, ctx, save, execute_tool)
             return
         params = await inference.params_for(entry, run.options)
-        for _step in range(MAX_TURNS if ctx.workflow else MAX_STEPS):
-            prompt = system_prompt(store, chat_id) + mode_prompt(run.options)
+        for _step in range(max_steps):
+            prompt = get_prompt() + mode_prompt(run.options)
             messages = [{"role": "system", "content": prompt},
                         *llm_history(store.messages(chat_id), vision, lambda ref: store.resolve(chat_id, ref), entry["litellm_params"]["model"], mark_turns=True)]
             budget = run.options.get("context_tokens") or model_catalog.profile(entry["litellm_params"]["model"])["context_window"]
             messages, removed = inference.bounded_history(messages, params["model"], budget)
             if removed:
                 run.emit("context", {"removed": removed})
-            kwargs = {"tools": available_tools(run.options)} if use_tools else {}
+            kwargs = {"tools": schemas} if use_tools else {}
             run.emit("progress", {"summary": "Agent is reviewing the request and choosing the next step."})
             stream = await litellm.acompletion(**params, messages=messages, stream=True, num_retries=2, **kwargs)
             inference.preserve_openrouter_reasoning_chunks(stream, params["model"])

@@ -27,7 +27,7 @@ import gallery
 from leocad_render import bom_path_for, list_models, snapshot_path_for
 from paths import safe_join
 from store import ChatStore
-from sculpture import DESIGN_TOOLS
+from sculpture import accept_design, submit_brick_design
 
 MAX_WRITE_BYTES = 2 * 1024 * 1024
 
@@ -317,9 +317,20 @@ TOOLS: dict[str, tuple[dict, Callable[..., Awaitable[ToolResult]]]] = {
         "Bare relative paths also resolve under output/. Shared toolkit resources cannot be changed.",
         {"path": {"type": "string"}, "content": {"type": "string"}, "append": {"type": "boolean"}},
         ["path", "content"]), t_write_file),
+    "submit_brick_design": (_fn("submit_brick_design", "Submit a complete voxel design for a lightweight draft and preview.", {
+        "title": {"type": "string", "maxLength": 120},
+        "layer_unit": {"type": "string", "enum": ["brick"]},
+        "grid": {"type": "object", "properties": {
+            "width": {"type": "integer", "minimum": 1, "maximum": 64},
+            "depth": {"type": "integer", "minimum": 1, "maximum": 64},
+            "layers": {"type": "integer", "minimum": 1, "maximum": 96}},
+            "required": ["width", "depth", "layers"]},
+        "hollow": {"type": "boolean"},
+        "shapes": {"type": "array", "items": {"type": "object"},
+                   "description": "Ordered box, ellipsoid, cylinder or layer operations."}},
+        ["grid", "shapes"]), submit_brick_design),
+    "accept_design": (_fn("accept_design", "Accept the latest successful design; convert and publish it once.", {}, []), accept_design),
 }
-
-TOOLS.update(DESIGN_TOOLS)
 TOOL_SCHEMAS = [schema for schema, _fn_ in TOOLS.values()]
 
 

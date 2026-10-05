@@ -18,15 +18,15 @@ import inference
 import llm_config
 import model_catalog
 from tools import ToolContext
-from sculpture import MAX_TURNS
 
 
-async def run_claude(store, run, entry, save, execute, prompt, use_tools, ctx=None):
+async def run_claude(store, run, entry, save, execute, prompt, use_tools, ctx=None, *, tool_schemas=None, max_turns=None):
     from agent import MAX_STEPS, available_tools, llm_history, mode_prompt
 
     ctx = ctx or ToolContext(chat_id=run.chat_id, store=store, emit=run.emit)
+    schemas = tool_schemas if tool_schemas is not None else available_tools(run.options)
     sdk_tools = []
-    for schema in available_tools(run.options) if use_tools else []:
+    for schema in schemas if use_tools else []:
         fn = schema["function"]
 
         async def handle(args, name=fn["name"]):
@@ -92,7 +92,7 @@ async def run_claude(store, run, entry, save, execute, prompt, use_tools, ctx=No
         strict_mcp_config=True,
         mcp_servers={"ldraw": create_sdk_mcp_server(name="ldraw", tools=sdk_tools)} if sdk_tools else {},
         allowed_tools=[f"mcp__ldraw__{t.name}" for t in sdk_tools],
-        permission_mode="dontAsk", max_turns=MAX_TURNS if ctx.workflow else MAX_STEPS, effort=run.options.get("effort"),
+        permission_mode="dontAsk", max_turns=max_turns if max_turns is not None else MAX_STEPS, effort=run.options.get("effort"),
         include_partial_messages=True, max_buffer_size=32 * 1024 * 1024,
     )
     async with ClaudeSDKClient(options=options) as client:

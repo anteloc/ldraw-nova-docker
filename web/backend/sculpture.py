@@ -5,10 +5,20 @@ import asyncio
 import json
 from dataclasses import dataclass, field
 
+import toolkit
+
 MAX_ATTEMPTS = 3
 MAX_REVIEWS = 1
 MAX_TURNS = MAX_ATTEMPTS + MAX_REVIEWS + 2
 DESIGN_NAMES = {"submit_brick_design", "accept_design"}
+
+
+def design_prompt() -> str:
+    """The shape designer uses a focused guide instead of general CAD instructions."""
+    guide = toolkit.root() / "docs/agent/sculptures.md"
+    if not guide.is_file():
+        raise ValueError("Update the paired ldraw-nova checkout for Sculpture Mode.")
+    return guide.read_text()
 
 
 @dataclass
@@ -37,8 +47,8 @@ class DesignWorkflow:
             await t_write_file(ctx, f"output/{stem}.json", json.dumps(design))
             report_path = resolve_path(ctx, f"output/{stem}.report.json", write=True)
             # Review the cheap draft first. Final packing runs only after acceptance.
-            argv = ["./ldraw-agent", "sculpture", f"output/{stem}.json",
-                    "--output", f"output/{stem}.voxels.json", "--preview", f"output/{stem}.png",
+            argv = ["./ldraw-agent", "sculpture", "preview", f"output/{stem}.json",
+                    "--output", f"output/{stem}.png", "--voxels-output", f"output/{stem}.voxels.json",
                     "--report", f"output/{stem}.report.json"]
             ctx.emit("progress", {"summary": "Building the voxel design and its preview."})
             checked = await run_command(ctx, argv, 300)
@@ -74,7 +84,7 @@ class DesignWorkflow:
         voxels, title = self.best
         ctx.emit("progress", {"summary": "Converting the accepted voxels into bricks."})
         report_path = resolve_path(ctx, "output/sculpture.report.json", write=True)
-        converted = await run_command(ctx, ["./ldraw-agent", "sculpture", voxels,
+        converted = await run_command(ctx, ["./ldraw-agent", "sculpture", "convert", voxels,
             "--output", "output/sculpture.mpd", "--title", title,
             "--report", "output/sculpture.report.json"], 300)
         report = json.loads(report_path.read_text()) if report_path.is_file() else {}
@@ -101,28 +111,6 @@ async def accept_design(ctx):
     # Serialise acceptance too: concurrent provider calls must never publish twice.
     async with ctx.workflow.lock:
         return await ctx.workflow.accept(ctx)
-
-
-def schema(name, description, properties, required=()):
-    return {"type": "function", "function": {"name": name, "description": description,
-        "parameters": {"type": "object", "properties": properties, "required": list(required)}}}
-
-
-DESIGN_TOOLS = {
-    "submit_brick_design": (schema("submit_brick_design", "Submit a complete voxel design for a lightweight draft and preview.", {
-        "title": {"type": "string", "maxLength": 120},
-        "layer_unit": {"type": "string", "enum": ["brick"]},
-        "grid": {"type": "object", "properties": {
-            "width": {"type": "integer", "minimum": 1, "maximum": 64},
-            "depth": {"type": "integer", "minimum": 1, "maximum": 64},
-            "layers": {"type": "integer", "minimum": 1, "maximum": 96}},
-            "required": ["width", "depth", "layers"]},
-        "hollow": {"type": "boolean"},
-        "shapes": {"type": "array", "items": {"type": "object"},
-                   "description": "Ordered box, ellipsoid, cylinder or layer operations."}},
-        ("grid", "shapes")), submit_brick_design),
-    "accept_design": (schema("accept_design", "Accept the latest successful design; convert and publish it once.", {}), accept_design),
-}
 
 
 async def finish_design(run, ctx, save, execute):
