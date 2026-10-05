@@ -294,13 +294,12 @@ async def _run_turn(store: ChatStore, run: Run, entry: dict) -> None:
     try:
         schemas = available_tools(run.options) if use_tools else []
         prompt_override, max_steps = sculpture.configure_turn(ctx, schemas, MAX_STEPS)
+        # Only Claude browser login uses a separate runtime; OpenAI uses the loop below.
         if entry.get("auth_mode") == "browser" and entry["litellm_params"]["model"].startswith("anthropic/"):
             from claude_agent import run_claude
             await run_claude(store, run, entry, save, execute_tool, prompt_override or system_prompt(store, chat_id), use_tools, ctx,
                              tool_schemas=schemas, max_turns=max_steps)
-            # Browser-login turns also finalise a good draft after text-only acceptance or the limit.
-            if ctx.workflow:
-                await sculpture.finish_design(run, ctx, save, execute_tool)
+            await sculpture.finish_design(run, ctx, save, execute_tool)
             return
         params = await inference.params_for(entry, run.options)
         for _step in range(max_steps):
@@ -383,8 +382,7 @@ async def _run_turn(store: ChatStore, run: Run, entry: dict) -> None:
             if not ctx.workflow:
                 save({"role": "assistant", "_ui_only": True, "_notice": True,
                       "content": f"Stopped after {MAX_STEPS} steps. Send a message to continue."})
-        if ctx.workflow:
-            await sculpture.finish_design(run, ctx, save, execute_tool)
+        await sculpture.finish_design(run, ctx, save, execute_tool)
     except asyncio.CancelledError:
         if run.draft:
             save({"role": "assistant", "content": run.draft})
@@ -443,7 +441,7 @@ async def execute_tool(run: Run, ctx: ToolContext, call_id: str, name: str, argu
             run.approvals.pop(approval_id, None)
             run.emit("approval_resolved", {"id": approval_id})
         if not approved:
-            # Denial must prevent automatic acceptance of a saved draft too.
+            # Stop the design flow after denial so finalisation won't ask again.
             if ctx.workflow:
                 ctx.workflow.stopped = True
             return ToolResult("Tool denied by the user or approval timed out. Do not retry without a new user instruction.")

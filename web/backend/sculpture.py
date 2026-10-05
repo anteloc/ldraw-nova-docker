@@ -126,6 +126,8 @@ async def accept_design(ctx):
 
 async def finish_design(run, ctx, save, execute):
     """A text-only acceptance or exhausted turn budget also keeps the latest good draft."""
+    if ctx.workflow is None:
+        return  # Ordinary Nova turns have no design draft to finalise.
     if ctx.workflow.finished:
         if ctx.workflow.card_url and ctx.store.messages(ctx.chat_id)[-1]["role"] != "assistant":
             save({"role": "assistant", "content": f"Published [{ctx.workflow.best[1]}]({ctx.workflow.card_url}) — {ctx.workflow.brick_count} bricks."})
