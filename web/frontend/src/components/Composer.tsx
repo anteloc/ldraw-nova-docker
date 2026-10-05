@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useApp } from "../context";
 import type { TurnOptions, DocumentUpload } from "../api";
 import ModelPicker from "./ModelPicker";
+import AdditionalSettings from "./AdditionalSettings";
 import { rememberModel, tokenLabel } from "../modelChoices";
 import DocumentIcon from "./DocumentIcon";
 
@@ -146,6 +147,7 @@ export default function Composer({ llmId, onLlmChange, onSend, onStop, running, 
           onChange={e => setOptions({ ...options, context_tokens: Number(e.target.value) })}>
           {profile.context_budgets.map(n => <option value={n} key={n}>{tokenLabel(n)}</option>)}
         </select>}
+        <AdditionalSettings options={options} onChange={setOptions} disabled={disabled} />
       </div>
       <span className="generation-cost-warning" role="note">⚠ Building models may incur charges.</span>
       {running ? <button type="button" className="danger send-button" onClick={onStop}>Stop</button> :
