@@ -27,6 +27,7 @@ import gallery
 from leocad_render import bom_path_for, list_models, snapshot_path_for
 from paths import safe_join
 from store import ChatStore
+from sculpture import DESIGN_TOOLS
 
 MAX_WRITE_BYTES = 2 * 1024 * 1024
 
@@ -40,6 +41,7 @@ class ToolContext:
     chat_id: str
     store: ChatStore
     emit: Callable[[str, dict], None]
+    workflow: Any = None                 # turn-local design state, preserved by replace()
 
     @property
     def work_dir(self) -> Path:
@@ -317,6 +319,7 @@ TOOLS: dict[str, tuple[dict, Callable[..., Awaitable[ToolResult]]]] = {
         ["path", "content"]), t_write_file),
 }
 
+TOOLS.update(DESIGN_TOOLS)
 TOOL_SCHEMAS = [schema for schema, _fn_ in TOOLS.values()]
 
 

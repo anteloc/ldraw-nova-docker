@@ -18,12 +18,13 @@ import inference
 import llm_config
 import model_catalog
 from tools import ToolContext
+from sculpture import MAX_TURNS
 
 
-async def run_claude(store, run, entry, save, execute, prompt, use_tools):
+async def run_claude(store, run, entry, save, execute, prompt, use_tools, ctx=None):
     from agent import MAX_STEPS, available_tools, llm_history, mode_prompt
 
-    ctx = ToolContext(chat_id=run.chat_id, store=store, emit=run.emit)
+    ctx = ctx or ToolContext(chat_id=run.chat_id, store=store, emit=run.emit)
     sdk_tools = []
     for schema in available_tools(run.options) if use_tools else []:
         fn = schema["function"]
@@ -91,7 +92,7 @@ async def run_claude(store, run, entry, save, execute, prompt, use_tools):
         strict_mcp_config=True,
         mcp_servers={"ldraw": create_sdk_mcp_server(name="ldraw", tools=sdk_tools)} if sdk_tools else {},
         allowed_tools=[f"mcp__ldraw__{t.name}" for t in sdk_tools],
-        permission_mode="dontAsk", max_turns=MAX_STEPS, effort=run.options.get("effort"),
+        permission_mode="dontAsk", max_turns=MAX_TURNS if ctx.workflow else MAX_STEPS, effort=run.options.get("effort"),
         include_partial_messages=True, max_buffer_size=32 * 1024 * 1024,
     )
     async with ClaudeSDKClient(options=options) as client:
@@ -109,5 +110,9 @@ async def run_claude(store, run, entry, save, execute, prompt, use_tools):
                         run.emit("text", {"delta": text})
                     save({"role": "assistant", "content": text, "_llm_model": model})
                     run.draft = ""
+                    if ctx.workflow and ctx.workflow.finished:
+                        break
             elif isinstance(event, ResultMessage) and event.is_error:
+                if ctx.workflow and ctx.workflow.best and event.subtype == "error_max_turns":
+                    break  # finalise the latest good draft through the normal permission gate
                 raise RuntimeError("Claude runtime could not complete the turn")
