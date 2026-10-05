@@ -188,11 +188,7 @@ async def t_publish_model(ctx: ToolContext, path: str, name: str | None = None) 
     ctx.emit("progress", {"summary": "Rendering the published model and exporting its parts list."})
     gallery.publishing.add(target.resolve())
     try:
-        # Publication previews show the complete model, regardless of its build steps.
-        render_source = review / "complete-model.mpd"
-        render_source.write_bytes(b"\n".join(line for line in source_bytes.splitlines()
-                                            if line.strip().upper() != b"0 STEP") + b"\n")
-        rendered = await run_command(ctx, ["./ldraw-agent", "render", str(render_source), "--outdir", str(review),
+        rendered = await run_command(ctx, ["./ldraw-agent", "render", str(target), "--outdir", str(review),
                                           "--views", "home"], 600)
     finally:
         gallery.publishing.discard(target.resolve())

@@ -51,8 +51,7 @@ def test_workspace_is_standalone_layout_with_chat_local_output(ctx):
     assert "save_model" not in {s["function"]["name"] for s in tools.TOOL_SCHEMAS}
 
 
-@pytest.mark.parametrize("many_steps", [False, True])
-def test_real_doctor_build_publish_review_bom_and_download(ctx, many_steps):
+def test_real_doctor_build_publish_review_bom_and_download(ctx):
     events = []
     ctx.emit = lambda event, data: events.append((event, data))
 
@@ -65,13 +64,6 @@ def test_real_doctor_build_publish_review_bom_and_download(ctx, many_steps):
                                                 "--report", "output/build.json"])
         assert "exit code 0" in result.content, result.content
         original = (ctx.work_dir / "bridge.mpd").read_bytes()
-        if many_steps:
-            rendered = await tools.t_run_toolkit(ctx, ["render", "output/bridge.mpd", "--outdir",
-                                                      "output/reference", "--views", "home"])
-            assert "exit code 0" in rendered.content, rendered.content
-            reference = (ctx.work_dir / "reference/home.png").read_bytes()
-            original = original.replace(b"\n1 ", b"\n" + b"0 STEP\n" * 300 + b"1 ", 1)
-            (ctx.work_dir / "bridge.mpd").write_bytes(original)
         published = await tools.t_publish_model(ctx, "output/bridge.mpd", "Integration bridge")
         assert len(published.models) == 1, published.content
         info = json.loads(published.content)
@@ -79,8 +71,6 @@ def test_real_doctor_build_publish_review_bom_and_download(ctx, many_steps):
         path = ctx.store.resolve(ctx.chat_id, published.models[0]["model"])
         assert path.read_bytes() == original  # no legacy sanitizer/serializer
         assert path.with_suffix(".png").stat().st_size > 1000
-        if many_steps:
-            assert path.with_suffix(".png").read_bytes() == reference
         assert path.with_suffix(".csv").stat().st_size > 50
         viewed = await tools.t_view_image(ctx, str(path.with_suffix(".png")))
         assert viewed.images and viewed.images[0].read_bytes().startswith(b"\x89PNG")
