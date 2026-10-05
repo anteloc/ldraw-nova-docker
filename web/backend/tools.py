@@ -27,6 +27,7 @@ import gallery
 from leocad_render import bom_path_for, list_models, snapshot_path_for
 from paths import safe_join
 from store import ChatStore
+from sculpture import accept_design, submit_brick_design
 
 MAX_WRITE_BYTES = 2 * 1024 * 1024
 
@@ -40,6 +41,7 @@ class ToolContext:
     chat_id: str
     store: ChatStore
     emit: Callable[[str, dict], None]
+    workflow: Any = None                 # turn-local design state, preserved by replace()
 
     @property
     def work_dir(self) -> Path:
@@ -155,7 +157,7 @@ def artifact_url(ctx: ToolContext, path: Path) -> str:
     return f"/api/chats/{ctx.chat_id}/artifacts/" + quote(path.relative_to(ctx.work_dir).as_posix())
 
 
-async def t_publish_model(ctx: ToolContext, path: str, name: str | None = None) -> ToolResult:
+async def t_publish_model(ctx: ToolContext, path: str, name: str | None = None, *, render_path: str | None = None) -> ToolResult:
     source = resolve_path(ctx, path, write=True)
     if not source.is_file() or source.suffix.lower() not in {".mpd", ".ldr"}:
         raise ToolError("Publish a self-contained .mpd or .ldr from this chat's output folder")
@@ -166,11 +168,14 @@ async def t_publish_model(ctx: ToolContext, path: str, name: str | None = None) 
     review.mkdir(parents=True)
     sandbox.give_to_agent(review.parent)
     sandbox.give_to_agent(review)
-    # Validate and render the same captured revision even if another tool or
-    # the user edits the working source while publication is running.
+    # Capture the revision before awaiting commands, including an optional snapshot copy.
     source_bytes = source.read_bytes()
     revision = review / "model.mpd"
     revision.write_bytes(source_bytes)
+    render_source = None
+    if render_path:
+        render_source = review / "render.mpd"
+        render_source.write_bytes(resolve_path(ctx, render_path, write=True).read_bytes())
     report = review / "validation.json"
     ctx.emit("progress", {"summary": "Checking the model with LDraw Nova before publication."})
     validation = await run_command(ctx, ["./ldraw-agent", "validate", str(revision), "--geometry",
@@ -188,7 +193,7 @@ async def t_publish_model(ctx: ToolContext, path: str, name: str | None = None) 
     ctx.emit("progress", {"summary": "Rendering the published model and exporting its parts list."})
     gallery.publishing.add(target.resolve())
     try:
-        rendered = await run_command(ctx, ["./ldraw-agent", "render", str(target), "--outdir", str(review),
+        rendered = await run_command(ctx, ["./ldraw-agent", "render", str(render_source or target), "--outdir", str(review),
                                           "--views", "home"], 600)
     finally:
         gallery.publishing.discard(target.resolve())
@@ -315,8 +320,20 @@ TOOLS: dict[str, tuple[dict, Callable[..., Awaitable[ToolResult]]]] = {
         "Bare relative paths also resolve under output/. Shared toolkit resources cannot be changed.",
         {"path": {"type": "string"}, "content": {"type": "string"}, "append": {"type": "boolean"}},
         ["path", "content"]), t_write_file),
+    "submit_brick_design": (_fn("submit_brick_design", "Submit a complete voxel design for a lightweight draft and preview.", {
+        "title": {"type": "string", "maxLength": 120},
+        "layer_unit": {"type": "string", "enum": ["brick"]},
+        "grid": {"type": "object", "properties": {
+            "width": {"type": "integer", "minimum": 1, "maximum": 64},
+            "depth": {"type": "integer", "minimum": 1, "maximum": 64},
+            "layers": {"type": "integer", "minimum": 1, "maximum": 96}},
+            "required": ["width", "depth", "layers"]},
+        "hollow": {"type": "boolean"},
+        "shapes": {"type": "array", "items": {"type": "object"},
+                   "description": "Ordered box, ellipsoid, cylinder or layer operations."}},
+        ["grid", "shapes"]), submit_brick_design),
+    "accept_design": (_fn("accept_design", "Accept the latest successful design; convert and publish it once.", {}, []), accept_design),
 }
-
 TOOL_SCHEMAS = [schema for schema, _fn_ in TOOLS.values()]
 
 
