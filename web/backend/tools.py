@@ -157,7 +157,7 @@ def artifact_url(ctx: ToolContext, path: Path) -> str:
     return f"/api/chats/{ctx.chat_id}/artifacts/" + quote(path.relative_to(ctx.work_dir).as_posix())
 
 
-async def t_publish_model(ctx: ToolContext, path: str, name: str | None = None) -> ToolResult:
+async def t_publish_model(ctx: ToolContext, path: str, name: str | None = None, *, render_path: str | None = None) -> ToolResult:
     source = resolve_path(ctx, path, write=True)
     if not source.is_file() or source.suffix.lower() not in {".mpd", ".ldr"}:
         raise ToolError("Publish a self-contained .mpd or .ldr from this chat's output folder")
@@ -168,11 +168,14 @@ async def t_publish_model(ctx: ToolContext, path: str, name: str | None = None) 
     review.mkdir(parents=True)
     sandbox.give_to_agent(review.parent)
     sandbox.give_to_agent(review)
-    # Validate and render the same captured revision even if another tool or
-    # the user edits the working source while publication is running.
+    # Capture the revision before awaiting commands, including an optional snapshot copy.
     source_bytes = source.read_bytes()
     revision = review / "model.mpd"
     revision.write_bytes(source_bytes)
+    render_source = None
+    if render_path:
+        render_source = review / "render.mpd"
+        render_source.write_bytes(resolve_path(ctx, render_path, write=True).read_bytes())
     report = review / "validation.json"
     ctx.emit("progress", {"summary": "Checking the model with LDraw Nova before publication."})
     validation = await run_command(ctx, ["./ldraw-agent", "validate", str(revision), "--geometry",
@@ -190,7 +193,7 @@ async def t_publish_model(ctx: ToolContext, path: str, name: str | None = None) 
     ctx.emit("progress", {"summary": "Rendering the published model and exporting its parts list."})
     gallery.publishing.add(target.resolve())
     try:
-        rendered = await run_command(ctx, ["./ldraw-agent", "render", str(target), "--outdir", str(review),
+        rendered = await run_command(ctx, ["./ldraw-agent", "render", str(render_source or target), "--outdir", str(review),
                                           "--views", "home"], 600)
     finally:
         gallery.publishing.discard(target.resolve())

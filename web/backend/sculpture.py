@@ -86,12 +86,14 @@ class DesignWorkflow:
         report_path = resolve_path(ctx, "output/sculpture.report.json", write=True)
         converted = await run_command(ctx, ["./ldraw-agent", "sculpture", "convert", voxels,
             "--output", "output/sculpture.mpd", "--title", title,
+            "--render-output", "output/sculpture.render.mpd",
             "--report", "output/sculpture.report.json"], 300)
         report = json.loads(report_path.read_text()) if report_path.is_file() else {}
         if converted.exit_code or not report.get("checks_passed"):
             raise ToolError(report.get("error", converted.as_text()))
         # Publication already validates and renders: no separate CAD review or validation cycle.
-        result = await t_publish_model(ctx, "output/sculpture.mpd", title)
+        result = await t_publish_model(ctx, "output/sculpture.mpd", title,
+                                       render_path="output/sculpture.render.mpd")
         if result.models:
             publication = json.loads(result.content)
             self.card_url = publication["card_url"]
