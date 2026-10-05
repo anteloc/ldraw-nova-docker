@@ -116,7 +116,7 @@ def system_prompt(store: ChatStore, chat_id: str) -> str:
         guide = toolkit.root() / "docs/agent/sculptures.md"
         if not guide.is_file():
             raise ValueError("Update the paired ldraw-nova checkout for Sculpture Mode.")
-        return guide.read_text().split("## Standalone use")[0]
+        return guide.read_text()
     text = (settings.PROMPTS_DIR / "system.md").read_text()
     prompt = (text.replace("{work_dir}", str(work_dir))
                 .replace("{work_listing}", work_listing(work_dir))
