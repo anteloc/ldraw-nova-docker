@@ -282,6 +282,7 @@ async def subscribe(chat_id: str) -> AsyncIterator[tuple[str, dict]]:
 async def _run_turn(store: ChatStore, run: Run, entry: dict) -> None:
     chat_id = run.chat_id
     caps = llm_config.capabilities(entry)
+    vision = caps["vision"] is True
     use_tools = caps["tools"] is not False and run.options.get("mode") != "chat"
     ctx = ToolContext(chat_id=chat_id, store=store, emit=run.emit)
 
@@ -293,7 +294,94 @@ async def _run_turn(store: ChatStore, run: Run, entry: dict) -> None:
     try:
         schemas = available_tools(run.options) if use_tools else []
         prompt_override, max_steps = sculpture.configure_turn(ctx, schemas, MAX_STEPS)
-        await _generate(store, run, entry, ctx, save, schemas, use_tools, prompt_override, max_steps)
+        # Only Claude browser login uses a separate runtime; OpenAI uses the loop below.
+        if entry.get("auth_mode") == "browser" and entry["litellm_params"]["model"].startswith("anthropic/"):
+            from claude_agent import run_claude
+            await run_claude(store, run, entry, save, execute_tool, prompt_override or system_prompt(store, chat_id), use_tools, ctx,
+                             tool_schemas=schemas, max_turns=max_steps)
+            await sculpture.finish_design(run, ctx, save, execute_tool)
+            return
+        params = await inference.params_for(entry, run.options)
+        for _step in range(max_steps):
+            # Ordinary CAD prompts refresh workspace files and notes after each tool call.
+            prompt = (prompt_override or system_prompt(store, chat_id)) + mode_prompt(run.options)
+            messages = [{"role": "system", "content": prompt},
+                        *llm_history(store.messages(chat_id), vision, lambda ref: store.resolve(chat_id, ref), entry["litellm_params"]["model"], mark_turns=True)]
+            budget = run.options.get("context_tokens") or model_catalog.profile(entry["litellm_params"]["model"])["context_window"]
+            messages, removed = inference.bounded_history(messages, params["model"], budget)
+            if removed:
+                run.emit("context", {"removed": removed})
+            kwargs = {"tools": schemas} if use_tools else {}
+            run.emit("progress", {"summary": "Agent is reviewing the request and choosing the next step."})
+            stream = await litellm.acompletion(**params, messages=messages, stream=True, num_retries=2, **kwargs)
+            inference.preserve_openrouter_reasoning_chunks(stream, params["model"])
+
+            run.draft = ""
+            chunks = []
+            async for chunk in stream:
+                chunks.append(chunk)
+                delta = chunk.choices[0].delta if chunk.choices else None
+                if delta is not None and getattr(delta, "content", None):
+                    run.draft += delta.content
+                    run.emit("text", {"delta": delta.content})
+
+            full = litellm.stream_chunk_builder(chunks, messages=messages)
+            reply = full.choices[0].message
+            tool_calls = [
+                {"id": tc.id, "type": "function",
+                 "function": {"name": tc.function.name, "arguments": tc.function.arguments or "{}"}}
+                for tc in (reply.tool_calls or [])
+            ]
+            # null (not "") content next to tool calls: some providers reject empty text blocks.
+            message: dict = {"role": "assistant", "content": reply.content or (None if tool_calls else "")}
+            message["_llm_model"] = entry["litellm_params"]["model"]
+            if tool_calls:
+                message["tool_calls"] = tool_calls
+            if getattr(reply, "thinking_blocks", None):          # must round-trip for Anthropic thinking
+                message["thinking_blocks"] = reply.thinking_blocks
+            if getattr(reply, "provider_specific_fields", None):
+                message["provider_specific_fields"] = reply.provider_specific_fields
+            if getattr(reply, "reasoning_content", None):
+                message["_reasoning"] = reply.reasoning_content
+            if message["_llm_model"].startswith("openrouter/"):
+                # LiteLLM 1.102.1 retains delta.reasoning_details but loses them
+                # in stream_chunk_builder. OpenRouter specifies concatenation in
+                # received order; do not merge/reorder blocks by id or index.
+                details = [detail for chunk in chunks if chunk.choices
+                           for detail in (getattr(chunk.choices[0].delta, "reasoning_details", None) or [])]
+                if details:
+                    message["_reasoning_details"] = details
+            if not message["content"] and not tool_calls:
+                break                                              # nothing to save or do
+            save(message)
+            run.draft = ""
+            if not tool_calls:
+                break
+
+            images: list[str] = []                             # relative to the chat folder
+            for call in tool_calls:
+                name = call["function"]["name"]
+                run.tools_running[call["id"]] = {"id": call["id"], "name": name,
+                                                 "arguments": call["function"]["arguments"]}
+                run.emit("tool_start", run.tools_running[call["id"]])
+                result = await execute_tool(run, ctx, call["id"], name, call["function"]["arguments"])
+                run.tools_running.pop(call["id"], None)
+                refs = [store.ref(chat_id, png) for png in result.images]
+                save({"role": "tool", "tool_call_id": call["id"], "name": name, "content": result.content,
+                      "_models": [m["id"] for m in result.models], "_images": refs})
+                run.emit("tool_end", {"id": call["id"], "name": name})
+                images += refs
+            if images and vision:
+                save({"role": "user", "content": "Renders produced by the tool calls above:",
+                      "_images_for_llm": images, "_hidden": True})
+            # Publication or denied approval ends the design loop immediately.
+            if ctx.workflow and (ctx.workflow.finished or ctx.workflow.stopped):
+                break
+        else:
+            # Sculpture's shorter limit finalises its last good draft below.
+            if not ctx.workflow:
+                save({"role": "assistant", "_ui_only": True, "_notice": True,
+                      "content": f"Stopped after {MAX_STEPS} steps. Send a message to continue."})
         await sculpture.finish_design(run, ctx, save, execute_tool)
     except asyncio.CancelledError:
         if run.draft:
@@ -312,100 +400,6 @@ async def _run_turn(store: ChatStore, run: Run, entry: dict) -> None:
                 future.cancel()
         run.approvals.clear()
         run.emit("done", {})
-
-
-async def _generate(store: ChatStore, run: Run, entry: dict, ctx: ToolContext, save,
-                    schemas, use_tools: bool, prompt_override: str | None, max_steps: int) -> None:
-    """Run the selected model; turn setup and completion stay in _run_turn."""
-    chat_id = run.chat_id
-    vision = llm_config.capabilities(entry)["vision"] is True
-    # Claude browser login has its own runtime; OpenAI uses the regular loop below.
-    if entry.get("auth_mode") == "browser" and entry["litellm_params"]["model"].startswith("anthropic/"):
-        from claude_agent import run_claude
-        await run_claude(store, run, entry, save, execute_tool, prompt_override or system_prompt(store, chat_id), use_tools, ctx,
-                         tool_schemas=schemas, max_turns=max_steps)
-        return
-    params = await inference.params_for(entry, run.options)
-    for _step in range(max_steps):
-        # Ordinary CAD prompts refresh workspace files and notes after each tool call.
-        prompt = (prompt_override or system_prompt(store, chat_id)) + mode_prompt(run.options)
-        messages = [{"role": "system", "content": prompt},
-                    *llm_history(store.messages(chat_id), vision, lambda ref: store.resolve(chat_id, ref), entry["litellm_params"]["model"], mark_turns=True)]
-        budget = run.options.get("context_tokens") or model_catalog.profile(entry["litellm_params"]["model"])["context_window"]
-        messages, removed = inference.bounded_history(messages, params["model"], budget)
-        if removed:
-            run.emit("context", {"removed": removed})
-        kwargs = {"tools": schemas} if use_tools else {}
-        run.emit("progress", {"summary": "Agent is reviewing the request and choosing the next step."})
-        stream = await litellm.acompletion(**params, messages=messages, stream=True, num_retries=2, **kwargs)
-        inference.preserve_openrouter_reasoning_chunks(stream, params["model"])
-
-        run.draft = ""
-        chunks = []
-        async for chunk in stream:
-            chunks.append(chunk)
-            delta = chunk.choices[0].delta if chunk.choices else None
-            if delta is not None and getattr(delta, "content", None):
-                run.draft += delta.content
-                run.emit("text", {"delta": delta.content})
-
-        full = litellm.stream_chunk_builder(chunks, messages=messages)
-        reply = full.choices[0].message
-        tool_calls = [
-            {"id": tc.id, "type": "function",
-             "function": {"name": tc.function.name, "arguments": tc.function.arguments or "{}"}}
-            for tc in (reply.tool_calls or [])
-        ]
-        # null (not "") content next to tool calls: some providers reject empty text blocks.
-        message: dict = {"role": "assistant", "content": reply.content or (None if tool_calls else "")}
-        message["_llm_model"] = entry["litellm_params"]["model"]
-        if tool_calls:
-            message["tool_calls"] = tool_calls
-        if getattr(reply, "thinking_blocks", None):          # must round-trip for Anthropic thinking
-            message["thinking_blocks"] = reply.thinking_blocks
-        if getattr(reply, "provider_specific_fields", None):
-            message["provider_specific_fields"] = reply.provider_specific_fields
-        if getattr(reply, "reasoning_content", None):
-            message["_reasoning"] = reply.reasoning_content
-        if message["_llm_model"].startswith("openrouter/"):
-            # LiteLLM 1.102.1 retains delta.reasoning_details but loses them
-            # in stream_chunk_builder. OpenRouter specifies concatenation in
-            # received order; do not merge/reorder blocks by id or index.
-            details = [detail for chunk in chunks if chunk.choices
-                       for detail in (getattr(chunk.choices[0].delta, "reasoning_details", None) or [])]
-            if details:
-                message["_reasoning_details"] = details
-        if not message["content"] and not tool_calls:
-            break                                              # nothing to save or do
-        save(message)
-        run.draft = ""
-        if not tool_calls:
-            break
-
-        images: list[str] = []                             # relative to the chat folder
-        for call in tool_calls:
-            name = call["function"]["name"]
-            run.tools_running[call["id"]] = {"id": call["id"], "name": name,
-                                             "arguments": call["function"]["arguments"]}
-            run.emit("tool_start", run.tools_running[call["id"]])
-            result = await execute_tool(run, ctx, call["id"], name, call["function"]["arguments"])
-            run.tools_running.pop(call["id"], None)
-            refs = [store.ref(chat_id, png) for png in result.images]
-            save({"role": "tool", "tool_call_id": call["id"], "name": name, "content": result.content,
-                  "_models": [m["id"] for m in result.models], "_images": refs})
-            run.emit("tool_end", {"id": call["id"], "name": name})
-            images += refs
-        if images and vision:
-            save({"role": "user", "content": "Renders produced by the tool calls above:",
-                  "_images_for_llm": images, "_hidden": True})
-        # Publication or denied approval ends the design loop immediately.
-        if ctx.workflow and (ctx.workflow.finished or ctx.workflow.stopped):
-            break
-    else:
-        # Sculpture's shorter limit finalises its last good draft below.
-        if not ctx.workflow:
-            save({"role": "assistant", "_ui_only": True, "_notice": True,
-                  "content": f"Stopped after {MAX_STEPS} steps. Send a message to continue."})
 
 
 READ_TOOLS = {"list_files", "read_file", "view_image", "report_progress"}
