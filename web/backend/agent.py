@@ -23,10 +23,10 @@ import browser_auth
 import inference
 import model_catalog
 import settings
+import sculpture
 import toolkit
 from store import ChatStore
 from tools import TOOL_SCHEMAS, ToolContext, ToolResult, dispatch
-from sculpture import DESIGN_NAMES, DesignWorkflow, MAX_TURNS, design_prompt, finish_design
 
 log = logging.getLogger("agent")
 
@@ -292,25 +292,26 @@ async def _run_turn(store: ChatStore, run: Run, entry: dict) -> None:
         return msg_id
 
     try:
-        # Select the design flow once; both provider adapters share this setup.
+        # Both providers need the focused tools, prompt and short design budget.
         schemas = available_tools(run.options) if use_tools else []
         max_steps = MAX_STEPS
-        get_prompt = lambda: system_prompt(store, chat_id)
-        if any(t["function"]["name"] in DESIGN_NAMES for t in schemas):
-            ctx.workflow = DesignWorkflow()
-            design_instructions = design_prompt()
-            get_prompt = lambda: design_instructions
-            max_steps = MAX_TURNS
+        prompt_override = None
+        if any(t["function"]["name"] in sculpture.DESIGN_NAMES for t in schemas):
+            ctx.workflow = sculpture.DesignWorkflow()
+            prompt_override = sculpture.design_prompt()
+            max_steps = sculpture.MAX_TURNS
         if entry.get("auth_mode") == "browser" and entry["litellm_params"]["model"].startswith("anthropic/"):
             from claude_agent import run_claude
-            await run_claude(store, run, entry, save, execute_tool, get_prompt(), use_tools, ctx,
+            await run_claude(store, run, entry, save, execute_tool, prompt_override or system_prompt(store, chat_id), use_tools, ctx,
                              tool_schemas=schemas, max_turns=max_steps)
+            # Browser-login turns also finalise a good draft after text-only acceptance or the limit.
             if ctx.workflow:
-                await finish_design(run, ctx, save, execute_tool)
+                await sculpture.finish_design(run, ctx, save, execute_tool)
             return
         params = await inference.params_for(entry, run.options)
         for _step in range(max_steps):
-            prompt = get_prompt() + mode_prompt(run.options)
+            # Ordinary CAD prompts refresh workspace files and notes after each tool call.
+            prompt = (prompt_override or system_prompt(store, chat_id)) + mode_prompt(run.options)
             messages = [{"role": "system", "content": prompt},
                         *llm_history(store.messages(chat_id), vision, lambda ref: store.resolve(chat_id, ref), entry["litellm_params"]["model"], mark_turns=True)]
             budget = run.options.get("context_tokens") or model_catalog.profile(entry["litellm_params"]["model"])["context_window"]
@@ -380,14 +381,16 @@ async def _run_turn(store: ChatStore, run: Run, entry: dict) -> None:
             if images and vision:
                 save({"role": "user", "content": "Renders produced by the tool calls above:",
                       "_images_for_llm": images, "_hidden": True})
+            # Publication or denied approval ends the design loop immediately.
             if ctx.workflow and (ctx.workflow.finished or ctx.workflow.stopped):
                 break
         else:
+            # Sculpture's shorter limit finalises its last good draft below.
             if not ctx.workflow:
                 save({"role": "assistant", "_ui_only": True, "_notice": True,
                       "content": f"Stopped after {MAX_STEPS} steps. Send a message to continue."})
         if ctx.workflow:
-            await finish_design(run, ctx, save, execute_tool)
+            await sculpture.finish_design(run, ctx, save, execute_tool)
     except asyncio.CancelledError:
         if run.draft:
             save({"role": "assistant", "content": run.draft})
@@ -423,8 +426,9 @@ def available_tools(options: dict) -> list[dict]:
         return []
     if options.get("mode") == "plan" or options.get("permissions") == "read_only":
         return [t for t in TOOL_SCHEMAS if t["function"]["name"] in READ_TOOLS]
+    # Shape-only tools keep sculpture generation out of the general CAD exploration loop.
     design = options.get("build_style") == "sculpture"
-    return [t for t in TOOL_SCHEMAS if (t["function"]["name"] in DESIGN_NAMES) == design]
+    return [t for t in TOOL_SCHEMAS if (t["function"]["name"] in sculpture.DESIGN_NAMES) == design]
 
 
 async def execute_tool(run: Run, ctx: ToolContext, call_id: str, name: str, arguments: str) -> ToolResult:
@@ -447,6 +451,7 @@ async def execute_tool(run: Run, ctx: ToolContext, call_id: str, name: str, argu
             run.approvals.pop(approval_id, None)
             run.emit("approval_resolved", {"id": approval_id})
         if not approved:
+            # Denial must prevent automatic acceptance of a saved draft too.
             if ctx.workflow:
                 ctx.workflow.stopped = True
             return ToolResult("Tool denied by the user or approval timed out. Do not retry without a new user instruction.")
