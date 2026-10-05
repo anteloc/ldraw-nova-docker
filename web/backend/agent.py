@@ -292,14 +292,8 @@ async def _run_turn(store: ChatStore, run: Run, entry: dict) -> None:
         return msg_id
 
     try:
-        # Both providers need the focused tools, prompt and short design budget.
         schemas = available_tools(run.options) if use_tools else []
-        max_steps = MAX_STEPS
-        prompt_override = None
-        if any(t["function"]["name"] in sculpture.DESIGN_NAMES for t in schemas):
-            ctx.workflow = sculpture.DesignWorkflow()
-            prompt_override = sculpture.design_prompt()
-            max_steps = sculpture.MAX_TURNS
+        prompt_override, max_steps = sculpture.configure_turn(ctx, schemas, MAX_STEPS)
         if entry.get("auth_mode") == "browser" and entry["litellm_params"]["model"].startswith("anthropic/"):
             from claude_agent import run_claude
             await run_claude(store, run, entry, save, execute_tool, prompt_override or system_prompt(store, chat_id), use_tools, ctx,
@@ -426,9 +420,7 @@ def available_tools(options: dict) -> list[dict]:
         return []
     if options.get("mode") == "plan" or options.get("permissions") == "read_only":
         return [t for t in TOOL_SCHEMAS if t["function"]["name"] in READ_TOOLS]
-    # Shape-only tools keep sculpture generation out of the general CAD exploration loop.
-    design = options.get("build_style") == "sculpture"
-    return [t for t in TOOL_SCHEMAS if (t["function"]["name"] in sculpture.DESIGN_NAMES) == design]
+    return sculpture.select_tools(TOOL_SCHEMAS, options.get("build_style"))
 
 
 async def execute_tool(run: Run, ctx: ToolContext, call_id: str, name: str, arguments: str) -> ToolResult:

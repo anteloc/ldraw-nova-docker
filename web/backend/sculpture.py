@@ -10,15 +10,24 @@ import toolkit
 MAX_ATTEMPTS = 3
 MAX_REVIEWS = 1
 MAX_TURNS = MAX_ATTEMPTS + MAX_REVIEWS + 2
-DESIGN_NAMES = {"submit_brick_design", "accept_design"}
+_DESIGN_NAMES = {"submit_brick_design", "accept_design"}
 
 
-def design_prompt() -> str:
-    """The shape designer uses a focused guide instead of general CAD instructions."""
+def select_tools(schemas, build_style):
+    """Keep shape generation on the bounded design tools."""
+    design = build_style == "sculpture"
+    return [t for t in schemas if (t["function"]["name"] in _DESIGN_NAMES) == design]
+
+
+def configure_turn(ctx, schemas, default_max_steps):
+    """Activate the focused prompt and short turn limit only when design tools are allowed."""
+    if not any(t["function"]["name"] in _DESIGN_NAMES for t in schemas):
+        return None, default_max_steps
+    ctx.workflow = DesignWorkflow()
     guide = toolkit.root() / "docs/agent/sculptures.md"
     if not guide.is_file():
         raise ValueError("Update the paired ldraw-nova checkout for Sculpture Mode.")
-    return guide.read_text()
+    return guide.read_text(), MAX_TURNS
 
 
 @dataclass
