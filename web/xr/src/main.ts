@@ -25,7 +25,7 @@ import {
 import { fixShaderExtensions } from "./batching";
 import { formatSample, PerfMeter, type Sample } from "./hud";
 import { createFloor, PlacedModel, PlacementSystem } from "./interaction";
-import { MenuCues } from "./menu-cue";
+import { ControllerCues } from "./controller-cues";
 import { loadModel } from "./model";
 import { DEPTH_SENSING, enableOcclusion, occlude, occlusionMode } from "./occlusion";
 
@@ -90,14 +90,14 @@ function explainNoXR(why: string) {
 /**
  * Wires the menu's buttons (public/ui/menu.uikitml) once IWSDK has loaded it;
  * B or Y (the upper face buttons) toggle the menu, and while it's hidden a
- * "Menu" tag over each says so (MenuCues).
+ * "Menu" tag over each says so. X/A always have a "Recenter" tag.
  */
 class MenuSystem extends createSystem({ panels: { required: [PanelUI, PanelDocument] } }) {
   static actions: Record<string, () => void> = {};
   static document: UIKitDocument | null = null;
   static toggle = () => {};
   static isOpen = () => false;
-  static cues: MenuCues | null = null;
+  static cues: ControllerCues | null = null;
 
   init() {
     this.queries.panels.subscribe("qualify", (entity) => {
@@ -204,7 +204,7 @@ async function main() {
 
   const placed = new PlacedModel(world, model);
   occlude(placed.entity, occlusion);
-  MenuSystem.cues = new MenuCues(world);
+  MenuSystem.cues = new ControllerCues(world);
   const preview = () => {
     placed.tabletop();
     placed.holder.position.set(0, 0.75, -0.45);

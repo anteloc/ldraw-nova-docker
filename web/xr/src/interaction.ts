@@ -1,12 +1,13 @@
 // Moving the model around in mixed reality, with IWSDK's built-ins:
 //
-// * Point at it and hold the trigger (or pinch) to move and turn it from where
+// * Point at it (or reach inside) and hold the trigger (or pinch) to move and turn it from where
 //   you are (DistanceGrabbable: IWSDK's near grabs don't take rays, far ones do).
 // * Point at it and push that hand's thumbstick: up or down scales it, left or
 //   right turns it, whether you're holding it or not (StickControl).
 // * Point at a real table or floor with either hand and press the trigger (or
 //   pinch) to put it there: a laser and a ring show where (SurfacePointer).
 // * Presets: real LEGO size and tabletop.
+// * X/A recovers the model at tabletop size, 75 cm along the current gaze.
 // * Locomotion (thumbsticks, when not pointing at the model) over an invisible floor.
 import {
   BoxGeometry,
@@ -17,11 +18,13 @@ import {
   EnvironmentRaycastTarget,
   Euler,
   Grabbed,
+  GrabSystem,
   Group,
   Hovered,
   type InputActionBinding,
   InputComponent,
   LocomotionEnvironment,
+  Matrix4,
   Mesh,
   MeshBasicMaterial,
   PlaneGeometry,
@@ -44,6 +47,8 @@ const SCALE_MIN = 1;
 const MINIFIG_HEIGHT = 0.04;
 /** ...at its biggest, as tall as a person: ×43.75. */
 const SCALE_MAX = 1.75 / MINIFIG_HEIGHT;
+/** Controllers this close to the bounds target the model even when pointing out of it. */
+const NEAR_MODEL_DISTANCE = 0.08;
 
 /** Marks a geometry as having a BVH already (see PlacedModel). */
 const NO_BOUNDS_TREE = Object.freeze({ placeholder: true });
@@ -62,7 +67,7 @@ export class PlacedModel {
   /** What pointers and hands hit: a plain box, not the model's thousands of parts. */
   private readonly proxy: Mesh;
 
-  constructor(world: World, model: BatchedModel) {
+  constructor(private readonly world: World, model: BatchedModel) {
     const { bounds } = model;
     this.size = bounds.getSize(new Vector3());
     // Base centre at the holder's origin: placing puts the base on the surface,
@@ -74,6 +79,37 @@ export class PlacedModel {
     this.proxy = new Mesh(new BoxGeometry(this.size.x, this.size.y, this.size.z), new MeshBasicMaterial({ visible: false }));
     this.proxy.position.y = this.size.y / 2;
     this.holder.add(this.proxy);
+    // Near/inside still uses the ray's trigger and capture, never the grab or
+    // touch sphere (which would take the trigger away from distance grabbing).
+    this.proxy.pointerEventsType = { allow: "ray" };
+    this.proxy.geometry.computeBoundingBox();
+    const raycast = this.proxy.raycast.bind(this.proxy);
+    const inverse = new Matrix4();
+    const localOrigin = new Vector3();
+    const closest = new Vector3();
+    this.proxy.raycast = (raycaster, hits) => {
+      this.proxy.updateWorldMatrix(true, false);
+      inverse.copy(this.proxy.matrixWorld).invert();
+      localOrigin.copy(raycaster.ray.origin).applyMatrix4(inverse);
+      this.proxy.geometry.boundingBox!.clampPoint(localOrigin, closest);
+      closest.applyMatrix4(this.proxy.matrixWorld);
+      if (closest.distanceToSquared(raycaster.ray.origin) <= NEAR_MODEL_DISTANCE ** 2) {
+        // Capture at the controller, not the box's exit face: an inside grab
+        // must not suddenly acquire a long lever arm. The tiny positive length
+        // also gives the pointer a well-defined direction and capture plane.
+        const distance = Math.max(0.001, raycaster.near);
+        if (distance <= raycaster.far) {
+          hits.push({
+            distance,
+            point: raycaster.ray.at(distance, new Vector3()),
+            normal: raycaster.ray.direction.clone().negate().transformDirection(inverse),
+            object: this.proxy,
+          });
+        }
+        return;
+      }
+      raycast(raycaster, hits);
+    };
 
     // IWSDK builds a three-mesh-bvh BVH for every mesh under an interactable
     // entity, reordering the geometry's index in place. On a BatchedMesh that
@@ -160,6 +196,18 @@ export class PlacedModel {
     this.tabletop();
     this.holder.position.copy(_head).addScaledVector(_forward, 0.75);
     this.holder.position.y = Math.max(0.1, _head.y - 0.55);
+    this.faceTowards(_head);
+  }
+
+  /** Recover even a lost or held model: Tabletop, centred 75 cm along the gaze. */
+  recenter(camera: { getWorldPosition(v: Vector3): Vector3; getWorldDirection(v: Vector3): Vector3 }) {
+    this.world.getSystem(GrabSystem)?.forceRelease(this.entity);
+    camera.getWorldPosition(_head);
+    camera.getWorldDirection(_forward).normalize();
+    this.tabletop();
+    this.holder.position.copy(_head).addScaledVector(_forward, 0.75);
+    // The holder is at the base; put the visual centre on the line of sight.
+    this.holder.position.y -= (this.size.y * this.scale) / 2;
     this.faceTowards(_head);
   }
 
@@ -313,6 +361,7 @@ class StickControl {
   private waitingSince = 0;
   /** What the model's push does, chosen when it first acts. */
   private action: "scale" | "turn" | null = null;
+  private suspended = false;
 
   constructor(private readonly world: World, readonly hand: Hand) {
     this.bindings = world.input.actions
@@ -325,6 +374,10 @@ class StickControl {
   /** Each frame, before the input actions read the sticks (this frame's sticks and pointers are in): who has the stick. */
   claim(model: PlacedModel) {
     const { x, y } = this.stick();
+    if (this.suspended) {
+      if (Math.max(Math.abs(x), Math.abs(y)) >= STICK_PUSHED) return;
+      this.suspended = false;
+    }
     const pointed = model.pointedAt(this.world, this.hand);
     if (Math.max(Math.abs(x), Math.abs(y)) < STICK_PUSHED) {
       this.owner = this.action = null;
@@ -354,8 +407,16 @@ class StickControl {
 
   /** No model or no session: the stick is locomotion's again. */
   reset() {
+    this.suspended = false;
     this.owner = this.action = null;
     this.detach(false);
+  }
+
+  /** Recovery cancels the old gesture; a fresh push starts after the stick centres. */
+  suspendUntilCentered() {
+    this.owner = this.action = null;
+    this.suspended = true;
+    this.detach(true);
   }
 
   private stick() {
@@ -444,6 +505,16 @@ export class PlacementSystem extends createSystem({}) {
       this.pointers.forEach((p) => p.hide());
       return;
     }
+    const { left, right } = this.world.input.xr.gamepads;
+    if (left?.getButtonDown(InputComponent.X_Button) || right?.getButtonDown(InputComponent.A_Button)) {
+      PlacementSystem.placeAfter = -1;
+      model.recenter(this.world.camera);
+      this.sticks.forEach((stick) => stick.suspendUntilCentered());
+      this.pointers.forEach((pointer) => pointer.hide());
+      this.selected.clear();
+      PlacementSystem.onPlaced();
+      return;
+    }
     if (PlacementSystem.placeAfter >= 0 && PlacementSystem.placeAfter-- === 0) {
       model.placeInFront(this.world.camera);
     }
@@ -452,7 +523,8 @@ export class PlacementSystem extends createSystem({}) {
     for (const pointer of this.pointers) {
       const connected = !!this.world.input.getPrimaryInputSource(pointer.hand);
       // On the menu or the model, the trigger is for them: no placing.
-      const busy = this.world.input.multiPointers[pointer.hand].getRayBusy() || model.grabbed;
+      const busy = model.pointedAt(this.world, pointer.hand)
+        || this.world.input.multiPointers[pointer.hand].getRayBusy() || model.grabbed;
       pointer.update(connected, busy, floorY);
       if (this.selected.has(pointer.hand) && pointer.aiming) {
         model.holder.position.copy(pointer.hit);

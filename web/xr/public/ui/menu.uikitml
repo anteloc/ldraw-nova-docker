@@ -169,7 +169,11 @@
         <div class="keys"><div class="key">Y</div><div class="or">or</div><div class="key">B</div></div>
         <div class="action">Menu</div>
       </div>
-      <div class="note">Aim at a table or the floor to place it. Aim at the model to move, resize or rotate it.</div>
+      <div class="control">
+        <div class="keys"><div class="key">X</div><div class="or">or</div><div class="key">A</div></div>
+        <div class="action">Recenter</div>
+      </div>
+      <div class="note">Aim at a surface to place it. Aim at the model or reach inside to move, resize or rotate it. Recenter restores Tabletop size in front of you.</div>
     </div>
     <div class="side">
       <div class="section">SIZE</div>
