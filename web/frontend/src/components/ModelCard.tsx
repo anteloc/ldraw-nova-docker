@@ -140,12 +140,12 @@ export default function ModelCard({ model, showChats = false, onDelete }: Props)
                 disabled={glb.busy}
                 title={
                   glb.busy
-                    ? "Converting with mpd2glb… big models can take a minute"
+                    ? "Preparing .glb… conversion can take a minute if needed"
                     : glb.error
-                      ? `Conversion failed: ${glb.error}`
-                      : "Download as glTF binary (.glb), converted with mpd2glb"
+                      ? `Download failed: ${glb.error}`
+                      : "Download .glb (uses the existing file when available)"
                 }
-                aria-label={glb.busy ? "Converting to .glb" : undefined}
+                aria-label={glb.busy ? "Preparing .glb download" : undefined}
                 className={glb.error ? "danger-text" : undefined}
               >
                 {glb.busy ? <span className="spinner" aria-hidden /> : <DownloadIcon />}

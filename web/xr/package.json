@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
     "typecheck": "tsc --noEmit",
-    "test": "vitest run"
+    "test": "vitest run",
+    "test:viewer": "node --test test/viewer.browser.mjs",
+    "test:xr": "node --test test/xr-animation.browser.mjs"
   },
   "dependencies": {
     "@iwsdk/core": "1.0.0",
@@ -18,6 +20,7 @@
   "devDependencies": {
     "@types/node": "^24.19.0",
     "@types/three": "0.181.0",
+    "playwright": "1.63.0",
     "typescript": "^7.0.2",
     "vite": "^8.3.1",
     "vitest": "^5.0.2"

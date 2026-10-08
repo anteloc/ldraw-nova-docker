@@ -9,7 +9,7 @@ const backend = "http://localhost:8765"; // LDRAW_NOVA_WEB_PORT in docker-compos
 export default defineConfig({
   base: "/xr/",
   server: {
-    proxy: Object.fromEntries(["/api", "/files", "/ref"].map((p) => [p, backend])),
+    proxy: Object.fromEntries(["/api", "/files", "/ref", "/gallery-files", "/viewer/vendor"].map((p) => [p, backend])),
   },
   build: { target: "esnext", sourcemap: false },
   // One three.js for the app and IWSDK: both resolve `three` to super-three.

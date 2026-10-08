@@ -3,7 +3,7 @@ import { type Entity, Grabbed, InputComponent, type World } from "@iwsdk/core";
 import { HandleStore } from "@pmndrs/handle";
 import { createRayPointer } from "@pmndrs/pointer-events";
 import { afterEach, describe, expect, it, vi } from "vitest";
-import type { BatchedModel } from "../src/batching";
+import type { XRModel } from "../src/model";
 import { PlacedModel, PlacementSystem } from "../src/interaction";
 
 // Real ray/capture/handle math, with only the ECS and physical XR devices stubbed.
@@ -60,9 +60,8 @@ function setup(size = new Vector3(0.2, 0.3, 0.4)) {
       multiPointers: { left: multiPointer("left"), right: multiPointer("right") },
     },
   } as unknown as World;
-  const model = new PlacedModel(world, {
-    root: new Group(), batches: [], bounds: new Box3(new Vector3(), size),
-  } as unknown as BatchedModel);
+  const source = { root: new Group(), bounds: new Box3(new Vector3(), size) } as XRModel;
+  const model = new PlacedModel(world, source);
   const handle = new HandleStore(model.holder, () => ({ projectRays: false, scale: false }));
   handle.bind(model.holder);
   model.entity.addComponent({ id: "Handle" } as Component, { instance: handle });
@@ -88,7 +87,7 @@ function setup(size = new Vector3(0.2, 0.3, 0.4)) {
     buttons.left.clear();
     buttons.right.clear();
   };
-  return { model, scene, world, camera, spaces, pointers, axes, buttons, actions, forceRelease, handle, session, move, press, frame };
+  return { model, source, scene, world, camera, spaces, pointers, axes, buttons, actions, forceRelease, handle, session, move, press, frame };
 }
 
 function expectVector(actual: Vector3, expected: Vector3) {
@@ -227,5 +226,39 @@ describe("recenter recovery", () => {
     expect(model.scale).toBe(tabletop);
     expectVector(new Vector3(0, 1, 0).applyQuaternion(model.holder.quaternion), new Vector3(0, 1, 0));
     expectVector(model.holder.position.clone().add(new Vector3(0, side * tabletop / 2, 0)), new Vector3(0, 1.6, -0.75));
+  });
+
+  it("centres the current animated pose, including horizontal motion and a rotated holder", () => {
+    const { model, source, camera } = setup();
+    source.bounds.translate(new Vector3(2, 1, -3));
+    model.syncBounds();
+    model.holder.position.set(30, -8, 12);
+    model.holder.rotation.set(0.3, 0.7, 0.2);
+    camera.rotation.set(-0.3, 0.8, 0);
+    model.recenter(camera);
+    const center = source.bounds.getCenter(new Vector3()).add(source.root.position);
+    expectVector(model.holder.localToWorld(center), camera.getWorldPosition(new Vector3())
+      .addScaledVector(camera.getWorldDirection(new Vector3()), 0.75));
+  });
+});
+
+describe("animated model targeting", () => {
+  it("follows moving bounds and still grabs from inside without moving the holder on its own", () => {
+    const { model, source, world, spaces, move, press, handle } = setup();
+    source.bounds.translate(new Vector3(2, 0, 0));
+    model.syncBounds();
+    expectVector(model.holder.position, new Vector3());
+    spaces.left.position.set(0, 0.15, 0);
+    move();
+    expect(model.pointedAt(world, "left")).toBe(false);
+    spaces.left.position.x = 2;
+    move();
+    expect(model.pointedAt(world, "left")).toBe(true);
+    press("left");
+    expect(handle.inputState.size).toBe(1);
+    expectVector(model.holder.position, new Vector3());
+    spaces.left.position.x += 0.1;
+    move();
+    expectVector(model.holder.position, new Vector3(0.1, 0, 0));
   });
 });

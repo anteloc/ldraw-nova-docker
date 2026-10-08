@@ -149,7 +149,7 @@ export const api = {
 
 export const downloadUrl = (url: string) => url + (url.includes("?") ? "&" : "?") + "download=1";
 
-/** Convert a model to .glb on the server (mpd2glb) and save it. Can take a minute. */
+/** Download the sibling GLB, or convert and cache one when none exists. */
 export async function downloadGlb(modelUrl: string, fileName: string): Promise<void> {
   const res = await fetch(`/api/glb?url=${encodeURIComponent(modelUrl)}`);
   if (!res.ok) {

@@ -24,6 +24,7 @@ import {
   type Camera,
   Color,
   Frustum,
+  Float32BufferAttribute,
   Group,
   Matrix4,
   type Material,
@@ -31,6 +32,8 @@ import {
   MeshPhongMaterial,
   type Object3D,
   Sphere,
+  type SkinnedMesh,
+  Vector3,
 } from "three";
 import { deinterleaveGeometry, mergeVertices } from "three/examples/jsm/utils/BufferGeometryUtils.js";
 
@@ -47,7 +50,7 @@ export interface BatchStats {
   parts: number;
   /** Instances: one per part and colour (multi-colour parts have several). */
   instances: number;
-  /** BatchedMeshes, i.e. draw calls per view. */
+  /** Draw calls per view (BatchedMeshes for static models). */
   batches: number;
   /** Unique geometries (mirrored copies counted separately). */
   geometries: number;
@@ -77,6 +80,8 @@ export interface BatchedModel {
 export interface BatchOptions {
   /** One opacity for all transparent parts. @default 0.6 */
   transparentOpacity?: number;
+  /** Select a rigid subassembly without rebuilding or detaching its source graph. */
+  includeMesh?: (mesh: Mesh) => boolean;
 }
 
 type Kind = "opaque" | "opaque-mirrored" | "transparent" | "transparent-mirrored";
@@ -127,13 +132,14 @@ export function batchModel(scene: Object3D, options: BatchOptions = {}): Batched
     }
     const mesh = object as Mesh;
     if (!mesh.isMesh) return;
+    if (options.includeMesh && !options.includeMesh(mesh)) return;
     const material = (Array.isArray(mesh.material) ? mesh.material[0] : mesh.material) as ColoredMaterial;
     const matrix = new Matrix4().multiplyMatrices(toRoot, mesh.matrixWorld);
     const transparent = material.transparent || material.opacity < 1;
     const mirrored = matrix.determinant() < 0;
     const kind = `${transparent ? "transparent" : "opaque"}${mirrored ? "-mirrored" : ""}` as Kind;
     placements.get(kind)!.push({
-      geometry: mesh.geometry,
+      geometry: (mesh as SkinnedMesh).isSkinnedMesh || mesh.morphTargetInfluences ? posedGeometry(mesh) : mesh.geometry,
       matrix,
       color: material.color ? material.color.clone() : new Color(1, 1, 1),
       part: partOf(mesh),
@@ -342,6 +348,19 @@ export function weldGeometry(geometry: BufferGeometry): BufferGeometry {
   // GLTFLoader gives interleaved attributes (positions and normals share a
   // buffer); mergeVertices needs plain ones. Copies, so the original is untouched.
   deinterleaveGeometry(source);
+  // Authored GLBs can mix quantized and float meshes. A batch requires one
+  // attribute layout; decode normalized integer coordinates/normals to floats.
+  for (const name of ["position", "normal"]) {
+    const attribute = source.getAttribute(name);
+    if (!attribute || (attribute.array instanceof Float32Array && !attribute.normalized)) continue;
+    const values = new Float32Array(attribute.count * 3);
+    for (let i = 0; i < attribute.count; i++) {
+      values[i * 3] = attribute.getX(i);
+      values[i * 3 + 1] = attribute.getY(i);
+      values[i * 3 + 2] = attribute.getZ(i);
+    }
+    source.setAttribute(name, new Float32BufferAttribute(values, 3));
+  }
   if (!normal) {
     // Flat normals first: welding before would smooth across hard edges.
     source = source.index ? source.toNonIndexed() : source;
@@ -351,6 +370,20 @@ export function weldGeometry(geometry: BufferGeometry): BufferGeometry {
   result.computeBoundingBox();
   result.computeBoundingSphere();
   return result;
+}
+
+/** Freeze an authored skin/morph pose for static XR batching, including quantized skins. */
+function posedGeometry(mesh: Mesh): BufferGeometry {
+  if ((mesh as SkinnedMesh).isSkinnedMesh) (mesh as SkinnedMesh).skeleton.update();
+  const geometry = new BufferGeometry();
+  const count = mesh.geometry.getAttribute("position").count;
+  const positions = new Float32Array(count * 3);
+  const vertex = new Vector3();
+  for (let i = 0; i < count; i++) mesh.getVertexPosition(i, vertex).toArray(positions, i * 3);
+  geometry.setAttribute("position", new Float32BufferAttribute(positions, 3));
+  geometry.setIndex(mesh.geometry.index);
+  geometry.computeVertexNormals();
+  return geometry;
 }
 
 /** Copy with every triangle's winding reversed. */

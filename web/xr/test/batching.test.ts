@@ -1,15 +1,20 @@
 import { readFileSync } from "node:fs";
 import {
   ArrayCamera,
+  Bone,
   BufferGeometry,
   type Camera,
   Color,
   Float32BufferAttribute,
   Group,
+  Int16BufferAttribute,
   Mesh,
   MeshStandardMaterial,
   type Object3D,
   PerspectiveCamera,
+  Skeleton,
+  SkinnedMesh,
+  Uint16BufferAttribute,
   Vector3,
 } from "three";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
@@ -118,6 +123,54 @@ describe("batchModel with mirrored and transparent parts", () => {
     const welded = weldGeometry(geometry);
     const normal = welded.getAttribute("normal");
     expect([normal.getX(0), normal.getY(0), normal.getZ(0)]).toEqual([0, 0, 1]);
+  });
+});
+
+describe("authored GLB geometry", () => {
+  it("batches normalized integer attributes alongside float geometry without changing dimensions", () => {
+    const scene = new Group();
+    const quantized = new BufferGeometry();
+    quantized.setAttribute("position", new Int16BufferAttribute([0, 0, 0, 32767, 0, 0, 0, 32767, 0], 3, true));
+    quantized.setAttribute("normal", new Int16BufferAttribute([0, 0, 32767, 0, 0, 32767, 0, 0, 32767], 3, true));
+    const material = new MeshStandardMaterial();
+    const other = new Mesh(triangle(), material);
+    other.position.x = 2;
+    scene.add(new Mesh(quantized, material), other);
+    const result = batchModel(scene);
+    expect(result.bounds.min.toArray()).toEqual([0, 0, 0]);
+    expect(result.bounds.max.toArray()).toEqual([3, 1, 0]);
+    expect(result.batches).toHaveLength(1);
+    expect(result.batches[0].geometry.getAttribute("position").normalized).toBe(false);
+  });
+
+  it("keeps the visible skeletal pose in the static VR geometry", () => {
+    const geometry = triangle();
+    geometry.setAttribute("skinIndex", new Uint16BufferAttribute(new Array(12).fill(0), 4));
+    geometry.setAttribute("skinWeight", new Float32BufferAttribute([1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0], 4));
+    const mesh = new SkinnedMesh(geometry, new MeshStandardMaterial());
+    const bone = new Bone();
+    mesh.add(bone);
+    mesh.bind(new Skeleton([bone]));
+    bone.position.x = 4;
+    const scene = new Group();
+    scene.add(mesh);
+    const result = batchModel(scene);
+    expect(result.bounds.min.toArray()).toEqual([4, 0, 0]);
+    expect(result.bounds.max.toArray()).toEqual([5, 1, 0]);
+    expect(geometry.getAttribute("position").getX(0)).toBe(0); // source untouched
+  });
+
+  it("keeps morph weights in the static VR geometry", () => {
+    const geometry = triangle();
+    geometry.morphTargetsRelative = true;
+    geometry.morphAttributes.position = [new Float32BufferAttribute([0, 0, 2, 0, 0, 2, 0, 0, 2], 3)];
+    const mesh = new Mesh(geometry, new MeshStandardMaterial());
+    mesh.morphTargetInfluences![0] = 0.5;
+    const scene = new Group();
+    scene.add(mesh);
+    const result = batchModel(scene);
+    expect(result.bounds.min.toArray()).toEqual([0, 0, 1]);
+    expect(result.bounds.max.toArray()).toEqual([1, 1, 1]);
   });
 });
 

@@ -37,7 +37,7 @@ import {
   type World,
 } from "@iwsdk/core";
 import { RayDisplayMode } from "@iwsdk/xr-input";
-import type { BatchedModel } from "./batching";
+import type { XRModel } from "./model";
 
 /** Tabletop preset: the model's longest side, metres. */
 const TABLETOP_SIZE = 0.6;
@@ -58,6 +58,7 @@ const _head = new Vector3();
 const _forward = new Vector3();
 const _euler = new Euler(0, 0, 0, "YXZ");
 const _turn = new Quaternion();
+const _modelCenter = new Vector3();
 
 /** The model in the world: a holder whose origin is the centre of the model's base. */
 export class PlacedModel {
@@ -67,7 +68,7 @@ export class PlacedModel {
   /** What pointers and hands hit: a plain box, not the model's thousands of parts. */
   private readonly proxy: Mesh;
 
-  constructor(private readonly world: World, model: BatchedModel) {
+  constructor(private readonly world: World, private readonly model: XRModel) {
     const { bounds } = model;
     this.size = bounds.getSize(new Vector3());
     // Base centre at the holder's origin: placing puts the base on the surface,
@@ -75,9 +76,8 @@ export class PlacedModel {
     model.root.position.set(-(bounds.min.x + bounds.max.x) / 2, -bounds.min.y, -(bounds.min.z + bounds.max.z) / 2);
     this.holder.name = "model";
     this.holder.add(model.root);
-    // The parts' raycast is disabled in batching.ts.
-    this.proxy = new Mesh(new BoxGeometry(this.size.x, this.size.y, this.size.z), new MeshBasicMaterial({ visible: false }));
-    this.proxy.position.y = this.size.y / 2;
+    this.proxy = new Mesh(new BoxGeometry(1, 1, 1), new MeshBasicMaterial({ visible: false }));
+    this.syncBounds();
     this.holder.add(this.proxy);
     // Near/inside still uses the ray's trigger and capture, never the grab or
     // touch sphere (which would take the trigger away from distance grabbing).
@@ -118,10 +118,13 @@ export class PlacedModel {
     // Nor may pointers test them: the hand's grab sphere would fall back to
     // the model's bounding sphere and "touch" it from far away, taking the
     // trigger from the ray (so menu buttons wouldn't click).
-    for (const batch of model.batches) {
-      (batch.geometry as unknown as { boundsTree: unknown }).boundsTree = NO_BOUNDS_TREE;
-      (batch as unknown as { pointerEvents: string }).pointerEvents = "none";
-    }
+    model.root.traverse(object => {
+      const mesh = object as Mesh;
+      if (!mesh.geometry) return;
+      (mesh.geometry as unknown as { boundsTree: unknown }).boundsTree = NO_BOUNDS_TREE;
+      mesh.pointerEvents = "none";
+      mesh.raycast = () => {};
+    });
 
     this.entity = world.createTransformEntity(this.holder, { persistent: true });
     this.entity.addComponent(RayInteractable);
@@ -133,6 +136,15 @@ export class PlacedModel {
 
   get scale() {
     return this.holder.scale.x;
+  }
+
+  /** Follow the current animated pose without moving the holder or its pivot. */
+  syncBounds() {
+    const { bounds, root } = this.model;
+    bounds.getSize(this.size);
+    bounds.getCenter(this.proxy.position).add(root.position);
+    this.proxy.scale.copy(this.size).clampScalar(1e-5, Infinity);
+    this.proxy.updateMatrixWorld(true);
   }
 
   /** Scales it from its base centre, by `factor`, within the limits (real size to minifig as tall as you), also while it's held. */
@@ -206,9 +218,10 @@ export class PlacedModel {
     camera.getWorldDirection(_forward).normalize();
     this.tabletop();
     this.holder.position.copy(_head).addScaledVector(_forward, 0.75);
-    // The holder is at the base; put the visual centre on the line of sight.
-    this.holder.position.y -= (this.size.y * this.scale) / 2;
     this.faceTowards(_head);
+    // Animated parts can shift the centre away from the original base pivot.
+    _modelCenter.copy(this.proxy.position).multiplyScalar(this.scale).applyQuaternion(this.holder.quaternion);
+    this.holder.position.sub(_modelCenter);
   }
 
   get grabbed() {

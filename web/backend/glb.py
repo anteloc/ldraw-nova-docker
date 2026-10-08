@@ -1,11 +1,12 @@
-"""On-demand .glb export with mpd2glb (https://github.com/anteloc/mpd2glb).
+"""Canonical sibling .glb files, or on-demand export with mpd2glb.
 
 Uncompressed glTF binary, keeping LDraw metadata on every node (description,
 part file, colour, building step, ...). A big model can take a minute (the
 image runs under emulation on Apple Silicon), so results are cached per model
 version (path + mtime + size) and concurrent requests for the same model
 share one conversion. The cache lives in the container's /tmp, not in
-data/generated: .glb files are made when asked for, not kept with the models.
+data/generated. A same-named .glb beside the source model always takes
+precedence, including over a previously cached conversion.
 """
 from __future__ import annotations
 
@@ -30,6 +31,14 @@ class GlbError(Exception):
     pass
 
 
+def sibling_glb(model: Path) -> Path | None:
+    """An authored alternate in the same directory; never follow an escaping link."""
+    candidate = model.with_suffix(".glb")
+    if candidate.is_file() and candidate.resolve().parent == model.parent.resolve():
+        return candidate
+    return None
+
+
 def cache_files(model: Path) -> list[Path]:
     prefix = hashlib.sha1(str(model.resolve()).encode()).hexdigest()[:16]
     return list(CACHE_DIR.glob(f"{prefix}-*.glb"))
@@ -47,7 +56,9 @@ def _cached_path(model: Path) -> Path:
 
 
 async def export_glb(model: Path) -> Path:
-    """The model as .glb, converting it unless this version is already cached."""
+    """Prefer the sibling GLB, then a cached conversion, then generate one."""
+    if sibling := sibling_glb(model):
+        return sibling
     out = _cached_path(model)
     if out.exists():
         return out
@@ -62,6 +73,9 @@ async def export_glb(model: Path) -> Path:
 
 async def _convert(model: Path, out: Path) -> Path:
     async with _limit:
+        # An alternate may have been published while this conversion was queued.
+        if sibling := sibling_glb(model):
+            return sibling
         CACHE_DIR.mkdir(parents=True, exist_ok=True)
         partial = out.with_name(out.stem + ".partial.glb")
         proc = await asyncio.create_subprocess_exec(

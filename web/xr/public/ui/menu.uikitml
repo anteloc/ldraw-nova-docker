@@ -2,7 +2,7 @@
   The in-headset menu (IWSDK spatial UI, Horizon kit): how the controls work,
   and sizes. It follows your view, lower left: open when you enter, closed
   once the model is placed, B or Y toggle it. Wired up in src/main.ts by
-  element id. The font has no arrows or bullets (ASCII only): icons are Lucide.
+  element id. The font has no arrows or bullets (ASCII only): icons use SVGs.
 -->
 <style>
   .panel-root {
@@ -132,6 +132,11 @@
     justify-content: center;
   }
 
+  .playback-icon {
+    width: 16px;
+    height: 16px;
+  }
+
   .stats {
     padding-left: 22px;
     padding-right: 22px;
@@ -180,6 +185,11 @@
       <Button id="real-size" class="button"><ButtonLabel>Real size</ButtonLabel></Button>
       <Button id="tabletop" class="button"><ButtonLabel>Tabletop</ButtonLabel></Button>
       <div class="section">MORE</div>
+      <Button id="animation" class="button" style="display: none; gap: 8px">
+        <svg id="animation-play" class="playback-icon" src="/xr/ui/play.svg" />
+        <Pause id="animation-pause" class="playback-icon" style="display: none"></Pause>
+        <ButtonLabel id="animation-label">Play</ButtonLabel>
+      </Button>
       <Button id="stats-button" class="button"><ButtonLabel>Stats</ButtonLabel></Button>
       <Button id="exit" class="button"><ButtonLabel>Exit</ButtonLabel></Button>
     </div>

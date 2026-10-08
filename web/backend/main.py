@@ -564,19 +564,21 @@ def model_from_url(url: str) -> Optional[Path]:
                          ("/demo/", settings.GALLERY_MODELS_DIR)):
         if path.startswith(prefix):
             model = safe_join(root, path[len(prefix):])
-            if (model is not None and model.is_file() and model.parent == root.resolve()
-                    and model.suffix.lower() in MODEL_SUFFIXES):
+            if model is not None and model.is_file() and model.suffix.lower() in MODEL_SUFFIXES:
                 return model
     return None
 
 
 @app.get("/api/glb")
-async def model_glb(url: str):
-    """The model at `url` (as the viewer loads it) as an uncompressed .glb, made
-    with mpd2glb. Can take a minute for big models; cached per model version."""
+async def model_glb(url: str, existing_only: bool = False):
+    """Prefer the model's sibling GLB. Otherwise convert and cache it, unless
+    the 3D viewer is only checking for an authored alternate (existing_only)."""
     model = model_from_url(url) or _not_found("not a model in My Models or Gallery")
     try:
-        out = await glb.export_glb(model)
+        if existing_only:
+            out = glb.sibling_glb(model) or _not_found("no sibling GLB")
+        else:
+            out = await glb.export_glb(model)
     except glb.GlbError as exc:
         raise HTTPException(500, str(exc)) from None
     return FileResponse(out, media_type="model/gltf-binary", filename=model.stem + ".glb",

@@ -1,7 +1,12 @@
-// Loads a model for mixed reality: the backend converts it to .glb with
-// mpd2glb (and caches it); here it's parsed and batched (batching.ts).
+// Loads the canonical GLB (an authored sibling, or a cached conversion),
+// then preserves animation or batches static geometry for mixed reality.
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
+import { DRACOLoader } from "three/examples/jsm/loaders/DRACOLoader.js";
+import { MeshoptDecoder } from "three/examples/jsm/libs/meshopt_decoder.module.js";
 import { type BatchedModel, batchModel, disposeScene } from "./batching";
+import { animatedModel, type ModelAnimation } from "./animation";
+
+export type XRModel = Pick<BatchedModel, "root" | "bounds" | "stats"> & { animation?: ModelAnimation };
 
 export type Progress = (message: string) => void;
 
@@ -12,7 +17,7 @@ export interface LoadTimes {
   batch: number;
 }
 
-/** The model as GLB, from the backend (`/api/glb`, converted with mpd2glb and cached). */
+/** The model's canonical GLB, converting with mpd2glb only when no sibling exists. */
 export async function fetchGlb(modelUrl: string, progress: Progress): Promise<ArrayBuffer> {
   progress("Preparing the model… The first time can take a minute.");
   const response = await fetch(`/api/glb?url=${encodeURIComponent(modelUrl)}`);
@@ -46,17 +51,20 @@ export async function fetchGlb(modelUrl: string, progress: Progress): Promise<Ar
 
 const nextFrame = () => new Promise((resolve) => requestAnimationFrame(resolve));
 
-export async function loadModel(modelUrl: string, progress: Progress): Promise<{ model: BatchedModel; times: LoadTimes }> {
+export async function loadModel(modelUrl: string, progress: Progress): Promise<{ model: XRModel; times: LoadTimes }> {
   const t0 = performance.now();
   const buffer = await fetchGlb(modelUrl, progress);
   const t1 = performance.now();
   progress("Almost ready…");
   await nextFrame();
-  const gltf = await new GLTFLoader().parseAsync(buffer, "");
+  const draco = new DRACOLoader().setDecoderPath("/viewer/vendor/gltf/draco/");
+  const loader = new GLTFLoader().setDRACOLoader(draco).setMeshoptDecoder(MeshoptDecoder);
+  const resourcePath = new URL(".", new URL(modelUrl, location.href)).href;
+  const gltf = await loader.parseAsync(buffer, resourcePath).finally(() => draco.dispose());
   const t2 = performance.now();
   await nextFrame();
-  const model = batchModel(gltf.scene);
-  disposeScene(gltf.scene);
+  const model = gltf.animations.length ? animatedModel(gltf.scene, gltf.animations) : batchModel(gltf.scene);
+  if (!gltf.animations.length) disposeScene(gltf.scene);
   const t3 = performance.now();
   return { model, times: { fetch: (t1 - t0) / 1000, parse: (t2 - t1) / 1000, batch: (t3 - t2) / 1000 } };
 }

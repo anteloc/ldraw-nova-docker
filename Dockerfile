@@ -107,6 +107,19 @@ RUN set -eux; \
     cp /tmp/lor/LICENSE /opt/web/viewer-vendor/LICENSE-ldraworg-library.txt; \
     rm -rf /tmp/lor
 
+# GLB loaders must match ldbi's Three.js r139 globals. Decoder assets are shared
+# with the XR viewer, from its pinned super-three dependency (no runtime CDN).
+RUN set -eux; \
+    mkdir -p /opt/web/viewer-vendor/gltf; \
+    for loader in GLTFLoader DRACOLoader; do \
+        curl -fsSL "https://raw.githubusercontent.com/mrdoob/three.js/r139/examples/js/loaders/${loader}.js" \
+            -o "/opt/web/viewer-vendor/gltf/${loader}.js"; \
+    done; \
+    curl -fsSL https://raw.githubusercontent.com/mrdoob/three.js/r139/LICENSE \
+        -o /opt/web/viewer-vendor/gltf/LICENSE-three.txt
+COPY --from=xr /src/node_modules/three/examples/jsm/libs/draco/gltf/ /opt/web/viewer-vendor/gltf/draco/
+COPY --from=xr /src/node_modules/three/examples/jsm/libs/meshopt_decoder.module.js /opt/web/viewer-vendor/gltf/meshopt_decoder.module.js
+
 # Parts index for the agent tools (find_parts: part descriptions).
 # Only depends on the library above, so app edits don't rebuild it.
 COPY web/backend/build_index.py /opt/index/build_index.py

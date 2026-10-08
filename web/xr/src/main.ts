@@ -1,8 +1,8 @@
 // LDraw mixed-reality viewer: /xr/?model=<url>[&parts=N][&stats=1][&fps=72|90][&scale=1][&light=1]
 //   [&occlusion=hard|soft|minmax|off][&emulate=quest3]
 //
-// Loads the model as GLB (converted by the backend with mpd2glb), batches it
-// into a few draw calls (batching.ts) and shows it with Meta's Immersive Web
+// Loads the canonical GLB, keeping animations or batching static models
+// into a few draw calls (batching.ts), and shows it with Meta's Immersive Web
 // SDK: passthrough mixed reality on a Quest 3 (immersive-ar), VR elsewhere.
 import {
   Color,
@@ -98,6 +98,7 @@ class MenuSystem extends createSystem({ panels: { required: [PanelUI, PanelDocum
   static toggle = () => {};
   static isOpen = () => false;
   static cues: ControllerCues | null = null;
+  static onReady = (_doc: UIKitDocument) => {};
 
   init() {
     this.queries.panels.subscribe("qualify", (entity) => {
@@ -110,6 +111,7 @@ class MenuSystem extends createSystem({ panels: { required: [PanelUI, PanelDocum
         doc.getElementById(id)?.addEventListener("click", action);
       }
       MenuSystem.document = doc;
+      MenuSystem.onReady(doc);
     });
   }
 
@@ -204,6 +206,26 @@ async function main() {
 
   const placed = new PlacedModel(world, model);
   occlude(placed.entity, occlusion);
+  const syncPlaybackButton = () => {
+    const doc = MenuSystem.document;
+    const playing = model.animation?.playing ?? false;
+    doc?.getElementById("animation")?.setProperties({ display: model.animation ? "flex" : "none" });
+    doc?.getElementById("animation-label")?.setProperties({ text: playing ? "Pause" : "Play" });
+    doc?.getElementById("animation-play")?.setProperties({ display: playing ? "none" : "flex" });
+    doc?.getElementById("animation-pause")?.setProperties({ display: playing ? "flex" : "none" });
+  };
+  const stopAnimationFrames = world.onXRFrame((_frame, delta) => {
+    if (model.animation?.update(delta)) placed.syncBounds();
+  });
+  world.renderer.xr.addEventListener("sessionend", () => {
+    model.animation?.setPlaying(false);
+    syncPlaybackButton();
+  });
+  addEventListener("pagehide", event => {
+    if (event.persisted) return;
+    stopAnimationFrames();
+    model.animation?.dispose();
+  });
   MenuSystem.cues = new ControllerCues(world);
   const preview = () => {
     placed.tabletop();
@@ -220,9 +242,15 @@ async function main() {
   MenuSystem.actions = {
     "real-size": () => (placed.realSize(), showMenu(false)),
     tabletop: () => (placed.tabletop(), showMenu(false)),
+    animation: () => {
+      if (!model.animation) return;
+      model.animation.setPlaying(!model.animation.playing);
+      syncPlaybackButton();
+    },
     "stats-button": () => setStats(!showStats),
     exit: () => world.exitXR(),
   };
+  MenuSystem.onReady = syncPlaybackButton;
   world.registerSystem(MenuSystem);
   const menu = world.createTransformEntity(undefined, { persistent: true });
   menu.addComponent(PanelUI, { config: `${import.meta.env.BASE_URL}ui/menu.uikitml` });
