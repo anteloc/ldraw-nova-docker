@@ -23,6 +23,7 @@ import browser_auth
 import inference
 import model_catalog
 import settings
+import sculpture
 import toolkit
 from store import ChatStore
 from tools import TOOL_SCHEMAS, ToolContext, ToolResult, dispatch
@@ -291,20 +292,26 @@ async def _run_turn(store: ChatStore, run: Run, entry: dict) -> None:
         return msg_id
 
     try:
+        schemas = available_tools(run.options) if use_tools else []
+        prompt_override, max_steps = sculpture.configure_turn(ctx, schemas, MAX_STEPS)
+        # Only Claude browser login uses a separate runtime; OpenAI uses the loop below.
         if entry.get("auth_mode") == "browser" and entry["litellm_params"]["model"].startswith("anthropic/"):
             from claude_agent import run_claude
-            await run_claude(store, run, entry, save, execute_tool, system_prompt(store, chat_id), use_tools)
+            await run_claude(store, run, entry, save, execute_tool, prompt_override or system_prompt(store, chat_id), use_tools, ctx,
+                             tool_schemas=schemas, max_turns=max_steps)
+            await sculpture.finish_design(run, ctx, save, execute_tool)
             return
         params = await inference.params_for(entry, run.options)
-        for _step in range(MAX_STEPS):
-            prompt = system_prompt(store, chat_id) + mode_prompt(run.options)
+        for _step in range(max_steps):
+            # Ordinary CAD prompts refresh workspace files and notes after each tool call.
+            prompt = (prompt_override or system_prompt(store, chat_id)) + mode_prompt(run.options)
             messages = [{"role": "system", "content": prompt},
                         *llm_history(store.messages(chat_id), vision, lambda ref: store.resolve(chat_id, ref), entry["litellm_params"]["model"], mark_turns=True)]
             budget = run.options.get("context_tokens") or model_catalog.profile(entry["litellm_params"]["model"])["context_window"]
             messages, removed = inference.bounded_history(messages, params["model"], budget)
             if removed:
                 run.emit("context", {"removed": removed})
-            kwargs = {"tools": available_tools(run.options)} if use_tools else {}
+            kwargs = {"tools": schemas} if use_tools else {}
             run.emit("progress", {"summary": "Agent is reviewing the request and choosing the next step."})
             stream = await litellm.acompletion(**params, messages=messages, stream=True, num_retries=2, **kwargs)
             inference.preserve_openrouter_reasoning_chunks(stream, params["model"])
@@ -367,9 +374,15 @@ async def _run_turn(store: ChatStore, run: Run, entry: dict) -> None:
             if images and vision:
                 save({"role": "user", "content": "Renders produced by the tool calls above:",
                       "_images_for_llm": images, "_hidden": True})
+            # Publication or denied approval ends the design loop immediately.
+            if ctx.workflow and (ctx.workflow.finished or ctx.workflow.stopped):
+                break
         else:
-            save({"role": "assistant", "_ui_only": True, "_notice": True,
-                  "content": f"Stopped after {MAX_STEPS} steps. Send a message to continue."})
+            # Sculpture's shorter limit finalises its last good draft below.
+            if not ctx.workflow:
+                save({"role": "assistant", "_ui_only": True, "_notice": True,
+                      "content": f"Stopped after {MAX_STEPS} steps. Send a message to continue."})
+        await sculpture.finish_design(run, ctx, save, execute_tool)
     except asyncio.CancelledError:
         if run.draft:
             save({"role": "assistant", "content": run.draft})
@@ -405,7 +418,7 @@ def available_tools(options: dict) -> list[dict]:
         return []
     if options.get("mode") == "plan" or options.get("permissions") == "read_only":
         return [t for t in TOOL_SCHEMAS if t["function"]["name"] in READ_TOOLS]
-    return TOOL_SCHEMAS
+    return sculpture.select_tools(TOOL_SCHEMAS, options.get("build_style"))
 
 
 async def execute_tool(run: Run, ctx: ToolContext, call_id: str, name: str, arguments: str) -> ToolResult:
@@ -428,6 +441,9 @@ async def execute_tool(run: Run, ctx: ToolContext, call_id: str, name: str, argu
             run.approvals.pop(approval_id, None)
             run.emit("approval_resolved", {"id": approval_id})
         if not approved:
+            # Stop the design flow after denial so finalisation won't ask again.
+            if ctx.workflow:
+                ctx.workflow.stopped = True
             return ToolResult("Tool denied by the user or approval timed out. Do not retry without a new user instruction.")
     scoped = replace(ctx, emit=lambda event, data: run.emit(event, {**data, "id": call_id} if event == "tool_output" else data))
     return await dispatch(scoped, name, arguments)

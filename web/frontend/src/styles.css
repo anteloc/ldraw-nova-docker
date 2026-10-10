@@ -436,3 +436,16 @@ input:focus, select:focus, textarea:focus, button:focus-visible {
 .build-activity time { font-variant-numeric: tabular-nums; white-space: nowrap; }
 .live-tool-output { max-height: 180px; overflow: auto; white-space: pre-wrap; overflow-wrap: anywhere; font-size: .75rem; padding: .65rem; }
 .progress-summary { margin: .4rem .7rem; font-size: .9rem; }
+
+.additional-settings-panel { position: fixed; z-index: 60; display: flex; flex-direction: column; overflow: hidden; padding: 12px; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; box-shadow: 0 8px 32px rgb(0 0 0 / .18); }
+.sculpture-setting { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.sculpture-option { display: inline-flex; align-items: center; gap: 8px; min-height: 32px; font-size: 13px; cursor: pointer; }
+.sculpture-option input { width: 14px; height: 14px; margin: 0; accent-color: var(--accent); }
+.sculpture-option:has(input:disabled) { opacity: .55; cursor: default; }
+.sculpture-info-button { display: inline-flex; align-items: center; justify-content: center; flex: 0 0 30px; width: 30px; height: 30px; padding: 0; line-height: 1; border-radius: 50%; color: var(--muted); background: var(--surface-2); }
+.sculpture-setting { flex-shrink: 0; }
+.sculpture-help { min-height: 0; overflow-y: auto; margin-top: 10px; font-size: 13px; line-height: 1.5; }
+.sculpture-help p { margin: 10px 0; }
+.sculpture-help ul { margin: 10px 0; padding-left: 20px; }
+.sculpture-help li + li { margin-top: 8px; }
+.sculpture-help small { display: block; font-size: 11px; }
