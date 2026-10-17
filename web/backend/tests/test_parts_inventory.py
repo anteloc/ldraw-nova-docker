@@ -70,7 +70,8 @@ def test_uploaded_palette_reaches_real_publication_gate(tmp_path, monkeypatch, e
             'xml': b'<INVENTORY><ITEM><ITEMTYPE>P</ITEMTYPE><ITEMID>3001</ITEMID><COLOR>5</COLOR><MINQTY>1</MINQTY></ITEM></INVENTORY>',
             'io': archive.getvalue()}[extension]
     policy = parts_policy.ChatPartsPolicy(tmp_path / 'protected')
-    store = ChatStore(tmp_path / 'chats', tmp_path / 'output')
+    settings.DATA_DIR.parent.chmod(0o755)
+    store = ChatStore(settings.CHATS_DIR, settings.OUTPUT_DIR)
     monkeypatch.setattr(parts_policy, 'policy', policy)
     monkeypatch.setattr(main, 'get_store', lambda: store)
     client = TestClient(main.app)
@@ -94,3 +95,16 @@ def test_uploaded_palette_reaches_real_publication_gate(tmp_path, monkeypatch, e
     (store.work_dir(chat) / 'allowed-parts.csv').write_text('part_id,color_id\n3001,0\n')
     with pytest.raises(PartsUnavailable):
         policy.validate_model(chat, placement.replace(b'1 4 ', b'1 0 '))
+
+    source.write_bytes(b'0 FILE palette.ldr\n0 Palette test\n0 Name: palette.ldr\n'
+                       b'0 Author: Tests\n0 !LDRAW_ORG Model\n' + placement + b'0 NOFILE\n')
+    published = asyncio.run(tools.dispatch(ctx, 'publish_model', {'path': str(source), 'name': f'Palette {extension}'}))
+    report = json.loads(published.content)
+    assert report['checks_passed'], report
+    assert report['parts_palette'] == report['parts_catalog'] == {'valid': True, 'physical_parts': 1}
+    model = store.resolve(chat, published.models[0]['model'])
+    assert model.read_bytes() == source.read_bytes()
+    assert model.with_suffix('.png').stat().st_size > 1000
+    comparison = asyncio.run(tools.t_run_toolkit(ctx, [
+        'compare-bom', str(model), '--csv', str(model.with_suffix('.csv'))]))
+    assert 'exit code 0' in comparison.content, comparison.content

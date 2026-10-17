@@ -72,10 +72,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 # `./LeoCAD.AppImage --appimage-extract`: the AppImage's "AI\x02" marker in the
 # ELF header padding makes emulated (e.g. Apple Silicon) builds fail with
 # "Exec format error", and this way nothing is executed at build time at all.
+# Fetch the pinned asset directly; GitHub API rate limits must not block builds.
 RUN set -eux; \
-    rel_json="$(curl -fsSL "https://api.github.com/repos/leozide/leocad/releases/tags/${LEOCAD_TAG}")"; \
-    asset_url="$(printf '%s' "$rel_json" | grep -oP '"browser_download_url":\s*"\K[^"]*x86_64\.AppImage' | head -n1)"; \
-    test -n "$asset_url"; \
+    asset_url="https://github.com/leozide/leocad/releases/download/${LEOCAD_TAG}/LeoCAD-Linux-${LEOCAD_TAG#v}-x86_64.AppImage"; \
     echo "Downloading: ${asset_url}"; \
     curl -fsSL "$asset_url" -o /tmp/LeoCAD.AppImage; \
     offset="$(python3 -c 'import struct,sys; h=open(sys.argv[1],"rb").read(64); shoff,=struct.unpack_from("<Q",h,0x28); shentsize,shnum=struct.unpack_from("<HH",h,0x3A); print(shoff+shentsize*shnum)' /tmp/LeoCAD.AppImage)"; \
@@ -274,10 +273,12 @@ RUN set -eux; \
 # run mpd2glb.
 COPY scripts/ /opt/scripts/
 ENV PATH="/opt/scripts:${PATH}"
+# Bun can hang under QEMU in BuildKit; run this smoke check on native x86 only.
+ARG BUILDARCH
 RUN set -eux; \
     chmod -R a+rX /opt/scripts; \
     find /opt/scripts -type f -exec chmod a+x {} +; \
-    mpd2glb.sh --help > /dev/null
+    if [ "$BUILDARCH" = amd64 ]; then mpd2glb.sh --help > /dev/null; fi
 
 # --- Gallery models, with their snapshots, BOMs and notes (.md).
 # Kept separate from generated models on the My Models page.
