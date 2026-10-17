@@ -6,6 +6,7 @@ Run (the image's default CMD):
 from __future__ import annotations
 
 import asyncio
+import base64
 import json
 import logging
 import tempfile
@@ -29,6 +30,8 @@ from pydantic import BaseModel, Field
 from starlette.background import BackgroundTask
 
 import agent
+import parts_policy
+from parts_catalog import PartsCatalog
 import gallery
 import glb
 import llm_config
@@ -82,8 +85,10 @@ async def same_origin_api(request: Request, call_next):
             size = int(request.headers.get("content-length", "0"))
         except ValueError:
             return JSONResponse({"detail": "Invalid Content-Length"}, status_code=400)
-        if size > 18 * 1024 * 1024:
-            return JSONResponse({"detail": "Request exceeds 18 MB"}, status_code=413)
+        # A 16 MB binary palette needs about 22 MB when base64 encoded in JSON.
+        limit_mb = 23 if request.url.path == "/api/parts-palette/import" else 18
+        if size > limit_mb * 1024 * 1024:
+            return JSONResponse({"detail": f"Request exceeds {limit_mb} MB"}, status_code=413)
     response = await call_next(request)
     if request.url.path.startswith("/api/environment") or request.url.path.endswith("/edit"):
         response.headers["Cache-Control"] = "no-store"
@@ -290,6 +295,8 @@ def llm_provider_models(provider: str):
 
 class NewChat(BaseModel):
     llm_model_id: Optional[str] = None
+    parts_palette_csv: Optional[str] = Field(default=None, min_length=1, max_length=16 * 1024 * 1024)
+    parts_palette_enabled: bool = True
 
 
 class ChatPatch(BaseModel):
@@ -401,7 +408,108 @@ def chats_list():
 
 @app.post("/api/chats")
 def chats_create(body: NewChat):
-    return get_store().create_chat(llm_model_id=body.llm_model_id)
+    if body.parts_palette_csv is not None:
+        try:
+            PartsCatalog.from_csv(body.parts_palette_csv)
+        except ValueError as exc:
+            raise HTTPException(400, str(exc)) from None
+    store = get_store()
+    chat = store.create_chat(llm_model_id=body.llm_model_id)
+    if body.parts_palette_csv is not None:
+        parts_policy.policy.configure(store, chat["id"], body.parts_palette_csv)
+    if not body.parts_palette_enabled:
+        parts_policy.policy.set_enabled(store, chat["id"], False)
+    return chat
+
+
+class PartsPaletteRequest(BaseModel):
+    csv: str = Field(min_length=1, max_length=16 * 1024 * 1024)
+
+
+class PartsPaletteUpload(BaseModel):
+    filename: str = Field(min_length=1, max_length=255)
+    data_base64: str = Field(min_length=1, max_length=22_369_624)
+
+
+@app.post("/api/parts-palette/import")
+def import_parts_palette(body: PartsPaletteUpload):
+    try:
+        data = base64.b64decode(body.data_base64, validate=True)
+        palette = PartsCatalog.from_upload(body.filename, data)
+        csv = palette.to_csv()
+        if len(csv.encode("utf-8")) > 16 * 1024 * 1024:
+            raise ValueError("Converted palette exceeds 16 MB")
+    except ValueError as exc:
+        raise HTTPException(400, str(exc)) from None
+    return {"csv": csv, "allowed_combinations": len(palette.parts), "enabled": True}
+
+
+@app.get("/api/parts-palette/example")
+def example_parts_palette():
+    return PlainTextResponse("part_id,color_id,max_quantity\n3001,4,20\n3002,0,10\n",
+        media_type="text/csv", headers={"Content-Disposition": "attachment; filename=parts-palette-example.csv"})
+
+
+@app.post("/api/parts-palette/validate")
+async def validate_parts_palette(body: PartsPaletteRequest):
+    try:
+        palette = PartsCatalog.from_csv(body.csv)
+    except ValueError as exc:
+        raise HTTPException(400, str(exc)) from None
+    return {"allowed_combinations": len(palette.parts), "enabled": True}
+
+
+@app.get("/api/chats/{chat_id}/parts-palette")
+def chat_parts_palette(chat_id: str):
+    get_store().get_chat(chat_id) or _not_found("no such chat")
+    return parts_policy.policy.info(chat_id)
+
+
+def palette_edit_store(chat_id: str):
+    store = get_store()
+    store.get_chat(chat_id) or _not_found("no such chat")
+    if agent.is_running(chat_id):
+        raise HTTPException(409, "Wait for the current turn to finish before changing its palette")
+    return store
+
+
+@app.put("/api/chats/{chat_id}/parts-palette")
+async def configure_parts_palette(chat_id: str, body: PartsPaletteRequest):
+    store = palette_edit_store(chat_id)
+    try:
+        parts_policy.policy.configure(store, chat_id, body.csv)
+    except ValueError as exc:
+        raise HTTPException(400, str(exc)) from None
+    return parts_policy.policy.info(chat_id)
+
+
+@app.put("/api/chats/{chat_id}/parts-catalog")
+async def configure_parts_catalog(chat_id: str, body: PartsPaletteRequest):
+    """Compatibility alias for existing inventory clients."""
+    result = await configure_parts_palette(chat_id, body)
+    return {"parts_catalog_version": parts_policy.CATALOG_VERSION,
+            "allowed_combinations": result["allowed_combinations"]}
+
+
+class PartsPaletteSelection(BaseModel):
+    enabled: bool
+
+
+@app.patch("/api/chats/{chat_id}/parts-palette")
+async def select_parts_palette(chat_id: str, body: PartsPaletteSelection):
+    store = palette_edit_store(chat_id)
+    try:
+        parts_policy.policy.set_enabled(store, chat_id, body.enabled)
+    except ValueError as exc:
+        raise HTTPException(400, str(exc)) from None
+    return parts_policy.policy.info(chat_id)
+
+
+@app.delete("/api/chats/{chat_id}/parts-palette")
+async def clear_parts_palette(chat_id: str):
+    store = palette_edit_store(chat_id)
+    parts_policy.policy.clear(store, chat_id)
+    return parts_policy.policy.info(chat_id)
 
 
 @app.get("/api/chats/{chat_id}")

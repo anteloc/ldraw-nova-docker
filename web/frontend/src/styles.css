@@ -436,3 +436,12 @@ input:focus, select:focus, textarea:focus, button:focus-visible {
 .build-activity time { font-variant-numeric: tabular-nums; white-space: nowrap; }
 .live-tool-output { max-height: 180px; overflow: auto; white-space: pre-wrap; overflow-wrap: anywhere; font-size: .75rem; padding: .65rem; }
 .progress-summary { margin: .4rem .7rem; font-size: .9rem; }
+/* Optional parts palette. */
+.parts-palette { border: 1px solid var(--border); border-radius: 10px; background: var(--surface-2); padding: 12px; margin-bottom: 10px; }
+.palette-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 7px; }
+.palette-status { display: flex; flex-direction: column; gap: 3px; min-width: 0; flex: 1 1 220px; }
+.palette-status span { overflow-wrap: anywhere; font-size: 12px; }
+.palette-actions { display: flex; flex-wrap: wrap; gap: 6px; }
+.parts-palette .banner { margin-top: 10px; }
+.palette-toggle { display: flex; align-items: center; gap: 9px; margin: 10px 0 6px; cursor: pointer; font-weight: 600; }
+.palette-toggle input { width: 18px; height: 18px; flex: 0 0 auto; accent-color: var(--accent); }

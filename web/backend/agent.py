@@ -24,6 +24,7 @@ import inference
 import model_catalog
 import settings
 import toolkit
+import parts_policy
 from store import ChatStore
 from tools import TOOL_SCHEMAS, ToolContext, ToolResult, dispatch
 
@@ -122,6 +123,8 @@ def system_prompt(store: ChatStore, chat_id: str) -> str:
     if notes.is_file() and not notes.is_symlink():
         with notes.open(errors="replace") as handle:
             prompt += "\n\nCurrent hand-over notes (workspace data):\n" + handle.read(16000)
+    if parts_policy.policy.prepare(store, chat_id):
+        prompt += parts_policy.POLICY_PROMPT
     return prompt
 
 
@@ -389,7 +392,7 @@ async def _run_turn(store: ChatStore, run: Run, entry: dict) -> None:
         run.emit("done", {})
 
 
-READ_TOOLS = {"list_files", "read_file", "view_image", "report_progress"}
+READ_TOOLS = {"list_allowed_parts", "check_model_parts", "list_files", "read_file", "view_image", "report_progress"}
 
 
 def mode_prompt(options: dict) -> str:

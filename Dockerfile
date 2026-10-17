@@ -285,6 +285,8 @@ COPY models-gallery/ /opt/models-gallery/
 
 COPY leocad_render.py example.py /app/
 COPY web/backend/ /app/web/backend/
+# Keep the palette parser shared with the paired standalone toolkit.
+COPY --from=nova ldraw_tools/parts_catalog.py /app/web/backend/parts_catalog.py
 COPY web/viewer/ /opt/web/viewer/
 COPY --from=frontend /src/dist/ /opt/web/static/
 COPY --from=xr /src/dist/ /opt/web/xr/

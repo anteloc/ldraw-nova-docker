@@ -2,6 +2,7 @@ import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react
 import { useLocation, useParams } from "react-router-dom";
 import { api, isPending, type ChatDetail, type ChatModel, type Message, type Approval, type TurnOptions, type DocumentUpload } from "../api";
 import Composer from "../components/Composer";
+import PartsPalette from "../components/PartsPalette";
 import Markdown from "../components/Markdown";
 import ToolCard from "../components/ToolCard";
 import ModelCard from "../components/ModelCard";
@@ -23,6 +24,7 @@ export default function ChatPage() {
   const [detail, setDetail] = useState<ChatDetail | null>(null);
   const [notFound, setNotFound] = useState(false);
   const [running, setRunning] = useState(false);
+  const [paletteBusy, setPaletteBusy] = useState(true);
   const [draft, setDraft] = useState("");
   const [persisting, setPersisting] = useState("");
   const [tools, setTools] = useState<RunningTool[]>([]);
@@ -280,6 +282,7 @@ export default function ChatPage() {
           <button type="button" onClick={() => api.approve(id, a.id, false).catch(e => setError(e.message))}>Deny</button>{" "}
           <button type="button" className="primary" onClick={() => api.approve(id, a.id, true).catch(e => setError(e.message))}>Allow once</button>
         </div>)}
+        <PartsPalette key={`palette-${id}`} chatId={id} running={running} onBusy={setPaletteBusy} />
         <Composer
           key={id}
           initialOptions={detail.chat.options}
@@ -288,6 +291,7 @@ export default function ChatPage() {
           onSend={send}
           onStop={() => api.cancel(id)}
           running={running}
+          blocked={paletteBusy}
         />
       </div>
     </div>
