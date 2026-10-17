@@ -8,6 +8,8 @@ Where things go:
 """
 from __future__ import annotations
 
+import asyncio
+import subprocess
 import inspect
 import hashlib
 import json
@@ -22,6 +24,7 @@ from urllib.parse import quote
 import sandbox
 import settings
 import toolkit
+import parts_policy
 import environment_config
 import gallery
 from leocad_render import bom_path_for, list_models, snapshot_path_for
@@ -171,6 +174,11 @@ async def t_publish_model(ctx: ToolContext, path: str, name: str | None = None) 
     source_bytes = source.read_bytes()
     revision = review / "model.mpd"
     revision.write_bytes(source_bytes)
+    try:
+        parts_report = await asyncio.to_thread(parts_policy.policy.validate_model, ctx.chat_id, source_bytes)
+    except (ValueError, OSError, subprocess.SubprocessError):
+        raise ToolError("Palette validation blocked publication. Run check_model_parts, repair the "
+                        "unavailable parts or colors, and publish again.") from None
     report = review / "validation.json"
     ctx.emit("progress", {"summary": "Checking the model with LDraw Nova before publication."})
     validation = await run_command(ctx, ["./ldraw-agent", "validate", str(revision), "--geometry",
@@ -210,6 +218,9 @@ async def t_publish_model(ctx: ToolContext, path: str, name: str | None = None) 
               "validation_path": str(report),
               "physical_validity": "not_proven", "warnings": warnings,
               "note": "Open the preview with view_image and complete visual review and compare-bom before final delivery."}
+    if parts_report is not None:
+        result["parts_palette"] = parts_report
+        result["parts_catalog"] = parts_report  # Existing inventory clients.
     if image.exists():
         result["preview"] = artifact_url(ctx, image)
         result["preview_path"] = str(image)
@@ -217,6 +228,33 @@ async def t_publish_model(ctx: ToolContext, path: str, name: str | None = None) 
         result["bom"] = artifact_url(ctx, bom)
         result["bom_path"] = str(bom)
     return ToolResult(json.dumps(result, indent=2), models=[ref])
+
+
+async def t_list_allowed_parts(ctx: ToolContext, query: str = "", color_id: int | None = None,
+                               offset: int = 0, limit: int = 50) -> ToolResult:
+    catalog = parts_policy.policy.load(ctx.chat_id)
+    if catalog is None:
+        raise ToolError("No parts catalog is configured for this session")
+    if (not isinstance(query, str) or len(query) > 200 or type(offset) is not int
+            or type(limit) is not int or not 0 <= offset <= 100000 or not 1 <= limit <= 100
+            or color_id is not None and type(color_id) is not int):
+        raise ToolError("Use a query of at most 200 characters and a limit between 1 and 100")
+    return ToolResult(json.dumps(catalog.search(query, color_id, offset=offset, limit=limit)))
+
+
+async def t_check_model_parts(ctx: ToolContext, path: str) -> ToolResult:
+    source = resolve_path(ctx, path, write=True)
+    if not source.is_file() or source.stat().st_size > 32 * 1024 * 1024:
+        raise ToolError("Choose a model file smaller than 32 MB")
+    try:
+        report = await asyncio.to_thread(parts_policy.policy.validate_model, ctx.chat_id, source.read_bytes())
+    except ValueError as exc:
+        return ToolResult(json.dumps({"valid": False, "error": str(exc)}))
+    except (OSError, subprocess.SubprocessError):
+        return ToolResult(json.dumps({"valid": False, "error": "Unable to resolve all physical parts; check dependencies."}))
+    if report is None:
+        raise ToolError("No parts catalog is configured for this session")
+    return ToolResult(json.dumps(report))
 
 
 async def t_list_files(ctx: ToolContext, path: str = "") -> ToolResult:
@@ -273,6 +311,13 @@ def _fn(name: str, description: str, properties: dict, required: list[str]) -> d
 
 
 TOOLS: dict[str, tuple[dict, Callable[..., Awaitable[ToolResult]]]] = {
+    "list_allowed_parts": (_fn("list_allowed_parts", "Search the authoritative allowed part/color catalog. "
+        "Use before designing; IDs and colors are LDraw. Results are paginated.",
+        {"query": {"type": "string"}, "color_id": {"type": "integer"},
+         "offset": {"type": "integer"}, "limit": {"type": "integer"}}, []), t_list_allowed_parts),
+    "check_model_parts": (_fn("check_model_parts", "Expand a candidate MPD and check all physical "
+        "part/color pairs and quantities against the allowed catalog. Repair violations before publishing.",
+        {"path": {"type": "string"}}, ["path"]), t_check_model_parts),
     "run_toolkit": (_fn("run_toolkit",
         "Run the standalone LDraw Nova CLI. All commands are available: doctor, spec, discover, catalog, "
         "study, extract, examples, build, validate, inspect, render, compare-bom, manual, vehicle, spaceship, "

@@ -8,12 +8,13 @@ import DocumentIcon from "./DocumentIcon";
 
 const DOCUMENT_TYPES = ".pdf,.txt,.md,.csv,.json,.yaml,.yml,.xml,.html,.rtf,.docx,.xlsx,.pptx,.mpd,.ldr,.dat";
 
-export default function Composer({ llmId, onLlmChange, onSend, onStop, running, autoFocus, initialText = "", initialOptions }: {
+export default function Composer({ llmId, onLlmChange, onSend, onStop, running, blocked = false, autoFocus, initialText = "", initialOptions }: {
   llmId: string | null;
   onLlmChange: (id: string) => void;
   onSend: (text: string, options: TurnOptions, images: string[], documents: DocumentUpload[]) => Promise<void> | void;
   onStop?: () => void;
   running: boolean;
+  blocked?: boolean;
   autoFocus?: boolean;
   initialText?: string;
   initialOptions?: TurnOptions;
@@ -31,7 +32,7 @@ export default function Composer({ llmId, onLlmChange, onSend, onStop, running, 
   const [error, setError] = useState("");
   const model = llms.find(m => m.id === llmId);
   const profile = model?.profile;
-  const disabled = running || busy;
+  const disabled = running || busy || blocked;
   // Resolve synchronously so a quick model switch + Send cannot submit the
   // previous provider's effort/context while waiting for an effect to run.
   const sameModel = selection.modelId === llmId;
@@ -149,7 +150,7 @@ export default function Composer({ llmId, onLlmChange, onSend, onStop, running, 
       </div>
       <span className="generation-cost-warning" role="note">⚠ Building models may incur charges.</span>
       {running ? <button type="button" className="danger send-button" onClick={onStop}>Stop</button> :
-        <button type="submit" className="primary send-button" disabled={!text.trim() || busy || !model}>Send <span aria-hidden>↑</span></button>}
+        <button type="submit" className="primary send-button" disabled={!text.trim() || disabled || !model}>Send <span aria-hidden>↑</span></button>}
     </div>
     <div className="composer-hint muted">Enter to send · Shift+Enter for a new line</div>
   </form>;
