@@ -285,6 +285,8 @@ COPY models-gallery/ /opt/models-gallery/
 
 COPY leocad_render.py example.py /app/
 COPY web/backend/ /app/web/backend/
+# Fail the build if the web app expects guides absent from the sibling toolkit.
+RUN PYTHONPATH=/app:/app/web/backend python3 -c "import toolkit; toolkit.instructions(); toolkit.builder_guides()"
 COPY web/viewer/ /opt/web/viewer/
 COPY --from=frontend /src/dist/ /opt/web/static/
 COPY --from=xr /src/dist/ /opt/web/xr/

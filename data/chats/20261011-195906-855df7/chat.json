@@ -1,0 +1,13 @@
+{
+  "id": "20261011-195906-855df7",
+  "title": "build me the most beautiful, cozy home you can think of",
+  "llm_model_id": "3f4fe153cbed",
+  "created_at": 1791748746.2907305,
+  "updated_at": 1791748746.9064462,
+  "options": {
+    "mode": "plan",
+    "permissions": "ask",
+    "effort": "xhigh",
+    "context_tokens": 1000000
+  }
+}

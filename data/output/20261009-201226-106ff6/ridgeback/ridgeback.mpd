@@ -1,0 +1,51 @@
+0 FILE ridgeback.ldr
+0 A Technic 4x4 trail crawler: portal-style suspension, a gear-driven winch and a hinged bonnet over a real piston engine
+0 Name: ridgeback.ldr
+0 Author: ldraw-nova kit
+0 !LDRAW_ORG Model
+0 // chassis-left-rail: 32278.dat
+1 72 -60 0 0 1 0 0 0 1 0 0 0 1 32278.dat
+0 // chassis-right-rail: 32278.dat
+1 72 60 0 0 1 0 0 0 1 0 0 0 1 32278.dat
+0 // pin-left-front-bumper: 2780.dat
+1 0 -60 10 -120 0 0 1 1 0 0 0 1 0 2780.dat
+0 // cross-front-bumper: 32524.dat
+1 72 0 20 -120 0 0 1 0 1 0 -1 0 0 32524.dat
+0 // pin-close-front-bumper: 2780.dat
+1 0 60 10 -120 0 0 -1 -1 0 0 0 1 0 2780.dat
+0 // pin-left-front-axle: 2780.dat
+1 0 -60 10 -60 0 0 1 1 0 0 0 1 0 2780.dat
+0 // cross-front-axle: 32524.dat
+1 72 0 20 -60 0 0 1 0 1 0 -1 0 0 32524.dat
+0 // pin-close-front-axle: 2780.dat
+1 0 60 10 -60 0 0 -1 -1 0 0 0 1 0 2780.dat
+0 // pin-left-centre: 2780.dat
+1 0 -60 10 0 0 0 1 1 0 0 0 1 0 2780.dat
+0 // cross-centre: 32524.dat
+1 72 0 20 0 0 0 1 0 1 0 -1 0 0 32524.dat
+0 // pin-close-centre: 2780.dat
+1 0 60 10 0 0 0 -1 -1 0 0 0 1 0 2780.dat
+0 // pin-left-rear-axle: 2780.dat
+1 0 -60 10 60 0 0 1 1 0 0 0 1 0 2780.dat
+0 // cross-rear-axle: 32524.dat
+1 72 0 20 60 0 0 1 0 1 0 -1 0 0 32524.dat
+0 // pin-close-rear-axle: 2780.dat
+1 0 60 10 60 0 0 -1 -1 0 0 0 1 0 2780.dat
+0 // pin-left-rear-bumper: 2780.dat
+1 0 -60 10 120 0 0 1 1 0 0 0 1 0 2780.dat
+0 // cross-rear-bumper: 32524.dat
+1 72 0 20 120 0 0 1 0 1 0 -1 0 0 32524.dat
+0 // pin-close-rear-bumper: 2780.dat
+1 0 60 10 120 0 0 -1 -1 0 0 0 1 0 2780.dat
+0 STEP
+0 // strut-fl: 3706.dat
+1 0 -40 80 -60 0 1 0 1 0 0 0 0 -1 3706.dat
+0 // hub-fl: 10197.dat
+1 72 -40 140 -60 0 1 0 1 0 0 0 0 -1 10197.dat
+0 // joiner-fl: 6538a.dat
+1 72 -70 140 -60 0 0 -1 1 0 0 0 -1 0 6538a.dat
+0 // axle-fl: 3706.dat
+1 0 -140 140 -60 1 0 0 0 0 1 0 -1 0 3706.dat
+0 // wheel-fl: 22253c01.dat
+1 0 -194 140 -60 0 0 -1 1 0 0 0 -1 0 22253c01.dat
+0 NOFILE

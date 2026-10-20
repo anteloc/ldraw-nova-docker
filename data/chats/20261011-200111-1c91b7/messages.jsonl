@@ -1,0 +1,4 @@
+{"id": 1, "created_at": 1791748871.9625254, "role": "user", "content": "build me the most beautiful, cozy home you can think of"}
+{"id": 2, "created_at": 1791748871.9652717, "role": "assistant", "_ui_only": true, "_error": true, "content": "FileNotFoundError: Provider request failed. Check login, model access and settings."}
+{"id": 3, "created_at": 1791748889.9776394, "role": "user", "content": "build me the most beautiful, cozy home you can think of"}
+{"id": 4, "created_at": 1791748890.0038462, "role": "assistant", "_ui_only": true, "_error": true, "content": "FileNotFoundError: Provider request failed. Check login, model access and settings."}

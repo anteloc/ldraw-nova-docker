@@ -1,0 +1,158 @@
+0 FILE saltline-x9.ldr
+0 Salt-flat streamliner with exposed reduction and twin tails
+0 Name: saltline-x9.ldr
+0 Author: ldraw-nova kit
+0 !LDRAW_ORG Model
+0 // mid-frame-left: 32278.dat
+1 72 -60 -80 0 1 0 0 0 1 0 0 0 1 32278.dat
+0 // mid-frame-right: 32278.dat
+1 72 60 -80 0 1 0 0 0 1 0 0 0 1 32278.dat
+0 // front-frame-left-pin: 2780.dat
+1 0 -60 -70 -80 0 0 1 1 0 0 0 1 0 2780.dat
+0 // front-frame-cross: 32524.dat
+1 72 0 -60 -80 0 0 1 0 1 0 -1 0 0 32524.dat
+0 // front-frame-right-pin: 2780.dat
+1 0 60 -70 -80 0 0 -1 -1 0 0 0 1 0 2780.dat
+0 // cockpit-frame-left-pin: 2780.dat
+1 0 -60 -70 0 0 0 1 1 0 0 0 1 0 2780.dat
+0 // cockpit-frame-cross: 32524.dat
+1 72 0 -60 0 0 0 1 0 1 0 -1 0 0 32524.dat
+0 // cockpit-frame-right-pin: 2780.dat
+1 0 60 -70 0 0 0 -1 -1 0 0 0 1 0 2780.dat
+0 // rear-frame-left-pin: 2780.dat
+1 0 -60 -70 20 0 0 1 1 0 0 0 1 0 2780.dat
+0 // rear-frame-cross: 32524.dat
+1 72 0 -60 20 0 0 1 0 1 0 -1 0 0 32524.dat
+0 // rear-frame-right-pin: 2780.dat
+1 0 60 -70 20 0 0 -1 -1 0 0 0 1 0 2780.dat
+0 // front-left-bearing-pin: 2780.dat
+1 0 -60 -70 -140 0 0 1 1 0 0 0 1 0 2780.dat
+0 // front-left-bearing: 32184.dat
+1 72 -60 -60 -140 -1 0 0 0 0 1 0 1 0 32184.dat
+0 // front-right-bearing-pin: 2780.dat
+1 0 60 -70 -140 0 0 1 1 0 0 0 1 0 2780.dat
+0 // front-right-bearing: 32184.dat
+1 72 60 -60 -140 -1 0 0 0 0 1 0 1 0 32184.dat
+0 // output-left-bearing-pin: 2780.dat
+1 0 -60 -70 140 0 0 1 1 0 0 0 1 0 2780.dat
+0 // output-left-bearing: 32184.dat
+1 72 -60 -60 140 -1 0 0 0 0 1 0 1 0 32184.dat
+0 // output-right-bearing-pin: 2780.dat
+1 0 60 -70 140 0 0 1 1 0 0 0 1 0 2780.dat
+0 // output-right-bearing: 32184.dat
+1 72 60 -60 140 -1 0 0 0 0 1 0 1 0 32184.dat
+0 // input-right-bearing-pin: 2780.dat
+1 0 60 -70 60 0 0 1 1 0 0 0 1 0 2780.dat
+0 // input-right-bearing: 32184.dat
+1 72 60 -60 60 -1 0 0 0 0 1 0 1 0 32184.dat
+0 // front-wheel-shaft: 3708.dat
+1 0 0 -60 -160 -1 0 0 0 0 1 0 1 0 3708.dat
+0 // front-wheel-left: 56904c01.dat
+1 0 -110 -60 -160 0 0 -1 -1 0 0 0 1 0 56904c01.dat
+0 // front-wheel-right: 56904c01.dat
+1 0 90 -60 -160 0 0 -1 -1 0 0 0 1 0 56904c01.dat
+0 // rear-wheel-shaft: 3708.dat
+1 0 0 -60 120 -1 0 0 0 0 1 0 1 0 3708.dat
+0 // rear-wheel-left: 56904c01.dat
+1 0 -110 -60 120 0 0 -1 -1 0 0 0 1 0 56904c01.dat
+0 // rear-wheel-right: 56904c01.dat
+1 0 90 -60 120 0 0 -1 -1 0 0 0 1 0 56904c01.dat
+0 // drive-output-24t: 3648b.dat
+1 72 30 -60 120 0 0 -1 -1 0 0 0 1 0 3648b.dat
+0 // drive-input-shaft: 3705.dat
+1 0 20 -60 80 -1 0 0 0 0 1 0 1 0 3705.dat
+0 // drive-input-8t: 3647.dat
+1 72 30 -60 80 0 0 1 1 0 0 0 1 0 3647.dat
+0 // upper-left-pin: 2780.dat
+1 0 -60 -90 80 0 0 -1 -1 0 0 0 1 0 2780.dat
+0 // upper-left-rail: 32525.dat
+1 0 -60 -100 20 -1 0 0 0 -1 0 0 0 1 32525.dat
+0 // upper-right-pin: 2780.dat
+1 0 60 -90 80 0 0 -1 -1 0 0 0 1 0 2780.dat
+0 // upper-right-rail: 32525.dat
+1 0 60 -100 20 -1 0 0 0 -1 0 0 0 1 32525.dat
+0 // upper-left-lock-5: 2780.dat
+1 0 -60 -90 -40 0 0 -1 -1 0 0 0 1 0 2780.dat
+0 // upper-left-lock-6: 2780.dat
+1 0 -60 -90 -20 0 0 -1 -1 0 0 0 1 0 2780.dat
+0 // upper-right-lock-5: 2780.dat
+1 0 60 -90 -40 0 0 -1 -1 0 0 0 1 0 2780.dat
+0 // upper-right-lock-6: 2780.dat
+1 0 60 -90 -20 0 0 -1 -1 0 0 0 1 0 2780.dat
+0 // nose-keel-pin: 2780.dat
+1 0 0 -70 -80 0 1 0 -1 0 0 0 0 1 2780.dat
+0 // nose-keel: 32525.dat
+1 25 0 -80 -140 -1 0 0 0 -1 0 0 0 1 32525.dat
+0 // body-left-fairing-pin: 2780.dat
+1 0 -60 -110 -60 0 0 -1 -1 0 0 0 1 0 2780.dat
+0 // body-left-fairing: 64681.dat
+1 15 -60 -120 -100 1 0 0 0 1 0 0 0 1 64681.dat
+0 // body-right-fairing-pin: 2780.dat
+1 0 60 -110 -60 0 0 -1 -1 0 0 0 1 0 2780.dat
+0 // body-right-fairing: 64393.dat
+1 15 60 -120 -100 1 0 0 0 1 0 0 0 1 64393.dat
+0 // nose-front-join: 2780.dat
+1 0 0 -70 -220 0 0 1 1 0 0 0 1 0 2780.dat
+0 // nose-front-cross: 32316.dat
+1 72 0 -60 -220 0 0 1 0 -1 0 1 0 0 32316.dat
+0 // nose-left-beam-pin: 2780.dat
+1 0 -40 -50 -220 0 1 0 1 0 0 0 0 -1 2780.dat
+0 // nose-left-shoulder: 32524.dat
+1 15 -40 -40 -220 1 0 0 0 1 0 0 0 1 32524.dat
+0 // nose-left-curve-pin: 2780.dat
+1 0 -40 -50 -260 0 0 -1 -1 0 0 0 1 0 2780.dat
+0 // nose-left-curve: 87080.dat
+1 15 -40 -60 -320 1 0 0 0 1 0 0 0 1 87080.dat
+0 // nose-right-beam-pin: 2780.dat
+1 0 40 -50 -220 0 1 0 1 0 0 0 0 -1 2780.dat
+0 // nose-right-shoulder: 32524.dat
+1 15 40 -40 -220 1 0 0 0 1 0 0 0 1 32524.dat
+0 // nose-right-curve-pin: 2780.dat
+1 0 40 -50 -260 0 0 -1 -1 0 0 0 1 0 2780.dat
+0 // nose-right-curve: 87086.dat
+1 15 40 -60 -320 1 0 0 0 1 0 0 0 1 87086.dat
+0 // cockpit-mount-pin: 2780.dat
+1 0 0 -90 -60 0 0 -1 -1 0 0 0 1 0 2780.dat
+0 // cockpit-shelf: 32316.dat
+1 72 0 -100 -60 0 0 1 0 1 0 -1 0 0 32316.dat
+0 // cockpit-seat-pin: 2780.dat
+1 0 0 -110 -60 0 1 0 -1 0 0 0 0 1 2780.dat
+0 // cockpit-seat-spine: 32316.dat
+1 0 0 -120 -40 1 0 0 0 1 0 0 0 1 32316.dat
+0 // cockpit-seat-fastener: 2780.dat
+1 0 0 -130 -40 0 0 -1 -1 0 0 0 1 0 2780.dat
+0 // cockpit-driver-seat: 2717.dat
+1 0 -10 -172 -18 0 0 -1 -1 0 0 0 1 0 2717.dat
+0 // tail-left-root-pin: 2780.dat
+1 0 -60 -110 120 0 0 -1 -1 0 0 0 1 0 2780.dat
+0 // tail-left-pedestal: 32523.dat
+1 15 -60 -120 140 1 0 0 0 1 0 0 0 1 32523.dat
+0 // tail-left-fin-pin: 2780.dat
+1 0 -60 -130 140 0 0 -1 -1 0 0 0 1 0 2780.dat
+0 // tail-left-fin: 32524.dat
+1 15 -60 -140 200 -1 0 0 0 -1 0 0 0 1 32524.dat
+0 // tail-left-cap-pin: 2780.dat
+1 0 -60 -150 220 0 0 -1 -1 0 0 0 1 0 2780.dat
+0 // tail-left-cap: 87080.dat
+1 25 -60 -160 180 1 0 0 0 1 0 0 0 1 87080.dat
+0 // tail-right-root-pin: 2780.dat
+1 0 60 -110 120 0 0 -1 -1 0 0 0 1 0 2780.dat
+0 // tail-right-pedestal: 32523.dat
+1 15 60 -120 140 1 0 0 0 1 0 0 0 1 32523.dat
+0 // tail-right-fin-pin: 2780.dat
+1 0 60 -130 140 0 0 -1 -1 0 0 0 1 0 2780.dat
+0 // tail-right-fin: 32524.dat
+1 15 60 -140 200 -1 0 0 0 -1 0 0 0 1 32524.dat
+0 // tail-right-cap-pin: 2780.dat
+1 0 60 -150 220 0 0 -1 -1 0 0 0 1 0 2780.dat
+0 // tail-right-cap: 87086.dat
+1 25 60 -160 180 1 0 0 0 1 0 0 0 1 87086.dat
+0 // drive-control-knob: 3713.dat
+1 25 -10 -60 80 0 0 1 1 0 0 0 1 0 3713.dat
+0 // nose-splitter-pin: 2780.dat
+1 0 0 -90 -240 0 0 -1 -1 0 0 0 1 0 2780.dat
+0 // nose-splitter: 32523.dat
+1 25 0 -100 -240 1 0 0 0 1 0 0 0 1 32523.dat
+0 // nose-cowl: 3034.dat
+1 15 -10 -108 -130 0 0 1 0 1 0 -1 0 0 3034.dat
+0 NOFILE

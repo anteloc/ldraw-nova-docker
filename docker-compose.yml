@@ -18,7 +18,7 @@ services:
       # HTTPS (self-signed), for headsets: WebXR needs HTTPS or localhost.
       - "${LDRAW_NOVA_WEB_HTTPS_PORT:-8443}:8443"
       # OpenAI browser OAuth callback, reachable only on the Docker host.
-      - "127.0.0.1:1455:1456"
+      - "127.0.0.1:${LOCAL_OPENAI_PORT:-1455}:1456"
     volumes:
       - ./data:/data       # host ./data <-> container /data (input: everything under it, output: output/)
       - config:/config     # LLM settings, API keys and browser sessions; kept out of ./data

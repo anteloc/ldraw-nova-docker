@@ -309,3 +309,35 @@ def test_claude_adapter_exposes_only_app_tools_and_runs_gate(monkeypatch):
     assert set(t.name for t in recorded["tools"]) == agent.READ_TOOLS
     assert recorded["executed"][3] == "read_file"
     assert [m["role"] for m in saved] == ["assistant", "tool", "assistant"]
+
+
+@pytest.mark.parametrize("error, text, exception", [
+    ("authentication_failed", "Provider authentication details", ValueError),
+    ("server_error", "Failed to refresh OAuth token: another Claude Code process is refreshing it", ValueError),
+    ("server_error", "Private provider diagnostics", RuntimeError),
+])
+def test_claude_runtime_errors_are_not_saved_as_answers(monkeypatch, error, text, exception):
+    import claude_agent
+    from claude_agent_sdk import AssistantMessage, TextBlock
+
+    class Client:
+        def __init__(self, options): pass
+        async def __aenter__(self): return self
+        async def __aexit__(self, *args): pass
+        async def query(self, message): pass
+        async def receive_response(self):
+            yield AssistantMessage(content=[TextBlock(text=text)], model="claude-sonnet-5-5", error=error)
+
+    monkeypatch.setattr(claude_agent, "ClaudeSDKClient", Client)
+    store = ChatStore(settings.CHATS_DIR, settings.OUTPUT_DIR)
+    chat = store.create_chat()
+    store.add_message(chat["id"], {"role": "user", "content": "hello"})
+    run = agent.Run(chat["id"], options={"mode": "chat"})
+    entry = {"litellm_params": {"model": "anthropic/claude-sonnet-5-5"}}
+    saved = []
+    with pytest.raises(exception) as caught:
+        asyncio.run(claude_agent.run_claude(store, run, entry, saved.append, None, "system", False))
+    assert saved == []
+    assert text not in str(caught.value)
+    if exception is ValueError:
+        assert "Reconnect Claude in Settings" in str(caught.value)

@@ -1,0 +1,13 @@
+0 FILE main-scene.ldr
+0 Main cottage assembly
+0 Name: main-scene.ldr
+0 Author: Agent
+0 !LDRAW_ORG Model
+0 // base-1: Foundation
+1 7 0 0 0 1 0 0 0 1 0 0 0 1 3069b.dat
+0 STEP
+0 // wall-1: Wall corner
+1 1 0 -28 0 1 0 0 0 1 0 0 0 1 3010.dat
+0 // wall-2: Wall section
+1 1 80 -28 0 1 0 0 0 1 0 0 0 1 3010.dat
+0 NOFILE

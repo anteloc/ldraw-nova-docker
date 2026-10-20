@@ -104,6 +104,12 @@ async def run_claude(store, run, entry, save, execute, prompt, use_tools):
                     run.emit("text", {"delta": delta["text"]})
             elif isinstance(event, AssistantMessage):
                 text = "\n".join(b.text for b in event.content if isinstance(b, TextBlock))
+                if event.error:
+                    # Runtime failures are not model answers or reusable history.
+                    # Return fixed guidance without exposing raw provider details.
+                    if event.error == "authentication_failed" or "Failed to refresh OAuth token:" in text:
+                        raise ValueError("Claude login expired or could not be refreshed. Reconnect Claude in Settings.")
+                    raise RuntimeError("Claude runtime could not complete the turn")
                 if text:
                     if not run.draft:
                         run.emit("text", {"delta": text})

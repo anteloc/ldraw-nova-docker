@@ -1,0 +1,13 @@
+{
+  "id": "20261009-201226-106ff6",
+  "title": "build me an amazing Technic model, not a crane, pick somethi\u2026",
+  "llm_model_id": "3f4fe153cbed",
+  "created_at": 1791576746.4143069,
+  "updated_at": 1791579896.7734327,
+  "options": {
+    "mode": "agent",
+    "permissions": "full",
+    "effort": "max",
+    "context_tokens": 1000000
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "author": "LDraw Nova Agent",
+  "sections": [
+    {
+      "name": "crawler-chassis.ldr",
+      "description": "Crawler chassis with suspension and steering",
+      "steps": [
+        [
+          { "id": "main-frame", "ref": "64179.dat", "colour": 71, "at": [0, 0, 0], "purpose": "Main structural beam" }
+        ],
+        [
+          { "id": "suspension-arm-fl", "ref": "41668.dat", "colour": 71, "at": [-40, 0, -40], "purpose": "Front Left Suspension Arm" },
+          { "id": "suspension-arm-fr", "ref": "41668.dat", "colour": 71, "at": [40, 0, -40], "purpose": "Front Right Suspension Arm" },
+          { "id": "rack-steering", "ref": "3743.dat", "colour": 1, "at": [0, 0, -60], "yaw": 90, "purpose": "Steering Rack" }
+        ]
+      ]
+    }
+  ]
+}

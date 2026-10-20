@@ -177,9 +177,14 @@ async def t_publish_model(ctx: ToolContext, path: str, name: str | None = None) 
                                          "--detail", "summary", "--report", str(report)], 1800)
     if validation.exit_code not in (0, 1) or not report.is_file():
         return ToolResult("Error: toolkit validation could not finish; model was not published.\n" + validation.as_text())
+    diagnostics = json.loads(report.read_text()).get("diagnostics", [])
+    errors = sum(d.get("severity") == "error" for d in diagnostics)
+    warning_count = sum(d.get("severity") == "warning" for d in diagnostics)
+    summary = f"{'PASS' if validation.exit_code == 0 else 'FAIL'}: {errors} errors, {warning_count} warnings"
     warnings = ["Physical buildability is not proven; read the validation and visual review reports."]
+    warnings.extend(f"{d['code']}: {d['message']}" for d in diagnostics if d.get("severity") in {"warning", "error"})
     if validation.exit_code == 1:
-        warnings.append("Toolkit validation failed. This revision is for inspection and needs repair.")
+        warnings.append(f"Toolkit validation failed ({errors} errors). This revision is for inspection and needs repair.")
     slug = _slug(name or source.stem)
     settings.GENERATED_DIR.mkdir(parents=True, exist_ok=True)
     # Reserve synchronously before the next await, including concurrent chats.
@@ -207,9 +212,10 @@ async def t_publish_model(ctx: ToolContext, path: str, name: str | None = None) 
               "download_url": model_url + "?download=1",
               "sha256": hashlib.sha256(source_bytes).hexdigest(),
               "validation": artifact_url(ctx, report), "checks_passed": validation.exit_code == 0,
-              "validation_path": str(report),
+              "validation_path": str(report), "check": summary[:4000],
               "physical_validity": "not_proven", "warnings": warnings,
-              "note": "Open the preview with view_image and complete visual review and compare-bom before final delivery."}
+              "note": "Open the preview with view_image. Before your final answer, run "
+                      "./ldraw-agent review on the final revision and inspect its reports and previews (checks, views, BOM comparison)."}
     if image.exists():
         result["preview"] = artifact_url(ctx, image)
         result["preview_path"] = str(image)
@@ -274,19 +280,21 @@ def _fn(name: str, description: str, properties: dict, required: list[str]) -> d
 
 TOOLS: dict[str, tuple[dict, Callable[..., Awaitable[ToolResult]]]] = {
     "run_toolkit": (_fn("run_toolkit",
-        "Run the standalone LDraw Nova CLI. All commands are available: doctor, spec, discover, catalog, "
-        "study, extract, examples, build, validate, inspect, render, compare-bom, manual, vehicle, spaceship, "
-        "technic, mechanism and more. Read instructions.md and relevant docs first. Output goes under output/. "
-        "Arguments are an array, without shell quoting or the executable. Use --help to inspect subcommands.",
+        "Run the standalone LDraw Nova CLI. Core commands: build (JSON plan to checked MPD), "
+        "review (build if needed, validate, render, compare BOMs), validate, inspect, render, compare-bom, "
+        "part (bounds and connectors), examples, discover, search, catalog, colours, spec, doctor, extract. "
+        "--help lists the advanced commands. Follow instructions.md. Output goes under output/. "
+        "Arguments are an array, without shell quoting or the executable.",
         {"arguments": {"type": "array", "items": {"type": "string"}},
          "timeout": {"type": "integer", "description": "Seconds, default 300, maximum 1800"}},
         ["arguments"]), t_run_toolkit),
     "publish_model": (_fn("publish_model",
         "Publish an output MPD revision as an interactive model card in this chat and the My Models collection. "
-        "Preserves source bytes, runs toolkit geometry validation, renders a snapshot and BOM. Failed checks "
-        "are flagged for repair. Use after generating a model and again after final visual review. "
+        "Preserves source bytes, runs toolkit geometry validation, renders a "
+        "snapshot and BOM. Failed checks and warnings are flagged for review. Use after generating a model and again "
+        "after final visual review. "
         "Use the returned card_url for interactive links, not the raw model_url. "
-        "Return links to plans, generator, manifests, reports and reviews alongside the card.",
+        "Return links to the source plan/generator, manifests and review reports alongside the card.",
         {"path": {"type": "string"}, "name": {"type": "string"}}, ["path"]), t_publish_model),
     "view_image": (_fn("view_image", "Open a PNG from the toolkit examples or output for actual visual review. "
         "The image is shown to you and the user. Use on rendered views before recording a visual review.",
@@ -295,12 +303,13 @@ TOOLS: dict[str, tuple[dict, Callable[..., Awaitable[ToolResult]]]] = {
         "completed checks, remaining work. Use throughout substantial builds, without private internal reasoning.",
         {"summary": {"type": "string"}}, ["summary"]), t_report_progress),
     "run_python": (_fn("run_python", "Run Python with the LDraw Nova virtualenv (pyldraw3, numpy, jsonschema). "
-        "Working directory has the toolkit repository layout. Use its builder/serializer; write under output/. "
+        "Working directory has the toolkit repository layout. Use its builder and workflow.build_checked "
+        "(docs/agent/plans.md); preserve the editable plan and write under output/. "
         "Code is saved for reproducibility. Call publish_model for user-visible model cards.",
         {"code": {"type": "string"}, "timeout": {"type": "integer", "description": "Seconds, default 60, max 1800"}},
         ["code"]), t_run_python),
     "run_shell": (_fn("run_shell", "Run bash in the toolkit workspace, with pipefail and live output. "
-        "./ldraw-agent, ./check-model.sh, ./prepare-glb.sh and global CLIs are available. "
+        "./ldraw-agent (build, review, validate, ...), ./prepare-glb.sh and global CLIs are available. "
         "TYPESAFE_API_KEY comes from Settings; never print it. Write under output/. "
         "Call publish_model to show a generated model in the chat.",
         {"command": {"type": "string"}, "timeout": {"type": "integer", "description": "Seconds, default 60, max 1800"}},

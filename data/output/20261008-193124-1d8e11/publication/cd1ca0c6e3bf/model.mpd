@@ -1,0 +1,15 @@
+0 FILE crawler-chassis.ldr
+0 Crawler chassis core
+0 Name: crawler-chassis.ldr
+0 Author: LDraw Nova Agent
+0 !LDRAW_ORG Model
+0 // side-left: Side structural beam
+1 71 -40 0 0 1 0 0 0 1 0 0 0 1 64179.dat
+0 // side-right: Side structural beam
+1 71 40 0 0 1 0 0 0 1 0 0 0 1 64179.dat
+0 STEP
+0 // cross-front: Front cross beam
+1 71 0 0 -40 0 0 1 0 1 0 -1 0 0 64179.dat
+0 // cross-rear: Rear cross beam
+1 71 0 0 40 0 0 1 0 1 0 -1 0 0 64179.dat
+0 NOFILE

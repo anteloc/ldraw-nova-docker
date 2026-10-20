@@ -8,15 +8,10 @@ import sandbox
 import environment_config
 
 
-# Mandatory, category-independent foundations. Supply these in full before the
-# first model call; partial tool reads were skipping design and review rules.
-# Subject-specific guides and the CLI reference remain available through tools.
+# Supply the plan format after instructions.md (about 7 KB). Category guides
+# and the CLI reference remain available through tools, read on demand.
 BUILDER_GUIDES = (
-    "docs/agent/ldraw-reference.md",
-    "docs/agent/geometry.md",
-    "docs/agent/visual-design.md",
-    "docs/agent/reference-discovery.md",
-    "docs/agent/validation.md",
+    "docs/agent/plans.md",
 )
 
 
@@ -67,9 +62,19 @@ def environment() -> dict[str, str]:
 
 
 def instructions() -> str:
-    return (root() / "instructions.md").read_text()
+    return _read_guide(root(), "instructions.md")
+
+
+def _read_guide(source: Path, path: str) -> str:
+    try:
+        return (source / path).read_text()
+    except FileNotFoundError:
+        raise ValueError(
+            f"LDraw toolkit guide is missing: {path}. The web app and ../ldraw-nova "
+            "must use matching instructions. Rebuild with docker compose up -d --build."
+        ) from None
 
 
 def builder_guides() -> str:
     source = root()
-    return "\n\n".join(f"--- {path} (complete) ---\n{(source / path).read_text()}" for path in BUILDER_GUIDES)
+    return "\n\n".join(f"--- {path} (complete) ---\n{_read_guide(source, path)}" for path in BUILDER_GUIDES)

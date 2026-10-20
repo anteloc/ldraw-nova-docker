@@ -1,0 +1,37 @@
+0 FILE crawler-main.ldr
+0 Final Crawler Model
+0 Name: crawler-main.ldr
+0 Author: LDraw Nova Agent
+0 !LDRAW_ORG Model
+0 // chassis: Chassis Core
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 crawler-chassis.ldr
+0 // body: Body Cladding
+1 16 0 0 0 1 0 0 0 1 0 0 0 1 crawler-body.ldr
+0 NOFILE
+0 FILE crawler-chassis.ldr
+0 Crawler chassis with suspension and steering
+0 Name: crawler-chassis.ldr
+0 Author: LDraw Nova Agent
+0 !LDRAW_ORG Model
+0 // main-frame: Main structural beam
+1 71 0 0 0 1 0 0 0 1 0 0 0 1 64179.dat
+0 STEP
+0 // suspension-arm-fl: Front Left Suspension Arm
+1 71 -40 0 -40 1 0 0 0 1 0 0 0 1 41668.dat
+0 // suspension-arm-fr: Front Right Suspension Arm
+1 71 40 0 -40 1 0 0 0 1 0 0 0 1 41668.dat
+0 // rack-steering: Steering Rack
+1 1 0 0 -60 0 0 1 0 1 0 -1 0 0 3743.dat
+0 NOFILE
+0 FILE crawler-body.ldr
+0 Body cladding and roll cage
+0 Name: crawler-body.ldr
+0 Author: LDraw Nova Agent
+0 !LDRAW_ORG Model
+0 // panel-rear: Rear Body Panel (Bright Red)
+1 4 0 20 40 -1 0 0 0 1 0 0 0 -1 87081.dat
+0 // roll-bar-left: Left Roll Cage
+1 0 -20 30 0 1 0 0 0 1 0 0 0 1 32014.dat
+0 // roll-bar-right: Right Roll Cage
+1 0 20 30 0 1 0 0 0 1 0 0 0 1 32014.dat
+0 NOFILE

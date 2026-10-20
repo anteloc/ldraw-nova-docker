@@ -1,0 +1,139 @@
+{
+  "model_sha256": "75249cef7a013b4bb796f6d6251f00b8a25c2421070885a5b5ded69767ca598d",
+  "bom": [
+    {
+      "part": "3001",
+      "description": "Brick  2 x  4",
+      "colour_code": 6,
+      "colour_name": "Brown",
+      "quantity": 6
+    },
+    {
+      "part": "3001",
+      "description": "Brick  2 x  4",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 11
+    },
+    {
+      "part": "3001",
+      "description": "Brick  2 x  4",
+      "colour_code": 71,
+      "colour_name": "Light_Bluish_Grey",
+      "quantity": 10
+    },
+    {
+      "part": "3002",
+      "description": "Brick  2 x  3",
+      "colour_code": 6,
+      "colour_name": "Brown",
+      "quantity": 2
+    },
+    {
+      "part": "3002",
+      "description": "Brick  2 x  3",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 6
+    },
+    {
+      "part": "3003",
+      "description": "Brick  2 x  2",
+      "colour_code": 5,
+      "colour_name": "Dark_Pink",
+      "quantity": 2
+    },
+    {
+      "part": "3003",
+      "description": "Brick  2 x  2",
+      "colour_code": 6,
+      "colour_name": "Brown",
+      "quantity": 10
+    },
+    {
+      "part": "3003",
+      "description": "Brick  2 x  2",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 8
+    },
+    {
+      "part": "3005",
+      "description": "Brick  1 x  1",
+      "colour_code": 6,
+      "colour_name": "Brown",
+      "quantity": 20
+    },
+    {
+      "part": "3005",
+      "description": "Brick  1 x  1",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 2
+    },
+    {
+      "part": "3005",
+      "description": "Brick  1 x  1",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 12
+    },
+    {
+      "part": "3020",
+      "description": "Plate  2 x  4",
+      "colour_code": 19,
+      "colour_name": "Tan",
+      "quantity": 1
+    },
+    {
+      "part": "3022",
+      "description": "Plate  2 x  2",
+      "colour_code": 2,
+      "colour_name": "Green",
+      "quantity": 2
+    },
+    {
+      "part": "3022",
+      "description": "Plate  2 x  2",
+      "colour_code": 19,
+      "colour_name": "Tan",
+      "quantity": 3
+    },
+    {
+      "part": "3023b",
+      "description": "Plate  1 x  2",
+      "colour_code": 4,
+      "colour_name": "Red",
+      "quantity": 6
+    },
+    {
+      "part": "3023b",
+      "description": "Plate  1 x  2",
+      "colour_code": 43,
+      "colour_name": "Trans_Light_Blue",
+      "quantity": 54
+    },
+    {
+      "part": "3023b",
+      "description": "Plate  1 x  2",
+      "colour_code": 46,
+      "colour_name": "Trans_Yellow",
+      "quantity": 6
+    },
+    {
+      "part": "3037",
+      "description": "Slope Brick 45  2 x  4",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 8
+    },
+    {
+      "part": "3039",
+      "description": "Slope Brick 45  2 x  2",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 4
+    }
+  ],
+  "physical_placements": 173
+}

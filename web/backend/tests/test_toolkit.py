@@ -95,6 +95,24 @@ def test_real_doctor_build_publish_review_bom_and_download(ctx):
     assert "instructions.md" in asyncio.run(tools.t_list_files(ctx)).content
 
 
+@pytest.mark.parametrize("offset, passed, diagnostic", [
+    (200, True, "assembly.disconnected_evidence"),
+    (10, False, "assembly.body_overlap"),
+])
+def test_publish_reports_validation_errors_and_warnings(ctx, offset, passed, diagnostic):
+    (ctx.work_dir / "loose.mpd").write_text(
+        "0 FILE loose.ldr\n0 Loose\n0 Name: loose.ldr\n0 Author: test\n"
+        f"1 4 0 0 0 1 0 0 0 1 0 0 0 1 3001.dat\n1 1 {offset} 0 0 1 0 0 0 1 0 0 0 1 3001.dat\n")
+    published = asyncio.run(tools.t_publish_model(ctx, "output/loose.mpd", "Loose bricks"))
+    info = json.loads(published.content)
+    assert info["checks_passed"] is passed
+    assert info["check"].startswith("PASS" if passed else "FAIL")
+    assert any(diagnostic in w for w in info["warnings"]), info["warnings"]
+    report = json.loads(Path(info["validation_path"]).read_text())
+    assert report["checks_passed"] is passed
+    assert any(d["code"] == diagnostic for d in report["diagnostics"])
+
+
 def test_key_overrides_only_typesafe_reach_tools_and_output_is_redacted(ctx, monkeypatch):
     monkeypatch.setattr(environment_config, "snapshot", lambda: {"TYPESAFE_API_KEY": "jev-test-private", "OPENAI_API_KEY": "provider-private"})
     events = []

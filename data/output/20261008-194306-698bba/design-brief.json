@@ -1,0 +1,22 @@
+{
+  "subject": "High-Performance Desert Buggy",
+  "silhouette": "Aggressive, wide-track, sloping rear engine cage, prominent wheels",
+  "focal_hierarchy": {
+    "primary": "Front steering rack and suspension-like frame",
+    "secondary": "Rear V-engine block driven by rear axle",
+    "tertiary": "Cockpit with seat, roll cage structure"
+  },
+  "palette": {
+    "body": 4, 
+    "chassis": 71,
+    "axles_and_pins": 0,
+    "engine": 72
+  },
+  "modules": [
+    "Front steering rack (adapted from mechanism atlas)",
+    "Box chassis spine (adapted from technic atlas)",
+    "Rear engine block (V4, adapted from piston-crank atlas)",
+    "Roll cage",
+    "Off-road wheels"
+  ]
+}

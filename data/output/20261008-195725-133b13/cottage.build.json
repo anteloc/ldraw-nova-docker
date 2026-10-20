@@ -1,0 +1,71 @@
+{
+  "profile": "assembly",
+  "checks_passed": true,
+  "physical_validity": "not_proven",
+  "output": "output/cottage.mpd",
+  "written": true,
+  "diagnostics": [
+    {
+      "code": "assembly.disconnected_evidence",
+      "severity": "warning",
+      "message": "Connection analysis finds multiple groups. Investigate floating parts, missing connector metadata, or intentional separate objects.",
+      "line_number": null,
+      "section": null,
+      "component_count": 3
+    }
+  ],
+  "geometry": {
+    "complete": true,
+    "connection_coverage": {
+      "complete": 3,
+      "partial": 0,
+      "none": 0
+    },
+    "collision_method": "AABB broad phase, oriented bounds separation, curated rectangular body SAT",
+    "physical_validity": "not_proven",
+    "bounds": {
+      "min": [
+        -40.0,
+        -32.0,
+        -10.0
+      ],
+      "max": [
+        120.0,
+        8.0,
+        10.0
+      ]
+    },
+    "occurrence_count": 3,
+    "detail": "summary",
+    "instance_offset": 0,
+    "instances": [],
+    "instances_truncated": true,
+    "contacts_checked": true,
+    "contact_count": 0,
+    "contacts": [],
+    "contacts_truncated": false,
+    "confirmed_components": null,
+    "optimistic_components": null,
+    "optimistic_component_count": 3,
+    "confirmed_component_count": 3,
+    "components_truncated": true,
+    "overlap_candidate_count": 0,
+    "overlaps": [],
+    "overlaps_truncated": false,
+    "diagnostics": [
+      {
+        "code": "assembly.disconnected_evidence",
+        "severity": "warning",
+        "message": "Connection analysis finds multiple groups. Investigate floating parts, missing connector metadata, or intentional separate objects.",
+        "line_number": null,
+        "section": null,
+        "component_count": 3
+      }
+    ],
+    "limitations": [
+      "AABB candidates do not prove collisions; stud/socket bounding boxes normally overlap.",
+      "Connector matches, including 'confirmed', are computational evidence, not buildability certification.",
+      "No material intersection, clutch strength, stability, legal connection stress, or real colour availability proof."
+    ]
+  }
+}

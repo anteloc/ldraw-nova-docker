@@ -1,0 +1,71 @@
+{
+  "format": "ldraw-nova-review",
+  "version": 1,
+  "source": {
+    "path": "/data/output/20261020-171730-013fa3/hacienda/hacienda.plan.json",
+    "sha256": "904547582bce98a8756a57ac497a96089f0be240c144c8146a91d6bfc294062f",
+    "section": null,
+    "colour": null
+  },
+  "output": "/data/output/20261020-171730-013fa3/hacienda/hacienda-review",
+  "checks_passed": true,
+  "physical_validity": "not_proven",
+  "visual_review": "required: open and inspect the images",
+  "model_sha256": "ac240dad94ef8014b1ee59c94303ca3d160541f059193d3a35efa03c7d196ec1",
+  "stages": {
+    "validation": "passed",
+    "bom": "passed",
+    "render": "passed",
+    "bom_comparison": "passed"
+  },
+  "artifacts": {
+    "bom-comparison.json": "c0c99d9b5fc7bc11ed97620850ad8962e59e3faa4e6327fe4a9fe801afd8c0b0",
+    "bom.json": "6bd3ae707dfa6fc5811edfcbe768e38b3a1c93906f4aac042b621bda4673740a",
+    "model.mpd": "ac240dad94ef8014b1ee59c94303ca3d160541f059193d3a35efa03c7d196ec1",
+    "previews/front.png": "d6017f5b818bce31a33285ab1ac94e8415936923d0f1e9f1f72bfa1259b64f4d",
+    "previews/home.png": "d033fa60fe7b03cbd143e8f1e2544247cb9b4a41640246328b15ec5c347adb2a",
+    "previews/leocad-bom.csv": "541449f43c49c6b42b829d80a5b3d17540b36cd8ba5001deee5d44cad3347ee9",
+    "previews/top.png": "c4d251bb1d9449538efa5f9685a168d7b279c011f339192fd31076d59bbc857e",
+    "validation.json": "f98b0fe2304c0326ce21b8bdfee85c287507b1be901fdf22ce3e620c08330d35"
+  },
+  "diagnostics": [
+    {
+      "code": "connection.invalid_transform",
+      "message": "connection feature 'snap_cyl@L11:I0' from /opt/ldraw-nova/data/offLibShadow/parts/3818.dat:11 rejected under invalid scale or reflection",
+      "severity": "warning",
+      "path": "/opt/ldraw-nova/data/offLibShadow/parts/3818.dat",
+      "section": null,
+      "line_number": 11,
+      "offending_value": "snap_cyl@L11:I0",
+      "suggestions": [],
+      "cause": null
+    },
+    {
+      "code": "connection.invalid_transform",
+      "message": "connection feature 'snap_cyl@L14:I0' from /opt/ldraw-nova/data/offLibShadow/parts/3818.dat:14 rejected under invalid scale or reflection",
+      "severity": "warning",
+      "path": "/opt/ldraw-nova/data/offLibShadow/parts/3818.dat",
+      "section": null,
+      "line_number": 14,
+      "offending_value": "snap_cyl@L14:I0",
+      "suggestions": [],
+      "cause": null
+    },
+    {
+      "code": "coverage.contacts_skipped",
+      "severity": "warning",
+      "message": "Contacts were not computed. Select a subassembly or request --contacts all; no connectivity conclusion is available.",
+      "line_number": null,
+      "section": null
+    },
+    {
+      "code": "coverage.collision_review",
+      "severity": "warning",
+      "message": "Some parts lack rectangular body checks; oriented bounds refine candidates, while remaining overlaps require material review.",
+      "line_number": null,
+      "section": null
+    }
+  ],
+  "physical_placements": 1611,
+  "exit_code": 0
+}

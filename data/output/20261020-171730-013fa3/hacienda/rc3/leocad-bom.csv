@@ -1,0 +1,58 @@
+Part Name,Color,Quantity,Part ID,Color Code
+"Brick  2 x  2","Reddish Brown",4,3003.dat,70
+"Brick  1 x  2","White",4,3004.dat,15
+"Brick  1 x  2","Orange",4,3004.dat,25
+"Brick  1 x  2","Bright Light Orange",16,3004.dat,191
+"Brick  1 x  1","White",119,3005.dat,15
+"Brick  1 x  1","Orange",5,3005.dat,25
+"Brick  1 x  1","Bright Light Orange",24,3005.dat,191
+"Brick  2 x  8","Dark Red",8,3007.dat,320
+"Brick  1 x  8","White",1,3008.dat,15
+"Brick  1 x  8","Dark Red",8,3008.dat,320
+"Brick  1 x  6","White",32,3009.dat,15
+"Brick  1 x  6","Orange",1,3009.dat,25
+"Brick  1 x  6","Bright Light Orange",2,3009.dat,191
+"Brick  1 x  4","White",4,3010.dat,15
+"Brick  1 x  4","Orange",3,3010.dat,25
+"Brick  1 x  4","Bright Light Orange",8,3010.dat,191
+"Plate  2 x  4","Tan",1,3020.dat,19
+"Plate  2 x  2","Green",4,3022.dat,2
+"Plate  2 x  2","Dark Tan",1,3022.dat,28
+"Plate  4 x  4","Trans Light Blue",1,3031.dat,43
+"Plate  2 x  8","Tan",8,3034.dat,19
+"Plate  2 x  8","Dark Tan",5,3034.dat,28
+"Plate  2 x  8","Dark Red",2,3034.dat,320
+"Plate  4 x  8","Dark Tan",3,3035.dat,28
+"Plate  4 x  8","Dark Red",8,3035.dat,320
+"Slope Brick 45  2 x  2","Dark Red",32,3039.dat,320
+"Tile  2 x  2 with Groove","Tan",55,3068b.dat,19
+"Tile  2 x  2 with Groove","Orange",56,3068b.dat,25
+"Slope Brick 33  3 x  2","Dark Red",16,3298.dat,320
+"Arch  1 x  6","White",11,3455.dat,15
+"Plate  1 x  8","Tan",8,3460.dat,19
+"Plate  1 x  8","Dark Tan",9,3460.dat,28
+"Plate  1 x  8","Dark Red",2,3460.dat,320
+"Brick  1 x  3","White",8,3622.dat,15
+"Brick  1 x  3","Orange",5,3622.dat,25
+"Brick  1 x  3","Bright Light Orange",12,3622.dat,191
+"Minifig Head with Hollow Stud","Yellow",1,3626c.dat,14
+"Plant Flower","Red",2,3742.dat,4
+"Plant Flower","Dark Pink",7,3742.dat,5
+"Plant Flower","Pink",3,3742.dat,13
+"Minifig Hips","Blue",1,3815b.dat,1
+"Minifig Leg Right","Blue",1,3816c.dat,1
+"Minifig Leg Left","Blue",1,3817c.dat,1
+"Minifig Arm Right","Red",1,3818.dat,4
+"Minifig Arm Left","Red",1,3819.dat,4
+"Minifig Hand","Yellow",2,3820.dat,14
+"Brick  2 x  2 Round without Reinforcement","White",2,3941.dat,15
+"Plate  6 x  6","White",1,3958.dat,15
+"Tile  1 x  8","Orange",4,4162.dat,25
+"Window  1 x  2 x  2 without Sill","White",8,60592.dat,15
+"Door  1 x  4 x  6 Frame","Reddish Brown",8,60596.dat,70
+"Glass for Window  1 x  2 x  2 without Sill","Trans Medium Blue",8,60601.dat,41
+"Door  1 x  4 x  6 with 4 Panes and Stud Handle","Orange",4,60623.dat,25
+"Plate  1 x  1 Round","Trans Light Blue",1,6141.dat,43
+"Minifig Hat Sombrero","Reddish Brown",1,90388.dat,70
+"Minifig Torso","Red",1,973.dat,4
+"Cone  2 x  2 Truncated","Trans Light Blue",1,98100.dat,43

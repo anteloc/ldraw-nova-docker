@@ -1,0 +1,13 @@
+{
+  "id": "20261008-195725-133b13",
+  "title": "build me a really nice house",
+  "llm_model_id": "8eaa59b3b154",
+  "created_at": 1791489445.6869836,
+  "updated_at": 1791489543.7303514,
+  "options": {
+    "mode": "agent",
+    "permissions": "full",
+    "effort": "high",
+    "context_tokens": 1048576
+  }
+}

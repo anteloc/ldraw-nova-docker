@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "author": "LDraw Nova Agent",
+  "includes": ["crawler-chassis.plan.json", "crawler-body.plan.json"],
+  "sections": [
+    {
+      "name": "crawler-main.ldr",
+      "description": "Final Crawler Model",
+      "steps": [
+        [
+          { "id": "chassis", "ref": "crawler-chassis.ldr", "colour": 16, "at": [0,0,0], "purpose": "Chassis Core" },
+          { "id": "body", "ref": "crawler-body.ldr", "colour": 16, "at": [0,0,0], "purpose": "Body Cladding" }
+        ]
+      ]
+    }
+  ]
+}

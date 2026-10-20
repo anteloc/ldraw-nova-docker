@@ -1,0 +1,78 @@
+0 FILE crawler-4x4.ldr
+0 Inferno 4x4 Rock Crawler Buggy — V6, steering, ladder chassis
+0 Name: crawler-4x4.ldr
+0 Author: ldraw-nova kit
+0 !LDRAW_ORG Model
+0 // chassis-left: 32278.dat
+1 0 -60 -70 0 1 0 0 0 1 0 0 0 1 32278.dat
+0 // chassis-pin-left-0: 2780.dat
+1 0 -60 -60 -140 0 0 1 1 0 0 0 1 0 2780.dat
+0 // chassis-cross-0: 32524.dat
+1 0 0 -50 -140 0 0 1 0 1 0 -1 0 0 32524.dat
+0 // chassis-pin-left-14: 2780.dat
+1 0 -60 -60 140 0 0 1 1 0 0 0 1 0 2780.dat
+0 // chassis-cross-14: 32524.dat
+1 0 0 -50 140 0 0 1 0 1 0 -1 0 0 32524.dat
+0 // chassis-pin-right-0: 2780.dat
+1 0 60 -60 -140 0 1 0 -1 0 0 0 0 1 2780.dat
+0 // chassis-right: 32278.dat
+1 0 60 -70 0 1 0 0 0 1 0 0 0 1 32278.dat
+0 // chassis-pin-right-14: 2780.dat
+1 0 60 -60 140 0 0 1 1 0 0 0 1 0 2780.dat
+0 // front-axle-pin-left: 2780.dat
+1 0 -60 -60 -100 0 0 1 1 0 0 0 1 0 2780.dat
+0 // front-axle-plate: 3738.dat
+1 0 0 -48 -100 1 0 0 0 -1 0 0 0 -1 3738.dat
+0 // front-axle-pin-right: 2780.dat
+1 0 60 -60 -100 0 0 1 1 0 0 0 1 0 2780.dat
+0 // rear-axle-pin-left: 2780.dat
+1 0 -60 -60 100 0 0 1 1 0 0 0 1 0 2780.dat
+0 // rear-axle-plate: 3738.dat
+1 0 0 -48 100 1 0 0 0 -1 0 0 0 -1 3738.dat
+0 // rear-axle-pin-right: 2780.dat
+1 0 60 -60 100 0 0 1 1 0 0 0 1 0 2780.dat
+0 // mid-pin-left: 2780.dat
+1 0 -60 -60 0 0 0 1 1 0 0 0 1 0 2780.dat
+0 // mid-plate: 3738.dat
+1 0 0 -48 0 1 0 0 0 -1 0 0 0 -1 3738.dat
+0 // mid-pin-right: 2780.dat
+1 0 60 -60 0 0 0 1 1 0 0 0 1 0 2780.dat
+0 // engine-pin-left: 2780.dat
+1 0 -60 -60 60 0 0 1 1 0 0 0 1 0 2780.dat
+0 // engine-plate: 3738.dat
+1 0 0 -48 60 1 0 0 0 -1 0 0 0 -1 3738.dat
+0 // engine-pin-right: 2780.dat
+1 0 60 -60 60 0 0 1 1 0 0 0 1 0 2780.dat
+0 // front-brick-left: 32000.dat
+1 0 -30 -24 -100 0 0 1 0 -1 0 1 0 0 32000.dat
+0 // front-brick-right: 32000.dat
+1 0 30 -24 -100 0 0 1 0 -1 0 1 0 0 32000.dat
+0 // rear-brick-left: 32000.dat
+1 0 -30 -24 100 0 0 1 0 -1 0 1 0 0 32000.dat
+0 // rear-brick-right: 32000.dat
+1 0 30 -24 100 0 0 1 0 -1 0 1 0 0 32000.dat
+0 // front-axle: 3708.dat
+1 0 0 -34 -110 1 0 0 0 -1 0 0 0 -1 3708.dat
+0 // front-wheel-right: 3739.dat
+1 0 140 -34 -110 1 0 0 0 -1 0 0 0 -1 3739.dat
+0 // front-wheel-left: 3739.dat
+1 0 -80 -34 -110 1 0 0 0 -1 0 0 0 -1 3739.dat
+0 // rear-axle: 3708.dat
+1 0 0 -34 90 1 0 0 0 -1 0 0 0 -1 3708.dat
+0 // rear-wheel-right: 3739.dat
+1 0 140 -34 90 1 0 0 0 -1 0 0 0 -1 3739.dat
+0 // rear-wheel-left: 3739.dat
+1 0 -80 -34 90 1 0 0 0 -1 0 0 0 -1 3739.dat
+0 // cockpit-seat-left: 4079.dat
+1 15 -20 -40 0 1 0 0 0 -1 0 0 0 -1 4079.dat
+0 // cockpit-seat-right: 4079.dat
+1 15 20 -40 0 1 0 0 0 -1 0 0 0 -1 4079.dat
+0 // steering-column: 3705.dat
+1 0 -20 -50 0 0 0 -1 1 0 0 0 -1 0 3705.dat
+0 // steering-wheel: 2819.dat
+1 0 -20 -60 0 1 0 0 0 -1 0 0 0 -1 2819.dat
+0 // engine-block-base: 3001.dat
+1 191 0 -24 60 1 0 0 0 -1 0 0 0 -1 3001.dat
+0 // engine-block-top: 3001.dat
+1 191 0 0 60 1 0 0 0 -1 0 0 0 -1 3001.dat
+0 NOFILE

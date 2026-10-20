@@ -1,0 +1,13 @@
+{
+  "id": "20261020-210701-a17149",
+  "title": "build me a city park, with 20 people on it, on a sunny day, \u2026",
+  "llm_model_id": "aa9affd04b09",
+  "created_at": 1792530421.006325,
+  "updated_at": 1792530486.2334418,
+  "options": {
+    "mode": "agent",
+    "permissions": "full",
+    "effort": null,
+    "context_tokens": 1000000
+  }
+}

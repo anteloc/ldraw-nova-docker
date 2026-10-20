@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "author": "Agent",
+  "sections": [
+    {
+      "name": "main-scene.ldr",
+      "description": "Main cottage assembly",
+      "steps": [
+        [
+          {
+            "id": "base-1",
+            "ref": "3069b.dat",
+            "colour": 7,
+            "at": [
+              0,
+              0,
+              0
+            ],
+            "purpose": "Foundation"
+          }
+        ],
+        [
+          {
+            "id": "wall-1",
+            "ref": "3010.dat",
+            "colour": 1,
+            "at": [
+              0,
+              -28,
+              0
+            ],
+            "purpose": "Wall corner"
+          },
+          {
+            "id": "wall-2",
+            "ref": "3010.dat",
+            "colour": 1,
+            "at": [
+              80,
+              -28,
+              0
+            ],
+            "purpose": "Wall section"
+          }
+        ]
+      ]
+    }
+  ]
+}

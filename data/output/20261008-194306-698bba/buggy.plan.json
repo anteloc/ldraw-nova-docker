@@ -1,0 +1,295 @@
+{
+  "version": 1,
+  "author": "LDraw Nova Agent",
+  "assets": [
+    "assets/piston-crank.mpd",
+    "assets/steering-rack.mpd"
+  ],
+  "includes": [
+    "assets/scene.plan.json"
+  ],
+  "sections": [
+    {
+      "name": "buggy-main.ldr",
+      "description": "High-Performance Desert Buggy",
+      "steps": [
+        [
+          {
+            "id": "part-1",
+            "ref": "56145c03.dat",
+            "colour": 0,
+            "purpose": "buggy component",
+            "at": [
+              -100,
+              -30,
+              -120
+            ],
+            "yaw": 180
+          },
+          {
+            "id": "part-2",
+            "ref": "56145c03.dat",
+            "colour": 0,
+            "purpose": "buggy component",
+            "at": [
+              100,
+              -30,
+              -120
+            ],
+            "yaw": 0
+          },
+          {
+            "id": "part-3",
+            "ref": "56145c03.dat",
+            "colour": 0,
+            "purpose": "buggy component",
+            "at": [
+              -100,
+              -30,
+              120
+            ],
+            "yaw": 180
+          },
+          {
+            "id": "part-4",
+            "ref": "56145c03.dat",
+            "colour": 0,
+            "purpose": "buggy component",
+            "at": [
+              100,
+              -30,
+              120
+            ],
+            "yaw": 0
+          },
+          {
+            "id": "part-5",
+            "ref": "box-chassis.ldr",
+            "colour": 16,
+            "purpose": "buggy component",
+            "at": [
+              0,
+              -50,
+              0
+            ]
+          },
+          {
+            "id": "part-6",
+            "ref": "study-fa629497d114-00-42048---engine.ldr",
+            "colour": 16,
+            "purpose": "buggy component",
+            "at": [
+              0,
+              -90,
+              120
+            ],
+            "yaw": 180
+          },
+          {
+            "id": "part-7",
+            "ref": "study-9733eaa539d2-00-9393---steering.ldr",
+            "colour": 16,
+            "purpose": "buggy component",
+            "at": [
+              0,
+              -50,
+              -120
+            ]
+          },
+          {
+            "id": "part-8",
+            "ref": "32278.dat",
+            "colour": 4,
+            "purpose": "buggy component",
+            "at": [
+              -50,
+              -130,
+              0
+            ]
+          },
+          {
+            "id": "part-9",
+            "ref": "32278.dat",
+            "colour": 4,
+            "purpose": "buggy component",
+            "at": [
+              50,
+              -130,
+              0
+            ]
+          },
+          {
+            "id": "part-10",
+            "ref": "32525.dat",
+            "colour": 71,
+            "purpose": "buggy component",
+            "at": [
+              -50,
+              -180,
+              40
+            ],
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          },
+          {
+            "id": "part-11",
+            "ref": "32525.dat",
+            "colour": 71,
+            "purpose": "buggy component",
+            "at": [
+              50,
+              -180,
+              40
+            ],
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0,
+                -1
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ]
+          },
+          {
+            "id": "part-12",
+            "ref": "32524.dat",
+            "colour": 4,
+            "purpose": "buggy component",
+            "at": [
+              -50,
+              -150,
+              -100
+            ],
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0.70710678,
+                -0.70710678
+              ],
+              [
+                0,
+                0.70710678,
+                0.70710678
+              ]
+            ]
+          },
+          {
+            "id": "part-13",
+            "ref": "32524.dat",
+            "colour": 4,
+            "purpose": "buggy component",
+            "at": [
+              50,
+              -150,
+              -100
+            ],
+            "matrix": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                0.70710678,
+                -0.70710678
+              ],
+              [
+                0,
+                0.70710678,
+                0.70710678
+              ]
+            ]
+          },
+          {
+            "id": "part-14",
+            "ref": "32525.dat",
+            "colour": 4,
+            "purpose": "buggy component",
+            "at": [
+              -50,
+              -240,
+              -30
+            ]
+          },
+          {
+            "id": "part-15",
+            "ref": "32525.dat",
+            "colour": 4,
+            "purpose": "buggy component",
+            "at": [
+              50,
+              -240,
+              -30
+            ]
+          },
+          {
+            "id": "part-16",
+            "ref": "32524.dat",
+            "colour": 71,
+            "purpose": "buggy component",
+            "at": [
+              0,
+              -240,
+              -70
+            ],
+            "yaw": 90
+          },
+          {
+            "id": "part-17",
+            "ref": "32524.dat",
+            "colour": 71,
+            "purpose": "buggy component",
+            "at": [
+              0,
+              -240,
+              10
+            ],
+            "yaw": 90
+          },
+          {
+            "id": "part-18",
+            "ref": "32020.dat",
+            "colour": 1,
+            "purpose": "buggy component",
+            "at": [
+              0,
+              -70,
+              -20
+            ],
+            "yaw": 0
+          }
+        ]
+      ]
+    }
+  ]
+}

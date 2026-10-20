@@ -1,0 +1,77 @@
+Part Name,Color,Quantity,Part ID,Color Code
+"Barrel  2 x  2 x  1.667","Reddish Brown",2,2489.dat,70
+"Brick  2 x  4","Red",1,3001.dat,4
+"Brick  2 x  2","Black",1,3003.dat,0
+"Brick  2 x  2","Orange",1,3003.dat,25
+"Brick  2 x  2","Reddish Brown",4,3003.dat,70
+"Brick  1 x  2","White",1,3004.dat,15
+"Brick  1 x  2","Orange",2,3004.dat,25
+"Brick  1 x  2","Bright Light Orange",8,3004.dat,191
+"Brick  1 x  1","Blue",1,3005.dat,1
+"Brick  1 x  1","Green",1,3005.dat,2
+"Brick  1 x  1","Red",5,3005.dat,4
+"Brick  1 x  1","Yellow",1,3005.dat,14
+"Brick  1 x  1","White",73,3005.dat,15
+"Brick  1 x  1","Tan",12,3005.dat,19
+"Brick  1 x  1","Orange",12,3005.dat,25
+"Brick  1 x  1","Bright Light Orange",4,3005.dat,191
+"Brick  2 x  8","Dark Red",2,3007.dat,320
+"Brick  1 x  8","White",3,3008.dat,15
+"Brick  1 x  8","Orange",6,3008.dat,25
+"Brick  1 x  8","Bright Light Orange",15,3008.dat,191
+"Brick  1 x  8","Dark Red",2,3008.dat,320
+"Brick  1 x  6","White",1,3009.dat,15
+"Brick  1 x  6","Tan",24,3009.dat,19
+"Brick  1 x  6","Orange",1,3009.dat,25
+"Brick  1 x  6","Reddish Brown",1,3009.dat,70
+"Brick  1 x  6","Bright Light Orange",4,3009.dat,191
+"Brick  1 x  4","Red",1,3010.dat,4
+"Brick  1 x  4","White",1,3010.dat,15
+"Brick  1 x  4","Orange",2,3010.dat,25
+"Brick  1 x  4","Bright Light Orange",6,3010.dat,191
+"Plate  2 x  4","Tan",1,3020.dat,19
+"Plate  2 x  4","Reddish Brown",1,3020.dat,70
+"Plate  2 x  2","Green",2,3022.dat,2
+"Plate  2 x  2","Tan",1,3022.dat,19
+"Plate  2 x  8","Tan",6,3034.dat,19
+"Plate  2 x  8","Dark Tan",1,3034.dat,28
+"Plate  2 x  8","Reddish Brown",5,3034.dat,70
+"Plate  2 x  8","Dark Red",2,3034.dat,320
+"Plate  4 x  8","Dark Tan",1,3035.dat,28
+"Plate  4 x  8","Reddish Brown",5,3035.dat,70
+"Plate  4 x  8","Dark Red",1,3035.dat,320
+"Slope Brick 45  2 x  2","Dark Red",4,3039.dat,320
+"Brick  1 x  1 Round with Hollow Stud","Green",3,3062b.dat,2
+"Brick  1 x  1 Round with Hollow Stud","Reddish Brown",8,3062b.dat,70
+"Brick  1 x  1 Round with Hollow Stud","Trans Red",2,3062b.dat,36
+"Tile  2 x  2 with Groove","Tan",15,3068b.dat,19
+"Tile  2 x  2 with Groove","Orange",15,3068b.dat,25
+"Tile  2 x  2 with Groove","Reddish Brown",1,3068b.dat,70
+"Tile  2 x  2 with Groove","Dark Bluish Grey",1,3068b.dat,72
+"Plate  1 x  1 Round with  3 Leaves","Dark Green",1,32607.dat,288
+"Slope Brick 33  3 x  2","Dark Red",4,3298.dat,320
+"Arch  1 x  6","White",7,3455.dat,15
+"Plate  1 x  8","Tan",7,3460.dat,19
+"Plate  1 x  8","Dark Tan",13,3460.dat,28
+"Plate  1 x  8","Dark Red",2,3460.dat,320
+"Brick  1 x  3","White",4,3622.dat,15
+"Brick  1 x  3","Orange",4,3622.dat,25
+"Brick  1 x  3","Reddish Brown",5,3622.dat,70
+"Brick  1 x  3","Bright Light Orange",15,3622.dat,191
+"Plate  1 x  4","Dark Tan",1,3710.dat,28
+"Plant Flower","Red",2,3742.dat,4
+"Plant Flower","Dark Pink",4,3742.dat,5
+"Plant Flower","Pink",3,3742.dat,13
+"Plate  2 x  6","Reddish Brown",1,3795.dat,70
+"Baseplate 32 x 32","Green",1,3811.dat,2
+"Tile  1 x  8","Orange",1,4162.dat,25
+"Plant Flower  2 x  2 Leaves","Green",1,4727.dat,2
+"Window  1 x  2 x  2 without Sill","White",1,60592.dat,15
+"Door  1 x  4 x  6 Frame","Reddish Brown",6,60596.dat,70
+"Glass for Window  1 x  2 x  2 without Sill","Trans Medium Blue",1,60601.dat,41
+"Door  1 x  4 x  6 with 4 Panes and Stud Handle","Orange",1,60623.dat,25
+"Plate  1 x  1 Round","Green",2,6141.dat,2
+"Plate  1 x  1 Round","Yellow",1,6141.dat,14
+"Plate  1 x  1 Round","Orange",1,6141.dat,25
+"Tile  2 x  4","Orange",1,87079.dat,25
+"Tile  2 x  4","Reddish Brown",1,87079.dat,70

@@ -1,0 +1,50 @@
+{
+  "format": "ldraw-nova-review",
+  "version": 1,
+  "source": {
+    "path": "/data/output/20261011-200214-c8293e/seaside-cabin/cabin.plan.json",
+    "sha256": "47d905360592b4ab1d1e8e37e5f4418efd6827ad8593a662e1adb0f895da517b",
+    "section": null,
+    "colour": null
+  },
+  "output": "/data/output/20261011-200214-c8293e/seaside-cabin/review",
+  "checks_passed": true,
+  "physical_validity": "not_proven",
+  "visual_review": "required: open and inspect the images",
+  "model_sha256": "75249cef7a013b4bb796f6d6251f00b8a25c2421070885a5b5ded69767ca598d",
+  "stages": {
+    "validation": "passed",
+    "bom": "passed",
+    "render": "passed",
+    "bom_comparison": "passed"
+  },
+  "artifacts": {
+    "bom-comparison.json": "67aa8e798b065c3f34bd92d90dd879e4b5826d2e779de63da62a2f09b70ff239",
+    "bom.json": "72859b02b7b87fb84f1c7f92733c08a8cb65e3c24921234c5f5c7cd73ee8c8c6",
+    "model.mpd": "75249cef7a013b4bb796f6d6251f00b8a25c2421070885a5b5ded69767ca598d",
+    "previews/front.png": "9a1a6de0d1bae9ebf555911f1e745bfccc72d4fa1658109cabfb8a9fee2f26be",
+    "previews/home.png": "8ae9496f2542132b21381ee23cf9130393ae9c18e4efc76f7bed46e17eca8592",
+    "previews/leocad-bom.csv": "c8f15adf468d1a8e6b6c1e7c42d943735ddc1ef822156eda5c63900651f5ffd9",
+    "previews/top.png": "b6a03c39b5aeedb0f2b2e0878f70a54e4c9f7edec43069dc5b8665971bf622b7",
+    "validation.json": "245d20fab5e7ef76daaa6a92d199983bd80c81066d809d7348eda6e84b9214fa"
+  },
+  "diagnostics": [
+    {
+      "code": "assembly.disconnected_evidence",
+      "severity": "warning",
+      "message": "Connection analysis finds multiple groups. Investigate floating parts, missing connector metadata, or intentional separate objects.",
+      "line_number": null,
+      "section": null,
+      "component_count": 34
+    },
+    {
+      "code": "coverage.collision_review",
+      "severity": "warning",
+      "message": "Some parts lack rectangular body checks; oriented bounds refine candidates, while remaining overlaps require material review.",
+      "line_number": null,
+      "section": null
+    }
+  ],
+  "physical_placements": 173,
+  "exit_code": 0
+}

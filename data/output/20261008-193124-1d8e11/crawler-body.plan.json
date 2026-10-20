@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "author": "LDraw Nova Agent",
+  "sections": [
+    {
+      "name": "crawler-body.ldr",
+      "description": "Body cladding and roll cage",
+      "steps": [
+        [
+          { "id": "panel-rear", "ref": "87081.dat", "colour": 4, "at": [0, 20, 40], "yaw": 180, "purpose": "Rear Body Panel (Bright Red)" },
+          { "id": "roll-bar-left", "ref": "32014.dat", "colour": 0, "at": [-20, 30, 0], "purpose": "Left Roll Cage" },
+          { "id": "roll-bar-right", "ref": "32014.dat", "colour": 0, "at": [20, 30, 0], "purpose": "Right Roll Cage" }
+        ]
+      ]
+    }
+  ]
+}

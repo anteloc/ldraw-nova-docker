@@ -1,0 +1,746 @@
+{
+  "checks_passed": false,
+  "physical_validity": "not_proven",
+  "diagnostics": [
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 211,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 213,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 215,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 217,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 219,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 221,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 224,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 226,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 228,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 230,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 232,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 234,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 236,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 238,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 240,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 242,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 244,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 246,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 249,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 251,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 253,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 255,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 257,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 259,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 262,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 264,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 266,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 268,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 270,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 272,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 275,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 277,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 279,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 281,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 283,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 285,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 287,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 289,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 291,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 293,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 295,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 297,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 300,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 302,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 304,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 306,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 308,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 310,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 313,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 315,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 317,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 319,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 321,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 323,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 326,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 328,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 330,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 332,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 334,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "part.alias_or_internal",
+      "severity": "warning",
+      "message": "Inspect this alias/internal part and prefer a current physical part.",
+      "line_number": 336,
+      "section": "cabin.ldr"
+    },
+    {
+      "code": "assembly.body_overlap",
+      "severity": "error",
+      "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+      "line_number": null,
+      "section": null,
+      "instances": [
+        166,
+        157
+      ],
+      "penetration": 8.0,
+      "sources": [
+        {
+          "part": "3022.dat",
+          "section": "cabin.ldr",
+          "line_number": 358,
+          "source_path": [
+            358
+          ]
+        },
+        {
+          "part": "3020.dat",
+          "section": "cabin.ldr",
+          "line_number": 339,
+          "source_path": [
+            339
+          ]
+        }
+      ]
+    },
+    {
+      "code": "assembly.body_overlap",
+      "severity": "error",
+      "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+      "line_number": null,
+      "section": null,
+      "instances": [
+        160,
+        161
+      ],
+      "penetration": 8.0,
+      "sources": [
+        {
+          "part": "3022.dat",
+          "section": "cabin.ldr",
+          "line_number": 346,
+          "source_path": [
+            346
+          ]
+        },
+        {
+          "part": "3022.dat",
+          "section": "cabin.ldr",
+          "line_number": 348,
+          "source_path": [
+            348
+          ]
+        }
+      ]
+    },
+    {
+      "code": "assembly.body_overlap",
+      "severity": "error",
+      "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+      "line_number": null,
+      "section": null,
+      "instances": [
+        161,
+        162
+      ],
+      "penetration": 8.0,
+      "sources": [
+        {
+          "part": "3022.dat",
+          "section": "cabin.ldr",
+          "line_number": 348,
+          "source_path": [
+            348
+          ]
+        },
+        {
+          "part": "3022.dat",
+          "section": "cabin.ldr",
+          "line_number": 350,
+          "source_path": [
+            350
+          ]
+        }
+      ]
+    },
+    {
+      "code": "assembly.body_overlap",
+      "severity": "error",
+      "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+      "line_number": null,
+      "section": null,
+      "instances": [
+        162,
+        163
+      ],
+      "penetration": 8.0,
+      "sources": [
+        {
+          "part": "3022.dat",
+          "section": "cabin.ldr",
+          "line_number": 350,
+          "source_path": [
+            350
+          ]
+        },
+        {
+          "part": "3022.dat",
+          "section": "cabin.ldr",
+          "line_number": 352,
+          "source_path": [
+            352
+          ]
+        }
+      ]
+    },
+    {
+      "code": "assembly.disconnected_evidence",
+      "severity": "warning",
+      "message": "Connection analysis finds multiple groups. Investigate floating parts, missing connector metadata, or intentional separate objects.",
+      "line_number": null,
+      "section": null,
+      "component_count": 34
+    },
+    {
+      "code": "coverage.collision_review",
+      "severity": "warning",
+      "message": "Some parts lack rectangular body checks; oriented bounds refine candidates, while remaining overlaps require material review.",
+      "line_number": null,
+      "section": null
+    }
+  ],
+  "geometry": {
+    "complete": true,
+    "connection_coverage": {
+      "complete": 168,
+      "partial": 0,
+      "none": 0
+    },
+    "collision_method": "AABB broad phase, oriented bounds separation, curated rectangular body SAT",
+    "physical_validity": "not_proven",
+    "bounds": {
+      "min": [
+        -90.0,
+        -220.0,
+        -100.0
+      ],
+      "max": [
+        90.0,
+        0.0,
+        240.0
+      ]
+    },
+    "occurrence_count": 168,
+    "detail": "summary",
+    "instance_offset": 0,
+    "instances": [],
+    "instances_truncated": true,
+    "contacts_checked": true,
+    "contact_count": 342,
+    "contacts": [],
+    "contacts_truncated": true,
+    "confirmed_components": null,
+    "optimistic_components": null,
+    "optimistic_component_count": 34,
+    "confirmed_component_count": 115,
+    "components_truncated": true,
+    "overlap_candidate_count": 185,
+    "overlaps": [],
+    "overlaps_truncated": true,
+    "diagnostics": [
+      {
+        "code": "assembly.body_overlap",
+        "severity": "error",
+        "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+        "line_number": null,
+        "section": null,
+        "instances": [
+          166,
+          157
+        ],
+        "penetration": 8.0,
+        "sources": [
+          {
+            "part": "3022.dat",
+            "section": "cabin.ldr",
+            "line_number": 358,
+            "source_path": [
+              358
+            ]
+          },
+          {
+            "part": "3020.dat",
+            "section": "cabin.ldr",
+            "line_number": 339,
+            "source_path": [
+              339
+            ]
+          }
+        ]
+      },
+      {
+        "code": "assembly.body_overlap",
+        "severity": "error",
+        "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+        "line_number": null,
+        "section": null,
+        "instances": [
+          160,
+          161
+        ],
+        "penetration": 8.0,
+        "sources": [
+          {
+            "part": "3022.dat",
+            "section": "cabin.ldr",
+            "line_number": 346,
+            "source_path": [
+              346
+            ]
+          },
+          {
+            "part": "3022.dat",
+            "section": "cabin.ldr",
+            "line_number": 348,
+            "source_path": [
+              348
+            ]
+          }
+        ]
+      },
+      {
+        "code": "assembly.body_overlap",
+        "severity": "error",
+        "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+        "line_number": null,
+        "section": null,
+        "instances": [
+          161,
+          162
+        ],
+        "penetration": 8.0,
+        "sources": [
+          {
+            "part": "3022.dat",
+            "section": "cabin.ldr",
+            "line_number": 348,
+            "source_path": [
+              348
+            ]
+          },
+          {
+            "part": "3022.dat",
+            "section": "cabin.ldr",
+            "line_number": 350,
+            "source_path": [
+              350
+            ]
+          }
+        ]
+      },
+      {
+        "code": "assembly.body_overlap",
+        "severity": "error",
+        "message": "Rectangular brick/plate body envelopes overlap; reposition them.",
+        "line_number": null,
+        "section": null,
+        "instances": [
+          162,
+          163
+        ],
+        "penetration": 8.0,
+        "sources": [
+          {
+            "part": "3022.dat",
+            "section": "cabin.ldr",
+            "line_number": 350,
+            "source_path": [
+              350
+            ]
+          },
+          {
+            "part": "3022.dat",
+            "section": "cabin.ldr",
+            "line_number": 352,
+            "source_path": [
+              352
+            ]
+          }
+        ]
+      },
+      {
+        "code": "assembly.disconnected_evidence",
+        "severity": "warning",
+        "message": "Connection analysis finds multiple groups. Investigate floating parts, missing connector metadata, or intentional separate objects.",
+        "line_number": null,
+        "section": null,
+        "component_count": 34
+      },
+      {
+        "code": "coverage.collision_review",
+        "severity": "warning",
+        "message": "Some parts lack rectangular body checks; oriented bounds refine candidates, while remaining overlaps require material review.",
+        "line_number": null,
+        "section": null
+      }
+    ],
+    "limitations": [
+      "AABB candidates do not prove collisions; stud/socket bounding boxes normally overlap.",
+      "Connector matches, including 'confirmed', are computational evidence, not buildability certification.",
+      "No material intersection, clutch strength, stability, legal connection stress, or real colour availability proof."
+    ]
+  },
+  "file": "/data/output/20261011-200214-c8293e/seaside-cabin/cabin.plan.json",
+  "section": null,
+  "profile": "assembly",
+  "model_sha256": "d49ea612986b1cf1a9c8108c70d49f90d9c137a6d8fbf92646bf6b7687a8f90a"
+}

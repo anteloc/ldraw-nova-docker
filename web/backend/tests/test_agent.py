@@ -8,6 +8,7 @@ from litellm.types.utils import ChatCompletionDeltaToolCall, Delta, Function, Mo
 import agent
 import llm_config
 import settings
+import toolkit
 from store import ChatStore
 
 CAR = "0 FILE car.ldr\n1 4 0 0 0 1 0 0 0 1 0 0 0 1 3001.dat\n1 15 0 -24 0 1 0 0 0 1 0 0 0 1 3003.dat\n"
@@ -124,3 +125,26 @@ def test_provider_error_ends_turn_but_not_chat(monkeypatch, entry, store: ChatSt
     last = store.messages(chat["id"])[-1]
     assert last["_error"] and "Provider request failed" in last["content"]
     assert not agent.is_running(chat["id"])
+
+
+def test_missing_toolkit_guide_reports_local_setup_error(monkeypatch, entry, store: ChatStore):
+    called = []
+
+    async def unexpected(**_kwargs):
+        called.append(True)
+        raise AssertionError("A missing local guide must fail before inference")
+
+    monkeypatch.setattr(agent.litellm, "acompletion", unexpected)
+    monkeypatch.setattr(toolkit, "BUILDER_GUIDES", ("docs/agent/missing.md",))
+    chat = store.create_chat()
+
+    async def run():
+        await agent.start_turn(store, chat["id"], "hello", entry["id"])
+        await agent._runs[chat["id"]].task
+
+    asyncio.run(run())
+    last = store.messages(chat["id"])[-1]
+    assert last["_error"] and "LDraw toolkit guide is missing: docs/agent/missing.md" in last["content"]
+    assert "docker compose up -d --build" in last["content"]
+    assert "Provider request failed" not in last["content"]
+    assert not called and not agent.is_running(chat["id"])

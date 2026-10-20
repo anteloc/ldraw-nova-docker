@@ -1,0 +1,15 @@
+0 FILE crawler-chassis.ldr
+0 Crawler chassis with suspension and steering
+0 Name: crawler-chassis.ldr
+0 Author: LDraw Nova Agent
+0 !LDRAW_ORG Model
+0 // main-frame: Main structural beam
+1 71 0 0 0 1 0 0 0 1 0 0 0 1 64179.dat
+0 STEP
+0 // suspension-arm-fl: Front Left Suspension Arm
+1 71 -40 0 -40 1 0 0 0 1 0 0 0 1 41668.dat
+0 // suspension-arm-fr: Front Right Suspension Arm
+1 71 40 0 -40 1 0 0 0 1 0 0 0 1 41668.dat
+0 // rack-steering: Steering Rack
+1 1 0 0 -60 0 0 1 0 1 0 -1 0 0 3743.dat
+0 NOFILE
