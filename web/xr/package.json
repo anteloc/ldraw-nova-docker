@@ -9,6 +9,7 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "test:viewer": "node --test test/viewer.browser.mjs",
+    "test:instructions": "node --test test/instructions.browser.mjs",
     "test:xr": "node --test test/xr-animation.browser.mjs"
   },
   "dependencies": {

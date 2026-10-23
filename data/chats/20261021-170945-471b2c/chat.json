@@ -1,0 +1,13 @@
+{
+  "id": "20261021-170945-471b2c",
+  "title": "build me the best SNOT model you can think of!",
+  "llm_model_id": "2ff8455e7333",
+  "created_at": 1792602585.0768595,
+  "updated_at": 1792603031.9363718,
+  "options": {
+    "mode": "agent",
+    "permissions": "full",
+    "effort": null,
+    "context_tokens": 1000000
+  }
+}

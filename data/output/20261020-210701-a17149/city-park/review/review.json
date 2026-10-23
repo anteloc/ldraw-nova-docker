@@ -1,0 +1,71 @@
+{
+  "format": "ldraw-nova-review",
+  "version": 1,
+  "source": {
+    "path": "/data/output/20261020-210701-a17149/city-park/park.mpd",
+    "sha256": "13ac3005d21825aade2636feee789ee9858d68bfa3752b7a2f4bf9dc018bc9ff",
+    "section": null,
+    "colour": null
+  },
+  "output": "/data/output/20261020-210701-a17149/city-park/review",
+  "checks_passed": true,
+  "physical_validity": "not_proven",
+  "visual_review": "required: open and inspect the images",
+  "model_sha256": "13ac3005d21825aade2636feee789ee9858d68bfa3752b7a2f4bf9dc018bc9ff",
+  "stages": {
+    "validation": "passed",
+    "bom": "passed",
+    "render": "passed",
+    "bom_comparison": "passed"
+  },
+  "artifacts": {
+    "bom-comparison.json": "d20359208ee3fb9d920d01a00f2fbd1433c9db4c63d16345b3e1ed117894d554",
+    "bom.json": "f13f9f13fb4f22be36f3d81e86341a1195d4098e8f99dd2e87e5f9d950efd726",
+    "model.mpd": "13ac3005d21825aade2636feee789ee9858d68bfa3752b7a2f4bf9dc018bc9ff",
+    "previews/front.png": "41f2da85f2818c093780ec4f0487d7162a40d146c34b8c9aef6db09c337d2452",
+    "previews/home.png": "a0998012d242edef8017afd971208d12542334a5ce58975b0351ee6eddfda19f",
+    "previews/leocad-bom.csv": "601a72a2321b953a4d0192f6cecbb5f9b91bdcdd35945d50b845469b61eb5a05",
+    "previews/top.png": "ae4d9013271ed5c09aa867e0dc71bf93258c4f6b1450cbdc570c479aa452675d",
+    "validation.json": "c713aeed85dd341ee1ff1c6573d823e6184a8c8fd5432a2a1138082be81eaf44"
+  },
+  "diagnostics": [
+    {
+      "code": "connection.invalid_transform",
+      "message": "connection feature 'snap_cyl@L11:I0' from /opt/ldraw-nova/data/offLibShadow/parts/3818.dat:11 rejected under invalid scale or reflection",
+      "severity": "warning",
+      "path": "/opt/ldraw-nova/data/offLibShadow/parts/3818.dat",
+      "section": null,
+      "line_number": 11,
+      "offending_value": "snap_cyl@L11:I0",
+      "suggestions": [],
+      "cause": null
+    },
+    {
+      "code": "connection.invalid_transform",
+      "message": "connection feature 'snap_cyl@L14:I0' from /opt/ldraw-nova/data/offLibShadow/parts/3818.dat:14 rejected under invalid scale or reflection",
+      "severity": "warning",
+      "path": "/opt/ldraw-nova/data/offLibShadow/parts/3818.dat",
+      "section": null,
+      "line_number": 14,
+      "offending_value": "snap_cyl@L14:I0",
+      "suggestions": [],
+      "cause": null
+    },
+    {
+      "code": "coverage.contacts_skipped",
+      "severity": "warning",
+      "message": "Contacts were not computed. Select a subassembly or request --contacts all; no connectivity conclusion is available.",
+      "line_number": null,
+      "section": null
+    },
+    {
+      "code": "coverage.collision_review",
+      "severity": "warning",
+      "message": "Some parts lack rectangular body checks; oriented bounds refine candidates, while remaining overlaps require material review.",
+      "line_number": null,
+      "section": null
+    }
+  ],
+  "physical_placements": 562,
+  "exit_code": 0
+}

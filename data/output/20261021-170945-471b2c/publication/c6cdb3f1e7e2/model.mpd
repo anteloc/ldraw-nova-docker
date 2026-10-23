@@ -1,0 +1,198 @@
+0 FILE lighthouse.ldr
+0 Sideways-stud lighthouse: SNOT wall tower on a plinth, glazed lantern
+0 Name: lighthouse.ldr
+0 Author: Claude (LDraw Nova agent)
+0 !LDRAW_ORG Model
+0 // plinth-0-north: Brick 2 x 4 (rock plinth course)
+1 19 0 -24 -20 1 0 0 0 1 0 0 0 1 3001.dat
+0 // plinth-0-south: Brick 2 x 4 (rock plinth course)
+1 19 0 -24 20 1 0 0 0 1 0 0 0 1 3001.dat
+0 STEP
+0 // plinth-1-north: Brick 2 x 4 (rock plinth course)
+1 19 0 -48 -20 1 0 0 0 1 0 0 0 1 3001.dat
+0 // plinth-1-south: Brick 2 x 4 (rock plinth course)
+1 19 0 -48 20 1 0 0 0 1 0 0 0 1 3001.dat
+0 STEP
+0 // L0-core: Core brick 2 x 2
+1 15 0 -88 0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // L0-core-plate-a: Core plate 2 x 2
+1 15 0 -64 0 1 0 0 0 1 0 0 0 1 3022.dat
+0 // L0-core-plate-b: Core plate 2 x 2
+1 15 0 -56 0 1 0 0 0 1 0 0 0 1 3022.dat
+0 STEP
+0 // L0-corner-wn: Corner brick 1 x 1
+1 15 -30 -88 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // L0-corner-wn-p1: Corner plate 1 x 1
+1 15 -30 -64 -30 1 0 0 0 1 0 0 0 1 3024.dat
+0 // L0-corner-wn-p2: Corner plate 1 x 1
+1 15 -30 -56 -30 1 0 0 0 1 0 0 0 1 3024.dat
+0 // L0-corner-ws: Corner brick 1 x 1
+1 15 -30 -88 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // L0-corner-ws-p1: Corner plate 1 x 1
+1 15 -30 -64 30 1 0 0 0 1 0 0 0 1 3024.dat
+0 // L0-corner-ws-p2: Corner plate 1 x 1
+1 15 -30 -56 30 1 0 0 0 1 0 0 0 1 3024.dat
+0 // L0-corner-en: Corner brick 1 x 1
+1 15 30 -88 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // L0-corner-en-p1: Corner plate 1 x 1
+1 15 30 -64 -30 1 0 0 0 1 0 0 0 1 3024.dat
+0 // L0-corner-en-p2: Corner plate 1 x 1
+1 15 30 -56 -30 1 0 0 0 1 0 0 0 1 3024.dat
+0 // L0-corner-es: Corner brick 1 x 1
+1 15 30 -88 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // L0-corner-es-p1: Corner plate 1 x 1
+1 15 30 -64 30 1 0 0 0 1 0 0 0 1 3024.dat
+0 // L0-corner-es-p2: Corner plate 1 x 1
+1 15 30 -56 30 1 0 0 0 1 0 0 0 1 3024.dat
+0 STEP
+0 // L0-wall-south: Brick 1 x 2 x 1.667 with 8 studs on 3 sides (SNOT wall)
+1 15 0 -88 30 -1 0 0 0 1 0 0 0 -1 67329.dat
+0 // L0-wall-north: Brick 1 x 2 x 1.667 with 8 studs on 3 sides (SNOT wall)
+1 0 0 -88 -30 1 0 0 0 1 0 0 0 1 67329.dat
+0 // L0-wall-west: Brick 1 x 2 x 1.667 with 8 studs on 3 sides (SNOT wall)
+1 15 -30 -88 0 0 0 1 0 1 0 -1 0 0 67329.dat
+0 // L0-wall-east: Brick 1 x 2 x 1.667 with 8 studs on 3 sides (SNOT wall)
+1 15 30 -88 0 0 0 -1 0 1 0 1 0 0 67329.dat
+0 STEP
+0 // L1-core: Core brick 2 x 2
+1 15 0 -128 0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // L1-core-plate-a: Core plate 2 x 2
+1 15 0 -104 0 1 0 0 0 1 0 0 0 1 3022.dat
+0 // L1-core-plate-b: Core plate 2 x 2
+1 15 0 -96 0 1 0 0 0 1 0 0 0 1 3022.dat
+0 STEP
+0 // L1-corner-wn: Corner brick 1 x 1
+1 15 -30 -128 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // L1-corner-wn-p1: Corner plate 1 x 1
+1 15 -30 -104 -30 1 0 0 0 1 0 0 0 1 3024.dat
+0 // L1-corner-wn-p2: Corner plate 1 x 1
+1 15 -30 -96 -30 1 0 0 0 1 0 0 0 1 3024.dat
+0 // L1-corner-ws: Corner brick 1 x 1
+1 15 -30 -128 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // L1-corner-ws-p1: Corner plate 1 x 1
+1 15 -30 -104 30 1 0 0 0 1 0 0 0 1 3024.dat
+0 // L1-corner-ws-p2: Corner plate 1 x 1
+1 15 -30 -96 30 1 0 0 0 1 0 0 0 1 3024.dat
+0 // L1-corner-en: Corner brick 1 x 1
+1 15 30 -128 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // L1-corner-en-p1: Corner plate 1 x 1
+1 15 30 -104 -30 1 0 0 0 1 0 0 0 1 3024.dat
+0 // L1-corner-en-p2: Corner plate 1 x 1
+1 15 30 -96 -30 1 0 0 0 1 0 0 0 1 3024.dat
+0 // L1-corner-es: Corner brick 1 x 1
+1 15 30 -128 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // L1-corner-es-p1: Corner plate 1 x 1
+1 15 30 -104 30 1 0 0 0 1 0 0 0 1 3024.dat
+0 // L1-corner-es-p2: Corner plate 1 x 1
+1 15 30 -96 30 1 0 0 0 1 0 0 0 1 3024.dat
+0 STEP
+0 // L1-wall-south: Brick 1 x 2 x 1.667 with 8 studs on 3 sides (SNOT wall)
+1 4 0 -128 30 -1 0 0 0 1 0 0 0 -1 67329.dat
+0 // L1-wall-north: Brick 1 x 2 x 1.667 with 8 studs on 3 sides (SNOT wall)
+1 4 0 -128 -30 1 0 0 0 1 0 0 0 1 67329.dat
+0 // L1-wall-west: Brick 1 x 2 x 1.667 with 8 studs on 3 sides (SNOT wall)
+1 4 -30 -128 0 0 0 1 0 1 0 -1 0 0 67329.dat
+0 // L1-wall-east: Brick 1 x 2 x 1.667 with 8 studs on 3 sides (SNOT wall)
+1 4 30 -128 0 0 0 -1 0 1 0 1 0 0 67329.dat
+0 STEP
+0 // L2-core: Core brick 2 x 2
+1 15 0 -168 0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // L2-core-plate-a: Core plate 2 x 2
+1 15 0 -144 0 1 0 0 0 1 0 0 0 1 3022.dat
+0 // L2-core-plate-b: Core plate 2 x 2
+1 15 0 -136 0 1 0 0 0 1 0 0 0 1 3022.dat
+0 STEP
+0 // L2-corner-wn: Corner brick 1 x 1
+1 15 -30 -168 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // L2-corner-wn-p1: Corner plate 1 x 1
+1 15 -30 -144 -30 1 0 0 0 1 0 0 0 1 3024.dat
+0 // L2-corner-wn-p2: Corner plate 1 x 1
+1 15 -30 -136 -30 1 0 0 0 1 0 0 0 1 3024.dat
+0 // L2-corner-ws: Corner brick 1 x 1
+1 15 -30 -168 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // L2-corner-ws-p1: Corner plate 1 x 1
+1 15 -30 -144 30 1 0 0 0 1 0 0 0 1 3024.dat
+0 // L2-corner-ws-p2: Corner plate 1 x 1
+1 15 -30 -136 30 1 0 0 0 1 0 0 0 1 3024.dat
+0 // L2-corner-en: Corner brick 1 x 1
+1 15 30 -168 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // L2-corner-en-p1: Corner plate 1 x 1
+1 15 30 -144 -30 1 0 0 0 1 0 0 0 1 3024.dat
+0 // L2-corner-en-p2: Corner plate 1 x 1
+1 15 30 -136 -30 1 0 0 0 1 0 0 0 1 3024.dat
+0 // L2-corner-es: Corner brick 1 x 1
+1 15 30 -168 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // L2-corner-es-p1: Corner plate 1 x 1
+1 15 30 -144 30 1 0 0 0 1 0 0 0 1 3024.dat
+0 // L2-corner-es-p2: Corner plate 1 x 1
+1 15 30 -136 30 1 0 0 0 1 0 0 0 1 3024.dat
+0 STEP
+0 // L2-wall-south: Brick 1 x 2 x 1.667 with 8 studs on 3 sides (SNOT wall)
+1 15 0 -168 30 -1 0 0 0 1 0 0 0 -1 67329.dat
+0 // L2-wall-north: Brick 1 x 2 x 1.667 with 8 studs on 3 sides (SNOT wall)
+1 15 0 -168 -30 1 0 0 0 1 0 0 0 1 67329.dat
+0 // L2-wall-west: Brick 1 x 2 x 1.667 with 8 studs on 3 sides (SNOT wall)
+1 47 -30 -168 0 0 0 1 0 1 0 -1 0 0 67329.dat
+0 // L2-wall-east: Brick 1 x 2 x 1.667 with 8 studs on 3 sides (SNOT wall)
+1 15 30 -168 0 0 0 -1 0 1 0 1 0 0 67329.dat
+0 STEP
+0 // L3-core: Core brick 2 x 2
+1 15 0 -208 0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // L3-core-plate-a: Core plate 2 x 2
+1 15 0 -184 0 1 0 0 0 1 0 0 0 1 3022.dat
+0 // L3-core-plate-b: Core plate 2 x 2
+1 15 0 -176 0 1 0 0 0 1 0 0 0 1 3022.dat
+0 STEP
+0 // L3-corner-wn: Corner brick 1 x 1
+1 15 -30 -208 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // L3-corner-wn-p1: Corner plate 1 x 1
+1 15 -30 -184 -30 1 0 0 0 1 0 0 0 1 3024.dat
+0 // L3-corner-wn-p2: Corner plate 1 x 1
+1 15 -30 -176 -30 1 0 0 0 1 0 0 0 1 3024.dat
+0 // L3-corner-ws: Corner brick 1 x 1
+1 15 -30 -208 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // L3-corner-ws-p1: Corner plate 1 x 1
+1 15 -30 -184 30 1 0 0 0 1 0 0 0 1 3024.dat
+0 // L3-corner-ws-p2: Corner plate 1 x 1
+1 15 -30 -176 30 1 0 0 0 1 0 0 0 1 3024.dat
+0 // L3-corner-en: Corner brick 1 x 1
+1 15 30 -208 -30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // L3-corner-en-p1: Corner plate 1 x 1
+1 15 30 -184 -30 1 0 0 0 1 0 0 0 1 3024.dat
+0 // L3-corner-en-p2: Corner plate 1 x 1
+1 15 30 -176 -30 1 0 0 0 1 0 0 0 1 3024.dat
+0 // L3-corner-es: Corner brick 1 x 1
+1 15 30 -208 30 1 0 0 0 1 0 0 0 1 3005.dat
+0 // L3-corner-es-p1: Corner plate 1 x 1
+1 15 30 -184 30 1 0 0 0 1 0 0 0 1 3024.dat
+0 // L3-corner-es-p2: Corner plate 1 x 1
+1 15 30 -176 30 1 0 0 0 1 0 0 0 1 3024.dat
+0 STEP
+0 // L3-wall-south: Brick 1 x 2 x 1.667 with 8 studs on 3 sides (SNOT wall)
+1 15 0 -208 30 -1 0 0 0 1 0 0 0 -1 67329.dat
+0 // L3-wall-north: Brick 1 x 2 x 1.667 with 8 studs on 3 sides (SNOT wall)
+1 15 0 -208 -30 1 0 0 0 1 0 0 0 1 67329.dat
+0 // L3-wall-west: Brick 1 x 2 x 1.667 with 8 studs on 3 sides (SNOT wall)
+1 15 -30 -208 0 0 0 1 0 1 0 -1 0 0 67329.dat
+0 // L3-wall-east: Brick 1 x 2 x 1.667 with 8 studs on 3 sides (SNOT wall)
+1 15 30 -208 0 0 0 -1 0 1 0 1 0 0 67329.dat
+0 STEP
+0 // deck-north: Plate 1 x 4 gallery edge
+1 72 0 -216 -30 1 0 0 0 1 0 0 0 1 3710.dat
+0 // deck-south: Plate 1 x 4 gallery edge
+1 72 0 -216 30 1 0 0 0 1 0 0 0 1 3710.dat
+0 // deck-west: Plate 1 x 2 gallery edge
+1 72 -30 -216 0 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 // deck-east: Plate 1 x 2 gallery edge
+1 72 30 -216 0 0 0 1 0 1 0 -1 0 0 3023b.dat
+0 STEP
+0 // lantern-a: Lantern glass 2 x 2 (lower)
+1 47 0 -232 0 1 0 0 0 1 0 0 0 1 3003.dat
+0 // lantern-b: Lantern glass 2 x 2 (upper)
+1 47 0 -256 0 1 0 0 0 1 0 0 0 1 3003.dat
+0 STEP
+0 // roof-cap: Roof plate 2 x 2
+1 72 0 -264 0 1 0 0 0 1 0 0 0 1 3022.dat
+0 // beacon-base: Beacon 2 x 2 plate, aligned on the roof cap studs
+1 14 0 -272 0 1 0 0 0 1 0 0 0 1 3022.dat
+0 NOFILE

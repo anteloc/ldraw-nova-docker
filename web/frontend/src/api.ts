@@ -165,8 +165,8 @@ export async function downloadGlb(modelUrl: string, fileName: string): Promise<v
   setTimeout(() => URL.revokeObjectURL(link.href), 30000);
 }
 
-/** The 3D viewer (three.js), or the 3D player that animates the build (Rust/WebAssembly). */
-export type ViewerMode = "viewer" | "player";
+/** Standalone model viewers, including buildinginstructions.js step-by-step instructions. */
+export type ViewerMode = "viewer" | "player" | "instructions";
 
 export const viewerUrl = (modelUrl: string, parts?: number | null, mode: ViewerMode = "viewer") =>
   `/viewer/${mode}.html?model=${encodeURIComponent(modelUrl)}` + (parts != null ? `&parts=${parts}` : "");

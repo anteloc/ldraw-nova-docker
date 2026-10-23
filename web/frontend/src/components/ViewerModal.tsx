@@ -5,9 +5,10 @@ import type { ViewerTarget } from "../context";
 const MODES: { mode: ViewerMode; label: string; title: string }[] = [
   { mode: "viewer", label: "3D view", title: "Inspect the model (three.js viewer)" },
   { mode: "player", label: "3D player", title: "Watch it being built, step by step" },
+  { mode: "instructions", label: "Build instructions", title: "Follow the build steps with illustrated parts lists" },
 ];
 
-// The viewer and the player are separate pages in an iframe: the viewer's
+// The viewers are separate pages in an iframe: the viewer's
 // three.js/ldbi scripts are classic globals (THREE, LDR) that shouldn't mix
 // with the React app, and the player is a WebAssembly module with its own loop.
 export default function ViewerModal({ target, onClose }: { target: ViewerTarget; onClose: () => void }) {
@@ -20,10 +21,10 @@ export default function ViewerModal({ target, onClose }: { target: ViewerTarget;
   }, [onClose]);
 
   const url = viewerUrl(target.modelUrl, target.parts, mode);
-  const label = `${mode === "player" ? "3D player" : "3D view"} of ${target.title}`;
+  const label = `${MODES.find(m => m.mode === mode)!.label} of ${target.title}`;
   return (
     <div className="modal-backdrop" onClick={onClose}>
-      <div className="modal" role="dialog" aria-label={label} onClick={(e) => e.stopPropagation()}>
+      <div className="modal viewer-modal" role="dialog" aria-modal="true" aria-label={label} onClick={(e) => e.stopPropagation()}>
         <header className="modal-head">
           <strong className="ellipsis">{target.title}</strong>
           <span className="segmented" role="group" aria-label="Show in">

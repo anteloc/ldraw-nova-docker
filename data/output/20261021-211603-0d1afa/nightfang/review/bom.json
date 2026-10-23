@@ -1,0 +1,265 @@
+{
+  "model_sha256": "5d6bdc2ece5b0a4d28accaf02f99164d81a9dd98c9ce365ec464b8f56aa4c3e9",
+  "bom": [
+    {
+      "part": "15068",
+      "description": "Slope Brick Curved  2 x  2 x  0.667",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 3
+    },
+    {
+      "part": "2412b",
+      "description": "Tile  1 x  2 Grille with Groove",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 7
+    },
+    {
+      "part": "2437",
+      "description": "Windscreen  3 x  4 x  1.333",
+      "colour_code": 40,
+      "colour_name": "Trans_Brown",
+      "quantity": 2
+    },
+    {
+      "part": "3009",
+      "description": "Brick  1 x  6",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 2
+    },
+    {
+      "part": "3010",
+      "description": "Brick  1 x  4",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 4
+    },
+    {
+      "part": "3020",
+      "description": "Plate  2 x  4",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 6
+    },
+    {
+      "part": "3020",
+      "description": "Plate  2 x  4",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 14
+    },
+    {
+      "part": "3022",
+      "description": "Plate  2 x  2",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 3
+    },
+    {
+      "part": "3023b",
+      "description": "Plate  1 x  2",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 8
+    },
+    {
+      "part": "3034",
+      "description": "Plate  2 x  8",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 6
+    },
+    {
+      "part": "3039",
+      "description": "Slope Brick 45  2 x  2",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 2
+    },
+    {
+      "part": "3068b",
+      "description": "Tile  2 x  2 with Groove",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 1
+    },
+    {
+      "part": "3068b",
+      "description": "Tile  2 x  2 with Groove",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 4
+    },
+    {
+      "part": "3069b",
+      "description": "Tile  1 x  2 with Groove",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 2
+    },
+    {
+      "part": "3069b",
+      "description": "Tile  1 x  2 with Groove",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 10
+    },
+    {
+      "part": "3070b",
+      "description": "Tile  1 x  1 with Groove",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 4
+    },
+    {
+      "part": "3460",
+      "description": "Plate  1 x  8",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 2
+    },
+    {
+      "part": "3666",
+      "description": "Plate  1 x  6",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 1
+    },
+    {
+      "part": "3666",
+      "description": "Plate  1 x  6",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 2
+    },
+    {
+      "part": "3710",
+      "description": "Plate  1 x  4",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 4
+    },
+    {
+      "part": "3710",
+      "description": "Plate  1 x  4",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 2
+    },
+    {
+      "part": "3795",
+      "description": "Plate  2 x  6",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 3
+    },
+    {
+      "part": "3795",
+      "description": "Plate  2 x  6",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 1
+    },
+    {
+      "part": "3829c01",
+      "description": "Car Steering Stand and Wheel (Complete)",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 1
+    },
+    {
+      "part": "4070",
+      "description": "Brick  1 x  1 with Headlight",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 4
+    },
+    {
+      "part": "4162",
+      "description": "Tile  1 x  8",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 2
+    },
+    {
+      "part": "4286",
+      "description": "Slope Brick 33  3 x  1",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 2
+    },
+    {
+      "part": "6014b",
+      "description": "Wheel Rim 12 x 11 with Notched Hole",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 4
+    },
+    {
+      "part": "6015",
+      "description": "Tyre 12/ 40 x 11 Wide",
+      "colour_code": 256,
+      "colour_name": "Rubber_Black",
+      "quantity": 4
+    },
+    {
+      "part": "6141",
+      "description": "Plate  1 x  1 Round",
+      "colour_code": 36,
+      "colour_name": "Trans_Red",
+      "quantity": 2
+    },
+    {
+      "part": "6141",
+      "description": "Plate  1 x  1 Round",
+      "colour_code": 47,
+      "colour_name": "Trans_Clear",
+      "quantity": 2
+    },
+    {
+      "part": "6157",
+      "description": "Plate  2 x  2 with 2 Wheel Pins Extended without Wishbones",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 2
+    },
+    {
+      "part": "87079",
+      "description": "Tile  2 x  4",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 3
+    },
+    {
+      "part": "87079",
+      "description": "Tile  2 x  4",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 4
+    },
+    {
+      "part": "87087",
+      "description": "Brick  1 x  1 with Stud on 1 Side",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 4
+    },
+    {
+      "part": "87087",
+      "description": "Brick  1 x  1 with Stud on 1 Side",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 28
+    },
+    {
+      "part": "98282",
+      "description": "Car Mudguard  4 x  2.5 x  1",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 4
+    }
+  ],
+  "physical_placements": 159
+}

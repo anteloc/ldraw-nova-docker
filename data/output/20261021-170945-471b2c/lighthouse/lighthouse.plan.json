@@ -1,0 +1,1032 @@
+{
+  "version": 1,
+  "author": "Claude (LDraw Nova agent)",
+  "sections": [
+    {
+      "name": "lighthouse.ldr",
+      "description": "Sideways-stud lighthouse: SNOT wall tower on a plinth, glazed lantern",
+      "steps": [
+        [
+          {
+            "id": "plinth-0-north",
+            "ref": "3001.dat",
+            "colour": 19,
+            "at": [
+              0,
+              -24,
+              -20
+            ],
+            "purpose": "Brick 2 x 4 (rock plinth course)"
+          },
+          {
+            "id": "plinth-0-south",
+            "ref": "3001.dat",
+            "colour": 19,
+            "at": [
+              0,
+              -24,
+              20
+            ],
+            "purpose": "Brick 2 x 4 (rock plinth course)"
+          }
+        ],
+        [
+          {
+            "id": "plinth-1-north",
+            "ref": "3001.dat",
+            "colour": 19,
+            "at": [
+              0,
+              -48,
+              -20
+            ],
+            "purpose": "Brick 2 x 4 (rock plinth course)"
+          },
+          {
+            "id": "plinth-1-south",
+            "ref": "3001.dat",
+            "colour": 19,
+            "at": [
+              0,
+              -48,
+              20
+            ],
+            "purpose": "Brick 2 x 4 (rock plinth course)"
+          }
+        ],
+        [
+          {
+            "id": "L0-core",
+            "ref": "3003.dat",
+            "colour": 15,
+            "at": [
+              0,
+              -88,
+              0
+            ],
+            "purpose": "Core brick 2 x 2"
+          },
+          {
+            "id": "L0-core-plate-a",
+            "ref": "3022.dat",
+            "colour": 15,
+            "at": [
+              0,
+              -64,
+              0
+            ],
+            "purpose": "Core plate 2 x 2"
+          },
+          {
+            "id": "L0-core-plate-b",
+            "ref": "3022.dat",
+            "colour": 15,
+            "at": [
+              0,
+              -56,
+              0
+            ],
+            "purpose": "Core plate 2 x 2"
+          }
+        ],
+        [
+          {
+            "id": "L0-corner-wn",
+            "ref": "3005.dat",
+            "colour": 15,
+            "at": [
+              -30,
+              -88,
+              -30
+            ],
+            "purpose": "Corner brick 1 x 1"
+          },
+          {
+            "id": "L0-corner-wn-p1",
+            "ref": "3024.dat",
+            "colour": 15,
+            "at": [
+              -30,
+              -64,
+              -30
+            ],
+            "purpose": "Corner plate 1 x 1"
+          },
+          {
+            "id": "L0-corner-wn-p2",
+            "ref": "3024.dat",
+            "colour": 15,
+            "at": [
+              -30,
+              -56,
+              -30
+            ],
+            "purpose": "Corner plate 1 x 1"
+          },
+          {
+            "id": "L0-corner-ws",
+            "ref": "3005.dat",
+            "colour": 15,
+            "at": [
+              -30,
+              -88,
+              30
+            ],
+            "purpose": "Corner brick 1 x 1"
+          },
+          {
+            "id": "L0-corner-ws-p1",
+            "ref": "3024.dat",
+            "colour": 15,
+            "at": [
+              -30,
+              -64,
+              30
+            ],
+            "purpose": "Corner plate 1 x 1"
+          },
+          {
+            "id": "L0-corner-ws-p2",
+            "ref": "3024.dat",
+            "colour": 15,
+            "at": [
+              -30,
+              -56,
+              30
+            ],
+            "purpose": "Corner plate 1 x 1"
+          },
+          {
+            "id": "L0-corner-en",
+            "ref": "3005.dat",
+            "colour": 15,
+            "at": [
+              30,
+              -88,
+              -30
+            ],
+            "purpose": "Corner brick 1 x 1"
+          },
+          {
+            "id": "L0-corner-en-p1",
+            "ref": "3024.dat",
+            "colour": 15,
+            "at": [
+              30,
+              -64,
+              -30
+            ],
+            "purpose": "Corner plate 1 x 1"
+          },
+          {
+            "id": "L0-corner-en-p2",
+            "ref": "3024.dat",
+            "colour": 15,
+            "at": [
+              30,
+              -56,
+              -30
+            ],
+            "purpose": "Corner plate 1 x 1"
+          },
+          {
+            "id": "L0-corner-es",
+            "ref": "3005.dat",
+            "colour": 15,
+            "at": [
+              30,
+              -88,
+              30
+            ],
+            "purpose": "Corner brick 1 x 1"
+          },
+          {
+            "id": "L0-corner-es-p1",
+            "ref": "3024.dat",
+            "colour": 15,
+            "at": [
+              30,
+              -64,
+              30
+            ],
+            "purpose": "Corner plate 1 x 1"
+          },
+          {
+            "id": "L0-corner-es-p2",
+            "ref": "3024.dat",
+            "colour": 15,
+            "at": [
+              30,
+              -56,
+              30
+            ],
+            "purpose": "Corner plate 1 x 1"
+          }
+        ],
+        [
+          {
+            "id": "L0-wall-south",
+            "ref": "67329.dat",
+            "colour": 15,
+            "at": [
+              0,
+              -88,
+              30
+            ],
+            "yaw": 180,
+            "purpose": "Brick 1 x 2 x 1.667 with 8 studs on 3 sides (SNOT wall)"
+          },
+          {
+            "id": "L0-wall-north",
+            "ref": "67329.dat",
+            "colour": 0,
+            "at": [
+              0,
+              -88,
+              -30
+            ],
+            "yaw": 0,
+            "purpose": "Brick 1 x 2 x 1.667 with 8 studs on 3 sides (SNOT wall)"
+          },
+          {
+            "id": "L0-wall-west",
+            "ref": "67329.dat",
+            "colour": 15,
+            "at": [
+              -30,
+              -88,
+              0
+            ],
+            "yaw": 90,
+            "purpose": "Brick 1 x 2 x 1.667 with 8 studs on 3 sides (SNOT wall)"
+          },
+          {
+            "id": "L0-wall-east",
+            "ref": "67329.dat",
+            "colour": 15,
+            "at": [
+              30,
+              -88,
+              0
+            ],
+            "yaw": 270,
+            "purpose": "Brick 1 x 2 x 1.667 with 8 studs on 3 sides (SNOT wall)"
+          }
+        ],
+        [
+          {
+            "id": "L1-core",
+            "ref": "3003.dat",
+            "colour": 15,
+            "at": [
+              0,
+              -128,
+              0
+            ],
+            "purpose": "Core brick 2 x 2"
+          },
+          {
+            "id": "L1-core-plate-a",
+            "ref": "3022.dat",
+            "colour": 15,
+            "at": [
+              0,
+              -104,
+              0
+            ],
+            "purpose": "Core plate 2 x 2"
+          },
+          {
+            "id": "L1-core-plate-b",
+            "ref": "3022.dat",
+            "colour": 15,
+            "at": [
+              0,
+              -96,
+              0
+            ],
+            "purpose": "Core plate 2 x 2"
+          }
+        ],
+        [
+          {
+            "id": "L1-corner-wn",
+            "ref": "3005.dat",
+            "colour": 15,
+            "at": [
+              -30,
+              -128,
+              -30
+            ],
+            "purpose": "Corner brick 1 x 1"
+          },
+          {
+            "id": "L1-corner-wn-p1",
+            "ref": "3024.dat",
+            "colour": 15,
+            "at": [
+              -30,
+              -104,
+              -30
+            ],
+            "purpose": "Corner plate 1 x 1"
+          },
+          {
+            "id": "L1-corner-wn-p2",
+            "ref": "3024.dat",
+            "colour": 15,
+            "at": [
+              -30,
+              -96,
+              -30
+            ],
+            "purpose": "Corner plate 1 x 1"
+          },
+          {
+            "id": "L1-corner-ws",
+            "ref": "3005.dat",
+            "colour": 15,
+            "at": [
+              -30,
+              -128,
+              30
+            ],
+            "purpose": "Corner brick 1 x 1"
+          },
+          {
+            "id": "L1-corner-ws-p1",
+            "ref": "3024.dat",
+            "colour": 15,
+            "at": [
+              -30,
+              -104,
+              30
+            ],
+            "purpose": "Corner plate 1 x 1"
+          },
+          {
+            "id": "L1-corner-ws-p2",
+            "ref": "3024.dat",
+            "colour": 15,
+            "at": [
+              -30,
+              -96,
+              30
+            ],
+            "purpose": "Corner plate 1 x 1"
+          },
+          {
+            "id": "L1-corner-en",
+            "ref": "3005.dat",
+            "colour": 15,
+            "at": [
+              30,
+              -128,
+              -30
+            ],
+            "purpose": "Corner brick 1 x 1"
+          },
+          {
+            "id": "L1-corner-en-p1",
+            "ref": "3024.dat",
+            "colour": 15,
+            "at": [
+              30,
+              -104,
+              -30
+            ],
+            "purpose": "Corner plate 1 x 1"
+          },
+          {
+            "id": "L1-corner-en-p2",
+            "ref": "3024.dat",
+            "colour": 15,
+            "at": [
+              30,
+              -96,
+              -30
+            ],
+            "purpose": "Corner plate 1 x 1"
+          },
+          {
+            "id": "L1-corner-es",
+            "ref": "3005.dat",
+            "colour": 15,
+            "at": [
+              30,
+              -128,
+              30
+            ],
+            "purpose": "Corner brick 1 x 1"
+          },
+          {
+            "id": "L1-corner-es-p1",
+            "ref": "3024.dat",
+            "colour": 15,
+            "at": [
+              30,
+              -104,
+              30
+            ],
+            "purpose": "Corner plate 1 x 1"
+          },
+          {
+            "id": "L1-corner-es-p2",
+            "ref": "3024.dat",
+            "colour": 15,
+            "at": [
+              30,
+              -96,
+              30
+            ],
+            "purpose": "Corner plate 1 x 1"
+          }
+        ],
+        [
+          {
+            "id": "L1-wall-south",
+            "ref": "67329.dat",
+            "colour": 4,
+            "at": [
+              0,
+              -128,
+              30
+            ],
+            "yaw": 180,
+            "purpose": "Brick 1 x 2 x 1.667 with 8 studs on 3 sides (SNOT wall)"
+          },
+          {
+            "id": "L1-wall-north",
+            "ref": "67329.dat",
+            "colour": 4,
+            "at": [
+              0,
+              -128,
+              -30
+            ],
+            "yaw": 0,
+            "purpose": "Brick 1 x 2 x 1.667 with 8 studs on 3 sides (SNOT wall)"
+          },
+          {
+            "id": "L1-wall-west",
+            "ref": "67329.dat",
+            "colour": 4,
+            "at": [
+              -30,
+              -128,
+              0
+            ],
+            "yaw": 90,
+            "purpose": "Brick 1 x 2 x 1.667 with 8 studs on 3 sides (SNOT wall)"
+          },
+          {
+            "id": "L1-wall-east",
+            "ref": "67329.dat",
+            "colour": 4,
+            "at": [
+              30,
+              -128,
+              0
+            ],
+            "yaw": 270,
+            "purpose": "Brick 1 x 2 x 1.667 with 8 studs on 3 sides (SNOT wall)"
+          }
+        ],
+        [
+          {
+            "id": "L2-core",
+            "ref": "3003.dat",
+            "colour": 15,
+            "at": [
+              0,
+              -168,
+              0
+            ],
+            "purpose": "Core brick 2 x 2"
+          },
+          {
+            "id": "L2-core-plate-a",
+            "ref": "3022.dat",
+            "colour": 15,
+            "at": [
+              0,
+              -144,
+              0
+            ],
+            "purpose": "Core plate 2 x 2"
+          },
+          {
+            "id": "L2-core-plate-b",
+            "ref": "3022.dat",
+            "colour": 15,
+            "at": [
+              0,
+              -136,
+              0
+            ],
+            "purpose": "Core plate 2 x 2"
+          }
+        ],
+        [
+          {
+            "id": "L2-corner-wn",
+            "ref": "3005.dat",
+            "colour": 15,
+            "at": [
+              -30,
+              -168,
+              -30
+            ],
+            "purpose": "Corner brick 1 x 1"
+          },
+          {
+            "id": "L2-corner-wn-p1",
+            "ref": "3024.dat",
+            "colour": 15,
+            "at": [
+              -30,
+              -144,
+              -30
+            ],
+            "purpose": "Corner plate 1 x 1"
+          },
+          {
+            "id": "L2-corner-wn-p2",
+            "ref": "3024.dat",
+            "colour": 15,
+            "at": [
+              -30,
+              -136,
+              -30
+            ],
+            "purpose": "Corner plate 1 x 1"
+          },
+          {
+            "id": "L2-corner-ws",
+            "ref": "3005.dat",
+            "colour": 15,
+            "at": [
+              -30,
+              -168,
+              30
+            ],
+            "purpose": "Corner brick 1 x 1"
+          },
+          {
+            "id": "L2-corner-ws-p1",
+            "ref": "3024.dat",
+            "colour": 15,
+            "at": [
+              -30,
+              -144,
+              30
+            ],
+            "purpose": "Corner plate 1 x 1"
+          },
+          {
+            "id": "L2-corner-ws-p2",
+            "ref": "3024.dat",
+            "colour": 15,
+            "at": [
+              -30,
+              -136,
+              30
+            ],
+            "purpose": "Corner plate 1 x 1"
+          },
+          {
+            "id": "L2-corner-en",
+            "ref": "3005.dat",
+            "colour": 15,
+            "at": [
+              30,
+              -168,
+              -30
+            ],
+            "purpose": "Corner brick 1 x 1"
+          },
+          {
+            "id": "L2-corner-en-p1",
+            "ref": "3024.dat",
+            "colour": 15,
+            "at": [
+              30,
+              -144,
+              -30
+            ],
+            "purpose": "Corner plate 1 x 1"
+          },
+          {
+            "id": "L2-corner-en-p2",
+            "ref": "3024.dat",
+            "colour": 15,
+            "at": [
+              30,
+              -136,
+              -30
+            ],
+            "purpose": "Corner plate 1 x 1"
+          },
+          {
+            "id": "L2-corner-es",
+            "ref": "3005.dat",
+            "colour": 15,
+            "at": [
+              30,
+              -168,
+              30
+            ],
+            "purpose": "Corner brick 1 x 1"
+          },
+          {
+            "id": "L2-corner-es-p1",
+            "ref": "3024.dat",
+            "colour": 15,
+            "at": [
+              30,
+              -144,
+              30
+            ],
+            "purpose": "Corner plate 1 x 1"
+          },
+          {
+            "id": "L2-corner-es-p2",
+            "ref": "3024.dat",
+            "colour": 15,
+            "at": [
+              30,
+              -136,
+              30
+            ],
+            "purpose": "Corner plate 1 x 1"
+          }
+        ],
+        [
+          {
+            "id": "L2-wall-south",
+            "ref": "67329.dat",
+            "colour": 15,
+            "at": [
+              0,
+              -168,
+              30
+            ],
+            "yaw": 180,
+            "purpose": "Brick 1 x 2 x 1.667 with 8 studs on 3 sides (SNOT wall)"
+          },
+          {
+            "id": "L2-wall-north",
+            "ref": "67329.dat",
+            "colour": 15,
+            "at": [
+              0,
+              -168,
+              -30
+            ],
+            "yaw": 0,
+            "purpose": "Brick 1 x 2 x 1.667 with 8 studs on 3 sides (SNOT wall)"
+          },
+          {
+            "id": "L2-wall-west",
+            "ref": "67329.dat",
+            "colour": 47,
+            "at": [
+              -30,
+              -168,
+              0
+            ],
+            "yaw": 90,
+            "purpose": "Brick 1 x 2 x 1.667 with 8 studs on 3 sides (SNOT wall)"
+          },
+          {
+            "id": "L2-wall-east",
+            "ref": "67329.dat",
+            "colour": 15,
+            "at": [
+              30,
+              -168,
+              0
+            ],
+            "yaw": 270,
+            "purpose": "Brick 1 x 2 x 1.667 with 8 studs on 3 sides (SNOT wall)"
+          }
+        ],
+        [
+          {
+            "id": "L3-core",
+            "ref": "3003.dat",
+            "colour": 15,
+            "at": [
+              0,
+              -208,
+              0
+            ],
+            "purpose": "Core brick 2 x 2"
+          },
+          {
+            "id": "L3-core-plate-a",
+            "ref": "3022.dat",
+            "colour": 15,
+            "at": [
+              0,
+              -184,
+              0
+            ],
+            "purpose": "Core plate 2 x 2"
+          },
+          {
+            "id": "L3-core-plate-b",
+            "ref": "3022.dat",
+            "colour": 15,
+            "at": [
+              0,
+              -176,
+              0
+            ],
+            "purpose": "Core plate 2 x 2"
+          }
+        ],
+        [
+          {
+            "id": "L3-corner-wn",
+            "ref": "3005.dat",
+            "colour": 15,
+            "at": [
+              -30,
+              -208,
+              -30
+            ],
+            "purpose": "Corner brick 1 x 1"
+          },
+          {
+            "id": "L3-corner-wn-p1",
+            "ref": "3024.dat",
+            "colour": 15,
+            "at": [
+              -30,
+              -184,
+              -30
+            ],
+            "purpose": "Corner plate 1 x 1"
+          },
+          {
+            "id": "L3-corner-wn-p2",
+            "ref": "3024.dat",
+            "colour": 15,
+            "at": [
+              -30,
+              -176,
+              -30
+            ],
+            "purpose": "Corner plate 1 x 1"
+          },
+          {
+            "id": "L3-corner-ws",
+            "ref": "3005.dat",
+            "colour": 15,
+            "at": [
+              -30,
+              -208,
+              30
+            ],
+            "purpose": "Corner brick 1 x 1"
+          },
+          {
+            "id": "L3-corner-ws-p1",
+            "ref": "3024.dat",
+            "colour": 15,
+            "at": [
+              -30,
+              -184,
+              30
+            ],
+            "purpose": "Corner plate 1 x 1"
+          },
+          {
+            "id": "L3-corner-ws-p2",
+            "ref": "3024.dat",
+            "colour": 15,
+            "at": [
+              -30,
+              -176,
+              30
+            ],
+            "purpose": "Corner plate 1 x 1"
+          },
+          {
+            "id": "L3-corner-en",
+            "ref": "3005.dat",
+            "colour": 15,
+            "at": [
+              30,
+              -208,
+              -30
+            ],
+            "purpose": "Corner brick 1 x 1"
+          },
+          {
+            "id": "L3-corner-en-p1",
+            "ref": "3024.dat",
+            "colour": 15,
+            "at": [
+              30,
+              -184,
+              -30
+            ],
+            "purpose": "Corner plate 1 x 1"
+          },
+          {
+            "id": "L3-corner-en-p2",
+            "ref": "3024.dat",
+            "colour": 15,
+            "at": [
+              30,
+              -176,
+              -30
+            ],
+            "purpose": "Corner plate 1 x 1"
+          },
+          {
+            "id": "L3-corner-es",
+            "ref": "3005.dat",
+            "colour": 15,
+            "at": [
+              30,
+              -208,
+              30
+            ],
+            "purpose": "Corner brick 1 x 1"
+          },
+          {
+            "id": "L3-corner-es-p1",
+            "ref": "3024.dat",
+            "colour": 15,
+            "at": [
+              30,
+              -184,
+              30
+            ],
+            "purpose": "Corner plate 1 x 1"
+          },
+          {
+            "id": "L3-corner-es-p2",
+            "ref": "3024.dat",
+            "colour": 15,
+            "at": [
+              30,
+              -176,
+              30
+            ],
+            "purpose": "Corner plate 1 x 1"
+          }
+        ],
+        [
+          {
+            "id": "L3-wall-south",
+            "ref": "67329.dat",
+            "colour": 15,
+            "at": [
+              0,
+              -208,
+              30
+            ],
+            "yaw": 180,
+            "purpose": "Brick 1 x 2 x 1.667 with 8 studs on 3 sides (SNOT wall)"
+          },
+          {
+            "id": "L3-wall-north",
+            "ref": "67329.dat",
+            "colour": 15,
+            "at": [
+              0,
+              -208,
+              -30
+            ],
+            "yaw": 0,
+            "purpose": "Brick 1 x 2 x 1.667 with 8 studs on 3 sides (SNOT wall)"
+          },
+          {
+            "id": "L3-wall-west",
+            "ref": "67329.dat",
+            "colour": 15,
+            "at": [
+              -30,
+              -208,
+              0
+            ],
+            "yaw": 90,
+            "purpose": "Brick 1 x 2 x 1.667 with 8 studs on 3 sides (SNOT wall)"
+          },
+          {
+            "id": "L3-wall-east",
+            "ref": "67329.dat",
+            "colour": 15,
+            "at": [
+              30,
+              -208,
+              0
+            ],
+            "yaw": 270,
+            "purpose": "Brick 1 x 2 x 1.667 with 8 studs on 3 sides (SNOT wall)"
+          }
+        ],
+        [
+          {
+            "id": "deck-north",
+            "ref": "3710.dat",
+            "colour": 72,
+            "at": [
+              0,
+              -216,
+              -30
+            ],
+            "purpose": "Plate 1 x 4 gallery edge"
+          },
+          {
+            "id": "deck-south",
+            "ref": "3710.dat",
+            "colour": 72,
+            "at": [
+              0,
+              -216,
+              30
+            ],
+            "purpose": "Plate 1 x 4 gallery edge"
+          },
+          {
+            "id": "deck-west",
+            "ref": "3023b.dat",
+            "colour": 72,
+            "at": [
+              -30,
+              -216,
+              0
+            ],
+            "yaw": 90,
+            "purpose": "Plate 1 x 2 gallery edge"
+          },
+          {
+            "id": "deck-east",
+            "ref": "3023b.dat",
+            "colour": 72,
+            "at": [
+              30,
+              -216,
+              0
+            ],
+            "yaw": 90,
+            "purpose": "Plate 1 x 2 gallery edge"
+          }
+        ],
+        [
+          {
+            "id": "lantern-a",
+            "ref": "3003.dat",
+            "colour": 47,
+            "at": [
+              0,
+              -232,
+              0
+            ],
+            "purpose": "Lantern glass 2 x 2 (lower)"
+          },
+          {
+            "id": "lantern-b",
+            "ref": "3003.dat",
+            "colour": 47,
+            "at": [
+              0,
+              -256,
+              0
+            ],
+            "purpose": "Lantern glass 2 x 2 (upper)"
+          }
+        ],
+        [
+          {
+            "id": "roof-cap",
+            "ref": "3022.dat",
+            "colour": 72,
+            "at": [
+              0,
+              -264,
+              0
+            ],
+            "purpose": "Roof plate 2 x 2"
+          },
+          {
+            "id": "beacon-base",
+            "ref": "3022.dat",
+            "colour": 14,
+            "at": [
+              0,
+              -272,
+              0
+            ],
+            "purpose": "Beacon 2 x 2 plate, aligned on the roof cap studs"
+          }
+        ]
+      ]
+    }
+  ]
+}

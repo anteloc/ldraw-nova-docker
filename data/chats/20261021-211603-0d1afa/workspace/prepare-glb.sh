@@ -1,0 +1,1 @@
+/opt/ldraw-nova/prepare-glb.sh

@@ -1,0 +1,56 @@
+<!doctype html>
+<!-- buildinginstructions.js by Lasse Deleuran (Unlicense). Uses the matching
+     StepHandler, PLIBuilder and Three.js already pinned by LDRAWORG_REF in Dockerfile.
+     /viewer/instructions.html?model=<LDraw URL>[&parts=N][&step=N] -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Build instructions</title>
+  <link rel="stylesheet" href="instructions.css">
+</head>
+<body>
+  <header>
+    <strong id="file">Build instructions</strong>
+    <span id="parts"></span>
+    <button id="home" disabled title="Reset the camera for this step">Reset view</button>
+    <a id="download" hidden>Download model</a>
+  </header>
+  <div id="workspace">
+    <aside aria-label="Parts for this step">
+      <h1>Parts for this step</h1>
+      <p id="assembly"></p>
+      <ul id="parts-list"></ul>
+    </aside>
+    <main id="stage">
+      <canvas id="model-canvas" aria-label="Interactive 3D building step"></canvas>
+      <p id="hint">Drag to rotate · Shift+drag to pan · Scroll to zoom</p>
+    </main>
+  </div>
+  <footer>
+    <nav aria-label="Build steps">
+      <button id="previous" disabled title="Previous step (Left arrow)">← Previous</button>
+      <label>Step <input id="step" type="number" min="1" value="1" disabled aria-label="Build step"></label>
+      <span id="total">of —</span>
+      <button id="next" disabled title="Next step (Right arrow)">Next →</button>
+    </nav>
+    <p id="status" role="status" aria-live="polite">Loading build instructions…</p>
+    <a class="credit" href="https://github.com/LasseD/buildinginstructions.js" target="_blank" rel="noreferrer">buildinginstructions.js</a>
+  </footer>
+  <script src="vendor/ldbi/js/three.min.js"></script>
+  <script src="vendor/ldbi/js/OrbitControls.js"></script>
+  <script src="vendor/ldbi/js/LDConfig.js"></script>
+  <script src="vendor/ldbi/js/LDROptions.js"></script>
+  <script src="vendor/ldbi/js/LDRShaders.js"></script>
+  <script src="vendor/ldbi/js/LDRColorMaterials.js"></script>
+  <script src="vendor/ldbi/js/LDRGeometries.js"></script>
+  <script src="vendor/ldbi/js/LDRBFCGeometries.js"></script>
+  <script src="vendor/ldbi/js/LDRMeasurer.js"></script>
+  <script src="vendor/ldbi/js/LDRLoader.js"></script>
+  <script src="vendor/ldbi/js/LDRGenerator.js"></script>
+  <script src="vendor/ldbi/js/LDRStuds.js"></script>
+  <script src="vendor/ldbi/js/LDRStepHandler.js"></script>
+  <script src="vendor/ldbi/js/LDRPLIBuilder.js"></script>
+  <script src="instructions.js"></script>
+</body>
+</html>

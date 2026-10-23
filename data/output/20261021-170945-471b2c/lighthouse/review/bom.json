@@ -1,0 +1,104 @@
+{
+  "model_sha256": "166ac3b4d59debd305db753be260b9d62658f6896e9c120b4e21721984cc8aab",
+  "bom": [
+    {
+      "part": "3001",
+      "description": "Brick  2 x  4",
+      "colour_code": 19,
+      "colour_name": "Tan",
+      "quantity": 4
+    },
+    {
+      "part": "3003",
+      "description": "Brick  2 x  2",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 4
+    },
+    {
+      "part": "3003",
+      "description": "Brick  2 x  2",
+      "colour_code": 47,
+      "colour_name": "Trans_Clear",
+      "quantity": 2
+    },
+    {
+      "part": "3005",
+      "description": "Brick  1 x  1",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 16
+    },
+    {
+      "part": "3022",
+      "description": "Plate  2 x  2",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 1
+    },
+    {
+      "part": "3022",
+      "description": "Plate  2 x  2",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 8
+    },
+    {
+      "part": "3022",
+      "description": "Plate  2 x  2",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 1
+    },
+    {
+      "part": "3023b",
+      "description": "Plate  1 x  2",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 2
+    },
+    {
+      "part": "3024",
+      "description": "Plate  1 x  1",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 32
+    },
+    {
+      "part": "3710",
+      "description": "Plate  1 x  4",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 2
+    },
+    {
+      "part": "67329",
+      "description": "Brick  1 x  2 x  1.667 with 8 Studs on 3 Sides",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 1
+    },
+    {
+      "part": "67329",
+      "description": "Brick  1 x  2 x  1.667 with 8 Studs on 3 Sides",
+      "colour_code": 4,
+      "colour_name": "Red",
+      "quantity": 4
+    },
+    {
+      "part": "67329",
+      "description": "Brick  1 x  2 x  1.667 with 8 Studs on 3 Sides",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 10
+    },
+    {
+      "part": "67329",
+      "description": "Brick  1 x  2 x  1.667 with 8 Studs on 3 Sides",
+      "colour_code": 47,
+      "colour_name": "Trans_Clear",
+      "quantity": 1
+    }
+  ],
+  "physical_placements": 88
+}

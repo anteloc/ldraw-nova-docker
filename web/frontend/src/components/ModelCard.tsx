@@ -122,6 +122,9 @@ export default function ModelCard({ model, showChats = false, onDelete }: Props)
             <button onClick={() => open("player")} disabled={!model.model_url} title="Watch the model being built, step by step">
               3D Player
             </button>
+            <button onClick={() => open("instructions")} disabled={!model.model_url} title="Follow the build steps and see the parts needed for each step">
+              Build instructions
+            </button>
             {model.model_url && (
               <a className="button" href={xrUrl(model.model_url, model.parts)} title={XR_TITLE}>
                 VR

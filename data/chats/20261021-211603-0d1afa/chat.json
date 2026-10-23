@@ -1,0 +1,13 @@
+{
+  "id": "20261021-211603-0d1afa",
+  "title": "build me an awesome SNOT car",
+  "llm_model_id": "aa9affd04b09",
+  "created_at": 1792617363.4466443,
+  "updated_at": 1792618244.7323256,
+  "options": {
+    "mode": "agent",
+    "permissions": "full",
+    "effort": null,
+    "context_tokens": 1000000
+  }
+}

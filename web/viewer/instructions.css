@@ -1,0 +1,42 @@
+:root { font: 14px/1.4 system-ui, sans-serif; color: #243247; background: #fff; }
+* { box-sizing: border-box; }
+body { margin: 0; height: 100dvh; display: flex; flex-direction: column; }
+button, input, a { font: inherit; }
+button, input { border: 1px solid #cbd5e1; border-radius: 6px; padding: 6px 10px; background: #fff; color: inherit; }
+button { cursor: pointer; }
+button:hover:enabled { background: #eff6ff; border-color: #93b4de; }
+button:disabled { opacity: .45; cursor: default; }
+:focus-visible { outline: 2px solid #2563eb; outline-offset: 2px; }
+a { color: #2458a4; }
+header { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; padding: 10px 16px; border-bottom: 1px solid #e2e8f0; }
+#file { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; flex: 1 1 140px; }
+#parts { color: #64748b; }
+#workspace { display: flex; flex: 1; min-height: 0; }
+aside { flex: 0 0 240px; overflow-y: auto; padding: 16px; border-right: 1px solid #e2e8f0; }
+h1 { font-size: 14px; margin: 0 0 8px; }
+#assembly { font-size: 12px; overflow-wrap: anywhere; margin: 0 0 12px; color: #64748b; }
+#parts-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+#parts-list li { border: 1px solid #e2e8f0; border-radius: 8px; padding: 8px; display: grid; grid-template-columns: 76px 1fr; align-items: center; gap: 8px; }
+#parts-list canvas { width: 76px; height: 64px; }
+.part-name { font-size: 12px; overflow-wrap: anywhere; }
+.part-name strong, .part-name small { display: block; }
+.part-name small { color: #64748b; margin-top: 3px; }
+#stage { flex: 1; min-width: 0; min-height: 0; position: relative; background: #f2f5f8; overflow: hidden; }
+#model-canvas { display: block; width: 100%; height: 100%; touch-action: none; }
+#hint { position: absolute; bottom: 8px; left: 12px; right: 12px; margin: 0; font-size: 12px; text-align: center; pointer-events: none; color: #526176; }
+footer { border-top: 1px solid #e2e8f0; padding: 10px 16px; position: relative; }
+nav { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 8px; }
+#step { width: 76px; }
+#status { margin: 8px 0 0; font-size: 12px; text-align: center; overflow-wrap: anywhere; }
+#status.error { color: #b42318; }
+#status.warning { color: #915b08; }
+.credit { display: block; margin-top: 4px; font-size: 11px; text-align: right; color: #64748b; }
+@media (max-width: 600px) {
+  header, footer { padding: 8px; }
+  #workspace { flex-direction: column-reverse; }
+  aside { flex: 0 0 155px; padding: 8px; border-right: 0; border-top: 1px solid #e2e8f0; }
+  #parts-list { display: flex; overflow-x: auto; }
+  #parts-list li { flex: 0 0 200px; }
+  #assembly { margin-bottom: 6px; }
+  #hint { display: none; }
+}

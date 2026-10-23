@@ -1,0 +1,42 @@
+{
+  "format": "ldraw-nova-review",
+  "version": 1,
+  "source": {
+    "path": "/data/output/20261021-170945-471b2c/lighthouse/lighthouse.plan.json",
+    "sha256": "f7b897f08b183895d116a6acb9cc724b52f61c89bc462a11baca95a5c2a67540",
+    "section": null,
+    "colour": null
+  },
+  "output": "/data/output/20261021-170945-471b2c/lighthouse/review",
+  "checks_passed": true,
+  "physical_validity": "not_proven",
+  "visual_review": "required: open and inspect the images",
+  "model_sha256": "166ac3b4d59debd305db753be260b9d62658f6896e9c120b4e21721984cc8aab",
+  "stages": {
+    "validation": "passed",
+    "bom": "passed",
+    "render": "passed",
+    "bom_comparison": "passed"
+  },
+  "artifacts": {
+    "bom-comparison.json": "8ccc82adc7051ff6231bec04d3acf63e57c4de39e2177d39238d863c5b44eaf4",
+    "bom.json": "badd9cb643d04983a7a4c0ceae810c01f3aba1c710ed756f18cbd9c403f13bfc",
+    "model.mpd": "166ac3b4d59debd305db753be260b9d62658f6896e9c120b4e21721984cc8aab",
+    "previews/front.png": "2bcc465c802544c34d75353a1566b894f62c0a0818b8c238a705a6d9b9ab868a",
+    "previews/home.png": "287104c0786283ca6f00aef0cbc83ac1f675dc254299b4737a5b366f91ddda30",
+    "previews/leocad-bom.csv": "e3b857ba826e357e23601b369891cc85729819e3ce628cf2840280078ef0fd10",
+    "previews/top.png": "665bbfc6d1f7975d70bf45df225a79ceba06d25094a24ee867cc87c5d7513b7c",
+    "validation.json": "3dd58e87837bf26e65fe94220947ca2830e74bf92fabb28645c98e618781053f"
+  },
+  "diagnostics": [
+    {
+      "code": "coverage.collision_review",
+      "severity": "warning",
+      "message": "Some parts lack rectangular body checks; oriented bounds refine candidates, while remaining overlaps require material review.",
+      "line_number": null,
+      "section": null
+    }
+  ],
+  "physical_placements": 88,
+  "exit_code": 0
+}

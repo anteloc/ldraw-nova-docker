@@ -1,0 +1,50 @@
+{
+  "format": "ldraw-nova-review",
+  "version": 1,
+  "source": {
+    "path": "/data/output/20261021-211603-0d1afa/nightfang/nightfang.plan.json",
+    "sha256": "ed3bb62f786b440029434c033e7719ee13b5f37c0177db3296908f96a024d361",
+    "section": null,
+    "colour": null
+  },
+  "output": "/data/output/20261021-211603-0d1afa/nightfang/review",
+  "checks_passed": true,
+  "physical_validity": "not_proven",
+  "visual_review": "required: open and inspect the images",
+  "model_sha256": "5d6bdc2ece5b0a4d28accaf02f99164d81a9dd98c9ce365ec464b8f56aa4c3e9",
+  "stages": {
+    "validation": "passed",
+    "bom": "passed",
+    "render": "passed",
+    "bom_comparison": "passed"
+  },
+  "artifacts": {
+    "bom-comparison.json": "8da0030d0f3000649e1282fbd008417405fce3b71ba145d9d072771cb27fe1b9",
+    "bom.json": "863876f1cbc1b30847583a4fb1f368bf7718a00bb2df5690cb161a1ee482ff83",
+    "model.mpd": "5d6bdc2ece5b0a4d28accaf02f99164d81a9dd98c9ce365ec464b8f56aa4c3e9",
+    "previews/front.png": "47ffd4aac7cf2a6755be03baebf5c24b06239f828f80dea0d37aa9a02746ca93",
+    "previews/home.png": "f53e3b0039cd14f1d915286d3e1cfbf4e032e91d456f196b23a4ed69f0269462",
+    "previews/leocad-bom.csv": "02da2742e01378961e5bd74b2580ec4ab3f590456362ce4d7aea7acdc2dee11b",
+    "previews/top.png": "c0f7c6746001db802a3d41039d93d904f0d6540a43963c28c532e5f8a904d1d6",
+    "validation.json": "16ed648487cac52af1e82bcaaacf2d4abf819f31539f4642467cb2d86560d7a0"
+  },
+  "diagnostics": [
+    {
+      "code": "assembly.disconnected_evidence",
+      "severity": "warning",
+      "message": "Connection analysis finds multiple groups. Investigate floating parts, missing connector metadata, or intentional separate objects.",
+      "line_number": null,
+      "section": null,
+      "component_count": 9
+    },
+    {
+      "code": "coverage.collision_review",
+      "severity": "warning",
+      "message": "Some parts lack rectangular body checks; oriented bounds refine candidates, while remaining overlaps require material review.",
+      "line_number": null,
+      "section": null
+    }
+  ],
+  "physical_placements": 159,
+  "exit_code": 0
+}
