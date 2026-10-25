@@ -1,0 +1,426 @@
+{
+  "model_sha256": "8f7e0325e0a4aa9a03c42399846b27b51c3aadbaa1c4331a3c717419d8273885",
+  "bom": [
+    {
+      "part": "2340",
+      "description": "Tail  4 x  1 x  3",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 2
+    },
+    {
+      "part": "2412b",
+      "description": "Tile  1 x  2 Grille with Groove",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 3
+    },
+    {
+      "part": "2431",
+      "description": "Tile  1 x  4 with Groove",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 5
+    },
+    {
+      "part": "2431",
+      "description": "Tile  1 x  4 with Groove",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 6
+    },
+    {
+      "part": "2431",
+      "description": "Tile  1 x  4 with Groove",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 5
+    },
+    {
+      "part": "3001",
+      "description": "Brick  2 x  4",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 3
+    },
+    {
+      "part": "3007",
+      "description": "Brick  2 x  8",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 2
+    },
+    {
+      "part": "3007",
+      "description": "Brick  2 x  8",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 2
+    },
+    {
+      "part": "3008",
+      "description": "Brick  1 x  8",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 2
+    },
+    {
+      "part": "3010",
+      "description": "Brick  1 x  4",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 1
+    },
+    {
+      "part": "3010",
+      "description": "Brick  1 x  4",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 1
+    },
+    {
+      "part": "3020",
+      "description": "Plate  2 x  4",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 1
+    },
+    {
+      "part": "3020",
+      "description": "Plate  2 x  4",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 2
+    },
+    {
+      "part": "3022",
+      "description": "Plate  2 x  2",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 6
+    },
+    {
+      "part": "3030",
+      "description": "Plate  4 x 10",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 9
+    },
+    {
+      "part": "3032",
+      "description": "Plate  4 x  6",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 4
+    },
+    {
+      "part": "3034",
+      "description": "Plate  2 x  8",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 5
+    },
+    {
+      "part": "3034",
+      "description": "Plate  2 x  8",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 2
+    },
+    {
+      "part": "3035",
+      "description": "Plate  4 x  8",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 1
+    },
+    {
+      "part": "30355",
+      "description": "Wing  6 x 12 Left",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 1
+    },
+    {
+      "part": "30356",
+      "description": "Wing  6 x 12 Right",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 1
+    },
+    {
+      "part": "3036",
+      "description": "Plate  6 x  8",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 2
+    },
+    {
+      "part": "30384",
+      "description": "Windscreen  4 x  7 x  2 Round Pointed",
+      "colour_code": 40,
+      "colour_name": "Trans_Brown",
+      "quantity": 1
+    },
+    {
+      "part": "30414",
+      "description": "Brick  1 x  4 with Studs on Side",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 5
+    },
+    {
+      "part": "30414",
+      "description": "Brick  1 x  4 with Studs on Side",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 10
+    },
+    {
+      "part": "3062b",
+      "description": "Brick  1 x  1 Round with Hollow Stud",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 4
+    },
+    {
+      "part": "3068b",
+      "description": "Tile  2 x  2 with Groove",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 1
+    },
+    {
+      "part": "3068b",
+      "description": "Tile  2 x  2 with Groove",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 2
+    },
+    {
+      "part": "3069b",
+      "description": "Tile  1 x  2 with Groove",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 6
+    },
+    {
+      "part": "3069b",
+      "description": "Tile  1 x  2 with Groove",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 2
+    },
+    {
+      "part": "3069b",
+      "description": "Tile  1 x  2 with Groove",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 2
+    },
+    {
+      "part": "3460",
+      "description": "Plate  1 x  8",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 2
+    },
+    {
+      "part": "3710",
+      "description": "Plate  1 x  4",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 3
+    },
+    {
+      "part": "3933",
+      "description": "Wing  4 x  8 Left",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 1
+    },
+    {
+      "part": "3934",
+      "description": "Wing  4 x  8 Right",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 1
+    },
+    {
+      "part": "3941",
+      "description": "Brick  2 x  2 Round without Reinforcement",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 6
+    },
+    {
+      "part": "3960",
+      "description": "Dish  4 x  4 Inverted",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 2
+    },
+    {
+      "part": "4162",
+      "description": "Tile  1 x  8",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 4
+    },
+    {
+      "part": "4162",
+      "description": "Tile  1 x  8",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 2
+    },
+    {
+      "part": "41769a",
+      "description": "Wing  2 x  4 Right without Chamfer",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 5
+    },
+    {
+      "part": "41770a",
+      "description": "Wing  2 x  4 Left without Chamfer",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 5
+    },
+    {
+      "part": "44661",
+      "description": "Tail  2 x  3 x  2 Fin",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 2
+    },
+    {
+      "part": "4740",
+      "description": "Dish  2 x  2 Inverted",
+      "colour_code": 43,
+      "colour_name": "Trans_Light_Blue",
+      "quantity": 2
+    },
+    {
+      "part": "47753",
+      "description": "Wedge  4 x  4 Triple Curved without Studs",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 1
+    },
+    {
+      "part": "60474",
+      "description": "Plate  4 x  4 Round with Hole and Snapstud",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 5
+    },
+    {
+      "part": "63864",
+      "description": "Tile  1 x  3",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 2
+    },
+    {
+      "part": "63864",
+      "description": "Tile  1 x  3",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 2
+    },
+    {
+      "part": "63864",
+      "description": "Tile  1 x  3",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 2
+    },
+    {
+      "part": "65140",
+      "description": "Plate  8 x  8 with Rounded Corners",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 1
+    },
+    {
+      "part": "6636",
+      "description": "Tile  1 x  6",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 2
+    },
+    {
+      "part": "85861",
+      "description": "Plate  1 x  1 Round with Open Stud",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 2
+    },
+    {
+      "part": "85861",
+      "description": "Plate  1 x  1 Round with Open Stud",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 2
+    },
+    {
+      "part": "87079",
+      "description": "Tile  2 x  4",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 8
+    },
+    {
+      "part": "87079",
+      "description": "Tile  2 x  4",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 2
+    },
+    {
+      "part": "87079",
+      "description": "Tile  2 x  4",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 10
+    },
+    {
+      "part": "87087",
+      "description": "Brick  1 x  1 with Stud on 1 Side",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 2
+    },
+    {
+      "part": "87580",
+      "description": "Plate  2 x  2 with Groove with 1 Centre Stud",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 2
+    },
+    {
+      "part": "98100",
+      "description": "Cone  2 x  2 Truncated",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 2
+    },
+    {
+      "part": "98138",
+      "description": "Tile  1 x  1 Round with Groove",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 2
+    },
+    {
+      "part": "98138",
+      "description": "Tile  1 x  1 Round with Groove",
+      "colour_code": 43,
+      "colour_name": "Trans_Light_Blue",
+      "quantity": 2
+    }
+  ],
+  "physical_placements": 183
+}

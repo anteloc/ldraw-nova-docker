@@ -1,0 +1,510 @@
+{
+  "model_sha256": "a982dda6d4ce24aab243348993df1a801f92cc2e8340a3fd2fc79eb6a33604d5",
+  "bom": [
+    {
+      "part": "2412b",
+      "description": "Tile  1 x  2 Grille with Groove",
+      "colour_code": 71,
+      "colour_name": "Light_Bluish_Grey",
+      "quantity": 8
+    },
+    {
+      "part": "2431",
+      "description": "Tile  1 x  4 with Groove",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 4
+    },
+    {
+      "part": "2431",
+      "description": "Tile  1 x  4 with Groove",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 4
+    },
+    {
+      "part": "2431",
+      "description": "Tile  1 x  4 with Groove",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 11
+    },
+    {
+      "part": "3001",
+      "description": "Brick  2 x  4",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 1
+    },
+    {
+      "part": "3003",
+      "description": "Brick  2 x  2",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 2
+    },
+    {
+      "part": "3004",
+      "description": "Brick  1 x  2",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 3
+    },
+    {
+      "part": "3005",
+      "description": "Brick  1 x  1",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 2
+    },
+    {
+      "part": "3005",
+      "description": "Brick  1 x  1",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 2
+    },
+    {
+      "part": "3005",
+      "description": "Brick  1 x  1",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 19
+    },
+    {
+      "part": "3009",
+      "description": "Brick  1 x  6",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 5
+    },
+    {
+      "part": "3010",
+      "description": "Brick  1 x  4",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 2
+    },
+    {
+      "part": "3010",
+      "description": "Brick  1 x  4",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 2
+    },
+    {
+      "part": "3010",
+      "description": "Brick  1 x  4",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 17
+    },
+    {
+      "part": "3020",
+      "description": "Plate  2 x  4",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 7
+    },
+    {
+      "part": "3020",
+      "description": "Plate  2 x  4",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 15
+    },
+    {
+      "part": "3021",
+      "description": "Plate  2 x  3",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 6
+    },
+    {
+      "part": "3022",
+      "description": "Plate  2 x  2",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 6
+    },
+    {
+      "part": "3022",
+      "description": "Plate  2 x  2",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 12
+    },
+    {
+      "part": "3023b",
+      "description": "Plate  1 x  2",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 8
+    },
+    {
+      "part": "3023b",
+      "description": "Plate  1 x  2",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 15
+    },
+    {
+      "part": "3024",
+      "description": "Plate  1 x  1",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 23
+    },
+    {
+      "part": "3024",
+      "description": "Plate  1 x  1",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 88
+    },
+    {
+      "part": "3034",
+      "description": "Plate  2 x  8",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 14
+    },
+    {
+      "part": "3034",
+      "description": "Plate  2 x  8",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 12
+    },
+    {
+      "part": "30384",
+      "description": "Windscreen  4 x  7 x  2 Round Pointed",
+      "colour_code": 40,
+      "colour_name": "Trans_Brown",
+      "quantity": 1
+    },
+    {
+      "part": "30414",
+      "description": "Brick  1 x  4 with Studs on Side",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 14
+    },
+    {
+      "part": "3062b",
+      "description": "Brick  1 x  1 Round with Hollow Stud",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 4
+    },
+    {
+      "part": "3068b",
+      "description": "Tile  2 x  2 with Groove",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 2
+    },
+    {
+      "part": "3068b",
+      "description": "Tile  2 x  2 with Groove",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 6
+    },
+    {
+      "part": "3069b",
+      "description": "Tile  1 x  2 with Groove",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 4
+    },
+    {
+      "part": "3069b",
+      "description": "Tile  1 x  2 with Groove",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 3
+    },
+    {
+      "part": "3069b",
+      "description": "Tile  1 x  2 with Groove",
+      "colour_code": 71,
+      "colour_name": "Light_Bluish_Grey",
+      "quantity": 4
+    },
+    {
+      "part": "3069b",
+      "description": "Tile  1 x  2 with Groove",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 20
+    },
+    {
+      "part": "3070b",
+      "description": "Tile  1 x  1 with Groove",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 48
+    },
+    {
+      "part": "3070b",
+      "description": "Tile  1 x  1 with Groove",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 61
+    },
+    {
+      "part": "3070b",
+      "description": "Tile  1 x  1 with Groove",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 75
+    },
+    {
+      "part": "3460",
+      "description": "Plate  1 x  8",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 12
+    },
+    {
+      "part": "3460",
+      "description": "Plate  1 x  8",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 9
+    },
+    {
+      "part": "3622",
+      "description": "Brick  1 x  3",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 2
+    },
+    {
+      "part": "3622",
+      "description": "Brick  1 x  3",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 15
+    },
+    {
+      "part": "3623",
+      "description": "Plate  1 x  3",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 5
+    },
+    {
+      "part": "3623",
+      "description": "Plate  1 x  3",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 38
+    },
+    {
+      "part": "3666",
+      "description": "Plate  1 x  6",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 20
+    },
+    {
+      "part": "3666",
+      "description": "Plate  1 x  6",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 25
+    },
+    {
+      "part": "3701",
+      "description": "Technic Brick  1 x  4 with Holes",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 24
+    },
+    {
+      "part": "3710",
+      "description": "Plate  1 x  4",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 6
+    },
+    {
+      "part": "3710",
+      "description": "Plate  1 x  4",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 34
+    },
+    {
+      "part": "3795",
+      "description": "Plate  2 x  6",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 2
+    },
+    {
+      "part": "3795",
+      "description": "Plate  2 x  6",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 6
+    },
+    {
+      "part": "3941",
+      "description": "Brick  2 x  2 Round without Reinforcement",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 2
+    },
+    {
+      "part": "3960",
+      "description": "Dish  4 x  4 Inverted",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 2
+    },
+    {
+      "part": "4162",
+      "description": "Tile  1 x  8",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 4
+    },
+    {
+      "part": "4459",
+      "description": "Technic Pin with Friction",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 12
+    },
+    {
+      "part": "4459",
+      "description": "Technic Pin with Friction",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 24
+    },
+    {
+      "part": "4740",
+      "description": "Dish  2 x  2 Inverted",
+      "colour_code": 43,
+      "colour_name": "Trans_Light_Blue",
+      "quantity": 2
+    },
+    {
+      "part": "54200",
+      "description": "Slope Brick 31  1 x  1 x  0.667",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 14
+    },
+    {
+      "part": "54200",
+      "description": "Slope Brick 31  1 x  1 x  0.667",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 18
+    },
+    {
+      "part": "60474",
+      "description": "Plate  4 x  4 Round with Hole and Snapstud",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 4
+    },
+    {
+      "part": "63864",
+      "description": "Tile  1 x  3",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 2
+    },
+    {
+      "part": "63864",
+      "description": "Tile  1 x  3",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 3
+    },
+    {
+      "part": "63864",
+      "description": "Tile  1 x  3",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 15
+    },
+    {
+      "part": "85861",
+      "description": "Plate  1 x  1 Round with Open Stud",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 2
+    },
+    {
+      "part": "85861",
+      "description": "Plate  1 x  1 Round with Open Stud",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 2
+    },
+    {
+      "part": "87079",
+      "description": "Tile  2 x  4",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 1
+    },
+    {
+      "part": "87079",
+      "description": "Tile  2 x  4",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 1
+    },
+    {
+      "part": "87079",
+      "description": "Tile  2 x  4",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 2
+    },
+    {
+      "part": "87087",
+      "description": "Brick  1 x  1 with Stud on 1 Side",
+      "colour_code": 72,
+      "colour_name": "Dark_Bluish_Grey",
+      "quantity": 2
+    },
+    {
+      "part": "87580",
+      "description": "Plate  2 x  2 with Groove with 1 Centre Stud",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 2
+    },
+    {
+      "part": "98100",
+      "description": "Cone  2 x  2 Truncated",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 2
+    },
+    {
+      "part": "98138",
+      "description": "Tile  1 x  1 Round with Groove",
+      "colour_code": 0,
+      "colour_name": "Black",
+      "quantity": 2
+    },
+    {
+      "part": "98138",
+      "description": "Tile  1 x  1 Round with Groove",
+      "colour_code": 43,
+      "colour_name": "Trans_Light_Blue",
+      "quantity": 4
+    }
+  ],
+  "physical_placements": 850
+}

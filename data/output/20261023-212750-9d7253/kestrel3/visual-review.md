@@ -1,0 +1,2 @@
+Opened: top, home, bottom, left (Mk III). Not opened: front, back, right.
+Findings: tall tail fins and layered wing plates now read in the home view; side profile is still a thin slab; layered wing plates leave studs exposed; Technic spine pins are hidden under the deck (spine is not visible from outside); 14 disconnected connector groups (pins and layered wings have no matched connectors in the analysis).

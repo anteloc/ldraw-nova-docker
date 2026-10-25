@@ -1,0 +1,49 @@
+{
+  "format": "ldraw-nova-review",
+  "version": 1,
+  "source": {
+    "path": "/data/output/20261023-203017-edd25c/flower-set/flower-set.plan.json",
+    "sha256": "492c8efffb92d49f2a4656655977d8500f57ba6cfaae5ba4108dd07e454e3f24",
+    "section": null,
+    "colour": null
+  },
+  "output": "/data/output/20261023-203017-edd25c/flower-set/flower-set-review",
+  "checks_passed": true,
+  "physical_validity": "not_proven",
+  "visual_review": "required: open and inspect the images",
+  "model_sha256": "c6d1fe5f683380f238e9ef2fdb6c70f85b2235b2d64e0865a581c814d36eb349",
+  "stages": {
+    "validation": "passed",
+    "bom": "passed",
+    "render": "passed",
+    "bom_comparison": "passed"
+  },
+  "artifacts": {
+    "bom-comparison.json": "dc06c31e0a234b6c2acb0e70e36a58fb5b2529aa6c50073a7034cf0340896dcc",
+    "bom.json": "eff50c9fc4eea179685628d501bb4f099ade3a1395a9f6c3d6769c2ff8d277fb",
+    "model.mpd": "c6d1fe5f683380f238e9ef2fdb6c70f85b2235b2d64e0865a581c814d36eb349",
+    "previews/front.png": "4d27df6ea7dd09e50347eb0eb40516a9f8edf593212fa8f97892d862370f5bd9",
+    "previews/home.png": "e5c81f17ad748a533695ec1ac556e7bd932e690b9e8331a66c45c0bc12c5364b",
+    "previews/leocad-bom.csv": "29820921c381ee9561a74dd5664446b1be802bddbb736072c150975fc7b5364a",
+    "previews/top.png": "0ac661ed686c6de5c11fde03f60677c893f46c7f65767ec62bc8624fa88002f3",
+    "validation.json": "598fdbed8117fcb174cae7a42f2998d5e5748e786e81cdc79ffb2f461692f4ce"
+  },
+  "diagnostics": [
+    {
+      "code": "coverage.contacts_skipped",
+      "severity": "warning",
+      "message": "Contacts were not computed. Select a subassembly or request --contacts all; no connectivity conclusion is available.",
+      "line_number": null,
+      "section": null
+    },
+    {
+      "code": "coverage.collision_review",
+      "severity": "warning",
+      "message": "Some parts lack rectangular body checks; oriented bounds refine candidates, while remaining overlaps require material review.",
+      "line_number": null,
+      "section": null
+    }
+  ],
+  "physical_placements": 125,
+  "exit_code": 0
+}

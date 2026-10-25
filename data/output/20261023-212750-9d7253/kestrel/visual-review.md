@@ -1,0 +1,2 @@
+Opened: previews/home.png, previews/top.png. Silhouette reads as a slim-nosed fighter with swept wings, twin nacelles and tail fins; palette matches brief.
+Weaknesses: yellow stripes are heavy vs reference's sparse accents; 10 alias-part warnings (41769/41770 etc. moved to 'a' variants) left from the Halcyon-derived nose/wings; front/back/side/bottom renders were generated but not individually opened.

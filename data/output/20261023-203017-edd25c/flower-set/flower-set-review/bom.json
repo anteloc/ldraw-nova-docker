@@ -1,0 +1,209 @@
+{
+  "model_sha256": "c6d1fe5f683380f238e9ef2fdb6c70f85b2235b2d64e0865a581c814d36eb349",
+  "bom": [
+    {
+      "part": "11477",
+      "description": "Slope Brick Curved  2 x  1",
+      "colour_code": 4,
+      "colour_name": "Red",
+      "quantity": 8
+    },
+    {
+      "part": "11477",
+      "description": "Slope Brick Curved  2 x  1",
+      "colour_code": 320,
+      "colour_name": "Dark_Red",
+      "quantity": 4
+    },
+    {
+      "part": "14769",
+      "description": "Tile  2 x  2 Round with Round Underside Stud",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 1
+    },
+    {
+      "part": "14769",
+      "description": "Tile  2 x  2 Round with Round Underside Stud",
+      "colour_code": 70,
+      "colour_name": "Reddish_Brown",
+      "quantity": 1
+    },
+    {
+      "part": "15068",
+      "description": "Slope Brick Curved  2 x  2 x  0.667",
+      "colour_code": 25,
+      "colour_name": "Orange",
+      "quantity": 4
+    },
+    {
+      "part": "15068",
+      "description": "Slope Brick Curved  2 x  2 x  0.667",
+      "colour_code": 484,
+      "colour_name": "Dark_Orange",
+      "quantity": 4
+    },
+    {
+      "part": "2423",
+      "description": "Plant Leaves  4 x  3",
+      "colour_code": 288,
+      "colour_name": "Dark_Green",
+      "quantity": 10
+    },
+    {
+      "part": "3022",
+      "description": "Plate  2 x  2",
+      "colour_code": 288,
+      "colour_name": "Dark_Green",
+      "quantity": 1
+    },
+    {
+      "part": "3027",
+      "description": "Plate  6 x 16",
+      "colour_code": 19,
+      "colour_name": "Tan",
+      "quantity": 1
+    },
+    {
+      "part": "35480",
+      "description": "Plate  1 x  2 with Round Ends and 2 Open Studs",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 8
+    },
+    {
+      "part": "35480",
+      "description": "Plate  1 x  2 with Round Ends and 2 Open Studs",
+      "colour_code": 15,
+      "colour_name": "White",
+      "quantity": 12
+    },
+    {
+      "part": "35480",
+      "description": "Plate  1 x  2 with Round Ends and 2 Open Studs",
+      "colour_code": 25,
+      "colour_name": "Orange",
+      "quantity": 8
+    },
+    {
+      "part": "3707",
+      "description": "Technic Axle  8",
+      "colour_code": 378,
+      "colour_name": "Sand_Green",
+      "quantity": 1
+    },
+    {
+      "part": "3708",
+      "description": "Technic Axle 12",
+      "colour_code": 378,
+      "colour_name": "Sand_Green",
+      "quantity": 2
+    },
+    {
+      "part": "3941",
+      "description": "Brick  2 x  2 Round without Reinforcement",
+      "colour_code": 4,
+      "colour_name": "Red",
+      "quantity": 1
+    },
+    {
+      "part": "3941",
+      "description": "Brick  2 x  2 Round without Reinforcement",
+      "colour_code": 14,
+      "colour_name": "Yellow",
+      "quantity": 1
+    },
+    {
+      "part": "3941",
+      "description": "Brick  2 x  2 Round without Reinforcement",
+      "colour_code": 70,
+      "colour_name": "Reddish_Brown",
+      "quantity": 5
+    },
+    {
+      "part": "3941",
+      "description": "Brick  2 x  2 Round without Reinforcement",
+      "colour_code": 288,
+      "colour_name": "Dark_Green",
+      "quantity": 3
+    },
+    {
+      "part": "3941",
+      "description": "Brick  2 x  2 Round without Reinforcement",
+      "colour_code": 308,
+      "colour_name": "Dark_Brown",
+      "quantity": 1
+    },
+    {
+      "part": "3941",
+      "description": "Brick  2 x  2 Round without Reinforcement",
+      "colour_code": 320,
+      "colour_name": "Dark_Red",
+      "quantity": 1
+    },
+    {
+      "part": "4032a",
+      "description": "Plate  2 x  2 Round with Axlehole",
+      "colour_code": 2,
+      "colour_name": "Green",
+      "quantity": 5
+    },
+    {
+      "part": "4032a",
+      "description": "Plate  2 x  2 Round with Axlehole",
+      "colour_code": 288,
+      "colour_name": "Dark_Green",
+      "quantity": 5
+    },
+    {
+      "part": "50451",
+      "description": "Technic Axle 16",
+      "colour_code": 378,
+      "colour_name": "Sand_Green",
+      "quantity": 1
+    },
+    {
+      "part": "60485",
+      "description": "Technic Axle  9",
+      "colour_code": 378,
+      "colour_name": "Sand_Green",
+      "quantity": 1
+    },
+    {
+      "part": "6141",
+      "description": "Plate  1 x  1 Round",
+      "colour_code": 4,
+      "colour_name": "Red",
+      "quantity": 1
+    },
+    {
+      "part": "6141",
+      "description": "Plate  1 x  1 Round",
+      "colour_code": 22,
+      "colour_name": "Purple",
+      "quantity": 15
+    },
+    {
+      "part": "6141",
+      "description": "Plate  1 x  1 Round",
+      "colour_code": 85,
+      "colour_name": "Medium_Lilac",
+      "quantity": 15
+    },
+    {
+      "part": "6141",
+      "description": "Plate  1 x  1 Round",
+      "colour_code": 484,
+      "colour_name": "Dark_Orange",
+      "quantity": 1
+    },
+    {
+      "part": "98138",
+      "description": "Tile  1 x  1 Round with Groove",
+      "colour_code": 31,
+      "colour_name": "Lavender",
+      "quantity": 4
+    }
+  ],
+  "physical_placements": 125
+}

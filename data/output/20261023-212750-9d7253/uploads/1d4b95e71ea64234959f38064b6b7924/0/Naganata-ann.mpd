@@ -1,0 +1,1508 @@
+0 FILE main.ldr
+0 Author: Roland Dahl, original design by dasnewten (Flickr) [rolandd]
+0 !LICENSE Free for non-commercial use.
+0 // Technic Brick  1 x 16 with Holes (black)
+1 0 0 8 40 1 0 0 0 1 0 0 0 1 3703.dat
+0 // Technic Brick  1 x  4 with Holes (black)
+1 0 200 8 40 1 0 0 0 1 0 0 0 1 3701.dat
+0 // Technic Brick  1 x 16 with Holes (black)
+1 0 80 8 20 1 0 0 0 1 0 0 0 1 3703.dat
+0 // Technic Brick  1 x  4 with Holes (black)
+1 0 -120 8 20 1 0 0 0 1 0 0 0 1 3701.dat
+0 // Technic Pin with Friction (black)
+1 0 -140 18 30 0 0 -1 0 1 0 1 0 0 4459.dat
+0 // Technic Pin with Friction (black)
+1 0 -100 18 30 0 0 -1 0 1 0 1 0 0 4459.dat
+0 // Technic Pin with Friction (black)
+1 0 -60 18 30 0 0 -1 0 1 0 1 0 0 4459.dat
+0 // Technic Pin with Friction (black)
+1 0 140 18 30 0 0 -1 0 1 0 1 0 0 4459.dat
+0 // Technic Pin with Friction (black)
+1 0 180 18 30 0 0 -1 0 1 0 1 0 0 4459.dat
+0 // Technic Pin with Friction (black)
+1 0 220 18 30 0 0 -1 0 1 0 1 0 0 4459.dat
+0 // Technic Pin with Friction (black)
+1 0 40 18 30 0 0 -1 0 1 0 1 0 0 4459.dat
+0 STEP
+0 // Plate  2 x  4 (dark_bluish_grey)
+1 72 20 0 30 0 0 -1 0 1 0 1 0 0 3020.dat
+0 // Plate  4 x  6 (dark_bluish_grey)
+1 72 100 0 30 -1 0 0 0 1 0 0 0 -1 3032.dat
+0 // Plate  1 x  4 (black)
+1 0 170 0 30 0 0 -1 0 1 0 1 0 0 3710.dat
+0 // Plate  2 x  6 (dark_bluish_grey)
+1 72 240 0 30 1 0 0 0 1 0 0 0 1 3795.dat
+0 // Plate  2 x  4 (dark_bluish_grey)
+1 72 -140 0 30 0 0 -1 0 1 0 1 0 0 3020.dat
+0 // Plate  2 x  3 (black)
+1 0 -90 0 10 -1 0 0 0 1 0 0 0 -1 3021.dat
+0 // Plate  2 x  3 (black)
+1 0 -90 0 50 -1 0 0 0 1 0 0 0 -1 3021.dat
+0 STEP
+0 // Brick  1 x  4 with Studs on Side (dark_bluish_grey)
+1 72 -120 8 0 1 0 0 0 1 0 0 0 1 30414.dat
+0 // Brick  1 x  4 with Studs on Side (dark_bluish_grey)
+1 72 0 8 0 1 0 0 0 1 0 0 0 1 30414.dat
+0 // Brick  1 x  4 with Studs on Side (dark_bluish_grey)
+1 72 80 8 0 1 0 0 0 1 0 0 0 1 30414.dat
+0 // Brick  1 x  4 with Studs on Side (dark_bluish_grey)
+1 72 -120 8 60 -1 0 0 0 1 0 0 0 -1 30414.dat
+0 // Brick  1 x  4 with Studs on Side (dark_bluish_grey)
+1 72 0 8 60 -1 0 0 0 1 0 0 0 -1 30414.dat
+0 // Brick  1 x  4 with Studs on Side (dark_bluish_grey)
+1 72 80 8 60 -1 0 0 0 1 0 0 0 -1 30414.dat
+0 // Brick  1 x  1 Round with Hollow Stud (black)
+1 0 -70 8 0 0 0 -1 0 1 0 1 0 0 3062b.dat
+0 // Brick  1 x  1 Round with Hollow Stud (black)
+1 0 -70 8 60 0 0 -1 0 1 0 1 0 0 3062b.dat
+0 // Plate  1 x  2 with Handle Type 2 (black)
+1 0 180 24 0 1 0 0 0 1 0 0 0 1 48336.dat
+0 // Plate  1 x  1 (black)
+1 0 170 16 0 -1 0 0 0 1 0 0 0 -1 3024.dat
+0 // Plate  1 x  1 (black)
+1 0 170 8 0 -1 0 0 0 1 0 0 0 -1 3024.dat
+0 // Plate  1 x  1 (black)
+1 0 170 8 60 -1 0 0 0 1 0 0 0 -1 3024.dat
+0 // Plate  1 x  1 (black)
+1 0 170 16 60 -1 0 0 0 1 0 0 0 -1 3024.dat
+0 // Plate  1 x  2 with Handle Type 2 (black)
+1 0 180 24 60 -1 0 0 0 1 0 0 0 -1 48336.dat
+0 // Brick  1 x  1 Round with Hollow Stud (yellow)
+1 14 250 8 40 1 0 0 0 1 0 0 0 1 3062b.dat
+0 // Brick  1 x  1 Round with Hollow Stud (yellow)
+1 14 250 8 20 1 0 0 0 1 0 0 0 1 3062b.dat
+0 // Plate  2 x  4 (black)
+1 0 300 8 30 -1 0 0 0 1 0 0 0 -1 3020.dat
+0 // Plate  2 x  4 (black)
+1 0 300 16 30 -1 0 0 0 1 0 0 0 -1 3020.dat
+0 // Slope Brick 45  2 x  1 Inverted without Inner Stopper Ring (black)
+1 0 190 0 60 0 0 -1 0 1 0 1 0 0 3665.dat
+0 // Slope Brick 45  2 x  1 Inverted without Inner Stopper Ring (black)
+1 0 190 0 0 0 0 -1 0 1 0 1 0 0 3665.dat
+0 STEP
+0 // Plate  2 x  4 (dark_bluish_grey)
+1 72 -160 32 30 1 0 0 0 1 0 0 0 1 3020.dat
+0 // Plate  2 x  3 (black)
+1 0 -30 32 30 1 0 0 0 1 0 0 0 1 3021.dat
+0 // Plate  2 x  4 (dark_bluish_grey)
+1 72 40 32 30 1 0 0 0 1 0 0 0 1 3020.dat
+0 // Plate  4 x  4 (dark_bluish_grey)
+1 72 120 32 30 0 0 1 0 1 0 -1 0 0 3031.dat
+0 // Wing  2 x  4 Right (dark_bluish_grey)
+1 72 200 32 10 0 0 -1 0 1 0 1 0 0 41769.dat
+0 // Wing  2 x  4 Left (dark_bluish_grey)
+1 72 200 32 50 0 0 -1 0 1 0 1 0 0 41770.dat
+0 // Wing  2 x  3 Left (black)
+1 0 -130 32 -10 0 0 1 0 1 0 -1 0 0 43723.dat
+0 // Wing  2 x  4 Right (black)
+1 0 -60 32 -10 0 0 -1 0 1 0 1 0 0 41769.dat
+0 // Wing  2 x  4 Left (black)
+1 0 -60 32 70 0 0 -1 0 1 0 1 0 0 41770.dat
+0 // Wing  2 x  3 Right (black)
+1 0 -130 32 70 0 0 1 0 1 0 -1 0 0 43722.dat
+0 // Wing  2 x  4 Right (dark_bluish_grey)
+1 72 40 32 70 0 0 1 0 1 0 -1 0 0 41769.dat
+0 // Wing  2 x  4 Left (dark_bluish_grey)
+1 72 40 32 -10 0 0 1 0 1 0 -1 0 0 41770.dat
+0 // Wedge  6 x  4 Triple Curved Inverted (dark_bluish_grey)
+1 72 280 8 30 0 0 -1 0 1 0 1 0 0 43713.dat
+0 // Plate  1 x  1 Round (black)
+1 0 -10 32 0 1 0 0 0 1 0 0 0 1 4073.dat
+0 // Plate  1 x  1 Round (black)
+1 0 -10 32 60 1 0 0 0 1 0 0 0 1 4073.dat
+0 STEP
+0 // Dish  2 x  2 with Rim (dark_bluish_grey)
+1 72 -200 40 30 1 0 0 0 1 0 0 0 1 2654.dat
+0 // Dish  2 x  2 with Rim (black)
+1 0 -100 40 -10 1 0 0 0 1 0 0 0 1 2654.dat
+0 // Dish  2 x  2 with Rim (black)
+1 0 -100 40 70 1 0 0 0 1 0 0 0 1 2654.dat
+0 // Dish  2 x  2 with Rim (dark_bluish_grey)
+1 72 260 32 30 1 0 0 0 1 0 0 0 1 2654.dat
+0 // Plate  1 x  1 Round (black)
+1 0 -210 32 40 1 0 0 0 1 0 0 0 1 4073.dat
+0 // Plate  1 x  1 Round (black)
+1 0 -210 32 20 1 0 0 0 1 0 0 0 1 4073.dat
+0 STEP
+0 // Brick  1 x  1 Round with Hollow Stud (black)
+1 0 -50 8 0 0 0 -1 0 1 0 1 0 0 3062b.dat
+0 // Brick  1 x  1 Round with Hollow Stud (black)
+1 0 -50 8 60 0 0 -1 0 1 0 1 0 0 3062b.dat
+0 // Brick  1 x  1 with Stud on 1 Side (black)
+1 0 -170 8 40 0 0 1 0 1 0 -1 0 0 87087.dat
+0 // Brick  1 x  1 with Stud on 1 Side (black)
+1 0 -170 8 20 0 0 1 0 1 0 -1 0 0 87087.dat
+0 // Plate  1 x  2 (black)
+1 0 -188 18 30 0 1 0 0 0 -1 -1 0 0 3023.dat
+0 // Plate  1 x  2 (dark_bluish_grey)
+1 72 -196 18 30 0 1 0 0 0 -1 -1 0 0 3023.dat
+0 // Car Mudguard  4 x  2.5 x  2 (dark_bluish_grey)
+1 72 -220 8 30 0 1 0 0 0 1 1 0 0 50745.dat
+0 STEP
+0 // Plate  1 x  2 (dark_bluish_grey)
+1 72 230 -8 30 0 0 1 0 1 0 -1 0 0 3023.dat
+0 // Plate  3 x  3 (black)
+1 0 190 -8 -20 0 0 -1 0 1 0 1 0 0 11212.dat
+0 // Plate  2 x  8 (black)
+1 0 140 -8 30 -1 0 0 0 1 0 0 0 -1 3034.dat
+0 // Plate  1 x 10 (dark_bluish_grey)
+1 72 250 -8 30 0 0 1 0 1 0 -1 0 0 4477.dat
+0 // Plate  2 x  2 (dark_bluish_grey)
+1 72 280 -8 30 0 0 1 0 1 0 -1 0 0 3022.dat
+0 // Plate  3 x  3 (black)
+1 0 190 -8 80 0 0 -1 0 1 0 1 0 0 11212.dat
+0 // Plate  1 x  2 (dark_bluish_grey)
+1 72 50 -8 30 0 0 -1 0 1 0 1 0 0 3023.dat
+0 STEP
+0 // Plate  2 x  3 (black)
+1 0 180 0 -40 0 0 1 0 1 0 -1 0 0 3021.dat
+0 // Plate  2 x  2 Corner (black)
+1 0 210 0 -60 1 0 0 0 1 0 0 0 1 2420.dat
+0 // Plate  2 x  3 (black)
+1 0 180 0 100 0 0 1 0 1 0 -1 0 0 3021.dat
+0 // Plate  2 x  2 Corner (black)
+1 0 210 0 120 0 0 1 0 1 0 -1 0 0 2420.dat
+0 STEP
+0 // Plate  2 x  6 (dark_bluish_grey)
+1 72 240 -16 30 1 0 0 0 1 0 0 0 1 3795.dat
+0 // Plate  1 x  4 (black)
+1 0 200 -8 -60 -1 0 0 0 1 0 0 0 -1 3710.dat
+0 // Plate  1 x  4 (black)
+1 0 200 -8 120 -1 0 0 0 1 0 0 0 -1 3710.dat
+0 STEP
+0 // Brick  1 x  6 (dark_bluish_grey)
+1 72 170 -32 30 0 0 1 0 1 0 -1 0 0 3009.dat
+0 // Plate  1 x  2 (dark_bluish_grey)
+1 72 190 -32 30 0 0 -1 0 1 0 1 0 0 3023.dat
+0 // Plate  1 x  2 (dark_bluish_grey)
+1 72 190 -24 30 0 0 -1 0 1 0 1 0 0 3023.dat
+0 // Brick  2 x  4 (dark_bluish_grey)
+1 72 120 -32 30 -1 0 0 0 1 0 0 0 -1 3001.dat
+0 // Tile  1 x  4 with Groove (black)
+1 0 -130 -8 30 0 0 -1 0 1 0 1 0 0 2431.dat
+0 // Plate  1 x  2 (dark_bluish_grey)
+1 72 310 0 30 0 0 -1 0 1 0 1 0 0 3023.dat
+0 // Slope Brick 31  1 x  1 x  0.667 (black)
+1 0 -150 0 0 1 0 0 0 1 0 0 0 1 54200.dat
+0 // Slope Brick 31  1 x  1 x  0.667 (black)
+1 0 -150 0 60 -1 0 0 0 1 0 0 0 -1 54200.dat
+0 // Tile  1 x  2 with Blue Screen, Red and Silver Panel Pattern (black)
+1 0 -100 -8 60 -1 0 0 0 1 0 0 0 -1 3069bp28.dat
+0 // Tile  1 x  2 with Blue Screen, Red and Silver Panel Pattern (black)
+1 0 -100 -8 0 -1 0 0 0 1 0 0 0 -1 3069bp28.dat
+0 STEP
+0 // Plate  1 x  2 (dark_bluish_grey)
+1 72 190 8 110 0 0 1 0 1 0 -1 0 0 3023.dat
+0 // Plate  1 x  2 (dark_bluish_grey)
+1 72 190 8 -50 0 0 1 0 1 0 -1 0 0 3023.dat
+0 // Slope Brick 45  2 x  1 Inverted without Inner Stopper Ring (black)
+1 0 190 0 0 0 0 -1 0 1 0 1 0 0 3665.dat
+0 STEP
+1 16 -138 88 30 1 0 0 0 1 0 0 0 1 subModel-01.ldr
+1 16 180 79.535 -87.613 1 0 0 0 1 0 0 0 1 subModel-02.ldr
+1 16 179 79.535 147.387 1 0 0 0 1 0 0 0 1 subModel-03.ldr
+1 16 -234 -8 30 1 0 0 0 1 0 0 0 1 subModel-04.ldr
+0 STEP
+0 // Tile  1 x  1 with Clip (dark_bluish_grey)
+1 72 290 0.143 0 0 0 1 0 1 0 -1 0 0 2555.dat
+0 // Tile  1 x  1 with Clip (dark_bluish_grey)
+1 72 290 0.143 60 0 0 1 0 1 0 -1 0 0 2555.dat
+0 // Brick  1 x  2 with Grille (black)
+1 0 270 -15.857 70 0 0 -1 0 1 0 1 0 0 2877.dat
+0 // Brick  1 x  2 with Grille (black)
+1 0 270 -15.857 -10 0 0 -1 0 1 0 1 0 0 2877.dat
+0 STEP
+0 // Brick  1 x  1 x  0.667 Round with Bar and Clip Vertical (black)
+1 0 310 -16 20 0.924 0 0.383 0 1 0 -0.383 0 0.924 4735.dat
+0 // Brick  1 x  1 x  0.667 Round with Bar and Clip Vertical (black)
+1 0 310 -16 40 -0.924 0 0.383 0 1 0 -0.383 0 -0.924 4735.dat
+0 // Tile  1 x  1 with Groove (trans_red)
+1 36 370 2 20 0 0 1 0 1 0 -1 0 0 3070b.dat
+0 // Tile  1 x  1 with Groove (trans_red)
+1 36 370 2 40 0 0 1 0 1 0 -1 0 0 3070b.dat
+0 // Minifig Torch without Grooves (dark_bluish_grey)
+1 72 306 -5.857 0 0 0 -1 0 1 0 1 0 0 86208.dat
+0 // Minifig Torch without Grooves (dark_bluish_grey)
+1 72 306 -5.857 60 0 0 -1 0 1 0 1 0 0 86208.dat
+0 // Slope Brick Curved  2 x  2 x   2/3 Triple with Two Top Studs (dark_bluish_grey)
+1 72 330 -7.857 30 0 0 -1 0 1 0 1 0 0 47457.dat
+0 STEP
+0 // Brick  1 x  2 with Grille (black)
+1 0 330 -31.857 30 0 0 1 0 1 0 -1 0 0 2877.dat
+0 STEP
+0 // Slope Brick 31  1 x  1 x  0.667 (black)
+1 0 270 -15.857 0 1 0 0 0 1 0 0 0 1 54200.dat
+0 // Slope Brick 31  1 x  1 x  0.667 (black)
+1 0 270 -15.857 60 -1 0 0 0 1 0 0 0 -1 54200.dat
+0 // Slope Brick 31  1 x  1 x  0.667 (black)
+1 0 330 -31.857 20 -1 0 0 0 1 0 0 0 -1 54200.dat
+0 // Slope Brick 31  1 x  1 x  0.667 (black)
+1 0 330 -31.857 40 1 0 0 0 1 0 0 0 1 54200.dat
+0 STEP
+1 16 -30 -16 30 1 0 0 0 1 0 0 0 1 subModel-05.ldr
+0 STEP
+0 // Plate  1 x  2 with Handle Type 2 (black)
+1 0 50 -16 30 0 0 1 0 1 0 -1 0 0 48336.dat
+0 STEP
+0 // Minifig Mechanical Arm with Clips Parallel (black)
+1 0 42.71 -51.986 40 0 -0.017 1 0 1 0.017 -1 0 0 30377.dat
+0 // Minifig Mechanical Arm with Clips Parallel (black)
+1 0 42.71 -51.986 20 0 -0.017 1 0 1 0.017 -1 0 0 30377.dat
+0 STEP
+1 16 22.918 -48.39 30 1 0 0 0 1 0 0 0 1 subModel-06.ldr
+0 STEP
+1 16 -172.756 -15.613 30 1 0 0 0 1 0 0 0 1 subModel-07.ldr
+0 // Windscreen  4 x  7 x  2 Round Pointed (trans_clear)
+1 47 -173.883 -15.268 30 0 0.293 0.956 0 0.956 -0.293 -1 0 0 30384.dat
+0 // Windscreen  4 x  7 x  2 Round Pointed (trans_clear)
+1 47 -1.967 -66.253 30 0 0.276 -0.961 0 0.961 0.276 1 0 0 30384.dat
+1 72 10 18 -18 -1 0 0 0 0 1 0 1 0 subModel-08.ldr
+1 72 10 18 78 -1 0 0 0 0 -1 0 -1 0 subModel-08.ldr
+1 0 100 18 -34 1 0 0 0 0 -1 0 1 0 subModel-09.ldr
+1 0 100 18 94 -1 0 0 0 0 -1 0 -1 0 subModel-09.ldr
+0 STEP
+1 16 290 -56 30 1 0 0 0 1 0 0 0 1 subModel-21.ldr
+0 // Technic Bush  1/2 Smooth with Axle Hole Reduced (dark_bluish_grey)
+1 72 315 -78 30 0 0 -1 0 1 0 1 0 0 32123a.dat
+0 // Technic Bush  1/2 Smooth with Axle Hole Reduced (dark_bluish_grey)
+1 72 305 -78 30 0 0 -1 0 1 0 1 0 0 32123a.dat
+0 // Wheel Rim 20 x 30 with 3 Pegholes (black)
+1 0 341 -78 30 0 0 1 0 1 0 -1 0 0 44292.dat
+0 // Technic Cylinder  4 x  4 x  2 with 3 Pin Holes and Center Bar (light_grey)
+1 7 386 -78 30 0 0 1 -1 0 0 0 -1 0 41531.dat
+0 // Brick  2 x  2 Round without Reinforcement (dark_bluish_grey)
+1 72 424 -78 30 0 -1 0 -1 0 0 0 0 -1 3941.dat
+0 // Cone  2 x  2 x  2 with Hollow Stud and Axlehole Teeth (light_grey)
+1 7 472 -78 30 0 -1 0 -1 0 0 0 0 -1 3942b.dat
+0 // Technic Axle  9 (black)
+1 0 360 -78 30 -1 0 0 0 1 0 0 0 -1 60485.dat
+0 STEP
+0 // Hinge  1 x  2 Base (dark_bluish_grey)
+1 72 240 -40 40 -1 0 0 0 1 0 0 0 -1 3937.dat
+0 // Hinge  1 x  2 Base (dark_bluish_grey)
+1 72 240 -40 20 1 0 0 0 1 0 0 0 1 3937.dat
+1 16 240 -38.29 14.41 1 0 0 0 1 0 0 0 1 subModel-10.ldr
+1 16 240 -38.29 45.59 1 0 0 0 1 0 0 0 1 subModel-11.ldr
+0 STEP
+1 16 60 2 -34 1 0 0 0 1 0 0 0 1 subModel-12.ldr
+1 16 60 2 94 1 0 0 0 1 0 0 0 1 subModel-13.ldr
+0 STEP
+1 16 140 -22 110 1 0 0 0 1 0 0 0 1 subModel-14.ldr
+1 16 140 -21.997 -50 1 0 0 0 1 0 0 0 1 subModel-15.ldr
+0 STEP
+0 // Plate  2 x  8 (black)
+1 0 180 -40 30 0 0 1 0 1 0 -1 0 0 3034.dat
+0 STEP
+1 72 -170 18 58.003 1 0 0 0 1 0 0 0 1 subModel-16.ldr
+1 72 10 18 -18 1 0 0 0 1 0 0 0 1 subModel-17.ldr
+0 STEP
+1 16 120 -32 -82 1 0 0 0 1 0 0 0 1 subModel-18.ldr
+1 16 120 -32 171.998 1 0 0 0 1 0 0 0 1 subModel-19.ldr
+0 STEP
+1 72 120 -32 -103.999 -1 0 0 0 -1 0 0 0 1 subModel-20.ldr
+1 72 120 -32 163.999 1 0 0 0 -1 0 0 0 -1 subModel-20.ldr
+0 STEP
+0 // Cone 4 x  4 x  2 Hollow Without Studs (dark_bluish_grey)
+1 72 120 -32 182 -1 0 0 0 0 -1 0 -1 0 4742.dat
+0 // Cone 4 x  4 x  2 Hollow Without Studs (dark_bluish_grey)
+1 72 120 -32 -122 1 0 0 0 0 -1 0 1 0 4742.dat
+0 STEP
+0 // Technic Pin  1/2 (blue)
+1 1 59 -29.761 -63.672 -0.078 -0.096 0.993 -0.005 0.996 0.096 -0.998 0.002 -0.078 4274.dat
+0 // Technic Pin  1/2 (blue)
+1 1 59 -29.763 123.672 -0.078 -0.096 -0.993 -0.005 0.996 -0.096 0.998 -0.002 -0.078 4274.dat
+1 4 38.695 -26.496 130.133 0.984 0.078 0.165 -0.165 0.005 0.987 0.076 -0.998 0.018 subModel-62.ldr
+1 4 38.695 -26.494 -70.138 0.984 0.078 -0.165 -0.165 0.005 -0.987 -0.076 0.998 0.018 subModel-62.ldr
+0 STEP
+1 16 44.65 -87.645 -12.228 1 0 0 0 1 0 0 0 1 subModel-63.ldr
+1 16 37.817 -62.334 81.682 1 0 0 0 1 0 0 0 1 subModel-64.ldr
+0 STEP
+1 72 240 -38.291 14.415 1 0 0 0 1 0 0 0 1 subModel-22.ldr
+1 72 240 -38.291 45.585 1 0 0 0 1 0 0 0 1 subModel-23.ldr
+0 STEP
+1 16 290 -67.941 -41.778 1 0 0 0 1 0 0 0 1 subModel-24.ldr
+1 16 290 -127.631 142.04 1 0 0 0 1 0 0 0 1 subModel-25.ldr
+0 STEP
+1 16 240 -16 -90 1 0 0 0 1 0 0 0 1 subModel-27.ldr
+1 16 240 -16 150 1 0 0 0 1 0 0 0 1 subModel-26.ldr
+0 STEP
+1 16 190 31 -112.66 1 0 0 0 1 0 0 0 1 subModel-28.ldr
+1 16 150 16.68 187.856 1 0 0 0 1 0 0 0 1 subModel-29.ldr
+0 STEP
+1 16 184.318 -89.994 39.396 1 0 0 0 1 0 0 0 1 subModel-62.ldr
+1 16 39.705 -95.189 30 1 0 0 0 1 0 0 0 1 subModel-30.ldr
+0 FILE subModel-04.ldr
+0 04
+0 Author: Roland Dahl [RolandD]
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 // Slope Brick Curved  2 x  2 x   2/3 Triple with Two Top Studs (black)
+1 0 0 0 0 0 0 1 0 1 0 -1 0 0 47457.dat
+0 // Antenna  8H Whip (black)
+1 0 -42 26 10 0 1 0 1 0 0 0 0 -1 2569.dat
+0 // Brick  1 x  1 Round with Hollow Stud (black)
+1 0 -34 26 -10 0 1 0 0 0 1 1 0 0 3062b.dat
+0 // Minifig Tool Box Wrench (black)
+1 0 -64 26 -10 0 1 0 1 0 0 0 0 -1 6246d.dat
+0 // Brick  1 x  2 with Studs on Sides (black)
+1 0 -10 26 0 0 1 0 0 0 1 1 0 0 52107.dat
+0 // Slope Brick Curved  2 x  2 x   2/3 Triple with Two Top Studs (black)
+1 0 0 52 0 0 0 1 0 -1 0 1 0 0 47457.dat
+0 // Brick  1 x  1 Round with Hollow Stud (black)
+1 0 -34 26 10 0 1 0 0 0 1 1 0 0 3062b.dat
+0 FILE subModel-17.ldr
+0 17
+0 Author: Roland Dahl [RolandD]
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 // Plate  1 x  3 (yellow)
+1 14 -140 0 0 1 0 0 0 0 -1 0 1 0 3623.dat
+0 // Wedge  4 x  2 Double Right (dark_bluish_grey)
+1 72 -80 0 -48 0 0 -1 -1 0 0 0 1 0 43711.dat
+0 // Plate  2 x  2 Corner (black)
+1 0 -80 0 -24.003 -1 0 0 0 0 1 0 1 0 2420.dat
+0 // Slope Brick 31  1 x  1 x  0.667 (dark_bluish_grey)
+1 72 -100 10 -46 -1 0 0 0 -1 0 0 0 1 54200.dat
+0 // Tile  1 x  4 with Groove (dark_bluish_grey)
+1 72 -110 0 -64 1 0 0 0 0 -1 0 1 0 2431.dat
+0 // Tile  1 x  2 with Groove (trans_clear)
+1 47 -170 0 -64 1 0 0 0 0 -1 0 1 0 3069b.dat
+0 // Tile  1 x  1 with Groove (trans_red)
+1 36 -180 -20 -64 0 0 1 1 0 0 0 1 0 3070b.dat
+0 // Tile  1 x  2 with Groove (dark_bluish_grey)
+1 72 -150 -20 -64 1 0 0 0 0 -1 0 1 0 3069b.dat
+0 // Tile  1 x  1 with Groove (dark_bluish_grey)
+1 72 -120 -20 -64 0 0 1 1 0 0 0 1 0 3070b.dat
+0 // Wedge  4 x 16 Triple Curved (dark_bluish_grey)
+1 72 -150 -10 -56 0 0 1 1 0 0 0 1 0 45301.dat
+0 // Slope Brick 33  3 x  3 (dark_bluish_grey)
+1 72 -140 0 -24 -1 0 0 0 0 1 0 1 0 4161.dat
+0 // Slope Brick 45  2 x  2 (dark_bluish_grey)
+1 72 -190 0 11.997 -1 0 0 0 0 -1 0 -1 0 3039.dat
+0 // Brick  1 x  4 (dark_bluish_grey)
+1 72 -254 -10 -22 0 1 0 1 0 0 0 0 -1 3010.dat
+0 // Wedge  4 x  2 Double Right (dark_bluish_grey)
+1 72 -220 0 11.997 0 0 1 -1 0 0 0 -1 0 43711.dat
+0 // Brick  1 x  2 with Studs on Sides (black)
+1 0 -230 -10 -22 0 1 0 1 0 0 0 0 -1 52107.dat
+0 // Plate  1 x  2 (black)
+1 0 -206 -10 -22 0 1 0 1 0 0 0 0 -1 3023.dat
+0 // Plate  1 x  2 (black)
+1 0 -198 -10 -22 0 1 0 1 0 0 0 0 -1 3023.dat
+0 // Tile  1 x  2 with Groove (black)
+1 0 -210 0 19.997 1 0 0 0 0 1 0 -1 0 3069b.dat
+0 // Tile  1 x  1 with Groove (black)
+1 0 -180 0 19.997 1 0 0 0 0 1 0 -1 0 3070b.dat
+0 // Slope Brick 75  2 x  1 x  3 with Open Stud (black)
+1 0 -326 0 -22 0 1 0 0 0 -1 -1 0 0 4460.dat
+0 // Plate  1 x  2 (black)
+1 0 -334 -10 -22 0 1 0 1 0 0 0 0 -1 3023.dat
+0 // Plate  1 x  2 (black)
+1 0 -342 -10 -22 0 1 0 1 0 0 0 0 -1 3023.dat
+0 // Plate  1 x  2 without Groove with 1 Centre Stud (black)
+1 0 -350 -10 -22 0 1 0 1 0 0 0 0 -1 3794.dat
+0 // Tile  1 x  4 with Groove (black)
+1 0 -392 8 -22 -1 0 0 0 -1 0 0 0 1 2431.dat
+0 // Tile  1 x  4 with Groove (black)
+1 0 -392 -28 -22 1 0 0 0 1 0 0 0 1 2431.dat
+0 // Slope Brick 75  2 x  1 x  3 with Open Stud (black)
+1 0 -326 -20 -22 0 1 0 0 0 1 1 0 0 4460.dat
+0 // Brick  1 x  1 Round with Hollow Stud (dark_bluish_grey)
+1 72 -230 -40 -22 0 1 0 1 0 0 0 0 -1 3062b.dat
+0 // Plate  1 x  1 Round (black)
+1 0 -206 -40 -22 0 1 0 1 0 0 0 0 -1 4073.dat
+0 // Technic Pin Joiner Round (white)
+1 15 -178 -40 -22 -1 0 0 0 -1 0 0 0 1 75535.dat
+0 // Plate  1 x  1 Round (black)
+1 0 -158 -40 -22 0 1 0 1 0 0 0 0 -1 4073.dat
+0 // Brick  1 x  1 Round with Hollow Stud (dark_bluish_grey)
+1 72 -150 -40 -22 0 1 0 1 0 0 0 0 -1 3062b.dat
+0 // Plate  1 x  1 Round (black)
+1 0 -126 -40 -22 0 1 0 1 0 0 0 0 -1 4073.dat
+0 // Plate  1 x  1 Round (black)
+1 0 -118 -40 -22 0 1 0 1 0 0 0 0 -1 4073.dat
+0 // Technic Pin  1/2 (light_grey)
+1 7 -200 -30 2 0 0 1 -1 0 0 0 -1 0 4274.dat
+0 // Technic Pin  1/2 (light_grey)
+1 7 -220 -30 2 0 0 1 -1 0 0 0 -1 0 4274.dat
+0 // Slope Brick 33  3 x  1 (dark_bluish_grey)
+1 72 -240 -20 12 0 0 1 -1 0 0 0 -1 0 4286.dat
+0 // Plate  1 x  2 (dark_bluish_grey)
+1 72 -230 -20 20 1 0 0 0 0 1 0 -1 0 3023.dat
+0 // Tile  1 x  2 with Groove (dark_bluish_grey)
+1 72 -230 -20 28 1 0 0 0 0 1 0 -1 0 3069b.dat
+0 // Slope Brick 31  1 x  1 x  0.667 (dark_bluish_grey)
+1 72 -200 -20 12 0 0 -1 1 0 0 0 -1 0 54200.dat
+0 // Technic Brick  1 x  2 with Holes (dark_bluish_grey)
+1 72 -210 -20 12 1 0 0 0 0 1 0 -1 0 32000.dat
+0 // Plate  1 x  3 (dark_bluish_grey)
+1 72 -140 -40 0 1 0 0 0 0 -1 0 1 0 3623.dat
+0 // Technic Pin Joiner Round (dark_bluish_grey)
+1 72 -402 -10 -22 -1 0 0 0 -1 0 0 0 1 75535.dat
+0 // Brick  1 x  1 with Studs on Two Opposite Sides (black)
+1 0 -382 -10 -22 0 1 0 0 0 -1 -1 0 0 47905.dat
+0 // Plate  1 x  1 Round (black)
+1 0 -358 -10 -22 0 1 0 1 0 0 0 0 -1 4073.dat
+0 // Plate  2 x  6 (black)
+1 0 -290 -10 -40 -1 0 0 0 0 1 0 1 0 3795.dat
+0 // Technic Pin  1/2 (blue)
+1 1 -198 -40 -22 -1 0 0 0 -1 0 0 0 1 4274.dat
+0 // Plate  2 x  2 (black)
+1 0 -210 -10 -48 -1 0 0 0 0 1 0 1 0 3022.dat
+0 // Plate  2 x  2 (black)
+1 0 -210 -10 -40 -1 0 0 0 0 1 0 1 0 3022.dat
+0 // Brick  1 x  4 (dark_grey)
+1 8 -150 -20 -48 -1 0 0 0 0 1 0 1 0 3010.dat
+0 // Slope Brick 31  1 x  1 x  0.667 (dark_bluish_grey)
+1 72 -100 -10 -46 0 0 -1 0 1 0 1 0 0 54200.dat
+0 // Plate  1 x  1 (dark_bluish_grey)
+1 72 -80 0 -56 0 0 -1 -1 0 0 0 1 0 3024.dat
+0 // Brick  1 x  1 with Studs on Two Opposite Sides (black)
+1 0 -100 0 -56 -1 0 0 0 0 1 0 1 0 47905.dat
+0 // Brick  1 x  4 (black)
+1 0 -150 0 -48 -1 0 0 0 0 1 0 1 0 3010.dat
+0 // Plate  1 x  1 (dark_bluish_grey)
+1 72 -100 0 -32 0 0 1 1 0 0 0 1 0 3024.dat
+0 FILE subModel-16.ldr
+0 16
+0 Author: Roland Dahl [RolandD]
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 // Tile  1 x  1 with Groove (black)
+1 0 0 0 0 1 0 0 0 0 -1 0 1 0 3070b.dat
+0 // Technic Pin  1/2 (light_grey)
+1 7 -20 -30 17.997 0 0 -1 -1 0 0 0 1 0 4274.dat
+0 // Technic Pin  1/2 (light_grey)
+1 7 -40 -30 17.997 0 0 -1 -1 0 0 0 1 0 4274.dat
+0 // Technic Brick  1 x  2 with Holes (dark_bluish_grey)
+1 72 -30 -20 7.997 1 0 0 0 0 -1 0 1 0 32000.dat
+0 // Slope Brick 33  3 x  1 (dark_bluish_grey)
+1 72 -60 -20 7.997 0 0 1 1 0 0 0 1 0 4286.dat
+0 // Plate  1 x  2 (dark_bluish_grey)
+1 72 -50 -20 -0.003 1 0 0 0 0 -1 0 1 0 3023.dat
+0 // Tile  1 x  2 with Groove (dark_bluish_grey)
+1 72 -50 -20 -8.003 1 0 0 0 0 -1 0 1 0 3069b.dat
+0 // Brick  1 x  4 (dark_bluish_grey)
+1 72 -74 -10 41.997 0 1 0 -1 0 0 0 0 1 3010.dat
+0 // Brick  1 x  1 Round with Hollow Stud (dark_bluish_grey)
+1 72 -50 -40 41.997 0 1 0 -1 0 0 0 0 1 3062b.dat
+0 // Plate  1 x  1 Round (black)
+1 0 -26 -40 41.997 0 1 0 -1 0 0 0 0 1 4073.dat
+0 // Technic Pin Joiner Round (white)
+1 15 2 -40 41.997 -1 0 0 0 1 0 0 0 -1 75535.dat
+0 // Plate  1 x  1 Round (black)
+1 0 22 -40 41.997 0 1 0 -1 0 0 0 0 1 4073.dat
+0 // Brick  1 x  1 Round with Hollow Stud (dark_bluish_grey)
+1 72 30 -40 41.997 0 1 0 -1 0 0 0 0 1 3062b.dat
+0 // Plate  1 x  1 Round (black)
+1 0 54 -40 41.997 0 1 0 -1 0 0 0 0 1 4073.dat
+0 // Plate  1 x  1 Round (black)
+1 0 62 -40 41.997 0 1 0 -1 0 0 0 0 1 4073.dat
+0 // Wedge  4 x  2 Double Left (dark_bluish_grey)
+1 72 100 0 67.997 0 0 -1 1 0 0 0 -1 0 43710.dat
+0 // Plate  2 x  2 Corner (black)
+1 0 100 0 44 0 0 -1 1 0 0 0 -1 0 2420.dat
+0 // Plate  1 x  1 (dark_bluish_grey)
+1 72 100 0 75.997 0 0 -1 1 0 0 0 -1 0 3024.dat
+0 // Tile  1 x  4 with Groove (dark_bluish_grey)
+1 72 70 0 83.997 1 0 0 0 0 1 0 -1 0 2431.dat
+0 // Plate  1 x  3 (dark_bluish_grey)
+1 72 40 -40 19.997 -1 0 0 0 0 -1 0 -1 0 3623.dat
+0 // Plate  1 x  3 (dark_bluish_grey)
+1 72 40 0 19.997 -1 0 0 0 0 -1 0 -1 0 3623.dat
+0 // Slope Brick 33  3 x  3 (dark_bluish_grey)
+1 72 40 0 43.997 1 0 0 0 0 1 0 -1 0 4161.dat
+0 // Slope Brick 45  2 x  2 (dark_bluish_grey)
+1 72 -10 0 8 1 0 0 0 0 -1 0 1 0 3039.dat
+0 // Tile  1 x  2 with Groove (black)
+1 0 -30 0 0 1 0 0 0 0 -1 0 1 0 3069b.dat
+0 // Slope Brick 75  2 x  1 x  3 with Open Stud (black)
+1 0 -146 0 41.997 0 1 0 0 0 -1 -1 0 0 4460.dat
+0 // Slope Brick 75  2 x  1 x  3 with Open Stud (black)
+1 0 -146 -20 41.997 0 1 0 0 0 1 1 0 0 4460.dat
+0 // Wedge  4 x  2 Double Left (dark_bluish_grey)
+1 72 -40 0 8 0 0 1 1 0 0 0 1 0 43710.dat
+0 // Brick  1 x  2 with Studs on Sides (black)
+1 0 -50 -10 41.997 0 1 0 -1 0 0 0 0 1 52107.dat
+0 // Plate  1 x  2 (black)
+1 0 -26 -10 41.997 0 1 0 -1 0 0 0 0 1 3023.dat
+0 // Technic Pin  1/2 (dark_bluish_grey)
+1 72 -18 -40 41.997 -1 0 0 0 1 0 0 0 -1 4274.dat
+0 // Brick  1 x  4 (dark_grey)
+1 8 30 -20 67.997 -1 0 0 0 0 -1 0 -1 0 3010.dat
+0 // Wedge  4 x 16 Triple Curved (dark_bluish_grey)
+1 72 30 -10 75.997 0 0 1 -1 0 0 0 -1 0 45301.dat
+0 // Tile  1 x  1 with Groove (dark_bluish_grey)
+1 72 60 -20 83.997 0 0 1 -1 0 0 0 -1 0 3070b.dat
+0 // Tile  1 x  2 with Groove (dark_bluish_grey)
+1 72 30 -20 83.997 1 0 0 0 0 1 0 -1 0 3069b.dat
+0 // Tile  1 x  1 with Groove (trans_green)
+1 34 0 -20 83.997 0 0 1 -1 0 0 0 -1 0 3070b.dat
+0 // Tile  1 x  4 with Groove (black)
+1 0 -212 -28 41.997 -1 0 0 0 1 0 0 0 -1 2431.dat
+0 // Plate  1 x  2 without Groove with 1 Centre Stud (black)
+1 0 -170 -10 41.997 0 1 0 -1 0 0 0 0 1 3794.dat
+0 // Plate  1 x  2 (black)
+1 0 -154 -10 41.997 0 1 0 -1 0 0 0 0 1 3023.dat
+0 // Plate  1 x  2 (black)
+1 0 -162 -10 41.997 0 1 0 -1 0 0 0 0 1 3023.dat
+0 // Tile  1 x  4 with Groove (black)
+1 0 -212 8 41.997 -1 0 0 0 -1 0 0 0 1 2431.dat
+0 // Brick  1 x  1 with Studs on Two Opposite Sides (black)
+1 0 -202 -10 41.997 0 1 0 0 0 1 1 0 0 47905.dat
+0 // Technic Pin Joiner Round (dark_bluish_grey)
+1 72 -222 -10 41.997 -1 0 0 0 1 0 0 0 -1 75535.dat
+0 // Plate  1 x  1 Round (black)
+1 0 -178 -10 41.997 0 1 0 -1 0 0 0 0 1 4073.dat
+0 // Plate  2 x  6 (black)
+1 0 -110 -10 59.997 -1 0 0 0 0 -1 0 -1 0 3795.dat
+0 // Plate  1 x  2 (black)
+1 0 -18 -10 41.997 0 1 0 -1 0 0 0 0 1 3023.dat
+0 // Plate  2 x  2 (black)
+1 0 -30 -10 59.997 -1 0 0 0 0 -1 0 -1 0 3022.dat
+0 // Plate  2 x  2 (black)
+1 0 -30 -10 67.997 -1 0 0 0 0 -1 0 -1 0 3022.dat
+0 // Tile  1 x  2 with Groove (trans_clear)
+1 47 10 0 83.997 1 0 0 0 0 1 0 -1 0 3069b.dat
+0 // Slope Brick 31  1 x  1 x  0.667 (dark_bluish_grey)
+1 72 80 -10 66 0 0 -1 0 1 0 1 0 0 54200.dat
+0 // Brick  1 x  4 (black)
+1 0 30 0 67.997 -1 0 0 0 0 -1 0 -1 0 3010.dat
+0 // Slope Brick 31  1 x  1 x  0.667 (dark_bluish_grey)
+1 72 80 10 66 1 0 0 0 -1 0 0 0 -1 54200.dat
+0 // Plate  1 x  1 (dark_bluish_grey)
+1 72 80 0 52 0 0 -1 1 0 0 0 -1 0 3024.dat
+0 // Brick  1 x  1 with Studs on Two Opposite Sides (black)
+1 0 80 0 76 -1 0 0 0 0 -1 0 -1 0 47905.dat
+0 // Slope Brick 31  1 x  1 x  0.667 (dark_bluish_grey)
+1 72 -20 -20 7.997 0 0 -1 -1 0 0 0 1 0 54200.dat
+0 FILE subModel-28.ldr
+0 28
+0 Author: Roland Dahl [RolandD]
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 // Slope Brick 45  2 x  1 without Centre Stud (dark_bluish_grey)
+1 72 0 0 0 0 0 1 0.866 -0.5 0 0.5 0.866 0 3040a.dat
+0 // Hinge  1 x  2 Top (black)
+1 0 30 0 0 1 0 0 0 -0.5 -0.866 0 0.866 -0.5 3938.dat
+0 // Hinge  1 x  2 Top (black)
+1 0 70 0 0 1 0 0 0 -0.5 -0.866 0 0.866 -0.5 3938.dat
+0 // Plate  1 x  2 with  2 Clips Horizontal (Thick U-Clips) (black)
+1 0 10 4.061 -6.895 1 0 0.007 0.006 -0.5 -0.866 0.003 0.866 -0.5 60470.dat
+0 // Slope Brick 31  1 x  1 x  0.667 (trans_neon_green)
+1 42 0 4 -6.928 0 0 1 0.866 -0.5 0 0.5 0.866 0 54200.dat
+0 // Plate  1 x  1 Round (dark_bluish_grey)
+1 72 20 12 -20.785 1 0 0 0 -0.5 -0.866 0 0.866 -0.5 4073.dat
+0 // Plate  1 x  1 Round (dark_bluish_grey)
+1 72 20 8 -13.857 1 0 0 0 -0.5 -0.866 0 0.866 -0.5 4073.dat
+0 // Brick  1 x  3 (white)
+1 15 60 12 -20.785 1 0 0 0 -0.5 -0.866 0 0.866 -0.5 3622.dat
+0 // Plate  1 x  1 Round (white)
+1 15 100 8 -13.857 0 0 1 0.866 -0.5 0 0.5 0.866 0 4073.dat
+0 // Brick  1 x  3 (white)
+1 15 140 8 -13.857 1 0 0 0 -0.5 -0.866 0 0.866 -0.5 3622.dat
+0 // Slope Brick 45  2 x  1 without Centre Stud (white)
+1 15 120 20 -34.641 0 0 1 0.866 -0.5 0 0.5 0.866 0 3040a.dat
+0 // Brick  1 x  1 with Headlight (white)
+1 15 140 20 -34.641 -1 0 0 0 -0.5 0.866 0 0.866 0.5 4070.dat
+0 // Slope Brick 45  2 x  1 Inverted without Inner Stopper Ring (white)
+1 15 160 20 -34.641 0 0 -1 -0.866 -0.5 0 -0.5 0.866 0 3665.dat
+0 // Plate  1 x  4 (dark_bluish_grey)
+1 72 150 24 -41.57 1 0 0 0 -0.5 -0.866 0 0.866 -0.5 3710.dat
+0 // Technic Brick  1 x  1 with Hole (dark_bluish_grey)
+1 72 180 36 -62.354 0 0 -1 -0.866 -0.5 0 -0.5 0.866 0 6541.dat
+0 // Brick  1 x  3 (dark_bluish_grey)
+1 72 140 36 -62.354 1 0 0 0 -0.5 -0.866 0 0.866 -0.5 3622.dat
+0 // Tile  1 x  4 with Groove (dark_bluish_grey)
+1 72 130 40 -69.282 1 0 0 0 -0.5 -0.866 0 0.866 -0.5 2431.dat
+0 // Slope Brick 33  3 x  1 (dark_bluish_grey)
+1 72 100 36 -62.354 0 0 1 0.866 -0.5 0 0.5 0.866 0 4286.dat
+0 // Slope Brick 45  2 x  1 Inverted without Inner Stopper Ring (dark_bluish_grey)
+1 72 80 24 -41.57 0 0 -1 -0.866 -0.5 0 -0.5 0.866 0 3665.dat
+0 // Slope Brick 33  3 x  1 (dark_bluish_grey)
+1 72 60 24 -41.57 0 0 1 0.866 -0.5 0 0.5 0.866 0 4286.dat
+0 // Hinge  1 x  2 Base (black)
+1 0 30 -5 -1.34 1 0 0 0 0 -1 0 1 0 3937.dat
+0 // Hinge  1 x  2 Base (black)
+1 0 70 -5 -1.34 1 0 0 0 0 -1 0 1 0 3937.dat
+0 // Brick  1 x  4 with Studs on Side (dark_bluish_grey)
+1 72 50 -5 22.66 -1 0 0 0 0 1 0 1 0 30414.dat
+0 // Technic Pin Long with Stop Bush (black)
+1 0 -40.14 20.081 4.687 -1 0 0.007 -0.006 0.5 -0.866 -0.003 -0.866 -0.5 32054.dat
+0 // Bar  3L (black)
+1 0 -30.14 20.141 4.717 0 1 0.007 0.5 0.006 -0.866 -0.866 0.003 -0.5 87994.dat
+0 FILE subModel-29.ldr
+0 29
+0 Author: Roland Dahl [RolandD]
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 // Technic Pin Long with Stop Bush (black)
+1 0 0 34.64 -20 -1 0 0 0 0.5 0.866 0 0.866 -0.5 32054.dat
+0 // Bar  3L (black)
+1 0 10 34.64 -20 0 1 0 0.5 0 0.866 0.866 0 -0.5 87994.dat
+0 // Slope Brick 31  1 x  1 x  0.667 (trans_neon_green)
+1 42 40 18.32 -8.267 0 0 1 -0.866 -0.5 0 0.5 -0.866 0 54200.dat
+0 // Plate  1 x  1 Round (dark_bluish_grey)
+1 72 60 26.32 5.589 1 0 0 0 -0.5 0.866 0 -0.866 -0.5 4073.dat
+0 // Plate  1 x  1 Round (dark_bluish_grey)
+1 72 60 22.32 -1.339 1 0 0 0 -0.5 0.866 0 -0.866 -0.5 4073.dat
+0 // Hinge  1 x  2 Top (black)
+1 0 110 14.32 -15.196 -1 0 0 0 -0.5 -0.866 0 -0.866 0.5 3938.dat
+0 // Hinge  1 x  2 Top (black)
+1 0 70 14.32 -15.196 -1 0 0 0 -0.5 -0.866 0 -0.866 0.5 3938.dat
+0 // Hinge  1 x  2 Base (black)
+1 0 70 9.32 -13.856 -1 0 0 0 0 -1 0 -1 0 3937.dat
+0 // Hinge  1 x  2 Base (black)
+1 0 110 9.32 -13.856 -1 0 0 0 0 -1 0 -1 0 3937.dat
+0 // Plate  1 x  1 Round (white)
+1 15 140 22.32 -1.339 0 0 1 -0.866 -0.5 0 0.5 -0.866 0 4073.dat
+0 // Brick  1 x  3 (white)
+1 15 180 22.32 -1.339 1 0 0 0 -0.5 0.866 0 -0.866 -0.5 3622.dat
+0 // Slope Brick 45  2 x  1 Inverted without Inner Stopper Ring (white)
+1 15 200 34.32 19.445 0 0 -1 0.866 -0.5 0 -0.5 -0.866 0 3665.dat
+0 // Plate  1 x  4 (dark_bluish_grey)
+1 72 190 38.32 26.374 1 0 0 0 -0.5 0.866 0 -0.866 -0.5 3710.dat
+0 // Brick  1 x  1 with Headlight (white)
+1 15 180 34.32 19.445 1 0 0 0 -0.5 0.866 0 -0.866 -0.5 4070.dat
+0 // Slope Brick 45  2 x  1 without Centre Stud (white)
+1 15 160 34.32 19.445 0 0 1 -0.866 -0.5 0 0.5 -0.866 0 3040a.dat
+0 // Slope Brick 45  2 x  1 Inverted without Inner Stopper Ring (dark_bluish_grey)
+1 72 120 38.32 26.374 0 0 -1 0.866 -0.5 0 -0.5 -0.866 0 3665.dat
+0 // Slope Brick 33  3 x  1 (dark_bluish_grey)
+1 72 100 38.32 26.374 0 0 1 -0.866 -0.5 0 0.5 -0.866 0 4286.dat
+0 // Slope Brick 33  3 x  1 (dark_bluish_grey)
+1 72 140 50.32 47.158 0 0 1 -0.866 -0.5 0 0.5 -0.866 0 4286.dat
+0 // Brick  1 x  3 (dark_bluish_grey)
+1 72 180 50.32 47.158 1 0 0 0 -0.5 0.866 0 -0.866 -0.5 3622.dat
+0 // Technic Brick  1 x  1 with Hole (dark_bluish_grey)
+1 72 220 50.32 47.158 0 0 -1 0.866 -0.5 0 -0.5 -0.866 0 6541.dat
+0 // Tile  1 x  4 with Groove (dark_bluish_grey)
+1 72 170 54.32 54.086 1 0 0 0 -0.5 0.866 0 -0.866 -0.5 2431.dat
+0 // Slope Brick 45  2 x  1 without Centre Stud (dark_bluish_grey)
+1 72 40 14.32 -15.196 0 0 1 -0.866 -0.5 0 0.5 -0.866 0 3040a.dat
+0 // Brick  1 x  4 with Studs on Side (dark_bluish_grey)
+1 72 90 9.32 -37.856 1 0 0 0 0 1 0 -1 0 30414.dat
+0 // Brick  1 x  3 (white)
+1 15 100 26.32 5.589 1 0 0 0 -0.5 0.866 0 -0.866 -0.5 3622.dat
+0 // Plate  1 x  2 with  2 Clips Horizontal (Thick U-Clips) (black)
+1 0 50 18.32 -8.268 -1 0 0 0 -0.5 -0.866 0 -0.866 0.5 60470.dat
+0 FILE subModel-24.ldr
+0 24
+0 Author: Roland Dahl [RolandD]
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 // Plate  1 x  3 (dark_bluish_grey)
+1 72 0 0 0 1 0 0 0 0.829 -0.559 0 0.559 0.829 3623.dat
+0 // Slope Brick 45  2 x  1 Inverted without Inner Stopper Ring (dark_bluish_grey)
+1 72 20 -19.897 -13.42 0 0 -1 -0.559 0.829 0 0.829 0.559 0 3665.dat
+0 // Slope Brick 75  2 x  1 x  3 with Open Stud (dark_bluish_grey)
+1 72 0 -59.69 -40.262 0 0 1 0.559 0.829 0 -0.829 0.559 0 4460.dat
+0 // Brick  1 x  2 (dark_bluish_grey)
+1 72 30 -39.793 -26.841 1 0 0 0 0.829 -0.559 0 0.559 0.829 3004.dat
+0 // Brick  1 x  2 (dark_bluish_grey)
+1 72 30 -59.69 -40.262 1 0 0 0 0.829 -0.559 0 0.559 0.829 3004.dat
+0 // Tile  1 x  2 with Groove (dark_bluish_grey)
+1 72 10 -66.323 -44.735 1 0 0 0 0.829 -0.559 0 0.559 0.829 3069b.dat
+0 // Tile  1 x  1 with Groove (trans_red)
+1 36 40 -66.323 -44.735 1 0 0 0 0.829 -0.559 0 0.559 0.829 3070b.dat
+0 FILE subModel-25.ldr
+0 25
+0 Author: Roland Dahl [RolandD]
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 // Slope Brick 75  2 x  1 x  3 with Open Stud (dark_bluish_grey)
+1 72 0 0 0 0 0 1 -0.559 0.829 0 -0.829 -0.559 0 4460.dat
+0 // Plate  1 x  3 (dark_bluish_grey)
+1 72 0 59.69 -40.262 1 0 0 0 0.829 0.559 0 -0.559 0.829 3623.dat
+0 // Slope Brick 45  2 x  1 Inverted without Inner Stopper Ring (dark_bluish_grey)
+1 72 20 39.793 -26.842 0 0 -1 0.559 0.829 0 0.829 -0.559 0 3665.dat
+0 // Brick  1 x  2 (dark_bluish_grey)
+1 72 30 19.897 -13.421 1 0 0 0 0.829 0.559 0 -0.559 0.829 3004.dat
+0 // Brick  1 x  2 (dark_bluish_grey)
+1 72 30 0 0 1 0 0 0 0.829 0.559 0 -0.559 0.829 3004.dat
+0 // Tile  1 x  1 with Groove (trans_green)
+1 34 40 -6.633 4.473 1 0 0 0 0.829 0.559 0 -0.559 0.829 3070b.dat
+0 // Tile  1 x  2 with Groove (dark_bluish_grey)
+1 72 10 -6.633 4.473 1 0 0 0 0.829 0.559 0 -0.559 0.829 3069b.dat
+0 FILE subModel-31.ldr
+0 31
+0 Author: Roland Dahl [RolandD]
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 // Brick  2 x  2 Corner Round with Stud Notch (white)
+1 15 0 0 0 0.123 0.985 -0.123 -0.697 0.174 0.697 0.707 0 0.707 3063.dat
+0 // Plate  3 x  3 with  2 x  2 Corner Round (dark_bluish_grey)
+1 72 18.735 32.042 0 0.123 0.985 0.123 -0.697 0.174 -0.697 -0.707 0 0.707 30357.dat
+0 // Brick  2 x  2 Corner Round with Stud Notch (dark_bluish_grey)
+1 72 31.533 5.561 0 0.123 0.985 -0.123 -0.697 0.174 0.697 0.707 0 0.707 3063.dat
+0 // Brick  2 x  2 Corner Round with Stud Notch (white)
+1 15 55.182 9.731 0 0.123 0.985 -0.123 -0.697 0.174 0.697 0.707 0 0.707 3063.dat
+0 // Brick  2 x  2 Corner Round with Stud Notch (white)
+1 15 78.832 13.902 0 0.123 0.985 -0.123 -0.697 0.174 0.697 0.707 0 0.707 3063.dat
+0 // Brick  2 x  2 Corner Round with Stud Notch (white)
+1 15 102.482 18.072 0 0.123 0.985 -0.123 -0.697 0.174 0.697 0.707 0 0.707 3063.dat
+0 // Slope Brick 33  3 x  1 (white)
+1 15 -4.915 27.872 -56.568 -0.123 0.985 -0.123 0.697 0.174 0.697 0.707 0 -0.707 4286.dat
+0 // Plate  1 x  2 (dark_bluish_grey)
+1 72 19.963 25.074 -49.497 -0.123 0.985 0.123 0.697 0.174 -0.697 -0.707 0 -0.707 3023.dat
+0 // Slope Brick 45  2 x  1 Inverted without Inner Stopper Ring (dark_bluish_grey)
+1 72 29.075 19.497 -42.426 0.123 0.985 0.123 -0.697 0.174 -0.697 -0.707 0 0.707 3665.dat
+0 // Brick  1 x  1 Round with Hollow Stud (light_grey)
+1 7 31.533 5.561 -28.284 0.123 0.985 0.123 -0.697 0.174 -0.697 -0.707 0 0.707 3062b.dat
+0 // Slope Brick 75  2 x  1 x  3 Inverted (white)
+1 15 55.182 9.731 -28.284 0.123 0.985 0.123 -0.697 0.174 -0.697 -0.707 0 0.707 2449.dat
+0 // Slope Brick 33  3 x  1 (white)
+1 15 -4.915 27.872 56.569 0.123 0.985 -0.123 -0.697 0.174 0.697 0.707 0 0.707 4286.dat
+0 // Plate  1 x  2 (dark_bluish_grey)
+1 72 19.963 25.074 49.498 -0.123 0.985 -0.123 0.697 0.174 0.697 0.707 0 -0.707 3023.dat
+0 // Slope Brick 45  2 x  1 Inverted without Inner Stopper Ring (dark_bluish_grey)
+1 72 29.075 19.497 42.426 -0.123 0.985 0.123 0.697 0.174 -0.697 -0.707 0 -0.707 3665.dat
+0 // Brick  1 x  1 Round with Hollow Stud (light_grey)
+1 7 31.533 5.561 28.284 0.123 0.985 0.123 -0.697 0.174 -0.697 -0.707 0 0.707 3062b.dat
+0 // Slope Brick 75  2 x  1 x  3 Inverted (white)
+1 15 55.182 9.731 28.284 -0.123 0.985 0.123 0.697 0.174 -0.697 -0.707 0 -0.707 2449.dat
+0 FILE subModel-22.ldr
+0 22
+0 Author: Roland Dahl [RolandD]
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 // Panel  1 x  2 x  1 with Square Corners (dark_bluish_grey)
+1 72 10 -23.018 -51.712 0 0 1 0.559 0.829 0 -0.829 0.559 0 4865a.dat
+0 // Brick  2 x  2 with Curved Top and  2 Studs on Top (dark_bluish_grey)
+1 72 40 -23.018 -51.712 1 0 0 0 0.829 -0.559 0 0.559 0.829 30165.dat
+0 // Slope Brick 31  1 x  1 x  0.667 (dark_grey)
+1 8 70 -15.346 -34.475 -1 0 0 0 0.829 0.559 0 0.559 -0.829 54200.dat
+0 // Technic Brick  1 x  2 with Axlehole with Open Sides and Stud Blocker (dark_grey)
+1 8 70 -9.754 -42.765 0 0 1 0.559 0.829 0 -0.829 0.559 0 32064a.dat
+0 // Wheel Rim 14 x 18 with Axlehole (black)
+1 0 98 -1.463 -37.173 0 0 1 0.829 -0.559 0 0.559 0.829 0 55982.dat
+0 // Technic Transmission Driving Ring Extension (light_grey)
+1 7 127 -1.463 -37.173 0 0 -1 -0.829 -0.559 0 -0.559 0.829 0 32187.dat
+0 // Slope Brick 31  1 x  1 x  0.667 (dark_grey)
+1 8 70 -4.162 -51.056 1 0 0 0 0.829 -0.559 0 0.559 0.829 54200.dat
+0 // Technic Axle  3 with Stud (dark_bluish_grey)
+1 72 105 -1.463 -37.173 1 0 0 0 -0.559 -0.829 0 0.829 -0.559 6587.dat
+0 // Tile  1 x  2 with Groove (dark_bluish_grey)
+1 72 -30 -9.754 -42.765 0 0 1 0.559 0.829 0 -0.829 0.559 0 3069b.dat
+0 // Panel  1 x  2 x  1 with Square Corners (dark_bluish_grey)
+1 72 -10 -23.018 -51.712 0 0 1 0.559 0.829 0 -0.829 0.559 0 4865a.dat
+0 // Plate  1 x  4 (dark_grey)
+1 8 0 2.47 -46.582 -1 0 0 0 0.829 0.559 0 0.559 -0.829 3710.dat
+0 // Plate  1 x  1 (dark_grey)
+1 8 50 2.47 -46.582 0 0 1 0.559 0.829 0 -0.829 0.559 0 3024.dat
+0 // Plate  1 x  1 (dark_bluish_grey)
+1 72 50 -8.713 -30.001 0 0 1 0.559 0.829 0 -0.829 0.559 0 3024.dat
+0 // Plate  2 x  2 Corner (dark_grey)
+1 8 50 9.103 -42.109 0 0 -1 -0.559 0.829 0 0.829 0.559 0 2420.dat
+0 // Plate  1 x  2 (dark_grey)
+1 8 60 15.735 -37.635 1 0 0 0 0.829 -0.559 0 0.559 0.829 3023.dat
+0 FILE subModel-23.ldr
+0 23
+0 Author: Roland Dahl [RolandD]
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 // Technic Transmission Driving Ring Extension (light_grey)
+1 7 127 -1.463 37.173 0 0 -1 -0.829 0.559 0 0.559 0.829 0 32187.dat
+0 // Wheel Rim 14 x 18 with Axlehole (black)
+1 0 98 -1.463 37.173 0 0 1 0.829 0.559 0 -0.559 0.829 0 55982.dat
+0 // Slope Brick 31  1 x  1 x  0.667 (dark_grey)
+1 8 70 -15.346 34.475 1 0 0 0 0.829 0.559 0 -0.559 0.829 54200.dat
+0 // Slope Brick 31  1 x  1 x  0.667 (dark_grey)
+1 8 70 -4.162 51.056 -1 0 0 0 0.829 -0.559 0 -0.559 -0.829 54200.dat
+0 // Brick  2 x  2 with Curved Top and  2 Studs on Top (dark_bluish_grey)
+1 72 40 -23.018 51.712 1 0 0 0 0.829 0.559 0 -0.559 0.829 30165.dat
+0 // Panel  1 x  2 x  1 with Square Corners (dark_bluish_grey)
+1 72 10 -23.018 51.712 0 0 1 -0.559 0.829 0 -0.829 -0.559 0 4865a.dat
+0 // Panel  1 x  2 x  1 with Square Corners (dark_bluish_grey)
+1 72 -10 -23.018 51.712 0 0 1 -0.559 0.829 0 -0.829 -0.559 0 4865a.dat
+0 // Tile  1 x  2 with Groove (dark_bluish_grey)
+1 72 -30 -9.754 42.765 0 0 1 -0.559 0.829 0 -0.829 -0.559 0 3069b.dat
+0 // Plate  1 x  4 (dark_grey)
+1 8 0 2.47 46.582 -1 0 0 0 0.829 -0.559 0 -0.559 -0.829 3710.dat
+0 // Technic Brick  1 x  2 with Axlehole with Open Sides and Stud Blocker (dark_grey)
+1 8 70 -9.754 42.765 0 0 1 -0.559 0.829 0 -0.829 -0.559 0 32064a.dat
+0 // Plate  2 x  2 Corner (dark_grey)
+1 8 50 9.103 42.109 -1 0 0 0 0.829 -0.559 0 -0.559 -0.829 2420.dat
+0 // Plate  1 x  1 (dark_bluish_grey)
+1 72 50 -8.713 30.001 0 0 1 -0.559 0.829 0 -0.829 -0.559 0 3024.dat
+0 // Plate  1 x  2 (dark_grey)
+1 8 60 15.735 37.635 1 0 0 0 0.829 0.559 0 -0.559 0.829 3023.dat
+0 // Plate  1 x  1 (dark_grey)
+1 8 50 2.47 46.582 0 0 1 -0.559 0.829 0 -0.829 -0.559 0 3024.dat
+0 // Technic Axle  3 with Stud (dark_bluish_grey)
+1 72 105 -1.463 37.173 1 0 0 0 0.559 -0.829 0 0.829 0.559 6587.dat
+0 FILE subModel-30.ldr
+0 30
+0 Author: Roland Dahl [RolandD]
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 !LDCAD GROUP_DEF [topLevel=true] [LID=0] [GID=2azDDdjhe5w] [name=Group 1] [center=0 0 0]
+0 !LDCAD GROUP_DEF [topLevel=true] [LID=1] [GID=275Pb7Ti1Ue] [name=Group 2] [center=0 0 0]
+0 // Plate  3 x  3 with  2 x  2 Corner Round (dark_bluish_grey)
+1 72 104.901 5.029 0 -0.062 0.997 -0.062 -0.705 -0.087 -0.705 -0.707 0 0.707 30357.dat
+0 // Slope Brick 45  2 x  1 Inverted without Inner Stopper Ring (dark_bluish_grey)
+1 72 78.511 -21.072 28.284 0.062 0.997 -0.062 0.705 -0.087 -0.705 -0.707 0 -0.707 3665.dat
+0 // Brick  2 x  2 Corner Round with Stud Notch (dark_bluish_grey)
+1 72 78.511 -21.072 0 -0.062 0.997 0.062 -0.705 -0.087 0.705 0.707 0 0.707 3063.dat
+0 // Slope Brick 45  2 x  1 Inverted without Inner Stopper Ring (dark_bluish_grey)
+1 72 78.511 -21.072 -28.284 -0.062 0.997 -0.062 -0.705 -0.087 -0.705 -0.707 0 0.707 3665.dat
+0 // Brick  1 x  2 with Grille (dark_bluish_grey)
+1 72 55.205 -11.931 35.355 -0.062 0.997 -0.062 -0.705 -0.087 -0.705 -0.707 0 0.707 2877.dat
+0 // Brick  2 x  2 Corner Round with Stud Notch (dark_bluish_grey)
+1 72 54.588 -18.979 0 -0.062 0.997 0.062 -0.705 -0.087 0.705 0.707 0 0.707 3063.dat
+0 // Brick  1 x  2 with Grille (dark_bluish_grey)
+1 72 55.205 -11.931 -35.355 0.062 0.997 -0.062 0.705 -0.087 -0.705 -0.707 0 -0.707 2877.dat
+0 // Hinge Plate  1 x  4 Base (dark_bluish_grey)
+1 72 49.08 9.912 70.711 0.062 0.997 0.062 0.705 -0.087 0.705 0.707 0 -0.707 2429.dat
+0 // Plate  3 x  3 with  2 x  2 Corner Round (dark_bluish_grey)
+1 72 49.08 9.912 0 -0.062 0.997 -0.062 -0.705 -0.087 -0.705 -0.707 0 0.707 30357.dat
+0 // Hinge Plate  1 x  4 Top (dark_bluish_grey)
+1 72 49.08 9.912 -70.711 -0.062 0.997 0.062 -0.705 -0.087 0.705 0.707 0 0.707 2430.dat
+0 // Cone 4 x  4 x  2 Hollow Without Studs (dark_bluish_grey)
+1 72 0 0 0 -0.062 0.997 -0.062 -0.705 -0.087 -0.705 -0.707 0 0.707 4742.dat
+0 // Brick  1 x  1 with Headlight (red)
+1 4 57.056 9.216 -56.571 -0.062 0.997 0.062 -0.705 -0.087 0.705 0.707 0 0.707 4070.dat
+0 // Brick  1 x  1 with Headlight (red)
+1 4 57.054 9.214 56.569 0.062 0.997 0.062 0.705 -0.087 0.705 0.707 0 -0.707 4070.dat
+0 // Plate  1 x  1 (red)
+1 4 80.976 7.12 -56.568 0.062 0.997 0.062 0.705 -0.087 0.705 0.707 0 -0.707 3024.dat
+0 // Plate  1 x  1 (red)
+1 4 80.978 7.122 56.569 -0.062 0.997 0.062 -0.705 -0.087 0.705 0.707 0 0.707 3024.dat
+0 // Slope Brick 45  2 x  1 without Centre Stud (red)
+1 4 88.952 6.424 -56.568 0.062 0.997 0.062 0.705 -0.087 0.705 0.707 0 -0.707 3040a.dat
+0 // Slope Brick 45  2 x  1 without Centre Stud (red)
+1 4 88.952 6.424 56.569 -0.062 0.997 0.062 -0.705 -0.087 0.705 0.707 0 0.707 3040a.dat
+0 // Slope Brick 33  3 x  1 Inverted with Notch and Thick Front (red)
+1 4 110.409 -23.862 -28.284 -0.062 0.997 -0.062 -0.705 -0.087 -0.705 -0.707 0 0.707 4287.dat
+0 // Brick  2 x  2 Corner Round with Stud Notch (red)
+1 4 110.409 -23.862 0 -0.062 0.997 0.062 -0.705 -0.087 0.705 0.707 0 0.707 3063.dat
+0 // Slope Brick 33  3 x  1 Inverted with Notch and Thick Front (red)
+1 4 110.409 -23.862 28.284 0.062 0.997 -0.062 0.705 -0.087 -0.705 -0.707 0 -0.707 4287.dat
+0 // Plate  1 x  2 without Groove with 1 Centre Stud (red)
+1 4 112.866 4.338 0 0 0.997 -0.087 0 -0.087 -0.997 -1 0 0 3794.dat
+0 // Hinge  1 x  2 Top (white)
+1 15 120.841 3.64 0 0 0.997 -0.087 0 -0.087 -0.997 -1 0 0 3938.dat
+0 // Hinge  1 x  2 Base (white)
+1 15 120.964 1.025 0 0 0.985 0.174 0 0.174 -0.985 -1 0 0 3937.dat
+0 // Plate  1 x  2 without Groove with 1 Centre Stud (red)
+1 4 144.604 5.201 10 0 0.985 -0.174 0 0.174 0.985 1 0 0 3794.dat
+1 72 133.748 -25.456 0.067 1 0 0 0 1 0.002 0 -0.002 1 subModel-31.ldr
+0 !LDCAD GROUP_NXT [ids=0] [nrs=7]
+0 // Brick  1 x  2 (white)
+1 15 106.604 24.638 81.354 0.05 0.997 0.071 0.572 -0.087 0.816 0.819 0 -0.574 3004.dat
+0 !LDCAD GROUP_NXT [ids=0] [nrs=6]
+0 // Brick  1 x  2 (white)
+1 15 82.684 26.725 81.354 0.05 0.997 0.071 0.572 -0.087 0.816 0.819 0 -0.574 3004.dat
+0 !LDCAD GROUP_NXT [ids=0] [nrs=5]
+0 // Brick  1 x  2 (white)
+1 15 58.765 28.812 81.354 0.05 0.997 0.071 0.572 -0.087 0.816 0.819 0 -0.574 3004.dat
+0 !LDCAD GROUP_NXT [ids=0] [nrs=-1]
+0 // Hinge Plate  1 x  4 Top (dark_bluish_grey)
+1 72 49.082 9.912 70.711 0.05 0.997 0.071 0.572 -0.087 0.816 0.819 0 -0.574 2430.dat
+0 !LDCAD GROUP_NXT [ids=0] [nrs=2]
+0 // Hinge  1 x  2 Base (white)
+1 15 26.873 31.595 81.354 0.05 0.997 0.071 0.572 -0.087 0.816 0.819 0 -0.574 3937.dat
+0 !LDCAD GROUP_NXT [ids=0] [nrs=3]
+0 // Hinge  1 x  2 Top (white)
+1 15 26.901 30.164 82.351 0.05 0.994 -0.103 0.572 0.056 0.819 0.819 -0.1 -0.565 3938.dat
+0 !LDCAD GROUP_NXT [ids=0] [nrs=4]
+0 // Slope Brick 31  1 x  2 x  0.667 (white)
+1 15 26.901 30.164 82.351 -0.05 0.994 0.103 -0.572 0.056 -0.819 -0.819 -0.1 0.565 85984.dat
+0 !LDCAD GROUP_NXT [ids=0] [nrs=9]
+0 // Hinge  1 x  2 Top (white)
+1 15 130.523 22.55 81.354 0.05 0.997 0.071 0.572 -0.087 0.816 0.819 0 -0.574 3938.dat
+0 !LDCAD GROUP_NXT [ids=0] [nrs=8]
+0 // Hinge  1 x  2 Base (white)
+1 15 130.88 19.706 83.317 -0.05 0.961 0.274 -0.572 0.197 -0.797 -0.819 -0.196 0.539 3937.dat
+0 !LDCAD GROUP_NXT [ids=0] [nrs=10]
+0 // Slope Brick 45  2 x  1 Inverted without Inner Stopper Ring (dark_bluish_grey)
+1 72 154.44 30.162 86.797 0.274 0.961 0.05 -0.797 0.197 0.572 0.539 -0.196 0.819 3665.dat
+0 !LDCAD GROUP_NXT [ids=1] [nrs=4]
+0 // Slope Brick 31  1 x  2 x  0.667 (white)
+1 15 26.902 30.167 -82.348 0.05 0.994 0.103 0.572 0.056 -0.819 -0.819 0.1 -0.565 85984.dat
+0 !LDCAD GROUP_NXT [ids=1] [nrs=3]
+0 // Hinge  1 x  2 Top (white)
+1 15 26.902 30.167 -82.348 -0.05 0.994 -0.103 -0.572 0.056 0.819 0.819 0.1 0.565 3938.dat
+0 !LDCAD GROUP_NXT [ids=1] [nrs=2]
+0 // Hinge  1 x  2 Base (white)
+1 15 26.874 31.598 -81.351 -0.05 0.997 0.071 -0.572 -0.087 0.816 0.819 0 0.574 3937.dat
+0 !LDCAD GROUP_NXT [ids=1] [nrs=5]
+0 // Brick  1 x  2 (white)
+1 15 58.768 28.815 -81.351 -0.05 0.997 0.071 -0.572 -0.087 0.816 0.819 0 0.574 3004.dat
+0 !LDCAD GROUP_NXT [ids=1] [nrs=6]
+0 // Brick  1 x  2 (white)
+1 15 82.688 26.728 -81.351 -0.05 0.997 0.071 -0.572 -0.087 0.816 0.819 0 0.574 3004.dat
+0 !LDCAD GROUP_NXT [ids=1] [nrs=7]
+0 // Brick  1 x  2 (white)
+1 15 106.609 24.64 -81.351 -0.05 0.997 0.071 -0.572 -0.087 0.816 0.819 0 0.574 3004.dat
+0 !LDCAD GROUP_NXT [ids=1] [nrs=8]
+0 // Hinge  1 x  2 Top (white)
+1 15 130.529 22.553 -81.351 -0.05 0.997 0.071 -0.572 -0.087 0.816 0.819 0 0.574 3938.dat
+0 !LDCAD GROUP_NXT [ids=1] [nrs=9]
+0 // Hinge  1 x  2 Base (white)
+1 15 130.886 19.709 -83.315 0.05 0.961 0.274 0.572 0.197 -0.797 -0.819 0.196 -0.54 3937.dat
+0 !LDCAD GROUP_NXT [ids=1] [nrs=10]
+0 // Slope Brick 45  2 x  1 Inverted without Inner Stopper Ring (dark_bluish_grey)
+1 72 154.448 30.166 -86.792 -0.274 0.961 0.05 0.797 0.197 0.572 0.54 0.196 -0.819 3665.dat
+0 !LDCAD GROUP_NXT [ids=1] [nrs=-1]
+0 // Hinge Plate  1 x  4 Base (dark_bluish_grey)
+1 72 49.084 9.912 -70.711 -0.05 0.997 0.071 -0.572 -0.087 0.816 0.819 0 0.574 2429.dat
+0 // Technic Beam  2 (red)
+1 4 39.73 17.838 49.501 0.062 0.998 0.062 0.706 -0.087 0.706 0.707 0 -0.707 43857.dat
+0 // Plate  1 x  1 Round (dark_bluish_grey)
+1 72 30.372 25.765 -42.43 0.062 -0.998 0.062 0.706 0.087 0.706 -0.707 0 0.707 4073.dat
+0 // Technic Pin  3/4 (light_grey)
+1 7 19.162 12.529 -56.572 -0.998 0.062 -0.062 0.087 0.706 -0.706 0 -0.707 -0.707 32002.dat
+0 // Technic Beam  2 (red)
+1 4 39.73 17.838 -49.501 0.062 0.998 -0.062 0.706 -0.087 -0.706 -0.707 0 -0.707 43857.dat
+0 // Plate  1 x  1 Round (dark_bluish_grey)
+1 72 30.372 25.765 42.429 0.062 -0.998 0.062 0.706 0.087 0.706 -0.707 0 0.707 4073.dat
+0 // Technic Pin  3/4 (light_grey)
+1 7 19.162 12.529 56.572 -0.998 0.062 -0.062 0.087 0.706 -0.706 0 -0.707 -0.707 32002.dat
+0 FILE subModel-02.ldr
+0 02
+0 Author: Roland Dahl [RolandD]
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 // Tile  1 x  1 with Clip (dark_bluish_grey)
+1 72 0 0 0 1 0 0 0 1 0 0 0 1 2555.dat
+0 // Minifig Ski 4L with Hinge (dark_bluish_grey)
+1 72 2 8 0 0 0 1 0 1 0 -1 0 0 6120.dat
+0 // Plate  1 x  1 with Clip Horizontal (Thick U-Clip) (black)
+1 0 0 -1.515 20.774 1 0 0 0 0.743 0.669 0 -0.669 0.743 6019.dat
+0 // Brick  1 x  1 Round with Hollow Stud (black)
+1 0 0 -19.35 36.833 0 0 -1 0.669 0.743 0 0.743 -0.669 0 3062b.dat
+0 // Brick  1 x  1 x  0.667 Round with Bar and Clip Vertical (black)
+1 0 0 -53.097 32.232 1 0 0 0 0.669 -0.743 0 0.743 0.669 4735.dat
+0 // Plate  1 x  1 (black)
+1 0 0 -58.45 26.287 -1 0 0 0 0.669 0.743 0 0.743 -0.669 3024.dat
+0 // Plate  1 x  1 Round (black)
+1 0 0 -25.296 42.186 0 0 -1 0.669 0.743 0 0.743 -0.669 0 4073.dat
+0 // Brick  1 x  1 with Studs on Four Sides (black)
+1 0 0 -43.131 58.245 1 0 0 0 0.743 0.669 0 -0.669 0.743 4733.dat
+0 // Tile  1 x  1 with Clip (black)
+1 0 0 -49.076 63.598 0 0 -1 0.669 0.743 0 0.743 -0.669 0 2555.dat
+0 FILE subModel-03.ldr
+0 03
+0 Author: Roland Dahl [RolandD]
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 // Tile  1 x  1 with Clip (dark_bluish_grey)
+1 72 0 0 0 1 0 0 0 1 0 0 0 1 2555.dat
+0 // Plate  1 x  1 with Clip Horizontal (Thick U-Clip) (black)
+1 0 1 -1.515 -20.548 -1 0 0 0 0.743 0.669 0 0.669 -0.743 6019.dat
+0 // Brick  1 x  1 Round with Hollow Stud (black)
+1 0 1 -19.35 -36.607 0 0 1 0.669 0.743 0 -0.743 0.669 0 3062b.dat
+0 // Plate  1 x  1 Round (black)
+1 0 1 -25.296 -41.96 0 0 1 0.669 0.743 0 -0.743 0.669 0 4073.dat
+0 // Brick  1 x  1 with Studs on Four Sides (black)
+1 0 1 -43.131 -58.019 -1 0 0 0 0.743 0.669 0 0.669 -0.743 4733.dat
+0 // Tile  1 x  1 with Clip (black)
+1 0 1 -49.076 -63.372 0 0 1 0.669 0.743 0 -0.743 0.669 0 2555.dat
+0 // Brick  1 x  1 x  0.667 Round with Bar and Clip Vertical (black)
+1 0 1 -53.097 -32.006 -1 0 0 0 0.669 -0.743 0 -0.743 -0.669 4735.dat
+0 // Plate  1 x  1 (black)
+1 0 1 -58.45 -26.061 1 0 0 0 0.669 0.743 0 -0.743 0.669 3024.dat
+0 // Minifig Ski 4L with Hinge (dark_bluish_grey)
+1 72 2 8 0 0 0 1 0 1 0 -1 0 0 6120.dat
+0 FILE subModel-01.ldr
+0 01
+0 Author: Roland Dahl [RolandD]
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 // Minifig Ski 4L with Hinge (dark_bluish_grey)
+1 72 0 0 0 0 0 1 0 1 0 -1 0 0 6120.dat
+0 // Brick  1 x  1 Round with Hollow Stud (black)
+1 0 -2 -24 0 0 0 1 0 1 0 -1 0 0 3062b.dat
+0 // Brick  1 x  1 Round with Hollow Stud (black)
+1 0 -2 -48 0 0 0 1 0 1 0 -1 0 0 3062b.dat
+0 // Hinge Bar  2.5 with  2 and  3 Fingers on Ends (black)
+1 0 34.981 -28.284 0 0 0.643 0.766 0 0.766 -0.643 -1 0 0 2923.dat
+0 FILE subModel-12.ldr
+0 12
+0 Author: Roland Dahl [RolandD]
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 // Slope Brick 45  2 x  2 (dark_bluish_grey)
+1 72 0 0 0 1 0 0 0 0 -1 0 1 0 3039.dat
+0 // Slope Brick 45  2 x  1 Inverted without Inner Stopper Ring (dark_bluish_grey)
+1 72 -30 0 -24 0 0 1 1 0 0 0 1 0 3665.dat
+0 // Brick  1 x  2 (dark_bluish_grey)
+1 72 0 0 -24 1 0 0 0 0 -1 0 1 0 3004.dat
+0 // Plate  1 x  4 (black)
+1 0 -20 0 -32 -1 0 0 0 0 1 0 1 0 3710.dat
+0 // Wedge  4 x  2 Double Left (dark_bluish_grey)
+1 72 10 0 -56 0 0 1 1 0 0 0 1 0 43710.dat
+0 // Tile  1 x  1 with Groove (dark_bluish_grey)
+1 72 10 0 -64 0 0 1 1 0 0 0 1 0 3070b.dat
+0 FILE subModel-13.ldr
+0 13
+0 Author: Roland Dahl [RolandD]
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 // Slope Brick 45  2 x  2 (dark_bluish_grey)
+1 72 0 0 0 -1 0 0 0 0 -1 0 -1 0 3039.dat
+0 // Brick  1 x  2 (dark_bluish_grey)
+1 72 0 0 24 -1 0 0 0 0 -1 0 -1 0 3004.dat
+0 // Slope Brick 45  2 x  1 Inverted without Inner Stopper Ring (dark_bluish_grey)
+1 72 -30 0 24 0 0 1 -1 0 0 0 -1 0 3665.dat
+0 // Plate  1 x  4 (black)
+1 0 -20 0 32 1 0 0 0 0 1 0 -1 0 3710.dat
+0 // Wedge  4 x  2 Double Right (dark_bluish_grey)
+1 72 10 0 56 0 0 1 -1 0 0 0 -1 0 43711.dat
+0 // Tile  1 x  1 with Groove (dark_bluish_grey)
+1 72 10 0 64 0 0 -1 1 0 0 0 -1 0 3070b.dat
+0 FILE subModel-18.ldr
+0 18
+0 Author: Roland Dahl [RolandD]
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 // Plate  2 x  3 (black)
+1 0 20 30 8 0 0 -1 -1 0 0 0 1 0 3021.dat
+0 // Tile  1 x  4 with Groove (white)
+1 15 0 50 -8 1 0 0 0 0 -1 0 1 0 2431.dat
+0 // Hinge Panel  2 x  4 x  3.333 Locking (white)
+1 15 0 50 0 1 0 0 0 0 -1 0 1 0 44572.dat
+0 // Plate  1 x  1 Round (black)
+1 0 -10 50 8 1 0 0 0 0 -1 0 1 0 4073.dat
+0 // Plate  1 x  3 (black)
+1 0 10 50 16 1 0 0 0 0 -1 0 1 0 3623.dat
+0 FILE subModel-19.ldr
+0 19
+0 Author: Roland Dahl [RolandD]
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 // Plate  2 x  3 (black)
+1 0 20 30 -37.998 0 0 1 -1 0 0 0 -1 0 3021.dat
+0 // Tile  1 x  4 with Groove (white)
+1 15 0 50 -21.998 -1 0 0 0 0 -1 0 -1 0 2431.dat
+0 // Hinge Panel  2 x  4 x  3.333 Locking (white)
+1 15 0 50 -29.998 -1 0 0 0 0 -1 0 -1 0 44572.dat
+0 // Plate  1 x  3 (black)
+1 0 10 50 -45.998 -1 0 0 0 0 -1 0 -1 0 3623.dat
+0 FILE subModel-05.ldr
+0 05
+0 Author: Roland Dahl [RolandD]
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 // Hinge  1 x  2 Base (dark_bluish_grey)
+1 72 0 0 0 0 0 1 0 1 0 -1 0 0 3937.dat
+0 // Hinge  2 x  2 Top (dark_bluish_grey)
+1 72 -10.005 10 0 0 1.001 0 0 0 -1.001 -1 0 0 6134.dat
+0 // Plate  1 x  2 with Handle Type 2 (black)
+1 0 -18.015 -0.009 -10 0 1.001 0 -1.001 0 0 0 0 1.001 48336.dat
+0 // Plate  1 x  2 with Handle Type 2 (black)
+1 0 -18.015 0.003 10 0 1.001 0 1.001 0 0 0 0 -1.001 48336.dat
+0 // Flag  2 x  2 Trapezoid (Thin C-Clip) (black)
+1 0 -16.032 -42.029 -30.012 0.087 0 -0.996 0 1.001 0.001 0.997 0 0.087 44676.dat
+0 // Flag  2 x  2 Trapezoid (Thin C-Clip) (black)
+1 0 -16.03 -39.997 30.012 -0.087 0 -0.996 0 1.001 0.001 0.997 0 -0.087 44676.dat
+0 FILE subModel-06.ldr
+0 06
+0 Author: Roland Dahl [RolandD]
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 // Plate  1 x  2 with Handle Type 2 (black)
+1 0 0 0 0 0 0.276 -0.962 0 0.962 0.276 1 0 0 48336.dat
+0 // Plate  1 x  1 Round (dark_bluish_grey)
+1 72 -2.206 -7.695 10 0 0.276 -0.962 0 0.962 0.276 1 0 0 4073.dat
+0 // Plate  1 x  1 Round (dark_bluish_grey)
+1 72 -2.206 -7.695 -10 0 0.276 -0.962 0 0.962 0.276 1 0 0 4073.dat
+0 // Plate  2 x  2 (black)
+1 0 -14.031 -12.632 0 0 0.276 -0.962 0 0.962 0.276 1 0 0 3022.dat
+0 // Plate  1 x  2 (black)
+1 0 -6.619 -23.085 0 0 0.276 -0.962 0 0.962 0.276 1 0 0 3023.dat
+0 // Slope Brick Curved  2 x  2 x   2/3 Triple with Two Top Studs (black)
+1 0 -47.299 -19.748 0 0 0.276 -0.962 0 0.962 0.276 1 0 0 47457.dat
+0 // Plate  1 x  1 with Clip Light Type 1 (black)
+1 0 -61.572 3.081 -12 -0.276 0 -0.962 -0.962 0 0.276 0 1 0 4081a.dat
+0 // Plate  1 x  1 with Clip Light Type 1 (black)
+1 0 -61.572 3.081 12 0.276 0 -0.962 0.962 0 0.276 0 -1 0 4081a.dat
+0 // Plate  1 x  1 with Clip Light Type 2 (black)
+1 0 -69.012 -15.604 0 0 0.962 -0.276 0 -0.276 -0.962 -1 0 0 4081b.dat
+0 // Tile  1 x  1 with Groove (dark_bluish_grey)
+1 72 -76.706 -13.398 0 0 0.962 -0.276 0 -0.276 -0.962 -1 0 0 3070b.dat
+0 // Plate  1 x  1 Round (black)
+1 0 -49.505 -27.443 -10 0 0.276 -0.962 0 0.962 0.276 1 0 0 4073.dat
+0 // Plate  1 x  1 Round (black)
+1 0 -49.505 -27.443 10 0 0.276 -0.962 0 0.962 0.276 1 0 0 4073.dat
+0 // Plate  1 x  2 (black)
+1 0 -21.443 -2.179 0 0 0.276 -0.962 0 0.962 0.276 1 0 0 3023.dat
+0 // Plate  1 x  2 (dark_bluish_grey)
+1 72 -39.577 7.184 0 0 -0.276 0.962 0 -0.962 -0.276 1 0 0 3023.dat
+0 // Plate  1 x  4 (dark_bluish_grey)
+1 72 -18.403 15.686 0 0 0.962 -0.276 0 -0.276 -0.962 -1 0 0 3710.dat
+0 // Slope Brick 31  1 x  1 x  0.667 (black)
+1 0 -18.403 15.686 -30 -0.276 0.962 0 -0.962 -0.276 0 0 0 1 54200.dat
+0 // Slope Brick 31  1 x  1 x  0.667 (black)
+1 0 -18.403 15.686 30 0.276 0.962 0 0.962 -0.276 0 0 0 -1 54200.dat
+0 // Brick  1 x  1 with Headlight (black)
+1 0 -32.958 30.268 -10 0 -0.276 0.962 0 -0.962 -0.276 1 0 0 4070.dat
+0 // Brick  1 x  1 with Headlight (black)
+1 0 -32.958 30.268 10 0 -0.276 0.962 0 -0.962 -0.276 1 0 0 4070.dat
+0 // Plate  1 x  2 (black)
+1 0 -26.098 17.892 0 0 0.962 -0.276 0 -0.276 -0.962 -1 0 0 3023.dat
+0 // Tile  1 x  2 without Groove (dark_bluish_grey)
+1 72 -30.752 37.963 0 0 -0.276 0.962 0 -0.962 -0.276 1 0 0 3069a.dat
+0 FILE subModel-21.ldr
+0 21
+0 Author: Roland Dahl [RolandD]
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 // Technic Tile  1 x  2 with Two Holes (dark_grey)
+1 8 0 0 0 0 0 -1 0 1 0 1 0 0 32530.dat
+0 // Hinge  1 x  2 Base (dark_bluish_grey)
+1 72 0 16 0 0 0 -1 0 1 0 1 0 0 3937.dat
+0 // Hinge  1 x  2 Top (dark_bluish_grey)
+1 72 0 16 0 0 0 -1 0 1 0 1 0 0 3938.dat
+0 // Plate  1 x  2 (black)
+1 0 0 8 0 0 0 -1 0 1 0 1 0 0 3023.dat
+0 // Technic Bush  1/2 Smooth with Axle Hole Reduced (yellow)
+1 14 -15 -22 0 0 0 -1 0 1 0 1 0 0 32123a.dat
+0 FILE subModel-07.ldr
+0 07
+0 Author: Roland Dahl [RolandD]
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 // Hinge  2 x  2 Top (black)
+1 0 -0.171 0.053 0 0 0.293 -0.956 0 0.956 0.293 1 0 0 6134.dat
+0 // Hinge  1 x  2 Base (black)
+1 0 -7.189 -22.898 0 0 0.293 -0.956 0 0.956 0.293 1 0 0 3937.dat
+0 // Hinge  2 x  2 Top (black)
+1 0 4.395 -18.335 0 0 -0.866 0.5 0 0.5 0.866 -1 0 0 6134.dat
+0 // Brick  1 x  1 with Headlight (black)
+1 0 32.108 -34.335 -10 0.5 -0.866 0 0.866 0.5 0 0 0 1 4070.dat
+0 // Tile  1 x  2 with Avionics Black and Green Pattern (dark_bluish_grey)
+1 72 39.037 -38.335 0 0 -0.866 0.5 0 0.5 0.866 -1 0 0 3069bpc4.dat
+0 // Brick  1 x  1 with Headlight (black)
+1 0 32.108 -34.335 10 -0.5 -0.866 0 -0.866 0.5 0 0 0 -1 4070.dat
+0 // Tile  1 x  2 with Ice Planet Control Panel Pattern (black)
+1 0 42.108 -17.015 0 0 -0.866 0.5 0 0.5 0.866 -1 0 0 3069bp61.dat
+0 // Plate  1 x  1 with Clip Light Type 2 (black)
+1 0 35.18 -13.014 -10 0.5 -0.866 0 0.866 0.5 0 0 0 1 4081b.dat
+0 // Plate  1 x  1 with Clip Light Type 2 (black)
+1 0 35.18 -13.014 10 -0.5 -0.866 0 -0.866 0.5 0 0 0 -1 4081b.dat
+0 // Plate  1 x  1 Round (black)
+1 0 11.324 -22.335 10 0 -0.866 0.5 0 0.5 0.866 -1 0 0 4073.dat
+0 // Plate  1 x  1 Round (black)
+1 0 11.324 -22.335 -10 0 -0.866 0.5 0 0.5 0.866 -1 0 0 4073.dat
+0 // Plate  1 x  2 (black)
+1 0 28.252 -9.015 0 0 -0.866 0.5 0 0.5 0.866 -1 0 0 3023.dat
+0 // Hinge  1 x  2 Base (black)
+1 0 2.756 -0.387 0 0 0 1 0 1 0 -1 0 0 3937.dat
+0 // Plate  1 x  2 (black)
+1 0 21.324 -5.015 0 0 -0.866 0.5 0 0.5 0.866 -1 0 0 3023.dat
+0 // Slope Brick 31  1 x  1 x  0.667 (trans_dark_blue)
+1 33 23.444 -29.333 16 -0.5 0 0.866 -0.866 0 -0.5 0 -1 0 54200.dat
+0 // Slope Brick 31  1 x  1 x  0.667 (trans_dark_blue)
+1 33 23.444 -29.333 -16 0.5 0 0.866 0.866 0 -0.5 0 1 0 54200.dat
+0 FILE subModel-08.ldr
+0 08
+0 Author: Roland Dahl [RolandD]
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 // Plate  1 x  3 (black)
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 3623.dat
+0 // Slope Brick 33  3 x  1 (dark_bluish_grey)
+1 72 20 -24 0 0 0 1 0 1 0 -1 0 0 4286.dat
+0 FILE subModel-09.ldr
+0 09
+0 Author: Roland Dahl [RolandD]
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 // Brick  1 x  2 (black)
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 3004.dat
+0 // Brick  1 x  2 with Grille (black)
+1 0 0 -24 0 1 0 0 0 1 0 0 0 1 2877.dat
+0 FILE subModel-10.ldr
+0 10
+0 Author: Roland Dahl [RolandD]
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 // Hinge  2 x  2 Top (dark_bluish_grey)
+1 72 0 0 0 -1 0 0 0 0.829 0.559 0 0.559 -0.829 6134.dat
+0 // Brick  1 x  1 Round with Hollow Stud (black)
+1 0 10 -19.897 -13.421 -1 0 0 0 0.829 0.559 0 0.559 -0.829 3062b.dat
+0 // Brick  1 x  1 Round with Hollow Stud (black)
+1 0 -10 -19.897 -13.421 -1 0 0 0 0.829 0.559 0 0.559 -0.829 3062b.dat
+0 // Plate  1 x  4 (black)
+1 0 20 -26.53 -17.894 -1 0 0 0 0.829 0.559 0 0.559 -0.829 3710.dat
+0 // Tile  1 x  2 Grille with Groove (dark_bluish_grey)
+1 72 40 -33.162 -22.368 -1 0 0 0 0.829 0.559 0 0.559 -0.829 2412b.dat
+0 // Tile  1 x  2 Grille with Groove (dark_bluish_grey)
+1 72 0 -33.162 -22.368 -1 0 0 0 0.829 0.559 0 0.559 -0.829 2412b.dat
+0 // Brick  1 x  2 (dark_bluish_grey)
+1 72 0 -8.713 -30.001 -1 0 0 0 0.829 0.559 0 0.559 -0.829 3004.dat
+0 FILE subModel-11.ldr
+0 11
+0 Author: Roland Dahl [RolandD]
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 // Hinge  2 x  2 Top (dark_bluish_grey)
+1 72 0 0 0 1 0 0 0 0.829 0.559 0 -0.559 0.829 6134.dat
+0 // Brick  1 x  1 Round with Hollow Stud (black)
+1 0 -10 -19.897 13.421 1 0 0 0 0.829 0.559 0 -0.559 0.829 3062b.dat
+0 // Brick  1 x  1 Round with Hollow Stud (black)
+1 0 10 -19.897 13.421 1 0 0 0 0.829 0.559 0 -0.559 0.829 3062b.dat
+0 // Plate  1 x  4 (black)
+1 0 20 -26.53 17.894 1 0 0 0 0.829 0.559 0 -0.559 0.829 3710.dat
+0 // Tile  1 x  2 Grille with Groove (dark_bluish_grey)
+1 72 40 -33.162 22.368 1 0 0 0 0.829 0.559 0 -0.559 0.829 2412b.dat
+0 // Tile  1 x  2 Grille with Groove (dark_bluish_grey)
+1 72 0 -33.162 22.368 1 0 0 0 0.829 0.559 0 -0.559 0.829 2412b.dat
+0 // Brick  1 x  2 (dark_bluish_grey)
+1 72 0 -8.713 30.001 1 0 0 0 0.829 0.559 0 -0.559 0.829 3004.dat
+0 FILE subModel-14.ldr
+0 14
+0 Author: Roland Dahl [RolandD]
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 // Technic Pin with Friction with Click Rotation Pin (black)
+1 0 0 0 0 -0.993 -0.096 0.078 -0.096 0.996 0.005 -0.078 -0.002 -0.998 47455.dat
+0 // Technic Brick  2 x  3 w/ Holes, Click Rot. Hinge (V) and Socket (dark_bluish_grey)
+1 72 -68.547 -16.657 -5.473 -0.993 -0.096 0.078 -0.096 0.996 0.005 -0.078 -0.002 -0.998 47432.dat
+0 // Plate  1 x  2 (black)
+1 0 -57.068 -23.614 -14.647 0.993 -0.096 -0.078 0.096 0.996 -0.005 0.078 -0.002 0.998 3023.dat
+0 // Tile  1 x  2 with Groove (black)
+1 0 -58.634 -23.723 5.303 0.993 -0.096 -0.078 0.096 0.996 -0.005 0.078 -0.002 0.998 3069b.dat
+0 // Technic Pin with Friction with Click Rotation Pin (black)
+1 0 -119.151 -11.481 -9.418 -0.984 0.078 -0.164 0.165 0.005 -0.987 -0.076 -0.998 -0.018 47455.dat
+0 // Tile  1 x  2 Grille with Groove (dark_bluish_grey)
+1 72 -222.599 -20.656 -7.553 0.984 0.164 -0.078 -0.165 0.987 -0.005 0.076 0.018 0.998 2412b.dat
+0 // Plate  1 x  1 Round (dark_bluish_grey)
+1 72 -230.872 -18.893 -28.266 0.984 0.164 -0.078 -0.165 0.987 -0.005 0.076 0.018 0.998 4073.dat
+0 // Technic Brick  2 x  2 with Hole and Rotation Joint Socket (dark_bluish_grey)
+1 72 -220.5 -12.706 -17.381 -0.078 0.164 -0.984 -0.005 0.987 0.165 0.998 0.018 -0.076 48169.dat
+0 // Technic Brick  2 x  2 with Hole and Rotation Joint Socket (dark_bluish_grey)
+1 72 -179.829 -11.427 -14.181 0.984 0.164 -0.078 -0.165 0.987 -0.005 0.076 0.018 0.998 48169.dat
+0 // Plate  2 x  2 (black)
+1 0 -181.145 -19.321 -14.328 0.984 0.164 -0.078 -0.165 0.987 -0.005 0.076 0.018 0.998 3022.dat
+0 // Plate  1 x  2 (white)
+1 15 -181.677 -27.161 -24.45 0.984 0.164 -0.078 -0.165 0.987 -0.005 0.076 0.018 0.998 3023.dat
+0 // Wedge  4 x  2 Double Right (dark_bluish_grey)
+1 72 -175.785 -52.496 -24.126 0.078 0.164 0.984 0.005 0.987 -0.165 -0.998 0.018 0.076 43711.dat
+0 // Plate  1 x  2 (black)
+1 0 -166.044 10.604 -12.978 0.078 0.164 0.984 0.005 0.987 -0.165 -0.998 0.018 0.076 3023.dat
+0 // Wedge  4 x  4 Triple Inverted without Ribs between Studs (dark_bluish_grey)
+1 72 -167.359 2.709 -13.125 0.078 0.164 0.984 0.005 0.987 -0.165 -0.998 0.018 0.076 4855.dat
+0 // Brick  1 x  1 Round with Hollow Stud (black)
+1 0 -168.957 -20.811 -43.49 0.078 0.164 0.984 0.005 0.987 -0.165 -0.998 0.018 0.076 3062b.dat
+0 // Slope Brick 33  3 x  1 (dark_bluish_grey)
+1 72 -193.333 -17.832 14.835 -0.078 0.164 -0.984 -0.005 0.987 0.165 0.998 0.018 -0.076 4286.dat
+0 // Slope Brick 31  1 x  1 x  0.667 (dark_bluish_grey)
+1 72 -193.333 -17.832 14.835 0.078 0.164 0.984 0.005 0.987 -0.165 -0.998 0.018 0.076 54200.dat
+0 // Technic Brick  2 x  2 with Hole, Half Rotation Joint Ball Horiz (dark_bluish_grey)
+1 72 40 -10 0 -1 0 0 0 1 0 0 0 -1 48170.dat
+0 FILE subModel-15.ldr
+0 15
+0 Author: Roland Dahl [RolandD]
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 // Plate  1 x  2 (black)
+1 0 -57.068 -23.615 14.647 0.993 -0.096 0.078 0.096 0.996 0.005 -0.078 0.002 0.998 3023.dat
+0 // Technic Pin with Friction with Click Rotation Pin (black)
+1 0 0 0 0 -0.993 -0.096 -0.078 -0.096 0.996 -0.005 0.078 0.002 -0.998 47455.dat
+0 // Technic Brick  2 x  3 w/ Holes, Click Rot. Hinge (V) and Socket (dark_bluish_grey)
+1 72 -68.547 -16.658 5.473 -0.993 -0.096 -0.078 -0.096 0.996 -0.005 0.078 0.002 -0.998 47432.dat
+0 // Tile  1 x  2 with Groove (black)
+1 0 -58.634 -23.724 -5.303 0.993 -0.096 0.078 0.096 0.996 0.005 -0.078 0.002 0.998 3069b.dat
+0 // Technic Pin with Friction with Click Rotation Pin (black)
+1 0 -119.151 -11.482 9.418 -0.984 -0.078 -0.164 0.165 -0.005 -0.987 0.076 -0.998 0.018 47455.dat
+0 // Technic Brick  2 x  2 with Hole and Rotation Joint Socket (dark_bluish_grey)
+1 72 -220.5 -12.709 17.381 -0.078 0.164 0.984 -0.005 0.987 -0.165 -0.998 -0.018 -0.076 48169.dat
+0 // Plate  1 x  2 (white)
+1 15 -181.677 -27.164 24.45 0.984 0.164 0.078 -0.165 0.987 0.005 -0.076 -0.018 0.998 3023.dat
+0 // Brick  1 x  1 Round with Hollow Stud (black)
+1 0 -168.957 -20.813 43.49 -0.078 0.164 0.984 -0.005 0.987 -0.165 -0.998 -0.018 -0.076 3062b.dat
+0 // Technic Brick  2 x  2 with Hole and Rotation Joint Socket (dark_bluish_grey)
+1 72 -179.829 -11.429 14.181 0.984 0.164 0.078 -0.165 0.987 0.005 -0.076 -0.018 0.998 48169.dat
+0 // Plate  2 x  2 (black)
+1 0 -181.145 -19.324 14.328 0.984 0.164 0.078 -0.165 0.987 0.005 -0.076 -0.018 0.998 3022.dat
+0 // Slope Brick 33  3 x  1 (dark_bluish_grey)
+1 72 -193.333 -17.834 -14.835 0.078 0.164 -0.984 0.005 0.987 0.165 0.998 -0.018 0.076 4286.dat
+0 // Slope Brick 31  1 x  1 x  0.667 (dark_bluish_grey)
+1 72 -193.333 -17.834 -14.835 -0.078 0.164 0.984 -0.005 0.987 -0.165 -0.998 -0.018 -0.076 54200.dat
+0 // Plate  1 x  2 (black)
+1 0 -166.044 10.601 12.978 -0.078 0.164 0.984 -0.005 0.987 -0.165 -0.998 -0.018 -0.076 3023.dat
+0 // Wedge  4 x  4 Triple Inverted without Ribs between Studs (dark_bluish_grey)
+1 72 -167.359 2.707 13.125 -0.078 0.164 0.984 -0.005 0.987 -0.165 -0.998 -0.018 -0.076 4855.dat
+0 // Tile  1 x  2 Grille with Groove (dark_bluish_grey)
+1 72 -222.599 -20.659 7.553 0.984 0.164 0.078 -0.165 0.987 0.005 -0.076 -0.018 0.998 2412b.dat
+0 // Plate  1 x  1 Round (dark_bluish_grey)
+1 72 -230.872 -18.896 28.267 0.984 0.164 0.078 -0.165 0.987 0.005 -0.076 -0.018 0.998 4073.dat
+0 // Wedge  4 x  2 Double Left (dark_bluish_grey)
+1 72 -175.784 -52.498 24.126 -0.078 0.164 0.984 -0.005 0.987 -0.165 -0.998 -0.018 -0.076 43710.dat
+0 // Technic Brick  2 x  2 with Hole, Half Rotation Joint Ball Horiz (dark_bluish_grey)
+1 72 40 -10.003 0 -1 0 0 0 1 0 0 0 -1 48170.dat
+0 FILE subModel-20.ldr
+0 20
+0 Author: Roland Dahl [RolandD]
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 // Dish  2 x  2 Inverted (dark_bluish_grey)
+1 72 0 0 -6.001 -1 0 0 0 0 -1 0 -1 0 4740.dat
+0 // Plate  1 x  1 Round with Open Stud (yellow)
+1 14 0 0 13.999 1 0 0 0 0 -1 0 1 0 85861.dat
+0 // Plate  2 x  2 Round with Axlehole (dark_bluish_grey)
+1 72 0 0 21.999 1 0 0 0 0 -1 0 1 0 4032a.dat
+0 // Technic Handle (black)
+1 0 0 0 3.999 -1 0 0 0 1 0 0 0 -1 6221.dat
+0 FILE subModel-27.ldr
+0 27
+0 Author: Roland Dahl [RolandD]
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 // Plate  4 x  4 (dark_bluish_grey)
+1 72 0 0 0 -1 0 0 0 1 0 0 0 -1 3031.dat
+0 // Technic Brick  1 x  2 with Axlehole with Open Sides and Stud Blocker (dark_bluish_grey)
+1 72 30 8 20 0 0 1 0 1 0 -1 0 0 32064a.dat
+0 // Brick  1 x  2 (dark_bluish_grey)
+1 72 -20 8 10 1 0 0 0 1 0 0 0 1 3004.dat
+0 // Slope Brick 45  2 x  1 Inverted without Inner Stopper Ring (dark_bluish_grey)
+1 72 -30 8 -10 1 0 0 0 1 0 0 0 1 3665.dat
+0 // Slope Brick 45  2 x  1 Inverted without Inner Stopper Ring (white)
+1 15 30 8 -10 1 0 0 0 1 0 0 0 1 3665.dat
+0 // ~Slope Brick 45  2 x  2 Inverted without Inner Stopper Ring (Obsolete) (white)
+1 15 0 8 -10 1 0 0 0 1 0 0 0 1 3660.dat
+0 // Plate  1 x  4 (white)
+1 15 0 -8 30 1 0 0 0 1 0 0 0 1 3710.dat
+0 // Plate  1 x  4 (white)
+1 15 0 -16 30 1 0 0 0 1 0 0 0 1 3710.dat
+0 // Plate  1 x  6 (dark_bluish_grey)
+1 72 -20 -24 30 1 0 0 0 1 0 0 0 1 3666.dat
+0 // Slope Brick 33  3 x  1 (dark_bluish_grey)
+1 72 -30 -24 10 1 0 0 0 1 0 0 0 1 4286.dat
+0 // Slope Brick 33  3 x  1 (white)
+1 15 -10 -24 10 1 0 0 0 1 0 0 0 1 4286.dat
+0 // Slope Brick 33  3 x  2 (white)
+1 15 20 -24 10 1 0 0 0 1 0 0 0 1 3298.dat
+0 // Wedge  4 x  2 Double Right (white)
+1 15 -10 -48 30 0 0 -1 0 1 0 1 0 0 43711.dat
+0 // Slope Brick 31  1 x  1 x  0.667 (dark_bluish_grey)
+1 72 -30 -24 10 1 0 0 0 1 0 0 0 1 54200.dat
+0 // Bracket  1 x  2 -  2 x  2 Down (dark_bluish_grey)
+1 72 -60 -32 30 1 0 0 0 1 0 0 0 1 44728.dat
+0 // Plate  2 x  2 Round with Axlehole (white)
+1 15 -60 -32 8 1 0 0 0 0 -1 0 1 0 4032a.dat
+0 // Plate  2 x  2 Round with Axlehole (white)
+1 15 -60 -32 0 1 0 0 0 0 -1 0 1 0 4032a.dat
+0 // Tile  2 x  2 Round with Cross Underside Stud (white)
+1 15 -60 -32 -8 1 0 0 0 0 -1 0 1 0 4150.dat
+0 // Plate  2 x  2 (black)
+1 0 -60 8 8 1 0 0 0 0 -1 0 1 0 3022.dat
+0 // Plate  2 x  2 (black)
+1 0 -60 8 0 1 0 0 0 0 -1 0 1 0 3022.dat
+0 // Slope Brick 31  1 x  1 x  0.667 (dark_bluish_grey)
+1 72 -50 18 0 1 0 0 0 0 -1 0 1 0 54200.dat
+0 // Slope Brick 31  1 x  1 x  0.667 (dark_bluish_grey)
+1 72 -50 -2 0 -1 0 0 0 0 1 0 1 0 54200.dat
+0 // Slope Brick 45  1 x  2 Double / Inverted without Centre Stud (black)
+1 0 -70 8 -24 0 0 -1 -1 0 0 0 1 0 3049c.dat
+0 // Wheel Rim 20 x 30 with 3 Pegholes (black)
+1 0 90 18 20 0 0 1 -1 0 0 0 -1 0 44292.dat
+0 // Technic Cylinder  4 x  4 x  2 with 3 Pin Holes and Center Bar (light_grey)
+1 7 135 18 20 0 0 -1 0 -1 0 -1 0 0 41531.dat
+0 // Brick  2 x  2 Round without Reinforcement (dark_bluish_grey)
+1 72 170 18 20 0 -1 0 0 0 -1 1 0 0 3941.dat
+0 // Cone  2 x  2 x  2 with Hollow Stud and Axlehole Teeth (light_grey)
+1 7 218 18 20 0 -1 0 0 0 -1 1 0 0 3942b.dat
+0 // Brick  4 x  4 Round with Holes (white)
+1 15 65 18 20 0 -1 0 0 0 -1 1 0 0 6222.dat
+0 // Technic Axle  9 (black)
+1 0 100 18 20 1 0 0 0 0 -1 0 1 0 60485.dat
+0 FILE subModel-26.ldr
+0 26
+0 Author: Roland Dahl [RolandD]
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 // Plate  4 x  4 (dark_bluish_grey)
+1 72 0 0 0 -1 0 0 0 1 0 0 0 -1 3031.dat
+0 // Technic Brick  1 x  2 with Axlehole with Open Sides and Stud Blocker (dark_bluish_grey)
+1 72 30 8 -20 0 0 1 0 1 0 -1 0 0 32064a.dat
+0 // Brick  1 x  2 (dark_bluish_grey)
+1 72 -20 8 -10 1 0 0 0 1 0 0 0 1 3004.dat
+0 // Slope Brick 45  2 x  1 Inverted without Inner Stopper Ring (dark_bluish_grey)
+1 72 -30 8 10 -1 0 0 0 1 0 0 0 -1 3665.dat
+0 // Slope Brick 45  2 x  1 Inverted without Inner Stopper Ring (white)
+1 15 30 8 10 -1 0 0 0 1 0 0 0 -1 3665.dat
+0 // ~Slope Brick 45  2 x  2 Inverted without Inner Stopper Ring (Obsolete) (white)
+1 15 0 8 10 -1 0 0 0 1 0 0 0 -1 3660.dat
+0 // Plate  1 x  4 (white)
+1 15 0 -8 -30 1 0 0 0 1 0 0 0 1 3710.dat
+0 // Plate  1 x  4 (white)
+1 15 0 -16 -30 1 0 0 0 1 0 0 0 1 3710.dat
+0 // Plate  1 x  6 (dark_bluish_grey)
+1 72 -20 -24 -30 1 0 0 0 1 0 0 0 1 3666.dat
+0 // Slope Brick 33  3 x  1 (dark_bluish_grey)
+1 72 -30 -24 -10 -1 0 0 0 1 0 0 0 -1 4286.dat
+0 // Slope Brick 33  3 x  1 (white)
+1 15 -10 -24 -10 -1 0 0 0 1 0 0 0 -1 4286.dat
+0 // Slope Brick 33  3 x  2 (white)
+1 15 20 -24 -10 -1 0 0 0 1 0 0 0 -1 3298.dat
+0 // Slope Brick 31  1 x  1 x  0.667 (dark_bluish_grey)
+1 72 -30 -24 -10 -1 0 0 0 1 0 0 0 -1 54200.dat
+0 // Slope Brick 31  1 x  1 x  0.667 (dark_bluish_grey)
+1 72 -50 -2 0 1 0 0 0 0 1 0 -1 0 54200.dat
+0 // Slope Brick 45  1 x  2 Double / Inverted without Centre Stud (black)
+1 0 -70 8 24 0 0 -1 1 0 0 0 -1 0 3049c.dat
+0 // Slope Brick 31  1 x  1 x  0.667 (dark_bluish_grey)
+1 72 -50 18 0 -1 0 0 0 0 -1 0 -1 0 54200.dat
+0 // Plate  2 x  2 Round with Axlehole (white)
+1 15 -60 -32 -8 -1 0 0 0 0 -1 0 -1 0 4032a.dat
+0 // Plate  2 x  2 Round with Axlehole (white)
+1 15 -60 -32 0 -1 0 0 0 0 -1 0 -1 0 4032a.dat
+0 // Tile  2 x  2 Round with Cross Underside Stud (white)
+1 15 -60 -32 8 -1 0 0 0 0 -1 0 -1 0 4150.dat
+0 // Bracket  1 x  2 -  2 x  2 Down (dark_bluish_grey)
+1 72 -60 -32 -30 -1 0 0 0 1 0 0 0 -1 44728.dat
+0 // Plate  2 x  2 (black)
+1 0 -60 8 -8 -1 0 0 0 0 -1 0 -1 0 3022.dat
+0 // Plate  2 x  2 (black)
+1 0 -60 8 0 -1 0 0 0 0 -1 0 -1 0 3022.dat
+0 // Wedge  4 x  2 Double Left (white)
+1 15 -10 -48 -30 0 0 -1 0 1 0 1 0 0 43710.dat
+0 // Wheel Rim 20 x 30 with 3 Pegholes (black)
+1 0 90 18 -20 0 0 1 -1 0 0 0 -1 0 44292.dat
+0 // Technic Cylinder  4 x  4 x  2 with 3 Pin Holes and Center Bar (light_grey)
+1 7 135 18 -20 0 0 -1 0 -1 0 -1 0 0 41531.dat
+0 // Brick  2 x  2 Round without Reinforcement (dark_bluish_grey)
+1 72 170 18 -20 0 -1 0 0 0 -1 1 0 0 3941.dat
+0 // Cone  2 x  2 x  2 with Hollow Stud and Axlehole Teeth (light_grey)
+1 7 218 18 -20 0 -1 0 0 0 -1 1 0 0 3942b.dat
+0 // Brick  4 x  4 Round with Holes (white)
+1 15 65 18 -20 0 -1 0 0 0 -1 1 0 0 6222.dat
+0 // Technic Axle  9 (black)
+1 0 100 18 -20 1 0 0 0 0 -1 0 1 0 60485.dat
+0 FILE subModel-62.ldr
+0 62
+0 Author: Roland Dahl [RolandD]
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 // Plate  1 x  4 (black)
+1 0 0 0 0 1 0 0 0 1 0 0 0 1 3710.dat
+0 // Technic Beam  2 (black)
+1 0 0 -10 0 0 0 1 0 1 0 -1 0 0 43857.dat
+0 // Slope Brick 31  1 x  1 x  0.667 (black)
+1 0 -30 0 0 0 0 1 0 1 0 -1 0 0 54200.dat
+0 // Slope Brick 31  1 x  1 x  0.667 (black)
+1 0 30 0 0 0 0 -1 0 1 0 1 0 0 54200.dat
+0 // Plate  1 x  1 Round (light_grey)
+1 7 -10 -20 0 0 0 -1 0 -1 0 -1 0 0 4073.dat
+0 // Plate  1 x  1 Round (light_grey)
+1 7 10 -20 0 0 0 -1 0 -1 0 -1 0 0 4073.dat
+0 FILE subModel-63.ldr
+0 63
+0 Author: Roland Dahl [RolandD]
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 // Wedge  4 x  2 Double Right (dark_bluish_grey)
+1 72 0 0 0 -0.087 0.164 0.983 -0.004 0.986 -0.165 -0.997 -0.018 -0.086 43711.dat
+0 // Tile  1 x  4 with Groove (white)
+1 15 -52.233 0.294 -15.789 0.984 0.164 0.078 -0.165 0.987 0.005 -0.076 -0.018 0.998 2431.dat
+0 // Slope Brick 33  3 x  4 (white)
+1 15 -31.226 4.881 -17.369 0.983 0.164 0.087 -0.165 0.986 0.004 -0.086 -0.018 0.997 3297.dat
+0 // Slope Brick 31  1 x  1 x  0.667 (white)
+1 15 -79.908 36.659 -53.401 0.983 0.164 0.087 -0.165 0.986 0.004 -0.086 -0.018 0.997 54200.dat
+0 // Slope Brick 31  1 x  1 x  0.667 (white)
+1 15 -20.188 36.564 -68.689 0.164 0.087 0.983 0.986 0.004 -0.165 -0.018 0.997 -0.086 54200.dat
+0 // Tile  1 x  2 with Groove (white)
+1 15 8.587 31.574 -79.231 0.983 0.087 -0.164 -0.165 0.004 -0.986 -0.086 0.997 0.018 3069b.dat
+0 // Plate  2 x  2 (dark_bluish_grey)
+1 72 -6.757 25.281 -9.552 -0.087 0.164 0.983 -0.004 0.986 -0.165 -0.997 -0.018 -0.086 3022.dat
+0 // Slope Brick 33  3 x  1 Inverted with Notch and Thick Front (white)
+1 15 -40.607 30.047 -56.825 -0.087 0.164 0.983 -0.004 0.986 -0.165 -0.997 -0.018 -0.086 4287.dat
+0 // Brick  1 x  1 with Stud on 1 Side (white)
+1 15 -20.956 26.741 -58.537 0.983 0.164 0.087 -0.165 0.986 0.004 -0.086 -0.018 0.997 87087.dat
+0 // Brick  1 x  1 with Stud on 1 Side (white)
+1 15 -1.306 23.435 -60.25 0.983 0.164 0.087 -0.165 0.986 0.004 -0.086 -0.018 0.997 87087.dat
+0 FILE subModel-64.ldr
+0 64
+0 Author: Roland Dahl [RolandD]
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+0 // Plate  2 x  2 (dark_bluish_grey)
+1 72 0 0 0 -0.078 0.164 -0.984 -0.005 0.987 0.165 0.998 0.018 -0.076 3022.dat
+0 // Wedge  4 x  2 Double Left (dark_bluish_grey)
+1 72 6.676 -25.28 -9.651 0.078 0.164 0.984 0.005 0.987 -0.165 -0.998 0.018 0.076 43710.dat
+0 // Slope Brick 33  3 x  4 (white)
+1 15 -24.407 -20.431 8.009 -0.984 0.164 0.078 0.165 0.987 0.005 -0.076 0.018 -0.998 3297.dat
+0 // Tile  1 x  4 with Groove (white)
+1 15 -45.401 -25.018 6.335 0.984 0.164 -0.078 -0.165 0.987 -0.005 0.076 0.018 0.998 2431.dat
+0 // Slope Brick 31  1 x  1 x  0.667 (white)
+1 15 -72.787 11.303 44.533 -0.984 0.164 0.078 0.165 0.987 0.005 -0.076 0.018 -0.998 54200.dat
+0 // Tile  1 x  2 with Groove (white)
+1 15 15.998 6.189 69.542 -0.984 0.078 -0.164 0.165 0.005 -0.987 -0.076 -0.998 -0.018 3069b.dat
+0 // Slope Brick 31  1 x  1 x  0.667 (white)
+1 15 -12.892 11.194 59.272 -0.164 0.078 0.984 -0.987 0.005 -0.165 -0.018 -0.998 0.076 54200.dat
+0 // Slope Brick 33  3 x  1 Inverted with Notch and Thick Front (white)
+1 15 -33.431 4.688 47.586 0.078 0.164 0.984 0.005 0.987 -0.165 -0.998 0.018 0.076 4287.dat
+0 // Brick  1 x  1 with Stud on 1 Side (white)
+1 15 -13.753 1.38 49.113 -0.984 0.164 0.078 0.165 0.987 0.005 -0.076 0.018 -0.998 87087.dat
+0 // Brick  1 x  1 with Stud on 1 Side (white)
+1 15 5.924 -1.927 50.64 -0.984 0.164 0.078 0.165 0.987 0.005 -0.076 0.018 -0.998 87087.dat

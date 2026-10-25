@@ -1,0 +1,46 @@
+{
+  "format": "ldraw-nova-review",
+  "version": 1,
+  "source": {
+    "path": "/data/output/20261023-212750-9d7253/kestrel2/kestrel2.plan.json",
+    "sha256": "f33e24aea535caf77a276e94dd7298170c5628c2de7b9c120f4a8226608eb755",
+    "section": null,
+    "colour": null
+  },
+  "output": "/data/output/20261023-212750-9d7253/kestrel2/review",
+  "checks_passed": true,
+  "physical_validity": "not_proven",
+  "visual_review": "required: open and inspect the images",
+  "model_sha256": "8f7e0325e0a4aa9a03c42399846b27b51c3aadbaa1c4331a3c717419d8273885",
+  "stages": {
+    "validation": "passed",
+    "bom": "passed",
+    "render": "passed",
+    "bom_comparison": "passed"
+  },
+  "artifacts": {
+    "bom-comparison.json": "9f79e90dac097c94557779ad62dcf470529cb4dc775b7ad647c879aaaafe118c",
+    "bom.json": "0b7d8a3ade13b019a680f9b209c853bcd793244dc6cb379b938eb2fa61b44800",
+    "model.mpd": "8f7e0325e0a4aa9a03c42399846b27b51c3aadbaa1c4331a3c717419d8273885",
+    "previews/back.png": "aae2ac61c6acc121af4c31112605741defd823f5a2267699fbf59f535aac77bd",
+    "previews/bottom.png": "4c43ebf74565b81b691135d7287d7b62b05a4035cbae541401991c08e2cb6f73",
+    "previews/front.png": "de25074e6c7008647ad0b3628ddbf645ceaf16ea587e5a96354e47bf921d4dc7",
+    "previews/home.png": "5a54bdacf4ba0a1e33418d9073dbe1476d51a5b0a65dfe7279a3f9f3600e66e1",
+    "previews/left.png": "c30a7a7a6980150ee848b503c85b531ca51ae204688150c74930823f3909a739",
+    "previews/leocad-bom.csv": "8b93fd073db28b5eb9dacc399f41f3f7e53b88649323482a9e9f2202fbcc641d",
+    "previews/right.png": "df7e7a2fc9290a6f680bdd3a528526062e1608af81d796034860809eff86d931",
+    "previews/top.png": "7f02f964397aa0bbd220d8f44fe89076aae518eb2f9335276032bb5bbff2163a",
+    "validation.json": "5a0a59e978bcc92339f7f930b44ab664e359c48f6443c7547894f5efe8a35f33"
+  },
+  "diagnostics": [
+    {
+      "code": "coverage.collision_review",
+      "severity": "warning",
+      "message": "Some parts lack rectangular body checks; oriented bounds refine candidates, while remaining overlaps require material review.",
+      "line_number": null,
+      "section": null
+    }
+  ],
+  "physical_placements": 183,
+  "exit_code": 0
+}

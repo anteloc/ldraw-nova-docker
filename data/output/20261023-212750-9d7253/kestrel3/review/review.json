@@ -1,0 +1,54 @@
+{
+  "format": "ldraw-nova-review",
+  "version": 1,
+  "source": {
+    "path": "/data/output/20261023-212750-9d7253/kestrel3/kestrel3.plan.json",
+    "sha256": "f7e220b056fca43f74e6f8daa5422999a65993501811d3877871edcf8b10fd86",
+    "section": null,
+    "colour": null
+  },
+  "output": "/data/output/20261023-212750-9d7253/kestrel3/review",
+  "checks_passed": true,
+  "physical_validity": "not_proven",
+  "visual_review": "required: open and inspect the images",
+  "model_sha256": "130994ad2b3042999a6168357259d0e268efccc7434fd050ead434a1ac094673",
+  "stages": {
+    "validation": "passed",
+    "bom": "passed",
+    "render": "passed",
+    "bom_comparison": "passed"
+  },
+  "artifacts": {
+    "bom-comparison.json": "b98deb3a4e9dacc99d2cd276e13bf73b2d6649f12a5594b2b6928a4c785a008b",
+    "bom.json": "9e6e9a6a3422588bebf86bda348a7230b6b859fec494899d68f25ee2650c3a87",
+    "model.mpd": "130994ad2b3042999a6168357259d0e268efccc7434fd050ead434a1ac094673",
+    "previews/back.png": "dac6b2aa9ffb58b2a4dffb3c790f113e7b2ab6a9e9127648efff3f0f41229a2a",
+    "previews/bottom.png": "608468e681874d430547b81dc40c8bb4875ff8719b368b26bd998bc2bb8fd888",
+    "previews/front.png": "490fa9a08b21d2a5e461f07d6ab83999d96e5143d7626214e4ec7efaaaa5bee5",
+    "previews/home.png": "f979a1fcaeb5fd84e2a8d4ee7dbfd17ff3259202d4d4c71db87c25c0ef407c0a",
+    "previews/left.png": "6cdbc2c400aa68c8cef19d27cf2d456e09b47cfe73e0487e02d22c2835e661ff",
+    "previews/leocad-bom.csv": "1bf02943c318aff036af1ee0b5fa4c6af6a19fd2946fc742f19ce89e5e98fa73",
+    "previews/right.png": "4955e947b4cde1b44925292adfe344d97f6c43377bbe1be3999e381cc577308b",
+    "previews/top.png": "73bb9f080115af4ed07254b4ad21447cf5c9bb49b4e05823e5dcb340f8a39671",
+    "validation.json": "216e1359f30cc909e49bf3dd70b9c9a264df547478f9c4cf8ac181a6d5559ac4"
+  },
+  "diagnostics": [
+    {
+      "code": "assembly.disconnected_evidence",
+      "severity": "warning",
+      "message": "Connection analysis finds multiple groups. Investigate floating parts, missing connector metadata, or intentional separate objects.",
+      "line_number": null,
+      "section": null,
+      "component_count": 14
+    },
+    {
+      "code": "coverage.collision_review",
+      "severity": "warning",
+      "message": "Some parts lack rectangular body checks; oriented bounds refine candidates, while remaining overlaps require material review.",
+      "line_number": null,
+      "section": null
+    }
+  ],
+  "physical_placements": 195,
+  "exit_code": 0
+}

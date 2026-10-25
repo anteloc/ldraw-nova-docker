@@ -1,0 +1,13 @@
+{
+  "id": "20261023-203017-edd25c",
+  "title": "build me a set of flowers, inspired by the ones in the attac\u2026",
+  "llm_model_id": "aa9affd04b09",
+  "created_at": 1792787417.02484,
+  "updated_at": 1792787794.1738608,
+  "options": {
+    "mode": "agent",
+    "permissions": "full",
+    "effort": null,
+    "context_tokens": 1000000
+  }
+}
